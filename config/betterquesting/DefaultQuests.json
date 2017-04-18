@@ -69904,7 +69904,7 @@
     },
     {
       "questID": 795,
-      "name": "MV Forming Press",
+      "name": "MV Assembler",
       "description": "Advanced Circuits need a MV Assembling Machine. Lets craft some.",
       "isMain": false,
       "isSilent": false,
@@ -71824,7 +71824,8 @@
         813,
         814,
         815,
-        816
+        816,
+        819
       ]
     },
     {
@@ -72555,7 +72556,8 @@
       ],
       "preRequisites": [
         815,
-        817
+        817,
+        818
       ]
     },
     {
@@ -72656,7 +72658,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -72666,6 +72668,883 @@
       ],
       "preRequisites": [
         809
+      ]
+    },
+    {
+      "questID": 818,
+      "name": "Frequency Module",
+      "description": "The Frequency Module will help you hear sounds properly while in space (it\u0027s also used with the Telemetry Unit so that your buddies can keep track on you from your base, if you are playing with friends). You need it in you Inventory and in the Moon Lander.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.basicItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 19
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32690
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32740
+            },
+            {
+              "id": "GalacticraftCore:item.battery",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 100,
+              "tag": {
+                "electricity:6": 0.0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        824
+      ]
+    },
+    {
+      "questID": 819,
+      "name": "Small Fuel Cannister",
+      "description": "Every Rocket need Fuel Storage Cannister. For the Tier Rocket yoou need to craft two of them.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalaxySpace:item.ModuleSmallFuelCanister",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.oilCanisterPartial",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1001
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.ModuleSmallCanister",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.CompressedDualAluminium",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:item.CompressedDualBronze",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.ModuleSmallFuelCanister",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        812
+      ]
+    },
+    {
+      "questID": 820,
+      "name": "Rocket Launch Pad",
+      "description": "Each rocket need a Launch Pad. Build a 3x3 Pad to place your Rocket.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:tile.landingPad",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "IC2:itemPartAlloy",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_block",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.landingPad",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemPartAlloy",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        809
+      ]
+    },
+    {
+      "questID": 821,
+      "name": "Rocket Fuel",
+      "description": "To pumping the Fuel into you Rocket you need a Fuel Loader. Place the right beside the Launch Pad.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:tile.fuelLoader",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32601
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32611
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5132
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32405
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.fuelLoader",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.fuelCanisterPartial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        810
+      ]
+    },
+    {
+      "questID": 822,
+      "name": "Oxygen Gear",
+      "description": "Oxygen Gear is used to attach Oxygen Tanks to the Oxygen Masks. This is vital to any astronaut.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.oxygenGear",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32610
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
+            },
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.oxygenConcentrator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.oxygenGear",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockAlloyGlass",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.airFan",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.airVent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        823
+      ]
+    },
+    {
+      "questID": 823,
+      "name": "Oxygen Mask",
+      "description": "The Oxygen Mask is one part of the Oxygen System used to breathe on planets without oxygen, the others being (Oxygen Gear and Oxygen Tanks).",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.oxygenMask",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.ReinforcedGlassPlate",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemArmorHazmatHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.oxygenMask",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockAlloyGlass",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        820,
+        795
+      ]
+    },
+    {
+      "questID": 824,
+      "name": "Oxygen Gear",
+      "description": "The Light Oxygen Tank is an oxygen storage tank that can hold up to 90 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.\n\nUsage:\nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks include the Medium Oxygen Tank, which holds twice the amount of oxygen as a light tank, and the Heavy Oxygen Tank, which holds three times the amount of a light tank.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.oxygenTankLightFull",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.oxygenTankLightFull",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 900
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        823,
+        822
       ]
     },
     {
@@ -78567,48 +79446,83 @@
       "quests": [
         {
           "id": 809,
-          "x": 48,
+          "x": 84,
           "y": 0
         },
         {
           "id": 810,
-          "x": 48,
+          "x": 84,
           "y": 216
         },
         {
           "id": 811,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 812,
-          "x": 48,
+          "x": 84,
           "y": 60
         },
         {
           "id": 813,
-          "x": 84,
+          "x": 120,
           "y": 96
         },
         {
           "id": 814,
-          "x": 12,
+          "x": 48,
           "y": 96
         },
         {
           "id": 815,
-          "x": 132,
+          "x": 168,
           "y": 96
         },
         {
           "id": 816,
-          "x": 168,
+          "x": 204,
           "y": 132
         },
         {
           "id": 817,
-          "x": 168,
+          "x": 204,
           "y": 96
+        },
+        {
+          "id": 818,
+          "x": 252,
+          "y": 132
+        },
+        {
+          "id": 819,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 820,
+          "x": 120,
+          "y": 0
+        },
+        {
+          "id": 821,
+          "x": 0,
+          "y": 216
+        },
+        {
+          "id": 822,
+          "x": 252,
+          "y": 0
+        },
+        {
+          "id": 823,
+          "x": 204,
+          "y": 0
+        },
+        {
+          "id": 824,
+          "x": 252,
+          "y": 60
         }
       ]
     },
