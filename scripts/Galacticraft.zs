@@ -1146,24 +1146,36 @@ recipes.addShapeless(<GalacticraftCore:item.schematic:1>, [<GalacticraftCore:ite
 
 // --- Schematics Tier 3 Rocket
 recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
-[<GalacticraftMars:item.schematic>]]);
+[<GalacticraftMars:item.schematic>, null, null],
+[null, null, null],
+[null, null, null]]);
 // -
 recipes.addShaped(<GalacticraftMars:item.schematic:2>, [
-[null, <GalacticraftMars:item.schematic>]]);
+[null, <GalacticraftMars:item.schematic>, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Schematics Cargo Rocket
 recipes.addShaped(<GalacticraftMars:item.schematic>, [
-[<GalacticraftMars:item.schematic:1>]]);
+[<GalacticraftMars:item.schematic:1>, null, null],
+[null, null, null],
+[null, null, null]]);
 // -
 recipes.addShaped(<GalacticraftMars:item.schematic:2>, [
-[null, <GalacticraftMars:item.schematic:1>]]);
+[null, <GalacticraftMars:item.schematic:1>, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Schematics Astro Miner
 recipes.addShaped(<GalacticraftMars:item.schematic>, [
-[<GalacticraftMars:item.schematic:2>]]);
+[<GalacticraftMars:item.schematic:2>, null, null],
+[null, null, null],
+[null, null, null]]);
 // -
 recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
-[null, <GalacticraftMars:item.schematic:2>]]);
+[null, <GalacticraftMars:item.schematic:2>, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Rocket Tier 1
 mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship>,[
