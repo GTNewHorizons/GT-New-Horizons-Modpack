@@ -49759,7 +49759,7 @@
           "requiredItems": [
             {
               "id": "minecraft:ender_pearl",
-              "Count": 16,
+              "Count": 8,
               "OreDict": "",
               "Damage": 0
             }
@@ -54606,8 +54606,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 40,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -54734,8 +54734,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -54869,8 +54869,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 50,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -54999,8 +54999,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 50,
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -55130,8 +55136,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 100,
+              "id": "dreamcraft:item.CoinSurvivorIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -55141,7 +55153,8 @@
       ],
       "preRequisites": [
         653,
-        213
+        213,
+        803
       ]
     },
     {
@@ -59020,7 +59033,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 10,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -67895,8 +67908,10 @@
         "id": "IC2:itemNightvisionGoggles",
         "Count": 1,
         "OreDict": "",
-        "Damage": 27,
-        "tag": {}
+        "Damage": 1,
+        "tag": {
+          "charge:6": 200000.0
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -67955,7 +67970,9 @@
         }
       ],
       "preRequisites": [
-        775
+        775,
+        797,
+        796
       ]
     },
     {
@@ -68134,8 +68151,10 @@
         "id": "IC2:itemArmorNanoChestplate",
         "Count": 1,
         "OreDict": "",
-        "Damage": 27,
-        "tag": {}
+        "Damage": 1,
+        "tag": {
+          "charge:6": 1000000.0
+        }
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -68201,6 +68220,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
@@ -68416,7 +68441,7 @@
     {
       "questID": 782,
       "name": "Ruby Lens",
-      "description": "Etched Wires need a Ruby Lens in the Laser engrave. Craft a lens.",
+      "description": "Etched Wires need a Ruby Lens in the Laser engrave recipes. Craft a lens in the Lathe.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69269,7 +69294,7 @@
     {
       "questID": 789,
       "name": "Energy Crystals",
-      "description": "Making energy crystals out of ruby and redstone dusts. Energy crystals can store 1 million EU.",
+      "description": "Making energy crystals out of ruby and redstone dusts in the mv mixer. Energy crystals can store 1 million EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69371,7 +69396,7 @@
         }
       ],
       "preRequisites": [
-        772
+        769
       ]
     },
     {
@@ -69574,7 +69599,8 @@
         }
       ],
       "preRequisites": [
-        792
+        792,
+        785
       ]
     },
     {
@@ -70198,6 +70224,823 @@
       "preRequisites": [
         794,
         753
+      ]
+    },
+    {
+      "questID": 798,
+      "name": "Don\u0027t try to fly with it",
+      "description": "Combining a Jetpack with some Nano Body Armor in the Assembler you get some Nono Jetpack. Better not tr to fly with it because you can\u0027t. It is part for the new Quantum Body Armor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.NanoChestJetPack",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorNanoChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            },
+            {
+              "id": "IC2:itemArmorJetpackElectric",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.NanoChestJetPack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32602
+            },
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        779,
+        176
+      ]
+    },
+    {
+      "questID": 799,
+      "name": "Don\u0027t try to dive with it",
+      "description": "Combining a Scuba Helmet with some Nano Helmet in the Assembler you get some Nono Scuba Helmet. Better not tr to dive with it because you can\u0027t. It is part for the new Quantum Body Armor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.NanoScubaHelmet",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorNanoHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            },
+            {
+              "id": "IC2:itemArmorHazmatHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.NanoScubaHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        779,
+        176
+      ]
+    },
+    {
+      "questID": 800,
+      "name": "Plated Leggins better not try to wear it",
+      "description": "Combining a Stainless Steel Platings with some Nano Leggings in the Assembler you get some Nono Plated Leggings. Better not try to wear it because you can\u0027t. It is part for the new Quantum Body Armor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.NanoPlatedLeggings",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorNanoLegs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            },
+            {
+              "id": "dreamcraft:item.StainlessSteelItemCasing",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.NanoPlatedLeggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17306
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        779,
+        176
+      ]
+    },
+    {
+      "questID": 801,
+      "name": "Don\u0027t try to walk with it",
+      "description": "Combining some Rubber Boots with  Nano Boots in the Assembler you get some Nono Rubber Boots. Better not tr to walk with it because you can\u0027t. It is part for the new Quantum Body Armor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.NanoRubberBoots",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorNanoBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            },
+            {
+              "id": "IC2:itemArmorRubBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.NanoRubberBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32602
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        779,
+        176
+      ]
+    },
+    {
+      "questID": 802,
+      "name": "Iridium Plated",
+      "description": "Plating all your Armor Parts with Iridium Alloy Casings give them a better duarbility. Not to to wear this Quantum Armor Parts because you need some Quantum Crystals to activate the Armor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.QuantumPartChestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.IridiumAlloyItemCasing",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.NanoScubaHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.NanoChestJetPack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.NanoPlatedLeggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.NanoRubberBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.QuantumPartHelmetEmpty",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.QuantumPartHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.QuantumPartChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.QuantumPartLeggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.QuantumPartBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemPartIridium",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:blockITNT",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        799,
+        801,
+        798,
+        800
+      ]
+    },
+    {
+      "questID": 803,
+      "name": "Quantum Armor",
+      "description": "The Quantum Armor is a high Tier very durable Armor with a lot of feature like Night Vision, fall damage reduction or running very fast.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemArmorQuantumChestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 1.0E7
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.QuantumCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.QuantumPartHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.QuantumPartChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.QuantumPartLeggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.QuantumPartBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemArmorQuantumHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {}
+            },
+            {
+              "id": "IC2:itemArmorQuantumChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {}
+            },
+            {
+              "id": "IC2:itemArmorQuantumLegs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {}
+            },
+            {
+              "id": "IC2:itemArmorQuantumBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32603
+            },
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        802,
+        804
+      ]
+    },
+    {
+      "questID": 804,
+      "name": "Quantum crystal ",
+      "description": "The Quantum Crystal is needed for your Quantum armor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.QuantumCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.QuantumCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        802
       ]
     },
     {
@@ -74437,72 +75280,72 @@
       "quests": [
         {
           "id": 160,
-          "x": 84,
-          "y": 0
-        },
-        {
-          "id": 162,
-          "x": 84,
-          "y": 108
-        },
-        {
-          "id": 163,
-          "x": 288,
-          "y": 0
-        },
-        {
-          "id": 165,
-          "x": 192,
-          "y": 0
-        },
-        {
-          "id": 167,
-          "x": 132,
-          "y": 72
-        },
-        {
-          "id": 168,
-          "x": 192,
-          "y": 36
-        },
-        {
-          "id": 169,
-          "x": 240,
-          "y": 0
-        },
-        {
-          "id": 166,
           "x": 144,
           "y": 0
         },
         {
+          "id": 162,
+          "x": 144,
+          "y": 108
+        },
+        {
+          "id": 163,
+          "x": 348,
+          "y": 0
+        },
+        {
+          "id": 165,
+          "x": 252,
+          "y": 0
+        },
+        {
+          "id": 167,
+          "x": 192,
+          "y": 72
+        },
+        {
+          "id": 168,
+          "x": 252,
+          "y": 36
+        },
+        {
+          "id": 169,
+          "x": 300,
+          "y": 0
+        },
+        {
+          "id": 166,
+          "x": 204,
+          "y": 0
+        },
+        {
           "id": 170,
-          "x": 132,
+          "x": 192,
           "y": 108
         },
         {
           "id": 171,
-          "x": 192,
+          "x": 252,
           "y": 72
         },
         {
           "id": 172,
-          "x": 192,
+          "x": 252,
           "y": 108
         },
         {
           "id": 173,
-          "x": 240,
+          "x": 300,
           "y": 108
         },
         {
           "id": 174,
-          "x": 240,
+          "x": 300,
           "y": 72
         },
         {
           "id": 175,
-          "x": 276,
+          "x": 336,
           "y": 108
         },
         {
@@ -74512,23 +75355,23 @@
         },
         {
           "id": 770,
-          "x": 60,
+          "x": 120,
           "y": 36
         },
         {
           "id": 772,
-          "x": 0,
+          "x": 60,
           "y": 36
         },
         {
           "id": 789,
           "x": 0,
-          "y": 108
+          "y": 36
         },
         {
           "id": 790,
           "x": 0,
-          "y": 156
+          "y": 72
         }
       ]
     },
@@ -75772,7 +76615,7 @@
         {
           "id": 655,
           "x": 0,
-          "y": 240
+          "y": 384
         },
         {
           "id": 683,
@@ -75853,6 +76696,41 @@
           "id": 797,
           "x": 132,
           "y": 144
+        },
+        {
+          "id": 798,
+          "x": 96,
+          "y": 288
+        },
+        {
+          "id": 799,
+          "x": 180,
+          "y": 288
+        },
+        {
+          "id": 800,
+          "x": 48,
+          "y": 288
+        },
+        {
+          "id": 801,
+          "x": 132,
+          "y": 288
+        },
+        {
+          "id": 802,
+          "x": 96,
+          "y": 336
+        },
+        {
+          "id": 803,
+          "x": 96,
+          "y": 384
+        },
+        {
+          "id": 804,
+          "x": 180,
+          "y": 336
         }
       ]
     },
