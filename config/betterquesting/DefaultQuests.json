@@ -69329,7 +69329,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemDust2",
-              "Count": 9,
+              "Count": 36,
               "OreDict": "",
               "Damage": 2
             }
@@ -69344,7 +69344,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemBatCrystal",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "",
               "Damage": 26,
               "tag": {}
@@ -71041,6 +71041,406 @@
       ],
       "preRequisites": [
         802
+      ]
+    },
+    {
+      "questID": 805,
+      "name": "Lapotron Dust",
+      "description": "Lapotron Crystals need to mixing your Energium Crystal Powder with some Lapis dust.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.LapotronDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 72,
+              "OreDict": "",
+              "Damage": 2526
+            },
+            {
+              "id": "IC2:itemDust2",
+              "Count": 48,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        789,
+        176
+      ]
+    },
+    {
+      "questID": 806,
+      "name": "Lapotron Crystal",
+      "description": "With your new HV Mixer you can make Lapotron Dust. TAke it into the Autoclave to make some Raw Lapotron Crystals. With an HV Assembler and Advanced Circuits you can make some Lapotro Crystals wich stores up to 10 Mio EU.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemBatLamaCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 1.0E7
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.LapotronDust",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.RawLapotronCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBatLamaCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32714
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32713
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        805,
+        808
+      ]
+    },
+    {
+      "questID": 807,
+      "name": "Quantum Crystal",
+      "description": "For you Quantum Armor you need some Quantum crystals. Put a Lapotron crystal in your Percission Laser to get a Quantum Crystal ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.QuantumCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBatLamaCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.QuantumCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "dreamcraft:item.LapotronDust",
+              "Count": 60,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        806
+      ]
+    },
+    {
+      "questID": 808,
+      "name": "Mixing at hv Level",
+      "description": "High Tier dusts need HV Mixer.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 583
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 583
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11367
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11366
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
       ]
     },
     {
@@ -75355,13 +75755,13 @@
         },
         {
           "id": 770,
-          "x": 120,
+          "x": 48,
           "y": 36
         },
         {
           "id": 772,
-          "x": 60,
-          "y": 36
+          "x": 48,
+          "y": 72
         },
         {
           "id": 789,
@@ -75372,6 +75772,11 @@
           "id": 790,
           "x": 0,
           "y": 72
+        },
+        {
+          "id": 808,
+          "x": 96,
+          "y": 72
         }
       ]
     },
@@ -75381,183 +75786,198 @@
       "quests": [
         {
           "id": 176,
-          "x": 36,
+          "x": 72,
           "y": 0
         },
         {
           "id": 178,
-          "x": 108,
+          "x": 144,
           "y": 36
         },
         {
           "id": 179,
-          "x": 108,
+          "x": 144,
           "y": 72
         },
         {
           "id": 180,
-          "x": 144,
+          "x": 180,
           "y": 72
         },
         {
           "id": 182,
-          "x": 180,
+          "x": 216,
           "y": 72
         },
         {
           "id": 181,
-          "x": 180,
+          "x": 216,
           "y": 108
         },
         {
           "id": 183,
-          "x": 216,
+          "x": 252,
           "y": 36
         },
         {
           "id": 184,
-          "x": 216,
+          "x": 252,
           "y": 72
         },
         {
           "id": 185,
-          "x": 144,
+          "x": 180,
           "y": 108
         },
         {
           "id": 186,
-          "x": 72,
+          "x": 108,
           "y": 108
         },
         {
           "id": 187,
-          "x": 0,
+          "x": 36,
           "y": 108
         },
         {
           "id": 188,
-          "x": 108,
+          "x": 144,
           "y": 108
         },
         {
           "id": 189,
-          "x": 240,
+          "x": 276,
           "y": 0
         },
         {
           "id": 190,
-          "x": 276,
+          "x": 312,
           "y": 0
         },
         {
           "id": 191,
-          "x": 276,
+          "x": 312,
           "y": 108
         },
         {
           "id": 192,
-          "x": 348,
+          "x": 384,
           "y": 72
         },
         {
           "id": 193,
-          "x": 300,
+          "x": 336,
           "y": 72
         },
         {
           "id": 194,
-          "x": 396,
+          "x": 432,
           "y": 72
         },
         {
           "id": 195,
-          "x": 396,
+          "x": 432,
           "y": 0
         },
         {
           "id": 196,
-          "x": 348,
+          "x": 384,
           "y": 36
         },
         {
           "id": 197,
-          "x": 348,
+          "x": 384,
           "y": 0
         },
         {
           "id": 198,
-          "x": 348,
+          "x": 384,
           "y": 108
         },
         {
           "id": 199,
-          "x": 36,
+          "x": 72,
           "y": 180
         },
         {
           "id": 200,
-          "x": 36,
+          "x": 72,
           "y": 216
         },
         {
           "id": 201,
-          "x": 72,
+          "x": 108,
           "y": 216
         },
         {
           "id": 202,
-          "x": 108,
+          "x": 144,
           "y": 216
         },
         {
           "id": 203,
-          "x": 216,
+          "x": 252,
           "y": 108
         },
         {
           "id": 204,
-          "x": 36,
+          "x": 72,
           "y": 108
         },
         {
           "id": 205,
-          "x": 72,
+          "x": 108,
           "y": 144
         },
         {
           "id": 206,
-          "x": 108,
+          "x": 144,
           "y": 180
         },
         {
           "id": 207,
-          "x": 312,
-          "y": 168
-        },
-        {
-          "id": 209,
           "x": 348,
           "y": 168
         },
         {
+          "id": 209,
+          "x": 384,
+          "y": 168
+        },
+        {
           "id": 210,
-          "x": 312,
+          "x": 348,
           "y": 204
         },
         {
           "id": 208,
-          "x": 276,
+          "x": 312,
           "y": 168
         },
         {
           "id": 211,
-          "x": 240,
+          "x": 276,
           "y": 168
         },
         {
           "id": 212,
           "x": 0,
           "y": 0
+        },
+        {
+          "id": 805,
+          "x": 36,
+          "y": 36
+        },
+        {
+          "id": 806,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 807,
+          "x": 0,
+          "y": 108
         }
       ]
     },
