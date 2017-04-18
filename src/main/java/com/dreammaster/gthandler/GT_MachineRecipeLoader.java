@@ -75,11 +75,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoChestplate", 1L, GT_Values.W), GT_ModHandler.getModItem("IC2", "itemArmorJetpackElectric", 1L, GT_Values.W), CustomItemList.NanoChestJetPack.get(1L), 800, 1024);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoLegs", 1L, GT_Values.W), CustomItemList.StainlessSteelItemCasing.get(4L), CustomItemList.NanoPlatedLeggings.get(1L), 800, 1024);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoHelmet", 1L, GT_Values.W), GT_ModHandler.getModItem("IC2", "itemArmorHazmatHelmet", 1L, 0), CustomItemList.NanoScubaHelmet.get(1L), 800, 1024);
-        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoRubberBoots.get(1L), CustomItemList.IridiumAlloyItemCasing.get(2L), CustomItemList.QuantumPartBoots.get(1L), 1200, 1920);
-        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoChestJetPack.get(1L), CustomItemList.IridiumAlloyItemCasing.get(5L), CustomItemList.QuantumPartChestplate.get(1L), 1200, 1920);
-        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoScubaHelmet.get(1L), CustomItemList.IridiumAlloyItemCasing.get(2L), CustomItemList.QuantumPartHelmetEmpty.get(1L), 1200, 1920);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoRubberBoots.get(1L), CustomItemList.IridiumAlloyItemCasing.get(4L), CustomItemList.QuantumPartBoots.get(1L), 1200, 1920);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoChestJetPack.get(1L), CustomItemList.IridiumAlloyItemCasing.get(8L), CustomItemList.QuantumPartChestplate.get(1L), 1200, 1920);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoScubaHelmet.get(1L), CustomItemList.IridiumAlloyItemCasing.get(5L), CustomItemList.QuantumPartHelmetEmpty.get(1L), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumPartHelmetEmpty.get(1L), CustomItemList.ReinforcedGlassLense.get(8L), CustomItemList.QuantumPartHelmet.get(1L), 1200, 1920);
-        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoPlatedLeggings.get(1L), CustomItemList.IridiumAlloyItemCasing.get(2L), CustomItemList.QuantumPartLeggings.get(1L), 1200, 1920);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoPlatedLeggings.get(1L), CustomItemList.IridiumAlloyItemCasing.get(7L), CustomItemList.QuantumPartLeggings.get(1L), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NagaScaleChip.get(4L), ItemList.Circuit_Integrated.getWithDamage(0L, 4L), Materials.Thaumium.getMolten(72L), CustomItemList.NagaScaleFragment.get(1L), 200, 48);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NagaScaleFragment.get(6L), ItemList.Circuit_Integrated.getWithDamage(0L, 6L), Materials.Thaumium.getMolten(216L), GT_ModHandler.getModItem("TwilightForest", "item.nagaScale", 1L, 0), 200, 96);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.LichBoneChip.get(4L), ItemList.Circuit_Integrated.getWithDamage(0L, 4L), Materials.Thaumium.getMolten(72L), CustomItemList.LichBoneFragment.get(1L), 250, 120);
