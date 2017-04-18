@@ -13795,7 +13795,7 @@
     {
       "questID": 162,
       "name": "Dimensional Goal: Moon",
-      "description": "HV is the age where you should focus on reaching the moon, as soon as possible. Since you will need titanium in large quantities.",
+      "description": "HV is the age where you should focus on reaching the moon, as soon as possible. Since you will need titanium in large quantities.\n\nMore Infos you will found on the Quest Tab Space Race.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -70980,7 +70980,8 @@
       ],
       "preRequisites": [
         802,
-        804
+        804,
+        176
       ]
     },
     {
@@ -71040,7 +71041,8 @@
         }
       ],
       "preRequisites": [
-        802
+        802,
+        807
       ]
     },
     {
@@ -71441,6 +71443,1229 @@
       ],
       "preRequisites": [
         160
+      ]
+    },
+    {
+      "questID": 809,
+      "name": "NASA Workbench aka 9x9 Crafting Table",
+      "description": "The Avaritia 9x9 Crafting Table is the new Nasa Workbench. It is required for all Rockets and high Tier Equiepment. First of all you need 81 crafting Tables to a double compacted Working Bench, a few Hv components, Wavers and a Crystal Matrix Block. And yes you need Nether Stars. Try to looking at the Nether Star duplication recipe with Null Catalyst.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Avaritia:Dire_Crafting",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:crafting_table",
+              "Count": 81,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Avaritia:Triple_Craft",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 144,
+              "OreDict": "",
+              "Damage": 17500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 144,
+              "OreDict": "",
+              "Damage": 27500
+            },
+            {
+              "id": "dreamcraft:item.StainlessSteelBars",
+              "Count": 36,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:nether_star",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Avaritia:Resource",
+              "Count": 36,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Avaritia:Resource",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Avaritia:Crystal_Matrix",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32642
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32652
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32705
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Avaritia:Dire_Crafting",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:nether_star",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 130
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 810,
+      "name": "Rocket Tier 1",
+      "description": "After Houres of hard works and a few stacks of TNT later Tada your first Rocket is ready. But before you can go to the Moon you need a few things more to craft.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.spaceship",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SchematicsTier1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.noseCone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.heavyPlating",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:item.ModuleLander",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:item.ModuleSmallFuelCanister",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.rocketFins",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.spaceship",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockITNT",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpace",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        812,
+        813,
+        814,
+        815,
+        816
+      ]
+    },
+    {
+      "questID": 811,
+      "name": "Tier 1 Schematic",
+      "description": "Each rocket need a construction plan. The first one you can craft out of a Data Control  Circuit and a Compressed Steel plate.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.SchematicsTier1",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32705
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SchematicsTier1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        809
+      ]
+    },
+    {
+      "questID": 812,
+      "name": "Tier 1 Heavy Duty Plates",
+      "description": "Rockets need Heavy Duty Plates for the Main Hull. Let\u0027s craft 36 of this Plates out of Compressed Aluminium Plates, Compressed Bronze Plates and Compressed Steel Plates.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.heavyPlating",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 36,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 36,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 36,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 144,
+              "OreDict": "",
+              "Damage": 26306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 36,
+              "OreDict": "",
+              "Damage": 32462
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.heavyPlating",
+              "Count": 36,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        80,
+        809
+      ]
+    },
+    {
+      "questID": 813,
+      "name": "Rocket Nose Cone",
+      "description": "Each Rocket need a Rocket Nose Cone.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.noseCone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27306
+            },
+            {
+              "id": "ProjRed|Illumination:projectred.illumination.cagelamp2.inv",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "GalacticraftCore:item.heavyPlating",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.noseCone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        812
+      ]
+    },
+    {
+      "questID": 814,
+      "name": "Rocket Fines",
+      "description": "Each Rocket need a few Rocket Fines.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.rocketFins",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.heavyPlating",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.rocketFins",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        812
+      ]
+    },
+    {
+      "questID": 815,
+      "name": "Rocket Engine",
+      "description": "Each Rocket need a rocket Engine. Better crafting Two because the Moon Lander need one too.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.engine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.fuelCanisterPartial",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32731
+            },
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "GalaxySpace:item.CompressedSDHD120",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.heavyPlating",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.engine",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        812
+      ]
+    },
+    {
+      "questID": 816,
+      "name": "Moon Lander",
+      "description": "The Moon Lander is requiered for a soft Landing.\nYou will need an additional Frequencie Module for hearing  somethings on planets and a second Seat for a later available Moon Buggy.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalaxySpace:item.ModuleLander",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "GalacticraftCore:item.steelPole",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.buggymat",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftCore:item.engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.ModuleLander",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        815,
+        817
+      ]
+    },
+    {
+      "questID": 817,
+      "name": "Buggy Seat",
+      "description": "The Buggy Seat is required for the Moon Lander and the Moon Buggy.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.buggymat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "IC2:blockRubber",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.buggymat",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalaxySpace:item.CompressedSDHD120",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.steelPole",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        809
       ]
     },
     {
@@ -77333,6 +78558,57 @@
           "id": 677,
           "x": 180,
           "y": 0
+        }
+      ]
+    },
+    {
+      "name": "Space Race",
+      "description": "A Guide how to start with Galacticraft and reach the Moon",
+      "quests": [
+        {
+          "id": 809,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 810,
+          "x": 48,
+          "y": 216
+        },
+        {
+          "id": 811,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 812,
+          "x": 48,
+          "y": 60
+        },
+        {
+          "id": 813,
+          "x": 84,
+          "y": 96
+        },
+        {
+          "id": 814,
+          "x": 12,
+          "y": 96
+        },
+        {
+          "id": 815,
+          "x": 132,
+          "y": 96
+        },
+        {
+          "id": 816,
+          "x": 168,
+          "y": 132
+        },
+        {
+          "id": 817,
+          "x": 168,
+          "y": 96
         }
       ]
     },
