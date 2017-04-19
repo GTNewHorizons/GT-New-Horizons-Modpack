@@ -10924,6 +10924,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.pipe",
@@ -10938,7 +10940,7 @@
               "Damage": 44
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -63361,25 +63363,14 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.routingchip",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "chipROM:10": {
-                  "mode:4": 0,
-                  "mm:4": 1,
-                  "hide:4": 0,
-                  "grp:4": 0,
-                  "pref:4": 0,
-                  "filteritems:9": [],
-                  "filteritemsCount:4": 9,
-                  "nbtm:4": 1,
-                  "om:4": 0
-                }
-              }
+              "Damage": 0
             },
             {
               "id": "ProjRed|Transportation:projectred.transportation.routingchip",
@@ -63400,11 +63391,13 @@
               "Damage": 5
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.routingchip",
@@ -63422,141 +63415,22 @@
               "id": "ProjRed|Transportation:projectred.transportation.routingchip",
               "Count": 2,
               "OreDict": "",
-              "Damage": 7,
-              "tag": {
-                "chipROM:10": {
-                  "matrixitems:9": [],
-                  "ext_matrixitems:9": [
-                    {
-                      "index:4": 0,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    },
-                    {
-                      "index:4": 1,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    },
-                    {
-                      "index:4": 2,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    },
-                    {
-                      "index:4": 3,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    },
-                    {
-                      "index:4": 4,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    },
-                    {
-                      "index:4": 5,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    },
-                    {
-                      "index:4": 6,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    },
-                    {
-                      "index:4": 7,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    },
-                    {
-                      "index:4": 8,
-                      "id:4": 7972,
-                      "Count:4": 1,
-                      "tag:10": {
-                        "chipROM:10": {
-                          "extid:8": "3477be47-3e8d-47e7-beee-d6e7eabe642d"
-                        }
-                      },
-                      "Damage:4": 8
-                    }
-                  ],
-                  "pref:4": 0,
-                  "matrixitemsCount:4": 10,
-                  "ext_matrixitemsCount:4": 9,
-                  "matchData:9": [
-                    3,
-                    3,
-                    3,
-                    3,
-                    3,
-                    3,
-                    3,
-                    3,
-                    3
-                  ]
-                }
-              }
+              "Damage": 7
             },
             {
               "id": "ProjRed|Transportation:projectred.transportation.routingchip",
               "Count": 2,
               "OreDict": "",
-              "Damage": 8,
-              "tag": {
-                "chipROM:10": {
-                  "extid:8": "7e00d08a-1dd3-458f-9f64-0f50e8974091"
-                }
-              }
+              "Damage": 8
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -63629,6 +63503,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.pipe",
@@ -63655,7 +63531,7 @@
               "Damage": 6
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
