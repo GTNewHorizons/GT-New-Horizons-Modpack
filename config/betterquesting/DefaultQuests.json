@@ -2517,7 +2517,7 @@
     {
       "questID": 30,
       "name": "Copper",
-      "description": "Can be found between 5 and 60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
+      "description": "Copper Ingot can me smelted out of Copper, Chalcoperite and Malachite Ore.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2600,7 +2600,7 @@
     {
       "questID": 31,
       "name": "Tin",
-      "description": "Found mostly in mountains, between Y level 60 and 220. Also the veins are a source of \"Cassiterite\".",
+      "description": "Tin ingots can be smelted out of Tin and Cassetreite ore.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73529,21 +73529,6 @@
               "Count": 16,
               "OreDict": "oreBrownLimonite",
               "Damage": 930
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:iron_ingot",
-              "Count": 72,
-              "OreDict": "",
-              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
