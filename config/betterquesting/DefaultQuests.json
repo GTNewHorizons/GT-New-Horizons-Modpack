@@ -2427,7 +2427,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:iron_ore",
+        "id": "ExtraUtilities:curtains",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -2534,10 +2534,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IC2:blockOreCopper",
+        "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 11035
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -2548,16 +2548,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockores",
-              "Count": 24,
-              "OreDict": "oreChalcopyrite",
-              "Damage": 855
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 24,
-              "OreDict": "oreAnyCopper",
-              "Damage": 35
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 48,
+              "OreDict": "",
+              "Damage": 11035
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -2567,10 +2561,10 @@
         {
           "choices": [
             {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
+              "id": "harvestcraft:zucchinibreadItem",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 10
+              "Damage": 0
             },
             {
               "id": "harvestcraft:footlongItem",
@@ -2590,7 +2584,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinAdventure",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
@@ -2623,10 +2617,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IC2:blockOreTin",
+        "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 11057
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -2650,13 +2644,13 @@
         {
           "choices": [
             {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
+              "id": "Natura:berryMedley",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 11
+              "Damage": 0
             },
             {
-              "id": "harvestcraft:spagettiandmeatballsItem",
+              "id": "harvestcraft:strawberrypieItem",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -2673,7 +2667,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinAdventure",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
@@ -3131,7 +3125,7 @@
     {
       "questID": 37,
       "name": "Getting iron",
-      "description": "With your new bronze tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite.  So bring me some ores and make some iron ingots out of them.",
+      "description": "Iron can be found in different Veins. Magnetite Veins y 30-180, in Copper Veins y 5-60 and Brown and Yellow Lemonite Veins y 10-40.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3148,52 +3142,13 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:iron_ore",
+        "id": "minecraft:iron_ingot",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "oreBandedIron",
-              "Damage": 917
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "oreIron",
-              "Damage": 32
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "oreMagnetite",
-              "Damage": 870
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "oreYellowLimonite",
-              "Damage": 931
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "oreBrownLimonite",
-              "Damage": 930
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -3214,13 +3169,13 @@
         {
           "choices": [
             {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
+              "id": "minecraft:pumpkin_pie",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 8
+              "Damage": 0
             },
             {
-              "id": "minecraft:lava_bucket",
+              "id": "minecraft:golden_carrot",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -3237,7 +3192,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinAdventure",
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
@@ -73548,6 +73503,217 @@
       ]
     },
     {
+      "questID": 825,
+      "name": "Copper Ore",
+      "description": "Can be found between 5 and 60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockOreCopper",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 24,
+              "OreDict": "oreChalcopyrite",
+              "Damage": 855
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 24,
+              "OreDict": "oreAnyCopper",
+              "Damage": 35
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "harvestcraft:footlongItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        474
+      ]
+    },
+    {
+      "questID": 826,
+      "name": "Iron Ore",
+      "description": "With your new bronze tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite.  So bring me some ores and make some iron ingots out of them.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:iron_ore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreBandedIron",
+              "Damage": 917
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreIron",
+              "Damage": 32
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreMagnetite",
+              "Damage": 870
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreYellowLimonite",
+              "Damage": 931
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "oreBrownLimonite",
+              "Damage": 930
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 72,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "minecraft:lava_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        474
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the ores in the cave are valuable anyway.",
@@ -76617,6 +76783,16 @@
           "id": 729,
           "x": 36,
           "y": 216
+        },
+        {
+          "id": 825,
+          "x": 144,
+          "y": 252
+        },
+        {
+          "id": 826,
+          "x": 216,
+          "y": 252
         }
       ]
     },
