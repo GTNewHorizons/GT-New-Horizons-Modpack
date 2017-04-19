@@ -32,7 +32,8 @@ public class CoreModConfig extends ConfigManager
 
   public boolean AvaritiaFixEnabled;
   public String[] SkullFireSwordEntityTargets;
-  
+  public String[] BlacklistedTileEntiyClassNames;
+
   public OilConfig OilFixConfig;
 
   @Override
@@ -49,6 +50,7 @@ public class CoreModConfig extends ConfigManager
     AvaritiaFixEnabled = false;
     PotionTimer = 100;
 
+    BlacklistedTileEntiyClassNames = new String[] { "com.rwtema.extrautils.tileentity.enderquarry.TileEntityEnderQuarry" };
     SkullFireSwordEntityTargets = new String[] { "net.minecraft.entity.monster.EntitySkeleton", "galaxyspace.SolarSystem.planets.venus.entities.EntityEvolvedFireSkeleton", "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSkeleton" };
   }
 
@@ -66,7 +68,7 @@ public class CoreModConfig extends ConfigManager
 
     AvaritiaFixEnabled = _mainConfig.getBoolean( "AvaritiaFixEnabled", "ModFixes", AvaritiaFixEnabled, "Set to true to enable the modfix for Avaritia SkullFireSword" );
     SkullFireSwordEntityTargets = _mainConfig.getStringList( "Avaritia_SkullFireSwordEntityTargets", "ModFixes.Avaritia", SkullFireSwordEntityTargets, "The Canonical Class-Name of the Entity" );
-    
+    BlacklistedTileEntiyClassNames = _mainConfig.getStringList( "BlacklistedTileEntiyClassNames", "Modules.Worldaccelerator", BlacklistedTileEntiyClassNames, "The Canonical Class-Names of TileEntities that should be ignored by the WorldAccelerator" );
     OilFixConfig = new OilConfig( _mainConfig );
   }
 
