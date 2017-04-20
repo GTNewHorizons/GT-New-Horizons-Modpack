@@ -1117,7 +1117,7 @@
     <LootGroup GroupMetaID="31" GroupName="Dessert" Rarity="3" MinItems="1" MaxItems="1" CombineTrashGroup="false">
         <Loot Identifier="fdb3f7d3-5ad8-42b8-aceb-719fd9be67bd" ItemName="DraconicEvolution:dezilsMarshmallow" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="32" GroupName="Trasportation 3 Class" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="32" GroupName="Transportation 3 Class" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="83705a00-7861-4c81-95d1-8f8fbb7edbbd" ItemName="IC2:itemBoat:1" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="df812f08-c734-4872-bdda-032b2f861697" ItemName="IC2:itemBoat:2" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="094c59d2-c0ab-47bb-8396-39358272d2a1" ItemName="minecraft:boat" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1168,7 +1168,7 @@
         <Loot Identifier="1b795a55-44a0-4e47-a436-7cf3ccc2ff87" ItemName="Railcraft:cart.gift" Amount="1" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="220f803c-a88c-4fea-805e-19f23deb2c5f" ItemName="Railcraft:cart.redstone.flux" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="33" GroupName="Trasportation 2 Class" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="33" GroupName="Transportation 2 Class" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="a231a3d6-a17d-479a-8dac-a52d4baceb45" ItemName="IC2:itemBoat" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e13a0f2c-139b-4311-b916-0703388e67d7" ItemName="Railcraft:track" Amount="1" NBTTag="{track:&quot;railcraft:track.launcher&quot;}" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d6f4191c-02cb-4954-9417-ec4d8036e391" ItemName="Railcraft:track" Amount="4" NBTTag="{track:&quot;railcraft:track.reinforced&quot;}" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1219,7 +1219,7 @@
         <Loot Identifier="45335aaf-8ba0-40c8-8849-73c53b99620e" ItemName="dreamcraft:item.ElectricBoatHull" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="b2c9ef35-5d2e-4529-9f5c-a718cccb756b" ItemName="IC2:itemBoat:3" Amount="1" NBTTag="" Chance="30" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="34" GroupName="Trasportation 1 Class" Rarity="2" MinItems="1" MaxItems="1" CombineTrashGroup="false">
+    <LootGroup GroupMetaID="34" GroupName="Transportation 1 Class" Rarity="2" MinItems="1" MaxItems="1" CombineTrashGroup="false">
         <Loot Identifier="0f5282c9-ca86-441b-9d71-f7e3e620481c" ItemName="Railcraft:cart.loco.steam.solid" Amount="1" NBTTag="{model:&quot;railcraft:default&quot;}" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="78c87b41-c4a5-4910-b424-076a807dbf1b" ItemName="Railcraft:cart.loco.electric" Amount="1" NBTTag="{model:&quot;railcraft:default&quot;}" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="ad65216f-9dd9-4f15-933e-8db51d0fb08e" ItemName="Railcraft:cart.bore" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
