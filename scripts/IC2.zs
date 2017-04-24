@@ -830,7 +830,7 @@ recipes.addShaped(<IC2:itemRecipePart:5>, [
 [<ore:plateRubber>, <ore:plateCopper>, <ore:plateRubber>]]);
 
 // --- Advanced Battery
-recipes.addShaped(<IC2:itemAdvBat>, [
+recipes.addShaped(<IC2:itemAdvBat:26>, [
 [<ore:wireGt08Copper>, <ore:craftingToolScrewdriver>, <ore:wireGt08Copper>],
 [<IC2:itemCasing>, <gregtech:gt.metaitem.01:32501>, <IC2:itemCasing>],
 [<IC2:itemCasing>, <IC2:itemCasing:6>, <IC2:itemCasing>]]);
