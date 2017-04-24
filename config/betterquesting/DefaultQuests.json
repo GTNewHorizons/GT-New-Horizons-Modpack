@@ -66054,6 +66054,18 @@
         {
           "choices": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2019
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
