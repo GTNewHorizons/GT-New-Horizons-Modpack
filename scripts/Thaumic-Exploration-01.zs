@@ -656,7 +656,7 @@ mods.thaumcraft.Warp.addToResearch("THINKTANK", 2);
 // --- Talsiman of the Dreamcatcher
 mods.thaumcraft.Research.orphanResearch("DREAMCATCHER");
 mods.thaumcraft.Research.removeResearch("DREAMCATCHER");
-mods.thaumcraft.Research.addResearch("DreamcatcherGTNH", "TX", "vitium 15, cognitio 12, instrumentum 9, metallum 6, praecantatio 3", -7, 2, 2, <ThaumicExploration:charmNoTaint>);
+mods.thaumcraft.Research.addResearch("DreamcatcherGTNH", "TX", "vitium 15, cognitio 12, instrumentum 9, metallum 6, praecantatio 3", -7, 2, 3, <ThaumicExploration:charmNoTaint>);
 mods.thaumcraft.Research.addPrereq("DreamcatcherGTNH", "TAINTBASICS", false);
 mods.thaumcraft.Research.setConcealed("DreamcatcherGTNH", true);
 game.setLocalization("tc.research_name.DreamcatcherGTNH", "Wispy Dreamcatcher");
@@ -704,6 +704,7 @@ mods.thaumcraft.Research.addResearch("Rod_TransmutatitionGTNH", "TX", "permutati
 mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "ROD_greatwood", false);
 mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "TXROD_greatwood", false);
 mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "BASICARTIFACE", true);
+mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "TXINFUSION", true);
 mods.thaumcraft.Research.setConcealed("Rod_TransmutatitionGTNH", true);
@@ -724,6 +725,7 @@ mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "TXROD_greatwoo
 mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "Rod_TransmutatitionGTNH", false);
 mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "ROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "BASICARTIFACE", true);
+mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.setConcealed("Rod_Transmutaion_StaffGTNH", true);
 game.setLocalization("tc.research_name.Rod_Transmutaion_StaffGTNH", "Transmutative Staff Core");
 game.setLocalization("tc.research_text.Rod_Transmutaion_StaffGTNH", "One thing into another");
@@ -764,6 +766,7 @@ mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "TXROD_greatwood_staff
 mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "Rod_AmberGTNH", false);
 mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "ROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "BASICARTIFACE", true);
+mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "TXBASICARTIFACE", true);
 mods.thaumcraft.Research.setConcealed("Rod_Amber_StaffGTNH", true);
 game.setLocalization("tc.research_name.Rod_Amber_StaffGTNH", "Amber Staff Core");
 game.setLocalization("tc.research_text.Rod_Amber_StaffGTNH", "Regenerative vis storage");
@@ -781,7 +784,7 @@ mods.thaumcraft.Research.removeResearch("ROD_NECROMANCER_staff");
 mods.thaumcraft.Research.addResearch("Rod_Necromancer_StaffGTNH", "TX", "mortuus 21, instrumentum 18, perditio 15, auram 12, spiritus 9, exanimis 6, cognitio 3", -3, 1, 4, <ThaumicExploration:necroStaffCore>);
 mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "ROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "TXROD_greatwood_staff", false);
-mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "BRAINCURE", true);
+mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "BraincureGTNH", true);
 mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "ROD_bone_staff", false);
 mods.thaumcraft.Research.setConcealed("Rod_Necromancer_StaffGTNH", true);
 game.setLocalization("tc.research_name.Rod_Necromancer_StaffGTNH", "Necromancer's Staff Core");
