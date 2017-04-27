@@ -738,7 +738,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Iron, 2L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 5L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Obsidian, 2L), GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.AlumiteDust.get(9L), 200, 8);
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 3L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Copper, 1L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_ModHandler.getModItem("TConstruct", "materials", 4L, 42), 200, 8);
 
-        GT_Values.RA.addMixerRecipe( ItemList.IC2_Energium_Dust.get(9L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Lapis, 6L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.LapotronDust.get(15L), 600, 480);
+        GT_Values.RA.addMixerRecipe(ItemList.IC2_Energium_Dust.get(9L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Lapis, 6L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.LapotronDust.get(15L), 600, 480);
+
+        GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Flint, 1L), CustomItemList.SandDust.get(3L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Glass, 4L), 200, 8);
 
         GT_Values.RA.addVacuumFreezerRecipe(CustomItemList.GlowingMarshmallow.get(1L), CustomItemList.Marshmallow.get(1L), 48000);
         GT_Values.RA.addVacuumFreezerRecipe(GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Neutronium, 1L), 6250);
@@ -859,6 +861,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addPulveriserRecipe(GT_ModHandler.getModItem("GalaxySpace", "tcetieblocks", 1L, 2), new ItemStack[]{CustomItemList.TCetiEStoneDust.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Lapis, 1), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Apatite, 1), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Bedrockium, 1)}, new int[]{10000, 2500, 2000, 1500}, 400, 4096);
 
         GT_Values.RA.addPulveriserRecipe(GT_ModHandler.getModItem("IC2", "itemFuelPlantBall", 2L, 0), new ItemStack[]{CustomItemList.MaceratedPlantmass.get(1L), CustomItemList.MaceratedPlantmass.get(1L), CustomItemList.MaceratedPlantmass.get(1L), CustomItemList.MaceratedPlantmass.get(1L)}, new int[]{10000, 10000, 5000, 2500}, 200, 30);
+
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Blocks.sand, 1, 0), new ItemStack[]{CustomItemList.SandDust.get(1L), CustomItemList.SandDust.get(1L), CustomItemList.SandDust.get(1L), CustomItemList.SandDust.get(1L)}, new int[]{10000, 2500, 2000, 1500}, 200, 8);
 
         GT_Values.RA.addWiremillRecipe(GT_OreDictUnificator.get(OrePrefixes.stickLong, Materials.MeteoricIron, 1L), CustomItemList.MeteoricIronString.get(4L), 600, 480);
         GT_Values.RA.addWiremillRecipe(GT_OreDictUnificator.get(OrePrefixes.stickLong, Materials.Tungsten, 1L), CustomItemList.TungstenString.get(4L), 1200, 1024);

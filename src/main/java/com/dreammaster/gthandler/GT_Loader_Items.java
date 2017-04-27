@@ -522,5 +522,6 @@ public class GT_Loader_Items
 		CustomItemList.UnfiredSlimeSoulBrick.set(ItemList.UnfiredSlimeSoulBrick.getIS());
 		CustomItemList.RawLapotronCrystal.set(ItemList.RawLapotronCrystal.getIS());
 		CustomItemList.LapotronDust.set(ItemList.LapotronDust.getIS());
+		CustomItemList.SandDust.set(ItemList.SandDust.getIS());
 	}
 }

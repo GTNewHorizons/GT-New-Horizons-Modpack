@@ -4,6 +4,7 @@ import cpw.mods.fml.common.Loader;
 import gregtech.api.enums.*;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
+import gregtech.common.items.GT_MetaGenerated_Tool_01;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -210,5 +211,10 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.addShapelessCraftingRecipe(CustomItemList.UnfiredCokeOvenBrick.get(1L), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{new ItemStack(Items.clay_ball, 1, 32767), new ItemStack(Blocks.sand, 1, 32767), OrePrefixes.block.get(Materials.Sand), CustomItemList.WoodenBrickForm});
         GT_ModHandler.addCraftingRecipe(CustomItemList.UnfiredSlimeSoulBrick.get(8L), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"SSS", "SFS", "SSS", 'S', GT_ModHandler.getModItem("TConstruct", "CraftedSoil", 1L, 6), 'F', CustomItemList.WoodenBrickForm});
         GT_ModHandler.addShapelessCraftingRecipe(CustomItemList.UnfiredSlimeSoulBrick.get(1L), GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{GT_ModHandler.getModItem("TConstruct", "CraftedSoil", 1L, 6), CustomItemList.WoodenBrickForm});
+
+        GT_ModHandler.addCraftingRecipe(CustomItemList.SandDust.get(1L), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, new Object[]{"S", "m", 'S', new ItemStack(Blocks.sand, 1, 32767)});
+        GT_ModHandler.addCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Flint, 1L), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, new Object[]{"F", "m", 'F', new ItemStack(Items.flint, 1, 32767)});
+
+        GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Glass, 1L), GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, new Object[]{CustomItemList.SandDust, OrePrefixes.dustTiny.get(Materials.Flint)});
     }
 }
