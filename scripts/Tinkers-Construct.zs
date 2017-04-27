@@ -319,6 +319,9 @@ mods.tconstruct.Casting.removeBasinRecipe(<ore:blockCobalt>);
 // --- Blood Infuse Iron Block
 mods.tconstruct.Casting.removeBasinRecipe(<BloodArsenal:blood_infused_iron_block>);
 
+// --- Sand to Glass
+mods.tconstruct.Smeltery.removeMelting(<minecraft:sand>);
+
 
 
 
@@ -838,6 +841,13 @@ recipes.removeShaped(<gregtech:gt.metaitem.01:11019>, [
 recipes.removeShaped(<gregtech:gt.metaitem.01:11019>, [
 [<TConstruct:materials:12>, null, null]]);
 
+// --- Compressed Sand 1
+mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:14>);
+
+// --- Compressed Sand 2
+mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:15>);
+
+
 
 
 
@@ -858,8 +868,8 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:19>, <liquid:alumin
 // --- Small Pile
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:1019>, <liquid:aluminum.molten> * 36, 500, <gregtech:gt.blockmachines:1585>);
 
-// --- Red Sand
-mods.tconstruct.Smeltery.addMelting(<minecraft:sand:1>, <liquid:glass.molten> * 1000, 800, <minecraft:sand:1>);
+// --- Glass Dust
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2890>, <liquid:glass.molten> * 1000, 800, <minecraft:sand>);
 
 // --- Aluminum Ore Berrys
 mods.tconstruct.Smeltery.addMelting(<TConstruct:oreBerries:4>, <liquid:aluminum.molten> * 16, 500, <gregtech:gt.blockmachines:1585>);

@@ -2304,9 +2304,6 @@ furnace.remove(<minecraft:coal:1>);
 // --- remove Sand in Furnance
 furnace.remove(<minecraft:glass>);
 
-// --- Add back glass Dust to Glass
-furnace.addRecipe(<minecraft:glass>, <gregtech:gt.metaitem.01:2890>);
-
 // --- Dough and Clay water Bucket
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
 
