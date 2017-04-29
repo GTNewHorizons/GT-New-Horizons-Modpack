@@ -216,8 +216,8 @@ recipes.addShaped(Barrel, [
 
 // --- Dolly
 recipes.addShaped(Dolly, [
-[<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>],
-[<ore:stickAnyIron>, <ore:craftingToolWrench>, <ore:stickAnyIron>],
+[<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:roundRubber>],
+[<ore:stickAnyIron>, <ore:craftingToolWrench>, <ore:roundRubber>],
 [IronWheels, <ore:plateSteel>, IronWheels]]);
 
 // --- Diamond Dolly
