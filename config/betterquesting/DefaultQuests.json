@@ -5676,22 +5676,34 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemCasing",
-              "Count": 2,
+              "id": "gregtech:gt.blockmachines",
+              "Count": 6,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 1360
             },
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 4,
+              "Count": 2,
               "OreDict": "",
               "Damage": 2000
             },
             {
               "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1520
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 19035
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
               "Count": 2,
               "OreDict": "",
-              "Damage": 1240
+              "Damage": 32012
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -5789,7 +5801,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 4,
+              "Count": 5,
               "OreDict": "",
               "Damage": 2000
             }
@@ -5802,7 +5814,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 10,
+              "Count": 7,
               "OreDict": "",
               "Damage": 1240
             }
@@ -5815,9 +5827,35 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 12,
+              "Count": 18,
               "OreDict": "",
               "Damage": 1360
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1520
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 19035
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -5830,15 +5868,15 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 4,
+              "Count": 7,
               "OreDict": "",
               "Damage": 1246
             },
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 6,
+              "Count": 3,
               "OreDict": "",
-              "Damage": 1366
+              "Damage": 2006
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -5906,7 +5944,7 @@
             {
               "id": "IC2:itemPartCircuit",
               "Count": 1,
-              "OreDict": "circuitBasic",
+              "OreDict": "",
               "Damage": 0
             }
           ],
