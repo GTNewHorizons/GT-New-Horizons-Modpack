@@ -772,8 +772,6 @@ recipes.remove(<TConstruct:materials:15>);
 
 // --- Obsidian Ingot
 recipes.remove(<TConstruct:materials:18>);
-// -
-furnace.remove(<TConstruct:materials:18>);
 
 // --- Jeweled Apple
 recipes.remove(<TConstruct:diamondApple>);

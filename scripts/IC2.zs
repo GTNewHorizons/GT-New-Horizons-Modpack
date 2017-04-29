@@ -761,8 +761,6 @@ recipes.remove(<IC2:blockMiningPipe>);
 recipes.remove(<IC2:blockGenerator:5>);
 
 // --- Iridium
-furnace.remove(<IC2:itemOreIridium>);
-// -
 furnace.remove(<gregtech:gt.metaitem.01:11084>, <IC2:itemOreIridium>);
 
 // --- Iridium Plates
