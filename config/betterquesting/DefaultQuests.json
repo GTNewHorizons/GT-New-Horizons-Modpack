@@ -3,6 +3,7 @@
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
+  "maxLives": 10,
   "questDatabase": [
     {
       "questID": 0,
@@ -347,7 +348,7 @@
     {
       "questID": 5,
       "name": "Tools",
-      "description": "Now that you\u0027ve got a shelter, crafting table and a place to store your items, you should make some tools. (Unless you\u0027d like to continue punching trees with your bare hand...)",
+      "description": "Now that you\u0027ve got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you\u0027d like to continue punching trees with your bare hand...)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -794,7 +795,7 @@
     {
       "questID": 10,
       "name": "Rest in pieces",
-      "description": "It\u0027s GLOPPing time! Go kill some pigs to gather meat. (And yes, they will drop cooked porkchop. Now if that isn\u0027t useful...)",
+      "description": "It\u0027s GLOPPing time! Go kill some pigs to gather meat. (And yes, they will drop cooked porkchops. Now isn\u0027t that useful...)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -984,7 +985,7 @@
     {
       "questID": 11,
       "name": "Sharpness: Over... 5...",
-      "description": "It\u0027s about time to craft some more useful stuff: A sword!",
+      "description": "It\u0027s about time to craft something more useful: A sword!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1252,7 +1253,7 @@
     {
       "questID": 13,
       "name": "SO...TIRED...MUST...SLEEP...",
-      "description": "Sleepy time, and: The end of Tier 0. Congratulations, you\u0027ve built yourself your first hideout, and you should have a steady supply of food by now. See you again in Tier 1!",
+      "description": "Sleepy time, and the end of Tier 0. Congratulations, you\u0027ve built your first hideout, and you should have a steady supply of food by now. See you again in tier 1!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1442,7 +1443,7 @@
     {
       "questID": 15,
       "name": "Ready, set, go!",
-      "description": "You probably should have a home by now. A steady supply of food is a fundamental requirement at all times. Take this journal to keep track of the things you\u0027ve eaten, while you proceed. You will have to travel far in this Tier, better be prepared!",
+      "description": "You probably should have a home by now. A steady supply of food is a fundamental requirement at all times. Take this journal to keep track of the things you\u0027ve eaten. You will have to travel far in this tier, better be prepared!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1502,7 +1503,7 @@
     {
       "questID": 16,
       "name": "Better Tank... Iron Tank",
-      "description": "Storing more than 16 Buckets of Fluids in one tank? Sure just make an iron Tank or upgrade the Buildcraft Tank.\nDiamond Tanks carry up to 64 Buckets and Obsidian ones are blast proof.",
+      "description": "Storing more than 16 buckets of fluid in one tank? Sure! Just make an iron tank or upgrade the Buildcraft tank.\nDiamond tanks carry up to 64 buckets and obsidian ones are blast proof.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -1571,7 +1572,7 @@
     {
       "questID": 17,
       "name": "Sand: The Gathering",
-      "description": "In a strange vision you saw a big structure which would allow you to make charcoal. Finally some torches! According to your calculations, you would need a lot of sand for that.",
+      "description": "In a strange vision you saw a big structure which would allow you to make charcoal. Finally some torches! According to your calculations, you will need a lot of sand for that.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1654,7 +1655,7 @@
     {
       "questID": 18,
       "name": "Basic processing",
-      "description": "Most things are unavailable at the moment, so let\u0027s begin with something simple. Take some of your cobblestone and smelt it into regular stone. And because this modpack is evil, you\u0027ll need to use wood for that. How much fun is that?!",
+      "description": "Most things are unavailable at the moment, so let\u0027s begin with something simple. Take some of your cobblestone and smelt it into regular stone. Since this modpack is evil, you\u0027ll need to use wood for that. How much fun is that?!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1720,7 +1721,7 @@
     {
       "questID": 19,
       "name": "Maceration v0.1 Alpha",
-      "description": "This fancy little device works (almost...) like a macerator. Some people say it\u0027s even better, since it does not require power, yay! You only need to craft one for this quest, but you probably should do some more if you can...",
+      "description": "This fancy little device works (almost...) like a macerator. Some people say it\u0027s even better, since it does not require power, yay! You only need to craft one for this quest, but you probably should make some more if you can...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1861,7 +1862,7 @@
     {
       "questID": 21,
       "name": "Clay: The Gathering",
-      "description": "While being bored, you thought that it might be a good idea to kill your time with pottery. You should go and find some clay, riverbanks should have some.",
+      "description": "While bored, you thought that it might be a good idea to take up pottery. You should go and find some clay, riverbanks should have some.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1955,7 +1956,7 @@
     {
       "questID": 22,
       "name": "Finite Water!?",
-      "description": "Finite water is a problem, that\u0027s for sure. But last night, you had an idea. If you can drink cacti, you should also be able to use it for most recipes that require water. How cool is that? So what about another trade; 10 wood for.. 3 cacti so you can setup a farm. Deal?",
+      "description": "Finite water is a problem, that\u0027s for sure. Last night, you had an idea. If you can drink cacti, you should also be able to use it for most recipes that require water. How cool is that? So what about another trade? 10 wood for.. 3 cacti so you can setup a farm. Deal?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2015,7 +2016,7 @@
     {
       "questID": 23,
       "name": "Something to carry liquids",
-      "description": "You tried to move water with you bare hands, which didn\u0027t work at all. Luckily, you remember a way how to make a buckets out of clay.",
+      "description": "You tried to move water with your bare hands, which didn\u0027t work at all. Luckily, you remember a way how to make a buckets out of clay.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2176,7 +2177,7 @@
     {
       "questID": 25,
       "name": "Another brick in the wall",
-      "description": "Your vision becomes more clear, you\u0027ll need bricks for your first multiblock structure. You think that 104 bricks should be enough. However, the bricks you\u0027ll need are somewhat special. Pay attention to craft the correct ones!",
+      "description": "Your vision becomes more clear, you\u0027ll need bricks for your first multiblock structure. You think that 104 bricks should be enough. However, the bricks you\u0027ll need are somewhat special. Make sure to craft the correct ones!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2251,7 +2252,7 @@
     {
       "questID": 26,
       "name": "Forming press v0.1",
-      "description": "As you might have noticed, you cannot turn clay into bricks as usual. Well, to be fair, it wasn\u0027t a good recipe anyway. You\u0027ll probably end up with something bread-shaped. So in order to make bricks, you need a form. Get yourself a knife and a blank pattern, and cut a brick sized piece out. As easy as that.",
+      "description": "As you may have noticed, you cannot turn clay into bricks directly. Well, to be fair, it wasn\u0027t a good recipe anyway. You\u0027ll probably end up with something bread-shaped. So in order to make bricks, you need a form. Get yourself a knife and a blank pattern, and cut a brick sized piece out. It\u0027s as easy as that.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2410,7 +2411,7 @@
     {
       "questID": 28,
       "name": "Copper sky, Iron curtain",
-      "description": "With your new acquired fuel source, you are now ready to process more advanced materials than stone or clay; Iron or copper, for example. Just in case you don\u0027t know, they spawn in rather large veins. Use the following quests to search and locate the most important veins you\u0027ll need.",
+      "description": "With your newly acquired fuel source, you are now ready to process more advanced materials than stone or clay; Iron or copper, for example. Just in case you don\u0027t know, they spawn in rather large veins. Use the following quests to locate the most important veins.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2446,7 +2447,7 @@
     {
       "questID": 29,
       "name": "Another fuel source",
-      "description": "Lignite and regular coal are the fuel sources you\u0027ll definitely need. The latter can be turned into coke, which is a superior material to smelt your first large batch of ore.",
+      "description": "Lignite and regular coal are the fuel sources you\u0027ll definitely need. The latter can be turned into coal coke, which is a superior fule source to smelt your first large batch of ore.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2517,7 +2518,7 @@
     {
       "questID": 30,
       "name": "Copper",
-      "description": "Copper Ingot can me smelted out of Copper, Chalcoperite and Malachite Ore.",
+      "description": "Copper ingots can be created by smelting copper, chalcopyrite, or malachite ore.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2600,7 +2601,7 @@
     {
       "questID": 31,
       "name": "Tin",
-      "description": "Tin ingots can be smelted out of Tin and Cassetreite ore.",
+      "description": "Tin ingots can be created by smelting tin and cassiterite ore.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2683,7 +2684,7 @@
     {
       "questID": 32,
       "name": "Book parts",
-      "description": "After you\u0027ve found a way to pick up and move around water, you had another brilliant idea: Paper! Usually made with sugarcane, which doesn\u0027t work any more (and is pretty weird anyway...). However, you will need a lot of wood to craft wood pulp, so better grab your axe and go choppin\u0027 some trees.",
+      "description": "After you found a way to move water around, you had another brilliant idea: Paper! Paper is no longer made with sugarcane, you will now need wood pulp. You will need a lot of wood to craft wood pulp, so better grab your axe and go chop some trees.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2754,7 +2755,7 @@
     {
       "questID": 33,
       "name": "Tinker-time",
-      "description": "While using your flint tools is fun in terms of burning pigs and cows, they are not pretty good, and can\u0027t be repaired. You had an idea how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.",
+      "description": "While using your flint tools is fun in terms of burning pigs and cows, they are not very good, and can\u0027t be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2841,7 +2842,7 @@
     {
       "questID": 34,
       "name": "Aluminini...um...?",
-      "description": "However it is spelled, you will need it. Mostly found on the surface. Try to search in rivers. (This quest is optional)",
+      "description": "However it is spelled, you will need it. You can find it in chunks of gravel on the surface. Try searching in rivers. (This quest is optional)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -3003,7 +3004,7 @@
     {
       "questID": 36,
       "name": "Important tools",
-      "description": "In order to craft even the basic machines, you\u0027ll need new tools. Most of them can be replaced by machines later. For now, you should make yourself familiar with each of their recipes, as you will need a lot of these tools, starting today.\n\nAlso your new tools can be used to make Railcraft water tanks, a quite useful thing considering the finite water feature.",
+      "description": "In order to craft even basic machines, you\u0027ll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.\n\nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3125,7 +3126,7 @@
     {
       "questID": 37,
       "name": "Getting iron",
-      "description": "Iron can be found in different Veins. Magnetite Veins y 30-180, in Copper Veins y 5-60 and Brown and Yellow Lemonite Veins y 10-40.",
+      "description": "Iron can be found in multiple veins. Magnetite veins (y 30-180), chalcopyrite veins (y 5-60), and limonite veins (y 10-40) all contain iron",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3362,7 +3363,7 @@
     {
       "questID": 39,
       "name": "Better storage",
-      "description": "As crafting chests is a good idea for your basic items and goods, it is not for the vast amount of ores. You should build yourself some barrels in order to keep things organized.",
+      "description": "While standard chests are good for your basic items and goods, they are not ideal for storing a large amount of ore. You should build yourself some barrels in order to keep things organized.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -3717,7 +3718,7 @@
     },
     {
       "questID": 42,
-      "name": "Cow Tripper",
+      "name": "Cow Tipper",
       "description": "Before you had to kill some pigs and sheep to complete quests. Now it\u0027s time to kill some cows and hopefully get some leather. If you are lucky and get a cow trophy you may never need to kill another cow in the future.",
       "isMain": false,
       "isSilent": false,
@@ -3788,7 +3789,7 @@
     {
       "questID": 43,
       "name": "Cotton, cotton and more cotton",
-      "description": "You find out that cotton is very useful. You can make wool out of it (how you can do this seems magical). Strings can be made out of cotton, and some other useful items too. Make a small cotton plantation to get more of this useful stuff.",
+      "description": "You find out that cotton is very useful, it can be used to make string, wool, and some other useful items too. Make a small cotton plantation to get tons of it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -3865,7 +3866,7 @@
     {
       "questID": 44,
       "name": "Welcome to Tier 1",
-      "description": "Welcome and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots is more efficient.",
+      "description": "Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3943,7 +3944,7 @@
     {
       "questID": 45,
       "name": "Multiblock Tanks... Railcraft Tanks",
-      "description": "576 buckets of fluids... Enough to store all the creosote I made before. If this isn\u0027t enough I can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8 blocks.",
+      "description": "576 buckets of fluid, enough to store all the creosote you made before. If this isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4042,7 +4043,7 @@
     {
       "questID": 46,
       "name": "More advanced alloys",
-      "description": "Your smeltery does a great job in mixing metals into alloys, but it\u0027s not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? It might also come in handy when processing raw rubber.",
+      "description": "Your smeltery does a great job mixing metals into alloys, but it\u0027s not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? It might also come in handy when processing raw rubber.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4199,7 +4200,7 @@
     {
       "questID": 48,
       "name": "A very important alloy",
-      "description": "Basically the most important alloy (until you reach a higher tier) is without questioning, red alloy. Fortunately, you have an alloy smelter, so better grab some redstone and get yourself a handful of that.",
+      "description": "The most important alloy (until you reach a higher tier) is undoubtedly red alloy. Fortunately, you have an alloy smelter, so grab some redstone and get yourself a handful of that.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4276,7 +4277,7 @@
     {
       "questID": 49,
       "name": "The hell is that?",
-      "description": "In order to get more machines, you\u0027ll need pistons. But not those amateurish ones, you need special ones, and I shall guide you how to make those.",
+      "description": "In order to get more machines, you\u0027ll need pistons. But not those amateurish ones, you need special ones, and I shall guide you in making them.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4455,7 +4456,7 @@
     {
       "questID": 50,
       "name": "Macerator v1.0!",
-      "description": "Finally you are able to get a device, that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.",
+      "description": "Finally you are able to make a device that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4524,7 +4525,7 @@
     {
       "questID": 51,
       "name": "Extracting stuff",
-      "description": "As you\u0027ll need rubber later on in order to wrap wires into cables, you should get yourself a Steam Extractor. You can also use this machine to get more dyes from flowers, or process different fruits into juice.",
+      "description": "As you\u0027ll need rubber later to make cables from wires, you should get yourself a steam extractor. You can also use this machine to get more dyes from flowers, or process different fruits into juice.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4670,7 +4671,7 @@
     {
       "questID": 53,
       "name": "Hammer time v2",
-      "description": "Using 6 ingots to craft a hammer seems to be pretty wasteful, as these tools use up durability. How nice would it be to have machine that does the same but without having durability? Guess what, there is one! And you should totally get one.",
+      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability? Guess what, there is one! And you should totally get one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4739,7 +4740,7 @@
     {
       "questID": 54,
       "name": "Compressing stuff",
-      "description": "This rather simple device does a very important job: compressing stuff. As you are not able to get blocks just by pressing 9 ingots with your bare hands, it is also useful to do various additional tasks, for example making firm tofu.",
+      "description": "This rather simple device does a very important job: compression. It\u0027s main function is to press 9 ingots into a block, but it\u0027s also useful for a variety of recipes, for example making firm tofu.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4797,7 +4798,7 @@
     {
       "questID": 55,
       "name": "Upgrade: Better compressor",
-      "description": "An updated version of the Steam Compressor. Uses more steam, but is almost twice as fast. (This quest is optional)",
+      "description": "An updated version of the steam compressor. Uses more steam, but is almost twice as fast. (This quest is optional)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4883,7 +4884,7 @@
     {
       "questID": 56,
       "name": "Upgrade: Forge hammer",
-      "description": "An updated version of the Steam Forge Hammer. Uses more steam, but is almost twice as fast. (This quest is optional)",
+      "description": "An updated version of the steam forge hammer. Uses more steam, but is almost twice as fast. (This quest is optional)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4969,7 +4970,7 @@
     {
       "questID": 57,
       "name": "Upgrade: Extractor",
-      "description": "An updated version of the Steam Extractor. Uses more steam, but is almost twice as fast. You most probably want to craft this, as the extractor does also extract your nerves... (This quest is optional)",
+      "description": "An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You most probably want to craft this, as the extractor does also extract your nerves... (This quest is optional)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5055,7 +5056,7 @@
     {
       "questID": 58,
       "name": "Upgrade: Better macerator",
-      "description": "An updated version of the Steam Macerator. Uses more steam, but is almost twice as fast. (This quest is optional)",
+      "description": "An updated version of the steam macerator. Uses more steam, but is almost twice as fast. (This quest is optional)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5141,7 +5142,7 @@
     {
       "questID": 59,
       "name": "Steam alternatives",
-      "description": "There is more than one way to get steam for your machines. This completely optional quests shall show you some ways of getting steam.",
+      "description": "There is more than one way to get steam for your machines. This completely optional quest shows you some alternative methods for getting steam.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5194,7 +5195,7 @@
     {
       "questID": 60,
       "name": "Upgrade: Coal boiler",
-      "description": "This is basically just an upgrade to your current coal boiler, however it produces more than twice as much steam. Something you should consider building if you\u0027re planning to get some of the machine upgrades.",
+      "description": "This is basically just an upgrade to your current coal boiler, however it produces more than twice as much steam. Something you should consider building if you\u0027re planning to get some of the upgraded machines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5263,7 +5264,7 @@
     {
       "questID": 61,
       "name": "Another use for Java, I mean Lava",
-      "description": "With the more durable steel casings, you can now use lava to make steam.",
+      "description": "With a more durable steel casing, you can use lava to make steam.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5470,7 +5471,7 @@
     {
       "questID": 64,
       "name": "Upgrade: Better furnace",
-      "description": "An updated version of the Steam Furnace. Uses more steam, but is almost twice as fast. (This quest is optional)",
+      "description": "An updated version of the steam furnace. Uses more steam, but is almost twice as fast. (This quest is optional)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5556,7 +5557,7 @@
     {
       "questID": 65,
       "name": "Blastoff!",
-      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a Bronze Blast Furnace. Return here when you made at least 8 steel ingots.",
+      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bronze blast furnace. Return here when you made at least 8 steel ingots.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5645,7 +5646,7 @@
     {
       "questID": 66,
       "name": "Time for some logic",
-      "description": "Good news is: You are now able to advance to the next tier! Bad news is: You still have to craft a lot of things before you can begin. But fear not mortal, I shall guide you!",
+      "description": "Good news! You are now able to advance to the next tier! Bad news is: You still have to craft a lot of things before you can begin. Fear not mortal, I shall guide you!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5913,7 +5914,7 @@
     {
       "questID": 68,
       "name": "Your first logic circuit",
-      "description": "Where steam machines are kinda stupid and just do one thing again and again, as you advance into electrical age, you\u0027ve decided that you want the machines to have more features, like auto-output in order to create some automation. For that, you need logic circuits.",
+      "description": "Steam machines are quite stupid, they just do one thing over and over again. As you advance into the electrical age, you\u0027ve decided that you want the machines to have more features, like automatic output in order to create some automation. For that, you need logic circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -6252,7 +6253,7 @@
     {
       "questID": 72,
       "name": "Basic crafting: Rotors",
-      "description": "Rotors are also crafted using identical pattern with different materials. Annoying to craft a bit at the moment, but you don\u0027t need a lot of them anyway.",
+      "description": "Rotors are also crafted using an identical pattern with different materials. A bit annoying to craft at the moment, but you don\u0027t need a lot of them anyway.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -6818,7 +6819,7 @@
     {
       "questID": 76,
       "name": "Time to get some steel",
-      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\n(Hint: The Bronze Blast Furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...)",
+      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\n(Hint: The bronze blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6987,7 +6988,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get the proper alumin(i)um, you need an Electrical Blast Furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be tricky...\n\n(You need 2LV hatches with 4A LV total, or 3LV hatches with MOOOORE power if the multiblock is not fully fixed)",
+      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully fixed)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7419,7 +7420,7 @@
     {
       "questID": 81,
       "name": "At the end of...",
-      "description": "...the universe everything freezes eventually. But waiting for the death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff.",
+      "description": "...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7511,7 +7512,7 @@
     {
       "questID": 82,
       "name": "An unexpected Bonus",
-      "description": "Because we\u0027re nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the Bronze Blast Furnace), it also yields 10x the burn time per block instead of 9x. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)",
+      "description": "Because we\u0027re nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bronze blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7578,7 +7579,7 @@
     {
       "questID": 83,
       "name": "High speed charcoal",
-      "description": "Sure, those coke ovens are nice, but they aren\u0027t even remotely fast enough to keep up with a Large Steam Boiler. Luckily, there is an upgrade available! The creosote oil will not be produced, but the process will speed up dramatically. Who needs that nasty yellowish stuff anyway...",
+      "description": "Sure, those coke ovens are nice, but they aren\u0027t even remotely fast enough to keep up with a large steam boiler. Luckily, there is an upgrade available! The creosote oil will not be produced, but the process will speed up dramatically. Who needs that nasty yellowish stuff anyway...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7726,7 +7727,7 @@
     },
     {
       "questID": 84,
-      "name": "Where I can put all the liquids in",
+      "name": "Where I can put all the liquids?",
       "description": "With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It is possible to upgrade those tanks so they can hold up to 64 buckets.",
       "isMain": false,
       "isSilent": false,
@@ -7932,7 +7933,7 @@
     {
       "questID": 86,
       "name": "Upgrade #3: Upgrade Tier 4",
-      "description": "To process more advanced materials like: enderium, enriched naquadah or niobium-titanium you need more than 3600K. Upgrade your EBF... again.",
+      "description": "To process more advanced materials like enderium, enriched naquadah or niobium-titanium you need more than 3600K. Upgrade your EBF... again.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8099,7 +8100,7 @@
     {
       "questID": 88,
       "name": "Welcome to Tier 2",
-      "description": "Why, hello there! Seems you\u0027ve made it into the electrical age. But behold, do not throw away your steam machines. You\u0027ll probably want to use them until you reach Tier 3.",
+      "description": "Why, hello there! Seems you\u0027ve made it into the electrical age. Don't be so quick to throw away your steam machines, you\u0027ll probably want to use them until you reach tier 3.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8170,7 +8171,7 @@
     {
       "questID": 89,
       "name": "Tier 3",
-      "description": "In Tier 3, you will be able to craft your first actually \"useful\" machines. Basic ones do the job, but with MV, a lot more recipes will unlock. Your goal here is to set up stable ore processing for the vast amounts of materials you\u0027ll need later on. You also should focus on power production if you haven\u0027t already.",
+      "description": "In tier 3, you will be able to craft your first actually \"useful\" machines. Basic ones do the job, but with MV, a lot more recipes will unlock. Your goal here is to set up stable ore processing for the vast amounts of materials you\u0027ll need later on. You also should focus on power production if you haven\u0027t already.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8315,8 +8316,8 @@
     },
     {
       "questID": 91,
-      "name": "You gonna hate this #1",
-      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of chests or barrels you need one (Goes pretty well with item pipes or GT machines, adjust with screwdriver).",
+      "name": "You\u0027re gonna hate this #1",
+      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of chests or barrels you\u0027ll need one (Goes pretty well with item pipes or GT machines, adjust with screwdriver).",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8390,8 +8391,8 @@
     },
     {
       "questID": 92,
-      "name": "You gonna hate this #4",
-      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Probably, the most painful item ever (Works like a conveyor but can work with selected item slots, adjust with screwdriver).",
+      "name": "You\u0027re gonna hate this #4",
+      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever (Works like a conveyor but can work with selected item slots, adjust with screwdriver).",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8465,8 +8466,8 @@
     },
     {
       "questID": 93,
-      "name": "You gonna hate this #2",
-      "description": "The second item you\u0027ll need a lot of. When you want to get the fluid out of the tanks you need one (Goes pretty well with fluid pipes or GT machines, adjust with screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed).",
+      "name": "You\u0027re gonna hate this #2",
+      "description": "The second item you\u0027ll need a lot of. When you want to get fluid out of tanks you\u0027ll need one (Goes pretty well with fluid pipes or GT machines, adjust with screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed).",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8611,7 +8612,7 @@
     },
     {
       "questID": 95,
-      "name": "You gonna hate this #3",
+      "name": "You\u0027re gonna hate this #3",
       "description": "A piston, but more .. \"Electrical\". The 4th item you are going to craft a lot in the future.",
       "isMain": true,
       "isSilent": false,
@@ -8827,7 +8828,7 @@
     {
       "questID": 98,
       "name": "No more filing",
-      "description": "Why wasting a full ingot to make a rod, that needs a tool which loses durability and takes even more ingots? With this little device, all your rod-needs shall be fulfilled (for now).",
+      "description": "Why waste a full ingot to make a rod by using a tool which loses durability and takes even MORE ingots? With this little device, all your rod-needs shall be fulfilled (for now).",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8898,7 +8899,7 @@
     {
       "questID": 99,
       "name": "Bzzz... Whoom...",
-      "description": "Making etched wires for good circuits need a Precision Laser Engraver.",
+      "description": "Making etched wires for good circuits requires a precision laser engraver.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8970,7 +8971,7 @@
     {
       "questID": 100,
       "name": "Press all the things",
-      "description": "If you want to make basic circuits more efficiently you can using the Forming Press. But for the good circuits you actually need it.",
+      "description": "If you want to make basic circuits more efficiently you can using the forming press. But for the good circuits you actually need it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42402,7 +42403,7 @@
     },
     {
       "questID": 529,
-      "name": "You gonna hate this #5",
+      "name": "You\u0027re gonna hate this #5",
       "description": "The fifth item you\u0027ll need a lot of. For the Microwave, the Scanner, the Precision Laser Engraver, etc.",
       "isMain": true,
       "isSilent": false,
@@ -42477,7 +42478,7 @@
     },
     {
       "questID": 530,
-      "name": "You gonna hate this #6",
+      "name": "You\u0027re gonna hate this #6",
       "description": "The sixth item you\u0027ll need a lot of. For the Scanner and the Seismic Prospector.",
       "isMain": true,
       "isSilent": false,
@@ -62433,7 +62434,7 @@
     {
       "questID": 727,
       "name": "Better than barrels",
-      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system 񙧑񗝝񘄹�9񙓫񘘡(Tec2k17)\"�0 later in the HV age with some help from ?cProjectRed Transportation.?6",
+      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system 锟�9锟�1锟�2锟�1锟�4锟�5锟�9锟絝锟絢锟絝锟絜锟絛锟給锟絩锟給锟絤锟絣锟絢锟絝锟絜锟絛锟�8锟�7锟�5锟�1(Tec2k17)\"锟�0 later in the HV age with some help from ?cProjectRed Transportation.?6",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64070,7 +64071,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "Steel Hammer"
+            "Name:8": "锟絝Steel Hammer"
           }
         }
       },
@@ -64147,7 +64148,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "Steel Hammer"
+                  "Name:8": "锟絝Steel Hammer"
                 }
               }
             }
@@ -64242,7 +64243,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "Steel Lumber Axe"
+            "Name:8": "锟絝Steel Lumber Axe"
           }
         }
       },
@@ -64321,7 +64322,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "Steel Lumber Axe"
+                  "Name:8": "锟絝Steel Lumber Axe"
                 }
               }
             }
@@ -64416,7 +64417,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "Steel Excavator"
+            "Name:8": "锟絝Steel Excavator"
           }
         }
       },
@@ -64495,7 +64496,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "Steel Excavator"
+                  "Name:8": "锟絝Steel Excavator"
                 }
               }
             }
@@ -77202,7 +77203,7 @@
   "questLines": [
     {
       "name": "Tier 0 - It begins",
-      "description": "The very first Tier, Tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam\u0027s Harvestcraft.",
+      "description": "The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam\u0027s Harvestcraft.",
       "quests": [
         {
           "id": 0,
@@ -77860,7 +77861,7 @@
     },
     {
       "name": "Tier 2 - 32 EU (LV)",
-      "description": "The first \"Voltage\" Tier of this pack. Things are getting easier...",
+      "description": "The first \"voltage\" tier of this pack. Things are getting easier...",
       "quests": [
         {
           "id": 88,
@@ -78752,7 +78753,7 @@
     },
     {
       "name": "Tier 4 - 512 EU (HV)",
-      "description": "Finally some power to work with. This tier will help you prepare to reach distant planets and gather more rare resources to build even more advanced machines.",
+      "description": "Finally some power to work with. This tier will help you reach distant planets and gather more rare resources to build even more advanced machines.",
       "quests": [
         {
           "id": 160,
@@ -78858,7 +78859,7 @@
     },
     {
       "name": "Tier 5 - 2048 EU (EV)",
-      "description": "Titanium-Level, fissile energy sources, Applied Energistics 2.",
+      "description": "Titanium level, fissile energy sources, Applied Energistics 2.",
       "quests": [
         {
           "id": 176,
@@ -79216,7 +79217,7 @@
     },
     {
       "name": "Novice Thaumaturge",
-      "description": "Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great Wizard, like me.",
+      "description": "Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great wizard, like me.",
       "quests": [
         {
           "id": 224,
@@ -79865,7 +79866,7 @@
     },
     {
       "name": "Multiblock Goals",
-      "description": "This set is a global tracker for multiblock goals structures. As you can build several parts of many multiblocks way earlier than the respective tier.",
+      "description": "This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier.",
       "quests": [
         {
           "id": 74,
@@ -80061,7 +80062,7 @@
     },
     {
       "name": "Armors and Jetpacks",
-      "description": "Guiding you through the Armors and Jetpacks.",
+      "description": "Guiding you through the armor and jetpacks.",
       "quests": [
         {
           "id": 645,
@@ -80232,7 +80233,7 @@
     },
     {
       "name": "Cooking Farming Fishing",
-      "description": "Cooking Basic and more advanced food",
+      "description": "Cooking basic and more advanced food",
       "quests": [
         {
           "id": 627,
@@ -80414,7 +80415,7 @@
     },
     {
       "name": "Space Race",
-      "description": "A Guide how to start with Galacticraft and reach the Moon",
+      "description": "A guide to help you start Galacticraft and reach the moon",
       "quests": [
         {
           "id": 809,
@@ -81342,7 +81343,7 @@
     },
     {
       "name": "How to be(e)",
-      "description": "An non-tiered quest set that is meant as an in game, quest based tutorial and guide to bees. Since they are a really helpful tool to advance forward.",
+      "description": "A non-tiered quest set that is meant as an in game, quest based tutorial and guide to bees. Since they are a really helpful tool to advance forward.",
       "quests": [
         {
           "id": 500,
