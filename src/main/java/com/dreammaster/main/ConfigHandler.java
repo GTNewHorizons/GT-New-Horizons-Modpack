@@ -19,14 +19,14 @@ public class ConfigHandler {
         Error e=new Error();
         e.setStackTrace(new StackTraceElement[]{});
 
-        try {
-            Class VanillaChange = Class.forName("lumien.randomthings.Configuration.VanillaChanges");
-            boolean nerf1=VanillaChange.getField("HARDCORE_DARKNESS").getBoolean(null);
-            boolean nerf2=VanillaChange.getField("LOCKED_GAMMA").getBoolean(null);
-            if (!nerf1 || !nerf2){
-                Minecraft.getMinecraft().crashed(new CrashReport("",e)); return;
-            }
-        }catch (Exception E){/*E.printStackTrace();*/}
+        //try {
+        //Class VanillaChange = Class.forName("lumien.randomthings.Configuration.VanillaChanges");
+        //boolean nerf1=VanillaChange.getField("HARDCORE_DARKNESS").getBoolean(null);
+        //boolean nerf2=VanillaChange.getField("LOCKED_GAMMA").getBoolean(null);
+        //if (!nerf1 || !nerf2){
+        //Minecraft.getMinecraft().crashed(new CrashReport("",e)); return;
+        //}
+        //}catch (Exception E){/*E.printStackTrace();*/}
 
         try{
             Class.forName("net.minecraftxray.loader.XRayForgeTweaker");
