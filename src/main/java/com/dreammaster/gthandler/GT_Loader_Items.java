@@ -531,5 +531,21 @@ public class GT_Loader_Items
 		CustomItemList.RawLapotronCrystal.set(ItemList.RawLapotronCrystal.getIS());
 		CustomItemList.LapotronDust.set(ItemList.LapotronDust.getIS());
 		CustomItemList.SandDust.set(ItemList.SandDust.getIS());
+		CustomItemList.AluminiumIronPlate.set(ItemList.AluminiumIronPlate.getIS());
+		CustomItemList.ReinforcedAluminiumIronPlate.set(ItemList.ReinforcedAluminiumIronPlate.getIS());
+		CustomItemList.IrradiantReinforcedAluminiumPlate.set(ItemList.IrradiantReinforcedAluminiumPlate.getIS());
+		CustomItemList.IrradiantReinforcedTitaniumPlate.set(ItemList.IrradiantReinforcedTitaniumPlate.getIS());
+		CustomItemList.IrradiantReinforcedTungstenPlate.set(ItemList.IrradiantReinforcedTungstenPlate.getIS());
+		CustomItemList.IrradiantReinforcedTungstenSteelPlate.set(ItemList.IrradiantReinforcedTungstenSteelPlate.getIS());
+		CustomItemList.IrradiantReinforcedChromePlate.set(ItemList.IrradiantReinforcedChromePlate.getIS());
+		CustomItemList.IrradiantReinforcedNaquadriaPlate.set(ItemList.IrradiantReinforcedNaquadriaPlate.getIS());
+		CustomItemList.IrradiantReinforcedNeutroniumPlate.set(ItemList.IrradiantReinforcedNeutroniumPlate.getIS());
+
+
+
+
+
+
+
 	}
 }
