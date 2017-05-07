@@ -29,22 +29,14 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Sapphire, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L), CustomItemList.AluminoSilicateWool.get(2L), 1200, 30);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.GreenSapphire, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.SiliconDioxide, 1L), CustomItemList.AluminoSilicateWool.get(2L), 1200, 30);
 
-        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PsP", 'P', OrePrefixes.wireGt02.get(Materials.Cupronickel)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Cupronickel, 8L), CustomItemList.AluminoSilicateWool.get(12L), Materials.Tin.getMolten(144L), ItemList.Casing_Coil_Cupronickel.get(1L), 100, 8);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Cupronickel, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Tin.getMolten(144L), ItemList.Casing_Coil_Cupronickel.get(1L), 100, 8);
-        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Kanthal)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Kanthal, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Copper.getMolten(144L), ItemList.Casing_Coil_Kanthal.get(1L), 100, 24);
-        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Nichrome)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Nichrome, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Aluminium.getMolten(144L), ItemList.Casing_Coil_Nichrome.get(1L), 100, 120);
-        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.TungstenSteel)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.TungstenSteel, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Nichrome.getMolten(144L), ItemList.Casing_Coil_TungstenSteel.get(1L), 100, 500);
-        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.HSSG)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.HSSG, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Tungsten.getMolten(144L), ItemList.Casing_Coil_HSSG.get(1L), 100, 2000);
-        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Naquadah)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Naquadah, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.TungstenSteel.getMolten(144L), ItemList.Casing_Coil_Naquadah.get(1L), 100, 4000);
-        //GT_ModHandler.addCraftingRecipe( bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.NaquadahAlloy)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.NaquadahAlloy, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Naquadah.getMolten(144L), ItemList.Casing_Coil_NaquadahAlloy.get(1L), 100, 8000);
-        //GT_ModHandler.addCraftingRecipe(, bits, new Object[]{aTextPlate, aTextPlateWrench, "PwP", 'P', OrePrefixes.wireGt02.get(Materials.Superconductor)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Superconductor, 8L), CustomItemList.MicaInsulatorFoil.get(8L), Materials.Trinium.getMolten(144L), ItemList.Casing_Coil_Superconductor.get(1L), 100, 9001);
 
 
@@ -182,19 +174,6 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Platinum, 6L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 4L), CustomItemList.NanoBoard.get(1L), 400, 1920);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Palladium, 8L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 8L), CustomItemList.QuantumBoard.get(1L), 200, 7680);
 
-        for (Materials tMat : Materials.VALUES) {
-            if ((tMat.mStandardMoltenFluid != null) && (tMat.contains(SubTag.SOLDERING_MATERIAL))) {
-                int tMultiplier = tMat.contains(SubTag.SOLDERING_MATERIAL_GOOD) ? 1 : tMat.contains(SubTag.SOLDERING_MATERIAL_BAD) ? 4 : 2;
-                GT_Values.RA.addAssemblerRecipe(ItemList.Circuit_Board_Advanced.get(1L), CustomItemList.HighEnergyCircuitParts.get(4L), tMat.getMolten(288L * tMultiplier / 2L), CustomItemList.AdvancedBoard.get(1L), 400, 480);
-                GT_Values.RA.addAssemblerRecipe(CustomItemList.AdvancedProcessorBoard.get(1L), CustomItemList.EngravedDiamondCrystalChip.get(4L), tMat.getMolten(432L * tMultiplier / 2L), CustomItemList.HighEnergyFlowCircuit.get(1L), 400, 4096);
-                GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoProcessorBoard.get(1L), CustomItemList.EngravedEnergyChip.get(4L), tMat.getMolten(576L * tMultiplier / 2L), CustomItemList.NanoCircuit.get(1L), 500, 7680);
-                GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumProcessorBoard.get(1L), CustomItemList.EngravedQuantumChip.get(6L), tMat.getMolten(1440L * tMultiplier / 2L), CustomItemList.QuantumCircuit.get(1L), 700, 122880);
-                //GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Diamond, 8L), ItemList.Circuit_Board_Elite.get(16L), tMat.getMolten(1152L * tMultiplier / 2L), CustomItemList.WaferTier3.get(1L), 4800, 1024);
-            }
-        }
-//      GT_Values.RA.addAssemblerRecipe(ItemList.Gravistar.get(1L, new Object[]{}), CustomItemList.NanoCircuit.get(4L, new Object[]{}), Materials.Osmium.getMolten(576L), ItemList.Field_Generator_LuV.get(1, new Object[0]), 2400, 7680);
-//      GT_Values.RA.addAssemblerRecipe(CustomItemList.MysteriousCrystal.get(1L, new Object[]{}), CustomItemList.PikoCircuit.get(4L, new Object[]{}), Materials.Naquadah.getMolten(576L), ItemList.Field_Generator_ZPM.get(1, new Object[0]), 3000, 7680);
-//      GT_Values.RA.addAssemblerRecipe(new ItemStack(Blocks.dragon_egg, 1, 0), CustomItemList.QuantumCircuit.get(4L, new Object[]{}), Materials.NaquadahAlloy.getMolten(576L), ItemList.Field_Generator_UV.get(1, new Object[0]), 3600, 7680);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("appliedenergistics2", "item.ItemMultiMaterial", 1L, 24), CustomItemList.EssentiaCircuit.get(1L), CustomItemList.EngineeringProcessorEssentiaPulsatingCore.get(1), 100, 1920);
         GT_Values.RA.addAssemblerRecipe(ItemList.Circuit_Elite.get(1L), GT_ModHandler.getModItem("GalacticraftMars", "item.schematic", 0L, 2), CustomItemList.SchematicsAstroMiner.get(1), 40, 480);
         GT_Values.RA.addAssemblerRecipe(ItemList.Circuit_Elite.get(1L), GT_ModHandler.getModItem("GalacticraftMars", "item.schematic", 0L, 1), CustomItemList.SchematicsCargoRocket.get(1), 40, 480);
@@ -659,10 +638,6 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addForgeHammerRecipe(new ItemStack(Items.nether_star, 1, 0), CustomItemList.NetherStarFragment.get(2L), 16, 30);
 
-        GT_Values.RA.addFormingPressRecipe(CustomItemList.AdvancedBoard.get(1L), ItemList.Circuit_Parts_Wiring_Elite.get(4L), CustomItemList.AdvancedProcessorBoard.get(1L), 400, 480);
-        GT_Values.RA.addFormingPressRecipe(CustomItemList.NanoBoard.get(1L), CustomItemList.EtchedInsaneVoltageWiring.get(6L), CustomItemList.NanoProcessorBoard.get(1L), 200, 4096);
-        GT_Values.RA.addFormingPressRecipe(CustomItemList.QuantumBoard.get(1L), CustomItemList.EtchedLudicrousVoltageWiring.get(8L), CustomItemList.QuantumProcessorBoard.get(1L), 400, 30720);
-
         GT_Values.RA.addFormingPressRecipe(CustomItemList.MicaBasedPulp.get(4L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Asbestos, 1L), CustomItemList.MicaBasedSheet.get(4L), 400, 28);
 
         GT_Values.RA.addImplosionRecipe(CustomItemList.NetherStarFragment.get(2L), 1, new ItemStack(Items.nether_star, 1, 0), null);
@@ -984,6 +959,10 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Coated_Basic.get(1, o), GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Basic, 1), ItemList.Cover_Controller.get(1,o)}, tMat.getMolten(144L * tMultiplier / 2L), GT_ModHandler.getModItem("Railcraft", "part.circuit", 1L, 0), 1200, 30);
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Coated_Basic.get(1, o), GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Basic, 1), ItemList.Sensor_LV.get(1,o)}, tMat.getMolten(144L * tMultiplier / 2L), GT_ModHandler.getModItem("Railcraft", "part.circuit", 1L, 1), 1200, 30);
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Coated_Basic.get(1, o), GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Basic, 1), GT_ModHandler.getModItem("Railcraft", "part.signal.lamp", 1L, 0)}, tMat.getMolten(144L * tMultiplier / 2L), GT_ModHandler.getModItem("Railcraft", "part.circuit", 1L, 2), 1200, 30);
+
+                //PCBs Steve Carts
+                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Coated_Basic.get(1, o), GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Basic, 1), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Gold, 8)}, tMat.getMolten(144L * tMultiplier / 2L), GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 9), 200, 30);
+                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Phenolic_Good.get(1, o), GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 2L, 9), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Electrum, 16)}, tMat.getMolten(288L * tMultiplier / 2L), GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 16), 200, 120);
 
                 if (aOreDictName.equals(OreDictNames.craftingLensWhite.toString())) {
 
