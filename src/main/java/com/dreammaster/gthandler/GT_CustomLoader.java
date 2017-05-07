@@ -22,7 +22,7 @@ public class GT_CustomLoader
 {
     public enum AdvancedGTMaterials
     {
-        LuV(ItemList.NanoCircuit.getIS(),
+        LuV(OrePrefixes.circuit.get(Materials.Ultimate),
         		OrePrefixes.wireGt02.get(Materials.YttriumBariumCuprate),
         		Materials.Naquadah,
         		OrePrefixes.wireGt02.get(Materials.HSSG),
@@ -31,7 +31,7 @@ public class GT_CustomLoader
         		Materials.Chrome,
         		Materials.Enderium),
         
-        ZPM(ItemList.PikoCircuit.getIS(),
+        ZPM(OrePrefixes.circuit.get(Materials.Superconductor),
         		OrePrefixes.wireGt04.get(Materials.YttriumBariumCuprate),
         		Materials.NaquadahAlloy,
         		OrePrefixes.wireGt02.get(Materials.Naquadah),
@@ -40,7 +40,7 @@ public class GT_CustomLoader
         		Materials.Iridium,
         		Materials.Naquadah),
         
-        UV(ItemList.QuantumCircuit.getIS(), 
+        UV(OrePrefixes.circuit.get(Materials.Infinite),
         		OrePrefixes.wireGt08.get(Materials.YttriumBariumCuprate), 
         		Materials.ElectrumFlux, 
         		OrePrefixes.wireGt02.get(Materials.NaquadahAlloy),
@@ -49,7 +49,7 @@ public class GT_CustomLoader
         		Materials.Osmium,
         		Materials.Neutronium);
         
-        private ItemStack _mCircuit = null;
+        private Object _mCircuit = null;
         private Object _mHeatingCoil = null;
         private Object _mCoilWire = null;
         private Object _mMachineCable = null;
@@ -61,7 +61,7 @@ public class GT_CustomLoader
         private Object _mPipe = null;
         private Object _mPipeL = null;
         
-        private AdvancedGTMaterials(ItemStack pCircuit,
+        private AdvancedGTMaterials(Object pCircuit,
         		Object pHeatingCoil,
         		Materials pCable,
         		Object pCoilWire,
@@ -109,7 +109,7 @@ public class GT_CustomLoader
         	return _mGem;
         }
         
-        public ItemStack getCircuit()
+        public Object getCircuit()
         {
             return _mCircuit;
         }
