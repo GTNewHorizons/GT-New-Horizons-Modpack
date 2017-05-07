@@ -170,9 +170,6 @@ val Detector = <Railcraft:detector:1>;
 val AdvancedDetector = <Railcraft:detector:9>;
 val InfernalBricks = <Railcraft:brick.infernal>;
 val SignalLamp = <Railcraft:part.signal.lamp>;
-val ReceiverCircuit = <Railcraft:part.circuit:1>;
-val SignalCircuit = <Railcraft:part.circuit:2>;
-val ControllerCircuit = <Railcraft:part.circuit>;
 
 val WoodenTrack = <Railcraft:track:736>.withTag({track: "railcraft:track.slow"});
 val Track = <minecraft:rail>;
@@ -498,15 +495,6 @@ recipes.remove(<Railcraft:post:6>);
 
 // --- Signal Lamp
 recipes.remove(SignalLamp);
-
-// --- ControllerCircuit ---
-recipes.remove(ControllerCircuit);
-
-// --- ReceiverCircuit ---
-recipes.remove(ReceiverCircuit);
-
-// --- SignalCircuit ---
-recipes.remove(SignalCircuit);
 
 // --- Turbine Blade ---
 recipes.remove(<Railcraft:part.turbine.blade>);
@@ -1714,15 +1702,6 @@ Assembler.addRecipe(<Railcraft:cart.energy.cesu>, <minecraft:minecart>, <IC2:blo
 
 // --- MFE Cart ---
 Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:blockElectric:1>, 400, 4);
-
-// --- ControllerCircuit ---
-Assembler.addRecipe(ControllerCircuit, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.metaitem.01:32730>, 1200, 30);
-
-// --- ReceiverCircuit ---
-Assembler.addRecipe(ReceiverCircuit, <gregtech:gt.metaitem.01:32710>, <gregtech:gt.metaitem.01:32690>, 1200, 30);
-
-// --- SignalCircuit ---
-Assembler.addRecipe(SignalCircuit, <gregtech:gt.metaitem.01:32710>, <Railcraft:part.signal.lamp>, 1200, 30);
 
 // --- Electric Meter ---
 Assembler.addRecipe(<Railcraft:tool.electric.meter>, <IC2:itemToolMEter>, ReceiverCircuit, 600, 16);

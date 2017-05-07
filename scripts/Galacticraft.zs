@@ -1539,20 +1539,6 @@ Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_
 // --- Canister
 Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 4, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
 
-// --- Basic Wafer
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.tin> * 288, 1600, 64);
-// -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.solderingalloy> * 144, 1600, 64);
-// -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.lead> * 576, 1600, 64);
-
-// --- Advanced Wafer
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.tin> * 576, 3200, 256);
-// -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.solderingalloy> * 288, 3200, 256);
-// -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.lead> * 1440, 3200, 256);
-
 // --- Hydrogen Pipe
 Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, OxygenPipe, <gregtech:gt.metaitem.01:28035> * 4, 400, 16);
 
