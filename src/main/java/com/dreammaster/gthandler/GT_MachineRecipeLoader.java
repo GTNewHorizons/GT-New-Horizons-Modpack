@@ -480,6 +480,10 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dustTiny, 	Materials.MeteoricIron, 9L),        ItemList.Circuit_Integrated.getWithDamage(0L, 19L),		Materials.Oxygen.getGas(1000L), 					GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.MeteoricSteel, 1L), GT_Values.NI, 500, 120, 1200);
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.MeteoricIron, 4L), 	    ItemList.Circuit_Integrated.getWithDamage(0L, 14L),		Materials.Oxygen.getGas(1000L), 					GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.MeteoricSteel, 1L), GT_Values.NI, 500, 120, 1200);
 
+        GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust,      Materials.GalliumArsenide, 1L),     ItemList.Circuit_Integrated.getWithDamage(0L, 11L),     Materials.Oxygen.getGas(1000L),                     GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.GalliumArsenide, 1L), GT_Values.NI, 600, 120, 1200);
+        GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dustTiny,  Materials.GalliumArsenide, 1L),     ItemList.Circuit_Integrated.getWithDamage(0L, 19L),     Materials.Oxygen.getGas(1000L),                     GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.GalliumArsenide, 1L), GT_Values.NI, 600, 120, 1200);
+        GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.GalliumArsenide, 1L),     ItemList.Circuit_Integrated.getWithDamage(0L, 24L),     Materials.Oxygen.getGas(1000L),                     GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.GalliumArsenide, 1L), GT_Values.NI, 600, 120, 1200);
+
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, 		Materials.Ruby, 1L), 			    ItemList.Circuit_Integrated.getWithDamage(0L, 1L), 		GT_Values.NF, 										GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.nugget, Materials.Aluminium, 3L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.DarkAsh, 1L), 400, 120, 1200);
         //  GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.gem, 		Materials.Ruby, 1L), 			ItemList.Circuit_Integrated.getWithDamage(0L, 1L, new Object[0]), 		GT_Values.NF, 										GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.nugget, Materials.Aluminium, 3L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.DarkAsh, 1L), 320, 120, 1200);
 
@@ -742,6 +746,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addMixerRecipe(ItemList.IC2_Energium_Dust.get(9L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Lapis, 6L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, CustomItemList.LapotronDust.get(15L), 600, 480);
 
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Flint, 1L), CustomItemList.SandDust.get(3L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Glass, 4L), 200, 8);
+
+        GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Gallium, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Arsenic, 1L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.GalliumArsenide, 2L), 300, 30);
 
         GT_Values.RA.addVacuumFreezerRecipe(CustomItemList.GlowingMarshmallow.get(1L), CustomItemList.Marshmallow.get(1L), 48000);
         GT_Values.RA.addVacuumFreezerRecipe(GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Neutronium, 1L), 6250);
