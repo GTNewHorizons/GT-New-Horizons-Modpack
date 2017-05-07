@@ -321,7 +321,7 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
         if (aBaseMetaTileEntity.isServerSide()) {
             if(this.mMachine && (aTick % 200L == 0L)){
                 if(this.mMaxProgresstime>0){
-                    GT_Pollution.addPollution(new ChunkPosition(this.getBaseMetaTileEntity().getXCoord(), this.getBaseMetaTileEntity().getYCoord(), this.getBaseMetaTileEntity().getZCoord()), -mPollutionReduction);
+                    GT_Pollution.addPollution(getBaseMetaTileEntity(), -mPollutionReduction);
                     if(mInventory[1].getItem() instanceof GT_MetaGenerated_Tool_01 &&
                             ((GT_MetaGenerated_Tool) mInventory[1].getItem()).getToolStats(mInventory[1]).getSpeedMultiplier()>0 &&
                             ((GT_MetaGenerated_Tool) mInventory[1].getItem()).getPrimaryMaterial(mInventory[1]).mToolSpeed>0 ) {
@@ -329,7 +329,7 @@ public class GT_MetaTileEntity_AirFilter extends GT_MetaTileEntity_MultiBlockBas
                     }
                 }
                 //check for pollution
-                int pollution=GT_Pollution.getPollutionAtCoords(aBaseMetaTileEntity.getXCoord(), aBaseMetaTileEntity.getZCoord());
+                int pollution=GT_Pollution.getPollution(getBaseMetaTileEntity());
                 hasPollution = pollution > 100000 || hasPollution;//HYSTERESIS :O !!! (trust me i am engineer)
                 hasPollution = pollution !=     0 && hasPollution;
             }
