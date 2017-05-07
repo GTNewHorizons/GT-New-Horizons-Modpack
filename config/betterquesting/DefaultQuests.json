@@ -3,7 +3,6 @@
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
-  "maxLives": 10,
   "questDatabase": [
     {
       "questID": 0,
@@ -8100,7 +8099,7 @@
     {
       "questID": 88,
       "name": "Welcome to Tier 2",
-      "description": "Why, hello there! Seems you\u0027ve made it into the electrical age. Don't be so quick to throw away your steam machines, you\u0027ll probably want to use them until you reach tier 3.",
+      "description": "Why, hello there! Seems you\u0027ve made it into the electrical age. Don\u0027t be so quick to throw away your steam machines, you\u0027ll probably want to use them until you reach tier 3.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68249,7 +68248,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -68264,7 +68263,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -68279,7 +68278,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
