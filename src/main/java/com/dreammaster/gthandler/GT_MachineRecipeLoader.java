@@ -879,11 +879,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         // Circuits and Boards
         Object[] o = new Object[0];
-        GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Board_Coated.get(3, o), new Object[]{"RRR", "PPP", "RRR", 'P', GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Wood, 1), 'R', ItemList.IC2_Resin.get(1, o)});
-        GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Board_Coated_Basic.get(1, o), new Object[]{"FFF", "FCF", "FFF", 'C', ItemList.Circuit_Board_Coated.get(1, o), 'F', GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Copper, 1)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Wood, 8), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Copper, 32), Materials.Glue.getFluid(576), ItemList.Circuit_Board_Coated_Basic.get(8, o), 1600, 8);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Wood, 8), ItemList.Circuit_Integrated.get(0, o), Materials.Glue.getFluid(288), ItemList.Circuit_Board_Phenolic.get(8, o), 2400, 16);
-        GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Board_Phenolic_Good.get(1, o), new Object[]{"FFF", "FCF", "FFF", 'C', ItemList.Circuit_Board_Phenolic.get(1, o), 'F', GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Gold, 1)});
         GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Phenolic.get(1, o), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Gold, 4), new FluidStack(ItemList.sIron3Chloride, 100), null, ItemList.Circuit_Board_Phenolic_Good.get(1, o), 600, 30);
         GT_Values.RA.addChemicalRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Epoxid, 1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Gold, 8), Materials.SulfuricAcid.getFluid(500), null, ItemList.Circuit_Board_Epoxy.get(1, o), 600, 30);
         GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Epoxy.get(1, o), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Electrum, 8), new FluidStack(ItemList.sIron3Chloride, 500), null, ItemList.Circuit_Board_Epoxy_Advanced.get(1, o), 1200, 30);
@@ -893,11 +890,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Multifiberglass.get(1, o), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Platinum, 32), new FluidStack(ItemList.sIron3Chloride, 2000), null, ItemList.Circuit_Board_Multifiberglass_Elite.get(1, o), 2400, 120, true);
         GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Wetware.get(1, o), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.NiobiumTitanium, 64), new FluidStack(ItemList.sIron3Chloride, 5000), null, ItemList.Circuit_Board_Wetware_Extreme.get(1, o), 3000, 480, true);
 
-        GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Parts_Resistor.get(1, o), new Object[]{"RPR", "FCF", " P ", 'F', OrePrefixes.wireGt01.get(Materials.Copper), 'P', OrePrefixes.wireFine.get(Materials.Copper), 'C', OrePrefixes.dust.get(Materials.Coal), 'R', ItemList.IC2_Resin.get(1, o)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Coal, 1), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Copper, 4), Materials.Glue.getFluid(288), ItemList.Circuit_Parts_Resistor.get(4, o), 320, 16);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Carbon, 1), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Electrum, 4), Materials.Plastic.getMolten(288), ItemList.Circuit_Parts_ResistorSMD.get(8, o), 320, 96, true);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Glass, 1), ItemList.Shape_Mold_Ball.get(0, o), ItemList.Circuit_Parts_Glass_Tube.get(1, o), 240, 16);
-        GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Parts_Vacuum_Tube.get(1, o), new Object[]{"WWW", "FGF", "SAS", 'G', ItemList.Circuit_Parts_Glass_Tube.get(1, o), 'F', OrePrefixes.wireFine.get(Materials.Copper), 'W', OrePrefixes.wireGt01.get(Materials.Copper), 'S', OrePrefixes.stickLong.get(Materials.Steel), 'A', OrePrefixes.bolt.get(Materials.RedAlloy)});
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Tin, 8), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.GalliumArsenide, 1), Materials.Glass.getMolten(288), ItemList.Circuit_Parts_Diode.get(8, o), 600, 30);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Tin, 4), ItemList.Circuit_Silicon_Wafer.get(1, o), Materials.Glass.getMolten(288), ItemList.Circuit_Parts_Diode.get(4, o), 600, 30);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Platinum, 8), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.GalliumArsenide, 1), Materials.Glass.getMolten(288), ItemList.Circuit_Parts_DiodeSMD.get(16, o), 600, 192, true);
@@ -934,7 +929,6 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_ModHandler.addShapelessCraftingRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(9, o), new Object[]{ItemList.Circuit_Chip_CrystalCPU.get(1, o)});
         GT_Values.RA.addBlastRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1, o), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Emerald, 1), Materials.Helium.getGas(1000), null, ItemList.Circuit_Parts_Crystal_Chip_Elite.get(1, o), null, 900, 480, 5000);
         GT_Values.RA.addBlastRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1, o), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Olivine, 1), Materials.Helium.getGas(1000), null, ItemList.Circuit_Parts_Crystal_Chip_Elite.get(1, o), null, 900, 480, 5000);
-
         for (Materials tMat : Materials.values()) {
             if (tMat.mStandardMoltenFluid != null && tMat.contains(SubTag.SOLDERING_MATERIAL) && !(GregTech_API.mUseOnlyGoodSolderingMaterials && !tMat.contains(SubTag.SOLDERING_MATERIAL_GOOD))) {
                 int tMultiplier = tMat.contains(SubTag.SOLDERING_MATERIAL_GOOD) ? 1 : tMat.contains(SubTag.SOLDERING_MATERIAL_BAD) ? 4 : 2;
