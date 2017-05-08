@@ -51579,7 +51579,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:tile.BlockSkyStone",
-              "Count": 128,
+              "Count": 1024,
               "OreDict": "",
               "Damage": 0
             }
@@ -51594,7 +51594,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
-              "Count": 128,
+              "Count": 1024,
               "OreDict": "",
               "Damage": 45
             }
@@ -51609,7 +51609,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "Count": 48,
               "OreDict": "",
               "Damage": 2891
             }
@@ -59081,7 +59081,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:tile.BlockSkyStone",
-              "Count": 128,
+              "Count": 256,
               "OreDict": "",
               "Damage": 0
             },
