@@ -903,23 +903,13 @@ recipes.addShaped(FluidTransferN, [
 
 // --- Energy Transfer Node
 mods.extraUtils.QED.addShapedRecipe(EnergyTransferN, [
-[<gregtech:gt.metatool.01:12>, ItemTransferN, <gregtech:gt.metatool.01:16>],
-[<gregtech:gt.metaitem.01:17533>, <ExtraUtilities:nodeUpgrade:8>, <gregtech:gt.metaitem.01:17533>],
-[ItemTransferN, DiamondPipe, ItemTransferN]]);
-// -
-mods.extraUtils.QED.addShapedRecipe(EnergyTransferN, [
-[<gregtech:gt.metatool.01:16>, ItemTransferN, <gregtech:gt.metatool.01:12>],
+[ItemTransferN, DiamondPipe, ItemTransferN],
 [<gregtech:gt.metaitem.01:17533>, <ExtraUtilities:nodeUpgrade:8>, <gregtech:gt.metaitem.01:17533>],
 [ItemTransferN, DiamondPipe, ItemTransferN]]);
 
 // --- Hyper Energy Transfer Node
 mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
-[<gregtech:gt.metatool.01:12>, EnergyTransferN, <gregtech:gt.metatool.01:16>],
-[<gregtech:gt.metaitem.01:17533>, BedrockiumIngot, <gregtech:gt.metaitem.01:17533>],
-[EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
-// -
-mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
-[<gregtech:gt.metatool.01:16>, EnergyTransferN, <gregtech:gt.metatool.01:12>],
+[EnergyTransferN, <gregtech:gt.metaitem.01:17533>, EnergyTransferN],
 [<gregtech:gt.metaitem.01:17533>, BedrockiumIngot, <gregtech:gt.metaitem.01:17533>],
 [EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
 
