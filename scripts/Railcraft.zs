@@ -170,6 +170,9 @@ val Detector = <Railcraft:detector:1>;
 val AdvancedDetector = <Railcraft:detector:9>;
 val InfernalBricks = <Railcraft:brick.infernal>;
 val SignalLamp = <Railcraft:part.signal.lamp>;
+val ReceiverCircuit = <Railcraft:part.circuit:1>;
+val SignalCircuit = <Railcraft:part.circuit:2>;
+val ControllerCircuit = <Railcraft:part.circuit>;
 
 val WoodenTrack = <Railcraft:track:736>.withTag({track: "railcraft:track.slow"});
 val Track = <minecraft:rail>;
