@@ -59917,13 +59917,13 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 252,
+              "Count": 64,
               "OreDict": "",
               "Damage": 5590
             },
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 126,
+              "Count": 32,
               "OreDict": "",
               "Damage": 5101
             }
