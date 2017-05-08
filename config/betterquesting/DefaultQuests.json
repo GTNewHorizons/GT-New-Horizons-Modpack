@@ -74371,6 +74371,95 @@
       ]
     },
     {
+      "questID": 833,
+      "name": "Purge your warp",
+      "description": "Over time collected warp becomes very annoying. Making Bath Salt and clean your Warp is only a short time solution. To purge your warp completely you need a Pure Tear. If you collect a few things for me I will give you one. Thinking wise to use it because it will be a long Journey to unlock this research.","isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "WarpTheory:item.warptheory.cleanser",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:nether_star",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ghast_tear",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 24500
+            },
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "WarpTheory:item.warptheory.cleanser",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        238
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the ores in the cave are valuable anyway.",
@@ -79350,7 +79439,7 @@
         },
         {
           "id": 252,
-          "x": 264,
+          "x": 300,
           "y": 108
         },
         {
@@ -79397,6 +79486,11 @@
           "id": 610,
           "x": 0,
           "y": 36
+        },
+        {
+          "id": 833,
+          "x": 264,
+          "y": 108
         }
       ]
     },
