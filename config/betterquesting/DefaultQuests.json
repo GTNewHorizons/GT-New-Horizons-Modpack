@@ -74373,7 +74373,8 @@
     {
       "questID": 833,
       "name": "Purge your warp",
-      "description": "Over time collected warp becomes very annoying. Making Bath Salt and clean your Warp is only a short time solution. To purge your warp completely you need a Pure Tear. If you collect a few things for me I will give you one. Thinking wise to use it because it will be a long Journey to unlock this research.","isMain": false,
+      "description": "Over time collected warp becomes very annoying. Making Bath Salt and clean your Warp is only a short time solution. To purge your warp completely you need a Pure Tear. If you collect a few things for me I will give you one. Thinking wise to use it because it will be a long Journey to unlock this research.",
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -74456,7 +74457,7 @@
         }
       ],
       "preRequisites": [
-        238
+        265
       ]
     },
     {
@@ -79486,11 +79487,6 @@
           "id": 610,
           "x": 0,
           "y": 36
-        },
-        {
-          "id": 833,
-          "x": 264,
-          "y": 108
         }
       ]
     },
@@ -79500,148 +79496,148 @@
       "quests": [
         {
           "id": 260,
-          "x": 32,
+          "x": 36,
           "y": 0
         },
         {
           "id": 261,
-          "x": 280,
-          "y": 0
+          "x": 324,
+          "y": 72
         },
         {
           "id": 263,
-          "x": 216,
-          "y": 32
+          "x": 288,
+          "y": 72
         },
         {
           "id": 265,
-          "x": 152,
-          "y": 32
+          "x": 144,
+          "y": 36
         },
         {
           "id": 266,
-          "x": 216,
+          "x": 240,
           "y": 0
         },
         {
           "id": 267,
-          "x": 120,
-          "y": 32
+          "x": 108,
+          "y": 72
         },
         {
           "id": 268,
-          "x": 120,
-          "y": 64
+          "x": 144,
+          "y": 72
         },
         {
           "id": 269,
-          "x": 152,
+          "x": 144,
           "y": 0
         },
         {
           "id": 270,
-          "x": 120,
+          "x": 108,
           "y": 0
         },
         {
           "id": 271,
-          "x": 184,
+          "x": 180,
           "y": 0
         },
         {
           "id": 264,
-          "x": 184,
-          "y": 32
+          "x": 180,
+          "y": 72
         },
         {
           "id": 262,
-          "x": 248,
+          "x": 324,
           "y": 0
         },
         {
           "id": 272,
-          "x": 32,
-          "y": 160
+          "x": 36,
+          "y": 156
         },
         {
           "id": 273,
-          "x": 280,
-          "y": 32
+          "x": 324,
+          "y": 156
         },
         {
           "id": 274,
-          "x": 312,
-          "y": 0
+          "x": 324,
+          "y": 108
         },
         {
           "id": 275,
-          "x": 32,
-          "y": 96
+          "x": 0,
+          "y": 120
         },
         {
           "id": 276,
           "x": 0,
-          "y": 96
+          "y": 72
         },
         {
           "id": 277,
           "x": 0,
-          "y": 64
+          "y": 36
         },
         {
           "id": 278,
-          "x": 32,
-          "y": 128
+          "x": 36,
+          "y": 120
         },
         {
           "id": 279,
-          "x": 408,
-          "y": 128
+          "x": 384,
+          "y": 72
         },
         {
           "id": 281,
-          "x": 408,
-          "y": 64
+          "x": 456,
+          "y": 72
         },
         {
           "id": 280,
-          "x": 408,
-          "y": 96
+          "x": 420,
+          "y": 72
         },
         {
           "id": 283,
-          "x": 408,
-          "y": 160
+          "x": 384,
+          "y": 108
         },
         {
           "id": 284,
-          "x": 408,
-          "y": 192
+          "x": 384,
+          "y": 156
         },
         {
           "id": 285,
-          "x": 344,
-          "y": 32
+          "x": 384,
+          "y": 36
         },
         {
           "id": 286,
-          "x": 376,
+          "x": 420,
           "y": 0
         },
         {
           "id": 288,
-          "x": 344,
+          "x": 384,
           "y": 0
         },
         {
           "id": 289,
-          "x": 408,
+          "x": 456,
           "y": 0
         },
         {
           "id": 282,
-          "x": 408,
-          "y": 32
+          "x": 456,
+          "y": 36
         },
         {
           "id": 290,
@@ -79650,78 +79646,78 @@
         },
         {
           "id": 291,
-          "x": 128,
-          "y": 160
+          "x": 108,
+          "y": 156
         },
         {
           "id": 292,
-          "x": 160,
-          "y": 160
+          "x": 144,
+          "y": 156
         },
         {
           "id": 293,
-          "x": 192,
-          "y": 160
+          "x": 180,
+          "y": 156
         },
         {
           "id": 294,
-          "x": 224,
-          "y": 160
+          "x": 216,
+          "y": 156
         },
         {
           "id": 295,
-          "x": 64,
+          "x": 72,
           "y": 192
         },
         {
           "id": 296,
-          "x": 32,
+          "x": 36,
           "y": 192
         },
         {
           "id": 297,
-          "x": 64,
-          "y": 96
+          "x": 72,
+          "y": 72
         },
         {
           "id": 298,
-          "x": 64,
-          "y": 128
+          "x": 72,
+          "y": 120
         },
         {
           "id": 300,
-          "x": 128,
+          "x": 120,
           "y": 192
         },
         {
           "id": 299,
-          "x": 64,
-          "y": 160
+          "x": 72,
+          "y": 156
         },
         {
           "id": 301,
           "x": 0,
-          "y": 160
+          "y": 156
         },
         {
           "id": 287,
-          "x": 376,
-          "y": 32
+          "x": 420,
+          "y": 36
         },
         {
           "id": 302,
-          "x": 88,
-          "y": 32
+          "x": 72,
+          "y": 36
         },
         {
           "id": 303,
-          "x": 248,
-          "y": 32
+          "x": 288,
+          "y": 36
         },
         {
           "id": 304,
-          "x": 248,
-          "y": 64
+          "x": 240,
+          "y": 36
         },
         {
           "id": 305,
@@ -79730,8 +79726,13 @@
         },
         {
           "id": 306,
-          "x": 88,
-          "y": 64
+          "x": 108,
+          "y": 36
+        },
+        {
+          "id": 833,
+          "x": 180,
+          "y": 36
         }
       ]
     },
