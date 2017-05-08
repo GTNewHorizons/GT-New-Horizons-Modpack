@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<LootGroup category="chest3" loading_mode="OVERRIDE" count_min="6" count_max="11">
+<LootGroup category="chest3" loading_mode="OVERRIDE" count_min="4" count_max="8">
     
 	<loot item="gregtech:gt.blockmachines" damage="12" weight="10" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32717" weight="15" count_min="4" count_max="8"/>
@@ -73,5 +73,4 @@
 	<loot item="Forestry:chipsets" damage="1" nbt="{T:1s}" weight="10" count_min="1" count_max="2"/>
 	<loot item="Forestry:chipsets" damage="2" nbt="{T:2s}" weight="10" count_min="1" count_max="2"/>
 	<loot item="Forestry:chipsets" damage="3" nbt="{T:3s}" weight="10" count_min="1" count_max="2"/>
-	
 </LootGroup>
