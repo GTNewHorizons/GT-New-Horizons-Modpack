@@ -894,7 +894,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Olivine, 1), Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1, o), 1000, 12000, 320, true);
         GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Emerald, 12), Materials.UUMatter.getFluid(250), ItemList.Tool_DataOrb.get(1, o), 10000, 12000, 960, true);
         GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Olivine, 12), Materials.UUMatter.getFluid(250), ItemList.Tool_DataOrb.get(1, o), 10000, 12000, 960, true);
-        GT_ModHandler.addShapelessCraftingRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(9, o), new Object[]{ItemList.Circuit_Chip_CrystalCPU.get(1, o)});
+        //GT_ModHandler.addShapelessCraftingRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(9, o), new Object[]{ItemList.Circuit_Chip_CrystalCPU.get(1, o)});
         GT_Values.RA.addBlastRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1, o), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Emerald, 1), Materials.Helium.getGas(1000), null, ItemList.Circuit_Parts_Crystal_Chip_Elite.get(1, o), null, 900, 480, 5000);
         GT_Values.RA.addBlastRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1, o), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Olivine, 1), Materials.Helium.getGas(1000), null, ItemList.Circuit_Parts_Crystal_Chip_Elite.get(1, o), null, 900, 480, 5000);
         for (Materials tMat : Materials.values()) {
@@ -971,6 +971,25 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                     GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Ingot2.get(1, o), GT_Utility.copyAmount(0L, aStack), GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 1L, 14), 200, 480);
                     GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Ingot3.get(1, o), GT_Utility.copyAmount(0L, aStack), CustomItemList.WaferTier3.get(1, o), 200, 1024);
                 }
+
+                //Quantum Chip
+                GT_Values.RA.addAssemblylineRecipe(ItemList.Circuit_Wetwaremainframe.get(1,o), 576000, new ItemStack[]{
+                        GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Tritanium, 16),
+                        ItemList.Circuit_Wetwaremainframe.get(4,o),
+                        ItemList.Circuit_Parts_Coil.get(64,o),
+                        ItemList.Circuit_Parts_CapacitorSMD.get(64,o),
+                        ItemList.Circuit_Parts_ResistorSMD.get(64,o),
+                        ItemList.Circuit_Parts_TransistorSMD.get(64,o),
+                        ItemList.Circuit_Parts_DiodeSMD.get(64,o),
+                        ItemList.Circuit_Chip_Ram.get(64,o),
+                        GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.Draconium, 64),
+                        GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Silicone, 64),
+                        GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Polytetrafluoroethylene, 64)
+                }, new FluidStack[]{
+                        Materials.SolderingAlloy.getMolten(3760),
+                        Materials.Naquadria.getMolten(4000),
+                        new FluidStack(FluidRegistry.getFluid("ic2coolant"), 20000)
+                }, CustomItemList.QuantumCircuit.get(1,o), 4000, 500000);
             }
         }
     }
