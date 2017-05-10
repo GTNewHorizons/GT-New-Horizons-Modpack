@@ -62,7 +62,6 @@ val CopperCable = <ore:cableGt01Copper>;
 val PlatinumCable = <ore:cableGt04Platinum>;
 val AdvAssembler = <gregtech:gt.blockmachines:212>;
 
-val NANDChip = <gregtech:gt.metaitem.01:32700>;
 val BasicCircuit = <ore:circuitBasic>;
 val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
@@ -1089,27 +1088,27 @@ recipes.addShaped(UStorageHousing, [
 
 // --- Storage Cell Component - 1K
 recipes.addShaped(StorageComponent1K, [
-[NANDChip, <dreamcraft:item.ChargedCertusQuartzDust>, NANDChip],
+[BasicCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, BasicCircuit],
 [<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.LogicProcessorItemGoldCore>, <dreamcraft:item.ChargedCertusQuartzDust>],
-[NANDChip, <dreamcraft:item.ChargedCertusQuartzDust>, NANDChip]]);
+[BasicCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, BasicCircuit]]);
 
 // --- Storage Cell Component - 4K
 recipes.addShaped(StorageComponent4K, [
-[BasicCircuit, StorageComponent1K, BasicCircuit],
+[GoodCircuit, StorageComponent1K, GoodCircuit],
 [StorageComponent1K, <dreamcraft:item.LogicProcessorItemGoldCore>, StorageComponent1K],
-[BasicCircuit, StorageComponent1K, BasicCircuit]]);
+[GoodCircuit, StorageComponent1K, GoodCircuit]]);
 
 // --- Storage Cell Component - 16K
 recipes.addShaped(StorageComponent16K, [
-[GoodCircuit, StorageComponent4K, GoodCircuit],
+[AdvCircuit, StorageComponent4K, AdvCircuit],
 [StorageComponent4K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent4K],
-[GoodCircuit, StorageComponent4K, GoodCircuit]]);
+[AdvCircuit, StorageComponent4K, AdvCircuit]]);
 
 // --- Storage Cell Component - 64K
 recipes.addShaped(StorageComponent64K, [
-[AdvCircuit, StorageComponent16K, AdvCircuit],
+[DataCircuit, StorageComponent16K, DataCircuit],
 [StorageComponent16K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent16K],
-[AdvCircuit, StorageComponent16K, AdvCircuit]]);
+[DataCircuit, StorageComponent16K, DataCircuit]]);
 
 // --- 2 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:32>, [
