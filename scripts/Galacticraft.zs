@@ -1123,7 +1123,7 @@ recipes.addShaped(<GalacticraftMars:tile.minerBase> * 4, [
 // --- Orion Drive
 recipes.addShaped(<GalacticraftMars:item.orionDrive>, [
 [<ore:compressedTitanium>, <GalacticraftMars:item.itemBasicAsteroids:8>, <ore:compressedTitanium>],
-[<dreamcraft:item.HighEnergyFlowCircuit>, <ore:oc:hdd3>, <dreamcraft:item.HighEnergyFlowCircuit>],
+[<ore:circuitMaster>, <ore:oc:hdd3>, <ore:circuitMaster>],
 [<ore:compressedSteel>, <GalacticraftMars:item.itemBasicAsteroids:8>, <ore:compressedSteel>]]);
 
 // --- Canvas

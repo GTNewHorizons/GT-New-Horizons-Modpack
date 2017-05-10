@@ -28,7 +28,7 @@ recipes.remove(<AFSU:AFSU>);
 recipes.addShaped(<AFSU:AFSU>, [
 [<ore:cableGt01Platinum>, <dreamcraft:item.TungstenSteelItemCasing>, <ore:cableGt01Platinum>],
 [<dreamcraft:item.TungstenSteelItemCasing>, <gregtech:gt.blockmachines:15>, <dreamcraft:item.TungstenSteelItemCasing>],
-[<dreamcraft:item.HighEnergyFlowCircuit>, <AFSU:ALC>, <dreamcraft:item.HighEnergyFlowCircuit>]]);
+[<ore:circuitMaster>, <AFSU:ALC>, <ore:circuitMaster>]]);
 
 
 
@@ -36,4 +36,8 @@ recipes.addShaped(<AFSU:AFSU>, [
 
 
 // --- AFB
-Assembler.addRecipe(<AFSU:ALC>, <dreamcraft:item.HighEnergyCircuitParts>, <gregtech:gt.metaitem.01:32597>, 2400, 1920);
+Assembler.addRecipe(<AFSU:ALC>, <gregtech:gt.metaitem.03:32086>, <gregtech:gt.metaitem.01:32597>, 2400, 1920);
+// -
+Assembler.addRecipe(<AFSU:ALC>, <gregtech:gt.metaitem.03:32084>, <gregtech:gt.metaitem.01:32597>, 2400, 1920);
+// -
+Assembler.addRecipe(<AFSU:ALC>, <gregtech:gt.metaitem.03:32089>, <gregtech:gt.metaitem.01:32597>, 2400, 1920);
