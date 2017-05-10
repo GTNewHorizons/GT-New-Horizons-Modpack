@@ -1413,9 +1413,6 @@ ForgeHammer.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <appliedenergis
 // --- High Energy Circuit Parts
 FormingPress.addRecipe(<dreamcraft:item.HighEnergyCircuitParts>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:2501> * 3, 200, 256);
 
-// --- Simple Circuit Board
-FormingPress.addRecipe(<dreamcraft:item.SimpleCircuitBoard> * 4, <gregtech:gt.metaitem.01:17020>, <dreamcraft:item.EtchedLowVoltageWiring> * 4, 100, 4);
-
 // --- Spacial Circuit Tier I
 FormingPress.addRecipe(<dreamcraft:item.PulsatingSpatialCoreChip>, <dreamcraft:item.EngravedManyullynCrystalChip>, <BuildCraft|Silicon:redstoneChipset:4>, 300, 7680);
 

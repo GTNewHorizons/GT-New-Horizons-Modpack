@@ -57,6 +57,8 @@ val DataCircuit = <ore:circuitData>;
 val EliteCircuit = <ore:circuitElite>;
 val MasterCircuit = <ore:circuitMaster>;
 val UltimateCircuit = <ore:circuitUltimate>;
+val SuperconductorCircuits = <ore:circuitSuperconductor>;
+val InfinityCircuits = <ore:circuitInfinite>;
 val EFlow = <gregtech:gt.metaitem.01:32706>;
 val DataOrb = <gregtech:gt.metaitem.01:32707>;
 
@@ -344,27 +346,27 @@ recipes.addShapeless(<extracells:storage.physical:3>, [<extracells:storage.compo
 
 // --- Storage Cell Component - 256K
 recipes.addShaped(StorageComponent256K, [
-[DataCircuit, StorageComponent64K, DataCircuit],
+[EliteCircuit, StorageComponent64K, EliteCircuit],
 [StorageComponent64K, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, StorageComponent64K],
-[DataCircuit, StorageComponent64K, DataCircuit]]);
+[EliteCircuit, StorageComponent64K, EliteCircuit]]);
 
 // --- Storage Cell Component - 1024K
 recipes.addShaped(StorageComponent1024K, [
-[<dreamcraft:item.NanoCircuit>, StorageComponent256K, <dreamcraft:item.NanoCircuit>],
+[MasterCircuit, StorageComponent256K, MasterCircuit],
 [StorageComponent256K, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, StorageComponent256K],
-[<dreamcraft:item.NanoCircuit>, StorageComponent256K, <dreamcraft:item.NanoCircuit>]]);
+[MasterCircuit, StorageComponent256K, MasterCircuit]]);
 
 // --- Storage Cell Component - 4096K
 recipes.addShaped(StorageComponent4096K, [
-[<dreamcraft:item.PikoCircuit>, StorageComponent1024K, <dreamcraft:item.PikoCircuit>],
+[SuperconductorCircuits, StorageComponent1024K, SuperconductorCircuits],
 [StorageComponent1024K, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, StorageComponent1024K],
-[<dreamcraft:item.PikoCircuit>, StorageComponent1024K, <dreamcraft:item.PikoCircuit>]]);
+[SuperconductorCircuits, StorageComponent1024K, SuperconductorCircuits]]);
 
 // --- Storage Cell Component - 16384K
 recipes.addShaped(StorageComponent16384K, [
-[<dreamcraft:item.QuantumCircuit>, StorageComponent4096K, <dreamcraft:item.QuantumCircuit>],
+[InfinityCircuits, StorageComponent4096K, InfinityCircuits],
 [StorageComponent4096K, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, StorageComponent4096K],
-[<dreamcraft:item.QuantumCircuit>, StorageComponent4096K, <dreamcraft:item.QuantumCircuit>]]);
+[InfinityCircuits, StorageComponent4096K, InfinityCircuits]]);
 
 // --- Universal Advanced Storage Housing
 recipes.addShaped(UAdvStorageHousing, [
