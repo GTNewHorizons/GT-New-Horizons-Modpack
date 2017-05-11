@@ -980,6 +980,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 //Field Generator
                 GT_Values.RA.addAssemblerRecipe(ItemList.QuantumStar.get(1), ItemList.Circuit_Ultimate.get(4L), Materials.HSSS.getMolten(1728), ItemList.Field_Generator_IV.get(1), 1800, 7680);
 
+
                 //Quantum Chip
                 GT_Values.RA.addAssemblylineRecipe(ItemList.Circuit_Wetwaremainframe.get(1,o), 576000, new ItemStack[]{
                         GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Tritanium, 16),
