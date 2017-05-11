@@ -32,7 +32,7 @@ val GlowstoneGlass = <ExtraUtilities:decorativeBlock2:7>;
 val ObsidianPlate = <ore:plateObsidian>;
 val IVFieldGen = <gregtech:gt.metaitem.01:32674>;
 val NeutroniumScrew = <ore:screwNeutronium>;
-val EFlow = <gregtech:gt.metaitem.01:32706>;
+val EFlow = <gregtech:gt.metaitem.01:32705>;
 val DataOrb = <ore:circuitUltimate>;
 val NeutroniumGear = <ore:gearNeutronium>;
 val KanthalPlate = <ore:plateKanthal>;
@@ -129,7 +129,7 @@ recipes.remove(<RIO:item.linker>);
 // --- Remote Interface
 recipes.addShaped(RemoteInterface * 2, [
 [InsaneRegulator, EVSensor, InsaneRegulator],
-[DataCi, TungstenCable, DataCi],
+[<ore:circuitElite>, TungstenCable, <ore:circuitElite>],
 [InsaneRegulator, EVEmitter, InsaneRegulator]]);
 
 // --- Water Reservoir
@@ -199,7 +199,7 @@ Assembler.addRecipe(Remote, <WR-CBE|Logic:wirelessLogic>, <WR-CBE|Logic:wireless
 Assembler.addRecipe(BlankPlate, <TConstruct:blankPattern:1>, <gregtech:gt.metaitem.01:17316>, <liquid:molten.redstone> * 100, 200, 480);
 
 // --- Location Chip
-Assembler.addRecipe(Location, DataCi * 2, EFlow * 2, <liquid:ender> * 1000, 600, 480);
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.01:32704> * 2, EFlow * 2, <liquid:ender> * 1000, 600, 480);
 
 // --- Item Transfer Chip
 Assembler.addRecipe(<RIO:item.chip.transfer>, <dreamcraft:item.BlankPlatedChip>, <EnderStorage:enderChest>, 200, 480);

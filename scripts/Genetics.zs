@@ -92,7 +92,7 @@ recipes.remove(<Genetics:registry>);
 // --- Gene Database
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 2880, 
 [<gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>, 
-<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17500>, 
+<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32708>, <gregtech:gt.metaitem.01:17500>, 
 <gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>], 
 <dreamcraft:item.Display>, <Genetics:database>);
 

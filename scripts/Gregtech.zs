@@ -837,7 +837,7 @@ recipes.addShaped(<gregtech:gt.metaitem.02:20850>, [
 // --- Processor Machine Casing
 recipes.addShaped(<gregtech:gt.blockcasings2:6>, [
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitElite>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<ore:circuitMaster>, <gregtech:gt.blockcasings2>, <ore:circuitMaster>],
+[<ore:circuitElite>, <gregtech:gt.blockcasings2>, <ore:circuitElite>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitElite>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 // --- Obsidian Plates

@@ -855,7 +855,7 @@ recipes.addShaped(<IC2:blockElectric:1>, [
 recipes.addShaped(<IC2:blockElectric:2>, [
 [<ore:cableGt01TungstenSteel>, <ore:batteryMaster>, <ore:cableGt01TungstenSteel>],
 [<ore:batteryMaster>, <gregtech:gt.blockmachines:14>, <ore:batteryMaster>],
-[<ore:circuitMaster>, <ore:batteryMaster>, <ore:circuitMaster>]]);
+[<ore:circuitData>, <ore:batteryMaster>, <ore:circuitData>]]);
 
 // --- Rubber Sheet
 recipes.addShaped(<IC2:blockRubber>, [
@@ -1223,7 +1223,7 @@ recipes.addShaped(<IC2:itemScanner:26>, [
 // --- OV Scanner
 recipes.addShaped(<IC2:itemScannerAdv:26>, [
 [<dreamcraft:item.TitaniumItemCasing>, <IC2:itemScanner:*>, <dreamcraft:item.TitaniumItemCasing>],
-[<ore:circuitElite>, <dreamcraft:item.Display>, <ore:circuitElite>],
+[<ore:circuitData>, <dreamcraft:item.Display>, <ore:circuitData>],
 [<ore:cableGt01Nichrome>, <ore:batteryMaster>, <ore:cableGt01Nichrome>]]);
 
 // --- Mining Drill
@@ -1348,8 +1348,8 @@ recipes.addShaped(<IC2:blockMachine2:1>, [
 
 // --- Teleporter
 recipes.addShaped(<IC2:blockMachine2>, [
-[<gregtech:gt.metaitem.01:32674>, <ore:lensDiamond>, <gregtech:gt.metaitem.01:32674>],
-[<ore:circuitMaster>, <IC2:blockElectric:5>, <ore:circuitMaster>],
+[<ore:circuitMaster>, <ore:lensDiamond>, <ore:circuitMaster>],
+[<ore:circuitElite>, <IC2:blockElectric:5>, <ore:circuitElite>],
 [<gregtech:gt.metaitem.01:32604>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32604>]]);
 
 // --- Magnetizer

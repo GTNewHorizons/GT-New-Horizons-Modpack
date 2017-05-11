@@ -586,14 +586,14 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
 
 // --- Ender-Thermic Pump
 mods.extraUtils.QED.addShapedRecipe(EnderPump, [
-[EnderObsidian, <ore:circuitMaster>, EnderObsidian],
+[EnderObsidian, <ore:circuitData>, EnderObsidian],
 [<BuildCraft|Factory:tankBlock>, EnderCore, <BuildCraft|Factory:tankBlock>],
 [EnderObsidian, <gregtech:gt.blockmachines:1143>, EnderObsidian]]);
 
 // --- Diamond-Etched Computational Matrix
 recipes.addShaped(DiamondMatrix, [
 [EnderCore, <ore:plateDiamond>, EnderCore],
-[<ore:plateTitanium>, <ore:circuitMaster>, <ore:plateTitanium>],
+[<ore:plateTitanium>, <ore:circuitData>, <ore:plateTitanium>],
 [EnderCore, <ore:plateDiamond>, EnderCore]]);
 
 // --- Blackout Curtains
@@ -945,7 +945,7 @@ recipes.addShaped(<ExtraUtilities:enderCollector>, [
 
 // --- Quiet Expencive Device QED
 recipes.addShaped(<ExtraUtilities:endConstructor>, [
-[<ore:plateEnderEye>, <gregtech:gt.metaitem.01:32744>, <ore:plateEnderEye>],
+[<ore:plateEnderEye>, <ore:circuitData>, <ore:plateEnderEye>],
 [<ore:blockEnderObsidian>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderObsidian>],
 [<ore:plateTitanium>, <ExtraUtilities:decorativeBlock1:11>, <ore:plateTitanium>]]);
 

@@ -783,7 +783,7 @@ recipes.addShaped(SensorLens, [
 
 // --- Sensor Glasses
 recipes.addShaped(<GalacticraftCore:item.sensorGlasses>, [
-[<ore:circuitElite>, MeteorScrew,<ore:circuitElite>],
+[<ore:circuitData>, MeteorScrew,<ore:circuitData>],
 [DeshRing, <ore:boltDesh>, DeshRing],
 [SensorLens, <ore:craftingToolScrewdriver>, SensorLens]]);
 
