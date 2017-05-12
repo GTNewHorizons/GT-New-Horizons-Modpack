@@ -61385,7 +61385,7 @@
     {
       "questID": 717,
       "name": "Good Circuits.",
-      "description": "Good circuits are better than basic ones. They are a component of all medium voltage GregTech machines.",
+      "description": "Good circuits are better than basic ones. They are a component of all medium voltage GregTech machines. Be sure you build the EBF first to processing some Aluminium Dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61416,16 +61416,34 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemPartCircuit",
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32101
+            },
+            {
+              "id": "dreamcraft:item.AluminiumItemCasing",
               "Count": 4,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "Count": 8,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 32715
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17874
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -61477,7 +61495,9 @@
         }
       ],
       "preRequisites": [
-        745
+        748,
+        750,
+        747
       ]
     },
     {
@@ -64532,8 +64552,8 @@
     },
     {
       "questID": 745,
-      "name": "Circuit Boards",
-      "description": "To make circuit boards you need etched medium voltage wires and an empty circuit board. Press those together in the Forming Press.",
+      "name": "Glue",
+      "description": "If you centrifuge some sticky resin you get some glue out, very usefull for the Good Circuit Boards.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64550,10 +64570,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.metaitem.01",
+        "id": "TConstruct:liquid.glue",
         "Count": 1,
         "OreDict": "",
-        "Damage": 32710
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -64564,16 +64584,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "id": "IC2:itemHarz",
+              "Count": 30,
               "OreDict": "",
-              "Damage": 32719
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 32716
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64585,10 +64599,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "id": "IC2:itemFluidCell",
+              "Count": 3,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "resin",
+                  "Amount:4": 1000
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64598,22 +64618,22 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "id": "IC2:itemHarz",
+              "Count": 16,
               "OreDict": "",
-              "Damage": 17020
+              "Damage": 0
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "id": "IC2:itemCellEmpty",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 17874
+              "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -64621,8 +64641,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -64631,9 +64657,7 @@
         }
       ],
       "preRequisites": [
-        748,
-        747,
-        100
+        539
       ]
     },
     {
@@ -64736,8 +64760,8 @@
     },
     {
       "questID": 747,
-      "name": "Etched Medium Voltage Wires",
-      "description": "Etched medium voltage wire is one item for the new circuit board. It\u0027s made in the Laser Engraver.",
+      "name": "Empty Circuit Board",
+      "description": "Good circuit need diodes. There are two ways to craft it. Using a Silicon Wafer togeter with some fine Tin wire or GalliumArsenide. Molten Glass is alo needed,",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64757,7 +64781,7 @@
         "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 32716
+        "Damage": 32715
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -64768,16 +64792,25 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 29035
-            },
+              "Damage": 19057
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 24502
+              "Damage": 32033
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64790,9 +64823,9 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "Count": 8,
               "OreDict": "",
-              "Damage": 32716
+              "Damage": 32715
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64803,15 +64836,15 @@
           "choices": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 29035
+              "Damage": 2874
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 24500
+              "Damage": 2020
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -64835,14 +64868,13 @@
         }
       ],
       "preRequisites": [
-        99,
-        98
+        97
       ]
     },
     {
       "questID": 748,
       "name": "Empty Circuit Board",
-      "description": "Empty circuit boards require one silicon plate and one polyethylene sheet. Assemble those into an empty circuit board.",
+      "description": "Good circuit boards require a wooden pulp and glue. Assemble those into angood circuit board.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64859,10 +64891,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.metaitem.01",
+        "id": "gregtech:gt.metaitem.03",
         "Count": 1,
         "OreDict": "",
-        "Damage": 32719
+        "Damage": 32101
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -64876,13 +64908,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 17020
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 17874
+              "Damage": 2809
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64898,6 +64924,42 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 32719
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32719
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 19086
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32101
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64940,8 +65002,9 @@
         }
       ],
       "preRequisites": [
-        750,
-        752
+        752,
+        97,
+        745
       ]
     },
     {
@@ -68830,7 +68893,8 @@
         }
       ],
       "preRequisites": [
-        782
+        782,
+        752
       ]
     },
     {
@@ -74359,7 +74423,6 @@
       "preRequisites": [
         160,
         795,
-        745,
         102
       ]
     },
@@ -78215,7 +78278,7 @@
         },
         {
           "id": 92,
-          "x": 384,
+          "x": 396,
           "y": 216
         },
         {
@@ -78240,18 +78303,18 @@
         },
         {
           "id": 98,
-          "x": 312,
-          "y": 288
+          "x": 336,
+          "y": 252
         },
         {
           "id": 99,
-          "x": 444,
-          "y": 252
+          "x": 492,
+          "y": 216
         },
         {
           "id": 100,
-          "x": 384,
-          "y": 252
+          "x": 312,
+          "y": 288
         },
         {
           "id": 101,
@@ -78276,7 +78339,7 @@
         {
           "id": 105,
           "x": 276,
-          "y": 288
+          "y": 252
         },
         {
           "id": 106,
@@ -78395,12 +78458,12 @@
         },
         {
           "id": 538,
-          "x": 336,
+          "x": 360,
           "y": 180
         },
         {
           "id": 539,
-          "x": 336,
+          "x": 360,
           "y": 504
         },
         {
@@ -78425,8 +78488,8 @@
         },
         {
           "id": 544,
-          "x": 312,
-          "y": 252
+          "x": 276,
+          "y": 288
         },
         {
           "id": 545,
@@ -78495,7 +78558,7 @@
         },
         {
           "id": 563,
-          "x": 384,
+          "x": 396,
           "y": 180
         },
         {
@@ -78590,7 +78653,7 @@
         },
         {
           "id": 626,
-          "x": 312,
+          "x": 336,
           "y": 540
         },
         {
@@ -78650,8 +78713,8 @@
         },
         {
           "id": 716,
-          "x": 492,
-          "y": 144
+          "x": 528,
+          "y": 180
         },
         {
           "id": 116,
@@ -78684,39 +78747,19 @@
           "y": 0
         },
         {
-          "id": 746,
-          "x": 444,
-          "y": 360
-        },
-        {
-          "id": 752,
-          "x": 384,
-          "y": 360
-        },
-        {
           "id": 750,
-          "x": 312,
+          "x": 276,
           "y": 324
-        },
-        {
-          "id": 747,
-          "x": 444,
-          "y": 288
         },
         {
           "id": 717,
-          "x": 492,
-          "y": 324
-        },
-        {
-          "id": 745,
           "x": 444,
           "y": 324
         },
         {
           "id": 748,
-          "x": 384,
-          "y": 324
+          "x": 396,
+          "y": 288
         },
         {
           "id": 531,
@@ -78740,8 +78783,18 @@
         },
         {
           "id": 579,
-          "x": 336,
+          "x": 360,
           "y": 216
+        },
+        {
+          "id": 745,
+          "x": 396,
+          "y": 324
+        },
+        {
+          "id": 747,
+          "x": 444,
+          "y": 288
         }
       ]
     },
@@ -79083,6 +79136,16 @@
           "id": 795,
           "x": 156,
           "y": 0
+        },
+        {
+          "id": 746,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 752,
+          "x": 48,
+          "y": 48
         }
       ]
     },
