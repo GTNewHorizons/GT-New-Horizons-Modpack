@@ -972,9 +972,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 if (aOreDictName.equals(OreDictNames.craftingLensWhite.toString())) {
 
                     // GC/GS Wafer
-                    GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Ingot.get(1, o), GT_Utility.copyAmount(0L, aStack), GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 1L, 13), 200, 256);
-                    GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Ingot2.get(1, o), GT_Utility.copyAmount(0L, aStack), GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 1L, 14), 200, 480);
-                    GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Ingot3.get(1, o), GT_Utility.copyAmount(0L, aStack), CustomItemList.WaferTier3.get(1, o), 200, 1024);
+                    GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Wafer.get(1, o), GT_Utility.copyAmount(0L, aStack), GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 1L, 13), 200, 256);
+                    GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Wafer2.get(1, o), GT_Utility.copyAmount(0L, aStack), GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 1L, 14), 200, 480);
+                    GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Wafer3.get(1, o), GT_Utility.copyAmount(0L, aStack), CustomItemList.WaferTier3.get(1, o), 200, 1024);
                 }
 
                 //Field Generator
