@@ -683,7 +683,7 @@ recipes.remove(<IC2:blockPersonal:2>);
 recipes.remove(<IC2:blockMachine2:2>);
 
 // --- Crop Harvester
-recipes.remove(<IC2:blockMachine3:7>);
+//recipes.remove(<IC2:blockMachine3:7>);
 
 // --- Item buffer
 recipes.remove(<IC2:blockMachine3:6>);
@@ -1275,10 +1275,10 @@ recipes.addShaped(<IC2:blockMachine2:2>, [
 [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
 
 // --- Crop Harvester
-recipes.addShaped(<IC2:blockMachine3:7>, [
-[<Railcraft:tool.steel.shears>, <ore:chestIron>, <Railcraft:tool.steel.shears>],
-[<IC2:itemCasing:5>, <gregtech:gt.blockcasings:1>, <IC2:itemCasing:5>],
-[<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
+//recipes.addShaped(<IC2:blockMachine3:7>, [
+//[<Railcraft:tool.steel.shears>, <ore:chestIron>, <Railcraft:tool.steel.shears>],
+//[<IC2:itemCasing:5>, <gregtech:gt.blockcasings:1>, <IC2:itemCasing:5>],
+//[<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
 
 // --- Item buffer
 recipes.addShaped(<IC2:blockMachine3:6>, [
@@ -1563,7 +1563,7 @@ Assembler.addRecipe(<IC2:blockGenerator:3>, <gregtech:gt.blockmachines:10>, <gre
 // --- Fluid/Solid Canning Machine
 Assembler.addRecipe(<IC2:blockMachine:6>, <gregtech:gt.blockmachines:231>, <gregtech:gt.blockmachines:431>, 1200, 30);
 
-// --- Radioisotope Heat Generatpr
+// --- Radioisotope Heat Generator
 Assembler.addRecipe(<IC2:blockHeatGenerator:2>, <IC2:blockGenerator:5>, <IC2:itemRecipePart:5> * 3, <liquid:molten.lead> * 576, 600, 120);
 
 // --- Radioisotope Thermoelectric Generator
