@@ -64704,7 +64704,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 48,
               "OreDict": "",
               "Damage": 2020
             }
@@ -64764,7 +64764,8 @@
         }
       ],
       "preRequisites": [
-        77
+        77,
+        89
       ]
     },
     {
@@ -65393,7 +65394,7 @@
     {
       "questID": 752,
       "name": "Silicon Plate",
-      "description": "Most of the circuit and solar panels recipes are using silicon plates.",
+      "description": "Advanced Circuits need Transistors which are made out of silicon plates, fine tin wire and molten polyethylen.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65425,7 +65426,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 2,
               "OreDict": "",
               "Damage": 17020
             }
@@ -68392,8 +68393,8 @@
     },
     {
       "questID": 782,
-      "name": "Ruby Lens",
-      "description": "Etched Wires need a Ruby Lens in the Laser engrave recipes. Craft a lens in the Lathe.",
+      "name": "Monocrystaline Silicon",
+      "description": "To make Wafers you need to make Monocrystaline Silicon first. The Process takes 450 sec need Silicon and Gallium Arsenide in the EBF and you can make 16 Wafers out of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -68410,10 +68411,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 16,
         "OreDict": "",
-        "Damage": 24502
+        "Damage": 32030
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -68425,9 +68426,30 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 24502
+              "Damage": 980
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32030
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -68438,33 +68460,21 @@
           "choices": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 24500
+              "Damage": 2020
             },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 24890
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 24501
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 24528
+              "Damage": 980
             },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 5
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -68473,7 +68483,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 2,
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -68482,7 +68492,7 @@
         }
       ],
       "preRequisites": [
-        89
+        746
       ]
     },
     {
@@ -68788,7 +68798,7 @@
     },
     {
       "questID": 785,
-      "name": "High Voltage Etched Wires",
+      "name": "Transistor",
       "description": "For the next Tier we need Advanced Circuits. To making some Advanced Circuit Board you need some high voltage etched wires. Craft some Mv Precision Laser first.",
       "isMain": false,
       "isSilent": false,
@@ -68820,31 +68830,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 16,
               "OreDict": "",
-              "Damage": 592
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 24502
+              "Damage": 19057
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 29086
+              "Damage": 17020
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -68902,8 +68897,8 @@
         }
       ],
       "preRequisites": [
-        782,
-        752
+        752,
+        97
       ]
     },
     {
@@ -69453,113 +69448,8 @@
     },
     {
       "questID": 791,
-      "name": "Medium Voltage Etched Wires",
-      "description": "For the next Tier we need Advanced Circuits. To making some Advanced Circuit Board you need some medium voltage etched wires.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 32711
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 32719
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 32717
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 32711
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 32700
-            },
-            {
-              "id": "IC2:itemPartCircuit",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        792,
-        785
-      ]
-    },
-    {
-      "questID": 792,
-      "name": "MV Forming Press",
-      "description": "Advanced Circuits need a MV Forming Press. Lets craft some.",
+      "name": "Mv Precision Laser",
+      "description": "Advanced Circuits need a MV Precission Lase. Lets craft some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69579,7 +69469,7 @@
         "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 602
+        "Damage": 592
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -69593,7 +69483,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 602
+              "Damage": 592
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -69604,119 +69494,21 @@
           "choices": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 17526
-            },
-            {
-              "id": "minecraft:glowstone_dust",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        89
-      ]
-    },
-    {
-      "questID": 793,
-      "name": "Advanced Circuits Parts",
-      "description": "Combining some Lapis Plate with some Glowstone make Advanced Circuits Parts in the forming Press.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 32715
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 17526
-            },
-            {
-              "id": "minecraft:glowstone_dust",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 32715
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 32717
+              "Damage": 24500
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
-              "Damage": 32715
+              "Damage": 24502
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24501
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -69744,9 +69536,9 @@
       ]
     },
     {
-      "questID": 794,
-      "name": "Advanced Circuits",
-      "description": "For the next Tier we need Advanced Circuits. To making some Advanced Circuit you need some Advanced Circuit Boards and Parts.",
+      "questID": 792,
+      "name": "Silicon Wafer",
+      "description": "Put Monocrystaline Silicon in a Cutting Saw make some Wafers. Better crafting some Mv version first because you will need it later for Ram, ICs and other Chips.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69763,122 +69555,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IC2:itemPartCircuitAdv",
+        "id": "gregtech:gt.metaitem.03",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 32711
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 32715
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemPartCircuitAdv",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 28308
-            },
-            {
-              "id": "dreamcraft:item.ReinforcedGlassLense",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 27306
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        791,
-        785,
-        795
-      ]
-    },
-    {
-      "questID": 795,
-      "name": "MV Assembler",
-      "description": "Advanced Circuits need a MV Assembling Machine. Lets craft some.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.blockmachines",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 212
+        "Damage": 32033
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -69892,7 +69572,22 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 212
+              "Damage": 252
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32033
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -69903,15 +69598,15 @@
           "choices": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 17526
+              "Damage": 2020
             },
             {
-              "id": "minecraft:glowstone_dust",
-              "Count": 2,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 2019
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -69935,8 +69630,359 @@
         }
       ],
       "preRequisites": [
-        791,
-        793
+        782
+      ]
+    },
+    {
+      "questID": 793,
+      "name": "Good Integrated Circuits",
+      "description": "Good Circuits have three variants of Circuits. For the Advanced Circuits you need the Good Integrated Circuits.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32079
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32101
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32701
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 32716
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 32715
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 19086
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 22054
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32079
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32101
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32701
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32716
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        794
+      ]
+    },
+    {
+      "questID": 794,
+      "name": "Integrated Circuit",
+      "description": "There are two variants of Basic Circuits. The BAsic Circuit from Ic2 or the Integrated Circuit which need a Circuit Assembler. The Good Integrated Circuit need two Integrated Circuits to craft.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32701
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32101
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32037
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 32716
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 32715
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 19035
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 22057
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32701
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32101
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32715
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        795
+      ]
+    },
+    {
+      "questID": 795,
+      "name": "Basic Circuit Assembler",
+      "description": "Advanced Circuits need a MV Assembling Machine. Lets craft some.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1180
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1180
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11303
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11345
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        785,
+        837
       ]
     },
     {
@@ -74879,6 +74925,250 @@
       ]
     },
     {
+      "questID": 837,
+      "name": "ILC and RAM",
+      "description": "Advanced Circuits need Integrated Logic Circuits and Random Access Memory chips.\nYou need to cutt the ILC and RAM Wafers.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32038
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32036
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32038
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32037
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32039
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24502
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        791
+      ]
+    },
+    {
+      "questID": 838,
+      "name": "Advanced Circuits",
+      "description": "For the next Tier we need Advanced Circuits. To making some Advanced Circuit you need good Integrated Circuits, Ram, ILC and Transistors.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemPartCircuitAdv",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32079
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32037
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32717
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 19303
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 22345
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 28308
+            },
+            {
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        793
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the ores in the cave are valuable anyway.",
@@ -78929,347 +79219,357 @@
         {
           "id": 89,
           "x": 156,
-          "y": 168
+          "y": 204
         },
         {
           "id": 128,
           "x": 336,
-          "y": 108
+          "y": 144
         },
         {
           "id": 129,
           "x": 336,
-          "y": 144
+          "y": 180
         },
         {
           "id": 130,
           "x": 336,
-          "y": 216
+          "y": 252
         },
         {
           "id": 131,
           "x": 336,
-          "y": 336
+          "y": 372
         },
         {
           "id": 132,
           "x": 384,
-          "y": 216
+          "y": 252
         },
         {
           "id": 133,
           "x": 300,
-          "y": 168
+          "y": 204
         },
         {
           "id": 134,
           "x": 432,
-          "y": 144
+          "y": 180
         },
         {
           "id": 135,
           "x": 384,
-          "y": 180
+          "y": 216
         },
         {
           "id": 136,
           "x": 432,
-          "y": 180
+          "y": 216
         },
         {
           "id": 137,
           "x": 468,
-          "y": 144
+          "y": 180
         },
         {
           "id": 138,
           "x": 528,
-          "y": 108
+          "y": 144
         },
         {
           "id": 139,
           "x": 528,
-          "y": 180
+          "y": 216
         },
         {
           "id": 140,
           "x": 576,
-          "y": 108
+          "y": 144
         },
         {
           "id": 141,
           "x": 576,
-          "y": 180
+          "y": 216
         },
         {
           "id": 142,
           "x": 432,
-          "y": 216
+          "y": 252
         },
         {
           "id": 143,
           "x": 420,
-          "y": 336
+          "y": 372
         },
         {
           "id": 144,
           "x": 372,
-          "y": 300
+          "y": 336
         },
         {
           "id": 145,
           "x": 516,
-          "y": 396
+          "y": 432
         },
         {
           "id": 146,
           "x": 468,
-          "y": 360
+          "y": 396
         },
         {
           "id": 147,
           "x": 528,
-          "y": 252
+          "y": 288
         },
         {
           "id": 148,
           "x": 480,
-          "y": 216
+          "y": 252
         },
         {
           "id": 149,
           "x": 432,
-          "y": 252
+          "y": 288
         },
         {
           "id": 150,
           "x": 480,
-          "y": 252
+          "y": 288
         },
         {
           "id": 151,
           "x": 528,
-          "y": 216
+          "y": 252
         },
         {
           "id": 152,
           "x": 576,
-          "y": 216
+          "y": 252
         },
         {
           "id": 153,
           "x": 204,
-          "y": 96
+          "y": 132
         },
         {
           "id": 154,
           "x": 264,
-          "y": 96
+          "y": 132
         },
         {
           "id": 155,
           "x": 96,
-          "y": 264
+          "y": 300
         },
         {
           "id": 156,
           "x": 96,
-          "y": 300
+          "y": 336
         },
         {
           "id": 157,
           "x": 48,
-          "y": 300
+          "y": 336
         },
         {
           "id": 158,
           "x": 0,
-          "y": 336
+          "y": 372
         },
         {
           "id": 159,
           "x": 0,
-          "y": 300
+          "y": 336
         },
         {
           "id": 126,
           "x": 48,
-          "y": 96
+          "y": 132
         },
         {
           "id": 659,
           "x": 0,
-          "y": 216
+          "y": 252
         },
         {
           "id": 660,
           "x": 0,
-          "y": 168
+          "y": 204
         },
         {
           "id": 730,
           "x": 156,
-          "y": 216
+          "y": 252
         },
         {
           "id": 731,
           "x": 156,
-          "y": 264
+          "y": 300
         },
         {
           "id": 732,
           "x": 156,
-          "y": 300
+          "y": 336
         },
         {
           "id": 733,
           "x": 156,
-          "y": 336
+          "y": 372
         },
         {
           "id": 734,
           "x": 180,
-          "y": 372
+          "y": 408
         },
         {
           "id": 735,
           "x": 132,
-          "y": 372
+          "y": 408
         },
         {
           "id": 736,
           "x": 156,
-          "y": 408
+          "y": 444
         },
         {
           "id": 127,
           "x": 264,
-          "y": 168
+          "y": 204
         },
         {
           "id": 738,
           "x": 264,
-          "y": 216
+          "y": 252
         },
         {
           "id": 737,
           "x": 300,
-          "y": 216
+          "y": 252
         },
         {
           "id": 739,
           "x": 300,
-          "y": 264
+          "y": 300
         },
         {
           "id": 740,
           "x": 48,
-          "y": 264
+          "y": 300
         },
         {
           "id": 749,
           "x": 216,
-          "y": 264
+          "y": 300
         },
         {
           "id": 751,
           "x": 264,
-          "y": 264
+          "y": 300
         },
         {
           "id": 753,
           "x": 264,
-          "y": 300
+          "y": 336
         },
         {
           "id": 754,
           "x": 216,
-          "y": 300
+          "y": 336
         },
         {
           "id": 757,
           "x": 0,
-          "y": 96
+          "y": 132
         },
         {
           "id": 758,
           "x": 0,
-          "y": 264
+          "y": 300
         },
         {
           "id": 759,
           "x": 96,
-          "y": 372
+          "y": 408
         },
         {
           "id": 760,
           "x": 0,
-          "y": 132
+          "y": 168
         },
         {
           "id": 773,
           "x": 264,
-          "y": 336
+          "y": 372
         },
         {
           "id": 774,
           "x": 216,
-          "y": 336
+          "y": 372
         },
         {
           "id": 778,
           "x": 264,
-          "y": 372
+          "y": 408
         },
         {
           "id": 780,
           "x": 216,
-          "y": 372
-        },
-        {
-          "id": 782,
-          "x": 108,
-          "y": 96
+          "y": 408
         },
         {
           "id": 785,
-          "x": 108,
-          "y": 48
-        },
-        {
-          "id": 791,
-          "x": 156,
-          "y": 48
-        },
-        {
-          "id": 792,
-          "x": 156,
-          "y": 96
-        },
-        {
-          "id": 793,
-          "x": 204,
-          "y": 48
+          "x": 96,
+          "y": 84
         },
         {
           "id": 794,
-          "x": 108,
+          "x": 96,
           "y": 0
         },
         {
           "id": 795,
+          "x": 96,
+          "y": 36
+        },
+        {
+          "id": 746,
+          "x": 156,
+          "y": 168
+        },
+        {
+          "id": 752,
+          "x": 96,
+          "y": 132
+        },
+        {
+          "id": 782,
+          "x": 156,
+          "y": 132
+        },
+        {
+          "id": 791,
+          "x": 204,
+          "y": 84
+        },
+        {
+          "id": 792,
+          "x": 156,
+          "y": 84
+        },
+        {
+          "id": 837,
+          "x": 156,
+          "y": 36
+        },
+        {
+          "id": 793,
           "x": 156,
           "y": 0
         },
         {
-          "id": 746,
-          "x": 48,
+          "id": 838,
+          "x": 216,
           "y": 0
-        },
-        {
-          "id": 752,
-          "x": 48,
-          "y": 48
         }
       ]
     },
