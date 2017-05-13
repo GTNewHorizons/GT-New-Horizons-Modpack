@@ -1088,7 +1088,7 @@ Compressor.addRecipe(<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:proje
 
 
 // --- Circuit Plate
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part>, <minecraft:stone_pressure_plate>, <IC2:itemPartCircuit>, 100, 16);
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part> * 4, <minecraft:stone_pressure_plate> * 4, <IC2:itemPartCircuit>, 400, 16);
 
 // --- Silicon Ship
 FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:7>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:13>, 600, 30);
