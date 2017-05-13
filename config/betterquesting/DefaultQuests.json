@@ -64761,7 +64761,7 @@
     {
       "questID": 747,
       "name": "Empty Circuit Board",
-      "description": "Good circuit need diodes. There are two ways to craft it. Using a Silicon Wafer togeter with some fine Tin wire or GalliumArsenide. Molten Glass is alo needed,",
+      "description": "Good circuit need diodes. There are two ways to craft it. Using a Silicon Wafer togeter with some fine Tin wire or GalliumArsenide. Molten Glass is also needed,",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64807,10 +64807,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.03",
-              "Count": 2,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 32033
+              "Damage": 980
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64868,7 +64868,7 @@
         }
       ],
       "preRequisites": [
-        97
+        836
       ]
     },
     {
@@ -74760,6 +74760,116 @@
       ]
     },
     {
+      "questID": 836,
+      "name": "Gallium Arsenide",
+      "description": "The Diode need Gallium Arsenide and you maybe wondering how to get Gallium or Arsenic so early game.\nGallium you get out of samll Zinc Ore (crushed variant)  with the Thermal Centrifuge.  You found the Ore in the Overworld or the Nether at Y Level 80 - 210. To get crushed Ores you need a Tinkers Tool with Fortune on it.\nArsenic you can get from Relegar small Ore in The Nether Y 5-85. Centrifuge the Dust in a lv Centrifuge.\nMix those two dusts in a lv Mixer to get Gallium Arsenic Dust.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2980
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2037
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2039
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2980
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2037
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2039
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        599
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. And the ores in the cave are valuable anyway.",
@@ -78268,7 +78378,7 @@
         },
         {
           "id": 90,
-          "x": 144,
+          "x": 192,
           "y": 0
         },
         {
@@ -78318,7 +78428,7 @@
         },
         {
           "id": 101,
-          "x": 192,
+          "x": 240,
           "y": 0
         },
         {
@@ -78343,72 +78453,72 @@
         },
         {
           "id": 106,
-          "x": 648,
+          "x": 696,
           "y": 108
         },
         {
           "id": 107,
-          "x": 756,
+          "x": 804,
           "y": 144
         },
         {
           "id": 108,
-          "x": 804,
+          "x": 852,
           "y": 108
         },
         {
           "id": 109,
-          "x": 792,
+          "x": 840,
           "y": 144
         },
         {
           "id": 110,
-          "x": 864,
+          "x": 912,
           "y": 144
         },
         {
           "id": 111,
-          "x": 720,
+          "x": 768,
           "y": 144
         },
         {
           "id": 112,
-          "x": 828,
+          "x": 876,
           "y": 144
         },
         {
           "id": 113,
-          "x": 648,
-          "y": 216
-        },
-        {
-          "id": 114,
-          "x": 624,
-          "y": 252
-        },
-        {
-          "id": 115,
-          "x": 672,
-          "y": 252
-        },
-        {
-          "id": 117,
-          "x": 600,
+          "x": 696,
           "y": 180
         },
         {
+          "id": 114,
+          "x": 672,
+          "y": 216
+        },
+        {
+          "id": 115,
+          "x": 720,
+          "y": 216
+        },
+        {
+          "id": 117,
+          "x": 636,
+          "y": 144
+        },
+        {
           "id": 118,
-          "x": 684,
+          "x": 732,
           "y": 144
         },
         {
           "id": 119,
-          "x": 600,
+          "x": 672,
           "y": 144
         },
         {
           "id": 120,
-          "x": 384,
+          "x": 360,
           "y": 0
         },
         {
@@ -78419,7 +78529,7 @@
         {
           "id": 123,
           "x": 432,
-          "y": 60
+          "y": 36
         },
         {
           "id": 124,
@@ -78429,11 +78539,11 @@
         {
           "id": 125,
           "x": 492,
-          "y": 60
+          "y": 36
         },
         {
           "id": 121,
-          "x": 384,
+          "x": 360,
           "y": 60
         },
         {
@@ -78568,8 +78678,8 @@
         },
         {
           "id": 599,
-          "x": 144,
-          "y": 60
+          "x": 564,
+          "y": 144
         },
         {
           "id": 608,
@@ -78718,7 +78828,7 @@
         },
         {
           "id": 116,
-          "x": 240,
+          "x": 276,
           "y": 0
         },
         {
@@ -78768,13 +78878,13 @@
         },
         {
           "id": 96,
-          "x": 324,
+          "x": 192,
           "y": 60
         },
         {
           "id": 587,
-          "x": 324,
-          "y": 0
+          "x": 156,
+          "y": 60
         },
         {
           "id": 771,
@@ -78793,8 +78903,13 @@
         },
         {
           "id": 747,
-          "x": 444,
-          "y": 288
+          "x": 492,
+          "y": 324
+        },
+        {
+          "id": 836,
+          "x": 564,
+          "y": 324
         }
       ]
     },
