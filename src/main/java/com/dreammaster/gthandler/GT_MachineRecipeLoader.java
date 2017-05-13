@@ -20,7 +20,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addBenderRecipe(CustomItemList.MicaInsulatorSheet.get(1L), CustomItemList.MicaInsulatorFoil.get(4L), 100, 30);
 
-        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Thaumium, 1L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Silver, 3L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L),100,1920);
+        GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Thaumium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Silver, 3L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L), 100, 1920);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Thaumium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Silver, 3L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L), 100, 1920);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Thaumium, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Silver, 3L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L),100,1920);
         GT_Values.RA.addAlloySmelterRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Thaumium, 1L),GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Silver, 3L),GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.AstralSilver, 3L),100,1920);
@@ -984,15 +984,15 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
 
                 //Quantum Chip
-                GT_Values.RA.addAssemblylineRecipe(ItemList.Circuit_Wetwaremainframe.get(1,o), 576000, new ItemStack[]{
+                GT_Values.RA.addAssemblylineRecipe(ItemList.Circuit_Wetwaremainframe.get(1, o), 576000, new ItemStack[]{
                         GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Tritanium, 16),
-                        ItemList.Circuit_Wetwaremainframe.get(4,o),
-                        ItemList.Circuit_Parts_Coil.get(64,o),
-                        ItemList.Circuit_Parts_CapacitorSMD.get(64,o),
-                        ItemList.Circuit_Parts_ResistorSMD.get(64,o),
-                        ItemList.Circuit_Parts_TransistorSMD.get(64,o),
-                        ItemList.Circuit_Parts_DiodeSMD.get(64,o),
-                        ItemList.Circuit_Chip_Ram.get(64,o),
+                        ItemList.Circuit_Wetwaremainframe.get(4, o),
+                        ItemList.Circuit_Parts_Coil.get(64, o),
+                        ItemList.Circuit_Parts_CapacitorSMD.get(64, o),
+                        ItemList.Circuit_Parts_ResistorSMD.get(64, o),
+                        ItemList.Circuit_Parts_TransistorSMD.get(64, o),
+                        ItemList.Circuit_Parts_DiodeSMD.get(64, o),
+                        ItemList.Circuit_Chip_Ram.get(64, o),
                         GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.Draconium, 64),
                         GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Silicone, 64),
                         GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Polytetrafluoroethylene, 64)
@@ -1000,11 +1000,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         Materials.SolderingAlloy.getMolten(3760),
                         Materials.Naquadria.getMolten(4000),
                         new FluidStack(FluidRegistry.getFluid("ic2coolant"), 20000)
-                }, CustomItemList.QuantumCircuit.get(1,o), 4000, 500000);
+                }, CustomItemList.QuantumCircuit.get(1, o), 4000, 500000);
 
                 //Quantum Armor and Gravichest
                 GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumHelmet", 1L));
-                GT_Values.RA.addAssemblylineRecipe(GT_ModHandler.getIC2Item("nanoHelmet", 1L, GT_Values.W), 144000, new ItemStack[]{
+                GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartHelmet.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartHelmet.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
                         GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
@@ -1020,8 +1020,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 }, GT_ModHandler.getIC2Item("quantumHelmet", 1L), 1500, 4096);
 
                 GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBodyarmor", 1L));
-                GT_Values.RA.addAssemblylineRecipe(Loader.isModLoaded("GraviSuite") ? GT_ModHandler.getModItem("GraviSuite", "advNanoChestPlate", 1, GT_Values.W) : GT_ModHandler.getIC2Item("nanoBodyarmor", 1L, GT_Values.W), 144000, new ItemStack[]{
-                        Loader.isModLoaded("GraviSuite") ? GT_ModHandler.getModItem("GraviSuite", "advNanoChestPlate", 1, GT_Values.W) : GT_ModHandler.getIC2Item("nanoBodyarmor", 1L, GT_Values.W),
+                GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartChestplate.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartChestplate.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
                         GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
@@ -1037,7 +1036,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 }, GT_ModHandler.getIC2Item("quantumBodyarmor", 1L), 1500, 4096);
 
                 GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumLeggings", 1L));
-                GT_Values.RA.addAssemblylineRecipe(GT_ModHandler.getIC2Item("nanoLeggings", 1L, GT_Values.W), 144000, new ItemStack[]{
+                GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartLeggings.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartLeggings.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
                         GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
@@ -1053,7 +1052,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 }, GT_ModHandler.getIC2Item("quantumLeggings", 1L), 1500, 4096);
 
                 GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBoots", 1L));
-                GT_Values.RA.addAssemblylineRecipe(GT_ModHandler.getIC2Item("nanoBoots", 1L, GT_Values.W), 144000, new ItemStack[]{
+                GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartBoots.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartBoots.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
                         GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
