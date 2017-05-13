@@ -64124,7 +64124,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -64139,6 +64139,7 @@
                   "BaseDurability:4": 3509,
                   "BaseAttack:4": 6,
                   "ToolEXP:4": 0,
+                  "Built:4": 1,
                   "HarvestLevel:4": 4,
                   "HarvestLevelExtra:4": 5,
                   "RenderHead:4": 16,
@@ -64166,7 +64167,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "ï¿½fSteel Hammer"
+                  "Name:8": "§fSteel Hammer"
                 }
               }
             }
@@ -64302,7 +64303,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -64317,6 +64318,7 @@
                   "BaseDurability:4": 2193,
                   "BaseAttack:4": 4,
                   "ToolEXP:4": 0,
+                  "Built:4": 1,
                   "HarvestLevel:4": 5,
                   "RenderHead:4": 16,
                   "ModDurability:6": 0.0,
@@ -64340,7 +64342,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "ï¿½fSteel Lumber Axe"
+                  "Name:8": "§fSteel Lumber Axe"
                 }
               }
             }
@@ -64476,7 +64478,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -64491,6 +64493,7 @@
                   "BaseDurability:4": 2413,
                   "BaseAttack:4": 6,
                   "ToolEXP:4": 0,
+                  "Built:4": 1,
                   "HarvestLevel:4": 5,
                   "RenderHead:4": 16,
                   "ModDurability:6": 0.0,
@@ -64514,7 +64517,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "ï¿½fSteel Excavator"
+                  "Name:8": "§fSteel Excavator"
                 }
               }
             }
