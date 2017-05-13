@@ -51916,6 +51916,12 @@
             },
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 25874
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
               "Damage": 17506
@@ -64952,7 +64958,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
