@@ -54573,7 +54573,8 @@
               "id": "IC2:itemArmorJetpackElectric",
               "Count": 1,
               "OreDict": "",
-              "Damage": 27
+              "Damage": 27,
+              "tag": {}
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -54820,10 +54821,10 @@
               "Damage": 6
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 32706
+              "OreDict": "circuitElite",
+              "Damage": 32086
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -54846,10 +54847,10 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32706
+              "Damage": 32086
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -54950,10 +54951,10 @@
               "Damage": 1644
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 32706
+              "OreDict": "circuitElite",
+              "Damage": 32086
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -54976,10 +54977,10 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 32706
+              "Damage": 32086
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -55017,7 +55018,8 @@
       "preRequisites": [
         160,
         653,
-        779
+        779,
+        802
       ]
     },
     {
@@ -55057,12 +55059,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 26
-            },
-            {
               "id": "IC2:itemArmorQuantumChestplate",
               "Count": 1,
               "OreDict": "",
@@ -55073,12 +55069,13 @@
               "id": "GraviSuite:ultimateLappack",
               "Count": 1,
               "OreDict": "",
-              "Damage": 27,
-              "tag": {
-                "toolXP:6": 0.0,
-                "charge:4": 0,
-                "toolMode:4": 0
-              }
+              "Damage": 27
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
             },
             {
               "id": "GraviSuite:itemSimpleItem",
@@ -55088,9 +55085,51 @@
             },
             {
               "id": "GraviSuite:itemSimpleItem",
-              "Count": 4,
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 6,
               "OreDict": "",
               "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32088
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22328
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32599
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32674
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32607
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27328
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -55113,16 +55152,16 @@
         {
           "choices": [
             {
-              "id": "dreamcraft:item.HighEnergyFlowCircuit",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32088
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32606
+              "Damage": 32607
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -70226,112 +70265,6 @@
       ]
     },
     {
-      "questID": 798,
-      "name": "Don\u0027t try to fly with it",
-      "description": "Combining a Jetpack with some Nano Body Armor in the Assembler you get some Nono Jetpack. Better not tr to fly with it because you can\u0027t. It is part for the new Quantum Body Armor.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "dreamcraft:item.NanoChestJetPack",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemArmorNanoChestplate",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 27
-            },
-            {
-              "id": "IC2:itemArmorJetpackElectric",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 27,
-              "tag": {}
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.NanoChestJetPack",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 32602
-            },
-            {
-              "id": "GraviSuite:itemSimpleItem",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 6
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 7
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        779,
-        176
-      ]
-    },
-    {
       "questID": 799,
       "name": "Don\u0027t try to dive with it",
       "description": "Combining a Scuba Helmet with some Nano Helmet in the Assembler you get some Nono Scuba Helmet. Better not tr to dive with it because you can\u0027t. It is part for the new Quantum Body Armor.",
@@ -70690,7 +70623,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -70701,10 +70634,15 @@
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.NanoChestJetPack",
+              "id": "GraviSuite:advNanoChestPlate",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 27,
+              "tag": {
+                "toolXP:6": 0.0,
+                "charge:4": 0,
+                "toolMode:4": 0
+              }
             },
             {
               "id": "dreamcraft:item.NanoPlatedLeggings",
@@ -70815,7 +70753,6 @@
       "preRequisites": [
         799,
         801,
-        798,
         800
       ]
     },
@@ -70860,6 +70797,54 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32706
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 1662
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32597
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32644
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32694
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 32604
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 32673
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 27316
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -70942,7 +70927,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32603
+              "Damage": 32604
             },
             {
               "id": "GraviSuite:itemSimpleItem",
@@ -71232,10 +71217,10 @@
               "Damage": 32714
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32713
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -80933,8 +80918,8 @@
         },
         {
           "id": 654,
-          "x": 48,
-          "y": 192
+          "x": 24,
+          "y": 240
         },
         {
           "id": 655,
@@ -81022,23 +81007,18 @@
           "y": 144
         },
         {
-          "id": 798,
-          "x": 96,
-          "y": 288
-        },
-        {
           "id": 799,
           "x": 180,
           "y": 288
         },
         {
           "id": 800,
-          "x": 48,
+          "x": 96,
           "y": 288
         },
         {
           "id": 801,
-          "x": 132,
+          "x": 144,
           "y": 288
         },
         {
@@ -81053,7 +81033,7 @@
         },
         {
           "id": 804,
-          "x": 180,
+          "x": 144,
           "y": 336
         }
       ]
