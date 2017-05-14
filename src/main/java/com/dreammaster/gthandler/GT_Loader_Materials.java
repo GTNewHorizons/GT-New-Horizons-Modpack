@@ -1,6 +1,5 @@
 package com.dreammaster.gthandler;
 
-import com.dreammaster.item.ItemList;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.util.GT_ModHandler;

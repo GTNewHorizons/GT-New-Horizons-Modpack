@@ -4,8 +4,6 @@ package com.dreammaster.modfixes;
 
 import net.minecraftforge.common.MinecraftForge;
 
-import com.dreammaster.railcraftStones.NH_GeodePopulator;
-
 import cpw.mods.fml.common.FMLCommonHandler;
 
 /**

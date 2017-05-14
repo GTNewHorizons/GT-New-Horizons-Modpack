@@ -1,14 +1,12 @@
 package com.dreammaster.fluids;
 
 import cpw.mods.fml.common.Loader;
-import cpw.mods.fml.common.ModClassLoader;
 import eu.usrv.yamcore.fluids.ModFluidManager;
 import eu.usrv.yamcore.fluids.ModSimpleBaseFluid;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
-import net.minecraftforge.common.ForgeModContainer;
 import net.minecraftforge.fluids.Fluid;
 
 public class ExtendedFluidCollection

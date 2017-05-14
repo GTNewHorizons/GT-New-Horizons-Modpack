@@ -3,13 +3,9 @@ package com.dreammaster.config;
 
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
-import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modfixes.oilgen.OilGeneratorFix.OilConfig;
 
-import eu.usrv.yamcore.auxiliary.IntHelper;
 import eu.usrv.yamcore.config.ConfigManager;
 
 

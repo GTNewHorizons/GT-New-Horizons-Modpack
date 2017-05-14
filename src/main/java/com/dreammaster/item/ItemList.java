@@ -1,6 +1,5 @@
 package com.dreammaster.item;
 
-import com.dreammaster.block.DoubleCompressedCoalProperties;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.lib.Refstrings;
 import com.dreammaster.main.MainRegistry;

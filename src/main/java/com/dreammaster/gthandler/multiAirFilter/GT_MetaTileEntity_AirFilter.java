@@ -18,7 +18,6 @@ import gregtech.common.items.GT_MetaGenerated_Tool_01;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumChatFormatting;
-import net.minecraft.world.ChunkPosition;
 import net.minecraftforge.common.util.ForgeDirection;
 
 import java.util.ArrayList;
