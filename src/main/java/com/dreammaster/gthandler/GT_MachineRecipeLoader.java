@@ -68,7 +68,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoLegs", 1L, GT_Values.W), CustomItemList.StainlessSteelItemCasing.get(4L), CustomItemList.NanoPlatedLeggings.get(1L), 800, 1024);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoHelmet", 1L, GT_Values.W), GT_ModHandler.getModItem("IC2", "itemArmorHazmatHelmet", 1L, 0), CustomItemList.NanoScubaHelmet.get(1L), 800, 1024);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoRubberBoots.get(1L), CustomItemList.IridiumAlloyItemCasing.get(4L), CustomItemList.QuantumPartBoots.get(1L), 1200, 1920);
-        GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("GraviSuite", "advJetpack", 1L, GT_Values.W), CustomItemList.IridiumAlloyItemCasing.get(8L), CustomItemList.QuantumPartChestplate.get(1L), 1200, 1920);
+        GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("GraviSuite", "advNanoChestPlate", 1L, GT_Values.W), CustomItemList.IridiumAlloyItemCasing.get(8L), CustomItemList.QuantumPartChestplate.get(1L), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoScubaHelmet.get(1L), CustomItemList.IridiumAlloyItemCasing.get(5L), CustomItemList.QuantumPartHelmetEmpty.get(1L), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumPartHelmetEmpty.get(1L), CustomItemList.ReinforcedGlassLense.get(8L), CustomItemList.QuantumPartHelmet.get(1L), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoPlatedLeggings.get(1L), CustomItemList.IridiumAlloyItemCasing.get(7L), CustomItemList.QuantumPartLeggings.get(1L), 1200, 1920);
