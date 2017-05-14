@@ -64,11 +64,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAssemblerRecipe(CustomItemList.CarbonPartHelmet.get(1L), GT_ModHandler.getModItem("IC2", "itemNightvisionGoggles", 1L, GT_Values.W), CustomItemList.CarbonPartHelmetNightVision.get(1L), 600, 256);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getIC2Item("carbonPlate", 7L), ItemList.Circuit_Integrated.getWithDamage(0L, 7L), CustomItemList.CarbonPartLeggings.get(1L), 400, 120);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorRubBoots", 1L, 0), GT_ModHandler.getModItem("IC2", "itemArmorNanoBoots", 1L, GT_Values.W), CustomItemList.NanoRubberBoots.get(1L), 800, 1024);
-        GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoChestplate", 1L, GT_Values.W), GT_ModHandler.getModItem("IC2", "itemArmorJetpackElectric", 1L, GT_Values.W), CustomItemList.NanoChestJetPack.get(1L), 800, 1024);
+        //GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoChestplate", 1L, GT_Values.W), GT_ModHandler.getModItem("IC2", "itemArmorJetpackElectric", 1L, GT_Values.W), CustomItemList.NanoChestJetPack.get(1L), 800, 1024);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoLegs", 1L, GT_Values.W), CustomItemList.StainlessSteelItemCasing.get(4L), CustomItemList.NanoPlatedLeggings.get(1L), 800, 1024);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("IC2", "itemArmorNanoHelmet", 1L, GT_Values.W), GT_ModHandler.getModItem("IC2", "itemArmorHazmatHelmet", 1L, 0), CustomItemList.NanoScubaHelmet.get(1L), 800, 1024);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoRubberBoots.get(1L), CustomItemList.IridiumAlloyItemCasing.get(4L), CustomItemList.QuantumPartBoots.get(1L), 1200, 1920);
-        GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoChestJetPack.get(1L), CustomItemList.IridiumAlloyItemCasing.get(8L), CustomItemList.QuantumPartChestplate.get(1L), 1200, 1920);
+        GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("GraviSuite", "advJetpack", 1L, GT_Values.W), CustomItemList.IridiumAlloyItemCasing.get(8L), CustomItemList.QuantumPartChestplate.get(1L), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoScubaHelmet.get(1L), CustomItemList.IridiumAlloyItemCasing.get(5L), CustomItemList.QuantumPartHelmetEmpty.get(1L), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.QuantumPartHelmetEmpty.get(1L), CustomItemList.ReinforcedGlassLense.get(8L), CustomItemList.QuantumPartHelmet.get(1L), 1200, 1920);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.NanoPlatedLeggings.get(1L), CustomItemList.IridiumAlloyItemCasing.get(7L), CustomItemList.QuantumPartLeggings.get(1L), 1200, 1920);
@@ -1006,11 +1006,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         CustomItemList.QuantumPartHelmet.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
                         GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
-                        GT_OreDictUnificator.get(OrePrefixes.plateAlloy, Materials.Iridium, 4),
+                        GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.TungstenSteel, 4),
                         ItemList.Energy_LapotronicOrb.get(1, new Object[]{}),
                         ItemList.Sensor_IV.get(1, new Object[]{}),
                         ItemList.Field_Generator_EV.get(1, new Object[]{}),
-                        GT_OreDictUnificator.get(OrePrefixes.screw, Materials.Tungsten, 4)
+                        GT_OreDictUnificator.get(OrePrefixes.screw, Materials.TungstenSteel, 4)
                 }, new FluidStack[]{
                         Materials.SolderingAlloy.getMolten(2304),
                         Materials.Titanium.getMolten(1440),
@@ -1022,11 +1022,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         CustomItemList.QuantumPartChestplate.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
                         GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
-                        GT_OreDictUnificator.get(OrePrefixes.plateAlloy, Materials.Iridium, 6),
+                        GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.TungstenSteel, 6),
                         ItemList.Energy_LapotronicOrb.get(1, new Object[]{}),
-                        ItemList.Field_Generator_HV.get(2, new Object[]{}),
+                        ItemList.Field_Generator_EV.get(3, new Object[]{}),
                         ItemList.Electric_Motor_IV.get(2, new Object[]{}),
-                        GT_OreDictUnificator.get(OrePrefixes.screw, Materials.Tungsten, 4)
+                        GT_OreDictUnificator.get(OrePrefixes.screw, Materials.TungstenSteel, 4)
                 }, new FluidStack[]{
                         Materials.SolderingAlloy.getMolten(2304),
                         Materials.Titanium.getMolten(1440),
@@ -1038,11 +1038,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         CustomItemList.QuantumPartLeggings.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
                         GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
-                        GT_OreDictUnificator.get(OrePrefixes.plateAlloy, Materials.Iridium, 6),
+                        GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.TungstenSteel, 6),
                         ItemList.Energy_LapotronicOrb.get(1, new Object[]{}),
-                        ItemList.Field_Generator_HV.get(2, new Object[]{}),
+                        ItemList.Field_Generator_EV.get(2, new Object[]{}),
                         ItemList.Electric_Motor_IV.get(4, new Object[]{}),
-                        GT_OreDictUnificator.get(OrePrefixes.screw, Materials.Tungsten, 4)
+                        GT_OreDictUnificator.get(OrePrefixes.screw, Materials.TungstenSteel, 4)
                 }, new FluidStack[]{
                         Materials.SolderingAlloy.getMolten(2304),
                         Materials.Titanium.getMolten(1440),
@@ -1054,11 +1054,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         CustomItemList.QuantumPartBoots.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
                         GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
-                        GT_OreDictUnificator.get(OrePrefixes.plateAlloy, Materials.Iridium, 4),
+                        GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.TungstenSteel, 4),
                         ItemList.Energy_LapotronicOrb.get(1, new Object[]{}),
-                        ItemList.Field_Generator_HV.get(1, new Object[]{}),
+                        ItemList.Field_Generator_EV.get(1, new Object[]{}),
                         ItemList.Electric_Piston_IV.get(2, new Object[]{}),
-                        GT_OreDictUnificator.get(OrePrefixes.screw, Materials.Tungsten, 4)
+                        GT_OreDictUnificator.get(OrePrefixes.screw, Materials.TungstenSteel, 4)
                 }, new FluidStack[]{
                         Materials.SolderingAlloy.getMolten(2304),
                         Materials.Titanium.getMolten(1440),
@@ -1069,16 +1069,17 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                     GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "graviChestPlate", 1, GT_Values.W));
                     GT_Values.RA.addAssemblylineRecipe(GT_ModHandler.getIC2Item("quantumBodyarmor", 1L, GT_Values.W), 144000, new ItemStack[]{
                             GT_ModHandler.getIC2Item("quantumBodyarmor", 1L, GT_Values.W),
+                            ItemList.Transformer_ZPM_LuV.get(1, o),
                             GT_ModHandler.getModItem("GraviSuite", "ultimateLappack", 1, GT_Values.W),
-                            GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 3, 2),
-                            GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 1, 4),
+                            GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 6, 1),
+                            GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 2, 2),
+                            GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 2, 3),
                             GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Ultimate, 2),
-                            GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Duranium, 6),
+                            GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.Duranium, 2),
                             ItemList.Energy_LapotronicOrb2.get(1, new Object[]{}),
                             ItemList.Field_Generator_IV.get(2, new Object[]{}),
                             ItemList.Electric_Motor_ZPM.get(2, new Object[]{}),
-                            GT_OreDictUnificator.get(OrePrefixes.screw, Materials.Duranium, 4),
-                            ItemList.Transformer_ZPM_LuV.get(1, o)
+                            GT_OreDictUnificator.get(OrePrefixes.screw, Materials.Duranium, 4)
                     }, new FluidStack[]{
                             Materials.SolderingAlloy.getMolten(2304),
                             Materials.Tritanium.getMolten(1440)
