@@ -4,3 +4,4 @@ if (vanilla_enabled) {
         // Vanilla items and blocks have special handlers.
         NEI.hide("minecraft", block);
     }
+}
