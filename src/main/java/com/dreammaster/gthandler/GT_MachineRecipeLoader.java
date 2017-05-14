@@ -1001,7 +1001,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 }, CustomItemList.QuantumCircuit.get(1, o), 4000, 500000);
 
                 //Quantum Armor and Gravichest
-                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumHelmet", 1L));
+                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumHelmet", 1, GT_Values.W));
                 GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartHelmet.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartHelmet.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
@@ -1015,9 +1015,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         Materials.SolderingAlloy.getMolten(2304),
                         Materials.Titanium.getMolten(1440),
                         Materials.Glowstone.getMolten(288)
-                }, GT_ModHandler.getIC2Item("quantumHelmet", 1L), 1500, 4096);
+                }, GT_ModHandler.getIC2Item("quantumHelmet", 1, 27), 1500, 4096);
 
-                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBodyarmor", 1L));
+                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBodyarmor", 1, GT_Values.W));
                 GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartChestplate.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartChestplate.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
@@ -1031,9 +1031,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         Materials.SolderingAlloy.getMolten(2304),
                         Materials.Titanium.getMolten(1440),
                         Materials.Glowstone.getMolten(288)
-                }, GT_ModHandler.getIC2Item("quantumBodyarmor", 1L), 1500, 4096);
+                }, GT_ModHandler.getIC2Item("quantumBodyarmor", 1, 27), 1500, 4096);
 
-                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumLeggings", 1L));
+                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumLeggings", 1, GT_Values.W));
                 GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartLeggings.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartLeggings.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
@@ -1047,9 +1047,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         Materials.SolderingAlloy.getMolten(2304),
                         Materials.Titanium.getMolten(1440),
                         Materials.Glowstone.getMolten(288)
-                }, GT_ModHandler.getIC2Item("quantumLeggings", 1L), 1500, 4096);
+                }, GT_ModHandler.getIC2Item("quantumLeggings", 1, 27), 1500, 4096);
 
-                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBoots", 1L));
+                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBoots", 1, GT_Values.W));
                 GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartBoots.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartBoots.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
@@ -1063,7 +1063,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         Materials.SolderingAlloy.getMolten(2304),
                         Materials.Titanium.getMolten(1440),
                         Materials.Glowstone.getMolten(288)
-                }, GT_ModHandler.getIC2Item("quantumBoots", 1L), 1500, 4096);
+                }, GT_ModHandler.getIC2Item("quantumBoots", 1, 27), 1500, 4096);
 
                 if(Loader.isModLoaded("GraviSuite")){
                     GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "graviChestPlate", 1, GT_Values.W));
