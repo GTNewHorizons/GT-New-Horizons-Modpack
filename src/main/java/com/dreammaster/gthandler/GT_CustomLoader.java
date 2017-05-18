@@ -6,13 +6,13 @@ import com.dreammaster.item.food.QuantumBread;
 import cpw.mods.fml.common.event.FMLInterModComms;
 import cpw.mods.fml.common.registry.GameRegistry;
 import crazypants.enderio.EnderIO;
+import crazypants.enderio.machine.soul.SoulBinderRecipeManager;
 import crazypants.enderio.material.FrankenSkull;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
-import crazypants.enderio.machine.soul.SoulBinderRecipeManager;
 
 /**
  * How to add new Stuff:

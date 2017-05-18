@@ -2,13 +2,8 @@
 package com.dreammaster.modfixes.oilgen;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modfixes.ModFixBase;
-
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import eu.usrv.yamcore.YAMCore;
@@ -21,12 +16,15 @@ import net.minecraft.block.material.Material;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
-import net.minecraft.world.biome.BiomeGenDesert;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.event.terraingen.PopulateChunkEvent;
 import net.minecraftforge.fluids.BlockFluidBase;
 import net.minecraftforge.fluids.IFluidBlock;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 
 public class OilGeneratorFix extends ModFixBase

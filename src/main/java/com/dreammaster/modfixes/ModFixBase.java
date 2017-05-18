@@ -2,9 +2,8 @@
 package com.dreammaster.modfixes;
 
 
-import net.minecraftforge.common.MinecraftForge;
-
 import cpw.mods.fml.common.FMLCommonHandler;
+import net.minecraftforge.common.MinecraftForge;
 
 /**
  * Don't change anything here unless you know what you're doing.

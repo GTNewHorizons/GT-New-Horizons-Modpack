@@ -8,6 +8,7 @@ import com.dreammaster.config.CoreModConfig;
 import com.dreammaster.creativetab.ModTabList;
 import com.dreammaster.fluids.FluidList;
 import com.dreammaster.galacticgreg.SpaceDimRegisterer;
+import com.dreammaster.gthandler.GT_CoreModSupport;
 import com.dreammaster.gthandler.GT_CustomLoader;
 import com.dreammaster.gthandler.GT_Loader_ItemPipes;
 import com.dreammaster.item.ItemList;
@@ -25,7 +26,6 @@ import com.dreammaster.modhazardousitems.HazardousItemsHandler;
 import com.dreammaster.network.CoreModDispatcher;
 import com.dreammaster.railcraftStones.NH_GeodePopulator;
 import com.dreammaster.railcraftStones.NH_QuarryPopulator;
-
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
@@ -47,6 +47,7 @@ import eu.usrv.yamcore.client.NotificationTickHandler;
 import eu.usrv.yamcore.creativetabs.CreativeTabsManager;
 import eu.usrv.yamcore.fluids.ModFluidManager;
 import eu.usrv.yamcore.items.ModItemManager;
+import gregtech.GT_Mod;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
@@ -126,6 +127,9 @@ public class MainRegistry
         TabManager = new CreativeTabsManager();
         ModTabList.InitModTabs(TabManager, ItemManager);
         // ------------------------------------------------------------
+
+        //Materials init
+        if (!GT_Mod.gregtechproxy.mEnableAllMaterials) new GT_CoreModSupport();
 
         // ------------------------------------------------------------
         Logger.debug("PRELOAD Create Items");

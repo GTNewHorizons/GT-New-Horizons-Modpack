@@ -1,7 +1,6 @@
 package com.dreammaster.railcraftStones;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import java.util.Random;
 import mods.railcraft.common.blocks.aesthetics.cube.BlockCube;
 import mods.railcraft.common.blocks.aesthetics.cube.EnumCube;
 import mods.railcraft.common.plugins.forge.WorldPlugin;
@@ -12,9 +11,11 @@ import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.common.BiomeDictionary.Type;
 import net.minecraftforge.common.util.EnumHelper;
-import net.minecraftforge.event.terraingen.TerrainGen;
-import net.minecraftforge.event.terraingen.PopulateChunkEvent.Pre;
 import net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType;
+import net.minecraftforge.event.terraingen.PopulateChunkEvent.Pre;
+import net.minecraftforge.event.terraingen.TerrainGen;
+
+import java.util.Random;
 
 public class NH_QuarryPopulator {
     public static final EventType EVENT_TYPE = (EventType)EnumHelper.addEnum(EventType.class, "RAILCRAFT_QUARRY", new Class[0], new Object[0]);

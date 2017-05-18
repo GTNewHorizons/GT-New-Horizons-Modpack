@@ -2,11 +2,10 @@
 package com.dreammaster.config;
 
 
-import java.io.File;
-
 import com.dreammaster.modfixes.oilgen.OilGeneratorFix.OilConfig;
-
 import eu.usrv.yamcore.config.ConfigManager;
+
+import java.io.File;
 
 
 public class CoreModConfig extends ConfigManager

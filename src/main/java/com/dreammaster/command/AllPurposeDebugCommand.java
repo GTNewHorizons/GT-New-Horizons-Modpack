@@ -2,15 +2,10 @@
 package com.dreammaster.command;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 import com.dreammaster.main.MainRegistry;
 import com.dreammaster.modfixes.IModFix;
 import com.dreammaster.modfixes.ModFixesMaster;
 import com.dreammaster.modfixes.oilgen.OilGeneratorFix;
-
 import cpw.mods.fml.common.registry.GameRegistry;
 import eu.usrv.yamcore.auxiliary.PlayerChatHelper;
 import eu.usrv.yamcore.auxiliary.PlayerHelper;
@@ -22,6 +17,10 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 
 // Use this command for your own needs. Add stuff you want to test/debug. This

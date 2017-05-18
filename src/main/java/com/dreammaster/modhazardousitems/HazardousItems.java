@@ -2,21 +2,15 @@
 package com.dreammaster.modhazardousitems;
 
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
-
+import eu.usrv.yamcore.auxiliary.FluidHelper;
+import eu.usrv.yamcore.auxiliary.ItemDescriptor;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
-import eu.usrv.yamcore.auxiliary.FluidHelper;
-import eu.usrv.yamcore.auxiliary.ItemDescriptor;
+
+import javax.xml.bind.annotation.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @XmlAccessorType( XmlAccessType.FIELD )

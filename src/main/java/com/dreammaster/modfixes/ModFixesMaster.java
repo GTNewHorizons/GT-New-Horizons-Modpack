@@ -2,9 +2,9 @@
 package com.dreammaster.modfixes;
 
 
-import java.util.HashMap;
-
 import com.dreammaster.main.MainRegistry;
+
+import java.util.HashMap;
 
 
 /**

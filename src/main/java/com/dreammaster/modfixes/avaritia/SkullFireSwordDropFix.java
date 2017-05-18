@@ -2,19 +2,17 @@
 package com.dreammaster.modfixes.avaritia;
 
 
+import com.dreammaster.main.MainRegistry;
+import com.dreammaster.modfixes.ModFixBase;
+import cpw.mods.fml.common.eventhandler.EventPriority;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import eu.usrv.yamcore.auxiliary.ItemDescriptor;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
-
-import com.dreammaster.main.MainRegistry;
-import com.dreammaster.modfixes.ModFixBase;
-
-import cpw.mods.fml.common.eventhandler.EventPriority;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import eu.usrv.yamcore.auxiliary.ItemDescriptor;
 
 
 /**
