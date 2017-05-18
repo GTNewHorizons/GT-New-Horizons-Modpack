@@ -25,10 +25,10 @@ public class GT_CoreModSupport implements IMaterialHandler {
 
     @Override
     public void onComponentInit() {
-        OrePrefixes.screw.enableComponent(RedAlloy);
-        OrePrefixes.stick.enableComponent(RedAlloy);
-        OrePrefixes.stickLong.enableComponent(RedAlloy);
-        OrePrefixes.bolt.enableComponent(RedAlloy);
+        for(OrePrefixes ore:OrePrefixes.values()){
+            ore.enableComponent(RedAlloy);
+            //ore.enableComponent(SomeMaterial);
+        }
 
         /** This is just left here as an example of how to add components. **/
         /*
