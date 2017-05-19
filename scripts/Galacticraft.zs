@@ -969,7 +969,7 @@ recipes.addShaped(<GalacticraftCore:item.oxygenConcentrator>, [
 
 // --- Tier 1 Rocket Engine
 recipes.addShaped(<GalacticraftCore:item.engine>, [
-[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftCore:item.fuelCanisterPartial:1>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftCore:item.fuelCanisterPartial:1001>, <GalaxySpace:item.CompressedSDHD120>],
 [HeavyPlating, <gregtech:gt.blockcasings3:14>, HeavyPlating],
 [HeavyPlating, <gregtech:gt.metaitem.01:32731>, HeavyPlating]]);
 
