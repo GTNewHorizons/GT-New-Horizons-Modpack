@@ -8,6 +8,7 @@ import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.ic2.Macerator;
+import mods.gregtech.Mixer;
 
 
 // --- Variables ---
@@ -365,6 +366,11 @@ recipes.addShaped(<harvestcraft:hardenedleatherbootsItem>, [
 recipes.addShaped(<harvestcraft:hardenedleatherItem>, [
 [<Backpack:tannedLeather>, <harvestcraft:waxItem>, <Backpack:tannedLeather>]]);
 
+// --- Fresh Milk
+recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>.transformReplace(<minecraft:bucket>)]);
+
+recipes.addShapeless(<harvestcraft:freshmilkItem> * 2, [<IguanaTweaksTConstruct:clayBucketMilk>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+
 // --- Fresh Water
 recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
 
@@ -627,3 +633,18 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:2817> * 9, <harvestcraft:spamcompre
 
 // --- Corn Meal
 Macerator.addRecipe(<harvestcraft:cornmealItem>, <harvestcraft:cornItem>);
+
+
+
+// --- Mixer recipes ---
+
+
+
+
+// --- Heavy Cream
+Mixer.addRecipe(<harvestcraft:heavycreamItem>, null, [<harvestcraft:freshmilkItem>], null, 1200, 2);
+// -
+Mixer.addRecipe(<harvestcraft:heavycreamItem>, null, [null], <liquid:milk> * 250, 1200, 2);
+
+// --- Butter
+Mixer.addRecipe(<harvestcraft:butterItem>, null, [<harvestcraft:heavycreamItem>, <gregtech:gt.metaitem.01:817>], null, 1200, 2);
