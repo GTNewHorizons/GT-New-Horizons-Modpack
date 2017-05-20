@@ -105,6 +105,9 @@ recipes.addShapeless(<BiomesOPlenty:planks:14> * 2, [<BiomesOPlenty:logs4:3>]);
 // --- Barley
 recipes.removeShaped(<minecraft:wheat>, [[<BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>, <BiomesOPlenty:plants:6>]]);
 
+// --- Bucket Glitch
+recipes.addShapeless(<minecraft:bucket>, [<BiomesOPlenty:bopBucket>]); 
+
 // --- Lime Stone
 recipes.addShaped(<BiomesOPlenty:rocks> * 8, [
 [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
