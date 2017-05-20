@@ -1347,6 +1347,9 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:23089>, <liquid:lea
 // -
 mods.tconstruct.Smeltery.addMelting(<IC2:blockMetal:4>, <liquid:lead.molten> * 1296, 400, <IC2:blockMetal:4>);
 
+// --- Glass Bottle
+mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 144, <gregtech:gt.metaitem.01:32305>, false, 200);
+
 
 // --- Seared Tank
 recipes.addShaped(<TConstruct:LavaTank>, [
