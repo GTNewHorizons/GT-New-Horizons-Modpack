@@ -227,6 +227,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(30L), Materials.EnergeticAlloy.getMolten(576), CustomItemList.RawLapotronCrystal.get(1L), 10000, 2400, 480);
         GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(30L), Materials.VibrantAlloy.getMolten(288), CustomItemList.RawLapotronCrystal.get(1L), 10000, 1200, 480);
 
+        GT_Values.RA.addAutoclaveRecipe(GT_ModHandler.getModItem("EnderZoo", "enderFragment", 2L, 0), Materials.Water.getFluid(100), new ItemStack(Items.ender_pearl, 1, 0), 9000, 1200, 30);
+        GT_Values.RA.addAutoclaveRecipe(GT_ModHandler.getModItem("EnderZoo", "enderFragment", 2L, 0), GT_ModHandler.getDistilledWater(100L), new ItemStack(Items.ender_pearl, 1, 0), 10000, 900, 30);
+
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L), 								ItemList.Circuit_Integrated.getWithDamage(0L, 1L), GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L), GT_Values.NI, 2400, 120, 3300);
 
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.RedstoneAlloy, 1L), 			ItemList.Circuit_Integrated.getWithDamage(0L,11L), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
