@@ -1731,6 +1731,7 @@ mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "NEWHORIZONS", "alienis 
 game.setLocalization("tc.research_name.PORTALMILLENIUM", "Portal to the last Millennium");
 game.setLocalization("tc.research_text.PORTALMILLENIUM", "[EU] Night and Void");
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "EMINENCESTONE", false);
+mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "OCULUS", false);
 mods.thaumcraft.Research.setConcealed("PORTALMILLENIUM", true);
 mods.thaumcraft.Research.addPage("PORTALMILLENIUM", "ExtraUtilities.research_page.PORTALMILLENIUM");
 game.setLocalization("ExtraUtilities.research_page.PORTALMILLENIUM", "This place is known as The Last Millenium. All life, energy, knowledge, passion, struggle, philosophy and meaning is just a few short centuries from being rendered fully pointless. On the plus side, rent is very cheap now.");
@@ -1743,10 +1744,11 @@ mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "alienis 1
 game.setLocalization("tc.research_name.PORTALDEEPDARK", "Portal to the Deep Dark");
 game.setLocalization("tc.research_text.PORTALDEEPDARK", "[EU] Deep, Deeper, Deep Dark");
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
+mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "ICHOR", false);
 mods.thaumcraft.Research.setConcealed("PORTALDEEPDARK", true);
 mods.thaumcraft.Research.addPage("PORTALDEEPDARK", "ExtraUtilities.research_page.PORTALDEEPDARK");
 game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.");
-mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:dark_portal:2>, [<ExtraUtilities:cobblestone_compressed:4>, <dreamcraft:item.BlackPlutoniumDensePlate>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:3>, <dreamcraft:item.BlackPlutoniumDensePlate>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:decorativeBlock1:5>], "alienis 300, spiritus 150, metallum 200, fabrico 150 lucrum 100, potentia 200",  <ExtraUtilities:dark_portal>, 12);
+mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:dark_portal:2>, [<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>], "alienis 300, spiritus 150, metallum 200, fabrico 150 lucrum 100, potentia 200",  <ExtraUtilities:dark_portal>, 12);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
 mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 8);
 
