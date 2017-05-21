@@ -46540,7 +46540,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 11304
             },
             {
               "id": "Forestry:sapling",
@@ -46767,7 +46767,8 @@
         }
       ],
       "preRequisites": [
-        576
+        576,
+        73
       ]
     },
     {
@@ -47812,7 +47813,7 @@
         }
       ],
       "preRequisites": [
-        563
+        472
       ]
     },
     {
