@@ -1180,7 +1180,7 @@ recipes.addShaped(<IC2:blockCrop>, [
 [<ore:stickLongWood>, null, <ore:stickLongWood>]]);
 
 // --- CF Sprayer
-recipes.addShaped(<IC2:itemFoamSprayer:27>, [
+recipes.addShaped(<IC2:itemFoamSprayer>, [
 [<ore:pipeSmallSteel>, <ore:craftingToolScrewdriver>, <ore:screwIron>],
 [<ore:craftingToolSaw>, <ore:pipeSmallSteel>, <IC2:itemFluidCell>],
 [<ore:screwIron>, <minecraft:stone_button>, <ore:circuitBasic>]]);
@@ -1367,7 +1367,7 @@ recipes.addShaped(<IC2:blockMachine:9>, [
 // --- Charge Pad MFSU
 recipes.addShaped(<IC2:blockChargepad:3>, [
 [<ore:screwStainlessSteel>, <minecraft:light_weighted_pressure_plate>, <ore:screwStainlessSteel>],
-[<ore:circuitElite>, <IC2:blockElectric:2>, <ore:circuitElite>],
+[<ore:circuitData>, <IC2:blockElectric:2>, <ore:circuitData>],
 [<dreamcraft:item.StainlessSteelItemCasing>, <ore:craftingToolScrewdriver>, <dreamcraft:item.StainlessSteelItemCasing>]]);
 
 // --- Charge Pad MFE
@@ -1915,8 +1915,6 @@ Macerator.addRecipe(<dreamcraft:item.LapotronDust> * 30,  <IC2:itemBatLamaCrysta
 // --- Mixer Recipes ---
 
 
-// --- Dynamite
-Mixer.addRecipe(<IC2:itemDynamite> * 2, [<minecraft:sand>, <minecraft:gunpowder>, <gregtech:gt.metaitem.01:2802>, <StevesCarts:ModuleComponents:43> * 2], 60, 8);
 
 // --- Coal Ball
 Mixer.addRecipe(<IC2:itemPartCoalBall>, [<IC2:itemDust:2> * 8, <gregtech:gt.metaitem.01:2802>], 100, 16);
