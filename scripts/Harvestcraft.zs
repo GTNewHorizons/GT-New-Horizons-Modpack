@@ -162,6 +162,9 @@ recipes.remove(<harvestcraft:churn>);
 // --- Quern
 recipes.remove(<harvestcraft:quern>);
 
+// --- Boiled egg out of Tofu
+recipes.remove(<harvestcraft:boiledeggItem>);
+
 
 
 // --- Adding Back Recipes ---
@@ -411,6 +414,9 @@ recipes.addShaped(<harvestcraft:market>, [
 
 // --- Cooked Vension
 furnace.addRecipe(<harvestcraft:venisoncookedItem>, <harvestcraft:venisonrawItem>);
+
+// --- Boiled Egg
+recipes.addShapeless(<harvestcraft:boiledeggItem>, [<harvestcraft:potItem>, <minecraft:egg>]);
 
 
 // --- Ordicted Things ---
