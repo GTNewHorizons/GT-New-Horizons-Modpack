@@ -495,8 +495,6 @@ Centrifuge.addRecipe([<BloodArsenal:blood_money:2>, <BloodArsenal:blood_money:2>
 
 
 
-// --- Blood Infused Diamond Block
-Compressor.addRecipe(<BloodArsenal:blood_infused_diamond_block>, <BloodArsenal:blood_infused_diamond_bound> * 9);
 
 // --- Blood Infused Iron Block
 Compressor.addRecipe(<BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_iron> * 9);
