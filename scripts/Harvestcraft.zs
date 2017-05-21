@@ -409,6 +409,8 @@ recipes.addShaped(<harvestcraft:market>, [
 [<ore:gearGtSmallAnyBronze>, <minecraft:dispenser>, <ore:gearGtSmallAnyBronze>],
 [<ore:plateIron>, <ore:screwIron>, <ore:plateIron>]]);
 
+// --- Cooked Vension
+furnace.addRecipe(<harvestcraft:venisoncookedItem>, <harvestcraft:venisonrawItem>);
 
 
 // --- Ordicted Things ---
