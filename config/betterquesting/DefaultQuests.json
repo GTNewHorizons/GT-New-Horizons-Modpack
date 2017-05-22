@@ -63847,21 +63847,6 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 32300
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
               "Damage": 32351
