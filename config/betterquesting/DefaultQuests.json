@@ -3943,7 +3943,7 @@
     {
       "questID": 45,
       "name": "Multiblock Tanks... Railcraft Tanks",
-      "description": "576 buckets of fluid, enough to store all the creosote you made before. If this isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.",
+      "description": "576 buckets of fluid, enough to store all the creosote you made before. If this isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: You don\u0027t need a pump and the fluid  will auto-output if you place a pipe on the button side of the tank.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7992,7 +7992,7 @@
     {
       "questID": 87,
       "name": "Steel Multiblock Tanks",
-      "description": "Want to double the amount of liquid a tank can hold? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks.",
+      "description": "Want to double the amount of liquid a tank can hold? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks.\n\nHint: You don\u0027t need a pump and the fluid  will auto-output if you place a pipe on the button side of the tank.\",",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
