@@ -19049,7 +19049,7 @@
     {
       "questID": 225,
       "name": "Searching for answers",
-      "description": "Last night, you had a dream. A dimension, so weird and different, exactly like the sapling you found. You decided to go there and look for answers.",
+      "description": "Last night, you had a dream. A dimension, so weird and different, exactly like the sapling you found. You decided to go there and look for answers.\n\nFirst you need a portal crystal to open it up and no a diamons is not ennought.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -19073,6 +19073,21 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.TwilightCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
         {
           "name": "Twilight arrival",
           "posX": 0,
