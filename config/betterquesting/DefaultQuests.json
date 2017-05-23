@@ -50695,7 +50695,7 @@
     {
       "questID": 614,
       "name": "Reusable Battery : Cadmium",
-      "description": "Sodium, cadmium, and cithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into small battery hulls, but their contents are lost.",
+      "description": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into small battery hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
