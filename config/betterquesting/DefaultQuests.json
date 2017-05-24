@@ -19853,7 +19853,7 @@
           "requiredItems": [
             {
               "id": "Thaumcraft:WandRod",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -19924,7 +19924,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "Count": 8,
               "OreDict": "",
               "Damage": 27306
             }
@@ -19991,7 +19991,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.LichBone",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             }
@@ -20029,7 +20029,7 @@
     },
     {
       "questID": 237,
-      "name": "\"Stores 50 Vis\" Wand",
+      "name": "\"Stores 50 vis\" Wand",
       "description": "Now combine your new wand, and be more powerful than before! You have a feeling, that this new wand will come in handy very soon(tm)",
       "isMain": true,
       "isSilent": false,
@@ -20115,9 +20115,7 @@
         }
       ],
       "preRequisites": [
-        234,
-        235,
-        236
+        235
       ]
     },
     {
@@ -70266,6 +70264,97 @@
       ]
     },
     {
+      "questID": 798,
+      "name": "Iron cpped Greatwood Wand",
+      "description": "Making a gold capped greatwood wand need 35 vis but your old wand have only 25. So making a iron capped greatwood wand first and after this you are able to make a gold caped greatwood wand.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.IronWandCap",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.IronWandCap",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandCasting",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "cap:8": "iron",
+                "rod:8": "greatwood"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        236,
+        234
+      ]
+    },
+    {
       "questID": 799,
       "name": "Don\u0027t try to dive with it",
       "description": "Combining a Scuba Helmet with some Nano Helmet in the Assembler you get some Nono Scuba Helmet. Better not tr to dive with it because you can\u0027t. It is part for the new Quantum Body Armor.",
@@ -80090,7 +80179,7 @@
         {
           "id": 237,
           "x": 228,
-          "y": 72
+          "y": 108
         },
         {
           "id": 238,
@@ -80206,6 +80295,11 @@
           "id": 610,
           "x": 0,
           "y": 36
+        },
+        {
+          "id": 798,
+          "x": 228,
+          "y": 72
         }
       ]
     },
