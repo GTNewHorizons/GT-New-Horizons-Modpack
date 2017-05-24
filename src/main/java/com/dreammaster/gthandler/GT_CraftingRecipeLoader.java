@@ -15,6 +15,8 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
     private final static String aTextMachineBeta = "machine.beta";
     private final static String aTextMachineAlpha = "machine.alpha";
     private final String aTextForestry = "Forestry";
+    private final static long bits = GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED;
+
     public void run() {
         long tBitMask = GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE;
 
@@ -236,6 +238,9 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Board_Phenolic_Good.get(1, o), new Object[]{"FFF", "FCF", "FFF", 'C', ItemList.Circuit_Board_Phenolic.get(1, o), 'F', GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Gold, 1)});
         GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Parts_Resistor.get(1, o), new Object[]{"RPR", "FCF", " P ", 'F', OrePrefixes.wireGt01.get(Materials.Copper), 'P', OrePrefixes.wireFine.get(Materials.Copper), 'C', OrePrefixes.dust.get(Materials.Coal), 'R', ItemList.IC2_Resin.get(1, o)});
         GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Parts_Vacuum_Tube.get(1, o), new Object[]{"WWW", "FGF", "SAS", 'G', ItemList.Circuit_Parts_Glass_Tube.get(1, o), 'F', OrePrefixes.wireFine.get(Materials.Copper), 'W', OrePrefixes.wireGt01.get(Materials.Copper), 'S', OrePrefixes.stick.get(Materials.Steel), 'A', OrePrefixes.bolt.get(Materials.RedAlloy)});
+
+        //Vent Casing
+        GT_ModHandler.addCraftingRecipe(ItemList.Casing_Vent.get(1L, new Object[0]), bits, new Object[]{"PPP", "SSS", "MFV", 'P', CustomItemList.SteelBars.get(1, o), 'F', OrePrefixes.frameGt.get(Materials.StainlessSteel), 'M', ItemList.Electric_Motor_MV, 'V', OrePrefixes.rotor.get(Materials.Aluminium),'S',ItemList.Component_Filter});
 
         //Modular Armor
         long bits = GT_ModHandler.RecipeBits.BUFFERED | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE;
