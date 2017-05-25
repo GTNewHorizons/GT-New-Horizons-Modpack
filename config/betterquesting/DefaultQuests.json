@@ -61481,10 +61481,10 @@
               "Damage": 32101
             },
             {
-              "id": "dreamcraft:item.AluminiumItemCasing",
+              "id": "IC2:itemCasing",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 5
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -61499,10 +61499,10 @@
               "Damage": 0
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.blockmachines",
               "Count": 8,
               "OreDict": "",
-              "Damage": 17874
+              "Damage": 1366
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -74681,13 +74681,13 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 3,
+              "Count": 1,
               "OreDict": "",
               "Damage": 17809
             },
             {
               "id": "IC2:itemHarz",
-              "Count": 6,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -74700,7 +74700,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 3,
+              "Count": 1,
               "OreDict": "",
               "Damage": 32710
             }
