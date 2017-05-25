@@ -56457,17 +56457,6 @@
           "taskID": "bq_standard:crafting"
         },
         {
-          "consume": false,
-          "autoConsume": false,
-          "requiredFluids": [
-            {
-              "FluidName": "creosote",
-              "Amount": 60000
-            }
-          ],
-          "taskID": "bq_standard:fluid"
-        },
-        {
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -66077,15 +66066,25 @@
       "visibility": "UNLOCKED",
       "tasks": [
         {
-          "consume": true,
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
           "autoConsume": false,
-          "requiredFluids": [
+          "requiredItems": [
             {
-              "FluidName": "molten.plastic",
-              "Amount": 10000
+              "id": "IC2:itemFluidCell",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "molten.plastic",
+                  "Amount:4": 1000
+                }
+              }
             }
           ],
-          "taskID": "bq_standard:fluid"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -66382,26 +66381,19 @@
       "visibility": "UNLOCKED",
       "tasks": [
         {
-          "consume": true,
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
           "autoConsume": false,
-          "requiredFluids": [
+          "requiredItems": [
             {
-              "FluidName": "liquid_heavy_fuel",
-              "Amount": 64000
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 26,
+              "OreDict": "",
+              "Damage": 30647
             }
           ],
-          "taskID": "bq_standard:fluid"
-        },
-        {
-          "consume": true,
-          "autoConsume": false,
-          "requiredFluids": [
-            {
-              "FluidName": "liquid_toluene",
-              "Amount": 25600
-            }
-          ],
-          "taskID": "bq_standard:fluid"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -66419,15 +66411,19 @@
           "taskID": "bq_standard:retrieval"
         },
         {
+          "partialMatch": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
-          "requiredFluids": [
+          "requiredItems": [
             {
-              "FluidName": "sulfuricacid",
-              "Amount": 16000
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30720
             }
           ],
-          "taskID": "bq_standard:fluid"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -66513,26 +66509,34 @@
       "visibility": "UNLOCKED",
       "tasks": [
         {
-          "consume": true,
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
           "autoConsume": false,
-          "requiredFluids": [
+          "requiredItems": [
             {
-              "FluidName": "liquid_cracked_heavy_fuel",
-              "Amount": 86000
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 86,
+              "OreDict": "",
+              "Damage": 30744
             }
           ],
-          "taskID": "bq_standard:fluid"
+          "taskID": "bq_standard:retrieval"
         },
         {
-          "consume": true,
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
           "autoConsume": false,
-          "requiredFluids": [
+          "requiredItems": [
             {
-              "FluidName": "liquid_toluene",
-              "Amount": 25600
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 26,
+              "OreDict": "",
+              "Damage": 30647
             }
           ],
-          "taskID": "bq_standard:fluid"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -66550,15 +66554,25 @@
           "taskID": "bq_standard:retrieval"
         },
         {
-          "consume": true,
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
           "autoConsume": false,
-          "requiredFluids": [
+          "requiredItems": [
             {
-              "FluidName": "liquid_nitrationmixture",
-              "Amount": 16000
+              "id": "IC2:itemFluidCell",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_nitrationmixture",
+                  "Amount:4": 1000
+                }
+              }
             }
           ],
-          "taskID": "bq_standard:fluid"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
