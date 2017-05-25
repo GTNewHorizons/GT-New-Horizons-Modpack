@@ -27,15 +27,15 @@ recipes.addShaped(<battlegear2:shield.iron>, [
 
 // --- Gold Shield
 recipes.addShaped(<battlegear2:shield.gold>, [
-[<TGregworks:tGregToolPartLargePlate:6>.withTag({material: "Gold"}), <TGregworks:tGregToolPartToughBind:6>.withTag({material: "Gold"}), <TGregworks:tGregToolPartLargePlate:6>.withTag({material: "Gold"})],
-[<ore:craftingToolHardHammer>, <TGregworks:tGregToolPartToughRod:6>.withTag({material: "Gold"}), <ore:craftingToolFile>],
-[null, <TGregworks:tGregToolPartToughRod:6>.withTag({material: "Gold"}), null]]);
+[<TGregworks:tGregToolPartLargePlate:1505>.withTag({material: "Gold"}), <TGregworks:tGregToolPartToughBind:1505>.withTag({material: "Gold"}), <TGregworks:tGregToolPartLargePlate:1505>.withTag({material: "Gold"})],
+[<ore:craftingToolHardHammer>, <TGregworks:tGregToolPartToughRod:1505>.withTag({material: "Gold"}), <ore:craftingToolFile>],
+[null, <TGregworks:tGregToolPartToughRod:1505>.withTag({material: "Gold"}), null]]);
 
 // --- Diamond Shield
 recipes.addShaped(<battlegear2:shield.diamond>, [
-[<TGregworks:tGregToolPartLargePlate:95>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartToughBind:95>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartLargePlate:95>.withTag({material: "Diamond"})],
-[<ore:craftingToolHardHammer>, <TGregworks:tGregToolPartToughRod:95>.withTag({material: "Diamond"}), <ore:craftingToolFile>],
-[null, <TGregworks:tGregToolPartToughRod:95>.withTag({material: "Diamond"}), null]]);
+[<TGregworks:tGregToolPartLargePlate:1594>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartToughBind:1594>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartLargePlate:1594>.withTag({material: "Diamond"})],
+[<ore:craftingToolHardHammer>, <TGregworks:tGregToolPartToughRod:1594>.withTag({material: "Diamond"}), <ore:craftingToolFile>],
+[null, <TGregworks:tGregToolPartToughRod:1594>.withTag({material: "Diamond"}), null]]);
 
 // --- Wooden Dagger
 recipes.addShaped(<battlegear2:dagger.wood>, [
@@ -77,13 +77,13 @@ recipes.addShaped(<battlegear2:spear.iron>, [
 
 // --- Gold Spear
 recipes.addShaped(<battlegear2:spear.gold>, [
-[<ore:screwAluminium>, <TGregworks:tGregToolPartArrowHead:6>.withTag({material: "Gold"}), null],
+[<ore:screwAluminium>, <TGregworks:tGregToolPartArrowHead:1505>.withTag({material: "Gold"}), null],
 [<battlegear2:spear.wood>, <ore:screwAluminium>, null],
 [<ore:craftingToolSaw>, <ore:craftingToolScrewdriver>, null]]);
 
 // --- Diamond Spear
 recipes.addShaped(<battlegear2:spear.diamond>, [
-[<ore:screwStainlessSteel>, <TGregworks:tGregToolPartArrowHead:95>.withTag({material: "Diamond"}), null],
+[<ore:screwStainlessSteel>, <TGregworks:tGregToolPartArrowHead:1594>.withTag({material: "Diamond"}), null],
 [<battlegear2:spear.wood>, <ore:screwStainlessSteel>, null],
 [<ore:craftingToolSaw>, <ore:craftingToolScrewdriver>, null]]);
 
@@ -107,14 +107,14 @@ recipes.addShaped(<battlegear2:waraxe.iron>, [
 
 // --- Gold Axe
 recipes.addShaped(<battlegear2:waraxe.gold>, [
-[<TGregworks:tGregToolPartAxeHead:6>.withTag({material: "Gold"}), <ore:craftingToolScrewdriver>, <TGregworks:tGregToolPartAxeHead:6>.withTag({material: "Gold"})],
-[<TGregworks:tGregToolPartAxeHead:6>.withTag({material: "Gold"}), <ore:stickWood>, <TGregworks:tGregToolPartAxeHead:6>.withTag({material: "Gold"})],
+[<TGregworks:tGregToolPartAxeHead:1505>.withTag({material: "Gold"}), <ore:craftingToolScrewdriver>, <TGregworks:tGregToolPartAxeHead:1505>.withTag({material: "Gold"})],
+[<TGregworks:tGregToolPartAxeHead:1505>.withTag({material: "Gold"}), <ore:stickWood>, <TGregworks:tGregToolPartAxeHead:1505>.withTag({material: "Gold"})],
 [<ore:screwAluminium>, <ore:stickWood>, <ore:screwAluminium>]]);
 
 // --- Diamond Axe
 recipes.addShaped(<battlegear2:waraxe.diamond>, [
-[<TGregworks:tGregToolPartAxeHead:95>.withTag({material: "Diamond"}), <ore:craftingToolScrewdriver>, <TGregworks:tGregToolPartAxeHead:95>.withTag({material: "Diamond"})],
-[<TGregworks:tGregToolPartAxeHead:95>.withTag({material: "Diamond"}), <ore:stickWood>, <TGregworks:tGregToolPartAxeHead:95>.withTag({material: "Diamond"})],
+[<TGregworks:tGregToolPartAxeHead:1594>.withTag({material: "Diamond"}), <ore:craftingToolScrewdriver>, <TGregworks:tGregToolPartAxeHead:1594>.withTag({material: "Diamond"})],
+[<TGregworks:tGregToolPartAxeHead:1594>.withTag({material: "Diamond"}), <ore:stickWood>, <TGregworks:tGregToolPartAxeHead:1594>.withTag({material: "Diamond"})],
 [<ore:screwStainlessSteel>, <ore:stickWood>, <ore:screwStainlessSteel>]]);
 
 // --- Wooden Mace
@@ -137,14 +137,14 @@ recipes.addShaped(<battlegear2:mace.iron>, [
 
 // --- Gold Mace
 recipes.addShaped(<battlegear2:mace.gold>, [
-[<ore:screwAluminium>, <TGregworks:tGregToolPartLargePlate:6>.withTag({material: "Gold"}), <TConstruct:heavyPlate:1>],
-[<ore:screwAluminium>, <TConstruct:heavyPlate:1>, <TGregworks:tGregToolPartLargePlate:6>.withTag({material: "Gold"})],
+[<ore:screwAluminium>, <TGregworks:tGregToolPartLargePlate:1505>.withTag({material: "Gold"}), <TConstruct:heavyPlate:1>],
+[<ore:screwAluminium>, <TConstruct:heavyPlate:1>, <TGregworks:tGregToolPartLargePlate:1505>.withTag({material: "Gold"})],
 [<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);
 
 // --- Diamond Mace
 recipes.addShaped(<battlegear2:mace.diamond>, [
-[<ore:screwStainlessSteel>, <TGregworks:tGregToolPartLargePlate:95>.withTag({material: "Diamond"}), <TConstruct:heavyPlate:2>],
-[<ore:screwStainlessSteel>, <TConstruct:heavyPlate:2>, <TGregworks:tGregToolPartLargePlate:95>.withTag({material: "Diamond"})],
+[<ore:screwStainlessSteel>, <TGregworks:tGregToolPartLargePlate:1594>.withTag({material: "Diamond"}), <TConstruct:heavyPlate:2>],
+[<ore:screwStainlessSteel>, <TConstruct:heavyPlate:2>, <TGregworks:tGregToolPartLargePlate:1594>.withTag({material: "Diamond"})],
 [<ore:stickWood>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);
 
 // --- Quiver

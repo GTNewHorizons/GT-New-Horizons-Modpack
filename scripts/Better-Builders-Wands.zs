@@ -58,7 +58,7 @@ recipes.addShaped(<betterbuilderswands:wandIron>, [
 Assembler.addRecipe(<betterbuilderswands:wandIron>, <TConstruct:toolRod:2> * 2, <TConstruct:heavyPlate:2>, 600, 30);
 
 // --- Diamond Wand
-Assembler.addRecipe(<betterbuilderswands:wandDiamond>, <TGregworks:tGregToolPartToughRod:95>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartLargePlate:95>.withTag({material: "Diamond"}), 600, 64);
+Assembler.addRecipe(<betterbuilderswands:wandDiamond>, <TGregworks:tGregToolPartToughRod:1594>.withTag({material: "Diamond"}), <TGregworks:tGregToolPartLargePlate:1594>.withTag({material: "Diamond"}), 600, 64);
 
 // --- Unbreakable Wand I
 Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:4>, <TConstruct:toughRod:314>, <ExtraUtilities:builderswand>, 600, 120);
