@@ -914,7 +914,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
                 //Basic+Good Circuit
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Coated_Basic.get(1, o), ItemList.Circuit_Parts_Resistor.get(2, o), GT_OreDictUnificator.get(OrePrefixes.cableGt01, Materials.RedAlloy, 2), ItemList.Circuit_Parts_Vacuum_Tube.get(2, o)}, tMat.getMolten(144L * tMultiplier / 2L), GT_ModHandler.getModItem("IC2", "itemPartCircuit", 1L, 0), 200, 16);
-                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Phenolic_Good.get(1, o), GT_ModHandler.getModItem("IC2", "itemPartCircuit", 2L, 0), ItemList.Circuit_Parts_Diode.get(2, o),  GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Plastic, 2)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Good.get(1, o), 300, 30);
+                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Phenolic_Good.get(1, o), GT_ModHandler.getModItem("IC2", "itemPartCircuit", 2L, 0), ItemList.Circuit_Parts_Diode.get(2, o),  GT_OreDictUnificator.get(OrePrefixes.cableGt01, Materials.Copper, 2)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Good.get(1, o), 300, 30);
                
                 //Integraded Circuits
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Coated_Basic.get(1, o), ItemList.Circuit_Chip_ILC.get(1, o), ItemList.Circuit_Parts_Resistor.get(2, o), ItemList.Circuit_Parts_Diode.get(2, o), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Copper, 4), GT_OreDictUnificator.get(OrePrefixes.stickLong, Materials.Tin, 4)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Basic.get(1, o), 200, 16);

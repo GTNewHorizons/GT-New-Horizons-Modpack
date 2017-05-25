@@ -41,6 +41,7 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         //TODO : next tiers?
 
         //Mine and Blade Battlegear remove recipes NBT
+        Object[] o = new Object[0];
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("battlegear2", "quiver", 1L, 0), true, false, true);
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("battlegear2", "shield.wood", 1L, 0), true, false, true);
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("battlegear2", "shield.hide", 1L, 0), true, false, true);
@@ -106,7 +107,7 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 16), true, false, true);
 
         //Add recipes
-        Object[] o = new Object[0];
+
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier1.get(1L), bits, new Object[]{"XTX", "POP", "PPP", 'X', OrePrefixes.screw.get(Materials.Aluminium), 'T', ToolDictNames.craftingToolScrewdriver, 'P', OrePrefixes.plate.get(Materials.AnnealedCopper), 'O', CustomItemList.ReinforcedGlassLense.get(1L)});
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier2.get(1L), bits, new Object[]{"XTX", "POP", "PPP", 'X', OrePrefixes.screw.get(Materials.StainlessSteel), 'T', ToolDictNames.craftingToolScrewdriver, 'P', OrePrefixes.plate.get(Materials.RoseGold), 'O', CustomItemList.ReinforcedGlassLense.get(1L)});
         GT_ModHandler.addCraftingRecipe(CustomItemList.RawOrbTier3.get(1L), bits, new Object[]{"XTX", "POP", "PPP", 'X', OrePrefixes.screw.get(Materials.Titanium), 'T', ToolDictNames.craftingToolScrewdriver, 'P', OrePrefixes.plate.get(Materials.PulsatingIron), 'O', CustomItemList.ReinforcedGlassLense.get(1L)});
@@ -234,7 +235,7 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.addShapelessCraftingRecipe(ItemList.Circuit_Board_Coated.get(1, o), new Object[]{GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Wood, 1), ItemList.IC2_Resin.get(1, o), ItemList.IC2_Resin.get(1, o)});
         GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Board_Coated.get(3, o), new Object[]{"RRR", "PPP", "RRR", 'P', GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Wood, 1), 'R', ItemList.IC2_Resin.get(1, o)});
         GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Board_Coated_Basic.get(1, o), new Object[]{"FFF", "FCF", "FFF", 'C', ItemList.Circuit_Board_Coated.get(1, o), 'F', GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Copper, 1)});
-        GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Good.get(1, o), new Object[]{"PAP", "CBC", "DCD", 'D', ItemList.Circuit_Parts_Diode.get(1, o), 'C', Ic2Items.electronicCircuit, 'A', CustomItemList.AluminiumItemCasing.get(1, o), 'P', GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Plastic, 1), 'B', ItemList.Circuit_Board_Phenolic_Good.get(1, o),});
+        GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Good.get(1, o), new Object[]{"PAP", "CBC", "DCD", 'D', ItemList.Circuit_Parts_Diode.get(1, o), 'C', Ic2Items.electronicCircuit, 'A', ItemList.IC2_Item_Casing_Steel.get(1, o), 'P', GT_OreDictUnificator.get(OrePrefixes.cableGt01, Materials.Copper, 1), 'B', ItemList.Circuit_Board_Phenolic_Good.get(1, o),});
         GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Board_Phenolic_Good.get(1, o), new Object[]{"FFF", "FCF", "FFF", 'C', ItemList.Circuit_Board_Phenolic.get(1, o), 'F', GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Gold, 1)});
         GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Parts_Resistor.get(1, o), new Object[]{"RPR", "FCF", " P ", 'F', OrePrefixes.wireGt01.get(Materials.Copper), 'P', OrePrefixes.wireFine.get(Materials.Copper), 'C', OrePrefixes.dust.get(Materials.Coal), 'R', ItemList.IC2_Resin.get(1, o)});
         GT_ModHandler.addCraftingRecipe(ItemList.Circuit_Parts_Vacuum_Tube.get(1, o), new Object[]{"WWW", "FGF", "SAS", 'G', ItemList.Circuit_Parts_Glass_Tube.get(1, o), 'F', OrePrefixes.wireFine.get(Materials.Copper), 'W', OrePrefixes.wireGt01.get(Materials.Copper), 'S', OrePrefixes.stick.get(Materials.Steel), 'A', OrePrefixes.bolt.get(Materials.RedAlloy)});
