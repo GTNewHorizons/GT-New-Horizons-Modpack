@@ -226,6 +226,9 @@ recipes.remove(<OpenBlocks:tastyClay>);
 // --- Golden Eye
 recipes.removeShaped(<OpenBlocks:goldenEye:*>);
 
+// --- Curser
+recipes.remove(<OpenBlocks:cursor>);
+
 
 
 
