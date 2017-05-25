@@ -407,10 +407,10 @@ recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
 recipes.addShapeless(<enhancedlootbags:lootbag:35>, [<dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>]);
 
 // --- Market ---
-recipes.addShaped(<harvestcraft:market>, [
-[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>],
-[<ore:gearGtSmallAnyBronze>, <minecraft:dispenser>, <ore:gearGtSmallAnyBronze>],
-[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>]]);
+//recipes.addShaped(<harvestcraft:market>, [
+//[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>],
+//[<ore:gearGtSmallAnyBronze>, <minecraft:dispenser>, <ore:gearGtSmallAnyBronze>],
+//[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>]]);
 
 // --- Cooked Vension
 furnace.addRecipe(<harvestcraft:venisoncookedItem>, <harvestcraft:venisonrawItem>);
