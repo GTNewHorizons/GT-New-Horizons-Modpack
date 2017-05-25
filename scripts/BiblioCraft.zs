@@ -839,6 +839,13 @@ recipes.remove(<BiblioCraft:item.tapeMeasure>);
 // --- Clipboard
 recipes.remove(<BiblioCraft:item.BiblioClipboard>);
 
+// --- Fancy Workbench
+recipes.remove(<BiblioCraft:BiblioWorkbench:*>);
+// -
+recipes.remove(<BiblioWoodsBoP:BiblioWoodFancyWorkbench:*>);
+// -
+recipes.remove(<BiblioWoodsNatura:BiblioWoodFancyWorkbench:*>);
+
 
 
 
@@ -1389,12 +1396,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame2:1>, [
 [<ore:stickWood>, PlumSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:1>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[PlumSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:1>, PlumSlab],
-[PlumSlab, PlumSlab, PlumSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:17>, [
 [null, <ore:blockWool>, null],
@@ -1486,12 +1487,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame2:0>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, PineSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:0>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[PineSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:0>, PineSlab],
-[PineSlab, PineSlab, PineSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:16>, [
@@ -1585,12 +1580,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame2:2>, [
 [<ore:stickWood>, PoplarSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:2>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[PoplarSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:2>, PoplarSlab],
-[PoplarSlab, PoplarSlab, PoplarSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:18>, [
 [null, <ore:blockWool>, null],
@@ -1682,12 +1671,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame2:3>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, SequoiaSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:3>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[SequoiaSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:3>, SequoiaSlab],
-[SequoiaSlab, SequoiaSlab, SequoiaSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:19>, [
@@ -1781,12 +1764,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame2:4>, [
 [<ore:stickWood>, TeakSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:4>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[TeakSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:4>, TeakSlab],
-[TeakSlab, TeakSlab, TeakSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:20>, [
 [null, <ore:blockWool>, null],
@@ -1878,12 +1855,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame2:5>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, WalnutSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:5>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[WalnutSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:5>, WalnutSlab],
-[WalnutSlab, WalnutSlab, WalnutSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:21>, [
@@ -1977,12 +1948,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame2:6>, [
 [<ore:stickWood>, WengeSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:6>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[WengeSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:6>, WengeSlab],
-[WengeSlab, WengeSlab, WengeSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:22>, [
 [null, <ore:blockWool>, null],
@@ -2074,12 +2039,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame2:7>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, WillowSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench2:7>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[WillowSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase2:7>, WillowSlab],
-[WillowSlab, WillowSlab, WillowSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:23>, [
@@ -2173,12 +2132,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:0>, [
 [<ore:stickWood>, AcaciaSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:0>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[AcaciaSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:0>, AcaciaSlab],
-[AcaciaSlab, AcaciaSlab, AcaciaSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:0>, [
 [null, <ore:blockWool>, null],
@@ -2270,12 +2223,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:1>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, BalsaSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:1>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[BalsaSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:1>, BalsaSlab],
-[BalsaSlab, BalsaSlab, BalsaSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:1>, [
@@ -2369,12 +2316,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:2>, [
 [<ore:stickWood>, BaobabSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:2>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[BaobabSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:2>, BaobabSlab],
-[BaobabSlab, BaobabSlab, BaobabSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:2>, [
 [null, <ore:blockWool>, null],
@@ -2466,12 +2407,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:3>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, CherrySlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:3>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[CherrySlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:3>, CherrySlab],
-[CherrySlab, CherrySlab, CherrySlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:3>, [
@@ -2565,12 +2500,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:4>, [
 [<ore:stickWood>, ChestnutSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:4>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[ChestnutSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:4>, ChestnutSlab],
-[ChestnutSlab, ChestnutSlab, ChestnutSlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:4>, [
 [null, <ore:blockWool>, null],
@@ -2662,12 +2591,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:5>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, CitrusSlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:5>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[CitrusSlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:5>, CitrusSlab],
-[CitrusSlab, CitrusSlab, CitrusSlab]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:5>, [
@@ -2761,12 +2684,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:6>, [
 [<ore:stickWood>, EbonySlab, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:6>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[EbonySlab, <BiblioWoodsForestry:BiblioWoodFstBookcase:6>, EbonySlab],
-[EbonySlab, EbonySlab, EbonySlab]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:6>, [
 [null, <ore:blockWool>, null],
@@ -2858,12 +2775,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:7>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, GreenheartSlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:7>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[GreenheartSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:7>, GreenheartSlabs],
-[GreenheartSlabs, GreenheartSlabs, GreenheartSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:7>, [
@@ -2957,12 +2868,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:8>, [
 [<ore:stickWood>, KapokSlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:8>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[KapokSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:8>, KapokSlabs],
-[KapokSlabs, KapokSlabs, KapokSlabs]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:8>, [
 [null, <ore:blockWool>, null],
@@ -3054,12 +2959,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:9>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, LarchSlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:9>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[LarchSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:9>, LarchSlabs],
-[LarchSlabs, LarchSlabs, LarchSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:9>, [
@@ -3153,12 +3052,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:10>, [
 [<ore:stickWood>, LimeSlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:10>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[LimeSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:10>, LimeSlabs],
-[LimeSlabs, LimeSlabs, LimeSlabs]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:10>, [
 [null, <ore:blockWool>, null],
@@ -3250,12 +3143,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:11>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, MahoeSlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:11>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[MahoeSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:11>, MahoeSlabs],
-[MahoeSlabs, MahoeSlabs, MahoeSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:11>, [
@@ -3349,12 +3236,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:12>, [
 [<ore:stickWood>, MahoganySlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:12>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[MahoganySlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:12>, MahoganySlabs],
-[MahoganySlabs, MahoganySlabs, MahoganySlabs]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:12>, [
 [null, <ore:blockWool>, null],
@@ -3446,12 +3327,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:13>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, MappleSlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:13>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[MappleSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:13>, MappleSlabs],
-[MappleSlabs, MappleSlabs, MappleSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:13>, [
@@ -3545,12 +3420,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:14>, [
 [<ore:stickWood>, PalmSlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:14>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[PalmSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:14>, PalmSlabs],
-[PalmSlabs, PalmSlabs, PalmSlabs]]);
-
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:14>, [
 [null, <ore:blockWool>, null],
@@ -3642,12 +3511,6 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodMapFrame:15>, [
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
 [<ore:stickWood>, PapayaSlabs, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
-
-// - Fancy Worktable
-recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFancyWorkbench:15>, [
-[<ore:dyeBlack>, <minecraft:crafting_table>, <ore:craftingFeather>],
-[PapayaSlabs, <BiblioWoodsForestry:BiblioWoodFstBookcase:15>, PapayaSlabs],
-[PapayaSlabs, PapayaSlabs, PapayaSlabs]]);
 
 // - Seat Back
 recipes.addShaped(<BiblioWoodsForestry:seatBack1:15>, [
