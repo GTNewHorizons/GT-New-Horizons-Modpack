@@ -2349,6 +2349,15 @@ recipes.addShaped(TBoots.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefens
 [null, <minecraft:diamond_boots>, <ore:circuitAdvanced>],
 [<harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:32642>, <gregtech:gt.metaitem.01:32642>]]);
 
+// --- Cobalt Ingot
+recipes.addShapeless(<TConstruct:materials:3>, [<gregtech:gt.metaitem.01:11033>]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:11033>, [<TConstruct:materials:3>]);
+
+// --- Manyullyn Ingot
+recipes.addShapeless(<TConstruct:materials:5>, [<gregtech:gt.metaitem.01:11386>]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:11386>, [<TConstruct:materials:5>]);
 
 
 
@@ -2470,6 +2479,8 @@ Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>]
 
 // --- Block Of Manyullyn
 Compressor.addRecipe(<TConstruct:MetalBlock:2>, <TConstruct:materials:5> * 9);
+// -
+Compressor.addRecipe(<TConstruct:MetalBlock:2>, <gregtech:gt.metaitem.01:11386> * 9);
 
 // --- Block Of Alumite
 Compressor.addRecipe(<TConstruct:MetalBlock:8>, <TConstruct:materials:15> * 9);
