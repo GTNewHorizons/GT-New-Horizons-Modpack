@@ -2433,6 +2433,41 @@ public class GT_Loader_Machines
 				1, 1, 16000, 0, 1, "FluidExtractor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "FLUID_EXTRACTOR", null).getStackForm(1L));
 
+
+		// ===================================================================================================
+		// FluidExtractor
+		// ===================================================================================================
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidExtractorLuV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"GCG", "PME", "WCW",
+						'M', ItemList.Hull_LuV,
+						'E', ItemList.Electric_Piston_LuV,
+						'P', ItemList.Electric_Pump_LuV,
+						'C', OrePrefixes.circuit.get(Materials.Ultimate),
+						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
+						'G', OrePrefixes.block.get(Materials.Glass)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidExtractorZPM.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"GCG", "PME", "WCW",
+						'M', ItemList.Hull_ZPM,
+						'E', ItemList.Electric_Piston_ZPM,
+						'P', ItemList.Electric_Pump_ZPM,
+						'C', OrePrefixes.circuit.get(Materials.Superconductor),
+						'W', OrePrefixes.cableGt01.get(Materials.Naquadah),
+						'G', OrePrefixes.block.get(Materials.Glass)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidExtractorUV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"GCG", "PME", "WCW",
+						'M', ItemList.Hull_UV,
+						'E', ItemList.Electric_Piston_UV,
+						'P', ItemList.Electric_Pump_UV,
+						'C', OrePrefixes.circuit.get(Materials.Infinite),
+						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
+						'G', OrePrefixes.block.get(Materials.Glass)});
+
 		// ===================================================================================================
 		// Fluid Heater
 		// ===================================================================================================
