@@ -1346,7 +1346,7 @@ public class GT_Loader_Machines
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MicrowaveZPM.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[] { "CFC", "WMW", "CFC",
+				new Object[] { "PWC", "PHE", "PMC",
 						'P', OrePrefixes.plateDense.get(Materials.Lead),
 						'H', ItemList.Hull_ZPM,
 						'E', ItemList.Emitter_ZPM,
@@ -1356,7 +1356,7 @@ public class GT_Loader_Machines
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MicrowaveUV.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[] { "CFC", "WMW", "CFC",
+				new Object[] { "PWC", "PHE", "PMC",
 						'P', OrePrefixes.plateDense.get(Materials.Lead),
 						'H', ItemList.Hull_UV,
 						'E', ItemList.Emitter_UV,
