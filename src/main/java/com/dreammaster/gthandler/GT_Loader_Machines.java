@@ -561,9 +561,7 @@ public class GT_Loader_Machines
 				GT_Recipe.GT_Recipe_Map.sDistilleryRecipes, 1, 0, 1000, 0, 1, "Distillery.png",
 				GregTech_API.sSoundList.get(Integer.valueOf(200)), false, false, 0, "DISTILLERY",null).getStackForm(1L));
 
-		//DistilleryLuV
-		//DistilleryZPM
-		//DistilleryUV
+
 		// ===================================================================================================
 
 		// ===================================================================================================
@@ -619,9 +617,7 @@ public class GT_Loader_Machines
 				GT_Recipe.GT_Recipe_Map.sFurnaceRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "ELECTRIC_FURNACE",null).getStackForm(1L));
 
-		//ElectricFurnaceLuV
-		//ElectricFurnaceZPM
-		//ElectricFurnaceUV
+
 		// ===================================================================================================
 
 		// ===================================================================================================
@@ -1250,13 +1246,20 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// MassFabricatorLuV
 		// ===================================================================================================
-		CustomItemList.MassFabricatorLuV.set(new GT_MetaTileEntity_Massfabricator(10950, "basicmachine.massfab.tier.06", "Elite Mass Fabricator", 6).getStackForm(1L));
-		CustomItemList.MassFabricatorZPM.set(new GT_MetaTileEntity_Massfabricator(10951, "basicmachine.massfab.tier.07", "Elite Mass Fabricator II", 7).getStackForm(1L));
-		CustomItemList.MassFabricatorUV.set(new GT_MetaTileEntity_Massfabricator(10952, "basicmachine.massfab.tier.08", "Ultimate Existence Initiator", 8).getStackForm(1L));
-		CustomItemList.MassFabricatorUHV.set(new GT_MetaTileEntity_Massfabricator(10953, "basicmachine.massfab.tier.09", "Epic Existence Initiator", 9).getStackForm(1L));
-		CustomItemList.MassFabricatorUEV.set(new GT_MetaTileEntity_Massfabricator(10954, "basicmachine.massfab.tier.10", "Epic Existence Initiator II",10).getStackForm(1L));
-		CustomItemList.MassFabricatorUIV.set(new GT_MetaTileEntity_Massfabricator(10955, "basicmachine.massfab.tier.11", "Epic Existence Initiator III",11).getStackForm(1L));
-		CustomItemList.MassFabricatorUMV.set(new GT_MetaTileEntity_Massfabricator(10956, "basicmachine.massfab.tier.12", "Epic Existence Initiator IV",12).getStackForm(1L));
+		CustomItemList.MassFabricatorLuV.set(new GT_MetaTileEntity_Massfabricator(
+				10950, "basicmachine.massfab.tier.06", "Elite Mass Fabricator", 6).getStackForm(1L));
+		CustomItemList.MassFabricatorZPM.set(new GT_MetaTileEntity_Massfabricator(
+				10951, "basicmachine.massfab.tier.07", "Elite Mass Fabricator II", 7).getStackForm(1L));
+		CustomItemList.MassFabricatorUV.set(new GT_MetaTileEntity_Massfabricator(
+				10952, "basicmachine.massfab.tier.08", "Ultimate Existence Initiator", 8).getStackForm(1L));
+		CustomItemList.MassFabricatorUHV.set(new GT_MetaTileEntity_Massfabricator(
+				10953, "basicmachine.massfab.tier.09", "Epic Existence Initiator", 9).getStackForm(1L));
+		CustomItemList.MassFabricatorUEV.set(new GT_MetaTileEntity_Massfabricator(
+				10954, "basicmachine.massfab.tier.10", "Epic Existence Initiator II",10).getStackForm(1L));
+		CustomItemList.MassFabricatorUIV.set(new GT_MetaTileEntity_Massfabricator(
+				10955, "basicmachine.massfab.tier.11", "Epic Existence Initiator III",11).getStackForm(1L));
+		CustomItemList.MassFabricatorUMV.set(new GT_MetaTileEntity_Massfabricator(
+				10956, "basicmachine.massfab.tier.12", "Epic Existence Initiator IV",12).getStackForm(1L));
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MassFabricatorLuV.get(1L),
@@ -1329,9 +1332,39 @@ public class GT_Loader_Machines
 				GT_Recipe.GT_Recipe_Map.sMicrowaveRecipes, 1, 1, 0, 0, 1, "E_Furnace.png",
 				GregTech_API.sSoundList.get(Integer.valueOf(207)), false, false, 0, "MICROWAVE", null).getStackForm(1L));
 
-		//MicrowaveLuV
-		//MicrowaveZPM
-		//MicrowaveUV
+
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.MicrowaveLuV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[] { "PWC", "PHE", "PMC",
+						'P', OrePrefixes.plateDense.get(Materials.Lead),
+						'H', ItemList.Hull_LuV,
+						'E', ItemList.Emitter_LuV,
+						'M', ItemList.Electric_Motor_LuV,
+						'C', OrePrefixes.circuit.get(Materials.Ultimate),
+						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.MicrowaveZPM.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[] { "CFC", "WMW", "CFC",
+						'P', OrePrefixes.plateDense.get(Materials.Lead),
+						'H', ItemList.Hull_ZPM,
+						'E', ItemList.Emitter_ZPM,
+						'M', ItemList.Electric_Motor_ZPM,
+						'C', OrePrefixes.circuit.get(Materials.Superconductor),
+						'W', OrePrefixes.cableGt01.get(Materials.Naquadah)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.MicrowaveUV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[] { "CFC", "WMW", "CFC",
+						'P', OrePrefixes.plateDense.get(Materials.Lead),
+						'H', ItemList.Hull_UV,
+						'E', ItemList.Emitter_UV,
+						'M', ItemList.Electric_Motor_UV,
+						'C', OrePrefixes.circuit.get(Materials.Infinite),
+						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux)});
+
+
 		// ===================================================================================================
 
 		// ===================================================================================================
@@ -1520,13 +1553,20 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// ReplicatorLuV
 		// ===================================================================================================
-		CustomItemList.ReplicatorLuV.set(new GT_MetaTileEntity_Replicator(11000, "basicmachine.replicator.tier.06", "Elite Replicator"  , 6).getStackForm(1L));
-		CustomItemList.ReplicatorZPM.set(new GT_MetaTileEntity_Replicator(11001, "basicmachine.replicator.tier.07", "Elite Replicator II" , 7).getStackForm(1L));
-		CustomItemList.ReplicatorUV.set( new GT_MetaTileEntity_Replicator(11002, "basicmachine.replicator.tier.08", "Ultimate Elemental Composer", 8).getStackForm(1L));
-		CustomItemList.ReplicatorUHV.set(new GT_MetaTileEntity_Replicator(11003, "basicmachine.replicator.tier.09", "Epic Elemental Composer", 9).getStackForm(1L));
-		CustomItemList.ReplicatorUEV.set(new GT_MetaTileEntity_Replicator(11004, "basicmachine.replicator.tier.10", "Epic Elemental Composer II",10).getStackForm(1L));
-		CustomItemList.ReplicatorUIV.set(new GT_MetaTileEntity_Replicator(11005, "basicmachine.replicator.tier.11", "Epic Elemental Composer III",11).getStackForm(1L));
-		CustomItemList.ReplicatorUMV.set(new GT_MetaTileEntity_Replicator(11006, "basicmachine.replicator.tier.12", "Epic Elemental Composer IV",12).getStackForm(1L));
+		CustomItemList.ReplicatorLuV.set(new GT_MetaTileEntity_Replicator(
+				11000, "basicmachine.replicator.tier.06", "Elite Replicator"  , 6).getStackForm(1L));
+		CustomItemList.ReplicatorZPM.set(new GT_MetaTileEntity_Replicator(
+				11001, "basicmachine.replicator.tier.07", "Elite Replicator II" , 7).getStackForm(1L));
+		CustomItemList.ReplicatorUV.set( new GT_MetaTileEntity_Replicator(
+				11002, "basicmachine.replicator.tier.08", "Ultimate Elemental Composer", 8).getStackForm(1L));
+		CustomItemList.ReplicatorUHV.set(new GT_MetaTileEntity_Replicator(
+				11003, "basicmachine.replicator.tier.09", "Epic Elemental Composer", 9).getStackForm(1L));
+		CustomItemList.ReplicatorUEV.set(new GT_MetaTileEntity_Replicator(
+				11004, "basicmachine.replicator.tier.10", "Epic Elemental Composer II",10).getStackForm(1L));
+		CustomItemList.ReplicatorUIV.set(new GT_MetaTileEntity_Replicator(
+				11005, "basicmachine.replicator.tier.11", "Epic Elemental Composer III",11).getStackForm(1L));
+		CustomItemList.ReplicatorUMV.set(new GT_MetaTileEntity_Replicator(
+				11006, "basicmachine.replicator.tier.12", "Epic Elemental Composer IV",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ReplicatorLuV.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -1564,13 +1604,20 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		// ScannerLuV
 		// ===================================================================================================
-		CustomItemList.ScannerLuV.set(new GT_MetaTileEntity_Scanner(11010, "basicmachine.scanner.tier.06", "Elite Scanner", 6).getStackForm(1L));
-		CustomItemList.ScannerZPM.set(new GT_MetaTileEntity_Scanner(11011, "basicmachine.scanner.tier.07", "Elite Scanner II", 7).getStackForm(1L));
-		CustomItemList.ScannerUV.set(new GT_MetaTileEntity_Scanner(11012, "basicmachine.scanner.tier.08", "Ultimate Electron Microscope", 8).getStackForm(1L));
-		CustomItemList.ScannerUHV.set(new GT_MetaTileEntity_Scanner(11013, "basicmachine.scanner.tier.09", "Epic Electron Microscope", 9).getStackForm(1L));
-		CustomItemList.ScannerUEV.set(new GT_MetaTileEntity_Scanner(11014, "basicmachine.scanner.tier.10", "Epic Electron Microscope II",10).getStackForm(1L));
-		CustomItemList.ScannerUIV.set(new GT_MetaTileEntity_Scanner(11015, "basicmachine.scanner.tier.11", "Epic Electron Microscope III",11).getStackForm(1L));
-		CustomItemList.ScannerUMV.set(new GT_MetaTileEntity_Scanner(11016, "basicmachine.scanner.tier.12", "Epic Electron Microscope IV",12).getStackForm(1L));
+		CustomItemList.ScannerLuV.set(new GT_MetaTileEntity_Scanner(
+				11010, "basicmachine.scanner.tier.06", "Elite Scanner", 6).getStackForm(1L));
+		CustomItemList.ScannerZPM.set(new GT_MetaTileEntity_Scanner(
+				11011, "basicmachine.scanner.tier.07", "Elite Scanner II", 7).getStackForm(1L));
+		CustomItemList.ScannerUV.set(new GT_MetaTileEntity_Scanner(
+				11012, "basicmachine.scanner.tier.08", "Ultimate Electron Microscope", 8).getStackForm(1L));
+		CustomItemList.ScannerUHV.set(new GT_MetaTileEntity_Scanner(
+				11013, "basicmachine.scanner.tier.09", "Epic Electron Microscope", 9).getStackForm(1L));
+		CustomItemList.ScannerUEV.set(new GT_MetaTileEntity_Scanner(
+				11014, "basicmachine.scanner.tier.10", "Epic Electron Microscope II",10).getStackForm(1L));
+		CustomItemList.ScannerUIV.set(new GT_MetaTileEntity_Scanner(
+				11015, "basicmachine.scanner.tier.11", "Epic Electron Microscope III",11).getStackForm(1L));
+		CustomItemList.ScannerUMV.set(new GT_MetaTileEntity_Scanner(
+				11016, "basicmachine.scanner.tier.12", "Epic Electron Microscope IV",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ScannerLuV.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -1663,11 +1710,23 @@ public class GT_Loader_Machines
 		// ===================================================================================================
 		CustomItemList.SlicingMachineLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11028, "basicmachine.slicer.tier.06", "Elite Slicing Machine", 6, "Slice of Life",
-				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",null).getStackForm(1L));
+				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",
+				new Object[] { "WCW", "PMV", "WCW",
+						'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+						'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON,
+						'V', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CONVEYOR,
+						'C', AdvancedGTMaterials.LuV.getCircuit(),
+						'W', AdvancedGTMaterials.LuV.getCable() }).getStackForm(1L));
 
 		CustomItemList.SlicingMachineZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11029, "basicmachine.slicer.tier.07", "Elite Slicing Machine II", 7, "Slice of Life",
-				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",null).getStackForm(1L));
+				GT_Recipe.GT_Recipe_Map.sSlicerRecipes, 2, 1, 0, 0, 1, "Slicer.png", "", false, false, 0, "SLICER",
+		new Object[] { "WCW", "PMV", "WCW",
+				'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL,
+				'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PISTON,
+				'V', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CONVEYOR,
+				'C', AdvancedGTMaterials.ZPM.getCircuit(),
+				'W', AdvancedGTMaterials.ZPM.getCable() }).getStackForm(1L));
 
 		CustomItemList.SlicingMachineUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11030, "basicmachine.slicer.tier.08", "Ultimate Quantum Slicer", 8, "Be careful when slicing bread!",
@@ -2044,14 +2103,22 @@ public class GT_Loader_Machines
 		// World Accelerator Lv-UV
 		// ===================================================================================================
 
-		CustomItemList.AcceleratorLV.set(new GT_MetaTileEntity_WorldAccelerator(11100, "basicmachine.accelerator.tier.01", "Basic World Accelerator", 1).getStackForm(1L));
-		CustomItemList.AcceleratorMV.set(new GT_MetaTileEntity_WorldAccelerator(11101, "basicmachine.accelerator.tier.02", "Advanced World Accelerator", 2).getStackForm(1L));
-		CustomItemList.AcceleratorHV.set(new GT_MetaTileEntity_WorldAccelerator(11102, "basicmachine.accelerator.tier.03", "Advanced World Accelerator II", 3).getStackForm(1L));
-		CustomItemList.AcceleratorEV.set(new GT_MetaTileEntity_WorldAccelerator(11103, "basicmachine.accelerator.tier.04", "Advanced World Accelerator III", 4).getStackForm(1L));
-		CustomItemList.AcceleratorIV.set(new GT_MetaTileEntity_WorldAccelerator(11104, "basicmachine.accelerator.tier.05", "Advanced World Accelerator IV", 5).getStackForm(1L));
-		CustomItemList.AcceleratorLuV.set(new GT_MetaTileEntity_WorldAccelerator(11105, "basicmachine.accelerator.tier.06", "Elite World Accelerator", 6).getStackForm(1L));
-		CustomItemList.AcceleratorZPM.set(new GT_MetaTileEntity_WorldAccelerator(11106, "basicmachine.accelerator.tier.07", "Elite World Accelerator II", 7).getStackForm(1L));
-		CustomItemList.AcceleratorUV.set(new GT_MetaTileEntity_WorldAccelerator(11107, "basicmachine.accelerator.tier.08", "Ultimate Time Anomaly", 8).getStackForm(1L));
+		CustomItemList.AcceleratorLV.set(new GT_MetaTileEntity_WorldAccelerator(
+				11100, "basicmachine.accelerator.tier.01", "Basic World Accelerator", 1).getStackForm(1L));
+		CustomItemList.AcceleratorMV.set(new GT_MetaTileEntity_WorldAccelerator(
+				11101, "basicmachine.accelerator.tier.02", "Advanced World Accelerator", 2).getStackForm(1L));
+		CustomItemList.AcceleratorHV.set(new GT_MetaTileEntity_WorldAccelerator(
+				11102, "basicmachine.accelerator.tier.03", "Advanced World Accelerator II", 3).getStackForm(1L));
+		CustomItemList.AcceleratorEV.set(new GT_MetaTileEntity_WorldAccelerator(
+				11103, "basicmachine.accelerator.tier.04", "Advanced World Accelerator III", 4).getStackForm(1L));
+		CustomItemList.AcceleratorIV.set(new GT_MetaTileEntity_WorldAccelerator(
+				11104, "basicmachine.accelerator.tier.05", "Advanced World Accelerator IV", 5).getStackForm(1L));
+		CustomItemList.AcceleratorLuV.set(new GT_MetaTileEntity_WorldAccelerator(
+				11105, "basicmachine.accelerator.tier.06", "Elite World Accelerator", 6).getStackForm(1L));
+		CustomItemList.AcceleratorZPM.set(new GT_MetaTileEntity_WorldAccelerator(
+				11106, "basicmachine.accelerator.tier.07", "Elite World Accelerator II", 7).getStackForm(1L));
+		CustomItemList.AcceleratorUV.set(new GT_MetaTileEntity_WorldAccelerator(
+				11107, "basicmachine.accelerator.tier.08", "Ultimate Time Anomaly", 8).getStackForm(1L));
 		//Not adding either...
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorLV.get(1L),
@@ -2511,6 +2578,37 @@ public class GT_Loader_Machines
 				false, false, 0, "FERMENTER", null).getStackForm(1L));
 
 
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FermenterLuV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"WPW", "GBG", "WCW",
+						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
+						'P', ItemList.Electric_Pump_LuV,
+						'B', ItemList.Hull_LuV,
+						'C', OrePrefixes.circuit.get(Materials.Ultimate),
+						'G', AdvancedGTMaterials.LuV.getGlass()});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FermenterZPM.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"WPW", "GBG", "WCW",
+						'W', OrePrefixes.cableGt01.get(Materials.Naquadah),
+						'P', ItemList.Electric_Pump_ZPM,
+						'B', ItemList.Hull_ZPM,
+						'C', OrePrefixes.circuit.get(Materials.Superconductor),
+						'G', AdvancedGTMaterials.ZPM.getGlass()});
+
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FermenterUV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"WPW", "GBG", "WCW",
+						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
+						'P', ItemList.Electric_Pump_UV,
+						'B', ItemList.Hull_UV,
+						'C', OrePrefixes.circuit.get(Materials.Infinite),
+						'G', AdvancedGTMaterials.UV.getGlass()});
+
+
+
 		// ===================================================================================================
 		// Fluid Canner
 		// ===================================================================================================
@@ -2555,6 +2653,36 @@ public class GT_Loader_Machines
 				"Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes,
 				1, 1, 192000, 0, 1, "FluidCanner.png", "",
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
+
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerLuV.get(1L),
+		GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"GCG", "PBP", "WCW",
+						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
+						'P', ItemList.Electric_Pump_LuV,
+						'B', ItemList.Hull_LuV,
+						'C', OrePrefixes.circuit.get(Materials.Ultimate),
+						'G', AdvancedGTMaterials.LuV.getGlass()});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerZPM.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"GCG", "PBP", "WCW",
+						'W', OrePrefixes.cableGt01.get(Materials.Naquadah),
+						'P', ItemList.Electric_Pump_ZPM,
+						'B', ItemList.Hull_ZPM,
+						'C', OrePrefixes.circuit.get(Materials.Superconductor),
+						'G', AdvancedGTMaterials.ZPM.getGlass()});
+
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerUV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"GCG", "PBP", "WCW",
+						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
+						'P', ItemList.Electric_Pump_UV,
+						'B', ItemList.Hull_UV,
+						'C', OrePrefixes.circuit.get(Materials.Infinite),
+						'G', AdvancedGTMaterials.UV.getGlass()});
+
 
 
 		// ===================================================================================================
@@ -2676,6 +2804,38 @@ public class GT_Loader_Machines
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
 				1, 0, 8000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
+
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidHeaterLuV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"WGW", "PMP", "RCR",
+						'M', ItemList.Hull_LuV,
+						'P', ItemList.Electric_Pump_LuV,
+						'C', OrePrefixes.circuit.get(Materials.Ultimate),
+						'W', OrePrefixes.wireGt04.get(Materials.NiobiumTitanium),
+						'R', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
+						'G', new ItemStack(Blocks.glass, 1, 32767)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidHeaterZPM.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"WGW", "PMP", "WCW",
+						'M', ItemList.Hull_ZPM,
+						'P', ItemList.Electric_Pump_ZPM,
+						'C', OrePrefixes.circuit.get(Materials.Superconductor),
+						'W', OrePrefixes.wireGt04.get(Materials.Naquadah),
+						'R', OrePrefixes.cableGt01.get(Materials.Naquadah),
+						'G', new ItemStack(Blocks.glass, 1, 32767)});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidHeaterUV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"WGW", "PMP", "WCW",
+						'M', ItemList.Hull_UV,
+						'P', ItemList.Electric_Pump_UV,
+						'C', OrePrefixes.circuit.get(Materials.Infinite),
+						'W', OrePrefixes.wireGt04.get(Materials.NaquadahAlloy),
+						'R', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
+						'G', new ItemStack(Blocks.glass, 1, 32767)});
+
 
 		// ===================================================================================================
 		// Mixer

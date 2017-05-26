@@ -24,7 +24,7 @@ public class GT_CustomLoader
     {
         LuV(OrePrefixes.circuit.get(Materials.Ultimate),
         		OrePrefixes.wireGt02.get(Materials.YttriumBariumCuprate),
-        		Materials.Naquadah,
+        		Materials.VanadiumGallium,
         		OrePrefixes.wireGt02.get(Materials.HSSG),
         		OrePrefixes.gemExquisite.get(Materials.Diamond),
         		gregtech.api.enums.ItemList.Gravistar,
@@ -33,7 +33,7 @@ public class GT_CustomLoader
         
         ZPM(OrePrefixes.circuit.get(Materials.Superconductor),
         		OrePrefixes.wireGt04.get(Materials.YttriumBariumCuprate),
-        		Materials.NaquadahAlloy,
+        		Materials.Naquadah,
         		OrePrefixes.wireGt02.get(Materials.Naquadah),
         		OrePrefixes.gemExquisite.get(Materials.GarnetYellow),
         		ItemList.MysteriousCrystal.getIS(),
