@@ -18,6 +18,7 @@ import gregtech.common.tileentities.machines.basic.*;
 import gregtech.loaders.preload.GT_Loader_MetaTileEntities;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 public class GT_Loader_Machines
@@ -2160,7 +2161,7 @@ public class GT_Loader_Machines
 						'B', ItemList.Hull_LuV,
 						'C', OrePrefixes.circuit.get(Materials.Ultimate),
 						'G', new ItemStack(Blocks.glass, 1, 32767),
-						'Z', new ItemStack(Blocks.brewing_stand, 1, 32767)});
+						'Z', new ItemStack(Items.brewing_stand, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.BreweryZPM.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -2170,7 +2171,7 @@ public class GT_Loader_Machines
 						'B', ItemList.Hull_ZPM,
 						'C', OrePrefixes.circuit.get(Materials.Superconductor),
 						'G', new ItemStack(Blocks.glass, 1, 32767),
-						'Z', new ItemStack(Blocks.brewing_stand, 1, 32767)});
+						'Z', new ItemStack(Items.brewing_stand, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.BreweryUV.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
@@ -2180,8 +2181,9 @@ public class GT_Loader_Machines
 						'B', ItemList.Hull_UV,
 						'C', OrePrefixes.circuit.get(Materials.Infinite),
 						'G', new ItemStack(Blocks.glass, 1, 32767),
-						'Z', new ItemStack(Blocks.brewing_stand, 1, 32767)});
-		//TODO:Recipes
+						'Z', new ItemStack(Items.brewing_stand, 1, 32767)});
+
+						//TODO:Recipes
 
 		// ===================================================================================================
 		// Canning Machine
@@ -2387,7 +2389,7 @@ public class GT_Loader_Machines
 				new Object[]{"PRP", "WMW", "CHC",
 						'H', ItemList.Hull_LuV,
 						'R', OrePrefixes.rotor.get(Materials.Chrome),
-						'P', OrePrefixes.pipe.get(Materials.PolyvinylChloride),
+						'P', OrePrefixes.pipeMedium.get(Materials.PolyvinylChloride),
 						'M', ItemList.Electric_Motor_LuV,
 						'C', OrePrefixes.circuit.get(Materials.Ultimate),
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium)});
