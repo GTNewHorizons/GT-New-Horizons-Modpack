@@ -415,7 +415,7 @@ recipes.addShapeless(<enhancedlootbags:lootbag:35>, [<dreamcraft:item.CoinFarmer
 // --- Cooked Vension
 furnace.addRecipe(<harvestcraft:venisoncookedItem>, <harvestcraft:venisonrawItem>);
 
-// --- Cooked Turky
+// --- Cooked Turkey
 furnace.addRecipe(<harvestcraft:turkeycookedItem>, <harvestcraft:turkeyrawItem>);
 
 // --- Boiled Egg
