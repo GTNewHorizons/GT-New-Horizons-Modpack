@@ -4593,7 +4593,7 @@
     {
       "questID": 52,
       "name": "A clear view",
-      "description": "Still living in your dirt/cobblestone bunker? What about some windows? Put some sand in your smeltery, and pour it into a casting basin to make clear glass. In order to use it for recipes, you have to macerate it and then smelt it in any furnace.",
+      "description": "Still living in your dirt/cobblestone bunker? What about some windows? macerating some sand and flint dust and craft some glass dust. Put some  in your smeltery, and pour it into a casting basin to make clear glass. In order to use it for recipes, you have to chisel it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4617,6 +4617,57 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SandDust",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 802
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 2890
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:GlassBlock",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
