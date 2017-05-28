@@ -298,45 +298,6 @@ recipes.remove(ConcreteSlab);
 // --- Steel Anvil ---
 recipes.remove(SteelAnvil);
 
-// --- Blast Furnace ---
-recipes.remove(<Railcraft:machine.alpha:12>);
-
-// --- Steam Oven ---
-recipes.remove(<Railcraft:machine.alpha:3>);
-
-// --- Water Tank ---
-recipes.remove(<Railcraft:machine.alpha:14>);
-
-// --- Rolling Machine ---
-recipes.remove(<Railcraft:machine.alpha:8>);
-
-// --- Rock Crusher ---
-recipes.remove(<Railcraft:machine.alpha:15>);
-
-// --- Trade Station ---
-recipes.remove(<Railcraft:machine.alpha:6>);
-
-// --- Anchor ---
-recipes.remove(<Railcraft:machine.alpha>);
-
-// --- Personal Anchor ---
-recipes.remove(<Railcraft:machine.alpha:2>);
-
-// --- Passive Anchor ---
-recipes.remove(<Railcraft:machine.alpha:13>);
-
-// --- Steam Turbin Housing ---
-recipes.remove(<Railcraft:machine.alpha:1>);
-
-// --- Smoker ---
-recipes.remove(<Railcraft:machine.alpha:5>);
-
-// --- Manuel Steam Trap ---
-recipes.remove(<Railcraft:machine.alpha:9>);
-
-// --- Automated Steam Trap ---
-recipes.remove(<Railcraft:machine.alpha:10>);
-
 // --- Remove all Tracks Recipes ---
 recipes.remove(<Railcraft:track:*>);
 
@@ -499,27 +460,6 @@ recipes.remove(<Railcraft:post:6>);
 // --- Signal Lamp
 recipes.remove(SignalLamp);
 
-// --- Turbine Blade ---
-recipes.remove(<Railcraft:part.turbine.blade>);
-
-// --- Tunnel Bore ---
-recipes.remove(<Railcraft:cart.bore>);
-
-// --- Steam Locomotive ---
-recipes.remove(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:default"}));
-
-// --- Electric Locomotive ---
-recipes.remove(<Railcraft:cart.loco.electric>.withTag({model: "railcraft:default"}));
-
-// --- Iron Borehead ---
-recipes.remove(<Railcraft:borehead.iron>);
-
-// --- Steel Borehead ---
-recipes.remove(<Railcraft:borehead.steel>);
-
-// --- Diamond Borehead ---
-recipes.remove(<Railcraft:borehead.diamond>);
-
 // --- Strengthened Glass ---
 recipes.remove(<Railcraft:glass>);
 
@@ -534,12 +474,6 @@ recipes.remove(<Railcraft:part.gear:2>);
 
 // --- Tin Gear Brushing ---
 recipes.remove(<Railcraft:part.gear:3>);
-
-// --- RC Crowbar ---
-recipes.remove(<Railcraft:tool.crowbar>);
-
-// --- Reinforced Crowbar ---
-recipes.remove(<Railcraft:tool.crowbar.reinforced>);
 
 // --- Batbox Cart ---
 recipes.removeShaped(<Railcraft:cart.energy.batbox>);
@@ -687,87 +621,6 @@ recipes.addShaped(<Railcraft:frame>, [
 // --- Concrete Slab ---
 recipes.addShaped(ConcreteSlab * 2, [
 [Saw,ConcreteBlock]]);
-
-// --- Steam Oven ---
-recipes.addShaped(<Railcraft:machine.alpha:3> * 4, [
-[HPBoilerTank, <gregtech:gt.blockcasings3:14>, HPBoilerTank],
-[<gregtech:gt.blockcasings3:14>, <gregtech:gt.blockmachines:104>, <gregtech:gt.blockcasings3:14>],
-[HPBoilerTank, <gregtech:gt.blockcasings3:14>, HPBoilerTank]]);
-
-// --- Water Tank ---
-recipes.addShaped(<Railcraft:machine.alpha:14>, [
-[Plank, Plank, Plank],
-[IronRod, Screwdriver, IronRod],
-[Plank, <IC2:itemHarz>, Plank]]);
-//-
-recipes.addShaped(<Railcraft:machine.alpha:14> * 2, [
-[Plank, Plank, Plank],
-[SteelRod, Screwdriver, SteelRod],
-[Plank, <TConstruct:slime.gel>, Plank]]);
-//-
-recipes.addShaped(<Railcraft:machine.alpha:14> * 2, [
-[Plank, Plank, Plank],
-[SteelRod, Screwdriver, SteelRod],
-[Plank, <TConstruct:slime.gel:1>, Plank]]);
-//-
-recipes.addShaped(<Railcraft:machine.alpha:14> * 4, [
-[Plank, Plank, Plank],
-[StainlessSteelRod, Screwdriver, StainlessSteelRod],
-[Plank, <TConstruct:slime.gel:2>, Plank]]);
-
-//Rolling Machine
-recipes.addShaped(<Railcraft:machine.alpha:8>, [
-[<gregtech:gt.metaitem.02:31032>, <minecraft:piston>, <gregtech:gt.metaitem.02:31032>],
-[<minecraft:piston>, <Forestry:sturdyMachine>, <minecraft:piston>],
-[<gregtech:gt.metatool.01:12>, <Forestry:factory2:2>, <gregtech:gt.metatool.01:18>]]);
-
-// --- Trade Station --- 
-recipes.addShaped(<Railcraft:machine.alpha:6>, [
-[SteelPlate, GlassPane, SteelPlate],
-[EmeraldPlate, Dispenser, EmeraldPlate],
-[SteelPlate, GlassPane, SteelPlate]]);
-
-// --- Personal Anchor ---
-recipes.addShaped(<Railcraft:machine.alpha:2>, [
-[EmeraldPlate, DenseOPlate, EmeraldPlate],
-[<ore:plateDoubleGold>, <ore:gemEnderEye>, <ore:plateDoubleGold>],
-[EmeraldPlate, DenseOPlate, EmeraldPlate]]);
-
-// --- World Anchor ---
-recipes.addShaped(<Railcraft:machine.alpha>, [
-[DiamondPlate, DenseOPlate, DiamondPlate],
-[<ore:plateDoubleGold>, <ore:gemEnderEye>, <ore:plateDoubleGold>],
-[DiamondPlate, DenseOPlate, DiamondPlate]]);
-
-// --- Passive Anchor ---
-recipes.addShaped(<Railcraft:machine.alpha:13>, [
-[DiamondPlate, DenseOPlate, DiamondPlate],
-[<ore:plateDoubleSteel>, <ore:gemEnderEye>, <ore:plateDoubleSteel>],
-[DiamondPlate, DenseOPlate, DiamondPlate]]);
-
-// --- Steam Turbine Housing ---
-recipes.addShaped(<Railcraft:machine.alpha:1> * 2, [
-[SteelMCasing, HPBoilerTank, SteelMCasing],
-[HPBoilerTank, Wrench, HPBoilerTank],
-[SteelMCasing, HPBoilerTank, SteelMCasing]]);
-
-// --- Smoker ---
-recipes.addShaped(<Railcraft:machine.alpha:5>, [
-[SteelPlate, IronBars, SteelPlate],
-[SteelPlate, Wrench, SteelPlate],
-[<ore:bucketLava>, HPBoilerTank, <ore:bucketWater>]]);
-
-// --- Manuel Steam Trap ---
-recipes.addShaped(<Railcraft:machine.alpha:9>, [
-[SteelPlate, IronBars, SteelPlate],
-[SteelPlate, <minecraft:dispenser>, SteelPlate],
-[SteelPlate, SteelPlate, SteelPlate]]);
-
-// --- Automated Steam Trap ---
-recipes.addShaped(<Railcraft:machine.alpha:10>, [
-[null, null, null],
-[RedAlloyRod, <Railcraft:machine.alpha:9>, RedAlloyRod],
-[SteelPlate, Detector, SteelPlate]]);
 
 // --- Controll Track ---
 recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.control"}), [
@@ -1208,54 +1061,6 @@ recipes.addShaped(<Railcraft:machine.epsilon:3>, [
 [IridiumPlate, DiamondLens, IridiumPlate],
 [DiamondLens, <ore:batteryUltimate>, DiamondLens],
 [IridiumPlate, DiamondLens, IridiumPlate]]);
-
-// --- Tunnel Bore ---
-recipes.addShaped(<Railcraft:cart.bore>, [
-[<gregtech:gt.blockmachines:3>, Minecart, <gregtech:gt.blockmachines:3>],
-[HPBoiler, Minecart, HPBoiler],
-[null, <minecraft:chest_minecart>, null]]);
-
-// --- Steam Locomotive ---
-recipes.addShaped(<Railcraft:cart.loco.steam.solid>, [
-[HPBoilerTank, HPBoilerTank, null],
-[HPBoilerTank, HPBoilerTank, HPBoiler],
-[IronBars, <minecraft:chest_minecart>, Minecart]]);
-
-// --- Electric Locomotive ---
-recipes.addShaped(<Railcraft:cart.loco.electric>, [
-[<computronics:computronics.colorfulLamp>, <Railcraft:machine.epsilon>, SteelMCasing],
-[<gregtech:gt.metaitem.01:32601>, <IC2:itemRecipePart>, <gregtech:gt.metaitem.01:32601>],
-[<gregtech:gt.metaitem.01:32101>, Minecart, <gregtech:gt.metaitem.01:32101>]]);
-
-// --- Iron Borehead ---
-recipes.addShaped(<Railcraft:borehead.iron>, [
-[SteelPlate, IronGear, SteelPlate],
-[IronGear, <ore:blockIron>, IronGear],
-[SteelPlate, IronGear, SteelPlate]]);
-
-// --- Steel Borehead ---
-recipes.addShaped(<Railcraft:borehead.steel>, [
-[SteelPlate, <ore:gearSteel>, SteelPlate],
-[<ore:gearSteel>, <ore:blockIron>, <ore:gearSteel>],
-[SteelPlate, <ore:gearSteel>, SteelPlate]]);
-
-// --- Diamond Borehead ---
-recipes.addShapeless(<Railcraft:borehead.diamond>, [<gregtech:gt.metaitem.01:32722>, <gregtech:gt.metaitem.01:32722>]);
-
-// --- Diamond Borehead ---
-recipes.addShapeless(<gregtech:gt.metaitem.01:32722> * 2, [<Railcraft:borehead.diamond>]);
-
-// --- RC Crowbar ---
-recipes.addShaped(<Railcraft:tool.crowbar>, [
-[HHammer, RedDye, IronRod],
-[RedDye, IronRod, RedDye],
-[IronRod, RedDye, <ore:craftingToolFile>]]);
-
-// --- Reinforced Crowbar ---
-recipes.addShaped(<Railcraft:tool.crowbar.reinforced>, [
-[HHammer, RedDye, <ore:stickSteel>],
-[RedDye, <ore:stickSteel>, RedDye],
-[<ore:stickSteel>, RedDye, <ore:craftingToolFile>]]);
 
 // --- Work Cart ---
 recipes.addShaped(<Railcraft:cart.work>, [
@@ -1810,9 +1615,6 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 
 // --- Copper Plates ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
-
-// --- Rebar ---
-mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar>);
 
 // ---Standart Rail ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail>);
