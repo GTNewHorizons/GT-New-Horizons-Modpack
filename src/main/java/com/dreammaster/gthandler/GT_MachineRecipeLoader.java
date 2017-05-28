@@ -646,6 +646,55 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
 
         GT_Values.RA.addFormingPressRecipe(CustomItemList.MicaBasedPulp.get(4L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Asbestos, 1L), CustomItemList.MicaBasedSheet.get(4L), 400, 28);
 
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Plate.get(0L),  ItemList.Shape_Mold_Plate.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Casing.get(0L),  ItemList.Shape_Mold_Casing.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Gear.get(0L),  ItemList.Shape_Mold_Gear.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Credit.get(0L),  ItemList.Shape_Mold_Credit.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Bottle.get(0L),  ItemList.Shape_Mold_Bottle.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Ingot.get(0L),  ItemList.Shape_Mold_Ingot.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Ball.get(0L),  ItemList.Shape_Mold_Ball.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Block.get(0L),  ItemList.Shape_Mold_Block.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Nugget.get(0L),  ItemList.Shape_Mold_Nugget.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Bun.get(0L),  ItemList.Shape_Mold_Bun.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Bread.get(0L),  ItemList.Shape_Mold_Bread.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Baguette.get(0L),  ItemList.Shape_Mold_Baguette.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Cylinder.get(0L),  ItemList.Shape_Mold_Cylinder.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Anvil.get(0L),  ItemList.Shape_Mold_Anvil.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Name.get(0L),  ItemList.Shape_Mold_Name.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Arrow.get(0L),  ItemList.Shape_Mold_Arrow.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Gear_Small.get(0L),  ItemList.Shape_Mold_Gear_Small.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Rod.get(0L),  ItemList.Shape_Mold_Rod.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Bolt.get(0L),  ItemList.Shape_Mold_Bolt.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Round.get(0L),  ItemList.Shape_Mold_Round.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Screw.get(0L),  ItemList.Shape_Mold_Screw.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Ring.get(0L),  ItemList.Shape_Mold_Ring.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Rod_Long.get(0L),  ItemList.Shape_Mold_Rod_Long.get(1L),  200, 256);
+
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Plate.get(0L),  ItemList.Shape_Extruder_Plate.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Rod.get(0L),  ItemList.Shape_Extruder_Rod.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Bolt.get(0L),  ItemList.Shape_Extruder_Bolt.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Ring.get(0L),  ItemList.Shape_Extruder_Ring.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Cell.get(0L),  ItemList.Shape_Extruder_Cell.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Ingot.get(0L),  ItemList.Shape_Extruder_Ingot.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Wire.get(0L),  ItemList.Shape_Extruder_Wire.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Casing.get(0L),  ItemList.Shape_Extruder_Casing.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Pipe_Tiny.get(0L),  ItemList.Shape_Extruder_Pipe_Tiny.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Pipe_Small.get(0L),  ItemList.Shape_Extruder_Pipe_Small.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Pipe_Medium.get(0L),  ItemList.Shape_Extruder_Pipe_Medium.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Pipe_Large.get(0L),  ItemList.Shape_Extruder_Pipe_Large.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Pipe_Huge.get(0L),  ItemList.Shape_Extruder_Pipe_Huge.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Block.get(0L),  ItemList.Shape_Extruder_Block.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Sword.get(0L),  ItemList.Shape_Extruder_Sword.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Pickaxe.get(0L),  ItemList.Shape_Extruder_Pickaxe.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Shovel.get(0L),  ItemList.Shape_Extruder_Shovel.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Axe.get(0L),  ItemList.Shape_Extruder_Axe.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Hoe.get(0L),  ItemList.Shape_Extruder_Hoe.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Hammer.get(0L),  ItemList.Shape_Extruder_Hammer.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_File.get(0L),  ItemList.Shape_Extruder_File.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Saw.get(0L),  ItemList.Shape_Extruder_Saw.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Gear.get(0L),  ItemList.Shape_Extruder_Gear.get(1L),  200, 256);
+        GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Bottle.get(0L),  ItemList.Shape_Extruder_Bottle.get(1L),  200, 256);
+
         GT_Values.RA.addImplosionRecipe(CustomItemList.NetherStarFragment.get(2L), 1, new ItemStack(Items.nether_star, 1, 0), null);
         GT_Values.RA.addImplosionRecipe(GT_OreDictUnificator.get(OrePrefixes.compressed, Materials.Aluminium, 2L), 1, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedDualAluminium", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 1L));
         GT_Values.RA.addImplosionRecipe(GT_OreDictUnificator.get(OrePrefixes.compressed, Materials.Bronze, 2L), 1, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedDualBronze", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 1L));
