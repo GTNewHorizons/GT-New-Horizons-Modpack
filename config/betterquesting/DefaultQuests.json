@@ -16725,7 +16725,7 @@
     {
       "questID": 190,
       "name": "Appropriate power",
-      "description": "Whether you used magic, steam, oil or biogas for power until now, you\u0027ll run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!",
+      "description": "Whether you used magic, steam, oil or biogas for power until now, you\u0027ll run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 10 in this pack that means your Nuclear reactor is 10 times more efficient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
