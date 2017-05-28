@@ -230,6 +230,9 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addAutoclaveRecipe(GT_ModHandler.getModItem("EnderZoo", "enderFragment", 2L, 0), Materials.Water.getFluid(100), new ItemStack(Items.ender_pearl, 1, 0), 9000, 1200, 30);
         GT_Values.RA.addAutoclaveRecipe(GT_ModHandler.getModItem("EnderZoo", "enderFragment", 2L, 0), GT_ModHandler.getDistilledWater(100L), new ItemStack(Items.ender_pearl, 1, 0), 10000, 900, 30);
 
+        GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EnderPearl, 1L), Materials.Water.getFluid(100), new ItemStack(Items.ender_pearl, 1, 0), 8000, 1500, 30);
+        GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EnderPearl, 1L), GT_ModHandler.getDistilledWater(100L), new ItemStack(Items.ender_pearl, 1, 0), 9000, 1200, 30);
+
         GT_Values.RA.addBlastRecipe(CustomItemList.UncookedSlush.get(1L), 								ItemList.Circuit_Integrated.getWithDamage(0L, 1L), GT_Values.NF, GT_Values.NF, CustomItemList.GlowingMarshmallow.get(1L), GT_Values.NI, 2400, 120, 3300);
 
         GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.RedstoneAlloy, 1L), 			ItemList.Circuit_Integrated.getWithDamage(0L,11L), Materials.Oxygen.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.RedstoneAlloy, 1L), GT_Values.NI, 800, 120, 1000);
@@ -645,6 +648,8 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
         GT_Values.RA.addForgeHammerRecipe(new ItemStack(Items.nether_star, 1, 0), CustomItemList.NetherStarFragment.get(2L), 16, 30);
 
         GT_Values.RA.addFormingPressRecipe(CustomItemList.MicaBasedPulp.get(4L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Asbestos, 1L), CustomItemList.MicaBasedSheet.get(4L), 400, 28);
+
+        GT_Values.RA.addBenderRecipe(GT_OreDictUnificator.get(OrePrefixes.plateQuadruple, Materials.Steel, 8L), ItemList.Shape_Empty.get(1L), 200, 120);
 
         GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Plate.get(0L),  ItemList.Shape_Mold_Plate.get(1L),  200, 256);
         GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Mold_Casing.get(0L),  ItemList.Shape_Mold_Casing.get(1L),  200, 256);
