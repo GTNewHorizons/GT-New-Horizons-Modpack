@@ -2299,7 +2299,7 @@ recipes.addShapeless(<minecraft:melon> * 6, [<ore:craftingToolKnife>, <minecraft
 recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>]);
 
 // --- remove Charcoal in Furnace
-furnace.remove(<minecraft:coal:1>);
+//furnace.remove(<minecraft:coal:1>);
 
 // --- remove Sand in Furnance
 furnace.remove(<minecraft:glass>);
