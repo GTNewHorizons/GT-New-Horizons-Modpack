@@ -107,9 +107,6 @@ recipes.remove(<gregtech:gt.metatool.01:6>);
 // --- GT Hoes
 recipes.remove(<gregtech:gt.metatool.01:8>);
 
-// --- Empty Shape
-recipes.remove(<gregtech:gt.metaitem.01:32300>);
-
 // --- Eridium Neutron Reflector
 recipes.remove(<gregtech:gt.neutronreflector>);
 
@@ -1126,9 +1123,6 @@ PlateBender.addRecipe(<gregtech:gt.metaitem.02:24874>, <gregtech:gt.metaitem.02:
 
 // --- Small Titanium Spring
 PlateBender.addRecipe(<gregtech:gt.metaitem.02:23028>, <gregtech:gt.metaitem.01:23028>, 200, 8);
-
-// --- Empty Shape Plate
-PlateBender.addRecipe(<gregtech:gt.metaitem.01:32300>, <gregtech:gt.metaitem.01:20305>, 200, 120);
 
 // --- Obsidian Plates
 PlateBender.addRecipe(<gregtech:gt.metaitem.01:17804>, <TConstruct:materials:18>, 400, 24);
