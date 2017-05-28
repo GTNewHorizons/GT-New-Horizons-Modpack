@@ -19604,6 +19604,12 @@
         {
           "rewards": [
             {
+              "id": "minecraft:spawn_egg",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 98
+            },
+            {
               "id": "Thaumcraft:ItemLootBag",
               "Count": 1,
               "OreDict": "",
@@ -20144,6 +20150,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 95
+            },
             {
               "id": "Thaumcraft:ItemLootBag",
               "Count": 1,
