@@ -199,6 +199,42 @@ recipes.addShaped(<dreamcraft:item.MoldFormSmallGear>, [
 [WireCutter, BlankCast, null],
 [null, null, null]]);
 
+// --- Rod Mold
+recipes.addShaped(<dreamcraft:item.MoldFormStick>, [
+[WireCutter, File, null],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Bolt Mold
+recipes.addShaped(<dreamcraft:item.MoldFormBolt>, [
+[null, WireCutter, File],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Round Mold
+recipes.addShaped(<dreamcraft:item.MoldFormRound>, [
+[null, null, WireCutter],
+[null, BlankCast, File],
+[null, null, null]]);
+
+// --- Screw Mold
+recipes.addShaped(<dreamcraft:item.MoldFormScrew>, [
+[null, null, null],
+[null, BlankCast, WireCutter],
+[null, null, File]]);
+
+// --- Ring Mold
+recipes.addShaped(<dreamcraft:item.MoldFormRing>, [
+[null, null, null],
+[null, BlankCast, null],
+[null, File, WireCutter]]);
+
+// --- Long Stickr Mold
+recipes.addShaped(<dreamcraft:item.MoldFormStickLong>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, WireCutter, null]]);
+
 // --- Extruder Shape Plate
 recipes.addShaped(<dreamcraft:item.ShapePlate>, [
 [WireCutter, File, null],
