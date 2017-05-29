@@ -442,6 +442,9 @@ recipes.remove(<Railcraft:machine.epsilon:4>);
 // --- Force Track Emitter ---
 recipes.remove(<Railcraft:machine.epsilon:3>);
 
+// --- Engraver ---
+recipes.remove(<Railcraft:machine.epsilon:5>);
+
 // --- Wood Post ---
 recipes.remove(<Railcraft:post>);
 
@@ -606,6 +609,7 @@ recipes.remove(<Railcraft:machine.gamma:10>);
 
 // --- Redstone Flux Unloader
 recipes.remove(<Railcraft:machine.gamma:11>);
+
 
 
 
@@ -1244,9 +1248,6 @@ recipes.addShaped(<Railcraft:part.signal.lamp>, [
 [GlassPane, <ProjRed|Illumination:projectred.illumination.lamp:20>, IronPlate],
 [GlassPane, <ProjRed|Illumination:projectred.illumination.lamp:30>, IronPlate]]);
 
-// --- Turbine Blade ---
-recipes.addShapeless(<Railcraft:part.turbine.blade>, [<IC2:itemRecipePart:12>]);
-
 // --- Steam Turbine Disk ---
 recipes.addShapeless(<Railcraft:part.turbine.disk>, [<IC2:itemSteamTurbineBlade>]);
 
@@ -1634,6 +1635,12 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rail:5> * 6);
 // --- Electric Shunting Wire ---
 mods.railcraft.Rolling.removeRecipe(<Railcraft:machine.delta> * 8);
 
+// --- Electric Shunting Wire ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar>);
+
+// --- Metal Post ---
+mods.railcraft.Rolling.removeRecipe(<Railcraft:post:2>);
+
 // --- Wood Post ---
 mods.railcraft.Rolling.addShaped(<Railcraft:post> * 4, [[<Railcraft:part.tie>, null, <Railcraft:part.tie>], [<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>], [<Railcraft:part.tie>, null, <Railcraft:part.tie>]]);
 mods.railcraft.Rolling.addShaped(<Railcraft:post> * 4, [[<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>], [null, <Railcraft:part.tie>, null], [<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>]]);
@@ -1650,6 +1657,19 @@ mods.railcraft.Rolling.addShaped(<Railcraft:post:5>, [[null, <Railcraft:slab:2>,
 
 // --- Metal Platform ---
 mods.railcraft.Rolling.addShaped(<Railcraft:post:6>, [[null, <Railcraft:slab:6>, null], [null, <Railcraft:post:2>, null]]);
+
+// --- Metal Post ---
+mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>], [null, <ore:stickAnyIron>, null], [<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>]]);
+// -
+mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<ore:stickAnyIron>,null, <ore:stickAnyIron>], [<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>], [<ore:stickAnyIron>, null, <ore:stickAnyIron>]]);
+// -
+mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 12, [[<ore:stickBronze>, <ore:stickBronze>, <ore:stickBronze>], [null, <ore:stickBronze>, null], [<ore:stickBronze>, <ore:stickBronze>, <ore:stickBronze>]]);
+// -
+mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 12, [[<ore:stickBronze>,null, <ore:stickBronze>], [<ore:stickBronze>, <ore:stickBronze>, <ore:stickBronze>], [<ore:stickBronze>, null, <ore:stickBronze>]]);
+// -
+mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 32, [[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>], [null, <ore:stickSteel>, null], [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
+// -
+mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 32, [[<ore:stickSteel>,null, <ore:stickSteel>], [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>], [<ore:stickSteel>, null, <ore:stickSteel>]]);
 
 // --- Lead Plates
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:4> * 4);
