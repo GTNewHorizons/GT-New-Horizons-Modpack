@@ -2411,43 +2411,43 @@ public class GT_Loader_Machines
 		CustomItemList.ChemicalReactorLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11150, "basicmachine.chemicalreactor.tier.06", "Elite Chemical Reactor", 6,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 1, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
+				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11151, "basicmachine.chemicalreactor.tier.07", "Elite Chemical Reactor II", 7,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 1, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
+				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11152, "basicmachine.chemicalreactor.tier.08", "Ultimate Chemical Perforer", 8,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 1, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
+				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11153, "basicmachine.chemicalreactor.tier.09", "Epic hemical Performer", 9,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 1, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
+				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11154, "basicmachine.chemicalreactor.tier.10", "Epic Chemical Performer II",10,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 1, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
+				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11155, "basicmachine.chemicalreactor.tier.11", "Epic Chemical Performer III",11,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 1, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
+				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11156, "basicmachine.chemicalreactor.tier.12", "Epic Chemical Performer IV",12,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 1, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
+				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(Integer.valueOf(200)),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 
