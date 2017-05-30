@@ -66340,10 +66340,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "StevesCarts:ModuleComponents",
+              "id": "minecraft:string",
               "Count": 64,
               "OreDict": "",
-              "Damage": 43
+              "Damage": 0
             },
             {
               "id": "minecraft:gunpowder",
@@ -66739,7 +66739,7 @@
               "Damage": 0
             },
             {
-              "id": "minecraft:gunpowder",
+              "id": "minecraft:paper",
               "Count": 16,
               "OreDict": "",
               "Damage": 0
@@ -66754,28 +66754,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "StevesCarts:ModuleComponents",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 43
-            },
-            {
-              "id": "minecraft:gunpowder",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "Count": 3,
               "OreDict": "",
-              "Damage": 2802
-            },
-            {
-              "id": "minecraft:sand",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 0
+              "Damage": 30714
             }
           ],
           "taskID": "bq_standard:retrieval"
