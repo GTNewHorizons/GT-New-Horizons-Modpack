@@ -298,6 +298,62 @@ mods.thaumcraft.Aspects.set(<IC2:itemRecipePart:1>, "sensus 1, fabrico 2");
 // --- Dense Obsidian Plate
 mods.thaumcraft.Aspects.set(<IC2:itemRecipePart:1>, "fabrico 2, metallum 1, sano 1, tenebrae 1");
 
+// --- Enriched Nuclear Fuel
+mods.thaumcraft.Aspects.set(<IC2:itemUran>, "vitreus 14, gelum 6, radio 3, permutatio 6");
+
+// --- Mox Fuel
+mods.thaumcraft.Aspects.set(<IC2:itemMOX>, "radio 3, metallum 3, permutatio 6, vitreus 10");
+
+// --- Plutonium
+mods.thaumcraft.Aspects.set(<IC2:itemPlutonium>,"radio 3, metallum 3");
+
+// --- Tiny Pile of Plutonium
+mods.thaumcraft.Aspects.set(<IC2:itemPlutoniumSmall>, "metallum 1");
+
+// --- Energium Dust
+mods.thaumcraft.Aspects.set(<IC2:itemDust2:2>, "lucrum 4, potentia 3, machina 2, vitreus 3");
+
+// --- Uran235
+mods.thaumcraft.Aspects.set(<IC2:itemUran235>, "metallum 3, radio 3");
+
+// --- Containtment Box
+mods.thaumcraft.Aspects.set(<IC2:itemContainmentbox>, "fabrico 3, instrumentum 3, ordo 3, metallum 3");
+
+// --- Pellets of RTG Fuel
+mods.thaumcraft.Aspects.set(<IC2:itemRTGPellet>, "metallum 15, fabrico 6, radio 15");
+
+// --- Fuel Rod
+mods.thaumcraft.Aspects.set(<IC2:itemFuelRod>, "metallum 4, fabrico 4, instrumentum 2, ordo 2");
+
+// --- Raw Carbon Fiber
+mods.thaumcraft.Aspects.set(<IC2:itemPartCarbonFibre>, "metallum 3, ignis 3, vitreus 3");
+
+// --- Raw Carbon Mesh
+mods.thaumcraft.Aspects.set(<IC2:itemPartCarbonMesh>, "metallum 2, ignis 2, vitreus 2");
+
+// --- Tool Box
+mods.thaumcraft.Aspects.set(<IC2:itemToolbox>, "fabrico 3, metallum 3, instrumentum 2, ordo 2");
+
+// --- Iridium Shard
+mods.thaumcraft.Aspects.set(<IC2:itemShardIridium>, "metallum 1");
+
+// --- Iridium Reinforced Plate
+mods.thaumcraft.Aspects.set(<IC2:itemPartIridium>, "metallum 8, fabrico 4, machina 4, vitreus 4");
+
+// --- EU Reader
+mods.thaumcraft.Aspects.set(<IC2:itemToolMEter>, "fabrico 15, instrumentum 6, cognitio 2, lux 2");
+
+// --- OD Scanner
+mods.thaumcraft.Aspects.set(<IC2:itemScanner:26>, "fabrico 18, instrumentum 8, cognitio 4, lux 4");
+
+// --- OV Scanner
+mods.thaumcraft.Aspects.set(<IC2:itemScannerAdv:26>, "fabrico 10, instrumentum 10, cognitio 6, lux 6");
+
+// --- Obscurator
+mods.thaumcraft.Aspects.set(<IC2:obscurator:26>, "instrumentum 6, lux 4, machina 4, tenebrae 2");
+
+// --- Frequenz Transmitter
+mods.thaumcraft.Aspects.set(<IC2:itemFreq>, "metallum 6, instrumentum 4, sensus 4, electrum 2");
 
 
 
