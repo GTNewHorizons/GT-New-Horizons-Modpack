@@ -409,6 +409,64 @@ mods.thaumcraft.Aspects.set(<IC2:itemScrap>, "strontio 2");
 // --- Scrap Box
 mods.thaumcraft.Aspects.set(<IC2:itemScrapbox>, "strontio 4");
 
+// --- Paint rolls
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterBlack>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterCloud>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterMagenta>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterOrange>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterWhite>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterRed>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterGreen>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterBrown>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterBlue>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterLime>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterYellow>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterPink>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterDarkGrey>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterLightGrey>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterCyan>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterPurple>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+
+// --- Heat Vent
+mods.thaumcraft.Aspects.set(<IC2:reactorVent:1>, "metallum 12, fabrico 4, volatus 4, gelum 2");
+
+// --- Reactor Heat Vent
+mods.thaumcraft.Aspects.set(<IC2:reactorVentCore:1>, "metallum 20, fabrico 8, lucrum 4, gelum 4");
+
+// --- Overclocked Heat Vent
+mods.thaumcraft.Aspects.set(<IC2:reactorVentGold:1>, "metallum 24, fabrico 12, lucrum 9, gelum 6");
+
+// --- Advanced Heat Vent
+mods.thaumcraft.Aspects.set(<IC2:reactorVentDiamond:1>, "metallum 26, fabrico 14, lucrum 10, gelum 7");
+
+// --- Heat Exchanger
+mods.thaumcraft.Aspects.set(<IC2:reactorHeatSwitch:1>, "metallum 12, fabrico 4, permutatio 4, gelum 2");
+
+// --- Reactor Heat Exchanger
+mods.thaumcraft.Aspects.set(<IC2:reactorHeatSwitchCore:1>, "metallum 20, fabrico 8, permutatio 4, gelum 4");
+
+// --- Overclocked Heat Exchanger
+mods.thaumcraft.Aspects.set(<IC2:reactorHeatSwitchSpread:1>, "metallum 24, fabrico 12, permutatio 9, gelum 6");
+
+// --- Advanced Heat Exchanger
+mods.thaumcraft.Aspects.set(<IC2:reactorHeatSwitchDiamond:1>, "metallum 26, fabrico 14, permutatio 10, gelum 7");
+
+
 
 
 
