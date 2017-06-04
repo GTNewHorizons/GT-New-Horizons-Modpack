@@ -3943,8 +3943,8 @@
     {
       "questID": 45,
       "name": "Multiblock Tanks... Railcraft Tanks",
-      "description": "576 buckets of fluid, enough to store all the creosote you made before. If this isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: You don\u0027t need a pump and the fluid  will auto-output if you place a pipe on the button side of the tank.",
-      "isMain": false,
+      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If this isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
+	  "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -4593,8 +4593,8 @@
     {
       "questID": 52,
       "name": "A clear view",
-      "description": "Still living in your dirt/cobblestone bunker? What about some windows? macerating some sand and flint dust and craft some glass dust. Put some  in your smeltery, and pour it into a casting basin to make clear glass. In order to use it for recipes, you have to chisel it.",
-      "isMain": true,
+      "description": "Are you still living in your dirt/cobblestone bunker? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.\n\nHint: In order to use it for recipes, you have to chisel it.",
+	  "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -8043,8 +8043,8 @@
     {
       "questID": 87,
       "name": "Steel Multiblock Tanks",
-      "description": "Want to double the amount of liquid a tank can hold? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks.\n\nHint: You don\u0027t need a pump and the fluid  will auto-output if you place a pipe on the button side of the tank.\",",
-      "isMain": false,
+      "description": "Do you want to have tanks that can hold double that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
+	  "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -16725,8 +16725,8 @@
     {
       "questID": 190,
       "name": "Appropriate power",
-      "description": "Whether you used magic, steam, oil or biogas for power until now, you\u0027ll run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 10 in this pack that means your Nuclear reactor is 10 times more efficient.",
-      "isMain": false,
+      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 10 in this pack that means your Nuclear reactor is 10 times more efficient.",
+	  "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -19100,8 +19100,8 @@
     {
       "questID": 225,
       "name": "Searching for answers",
-      "description": "Last night, you had a dream. A dimension, so weird and different, exactly like the sapling you found. You decided to go there and look for answers.\n\nFirst you need a portal crystal to open it up and no a diamons is not ennought.",
-      "isMain": true,
+      "description": "Last night you had a dream. A dimension, so strange and different, exactly like the sapling you found. You decided to go there and look for answers.\n\nFirst you need a portal crystal to open it up. And no, a diamond is not enough.",
+	  "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -30770,8 +30770,8 @@
     {
       "questID": 389,
       "name": "Draconic Evolution",
-      "description": "After a long and tedious path, you finally managed to create a device that is able to activate draconium dust, trap it in spacetime, and make use of the vast energies it emits while activated. The result is a perfectly stabilized core, that is completely harmless by itself, but is also able to provide incredible amounts of power on demand.",
-      "isMain": false,
+      "description": "Don\u0027t you hate it to manually compress all those tiny piles? Let\u0027s automate this process! A Combination of a Typefilter, a Chest Buffer (Super Buffer in HV) and a packager frees you from that annoying task. The chestbuffer can hold up to 9 tiny piles and the super buffer can hold all your tiny dusts and you can set its mode with a screwdriver on the output side. Set it to 9 and let the packager handle the rest.",
+	  "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -43639,8 +43639,8 @@
     {
       "questID": 541,
       "name": "A new Alloy",
-      "description": "If you want to cut diamond blocks into plates it\u0027s time to get a new alloy \u0027Cobalt Brass\u0027.\nFirst you need to make brass out of zinc (found only in small ores or as centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminum and cobalt dust (can be centrifuged from various materials) to get your new alloy.\n\nNow that you have come so far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
-      "isMain": true,
+      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027Cobalt Brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come so far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
+	  "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -61496,8 +61496,8 @@
     {
       "questID": 717,
       "name": "Good Circuits.",
-      "description": "Good circuits are better than basic ones. They are a component of all medium voltage GregTech machines. Be sure you build the EBF first to processing some Aluminium Dust.",
-      "isMain": false,
+      "description": "Good circuits are an improvement on basic circuits. They are a component of all MV GregTech machines. Be sure you build the EBF first, so you can process some Aluminium Dust into ingots.",
+	  "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -64652,7 +64652,7 @@
     {
       "questID": 745,
       "name": "Glue",
-      "description": "If you centrifuge some sticky resin you get some glue out, very usefull for the Good Circuit Boards.",
+      "description": "If you centrifuge sticky resin, you get some glue. Glue is very useful in the creation of Good Circuit Boards.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64861,8 +64861,8 @@
     {
       "questID": 747,
       "name": "Empty Circuit Board",
-      "description": "Good circuit need diodes. There are two ways to craft it. Using a Silicon Wafer togeter with some fine Tin wire or GalliumArsenide. Molten Glass is also needed,",
-      "isMain": false,
+      "description": "Good circuit need Diodes. There are two ways to craft it. Using a Silicon Wafer togeter with some fine Tin wire or Gallium Arsenide. Molten Glass is also needed.",
+	  "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -65484,7 +65484,7 @@
     {
       "questID": 752,
       "name": "Silicon Plate",
-      "description": "Advanced Circuits need Transistors which are made out of silicon plates, fine tin wire and molten polyethylen.",
+      "description": "Advanced Circuits require Transistors, which are made out of Silicon Plates, fine tin wire and molten polyethylene.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -68491,7 +68491,7 @@
     {
       "questID": 782,
       "name": "Monocrystaline Silicon",
-      "description": "To make Wafers you need to make Monocrystaline Silicon first. The Process takes 450 sec need Silicon and Gallium Arsenide in the EBF and you can make 16 Wafers out of them.",
+      "description": "To make Wafers, you need to make Monocrystaline Silicon first. The Process takes 450 seconds and requires Silicon and Gallium Arsenide in the EBF. You can make 16 Wafers out of every boule.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -68896,7 +68896,7 @@
     {
       "questID": 785,
       "name": "Transistor",
-      "description": "For the next Tier we need Advanced Circuits. To making some Advanced Circuit Board you need some high voltage etched wires. Craft some Mv Precision Laser first.",
+      "description": "For the next Tier we need Advanced Circuits. To create some Advanced Circuit Boards, you need some High Voltage Etched Wires.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69546,7 +69546,7 @@
     {
       "questID": 791,
       "name": "Mv Precision Laser",
-      "description": "Advanced Circuits need a MV Precission Lase. Lets craft some.",
+      "description": "Advanced Circuits need an MV Precission Laser. Lets craft one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69635,7 +69635,7 @@
     {
       "questID": 792,
       "name": "Silicon Wafer",
-      "description": "Put Monocrystaline Silicon in a Cutting Saw make some Wafers. Better crafting some Mv version first because you will need it later for Ram, ICs and other Chips.",
+      "description": "To create some Silicon Wafers, put the Monocrystaline Silicon Boule in a Cutting Saw. It would be better to immediately make the MV version because you will need it later for RAM, ICs and other Chips.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69733,7 +69733,7 @@
     {
       "questID": 793,
       "name": "Good Integrated Circuits",
-      "description": "Good Circuits have three variants of Circuits. For the Advanced Circuits you need the Good Integrated Circuits.",
+      "description": "Good Circuits have three variants. For the Advanced Circuits you need the Good Integrated Circuits.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69867,7 +69867,7 @@
     {
       "questID": 794,
       "name": "Integrated Circuit",
-      "description": "There are two variants of Basic Circuits. The BAsic Circuit from Ic2 or the Integrated Circuit which need a Circuit Assembler. The Good Integrated Circuit need two Integrated Circuits to craft.",
+      "description": "There are two variants of Basic Circuits. The Basic Circuit from IC2 or the Integrated Circuit which needs a Circuit Assembler to be made. The Good Integrated Circuit needs two Integrated Circuits to be crafted.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70001,7 +70001,7 @@
     {
       "questID": 795,
       "name": "Basic Circuit Assembler",
-      "description": "Advanced Circuits need a MV Assembling Machine. Lets craft some.",
+      "description": "Advanced Circuits need an MV Assembling Machine. Lets create one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -70325,7 +70325,7 @@
     {
       "questID": 798,
       "name": "Iron cpped Greatwood Wand",
-      "description": "Making a gold capped greatwood wand need 35 vis but your old wand have only 25. So making a iron capped greatwood wand first and after this you are able to make a gold caped greatwood wand.",
+      "description": "Making a gold capped greatwood wand requires 35 vis, but your old wands limit is 25. So create an iron capped greatwood wand first and then create a gold caped greatwood wand.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -74618,7 +74618,7 @@
     {
       "questID": 833,
       "name": "Purge your warp",
-      "description": "Over time collected warp becomes very annoying. Making Bath Salt and clean your Warp is only a short time solution. To purge your warp completely you need a Pure Tear. If you collect a few things for me I will give you one. Thinking wise to use it because it will be a long Journey to unlock this research.",
+      "description": "The warp you have accumulated over time is starting to become a problem. Making Bath Salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it's a very long journey to unlock it through research.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74708,7 +74708,7 @@
     {
       "questID": 834,
       "name": "Circuit Boards",
-      "description": "For every Circuit you need a Basic Circuit Board. Craft some Boards and using fine Copper Wire to finalize it.",
+      "description": "For every Circuit you need a Basic Circuit Board. Craft some Boards and use fine Copper Wire to finish them.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -74849,7 +74849,7 @@
     {
       "questID": 835,
       "name": "Resistor",
-      "description": "Every Basic Circuit need two resitors to work.",
+      "description": "Every Basic Circuit needs two Resistors to work",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -74951,8 +74951,8 @@
     {
       "questID": 836,
       "name": "Gallium Arsenide",
-      "description": "The Diode need Gallium Arsenide and you maybe wondering how to get Gallium or Arsenic so early game.\nGallium you get out of samll Zinc Ore (crushed variant)  with the Thermal Centrifuge.  You found the Ore in the Overworld or the Nether at Y Level 80 - 210. To get crushed Ores you need a Tinkers Tool with Fortune on it.\nArsenic you can get from Relegar small Ore in The Nether Y 5-85. Centrifuge the Dust in a lv Centrifuge.\nMix those two dusts in a lv Mixer to get Gallium Arsenic Dust.",
-      "isMain": false,
+      "description": "The Diode requires Gallium Arsenide and you may be wondering how to get Gallium or Arsenic this early in the game.\nYou get Gallium out of crushed zinc ore with the Thermal Centrifuge. You can find the small ore in the Overworld or the full ore in the Nether at Y Level 80 - 210. To get Crushed Ore, you need a Tinkers Tool with Fortune on it.\nYou can get Arsenic from Realgar small Ore in The Nether at Y level 5 - 85. Centrifuge the Dust in a Centrifuge.\nMix those two dusts in a Mixer to get Gallium Arsenic Dust.",
+	  "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -75061,7 +75061,7 @@
     {
       "questID": 837,
       "name": "ILC and RAM",
-      "description": "Advanced Circuits need Integrated Logic Circuits and Random Access Memory chips.\nYou need to cutt the ILC and RAM Wafers.",
+      "description": "Advanced Circuits need Integrated Logic Circuits and Random Access Memory chips.\nYou need to cut the ILC and RAM Wafers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -75171,7 +75171,7 @@
     {
       "questID": 838,
       "name": "Advanced Circuits",
-      "description": "For the next Tier we need Advanced Circuits. To making some Advanced Circuit you need good Integrated Circuits, Ram, ILC and Transistors.",
+      "description": "For the next Tier we need Advanced Circuits. To make an Advanced Circuit, you need good Integrated Circuits, RAM, an ILC and Transistors.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
