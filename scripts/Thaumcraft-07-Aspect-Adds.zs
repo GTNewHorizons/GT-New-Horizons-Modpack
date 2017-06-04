@@ -355,6 +355,225 @@ mods.thaumcraft.Aspects.set(<IC2:obscurator:26>, "instrumentum 6, lux 4, machina
 // --- Frequenz Transmitter
 mods.thaumcraft.Aspects.set(<IC2:itemFreq>, "metallum 6, instrumentum 4, sensus 4, electrum 2");
 
+// --- RE Battery
+mods.thaumcraft.Aspects.set(<IC2:itemBatREDischarged>, "metallum 1, electrum 1, vacuos 1");
+
+// --- Energy Crystal
+mods.thaumcraft.Aspects.set(<IC2:itemBatCrystal:26>, "lucrum 6, potentia 5, vitreus 4, potentia 4");
+
+// --- Lapatron Crystal
+mods.thaumcraft.Aspects.set(<IC2:itemBatLamaCrystal:26>, "lucrum 8, potentia 6, sensus 5, potentia 5");
+
+// --- Advanced RE Battery
+mods.thaumcraft.Aspects.set(<IC2:itemAdvBat:26>, "electrum 2, metallum 2, vacuos 2, potentia 1");
+
+// --- Charging RE Battery
+mods.thaumcraft.Aspects.set(<IC2:itemBatChargeRE:26>, "metallum 2, electrum 2, vacuos 2");
+
+// --- Charging Advanced RE Battery
+mods.thaumcraft.Aspects.set(<IC2:itemBatChargeAdv:26>, "electrum 3, metallum 3, vacuos 3, potentia 2");
+
+// --- Charging Energy Crytal
+mods.thaumcraft.Aspects.set(<IC2:itemBatChargeCrystal:26>, "lucrum 10, potentia 8, sensus 6, potentia 6");
+
+// --- Charging Lapatron Crytal
+mods.thaumcraft.Aspects.set(<IC2:itemBatChargeLamaCrystal:26>, "lucrum 12, potentia 9, sensus 7, potentia 7");
+
+// --- Charging Lapatron Crytal
+mods.thaumcraft.Aspects.set(<IC2:itemGrinPowder>, "venenum 3, messis 2");
+
+// --- Plantballs
+mods.thaumcraft.Aspects.set(<IC2:itemFuelPlantBall>, "herba 4");
+
+// --- Biochaff
+mods.thaumcraft.Aspects.set(<IC2:itemBiochaff>, "herba 2");
+
+// --- Fertilizer
+mods.thaumcraft.Aspects.set(<IC2:itemFertilizer>, "ignis 2, sano 2, ignis 1, herba 1");
+
+// --- Weed
+mods.thaumcraft.Aspects.set(<IC2:itemWeed>, "herba 1");
+
+// --- Coal Ball
+mods.thaumcraft.Aspects.set(<IC2:itemPartCoalBall>, "potentia 2, ignis 2, terra 1, instrumentum 1");
+
+// --- Compressed Coal Ball
+mods.thaumcraft.Aspects.set(<IC2:itemPartCoalBlock>, "potentia 4, ignis 4, terra 2, instrumentum 2");
+
+// --- CF Powder
+mods.thaumcraft.Aspects.set(<IC2:itemPartCoalBlock>, "perditio 2, terra 2, tenebrae 1, lux 1");
+
+// --- Scrap
+mods.thaumcraft.Aspects.set(<IC2:itemScrap>, "strontio 2");
+
+// --- Scrap Box
+mods.thaumcraft.Aspects.set(<IC2:itemScrapbox>, "strontio 4");
+
+// --- Paint rolls
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterBlack>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterCloud>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterMagenta>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterOrange>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterWhite>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterRed>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterGreen>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterBrown>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterBlue>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterLime>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterYellow>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterPink>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterDarkGrey>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterLightGrey>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterCyan>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+// -
+mods.thaumcraft.Aspects.set(<IC2:itemToolPainterPurple>, "pannus 10, fabrico 4, ordo 4, instrumentum 2");
+
+// --- Heat Vent
+mods.thaumcraft.Aspects.set(<IC2:reactorVent:1>, "metallum 12, fabrico 4, volatus 4, gelum 2");
+
+// --- Reactor Heat Vent
+mods.thaumcraft.Aspects.set(<IC2:reactorVentCore:1>, "metallum 20, fabrico 8, lucrum 4, gelum 4");
+
+// --- Overclocked Heat Vent
+mods.thaumcraft.Aspects.set(<IC2:reactorVentGold:1>, "metallum 24, fabrico 12, lucrum 9, gelum 6");
+
+// --- Advanced Heat Vent
+mods.thaumcraft.Aspects.set(<IC2:reactorVentDiamond:1>, "metallum 26, fabrico 14, lucrum 10, gelum 7");
+
+// --- Heat Exchanger
+mods.thaumcraft.Aspects.set(<IC2:reactorHeatSwitch:1>, "metallum 12, fabrico 4, permutatio 4, gelum 2");
+
+// --- Reactor Heat Exchanger
+mods.thaumcraft.Aspects.set(<IC2:reactorHeatSwitchCore:1>, "metallum 20, fabrico 8, permutatio 4, gelum 4");
+
+// --- Overclocked Heat Exchanger
+mods.thaumcraft.Aspects.set(<IC2:reactorHeatSwitchSpread:1>, "metallum 24, fabrico 12, permutatio 9, gelum 6");
+
+// --- Advanced Heat Exchanger
+mods.thaumcraft.Aspects.set(<IC2:reactorHeatSwitchDiamond:1>, "metallum 26, fabrico 14, permutatio 10, gelum 7");
+
+// --- Kinetic Gear Box Rotor Wood
+mods.thaumcraft.Aspects.set(<IC2:itemwoodrotor:1>, "tempestas 2, arbor 4, metallum 2, permutatio 2");
+
+// --- Kinetic Gear Box Rotor Iron
+mods.thaumcraft.Aspects.set(<IC2:itemironrotor:1>, "tempestas 4, metallum 4, instrumentum 2, permutatio 4");
+
+// --- Kinetic Gear Box Rotor Steel
+mods.thaumcraft.Aspects.set(<IC2:itemsteelrotor:1>, "tempestas 6, metallum 6, instrumentum 4, permutatio 6");
+
+// --- Kinetic Gear Box Rotor Carbon
+mods.thaumcraft.Aspects.set(<IC2:itemwcarbonrotor:1>, "tempestas 8, metallum 8, instrumentum 6, permutatio 8");
+
+// --- Neutron Reflector
+mods.thaumcraft.Aspects.set(<IC2:reactorReflector:1>, "metallum 4, ignis 4, vitreus 2, fabrico 2");
+
+// --- Thick Neutron Reflector
+mods.thaumcraft.Aspects.set(<IC2:reactorReflectorThick:1>, "metallum 8, ignis 4, lucrum 4, fabrico 4");
+
+// --- RSH Condensator
+mods.thaumcraft.Aspects.set(<IC2:reactorCondensator:1>, "metallum 24, fabrico 16, permutatio 8, gelum 8");
+
+// --- LZH Condensator
+mods.thaumcraft.Aspects.set(<IC2:reactorCondensatorLap:1>, "metallum 24, fabrico 16, permutatio 16, gelum 16");
+
+// --- Overclocking Update
+mods.thaumcraft.Aspects.set(<IC2:upgradeModule>, "instrumentum 4, fabrico 4, metallum 4, motus 4");
+
+// --- Transformer Update
+mods.thaumcraft.Aspects.set(<IC2:upgradeModule:1>, "instrumentum 4, fabrico 4, metallum 4, electrum 4");
+
+// --- Energy Storage Update
+mods.thaumcraft.Aspects.set(<IC2:upgradeModule:2>, "instrumentum 4, fabrico 4, metallum 4, lucrum 4");
+
+// --- Ejector Update
+mods.thaumcraft.Aspects.set(<IC2:upgradeModule:3>, "instrumentum 4, fabrico 4, metallum 4, permutatio 4");
+
+// --- Fluid Ejector Update
+mods.thaumcraft.Aspects.set(<IC2:upgradeModule:4>, "instrumentum 4, fabrico 4, metallum 4, aqua 4");
+
+// --- Redstone Signal Inverter Update
+mods.thaumcraft.Aspects.set(<IC2:upgradeModule:5>, "instrumentum 4, fabrico 4, metallum 4, cognitio 4");
+
+// --- Pulling Update
+mods.thaumcraft.Aspects.set(<IC2:upgradeModule:6>, "instrumentum 4, fabrico 4, metallum 4, ignis 4");
+
+// --- Carbon Boat
+mods.thaumcraft.Aspects.set(<IC2:itemBoat>, "metallum 8, ignis 8, vitreus 8");
+
+// --- Damage Rubber Dinghy
+mods.thaumcraft.Aspects.set(<IC2:itemBoat:2>, "fabrico 1, limus 1, motus 1");
+
+// --- Coin
+mods.thaumcraft.Aspects.set(<IC2:itemCoin>, "metallum 1");
+
+// --- Crop Alyzer
+mods.thaumcraft.Aspects.set(<IC2:itemCropnalyzer:26>, "cognitio 8, lux 2, metallum 4, instrumentum 4");
+
+// --- Hops
+mods.thaumcraft.Aspects.set(<IC2:itemHops>, "herba 4");
+
+// --- Coffe Beans
+mods.thaumcraft.Aspects.set(<IC2:itemCofeeBeans>, "sensus 2");
+
+// --- Dynamite
+mods.thaumcraft.Aspects.set(<IC2:itemDynamite>, "perditio 8, strontio 4");
+
+// --- Sticky Dynamite
+mods.thaumcraft.Aspects.set(<IC2:itemDynamiteSticky>, "perditio 8, limus 2, strontio 4");
+
+// --- Dark Coffe
+mods.thaumcraft.Aspects.set(<IC2:itemMugCoffee:1>, "sensus 2, tenebrae 1");
+
+// --- Coffe
+mods.thaumcraft.Aspects.set(<IC2:itemMugCoffee:2>, "sensus 4");
+
+// --- Dynamite o mote
+mods.thaumcraft.Aspects.set(<IC2:itemRemote>, "metallum 6, instrumentum 4, sensus 4, perditio 2");
+
+// --- Weed Ex
+mods.thaumcraft.Aspects.set(<IC2:itemWeedEx>, "venenum 8, cognitio 2");
+
+// --- Terra Wart
+mods.thaumcraft.Aspects.set(<IC2:itemTerraWart>, "auram 8, praecantatio 4, victus 4");
+
+// --- Empty Cell
+mods.thaumcraft.Aspects.set(<IC2:itemCellEmpty>, "fabrico 2, metallum 2, vitreus 2");
+
+// --- Tin Can
+mods.thaumcraft.Aspects.set(<IC2:itemTinCan>, "fabrico 1, metallum 1, vitreus 1");
+
+// --- Filled Tin Can
+mods.thaumcraft.Aspects.set(<IC2:itemTinCanFilled>, "fabrico 2, metallum 2, vitreus 2, victus 4");
+
+// --- Hydration Cell
+mods.thaumcraft.Aspects.set(<IC2:itemCellHydrant:1>, "aqua 8, metallum 2");
+
+// ---  10k Coolant Cell
+mods.thaumcraft.Aspects.set(<IC2:reactorCoolantSimple:1>, "gelum 4, metallum 2, vitreus 2");
+
+// ---  30k Coolant Cell
+mods.thaumcraft.Aspects.set(<IC2:reactorCoolantTriple:1>, "gelum 8, metallum 4, vitreus 4");
+
+// ---  60k Coolant Cell
+mods.thaumcraft.Aspects.set(<IC2:reactorCoolantSix:1>, "gelum 16, metallum 8, vitreus 8");
+
+
+
+
 
 
 // --- Minecraft ---

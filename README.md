@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.4.1.0 is out 13.04.2014
+Version pre1.4.1.1 is out 16.04.2014
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -75,6 +75,7 @@ Forum Link: http://gtnewhorizons.com/<BR>
 Official EU Server Public Whitelisted<BR>
 http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
+epsilon.gtnewhorizons.com<BR>
 
  
 Dirt Huts EU Server Whitelisted<BR>
@@ -108,10 +109,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.4.1.0 --- 13.04.2017<BR>
+## Modlist - NewHorizons 1.4.1.1 --- 16.04.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta8<BR>
+* Adventure Backpack 0.9gbeta9<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4b<BR>
 * AFSU	1.2.3.a<BR>
@@ -177,14 +178,14 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.485<BR>
+* Galacticraft-Planets	3.0.12.486<BR>
 * GalacticraftCore	3.0.12.485<BR>
 * GalactiGreg	0.9.5<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
 * Gregtech	5.09.27.39<BR>
-* GT New Horizons Core Mod	1.3.39<BR>
+* GT New Horizons Core Mod	1.3.40<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -204,6 +205,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Jabba	1.2.5<BR>
 * JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
+* Lootgames 1.0.12<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
@@ -289,7 +291,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Warp Theory	1.0h dev<BR>
 * Wireless Redstone CBE	1.4.1.11<BR>
 * Witchery	0.24.1<BR>
-* YamCore	0.5.75<BR>
+* YamCore	0.5.76<BR>
 * Ztones	2.2.2custom<BR>
 
 
