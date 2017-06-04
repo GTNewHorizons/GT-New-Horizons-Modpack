@@ -6,14 +6,14 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.4.1.1 is out 16.04.2014
+Version pre1.5.0.0 is out xx.06.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
 ## Large Modpack with every recipe Gregified
 
 Hey guys, I'd like to open up my project and get more players.<BR>
-I've been working on it for 2 years and still got a lot more work to do.
+I've been working on it for 2,5 years and still got a lot more work to do.
 
 The pack has around 200+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
 An example of Tiering (work in progress) is here:
@@ -109,10 +109,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.4.1.1 --- 16.04.2017<BR>
+## Modlist - NewHorizons 1.5.0.0 --- xx.06.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta9<BR>
+* Adventure Backpack 0.9gbeta11<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4b<BR>
 * AFSU	1.2.3.a<BR>
@@ -133,27 +133,27 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Better Builders Wands 0.8.1r92<BR>
 * Better Questing 1.0.178<BR>
 * Better Questing Themed 1.0.0<BR>
-* Bibliocraft	1.11.5<BR>
+* Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
-* Binnie Patcher	1.8<BR>
-* Binnie Mods	2.0-pre14<BR>
+* Binnie Mods	2.0-15<BR>
 * Biomes o Plenty	2.1.0.2027<BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
 * BloodMagic	1.3.3.24<BR>
 * Bloody Quest 1.1.0<BR>
 * Brandon's Core	1.0.0.12<BR>
-* Buildcraft	7.1.20<BR>
+* Buildcraft	7.1.22<BR>
 * Buildcraft Compat	7.1.6<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks	3.3.8.1<BR>
 * Catwalk Mod 1.1.0<BR>
+* Chisel Tones 1.0-3<BR>
 * CodeChickenCore	1.07.47<BR>
 * CodeChickenLib	1.1.3.140<BR>
 * CofhCore	3.1.4.329<BR>
 * CofhLib	1.2.1.185<BR>
 * Compact Kinetic Generators 1.0<BR>
-* Computronics	1.6.2<BR>
+* Computronics	1.6.4<BR>
 * Craft Tweaker 3.0.12<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
@@ -169,7 +169,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Enhanced Portals 3	3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
 * Extra Cells	2.3.14b199<BR>
-* Extra Utilities	1.2.12<BR>
+* Extra Utilities	1.2.13<BR>
 * FastCraft	1.23<BR>
 * Flood Light	1.2.8.137<BR>
 * Forbidden Magic	0.575<BR>
@@ -178,14 +178,14 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.486<BR>
-* GalacticraftCore	3.0.12.485<BR>
-* GalactiGreg	0.9.5<BR>
+* Galacticraft-Planets	3.0.12.499<BR>
+* GalacticraftCore	3.0.12.499<BR>
+* GalactiGreg	0.9.6<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.27.39<BR>
-* GT New Horizons Core Mod	1.3.40<BR>
+* Gregtech	5.09.30.05<BR>
+* GT New Horizons Core Mod	1.4.08<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -210,7 +210,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.485<BR>
+* MicdoodleCore	3.0.12.499<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
@@ -230,7 +230,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Open Peripheral Core 1.4.280<BR>
 * Open Peripheral Integration 0.6.95<BR>
 * Open Printers	0.1.0.132<BR>
-* Open Security	1.0-99<BR>
+* Open Security	1.0-101<BR>
 * p455w0rdslib 1.0.4<BR>
 * Pam's Harvestcraft	1.7.10-m<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
@@ -266,15 +266,15 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
-* Thaumic Bases	1.4.1.1710.9<BR>
+* Thaumic Bases	1.4.14.0<BR>
 * Thaumic Energistics	1.0.0.5<BR>
-* Thaumic Exploration	1.1.60<BR>
+* Thaumic Exploration	1.1.67<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
-* Thaumic Tinkerer	2.5.542-GTNH<BR>
+* Thaumic Tinkerer	2.5.543-GTNH<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9.4-GTNH<BR>
-* Tinker's Gregworks	1.0.16<BR>
+* Tinker's Gregworks	1.0.17<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks	02.14.106<BR>
 * Too Much Loot 4.0.2.B1<BR>
@@ -292,6 +292,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Wireless Redstone CBE	1.4.1.11<BR>
 * Witchery	0.24.1<BR>
 * YamCore	0.5.76<BR>
+* Yuuto Lib 1.0.3<BR>
 * Ztones	2.2.2custom<BR>
 
 
