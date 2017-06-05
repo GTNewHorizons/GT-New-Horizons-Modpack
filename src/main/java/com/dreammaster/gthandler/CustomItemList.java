@@ -12,7 +12,7 @@ import static gregtech.api.enums.GT_Values.W;
 
 public enum CustomItemList implements IItemContainer
 {
-	Casing_Pyrolyze,
+	Casing_Pyrolyse,
 	Machine_Multi_AirFilter,Casing_AirFilter_Vent,Casing_AirFilter_Turbine,
 	Hatch_Dynamo_UEV, Hatch_Dynamo_UIV, Hatch_Dynamo_UMV, Hatch_Dynamo_UXV, Hatch_Dynamo_OPV,
 	Hatch_Energy_UEV, Hatch_Energy_UIV, Hatch_Energy_UMV,

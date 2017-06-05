@@ -33,7 +33,7 @@ public class GT_Block_CasingsNH
         }
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".0.name", "Air Filter Turbine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".1.name", "Air Filter Vent Casing");//adding
-        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".2.name", "Pyrolyze Oven Casing");//adding
+        GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".2.name", "Pyrolyse Oven Casing");//adding
 
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".10.name", "UEV Machine Casing");//adding
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".11.name", "UIV Machine Casing");//adding
@@ -44,7 +44,7 @@ public class GT_Block_CasingsNH
 
         CustomItemList.Casing_AirFilter_Turbine.set(new ItemStack(this, 1, 0));//adding
         CustomItemList.Casing_AirFilter_Vent.set(new ItemStack(this, 1, 1));//adding
-        CustomItemList.Casing_Pyrolyze.set(new ItemStack(this, 1, 2));//adding
+        CustomItemList.Casing_Pyrolyse.set(new ItemStack(this, 1, 2));//adding
 
         CustomItemList.Casing_UEV.set(new ItemStack(this,1,10));
         CustomItemList.Casing_UIV.set(new ItemStack(this,1,11));
