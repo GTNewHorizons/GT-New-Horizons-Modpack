@@ -1151,7 +1151,7 @@ null, null, null],
 
 
 // --- Potassium Hydroxide
-ChemicalReactor.addRecipe(<dreamcraft:item.PotassiumHydroxideDust> * 3, <liquid:hydrogen> * 1000, <gregtech:gt.metaitem.01:2025>, null, <liquid:water> * 3000, 1200, 30);
+ChemicalReactor.addRecipe(<dreamcraft:item.PotassiumHydroxideDust> * 3, <liquid:hydrogen> * 1000, <gregtech:gt.metaitem.01:2025>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 3000, 1200, 30);
 
 // --- Nitric Acid
 ChemicalReactor.addRecipe(<IC2:itemCellEmpty> * 7, <liquid:nitricacid> * 10000, <gregtech:gt.metaitem.01:30717> * 6, <gregtech:gt.metaitem.01:30013>, <liquid:water> * 3000, 200, 30);

@@ -2298,14 +2298,13 @@ recipes.addShapeless(<minecraft:melon> * 6, [<ore:craftingToolKnife>, <minecraft
 // --- Gunpowder
 recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>]);
 
-// --- remove Charcoal in Furnace
-//furnace.remove(<minecraft:coal:1>);
-
 // --- remove Sand in Furnance
 furnace.remove(<minecraft:glass>);
 
 // --- Dough and Clay water Bucket
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
+// --- Dough and fresh Water
+recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<harvestcraft:freshwaterItem>, <gregtech:gt.metaitem.01:2881>, <harvestcraft:freshwaterItem>]);
 
 // --- Minecart with Chest
 recipes.addShaped(<minecraft:chest_minecart>, [

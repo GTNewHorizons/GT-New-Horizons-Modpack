@@ -384,12 +384,14 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:1817>, [<harvestcraft:potItem>, <h
 // -
 recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:1817> * 2, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
 
 // --- Wet Tofu
 recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
 // -
 recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+// -
+recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <harvestcraft:freshwaterItem>, <harvestcraft:freshwaterItem>]);
 
 // --- Firm Tofu
 recipes.addShapeless(<harvestcraft:firmtofuItem>, [<ore:craftingToolSoftHammer>, <dreamcraft:item.WetTofu>]);
