@@ -528,6 +528,19 @@ CuttingSaw.addRecipe(<BloodArsenal:blood_infused_planks> * 6, null, <BloodArsena
 
 
 
+
+// --- Lathe Recipes
+
+
+
+// --- Blood Infused Sticks
+Lathe.addRecipe([<BloodArsenal:blood_infused_stick> * 2], <BloodArsenal:blood_infused_planks>, 20, 8);
+
+
+
+
+
+
 // --- Macerator Recipes ---
 
 
