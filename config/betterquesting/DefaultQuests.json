@@ -188,7 +188,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -263,7 +263,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -332,7 +332,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 1,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -496,13 +496,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -779,7 +779,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 4,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -969,7 +969,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -1040,13 +1040,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 1,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 1,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -1237,7 +1237,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -1639,7 +1639,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -1763,7 +1763,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 2,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -1940,7 +1940,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -2090,7 +2090,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 2,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -2160,7 +2160,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -2323,7 +2323,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 2,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -2502,7 +2502,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -2745,6 +2745,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -2826,7 +2837,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -2897,7 +2908,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -2981,7 +2992,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             },
@@ -3104,7 +3115,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             },
@@ -3340,13 +3351,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -3597,7 +3608,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -3703,7 +3714,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -3773,7 +3784,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -34604,7 +34615,7 @@
             },
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -34966,7 +34977,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 1,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -35257,13 +35268,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -36546,7 +36557,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -36737,13 +36748,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinCook",
-              "Count": 5,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 5,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -36847,13 +36858,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinCook",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -37180,13 +37191,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 8,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 8,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -38090,7 +38101,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -38306,7 +38317,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 50,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -38475,13 +38486,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -38834,7 +38845,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -39130,7 +39141,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -39223,6 +39234,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 5,
@@ -39426,13 +39443,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -40236,13 +40253,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -59257,13 +59274,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -62557,7 +62574,7 @@
     {
       "questID": 727,
       "name": "Better than barrels",
-      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system �9�1�2�1�4�5�9�f�k�f�e�d�o�r�o�m�l�k�f�e�d�8�7�5�1(Tec2k17)\"�0 later in the HV age with some help from ?cProjectRed Transportation.?6",
+      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system later in the HV age with some help from ProjectRed Transportation.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62779,7 +62796,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -73759,7 +73776,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -73866,7 +73883,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
