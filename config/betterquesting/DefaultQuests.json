@@ -5767,10 +5767,10 @@
               "Damage": 26308
             },
             {
-              "id": "gregtech:gt.metaitem.02",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 22305
+              "Damage": 23305
             },
             {
               "id": "gregtech:gt.metaitem.02",
@@ -45818,7 +45818,7 @@
     {
       "questID": 563,
       "name": "Bookshelves...? Ah Forestry... Multiblock Farms!",
-      "description": "The bookshelf can only be made with an Assembling Machine. Maybe someone thinks this is crazy...",
+      "description": "The bookshelf can only be made with an wooden plates in the compressor. Maybe someone thinks this is crazy...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -45865,7 +45865,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 2
             }
           ],
           "rewardID": "bq_standard:item"
@@ -45873,8 +45873,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -45883,7 +45883,7 @@
         }
       ],
       "preRequisites": [
-        97
+        54
       ]
     },
     {
@@ -65424,9 +65424,7 @@
         }
       ],
       "preRequisites": [
-        543,
-        641,
-        544
+        759
       ]
     },
     {
@@ -78764,7 +78762,7 @@
         },
         {
           "id": 51,
-          "x": 372,
+          "x": 420,
           "y": 108
         },
         {
@@ -78795,7 +78793,7 @@
         {
           "id": 57,
           "x": 420,
-          "y": 108
+          "y": 144
         },
         {
           "id": 58,
@@ -78909,7 +78907,7 @@
         },
         {
           "id": 495,
-          "x": 420,
+          "x": 468,
           "y": 36
         },
         {
@@ -79001,6 +78999,11 @@
           "id": 835,
           "x": 324,
           "y": 252
+        },
+        {
+          "id": 563,
+          "x": 372,
+          "y": 72
         }
       ]
     },
@@ -79304,11 +79307,6 @@
           "y": 540
         },
         {
-          "id": 563,
-          "x": 396,
-          "y": 180
-        },
-        {
           "id": 598,
           "x": 408,
           "y": 504
@@ -79492,11 +79490,6 @@
           "id": 744,
           "x": 0,
           "y": 0
-        },
-        {
-          "id": 750,
-          "x": 276,
-          "y": 324
         },
         {
           "id": 717,
@@ -79913,6 +79906,11 @@
           "id": 839,
           "x": 264,
           "y": 0
+        },
+        {
+          "id": 750,
+          "x": 0,
+          "y": 408
         }
       ]
     },
