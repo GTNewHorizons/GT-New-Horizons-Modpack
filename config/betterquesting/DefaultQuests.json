@@ -5906,7 +5906,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 18,
+              "Count": 24,
               "OreDict": "",
               "Damage": 1360
             }
@@ -5919,7 +5919,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.02",
-              "Count": 16,
+              "Count": 8,
               "OreDict": "",
               "Damage": 19035
             }
@@ -44763,7 +44763,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 66,
               "OreDict": "",
               "Damage": 30708
             }
@@ -45067,8 +45067,8 @@
     },
     {
       "questID": 557,
-      "name": "NITRO!",
-      "description": "720,000 EU per cell. Yes, yes, this is very good! Make some nitro-diesel and power your MV Diesel Engine with it. For LV Diesel Engines this fuel is too potent!",
+      "name": "NITRO! (Cetane Boosted Diesel)",
+      "description": "720,000 EU per cell. Yes, yes, this is very good! Make some cetane-boosted-fuel and power your MV Diesel Engine with it. For LV Diesel Engines this dieselis too potent!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45149,7 +45149,9 @@
       ],
       "preRequisites": [
         556,
-        549
+        549,
+        841,
+        735
       ]
     },
     {
@@ -53355,7 +53357,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 66,
               "OreDict": "",
               "Damage": 30742
             }
@@ -53400,7 +53402,7 @@
         }
       ],
       "preRequisites": [
-        643
+        840
       ]
     },
     {
@@ -53585,7 +53587,7 @@
     {
       "questID": 643,
       "name": "Refinery Gas",
-      "description": "Refine your gas in a Chemical Reactor to give it a better burn value of 160,000 EU, and maybe use it to make methane.",
+      "description": "Refine your gas in a Chemical Reactor with hydrogen gas to give it a better burn value of 160,000 EU, and maybe use it to make methane.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53668,13 +53670,14 @@
         }
       ],
       "preRequisites": [
-        642
+        642,
+        550
       ]
     },
     {
       "questID": 644,
       "name": "Methane",
-      "description": "First step is to distill your oil into light sulfuric fuel with a burn value of 40,000 EU.",
+      "description": "Distilling some \"refinery gases\" give you some methane gas. There are more ways to get methane.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53757,7 +53760,7 @@
         }
       ],
       "preRequisites": [
-        640
+        643
       ]
     },
     {
@@ -65120,10 +65123,10 @@
               "Damage": 32719
             },
             {
-              "id": "gregtech:gt.metaitem.02",
+              "id": "gregtech:gt.blockmachines",
               "Count": 32,
               "OreDict": "",
-              "Damage": 19086
+              "Damage": 1420
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -74856,10 +74859,10 @@
               "Damage": 32710
             },
             {
-              "id": "gregtech:gt.metaitem.02",
+              "id": "gregtech:gt.blockmachines",
               "Count": 8,
               "OreDict": "",
-              "Damage": 19035
+              "Damage": 1360
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -75503,6 +75506,203 @@
       "preRequisites": [
         838
       ]
+    },
+    {
+      "questID": 840,
+      "name": "Butane and Propane",
+      "description": "You can distilled a lot of different gases out of your \"refinery gases\".\nMethane, butane, propene, helium, ethane",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30644
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 30643
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 30644
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        643
+      ]
+    },
+    {
+      "questID": 841,
+      "name": "Tetranitromethane",
+      "description": "To boosted your Diesel you need Light Fuel, Bio Diesel or Diesel and Tetranitromethane. Ethenone and nitric acid is needed in the chemical reactor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30639
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30653
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 30641
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30639
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30629
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.integrated_circuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
     },
     {
       "questID": 900,
@@ -79063,8 +79263,8 @@
         },
         {
           "id": 100,
-          "x": 312,
-          "y": 288
+          "x": 276,
+          "y": 360
         },
         {
           "id": 101,
@@ -79239,7 +79439,7 @@
         {
           "id": 544,
           "x": 276,
-          "y": 288
+          "y": 300
         },
         {
           "id": 545,
@@ -79259,51 +79459,41 @@
         {
           "id": 548,
           "x": 108,
-          "y": 468
+          "y": 432
         },
         {
           "id": 549,
-          "x": 144,
-          "y": 468
+          "x": 108,
+          "y": 504
         },
         {
           "id": 550,
-          "x": 288,
-          "y": 468
+          "x": 192,
+          "y": 504
         },
         {
           "id": 551,
-          "x": 192,
+          "x": 144,
           "y": 396
         },
         {
           "id": 552,
-          "x": 240,
+          "x": 192,
           "y": 468
         },
         {
           "id": 553,
-          "x": 156,
+          "x": 144,
           "y": 432
         },
         {
           "id": 554,
-          "x": 192,
-          "y": 432
+          "x": 144,
+          "y": 468
         },
         {
           "id": 555,
-          "x": 240,
-          "y": 540
-        },
-        {
-          "id": 556,
-          "x": 192,
-          "y": 540
-        },
-        {
-          "id": 557,
-          "x": 144,
+          "x": 360,
           "y": 540
         },
         {
@@ -79399,37 +79589,37 @@
         {
           "id": 626,
           "x": 336,
-          "y": 540
-        },
-        {
-          "id": 639,
-          "x": 192,
-          "y": 324
-        },
-        {
-          "id": 640,
-          "x": 240,
           "y": 396
         },
         {
+          "id": 639,
+          "x": 156,
+          "y": 300
+        },
+        {
+          "id": 640,
+          "x": 192,
+          "y": 432
+        },
+        {
           "id": 641,
-          "x": 240,
-          "y": 324
+          "x": 156,
+          "y": 336
         },
         {
           "id": 642,
           "x": 192,
-          "y": 360
+          "y": 300
         },
         {
           "id": 643,
-          "x": 240,
+          "x": 192,
           "y": 360
         },
         {
           "id": 644,
-          "x": 240,
-          "y": 432
+          "x": 228,
+          "y": 396
         },
         {
           "id": 646,
@@ -79468,8 +79658,8 @@
         },
         {
           "id": 726,
-          "x": 288,
-          "y": 504
+          "x": 276,
+          "y": 468
         },
         {
           "id": 741,
@@ -79540,6 +79730,11 @@
           "id": 836,
           "x": 564,
           "y": 324
+        },
+        {
+          "id": 840,
+          "x": 192,
+          "y": 396
         }
       ]
     },
@@ -79911,6 +80106,21 @@
           "id": 750,
           "x": 0,
           "y": 408
+        },
+        {
+          "id": 557,
+          "x": 96,
+          "y": 444
+        },
+        {
+          "id": 841,
+          "x": 0,
+          "y": 444
+        },
+        {
+          "id": 556,
+          "x": 96,
+          "y": 492
         }
       ]
     },
