@@ -63009,7 +63009,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemFuelPlantBall",
-              "Count": 3072,
+              "Count": 3067,
               "OreDict": "",
               "Damage": 0
             }
@@ -63113,7 +63113,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.MaceratedPlantmass",
-              "Count": 1536,
+              "Count": 1534,
               "OreDict": "",
               "Damage": 0
             }
@@ -63217,7 +63217,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemBiochaff",
-              "Count": 1536,
+              "Count": 1534,
               "OreDict": "",
               "Damage": 0
             }
@@ -63321,7 +63321,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemCellEmpty",
-              "Count": 1152,
+              "Count": 1150,
               "OreDict": "",
               "Damage": 6
             }
@@ -63425,7 +63425,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemCellEmpty",
-              "Count": 1152,
+              "Count": 1150,
               "OreDict": "",
               "Damage": 6
             }
@@ -63529,7 +63529,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 786,
+              "Count": 920,
               "OreDict": "",
               "Damage": 30691
             }
@@ -66189,7 +66189,7 @@
     },
     {
       "questID": 759,
-      "name": "Ethylen",
+      "name": "Molten Polyethylen",
       "description": "Polyethylen is made out of Ethylen in the chemical reactor.",
       "isMain": false,
       "isSilent": false,
@@ -66207,10 +66207,16 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.metaitem.01",
+        "id": "IC2:itemFluidCell",
         "Count": 1,
         "OreDict": "",
-        "Damage": 30677
+        "Damage": 0,
+        "tag": {
+          "Fluid:10": {
+            "FluidName:8": "molten.plastic",
+            "Amount:4": 1000
+          }
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -66221,8 +66227,29 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30677
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 43,
+              "OreDict": "",
+              "Damage": 30013
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "IC2:itemFluidCell",
-              "Count": 10,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0,
               "tag": {
@@ -66240,22 +66267,22 @@
         {
           "choices": [
             {
-              "id": "IC2:itemBiochaff",
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30013
+            },
+            {
+              "id": "IC2:itemCellEmpty",
               "Count": 32,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "IC2:itemCellEmpty",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 2874
+              "Damage": 30677
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -75729,6 +75756,21 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 107,
+              "OreDict": "",
+              "Damage": 30691
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
               "Count": 64,
               "OreDict": "",
               "Damage": 30715
@@ -75919,7 +75961,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 36,
               "OreDict": "",
               "Damage": 30706
             }
@@ -76080,7 +76122,7 @@
     {
       "questID": 846,
       "name": "O like Oxygen",
-      "description": "Oxygen can made in different ways.",
+      "description": "Oxygen can made in different ways. Centrifuge some brown an yellow lemonite dust, or electrolyzing it out of water or air.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -76111,16 +76153,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
-              "Count": 10,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 91,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "molten.plastic",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30013
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -76130,22 +76166,22 @@
         {
           "choices": [
             {
-              "id": "IC2:itemBiochaff",
-              "Count": 32,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
               "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "IC2:itemCellEmpty",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 0
+              "Damage": 2930
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "Count": 16,
               "OreDict": "",
-              "Damage": 2874
+              "Damage": 2931
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -76174,12 +76210,14 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        550
+      ]
     },
     {
       "questID": 847,
-      "name": "Wood Gas",
-      "description": "You found out that making plastic out of biomass is easier than making it out of naptha.",
+      "name": "Ethylen",
+      "description": "You can make Ethylen out of Ethanol and Sulfuric Acid or Wood Gas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -76199,7 +76237,7 @@
         "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 30660
+        "Damage": 30677
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -76210,16 +76248,31 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
-              "Count": 10,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "molten.plastic",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30706
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30720
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30677
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -76273,7 +76326,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        844
+      ]
     },
     {
       "questID": 848,
@@ -81490,7 +81545,7 @@
         {
           "id": 759,
           "x": 336,
-          "y": 444
+          "y": 480
         },
         {
           "id": 760,
@@ -81499,8 +81554,8 @@
         },
         {
           "id": 773,
-          "x": 264,
-          "y": 444
+          "x": 336,
+          "y": 408
         },
         {
           "id": 774,
@@ -81579,22 +81634,22 @@
         },
         {
           "id": 750,
-          "x": 300,
+          "x": 336,
           "y": 444
         },
         {
           "id": 557,
           "x": 156,
-          "y": 600
+          "y": 552
         },
         {
           "id": 841,
-          "x": 216,
+          "x": 84,
           "y": 600
         },
         {
           "id": 842,
-          "x": 108,
+          "x": 84,
           "y": 444
         },
         {
@@ -81619,38 +81674,38 @@
         },
         {
           "id": 847,
-          "x": 336,
-          "y": 408
+          "x": 216,
+          "y": 480
         },
         {
           "id": 848,
-          "x": 108,
+          "x": 216,
           "y": 516
         },
         {
           "id": 849,
-          "x": 108,
-          "y": 600
+          "x": 216,
+          "y": 552
         },
         {
           "id": 850,
-          "x": 216,
+          "x": 84,
           "y": 516
         },
         {
           "id": 851,
-          "x": 336,
+          "x": 264,
           "y": 600
         },
         {
           "id": 852,
-          "x": 216,
+          "x": 84,
           "y": 480
         },
         {
           "id": 853,
           "x": 264,
-          "y": 564
+          "y": 516
         },
         {
           "id": 854,
@@ -81660,7 +81715,7 @@
         {
           "id": 855,
           "x": 264,
-          "y": 516
+          "y": 444
         }
       ]
     },
