@@ -13801,7 +13801,8 @@
         126,
         740,
         753,
-        750
+        750,
+        838
       ]
     },
     {
@@ -44969,7 +44970,7 @@
     {
       "questID": 556,
       "name": "Glyceryl Trini...... what?",
-      "description": "Kids, today we will make some glyceryl trinitrate with some nitrogen, carbon dust and water.\n    - Chemistry 101",
+      "description": "Kids, today we will make some glyceryl trinitrate with some glycerol.\n    - Chemistry 101",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45001,15 +45002,9 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 10,
+              "Count": 8,
               "OreDict": "",
-              "Damage": 30012
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 2010
+              "Damage": 30629
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -45022,7 +45017,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 40,
+              "Count": 8,
               "OreDict": "",
               "Damage": 30714
             }
@@ -45062,7 +45057,8 @@
       ],
       "preRequisites": [
         555,
-        543
+        543,
+        80
       ]
     },
     {
@@ -45103,7 +45099,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 200,
+              "Count": 288,
               "OreDict": "",
               "Damage": 30709
             }
@@ -45151,7 +45147,7 @@
         556,
         549,
         841,
-        735
+        845
       ]
     },
     {
@@ -47125,7 +47121,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 19
+              "Damage": 4
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -61683,7 +61679,6 @@
       ],
       "preRequisites": [
         748,
-        750,
         747
       ]
     },
@@ -62876,8 +62871,8 @@
     },
     {
       "questID": 730,
-      "name": "Biogas Source",
-      "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with biogas. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or IC2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biogas.",
+      "name": "Bio Fuels",
+      "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with biodiesel. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or IC2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biodiesel.\n\nUsing a submitstation because your inventory is to small for it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62909,7 +62904,7 @@
           "requiredItems": [
             {
               "id": "minecraft:wheat",
-              "Count": 512,
+              "Count": 15536,
               "OreDict": "",
               "Damage": 0
             }
@@ -62955,7 +62950,7 @@
     {
       "questID": 731,
       "name": "Plant balls",
-      "description": "The first step is to compress plantballs out of your wheat. Your LV Compressor is too slow for it. I suggest to craft 4 MV Compressors for the new biogas processing line.",
+      "description": "The first step is to compress plantballs out of your wheat. Your LV Compressor is too slow for it. I suggest to craft 4 MV Compressors for the new biodiesel processing line.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63002,7 +62997,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemFuelPlantBall",
-              "Count": 64,
+              "Count": 1942,
               "OreDict": "",
               "Damage": 0
             }
@@ -63106,7 +63101,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.MaceratedPlantmass",
-              "Count": 32,
+              "Count": 971,
               "OreDict": "",
               "Damage": 0
             }
@@ -63210,7 +63205,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemBiochaff",
-              "Count": 32,
+              "Count": 971,
               "OreDict": "",
               "Damage": 0
             }
@@ -63314,7 +63309,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemCellEmpty",
-              "Count": 32,
+              "Count": 728,
               "OreDict": "",
               "Damage": 6
             }
@@ -63418,7 +63413,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemCellEmpty",
-              "Count": 24,
+              "Count": 728,
               "OreDict": "",
               "Damage": 6
             }
@@ -63474,8 +63469,8 @@
     },
     {
       "questID": 736,
-      "name": "Biogas",
-      "description": "With the MV Distillery you can distill biogas out of the biomass. If you reach HV Tier there\u0027s a more efficient way to process it, the Distillation Tower multiblock.\nBiogas has a burn value of 40,000 EU per cell in the Gas Turbine.",
+      "name": "Fermented Biomass",
+      "description": "With the MV Fermenter you can produce fermented Biomass the main product for Methane, Ethanol and Methanol.\nIf you reach HV Tier there\u0027s a more efficient way to process it, the Distillation Tower multiblock.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63492,10 +63487,10 @@
       "logic": "OR",
       "taskLogic": "AND",
       "icon": {
-        "id": "IC2:fluidBiogas",
-        "Count": 1,
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 512,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 30691
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -63509,7 +63504,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 532
+              "Damage": 502
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -63521,10 +63516,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemCellEmpty",
-              "Count": 512,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 546,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 30691
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64845,7 +64840,7 @@
       "questID": 746,
       "name": "Silicon",
       "description": "Due to the chip production silicon becomes a more important material. You can centrifuge it out of fullers earth, asbestos or redstone dust. The EBF is needed to make ingots. One ingot requires a Temperature of 1687 K for 84 seconds at 120 EU/t.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -64937,7 +64932,7 @@
       ],
       "preRequisites": [
         77,
-        89
+        760
       ]
     },
     {
@@ -65056,7 +65051,7 @@
     {
       "questID": 748,
       "name": "Empty Circuit Board",
-      "description": "Good circuit boards require a wooden pulp and glue. Assemble those into angood circuit board.",
+      "description": "Good circuit boards require a wooden pulp and glue to make Phenolic Boards. With goldwire you can craft an good circuit board.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -65151,16 +65146,16 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 11874
+              "Damage": 1420
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 16,
               "OreDict": "",
-              "Damage": 11020
+              "Damage": 29086
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -65184,7 +65179,6 @@
         }
       ],
       "preRequisites": [
-        752,
         97,
         745
       ]
@@ -65565,7 +65559,7 @@
       "questID": 752,
       "name": "Silicon Plate",
       "description": "Advanced Circuits require Transistors, which are made out of Silicon Plates, fine tin wire and molten polyethylene.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -65655,7 +65649,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "OR",
+      "logic": "AND",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.metaitem.01",
@@ -65729,7 +65723,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "OR",
+      "logic": "AND",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.blockmachines",
@@ -66183,7 +66177,7 @@
     },
     {
       "questID": 759,
-      "name": "Plastic out of Bio Mass",
+      "name": "Ethylen",
       "description": "You found out that making plastic out of biomass is easier than making it out of naptha.",
       "isMain": false,
       "isSilent": false,
@@ -66204,7 +66198,7 @@
         "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 11471
+        "Damage": 30677
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -66279,14 +66273,15 @@
         }
       ],
       "preRequisites": [
-        735
+        846,
+        847
       ]
     },
     {
       "questID": 760,
       "name": "Clay Electrolyzing",
       "description": "You found out that clay is a very good source for electrolysing silicon out of it. There are plenty of stained clay blocks found in canyon biomes or on mountains.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66659,21 +66654,6 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 86,
-              "OreDict": "",
-              "Damage": 30744
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
               "Count": 26,
               "OreDict": "",
               "Damage": 30647
@@ -66703,16 +66683,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
-              "Count": 16,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "liquid_nitrationmixture",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 30628
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -66835,7 +66809,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 3,
+              "Count": 8,
               "OreDict": "",
               "Damage": 30714
             }
@@ -66895,7 +66869,7 @@
         }
       ],
       "preRequisites": [
-        80
+        556
       ]
     },
     {
@@ -67790,13 +67764,14 @@
         }
       ],
       "preRequisites": [
-        771
+        771,
+        750
       ]
     },
     {
       "questID": 774,
       "name": "Way two: Bio Organic Mesh",
-      "description": "If you like to save the ecosystem you can autoclave 16 plantballs to get raw bio fiber with the following liquids:\n\n-Biomass 33% chance\n-Biogas 50% chance\n-Fuel 90% chance\n-Nitro-diesel 100% chance\n\nHowever, making carbon plates this way will require an Electric Blast Furnace.",
+      "description": "If you like to save the ecosystem you can autoclave 16 plantballs to get raw bio fiber with the following liquids:\n\n-Biomass 33% chance\n-Methanol 50% chance\n-Fuel 90% chance\n-Nitro-diesel 100% chance\n\nHowever, making carbon plates this way will require an Electric Blast Furnace.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -68572,7 +68547,7 @@
       "questID": 782,
       "name": "Monocrystaline Silicon",
       "description": "To make Wafers, you need to make Monocrystaline Silicon first. The Process takes 450 seconds and requires Silicon and Gallium Arsenide in the EBF. You can make 16 Wafers out of every boule.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -68976,8 +68951,8 @@
     {
       "questID": 785,
       "name": "Transistor",
-      "description": "For the next Tier we need Advanced Circuits. To create some Advanced Circuit Boards, you need some High Voltage Etched Wires.",
-      "isMain": false,
+      "description": "For the next Tier we need Advanced Circuits. To create some Advanced Circuit, you need some transistors.",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -69627,7 +69602,7 @@
       "questID": 791,
       "name": "Mv Precision Laser",
       "description": "Advanced Circuits need an MV Precission Laser. Lets craft one.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -69716,7 +69691,7 @@
       "questID": 792,
       "name": "Silicon Wafer",
       "description": "To create some Silicon Wafers, put the Monocrystaline Silicon Boule in a Cutting Saw. It would be better to immediately make the MV version because you will need it later for RAM, ICs and other Chips.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -69814,7 +69789,7 @@
       "questID": 793,
       "name": "Good Integrated Circuits",
       "description": "Good Circuits have three variants. For the Advanced Circuits you need the Good Integrated Circuits.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -69948,7 +69923,7 @@
       "questID": 794,
       "name": "Integrated Circuit",
       "description": "There are two variants of Basic Circuits. The Basic Circuit from IC2 or the Integrated Circuit which needs a Circuit Assembler to be made. The Good Integrated Circuit needs two Integrated Circuits to be crafted.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -75142,7 +75117,7 @@
       "questID": 837,
       "name": "ILC and RAM",
       "description": "Advanced Circuits need Integrated Logic Circuits and Random Access Memory chips.\nYou need to cut the ILC and RAM Wafers.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -75252,7 +75227,7 @@
       "questID": 838,
       "name": "Advanced Circuits",
       "description": "For the next Tier we need Advanced Circuits. To make an Advanced Circuit, you need good Integrated Circuits, RAM, an ILC and Transistors.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -75631,13 +75606,13 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "Count": 24,
               "OreDict": "",
               "Damage": 30653
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 3,
               "OreDict": "",
               "Damage": 30641
             }
@@ -75652,7 +75627,1050 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 30639
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30629
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.integrated_circuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        850,
+        851
+      ]
+    },
+    {
+      "questID": 842,
+      "name": "Methane Gas",
+      "description": "Methane Gas with a burn value of 104,000 EU per cell in can be burned in the Gas Turbine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30715
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 30715
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30691
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
               "Count": 4,
+              "OreDict": "",
+              "Damage": 5132
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        736
+      ]
+    },
+    {
+      "questID": 843,
+      "name": "Methanol",
+      "description": "Methanol with a burn value of 84,000 eu per cell can be used to make biodiesel and other fluids.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30673
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 30673
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30691
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        736
+      ]
+    },
+    {
+      "questID": 844,
+      "name": "Ethanol",
+      "description": "Ethanol with a burnvalue of 192,000 eu per cell can be used to make biodiesel and other fluids.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30706
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 30706
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30691
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5132
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        736
+      ]
+    },
+    {
+      "questID": 845,
+      "name": "Bio Diesel",
+      "description": "With ethanol or methanol and seedoil or fish oil you can make biodiesel. Burnvalue is 192,000 EU per cell. Diesel and Bio Diesel is needed for Cetan Boosted Diesel.\n\nYou get some glycerole as byproduct. Save it to make glyceroletrinitat for you dynamit.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30627
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 384,
+              "OreDict": "",
+              "Damage": 30627
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30627
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 30691
+            },
+            {
+              "id": "irontank:diamondTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        843,
+        844,
+        849,
+        848
+      ]
+    },
+    {
+      "questID": 846,
+      "name": "O like Oxygen",
+      "description": "You found out that making plastic out of biomass is easier than making it out of naptha.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30013
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "molten.plastic",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemBiochaff",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2874
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 847,
+      "name": "Wood Gas",
+      "description": "You found out that making plastic out of biomass is easier than making it out of naptha.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30660
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "molten.plastic",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemBiochaff",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2874
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 848,
+      "name": "Seed Oil",
+      "description": "Make some Biodiesel you need Seed or fishoil to mix it with Ethanol or Methanol. Seeds gives Seedoil in the extractor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:fluid.seedoil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 272
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 384,
+              "OreDict": "",
+              "Damage": 30713
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30711
+            },
+            {
+              "id": "IC2:itemFuelPlantBall",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        717
+      ]
+    },
+    {
+      "questID": 849,
+      "name": "Sodium Hydroxide",
+      "description": "Make some Biodiesel Sodium Hydroxide. You can make it out of Sodium or in EV out of Saltwater.\n\nByproduct Hydrogen can be burned in the Gasturbine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2685
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2017
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2685
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2017
+            },
+            {
+              "id": "IC2:itemFuelPlantBall",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        543
+      ]
+    },
+    {
+      "questID": 850,
+      "name": "Ethenone",
+      "description": "Hopfully you saved some Sulfuric acid during your fuel production. Together with acetic acid you can make ethenone.\nCrafting some mv chemical reactor for more advanced recipes.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30641
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 422
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 30720
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 30670
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 30641
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30691
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.integrated_circuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        852
+      ]
+    },
+    {
+      "questID": 851,
+      "name": "Nitric Acid",
+      "description": "To boosted your Diesel you need Light Fuel, Bio Diesel or Diesel and Tetranitromethane. Ethenone and nitric acid is needed in the chemical reactor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30653
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 30653
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 30641
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
               "OreDict": "",
               "Damage": 30639
             }
@@ -75703,6 +76721,116 @@
         }
       ],
       "preRequisites": []
+    },
+    {
+      "questID": 852,
+      "name": "Acetic Acid",
+      "description": "Fermented Biomass can destilled to acetic acid too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30670
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 120,
+              "OreDict": "",
+              "Damage": 30691
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 30670
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "IC2:itemFuelPlantBall",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        736
+      ]
     },
     {
       "questID": 900,
@@ -79264,7 +80392,7 @@
         {
           "id": 100,
           "x": 276,
-          "y": 360
+          "y": 336
         },
         {
           "id": 101,
@@ -79439,7 +80567,7 @@
         {
           "id": 544,
           "x": 276,
-          "y": 300
+          "y": 288
         },
         {
           "id": 545,
@@ -79494,7 +80622,7 @@
         {
           "id": 555,
           "x": 360,
-          "y": 540
+          "y": 552
         },
         {
           "id": 598,
@@ -79503,13 +80631,13 @@
         },
         {
           "id": 599,
-          "x": 564,
+          "x": 576,
           "y": 144
         },
         {
           "id": 608,
           "x": 408,
-          "y": 540
+          "y": 552
         },
         {
           "id": 609,
@@ -79563,7 +80691,7 @@
         },
         {
           "id": 620,
-          "x": 408,
+          "x": 360,
           "y": 468
         },
         {
@@ -79589,7 +80717,7 @@
         {
           "id": 626,
           "x": 336,
-          "y": 396
+          "y": 432
         },
         {
           "id": 639,
@@ -79614,22 +80742,22 @@
         {
           "id": 643,
           "x": 192,
-          "y": 360
+          "y": 336
         },
         {
           "id": 644,
           "x": 228,
-          "y": 396
+          "y": 336
         },
         {
           "id": 646,
           "x": 492,
-          "y": 540
+          "y": 552
         },
         {
           "id": 661,
           "x": 444,
-          "y": 180
+          "y": 288
         },
         {
           "id": 662,
@@ -79684,12 +80812,12 @@
         {
           "id": 717,
           "x": 444,
-          "y": 324
+          "y": 336
         },
         {
           "id": 748,
-          "x": 396,
-          "y": 288
+          "x": 360,
+          "y": 336
         },
         {
           "id": 531,
@@ -79718,23 +80846,23 @@
         },
         {
           "id": 745,
-          "x": 396,
-          "y": 324
+          "x": 360,
+          "y": 396
         },
         {
           "id": 747,
           "x": 492,
-          "y": 324
+          "y": 336
         },
         {
           "id": 836,
-          "x": 564,
-          "y": 324
+          "x": 576,
+          "y": 336
         },
         {
           "id": 840,
-          "x": 192,
-          "y": 396
+          "x": 228,
+          "y": 432
         }
       ]
     },
@@ -79874,13 +81002,13 @@
         },
         {
           "id": 153,
-          "x": 204,
+          "x": 264,
           "y": 132
         },
         {
           "id": 154,
-          "x": 264,
-          "y": 132
+          "x": 336,
+          "y": 84
         },
         {
           "id": 155,
@@ -79909,7 +81037,7 @@
         },
         {
           "id": 126,
-          "x": 48,
+          "x": 96,
           "y": 132
         },
         {
@@ -80004,7 +81132,7 @@
         },
         {
           "id": 757,
-          "x": 0,
+          "x": 48,
           "y": 132
         },
         {
@@ -80014,18 +81142,18 @@
         },
         {
           "id": 759,
-          "x": 96,
-          "y": 408
+          "x": 336,
+          "y": 480
         },
         {
           "id": 760,
-          "x": 0,
+          "x": 156,
           "y": 168
         },
         {
           "id": 773,
           "x": 264,
-          "y": 372
+          "y": 444
         },
         {
           "id": 774,
@@ -80060,26 +81188,26 @@
         {
           "id": 746,
           "x": 156,
-          "y": 168
-        },
-        {
-          "id": 752,
-          "x": 96,
           "y": 132
         },
         {
-          "id": 782,
+          "id": 752,
           "x": 156,
+          "y": 84
+        },
+        {
+          "id": 782,
+          "x": 216,
           "y": 132
         },
         {
           "id": 791,
-          "x": 204,
-          "y": 84
+          "x": 216,
+          "y": 36
         },
         {
           "id": 792,
-          "x": 156,
+          "x": 216,
           "y": 84
         },
         {
@@ -80104,23 +81232,73 @@
         },
         {
           "id": 750,
-          "x": 0,
-          "y": 408
+          "x": 264,
+          "y": 480
         },
         {
           "id": 557,
-          "x": 96,
-          "y": 444
+          "x": 156,
+          "y": 564
         },
         {
           "id": 841,
-          "x": 0,
+          "x": 96,
+          "y": 564
+        },
+        {
+          "id": 842,
+          "x": 96,
           "y": 444
         },
         {
-          "id": 556,
+          "id": 843,
+          "x": 132,
+          "y": 480
+        },
+        {
+          "id": 844,
+          "x": 180,
+          "y": 480
+        },
+        {
+          "id": 845,
+          "x": 156,
+          "y": 516
+        },
+        {
+          "id": 846,
+          "x": 372,
+          "y": 480
+        },
+        {
+          "id": 847,
+          "x": 336,
+          "y": 516
+        },
+        {
+          "id": 848,
+          "x": 216,
+          "y": 516
+        },
+        {
+          "id": 849,
+          "x": 216,
+          "y": 564
+        },
+        {
+          "id": 850,
           "x": 96,
-          "y": 492
+          "y": 516
+        },
+        {
+          "id": 851,
+          "x": 48,
+          "y": 564
+        },
+        {
+          "id": 852,
+          "x": 96,
+          "y": 480
         }
       ]
     },
@@ -81389,7 +82567,7 @@
         {
           "id": 764,
           "x": 96,
-          "y": 144
+          "y": 180
         },
         {
           "id": 765,
@@ -81440,6 +82618,11 @@
           "id": 783,
           "x": 432,
           "y": 36
+        },
+        {
+          "id": 556,
+          "x": 96,
+          "y": 144
         }
       ]
     },
