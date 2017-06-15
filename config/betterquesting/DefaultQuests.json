@@ -62872,7 +62872,7 @@
     {
       "questID": 730,
       "name": "Bio Fuels",
-      "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with biodiesel. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or IC2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biodiesel.\n\nUsing a submitstation because your inventory is to small for it.",
+      "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with biodiesel. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or IC2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biodiesel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62903,8 +62903,20 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "minecraft:reeds",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:apple",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "minecraft:wheat",
-              "Count": 15536,
+              "Count": 64,
               "OreDict": "",
               "Damage": 0
             }
@@ -62997,7 +63009,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemFuelPlantBall",
-              "Count": 1942,
+              "Count": 3072,
               "OreDict": "",
               "Damage": 0
             }
@@ -63010,19 +63022,19 @@
           "choices": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 4,
+              "Count": 16,
               "OreDict": "",
               "Damage": 1366
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "",
               "Damage": 32702
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "Count": 32,
               "OreDict": "",
               "Damage": 17019
             },
@@ -63101,7 +63113,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.MaceratedPlantmass",
-              "Count": 971,
+              "Count": 1536,
               "OreDict": "",
               "Damage": 0
             }
@@ -63114,19 +63126,19 @@
           "choices": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 4,
+              "Count": 16,
               "OreDict": "",
               "Damage": 1366
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 32702
             },
             {
               "id": "IC2:itemPartIndustrialDiamond",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             },
@@ -63205,7 +63217,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemBiochaff",
-              "Count": 971,
+              "Count": 1536,
               "OreDict": "",
               "Damage": 0
             }
@@ -63218,19 +63230,19 @@
           "choices": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 4,
+              "Count": 16,
               "OreDict": "",
               "Damage": 1366
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 32702
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "Count": 32,
               "OreDict": "",
               "Damage": 23019
             },
@@ -63309,7 +63321,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemCellEmpty",
-              "Count": 728,
+              "Count": 1152,
               "OreDict": "",
               "Damage": 6
             }
@@ -63367,7 +63379,7 @@
       "questID": 735,
       "name": "Way Two: Brewery",
       "description": "If you are lucky and find some brewing stands or familiar enough with Thaumcraft to make one you can craft a Brewery. You get 750mb of biomass out of 750mb water and 1 bio chaff. In HV tier you can use the Pyrolyze Oven to do it in a more efficient way.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -63413,7 +63425,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemCellEmpty",
-              "Count": 728,
+              "Count": 1152,
               "OreDict": "",
               "Damage": 6
             }
@@ -63517,7 +63529,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 546,
+              "Count": 786,
               "OreDict": "",
               "Damage": 30691
             }
@@ -66178,7 +66190,7 @@
     {
       "questID": 759,
       "name": "Ethylen",
-      "description": "You found out that making plastic out of biomass is easier than making it out of naptha.",
+      "description": "Polyethylen is made out of Ethylen in the chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -76068,7 +76080,7 @@
     {
       "questID": 846,
       "name": "O like Oxygen",
-      "description": "You found out that making plastic out of biomass is easier than making it out of naptha.",
+      "description": "Oxygen can made in different ways.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -76617,7 +76629,7 @@
     {
       "questID": 851,
       "name": "Nitric Acid",
-      "description": "To boosted your Diesel you need Light Fuel, Bio Diesel or Diesel and Tetranitromethane. Ethenone and nitric acid is needed in the chemical reactor.",
+      "description": "Nitric Acid can be made out of water, oxygen and nitrogendioxide.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -76648,16 +76660,22 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 24,
+              "id": "IC2:itemCellEmpty",
+              "Count": 12,
               "OreDict": "",
-              "Damage": 30653
+              "Damage": 1
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 3,
+              "Count": 12,
               "OreDict": "",
-              "Damage": 30641
+              "Damage": 30013
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 30717
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -76670,9 +76688,9 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 6,
+              "Count": 24,
               "OreDict": "",
-              "Damage": 30639
+              "Damage": 30653
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -76682,10 +76700,10 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "IC2:itemCellEmpty",
               "Count": 8,
               "OreDict": "",
-              "Damage": 30629
+              "Damage": 1
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -76694,10 +76712,10 @@
               "Damage": 4
             },
             {
-              "id": "gregtech:gt.integrated_circuit",
-              "Count": 1,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 30013
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -76720,7 +76738,10 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        846,
+        853
+      ]
     },
     {
       "questID": 852,
@@ -76830,6 +76851,332 @@
       ],
       "preRequisites": [
         736
+      ]
+    },
+    {
+      "questID": 853,
+      "name": "Nitric Dioxid",
+      "description": "To make Nitric Dioxid you combining Oxygen and Nitric Oxide in the chemical reactor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30717
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30013
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30658
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30717
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30013
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30691
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        846,
+        855
+      ]
+    },
+    {
+      "questID": 854,
+      "name": "Ammonia",
+      "description": "Now you know one more output from Biomass.... Ammonia.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30659
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 240,
+              "OreDict": "",
+              "Damage": 30691
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30659
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30013
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        736
+      ]
+    },
+    {
+      "questID": 855,
+      "name": "Nitric Oxide",
+      "description": "To make Nitric Oxide you combining Oxygen and Ammoniain in the chemical reactor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30658
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30659
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 30013
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30658
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30013
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30691
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        846,
+        854
       ]
     },
     {
@@ -81143,7 +81490,7 @@
         {
           "id": 759,
           "x": 336,
-          "y": 480
+          "y": 444
         },
         {
           "id": 760,
@@ -81232,22 +81579,22 @@
         },
         {
           "id": 750,
-          "x": 264,
-          "y": 480
+          "x": 300,
+          "y": 444
         },
         {
           "id": 557,
           "x": 156,
-          "y": 564
+          "y": 600
         },
         {
           "id": 841,
-          "x": 96,
-          "y": 564
+          "x": 216,
+          "y": 600
         },
         {
           "id": 842,
-          "x": 96,
+          "x": 108,
           "y": 444
         },
         {
@@ -81267,38 +81614,53 @@
         },
         {
           "id": 846,
-          "x": 372,
-          "y": 480
-        },
-        {
-          "id": 847,
           "x": 336,
           "y": 516
         },
         {
+          "id": 847,
+          "x": 336,
+          "y": 408
+        },
+        {
           "id": 848,
-          "x": 216,
+          "x": 108,
           "y": 516
         },
         {
           "id": 849,
-          "x": 216,
-          "y": 564
+          "x": 108,
+          "y": 600
         },
         {
           "id": 850,
-          "x": 96,
+          "x": 216,
           "y": 516
         },
         {
           "id": 851,
-          "x": 48,
-          "y": 564
+          "x": 336,
+          "y": 600
         },
         {
           "id": 852,
-          "x": 96,
+          "x": 216,
           "y": 480
+        },
+        {
+          "id": 853,
+          "x": 264,
+          "y": 564
+        },
+        {
+          "id": 854,
+          "x": 216,
+          "y": 444
+        },
+        {
+          "id": 855,
+          "x": 264,
+          "y": 516
         }
       ]
     },
