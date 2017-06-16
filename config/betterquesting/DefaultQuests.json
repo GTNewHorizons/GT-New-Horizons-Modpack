@@ -9119,7 +9119,7 @@
     },
     {
       "questID": 101,
-      "name": "Mjolnir!!! (Electric Forge Hammer)",
+      "name": "Mjölnir!!! (Electric Forge Hammer)",
       "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
@@ -9191,7 +9191,7 @@
     {
       "questID": 102,
       "name": "Cutting things apart",
-      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and of that will be done with the highest possible efficiency. Totally worth it!",
+      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and of that will be done with the highest possible efficiency. Totally worth it! \n\n(Hint: Just add water.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9661,7 +9661,7 @@
     {
       "questID": 109,
       "name": "Cart modules: Farming",
-      "description": "Unfortunately, the basic farmer can\u0027t farm anything besides wheat. It\u0027s not expensive at all, and probably the cheapest solution to give your automated food production a boost.",
+      "description": "Unfortunately, the basic farmer can\u0027t farm anything besides wheat. It\u0027s not expensive at all, and probably the cheapest solution to give your automated food production a nice boost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9744,7 +9744,7 @@
     {
       "questID": 110,
       "name": "Cart modules: Storage",
-      "description": "A basic cart can\u0027t hold any items, so you need to attach chests to it.",
+      "description": "A basic cart can\u0027t hold any items, so you need to attach special chests to it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10182,7 +10182,7 @@
     {
       "questID": 116,
       "name": "Alloy Smelter",
-      "description": "Upgrade your Steam Alloy Smelter to LV one.",
+      "description": "Upgrade your Steam Alloy Smelter to a LV one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10254,7 +10254,7 @@
     {
       "questID": 117,
       "name": "Gotta catch \u0027em all",
-      "description": "Sure, you can use wheat/potatoes/carrots to make animals follow you back to your base, but that can be tedious. A golden lasso is a proper solution for that.",
+      "description": "Sure, you can use wheat/potatoes/carrots to make animals follow you back to your base, but that can be tedious. A golden lasso is a proper solution for animal transportation.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10331,7 +10331,7 @@
     {
       "questID": 118,
       "name": "Basic monster protection",
-      "description": "Spawning monsters in or near your base can be annoying. Especially if you happen to get infernal creepers. Luckily, there is a way to prevent them to spawn at all.",
+      "description": "Spawning monsters in or near your base can be annoying. Especially if you happen to get infernal creepers. Luckily, there is a good way to prevent them from spawning at all.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10562,7 +10562,7 @@
     {
       "questID": 121,
       "name": "Passive defence",
-      "description": "A more \"passive\" approach to base defence are walls and fences. But seriously, where is the fun?",
+      "description": "A more \"passive\" approach to base defence are walls and fences. But seriously, where is the fun in that?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10716,7 +10716,7 @@
     {
       "questID": 123,
       "name": "Who needs that dirt anyway",
-      "description": "You probably have a ton of items floating around in your base. So why not use it to kill enemies?",
+      "description": "You probably have a ton of items floating around in your base. So why not use them to kill your enemies?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10798,8 +10798,8 @@
     },
     {
       "questID": 124,
-      "name": "Don\u0027t play with food!",
-      "description": "Use it to kill zombies instead. Does only little damage, but hey, who cares?",
+      "name": "Don\u0027t play with your food!",
+      "description": "Use it to kill zombies instead. Does only a little damage, but hey, who cares?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11025,7 +11025,7 @@
     {
       "questID": 127,
       "name": "Project Red Begging",
-      "description": "First of all there are 3 types of pipes: Null Logic, Pressurized and Routed.\n-Null Logic are the most basic kind. They can\u0027t have any logical thinking. Item transport pipes are of this category and they are used to craft and connect the routed and pressurized pipes. It would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced. They can communicate with each other in order to create pipe networks, and can be used for very complex tasks.\n \n-Pressurized pipes are too complicated to use and explain. You won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever, in order to control the logic of the routed pipes you will need chips.",
+      "description": "First of all there are 3 types of pipes: Null Logic, Pressurized and Routed.\n-Null Logic are the most basic kind. They can\u0027t have any logical thinking. Item transport pipes are of this category and they are used to craft and connect the routed and pressurized pipes. It would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced. They can communicate with each other in order to create pipe networks, and can be used for very complex tasks.\n \n-Pressurized pipes are too complicated to use and explain. You won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever, in order to control the logic of the routed pipes you will need special circuit chips.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11485,7 +11485,7 @@
     {
       "questID": 132,
       "name": "Simple RF-Power: Liquids",
-      "description": "This generator requires both water as coolant, and a burnable liquid as fuel. The amount of power it produces depends on the liquid used.",
+      "description": "This generator requires both water as coolant, and a burnable liquid as fuel. The amount of power it produces depends on the type of liquid used.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11645,7 +11645,7 @@
     {
       "questID": 134,
       "name": "Conduits",
-      "description": "Probably the most awesome way to transport just anything in multiple different ways. Get some of each type.",
+      "description": "Probably the most awesome way to transport just anything in multiple different ways. Get some conduits of each type.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12397,7 +12397,7 @@
     {
       "questID": 142,
       "name": "Brewing liquids",
-      "description": "This machine is not only capable of brewing more powerful burnable liquids, it can also be used to brew nutrient distillation, which might have a further usage soon(tm).",
+      "description": "This machine is not only capable of brewing more powerful burnable liquids, it can also be used to brew nutrient distillation, which might have further usage soon(tm).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12636,7 +12636,7 @@
     {
       "questID": 145,
       "name": "Ore processing kind of...",
-      "description": "Maceration versus SAG milling, the war still rages on.",
+      "description": "Maceration versus SAG milling, the war still rages on with no end in sight.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12792,7 +12792,7 @@
     {
       "questID": 147,
       "name": "Rocket Fuel",
-      "description": "Rocketfuel are used in the future for Galacticraft Rockets. It does generate quite a bit of power. Use your chemical reactor to make some. Will generate 160 RF/t when used in a Combustion Generator or 112,000 eu per cell.",
+      "description": "Rocket Fuel are used in the future for Galacticraft Rockets. It does generate quite a bit of power. Use your chemical reactor to make some. Will generate 160 RF/t when used in a Combustion Generator or 112,000 eu per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12897,7 +12897,7 @@
     {
       "questID": 148,
       "name": "Tasty...",
-      "description": "Yeah, that is... Well.. You are sure it will have an usage for something... some day... eventually...",
+      "description": "Yeah, that is... Well.. You are sure it will have an usage for something... some day... eventually...maybe...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13160,7 +13160,7 @@
     {
       "questID": 152,
       "name": "And it will never break",
-      "description": "By using an etheric sword, your KillerJoe will run.. forever. Proper enchantments are a requirement for it to be efficient, but that shouldn\u0027t be a problem.",
+      "description": "By using an etheric sword, your Killer Joe will run.. forever. Proper enchantments are a requirement for it to be efficient, but that shouldn\u0027t be a problem.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13474,7 +13474,7 @@
     {
       "questID": 156,
       "name": "Protect your base; Tier 2",
-      "description": "Slightly better protection. Now with a real gun. No more food wasting.",
+      "description": "Slightly better protection. Now with a real gun. No more wasting food.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13943,7 +13943,7 @@
     {
       "questID": 162,
       "name": "Dimensional Goal: Moon",
-      "description": "HV is the age where you should focus on reaching the moon, as soon as possible. Since you will need titanium in large quantities.\n\nMore Infos you will found on the Quest Tab Space Race.",
+      "description": "HV is the age where you should focus on reaching the moon, as soon as possible. Since you will need titanium in large quantities. \n\n(Hint: more info will be found in the Quest Tab Space Race.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -14319,7 +14319,7 @@
     {
       "questID": 166,
       "name": "A new alloy",
-      "description": "There are some... \"Darker\" uses for machines. Stuff that might be considered \"Magic\". Anyway, for that you need a new alloy: Soularium",
+      "description": "There are some... \"Darker\" uses for machines. Stuff that might be considered \"Magic\". Anyway, for that you need a new alloy: Soularium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -15142,7 +15142,7 @@
     {
       "questID": 169,
       "name": "The creation of life",
-      "description": "By utilizing large amounts of energy, you\u0027re able to re-activate those broken spawners you may have found in the past. If you haven\u0027t, you should get one now.",
+      "description": "By utilizing large amounts of energy, you\u0027re able to re-activate those broken spawners you may have found in the past. If you haven\u0027t, you should get one of them now.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -15646,7 +15646,7 @@
     {
       "questID": 175,
       "name": "Fire in the hole",
-      "description": "Ah, there is nothing like an explosion and the certainty that your enemies have been blasted to pieces.",
+      "description": "Ah, there is nothing like an explosion and the certainty that your enemies have been blasted to tiny pieces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16937,7 +16937,7 @@
     {
       "questID": 189,
       "name": "HEV Mark III Protective System",
-      "description": "Some things are dirty, and some things are even dangerous. You\u0027ll play with nasty stuff here, so better prepare yourself.",
+      "description": "Some things are dirty, and some things are even dangerous. You\u0027ll play with nasty stuff here, so better prepare yourself for the worst.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
