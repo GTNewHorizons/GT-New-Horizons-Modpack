@@ -7373,8 +7373,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 40,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -7471,8 +7471,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -7563,8 +7563,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -7779,8 +7779,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 50,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -7991,6 +7991,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -8055,8 +8066,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 60,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -40231,8 +40242,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 80,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -40310,8 +40321,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 100,
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -40389,8 +40400,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 150,
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -47996,7 +48007,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -69076,8 +69087,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 30,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -69209,7 +69220,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -70102,7 +70113,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -70450,8 +70461,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -71783,8 +71794,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
