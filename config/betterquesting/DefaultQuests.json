@@ -18016,7 +18016,7 @@
     {
       "questID": 202,
       "name": "Accelerating things",
-      "description": "If an Ender Quarry won\u0027t satisfy your needs for MOOORE. Speed upgrade is required.",
+      "description": "If an Ender Quarry won\u0027t satisfy your needs for MOOORE. A speed upgrade is required.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18093,7 +18093,7 @@
     {
       "questID": 203,
       "name": "Bundled AE channels",
-      "description": "P2P tunnels. You need them and a lot of them!",
+      "description": "P2P tunnels. You will need a lot of them!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18318,7 +18318,7 @@
     {
       "questID": 206,
       "name": "Turning A into B with C",
-      "description": "Molecular transforming all the things! The most important recipe here is sunnarium.",
+      "description": "Molecular transforming at its finest! The most important recipe here is sunnarium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18466,7 +18466,7 @@
     {
       "questID": 208,
       "name": "Protect your base: Tier 4",
-      "description": "Parts for powerful turrets.",
+      "description": "The small parts for the powerful turrets.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18549,7 +18549,7 @@
     {
       "questID": 209,
       "name": "Make love, not war",
-      "description": "For those who don\u0027t want to kill things. Just teleport them away however takes a large amount of power.",
+      "description": "For those who don\u0027t want to kill things. Just teleport them away, however this takes a large amount of power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18709,7 +18709,7 @@
     {
       "questID": 211,
       "name": "Tier 4 fence and walls",
-      "description": "Another upgrade for you walls. One more to go!",
+      "description": "Another upgrade for your walls. One more to go!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18869,7 +18869,7 @@
     {
       "questID": 213,
       "name": "Tier 6",
-      "description": "IV-Level. You will need tungstensteel for machines. Supposed planets and moons to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"How to GregTech\" by now, if not go clean up the machine craters...",
+      "description": "VI-Level. You will need tungstensteel for machines. Supposed planets and moons to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"How to GregTech\" by now, if not go clean up the machine craters...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -19159,7 +19159,7 @@
     {
       "questID": 216,
       "name": "\"Clean\" energy..?",
-      "description": "Finally, a reliable and powerful source of energy for your base. And why waste your time with a 2k generator? Go for a 8k one! (Hint: It\u0027s probably a good idea to wear your hazmat suit before claiming your reward...)",
+      "description": "Finally, a reliable and powerful source of energy for your base. And why waste your time with a 2k generator? Go for a 8k one! \n\n(Hint: It\u0027s probably a good idea to wear your hazmat suit before claiming your reward...)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -19583,7 +19583,7 @@
     {
       "questID": 222,
       "name": "PewPew!",
-      "description": "Requires no ammo, but still does a ton of damage. All you need to do is feed it power.",
+      "description": "Requires no ammo, but still does a ton of damage. All you need to do is feed it power, a lot of power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -20626,7 +20626,7 @@
     {
       "questID": 234,
       "name": "A \"greater\" Wand",
-      "description": "While doing all your research and mining of these infused stones, you had an idea how to actually use the wood of a Greatwood tree to make a new wand. Actually, it turned out to be pretty simple, but you lacked one important thing back then: Vis!. The vis makes sure the wood doesn\u0027t lose it\u0027s magic conductivity while forming the rod.",
+      "description": "While doing all your research and mining of these infused stones, you had an idea how to actually use the wood of a Greatwood tree to make a new wand. Actually, it turned out to be pretty simple, but you lacked one important thing back then: Vis!. The vis makes sure the wood doesn\u0027t lose it\u0027s magical conductivity while forming the rod.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -20858,7 +20858,7 @@
     {
       "questID": 237,
       "name": "\"Stores 50 vis\" Wand",
-      "description": "Now combine your new wand, and be more powerful than before! You have a feeling, that this new wand will come in handy very soon(tm)",
+      "description": "Now combine your new wand, and be more powerful than before! You have a feeling, that this new wand will come in handy very soon(tm).",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -21049,7 +21049,7 @@
     {
       "questID": 239,
       "name": "Yet another brick in the wall...",
-      "description": "A magic one this time. You are on your way to infusion, and you need 8 of those in total.",
+      "description": "A magical one this time. You are on your way to infusion, and you need 8 of those in total.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -21201,7 +21201,7 @@
     {
       "questID": 241,
       "name": "Not for soup",
-      "description": "At least not for edible soup, but for essentia slurry. Get yourself a Cauldron and give it a whack with your wand.",
+      "description": "At least not for edible soup, but for essentia slurry. Get yourself a Cauldron and give it a solid whack with your wand.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -22372,7 +22372,7 @@
     {
       "questID": 255,
       "name": "An alternative to torches",
-      "description": "And lava! It\u0027s an excellent heat source.",
+      "description": "And lava! It\u0027s an excellent magical heat source.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
