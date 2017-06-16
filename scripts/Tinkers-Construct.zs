@@ -144,11 +144,6 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:8>);
 
 // --- Block of Steel --- Refined Iron
 recipes.remove(<TConstruct:MetalBlock:9>);
-// -
-mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
-
-// --- Block of Ender ---
-//mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:10>);
 
 // --- Block of Glue
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:GlueBlock>);
@@ -231,15 +226,6 @@ mods.tconstruct.Smeltery.removeMelting(<ore:blockManyullyn>);
 
 // --- Alumium Ingot
 recipes.remove(<TConstruct:materials:11>);
-
-// --- Steel Ingot
-mods.tconstruct.Smeltery.removeMelting(<IC2:itemIngot:3>);
-
-// --- Steel Nuggets
-mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetSteel>);
-
-// --- Steel Dust
-mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:2305>);
 
 // --- Iron Gear
 mods.tconstruct.Casting.removeTableRecipe(<BuildCraft|Core:ironGearItem>);
@@ -561,6 +547,9 @@ mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetArdite>);
 recipes.remove(<TConstruct:materials:30>);
 // -
 mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetManyullyn>);
+
+// --- Steel Ingot
+recipes.remove(<TConstruct:materials:16>);
 
 
 // --- Stained Glass Pane ---
@@ -1334,6 +1323,9 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:11033>, <liquid:cob
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, <TConstruct:metalPattern>, false, 200);
 // -
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, 500, <TConstruct:MetalBlock:6>);
+
+// --- Steel Ingot
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:16>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 600);
 
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);
