@@ -27008,8 +27008,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 200,
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -28970,6 +28970,23 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -29031,6 +29048,17 @@
             {
               "id": "witchery:arthana",
               "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -29102,6 +29130,23 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -29168,6 +29213,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -29225,6 +29281,23 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 22
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -29297,6 +29370,23 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 10
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -29375,6 +29465,23 @@
               "Count": 2,
               "OreDict": "",
               "Damage": 24
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -29468,6 +29575,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -29528,6 +29646,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -29583,6 +29712,17 @@
             {
               "id": "minecraft:diamond",
               "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -29651,6 +29791,23 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 10
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -29726,6 +29883,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -29792,6 +29960,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -29840,6 +30019,23 @@
             {
               "id": "witchery:seepingshoes",
               "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -29908,6 +30104,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -29958,6 +30165,23 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 39
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -30118,6 +30342,29 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -30158,10 +30405,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.NanoCircuit",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 10,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32088
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -30223,6 +30470,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -30272,8 +30530,8 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinDarkWizardII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinDarkWizardIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
@@ -30448,6 +30706,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -30556,6 +30825,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -30772,6 +31052,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -30880,6 +31171,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -44914,7 +45216,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 21600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -45089,13 +45391,25 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -79389,6 +79703,12 @@
               "Count": 3,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -79456,6 +79776,12 @@
             },
             {
               "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -79529,6 +79855,12 @@
               "Count": 3,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -79595,7 +79927,13 @@
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
               "Count": 6,
               "OreDict": "",
               "Damage": 0
@@ -79669,6 +80007,12 @@
               "Count": 5,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -79729,13 +80073,19 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizardIII",
+              "id": "dreamcraft:item.CoinSurvivorIII",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinDarkWizardIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureIII",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -79809,6 +80159,12 @@
               "Count": 5,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureIII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -79876,6 +80232,12 @@
             },
             {
               "id": "dreamcraft:item.CoinDarkWizardIII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureIII",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
@@ -80023,7 +80385,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 21600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -80063,13 +80425,25 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 5,
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -80091,7 +80465,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 21600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -80130,14 +80504,26 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80159,7 +80545,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 21600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -80199,13 +80585,25 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 5,
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -80227,7 +80625,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 21600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -80267,13 +80665,25 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 5,
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -80295,7 +80705,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 21600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -80334,14 +80744,26 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80363,7 +80785,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 21600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -80403,13 +80825,25 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 5,
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -80431,7 +80865,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 21600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -80474,14 +80908,26 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80601,7 +81047,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "NAND",
       "taskLogic": "AND",
       "icon": {
         "id": "TConstruct:heartCanister",
@@ -80643,7 +81089,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizardI",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80667,7 +81113,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -80860,6 +81306,12 @@
               "Damage": 0
             },
             {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinAdventureI",
               "Count": 5,
               "OreDict": "",
@@ -80885,7 +81337,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -81051,6 +81503,12 @@
               "Damage": 0
             },
             {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinAdventureII",
               "Count": 1,
               "OreDict": "",
@@ -81076,7 +81534,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -81262,6 +81720,12 @@
               "Damage": 0
             },
             {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinAdventureII",
               "Count": 2,
               "OreDict": "",
@@ -81287,7 +81751,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -81445,6 +81909,12 @@
               "Damage": 0
             },
             {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinAdventureII",
               "Count": 5,
               "OreDict": "",
@@ -81470,7 +81940,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -81654,6 +82124,12 @@
               "Damage": 0
             },
             {
+              "id": "dreamcraft:item.CoinDarkWizardIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinAdventureIII",
               "Count": 1,
               "OreDict": "",
@@ -81679,7 +82155,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -81822,6 +82298,29 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorIII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardIII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureIII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -81840,7 +82339,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82014,13 +82513,19 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivorIII",
-              "Count": 2,
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardIII",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinAdventureIII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -82067,25 +82572,25 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinDarkWizardIII",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinAdventureIII",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSurvivorIII",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnicianIII",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
