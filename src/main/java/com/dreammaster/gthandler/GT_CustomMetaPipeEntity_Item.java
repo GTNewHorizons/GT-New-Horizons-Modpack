@@ -20,6 +20,7 @@ import net.minecraft.tileentity.TileEntityDispenser;
 import net.minecraft.tileentity.TileEntityHopper;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.World;
+import net.minecraftforge.common.util.ForgeDirection;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -97,11 +98,6 @@ public class GT_CustomMetaPipeEntity_Item extends MetaPipeEntity implements IMet
 			return new ITexture[]{new GT_RenderedTexture(mMaterial.mIconSet.mTextures[OrePrefixes.pipeHuge.mTextureIndex], Dyes.getModulation(aColorIndex, mMaterial.mRGBa))};
 		}
 		return new ITexture[]{new GT_RenderedTexture(mMaterial.mIconSet.mTextures[OrePrefixes.pipe.mTextureIndex], Dyes.getModulation(aColorIndex, mMaterial.mRGBa))};
-	}
-
-	@Override
-	public AxisAlignedBB getCollisionBoundingBoxFromPool(World aWorld, int aX, int aY, int aZ) {
-		return AxisAlignedBB.getBoundingBox(aX + 0.0625D, aY + 0.0625D, aZ + 0.0625D, aX + 0.9375D, aY + 0.9375D, aZ + 0.9375D);
 	}
 	
 	@Override public boolean isSimpleMachine()						{return true;}
@@ -350,5 +346,34 @@ public class GT_CustomMetaPipeEntity_Item extends MetaPipeEntity implements IMet
 	public float getThickNess() {
 		if(GT_Client.hideValue==1) return 0.0625F;
 		return mThickNess;
+	}
+
+	@Override
+	public AxisAlignedBB getCollisionBoundingBoxFromPool(World aWorld, int aX, int aY, int aZ) {
+		float tSpace = (1f - mThickNess)/2;
+		float tSide0 = tSpace;
+		float tSide1 = 1f - tSpace;
+		float tSide2 = tSpace;
+		float tSide3 = 1f - tSpace;
+		float tSide4 = tSpace;
+		float tSide5 = 1f - tSpace;
+
+		if(getBaseMetaTileEntity().getCoverIDAtSide((byte) 0) != 0){tSide0=tSide2=tSide4=0;tSide3=tSide5=1;}
+		if(getBaseMetaTileEntity().getCoverIDAtSide((byte) 1) != 0){tSide2=tSide4=0;tSide1=tSide3=tSide5=1;}
+		if(getBaseMetaTileEntity().getCoverIDAtSide((byte) 2) != 0){tSide0=tSide2=tSide4=0;tSide1=tSide5=1;}
+		if(getBaseMetaTileEntity().getCoverIDAtSide((byte) 3) != 0){tSide0=tSide4=0;tSide1=tSide3=tSide5=1;}
+		if(getBaseMetaTileEntity().getCoverIDAtSide((byte) 4) != 0){tSide0=tSide2=tSide4=0;tSide1=tSide3=1;}
+		if(getBaseMetaTileEntity().getCoverIDAtSide((byte) 5) != 0){tSide0=tSide2=0;tSide1=tSide3=tSide5=1;}
+
+		byte tConn = ((BaseMetaPipeEntity) getBaseMetaTileEntity()).mConnections;
+		if((tConn & (1 << ForgeDirection.DOWN.ordinal()) ) != 0) tSide0 = 0f;
+		if((tConn & (1 << ForgeDirection.UP.ordinal())   ) != 0) tSide1 = 1f;
+		if((tConn & (1 << ForgeDirection.NORTH.ordinal())) != 0) tSide2 = 0f;
+		if((tConn & (1 << ForgeDirection.SOUTH.ordinal())) != 0) tSide3 = 1f;
+		if((tConn & (1 << ForgeDirection.WEST.ordinal()) ) != 0) tSide4 = 0f;
+		if((tConn & (1 << ForgeDirection.EAST.ordinal()) ) != 0) tSide5 = 1f;
+
+		return AxisAlignedBB.getBoundingBox(aX + tSide4, aY + tSide0, aZ + tSide2, aX + tSide5, aY + tSide1, aZ + tSide3);
+
 	}
 }
