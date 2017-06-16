@@ -62333,36 +62333,8 @@
               "tag": {
                 "StoredEnchantments:9": [
                   {
-                    "lvl:4": 1,
-                    "id:4": 21
-                  }
-                ]
-              }
-            },
-            {
-              "id": "minecraft:enchanted_book",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "StoredEnchantments:9": [
-                  {
-                    "lvl:4": 1,
-                    "id:4": 16
-                  }
-                ]
-              }
-            },
-            {
-              "id": "minecraft:enchanted_book",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "StoredEnchantments:9": [
-                  {
-                    "lvl:4": 1,
-                    "id:4": 2
+                    "lvl:4": 3,
+                    "id:4": 35
                   }
                 ]
               }
