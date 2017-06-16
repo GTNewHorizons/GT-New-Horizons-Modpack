@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.5.0.0 is out xx.06.2017
+Version pre1.5.0.0pre is out 16.06.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -109,10 +109,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.0.0 --- xx.06.2017<BR>
+## Modlist - NewHorizons 1.5.0.0pre --- 16.06.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta11<BR>
+* Adventure Backpack 0.9gbeta12<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4b<BR>
 * AFSU	1.2.3.a<BR>
@@ -159,7 +159,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution	1.0.2k<BR>
 * Dummy Core 1.13<BR>
-* Electro Magic Tools	1.2.6.5a<BR>
+* Electro Magic Tools	1.2.6.5b<BR>
 * Enchiridion 	2.0.2a<BR>
 * Ender Core	0.2.0.39<BR>
 * Ender IO	2.3.0.432<BR>
@@ -178,20 +178,22 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.499<BR>
-* GalacticraftCore	3.0.12.499<BR>
+* Galacticraft-Planets	3.0.12.501<BR>
+* GalacticraftCore	3.0.12.501<BR>
 * GalactiGreg	0.9.6<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.30.05<BR>
-* GT New Horizons Core Mod	1.4.08<BR>
+* Gregtech	5.09.30.10<BR>
+* GT New Horizons Core Mod	1.4.10<BR>
+* GT++ 1.5.0Beta<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
 * Hunger Overhaul	1.0.0.104<BR>
 * Chisel	2.5.1.44<BR>
+* Chisel Tones 1.0.3<BR>
 * IC2 Nuclear Control	2.4.1a<BR>
 * IguanaTinkerTweaks	2.1.6b<BR>
 * Industrial Craft 2	2.2.2.827a<BR>
@@ -210,7 +212,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.499<BR>
+* MicdoodleCore	3.0.12.501<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
@@ -230,7 +232,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Open Peripheral Core 1.4.280<BR>
 * Open Peripheral Integration 0.6.95<BR>
 * Open Printers	0.1.0.132<BR>
-* Open Security	1.0-101<BR>
+* Open Security	1.0-102<BR>
 * p455w0rdslib 1.0.4<BR>
 * Pam's Harvestcraft	1.7.10-m<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
@@ -247,7 +249,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Railcraft	9.12.2.0<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
-* ReAuth 3.4.1<BR>
+* ReAuth 3.5.0<BR>
 * RemoteIO	2.4.0<BR>
 * RF Expansion 1.0.13<BR>
 * Rogue like Dungeons	1.5.0b<BR>
@@ -266,12 +268,12 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
-* Thaumic Bases	1.4.14.0<BR>
+* Thaumic Bases	1.4.15.0<BR>
 * Thaumic Energistics	1.0.0.5<BR>
 * Thaumic Exploration	1.1.67<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
-* Thaumic Tinkerer	2.5.543-GTNH<BR>
+* Thaumic Tinkerer	2.5.550<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9.4-GTNH<BR>
 * Tinker's Gregworks	1.0.17<BR>
