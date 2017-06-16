@@ -47339,13 +47339,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -47470,7 +47470,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -47603,7 +47603,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -47835,8 +47835,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -47959,7 +47965,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -48076,13 +48082,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 20,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 20,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -48132,16 +48138,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 32100
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "IC2:itemPartCircuit",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32700
+              "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -48193,16 +48199,16 @@
               "Damage": 11300
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32700
+              "Damage": 0
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 32100
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -48215,6 +48221,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinForestry",
               "Count": 15,
@@ -48338,8 +48350,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 20,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -48443,7 +48461,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -48516,7 +48534,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 10,
+              "Count": 30,
               "OreDict": "",
               "Damage": 0
             }
@@ -48714,8 +48732,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -48852,7 +48876,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -48989,7 +49013,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -49126,7 +49150,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -49257,7 +49281,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -49315,7 +49339,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32700
+              "Damage": 32702
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -49368,15 +49392,15 @@
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32700
+              "Damage": 32702
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 32101
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -49390,8 +49414,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 20,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -49441,16 +49471,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32711
+              "Damage": 32102
             },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32715
+              "Damage": 32701
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -49503,15 +49533,15 @@
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32700
+              "Damage": 32701
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 32102
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -49525,8 +49555,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 25,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -49576,16 +49612,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32711
+              "Damage": 32103
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32715
+              "Damage": 32079
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -49637,16 +49673,16 @@
               "Damage": 11303
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32715
+              "Damage": 32079
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 32103
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -49660,8 +49696,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 30,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
