@@ -731,11 +731,11 @@ recipes.addShaped(<StorageDrawers:upgrade:6>, [
 [<StorageDrawers:upgradeTemplate>, <ore:plateTitanium>, <StorageDrawers:upgradeTemplate>],
 [<ore:plateEmerald>, <ore:stickEmerald>, <ore:plateEmerald>]]);
 
-// --- Compressed Drawers
-recipes.addShaped(<StorageDrawers:compDrawers>, [
-[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>], 
-[<minecraft:piston>, <ore:drawerBasic>, <minecraft:piston>], 
-[<ore:plateObsidian>, <ore:plateIron>, <ore:plateObsidian>]]);
+// --- Compacting Drawers
+//recipes.addShaped(<StorageDrawers:compDrawers>, [
+//[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>], 
+//[<minecraft:piston>, <ore:drawerBasic>, <minecraft:piston>], 
+//[<ore:plateObsidian>, <ore:plateIron>, <ore:plateObsidian>]]);
 
 // --- Controler
 recipes.addShaped(<StorageDrawers:controller>, [

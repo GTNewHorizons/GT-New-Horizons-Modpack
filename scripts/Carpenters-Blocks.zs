@@ -26,6 +26,8 @@ val WoodScrew = <gregtech:gt.metaitem.01:27809>;
 val IronScrew = <gregtech:gt.metaitem.01:27032>;
 val SteelScrew = <gregtech:gt.metaitem.01:27305>;
 val AluminiumScrew = <gregtech:gt.metaitem.01:27019>;
+val StainlessSteelScrew = <gregtech:gt.metaitem.01:27306>;
+val TitaniumScrew = <gregtech:gt.metaitem.01:27028>;
 val Frame = <ore:frameGtWood>;
 val Plank = <ore:plankWood>;
 val Log = <ore:logWood>;
@@ -112,15 +114,35 @@ recipes.remove(<CarpentersBlocks:itemCarpentersDoor>);
 
 
 // --- Carpenters Block
-recipes.addShaped(CarpentersBlock * 4, [
+recipes.addShaped(CarpentersBlock * 2, [
 [Frame,WoodScrew, Frame],
 [WoodScrew, Screwdriver, WoodScrew],
 [Frame, WoodScrew, Frame]]);
 // -
-recipes.addShaped(CarpentersBlock * 6, [
+recipes.addShaped(CarpentersBlock * 8, [
 [Frame, IronScrew, Frame],
 [Frame, Screwdriver, Frame],
 [Frame, IronScrew, Frame]]);
+// -
+recipes.addShaped(CarpentersBlock * 12, [
+[Frame, SteelScrew, Frame],
+[Frame, Screwdriver, Frame],
+[Frame, SteelScrew, Frame]]);
+// -
+recipes.addShaped(CarpentersBlock * 16, [
+[Frame, AluminiumScrew, Frame],
+[Frame, Screwdriver, Frame],
+[Frame, AluminiumScrew, Frame]]);
+// -
+recipes.addShaped(CarpentersBlock * 20, [
+[Frame, StainlessSteelScrew, Frame],
+[Frame, Screwdriver, Frame],
+[Frame, StainlessSteelScrew, Frame]]);
+// -
+recipes.addShaped(CarpentersBlock * 24, [
+[Frame, TitaniumScrew, Frame],
+[Frame, Screwdriver, Frame],
+[Frame, TitaniumScrew, Frame]]);
 
 // --- Collapsible Block
 recipes.addShaped(CollapsibleBlock, [
@@ -229,13 +251,17 @@ recipes.addShaped(<CarpentersBlocks:itemCarpentersDoor>, [
 
 
 // --- Carpenters Block
-Assembler.addRecipe(CarpentersBlock * 4, <gregtech:gt.blockmachines:4905> * 2, WoodScrew, 100, 16);
+Assembler.addRecipe(CarpentersBlock * 4, <gregtech:gt.blockmachines:4905> * 2, WoodScrew * 2, 100, 16);
 // -
-Assembler.addRecipe(CarpentersBlock * 6, <gregtech:gt.blockmachines:4905> * 3, IronScrew, 100, 16);
+Assembler.addRecipe(CarpentersBlock * 8, <gregtech:gt.blockmachines:4905> * 3, IronScrew, 100, 30);
 // -
-Assembler.addRecipe(CarpentersBlock * 8, <gregtech:gt.blockmachines:4905> * 4, SteelScrew, 100, 16);
+Assembler.addRecipe(CarpentersBlock * 12, <gregtech:gt.blockmachines:4905> * 3, SteelScrew, 100, 48);
 // -
-Assembler.addRecipe(CarpentersBlock * 16, <gregtech:gt.blockmachines:4905> * 8, AluminiumScrew, 100, 16);
+Assembler.addRecipe(CarpentersBlock * 16, <gregtech:gt.blockmachines:4905> * 3, AluminiumScrew, 100, 64);
+// -
+Assembler.addRecipe(CarpentersBlock * 20, <gregtech:gt.blockmachines:4905> * 3, StainlessSteelScrew, 100, 64);
+// -
+Assembler.addRecipe(CarpentersBlock * 24, <gregtech:gt.blockmachines:4905> * 3, TitaniumScrew, 100, 64);
 
 // --- Carpenters Barrier
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersBarrier> * 2, <minecraft:fence>, CarpentersBlock, 200, 16);

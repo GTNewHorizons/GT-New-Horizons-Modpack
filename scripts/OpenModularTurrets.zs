@@ -384,7 +384,7 @@ recipes.addShaped(<openmodularturrets:fenceTierOne> * 5, [
 // --- IO Bus
 recipes.addShaped(<openmodularturrets:ioBus>, [
 [<ore:screwIron>, <ore:plateGold>, <ore:craftingToolWrench>],
-[<ore:circuitPrimitive>, <ore:dustRedstone>, <ore:circuitPrimitive>],
+[<ore:circuitBasic>, <ore:dustRedstone>, <ore:circuitBasic>],
 [<ore:craftingToolScrewdriver>, <ore:plateIron>, <ore:screwIron>]]);
 
 // --- Based Power Expander Tier 1
@@ -495,7 +495,7 @@ Assembler.addRecipe(<openmodularturrets:chamberTierFour>, <gregtech:gt.metaitem.
 Assembler.addRecipe(<openmodularturrets:chamberTierFive>, <gregtech:gt.metaitem.01:32643>, <gregtech:gt.metaitem.02:24084>, 200, 256);
 
 // --- IO Bus
-Assembler.addRecipe(<openmodularturrets:ioBus>, <gregtech:gt.metaitem.01:32700> * 2, <gregtech:gt.metaitem.01:17086>, <liquid:molten.iron> * 72, 100, 30);
+Assembler.addRecipe(<openmodularturrets:ioBus>, <IC2:itemPartCircuit> * 2, <gregtech:gt.metaitem.01:17086>, <liquid:molten.iron> * 72, 100, 30);
 
 // --- Ammo Bullet
 Assembler.addRecipe(<openmodularturrets:bulletCraftable> * 64, <gregtech:gt.metaitem.01:29305> * 4, <minecraft:gunpowder>, <liquid:molten.iron> * 144, 200, 30);

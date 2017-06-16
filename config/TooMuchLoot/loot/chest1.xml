@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<LootGroup category="chest1" loading_mode="OVERRIDE" count_min="4" count_max="8">
+<LootGroup category="chest1" loading_mode="OVERRIDE" count_min="2" count_max="4">
 
 	<loot item="gregtech:gt.blockmachines" damage="5113" weight="15" count_min="2" count_max="4"/>
 	<loot item="gregtech:gt.blockmachines" damage="5114" weight="10" count_min="1" count_max="2"/>

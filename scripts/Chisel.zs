@@ -73,7 +73,9 @@ recipes.remove(<chisel:upgrade:2>);
 // --- Mossy stone
 mods.chisel.Groups.removeGroup("cobblestone");
 
+// --- Stonebricks
 mods.chisel.Groups.removeVariation(<minecraft:stonebrick:1>);
+
 
 
 
@@ -251,6 +253,41 @@ mods.chisel.Groups.addVariation("limestone", <BiomesOPlenty:rocks>);
 mods.chisel.Groups.addVariation("amber", <gregtech:gt.blockgem1:1>);
 // -
 mods.chisel.Groups.addVariation("amber", <BiomesOPlenty:gemOre:15>);
+
+// --- Endstone
+mods.chisel.Groups.addGroup("endstone");
+// -
+mods.chisel.Groups.addVariation("endstone", <minecraft:end_stone>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:1>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:2>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:3>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:4>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:5>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:6>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:7>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:8>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:9>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:10>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:11>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:12>);
+// -
+mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:13>);
+// -
+mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrick:12>);
+// -
+mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrickfancy:12>);
 
 
 

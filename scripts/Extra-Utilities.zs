@@ -96,10 +96,10 @@ val SteelGear = <ore:gearSteel>;
 val TitaniumGear = <ore:gearTitanium>;
 val TitaniumPlate = <ore:plateTitanium>;
 val ChromePlate = <ore:plateChrome>;
-val NANDChip = <ore:circuitPrimitive>;
 val BasicCircuit = <ore:circuitBasic>;
 val GoodCircuit = <gregtech:gt.metaitem.01:32702>;
 val AdvCircuit = <ore:circuitAdvanced>;
+val DataCircuit = <ore:circuitData>;
 val LVChestBuffer = <gregtech:gt.blockmachines:9231>;
 val LVPump = <gregtech:gt.metaitem.01:32610>;
 val LVEnergyBuffer = <gregtech:gt.blockmachines:171>;
@@ -586,14 +586,14 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
 
 // --- Ender-Thermic Pump
 mods.extraUtils.QED.addShapedRecipe(EnderPump, [
-[EnderObsidian, <ore:circuitMaster>, EnderObsidian],
+[EnderObsidian, <ore:circuitData>, EnderObsidian],
 [<BuildCraft|Factory:tankBlock>, EnderCore, <BuildCraft|Factory:tankBlock>],
 [EnderObsidian, <gregtech:gt.blockmachines:1143>, EnderObsidian]]);
 
 // --- Diamond-Etched Computational Matrix
 recipes.addShaped(DiamondMatrix, [
 [EnderCore, <ore:plateDiamond>, EnderCore],
-[<ore:plateTitanium>, <ore:circuitMaster>, <ore:plateTitanium>],
+[<ore:plateTitanium>, <ore:circuitData>, <ore:plateTitanium>],
 [EnderCore, <ore:plateDiamond>, EnderCore]]);
 
 // --- Blackout Curtains
@@ -806,27 +806,27 @@ recipes.addShaped(TransferPipe, [
 
 // --- Sorting Pipe
 recipes.addShaped(SortingPipe, [
-[SteelFoil, NANDChip, SteelFoil],
-[Wrench, TransferPipe, HHammer],
-[SteelFoil, NANDChip, SteelFoil]]);
-
-// --- Filter Pipe
-recipes.addShaped(FilterPipe, [
 [SteelFoil, BasicCircuit, SteelFoil],
 [Wrench, TransferPipe, HHammer],
 [SteelFoil, BasicCircuit, SteelFoil]]);
 
+// --- Filter Pipe
+recipes.addShaped(FilterPipe, [
+[SteelFoil, GoodCircuit, SteelFoil],
+[Wrench, TransferPipe, HHammer],
+[SteelFoil, GoodCircuit, SteelFoil]]);
+
 // --- Rationing Pipe
 recipes.addShaped(RationingPipe, [
-[SteelFoil, GoodCircuit, SteelFoil],
+[SteelFoil, AdvCircuit, SteelFoil],
 [Wrench, SortingPipe, HHammer],
-[SteelFoil, GoodCircuit, SteelFoil]]);
+[SteelFoil, AdvCircuit, SteelFoil]]);
 
 // --- Hyper Rationing Pipe
 recipes.addShaped(HyperRationingPipe, [
-[SteelFoil, AdvCircuit, SteelFoil],
+[SteelFoil, DataCircuit, SteelFoil],
 [Wrench, RationingPipe, HHammer],
-[SteelFoil, AdvCircuit, SteelFoil]]);
+[SteelFoil, DataCircuit, SteelFoil]]);
 
 // --- Energy Pipe
 recipes.addShaped(EnergyPipe, [
@@ -903,23 +903,13 @@ recipes.addShaped(FluidTransferN, [
 
 // --- Energy Transfer Node
 mods.extraUtils.QED.addShapedRecipe(EnergyTransferN, [
-[<gregtech:gt.metatool.01:12>, ItemTransferN, <gregtech:gt.metatool.01:16>],
-[<gregtech:gt.metaitem.01:17533>, <ExtraUtilities:nodeUpgrade:8>, <gregtech:gt.metaitem.01:17533>],
-[ItemTransferN, DiamondPipe, ItemTransferN]]);
-// -
-mods.extraUtils.QED.addShapedRecipe(EnergyTransferN, [
-[<gregtech:gt.metatool.01:16>, ItemTransferN, <gregtech:gt.metatool.01:12>],
+[ItemTransferN, DiamondPipe, ItemTransferN],
 [<gregtech:gt.metaitem.01:17533>, <ExtraUtilities:nodeUpgrade:8>, <gregtech:gt.metaitem.01:17533>],
 [ItemTransferN, DiamondPipe, ItemTransferN]]);
 
 // --- Hyper Energy Transfer Node
 mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
-[<gregtech:gt.metatool.01:12>, EnergyTransferN, <gregtech:gt.metatool.01:16>],
-[<gregtech:gt.metaitem.01:17533>, BedrockiumIngot, <gregtech:gt.metaitem.01:17533>],
-[EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
-// -
-mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
-[<gregtech:gt.metatool.01:16>, EnergyTransferN, <gregtech:gt.metatool.01:12>],
+[EnergyTransferN, <gregtech:gt.metaitem.01:17533>, EnergyTransferN],
 [<gregtech:gt.metaitem.01:17533>, BedrockiumIngot, <gregtech:gt.metaitem.01:17533>],
 [EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
 
@@ -955,7 +945,7 @@ recipes.addShaped(<ExtraUtilities:enderCollector>, [
 
 // --- Quiet Expencive Device QED
 recipes.addShaped(<ExtraUtilities:endConstructor>, [
-[<ore:plateEnderEye>, <gregtech:gt.metaitem.01:32744>, <ore:plateEnderEye>],
+[<ore:plateEnderEye>, <ore:circuitData>, <ore:plateEnderEye>],
 [<ore:blockEnderObsidian>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderObsidian>],
 [<ore:plateTitanium>, <ExtraUtilities:decorativeBlock1:11>, <ore:plateTitanium>]]);
 
@@ -1150,7 +1140,7 @@ Assembler.addRecipe(<ExtraUtilities:trading_post>, <Railcraft:machine.alpha:6>, 
 Assembler.addRecipe(TransferPipe, <Railcraft:part.plate:1> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.redalloy> * 36, 100, 64);
 
 // --- Sorting Pipe
-Assembler.addRecipe(SortingPipe, TransferPipe, <gregtech:gt.metaitem.01:32700>, 200, 64);
+Assembler.addRecipe(SortingPipe, TransferPipe, <IC2:itemPartCircuit>, 200, 64);
 
 // --- Energy Pipe
 Assembler.addRecipe(EnergyPipe, TransferPipe, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redalloy> * 216, 200, 64);
@@ -1162,16 +1152,18 @@ Assembler.addRecipe(CrossoverPipe, TransferPipe * 4, <gregtech:gt.integrated_cir
 Assembler.addRecipe(ModSortingPipe, SortingPipe, <IC2:itemPartCircuit>, 300, 64);
 
 // --- Filter Pipe
-Assembler.addRecipe(FilterPipe, TransferPipe, <IC2:itemPartCircuit>, 200, 64);
+Assembler.addRecipe(FilterPipe, TransferPipe, <gregtech:gt.metaitem.01:32702>, 200, 64);
 
 // --- Rationing Pipe
-Assembler.addRecipe(RationingPipe, SortingPipe, <gregtech:gt.metaitem.01:32702>, 300, 64);
+Assembler.addRecipe(RationingPipe, SortingPipe, <IC2:itemPartCircuitAdv>, 300, 64);
 
 // --- Energy Extraction Pipe
 Assembler.addRecipe(EExtractionPipe, <gregtech:gt.metaitem.01:17303> * 2, EnergyPipe, 300, 64);
 
 // --- Hyper Rationing Pipe
-Assembler.addRecipe(HyperRationingPipe, RationingPipe, <IC2:itemPartCircuitAdv>, 400, 64);
+Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.01:32708>, 400, 64);
+// -
+Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.01:32704>, 200, 64);
 
 // --- Trash Can
 Assembler.addRecipe(<ExtraUtilities:trashcan>, <Railcraft:part.plate> * 4, <minecraft:ender_pearl>, 200, 30);

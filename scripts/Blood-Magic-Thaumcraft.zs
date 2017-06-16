@@ -127,6 +127,21 @@ mods.thaumcraft.Infusion.addRecipe("AMORPHICCATALYST", <AWWayofTime:reinforcedSl
 mods.thaumcraft.Research.addInfusionPage("AMORPHICCATALYST", <BloodArsenal:amorphic_catalyst>);
 mods.thaumcraft.Warp.addToResearch("AMORPHICCATALYST", 2);
 
+// --- Blood Infused Diamond Block
+mods.thaumcraft.Research.addResearch("BIDIAMONDBLOCK", "BLOODMAGIC", "aqua 18, ignis 15, victus 12, ignis 9, ira 6, perditio 3", 8, -4, 3, <BloodArsenal:blood_infused_diamond_block>);
+game.setLocalization("tc.research_name.BIDIAMONDBLOCK", "Blood Infused Diamond Block");
+game.setLocalization("tc.research_text.BIDIAMONDBLOCK", "[BA] A Blood Diamond Block");
+mods.thaumcraft.Research.addPrereq("BIDIAMONDBLOCK", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("BIDIAMONDBLOCK", "AMORPHICCATALYST", false);
+mods.thaumcraft.Research.setConcealed("BIDIAMONDBLOCK", true);
+mods.thaumcraft.Research.addPage("BIDIAMONDBLOCK", "bloodmagic.research_page.BIDIAMONDBLOCK");
+game.setLocalization("bloodmagic.research_page.BIDIAMONDBLOCK", "The Blood Infused Diamond Block is made out of 9 Blood Diamonds in the Infusion Process. It is requiered for the Blood Infused Diamond Tools");
+mods.thaumcraft.Infusion.addRecipe("BIDIAMONDBLOCK", <minecraft:diamond_block>, 
+[<BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>], 
+"ira 32, alienis 16, victus 24, ignis 48, aqua 64, perditio 16", <BloodArsenal:blood_infused_diamond_block>, 7);
+mods.thaumcraft.Research.addInfusionPage("BIDIAMONDBLOCK", <BloodArsenal:blood_infused_diamond_block>);
+mods.thaumcraft.Warp.addToResearch("BIDIAMONDBLOCK", 3);
+
 // --- Divination Sigil
 mods.thaumcraft.Research.addResearch("DIVINATIONSIGIL", "BLOODMAGIC", "vitreus 15, terra 12, instrumentum 9, praecantatio 6, metallum 3", 0, 2, 3, <AWWayofTime:divinationSigil>);
 game.setLocalization("tc.research_name.DIVINATIONSIGIL", "Divination Sigil");

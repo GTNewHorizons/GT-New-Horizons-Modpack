@@ -226,6 +226,9 @@ recipes.remove(<OpenBlocks:tastyClay>);
 // --- Golden Eye
 recipes.removeShaped(<OpenBlocks:goldenEye:*>);
 
+// --- Cursor
+recipes.remove(<OpenBlocks:cursor>);
+
 
 
 
@@ -426,25 +429,25 @@ Assembler.addRecipe(<OpenBlocks:generic:11>, <minecraft:stick>, <gregtech:gt.met
 Assembler.addRecipe(<OpenBlocks:imaginary>.withTag({Uses: 10.0 as float}), <OpenBlocks:generic:11>, <gregtech:gt.metaitem.01:17533>, 100, 16);
 
 // --- Map Controller Module
-Assembler.addRecipe(<OpenBlocks:generic:6>, <OpenComputers:item:32>, <dreamcraft:item.SimpleCircuitBoard>, <liquid:molten.redstone> * 144, 300, 30);
+Assembler.addRecipe(<OpenBlocks:generic:6>, <OpenComputers:item:32>, <IC2:itemPartCircuit>, <liquid:molten.redstone> * 144, 300, 30);
 
 // --- Map Memory Module
-Assembler.addRecipe(<OpenBlocks:generic:7>, <OpenBlocks:generic:6>, <gregtech:gt.metaitem.01:32700> * 4, <liquid:molten.redstone> * 144, 400, 30);
+Assembler.addRecipe(<OpenBlocks:generic:7>, <OpenBlocks:generic:6>, <IC2:itemPartCircuit>, <liquid:molten.redstone> * 144, 400, 30);
 
 // --- Empty Map 1:1
 Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 0 as byte}), <OpenBlocks:generic:6>, <OpenBlocks:generic:7> * 4, 600, 30);
 
 // --- Empty Map 1:2
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 1 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 0 as byte}), <gregtech:gt.metaitem.01:32700> * 4, <liquid:molten.tin> * 144, 600, 30);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 1 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 0 as byte}), <IC2:itemPartCircuit>, <liquid:molten.tin> * 144, 600, 30);
 
 // --- Empty Map 1:4
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 2 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 1 as byte}), <IC2:itemPartCircuit> * 3, <liquid:molten.redstone> * 144, 800, 30);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 2 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 1 as byte}), <IC2:itemPartCircuit> * 2, <liquid:molten.redstone> * 144, 800, 30);
 
 // --- Empty Map 1:8
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 3 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 2 as byte}), <gregtech:gt.metaitem.01:32702> * 3, <liquid:molten.redalloy> * 144, 1000, 30);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 3 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 2 as byte}), <gregtech:gt.metaitem.01:32702> * 2, <liquid:molten.redalloy> * 144, 1000, 30);
 
 // --- Empty Map 1:16
-Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 4 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 3 as byte}), <IC2:itemPartCircuitAdv> * 3, <liquid:molten.glowstone> * 144, 1200, 30);
+Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 4 as byte}), <OpenBlocks:emptyMap>.withTag({Scale: 3 as byte}), <IC2:itemPartCircuitAdv> * 2, <liquid:molten.glowstone> * 144, 1200, 30);
 
 // --- Catographer
 Assembler.addRecipe(<OpenBlocks:cartographer>, <OpenBlocks:generic:9>, <minecraft:ender_eye>, <liquid:ender> * 1000, 600, 120);

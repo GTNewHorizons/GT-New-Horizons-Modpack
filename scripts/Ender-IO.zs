@@ -402,6 +402,19 @@ recipes.removeShaped(<EnderIO:itemAlloy:6>, [
 [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
 [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>]]);
 
+// --- Ender Pearl
+recipes.removeShaped(<minecraft:ender_pearl>, [
+[<EnderIO:itemPowderIngot:5>, <EnderIO:itemPowderIngot:5>, <EnderIO:itemPowderIngot:5>],
+[<EnderIO:itemPowderIngot:5>, <EnderIO:itemPowderIngot:5>, <EnderIO:itemPowderIngot:5>],
+[<EnderIO:itemPowderIngot:5>, <EnderIO:itemPowderIngot:5>, <EnderIO:itemPowderIngot:5>]]);
+// -
+recipes.removeShaped(<minecraft:ender_pearl>, [
+[null, <EnderZoo:enderFragment>, null],
+[<EnderZoo:enderFragment>, <EnderZoo:enderFragment>, <EnderZoo:enderFragment>],
+[null, <EnderZoo:enderFragment>, null]]);
+
+
+
 
 
 

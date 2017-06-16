@@ -77,7 +77,7 @@ recipes.addShaped(<OpenPeripheral:selector>, [
 
 // --- Therminal Glasses
 recipes.addShaped(<OpenPeripheral:glasses>, [
-[<ore:circuitPrimitive>, <OpenPeripheral:generic>, <ore:circuitPrimitive>],
+[<ore:circuitBasic>, <OpenPeripheral:generic>, <ore:circuitBasic>],
 [<ore:lensReinforcedGlass>, <ore:screwSteel>, <ore:lensReinforcedGlass>],
 [<ore:ringRedAlloy>, <ore:circuitBasic>, <ore:ringRedAlloy>]]);
 

@@ -7,6 +7,7 @@
 
 
 import mods.gregtech.Autoclave;
+import mods.gregtech.Assembler;
 import mods.nei.NEI;
 
 
@@ -165,6 +166,20 @@ mods.chisel.Groups.addVariation("thaumium", <gregtech:gt.blockmetal7:4>);
 Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:water> * 200, 7000, 2000, 24);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:ic2distilledwater> * 200, 9000, 1500, 24);
+
+
+
+// --- Assembler recipes ---
+
+
+
+
+// --- Cinder Pearl
+Assembler.addRecipe(<Thaumcraft:blockCustomPlant:3>, <harvestthenether:glowflowerseedItem>, <gregtech:gt.metaitem.01:801> * 8, 600, 30);
+
+// --- Cinder Pearl
+Assembler.addRecipe(<Thaumcraft:blockCustomPlant:2>, <harvestthenether:glowflowerseedItem>, <Thaumcraft:ItemNugget:5> * 8, 600, 30);
+
 
 
 

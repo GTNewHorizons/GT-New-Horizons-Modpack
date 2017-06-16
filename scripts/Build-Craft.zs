@@ -549,7 +549,7 @@ recipes.addShaped(Builder, [
 // --- Architect Table
 recipes.addShaped(ArchitectT, [
 [<gregtech:gt.metaitem.01:32652>, <ore:crystalRedstone>, <gregtech:gt.metaitem.01:32652>],
-[<ore:circuitElite>, <gregtech:gt.blockmachines:13>, <ore:circuitElite>],
+[<ore:circuitAdvanced>, <gregtech:gt.blockmachines:13>, <ore:circuitAdvanced>],
 [<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallStainlessSteel>]]);
 
 // --- Electronic Library

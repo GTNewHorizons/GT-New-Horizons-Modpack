@@ -1,3 +1,88 @@
-<VatRecipes>
+  <VatRecipes>
+    <recipeGroup name="EnderIO" >
+	    <recipeGroup name="EnderIO" enabled="false" />
+	</recipeGroup>
+  <recipeGroup name="GTNH" >
+    <recipe name="Nutrient Distilation" energyCost="10000" allowMissing="true" >
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemZombieBrain" slot="0" multiplier="2" />
+        <itemStack oreDictionary="itemSkull" slot="0" multiplier="2" />
+        <itemStack modID="minecraft" itemName="rotten_flesh" slot="0" multiplier="1.5" />
+        <itemStack modID="minecraft" itemName="chicken" slot="0" multiplier="0.75" />
+        <itemStack modID="minecraft" itemName="beef" slot="0" multiplier="0.75" />
+        <itemStack modID="minecraft" itemName="porkchop" slot="0" multiplier="0.75" />
+        <itemStack modID="minecraft" itemName="sugar" slot="1" multiplier="1" />
+        <itemStack modID="minecraft" itemName="brown_mushroom" slot="1" multiplier="1.5" />
+        <itemStack modID="minecraft" itemName="red_mushroom" slot="1" multiplier="1.5" />
+        <itemStack modID="minecraft" itemName="nether_wart" slot="1" multiplier="1.5" />
+        <itemStack modID="minecraft" itemName="fermented_spider_eye" slot="1" multiplier="2" />
+        <fluidStack name="water" multiplier="0.25" />
+      </input>
+      <output>
+        <fluidStack name="nutrient_distillation" />
+      </output>
+    </recipe>
+    <recipe name="Hootch" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="poisonous_potato" slot="0" multiplier="8" />
+        <itemStack modID="minecraft" itemName="potato" slot="0" multiplier="4" />
+        <itemStack modID="minecraft" itemName="apple" slot="0" multiplier="3.5" />
+        <itemStack modID="minecraft" itemName="wheat" slot="0" multiplier="3" />
+        <itemStack modID="minecraft" itemName="wheat_seeds" slot="0" multiplier="2" />
+        <itemStack modID="minecraft" itemName="sugar" slot="1" multiplier="1" />
+        <fluidStack name="water" multiplier="0.25" />
+      </input>
+      <output>
+        <fluidStack name="hootch" />
+      </output>
+    </recipe>
+    <recipe name="Fire Water" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="blaze_powder" slot="0" multiplier="1" />
+        <itemStack modID="minecraft" itemName="redstone" slot="1" multiplier="1" />
+        <fluidStack name="hootch" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="fire_water" />
+      </output>
+    </recipe>
+    <recipe name="Liquid Sunshine" energyCost="10000" >
+      <input>
+        <itemStack modID="minecraft" itemName="glowstone_dust" slot="0" multiplier="0.25" />
+        <itemStack modID="minecraft" itemName="glowstone" slot="0" multiplier="1" />
+        <itemStack modID="minecraft" itemName="double_plant" itemMeta="0" slot="1" multiplier="1" />
+        <fluidStack name="fire_water" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="liquid_sunshine" />
+      </output>
+    </recipe>
+    <recipe name="Cloud Seed" energyCost="10000" allowMissing="true" >
+      <input>
+        <itemStack oreDictionary="dustSalt" slot="0" multiplier="1" />
+        <itemStack oreDictionary="itemClay" slot="0" multiplier="0.5" />
+        <itemStack modID="minecraft" itemName="clay" slot="0" multiplier="2" />
+        <itemStack modID="minecraft" itemName="snowball" slot="1" multiplier="0.1" />
+        <itemStack modID="minecraft" itemName="snow" slot="1" multiplier="0.5" />
+        <itemStack oreDictionary="ice" slot="1" multiplier="0.5" />
+        <itemStack modID="minecraft" itemName="packed_ice" itemMeta="0" slot="1" multiplier="1" />
+        <fluidStack name="water" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="cloud_seed" />
+      </output>
+    </recipe>
+    <recipe name="Concentrated Cloud Seed" energyCost="20000" allowMissing="true" >
+      <input>
+        <itemStack oreDictionary="dustSalt" slot="0" multiplier="1" />
+        <itemStack oreDictionary="itemClay" slot="0" multiplier="0.5" />
+        <itemStack modID="minecraft" itemName="clay" slot="0" multiplier="2" />
+        <fluidStack name="cloud_seed" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="cloud_seed_concentrated" />
+      </output>
+    </recipe>
+  </recipeGroup>
 
 </VatRecipes>

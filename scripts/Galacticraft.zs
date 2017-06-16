@@ -783,7 +783,7 @@ recipes.addShaped(SensorLens, [
 
 // --- Sensor Glasses
 recipes.addShaped(<GalacticraftCore:item.sensorGlasses>, [
-[<ore:circuitElite>, MeteorScrew,<ore:circuitElite>],
+[<ore:circuitData>, MeteorScrew,<ore:circuitData>],
 [DeshRing, <ore:boltDesh>, DeshRing],
 [SensorLens, <ore:craftingToolScrewdriver>, SensorLens]]);
 
@@ -969,7 +969,7 @@ recipes.addShaped(<GalacticraftCore:item.oxygenConcentrator>, [
 
 // --- Tier 1 Rocket Engine
 recipes.addShaped(<GalacticraftCore:item.engine>, [
-[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftCore:item.fuelCanisterPartial:1>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftCore:item.fuelCanisterPartial:1001>, <GalaxySpace:item.CompressedSDHD120>],
 [HeavyPlating, <gregtech:gt.blockcasings3:14>, HeavyPlating],
 [HeavyPlating, <gregtech:gt.metaitem.01:32731>, HeavyPlating]]);
 
@@ -1123,7 +1123,7 @@ recipes.addShaped(<GalacticraftMars:tile.minerBase> * 4, [
 // --- Orion Drive
 recipes.addShaped(<GalacticraftMars:item.orionDrive>, [
 [<ore:compressedTitanium>, <GalacticraftMars:item.itemBasicAsteroids:8>, <ore:compressedTitanium>],
-[<dreamcraft:item.HighEnergyFlowCircuit>, <ore:oc:hdd3>, <dreamcraft:item.HighEnergyFlowCircuit>],
+[<ore:circuitMaster>, <ore:oc:hdd3>, <ore:circuitMaster>],
 [<ore:compressedSteel>, <GalacticraftMars:item.itemBasicAsteroids:8>, <ore:compressedSteel>]]);
 
 // --- Canvas
@@ -1146,24 +1146,36 @@ recipes.addShapeless(<GalacticraftCore:item.schematic:1>, [<GalacticraftCore:ite
 
 // --- Schematics Tier 3 Rocket
 recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
-[<GalacticraftMars:item.schematic>]]);
+[<GalacticraftMars:item.schematic>, null, null],
+[null, null, null],
+[null, null, null]]);
 // -
 recipes.addShaped(<GalacticraftMars:item.schematic:2>, [
-[null, <GalacticraftMars:item.schematic>]]);
+[null, <GalacticraftMars:item.schematic>, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Schematics Cargo Rocket
 recipes.addShaped(<GalacticraftMars:item.schematic>, [
-[<GalacticraftMars:item.schematic:1>]]);
+[<GalacticraftMars:item.schematic:1>, null, null],
+[null, null, null],
+[null, null, null]]);
 // -
 recipes.addShaped(<GalacticraftMars:item.schematic:2>, [
-[null, <GalacticraftMars:item.schematic:1>]]);
+[null, <GalacticraftMars:item.schematic:1>, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Schematics Astro Miner
 recipes.addShaped(<GalacticraftMars:item.schematic>, [
-[<GalacticraftMars:item.schematic:2>]]);
+[<GalacticraftMars:item.schematic:2>, null, null],
+[null, null, null],
+[null, null, null]]);
 // -
 recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
-[null, <GalacticraftMars:item.schematic:2>]]);
+[null, <GalacticraftMars:item.schematic:2>, null],
+[null, null, null],
+[null, null, null]]);
 
 // --- Rocket Tier 1
 mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship>,[
@@ -1526,20 +1538,6 @@ Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <minecraft:redstone_
 
 // --- Canister
 Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 4, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
-
-// --- Basic Wafer
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.tin> * 288, 1600, 64);
-// -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.solderingalloy> * 144, 1600, 64);
-// -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:13>, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:32710> * 4, <liquid:molten.lead> * 576, 1600, 64);
-
-// --- Advanced Wafer
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.tin> * 576, 3200, 256);
-// -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.solderingalloy> * 288, 3200, 256);
-// -
-Assembler.addRecipe(<GalacticraftCore:item.basicItem:14>, <gregtech:gt.metaitem.01:17500> * 4, <gregtech:gt.metaitem.01:32711> * 8, <liquid:molten.lead> * 1440, 3200, 256);
 
 // --- Hydrogen Pipe
 Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, OxygenPipe, <gregtech:gt.metaitem.01:28035> * 4, 400, 16);
