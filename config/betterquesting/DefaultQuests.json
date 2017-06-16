@@ -34031,7 +34031,7 @@
     {
       "questID": 405,
       "name": "The power of Infinity",
-      "description": "You\u0027ve mastered everything possible. And now it\u0027s time to give your equipment the final boost. The infinity egg is just the right addition to your altar. It\u0027s quite expensive, but worth the cost.",
+      "description": "You\u0027ve mastered everything possible. And now it\u0027s time to give your equipment the final boost. The infinity egg is just the right addition to your altar. It\u0027s quite expensive, but well worth the cost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -34273,7 +34273,7 @@
     {
       "questID": 407,
       "name": "Tier 1 slates",
-      "description": "The basic slates. Basically just stone with blood.",
+      "description": "The basic slates. Basically just stone with blood infused in it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -34563,7 +34563,7 @@
     {
       "questID": 411,
       "name": "Potion catalysts",
-      "description": "In order to manipulate potions you need catalysts. You then combine the ingredient you used to get the potion effect in with either a lengthening or power catalyst to increase the duration or the level of the potion effect.",
+      "description": "In order to manipulate potions you need catalysts. You then combine the ingredient you used to get the potion effect in with either a lengthening or power catalyst to increase the duration or the strength of the potion effect.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -34851,7 +34851,7 @@
     {
       "questID": 414,
       "name": "Special potion flasks",
-      "description": "Regular glass phials are unable to hold these special potions you want. You need to imbue it with some blood from your altar.",
+      "description": "Regular glass phials are unable to hold these special potions you want. You need to imbue them with some blood from your altar.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -35369,7 +35369,7 @@
     {
       "questID": 419,
       "name": "Some examples",
-      "description": "There are a LOT of spell combinations to discover, so just trial and error!",
+      "description": "There are a LOT of spell combinations to discover, so just use trial and error!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36109,7 +36109,7 @@
     {
       "questID": 428,
       "name": "Basic rituals",
-      "description": "Now that you have access to elemental chalk, you can get yourself the basic ritual diviner. A convenient way to place simple but yet complex rituals.",
+      "description": "Now that you have access to elemental chalk, you can get yourself the basic ritual diviner. A convenient way to place simple but yet complex magical rituals.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36186,7 +36186,7 @@
     {
       "questID": 429,
       "name": "Powerful armor",
-      "description": "A long way to go, and rather expensive, but a really powerful armor and worth the effort.",
+      "description": "A long way to go, and rather expensive, but a really powerful armor and well worth the effort.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -36382,7 +36382,7 @@
     {
       "questID": 431,
       "name": "Bound armor",
-      "description": "Time to assemble your armor. You need to build the pattern with blocks as you would craft the armor in a crafting table. The soul forge must connect to the structure on at least 2 sides. Then, right click the forge block with an empty hand to craft the armor.",
+      "description": "Time to assemble your armor. You need to build the pattern with blocks as you would craft the armor in a crafting table. The soul forge must connect to the structure on at least 2 sides. Then, right click the forge block with an empty hand to craft the armor piece.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37381,8 +37381,8 @@
     },
     {
       "questID": 442,
-      "name": "\"Backed\" Potatos",
-      "description": "Eating raw potatoes isn\u0027t that healthy, as you might have noticed. Some Potatoes are green and poisonous already. After you get a Furnace you can make delicious baked potatoes as another food alternative. Put a baked potato on a stick to make it even more delicious.",
+      "name": "\"Backed\" Potatoes",
+      "description": "Eating raw potatoes isn\u0027t that healthy, as you might have noticed. Some potatoes are green and poisonous already. After you get a furnace you can make delicious baked potatoes as another food alternative. Put a baked potato on a stick to make it even more delicious.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37744,7 +37744,7 @@
     {
       "questID": 446,
       "name": "Shields UP",
-      "description": "With a sword in one hand, what can you do with the other? Right, you need a shield. Let\u0027s get one.",
+      "description": "With a sword in one hand, what can you do with the other? Right, you need a shield. Let\u0027s make one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37906,7 +37906,7 @@
     {
       "questID": 448,
       "name": "Shield Update",
-      "description": "Your wooden shield is very weak. So you look for a better one. Looks like you need leather, so go and find some cows.",
+      "description": "Your wooden shield is very weak. So you look for a better one. Looks like you need some leather, so go and find some cows.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -39472,7 +39472,7 @@
     {
       "questID": 471,
       "name": "Food Variants",
-      "description": "Maybe you noticed already that eating the same food too often is very boring and not healthy any more. Some food like tea leaf can be taken to the furnace and processed further. So take a break and drink a cup of tea. Maybe munch some tasty raisins as they are very good also.",
+      "description": "Maybe you noticed already that eating the same food too often is very boring and not healthy any more. Some food like tea leaf can be taken to the furnace and processed further. So take a break and drink a cup of tea. Maybe munch some tasty raisins as they are very nice.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40072,7 +40072,7 @@
     {
       "questID": 474,
       "name": "Upgrade 2.0",
-      "description": "Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe? I have an idea; bring me all the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.",
+      "description": "Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe? \nI have an idea; bring me all the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -40187,7 +40187,7 @@
     {
       "questID": 475,
       "name": "Upgrade #4: Upgrade Tier 5",
-      "description": "To process more advanced materials like HSS-E, HSS-S, naquadah or draconium you need more than 4500K. Upgrade your EBF to 5400k.",
+      "description": "To process more advanced materials like HSS-E, HSS-S, naquadah or draconium you need more than 4500K. Time to upgrade your EBF to 5400k.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40258,7 +40258,7 @@
     {
       "questID": 476,
       "name": "Upgrade #3: Upgrade Tier 6",
-      "description": "To process more advanced materials like naquadah-alloy you need more than 5400K. Upgrade your EBF to 7200k.",
+      "description": "To process more advanced materials like naquadah-alloy you need more than 5400K. Upgrade your EBF to 7200k to increase the heat.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41221,7 +41221,7 @@
     {
       "questID": 484,
       "name": "Can you hear the Carrots grow?",
-      "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will give you some bone meal.",
+      "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will trade you some bone meal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41434,7 +41434,7 @@
     {
       "questID": 486,
       "name": "Tanned Leather",
-      "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some bound leather from four pieces of leather, some stings and a woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather.",
+      "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some bound leather from four pieces of leather, some strings and a woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42551,7 +42551,7 @@
     {
       "questID": 495,
       "name": "Oh Shiny (Not Platinum!)",
-      "description": "To make your first macerator you need two diamonds, and to enter the Twilight Forest you need one. Finding a diamond vein would help you a lot. Go and find some at Y level 5-20.",
+      "description": "To make your first macerator you need two diamonds, and to enter the Twilight Forest you need one. Finding a diamond vein would help you a lot. Go and look for one at Y level 5-20.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
