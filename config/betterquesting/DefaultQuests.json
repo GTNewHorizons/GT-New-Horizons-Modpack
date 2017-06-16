@@ -11206,14 +11206,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -11304,8 +11304,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -11381,8 +11381,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -11458,8 +11458,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -11535,8 +11535,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -11612,14 +11612,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizardI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -11725,8 +11725,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -11796,8 +11796,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -11882,8 +11882,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12010,8 +12010,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12081,14 +12081,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12182,14 +12182,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmithI",
-              "Count": 4,
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinSurvivorI",
-              "Count": 4,
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12292,14 +12292,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmithI",
-              "Count": 4,
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinSurvivorI",
-              "Count": 4,
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12369,8 +12369,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12447,8 +12447,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12524,8 +12530,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12602,8 +12608,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12680,8 +12686,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12758,8 +12764,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12774,8 +12780,8 @@
     },
     {
       "questID": 147,
-      "name": "Not for rockets...",
-      "description": "It claims to be rocket fuel, but it isn\u0027t. However, it does generate quite a bit of power. Use your \"Vat\" to make some. Will generate 160 RF/t when used in a Combustion Generator.",
+      "name": "Rocket Fuel",
+      "description": "Rocketfuel are used in the future for Galacticraft Rockets. It does generate quite a bit of power. Use your chemical reactor to make some. Will generate 160 RF/t when used in a Combustion Generator or 112,000 eu per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12806,6 +12812,27 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30654
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30013
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "EnderIO:bucketRocket_fuel",
               "Count": 1,
               "OreDict": "",
@@ -12817,10 +12844,33 @@
       ],
       "rewards": [
         {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30654
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12829,7 +12879,8 @@
         }
       ],
       "preRequisites": [
-        142
+        846,
+        856
       ]
     },
     {
@@ -12879,8 +12930,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12939,8 +12990,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12999,8 +13050,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -13076,14 +13127,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSurvivorI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -13153,14 +13204,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSmithI",
-              "Count": 4,
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinSurvivorI",
-              "Count": 4,
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -45093,13 +45144,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -75598,13 +75643,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -75797,14 +75836,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -75893,13 +75926,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -75987,14 +76014,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -76199,12 +76220,6 @@
               "Count": 5,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -76305,14 +76320,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -76421,14 +76436,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -76547,13 +76556,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -76663,13 +76672,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -76773,14 +76776,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -77098,6 +77095,431 @@
       "preRequisites": [
         846,
         854
+      ]
+    },
+    {
+      "questID": 856,
+      "name": "1,1 Dimetylhydrazine",
+      "description": "1,1 Dimethylhydrazine needs some dimethylamine and chloramine in the chemical reactor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30654
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30656
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30655
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30654
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 30655
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        857,
+        858
+      ]
+    },
+    {
+      "questID": 857,
+      "name": "Dimethylamin",
+      "description": "Combining Ammonia and Methanol in the chemical reactor together gives you some Dimethylamne.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30656
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 30659
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 30673
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30656
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30659
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        843,
+        854
+      ]
+    },
+    {
+      "questID": 858,
+      "name": "Chloramine",
+      "description": "Combining Hypochlorus Acid and Ammonia in the chemical reactor together gives you some Chloramine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30655
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30659
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30684
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30655
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 30659
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        854,
+        859
+      ]
+    },
+    {
+      "questID": 859,
+      "name": "Hypochlorus Acid",
+      "description": "Hypochlorus Acid need Water, Chlorine and a bit mercury.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30684
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30023
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30087
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30684
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 826
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        126
       ]
     },
     {
@@ -81145,127 +81567,127 @@
         },
         {
           "id": 128,
-          "x": 336,
+          "x": 396,
           "y": 144
         },
         {
           "id": 129,
-          "x": 336,
+          "x": 396,
           "y": 180
         },
         {
           "id": 130,
-          "x": 336,
+          "x": 396,
           "y": 252
         },
         {
           "id": 131,
-          "x": 336,
+          "x": 396,
           "y": 372
         },
         {
           "id": 132,
-          "x": 384,
+          "x": 432,
           "y": 252
         },
         {
           "id": 133,
-          "x": 300,
-          "y": 204
+          "x": 360,
+          "y": 216
         },
         {
           "id": 134,
-          "x": 432,
+          "x": 468,
           "y": 180
         },
         {
           "id": 135,
-          "x": 384,
+          "x": 432,
           "y": 216
         },
         {
           "id": 136,
-          "x": 432,
+          "x": 468,
           "y": 216
         },
         {
           "id": 137,
-          "x": 468,
+          "x": 516,
           "y": 180
         },
         {
           "id": 138,
-          "x": 528,
+          "x": 564,
           "y": 144
         },
         {
           "id": 139,
-          "x": 528,
+          "x": 564,
           "y": 216
         },
         {
           "id": 140,
-          "x": 576,
+          "x": 612,
           "y": 144
         },
         {
           "id": 141,
-          "x": 576,
+          "x": 612,
           "y": 216
         },
         {
           "id": 142,
-          "x": 432,
+          "x": 468,
           "y": 252
         },
         {
           "id": 143,
-          "x": 420,
+          "x": 480,
           "y": 372
         },
         {
           "id": 144,
-          "x": 372,
-          "y": 336
+          "x": 432,
+          "y": 348
         },
         {
           "id": 145,
-          "x": 516,
+          "x": 564,
           "y": 432
         },
         {
           "id": 146,
-          "x": 468,
+          "x": 516,
           "y": 396
         },
         {
           "id": 147,
-          "x": 528,
-          "y": 288
+          "x": 336,
+          "y": 516
         },
         {
           "id": 148,
-          "x": 480,
+          "x": 516,
           "y": 252
         },
         {
           "id": 149,
-          "x": 432,
+          "x": 516,
           "y": 288
         },
         {
           "id": 150,
-          "x": 480,
+          "x": 564,
           "y": 288
         },
         {
           "id": 151,
-          "x": 528,
+          "x": 564,
           "y": 252
         },
         {
           "id": 152,
-          "x": 576,
+          "x": 612,
           "y": 252
         },
         {
@@ -81305,8 +81727,8 @@
         },
         {
           "id": 126,
-          "x": 96,
-          "y": 132
+          "x": 216,
+          "y": 204
         },
         {
           "id": 659,
@@ -81350,7 +81772,7 @@
         },
         {
           "id": 736,
-          "x": 156,
+          "x": 132,
           "y": 444
         },
         {
@@ -81400,8 +81822,8 @@
         },
         {
           "id": 757,
-          "x": 48,
-          "y": 84
+          "x": 264,
+          "y": 204
         },
         {
           "id": 758,
@@ -81410,7 +81832,7 @@
         },
         {
           "id": 759,
-          "x": 336,
+          "x": 384,
           "y": 480
         },
         {
@@ -81505,52 +81927,52 @@
         },
         {
           "id": 557,
-          "x": 156,
-          "y": 552
+          "x": 132,
+          "y": 588
         },
         {
           "id": 841,
           "x": 84,
-          "y": 600
+          "y": 624
         },
         {
           "id": 842,
           "x": 84,
-          "y": 444
+          "y": 408
         },
         {
           "id": 843,
-          "x": 132,
+          "x": 156,
           "y": 480
         },
         {
           "id": 844,
-          "x": 180,
+          "x": 108,
           "y": 480
         },
         {
           "id": 845,
-          "x": 156,
+          "x": 132,
           "y": 516
         },
         {
           "id": 846,
-          "x": 336,
-          "y": 516
+          "x": 384,
+          "y": 624
         },
         {
           "id": 847,
-          "x": 216,
+          "x": 336,
           "y": 480
         },
         {
           "id": 848,
-          "x": 216,
+          "x": 180,
           "y": 516
         },
         {
           "id": 849,
-          "x": 216,
+          "x": 180,
           "y": 552
         },
         {
@@ -81560,28 +81982,48 @@
         },
         {
           "id": 851,
-          "x": 264,
-          "y": 600
+          "x": 180,
+          "y": 624
         },
         {
           "id": 852,
           "x": 84,
-          "y": 480
+          "y": 444
         },
         {
           "id": 853,
-          "x": 264,
-          "y": 516
+          "x": 180,
+          "y": 588
         },
         {
           "id": 854,
-          "x": 216,
+          "x": 264,
           "y": 444
         },
         {
           "id": 855,
           "x": 264,
+          "y": 552
+        },
+        {
+          "id": 856,
+          "x": 300,
+          "y": 516
+        },
+        {
+          "id": 857,
+          "x": 264,
+          "y": 516
+        },
+        {
+          "id": 858,
+          "x": 300,
           "y": 444
+        },
+        {
+          "id": 859,
+          "x": 300,
+          "y": 252
         }
       ]
     },
