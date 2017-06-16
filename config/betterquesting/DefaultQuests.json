@@ -2015,7 +2015,7 @@
     {
       "questID": 23,
       "name": "Something to carry liquids",
-      "description": "You tried to move water with your bare hands, which didn\u0027t work at all. Luckily, you remember a way how to make a buckets out of clay.",
+      "description": "You tried to move water with your bare hands, which didn\u0027t work at all. Luckily, you remember how to make a bucket out of clay.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2446,7 +2446,7 @@
     {
       "questID": 29,
       "name": "Another fuel source",
-      "description": "Lignite and regular coal are the fuel sources you\u0027ll definitely need. The latter can be turned into coal coke, which is a superior fule source to smelt your first large batch of ore.",
+      "description": "Lignite and regular coal are the fuel sources you\u0027ll definitely need. The latter can be turned into coal coke, which is a superior fuel source to smelt your first large batch of ore.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2852,7 +2852,7 @@
     {
       "questID": 34,
       "name": "Aluminini...um...?",
-      "description": "However it is spelled, you will need it. You can find it in chunks of gravel on the surface. Try searching in rivers. (This quest is optional)",
+      "description": "However it is spelled, you will need it. You can find it in chunks of gravel on the surface. Try searching in rivers. (This quest is optional, but recommended)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2923,7 +2923,7 @@
     {
       "questID": 35,
       "name": "Making bronze",
-      "description": "Now that you\u0027ve found copper and tin, you should make yourself some bronze. Use your macer... mortar to grind up some copper and tin, and mix them together!",
+      "description": "Now that you\u0027ve found copper and tin, you should make yourself some bronze. Use your macer... mortar to grind up some copper and tin ingots, and mix them together!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3136,7 +3136,7 @@
     {
       "questID": 37,
       "name": "Getting iron",
-      "description": "Iron can be found in multiple veins. Magnetite veins (y 30-180), chalcopyrite veins (y 5-60), and limonite veins (y 10-40) all contain iron",
+      "description": "Iron can be found in multiple veins. Magnetite veins (y 30-180), chalcopyrite veins (y 5-60), and limonite veins (y 10-40) all contain iron ore.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3624,7 +3624,7 @@
     {
       "questID": 41,
       "name": "Don\u0027t burn your fingers!",
-      "description": "You have decided it\u0027s time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discover a magical item that would allow you to carry anything hot, even lava in a bucket.\n\nThe gloves have to be placed in the Baubles ring slots of Thaumcraft.",
+      "description": "You have decided it\u0027s time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discovered a pair of magical items that would allow you to carry anything hot, even lava in a bucket.\n\nThe gloves have to be placed in the Baubles ring slots of Thaumcraft.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -3954,7 +3954,7 @@
     {
       "questID": 45,
       "name": "Multiblock Tanks... Railcraft Tanks",
-      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If this isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
+      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5411,7 +5411,7 @@
     {
       "questID": 62,
       "name": "The power of the sun",
-      "description": "The sun has quite a bit of power, so why not use it to produce steam?",
+      "description": "The sun has quite a bit of power, so why not use it to produce steam? \n\n(Hint: Just remember that the solar boiler calcifies and becomes less efficient over time.)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6051,7 +6051,7 @@
     {
       "questID": 69,
       "name": "Wire-Wrap",
-      "description": "Placing wires without insulation seems to be a bad idea. Now that you have an extractor to extract raw rubber out of sticky resin and an alloy smelter to further process it using sulphur, you should work on getting some rubber sheets.",
+      "description": "Placing wires without insulation seems to be a bad idea. Now that you have an extractor to extract raw rubber out of sticky resin and an alloy smelter to further process it using sulphur, you should work on getting some insulating rubber sheets.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -6740,7 +6740,7 @@
     {
       "questID": 75,
       "name": "The water dilemma",
-      "description": "Finite water is a problem. But fear not, there are solutions! I shall guide you to get a steady supply of water.",
+      "description": "Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7055,7 +7055,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully fixed)",
+      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully fixed)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7487,7 +7487,7 @@
     {
       "questID": 81,
       "name": "At the end of...",
-      "description": "...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff. You need a minimum of 16 frost proof machine casing depends on your setup.",
+      "description": "...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff. You will need a minimum of 16 frost proof machine casings, the rest depends on your setup.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7646,7 +7646,7 @@
     {
       "questID": 83,
       "name": "High speed charcoal",
-      "description": "Sure, those coke ovens are nice, but they aren\u0027t even remotely fast enough to keep up with a large steam boiler. Luckily, there is an upgrade available! The creosote oil will not be produced, but the process will speed up dramatically. Who needs that nasty yellowish stuff anyway...",
+      "description": "Sure, those coke ovens are nice, but they aren\u0027t even remotely fast enough to keep up with a large steam boiler. Luckily, there is an upgrade available! The creosote oil will not be produced, but the process will speed up dramatically. Who needs that nasty yellowish flammable stuff anyway...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7795,7 +7795,7 @@
     {
       "questID": 84,
       "name": "Where I can put all the liquids?",
-      "description": "With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It is possible to upgrade those tanks so they can hold up to 64 buckets.",
+      "description": "With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It\u0027s possible to upgrade those tanks so they can hold up to 64 buckets.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7925,7 +7925,7 @@
     {
       "questID": 85,
       "name": "Smelt all the things...",
-      "description": "...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can\u0027t go any faster! (Parallel smelting depends on coils, consult your doctor before use)",
+      "description": "...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can\u0027t go any faster! \n\n(Parallel smelting depends on coils, consult your local doctor before use.)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8011,7 +8011,7 @@
     {
       "questID": 86,
       "name": "Upgrade #3: Upgrade Tier 4",
-      "description": "To process more advanced materials like enderium, enriched naquadah or niobium-titanium you need more than 3600K. Upgrade your EBF... again.",
+      "description": "To process more advanced materials like enderium, enriched naquadah or niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8082,7 +8082,7 @@
     {
       "questID": 87,
       "name": "Steel Multiblock Tanks",
-      "description": "Do you want to have tanks that can hold double that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
+      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\n(Hint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8249,7 +8249,7 @@
     {
       "questID": 89,
       "name": "Tier 3",
-      "description": "In tier 3, you will be able to craft your first actually \"useful\" machines. Basic ones do the job, but with MV, a lot more recipes will unlock. Your goal here is to set up stable ore processing for the vast amounts of materials you\u0027ll need later on. You also should focus on power production if you haven\u0027t already.",
+      "description": "In tier 3, you will be able to craft your first actually \"useful\" machines. Basic ones do the job, but with MV, a lot more recipes will unlock. Your goal here is to set up stable ore processing for the vast amounts of materials you\u0027ll need later on. You also should focus on power production if you haven\u0027t already done that.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8395,7 +8395,7 @@
     {
       "questID": 91,
       "name": "You\u0027re gonna hate this #1",
-      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of chests or barrels you\u0027ll need one (Goes pretty well with item pipes or GT machines, adjust with screwdriver).",
+      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of chests or barrels you\u0027ll need one. \n\n(Hint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8470,7 +8470,7 @@
     {
       "questID": 92,
       "name": "You\u0027re gonna hate this #4",
-      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever (Works like a conveyor but can work with selected item slots, adjust with screwdriver).",
+      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever. \n\n(Hint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8545,7 +8545,7 @@
     {
       "questID": 93,
       "name": "You\u0027re gonna hate this #2",
-      "description": "The second item you\u0027ll need a lot of. When you want to get fluid out of tanks you\u0027ll need one (Goes pretty well with fluid pipes or GT machines, adjust with screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed).",
+      "description": "The second item you\u0027ll need a lot of. When you want to get fluid out of tanks you\u0027ll need one. \n\n(Hint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
