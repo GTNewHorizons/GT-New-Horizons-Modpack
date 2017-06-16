@@ -19744,6 +19744,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -19825,13 +19836,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -19900,7 +19911,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -19960,6 +19971,17 @@
             {
               "id": "Thaumcraft:ItemLootBag",
               "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -20119,13 +20141,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -20274,8 +20296,20 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -20345,7 +20379,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -20414,7 +20448,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -20515,7 +20549,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -20586,7 +20620,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -20655,15 +20689,26 @@
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Reputation (0)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        232
+        232,
+        753
       ]
     },
     {
@@ -20724,7 +20769,19 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -20821,8 +20878,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -20913,8 +20970,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 100,
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -20987,7 +21044,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -21061,7 +21118,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -21130,7 +21193,13 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -21207,7 +21276,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
+              "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
               "Damage": 0
@@ -21294,7 +21363,19 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         242
       ]
@@ -21378,6 +21459,17 @@
                 "nodemod:4": 1,
                 "nodeid:8": "0:-312:64:54"
               }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -21522,6 +21614,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -21612,6 +21715,17 @@
                 "nodemod:4": 1,
                 "nodeid:8": "0:-312:64:54"
               }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -21708,6 +21822,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -21798,6 +21923,17 @@
                 "nodemod:4": 1,
                 "nodeid:8": "0:-312:64:54"
               }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -21894,6 +22030,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -21962,7 +22109,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 2,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -22066,8 +22213,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 5,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -22136,8 +22289,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 5,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -22206,6 +22365,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -22335,6 +22505,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -22395,6 +22576,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -22452,6 +22644,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -51093,13 +51296,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -71038,8 +71241,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 10,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
