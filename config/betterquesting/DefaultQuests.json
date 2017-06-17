@@ -82393,7 +82393,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "NAND",
+      "logic": "AND",
       "taskLogic": "AND",
       "icon": {
         "id": "TConstruct:heartCanister",
