@@ -7925,7 +7925,7 @@
     {
       "questID": 85,
       "name": "Smelt all the things...",
-      "description": "...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can\u0027t go any faster! \n\n(Parallel smelting depends on coils, consult your local doctor before use.)",
+      "description": "...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can\u0027t go any faster! \n\nHint: Parallel smelting depends on coils, consult your local doctor before use.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8010,7 +8010,7 @@
     },
     {
       "questID": 86,
-      "name": "Upgrade #3: Upgrade Tier 4",
+      "name": "Upgrade #3: Upgrade tier 4",
       "description": "To process more advanced materials like enderium, enriched naquadah or niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.",
       "isMain": false,
       "isSilent": false,
@@ -8081,7 +8081,7 @@
     },
     {
       "questID": 87,
-      "name": "Steel Multiblock Tanks",
+      "name": "Steel multiblock tanks",
       "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
       "isMain": false,
       "isSilent": false,
@@ -8470,7 +8470,7 @@
     {
       "questID": 92,
       "name": "You\u0027re gonna hate this #4",
-      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.",
+      "description": "The fourth item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8691,7 +8691,7 @@
     {
       "questID": 95,
       "name": "You\u0027re gonna hate this #3",
-      "description": "A piston, but more .. \"Electrical\". The 4th item you are going to craft a lot in the future.",
+      "description": "A piston, but more .. \"electrical\". The third item you are going to craft a lot of in the future.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9119,7 +9119,7 @@
     },
     {
       "questID": 101,
-      "name": "Mjölnir!!! (Electric Forge Hammer)",
+      "name": "Mjölnir!!! (electric forge hammer)",
       "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
@@ -9191,7 +9191,7 @@
     {
       "questID": 102,
       "name": "Cutting things apart",
-      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and of that will be done with the highest possible efficiency. Totally worth it! \n\nHint: Just add water.",
+      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and all of that will be done with the highest possible efficiency. Totally worth it! \n\nHint: Just add water.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -10181,8 +10181,8 @@
     },
     {
       "questID": 116,
-      "name": "Alloy Smelter",
-      "description": "Upgrade your Steam Alloy Smelter to a LV one.",
+      "name": "Alloy smelter",
+      "description": "Upgrade your steam alloy smelter to a LV one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -10479,7 +10479,7 @@
     {
       "questID": 120,
       "name": "Protect your base; Tier 1",
-      "description": "One needs proper protection for ones home. So why not get some turrets for safety? At the moment, 2 Turrets are available; \"Potato\" and \"disposable item\". I assume you can guess what they do and how they work...",
+      "description": "One needs proper protection for ones home. So why not get some turrets for safety? At the moment, 2 Turrets are available: \"Potato\" and \"disposable item\". I assume you can guess what they do and how they work...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11024,8 +11024,8 @@
     },
     {
       "questID": 127,
-      "name": "Project Red Begging",
-      "description": "First of all there are 3 types of pipes: Null Logic, Pressurized and Routed.\n-Null Logic are the most basic kind. They can\u0027t have any logical thinking. Item transport pipes are of this category and they are used to craft and connect the routed and pressurized pipes. It would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced. They can communicate with each other in order to create pipe networks, and can be used for very complex tasks.\n \n-Pressurized pipes are too complicated to use and explain. You won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever, in order to control the logic of the routed pipes you will need special circuit chips.",
+      "name": "Project red begging",
+      "description": "First of all there are 3 types of pipes: null logic, pressurized and routed.\n-Null Logic are the most basic kind. They can\u0027t have any logical thinking. Item transport pipes are of this category and they are used to craft and connect the routed and pressurized pipes. It would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced. They can communicate with each other in order to create pipe networks, and can be used for very complex tasks.\n \n-Pressurized pipes are too complicated to use and explain. You won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever, in order to control the logic of the routed pipes you will need special circuit chips.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11407,7 +11407,7 @@
     },
     {
       "questID": 131,
-      "name": "Simple RF-Power: Solid",
+      "name": "Simple RF power: Solid",
       "description": "By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. (Still, GT wiring and transformers can transform EU to RF)",
       "isMain": false,
       "isSilent": false,
@@ -11484,7 +11484,7 @@
     },
     {
       "questID": 132,
-      "name": "Simple RF-Power: Liquids",
+      "name": "Simple RF power: Liquids",
       "description": "This generator requires both water as coolant, and a burnable liquid as fuel. The amount of power it produces depends on the type of liquid used.",
       "isMain": false,
       "isSilent": false,
@@ -12636,7 +12636,7 @@
     {
       "questID": 145,
       "name": "Ore processing kind of...",
-      "description": "Maceration versus SAG milling, the war still rages on with no end in sight.",
+      "description": "Maceration versus sag milling, the war still rages on with no end in sight.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12791,8 +12791,8 @@
     },
     {
       "questID": 147,
-      "name": "Rocket Fuel",
-      "description": "Rocket Fuel are used in the future for Galacticraft Rockets. It does generate quite a bit of power. Use your chemical reactor to make some. Will generate 160 RF/t when used in a Combustion Generator or 112,000 eu per cell.",
+      "name": "Rocket fuel",
+      "description": "Rocket fuel are used in the future for galacticraft rockets. It does generate quite a bit of power. Use your chemical reactor to make some. Will generate 160 RF/t when used in a combustion generator or 112,000 eu per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12897,7 +12897,7 @@
     {
       "questID": 148,
       "name": "Tasty...",
-      "description": "Yeah, that is... Well.. You are sure it will have an usage for something... some day... eventually...maybe...",
+      "description": "Yeah, that is... Well.. You are sure it will have an usage for something... some day... eventually... maybe...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13076,7 +13076,7 @@
     },
     {
       "questID": 151,
-      "name": "Automated Mob-Farming",
+      "name": "Automated mob-farming",
       "description": "Of course... zombies loves that... disgusting liquid. While using a small amount per hit, he will attack everything that is within his range. That also includes players, so be careful. Rumors are, that there might be a weapon that will never break when used in this \"machine\"...",
       "isMain": false,
       "isSilent": false,
@@ -13160,7 +13160,7 @@
     {
       "questID": 152,
       "name": "And it will never break",
-      "description": "By using an etheric sword, your Killer Joe will run.. forever. Proper enchantments are a requirement for it to be efficient, but that shouldn\u0027t be a problem.",
+      "description": "By using an etheric sword, your killer joe will run.. forever. Proper enchantments are a requirement for it to be efficient, but that shouldn\u0027t be a problem.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
