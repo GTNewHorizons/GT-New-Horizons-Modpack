@@ -2852,7 +2852,7 @@
     {
       "questID": 34,
       "name": "Aluminini...um...?",
-      "description": "However it is spelled, you will need it. You can find it in chunks of gravel on the surface. Try searching in rivers. (This quest is optional, but recommended)",
+      "description": "However it is spelled, you will need it. You can find it in chunks of gravel on the surface. Try searching in rivers. (This quest is optional, but recommended.)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -3953,7 +3953,7 @@
     },
     {
       "questID": 45,
-      "name": "Multiblock Tanks... Railcraft Tanks",
+      "name": "Multiblock tanks... railcraft tanks",
       "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
       "isMain": false,
       "isSilent": false,
@@ -4210,7 +4210,7 @@
     {
       "questID": 48,
       "name": "A very important alloy",
-      "description": "The most important alloy (until you reach a higher tier) is undoubtedly red alloy. Fortunately, you have an alloy smelter, so grab some redstone and get yourself a handful of that.",
+      "description": "The most important alloy (until you reach a higher tier) is undoubtedly red alloy. Fortunately, you have an alloy smelter, so grab some redstone and combine it with copper to get yourself a handful of that.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4287,7 +4287,7 @@
     {
       "questID": 49,
       "name": "The hell is that?",
-      "description": "In order to get more machines, you\u0027ll need pistons. But not those amateurish ones, you need special ones, and I shall guide you in making them.",
+      "description": "In order to get more machines, you\u0027ll need pistons. But not those amateurish ones, you need special ones, and I shall guide you in the making of them.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4875,7 +4875,7 @@
     },
     {
       "questID": 55,
-      "name": "Upgrade: Better compressor",
+      "name": "Upgrade: A better compressor",
       "description": "An updated version of the steam compressor. Uses more steam, but is almost twice as fast. (This quest is optional)",
       "isMain": false,
       "isSilent": false,
@@ -5220,7 +5220,7 @@
     {
       "questID": 59,
       "name": "Steam alternatives",
-      "description": "There is more than one way to get steam for your machines. This completely optional quest shows you some alternative methods for getting steam.",
+      "description": "There is more than one way to get steam for your machines. This completely optional quest shows you some alternative methods for producing steam.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
