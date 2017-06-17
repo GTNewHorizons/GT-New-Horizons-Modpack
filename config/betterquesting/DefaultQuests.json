@@ -13943,7 +13943,7 @@
     {
       "questID": 162,
       "name": "Dimensional Goal: Moon",
-      "description": "HV is the age where you should focus on reaching the moon, as soon as possible. Since you will need titanium in large quantities. \n\n(Hint: more info will be found in the Quest Tab Space Race.)",
+      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. Since you will need titanium in large quantities. \n\n(Hint: more info will be found in the Quest Tab Space Race.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -16753,7 +16753,7 @@
     {
       "questID": 187,
       "name": "Dimensional Goal: Phobos",
-      "description": "A smaller goal, as the main goal is Mars. But you\u0027ll find different ores on this moon too.",
+      "description": "A smaller goal, as the main goal is Mars. But you\u0027ll find different ores on this moon also.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18791,7 +18791,7 @@
     },
     {
       "questID": 212,
-      "name": "Pulverize the moon",
+      "name": "Pulverize the Moon",
       "description": "Literally. You can grind the rock of most planets, to get a chance for higher tier metal dusts. Does consume quite a bit of power, but can really help you out.",
       "isMain": false,
       "isSilent": false,
@@ -54303,7 +54303,7 @@
     {
       "questID": 618,
       "name": "Sulfuric Acid",
-      "description": "Combining hydrogen sulfide and water in the Chemical Reactor gives sulfuric acid for your single use acid batteries. If you made some light and heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can make sulfuric acid with some sulfur and water in the Chemical Reactor too.",
+      "description": "Combining hydrogen sulfide and water in a chemical reactor gives sulfuric acid for your single use acid batteries. If you made some light and heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can make sulfuric acid with some sulfur and water in a chemical reactor too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63376,7 +63376,7 @@
     {
       "questID": 702,
       "name": "Tier 5 slates",
-      "description": "1023 Buckets of blood in one slate! How much more I can store, oh I wish I would know. Then I add one and check if it works. 1024 Buckets of blood in one slate! ... ...",
+      "description": "1023 Buckets of blood in one slate! How much more I can store, oh I wish I would know. Then I add one and check if it works. 1024 buckets of blood in one slate! ... ...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63749,7 +63749,7 @@
     {
       "questID": 706,
       "name": "Ethereal chalk",
-      "description": "Top Tier chalk, for fancy wall paintings?",
+      "description": "Top tier chalk, for fancy wall paintings?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63820,7 +63820,7 @@
     {
       "questID": 707,
       "name": "Archmage orb. Let them come!",
-      "description": "Your Tier 5 orb.",
+      "description": "Your tier 5 orb.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63891,7 +63891,7 @@
     {
       "questID": 708,
       "name": "Master orb: Getting close",
-      "description": "Your Tier 4 orb.",
+      "description": "Your tier 4 orb.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64790,7 +64790,7 @@
     {
       "questID": 717,
       "name": "Good Circuits.",
-      "description": "Good circuits are an improvement on basic circuits. They are a component of all MV GregTech machines. Be sure you build the EBF first, so you can process some Aluminium Dust into ingots.",
+      "description": "Good circuits are an improvement on basic circuits. They are a component of all MV GregTech machines. Be sure you build the electric blast furnace first, so you can process some aluminium dust into ingots.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -65245,7 +65245,7 @@
     {
       "questID": 721,
       "name": "Unknown seeds no more",
-      "description": "You have a lot of unknown seeds already. Use your scanner to scan all the seeds. \nSeeds can be planted again to breed better and more resillient crops.",
+      "description": "You have a lot of unknown seeds already. Use your scanner to scan all the seeds. \nSeeds can be planted again to breed better and more resilient crops.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65358,7 +65358,7 @@
     {
       "questID": 722,
       "name": "Speed up your plant growth",
-      "description": "To speed up the growth process a bit you can use a fertilizer. You will note, however, that bone meal no longer works. A bit of ash, apatite or calcite mixed with some distilled water in the chemical reactor will give you the fertilizer you need.",
+      "description": "To speed up the growth process a bit you can use a fertilizer. You will note, however, that bone meal no longer works. A bit of ash, apatite or calcite mixed with some distilled water in a chemical reactor will give you the fertilizer you need.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65752,7 +65752,7 @@
     {
       "questID": 726,
       "name": "Chemical rubber production",
-      "description": "A much more efficient way to make insulated cables is by making molten rubber in the Chemical Reactor which can be applied to a cable in the Assembling Machine. When you put both machines next to each other you can output the molten rubber directly to the Assembling Machine.",
+      "description": "A much more efficient way to make insulated cables is by making molten rubber in a chemical reactor which can be applied to a cable in the assembling machine. When you put both machines next to each other you can output the molten rubber directly to the assembling machine by clicking the fluid auto-output button on the chemical reactor. Make sure to set the correct side of the reactor as output side by wrenching it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65862,7 +65862,7 @@
     {
       "questID": 727,
       "name": "Better than barrels",
-      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system (Tec2k17)\nlater in the HV age with some help from ProjectRed Transportation.",
+      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system (Tec2k17)\nlater in the HV age with some help of ProjectRed Transportation.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66100,7 +66100,7 @@
     {
       "questID": 730,
       "name": "Bio Fuels",
-      "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with biodiesel. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or IC2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biodiesel.",
+      "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with bio diesel. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or IC2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biodiesel.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -66190,7 +66190,7 @@
     {
       "questID": 731,
       "name": "Plant balls",
-      "description": "The first step is to compress plantballs out of your wheat. Your LV Compressor is too slow for it. I suggest to craft 4 MV Compressors for the new biodiesel processing line.",
+      "description": "The first step is to compress plantballs out of your wheat. Your LV compressor is too slow for it. I suggest crafting 4 MV compressors for the new bio diesel processing line.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -66294,7 +66294,7 @@
     {
       "questID": 732,
       "name": "Plant Mass",
-      "description": "Macerate the plantballs down to plant mass for better processing. In the LV and MV tiers you get only one plant mass per, in HV tier you recieve two. IV Macerator gives up to four of them with a chance of 50% and 25%.",
+      "description": "Macerate the plantballs down to plant mass for better processing. In the LV and MV tiers you get only one plant mass per, in HV tier you recieve two. IV macerator gives up to four of them with a chance of 50% and 25%.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -66398,7 +66398,7 @@
     {
       "questID": 733,
       "name": "Bio Chaff",
-      "description": "Plant mass needs to be centrifuged into bio chaff, the base material to make biomass. You need 1-2 MV Centrifuges to run the new production line.",
+      "description": "Plant mass needs to be centrifuged into bio chaff, the base material to make biomass. You need 1 or 2 MV centrifuges to run the new production line.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -66502,7 +66502,7 @@
     {
       "questID": 734,
       "name": "Way One: IC 2 Fluid Canner",
-      "description": "The first way you get biomass out of bio chaff is to use the IC2 Fluid Canner. One bucket of water and one bio chaff give one bucket of biomass. In HV Tier you can use the Pyrolyze Oven to do it in a more efficient way.",
+      "description": "The first way you get biomass out of bio chaff is to use the IC2 Fluid Canner. One bucket of water and one bio chaff give one bucket of biomass. In HV Tier you can use the pyrolyze oven to do it in a more efficient way.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -66606,7 +66606,7 @@
     {
       "questID": 735,
       "name": "Way Two: Brewery",
-      "description": "If you are lucky and find some brewing stands or familiar enough with Thaumcraft to make one you can craft a Brewery. You get 750mb of biomass out of 750mb water and 1 bio chaff. In HV tier you can use the Pyrolyze Oven to do it in a more efficient way.",
+      "description": "If you are lucky and find some brewing stands or familiar enough with Thaumcraft to make one you can craft a brewery. You get 750mb of biomass out of 750mb water and 1 bio chaff. In HV tier you can use the pyrolyze oven to do it in a more efficient way.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -66710,7 +66710,7 @@
     {
       "questID": 736,
       "name": "Fermented Biomass",
-      "description": "With the MV Fermenter you can produce fermented Biomass the main product for Methane, Ethanol and Methanol.\nIf you reach HV Tier there\u0027s a more efficient way to process it, the Distillation Tower multiblock.",
+      "description": "With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.\nWhen you reach HV tier there\u0027s a more efficient way to process it; the distillation tower multiblock.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -67191,7 +67191,7 @@
     {
       "questID": 740,
       "name": "Extrude all the things",
-      "description": "Now you hit the MV Tier and it\u0027s time to get a better ratio when making sticks, pipes, wires, plates and many more parts. Most recipes use more than 32 EU/t so better make a MV Extruder. After crafting the machine you need some extruder shapes for the different types of parts you want to make.\n\nMost of the Tinkers Gregworks tool parts are made in the Extruder.",
+      "description": "Now you hit the MV tier and it\u0027s time to get a better ratio when making sticks, pipes, wires, plates and many more parts. Most recipes use more than 32 EU/t so better make a MV extruder. After crafting the machine you need some extruder shapes for the different types of parts you want to make.\n\nMost of the Tinkers Gregworks tool parts are made in the extruder.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -67325,7 +67325,7 @@
     {
       "questID": 741,
       "name": "Tool Forge",
-      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a Tool Forge for making bigger Tinkers tools. ",
+      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a tool forge for making bigger Tinkers tools. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -67612,7 +67612,7 @@
     },
     {
       "questID": 743,
-      "name": "Cutting a Tree log by log is so old School",
+      "name": "Cutting a Tree log by log is so Old School",
       "description": "By making a steel lumber axe you are now able to cut down the entire tree in one hit. Don\u0027t forget your backpack when you are cutting a sacred oak tree down.",
       "isMain": false,
       "isSilent": false,
@@ -67787,7 +67787,7 @@
     },
     {
       "questID": 744,
-      "name": "Mining Dirt Block by Block is so old School",
+      "name": "Mining Dirt Block by Block is so Old School",
       "description": "By making a steel excavator you are now able to mine dirt in a 3x3 area. Don\u0027t destroy your whole garden.",
       "isMain": false,
       "isSilent": false,
@@ -67963,7 +67963,7 @@
     {
       "questID": 745,
       "name": "Glue",
-      "description": "If you centrifuge sticky resin, you get some glue. Glue is very useful in the creation of Good Circuit Boards.",
+      "description": "If you centrifuge sticky resin, you get some glue. Glue is very useful in the creation of good circuit boards.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68073,7 +68073,7 @@
     {
       "questID": 746,
       "name": "Silicon",
-      "description": "Due to the chip production silicon becomes a more important material. You can centrifuge it out of fullers earth, asbestos or redstone dust. The EBF is needed to make ingots. One ingot requires a Temperature of 1687 K for 84 seconds at 120 EU/t.",
+      "description": "Due to the chip production silicon becomes a more important material. You can centrifuge it out of fullers earth, asbestos or redstone dust. The electric blast furnace is needed to make ingots. One ingot requires a temperature of 1687 K for 84 seconds at 120 EU/t.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68172,7 +68172,7 @@
     {
       "questID": 747,
       "name": "Empty Circuit Board",
-      "description": "Good circuit need Diodes. There are two ways to craft it. Using a Silicon Wafer togeter with some fine Tin wire or Gallium Arsenide. Molten Glass is also needed.",
+      "description": "Good circuits need diodes. There are two ways to craft them. Using a silicon wafer together with some fine tin wire or gallium arsenide. Molten glass is also needed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68285,7 +68285,7 @@
     {
       "questID": 748,
       "name": "Empty Circuit Board",
-      "description": "Good circuit boards require a wooden pulp and glue to make Phenolic Boards. With goldwire you can craft an good circuit board.",
+      "description": "Good circuit boards require wooden pulp and refined glue to make phenolic circuit boards. By adding gold wire you can craft a good circuit board.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68419,7 +68419,7 @@
     },
     {
       "questID": 749,
-      "name": "Are you Prepared for HV ?",
+      "name": "Are you Prepared for HV?",
       "description": "Stainless steel will be the material for the HV Tier. There are two ways to process it. Mixing it by hand outputs 8 stainless steel dust.\n\nManganese can be found in ore veins together with grossular ore, spessartine ore, pyrolusite ore and tantalite ore.\n\nChrome can be centrifuged out of manganese dust and ruby dust.",
       "isMain": true,
       "isSilent": false,
@@ -68535,8 +68535,8 @@
     },
     {
       "questID": 750,
-      "name": "Molten Platic",
-      "description": "Molten polyethylene can be made in the chemical reactor using ethylen, compressed air cells or oxygen. Use a mold for making plates in a fluid solidifier to make plastic sheets.",
+      "name": "Molten Plastic",
+      "description": "Molten polyethylene can be made in a chemical reactor using ethylen, compressed air cells or oxygen. Use a mold for making plates in a fluid solidifier to make plastic sheets.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68661,7 +68661,7 @@
     {
       "questID": 751,
       "name": "Mixing Stainless Steel",
-      "description": "Stainless steel will be the material for the HV Tier. There are two ways to process it. Mixing it in a Mixer outputs 9 stainless steel dust each process.\n\nManganese can be found in ore veins together with grossular ore, spessartine ore, pyrolusite ore and tantalite ore.\n\nChrome can be centrifuged out of manganese dust and ruby dust.",
+      "description": "Stainless steel will be the material for the HV Tier. There are two ways to process it. Mixing it in a mixer outputs 9 stainless steel dust each process.\n\nManganese can be found in ore veins together with grossular ore, spessartine ore, pyrolusite ore and tantalite ore.\n\nChrome can be centrifuged out of manganese dust and ruby dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68792,7 +68792,7 @@
     {
       "questID": 752,
       "name": "Silicon Plate",
-      "description": "Advanced Circuits require Transistors, which are made out of Silicon Plates, fine tin wire and molten polyethylene.",
+      "description": "Advanced circuits require transistors, which are made out of silicon plates, fine tin wire and molten polyethylene.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68869,7 +68869,7 @@
     {
       "questID": 753,
       "name": "Stainless Steel EBF processing",
-      "description": "Stainless steel ingots are made in the Electric Blast Furnace at a temperature of 1700K  \n80 seconds at 480 EU/t or using oxygen gas 60 seconds at 480 EU/t.\n\nYou need a miniumum of two MV energy hatches to power the EBF.",
+      "description": "Stainless steel ingots are made in the electric blast furnace at a temperature of 1700K. \nIt takes 80 seconds at 480 EU/t or by adding oxygen gas 60 seconds at 480 EU/t.\n\nYou need a miniumum of two MV energy hatches to power the EBF.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -68941,7 +68941,7 @@
     {
       "questID": 754,
       "name": "MV Energy Hatch",
-      "description": "Some materials like stainless steel require 480 EU/t. Your LV hatches are not good enough. Craft a minimum of two MV hatches to upgrade your EBF to HV.",
+      "description": "Some materials like stainless steel require 480 EU/t. Your LV hatches are not good enough. Craft a minimum of two MV hatches to upgrade your electric blast furnace to HV.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -69013,7 +69013,7 @@
     {
       "questID": 755,
       "name": "Better than Duct Tape",
-      "description": "Better than duct tape is a soldering iron tool to remove the burned out circuits message. \nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player\u0027s inventory.\n\nFor the other problems other tools are necessary.\n\nPossible problems                  Tool to fix\n\"Pipe is loose.\"                        Wrench\n\"Screws are missing.\"             Screwdriver \n\"Something is stuck.\"               Soft mallet \n\"Platings are dented.\"            Hammer \n\"Circuitry burned out.\"          Soldering Iron \n\"That doesn\u0027t belong there.\" Crowbar",
+      "description": "A soldering iron tool to remove the burned out circuits message is better than duct tape. \nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player\u0027s inventory.\n\nFor the other problems other tools are necessary.\n\nPossible problems                  Tool to fix\n\"Pipe is loose.\"                        Wrench\n\"Screws are missing.\"             Screwdriver \n\"Something is stuck.\"               Soft mallet \n\"Platings are dented.\"            Hammer \n\"Circuitry burned out.\"          Soldering Iron \n\"That doesn\u0027t belong there.\" Crowbar",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69104,7 +69104,7 @@
     {
       "questID": 756,
       "name": "Less Power loss",
-      "description": "When you reach MV Tier you can make your own duct tape in case you have to move your EBF around. Duct tape will fix all maintenance problems in the EBF.",
+      "description": "When you reach MV tier you can make your own duct tape in case you have to move your multiblock machines around. Duct tape will fix all maintenance problems in any multiblock machine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69236,7 +69236,7 @@
     {
       "questID": 757,
       "name": "Ruby Electrolyzing",
-      "description": "Ruby is a good source for electrolysing to get chrome and aluminium.  With your new MV Electrolyser you are able to do all these recipes.",
+      "description": "Ruby is a good source for electrolyzing to get chrome and aluminium.  Your new MV electrolyzer gives you access to a lot of new recipes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69409,8 +69409,8 @@
     },
     {
       "questID": 759,
-      "name": "Molten Polyethylen",
-      "description": "Polyethylen is made out of Ethylen in the chemical reactor.",
+      "name": "Molten Polyethylene",
+      "description": "Polyethylene is made out of ethylene in a chemical reactor.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -69533,7 +69533,7 @@
     {
       "questID": 760,
       "name": "Clay Electrolyzing",
-      "description": "You found out that clay is a very good source for electrolysing silicon out of it. There are plenty of stained clay blocks found in canyon biomes or on mountains.",
+      "description": "You found out that electrolyzing clay dust will give you silicon dust. There are plenty of stained clay blocks found in canyon biomes or on mountains that can be pulverized to clay dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -69636,8 +69636,8 @@
     },
     {
       "questID": 761,
-      "name": "Powder Barrels",
-      "description": "Powderbarrels are twice better than dynamite in the Implosion Compressor. Craft one Stack.",
+      "name": "Powderbarrels",
+      "description": "Powderbarrels are twice as good as dynamite in the implosion compressor. Craft one stack.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69747,7 +69747,7 @@
     {
       "questID": 762,
       "name": "TNT",
-      "description": "TNT is much more powerful than the powderbarrel but much harder to craft. There are a LV and a HV ways to craft. At LV you need heavy or light fuel to make some toluene wich can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in the Chemical Reactor to make toluene more efficient. Mix it with sulfuric acid to make TNT.\n\nThe HV way requires an Oil Cracking Unit to make cracked light fuel and a Distillation Tower to extract toluene from that.",
+      "description": "TNT is much more powerful than the powderbarrel but much harder to craft. There are a LV and a HV ways to craft. At LV you need heavy or light fuel to make some toluene wich can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in a chemical reactor to make toluene more efficient. Mix it with sulfuric acid to make TNT.\n\nThe HV way requires an oil cracking unit to make all kinds of cracked fuel or cracked naphta and a distillation tower to extract toluene from that.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69875,7 +69875,7 @@
     {
       "questID": 763,
       "name": "iTNT",
-      "description": "Industrial TNT is the HV variant of TNT. It does not destroy blocks when it explodes.",
+      "description": "Industrial TNT is the HV variant of TNT. It explodes with more power, yet does not destroy blocks when it explodes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70008,8 +70008,8 @@
     },
     {
       "questID": 764,
-      "name": "Dynamit",
-      "description": "Dynamite is the most basic explosive you can use in the implosion compressor.\nMixing some paper, string and glyceryl trinitrate in the chemical reactor to get Dynamite.",
+      "name": "Dynamite",
+      "description": "Dynamite is the most basic explosive you can use in the implosion compressor.\nMix some paper, string and glyceryl trinitrate in a chemical reactor to get dynamite.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70128,7 +70128,7 @@
     {
       "questID": 765,
       "name": "Time to drill! ",
-      "description": "Pumps are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for it using a seismic prospector. You can find raw, light and heavy oil. There\u0027s also  a chance to find natural gas.\n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch coresponding to the power tier. ",
+      "description": "Pumps are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There\u0027s also a chance to find natural gas.\n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch coresponding to the power tier. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70266,7 +70266,7 @@
     {
       "questID": 766,
       "name": "Let\u0027s get it crackin!",
-      "description": "Cracking oil will result in better byproducts in the Distillation Tower. It is a smart idea to get this multiblock since you are going to need TONS of TNT for advanced tier rockets. \n\nIf you input steam the amout of EU/t will be reduced by 50% and if you input hydrogen the output will be increased by 30%",
+      "description": "Cracking oil will result in better by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT for advanced tier rockets. \n\nIf you add steam the amout of EU/t will be reduced by 50% and if you add hydrogen the output will be increased by 30%",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70400,7 +70400,7 @@
     {
       "questID": 767,
       "name": "Analyzing the soil",
-      "description": "To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking the seismic prospector with 8 dynamite, 4 TNT, 2 ITNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.\nProTip: you can do it more efficiently by scanning every 6 chunks. \n\nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only GregTech machines will work)\n\nAfter the process is done take the printed page and combine it with a piece of leather in an Assembling Machine filled with at least 20 mb of refined glue. \n\nTADA now you have a book with info about the chunk you scanned.  \n \n\n",
+      "description": "To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking a seismic prospector with 8 dynamite, 4 TNT, 2 industrial TNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.\nProTip: you can do it more efficiently by only scanning every 6 chunks. \n\nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only GregTech machines will work)\n\nAfter the process is done take the printed page and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. \n\nTADA now you have a book with info about the chunk you scanned.  \n \n\n",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70477,7 +70477,7 @@
     {
       "questID": 768,
       "name": "You smell like a Distillery",
-      "description": "This bad boy will tremendously boost the byproducts of your cracked fuel by multiplying them by 5. This way you can make industrial TNT, polyethylene, polytetrafluoroethyline and other plastics more efficiently. \n\nYou will also need this for your automated setups.",
+      "description": "This bad boy will tremendously boost the by-products of your cracked fuel by multiplying them by 5. This way you can make industrial TNT, polyethylene, polytetrafluoroethylene and other plastics more efficiently. \n\nYou will also need this for your automated setups.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70773,7 +70773,7 @@
     {
       "questID": 771,
       "name": "Dust to crystals",
-      "description": "Using the Autoclave to crystalize your dust. You can make raw carbon mesh out of carbon dust.",
+      "description": "Use the autoclave to crystallize your dust. You can make raw carbon mesh out of carbon dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70842,7 +70842,7 @@
     {
       "questID": 772,
       "name": "Precision is required",
-      "description": "You will use this a lot to make high tier circuits and for other recipes",
+      "description": "You will use this a lot to make high tier circuits, and for other recipes",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70919,7 +70919,7 @@
     {
       "questID": 773,
       "name": "Way one: Raw carbon mesh",
-      "description": "This way of making carbon requires autoclaveing 4 carbon dust, you can use polyethylene wich gives you only 1 raw carbon fibre at LV Tier, polytetrafluoroethylene gives you 2 at MV Tier or the best way molten epoxid which yields 4 at HV Tier.  ",
+      "description": "This way of making carbon requires autoclaveing 4 carbon dust. You can use polyethylene wich gives you only 1 raw carbon fibre at LV tier, polytetrafluoroethylene gives you 2 at MV Tier or go for the best way: molten epoxid which yields 4 at HV Tier.  ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -71024,7 +71024,7 @@
     {
       "questID": 774,
       "name": "Way two: Bio Organic Mesh",
-      "description": "If you like to save the ecosystem you can autoclave 16 plantballs to get raw bio fiber with the following liquids:\n\n-Biomass 33% chance\n-Methanol 50% chance\n-Fuel 90% chance\n-Nitro-diesel 100% chance\n\nHowever, making carbon plates this way will require an Electric Blast Furnace.",
+      "description": "If you like to save the ecosystem you can autoclave 16 plantballs to get raw bio fiber with the following liquids:\n\n-Biomass 33% chance\n-Methanol 50% chance\n-Fuel 90% chance\n-Nitro-diesel 100% chance\n\nHowever, making carbon plates this way will require an electric blast furnace.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -71246,7 +71246,7 @@
     {
       "questID": 776,
       "name": "Seeing things brighter",
-      "description": "The nano helemet is a bit special. It will provide you with night vision as long as you have energy! ",
+      "description": "The nano helmet is a bit special. It will provide you with night vision as long as you have energy! ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -71614,7 +71614,7 @@
     {
       "questID": 780,
       "name": "Organic Way",
-      "description": "Bio carbon plates are made out of raw carbon mesh. Put it in the Electric Blast Furnace to make carbon plates.",
+      "description": "Bio carbon plates are made out of raw carbon mesh. Put it in the electric blast furnace to make carbon plates.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -71703,7 +71703,7 @@
     {
       "questID": 781,
       "name": "Still not enough charcoal?",
-      "description": "Now that you have a vacuum freezer and you have the possibility of manufacturing kanthal, it\u0027s time to build a Pyrolyse Oven. This oven is the best way to get charcoal and creosote (x50 faster than Railcraft\u0027s Coke Oven). You will need tons of bronze, iron and steel to build it, but it\u0027s worth it. Finally, it will be possible to dismantle the charcoal pit.",
+      "description": "Now that you have a vacuum freezer and you have the possibility of manufacturing kanthal, it\u0027s time to build a pyrolyse oven. This oven is the best way to get charcoal and creosote (x50 faster than Railcraft\u0027s coke oven). You will need tons of bronze, iron and steel to build it, but it\u0027s worth it. Finally, it will be possible to dismantle the charcoal pit.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -71809,8 +71809,8 @@
     },
     {
       "questID": 782,
-      "name": "Monocrystaline Silicon",
-      "description": "To make Wafers, you need to make Monocrystaline Silicon first. The Process takes 450 seconds and requires Silicon and Gallium Arsenide in the EBF. You can make 16 Wafers out of every boule.",
+      "name": "Monocrystalline Silicon",
+      "description": "To make wafers, you need to make monocrystalline silicon first. The process takes 450 seconds and requires silicon dust and gallium arsenide dust in the electric blast furnace. You can make 16 wafers out of every boule.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -71914,7 +71914,7 @@
     {
       "questID": 783,
       "name": "We need big toys",
-      "description": "Your little turbines take up too much space? It is time to solve this problem. This large turbine can help you produce a tremendous amount of energy. Don\u0027t forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
+      "description": "All your little turbines take up too much space? It is time to solve this problem. This large turbine can help you produce a tremendous amount of energy. Don\u0027t forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72038,7 +72038,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a Large Bronze Boiler. But in order to make this boiler, you will need a mountain of bronze. Still have your old Bronze Blast Furnace? Boldly throw it into an Arc Furnace and get back your bronze! You will also need ten basic steam turbines, as this boiler produces 800 liters of steam per tick, and the turbine consumes 80.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. Still have your old bronze blast furnace? Boldly throw it into an arc furnace and get back your bronze! You will also need 10 basic steam turbines, as this boiler produces 800 liters of steam per tick, and each turbine consumes 80.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72215,7 +72215,7 @@
     {
       "questID": 785,
       "name": "Transistor",
-      "description": "For the next Tier we need Advanced Circuits. To create some Advanced Circuit, you need some transistors.",
+      "description": "For the next tier we need advanced circuits. To create some advanced circuits, you need some transistors.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -72320,7 +72320,7 @@
     {
       "questID": 786,
       "name": "Steam is never enough",
-      "description": "Now, you can make advanced circuits, which means it\u0027s time to build a Large Steel Boiler. This boiler is one and a half times more efficient than a bronze one, and that means we need 5 more steam turbines. Don\u0027t forget to monitor the water level!",
+      "description": "Now you can make advanced circuits, which means it\u0027s time to build a large steel boiler. This boiler is one and a half times more efficient than a bronze one, and that means we need 5 more steam turbines. Don\u0027t forget to monitor the water level!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72458,7 +72458,7 @@
     {
       "questID": 787,
       "name": "Moooooore steam",
-      "description": "Stock up on titanium, it will be fun. A Large Titanium Boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal cobalt rotors will be just right. Optimal flow for such rotor is 800 liters per tick. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors.",
+      "description": "Stock up on titanium, it will be fun. A large titanium boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal cobalt rotors will be just right. Optimal flow for such rotor is 800 liters per tick. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72658,7 +72658,7 @@
     {
       "questID": 789,
       "name": "Energy Crystals",
-      "description": "Making energy crystals out of ruby and redstone dusts in the mv mixer. Energy crystals can store 1 million EU.",
+      "description": "Make energy crystals out of ruby and redstone dusts in the MV mixer. Energy crystals can store 1 million EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72864,8 +72864,8 @@
     },
     {
       "questID": 791,
-      "name": "Mv Precision Laser",
-      "description": "Advanced Circuits need an MV Precission Laser. Lets craft one.",
+      "name": "MV Precision Laser",
+      "description": "Advanced Circuits need a MV precision laser. Lets craft one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73839,8 +73839,8 @@
     },
     {
       "questID": 800,
-      "name": "Plated Leggins better not try to wear it",
-      "description": "Combining a Stainless Steel Platings with some Nano Leggings in the Assembler you get some Nono Plated Leggings. Better not try to wear it because you can\u0027t. It is part for the new Quantum Body Armor.",
+      "name": "Plated Leggings better not try to wear it",
+      "description": "Combining stainless steel platings with some nano leggings in the assembler gives you nano plated leggings. Better not try to wear them because you can\u0027t. They are part of the new quantum body armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -73945,7 +73945,7 @@
     {
       "questID": 801,
       "name": "Don\u0027t try to walk with it",
-      "description": "Combining some Rubber Boots with  Nano Boots in the Assembler you get some Nono Rubber Boots. Better not tr to walk with it because you can\u0027t. It is part for the new Quantum Body Armor.",
+      "description": "Combining some rubber boots with nano boots in the Assembler gives you Nano Rubber Boots. Better not try to put them on because you can\u0027t. They are part of the new quantum body armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74050,7 +74050,7 @@
     {
       "questID": 802,
       "name": "Iridium Plated",
-      "description": "Plating all your Armor Parts with Iridium Alloy Casings give them a better duarbility. Not to to wear this Quantum Armor Parts because you need some Quantum Crystals to activate the Armor.",
+      "description": "Plating all your armor parts with iridium alloy casings gives them a better durability. Before you can wear these quantum armor parts you need to activate them with some quantum crystals.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74227,7 +74227,7 @@
     {
       "questID": 803,
       "name": "Quantum Armor",
-      "description": "The Quantum Armor is a high Tier very durable Armor with a lot of feature like Night Vision, fall damage reduction or running very fast.",
+      "description": "The quantum armor is a high tier and very durable armor with a lot of features like night vision, fall damage reduction and running very fast.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74439,7 +74439,7 @@
     {
       "questID": 804,
       "name": "Quantum crystal ",
-      "description": "The Quantum Crystal is needed for your Quantum armor.",
+      "description": "The quantum crystal is needed to turn quantum armor parts into wearable quantum armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74511,7 +74511,7 @@
     {
       "questID": 805,
       "name": "Lapotron Dust",
-      "description": "Lapotron Crystals need to mixing your Energium Crystal Powder with some Lapis dust.",
+      "description": "Lapotron crystals require you to mix your energium dust with some lapis dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74607,7 +74607,7 @@
     {
       "questID": 806,
       "name": "Lapotron Crystal",
-      "description": "With your new HV Mixer you can make Lapotron Dust. TAke it into the Autoclave to make some Raw Lapotron Crystals. With an HV Assembler and Advanced Circuits you can make some Lapotro Crystals wich stores up to 10 Mio EU.",
+      "description": "With your new HV mixer you can make lapotron dust. Place it in an autoclave to make some raw lapotron crystals. With an HV assembler and advanced circuits you can make some lapotron crystals wich store up to 10 million EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74730,7 +74730,7 @@
     {
       "questID": 807,
       "name": "Quantum Crystal",
-      "description": "For you Quantum Armor you need some Quantum crystals. Put a Lapotron crystal in your Percission Laser to get a Quantum Crystal ",
+      "description": "For you quantum armor you need some quantum crystals. Place a lapotron crystal in your precision laser to get a quantum crystal ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74910,8 +74910,8 @@
     },
     {
       "questID": 809,
-      "name": "NASA Workbench aka 9x9 Crafting Table",
-      "description": "The Avaritia 9x9 Crafting Table is the new Nasa Workbench. It is required for all Rockets and high Tier Equiepment. First of all you need 81 crafting Tables to a double compacted Working Bench, a few Hv components, Wavers and a Crystal Matrix Block. And yes you need Nether Stars. Try to looking at the Nether Star duplication recipe with Null Catalyst.",
+      "name": "NASA Workbench aka Dire Crafting Table",
+      "description": "The Avaritia 9x9 dire crafting table replaces the NASA workbench. It is required to craft all rockets and high tier equipment. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need nether stars. Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75145,7 +75145,7 @@
     {
       "questID": 810,
       "name": "Rocket Tier 1",
-      "description": "After Houres of hard works and a few stacks of TNT later Tada your first Rocket is ready. But before you can go to the Moon you need a few things more to craft.",
+      "description": "After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to craft a few more things.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75296,7 +75296,7 @@
     {
       "questID": 811,
       "name": "Tier 1 Schematic",
-      "description": "Each rocket need a construction plan. The first one you can craft out of a Data Control  Circuit and a Compressed Steel plate.",
+      "description": "Each rocket needs a construction plan. You can craft the first one using a data control circuit and a compressed steel plate.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75400,7 +75400,7 @@
     {
       "questID": 812,
       "name": "Tier 1 Heavy Duty Plates",
-      "description": "Rockets need Heavy Duty Plates for the Main Hull. Let\u0027s craft 36 of this Plates out of Compressed Aluminium Plates, Compressed Bronze Plates and Compressed Steel Plates.",
+      "description": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 36 of these plates out of compressed aluminium plates, compressed bronze plates and compressed steel plates.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75538,7 +75538,7 @@
     {
       "questID": 813,
       "name": "Rocket Nose Cone",
-      "description": "Each Rocket need a Rocket Nose Cone.",
+      "description": "Every rocket needs a nose cone.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75654,7 +75654,7 @@
     {
       "questID": 814,
       "name": "Rocket Fines",
-      "description": "Each Rocket need a few Rocket Fines.",
+      "description": "Every rocket needs a few rocket fins.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75764,7 +75764,7 @@
     {
       "questID": 815,
       "name": "Rocket Engine",
-      "description": "Each Rocket need a rocket Engine. Better crafting Two because the Moon Lander need one too.",
+      "description": "Every rocket needs a rocket engine. Better craft two, because the Moon lander needs one also.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75892,7 +75892,7 @@
     {
       "questID": 816,
       "name": "Moon Lander",
-      "description": "The Moon Lander is requiered for a soft Landing.\nYou will need an additional Frequencie Module for hearing  somethings on planets and a second Seat for a later available Moon Buggy.",
+      "description": "The Moon lander is requiered for a soft landing.\nYou will need an additional frequency module for hearing some things on planets and a second seat for a Moon buggy you may build later.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76028,7 +76028,7 @@
     {
       "questID": 817,
       "name": "Buggy Seat",
-      "description": "The Buggy Seat is required for the Moon Lander and the Moon Buggy.",
+      "description": "The buggy seat is part of the Moon lander and the Moon buggy.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76138,7 +76138,7 @@
     {
       "questID": 818,
       "name": "Frequency Module",
-      "description": "The Frequency Module will help you hear sounds properly while in space (it\u0027s also used with the Telemetry Unit so that your buddies can keep track on you from your base, if you are playing with friends). You need it in you Inventory and in the Moon Lander.",
+      "description": "The frequency Module will help you hear sounds properly while in space (it\u0027s also used with the telemetry unit so that your buddies can keep track of you from your base, if you are playing with friends). You need it in you inventory and in the Moon lander.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76275,7 +76275,7 @@
     {
       "questID": 819,
       "name": "Small Fuel Cannister",
-      "description": "Every Rocket need Fuel Storage Cannister. For the Tier Rocket yoou need to craft two of them.",
+      "description": "Every rocket needs fuel storage cannisters. For the tier 1 rocket you need to craft two of them.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76427,7 +76427,7 @@
     {
       "questID": 820,
       "name": "Rocket Launch Pad",
-      "description": "Each rocket need a Launch Pad. Build a 3x3 Pad to place your Rocket.",
+      "description": "Every rocket needs a launch pad. Build a 3x3 launch pad to place your rocket on.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76537,7 +76537,7 @@
     {
       "questID": 821,
       "name": "Rocket Fuel",
-      "description": "To pumping the Fuel into you Rocket you need a Fuel Loader. Place the right beside the Launch Pad.",
+      "description": "To pump fuel into your rocket you need a fuel loader. Place it right next to the middle of any side of the launch pad.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76671,7 +76671,7 @@
     {
       "questID": 822,
       "name": "Oxygen Gear",
-      "description": "Oxygen Gear is used to attach Oxygen Tanks to the Oxygen Masks. This is vital to any astronaut.",
+      "description": "Oxygen gear is used to attach oxygen tanks to the oxygen mask. This is absolutely vital for any astronaut.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76793,7 +76793,7 @@
     {
       "questID": 823,
       "name": "Oxygen Mask",
-      "description": "The Oxygen Mask is one part of the Oxygen System used to breathe on planets without oxygen, the others being (Oxygen Gear and Oxygen Tanks).",
+      "description": "The oxygen mask is part of the oxygen system used to breathe on planets without oxygen, the others being oxygen gear and oxygen tanks.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76898,7 +76898,7 @@
     {
       "questID": 824,
       "name": "Oxygen Tanks",
-      "description": "The Light Oxygen Tank is an oxygen storage tank that can hold up to 90 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.\n\nUsage:\nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks include the Medium Oxygen Tank, which holds twice the amount of oxygen as a light tank, and the Heavy Oxygen Tank, which holds three times the amount of a light tank.",
+      "description": "The Light oxygen tank is an oxygen storage tank that can hold up to 90 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.\n\nUsage:\nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77015,7 +77015,7 @@
     {
       "questID": 825,
       "name": "Copper Ore",
-      "description": "Can be found between 5 and 60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
+      "description": "Can be found between y levels 5 and 60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -77104,7 +77104,7 @@
     {
       "questID": 826,
       "name": "Iron Ore",
-      "description": "With your new bronze tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite.  So bring me some ores and make some iron ingots out of them.",
+      "description": "With your new bronze tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite. So bring me some ores and make some iron ingots out of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -77211,7 +77211,7 @@
     {
       "questID": 827,
       "name": "Rocket Fuel",
-      "description": "For every fight the rocket need some fuel. So refined some fuel and fill it into Fuel cannisters. ",
+      "description": "For every flight the rocket needs some fuel. So refine some fuel and fill some fuel cannisters. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77309,7 +77309,7 @@
     {
       "questID": 828,
       "name": "Oxygen Collector",
-      "description": "The Oxygen Collector is a block that gathers oxygen from leaves and farm plants to use in a Oxygen Bubble Distributor, Oxygen Sealer, Oxygen Compressor, and other oxygen-reliant machines. If you planning to building a Moon Base which need a continous oxygen supplies you need to build one.",
+      "description": "The oxygen collector is a block that gathers oxygen from leaves and farm plants to use in an oxygen bubble distributor, oxygen sealer, oxygen compressor, and other oxygen-reliant machines. If you plan to build a Moon base, which needs a continuous oxygen supply, you will need to build one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77449,7 +77449,7 @@
     {
       "questID": 829,
       "name": "Oxygen Compressor",
-      "description": "The Oxygen Compressor used to fill empty or depleted oxygen tanks. Connect an Oxygen Pipe to the blue ring input side and a power source to the grey square input side. Place an Oxygen Tank in the bottom right slot and it will take oxygen from the input and place it into the tank.",
+      "description": "The oxygen compressor is used to fill empty or depleted oxygen tanks. Connect an oxygen pipe to the blue ring input side and a power source to the grey square input side. Place an oxygen tank in the bottom right slot and it will take oxygen from the input and place it into the tank.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77589,7 +77589,7 @@
     {
       "questID": 830,
       "name": "Parachute",
-      "description": "A Parachute is used to prevent death upon re-entry into the Overworld\u0027s atmosphere. The parachute is an essential part of your journey to space. You should never start into space without it. There will even be warning if you try to launch without one on you.",
+      "description": "A parachute is used to prevent death upon re-entry into the Overworld\u0027s atmosphere. The parachute is an essential part of your journey to space. You should never journey into space without it. There will even be a warning if you try to launch without one on you.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77738,7 +77738,7 @@
     {
       "questID": 831,
       "name": "Advanced Wafers",
-      "description": "The Advanced Wafer is used for more advanced machines such as the Advanced Solar Panel or the Avaritiy Table. It is also used in the creation of a Space Station.",
+      "description": "The advanced wafer is used for more advanced machines such as the advanced solar panel or the avaritia dire crafting table. It is also used in the creation of a space station.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77842,7 +77842,7 @@
     {
       "questID": 832,
       "name": "Wafers",
-      "description": "The basic wafer is used for creating basic machines such as the Basic Solar Panel, the fuel loader, the Energy Storyge Module or the Compressor.",
+      "description": "The basic wafer is used for creating basic machines such as the basic solar panel, the fuel loader, the energy storage module and the compressor.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77948,7 +77948,7 @@
     {
       "questID": 833,
       "name": "Purge your warp",
-      "description": "The warp you have accumulated over time is starting to become a problem. Making Bath Salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it\u0027s a very long journey to unlock it through research.",
+      "description": "The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it\u0027s a very long journey to unlock it through research.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -78038,7 +78038,7 @@
     {
       "questID": 834,
       "name": "Circuit Boards",
-      "description": "For every Circuit you need a Basic Circuit Board. Craft some Boards and use fine Copper Wire to finish them.",
+      "description": "For every circuit you need a basic circuit board. Craft a coated circuit board and use copper wire to finish it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78179,7 +78179,7 @@
     {
       "questID": 835,
       "name": "Resistor",
-      "description": "Every Basic Circuit needs two Resistors to work",
+      "description": "Every basic circuit needs two resistors to work",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78281,7 +78281,7 @@
     {
       "questID": 836,
       "name": "Gallium Arsenide",
-      "description": "The Diode requires Gallium Arsenide and you may be wondering how to get Gallium or Arsenic this early in the game.\nYou get Gallium out of crushed zinc ore with the Thermal Centrifuge. You can find the small ore in the Overworld or the full ore in the Nether at Y Level 80 - 210. To get Crushed Ore, you need a Tinkers Tool with Fortune on it.\nYou can get Arsenic from Realgar small Ore in The Nether at Y level 5 - 85. Centrifuge the Dust in a Centrifuge.\nMix those two dusts in a Mixer to get Gallium Arsenic Dust.",
+      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small ores in the Overworld or the full ores in the Nether at Y Level 80 - 210. To get cushed ore, you may need a Tinker's Construct tool with the Luck (Fortune) enchant on it.\nYou can get Arsenic from realgar small orea in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge.\nMix those two dusts in a mixer to get gallium arsenic dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78391,7 +78391,7 @@
     {
       "questID": 837,
       "name": "ILC and RAM",
-      "description": "Advanced Circuits need Integrated Logic Circuits and Random Access Memory chips.\nYou need to cut the ILC and RAM Wafers.",
+      "description": "Advanced circuits need itegrated logic circuits and random access memory chips.\nYou can get those by cutting the ILC and RAM wafers.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78501,7 +78501,7 @@
     {
       "questID": 838,
       "name": "Advanced Circuits",
-      "description": "For the next Tier we need Advanced Circuits. To make an Advanced Circuit, you need good Integrated Circuits, RAM, an ILC and Transistors.",
+      "description": "For the next tier we need advanced circuits. To make an advanced circuit, you need good integrated circuits, RAM, an ILC and transistors.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78634,8 +78634,8 @@
     },
     {
       "questID": 839,
-      "name": "Handle tiny piles like a K1ng",
-      "description": "Don\u0027t you hate it to manually compress all those tiny piles ? Well, let me show you how to automatically do that. A Combination of Typefilter, chest buffer (super buffer in hv) and packager frees you from that annoying task. The chestbuffer can hold up to 9 tiny piles and the super buffer can hold all your tiny dusts and you can set its mode with a screwdriver on the output side. Set it to 9 and let the packager handle the rest.",
+      "name": "Handle tiny piles like a King",
+      "description": "Don\u0027t you hate to manually compress all those tiny piles ? Well, let me show you how to automate that. A combination of typefilter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chestbuffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -78760,7 +78760,7 @@
     {
       "questID": 840,
       "name": "Butane and Propane",
-      "description": "You can distilled a lot of different gases out of your \"refinery gases\".\nMethane, butane, propene, helium, ethane",
+      "description": "You can distill a lot of different gases out of your \"refinery gases\".\nMethane, butane, propane, helium and ethane.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -78843,7 +78843,7 @@
     {
       "questID": 841,
       "name": "Tetranitromethane",
-      "description": "To boosted your Diesel you need Light Fuel, Bio Diesel or Diesel and Tetranitromethane. Ethenone and nitric acid is needed in the chemical reactor.",
+      "description": "Light fuel, bio diesel and diesel can be boosted by using tetranitromethane. Ethenone and nitric acid are required to make tetranitromethane in a chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -78948,7 +78948,7 @@
     {
       "questID": 842,
       "name": "Methane Gas",
-      "description": "Methane Gas with a burn value of 104,000 EU per cell in can be burned in the Gas Turbine.",
+      "description": "Methane gas with a burn value of 104,000 EU per cell can be burned in the gas turbine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79052,7 +79052,7 @@
     {
       "questID": 843,
       "name": "Methanol",
-      "description": "Methanol with a burn value of 84,000 eu per cell can be used to make biodiesel and other fluids.",
+      "description": "Methanol with a burn value of 84,000 EU per cell can be used to make biodiesel and other fluids.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79141,7 +79141,7 @@
     {
       "questID": 844,
       "name": "Ethanol",
-      "description": "Ethanol with a burnvalue of 192,000 eu per cell can be used to make biodiesel and other fluids.",
+      "description": "Ethanol with a burn value of 192,000 EU per cell can be used to make biodiesel and other fluids.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -79230,7 +79230,7 @@
     {
       "questID": 845,
       "name": "Bio Diesel",
-      "description": "With ethanol or methanol and seedoil or fish oil you can make biodiesel. Burnvalue is 192,000 EU per cell. Diesel and Bio Diesel is needed for Cetan Boosted Diesel.\n\nYou get some glycerole as byproduct. Save it to make glyceroletrinitat for you dynamit.",
+      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 192,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79322,7 +79322,7 @@
     {
       "questID": 846,
       "name": "O like Oxygen",
-      "description": "Oxygen can made in different ways. Centrifuge some brown an yellow lemonite dust, or electrolyzing it out of water or air.",
+      "description": "Oxygen can be made in different ways. Centrifuge some brown an yellow lemonite dust, or electrolyze it out of water or various other oxygen-rich elements.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -79410,8 +79410,8 @@
     },
     {
       "questID": 847,
-      "name": "Ethylen",
-      "description": "You can make Ethylen out of Ethanol and Sulfuric Acid or Wood Gas.",
+      "name": "Ethylene",
+      "description": "You can make ethylene out of ethanol and sulfuric acid in a chemical reactor or by distilling various gases (i.e. wood gas) in a distillery.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -79521,7 +79521,7 @@
     {
       "questID": 848,
       "name": "Seed Oil",
-      "description": "Make some Biodiesel you need Seed or fishoil to mix it with Ethanol or Methanol. Seeds gives Seedoil in the extractor.",
+      "description": "To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil when placed in a fluid extractor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79631,7 +79631,7 @@
     {
       "questID": 849,
       "name": "Sodium Hydroxide",
-      "description": "Make some Biodiesel Sodium Hydroxide. You can make it out of Sodium or in EV out of Saltwater.\n\nByproduct Hydrogen can be burned in the Gasturbine.",
+      "description": "Make some sodium hydroxide. You can make it out of sodium (or out of salt water once you reach EV).\n\nThe by-product hydrogen can be burned in a gas turbine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79741,7 +79741,7 @@
     {
       "questID": 850,
       "name": "Ethenone",
-      "description": "Hopfully you saved some Sulfuric acid during your fuel production. Together with acetic acid you can make ethenone.\nCrafting some mv chemical reactor for more advanced recipes.",
+      "description": "Hopefully you saved some sulfuric acid during your fuel production. Together with acetic acid you can make ethenone.\nCraft an advanced chemical reactor to get access to more advanced recipes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79866,7 +79866,7 @@
     {
       "questID": 851,
       "name": "Nitric Acid",
-      "description": "Nitric Acid can be made out of water, oxygen and nitrogendioxide.",
+      "description": "Nitric acid can be made out of water, oxygen and nitrogen dioxide.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79977,7 +79977,7 @@
     {
       "questID": 852,
       "name": "Acetic Acid",
-      "description": "Fermented Biomass can destilled to acetic acid too.",
+      "description": "Fermented biomass can be destilled into acetic acid.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80080,8 +80080,8 @@
     },
     {
       "questID": 853,
-      "name": "Nitric Dioxid",
-      "description": "To make Nitric Dioxid you combining Oxygen and Nitric Oxide in the chemical reactor.",
+      "name": "Nitrogen Dioxide",
+      "description": "To make nitrogen dioxide you need to combine oxygen gas and nitric oxide in a chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80186,7 +80186,7 @@
     {
       "questID": 854,
       "name": "Ammonia",
-      "description": "Now you know one more output from Biomass.... Ammonia.",
+      "description": "Now you know one more output from distilling biomass... Ammonia.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80284,7 +80284,7 @@
     {
       "questID": 855,
       "name": "Nitric Oxide",
-      "description": "To make Nitric Oxide you combining Oxygen and Ammoniain in the chemical reactor.",
+      "description": "To make nitric oxide you need to combine oxygen and ammonia in a chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80388,8 +80388,8 @@
     },
     {
       "questID": 856,
-      "name": "1,1 Dimetylhydrazine",
-      "description": "1,1 Dimethylhydrazine needs some dimethylamine and chloramine in the chemical reactor.",
+      "name": "1,1-Dimetylhydrazine",
+      "description": "To make 1,1-dimethylhydrazine you need to combine some dimethylamine and chloramine in a chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80493,8 +80493,8 @@
     },
     {
       "questID": 857,
-      "name": "Dimethylamin",
-      "description": "Combining Ammonia and Methanol in the chemical reactor together gives you some Dimethylamne.",
+      "name": "Dimethylamine",
+      "description": "Combining ammonia and methanol in a chemical reactor produces some dimethylamine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80599,7 +80599,7 @@
     {
       "questID": 858,
       "name": "Chloramine",
-      "description": "Combining Hypochlorus Acid and Ammonia in the chemical reactor together gives you some Chloramine.",
+      "description": "Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80703,8 +80703,8 @@
     },
     {
       "questID": 859,
-      "name": "Hypochlorus Acid",
-      "description": "Hypochlorus Acid need Water, Chlorine and a bit mercury.",
+      "name": "Hypochlorous Acid",
+      "description": "Hypochlorous acid requires water, chlorine and some mercury.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80814,7 +80814,7 @@
     {
       "questID": 860,
       "name": "Titanium finaly",
-      "description": "The main goals when you reach the moon is to find some Bauxite Ore to make Titanium for the EV Machine Tier. A bit meteoric Iron will help to build on your Tier 2 Rocket for reaching Mars.",
+      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -80913,7 +80913,7 @@
     {
       "questID": 861,
       "name": "Tungstensteel",
-      "description": "Tungstensteel is needed for the next Tier. So mixing some tungsten you can find on Mars or macerating some Moonsone down and mix it with steel. Burn it at 3000k in the EBF.",
+      "description": "Tungstensteel is needed for the next tier. Tungsten can be found on Mars or in Moon stone dust. Mix that with some steel dust. Smelt it at 3000K (requires nichrome coils) in an electric blast furnace.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -80991,7 +80991,7 @@
     {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
-      "description": "Bad things may happen if this creature is allowed to stay alive. And the ores in the cave are valuable anyway.",
+      "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81447,7 +81447,7 @@
     {
       "questID": 906,
       "name": "Let her go",
-      "description": "It seems the cold doesn\u0027t bother her. Comitted crimes: None. But... you know... you have to progress somehow...",
+      "description": "It seems the cold doesn\u0027t bother her. Committed crimes: None. But... you know... you have to progress somehow...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81523,7 +81523,7 @@
     {
       "questID": 907,
       "name": "Yeti. Alpha, Yeti.",
-      "description": "Wanted: Alpha Yeti. Death. Committed crimes: Throwing ice at people, violently for no reason.",
+      "description": "Wanted: Alpha Yeti. Death. Committed crimes: Violently throwing ice at people, for no reason.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -87368,7 +87368,7 @@
     },
     {
       "name": "Space Race",
-      "description": "A guide to help you start Galacticraft and reach the moon",
+      "description": "A guide to help you start Galacticraft and reach the Moon",
       "quests": [
         {
           "id": 809,
