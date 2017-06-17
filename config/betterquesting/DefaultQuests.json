@@ -43064,7 +43064,7 @@
     {
       "questID": 500,
       "name": "First things first",
-      "description": "As usual. In order to get started with bees, you need a few basic things. Most important... a scoop.",
+      "description": "As usual. In order to get started with bees, you need a few basic things. Most importantly... a scoop.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43138,7 +43138,7 @@
     {
       "questID": 501,
       "name": "Go find some bees",
-      "description": "The next thing to do: Find bee hives around the world. There are 11 mundane bees that can be found, of which 8 are located in the Overworld. Any kind of bee will work for this quest.",
+      "description": "The next thing to do: Find a few bee hives around the world. There are 11 mundane bees that can be found, of which 8 are located in the Overworld. Any kind of bee will work for this quest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44032,7 +44032,7 @@
     {
       "questID": 509,
       "name": "Genetic Sampler",
-      "description": "With this machine, you can extract a random trait from any bee, sapling, butterfly or flower. The bee/sapling/butterfly/flower will be destroyed in this process. Each process requires an empty gene sample and labware.",
+      "description": "With this machine, you can extract a random trait from any bee, sapling, butterfly or flower. The bee/sapling/butterfly/flower will be destroyed in this process. Each process requires an empty gene sample and some labware.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45743,7 +45743,7 @@
     {
       "questID": 532,
       "name": "Diesel, Oil or maybe Creosote?",
-      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027Eclectic\u0027 Blast Furnace. Creosote will be a good fuel for the moment. So try to build a few of the Diesel Generators and use them besides steam as a secondary power source.",
+      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027Electric\u0027 Blast Furnace. Creosote will be a good fuel for the moment. So try to build a few of the Diesel Generators and use them besides steam as a secondary power source.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45909,7 +45909,7 @@
     {
       "questID": 534,
       "name": "Pollution what....?",
-      "description": "If you are running your Bronze Blast Furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, you can get a hazmat suit for free.",
+      "description": "If you are running your Bronze Blast Furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, I will trade you a complete hazmat suit.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -45988,7 +45988,7 @@
     {
       "questID": 535,
       "name": "Redstone, early Game processing",
-      "description": "Are you wondering how to process redstone without any Macerator? Well you can mine it with a GregTech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop some dust in. You will get pure redstone dust for your red alloy ingots.",
+      "description": "Are you wondering how to process redstone without any Macerator? Well you can mine it with a GregTech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it. You will get pure redstone dust for your red alloy ingots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46709,7 +46709,7 @@
     {
       "questID": 541,
       "name": "A new Alloy",
-      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027Cobalt Brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come so far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
+      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027Cobalt Brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -46849,7 +46849,7 @@
     {
       "questID": 542,
       "name": "Water and Electricity, sounds fun and safe right?",
-      "description": "Using the power of water and electricity you can get even more out of your dust.",
+      "description": "Using the power of water and electricity you can get even more out of your dusts.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46920,7 +46920,7 @@
     {
       "questID": 543,
       "name": "C9H8O4...NaCl...H2O...",
-      "description": "Want to make some nitro-diesel, plastic or some chemical dye? Then it\u0027s time to craft a Chemical Reactor.",
+      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dye? Then it\u0027s time to craft a Chemical Reactor.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -46991,7 +46991,7 @@
     {
       "questID": 544,
       "name": "Compact? Or is it?",
-      "description": "It is a compressor but that doesn\u0027t mean it is compact... \nIt is highly recommended to get one of these electric compressors, as the efficiency in terms of coal/steam used to compress something is a lot better when using EU.",
+      "description": "It is a compressor but that doesn\u0027t mean it is compact... \n\nHint:\nIt is highly recommended to get one of these electric compressors, as the efficiency in terms of coal/steam used to compress something is a lot better when using EU.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47062,7 +47062,7 @@
     {
       "questID": 545,
       "name": "Suction device... nice",
-      "description": "I hope you are not thinking about what I am thinking you are thinking about... \nIt is highly recommended to get one of these, as the efficiency in terms of coal/steam used to extracting something is a lot better when using EU.",
+      "description": "I hope you are not thinking about what I am thinking you are thinking about... \n\nHint:\nIt is highly recommended to get one of these, as the efficiency in terms of coal/steam used to extracting something is a lot better when using EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47134,7 +47134,7 @@
     {
       "questID": 546,
       "name": "Hello Baron, how is your Black Gold today?",
-      "description": "During your travels you may have seen some of these huge oil wells. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in the Diesel Generator or refined. \n\nBring a Diesel Generator with you to power the pump. (Thanks to the advancement of technology the pipe machine can auto output on top.)",
+      "description": "During your travels you may have seen some of these huge oil wells. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a Diesel Generator or be refined. \n\nBring a Diesel Generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47226,7 +47226,7 @@
     {
       "questID": 547,
       "name": "Your oil is too Crude? Refine it!",
-      "description": "Burning oil in the Diesel Generator is a very ineffective way of getting power. Every bucket/cell of oil only gives you 20,000 EU. Try refining it...",
+      "description": "Burning oil in the Diesel Generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to try and refine it...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47303,7 +47303,7 @@
     {
       "questID": 548,
       "name": "Light Sulfuric Fuel",
-      "description": "First step is to distill your oil into light sulfuric fuel with a burn value of 40,000 EU.",
+      "description": "The first step is to distill your oil into light sulfuric fuel, that has a burn value of 40,000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47380,7 +47380,7 @@
     {
       "questID": 549,
       "name": "Light Fuel",
-      "description": "By adding hydrogen to sulfuric light fuel in a Chemical Reactor you can produce some light fuel with a very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
+      "description": "By adding hydrogen to sulfuric light fuel in a Chemical Reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47465,7 +47465,7 @@
     {
       "questID": 550,
       "name": "H like Hydrogen... rest of the alphabet is too complicated...",
-      "description": "Centrifuge some brown or yellow limonite dust to get some hydrogen.",
+      "description": "Centrifuge some brown or yellow limonite dust to get some hydrogen, or use an Electrolyser with some water to produce it in a fluid form.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47536,7 +47536,7 @@
     {
       "questID": 551,
       "name": "Heavy Sulfuric Fuel",
-      "description": "Second step is to distill your oil into heavy sulfuric fuel with a burn value of 40,000 EU.",
+      "description": "The second step is to distill your oil into heavy sulfuric fuel, that has a burn value of 40,000 EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47619,7 +47619,7 @@
     {
       "questID": 552,
       "name": "Heavy Fuel",
-      "description": "By adding hydrogen to sulfuric heavy fuel in a Chemical Reactor you can produce some heavy fuel with a burn value of 240,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
+      "description": "By adding hydrogen to sulfuric heavy fuel in a Chemical Reactor you can produce some heavy fuel with the burn value of 240,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47704,7 +47704,7 @@
     {
       "questID": 553,
       "name": "Diesel Fuel",
-      "description": "Mixing your light and heavy Fuel together gives you some diesel.\nIt burns very well in the Diesel Generator with a burn value of 400,000 EU.",
+      "description": "Mixing your light and heavy Fuel together gives you some diesel.\nIt burns very well in the Diesel Generator with a burn value of 400,000 EU per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47787,7 +47787,7 @@
     {
       "questID": 554,
       "name": "Hey DJ, Mix it!",
-      "description": "The mixer is a very useful device. You can mix all kind of fluid and items. (Useful to prevent dust from falling on ground when crafting.)",
+      "description": "The mixer is a very useful device. You can mix all kind of fluid and items. (Useful to prevent dust from falling to the ground when crafting.)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48024,7 +48024,7 @@
     {
       "questID": 557,
       "name": "NITRO! (Cetane Boosted Diesel)",
-      "description": "720,000 EU per cell. Yes, yes, this is very good! Make some cetane-boosted-fuel and power your MV Diesel Engine with it. For LV Diesel Engines this dieselis too potent!",
+      "description": "720,000 EU per cell. Yes, yes, this is very good! Make some cetane-boosted diesel fuel and power your MV Diesel Engine with it. For LV Diesel Engines this diesel is too potent to be used!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48107,7 +48107,7 @@
     {
       "questID": 558,
       "name": "Where can I put all the Items in?",
-      "description": "After you make your first steel you\u0027re able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it is a bit bigger than a small chest.",
+      "description": "After you make your first steel you\u0027re able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it\u0027s a bit bigger than a small chest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48310,7 +48310,7 @@
     {
       "questID": 559,
       "name": "Low Pressure Boiler Tank",
-      "description": "The low pressure boiler tank is the easiest way to store steam. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will make more steam when heated up.",
+      "description": "The low pressure boiler tank is the easiest way to store steam. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48418,7 +48418,7 @@
     {
       "questID": 560,
       "name": "Railcraft Steam Power",
-      "description": "As an alternative way to steam you can use the Railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each Boiler needs 1, 2 or 3 layers of tanks on top, depending on size.",
+      "description": "As an alternative way to steam you can use the Railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each Boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50247,7 +50247,7 @@
     {
       "questID": 581,
       "name": "Tubes",
-      "description": "Before you can craft your first farm block you need apatite tubes. Make some apatite long rods first (Using a Lathe or Extruder). You need golden bolts and a red alloy plate.\nPut glass into your Thermionic Fabricator and make your first tubes.",
+      "description": "Before you can craft your first farm block you need apatite tubes. Make some apatite long rods first (Using a Lathe or Extruder). You need golden bolts and a red alloy plate.\nPut some glass or sand into your Thermionic Fabricator and make your first tubes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50370,7 +50370,7 @@
     {
       "questID": 582,
       "name": "Your first Multiblock Farm",
-      "description": "The smallest farm you can build requires 36 farm blocks. For water input you need a valve, items go through the hatches and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the Carpenter when crafting the farm blocks.",
+      "description": "The smallest farm you can build requires 36 farm blocks. For water input you need a valve, items go through the hatches and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the Carpenter when crafting the different farm blocks.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50493,7 +50493,7 @@
     {
       "questID": 583,
       "name": "Farm logic",
-      "description": "This chip is optional and more advanced. The farms are working without them too. If you want to configure your farm you need one of them.",
+      "description": "This chip is optional and more advanced. The farms are working without them too. But if you want to configure your farm you will need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50633,7 +50633,7 @@
     {
       "questID": 584,
       "name": "Change your farm circuit configuration",
-      "description": "The (Forestry) soldering iron is a tool used for attaching electron tubes to circuit boards in order to manipulate how an electrical engine works or to program Multifarms. As well as upgrading the Squeezer or Centrifuge.\nOnce electron tubes have been attached to a circuit board they cannot be removed, only replaced. The circuit board is automatically crafted as soon as the basic recipe requirements are met, so it\u0027s best practice to first place your electron tubes and then add the circuit board.\n\nThe soldering iron can also be used to remove the circuit board from Electrical Engines, MultiFarms, Squeezers and Centrifuges by opening the machine\u0027s GUI and left clicking the soldering iron on the circuit board slot.",
+      "description": "The (Forestry) soldering iron is a tool used for attaching electron tubes to circuit boards in order to manipulate how an electrical engine works or to program Multifarms. As well as upgrading the Squeezer or Centrifuge.\nOnce electron tubes have been attached to a circuit board they cannot be removed, only replaced. The circuit board is automatically crafted as soon as the basic recipe requirements are met, so it\u0027s best practice to first place your electron tubes and then add the circuit board.\n\nThe soldering iron can also be used to remove the circuit board from Electrical Engines, MultiFarms, Squeezers and Centrifuges by opening the machine\u0027s GUI and left clicking with the soldering iron on the circuit board slot.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50938,7 +50938,7 @@
     {
       "questID": 587,
       "name": "Magnetize your rods",
-      "description": "Magnetic steel rods need a polariser to craft. Make a few for your coils in the next step.",
+      "description": "Magnetic steel rods need a polariser to craft. Make a few for your coils.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51042,7 +51042,7 @@
     {
       "questID": 588,
       "name": "Finding Apatite",
-      "description": "It is now time to search for some ores. Apatite is the most basic material in Forestry. You can make fertilizer, farm blocks and many other things. The vein is found between Y level 40-60.",
+      "description": "It\u0027s now time to search for some ores. Apatite is the most basic material in Forestry. You can make fertilizer, farm blocks and many other things. The vein is found between Y level 40-60.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51554,7 +51554,7 @@
     {
       "questID": 592,
       "name": "Multiblock Farm Gearbox",
-      "description": "Farm gearbox (Power)\nTo power your farm and have it automatically harvest crops, you will need at least one farm gearbox.\n\nFarm operations can be hastened with additional gearboxes.\n\nEach farm gearbox requires power. You can use RF or EU.",
+      "description": "Farm gearbox (Power)\nTo power your farm and have it automatically harvest crops, you will need at least one farm gearbox.\n\nFarm operations can be hastened with additional gearboxes.\n\nEach farm gearbox requires power. You can use either RF or EU.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51685,7 +51685,7 @@
     {
       "questID": 593,
       "name": "Farm logic enhanced",
-      "description": "This chip is optional and more advanced than the basic one. The farms can work without them too. If you want to configure your farm you need one of them.",
+      "description": "This chip is optional and more advanced than the basic one. The farms can work without them too. If you want to configure your farm you will need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51826,7 +51826,7 @@
     {
       "questID": 594,
       "name": "Farm logic refined",
-      "description": "This chip is optional and more advanced than the enhanced one. The farms are working without them too. If you want to configure your farm even more you need one of them.",
+      "description": "This chip is optional and more advanced than the enhanced one. The farms are working without them too. If you want to configure your farm even more you will need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51967,7 +51967,7 @@
     {
       "questID": 595,
       "name": "Farm logic intricate",
-      "description": "This chip is optional and more advanced than the refined one. The farms are working without them too. If you want to configure your farm even more you need one of them.",
+      "description": "This chip is optional and more advanced than the refined one. The farms are working without them too. If you want to configure your farm even more you will need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52108,7 +52108,7 @@
     {
       "questID": 596,
       "name": "Upgrade of the upgrade of the...",
-      "description": "It\u0027s upgrade time. Unlock redstone and obsidian level for your tools.",
+      "description": "It\u0027s upgrade time. Unlock redstone and obsidian level for your different tools.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52221,7 +52221,7 @@
     {
       "questID": 597,
       "name": "Tetrahedrite, Stibnite and Copper",
-      "description": "Maybe you are wondering why you need tetrahedrite or stibnite. Well, antimony can be centrifuged out of it which is very useful for batteries in the LV Age.\nThis vein can be found between Y level 80-120.",
+      "description": "Maybe you are wondering why you need tetrahedrite or stibnite. Well, antimony can be centrifuged out of it which is very useful for batteries in the LV Age.\nThe veins can be found between Y level 80-120.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
