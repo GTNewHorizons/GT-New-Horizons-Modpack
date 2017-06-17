@@ -18869,7 +18869,7 @@
     {
       "questID": 213,
       "name": "Tier 6",
-      "description": "IV-level. You will need tungstensteel for machines. Supposed planets and moons to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"how to gregtech\" by now, if not go clean up the machine craters in your base...",
+      "description": "VI-Level. You will need tungstensteel for machines. Supposed planets and moons to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"how to gregtech\" by now, if not go clean up the machine craters in your base...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78253,7 +78253,7 @@
     {
       "questID": 836,
       "name": "Gallium Arsenide",
-      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small ores in the Overworld or the full ores in the Nether at Y Level 80 - 210. To get cushed ore, you may need a Tinker's Construct tool with the Luck (Fortune) enchant on it.\nYou can get Arsenic from realgar small orea in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge.\nMix those two dusts in a mixer to get gallium arsenic dust.",
+      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small ores in the Overworld or the full ores in the Nether at Y Level 80 - 210. To get cushed ore, you may need a Tinker\u0027s Construct tool with the Luck (Fortune) enchant on it.\nYou can get Arsenic from realgar small orea in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge.\nMix those two dusts in a mixer to get gallium arsenic dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -80958,6 +80958,298 @@
       "preRequisites": [
         186,
         79
+      ]
+    },
+    {
+      "questID": 862,
+      "name": "Your first Bown Bow",
+      "description": "Since you can craft vanilla bows only in the assembler and mobs dropping them not very often you have to make a Tinkers Bow. You can make it out of wood but bone is much better. So crafting the Bow Limbs out of Bone and the bowstring out of strings. The Arrow with the most durability is bone flint is much lighter but less durable.\n\nYou can repair your Bow like all the other Tinkers tools. Arrows can be give back when you repair it or collecing the arrows from the floor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:ShortBow",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "BaseDurability:4": 226,
+            "BaseAttack:4": 2,
+            "DrawSpeed:4": 34,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 1,
+            "RenderHead:4": 5,
+            "ModDurability:6": 0.0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 0,
+            "Accessory:4": 5,
+            "MiningSpeed:4": 300,
+            "Unbreaking:4": 0,
+            "HarvestLevel2:4": 1,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "TotalDurability:4": 226,
+            "MiningSpeed2:4": 300,
+            "BaseDrawSpeed:4": 34,
+            "Head:4": 5,
+            "Attack:4": 2,
+            "Handle:4": 0,
+            "Broken:4": 0,
+            "RenderAccessory:4": 5,
+            "ToolLevel:4": 1,
+            "FlightSpeed:6": 3.0,
+            "Modifiers:4": 0
+          },
+          "display:10": {
+            "Name:8": "§fBone Shortbow"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:string",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:feather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:bone",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:arrowhead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "TConstruct:fletching",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:BowLimbPart",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "TConstruct:bowstring",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:ShortBow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:4": 226,
+                  "BaseAttack:4": 2,
+                  "DrawSpeed:4": 34,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 1,
+                  "RenderHead:4": 5,
+                  "ModDurability:6": 0.0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 0,
+                  "Accessory:4": 5,
+                  "MiningSpeed:4": 300,
+                  "Unbreaking:4": 0,
+                  "HarvestLevel2:4": 1,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "TotalDurability:4": 226,
+                  "MiningSpeed2:4": 300,
+                  "BaseDrawSpeed:4": 34,
+                  "Head:4": 5,
+                  "Attack:4": 2,
+                  "Handle:4": 0,
+                  "Broken:4": 0,
+                  "RenderAccessory:4": 5,
+                  "ToolLevel:4": 1,
+                  "FlightSpeed:6": 3.0,
+                  "Modifiers:4": 0
+                },
+                "display:10": {
+                  "Name:8": "§fBone Shortbow"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:ArrowAmmo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BreakChance:6": 0.07000000029802322,
+                  "BaseDurability:4": 143,
+                  "BaseAttack:4": 2,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 1,
+                  "RenderHead:4": 5,
+                  "ModDurability:6": 0.0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 1,
+                  "Accuracy:6": 95.0,
+                  "Accessory:4": 0,
+                  "MiningSpeed:4": 300,
+                  "Unbreaking:4": 0,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "TotalDurability:4": 143,
+                  "Head:4": 5,
+                  "Attack:4": 2,
+                  "Handle:4": 1,
+                  "Broken:4": 0,
+                  "Mass:6": 3.490000009536743,
+                  "Ammo:4": 15,
+                  "RenderAccessory:4": 0,
+                  "ToolLevel:4": 1,
+                  "Modifiers:4": 0
+                },
+                "display:10": {
+                  "Name:8": "§fBone Arrows"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bone",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:blankPattern",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        33
       ]
     },
     {
@@ -84370,6 +84662,11 @@
           "id": 826,
           "x": 216,
           "y": 252
+        },
+        {
+          "id": 862,
+          "x": 444,
+          "y": 180
         }
       ]
     },
