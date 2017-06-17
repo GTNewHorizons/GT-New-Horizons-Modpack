@@ -5411,7 +5411,7 @@
     {
       "questID": 62,
       "name": "The power of the sun",
-      "description": "The sun has quite a bit of power, so why not use it to produce steam? \n\n(Hint: Just remember that the solar boiler calcifies and becomes less efficient over time.)",
+      "description": "The sun has quite a bit of power, so why not use it to produce steam? \n\nHint: Just remember that the solar boiler calcifies and becomes less efficient over time.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6886,7 +6886,7 @@
     {
       "questID": 76,
       "name": "Time to get some steel",
-      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\n(Hint: The bronze blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...)",
+      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\nHint: The bronze blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8082,7 +8082,7 @@
     {
       "questID": 87,
       "name": "Steel Multiblock Tanks",
-      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\n(Hint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.)",
+      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8395,7 +8395,7 @@
     {
       "questID": 91,
       "name": "You\u0027re gonna hate this #1",
-      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of chests or barrels you\u0027ll need one. \n\n(Hint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.)",
+      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of chests or barrels you\u0027ll need one. \n\nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8470,7 +8470,7 @@
     {
       "questID": 92,
       "name": "You\u0027re gonna hate this #4",
-      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever. \n\n(Hint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.)",
+      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8545,7 +8545,7 @@
     {
       "questID": 93,
       "name": "You\u0027re gonna hate this #2",
-      "description": "The second item you\u0027ll need a lot of. When you want to get fluid out of tanks you\u0027ll need one. \n\n(Hint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.)",
+      "description": "The second item you\u0027ll need a lot of. When you want to get fluid out of tanks you\u0027ll need one. \n\nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9191,7 +9191,7 @@
     {
       "questID": 102,
       "name": "Cutting things apart",
-      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and of that will be done with the highest possible efficiency. Totally worth it! \n\n(Hint: Just add water.)",
+      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and of that will be done with the highest possible efficiency. Totally worth it! \n\nHint: Just add water.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -13943,7 +13943,7 @@
     {
       "questID": 162,
       "name": "Dimensional Goal: Moon",
-      "description": "HV is the age where you should focus on reaching the moon, as soon as possible. Since you will need titanium in large quantities. \n\n(Hint: more info will be found in the Quest Tab Space Race.)",
+      "description": "HV is the age where you should focus on reaching the moon, as soon as possible. Since you will need titanium in large quantities. \n\nHint: more info will be found in the Quest Tab Space Race.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -19159,7 +19159,7 @@
     {
       "questID": 216,
       "name": "\"Clean\" energy..?",
-      "description": "Finally, a reliable and powerful source of energy for your base. And why waste your time with a 2k generator? Go for a 8k one! \n\n(Hint: It\u0027s probably a good idea to wear your hazmat suit before claiming your reward...)",
+      "description": "Finally, a reliable and powerful source of energy for your base. And why waste your time with a 2k generator? Go for a 8k one! \n\nHint: It\u0027s probably a good idea to wear your hazmat suit before claiming your reward...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22515,7 +22515,7 @@
     {
       "questID": 257,
       "name": "Save the squids, we must",
-      "description": "A very convenient way to make PETA activists happy and get ink at the same time. (Hint: The essentia in those roses might be useful...)",
+      "description": "A very convenient way to make PETA activists happy and get ink at the same time. \n\nHint: The essentia in those roses might be useful...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54661,7 +54661,7 @@
     {
       "questID": 622,
       "name": "How to get Sodium/Lithium",
-      "description": "Salt ore mixes can be found in the Overworld between Y level 50-70. Salt isn\u0027t only used to get sodium, it\u0027s an important ingredient in many Pam\u0027s Harvestcraft food recipes.\n\n(Hint: Lepidolite and spodumene are good sources of lithium for your batteries.)",
+      "description": "Salt ore mixes can be found in the Overworld between Y level 50-70. Salt isn\u0027t only used to get sodium, it\u0027s an important ingredient in many Pam\u0027s Harvestcraft food recipes.\n\nHint: Lepidolite and spodumene are good sources of lithium for your batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
