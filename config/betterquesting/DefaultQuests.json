@@ -26387,7 +26387,7 @@
     {
       "questID": 301,
       "name": "One does not simply...",
-      "description": "...play with magic. Be warned, those fires are dangerous to use. But who doesn\u0027t want a patch of snow in the nether?\n\nFire spread is disabled via config on Servers because of massive lag and world destruction.",
+      "description": "...play with magic. Be warned, those fires are dangerous to use. But who doesn\u0027t want a patch of snow in the Nether?\n\nFire spread is disabled via config on servers because of massive lag and world destruction.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72865,7 +72865,7 @@
     {
       "questID": 791,
       "name": "MV Precision Laser",
-      "description": "Advanced Circuits need a MV precision laser. Lets craft one.",
+      "description": "Advanced circuits need a MV precision laser. Let\u0027s craft one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -72954,7 +72954,7 @@
     {
       "questID": 792,
       "name": "Silicon Wafer",
-      "description": "To create some Silicon Wafers, put the Monocrystaline Silicon Boule in a Cutting Saw. It would be better to immediately make the MV version because you will need it later for RAM, ICs and other Chips.",
+      "description": "To create some silicon wafers, put the monocrystalline silicon boule in a cutting machine. It would be better to immediately make the MV version because you will need it later for RAM, IC\u0027s and other chips.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73052,7 +73052,7 @@
     {
       "questID": 793,
       "name": "Good Integrated Circuits",
-      "description": "Good Circuits have three variants. For the Advanced Circuits you need the Good Integrated Circuits.",
+      "description": "Good circuits have three variants. For the advanced circuits you need the good integrated circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73186,7 +73186,7 @@
     {
       "questID": 794,
       "name": "Integrated Circuit",
-      "description": "There are two variants of Basic Circuits. The Basic Circuit from IC2 or the Integrated Circuit which needs a Circuit Assembler to be made. The Good Integrated Circuit needs two Integrated Circuits to be crafted.",
+      "description": "There are two variants of basic circuits. The basic circuit from IC2 or the integrated circuit which needs a circuit assembling machine to be made. The good integrated circuit needs two integrated circuits to be crafted.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73320,7 +73320,7 @@
     {
       "questID": 795,
       "name": "Basic Circuit Assembler",
-      "description": "Advanced Circuits need an MV Assembling Machine. Lets create one.",
+      "description": "Advanced circuits require a MV circuit assembling machine. Let\u0027s make one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73404,7 +73404,7 @@
     {
       "questID": 796,
       "name": "Sensor lens",
-      "description": "The nightvision goggles need special Sensor Lens to working.",
+      "description": "The nightvision goggles need special sensor lenses to work.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -73527,7 +73527,7 @@
     {
       "questID": 797,
       "name": "Advanced Heat Exchanger",
-      "description": "The nightvision goggles need some advanced reactor heat exchanger.",
+      "description": "The nightvision goggles need advanced heat exchangers to work.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -73643,8 +73643,8 @@
     },
     {
       "questID": 798,
-      "name": "Iron cpped Greatwood Wand",
-      "description": "Making a gold capped greatwood wand requires 35 vis, but your old wands limit is 25. So create an iron capped greatwood wand first and then create a gold caped greatwood wand.",
+      "name": "Iron capped Greatwood Wand",
+      "description": "Making a gold capped greatwood wand requires 35 vis, but your old wand\u0027s limit is 25. So first create an iron capped greatwood wand and then create a gold capped greatwood wand.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73735,7 +73735,7 @@
     {
       "questID": 799,
       "name": "Don\u0027t try to dive with it",
-      "description": "Combining a Scuba Helmet with some Nano Helmet in the Assembler you get some Nono Scuba Helmet. Better not tr to dive with it because you can\u0027t. It is part for the new Quantum Body Armor.",
+      "description": "Combining a scuba helmet with a nano helmet in an assembling machine will give you a nano scuba helmet. You\u0027d better not try to dive with it because you can\u0027t. It is a part of the new quantum suit helmet.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -73840,7 +73840,7 @@
     {
       "questID": 800,
       "name": "Plated Leggings better not try to wear it",
-      "description": "Combining stainless steel platings with some nano leggings in the assembler gives you nano plated leggings. Better not try to wear them because you can\u0027t. They are part of the new quantum body armor.",
+      "description": "Combining stainless steel platings with some nano leggings in the assembler gives you nano plated leggings. Better not try to wear them because you can\u0027t. They are part of the new quantum suit leggings.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -73945,7 +73945,7 @@
     {
       "questID": 801,
       "name": "Don\u0027t try to walk with it",
-      "description": "Combining some rubber boots with nano boots in the Assembler gives you Nano Rubber Boots. Better not try to put them on because you can\u0027t. They are part of the new quantum body armor.",
+      "description": "Combining some rubber boots with nano boots in the Assembler gives you Nano Rubber Boots. Better not try to put them on because you can\u0027t. They are part of the new quantum suit boots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
