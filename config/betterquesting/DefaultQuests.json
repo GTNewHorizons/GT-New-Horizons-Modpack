@@ -111,7 +111,7 @@
     {
       "questID": 2,
       "name": "Sticks \u0027n Stones",
-      "description": "This book has a built-in reading light, lucky you! Most probably you will read this text while you are waiting for the night to be over. Once it is, go out and collect some gravel and wood. Keep in mind that you need food, so look for Pam\u0027s Harvestcraft gardens. (And save some of the vegetables for seeds!)",
+      "description": "This book has a built-in reading light, lucky you! Most probably you will read this text while you are waiting for the night to be over. Once it is, go out and collect some gravel and wood. Keep in mind that you need food, so look for pam\u0027s harvestcraft gardens. (And save some of the vegetables for seeds!)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -18869,7 +18869,7 @@
     {
       "questID": 213,
       "name": "Tier 6",
-      "description": "VI-Level. You will need tungstensteel for machines. Supposed planets and moons to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"How to GregTech\" by now, if not go clean up the machine craters in your base...",
+      "description": "VI-Level. You will need tungstensteel for machines. Supposed planets and moons to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"how to gregtech\" by now, if not go clean up the machine craters in your base...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -39582,7 +39582,7 @@
     {
       "questID": 472,
       "name": "Your first tool",
-      "description": "When your tinkers tables are ready you can craft your first tool. If you did not find a village yet you can only craft flint tools. Let\u0027s start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your GregTech swords. Your new tools are weak at first but the more you use them the better they will get. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.",
+      "description": "When your tinkers tables are ready you can craft your first tool. If you did not find a village yet you can only craft flint tools. Let\u0027s start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords. Your new tools are weak at first but the more you use them the better they will get. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -44031,7 +44031,7 @@
     },
     {
       "questID": 509,
-      "name": "Genetic Sampler",
+      "name": "Genetic sampler",
       "description": "With this machine, you can extract a random trait from any bee, sapling, butterfly or flower. The bee/sapling/butterfly/flower will be destroyed in this process. Each process requires an empty gene sample and some labware.",
       "isMain": false,
       "isSilent": false,
@@ -44162,7 +44162,7 @@
     },
     {
       "questID": 511,
-      "name": "Genetic Imprinter",
+      "name": "Genetic imprinter",
       "description": "With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee/tree or butterfly. The gene sample (or pattern) will not be destroyed. The success rate is 100%, and one labware is consumed per injection.",
       "isMain": false,
       "isSilent": false,
@@ -44233,7 +44233,7 @@
     },
     {
       "questID": 512,
-      "name": "Genetic Transposer",
+      "name": "Genetic transposer",
       "description": "DNA samples of species and/or traits are pretty valuable. You always should keep at least one of each effect/trait/species you get your hand on in a chest somewhere safe. By using this machine, you are able to copy any DNA sample, for the cost of an empty serum vial and some labware.",
       "isMain": false,
       "isSilent": false,
@@ -44304,7 +44304,7 @@
     },
     {
       "questID": 513,
-      "name": "Advanced Mutatron",
+      "name": "Advanced mutatron",
       "description": "A more advanced version of the mutatron. It uses more energy to mutate a drone with a princess, but the mutation is a 100% success, and you can select which mutation you want to have. This machine is a must-have for high-tier bees.",
       "isMain": false,
       "isSilent": false,
@@ -44375,7 +44375,7 @@
     },
     {
       "questID": 514,
-      "name": "Blank Gene Sample",
+      "name": "Blank gene sample",
       "description": "To get the various traits from a bee, you need a lot of power, labware and an empty gene sample. You don\u0027t need a lot of those, as you can just throw them in a furnace to remove remaining DNA of traits you don\u0027t need or want. \n\nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you will understand why you should look into the Genetics mod.",
       "isMain": false,
       "isSilent": false,
@@ -45519,7 +45519,7 @@
     {
       "questID": 529,
       "name": "You\u0027re gonna hate this #5",
-      "description": "The fifth item you\u0027ll need a lot of. For the Microwave, the Scanner, the Precision Laser Engraver, etc.",
+      "description": "The fifth item you\u0027ll need a lot of. For the microwave, the scanner, the precision laser engraver, etc.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -45594,7 +45594,7 @@
     {
       "questID": 530,
       "name": "You\u0027re gonna hate this #6",
-      "description": "The sixth item you\u0027ll need a lot of. For the Scanner and the Seismic Prospector.",
+      "description": "The sixth item you\u0027ll need a lot of. For the scanner and the seismic prospector.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -45668,8 +45668,8 @@
     },
     {
       "questID": 531,
-      "name": "Scanning Bees, Crops and Moooooore!",
-      "description": "Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU Matter production.",
+      "name": "Scanning bees, crops and moooooore!",
+      "description": "Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45742,8 +45742,8 @@
     },
     {
       "questID": 532,
-      "name": "Diesel, Oil or maybe Creosote?",
-      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027Electric\u0027 Blast Furnace. Creosote will be a good fuel for the moment. So try to build a few of the Diesel Generators and use them besides steam as a secondary power source.",
+      "name": "Diesel, oil or maybe creosote?",
+      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the diesel generators and use them besides steam as a secondary power source.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45825,8 +45825,8 @@
     },
     {
       "questID": 533,
-      "name": "Hydrogen, Methane or some Farts... (Natural Gas) ",
-      "description": "Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow Limonite to get hydrogen or dump your unused food in a Centrifuge to get methane gas.",
+      "name": "Hydrogen, methane or some farts... (Natural gas) ",
+      "description": "Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -45909,7 +45909,7 @@
     {
       "questID": 534,
       "name": "Pollution what....?",
-      "description": "If you are running your Bronze Blast Furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, I will trade you a complete hazmat suit.",
+      "description": "If you are running your bronze blast furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, I will trade you a complete hazmat suit.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -45987,8 +45987,8 @@
     },
     {
       "questID": 535,
-      "name": "Redstone, early Game processing",
-      "description": "Are you wondering how to process redstone without any Macerator? Well you can mine it with a GregTech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it. You will get pure redstone dust for your red alloy ingots.",
+      "name": "Redstone, early game processing",
+      "description": "Are you wondering how to process redstone without any macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it. You will get pure redstone dust for your red alloy ingots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46119,8 +46119,8 @@
     },
     {
       "questID": 536,
-      "name": "Low Tier Wires",
-      "description": "Low tier wires like red alloy and tin can be made in a crafting table. Copper wire requires an Alloy Smelter. So let\u0027s make a mold for the rubber plates.",
+      "name": "Low tier wires",
+      "description": "Low tier wires like red alloy and tin can be made in a crafting table. Copper wire requires an alloy smelter. So let\u0027s make a mold for the rubber plates.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46465,7 +46465,7 @@
     },
     {
       "questID": 538,
-      "name": "Basic Ore washer",
+      "name": "Basic ore washer",
       "description": "Macerating ores usually doubles the output. If you want MOOOOOOORE, craft an ore washer and wash out some rare materials.",
       "isMain": true,
       "isSilent": false,
@@ -46607,8 +46607,8 @@
     },
     {
       "questID": 540,
-      "name": "A truly sharp Saw Blade",
-      "description": "Combining cobalt brass and diamond dust makes a really sharp saw blade for your Cutting Machine.",
+      "name": "A truly sharp saw blade",
+      "description": "Combining cobalt brass and diamond dust makes a really sharp saw blade for your cutting machine.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -46708,8 +46708,8 @@
     },
     {
       "questID": 541,
-      "name": "A new Alloy",
-      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027Cobalt Brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
+      "name": "A new alloy",
+      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027cobalt brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -46848,7 +46848,7 @@
     },
     {
       "questID": 542,
-      "name": "Water and Electricity, sounds fun and safe right?",
+      "name": "Water and electricity, sounds fun and safe right?",
       "description": "Using the power of water and electricity you can get even more out of your dusts.",
       "isMain": false,
       "isSilent": false,
@@ -46920,7 +46920,7 @@
     {
       "questID": 543,
       "name": "C9H8O4...NaCl...H2O...",
-      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dye? Then it\u0027s time to craft a Chemical Reactor.",
+      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dye? Then it\u0027s time to craft a chemical reactor.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47133,8 +47133,8 @@
     },
     {
       "questID": 546,
-      "name": "Hello Baron, how is your Black Gold today?",
-      "description": "During your travels you may have seen some of these huge oil wells. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a Diesel Generator or be refined. \n\nBring a Diesel Generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)",
+      "name": "Hello Baron, how is your black gold today?",
+      "description": "During your travels you may have seen some of these huge oil wells. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a diesel generator or be refined. \n\nBring a diesel generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47226,7 +47226,7 @@
     {
       "questID": 547,
       "name": "Your oil is too Crude? Refine it!",
-      "description": "Burning oil in the Diesel Generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to try and refine it...",
+      "description": "Burning oil in the diesel generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to try and refine it...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47379,8 +47379,8 @@
     },
     {
       "questID": 549,
-      "name": "Light Fuel",
-      "description": "By adding hydrogen to sulfuric light fuel in a Chemical Reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
+      "name": "Light fuel",
+      "description": "By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47535,7 +47535,7 @@
     },
     {
       "questID": 551,
-      "name": "Heavy Sulfuric Fuel",
+      "name": "Heavy Sulfuric fuel",
       "description": "The second step is to distill your oil into heavy sulfuric fuel, that has a burn value of 40,000 EU.",
       "isMain": false,
       "isSilent": false,
@@ -47618,8 +47618,8 @@
     },
     {
       "questID": 552,
-      "name": "Heavy Fuel",
-      "description": "By adding hydrogen to sulfuric heavy fuel in a Chemical Reactor you can produce some heavy fuel with the burn value of 240,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
+      "name": "Heavy fuel",
+      "description": "By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 240,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47703,8 +47703,8 @@
     },
     {
       "questID": 553,
-      "name": "Diesel Fuel",
-      "description": "Mixing your light and heavy Fuel together gives you some diesel.\nIt burns very well in the Diesel Generator with a burn value of 400,000 EU per cell.",
+      "name": "Diesel fuel",
+      "description": "Mixing your light and heavy fuel together gives you some diesel.\nIt burns very well in the diesel generator with a burn value of 400,000 EU per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47858,8 +47858,8 @@
     },
     {
       "questID": 555,
-      "name": "N like Nitrogen... Hide, alphabet strikes again!",
-      "description": "You can get some nitrogen by centrifuging... air. This process takes a long time, especially at the LV Tier.",
+      "name": "N like nitrogen... Hide, alphabet strikes again!",
+      "description": "You can get some nitrogen by centrifuging... air. This process takes a long time, especially at the LV tier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -47935,7 +47935,7 @@
     },
     {
       "questID": 556,
-      "name": "Glyceryl Trini...... what?",
+      "name": "Glyceryl trini...... what?",
       "description": "Kids, today we will make some glyceryl trinitrate with some glycerol.\n    - Chemistry 101",
       "isMain": false,
       "isSilent": false,
@@ -48023,7 +48023,7 @@
     },
     {
       "questID": 557,
-      "name": "NITRO! (Cetane Boosted Diesel)",
+      "name": "NITRO! (Cetane-boosted diesel)",
       "description": "720,000 EU per cell. Yes, yes, this is very good! Make some cetane-boosted diesel fuel and power your MV Diesel Engine with it. For LV Diesel Engines this diesel is too potent to be used!",
       "isMain": false,
       "isSilent": false,
@@ -48106,7 +48106,7 @@
     },
     {
       "questID": 558,
-      "name": "Where can I put all the Items in?",
+      "name": "Where can I put all the items in?",
       "description": "After you make your first steel you\u0027re able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it\u0027s a bit bigger than a small chest.",
       "isMain": false,
       "isSilent": false,
@@ -48309,7 +48309,7 @@
     },
     {
       "questID": 559,
-      "name": "Low Pressure Boiler Tank",
+      "name": "Low pressure boiler tank",
       "description": "The low pressure boiler tank is the easiest way to store steam. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.",
       "isMain": false,
       "isSilent": false,
@@ -48417,8 +48417,8 @@
     },
     {
       "questID": 560,
-      "name": "Railcraft Steam Power",
-      "description": "As an alternative way to steam you can use the Railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each Boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.",
+      "name": "Railcraft steam power",
+      "description": "As an alternative way to steam you can use the railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48531,7 +48531,7 @@
     },
     {
       "questID": 561,
-      "name": "Liquid fuelled Firebox",
+      "name": "Liquid fuelled firebox",
       "description": "Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.\nDiesel, ethanol, creosote and biofuel all work well here.",
       "isMain": false,
       "isSilent": false,
@@ -48656,7 +48656,7 @@
     },
     {
       "questID": 562,
-      "name": "High pressure Boiler Tank",
+      "name": "High pressure boiler tank",
       "description": "After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version.",
       "isMain": false,
       "isSilent": false,
@@ -48769,7 +48769,7 @@
     },
     {
       "questID": 563,
-      "name": "Bookshelves...? Ah Forestry... Multiblock Farms!",
+      "name": "Bookshelves...? Ah forestry... Multiblock farms!",
       "description": "The bookshelf can only be made with an wooden plates in the compressor. Maybe someone thinks this is crazy...",
       "isMain": true,
       "isSilent": false,
@@ -49562,7 +49562,7 @@
     },
     {
       "questID": 576,
-      "name": "Working Table 2.0",
+      "name": "Working table 2.0",
       "description": "A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping it off.\n\nResources need to go into the internal inventory. The crafting matrix is only a visual representation.",
       "isMain": false,
       "isSilent": false,
@@ -49748,8 +49748,8 @@
     },
     {
       "questID": 577,
-      "name": "Forestry Core Block",
-      "description": "This sturdy casing is the basis for almost all machines in Forestry, essentially being the forestry equivalent of a Machine Casing.",
+      "name": "Forestry core block",
+      "description": "This sturdy casing is the basis for almost all machines in Forestry, essentially being the forestry equivalent of a machine casing.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49874,8 +49874,8 @@
     },
     {
       "questID": 578,
-      "name": "The Carpenter",
-      "description": "The Carpenter is similar to an Automatic Crafting Table. It has an item input slot and a storage slot for the recipes. Some recipes need an additional fluid like water, creosote, honey or molten redstone. With the Carpenter you can make farmblocks, woven backpacks, bee and tree analysers and many more.\n\nThe Carpenter needs power to work. You can use a GT cable or a battery box to connect to the machine or make some Forestry, Railcraft or Buildcraft RF Engines.",
+      "name": "The carpenter",
+      "description": "The Carpenter is similar to an automatic crafting table. It has an item input slot and a storage slot for the recipes. Some recipes need an additional fluid like water, creosote, honey or molten redstone. With the carpenter you can make farmblocks, woven backpacks, bee and tree analysers and many more.\n\nThe carpenter needs power to work. You can use a GT cable or a battery box to connect to the machine or make some forestry, railcraft or buildcraft RF engines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50006,8 +50006,8 @@
     },
     {
       "questID": 579,
-      "name": "Molten Redstone?",
-      "description": "You heard that the Carpenter needs some molten redstone for a few recipes. \nConverting redstone dust into a fluid requires a Fluid Extractor. Let\u0027s build one.",
+      "name": "Molten redstone?",
+      "description": "You heard that the carpenter needs some molten redstone for a few recipes. \nConverting redstone dust into a fluid requires a fluid extractor. Let\u0027s build one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50111,8 +50111,8 @@
     },
     {
       "questID": 580,
-      "name": "Thermionic Fabricator",
-      "description": "The Thermionic Fabricator is used to craft electron tubes and stained glass. It requires redstone flux (RF) energy to run. It is your first machine which is made in the Carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop.",
+      "name": "Thermionic fabricator",
+      "description": "The thermionic fabricator is used to craft electron tubes and stained glass. It requires redstone flux (RF) energy to run. It is your first machine which is made in the carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50247,7 +50247,7 @@
     {
       "questID": 581,
       "name": "Tubes",
-      "description": "Before you can craft your first farm block you need apatite tubes. Make some apatite long rods first (Using a Lathe or Extruder). You need golden bolts and a red alloy plate.\nPut some glass or sand into your Thermionic Fabricator and make your first tubes.",
+      "description": "Before you can craft your first farm block you need apatite tubes. Make some apatite long rods first (Using a lathe or extruder). You need golden bolts and a red alloy plate.\nPut some glass or sand into your thermionic fabricator and make your first tubes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50369,8 +50369,8 @@
     },
     {
       "questID": 582,
-      "name": "Your first Multiblock Farm",
-      "description": "The smallest farm you can build requires 36 farm blocks. For water input you need a valve, items go through the hatches and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the Carpenter when crafting the different farm blocks.",
+      "name": "Your first multiblock farm",
+      "description": "The smallest farm you can build requires 36 farm blocks. For water input you need a valve, items go through the hatches and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the carpenter when crafting the different farm blocks.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50633,7 +50633,7 @@
     {
       "questID": 584,
       "name": "Change your farm circuit configuration",
-      "description": "The (Forestry) soldering iron is a tool used for attaching electron tubes to circuit boards in order to manipulate how an electrical engine works or to program Multifarms. As well as upgrading the Squeezer or Centrifuge.\nOnce electron tubes have been attached to a circuit board they cannot be removed, only replaced. The circuit board is automatically crafted as soon as the basic recipe requirements are met, so it\u0027s best practice to first place your electron tubes and then add the circuit board.\n\nThe soldering iron can also be used to remove the circuit board from Electrical Engines, MultiFarms, Squeezers and Centrifuges by opening the machine\u0027s GUI and left clicking with the soldering iron on the circuit board slot.",
+      "description": "The (forestry) soldering iron is a tool used for attaching electron tubes to circuit boards in order to manipulate how an electrical engine works or to program multiblock farms. As well as upgrading the squeezer or centrifuge.\nOnce electron tubes have been attached to a circuit board they cannot be removed, only replaced. The circuit board is automatically crafted as soon as the basic recipe requirements are met, so it\u0027s best practice to first place your electron tubes and then add the circuit board.\n\nThe soldering iron can also be used to remove the circuit board from electrical engines, multiblock farms, squeezers and centrifuges by opening the machine\u0027s GUI and left clicking with the soldering iron on the circuit board slot.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50760,8 +50760,8 @@
     },
     {
       "questID": 585,
-      "name": "Heating Coils",
-      "description": "Your Thermionic Fabricator needs heating coils to function. So combine some magnetized (requires Polarizer) steel rods with some copper wire and make some.",
+      "name": "Heating coils",
+      "description": "Your thermionic fabricator needs heating coils to function. So combine some magnetized (requires polarizer) steel rods with some copper wire and make some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50866,7 +50866,7 @@
     },
     {
       "questID": 586,
-      "name": "Welcome to Forestry",
+      "name": "Welcome to forestry",
       "description": "Want to make some automated farms or work with bee and tree breeding? Then this is the right chapter for you.",
       "isMain": true,
       "isSilent": false,
@@ -51142,7 +51142,7 @@
     },
     {
       "questID": 589,
-      "name": "Multiblock Farm Hatch",
+      "name": "Multiblock farm: Hatch",
       "description": "Farm hatch (Pipe connectivity)\n\nYou can supply and extract items from the farm by using farm hatches that are connected to pipe systems. \n\nSupplying items\nThe farm hatch is clever enough to know which item goes where. If an item isn\u0027t appropriate for the farm\u0027s configuration, the hatch will simply reject it.\n\nExtracting items\nAny item that is harvested by the Multifarm is automatically ejected by the farm hatches into inventories or pipes. Pipes can be used to extract from other sides.",
       "isMain": false,
       "isSilent": false,
@@ -51279,7 +51279,7 @@
     },
     {
       "questID": 590,
-      "name": "Multiblock Farm Valve",
+      "name": "Multiblock farm: Valve",
       "description": "Farm valve (Hydration)\n\nSome farms require water for hydration purposes. Although you can do it manually by supplying it through liquid containers (such as cans), you can also automate the process by using farm valves.\n\nBy connecting fluid pipes into the farm valve and supplying water, you can automatically fill the farm\u0027s water tank.",
       "isMain": false,
       "isSilent": false,
@@ -51416,7 +51416,7 @@
     },
     {
       "questID": 591,
-      "name": "Multiblock Farm Control Block",
+      "name": "Multiblock farm: Control block",
       "description": "Farm control\n\nYou can control which fields of your farm work by applying a redstone signal to the control block. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block.",
       "isMain": false,
       "isSilent": false,
@@ -51553,7 +51553,7 @@
     },
     {
       "questID": 592,
-      "name": "Multiblock Farm Gearbox",
+      "name": "Multiblock farm: Gearbox",
       "description": "Farm gearbox (Power)\nTo power your farm and have it automatically harvest crops, you will need at least one farm gearbox.\n\nFarm operations can be hastened with additional gearboxes.\n\nEach farm gearbox requires power. You can use either RF or EU.",
       "isMain": false,
       "isSilent": false,
@@ -52220,7 +52220,7 @@
     },
     {
       "questID": 597,
-      "name": "Tetrahedrite, Stibnite and Copper",
+      "name": "Tetrahedrite, stibnite and copper",
       "description": "Maybe you are wondering why you need tetrahedrite or stibnite. Well, antimony can be centrifuged out of it which is very useful for batteries in the LV Age.\nThe veins can be found between Y level 80-120.",
       "isMain": true,
       "isSilent": false,
@@ -52392,7 +52392,7 @@
     },
     {
       "questID": 599,
-      "name": "Thermal Centrifuge",
+      "name": "Thermal centrifuge",
       "description": "A optional machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods.",
       "isMain": true,
       "isSilent": false,
@@ -52858,7 +52858,7 @@
     },
     {
       "questID": 602,
-      "name": "Spatial Distortions",
+      "name": "Spatial distortions",
       "description": "You detected a weird disturbance in the air around an enderman, I suggest you try to steal some of their pearls and research them.",
       "isMain": false,
       "isSilent": false,
@@ -52927,8 +52927,8 @@
     },
     {
       "questID": 603,
-      "name": "Dimensional Chest",
-      "description": "You\u0027ve heard rumors, that the Endermen had build Laboratories in the End. To invent new machines and weapons in order to attack the Overworld. One of their inventions is a chest, which is somehow linked to all instances of itself. Go and try to find one of those.",
+      "name": "Dimensional chest",
+      "description": "You\u0027ve heard rumors, that the endermen had build laboratories in the End. To invent new machines and weapons in order to attack the Overworld. One of their inventions is a chest, which is somehow linked to all instances of itself. Go and try to find one of those.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52998,7 +52998,7 @@
     },
     {
       "questID": 604,
-      "name": "A new Dimension",
+      "name": "A new dimension",
       "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside Strongholds. You feel strangely drawn into its mysterious depths.",
       "isMain": false,
       "isSilent": false,
@@ -53234,7 +53234,7 @@
     {
       "questID": 607,
       "name": "Slay the Dragon. (Again)",
-      "description": "If you\u0027re bored, you can resurrect the Dragon. Or, you could find a Chaos Dragon, if you dare. Anyway, kill one of those, and you\u0027ll be well rewarded.",
+      "description": "If you\u0027re bored, you can resurrect the dragon. Or, you could find a chaos dragon, if you dare. Anyway, kill one of those, and you\u0027ll be well rewarded.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53309,7 +53309,7 @@
     },
     {
       "questID": 608,
-      "name": "A lead about Lead that leads to lead Dust",
+      "name": "A lead about lead that leads to lead dust",
       "description": "The next step of making batteries is to collect some lead. Lead and galena veins can be found in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
@@ -53381,8 +53381,8 @@
     },
     {
       "questID": 609,
-      "name": "Battery Alloy",
-      "description": "Mixing antimony and lead in the Alloy Smelter will give you some battery alloy.\nCombine it with some tin cable and voila there is your small battery hull.",
+      "name": "Battery alloy",
+      "description": "Mixing antimony and lead in the alloy smelter will give you some battery alloy.\nCombine it with some tin cable and voila there is your small battery hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53504,7 +53504,7 @@
     },
     {
       "questID": 610,
-      "name": "Lead, Galena and Silver",
+      "name": "Lead, galena and silver",
       "description": "You can\u0027t find lead, galena or silver in the Overworld or the Nether. So it\u0027s time to explore the mysterious Twilight Forest a bit and find this vein at Y level 5 - 40.",
       "isMain": false,
       "isSilent": false,
@@ -53593,8 +53593,8 @@
     },
     {
       "questID": 611,
-      "name": "Single Use Battery : Mercury",
-      "description": "Mercury and acid batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into small battery hulls.\n\nThey can be placed in the battery slot of any standard LV GregTech machine, in that case they will be depleted before the machine\u0027s internal EU storage. They can also be used in LV battery buffers.",
+      "name": "Single use battery: Mercury",
+      "description": "Mercury and acid batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an extractor to be converted back into small battery hulls.\n\nThey can be placed in the battery slot of any standard LV gregtech machine, in that case they will be depleted before the machine\u0027s internal EU storage. They can also be used in LV battery buffers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53695,8 +53695,8 @@
     },
     {
       "questID": 612,
-      "name": "Single Use Battery : Acid",
-      "description": "Mercury and acid Batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into small battery hulls.\n\nThey can be placed in the battery slot in any standard LV GregTech machine, in that case they will be depleted before the machine\u0027s internal EU storage. They can also be used in LV battery buffers.",
+      "name": "Single use battery: Acid",
+      "description": "Mercury and acid Batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an extractor to be converted back into small battery hulls.\n\nThey can be placed in the battery slot in any standard LV gregtech machine, in that case they will be depleted before the machine\u0027s internal EU storage. They can also be used in LV battery buffers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53797,8 +53797,8 @@
     },
     {
       "questID": 613,
-      "name": "Reusable Battery : Sodium",
-      "description": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into small battery hulls, but their contents are lost.",
+      "name": "Reusable battery: Sodium",
+      "description": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53913,8 +53913,8 @@
     },
     {
       "questID": 614,
-      "name": "Reusable Battery : Cadmium",
-      "description": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into small battery hulls, but their contents are lost.",
+      "name": "Reusable battery: Cadmium",
+      "description": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54030,8 +54030,8 @@
     },
     {
       "questID": 615,
-      "name": "Reusable Battery : Lithium",
-      "description": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any GregTech machine. If unneeded, they can be placed in an Extractor and converted back into small battery hulls, but their contents are lost.",
+      "name": "Reusable battery: Lithium",
+      "description": "Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54230,8 +54230,8 @@
     },
     {
       "questID": 617,
-      "name": "Fluid Canner",
-      "description": "The Fluid Canner is a fundamental machine, since it is necessary to move fluids around, as well as for filling tin cells, glass bottles, buckets, and even batteries.\n\nAnother interesting thing about the Fluid Canner is that it can be transformed into a raintank, by attaching a drain cover on its top (Any machine with tank actually can be...).",
+      "name": "Fluid canner",
+      "description": "The fluid canner is a fundamental machine, since it is necessary to move fluids around, as well as for filling tin cells, glass bottles, buckets, and even batteries.\n\nAnother interesting thing about the fluid canner is that it can be transformed into a raintank, by attaching a drain cover on its top (Any machine with tank actually can be...).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54302,8 +54302,8 @@
     },
     {
       "questID": 618,
-      "name": "Sulfuric Acid",
-      "description": "Combining hydrogen sulfide and water in the Chemical Reactor will give you sulfuric acid for your single use acid batteries. If you have made some light or heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can always make sulfuric acid with some sulfur and water in the Chemical Reactor.",
+      "name": "Sulfuric acid",
+      "description": "Combining hydrogen sulfide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. If you have made some light or heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can always make sulfuric acid with some sulfur and water in the chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54379,7 +54379,7 @@
     },
     {
       "questID": 619,
-      "name": "Battery Buffer",
+      "name": "Battery buffer",
       "description": "Batteries can be placed directly in machines. To recharge a battery you need a battery buffer. They come in different sizes: 1, 4, 9 and 16 slots.",
       "isMain": false,
       "isSilent": false,
@@ -54559,7 +54559,7 @@
     },
     {
       "questID": 621,
-      "name": "How to get Sodium",
+      "name": "How to get sodium",
       "description": "A second source for sodium is glauconite ore or glauconite sand. This type of ore vein can be found at Y level 20-50.",
       "isMain": false,
       "isSilent": false,
@@ -54660,8 +54660,8 @@
     },
     {
       "questID": 622,
-      "name": "How to get Sodium/Lithium",
-      "description": "Salt ore mixes can be found in the Overworld between Y level 50-70. Salt isn\u0027t only used to get sodium, it\u0027s an important ingredient in many Pam\u0027s Harvestcraft food recipes.\n\nHint: Lepidolite and spodumene are good sources of lithium for your batteries.",
+      "name": "How to get sodium/lithium",
+      "description": "Salt ore mixes can be found in the Overworld between Y level 50-70. Salt isn\u0027t only used to get sodium, it\u0027s an important ingredient in many pam\u0027s harvestcraft food recipes.\n\nHint: Lepidolite and spodumene are good sources of lithium for your batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54762,8 +54762,8 @@
     },
     {
       "questID": 623,
-      "name": "A big Meteorite",
-      "description": "The best way to get rare earth is to find an AE2 meteorite and grind the blocks into dust. Maybe you completed the quest in the steam age and stored your crushed skystone somewhere? That dust can now be centrifuged into various byproducts like cadmium, neodymium, caesium, lanthanum, and yttrium.",
+      "name": "A big meteorite",
+      "description": "The best way to get rare earth is to find an applied energistics 2 meteorite and grind the blocks into dust. Maybe you completed the quest in the steam age and stored your crushed skystone somewhere? That dust can now be centrifuged into various byproducts like cadmium, neodymium, caesium, lanthanum, and yttrium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54890,8 +54890,8 @@
     },
     {
       "questID": 624,
-      "name": "Basic Canner",
-      "description": "The Canning Machine is mainly used to fill tin cans with any kind of food, but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with redstone, cadmium, lithium or sodium.",
+      "name": "Basic canner",
+      "description": "The canning machine is mainly used to fill tin cans with any kind of food, but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with redstone, cadmium, lithium or sodium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54963,8 +54963,8 @@
     },
     {
       "questID": 625,
-      "name": "Packing your Chests and Barrels",
-      "description": "Packing your chests and barrels without spilling all the things (Buildcraft (TM))? \nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don\u0027t have to travel very far.",
+      "name": "Packing your chests and barrels",
+      "description": "Packing your chests and barrels without spilling all the things (buildcraft(tm))? \nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don\u0027t have to travel very far.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55094,8 +55094,8 @@
     },
     {
       "questID": 626,
-      "name": "Portable Mob spawners..? Cool!",
-      "description": "Do you want to move the spawners around and build some cool mob farms? That will be no problem if you get the Diamond Dolly.",
+      "name": "Portable mob spawners..? Cool!",
+      "description": "Do you want to move the spawners around and build some cool mob farms? That will be no problem if you get the diamond dolly.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55207,8 +55207,8 @@
     },
     {
       "questID": 627,
-      "name": "Grain Bait",
-      "description": "Crafting some nice grain bait for your Animal Trap.",
+      "name": "Grain bait",
+      "description": "Crafting some nice grain bait for your animal trap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55295,8 +55295,8 @@
     },
     {
       "questID": 628,
-      "name": "Fruit Bait",
-      "description": "Crafting some tasty fruit bait for your Animal Trap.",
+      "name": "Fruit bait",
+      "description": "Crafting some tasty fruit bait for your animal trap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55383,8 +55383,8 @@
     },
     {
       "questID": 629,
-      "name": "Veggie Bait",
-      "description": "Crafting some veggie bait for your Animal Trap.",
+      "name": "Veggie bait",
+      "description": "Crafting some veggie bait for your animal trap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55470,8 +55470,8 @@
     },
     {
       "questID": 630,
-      "name": "Fish Bait",
-      "description": "Crafting some fish bait for your Fish Trap.",
+      "name": "Fish bait",
+      "description": "Crafting some fish bait for your fish trap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55557,7 +55557,7 @@
     },
     {
       "questID": 631,
-      "name": "Animal Trapping",
+      "name": "Animal trapping",
       "description": "Tired of hunting for cows, zombies or sheep? You can build a trap and hope some animal or monster drops will be caught by the netting inside.",
       "isMain": false,
       "isSilent": false,
@@ -55638,7 +55638,7 @@
     },
     {
       "questID": 632,
-      "name": "Fisherman\u0027s Friend",
+      "name": "A fisherman\u0027s friend",
       "description": "Have you ever tried to catch a fish with your bare hands? It\u0027s time to craft a fishing rod and get some fish the easy way. Cast your fishing rod in some water and wait until the bobber dips below the surface. Then reel back in your line and hopefully you caught yourself something nice.",
       "isMain": false,
       "isSilent": false,
@@ -55924,7 +55924,7 @@
     {
       "questID": 635,
       "name": "Floury flurry",
-      "description": "The first step in making bread is to macerate your wheat into flour with a mortar or a Macerator.\n\nFlour can be used in many food recipes for different Pam\u0027s Harvestcraft foods.",
+      "description": "The first step in making bread is to macerate your wheat into flour with a mortar or a macerator.\n\nFlour can be used in many food recipes for different pam\u0027s harvestcraft foods.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56014,7 +56014,7 @@
     },
     {
       "questID": 636,
-      "name": "First handmade Bread",
+      "name": "First handmade bread",
       "description": "Baking your dough in a Furnace makes some tasty bread.\nYour first bread!",
       "isMain": false,
       "isSilent": false,
@@ -56132,7 +56132,7 @@
     {
       "questID": 637,
       "name": "Do\u0027h!",
-      "description": "Water and flour makes a dough or two...\nDough can be used in many different food recipes from Pam\u0027s Harvestcraft.",
+      "description": "Water and flour makes a dough or two...\nDough can be used in many different food recipes from pam\u0027s harvestcraft.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56221,7 +56221,7 @@
     },
     {
       "questID": 638,
-      "name": "Tasty Toast",
+      "name": "Tasty toast",
       "description": "Smelt your bread again and you get some toast!? Give\u0027s you more nutrition points, and unlocks more culinary potential!",
       "isMain": false,
       "isSilent": false,
@@ -56305,8 +56305,8 @@
     },
     {
       "questID": 639,
-      "name": "Sulfuric Naphtha",
-      "description": "Another distillate you can make out of oil is sulfuric naphtha with a burn value of 40,000 EU per cell in the Gas Turbine.",
+      "name": "Sulfuric naphtha",
+      "description": "Another distillate you can make out of oil is sulfuric naphtha with a burn value of 40,000 EU per cell in the gas turbine.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -56473,7 +56473,7 @@
     {
       "questID": 641,
       "name": "Naphtha",
-      "description": "You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the Gas Turbine.\nNaphtha is also a base product for polyethylene and polycaprolactam.",
+      "description": "You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the gas turbine.\nNaphtha is also a base product for polyethylene and polycaprolactam.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -56555,8 +56555,8 @@
     },
     {
       "questID": 642,
-      "name": "Sulfuric Gas",
-      "description": "Another distillate for your Gas Turbine you can make out of oil is sulfuric gas with a burn value of 25,000 EU per cell.",
+      "name": "Sulfuric gas",
+      "description": "Another distillate for your gas turbine you can make out of oil is sulfuric gas with a burn value of 25,000 EU per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56639,8 +56639,8 @@
     },
     {
       "questID": 643,
-      "name": "Refinery Gas",
-      "description": "Refine your gas in a Chemical Reactor with hydrogen gas to give it a better burn value of 160,000 EU, and maybe use it to make methane gas.",
+      "name": "Refinery gas",
+      "description": "Refine your gas in a chemical reactor with hydrogen gas to give it a better burn value of 160,000 EU, and maybe use it to make methane gas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56806,7 +56806,7 @@
     },
     {
       "questID": 645,
-      "name": "Glider Wings",
+      "name": "Glider wings",
       "description": "If for some reason you want to be able to jump down a cliff without getting the message \"Player X fell from a high place\". A great idea would be to find a way to soften your landing first. The hang glider should do that just fine.",
       "isMain": false,
       "isSilent": false,
@@ -56963,7 +56963,7 @@
     },
     {
       "questID": 646,
-      "name": "Electrotine Battery",
+      "name": "Electrotine battery",
       "description": "The electrotine battery is exclusively used in project red machines and the jetpack.\nElectrotine is a mixture of redstone and electrum dust.",
       "isMain": false,
       "isSilent": false,
@@ -57079,7 +57079,7 @@
     },
     {
       "questID": 647,
-      "name": "Electrotine Jetpack",
+      "name": "Electrotine jetpack",
       "description": "Your glider gets you to the ground safely but it does not have any method to get up. After you researched electrotine you discovered that it is powerful enough for your first jetpack.\nA diamond chestplate surrounded with 4 electrotine batteries is powerful enough to bring you up in the air.\n\nIt does not have a hover mode so you better take your glider with you. \n\nHint: This jetpack can\u0027t fly higher than Y level 128.",
       "isMain": false,
       "isSilent": false,
@@ -57208,8 +57208,8 @@
     },
     {
       "questID": 648,
-      "name": "Refill your Jetpack",
-      "description": "GREAT.... you now have an empty jetpack.\nYou need 25 electrotine dust to completely fill it.\nLet\u0027s craft an Electrotine Generator and a Charging Bench to use the power of electrotine. \nYou will very quickly discover that, while it is fast and cheap, it\u0027s empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.",
+      "name": "Refill your jetpack",
+      "description": "GREAT.... you now have an empty jetpack.\nYou need 25 electrotine dust to completely fill it.\nLet\u0027s craft an electrotine generator and a charging bench to use the power of electrotine. \nYou will very quickly discover that, while it is fast and cheap, it\u0027s empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57318,7 +57318,7 @@
     },
     {
       "questID": 649,
-      "name": "Coal Steam Jetpack",
+      "name": "Coal steam jetpack",
       "description": "Your coal jetpack needs coal and water to produce steam. After a short warm-up period you can go and take it for a ride. Keep in mind you will need your glider to make a soft landing.\n\nPut your jetpack on your back and hit Shift and the adventure backpacks action-key to start it.\n\nMax flying height for these jetpacks is the Y level of 185.\n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.",
       "isMain": false,
       "isSilent": false,
@@ -57451,7 +57451,7 @@
     },
     {
       "questID": 650,
-      "name": "Copter Jetpack",
+      "name": "Copter jetpack",
       "description": "The copter jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. \nBuckets of creosote, lava, oil and fuel will work.\nEquip your jetpack and hit Shift and the adventure backpacks action-key. You can also switch between hover and normal mode.\n\nMax flying height is limited to Y level 200. \n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.",
       "isMain": false,
       "isSilent": false,
@@ -57685,7 +57685,7 @@
     },
     {
       "questID": 651,
-      "name": "Electric Jetpack",
+      "name": "Electric jetpack",
       "description": "Your first electrical jetpack. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode.\n\nThe only limitation is that you can\u0027t fly higher than Y level 185.",
       "isMain": false,
       "isSilent": false,
@@ -57817,8 +57817,8 @@
     },
     {
       "questID": 652,
-      "name": "Fueled Jetpack",
-      "description": "This jetpack uses IC2 biogas and can fly up to Y level 245.\nYou can switch between hover and normal mode using the IC2 mode-switch key.\n\nYour jetpack can be (re-)fueled in the IC2 Fluid Canner with 30 buckets/cells worth of biogas.",
+      "name": "Fueled jetpack",
+      "description": "This jetpack uses IC2 biogas and can fly up to Y level 245.\nYou can switch between hover and normal mode using the IC2 mode-switch key.\n\nYour jetpack can be (re-)fueled in the IC2 fluid canner with 30 buckets/cells worth of biogas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57944,8 +57944,8 @@
     },
     {
       "questID": 653,
-      "name": "Advanced Electric Jetpack",
-      "description": "The advanced electric jetpack is an upgraded version of the electric jetpack.\nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the advanced lappack from its 3,000,000 EU internal storage.\n\nThe advanced electric jetpack is limited to a maximum flying height of Y level 256.",
+      "name": "Advanced electric jetpack",
+      "description": "The advanced electric jetpack is an upgraded version of the electric jetpack.\nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the advanced lappack from its 3.000.000 EU internal storage.\n\nThe advanced electric jetpack is limited to a maximum flying height of Y level 256.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58080,7 +58080,7 @@
     },
     {
       "questID": 654,
-      "name": "Advanced Nano Chestplate",
+      "name": "Advanced nano chestplate",
       "description": "Combining the advanced electric jetpack and nanosuit yields you the advanced nano chestplate. Now you have the protection of the chestplate combined with the freedom of movement of the jetpack.",
       "isMain": false,
       "isSilent": false,
@@ -58218,7 +58218,7 @@
     },
     {
       "questID": 655,
-      "name": "Gravi Suit",
+      "name": "Gravi suit",
       "description": "The gravi chestplate is the ultimate quantum armor combined with a high powered jetpack. It also has hidden features that you need to discover while wearing the whole quantum armor.",
       "isMain": false,
       "isSilent": false,
@@ -58392,7 +58392,7 @@
     },
     {
       "questID": 656,
-      "name": "Iron Shields",
+      "name": "Iron shields",
       "description": "You have been using your hide shield long enough. After you make your first tools, grab a bit of iron ore and make a nice iron shield.",
       "isMain": false,
       "isSilent": false,
@@ -58506,7 +58506,7 @@
     },
     {
       "questID": 657,
-      "name": "Stone Spear",
+      "name": "Stone spear",
       "description": "Upgrade your wooden spear with a stone arrowhead and iron screws to a stone spear.\nThis spear has better durability than the wooden one.",
       "isMain": false,
       "isSilent": false,
@@ -58621,7 +58621,7 @@
     },
     {
       "questID": 658,
-      "name": "Iron Spear",
+      "name": "Iron spear",
       "description": "Upgrade your wooden spear with an iron arrowhead and two steel screws to an iron spear. \nThe iron spear has better durability than the stone variant.",
       "isMain": false,
       "isSilent": false,
@@ -58736,7 +58736,7 @@
     },
     {
       "questID": 659,
-      "name": "Diamond Spear",
+      "name": "Diamond spear",
       "description": "At MV Tier you can upgrade your iron spear to a diamond one. Get a diamond arrowhead, two stainless steel screws and a wooden spear.\nThis spear has superior durability.",
       "isMain": false,
       "isSilent": false,
@@ -58853,7 +58853,7 @@
     },
     {
       "questID": 660,
-      "name": "Diamond Shield",
+      "name": "Diamond shield",
       "description": "Your iron shield got very old. With a shield made from diamond plates you can maintain block for up to 5 seconds.",
       "isMain": false,
       "isSilent": false,
@@ -58976,8 +58976,8 @@
     },
     {
       "questID": 661,
-      "name": "Bow, Arrows and Quiver",
-      "description": "Wow, your first handmade *ehm* machine made bow. You find out that you can put the bow in the Mine and Blade Battlegears slots. Now it\u0027s time to make a quiver and maybe some arrows. You can put up to 4 stacks of arrows in your quiver.\n\nLet\u0027s go hunt a bit.",
+      "name": "Bow, arrows and quiver",
+      "description": "Wow, your first handmade *ehm* machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it\u0027s time to make a quiver and maybe some arrows. You can put up to 4 stacks of arrows in your quiver.\n\nLet\u0027s go hunt a bit.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59122,8 +59122,8 @@
     },
     {
       "questID": 662,
-      "name": "Basic Arc Furnace",
-      "description": "The Arc Furnace is an alternative to smelting stuff back into components and making wrought iron. The recipes use oxygen and 3 amperes of power.",
+      "name": "Basic arc furnace",
+      "description": "The arc furnace is an alternative to smelting stuff back into components and making wrought iron. The recipes use oxygen and 3 amperes of power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59193,8 +59193,8 @@
     },
     {
       "questID": 663,
-      "name": "Faster Steel Production",
-      "description": "A faster alternative to steel production is to use the Arc Furnace and smelt the iron ingots into wrought iron ingots. Then macerate them to dust and smelt them very fast in the EBF to steel. (Some might even dare arc furnacing the dust itself...)",
+      "name": "Faster steel production",
+      "description": "A faster alternative to steel production is to use the arc furnace and smelt the iron ingots into wrought iron ingots. Then macerate them to dust and smelt them very fast in the EBF to steel. (Some might even dare arc furnacing the dust itself...)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59306,8 +59306,8 @@
     },
     {
       "questID": 664,
-      "name": "LV Battery Buffer 4 Slots",
-      "description": "Upgrade your battery buffer to hold 4 batteries which allows max 4 ampere output.\nUseful for your EBF and the Arc Furnace.",
+      "name": "LV battery buffer 4 slots",
+      "description": "Upgrade your battery buffer to hold 4 batteries which allows max 4 ampere output.\nUseful for your EBF and the arc furnace.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59514,7 +59514,7 @@
     },
     {
       "questID": 666,
-      "name": "Row, row, row your Boat",
+      "name": "Row, row, row your boat",
       "description": "You live close to the water and don\u0027t have a boat?\nYou need wooden planks, slabs and a knife to craft one. (This is also quest id 666, be careful, something is going on.)",
       "isMain": false,
       "isSilent": false,
@@ -59768,7 +59768,7 @@
     },
     {
       "questID": 668,
-      "name": "Rubber Boat",
+      "name": "Rubber boat",
       "description": "The rubber dinghy requires only a few rubber plates. Like the vanilla wooden boat, it will break and dismantle whenever it hits a surface, however instead of returning sticks and planks, it will return a damaged rubber dinghy, which can be re-crafted with two pieces of rubber back into a useable rubber dinghy!",
       "isMain": false,
       "isSilent": false,
@@ -59857,7 +59857,7 @@
     },
     {
       "questID": 669,
-      "name": "Inflatable Boot",
+      "name": "Inflatable boot",
       "description": "I meant to say boat... The inflatable boat is the first boat that doesn\u0027t break on impact with a solid block.",
       "isMain": false,
       "isSilent": false,
@@ -59946,7 +59946,7 @@
     },
     {
       "questID": 670,
-      "name": "Carbon Fiber Boat",
+      "name": "Carbon fiber boat",
       "description": "Unlike all other boats, this amazing carbon fiber canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the carbon fiber canoe won\u0027t take a scratch!\n\nWarning: We are not held responsible for any damage caused by riding the carbon fiber canoe into a lava lake or the Void.\n\n*Therefore, warranty is NOT included.",
       "isMain": false,
       "isSilent": false,
@@ -60035,7 +60035,7 @@
     },
     {
       "questID": 671,
-      "name": "Electric Boat",
+      "name": "Electric boat",
       "description": "The alectric boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will hopefully drop itself once you crash, which is slightly nicer than the usual sticks. That\u0027s all well and good, but what if we utilize the electric engine? Wearing an energy storage device in your chestplate slot, like a batpack or energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a decent batpack won\u0027t last long!",
       "isMain": false,
       "isSilent": false,
@@ -60140,8 +60140,8 @@
     },
     {
       "questID": 672,
-      "name": "Boat Shape?",
-      "description": "Really? Yes for the more advanced boats you need a new shape Form.",
+      "name": "Boat shape?",
+      "description": "Really? Yes for the more advanced boats you need a new shape form.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60238,8 +60238,8 @@
     },
     {
       "questID": 673,
-      "name": "LV Extruder",
-      "description": "The Extruder is not very useful in the LV Age. But it will extrude your next tier of boat.",
+      "name": "LV extruder",
+      "description": "The extruder is not very useful in the LV age. But it will extrude your next tier of boat.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60307,8 +60307,8 @@
     },
     {
       "questID": 674,
-      "name": "Wooden Rail variants",
-      "description": "The wooden junction, wye and switch tracks need an Assembling Machine to craft. They allow you to join and switch to tracks going to different locations.",
+      "name": "Wooden rail variants",
+      "description": "The wooden junction, wye and switch tracks need an assembling machine to craft. They allow you to join and switch to tracks going to different locations.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60424,7 +60424,7 @@
     },
     {
       "questID": 675,
-      "name": "Switch Lever",
+      "name": "Switch lever",
       "description": "The switch lever is the manual version of the switch motor, requiring a player to operate it instead of a redstone signal. \nIt is used in various signaling systems, mainly to change the way switch tracks and wye tracks work.",
       "isMain": false,
       "isSilent": false,
@@ -60510,7 +60510,7 @@
     {
       "questID": 676,
       "name": "Crowbar",
-      "description": "The crowbar comes in a Railcraft and a GregTech variant. It is used to manipulate machines from Railcraft, remove plates and any other covers (pumps, conveyor belts, etc.) from GregTech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.\n\nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).",
+      "description": "The crowbar comes in a Railcraft and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor belts, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.\n\nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60593,7 +60593,7 @@
     {
       "questID": 677,
       "name": "Minecart",
-      "description": "After you craft your first cart the journey can begin...\nWell, not really. You will need some tracks first.",
+      "description": "After you craft your first cart the journey can begin...\nWell, not really. You will need some kind of tracks first.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61029,7 +61029,7 @@
     {
       "questID": 683,
       "name": "Wet dirt armor?",
-      "description": "If you don\u0027t have any armor, \"Mud Armor\" is better than nothing. Mud can be found in some wet biomes.",
+      "description": "If you don\u0027t have any armor, \"mud armor\" is better than nothing. Mud can be found in some wet biomes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61142,7 +61142,7 @@
     },
     {
       "questID": 684,
-      "name": "Wooden Armor",
+      "name": "Wooden armor",
       "description": "If you can\u0027t find mud you can make very poor armor out of wood. Cutting down a few trees to make a set should do. You will need a soft mallet too, so save a few logs for that.",
       "isMain": false,
       "isSilent": false,
@@ -61371,7 +61371,7 @@
     },
     {
       "questID": 686,
-      "name": "Leather Armor",
+      "name": "Leather armor",
       "description": "Killing some cows will give you enough leather to craft a complete set of leather armor. \n\nHint: You are able to dye this armor.",
       "isMain": false,
       "isSilent": false,
@@ -61565,7 +61565,7 @@
     },
     {
       "questID": 687,
-      "name": "Bronze Armor",
+      "name": "Bronze armor",
       "description": "Bronze armor has the same abilities as iron armor. Same durability, same protection and same enchantment capability.",
       "isMain": false,
       "isSilent": false,
@@ -61680,7 +61680,7 @@
     },
     {
       "questID": 688,
-      "name": "\"Nice to have\" Armor",
+      "name": "\"Nice to have\" armor",
       "description": "The gold armor is a \"nice to have\" armor. The durability is very low but you look expensive when you wear it.",
       "isMain": false,
       "isSilent": false,
@@ -61795,7 +61795,7 @@
     },
     {
       "questID": 689,
-      "name": "\"Oh Shiny\" Armor",
+      "name": "\"Oh shiny\" armor",
       "description": "Diamond armor is the best armor in Vanilla Minecraft, but over here there are much better armors available.",
       "isMain": false,
       "isSilent": false,
@@ -61910,7 +61910,7 @@
     },
     {
       "questID": 690,
-      "name": "Fancy Armor",
+      "name": "Fancy armor",
       "description": "Not really better but fancy. The chain mail armor is made out of steel rings.",
       "isMain": false,
       "isSilent": false,
@@ -62160,7 +62160,7 @@
     },
     {
       "questID": 692,
-      "name": "Composite Vest",
+      "name": "Composite vest",
       "description": "Combining the strength of advanced alloy plates with the steel chestplate makes your vest very hard. Now you have double the durability and increased armor points by 1,5.",
       "isMain": false,
       "isSilent": false,
@@ -62275,8 +62275,8 @@
     },
     {
       "questID": 693,
-      "name": "Fallen from the Sky",
-      "description": "There are big meteors everywhere and you are wondering why you need to mine them now?\nSkystone is a good source of rare earth metals in the LV Age. \nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important.",
+      "name": "Fallen from the sky",
+      "description": "There are big meteors everywhere and you are wondering why you need to mine them now?\nSkystone is a good source of rare earth metals in the LV age. \nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62401,8 +62401,8 @@
     },
     {
       "questID": 694,
-      "name": "One Anvil... better Two!",
-      "description": "With your brand-new Compressor you are able to make some metal blocks for your new anvil. Better craft two anvils, one will be required for the Forge Hammer.\n\nWith the anvil you can repair, rename and enchant armor and tools.\n",
+      "name": "One Anvil... Better make that two!",
+      "description": "With your brand-new Compressor you are able to make some metal blocks for your new anvil. Better craft two anvils, one will be required for the forge hammer.\n\nWith the anvil you can repair, rename and enchant armor and tools.\n",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -62509,8 +62509,8 @@
     },
     {
       "questID": 695,
-      "name": "Automation Tier 1",
-      "description": "Do you want to automate your Smeltery because you are planning to make stacks of glass blocks? \nNo problem, craft a large bronze pipe and place it under the faucet. Now the molten fluid will flow inside the pipe. Under the pipe you have to place the casting basins or tables.\nA hopper and a chest underneath would be good to auto-output products.",
+      "name": "Automation tier 1",
+      "description": "Do you want to automate your smeltery because you are planning to make stacks of glass blocks? \nNo problem, craft a large bronze pipe and place it under the faucet. Now the molten fluid will flow inside the pipe. Under the pipe you have to place the casting basins or tables.\nA hopper and a chest underneath would be good to auto-output products.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62638,7 +62638,7 @@
     },
     {
       "questID": 696,
-      "name": "Automation Tier 2",
+      "name": "Automation tier 2",
       "description": "You want a better automation than using pipes? Sure, craft a comparator and link it with redstone dust placed on the ground. The redstone needs to be adjecent to the faucet to activate the crafting process.",
       "isMain": false,
       "isSilent": false,
@@ -62728,7 +62728,7 @@
     },
     {
       "questID": 697,
-      "name": "2x Steel",
+      "name": "2x steel",
       "description": "Steel production is so slow. If you got enough bronze, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some coppper.",
       "isMain": false,
       "isSilent": false,
@@ -62897,7 +62897,7 @@
     },
     {
       "questID": 698,
-      "name": "4x Steel",
+      "name": "4x steel",
       "description": "Not even two BBFs are fast enough...",
       "isMain": false,
       "isSilent": false,
@@ -63067,7 +63067,7 @@
     {
       "questID": 699,
       "name": "Why one coke oven when you can have ten",
-      "description": "Your Bronze Blast Furnace uses coal like hell and your Steam Boiler too? Well it\u0027s time to make more Coke Ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.",
+      "description": "Your bronze blast furnace uses coal like hell and your steam boiler too? Well it\u0027s time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64790,7 +64790,7 @@
     {
       "questID": 717,
       "name": "Good Circuits.",
-      "description": "Good circuits are an improvement on basic circuits. They are a component of all MV GregTech machines. Be sure you build the electric blast furnace first, so you can process some aluminium dust into ingots.",
+      "description": "Good circuits are an improvement on basic circuits. They are a component of all MV gregtech machines. Be sure you build the electric blast furnace first, so you can process some aluminium dust into ingots.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -70400,7 +70400,7 @@
     {
       "questID": 767,
       "name": "Analyzing the soil",
-      "description": "To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking a seismic prospector with 8 dynamite, 4 TNT, 2 industrial TNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.\nProTip: you can do it more efficiently by only scanning every 6 chunks. \n\nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only GregTech machines will work)\n\nAfter the process is done take the printed page and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. \n\nTADA now you have a book with info about the chunk you scanned.  \n \n\n",
+      "description": "To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking a seismic prospector with 8 dynamite, 4 TNT, 2 industrial TNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.\nProTip: you can do it more efficiently by only scanning every 6 chunks. \n\nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed page and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. \n\nTADA now you have a book with info about the chunk you scanned.  \n \n\n",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
