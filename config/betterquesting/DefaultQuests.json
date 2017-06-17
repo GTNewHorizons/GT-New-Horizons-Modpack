@@ -13391,7 +13391,7 @@
     {
       "questID": 155,
       "name": "Harder, stronger, faster",
-      "description": "No, actually not faster. But more durable than Tier 1.",
+      "description": "No, actually not faster. But more durable than tier 1.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13473,7 +13473,7 @@
     },
     {
       "questID": 156,
-      "name": "Protect your base; Tier 2",
+      "name": "Protect your base: Tier 2",
       "description": "Slightly better protection. Now with a real gun. No more wasting food.",
       "isMain": false,
       "isSilent": false,
@@ -13942,8 +13942,8 @@
     },
     {
       "questID": 162,
-      "name": "Dimensional Goal: Moon",
-      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. Since you will need titanium in large quantities. \n\nHint: more info will be found in the Quest Tab Space Race.",
+      "name": "Dimensional goal: Moon",
+      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. Since you will need titanium in large quantities. \n\nHint: more info will be found in the Space Race quest tab.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -14038,7 +14038,7 @@
     {
       "questID": 163,
       "name": "I see everything",
-      "description": "The inventory panel is an alternative to your (Hopefully?) existing ProjectRed storage system. Just like project red, you have to connect every chest/barrel with an item conduit. In addition to that, you also have to install a \"remote awareness\" upgrade into every conduit side you want the panel to see.",
+      "description": "The inventory panel is an alternative to your (hopefully?) existing project red storage system. Just like project red, you have to connect every chest/barrel with an item conduit. In addition to that, you also have to install a \"remote awareness\" upgrade into every conduit side you want the panel to see.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -14319,7 +14319,7 @@
     {
       "questID": 166,
       "name": "A new alloy",
-      "description": "There are some... \"Darker\" uses for machines. Stuff that might be considered \"Magic\". Anyway, for that you need a new alloy: Soularium.",
+      "description": "There are some... \"Darker\" uses for machines. Stuff that might be considered \"magic\". Anyway, for that you need a new alloy: Soularium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -14389,8 +14389,8 @@
     },
     {
       "questID": 167,
-      "name": "Experience-Storage",
-      "description": "Dying is painful, isn\u0027t it? As your precious experience is lost. But fear not, there is a solution! By using an experience obelisk, you are now able to store all your experience in a safe location.",
+      "name": "Experience storage",
+      "description": "Dying is painful, isn\u0027t it? As your precious experience is lost. But fear not, there is a solution! By using an experience obelisk, you are now able to store all your collected experience in a safe location.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -15415,7 +15415,7 @@
     {
       "questID": 172,
       "name": "Protect your base: Tier 3",
-      "description": "Now we\u0027re talking: Grenades! Big booms.",
+      "description": "Now we\u0027re talking: Grenades! The next in big badda boom hardware.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -15646,7 +15646,7 @@
     {
       "questID": 175,
       "name": "Fire in the hole",
-      "description": "Ah, there is nothing like an explosion and the certainty that your enemies have been blasted to tiny pieces.",
+      "description": "Ah, there is nothing like an explosion and the certainty that your enemies have been blasted into tiny pieces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -15729,7 +15729,7 @@
     {
       "questID": 176,
       "name": "Tier 5",
-      "description": "The main goal here is to get a Tier 2 rocket, and reach Mars. You also might want to rethink your power setup, as more and more machines will be upgraded. This quest set will teach you about a couple of options you have regarding power production.",
+      "description": "The main goal here is to get a tier 2 rocket, and reach Mars. You also might want to rethink your power setup, as more and more machines will be upgraded. This quest set will teach you about a couple of options you have regarding power production.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -15816,7 +15816,7 @@
     {
       "questID": 177,
       "name": "*Poke*",
-      "description": "Time to get some blood. You have to start with your own...",
+      "description": "Time to get some blood. You will have to start with your own...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -15899,7 +15899,7 @@
     {
       "questID": 178,
       "name": "It\u0027s storage time!",
-      "description": "Now that you\u0027ve reached High Voltage age, you might consider starting to work on your AE System. It might be small, and it might be tricky to power it at first, but it\u0027s really worth the effort. You should start by getting all 4 inscriber patterns.",
+      "description": "Now that you\u0027ve reached the High Voltage age, you might consider starting to work on your applied energistics system. It might be small, and it might be tricky to power it at first, but it\u0027s really worth the effort. You should start by getting all 4 different inscriber patterns.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16252,7 +16252,7 @@
     },
     {
       "questID": 182,
-      "name": "Applied Crafting",
+      "name": "Applied crafting",
       "description": "Crafting can be a pain. So why not automate it?",
       "isMain": false,
       "isSilent": false,
@@ -16464,7 +16464,7 @@
     {
       "questID": 184,
       "name": "Cables",
-      "description": "To have access to your AE from your entire base, you\u0027ll need cables. A lot of them. For now, the basic ones will do, but eventually, you\u0027ll end up using dense cables and P2P channels.",
+      "description": "To have access to your applied energistics network from your entire base, you\u0027ll need cables. A lot of them. For now, the basic ones will do, but eventually, you\u0027ll end up using dense cables and p2p channels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16669,7 +16669,7 @@
     },
     {
       "questID": 186,
-      "name": "Dimensional Goal: Mars",
+      "name": "Dimensional goal: Mars",
       "description": "Mars has many new ores you need to find like tungsten, uranium and plutonium.",
       "isMain": true,
       "isSilent": false,
@@ -16752,7 +16752,7 @@
     },
     {
       "questID": 187,
-      "name": "Dimensional Goal: Phobos",
+      "name": "Dimensional goal: Phobos",
       "description": "A smaller goal, as the main goal is Mars. But you\u0027ll find different ores on this moon also.",
       "isMain": false,
       "isSilent": false,
@@ -16847,7 +16847,7 @@
     },
     {
       "questID": 188,
-      "name": "Dimensional Goal: Deimos",
+      "name": "Dimensional goal: Deimos",
       "description": "A smaller goal, as the main goal is Mars. But you\u0027ll find different ores on this moon also.",
       "isMain": false,
       "isSilent": false,
@@ -16936,7 +16936,7 @@
     },
     {
       "questID": 189,
-      "name": "HEV Mark III Protective System",
+      "name": "HEV Mark III protective system",
       "description": "Some things are dirty, and some things are even dangerous. You\u0027ll play with nasty stuff here, so better prepare yourself for the worst.",
       "isMain": false,
       "isSilent": false,
@@ -17383,7 +17383,7 @@
     {
       "questID": 195,
       "name": "Increasing the capacity",
-      "description": "To unleash the full potential of your reactor, you have to attach 6 reactor chambers to it.",
+      "description": "To unleash the full potential of your reactor, you have to attach six reactor chambers to it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17563,7 +17563,7 @@
     {
       "questID": 197,
       "name": "Venting heat",
-      "description": "You can\u0027t just move the heat around; Eventually you need to get rid of it. Just like the exchangers, there are different types of vents, each of them has a certain usage you\u0027ll need to find out.",
+      "description": "You can\u0027t just move the heat around, eventually you need to get rid of it. Just like the exchangers, there are different types of vents, each of them has a certain usage you\u0027ll need to find out.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17777,7 +17777,7 @@
     {
       "questID": 199,
       "name": "Quit exhaling dusts",
-      "description": "The QED is used for stuff like the Ender Quarry (Yay!) and advanced mob-protection.",
+      "description": "The QED is used for stuff like the ender quarry (yay!) and advanced mob-protection.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17938,7 +17938,7 @@
     {
       "questID": 201,
       "name": "Automated mining",
-      "description": "The QED enables you to assemble the most convenient device for mining: The Ender Quarry.",
+      "description": "The QED enables you to assemble the most convenient device for mining: The ender quarry.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18016,7 +18016,7 @@
     {
       "questID": 202,
       "name": "Accelerating things",
-      "description": "If an Ender Quarry won\u0027t satisfy your needs for MOOORE. A speed upgrade is required.",
+      "description": "If an ender quarry won\u0027t satisfy your needs for MOOORE. A speed upgrade is required.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18169,7 +18169,7 @@
     },
     {
       "questID": 204,
-      "name": "Load and Unload the rocket",
+      "name": "Load and unload the rocket",
       "description": "What use has an automated rocket, if you can\u0027t load and unload it with automation?",
       "isMain": false,
       "isSilent": false,
@@ -18394,7 +18394,7 @@
     },
     {
       "questID": 207,
-      "name": "Turret base Tier 4",
+      "name": "Turret base tier 4",
       "description": "Even more range, power and upgrade slots.",
       "isMain": false,
       "isSilent": false,
@@ -18869,7 +18869,7 @@
     {
       "questID": 213,
       "name": "Tier 6",
-      "description": "VI-Level. You will need tungstensteel for machines. Supposed planets and moons to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"How to GregTech\" by now, if not go clean up the machine craters...",
+      "description": "VI-Level. You will need tungstensteel for machines. Supposed planets and moons to visit: Mars, Phobos, Deimos. You should\u0027ve learned \"How to GregTech\" by now, if not go clean up the machine craters in your base...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -19064,8 +19064,8 @@
     },
     {
       "questID": 215,
-      "name": "On your way to Tier 7",
-      "description": "The next Tier is defined as \"Asteroids-Dimension\" and \"8192 EU/t Machines\". The machines now reached their full potential, and some asteroids may contain precious ores to improve your power generation.",
+      "name": "On your way to tier 7",
+      "description": "The next tier is defined as \"Asteroids-Dimension\" and \"8192 EU/t machines\". The machines now reached their full potential, and some asteroids may contain precious ores to improve your power generation.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -20045,7 +20045,7 @@
     },
     {
       "questID": 228,
-      "name": "Bloody Water",
+      "name": "Bloody water",
       "description": "By sacrificing some blood to the water spirits, they\u0027ll grant you some of their precious element.",
       "isMain": false,
       "isSilent": false,
@@ -20224,7 +20224,7 @@
     {
       "questID": 230,
       "name": "Your first wand",
-      "description": "You are sure that this place will give you all the answers you are looking for! To continue, you need something to handle the magic energy called \"Vis\". Guess it\u0027s time to craft your first wand.",
+      "description": "You are sure that this place will give you all the answers you are looking for! To continue, you need something to handle the magic energy called \"vis\". Guess it\u0027s time to craft your first wand.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -20525,7 +20525,7 @@
     {
       "questID": 233,
       "name": "Getting shards",
-      "description": "Now that you found all 6 primal types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer.",
+      "description": "Now that you found all six primal types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -20625,8 +20625,8 @@
     },
     {
       "questID": 234,
-      "name": "A \"greater\" Wand",
-      "description": "While doing all your research and mining of these infused stones, you had an idea how to actually use the wood of a Greatwood tree to make a new wand. Actually, it turned out to be pretty simple, but you lacked one important thing back then: Vis!. The vis makes sure the wood doesn\u0027t lose it\u0027s magical conductivity while forming the rod.",
+      "name": "A \"greater\" wand",
+      "description": "While doing all your research and mining of these infused stones, you had an idea how to actually use the wood of a Greatwood tree to make a new wand. Actually, it turned out to be pretty simple, but you lacked one important thing back then: vis!. The vis makes sure the wood doesn\u0027t lose it\u0027s magical conductivity while forming the rod.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -20697,7 +20697,7 @@
     {
       "questID": 235,
       "name": "Better screws",
-      "description": "Unfortunately, your aluminium screws don\u0027t work with the greatwood rod. Somehow, the wood seems to repel the material. Luckily, you already have a Blast Furnace, so you can get a better material than aluminium.",
+      "description": "Unfortunately, your aluminium screws don\u0027t work with the greatwood rod. Somehow, the wood seems to repel the material. Luckily, you already have a blast furnace, so you can get a better material than aluminium.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -20775,7 +20775,7 @@
     {
       "questID": 236,
       "name": "A more powerful \"scale\"",
-      "description": "The Naga scales are weak, they can only hold a very limited amount of Vis. You need a better, more powerful component to store Vis in your wand. You\u0027ve heard rumors about an evil wizard in the Twilight forest. Maybe he has... something... that can be used?",
+      "description": "The naga scales are weak, they can only hold a very limited amount of vis. You need a better, more powerful component to store vis in your wand. You\u0027ve heard rumors about an evil wizard in the twilight forest. Maybe he has... something... that can be used?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -20857,7 +20857,7 @@
     },
     {
       "questID": 237,
-      "name": "\"Stores 50 vis\" Wand",
+      "name": "\"Stores 50 vis\" wand",
       "description": "Now combine your new wand, and be more powerful than before! You have a feeling, that this new wand will come in handy very soon(tm).",
       "isMain": true,
       "isSilent": false,
@@ -21276,7 +21276,7 @@
     {
       "questID": 242,
       "name": "Balanced shards sdrahs decnalaB",
-      "description": "By combining all 6 primal aspects in a crucible, you are able to make balanced shards. They can be ground up into \"Salis Mundus\", an absolutely crucial thing to have, trust me!",
+      "description": "By combining all six primal aspects in a crucible, you are able to make balanced shards. They can be ground up into \"Salis Mundus\", an absolutely crucial thing to have, trust me!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -22585,7 +22585,7 @@
     },
     {
       "questID": 258,
-      "name": "Infinite... Lava?",
+      "name": "Infinite... lava?",
       "description": "Well, it does need some ignis centi-vis, but hey, it\u0027s free.",
       "isMain": false,
       "isSilent": false,
@@ -22727,7 +22727,7 @@
     },
     {
       "questID": 260,
-      "name": "Adept Thaumaturgy",
+      "name": "Adept thaumaturgy",
       "description": "I have mastered the basics. Master warned me about forbidden magic, but it sounds so promising. I think a bit of forbidden stuff can\u0027t hurt...",
       "isMain": true,
       "isSilent": false,
@@ -23050,7 +23050,7 @@
     },
     {
       "questID": 264,
-      "name": "Obsidian Rod",
+      "name": "Obsidian rod",
       "description": "By using obsidian and some earth clusters, I\u0027m able to create a magical infused rod, that will slowly recharge its own terra vis.",
       "isMain": false,
       "isSilent": false,
@@ -23894,7 +23894,7 @@
     },
     {
       "questID": 275,
-      "name": "Centi-Vis",
+      "name": "Centi-vis",
       "description": "Many advanced machines require vis in order to do what they\u0027re supposed to. But using a wand as some sort of battery to transfer vis from a node to your machine didn\u0027t work as expected. What if you could rip open a node?",
       "isMain": false,
       "isSilent": false,
@@ -24107,7 +24107,7 @@
     },
     {
       "questID": 278,
-      "name": "Centi-Vis stuff",
+      "name": "Centi-vis stuff",
       "description": "You totally should get yourself some centi-vis things to transport and use the vis from stabilized nodes.",
       "isMain": false,
       "isSilent": false,
@@ -25064,7 +25064,7 @@
     },
     {
       "questID": 290,
-      "name": "Improved Armor: Ninja Style",
+      "name": "Improved armor: Ninja style",
       "description": "Time to get some decent armor. With this, those infernal monsters won\u0027t be as much of a pain as they are now.",
       "isMain": false,
       "isSilent": false,
@@ -26171,7 +26171,7 @@
     },
     {
       "questID": 298,
-      "name": "(Almost) Automated essentia",
+      "name": "(Almost) automated essentia",
       "description": "By combining the essentia locus, the essentia mirror and an essentia aggregator, you are now able to transmit essentia from almost anywhere. Fancy essentia-storage facility incomming!",
       "isMain": false,
       "isSilent": false,
@@ -26238,8 +26238,8 @@
     },
     {
       "questID": 299,
-      "name": "Essentia Monitoring",
-      "description": "Manually checking your jars can be tedious, especially if you want to infuse a bunch of stuff at once. Luckily, the Essentia Locus can help you with that, as it monitors all jars that have been targeted with a crystalline eye.",
+      "name": "Essentia monitoring",
+      "description": "Manually checking your jars can be tedious, especially if you want to infuse a bunch of stuff at once. Luckily, the essentia locus can help you with that, as it monitors all jars that have been targeted with a crystalline eye.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
