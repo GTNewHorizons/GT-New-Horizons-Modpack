@@ -5411,7 +5411,7 @@
     {
       "questID": 62,
       "name": "The power of the sun",
-      "description": "The sun has quite a bit of power, so why not use it to produce steam? \n\n(Hint: Just remember that the solar boiler calcifies and becomes less efficient over time.)",
+      "description": "The sun has quite a bit of power, so why not use it to produce steam? \n\nHint: Just remember that the solar boiler calcifies and becomes less efficient over time.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6886,7 +6886,7 @@
     {
       "questID": 76,
       "name": "Time to get some steel",
-      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\n(Hint: The bronze blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...)",
+      "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\nHint: The bronze blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8082,7 +8082,7 @@
     {
       "questID": 87,
       "name": "Steel Multiblock Tanks",
-      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\n(Hint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.)",
+      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8395,7 +8395,7 @@
     {
       "questID": 91,
       "name": "You\u0027re gonna hate this #1",
-      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of chests or barrels you\u0027ll need one. \n\n(Hint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.)",
+      "description": "The first item you\u0027ll need a lot of. If you want to pull items out of chests or barrels you\u0027ll need one. \n\nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8470,7 +8470,7 @@
     {
       "questID": 92,
       "name": "You\u0027re gonna hate this #4",
-      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever. \n\n(Hint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.)",
+      "description": "The third item you\u0027ll need a lot of, and is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8545,7 +8545,7 @@
     {
       "questID": 93,
       "name": "You\u0027re gonna hate this #2",
-      "description": "The second item you\u0027ll need a lot of. When you want to get fluid out of tanks you\u0027ll need one. \n\n(Hint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.)",
+      "description": "The second item you\u0027ll need a lot of. When you want to get fluid out of tanks you\u0027ll need one. \n\nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9191,7 +9191,7 @@
     {
       "questID": 102,
       "name": "Cutting things apart",
-      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and of that will be done with the highest possible efficiency. Totally worth it! \n\n(Hint: Just add water.)",
+      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and of that will be done with the highest possible efficiency. Totally worth it! \n\nHint: Just add water.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -13943,7 +13943,7 @@
     {
       "questID": 162,
       "name": "Dimensional Goal: Moon",
-      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. Since you will need titanium in large quantities. \n\n(Hint: more info will be found in the Quest Tab Space Race.)",
+      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. Since you will need titanium in large quantities. \n\nHint: more info will be found in the Quest Tab Space Race.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -19159,7 +19159,7 @@
     {
       "questID": 216,
       "name": "\"Clean\" energy..?",
-      "description": "Finally, a reliable and powerful source of energy for your base. And why waste your time with a 2k generator? Go for a 8k one! \n\n(Hint: It\u0027s probably a good idea to wear your hazmat suit before claiming your reward...)",
+      "description": "Finally, a reliable and powerful source of energy for your base. And why waste your time with a 2k generator? Go for a 8k one! \n\nHint: It\u0027s probably a good idea to wear your hazmat suit before claiming your reward...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22515,7 +22515,7 @@
     {
       "questID": 257,
       "name": "Save the squids, we must",
-      "description": "A very convenient way to make PETA activists happy and get ink at the same time. (Hint: The essentia in those roses might be useful...)",
+      "description": "A very convenient way to make PETA activists happy and get ink at the same time. \n\nHint: The essentia in those roses might be useful...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52464,7 +52464,7 @@
     {
       "questID": 600,
       "name": "Hunger, no more",
-      "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits and vegetables. Use them to curb your insatiable hunger.",
+      "description": "The hunger is constantly following you, consuming you, never letting you rest. The world around you is full of nourishing fruits, vegetables and crafted meals. Use them to curb your insatiable hunger.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52666,7 +52666,7 @@
     {
       "questID": 601,
       "name": "Building made easy",
-      "description": "Placing blocks by hand can be tedious. Wouldn\u0027t it be nice to be able to place blocks like \"Another 9 here\"? Well, good news. Get yourself some of the various building blocks, and I shall reward you.",
+      "description": "Placing blocks by hand can be tedious. Wouldn\u0027t it be nice to be able to place blocks like \"Another 9 here\"? Well, good news. Get yourself some of the various building blocks, and I shall reward you with something nice.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52999,7 +52999,7 @@
     {
       "questID": 604,
       "name": "A new Dimension",
-      "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside Strongholds. You feel strangely drawn into its depths.",
+      "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside Strongholds. You feel strangely drawn into its mysterious depths.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53234,7 +53234,7 @@
     {
       "questID": 607,
       "name": "Slay the Dragon. (Again)",
-      "description": "If you\u0027re bored, you can resurrect the Dragon. Or, you could find a ChaosDragon, if you dare. Anyway, kill one of those, and you\u0027ll be rewarded.",
+      "description": "If you\u0027re bored, you can resurrect the Dragon. Or, you could find a Chaos Dragon, if you dare. Anyway, kill one of those, and you\u0027ll be well rewarded.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53310,7 +53310,7 @@
     {
       "questID": 608,
       "name": "A lead about Lead that leads to lead Dust",
-      "description": "Next step of making batteries is to collect some lead. Lead and galena veins can be found in the Twilight Forest.",
+      "description": "The next step of making batteries is to collect some lead. Lead and galena veins can be found in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53382,7 +53382,7 @@
     {
       "questID": 609,
       "name": "Battery Alloy",
-      "description": "Mixing antimony and lead in the Alloy Smelter gives some battery alloy.\nCombine it with some tin cable and voila there is your small battery hull.",
+      "description": "Mixing antimony and lead in the Alloy Smelter will give you some battery alloy.\nCombine it with some tin cable and voila there is your small battery hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53505,7 +53505,7 @@
     {
       "questID": 610,
       "name": "Lead, Galena and Silver",
-      "description": "You can\u0027t find lead, galena or silver in the Overworld or the Nether. So it\u0027s time to explore the Twilight Forest a bit and find this vein at Y level 5 - 40.",
+      "description": "You can\u0027t find lead, galena or silver in the Overworld or the Nether. So it\u0027s time to explore the mysterious Twilight Forest a bit and find this vein at Y level 5 - 40.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53594,7 +53594,7 @@
     {
       "questID": 611,
       "name": "Single Use Battery : Mercury",
-      "description": "Mercury and acid batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into small battery hulls.\n\nThey can be placed in the battery slot of any standard LV GregTech machine, in which case they will be depleted before the machine\u0027s internal EU storage. They can also be used in battery buffers.",
+      "description": "Mercury and acid batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into small battery hulls.\n\nThey can be placed in the battery slot of any standard LV GregTech machine, in that case they will be depleted before the machine\u0027s internal EU storage. They can also be used in LV battery buffers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53696,7 +53696,7 @@
     {
       "questID": 612,
       "name": "Single Use Battery : Acid",
-      "description": "Mercury and acid Batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into small battery hulls.\n\nThey can be placed in the battery slot in any standard LV GregTech machine, they will be depleted before the machine\u0027s internal EU storage. They can also be used in battery buffers.",
+      "description": "Mercury and acid Batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an Extractor to be converted back into small battery hulls.\n\nThey can be placed in the battery slot in any standard LV GregTech machine, in that case they will be depleted before the machine\u0027s internal EU storage. They can also be used in LV battery buffers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54303,7 +54303,7 @@
     {
       "questID": 618,
       "name": "Sulfuric Acid",
-      "description": "Combining hydrogen sulfide and water in a chemical reactor gives sulfuric acid for your single use acid batteries. If you made some light and heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can make sulfuric acid with some sulfur and water in a chemical reactor too.",
+      "description": "Combining hydrogen sulfide and water in the Chemical Reactor will give you sulfuric acid for your single use acid batteries. If you have made some light or heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can always make sulfuric acid with some sulfur and water in the Chemical Reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54455,7 +54455,7 @@
     {
       "questID": 620,
       "name": "IC2 Battery",
-      "description": "Some recipes require IC2 batteries. Fill your battery hull with some molten redstone and you get your small battery.",
+      "description": "Some recipes require IC2 batteries. Fill your small battery hull with some molten redstone and you will get your RE-Battery.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54560,7 +54560,7 @@
     {
       "questID": 621,
       "name": "How to get Sodium",
-      "description": "A second source for sodium is glauconite ore or glauconite sand. This vein can be found at Y level 20-50.",
+      "description": "A second source for sodium is glauconite ore or glauconite sand. This type of ore vein can be found at Y level 20-50.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54661,7 +54661,7 @@
     {
       "questID": 622,
       "name": "How to get Sodium/Lithium",
-      "description": "Salt ore mixes can be found in the Overworld between Y level 50-70. Salt isn\u0027t only used to get sodium, it\u0027s an important ingredient in many Pam\u0027s Harvestcraft food recipes.\n\nLepidolite and spodumene are good sources of lithium for your batteries.",
+      "description": "Salt ore mixes can be found in the Overworld between Y level 50-70. Salt isn\u0027t only used to get sodium, it\u0027s an important ingredient in many Pam\u0027s Harvestcraft food recipes.\n\nHint: Lepidolite and spodumene are good sources of lithium for your batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54964,7 +54964,7 @@
     {
       "questID": 625,
       "name": "Packing your Chests and Barrels",
-      "description": "Packing your chests and barrels without spilling all the things (Buildcraft (TM))? \nNo problem! Make a dolly and you can carry your full chests and barrels anywhere you want. Be warned you will get a slowness debuff so hopefully you don\u0027t have to travel far.\n\nHint : Place the dolly holding your chest/barrel in a bag of some sort to avoid the slowness.",
+      "description": "Packing your chests and barrels without spilling all the things (Buildcraft (TM))? \nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don\u0027t have to travel very far.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55095,7 +55095,7 @@
     {
       "questID": 626,
       "name": "Portable Mob spawners..? Cool!",
-      "description": "Do you want to move the spawners around and build some cool mob farms? No problem with the Diamond Dolly.",
+      "description": "Do you want to move the spawners around and build some cool mob farms? That will be no problem if you get the Diamond Dolly.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55208,7 +55208,7 @@
     {
       "questID": 627,
       "name": "Grain Bait",
-      "description": "Crafting some grain bait for your Animal Trap.",
+      "description": "Crafting some nice grain bait for your Animal Trap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55296,7 +55296,7 @@
     {
       "questID": 628,
       "name": "Fruit Bait",
-      "description": "Crafting some fruit bait for your Animal Trap.",
+      "description": "Crafting some tasty fruit bait for your Animal Trap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55558,7 +55558,7 @@
     {
       "questID": 631,
       "name": "Animal Trapping",
-      "description": "Tired of hunting for cows, zombies or sheep? You can build a trap and hope some animal or monster drops will be caught inside.",
+      "description": "Tired of hunting for cows, zombies or sheep? You can build a trap and hope some animal or monster drops will be caught by the netting inside.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55639,7 +55639,7 @@
     {
       "questID": 632,
       "name": "Fisherman\u0027s Friend",
-      "description": "Have you ever tried to catch a fish with your bare hands? It\u0027s time to craft a fishing rod and get some fish the easy way. Cast your fishing rod in some water and wait until the bobber dips into the water. Then reel back in your line and hopefully you caught a fish.",
+      "description": "Have you ever tried to catch a fish with your bare hands? It\u0027s time to craft a fishing rod and get some fish the easy way. Cast your fishing rod in some water and wait until the bobber dips below the surface. Then reel back in your line and hopefully you caught yourself something nice.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55924,7 +55924,7 @@
     {
       "questID": 635,
       "name": "Floury flurry",
-      "description": "The first step in making bread is to macerate your wheat into flour with a mortar or a Macerator.\n\nFlour can be used in many food recipes for Pam\u0027s Harvestcraft food.",
+      "description": "The first step in making bread is to macerate your wheat into flour with a mortar or a Macerator.\n\nFlour can be used in many food recipes for different Pam\u0027s Harvestcraft foods.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56132,7 +56132,7 @@
     {
       "questID": 637,
       "name": "Do\u0027h!",
-      "description": "Water and flour makes a dough or two...\nDough can be used in many food recipes from Pam\u0027s Harvestcraft.",
+      "description": "Water and flour makes a dough or two...\nDough can be used in many different food recipes from Pam\u0027s Harvestcraft.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56306,7 +56306,7 @@
     {
       "questID": 639,
       "name": "Sulfuric Naphtha",
-      "description": "Another distillate you can make out of oil is sulfuric naphtha with a burn value of 40,000 EU in the Gas Turbine.",
+      "description": "Another distillate you can make out of oil is sulfuric naphtha with a burn value of 40,000 EU per cell in the Gas Turbine.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -56556,7 +56556,7 @@
     {
       "questID": 642,
       "name": "Sulfuric Gas",
-      "description": "Another distillate for your Gas Turbine you can make out of oil is sulfuric gas with a burn value of 25,000 EU.",
+      "description": "Another distillate for your Gas Turbine you can make out of oil is sulfuric gas with a burn value of 25,000 EU per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56640,7 +56640,7 @@
     {
       "questID": 643,
       "name": "Refinery Gas",
-      "description": "Refine your gas in a Chemical Reactor with hydrogen gas to give it a better burn value of 160,000 EU, and maybe use it to make methane.",
+      "description": "Refine your gas in a Chemical Reactor with hydrogen gas to give it a better burn value of 160,000 EU, and maybe use it to make methane gas.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56724,7 +56724,7 @@
     {
       "questID": 644,
       "name": "Methane",
-      "description": "Distilling some \"refinery gases\" give you some methane gas. There are more ways to get methane.",
+      "description": "Distilling some \"refinery gases\" gives you some methane gas. There are many more ways to get methane.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56807,7 +56807,7 @@
     {
       "questID": 645,
       "name": "Glider Wings",
-      "description": "If for some reason you want to be able to jump down a cliff without getting the message \"Player X fell from a high place\". Great idea would be to find a way to soften your landing first. The hang glider should do just fine.",
+      "description": "If for some reason you want to be able to jump down a cliff without getting the message \"Player X fell from a high place\". A great idea would be to find a way to soften your landing first. The hang glider should do that just fine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57080,7 +57080,7 @@
     {
       "questID": 647,
       "name": "Electrotine Jetpack",
-      "description": "Your glider gets you to the ground safely but it does not have any method to get up. After you researched electrotine you discovered that it is powerful enough for your first jetpack.\nA diamond chestplate surrounded with 4 electrotine batteries is powerful enough to bring you up in the air.\n\nIt does not have a hover mode so you better take your glider with you.  This jetpack can\u0027t fly higher than Y level 128.",
+      "description": "Your glider gets you to the ground safely but it does not have any method to get up. After you researched electrotine you discovered that it is powerful enough for your first jetpack.\nA diamond chestplate surrounded with 4 electrotine batteries is powerful enough to bring you up in the air.\n\nIt does not have a hover mode so you better take your glider with you. \n\nHint: This jetpack can\u0027t fly higher than Y level 128.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57319,7 +57319,7 @@
     {
       "questID": 649,
       "name": "Coal Steam Jetpack",
-      "description": "Your coal jetpack needs coal and water to produce steam. After a short warm-up period you can go and take it for a ride. Keep in mind you will need your glider to make a soft landing.\n\nPut your jetpack on your back and hit Shift and the adventure backpacks action-key to start it.\n\nMax flying height for jetpacks is limited to Y level 185.\n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.",
+      "description": "Your coal jetpack needs coal and water to produce steam. After a short warm-up period you can go and take it for a ride. Keep in mind you will need your glider to make a soft landing.\n\nPut your jetpack on your back and hit Shift and the adventure backpacks action-key to start it.\n\nMax flying height for these jetpacks is the Y level of 185.\n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -57686,7 +57686,7 @@
     {
       "questID": 651,
       "name": "Electric Jetpack",
-      "description": "Your first electrical jtpack. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode.\n\nThe only limitation is that you can\u0027t fligh higher than Y level 185.",
+      "description": "Your first electrical jetpack. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode.\n\nThe only limitation is that you can\u0027t fly higher than Y level 185.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58393,7 +58393,7 @@
     {
       "questID": 656,
       "name": "Iron Shields",
-      "description": "You have been using your hide shield long enough. After you make your first tools, grab a bit of iron ore and make a better iron shield.",
+      "description": "You have been using your hide shield long enough. After you make your first tools, grab a bit of iron ore and make a nice iron shield.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58507,7 +58507,7 @@
     {
       "questID": 657,
       "name": "Stone Spear",
-      "description": "Upgrade your wooden spear with a stone arrowhead and iron screws to a stone spear.\nThis spear has better durability.",
+      "description": "Upgrade your wooden spear with a stone arrowhead and iron screws to a stone spear.\nThis spear has better durability than the wooden one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -58854,7 +58854,7 @@
     {
       "questID": 660,
       "name": "Diamond Shield",
-      "description": "Your iron shield got very old. With a shield made from diamond plates you can maintain block up to 5 seconds.",
+      "description": "Your iron shield got very old. With a shield made from diamond plates you can maintain block for up to 5 seconds.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59515,7 +59515,7 @@
     {
       "questID": 666,
       "name": "Row, row, row your Boat",
-      "description": "You live close to the water and don\u0027t have a boat?\nYou need wooden planks, slabs and a knife to craft one. (This is also quest id 666, be sure that something is going on)",
+      "description": "You live close to the water and don\u0027t have a boat?\nYou need wooden planks, slabs and a knife to craft one. (This is also quest id 666, be careful, something is going on.)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59858,7 +59858,7 @@
     {
       "questID": 669,
       "name": "Inflatable Boot",
-      "description": "I meant to say boat... The inflatable boat is the first boat that doesn\u0027t break on impact.",
+      "description": "I meant to say boat... The inflatable boat is the first boat that doesn\u0027t break on impact with a solid block.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59947,7 +59947,7 @@
     {
       "questID": 670,
       "name": "Carbon Fiber Boat",
-      "description": "Unlike all other boats, this amazing carbon fiber canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the carbon fiber canoe won\u0027t take a scratch!\n\nWarning: We are not held responsible for any damage caused by riding the carbon fiber canoe into a lava lake or the Void.\n\n*Therefore, warranty NOT included.",
+      "description": "Unlike all other boats, this amazing carbon fiber canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the carbon fiber canoe won\u0027t take a scratch!\n\nWarning: We are not held responsible for any damage caused by riding the carbon fiber canoe into a lava lake or the Void.\n\n*Therefore, warranty is NOT included.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60036,7 +60036,7 @@
     {
       "questID": 671,
       "name": "Electric Boat",
-      "description": "The alectric boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will hopefully drop itself once you crash, which is slightly nicer than the usual sticks. That\u0027s all well and good, but what if we utilize the electric engine? Wearing an energy storage device in your chestplate slot, like a batpack or energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a decent batpack will not last long!",
+      "description": "The alectric boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will hopefully drop itself once you crash, which is slightly nicer than the usual sticks. That\u0027s all well and good, but what if we utilize the electric engine? Wearing an energy storage device in your chestplate slot, like a batpack or energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a decent batpack won\u0027t last long!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60239,7 +60239,7 @@
     {
       "questID": 673,
       "name": "LV Extruder",
-      "description": "The Extruder is not very useful in the LV Age. But it extrudes your next tier of boat.",
+      "description": "The Extruder is not very useful in the LV Age. But it will extrude your next tier of boat.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60308,7 +60308,7 @@
     {
       "questID": 674,
       "name": "Wooden Rail variants",
-      "description": "The wooden junction, wye and switch tracks need an Assembling Machine to craft. They allow you to join and switch tracks going to different locations.",
+      "description": "The wooden junction, wye and switch tracks need an Assembling Machine to craft. They allow you to join and switch to tracks going to different locations.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60593,7 +60593,7 @@
     {
       "questID": 677,
       "name": "Minecart",
-      "description": "After you craft your first cart the journey can begin...\nWell, not really. You need some tracks first.",
+      "description": "After you craft your first cart the journey can begin...\nWell, not really. You will need some tracks first.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61143,7 +61143,7 @@
     {
       "questID": 684,
       "name": "Wooden Armor",
-      "description": "If you can\u0027t find mud you can make very poor armor out of wood. Cutting down like three trees to make a set should do. You will need a soft mallet too.",
+      "description": "If you can\u0027t find mud you can make very poor armor out of wood. Cutting down a few trees to make a set should do. You will need a soft mallet too, so save a few logs for that.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61257,7 +61257,7 @@
     {
       "questID": 685,
       "name": "Armor 2.0",
-      "description": "Iron armor is much better than the leather armor. Especially when you go outside at night.",
+      "description": "Iron armor is much better than the leather armor. Especially when you have to go outside during the night.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -61372,7 +61372,7 @@
     {
       "questID": 686,
       "name": "Leather Armor",
-      "description": "Killing some cows will give you enough leather to craft a complete set of leather armor. \nHint: You can dye this armor.",
+      "description": "Killing some cows will give you enough leather to craft a complete set of leather armor. \n\nHint: You are able to dye this armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
