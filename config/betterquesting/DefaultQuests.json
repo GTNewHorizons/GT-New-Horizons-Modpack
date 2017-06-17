@@ -22701,7 +22701,7 @@
     {
       "questID": 274,
       "name": "Reactor material",
-      "description": "This stuff is interesting... Maybe I can use it as wand conductor?",
+      "description": "This stuff is interesting... Maybe I can use it as a wand conductor?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22918,7 +22918,7 @@
     {
       "questID": 277,
       "name": "Automated wand-recharge",
-      "description": "So you found a way to gather nodes now. What about automated wand recharge? Wouldn\u0027t that be extremely convenient?",
+      "description": "So you\u0027ve found a way to gather nodes now. What about automated wand recharge? Wouldn\u0027t that be extremely convenient?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22989,7 +22989,7 @@
     {
       "questID": 278,
       "name": "Centi-Vis stuff",
-      "description": "You totally should get yourself some centi-vis things to transport and use the vis from stabilized nodes.",
+      "description": "You should totally get yourself some centi-vis things to transport and use the vis from stabilized nodes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23071,7 +23071,7 @@
     },
     {
       "questID": 279,
-      "name": "The dark realm",
+      "name": "The Dark Realm",
       "description": "We found the way... my precious. We found it! Only need 4 tasty eyes, and some magic to open the door. The secret door, they didn\u0027t see it. Hehehe! All the time. It was there... Aaaall the time!",
       "isMain": true,
       "isSilent": false,
@@ -23187,7 +23187,7 @@
     },
     {
       "questID": 281,
-      "name": "Really (Really!) dark magic",
+      "name": "Really (Really!) Dark Magic",
       "description": "Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!",
       "isMain": true,
       "isSilent": false,
@@ -23368,7 +23368,7 @@
     },
     {
       "questID": 284,
-      "name": "The power of creation",
+      "name": "The Power of Creation",
       "description": "What... What am I doing here? Where am I?! What is this place?! Oh those headaches... (It seems that the pulsating pearl you just found cured your brain from... something. Something old, probably some kind of trap to keep away unworthy ones.)",
       "isMain": true,
       "isSilent": false,
@@ -23434,7 +23434,7 @@
     },
     {
       "questID": 285,
-      "name": "Concentrated darkness",
+      "name": "Concentrated Darkness",
       "description": "For some reason, you decided to infuse darkness into a seed. It appeared to be promising. For what? You don\u0027t know...",
       "isMain": true,
       "isSilent": false,
@@ -24145,7 +24145,7 @@
     },
     {
       "questID": 294,
-      "name": "The best of all",
+      "name": "The Best of All",
       "description": "Highly durable, can carry a lot of items and is to be considered the \"top tier\" golem. But you are sure there is more...",
       "isMain": false,
       "isSilent": false,
@@ -24735,7 +24735,7 @@
     },
     {
       "questID": 297,
-      "name": "Essentia transmission",
+      "name": "Essentia Transmission",
       "description": "What if... you could send essentia from a different location to your infusion matrix? You could finally get rid of all those jars around your altar. Also, there might be an additional use for those mirrors.",
       "isMain": false,
       "isSilent": false,
@@ -24923,7 +24923,7 @@
     {
       "questID": 300,
       "name": "Cleaning the goo",
-      "description": "As you\u0027re doing more and more infusions, you\u0027re probably tired of removing all the flux that\u0027s generated from time to time. The shovel of the purifier will help you with that task, and is a must-have.",
+      "description": "As you do more and more infusions, you\u0027re getting tired of removing all the flux that\u0027s generated. The shovel of the purifier will help you cleaning up flux, and is a must-have.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -24983,7 +24983,7 @@
     {
       "questID": 301,
       "name": "One does not simply...",
-      "description": "...play with magic. Be warned, those fires are dangerous to use. But who doesn\u0027t want a patch of snow in the nether?\n\nï¿½cFire spread is disabled via config on Servers because of massive lag and world destruction.",
+      "description": "...play with magic. Be warned, these fires are very dangerous! But who doesn\u0027t want a patch of snow in the nether?\n\nï¿½cFire spread is disabled in the configs of servers to prevent massive lag and world destruction.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25067,7 +25067,7 @@
     {
       "questID": 302,
       "name": "Useful plant life",
-      "description": "While regular plants are basically just used to make food, you wondered if you could get some... \"more special\" plant life going...",
+      "description": "While regular plants are mostly used to make food, you are wondering if you could get some... \"more special\" plant life going...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25190,7 +25190,7 @@
     {
       "questID": 303,
       "name": "Pushing the limits",
-      "description": "Regular enchantments do have a limit, like III for Fortune. By utilizing magic, you should be able to bypass that limitation, at least a tiny bit; Eventually creating enchantments like Fortune IV. It comes with limitations, but your book shall tell you more about those.",
+      "description": "Regular enchantments have a limit, like III for Fortune. Utilizing magic, you should be able to bypass that limitation, at least a tiny bit; Eventually creating enchantments like Fortune IV. It comes with limitations, but your book shall tell you more about those.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25257,7 +25257,7 @@
     {
       "questID": 304,
       "name": "Enchanting like a pro",
-      "description": "Finally, a device where you can actually choose which enchantment you want to have. Powered by vis, it can create the most powerful combinations one could imagine.",
+      "description": "Finally, a device where you can actually choose which enchantments you want to have. Powered by vis, it can create the most powerful combinations one could imagine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25323,7 +25323,7 @@
     {
       "questID": 305,
       "name": "Crying obsidian...",
-      "description": "...it mourns about the dead ones. This might come in handy for some cases. By placing 2 on top of each other, you\u0027re able to set your respawn point to that location, without the need for a bed. It\u0027s up to you to imagine the possibilities...",
+      "description": "...it mourns the dead. This might come in handy for some cases. By placing 2 on top of each other, you\u0027re able to set your respawn point to that location, without the need for a bed. It\u0027s up to you to imagine the possibilities...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25383,7 +25383,7 @@
     {
       "questID": 306,
       "name": "Useful trees",
-      "description": "Just like plants, there are trees that will attract various friendly and \"not so friendly\" creatures. (No warranty when placed in desolated biome.)",
+      "description": "Just like plants, there are trees that will attract various friendly and \"not so friendly\" creatures. (No warranty when placed in desolated biome!)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25488,7 +25488,7 @@
     {
       "questID": 307,
       "name": "The power of gods",
-      "description": "The pearl you\u0027ve found has some interesting effects on you. Not only the voices are almost gone, also somehow your perception has expanded. You can \"feel\" the magic around you. This is definitely worth some further investigation.",
+      "description": "The pearl you\u0027ve found has some interesting effects on you. Not only are the voices almost gone, somehow it has also expanded your perception. You can \"feel\" the magic around you. This is definitely worth some further investigation.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -25547,8 +25547,8 @@
     },
     {
       "questID": 308,
-      "name": "The final Goal",
-      "description": "Thanks to your help, I managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe up to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for letting my dream come true!",
+      "name": "The Final Goal",
+      "description": "Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -25608,8 +25608,8 @@
     },
     {
       "questID": 309,
-      "name": "Shards of opposite worlds",
-      "description": "This morning, you just wanted to facepalm yourself to death. On your past journeys, you already saw strange colored shards. But unlike the primal shards you use every day, these seem to contain the raw essence of their dimension. The Hell and Heaven... so to say. Two opposite worlds.",
+      "name": "Shards of Opposite Worlds",
+      "description": "This morning, you just wanted to facepalm yourself to death. During your past journeys, you have already seen strangely colored shards. But unlike the primal shards you use every day, these seem to contain the raw essence of their dimension. Heaven and Hell... so to speak. Two opposite worlds.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25690,7 +25690,7 @@
     {
       "questID": 310,
       "name": "Unleashed the power",
-      "description": "To make use of your armor to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your armor to the fullest extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25839,7 +25839,7 @@
     {
       "questID": 312,
       "name": "Unleashed the power",
-      "description": "To make use of your armor to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your armor to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -25988,7 +25988,7 @@
     {
       "questID": 314,
       "name": "Unleashed the power",
-      "description": "To make use of your armor to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your armor to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26059,7 +26059,7 @@
     },
     {
       "questID": 315,
-      "name": "Unbreakable robe",
+      "name": "Unbreakable Robe",
       "description": "It will never break. How convenient.",
       "isMain": false,
       "isSilent": false,
@@ -26136,8 +26136,8 @@
     },
     {
       "questID": 316,
-      "name": "Infused cloth",
-      "description": "By combining ichor with enchanted fabric, you\u0027ve created something that could be compared to mithril. Light as wool, but durable like steel. Also, it conducts magic energy like nothing else you\u0027ve seen before. This seems to be an excellent material for a new armor.",
+      "name": "Infused Cloth",
+      "description": "By combining ichor with enchanted fabric, you\u0027ve created something that could be compared to mithril. Light as wool, but durable like steel. Also, it conducts magic energy like nothing else you\u0027ve seen before. This seems to be an excellent material for a new type of armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26202,8 +26202,8 @@
     },
     {
       "questID": 317,
-      "name": "Unleashed the power",
-      "description": "To make use of your armor to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "name": "Unleashed the Power",
+      "description": "To make use of your armor to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26352,7 +26352,7 @@
     {
       "questID": 319,
       "name": "Unbreakable axe",
-      "description": "An axe made of your new metal will never break, and will accept enchantments with ease. Something tells you there must be more...",
+      "description": "An axe made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26489,7 +26489,7 @@
     {
       "questID": 321,
       "name": "Unbreakable Sword",
-      "description": "A sword made of your new metal will never break, and will accept enchantments with ease. Something tells you there must be more...",
+      "description": "A sword made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26560,7 +26560,7 @@
     {
       "questID": 322,
       "name": "Unbreakable",
-      "description": "A pickaxe made of your new metal will never break, and will accept enchantments with ease. Something tells you there must be more...",
+      "description": "A pickaxe made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26631,7 +26631,7 @@
     {
       "questID": 323,
       "name": "Unbreakable shovel",
-      "description": "A shovel made of your new metal will never break, and will accept enchantments with ease. Something tells you there must be more...",
+      "description": "A shovel made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26702,7 +26702,7 @@
     {
       "questID": 324,
       "name": "Unleashed the power",
-      "description": "To make use of your tool to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your tool to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26773,7 +26773,7 @@
     {
       "questID": 325,
       "name": "Unleashed the power",
-      "description": "To make use of your tool to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your tool to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26844,7 +26844,7 @@
     {
       "questID": 326,
       "name": "Unleashed the power",
-      "description": "To make use of your tool to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your tool to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26915,7 +26915,7 @@
     {
       "questID": 327,
       "name": "Unleashed the power",
-      "description": "To make use of your tool to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your tool to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27049,7 +27049,7 @@
     {
       "questID": 329,
       "name": "Where do the items go?",
-      "description": "It\u0027s better not to ask...",
+      "description": "It\u0027s probably better not to ask...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27108,8 +27108,8 @@
     },
     {
       "questID": 330,
-      "name": "Magical waystones",
-      "description": "These are used to mark target locations in order to teleport around",
+      "name": "Magical Waystones",
+      "description": "These are used to mark locations in order to teleport around",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27228,8 +27228,8 @@
     },
     {
       "questID": 332,
-      "name": "Brewers start",
-      "description": "In order to get started with your basic witchery needs, you need a witches oven. It\u0027s used to get the most basic ingredients for your recipes: The fumes.",
+      "name": "Brewers Start",
+      "description": "In order to get started with your basic witchery needs, you need a witches oven. It\u0027s used to get the most basic ingredients for your recipes: Fumes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27295,7 +27295,7 @@
     {
       "questID": 333,
       "name": "Offerings",
-      "description": "For all your offering needs. And, of course, it looks fancy!",
+      "description": "For all your offering needs. And of course, it looks fancy!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27360,7 +27360,7 @@
     },
     {
       "questID": 334,
-      "name": "A cauldron?",
+      "name": "A Cauldron?",
       "description": "The second thing you\u0027ll need is a cauldron. It is used to craft most of the basic items, like mutandis.",
       "isMain": false,
       "isSilent": false,
@@ -27624,7 +27624,7 @@
     },
     {
       "questID": 338,
-      "name": "Getting basic fumes",
+      "name": "Getting Basic umes",
       "description": "Fume extraction is an essential thing to do, and you\u0027ll need a lot of those on your journey.",
       "isMain": false,
       "isSilent": false,
@@ -27792,8 +27792,8 @@
     },
     {
       "questID": 340,
-      "name": "Portable power source",
-      "description": "By infusing a stone with fiery magic you may create an \"Attuned Stone\". These stones can be used to link non-magical devices to the magical currents present...",
+      "name": "Portable Power Source",
+      "description": "By infusing a stone with fiery magic you can create an \"Attuned Stone\". These stones can be used to link non-magical devices to the magical currents present...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27979,7 +27979,7 @@
     {
       "questID": 343,
       "name": "Bloodlust: Refined evil",
-      "description": "Refined goodness is out of stock, sorry.",
+      "description": "Refined good was out of stock, sorry.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28050,7 +28050,7 @@
     },
     {
       "questID": 344,
-      "name": "Bloodlust: Witches hand",
+      "name": "Bloodlust: Witches Hand",
       "description": "In case you don\u0027t like the infernal witches...",
       "isMain": false,
       "isSilent": false,
@@ -28346,8 +28346,8 @@
     },
     {
       "questID": 349,
-      "name": "Be a vampire; Like a sir",
-      "description": "Sometimes it can be troublesome to get fancy clothing. However, if you prove yourself worthy, you get a set for free.",
+      "name": "Be a Vampire; Like a Sir",
+      "description": "It can be troublesome to get fancy clothes. However, if you prove yourself worthy, I will give you a set for free.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28623,7 +28623,7 @@
     {
       "questID": 352,
       "name": "Power. So much power!",
-      "description": "If I could only use it... Well, hi there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You shall be rewarded.",
+      "description": "If only I could harness it... Well, hi there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You will be rewarded.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -29097,7 +29097,7 @@
     {
       "questID": 360,
       "name": "A casing",
-      "description": "I need something for the outer shell. Again, a crystal-based material, because I like it shiny. I tested all crystals we know, and none of them meet the requirements. I heard you have access to the space? Can you try to find a suitable material while you\u0027re out there?",
+      "description": "I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals we know and none of them meet the requirements. I heard you have access to the space? Can you try to find a suitable material while you\u0027re out there?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -29133,7 +29133,7 @@
     {
       "questID": 361,
       "name": "Fancy!",
-      "description": "Yes. Yes! That\u0027s it. Bring me more of this stuff! I probably need a lot of it...",
+      "description": "Yes. Yes! That\u0027s it! Bring me more of this stuff! I probably need a lot of it...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -29352,7 +29352,7 @@
     {
       "questID": 365,
       "name": "Dense, denser, Neutronium",
-      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficient?\n\nThis looks promising. Send me some samples, and I will try my luck.",
+      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficiently strong?\n\nThis looks promising. Send me some samples, and I will try my luck.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64257,7 +64257,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fSteel Hammer"
+                  "Name:8": "?fSteel Hammer"
                 }
               }
             }
@@ -64432,7 +64432,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fSteel Lumber Axe"
+                  "Name:8": "?fSteel Lumber Axe"
                 }
               }
             }
@@ -64607,7 +64607,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fSteel Excavator"
+                  "Name:8": "?fSteel Excavator"
                 }
               }
             }
