@@ -32119,7 +32119,7 @@
     },
     {
       "questID": 377,
-      "name": "An Appropriate focus",
+      "name": "An appropriate focus",
       "description": "You\u0027ve tried a lot, and nothing was quite enough to activate the dust. Until now. You finally found a focus that is able to transmit enough power to cause a heavy reaction with the dust, but not enough to cause problems.",
       "isMain": false,
       "isSilent": false,
@@ -32816,8 +32816,8 @@
     },
     {
       "questID": 389,
-      "name": "Draconic Evolution",
-      "description": "Don\u0027t you hate it to manually compress all those tiny piles? Let\u0027s automate this process! A Combination of a Typefilter, a Chest Buffer (Super Buffer in HV) and a packager frees you from that annoying task. The chestbuffer can hold up to 9 tiny piles and the super buffer can hold all your tiny dusts and you can set its mode with a screwdriver on the output side. Set it to 9 and let the packager handle the rest.",
+      "name": "Draconic evolution",
+      "description": "Don\u0027t you hate it to manually compress all those tiny piles? Let\u0027s automate this process! A combination of a typefilter, a chest buffer (super buffer in HV) and a packager frees you from that annoying task. The chestbuffer can hold up to 9 tiny piles and the super buffer can hold all your tiny dusts and you can set its mode with a screwdriver on the output side. Set it to 9 and let the packager handle the rest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33565,7 +33565,7 @@
     {
       "questID": 399,
       "name": "Kill Horned Huntsman",
-      "description": "A Horned Huntsman is a member of the Wild Hunt, a powerful entity created by the Horned God. If one is encountered, be prepared for a hard fight, or better idea might be to flee.",
+      "description": "A Horned Huntsman is a member of the Wild Hunt, a powerful entity created by the Horned God. If one is encountered, be prepared for a hard fight, or a better idea might be to flee.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33720,7 +33720,7 @@
     {
       "questID": 401,
       "name": "Kill Shade of Leonard",
-      "description": "Leonard is the demonic being who is rumored to have taught a cadre of German witches their trade, and often presided over their sabbats. A skilled coven with the witches cauldron can summon a Shade of the Demon according to the method described in the Witches\u0027 Brews book.",
+      "description": "Leonard is the demonic being who is rumored to have taught a cadre of german witches their trade, and often presided over their sabbats. A skilled coven with the witches cauldron can summon a shade of the demon according to the method described in the witches\u0027 brews book.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33801,7 +33801,7 @@
     {
       "questID": 402,
       "name": "Kill Lord of Tormentum",
-      "description": "A Lord of Torment is a mighty demonic being that is able to create prisons to Torment its victims. Those foolish enough to summon one of these creatures must prepare for an arduous fight.",
+      "description": "A Lord of Torment is a mighty demonic being that is able to create prisons to torment its victims. Those foolish enough to summon one of these creatures must prepare for an arduous fight.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33875,7 +33875,7 @@
     {
       "questID": 403,
       "name": "Kill Mog and Gulg",
-      "description": "Mog and Gulg are the god-like beings that Hobgoblins worship. They may send their avatars to pay witches a visit who exploit their worship (with a Statue of Hobgoblin Patron). Rumor has it that using a nether star may make them take immediate notice.",
+      "description": "Mog and Gulg are the god-like beings that hobgoblins worship. They may send their avatars to pay witches a visit who exploit their worship (with a statue of hobgoblin patron). Rumor has it that using a nether star may make them take immediate notice.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -34030,7 +34030,7 @@
     },
     {
       "questID": 405,
-      "name": "The power of Infinity",
+      "name": "The power of infinity",
       "description": "You\u0027ve mastered everything possible. And now it\u0027s time to give your equipment the final boost. The infinity egg is just the right addition to your altar. It\u0027s quite expensive, but well worth the cost.",
       "isMain": false,
       "isSilent": false,
@@ -34486,7 +34486,7 @@
     {
       "questID": 410,
       "name": "Alchemy with blood",
-      "description": "Not like \"BloodAlchemy\". You probably will need more than one later, but for now one is sufficient.",
+      "description": "Not like \"blood alchemy\". You probably will need more than one later, but for now one is sufficient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -35706,7 +35706,7 @@
     {
       "questID": 423,
       "name": "Apprentice orb",
-      "description": "Your Tier 2 orb.",
+      "description": "Your tier 2 orb.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -35777,7 +35777,7 @@
     {
       "questID": 424,
       "name": "Magican\u0027s orb",
-      "description": "Your Tier 3 orb.",
+      "description": "Your tier 3 orb.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37207,8 +37207,8 @@
     },
     {
       "questID": 440,
-      "name": "Oak trees are not Apple trees",
-      "description": "Oak trees which give apples?  Who the hell added this to Minecraft? You find a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.",
+      "name": "Oak trees are not apple trees",
+      "description": "Oak trees which give apples?  Who the hell added this to minecraft? You find a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37381,7 +37381,7 @@
     },
     {
       "questID": 442,
-      "name": "\"Backed\" Potatoes",
+      "name": "\"Backed\" potatoes",
       "description": "Eating raw potatoes isn\u0027t that healthy, as you might have noticed. Some potatoes are green and poisonous already. After you get a furnace you can make delicious baked potatoes as another food alternative. Put a baked potato on a stick to make it even more delicious.",
       "isMain": false,
       "isSilent": false,
@@ -37573,7 +37573,7 @@
     },
     {
       "questID": 444,
-      "name": "Soft Mallet Adventure",
+      "name": "Soft mallet adventure",
       "description": "You now have some melon slices or pumpkins but what can you do with them? Well just eat them or... use a mallet to get some seeds... OK, let\u0027s craft one. Perhaps you can use this mallet for some other things too.",
       "isMain": true,
       "isSilent": false,
@@ -37905,7 +37905,7 @@
     },
     {
       "questID": 448,
-      "name": "Shield Update",
+      "name": "Shield ppdate",
       "description": "Your wooden shield is very weak. So you look for a better one. Looks like you need some leather, so go and find some cows.",
       "isMain": false,
       "isSilent": false,
@@ -38841,8 +38841,8 @@
     },
     {
       "questID": 463,
-      "name": "Runes Tier 2",
-      "description": "Speed rune is the only Tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the Blood Altar.",
+      "name": "Runes tier 2",
+      "description": "Speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38924,7 +38924,7 @@
     },
     {
       "questID": 464,
-      "name": "The Technician Part 2",
+      "name": "The technician part 2",
       "description": "I will ask the technician about this stuff, but I need to reach a good reputation first. He is a busy man, and I don\u0027t want to be denied.",
       "isMain": true,
       "isSilent": false,
@@ -39170,7 +39170,7 @@
     },
     {
       "questID": 469,
-      "name": "Collecting some Berries",
+      "name": "Collecting some berries",
       "description": "Are you now waiting for the carrots to grow? Go and find some berry bushes and berries. The berries are a good source of food and you can put these bushes around your house to make a wall. It should provide a good protection against all those monsters that want to come into your house and kill you.",
       "isMain": false,
       "isSilent": false,
@@ -39274,7 +39274,7 @@
     },
     {
       "questID": 470,
-      "name": "Berry Medley",
+      "name": "Berry medley",
       "description": "Hmmm... what can you do with all those berries? Just eating? You will see that they have a very low saturation Level. Let\u0027s plant the new berry bushes and mix the berries to make some better food.",
       "isMain": false,
       "isSilent": false,
@@ -39471,7 +39471,7 @@
     },
     {
       "questID": 471,
-      "name": "Food Variants",
+      "name": "Food variants",
       "description": "Maybe you noticed already that eating the same food too often is very boring and not healthy any more. Some food like tea leaf can be taken to the furnace and processed further. So take a break and drink a cup of tea. Maybe munch some tasty raisins as they are very nice.",
       "isMain": false,
       "isSilent": false,
@@ -39581,8 +39581,8 @@
     },
     {
       "questID": 472,
-      "name": "Your first Tool",
-      "description": "When your Tinkers tables are ready you can craft your first tool. If you did not find a village yet you can only craft flint tools. Let\u0027s start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your GregTech swords. Your new tools are weak at first but the more you use them the better they will get. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.",
+      "name": "Your first tool",
+      "description": "When your tinkers tables are ready you can craft your first tool. If you did not find a village yet you can only craft flint tools. Let\u0027s start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your GregTech swords. Your new tools are weak at first but the more you use them the better they will get. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -39915,7 +39915,7 @@
     {
       "questID": 473,
       "name": "Making a better sword",
-      "description": "Now it\u0027s time to make your first Tinkers sword. First you have to make blade, hand guard and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first TC Sword.",
+      "description": "Now it\u0027s time to make your first tinkers sword. First you have to make blade, hand guard and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40186,7 +40186,7 @@
     },
     {
       "questID": 475,
-      "name": "Upgrade #4: Upgrade Tier 5",
+      "name": "Upgrade #4: Upgrade tier 5",
       "description": "To process more advanced materials like HSS-E, HSS-S, naquadah or draconium you need more than 4500K. Time to upgrade your EBF to 5400k.",
       "isMain": false,
       "isSilent": false,
@@ -40257,7 +40257,7 @@
     },
     {
       "questID": 476,
-      "name": "Upgrade #3: Upgrade Tier 6",
+      "name": "Upgrade #3: Upgrade tier 6",
       "description": "To process more advanced materials like naquadah-alloy you need more than 5400K. Upgrade your EBF to 7200k to increase the heat.",
       "isMain": false,
       "isSilent": false,
@@ -40336,7 +40336,7 @@
     },
     {
       "questID": 477,
-      "name": "Upgrade #6: Upgrade Tier 7",
+      "name": "Upgrade #6: Upgrade tier 7",
       "description": "To process the most advanced materials like neutronium, fluxed-electrum or awakened draconium you need more than 7200K. Upgrade your EBF to 9001k. (OVER 9000!!!)",
       "isMain": false,
       "isSilent": false,
@@ -40415,7 +40415,7 @@
     },
     {
       "questID": 478,
-      "name": "Flint and Steel",
+      "name": "Flint and steel",
       "description": "After you make steel you are able to craft flint and steel. I guess you want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.",
       "isMain": true,
       "isSilent": false,
@@ -40558,7 +40558,7 @@
     {
       "questID": 479,
       "name": "THE NETHER",
-      "description": "Now more dangerous with Extra Hardcore Infernal Mobs. Have fun and take care.",
+      "description": "Now more dangerous with extra hardcore infernal mobs. Have fun and take care.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -40729,7 +40729,7 @@
     {
       "questID": 480,
       "name": "Malachite",
-      "description": "Another copper source  is \"Malachite\" which can be found between Y level 10 and 40. This vein contains more iron ore variants like \"Brown Limonite\", \"Yellow Limonite\" and \"Banded Iron Ore\".",
+      "description": "Another copper source  is \"malachite\" which can be found between Y level 10 and 40. This vein contains more iron ore variants like \"brown limonite\", \"yellow limonite\" and \"banded iron ore\".",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40829,8 +40829,8 @@
     },
     {
       "questID": 481,
-      "name": "Creosote Oil",
-      "description": "I guess you already processed a bit of wood into charcoal and wonder what you can do with all this creosote oil?\nWell you can burn it in the normal furnace to cook your food or you can make more torches with it. Later in the LV age you probably should run Diesel Generators with it.",
+      "name": "Creosote oil",
+      "description": "I guess you already processed a bit of wood into charcoal and wonder what you can do with all this creosote oil?\nWell you can burn it in the normal furnace to cook your food or you can make more torches with it. Later in the LV age you probably should run diesel generators with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40865,7 +40865,7 @@
     },
     {
       "questID": 482,
-      "name": "Animal Farms",
+      "name": "Animal farms",
       "description": "Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you coul simply make a farm to get a decent amount of leather, wool and meat.",
       "isMain": false,
       "isSilent": false,
@@ -41047,7 +41047,7 @@
     {
       "questID": 483,
       "name": "Gardener",
-      "description": "If you are wondering: Why do I never get seeds when destroying Grass? You are right. Try to work with your new mattock on the grass blocks that do not have water anywhere nearby to find some seeds.",
+      "description": "If you are wondering: Why do I never get seeds when destroying grass? You are right. Try to work with your new mattock on the grass blocks that do not have water anywhere nearby to find some seeds.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41220,7 +41220,7 @@
     },
     {
       "questID": 484,
-      "name": "Can you hear the Carrots grow?",
+      "name": "Can you hear the carrots grow?",
       "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will trade you some bone meal.",
       "isMain": false,
       "isSilent": false,
@@ -41332,7 +41332,7 @@
     },
     {
       "questID": 485,
-      "name": "You need MOOOOOOORE Wood",
+      "name": "You need MOOOOOOORE wood",
       "description": "It\u0027s time to feed your new coke oven with some wood to get more charcoal. You are looking for the most efficient way to plant trees. Try to find some spruce saplings and some jungle saplings. Both can be planted in a 2x2 grid to get bigger trees.",
       "isMain": false,
       "isSilent": false,
@@ -41433,7 +41433,7 @@
     },
     {
       "questID": 486,
-      "name": "Tanned Leather",
+      "name": "Tanned leather",
       "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some bound leather from four pieces of leather, some strings and a woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather.",
       "isMain": false,
       "isSilent": false,
@@ -41734,7 +41734,7 @@
     {
       "questID": 488,
       "name": "You need them all!",
-      "description": "There are many more backpacks: Hunter, Builder, Forester...",
+      "description": "There are many more backpacks: Hunter, builder, forester...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41869,7 +41869,7 @@
     },
     {
       "questID": 489,
-      "name": "Better Lunch Bag",
+      "name": "Better lunch bag",
       "description": "Your lunch bag is now so abused and rather old so it\u0027s time to get something better. Let\u0027s craft a lunch box which can hold way more food.",
       "isMain": false,
       "isSilent": false,
@@ -41970,7 +41970,7 @@
     },
     {
       "questID": 490,
-      "name": "Horseback Riding",
+      "name": "Horseback riding",
       "description": "Are you ready for a small trip? With your new lunch box, saddle, lead and of course a horse we can start a small journey.",
       "isMain": false,
       "isSilent": false,
@@ -42177,7 +42177,7 @@
     },
     {
       "questID": 492,
-      "name": "Sheep Hairdresser",
+      "name": "Sheep hairdresser",
       "description": "Killing sheep to get the wool is so ineffective. Making some shears would make sense if you need more wool.",
       "isMain": false,
       "isSilent": false,
@@ -42355,7 +42355,7 @@
     },
     {
       "questID": 493,
-      "name": "Wire Cutter v.0.2Alpha",
+      "name": "Wire Cutter v.0.2alpha",
       "description": "Small gears require a wire cutter to be made, so let\u0027s craft one.",
       "isMain": true,
       "isSilent": false,
@@ -42550,8 +42550,8 @@
     },
     {
       "questID": 495,
-      "name": "Oh Shiny (Not Platinum!)",
-      "description": "To make your first macerator you need two diamonds, and to enter the Twilight Forest you need one. Finding a diamond vein would help you a lot. Go and look for one at Y level 5-20.",
+      "name": "Oh, shiny! (Not platinum!)",
+      "description": "To make your first macerator you need two diamonds, and to enter the twilight forest you need one. Finding a diamond vein would help you a lot. Go and look for one at Y level 5-20.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42769,8 +42769,8 @@
     },
     {
       "questID": 497,
-      "name": "More Charcoal",
-      "description": "You have found an alternative way of making charcoal with a \"Charcoal Pile Igniter\". \nGo and start getting massive amounts of charcoal.",
+      "name": "More charcoal",
+      "description": "You have found an alternative way of making charcoal with a \"charcoal pile igniter\". \nGo and start getting massive amounts of charcoal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42988,8 +42988,8 @@
     },
     {
       "questID": 499,
-      "name": "Diesel, Creosote: watch them BURN!",
-      "description": "You have almost made it. One last crafting step is required in order to advance to Tier 2. Keep going!",
+      "name": "Diesel, creosote: Watch them BURN!",
+      "description": "You have almost made it. One last crafting step is required in order to advance to tier 2. Keep going!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
