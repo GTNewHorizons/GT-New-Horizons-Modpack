@@ -214,7 +214,7 @@ recipes.remove(<appliedenergistics2:tile.BlockVibrationChamber>);
 recipes.remove(<appliedenergistics2:tile.BlockSecurity>);
 
 // --- Creative Energy Cell
-recipes.remove(<appliedenergistics2:tile.BlockCreativeEnergyCell>);
+mods.avaritia.ExtremeCrafting.remove(<appliedenergistics2:tile.BlockCreativeEnergyCell>);
 
 
 
