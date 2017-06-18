@@ -26310,7 +26310,7 @@
     {
       "questID": 300,
       "name": "Cleaning the goo",
-      "description": "As you\u0027re doing more and more infusions, you\u0027re probably tired of removing all the flux that\u0027s generated from time to time. The shovel of the purifier will help you with that task, and is a must-have.",
+      "description": "As you do more and more infusions, you\u0027re getting tired of removing all the flux that\u0027s generated. The shovel of the purifier will help you cleaning up flux, and is a must-have.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26387,7 +26387,7 @@
     {
       "questID": 301,
       "name": "One does not simply...",
-      "description": "...play with magic. Be warned, those fires are dangerous to use. But who doesn\u0027t want a patch of snow in the Nether?\n\nFire spread is disabled via config on servers because of massive lag and world destruction.",
+      "description": "...play with magic. Be warned, these fires are very dangerous! But who doesn\u0027t want a patch of snow in the nether?\n\n�cFire spread is disabled in the configs of servers to prevent massive lag and world destruction.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26488,7 +26488,7 @@
     {
       "questID": 302,
       "name": "Useful plant life",
-      "description": "While regular plants are basically just used to make food, you wondered if you could get some... \"more special\" plant life going...",
+      "description": "While regular plants are mostly used to make food, you are wondering if you could get some... \"more special\" plant life going...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26622,7 +26622,7 @@
     {
       "questID": 303,
       "name": "Pushing the limits",
-      "description": "Regular enchantments do have a limit, like III for Fortune. By utilizing magic, you should be able to bypass that limitation, at least a tiny bit; Eventually creating enchantments like Fortune IV. It comes with limitations, but your book shall tell you more about those.",
+      "description": "Regular enchantments have a limit, like III for Fortune. Utilizing magic, you should be able to bypass that limitation, at least a tiny bit; Eventually creating enchantments like Fortune IV. It comes with limitations, but your book shall tell you more about those.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26700,7 +26700,7 @@
     {
       "questID": 304,
       "name": "Enchanting like a pro",
-      "description": "Finally, a device where you can actually choose which enchantment you want to have. Powered by vis, it can create the most powerful combinations one could imagine.",
+      "description": "Finally, a device where you can actually choose which enchantments you want to have. Powered by vis, it can create the most powerful combinations one could imagine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26777,7 +26777,7 @@
     {
       "questID": 305,
       "name": "Crying obsidian...",
-      "description": "...it mourns about the dead ones. This might come in handy for some cases. By placing 2 on top of each other, you\u0027re able to set your respawn point to that location, without the need for a bed. It\u0027s up to you to imagine the possibilities...",
+      "description": "...it mourns the dead. This might come in handy for some cases. By placing 2 on top of each other, you\u0027re able to set your respawn point to that location, without the need for a bed. It\u0027s up to you to imagine the possibilities...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26848,7 +26848,7 @@
     {
       "questID": 306,
       "name": "Useful trees",
-      "description": "Just like plants, there are trees that will attract various friendly and \"not so friendly\" creatures. (No warranty when placed in desolated biome.)",
+      "description": "Just like plants, there are trees that will attract various friendly and \"not so friendly\" creatures. (No warranty when placed in desolated biome!)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26964,7 +26964,7 @@
     {
       "questID": 307,
       "name": "The power of gods",
-      "description": "The pearl you\u0027ve found has some interesting effects on you. Not only the voices are almost gone, also somehow your perception has expanded. You can \"feel\" the magic around you. This is definitely worth some further investigation.",
+      "description": "The pearl you\u0027ve found has some interesting effects on you. Not only are the voices almost gone, somehow it has also expanded your perception. You can \"feel\" the magic around you. This is definitely worth some further investigation.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -27023,8 +27023,8 @@
     },
     {
       "questID": 308,
-      "name": "The final Goal",
-      "description": "Thanks to your help, I managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe up to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for letting my dream come true!",
+      "name": "The final goal",
+      "description": "Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -27085,7 +27085,7 @@
     {
       "questID": 309,
       "name": "Shards of opposite worlds",
-      "description": "This morning, you just wanted to facepalm yourself to death. On your past journeys, you already saw strange colored shards. But unlike the primal shards you use every day, these seem to contain the raw essence of their dimension. The Hell and Heaven... so to say. Two opposite worlds.",
+      "description": "This morning, you just wanted to facepalm yourself to death. During your past journeys, you have already seen strangely colored shards. But unlike the primal shards you use every day, these seem to contain the raw essence of their dimension. Heaven and Hell... so to speak. Two opposite worlds.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27177,7 +27177,7 @@
     {
       "questID": 310,
       "name": "Unleashed the power",
-      "description": "To make use of your armor to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your armor to the fullest extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27350,7 +27350,7 @@
     {
       "questID": 312,
       "name": "Unleashed the power",
-      "description": "To make use of your armor to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your armor to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27523,7 +27523,7 @@
     {
       "questID": 314,
       "name": "Unleashed the power",
-      "description": "To make use of your armor to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your armor to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27696,7 +27696,7 @@
     {
       "questID": 316,
       "name": "Infused cloth",
-      "description": "By combining ichor with enchanted fabric, you\u0027ve created something that could be compared to mithril. Light as wool, but durable like steel. Also, it conducts magic energy like nothing else you\u0027ve seen before. This seems to be an excellent material for a new armor.",
+      "description": "By combining ichor with enchanted fabric, you\u0027ve created something that could be compared to mithril. Light as wool, but durable like steel. Also, it conducts magic energy like nothing else you\u0027ve seen before. This seems to be an excellent material for a new type of armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -27773,7 +27773,7 @@
     {
       "questID": 317,
       "name": "Unleashed the power",
-      "description": "To make use of your armor to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your armor to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -27946,7 +27946,7 @@
     {
       "questID": 319,
       "name": "Unbreakable axe",
-      "description": "An axe made of your new metal will never break, and will accept enchantments with ease. Something tells you there must be more...",
+      "description": "An axe made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28106,7 +28106,7 @@
     {
       "questID": 321,
       "name": "Unbreakable Sword",
-      "description": "A sword made of your new metal will never break, and will accept enchantments with ease. Something tells you there must be more...",
+      "description": "A sword made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28189,7 +28189,7 @@
     {
       "questID": 322,
       "name": "Unbreakable",
-      "description": "A pickaxe made of your new metal will never break, and will accept enchantments with ease. Something tells you there must be more...",
+      "description": "A pickaxe made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28272,7 +28272,7 @@
     {
       "questID": 323,
       "name": "Unbreakable shovel",
-      "description": "A shovel made of your new metal will never break, and will accept enchantments with ease. Something tells you there must be more...",
+      "description": "A shovel made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28355,7 +28355,7 @@
     {
       "questID": 324,
       "name": "Unleashed the power",
-      "description": "To make use of your tool to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your tool to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28438,7 +28438,7 @@
     {
       "questID": 325,
       "name": "Unleashed the power",
-      "description": "To make use of your tool to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your tool to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28521,7 +28521,7 @@
     {
       "questID": 326,
       "name": "Unleashed the power",
-      "description": "To make use of your tool to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your tool to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28604,7 +28604,7 @@
     {
       "questID": 327,
       "name": "Unleashed the power",
-      "description": "To make use of your tool to its full extend, you\u0027ll have to unleash its hidden power. This is not an easy task; But its worth the effort!",
+      "description": "To make use of your tool to its full extent, you\u0027ll have to unleash its hidden power. This is not an easy task; But it\u0027s well worth the effort!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28761,7 +28761,7 @@
     {
       "questID": 329,
       "name": "Where do the items go?",
-      "description": "It\u0027s better not to ask...",
+      "description": "It\u0027s probably better not to ask...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28832,7 +28832,7 @@
     {
       "questID": 330,
       "name": "Magical waystones",
-      "description": "These are used to mark target locations in order to teleport around",
+      "description": "These are used to mark locations in order to teleport around",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -28974,7 +28974,7 @@
     {
       "questID": 332,
       "name": "Brewers start",
-      "description": "In order to get started with your basic witchery needs, you need a witches oven. It\u0027s used to get the most basic ingredients for your recipes: The fumes.",
+      "description": "In order to get started with your basic witchery needs, you need a witches oven. It\u0027s used to get the most basic ingredients for your recipes: Fumes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29057,7 +29057,7 @@
     {
       "questID": 333,
       "name": "Offerings",
-      "description": "For all your offering needs. And, of course, it looks fancy!",
+      "description": "For all your offering needs. And of course, it looks fancy!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29656,7 +29656,7 @@
     {
       "questID": 340,
       "name": "Portable power source",
-      "description": "By infusing a stone with fiery magic you may create an \"Attuned Stone\". These stones can be used to link non-magical devices to the magical currents present...",
+      "description": "By infusing a stone with fiery magic you can create an \"Attuned Stone\". These stones can be used to link non-magical devices to the magical currents present...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29881,7 +29881,7 @@
     {
       "questID": 343,
       "name": "Bloodlust: Refined evil",
-      "description": "Refined goodness is out of stock, sorry.",
+      "description": "Refined good was out of stock, sorry.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -30555,7 +30555,7 @@
     {
       "questID": 351,
       "name": "Hello there",
-      "description": "I\u0027ve observed your pathway, and I have to say, I\u0027m most impressed. I might need your help soon, on a big project of mine.",
+      "description": "I\u0027ve observed your pathway, and I have to say, I\u0027m impressed. I might need your help soon, on a big project of mine.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -30626,7 +30626,7 @@
     {
       "questID": 352,
       "name": "Power. So much power!",
-      "description": "If I could only use it... Well, hi there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You shall be rewarded.",
+      "description": "If only I could harness it... Well, hi there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You will be rewarded.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -31133,7 +31133,7 @@
     {
       "questID": 360,
       "name": "A casing",
-      "description": "I need something for the outer shell. Again, a crystal-based material, because I like it shiny. I tested all crystals we know, and none of them meet the requirements. I heard you have access to the space? Can you try to find a suitable material while you\u0027re out there?",
+      "description": "I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals we know and none of them meet the requirements. I heard you have access to the space? Can you try to find a suitable material while you\u0027re out there?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -31169,7 +31169,7 @@
     {
       "questID": 361,
       "name": "Fancy!",
-      "description": "Yes. Yes! That\u0027s it. Bring me more of this stuff! I probably need a lot of it...",
+      "description": "Yes. Yes! That\u0027s it! Bring me more of this stuff! I probably need a lot of it...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -31399,7 +31399,7 @@
     {
       "questID": 365,
       "name": "Dense, denser, Neutronium",
-      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficient?\n\nThis looks promising. Send me some samples, and I will try my luck.",
+      "description": "Now look at this. This stuff is incredibly dense. Maybe this material will be sufficiently strong?\n\nThis looks promising. Send me some samples, and I will try my luck.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -31793,7 +31793,7 @@
     {
       "questID": 371,
       "name": "We need to control it",
-      "description": "The problem is, that the immense power of this dust is released all at once. We need something to control the vast amount of energies. I noticed that the dust starts to glow when it gets near an aura node. Maybe Thaumaturgy has a solution?",
+      "description": "The problem is, that the immense power of this dust is released all at once. We need something to control the vast amount of energies. I noticed that the dust starts to glow when it gets near an aura node. Maybe Thaumaturgy has the solution?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -32180,7 +32180,7 @@
     {
       "questID": 378,
       "name": "Activated draconium dust",
-      "description": "At least for a short period of time. The wand focus is powerful enough to activate the dust, but it will convert back to regular dust as soon as I stop feeding it with vis. If I only could contain it, surround it with a powerful forcefield of some kind...",
+      "description": "At least for a short period of time. The wand focus is powerful enough to activate the dust, but it will convert back to regular dust as soon as I stop feeding it with vis. If I only could contain it, surround it with a forcefield...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -32308,7 +32308,7 @@
     {
       "questID": 380,
       "name": "Not what I expected...",
-      "description": "The outcome was... interesting. It did not explode, instead, the activated draconium dust generated a counter-field to mine! Unfortunately, the emitters could not stand the reverse energies, and melted. I was able to shut it off quick enough to save the machine casing (At least what\u0027s left from it...) And a couple of the field generators.",
+      "description": "The outcome was... interesting. It did not explode, instead, the activated draconium dust generated a counter-field to mine! Unfortunately, the emitters could not stand the reverse energies, and melted. I was able to shut it off quick enough to save the machine casing (At least what\u0027s left from it...) And a couple of field generators.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -32441,7 +32441,7 @@
     {
       "questID": 382,
       "name": "A magic force field",
-      "description": "While node stabilizers are too weak, you found a way to create a strong containment field, generated by magic itself. You tried to use warded glass, but even the \"frozen in spacetime\" material could not resist the power of activated draconium dust. You decided to build another device, this time with your newest invention.\n\nThe vortex attenuator is powerful enough to negate even hungry nodes, and it also will be able to contain activated draconium dust.\n\nJust to be sure, I will add some amplifiers to it.",
+      "description": "While node stabilizers are too weak, you found a way to generate a strong containment field, generated by magic itself. You tried to use warded glass, but even the \"frozen in spacetime\" material could not resist the power of activated draconium dust. You decided to build another device, this time with your newest invention.\n\nThe vortex attenuator is powerful enough to negate even hungry nodes, and it also will be able to contain activated draconium dust.\n\nJust to be sure, I will add some amplifiers to it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -32706,7 +32706,7 @@
     {
       "questID": 387,
       "name": "Activated teleport power",
-      "description": "By a random guess of yours, you combined molten ender pearls and a few more of these shards with an empty gem, and it turned blue. It is pulsating with power. You tried to use it on your containment device, and it seems to be able to bypass the force field, while keeping it intact that the same time. Sadly, it doesn\u0027t have enough power to let vis pass through. Maybe you can increase the gems power even further?",
+      "description": "By a random guess of yours, you combined molten ender pearls and a few more of these shards with an empty gem, and it turned blue. It is pulsating with power. You tried to use it on your containment device, and it seems to be able to bypass the force field, while keeping it intact that the same time. Sadly, it doesn\u0027t have enough power to let vis pass through. Maybe you can even further increase the gems power?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33190,7 +33190,7 @@
     {
       "questID": 393,
       "name": "You did it! But...",
-      "description": "Now that you are able to contain the activated draconium dust for an infinite amount of time, you are capable of containing the energy it releases. The readings are incredible. You have never seen such a power before. The only problem is, the machinery required to keep the dust in this state is too large to use it for crafting.\n\nYou noticed something that might help: The dust reacts to vis, but it needs a lot of it, therefore you require the animation focus. If you could find a catalyst, that you can mix the dust with, you could make the dust react with the vis from its surroundings instead of a direct beam.",
+      "description": "Now that you are able to contain the activated draconium dust for an infinite amount of time, you where able to assure the energy it releases. The readings are incredible. You have never seen such a power before. The only problem is, the machinery required to keep the dust in this state is too large to use it for crafting.\n\nYou noticed something that might help: The dust reacts to vis, but it needs a lot of it, therefore you require the animation focus. If you could find a catalyst, that you can mix the dust with, you could make the dust react with the vis from its surroundings instead of a direct beam.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33314,7 +33314,7 @@
     {
       "questID": 395,
       "name": "Bulma would be proud",
-      "description": "By combining a dimensional singularity with some glass cylinders and molten gold, I was able to create a miniature containment field within a very small area. Interesting enough, the new draconium blend amplifies the containment field from the inside. Once I fill the blend in the capsule, it immediately \"seals\" itself. I won\u0027t be able to remove or replace the dust any more, but I don\u0027t think I have to...\n\n\nThis is the perfect vessel for storing large amounts!",
+      "description": "By combining a dimensional singularity with some glass cylinders and molten gold, I was able to create a miniature containment field within a very small area. Interesting enough, the new draconium blend amplifies the containment field from the inside. Once I fill the blend in the capsule, it immediately \"seals\" itself. I won\u0027t be able to remove or replace the dust any more, but I don\u0027t think I have to...\n\n\nThe perfect vessel for massive power!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33565,7 +33565,7 @@
     {
       "questID": 399,
       "name": "Kill Horned Huntsman",
-      "description": "A Horned Huntsman is a member of the Wild Hunt, a powerful entity created by the Horned God. If one is encountered, be prepared for a hard fight, or a better idea might be to flee.",
+      "description": "A Horned Huntsman is a member of the Wild Hunt, a powerful entity created by the Horned God. If one is encountered, prepare for a hard fight, or better flee.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33720,7 +33720,7 @@
     {
       "questID": 401,
       "name": "Kill Shade of Leonard",
-      "description": "Leonard is the demonic being who is rumored to have taught a cadre of german witches their trade, and often presided over their sabbats. A skilled coven with the witches cauldron can summon a shade of the demon according to the method described in the witches\u0027 brews book.",
+      "description": "Leonard is the demonic being who is rumored to have taught a cadre of German witches their trade, and often presided over their sabbats. A skilled coven with the witches cauldron can summon a Shade of the Demon according to the method described in the Witches\u0027 Brews book.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
