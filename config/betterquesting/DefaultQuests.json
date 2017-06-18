@@ -81253,6 +81253,388 @@
       ]
     },
     {
+      "questID": 863,
+      "name": "Bronze Javelin",
+      "description": "The bronze Javelin is a bit expencive and have only 7 shots but it is a good mid rage weapon. With one Bronze Ingot you can refilling you  Javelins.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:Javelin",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "BaseDurability:4": 35,
+            "ExtraAttack:4": 44,
+            "BaseAttack:4": 6,
+            "ToolEXP:4": 62,
+            "Built:4": 1,
+            "ExtraSmite:4": 20,
+            "ExtraLuckLooting:4": 33,
+            "HarvestLevel:4": 4,
+            "RenderHead:4": 14,
+            "ModDurability:6": 0.0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 14,
+            "Accessory:4": 14,
+            "MiningSpeed:4": 650,
+            "Unbreaking:4": 1,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "TotalDurability:4": 35,
+            "Head:4": 14,
+            "Attack:4": 6,
+            "Handle:4": 14,
+            "Broken:4": 0,
+            "Ammo:4": 7,
+            "RenderAccessory:4": 14,
+            "ToolLevel:4": 1,
+            "RepairCount:4": 1,
+            "Modifiers:4": 0
+          },
+          "display:10": {
+            "Name:8": "§fBronze Javelin"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:arrowhead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "TConstruct:toughRod",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Javelin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:4": 35,
+                  "Head:4": 14,
+                  "BaseAttack:4": 6,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 4,
+                  "Attack:4": 6,
+                  "RenderHead:4": 14,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 14,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 14,
+                  "Ammo:4": 7,
+                  "Accessory:4": 14,
+                  "MiningSpeed:4": 650,
+                  "RenderAccessory:4": 14,
+                  "ToolLevel:4": 1,
+                  "Unbreaking:4": 1,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 35
+                },
+                "display:10": {
+                  "Name:8": "§fBronze Javelin"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32241
+            },
+            {
+              "id": "TConstruct:materials",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        38
+      ]
+    },
+    {
+      "questID": 864,
+      "name": "Your first Flint Throwing Knife",
+      "description": "Is the bone bow to expencive just make a flit throwing knife. You need a flint and a stick and get 12 knifes. The durability and the attak dame is very limited but standing on a save place killing some mobs is maybe very helpful.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:ThrowingKnife",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "BaseDurability:4": 113,
+            "Head:4": 3,
+            "BaseAttack:4": 3,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 1,
+            "Attack:4": 3,
+            "RenderHead:4": 3,
+            "ModDurability:6": 0.0,
+            "Handle:4": 0,
+            "Broken:4": 0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 0,
+            "Ammo:4": 12,
+            "MiningSpeed:4": 400,
+            "ToolLevel:4": 1,
+            "Unbreaking:4": 0,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "Modifiers:4": 0,
+            "TotalDurability:4": 113
+          },
+          "display:10": {
+            "Name:8": "§fFlint Throwing Knife"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:flint",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:knifeBlade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:ThrowingKnife",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:4": 113,
+                  "Head:4": 3,
+                  "BaseAttack:4": 3,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 1,
+                  "Attack:4": 3,
+                  "RenderHead:4": 3,
+                  "ModDurability:6": 0.0,
+                  "Handle:4": 0,
+                  "Broken:4": 0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 0,
+                  "Ammo:4": 12,
+                  "MiningSpeed:4": 400,
+                  "ToolLevel:4": 1,
+                  "Unbreaking:4": 0,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "Modifiers:4": 0,
+                  "TotalDurability:4": 113
+                },
+                "display:10": {
+                  "Name:8": "§fFlint Throwing Knife"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:flint",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:blankPattern",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        33
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
@@ -84667,6 +85049,16 @@
           "id": 862,
           "x": 444,
           "y": 180
+        },
+        {
+          "id": 863,
+          "x": 144,
+          "y": 144
+        },
+        {
+          "id": 864,
+          "x": 444,
+          "y": 216
         }
       ]
     },
