@@ -3981,6 +3981,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Railcraft:machine.beta",
@@ -4001,7 +4003,7 @@
               "Damage": 1
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -20775,7 +20777,7 @@
     {
       "questID": 236,
       "name": "A more powerful \"scale\"",
-      "description": "The naga scales are weak, they can only hold a very limited amount of vis. You need a better, more powerful component to store vis in your wand. You\u0027ve heard rumors about an evil wizard in the twilight forest. Maybe he has... something... that can be used?",
+      "description": "The naga scales are weak, they can only hold a very limited amount of vis. You need a better, more powerful component to store vis in your wand. You\u0027ve heard rumors about an evil wizard in the Twilight Forest. Maybe he has... something... that can be used?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -22954,7 +22956,7 @@
     {
       "questID": 263,
       "name": "It doesn\u0027t work",
-      "description": "I tried to combine the lich bones I had with this new wand rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the twilight forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that for my next wand.",
+      "description": "I tried to combine the lich bones I had with this new wand rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the Twilight Forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that for my next wand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42551,7 +42553,7 @@
     {
       "questID": 495,
       "name": "Oh, shiny! (Not platinum!)",
-      "description": "To make your first macerator you need two diamonds, and to enter the twilight forest you need one. Finding a diamond vein would help you a lot. Go and look for one at Y level 5-20.",
+      "description": "To make your first macerator you need two diamonds, and to enter the Twilight Forest you need one. Finding a diamond vein would help you a lot. Go and look for one at Y level 5-20.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70772,6 +70774,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+		  "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -70780,7 +70784,7 @@
               "Damage": 571
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
