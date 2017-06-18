@@ -3981,6 +3981,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Railcraft:machine.beta",
@@ -4001,7 +4003,7 @@
               "Damage": 1
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -70772,6 +70774,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+		  "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -70780,7 +70784,7 @@
               "Damage": 571
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
