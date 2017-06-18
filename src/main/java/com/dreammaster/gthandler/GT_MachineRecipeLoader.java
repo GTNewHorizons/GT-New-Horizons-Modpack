@@ -1102,7 +1102,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 }, CustomItemList.QuantumCircuit.get(1, o), 4000, 500000);
 
                 //Quantum Armor and Gravichest
-                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumHelmet", 1, GT_Values.W));
+                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumHelmet", 1, 1));
                 GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartHelmet.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartHelmet.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
@@ -1118,7 +1118,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         Materials.Glowstone.getMolten(288)
                 }, GT_ModHandler.getIC2Item("quantumHelmet", 1, 27), 1500, 4096);
 
-                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBodyarmor", 1, GT_Values.W));
+                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBodyarmor", 1, 1));
                 GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartChestplate.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartChestplate.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
@@ -1134,7 +1134,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         Materials.Glowstone.getMolten(288)
                 }, GT_ModHandler.getIC2Item("quantumBodyarmor", 1, 27), 1500, 4096);
 
-                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumLeggings", 1, GT_Values.W));
+                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumLeggings", 1, 1));
                 GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartLeggings.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartLeggings.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
@@ -1150,7 +1150,7 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                         Materials.Glowstone.getMolten(288)
                 }, GT_ModHandler.getIC2Item("quantumLeggings", 1, 27), 1500, 4096);
 
-                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBoots", 1, GT_Values.W));
+                GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBoots", 1, 1));
                 GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartBoots.get(1, o), 144000, new ItemStack[]{
                         CustomItemList.QuantumPartBoots.get(1, o),
                         CustomItemList.QuantumCrystal.get(1, o),
@@ -1167,11 +1167,11 @@ public class GT_MachineRecipeLoader extends gregtech.loaders.postload.GT_Machine
                 }, GT_ModHandler.getIC2Item("quantumBoots", 1, 27), 1500, 4096);
 
                 if(Loader.isModLoaded("GraviSuite")){
-                    GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "graviChestPlate", 1, GT_Values.W));
-                    GT_Values.RA.addAssemblylineRecipe(GT_ModHandler.getIC2Item("quantumBodyarmor", 1L, GT_Values.W), 144000, new ItemStack[]{
-                            GT_ModHandler.getIC2Item("quantumBodyarmor", 1L, GT_Values.W),
+                    GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "graviChestPlate", 1, 1));
+                    GT_Values.RA.addAssemblylineRecipe(GT_ModHandler.getIC2Item("quantumBodyarmor", 1L, 1), 144000, new ItemStack[]{
+                            GT_ModHandler.getIC2Item("quantumBodyarmor", 1L, 1),
                             ItemList.Transformer_ZPM_LuV.get(1, o),
-                            GT_ModHandler.getModItem("GraviSuite", "ultimateLappack", 1, GT_Values.W),
+                            GT_ModHandler.getModItem("GraviSuite", "ultimateLappack", 1, 1),
                             GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 6, 1),
                             GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 2, 2),
                             GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 2, 3),
