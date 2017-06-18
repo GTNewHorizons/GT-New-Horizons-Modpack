@@ -80962,8 +80962,8 @@
     },
     {
       "questID": 862,
-      "name": "Your first Bown Bow",
-      "description": "Since you can craft vanilla bows only in the assembler and mobs dropping them not very often you have to make a Tinkers Bow. You can make it out of wood but bone is much better. So crafting the Bow Limbs out of Bone and the bowstring out of strings. The Arrow with the most durability is bone flint is much lighter but less durable.\n\nYou can repair your Bow like all the other Tinkers tools. Arrows can be give back when you repair it or collecing the arrows from the floor.",
+      "name": "Your first bone bow",
+      "description": "Since vanilla bows are only craftable in the assembling machine and mobs do not drop them very often you have to make a Tinkers bow. You could make it out of wood but bone would be much better. So craft the bow limbs out of bone and the bow string out of strings. The arrow that has the most durability is bone flint. It is much lighter but less durable than a regular arrow.\n\nYou can repair your bow the same way as all the other Tinkers tools. Arrows can be regained by repairing them or picking them up from the floor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81254,8 +81254,8 @@
     },
     {
       "questID": 863,
-      "name": "Bronze Javelin",
-      "description": "The bronze Javelin is a bit expencive and have only 7 shots but it is a good mid rage weapon. With one Bronze Ingot you can refilling you  Javelins.",
+      "name": "Bronze javelin",
+      "description": "The bronze javelin is a bit expensive and has only 7 throws, yet it is a good mid-range weapon. With one bronze ingot you can replenish your stack of javelins.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81442,8 +81442,8 @@
     },
     {
       "questID": 864,
-      "name": "Your first Flint Throwing Knife",
-      "description": "Is the bone bow to expencive just make a flit throwing knife. You need a flint and a stick and get 12 knifes. The durability and the attak dame is very limited but standing on a save place killing some mobs is maybe very helpful.",
+      "name": "Your first flint throwing knife",
+      "description": "Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
