@@ -111,7 +111,7 @@
     {
       "questID": 2,
       "name": "Sticks \u0027n Stones",
-      "description": "This book has a built-in reading light, lucky you! Most probably you will read this text while you are waiting for the night to be over. Once it is, go out and collect some gravel and wood. Keep in mind that you need food, so look for pam\u0027s harvestcraft gardens. (And save some of the vegetables for seeds!)",
+      "description": "This book has a built-in reading light, lucky you! Most probably you will read this text while you are waiting for the night to be over. Once it is, go out and collect some gravel and wood. Keep in mind that you need food, so look for Pam\u0027s Harvestcraft gardens. (And save some of the vegetables for seeds!)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3953,7 +3953,7 @@
     },
     {
       "questID": 45,
-      "name": "Multiblock tanks... railcraft tanks",
+      "name": "Multiblock tanks... Railcraft tanks",
       "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
       "isMain": false,
       "isSilent": false,
