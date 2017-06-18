@@ -1666,87 +1666,87 @@ recipes.addShapeless(<TConstruct:CraftingSlab:3>, [<ore:craftingToolSaw>, <TCons
 
 // --- Tool Forge Iron
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockIron>, <TConstruct:CraftingSlab:1>, <ore:blockIron>],
-[<ore:blockIron>, <ore:craftingToolScrewdriver>, <ore:blockIron>]]);
+[<ore:blockIron>, <ore:craftingToolHardHammer>, <ore:blockIron>]]);
 
 // --- Tool Forge Gold
 recipes.addShaped(<TConstruct:ToolForgeBlock:1>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockGold>, <TConstruct:CraftingSlab:1>, <ore:blockGold>],
-[<ore:blockGold>, <ore:craftingToolScrewdriver>, <ore:blockGold>]]);
+[<ore:blockGold>, <ore:craftingToolHardHammer>, <ore:blockGold>]]);
 
 // --- Tool Forge Diamond
 recipes.addShaped(<TConstruct:ToolForgeBlock:2>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockDiamond>, <TConstruct:CraftingSlab:1>, <ore:blockDiamond>],
-[<ore:blockDiamond>, <ore:craftingToolScrewdriver>, <ore:blockDiamond>]]);
+[<ore:blockDiamond>, <ore:craftingToolHardHammer>, <ore:blockDiamond>]]);
 
 // --- Tool Forge Emerald
 recipes.addShaped(<TConstruct:ToolForgeBlock:3>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockEmerald>, <TConstruct:CraftingSlab:1>, <ore:blockEmerald>],
-[<ore:blockEmerald>, <ore:craftingToolScrewdriver>, <ore:blockEmerald>]]);
+[<ore:blockEmerald>, <ore:craftingToolHardHammer>, <ore:blockEmerald>]]);
 
 // --- Tool Forge Cobalt
 recipes.addShaped(<TConstruct:ToolForgeBlock:4>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockCobalt>, <TConstruct:CraftingSlab:1>, <ore:blockCobalt>],
-[<ore:blockCobalt>, <ore:craftingToolScrewdriver>, <ore:blockCobalt>]]);
+[<ore:blockCobalt>, <ore:craftingToolHardHammer>, <ore:blockCobalt>]]);
 
 // --- Tool Forge Ardite
 recipes.addShaped(<TConstruct:ToolForgeBlock:5>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockArdite>, <TConstruct:CraftingSlab:1>, <ore:blockArdite>],
-[<ore:blockArdite>, <ore:craftingToolScrewdriver>, <ore:blockArdite>]]);
+[<ore:blockArdite>, <ore:craftingToolHardHammer>, <ore:blockArdite>]]);
 
 // --- Tool Forge Manyullyn
 recipes.addShaped(<TConstruct:ToolForgeBlock:6>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockManyullyn>, <TConstruct:CraftingSlab:1>, <ore:blockManyullyn>],
-[<ore:blockManyullyn>, <ore:craftingToolScrewdriver>, <ore:blockManyullyn>]]);
+[<ore:blockManyullyn>, <ore:craftingToolHardHammer>, <ore:blockManyullyn>]]);
 
 // --- Tool Forge Copper
 recipes.addShaped(<TConstruct:ToolForgeBlock:7>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockCopper>, <TConstruct:CraftingSlab:1>, <ore:blockCopper>],
-[<ore:blockCopper>, <ore:craftingToolScrewdriver>, <ore:blockCopper>]]);
+[<ore:blockCopper>, <ore:craftingToolHardHammer>, <ore:blockCopper>]]);
 
 // --- Tool Forge Bronze
 recipes.addShaped(<TConstruct:ToolForgeBlock:8>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockBronze>, <TConstruct:CraftingSlab:1>, <ore:blockBronze>],
-[<ore:blockBronze>, <ore:craftingToolScrewdriver>, <ore:blockBronze>]]);
+[<ore:blockBronze>, <ore:craftingToolHardHammer>, <ore:blockBronze>]]);
 
 // --- Tool Forge Tin
 recipes.addShaped(<TConstruct:ToolForgeBlock:9>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockTin>, <TConstruct:CraftingSlab:1>, <ore:blockTin>],
-[<ore:blockTin>, <ore:craftingToolScrewdriver>, <ore:blockTin>]]);
+[<ore:blockTin>, <ore:craftingToolHardHammer>, <ore:blockTin>]]);
 
 // --- Tool Forge Aluminum
 recipes.addShaped(<TConstruct:ToolForgeBlock:10>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockAluminium>, <TConstruct:CraftingSlab:1>, <ore:blockAluminium>],
-[<ore:blockAluminium>, <ore:craftingToolScrewdriver>, <ore:blockAluminium>]]);
+[<ore:blockAluminium>, <ore:craftingToolHardHammer>, <ore:blockAluminium>]]);
 
 // --- Tool Forge Alumium Brass
 recipes.addShaped(<TConstruct:ToolForgeBlock:11>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockAluminiumBrass>, <TConstruct:CraftingSlab:1>, <ore:blockAluminiumBrass>],
-[<ore:blockAluminiumBrass>, <ore:craftingToolScrewdriver>, <ore:blockAluminiumBrass>]]);
+[<ore:blockAluminiumBrass>, <ore:craftingToolHardHammer>, <ore:blockAluminiumBrass>]]);
 
 // --- Tool Forge Alumite
 recipes.addShaped(<TConstruct:ToolForgeBlock:12>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockAlumite>, <TConstruct:CraftingSlab:1>, <ore:blockAlumite>],
-[<ore:blockAlumite>, <ore:craftingToolScrewdriver>, <ore:blockAlumite>]]);
+[<ore:blockAlumite>, <ore:craftingToolHardHammer>, <ore:blockAlumite>]]);
 
 // --- Tool Forge Steel
 recipes.addShaped(<TConstruct:ToolForgeBlock:13>, [
-[<ore:screwAluminium>, <TConstruct:SearedSlab:1>, <ore:screwAluminium>],
+[<ore:plateDoubleAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDoubleAluminium>],
 [<ore:blockSteel>, <TConstruct:CraftingSlab:1>, <ore:blockSteel>],
-[<ore:blockSteel>, <ore:craftingToolScrewdriver>, <ore:blockSteel>]]);
+[<ore:blockSteel>, <ore:craftingToolHardHammer>, <ore:blockSteel>]]);
 
 // --- Slab Furnace
 recipes.addShapeless(<TConstruct:FurnaceSlab>, [<ore:craftingToolSaw>, <minecraft:furnace>]);
