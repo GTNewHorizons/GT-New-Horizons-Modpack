@@ -1104,7 +1104,7 @@ public class GT_MachineRecipeLoader implements Runnable{
         }, CustomItemList.QuantumCircuit.get(1), 4000, 500000);
 
         //Quantum Armor and Gravichest
-        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumHelmet", 1, 1));
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumHelmet", 1, GT_Values.W));
         GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartHelmet.get(1), 144000, new ItemStack[]{
                 CustomItemList.QuantumPartHelmet.get(1),
                 CustomItemList.QuantumCrystal.get(1),
@@ -1118,9 +1118,9 @@ public class GT_MachineRecipeLoader implements Runnable{
                 Materials.SolderingAlloy.getMolten(2304),
                 Materials.Titanium.getMolten(1440),
                 Materials.Glowstone.getMolten(288)
-        }, GT_ModHandler.getIC2Item("quantumHelmet", 1, 27), 1500, 4096);
+        }, GT_ModHandler.getIC2Item("quantumHelmet", 1, 26), 1500, 4096);
 
-        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBodyarmor", 1, 1));
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBodyarmor", 1, GT_Values.W));
         GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartChestplate.get(1), 144000, new ItemStack[]{
                 CustomItemList.QuantumPartChestplate.get(1),
                 CustomItemList.QuantumCrystal.get(1),
@@ -1134,9 +1134,9 @@ public class GT_MachineRecipeLoader implements Runnable{
                 Materials.SolderingAlloy.getMolten(2304),
                 Materials.Titanium.getMolten(1440),
                 Materials.Glowstone.getMolten(288)
-        }, GT_ModHandler.getIC2Item("quantumBodyarmor", 1, 27), 1500, 4096);
+        }, GT_ModHandler.getIC2Item("quantumBodyarmor", 1, 26), 1500, 4096);
 
-        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumLeggings", 1, 1));
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumLeggings", 1, GT_Values.W));
         GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartLeggings.get(1), 144000, new ItemStack[]{
                 CustomItemList.QuantumPartLeggings.get(1),
                 CustomItemList.QuantumCrystal.get(1),
@@ -1150,9 +1150,9 @@ public class GT_MachineRecipeLoader implements Runnable{
                 Materials.SolderingAlloy.getMolten(2304),
                 Materials.Titanium.getMolten(1440),
                 Materials.Glowstone.getMolten(288)
-        }, GT_ModHandler.getIC2Item("quantumLeggings", 1, 27), 1500, 4096);
+        }, GT_ModHandler.getIC2Item("quantumLeggings", 1, 26), 1500, 4096);
 
-        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBoots", 1, 1));
+        GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumBoots", 1, GT_Values.W));
         GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartBoots.get(1), 144000, new ItemStack[]{
                 CustomItemList.QuantumPartBoots.get(1),
                 CustomItemList.QuantumCrystal.get(1),
@@ -1166,10 +1166,10 @@ public class GT_MachineRecipeLoader implements Runnable{
                 Materials.SolderingAlloy.getMolten(2304),
                 Materials.Titanium.getMolten(1440),
                 Materials.Glowstone.getMolten(288)
-        }, GT_ModHandler.getIC2Item("quantumBoots", 1, 27), 1500, 4096);
+        }, GT_ModHandler.getIC2Item("quantumBoots", 1, 26), 1500, 4096);
 
         if (Loader.isModLoaded("GraviSuite")) {
-            GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "graviChestPlate", 1, 1));
+            GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "graviChestPlate", 1, GT_Values.W));
             GT_Values.RA.addAssemblylineRecipe(GT_ModHandler.getIC2Item("quantumBodyarmor", 1L, 1), 144000, new ItemStack[]{
                     GT_ModHandler.getIC2Item("quantumBodyarmor", 1L, 1),
                     ItemList.Transformer_ZPM_LuV.get(1),
@@ -1186,7 +1186,7 @@ public class GT_MachineRecipeLoader implements Runnable{
             }, new FluidStack[]{
                     Materials.SolderingAlloy.getMolten(2304),
                     Materials.Tritanium.getMolten(1440)
-            }, GT_ModHandler.getModItem("GraviSuite", "graviChestPlate", 1, 27), 1500, 16388);
+            }, GT_ModHandler.getModItem("GraviSuite", "graviChestPlate", 1, 26), 1500, 16388);
         }
     }
 }
