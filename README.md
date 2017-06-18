@@ -300,4 +300,4 @@ created by MajaProduction needs Optifine installed<BR><BR>
 
 ---
 
-Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga and many more.
+Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT , Bryfer, and many more.
