@@ -1224,30 +1224,30 @@ null, <Forestry:bituminousPeat> * 4);
 // --- Basic Circuit Board
 mods.forestry.Carpenter.addRecipe(10, <liquid:molten.redstone> * 1152, 
 [<gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:29032>, <gregtech:gt.metaitem.01:27032>, 
-<gregtech:gt.metaitem.01:32700>, <gregtech:gt.metaitem.02:19032>, <gregtech:gt.metaitem.01:32700>, 
+<IC2:itemPartCircuit>, <gregtech:gt.metaitem.02:19032>, <IC2:itemPartCircuit>, 
 <gregtech:gt.metaitem.01:27032>, <gregtech:gt.metaitem.01:29032>, <gregtech:gt.metaitem.01:27032>],
-<gregtech:gt.metaitem.01:32710>, <Forestry:chipsets>);
+<gregtech:gt.metaitem.03:32100>, <Forestry:chipsets>);
 
 // --- Enhanced Circuit Board
 mods.forestry.Carpenter.addRecipe(20, <liquid:molten.redstone> * 1152, 
 [<gregtech:gt.metaitem.01:27300>, <gregtech:gt.metaitem.01:29300>, <gregtech:gt.metaitem.01:27300>, 
-<gregtech:gt.metaitem.01:32700>, <gregtech:gt.metaitem.02:19300>, <gregtech:gt.metaitem.01:32700>, 
+<gregtech:gt.metaitem.01:32702>, <gregtech:gt.metaitem.02:19300>, <gregtech:gt.metaitem.01:32702>, 
 <gregtech:gt.metaitem.01:27300>, <gregtech:gt.metaitem.01:29300>, <gregtech:gt.metaitem.01:27300>],
-<gregtech:gt.metaitem.01:32710>, <Forestry:chipsets:1>);
+<gregtech:gt.metaitem.03:32101>, <Forestry:chipsets:1>);
 
 // --- Refined Circuit Board
 mods.forestry.Carpenter.addRecipe(30, <liquid:molten.redstone> * 1152, 
 [<gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:29305>, <gregtech:gt.metaitem.01:27305>, 
-<gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19305>, <gregtech:gt.metaitem.01:32715>, 
+<gregtech:gt.metaitem.01:32701>, <gregtech:gt.metaitem.02:19305>, <gregtech:gt.metaitem.01:32701>, 
 <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:29305>, <gregtech:gt.metaitem.01:27305>],
-<gregtech:gt.metaitem.01:32711>, <Forestry:chipsets:2>);
+<gregtech:gt.metaitem.03:32102>, <Forestry:chipsets:2>);
 
 // --- Intricate Circuit Board
 mods.forestry.Carpenter.addRecipe(40, <liquid:molten.redstone> * 1152, 
 [<gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:29303>, <gregtech:gt.metaitem.01:27303>, 
-<gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19303>, <gregtech:gt.metaitem.01:32715>, 
+<gregtech:gt.metaitem.03:32079>, <gregtech:gt.metaitem.02:19303>, <gregtech:gt.metaitem.03:32079>, 
 <gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:29303>, <gregtech:gt.metaitem.01:27303>],
-<gregtech:gt.metaitem.01:32711>, <Forestry:chipsets:3>);
+<gregtech:gt.metaitem.03:32103>, <Forestry:chipsets:3>);
 
 // --- Copper Electron Tubes
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [

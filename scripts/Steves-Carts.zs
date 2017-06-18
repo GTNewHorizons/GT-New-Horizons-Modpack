@@ -369,12 +369,6 @@ recipes.remove(SolarPanel);
 // --- Advanced Solar Panel
 recipes.remove(AdvSolarPanel);
 
-// --- PCB
-recipes.remove(PCB);
-
-// --- Advanced PCB
-recipes.remove(AdvPCB);
-
 // --- Chest Pane
 recipes.remove(<StevesCarts:ModuleComponents:30>);
 
@@ -1456,16 +1450,6 @@ Assembler.addRecipe(SolarPanel, <gregtech:gt.metaitem.01:32750>, PCB, 600, 30);
 
 // --- Advanced Solar Panel
 Assembler.addRecipe(AdvSolarPanel, SolarPanel * 4, AdvPCB * 2, 1200, 120);
-
-// --- PCB
-Assembler.addRecipe(PCB, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17086>, 200, 30);
-
-// --- Advanced PCB
-Assembler.addRecipe(AdvPCB, <gregtech:gt.metaitem.01:32711>, PCB * 2, <liquid:molten.tin> * 144, 200, 120);
-// -
-Assembler.addRecipe(AdvPCB, <gregtech:gt.metaitem.01:32711>, PCB * 2, <liquid:molten.lead> * 288, 200, 120);
-// -
-Assembler.addRecipe(AdvPCB, <gregtech:gt.metaitem.01:32711>, PCB * 2, <liquid:molten.solderingalloy> * 72, 200, 120);
 
 // ---  Large Chest Pane
 Assembler.addRecipe(<StevesCarts:ModuleComponents:31>, <StevesCarts:ModuleComponents:30> * 4, <gregtech:gt.integrated_circuit:4> * 0, 80, 8);

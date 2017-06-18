@@ -2,11 +2,9 @@
 
 
 
-
-
-
-
 // --- Remove Recipes ---
+
+
 
 
 // --- Super ConductorCover
@@ -17,9 +15,6 @@ recipes.remove(<GraviSuite:itemSimpleItem:1>);
 
 // --- Cooling Core
 recipes.remove(<GraviSuite:itemSimpleItem:2>);
-
-// --- Gravitation Engine
-recipes.remove(<GraviSuite:itemSimpleItem:3>);
 
 // --- Magnetron
 recipes.remove(<GraviSuite:itemSimpleItem:4>);
@@ -33,17 +28,11 @@ recipes.remove(<GraviSuite:vajra:*>);
 // --- Engine Boost
 recipes.remove(<GraviSuite:itemSimpleItem:6>);
 
-// --- GraviChest
-recipes.remove(<GraviSuite:graviChestPlate>);
-
 // --- Advanced Chainsaw
 recipes.remove(<GraviSuite:advChainsaw>);
 
 // --- Advanced Nano Chest
 recipes.remove(<GraviSuite:advNanoChestPlate>);
-
-// --- Advanced Jetpack
-recipes.remove(<GraviSuite:advJetpack>);
 
 // --- Advanced Drill
 recipes.remove(<GraviSuite:advDDrill>);
@@ -62,6 +51,9 @@ recipes.remove(<GraviSuite:relocator:*>);
 
 // --- Epic Lappack
 recipes.remove(<GraviSuite:epicLappack:*>);
+ 
+ 
+ 
  
 // --- Add Recipes ---
 
@@ -89,12 +81,6 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 [<gregtech:gt.180k_Helium_Coolantcell>, <dreamcraft:item.CallistoIcePlate>, <gregtech:gt.180k_Helium_Coolantcell>],
 [<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
 
-// --- Gravitation Engine
-recipes.addShaped(<GraviSuite:itemSimpleItem:3>, [
-[<IC2:blockMachine2:1>, <GraviSuite:itemSimpleItem:1>, <IC2:blockMachine2:1>],
-[<GraviSuite:itemSimpleItem:2>, <gregtech:gt.blockmachines:25>, <GraviSuite:itemSimpleItem:2>],
-[<IC2:blockMachine2:1>, <GraviSuite:itemSimpleItem:1>, <IC2:blockMachine2:1>]]);
- 
 // --- Magnetron
 recipes.addShaped(<GraviSuite:itemSimpleItem:4>, [
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>],
@@ -119,41 +105,29 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 [<ore:circuitAdvanced>, <IC2:upgradeModule>, <ore:circuitAdvanced>],
 [<IC2:reactorPlating>, <IC2:reactorVentDiamond:1>, <IC2:reactorPlating>]]);
 
-// --- Gravi Chest
-recipes.addShaped(<GraviSuite:graviChestPlate:26>, [
-[<GraviSuite:itemSimpleItem:1>, <IC2:itemArmorQuantumChestplate:26>, <GraviSuite:itemSimpleItem:1>],
-[<GraviSuite:itemSimpleItem:3>, <gregtech:gt.blockmachines:26>, <GraviSuite:itemSimpleItem:3>],
-[<GraviSuite:itemSimpleItem:1>, <GraviSuite:ultimateLappack:26>, <GraviSuite:itemSimpleItem:1>]]);
- 
 // --- Advanced Nano Chest
 recipes.addShaped(<GraviSuite:advNanoChestPlate:26>, [
 [<IC2:itemPartCarbonPlate>, <GraviSuite:advJetpack:26>, <IC2:itemPartCarbonPlate>],
 [<ore:plateTungstenSteel>, <IC2:itemArmorNanoChestplate:26>, <ore:plateTungstenSteel>],
-[<ore:wireGt12Platinum>, <gregtech:gt.metaitem.01:32706>, <ore:wireGt12Platinum>]]);
+[<ore:wireGt12Platinum>, <ore:circuitElite>, <ore:wireGt12Platinum>]]);
  
-// --- Advanced Jetpack
-recipes.addShaped(<GraviSuite:advJetpack:26>, [
-[<dreamcraft:item.TitaniumItemCasing>, <IC2:itemArmorJetpackElectric:26>, <dreamcraft:item.TitaniumItemCasing>],
-[<GraviSuite:itemSimpleItem:6>, <GraviSuite:advLappack:26>, <GraviSuite:itemSimpleItem:6>],
-[<gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32706>, <gregtech:gt.blockmachines:1563>]]);
-
 // --- Advanced Lappack
 recipes.addShaped(<GraviSuite:advLappack:26>, [
 [<dreamcraft:item.TitaniumItemCasing>, <ore:batteryElite>, <dreamcraft:item.TitaniumItemCasing>],
 [<ore:batteryElite>, <IC2:itemArmorEnergypack:26>, <ore:batteryElite>],
-[<ore:circuitMaster>, <ore:wireGt12Nichrome> , <ore:circuitMaster>]]);
+[<ore:circuitData>, <ore:wireGt12Nichrome> , <ore:circuitData>]]);
 
 // --- Ultimate Lappack
 recipes.addShaped(<GraviSuite:ultimateLappack:26>, [
 [<dreamcraft:item.ChromeItemCasing>, <ore:batteryMaster>, <dreamcraft:item.ChromeItemCasing>],
 [<ore:batteryMaster>, <GraviSuite:advLappack:26>, <ore:batteryMaster>],
-[<dreamcraft:item.HighEnergyFlowCircuit>, <ore:wireGt16NiobiumTitanium>, <dreamcraft:item.HighEnergyFlowCircuit>]]);
+[<ore:circuitMaster>, <ore:wireGt16NiobiumTitanium>, <ore:circuitMaster>]]);
 
 // --- Epic Lappack
 recipes.addShaped(<GraviSuite:epicLappack:26>, [
 [<dreamcraft:item.IridiumAlloyItemCasing>, <gregtech:gt.metaitem.01:32599>, <dreamcraft:item.IridiumAlloyItemCasing>],
 [<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:26>, <gregtech:gt.metaitem.01:32599>],
-[<dreamcraft:item.NanoCircuit>, <ore:wireGt16Superconductor>, <dreamcraft:item.NanoCircuit>]]);
+[<ore:circuitUltimate>, <ore:wireGt16Superconductor>, <ore:circuitUltimate>]]);
 
 // --- Relocator
 recipes.addShaped(<GraviSuite:relocator:26>, [
@@ -172,6 +146,7 @@ recipes.addShaped(<GraviSuite:advDDrill:26>, [
 [<ore:screwIridium>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:craftingToolScrewdriver>],
 [<ore:gearGtSmallIridium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallIridium>],
 [<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
+
 
 
 

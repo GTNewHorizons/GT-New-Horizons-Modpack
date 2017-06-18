@@ -92,7 +92,7 @@ recipes.remove(<Genetics:registry>);
 // --- Gene Database
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 2880, 
 [<gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>, 
-<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17500>, 
+<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32708>, <gregtech:gt.metaitem.01:17500>, 
 <gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>], 
 <dreamcraft:item.Display>, <Genetics:database>);
 
@@ -113,7 +113,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 4320,
 // --- Intergrated Circuit
 recipes.addShaped(<Genetics:misc:9>, [
 [<ore:screwStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>],
-[<gregtech:gt.metaitem.01:32715>, <Forestry:chipsets:1>, <gregtech:gt.metaitem.01:32715>],
+[<ore:circuitAdvanced>, <Forestry:chipsets:1>, <ore:circuitAdvanced>],
 [<ore:screwStainlessSteel>, <ore:craftingToolWrench>, <ore:screwStainlessSteel>]]);
 
 // --- Isolator
@@ -197,7 +197,11 @@ Assembler.addRecipe(<Genetics:misc:6>, <minecraft:glass_pane> * 4, <gregtech:gt.
 Assembler.addRecipe(<Genetics:misc:7>, <Genetics:misc:6> * 10, <gregtech:gt.integrated_circuit:10> * 0, <liquid:molten.gold> * 576, 200, 96);
 
 // --- Intergrated Circuit
-Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.metaitem.01:32715> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
+Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <IC2:itemPartCircuitAdv> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
+// -
+Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.metaitem.03:32082> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
+// -
+Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.metaitem.01:32703> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
 
 // --- Integrated Casing
 Assembler.addRecipe(<Genetics:misc:11>, <Forestry:hardenedMachine>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 288, 1500, 256);

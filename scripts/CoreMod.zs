@@ -199,47 +199,83 @@ recipes.addShaped(<dreamcraft:item.MoldFormSmallGear>, [
 [WireCutter, BlankCast, null],
 [null, null, null]]);
 
+// --- Rod Mold
+recipes.addShaped(<dreamcraft:item.MoldFormStick>, [
+[WireCutter, File, null],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Bolt Mold
+recipes.addShaped(<dreamcraft:item.MoldFormBolt>, [
+[null, WireCutter, File],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Round Mold
+recipes.addShaped(<dreamcraft:item.MoldFormRound>, [
+[null, null, WireCutter],
+[null, BlankCast, File],
+[null, null, null]]);
+
+// --- Screw Mold
+recipes.addShaped(<dreamcraft:item.MoldFormScrew>, [
+[null, null, null],
+[null, BlankCast, WireCutter],
+[null, null, File]]);
+
+// --- Ring Mold
+recipes.addShaped(<dreamcraft:item.MoldFormRing>, [
+[null, null, null],
+[null, BlankCast, null],
+[null, File, WireCutter]]);
+
+// --- Long Stickr Mold
+recipes.addShaped(<dreamcraft:item.MoldFormStickLong>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, WireCutter, null]]);
+
 // --- Extruder Shape Plate
 recipes.addShaped(<dreamcraft:item.ShapePlate>, [
-[WireCutter, File, null],
+[File, WireCutter, null],
 [null, BlankCast, null],
 [null, null, null]]);
 
 // --- Extruder Shape Rod
 recipes.addShaped(<dreamcraft:item.ShapeRod>, [
-[null, WireCutter, File],
+[null, File, WireCutter],
 [null, BlankCast, null],
 [null, null, null]]);
 
 // --- Extruder Shape Bolt
 recipes.addShaped(<dreamcraft:item.ShapeBolt>, [
-[null, null, WireCutter],
-[null, BlankCast, File],
+[null, null, File],
+[null, BlankCast, WireCutter],
 [null, null, null]]);
 
 // --- Extruder Shape Cell
 recipes.addShaped(<dreamcraft:item.ShapeCell>, [
 [null, null, null],
-[null, BlankCast, WireCutter],
-[null, null, File]]);
+[null, BlankCast, File],
+[null, null, WireCutter]]);
 
 // --- Extruder Shape Ring
 recipes.addShaped(<dreamcraft:item.ShapeRing>, [
 [null, null, null],
 [null, BlankCast, null],
-[null, File, WireCutter]]);
+[null, WireCutter, File]]);
 
 // --- Extruder Shape Ingot
 recipes.addShaped(<dreamcraft:item.ShapeIngot>, [
 [null, null, null],
 [null, BlankCast, null],
-[File, WireCutter, null]]);
+[WireCutter, File, null]]);
 
 // --- Extruder Shape Wire
 recipes.addShaped(<dreamcraft:item.ShapeWire>, [
 [null, null, null],
-[File, BlankCast, null],
-[WireCutter, null, null]]);
+[WireCutter, BlankCast, null],
+[File, null, null]]);
 
 // --- Extruder Shape Casing
 recipes.addShaped(<dreamcraft:item.ShapeCasing>, [
@@ -249,44 +285,44 @@ recipes.addShaped(<dreamcraft:item.ShapeCasing>, [
 
 // --- Extruder Shape Tiny Pipe
 recipes.addShaped(<dreamcraft:item.ShapeTinyPipe>, [
-[File, WireCutter, null],
+[File, null, WireCutter],
 [null, BlankCast, null],
 [null, null, null]]);
 
 // --- Extruder Shape Small Pipe
 recipes.addShaped(<dreamcraft:item.ShapeSmallPipe>, [
-[null, File, WireCutter],
-[null, BlankCast, null],
+[null, File, null],
+[null, BlankCast, WireCutter],
 [null, null, null]]);
 
 // --- Extruder Shape Normal Pipe
 recipes.addShaped(<dreamcraft:item.ShapeNormalPipe>, [
 [null, null, File],
-[null, BlankCast, WireCutter],
-[null, null, null]]);
+[null, BlankCast, null],
+[null, null, WireCutter]]);
 
 // --- Extruder Shape Lage Pipe
 recipes.addShaped(<dreamcraft:item.ShapeLargePipe>, [
 [null, null, null],
 [null, BlankCast, File],
-[null, null, WireCutter]]);
+[null, WireCutter, null]]);
 
 // --- Extruder Shape Huge Pipe
 recipes.addShaped(<dreamcraft:item.ShapeHugePipe>, [
 [null, null, null],
 [null, BlankCast, null],
-[null, WireCutter, File]]);
+[WireCutter, null, File]]);
 
 // --- Extruder Shape Block
 recipes.addShaped(<dreamcraft:item.ShapeBlock>, [
 [null, null, null],
-[null, BlankCast, null],
-[WireCutter, File, null]]);
+[WireCutter, BlankCast, null],
+[null, File, null]]);
 
 // --- Extruder Shape Sword Blade
 recipes.addShaped(<dreamcraft:item.ShapeSwordBlade>, [
-[null, null, null],
-[WireCutter, BlankCast, null],
+[WireCutter, null, null],
+[null, BlankCast, null],
 [File, null, null]]);
 
 // --- Extruder Shape Pickaxe Head
@@ -297,85 +333,85 @@ recipes.addShaped(<dreamcraft:item.ShapePickaxeHead>, [
 
 // --- Extruder Shape Shove Head
 recipes.addShaped(<dreamcraft:item.ShapeShovelHead>, [
-[File, null, WireCutter],
-[null, BlankCast, null],
+[File, null, null],
+[null, BlankCast, WireCutter],
 [null, null, null]]);
 
 // --- Extruder Shape Axe Head
 recipes.addShaped(<dreamcraft:item.ShapeAxeHead>, [
 [null, File, null],
-[null, BlankCast, WireCutter],
-[null, null, null]]);
+[null, BlankCast, null],
+[null, null, WireCutter]]);
 
 // --- Extruder Shape Hoe Head
 recipes.addShaped(<dreamcraft:item.ShapeHoeHead>, [
 [null, null, File],
 [null, BlankCast, null],
-[null, null, WireCutter]]);
+[null, WireCutter, null]]);
 
 // --- Extruder Shape Hammer Head
 recipes.addShaped(<dreamcraft:item.ShapeHammerHead>, [
 [null, null, null],
 [null, BlankCast, File],
-[null, WireCutter, null]]);
+[WireCutter, null, null]]);
 
 // --- Extruder Shape File Head
 recipes.addShaped(<dreamcraft:item.ShapeFileHead>, [
 [null, null, null],
-[null, BlankCast, null],
-[WireCutter, null, File]]);
+[WireCutter, BlankCast, null],
+[null, null, File]]);
 
 // --- Extruder Shape Saw Blade
 recipes.addShaped(<dreamcraft:item.ShapeSawBlade>, [
-[null, null, null],
-[WireCutter, BlankCast, null],
+[WireCutter, null, null],
+[null, BlankCast, null],
 [null, File, null]]);
 
 // --- Extruder Shape Gear
 recipes.addShaped(<dreamcraft:item.ShapeGear>, [
-[WireCutter, null, null],
+[null, null, WireCutter],
 [null, BlankCast, null],
 [File, null, null]]);
 
 // --- Extruder Shape Bottle
 recipes.addShaped(<dreamcraft:item.ShapeBottle>, [
-[null, null, WireCutter],
+[File, null, null],
 [File, BlankCast, null],
-[null, null, null]]);
+[null, WireCutter, null]]);
 
 // --- Extruder Shape Boat
 recipes.addShaped(<dreamcraft:item.ShapeBoat>, [
-[File, null, null],
-[null, BlankCast, WireCutter],
+[WireCutter, null, null],
+[null, BlankCast, File],
 [null, null, null]]);
 
 // --- Mold Form Boots
 recipes.addShaped(<dreamcraft:item.MoldFormBoots>, [
 [null, File, null],
 [null, BlankCast, null],
-[null, null, WireCutter]]);
+[null, WireCutter, null]]);
 
 // --- Mold Form Chestplate
 recipes.addShaped(<dreamcraft:item.MoldFormChestplate>, [
 [null, null, File],
 [null, BlankCast, null],
-[null, WireCutter, null]]);
+[WireCutter, null, null]]);
 
 // --- Mold Form Helmet
 recipes.addShaped(<dreamcraft:item.MoldFormHelmet>, [
 [null, null, null],
-[null, BlankCast, File],
-[WireCutter, null, null]]);
+[WireCutter, BlankCast, File],
+[null, null, null]]);
 
 // --- Mold Form Leggings
 recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
-[null, null, null],
-[WireCutter, BlankCast, null],
+[WireCutter, null, null],
+[null, BlankCast, null],
 [null, null, File]]);
 
 // --- Mold Form Marshmallow
 recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
-[WireCutter, null, null],
+[null, WireCutter, null],
 [null, BlankCast, null],
 [null, File, null]]);
 
@@ -775,8 +811,18 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTinyPipe>, <liquid:alu
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTinyPipe>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MarshmallowFormMold>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
-
-
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormStick>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormStickLong>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormScrew>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRing>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBolt>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRound>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- BBQ Glows Left Hand
 recipes.addShaped(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [
@@ -803,38 +849,6 @@ recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
 // --- Wooden Brick Form
 recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
 [Knife, BlankPattern, null]]);
-
-// --- Unfired Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredClayBrick>, [<minecraft:clay_ball>, WoodenBrickForm]);
-// -
-recipes.addShaped(<dreamcraft:item.UnfiredClayBrick> * 8, [
-[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-[<minecraft:clay_ball>, WoodenBrickForm, <minecraft:clay_ball>],
-[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
-
-// --- Unfired Seared Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredSearedBrick>, [<TConstruct:CraftedSoil:1>, WoodenBrickForm]);
-// -
-recipes.addShaped(<dreamcraft:item.UnfiredSearedBrick> * 8, [
-[<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>],
-[<TConstruct:CraftedSoil:1>, WoodenBrickForm, <TConstruct:CraftedSoil:1>],
-[<TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>, <TConstruct:CraftedSoil:1>]]);
-
-// --- Unfired Coke Oven Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredCokeOvenBrick>, [<minecraft:clay_ball>, WoodenBrickForm, <ore:sand>, <ore:sand>]);
-// -
-recipes.addShaped(<dreamcraft:item.UnfiredCokeOvenBrick> * 3, [
-[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-[<ore:sand>, WoodenBrickForm, <ore:sand>],
-[<ore:sand>, <ore:sand>, <ore:sand>]]);
-
-// --- Unfired Slime Soil Bricks
-recipes.addShapeless(<dreamcraft:item.UnfiredSlimeSoulBrick>, [<TConstruct:CraftedSoil:6>, WoodenBrickForm]);
-// -
-recipes.addShaped(<dreamcraft:item.UnfiredSlimeSoulBrick> * 8, [
-[<TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>],
-[<TConstruct:CraftedSoil:6>, WoodenBrickForm, <TConstruct:CraftedSoil:6>],
-[<TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>, <TConstruct:CraftedSoil:6>]]);
 
 // --- Coke Oven Bricks
 furnace.addRecipe(<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.UnfiredCokeOvenBrick>);
@@ -909,11 +923,11 @@ Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:3247
 Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <Natura:Natura.fence:*>, 100, 30);
 
 // --- Piko Circuit
-Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.tin> * 864, 600, 30720);
+//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.tin> * 864, 600, 30720);
 // -
-Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.solderingalloy> * 432, 600, 30720);
+//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.solderingalloy> * 432, 600, 30720);
 // -
-Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.lead> * 1782, 600, 30720);
+//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.lead> * 1782, 600, 30720);
 
 // --- Enriched Naquadria Sunnarium Alloy
 Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <AdvancedSolarPanel:asp_crafting_items:4>, <gregtech:gt.metaitem.01:22327>, 2000, 1920);
@@ -1014,7 +1028,7 @@ Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2
 // --- Bio Fiber
 Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biomass> * 8, 3300, 200, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biogas> * 8, 5000, 200, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:methanol> * 8, 5000, 200, 20);
 // -
 Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:fuel> * 8, 9000, 200, 20);
 // -
@@ -1137,7 +1151,7 @@ null, null, null],
 
 
 // --- Potassium Hydroxide
-ChemicalReactor.addRecipe(<dreamcraft:item.PotassiumHydroxideDust> * 3, <liquid:hydrogen> * 1000, <gregtech:gt.metaitem.01:2025>, null, <liquid:water> * 3000, 1200, 30);
+ChemicalReactor.addRecipe(<dreamcraft:item.PotassiumHydroxideDust> * 3, <liquid:hydrogen> * 1000, <gregtech:gt.metaitem.01:2025>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 3000, 1200, 30);
 
 // --- Nitric Acid
 ChemicalReactor.addRecipe(<IC2:itemCellEmpty> * 7, <liquid:nitricacid> * 10000, <gregtech:gt.metaitem.01:30717> * 6, <gregtech:gt.metaitem.01:30013>, <liquid:water> * 3000, 200, 30);
@@ -1442,11 +1456,6 @@ ForgeHammer.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <appliedenergis
 // --- Forming Press Recipes
 
 
-// --- High Energy Circuit Parts
-FormingPress.addRecipe(<dreamcraft:item.HighEnergyCircuitParts>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:2501> * 3, 200, 256);
-
-// --- Simple Circuit Board
-FormingPress.addRecipe(<dreamcraft:item.SimpleCircuitBoard> * 4, <gregtech:gt.metaitem.01:17020>, <dreamcraft:item.EtchedLowVoltageWiring> * 4, 100, 4);
 
 // --- Spacial Circuit Tier I
 FormingPress.addRecipe(<dreamcraft:item.PulsatingSpatialCoreChip>, <dreamcraft:item.EngravedManyullynCrystalChip>, <BuildCraft|Silicon:redstoneChipset:4>, 300, 7680);
@@ -1768,6 +1777,7 @@ mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "NEWHORIZONS", "alienis 
 game.setLocalization("tc.research_name.PORTALMILLENIUM", "Portal to the last Millennium");
 game.setLocalization("tc.research_text.PORTALMILLENIUM", "[EU] Night and Void");
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "EMINENCESTONE", false);
+mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "OCULUS", false);
 mods.thaumcraft.Research.setConcealed("PORTALMILLENIUM", true);
 mods.thaumcraft.Research.addPage("PORTALMILLENIUM", "ExtraUtilities.research_page.PORTALMILLENIUM");
 game.setLocalization("ExtraUtilities.research_page.PORTALMILLENIUM", "This place is known as The Last Millenium. All life, energy, knowledge, passion, struggle, philosophy and meaning is just a few short centuries from being rendered fully pointless. On the plus side, rent is very cheap now.");
@@ -1780,10 +1790,11 @@ mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "alienis 1
 game.setLocalization("tc.research_name.PORTALDEEPDARK", "Portal to the Deep Dark");
 game.setLocalization("tc.research_text.PORTALDEEPDARK", "[EU] Deep, Deeper, Deep Dark");
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
+mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "ICHOR", false);
 mods.thaumcraft.Research.setConcealed("PORTALDEEPDARK", true);
 mods.thaumcraft.Research.addPage("PORTALDEEPDARK", "ExtraUtilities.research_page.PORTALDEEPDARK");
 game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.");
-mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:dark_portal:2>, [<ExtraUtilities:cobblestone_compressed:4>, <dreamcraft:item.BlackPlutoniumDensePlate>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:3>, <dreamcraft:item.BlackPlutoniumDensePlate>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:decorativeBlock1:5>], "alienis 300, spiritus 150, metallum 200, fabrico 150 lucrum 100, potentia 200",  <ExtraUtilities:dark_portal>, 12);
+mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:dark_portal:2>, [<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>], "alienis 300, spiritus 150, metallum 200, fabrico 150 lucrum 100, potentia 200",  <ExtraUtilities:dark_portal>, 12);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
 mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 8);
 

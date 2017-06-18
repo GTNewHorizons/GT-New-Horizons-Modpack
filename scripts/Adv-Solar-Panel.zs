@@ -107,7 +107,7 @@ recipes.addShaped(<AdvancedSolarPanel:hybrid_solar_helmet>, [
 
 // --- Ultimate Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>, [
-[<ore:craftingToolWrench>, <dreamcraft:item.NanoCircuit>, <ore:craftingToolScrewdriver>],
+[<ore:craftingToolWrench>, <ore:circuitUltimate>, <ore:craftingToolScrewdriver>],
 [<ore:craftingSolarPanelHV>, <AdvancedSolarPanel:hybrid_solar_helmet:26>, <ore:craftingSolarPanelHV>],
 [<ore:cableGt04VanadiumGallium>, <gregtech:gt.blockmachines:24>, <ore:cableGt04VanadiumGallium>]]);
 

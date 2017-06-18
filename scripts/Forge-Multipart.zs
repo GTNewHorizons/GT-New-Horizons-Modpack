@@ -27,14 +27,14 @@ recipes.remove(<ForgeMicroblock:stoneRod>);
 
 // --- Stone Saw
 recipes.addShaped(<ForgeMicroblock:sawStone>, [
-[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
-[<ore:stickWood>, <dreamcraft:item.SawBladeStone>, <ore:stickSteel>],
+[<ore:stickWood>, <ore:stickStone>, <ore:stickStone>],
+[<ore:stickWood>, <dreamcraft:item.SawBladeStone>, <ore:stickStone>],
 [null, null, null]]);
 
 // --- Iron Saw
 recipes.addShaped(<ForgeMicroblock:sawIron>, [
-[<ore:stickWood>, <ore:stickSteel>, <ore:stickSteel>],
-[<ore:stickWood>, <ore:toolHeadSawIron>, <ore:stickSteel>],
+[<ore:stickWood>, <ore:stickIron>, <ore:stickIron>],
+[<ore:stickWood>, <ore:toolHeadSawIron>, <ore:stickIron>],
 [null, null, null]]);
 
 // --- Diamond Saw

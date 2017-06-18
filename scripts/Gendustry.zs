@@ -329,7 +329,7 @@ recipes.addShaped(BeeReceptacle, [
 // --- Power Module
 recipes.addShaped(PowerModule, [
 [VanadiumGalliumCable, <gendustry:HoneyComb:702>, VanadiumGalliumCable],
-[IridiumAlloyCasing, NanoCircuits, IridiumAlloyCasing],
+[IridiumAlloyCasing, <ore:circuitMaster>, IridiumAlloyCasing],
 [OsmiumSmallGear, LuVMotor, OsmiumSmallGear]]);
 
 // --- Plains Emulation Upgrade
@@ -509,7 +509,9 @@ Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregte
 Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 1920);
 
 // --- Upgrade Frame
-Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <dreamcraft:item.HighEnergyFlowCircuit>, 400, 1920);
+Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32087>, 400, 1920);
+// -
+Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32092>, 400, 1920);
 
 // --- Item Ijector Cover
 Assembler.addRecipe(<gendustry:EjectCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:3>, 200, 1920);

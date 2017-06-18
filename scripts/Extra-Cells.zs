@@ -50,12 +50,15 @@ val UFluidStorageHousing = <extracells:storage.casing:1>;
 val CertusCircuit = <appliedenergistics2:item.ItemMultiMaterial:23>;
 val GoldCircuit = <appliedenergistics2:item.ItemMultiMaterial:22>;
 val DiamondCircuit = <appliedenergistics2:item.ItemMultiMaterial:24>;
-val NANDChip = <gregtech:gt.metaitem.01:32700>;
 val BasicCircuit = <ore:circuitBasic>;
 val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
-val DataCircuit = <gregtech:gt.metaitem.01:32704>;
-val DataControlCircuit = <gregtech:gt.metaitem.01:32705>;
+val DataCircuit = <ore:circuitData>;
+val EliteCircuit = <ore:circuitElite>;
+val MasterCircuit = <ore:circuitMaster>;
+val UltimateCircuit = <ore:circuitUltimate>;
+val SuperconductorCircuits = <ore:circuitSuperconductor>;
+val InfinityCircuits = <ore:circuitInfinite>;
 val EFlow = <gregtech:gt.metaitem.01:32706>;
 val DataOrb = <gregtech:gt.metaitem.01:32707>;
 
@@ -343,27 +346,27 @@ recipes.addShapeless(<extracells:storage.physical:3>, [<extracells:storage.compo
 
 // --- Storage Cell Component - 256K
 recipes.addShaped(StorageComponent256K, [
-[DataControlCircuit, StorageComponent64K, DataControlCircuit],
+[EliteCircuit, StorageComponent64K, EliteCircuit],
 [StorageComponent64K, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, StorageComponent64K],
-[DataControlCircuit, StorageComponent64K, DataControlCircuit]]);
+[EliteCircuit, StorageComponent64K, EliteCircuit]]);
 
 // --- Storage Cell Component - 1024K
 recipes.addShaped(StorageComponent1024K, [
-[<dreamcraft:item.NanoCircuit>, StorageComponent256K, <dreamcraft:item.NanoCircuit>],
+[MasterCircuit, StorageComponent256K, MasterCircuit],
 [StorageComponent256K, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, StorageComponent256K],
-[<dreamcraft:item.NanoCircuit>, StorageComponent256K, <dreamcraft:item.NanoCircuit>]]);
+[MasterCircuit, StorageComponent256K, MasterCircuit]]);
 
 // --- Storage Cell Component - 4096K
 recipes.addShaped(StorageComponent4096K, [
-[<dreamcraft:item.PikoCircuit>, StorageComponent1024K, <dreamcraft:item.PikoCircuit>],
+[SuperconductorCircuits, StorageComponent1024K, SuperconductorCircuits],
 [StorageComponent1024K, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, StorageComponent1024K],
-[<dreamcraft:item.PikoCircuit>, StorageComponent1024K, <dreamcraft:item.PikoCircuit>]]);
+[SuperconductorCircuits, StorageComponent1024K, SuperconductorCircuits]]);
 
 // --- Storage Cell Component - 16384K
 recipes.addShaped(StorageComponent16384K, [
-[<dreamcraft:item.QuantumCircuit>, StorageComponent4096K, <dreamcraft:item.QuantumCircuit>],
+[InfinityCircuits, StorageComponent4096K, InfinityCircuits],
 [StorageComponent4096K, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, StorageComponent4096K],
-[<dreamcraft:item.QuantumCircuit>, StorageComponent4096K, <dreamcraft:item.QuantumCircuit>]]);
+[InfinityCircuits, StorageComponent4096K, InfinityCircuits]]);
 
 // --- Universal Advanced Storage Housing
 recipes.addShaped(UAdvStorageHousing, [
@@ -469,45 +472,45 @@ recipes.addShapeless(<extracells:storage.fluid:6>, [<extracells:storage.componen
 
 // --- Fluid Storage Cell Component - 1K
 recipes.addShaped(FluidSComponent1K, [
-[NANDChip, <appliedenergistics2:item.ItemMultiMaterial:8>, NANDChip],
+[BasicCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>, BasicCircuit],
 [<appliedenergistics2:item.ItemMultiMaterial:8>, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <appliedenergistics2:item.ItemMultiMaterial:8>],
-[NANDChip, <appliedenergistics2:item.ItemMultiMaterial:8>, NANDChip]]);
+[BasicCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>, BasicCircuit]]);
 
 // --- Fluid Storage Cell Component - 4K
 recipes.addShaped(FluidSComponent4K, [
-[BasicCircuit, FluidSComponent1K, BasicCircuit],
+[GoodCircuit, FluidSComponent1K, GoodCircuit],
 [FluidSComponent1K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent1K],
-[BasicCircuit, FluidSComponent1K, BasicCircuit]]);
+[GoodCircuit, FluidSComponent1K, GoodCircuit]]);
 
 // --- Fluid Storage Cell Component - 16K
 recipes.addShaped(FluidSComponent16K, [
-[GoodCircuit, FluidSComponent4K, GoodCircuit],
+[AdvCircuit, FluidSComponent4K, AdvCircuit],
 [FluidSComponent4K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent4K],
-[GoodCircuit, FluidSComponent4K, GoodCircuit]]);
+[AdvCircuit, FluidSComponent4K, AdvCircuit]]);
 
 // --- Fluid Storage Cell Component - 64K
 recipes.addShaped(FluidSComponent64K, [
-[AdvCircuit, FluidSComponent16K, AdvCircuit],
+[DataCircuit, FluidSComponent16K, DataCircuit],
 [FluidSComponent16K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent16K],
-[AdvCircuit, FluidSComponent16K, AdvCircuit]]);
+[DataCircuit, FluidSComponent16K, DataCircuit]]);
 
 // --- Fluid Storage Cell Component - 256K
 recipes.addShaped(FluidSComponent256K, [
-[DataControlCircuit, FluidSComponent64K, DataControlCircuit],
+[EliteCircuit, FluidSComponent64K, EliteCircuit],
 [FluidSComponent64K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent64K],
-[DataControlCircuit, FluidSComponent64K, DataControlCircuit]]);
+[EliteCircuit, FluidSComponent64K, EliteCircuit]]);
 
 // --- Fluid Storage Cell Component - 1024K
 recipes.addShaped(FluidSComponent1024K, [
-[<dreamcraft:item.NanoCircuit>, FluidSComponent256K, <dreamcraft:item.NanoCircuit>],
+[MasterCircuit, FluidSComponent256K, MasterCircuit],
 [FluidSComponent256K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent256K],
-[<dreamcraft:item.NanoCircuit>, FluidSComponent256K, <dreamcraft:item.NanoCircuit>]]);
+[MasterCircuit, FluidSComponent256K, MasterCircuit]]);
 
 // --- Fluid Storage Cell Component - 4096K
 recipes.addShaped(FluidSComponent4096K, [
-[<dreamcraft:item.PikoCircuit>, FluidSComponent1024K, <dreamcraft:item.PikoCircuit>],
+[UltimateCircuit, FluidSComponent1024K, UltimateCircuit],
 [FluidSComponent1024K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent1024K],
-[<dreamcraft:item.PikoCircuit>, FluidSComponent1024K, <dreamcraft:item.PikoCircuit>]]);
+[UltimateCircuit, FluidSComponent1024K, UltimateCircuit]]);
 
 // --- Universal Fluid Storage Housing
 recipes.addShaped(UFluidStorageHousing, [

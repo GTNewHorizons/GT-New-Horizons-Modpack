@@ -2298,17 +2298,13 @@ recipes.addShapeless(<minecraft:melon> * 6, [<ore:craftingToolKnife>, <minecraft
 // --- Gunpowder
 recipes.addShapeless(<minecraft:gunpowder>, [<ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>, <ore:dustSmallGunpowder>]);
 
-// --- remove Charcoal in Furnace
-furnace.remove(<minecraft:coal:1>);
-
 // --- remove Sand in Furnance
 furnace.remove(<minecraft:glass>);
 
-// --- Add back glass Dust to Glass
-furnace.addRecipe(<minecraft:glass>, <gregtech:gt.metaitem.01:2890>);
-
 // --- Dough and Clay water Bucket
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
+// --- Dough and fresh Water
+recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<harvestcraft:freshwaterItem>, <gregtech:gt.metaitem.01:2881>, <harvestcraft:freshwaterItem>]);
 
 // --- Minecart with Chest
 recipes.addShaped(<minecraft:chest_minecart>, [
@@ -2704,6 +2700,18 @@ recipes.addShaped(<minecraft:mossy_cobblestone>, [
 [<BiomesOPlenty:moss>, MossyCobble, <BiomesOPlenty:moss>],
 [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
 
+// --- Book
+recipes.addShaped(Book, [
+[String, Paper, <minecraft:leather>],
+[String, Paper, <TConstruct:buckets:25>.transformReplace(<minecraft:bucket>)],
+[String, Paper, <minecraft:leather>]]);
+
+// --- Book Shelf
+recipes.addShaped(Bookshelf, [
+[<ore:plateWood>, <ore:plateWood>, <ore:plateWood>],
+[Book, Book, Book],
+[<ore:plateWood>, <ore:plateWood>, <ore:plateWood>]]);
+
 
 // --- Charcoal
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:log:*>, false, false, 20, <minecraft:coal:1>);
@@ -3065,6 +3073,9 @@ Assembler.addRecipe(<minecraft:ladder>, <minecraft:stick> * 2, <gregtech:gt.meta
 Assembler.addRecipe(<minecraft:ladder> * 2, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27032>, <liquid:glue> * 16, 100, 16);
 // -
 Assembler.addRecipe(<minecraft:ladder> * 4, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27305>, <liquid:glue> * 32, 100, 30);
+
+// --- Brick Blocks
+Assembler.addRecipe(<minecraft:brick_block> * 2, <minecraft:brick> * 8, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 500, 300, 16);
 
 
 
