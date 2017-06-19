@@ -70450,7 +70450,7 @@
     },
     {
       "questID": 768,
-      "name": "You smell like a Distillery",
+      "name": "You smell like a distillery!",
       "description": "This bad boy will tremendously boost the by-products of your cracked fuel by multiplying them by 5. This way you can make industrial TNT, polyethylene, polytetrafluoroethylene and other plastics more efficiently. \n\nYou will also need this for your automated setups.",
       "isMain": false,
       "isSilent": false,
@@ -70543,13 +70543,13 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 16,
               "OreDict": "",
-              "Damage": 30744
+              "Damage": 30741
             },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 30743
+              "Damage": 30740
             },
             {
               "id": "enhancedlootbags:lootbag",
