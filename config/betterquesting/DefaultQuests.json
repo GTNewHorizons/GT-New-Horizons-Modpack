@@ -81131,7 +81131,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -81361,7 +81361,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -81557,7 +81557,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -81640,8 +81640,8 @@
     },
     {
       "questID": 865,
-      "name": "Monster Trap",
-      "description": "If you lucky you spawn in a sand or rainforest biome and find some quicksand. Collecting a stack of quicksand .  Dig a  ditch and fill it with Quicksand to protect your \"dirt base\".",
+      "name": "Monster trap",
+      "description": "If you lucky you spawn in a sand or rainforest biome and find some quicksand. Collect a stack of the stuff, dig a small ditch and fill it with the quicksand to protect your \"dirt base\" home.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81706,7 +81706,7 @@
     },
     {
       "questID": 900,
-      "name": "Don\u0027t look in the eyes!",
+      "name": "Don\u0027t look it in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
       "isMain": false,
       "isSilent": false,
