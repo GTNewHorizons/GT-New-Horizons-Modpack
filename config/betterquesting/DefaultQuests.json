@@ -81705,6 +81705,132 @@
       ]
     },
     {
+      "questID": 866,
+      "name": "The continental railroad",
+      "description": "All the different mining veins that have been found seems to be really far apart. One way to speed up the travel times is to create a railroad from your base to the different mines. Sadly this requires a large amount of both iron and creosote. Let\u0027s not forget to place the last symbolic rivet on one of your new train lines.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:rail",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:rail",
+              "Count": 384,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:golden_rail",
+              "Count": 96,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:track",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32363,
+              "tag": {
+                "track:8": "railcraft:track.buffer.stop"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26334
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:rail",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:part.rail",
+              "Count": 60,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:part.railbed",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        667,
+        97
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look it in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
@@ -88099,6 +88225,11 @@
           "id": 677,
           "x": 180,
           "y": 0
+        },
+        {
+          "id": 866,
+          "x": 180,
+          "y": 96
         }
       ]
     },
