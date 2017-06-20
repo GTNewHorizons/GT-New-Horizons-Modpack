@@ -10,6 +10,12 @@
 
 // --- Rename ---
 
+// --- Minecraft ---
+
+// --- Ender Chest ---
+<minecraft:ender_chest>.displayName = "Personal Ender Chest";
+<minecraft:ender_chest>.addTooltip(format.darkAqua("Only For Personal Use"));
+
 
 // --- Steve's Carts 2 ---
 
