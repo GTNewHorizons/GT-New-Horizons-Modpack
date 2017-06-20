@@ -81831,36 +81831,6 @@
       ]
     },
     {
-      "questID": 867,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": []
-    },
-    {
       "questID": 900,
       "name": "Don\u0027t look it in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
