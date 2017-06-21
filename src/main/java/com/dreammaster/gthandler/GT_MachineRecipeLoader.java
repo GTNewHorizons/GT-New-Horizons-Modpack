@@ -223,6 +223,9 @@ public class GT_MachineRecipeLoader implements Runnable{
 
         GT_Values.RA.addAssemblerRecipe(CustomItemList.RawLapotronCrystal.get(1L),  GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Advanced, 2L), ItemList.IC2_LapotronCrystal.get(1L), 600, 1024);
 
+        GT_Values.RA.addAssemblerRecipe(ItemList.Firebrick.get(24, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Gypsum, 8L), new FluidStack(FluidRegistry.getFluid("concrete"), 1000),  ItemList.Casing_Firebricks.get(4L),200, 30);
+        GT_Values.RA.addAssemblerRecipe(ItemList.Firebrick.get(24, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Gypsum, 8L), Materials.Concrete.getMolten(1000),  ItemList.Casing_Firebricks.get(4L),200, 30);
+
         GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(30L), Materials.EnergeticAlloy.getMolten(576), CustomItemList.RawLapotronCrystal.get(1L), 10000, 2400, 480);
         GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(30L), Materials.VibrantAlloy.getMolten(288), CustomItemList.RawLapotronCrystal.get(1L), 10000, 1200, 480);
 
@@ -699,6 +702,9 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Gear.get(0L),  ItemList.Shape_Extruder_Gear.get(1L),  200, 256);
         GT_Values.RA.addFormingPressRecipe(ItemList.Shape_Empty.get(1L),ItemList.Shape_Extruder_Bottle.get(0L),  ItemList.Shape_Extruder_Bottle.get(1L),  200, 256);
 
+        GT_Values.RA.addFermentingRecipe(FluidRegistry.getFluidStack("honey", 1000), FluidRegistry.getFluidStack("for.honey", 1000), 20, false);
+        GT_Values.RA.addFermentingRecipe(FluidRegistry.getFluidStack("for.honey", 1000), FluidRegistry.getFluidStack("honey", 1000), 20, false);
+
         GT_Values.RA.addImplosionRecipe(CustomItemList.NetherStarFragment.get(2L), 1, new ItemStack(Items.nether_star, 1, 0), null);
         GT_Values.RA.addImplosionRecipe(GT_OreDictUnificator.get(OrePrefixes.compressed, Materials.Aluminium, 2L), 1, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedDualAluminium", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 1L));
         GT_Values.RA.addImplosionRecipe(GT_OreDictUnificator.get(OrePrefixes.compressed, Materials.Bronze, 2L), 1, GT_ModHandler.getModItem("GalaxySpace", "item.CompressedDualBronze", 1L, 0), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 1L));
@@ -785,6 +791,9 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Gallium, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Arsenic, 1L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.GalliumArsenide, 2L), 300, 30);
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Gallium, 1L), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Arsenic, 1L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.GalliumArsenide, 2L), 300, 30);
         GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Gallium, 1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Arsenic, 1L), GT_Values.NI, GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.GalliumArsenide, 2L), 300, 30);
+
+        GT_Values.RA.addMixerRecipe(GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, FluidRegistry.getFluidStack("concrete", 1000), Materials.Concrete.getMolten(1000L), GT_Values.NI, 20, 16);
+        GT_Values.RA.addMixerRecipe(GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, Materials.Concrete.getMolten(1000L), FluidRegistry.getFluidStack("concrete", 1000), GT_Values.NI, 20, 16);
 
         GT_Values.RA.addVacuumFreezerRecipe(CustomItemList.GlowingMarshmallow.get(1L), CustomItemList.Marshmallow.get(1L), 48000);
         GT_Values.RA.addVacuumFreezerRecipe(GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Neutronium, 1L), 6250);
