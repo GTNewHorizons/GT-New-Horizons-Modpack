@@ -72,13 +72,41 @@ mods.avaritia.ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
 // --- Blood Orb of Armok
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Orb_Armok>);
 
+// --- Infinity Sword
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Sword>);
+
+// --- World Breaker
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pickaxe>);
+
+// --- Planet Eater
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shovel>);
+
+// --- Crystal Studded Cosmic Neutronium Wand
+mods.avaritia.ExtremeCrafting.remove(<Thaumcraft:WandCasting:9000>.withTag({cap: "matrix", rod: "infinity"}));
+
+// --- Nature's Ruin
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Axe>);
+
+// --- Longbow of the Heavens
+mods.thaumcraft.Infusion.removeRecipe(<Avaritia:Infinity_Bow>);
+
+// --- Akashic Records
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Akashic_Record>);
+
+// --- Infinity Helmet
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
+
+// --- Infinity Breastplate
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
+
+// --- Infinity Pants
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
+
+// --- Infinity Boots
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
 
 
 // --- Add Recipes ---
-
-
-
 
 // --- Dire Crafting Table
 recipes.addShaped(<Avaritia:Dire_Crafting>, [
@@ -197,24 +225,97 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Orb_Armok>, [
 [null, null, <ore:ingotInfinity>, <ForbiddenMagic:EldritchOrb>, <ore:ingotInfinity>, <ForbiddenMagic:EldritchOrb>, <ore:ingotInfinity>, null, null],
 [null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <BloodArsenal:blood_infused_diamond_block>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null],
 [null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ForbiddenMagic:EldritchOrb>, <ore:ingotInfinity>, <ForbiddenMagic:EldritchOrb>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null],
-[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <TaintedMagic:ItemMaterial:5>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <TaintedMagic:ItemMaterial:5>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>],
+[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <TaintedMagic:ItemFocusTime>, <ore:ingotInfinity>, <Avaritia:Resource:5>, <ore:ingotInfinity>, <TaintedMagic:ItemFocusEldritch>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>],
 [null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null],
 [null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null, null],
-[null, null, null, null, <Avaritia:Resource:5>, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Infinity Sword
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Sword>, [
 [null, null, null, null, null, null, null, <TConstruct:heavyPlate:501>, <ore:toolHeadSwordNeutronium>],
 [null, null, null, null, null, null, <TConstruct:heavyPlate:501>, <TaintedMagic:ItemPrimordialEdge>, <TConstruct:heavyPlate:501>],
-[null, null, null, null, null, <TConstruct:heavyPlate:501>, <DraconicEvolution:draconicSword>.withTag({Energy: 10000000}), <TConstruct:heavyPlate:501>, null],
+[null, null, null, null, null, <TConstruct:heavyPlate:501>, <IC2:itemNanoSaber:*>, <TConstruct:heavyPlate:501>, null],
 [null, null, null, null, <TConstruct:heavyPlate:501>, <ThaumicTinkerer:ichorSwordGem:*>, <TConstruct:heavyPlate:501>, null, null],
 [null, <TaintedMagic:ItemMaterial:5>, null, <TConstruct:heavyPlate:501>, <Avaritia:Skull_Sword>, <TConstruct:heavyPlate:501>, null, null, null],
-[null, null, <TaintedMagic:ItemMaterial:5>, <IC2:itemNanoSaber:1>.withTag({charge: 160000.0}), <TConstruct:heavyPlate:501>, null, null, null, null],
-[null, null, <ore:ingotCosmicNeutronium>, <TaintedMagic:ItemMaterial:5>, null, null, null, null, null],
-[null, <ore:ingotCosmicNeutronium>, null, null, <TaintedMagic:ItemMaterial:5>, null, null, null, null],
+[null, null, <TaintedMagic:ItemMaterial:5>, <DraconicEvolution:draconicDistructionStaff>, <TConstruct:heavyPlate:501>, null, null, null, null],
+[null, null, <ore:blockCosmicNeutronium>, <TaintedMagic:ItemMaterial:5>, null, null, null, null, null],
+[null, <ore:blockCosmicNeutronium>, null, null, <TaintedMagic:ItemMaterial:5>, null, null, null, null],
 [<Avaritia:Resource:5>, null, null, null, null, null, null, null, null]]);
 
+// --- World Breaker
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35 as short}], hammer: 0 as byte}), [
+[null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, null],
+[<TConstruct:heavyPlate:501>, <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <BloodArsenal:blood_infused_pickaxe_diamond:*>, <DraconicEvolution:draconicDistructionStaff>, <GraviSuite:advDDrill:*>, <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TConstruct:heavyPlate:501>],
+[<TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, null, <TaintedMagic:ItemFocusEldritch>, <ThaumicTinkerer:ichorPickGem:*>, <TaintedMagic:ItemFocusTime>, null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>],
+[null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
+[null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
+[null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
+[null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
+[null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
+[null, null, null, <Avaritia:big_pearl>, <Avaritia:Resource:5>, <Avaritia:big_pearl>, null, null, null]]);
+
+// --- Planet Eater
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Shovel>.withTag({destroyer: 0 as byte}), [
+[null, null, null, null, null, null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>],
+[null, null, null, null, null, <TConstruct:heavyPlate:501>, <GraviSuite:advDDrill:*>, <DraconicEvolution:draconicDistructionStaff>, <TConstruct:heavyPlate:501>],
+[null, null, null, null, null, null, <ThaumicTinkerer:ichorShovelGem:*>, <BloodArsenal:blood_infused_shovel_diamond>, <TConstruct:heavyPlate:501>],
+[null, null, null, null, null, <ore:blockCosmicNeutronium>, null, <TConstruct:heavyPlate:501>, null],
+[null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
+[null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null, null],
+[null, <TaintedMagic:ItemFocusEldritch>, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
+[<Avaritia:big_pearl>, <ore:blockCosmicNeutronium>, <TaintedMagic:ItemFocusTime>, null, null, null, null, null, null],
+[<Avaritia:Resource:5>, <Avaritia:big_pearl>, null, null, null, null, null, null, null]]);
+
+// --- Crystal Studded Cosmic Neutronium Wand
+mods.avaritia.ExtremeCrafting.addShaped(<Thaumcraft:WandCasting:9000>.withTag({cap: "matrix", rod: "infinity"}), [
+[null, null, <TConstruct:heavyPlate:501>, null, null, null, null, null, null],
+[null, <TConstruct:heavyPlate:501>, <ThaumicTinkerer:blockTalisman>, <TConstruct:heavyPlate:501>, null, null, null, null, null],
+[<TConstruct:heavyPlate:501>, <TaintedMagic:ItemFocusEldritch>, <Avaritia:Resource:5>, <TConstruct:heavyPlate:500>, <AWWayofTime:dawnScribeTool>, null, null, null, null],
+[null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, <Thaumcraft:WandCasting:150>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1}), <TConstruct:heavyPlate:500>, <AWWayofTime:waterScribeTool>, null, null, null],
+[null, null, <AWWayofTime:duskScribeTool>, <TConstruct:heavyPlate:500>, <Thaumcraft:WandCasting:150>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1}), <TConstruct:heavyPlate:500>, <AWWayofTime:airScribeTool>, null, null],
+[null, null, null, <AWWayofTime:fireScribeTool>, <TConstruct:heavyPlate:500>, <Thaumcraft:WandCasting:150>.withTag({cap: "ICHOR", rod: "ICHORCLOTH", sceptre: 1}), <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, null],
+[null, null, null, null, <AWWayofTime:earthScribeTool>, <TConstruct:heavyPlate:500>, <Avaritia:Resource:5>, <TaintedMagic:ItemFocusTime>, <TConstruct:heavyPlate:501>],
+[null, null, null, null, null, <TConstruct:heavyPlate:501>, <ThaumicTinkerer:blockTalisman>, <TConstruct:heavyPlate:501>, null],
+[null, null, null, null, null, null, <TConstruct:heavyPlate:501>, null, null]]);
+
+// --- Nature's Ruin
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Axe>, [
+[null, <TConstruct:heavyPlate:501>, null, null, null, null, null, null, null],
+[<TConstruct:heavyPlate:501>, <GraviSuite:advChainsaw:*>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, null, null, null, null],
+[<TConstruct:heavyPlate:501>, <ThaumicTinkerer:ichorAxeGem:*>, <DraconicEvolution:draconicAxe>, <TConstruct:heavyPlate:501>, null, null, null, null, null],
+[null, <TConstruct:heavyPlate:501>, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
+[null, null, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
+[null, null, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
+[null, null, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
+[null, null, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
+[null, <TaintedMagic:ItemFocusEldritch>, <Avaritia:Resource:5>, <TaintedMagic:ItemFocusTime>, null, null, null, null, null]]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Helm>, [
+[null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, null, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <AdvancedSolarPanel:ultimate_solar_helmet:*>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, null, <Avaritia:Resource:5>, <ThaumicTinkerer:ichorclothHelmGem:*>, <Avaritia:Resource:5>, null, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <BloodArsenal:life_imbued_helmet>.withTag({LPStored: 100000}), <DraconicEvolution:draconicHelm>, <AWWayofTime:sanguineHelmet>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <GalaxySpace:item.spacesuit_helmetglasses>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TaintedMagic:ItemFocusTime>, <BloodArsenal:sigil_of_divinity>, <EMT:ShieldFocus>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+
+/*
+// --- form
+mods.avaritia.ExtremeCrafting.addShaped(, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+*/
 
 // --- Alloy Smelter Recipes ---
 
