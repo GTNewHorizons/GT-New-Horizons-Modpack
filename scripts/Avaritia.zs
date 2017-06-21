@@ -69,7 +69,10 @@ mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutron_Collector>);
 // --- Eternal Singularity
 mods.avaritia.ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
 
+// --- Blood Orb of Armok
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Orb_Armok>);
 
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Sword>);
 
 
 // --- Add Recipes ---
@@ -187,6 +190,30 @@ mods.avaritia.ExtremeCrafting.addShaped(<eternalsingularity:eternal_singularity>
 [null, <ore:blockBlackPlutonium>, null, null, <eternalsingularity:combined_singularity:6>, null, null, <ore:blockBlackPlutonium>, null],
 [null, null, <ore:blockBlackPlutonium>, null, null, <ore:blockBlackPlutonium>, <ore:blockBlackPlutonium>, null, null],
 [null, null, null, <Avaritia:Resource_Block>, null, null, null, null, null]]);
+
+// --- Blood Orb of Armok
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Orb_Armok>, [
+[null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null, null],
+[null, null, <ore:ingotInfinity>, <ForbiddenMagic:EldritchOrb>, <ore:ingotInfinity>, <ForbiddenMagic:EldritchOrb>, <ore:ingotInfinity>, null, null],
+[null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <BloodArsenal:blood_infused_diamond_block>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null],
+[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ForbiddenMagic:EldritchOrb>, <ore:ingotInfinity>, <ForbiddenMagic:EldritchOrb>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null],
+[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <TaintedMagic:ItemMaterial:5>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <TaintedMagic:ItemMaterial:5>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>],
+[null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null],
+[null, null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null, null],
+[null, null, null, null, <Avaritia:Resource:5>, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Infinity Sword
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Sword>, [
+[null, null, null, null, null, null, null, <TConstruct:heavyPlate:501>, <ore:toolHeadSwordNeutronium>],
+[null, null, null, null, null, null, <TConstruct:heavyPlate:501>, <TaintedMagic:ItemPrimordialEdge>, <TConstruct:heavyPlate:501>],
+[null, null, null, null, null, <TConstruct:heavyPlate:501>, <DraconicEvolution:draconicSword>.withTag({Energy: 10000000}), <TConstruct:heavyPlate:501>, null],
+[null, null, null, null, <TConstruct:heavyPlate:501>, <ThaumicTinkerer:ichorSwordGem:*>, <TConstruct:heavyPlate:501>, null, null],
+[null, <TaintedMagic:ItemMaterial:5>, null, <TConstruct:heavyPlate:501>, <Avaritia:Skull_Sword>, <TConstruct:heavyPlate:501>, null, null, null],
+[null, null, <TaintedMagic:ItemMaterial:5>, <IC2:itemNanoSaber:1>.withTag({charge: 160000.0}), <TConstruct:heavyPlate:501>, null, null, null, null],
+[null, null, <ore:ingotCosmicNeutronium>, <TaintedMagic:ItemMaterial:5>, null, null, null, null, null],
+[null, <ore:ingotCosmicNeutronium>, null, null, <TaintedMagic:ItemMaterial:5>, null, null, null, null],
+[<Avaritia:Resource:5>, null, null, null, null, null, null, null, null]]);
 
 
 // --- Alloy Smelter Recipes ---
