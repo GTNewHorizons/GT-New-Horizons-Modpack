@@ -795,6 +795,9 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addMixerRecipe(GT_Utility.getIntegratedCircuit(1), GT_Values.NI, GT_Values.NI, GT_Values.NI, FluidRegistry.getFluidStack("concrete", 1000), Materials.Concrete.getMolten(1000L), GT_Values.NI, 20, 16);
         GT_Values.RA.addMixerRecipe(GT_Utility.getIntegratedCircuit(1), GT_Values.NI, GT_Values.NI, GT_Values.NI, Materials.Concrete.getMolten(1000L), FluidRegistry.getFluidStack("concrete", 1000), GT_Values.NI, 20, 16);
 
+        GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Calcite, 2L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Stone, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Clay, 1L), CustomItemList.SandDust.get(1L, new Object[0]), Materials.Water.getFluid(1000L), Materials.Concrete.getMolten(1000L), GT_Values.NI, 50, 16);
+        GT_Values.RA.addMixerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Calcite, 2L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Stone, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Clay, 1L), CustomItemList.SandDust.get(1L, new Object[0]), Materials.Water.getFluid(1000L), FluidRegistry.getFluidStack("concrete", 1000), GT_Values.NI, 50, 16);
+
         GT_Values.RA.addVacuumFreezerRecipe(CustomItemList.GlowingMarshmallow.get(1L), CustomItemList.Marshmallow.get(1L), 48000);
         GT_Values.RA.addVacuumFreezerRecipe(GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Neutronium, 1L), 6250);
         
