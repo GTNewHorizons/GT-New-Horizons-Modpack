@@ -235,7 +235,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Orb_Armok>, [
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Sword>, [
 [null, null, null, null, null, null, null, <TConstruct:heavyPlate:501>, <ore:toolHeadSwordNeutronium>],
 [null, null, null, null, null, null, <TConstruct:heavyPlate:501>, <TaintedMagic:ItemPrimordialEdge>, <TConstruct:heavyPlate:501>],
-[null, null, null, null, null, <TConstruct:heavyPlate:501>, <IC2:itemNanoSaber:*>, <TConstruct:heavyPlate:501>, null],
+[null, null, null, null, null, <TConstruct:heavyPlate:501>, <IC2:itemNanoSaber:1>, <TConstruct:heavyPlate:501>, null],
 [null, null, null, null, <TConstruct:heavyPlate:501>, <ThaumicTinkerer:ichorSwordGem:*>, <TConstruct:heavyPlate:501>, null, null],
 [null, <TaintedMagic:ItemMaterial:5>, null, <TConstruct:heavyPlate:501>, <Avaritia:Skull_Sword>, <TConstruct:heavyPlate:501>, null, null, null],
 [null, null, <TaintedMagic:ItemMaterial:5>, <DraconicEvolution:draconicDistructionStaff>, <TConstruct:heavyPlate:501>, null, null, null, null],
@@ -246,7 +246,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Sword>, [
 // --- World Breaker
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35 as short}], hammer: 0 as byte}), [
 [null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, null],
-[<TConstruct:heavyPlate:501>, <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <BloodArsenal:blood_infused_pickaxe_diamond:*>, <DraconicEvolution:draconicDistructionStaff>, <GraviSuite:advDDrill:*>, <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TConstruct:heavyPlate:501>],
+[<TConstruct:heavyPlate:501>, <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <BloodArsenal:blood_infused_pickaxe_diamond:*>, <DraconicEvolution:draconicDistructionStaff>, <GraviSuite:advDDrill:1>, <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TGregworks:tGregToolPartLargePlate:1511>.withTag({material: "Neutronium"}), <TConstruct:heavyPlate:501>],
 [<TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, null, <TaintedMagic:ItemFocusEldritch>, <ThaumicTinkerer:ichorPickGem:*>, <TaintedMagic:ItemFocusTime>, null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>],
 [null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
 [null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
@@ -258,7 +258,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Pickaxe>.withTag({enc
 // --- Planet Eater
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Shovel>.withTag({destroyer: 0 as byte}), [
 [null, null, null, null, null, null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>],
-[null, null, null, null, null, <TConstruct:heavyPlate:501>, <GraviSuite:advDDrill:*>, <DraconicEvolution:draconicDistructionStaff>, <TConstruct:heavyPlate:501>],
+[null, null, null, null, null, <TConstruct:heavyPlate:501>, <GraviSuite:advDDrill:1>, <DraconicEvolution:draconicDistructionStaff>, <TConstruct:heavyPlate:501>],
 [null, null, null, null, null, null, <ThaumicTinkerer:ichorShovelGem:*>, <BloodArsenal:blood_infused_shovel_diamond>, <TConstruct:heavyPlate:501>],
 [null, null, null, null, null, <ore:blockCosmicNeutronium>, null, <TConstruct:heavyPlate:501>, null],
 [null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
@@ -282,7 +282,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Thaumcraft:WandCasting:9000>.withTag({c
 // --- Nature's Ruin
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Axe>, [
 [null, <TConstruct:heavyPlate:501>, null, null, null, null, null, null, null],
-[<TConstruct:heavyPlate:501>, <GraviSuite:advChainsaw:*>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, null, null, null, null],
+[<TConstruct:heavyPlate:501>, <GraviSuite:advChainsaw:1>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, null, null, null, null],
 [<TConstruct:heavyPlate:501>, <ThaumicTinkerer:ichorAxeGem:*>, <DraconicEvolution:draconicAxe>, <TConstruct:heavyPlate:501>, null, null, null, null, null],
 [null, <TConstruct:heavyPlate:501>, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
 [null, null, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
