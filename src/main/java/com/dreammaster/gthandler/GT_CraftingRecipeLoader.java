@@ -335,7 +335,7 @@ public class GT_CraftingRecipeLoader extends gregtech.loaders.postload.GT_Crafti
         GT_ModHandler.addCraftingRecipe(ItemList.ModularElectric2Boots.getWildcard(1), bits, new Object[]{"ADA", "BCB", "ADA", 'A', OrePrefixes.stick.get(Materials.TungstenSteel), 'B', OrePrefixes.plateAlloy.get(Materials.Carbon), 'C', OrePrefixes.battery.get(Materials.Master), 'D', OrePrefixes.ring.get(Materials.Osmium)});
 
         GT_ModHandler.addCraftingRecipe(ItemList.Casing_Firebricks.get(1L, new Object[0]), bits, new Object[] {"BCB", "BWB", "BCB", 'B', ItemList.Firebrick.get(1, new Object[0]), 'C', OrePrefixes.dust.get(Materials.Gypsum), 'W',  GT_ModHandler.getModItem("dreamcraft", "dreamcraft_Concrete_bucket", 1L)});
-        GT_ModHandler.addCraftingRecipe(ItemList.Casing_Firebricks.get(1L, new Object[0]), bits, new Object[] {"BCB", "BWB", "BCB", 'B', ItemList.Firebrick.get(1, new Object[0]), 'C', OrePrefixes.dust.get(Materials.Gypsum), 'W',  Materials.Concrete.getCells(1)});
+        GT_ModHandler.addCraftingRecipe(ItemList.Casing_Firebricks.get(1L, new Object[0]), bits, new Object[] {"BCB", "BXB", "BCB", 'B', ItemList.Firebrick.get(1, new Object[0]), 'C', OrePrefixes.dust.get(Materials.Gypsum), 'X',  OrePrefixes.cell.get(Materials.Concrete)});
 
         GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("dreamcraft", "dreamcraft_Concrete_bucket", 1, 0), bits, new Object[] {"CBS", "CWA", " Y ", 'C', OrePrefixes.dust.get(Materials.Calcite), 'S', OrePrefixes.dust.get(Materials.Stone), 'Y',  OrePrefixes.dust.get(Materials.Clay), 'A', CustomItemList.SandDust, 'W',  new ItemStack(Items.water_bucket, 1, 0), 'B',  new ItemStack(Items.bucket, 1, 0)});
 
