@@ -11,6 +11,7 @@ import net.minecraftforge.fluids.Fluid;
 
 public enum FluidList {
 	SodiumPotassium(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("SodiumPotassium"), Material.water), ModTabList.ModFluidsTab),
+	Concrete(new ModSimpleBaseFluid(ModFluidManager.GetNewFluid("Concrete"), Material.water), ModTabList.ModFluidsTab),
 	EnrichedBacterialSludge(ExtendedFluidCollection.getEnrichedBacterialSludge(), ModTabList.ModFluidsTab),
 	FermentedBacterialSludge(ExtendedFluidCollection.getFermentedBacterialSludge(), ModTabList.ModFluidsTab),
 	NitricAcid(ExtendedFluidCollection.getNitricAcid(),ModTabList.ModFluidsTab),
