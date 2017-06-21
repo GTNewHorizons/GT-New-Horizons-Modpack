@@ -966,19 +966,6 @@ Extruder.addRecipe(<gregtech:gt.metaitem.01:17804>, <TConstruct:materials:18>, <
 
 
 
-// --- Fermenter Recipes ---
-
-
-
-
-// --- Honey Forestry and BOP
-Fermenter.addRecipe(<liquid:honey> * 1000, <liquid:for.honey> * 1000, 20, false);
-// -
-Fermenter.addRecipe(<liquid:for.honey> * 1000, <liquid:honey> * 1000, 20, false);
-
-
-
-
 // --- Fluid Canner Recipes
 
 
