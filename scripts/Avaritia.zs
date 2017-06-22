@@ -305,7 +305,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Bow>, [
 
 // --- Akashic Records
 //ResearchString, MainInputStack, InputArray, AspectString, OutputStack, InstabilityAmount
-mods.thaumcraft.Infusion.addRecipe("AKASHIC", <thaumicbases:knoseFragment:6>, [<TaintedMagic:ItemFocusTime>, <thaumicbases:knoseFragment:6>, <TConstruct:heavyPlate:501>, <thaumicbases:knoseFragment:6>, <TConstruct:heavyPlate:501>, <Avaritia:big_pearl>, <gadomancy:BlockKnowledgeBook>, <Thaumcraft:ItemThaumonomicon>, <TaintedMagic:ItemFocusMeteorology>, <Thaumcraft:ItemEldritchObject:1>, <gadomancy:BlockKnowledgeBook>, <Avaritia:big_pearl>, <TConstruct:heavyPlate:501>, <thaumicbases:knoseFragment:6>, <TConstruct:heavyPlate:501>, <thaumicbases:knoseFragment:6>], "praecantatio 512, cognitio 128, sensus 96, luxuria 96, tempus 64, terminus 128", <Avaritia:Akashic_Record>, 24);
+mods.thaumcraft.Infusion.addRecipe("AKASHIC", <TConstruct:heavyPlate:501>, [<TaintedMagic:ItemFocusTime>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <Avaritia:big_pearl>, <gadomancy:BlockKnowledgeBook>, <Thaumcraft:ItemThaumonomicon>, <TaintedMagic:ItemFocusMeteorology>, <Thaumcraft:ItemEldritchObject:1>, <gadomancy:BlockKnowledgeBook>, <Avaritia:big_pearl>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>, <thaumicbases:knoseFragment:6>], "praecantatio 512, cognitio 128, sensus 96, luxuria 96, tempus 64, terminus 128", <Avaritia:Akashic_Record>, 24);
 mods.thaumcraft.Research.refreshResearchRecipe("AKASHIC");
 
 // --- Infinity Helmet
