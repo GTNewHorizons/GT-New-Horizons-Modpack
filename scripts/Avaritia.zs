@@ -88,22 +88,22 @@ mods.avaritia.ExtremeCrafting.remove(<Thaumcraft:WandCasting:9000>.withTag({cap:
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Axe>);
 
 // --- Longbow of the Heavens
-mods.thaumcraft.Infusion.removeRecipe(<Avaritia:Infinity_Bow>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Bow>);
 
 // --- Akashic Records
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Akashic_Record>);
+mods.thaumcraft.Infusion.removeRecipe(<Avaritia:Akashic_Record>);
 
 // --- Infinity Helmet
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
 
 // --- Infinity Breastplate
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Chest>);
 
 // --- Infinity Pants
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pants>);
 
 // --- Infinity Boots
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
 
 
 // --- Add Recipes ---
@@ -291,6 +291,24 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Axe>, [
 [null, null, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
 [null, <TaintedMagic:ItemFocusEldritch>, <Avaritia:Resource:5>, <TaintedMagic:ItemFocusTime>, null, null, null, null, null]]);
 
+// --- Longbow of the Heavens
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Bow>, [
+[null, null, null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TaintedMagic:ItemFocusMeteorology>, null, null, null],
+[null, null, <TConstruct:heavyPlate:501>, null, <ThaumicTinkerer:kamiResource:1>, null, null, null, null],
+[null, <TConstruct:heavyPlate:501>, null, null, <ThaumicTinkerer:kamiResource:1>, null, null, null, null],
+[<TConstruct:heavyPlate:501>, null, null, null, <ThaumicTinkerer:kamiResource:1>, null, null, null, null],
+[<Avaritia:Resource:5>, null, null, null, <DraconicEvolution:draconicBow>, <TaintedMagic:ItemFocusTime>, null, null, null],
+[<TConstruct:heavyPlate:501>, null, null, null, <ThaumicTinkerer:kamiResource:1>, null, null, null, null],
+[null, <TConstruct:heavyPlate:501>, null, null, <ThaumicTinkerer:kamiResource:1>, null, null, null, null],
+[null, null, <TConstruct:heavyPlate:501>, null, <ThaumicTinkerer:kamiResource:1>, null, null, null, null],
+[null, null, null, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TaintedMagic:ItemFocusMeteorology>, null, null, null]]);
+
+// --- Akashic Records
+//ResearchString, MainInputStack, InputArray, AspectString, OutputStack, InstabilityAmount
+mods.thaumcraft.Infusion.addRecipe("AKASHIC", <thaumicbases:knoseFragment:6>, [<TaintedMagic:ItemFocusTime>, <thaumicbases:knoseFragment:6>, <TConstruct:heavyPlate:501>, <thaumicbases:knoseFragment:6>, <TConstruct:heavyPlate:501>, <Avaritia:big_pearl>, <gadomancy:BlockKnowledgeBook>, <Thaumcraft:ItemThaumonomicon>, <TaintedMagic:ItemFocusMeteorology>, <Thaumcraft:ItemEldritchObject:1>, <gadomancy:BlockKnowledgeBook>, <Avaritia:big_pearl>, <TConstruct:heavyPlate:501>, <thaumicbases:knoseFragment:6>, <TConstruct:heavyPlate:501>, <thaumicbases:knoseFragment:6>], "praecantatio 512, cognitio 128, sensus 96, luxuria 96, tempus 64, terminus 128", <Avaritia:Akashic_Record>, 24);
+mods.thaumcraft.Research.refreshResearchRecipe("AKASHIC");
+
+// --- Infinity Helmet
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Helm>, [
 [null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, null, null],
 [null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <AdvancedSolarPanel:ultimate_solar_helmet:*>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
@@ -302,20 +320,42 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Helm>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
+// --- Infinity Breastplate
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Chest>, [
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, null, null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, null],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null, null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <GraviSuite:graviChestPlate:1>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <BloodArsenal:life_imbued_chestplate>.withTag({LPStored: 100000}), <ThaumicTinkerer:ichorclothChestGem:*>, <AWWayofTime:sanguineRobe>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <GalaxySpace:item.spacesuit_jetplate>, <Avaritia:Resource:5>, <DraconicEvolution:draconicChest>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <EMT:ShieldFocus>, <BloodArsenal:sigil_of_divinity>, <TaintedMagic:ItemFocusTime>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, null, null]]);
 
-/*
-// --- form
-mods.avaritia.ExtremeCrafting.addShaped(, [
+// --- Infinity Pants
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Pants>, [
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TaintedMagic:ItemFocusTime>, <GalaxySpace:item.spacesuit_leg>, <BloodArsenal:life_imbued_leggings>.withTag({LPStored: 100000}), <BloodArsenal:sigil_of_divinity>, <ThaumicTinkerer:ichorclothLegsGem:*>, <IC2:itemArmorQuantumLegs:1>, <EMT:ShieldFocus>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <DraconicEvolution:draconicLeggs>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <Avaritia:Resource:5>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null, null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <Avaritia:big_pearl>, <TConstruct:heavyPlate:500>, null, null, null, <TConstruct:heavyPlate:500>, <Avaritia:big_pearl>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null, null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null, null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, null, null, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>]]);
+
+// --- Infinity Boots
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Shoes>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
-*/
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null],
+[<TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <ThaumicTinkerer:ichorclothBootsGem:*>, <DraconicEvolution:draconicBoots>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <IC2:itemArmorQuantumBoots:1>, <BloodArsenal:life_imbued_boots>.withTag({LPStored: 100000}), <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TaintedMagic:ItemFocusTime>, <AWWayofTime:sanguineBoots>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <GalaxySpace:item.spacesuit_gravityboots>, <EMT:ShieldFocus>, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <BloodArsenal:sigil_of_divinity>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>]]);
+
 
 // --- Alloy Smelter Recipes ---
 
