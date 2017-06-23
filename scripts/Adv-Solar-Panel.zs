@@ -126,7 +126,7 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:8>, [
 // --- Quantum Core
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [
 [<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>],
-[<ore:plateNetherStar>, <dreamcraft:item.QuantumCircuit>, <ore:plateNetherStar>],
+[<ore:plateNetherStar>, <dreamcraft:item.NanoCircuit>, <ore:plateNetherStar>],
 [<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
 
 

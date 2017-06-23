@@ -7,6 +7,7 @@
 
 
 import mods.gregtech.AlloySmelter;
+import mods.ic2.Compressor;
 
 
 
@@ -425,6 +426,16 @@ mods.thaumcraft.Warp.addToResearch("PLACEMENT_MIRROR", 8);
 
 // --- Ichor Ingots
 furnace.addRecipe(<ThaumicTinkerer:kamiResource:2> * 2, <gregtech:gt.blockmetal8:13>);
+
+
+
+// --- Compressor recipes ---
+
+
+
+
+// --- Ichor Blocks
+Compressor.addRecipe(<gregtech:gt.blockmetal8:13>, <ThaumicTinkerer:kamiResource:2> * 2);
 
 
 
