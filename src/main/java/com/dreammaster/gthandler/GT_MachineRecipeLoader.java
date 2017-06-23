@@ -928,14 +928,14 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addChemicalRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Epoxid, 1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Gold, 8), Materials.SulfuricAcid.getFluid(500), null, ItemList.Circuit_Board_Epoxy.get(1), 600, 30);
         GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Epoxy.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Electrum, 8), new FluidStack(ItemList.sIron3Chloride, 500), null, ItemList.Circuit_Board_Epoxy_Advanced.get(1), 1200, 30);
         GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Epoxy.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Electrum, 8), Materials.SodiumPersulfate.getFluid(1000), null, ItemList.Circuit_Board_Epoxy_Advanced.get(1), 1200, 30);
-        GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Glass, 32), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Carbon, 16), Materials.Electrum.getMolten(288), null, ItemList.Circuit_Board_Fiberglass.get(2), null, 1200, 480, 2600);
-        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Fiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.AnnealedCopper, 16), new FluidStack(ItemList.sIron3Chloride, 1000), null, ItemList.Circuit_Board_Fiberglass_Advanced.get(1), GT_Values.NI, 1800, 30, true);
-        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Fiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.AnnealedCopper, 16), Materials.SodiumPersulfate.getFluid(2000),null, ItemList.Circuit_Board_Fiberglass_Advanced.get(1), GT_Values.NI, 1800, 30, true);
-        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Fiberglass.get(2), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Platinum, 32), Materials.SulfuricAcid.getFluid(500), null, ItemList.Circuit_Board_Multifiberglass.get(1), GT_Values.NI, 600, 480, true);
-        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Multifiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Platinum, 32), new FluidStack(ItemList.sIron3Chloride, 2000), null, ItemList.Circuit_Board_Multifiberglass_Elite.get(1), GT_Values.NI, 2400, 120, true);
-        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Wetware.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.NiobiumTitanium, 64), new FluidStack(ItemList.sIron3Chloride, 5000), null, ItemList.Circuit_Board_Wetware_Extreme.get(1), GT_Values.NI,3000, 480, true);
-        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Multifiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Platinum, 32), Materials.SodiumPersulfate.getFluid(4000), null, ItemList.Circuit_Board_Multifiberglass_Elite.get(1), GT_Values.NI, 2400, 120, true);
-        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Wetware.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.NiobiumTitanium, 64), Materials.SodiumPersulfate.getFluid(10000), null, ItemList.Circuit_Board_Wetware_Extreme.get(1), GT_Values.NI,3000, 480, true);
+        GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Glass, 16), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Carbon, 16), Materials.Electrum.getMolten(288), null, ItemList.Circuit_Board_Fiberglass.get(2), null, 1200, 480, 2600);
+        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Fiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.AnnealedCopper, 12), new FluidStack(ItemList.sIron3Chloride, 1000), null, ItemList.Circuit_Board_Fiberglass_Advanced.get(1), GT_Values.NI, 1800, 30, true);
+        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Fiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.AnnealedCopper, 12), Materials.SodiumPersulfate.getFluid(2000),null, ItemList.Circuit_Board_Fiberglass_Advanced.get(1), GT_Values.NI, 1800, 30, true);
+        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Fiberglass.get(2), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Platinum, 16), Materials.SulfuricAcid.getFluid(500), null, ItemList.Circuit_Board_Multifiberglass.get(1), GT_Values.NI, 600, 480, true);
+        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Multifiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Platinum, 16), new FluidStack(ItemList.sIron3Chloride, 2000), null, ItemList.Circuit_Board_Multifiberglass_Elite.get(1), GT_Values.NI, 2400, 120, true);
+        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Wetware.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.NiobiumTitanium, 32), new FluidStack(ItemList.sIron3Chloride, 5000), null, ItemList.Circuit_Board_Wetware_Extreme.get(1), GT_Values.NI,3000, 480, true);
+        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Multifiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.Platinum, 16), Materials.SodiumPersulfate.getFluid(4000), null, ItemList.Circuit_Board_Multifiberglass_Elite.get(1), GT_Values.NI, 2400, 120, true);
+        GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Board_Wetware.get(1), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.NiobiumTitanium, 32), Materials.SodiumPersulfate.getFluid(10000), null, ItemList.Circuit_Board_Wetware_Extreme.get(1), GT_Values.NI,3000, 480, true);
 
         GT_Values.RA.addAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Parts_Glass_Tube.get(4), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.Copper, 4), GT_OreDictUnificator.get(OrePrefixes.stick, Materials.Steel, 4)}, Materials.RedAlloy.getMolten(72), ItemList.Circuit_Parts_Vacuum_Tube.get(4), 160, 8);
         GT_Values.RA.addAssemblerRecipe(new ItemStack[]{GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Coal, 1), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Copper, 4), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.Copper, 4)}, Materials.Glue.getFluid(288), ItemList.Circuit_Parts_Resistor.get(4), 320, 16);
@@ -1025,7 +1025,7 @@ public class GT_MachineRecipeLoader implements Runnable{
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass_Elite.get(1), ItemList.Circuit_Chip_QuantumCPU.get(1), ItemList.Circuit_Chip_NanoCPU.get(1), ItemList.Circuit_Parts_CapacitorSMD.get(16), ItemList.Circuit_Parts_TransistorSMD.get(16), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Platinum, 16)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Quantumprocessor.get(1), 200, 2400, true);
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass_Elite.get(1), ItemList.Circuit_Quantumprocessor.get(2), ItemList.Circuit_Parts_Coil.get(12), ItemList.Circuit_Parts_CapacitorSMD.get(24), ItemList.Circuit_Chip_Ram.get(4), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Platinum, 24)}, tMat.getMolten(144L * tMultiplier), ItemList.Circuit_Quantumcomputer.get(1), 400, 2400, true);
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass_Elite.get(2), ItemList.Circuit_Quantumcomputer.get(2), ItemList.Circuit_Parts_DiodeSMD.get(8), ItemList.Circuit_Chip_NOR.get(4), ItemList.Circuit_Chip_Ram.get(16), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Platinum, 32)}, tMat.getMolten(144L * tMultiplier), ItemList.Circuit_Masterquantumcomputer.get(1), 400, 2400, true);
-                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Aluminium, 2), ItemList.Circuit_Masterquantumcomputer.get(4), ItemList.Circuit_Parts_Coil.get(24), ItemList.Circuit_Parts_CapacitorSMD.get(48), ItemList.Circuit_Chip_Ram.get(24), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.AnnealedCopper, 48)}, tMat.getMolten(144L * tMultiplier * 2), ItemList.Circuit_Quantummainframe.get(1), 1600, 7680, true);
+                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Aluminium, 2), ItemList.Circuit_Masterquantumcomputer.get(2), ItemList.Circuit_Parts_Coil.get(24), ItemList.Circuit_Parts_CapacitorSMD.get(48), ItemList.Circuit_Chip_Ram.get(24), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.AnnealedCopper, 48)}, tMat.getMolten(144L * tMultiplier * 2), ItemList.Circuit_Quantummainframe.get(1), 1600, 7680, true);
                 //Crystallized Circuits
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass_Elite.get(1), ItemList.Circuit_Chip_CrystalCPU.get(1), ItemList.Circuit_Chip_NanoCPU.get(2), ItemList.Circuit_Parts_CapacitorSMD.get(24), ItemList.Circuit_Parts_TransistorSMD.get(24), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.NiobiumTitanium, 8)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Crystalprocessor.get(1), 200, 9600, true);
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass_Elite.get(1), ItemList.Circuit_Crystalprocessor.get(2), ItemList.Circuit_Parts_Coil.get(24), ItemList.Circuit_Parts_CapacitorSMD.get(48), ItemList.Circuit_Chip_Ram.get(24), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.NiobiumTitanium, 16)}, tMat.getMolten(144L * tMultiplier), ItemList.Circuit_Crystalcomputer.get(1), 400, 9600, true);
@@ -1083,7 +1083,7 @@ public class GT_MachineRecipeLoader implements Runnable{
 
         GT_Values.RA.addAssemblylineRecipe(ItemList.Circuit_Wetwaresupercomputer.get(1), 288000, new ItemStack[]{
                 GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Tritanium, 4),
-                ItemList.Circuit_Wetwaresupercomputer.get(4),
+                ItemList.Circuit_Wetwaresupercomputer.get(2),
                 ItemList.Circuit_Parts_Coil.get(48),
                 ItemList.Circuit_Parts_CapacitorSMD.get(64),
                 ItemList.Circuit_Parts_ResistorSMD.get(64),
@@ -1101,7 +1101,7 @@ public class GT_MachineRecipeLoader implements Runnable{
         //Quantum Chip
         GT_Values.RA.addAssemblylineRecipe(ItemList.Circuit_Wetwaremainframe.get(1), 576000, new ItemStack[]{
                 GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Tritanium, 16),
-                ItemList.Circuit_Wetwaremainframe.get(4),
+                ItemList.Circuit_Wetwaremainframe.get(2),
                 ItemList.Circuit_Parts_Coil.get(64),
                 ItemList.Circuit_Parts_CapacitorSMD.get(64),
                 ItemList.Circuit_Parts_ResistorSMD.get(64),
@@ -1115,7 +1115,7 @@ public class GT_MachineRecipeLoader implements Runnable{
                 Materials.SolderingAlloy.getMolten(3760),
                 Materials.Naquadria.getMolten(4000),
                 new FluidStack(FluidRegistry.getFluid("ic2coolant"), 20000)
-        }, CustomItemList.QuantumCircuit.get(1), 4000, 500000);
+        }, CustomItemList.NanoCircuit.get(1), 4000, 500000);
 
         //Quantum Armor and Gravichest
         GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getIC2Item("quantumHelmet", 1, GT_Values.W));
