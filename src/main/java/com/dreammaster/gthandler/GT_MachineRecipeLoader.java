@@ -976,7 +976,7 @@ public class GT_MachineRecipeLoader implements Runnable{
 
         GT_Values.RA.addForgeHammerRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1), ItemList.Circuit_Parts_RawCrystalParts.get(9), 100, 480);
         GT_Values.RA.addAutoclaveRecipe(ItemList.Circuit_Parts_RawCrystalParts.get(1), FluidRegistry.getFluidStack("bacterialsludge", 250), ItemList.Circuit_Parts_RawCrystalChip.get(1L, new Object[0]), 6000, 12000, 480);
-        GT_Values.RA.addAutoclaveRecipe(ItemList.Circuit_Parts_RawCrystalParts.get(1), FluidRegistry.getFluidStack("mutagene", 250), ItemList.Circuit_Parts_RawCrystalChip.get(1L, new Object[0]), 8000, 12000, 480);
+        GT_Values.RA.addAutoclaveRecipe(ItemList.Circuit_Parts_RawCrystalParts.get(1), FluidRegistry.getFluidStack("mutagen", 250), ItemList.Circuit_Parts_RawCrystalChip.get(1L, new Object[0]), 8000, 12000, 480);
         GT_Values.RA.addAutoclaveRecipe(ItemList.Circuit_Parts_RawCrystalParts.get(1), Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1L, new Object[0]), 10000, 12000, 480);
 
         GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Emerald, 12), Materials.UUMatter.getFluid(250), ItemList.Tool_DataOrb.get(1), 10000, 12000, 960, true);
