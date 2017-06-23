@@ -187,8 +187,8 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addAssemblerRecipe(CustomItemList.LedoxCompressedPlate.get(1), CustomItemList.CallistoIceCompressedPlate.get(1), new FluidStack(FluidRegistry.getFluid("ic2coolant"), 1000), CustomItemList.IceCompressedPlate.get(2), 600, 480);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("GalacticraftMars", "item.itemBasicAsteroids", 1L, 0), CustomItemList.IceCompressedPlate.get(6), Materials.HSSE.getMolten(288L), CustomItemList.HeavyDutyAlloyIngotT4.get(1L), 1800, 1024);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.HeavyDutyPlateTier4.get(1L), CustomItemList.QuantinumCompressedPlate.get(8), Materials.HSSS.getMolten(576L), CustomItemList.HeavyDutyAlloyIngotT5.get(1L), 2400, 1920);
-        GT_Values.RA.addAssemblerRecipe(CustomItemList.HeavyDutyPlateTier5.get(1L), CustomItemList.LeadOriharukonPlate.get(10L),  Materials.Naquadah.getMolten(864L), CustomItemList.HeavyDutyAlloyIngotT6.get(1L), 3000, 4096);
-        GT_Values.RA.addAssemblerRecipe(CustomItemList.HeavyDutyPlateTier6.get(1L), CustomItemList.MysteriousCrystalCompressedPlate.get(12), Materials.NaquadahAlloy.getMolten(1152L), CustomItemList.HeavyDutyAlloyIngotT7.get(1L), 3600, 7680);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.HeavyDutyPlateTier5.get(1L), CustomItemList.LeadOriharukonPlate.get(10L),  Materials.NaquadahAlloy.getMolten(864L), CustomItemList.HeavyDutyAlloyIngotT6.get(1L), 3000, 4096);
+        GT_Values.RA.addAssemblerRecipe(CustomItemList.HeavyDutyPlateTier6.get(1L), CustomItemList.MysteriousCrystalCompressedPlate.get(12), Materials.Europium.getMolten(1152L), CustomItemList.HeavyDutyAlloyIngotT7.get(1L), 3600, 7680);
         GT_Values.RA.addAssemblerRecipe(CustomItemList.HeavyDutyPlateTier7.get(1L), CustomItemList.BlackPlutoniumCompressedPlate.get(14), Materials.Neutronium.getMolten(1440L), CustomItemList.HeavyDutyAlloyIngotT8.get(1L), 4200, 30720);
         GT_Values.RA.addAssemblerRecipe(GT_ModHandler.getModItem("GalaxySpace", "item.CompressedPlates", 1L, 7), GT_ModHandler.getModItem("GalaxySpace", "item.CompressedPlates", 1L, 3), new FluidStack(FluidRegistry.getFluid("ic2coolant"), 1000), CustomItemList.LeadOriharukonPlate.get(2L), 1200, 1024);
 
@@ -740,8 +740,8 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addImplosionRecipe(GT_ModHandler.getModItem("GalacticraftCore", "item.meteoricIronIngot", 2L, 1), 2, CustomItemList.MeteoricIronDualCompressedPlates.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ash, 2L));
         GT_Values.RA.addImplosionRecipe(CustomItemList.HeavyDutyAlloyIngotT4.get(1L), 32, CustomItemList.HeavyDutyPlateTier4.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.HSSE, 8L));
         GT_Values.RA.addImplosionRecipe(CustomItemList.HeavyDutyAlloyIngotT5.get(1L), 40, CustomItemList.HeavyDutyPlateTier5.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.HSSS, 10L));
-        GT_Values.RA.addImplosionRecipe(CustomItemList.HeavyDutyAlloyIngotT6.get(1L), 48, CustomItemList.HeavyDutyPlateTier6.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Naquadah, 12L));
-        GT_Values.RA.addImplosionRecipe(CustomItemList.HeavyDutyAlloyIngotT7.get(1L), 54, CustomItemList.HeavyDutyPlateTier7.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.NaquadahAlloy, 14L));
+        GT_Values.RA.addImplosionRecipe(CustomItemList.HeavyDutyAlloyIngotT6.get(1L), 48, CustomItemList.HeavyDutyPlateTier6.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.NaquadahAlloy, 12L));
+        GT_Values.RA.addImplosionRecipe(CustomItemList.HeavyDutyAlloyIngotT7.get(1L), 54, CustomItemList.HeavyDutyPlateTier7.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Europium, 14L));
         GT_Values.RA.addImplosionRecipe(CustomItemList.HeavyDutyAlloyIngotT8.get(1L), 64, CustomItemList.HeavyDutyPlateTier8.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Neutronium, 16L));
 
         GT_Values.RA.addLatheRecipe(CustomItemList.ReinforcedGlassPLate.get(1L), CustomItemList.ReinforcedGlassLense.get(1L), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Glass, 1L), 400, 16);
@@ -973,12 +973,17 @@ public class GT_MachineRecipeLoader implements Runnable{
 
         GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Emerald, 1), Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1), 1000, 12000, 320, true);
         GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Olivine, 1), Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1), 1000, 12000, 320, true);
+
+        GT_Values.RA.addForgeHammerRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1), ItemList.Circuit_Parts_RawCrystalParts.get(9), 100, 480);
+        GT_Values.RA.addAutoclaveRecipe(ItemList.Circuit_Parts_RawCrystalParts.get(1), FluidRegistry.getFluidStack("bacterialsludge", 250), ItemList.Circuit_Parts_RawCrystalChip.get(1L, new Object[0]), 6000, 12000, 480);
+        GT_Values.RA.addAutoclaveRecipe(ItemList.Circuit_Parts_RawCrystalParts.get(1), FluidRegistry.getFluidStack("mutagene", 250), ItemList.Circuit_Parts_RawCrystalChip.get(1L, new Object[0]), 8000, 12000, 480);
+        GT_Values.RA.addAutoclaveRecipe(ItemList.Circuit_Parts_RawCrystalParts.get(1), Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1L, new Object[0]), 10000, 12000, 480);
+
         GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Emerald, 12), Materials.UUMatter.getFluid(250), ItemList.Tool_DataOrb.get(1), 10000, 12000, 960, true);
         GT_Values.RA.addAutoclaveRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Olivine, 12), Materials.UUMatter.getFluid(250), ItemList.Tool_DataOrb.get(1), 10000, 12000, 960, true);
         //GT_ModHandler.addShapelessCraftingRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(9), new Object[]{ItemList.Circuit_Chip_CrystalCPU.get(1)});
         GT_Values.RA.addBlastRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Emerald, 1), Materials.Helium.getGas(1000), null, ItemList.Circuit_Parts_Crystal_Chip_Elite.get(1), null, 900, 480, 5000);
         GT_Values.RA.addBlastRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Olivine, 1), Materials.Helium.getGas(1000), null, ItemList.Circuit_Parts_Crystal_Chip_Elite.get(1), null, 900, 480, 5000);
-        
         // GC/GS Wafer
         GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Wafer.get(1), CustomItemList.ReinforcedGlassLense.get(0), GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 1L, 13), 200, 256);
         GT_Values.RA.addLaserEngraverRecipe(ItemList.Circuit_Silicon_Wafer2.get(1), CustomItemList.ReinforcedGlassLense.get(0), GT_ModHandler.getModItem("GalacticraftCore", "item.basicItem", 1L, 14), 200, 480);
@@ -1047,7 +1052,7 @@ public class GT_MachineRecipeLoader implements Runnable{
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass_Elite.get(1), ItemList.Circuit_Chip_HPIC.get(4), ItemList.Energy_LapotronicOrb.get(8L), ItemList.Circuit_Chip_QuantumCPU.get(2), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.NiobiumTitanium, 16), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Europium, 8L)}, tMat.getMolten(144L * tMultiplier), ItemList.Energy_LapotronicOrb2.get(1), 1024, 4096, true);
 
                 //Wetware Board
-                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 2), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Silicone, 2), ItemList.Electric_Pump_IV.get(1), ItemList.Bottle_Dragon_Blood.get(4), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.NiobiumTitanium, 16)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Board_Wetware.get(1), 600, 1920, true);
+                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass.get(1), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Polytetrafluoroethylene, 2), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Silicone, 2), ItemList.Electric_Pump_IV.get(1), GT_ModHandler.getModItem("gendustry", "MutagenCan", 4L, 0), GT_OreDictUnificator.get(OrePrefixes.foil, Materials.NiobiumTitanium, 16)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Board_Wetware.get(1), 600, 1920, true);
 
                 //Railcraft Circuits
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Coated_Basic.get(1), GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Basic, 1), ItemList.Cover_Controller.get(1)}, tMat.getMolten(144L * tMultiplier / 2L), GT_ModHandler.getModItem("Railcraft", "part.circuit", 1L, 0), 1200, 30);
