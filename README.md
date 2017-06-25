@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.5.0.0pre is out 16.06.2017
+Version pre1.5.0.0 is out 25.06.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -109,12 +109,12 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.0.0pre --- 16.06.2017<BR>
+## Modlist - NewHorizons 1.5.0.0 --- 25.06.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta12<BR>
 * AE2 Stuff	0.5.1.9<BR>
-* AE2 Wireless Crafting Table 1.8.7.4b<BR>
+* AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
 * AppleCore	1.3.9<BR>
@@ -135,7 +135,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
-* Binnie Mods	2.0-15<BR>
+* Binnie Mods	2.0-16<BR>
 * Biomes o Plenty	2.1.0.2027<BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
@@ -156,6 +156,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Computronics	1.6.4<BR>
 * Craft Tweaker 3.0.12<BR>
 * Custom Main Menu 1.9.2<BR>
+* Datrev Scanner Mod 0.5custom<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution	1.0.2k<BR>
 * Dummy Core 1.13<BR>
@@ -184,8 +185,8 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.30.10<BR>
-* GT New Horizons Core Mod	1.4.10<BR>
+* Gregtech	5.09.31.03<BR>
+* GT New Horizons Core Mod	1.4.11<BR>
 * GT++ 1.5.0Beta<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
