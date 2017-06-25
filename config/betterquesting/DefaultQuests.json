@@ -77933,7 +77933,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 604800,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
