@@ -1200,19 +1200,19 @@ recipes.addShaped(<IC2:itemArmorAlloyChestplate>, [
 [<ore:plateAlloyAdvanced>, <Railcraft:armor.steel.plate>, <ore:plateAlloyAdvanced>]]);
 
 // --- CF Backpack
-recipes.addShaped(<IC2:itemArmorCFPack>, [
+recipes.addShaped(<IC2:itemArmorCFPack:26>, [
 [<IC2:itemCasing:5>, <ore:craftingToolHardHammer>, <IC2:itemCasing:5>],
 [<BuildCraft|Factory:tankBlock>, <ore:screwSteel>, <BuildCraft|Factory:tankBlock>],
 [<IC2:itemCasing:5>, <ore:craftingToolScrewdriver>, <IC2:itemCasing:5>]]);
 
 // --- Nano Saber
-recipes.addShaped(<IC2:itemNanoSaber:27>, [
+recipes.addShaped(<IC2:itemNanoSaber:26>, [
 [<ore:plateAlloyIridium>, <ore:toolHeadSwordPlatinum>, <ore:plateAlloyIridium>],
 [<ore:circuitMaster>, <ore:batteryMaster>, <ore:circuitMaster>],
 [<ore:craftingToolFile>, <IC2:itemRecipePart:2>, <ore:craftingToolHardHammer>]]);
 
 // --- Obscurator
-recipes.addShaped(<IC2:obscurator:27>, [
+recipes.addShaped(<IC2:obscurator:26>, [
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>],
 [<ore:cableGt01Gold>, <dreamcraft:item.Display>, <ore:cableGt01Gold>],
 [<IC2:itemCasing:4>, <ore:batteryAdvanced>, <IC2:itemCasing:4>]]);
@@ -1516,6 +1516,10 @@ recipes.addShaped(<IC2:itemWeedingTrowel>, [
 [<ore:screwSteel>, <ore:stickSteel>, <ore:craftingToolScrewdriver>],
 [<ore:plateRubber>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:plateRubber>, <ore:screwSteel>]]);
+
+
+// --- CF Powder
+recipes.addShapeless(<IC2:itemPartCFPowder>, [<ore:dustCalcite>, <ore:dustCalcite>, <ore:dustStone>, <ore:dustClay>, <dreamcraft:item.SandDust>]);
 
 
 
@@ -1880,6 +1884,24 @@ FluidCanner.addRecipe(<IC2:itemMugCoffee:2>, <IC2:itemMugEmpty>, null, <liquid:p
 FluidCanner.addRecipe(<IC2:itemFoamSprayer>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 8000}}), <IC2:itemFoamSprayer>, null, <liquid:ic2constructionfoam> * 8000);
 
 // --- CF Back Pack
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:24>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 8000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 8000);
+// -
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:21>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 16000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 16000);
+// -
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:19>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 24000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 24000);
+// -
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:16>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 32000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 32000);
+// -
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:13>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 40000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 40000);
+// -
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:10>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 48000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 48000);
+// -
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:7>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 54000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 54000);
+// -
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:4>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 62000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 62000);
+// -
+FluidCanner.addRecipe(<IC2:itemArmorCFPack:1>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 70000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 70000);
+// -
 FluidCanner.addRecipe(<IC2:itemArmorCFPack:1>.withTag({Fluid: {FluidName: "ic2constructionfoam", Amount: 80000}}), <IC2:itemArmorCFPack:26>, null, <liquid:ic2constructionfoam> * 80000);
 
 // --- 10k Cooling Cell
