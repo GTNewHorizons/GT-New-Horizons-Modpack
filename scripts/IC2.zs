@@ -796,6 +796,9 @@ recipes.remove(<IC2:itemBatLamaCrystal>);
 // --- Energium Dust
 recipes.remove(<IC2:itemDust2:2>);
 
+// --- CF Powder
+recipes.remove(<IC2:itemPartCFPowder>);
+
 
 
 // --- Add Recipes ---
@@ -1515,13 +1518,13 @@ recipes.addShaped(<IC2:itemWeedingTrowel>, [
 [<ore:stickSteel>, <ore:plateRubber>, <ore:screwSteel>]]);
 
 
+
 // --- Add Fuel ---
 
 
 
 // --- Bio Gas
 Fuels.addGasTurbineFuel(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ic2biogas", Amount: 1000}}), 40);
-
 
 
 
@@ -1925,11 +1928,6 @@ Macerator.addRecipe(<dreamcraft:item.LapotronDust> * 30,  <IC2:itemBatLamaCrysta
 // --- Coal Ball
 Mixer.addRecipe(<IC2:itemPartCoalBall>, [<IC2:itemDust:2> * 8, <gregtech:gt.metaitem.01:2802>], 100, 16);
 
-// --- CF Powder
-Mixer.addRecipe(<IC2:itemPartCFPowder>, [<gregtech:gt.metaitem.01:2299> * 6, <gregtech:gt.metaitem.01:2805>, <minecraft:sand> * 2], 20, 4);
-
-// --- Construction Foam
-Mixer.addRecipe(null, <liquid:ic2constructionfoam> * 1000, [<IC2:itemPartCFPowder>], <liquid:water> * 1000, 200, 16);
 
 
 
