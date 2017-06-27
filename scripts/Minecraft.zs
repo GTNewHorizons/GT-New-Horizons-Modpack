@@ -2282,6 +2282,12 @@ recipes.addShaped(<minecraft:compass>, [
 [<ore:ringZinc>, <ore:plateIron>, <ore:ringZinc>],
 [<ore:boltRedAlloy>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
+// --- Clay Block
+recipes.addShaped(ClayBlock * 2, [
+[<ore:itemClay>, <ore:itemClay>, <ore:itemClay>],
+[<ore:itemClay>, <minecraft:water_bucket>, <ore:itemClay>],
+[<ore:itemClay>, <ore:itemClay>, <ore:itemClay>]]);
+
 // --- Pumpkin Seeds
 recipes.addShaped(<minecraft:pumpkin_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolHardHammer>]]);
 // -
@@ -2791,6 +2797,9 @@ AlloySmelter.addRecipe(<minecraft:golden_leggings>, <minecraft:gold_ingot> * 7, 
 
 // --- Gold Boots
 AlloySmelter.addRecipe(<minecraft:golden_boots>, <minecraft:gold_ingot> * 4, <dreamcraft:item.MoldBoots> * 0, 200, 30);
+
+// --- Clay Block
+AlloySmelter.addRecipe(<minecraft:clay>, <minecraft:clay_ball> * 4, <gregtech:gt.metaitem.01:32308> * 0, 200, 30);
 
 
 
