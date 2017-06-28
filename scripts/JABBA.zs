@@ -222,8 +222,8 @@ recipes.addShaped(Dolly, [
 
 // --- Diamond Dolly
 recipes.addShaped(DiamondDolly, [
-[<ore:stickDiamond>, <ore:stickDiamond>, <ore:stickDiamond>],
-[<ore:stickDiamond>, <ore:craftingToolWrench>, <ore:stickDiamond>],
+[<ore:stickDiamond>, <ore:stickDiamond>, <ore:roundPlatic>],
+[<ore:stickDiamond>, <ore:craftingToolWrench>, <ore:roundPlatic>],
 [SteelWheels, <ore:plateNetherStar>, SteelWheels]]);
 
 // --- Barrel Hammer
@@ -392,16 +392,16 @@ Assembler.addRecipe(Barrel, Plank6 * 8, Chest, 200, 16);
 Assembler.addRecipe(StorageUp, Barrel, Piston, 1200, 16);
 
 // --- Storage Upgrade 3x
-Assembler.addRecipe(Storage3Up, StorageUp * 3, <gregtech:gt.integrated_circuit:1> * 0, 900, 30);
+Assembler.addRecipe(Storage3Up, StorageUp * 3, <gregtech:gt.integrated_circuit:3> * 0, 900, 30);
 
 // --- Storage Upgrade 9x
-Assembler.addRecipe(Storage9Up, Storage3Up * 3, <gregtech:gt.integrated_circuit:2> * 0, 600, 64);
+Assembler.addRecipe(Storage9Up, Storage3Up * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 64);
 
 // --- Storage Upgrade 27x
 Assembler.addRecipe(Storage27Up, Storage9Up * 3, <gregtech:gt.integrated_circuit:3> * 0, 400, 120);
 
 // --- Storage Upgrade 81x
-Assembler.addRecipe(Storage81Up, Storage27Up * 3, <gregtech:gt.integrated_circuit:4> * 0, 200, 256);
+Assembler.addRecipe(Storage81Up, Storage27Up * 3, <gregtech:gt.integrated_circuit:3> * 0, 200, 256);
 
 // --- Storage Upgrade 243x
-Assembler.addRecipe(Storage243Up, Storage81Up * 3, <gregtech:gt.integrated_circuit:5> * 0, 150, 480);
+Assembler.addRecipe(Storage243Up, Storage81Up * 3, <gregtech:gt.integrated_circuit:3> * 0, 150, 480);
