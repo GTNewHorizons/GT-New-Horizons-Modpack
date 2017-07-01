@@ -117,8 +117,8 @@ recipes.addShaped(<dreamcraft:item.MoldFormGear>, [
 
 // --- Coinage Mold
 recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
-[null, null, WireCutter],
-[null, BlankCast, null],
+[null, null, null],
+[null, BlankCast, WireCutter],
 [File, null, null]]);
 
 // --- Bottle Mold
