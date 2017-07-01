@@ -6947,7 +6947,7 @@
           "requiredItems": [
             {
               "id": "Railcraft:part.plate",
-              "Count": 14,
+              "Count": 28,
               "OreDict": "",
               "Damage": 0
             },
@@ -7100,7 +7100,16 @@
               "Count": 36,
               "OreDict": "",
               "Damage": 15
-            },
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
