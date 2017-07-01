@@ -73202,10 +73202,10 @@
               "Damage": 19086
             },
             {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 22054
+              "Damage": 23054
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -73336,10 +73336,10 @@
               "Damage": 19035
             },
             {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 22057
+              "Damage": 23057
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -78651,10 +78651,10 @@
               "Damage": 19303
             },
             {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 22345
+              "Damage": 23345
             }
           ],
           "taskID": "bq_standard:retrieval"
