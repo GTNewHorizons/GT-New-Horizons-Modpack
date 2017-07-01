@@ -1209,7 +1209,7 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartHelmet.get(1), 144000, new ItemStack[]{
                 CustomItemList.QuantumPartHelmet.get(1),
                 CustomItemList.QuantumCrystal.get(1),
-                GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
+                ItemList.Circuit_Masterquantumcomputer.get(2, null),
                 GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.TungstenSteel, 4),
                 ItemList.Energy_LapotronicOrb.get(1),
                 ItemList.Sensor_IV.get(1),
@@ -1225,7 +1225,7 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartChestplate.get(1), 144000, new ItemStack[]{
                 CustomItemList.QuantumPartChestplate.get(1),
                 CustomItemList.QuantumCrystal.get(1),
-                GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
+                ItemList.Circuit_Masterquantumcomputer.get(2, null),
                 GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.TungstenSteel, 6),
                 ItemList.Energy_LapotronicOrb.get(1),
                 ItemList.Field_Generator_EV.get(3),
@@ -1241,7 +1241,7 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartLeggings.get(1), 144000, new ItemStack[]{
                 CustomItemList.QuantumPartLeggings.get(1),
                 CustomItemList.QuantumCrystal.get(1),
-                GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
+                ItemList.Circuit_Masterquantumcomputer.get(2, null),
                 GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.TungstenSteel, 6),
                 ItemList.Energy_LapotronicOrb.get(1),
                 ItemList.Field_Generator_EV.get(2),
@@ -1257,7 +1257,7 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addAssemblylineRecipe(CustomItemList.QuantumPartBoots.get(1), 144000, new ItemStack[]{
                 CustomItemList.QuantumPartBoots.get(1),
                 CustomItemList.QuantumCrystal.get(1),
-                GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Master, 2),
+                ItemList.Circuit_Masterquantumcomputer.get(2, null),
                 GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.TungstenSteel, 4),
                 ItemList.Energy_LapotronicOrb.get(1),
                 ItemList.Field_Generator_EV.get(1),
@@ -1278,7 +1278,7 @@ public class GT_MachineRecipeLoader implements Runnable{
                     GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 6, 1),
                     GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 2, 2),
                     GT_ModHandler.getModItem("GraviSuite", "itemSimpleItem", 2, 3),
-                    GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Ultimate, 2),
+                    ItemList.Circuit_Ultimatecrystalcomputer.get(2, null),
                     GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.Duranium, 2),
                     ItemList.Energy_LapotronicOrb2.get(1),
                     ItemList.Field_Generator_IV.get(2),
