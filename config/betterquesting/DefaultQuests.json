@@ -40559,16 +40559,12 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 1520
-            },
-            {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 3,
               "OreDict": "",
               "Damage": 23305
             },
@@ -40585,7 +40581,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
