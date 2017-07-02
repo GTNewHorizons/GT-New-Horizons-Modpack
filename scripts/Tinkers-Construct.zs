@@ -2261,6 +2261,11 @@ recipes.addShaped(<TConstruct:Redstone.Landmine:3>, [
 [<minecraft:repeater>, <minecraft:light_weighted_pressure_plate>, <minecraft:repeater>],
 [<minecraft:stone>, <Railcraft:detector:4>, <minecraft:stone>]]);
 
+// --- Aluminum Aluminium Exchange
+recipes.addShapeless(<TConstruct:materials:40>, [<gregtech:gt.metaitem.01:2019>]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:2019>, [<TConstruct:materials:40>]);
+
 // --- Obsidian Sticks
 recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
 // -
