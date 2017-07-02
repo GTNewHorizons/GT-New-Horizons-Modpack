@@ -395,6 +395,37 @@ recipes.removeShapeless(<ore:dustInfusedWater>);
 // -
 recipes.removeShapeless(<ore:gemInfusedWater>);
 
+// --- Lead Nuggets
+recipes.remove(<ore:nuggetLead>);
+
+// --- Silver Nuggets
+recipes.remove(<ore:nuggetSilver>);
+
+// --- Tin Nuggets
+recipes.remove(<ore:nuggetTin>);
+
+// --- Copper Nuggets
+recipes.remove(<ore:nuggetCopper>);
+
+// --- Steel Nuggets
+recipes.remove(<ore:nuggetSteel>);
+
+// --- Steel Pulsating Iron
+recipes.remove(<ore:nuggetPulsatingIron>);
+
+// --- Steel Vibrant Alloy
+recipes.remove(<ore:nuggetVibrantAlloy>);
+
+// --- Steel Draconium
+recipes.remove(<ore:nuggetDraconium>);
+
+// --- Steel Draconium Awakened
+recipes.remove(<ore:nuggetDraconiumAwakened>);
+
+// --- Thauminite
+recipes.remove(<thaumicbases:resource>);
+
+
 
 
 
@@ -839,6 +870,9 @@ AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:11300> * 4, <gregtech:gt.metaite
 
 // --- Thauminite Ingot
 AlloySmelter.addRecipe(<thaumicbases:resource:1> , <thaumicbases:resource> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
+
+// --- Thauminite Nugget
+AlloySmelter.addRecipe(<thaumicbases:resource> * 9, <thaumicbases:resource:1> , <gregtech:gt.metaitem.01:32309> * 0, 200, 16);
 
 // --- Glass
 AlloySmelter.addRecipe(<minecraft:glass>, <gregtech:gt.metaitem.01:2890>, <gregtech:gt.metaitem.01:32308> * 0, 200, 16);
