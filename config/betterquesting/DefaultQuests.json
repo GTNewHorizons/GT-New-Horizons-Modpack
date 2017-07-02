@@ -21314,7 +21314,8 @@
         }
       ],
       "preRequisites": [
-        255
+        255,
+        256
       ]
     },
     {
@@ -22569,7 +22570,7 @@
       "questID": 256,
       "name": "Not coal",
       "description": "Way better. To be fair, it\u0027s a waste to use coal itself, but it also works with charcoal and lignite dust. And it speeds up the dissolving of items in an alchemical furnace.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -22622,6 +22623,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -87203,7 +87215,7 @@
         },
         {
           "id": 241,
-          "x": 108,
+          "x": 48,
           "y": 72
         },
         {
@@ -87283,13 +87295,13 @@
         },
         {
           "id": 256,
-          "x": 48,
-          "y": 72
+          "x": 108,
+          "y": 108
         },
         {
           "id": 255,
           "x": 108,
-          "y": 108
+          "y": 72
         },
         {
           "id": 257,
