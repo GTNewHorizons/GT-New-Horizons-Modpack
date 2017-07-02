@@ -35,7 +35,7 @@ public class QuantinumProperties implements IExtendedBlockProperties
     public float getResistance() { return 30.0F; }
 
     @Override
-    public String getBlockName() { return "Quantinum"; }
+    public String getBlockName() { return "Quantium"; }
 
     @Override
     public String getTextureName() { return ""; }

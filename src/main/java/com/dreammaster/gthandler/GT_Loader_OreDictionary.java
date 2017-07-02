@@ -50,7 +50,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("stickSandstone", com.dreammaster.item.ItemList.SandStoneRod.getIS());
         GT_OreDictUnificator.registerOre("lensReinforcedGlass", com.dreammaster.item.ItemList.ReinforcedGlassLense.getIS());
         GT_OreDictUnificator.registerOre("plateReinforcedGlass", com.dreammaster.item.ItemList.ReinforcedGlassPlate.getIS());
-        GT_OreDictUnificator.registerOre("blockQuantinum", GT_ModHandler.getModItem("dreamcraft", "tile.Quantinum", 1L, 0));
+        GT_OreDictUnificator.registerOre("blockQuantium", GT_ModHandler.getModItem("dreamcraft", "tile.Quantinum", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.compressed, Materials.Quantium, com.dreammaster.item.ItemList.QuantinumCompressedPlate.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Quantium, com.dreammaster.item.ItemList.QuantinumDust.getIS());
         GT_OreDictUnificator.registerOre(OrePrefixes.plateDense, Materials.Quantium, com.dreammaster.item.ItemList.QuantinumDensePlate.getIS());
@@ -117,6 +117,7 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
         GT_OreDictUnificator.registerOre("listAllchickenraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
         GT_OreDictUnificator.registerOre("listAllbeefraw", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2892));
         GT_OreDictUnificator.registerOre("foodSalt", GT_ModHandler.getModItem("gregtech", "gt.metaitem.01", 1L, 2817));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Salt, GT_ModHandler.getModItem("harvestcraft", "spamcompressedsaltBlockalt", 1L, 0));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.dust, Materials.Wheat, GT_ModHandler.getModItem("harvestcraft", "flourItem", 1L, 0));
 
@@ -125,6 +126,8 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
 
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Reinforced, GT_ModHandler.getModItem("StevesCarts", "BlockMetalStorage", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Reinforced, GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 22));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Galgadorian, GT_ModHandler.getModItem("StevesCarts", "BlockMetalStorage", 1L, 1));
+        GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.EnhancedGalgadorian, GT_ModHandler.getModItem("StevesCarts", "BlockMetalStorage", 1L, 2));
 
         GT_OreDictUnificator.registerOre(OrePrefixes.nugget, Materials.Void, GT_ModHandler.getModItem("Thaumcraft", "ItemNugget", 1L, 7));
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Amber, GT_ModHandler.getModItem("Thaumcraft", "item.blockCosmeticOpaque", 1L, 0));
