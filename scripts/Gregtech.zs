@@ -925,29 +925,6 @@ ChemicalReactor.addRecipe(<gregtech:gt.metaitem.01:2836> * 5, <liquid:steam> * 1
 
 
 
-// --- Compressor Recipes ---
-
-// --- Wrought Iron Ingot
-Compressor.addRecipe(<gregtech:gt.metaitem.01:11304>, <gregtech:gt.metaitem.01:9304> * 9);
-
-// --- Certus Quartz Plate
-Compressor.addRecipe(<dreamcraft:item.ChargedCertusQuartzPlate>, <dreamcraft:item.ChargedCertusQuartzDust>);
-
-// --- Nether Quartz Plate
-Compressor.addRecipe(<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:2522>);
-
-// --- Quartzite Plate
-Compressor.addRecipe(<gregtech:gt.metaitem.01:17523>, <gregtech:gt.metaitem.01:2523>);
-
-// --- Lazurite Plate
-Compressor.addRecipe(<gregtech:gt.metaitem.01:17524>, <gregtech:gt.metaitem.01:2524>);
-
-// --- Sodalite Plate
-Compressor.addRecipe(<gregtech:gt.metaitem.01:17525>, <gregtech:gt.metaitem.01:2525>);
-
-
-
-
 // --- Extractor Recipes ---
 
 

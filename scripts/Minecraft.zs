@@ -1000,6 +1000,9 @@ furnace.remove(<TConstruct:materials:21>, <TConstruct:oreBerries:3>);
 // --- remove Aluminium Berrys in Furnace
 furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 
+// --- Iron Nuggets
+recipes.remove(<ore:nuggetIron>);
+
 
 
 // --- Adding Back Recipes ---

@@ -1684,22 +1684,8 @@ ChemicalReactor.addRecipe(<StevesCarts:ModuleComponents:18> * 2, null, <minecraf
 
 
 
-// --- Reinforced Metal Block
-Compressor.addRecipe(<StevesCarts:BlockMetalStorage>, <StevesCarts:ModuleComponents:22> * 9);
-// -
-Compressor.addRecipe(<StevesCarts:BlockMetalStorage>, <gregtech:gt.metaitem.01:11383> * 9);
-
-// --- Galgadorian Block
-Compressor.addRecipe(<StevesCarts:BlockMetalStorage:1>, <gregtech:gt.metaitem.01:11384> * 9);
-
-
-// --- Enhanced Galgadorian Block
-Compressor.addRecipe(<StevesCarts:BlockMetalStorage:2>, <gregtech:gt.metaitem.01:11385> * 9);
-
 // --- Large Lump of Galgador
 Compressor.addRecipe(<StevesCarts:ModuleComponents:48>, <StevesCarts:ModuleComponents:46> * 9);
-// -
-Compressor.addRecipe(<StevesCarts:ModuleComponents:48>, <gregtech:gt.metaitem.01:2385> * 9);
 
 
 
@@ -1805,15 +1791,6 @@ ImplosionCompressor.addRecipe(RefinedH, <StevesCarts:ModuleComponents:18>, 1);
 // --- Macerator Recipes ---
 
 
-
-// --- Enhanced Galgadorian Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2385> * 9, <StevesCarts:BlockMetalStorage:2>);
-
-// --- Galgadorian Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2384> * 9, <StevesCarts:BlockMetalStorage:1>);
-
-// --- Reinforecd Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2383> * 9, <StevesCarts:BlockMetalStorage>);
 
 // --- Stabezied Metal
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2383>, <StevesCarts:ModuleComponents:22>);

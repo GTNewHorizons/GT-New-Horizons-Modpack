@@ -1297,16 +1297,6 @@ ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, <l
 ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, <liquid:ic2distilledwater> * 1000, <dreamcraft:item.ChargedCertusQuartzDust> * 3, <gregtech:gt.metaitem.01:2017>, null, 700, 30);
 
 
-// --- Compressor Recipes ---
-
-// --- Fluix Block ---
-Compressor.addRecipe(FluixBlock, PureFluixCrystal * 9);
-// -
-Compressor.addRecipe(FluixBlock, FluixCrystal * 4);
-// -
-Compressor.addRecipe(CertusQBlock, PureCertusQCrystal * 9);
-
-
 
 // --- Macerator Recipes ---
 

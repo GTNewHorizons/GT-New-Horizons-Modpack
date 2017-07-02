@@ -834,6 +834,9 @@ mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:14
 // --- Compressed Sand 2
 mods.tconstruct.Smeltery.removeMelting(<ExtraUtilities:cobblestone_compressed:15>);
 
+// --- Steel Block
+mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
+
 
 
 
@@ -1325,7 +1328,7 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:12>, <liquid:alumin
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, 500, <TConstruct:MetalBlock:6>);
 
 // --- Steel Ingot
-mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:16>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 600);
+//mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:16>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 600);
 
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);

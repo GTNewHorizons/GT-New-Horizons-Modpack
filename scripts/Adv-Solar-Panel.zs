@@ -6,7 +6,6 @@
 
 
 import mods.gregtech.Assembler;
-import mods.ic2.Compressor;
 import mods.ic2.Macerator;
 import mods.nei.NEI;
 
@@ -176,19 +175,6 @@ Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, <gregtech:gt.bloc
 Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32755>, <liquid:molten.solderingalloy> * 288, 1400, 4096);
 // -
 Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32755>, <liquid:molten.lead> * 1152, 1400, 4096);
-
-
-
-
-// --- Compressor Recipes ---
-
-
-
-// --- Sunnarium Dust
-Compressor.addRecipe(<AdvancedSolarPanel:asp_crafting_items>, <gregtech:gt.metaitem.01:2318>);
-
-// --- Sunnarium Parts
-Compressor.addRecipe(<AdvancedSolarPanel:asp_crafting_items>, <AdvancedSolarPanel:asp_crafting_items:9> * 9);
 
 
 

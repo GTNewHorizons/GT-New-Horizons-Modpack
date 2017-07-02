@@ -446,7 +446,7 @@ recipes.addShaped(<dreamcraft:item.SawBladeDiamond>, [
 
 // --- Stone Saw Blade
 recipes.addShaped(<dreamcraft:item.SawBladeStone>, [
-[<dreamcraft:item.StonePlate>, <dreamcraft:item.StonePlate>, null],
+[<ore:plateStone>, <ore:plateStone>, null],
 [File, Hammer, null]]);
 
 // --- Ardite Saw Blade
@@ -1062,9 +1062,6 @@ Compressor.addRecipe(<dreamcraft:tile.Ledox>, <dreamcraft:item.LedoxColdIngot> *
 // --- Block of Cold Callisto Ice
 Compressor.addRecipe(<dreamcraft:tile.CallistoColdIce>, <dreamcraft:item.CallistoIceColdIngot> * 9);
 
-// --- Block of Quantinum
-Compressor.addRecipe(<dreamcraft:tile.Quantinum>, <gregtech:gt.metaitem.01:11391> * 9);
-
 // --- Block of Mysterious Crystal
 Compressor.addRecipe(<dreamcraft:tile.MysteriousCrystal>, <dreamcraft:item.MysteriousCrystalColdIngot> * 9);
 
@@ -1127,9 +1124,6 @@ Compressor.addRecipe(<dreamcraft:item.CompressedBioBall>, <dreamcraft:item.BioBa
 
 // --- Bio Carbon Plate
 Compressor.addRecipe(<dreamcraft:item.BioCarbonPlate>, <dreamcraft:item.BioOrganicMesh>);
-
-// --- Stone Plate
-Compressor.addRecipe(<dreamcraft:item.StonePlate>, <gregtech:gt.metaitem.01:2299> * 9);
 
 
 
@@ -1587,8 +1581,6 @@ Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <dreamcraft:item.MytrylPlate>)
 Macerator.addRecipe(<dreamcraft:item.MytrylDust> * 9, <dreamcraft:item.MytrylDensePlate>);
 
 // --- Quantinum Dust
-Macerator.addRecipe(<dreamcraft:item.QuantinumDust> * 9, <dreamcraft:tile.Quantinum>);
-// -
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust> * 9, <dreamcraft:item.QuantinumDensePlate>);
 // -
 Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumPlate>);
