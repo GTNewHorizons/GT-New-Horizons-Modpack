@@ -5939,12 +5939,6 @@
               "Count": 7,
               "OreDict": "",
               "Damage": 1246
-            },
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 2006
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64941,7 +64935,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 8,
               "OreDict": "",
-              "Damage": 1366
+              "Damage": 1360
             }
           ],
           "taskID": "bq_standard:retrieval"
