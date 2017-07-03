@@ -5637,7 +5637,7 @@
     {
       "questID": 65,
       "name": "Blastoff!",
-      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bronze blast furnace. Return here when you made at least 8 steel ingots.",
+      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bricked blast furnace. Return here when you made at least 8 steel ingots.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -7698,7 +7698,7 @@
     {
       "questID": 82,
       "name": "An unexpected Bonus",
-      "description": "Because we\u0027re nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bronze blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)",
+      "description": "Because we\u0027re nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bricked blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62828,7 +62828,7 @@
     {
       "questID": 697,
       "name": "2x steel",
-      "description": "Steel production is so slow. If you got enough bronze, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some coppper.",
+      "description": "Steel production is so slow. If you got enough bricks and clay, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some bricks, clay and concrete.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63058,7 +63058,7 @@
     {
       "questID": 699,
       "name": "Why one coke oven when you can have ten",
-      "description": "Your bronze blast furnace uses coal like hell and your steam boiler too? Well it\u0027s time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.",
+      "description": "Your bricked blast furnace uses coal like hell and your steam boiler too? Well it\u0027s time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
