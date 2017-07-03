@@ -1274,3 +1274,30 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32372>, <liquid:
 
 // --- Extruder Shape Bottle
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32373>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeBottle>, true, 100);
+
+
+
+// --- Themionic Recipes
+
+
+
+// --- Vacuum Tubes
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
+[null, <gregtech:gt.metaitem.02:22305>, null], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22305>, <gregtech:gt.metaitem.02:19035>], 
+[<gregtech:gt.metaitem.01:26308>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.metaitem.01:26308>]], 
+null, <gregtech:gt.metaitem.01:32700> * 16);
+
+// --- Diode
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
+[null, <gregtech:gt.metaitem.02:19057>, null], 
+[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.03:32033>, <gregtech:gt.metaitem.02:19057>], 
+[null, <gregtech:gt.metaitem.02:19057>, null]], 
+null, <gregtech:gt.metaitem.01:32715> * 8);
+
+// --- Diode
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
+[null, <gregtech:gt.metaitem.02:19057>, null], 
+[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.01:980>, <gregtech:gt.metaitem.02:19057>], 
+[null, <gregtech:gt.metaitem.02:19057>, null]], 
+null, <gregtech:gt.metaitem.01:32715> * 16);
