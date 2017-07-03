@@ -549,9 +549,9 @@ recipes.addShaped(CraftingUnit, [
 
 // --- Molecular Assembler
 recipes.addShaped(MolecularAssembler, [
-[TitaniumPlate, ClearGlass, TitaniumPlate],
+[TitaniumPlate, <ore:blockGlass>, TitaniumPlate],
 [AnnihilationCore, AdvAssembler, FormationCore],
-[TitaniumPlate, ClearGlass, TitaniumPlate]]);
+[TitaniumPlate, <ore:blockGlass>, TitaniumPlate]]);
 
 // --- Charger
 recipes.addShaped(Charger, [

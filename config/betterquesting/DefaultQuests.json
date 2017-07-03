@@ -16229,7 +16229,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             }
@@ -16410,10 +16410,19 @@
             },
             {
               "id": "appliedenergistics2:tile.BlockCraftingUnit",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
-            },
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "appliedenergistics2:tile.BlockCraftingStorage",
               "Count": 1,
@@ -16615,7 +16624,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
-              "Count": 16,
+              "Count": 24,
               "OreDict": "",
               "Damage": 16
             },
