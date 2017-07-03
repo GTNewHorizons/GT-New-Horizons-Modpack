@@ -643,9 +643,9 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:3>, [
 
 // --- Stone Brace
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:4>, [
-[<AWWayofTime:apprenticeBloodOrb>, <dreamcraft:item.StonePlate>, <AWWayofTime:reinforcedSlate>],
-[<dreamcraft:item.StonePlate>, <AWWayofTime:bloodMagicBaseItems:3>, <dreamcraft:item.StonePlate>],
-[<AWWayofTime:reinforcedSlate>, <dreamcraft:item.StonePlate>, null]]);
+[<AWWayofTime:apprenticeBloodOrb>, <ore:plateStone>, <AWWayofTime:reinforcedSlate>],
+[<ore:plateStone>, <AWWayofTime:bloodMagicBaseItems:3>, <ore:plateStone>],
+[<AWWayofTime:reinforcedSlate>, <ore:plateStone>, null]]);
 
 // --- Obsidian Brace
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:25>, [

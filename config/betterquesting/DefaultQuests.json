@@ -4751,7 +4751,7 @@
     {
       "questID": 53,
       "name": "Hammer time v2",
-      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability? Guess what, there is one! And you should totally get one.",
+      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability and using tree Ingots to make two plates? Guess what, there is one! And you should totally get one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5637,7 +5637,7 @@
     {
       "questID": 65,
       "name": "Blastoff!",
-      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bronze blast furnace. Return here when you made at least 8 steel ingots.",
+      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bricked blast furnace. Return here when you made at least 8 steel ingots.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5939,12 +5939,6 @@
               "Count": 7,
               "OreDict": "",
               "Damage": 1246
-            },
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 2006
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -6947,7 +6941,7 @@
           "requiredItems": [
             {
               "id": "Railcraft:part.plate",
-              "Count": 14,
+              "Count": 28,
               "OreDict": "",
               "Damage": 0
             },
@@ -7100,7 +7094,16 @@
               "Count": 36,
               "OreDict": "",
               "Damage": 15
-            },
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
@@ -7695,7 +7698,7 @@
     {
       "questID": 82,
       "name": "An unexpected Bonus",
-      "description": "Because we\u0027re nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bronze blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)",
+      "description": "Because we\u0027re nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bricked blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -21311,7 +21314,8 @@
         }
       ],
       "preRequisites": [
-        255
+        255,
+        256
       ]
     },
     {
@@ -21560,7 +21564,7 @@
     {
       "questID": 244,
       "name": "The choice: Ignis",
-      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
+      "description": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -21712,7 +21716,7 @@
     {
       "questID": 246,
       "name": "The choice: Terra",
-      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
+      "description": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -21816,7 +21820,7 @@
     {
       "questID": 247,
       "name": "The choice: Perditio",
-      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
+      "description": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -21920,7 +21924,7 @@
     {
       "questID": 248,
       "name": "The choice: Ordo",
-      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
+      "description": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22024,7 +22028,7 @@
     {
       "questID": 249,
       "name": "The choice: Aqua",
-      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
+      "description": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22128,7 +22132,7 @@
     {
       "questID": 250,
       "name": "The choice: Aer",
-      "description": "In exchange for 2 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
+      "description": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don\u0027t place it too close to another node, or it might start to drain vis...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22566,7 +22570,7 @@
       "questID": 256,
       "name": "Not coal",
       "description": "Way better. To be fair, it\u0027s a waste to use coal itself, but it also works with charcoal and lignite dust. And it speeds up the dissolving of items in an alchemical furnace.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -22619,6 +22623,17 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -40559,16 +40574,12 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 1520
-            },
-            {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 3,
               "OreDict": "",
               "Damage": 23305
             },
@@ -40585,7 +40596,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         },
         {
           "partialMatch": true,
@@ -62817,7 +62828,7 @@
     {
       "questID": 697,
       "name": "2x steel",
-      "description": "Steel production is so slow. If you got enough bronze, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some coppper.",
+      "description": "Steel production is so slow. If you got enough bricks and clay, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some bricks, clay and concrete.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62848,10 +62859,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:brick_block",
-              "Count": 20,
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 24,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 15
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -62861,69 +62872,15 @@
           "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 124,
-              "OreDict": "",
-              "Damage": 17300
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "Railcraft:part.plate",
-              "Count": 28,
-              "OreDict": "plateIron",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "IC2:blockMachine",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockcasings",
-              "Count": 20,
-              "OreDict": "",
-              "Damage": 10
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 108
+              "Damage": 140
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -63017,10 +62974,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:brick_block",
-              "Count": 32,
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 40,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 15
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -63030,69 +62987,15 @@
           "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 200,
-              "OreDict": "",
-              "Damage": 17300
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "Railcraft:part.plate",
-              "Count": 56,
-              "OreDict": "plateIron",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "IC2:blockMachine",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockcasings",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 10
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 2,
               "OreDict": "",
-              "Damage": 108
+              "Damage": 140
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -63155,7 +63058,7 @@
     {
       "questID": 699,
       "name": "Why one coke oven when you can have ten",
-      "description": "Your bronze blast furnace uses coal like hell and your steam boiler too? Well it\u0027s time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.",
+      "description": "Your bricked blast furnace uses coal like hell and your steam boiler too? Well it\u0027s time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64936,7 +64839,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 8,
               "OreDict": "",
-              "Damage": 1366
+              "Damage": 1360
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -67447,7 +67350,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 18019
+              "Damage": 22019
             },
             {
               "id": "minecraft:iron_block",
@@ -73197,10 +73100,10 @@
               "Damage": 19086
             },
             {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 22054
+              "Damage": 23054
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -73331,10 +73234,10 @@
               "Damage": 19035
             },
             {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 22057
+              "Damage": 23057
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -78646,10 +78549,10 @@
               "Damage": 19303
             },
             {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 22345
+              "Damage": 23345
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -87204,7 +87107,7 @@
         },
         {
           "id": 241,
-          "x": 108,
+          "x": 48,
           "y": 72
         },
         {
@@ -87284,13 +87187,13 @@
         },
         {
           "id": 256,
-          "x": 48,
-          "y": 72
+          "x": 108,
+          "y": 108
         },
         {
           "id": 255,
           "x": 108,
-          "y": 108
+          "y": 72
         },
         {
           "id": 257,

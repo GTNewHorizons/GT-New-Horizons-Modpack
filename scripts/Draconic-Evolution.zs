@@ -971,7 +971,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:upgradeModifier>, [
 
 
 // --- Draconic Evolution Tablet
-Assembler.addRecipe(<DraconicEvolution:infoTablet>, <dreamcraft:item.StonePlate> * 4, <DraconicEvolution:draconiumDust>, 400, 480);
+Assembler.addRecipe(<DraconicEvolution:infoTablet>, <gregtech:gt.metaitem.01:17299> * 4, <DraconicEvolution:draconiumDust>, 400, 480);
 
 // --- Wireless Energy Tranceiver
 Assembler.addRecipe(<DraconicEvolution:energyCrystal:4>, <DraconicEvolution:energyCrystal>, <DraconicEvolution:particleGenerator> * 2, <liquid:molten.enderium> * 864, 1200, 1024);

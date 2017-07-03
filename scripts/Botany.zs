@@ -60,7 +60,7 @@ recipes.addShaped(<Botany:trowelWood>, [
 
 // --- Stone Trowel
 recipes.addShaped(<Botany:trowelStone>, [
-[<dreamcraft:item.StonePlate>, <ore:craftingToolHardHammer>, null],
+[<ore:plateStone>, <ore:craftingToolHardHammer>, null],
 [<ore:craftingToolFile>, <ore:stickWood>, null],
 [null, null, <ore:stickWood>]]);
 

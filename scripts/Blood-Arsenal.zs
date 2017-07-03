@@ -496,11 +496,6 @@ Centrifuge.addRecipe([<BloodArsenal:blood_money:2>, <BloodArsenal:blood_money:2>
 
 
 
-// --- Blood Infused Iron Block
-Compressor.addRecipe(<BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_iron> * 9);
-// -
-Compressor.addRecipe(<BloodArsenal:blood_infused_iron_block>, <gregtech:gt.metaitem.01:11977> * 9);
-
 // --- Blood Mony x4
 Compressor.addRecipe(<BloodArsenal:blood_money:1>, <BloodArsenal:blood_money> * 4);
 
