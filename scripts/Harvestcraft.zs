@@ -7,7 +7,7 @@
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
 
 
@@ -667,13 +667,13 @@ Extractor.addRecipe(<harvestcraft:pistachiobutterItem>, <harvestcraft:pistachioI
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 
 // --- Corn Meal
-Macerator.addRecipe(<harvestcraft:cornmealItem>, <harvestcraft:cornItem>);
+Pulverizer.addRecipe([<harvestcraft:cornmealItem>], <harvestcraft:cornItem>, [10000], 300, 2);
 
 
 

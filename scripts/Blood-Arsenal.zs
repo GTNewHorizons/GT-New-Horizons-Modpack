@@ -7,7 +7,7 @@ import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.Lathe;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 
 
 // --- Variables ---
@@ -536,12 +536,12 @@ Lathe.addRecipe([<BloodArsenal:blood_infused_stick> * 2], <BloodArsenal:blood_in
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 // --- Blood Infused Diamond Block
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2977>, <BloodArsenal:blood_infused_iron>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2977>], <BloodArsenal:blood_infused_iron>, [10000], 300, 2);
 
 // --- Blood Infused Iron Block
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2977> * 9, <BloodArsenal:blood_infused_iron_block>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2977> * 9], <BloodArsenal:blood_infused_iron_block>, [10000], 300, 2);

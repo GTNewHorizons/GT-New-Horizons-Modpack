@@ -10,7 +10,7 @@ import mods.gregtech.BlastFurnace;
 import mods.gregtech.ChemicalBath;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidSolidifier;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 
 
 
@@ -908,9 +908,9 @@ FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.0
 
 
 
-// --- Macerating Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 // --- Binder Composite
-Macerator.addRecipe(<EnderIO:itemMaterial:2> * 9, <IC2:itemPartCFPowder>);
+Pulverizer.addRecipe([<EnderIO:itemMaterial:2> * 9], <IC2:itemPartCFPowder>, [10000], 300, 2);

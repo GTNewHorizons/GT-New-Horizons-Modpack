@@ -22,7 +22,6 @@ import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.ImplosionCompressor;
-import mods.ic2.Macerator;
 import mods.gregtech.Pulverizer;
 
 
@@ -1788,12 +1787,12 @@ ImplosionCompressor.addRecipe(RefinedH, <StevesCarts:ModuleComponents:18>, 1);
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 // --- Stabezied Metal
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2383>, <StevesCarts:ModuleComponents:22>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2383>], <StevesCarts:ModuleComponents:22>, [10000], 300, 2);
 
 
 

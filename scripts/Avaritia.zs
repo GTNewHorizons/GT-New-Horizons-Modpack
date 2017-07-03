@@ -12,7 +12,7 @@ import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FormingPress;
 import mods.gregtech.ImplosionCompressor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 
 
 
@@ -454,37 +454,14 @@ ImplosionCompressor.addRecipe(<Avaritia:Resource_Block:1>, <Avaritia:Resource:6>
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 // --- Pile of Neutrons
-Macerator.addRecipe(<Avaritia:Resource:2> * 9, <Avaritia:Resource:3>);
+Pulverizer.addRecipe([<Avaritia:Resource:2> * 9], <Avaritia:Resource:3>, [10000], 300, 2);
 
-// --- Record Fragment
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_13>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_cat>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_blocks>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_chirp>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_far>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_mall>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_mellohi>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_stal>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_strad>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_ward>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_11>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_wait>);
+
 
 
 // --- Neutronium Compressor Recipes ---

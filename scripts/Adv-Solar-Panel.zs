@@ -178,16 +178,6 @@ Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, <gregtech:gt.bloc
 
 
 
-// --- Macerator Recipes
-
-
-
-// --- Sunnarium Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2318>, <AdvancedSolarPanel:asp_crafting_items>);
-
-
-
-
 // --- Nei override Names
 
 

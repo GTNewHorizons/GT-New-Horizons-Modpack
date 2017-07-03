@@ -10,7 +10,7 @@ import mods.gregtech.Canner;
 import mods.gregtech.ChemicalBath;
 import mods.ic2.Compressor;
 import mods.gregtech.FormingPress;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
 import mods.gregtech.Packer;
 import mods.gregtech.Unpacker;
@@ -1111,11 +1111,11 @@ FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:59>, <ProjRed|Core:pro
 
 
 
-// --- Macerator Recipes --- 
+// --- Pulverizer Recipes --- 
 
 
 // --- Electrotine Dust
-Macerator.addRecipe(<ProjRed|Core:projectred.core.part:56> * 9, <ProjRed|Exploration:projectred.exploration.stone:11>);
+Pulverizer.addRecipe([<ProjRed|Core:projectred.core.part:56> * 9], <ProjRed|Exploration:projectred.exploration.stone:11>, [10000], 300, 2);
 
 
 

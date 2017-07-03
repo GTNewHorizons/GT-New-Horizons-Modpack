@@ -22,11 +22,10 @@ import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Lathe;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
-import mods.gregtech.Pulverizer;
 import mods.gregtech.VacuumFreezer;
 import mods.gregtech.Wiremill;
 
@@ -1505,123 +1504,123 @@ Lathe.addRecipe([CobblestoneRod, <gregtech:gt.metaitem.01:1299> * 2], <minecraft
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 
 // --- Mushroom Powder
-Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <Forestry:mushroom:*>);
+Pulverizer.addRecipe([<dreamcraft:item.MushroomPowder> * 2], <Forestry:mushroom:*>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <minecraft:brown_mushroom>);
+Pulverizer.addRecipe([<dreamcraft:item.MushroomPowder> * 2], <minecraft:brown_mushroom>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <BiomesOPlenty:mushrooms:*>);
+Pulverizer.addRecipe([<dreamcraft:item.MushroomPowder> * 2], <BiomesOPlenty:mushrooms:*>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.MushroomPowder> * 2, <harvestcraft:whitemushroomItem>);
+Pulverizer.addRecipe([<dreamcraft:item.MushroomPowder> * 2], <harvestcraft:whitemushroomItem>, [10000], 300, 2);
 
 // --- Steel Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldHelmet>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 4], <dreamcraft:item.MoldHelmet>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.ExtruderShapeBoat>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 4], <dreamcraft:item.ExtruderShapeBoat>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldLeggings>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 4], <dreamcraft:item.MoldLeggings>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldBoots>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 4], <dreamcraft:item.MoldBoots>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MoldChestplate>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 4], <dreamcraft:item.MoldChestplate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2305> * 4, <dreamcraft:item.MarshmallowForm>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 4], <dreamcraft:item.MarshmallowForm>, [10000], 300, 2);
 
 // --- Aluminium Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1019> * 2, <dreamcraft:item.AluminiumItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1019> * 2], <dreamcraft:item.AluminiumItemCasing>, [10000], 300, 2);
 
 // --- Stainless Steel Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1306> * 2, <dreamcraft:item.StainlessSteelItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1306> * 2], <dreamcraft:item.StainlessSteelItemCasing>, [10000], 300, 2);
 
 // --- Titanium Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1028> * 2, <dreamcraft:item.TitaniumItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1028> * 2], <dreamcraft:item.TitaniumItemCasing>, [10000], 300, 2);
 
 // --- Chrome Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1030> * 2, <dreamcraft:item.ChromeItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1030> * 2], <dreamcraft:item.ChromeItemCasing>, [10000], 300, 2);
 
 // --- Tungsten Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1081> * 2, <dreamcraft:item.TungstenItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1081> * 2], <dreamcraft:item.TungstenItemCasing>, [10000], 300, 2);
 
 // --- Tungsten Steel Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1316> * 2, <dreamcraft:item.TungstenSteelItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1316> * 2], <dreamcraft:item.TungstenSteelItemCasing>, [10000], 300, 2);
 
 // --- Iridium Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1084> * 2, <dreamcraft:item.IridiumItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1084> * 2], <dreamcraft:item.IridiumItemCasing>, [10000], 300, 2);
 
 // --- Iridium Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1084> * 8, <dreamcraft:item.IridiumAlloyItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1084> * 8], <dreamcraft:item.IridiumAlloyItemCasing>, [10000], 300, 2);
 
 // --- Osmium Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1083> * 2, <dreamcraft:item.OsmiumItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1083> * 2], <dreamcraft:item.OsmiumItemCasing>, [10000], 300, 2);
 
 // --- Neutronium Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1129> * 2, <dreamcraft:item.NeutroniumItemCasing>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1129> * 2], <dreamcraft:item.NeutroniumItemCasing>, [10000], 300, 2);
 
 // --- Mysterious Crystal Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2398>, <GalaxySpace:item.UnknowCrystal>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2398>], <GalaxySpace:item.UnknowCrystal>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2398> * 9, <dreamcraft:item.MysteriousCrystal>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2398> * 9], <dreamcraft:item.MysteriousCrystal>, [10000], 300, 2);
 
 // --- Mytryl Dust
-Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <dreamcraft:item.RawMytryl>);
+Pulverizer.addRecipe([<dreamcraft:item.MytrylDust>], <dreamcraft:item.RawMytryl>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.MytrylDust> * 9, <dreamcraft:tile.Mytryl>);
+Pulverizer.addRecipe([<dreamcraft:item.MytrylDust> * 9], <dreamcraft:tile.Mytryl>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.MytrylDust> * 3, <dreamcraft:item.MytrylCompressedPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.MytrylDust> * 3], <dreamcraft:item.MytrylCompressedPlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <dreamcraft:item.MytrylIngot>);
+Pulverizer.addRecipe([<dreamcraft:item.MytrylDust>], <dreamcraft:item.MytrylIngot>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.MytrylDust>, <dreamcraft:item.MytrylPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.MytrylDust>], <dreamcraft:item.MytrylPlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.MytrylDust> * 9, <dreamcraft:item.MytrylDensePlate>);
+Pulverizer.addRecipe([<dreamcraft:item.MytrylDust> * 9], <dreamcraft:item.MytrylDensePlate>, [10000], 300, 2);
 
 // --- Quantinum Dust
-Macerator.addRecipe(<dreamcraft:item.QuantinumDust> * 9, <dreamcraft:item.QuantinumDensePlate>);
+Pulverizer.addRecipe([<dreamcraft:item.QuantinumDust> * 9], <dreamcraft:item.QuantinumDensePlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.QuantinumDust>], <dreamcraft:item.QuantinumPlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.QuantinumDust> * 3, <dreamcraft:item.QuantinumCompressedPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.QuantinumDust> * 3], <dreamcraft:item.QuantinumCompressedPlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.QuantinumDust>, <dreamcraft:item.QuantinumRod> * 2);
+Pulverizer.addRecipe([<dreamcraft:item.QuantinumDust>], <dreamcraft:item.QuantinumRod> * 2, [10000], 300, 2);
 
 // --- Dust of Black Plutonium
-Macerator.addRecipe(<dreamcraft:item.BlackPlutoniumDust> * 18, <dreamcraft:item.BlackPlutoniumDensePlate>);
+Pulverizer.addRecipe([<dreamcraft:item.BlackPlutoniumDust> * 18], <dreamcraft:item.BlackPlutoniumDensePlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.BlackPlutoniumDust> * 2, <dreamcraft:item.BlackPlutoniumPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.BlackPlutoniumDust> * 2], <dreamcraft:item.BlackPlutoniumPlate>, [10000], 300, 2);
 
 // --- Callisto Dust
-Macerator.addRecipe(<dreamcraft:item.CallistoIceDust> * 9, <dreamcraft:tile.CallistoColdIce>);
+Pulverizer.addRecipe([<dreamcraft:item.CallistoIceDust> * 9], <dreamcraft:tile.CallistoColdIce>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.CallistoIceDust> * 9, <dreamcraft:item.CallistoIceDensePlate>);
+Pulverizer.addRecipe([<dreamcraft:item.CallistoIceDust> * 9], <dreamcraft:item.CallistoIceDensePlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.CallistoIceDust>, <dreamcraft:item.CallistoIcePlate>);
+Pulverizer.addRecipe([<dreamcraft:item.CallistoIceDust>], <dreamcraft:item.CallistoIcePlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.CallistoIceDust>, <dreamcraft:item.CallistoIceColdIngot>);
+Pulverizer.addRecipe([<dreamcraft:item.CallistoIceDust>], <dreamcraft:item.CallistoIceColdIngot>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.CallistoIceDust> * 3, <dreamcraft:item.CallistoIceCompressedPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.CallistoIceDust> * 3], <dreamcraft:item.CallistoIceCompressedPlate>, [10000], 300, 2);
 
 // --- Ledox Dust
-Macerator.addRecipe(<dreamcraft:item.LedoxDust> * 9, <dreamcraft:tile.Ledox>);
+Pulverizer.addRecipe([<dreamcraft:item.LedoxDust> * 9], <dreamcraft:tile.Ledox>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.LedoxDust> * 9, <dreamcraft:item.LedoxDensePlate>);
+Pulverizer.addRecipe([<dreamcraft:item.LedoxDust> * 9], <dreamcraft:item.LedoxDensePlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.LedoxDust>, <dreamcraft:item.LedoxPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.LedoxDust>], <dreamcraft:item.LedoxPlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.LedoxDust>, <dreamcraft:item.LedoxColdIngot>);
+Pulverizer.addRecipe([<dreamcraft:item.LedoxDust>], <dreamcraft:item.LedoxColdIngot>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.LedoxDust> * 3, <dreamcraft:item.LedoxCompressedPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.LedoxDust> * 3], <dreamcraft:item.LedoxCompressedPlate>, [10000], 300, 2);
 
 // --- Charged Certus Quartz Dust
-Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <appliedenergistics2:item.ItemMultiMaterial:1>);
+Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <appliedenergistics2:item.ItemMultiMaterial:1>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.ChargedCertusQuartzPlate>);
+Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <dreamcraft:item.ChargedCertusQuartzPlate>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.ChargedCertusQuartzRod> * 2);
+Pulverizer.addRecipe([<dreamcraft:item.ChargedCertusQuartzDust>], <dreamcraft:item.ChargedCertusQuartzRod> * 2, [10000], 300, 2);
 
 
 

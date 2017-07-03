@@ -5,7 +5,7 @@
 // --- Imports ---
 
 
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 
 
 
@@ -197,20 +197,20 @@ mods.thaumcraft.Warp.addToResearch("SOULFRAME", 1);
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 // --- Small Emerald Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:500>, <ExtraBees:misc:1>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:500>], <ExtraBees:misc:1>, [10000], 300, 2);
 
 // --- Small Diamond Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:501>, <ExtraBees:misc:2>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:501>], <ExtraBees:misc:2>, [10000], 300, 2);
 
 // --- Small Ruby Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:502>, <ExtraBees:misc:3>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:502>], <ExtraBees:misc:3>, [10000], 300, 2);
 
 // --- Small Sapphire Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:503>, <ExtraBees:misc:4>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:503>], <ExtraBees:misc:4>, [10000], 300, 2);
 
 // --- Small Lapis Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:526>, <ExtraBees:misc:5>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:526>], <ExtraBees:misc:5>, [10000], 300, 2);

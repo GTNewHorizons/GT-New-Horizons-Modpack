@@ -8,7 +8,7 @@ import mods.gregtech.Assembler;
 
 import mods.ic2.Compressor;
 import mods.gregtech.ImplosionCompressor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 import mods.nei.NEI;
 
 
@@ -731,24 +731,24 @@ ImplosionCompressor.addRecipe([<dreamcraft:item.HeavyDutyPlateTier8>, <gregtech:
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 // --- Ceres Glowstone Dust
-Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts> * 4, <GalaxySpace:ceresglowstone>);
+Pulverizer.addRecipe([<GalaxySpace:item.GlowstoneDusts> * 4], <GalaxySpace:ceresglowstone>, [10000], 300, 2);
 
 // --- IO Glowstone Dust
-Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts:1> * 4, <GalaxySpace:ioglowstone>);
+Pulverizer.addRecipe([<GalaxySpace:item.GlowstoneDusts:1> * 4], <GalaxySpace:ioglowstone>, [10000], 300, 2);
 
 // --- Enceladus Glowstone Dust
-Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts:2> * 4, <GalaxySpace:enceladusglowstone>);
+Pulverizer.addRecipe([<GalaxySpace:item.GlowstoneDusts:2> * 4], <GalaxySpace:enceladusglowstone>, [10000], 300, 2);
 
 // --- Proteus Glowstone Dust
-Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts:3> * 4, <GalaxySpace:proteusglowstone>);
+Pulverizer.addRecipe([<GalaxySpace:item.GlowstoneDusts:3> * 4], <GalaxySpace:proteusglowstone>, [10000], 300, 2);
 
 // --- Pluto Glowstone Dust
-Macerator.addRecipe(<GalaxySpace:item.GlowstoneDusts:4> * 4, <GalaxySpace:plutoglowstone>);
+Pulverizer.addRecipe([<GalaxySpace:item.GlowstoneDusts:4> * 4], <GalaxySpace:plutoglowstone>, [10000], 300, 2);
 
 
 

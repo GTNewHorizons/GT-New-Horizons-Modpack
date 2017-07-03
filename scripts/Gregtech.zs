@@ -20,7 +20,6 @@ import mods.gregtech.FormingPress;
 import mods.ic2.Canner;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
-import mods.ic2.Macerator;
 import mods.gregtech.PlasmaArcFurnace;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
@@ -1067,29 +1066,29 @@ FormingPress.addRecipe(<dreamcraft:item.ExtruderShapeBoat>, <gregtech:gt.metaite
 
 
 
-// --- Macerator Recipes --- 
+// --- Pulverizer Recipes --- 
 
 
 // --- Flour
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <Natura:barleyFood>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <Natura:barleyFood>, [10000], 300, 2);
 
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <BiomesOPlenty:plants:6>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <BiomesOPlenty:plants:6>, [10000], 300, 2);
 
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <harvestcraft:barleyItem>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <harvestcraft:barleyItem>, [10000], 300, 2);
 
 // --- Minced Meat
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2892> * 9, <Thaumcraft:blockTaint:2>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2892> * 9], <Thaumcraft:blockTaint:2>, [10000], 300, 2);
 
 // --- Glass Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <TConstruct:GlassBlock>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2890>], <TConstruct:GlassBlock>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1890>], <TConstruct:GlassPane>, [10000], 300, 2);
 
 // --- Glass Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <BloodArsenal:glass_shard> * 2);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2890>], <BloodArsenal:glass_shard> * 2, [10000], 300, 2);
 
 // --- Grounded Casseterite
-Macerator.addRecipe(<gregtech:gt.metaitem.01:5937> * 4, <gregtech:gt.blockores:937>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:5937> * 4], <gregtech:gt.blockores:937>, [10000], 300, 2);
 
 
 

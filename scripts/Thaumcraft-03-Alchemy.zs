@@ -7,7 +7,7 @@
 
 
 import mods.ic2.Compressor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 
 
 
@@ -399,15 +399,15 @@ Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:5>, <Thaumcraft:ItemResource
 
 
 
-// --- Macerator Recipes --- 
+// --- Pulverizer Recipes --- 
 
 
 
 // --- Salis Mundus
-Macerator.addRecipe(<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemShard:6>);
+Pulverizer.addRecipe([<Thaumcraft:ItemResource:14>], <Thaumcraft:ItemShard:6>, [10000], 300, 2);
 
 // --- Magic Tallow
-Macerator.addRecipe(<Thaumcraft:ItemResource:4> * 9, <Thaumcraft:blockCosmeticSolid:5>);
+Pulverizer.addRecipe([<Thaumcraft:ItemResource:4> * 9], <Thaumcraft:blockCosmeticSolid:5>, [10000], 300, 2);
 
 
 

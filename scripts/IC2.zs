@@ -15,7 +15,7 @@ import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.Fuels;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
 import mods.gregtech.PlateBender;
 import mods.gregtech.Polarizer;
@@ -1930,14 +1930,14 @@ PlateBender.addRecipe(<IC2:itemDensePlates:8>, <gregtech:gt.metaitem.01:17526> *
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 // --- Basalt Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2844>, <IC2:blockBasalt>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2844>], <IC2:blockBasalt>, [10000], 300, 2);
 
 // --- Lapatron to dust
-Macerator.addRecipe(<dreamcraft:item.LapotronDust> * 30,  <IC2:itemBatLamaCrystal:26>);
+Pulverizer.addRecipe([<dreamcraft:item.LapotronDust> * 30],  <IC2:itemBatLamaCrystal:26>, [10000], 300, 2);
 
 
 

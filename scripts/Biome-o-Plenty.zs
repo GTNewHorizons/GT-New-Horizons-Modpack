@@ -10,7 +10,7 @@ import mods.gregtech.Centrifuge;
 import mods.gregtech.FluidExtractor;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.FluidSolidifier;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 
 
 
@@ -190,15 +190,15 @@ FluidSolidifier.addRecipe(<BiomesOPlenty:honeyBlock>, <gregtech:gt.metaitem.01:3
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 // --- Small Bone Segment
-Macerator.addRecipe(<minecraft:dye:15> * 5, <BiomesOPlenty:bones>);
+Pulverizer.addRecipe([<minecraft:dye:15> * 5], <BiomesOPlenty:bones>, [10000], 300, 2);
 
 // --- Medium Bone Segment
-Macerator.addRecipe(<minecraft:dye:15> * 10, <BiomesOPlenty:bones:1>);
+Pulverizer.addRecipe([<minecraft:dye:15> * 10], <BiomesOPlenty:bones:1>, [10000], 300, 2);
 
 // --- Large Bone Segment
-Macerator.addRecipe(<minecraft:dye:15> * 15, <BiomesOPlenty:bones:2>);
+Pulverizer.addRecipe([<minecraft:dye:15> * 15], <BiomesOPlenty:bones:2>, [10000], 300, 2);
