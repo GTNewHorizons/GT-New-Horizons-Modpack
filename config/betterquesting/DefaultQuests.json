@@ -4751,7 +4751,7 @@
     {
       "questID": 53,
       "name": "Hammer time v2",
-      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability and using tree Ingots to make two plates? Guess what, there is one! And you should totally get one.",
+      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability and using three Ingots to make two plates? Guess what, there is one! And you should totally get one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
