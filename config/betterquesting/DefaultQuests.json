@@ -5936,6 +5936,12 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2006
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
               "Count": 7,
               "OreDict": "",
               "Damage": 1246
