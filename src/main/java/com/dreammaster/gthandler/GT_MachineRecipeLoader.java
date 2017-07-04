@@ -633,7 +633,22 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addCompressorRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Sodalite, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Sodalite, 1L), 300, 2);
         GT_Values.RA.addCompressorRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EnhancedGalgadorian, 9L), GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 48), 300, 2);
 
-        GT_Values.RA.addPulveriserRecipe(GT_ModHandler.getModItem("TConstruct", "materials", 1L, 12),  new ItemStack[]{GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 1L)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 1L),   new ItemStack[]{GT_ModHandler.getModItem("TConstruct", "materials", 1L, 12)}, new int[]{10000}, 300, 2);
+
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_11, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_13, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_cat, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_blocks, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_chirp, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_far, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_mellohi, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_mall, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_stal, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_strad, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_ward, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+        GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_wait, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
+
+        GT_Values.RA.addPulveriserRecipe(GT_ModHandler.getModItem("AdvancedSolarPanel", "asp_crafting_items", 1L, 0), new ItemStack[]{GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Sunnarium, 1L)}, new int[]{10000}, 300, 2);
 
         GT_Values.RA.addDistillationTowerRecipe(new FluidStack(FluidRegistry.getFluid("pollution"), 1600), new FluidStack[]{Materials.SulfuricAcid.getFluid(50L), Materials.NitrogenDioxide.getGas(50L), Materials.Methane.getGas(50L), Materials.Mercury.getFluid(1L)}, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Ash, 1L), 600, 1920);
 
