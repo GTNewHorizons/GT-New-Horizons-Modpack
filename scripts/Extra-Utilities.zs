@@ -780,6 +780,17 @@ recipes.addShaped(WateringCan, [
 [IronPlate, IronPlate, IronRod],
 [IronPlate, IronPlate, SteelScrew]]);
 
+// --- Reinforced Watering Can
+recipes.addShaped(<ExtraUtilities:watering_can:3>, [
+[HHammer, <ore:ringNeutronium>, Screwdriver],
+[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>],
+[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <ore:screwNeutronium>]]);
+// -
+recipes.addShaped(<ExtraUtilities:watering_can:3>, [
+[Screwdriver, <ore:ringNeutronium>, HHammer],
+[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>],
+[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <ore:screwNeutronium>]]);
+
 // --- Magnum Torch
 mods.extraUtils.QED.addShapedRecipe(MagnumTorch, [
 [<minecraft:potion:8225>, Nitor, <minecraft:potion:8229>],
