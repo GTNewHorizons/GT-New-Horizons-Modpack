@@ -222,8 +222,8 @@ recipes.addShaped(Dolly, [
 
 // --- Diamond Dolly
 recipes.addShaped(DiamondDolly, [
-[<ore:stickDiamond>, <ore:stickDiamond>, <ore:roundPlatic>],
-[<ore:stickDiamond>, <ore:craftingToolWrench>, <ore:roundPlatic>],
+[<ore:stickDiamond>, <ore:stickDiamond>, <ore:roundPlastic>],
+[<ore:stickDiamond>, <ore:craftingToolWrench>, <ore:roundPlastic>],
 [SteelWheels, <ore:plateNetherStar>, SteelWheels]]);
 
 // --- Barrel Hammer
