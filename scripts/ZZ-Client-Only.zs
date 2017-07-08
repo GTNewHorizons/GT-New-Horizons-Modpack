@@ -9,7 +9,8 @@ import mods.gregtech.Assembler;
 import mods.gregtech.FormingPress;
 
 
-
+val BlankCast = <TConstruct:blankPattern:1>;
+val WireCutter = <ore:craftingToolWireCutter>;
 
 // --- Remove Recipes ---
 
