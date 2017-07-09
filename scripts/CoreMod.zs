@@ -380,9 +380,9 @@ recipes.addShaped(<dreamcraft:item.ShapeBoat>, [
 
 // --- Mold Form Boots
 recipes.addShaped(<dreamcraft:item.MoldFormBoots>, [
-[null, File, null],
-[null, BlankCast, null],
-[null, WireCutter, null]]);
+[null, null, null],
+[File, BlankCast, null],
+[null, null, WireCutter]]);
 
 // --- Mold Form Chestplate
 recipes.addShaped(<dreamcraft:item.MoldFormChestplate>, [
