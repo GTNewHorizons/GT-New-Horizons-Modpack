@@ -67374,7 +67374,7 @@
     {
       "questID": 741,
       "name": "Tool Forge",
-      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a tool forge for making bigger Tinkers tools. ",
+      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a tool forge for making bigger Tinkers tools. A advanced bending machine is also needed. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -67478,7 +67478,8 @@
         }
       ],
       "preRequisites": [
-        103
+        103,
+        89
       ]
     },
     {
@@ -86392,26 +86393,6 @@
           "y": 468
         },
         {
-          "id": 741,
-          "x": 84,
-          "y": 60
-        },
-        {
-          "id": 742,
-          "x": 0,
-          "y": 60
-        },
-        {
-          "id": 743,
-          "x": 84,
-          "y": 0
-        },
-        {
-          "id": 744,
-          "x": 0,
-          "y": 0
-        },
-        {
           "id": 717,
           "x": 444,
           "y": 336
@@ -86941,6 +86922,26 @@
           "id": 859,
           "x": 300,
           "y": 252
+        },
+        {
+          "id": 741,
+          "x": 48,
+          "y": 84
+        },
+        {
+          "id": 743,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 744,
+          "x": 0,
+          "y": 84
+        },
+        {
+          "id": 742,
+          "x": 48,
+          "y": 36
         }
       ]
     },
