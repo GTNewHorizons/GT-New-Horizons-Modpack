@@ -9245,7 +9245,7 @@
     },
     {
       "questID": 101,
-      "name": "Mjölnir!!! (electric forge hammer)",
+      "name": "Mjolnir!!! (electric forge hammer)",
       "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
@@ -67268,7 +67268,43 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
+              "Damage": 32359
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32360
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32361
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 32362
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32363
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32357
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32354
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -67280,7 +67316,13 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32354
+              "Damage": 32355
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32373
             }
           ],
           "taskID": "bq_standard:retrieval"
