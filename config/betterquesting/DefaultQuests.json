@@ -77815,16 +77815,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 17500
+              "Damage": 32034
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 32711
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -77849,16 +77849,16 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 17500
+              "Damage": 32034
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32711
+              "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -77919,16 +77919,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 24,
               "OreDict": "",
-              "Damage": 17500
+              "Damage": 32033
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 48,
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -77953,16 +77953,16 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 4,
               "OreDict": "",
-              "Damage": 17500
+              "Damage": 32033
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
