@@ -75,6 +75,7 @@ val RoundRobinUp = <ExtraUtilities:nodeUpgrade:9>;
 val RedAlloyRod = <ore:stickRedAlloy>;
 val BronzeGear = <ore:gearBronze>;
 val IronPlate = <ore:plateAnyIron>;
+val DiamondPlate = <ore:plateDiamond>;
 val SteelRing = <ore:ringSteel>;
 val StainlessGear = <ore:gearStainlessSteel>;
 val IronRod = <ore:stickAnyIron>;
@@ -670,9 +671,9 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [
 
 // --- Speed Upgrade
 recipes.addShaped(SpeedUp, [
-[RedAlloyPlate, SSteelPlate, RedAlloyPlate],
-[SSteelGear, DiamondGear, SSteelGear],
-[RedAlloyPlate, SSteelPlate, RedAlloyPlate]]);
+[RedAlloyPlate, DiamondPlate, RedAlloyPlate],
+[DiamondPlate, SSteelGear, DiamondPlate],
+[RedAlloyPlate, DiamondPlate, RedAlloyPlate]]);
 
 // --- Item Filter Upgrade
 recipes.addShaped(ItemFilterUp, [
