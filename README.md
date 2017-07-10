@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version pre1.5.0.0 is out 25.06.2017
+Version pre1.5.0.3 is out 10.07.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -77,6 +77,9 @@ http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
+Official EU Test Server 1.5.0.3
+zeta.gtnewhorizons.com<BR>
+
  
 Dirt Huts EU Server Whitelisted<BR>
 http://dirthuts.com<BR>
@@ -109,10 +112,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.0.0 --- 25.06.2017<BR>
+## Modlist - NewHorizons 1.5.0.3 --- 10.07.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta12<BR>
+* Adventure Backpack 0.9gbeta15<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU	1.2.3.a<BR>
@@ -135,7 +138,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
-* Binnie Mods	2.0-16<BR>
+* Binnie Mods	2.0-19<BR>
 * Biomes o Plenty	2.1.0.2027<BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
@@ -185,9 +188,9 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.31.03<BR>
-* GT New Horizons Core Mod	1.4.11<BR>
-* GT++ 1.5.0Beta<BR>
+* Gregtech	5.09.31.09a<BR>
+* GT New Horizons Core Mod	1.4.16<BR>
+* GT++ 1.5.6<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -197,7 +200,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Chisel Tones 1.0.3<BR>
 * IC2 Nuclear Control	2.4.1a<BR>
 * IguanaTinkerTweaks	2.1.6b<BR>
-* Industrial Craft 2	2.2.2.827a<BR>
+* Industrial Craft 2	2.2.2.828a<BR>
 * Industrial Craft 2 Nei Plugin	1.1.0<BR>
 * Infernal Mobs	1.6.6<BR>
 * InpureCore	1.0.0B9-62<BR>
@@ -227,8 +230,8 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.6.753<BR>
 * Open Computers	1.6.2.12<BR>
-* Open Mods Lib	0.10.464<BR>
-* Open Modular Turrets 2.2.10.237<BR>
+* Open Mods Lib	0.10.465<BR>
+* Open Modular Turrets 2.2.10.238<BR>
 * Open Peripheral Addons 0.6.249<BR>
 * Open Peripheral Core 1.4.280<BR>
 * Open Peripheral Integration 0.6.95<BR>
@@ -271,10 +274,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
 * Thaumic Bases	1.4.15.0<BR>
 * Thaumic Energistics	1.0.0.5<BR>
-* Thaumic Exploration	1.1.67<BR>
+* Thaumic Exploration	1.1.69<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
-* Thaumic Tinkerer	2.5.550<BR>
+* Thaumic Tinkerer	2.5.552<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9.4-GTNH<BR>
 * Tinker's Gregworks	1.0.17<BR>
