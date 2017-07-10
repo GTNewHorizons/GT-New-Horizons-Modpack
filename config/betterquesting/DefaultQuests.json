@@ -1,5 +1,5 @@
 {
-  "editMode": false,
+  "editMode": true,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -4469,7 +4469,7 @@
       "questID": 50,
       "name": "Macerator v1.0!",
       "description": "Finally you are able to make a device that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -4522,7 +4522,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -4751,7 +4751,7 @@
     {
       "questID": 53,
       "name": "Hammer time v2",
-      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability and using three Ingots to make two plates? Guess what, there is one! And you should totally get one.",
+      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability and using tree Ingots to make two plates? Guess what, there is one! And you should totally get one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5637,7 +5637,7 @@
     {
       "questID": 65,
       "name": "Blastoff!",
-      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bricked blast furnace. Return here when you made at least 8 steel ingots.",
+      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bronze blast furnace. Return here when you made at least 8 steel ingots.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5845,8 +5845,8 @@
         }
       ],
       "preRequisites": [
-        67,
-        871
+        65,
+        67
       ]
     },
     {
@@ -5934,12 +5934,6 @@
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 2006
-            },
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 7,
@@ -7174,8 +7168,7 @@
         }
       ],
       "preRequisites": [
-        54,
-        50
+        54
       ]
     },
     {
@@ -7705,7 +7698,7 @@
     {
       "questID": 82,
       "name": "An unexpected Bonus",
-      "description": "Because we\u0027re nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bricked blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)",
+      "description": "Because we\u0027re nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bronze blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9245,7 +9238,7 @@
     },
     {
       "questID": 101,
-      "name": "Mjolnir!!! (electric forge hammer)",
+      "name": "Mjölnir!!! (electric forge hammer)",
       "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
@@ -16236,7 +16229,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
-              "Count": 4,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -16417,19 +16410,10 @@
             },
             {
               "id": "appliedenergistics2:tile.BlockCraftingUnit",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
+            },
             {
               "id": "appliedenergistics2:tile.BlockCraftingStorage",
               "Count": 1,
@@ -16631,7 +16615,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
-              "Count": 24,
+              "Count": 16,
               "OreDict": "",
               "Damage": 16
             },
@@ -48202,7 +48186,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 128,
+              "Count": 288,
               "OreDict": "",
               "Damage": 30709
             }
@@ -62844,7 +62828,7 @@
     {
       "questID": 697,
       "name": "2x steel",
-      "description": "Steel production is so slow. If you got enough bricks and clay, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some bricks, clay and concrete.",
+      "description": "Steel production is so slow. If you got enough bronze, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some coppper.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -63074,7 +63058,7 @@
     {
       "questID": 699,
       "name": "Why one coke oven when you can have ten",
-      "description": "Your bricked blast furnace uses coal like hell and your steam boiler too? Well it\u0027s time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.",
+      "description": "Your bronze blast furnace uses coal like hell and your steam boiler too? Well it\u0027s time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -66244,7 +66228,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemFuelPlantBall",
-              "Count": 64,
+              "Count": 3067,
               "OreDict": "",
               "Damage": 0
             }
@@ -66348,7 +66332,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.MaceratedPlantmass",
-              "Count": 64,
+              "Count": 1534,
               "OreDict": "",
               "Damage": 0
             }
@@ -66452,7 +66436,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemBiochaff",
-              "Count": 64,
+              "Count": 1534,
               "OreDict": "",
               "Damage": 0
             }
@@ -66764,7 +66748,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 920,
               "OreDict": "",
               "Damage": 30691
             }
@@ -67268,43 +67252,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32359
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32360
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32361
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
               "Damage": 32362
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32363
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32357
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32354
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -67316,13 +67264,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32355
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32373
+              "Damage": 32354
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -67374,7 +67316,7 @@
     {
       "questID": 741,
       "name": "Tool Forge",
-      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a tool forge for making bigger Tinkers tools. A advanced bending machine is also needed. ",
+      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a tool forge for making bigger Tinkers tools. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -67408,7 +67350,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 22019
+              "Damage": 18019
             },
             {
               "id": "minecraft:iron_block",
@@ -67478,8 +67420,7 @@
         }
       ],
       "preRequisites": [
-        103,
-        89
+        103
       ]
     },
     {
@@ -68389,6 +68330,12 @@
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32719
+            },
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 32,
@@ -77809,16 +77756,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.03",
-              "Count": 8,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 32034
+              "Damage": 17500
             },
             {
-              "id": "dreamcraft:item.ReinforcedGlassLense",
-              "Count": 1,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32711
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -77843,16 +77790,16 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.03",
-              "Count": 4,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 32034
+              "Damage": 17500
             },
             {
-              "id": "dreamcraft:item.ReinforcedGlassLense",
-              "Count": 2,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32711
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -77913,16 +77860,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.03",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 24,
               "OreDict": "",
-              "Damage": 32033
+              "Damage": 17500
             },
             {
-              "id": "dreamcraft:item.ReinforcedGlassLense",
-              "Count": 1,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 48,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32710
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -77947,16 +77894,16 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.03",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 32033
+              "Damage": 17500
             },
             {
-              "id": "dreamcraft:item.ReinforcedGlassLense",
-              "Count": 2,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32710
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -79020,7 +78967,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 107,
               "OreDict": "",
               "Damage": 30691
             }
@@ -79124,7 +79071,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 32,
               "OreDict": "",
               "Damage": 30673
             }
@@ -79302,7 +79249,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 384,
               "OreDict": "",
               "Damage": 30627
             }
@@ -79608,7 +79555,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 384,
               "OreDict": "",
               "Damage": 30713
             }
@@ -80049,7 +79996,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 120,
               "OreDict": "",
               "Damage": 30691
             }
@@ -81892,457 +81839,6 @@
       "preRequisites": [
         667,
         97
-      ]
-    },
-    {
-      "questID": 867,
-      "name": "Lapis, Lazurit, Sodalite, Calcite",
-      "description": "In order to make your bricked blast furnace you need to find a lapis vine wherein is calcite.\nYou can find the vein in the overworld or the twilight forest at Y 20- 50.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:lapis_block",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 526
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 524
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 823
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32243
-            },
-            {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32244
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "choices": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 2823
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 2934
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        50
-      ]
-    },
-    {
-      "questID": 868,
-      "name": "Gypsum",
-      "description": "To making bricks for the blast furnace you need concrete and gypsum. It can be found in a vein together with basaltic and granitic mineral sand, fullers earth and gypsum. Y 50-60 and only in the overworld.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 2934
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 935
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 936
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 928
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 934
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "harvestcraft:gingerbreadItem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "harvestcraft:pumpkinbreadItem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "choices": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 2934
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 2823
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinAdventure",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        50
-      ]
-    },
-    {
-      "questID": 869,
-      "name": "Sifting Machine",
-      "description": "You need flawless or exquisite diomands, emralds rubys or other gems? Well then it\u0027s time for you doing a Sifting Machine.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.blockmachines",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 641
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 641
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 6500
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 6501
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 6502
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        70,
-        538
-      ]
-    },
-    {
-      "questID": 870,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": []
-    },
-    {
-      "questID": 871,
-      "name": "Molds, molds, molds",
-      "description": "After you can make steel and have a tinkers smelter you have to make molds. Molds can be use in the alloy smelter and the fluid solidifier.  You need them to make vacuum tubes, ingots, gears and more.",
-      "isMain": true,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 32307
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32301
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32302
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32303
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32306
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32307
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32309
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 32300
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        65
       ]
     },
     {
@@ -85849,28 +85345,28 @@
         },
         {
           "id": 58,
-          "x": 516,
+          "x": 468,
           "y": 0
         },
         {
           "id": 59,
           "x": 48,
-          "y": 180
+          "y": 108
         },
         {
           "id": 60,
           "x": 0,
-          "y": 252
+          "y": 180
         },
         {
           "id": 61,
           "x": 96,
-          "y": 252
+          "y": 180
         },
         {
           "id": 62,
           "x": 0,
-          "y": 180
+          "y": 108
         },
         {
           "id": 63,
@@ -85899,7 +85395,7 @@
         },
         {
           "id": 69,
-          "x": 372,
+          "x": 324,
           "y": 180
         },
         {
@@ -85959,7 +85455,7 @@
         },
         {
           "id": 495,
-          "x": 420,
+          "x": 468,
           "y": 36
         },
         {
@@ -85974,7 +85470,7 @@
         },
         {
           "id": 534,
-          "x": 324,
+          "x": 288,
           "y": 180
         },
         {
@@ -85984,7 +85480,7 @@
         },
         {
           "id": 536,
-          "x": 420,
+          "x": 372,
           "y": 180
         },
         {
@@ -86000,7 +85496,7 @@
         {
           "id": 560,
           "x": 48,
-          "y": 216
+          "y": 180
         },
         {
           "id": 561,
@@ -86056,21 +85552,6 @@
           "id": 563,
           "x": 372,
           "y": 72
-        },
-        {
-          "id": 867,
-          "x": 468,
-          "y": 36
-        },
-        {
-          "id": 868,
-          "x": 516,
-          "y": 36
-        },
-        {
-          "id": 871,
-          "x": 288,
-          "y": 180
         }
       ]
     },
@@ -86225,7 +85706,7 @@
         },
         {
           "id": 120,
-          "x": 384,
+          "x": 360,
           "y": 0
         },
         {
@@ -86250,7 +85731,7 @@
         },
         {
           "id": 121,
-          "x": 384,
+          "x": 360,
           "y": 60
         },
         {
@@ -86529,6 +86010,26 @@
           "y": 468
         },
         {
+          "id": 741,
+          "x": 84,
+          "y": 60
+        },
+        {
+          "id": 742,
+          "x": 0,
+          "y": 60
+        },
+        {
+          "id": 743,
+          "x": 84,
+          "y": 0
+        },
+        {
+          "id": 744,
+          "x": 0,
+          "y": 0
+        },
+        {
           "id": 717,
           "x": 444,
           "y": 336
@@ -86582,11 +86083,6 @@
           "id": 840,
           "x": 228,
           "y": 432
-        },
-        {
-          "id": 869,
-          "x": 396,
-          "y": 180
         }
       ]
     },
@@ -87058,26 +86554,6 @@
           "id": 859,
           "x": 300,
           "y": 252
-        },
-        {
-          "id": 741,
-          "x": 48,
-          "y": 84
-        },
-        {
-          "id": 743,
-          "x": 0,
-          "y": 36
-        },
-        {
-          "id": 744,
-          "x": 0,
-          "y": 84
-        },
-        {
-          "id": 742,
-          "x": 48,
-          "y": 36
         }
       ]
     },
