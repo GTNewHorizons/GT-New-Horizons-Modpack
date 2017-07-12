@@ -133,7 +133,7 @@ val IronRod = <ore:stickIron>;
 
 
 // --- Removing Recipes ---
-
+mods.appeng.Grinder.removeRecipe(<*>);
 
 // --- Blocks ---
 
