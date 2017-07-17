@@ -8050,7 +8050,7 @@
     },
     {
       "questID": 85,
-      "name": "Smelt all the things...",
+      "name": "Smelt all the things stack wise...",
       "description": "...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can\u0027t go any faster! \n\nHint: Parallel smelting depends on coils, consult your local doctor before use.",
       "isMain": false,
       "isSilent": false,
@@ -8113,7 +8113,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 2,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 5
             }
           ],
           "rewardID": "bq_standard:item"
@@ -8121,8 +8121,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -8131,7 +8131,8 @@
         }
       ],
       "preRequisites": [
-        89
+        89,
+        870
       ]
     },
     {
@@ -67463,13 +67464,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -67642,13 +67643,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -67817,13 +67818,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -67992,13 +67993,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -82209,6 +82210,104 @@
       ]
     },
     {
+      "questID": 870,
+      "name": "Smelt all the things...",
+      "description": "Smelting up to nine item at once? With a bit steel you can make a railcraft Steam Oven. 2x2x2\n\nHint: No wood to charcoal won\u0027t work here too. All recipes from furnace works here fine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 104
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
       "questID": 871,
       "name": "Molds, molds, molds",
       "description": "After you can make steel and have a tinkers smelter you have to make molds. Molds can be use in the alloy smelter and the fluid solidifier.  You need them to make vacuum tubes, ingots, gears and more.",
@@ -83146,10 +83245,13 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IguanaTweaksTConstruct:skullItem",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 1
+        "Damage": 1,
+        "tag": {
+          "orig_id:8": "IguanaTweaksTConstruct:skullItem"
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -83386,10 +83488,13 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IguanaTweaksTConstruct:skullItem",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2
+        "Damage": 2,
+        "tag": {
+          "orig_id:8": "IguanaTweaksTConstruct:skullItem"
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -83546,10 +83651,13 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IguanaTweaksTConstruct:skullItem",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 0,
+        "tag": {
+          "orig_id:8": "IguanaTweaksTConstruct:skullItem"
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -84215,10 +84323,13 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IguanaTweaksTConstruct:skullItem",
+        "id": "betterquesting:placeholder",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2
+        "Damage": 2,
+        "tag": {
+          "orig_id:8": "IguanaTweaksTConstruct:skullItem"
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -88382,6 +88493,11 @@
           "id": 556,
           "x": 96,
           "y": 144
+        },
+        {
+          "id": 870,
+          "x": 240,
+          "y": 36
         }
       ]
     },
