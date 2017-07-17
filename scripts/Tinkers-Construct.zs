@@ -356,6 +356,18 @@ recipes.remove(<TConstruct:materials:22>);
 // --- Golden Apple
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:golden_apple>);
 
+// --- Gear Mold
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:gearCast>);
+
+// --- Gear Mold Enderium
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31321>);
+
+// --- Gear Mold Ardite
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31382>);
+
+// --- Gear Mold Manyullyn
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31386>);
+
 // --- Hambone
 recipes.remove(<TConstruct:MeatBlock>);
 
@@ -977,9 +989,6 @@ mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:2>, <liquid:aluminumbrass.m
 
 // --- Bow Limb Cast
 mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:3>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
-
-// --- Gear Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:gearCast>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Gt Iron
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:32>, <liquid:iron.molten> * 144, 700, <minecraft:iron_ore>);
