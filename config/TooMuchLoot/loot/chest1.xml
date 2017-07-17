@@ -34,7 +34,7 @@
 	<loot item="gregtech:gt.metaitem.01" damage="17054" weight="25" count_min="10" count_max="20"/>
 	<loot item="gregtech:gt.metaitem.01" damage="21057" weight="15" count_min="4" count_max="6"/>
 	<loot item="gregtech:gt.metaitem.01" damage="21300" weight="15" count_min="4" count_max="6"/>
-	<loot item="gregtech:gt.metaitem.01" damage="31300" weight="20" count_min="8" count_max="10"/>
+	<loot item="gregtech:gt.metaitem.02" damage="31300" weight="20" count_min="8" count_max="10"/>
 	<loot item="gregtech:gt.metaitem.01" damage="31035" weight="20" count_min="8" count_max="10"/>
 	<loot item="gregtech:gt.metaitem.01" damage="11308" weight="25" count_min="8" count_max="10"/>
 	<loot item="gregtech:gt.metaitem.01" damage="17308" weight="20" count_min="12" count_max="16"/>
