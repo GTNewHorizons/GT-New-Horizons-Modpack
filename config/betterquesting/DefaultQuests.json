@@ -50265,7 +50265,6 @@
         }
       ],
       "preRequisites": [
-        93,
         95
       ]
     },
@@ -84168,6 +84167,84 @@
       ]
     },
     {
+      "questID": 898,
+      "name": "Simple Ore Washer",
+      "description": "Are you lazy making a Ore washer and bored about you cant automate your cauldron then the simple washer is the machine you need. It is fast using max 8eu and is very fast. Ok you not get any byproducts but who cares.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 767
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 767
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5133
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        890,
+        93
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look it in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
@@ -87922,7 +87999,7 @@
         },
         {
           "id": 91,
-          "x": 156,
+          "x": 192,
           "y": 144
         },
         {
@@ -87932,8 +88009,8 @@
         },
         {
           "id": 93,
-          "x": 156,
-          "y": 216
+          "x": 192,
+          "y": 180
         },
         {
           "id": 94,
@@ -88117,12 +88194,12 @@
         },
         {
           "id": 540,
-          "x": 84,
+          "x": 0,
           "y": 576
         },
         {
           "id": 541,
-          "x": 84,
+          "x": 0,
           "y": 144
         },
         {
@@ -88148,12 +88225,12 @@
         {
           "id": 546,
           "x": 108,
-          "y": 216
+          "y": 264
         },
         {
           "id": 547,
           "x": 108,
-          "y": 264
+          "y": 300
         },
         {
           "id": 548,
@@ -88387,8 +88464,8 @@
         },
         {
           "id": 771,
-          "x": 216,
-          "y": 180
+          "x": 60,
+          "y": 264
         },
         {
           "id": 579,
@@ -88427,8 +88504,13 @@
         },
         {
           "id": 892,
-          "x": 156,
+          "x": 60,
           "y": 180
+        },
+        {
+          "id": 898,
+          "x": 60,
+          "y": 216
         }
       ]
     },
