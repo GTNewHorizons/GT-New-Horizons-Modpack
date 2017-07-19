@@ -126,6 +126,8 @@ public class GT_Loader_OreDictionary extends gregtech.loaders.preload.GT_Loader_
 
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Reinforced, GT_ModHandler.getModItem("StevesCarts", "BlockMetalStorage", 1L, 0));
         GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Reinforced, GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 22));
+        GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.Galgadorian, GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 47));
+        GT_OreDictUnificator.registerOre(OrePrefixes.ingot, Materials.EnhancedGalgadorian, GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 49));
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.Galgadorian, GT_ModHandler.getModItem("StevesCarts", "BlockMetalStorage", 1L, 1));
         GT_OreDictUnificator.registerOre(OrePrefixes.block, Materials.EnhancedGalgadorian, GT_ModHandler.getModItem("StevesCarts", "BlockMetalStorage", 1L, 2));
 
