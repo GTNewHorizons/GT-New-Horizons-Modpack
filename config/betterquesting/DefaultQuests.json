@@ -47461,7 +47461,7 @@
       "questID": 548,
       "name": "Light Sulfuric Fuel",
       "description": "The first step is to distill your oil into light sulfuric fuel, that has a burn value of 40,000 EU.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -47521,8 +47521,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -47538,7 +47538,7 @@
       "questID": 549,
       "name": "Light fuel",
       "description": "By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -47604,8 +47604,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -48257,8 +48257,7 @@
       "preRequisites": [
         556,
         549,
-        841,
-        845
+        841
       ]
     },
     {
@@ -66122,7 +66121,7 @@
       "questID": 730,
       "name": "Bio Fuels",
       "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with bio diesel. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or IC2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biodiesel.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66194,8 +66193,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinFarmerI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66212,7 +66211,7 @@
       "questID": 731,
       "name": "Plant balls",
       "description": "The first step is to compress plantballs out of your wheat. Your LV compressor is too slow for it. I suggest crafting 4 MV compressors for the new bio diesel processing line.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66299,8 +66298,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66316,7 +66315,7 @@
       "questID": 732,
       "name": "Plant Mass",
       "description": "Macerate the plantballs down to plant mass for better processing. In the LV and MV tiers you get only one plant mass per, in HV tier you recieve two. IV macerator gives up to four of them with a chance of 50% and 25%.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66403,8 +66402,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66420,7 +66419,7 @@
       "questID": 733,
       "name": "Bio Chaff",
       "description": "Plant mass needs to be centrifuged into bio chaff, the base material to make biomass. You need 1 or 2 MV centrifuges to run the new production line.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66507,8 +66506,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66524,7 +66523,7 @@
       "questID": 734,
       "name": "Way One: IC 2 Fluid Canner",
       "description": "The first way you get biomass out of bio chaff is to use the IC2 Fluid Canner. One bucket of water and one bio chaff give one bucket of biomass. In HV Tier you can use the pyrolyze oven to do it in a more efficient way.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66611,8 +66610,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66628,7 +66627,7 @@
       "questID": 735,
       "name": "Way Two: Brewery",
       "description": "If you are lucky and find some brewing stands or familiar enough with Thaumcraft to make one you can craft a brewery. You get 750mb of biomass out of 750mb water and 1 bio chaff. In HV tier you can use the pyrolyze oven to do it in a more efficient way.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66715,8 +66714,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66732,7 +66731,7 @@
       "questID": 736,
       "name": "Fermented Biomass",
       "description": "With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.\nWhen you reach HV tier there\u0027s a more efficient way to process it; the distillation tower multiblock.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66819,14 +66818,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -71071,8 +71070,7 @@
         }
       ],
       "preRequisites": [
-        771,
-        750
+        771
       ]
     },
     {
@@ -79179,7 +79177,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
+              "id": "dreamcraft:item.CoinTechnician",
               "Count": 25,
               "OreDict": "",
               "Damage": 0
@@ -79196,7 +79194,7 @@
       "questID": 844,
       "name": "Ethanol",
       "description": "Ethanol with a burn value of 192,000 EU per cell can be used to make biodiesel and other fluids.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -79268,8 +79266,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -79465,7 +79463,7 @@
     {
       "questID": 847,
       "name": "Ethylene",
-      "description": "You can make ethylene out of ethanol and sulfuric acid in a chemical reactor or by distilling various gases (i.e. wood gas) in a distillery.",
+      "description": "You can make ethylene out of ethanol and sulfuric acid in a chemical reactor or by distilling various gases (i.e. wood gas) in a distillery. Cracking naptha, fuels and gas with hydrogen or steam in the chemical reactor will work too.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -79489,27 +79487,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 30706
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 30720
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -79569,7 +79546,8 @@
         }
       ],
       "preRequisites": [
-        844
+        549,
+        641
       ]
     },
     {
@@ -80031,7 +80009,7 @@
     {
       "questID": 852,
       "name": "Acetic Acid",
-      "description": "Fermented biomass can be destilled into acetic acid.",
+      "description": "Acetic acid can be made out of oxygen and ethylen. Additional it can be made out of biomass, wood venigar or venigar.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80063,9 +80041,15 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "Count": 6,
               "OreDict": "",
-              "Damage": 30691
+              "Damage": 30013
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 30677
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -80102,10 +80086,10 @@
               "Damage": 32702
             },
             {
-              "id": "IC2:itemFuelPlantBall",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 30677
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -80129,7 +80113,8 @@
         }
       ],
       "preRequisites": [
-        736
+        847,
+        846
       ]
     },
     {
@@ -80240,7 +80225,7 @@
     {
       "questID": 854,
       "name": "Ammonia",
-      "description": "Now you know one more output from distilling biomass... Ammonia.",
+      "description": "Nitrogen and hydrogen... Ammonia.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80272,9 +80257,15 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 240,
+              "Count": 36,
               "OreDict": "",
-              "Damage": 30691
+              "Damage": 30001
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30012
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -80332,7 +80323,8 @@
         }
       ],
       "preRequisites": [
-        736
+        550,
+        555
       ]
     },
     {
@@ -80646,7 +80638,6 @@
         }
       ],
       "preRequisites": [
-        843,
         854
       ]
     },
@@ -87090,8 +87081,8 @@
         },
         {
           "id": 773,
-          "x": 336,
-          "y": 408
+          "x": 264,
+          "y": 372
         },
         {
           "id": 774,
@@ -87170,18 +87161,18 @@
         },
         {
           "id": 750,
-          "x": 336,
+          "x": 384,
           "y": 444
         },
         {
           "id": 557,
-          "x": 132,
-          "y": 588
+          "x": 384,
+          "y": 708
         },
         {
           "id": 841,
-          "x": 84,
-          "y": 624
+          "x": 384,
+          "y": 660
         },
         {
           "id": 842,
@@ -87210,7 +87201,7 @@
         },
         {
           "id": 847,
-          "x": 336,
+          "x": 468,
           "y": 480
         },
         {
@@ -87220,27 +87211,27 @@
         },
         {
           "id": 849,
-          "x": 180,
-          "y": 552
-        },
-        {
-          "id": 850,
           "x": 84,
           "y": 516
         },
         {
+          "id": 850,
+          "x": 432,
+          "y": 660
+        },
+        {
           "id": 851,
-          "x": 180,
+          "x": 264,
           "y": 624
         },
         {
           "id": 852,
-          "x": 84,
-          "y": 444
+          "x": 468,
+          "y": 624
         },
         {
           "id": 853,
-          "x": 180,
+          "x": 264,
           "y": 588
         },
         {
