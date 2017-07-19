@@ -83114,9 +83114,9 @@
           "rewards": [
             {
               "id": "minecraft:spawn_egg",
-              "Count": 5,
+              "Count": 3,
               "OreDict": "",
-              "Damage": 66
+              "Damage": 61
             }
           ],
           "rewardID": "bq_standard:item"
@@ -83308,6 +83308,186 @@
     },
     {
       "questID": 886,
+      "name": "Ghast",
+      "description": "You feel lonely want some friend?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 56
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 56
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        479
+      ]
+    },
+    {
+      "questID": 887,
+      "name": "Bat",
+      "description": "You feel lonely want some friend?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 65
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 65
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 888,
+      "name": "Silverfish",
+      "description": "You feel lonely want some friend?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 60
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 60
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        44
+      ]
+    },
+    {
+      "questID": 889,
       "name": "Magma Cube",
       "description": "You feel lonely want some friend?",
       "isMain": false,
@@ -88563,8 +88743,18 @@
         },
         {
           "id": 886,
+          "x": 204,
+          "y": 144
+        },
+        {
+          "id": 887,
           "x": 240,
-          "y": 108
+          "y": 0
+        },
+        {
+          "id": 888,
+          "x": 276,
+          "y": 72
         }
       ]
     },
