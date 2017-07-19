@@ -84377,13 +84377,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "minecraft:gold_nugget",
         "Count": 1,
         "OreDict": "",
-        "Damage": 1,
-        "tag": {
-          "orig_id:8": "IguanaTweaksTConstruct:skullItem"
-        }
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -84620,13 +84617,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "minecraft:blaze_rod",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2,
-        "tag": {
-          "orig_id:8": "IguanaTweaksTConstruct:skullItem"
-        }
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -84783,13 +84777,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "HardcoreEnderExpansion:enderman_head",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0,
-        "tag": {
-          "orig_id:8": "IguanaTweaksTConstruct:skullItem"
-        }
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -85455,12 +85446,14 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "betterquesting:placeholder",
+        "id": "adventurebackpack:adventureBackpack",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2,
+        "Damage": 4,
         "tag": {
-          "orig_id:8": "IguanaTweaksTConstruct:skullItem"
+          "backpackData:10": {
+            "colorName:8": "Blaze"
+          }
         }
       },
       "visibility": "UNLOCKED",
