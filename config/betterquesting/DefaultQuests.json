@@ -4751,7 +4751,7 @@
     {
       "questID": 53,
       "name": "Hammer time v2",
-      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability and using three Ingots to make two plates? Guess what, there is one! And you should totally get one.",
+      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have a machine that does the same but without having durability and using three ingots to make two plates? Guess what, there is one! And you should totally get one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -80012,7 +80012,7 @@
     {
       "questID": 852,
       "name": "Acetic Acid",
-      "description": "Acetic acid can be made out of oxygen and ethylen. Additional it can be made out of biomass, wood venigar or venigar.",
+      "description": "Acetic acid can be made out of oxygen and ethylene. Alternatively, it can be made out of biomass, wood vinegar or vinegar.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81713,7 +81713,7 @@
     {
       "questID": 865,
       "name": "Monster trap",
-      "description": "If you lucky you spawn in a sand or rainforest biome and find some quicksand. Collect a stack of the stuff, dig a small ditch and fill it with the quicksand to protect your \"dirt base\" home.",
+      "description": "If you\u0027re lucky you spawn in a sand or rainforest biome and find some quicksand. Collect a stack of the stuff, dig a small ditch and fill it with the quicksand to protect your \"dirt base\" home.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81779,7 +81779,7 @@
     {
       "questID": 866,
       "name": "The transcontinental railroad",
-      "description": "All the different mining veins that have been found seems to be really far apart. One way to speed up the travel times is to create a railroad from your base to the different mines. Sadly this requires a large amount of both iron and creosote. Let\u0027s not forget to place the last symbolic rivet on one of your new train lines.",
+      "description": "All the different mining veins that have been found seem to be really far apart. One way to shorten the travel time is to create a railroad from your base to the different mines. Sadly this requires a large amount of both iron and creosote. Let\u0027s not forget to place the last symbolic rivet on one of your new train lines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81904,8 +81904,8 @@
     },
     {
       "questID": 867,
-      "name": "Lapis, Lazurit, Sodalite, Calcite",
-      "description": "In order to make your bricked blast furnace you need to find a lapis vine wherein is calcite.\nYou can find the vein in the overworld or the twilight forest at Y 20- 50.",
+      "name": "Lapis, Lazurite, Sodalite, Calcite",
+      "description": "In order to make your bricked blast furnace you need to find a lapis vine containing calcite.\nYou can find the vein in the overworld or the Twilight Forest at Y 20-50.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82017,7 +82017,7 @@
     {
       "questID": 868,
       "name": "Gypsum",
-      "description": "To making bricks for the blast furnace you need concrete and gypsum. It can be found in a vein together with basaltic and granitic mineral sand, fullers earth and gypsum. Y 50-60 and only in the overworld.",
+      "description": "To make bricks for the blast furnace you need concrete and gypsum. Gypsum can be found in a vein together with basaltic and granitic mineral sand, and fullers earth. Y 50-60 and only in the overworld.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82135,7 +82135,7 @@
     {
       "questID": 869,
       "name": "Sifting Machine",
-      "description": "You need flawless or exquisite diomands, emralds rubys or other gems? Well then it\u0027s time for you doing a Sifting Machine.",
+      "description": "You need flawless or exquisite diamonds, emeralds, rubies or other gems? Well then it\u0027s time for you to make a Sifting Machine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82219,7 +82219,7 @@
     {
       "questID": 870,
       "name": "Smelt all the things...",
-      "description": "Smelting up to nine item at once? With a bit steel you can make a railcraft Steam Oven. 2x2x2\n\nHint: No wood to charcoal won\u0027t work here too. All recipes from furnace works here fine.",
+      "description": "Smelting up to nine items at once? With a bit of steel you can make a railcraft Steam Oven. 2x2x2\n\nHint: All furnace recipes work just fine, but you cannot use it to make charcoal from wood.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82317,7 +82317,7 @@
     {
       "questID": 871,
       "name": "Molds, molds, molds",
-      "description": "After you can make steel and have a tinkers smelter you have to make molds. Molds can be use in the alloy smelter and the fluid solidifier.  You need them to make vacuum tubes, ingots, gears and more.",
+      "description": "After you can make steel and have a tinkers smelter you have to make molds. Molds can be used in the alloy smelter and the fluid solidifier. You need them to make vacuum tubes, ingots, gears and more.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -82424,7 +82424,7 @@
     {
       "questID": 872,
       "name": "Maple Syrup",
-      "description": "You spend houres and houres to find some maple tree? Well why not using you forest ranger coins to buy some syrup? Add some spruce saplings and planting some maple tree.",
+      "description": "You spent hours and hours to find some maple trees? Why not use your forest ranger coins to buy some syrup? Add some spruce saplings and plant some maple trees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82484,7 +82484,7 @@
     {
       "questID": 873,
       "name": "Seed Bags",
-      "description": "Find some special \"pams harvest craft\" seeds will be very difficult. With your farmer coins you can buy some seedbags.",
+      "description": "Finding some special \"pams harvest craft\" seeds can be very difficult. With your farmer coins you can buy some seedbags.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82544,7 +82544,7 @@
     {
       "questID": 874,
       "name": "Jetpack v.0.1 Alpha",
-      "description": "Do you like flying? Ok make a slimy bouncepad and enjoy the good view.",
+      "description": "Do you like flying? Ok then, make a slimy bouncepad and enjoy the good view.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82652,7 +82652,7 @@
     {
       "questID": 875,
       "name": "Creeper",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Do you want a friend to hug?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82712,7 +82712,7 @@
     {
       "questID": 876,
       "name": "Skeleton",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Let me throw you a bone.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82772,7 +82772,7 @@
     {
       "questID": 877,
       "name": "Spider",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Want to stick around?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82831,8 +82831,8 @@
     },
     {
       "questID": 878,
-      "name": "Zombi",
-      "description": "You feel lonely want some friend?",
+      "name": "Zombie",
+      "description": "You feel lonely. And brains sound delicious.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82892,7 +82892,7 @@
     {
       "questID": 879,
       "name": "Slime",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely, and a bit slippery.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82952,7 +82952,7 @@
     {
       "questID": 880,
       "name": "Witch",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. What\u0027s cooking?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83012,7 +83012,7 @@
     {
       "questID": 881,
       "name": "Pigmen",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Do you want some bacon?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83072,7 +83072,7 @@
     {
       "questID": 882,
       "name": "Blaze",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Let me warm you up a bit.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83132,7 +83132,7 @@
     {
       "questID": 883,
       "name": "Magma Cube",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely, and bouncy.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83192,7 +83192,7 @@
     {
       "questID": 884,
       "name": "Enderman",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Don\u0027t look me in the eyes!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83252,7 +83252,7 @@
     {
       "questID": 885,
       "name": "Witch",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Do you like my toad?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83312,7 +83312,7 @@
     {
       "questID": 886,
       "name": "Ghast",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. At least you\u0027re not a big cry-baby?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83372,7 +83372,7 @@
     {
       "questID": 887,
       "name": "Bat",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Na na na na batthing!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83432,7 +83432,7 @@
     {
       "questID": 888,
       "name": "Silverfish",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Let me be as annoying as possible.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83492,7 +83492,7 @@
     {
       "questID": 889,
       "name": "Magma Cube",
-      "description": "You feel lonely want some friend?",
+      "description": "You feel lonely. Wanna bounce?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83552,7 +83552,7 @@
     {
       "questID": 890,
       "name": "Better Tank... ULV Tank",
-      "description": "Next step is to storing 32 buckets in a Tank. The ULV Tank from Gt++ needs steel plates, iron plates, tin plates a clay pipe amd a water bucket.",
+      "description": "Next step is to store 32 buckets in a tank. The ULV Tank from Gt++ needs steel plates, iron plates, tin plates a clay pipe and a water bucket.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83627,7 +83627,7 @@
     {
       "questID": 891,
       "name": "Better Tank... LV Tank",
-      "description": "Next step is to storing 64 buckets in a Tank. The LV Tank from Gt++ needs steel plates, iron plates, bronze plates a huge clay pipe and a lv pump.",
+      "description": "Next step is to store 64 buckets in a tank. The LV Tank from Gt++ needs steel plates, iron plates, bronze plates a huge clay pipe and a lv pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83705,7 +83705,7 @@
     {
       "questID": 892,
       "name": "Better Tank... MV Tank",
-      "description": "Next step is to storing 128 buckets in a Tank. The MV Tank from Gt++ needs steel plates, darksteel plates, bronze plates a  bronze pipe and a lv pump.",
+      "description": "Next step is to store 128 buckets in a tank. The MV Tank from Gt++ needs steel plates, darksteel plates, bronze plates a  bronze pipe and a lv pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83783,7 +83783,7 @@
     {
       "questID": 893,
       "name": "You\u0027re gonna hate this #2 in mv too",
-      "description": "The second item you\u0027ll need a lot of in mv tier. When you want to get fluid out of tanks you\u0027ll need one. \n\nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.",
+      "description": "The second item you\u0027ll need a lot of in mv tier. When you want to get fluid out of tanks you\u0027ll need one. \n\nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be upgraded further into a fluid regulator which allows precise control of fluid transfer speed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -83860,7 +83860,7 @@
     {
       "questID": 894,
       "name": "Better Tank... HV Tank",
-      "description": "Next step is to storing 256 buckets in a Tank. The HV Tank from Gt++ needs aluminium plates, darksteel plates, vacuum tubes a  steel pipe and a mv pump.",
+      "description": "Next step is to store 256 buckets in a tank. The HV Tank from Gt++ needs aluminium plates, darksteel plates, vacuum tubes a  steel pipe and a mv pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -84015,7 +84015,7 @@
     {
       "questID": 896,
       "name": "You\u0027re gonna hate this #3 in mv too",
-      "description": "A piston, but more for you mv machines.. \"electrical\". The third item you are going to craft a lot of in the future.",
+      "description": "An electric piston for your mv machines. The third item you are going to craft a lot of in the future.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -84092,7 +84092,7 @@
     {
       "questID": 897,
       "name": "You\u0027re gonna hate this #4 in mv too",
-      "description": "The fourth item you\u0027ll need a lot of in mv, and is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.",
+      "description": "The fourth item you\u0027ll need a lot of in mv, which is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots. Adjust with a screwdriver.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -84169,7 +84169,7 @@
     {
       "questID": 898,
       "name": "Simple Ore Washer",
-      "description": "Are you lazy making a Ore washer and bored about you cant automate your cauldron then the simple washer is the machine you need. It is fast using max 8eu and is very fast. Ok you not get any byproducts but who cares.",
+      "description": "Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It work reasonably fast and uses 8eu max. Ok, you do not get any byproducts, but who cares!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
