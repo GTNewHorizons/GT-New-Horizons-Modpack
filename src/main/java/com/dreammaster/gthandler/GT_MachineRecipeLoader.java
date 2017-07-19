@@ -635,6 +635,8 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addCompressorRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Sodalite, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Sodalite, 1L), 300, 2);
         GT_Values.RA.addCompressorRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EnhancedGalgadorian, 9L), GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 48), 300, 2);
 
+        GT_Values.RA.addCompressorRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Carbon, 1L), GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Carbon, 1L), 300, 2);
+
         GT_Values.RA.addPulveriserRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 1L),   new ItemStack[]{GT_ModHandler.getModItem("TConstruct", "materials", 1L, 12)}, new int[]{10000}, 300, 2);
 
         GT_Values.RA.addPulveriserRecipe(new ItemStack(Items.record_11, 1, 0),  new ItemStack[]{GT_ModHandler.getModItem("Avaritia", "Resource", 9L, 7)}, new int[]{10000}, 300, 2);
