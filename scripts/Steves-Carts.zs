@@ -716,6 +716,9 @@ recipes.remove(<StevesCarts:CartModule:99>);
 // --- Wood Core
 recipes.remove(WoodCore);
 
+// --- Reinforced
+furnace.remove(<StevesCarts:ModuleComponents:22>);
+
 
 
 
@@ -1393,6 +1396,21 @@ recipes.addShaped(<StevesCarts:CartModule:99>, [
 [null, Cake, null],
 [PCB, Slab, PCB],
 [IronPlate, IronPlate, IronPlate]]);
+
+// --- Reinforced Ingot
+recipes.addShapeless(<StevesCarts:ModuleComponents:22>, [<gregtech:gt.metaitem.01:11383>]);
+// --
+recipes.addShapeless(<gregtech:gt.metaitem.01:11383>, [<StevesCarts:ModuleComponents:22>]);
+
+// --- Galgadorian Ingot
+recipes.addShapeless(<StevesCarts:ModuleComponents:47>, [<gregtech:gt.metaitem.01:11384>]);
+// --
+recipes.addShapeless(<gregtech:gt.metaitem.01:11384>, [<StevesCarts:ModuleComponents:47>]);
+
+// --- Enhanced Galgadorian Ingot
+recipes.addShapeless(<StevesCarts:ModuleComponents:49>, [<gregtech:gt.metaitem.01:11385>]);
+// --
+recipes.addShapeless(<gregtech:gt.metaitem.01:11385>, [<StevesCarts:ModuleComponents:49>]);
 
 
 
