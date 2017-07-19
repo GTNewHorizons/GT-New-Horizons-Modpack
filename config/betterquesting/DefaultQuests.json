@@ -82539,6 +82539,114 @@
       ]
     },
     {
+      "questID": 874,
+      "name": "Jetpack v.0.1 Alpha",
+      "description": "Do you like flying? Ok make a slimy bouncepad and enjoy the good view.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:slime.pad",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:slime.channel",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:slime.pad",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:slime.sapling",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 55
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        54
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look it in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
@@ -88991,6 +89099,11 @@
           "id": 866,
           "x": 180,
           "y": 96
+        },
+        {
+          "id": 874,
+          "x": 96,
+          "y": 48
         }
       ]
     },
