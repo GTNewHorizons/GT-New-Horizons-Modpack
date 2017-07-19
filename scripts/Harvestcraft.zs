@@ -405,9 +405,6 @@ recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
 [<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
 [<minecraft:bowl>, <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
 
-// --- Lootbag Seeds
-recipes.addShapeless(<enhancedlootbags:lootbag:35>, [<dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>]);
-
 // --- Market ---
 //recipes.addShaped(<harvestcraft:market>, [
 //[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>],
