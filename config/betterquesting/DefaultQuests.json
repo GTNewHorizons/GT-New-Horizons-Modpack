@@ -5483,7 +5483,7 @@
       "questID": 63,
       "name": "Using steam to cook things",
       "description": "A rather slow process, but it\u0027s more efficient than using a regular furnace.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -5536,7 +5536,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -5719,8 +5719,8 @@
         }
       ],
       "preRequisites": [
-        63,
-        53
+        53,
+        44
       ]
     },
     {
@@ -78689,7 +78689,7 @@
     },
     {
       "questID": 839,
-      "name": "Handle tiny piles like a King",
+      "name": "Handle tiny piles like a K1ng",
       "description": "Don\u0027t you hate to manually compress all those tiny piles ? Well, let me show you how to automate that. A combination of typefilter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chestbuffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.",
       "isMain": false,
       "isSilent": false,
@@ -87778,13 +87778,13 @@
         },
         {
           "id": 63,
-          "x": 144,
+          "x": 96,
           "y": 72
         },
         {
           "id": 64,
           "x": 96,
-          "y": 72
+          "y": 108
         },
         {
           "id": 65,
@@ -87918,7 +87918,7 @@
         },
         {
           "id": 596,
-          "x": 96,
+          "x": 144,
           "y": 108
         },
         {
