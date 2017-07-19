@@ -66,6 +66,9 @@ recipes.remove(<eternalsingularity:combined_singularity:*>);
 // --- Neutronen Collector
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutron_Collector>);
 
+// --- Neutron Compressor
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutronium_Compressor>);
+
 // --- Eternal Singularity
 mods.avaritia.ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
 
@@ -355,6 +358,31 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Shoes>, [
 [<TConstruct:heavyPlate:500>, <ThaumicTinkerer:ichorclothBootsGem:*>, <DraconicEvolution:draconicBoots>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <IC2:itemArmorQuantumBoots:1>, <BloodArsenal:life_imbued_boots>.withTag({LPStored: 100000}), <TConstruct:heavyPlate:500>],
 [<TConstruct:heavyPlate:500>, <TaintedMagic:ItemFocusTime>, <AWWayofTime:sanguineBoots>, <TConstruct:heavyPlate:500>, null, <TConstruct:heavyPlate:500>, <GalaxySpace:item.spacesuit_gravityboots>, <EMT:ShieldFocus>, <TConstruct:heavyPlate:500>],
 [<TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <BloodArsenal:sigil_of_divinity>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>]]);
+
+
+// --- Neutron Collector
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Neutron_Collector>, [
+[<Avaritia:Resource_Block:1>, <Avaritia:Resource_Block>, <TConstruct:heavyPlate:315>, <TConstruct:heavyPlate:500>, <Avaritia:Crystal_Matrix>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:315>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block:1>],
+[<Avaritia:Resource_Block>, <Avaritia:Resource_Block:1>, null, null, <TConstruct:heavyPlate:315>, null, null, <Avaritia:Resource_Block:1>, <Avaritia:Resource_Block>],
+[<TConstruct:heavyPlate:315>, null, <gregtech:gt.metaitem.01:32697>, null, <gregtech:gt.metaitem.03:32095>, null, <gregtech:gt.metaitem.01:32697>, null, <TConstruct:heavyPlate:315>],
+[<TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32687>, null, <gregtech:gt.metaitem.03:32095>, null, <gregtech:gt.metaitem.01:32687>, null, <TConstruct:heavyPlate:500>],
+[<Avaritia:Crystal_Matrix>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.01:32608>, <TConstruct:heavyPlate:501>, <Avaritia:Resource:5>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.01:32608>, <TConstruct:heavyPlate:501>, <Avaritia:Crystal_Matrix>],
+[<TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32687>, null, <gregtech:gt.metaitem.03:32095>, null, <gregtech:gt.metaitem.01:32687>, null, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:315>, null, <gregtech:gt.metaitem.01:32697>, null, <gregtech:gt.metaitem.03:32095>, null, <gregtech:gt.metaitem.01:32697>, null, <TConstruct:heavyPlate:315>],
+[<Avaritia:Resource_Block>, <Avaritia:Resource_Block:1>, null, null, <TConstruct:heavyPlate:315>, null, null, <Avaritia:Resource_Block:1>, <Avaritia:Resource_Block>],
+[<Avaritia:Resource_Block:1>, <Avaritia:Resource_Block>, <TConstruct:heavyPlate:315>, <TConstruct:heavyPlate:500>, <Avaritia:Crystal_Matrix>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:315>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block:1>]]);
+
+// --- Neutron Compressor
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Neutronium_Compressor>, [
+[<Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource:1>, <TConstruct:heavyPlate:315>, <Avaritia:Resource:1>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>],
+[<Avaritia:Resource:1>, null, <gregtech:gt.metaitem.01:32647>, null, <TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32647>, null, <Avaritia:Resource:1>],
+[<TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:32637>, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32637>, <TConstruct:heavyPlate:500>, <gregtech:gt.metaitem.01:32637>, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32637>, <TConstruct:heavyPlate:315>],
+[<TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32647>, <gregtech:gt.metaitem.03:32095>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.03:32095>, <gregtech:gt.metaitem.01:32647>, null, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TGregworks:tGregToolPartLargePlate:1657>.withTag({material: "BlackPlutonium"}), <TGregworks:tGregToolPartLargePlate:1657>.withTag({material: "BlackPlutonium"}), <TConstruct:heavyPlate:501>, <gregtech:gt.blockmachines:10812>, <TConstruct:heavyPlate:501>, <TGregworks:tGregToolPartLargePlate:1657>.withTag({material: "BlackPlutonium"}), <TGregworks:tGregToolPartLargePlate:1657>.withTag({material: "BlackPlutonium"}), <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32647>, <gregtech:gt.metaitem.03:32095>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.03:32095>, <gregtech:gt.metaitem.01:32647>, null, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:32637>, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32637>, <TConstruct:heavyPlate:500>, <gregtech:gt.metaitem.01:32637>, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32637>, <TConstruct:heavyPlate:315>],
+[<Avaritia:Resource:1>, null, <gregtech:gt.metaitem.01:32647>, null, <TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32647>, null, <Avaritia:Resource:1>],
+[<Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource:1>, <TConstruct:heavyPlate:315>, <Avaritia:Resource:1>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>]]);
 
 
 // --- Alloy Smelter Recipes ---
