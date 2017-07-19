@@ -13990,7 +13990,11 @@
         740,
         753,
         750,
-        838
+        838,
+        893,
+        895,
+        896,
+        897
       ]
     },
     {
@@ -83933,6 +83937,237 @@
       ]
     },
     {
+      "questID": 895,
+      "name": "You\u0027re gonna hate this #1 in mv too",
+      "description": "The first item you\u0027ll need a lot of in mv too. If you want to pull items out of chests or barrels you\u0027ll need one. \n\nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32631
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32631
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 896,
+      "name": "You\u0027re gonna hate this #3 in mv too",
+      "description": "A piston, but more for you mv machines.. \"electrical\". The third item you are going to craft a lot of in the future.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32641
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32641
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32640
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 897,
+      "name": "You\u0027re gonna hate this #4 in mv too",
+      "description": "The fourth item you\u0027ll need a lot of in mv, and is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32651
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32651
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        896
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look it in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
@@ -88209,17 +88444,17 @@
         {
           "id": 128,
           "x": 396,
-          "y": 144
+          "y": 204
         },
         {
           "id": 129,
           "x": 396,
-          "y": 180
+          "y": 264
         },
         {
           "id": 130,
           "x": 396,
-          "y": 252
+          "y": 300
         },
         {
           "id": 131,
@@ -88229,57 +88464,57 @@
         {
           "id": 132,
           "x": 432,
-          "y": 252
+          "y": 300
         },
         {
           "id": 133,
-          "x": 360,
-          "y": 216
+          "x": 348,
+          "y": 228
         },
         {
           "id": 134,
           "x": 468,
-          "y": 180
+          "y": 228
         },
         {
           "id": 135,
           "x": 432,
-          "y": 216
+          "y": 264
         },
         {
           "id": 136,
           "x": 468,
-          "y": 216
+          "y": 264
         },
         {
           "id": 137,
           "x": 516,
-          "y": 180
+          "y": 228
         },
         {
           "id": 138,
           "x": 564,
-          "y": 144
+          "y": 204
         },
         {
           "id": 139,
           "x": 564,
-          "y": 216
+          "y": 264
         },
         {
           "id": 140,
           "x": 612,
-          "y": 144
+          "y": 204
         },
         {
           "id": 141,
           "x": 612,
-          "y": 216
+          "y": 264
         },
         {
           "id": 142,
           "x": 468,
-          "y": 252
+          "y": 300
         },
         {
           "id": 143,
@@ -88309,36 +88544,36 @@
         {
           "id": 148,
           "x": 516,
-          "y": 252
+          "y": 300
         },
         {
           "id": 149,
           "x": 516,
-          "y": 288
+          "y": 336
         },
         {
           "id": 150,
           "x": 564,
-          "y": 288
+          "y": 336
         },
         {
           "id": 151,
           "x": 564,
-          "y": 252
+          "y": 300
         },
         {
           "id": 152,
           "x": 612,
-          "y": 252
+          "y": 300
         },
         {
           "id": 153,
-          "x": 264,
+          "x": 204,
           "y": 132
         },
         {
           "id": 154,
-          "x": 336,
+          "x": 264,
           "y": 84
         },
         {
@@ -88368,8 +88603,8 @@
         },
         {
           "id": 126,
-          "x": 264,
-          "y": 264
+          "x": 300,
+          "y": 300
         },
         {
           "id": 659,
@@ -88419,7 +88654,7 @@
         {
           "id": 127,
           "x": 96,
-          "y": 180
+          "y": 168
         },
         {
           "id": 738,
@@ -88428,8 +88663,8 @@
         },
         {
           "id": 737,
-          "x": 48,
-          "y": 180
+          "x": 0,
+          "y": 168
         },
         {
           "id": 739,
@@ -88463,8 +88698,8 @@
         },
         {
           "id": 757,
-          "x": 300,
-          "y": 264
+          "x": 348,
+          "y": 300
         },
         {
           "id": 758,
@@ -88479,7 +88714,7 @@
         {
           "id": 760,
           "x": 156,
-          "y": 168
+          "y": 132
         },
         {
           "id": 773,
@@ -88504,32 +88739,32 @@
         {
           "id": 785,
           "x": 96,
-          "y": 84
+          "y": 0
         },
         {
           "id": 794,
-          "x": 96,
+          "x": 264,
           "y": 0
         },
         {
           "id": 795,
+          "x": 156,
+          "y": 0
+        },
+        {
+          "id": 746,
+          "x": 96,
+          "y": 84
+        },
+        {
+          "id": 752,
           "x": 96,
           "y": 36
         },
         {
-          "id": 746,
-          "x": 156,
-          "y": 132
-        },
-        {
-          "id": 752,
+          "id": 782,
           "x": 156,
           "y": 84
-        },
-        {
-          "id": 782,
-          "x": 216,
-          "y": 132
         },
         {
           "id": 791,
@@ -88548,17 +88783,17 @@
         },
         {
           "id": 793,
-          "x": 156,
+          "x": 312,
           "y": 0
         },
         {
           "id": 838,
-          "x": 216,
+          "x": 360,
           "y": 0
         },
         {
           "id": 839,
-          "x": 264,
+          "x": 408,
           "y": 0
         },
         {
@@ -88664,7 +88899,7 @@
         {
           "id": 859,
           "x": 300,
-          "y": 300
+          "y": 336
         },
         {
           "id": 741,
@@ -88689,12 +88924,27 @@
         {
           "id": 893,
           "x": 264,
-          "y": 204
+          "y": 228
         },
         {
           "id": 894,
           "x": 300,
-          "y": 204
+          "y": 228
+        },
+        {
+          "id": 895,
+          "x": 264,
+          "y": 132
+        },
+        {
+          "id": 896,
+          "x": 264,
+          "y": 180
+        },
+        {
+          "id": 897,
+          "x": 300,
+          "y": 180
         }
       ]
     },
