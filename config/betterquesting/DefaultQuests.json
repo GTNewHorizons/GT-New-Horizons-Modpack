@@ -47496,7 +47496,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 50,
+              "Count": 48,
               "OreDict": "",
               "Damage": 30737
             }
@@ -47573,7 +47573,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 50,
+              "Count": 48,
               "OreDict": "",
               "Damage": 30740
             }
@@ -47658,7 +47658,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 2,
               "OreDict": "",
               "Damage": 30001
             }
@@ -47735,7 +47735,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 10,
+              "Count": 8,
               "OreDict": "",
               "Damage": 30738
             }
@@ -47818,7 +47818,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 10,
+              "Count": 8,
               "OreDict": "",
               "Damage": 30741
             }
@@ -47897,7 +47897,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 66,
+              "Count": 48,
               "OreDict": "",
               "Damage": 30708
             }
