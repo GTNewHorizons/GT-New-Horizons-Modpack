@@ -2843,43 +2843,43 @@ public class GT_Loader_Machines
 		CustomItemList.MixerLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11210, "basicmachine.mixer.tier.06", "Elite Mixer", 6,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
-				4, 1, 8000, 0, 1, "Mixer.png", "",
+				6, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.MixerZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11211, "basicmachine.mixer.tier.07", "Elite Mixer II", 7,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
-				4, 1, 8000, 0, 1, "Mixer.png", "",
+				6, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.MixerUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11212, "basicmachine.mixer.tier.08", "Ultimate Matter Organizer", 8,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
-				4, 1, 8000, 0, 1, "Mixer.png", "",
+				6, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.MixerUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11213, "basicmachine.mixer.tier.09", "Epic Matter Organizer", 9,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
-				4, 1, 8000, 0, 1, "Mixer.png", "",
+				6, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.MixerUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11214, "basicmachine.mixer.tier.10", "Epic Matter Organizer II",10,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
-				4, 1, 8000, 0, 1, "Mixer.png", "",
+				6, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.MixerUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11215, "basicmachine.mixer.tier.11", "Epic Matter Organizer III",11,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
-				4, 1, 8000, 0, 1, "Mixer.png", "",
+				6, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		CustomItemList.MixerUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11216, "basicmachine.mixer.tier.12", "Epic Matter Organizer IV",12,
 				"Will it Blend?", GT_Recipe.GT_Recipe_Map.sMixerRecipes,
-				4, 1, 8000, 0, 1, "Mixer.png", "",
+				6, 1, 8000, 0, 1, "Mixer.png", "",
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MixerLuV.get(1L),
