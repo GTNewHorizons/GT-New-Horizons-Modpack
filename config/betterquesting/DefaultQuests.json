@@ -87717,6 +87717,238 @@
         703,
         702
       ]
+    },
+    {
+      "questID": 930,
+      "name": "Auto Mining",
+      "description": "A miner in lv age wow. So this niffty machine will find ores fore you. Place up to two stacks of mining pipes in the right slots. This miner need 32 eu to work. With a 8 V Solar Pannel it works 4 times slover. The Miner searchen ores in a 16 block radius.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 679
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 679
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        530
+      ]
+    },
+    {
+      "questID": 931,
+      "name": "Auto Mining Mv",
+      "description": "The mv miner will find ores fore you and be better then the lv miner. Place up to two stacks of mining pipes in the right slots. This miner need 128 eu to work. The Miner searchen ores in a 24 block radius and works two times faster then the lv variant.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 680
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 680
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        896
+      ]
+    },
+    {
+      "questID": 932,
+      "name": "Auto Mining Hv",
+      "description": "The mv miner will find ores fore you and be better then the lv miner. Place up to two stacks of mining pipes in the right slots. This miner need 512 eu to work. The Miner searchen ores in a 32 block radius or two chuncks and works two times faster then the mv variant.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 681
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 681
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        931,
+        160
+      ]
     }
   ],
   "questLines": [
@@ -88961,6 +89193,11 @@
           "id": 898,
           "x": 60,
           "y": 216
+        },
+        {
+          "id": 930,
+          "x": 528,
+          "y": 288
         }
       ]
     },
@@ -89477,6 +89714,11 @@
           "id": 897,
           "x": 300,
           "y": 180
+        },
+        {
+          "id": 931,
+          "x": 300,
+          "y": 132
         }
       ]
     },
@@ -89487,107 +89729,112 @@
         {
           "id": 160,
           "x": 144,
-          "y": 0
+          "y": 48
         },
         {
           "id": 162,
           "x": 144,
-          "y": 108
+          "y": 156
         },
         {
           "id": 163,
           "x": 348,
-          "y": 0
+          "y": 48
         },
         {
           "id": 165,
           "x": 252,
-          "y": 0
+          "y": 48
         },
         {
           "id": 167,
           "x": 192,
-          "y": 72
+          "y": 120
         },
         {
           "id": 168,
           "x": 252,
-          "y": 36
+          "y": 84
         },
         {
           "id": 169,
           "x": 300,
-          "y": 0
+          "y": 48
         },
         {
           "id": 166,
           "x": 204,
-          "y": 0
+          "y": 48
         },
         {
           "id": 170,
           "x": 192,
-          "y": 108
+          "y": 156
         },
         {
           "id": 171,
           "x": 252,
-          "y": 72
+          "y": 120
         },
         {
           "id": 172,
           "x": 252,
-          "y": 108
+          "y": 156
         },
         {
           "id": 173,
           "x": 300,
-          "y": 108
+          "y": 156
         },
         {
           "id": 174,
           "x": 300,
-          "y": 72
+          "y": 120
         },
         {
           "id": 175,
           "x": 336,
-          "y": 108
+          "y": 156
         },
         {
           "id": 769,
           "x": 0,
-          "y": 0
+          "y": 48
         },
         {
           "id": 770,
           "x": 48,
-          "y": 36
+          "y": 84
         },
         {
           "id": 772,
           "x": 48,
-          "y": 72
+          "y": 120
         },
         {
           "id": 789,
           "x": 0,
-          "y": 36
+          "y": 84
         },
         {
           "id": 790,
           "x": 0,
-          "y": 72
+          "y": 120
         },
         {
           "id": 808,
           "x": 96,
-          "y": 72
+          "y": 120
         },
         {
           "id": 860,
           "x": 144,
-          "y": 156
+          "y": 204
+        },
+        {
+          "id": 932,
+          "x": 144,
+          "y": 0
         }
       ]
     },
