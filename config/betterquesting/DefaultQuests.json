@@ -14000,7 +14000,7 @@
     {
       "questID": 161,
       "name": "Paying the highest price",
-      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.",
+      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.\n\nIn tier 1 you need only place the blood altar.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -34580,8 +34580,8 @@
     {
       "questID": 409,
       "name": "Basic rune",
-      "description": "The basic rune that you can craft at this moment.",
-      "isMain": false,
+      "description": "The basic rune that you can craft at this moment.\n\nYou need  8 runes  for your tier 2 altar which can hold more blood and you can make new recipes now.",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -34612,7 +34612,7 @@
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrybloodRune",
-              "Count": 4,
+              "Count": 8,
               "OreDict": "",
               "Damage": 0
             }
@@ -34635,8 +34635,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinBloodI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -34652,7 +34652,7 @@
       "questID": 410,
       "name": "Alchemy with blood",
       "description": "Not like \"blood alchemy\". You probably will need more than one later, but for now one is sufficient.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -34706,14 +34706,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinBloodI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -35794,7 +35794,7 @@
         }
       ],
       "preRequisites": [
-        422
+        926
       ]
     },
     {
@@ -36459,7 +36459,7 @@
       "questID": 430,
       "name": "Getting soul shards",
       "description": "Enable your sword by Shift right-clicking and slay some enemies! Collect as many shards as possible. You will need a ton of them...",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -36490,7 +36490,7 @@
           "requiredItems": [
             {
               "id": "AWWayofTime:weakBloodShard",
-              "Count": 16,
+              "Count": 17,
               "OreDict": "",
               "Damage": 0
             }
@@ -36532,7 +36532,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinBloodII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -36655,7 +36655,7 @@
       "questID": 432,
       "name": "A bloodmage\u0027s sword",
       "description": "Diamonds and emeralds are limited in their ability to store LP. With this sword, you are able to get the crystallized souls from your enemies. Time to go hunting.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -36710,19 +36710,19 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivorII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSmithII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinBloodII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -36738,7 +36738,7 @@
       "questID": 433,
       "name": "Rituals",
       "description": "Time for some rituals. The most basic one you\u0027ll probably get first is the ritual of binding.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -36769,7 +36769,7 @@
           "requiredItems": [
             {
               "id": "AWWayofTime:ritualStone",
-              "Count": 16,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             },
@@ -36799,7 +36799,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinBloodII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -63400,7 +63400,7 @@
       "questID": 702,
       "name": "Tier 5 slates",
       "description": "1023 Buckets of blood in one slate! How much more I can store, oh I wish I would know. Then I add one and check if it works. 1024 buckets of blood in one slate! ... ...",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -63460,8 +63460,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinBloodII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -63470,14 +63470,15 @@
         }
       ],
       "preRequisites": [
-        703
+        703,
+        928
       ]
     },
     {
       "questID": 703,
       "name": "Powerful shards",
       "description": "The demons summoned are rather strong, but their souls contain immense power!",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -63575,14 +63576,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSurvivorII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinSurvivorIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinBloodII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -63668,7 +63669,8 @@
         }
       ],
       "preRequisites": [
-        421
+        421,
+        927
       ]
     },
     {
@@ -64371,7 +64373,7 @@
       "questID": 714,
       "name": "Convocation of the damned",
       "description": "Time to open a portal to the demons we\u0027re using all the time. What could possibly go wrong? (It is recommended to do this ritual on a planet, as the demon city will spread quite a bit...)",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -64584,8 +64586,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinBloodII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -84245,6 +84247,77 @@
       ]
     },
     {
+      "questID": 899,
+      "name": "Paying the highest price",
+      "description": "Tier 2 blood altar need 8 runes placed around the  altar. Your new altar can hold more blood.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:Altar",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:Altar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        409
+      ]
+    },
+    {
       "questID": 900,
       "name": "Don\u0027t look it in the eyes!",
       "description": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave are valuable anyway.",
@@ -87266,6 +87339,383 @@
         924,
         908,
         916
+      ]
+    },
+    {
+      "questID": 926,
+      "name": "Blood Altar Tier 3",
+      "description": "To make your altar more powerfull you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium block and on top one block of glowstone blocks on each pillar.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:tile.BloodyThaumium",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCosmeticSolid",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:tile.BloodyThaumium",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glowstone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        410,
+        422
+      ]
+    },
+    {
+      "questID": 927,
+      "name": "Blood Altar Tier 4",
+      "description": "If you want to make tier 4 slates you need a Tier 4 altar. This can be made like the tier 3 altar with pillars out of void-blood-soaked stones four blocks high and a blood brick on top the pillars.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:tile.BloodyVoid",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:ritualStone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:weakBloodShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "thaumicbases:voidBlock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:bloodStoneBrick",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:tile.BloodyVoid",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:speedRune",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        421,
+        430
+      ]
+    },
+    {
+      "questID": 928,
+      "name": "Blood Altar Tier 5",
+      "description": "If you want to make tier 5 slates you need a Tier 5 altar. This can be made with 4 beacons. Beacons have thaumcraft recipes and can be found in the thaumcraft book on the GTNH page.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:beacon",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:beacon",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        704
+      ]
+    },
+    {
+      "questID": 929,
+      "name": "Blood Altar Tier 6",
+      "description": "The highest tier of the blood altar is tier 6. You need pillars of blood-soaked ichorium 7 blocks high and on top the crystal cluster blocks out of demon souls shards.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:tile.BloodyIchorium",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:kamiResource",
+              "Count": 56,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmetal8",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:blockCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:tile.BloodyIchorium",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        703,
+        702
       ]
     }
   ],
@@ -91318,58 +91768,58 @@
         },
         {
           "id": 164,
-          "x": 40,
-          "y": 64
+          "x": 48,
+          "y": 72
         },
         {
           "id": 177,
-          "x": 40,
+          "x": 48,
           "y": 0
         },
         {
           "id": 407,
-          "x": 104,
+          "x": 108,
           "y": 0
         },
         {
           "id": 408,
-          "x": 136,
-          "y": 64
+          "x": 156,
+          "y": 72
         },
         {
           "id": 409,
-          "x": 80,
-          "y": 64
+          "x": 108,
+          "y": 72
         },
         {
           "id": 410,
-          "x": 216,
+          "x": 276,
           "y": 0
         },
         {
           "id": 411,
-          "x": 176,
-          "y": 64
+          "x": 240,
+          "y": 120
         },
         {
           "id": 413,
-          "x": 216,
-          "y": 32
+          "x": 276,
+          "y": 96
         },
         {
           "id": 412,
-          "x": 176,
-          "y": 32
+          "x": 240,
+          "y": 72
         },
         {
           "id": 414,
-          "x": 256,
-          "y": 32
+          "x": 312,
+          "y": 72
         },
         {
           "id": 415,
-          "x": 256,
-          "y": 64
+          "x": 312,
+          "y": 120
         }
       ]
     },
@@ -91379,128 +91829,138 @@
       "quests": [
         {
           "id": 420,
-          "x": 296,
+          "x": 372,
           "y": 0
         },
         {
           "id": 421,
-          "x": 264,
+          "x": 300,
           "y": 0
         },
         {
           "id": 422,
-          "x": 104,
+          "x": 108,
           "y": 0
         },
         {
           "id": 423,
-          "x": 136,
-          "y": 32
+          "x": 36,
+          "y": 0
         },
         {
           "id": 424,
-          "x": 264,
-          "y": 32
+          "x": 300,
+          "y": 72
         },
         {
           "id": 425,
-          "x": 296,
-          "y": 32
+          "x": 336,
+          "y": 72
         },
         {
           "id": 426,
-          "x": 232,
-          "y": 64
+          "x": 300,
+          "y": 108
         },
         {
           "id": 427,
-          "x": 296,
-          "y": 64
+          "x": 372,
+          "y": 108
         },
         {
           "id": 428,
-          "x": 328,
-          "y": 32
+          "x": 372,
+          "y": 72
         },
         {
           "id": 429,
-          "x": 296,
-          "y": 120
+          "x": 300,
+          "y": 168
         },
         {
           "id": 431,
-          "x": 328,
-          "y": 120
+          "x": 336,
+          "y": 168
         },
         {
           "id": 430,
           "x": 264,
-          "y": 120
+          "y": 168
         },
         {
           "id": 432,
-          "x": 200,
-          "y": 120
+          "x": 216,
+          "y": 168
         },
         {
           "id": 433,
-          "x": 104,
-          "y": 64
+          "x": 108,
+          "y": 108
         },
         {
           "id": 434,
-          "x": 136,
-          "y": 120
+          "x": 144,
+          "y": 168
         },
         {
           "id": 435,
-          "x": 168,
-          "y": 120
+          "x": 180,
+          "y": 168
         },
         {
           "id": 436,
-          "x": 104,
-          "y": 120
+          "x": 108,
+          "y": 168
         },
         {
           "id": 437,
-          "x": 200,
-          "y": 64
+          "x": 216,
+          "y": 108
         },
         {
           "id": 438,
-          "x": 264,
-          "y": 64
+          "x": 336,
+          "y": 108
         },
         {
           "id": 228,
-          "x": 232,
-          "y": 32
+          "x": 336,
+          "y": 36
         },
         {
           "id": 418,
           "x": 0,
-          "y": 120
+          "y": 168
         },
         {
           "id": 419,
-          "x": 32,
-          "y": 120
+          "x": 36,
+          "y": 168
         },
         {
           "id": 416,
-          "x": 32,
-          "y": 64
+          "x": 36,
+          "y": 108
         },
         {
           "id": 417,
-          "x": 64,
-          "y": 120
+          "x": 72,
+          "y": 168
         },
         {
           "id": 463,
-          "x": 168,
-          "y": 32
+          "x": 36,
+          "y": 48
+        },
+        {
+          "id": 927,
+          "x": 264,
+          "y": 72
+        },
+        {
+          "id": 926,
+          "x": 216,
+          "y": 0
         }
       ]
     },
@@ -91510,83 +91970,93 @@
       "quests": [
         {
           "id": 700,
-          "x": 192,
-          "y": 96
+          "x": 252,
+          "y": 108
         },
         {
           "id": 702,
-          "x": 192,
+          "x": 252,
           "y": 0
         },
         {
           "id": 704,
-          "x": 32,
+          "x": 36,
           "y": 0
         },
         {
           "id": 701,
-          "x": 192,
-          "y": 64
+          "x": 252,
+          "y": 72
         },
         {
           "id": 707,
-          "x": 224,
-          "y": 0
+          "x": 288,
+          "y": 36
         },
         {
           "id": 708,
-          "x": 32,
-          "y": 32
+          "x": 36,
+          "y": 72
         },
         {
           "id": 706,
-          "x": 192,
-          "y": 32
+          "x": 252,
+          "y": 36
         },
         {
           "id": 709,
-          "x": 64,
-          "y": 32
+          "x": 72,
+          "y": 72
         },
         {
           "id": 710,
-          "x": 32,
-          "y": 64
+          "x": 36,
+          "y": 108
         },
         {
           "id": 711,
-          "x": 256,
-          "y": 0
+          "x": 324,
+          "y": 36
         },
         {
           "id": 712,
-          "x": 64,
-          "y": 64
+          "x": 72,
+          "y": 108
         },
         {
           "id": 713,
-          "x": 224,
-          "y": 32
+          "x": 288,
+          "y": 72
         },
         {
           "id": 714,
-          "x": 96,
-          "y": 0
+          "x": 72,
+          "y": 36
         },
         {
           "id": 703,
           "x": 144,
-          "y": 0
+          "y": 36
         },
         {
           "id": 715,
           "x": 144,
-          "y": 32
+          "y": 108
         },
         {
           "id": 406,
           "x": 0,
-          "y": 32
+          "y": 72
+        },
+        {
+          "id": 928,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 929,
+          "x": 216,
+          "y": 36
         }
       ]
     },
