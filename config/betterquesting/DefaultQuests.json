@@ -14000,7 +14000,7 @@
     {
       "questID": 161,
       "name": "Paying the highest price",
-      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.\n\nIn tier 1 you need only place the blood altar.",
+      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.\n\nIn tier 1 you only need to place the blood altar.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -34580,7 +34580,7 @@
     {
       "questID": 409,
       "name": "Basic rune",
-      "description": "The basic rune that you can craft at this moment.\n\nYou need  8 runes  for your tier 2 altar which can hold more blood and you can make new recipes now.",
+      "description": "The basic rune that you can craft at this moment.\n\nYou need  8 runes for your tier 2 altar, which can hold more blood, and you can make new recipes now.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -84249,7 +84249,7 @@
     {
       "questID": 899,
       "name": "Paying the highest price",
-      "description": "Tier 2 blood altar need 8 runes placed around the  altar. Your new altar can hold more blood.",
+      "description": "A tier 2 blood altar needs 8 runes placed around the altar. Your new altar can hold more blood.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
