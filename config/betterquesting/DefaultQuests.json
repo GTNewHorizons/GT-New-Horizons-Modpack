@@ -63052,7 +63052,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 140
             }
