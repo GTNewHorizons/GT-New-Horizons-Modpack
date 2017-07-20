@@ -87949,6 +87949,510 @@
         931,
         160
       ]
+    },
+    {
+      "questID": 933,
+      "name": "Power of the Sun",
+      "description": "Now its time to investigate in some rgenerative engery. Well let\u0027s start with solarpannels. The lowest one only give 1 eu/t. Most gt machine can use them as covers.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32750
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "IC2:blockAlloyGlass",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
+              "OreDict": "circuitBasic",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCarbonPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.AluminiumIronPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2000
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32750
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        792
+      ]
+    },
+    {
+      "questID": 934,
+      "name": "Power of the Sun 8V",
+      "description": "Next  solarpannel you can make is the ULV one. It gives  8 eu/t. Most gt machine can use them as covers.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32751
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32750
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17980
+            },
+            {
+              "id": "dreamcraft:item.ReinforcedAluminiumIronPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1240
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32751
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        933
+      ]
+    },
+    {
+      "questID": 935,
+      "name": "Power of the Sun 1x1",
+      "description": "Put those 1 eu pannel on a block make em placeable. Using a mv assembler to combining a ULV hull with the pannel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32750
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockGenerator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        933
+      ]
+    },
+    {
+      "questID": 936,
+      "name": "Power of the Sun at Lv Level",
+      "description": "Next  solarpannel you can make is the LV one. It gives 32 eu/t max. Most gt machine can use them as covers. First you need to produce a sunnunamium item out of 10 mio eu power. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32752
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AdvancedSolarPanel:asp_crafting_items",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32751
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18980
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 1,
+              "OreDict": "circuitAdvanced",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.IrradiantReinforcedAluminiumPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1200
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32752
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "IC2:itemPartIndustrialDiamond",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        934,
+        206
+      ]
     }
   ],
   "questLines": [
@@ -89719,6 +90223,21 @@
           "id": 931,
           "x": 300,
           "y": 132
+        },
+        {
+          "id": 933,
+          "x": 264,
+          "y": 36
+        },
+        {
+          "id": 934,
+          "x": 312,
+          "y": 36
+        },
+        {
+          "id": 935,
+          "x": 312,
+          "y": 84
         }
       ]
     },
@@ -90041,6 +90560,11 @@
           "id": 861,
           "x": 144,
           "y": 180
+        },
+        {
+          "id": 936,
+          "x": 0,
+          "y": 144
         }
       ]
     },
