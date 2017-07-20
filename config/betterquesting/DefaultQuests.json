@@ -42797,10 +42797,10 @@
               "Damage": 2
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -48539,10 +48539,10 @@
               "Damage": 0
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -48659,10 +48659,10 @@
         {
           "rewards": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "harvestcraft:figjellysandwichItem",
@@ -48784,10 +48784,10 @@
         {
           "choices": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -48897,10 +48897,10 @@
         {
           "choices": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
-              "OreDict": "plateSteel",
-              "Damage": 1
+              "OreDict": "",
+              "Damage": 17305
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -49995,10 +49995,10 @@
               "Damage": 2
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
-              "OreDict": "plateSteel",
-              "Damage": 1
+              "OreDict": "",
+              "Damage": 17305
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -60365,10 +60365,10 @@
               "Damage": 11880
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -61497,10 +61497,10 @@
               "Damage": 17300
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -61806,10 +61806,10 @@
               "Damage": 17300
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -62145,10 +62145,10 @@
         {
           "choices": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "gregtech:gt.metatool.01",
@@ -62274,10 +62274,10 @@
         {
           "choices": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 16,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "gregtech:gt.metatool.01",
