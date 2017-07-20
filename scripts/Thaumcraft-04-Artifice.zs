@@ -629,7 +629,7 @@ mods.thaumcraft.Research.setComplexity("MIRRORHAND", 3);
 
 // --- Essentia Mirror
 mods.thaumcraft.Infusion.addRecipe("MIRRORESSENTIA", <Thaumcraft:ItemResource:10>,
-[<minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:27330>, <minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:27330>],
+[<minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>, <minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>],
 "aqua 16, iter 16, permutatio 16, vitreus 8", <Thaumcraft:blockMirror:6>, 2);
 // -
 mods.thaumcraft.Research.setAspects("MIRRORESSENTIA", "praecantatio 12, iter 12, vitreus 9, alienis 9, cognitio 6, potentia 6, aqua 3");

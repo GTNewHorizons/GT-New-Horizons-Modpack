@@ -1149,7 +1149,7 @@ Assembler.addRecipe(EnderCore, <ExtraUtilities:decorativeBlock1:1> * 4, MagicalW
 Assembler.addRecipe(<ExtraUtilities:trading_post>, <Railcraft:machine.alpha:6>, <gregtech:gt.metaitem.02:32470> * 4, 300, 30);
 
 // --- Transfer Pipe
-Assembler.addRecipe(TransferPipe, <Railcraft:part.plate:1> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.redalloy> * 36, 100, 64);
+Assembler.addRecipe(TransferPipe, <gregtech:gt.metaitem.01:17305> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.redalloy> * 36, 100, 64);
 
 // --- Sorting Pipe
 Assembler.addRecipe(SortingPipe, TransferPipe, <IC2:itemPartCircuit>, 200, 64);
@@ -1178,7 +1178,7 @@ Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.01:
 Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.01:32704>, 200, 64);
 
 // --- Trash Can
-Assembler.addRecipe(<ExtraUtilities:trashcan>, <Railcraft:part.plate> * 4, <minecraft:ender_pearl>, 200, 30);
+Assembler.addRecipe(<ExtraUtilities:trashcan>, <gregtech:gt.metaitem.01:17032> * 4, <minecraft:ender_pearl>, 200, 30);
 
 // --- Fluid Trash Can
 Assembler.addRecipe(<ExtraUtilities:trashcan:1>, <ExtraUtilities:trashcan>, <BuildCraft|Factory:tankBlock>, 200, 30);

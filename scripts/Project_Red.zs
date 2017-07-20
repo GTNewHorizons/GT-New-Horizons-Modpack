@@ -942,10 +942,10 @@ Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:4>, <
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:6>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <minecraft:magma_cream> * 4, <liquid:lava> * 4000, 400, 30);
 
 // --- Pressure Tube
-Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:7>, <ProjRed|Transportation:projectred.transportation.pipe>, <Railcraft:part.plate>, 200, 30);
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:7>, <ProjRed|Transportation:projectred.transportation.pipe>, <gregtech:gt.metaitem.01:17032>, 200, 30);
 
 // --- Pressure Resistance Tube
-Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:8>, <ProjRed|Transportation:projectred.transportation.pipe:7>, <Railcraft:part.plate:1>, 300, 30);
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:8>, <ProjRed|Transportation:projectred.transportation.pipe:7>, <gregtech:gt.metaitem.01:17305>, 300, 30);
 
 // --- Network Vave Pipe
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:9>, <ProjRed|Transportation:projectred.transportation.pipe>, <StevesCarts:ModuleComponents:60>, 200, 30);

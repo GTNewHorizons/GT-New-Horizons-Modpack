@@ -2850,7 +2850,7 @@ Assembler.addRecipe(<minecraft:wooden_door>, <gregtech:gt.metaitem.01:17809> * 4
 Assembler.addRecipe(<minecraft:wooden_door>, <gregtech:gt.metaitem.01:17809> * 4, <minecraft:trapdoor>, <liquid:molten.copper> * 16, 400, 4);
 
 // --- Iron Door
-Assembler.addRecipe(<minecraft:iron_door>, <Railcraft:part.plate> * 4, <dreamcraft:item.SteelBars>, <liquid:molten.steel> * 16, 400, 8);
+Assembler.addRecipe(<minecraft:iron_door>, <gregtech:gt.metaitem.01:17032> * 4, <dreamcraft:item.SteelBars>, <liquid:molten.steel> * 16, 400, 8);
 
 // --- Trapped Door
 Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);

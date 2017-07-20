@@ -2736,7 +2736,7 @@ Assembler.addRecipe(<Forestry:sturdyMachine>, <gregtech:gt.blockcasings:1>, <IC2
 Assembler.addRecipe(<Forestry:hardenedMachine>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:17500> * 8, 1200, 120);
 
 // --- Peat Fireed Engine
-Assembler.addRecipe(<Forestry:engine:1>, <dreamcraft:item.EngineCore>, <Railcraft:part.plate> * 10, 800, 256);
+Assembler.addRecipe(<Forestry:engine:1>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17032> * 10, 800, 256);
 
 // --- Biogas Engine
 Assembler.addRecipe(<Forestry:engine:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17300> * 10, 800, 256);

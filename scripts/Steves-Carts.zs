@@ -1439,7 +1439,7 @@ Assembler.addRecipe(<StevesCarts:ModuleComponents:82>, <gregtech:gt.metaitem.01:
 Assembler.addRecipe(<StevesCarts:CartModule:37>, <gregtech:gt.metaitem.01:17809> * 4, <StevesCarts:ModuleComponents> * 2, 400, 2);
 
 // --- Standart Hull
-Assembler.addRecipe(<StevesCarts:CartModule:38>, <Railcraft:part.plate> * 4, <StevesCarts:ModuleComponents:1> * 2, 400, 2);
+Assembler.addRecipe(<StevesCarts:CartModule:38>, <gregtech:gt.metaitem.01:17032> * 4, <StevesCarts:ModuleComponents:1> * 2, 400, 2);
 
 // --- Reinforced Hull
 Assembler.addRecipe(<StevesCarts:CartModule:39>, <gregtech:gt.metaitem.01:17383> * 4, <StevesCarts:ModuleComponents:23> * 2, 400, 2);
@@ -1731,11 +1731,11 @@ CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:M
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:ModuleComponents:32>, <liquid:lubricant> * 2, 50, 30);
 
 // ---  Iron Pane
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <Railcraft:part.plate>, <liquid:water> * 8, 200, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.01:17032>, <liquid:water> * 8, 200, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <Railcraft:part.plate>, <liquid:ic2distilledwater> * 6, 200, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.01:17032>, <liquid:ic2distilledwater> * 6, 200, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <Railcraft:part.plate>, <liquid:lubricant> * 2, 100, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.01:17032>, <liquid:lubricant> * 2, 100, 30);
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <StevesCarts:ModuleComponents:35>, <liquid:water> * 12, 200, 30);
 // -

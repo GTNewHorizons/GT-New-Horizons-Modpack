@@ -51,7 +51,7 @@ val HeatProofCase = <gregtech:gt.blockcasings:11>;
 val Stick = <ore:stickWood>;
 val Flint = <minecraft:flint>;
 
-var plateIron = <Railcraft:part.plate>;
+var plateIron = <gregtech:gt.metaitem.01:17032>;
 var plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
 var plateAluminium = <gregtech:gt.metaitem.01:17019>;
 var shutterModule = <gregtech:gt.metaitem.01:32749>;

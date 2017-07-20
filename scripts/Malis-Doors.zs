@@ -760,10 +760,10 @@ recipes.addShaped(<malisisdoors:spruceFenceGate> * 4, [
 
 
 // --- Iron Trap Door
-Assembler.addRecipe(<malisisdoors:iron_trapdoor>, Trapdoor, <Railcraft:part.plate> * 4, 100, 16);
+Assembler.addRecipe(<malisisdoors:iron_trapdoor>, Trapdoor, <gregtech:gt.metaitem.01:17032> * 4, 100, 16);
 
 // --- Sliding Trap Door
-Assembler.addRecipe(<malisisdoors:sliding_trapdoor>, <malisisdoors:iron_trapdoor>, <Railcraft:part.plate:1> * 2, 150, 16);
+Assembler.addRecipe(<malisisdoors:sliding_trapdoor>, <malisisdoors:iron_trapdoor>, <gregtech:gt.metaitem.01:17305> * 2, 150, 16);
 
 // --- Player Sensor
 Assembler.addRecipe(<malisisdoors:player_sensor> * 2, <minecraft:heavy_weighted_pressure_plate>, <minecraft:skull:3>, 100, 16);
@@ -781,7 +781,7 @@ Assembler.addRecipe(<malisisdoors:vanishing_block:2>, <gregtech:gt.blockmachines
 Assembler.addRecipe(<malisisdoors:vanishing_block:3>, <dreamcraft:tile.DiamondFrameBox>, <gregtech:gt.metaitem.01:17532>, <liquid:molten.redstone> * 288, 600, 30);
 
 // --- Rusty Hatch
-Assembler.addRecipe(<malisisdoors:rustyHatch>, <Railcraft:part.plate> * 4, <malisisdoors:item.rustyHandle>, 200, 16);
+Assembler.addRecipe(<malisisdoors:rustyHatch>, <gregtech:gt.metaitem.01:17032> * 4, <malisisdoors:item.rustyHandle>, 200, 16);
 
 // --- Garage Door
 Assembler.addRecipe(<malisisdoors:garage_door> * 2, PlasticPlate, SteelRing, 150, 16);
@@ -831,10 +831,10 @@ Assembler.addRecipe(<malisisdoors:item.iron_sliding_door>, IronDoor, <TConstruct
 Assembler.addRecipe(<malisisdoors:item.jail_door>, IronDoor, SteelBars * 2,  400, 4);
 
 // --- Laboratory Door
-Assembler.addRecipe(<malisisdoors:item.laboratory_door>, Door, <Railcraft:part.plate:1> * 2,  400, 4);
+Assembler.addRecipe(<malisisdoors:item.laboratory_door>, Door, <gregtech:gt.metaitem.01:17305> * 2,  400, 4);
 
 // --- Factory Door
-Assembler.addRecipe(<malisisdoors:item.factory_door>, Door, <Railcraft:part.plate> * 2,  400, 4);
+Assembler.addRecipe(<malisisdoors:item.factory_door>, Door, <gregtech:gt.metaitem.01:17032> * 2,  400, 4);
 
 // --- Shoji Door
 Assembler.addRecipe(<malisisdoors:item.shoji_door>, Paper * 2, Stick * 2,  <liquid:molten.iron> * 16, 400, 4);
