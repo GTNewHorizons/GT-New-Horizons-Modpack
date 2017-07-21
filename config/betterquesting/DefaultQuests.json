@@ -62891,6 +62891,21 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11305
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockcasings4",
               "Count": 24,
               "OreDict": "",
@@ -62999,6 +63014,21 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 11305
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -73277,7 +73307,7 @@
               "id": "gregtech:gt.metaitem.03",
               "Count": 16,
               "OreDict": "",
-              "Damage": 32101
+              "Damage": 32100
             },
             {
               "id": "gregtech:gt.metaitem.03",
@@ -73335,7 +73365,7 @@
               "id": "gregtech:gt.metaitem.03",
               "Count": 4,
               "OreDict": "",
-              "Damage": 32101
+              "Damage": 32100
             },
             {
               "id": "gregtech:gt.metaitem.03",
@@ -75127,7 +75157,7 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "circuitElite",
               "Damage": 32705
             }
           ],
@@ -88557,6 +88587,259 @@
       "preRequisites": [
         936
       ]
+    },
+    {
+      "questID": 938,
+      "name": "Automated Sticky Resin Farmer",
+      "description": "If you are tiered to craft tones of Tree tapes what is with an machine which using power and never break. Let\u0027s craft some electric tree tap.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemTreetapElectric",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 10000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemTreetap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemRecipePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "IC2:itemBatREDischarged",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 20306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemTreetapElectric",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32518,
+              "tag": {
+                "GT.ItemCharge:4": 100000
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        753
+      ]
+    },
+    {
+      "questID": 939,
+      "name": "Automated Farmer",
+      "description": "Your hoe got to be old. Why not crafting an electric one wich never breaks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemToolHoe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 10000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4306
+            },
+            {
+              "id": "IC2:itemRecipePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "IC2:itemBatREDischarged",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 20306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemToolHoe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        753
+      ]
     }
   ],
   "questLines": [
@@ -89846,7 +90129,7 @@
         {
           "id": 133,
           "x": 348,
-          "y": 228
+          "y": 264
         },
         {
           "id": 134,
@@ -89915,7 +90198,7 @@
         },
         {
           "id": 147,
-          "x": 336,
+          "x": 348,
           "y": 516
         },
         {
@@ -90095,8 +90378,8 @@
         },
         {
           "id": 773,
-          "x": 264,
-          "y": 372
+          "x": 216,
+          "y": 480
         },
         {
           "id": 774,
@@ -90105,8 +90388,8 @@
         },
         {
           "id": 778,
-          "x": 264,
-          "y": 408
+          "x": 216,
+          "y": 444
         },
         {
           "id": 780,
@@ -90270,12 +90553,12 @@
         },
         {
           "id": 858,
-          "x": 300,
+          "x": 348,
           "y": 444
         },
         {
           "id": 859,
-          "x": 300,
+          "x": 348,
           "y": 336
         },
         {
@@ -90342,6 +90625,16 @@
           "id": 935,
           "x": 312,
           "y": 84
+        },
+        {
+          "id": 938,
+          "x": 264,
+          "y": 372
+        },
+        {
+          "id": 939,
+          "x": 300,
+          "y": 372
         }
       ]
     },

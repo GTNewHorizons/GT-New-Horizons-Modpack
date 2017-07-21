@@ -115,7 +115,7 @@ mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
 recipes.addShaped(<Avaritia:Dire_Crafting>, [
 [<gregtech:gt.metaitem.01:32652>, <Avaritia:Triple_Craft>, <gregtech:gt.metaitem.01:32652>],
 [<ore:waferAdvanced>, <Avaritia:Crystal_Matrix>, <ore:waferAdvanced>],
-[<gregtech:gt.metaitem.01:32642>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32642>]]);
+[<gregtech:gt.metaitem.01:32642>, <ore:circuitElite>, <gregtech:gt.metaitem.01:32642>]]);
 // -
 recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWorkbench>]);
 
