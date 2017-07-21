@@ -6,7 +6,6 @@
 
 
 import mods.gregtech.Assembler;
-import mods.ic2.Macerator;
 import mods.nei.NEI;
 
 

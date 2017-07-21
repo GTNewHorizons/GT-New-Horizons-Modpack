@@ -10,7 +10,6 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
-import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
 import mods.gregtech.FluidExtractor;
@@ -2801,8 +2800,6 @@ AlloySmelter.addRecipe(<minecraft:golden_leggings>, <minecraft:gold_ingot> * 7, 
 // --- Gold Boots
 AlloySmelter.addRecipe(<minecraft:golden_boots>, <minecraft:gold_ingot> * 4, <dreamcraft:item.MoldBoots> * 0, 200, 30);
 
-// --- Clay Block
-AlloySmelter.addRecipe(<minecraft:clay>, <minecraft:clay_ball> * 4, <gregtech:gt.metaitem.01:32308> * 0, 200, 30);
 
 
 

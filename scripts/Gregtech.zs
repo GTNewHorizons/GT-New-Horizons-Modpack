@@ -18,7 +18,6 @@ import mods.gregtech.FluidCanner;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.ic2.Canner;
-import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.PlasmaArcFurnace;
 import mods.gregtech.PlateBender;

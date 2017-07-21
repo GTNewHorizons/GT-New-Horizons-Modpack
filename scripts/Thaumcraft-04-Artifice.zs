@@ -6,9 +6,7 @@
 
 
 
-import mods.gregtech.Assembler;
-import mods.ic2.Compressor;
-import mods.ic2.Macerator;
+import mods.gregtech.PrecisionLaser;
 
 
 
@@ -697,12 +695,12 @@ mods.thaumcraft.Research.setComplexity("BONEBOW", 2);
 
 
 
-// --- Assembler Recipes --- 
+// --- Precision Laser Recipes --- 
 
 
 
 // --- Arcan Stone Bricks
-Assembler.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6> * 4, <gregtech:gt.integrated_circuit:4> * 0, 160, 40);
+PrecisionLaser.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>, <gregtech:gt.metaitem.01:24502> * 0, 600, 120);
 
 
 
