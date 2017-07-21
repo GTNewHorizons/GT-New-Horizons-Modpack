@@ -88844,7 +88844,7 @@
     {
       "questID": 940,
       "name": "Cleanroom",
-      "description": "If you want to make more advanced circuits you need a clenroom. The clenroom is a multiblock from 3x4x3 to 15x15x15 (WxHxDx). Beside Plascrete Blocks you need a Controller, filter casings on the top, a enrgy and maintenence hatch , a reinfored door and three machine hulls. For now you can use mv tier.",
+      "description": "If you want to make more advanced circuits you need a clenroom. The clenroom is a multiblock from 3x4x3 to 15x15x15 (WxHxDx) Blocks. Beside Plascrete Blocks you need a Controller, filter casings on the top, a enrgy and maintenence hatch , a reinfored door and three machine hulls. For now you can use mv tier.\n\nLet\u0027s build a 5x5x5 room.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88875,10 +88875,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
+              "id": "minecraft:stone_pressure_plate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemDoorAlloy",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1003
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -88890,10 +88896,49 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings",
-              "Count": 12,
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 42
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockreinforced",
+              "Count": 82,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 8,
               "OreDict": "",
               "Damage": 11
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1172
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -88925,6 +88970,83 @@
       ],
       "preRequisites": [
         160
+      ]
+    },
+    {
+      "questID": 941,
+      "name": "A very useful Scanner",
+      "description": "The Portable Scanner is a tool capable of showing advanced information about almost every block in the game. \nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops, which shows more information than Cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems, CPU-load.\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.\nIt also gives information about pollution level in the chunk the scanned block belongs to.\nAdditional to that it shows when the clenroom has reached his 100% efficeny level.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32762
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32762
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 32764
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        940
       ]
     }
   ],
@@ -92165,6 +92287,11 @@
         {
           "id": 940,
           "x": 240,
+          "y": 108
+        },
+        {
+          "id": 941,
+          "x": 288,
           "y": 108
         }
       ]
