@@ -190,7 +190,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Gravitation Suite	2.0.68u<BR>
 * Gregtech	5.09.31.16<BR>
 * GT New Horizons Core Mod	1.4.20<BR>
-* GT++ 1.5.6b<BR>
+* GT++ 1.5.6c<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
