@@ -88844,7 +88844,7 @@
     {
       "questID": 940,
       "name": "Cleanroom",
-      "description": "If you want to make more advanced circuits you need a clenroom. The clenroom is a multiblock from 3x4x3 to 15x15x15 (WxHxDx) Blocks. Beside Plascrete Blocks you need a Controller, filter casings on the top, a enrgy and maintenence hatch , a reinfored door and three machine hulls. For now you can use mv tier.\n\nLet\u0027s build a 5x5x5 room.",
+      "description": "If you want to make more advanced circuits you need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use mv tier.\n\nLet\u0027s build a 5x5x5 room.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88975,7 +88975,7 @@
     {
       "questID": 941,
       "name": "A very useful Scanner",
-      "description": "The Portable Scanner is a tool capable of showing advanced information about almost every block in the game. \nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops, which shows more information than Cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems, CPU-load.\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.\nIt also gives information about pollution level in the chunk the scanned block belongs to.\nAdditional to that it shows when the clenroom has reached his 100% efficeny level.",
+      "description": "The portable scanner is a tool capable of showing advanced information about almost every block in the game. \nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops, which shows more information than the cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load.\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.\nIt also gives information about pollution level in the chunk the scanned block belongs to.\nAdditional to that it shows when the clenroom has reached his 100% efficeny level.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
