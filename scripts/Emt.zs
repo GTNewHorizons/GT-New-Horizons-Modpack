@@ -7,7 +7,7 @@
 
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 
 
 
@@ -1209,15 +1209,15 @@ Compressor.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:11880> * 4);
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 // --- Quicksilver Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:826> * 22, <Thaumcraft:ItemNugget:21>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:826> * 22], <Thaumcraft:ItemNugget:21>, [10000], 300, 2);
 
 // --- Rubber Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2880> * 4, <EMT:EMTItems:10>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2880> * 4], <EMT:EMTItems:10>, [10000], 300, 2);
 
 
 

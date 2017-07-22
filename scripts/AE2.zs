@@ -9,7 +9,7 @@ import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 import mods.nei.NEI;
 import mods.gregtech.Wiremill;
 
@@ -133,7 +133,7 @@ val IronRod = <ore:stickIron>;
 
 
 // --- Removing Recipes ---
-
+mods.appeng.Grinder.removeRecipe(<*>);
 
 // --- Blocks ---
 
@@ -549,9 +549,9 @@ recipes.addShaped(CraftingUnit, [
 
 // --- Molecular Assembler
 recipes.addShaped(MolecularAssembler, [
-[TitaniumPlate, ClearGlass, TitaniumPlate],
+[TitaniumPlate, <ore:blockGlass>, TitaniumPlate],
 [AnnihilationCore, AdvAssembler, FormationCore],
-[TitaniumPlate, ClearGlass, TitaniumPlate]]);
+[TitaniumPlate, <ore:blockGlass>, TitaniumPlate]]);
 
 // --- Charger
 recipes.addShaped(Charger, [
@@ -1298,10 +1298,10 @@ ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, <l
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 // --- Fluix Dust
-Macerator.addRecipe(FluixDust * 4, <appliedenergistics2:tile.BlockFluix>);
+Pulverizer.addRecipe([FluixDust * 4], <appliedenergistics2:tile.BlockFluix>, [10000], 300, 2);
 
 
 

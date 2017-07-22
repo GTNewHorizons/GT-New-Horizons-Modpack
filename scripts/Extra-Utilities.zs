@@ -75,6 +75,7 @@ val RoundRobinUp = <ExtraUtilities:nodeUpgrade:9>;
 val RedAlloyRod = <ore:stickRedAlloy>;
 val BronzeGear = <ore:gearBronze>;
 val IronPlate = <ore:plateAnyIron>;
+val DiamondPlate = <ore:plateDiamond>;
 val SteelRing = <ore:ringSteel>;
 val StainlessGear = <ore:gearStainlessSteel>;
 val IronRod = <ore:stickAnyIron>;
@@ -670,9 +671,9 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [
 
 // --- Speed Upgrade
 recipes.addShaped(SpeedUp, [
-[RedAlloyPlate, SSteelPlate, RedAlloyPlate],
-[SSteelGear, DiamondGear, SSteelGear],
-[RedAlloyPlate, SSteelPlate, RedAlloyPlate]]);
+[RedAlloyPlate, DiamondPlate, RedAlloyPlate],
+[DiamondPlate, SSteelGear, DiamondPlate],
+[RedAlloyPlate, DiamondPlate, RedAlloyPlate]]);
 
 // --- Item Filter Upgrade
 recipes.addShaped(ItemFilterUp, [
@@ -779,6 +780,17 @@ recipes.addShaped(WateringCan, [
 [Screwdriver, SteelRing, HHammer],
 [IronPlate, IronPlate, IronRod],
 [IronPlate, IronPlate, SteelScrew]]);
+
+// --- Reinforced Watering Can
+recipes.addShaped(<ExtraUtilities:watering_can:3>, [
+[HHammer, <ore:ringNeutronium>, Screwdriver],
+[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>],
+[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <ore:screwNeutronium>]]);
+// -
+recipes.addShaped(<ExtraUtilities:watering_can:3>, [
+[Screwdriver, <ore:ringNeutronium>, HHammer],
+[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>],
+[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <ore:screwNeutronium>]]);
 
 // --- Magnum Torch
 mods.extraUtils.QED.addShapedRecipe(MagnumTorch, [
@@ -1137,7 +1149,7 @@ Assembler.addRecipe(EnderCore, <ExtraUtilities:decorativeBlock1:1> * 4, MagicalW
 Assembler.addRecipe(<ExtraUtilities:trading_post>, <Railcraft:machine.alpha:6>, <gregtech:gt.metaitem.02:32470> * 4, 300, 30);
 
 // --- Transfer Pipe
-Assembler.addRecipe(TransferPipe, <Railcraft:part.plate:1> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.redalloy> * 36, 100, 64);
+Assembler.addRecipe(TransferPipe, <gregtech:gt.metaitem.01:17305> * 2, <gregtech:gt.integrated_circuit:2> * 0, <liquid:molten.redalloy> * 36, 100, 64);
 
 // --- Sorting Pipe
 Assembler.addRecipe(SortingPipe, TransferPipe, <IC2:itemPartCircuit>, 200, 64);
@@ -1166,7 +1178,7 @@ Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.01:
 Assembler.addRecipe(HyperRationingPipe, RationingPipe, <gregtech:gt.metaitem.01:32704>, 200, 64);
 
 // --- Trash Can
-Assembler.addRecipe(<ExtraUtilities:trashcan>, <Railcraft:part.plate> * 4, <minecraft:ender_pearl>, 200, 30);
+Assembler.addRecipe(<ExtraUtilities:trashcan>, <gregtech:gt.metaitem.01:17032> * 4, <minecraft:ender_pearl>, 200, 30);
 
 // --- Fluid Trash Can
 Assembler.addRecipe(<ExtraUtilities:trashcan:1>, <ExtraUtilities:trashcan>, <BuildCraft|Factory:tankBlock>, 200, 30);

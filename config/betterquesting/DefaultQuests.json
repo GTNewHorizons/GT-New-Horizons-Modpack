@@ -4469,7 +4469,7 @@
       "questID": 50,
       "name": "Macerator v1.0!",
       "description": "Finally you are able to make a device that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -4522,7 +4522,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -4751,7 +4751,7 @@
     {
       "questID": 53,
       "name": "Hammer time v2",
-      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have machine that does the same but without having durability and using tree Ingots to make two plates? Guess what, there is one! And you should totally get one.",
+      "description": "Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have a machine that does the same but without having durability and using three ingots to make two plates? Guess what, there is one! And you should totally get one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5483,7 +5483,7 @@
       "questID": 63,
       "name": "Using steam to cook things",
       "description": "A rather slow process, but it\u0027s more efficient than using a regular furnace.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -5536,7 +5536,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -5719,8 +5719,8 @@
         }
       ],
       "preRequisites": [
-        63,
-        53
+        53,
+        44
       ]
     },
     {
@@ -5845,8 +5845,8 @@
         }
       ],
       "preRequisites": [
-        65,
-        67
+        67,
+        871
       ]
     },
     {
@@ -5934,6 +5934,12 @@
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2006
+            },
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 7,
@@ -7168,7 +7174,8 @@
         }
       ],
       "preRequisites": [
-        54
+        54,
+        50
       ]
     },
     {
@@ -8043,7 +8050,7 @@
     },
     {
       "questID": 85,
-      "name": "Smelt all the things...",
+      "name": "Smelt all the things stack wise...",
       "description": "...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can\u0027t go any faster! \n\nHint: Parallel smelting depends on coils, consult your local doctor before use.",
       "isMain": false,
       "isSilent": false,
@@ -8106,7 +8113,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 2,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 5
             }
           ],
           "rewardID": "bq_standard:item"
@@ -8114,8 +8121,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -9238,7 +9245,7 @@
     },
     {
       "questID": 101,
-      "name": "Mjölnir!!! (electric forge hammer)",
+      "name": "Mjolnir!!! (electric forge hammer)",
       "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
@@ -13983,13 +13990,17 @@
         740,
         753,
         750,
-        838
+        838,
+        893,
+        895,
+        896,
+        897
       ]
     },
     {
       "questID": 161,
       "name": "Paying the highest price",
-      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.",
+      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.\n\nIn tier 1 you only need to place the blood altar.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -16229,7 +16240,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             }
@@ -16410,10 +16421,19 @@
             },
             {
               "id": "appliedenergistics2:tile.BlockCraftingUnit",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
-            },
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "appliedenergistics2:tile.BlockCraftingStorage",
               "Count": 1,
@@ -16615,7 +16635,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
-              "Count": 16,
+              "Count": 24,
               "OreDict": "",
               "Damage": 16
             },
@@ -20054,6 +20074,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemThaumometer",
@@ -20062,7 +20084,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -20602,6 +20624,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "dreamcraft:item.GoldWandCap",
@@ -20610,7 +20634,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -21101,6 +21125,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockStoneDevice",
@@ -21115,7 +21141,7 @@
               "Damage": 1
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -21266,6 +21292,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockStoneDevice",
@@ -21274,7 +21302,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -22263,6 +22291,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockCosmeticSolid",
@@ -22271,7 +22301,7 @@
               "Damage": 6
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -22368,6 +22398,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Automagy:blockBoiler",
@@ -22376,7 +22408,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -22444,6 +22476,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:blockMetalDevice",
@@ -22452,7 +22486,7 @@
               "Damage": 1
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -34546,8 +34580,8 @@
     {
       "questID": 409,
       "name": "Basic rune",
-      "description": "The basic rune that you can craft at this moment.",
-      "isMain": false,
+      "description": "The basic rune that you can craft at this moment.\n\nYou need  8 runes for your tier 2 altar, which can hold more blood, and you can make new recipes now.",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -34578,7 +34612,7 @@
           "requiredItems": [
             {
               "id": "AWWayofTime:AlchemicalWizardrybloodRune",
-              "Count": 4,
+              "Count": 8,
               "OreDict": "",
               "Damage": 0
             }
@@ -34601,8 +34635,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinBloodI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -34618,7 +34652,7 @@
       "questID": 410,
       "name": "Alchemy with blood",
       "description": "Not like \"blood alchemy\". You probably will need more than one later, but for now one is sufficient.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -34672,14 +34706,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinBloodI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -35760,7 +35794,7 @@
         }
       ],
       "preRequisites": [
-        422
+        926
       ]
     },
     {
@@ -36425,7 +36459,7 @@
       "questID": 430,
       "name": "Getting soul shards",
       "description": "Enable your sword by Shift right-clicking and slay some enemies! Collect as many shards as possible. You will need a ton of them...",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -36456,7 +36490,7 @@
           "requiredItems": [
             {
               "id": "AWWayofTime:weakBloodShard",
-              "Count": 16,
+              "Count": 17,
               "OreDict": "",
               "Damage": 0
             }
@@ -36498,7 +36532,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinBloodII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -36621,7 +36655,7 @@
       "questID": 432,
       "name": "A bloodmage\u0027s sword",
       "description": "Diamonds and emeralds are limited in their ability to store LP. With this sword, you are able to get the crystallized souls from your enemies. Time to go hunting.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -36676,19 +36710,19 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivorII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSmithII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinBloodII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -36704,7 +36738,7 @@
       "questID": 433,
       "name": "Rituals",
       "description": "Time for some rituals. The most basic one you\u0027ll probably get first is the ritual of binding.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -36735,7 +36769,7 @@
           "requiredItems": [
             {
               "id": "AWWayofTime:ritualStone",
-              "Count": 16,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             },
@@ -36765,7 +36799,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinBloodII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -42763,10 +42797,10 @@
               "Damage": 2
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -47431,7 +47465,7 @@
       "questID": 548,
       "name": "Light Sulfuric Fuel",
       "description": "The first step is to distill your oil into light sulfuric fuel, that has a burn value of 40,000 EU.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -47462,7 +47496,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 50,
+              "Count": 48,
               "OreDict": "",
               "Damage": 30737
             }
@@ -47491,8 +47525,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -47508,7 +47542,7 @@
       "questID": 549,
       "name": "Light fuel",
       "description": "By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -47539,7 +47573,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 50,
+              "Count": 48,
               "OreDict": "",
               "Damage": 30740
             }
@@ -47574,8 +47608,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -47624,7 +47658,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 2,
               "OreDict": "",
               "Damage": 30001
             }
@@ -47701,7 +47735,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 10,
+              "Count": 8,
               "OreDict": "",
               "Damage": 30738
             }
@@ -47784,7 +47818,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 10,
+              "Count": 8,
               "OreDict": "",
               "Damage": 30741
             }
@@ -47863,7 +47897,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 66,
+              "Count": 48,
               "OreDict": "",
               "Damage": 30708
             }
@@ -48186,7 +48220,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 288,
+              "Count": 128,
               "OreDict": "",
               "Damage": 30709
             }
@@ -48227,8 +48261,7 @@
       "preRequisites": [
         556,
         549,
-        841,
-        845
+        841
       ]
     },
     {
@@ -48506,10 +48539,10 @@
               "Damage": 0
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -48626,10 +48659,10 @@
         {
           "rewards": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "harvestcraft:figjellysandwichItem",
@@ -48751,10 +48784,10 @@
         {
           "choices": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -48864,10 +48897,10 @@
         {
           "choices": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
-              "OreDict": "plateSteel",
-              "Damage": 1
+              "OreDict": "",
+              "Damage": 17305
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -49962,10 +49995,10 @@
               "Damage": 2
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
-              "OreDict": "plateSteel",
-              "Damage": 1
+              "OreDict": "",
+              "Damage": 17305
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -50232,7 +50265,6 @@
         }
       ],
       "preRequisites": [
-        93,
         95
       ]
     },
@@ -60333,10 +60365,10 @@
               "Damage": 11880
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -61465,10 +61497,10 @@
               "Damage": 17300
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -61774,10 +61806,10 @@
               "Damage": 17300
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -62113,10 +62145,10 @@
         {
           "choices": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 8,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "gregtech:gt.metatool.01",
@@ -62242,10 +62274,10 @@
         {
           "choices": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 16,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "gregtech:gt.metatool.01",
@@ -62859,6 +62891,21 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11305
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockcasings4",
               "Count": 24,
               "OreDict": "",
@@ -62967,6 +63014,21 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 11305
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -63368,7 +63430,7 @@
       "questID": 702,
       "name": "Tier 5 slates",
       "description": "1023 Buckets of blood in one slate! How much more I can store, oh I wish I would know. Then I add one and check if it works. 1024 buckets of blood in one slate! ... ...",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -63428,8 +63490,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinBloodII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -63438,14 +63500,15 @@
         }
       ],
       "preRequisites": [
-        703
+        703,
+        928
       ]
     },
     {
       "questID": 703,
       "name": "Powerful shards",
       "description": "The demons summoned are rather strong, but their souls contain immense power!",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -63543,14 +63606,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSurvivorII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinSurvivorIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinBloodII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -63636,7 +63699,8 @@
         }
       ],
       "preRequisites": [
-        421
+        421,
+        927
       ]
     },
     {
@@ -64339,7 +64403,7 @@
       "questID": 714,
       "name": "Convocation of the damned",
       "description": "Time to open a portal to the demons we\u0027re using all the time. What could possibly go wrong? (It is recommended to do this ritual on a planet, as the demon city will spread quite a bit...)",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -64552,8 +64616,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinBloodII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -66092,7 +66156,7 @@
       "questID": 730,
       "name": "Bio Fuels",
       "description": "You are using steam, creosote, and possibly oil plus their by-products to generate Power. It\u0027s time to start with bio diesel. You can use wheat, sugarcane, apples or saplings.\n\nBe sure you have a managed Forestry farm, Steve\u0027s Cart Farm or IC2 Crop Sticks with a harvester because you need plenty of biomaterials for constant biogas production.\n\nHint: Hazelnut is the ultimative source for biodiesel.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66164,8 +66228,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinFarmerI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66182,7 +66246,7 @@
       "questID": 731,
       "name": "Plant balls",
       "description": "The first step is to compress plantballs out of your wheat. Your LV compressor is too slow for it. I suggest crafting 4 MV compressors for the new bio diesel processing line.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66228,7 +66292,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemFuelPlantBall",
-              "Count": 3067,
+              "Count": 64,
               "OreDict": "",
               "Damage": 0
             }
@@ -66269,8 +66333,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66286,7 +66350,7 @@
       "questID": 732,
       "name": "Plant Mass",
       "description": "Macerate the plantballs down to plant mass for better processing. In the LV and MV tiers you get only one plant mass per, in HV tier you recieve two. IV macerator gives up to four of them with a chance of 50% and 25%.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66332,7 +66396,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.MaceratedPlantmass",
-              "Count": 1534,
+              "Count": 64,
               "OreDict": "",
               "Damage": 0
             }
@@ -66373,8 +66437,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66390,7 +66454,7 @@
       "questID": 733,
       "name": "Bio Chaff",
       "description": "Plant mass needs to be centrifuged into bio chaff, the base material to make biomass. You need 1 or 2 MV centrifuges to run the new production line.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66436,7 +66500,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemBiochaff",
-              "Count": 1534,
+              "Count": 64,
               "OreDict": "",
               "Damage": 0
             }
@@ -66477,8 +66541,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66494,7 +66558,7 @@
       "questID": 734,
       "name": "Way One: IC 2 Fluid Canner",
       "description": "The first way you get biomass out of bio chaff is to use the IC2 Fluid Canner. One bucket of water and one bio chaff give one bucket of biomass. In HV Tier you can use the pyrolyze oven to do it in a more efficient way.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66581,8 +66645,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66598,7 +66662,7 @@
       "questID": 735,
       "name": "Way Two: Brewery",
       "description": "If you are lucky and find some brewing stands or familiar enough with Thaumcraft to make one you can craft a brewery. You get 750mb of biomass out of 750mb water and 1 bio chaff. In HV tier you can use the pyrolyze oven to do it in a more efficient way.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66685,8 +66749,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -66702,7 +66766,7 @@
       "questID": 736,
       "name": "Fermented Biomass",
       "description": "With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.\nWhen you reach HV tier there\u0027s a more efficient way to process it; the distillation tower multiblock.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -66748,7 +66812,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 920,
+              "Count": 64,
               "OreDict": "",
               "Damage": 30691
             }
@@ -66789,14 +66853,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -67252,7 +67316,43 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
+              "Damage": 32359
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32360
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32361
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 32362
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32363
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32357
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32354
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -67264,7 +67364,13 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32354
+              "Damage": 32355
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32373
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -67316,7 +67422,7 @@
     {
       "questID": 741,
       "name": "Tool Forge",
-      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a tool forge for making bigger Tinkers tools. ",
+      "description": "Finally you get your first aluminum. Now it\u0027s time to craft a tool forge for making bigger Tinkers tools. A advanced bending machine is also needed. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -67405,13 +67511,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -67420,7 +67526,8 @@
         }
       ],
       "preRequisites": [
-        103
+        103,
+        89
       ]
     },
     {
@@ -67583,13 +67690,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -67758,13 +67865,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -67849,7 +67956,7 @@
             },
             {
               "id": "TConstruct:heavyPlate",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 16
             },
@@ -67933,13 +68040,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -68330,12 +68437,6 @@
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 32719
-            },
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 32,
@@ -71004,8 +71105,7 @@
         }
       ],
       "preRequisites": [
-        771,
-        750
+        771
       ]
     },
     {
@@ -73207,7 +73307,7 @@
               "id": "gregtech:gt.metaitem.03",
               "Count": 16,
               "OreDict": "",
-              "Damage": 32101
+              "Damage": 32100
             },
             {
               "id": "gregtech:gt.metaitem.03",
@@ -73265,7 +73365,7 @@
               "id": "gregtech:gt.metaitem.03",
               "Count": 4,
               "OreDict": "",
-              "Damage": 32101
+              "Damage": 32100
             },
             {
               "id": "gregtech:gt.metaitem.03",
@@ -75057,7 +75157,7 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "circuitElite",
               "Damage": 32705
             }
           ],
@@ -77756,16 +77856,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 17500
+              "Damage": 32034
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 32711
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -77790,16 +77890,16 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 17500
+              "Damage": 32034
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32711
+              "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -77860,16 +77960,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 24,
               "OreDict": "",
-              "Damage": 17500
+              "Damage": 32033
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 48,
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -77894,16 +77994,16 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 4,
               "OreDict": "",
-              "Damage": 17500
+              "Damage": 32033
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 8,
+              "id": "dreamcraft:item.ReinforcedGlassLense",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -78621,7 +78721,7 @@
     },
     {
       "questID": 839,
-      "name": "Handle tiny piles like a King",
+      "name": "Handle tiny piles like a K1ng",
       "description": "Don\u0027t you hate to manually compress all those tiny piles ? Well, let me show you how to automate that. A combination of typefilter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chestbuffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.",
       "isMain": false,
       "isSilent": false,
@@ -78967,7 +79067,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 107,
+              "Count": 64,
               "OreDict": "",
               "Damage": 30691
             }
@@ -79071,7 +79171,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 64,
               "OreDict": "",
               "Damage": 30673
             }
@@ -79112,7 +79212,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
+              "id": "dreamcraft:item.CoinTechnician",
               "Count": 25,
               "OreDict": "",
               "Damage": 0
@@ -79129,7 +79229,7 @@
       "questID": 844,
       "name": "Ethanol",
       "description": "Ethanol with a burn value of 192,000 EU per cell can be used to make biodiesel and other fluids.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -79201,8 +79301,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemistI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -79249,7 +79349,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 384,
+              "Count": 64,
               "OreDict": "",
               "Damage": 30627
             }
@@ -79398,7 +79498,7 @@
     {
       "questID": 847,
       "name": "Ethylene",
-      "description": "You can make ethylene out of ethanol and sulfuric acid in a chemical reactor or by distilling various gases (i.e. wood gas) in a distillery.",
+      "description": "You can make ethylene out of ethanol and sulfuric acid in a chemical reactor or by distilling various gases (i.e. wood gas) in a distillery. Cracking naptha, fuels and gas with hydrogen or steam in the chemical reactor will work too.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -79422,27 +79522,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 30706
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 30720
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -79502,7 +79581,8 @@
         }
       ],
       "preRequisites": [
-        844
+        549,
+        641
       ]
     },
     {
@@ -79542,7 +79622,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 272
+              "Damage": 512
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -79555,7 +79635,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 384,
+              "Count": 64,
               "OreDict": "",
               "Damage": 30713
             }
@@ -79964,7 +80044,7 @@
     {
       "questID": 852,
       "name": "Acetic Acid",
-      "description": "Fermented biomass can be destilled into acetic acid.",
+      "description": "Acetic acid can be made out of oxygen and ethylene. Alternatively, it can be made out of biomass, wood vinegar or vinegar.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79996,9 +80076,15 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 120,
+              "Count": 6,
               "OreDict": "",
-              "Damage": 30691
+              "Damage": 30013
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 30677
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -80035,10 +80121,10 @@
               "Damage": 32702
             },
             {
-              "id": "IC2:itemFuelPlantBall",
-              "Count": 64,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 30677
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -80062,7 +80148,8 @@
         }
       ],
       "preRequisites": [
-        736
+        847,
+        846
       ]
     },
     {
@@ -80173,7 +80260,7 @@
     {
       "questID": 854,
       "name": "Ammonia",
-      "description": "Now you know one more output from distilling biomass... Ammonia.",
+      "description": "Nitrogen and hydrogen... Ammonia.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80205,9 +80292,15 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 240,
+              "Count": 36,
               "OreDict": "",
-              "Damage": 30691
+              "Damage": 30001
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 30012
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -80265,7 +80358,8 @@
         }
       ],
       "preRequisites": [
-        736
+        550,
+        555
       ]
     },
     {
@@ -80579,7 +80673,6 @@
         }
       ],
       "preRequisites": [
-        843,
         854
       ]
     },
@@ -81652,7 +81745,7 @@
     {
       "questID": 865,
       "name": "Monster trap",
-      "description": "If you lucky you spawn in a sand or rainforest biome and find some quicksand. Collect a stack of the stuff, dig a small ditch and fill it with the quicksand to protect your \"dirt base\" home.",
+      "description": "If you\u0027re lucky you spawn in a sand or rainforest biome and find some quicksand. Collect a stack of the stuff, dig a small ditch and fill it with the quicksand to protect your \"dirt base\" home.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81718,7 +81811,7 @@
     {
       "questID": 866,
       "name": "The transcontinental railroad",
-      "description": "All the different mining veins that have been found seems to be really far apart. One way to speed up the travel times is to create a railroad from your base to the different mines. Sadly this requires a large amount of both iron and creosote. Let\u0027s not forget to place the last symbolic rivet on one of your new train lines.",
+      "description": "All the different mining veins that have been found seem to be really far apart. One way to shorten the travel time is to create a railroad from your base to the different mines. Sadly this requires a large amount of both iron and creosote. Let\u0027s not forget to place the last symbolic rivet on one of your new train lines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81839,6 +81932,2419 @@
       "preRequisites": [
         667,
         97
+      ]
+    },
+    {
+      "questID": 867,
+      "name": "Lapis, Lazurite, Sodalite, Calcite",
+      "description": "In order to make your bricked blast furnace you need to find a lapis vine containing calcite.\nYou can find the vein in the overworld or the Twilight Forest at Y 20-50.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lapis_block",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 526
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 524
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 823
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32243
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32244
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2823
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2934
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        50
+      ]
+    },
+    {
+      "questID": 868,
+      "name": "Gypsum",
+      "description": "To make bricks for the blast furnace you need concrete and gypsum. Gypsum can be found in a vein together with basaltic and granitic mineral sand, and fullers earth. Y 50-60 and only in the overworld.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2934
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 935
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 936
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 928
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 934
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:gingerbreadItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pumpkinbreadItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2934
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2823
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        50
+      ]
+    },
+    {
+      "questID": 869,
+      "name": "Sifting Machine",
+      "description": "You need flawless or exquisite diamonds, emeralds, rubies or other gems? Well then it\u0027s time for you to make a Sifting Machine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 641
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 641
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6501
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6502
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        70,
+        538
+      ]
+    },
+    {
+      "questID": 870,
+      "name": "Smelt all the things...",
+      "description": "Smelting up to nine items at once? With a bit of steel you can make a railcraft Steam Oven. 2x2x2\n\nHint: All furnace recipes work just fine, but you cannot use it to make charcoal from wood.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 104
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
+      "questID": 871,
+      "name": "Molds, molds, molds",
+      "description": "After you can make steel and have a tinkers smelter you have to make molds. Molds can be used in the alloy smelter and the fluid solidifier. You need them to make vacuum tubes, ingots, gears and more.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32307
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32301
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32302
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32303
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32307
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32309
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32300
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
+      "questID": 872,
+      "name": "Maple Syrup",
+      "description": "You spent hours and hours to find some maple trees? Why not use your forest ranger coins to buy some syrup? Add some spruce saplings and plant some maple trees.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:maplesyrupItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:pammapleSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        440
+      ]
+    },
+    {
+      "questID": 873,
+      "name": "Seed Bags",
+      "description": "Finding some special \"pams harvest craft\" seeds can be very difficult. With your farmer coins you can buy some seedbags.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:rhubarbseedItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 35
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        440
+      ]
+    },
+    {
+      "questID": 874,
+      "name": "Jetpack v.0.1 Alpha",
+      "description": "Do you like flying? Ok then, make a slimy bouncepad and enjoy the good view.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:slime.pad",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:slime.channel",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:slime.pad",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:slime.sapling",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 55
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        54
+      ]
+    },
+    {
+      "questID": 875,
+      "name": "Creeper",
+      "description": "You feel lonely. Do you want a friend to hug?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 50
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 876,
+      "name": "Skeleton",
+      "description": "You feel lonely. Let me throw you a bone.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 51
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 51
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 877,
+      "name": "Spider",
+      "description": "You feel lonely. Want to stick around?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 52
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 52
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 878,
+      "name": "Zombie",
+      "description": "You feel lonely. And brains sound delicious.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 54
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 54
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 879,
+      "name": "Slime",
+      "description": "You feel lonely, and a bit slippery.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 55
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 55
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 880,
+      "name": "Witch",
+      "description": "You feel lonely. What\u0027s cooking?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 66
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 66
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        44
+      ]
+    },
+    {
+      "questID": 881,
+      "name": "Pigmen",
+      "description": "You feel lonely. Do you want some bacon?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 57
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 57
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        479
+      ]
+    },
+    {
+      "questID": 882,
+      "name": "Blaze",
+      "description": "You feel lonely. Let me warm you up a bit.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 61
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 61
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        479
+      ]
+    },
+    {
+      "questID": 883,
+      "name": "Magma Cube",
+      "description": "You feel lonely, and bouncy.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 62
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 62
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        479
+      ]
+    },
+    {
+      "questID": 884,
+      "name": "Enderman",
+      "description": "You feel lonely. Don\u0027t look me in the eyes!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 58
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 58
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        44
+      ]
+    },
+    {
+      "questID": 885,
+      "name": "Witch",
+      "description": "You feel lonely. Do you like my toad?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 59
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 59
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        44
+      ]
+    },
+    {
+      "questID": 886,
+      "name": "Ghast",
+      "description": "You feel lonely. At least you\u0027re not a big cry-baby?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 56
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 56
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        479
+      ]
+    },
+    {
+      "questID": 887,
+      "name": "Bat",
+      "description": "You feel lonely. Na na na na batthing!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 65
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 65
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 888,
+      "name": "Silverfish",
+      "description": "You feel lonely. Let me be as annoying as possible.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 60
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 60
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        44
+      ]
+    },
+    {
+      "questID": 889,
+      "name": "Magma Cube",
+      "description": "You feel lonely. Wanna bounce?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 56
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 56
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        479
+      ]
+    },
+    {
+      "questID": 890,
+      "name": "Better Tank... ULV Tank",
+      "description": "Next step is to store 32 buckets in a tank. The ULV Tank from Gt++ needs steel plates, iron plates, tin plates a clay pipe and a water bucket.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 817
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 817
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30768
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        16
+      ]
+    },
+    {
+      "questID": 891,
+      "name": "Better Tank... LV Tank",
+      "description": "Next step is to store 64 buckets in a tank. The LV Tank from Gt++ needs steel plates, iron plates, bronze plates a huge clay pipe and a lv pump.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 818
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 818
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5133
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        890,
+        93
+      ]
+    },
+    {
+      "questID": 892,
+      "name": "Better Tank... MV Tank",
+      "description": "Next step is to store 128 buckets in a tank. The MV Tank from Gt++ needs steel plates, darksteel plates, bronze plates a  bronze pipe and a lv pump.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 818
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 819
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5133
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        891,
+        77
+      ]
+    },
+    {
+      "questID": 893,
+      "name": "You\u0027re gonna hate this #2 in mv too",
+      "description": "The second item you\u0027ll need a lot of in mv tier. When you want to get fluid out of tanks you\u0027ll need one. \n\nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be upgraded further into a fluid regulator which allows precise control of fluid transfer speed.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32611
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32611
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 5134
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 894,
+      "name": "Better Tank... HV Tank",
+      "description": "Next step is to store 256 buckets in a tank. The HV Tank from Gt++ needs aluminium plates, darksteel plates, vacuum tubes a  steel pipe and a mv pump.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 818
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 820
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5142
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        892,
+        893
+      ]
+    },
+    {
+      "questID": 895,
+      "name": "You\u0027re gonna hate this #1 in mv too",
+      "description": "The first item you\u0027ll need a lot of in mv too. If you want to pull items out of chests or barrels you\u0027ll need one. \n\nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32631
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32631
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 896,
+      "name": "You\u0027re gonna hate this #3 in mv too",
+      "description": "An electric piston for your mv machines. The third item you are going to craft a lot of in the future.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32641
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32641
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32640
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 897,
+      "name": "You\u0027re gonna hate this #4 in mv too",
+      "description": "The fourth item you\u0027ll need a lot of in mv, which is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots. Adjust with a screwdriver.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32651
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32651
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        896
+      ]
+    },
+    {
+      "questID": 898,
+      "name": "Simple Ore Washer",
+      "description": "Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It work reasonably fast and uses 8eu max. Ok, you do not get any byproducts, but who cares!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 767
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 767
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5133
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        890,
+        93
+      ]
+    },
+    {
+      "questID": 899,
+      "name": "Paying the highest price",
+      "description": "A tier 2 blood altar needs 8 runes placed around the altar. Your new altar can hold more blood.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:Altar",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:Altar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        409
       ]
     },
     {
@@ -82672,10 +85178,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IguanaTweaksTConstruct:skullItem",
+        "id": "minecraft:gold_nugget",
         "Count": 1,
         "OreDict": "",
-        "Damage": 1
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -82912,10 +85418,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IguanaTweaksTConstruct:skullItem",
+        "id": "minecraft:blaze_rod",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -83072,7 +85578,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IguanaTweaksTConstruct:skullItem",
+        "id": "HardcoreEnderExpansion:enderman_head",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -83741,10 +86247,15 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "IguanaTweaksTConstruct:skullItem",
+        "id": "adventurebackpack:adventureBackpack",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2
+        "Damage": 4,
+        "tag": {
+          "backpackData:10": {
+            "colorName:8": "Blaze"
+          }
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -84859,6 +87370,1684 @@
         908,
         916
       ]
+    },
+    {
+      "questID": 926,
+      "name": "Blood Altar Tier 3",
+      "description": "To make your altar more powerfull you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium block and on top one block of glowstone blocks on each pillar.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:tile.BloodyThaumium",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCosmeticSolid",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:glowstone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:tile.BloodyThaumium",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        410,
+        422
+      ]
+    },
+    {
+      "questID": 927,
+      "name": "Blood Altar Tier 4",
+      "description": "If you want to make tier 4 slates you need a Tier 4 altar. This can be made like the tier 3 altar with pillars out of void-blood-soaked stones four blocks high and a blood brick on top the pillars.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:tile.BloodyVoid",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:ritualStone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:weakBloodShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "thaumicbases:voidBlock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:bloodStoneBrick",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:tile.BloodyVoid",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:speedRune",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        421,
+        430
+      ]
+    },
+    {
+      "questID": 928,
+      "name": "Blood Altar Tier 5",
+      "description": "If you want to make tier 5 slates you need a Tier 5 altar. This can be made with 4 beacons. Beacons have thaumcraft recipes and can be found in the thaumcraft book on the GTNH page.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:beacon",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:beacon",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        704
+      ]
+    },
+    {
+      "questID": 929,
+      "name": "Blood Altar Tier 6",
+      "description": "The highest tier of the blood altar is tier 6. You need pillars of blood-soaked ichorium 7 blocks high and on top the crystal cluster blocks out of demon souls shards.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:tile.BloodyIchorium",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:kamiResource",
+              "Count": 56,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmetal8",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:blockCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:tile.BloodyIchorium",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBloodIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        703,
+        702
+      ]
+    },
+    {
+      "questID": 930,
+      "name": "Auto Mining",
+      "description": "A miner in lv age wow. So this niffty machine will find ores fore you. Place up to two stacks of mining pipes in the right slots. This miner need 32 eu to work. With a 8 V Solar Pannel it works 4 times slover. The Miner searchen ores in a 16 block radius.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 679
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 679
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        530
+      ]
+    },
+    {
+      "questID": 931,
+      "name": "Auto Mining Mv",
+      "description": "The mv miner will find ores fore you and be better then the lv miner. Place up to two stacks of mining pipes in the right slots. This miner need 128 eu to work. The Miner searchen ores in a 24 block radius and works two times faster then the lv variant.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 680
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 680
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        896
+      ]
+    },
+    {
+      "questID": 932,
+      "name": "Auto Mining Hv",
+      "description": "The mv miner will find ores fore you and be better then the lv miner. Place up to two stacks of mining pipes in the right slots. This miner need 512 eu to work. The Miner searchen ores in a 32 block radius or two chuncks and works two times faster then the mv variant.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 681
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 681
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        931,
+        160
+      ]
+    },
+    {
+      "questID": 933,
+      "name": "Power of the Sun",
+      "description": "Now its time to investigate in some rgenerative engery. Well let\u0027s start with solarpannels. The lowest one only give 1 eu/t. Most gt machine can use them as covers.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32750
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "IC2:blockAlloyGlass",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
+              "OreDict": "circuitBasic",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCarbonPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.AluminiumIronPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2000
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32750
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        792
+      ]
+    },
+    {
+      "questID": 934,
+      "name": "Power of the Sun 8V",
+      "description": "Next  solarpannel you can make is the ULV one. It gives  8 eu/t. Most gt machine can use them as covers.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32751
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32750
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17980
+            },
+            {
+              "id": "dreamcraft:item.ReinforcedAluminiumIronPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1240
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32751
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        933
+      ]
+    },
+    {
+      "questID": 935,
+      "name": "Power of the Sun 1x1",
+      "description": "Put those 1 eu pannel on a block make em placeable. Using a mv assembler to combining a ULV hull with the pannel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32750
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockGenerator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        933
+      ]
+    },
+    {
+      "questID": 936,
+      "name": "Power of the Sun at Lv Level",
+      "description": "Next  solarpannel you can make is the LV one. It gives 32 eu/t max. Most gt machine can use them as covers. First you need to produce a sunnunamium item out of 10 mio eu power. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32752
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AdvancedSolarPanel:asp_crafting_items",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32751
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18980
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 1,
+              "OreDict": "circuitAdvanced",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.IrradiantReinforcedAluminiumPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1200
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32752
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "IC2:itemPartIndustrialDiamond",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        934,
+        206
+      ]
+    },
+    {
+      "questID": 937,
+      "name": "Power of the Sun 1x1 LV",
+      "description": "Put those 32 eu pannel on a block make em placeable. Using a mv assembler to combining a UL hull with the pannel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AdvancedSolarPanel:BlockAdvSolarPanel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32752
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AdvancedSolarPanel:BlockAdvSolarPanel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        936
+      ]
+    },
+    {
+      "questID": 938,
+      "name": "Automated Sticky Resin Farmer",
+      "description": "If you are tired of crafting tons of tree taps, how about a machine that uses power but never breaks? Let\u0027s craft an electric tree tap.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemTreetapElectric",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 10000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemTreetap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemRecipePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "IC2:itemBatREDischarged",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 20306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemTreetapElectric",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32518,
+              "tag": {
+                "GT.ItemCharge:4": 100000
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        753
+      ]
+    },
+    {
+      "questID": 939,
+      "name": "Automated Farmer",
+      "description": "Your hoe must be getting worn out by now. Why not craft an electric one which never breaks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemToolHoe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 10000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4306
+            },
+            {
+              "id": "IC2:itemRecipePart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "IC2:itemBatREDischarged",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 20306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemToolHoe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        753
+      ]
+    },
+    {
+      "questID": 940,
+      "name": "Cleanroom",
+      "description": "If you want to make more advanced circuits you need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use mv tier.\n\nLet\u0027s build a 5x5x5 room.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1172
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stone_pressure_plate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemDoorAlloy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 42
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockreinforced",
+              "Count": 82,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1172
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 941,
+      "name": "A very useful Scanner",
+      "description": "The portable scanner is a tool capable of showing advanced information about almost every block in the game. \nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops, which shows more information than the cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load.\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.\nIt also gives information about pollution level in the chunk the scanned block belongs to.\nAdditional to that it shows when the clenroom has reached his 100% efficeny level.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32762
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32762
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 32764
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        940
+      ]
     }
   ],
   "questLines": [
@@ -85345,38 +89534,38 @@
         },
         {
           "id": 58,
-          "x": 468,
+          "x": 516,
           "y": 0
         },
         {
           "id": 59,
           "x": 48,
-          "y": 108
+          "y": 180
         },
         {
           "id": 60,
           "x": 0,
-          "y": 180
+          "y": 252
         },
         {
           "id": 61,
           "x": 96,
-          "y": 180
+          "y": 252
         },
         {
           "id": 62,
           "x": 0,
-          "y": 108
+          "y": 180
         },
         {
           "id": 63,
-          "x": 144,
+          "x": 96,
           "y": 72
         },
         {
           "id": 64,
           "x": 96,
-          "y": 72
+          "y": 108
         },
         {
           "id": 65,
@@ -85395,7 +89584,7 @@
         },
         {
           "id": 69,
-          "x": 324,
+          "x": 372,
           "y": 180
         },
         {
@@ -85425,12 +89614,12 @@
         },
         {
           "id": 84,
-          "x": 228,
+          "x": 156,
           "y": 180
         },
         {
           "id": 16,
-          "x": 228,
+          "x": 156,
           "y": 216
         },
         {
@@ -85455,7 +89644,7 @@
         },
         {
           "id": 495,
-          "x": 468,
+          "x": 420,
           "y": 36
         },
         {
@@ -85470,7 +89659,7 @@
         },
         {
           "id": 534,
-          "x": 288,
+          "x": 324,
           "y": 180
         },
         {
@@ -85480,12 +89669,12 @@
         },
         {
           "id": 536,
-          "x": 372,
+          "x": 420,
           "y": 180
         },
         {
           "id": 558,
-          "x": 144,
+          "x": 228,
           "y": 180
         },
         {
@@ -85496,7 +89685,7 @@
         {
           "id": 560,
           "x": 48,
-          "y": 180
+          "y": 216
         },
         {
           "id": 561,
@@ -85510,7 +89699,7 @@
         },
         {
           "id": 596,
-          "x": 96,
+          "x": 144,
           "y": 108
         },
         {
@@ -85552,6 +89741,26 @@
           "id": 563,
           "x": 372,
           "y": 72
+        },
+        {
+          "id": 867,
+          "x": 468,
+          "y": 36
+        },
+        {
+          "id": 868,
+          "x": 516,
+          "y": 36
+        },
+        {
+          "id": 871,
+          "x": 288,
+          "y": 180
+        },
+        {
+          "id": 890,
+          "x": 156,
+          "y": 252
         }
       ]
     },
@@ -85571,8 +89780,8 @@
         },
         {
           "id": 91,
-          "x": 156,
-          "y": 180
+          "x": 192,
+          "y": 144
         },
         {
           "id": 92,
@@ -85581,8 +89790,8 @@
         },
         {
           "id": 93,
-          "x": 156,
-          "y": 216
+          "x": 192,
+          "y": 180
         },
         {
           "id": 94,
@@ -85706,7 +89915,7 @@
         },
         {
           "id": 120,
-          "x": 360,
+          "x": 384,
           "y": 0
         },
         {
@@ -85731,7 +89940,7 @@
         },
         {
           "id": 121,
-          "x": 360,
+          "x": 384,
           "y": 60
         },
         {
@@ -85766,13 +89975,13 @@
         },
         {
           "id": 540,
-          "x": 84,
+          "x": 0,
           "y": 576
         },
         {
           "id": 541,
-          "x": 84,
-          "y": 180
+          "x": 0,
+          "y": 144
         },
         {
           "id": 542,
@@ -85797,12 +90006,12 @@
         {
           "id": 546,
           "x": 108,
-          "y": 216
+          "y": 264
         },
         {
           "id": 547,
           "x": 108,
-          "y": 264
+          "y": 300
         },
         {
           "id": 548,
@@ -86010,26 +90219,6 @@
           "y": 468
         },
         {
-          "id": 741,
-          "x": 84,
-          "y": 60
-        },
-        {
-          "id": 742,
-          "x": 0,
-          "y": 60
-        },
-        {
-          "id": 743,
-          "x": 84,
-          "y": 0
-        },
-        {
-          "id": 744,
-          "x": 0,
-          "y": 0
-        },
-        {
           "id": 717,
           "x": 444,
           "y": 336
@@ -86056,8 +90245,8 @@
         },
         {
           "id": 771,
-          "x": 216,
-          "y": 180
+          "x": 60,
+          "y": 264
         },
         {
           "id": 579,
@@ -86083,6 +90272,31 @@
           "id": 840,
           "x": 228,
           "y": 432
+        },
+        {
+          "id": 869,
+          "x": 396,
+          "y": 180
+        },
+        {
+          "id": 891,
+          "x": 108,
+          "y": 180
+        },
+        {
+          "id": 892,
+          "x": 60,
+          "y": 180
+        },
+        {
+          "id": 898,
+          "x": 60,
+          "y": 216
+        },
+        {
+          "id": 930,
+          "x": 528,
+          "y": 288
         }
       ]
     },
@@ -86098,17 +90312,17 @@
         {
           "id": 128,
           "x": 396,
-          "y": 144
+          "y": 204
         },
         {
           "id": 129,
           "x": 396,
-          "y": 180
+          "y": 264
         },
         {
           "id": 130,
           "x": 396,
-          "y": 252
+          "y": 300
         },
         {
           "id": 131,
@@ -86118,57 +90332,57 @@
         {
           "id": 132,
           "x": 432,
-          "y": 252
+          "y": 300
         },
         {
           "id": 133,
-          "x": 360,
-          "y": 216
+          "x": 348,
+          "y": 264
         },
         {
           "id": 134,
           "x": 468,
-          "y": 180
+          "y": 228
         },
         {
           "id": 135,
           "x": 432,
-          "y": 216
+          "y": 264
         },
         {
           "id": 136,
           "x": 468,
-          "y": 216
+          "y": 264
         },
         {
           "id": 137,
           "x": 516,
-          "y": 180
+          "y": 228
         },
         {
           "id": 138,
           "x": 564,
-          "y": 144
+          "y": 204
         },
         {
           "id": 139,
           "x": 564,
-          "y": 216
+          "y": 264
         },
         {
           "id": 140,
           "x": 612,
-          "y": 144
+          "y": 204
         },
         {
           "id": 141,
           "x": 612,
-          "y": 216
+          "y": 264
         },
         {
           "id": 142,
           "x": 468,
-          "y": 252
+          "y": 300
         },
         {
           "id": 143,
@@ -86192,42 +90406,42 @@
         },
         {
           "id": 147,
-          "x": 336,
+          "x": 348,
           "y": 516
         },
         {
           "id": 148,
           "x": 516,
-          "y": 252
+          "y": 300
         },
         {
           "id": 149,
           "x": 516,
-          "y": 288
+          "y": 336
         },
         {
           "id": 150,
           "x": 564,
-          "y": 288
+          "y": 336
         },
         {
           "id": 151,
           "x": 564,
-          "y": 252
+          "y": 300
         },
         {
           "id": 152,
           "x": 612,
-          "y": 252
+          "y": 300
         },
         {
           "id": 153,
-          "x": 264,
+          "x": 204,
           "y": 132
         },
         {
           "id": 154,
-          "x": 336,
+          "x": 264,
           "y": 84
         },
         {
@@ -86257,8 +90471,8 @@
         },
         {
           "id": 126,
-          "x": 216,
-          "y": 204
+          "x": 300,
+          "y": 300
         },
         {
           "id": 659,
@@ -86308,7 +90522,7 @@
         {
           "id": 127,
           "x": 96,
-          "y": 180
+          "y": 168
         },
         {
           "id": 738,
@@ -86317,8 +90531,8 @@
         },
         {
           "id": 737,
-          "x": 48,
-          "y": 180
+          "x": 0,
+          "y": 168
         },
         {
           "id": 739,
@@ -86333,27 +90547,27 @@
         {
           "id": 749,
           "x": 216,
-          "y": 300
+          "y": 336
         },
         {
           "id": 751,
           "x": 264,
-          "y": 252
+          "y": 300
         },
         {
           "id": 753,
           "x": 264,
-          "y": 300
+          "y": 336
         },
         {
           "id": 754,
           "x": 216,
-          "y": 252
+          "y": 300
         },
         {
           "id": 757,
-          "x": 264,
-          "y": 204
+          "x": 348,
+          "y": 300
         },
         {
           "id": 758,
@@ -86368,12 +90582,12 @@
         {
           "id": 760,
           "x": 156,
-          "y": 168
+          "y": 132
         },
         {
           "id": 773,
-          "x": 336,
-          "y": 408
+          "x": 216,
+          "y": 480
         },
         {
           "id": 774,
@@ -86382,8 +90596,8 @@
         },
         {
           "id": 778,
-          "x": 264,
-          "y": 408
+          "x": 216,
+          "y": 444
         },
         {
           "id": 780,
@@ -86393,32 +90607,32 @@
         {
           "id": 785,
           "x": 96,
-          "y": 84
+          "y": 0
         },
         {
           "id": 794,
-          "x": 96,
+          "x": 264,
           "y": 0
         },
         {
           "id": 795,
+          "x": 156,
+          "y": 0
+        },
+        {
+          "id": 746,
+          "x": 96,
+          "y": 84
+        },
+        {
+          "id": 752,
           "x": 96,
           "y": 36
         },
         {
-          "id": 746,
-          "x": 156,
-          "y": 132
-        },
-        {
-          "id": 752,
+          "id": 782,
           "x": 156,
           "y": 84
-        },
-        {
-          "id": 782,
-          "x": 216,
-          "y": 132
         },
         {
           "id": 791,
@@ -86437,33 +90651,33 @@
         },
         {
           "id": 793,
-          "x": 156,
+          "x": 312,
           "y": 0
         },
         {
           "id": 838,
-          "x": 216,
+          "x": 360,
           "y": 0
         },
         {
           "id": 839,
-          "x": 264,
+          "x": 408,
           "y": 0
         },
         {
           "id": 750,
-          "x": 336,
+          "x": 384,
           "y": 444
         },
         {
           "id": 557,
-          "x": 132,
-          "y": 588
+          "x": 384,
+          "y": 708
         },
         {
           "id": 841,
-          "x": 84,
-          "y": 624
+          "x": 384,
+          "y": 660
         },
         {
           "id": 842,
@@ -86492,7 +90706,7 @@
         },
         {
           "id": 847,
-          "x": 336,
+          "x": 468,
           "y": 480
         },
         {
@@ -86502,27 +90716,27 @@
         },
         {
           "id": 849,
-          "x": 180,
-          "y": 552
-        },
-        {
-          "id": 850,
           "x": 84,
           "y": 516
         },
         {
+          "id": 850,
+          "x": 432,
+          "y": 660
+        },
+        {
           "id": 851,
-          "x": 180,
+          "x": 264,
           "y": 624
         },
         {
           "id": 852,
-          "x": 84,
-          "y": 444
+          "x": 468,
+          "y": 624
         },
         {
           "id": 853,
-          "x": 180,
+          "x": 264,
           "y": 588
         },
         {
@@ -86547,13 +90761,88 @@
         },
         {
           "id": 858,
-          "x": 300,
+          "x": 348,
           "y": 444
         },
         {
           "id": 859,
+          "x": 348,
+          "y": 336
+        },
+        {
+          "id": 741,
+          "x": 48,
+          "y": 84
+        },
+        {
+          "id": 743,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 744,
+          "x": 0,
+          "y": 84
+        },
+        {
+          "id": 742,
+          "x": 48,
+          "y": 36
+        },
+        {
+          "id": 893,
+          "x": 264,
+          "y": 228
+        },
+        {
+          "id": 894,
           "x": 300,
-          "y": 252
+          "y": 228
+        },
+        {
+          "id": 895,
+          "x": 264,
+          "y": 132
+        },
+        {
+          "id": 896,
+          "x": 264,
+          "y": 180
+        },
+        {
+          "id": 897,
+          "x": 300,
+          "y": 180
+        },
+        {
+          "id": 931,
+          "x": 300,
+          "y": 132
+        },
+        {
+          "id": 933,
+          "x": 264,
+          "y": 36
+        },
+        {
+          "id": 934,
+          "x": 312,
+          "y": 36
+        },
+        {
+          "id": 935,
+          "x": 312,
+          "y": 84
+        },
+        {
+          "id": 938,
+          "x": 264,
+          "y": 372
+        },
+        {
+          "id": 939,
+          "x": 300,
+          "y": 372
         }
       ]
     },
@@ -86564,107 +90853,112 @@
         {
           "id": 160,
           "x": 144,
-          "y": 0
+          "y": 48
         },
         {
           "id": 162,
           "x": 144,
-          "y": 108
+          "y": 156
         },
         {
           "id": 163,
           "x": 348,
-          "y": 0
+          "y": 48
         },
         {
           "id": 165,
           "x": 252,
-          "y": 0
+          "y": 48
         },
         {
           "id": 167,
           "x": 192,
-          "y": 72
+          "y": 120
         },
         {
           "id": 168,
           "x": 252,
-          "y": 36
+          "y": 84
         },
         {
           "id": 169,
           "x": 300,
-          "y": 0
+          "y": 48
         },
         {
           "id": 166,
           "x": 204,
-          "y": 0
+          "y": 48
         },
         {
           "id": 170,
           "x": 192,
-          "y": 108
+          "y": 156
         },
         {
           "id": 171,
           "x": 252,
-          "y": 72
+          "y": 120
         },
         {
           "id": 172,
           "x": 252,
-          "y": 108
+          "y": 156
         },
         {
           "id": 173,
           "x": 300,
-          "y": 108
+          "y": 156
         },
         {
           "id": 174,
           "x": 300,
-          "y": 72
+          "y": 120
         },
         {
           "id": 175,
           "x": 336,
-          "y": 108
+          "y": 156
         },
         {
           "id": 769,
           "x": 0,
-          "y": 0
+          "y": 48
         },
         {
           "id": 770,
           "x": 48,
-          "y": 36
+          "y": 84
         },
         {
           "id": 772,
           "x": 48,
-          "y": 72
+          "y": 120
         },
         {
           "id": 789,
           "x": 0,
-          "y": 36
+          "y": 84
         },
         {
           "id": 790,
           "x": 0,
-          "y": 72
+          "y": 120
         },
         {
           "id": 808,
           "x": 96,
-          "y": 72
+          "y": 120
         },
         {
           "id": 860,
           "x": 144,
-          "y": 156
+          "y": 204
+        },
+        {
+          "id": 932,
+          "x": 144,
+          "y": 0
         }
       ]
     },
@@ -86871,6 +91165,16 @@
           "id": 861,
           "x": 144,
           "y": 180
+        },
+        {
+          "id": 936,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 937,
+          "x": 36,
+          "y": 144
         }
       ]
     },
@@ -86932,6 +91236,92 @@
           "id": 223,
           "x": 192,
           "y": 0
+        }
+      ]
+    },
+    {
+      "name": "Coins, Coins, Coins",
+      "description": "This quests will guid you to use your Coins wise and buy some usfull or fancy stuff.",
+      "quests": [
+        {
+          "id": 872,
+          "x": 36,
+          "y": 0
+        },
+        {
+          "id": 873,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 875,
+          "x": 168,
+          "y": 36
+        },
+        {
+          "id": 876,
+          "x": 204,
+          "y": 36
+        },
+        {
+          "id": 877,
+          "x": 168,
+          "y": 0
+        },
+        {
+          "id": 878,
+          "x": 240,
+          "y": 36
+        },
+        {
+          "id": 879,
+          "x": 204,
+          "y": 0
+        },
+        {
+          "id": 880,
+          "x": 168,
+          "y": 72
+        },
+        {
+          "id": 881,
+          "x": 168,
+          "y": 108
+        },
+        {
+          "id": 882,
+          "x": 168,
+          "y": 144
+        },
+        {
+          "id": 883,
+          "x": 204,
+          "y": 108
+        },
+        {
+          "id": 884,
+          "x": 204,
+          "y": 72
+        },
+        {
+          "id": 885,
+          "x": 240,
+          "y": 72
+        },
+        {
+          "id": 886,
+          "x": 204,
+          "y": 144
+        },
+        {
+          "id": 887,
+          "x": 240,
+          "y": 0
+        },
+        {
+          "id": 888,
+          "x": 276,
+          "y": 72
         }
       ]
     },
@@ -87888,6 +92278,21 @@
           "id": 556,
           "x": 96,
           "y": 144
+        },
+        {
+          "id": 870,
+          "x": 240,
+          "y": 36
+        },
+        {
+          "id": 940,
+          "x": 240,
+          "y": 108
+        },
+        {
+          "id": 941,
+          "x": 288,
+          "y": 108
         }
       ]
     },
@@ -88241,6 +92646,11 @@
           "id": 866,
           "x": 180,
           "y": 96
+        },
+        {
+          "id": 874,
+          "x": 96,
+          "y": 48
         }
       ]
     },
@@ -88749,58 +93159,58 @@
         },
         {
           "id": 164,
-          "x": 40,
-          "y": 64
+          "x": 48,
+          "y": 72
         },
         {
           "id": 177,
-          "x": 40,
+          "x": 48,
           "y": 0
         },
         {
           "id": 407,
-          "x": 104,
+          "x": 108,
           "y": 0
         },
         {
           "id": 408,
-          "x": 136,
-          "y": 64
+          "x": 156,
+          "y": 72
         },
         {
           "id": 409,
-          "x": 80,
-          "y": 64
+          "x": 108,
+          "y": 72
         },
         {
           "id": 410,
-          "x": 216,
+          "x": 276,
           "y": 0
         },
         {
           "id": 411,
-          "x": 176,
-          "y": 64
+          "x": 240,
+          "y": 120
         },
         {
           "id": 413,
-          "x": 216,
-          "y": 32
+          "x": 276,
+          "y": 96
         },
         {
           "id": 412,
-          "x": 176,
-          "y": 32
+          "x": 240,
+          "y": 72
         },
         {
           "id": 414,
-          "x": 256,
-          "y": 32
+          "x": 312,
+          "y": 72
         },
         {
           "id": 415,
-          "x": 256,
-          "y": 64
+          "x": 312,
+          "y": 120
         }
       ]
     },
@@ -88810,128 +93220,138 @@
       "quests": [
         {
           "id": 420,
-          "x": 296,
+          "x": 372,
           "y": 0
         },
         {
           "id": 421,
-          "x": 264,
+          "x": 300,
           "y": 0
         },
         {
           "id": 422,
-          "x": 104,
+          "x": 108,
           "y": 0
         },
         {
           "id": 423,
-          "x": 136,
-          "y": 32
+          "x": 36,
+          "y": 0
         },
         {
           "id": 424,
-          "x": 264,
-          "y": 32
+          "x": 300,
+          "y": 72
         },
         {
           "id": 425,
-          "x": 296,
-          "y": 32
+          "x": 336,
+          "y": 72
         },
         {
           "id": 426,
-          "x": 232,
-          "y": 64
+          "x": 300,
+          "y": 108
         },
         {
           "id": 427,
-          "x": 296,
-          "y": 64
+          "x": 372,
+          "y": 108
         },
         {
           "id": 428,
-          "x": 328,
-          "y": 32
+          "x": 372,
+          "y": 72
         },
         {
           "id": 429,
-          "x": 296,
-          "y": 120
+          "x": 300,
+          "y": 168
         },
         {
           "id": 431,
-          "x": 328,
-          "y": 120
+          "x": 336,
+          "y": 168
         },
         {
           "id": 430,
           "x": 264,
-          "y": 120
+          "y": 168
         },
         {
           "id": 432,
-          "x": 200,
-          "y": 120
+          "x": 216,
+          "y": 168
         },
         {
           "id": 433,
-          "x": 104,
-          "y": 64
+          "x": 108,
+          "y": 108
         },
         {
           "id": 434,
-          "x": 136,
-          "y": 120
+          "x": 144,
+          "y": 168
         },
         {
           "id": 435,
-          "x": 168,
-          "y": 120
+          "x": 180,
+          "y": 168
         },
         {
           "id": 436,
-          "x": 104,
-          "y": 120
+          "x": 108,
+          "y": 168
         },
         {
           "id": 437,
-          "x": 200,
-          "y": 64
+          "x": 216,
+          "y": 108
         },
         {
           "id": 438,
-          "x": 264,
-          "y": 64
+          "x": 336,
+          "y": 108
         },
         {
           "id": 228,
-          "x": 232,
-          "y": 32
+          "x": 336,
+          "y": 36
         },
         {
           "id": 418,
           "x": 0,
-          "y": 120
+          "y": 168
         },
         {
           "id": 419,
-          "x": 32,
-          "y": 120
+          "x": 36,
+          "y": 168
         },
         {
           "id": 416,
-          "x": 32,
-          "y": 64
+          "x": 36,
+          "y": 108
         },
         {
           "id": 417,
-          "x": 64,
-          "y": 120
+          "x": 72,
+          "y": 168
         },
         {
           "id": 463,
-          "x": 168,
-          "y": 32
+          "x": 36,
+          "y": 48
+        },
+        {
+          "id": 927,
+          "x": 264,
+          "y": 72
+        },
+        {
+          "id": 926,
+          "x": 216,
+          "y": 0
         }
       ]
     },
@@ -88941,83 +93361,93 @@
       "quests": [
         {
           "id": 700,
-          "x": 192,
-          "y": 96
+          "x": 252,
+          "y": 108
         },
         {
           "id": 702,
-          "x": 192,
+          "x": 252,
           "y": 0
         },
         {
           "id": 704,
-          "x": 32,
+          "x": 36,
           "y": 0
         },
         {
           "id": 701,
-          "x": 192,
-          "y": 64
+          "x": 252,
+          "y": 72
         },
         {
           "id": 707,
-          "x": 224,
-          "y": 0
+          "x": 288,
+          "y": 36
         },
         {
           "id": 708,
-          "x": 32,
-          "y": 32
+          "x": 36,
+          "y": 72
         },
         {
           "id": 706,
-          "x": 192,
-          "y": 32
+          "x": 252,
+          "y": 36
         },
         {
           "id": 709,
-          "x": 64,
-          "y": 32
+          "x": 72,
+          "y": 72
         },
         {
           "id": 710,
-          "x": 32,
-          "y": 64
+          "x": 36,
+          "y": 108
         },
         {
           "id": 711,
-          "x": 256,
-          "y": 0
+          "x": 324,
+          "y": 36
         },
         {
           "id": 712,
-          "x": 64,
-          "y": 64
+          "x": 72,
+          "y": 108
         },
         {
           "id": 713,
-          "x": 224,
-          "y": 32
+          "x": 288,
+          "y": 72
         },
         {
           "id": 714,
-          "x": 96,
-          "y": 0
+          "x": 72,
+          "y": 36
         },
         {
           "id": 703,
           "x": 144,
-          "y": 0
+          "y": 36
         },
         {
           "id": 715,
           "x": 144,
-          "y": 32
+          "y": 108
         },
         {
           "id": 406,
           "x": 0,
-          "y": 32
+          "y": 72
+        },
+        {
+          "id": 928,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 929,
+          "x": 216,
+          "y": 36
         }
       ]
     },

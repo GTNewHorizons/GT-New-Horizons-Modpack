@@ -14,7 +14,7 @@ import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.Fuels;
 import mods.gregtech.ImplosionCompressor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 import mods.gregtech.PlasmaArcFurnace;
 import mods.gregtech.PlateBender;
 import mods.ic2.SemiFluidGenerator;
@@ -969,7 +969,7 @@ recipes.addShaped(<GalacticraftCore:item.oxygenConcentrator>, [
 
 // --- Tier 1 Rocket Engine
 recipes.addShaped(<GalacticraftCore:item.engine>, [
-[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftCore:item.fuelCanisterPartial:1001>, <GalaxySpace:item.CompressedSDHD120>],
+[<GalaxySpace:item.CompressedSDHD120>, <GalacticraftCore:item.oilCanisterPartial:1001>, <GalaxySpace:item.CompressedSDHD120>],
 [HeavyPlating, <gregtech:gt.blockcasings3:14>, HeavyPlating],
 [HeavyPlating, <gregtech:gt.metaitem.01:32731>, HeavyPlating]]);
 
@@ -1656,25 +1656,27 @@ FluidCanner.addRecipe(<GalacticraftCore:item.fuelCanisterPartial:1>, <Galacticra
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
+
+
 
 
 // --- Meteoric Iron Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2340> * 9, <GalacticraftCore:tile.gcBlockCore:12>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2340> * 9], <GalacticraftCore:tile.gcBlockCore:12>, [10000], 300, 2);
 
 // --- Desh Shards
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2884>, <GalacticraftMars:item.null>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2884>], <GalacticraftMars:item.null>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<GalacticraftMars:item.null> * 2, <GalacticraftMars:tile.mars:2>);
+Pulverizer.addRecipe([<GalacticraftMars:item.null> * 2], <GalacticraftMars:tile.mars:2>, [10000], 300, 2);
 
 // --- Raw Meteoric Iron
-Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCore:tile.fallenMeteor>);
+Pulverizer.addRecipe([<GalacticraftCore:item.meteoricIronRaw> * 2], <GalacticraftCore:tile.fallenMeteor>, [10000], 300, 2);
 
 // --- Titanium Shards
-Macerator.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:4> * 2, <GalacticraftMars:tile.asteroidsBlock:4>);
+Pulverizer.addRecipe([<GalacticraftMars:item.itemBasicAsteroids:4> * 2], <GalacticraftMars:tile.asteroidsBlock:4>, [10000], 300, 2);
 
 // --- Raw Silicon Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2020>, <GalacticraftCore:item.basicItem:2>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2020>], <GalacticraftCore:item.basicItem:2>, [10000], 300, 2);
 
 
 

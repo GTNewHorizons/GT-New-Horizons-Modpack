@@ -9,7 +9,9 @@ import mods.gregtech.Assembler;
 import mods.gregtech.FormingPress;
 
 
-
+val BlankCast = <TConstruct:blankPattern:1>;
+val WireCutter = <ore:craftingToolWireCutter>;
+val File = <ore:craftingToolFile>;
 
 // --- Remove Recipes ---
 
@@ -129,7 +131,13 @@ mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>,		
 <IC2:itemCoin>, <gregtech:gt.metaitem.01:32014>, <IC2:itemCoin>,		
 <gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],		
-<minecraft:paper>, <Forestry:stamps:6>);		
+<minecraft:paper>, <Forestry:stamps:6>);	
+
+// --- Coinage Mold
+recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
+[null, null, null],
+[null, BlankCast, WireCutter],
+[File, null, null]]);	
 
 
 

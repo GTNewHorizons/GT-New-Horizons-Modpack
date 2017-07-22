@@ -7,7 +7,7 @@
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
 
 
@@ -405,9 +405,6 @@ recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
 [<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
 [<minecraft:bowl>, <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
 
-// --- Lootbag Seeds
-recipes.addShapeless(<enhancedlootbags:lootbag:35>, [<dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>]);
-
 // --- Market ---
 //recipes.addShaped(<harvestcraft:market>, [
 //[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>],
@@ -667,13 +664,13 @@ Extractor.addRecipe(<harvestcraft:pistachiobutterItem>, <harvestcraft:pistachioI
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 
 // --- Corn Meal
-Macerator.addRecipe(<harvestcraft:cornmealItem>, <harvestcraft:cornItem>);
+Pulverizer.addRecipe([<harvestcraft:cornmealItem>], <harvestcraft:cornItem>, [10000], 300, 2);
 
 
 

@@ -12,7 +12,7 @@ import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FormingPress;
 import mods.gregtech.ImplosionCompressor;
-import mods.ic2.Macerator;
+import mods.gregtech.Pulverizer;
 
 
 
@@ -66,6 +66,9 @@ recipes.remove(<eternalsingularity:combined_singularity:*>);
 // --- Neutronen Collector
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutron_Collector>);
 
+// --- Neutron Compressor
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutronium_Compressor>);
+
 // --- Eternal Singularity
 mods.avaritia.ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
 
@@ -112,7 +115,7 @@ mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
 recipes.addShaped(<Avaritia:Dire_Crafting>, [
 [<gregtech:gt.metaitem.01:32652>, <Avaritia:Triple_Craft>, <gregtech:gt.metaitem.01:32652>],
 [<ore:waferAdvanced>, <Avaritia:Crystal_Matrix>, <ore:waferAdvanced>],
-[<gregtech:gt.metaitem.01:32642>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32642>]]);
+[<gregtech:gt.metaitem.01:32642>, <ore:circuitElite>, <gregtech:gt.metaitem.01:32642>]]);
 // -
 recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWorkbench>]);
 
@@ -357,6 +360,31 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Shoes>, [
 [<TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <BloodArsenal:sigil_of_divinity>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:501>]]);
 
 
+// --- Neutron Collector
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Neutron_Collector>, [
+[<Avaritia:Resource_Block:1>, <Avaritia:Resource_Block>, <TConstruct:heavyPlate:315>, <TConstruct:heavyPlate:500>, <Avaritia:Crystal_Matrix>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:315>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block:1>],
+[<Avaritia:Resource_Block>, <Avaritia:Resource_Block:1>, null, null, <TConstruct:heavyPlate:315>, null, null, <Avaritia:Resource_Block:1>, <Avaritia:Resource_Block>],
+[<TConstruct:heavyPlate:315>, null, <gregtech:gt.metaitem.01:32697>, null, <gregtech:gt.metaitem.03:32095>, null, <gregtech:gt.metaitem.01:32697>, null, <TConstruct:heavyPlate:315>],
+[<TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32687>, null, <gregtech:gt.metaitem.03:32095>, null, <gregtech:gt.metaitem.01:32687>, null, <TConstruct:heavyPlate:500>],
+[<Avaritia:Crystal_Matrix>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.01:32608>, <TConstruct:heavyPlate:501>, <Avaritia:Resource:5>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.01:32608>, <TConstruct:heavyPlate:501>, <Avaritia:Crystal_Matrix>],
+[<TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32687>, null, <gregtech:gt.metaitem.03:32095>, null, <gregtech:gt.metaitem.01:32687>, null, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:315>, null, <gregtech:gt.metaitem.01:32697>, null, <gregtech:gt.metaitem.03:32095>, null, <gregtech:gt.metaitem.01:32697>, null, <TConstruct:heavyPlate:315>],
+[<Avaritia:Resource_Block>, <Avaritia:Resource_Block:1>, null, null, <TConstruct:heavyPlate:315>, null, null, <Avaritia:Resource_Block:1>, <Avaritia:Resource_Block>],
+[<Avaritia:Resource_Block:1>, <Avaritia:Resource_Block>, <TConstruct:heavyPlate:315>, <TConstruct:heavyPlate:500>, <Avaritia:Crystal_Matrix>, <TConstruct:heavyPlate:500>, <TConstruct:heavyPlate:315>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block:1>]]);
+
+// --- Neutron Compressor
+mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Neutronium_Compressor>, [
+[<Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource:1>, <TConstruct:heavyPlate:315>, <Avaritia:Resource:1>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>],
+[<Avaritia:Resource:1>, null, <gregtech:gt.metaitem.01:32647>, null, <TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32647>, null, <Avaritia:Resource:1>],
+[<TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:32637>, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32637>, <TConstruct:heavyPlate:500>, <gregtech:gt.metaitem.01:32637>, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32637>, <TConstruct:heavyPlate:315>],
+[<TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32647>, <gregtech:gt.metaitem.03:32095>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.03:32095>, <gregtech:gt.metaitem.01:32647>, null, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, <TGregworks:tGregToolPartLargePlate:1657>.withTag({material: "BlackPlutonium"}), <TGregworks:tGregToolPartLargePlate:1657>.withTag({material: "BlackPlutonium"}), <TConstruct:heavyPlate:501>, <gregtech:gt.blockmachines:10812>, <TConstruct:heavyPlate:501>, <TGregworks:tGregToolPartLargePlate:1657>.withTag({material: "BlackPlutonium"}), <TGregworks:tGregToolPartLargePlate:1657>.withTag({material: "BlackPlutonium"}), <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32647>, <gregtech:gt.metaitem.03:32095>, <TConstruct:heavyPlate:501>, <gregtech:gt.metaitem.03:32095>, <gregtech:gt.metaitem.01:32647>, null, <TConstruct:heavyPlate:500>],
+[<TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:32637>, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32637>, <TConstruct:heavyPlate:500>, <gregtech:gt.metaitem.01:32637>, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32637>, <TConstruct:heavyPlate:315>],
+[<Avaritia:Resource:1>, null, <gregtech:gt.metaitem.01:32647>, null, <TConstruct:heavyPlate:500>, null, <gregtech:gt.metaitem.01:32647>, null, <Avaritia:Resource:1>],
+[<Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource:1>, <TConstruct:heavyPlate:315>, <Avaritia:Resource:1>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>]]);
+
+
 // --- Alloy Smelter Recipes ---
 
 
@@ -454,37 +482,14 @@ ImplosionCompressor.addRecipe(<Avaritia:Resource_Block:1>, <Avaritia:Resource:6>
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 // --- Pile of Neutrons
-Macerator.addRecipe(<Avaritia:Resource:2> * 9, <Avaritia:Resource:3>);
+Pulverizer.addRecipe([<Avaritia:Resource:2> * 9], <Avaritia:Resource:3>, [10000], 300, 2);
 
-// --- Record Fragment
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_13>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_cat>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_blocks>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_chirp>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_far>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_mall>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_mellohi>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_stal>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_strad>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_ward>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_11>);
-// -
-Macerator.addRecipe(<Avaritia:Resource:7> * 9, <minecraft:record_wait>);
+
 
 
 // --- Neutronium Compressor Recipes ---

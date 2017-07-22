@@ -10,7 +10,6 @@ import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.gregtech.FluidSolidifier;
 import mods.gregtech.Fuels;
-import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
 import mods.gregtech.PlateBender;

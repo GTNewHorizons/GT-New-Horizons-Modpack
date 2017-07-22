@@ -131,28 +131,28 @@ recipes.addShaped(<ExtraTrees:machine:4>, [
 [<ore:gearGtSmallBronze>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallBronze>]]);
 
 // --- Brewery
-recipes.addShaped(<ExtraTrees:machine:5>, [
-[<BuildCraft|Factory:tankBlock>, <IC2:itemRecipePart:6>, <BuildCraft|Factory:tankBlock>],
-[<ore:pipeMediumSteel>, <Forestry:sturdyMachine>, <ore:pipeMediumSteel>],
-[<ore:gearGtSmallBronze>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallBronze>]]);
+//recipes.addShaped(<ExtraTrees:machine:5>, [
+//[<BuildCraft|Factory:tankBlock>, <IC2:itemRecipePart:6>, <BuildCraft|Factory:tankBlock>],
+//[<ore:pipeMediumSteel>, <Forestry:sturdyMachine>, <ore:pipeMediumSteel>],
+//[<ore:gearGtSmallBronze>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallBronze>]]);
 
 // --- Destillery
-recipes.addShaped(<ExtraTrees:machine:6>, [
-[<BuildCraft|Factory:tankBlock>, <IC2:itemRecipePart:6>, <BuildCraft|Factory:tankBlock>],
-[<IC2:itemRecipePart:5>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>],
-[<ore:gearGtSmallBronze>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallBronze>]]);
+//recipes.addShaped(<ExtraTrees:machine:6>, [
+//[<BuildCraft|Factory:tankBlock>, <IC2:itemRecipePart:6>, <BuildCraft|Factory:tankBlock>],
+//[<IC2:itemRecipePart:5>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>],
+//[<ore:gearGtSmallBronze>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallBronze>]]);
 
 // --- Glass Worker
-recipes.addShaped(<ExtraTrees:machine:7>, [
-[<gregtech:gt.metaitem.01:17889>, <Botany:stained:*>, <gregtech:gt.metaitem.01:17889>],
-[<Forestry:factory2:2>, <Forestry:sturdyMachine>, <Forestry:factory2:2>],
-[<ExtraTrees:misc:3>, <Botany:stained:*>, <ExtraTrees:misc:3>]]);
+//recipes.addShaped(<ExtraTrees:machine:7>, [
+//[<gregtech:gt.metaitem.01:17889>, <Botany:stained:*>, <gregtech:gt.metaitem.01:17889>],
+//[<Forestry:factory2:2>, <Forestry:sturdyMachine>, <Forestry:factory2:2>],
+//[<ExtraTrees:misc:3>, <Botany:stained:*>, <ExtraTrees:misc:3>]]);
 
 // --- Tile Worker
-recipes.addShaped(<ExtraTrees:machine:8>, [
-[<gregtech:gt.metaitem.01:17889>, <Botany:ceramic:*>, <gregtech:gt.metaitem.01:17889>],
-[<Forestry:factory2:2>, <Forestry:sturdyMachine>, <Forestry:factory2:2>],
-[<ExtraTrees:misc:3>, <Botany:ceramic:*>, <ExtraTrees:misc:3>]]);
+//recipes.addShaped(<ExtraTrees:machine:8>, [
+//[<gregtech:gt.metaitem.01:17889>, <Botany:ceramic:*>, <gregtech:gt.metaitem.01:17889>],
+//[<Forestry:factory2:2>, <Forestry:sturdyMachine>, <Forestry:factory2:2>],
+//[<ExtraTrees:misc:3>, <Botany:ceramic:*>, <ExtraTrees:misc:3>]]);
 
 // --- Profen Gear
 recipes.addShaped(<ExtraTrees:misc:3>, [

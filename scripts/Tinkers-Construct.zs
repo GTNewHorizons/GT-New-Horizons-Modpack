@@ -13,7 +13,6 @@ import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidExtractor;
-import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
 import mods.gregtech.Pulverizer;
@@ -355,6 +354,18 @@ recipes.remove(<TConstruct:materials:22>);
 
 // --- Golden Apple
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:golden_apple>);
+
+// --- Gear Mold
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:gearCast>);
+
+// --- Gear Mold Enderium
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31321>);
+
+// --- Gear Mold Ardite
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31382>);
+
+// --- Gear Mold Manyullyn
+mods.tconstruct.Casting.removeTableRecipe(<gregtech:gt.metaitem.02:31386>);
 
 // --- Hambone
 recipes.remove(<TConstruct:MeatBlock>);
@@ -977,9 +988,6 @@ mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:2>, <liquid:aluminumbrass.m
 
 // --- Bow Limb Cast
 mods.tconstruct.Smeltery.addMelting(<TConstruct:Cast:3>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
-
-// --- Gear Cast
-mods.tconstruct.Smeltery.addMelting(<TConstruct:gearCast>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- Gt Iron
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:32>, <liquid:iron.molten> * 144, 700, <minecraft:iron_ore>);
@@ -3863,36 +3871,36 @@ mods.tconstruct.Drying.addRecipe(<harvestcraft:muttonrawItem>, <TConstruct:jerky
 
 
 
-// --- Macerator Recipes ---
+// --- Pulverizer Recipes ---
 
 
 
 
 // --- Ardite Dust
-Macerator.addRecipe(<TConstruct:materials:38>, <TConstruct:materials:4>);
+Pulverizer.addRecipe([<TConstruct:materials:38>], <TConstruct:materials:4>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<TConstruct:materials:38> * 9, <TConstruct:MetalBlock:1>);
+Pulverizer.addRecipe([<TConstruct:materials:38> * 9], <TConstruct:MetalBlock:1>, [10000], 300, 2);
 // -
-//Macerator.addRecipe(<TConstruct:materials:38> * 2, <TConstruct:SearedBrick:2>);
+//Pulverizer.addRecipe([<TConstruct:materials:38> * 2], <TConstruct:SearedBrick:2>, [10000], 300, 2);
 
 // --- Manyullyn Dust
-Macerator.addRecipe(<TConstruct:materials:41>, <TConstruct:materials:5>);
+Pulverizer.addRecipe([<TConstruct:materials:41>], <TConstruct:materials:5>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<TConstruct:materials:41> * 9, <TConstruct:MetalBlock:2>);
+Pulverizer.addRecipe([<TConstruct:materials:41> * 9], <TConstruct:MetalBlock:2>, [10000], 300, 2);
 
 // --- Cobalt Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2033> * 9, <TConstruct:MetalBlock>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2033> * 9], <TConstruct:MetalBlock>, [10000], 300, 2);
 
 // --- Aluminium Brass Dust
-Macerator.addRecipe(<TConstruct:materials:42> * 9, <TConstruct:MetalBlock:7>);
+Pulverizer.addRecipe([<TConstruct:materials:42> * 9], <TConstruct:MetalBlock:7>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<TConstruct:materials:42>, <TConstruct:materials:14>);
+Pulverizer.addRecipe([<TConstruct:materials:42>], <TConstruct:materials:14>, [10000], 300, 2);
 
 // --- Ender Pearl Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2532> * 9, <TConstruct:MetalBlock:10>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2532> * 9], <TConstruct:MetalBlock:10>, [10000], 300, 2);
 
 // --- Raw Aluminium
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2019>, <TConstruct:materials:12>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2019>], <TConstruct:materials:12>, [10000], 300, 2);
 
 
 

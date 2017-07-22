@@ -18,9 +18,7 @@ import mods.gregtech.FluidCanner;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.ic2.Canner;
-import mods.ic2.Compressor;
 import mods.ic2.Extractor;
-import mods.ic2.Macerator;
 import mods.gregtech.PlasmaArcFurnace;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
@@ -52,7 +50,7 @@ val HeatProofCase = <gregtech:gt.blockcasings:11>;
 val Stick = <ore:stickWood>;
 val Flint = <minecraft:flint>;
 
-var plateIron = <Railcraft:part.plate>;
+var plateIron = <gregtech:gt.metaitem.01:17032>;
 var plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
 var plateAluminium = <gregtech:gt.metaitem.01:17019>;
 var shutterModule = <gregtech:gt.metaitem.01:32749>;
@@ -1067,29 +1065,29 @@ FormingPress.addRecipe(<dreamcraft:item.ExtruderShapeBoat>, <gregtech:gt.metaite
 
 
 
-// --- Macerator Recipes --- 
+// --- Pulverizer Recipes --- 
 
 
 // --- Flour
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <Natura:barleyFood>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <Natura:barleyFood>, [10000], 300, 2);
 
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <BiomesOPlenty:plants:6>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <BiomesOPlenty:plants:6>, [10000], 300, 2);
 
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <harvestcraft:barleyItem>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <harvestcraft:barleyItem>, [10000], 300, 2);
 
 // --- Minced Meat
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2892> * 9, <Thaumcraft:blockTaint:2>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2892> * 9], <Thaumcraft:blockTaint:2>, [10000], 300, 2);
 
 // --- Glass Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <TConstruct:GlassBlock>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2890>], <TConstruct:GlassBlock>, [10000], 300, 2);
 // -
-Macerator.addRecipe(<gregtech:gt.metaitem.01:1890>, <TConstruct:GlassPane>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1890>], <TConstruct:GlassPane>, [10000], 300, 2);
 
 // --- Glass Dust
-Macerator.addRecipe(<gregtech:gt.metaitem.01:2890>, <BloodArsenal:glass_shard> * 2);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2890>], <BloodArsenal:glass_shard> * 2, [10000], 300, 2);
 
 // --- Grounded Casseterite
-Macerator.addRecipe(<gregtech:gt.metaitem.01:5937> * 4, <gregtech:gt.blockores:937>);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:5937> * 4], <gregtech:gt.blockores:937>, [10000], 300, 2);
 
 
 
@@ -1275,3 +1273,30 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32372>, <liquid:
 
 // --- Extruder Shape Bottle
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32373>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeBottle>, true, 100);
+
+
+
+// --- Themionic Recipes
+
+
+
+// --- Vacuum Tubes
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
+[null, <gregtech:gt.metaitem.02:22305>, null], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22305>, <gregtech:gt.metaitem.02:19035>], 
+[<gregtech:gt.metaitem.01:26308>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.metaitem.01:26308>]], 
+null, <gregtech:gt.metaitem.01:32700> * 16);
+
+// --- Diode
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
+[null, <gregtech:gt.metaitem.02:19057>, null], 
+[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.03:32033>, <gregtech:gt.metaitem.02:19057>], 
+[null, <gregtech:gt.metaitem.02:19057>, null]], 
+null, <gregtech:gt.metaitem.01:32715> * 8);
+
+// --- Diode
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
+[null, <gregtech:gt.metaitem.02:19057>, null], 
+[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.01:980>, <gregtech:gt.metaitem.02:19057>], 
+[null, <gregtech:gt.metaitem.02:19057>, null]], 
+null, <gregtech:gt.metaitem.01:32715> * 16);
