@@ -1250,13 +1250,13 @@ recipes.addShaped(<IC2:itemScannerAdv:26>, [
 // --- Small Power Unit
 recipes.addShaped(<IC2:itemRecipePart:3>, [
 [<ore:cableGt01AnyCopper>, <dreamcraft:item.AluminiumItemCasing>, <ore:cableGt01AnyCopper>],
-[<dreamcraft:item.AluminiumItemCasing>, <IC2:itemBatREDischarged>, <dreamcraft:item.AluminiumItemCasing>],
+[<dreamcraft:item.AluminiumItemCasing>, <ore:craftingToolScrewdriver>, <dreamcraft:item.AluminiumItemCasing>],
 [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
 
 // --- Power Unit
 recipes.addShaped(<IC2:itemRecipePart:2>, [
 [<ore:cableGt02Gold>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:cableGt02Gold>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <IC2:itemAdvBat:26>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:craftingToolScrewdriver>, <dreamcraft:item.StainlessSteelItemCasing>],
 [<ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32601>, <ore:circuitAdvanced>]]);
 
 // --- Trade O Mat
