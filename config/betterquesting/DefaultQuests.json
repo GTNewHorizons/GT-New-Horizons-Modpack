@@ -75882,10 +75882,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalacticraftCore:item.fuelCanisterPartial",
+              "id": "GalacticraftCore:item.oilCanisterPartial",
               "Count": 2,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 1001
             },
             {
               "id": "gregtech:gt.metaitem.01",
