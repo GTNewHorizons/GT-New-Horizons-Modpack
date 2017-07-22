@@ -3552,10 +3552,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 7,
               "OreDict": "plateIron",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "minecraft:furnace",
@@ -4331,10 +4331,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "plateIron",
-              "Damage": 0
+              "Damage": 17032
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -6946,10 +6946,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 28,
-              "OreDict": "",
-              "Damage": 0
+              "OreDict": "plateIron",
+              "Damage": 17032
             },
             {
               "id": "minecraft:furnace",
@@ -40618,10 +40618,10 @@
               "Damage": 23305
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 1
+              "OreDict": "plateSteel",
+              "Damage": 17305
             },
             {
               "id": "minecraft:flint",
@@ -42373,10 +42373,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
-              "OreDict": "",
-              "Damage": 0
+              "OreDict": "plateIron",
+              "Damage": 17032
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -42546,10 +42546,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 3,
-              "OreDict": "",
-              "Damage": 0
+              "OreDict": "plateIron",
+              "Damage": 17032
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -48633,10 +48633,10 @@
               "Damage": 0
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "plateIron",
-              "Damage": 0
+              "Damage": 17032
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -48747,10 +48747,10 @@
               "Damage": 0
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
-              "OreDict": "",
-              "Damage": 1
+              "OreDict": "plateSteel",
+              "Damage": 17305
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -55172,10 +55172,10 @@
               "Damage": 23032
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "plateSteel",
-              "Damage": 1
+              "Damage": 17305
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -57043,10 +57043,10 @@
               "Damage": 0
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "plateSteel",
-              "Damage": 1
+              "Damage": 17305
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -57707,10 +57707,10 @@
               "Damage": 32641
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 5,
-              "OreDict": "",
-              "Damage": 1
+              "OreDict": "plateSteel",
+              "Damage": 17305
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -60813,10 +60813,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 3,
               "OreDict": "plateAnyIron",
-              "Damage": 0
+              "Damage": 17032
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -61447,10 +61447,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 24,
               "OreDict": "plateIron",
-              "Damage": 0
+              "Damage": 17032
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -62230,10 +62230,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 24,
               "OreDict": "plateSteel",
-              "Damage": 1
+              "Damage": 17305
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -62570,10 +62570,10 @@
               "Damage": 0
             },
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 4,
-              "OreDict": "plateAnyIron",
-              "Damage": 0
+              "OreDict": "plateIron",
+              "Damage": 17032
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -62687,10 +62687,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "Railcraft:part.plate",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 10,
               "OreDict": "plateIron",
-              "Damage": 0
+              "Damage": 17032
             },
             {
               "id": "gregtech:gt.metaitem.02",
