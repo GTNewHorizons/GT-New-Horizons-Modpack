@@ -242,9 +242,6 @@ Assembler.addRecipe(<irontank:silverGoldUpgrade>, SteelPlate, GoldPlate, <liquid
 // --- Diamond Tank
 Assembler.addRecipe(<irontank:diamondTank>, Tank, DiamondPlate, <liquid:molten.glass> * 144, 300, 120);
 
-// --- Upgrade Gold to Diamond Tank
-Assembler.addRecipe(<irontank:goldDiamondUpgrade>, <minecraft:glass_pane> * 2, DiamondPlate, <liquid:molten.gold> * 144, 600, 120);
-
 // --- Upgrade Steel to Diamond Tank
 Assembler.addRecipe(<irontank:silverDiamondUpgrade>, SteelPlate, DiamondPlate, <liquid:molten.glass> * 72, 600, 120);
 
