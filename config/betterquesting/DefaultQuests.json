@@ -1955,7 +1955,7 @@
     {
       "questID": 22,
       "name": "Finite water!?",
-      "description": "Finite water is a problem, that\u0027s for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti  to use it for most recipes that require water. How cool is that? So what about another trade? 10 wood for.. 3 cacti so you can setup a farm. Deal?",
+      "description": "Finite water is a problem, that\u0027s for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for.. 3 cacti so you can setup a farm. Deal?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48930,7 +48930,7 @@
     {
       "questID": 563,
       "name": "Bookshelves...? Ah forestry... Multiblock farms!",
-      "description": "The bookshelf can only be made with an wooden plates in the compressor. Maybe someone thinks this is crazy...",
+      "description": "The bookshelf can only be made with wood planks, which are made in a compressor. Perhaps someone thinks this is a bit crazy...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
