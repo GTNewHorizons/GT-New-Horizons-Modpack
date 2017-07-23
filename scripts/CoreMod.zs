@@ -406,7 +406,7 @@ recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
 recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
 [null, WireCutter, null],
 [null, BlankCast, null],
-[null, File, null]]);
+[File, null, null]]);
 
 // --- Display
 recipes.addShaped(<dreamcraft:item.Display>, [

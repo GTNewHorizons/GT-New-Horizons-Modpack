@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.5.0.5 is out 19.07.2017
+Version 1.5.0.6 is out 21.07.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -77,7 +77,7 @@ http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
-Official EU Test Server 1.5.0.5
+Official EU Test Server 1.5.0.6
 zeta.gtnewhorizons.com<BR>
 
  
@@ -112,7 +112,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.0.5 --- 19.07.2017<BR>
+## Modlist - NewHorizons 1.5.0.6 --- 21.07.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta16<BR>
@@ -138,7 +138,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
-* Binnie Mods	2.0-20<BR>
+* Binnie Mods	2.0-20a<BR>
 * Biomes o Plenty	2.1.0.2027<BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
@@ -188,9 +188,9 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.31.13<BR>
-* GT New Horizons Core Mod	1.4.18<BR>
-* GT++ 1.5.6b<BR>
+* Gregtech	5.09.31.16<BR>
+* GT New Horizons Core Mod	1.4.20<BR>
+* GT++ 1.5.6c<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>

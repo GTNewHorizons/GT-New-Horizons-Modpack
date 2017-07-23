@@ -231,6 +231,9 @@ recipes.remove(<Natura:natura.bow.darkwood>);
 // --- Fuse Wood Bow
 recipes.remove(<Natura:natura.bow.fusewood>);
 
+// --- Charcoal out of Nature Wood
+furnace.remove(<minecraft:coal:1>, <*>);
+
 
 
 

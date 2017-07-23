@@ -312,6 +312,8 @@ recipes.remove(MossyBricks);
 
 // --- Obsidian
 recipes.remove(Obsidian);
+// -
+furnace.remove(<*>, Obsidian);
 
 // --- Jack O Lantern
 recipes.remove(JackOLantern);

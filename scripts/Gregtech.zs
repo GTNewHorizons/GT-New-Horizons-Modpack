@@ -1296,7 +1296,7 @@ null, <gregtech:gt.metaitem.01:32715> * 8);
 
 // --- Diode
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
-[null, <gregtech:gt.metaitem.02:19057>, null], 
+[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:19057>], 
 [<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.01:980>, <gregtech:gt.metaitem.02:19057>], 
-[null, <gregtech:gt.metaitem.02:19057>, null]], 
+[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:19057>]], 
 null, <gregtech:gt.metaitem.01:32715> * 16);
