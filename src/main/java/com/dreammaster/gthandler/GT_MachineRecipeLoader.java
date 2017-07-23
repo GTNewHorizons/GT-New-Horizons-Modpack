@@ -219,6 +219,8 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addAssemblerRecipe(new ItemStack(Items.diamond, 1, 0), ItemList.Circuit_Basic.get(4L), CustomItemList.TwilightCrystal.get(1L), 600, 16);
         GT_Values.RA.addAssemblerRecipe(new ItemStack(Items.diamond, 1, 0), GT_ModHandler.getModItem("IC2", "itemPartCircuit", 4L, 0), CustomItemList.TwilightCrystal.get(1L), 600, 16);
 
+        GT_Values.RA.addAssemblerRecipe(new ItemStack[]{GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Gold, 1L), GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Diamond, 1L),  GT_Utility.getIntegratedCircuit(1)},  Materials.Glass.getMolten(172L), GT_ModHandler.getModItem("irontank", "goldDiamondUpgrade", 1L, 0), 600, 120);
+
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.MysteriousCrystal, 1L), CustomItemList.BedrockiumPlate.get(8L), ItemList.Casing_Tank_10.get(1L), 100, 16);
 
         GT_Values.RA.addAssemblerRecipe(CustomItemList.RawLapotronCrystal.get(1L),  GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Advanced, 2L), ItemList.IC2_LapotronCrystal.get(1L), 600, 1024);
