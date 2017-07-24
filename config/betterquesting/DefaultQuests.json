@@ -1604,7 +1604,7 @@
             {
               "id": "minecraft:sand",
               "Count": 128,
-              "OreDict": "",
+              "OreDict": "sand",
               "Damage": 0
             }
           ],
@@ -2550,7 +2550,7 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 48,
-              "OreDict": "",
+              "OreDict": "ingotAnyCopper",
               "Damage": 11035
             }
           ],
