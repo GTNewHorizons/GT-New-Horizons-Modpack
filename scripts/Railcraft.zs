@@ -10,7 +10,6 @@ import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.gregtech.FluidSolidifier;
 import mods.gregtech.Fuels;
-import mods.ic2.Macerator;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
 import mods.gregtech.PlateBender;
@@ -1270,7 +1269,7 @@ recipes.addShaped(<Railcraft:tool.magnifying.glass>, [
 recipes.addShapeless(<Railcraft:machine.alpha:7>, [<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.CokeOvenBrick>]);
 
 // --- Sandy Block ---
-recipes.addShaped(<Railcraft:brick.sandy:2>, [
+recipes.addShaped(<Railcraft:brick.sandy:2> * 2, [
 [<ore:ingotBrick>, <ore:sand>, null],
 [<ore:sand>, <ore:ingotBrick>, null],
 [null, null, null]]);
@@ -1330,7 +1329,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 <Railcraft:backpack.apothecary.t1>, <Railcraft:backpack.apothecary.t2>);
 
 // --- Infernal Block
-recipes.addShaped(<Railcraft:brick.infernal:2>, [
+recipes.addShaped(<Railcraft:brick.infernal:2> * 8, [
 [<ore:stoneNetherBrick>, <minecraft:soul_sand>, <ore:stoneNetherBrick>],
 [<minecraft:soul_sand>, <minecraft:magma_cream>, <minecraft:soul_sand>],
 [<ore:stoneNetherBrick>, <minecraft:soul_sand>, <ore:stoneNetherBrick>]]);

@@ -165,6 +165,10 @@ recipes.remove(<harvestcraft:quern>);
 // --- Boiled egg out of Tofu
 recipes.remove(<harvestcraft:boiledeggItem>);
 
+// --- Heavy Cream
+recipes.remove(<harvestcraft:heavycreamItem>);
+
+
 
 
 // --- Adding Back Recipes ---
@@ -403,10 +407,7 @@ recipes.addShapeless(<harvestcraft:silkentofuItem>, [<ore:craftingToolRollingPin
 recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
 [<minecraft:red_flower:1>, <minecraft:tallgrass:1>, <BiomesOPlenty:flowers2:2>],
 [<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
-[<minecraft:bowl>, <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
-
-// --- Lootbag Seeds
-recipes.addShapeless(<enhancedlootbags:lootbag:35>, [<dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>, <dreamcraft:item.CoinFarmer>]);
+[<minecraft:bowl>.giveBack(<minecraft:bowl>), <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
 
 // --- Market ---
 //recipes.addShaped(<harvestcraft:market>, [
@@ -422,6 +423,27 @@ furnace.addRecipe(<harvestcraft:turkeycookedItem>, <harvestcraft:turkeyrawItem>)
 
 // --- Boiled Egg
 recipes.addShapeless(<harvestcraft:boiledeggItem>, [<harvestcraft:potItem>, <minecraft:egg>]);
+
+// --- Heavy Cream
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <harvestcraft:soymilkItem>]);
+// -
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <harvestcraft:freshmilkItem>]);
+// -
+recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:milk_bucket>]);
+// -
+recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <IguanaTweaksTConstruct:clayBucketMilk>]);
+// -
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<harvestcraft:mixingbowlItem>, <harvestcraft:soymilkItem>]);
+// -
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<harvestcraft:mixingbowlItem>, <harvestcraft:freshmilkItem>]);
+// -
+recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<harvestcraft:mixingbowlItem>, <minecraft:milk_bucket>]);
+// -
+recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<harvestcraft:mixingbowlItem>, <IguanaTweaksTConstruct:clayBucketMilk>]);
+
+
+
+
 
 
 // --- Ordicted Things ---

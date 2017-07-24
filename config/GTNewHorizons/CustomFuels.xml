@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomFuels>
     <FuelItem ItemName="minecraft:diamond" BurnTime="102400"/>
+	<FuelItem ItemName="minecraft:diamond_block" BurnTime="1024000"/>
 	<FuelItem ItemName="dreamcraft:tile.Charcoal" BurnTime="16000"/>
 	<FuelItem ItemName="dreamcraft:tile.CompressedCharcoal" BurnTime="144000"/>
 	<FuelItem ItemName="dreamcraft:tile.CompressedCoal" BurnTime="144000"/>

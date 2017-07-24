@@ -468,7 +468,7 @@ Assembler.addRecipe(<openmodularturrets:expanderInvTierFive>, <gregtech:gt.block
 Assembler.addRecipe(<openmodularturrets:barrelTierOne>, <gregtech:gt.metaitem.01:17809> * 4, <gregtech:gt.metaitem.01:28032> * 2, 200, 16);
 
 // --- Barrel Tier 2
-Assembler.addRecipe(<openmodularturrets:barrelTierTwo>, <Railcraft:part.plate> * 4, <gregtech:gt.metaitem.01:28305> * 2, 200, 30);
+Assembler.addRecipe(<openmodularturrets:barrelTierTwo>, <gregtech:gt.metaitem.01:17032> * 4, <gregtech:gt.metaitem.01:28305> * 2, 200, 30);
 
 // --- Barrel Tier 3
 Assembler.addRecipe(<openmodularturrets:barrelTierThree>, <gregtech:gt.metaitem.01:17364> * 4, <gregtech:gt.metaitem.01:28306> * 2, 200, 64);

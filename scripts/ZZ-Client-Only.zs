@@ -11,6 +11,7 @@ import mods.gregtech.FormingPress;
 
 val BlankCast = <TConstruct:blankPattern:1>;
 val WireCutter = <ore:craftingToolWireCutter>;
+val File = <ore:craftingToolFile>;
 
 // --- Remove Recipes ---
 

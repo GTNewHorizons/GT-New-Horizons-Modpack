@@ -32,11 +32,11 @@ val Steel2GoldUp = <IronChest:silverGoldUpgrade>;
 val Wood2CopperUp = <IronChest:woodCopperUpgrade>;
 val Wood2IronUp = <IronChest:woodIronUpgrade>;
 
-val CopperPlate = <Railcraft:part.plate:3>;
+val CopperPlate = <gregtech:gt.metaitem.01:17035>;
 val DoubleCopperPlate = <gregtech:gt.metaitem.01:18035>;
-val IronPlate = <Railcraft:part.plate>;
+val IronPlate = <gregtech:gt.metaitem.01:17032>;
 val DoubleIronPlate = <gregtech:gt.metaitem.01:18032>;
-val SteelPlate = <Railcraft:part.plate:1>;
+val SteelPlate = <gregtech:gt.metaitem.01:17305>;
 val DoubleSteelPlate = <gregtech:gt.metaitem.01:18305>;
 val GoldPlate = <gregtech:gt.metaitem.01:17086>;
 val DoubleGoldPlate = <gregtech:gt.metaitem.01:18086>;

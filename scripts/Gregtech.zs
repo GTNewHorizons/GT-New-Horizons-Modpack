@@ -18,7 +18,6 @@ import mods.gregtech.FluidCanner;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
 import mods.ic2.Canner;
-import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.PlasmaArcFurnace;
 import mods.gregtech.PlateBender;
@@ -51,7 +50,7 @@ val HeatProofCase = <gregtech:gt.blockcasings:11>;
 val Stick = <ore:stickWood>;
 val Flint = <minecraft:flint>;
 
-var plateIron = <Railcraft:part.plate>;
+var plateIron = <gregtech:gt.metaitem.01:17032>;
 var plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
 var plateAluminium = <gregtech:gt.metaitem.01:17019>;
 var shutterModule = <gregtech:gt.metaitem.01:32749>;
@@ -1297,7 +1296,7 @@ null, <gregtech:gt.metaitem.01:32715> * 8);
 
 // --- Diode
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
-[null, <gregtech:gt.metaitem.02:19057>, null], 
+[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:19057>], 
 [<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.01:980>, <gregtech:gt.metaitem.02:19057>], 
-[null, <gregtech:gt.metaitem.02:19057>, null]], 
+[<gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:19057>, <gregtech:gt.metaitem.02:19057>]], 
 null, <gregtech:gt.metaitem.01:32715> * 16);

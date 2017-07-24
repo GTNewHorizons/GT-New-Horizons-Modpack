@@ -6,9 +6,7 @@
 
 
 
-import mods.gregtech.Assembler;
-import mods.ic2.Compressor;
-import mods.ic2.Macerator;
+import mods.gregtech.PrecisionLaser;
 
 
 
@@ -269,9 +267,9 @@ mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemBaubleBl
 
 // --- Mirrored Glass
 mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemResource:10>, "aer 10, terra 10, ignis 10,", [
-[null, <ore:gemQuicksilver>, null],
-[<ore:gemQuicksilver>, <minecraft:glass_pane>, <ore:gemQuicksilver>],
-[null, <ore:gemQuicksilver>, null]]);
+[null, <ore:gemMercury>, null],
+[<ore:gemMercury>, <minecraft:glass_pane>, <ore:gemMercury>],
+[null, <ore:gemMercury>, null]]);
 mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemResource:10>);
 
 // --- Arcane Stone
@@ -629,7 +627,7 @@ mods.thaumcraft.Research.setComplexity("MIRRORHAND", 3);
 
 // --- Essentia Mirror
 mods.thaumcraft.Infusion.addRecipe("MIRRORESSENTIA", <Thaumcraft:ItemResource:10>,
-[<minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:27330>, <minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <Railcraft:part.plate:1>, <gregtech:gt.metaitem.01:27330>],
+[<minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>, <minecraft:ender_pearl>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>],
 "aqua 16, iter 16, permutatio 16, vitreus 8", <Thaumcraft:blockMirror:6>, 2);
 // -
 mods.thaumcraft.Research.setAspects("MIRRORESSENTIA", "praecantatio 12, iter 12, vitreus 9, alienis 9, cognitio 6, potentia 6, aqua 3");
@@ -697,12 +695,12 @@ mods.thaumcraft.Research.setComplexity("BONEBOW", 2);
 
 
 
-// --- Assembler Recipes --- 
+// --- Precision Laser Recipes --- 
 
 
 
 // --- Arcan Stone Bricks
-Assembler.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6> * 4, <gregtech:gt.integrated_circuit:4> * 0, 160, 40);
+PrecisionLaser.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>, <gregtech:gt.metaitem.01:24502> * 0, 600, 120);
 
 
 
