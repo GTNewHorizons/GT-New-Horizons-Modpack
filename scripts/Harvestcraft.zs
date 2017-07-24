@@ -168,6 +168,17 @@ recipes.remove(<harvestcraft:boiledeggItem>);
 // --- Heavy Cream
 recipes.remove(<harvestcraft:heavycreamItem>);
 
+// --- Raspberry Juice
+recipes.remove(<harvestcraft:raspberryjuiceItem>);
+
+// --- Blackberry Juice
+recipes.remove(<harvestcraft:blackberryjuiceItem>);
+
+// --- Blueberry Juice
+recipes.remove(<harvestcraft:blueberryjuiceItem>);
+
+// --- Lemonade
+recipes.remove(<harvestcraft:lemonaideItem>);
 
 
 
@@ -441,7 +452,17 @@ recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<harvestcraft:mixingbow
 // -
 recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<harvestcraft:mixingbowlItem>, <IguanaTweaksTConstruct:clayBucketMilk>]);
 
+// --- Raspberry Juice
+recipes.addShapeless(<harvestcraft:raspberryjuiceItem>, [<ore:toolJuicer>, <ore:cropRaspberry>]);
 
+// --- Blackberry Juice
+recipes.addShapeless(<harvestcraft:blackberryjuiceItem>, [<ore:toolJuicer>, <ore:cropBlackberry>]);
+
+// --- Blueberry Juice
+recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<ore:toolJuicer>, <ore:cropBlueberry>]);
+
+// --- Lemonade
+recipes.addShapeless(<harvestcraft:lemonaideItem>, [<ore:toolJuicer>, <ore:cropLemon>, <ore:listAllsugar>]);
 
 
 
@@ -515,7 +536,7 @@ Extractor.addRecipe(<harvestcraft:carrotjuiceItem>, <minecraft:carrot>);
 // -
 Extractor.addRecipe(<harvestcraft:carrotjuiceItem>, <BiomesOPlenty:food:2> * 2);
 
-// --- Straw Berry Juice
+// --- Strawberry Juice
 Extractor.addRecipe(<harvestcraft:strawberryjuiceItem>, <harvestcraft:strawberryItem>);
 
 // --- Grape Juice
@@ -523,7 +544,7 @@ Extractor.addRecipe(<harvestcraft:grapejuiceItem>, <gregtech:gt.metaitem.02:3255
 // -
 Extractor.addRecipe(<harvestcraft:grapejuiceItem>, <harvestcraft:grapeItem>);
 
-// --- Blue Berry Juice
+// --- Blueberry Juice
 Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <ExtraTrees:food:45>);
 // -
 Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <harvestcraft:blueberryItem>);
@@ -537,14 +558,14 @@ Extractor.addRecipe(<harvestcraft:cherryjuiceItem>, <harvestcraft:cherryItem>);
 // -
 Extractor.addRecipe(<harvestcraft:cherryjuiceItem>, <Forestry:fruits>);
 
-// --- Black Berry Juice
+// --- Blackberry Juice
 Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <ExtraTrees:food:43>);
 // -
 Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <harvestcraft:blackberryItem>);
 // -
 Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <Natura:berry:2> * 4);
 
-// --- Rasp Berry Juice
+// --- Raspberry Juice
 Extractor.addRecipe(<harvestcraft:raspberryjuiceItem>, <harvestcraft:raspberryItem>);
 // -
 Extractor.addRecipe(<harvestcraft:raspberryjuiceItem>, <ExtraTrees:food:44>);
@@ -668,7 +689,7 @@ Extractor.addRecipe(<harvestcraft:peanutbutterItem>, <harvestcraft:peanutItem>);
 // --- Mustard
 Extractor.addRecipe(<harvestcraft:mustardItem>, <harvestcraft:mustardseedsItem>);
 
-// --- Alomd Butter
+// --- Almond Butter
 Extractor.addRecipe(<harvestcraft:almondbutterItem>, <harvestcraft:almondItem>);
 // -
 Extractor.addRecipe(<harvestcraft:almondbutterItem>, <ExtraTrees:food:9>);
@@ -865,5 +886,5 @@ Mixer.addRecipe(<harvestcraft:figsmoothieItem>, null, [<harvestcraft:figItem>, <
 // -
 Mixer.addRecipe(<harvestcraft:figsmoothieItem>, null, [<ExtraTrees:food:32>, <gregtech:gt.metaitem.01:2702>], null, 400, 2);
 
-// --- Salat Dressing
+// --- Salad Dressing
 Mixer.addRecipe(<harvestcraft:saladdressingItem>, null, [<harvestcraft:oliveoilItem>, <harvestcraft:vinegarItem>, <gregtech:gt.metaitem.01:817> * 2], null, 400, 2);
