@@ -179,7 +179,7 @@ furnace.remove(<Natura:NetherGlass>);
 furnace.remove(<Natura:NetherGlass:1>);
 
 // --- Removing berry conversion into Harvest craft berries
-recipes.remove(<harvestcraft:blackItem>);
+recipes.remove(<harvestcraft:blackberryItem>);
 // -
 recipes.remove(<harvestcraft:blueberryItem>);
 // -
