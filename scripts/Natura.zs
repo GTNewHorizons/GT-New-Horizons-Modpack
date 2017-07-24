@@ -185,12 +185,15 @@ recipes.remove(<harvestcraft:blueberryItem>);
 // -
 recipes.remove(<harvestcraft:raspberryItem>);
 
-//  --- Juice
-recipes.remove(<harvestcraft:raspberryjuiceItem>);
-// -
-recipes.remove(<harvestcraft:blueberryjuiceItem>);
-// -
-recipes.remove(<harvestcraft:blackberryjuiceItem>);
+// --- Adding Natura berries to oredict
+<ore:listAllfruit>.add(<Natura:berry:0>);
+<ore:listAllberry>.add(<Natura:berry:0>);
+<ore:listAllfruit>.add(<Natura:berry:1>);
+<ore:listAllberry>.add(<Natura:berry:1>);
+<ore:listAllfruit>.add(<Natura:berry:2>);
+<ore:listAllberry>.add(<Natura:berry:2>);
+<ore:listAllfruit>.add(<Natura:berry:3>);
+<ore:listAllberry>.add(<Natura:berry:3>);
 
 // --- Blaze Rail
 recipes.remove(<Natura:Blazerail>);
