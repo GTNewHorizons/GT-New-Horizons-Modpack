@@ -72138,7 +72138,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. Still have your old bronze blast furnace? Boldly throw it into an arc furnace and get back your bronze! You will also need 10 basic steam turbines, as this boiler produces 800 liters of steam per tick, and each turbine consumes 80.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick, and this is enough to run 10 basic steam turbines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72260,21 +72260,6 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 1120
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -72308,8 +72293,7 @@
         }
       ],
       "preRequisites": [
-        717,
-        662
+        717
       ]
     },
     {
@@ -72503,21 +72487,6 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 1120
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -72551,8 +72520,7 @@
         }
       ],
       "preRequisites": [
-        89,
-        784
+        838
       ]
     },
     {
@@ -72647,7 +72615,6 @@
         }
       ],
       "preRequisites": [
-        786,
         162
       ]
     },
@@ -72751,7 +72718,6 @@
         }
       ],
       "preRequisites": [
-        787,
         186
       ]
     },
@@ -89517,7 +89483,7 @@
         },
         {
           "id": 53,
-          "x": 288,
+          "x": 240,
           "y": 72
         },
         {
@@ -89553,31 +89519,31 @@
         {
           "id": 59,
           "x": 48,
-          "y": 180
+          "y": 144
         },
         {
           "id": 60,
           "x": 0,
-          "y": 252
+          "y": 180
         },
         {
           "id": 61,
-          "x": 96,
-          "y": 252
+          "x": 48,
+          "y": 180
         },
         {
           "id": 62,
           "x": 0,
-          "y": 180
+          "y": 144
         },
         {
           "id": 63,
-          "x": 96,
-          "y": 72
+          "x": 0,
+          "y": 48
         },
         {
           "id": 64,
-          "x": 96,
+          "x": 0,
           "y": 108
         },
         {
@@ -89627,12 +89593,12 @@
         },
         {
           "id": 84,
-          "x": 156,
+          "x": 108,
           "y": 180
         },
         {
           "id": 16,
-          "x": 156,
+          "x": 108,
           "y": 216
         },
         {
@@ -89687,33 +89653,13 @@
         },
         {
           "id": 558,
-          "x": 228,
+          "x": 240,
           "y": 180
         },
         {
-          "id": 559,
-          "x": 48,
-          "y": 252
-        },
-        {
-          "id": 560,
-          "x": 48,
-          "y": 216
-        },
-        {
-          "id": 561,
+          "id": 596,
           "x": 192,
           "y": 72
-        },
-        {
-          "id": 562,
-          "x": 240,
-          "y": 72
-        },
-        {
-          "id": 596,
-          "x": 144,
-          "y": 108
         },
         {
           "id": 597,
@@ -89727,8 +89673,8 @@
         },
         {
           "id": 658,
-          "x": 96,
-          "y": 144
+          "x": 108,
+          "y": 108
         },
         {
           "id": 694,
@@ -89737,7 +89683,7 @@
         },
         {
           "id": 705,
-          "x": 144,
+          "x": 108,
           "y": 144
         },
         {
@@ -89772,7 +89718,7 @@
         },
         {
           "id": 890,
-          "x": 156,
+          "x": 108,
           "y": 252
         }
       ]
@@ -92254,7 +92200,7 @@
         },
         {
           "id": 768,
-          "x": 336,
+          "x": 384,
           "y": 72
         },
         {
@@ -92264,27 +92210,27 @@
         },
         {
           "id": 784,
-          "x": 384,
+          "x": 432,
           "y": 0
         },
         {
           "id": 786,
-          "x": 384,
+          "x": 432,
           "y": 36
         },
         {
           "id": 787,
-          "x": 384,
+          "x": 432,
           "y": 72
         },
         {
           "id": 788,
-          "x": 384,
+          "x": 432,
           "y": 108
         },
         {
           "id": 783,
-          "x": 432,
+          "x": 480,
           "y": 36
         },
         {
@@ -92306,6 +92252,26 @@
           "id": 941,
           "x": 288,
           "y": 108
+        },
+        {
+          "id": 560,
+          "x": 336,
+          "y": 0
+        },
+        {
+          "id": 561,
+          "x": 384,
+          "y": 0
+        },
+        {
+          "id": 559,
+          "x": 336,
+          "y": 36
+        },
+        {
+          "id": 562,
+          "x": 384,
+          "y": 36
         }
       ]
     },
