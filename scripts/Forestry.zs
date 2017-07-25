@@ -12,7 +12,7 @@ import mods.ic2.Compressor;
 import mods.gregtech.Fuels;
 import mods.gregtech.FluidSolidifier;
 import mods.ic2.SemiFluidGenerator;
-
+import mods.nei.NEI;
 
 
 // --- Remove Recipes ---
