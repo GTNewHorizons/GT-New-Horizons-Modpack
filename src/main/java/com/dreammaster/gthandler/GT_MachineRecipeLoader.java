@@ -621,8 +621,6 @@ public class GT_MachineRecipeLoader implements Runnable{
 
         GT_Values.RA.addCentrifugeRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Electrotine, 8L), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Redstone, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Electrum, 1L), GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, new int[]{10000, 10000}, 400, 480);
 
-        GT_Values.RA.addCentrifugeRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.InfinityCatalyst, 64L), GT_Values.NI, GT_Values.NF, GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Infinity, 1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Infinity, 1L), GT_OreDictUnificator.get(OrePrefixes.dustSmall, Materials.Infinity, 1L), GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Infinity, 1L), GT_Values.NI, GT_Values.NI, new int[]{1000, 500, 250, 150}, 4200, 491520, true);
-
         GT_Values.RA.addCentrifugeRecipe(ItemList.Cell_Air.get(5, new Object[0]), GT_Values.NI, GT_Values.NF, Materials.Nitrogen.getGas(3900L), Materials.Oxygen.getCells(1), ItemList.Cell_Empty.get(4L, new Object[0]), GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Values.NI, new int[]{10000, 10000}, 1600, 8);
 
         GT_Values.RA.addChemicalBathRecipe(CustomItemList.HotNetherrackBrick.get(1L), new FluidStack(FluidRegistry.getFluid("ic2coolant"), 1000), CustomItemList.InfernalBrick.get(1L), GT_Values.NI, GT_Values.NI, null, 200, 30);
