@@ -2783,3 +2783,28 @@ mods.gregtech.Centrifuge.addRecipe([<Forestry:propolis>], null, <BiomesOPlenty:h
 
 // --- Honey Drops
 FluidSolidifier.addRecipe(<Forestry:honeyDrop>, <gregtech:gt.metaitem.01:32309> * 0, <liquid:for.honey> * 200, 400, 8);
+
+
+
+
+
+// --- Renaming Stuff ---
+
+
+// --- Swarmer
+NEI.overrideName(<Forestry:alveary:2>, "Swarmer");
+
+// --- Swarmer
+NEI.overrideName(<Forestry:alveary:3>, "Alveary Fan");
+
+// --- Swarmer
+NEI.overrideName(<Forestry:alveary:4>, "Alveary Heater");
+
+// --- Swarmer
+NEI.overrideName(<Forestry:alveary:5>, "Alveary Hygroregulator");
+
+// --- Swarmer
+NEI.overrideName(<Forestry:alveary:6>, "Alveary Stabiliser");
+
+// --- Swarmer
+NEI.overrideName(<Forestry:alveary:7>, "Alveary Sieve");
