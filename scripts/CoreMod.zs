@@ -572,7 +572,7 @@ recipes.addShaped(<dreamcraft:item.IrradiantReinforcedTungstenPlate>, [
 // --- Irradiant Reinforced Tungsten Steel Plate
 recipes.addShaped(<dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, [
 [<ore:screwRedAlloy>, <AdvancedSolarPanel:asp_crafting_items:1>, <ore:screwRedAlloy>],
-[<ore:plateKnightmetal>, <dreamcraft:item.ReinforcedTungstenIronPlate>, <ore:plateKnightmetal>],
+[<ore:plateKnightmetal>, <dreamcraft:item.ReinforcedTungstenSteelIronPlate>, <ore:plateKnightmetal>],
 [<ore:screwRedAlloy>, <ore:platePlutonium>, <ore:screwRedAlloy>]]);
 
 // --- Irradiant Reinforced Chrome Plate
