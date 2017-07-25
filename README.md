@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.5.0.6 is out 21.07.2017
+Version 1.5.0.7 is out 25.07.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -77,7 +77,7 @@ http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
-Official EU Test Server 1.5.0.6
+Official EU Test Server 1.5.0.7
 zeta.gtnewhorizons.com<BR>
 
  
@@ -112,7 +112,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.0.6 --- 21.07.2017<BR>
+## Modlist - NewHorizons 1.5.0.7 --- 25.07.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta16<BR>
@@ -127,7 +127,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * AsieLib	0.4.7<BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
-* Avaritia 1.13<BR>
+* Avaritia 1.14<BR>
 * Avaritiaddons 1.3b<BR>
 * BackPack	2.2.4<BR>
 * Baubles	1.0.1.11<BR>
@@ -188,8 +188,9 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.31.16<BR>
-* GT New Horizons Core Mod	1.4.20<BR>
+* Gregtech	5.09.31.19<BR>
+* GT Scanner Mod 1.1<BR>
+* GT New Horizons Core Mod	1.4.22<BR>
 * GT++ 1.5.6c<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
@@ -207,7 +208,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Inventory Tweaks 1.59.156<BR>
 * Iron Chest Minecarts	1.0.4<BR>
 * Iron Chests	6.0.62.745<BR>
-* Iron Tanks	1.1.54<BR>
+* Iron Tanks	1.1.65a<BR>
 * Jabba	1.2.5<BR>
 * JourneyMap	5.1.4p<BR>
 * Lava Monsters	2.2.1<BR>
@@ -236,7 +237,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Open Peripheral Core 1.4.280<BR>
 * Open Peripheral Integration 0.6.95<BR>
 * Open Printers	0.1.0.132<BR>
-* Open Security	1.0-102<BR>
+* Open Security	1.0-103<BR>
 * p455w0rdslib 1.0.4<BR>
 * Pam's Harvestcraft	1.7.10-m<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
@@ -293,7 +294,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Waila Harvestability	1.1.6<BR>
 * Waila Plugins	0.2.0.25<BR>
 * Wawla 1.0.5.120<BR>
-* Wanion Lib 1.5<BR>
+* Wanion Lib 1.8<BR>
 * Warp Theory	1.0h dev<BR>
 * Wireless Redstone CBE	1.4.1.11<BR>
 * Witchery	0.24.1<BR>
