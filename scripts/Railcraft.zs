@@ -1329,10 +1329,10 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 <Railcraft:backpack.apothecary.t1>, <Railcraft:backpack.apothecary.t2>);
 
 // --- Infernal Block
-recipes.addShaped(<Railcraft:brick.infernal:2> * 8, [
-[<ore:stoneNetherBrick>, <minecraft:soul_sand>, <ore:stoneNetherBrick>],
-[<minecraft:soul_sand>, <minecraft:magma_cream>, <minecraft:soul_sand>],
-[<ore:stoneNetherBrick>, <minecraft:soul_sand>, <ore:stoneNetherBrick>]]);
+recipes.addShaped(<Railcraft:brick.infernal:2> * 2, [
+[<ore:ingotBrickNether>, <minecraft:soul_sand>, null],
+[<minecraft:soul_sand>, <ore:ingotBrickNether>, null],
+[null, null, null]]);
 
 // --- Lapatron Loader Upgrade
 recipes.addShaped(<Railcraft:upgrade.lapotron>, [
