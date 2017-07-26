@@ -1097,9 +1097,6 @@ recipes.addShaped(<IC2:itemRecipePart:6>, [
 [<ore:screwCopper>, <ore:craftingToolWrench>, <ore:screwCopper>],
 [<IC2:itemCasing>, <IC2:itemCasing>, <IC2:itemCasing>]]);
 
-// --- Hops
-recipes.addShapeless(<IC2:itemHops>, [<ExtraTrees:misc:5>]);
-
 // --- Empty booze Barrel
 recipes.addShaped(<IC2:itemBarrel>, [
 [<gregtech:gt.metaitem.01:17809>, <ore:ringIron>, <gregtech:gt.metaitem.01:17809>],

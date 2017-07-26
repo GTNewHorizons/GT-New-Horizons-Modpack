@@ -136,7 +136,7 @@ recipes.addShaped(<ExtraTrees:machine:4>, [
 //[<ore:pipeMediumSteel>, <Forestry:sturdyMachine>, <ore:pipeMediumSteel>],
 //[<ore:gearGtSmallBronze>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallBronze>]]);
 
-// --- Destillery
+// --- Distillery
 //recipes.addShaped(<ExtraTrees:machine:6>, [
 //[<BuildCraft|Factory:tankBlock>, <IC2:itemRecipePart:6>, <BuildCraft|Factory:tankBlock>],
 //[<IC2:itemRecipePart:5>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>],
@@ -154,7 +154,7 @@ recipes.addShaped(<ExtraTrees:machine:4>, [
 //[<Forestry:factory2:2>, <Forestry:sturdyMachine>, <Forestry:factory2:2>],
 //[<ExtraTrees:misc:3>, <Botany:ceramic:*>, <ExtraTrees:misc:3>]]);
 
-// --- Profen Gear
+// --- Proven Gear
 recipes.addShaped(<ExtraTrees:misc:3>, [
 [<Forestry:oakStick>, <Railcraft:cube:8>, <Forestry:oakStick>],
 [<Railcraft:cube:8>, <ore:craftingToolSaw>, <Railcraft:cube:8>],
@@ -172,35 +172,8 @@ recipes.addShaped(<ExtraTrees:durableHammer>, [
 [<ore:ingotGold>, <RandomThings:ingredient:1>, <ore:stickWood>],
 [<ore:plateObsidian>, <ore:plateObsidian>, null]]);
 
-// --- Wheat Grain
-recipes.addShaped(<ExtraTrees:misc:8>, [
-[<minecraft:wheat_seeds>, null, null],
-[<ore:craftingToolMortar>, null, null],
-[null, null, null]]);
-
-// --- Barley Grain
-recipes.addShaped(<ExtraTrees:misc:9>, [
-[<Natura:barley.seed>, null, null],
-[<ore:craftingToolMortar>, null, null],
-[null, null, null]]);
-
-// --- Rye Grain
-recipes.addShaped(<ExtraTrees:misc:10>, [
-[<harvestcraft:ryeItem>, null, null],
-[<ore:craftingToolMortar>, null, null],
-[null, null, null]]);
-
-// --- Corn Grain
-recipes.addShaped(<ExtraTrees:misc:11>, [
-[<harvestcraft:cornItem>, null, null],
-[<ore:craftingToolMortar>, null, null],
-[null, null, null]]);
-
-// --- Hops
-recipes.addShapeless(<ExtraTrees:misc:5>, [<IC2:itemHops>]);
-
 // --- Glass Fittings
-recipes.addShaped(<ExtraTrees:misc:13> * 5, [
+recipes.addShaped(<ExtraTrees:misc:5> * 5, [
 [<ore:stickLongAnyIron>, <ore:craftingToolSaw>, <ore:stickLongAnyIron>],
 [null, <ore:stickLongAnyIron>, null],
 [<ore:stickLongAnyIron>, <ore:craftingToolFile>, <ore:stickLongAnyIron>]]);
@@ -2066,11 +2039,3 @@ recipes.addShaped(<ExtraTrees:door:919>.withTag({meta: 919}), [
 
 // --- Mixer Recipes
 
-
-
-
-// --- Yeast
-Mixer.addRecipe(<ExtraTrees:misc:6>, null, [<dreamcraft:item.MushroomPowder> * 5], <liquid:potion.wheatyjuice> * 1000, 400, 16);
-
-// --- Lager Yeast
-Mixer.addRecipe(<ExtraTrees:misc:7>, null, [<ExtraTrees:misc:6>, <ExtraTrees:misc:12> * 4], <liquid:water> * 1000, 600, 16);
