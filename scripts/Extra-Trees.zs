@@ -136,7 +136,7 @@ recipes.addShaped(<ExtraTrees:machine:4>, [
 //[<ore:pipeMediumSteel>, <Forestry:sturdyMachine>, <ore:pipeMediumSteel>],
 //[<ore:gearGtSmallBronze>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallBronze>]]);
 
-// --- Destillery
+// --- Distillery
 //recipes.addShaped(<ExtraTrees:machine:6>, [
 //[<BuildCraft|Factory:tankBlock>, <IC2:itemRecipePart:6>, <BuildCraft|Factory:tankBlock>],
 //[<IC2:itemRecipePart:5>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>],
@@ -154,7 +154,7 @@ recipes.addShaped(<ExtraTrees:machine:4>, [
 //[<Forestry:factory2:2>, <Forestry:sturdyMachine>, <Forestry:factory2:2>],
 //[<ExtraTrees:misc:3>, <Botany:ceramic:*>, <ExtraTrees:misc:3>]]);
 
-// --- Profen Gear
+// --- Proven Gear
 recipes.addShaped(<ExtraTrees:misc:3>, [
 [<Forestry:oakStick>, <Railcraft:cube:8>, <Forestry:oakStick>],
 [<Railcraft:cube:8>, <ore:craftingToolSaw>, <Railcraft:cube:8>],
@@ -2039,11 +2039,3 @@ recipes.addShaped(<ExtraTrees:door:919>.withTag({meta: 919}), [
 
 // --- Mixer Recipes
 
-
-
-
-// --- Yeast
-Mixer.addRecipe(<ExtraTrees:misc:6>, null, [<dreamcraft:item.MushroomPowder> * 5], <liquid:potion.wheatyjuice> * 1000, 400, 16);
-
-// --- Lager Yeast
-Mixer.addRecipe(<ExtraTrees:misc:7>, null, [<ExtraTrees:misc:6>, <ExtraTrees:misc:12> * 4], <liquid:water> * 1000, 600, 16);
