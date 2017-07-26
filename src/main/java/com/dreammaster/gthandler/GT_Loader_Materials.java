@@ -50,8 +50,8 @@ public class GT_Loader_Materials {
 						OrePrefixes.dust.get(Materials.Aluminium),
 						OrePrefixes.dust.get(Materials.Aluminium),
 						OrePrefixes.dust.get(Materials.Aluminium),
-						OrePrefixes.dust.get(Materials.Iron),
-						OrePrefixes.dust.get(Materials.Iron),
+						OrePrefixes.dust.get(Materials.Steel),
+						OrePrefixes.dust.get(Materials.Steel),
 						OrePrefixes.dust.get(Materials.Obsidian),
 						OrePrefixes.dust.get(Materials.Obsidian)});
 	}
