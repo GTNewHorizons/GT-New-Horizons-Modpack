@@ -307,6 +307,9 @@ mods.tconstruct.Casting.removeBasinRecipe(<BloodArsenal:blood_infused_iron_block
 // --- Sand to Glass
 mods.tconstruct.Smeltery.removeMelting(<minecraft:sand>);
 
+// --- Alumite
+mods.tconstruct.Smeltery.removeAlloy(<liquid:alumite.molten>);
+
 
 
 
@@ -2378,6 +2381,9 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:11033>, [<TConstruct:materials:3>]
 recipes.addShapeless(<TConstruct:materials:5>, [<gregtech:gt.metaitem.01:11386>]);
 // -
 recipes.addShapeless(<gregtech:gt.metaitem.01:11386>, [<TConstruct:materials:5>]);
+
+// --- Alumite with Steel
+mods.tconstruct.Smeltery.addAlloy(<liquid:alumite.molten> * 32, [<liquid:aluminum.molten> * 80, <liquid:steel.molten> * 32, <liquid:obsidian.molten> * 32]);
 
 
 
