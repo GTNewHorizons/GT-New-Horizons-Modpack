@@ -185,16 +185,6 @@ recipes.remove(<harvestcraft:blueberryItem>);
 // -
 recipes.remove(<harvestcraft:raspberryItem>);
 
-// --- Adding Natura berries to oredict
-<ore:listAllfruit>.add(<Natura:berry:0>);
-<ore:listAllberry>.add(<Natura:berry:0>);
-<ore:listAllfruit>.add(<Natura:berry:1>);
-<ore:listAllberry>.add(<Natura:berry:1>);
-<ore:listAllfruit>.add(<Natura:berry:2>);
-<ore:listAllberry>.add(<Natura:berry:2>);
-<ore:listAllfruit>.add(<Natura:berry:3>);
-<ore:listAllberry>.add(<Natura:berry:3>);
-
 // --- Blaze Rail
 recipes.remove(<Natura:Blazerail>);
 
@@ -239,8 +229,26 @@ furnace.remove(<minecraft:coal:1>, <*>);
 
 
 
+// --- Adding Natura fruits to oredict
 
-
+<ore:listAllfruit>.add(<Natura:berry:0>);
+<ore:listAllberry>.add(<Natura:berry:0>);
+<ore:listAllfruit>.add(<Natura:berry:1>);
+<ore:listAllberry>.add(<Natura:berry:1>);
+<ore:listAllfruit>.add(<Natura:berry:2>);
+<ore:listAllberry>.add(<Natura:berry:2>);
+<ore:listAllfruit>.add(<Natura:berry:3>);
+<ore:listAllberry>.add(<Natura:berry:3>);
+<ore:listAllfruit>.add(<Natura:berry.nether:0>);
+<ore:listAllberry>.add(<Natura:berry.nether:0>);
+<ore:listAllfruit>.add(<Natura:berry.nether:1>);
+<ore:listAllberry>.add(<Natura:berry.nether:1>);
+<ore:listAllfruit>.add(<Natura:berry.nether:2>);
+<ore:listAllberry>.add(<Natura:berry.nether:2>);
+<ore:listAllfruit>.add(<Natura:berry.nether:3>);
+<ore:listAllberry>.add(<Natura:berry.nether:3>);
+<ore:listAllfruit>.add(<Natura:saguaro.fruit>);
+<ore:cropCactusfruit>.add(<Natura:saguaro.fruit>);
 
 
 // --- Adding Recipes ---
