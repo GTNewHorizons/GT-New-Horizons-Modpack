@@ -89027,6 +89027,101 @@
       "preRequisites": [
         940
       ]
+    },
+    {
+      "questID": 942,
+      "name": "The Plunger",
+      "description": "The Plunger can be used to clear liquids from pipes. It can also be used on the machine to clear up to 1000mb of fluid from its internal buffer. You don\u0027t need to wrench your machine and replace it.  It can be crafted from Rod of the desired material and rubber sheets. \n\nHint: Plunger deals 2.75 - 7.75 damage depends on materials.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 44,
+        "tag": {
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Neutronium",
+            "MaxDamage:4": 16384000,
+            "SecondaryMaterial:8": "Neutronium"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "craftingToolPlunger",
+              "Damage": 44
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:oldworldveggiesoupItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2880
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        536
+      ]
     }
   ],
   "questLines": [
@@ -89720,6 +89815,11 @@
           "id": 890,
           "x": 108,
           "y": 252
+        },
+        {
+          "id": 942,
+          "x": 468,
+          "y": 180
         }
       ]
     },
