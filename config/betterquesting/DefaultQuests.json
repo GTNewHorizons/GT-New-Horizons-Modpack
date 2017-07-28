@@ -13011,7 +13011,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -13019,8 +13019,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -48254,7 +48254,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -48262,8 +48262,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -78982,7 +78982,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 6
             },
             {
               "id": "gregtech:gt.integrated_circuit",
@@ -78996,8 +78996,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -79905,7 +79905,8 @@
         }
       ],
       "preRequisites": [
-        852
+        852,
+        89
       ]
     },
     {
@@ -79991,7 +79992,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 6
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -80005,8 +80006,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80207,7 +80208,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 6
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -80221,8 +80222,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80312,7 +80313,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 6
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -80326,8 +80327,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80337,7 +80338,8 @@
       ],
       "preRequisites": [
         550,
-        555
+        555,
+        943
       ]
     },
     {
@@ -80417,7 +80419,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 6
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -80431,8 +80433,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80528,7 +80530,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -80536,8 +80538,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80633,7 +80635,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -80641,8 +80643,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80737,7 +80739,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -80745,8 +80747,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -80848,7 +80850,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -80856,8 +80858,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -89122,6 +89124,89 @@
       "preRequisites": [
         536
       ]
+    },
+    {
+      "questID": 943,
+      "name": "Making chemical experiments at hv Level",
+      "description": "High Tier chemical recipes like ammonia need HV chemical recator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 423
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 423
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5683
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
+      ]
     }
   ],
   "questLines": [
@@ -90464,11 +90549,6 @@
           "y": 396
         },
         {
-          "id": 147,
-          "x": 348,
-          "y": 516
-        },
-        {
           "id": 148,
           "x": 516,
           "y": 300
@@ -90635,8 +90715,8 @@
         },
         {
           "id": 759,
-          "x": 384,
-          "y": 480
+          "x": 300,
+          "y": 516
         },
         {
           "id": 760,
@@ -90656,7 +90736,7 @@
         {
           "id": 778,
           "x": 192,
-          "y": 372
+          "y": 408
         },
         {
           "id": 780,
@@ -90725,18 +90805,8 @@
         },
         {
           "id": 750,
-          "x": 384,
-          "y": 444
-        },
-        {
-          "id": 557,
-          "x": 384,
-          "y": 708
-        },
-        {
-          "id": 841,
-          "x": 384,
-          "y": 660
+          "x": 360,
+          "y": 516
         },
         {
           "id": 842,
@@ -90760,13 +90830,13 @@
         },
         {
           "id": 846,
-          "x": 384,
-          "y": 624
+          "x": 264,
+          "y": 516
         },
         {
           "id": 847,
-          "x": 468,
-          "y": 480
+          "x": 300,
+          "y": 444
         },
         {
           "id": 848,
@@ -90779,54 +90849,9 @@
           "y": 588
         },
         {
-          "id": 850,
-          "x": 432,
-          "y": 660
-        },
-        {
-          "id": 851,
-          "x": 264,
-          "y": 624
-        },
-        {
           "id": 852,
-          "x": 468,
-          "y": 624
-        },
-        {
-          "id": 853,
-          "x": 264,
-          "y": 588
-        },
-        {
-          "id": 854,
           "x": 264,
           "y": 444
-        },
-        {
-          "id": 855,
-          "x": 264,
-          "y": 552
-        },
-        {
-          "id": 856,
-          "x": 300,
-          "y": 516
-        },
-        {
-          "id": 857,
-          "x": 264,
-          "y": 516
-        },
-        {
-          "id": 858,
-          "x": 348,
-          "y": 444
-        },
-        {
-          "id": 859,
-          "x": 348,
-          "y": 336
         },
         {
           "id": 741,
@@ -90902,6 +90927,11 @@
           "id": 939,
           "x": 300,
           "y": 372
+        },
+        {
+          "id": 850,
+          "x": 216,
+          "y": 372
         }
       ]
     },
@@ -90911,77 +90941,77 @@
       "quests": [
         {
           "id": 160,
-          "x": 144,
+          "x": 192,
           "y": 48
         },
         {
           "id": 162,
-          "x": 144,
+          "x": 192,
           "y": 156
         },
         {
           "id": 163,
-          "x": 348,
+          "x": 396,
           "y": 48
         },
         {
           "id": 165,
-          "x": 252,
+          "x": 300,
           "y": 48
         },
         {
           "id": 167,
-          "x": 192,
+          "x": 240,
           "y": 120
         },
         {
           "id": 168,
-          "x": 252,
+          "x": 300,
           "y": 84
         },
         {
           "id": 169,
-          "x": 300,
+          "x": 348,
           "y": 48
         },
         {
           "id": 166,
-          "x": 204,
+          "x": 252,
           "y": 48
         },
         {
           "id": 170,
-          "x": 192,
+          "x": 240,
           "y": 156
         },
         {
           "id": 171,
-          "x": 252,
+          "x": 300,
           "y": 120
         },
         {
           "id": 172,
-          "x": 252,
+          "x": 300,
           "y": 156
         },
         {
           "id": 173,
-          "x": 300,
+          "x": 348,
           "y": 156
         },
         {
           "id": 174,
-          "x": 300,
+          "x": 348,
           "y": 120
         },
         {
           "id": 175,
-          "x": 336,
+          "x": 384,
           "y": 156
         },
         {
           "id": 769,
-          "x": 0,
+          "x": 48,
           "y": 48
         },
         {
@@ -90996,13 +91026,13 @@
         },
         {
           "id": 789,
-          "x": 0,
-          "y": 84
+          "x": 48,
+          "y": 12
         },
         {
           "id": 790,
           "x": 0,
-          "y": 120
+          "y": 12
         },
         {
           "id": 808,
@@ -91011,13 +91041,73 @@
         },
         {
           "id": 860,
-          "x": 144,
+          "x": 192,
           "y": 204
         },
         {
           "id": 932,
-          "x": 144,
+          "x": 192,
           "y": 0
+        },
+        {
+          "id": 859,
+          "x": 48,
+          "y": 252
+        },
+        {
+          "id": 858,
+          "x": 96,
+          "y": 300
+        },
+        {
+          "id": 854,
+          "x": 96,
+          "y": 252
+        },
+        {
+          "id": 857,
+          "x": 156,
+          "y": 300
+        },
+        {
+          "id": 856,
+          "x": 156,
+          "y": 348
+        },
+        {
+          "id": 147,
+          "x": 96,
+          "y": 348
+        },
+        {
+          "id": 855,
+          "x": 156,
+          "y": 252
+        },
+        {
+          "id": 851,
+          "x": 240,
+          "y": 252
+        },
+        {
+          "id": 853,
+          "x": 192,
+          "y": 252
+        },
+        {
+          "id": 841,
+          "x": 240,
+          "y": 300
+        },
+        {
+          "id": 557,
+          "x": 300,
+          "y": 300
+        },
+        {
+          "id": 943,
+          "x": 96,
+          "y": 204
         }
       ]
     },
