@@ -78346,7 +78346,7 @@
     {
       "questID": 836,
       "name": "Gallium Arsenide",
-      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small ores in the Overworld or the full ores in the Nether at Y Level 80 - 210. To get cushed ore, you may need a Tinker\u0027s Construct tool with the Luck (Fortune) enchant on it.\nYou can get Arsenic from realgar small orea in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge.\nMix those two dusts in a mixer to get gallium arsenic dust.",
+      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small Zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get cushed ore, you may need a Tinker\u0027s Construct tool with the Luck (Fortune) enchant on it. Spalherite is another source of Gallium.\nYou can get Arsenic from realgar small orea in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Another source is cobalt ore in the nether\nMix those two dusts in a mixer to get gallium arsenic dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
