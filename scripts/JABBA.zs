@@ -321,7 +321,7 @@ recipes.addShaped(MKXIII, [
 [NeutroniumStick, NeutroniumPlate, NeutroniumStick]]);
 
 // --- BSpace Barrel Upgrade
-recipes.addShaped(BSpace, [
+recipes.addShaped(BSpace * 2, [
 [EnderEyePlate, Piston, EnderEyePlate],
 [Piston, <EnderStorage:enderChest>, Piston],
 [EnderEyePlate, Piston, EnderEyePlate]]);
