@@ -1656,7 +1656,7 @@ Assembler.addRecipe(<IC2:upgradeModule:2>, <IC2:itemPartCircuit>, <IC2:itemBatRE
 Assembler.addRecipe(<IC2:upgradeModule:3>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32640>, <liquid:molten.copper> * 144, 1200, 16);
 
 // --- Fluid Ejector Upgrade
-Assembler.addRecipe(<IC2:upgradeModule:4>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:32610>, <liquid:molten.copper> * 144, 1200, 16);
+Assembler.addRecipe(<IC2:upgradeModule:4>, <IC2:upgradeModule:3>, <gregtech:gt.metaitem.01:32610>, <liquid:molten.copper> * 144, 1200, 16);
 
 // --- Redstone Signal Inverter Upgrade
 Assembler.addRecipe(<IC2:upgradeModule:5>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17308>, <liquid:molten.copper> * 144, 1200, 16);
