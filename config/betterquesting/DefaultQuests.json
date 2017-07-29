@@ -89128,7 +89128,7 @@
     {
       "questID": 943,
       "name": "Performing chemical experiments at hv Level",
-      "description": "High tier chemical recipes like ammonia need an HV chemical recator.",
+      "description": "High tier chemical recipes like ammonia need an HV chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
