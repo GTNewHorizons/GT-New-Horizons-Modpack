@@ -7194,7 +7194,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully fixed)\n\nA few recipes producing CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the ebf to collect it otherwise it get auto voided.",
+      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72137,7 +72137,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick, and this is enough to run 10 basic steam turbines.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -78346,7 +78346,7 @@
     {
       "questID": 836,
       "name": "Gallium Arsenide",
-      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small Zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get cushed ore, you may need a Tinker\u0027s Construct tool with the Luck (Fortune) enchant on it. Spalherite is another source of Gallium.\nYou can get Arsenic from realgar small orea in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Another source is cobalt ore in the nether\nMix those two dusts in a mixer to get gallium arsenic dust.",
+      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get cushed ore, you may need a Tinker\u0027s Construct tool with the Luck (Fortune) enchant on it. Sphalerite is another source of gallium.\nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Another source is cobalt ore in the nether.\nMix those two dusts in a mixer to get gallium arsenic dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -89033,7 +89033,7 @@
     {
       "questID": 942,
       "name": "The Plunger",
-      "description": "The Plunger can be used to clear liquids from pipes. It can also be used on the machine to clear up to 1000mb of fluid from its internal buffer. You don\u0027t need to wrench your machine and replace it.  It can be crafted from Rod of the desired material and rubber sheets. \n\nHint: Plunger deals 2.75 - 7.75 damage depends on materials.",
+      "description": "The Plunger can be used to clear liquids from pipes. It can also be used on a machine to remove up to 1000mb of fluid from its internal buffer. You don\u0027t have to wrench your machine and replace it. It can be crafted from a rod of the desired material and rubber sheets. \n\nHint: Plunger deals 2.75 - 7.75 damage depending on the materials used.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89127,8 +89127,8 @@
     },
     {
       "questID": 943,
-      "name": "Making chemical experiments at hv Level",
-      "description": "High Tier chemical recipes like ammonia need HV chemical recator.",
+      "name": "Performing chemical experiments at hv Level",
+      "description": "High tier chemical recipes like ammonia need an HV chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
