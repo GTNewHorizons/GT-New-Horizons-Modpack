@@ -471,12 +471,6 @@ Lathe.addRecipe([<HardcoreEnderExpansion:obsidian_rod>], <HardcoreEnderExpansion
 
 
 
-
-// --- Endium Dust
-Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2770> * 9], <HardcoreEnderExpansion:endium_block>, [10000], 300, 2);
-// -
-Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2770>], <HardcoreEnderExpansion:endium_ingot>, [10000], 300, 2);
-
 // --- Ender Powder Dust
 Pulverizer.addRecipe([<HardcoreEnderExpansion:end_powder> * 4], <HardcoreEnderExpansion:end_powder_ore>, [10000], 300, 2);
 
