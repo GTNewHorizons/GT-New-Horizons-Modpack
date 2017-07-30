@@ -2954,7 +2954,7 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 32,
-              "OreDict": "",
+              "OreDict": "dustBronze",
               "Damage": 2300
             }
           ],
@@ -41097,7 +41097,7 @@
             {
               "id": "minecraft:wool",
               "Count": 100,
-              "OreDict": "",
+              "OreDict": "blockWool",
               "Damage": 0
             },
             {
@@ -42394,19 +42394,19 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "ringIron",
               "Damage": 28032
             },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "screwIron",
               "Damage": 27032
             },
             {
               "id": "minecraft:stick",
               "Count": 2,
-              "OreDict": "",
+              "OreDict": "stickWood",
               "Damage": 0
             }
           ],
@@ -58718,7 +58718,7 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
-              "OreDict": "",
+              "OreDict": "screwIron",
               "Damage": 27032
             },
             {
