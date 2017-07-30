@@ -89300,6 +89300,307 @@
         892,
         894
       ]
+    },
+    {
+      "questID": 945,
+      "name": "Chad a better way to make Paper",
+      "description": "Making paper out of wood pulp and water can be tedious and difficult. Why not using some sugar cane macerate it down to chad and press it with two stone plates to paper? Later on you can use the chemical bath for a even better ratio.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2879
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "craftingToolMortar",
+              "Damage": 24
+            },
+            {
+              "id": "minecraft:reeds",
+              "Count": 45,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stone_slab",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 2879
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:paper",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11335
+            },
+            {
+              "id": "minecraft:stone_slab",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
+      "questID": 946,
+      "name": "Baboo fence",
+      "description": "Maybe you are lucky and start in a bomboo wood. Bamboo is very usefull the trees growing realy fast and when you place bomboo sticks it will grow and protec your base behind a 3 bocks high wall. Alternative you can use berry bushe too. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BiomesOPlenty:planks",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 10
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "BiomesOPlenty:bamboo",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "BiomesOPlenty:saplings",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:trap.punji",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        3
+      ]
+    },
+    {
+      "questID": 947,
+      "name": "Punji Sticks",
+      "description": "A early game protection fence can mada out of punji sticks. It hurts all mobs/players and add give slowness II potion effect. Making a trench around your base and put the punji sticks inside.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:trap.punji",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:string",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stick",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:reeds",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "TConstruct:trap.punji",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BiomesOPlenty:saplings",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        43
+      ]
     }
   ],
   "questLines": [
@@ -89310,132 +89611,137 @@
         {
           "id": 0,
           "x": 0,
-          "y": 0
+          "y": 36
         },
         {
           "id": 1,
           "x": 72,
-          "y": 0
+          "y": 36
         },
         {
           "id": 2,
           "x": 36,
-          "y": 0
+          "y": 36
         },
         {
           "id": 3,
           "x": 144,
-          "y": 0
+          "y": 36
         },
         {
           "id": 5,
           "x": 180,
-          "y": 0
+          "y": 36
         },
         {
           "id": 4,
           "x": 108,
-          "y": 0
+          "y": 36
         },
         {
           "id": 6,
           "x": 216,
-          "y": 0
+          "y": 36
         },
         {
           "id": 7,
           "x": 288,
-          "y": 72
+          "y": 108
         },
         {
           "id": 8,
           "x": 180,
-          "y": 36
+          "y": 72
         },
         {
           "id": 9,
           "x": 180,
-          "y": 72
+          "y": 108
         },
         {
           "id": 10,
           "x": 144,
-          "y": 144
+          "y": 180
         },
         {
           "id": 12,
           "x": 216,
-          "y": 144
+          "y": 180
         },
         {
           "id": 11,
           "x": 144,
-          "y": 72
+          "y": 108
         },
         {
           "id": 13,
           "x": 288,
-          "y": 180
+          "y": 216
         },
         {
           "id": 14,
           "x": 0,
-          "y": 180
+          "y": 216
         },
         {
           "id": 440,
           "x": 108,
-          "y": 36
+          "y": 72
         },
         {
           "id": 442,
           "x": 216,
-          "y": 72
+          "y": 108
         },
         {
           "id": 444,
           "x": 216,
-          "y": 108
+          "y": 144
         },
         {
           "id": 446,
           "x": 108,
-          "y": 108
+          "y": 144
         },
         {
           "id": 448,
           "x": 72,
-          "y": 108
+          "y": 144
         },
         {
           "id": 450,
           "x": 108,
-          "y": 72
+          "y": 108
         },
         {
           "id": 469,
           "x": 252,
-          "y": 0
+          "y": 36
         },
         {
           "id": 470,
           "x": 288,
-          "y": 0
+          "y": 36
         },
         {
           "id": 471,
           "x": 252,
-          "y": 72
+          "y": 108
         },
         {
           "id": 484,
           "x": 216,
-          "y": 36
+          "y": 72
         },
         {
           "id": 865,
           "x": 144,
-          "y": 36
+          "y": 72
+        },
+        {
+          "id": 946,
+          "x": 144,
+          "y": 0
         }
       ]
     },
@@ -89712,6 +90018,16 @@
           "id": 864,
           "x": 444,
           "y": 216
+        },
+        {
+          "id": 945,
+          "x": 36,
+          "y": 0
+        },
+        {
+          "id": 947,
+          "x": 300,
+          "y": 144
         }
       ]
     },
