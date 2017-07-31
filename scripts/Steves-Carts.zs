@@ -83,6 +83,7 @@ val StainlessSteelScrew = <ore:screwStainlessSteel>;
 val HardenedDrill = <StevesCarts:CartModule:43>;
 val ReinforcedDrillTip = <ore:toolHeadDrillReinforced>;
 val IridiumBlock = <ore:blockIridium>;
+val TitaniumPlate = <ore:plateTitanium>;
 val TitaniumScrew = <ore:screwTitanium>;
 val GalgadorianDrill = <StevesCarts:CartModule:9>;
 val GalgadorianDrillTip = <ore:toolHeadDrillGalgadorian>;
@@ -114,6 +115,7 @@ val HSawBlade = <StevesCarts:ModuleComponents:80>;
 val GSawBlade = <StevesCarts:ModuleComponents:81>;
 val WoodCore = <StevesCarts:ModuleComponents:17>;
 val MasterCircuit = <ore:circuitMaster>;
+val DataCircuit = <ore:circuitData>;
 val Saplings1 = <minecraft:sapling:*>;
 val Saplings2 = <BiomesOPlenty:saplings:*>;
 val Saplings3 = <BiomesOPlenty:colorizedSaplings:*>;
@@ -1279,9 +1281,9 @@ recipes.addShaped(<StevesCarts:CartModule:25>, [
 
 // --- Chunk Loader
 recipes.addShaped(<StevesCarts:CartModule:49>, [
-[IronPlate, PCB, IronPlate],
+[TitaniumPlate, DataCircuit, TitaniumPlate],
 [AdvPCB, PAnchor, AdvPCB],
-[ReinforcedPlate, PCB, ReinforcedPlate]]);
+[ReinforcedPlate, DataCircuit, ReinforcedPlate]]);
 
 // --- Lawn Mover
 recipes.addShaped(<StevesCarts:CartModule:85>, [
