@@ -1,5 +1,6 @@
 package com.dreammaster.gthandler;
 
+import gregtech.api.enums.ItemList;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.util.GT_ModHandler;
@@ -63,6 +64,27 @@ public class GT_Loader_Materials {
 						OrePrefixes.dust.get(Materials.Iron),
 						OrePrefixes.dust.get(Materials.Iron),
 						OrePrefixes.dust.get(Materials.Iron)});
+
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.BorosilicateGlass, 8L),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[]{
+						OrePrefixes.dust.get(Materials.Boron),
+						OrePrefixes.dust.get(Materials.Glass),
+						OrePrefixes.dust.get(Materials.Glass),
+						OrePrefixes.dust.get(Materials.Glass),
+						OrePrefixes.dust.get(Materials.Glass),
+						OrePrefixes.dust.get(Materials.Glass),
+						OrePrefixes.dust.get(Materials.Glass),
+						OrePrefixes.dust.get(Materials.Glass)});
+
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EpoxidFiberReinforced, 1L),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[]{
+						OrePrefixes.dust.get(Materials.Epoxid),
+						ItemList.Circuit_Parts_GlassFiber.get(1, new Object[0])});
+
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EpoxidFiberReinforced, 1L),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[]{
+						OrePrefixes.dust.get(Materials.Epoxid),
+						GT_ModHandler.getIC2Item("carbonFiber", 1)});
 	}
 
 }
