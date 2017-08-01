@@ -296,9 +296,9 @@ recipes.addShaped(<OpenBlocks:vacuumhopper>, [
 
 // --- Sprinkler
 recipes.addShaped(<OpenBlocks:sprinkler>, [
-[<dreamcraft:item.SteelBars>, <ore:stickGold>, <dreamcraft:item.SteelBars>],
-[<ore:pipeSmallSteel>, <ore:pipeSmallSteel>, <ore:pipeSmallSteel>],
-[<dreamcraft:item.SteelBars>, <ore:stickGold>, <dreamcraft:item.SteelBars>]]);
+[<dreamcraft:item.AluminiumBars>, <ore:stickGold>, <dreamcraft:item.AluminiumBars>],
+[<ore:pipeSmallDarkSteel>, <ore:rotorDarkSteel>, <ore:pipeSmallDarkSteel>],
+[<dreamcraft:item.AluminiumBars>, <ore:stickGold>, <dreamcraft:item.AluminiumBars>]]);
 
 // --- Building Guide
 recipes.addShaped(BGuide, [
