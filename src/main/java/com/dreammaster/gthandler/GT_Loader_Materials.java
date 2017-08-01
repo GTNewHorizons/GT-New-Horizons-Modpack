@@ -75,16 +75,6 @@ public class GT_Loader_Materials {
 						OrePrefixes.dust.get(Materials.Glass),
 						OrePrefixes.dust.get(Materials.Glass),
 						OrePrefixes.dust.get(Materials.Glass)});
-
-		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EpoxidFiberReinforced, 1L),
-				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[]{
-						OrePrefixes.dust.get(Materials.Epoxid),
-						ItemList.Circuit_Parts_GlassFiber.get(1, new Object[0])});
-
-		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EpoxidFiberReinforced, 1L),
-				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[]{
-						OrePrefixes.dust.get(Materials.Epoxid),
-						GT_ModHandler.getIC2Item("carbonFiber", 1)});
 	}
 
 }
