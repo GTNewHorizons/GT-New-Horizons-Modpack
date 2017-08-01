@@ -54,6 +54,15 @@ public class GT_Loader_Materials {
 						OrePrefixes.dust.get(Materials.Steel),
 						OrePrefixes.dust.get(Materials.Obsidian),
 						OrePrefixes.dust.get(Materials.Obsidian)});
+
+		GT_ModHandler.addShapelessCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.FerriteMixture, 6L),
+				GT_ModHandler.RecipeBits.NOT_REMOVABLE, new Object[] {
+						OrePrefixes.dust.get(Materials.Nickel),
+						OrePrefixes.dust.get(Materials.Zinc),
+						OrePrefixes.dust.get(Materials.Iron),
+						OrePrefixes.dust.get(Materials.Iron),
+						OrePrefixes.dust.get(Materials.Iron),
+						OrePrefixes.dust.get(Materials.Iron)});
 	}
 
 }
