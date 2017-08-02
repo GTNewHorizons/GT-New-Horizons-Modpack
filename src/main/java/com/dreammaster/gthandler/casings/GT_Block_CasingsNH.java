@@ -23,12 +23,12 @@ import net.minecraft.world.IBlockAccess;
 public class GT_Block_CasingsNH
         extends GT_Block_Casings_Abstract {
     public static boolean mConnectedMachineTextures = true;
+    public static final short textureOffset = (8 << 7)+64;//Middle of PAGE 8 (which is the 9th page)  (8*128+64)
 
     public GT_Block_CasingsNH() {
-
         super(GT_Item_CasingsNH.class, "gt.blockcasingsNH", GT_Material_Casings.INSTANCE);
         for (byte i = 0; i < 16; i = (byte) (i + 1)) {
-            Textures.BlockIcons.CASING_BLOCKS[(i + 80)] = new GT_CopiedBlockTexture(this, 6, i);
+            Textures.BlockIcons.CASING_BLOCKS[i + textureOffset] = new GT_CopiedBlockTexture(this, 6, i);
             /*IMPORTANT for block recoloring*/
         }
         GT_LanguageManager.addStringLocalization(getUnlocalizedName() + ".0.name", "Air Filter Turbine Casing");//adding
