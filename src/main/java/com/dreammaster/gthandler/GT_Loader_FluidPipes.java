@@ -80,7 +80,13 @@ public class GT_Loader_FluidPipes
 		GT_OreDictUnificator.registerOre(OrePrefixes.pipeLarge.get(Materials.Infinity), new GT_MetaPipeEntity_Fluid(5253, "GT_Pipe_Infinity_Large", "Large Infinity Fluid Pipe", 0.75F, Materials.Infinity, 160000, 10000000, true).getStackForm(1L));
 		GT_OreDictUnificator.registerOre(OrePrefixes.pipeHuge.get(Materials.Infinity), new GT_MetaPipeEntity_Fluid(5254, "GT_Pipe_Infinity_Huge", "Huge Infinity Fluid Pipe", 0.875F, Materials.Infinity, 240000, 10000000, true).getStackForm(1L));
 
-		// 5255 - 5588 Free, as of GT 5.09.23.15
+		// 5260 - 5264 Wrough Iron
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeTiny.get(Materials.WroughtIron), new GT_MetaPipeEntity_Fluid(5260, "GT_Pipe_WroughtIron_Tiny", "Tiny Wrought Iron Fluid Pipe", 0.25F, Materials.WroughtIron, 30, 2250, true).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeSmall.get(Materials.WroughtIron), new GT_MetaPipeEntity_Fluid(5261, "GT_Pipe_WroughtIron_Small", "Small Wrought Iron Fluid Pipe", 0.375F, Materials.WroughtIron, 60, 2250, true).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeMedium.get(Materials.WroughtIron), new GT_MetaPipeEntity_Fluid(5262, "GT_Pipe_WroughtIron", "Wrought Iron Fluid Pipe", 0.5F, Materials.WroughtIron, 180, 2250, true).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeLarge.get(Materials.WroughtIron), new GT_MetaPipeEntity_Fluid(5263, "GT_Pipe_WroughtIron_Large", "Large Wrought Iron Fluid Pipe", 0.75F, Materials.WroughtIron, 360, 2250, true).getStackForm(1L));
+		GT_OreDictUnificator.registerOre(OrePrefixes.pipeHuge.get(Materials.WroughtIron), new GT_MetaPipeEntity_Fluid(5264, "GT_Pipe_WroughtIron_Huge", "Huge Wrought Iron Fluid Pipe", 0.875F, Materials.WroughtIron, 720, 2250, true).getStackForm(1L));
+		// 5265 - 5588 Free, as of GT 5.09.31.xx
 	    // 5589+ Item Pipes Tin
 	}
 }
