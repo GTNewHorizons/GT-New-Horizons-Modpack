@@ -799,6 +799,12 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addExtruderRecipe(GT_ModHandler.getModItem("TConstruct", "toolShard", 3L, 500), GT_ModHandler.getModItem("TConstruct", "Cast", 0L, 3), GT_ModHandler.getModItem("TConstruct", "BowLimbPart", 1L, 500), 450, 122880);
         GT_Values.RA.addExtruderRecipe(GT_ModHandler.getModItem("Avaritia", "Resource", 1L, 4), GT_ModHandler.getModItem("TGregworks", "tgregworks.shardcast", 0L, 0), GT_ModHandler.getModItem("TConstruct", "toolShard", 2L, 500), 150, 122880);
 
+        GT_Values.RA.addExtruderRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.WroughtIron, 1L), ItemList.Shape_Extruder_Pipe_Tiny.get(0L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.pipeTiny, Materials.WroughtIron, 2L), 4, 120);
+        GT_Values.RA.addExtruderRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.WroughtIron, 1L), ItemList.Shape_Extruder_Pipe_Small.get(0L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.pipeSmall, Materials.WroughtIron, 1L),  8, 120);
+        GT_Values.RA.addExtruderRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.WroughtIron, 3L), ItemList.Shape_Extruder_Pipe_Medium.get(0L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.pipeMedium, Materials.WroughtIron, 1L),  24, 120);
+        GT_Values.RA.addExtruderRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.WroughtIron, 6L), ItemList.Shape_Extruder_Pipe_Large.get(0L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.pipeLarge, Materials.WroughtIron, 1L),  48, 120);
+        GT_Values.RA.addExtruderRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.WroughtIron, 12L), ItemList.Shape_Extruder_Pipe_Huge.get(0L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.pipeHuge, Materials.WroughtIron, 1L),  96, 120);
+
         GT_Values.RA.addFermentingRecipe(Materials.Honey.getFluid(1000), FluidRegistry.getFluidStack("for.honey", 1000), 20, false);
         GT_Values.RA.addFermentingRecipe(FluidRegistry.getFluidStack("for.honey", 1000), Materials.Honey.getFluid(1000),20, false);
 
