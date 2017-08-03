@@ -111,6 +111,11 @@ public class MainRegistry
         }
 
         // ------------------------------------------------------------
+        Logger.debug("PRELOAD Init TexturePage");
+        proxy.addTexturePage();
+        // ------------------------------------------------------------
+
+        // ------------------------------------------------------------
         Logger.debug("PRELOAD Init NetworkChannel");
         NW = new CoreModDispatcher();
         NW.registerPackets();
@@ -227,8 +232,6 @@ public class MainRegistry
     @EventHandler
     public void load(FMLInitializationEvent event)
     {
-
-
         // register events in modules
         RegisterModuleEvents();
 

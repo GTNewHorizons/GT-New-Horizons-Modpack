@@ -7,6 +7,8 @@ import com.dreammaster.modbabychest.TileEntityBabyChest;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
+import gregtech.api.enums.Textures;
+import gregtech.api.interfaces.ITexture;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -18,6 +20,13 @@ import static com.dreammaster.main.ConfigHandler.ch;
 
 public class ClientProxy extends CommonProxy
 {
+    @Override
+    public void addTexturePage(){
+        if(Textures.BlockIcons.casingTexturePages[8]==null)
+            Textures.BlockIcons.casingTexturePages[8]=new ITexture[128];
+    }
+
+    @Override
     public void registerRenderInfo()
     {
         BlockBabyChest.pRenderID = RenderingRegistry.getNextAvailableRenderId();
