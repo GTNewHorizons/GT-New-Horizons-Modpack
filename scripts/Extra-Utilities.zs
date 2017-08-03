@@ -681,11 +681,39 @@ recipes.addShaped(ItemFilterUp, [
 [IronBars, StainlessGear, IronBars],
 [RedAlloyPlate, IronBars, RedAlloyPlate]]);
 
+// This recipe resets filter NBT, such as Inverted
+recipes.addShapeless(ItemFilterUp, [ItemFilterUp]);
+
+recipes.addShapeless(ItemFilterUp, [ItemFilterUp.marked("ItemFilterUp"), <ore:craftingRedstoneTorch>],
+function(output, inputs, crafting)
+{
+    return output.withTag(inputs.ItemFilterUp.tag).updateTag({Inverted: 1 as byte});
+});
+recipes.addShapeless(ItemFilterUp, [ItemFilterUp.marked("ItemFilterUp"), <ore:blockWool>],
+function(output, inputs, crafting)
+{
+    return output.withTag(inputs.ItemFilterUp.tag).updateTag({FuzzyNBT: 1 as byte});
+});
+recipes.addShapeless(ItemFilterUp, [ItemFilterUp.marked("ItemFilterUp"), <ore:stickWood>],
+function(output, inputs, crafting)
+{
+    return output.withTag(inputs.ItemFilterUp.tag).updateTag({FuzzyMeta: 1 as byte});
+});
+
 // --- Advanced Item Filter
 recipes.addShaped(<ExtraUtilities:nodeUpgrade:10>, [
 [LapisPlate, SteelBars, LapisPlate],
 [SteelBars, ItemFilterUp, SteelBars],
 [LapisPlate, SteelBars, LapisPlate]]);
+
+// This recipe resets Advanced filter NBT, such as Inverted
+recipes.addShapeless(<ExtraUtilities:nodeUpgrade:10>, [<ExtraUtilities:nodeUpgrade:10>]);
+
+recipes.addShapeless(<ExtraUtilities:nodeUpgrade:10>, [<ExtraUtilities:nodeUpgrade:10>.marked("AdvItemFilterUp"), <ore:craftingRedstoneTorch>],
+function(output, inputs, crafting)
+{
+    return output.withTag(inputs.AdvItemFilterUp.tag).updateTag({Inverted: 1 as byte});
+});
 
 // --- World Interaction Upgrade
 recipes.addShaped(WorldInterUp, [
