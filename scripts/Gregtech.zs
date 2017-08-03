@@ -515,6 +515,14 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
 [<ore:cropWheat>, null, null],
 [<ore:craftingToolMortar>, null, null]]);
+// -
+recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
+[<ore:cropRye>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
+// -
+recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [
+[<ore:cropOats>, null, null],
+[<ore:craftingToolMortar>, null, null]]);
 
 // --- Salt Dust
 recipes.addShaped(<gregtech:gt.metaitem.01:2817>, [
@@ -1074,6 +1082,10 @@ Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <Natura:barleyFood>, [100
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <BiomesOPlenty:plants:6>, [10000], 300, 2);
 
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <harvestcraft:barleyItem>, [10000], 300, 2);
+
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <ore:cropRye>, [10000], 300, 2);
+
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <ore:cropOats>, [10000], 300, 2);
 
 // --- Minced Meat
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2892> * 9], <Thaumcraft:blockTaint:2>, [10000], 300, 2);
