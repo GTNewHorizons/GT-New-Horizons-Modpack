@@ -55135,8 +55135,8 @@
     },
     {
       "questID": 625,
-      "name": "Packing your chests and barrels",
-      "description": "Packing your chests and barrels without spilling all the things (buildcraft(tm))? \nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don\u0027t have to travel very far.",
+      "name": "Packing your tanks chests and barrels",
+      "description": "Packing your chests and barrels without spilling all the things (buildcraft(tm))? \nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don\u0027t have to travel very far. Not portable buildcraft and iron tanks can moved so too without loosing fluids.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55261,7 +55261,7 @@
         }
       ],
       "preRequisites": [
-        69
+        84
       ]
     },
     {
@@ -90257,8 +90257,8 @@
         },
         {
           "id": 625,
-          "x": 420,
-          "y": 216
+          "x": 144,
+          "y": 180
         },
         {
           "id": 658,
