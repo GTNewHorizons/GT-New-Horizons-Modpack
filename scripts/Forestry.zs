@@ -72,6 +72,9 @@ recipes.remove(<Forestry:mail>);
 // --- Trade Station
 recipes.remove(<Forestry:mail:1>);
 
+// --- Mulch
+recipes.remove(<Forestry:mulch>);
+
 
 // --- Engines ---
 
