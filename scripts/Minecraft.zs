@@ -806,13 +806,6 @@ recipes.remove(<minecraft:golden_apple:1>);
 // --- Golden Carrot
 recipes.remove(<minecraft:golden_carrot>);
 
-// --- Sugar
-recipes.removeShaped(<minecraft:sugar>);
-// -
-recipes.removeShapeless(<minecraft:sugar>, [<harvestcraft:potItem>, <harvestcraft:honeyItem>]);
-// -
-recipes.removeShapeless(<minecraft:sugar>, [<harvestcraft:potItem>, <ore:dropHoney>]);
-
 // --- Cake
 recipes.remove(<minecraft:cake>);
 
