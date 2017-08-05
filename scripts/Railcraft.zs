@@ -564,6 +564,9 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
 // --- HSLA Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
 
+// --- Magnetic Steel
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11355>);
+
 // --- All Recipes
 mods.railcraft.RockCrusher.removeRecipe(<*>);
 
