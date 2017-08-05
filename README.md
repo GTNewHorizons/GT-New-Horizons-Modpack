@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.5.0.7 is out 25.07.2017
+Version 1.5.1.0 is out 05.08.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -112,10 +112,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.0.7 --- 25.07.2017<BR>
+## Modlist - NewHorizons 1.5.0.7 --- 05.08.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta16<BR>
+* Adventure Backpack 0.9gbeta18<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU	1.2.3.a<BR>
@@ -138,7 +138,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
-* Binnie Mods	2.0-20a<BR>
+* Binnie Mods	2.0-21<BR>
 * Biomes o Plenty	2.1.0.2027<BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
@@ -182,16 +182,16 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * ForgeReloaction	0.0.1.4<BR>
 * ForgeReloactionFMP	0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets	3.0.12.501<BR>
-* GalacticraftCore	3.0.12.501<BR>
+* Galacticraft-Planets	3.0.12.502<BR>
+* GalacticraftCore	3.0.12.502<BR>
 * GalactiGreg	0.9.6<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.31.19<BR>
+* Gregtech	5.09.31.23<BR>
 * GT Scanner Mod 1.1<BR>
-* GT New Horizons Core Mod	1.4.22<BR>
-* GT++ 1.5.6c<BR>
+* GT New Horizons Core Mod	1.5.0<BR>
+* GT++ 1.5.6d<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -210,14 +210,14 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Iron Chests	6.0.62.745<BR>
 * Iron Tanks	1.1.65a<BR>
 * Jabba	1.2.5<BR>
-* JourneyMap	5.1.4p<BR>
+* JourneyMap	5.1.4p2<BR>
 * Lava Monsters	2.2.1<BR>
 * Lootgames 1.0.12<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
 * Mantle	0.3.2b<BR>
-* MicdoodleCore	3.0.12.501<BR>
+* MicdoodleCore	3.0.12.502<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
 * Minecraft Forge	10.13.4.1614<BR>
 * Mod Tweaker 2	0.9.6.173<BR>
