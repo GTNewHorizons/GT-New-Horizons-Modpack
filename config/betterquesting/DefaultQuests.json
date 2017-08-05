@@ -89605,7 +89605,7 @@
     {
       "questID": 948,
       "name": "Better than iron",
-      "description": "Wrought Iron will become very soon more important when you are able to build high pressure steam machines. The material is much harder then iron and you can make better tools with it too.\nTo make wrought Iron you need a furnace to smelt iron ingots down to wrough iron nuggets. now you need a mortar to make tiny pipes and after this dust. Smelt the dust to wrough iron ingots. If you are able to make a compressor you can compress the nuggets to ingots.\n\nHint:\nCrushed or purified dust can be smelt to iron nuggets too.",
+      "description": "Wrought Iron will become very soon more important when you have a bit steel and able to build high pressure steam machines. The material is much harder then iron and you can make better tools with it too.\nTo make wrought Iron you need a furnace to smelt iron ingots down to wrough iron nuggets. With the compressor you can compress the nuggets to ingots.\n\nHint:\nCrushed or purified oredust can be smelt to iron nuggets directly.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89667,36 +89667,6 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 63,
-              "OreDict": "",
-              "Damage": 304
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 7,
-              "OreDict": "",
-              "Damage": 2304
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
               "Count": 7,
               "OreDict": "",
               "Damage": 11304
@@ -89743,7 +89713,8 @@
         }
       ],
       "preRequisites": [
-        37
+        37,
+        54
       ]
     }
   ],
@@ -90172,11 +90143,6 @@
           "id": 947,
           "x": 300,
           "y": 144
-        },
-        {
-          "id": 948,
-          "x": 72,
-          "y": 180
         }
       ]
     },
@@ -90201,28 +90167,28 @@
         },
         {
           "id": 48,
-          "x": 228,
+          "x": 240,
           "y": 0
         },
         {
           "id": 49,
-          "x": 372,
+          "x": 420,
           "y": 0
         },
         {
           "id": 50,
-          "x": 420,
+          "x": 468,
           "y": 0
         },
         {
           "id": 51,
           "x": 420,
-          "y": 108
+          "y": 144
         },
         {
           "id": 53,
           "x": 240,
-          "y": 72
+          "y": 108
         },
         {
           "id": 54,
@@ -90231,8 +90197,8 @@
         },
         {
           "id": 52,
-          "x": 372,
-          "y": 36
+          "x": 420,
+          "y": 108
         },
         {
           "id": 55,
@@ -90246,7 +90212,7 @@
         },
         {
           "id": 57,
-          "x": 420,
+          "x": 468,
           "y": 144
         },
         {
@@ -90287,67 +90253,67 @@
         {
           "id": 65,
           "x": 192,
-          "y": 108
+          "y": 144
         },
         {
           "id": 66,
           "x": 288,
-          "y": 216
+          "y": 252
         },
         {
           "id": 68,
           "x": 288,
-          "y": 252
+          "y": 288
         },
         {
           "id": 69,
           "x": 372,
-          "y": 180
+          "y": 216
         },
         {
           "id": 70,
           "x": 324,
-          "y": 300
+          "y": 336
         },
         {
           "id": 67,
           "x": 324,
-          "y": 216
+          "y": 252
         },
         {
           "id": 72,
           "x": 192,
-          "y": 300
+          "y": 336
         },
         {
           "id": 73,
           "x": 192,
-          "y": 180
+          "y": 216
         },
         {
           "id": 71,
           "x": 372,
-          "y": 216
+          "y": 252
         },
         {
           "id": 84,
           "x": 108,
-          "y": 180
+          "y": 216
         },
         {
           "id": 16,
           "x": 108,
-          "y": 216
+          "y": 252
         },
         {
           "id": 478,
           "x": 240,
-          "y": 108
+          "y": 144
         },
         {
           "id": 479,
           "x": 288,
-          "y": 108
+          "y": 144
         },
         {
           "id": 493,
@@ -90361,23 +90327,23 @@
         },
         {
           "id": 495,
-          "x": 420,
+          "x": 384,
           "y": 36
         },
         {
           "id": 496,
-          "x": 324,
-          "y": 108
+          "x": 372,
+          "y": 144
         },
         {
           "id": 497,
-          "x": 288,
-          "y": 144
+          "x": 324,
+          "y": 180
         },
         {
           "id": 534,
           "x": 324,
-          "y": 180
+          "y": 216
         },
         {
           "id": 535,
@@ -90387,27 +90353,27 @@
         {
           "id": 536,
           "x": 420,
-          "y": 180
+          "y": 216
         },
         {
           "id": 558,
           "x": 240,
-          "y": 180
+          "y": 216
         },
         {
           "id": 596,
           "x": 192,
-          "y": 72
+          "y": 108
         },
         {
           "id": 597,
-          "x": 372,
-          "y": 144
+          "x": 420,
+          "y": 180
         },
         {
           "id": 625,
           "x": 144,
-          "y": 180
+          "y": 216
         },
         {
           "id": 658,
@@ -90417,7 +90383,7 @@
         {
           "id": 694,
           "x": 324,
-          "y": 72
+          "y": 108
         },
         {
           "id": 705,
@@ -90427,17 +90393,17 @@
         {
           "id": 834,
           "x": 252,
-          "y": 252
+          "y": 288
         },
         {
           "id": 835,
           "x": 324,
-          "y": 252
+          "y": 288
         },
         {
           "id": 563,
-          "x": 372,
-          "y": 72
+          "x": 288,
+          "y": 84
         },
         {
           "id": 867,
@@ -90452,17 +90418,22 @@
         {
           "id": 871,
           "x": 288,
-          "y": 180
+          "y": 216
         },
         {
           "id": 890,
           "x": 108,
-          "y": 252
+          "y": 288
         },
         {
           "id": 942,
           "x": 468,
-          "y": 180
+          "y": 216
+        },
+        {
+          "id": 948,
+          "x": 360,
+          "y": 84
         }
       ]
     },
