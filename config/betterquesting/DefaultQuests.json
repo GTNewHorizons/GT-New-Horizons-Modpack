@@ -89682,12 +89682,31 @@
               "id": "gregtech:gt.metatool.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 24,
+              "Damage": 12,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 2,
+                    "id:2": 16
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "WroughtIron",
+                  "MaxDamage:4": 38400,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16,
               "tag": {
                 "GT.ToolStats:10": {
                   "PrimaryMaterial:8": "WroughtIron",
                   "MaxDamage:4": 38400,
-                  "SecondaryMaterial:8": "Stone"
+                  "SecondaryMaterial:8": "WroughtIron"
                 }
               }
             },
