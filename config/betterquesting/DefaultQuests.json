@@ -4182,7 +4182,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 3,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 11304
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -4947,7 +4947,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 3,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 11304
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -5033,7 +5033,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 3,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 11304
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -5119,7 +5119,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 3,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 11304
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -5205,7 +5205,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 3,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 11304
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -5620,7 +5620,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 3,
               "OreDict": "",
-              "Damage": 11305
+              "Damage": 11304
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -89601,6 +89601,150 @@
       "preRequisites": [
         43
       ]
+    },
+    {
+      "questID": 948,
+      "name": "Better than iron",
+      "description": "Wrought Iron will become very soon more important when you are able to build high pressure steam machines. The material is much harder then iron and you can make better tools with it too.\nTo make wrought Iron you need a furnace to smelt iron ingots down to wrough iron nuggets. now you need a mortar to make tiny pipes and after this dust. Smelt the dust to wrough iron ingots. If you are able to make a compressor you can compress the nuggets to ingots.\n\nHint:\nCrushed or purified dust can be smelt to iron nuggets too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11304
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 63,
+              "OreDict": "",
+              "Damage": 9032
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 63,
+              "OreDict": "",
+              "Damage": 9304
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 63,
+              "OreDict": "",
+              "Damage": 304
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 2304
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 11304
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "WroughtIron",
+                  "MaxDamage:4": 38400,
+                  "SecondaryMaterial:8": "Stone"
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32243
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        37
+      ]
     }
   ],
   "questLines": [
@@ -89982,17 +90126,17 @@
         {
           "id": 727,
           "x": 72,
-          "y": 180
+          "y": 144
         },
         {
           "id": 728,
           "x": 0,
-          "y": 180
+          "y": 144
         },
         {
           "id": 729,
-          "x": 36,
-          "y": 216
+          "x": 0,
+          "y": 180
         },
         {
           "id": 825,
@@ -90028,6 +90172,11 @@
           "id": 947,
           "x": 300,
           "y": 144
+        },
+        {
+          "id": 948,
+          "x": 72,
+          "y": 180
         }
       ]
     },
