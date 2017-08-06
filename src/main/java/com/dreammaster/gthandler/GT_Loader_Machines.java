@@ -3510,7 +3510,6 @@ public class GT_Loader_Machines
 						'C', OreDictNames.craftingChest,
 						'X', OrePrefixes.circuit.get(Materials.Ultimate)});
 
-		//TODO add Conveyor Modules for more Tiers
 		// ===================================================================================================
 		// Automated Chest Buffer
 		// ===================================================================================================
