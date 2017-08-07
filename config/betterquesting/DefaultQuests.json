@@ -68308,9 +68308,9 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.02",
-              "Count": 8,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 19057
+              "Damage": 19035
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -68325,7 +68325,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 980
+              "Damage": 1980
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -73172,7 +73172,7 @@
             },
             {
               "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "Count": 32,
               "OreDict": "",
               "Damage": 19086
             },
@@ -73180,7 +73180,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 23054
+              "Damage": 26054
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -73306,7 +73306,7 @@
             },
             {
               "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "Count": 32,
               "OreDict": "",
               "Damage": 19035
             },
@@ -73314,7 +73314,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 23057
+              "Damage": 26057
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -78597,7 +78597,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.03",
-              "Count": 8,
+              "Count": 4,
               "OreDict": "",
               "Damage": 32079
             },
@@ -78621,7 +78621,7 @@
             },
             {
               "id": "gregtech:gt.metaitem.02",
-              "Count": 64,
+              "Count": 32,
               "OreDict": "",
               "Damage": 19303
             },
@@ -78629,7 +78629,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 23345
+              "Damage": 26035
             }
           ],
           "taskID": "bq_standard:retrieval"
