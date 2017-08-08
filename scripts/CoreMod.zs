@@ -222,11 +222,17 @@ recipes.addShaped(<dreamcraft:item.MoldFormRing>, [
 [null, BlankCast, null],
 [null, File, WireCutter]]);
 
-// --- Long Stickr Mold
+// --- Long Stick Mold
 recipes.addShaped(<dreamcraft:item.MoldFormStickLong>, [
 [null, null, null],
 [null, BlankCast, null],
 [File, WireCutter, null]]);
+
+// --- Rotor Mold
+recipes.addShaped(<dreamcraft:item.MoldFormRotor>, [
+[null, null, File],
+[WireCutter, BlankCast, null],
+[null, null, null]]);
 
 // --- Extruder Shape Plate
 recipes.addShaped(<dreamcraft:item.ShapePlate>, [
@@ -377,6 +383,12 @@ recipes.addShaped(<dreamcraft:item.ShapeBoat>, [
 [WireCutter, null, null],
 [null, BlankCast, File],
 [null, null, null]]);
+
+// --- Extruder Shape Rotor
+recipes.addShaped(<dreamcraft:item.ShapeRotor>, [
+[null, File, null],
+[null, BlankCast, null],
+[WireCutter, null, null]]);
 
 // --- Mold Form Boots
 recipes.addShaped(<dreamcraft:item.MoldFormBoots>, [
@@ -723,7 +735,11 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBaguette>, <liquid:
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormGear>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRotor>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeBottle>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeRotore>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBoots>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
