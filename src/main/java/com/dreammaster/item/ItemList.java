@@ -420,6 +420,7 @@ public enum ItemList
     ShapePlate(new ModSimpleBaseItem("ShapePlate", ModTabList.ModShapesTab)),
     ShapeRing(new ModSimpleBaseItem("ShapeRing", ModTabList.ModShapesTab)),
     ShapeRod(new ModSimpleBaseItem("ShapeRod", ModTabList.ModShapesTab)),
+    ShapeRotor(new ModSimpleBaseItem("ShapeRotor", ModTabList.ModShapesTab)),
     ShapeSawBlade(new ModSimpleBaseItem("ShapeSawBlade", ModTabList.ModShapesTab)),
     ShapeShovelHead(new ModSimpleBaseItem("ShapeShovelHead", ModTabList.ModShapesTab)),
     ShapeSmallPipe(new ModSimpleBaseItem("ShapeSmallPipe", ModTabList.ModShapesTab)),
