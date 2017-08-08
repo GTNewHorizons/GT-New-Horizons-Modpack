@@ -292,6 +292,7 @@ public enum ItemList
     MoldFormPlate(new ModSimpleBaseItem("MoldFormPlate", ModTabList.ModMoldsTab)),
     MoldFormRing(new ModSimpleBaseItem("MoldFormRing", ModTabList.ModMoldsTab)),
     MoldFormRound(new ModSimpleBaseItem("MoldFormRound", ModTabList.ModMoldsTab)),
+    MoldFormRotor(new ModSimpleBaseItem("MoldFormRotor", ModTabList.ModMoldsTab)),
     MoldFormScrew(new ModSimpleBaseItem("MoldFormScrew", ModTabList.ModMoldsTab)),
     MoldFormSmallGear(new ModSimpleBaseItem("MoldFormSmallGear", ModTabList.ModMoldsTab)),
     MoldFormStick(new ModSimpleBaseItem("MoldFormStick", ModTabList.ModMoldsTab)),
