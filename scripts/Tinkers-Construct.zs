@@ -190,6 +190,10 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:4>);
 // --- Seared Cobblestone
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
 
+// --- Molten Block of Ender
+mods.tconstruct.Casting.removeBasinRecipe(EnderBlock);
+
+
 
 // --- Casting Recipes ---
 
@@ -222,6 +226,9 @@ mods.tconstruct.Smeltery.removeMelting(<ore:nuggetManyullyn>);
 
 // --- Manyullyn Block
 mods.tconstruct.Smeltery.removeMelting(<ore:blockManyullyn>);
+
+// --- Ender Block
+mods.tconstruct.Smeltery.removeMelting(<ore:blockEnder>);
 
 // --- Alumium Ingot
 recipes.remove(<TConstruct:materials:11>);
@@ -1357,6 +1364,9 @@ mods.tconstruct.Smeltery.addMelting(<Thaumcraft:blockCosmeticSolid>, <liquid:obs
 // -
 mods.tconstruct.Smeltery.addMelting(<Thaumcraft:blockCosmeticSolid:1>, <liquid:obsidian.molten> * 288, 850, <minecraft:obsidian>);
 
+// --- Molten Block of Ender
+mods.tconstruct.Casting.addBasinRecipe(EnderBlock, <liquid:ender> * 2250, null, false, 250);
+
 // --- Lead Items
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2089>, <liquid:lead.molten> * 144, 400, <IC2:blockMetal:4>);
 // -
@@ -1369,6 +1379,9 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:17089>, <liquid:lea
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:23089>, <liquid:lead.molten> * 72, 400, <IC2:blockMetal:4>);
 // -
 mods.tconstruct.Smeltery.addMelting(<IC2:blockMetal:4>, <liquid:lead.molten> * 1296, 400, <IC2:blockMetal:4>);
+
+// --- Ender Block
+mods.tconstruct.Smeltery.addMelting(<TConstruct:MetalBlock:10>, <liquid:ender> * 2250, 250, <TConstruct:MetalBlock:10>);
 
 // --- Glass Bottle
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 144, <gregtech:gt.metaitem.01:32305>, false, 200);
@@ -2533,8 +2546,6 @@ Compressor.addRecipe(<TConstruct:materials:17>, <TConstruct:CraftedSoil:2> * 4);
 // --- Paper Stack
 Compressor.addRecipe(<TConstruct:materials>, <minecraft:paper> * 64);
 
-// --- Block of Ender
-Compressor.addRecipe(<TConstruct:MetalBlock:10>, <gregtech:gt.metaitem.01:2532> * 9);
 
 
 
@@ -3857,7 +3868,7 @@ Extruder.addRecipe(<TConstruct:BowLimbPart:251>, <BloodArsenal:blood_infused_iro
 
 
 // --- Liquid Ender
-FluidExtractor.addRecipe(null, <TConstruct:MetalBlock:10>, <liquid:ender> * 1000, 10000, 200, 48);
+FluidExtractor.addRecipe(null, <TConstruct:MetalBlock:10>, <liquid:ender> * 2250, 10000, 200, 48);
 // -
 FluidExtractor.addRecipe(null, <minecraft:ender_pearl>, <liquid:ender> * 250, 10000, 100, 48);
 
