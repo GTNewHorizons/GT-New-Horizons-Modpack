@@ -46641,7 +46641,7 @@
       "questID": 538,
       "name": "Basic ore washer",
       "description": "Macerating ores usually doubles the output. If you want MOOOOOOORE, craft an ore washer and wash out some rare materials.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -46695,8 +46695,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -46712,7 +46712,7 @@
       "questID": 539,
       "name": "Round and round and round...",
       "description": "After purification of your ore dust, you can centrifuge it to get even more byproducts out of the dust.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -46766,8 +46766,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -90811,8 +90811,8 @@
         },
         {
           "id": 620,
-          "x": 360,
-          "y": 468
+          "x": 396,
+          "y": 396
         },
         {
           "id": 621,
