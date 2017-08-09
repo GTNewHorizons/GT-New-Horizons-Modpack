@@ -98,327 +98,345 @@ recipes.addShaped(<dreamcraft:item.MushroomPowder>, [
 
 // --- Plate Mold
 recipes.addShaped(<dreamcraft:item.MoldFormPlate>, [
-[null, null, null],
-[WireCutter, BlankCast, File],
+[null, Hammer, File],
+[null, BlankCast, null],
 [null, null, null]]);
 
 // --- Casing Mold
 recipes.addShaped(<dreamcraft:item.MoldFormCasing>, [
-[WireCutter, null, null],
-[null, BlankCast, null],
-[null, null, File]]);
+[null, Hammer, null],
+[null, BlankCast, File],
+[null, null, null]]);
 
 // --- Gear Mold
 recipes.addShaped(<dreamcraft:item.MoldFormGear>, [
-[null, WireCutter, null],
+[null, Hammer, null],
 [null, BlankCast, null],
-[null, File, null]]);
+[null, null, File]]);
 
 // --- Bottle Mold
 recipes.addShaped(<dreamcraft:item.MoldFormBottle>, [
-[null, null, null],
-[File, BlankCast, WireCutter],
-[null, null, null]]);
+[null, Hammer, null],
+[null, BlankCast, null],
+[null, File, null]]);
 
 // --- Ingot Mold
 recipes.addShaped(<dreamcraft:item.MoldFormIngot>, [
-[File, null, null],
+[null, Hammer, null],
 [null, BlankCast, null],
-[null, null, WireCutter]]);
+[File, null, null]]);
 
 // --- Ball Mold
 recipes.addShaped( <dreamcraft:item.MoldFormBall>, [
-[null, File, null],
-[null, BlankCast, null],
-[null, WireCutter, null]]);
+[null, Hammer, null],
+[File, BlankCast, null],
+[null, null, null]]);
 
 // --- Block Mold
 recipes.addShaped(<dreamcraft:item.MoldFormBlock>, [
-[null, null, File],
+[File, Hammer, null],
 [null, BlankCast, null],
-[WireCutter, null, null]]);
+[null, null, null]]);
 
 // --- Nuggets Mold
 recipes.addShaped(<dreamcraft:item.MoldFormNuggets>, [
-[null, File, null],
-[WireCutter, BlankCast, null],
+[null, null, Hammer],
+[null, BlankCast, File],
 [null, null, null]]);
 
 // --- Buns Mold
 recipes.addShaped(<dreamcraft:item.MoldFormBuns>, [
-[WireCutter, null, File],
-[null, BlankCast, null],
-[null, null, null]]);
-
-// --- Bread Mold
-recipes.addShaped(<dreamcraft:item.MoldFormBread>, [
-[null, WireCutter, null],
-[null, BlankCast, File],
-[null, null, null]]);
-
-// --- Baguette Mold, 
-recipes.addShaped(<dreamcraft:item.MoldFormBaguette>, [
-[null, null, WireCutter],
+[null, null, Hammer],
 [null, BlankCast, null],
 [null, null, File]]);
 
+// --- Bread Mold
+recipes.addShaped(<dreamcraft:item.MoldFormBread>, [
+[null, null, Hammer],
+[null, BlankCast, null],
+[null, File, null]]);
+
+// --- Baguette Mold, 
+recipes.addShaped(<dreamcraft:item.MoldFormBaguette>, [
+[null, null, Hammer],
+[null, BlankCast, null],
+[File, null, null]]);
+
 // --- Cylinder Mold
 recipes.addShaped(<dreamcraft:item.MoldFormCylinder>, [
-[null, null, null],
-[null, BlankCast, WireCutter],
-[null, File, null]]);
+[null, null, Hammer],
+[File, BlankCast, null],
+[null, null, null]]);
 
 // --- Anvil Mold
 recipes.addShaped(<dreamcraft:item.MoldFormAnvil>, [
-[null, null, null],
+[File, null, Hammer],
 [null, BlankCast, null],
-[File, null, WireCutter]]);
+[null, null, null]]);
 
 // --- Name Mold
 recipes.addShaped(<dreamcraft:item.MoldFormName>, [
-[null, null, null],
-[File, BlankCast, null],
-[null, WireCutter, null]]);
+[null, File, Hammer],
+[null, BlankCast, null],
+[null, null, null]]);
 
 // --- Head Mold
 recipes.addShaped(<dreamcraft:item.MoldFormArrowHead>, [
-[File, null, null],
-[null, BlankCast, null],
-[WireCutter, null, null]]);
+[null, null, null],
+[null, BlankCast, Hammer],
+[null, null, File]]);
 
 // --- Small Gear Mold
 recipes.addShaped(<dreamcraft:item.MoldFormSmallGear>, [
-[File, null, null],
-[WireCutter, BlankCast, null],
-[null, null, null]]);
+[null, null, null],
+[null, BlankCast, Hammer],
+[null, File, null]]);
 
 // --- Rod Mold
 recipes.addShaped(<dreamcraft:item.MoldFormStick>, [
-[WireCutter, File, null],
-[null, BlankCast, null],
-[null, null, null]]);
+[null, null, null],
+[null, BlankCast, Hammer],
+[File, null, null]]);
 
 // --- Bolt Mold
 recipes.addShaped(<dreamcraft:item.MoldFormBolt>, [
-[null, WireCutter, File],
-[null, BlankCast, null],
+[null, null, null],
+[File, BlankCast, Hammer],
 [null, null, null]]);
 
 // --- Round Mold
 recipes.addShaped(<dreamcraft:item.MoldFormRound>, [
-[null, null, WireCutter],
-[null, BlankCast, File],
+[File, null, null],
+[null, BlankCast, Hammer],
 [null, null, null]]);
 
 // --- Screw Mold
 recipes.addShaped(<dreamcraft:item.MoldFormScrew>, [
-[null, null, null],
-[null, BlankCast, WireCutter],
-[null, null, File]]);
+[null, File, null],
+[null, BlankCast, Hammer],
+[null, null, null]]);
 
 // --- Ring Mold
 recipes.addShaped(<dreamcraft:item.MoldFormRing>, [
-[null, null, null],
-[null, BlankCast, null],
-[null, File, WireCutter]]);
+[null, null, File],
+[null, BlankCast, Hammer],
+[null, null, null]]);
 
 // --- Long Stick Mold
 recipes.addShaped(<dreamcraft:item.MoldFormStickLong>, [
 [null, null, null],
 [null, BlankCast, null],
-[File, WireCutter, null]]);
+[null, File, Hammer]]);
 
 // --- Rotor Mold
 recipes.addShaped(<dreamcraft:item.MoldFormRotor>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, null, Hammer]]);
+
+// --- Turbine Blade Mold
+recipes.addShaped(<dreamcraft:item.MoldFormTurbineBlade>, [
+[null, null, null],
+[File, BlankCast, null],
+[null, null, Hammer]]);
+
+// --- Mold Form Boots
+recipes.addShaped(<dreamcraft:item.MoldFormBoots>, [
+[File, null, null],
+[null, BlankCast, null],
+[null, null, Hammer]]);
+
+// --- Mold Form Chestplate
+recipes.addShaped(<dreamcraft:item.MoldFormChestplate>, [
+[null, File, null],
+[null, BlankCast, null],
+[null, null, Hammer]]);
+
+// --- Mold Form Helmet
+recipes.addShaped(<dreamcraft:item.MoldFormHelmet>, [
 [null, null, File],
-[WireCutter, BlankCast, null],
-[null, null, null]]);
+[null, BlankCast, null],
+[null, null, Hammer]]);
+
+// --- Mold Form Leggings
+recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
+[null, null, null],
+[null, BlankCast, File],
+[null, null, Hammer]]);
+
+// --- Mold Form Marshmallow
+recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, Hammer, null]]);
 
 // --- Extruder Shape Plate
 recipes.addShaped(<dreamcraft:item.ShapePlate>, [
-[File, WireCutter, null],
+[null, WireCutter, File],
 [null, BlankCast, null],
 [null, null, null]]);
 
 // --- Extruder Shape Rod
 recipes.addShaped(<dreamcraft:item.ShapeRod>, [
-[null, File, WireCutter],
-[null, BlankCast, null],
+[null, WireCutter, null],
+[null, BlankCast, File],
 [null, null, null]]);
 
 // --- Extruder Shape Bolt
 recipes.addShaped(<dreamcraft:item.ShapeBolt>, [
-[null, null, File],
-[null, BlankCast, WireCutter],
-[null, null, null]]);
+[null, WireCutter, null],
+[null, BlankCast, null],
+[null, null, File]]);
 
 // --- Extruder Shape Cell
 recipes.addShaped(<dreamcraft:item.ShapeCell>, [
-[null, null, null],
-[null, BlankCast, File],
-[null, null, WireCutter]]);
+[null, WireCutter, null],
+[null, BlankCast, null],
+[null, File, null]]);
 
 // --- Extruder Shape Ring
 recipes.addShaped(<dreamcraft:item.ShapeRing>, [
-[null, null, null],
+[null, WireCutter, null],
 [null, BlankCast, null],
-[null, WireCutter, File]]);
+[File, null, null]]);
 
 // --- Extruder Shape Ingot
 recipes.addShaped(<dreamcraft:item.ShapeIngot>, [
-[null, null, null],
-[null, BlankCast, null],
-[WireCutter, File, null]]);
-
-// --- Extruder Shape Wire
-recipes.addShaped(<dreamcraft:item.ShapeWire>, [
-[null, null, null],
-[WireCutter, BlankCast, null],
-[File, null, null]]);
-
-// --- Extruder Shape Casing
-recipes.addShaped(<dreamcraft:item.ShapeCasing>, [
-[WireCutter, null, null],
-[File, BlankCast, null],
-[null, null, null]]);
-
-// --- Extruder Shape Tiny Pipe
-recipes.addShaped(<dreamcraft:item.ShapeTinyPipe>, [
-[File, null, WireCutter],
-[null, BlankCast, null],
-[null, null, null]]);
-
-// --- Extruder Shape Small Pipe
-recipes.addShaped(<dreamcraft:item.ShapeSmallPipe>, [
-[null, File, null],
-[null, BlankCast, WireCutter],
-[null, null, null]]);
-
-// --- Extruder Shape Normal Pipe
-recipes.addShaped(<dreamcraft:item.ShapeNormalPipe>, [
-[null, null, File],
-[null, BlankCast, null],
-[null, null, WireCutter]]);
-
-// --- Extruder Shape Lage Pipe
-recipes.addShaped(<dreamcraft:item.ShapeLargePipe>, [
-[null, null, null],
-[null, BlankCast, File],
-[null, WireCutter, null]]);
-
-// --- Extruder Shape Huge Pipe
-recipes.addShaped(<dreamcraft:item.ShapeHugePipe>, [
-[null, null, null],
-[null, BlankCast, null],
-[WireCutter, null, File]]);
-
-// --- Extruder Shape Block
-recipes.addShaped(<dreamcraft:item.ShapeBlock>, [
-[null, null, null],
-[WireCutter, BlankCast, null],
-[null, File, null]]);
-
-// --- Extruder Shape Sword Blade
-recipes.addShaped(<dreamcraft:item.ShapeSwordBlade>, [
-[WireCutter, null, null],
-[null, BlankCast, null],
-[File, null, null]]);
-
-// --- Extruder Shape Pickaxe Head
-recipes.addShaped(<dreamcraft:item.ShapePickaxeHead>, [
 [null, WireCutter, null],
 [File, BlankCast, null],
 [null, null, null]]);
 
-// --- Extruder Shape Shove Head
-recipes.addShaped(<dreamcraft:item.ShapeShovelHead>, [
-[File, null, null],
-[null, BlankCast, WireCutter],
+// --- Extruder Shape Wire
+recipes.addShaped(<dreamcraft:item.ShapeWire>, [
+[File, WireCutter, null],
+[null, BlankCast, null],
 [null, null, null]]);
 
-// --- Extruder Shape Axe Head
-recipes.addShaped(<dreamcraft:item.ShapeAxeHead>, [
-[null, File, null],
-[null, BlankCast, null],
-[null, null, WireCutter]]);
-
-// --- Extruder Shape Hoe Head
-recipes.addShaped(<dreamcraft:item.ShapeHoeHead>, [
-[null, null, File],
-[null, BlankCast, null],
-[null, WireCutter, null]]);
-
-// --- Extruder Shape Hammer Head
-recipes.addShaped(<dreamcraft:item.ShapeHammerHead>, [
-[null, null, null],
+// --- Extruder Shape Casing
+recipes.addShaped(<dreamcraft:item.ShapeCasing>, [
+[null, null, WireCutter],
 [null, BlankCast, File],
-[WireCutter, null, null]]);
+[null, null, null]]);
 
-// --- Extruder Shape File Head
-recipes.addShaped(<dreamcraft:item.ShapeFileHead>, [
-[null, null, null],
-[WireCutter, BlankCast, null],
+// --- Extruder Shape Tiny Pipe
+recipes.addShaped(<dreamcraft:item.ShapeTinyPipe>, [
+[null, null, WireCutter],
+[null, BlankCast, null],
 [null, null, File]]);
 
-// --- Extruder Shape Saw Blade
-recipes.addShaped(<dreamcraft:item.ShapeSawBlade>, [
-[WireCutter, null, null],
+// --- Extruder Shape Small Pipe
+recipes.addShaped(<dreamcraft:item.ShapeSmallPipe>, [
+[null, null, WireCutter],
 [null, BlankCast, null],
 [null, File, null]]);
 
-// --- Extruder Shape Gear
-recipes.addShaped(<dreamcraft:item.ShapeGear>, [
+// --- Extruder Shape Normal Pipe
+recipes.addShaped(<dreamcraft:item.ShapeNormalPipe>, [
 [null, null, WireCutter],
 [null, BlankCast, null],
 [File, null, null]]);
 
+// --- Extruder Shape Lage Pipe
+recipes.addShaped(<dreamcraft:item.ShapeLargePipe>, [
+[null, null, WireCutter],
+[File, BlankCast, null],
+[null, null, null]]);
+
+// --- Extruder Shape Huge Pipe
+recipes.addShaped(<dreamcraft:item.ShapeHugePipe>, [
+[File, null, WireCutter],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Extruder Shape Block
+recipes.addShaped(<dreamcraft:item.ShapeBlock>, [
+[null, File, WireCutter],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Extruder Shape Sword Blade
+recipes.addShaped(<dreamcraft:item.ShapeSwordBlade>, [
+[null, null, null],
+[null, BlankCast, WireCutter],
+[null, null, File]]);
+
+// --- Extruder Shape Pickaxe Head
+recipes.addShaped(<dreamcraft:item.ShapePickaxeHead>, [
+[null, null, null],
+[null, BlankCast, WireCutter],
+[null, File, null]]);
+
+// --- Extruder Shape Shove Head
+recipes.addShaped(<dreamcraft:item.ShapeShovelHead>, [
+[null, null, null],
+[null, BlankCast, WireCutter],
+[File, null, null]]);
+
+// --- Extruder Shape Axe Head
+recipes.addShaped(<dreamcraft:item.ShapeAxeHead>, [
+[null, null, null],
+[File, BlankCast, WireCutter],
+[null, null, null]]);
+
+// --- Extruder Shape Hoe Head
+recipes.addShaped(<dreamcraft:item.ShapeHoeHead>, [
+[File, null, null],
+[null, BlankCast, WireCutter],
+[null, null, null]]);
+
+// --- Extruder Shape Hammer Head
+recipes.addShaped(<dreamcraft:item.ShapeHammerHead>, [
+[null, File, null],
+[null, BlankCast, WireCutter],
+[null, null, null]]);
+
+// --- Extruder Shape File Head
+recipes.addShaped(<dreamcraft:item.ShapeFileHead>, [
+[null, null, File],
+[null, BlankCast, WireCutter],
+[null, null, null]]);
+
+// --- Extruder Shape Saw Blade
+recipes.addShaped(<dreamcraft:item.ShapeSawBlade>, [
+[null, null, null],
+[null, BlankCast, null],
+[null, File, WireCutter]]);
+
+// --- Extruder Shape Gear
+recipes.addShaped(<dreamcraft:item.ShapeGear>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, null, WireCutter]]);
+
 // --- Extruder Shape Bottle
 recipes.addShaped(<dreamcraft:item.ShapeBottle>, [
-[File, null, null],
+[null, null, null],
 [File, BlankCast, null],
-[null, WireCutter, null]]);
+[null, null, WireCutter]]);
 
 // --- Extruder Shape Boat
 recipes.addShaped(<dreamcraft:item.ShapeBoat>, [
-[WireCutter, null, null],
-[null, BlankCast, File],
-[null, null, null]]);
+[File, null, null],
+[null, BlankCast, null],
+[null, null, WireCutter]]);
 
 // --- Extruder Shape Rotor
 recipes.addShaped(<dreamcraft:item.ShapeRotor>, [
 [null, File, null],
 [null, BlankCast, null],
-[WireCutter, null, null]]);
-
-// --- Mold Form Boots
-recipes.addShaped(<dreamcraft:item.MoldFormBoots>, [
-[null, null, null],
-[File, BlankCast, null],
 [null, null, WireCutter]]);
 
-// --- Mold Form Chestplate
-recipes.addShaped(<dreamcraft:item.MoldFormChestplate>, [
+// --- Extruder Shape Turbine Blade
+recipes.addShaped(<dreamcraft:item.ShapeTurbineBlade>, [
 [null, null, File],
 [null, BlankCast, null],
-[WireCutter, null, null]]);
+[null, null, WireCutter]]);
 
-// --- Mold Form Helmet
-recipes.addShaped(<dreamcraft:item.MoldFormHelmet>, [
+// --- Extruder Shape Small Gear
+recipes.addShaped(<dreamcraft:item.ShapeSmallGear>, [
 [null, null, null],
-[WireCutter, BlankCast, File],
-[null, null, null]]);
-
-// --- Mold Form Leggings
-recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
-[WireCutter, null, null],
-[null, BlankCast, null],
-[null, null, File]]);
-
-// --- Mold Form Marshmallow
-recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
-[null, WireCutter, null],
-[null, BlankCast, null],
-[File, null, null]]);
+[null, BlankCast, File],
+[null, null, WireCutter]]);
 
 // --- Display
 recipes.addShaped(<dreamcraft:item.Display>, [
@@ -739,7 +757,11 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRotor>, <liquid:alu
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeBottle>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
-mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeRotore>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeRotor>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTurbineBlade>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeSmallGear>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBoots>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
@@ -803,8 +825,6 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormCoinage>, <liquid:a
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBall>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
-mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeNormalPipe>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
-// -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeBlock>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormHelmet>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
@@ -813,11 +833,7 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapePickaxeHead>, <liquid:
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBuns>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
-mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTinyPipe>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
-// -
-mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTinyPipe>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
-// -
-mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeTinyPipe>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ShapeNormalPipe>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MarshmallowFormMold>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
@@ -832,6 +848,8 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRing>, <liquid:alum
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBolt>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRound>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormTurbineBlade>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- BBQ Glows Left Hand
 recipes.addShaped(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [
