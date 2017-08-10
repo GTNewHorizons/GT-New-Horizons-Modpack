@@ -73398,7 +73398,7 @@
     },
     {
       "questID": 795,
-      "name": "Circuit Assembler",
+      "name": "Basic Circuit Assembler",
       "description": "Advanced circuits require a LV circuit assembling machine. Let\u0027s make one.",
       "isMain": true,
       "isSilent": false,
