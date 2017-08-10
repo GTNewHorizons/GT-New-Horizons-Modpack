@@ -6279,7 +6279,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-		  "consume": false,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -82374,12 +82374,6 @@
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32301
-            },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
