@@ -6532,7 +6532,7 @@
             {
               "id": "minecraft:sand",
               "Count": 123,
-              "OreDict": "",
+              "OreDict": "sand",
               "Damage": 0
             },
             {
@@ -6544,7 +6544,7 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 82,
-              "OreDict": "",
+              "OreDict": "dustClay",
               "Damage": 2805
             }
           ],
