@@ -50705,10 +50705,10 @@
               "Damage": 32100
             },
             {
-              "id": "IC2:itemPartCircuit",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32700
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -50760,10 +50760,10 @@
               "Damage": 11300
             },
             {
-              "id": "IC2:itemPartCircuit",
-              "Count": 2,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32700
             },
             {
               "id": "gregtech:gt.metaitem.03",
@@ -51891,16 +51891,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32710
+              "Damage": 32100
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "IC2:itemPartCircuit",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32702
+              "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -51952,16 +51952,16 @@
               "Damage": 11305
             },
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "IC2:itemPartCircuit",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32702
+              "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32101
+              "Damage": 32100
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -52035,13 +52035,13 @@
               "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32102
+              "Damage": 32101
             },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32701
+              "Damage": 32702
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -52096,13 +52096,13 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32701
+              "Damage": 32702
             },
             {
               "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32102
+              "Damage": 32101
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -52176,7 +52176,7 @@
               "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32103
+              "Damage": 32101
             },
             {
               "id": "gregtech:gt.metaitem.03",
@@ -52243,7 +52243,7 @@
               "id": "gregtech:gt.metaitem.03",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32103
+              "Damage": 32101
             },
             {
               "id": "enhancedlootbags:lootbag",

@@ -1249,8 +1249,8 @@ recipes.addShaped(<IC2:itemScannerAdv:26>, [
 
 // --- Small Power Unit
 recipes.addShaped(<IC2:itemRecipePart:3>, [
-[<ore:cableGt01AnyCopper>, <dreamcraft:item.AluminiumItemCasing>, <ore:cableGt01AnyCopper>],
-[<dreamcraft:item.AluminiumItemCasing>, <ore:craftingToolScrewdriver>, <dreamcraft:item.AluminiumItemCasing>],
+[<ore:cableGt01AnyCopper>, <IC2:itemCasing:5>, <ore:cableGt01AnyCopper>],
+[<IC2:itemCasing:5>, <ore:craftingToolScrewdriver>, <IC2:itemCasing:5>],
 [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>]]);
 
 // --- Power Unit
