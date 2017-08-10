@@ -75360,7 +75360,7 @@
     {
       "questID": 811,
       "name": "Tier 1 Schematic",
-      "description": "Each rocket needs a construction plan. You can craft the first one using a data control circuit and a compressed steel plate.",
+      "description": "Each rocket needs a construction plan. You can craft the first one using a workstation circuit and a compressed steel plate.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
