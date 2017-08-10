@@ -73398,8 +73398,8 @@
     },
     {
       "questID": 795,
-      "name": "Basic Circuit Assembler",
-      "description": "Advanced circuits require a MV circuit assembling machine. Let\u0027s make one.",
+      "name": "Circuit Assembler",
+      "description": "Advanced circuits require a LV circuit assembling machine. Let\u0027s make one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
