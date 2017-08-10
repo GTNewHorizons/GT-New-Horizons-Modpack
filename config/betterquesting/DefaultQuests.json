@@ -6252,7 +6252,7 @@
     {
       "questID": 71,
       "name": "Basic crafting: Motors",
-      "description": "Motors are little devices that can turn electrical power into rotational energy. Very useful for all kind of machines, and not that difficult to craft. The pattern is always the same, only the materials change with tiers.",
+      "description": "Motors are little devices that can turn electrical power into rotational energy. Very useful for all kind of machines, and not that difficult to craft. The pattern is always the same, only the materials change with tiers. For now you can use restone to magnetize your iron rod. Later one you are able to build a Electromagnetic Polarizer.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -6276,6 +6276,21 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+		  "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
