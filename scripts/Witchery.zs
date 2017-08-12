@@ -98,7 +98,7 @@ mods.thaumcraft.Warp.addToResearch("FILTEREDFUMEFUNNEL", 2);
 // --- Fume Filter
 mods.thaumcraft.Research.addResearch("FUMEFILTER", "WITHERY", "metallum 9, vitreus 9, lucrum 6, praecantatio 3", 2, 2, 2, <witchery:ingredient:73>);
 game.setLocalization("tc.research_name.FUMEFILTER", "Fume Filter");
-game.setLocalization("tc.research_text.FUMEFILTER", "[WI] More By Products");
+game.setLocalization("tc.research_text.FUMEFILTER", "[WI] More By-products");
 mods.thaumcraft.Research.addPrereq("FUMEFILTER", "DISTILESSENTIA", false);
 mods.thaumcraft.Research.addPrereq("FUMEFILTER", "FUMEFUNNEL", false);
 mods.thaumcraft.Research.setConcealed("FUMEFILTER", true);
