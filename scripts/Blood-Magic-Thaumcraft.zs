@@ -49,12 +49,12 @@ mods.thaumcraft.Warp.addToResearch("BLOODALTAR", 2);
 // --- Life Infuser
 mods.thaumcraft.Research.addResearch("LIFEINFUSER", "BLOODMAGIC", "victus 18, alienis 15, praecantatio 12, auram 9, fames 6, terra 3", -2, 2, 3, <BloodArsenal:life_infuser>);
 game.setLocalization("tc.research_name.LIFEINFUSER", "Life Infuser");
-game.setLocalization("tc.research_text.LIFEINFUSER", "[BA] Transfer you Life Essence");
+game.setLocalization("tc.research_text.LIFEINFUSER", "[BA] Transfer your Life Essence");
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "BLOODALTAR", false);
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("LIFEINFUSER", false);
 mods.thaumcraft.Research.addPage("LIFEINFUSER", "bloodmagic.research_page.LIFEINFUSER");
-game.setLocalization("bloodmagic.research_page.LIFEINFUSER", "The Life Infuser is a Block Added by Blood Arsenal. It takes in life essence and gradually repairs a tool using 500 LE each damage point repaired. Once an orb is inserted into this the Life Essence Materializer, it will suck out LP from the orb's owner converting it to Life Essence which can then be pumped out. (converts 150 - 100)");
+game.setLocalization("bloodmagic.research_page.LIFEINFUSER", "The Life Infuser is a Block Added by Blood Arsenal. It takes in life essence and gradually repairs a tool using 500 LE each damage point repaired. Once an orb is inserted into the Life Essence Materializer, it will suck out LP from the orb's owner converting it to Life Essence which can then be pumped out. (converts 150 - 100)");
 mods.thaumcraft.Infusion.addRecipe("LIFEINFUSER", <AWWayofTime:Altar>, 
 [<minecraft:nether_star>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>, <AWWayofTime:imbuedSlate>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>], 
 "victus 32, alienis 32, praecantatio 24, auram 16, fames 8, terra 8", <BloodArsenal:life_infuser>, 5);
@@ -105,7 +105,7 @@ mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.setConcealed("ALCHEMICCHEMSTRYSET", true);
 mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "bloodmagic.research_page.ALCHEMICCHEMSTRYSET");
-game.setLocalization("bloodmagic.research_page.ALCHEMICCHEMSTRYSET", "The Alchemic Chemistry Set is a block added by Blood Magic. This is a Chemistry set used for the mod mentioned above. It's main purpose is to, you guessed it, brew potions! It's an essential part of this mod; as this block is used to brew things that can be the base of many others. Along with the many other such things, you will need LP to actually use and make things with this block. LP, the basic power of this mod, will be explained in a later thread.");
+game.setLocalization("bloodmagic.research_page.ALCHEMICCHEMSTRYSET", "The Alchemic Chemistry Set is a block added by Blood Magic. This is a Chemistry set used for the mod mentioned above. It's main purpose is to, you guessed it, brew potions! It's an essential part of this mod; as this block is used to brew things that can be the base of many others. Along with the many other such things, you will need LP to actually use and make things with this block. LP, the basic power of this mod, will be explained in another thread.");
 mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_stand>, 
 [<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>], 
 "fabrico 24, instrumentum 24, praecantatio 18, victus 12, ignis 12", <AWWayofTime:blockWritingTable>, 5);
@@ -120,7 +120,7 @@ mods.thaumcraft.Research.addPrereq("AMORPHICCATALYST", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("AMORPHICCATALYST", "ALCHEMICCHEMSTRYSET", false);
 mods.thaumcraft.Research.setConcealed("AMORPHICCATALYST", true);
 mods.thaumcraft.Research.addPage("AMORPHICCATALYST", "bloodmagic.research_page.AMORPHICCATALYST");
-game.setLocalization("bloodmagic.research_page.AMORPHICCATALYST", "Take a Reinforced Slate and infused it with all magical Ingredients you can made. Now you get a very Powerful Catalyst.");
+game.setLocalization("bloodmagic.research_page.AMORPHICCATALYST", "Take a Reinforced Slate and infuse it with all magical ingredients you can make. Now you have a very powerful catalyst.");
 mods.thaumcraft.Infusion.addRecipe("AMORPHICCATALYST", <AWWayofTime:reinforcedSlate>, 
 [<AWWayofTime:simpleCatalyst>, <AWWayofTime:aether>, <AWWayofTime:terrae>, <AWWayofTime:crystallos>, <AWWayofTime:sanctus>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:incendium>, <AWWayofTime:aquasalus>, <AWWayofTime:tennebrae>], 
 "aqua 16, ignis 16, terra 16, aer 16, ordo 16, perditio 16", <BloodArsenal:amorphic_catalyst>, 5);
@@ -165,7 +165,7 @@ mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SPEEDRUNE", true);
 mods.thaumcraft.Research.addPage("SPEEDRUNE", "bloodmagic.research_page.SPEEDRUNE");
-game.setLocalization("bloodmagic.research_page.SPEEDRUNE", "The Speed Rune is a block added by Blood Magic that is used for upgrading the tier of the Blood Altar. The Speed Rune can be used interchangeably with any other rune. The Speed Rune does what its name implies, and provides an additive 20% increase to the processing speed of the Blood Altar.");
+game.setLocalization("bloodmagic.research_page.SPEEDRUNE", "The Speed Rune is a block added by Blood Magic that is used for upgrading the tier of the Blood Altar. The Speed Rune can be used interchangeably with any other rune. The Speed Rune does what its name implies, and provides a 20% increase to the processing speed of the Blood Altar.");
 mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
 [<AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], 
 "motus 24, volatus 24, potentia 18, aer 12, fames 4", <AWWayofTime:speedRune>, 4);
@@ -181,10 +181,10 @@ mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "bloodmagic.research_pa
 game.setLocalization("bloodmagic.research_page.IMPERFECTRITUALSTONE.1", "Imperfect Ritual Stone is a block from Blood Magic used in the construction of Rituals. The Imperfect Ritual Stone is used in weaker rituals, such as the Water Ritual. 
 A weak ritual is simple but can be useful. Each is created by placing a specific block on top of an Imperfect Ritual Stone, then activated by Right-clicking the Stone. Each cost 5,000 Life Essence.");
 mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "bloodmagic.research_page.IMPERFECTRITUALSTONE.2");
-game.setLocalization("bloodmagic.research_page.IMPERFECTRITUALSTONE.2", "1. Water Source Block Creates a Thunderstorm.
-2. Block of Coal Summons a strong Zombie.
-3. Lapis Lazuli Block Lapis Lazuli Block Makes it night time.
-4. Bedrock above Grants Resistance II for 1 minute.");
+game.setLocalization("bloodmagic.research_page.IMPERFECTRITUALSTONE.2", "1. Water source block creates a thunderstorm.
+2. Block of coal summons a strong zombie.
+3. Lapis lazuli block makes it night time.
+4. Bedrock above grants Resistance II for 1 minute.");
 mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 15, ignis 15, aqua 15, terra 15, ordo 15, perditio 15", [
 [<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>],
 [<AWWayofTime:blankSlate>, <BloodArsenal:blood_stone>, <AWWayofTime:blankSlate>],
@@ -306,7 +306,7 @@ mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESACRIFICE", "bloodmagic.research_page.RUNESACRIFICE");
-game.setLocalization("bloodmagic.research_page.RUNESACRIFICE", "The Rune of Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by sacrificing mobs with a Dagger of Sacrifice by an additive 10%.");
+game.setLocalization("bloodmagic.research_page.RUNESACRIFICE", "The Rune of Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work alongside each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by sacrificing mobs with a Dagger of Sacrifice by 10%.");
 mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, potentia 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSacrifice>, 5);
@@ -320,7 +320,7 @@ mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESELFSACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "bloodmagic.research_page.RUNESELFSACRIFICE");
-game.setLocalization("bloodmagic.research_page.RUNESELFSACRIFICE", "The Rune of Self-Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by using a Sacrificial Dagger by an additive 10%.");
+game.setLocalization("bloodmagic.research_page.RUNESELFSACRIFICE", "The Rune of Self-Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work alongside each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by using a Sacrificial Dagger by 10%.");
 mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, lucrum 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSelfSacrifice>, 5);
@@ -458,7 +458,7 @@ game.setLocalization("tc.research_text.WEAKORB", "[BM] Orb transformation Tier I
 mods.thaumcraft.Research.addPrereq("WEAKORB", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("WEAKORB", true);
 mods.thaumcraft.Research.addPage("WEAKORB", "bloodmagic.research_page.WEAKORB");
-game.setLocalization("bloodmagic.research_page.WEAKORB", "After you createt a raw Orb Tier 1 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Weak Blood Orb");
+game.setLocalization("bloodmagic.research_page.WEAKORB", "When you have created a Raw Orb Tier 1 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get a Weak Blood Orb");
 mods.thaumcraft.Arcane.addShaped("WEAKORB", <dreamcraft:item.WeakOrb>, "aer 20, aqua 20, ignis 20, terra 20, perditio 20, ordo 20", [
 [null, <ore:gemDiamond>, null],
 [<AWWayofTime:blankSlate>, <dreamcraft:item.RawOrbTier1>, <AWWayofTime:blankSlate>],
@@ -473,7 +473,7 @@ game.setLocalization("tc.research_text.APPRENTICEORB", "[BM] Orb transformation 
 mods.thaumcraft.Research.addPrereq("APPRENTICEORB", "WEAKORB", false);
 mods.thaumcraft.Research.setConcealed("APPRENTICEORB", true);
 mods.thaumcraft.Research.addPage("APPRENTICEORB", "bloodmagic.research_page.APPRENTICEORB");
-game.setLocalization("bloodmagic.research_page.APPRENTICEORB", "After you createt a raw Orb Tier 2 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Apprentice Blood Orb");
+game.setLocalization("bloodmagic.research_page.APPRENTICEORB", "When you have created a Raw Orb Tier 2 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get an Apprentice Blood Orb.");
 mods.thaumcraft.Arcane.addShaped("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>, "aer 40, aqua 40, ignis 40, terra 40, perditio 40, ordo 40", [
 [null, <ore:gemFlawlessEmerald>, null],
 [<AWWayofTime:reinforcedSlate>, <dreamcraft:item.RawOrbTier2>, <AWWayofTime:reinforcedSlate>],
@@ -481,14 +481,14 @@ mods.thaumcraft.Arcane.addShaped("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb
 mods.thaumcraft.Research.addArcanePage("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>);
 mods.thaumcraft.Warp.addToResearch("APPRENTICEORB", 2);
 
-// --- Magican Orb
+// --- Magician's Orb
 mods.thaumcraft.Research.addResearch("MAGICANORB", "BLOODMAGIC", "vitreus 15, potentia 12, praecantatio 9, cognitio 6, sano 3", 6, 0, 3, <dreamcraft:item.MagicianOrb>);
-game.setLocalization("tc.research_name.MAGICANORB", "Magican Orb");
+game.setLocalization("tc.research_name.MAGICANORB", "Magician's Orb");
 game.setLocalization("tc.research_text.MAGICANORB", "[BM] Orb transformation Tier III");
 mods.thaumcraft.Research.addPrereq("MAGICANORB", "APPRENTICEORB", false);
 mods.thaumcraft.Research.setConcealed("MAGICANORB", true);
 mods.thaumcraft.Research.addPage("MAGICANORB", "bloodmagic.research_page.MAGICANORB");
-game.setLocalization("bloodmagic.research_page.MAGICANORB", "After you createt a raw Orb Tier 3 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Magican Blood Orb");
+game.setLocalization("bloodmagic.research_page.MAGICANORB", "When you have created a Raw Orb Tier 3 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get a Magician's Blood Orb.");
 mods.thaumcraft.Arcane.addShaped("MAGICANORB", <dreamcraft:item.MagicianOrb>, "aer 60, aqua 60, ignis 60, terra 60, perditio 60, ordo 60", [
 [null, <ore:blockGold>, null],
 [<AWWayofTime:imbuedSlate>, <dreamcraft:item.RawOrbTier3>, <AWWayofTime:imbuedSlate>],
@@ -503,7 +503,7 @@ game.setLocalization("tc.research_text.MASTERORB", "[BM] Orb transformation Tier
 mods.thaumcraft.Research.addPrereq("MASTERORB", "MAGICANORB", false);
 mods.thaumcraft.Research.setConcealed("MASTERORB", true);
 mods.thaumcraft.Research.addPage("MASTERORB", "bloodmagic.research_page.MASTERORB");
-game.setLocalization("bloodmagic.research_page.MASTERORB", "After you createt a raw Orb Tier 4 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Master Blood Orb");
+game.setLocalization("bloodmagic.research_page.MASTERORB", "When you have created a Raw Orb Tier 4 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get a Master Blood Orb.");
 mods.thaumcraft.Arcane.addShaped("MASTERORB", <dreamcraft:item.MasterOrb>, "aer 80, aqua 80, ignis 80, terra 80, perditio 80, ordo 80", [
 [null, <AWWayofTime:weakBloodShard>, null],
 [<AWWayofTime:demonicSlate>, <dreamcraft:item.RawOrbTier4>, <AWWayofTime:demonicSlate>],
@@ -511,14 +511,14 @@ mods.thaumcraft.Arcane.addShaped("MASTERORB", <dreamcraft:item.MasterOrb>, "aer 
 mods.thaumcraft.Research.addArcanePage("MASTERORB", <dreamcraft:item.MasterOrb>);
 mods.thaumcraft.Warp.addToResearch("MASTERORB", 4);
 
-// --- Archmage Orb
+// --- Archmage's Orb
 mods.thaumcraft.Research.addResearch("ARCHMAGEORB", "BLOODMAGIC", "vitreus 21, potentia 18, praecantatio 15, cognitio 12, sano 9, aqua 6, infernus 3", 10, 0, 4, <dreamcraft:item.ArchmageOrb>);
-game.setLocalization("tc.research_name.ARCHMAGEORB", "Archmage Orb");
+game.setLocalization("tc.research_name.ARCHMAGEORB", "Archmage's Orb");
 game.setLocalization("tc.research_text.ARCHMAGEORB", "[BM] Orb transformation Tier V");
 mods.thaumcraft.Research.addPrereq("ARCHMAGEORB", "MASTERORB", false);
 mods.thaumcraft.Research.setConcealed("ARCHMAGEORB", true);
 mods.thaumcraft.Research.addPage("ARCHMAGEORB", "bloodmagic.research_page.ARCHMAGEORB");
-game.setLocalization("bloodmagic.research_page.ARCHMAGEORB", "After you createt a raw Orb Tier 5 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Archmage Blood Orb");
+game.setLocalization("bloodmagic.research_page.ARCHMAGEORB", "When you have created a Raw Orb Tier 5 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get an Archmage's Blood Orb.");
 mods.thaumcraft.Arcane.addShaped("ARCHMAGEORB", <dreamcraft:item.ArchmageOrb>, "aer 100, aqua 100, ignis 100, terra 100, perditio 100, ordo 100", [
 [null, <AWWayofTime:demonBloodShard>, null],
 [<AWWayofTime:bloodMagicBaseItems:27>, <dreamcraft:item.RawOrbTier5>, <AWWayofTime:bloodMagicBaseItems:27>],
@@ -533,7 +533,7 @@ game.setLocalization("tc.research_text.TRANSCENDENTORB", "[BM] Orb transformatio
 mods.thaumcraft.Research.addPrereq("TRANSCENDENTORB", "ARCHMAGEORB", false);
 mods.thaumcraft.Research.setConcealed("TRANSCENDENTORB", true);
 mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "bloodmagic.research_page.TRANSCENDENTORB");
-game.setLocalization("bloodmagic.research_page.TRANSCENDENTORB", "After you createt a raw Orb Tier 6 out of Gregtech materials you have to thinking about how it can becomes a Blood Orb. Now you adding Magic to The Orb in the Fist step. After this you need to fill it with the Blood of the Blood Altar to get an Transcendent Blood Orb");
+game.setLocalization("bloodmagic.research_page.TRANSCENDENTORB", "When you have created a Raw Orb Tier 6 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get an Transcendent Blood Orb.");
 mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>, "aer 150, aqua 150, ignis 150, terra 150, perditio 150, ordo 150", [
 [null, <AWWayofTime:blockCrystal>, null],
 [<BloodArsenal:sigil_of_lightning:1>, <dreamcraft:item.RawOrbTier6>, <BloodArsenal:sigil_of_lightning:1>],
@@ -559,7 +559,7 @@ mods.thaumcraft.Warp.addToResearch("TRANSPARENTORB", 7);
 // --- Empty Socket
 mods.thaumcraft.Research.addResearch("EMPTYSOCKET", "BLOODMAGIC", "terra 15, tutamen 12, praecantatio 9, tenebrae 6, sano 3", 2, -6, 3, <AWWayofTime:emptySocket>);
 game.setLocalization("tc.research_name.EMPTYSOCKET", "Empty Socket");
-game.setLocalization("tc.research_text.EMPTYSOCKET", "[BM] Mh this smees not to work...");
+game.setLocalization("tc.research_text.EMPTYSOCKET", "[BM] Hmm, this does not seem to work...");
 mods.thaumcraft.Research.addPrereq("EMPTYSOCKET", "BLOODLETTERSPACK", false);
 mods.thaumcraft.Research.setConcealed("EMPTYSOCKET", true);
 mods.thaumcraft.Research.addPage("EMPTYSOCKET", "bloodmagic.research_page.EMPTYSOCKET");
@@ -596,7 +596,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "INFUSION", false
 mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFARGUMENTEDCAPACITY", true);
 mods.thaumcraft.Research.addPage("RUNEOFARGUMENTEDCAPACITY", "bloodmagic.research_page.RUNEOFARGUMENTEDCAPACITY");
-game.setLocalization("bloodmagic.research_page.RUNEOFARGUMENTEDCAPACITY", "The Rune of Augmented Capacity is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Augmented Capacity adds an additional 2,000 LP storage potential to the Blood Altar. This also increases the tank's internal buffer as it is always 10% of the altar's capacity.");
+game.setLocalization("bloodmagic.research_page.RUNEOFARGUMENTEDCAPACITY", "The Rune of Augmented Capacity is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work alongside each rune in the upgrade process. The Rune of Augmented Capacity adds an additional 2,000 LP storage potential to the Blood Altar. This also increases the tank's internal buffer as it is always 10% of the altar's capacity.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFARGUMENTEDCAPACITY", <BloodArsenal:blood_stone:1>, 
 [<BuildCraft|Factory:tankBlock>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <BuildCraft|Factory:tankBlock>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>], 
 "aqua 32, lucrum 24, fames 18, praecantatio 12, terra 8, vacuos 4", <AWWayofTime:AlchemicalWizardrybloodRune:1>, 7);
@@ -610,7 +610,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFDISLOCATION", true);
 mods.thaumcraft.Research.addPage("RUNEOFDISLOCATION", "bloodmagic.research_page.RUNEOFDISLOCATION");
-game.setLocalization("bloodmagic.research_page.RUNEOFDISLOCATION", "The Rune of Dislocation is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work along side each rune in the upgrade process. The Rune of Dislocation increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate.");
+game.setLocalization("bloodmagic.research_page.RUNEOFDISLOCATION", "The Rune of Dislocation is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work alongside each rune in the upgrade process. The Rune of Dislocation increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFDISLOCATION", <BloodArsenal:blood_stone:1>, 
 [<gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>], 
 "aqua 32, praecantatio 24, motus 18, tempus 12, terra 8, cognitio 4", <AWWayofTime:AlchemicalWizardrybloodRune:2>, 7);
