@@ -2936,6 +2936,34 @@ public class GT_Loader_Machines
 				11225, "transformer.tier.14", "Overpowered Transformer",14,
 				"MAX -> OPV (Use Soft Mallet to invert)").getStackForm(1L));
 
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_UEV_UHV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[] {"KBB", "CM ", "KBB",
+						'M', ItemList.Hull_MAX,
+						'C', OrePrefixes.wireGt01.get(Materials.Draconium),
+						'B', OrePrefixes.wireGt04.get(Materials.Superconductor),
+						'K', ItemList.Circuit_Chip_UHPIC});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_UIV_UEV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[] {"KBB", "CM ", "KBB",
+						'M', CustomItemList.Hull_UEV,
+						'C', OrePrefixes.wireGt01.get(Materials.NetherStar),
+						'B', OrePrefixes.wireGt04.get(Materials.Draconium),
+						'K', ItemList.Circuit_Chip_UHPIC});
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_UMV_UIV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[] {"KBB", "CM ", "KBB",
+						'M', CustomItemList.Hull_UIV,
+						'C', OrePrefixes.wireGt01.get(Materials.Quantium),
+						'B', OrePrefixes.wireGt04.get(Materials.NetherStar),
+						'K', ItemList.Circuit_Chip_UHPIC});
+
+
 		//TODO:recipes
 
 		// ===================================================================================================
@@ -3115,8 +3143,24 @@ public class GT_Loader_Machines
 		CustomItemList.Hatch_Dynamo_UEV.set(new GT_MetaTileEntity_Hatch_Dynamo(
 				11290, "hatch.dynamo.tier.10", "UEV Dynamo Hatch",10).getStackForm(1L));
 
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Dynamo_UEV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{" MC",
+						'M', CustomItemList.Hull_UEV,
+						'C', OrePrefixes.wireGt01.get(Materials.Draconium)});
+
+
 		CustomItemList.Hatch_Dynamo_UIV.set(new GT_MetaTileEntity_Hatch_Dynamo(
 				11291, "hatch.dynamo.tier.11", "UIV Dynamo Hatch",11).getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Dynamo_UEV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{" MC",
+						'M', CustomItemList.Hull_UIV,
+						'C', OrePrefixes.wireGt01.get(Materials.NetherStar)});
+
 
 		CustomItemList.Hatch_Dynamo_UMV.set(new GT_MetaTileEntity_Hatch_Dynamo(
 				11292, "hatch.dynamo.tier.12", "UMV Dynamo Hatch",12).getStackForm(1L));
@@ -3135,11 +3179,37 @@ public class GT_Loader_Machines
 		CustomItemList.Hatch_Energy_UEV.set(new GT_MetaTileEntity_Hatch_Energy(
 				11300, "hatch.energy.tier.10", "UEV Energy Hatch",10).getStackForm(1L));
 
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Energy_UEV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CM ",
+						'M', CustomItemList.Hull_UEV,
+						'C', OrePrefixes.wireGt01.get(Materials.Draconium)});
+
+
 		CustomItemList.Hatch_Energy_UIV.set(new GT_MetaTileEntity_Hatch_Energy(
 				11301, "hatch.energy.tier.11", "UIV Energy Hatch",11).getStackForm(1L));
 
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Energy_UIV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CM ",
+						'M', CustomItemList.Hull_UIV,
+						'C', OrePrefixes.wireGt01.get(Materials.NetherStar)});
+
+
 		CustomItemList.Hatch_Energy_UMV.set(new GT_MetaTileEntity_Hatch_Energy(
 				11302, "hatch.energy.tier.12", "UMV Energy Hatch",12).getStackForm(1L));
+
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Energy_UMV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"CM ",
+						'M', CustomItemList.Hull_UMV,
+						'C', OrePrefixes.wireGt01.get(Materials.Quantium)});
 
 
 		// ===================================================================================================
@@ -3293,13 +3363,49 @@ public class GT_Loader_Machines
 				12009, "wettransformer.tier.09", "Highly Ultimate Power Transformer", 9,
 				"UEV -> UHV (Use Soft Mallet to invert)").getStackForm(1L));
 
+		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UEV_UHV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"XOC", "STA", "POC",
+						'A', OrePrefixes.springSmall.get(Materials.Neutronium),
+						'C', OrePrefixes.wireGt08.get(Materials.Superconductor),
+						'S', OrePrefixes.spring.get(Materials.Draconium),
+						'X', OrePrefixes.wireGt08.get(Materials.Draconium),
+						'O', ItemList.Reactor_Coolant_He_1,
+						'P', ItemList.Electric_Pump_MV,
+						'T', CustomItemList.Transformer_UEV_UHV});
+
 		CustomItemList.WetTransformer_UIV_UEV.set(new GT_MetaTileEntity_WetTransformer(
 				12010, "wettransformer.tier.10", "Extremely Ultimate Power Transformer",10,
 				"UIV -> UEV (Use Soft Mallet to invert)").getStackForm(1L));
 
+		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UIV_UEV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"XOC", "STA", "POC",
+						'A', OrePrefixes.springSmall.get(Materials.Draconium),
+						'C', OrePrefixes.wireGt08.get(Materials.Draconium),
+						'S', OrePrefixes.spring.get(Materials.BlackPlutonium),
+						'X', OrePrefixes.wireGt08.get(Materials.NetherStar),
+						'O', ItemList.Reactor_Coolant_He_3,
+						'P', ItemList.Electric_Pump_HV,
+						'T', CustomItemList.Transformer_UIV_UEV});
+
 		CustomItemList.WetTransformer_UMV_UIV.set(new GT_MetaTileEntity_WetTransformer(
 				12011, "wettransformer.tier.11", "Insanely Ultimate Power Transformer",11,
 				"UMV -> UIV (Use Soft Mallet to invert)").getStackForm(1L));
+
+		GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UMV_UIV.get(1L),
+				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
+						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				new Object[]{"XOC", "STA", "POC",
+						'A', OrePrefixes.springSmall.get(Materials.BlackPlutonium),
+						'C', OrePrefixes.wireGt08.get(Materials.NetherStar),
+						'S', OrePrefixes.spring.get(Materials.Quantium),
+						'X', OrePrefixes.wireGt08.get(Materials.Quantium),
+						'O', ItemList.Reactor_Coolant_He_6,
+						'P', ItemList.Electric_Pump_IV,
+						'T', CustomItemList.Transformer_UMV_UIV});
 
 		CustomItemList.WetTransformer_UXV_UMV.set(new GT_MetaTileEntity_WetTransformer(
 				12012, "wettransformer.tier.12", "Mega Ultimate Power Transformer",12,
