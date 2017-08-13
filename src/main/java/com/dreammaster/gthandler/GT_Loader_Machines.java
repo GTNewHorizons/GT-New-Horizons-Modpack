@@ -2909,7 +2909,7 @@ public class GT_Loader_Machines
 						'C', OrePrefixes.circuit.get(Materials.Infinite),
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
-		
+
 		// ===================================================================================================
 		// Hull
 		// ===================================================================================================
@@ -3157,7 +3157,7 @@ public class GT_Loader_Machines
 		CustomItemList.Hatch_Dynamo_UIV.set(new GT_MetaTileEntity_Hatch_Dynamo(
 				11291, "hatch.dynamo.tier.11", "UIV Dynamo Hatch",11).getStackForm(1L));
 
-		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Dynamo_UEV.get(1L),
+		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Dynamo_UIV.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
 						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
 				new Object[]{" MC",
