@@ -71816,7 +71816,7 @@
     {
       "questID": 781,
       "name": "Still not enough charcoal?",
-      "description": "Now that you have a vacuum freezer and you have the possibility of manufacturing kanthal, it\u0027s time to build a pyrolyse oven. This oven is the best way to get charcoal and creosote (x50 faster than Railcraft\u0027s coke oven). You will need tons of bronze, iron and steel to build it, but it\u0027s worth it. Finally, it will be possible to dismantle the charcoal pit.",
+      "description": "This oven is the best way to get charcoal and creosote (x50 faster than Railcraft\u0027s coke oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it\u0027s worth it. Finally, it will be possible to dismantle the charcoal pit.\nWith Cupronickel coils the oven is a bit slowlier. Each coil tier speed up the charcoal production.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -71880,7 +71880,7 @@
               "id": "gregtech:gt.blockcasings5",
               "Count": 9,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -71917,7 +71917,8 @@
         }
       ],
       "preRequisites": [
-        78
+        77,
+        717
       ]
     },
     {
@@ -92817,22 +92818,22 @@
         {
           "id": 78,
           "x": 48,
-          "y": 108
+          "y": 180
         },
         {
           "id": 79,
           "x": 48,
-          "y": 144
+          "y": 252
         },
         {
           "id": 80,
-          "x": 144,
-          "y": 72
+          "x": 192,
+          "y": 108
         },
         {
           "id": 81,
           "x": 96,
-          "y": 108
+          "y": 180
         },
         {
           "id": 82,
@@ -92841,7 +92842,7 @@
         },
         {
           "id": 83,
-          "x": 96,
+          "x": 144,
           "y": 72
         },
         {
@@ -92851,8 +92852,8 @@
         },
         {
           "id": 86,
-          "x": 48,
-          "y": 180
+          "x": 96,
+          "y": 252
         },
         {
           "id": 45,
@@ -92866,17 +92867,17 @@
         },
         {
           "id": 475,
-          "x": 48,
-          "y": 216
-        },
-        {
-          "id": 476,
-          "x": 48,
+          "x": 144,
           "y": 252
         },
         {
+          "id": 476,
+          "x": 144,
+          "y": 288
+        },
+        {
           "id": 477,
-          "x": 48,
+          "x": 96,
           "y": 288
         },
         {
@@ -92916,33 +92917,33 @@
         },
         {
           "id": 761,
-          "x": 144,
+          "x": 192,
           "y": 144
         },
         {
           "id": 762,
-          "x": 192,
-          "y": 108
-        },
-        {
-          "id": 763,
-          "x": 192,
+          "x": 240,
           "y": 144
         },
         {
+          "id": 763,
+          "x": 240,
+          "y": 180
+        },
+        {
           "id": 764,
-          "x": 96,
+          "x": 144,
           "y": 180
         },
         {
           "id": 765,
           "x": 288,
-          "y": 36
+          "y": 72
         },
         {
           "id": 766,
           "x": 288,
-          "y": 72
+          "y": 144
         },
         {
           "id": 767,
@@ -92951,13 +92952,13 @@
         },
         {
           "id": 768,
-          "x": 384,
-          "y": 72
+          "x": 336,
+          "y": 108
         },
         {
           "id": 781,
-          "x": 0,
-          "y": 144
+          "x": 96,
+          "y": 108
         },
         {
           "id": 784,
@@ -92986,7 +92987,7 @@
         },
         {
           "id": 556,
-          "x": 96,
+          "x": 144,
           "y": 144
         },
         {
@@ -92996,13 +92997,13 @@
         },
         {
           "id": 940,
-          "x": 240,
-          "y": 108
+          "x": 288,
+          "y": 180
         },
         {
           "id": 941,
-          "x": 288,
-          "y": 108
+          "x": 336,
+          "y": 180
         },
         {
           "id": 560,
