@@ -55319,7 +55319,7 @@
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 5,
+              "Count": 3,
               "OreDict": "",
               "Damage": 23500
             },
@@ -56576,7 +56576,7 @@
     {
       "questID": 640,
       "name": "LPG",
-      "description": "Centrifuging your refinery gas gives you LPG with a burn value of 320,000 EU, the same as naphtha. Also it is a way to get methane and eventually epichlorohydrin.",
+      "description": "Centrifuging some Butane or Propane gives you LPG with a burn value of 320,000 EU, the same as naphtha. Also it is a way to get methane and eventually epichlorohydrin.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
