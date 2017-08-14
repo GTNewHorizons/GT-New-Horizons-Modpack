@@ -647,83 +647,83 @@ recipes.addShaped(<dreamcraft:item.BowStringCast>, [
 
 // --- Charcoal out of XP 2,5 level
 recipes.addShaped(<minecraft:coal:1>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null],
+[<OpenBlocks:filledbucket>, null, null],
 [null, null, null],
 [null, null, null]]);
 
 // --- Redstone Dust out of XP 2,5 level
 recipes.addShaped(<minecraft:redstone>, [
-[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null],
+[null, <OpenBlocks:filledbucket>, null],
 [null, null, null],
 [null, null, null]]);
 
 // --- Glass Dust out of XP 2,5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2890>, [
-[null, null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
+[null, null, <OpenBlocks:filledbucket>],
 [null, null, null],
 [null, null, null]]);
 
 // --- String of XP 2,5 level
 recipes.addShaped(<minecraft:string>, [
 [null, null, null],
-[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null],
+[null, <OpenBlocks:filledbucket>, null],
 [null, null, null]]);
 
 // --- Clay Dust out of XP 2,5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2805>, [
 [null, null, null],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null],
+[<OpenBlocks:filledbucket>, null, null],
 [null, null, null]]);
 
 // --- Copper Dust out of XP 5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2035>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null]]);
  
 // --- Sulfur Dust out of XP 5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2022>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)]]);
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
 
 // --- Iron Dust out of XP 5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2032>, [
-[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)]]);
+[null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
 // --- Tin Dust out of XP 7,5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2057>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null],
+[<OpenBlocks:filledbucket>, null, null]]);
 
 // --- Nickel Dust out of XP 7,5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2034>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
 // --- Obsidian Dust out of XP 10 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2804>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>),  <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>,  <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, null, null]]);
 
 // --- Sticky Resin out of XP 17,5 level
 recipes.addShaped(<IC2:itemHarz>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, null]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, null, null]]);
 
 // --- Aluminum Tico Dust out of XP 20 level
 recipes.addShaped(<TConstruct:materials:40>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null]]);
 
 // --- Silver Dust out of XP 20 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2054>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
 // --- Gold Dust out of XP 20 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2086>, [
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)],
-[<OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>), null, <OpenBlocks:filledbucket>.giveBack(<minecraft:bucket>)]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
 
 
 
