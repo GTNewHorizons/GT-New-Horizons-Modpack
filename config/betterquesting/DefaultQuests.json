@@ -34882,13 +34882,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "AWWayofTime:crystallos",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "AWWayofTime:sanctus",
+              "id": "AWWayofTime:simpleCatalyst",
               "Count": 16,
               "OreDict": "",
               "Damage": 0
@@ -34903,7 +34897,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "AWWayofTime:simpleCatalyst",
+              "id": "AWWayofTime:crystallos",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AWWayofTime:sanctus",
               "Count": 16,
               "OreDict": "",
               "Damage": 0
