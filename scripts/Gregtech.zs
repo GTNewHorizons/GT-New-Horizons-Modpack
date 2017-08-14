@@ -423,6 +423,15 @@ recipes.remove(<ore:nuggetDraconiumAwakened>);
 // --- Thauminite
 recipes.remove(<thaumicbases:resource>);
 
+// --- Coal Dust
+recipes.remove(<ore:dustCoal>);
+
+// --- Charcoal
+recipes.removeShapeless(<minecraft:coal:1> * 9, [<gregtech:gt.blockgem3:4>]);
+
+// --- Charcoal Dust
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2536> * 9, [<gregtech:gt.blockgem3:4>]);
+
 
 
 
@@ -1040,6 +1049,7 @@ ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:802> * 2, <minecraft:flint>, 32, 
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:8890>, <TConstruct:GlassBlock>, 10, 16);
 //-
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:1890>, <gregtech:gt.metaitem.02:27890>, 10, 16);
+
 
 
 

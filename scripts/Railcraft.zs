@@ -10,6 +10,7 @@ import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.gregtech.FluidSolidifier;
 import mods.gregtech.Fuels;
+import mods.gregtech.ForgeHammer;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
 import mods.gregtech.PlateBender;
@@ -1560,6 +1561,16 @@ Compressor.addRecipe(<Railcraft:machine.alpha:12>, <dreamcraft:item.AdvancedCoke
 
 // --- Coke Oven
 Compressor.addRecipe(<Railcraft:machine.alpha:7>, <dreamcraft:item.CokeOvenBrick> * 4);
+
+
+
+// --- Forge Hammer recipes
+
+
+
+// --- Coke Coal
+ForgeHammer.addRecipe(<Railcraft:fuel.coke> * 9, <Railcraft:cube>, 100, 24);
+
 
 
 
