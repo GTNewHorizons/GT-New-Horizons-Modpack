@@ -64,7 +64,7 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:pureZombieBrain>);
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:talismanFood>);
 
 // --- Think Tank
-mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:thinkTankJar>);
+//mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:thinkTankJar>);
 
 // --- Talsiman of the Dreamcatcher
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicExploration:charmNoTaint>);
