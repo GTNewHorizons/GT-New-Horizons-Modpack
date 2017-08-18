@@ -58395,10 +58395,8 @@
         }
       ],
       "preRequisites": [
-        160,
         653,
-        779,
-        802
+        779
       ]
     },
     {
@@ -74300,7 +74298,8 @@
       "preRequisites": [
         799,
         801,
-        800
+        800,
+        654
       ]
     },
     {
@@ -74511,8 +74510,7 @@
       ],
       "preRequisites": [
         802,
-        804,
-        176
+        804
       ]
     },
     {
@@ -89743,6 +89741,66 @@
         37,
         54
       ]
+    },
+    {
+      "questID": 949,
+      "name": "Seed Bags",
+      "description": "Finding some special \"pams harvest craft\" gardens can be very difficult. With your farmer coins you can buy some gardenbags.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 1200,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:stalkgarden",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 35
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        440
+      ]
     }
   ],
   "questLines": [
@@ -92032,6 +92090,11 @@
           "id": 888,
           "x": 276,
           "y": 72
+        },
+        {
+          "id": 949,
+          "x": 0,
+          "y": 36
         }
       ]
     },
