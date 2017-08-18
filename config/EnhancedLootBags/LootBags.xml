@@ -1248,7 +1248,7 @@
         <Loot Identifier="736d93c2-6cf5-4269-83ef-141bf6361f49" ItemName="Railcraft:track" Amount="64" NBTTag="{track:&quot;railcraft:track.electric&quot;}" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="a7228252-8158-49f4-8d5d-7587eff9b5df" ItemName="Railcraft:track:816" Amount="64" NBTTag="{track:&quot;railcraft:track.speed&quot;}" Chance="95" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="35" GroupName="Seeds Class 3" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="false">
+    <LootGroup GroupMetaID="35" GroupName="Seeds" Rarity="0" MinItems="5" MaxItems="8" CombineTrashGroup="false">
         <Loot Identifier="83e2efd0-d0d9-4799-b7f1-243243455fec" ItemName="harvestcraft:blackberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="2936fb99-dc7b-44dd-9e98-9aaee9c4b3b6" ItemName="harvestcraft:blueberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="071e3968-caac-4284-85f4-2e665261fac5" ItemName="harvestcraft:candleberryseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1307,5 +1307,20 @@
         <Loot Identifier="285e6165-7966-4649-b70d-222a5467cc27" ItemName="harvestcraft:riceseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="12f43014-fda2-426e-aaed-4076df34ec70" ItemName="harvestcraft:seaweedseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c4c16c26-02c9-4c51-afd9-f2592c4509cd" ItemName="harvestcraft:waterchestnutseedItem" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="36" GroupName="Gardens" Rarity="0" MinItems="3" MaxItems="5" CombineTrashGroup="false">
+        <Loot Identifier="debec42a-db54-4acd-97b2-8c85adbcbb36" ItemName="harvestcraft:berrygarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="652f6523-6190-403b-abb8-e89d291c5f79" ItemName="harvestcraft:desertgarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b171d65b-f65b-4ba8-a776-c9d0d31a520c" ItemName="harvestcraft:grassgarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ff7bc560-d83d-41e2-8ccf-e60b5cdad797" ItemName="harvestcraft:gourdgarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="40b876b0-4fac-4c82-aaad-4773a9493b74" ItemName="harvestcraft:groundgarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ed0dd547-9b00-4b9d-8204-b037a220798c" ItemName="harvestcraft:herbgarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="75024046-df4d-49e7-82d9-1a4b8d891ebe" ItemName="harvestcraft:leafygarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7fb309da-3c1d-4dfc-8ede-b6018ab8d900" ItemName="harvestcraft:mushroomgarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c1aa4dc7-6c5b-43ef-9660-266603348649" ItemName="harvestcraft:stalkgarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4b2ba86f-58e4-4ed3-8bfb-7deaadbbc84c" ItemName="harvestcraft:textilegarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="25ce2fb7-0118-476e-8eea-4ec68b3c6e96" ItemName="harvestcraft:tropicalgarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="41f6f1f5-9630-4bd9-83cf-e7bf79328f22" ItemName="harvestcraft:watergarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1da8e823-bb8f-4430-8e3f-a825b64abaec" ItemName="harvestthenether:netherGarden" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
