@@ -1325,7 +1325,7 @@ public class GT_MachineRecipeLoader implements Runnable{
                 GT_Values.RA.addAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Phenolic_Good.get(1), GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 2L, 9), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Electrum, 16)}, tMat.getMolten(288L * tMultiplier / 2L), GT_ModHandler.getModItem("StevesCarts", "ModuleComponents", 1L, 16), 200, 120);
 
                 //Energy Flow Circuit
-                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass_Elite.get(1), GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Ultimate, 2), ItemList.Circuit_Chip_UHPIC.get(4), ItemList.Circuit_Chip_QuantumCPU.get(2), ItemList.Circuit_Chip_NanoCPU.get(2), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.Superconductor, 16)},  tMat.getMolten(576L * tMultiplier / 2L), CustomItemList.HighEnergyFlowCircuit.get(1), 600, 7680, true);
+                GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Multifiberglass_Elite.get(1), ItemList.Circuit_Wetwarecomputer.get(2), ItemList.Circuit_Chip_UHPIC.get(4), ItemList.Circuit_Chip_QuantumCPU.get(2), ItemList.Circuit_Chip_NanoCPU.get(2), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.Superconductor, 64)},  tMat.getMolten(576L * tMultiplier / 2L), CustomItemList.HighEnergyFlowCircuit.get(1), 2400, 7680, true);
             }
         }
 
