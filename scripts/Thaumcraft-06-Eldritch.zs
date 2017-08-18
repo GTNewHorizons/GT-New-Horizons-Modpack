@@ -315,15 +315,15 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:81>.withTag(
 
 // --- Void Aspected Silverwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:81>.withTag({cap: "void", rod: "silverwood"}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <ore:screwTitanium>, <dreamcraft:item.ChargedVoidWandCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:2>, <ore:screwTitanium>],
-[<dreamcraft:item.ChargedVoidWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryTears>]]);
+[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedVoidWandCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.ChargedVoidWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Void Aspected Silverwood Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:121>.withTag({cap: "void", rod: "silverwood", sceptre: 1}), "aer 160, terra 160, ignis 160, aqua 160, ordo 160, perditio 160", [
 [<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedVoidWandCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:2>, <dreamcraft:item.ChargedVoidWandCap>],
-[<dreamcraft:item.ChargedVoidWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryTears>]]);
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <dreamcraft:item.ChargedVoidWandCap>],
+[<dreamcraft:item.ChargedVoidWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Void Aspected Greatwood Staff Wand
 mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:72>.withTag({cap: "void", rod: "greatwood_staff"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
