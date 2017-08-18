@@ -121,15 +121,15 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:90>.withTag(
 
 // --- Ichorium Ardorned Silverwood Wand
 mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:90>.withTag({cap: "ICHOR", rod: "silverwood"}), "aer 140, terra 140, ignis 140, aqua 140, ordo 140, perditio 140", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.IchoriumCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:2>, <ore:screwTitanium>],
-[<dreamcraft:item.IchoriumCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+[<TwilightForest:item.fieryBlood>, <ore:screwTungstenSteel>, <dreamcraft:item.IchoriumCap>],
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
+[<dreamcraft:item.IchoriumCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
 
 // --- Ichorium Ardorned Silverwood Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:135>.withTag({cap: "ICHOR", rod: "silverwood", sceptre: 1}), "aer 170, terra 170, ignis 170, aqua 170, ordo 170, perditio 170", [
 [<TwilightForest:item.fieryBlood>, <dreamcraft:item.IchoriumCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:2>, <dreamcraft:item.IchoriumCap>],
-[<dreamcraft:item.IchoriumCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
+[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <dreamcraft:item.IchoriumCap>],
+[<dreamcraft:item.IchoriumCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryBlood>]]);
 
 // --- Ichorium Ardorned Greatwood Staff Wand
 mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:80>.withTag({cap: "ICHOR", rod: "greatwood_staff"}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
