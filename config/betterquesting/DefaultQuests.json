@@ -58171,33 +58171,28 @@
               "tag": {}
             },
             {
-              "id": "GraviSuite:advLappack",
+              "id": "IC2:itemArmorNanoChestplate",
               "Count": 1,
               "OreDict": "",
-              "Damage": 27,
-              "tag": {
-                "toolXP:6": 0.0,
-                "charge:4": 0,
-                "toolMode:4": 0
-              }
+              "Damage": 27
             },
             {
-              "id": "dreamcraft:item.TitaniumItemCasing",
+              "id": "IC2:itemPartCarbonPlate",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17316
+            },
+            {
               "id": "gregtech:gt.blockmachines",
               "Count": 2,
               "OreDict": "",
-              "Damage": 1563
-            },
-            {
-              "id": "GraviSuite:itemSimpleItem",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 6
+              "Damage": 1644
             },
             {
               "id": "gregtech:gt.metaitem.03",
