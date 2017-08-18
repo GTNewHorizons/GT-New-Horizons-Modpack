@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.5.1.0 is out 05.08.2017
+Version 1.5.1.1 is out 19.08.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -77,7 +77,7 @@ http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
-Official EU Test Server 1.5.0.7
+Official EU Test Server 1.5.1.1
 zeta.gtnewhorizons.com<BR>
 
  
@@ -112,7 +112,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.0.7 --- 05.08.2017<BR>
+## Modlist - NewHorizons 1.5.1.1 --- 19.08.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta18<BR>
@@ -128,7 +128,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
 * Avaritia 1.14<BR>
-* Avaritiaddons 1.3b<BR>
+* Avaritiaddons 1.4<BR>
 * BackPack	2.2.4<BR>
 * Baubles	1.0.1.11<BR>
 * BdLib	1.9.3.109<BR>
@@ -188,10 +188,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.31.23<BR>
+* Gregtech	5.09.31.26<BR>
 * GT Scanner Mod 1.1<BR>
-* GT New Horizons Core Mod	1.5.0<BR>
-* GT++ 1.5.6d<BR>
+* GT New Horizons Core Mod	1.5.4<BR>
+* GT++ 1.5.9<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -227,7 +227,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * NEI	1.0.5.120<BR>
 * Nei Addons	1.12.15.41<BR>
 * Nei Integration	1.1.2<BR>
-* Nodal Mechanics	1.0-13<BR>
+* Nodal Mechanics	1.1-19<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.6.753<BR>
 * Open Computers	1.6.2.12<BR>
@@ -266,8 +266,8 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.10.8a<BR>
-* Storage Drawers Wood Addons 1.1.1<BR>
+* Storage Drawers	1.10.8b<BR>
+* Storage Drawers Wood Addons 1.1.2b<BR>
 * Tainted Magic	r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
 * Thaumcraft	4.2.3.5<BR>
@@ -278,7 +278,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Thaumic Exploration	1.1.69<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
-* Thaumic Tinkerer	2.5.552<BR>
+* Thaumic Tinkerer	2.5.553<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9.4-GTNH<BR>
 * Tinker's Gregworks	1.0.17<BR>
@@ -298,7 +298,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Warp Theory	1.0h dev<BR>
 * Wireless Redstone CBE	1.4.1.11<BR>
 * Witchery	0.24.1<BR>
-* YamCore	0.5.76<BR>
+* YamCore	0.5.77<BR>
 * Yuuto Lib 1.0.3<BR>
 * Ztones	2.2.2custom<BR>
 
