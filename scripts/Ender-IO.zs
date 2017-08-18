@@ -758,7 +758,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<EnderIO:blockCapBank>.withTag({type: "C
 
 
 // --- Basic Capacitor
-Assembler.addRecipe(Capacitor, <gregtech:gt.metaitem.01:26080> * 2, <gregtech:gt.metaitem.01:29031> * 2,  <liquid:molten.plastic> * 288, 200, 30);
+Assembler.addRecipe(Capacitor, <gregtech:gt.metaitem.01:26080> * 4, <gregtech:gt.metaitem.01:29031> * 4,  <liquid:molten.plastic> * 288, 200, 30);
 
 // --- Double Layer Capacitor
 Assembler.addRecipe(Capacitor2, Capacitor * 2, <gregtech:gt.metaitem.01:2535>,  <liquid:molten.energeticalloy> * 864, 150, 120);
