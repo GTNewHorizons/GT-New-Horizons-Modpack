@@ -426,6 +426,7 @@ mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "MB_EssenceLife", false);
 mods.thaumcraft.Research.addSibling("ENCHANTEDEARTH", "INFUSION");
 mods.thaumcraft.Research.setConcealed("ENCHANTEDEARTH", true);
 mods.thaumcraft.Research.addPage("ENCHANTEDEARTH", "Enchanted Earth");
+game.setLocalization("MagicBees.research_page.ENCHANTEDEARTH", "Enchanted Earth makes plants and trees grow a bit faster in a 3x3 area around it.");
 mods.thaumcraft.Arcane.addShaped("ENCHANTEDEARTH", <MagicBees:magicbees.enchantedEarth>, "ordo 10, aqua 10, terra 10", [
 [<minecraft:dirt>, null, <minecraft:dirt>],
 [null, <MagicBees:miscResources:7>, null],
