@@ -31,6 +31,12 @@
 	<ToolTip ItemName="dreamcraft:tile.BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars"/>
 	<ToolTip ItemName="dreamcraft:tile.BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars"/>
 	<ToolTip ItemName="dreamcraft:tile.BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars"/>
+	<ToolTip ItemName="dreamcraft:tile.BronzePlatedReinforcedStone" ToolTip="§3Hardness 100 §4Blast Resistance 150"/>
+	<ToolTip ItemName="dreamcraft:tile.SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 210"/>
+	<ToolTip ItemName="dreamcraft:tile.TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 240"/>
+	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 300"/>
+	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 300 §4Blast Resistance 420"/>
+	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 600 §4Blast Resistance 500"/>
 	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!"/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1110" ToolTip="§4Nitro Diesel works in MV and above"/>
 	<ToolTip ItemName="gregtech:gt.metaitem.01:30709" ToolTip="§4works in MV Diesel Generator and above"/>
