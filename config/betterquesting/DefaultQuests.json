@@ -59780,7 +59780,7 @@
     {
       "questID": 667,
       "name": "Trainspotting",
-      "description": "The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).",
+      "description": "The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).\n\nHint: You can use your wooden rails for steve carts farms.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60444,6 +60444,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -60452,7 +60454,7 @@
               "Damage": 281
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
