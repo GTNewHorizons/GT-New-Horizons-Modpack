@@ -783,7 +783,7 @@ recipes.addShaped(BedDrum, [
 // --- Conveyor Belt
 recipes.addShaped(Conveyor, [
 [HHammer, <minecraft:rail>, Wrench],
-[<gregtech:gt.metaitem.01:32630>, <gregtech:gt.blockcasings2:11>, <gregtech:gt.metaitem.01:32630>],
+[<gregtech:gt.metaitem.01:32630>, <ore:frameGtSteel>, <gregtech:gt.metaitem.01:32630>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 // --- Filing Cabinet
