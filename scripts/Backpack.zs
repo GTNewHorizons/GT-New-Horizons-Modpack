@@ -250,11 +250,11 @@ recipes.addShaped(CyanMediumB, [
 
 // --- Medium Light Gray Backpack
 recipes.addShapeless(LightGrayMediumB,
-[MediumB, <ore:dyeLightGray>, Paintbrush]);
+[MediumB, <ore:dyeLightBlue>, Paintbrush]);
 // -
 recipes.addShaped(LightGrayMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, LightBlueSmallB, TannedLeather],
+[TannedLeather, LightGraySmallB, TannedLeather],
 [SSteelRing, TannedLeather, SSteelRing]]);
 
 // --- Medium Gray Backpack
