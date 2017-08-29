@@ -19,6 +19,9 @@ recipes.remove(<ArchitectureCraft:largePulley>);
 // --- Architecs Hammer
 recipes.remove(<ArchitectureCraft:hammer>);
 
+// --- Architecs Chisel
+recipes.remove(<ArchitectureCraft:chisel>);
+
 
 
 
@@ -49,3 +52,9 @@ recipes.addShaped(<ArchitectureCraft:hammer>, [
 [<ore:plateSteel>, <ore:plateSteel>, <ore:ingotIron>],
 [<ore:craftingToolFile>, <ore:stickWood>, <ore:ingotIron>],
 [null, <ore:stickWood>, <ore:craftingToolHardHammer>]]);
+
+// --- Architecs Chisel
+recipes.addShaped(<ArchitectureCraft:chisel>, [
+[<ore:craftingToolHardHammer>, <ore:plateIron>, <ore:plateSteel>],
+[<ore:screwIron>, <ore:stickIron>, <ore:plateIron>],
+[<ore:stickWood>, <ore:screwIron>, <ore:craftingToolScrewdriver>]]);
