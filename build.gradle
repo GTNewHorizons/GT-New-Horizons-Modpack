@@ -153,6 +153,15 @@ task getRailCraft(type: Download, dependsOn: "getHEE") {
     mustRunAfter "repackMinecraft"
 }
 
+task getGtPlusPlus(type: Download, dependsOn: "getRailCraft") {
+    onlyIf {
+        !file("libs/GT-PlusPlus-1.5.9-release.jar").exists()
+    }
+    src 'https://addons-origin.cursecdn.com/files/2462/348/GT-PlusPlus-1.5.9-release.jar'
+    dest file("libs/GT-PlusPlus-1.5.9-release.jar")
+    mustRunAfter "deobfBinJar"
+    mustRunAfter "repackMinecraft"
+}
 
 tasks.setupCIWorkspace.dependsOn getRailCraft
 tasks.setupDevWorkspace.dependsOn getRailCraft
