@@ -1,8 +1,6 @@
 package com.dreammaster.main;
 
 import cpw.mods.fml.common.network.IGuiHandler;
-import gregtech.api.enums.Textures;
-import gregtech.api.interfaces.ITexture;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 
