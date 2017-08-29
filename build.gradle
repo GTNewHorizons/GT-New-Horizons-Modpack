@@ -163,10 +163,10 @@ task getGtPlusPlus(type: Download, dependsOn: "getRailCraft") {
     mustRunAfter "repackMinecraft"
 }
 
-tasks.setupCIWorkspace.dependsOn getRailCraft
-tasks.setupDevWorkspace.dependsOn getRailCraft
-tasks.setupDecompWorkspace.dependsOn getRailCraft
-tasks.compileJava.dependsOn getRailCraft
+tasks.setupCIWorkspace.dependsOn getGtPlusPlus
+tasks.setupDevWorkspace.dependsOn getGtPlusPlus
+tasks.setupDecompWorkspace.dependsOn getGtPlusPlus
+tasks.compileJava.dependsOn getGtPlusPlus
 
 processResources
 {
