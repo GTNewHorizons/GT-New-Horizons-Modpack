@@ -9218,7 +9218,7 @@
     {
       "questID": 100,
       "name": "Press all the things",
-      "description": "With the basic forming press you can make some kind of food, glass arrows and some project red stuff. At mv/hv stage you can make rotors, different AE circuits and double your extruder/mold forms.",
+      "description": "With the basic forming press you can make different food items, glass arrows and some project red components. At mv/hv stage you can make rotors, various AE components and make copies of your molds and extruder shapes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46030,7 +46030,7 @@
     {
       "questID": 533,
       "name": "Hydrogen, methane or some farts... (Natural gas) ",
-      "description": "Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood logs will give a better amount of 60 mb each log. Maybe it\u0027s time to build a forestry tree farm.",
+      "description": "Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it\u0027s time to build a forestry tree farm.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -59795,7 +59795,7 @@
     {
       "questID": 667,
       "name": "Trainspotting",
-      "description": "The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).\n\nHint: You can use your wooden rails for steve carts farms.",
+      "description": "The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).\n\nHint: You can use your wooden rails for Steve\u0027s carts farms.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83282,7 +83282,7 @@
     {
       "questID": 885,
       "name": "Cave Spider",
-      "description": "You feel lonely. Do you like my toad?",
+      "description": "You feel lonely. Let me sing itsy-bitsy spider for you.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
