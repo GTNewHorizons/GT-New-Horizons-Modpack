@@ -82684,306 +82684,6 @@
       ]
     },
     {
-      "questID": 875,
-      "name": "Creeper",
-      "description": "You feel lonely. Do you want a friend to hug?",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 3600,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:spawn_egg",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 50
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "minecraft:spawn_egg",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 50
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        13
-      ]
-    },
-    {
-      "questID": 876,
-      "name": "Skeleton",
-      "description": "You feel lonely. Let me throw you a bone.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 3600,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:spawn_egg",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 51
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "minecraft:spawn_egg",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 51
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        13
-      ]
-    },
-    {
-      "questID": 877,
-      "name": "Spider",
-      "description": "You feel lonely. Want to stick around?",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 3600,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:spawn_egg",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 52
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "minecraft:spawn_egg",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 52
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        13
-      ]
-    },
-    {
-      "questID": 878,
-      "name": "Zombie",
-      "description": "You feel lonely. And brains sound delicious.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 3600,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:spawn_egg",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 54
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "minecraft:spawn_egg",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 54
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        13
-      ]
-    },
-    {
-      "questID": 879,
-      "name": "Slime",
-      "description": "You feel lonely, and a bit slippery.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 3600,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:spawn_egg",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 55
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "minecraft:spawn_egg",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 55
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        13
-      ]
-    },
-    {
       "questID": 880,
       "name": "Witch",
       "description": "You feel lonely. What\u0027s cooking?",
@@ -83018,7 +82718,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -83031,7 +82731,7 @@
           "rewards": [
             {
               "id": "minecraft:spawn_egg",
-              "Count": 5,
+              "Count": 3,
               "OreDict": "",
               "Damage": 66
             }
@@ -83078,7 +82778,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -83091,7 +82791,7 @@
           "rewards": [
             {
               "id": "minecraft:spawn_egg",
-              "Count": 5,
+              "Count": 2,
               "OreDict": "",
               "Damage": 57
             }
@@ -83138,7 +82838,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 10,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -83151,7 +82851,7 @@
           "rewards": [
             {
               "id": "minecraft:spawn_egg",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 61
             }
@@ -83198,7 +82898,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 10,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -83211,7 +82911,7 @@
           "rewards": [
             {
               "id": "minecraft:spawn_egg",
-              "Count": 5,
+              "Count": 2,
               "OreDict": "",
               "Damage": 62
             }
@@ -83258,7 +82958,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -83318,7 +83018,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -83331,7 +83031,7 @@
           "rewards": [
             {
               "id": "minecraft:spawn_egg",
-              "Count": 5,
+              "Count": 3,
               "OreDict": "",
               "Damage": 59
             }
@@ -83378,7 +83078,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 10,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -83391,7 +83091,7 @@
           "rewards": [
             {
               "id": "minecraft:spawn_egg",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 56
             }
@@ -83401,66 +83101,6 @@
       ],
       "preRequisites": [
         479
-      ]
-    },
-    {
-      "questID": 887,
-      "name": "Bat",
-      "description": "You feel lonely. Na na na na batthing!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 3600,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:spawn_egg",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 65
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "minecraft:spawn_egg",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 65
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        13
       ]
     },
     {
@@ -83498,7 +83138,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -83511,7 +83151,7 @@
           "rewards": [
             {
               "id": "minecraft:spawn_egg",
-              "Count": 5,
+              "Count": 3,
               "OreDict": "",
               "Damage": 60
             }
@@ -92002,74 +91642,44 @@
           "y": 0
         },
         {
-          "id": 875,
-          "x": 168,
-          "y": 36
-        },
-        {
-          "id": 876,
-          "x": 204,
-          "y": 36
-        },
-        {
-          "id": 877,
-          "x": 168,
-          "y": 0
-        },
-        {
-          "id": 878,
-          "x": 240,
-          "y": 36
-        },
-        {
-          "id": 879,
-          "x": 204,
-          "y": 0
-        },
-        {
           "id": 880,
-          "x": 168,
-          "y": 72
+          "x": 156,
+          "y": 0
         },
         {
           "id": 881,
-          "x": 168,
-          "y": 108
+          "x": 156,
+          "y": 36
         },
         {
           "id": 882,
-          "x": 168,
-          "y": 144
+          "x": 156,
+          "y": 72
         },
         {
           "id": 883,
           "x": 204,
-          "y": 108
+          "y": 36
         },
         {
           "id": 884,
           "x": 204,
-          "y": 72
+          "y": 0
         },
         {
           "id": 885,
-          "x": 240,
-          "y": 72
+          "x": 252,
+          "y": 0
         },
         {
           "id": 886,
           "x": 204,
-          "y": 144
-        },
-        {
-          "id": 887,
-          "x": 240,
-          "y": 0
+          "y": 72
         },
         {
           "id": 888,
-          "x": 276,
-          "y": 72
+          "x": 300,
+          "y": 0
         },
         {
           "id": 949,
