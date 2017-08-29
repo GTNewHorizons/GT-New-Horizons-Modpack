@@ -8,7 +8,7 @@
 
 Version 1.5.1.1 is out 19.08.2017
 
-[![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
+[![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
 ## Large Modpack with every recipe Gregified
 
