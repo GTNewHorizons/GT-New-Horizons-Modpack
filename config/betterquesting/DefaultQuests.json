@@ -7124,6 +7124,21 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 72,
+              "OreDict": "",
+              "Damage": 2934
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockcasings4",
               "Count": 36,
               "OreDict": "",
