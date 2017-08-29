@@ -9218,7 +9218,7 @@
     {
       "questID": 100,
       "name": "Press all the things",
-      "description": "With the basic forming press you can make different food items, glass arrows and some project red components. At mv/hv stage you can make rotors, various AE components and make copies of your molds and extruder shapes.",
+      "description": "With the basic forming press you can make some kind of food, glass arrows and some project red stuff. At mv/hv stage you can make rotors, different AE circuits and double your extruder/mold forms.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9682,7 +9682,10 @@
         }
       ],
       "preRequisites": [
-        88
+        91,
+        92,
+        579,
+        97
       ]
     },
     {
@@ -10203,7 +10206,7 @@
         }
       ],
       "preRequisites": [
-        106
+        88
       ]
     },
     {
@@ -10494,7 +10497,7 @@
         }
       ],
       "preRequisites": [
-        106
+        97
       ]
     },
     {
@@ -10565,7 +10568,8 @@
         }
       ],
       "preRequisites": [
-        106
+        106,
+        97
       ]
     },
     {
@@ -10624,7 +10628,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 2
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -10633,7 +10637,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -10642,7 +10646,7 @@
         }
       ],
       "preRequisites": [
-        106
+        65
       ]
     },
     {
@@ -46030,7 +46034,7 @@
     {
       "questID": 533,
       "name": "Hydrogen, methane or some farts... (Natural gas) ",
-      "description": "Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it\u0027s time to build a forestry tree farm.",
+      "description": "Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood logs will give a better amount of 60 mb each log. Maybe it\u0027s time to build a forestry tree farm.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -59795,7 +59799,7 @@
     {
       "questID": 667,
       "name": "Trainspotting",
-      "description": "The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).\n\nHint: You can use your wooden rails for Steve\u0027s carts farms.",
+      "description": "The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).\n\nHint: You can use your wooden rails for steve carts farms.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83282,7 +83286,7 @@
     {
       "questID": 885,
       "name": "Cave Spider",
-      "description": "You feel lonely. Let me sing itsy-bitsy spider for you.",
+      "description": "You feel lonely. Do you like my toad?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90530,6 +90534,11 @@
           "id": 948,
           "x": 360,
           "y": 84
+        },
+        {
+          "id": 119,
+          "x": 108,
+          "y": 180
         }
       ]
     },
@@ -90618,98 +90627,58 @@
           "y": 372
         },
         {
-          "id": 106,
-          "x": 696,
-          "y": 108
-        },
-        {
-          "id": 107,
-          "x": 804,
-          "y": 144
-        },
-        {
-          "id": 108,
-          "x": 852,
-          "y": 108
-        },
-        {
-          "id": 109,
-          "x": 840,
-          "y": 144
-        },
-        {
-          "id": 110,
-          "x": 912,
-          "y": 144
-        },
-        {
-          "id": 111,
-          "x": 768,
-          "y": 144
-        },
-        {
-          "id": 112,
-          "x": 876,
-          "y": 144
-        },
-        {
           "id": 113,
-          "x": 696,
-          "y": 180
+          "x": 336,
+          "y": 60
         },
         {
           "id": 114,
-          "x": 672,
-          "y": 216
+          "x": 360,
+          "y": 0
         },
         {
           "id": 115,
-          "x": 720,
-          "y": 216
+          "x": 312,
+          "y": 0
         },
         {
           "id": 117,
-          "x": 636,
-          "y": 144
+          "x": 492,
+          "y": 180
         },
         {
           "id": 118,
-          "x": 732,
-          "y": 144
-        },
-        {
-          "id": 119,
-          "x": 672,
-          "y": 144
+          "x": 444,
+          "y": 180
         },
         {
           "id": 120,
-          "x": 384,
+          "x": 444,
           "y": 0
         },
         {
           "id": 122,
-          "x": 432,
+          "x": 480,
           "y": 0
         },
         {
           "id": 123,
-          "x": 432,
+          "x": 480,
           "y": 36
         },
         {
           "id": 124,
-          "x": 492,
+          "x": 528,
           "y": 0
         },
         {
           "id": 125,
-          "x": 492,
+          "x": 528,
           "y": 36
         },
         {
           "id": 121,
-          "x": 384,
+          "x": 444,
           "y": 60
         },
         {
@@ -90719,8 +90688,8 @@
         },
         {
           "id": 530,
-          "x": 528,
-          "y": 252
+          "x": 588,
+          "y": 288
         },
         {
           "id": 532,
@@ -90734,8 +90703,8 @@
         },
         {
           "id": 538,
-          "x": 396,
-          "y": 180
+          "x": 336,
+          "y": 144
         },
         {
           "id": 539,
@@ -90829,8 +90798,8 @@
         },
         {
           "id": 599,
-          "x": 576,
-          "y": 144
+          "x": 648,
+          "y": 108
         },
         {
           "id": 608,
@@ -90974,8 +90943,8 @@
         },
         {
           "id": 716,
-          "x": 528,
-          "y": 180
+          "x": 588,
+          "y": 144
         },
         {
           "id": 116,
@@ -91034,7 +91003,7 @@
         },
         {
           "id": 836,
-          "x": 576,
+          "x": 648,
           "y": 336
         },
         {
@@ -91044,7 +91013,7 @@
         },
         {
           "id": 869,
-          "x": 444,
+          "x": 396,
           "y": 180
         },
         {
@@ -91064,7 +91033,7 @@
         },
         {
           "id": 930,
-          "x": 528,
+          "x": 624,
           "y": 288
         }
       ]
@@ -92202,6 +92171,47 @@
           "id": 595,
           "x": 168,
           "y": 228
+        }
+      ]
+    },
+    {
+      "name": "Steve Carts",
+      "description": "Auto farming and mining ",
+      "quests": [
+        {
+          "id": 108,
+          "x": 72,
+          "y": 48
+        },
+        {
+          "id": 106,
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": 111,
+          "x": 72,
+          "y": 0
+        },
+        {
+          "id": 107,
+          "x": 72,
+          "y": 96
+        },
+        {
+          "id": 109,
+          "x": 132,
+          "y": 96
+        },
+        {
+          "id": 110,
+          "x": 132,
+          "y": 48
+        },
+        {
+          "id": 112,
+          "x": 132,
+          "y": 0
         }
       ]
     },
