@@ -926,7 +926,7 @@ game.setLocalization("tc.research_name.CaP_ShadowmetalGTNH", "Shadowmetal Wand C
 game.setLocalization("tc.research_text.CaP_ShadowmetalGTNH", "What a drag");
 mods.thaumcraft.Research.addPage("CaP_ShadowmetalGTNH", "tc.research_page.CaP_ShadowmetalGTNH");
 game.setLocalization("tc.research_page.CaP_ShadowmetalGTNH", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.<BR>The Primordial Pearl is not consumed during the crafting process.");
-mods.thaumcraft.Infusion.addRecipe("PrimalBladeGTNH", <dreamcraft:item.ChargedVoidWandCap>,
+mods.thaumcraft.Infusion.addRecipe("CaP_ShadowmetalGTNH", <dreamcraft:item.ChargedVoidWandCap>,
 [<Thaumcraft:ItemEldritchObject:3>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>], 
 "alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 32, lucrum 16", <dreamcraft:item.ShadowmetalCap>, 12);
 mods.thaumcraft.Research.addInfusionPage("CaP_ShadowmetalGTNH", <dreamcraft:item.ShadowmetalCap>);
