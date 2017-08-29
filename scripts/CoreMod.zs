@@ -1777,12 +1777,12 @@ mods.thaumcraft.Warp.addToResearch("WITHERRING", 2);
 
 // --- Carved Imminence Stone
 mods.thaumcraft.Research.addResearch("EMINENCESTONE", "NEWHORIZONS", "alienis 15, sensus 12, terra 9, aer 6", 0, 4, 12, <ExtraUtilities:decorativeBlock1:14>);
-game.setLocalization("tc.research_name.EMINENCESTONE", "Carved Imminence Stone");
+game.setLocalization("tc.research_name.EMINENCESTONE", "Carved 'Eminence' Stone");
 game.setLocalization("tc.research_text.EMINENCESTONE", "[EU] Portal Stones");
 mods.thaumcraft.Research.addPrereq("EMINENCESTONE", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("EMINENCESTONE", false);
 mods.thaumcraft.Research.addPage("EMINENCESTONE", "ExtraUtilities.research_page.EMINENCESTONE");
-game.setLocalization("ExtraUtilities.research_page.EMINENCESTONE", "The Portal Stone for the Last Millennium Portal or only for decoration.");
+game.setLocalization("ExtraUtilities.research_page.EMINENCESTONE", "A stone with trans-dimensional capacities. Can be used to craft a portal to The Last Millenium, or as expensive decoration block.");
 mods.thaumcraft.Arcane.addShaped("EMINENCESTONE", <ExtraUtilities:decorativeBlock1:14> * 2, "aer 50, ignis 50, terra 50, aqua 50, ordo 50, perditio 50", [
 [<gregtech:gt.metaitem.01:17330>, <ProjRed|Illumination:projectred.illumination.lamp:18>, <gregtech:gt.metaitem.01:17330>],
 [<gregtech:gt.metaitem.01:17532>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:17532>],
@@ -1791,7 +1791,7 @@ mods.thaumcraft.Research.addArcanePage("EMINENCESTONE", <ExtraUtilities:decorati
 
 // --- Portal to the Last Millennium
 mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "NEWHORIZONS", "alienis 15, sensus 12, terra 9, ignis 6 vacuos 200", 2, 6, 4, <ExtraUtilities:dark_portal:2>);
-game.setLocalization("tc.research_name.PORTALMILLENIUM", "Portal to the last Millennium");
+game.setLocalization("tc.research_name.PORTALMILLENIUM", "Portal to The Last Millennium");
 game.setLocalization("tc.research_text.PORTALMILLENIUM", "[EU] Night and Void");
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "EMINENCESTONE", false);
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "OCULUS", false);
@@ -1804,7 +1804,7 @@ mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 2);
 
 // --- Portal to the Deep Dark
 mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "alienis 15, spiritus 15, metallum 12, fabrico 9 lucrum 6, potentia 3", 2, 8, 4, <ExtraUtilities:dark_portal>);
-game.setLocalization("tc.research_name.PORTALDEEPDARK", "Portal to the Deep Dark");
+game.setLocalization("tc.research_name.PORTALDEEPDARK", "Portal to The Deep Dark");
 game.setLocalization("tc.research_text.PORTALDEEPDARK", "[EU] Deep, Deeper, Deep Dark");
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "ICHOR", false);
@@ -1845,13 +1845,13 @@ mods.thaumcraft.Research.addArcanePage("ANGELBLOCK", <ExtraUtilities:angelBlock>
 
 // --- Dezlis Marshmallow
 mods.thaumcraft.Research.addResearch("DEZILSMARSHMALLOW", "NEWHORIZONS", "alienis 15, praecantatio 12, superbia 9, sano 6, potentia 3", -2, 2, 4, <DraconicEvolution:dezilsMarshmallow>);
-game.setLocalization("tc.research_name.DEZILSMARSHMALLOW", "Dezils Marshmallow");
+game.setLocalization("tc.research_name.DEZILSMARSHMALLOW", "Dezil's Marshmallow");
 game.setLocalization("tc.research_text.DEZILSMARSHMALLOW", "[DE] OP food please");
 mods.thaumcraft.Research.addPrereq("DEZILSMARSHMALLOW", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("DEZILSMARSHMALLOW", false);
 mods.thaumcraft.Research.setSpikey("DEZILSMARSHMALLOW", true);
 mods.thaumcraft.Research.addPage("DEZILSMARSHMALLOW", "de.research_page.DEZILSMARSHMALLOW");
-game.setLocalization("de.research_page.DEZILSMARSHMALLOW", "The ultimative Power of Food. You can swimm in Lava, diving like a fish, mine like crazy or jump like a rabbit. Eating on of the Marshmallow and you never get hungry again. You feeling like you can hit the Dragon with just bare Hands");
+game.setLocalization("de.research_page.DEZILSMARSHMALLOW", "The ultimate power of food. You can swim in lava, dive like a fish, mine like crazy and jump like a rabbit. Eat one of these marshmallows and you will never get hungry again. You feel like you can take on the Dragon with just bare hands");
 mods.thaumcraft.Infusion.addRecipe("DEZILSMARSHMALLOW", <dreamcraft:item.Marshmallow>, 
 [<harvestcraft:epicbaconItem>, <harvestcraft:deluxechickencurryItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:heartybreakfastItem>], 
 "alienis 32, praecantatio 16, superbia 24, sano 28, iter 20, potentia 12",  <DraconicEvolution:dezilsMarshmallow>, 5);
@@ -1935,7 +1935,7 @@ mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
 
 // --- Silky Cloth and Jewel
 mods.thaumcraft.Research.addResearch("SILKYCRYSTAL", "NEWHORIZONS", "pannus 15, lucrum 2, instrumentum 9, aer 6, praecantatio 3", -2, -2, 4, <TConstruct:materials:26>);
-game.setLocalization("tc.research_name.SILKYCRYSTAL", "Silky Jevel");
+game.setLocalization("tc.research_name.SILKYCRYSTAL", "Silky Jewel");
 game.setLocalization("tc.research_text.SILKYCRYSTAL", "[TC] Silky magical.");
 mods.thaumcraft.Research.addPrereq("SILKYCRYSTAL", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("SILKYCRYSTAL", true);
@@ -2014,7 +2014,7 @@ mods.thaumcraft.Warp.addToResearch("REDHEARTCANISTER", 1);
 // --- Red Heart Canister
 mods.thaumcraft.Research.addResearch("REDHEARTCANISTER", "NEWHORIZONS", "metallum 15, lucrum 15, sano 12, ignis 9, mortuus 6, exanimis 3", 0, -8, 4, <TConstruct:heartCanister:2>);
 game.setLocalization("tc.research_name.REDHEARTCANISTER", "Red Heart Canister");
-game.setLocalization("tc.research_text.REDHEARTCANISTER", "[TC] Bounded in a small Box.");
+game.setLocalization("tc.research_text.REDHEARTCANISTER", "[TC] Bound in a small box.");
 mods.thaumcraft.Research.addPrereq("REDHEARTCANISTER", "REDHEART", false);
 mods.thaumcraft.Research.setConcealed("REDHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("REDHEARTCANISTER", "TConstruct.research_page.REDHEARTCANISTER.1");
@@ -2044,7 +2044,7 @@ mods.thaumcraft.Warp.addToResearch("YELLOWHEARTCANISTER", 2);
 // --- Yellow Heart Canister
 mods.thaumcraft.Research.addResearch("YELLOWHEARTCANISTER", "NEWHORIZONS", "metallum 15, lucrum 15, sano 12, praecantatio 9, mortuus 6, exanimis 3", -2, -9, 4, <TConstruct:heartCanister:4> );
 game.setLocalization("tc.research_name.YELLOWHEARTCANISTER", "Yellow Heart Canister");
-game.setLocalization("tc.research_text.YELLOWHEARTCANISTER", "[TC] Bounded in a Box.");
+game.setLocalization("tc.research_text.YELLOWHEARTCANISTER", "[TC] Bound in a box.");
 mods.thaumcraft.Research.addPrereq("YELLOWHEARTCANISTER", "YELLOWHEART", false);
 mods.thaumcraft.Research.setConcealed("YELLOWHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("YELLOWHEARTCANISTER", "TConstruct.research_page.YELLOWHEARTCANISTER.1");
@@ -2073,8 +2073,8 @@ mods.thaumcraft.Warp.addToResearch("GREENHEART", 3);
 
 // --- Green Heart Canister
 mods.thaumcraft.Research.addResearch("GREENHEARTCANISTER", "NEWHORIZONS", "infernus 15, metallum 15, lucrum 12, sano 12, praecantatio 12, spiritus 9, fames 6, corpus 3", -4, -9, 4, <TConstruct:heartCanister:6>);
-game.setLocalization("tc.research_name.GREENHEARTCANISTER", "Green Heart");
-game.setLocalization("tc.research_text.GREENHEARTCANISTER", "[TC] Bounded in a big Box.");
+game.setLocalization("tc.research_name.GREENHEARTCANISTER", "Green Heart Canister");
+game.setLocalization("tc.research_text.GREENHEARTCANISTER", "[TC] Bound in a big box.");
 mods.thaumcraft.Research.addPrereq("GREENHEARTCANISTER", "GREENHEART", false);
 mods.thaumcraft.Research.setConcealed("GREENHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("GREENHEARTCANISTER", "TConstruct.research_page.GREENHEARTCANISTER.1");
@@ -2171,7 +2171,7 @@ mods.thaumcraft.Research.setConcealed("LUGGAGE", true);
 mods.thaumcraft.Research.addPage("LUGGAGE", "OpenBlocks.research_page.LUGGAGE.1");
 game.setLocalization("OpenBlocks.research_page.LUGGAGE.1", "Luggage is a storage block added by OpenBlocks. The block acts like a regular chest, but it is an entity. After a player places it down by right-clicking with it on the ground, it will start following them around. Right-clicking will open the inventory and it picks up items from the ground. By holding shift and right-clicking the luggage entity, it can be turned back into an item and picked up. When picked up, the luggage item will retain all content thats stored in it.");
 mods.thaumcraft.Research.addPage("LUGGAGE", "OpenBlocks.research_page.LUGGAGE.2");
-game.setLocalization("OpenBlocks.research_page.LUGGAGE.2", "Though the entity has 20 health points, it cant be hurt. Beware, as Luggage can still be burned by Lava or destroyed by cactus, though this is only in its item form, in entity form it is immune to fire and lava and even if pushed into the void will fall down next to its owner a moment later.Upon being struck by lightning, having a lightning focused wand from the Thaumcraft mod cast on it, or being blown up by a Charged Creeper, the Luggage will become supercharged, changing its texture, and doubling its inventory space.");
+game.setLocalization("OpenBlocks.research_page.LUGGAGE.2", "Though the entity has 20 health points, it cant be hurt. Beware, as Luggage can still be burned by Lava or destroyed by cactus, though this is only in its item form, in entity form it is immune to fire and lava and even if pushed into the void will fall down next to its owner a moment later. Upon being struck by lightning, having a lightning focused wand from the Thaumcraft mod cast on it, or being blown up by a Charged Creeper, the Luggage will become supercharged, changing its texture, and doubling its inventory space.");
 mods.thaumcraft.Arcane.addShaped("LUGGAGE", <OpenBlocks:luggage>, "aer 75, aqua 75, ignis 75, terra 75, perditio 75, ordo 75", [
 [<gregtech:gt.metaitem.01:27019>, <Thaumcraft:ItemGolemCore>, <gregtech:gt.metaitem.01:27019>],
 [<Automagy:crystalBrain:3>, <Thaumcraft:blockChestHungry>, <Automagy:crystalBrain:3>],
@@ -2188,7 +2188,7 @@ mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "BREWINGSTAND", false);
 mods.thaumcraft.Research.setConcealed("GHOSTAMULET", true);
 mods.thaumcraft.Research.setRound("GHOSTAMULET", true);
 mods.thaumcraft.Research.addPage("GHOSTAMULET", "Hee.research_page.GHOSTAMULET.1");
-game.setLocalization("Hee.research_page.GHOSTAMULET.1", "Getting Dragon Essence from a Dragon is quite hard on a Multiplayer Server. Now you found a way to purified your Ghost Amulet without Dragon essence the magical way. You need some Draconium, Endium, Infernium  and other End Items and Ores which let you resurrect a Dragon and get some Dragon Essence.");
+game.setLocalization("Hee.research_page.GHOSTAMULET.1", "Getting Dragon Essence from a Dragon is quite hard on a multiplayer server. You have found a way to purify your Ghost Amulet without Dragon essence the magical way. You need some Draconium, Endium, Infernium and other End items and ores which let you resurrect a Dragon and get some Dragon Essence.");
 mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>, 
 [<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>], 
 "auram 64, potentia 64, vitium 32, vitreus 48, spiritus 32, corpus 16, alienis 24, lucrum 8", <HardcoreEnderExpansion:ghost_amulet:1>, 9);
