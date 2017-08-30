@@ -76310,7 +76310,7 @@
           "requiredItems": [
             {
               "id": "GalacticraftCore:item.basicItem",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 19
             }
