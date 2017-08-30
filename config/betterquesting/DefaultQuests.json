@@ -52527,7 +52527,7 @@
     {
       "questID": 598,
       "name": "Antimony",
-      "description": "The most efficient way to get antimony for batteries is to centrifuge stibnite dust, the second most efficient way is to use tetrahedrite dust.",
+      "description": "The most efficient way to get antimony for batteries is to centrifuge stibnite dust, the second most efficient way is to use tetrahedrite dust.\n\nHint: To get lead, silver and galena you need to go to the twilight forest and look for this mix at y 5 - 45.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
