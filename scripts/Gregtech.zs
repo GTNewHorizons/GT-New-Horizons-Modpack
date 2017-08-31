@@ -424,7 +424,7 @@ recipes.remove(<ore:nuggetDraconiumAwakened>);
 recipes.remove(<thaumicbases:resource>);
 
 // --- Coal Dust
-recipes.remove(<ore:dustCoal>);
+recipes.removeShapeless(<ore:dustCoal> * 9, [<ore:blockCoal>]);
 
 // --- Charcoal
 recipes.removeShapeless(<minecraft:coal:1> * 9, [<gregtech:gt.blockgem3:4>]);
