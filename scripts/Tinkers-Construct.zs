@@ -2549,6 +2549,19 @@ Compressor.addRecipe(<TConstruct:materials>, <minecraft:paper> * 64);
 
 
 
+// --- Centrifuge Recipes ---
+
+
+// --- Raw Rubber out of Slime balls
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2896> * 2],  null, <TConstruct:strangeFood>, null, <liquid:refinedglue> * 50, [10000], 300, 5);
+// -
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2896> * 2],  null, <minecraft:slime_ball>, null, <liquid:refinedglue> * 50, [10000], 300, 5);
+// -
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2896> * 8],  null, <TConstruct:slime.gel:2>, null, <liquid:refinedglue> * 200, [10000], 300, 5);
+
+
+
+
 
 
 // --- Cutting Saw Recipes ---
@@ -2586,6 +2599,10 @@ Extractor.addRecipe(<TConstruct:strangeFood> * 4, <TConstruct:slime.gel>);
 
 // --- Green Slime Ball
 Extractor.addRecipe(<minecraft:slime_ball> * 4, <TConstruct:slime.gel:1>);
+
+// --- Raw Rubber from slime tree leaves
+Extractor.addRecipe(<gregtech:gt.metaitem.01:2896>, <TConstruct:slime.leaves> * 16);
+
 
 
 

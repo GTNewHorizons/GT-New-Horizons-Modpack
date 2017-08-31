@@ -82684,6 +82684,130 @@
       ]
     },
     {
+      "questID": 875,
+      "name": "Slime Island Journey",
+      "description": "Rubber trees are not the only source for raw rubber. Go and find some slimy island high in the sky. Slime balls and slime leaves give raw rubber too.\nMake some slime tree farms beside your rubber farm.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:slime.gel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:slime.grass",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "TConstruct:CraftedSoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:slime.sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:strangeFood",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "minecraft:ladder",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        496
+      ]
+    },
+    {
       "questID": 880,
       "name": "Witch",
       "description": "You feel lonely. What\u0027s cooking?",
@@ -89923,7 +90047,7 @@
         {
           "id": 51,
           "x": 420,
-          "y": 144
+          "y": 108
         },
         {
           "id": 53,
@@ -89938,7 +90062,7 @@
         {
           "id": 52,
           "x": 420,
-          "y": 108
+          "y": 36
         },
         {
           "id": 55,
@@ -89953,7 +90077,7 @@
         {
           "id": 57,
           "x": 468,
-          "y": 144
+          "y": 108
         },
         {
           "id": 58,
@@ -90052,7 +90176,7 @@
         },
         {
           "id": 479,
-          "x": 288,
+          "x": 324,
           "y": 144
         },
         {
@@ -90179,6 +90303,11 @@
           "id": 119,
           "x": 108,
           "y": 180
+        },
+        {
+          "id": 875,
+          "x": 420,
+          "y": 144
         }
       ]
     },
