@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.5.1.1 is out 19.08.2017
+Version 1.5.1.2 is out 01.09.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -112,7 +112,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.1.1 --- 19.08.2017<BR>
+## Modlist - NewHorizons 1.5.1.2 --- 01.09.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta18<BR>
@@ -138,7 +138,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
-* Binnie Mods	2.0-21<BR>
+* Binnie Mods	2.0-22<BR>
 * Biomes o Plenty	2.1.0.2027<BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
@@ -188,10 +188,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.31.26<BR>
+* Gregtech	5.09.31.28<BR>
 * GT Scanner Mod 1.1<BR>
-* GT New Horizons Core Mod	1.5.4<BR>
-* GT++ 1.5.9<BR>
+* GT New Horizons Core Mod	1.5.5<BR>
+* GT++ 1.5.9a<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -275,12 +275,12 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
 * Thaumic Bases	1.4.15.0<BR>
 * Thaumic Energistics	1.0.0.5<BR>
-* Thaumic Exploration	1.1.69<BR>
+* Thaumic Exploration	1.1.70<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
 * Thaumic Tinkerer	2.5.553<BR>
 * TiCTooltips	1.2.5<BR>
-* Tinker's Construct	1.8.9.4-GTNH<BR>
+* Tinker's Construct	1.8.9.5-GTNH<BR>
 * Tinker's Gregworks	1.0.17<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks	02.14.106<BR>
