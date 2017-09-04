@@ -418,7 +418,7 @@ recipes.addShapeless(<harvestcraft:silkentofuItem>, [<ore:craftingToolRollingPin
 recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
 [<minecraft:red_flower:1>, <minecraft:tallgrass:1>, <BiomesOPlenty:flowers2:2>],
 [<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
-[<minecraft:bowl>.giveBack(<minecraft:bowl>), <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
+[<minecraft:bowl>.reuse(), <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
 
 // --- Market ---
 //recipes.addShaped(<harvestcraft:market>, [
