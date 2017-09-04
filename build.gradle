@@ -147,7 +147,7 @@ task getRailCraft(type: Download, dependsOn: "getHEE") {
     onlyIf {
         !file("libs/Railcraft_1.7.10-9.12.2.0-dev.jar").exists()
     }
-    src 'https://www.dropbox.com/s/set3ry3mc63c5n1/Railcraft_1.7.10-9.12.2.0-dev.jar?dl=0'
+    src 'https://www.dropbox.com/s/set3ry3mc63c5n1/Railcraft_1.7.10-9.12.2.0-dev.jar'
     dest file("libs/Railcraft_1.7.10-9.12.2.0-dev.jar")
     mustRunAfter "deobfBinJar"
     mustRunAfter "repackMinecraft"
