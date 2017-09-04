@@ -1326,10 +1326,10 @@ recipes.addShaped(<IC2:blockMachine2:14>, [
 [<BuildCraft|Factory:tankBlock>, <ore:circuitBasic>, <BuildCraft|Factory:tankBlock>]]);
 
 // --- Fermenter
-recipes.addShaped(<IC2:blockMachine2:13>, [
-[<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-[<ore:pipeMediumSteel>, <IC2:itemRecipePart:6>, <ore:pipeMediumSteel>],
-[<IC2:itemCasing:5>, <IC2:itemRecipePart:5>, <IC2:itemCasing:5>]]);
+//recipes.addShaped(<IC2:blockMachine2:13>, [
+//[<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
+//[<ore:pipeMediumSteel>, <IC2:itemRecipePart:6>, <ore:pipeMediumSteel>],
+//[<IC2:itemCasing:5>, <IC2:itemRecipePart:5>, <IC2:itemCasing:5>]]);
 
 // ---Liquid Heat Exchanger
 recipes.addShaped(<IC2:blockMachine2:12>, [
