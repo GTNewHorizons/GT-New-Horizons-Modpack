@@ -100,8 +100,8 @@ mods.thaumcraft.Research.addCruciblePage("ELDRITCHMINOR", <Thaumcraft:ItemResour
 // --- Void Ingot
 mods.thaumcraft.Research.clearPages("VOIDMETAL");
 mods.thaumcraft.Research.addPage("VOIDMETAL", "tc.research_page.VOIDMETAL.1");
-mods.thaumcraft.Crucible.addRecipe("VOIDMETAL", <gregtech:gt.metaitem.01:11970>, <Thaumcraft:ItemResource:17>, "metallum 16");
-mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <gregtech:gt.metaitem.01:11970>);
+mods.thaumcraft.Crucible.addRecipe("VOIDMETAL", <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:17>, "metallum 16");
+mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <Thaumcraft:ItemResource:16>);
 mods.thaumcraft.Research.addPage("VOIDMETAL", "tc.research_page.VOIDMETAL.2");
 // -
 mods.thaumcraft.Research.setAspects("VOIDMETAL", "vacuos 12, metallum 12, tenebrae 9, alienis 9, gelum 6, terra 3");
