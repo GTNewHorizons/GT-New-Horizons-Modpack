@@ -2653,10 +2653,13 @@ public class GT_Loader_Machines
 				1, 1, 192000, 0, 1, "FluidCanner.png", "",
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
 
+		//ItemList.Machine_LuV_FluidCanner.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(436, "basicmachine.fluidcanner.tier.06", "Instant Fluid Canner", 6, "Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes, 1, 1, 80000, 0, 1, "FluidCanner.png", "", true, aBoolConst_0, 0, "FLUID_CANNER", new Object[]{"GCG", "GMG", "WPW", 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP, 'C', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 'W', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 'G', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.GLASS}).getStackForm(1L));
+		//ItemList.Machine_ZPM_FluidCanner.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(437, "basicmachine.fluidcanner.tier.07", "Instant Fluid Canner", 7, "Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes, 1, 1, 80000, 0, 1, "FluidCanner.png", "", true, aBoolConst_0, 0, "FLUID_CANNER", new Object[]{"GCG", "GMG", "WPW", 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP, 'C', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 'W', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 'G', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.GLASS}).getStackForm(1L));
+		//ItemList.Machine_UV_FluidCanner.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(438, "basicmachine.fluidcanner.tier.08", "Instant Fluid Canner", 8, "Puts Fluids into and out of Containers", GT_Recipe.GT_Recipe_Map.sFluidCannerRecipes, 1, 1, 80000, 0, 1, "FluidCanner.png", "", true, aBoolConst_0, 0, "FLUID_CANNER", new Object[]{"GCG", "GMG", "WPW", 'M', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.HULL, 'P', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.PUMP, 'C', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.CIRCUIT, 'W', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.WIRE, 'G', GT_MetaTileEntity_BasicMachine_GT_Recipe.X.GLASS}).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerLuV.get(1L),
 		GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"GCG", "PBP", "WCW",
+				new Object[]{"GCG", "GBG", "WPW",
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
 						'P', ItemList.Electric_Pump_LuV,
 						'B', ItemList.Hull_LuV,
@@ -2665,7 +2668,7 @@ public class GT_Loader_Machines
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerZPM.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"GCG", "PBP", "WCW",
+				new Object[]{"GCG", "GBG", "WPW",
 						'W', OrePrefixes.cableGt01.get(Materials.Naquadah),
 						'P', ItemList.Electric_Pump_ZPM,
 						'B', ItemList.Hull_ZPM,
@@ -2675,7 +2678,7 @@ public class GT_Loader_Machines
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerUV.get(1L),
 				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
-				new Object[]{"GCG", "PBP", "WCW",
+				new Object[]{"GCG", "GBG", "WPW",
 						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
 						'P', ItemList.Electric_Pump_UV,
 						'B', ItemList.Hull_UV,
