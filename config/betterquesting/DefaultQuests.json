@@ -80192,13 +80192,13 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 24,
               "OreDict": "",
               "Damage": 30013
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 24,
               "OreDict": "",
               "Damage": 30658
             }
@@ -80213,7 +80213,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 24,
               "OreDict": "",
               "Damage": 30717
             }
@@ -80297,13 +80297,13 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 36,
+              "Count": 78,
               "OreDict": "",
               "Damage": 30001
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 26,
               "OreDict": "",
               "Damage": 30012
             }
@@ -80318,7 +80318,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 26,
               "OreDict": "",
               "Damage": 30659
             }
@@ -80403,13 +80403,13 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 24,
               "OreDict": "",
               "Damage": 30659
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 24,
+              "Count": 60,
               "OreDict": "",
               "Damage": 30013
             }
@@ -80424,7 +80424,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 12,
+              "Count": 24,
               "OreDict": "",
               "Damage": 30658
             }
@@ -80613,7 +80613,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 30659
             },
