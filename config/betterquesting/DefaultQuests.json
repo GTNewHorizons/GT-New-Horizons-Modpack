@@ -69535,7 +69535,7 @@
     {
       "questID": 759,
       "name": "Molten Polyethylene",
-      "description": "Polyethylene is made out of ethylene in a chemical reactor.",
+      "description": "Polyethylene is made out of ethylene in a chemical reactor.\nUse a tank and get those cells manually by clickin on the tank and fill the cells. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
