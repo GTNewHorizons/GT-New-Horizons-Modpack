@@ -541,5 +541,8 @@ public class GT_Loader_Items
 		CustomItemList.IrradiantReinforcedNaquadriaPlate.set(ItemList.IrradiantReinforcedNaquadriaPlate.getIS());
 		CustomItemList.IrradiantReinforcedNeutroniumPlate.set(ItemList.IrradiantReinforcedNeutroniumPlate.getIS());
 		CustomItemList.QuantumCrystal.set(ItemList.QuantumCrystal.getIS());
+		CustomItemList.MysteriousCrystalLens.set(ItemList.MysteriousCrystalLens.getIS());
+		CustomItemList.MysteriousCrystalGemFlawless.set(ItemList.MysteriousCrystalGemFlawless.getIS());
+		CustomItemList.MysteriousCrystalGemExquisite.set(ItemList.MysteriousCrystalGemExquisite.getIS());
 	}
 }
