@@ -98,7 +98,7 @@ public enum CustomItemList implements IItemContainer
 	HeavyDutyAlloyIngotT4, HeavyDutyAlloyIngotT5, HeavyDutyAlloyIngotT6, HeavyDutyAlloyIngotT7, HeavyDutyAlloyIngotT8, HeavyDutyAlloyIngotT9, BlackPlutoniumCompressedPlate, DeshDualCompressedPlates, TitaniumDualCompressedPlates,
 	IceCompressedPlate, IceDualCompressedPlates, QuantinumCompressedPlate, QuantinumDualCompressedPlates, MytrylDualCompressedPlates, MytrylCompressedPlate, MysteriousCrystalCompressedPlate, MysteriousCrystalDualCompressedPlates,
 	SteelDualCompressedPlates, TinDualCompressedPlates, CopperDualCompressedPlates, IronDualCompressedPlates, MeteoricIronDualCompressedPlates, LedoxCompressedPlate, MysteriousCrystalPlate, LedoxPlate,
-	QuantinumPlate, CallistoIcePlate, MytrylPlate, CallistoIceCompressedPlate,
+	QuantinumPlate, CallistoIcePlate, MytrylPlate, MytrylCrystal, CallistoIceCompressedPlate,
 	MarshmallowForm, MarshmallowFormMold, UncookedSlush, MalformedSlush, GlowingMarshmallow, Marshmallow,
 	IchoriumCap, CoinTechnician,  CoinTechnicianI,  CoinTechnicianII,  CoinTechnicianIII, CoinDarkWizard, CoinDarkWizardI, CoinDarkWizardII, CoinDarkWizardIII, CoinAdventure, CoinAdventureI, CoinAdventureII, CoinAdventureIII,
 	CoinBees, CoinBeesI, CoinBeesII, CoinBeesIII, CoinBlood, CoinBloodI, CoinBloodII, CoinBloodIII, CoinFarmer, CoinFarmerI, CoinFarmerII, CoinFarmerIII, CoinForestry, CoinForestryI, CoinForestryII, CoinForestryIII,

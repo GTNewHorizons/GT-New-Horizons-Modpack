@@ -444,6 +444,7 @@ public class GT_Loader_Items
 		CustomItemList.QuantinumPlate.set(ItemList.QuantinumPlate.getIS());
 		CustomItemList.CallistoIcePlate.set(ItemList.CallistoIcePlate.getIS());
 		CustomItemList.MytrylPlate.set(ItemList.MytrylPlate.getIS());
+		CustomItemList.MytrylCrystal.set(ItemList.MytrylCrystal.getIS());
 		CustomItemList.CallistoIceCompressedPlate.set(ItemList.CallistoIceCompressedPlate.getIS());
 		CustomItemList.HeavyDutyRocketEngineTier3.set(ItemList.HeavyDutyRocketEngineTier3.getIS());
 		CustomItemList.HeavyDutyRocketEngineTier4.set(ItemList.HeavyDutyRocketEngineTier4.getIS());

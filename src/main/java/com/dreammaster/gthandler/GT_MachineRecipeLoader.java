@@ -631,6 +631,17 @@ public class GT_MachineRecipeLoader implements Runnable{
 
         GT_Values.RA.addChemicalBathRecipe(CustomItemList.HotNetherrackBrick.get(1L), new FluidStack(FluidRegistry.getFluid("ic2coolant"), 1000), CustomItemList.InfernalBrick.get(1L), GT_Values.NI, GT_Values.NI, null, 200, 30);
 
+        GT_Values.RA.addChemicalBathRecipe(CustomItemList.MysteriousCrystalGemExquisite.get(1), Materials.UUMatter.getFluid(144), CustomItemList.MysteriousCrystalLens.get(1), GT_Values.NI, GT_Values.NI, null, 600, 500000);
+        GT_Values.RA.addLaserEngraverRecipe(CustomItemList.MysteriousCrystal.get(3, new Object[0]), GT_Utility.copyAmount(0, GT_OreDictUnificator.get(OrePrefixes.lens, Materials.EnderPearl, 1)), CustomItemList.MysteriousCrystalGemFlawless.get(1, new Object[0]), 600, 122880, true);
+        GT_Values.RA.addLaserEngraverRecipe(CustomItemList.MysteriousCrystal.get(3, new Object[0]), GT_Utility.copyAmount(0, GT_OreDictUnificator.get(OrePrefixes.lens, Materials.EnderEye, 1)), CustomItemList.MysteriousCrystalGemFlawless.get(1, new Object[0]), 600, 122880, true);
+        GT_Values.RA.addLaserEngraverRecipe(CustomItemList.MysteriousCrystalGemFlawless.get(3),  GT_Utility.copyAmount(0, GT_OreDictUnificator.get(OrePrefixes.lens, Materials.EnderPearl, 1)), CustomItemList.MysteriousCrystalGemExquisite.get(1),  600, 30720, true);
+        GT_Values.RA.addLaserEngraverRecipe(CustomItemList.MysteriousCrystalGemFlawless.get(3),  GT_Utility.copyAmount(0, GT_OreDictUnificator.get(OrePrefixes.lens, Materials.EnderEye, 1)), CustomItemList.MysteriousCrystalGemExquisite.get(1),  600, 30720, true);
+        GT_Values.RA.addLaserEngraverRecipe(CustomItemList.MysteriousCrystalPlate.get(9),  GT_Utility.copyAmount(0, GT_OreDictUnificator.get(OrePrefixes.lens, Materials.EnderPearl, 1)), CustomItemList.MysteriousCrystal.get(1),  1200, 480, true);
+        GT_Values.RA.addLaserEngraverRecipe(CustomItemList.MysteriousCrystalPlate.get(9),  GT_Utility.copyAmount(0, GT_OreDictUnificator.get(OrePrefixes.lens, Materials.EnderEye, 1)), CustomItemList.MysteriousCrystal.get(1),  1200, 480, true);
+
+        GT_Values.RA.addLaserEngraverRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Mytryl, 9L),  GT_Utility.copyAmount(0, GT_OreDictUnificator.get(OrePrefixes.lens, Materials.Topaz, 1)), CustomItemList.MytrylCrystal.get(1),  1200, 256, true);
+        GT_Values.RA.addLaserEngraverRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Mytryl, 9L),  GT_Utility.copyAmount(0, GT_OreDictUnificator.get(OrePrefixes.lens, Materials.Amber, 1)), CustomItemList.MytrylCrystal.get(1),  1200, 256, true);
+
         GT_Values.RA.addCompressorRecipe(GT_ModHandler.getModItem("IC2", "itemWeed", 16L), ItemList.IC2_Plantball.get(1L), 300, 2);
         GT_Values.RA.addCompressorRecipe(GT_ModHandler.getModItem("ExtraTrees", "food", 64L, 24), ItemList.IC2_Plantball.get(1L), 300, 2);
         GT_Values.RA.addCompressorRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Sunnarium, 4L), GT_ModHandler.getModItem("AdvancedSolarPanel", "asp_crafting_items", 1L, 0), 300, 2);
