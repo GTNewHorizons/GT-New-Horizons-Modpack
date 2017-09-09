@@ -1324,23 +1324,11 @@ null, <gregtech:gt.metaitem.01:32700> * 16);
 
 // --- Diode
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
-[null, <gregtech:gt.metaitem.02:19035>, null], 
-[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.03:32033>, <gregtech:gt.metaitem.02:19035>], 
-[null, <gregtech:gt.metaitem.02:19035>, null]], 
-null, <gregtech:gt.metaitem.01:32715> * 6);
-// --
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
-[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:19035>], 
-[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.01:1980>, <gregtech:gt.metaitem.02:19035>], 
-[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:19035>]], 
-null, <gregtech:gt.metaitem.01:32715> * 12);
-// -
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [null, <gregtech:gt.metaitem.02:19345>, null], 
 [<gregtech:gt.metaitem.02:19345>, <gregtech:gt.metaitem.03:32033>, <gregtech:gt.metaitem.02:19345>], 
 [null, <gregtech:gt.metaitem.02:19345>, null]], 
 null, <gregtech:gt.metaitem.01:32715> * 8);
-// -
+// --
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [<gregtech:gt.metaitem.02:19345>, <gregtech:gt.metaitem.02:19345>, <gregtech:gt.metaitem.02:19345>], 
 [<gregtech:gt.metaitem.02:19345>, <gregtech:gt.metaitem.01:1980>, <gregtech:gt.metaitem.02:19345>], 
@@ -1350,24 +1338,12 @@ null, <gregtech:gt.metaitem.01:32715> * 16);
 // --- Resistor
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [<gregtech:gt.metaitem.02:19345>, <gregtech:gt.metaitem.02:19345>, <gregtech:gt.metaitem.02:19345>], 
-[<gregtech:gt.blockmachines:1380>, <gregtech:gt.metaitem.01:2010>, <gregtech:gt.blockmachines:1380>], 
-[<gregtech:gt.blockmachines:1380>, <gregtech:gt.metaitem.02:19345>, <gregtech:gt.blockmachines:1380>]], 
-null, <gregtech:gt.metaitem.01:32716> * 16);
-// --
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
-[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.blockmachines:1360>, <gregtech:gt.metaitem.01:2010>, <gregtech:gt.blockmachines:1360>], 
-[<gregtech:gt.blockmachines:1360>, <gregtech:gt.metaitem.02:19035>, <gregtech:gt.blockmachines:1360>]], 
-null, <gregtech:gt.metaitem.01:32716> * 12);
+[<gregtech:gt.blockmachines:1360>, <gregtech:gt.metaitem.02:19345>, <gregtech:gt.blockmachines:1360>]], 
+null, <gregtech:gt.metaitem.01:32716> * 16);
 // -
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
 [<gregtech:gt.metaitem.02:19345>, <gregtech:gt.metaitem.02:19345>, <gregtech:gt.metaitem.02:19345>], 
-[<gregtech:gt.blockmachines:1380>, <gregtech:gt.metaitem.01:2535>, <gregtech:gt.blockmachines:1380>], 
-[<gregtech:gt.blockmachines:1380>, <gregtech:gt.metaitem.02:19345>, <gregtech:gt.blockmachines:1380>]], 
-null, <gregtech:gt.metaitem.01:32716> * 16);
-// --
-mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [
-[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.blockmachines:1360>, <gregtech:gt.metaitem.01:2535>, <gregtech:gt.blockmachines:1360>], 
-[<gregtech:gt.blockmachines:1360>, <gregtech:gt.metaitem.02:19035>, <gregtech:gt.blockmachines:1360>]], 
-null, <gregtech:gt.metaitem.01:32716> * 12);
+[<gregtech:gt.blockmachines:1360>, <gregtech:gt.metaitem.02:19345>, <gregtech:gt.blockmachines:1360>]], 
+null, <gregtech:gt.metaitem.01:32716> * 16);
