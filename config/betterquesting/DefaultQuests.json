@@ -7226,7 +7226,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided.",
+      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers \u003d 78%.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
