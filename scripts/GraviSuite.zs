@@ -31,17 +31,11 @@ recipes.remove(<GraviSuite:itemSimpleItem:6>);
 // --- Advanced Chainsaw
 recipes.remove(<GraviSuite:advChainsaw>);
 
-// --- Advanced Nano Chest
-recipes.remove(<GraviSuite:advNanoChestPlate>);
-
 // --- Advanced Drill
 recipes.remove(<GraviSuite:advDDrill>);
 
 // --- Advanced Gravi Tool
 recipes.remove(<GraviSuite:graviTool>);
-
-// --- Advanced Jetpack
-recipes.remove(<GraviSuite:advLappack>);
 
 // --- Ultimate Lappack
 recipes.remove(<GraviSuite:ultimateLappack>);
@@ -104,18 +98,6 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 [<dreamcraft:item.AluminiumItemCasing>, <IC2:itemPartAlloy>, <dreamcraft:item.AluminiumItemCasing>],
 [<ore:circuitAdvanced>, <IC2:upgradeModule>, <ore:circuitAdvanced>],
 [<IC2:reactorPlating>, <IC2:reactorVentDiamond:1>, <IC2:reactorPlating>]]);
-
-// --- Advanced Nano Chest
-recipes.addShaped(<GraviSuite:advNanoChestPlate:26>, [
-[<IC2:itemPartCarbonPlate>, <GraviSuite:advJetpack:26>, <IC2:itemPartCarbonPlate>],
-[<ore:plateTungstenSteel>, <IC2:itemArmorNanoChestplate:26>, <ore:plateTungstenSteel>],
-[<ore:wireGt12Platinum>, <ore:circuitElite>, <ore:wireGt12Platinum>]]);
- 
-// --- Advanced Lappack
-recipes.addShaped(<GraviSuite:advLappack:26>, [
-[<dreamcraft:item.TitaniumItemCasing>, <ore:batteryElite>, <dreamcraft:item.TitaniumItemCasing>],
-[<ore:batteryElite>, <IC2:itemArmorEnergypack:26>, <ore:batteryElite>],
-[<ore:circuitData>, <ore:wireGt12Nichrome> , <ore:circuitData>]]);
 
 // --- Ultimate Lappack
 recipes.addShaped(<GraviSuite:ultimateLappack:26>, [
