@@ -529,6 +529,9 @@ furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
 // --- Ambiete Thermal Controller
 recipes.remove(<GalacticraftCore:item.basicItem:20>);
 
+// --- Raw meteoric Iron
+furnace.remove(<gregtech:gt.metaitem.01:11340>, <GalacticraftCore:item.meteoricIronRaw>);
+
 
 
 
@@ -1630,6 +1633,9 @@ Assembler.addRecipe(<GalacticraftCore:item.basicItem>, SolarPanel, <Galacticraft
 
 // --- Titan Ingot
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11028>], [<GalacticraftMars:item.itemBasicAsteroids:4> * 2], 1500, 120, 1500);
+
+// --- Raw meteoric Iron
+BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11340>], [<GalacticraftCore:item.meteoricIronRaw>], 1200, 120, 1000);
 
 
 
