@@ -1,4 +1,5 @@
 // --- Created by DreamMasterXXL ---
+// --- Created by DreamMasterXXL ---
 
 
 
@@ -317,14 +318,6 @@ recipes.addShaped(ItemDropper, [
 [<ore:plateStone>, <ore:wireGt01RedAlloy>, <ore:plateStone>],
 [<ore:gearGtSmallSteel>, <minecraft:dropper>, <ore:gearGtSmallSteel>],
 [<ore:plateStone>, <minecraft:hopper>, <ore:plateStone>]]);
-
-// --- Sleeping Back
-recipes.addShaped(<OpenBlocks:sleepingBag>, [
-[Carpet, Carpet, Carpet],
-[Wool, Wool, Wool],
-[TannedLeather, TannedLeather, TannedLeather]]);
-// -
-recipes.addShapeless(<OpenBlocks:sleepingBag>, [<adventurebackpack:backpackComponent:1>]);
 
 // --- Bear Trap
 recipes.addShaped(<OpenBlocks:beartrap>, [

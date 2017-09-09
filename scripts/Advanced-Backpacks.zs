@@ -94,7 +94,7 @@ recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({backpackData: {
 recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), [
 [<ore:materialHardenedleather>, <ore:plateAluminium>, <ore:materialHardenedleather>],
 [<BuildCraft|Factory:tankBlock>, <ore:chestIron>, <BuildCraft|Factory:tankBlock>],
-[<ore:materialHardenedleather>, <OpenBlocks:sleepingBag>, <ore:materialHardenedleather>]]);
+[<ore:materialHardenedleather>, <sleepingbag:sleepingBag>, <ore:materialHardenedleather>]]);
 
 // --- Bat Backpack
 recipes.addShaped(<adventurebackpack:adventureBackpack:2>.withTag({backpackData: {colorName: "Bat"}}), [
@@ -120,7 +120,7 @@ recipes.addShapeless(<adventurebackpack:backpackComponent:2>, [<BuildCraft|Facto
 recipes.addShapeless(<BuildCraft|Factory:tankBlock>, [<adventurebackpack:backpackComponent:2>]);
 
 // --- Sleeping Bag
-recipes.addShapeless(<adventurebackpack:backpackComponent:1>, [<OpenBlocks:sleepingBag>]);
+recipes.addShapeless(<adventurebackpack:backpackComponent:1>, [<sleepingbag:sleepingBag>]);
 
 // --- Machete
 recipes.addShaped(<adventurebackpack:machete>, [

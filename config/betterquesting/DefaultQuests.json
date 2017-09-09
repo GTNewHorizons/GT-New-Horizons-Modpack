@@ -42289,7 +42289,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "OpenBlocks:sleepingBag",
+        "id": "sleepingbag:sleepingBag",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -42328,7 +42328,7 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "OpenBlocks:sleepingBag",
+              "id": "sleepingbag:sleepingBag",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
