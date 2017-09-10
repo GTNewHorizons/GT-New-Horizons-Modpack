@@ -98,7 +98,7 @@ recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({backpackData: {
 
 // --- Bat Backpack
 recipes.addShaped(<adventurebackpack:adventureBackpack:2>.withTag({backpackData: {colorName: "Bat"}}), [
-[<ore:itemLeather>, <IC2:itemNightvisionGoggles:26>, <ore:itemLeather>],
+[<ore:itemLeather>, <IC2:itemNightvisionGoggles:1>, <ore:itemLeather>],
 [<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8262>],
 [<ore:blockWoolBlack>, <ore:blockWoolBlack>, <ore:blockWoolBlack>]]);
 
