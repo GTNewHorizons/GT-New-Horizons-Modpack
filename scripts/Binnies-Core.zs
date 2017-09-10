@@ -9,22 +9,22 @@
 // --- remove recipes ---
 
 // --- Compartment
-recipes.remove(<BinnieCore:storage>);
+recipes.removeShaped(<BinnieCore:storage>);
 
 // --- Copper Compartment
-recipes.remove(<BinnieCore:storage:1>);
+recipes.removeShaped(<BinnieCore:storage:1>);
 
 // --- Bronze Compartment
-recipes.remove(<BinnieCore:storage:2>);
+recipes.removeShaped(<BinnieCore:storage:2>);
 
 // --- Iron Compartment
-recipes.remove(<BinnieCore:storage:3>);
+recipes.removeShaped(<BinnieCore:storage:3>);
 
 // --- Gold Compartment
-recipes.remove(<BinnieCore:storage:4>);
+recipes.removeShaped(<BinnieCore:storage:4>);
 
 // --- Diamond Compartment
-recipes.remove(<BinnieCore:storage:5>);
+recipes.removeShaped(<BinnieCore:storage:5>);
 
 // --- Field Kit
 recipes.remove(<BinnieCore:fieldKit:*>);
@@ -33,50 +33,80 @@ recipes.remove(<BinnieCore:fieldKit:*>);
 
 // --- Add Recipes ---
 
-
-// --- Compartment
-recipes.addShaped(<BinnieCore:storage>, [
-[<gregtech:gt.metaitem.01:27305>, <minecraft:chest>, <gregtech:gt.metaitem.01:27305>],
-[<minecraft:chest>, <gregtech:gt.blockmachines:4905>, <minecraft:chest>],
-[<gregtech:gt.metaitem.01:27305>, <minecraft:chest>, <gregtech:gt.metaitem.01:27305>]]);
-
 // --- Field Kit
 recipes.addShaped(<BinnieCore:fieldKit:63>, [
 [<ore:lensGlass>, <ore:ringSteel>, <ore:screwSteel>],
 [<ore:ringSteel>, <ore:stickSteel>, <ore:craftingToolSaw>],
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:stickSteel>]]);
 
+// --- Compartment
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage>, [
+    [<ore:screwWood>, <ore:craftingChest>, <ore:screwWood>],
+    [<ore:craftingChest>, <ore:frameGtWood>, <ore:craftingChest>],
+    [<ore:screwWood>, <ore:craftingChest>, <ore:screwWood>]
+], <liquid:creosote> * 1000, 5, null);
+
 // --- Copper Compartment
-mods.forestry.Carpenter.addRecipe(10, <liquid:creosote> * 1000, 
-[<gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:20035>, <gregtech:gt.metaitem.01:27305>,
-<gregtech:gt.metaitem.01:20035>, <gregtech:gt.blockmachines:4131>, <gregtech:gt.metaitem.01:20035>,
-<gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:20035>, <gregtech:gt.metaitem.01:27305>],
-<BinnieCore:storage>, <BinnieCore:storage:1>);
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:1>, [
+    [<ore:screwCopper>, <ore:gearCopper>, <ore:screwCopper>],
+    [<ore:gearCopper>, <ore:frameGtCopper>, <ore:gearCopper>],
+    [<ore:screwCopper>, <ore:gearCopper>, <ore:screwCopper>]
+], <liquid:creosote> * 2000, 10, <BinnieCore:storage>);
+
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:1>, [
+    [<ore:screwCopper>, <ore:chestCopper>, <ore:screwCopper>],
+    [<ore:chestCopper>, <ore:frameGtCopper>, <ore:chestCopper>],
+    [<ore:screwCopper>, <ore:chestCopper>, <ore:screwCopper>]
+], <liquid:creosote> * 2000, 10, <gregtech:gt.blockcasings2:3>);
 
 // --- Bronze Compartment
-mods.forestry.Carpenter.addRecipe(15, <liquid:creosote> * 2000, 
-[<gregtech:gt.metaitem.01:27351>, <gregtech:gt.metaitem.01:20300>, <gregtech:gt.metaitem.01:27351>,
-<gregtech:gt.metaitem.01:20300>, <gregtech:gt.blockmachines:4396>, <gregtech:gt.metaitem.01:20300>,
-<gregtech:gt.metaitem.01:27351>, <gregtech:gt.metaitem.01:20300>, <gregtech:gt.metaitem.01:27351>],
-<BinnieCore:storage:1>, <BinnieCore:storage:2>);
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:2>, [
+    [<ore:screwBronze>, <ore:gearBronze>, <ore:screwBronze>],
+    [<ore:gearBronze>, <ore:frameGtBronze>, <ore:gearBronze>],
+    [<ore:screwBronze>, <ore:gearBronze>, <ore:screwBronze>]
+], <liquid:creosote> * 3000, 15, <BinnieCore:storage:1>);
 
 // --- Iron Compartment
-mods.forestry.Carpenter.addRecipe(20, <liquid:creosote> * 3000, 
-[<gregtech:gt.metaitem.01:27351>, <gregtech:gt.metaitem.01:20032>, <gregtech:gt.metaitem.01:27351>,
-<gregtech:gt.metaitem.01:20032>, <gregtech:gt.blockmachines:4401>, <gregtech:gt.metaitem.01:20032>,
-<gregtech:gt.metaitem.01:27351>, <gregtech:gt.metaitem.01:20032>, <gregtech:gt.metaitem.01:27351>],
-<BinnieCore:storage:1>, <BinnieCore:storage:3>);
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:3>, [
+    [<ore:screwIron>, <ore:gearIron>, <ore:screwIron>],
+    [<ore:gearIron>, <ore:frameGtIron>, <ore:gearIron>],
+    [<ore:screwIron>, <ore:gearIron>, <ore:screwIron>]
+], <liquid:creosote> * 3000, 15, <BinnieCore:storage:1>);
+
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:3>, [
+    [<ore:screwIron>, <ore:chestIron>, <ore:screwIron>],
+    [<ore:chestIron>, <ore:frameGtIron>, <ore:chestIron>],
+    [<ore:screwIron>, <ore:chestIron>, <ore:screwIron>]
+], <liquid:creosote> * 3000, 15, <gregtech:gt.blockcasings2:3>);
 
 // --- Gold Compartment
-mods.forestry.Carpenter.addRecipe(25, <liquid:creosote> * 4000, 
-[<gregtech:gt.metaitem.01:27501>, <gregtech:gt.metaitem.01:20351>, <gregtech:gt.metaitem.01:27501>,
-<gregtech:gt.metaitem.01:20351>, <gregtech:gt.blockmachines:4447>, <gregtech:gt.metaitem.01:20351>,
-<gregtech:gt.metaitem.01:27501>, <gregtech:gt.metaitem.01:20351>, <gregtech:gt.metaitem.01:27501>],
-<BinnieCore:storage:3>, <BinnieCore:storage:4>);
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:4>, [
+    [<ore:screwGold>, <ore:gearGold>, <ore:screwGold>],
+    [<ore:gearGold>, <ore:frameGtGold>, <ore:gearGold>],
+    [<ore:screwGold>, <ore:gearGold>, <ore:screwGold>]
+], <liquid:creosote> * 4000, 20, <BinnieCore:storage:2>);
+
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:4>, [
+    [<ore:screwGold>, <ore:gearGold>, <ore:screwGold>],
+    [<ore:gearGold>, <ore:frameGtGold>, <ore:gearGold>],
+    [<ore:screwGold>, <ore:gearGold>, <ore:screwGold>]
+], <liquid:creosote> * 4000, 20, <BinnieCore:storage:3>);
+
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:4>, [
+    [<ore:screwGold>, <ore:chestGold>, <ore:screwGold>],
+    [<ore:chestGold>, <ore:frameGtGold>, <ore:chestGold>],
+    [<ore:screwGold>, <ore:chestGold>, <ore:screwGold>]
+], <liquid:creosote> * 4000, 20, <gregtech:gt.blockcasings2:3>);
 
 // --- Diamond Compartment
-mods.forestry.Carpenter.addRecipe(30, <liquid:creosote> * 5000, 
-[<gregtech:gt.metaitem.01:27501>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27501>,
-<gregtech:gt.metaitem.01:17500>, <gregtech:gt.blockmachines:4412>, <gregtech:gt.metaitem.01:17500>,
-<gregtech:gt.metaitem.01:27501>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27501>],
-<BinnieCore:storage:4>, <BinnieCore:storage:5>);
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:5>, [
+    [<ore:screwDiamond>, <ore:gearDiamond>, <ore:screwDiamond>],
+    [<ore:gearDiamond>, <dreamcraft:tile.DiamondFrameBox>, <ore:gearDiamond>],
+    [<ore:screwDiamond>, <ore:gearDiamond>, <ore:screwDiamond>]
+], <liquid:creosote> * 5000, 25, <BinnieCore:storage:4>);
+
+mods.forestry.Carpenter.addRecipe(<BinnieCore:storage:5>, [
+    [<ore:screwDiamond>, <ore:chestDiamond>, <ore:screwDiamond>],
+    [<ore:chestDiamond>, <dreamcraft:tile.DiamondFrameBox>, <ore:chestDiamond>],
+    [<ore:screwDiamond>, <ore:chestDiamond>, <ore:screwDiamond>]
+], <liquid:creosote> * 5000, 25, <gregtech:gt.blockcasings2:3>);
