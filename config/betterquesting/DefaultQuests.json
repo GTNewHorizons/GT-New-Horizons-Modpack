@@ -82718,12 +82718,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TConstruct:slime.grass",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5
-            },
-            {
               "id": "TConstruct:CraftedSoil",
               "Count": 1,
               "OreDict": "",
