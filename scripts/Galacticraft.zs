@@ -530,7 +530,7 @@ furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
 recipes.remove(<GalacticraftCore:item.basicItem:20>);
 
 // --- Raw meteoric Iron
-furnace.remove(<gregtech:gt.metaitem.01:11340>, <GalacticraftCore:item.meteoricIronRaw>);
+furnace.remove(<ore:ingotMeteoricIron>, <GalacticraftCore:item.meteoricIronRaw>);
 
 
 
