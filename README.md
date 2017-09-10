@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 1.5.1.2 is out 01.09.2017
+Version 2.0 is out 10.09.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -77,7 +77,7 @@ http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
-Official EU Test Server 1.5.1.1
+Official EU Test Server
 zeta.gtnewhorizons.com<BR>
 
  
@@ -85,7 +85,7 @@ Dirt Huts EU Server Whitelisted<BR>
 http://dirthuts.com<BR>
 138.201.134.44:25562<BR>
 
- 
+
 ## US Server:<BR>
 
 Prospercraft Greylist<BR>
@@ -104,6 +104,13 @@ https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
 Bacongaming.net:25577<BR><BR>
 
 
+## German Server Public:<BR>
+
+MyFTB
+https://myftb.de/
+gtnewhorizons.myftb.de
+
+
 ## Resource Realistic Sky GT New Horizons
 created by MajaProduction needs Optifine installed<BR><BR>
 
@@ -112,7 +119,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 1.5.1.2 --- 01.09.2017<BR>
+## Modlist - NewHorizons 2.0 --- 10.09.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta18<BR>
@@ -124,7 +131,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Applied Energistics rv3stable6<BR>
 * Aqua Creeper 1.0.1<BR>
 * Architecture Craft 1.4.2<BR>
-* AsieLib	0.4.7<BR>
+* AsieLib	0.4.8<BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
 * Avaritia 1.14<BR>
@@ -156,7 +163,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * CofhCore	3.1.4.329<BR>
 * CofhLib	1.2.1.185<BR>
 * Compact Kinetic Generators 1.0<BR>
-* Computronics	1.6.4<BR>
+* Computronics	1.6.5<BR>
 * Craft Tweaker 3.0.12<BR>
 * Custom Main Menu 1.9.2<BR>
 * Datrev Scanner Mod 0.5custom<BR>
@@ -188,10 +195,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.31.28<BR>
+* Gregtech	5.09.32.01<BR>
 * GT Scanner Mod 1.1<BR>
-* GT New Horizons Core Mod	1.5.5<BR>
-* GT++ 1.5.9a<BR>
+* GT New Horizons Core Mod	1.5.7<BR>
+* GT++ 1.6.02<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -251,7 +258,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Project Red-Mechanical	4.7.0pre12.95GT<BR>
 * Project Red-World	4.7.0pre12.95GT<BR>
 * Questbook 1.1.0<BR>
-* Railcraft	9.12.2.0<BR>
+* Railcraft	9.12.2.1<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * ReAuth 3.5.0<BR>
@@ -260,6 +267,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.13.3<BR>
+* Sleeping Bag 0.1.1<BR>
 * Special Mobs	3.3.0<BR>
 * Spice of Life	1.3.8<BR>
 * Standard Expansion 1.0.94<BR>
@@ -270,6 +278,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Storage Drawers Wood Addons 1.1.2b<BR>
 * Tainted Magic	r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
+* Tec Tech 3.5.0<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
