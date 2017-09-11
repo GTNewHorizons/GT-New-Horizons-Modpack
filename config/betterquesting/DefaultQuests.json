@@ -87512,7 +87512,7 @@
     {
       "questID": 930,
       "name": "Auto Mining",
-      "description": "A miner in lv age wow. So this niffty machine will find ores fore you. Place up to two stacks of mining pipes in the right slots. This miner need 32 eu to work. With a 8 V Solar Pannel it works 4 times slover. The Miner searchen ores in a 16 block radius.",
+      "description": "A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 32 EU/t to work; with an 8V Solar panel it works at 25% speed. The miner searches for ores in a 16 block radius.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
