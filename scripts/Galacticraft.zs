@@ -1637,6 +1637,9 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11028>], [<GalacticraftMars:ite
 // --- Raw meteoric Iron
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11340>], [<GalacticraftCore:item.meteoricIronRaw>], 1200, 120, 1000);
 
+// --- Small fallen meteor
+BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11340> * 2], [<GalacticraftCore:tile.fallenMeteor>], 1200, 120, 1000);
+
 
 
 
