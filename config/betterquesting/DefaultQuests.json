@@ -66645,7 +66645,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemCellEmpty",
-              "Count": 1150,
+              "Count": 64,
               "OreDict": "",
               "Damage": 6
             }
@@ -66749,7 +66749,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemCellEmpty",
-              "Count": 1150,
+              "Count": 64,
               "OreDict": "",
               "Damage": 6
             }
