@@ -68304,7 +68304,7 @@
     },
     {
       "questID": 747,
-      "name": "Empty Circuit Board",
+      "name": "Diodes",
       "description": "Good circuits need diodes. There are two ways to craft them. Using a silicon wafer together with some fine tin wire or gallium arsenide. Molten glass is also needed.",
       "isMain": true,
       "isSilent": false,
