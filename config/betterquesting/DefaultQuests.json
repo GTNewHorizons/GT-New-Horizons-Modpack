@@ -78853,7 +78853,7 @@
     {
       "questID": 840,
       "name": "Butane and Propane",
-      "description": "You can distill a lot of different gases out of your \"refinery gases\".\nMethane, butane, propane, helium and ethane.",
+      "description": "You can distill a lot of different gases out of your \"refinery gases\".\nMethane, butane, propane, helium and ethane.\n\nHint:\nRefinery gas is not a best source for Propane and Butane. Better refine it out of naphtha.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -78930,7 +78930,8 @@
         }
       ],
       "preRequisites": [
-        643
+        643,
+        641
       ]
     },
     {
@@ -90463,7 +90464,7 @@
         {
           "id": 533,
           "x": 192,
-          "y": 300
+          "y": 288
         },
         {
           "id": 538,
@@ -90653,7 +90654,7 @@
         {
           "id": 639,
           "x": 108,
-          "y": 300
+          "y": 336
         },
         {
           "id": 640,
@@ -90662,18 +90663,18 @@
         },
         {
           "id": 641,
-          "x": 108,
-          "y": 264
+          "x": 156,
+          "y": 336
         },
         {
           "id": 642,
-          "x": 192,
-          "y": 336
+          "x": 108,
+          "y": 288
         },
         {
           "id": 643,
           "x": 192,
-          "y": 372
+          "y": 336
         },
         {
           "id": 644,
