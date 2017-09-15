@@ -632,6 +632,11 @@ recipes.addShaped(<Forestry:apiculture:2>, [
 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
 [<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
 [<MagicBees:comb:6>, <ore:slabWood>, <MagicBees:comb:6>]]);
+// -
+recipes.addShaped(<Forestry:apiculture:2>, [
+[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
+[<computronics:computronics.partsForestry>, <ore:slabWood>, <computronics:computronics.partsForestry>]]);
 
 // --- Apiary
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
