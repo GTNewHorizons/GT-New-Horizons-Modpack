@@ -68695,36 +68695,6 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32301
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 521
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
               "Damage": 17874
@@ -68782,7 +68752,8 @@
         }
       ],
       "preRequisites": [
-        759
+        759,
+        951
       ]
     },
     {
@@ -89936,6 +89907,277 @@
       "preRequisites": [
         89
       ]
+    },
+    {
+      "questID": 951,
+      "name": "Fluid Solidifier",
+      "description": "Use a mold form making plates, sticks,  bolts and much more item parts in the fluid solidifier.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 521
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32301
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 521
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.integrated_circuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5132
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 952,
+      "name": "Base too big? I\u0027ve got a fix for you!",
+      "description": "Keeping a base spread apart for pollution or explosion prevention can really wear you out. Try harvesting some Marble and centrifuging it into Calcite, and mix up some concrete in your Mixer. Next output it into a Fluid Solidifier to make concrete blocks. You\u0027ll move faster on top of these blocks. They can even be turned into bricks to prevent unwanted spawns! Hint: 10 buckets of wet mix converts to exactly 160 blocks. Note: Don\u0027t stack blocks more than 1 high or else you might move faster than you\u0027d like. Or do it if you need to really get from point A to point B in a hurry. Also keep your animals off them.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockconcretes",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 15
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockstones",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 2845
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 21,
+              "OreDict": "",
+              "Damage": 2823
+            },
+            {
+              "id": "dreamcraft:item.SandDust",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2299
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2805
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32308
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockconcretes",
+              "Count": 160,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockconcretes",
+              "Count": 160,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockconcretes",
+              "Count": 160,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "gregtech:gt.blockconcretes",
+              "Count": 160,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        951
+      ]
     }
   ],
   "questLines": [
@@ -91404,7 +91646,7 @@
         },
         {
           "id": 749,
-          "x": 216,
+          "x": 264,
           "y": 336
         },
         {
@@ -91414,12 +91656,12 @@
         },
         {
           "id": 753,
-          "x": 264,
+          "x": 300,
           "y": 336
         },
         {
           "id": 754,
-          "x": 216,
+          "x": 228,
           "y": 300
         },
         {
@@ -91434,8 +91676,8 @@
         },
         {
           "id": 759,
-          "x": 300,
-          "y": 516
+          "x": 264,
+          "y": 408
         },
         {
           "id": 760,
@@ -91449,17 +91691,17 @@
         },
         {
           "id": 774,
+          "x": 84,
+          "y": 408
+        },
+        {
+          "id": 778,
           "x": 156,
           "y": 372
         },
         {
-          "id": 778,
-          "x": 192,
-          "y": 408
-        },
-        {
           "id": 780,
-          "x": 156,
+          "x": 48,
           "y": 408
         },
         {
@@ -91524,8 +91766,8 @@
         },
         {
           "id": 750,
-          "x": 360,
-          "y": 516
+          "x": 264,
+          "y": 444
         },
         {
           "id": 842,
@@ -91549,13 +91791,13 @@
         },
         {
           "id": 846,
-          "x": 264,
-          "y": 516
+          "x": 228,
+          "y": 408
         },
         {
           "id": 847,
-          "x": 300,
-          "y": 444
+          "x": 264,
+          "y": 372
         },
         {
           "id": 848,
@@ -91569,8 +91811,8 @@
         },
         {
           "id": 852,
-          "x": 264,
-          "y": 444
+          "x": 228,
+          "y": 372
         },
         {
           "id": 741,
@@ -91639,23 +91881,33 @@
         },
         {
           "id": 938,
-          "x": 264,
-          "y": 372
-        },
-        {
-          "id": 939,
           "x": 300,
           "y": 372
         },
         {
-          "id": 850,
-          "x": 216,
+          "id": 939,
+          "x": 348,
           "y": 372
+        },
+        {
+          "id": 850,
+          "x": 228,
+          "y": 336
         },
         {
           "id": 944,
           "x": 348,
           "y": 228
+        },
+        {
+          "id": 951,
+          "x": 192,
+          "y": 444
+        },
+        {
+          "id": 952,
+          "x": 228,
+          "y": 480
         }
       ]
     },
