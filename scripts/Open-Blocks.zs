@@ -292,7 +292,7 @@ recipes.addShaped(<OpenBlocks:elevator_rotating>, [
 // --- Vacuum Hopper
 recipes.addShaped(<OpenBlocks:vacuumhopper>, [
 [<ore:plateObsidian>, Hopper, <ore:plateObsidian>],
-[Hopper, <ore:plateEnderEye>, Hopper],
+[Hopper, <ore:plateEnderPearl>, Hopper],
 [<ore:plateObsidian>, Hopper, <ore:plateObsidian>]]);
 
 // --- Sprinkler
