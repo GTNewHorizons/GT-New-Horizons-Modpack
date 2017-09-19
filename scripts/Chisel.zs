@@ -156,7 +156,7 @@ recipes.addShaped(<chisel:mossy_templeblock>, [
 [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
 
 // --- Energised Voidstone
-recipes.addShaped(<chisel:voidstone2> * 8), [
+recipes.addShaped(<chisel:voidstone2> * 8, [
 [<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>],
 [<chisel:voidstone>, <ore:dustGlowstone>, <chisel:voidstone>],
 [<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>]]);
