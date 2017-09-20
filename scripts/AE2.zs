@@ -533,7 +533,7 @@ recipes.addShaped(MEChest, [
 recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [
 [TitaniumPlate, DiamondCircuit, TitaniumPlate], 
 [FluixGlassCable, <appliedenergistics2:tile.BlockChest>, FluixGlassCable], 
-[TitaniumPlate, <IC2:itemPartCircuitAdv>, TitaniumPlate]]);
+[TitaniumPlate, <ore:circuitAdvanced>, TitaniumPlate]]);
 
 // --- Crystal Growth Accelerator
 recipes.addShaped(CrystalAccelerator, [
