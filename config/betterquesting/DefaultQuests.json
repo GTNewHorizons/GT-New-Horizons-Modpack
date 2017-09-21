@@ -51295,8 +51295,8 @@
             {
               "id": "gregtech:gt.blockores",
               "Count": 16,
-              "OreDict": "orePhosphate",
-              "Damage": 833
+              "OreDict": "",
+              "Damage": 607
             }
           ],
           "taskID": "bq_standard:retrieval"
