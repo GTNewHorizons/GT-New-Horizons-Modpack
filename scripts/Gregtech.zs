@@ -704,7 +704,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32757>, [
 
 // --- Solar Panel 131072 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32758>, [
-[null, null, null, <ore:wireGt01Superconductor>, <gregtech:gt.metaitem.03:32046>, <ore:wireGt01Superconductor>, null, null, null],
+[null, null, null, <ore:wireGt01Superconductor>, <gregtech:gt.metaitem.03:32048>, <ore:wireGt01Superconductor>, null, null, null],
 [null, null, null, <ore:wireGt01Superconductor>, <ore:circuitInfinite>, <ore:wireGt01Superconductor>, null, null, null],
 [null, null, <ore:wireGt01Superconductor>, <gregtech:gt.metaitem.03:32035>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <gregtech:gt.metaitem.03:32035>, <ore:wireGt01Superconductor>, null, null],
 [null, null, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.03:32035>, <ore:plateQuadrupleIndiumGalliumPhosphide>, <gregtech:gt.metaitem.03:32035>, <IC2:itemPartCarbonPlate>, null, null],
@@ -712,11 +712,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32758>, [
 [null, null, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.03:32035>, <ore:plateQuadrupleIndiumGalliumPhosphide>, <gregtech:gt.metaitem.03:32035>, <IC2:itemPartCarbonPlate>, null, null],
 [null, null, <ore:wireGt01Superconductor>, <gregtech:gt.metaitem.03:32035>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>,<gregtech:gt.metaitem.03:32035>, <ore:wireGt01Superconductor>, null, null],
 [null, null, null, <ore:wireGt01Superconductor>, <ore:circuitInfinite>, <ore:wireGt01Superconductor>, null, null, null],
-[null, null, null, <ore:wireGt01Superconductor>, <gregtech:gt.metaitem.03:32046>, <ore:wireGt01Superconductor>, null, null, null]]);
+[null, null, null, <ore:wireGt01Superconductor>, <gregtech:gt.metaitem.03:32048>, <ore:wireGt01Superconductor>, null, null, null]]);
 
 // --- Solar Panel 524288 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32759>, [
-[null, null, <ore:itemSuperconductor>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32048>, <ore:plateDenseSilicon>, <ore:itemSuperconductor>, null, null],
+[null, null, <ore:itemSuperconductor>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32071>, <ore:plateDenseSilicon>, <ore:itemSuperconductor>, null, null],
 [null, null, <ore:itemSuperconductor>, <gregtech:gt.metaitem.03:32035>, <AdvancedSolarPanel:asp_crafting_items:13>,<gregtech:gt.metaitem.03:32035>, <ore:itemSuperconductor>, null, null],
 [null, <ore:itemSuperconductor>, <gregtech:gt.metaitem.03:32035>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32035>, <ore:itemSuperconductor>, null],
 [null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <ore:plateDenseIndiumGalliumPhosphide>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:itemSuperconductor>, null],
@@ -724,7 +724,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32759>, [
 [null, <ore:itemSuperconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <ore:plateDenseIndiumGalliumPhosphide>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:itemSuperconductor>, null],
 [null, <ore:itemSuperconductor>, <gregtech:gt.metaitem.03:32035>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32035>, <ore:itemSuperconductor>, null],
 [null, null, <ore:itemSuperconductor>, <gregtech:gt.metaitem.03:32035>, <AdvancedSolarPanel:asp_crafting_items:13>, <gregtech:gt.metaitem.03:32035>, <ore:itemSuperconductor>, null, null],
-[null, null, <ore:itemSuperconductor>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32048>, <ore:plateDenseSilicon>, <ore:itemSuperconductor>, null, null]]);
+[null, null, <ore:itemSuperconductor>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32071>, <ore:plateDenseSilicon>, <ore:itemSuperconductor>, null, null]]);
 
 // --- Frames
 recipes.addShapeless(<gregtech:gt.blockmachines:4905> * 2, [<MCFrames:mcframes.frame>]);
