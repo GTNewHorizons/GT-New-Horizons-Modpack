@@ -335,13 +335,4 @@ public class MainRegistry
         if (CoreConfig.ModCustomDrops_Enabled) pEvent.registerServerCommand(new CustomDropsCommand());
         if (YAMCore.isDebug()) pEvent.registerServerCommand( new AllPurposeDebugCommand() );
     }
-
-    private static boolean oneTimeFix=false;
-    @EventHandler
-    public void onServerAboutToStart(FMLServerAboutToStartEvent e) {
-        if (!oneTimeFix) {
-            oneTimeFix = true;
-            if(Loader.isModLoaded("miscutils")) new gtppCompat().run();
-        }
-    }
 }
