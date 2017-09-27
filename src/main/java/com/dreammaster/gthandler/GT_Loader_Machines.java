@@ -32,6 +32,9 @@ public class GT_Loader_Machines
 
 	private void registerMachines()
 	{
+		long bitsd = GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE
+				| GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED;
+		
 		//TODO:While adding recipes look at GT_Loader_MetaTileEntities there is some useful info
 		//TODO:Add recipes where u see //TODO:recipes or null in the code
 
@@ -62,7 +65,7 @@ public class GT_Loader_Machines
 		//		10757, "basicgenerator.plasmagenerator.tier.13", "Legendary Pocket Sun IV",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Generator_Plasma_ZPMV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "UCU", "FMF", "WCW",
 						'M', ItemList.Hull_UV,
 						'F', ItemList.Field_Generator_ZPM,
@@ -71,7 +74,7 @@ public class GT_Loader_Machines
 						'U', OrePrefixes.stick.get(Materials.Americium) });
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Generator_Plasma_UV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "UCU", "FMF", "WCW",
 						'M', ItemList.Hull_UV,
 						'F', ItemList.Field_Generator_UV,
@@ -1265,7 +1268,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MassFabricatorLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "CFC", "WMW", "CFC",
 						'M', ItemList.Hull_LuV,
 						'F', ItemList.Field_Generator_LuV,
@@ -1273,7 +1276,7 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.LuV.getCable4()});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MassFabricatorZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "CFC", "WMW", "CFC",
 						'M', ItemList.Hull_ZPM,
 						'F', ItemList.Field_Generator_ZPM,
@@ -1281,7 +1284,7 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.ZPM.getCable4()});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MassFabricatorUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "CFC", "WMW", "CFC",
 						'M', ItemList.Hull_UV,
 						'F', ItemList.Field_Generator_UV,
@@ -1337,7 +1340,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MicrowaveLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "PWC", "PHE", "PMC",
 						'P', OrePrefixes.plateDense.get(Materials.Lead),
 						'H', ItemList.Hull_LuV,
@@ -1347,7 +1350,7 @@ public class GT_Loader_Machines
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MicrowaveZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "PWC", "PHE", "PMC",
 						'P', OrePrefixes.plateDense.get(Materials.Lead),
 						'H', ItemList.Hull_ZPM,
@@ -1357,7 +1360,7 @@ public class GT_Loader_Machines
 						'W', OrePrefixes.cableGt01.get(Materials.Naquadah)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MicrowaveUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "PWC", "PHE", "PMC",
 						'P', OrePrefixes.plateDense.get(Materials.Lead),
 						'H', ItemList.Hull_UV,
@@ -1571,7 +1574,7 @@ public class GT_Loader_Machines
 				11006, "basicmachine.replicator.tier.12", "Epic Elemental Composer IV",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ReplicatorLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "EFE", "CMC", "EWE",
 						'M', ItemList.Hull_LuV,
 						'F', ItemList.Field_Generator_LuV,
@@ -1580,7 +1583,7 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.LuV.getCable4() });
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ReplicatorZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "EFE", "CMC", "EWE",
 						'M', ItemList.Hull_ZPM,
 						'F', ItemList.Field_Generator_ZPM,
@@ -1589,7 +1592,7 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.ZPM.getCable4() });
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ReplicatorUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "EFE", "CMC", "EWE",
 						'M', ItemList.Hull_UV,
 						'F', ItemList.Field_Generator_UV,
@@ -1622,7 +1625,7 @@ public class GT_Loader_Machines
 				11016, "basicmachine.scanner.tier.12", "Epic Electron Microscope IV",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ScannerLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "CTC", "WMW", "CRC",
 						'M', ItemList.Hull_LuV,
 						'T', ItemList.Emitter_LuV,
@@ -1631,7 +1634,7 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.LuV.getCable() });
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ScannerZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "CTC", "WMW", "CRC",
 						'M', ItemList.Hull_ZPM,
 						'T', ItemList.Emitter_ZPM,
@@ -1640,7 +1643,7 @@ public class GT_Loader_Machines
 						'W', AdvancedGTMaterials.ZPM.getCable() });
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ScannerUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "CTC", "WMW", "CRC",
 						'M', ItemList.Hull_UV,
 						'T', ItemList.Emitter_UV,
@@ -1890,7 +1893,7 @@ public class GT_Loader_Machines
 		CustomItemList.PumpZPM.set(new GT_MetaTileEntity_Pump(11061, "basicmachine.pump.tier.07", "Ocean Transposer", 7).getStackForm(1L));
 		//CustomItemList.PumpUV.set(new GT_MetaTileEntity_Pump(11062, "basicmachine.pump.tier.08", "Reverse Terraformer", 8).getStackForm(1L));
 		GT_ModHandler.addCraftingRecipe(CustomItemList.PumpLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "CPC", "PMP", "BPB",
 						'M', ItemList.Hull_LuV,
 						'B', AdvancedGTMaterials.LuV.getPipeL(),
@@ -1898,7 +1901,7 @@ public class GT_Loader_Machines
 						'P', ItemList.Electric_Pump_LuV});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.PumpZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] { "CPC", "PMP", "BPB",
 						'M', ItemList.Hull_ZPM,
 						'B', AdvancedGTMaterials.ZPM.getPipeL(),
@@ -1907,7 +1910,7 @@ public class GT_Loader_Machines
 
 		// Disabled for now, as the Pump causes too much lag with the size  - OK will not add any more ;]
 		 /*GT_ModHandler.addCraftingRecipe(CustomItemList.PumpUV.get(1L, new Object[0]), 
-				 GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED, 
+				 bitsd, 
 				 new Object[] { "CPC", "PMP", "BPB",
 			 'M', ItemList.Hull_UV, 
 			 'B', AdvancedGTMaterials.UV.getPipeL(), 
@@ -2124,7 +2127,7 @@ public class GT_Loader_Machines
 		//Not adding either...
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorLV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RMR", "PBC", "IMI",
 						'R', ItemList.Robot_Arm_LV,
 						'M', ItemList.Electric_Motor_LV,
@@ -2134,7 +2137,7 @@ public class GT_Loader_Machines
 						'I', ItemList.Electric_Piston_LV});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorMV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RMR", "PBC", "IMI",
 						'R', ItemList.Robot_Arm_MV,
 						'M', ItemList.Electric_Motor_MV,
@@ -2144,7 +2147,7 @@ public class GT_Loader_Machines
 						'I', ItemList.Electric_Piston_MV});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorHV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RMR", "PBC", "IMI",
 						'R', ItemList.Robot_Arm_HV,
 						'M', ItemList.Electric_Motor_HV,
@@ -2154,7 +2157,7 @@ public class GT_Loader_Machines
 						'I', ItemList.Electric_Piston_HV});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorEV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RMR", "PBC", "IMI",
 						'R', ItemList.Robot_Arm_EV,
 						'M', ItemList.Electric_Motor_EV,
@@ -2164,7 +2167,7 @@ public class GT_Loader_Machines
 						'I', ItemList.Electric_Piston_EV});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorIV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RMR", "PBC", "IMI",
 						'R', ItemList.Robot_Arm_IV,
 						'M', ItemList.Electric_Motor_IV,
@@ -2174,7 +2177,7 @@ public class GT_Loader_Machines
 						'I', ItemList.Electric_Piston_IV});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RMR", "PBC", "IMI",
 						'R', ItemList.Robot_Arm_LuV,
 						'M', ItemList.Electric_Motor_LuV,
@@ -2184,7 +2187,7 @@ public class GT_Loader_Machines
 						'I', ItemList.Electric_Piston_LuV});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RMR", "PBC", "IMI",
 						'R', ItemList.Robot_Arm_ZPM,
 						'M', ItemList.Electric_Motor_ZPM,
@@ -2194,7 +2197,7 @@ public class GT_Loader_Machines
 						'I', ItemList.Electric_Piston_ZPM});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.AcceleratorUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RMR", "PBC", "IMI",
 						'R', ItemList.Robot_Arm_UV,
 						'M', ItemList.Electric_Motor_UV,
@@ -2223,7 +2226,7 @@ public class GT_Loader_Machines
 				11126,"basicmachine.brewery.tier.12", "Epic Brew Rusher IV",12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.BreweryLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GPG", "WBW", "CZC",
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
 						'P', ItemList.Electric_Pump_LuV,
@@ -2233,7 +2236,7 @@ public class GT_Loader_Machines
 						'Z', new ItemStack(Items.brewing_stand, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.BreweryZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GPG", "WBW", "CZC",
 						'W', OrePrefixes.cableGt01.get(Materials.Naquadah),
 						'P', ItemList.Electric_Pump_ZPM,
@@ -2243,7 +2246,7 @@ public class GT_Loader_Machines
 						'Z', new ItemStack(Items.brewing_stand, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.BreweryUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GPG", "WBW", "CZC",
 						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
 						'P', ItemList.Electric_Pump_UV,
@@ -2302,7 +2305,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.CanningMachineLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WPW", "CBC", "GGG",
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
 						'P', ItemList.Electric_Pump_LuV,
@@ -2311,7 +2314,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.CanningMachineZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WPW", "CBC", "GGG",
 						'W', OrePrefixes.cableGt01.get(Materials.Naquadah),
 						'P', ItemList.Electric_Pump_ZPM,
@@ -2320,7 +2323,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.CanningMachineUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WPW", "CBC", "GGG",
 						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
 						'P', ItemList.Electric_Pump_UV,
@@ -2377,7 +2380,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ChemicalBathLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"VGW", "PGV", "CMC",
 						'M', ItemList.Hull_LuV,
 						'V', ItemList.Conveyor_Module_LuV,
@@ -2387,7 +2390,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ChemicalBathZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"VGW", "PGV", "CMC",
 						'M', ItemList.Hull_ZPM,
 						'V', ItemList.Conveyor_Module_ZPM,
@@ -2397,7 +2400,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ChemicalBathUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"VGW", "PGV", "CMC",
 						'M', ItemList.Hull_UV,
 						'V', ItemList.Conveyor_Module_UV,
@@ -2454,7 +2457,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ChemicalReactorLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"PRP", "WMW", "CHC",
 						'H', ItemList.Hull_LuV,
 						'R', OrePrefixes.rotor.get(Materials.Chrome),
@@ -2464,7 +2467,7 @@ public class GT_Loader_Machines
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ChemicalReactorZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"PRP", "WMW", "CHC",
 						'H', ItemList.Hull_ZPM,
 						'R', OrePrefixes.rotor.get(Materials.Iridium),
@@ -2474,7 +2477,7 @@ public class GT_Loader_Machines
 						'W', OrePrefixes.cableGt01.get(Materials.Naquadah)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.ChemicalReactorUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"PRP", "WMW", "CHC",
 						'H', ItemList.Hull_UV,
 						'R', OrePrefixes.rotor.get(Materials.Osmium),
@@ -2505,7 +2508,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.DisassemblerLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RCR", "WHW", "RCR",
 						'R', ItemList.Robot_Arm_LuV,
 						'H', ItemList.Hull_LuV,
@@ -2513,7 +2516,7 @@ public class GT_Loader_Machines
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.DisassemblerZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RCR", "WHW", "RCR",
 						'R', ItemList.Robot_Arm_ZPM,
 						'H', ItemList.Hull_ZPM,
@@ -2521,7 +2524,7 @@ public class GT_Loader_Machines
 						'W', OrePrefixes.cableGt01.get(Materials.Naquadah)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.DisassemblerUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"RCR", "WHW", "RCR",
 						'R', ItemList.Robot_Arm_UV,
 						'H', ItemList.Hull_UV,
@@ -2582,7 +2585,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FermenterLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WPW", "GBG", "WCW",
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
 						'P', ItemList.Electric_Pump_LuV,
@@ -2591,7 +2594,7 @@ public class GT_Loader_Machines
 						'G', AdvancedGTMaterials.LuV.getGlass()});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FermenterZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WPW", "GBG", "WCW",
 						'W', OrePrefixes.cableGt01.get(Materials.Naquadah),
 						'P', ItemList.Electric_Pump_ZPM,
@@ -2601,7 +2604,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FermenterUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WPW", "GBG", "WCW",
 						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
 						'P', ItemList.Electric_Pump_UV,
@@ -2657,7 +2660,7 @@ public class GT_Loader_Machines
 				true, false, 0, "FLUID_CANNER", null).getStackForm(1L));
 
         GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerLuV.get(1L),
-		GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+		bitsd,
 				new Object[]{"GCG", "GBG", "WPW",
 						'W', OrePrefixes.cableGt01.get(Materials.VanadiumGallium),
 						'P', ItemList.Electric_Pump_LuV,
@@ -2666,7 +2669,7 @@ public class GT_Loader_Machines
 						'G', AdvancedGTMaterials.LuV.getGlass()});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GCG", "GBG", "WPW",
 						'W', OrePrefixes.cableGt01.get(Materials.Naquadah),
 						'P', ItemList.Electric_Pump_ZPM,
@@ -2676,7 +2679,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidCannerUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GCG", "GBG", "WPW",
 						'W', OrePrefixes.cableGt01.get(Materials.ElectrumFlux),
 						'P', ItemList.Electric_Pump_UV,
@@ -2732,7 +2735,7 @@ public class GT_Loader_Machines
 				false, false, 0, "FLUID_EXTRACTOR", null).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidExtractorLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GCG", "PME", "WCW",
 						'M', ItemList.Hull_LuV,
 						'E', ItemList.Electric_Piston_LuV,
@@ -2742,7 +2745,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidExtractorZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GCG", "PME", "WCW",
 						'M', ItemList.Hull_ZPM,
 						'E', ItemList.Electric_Piston_ZPM,
@@ -2752,7 +2755,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidExtractorUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GCG", "PME", "WCW",
 						'M', ItemList.Hull_UV,
 						'E', ItemList.Electric_Piston_UV,
@@ -2808,7 +2811,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidHeaterLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WGW", "PMP", "RCR",
 						'M', ItemList.Hull_LuV,
 						'P', ItemList.Electric_Pump_LuV,
@@ -2818,7 +2821,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidHeaterZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WGW", "PMP", "WCW",
 						'M', ItemList.Hull_ZPM,
 						'P', ItemList.Electric_Pump_ZPM,
@@ -2828,7 +2831,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.FluidHeaterUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"WGW", "PMP", "WCW",
 						'M', ItemList.Hull_UV,
 						'P', ItemList.Electric_Pump_UV,
@@ -2884,7 +2887,7 @@ public class GT_Loader_Machines
 				false, false, 0, "MIXER", null).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MixerLuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GRG", "GMG", "CBC",
 						'R', OrePrefixes.rotor.get(Materials.Chrome),
 						'M', ItemList.Electric_Motor_LuV,
@@ -2893,7 +2896,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MixerZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GRG", "GMG", "CBC",
 						'R', OrePrefixes.rotor.get(Materials.Iridium),
 						'M', ItemList.Electric_Motor_ZPM,
@@ -2902,7 +2905,7 @@ public class GT_Loader_Machines
 						'G', new ItemStack(Blocks.glass, 1, 32767)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.MixerUV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"GRG", "GMG", "CBC",
 						'R', OrePrefixes.rotor.get(Materials.Osmium),
 						'M', ItemList.Electric_Motor_UV,
@@ -2919,8 +2922,7 @@ public class GT_Loader_Machines
 				GT_Loader_MetaTileEntities.imagination).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UEV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"PHP", "WMW",
 						'M', CustomItemList.Casing_UEV,
 						'W', OrePrefixes.cableGt08.get(Materials.Draconium),
@@ -2932,8 +2934,7 @@ public class GT_Loader_Machines
 				GT_Loader_MetaTileEntities.imagination).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UIV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"PHP", "WMW",
 						'M', CustomItemList.Casing_UIV,
 						'W', OrePrefixes.cableGt08.get(Materials.NetherStar),
@@ -2945,8 +2946,7 @@ public class GT_Loader_Machines
 				GT_Loader_MetaTileEntities.imagination).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hull_UMV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"PHP", "WMW",
 						'M', CustomItemList.Casing_UMV,
 						'W', OrePrefixes.wireGt12.get(Materials.Quantium),
@@ -2996,8 +2996,7 @@ public class GT_Loader_Machines
 				"MAX -> OPV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_UEV_UHV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] {"KBB", "CM ", "KBB",
 						'M', ItemList.Hull_MAX,
 						'C', OrePrefixes.wireGt01.get(Materials.Draconium),
@@ -3005,8 +3004,7 @@ public class GT_Loader_Machines
 						'K', ItemList.Circuit_Chip_UHPIC});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_UIV_UEV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] {"KBB", "CM ", "KBB",
 						'M', CustomItemList.Hull_UEV,
 						'C', OrePrefixes.wireGt01.get(Materials.NetherStar),
@@ -3014,8 +3012,7 @@ public class GT_Loader_Machines
 						'K', ItemList.Circuit_Chip_UHPIC});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_UMV_UIV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[] {"KBB", "CM ", "KBB",
 						'M', CustomItemList.Hull_UIV,
 						'C', OrePrefixes.wireGt01.get(Materials.Quantium),
@@ -3148,8 +3145,7 @@ public class GT_Loader_Machines
 				11290, "hatch.dynamo.tier.10", "UEV Dynamo Hatch",10).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Dynamo_UEV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{" MC",
 						'M', CustomItemList.Hull_UEV,
 						'C', OrePrefixes.wireGt01.get(Materials.Draconium)});
@@ -3159,8 +3155,7 @@ public class GT_Loader_Machines
 				11291, "hatch.dynamo.tier.11", "UIV Dynamo Hatch",11).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Dynamo_UIV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{" MC",
 						'M', CustomItemList.Hull_UIV,
 						'C', OrePrefixes.wireGt01.get(Materials.NetherStar)});
@@ -3185,8 +3180,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Energy_UEV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"CM ",
 						'M', CustomItemList.Hull_UEV,
 						'C', OrePrefixes.wireGt01.get(Materials.Draconium)});
@@ -3197,8 +3191,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Energy_UIV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"CM ",
 						'M', CustomItemList.Hull_UIV,
 						'C', OrePrefixes.wireGt01.get(Materials.NetherStar)});
@@ -3209,8 +3202,7 @@ public class GT_Loader_Machines
 
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Hatch_Energy_UMV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"CM ",
 						'M', CustomItemList.Hull_UMV,
 						'C', OrePrefixes.wireGt01.get(Materials.Quantium)});
@@ -3280,96 +3272,123 @@ public class GT_Loader_Machines
 				"MAX -> OPV (Use Soft Mallet to invert)").getStackForm(1L));
 
 		if(Loader.isModLoaded("miscutils")) {
+			CustomItemList.Transformer_HA_UEV_UHV.set(new GregtechMetaTransformerHiAmp(
+					11989, "transformer.ha.tier.09", "Highly Ultimate Hi-Amp Transformer", 9,
+					"UEV -> UHV (Use Soft Mallet to invert)").getStackForm(1L));
+			CustomItemList.Transformer_HA_UIV_UEV.set(new GregtechMetaTransformerHiAmp(
+					11910, "transformer.ha.tier.10", "Extremely Ultimate Hi-Amp Transformer",10,
+					"UIV -> UEV (Use Soft Mallet to invert)").getStackForm(1L));
+			CustomItemList.Transformer_HA_UMV_UIV.set(new GregtechMetaTransformerHiAmp(
+					11911, "transformer.ha.tier.11", "Insanely Ultimate Hi-Amp Transformer",11,
+					"UMV -> UIV (Use Soft Mallet to invert)").getStackForm(1L));
+			CustomItemList.Transformer_HA_UXV_UMV.set(new GregtechMetaTransformerHiAmp(
+					11912, "transformer.ha.tier.12", "Mega Ultimate Hi-Amp Transformer",12,
+					"UXV -> UMV (Use Soft Mallet to invert)").getStackForm(1L));
+			CustomItemList.Transformer_HA_OPV_UXV.set(new GregtechMetaTransformerHiAmp(
+					11913, "transformer.ha.tier.13", "Extended Mega Ultimate Hi-Amp Transformer",13,
+					"OPV -> UXV (Use Soft Mallet to invert)").getStackForm(1L));
+			CustomItemList.Transformer_HA_MAXV_OPV.set(new GregtechMetaTransformerHiAmp(
+					11914, "transformer.ha.tier.14", "Overpowered Hi-Amp Transformer",14,
+					"MAX -> OPV (Use Soft Mallet to invert)").getStackForm(1L));
+
+			GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_HA_UEV_UHV.get(1L), bitsd,
+					new Object[] { "KBB", "CM ", "KBB", Character.valueOf('M'), CustomItemList.Transformer_UEV_UHV, Character.valueOf('C'),
+							OrePrefixes.wireGt16.get(Materials.Draconium), Character.valueOf('B'),
+							OrePrefixes.wireGt16.get(Materials.Superconductor), Character.valueOf('K'),
+							ItemList.Casing_Coil_Superconductor});
+			GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_HA_UIV_UEV.get(1L), bitsd,
+					new Object[] { "KBB", "CM ", "KBB", Character.valueOf('M'), CustomItemList.Transformer_UIV_UEV, Character.valueOf('C'),
+							OrePrefixes.wireGt04.get(Materials.NetherStar), Character.valueOf('B'),
+							OrePrefixes.wireGt16.get(Materials.Draconium), Character.valueOf('K'),
+							ItemList.Casing_Fusion_Coil});
+			GT_ModHandler.addCraftingRecipe(CustomItemList.Transformer_HA_UMV_UIV.get(1L), bitsd,
+					new Object[] { "KBB", "CMK", "KBB", Character.valueOf('M'), CustomItemList.Transformer_UMV_UIV, Character.valueOf('C'),
+							OrePrefixes.wireGt01.get(Materials.Quantium), Character.valueOf('B'),
+							OrePrefixes.wireGt04.get(Materials.NetherStar), Character.valueOf('K'),
+							ItemList.Casing_Fusion_Coil});
+
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_LV_ULV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Lead),
-							'C', OrePrefixes.cableGt04.get(Materials.Lead),
+							'C', OrePrefixes.cableGt16.get(Materials.Lead),
 							'S', OrePrefixes.spring.get(Materials.Tin),
-							'X', OrePrefixes.cableGt02.get(Materials.Tin),
+							'X', OrePrefixes.cableGt08.get(Materials.Tin),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', GregtechItemList.Transformer_HA_LV_ULV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_MV_LV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Tin),
-							'C', OrePrefixes.cableGt04.get(Materials.Tin),
+							'C', OrePrefixes.cableGt16.get(Materials.Tin),
 							'S', OrePrefixes.spring.get(Materials.AnyCopper),
-							'X', OrePrefixes.cableGt02.get(Materials.AnyCopper),
+							'X', OrePrefixes.cableGt08.get(Materials.AnyCopper),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', GregtechItemList.Transformer_HA_MV_LV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_HV_MV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.AnyCopper),
-							'C', OrePrefixes.cableGt04.get(Materials.AnyCopper),
+							'C', OrePrefixes.cableGt16.get(Materials.AnyCopper),
 							'S', OrePrefixes.spring.get(Materials.Gold),
-							'X', OrePrefixes.cableGt02.get(Materials.Gold),
+							'X', OrePrefixes.cableGt08.get(Materials.Gold),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', GregtechItemList.Transformer_HA_HV_MV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_EV_HV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Gold),
-							'C', OrePrefixes.cableGt04.get(Materials.Gold),
+							'C', OrePrefixes.cableGt16.get(Materials.Gold),
 							'S', OrePrefixes.spring.get(Materials.Aluminium),
-							'X', OrePrefixes.cableGt02.get(Materials.Aluminium),
+							'X', OrePrefixes.cableGt08.get(Materials.Aluminium),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', GregtechItemList.Transformer_HA_EV_HV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_IV_EV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Aluminium),
-							'C', OrePrefixes.cableGt04.get(Materials.Aluminium),
+							'C', OrePrefixes.cableGt16.get(Materials.Aluminium),
 							'S', OrePrefixes.spring.get(Materials.Tungsten),
-							'X', OrePrefixes.cableGt02.get(Materials.Tungsten),
+							'X', OrePrefixes.cableGt08.get(Materials.Tungsten),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', GregtechItemList.Transformer_HA_IV_EV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_LuV_IV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Tungsten),
-							'C', OrePrefixes.cableGt04.get(Materials.Tungsten),
+							'C', OrePrefixes.cableGt16.get(Materials.Tungsten),
 							'S', OrePrefixes.spring.get(Materials.VanadiumGallium),
-							'X', OrePrefixes.cableGt02.get(Materials.VanadiumGallium),
+							'X', OrePrefixes.cableGt08.get(Materials.VanadiumGallium),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', GregtechItemList.Transformer_HA_LuV_IV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_ZPM_LuV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.VanadiumGallium),
-							'C', OrePrefixes.cableGt04.get(Materials.VanadiumGallium),
+							'C', OrePrefixes.cableGt16.get(Materials.VanadiumGallium),
 							'S', OrePrefixes.spring.get(Materials.Naquadah),
-							'X', OrePrefixes.cableGt04.get(Materials.Naquadah),
+							'X', OrePrefixes.cableGt08.get(Materials.Naquadah),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', GregtechItemList.Transformer_HA_ZPM_LuV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UV_ZPM.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Naquadah),
-							'C', OrePrefixes.cableGt08.get(Materials.Naquadah),
+							'C', OrePrefixes.cableGt16.get(Materials.Naquadah),
 							'S', OrePrefixes.spring.get(Materials.NaquadahAlloy),
 							'X', OrePrefixes.cableGt08.get(Materials.NaquadahAlloy),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
@@ -3377,11 +3396,10 @@ public class GT_Loader_Machines
 							'T', GregtechItemList.Transformer_HA_UV_ZPM});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UHV_UV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.NaquadahAlloy),
-							'C', OrePrefixes.cableGt08.get(Materials.NaquadahAlloy),
+							'C', OrePrefixes.cableGt16.get(Materials.NaquadahAlloy),
 							'S', OrePrefixes.spring.get(Materials.Neutronium),
 							'X', OrePrefixes.wireGt08.get(Materials.Superconductor),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
@@ -3389,131 +3407,120 @@ public class GT_Loader_Machines
 							'T', GregtechItemList.Transformer_HA_MAX_UV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UEV_UHV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Neutronium),
-							'C', OrePrefixes.wireGt08.get(Materials.Superconductor),
+							'C', OrePrefixes.wireGt16.get(Materials.Superconductor),
 							'S', OrePrefixes.spring.get(Materials.Draconium),
 							'X', OrePrefixes.wireGt08.get(Materials.Draconium),
 							'O', ItemList.Reactor_Coolant_He_1,
 							'P', ItemList.Electric_Pump_MV,
-							'T', GregtechItemList.Transformer_HA_UEV_UHV});
+							'T', CustomItemList.Transformer_HA_UEV_UHV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UIV_UEV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Draconium),
-							'C', OrePrefixes.wireGt08.get(Materials.Draconium),
+							'C', OrePrefixes.wireGt16.get(Materials.Draconium),
 							'S', OrePrefixes.spring.get(Materials.BlackPlutonium),
 							'X', OrePrefixes.wireGt08.get(Materials.NetherStar),
 							'O', ItemList.Reactor_Coolant_He_3,
 							'P', ItemList.Electric_Pump_HV,
-							'T', GregtechItemList.Transformer_HA_UIV_UEV});
+							'T', CustomItemList.Transformer_HA_UIV_UEV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UMV_UIV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.BlackPlutonium),
-							'C', OrePrefixes.wireGt08.get(Materials.NetherStar),
+							'C', OrePrefixes.wireGt16.get(Materials.NetherStar),
 							'S', OrePrefixes.spring.get(Materials.Quantium),
 							'X', OrePrefixes.wireGt08.get(Materials.Quantium),
 							'O', ItemList.Reactor_Coolant_He_6,
 							'P', ItemList.Electric_Pump_IV,
-							'T', GregtechItemList.Transformer_HA_UMV_UIV});
+							'T', CustomItemList.Transformer_HA_UMV_UIV});
 		} else {
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_LV_ULV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Lead),
-							'C', OrePrefixes.cableGt04.get(Materials.Lead),
+							'C', OrePrefixes.cableGt16.get(Materials.Lead),
 							'S', OrePrefixes.spring.get(Materials.Tin),
-							'X', OrePrefixes.cableGt02.get(Materials.Tin),
+							'X', OrePrefixes.cableGt08.get(Materials.Tin),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', ItemList.Transformer_LV_ULV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_MV_LV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Tin),
-							'C', OrePrefixes.cableGt04.get(Materials.Tin),
+							'C', OrePrefixes.cableGt16.get(Materials.Tin),
 							'S', OrePrefixes.spring.get(Materials.AnyCopper),
-							'X', OrePrefixes.cableGt02.get(Materials.AnyCopper),
+							'X', OrePrefixes.cableGt08.get(Materials.AnyCopper),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', ItemList.Transformer_MV_LV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_HV_MV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.AnyCopper),
-							'C', OrePrefixes.cableGt04.get(Materials.AnyCopper),
+							'C', OrePrefixes.cableGt16.get(Materials.AnyCopper),
 							'S', OrePrefixes.spring.get(Materials.Gold),
-							'X', OrePrefixes.cableGt02.get(Materials.Gold),
+							'X', OrePrefixes.cableGt08.get(Materials.Gold),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', ItemList.Transformer_HV_MV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_EV_HV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Gold),
-							'C', OrePrefixes.cableGt04.get(Materials.Gold),
+							'C', OrePrefixes.cableGt16.get(Materials.Gold),
 							'S', OrePrefixes.spring.get(Materials.Aluminium),
-							'X', OrePrefixes.cableGt02.get(Materials.Aluminium),
+							'X', OrePrefixes.cableGt08.get(Materials.Aluminium),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', ItemList.Transformer_EV_HV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_IV_EV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Aluminium),
-							'C', OrePrefixes.cableGt04.get(Materials.Aluminium),
+							'C', OrePrefixes.cableGt16.get(Materials.Aluminium),
 							'S', OrePrefixes.spring.get(Materials.Tungsten),
-							'X', OrePrefixes.cableGt02.get(Materials.Tungsten),
+							'X', OrePrefixes.cableGt08.get(Materials.Tungsten),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', ItemList.Transformer_IV_EV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_LuV_IV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Tungsten),
-							'C', OrePrefixes.cableGt04.get(Materials.Tungsten),
+							'C', OrePrefixes.cableGt16.get(Materials.Tungsten),
 							'S', OrePrefixes.spring.get(Materials.VanadiumGallium),
-							'X', OrePrefixes.cableGt02.get(Materials.VanadiumGallium),
+							'X', OrePrefixes.cableGt08.get(Materials.VanadiumGallium),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', ItemList.Transformer_LuV_IV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_ZPM_LuV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.VanadiumGallium),
-							'C', OrePrefixes.cableGt04.get(Materials.VanadiumGallium),
+							'C', OrePrefixes.cableGt16.get(Materials.VanadiumGallium),
 							'S', OrePrefixes.spring.get(Materials.Naquadah),
-							'X', OrePrefixes.cableGt04.get(Materials.Naquadah),
+							'X', OrePrefixes.cableGt08.get(Materials.Naquadah),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
 							'P', ItemList.Electric_Pump_LV,
 							'T', ItemList.Transformer_ZPM_LuV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UV_ZPM.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Naquadah),
-							'C', OrePrefixes.cableGt08.get(Materials.Naquadah),
+							'C', OrePrefixes.cableGt16.get(Materials.Naquadah),
 							'S', OrePrefixes.spring.get(Materials.NaquadahAlloy),
 							'X', OrePrefixes.cableGt08.get(Materials.NaquadahAlloy),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
@@ -3521,11 +3528,10 @@ public class GT_Loader_Machines
 							'T', ItemList.Transformer_UV_ZPM});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UHV_UV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.NaquadahAlloy),
-							'C', OrePrefixes.cableGt08.get(Materials.NaquadahAlloy),
+							'C', OrePrefixes.cableGt16.get(Materials.NaquadahAlloy),
 							'S', OrePrefixes.spring.get(Materials.Neutronium),
 							'X', OrePrefixes.wireGt08.get(Materials.Superconductor),
 							'O', OrePrefixes.cell.get(Materials.Lubricant),
@@ -3533,11 +3539,10 @@ public class GT_Loader_Machines
 							'T', ItemList.Transformer_MAX_UV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UEV_UHV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Neutronium),
-							'C', OrePrefixes.wireGt08.get(Materials.Superconductor),
+							'C', OrePrefixes.wireGt16.get(Materials.Superconductor),
 							'S', OrePrefixes.spring.get(Materials.Draconium),
 							'X', OrePrefixes.wireGt08.get(Materials.Draconium),
 							'O', ItemList.Reactor_Coolant_He_1,
@@ -3545,11 +3550,10 @@ public class GT_Loader_Machines
 							'T', CustomItemList.Transformer_UEV_UHV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UIV_UEV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.Draconium),
-							'C', OrePrefixes.wireGt08.get(Materials.Draconium),
+							'C', OrePrefixes.wireGt16.get(Materials.Draconium),
 							'S', OrePrefixes.spring.get(Materials.BlackPlutonium),
 							'X', OrePrefixes.wireGt08.get(Materials.NetherStar),
 							'O', ItemList.Reactor_Coolant_He_3,
@@ -3557,11 +3561,10 @@ public class GT_Loader_Machines
 							'T', CustomItemList.Transformer_UIV_UEV});
 
 			GT_ModHandler.addCraftingRecipe(CustomItemList.WetTransformer_UMV_UIV.get(1L),
-					GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-							GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+					bitsd,
 					new Object[]{"XOC", "STA", "POC",
 							'A', OrePrefixes.springSmall.get(Materials.BlackPlutonium),
-							'C', OrePrefixes.wireGt08.get(Materials.NetherStar),
+							'C', OrePrefixes.wireGt16.get(Materials.NetherStar),
 							'S', OrePrefixes.spring.get(Materials.Quantium),
 							'X', OrePrefixes.wireGt08.get(Materials.Quantium),
 							'O', ItemList.Reactor_Coolant_He_6,
@@ -3583,8 +3586,7 @@ public class GT_Loader_Machines
 				12040, "batteryturbocharger.16.tier.00", "Ultra Low Voltage Turbo Charger",0,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_ULV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_LV_ULV,
 						'M', ItemList.Battery_Charger_4by4_ULV,
@@ -3596,8 +3598,7 @@ public class GT_Loader_Machines
 				12041, "batteryturbocharger.16.tier.01", "Low Voltage Turbo Charger",1,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_LV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_MV_LV,
 						'M', ItemList.Battery_Charger_4by4_LV,
@@ -3609,8 +3610,7 @@ public class GT_Loader_Machines
 				12042, "batteryturbocharger.16.tier.02", "Medium Voltage Turbo Charger",2,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_MV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_HV_MV,
 						'M', ItemList.Battery_Charger_4by4_MV,
@@ -3622,8 +3622,7 @@ public class GT_Loader_Machines
 				12043, "batteryturbocharger.16.tier.03", "High Voltage Turbo Charger",3,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_HV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_EV_HV,
 						'M', ItemList.Battery_Charger_4by4_HV,
@@ -3635,8 +3634,7 @@ public class GT_Loader_Machines
 				12044, "batteryturbocharger.16.tier.04", "Extreme Voltage Turbo Charger",4,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_EV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_IV_EV,
 						'M', ItemList.Battery_Charger_4by4_EV,
@@ -3648,8 +3646,7 @@ public class GT_Loader_Machines
 				12045, "batteryturbocharger.16.tier.05", "Insane Voltage Turbo Charger",5,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_IV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_LuV_IV,
 						'M', ItemList.Battery_Charger_4by4_IV,
@@ -3661,8 +3658,7 @@ public class GT_Loader_Machines
 				12046, "batteryturbocharger.16.tier.06", "Ludicrous Voltage Turbo Charger",6,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_LuV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_ZPM_LuV,
 						'M', ItemList.Battery_Charger_4by4_LuV,
@@ -3674,8 +3670,7 @@ public class GT_Loader_Machines
 				12047, "batteryturbocharger.16.tier.07", "ZPM Voltage Turbo Charger",7,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_ZPM.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_UV_ZPM,
 						'M', ItemList.Battery_Charger_4by4_ZPM,
@@ -3687,8 +3682,7 @@ public class GT_Loader_Machines
 				12048, "batteryturbocharger.16.tier.08", "Ultimate Voltage Turbo Charger",8,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_UV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_UHV_UV,
 						'M', ItemList.Battery_Charger_4by4_UV,
@@ -3700,8 +3694,7 @@ public class GT_Loader_Machines
 				12049, "batteryturbocharger.16.tier.09", "Highly Ultimate Voltage Turbo Charger",9,"64A in /16A out, 120A/item, Disable to force Charge", 4).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Battery_TurboCharger_4by4_UHV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE |
-						GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"BTB", "CMC", "BXB",
 						'T', CustomItemList.WetTransformer_UEV_UHV,
 						'M', ItemList.Battery_Charger_4by4_MAX,
@@ -3743,7 +3736,7 @@ public class GT_Loader_Machines
 				12062, "automation.chestbuffer.tier.12", "UIV Voltage Chest Buffer", 12).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UEV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"CMV", " X ",
 						'M', CustomItemList.Hull_UEV,
 						'V', ItemList.Conveyor_Module_UV,
@@ -3751,7 +3744,7 @@ public class GT_Loader_Machines
 						'X', OrePrefixes.circuit.get(Materials.Advanced)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UIV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"CMV", " X ",
 						'M', CustomItemList.Hull_UIV,
 						'V', ItemList.Conveyor_Module_UV,
@@ -3759,7 +3752,7 @@ public class GT_Loader_Machines
 						'X', OrePrefixes.circuit.get(Materials.Master)});
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.Automation_ChestBuffer_UMV.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"CMV", " X ",
 						'M', CustomItemList.Hull_UMV,
 						'V', ItemList.Conveyor_Module_UV,
@@ -3773,7 +3766,7 @@ public class GT_Loader_Machines
 				12070 , "fix.name.remover", "Name Remover", 0).getStackForm(1L));
 
 		GT_ModHandler.addCraftingRecipe(CustomItemList.nameRemover.get(1L),
-				GT_ModHandler.RecipeBits.DISMANTLEABLE | GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE | GT_ModHandler.RecipeBits.BUFFERED,
+				bitsd,
 				new Object[]{"SsS", "VMV", "SXS",
 						'M', ItemList.Hull_ULV,
 						'V', OrePrefixes.gearGtSmall.get(Materials.AnyBronze),
