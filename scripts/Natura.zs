@@ -392,7 +392,7 @@ recipes.addShaped(<Natura:pressureplate.sakura> * 2, [[Saw, <Natura:plankSlab1:1
 recipes.addShaped(<Natura:trapdoor.sakura>, [
 [<Natura:plankSlab1:1>, <Natura:natura.stick:1>, <Natura:plankSlab1:1>],
 [<Natura:natura.stick:1>, Flint, <Natura:natura.stick:1>],
-[<Natura:plankSlab1:1>, Stick, <Natura:plankSlab1:1>]]);
+[<Natura:plankSlab1:1>, <Natura:natura.stick:1>, <Natura:plankSlab1:1>]]);
 // --- 
 recipes.addShaped(<Natura:trapdoor.sakura> * 2, [
 [<Natura:plankSlab1:1>, <Natura:natura.stick:1>, <Natura:plankSlab1:1>],

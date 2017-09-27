@@ -2860,6 +2860,15 @@ Assembler.addRecipe(<minecraft:iron_door>, <gregtech:gt.metaitem.01:17032> * 4, 
 Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
 Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
+//-
+Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab> * 4, <Natura:natura.stick:*> * 4, <liquid:molten.iron> * 16, 600, 4);
+// -
+Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab> * 4, <Natura:natura.stick:*> * 4, <liquid:molten.steel> * 16, 600, 4);
+//-
+Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab> * 4, <BiomesOPlenty:bamboo> * 4, <liquid:molten.iron> * 16, 600, 4);
+// -
+Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab> * 4, <BiomesOPlenty:bamboo> * 4, <liquid:molten.steel> * 16, 600, 4);
+
 
 // --- Piston
 Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcraft:item.PistonPlate>, 100, 30);
