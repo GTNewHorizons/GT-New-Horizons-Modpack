@@ -1102,7 +1102,7 @@ recipes.addShaped(Jukebox, [
 recipes.addShapeless(JackOLantern,
 [Pumpkin, Torch, Knife]);
 
-// --- Trapdoor
+// --- Trappdoor
 recipes.addShaped(Trapdoor, [
 [<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>],
 [Stick, Flint, Stick],
@@ -2856,7 +2856,7 @@ Assembler.addRecipe(<minecraft:wooden_door>, <gregtech:gt.metaitem.01:17809> * 4
 // --- Iron Door
 Assembler.addRecipe(<minecraft:iron_door>, <gregtech:gt.metaitem.01:17032> * 4, <dreamcraft:item.SteelBars>, <liquid:molten.steel> * 16, 400, 8);
 
-// --- Trapped Door
+// --- Traped Door
 Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab> * 4, <minecraft:stick> * 4, <liquid:molten.iron> * 16, 600, 4);
 // -
 Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab> * 4, <minecraft:stick> * 4, <liquid:molten.steel> * 16, 600, 4);
