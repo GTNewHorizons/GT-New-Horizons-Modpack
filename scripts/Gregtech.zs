@@ -91,19 +91,19 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
 // --- GT Swords
-recipes.remove(<gregtech:gt.metatool.01>);
+//recipes.remove(<gregtech:gt.metatool.01>);
 
 // --- GT Pickaxes
-recipes.remove(<gregtech:gt.metatool.01:2>);
+//recipes.remove(<gregtech:gt.metatool.01:2>);
 
 // --- GT Shovels
-recipes.remove(<gregtech:gt.metatool.01:4>);
+//recipes.remove(<gregtech:gt.metatool.01:4>);
 
 // --- GT Axes
-recipes.remove(<gregtech:gt.metatool.01:6>);
+//recipes.remove(<gregtech:gt.metatool.01:6>);
 
 // --- GT Hoes
-recipes.remove(<gregtech:gt.metatool.01:8>);
+//recipes.remove(<gregtech:gt.metatool.01:8>);
 
 // --- Eridium Neutron Reflector
 recipes.remove(<gregtech:gt.neutronreflector>);
