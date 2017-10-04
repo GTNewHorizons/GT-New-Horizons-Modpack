@@ -9,10 +9,18 @@
     <ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t"/>
 	<ToolTip ItemName="GalaxySpace:item.JetPack" ToolTip="§4Disabled Item; No recipe"/>
 	<ToolTip ItemName="GalaxySpace:item.JetPack:100" ToolTip="§4Disabled Item; No recipe"/>
+	<ToolTip ItemName="IguanaTweaksTConstruct:clayBucketLava" ToolTip="§4You need Gloves for it?"/>
+	<ToolTip ItemName="minecraft:lava_bucket" ToolTip="§4You need Gloves for it?"/>
+	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!"/>
+	
+//Chisel
+	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod"/>
+	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod"/>
+	<ToolTip ItemName="chisel:obsidianChisel" ToolTip="§5Chisel from Chisel Mod"/>
+			
+//Core Mod
 	<ToolTip ItemName="dreamcraft:item.OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot"/>
 	<ToolTip ItemName="dreamcraft:item.OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot"/>
-	<ToolTip ItemName="minecraft:lava_bucket" ToolTip="§4You need Gloves for it?"/>
-	<ToolTip ItemName="IguanaTweaksTConstruct:clayBucketLava" ToolTip="§4You need Gloves for it?"/>
 	<ToolTip ItemName="dreamcraft:dreamcraft_Pollution_bucket" ToolTip="§4Very toxic"/>
 	<ToolTip ItemName="dreamcraft:item.NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't"/>
 	<ToolTip ItemName="dreamcraft:item.NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't"/>
@@ -37,11 +45,14 @@
 	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 300"/>
 	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 300 §4Blast Resistance 420"/>
 	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 600 §4Blast Resistance 500"/>
-	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!"/>
+
+//Gregtech	
 	<ToolTip ItemName="gregtech:gt.blockmachines:1110" ToolTip="§4Nitro Diesel works in MV and above"/>
 	<ToolTip ItemName="gregtech:gt.metaitem.01:30709" ToolTip="§4works in MV Diesel Generator and above"/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace"/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 10x"/>
+		
+//Enhanced Lootbags	
 	<ToolTip ItemName="enhancedlootbags:lootbag" ToolTip="§3Enchant with a Fortune III Book"/>
 	<ToolTip ItemName="enhancedlootbags:lootbag:1" ToolTip="§3Enchant with a Fortune III Book"/>
 	<ToolTip ItemName="enhancedlootbags:lootbag:2" ToolTip="§3Enchant with a Fortune III Book"/>
@@ -78,8 +89,7 @@
 	<ToolTip ItemName="enhancedlootbags:lootbag:33" ToolTip="§3Enchant with a Fortune III Book"/>
 	<ToolTip ItemName="enhancedlootbags:lootbag:34" ToolTip="§3Enchant with a Fortune III Book"/>
 	<ToolTip ItemName="enhancedlootbags:lootbag:35" ToolTip="§3Enchant with a Fortune III Book"/>
-												
-		
+														
 //Buildcraft
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t"/>
 	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald" ToolTip="§22560 RF/t"/>
