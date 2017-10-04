@@ -9148,7 +9148,7 @@
     {
       "questID": 99,
       "name": "Bzzz... Whoom...",
-      "description": "Making etched wires for good circuits requires a precision laser engraver.",
+      "description": "Making some flawless crystals requires a precision laser engraver.\nAt Mv level the percission laser engrave becomes more important.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
