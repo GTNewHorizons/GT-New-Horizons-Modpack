@@ -72137,7 +72137,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can run of both water and distilled water. Water is consumed at a rate of 1l of water per 150l of steam.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can run of both water and distilled water. Water is consumed at a rate of 1l of water per 150l of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1-2 input hatch, 1-2 input bus, 3-4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
