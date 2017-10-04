@@ -136,8 +136,8 @@ mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 // --- Coinage Mold
 recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
 [null, null, null],
-[null, BlankCast, WireCutter],
-[File, null, null]]);	
+[null, BlankCast, null],
+[File, WireCutter, null]]);	
 
 
 
