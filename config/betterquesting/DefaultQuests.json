@@ -90171,6 +90171,90 @@
       "preRequisites": [
         951
       ]
+    },
+    {
+      "questID": 953,
+      "name": "Stainless Steel Pipes",
+      "description": "Stainless steel pipes much better then steel pipes. Like all high tier pipes (Titanium, Tungstensteel etc) you need a better wrench to decontruct the pipes. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5143
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5143
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "DamascusSteel"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        753
+      ]
     }
   ],
   "questLines": [
@@ -91901,6 +91985,11 @@
           "id": 952,
           "x": 228,
           "y": 480
+        },
+        {
+          "id": 953,
+          "x": 348,
+          "y": 336
         }
       ]
     },
