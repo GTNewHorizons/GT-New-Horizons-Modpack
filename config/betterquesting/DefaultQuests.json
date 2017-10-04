@@ -79288,7 +79288,7 @@
     {
       "questID": 845,
       "name": "Bio Diesel",
-      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 192,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite.",
+      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
