@@ -573,6 +573,26 @@ mods.thaumcraft.Aspects.set(<IC2:reactorCoolantSix:1>, "gelum 16, metallum 8, vi
 
 
 
+//--- Malis Doors ---
+
+
+
+// ---  Arcacia Trap Door
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_acacia>, "arbor 2, motus 1");
+
+// ---  Birch Trap Door
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_birch>, "arbor 2, motus 1");
+
+// ---  Dark Oakwood Trap Door
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_dark_oak>, "arbor 2, motus 1");
+
+// ---  Jungle Trap Door
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_jungle>, "arbor 2, motus 1");
+
+// ---  Spruce Trap Door
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_spruce>, "arbor 2, motus 1");
+
+
 
 
 
@@ -588,6 +608,49 @@ mods.thaumcraft.Aspects.set(<minecraft:blaze_rod>, "ignis 10, praecantatio 4");
 
 // --- Paper
 mods.thaumcraft.Aspects.set(<minecraft:paper>, "cognitio 4, aqua 2, arbor 1");
+
+
+
+//--- Natura ---
+
+
+
+// ---  Eucalyptus Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.eucalyptus>, "arbor 2, motus 1");
+
+// ---  Sakura Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.sakura>, "arbor 2, motus 1");
+
+// ---  Ghost Wood Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.ghostwood>, "arbor 2, motus 1");
+
+// ---  Redwood Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.redwood>, "arbor 2, motus 1");
+
+// ---  Blood Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.bloodwood>, "arbor 2, motus 1");
+
+// ---  Hopseed Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.hopseed>, "arbor 2, motus 1");
+
+// ---  Maple Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.maple>, "arbor 2, motus 1");
+
+// ---  Amaranth Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.amaranth>, "arbor 2, motus 1");
+
+// ---  Silverbell Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.silverbell>, "arbor 2, motus 1");
+
+// ---  Willowood Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.willow>, "arbor 2, motus 1");
+
+// ---  Darkwood Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.darkwood>, "arbor 2, motus 1");
+
+// ---  Fusewood Trap Door
+mods.thaumcraft.Aspects.set(<Natura:trapdoor.fusewood>, "arbor 2, motus 1");
+
 
 
 
