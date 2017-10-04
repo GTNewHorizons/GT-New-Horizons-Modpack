@@ -350,9 +350,6 @@ recipes.remove(Fence);
 // --- Fence Gate
 recipes.remove(FenceGate);
 
-// --- Iron Bars
-recipes.remove(IronBars);
-
 // --- Enchantment Table
 recipes.remove(EnchantingTable);
 
@@ -1257,12 +1254,6 @@ recipes.addShaped(FenceGate * 6, [
 [SteelScrew, Screwdriver, SteelScrew],
 [CarpentersBlock, Stick, CarpentersBlock],
 [CarpentersBlock, Stick, CarpentersBlock]]);
-
-// --- Iron Bars
-recipes.addShaped(IronBars * 3, [
-[null, HHammer, null],
-[IronRod, IronRod, IronRod],
-[IronRod, IronRod, IronRod]]);
 
 // --- Redstone Lamp
 recipes.addShaped(RSLamp, [

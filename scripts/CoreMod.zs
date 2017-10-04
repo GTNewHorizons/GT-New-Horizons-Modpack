@@ -84,12 +84,6 @@ recipes.addShaped(<dreamcraft:item.LongObsidianRod> * 2, [
 recipes.addShaped(<dreamcraft:item.LongStoneRod> * 2, [
 [Saw, Stone, File]]);
 
-// --- Steel Bars
-recipes.addShaped(<dreamcraft:item.SteelBars> * 3, [
-[null, Hammer, null],
-[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
-[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
-
 // --- Mushroom Powder
 recipes.addShaped(<dreamcraft:item.MushroomPowder>, [
 [<ore:listAllmushroom>, null, null],
