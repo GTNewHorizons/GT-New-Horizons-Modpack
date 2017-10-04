@@ -75043,12 +75043,6 @@
               "Damage": 17500
             },
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 144,
-              "OreDict": "",
-              "Damage": 27500
-            },
-            {
               "id": "dreamcraft:item.StainlessSteelBars",
               "Count": 36,
               "OreDict": "",
@@ -75202,7 +75196,6 @@
         }
       ],
       "preRequisites": [
-        160,
         831
       ]
     },
