@@ -72013,7 +72013,7 @@
     {
       "questID": 783,
       "name": "We need big toys",
-      "description": "All your little turbines take up too much space? It is time to solve this problem. This large turbine can help you produce a tremendous amount of energy. Don\u0027t forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
+      "description": "All your little turbines take up too much space? Are you running out of water? It is time to solve this problem. This large turbine can help you produce a tremendous amount of energy. . It will also distill water for you, so you can use the same water again inside your large boiler.  Don\u0027t forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72137,7 +72137,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can run of both water and distilled water. Water is consumed at a rate of 1l of water per 150l of steam.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
