@@ -616,7 +616,7 @@ recipes.addShaped(Requester, [
 recipes.addShaped(<BuildCraft|Core:wrenchItem>, [
 [null, <ore:ingotStainlessSteel>, null],
 [ <ore:ingotStainlessSteel>,  <ore:ingotStainlessSteel>,  <ore:ingotStainlessSteel>],
-[ <ore:ingotStainlessSteel>, <ore:crafingToolHardHammer>,  <ore:ingotStainlessSteel>]);
+[ <ore:ingotStainlessSteel>, <ore:craftingToolHardHammer>,  <ore:ingotStainlessSteel>]]);
 
 
 
