@@ -82779,7 +82779,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 36000,
+      "repeatTime": 3600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82839,7 +82839,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 4800,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82899,7 +82899,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 36000,
+      "repeatTime": 3600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82959,7 +82959,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 7200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -89853,7 +89853,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 14400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90457,7 +90457,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90517,7 +90517,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90577,7 +90577,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90637,7 +90637,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90697,7 +90697,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90757,7 +90757,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90817,7 +90817,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90877,7 +90877,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90937,7 +90937,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 2400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91057,7 +91057,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91117,7 +91117,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 2400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91177,7 +91177,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 2400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91237,7 +91237,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 3600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91297,7 +91297,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 3600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91357,7 +91357,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 4800,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91417,7 +91417,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91537,7 +91537,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 2400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91597,7 +91597,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91657,7 +91657,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 2400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -92017,7 +92017,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 2400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -92077,7 +92077,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 3600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -92123,6 +92123,72 @@
       ],
       "preRequisites": [
         557
+      ]
+    },
+    {
+      "questID": 984,
+      "name": "Silverwood Sapling",
+      "description": "Silverwood saplings are always rare to find. Want some? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 3600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:blockCustomPlant",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        440
       ]
     }
   ],
@@ -94548,6 +94614,11 @@
           "id": 983,
           "x": 588,
           "y": 216
+        },
+        {
+          "id": 984,
+          "x": 72,
+          "y": 0
         }
       ]
     },
