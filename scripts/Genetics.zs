@@ -207,7 +207,7 @@ Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.meta
 Assembler.addRecipe(<Genetics:misc:11>, <Forestry:hardenedMachine>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 288, 1500, 256);
 
 // --- Integrated CPU
-Assembler.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.01:32712>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 144, 600, 120);
+Assembler.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.03:32104>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 144, 600, 120);
 
 
 // --- Mixer Recipes ---
