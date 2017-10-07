@@ -90255,6 +90255,129 @@
       "preRequisites": [
         753
       ]
+    },
+    {
+      "questID": 954,
+      "name": "The \"Waterproblem\" are solved",
+      "description": "Entering hv age you found a way making a water reservoir wich solved the finite water problem. Crafting it with some fused quartz glass, hv pumps and cauldrons.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockReservoir",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockFusedQuartz",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32612
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cauldron",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockReservoir",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 5142
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        75,
+        143
+      ]
     }
   ],
   "questLines": [
@@ -93380,12 +93503,12 @@
         {
           "id": 82,
           "x": 192,
-          "y": 36
+          "y": 72
         },
         {
           "id": 83,
-          "x": 144,
-          "y": 72
+          "x": 0,
+          "y": 180
         },
         {
           "id": 85,
@@ -93404,8 +93527,8 @@
         },
         {
           "id": 87,
-          "x": 192,
-          "y": 0
+          "x": 144,
+          "y": 36
         },
         {
           "id": 475,
@@ -93435,12 +93558,12 @@
         {
           "id": 697,
           "x": 96,
-          "y": 36
+          "y": 72
         },
         {
           "id": 698,
           "x": 144,
-          "y": 36
+          "y": 72
         },
         {
           "id": 699,
@@ -93565,6 +93688,11 @@
         {
           "id": 562,
           "x": 384,
+          "y": 36
+        },
+        {
+          "id": 954,
+          "x": 96,
           "y": 36
         }
       ]
