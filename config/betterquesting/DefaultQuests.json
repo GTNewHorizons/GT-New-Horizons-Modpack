@@ -46685,7 +46685,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        11
+      ]
     },
     {
       "questID": 538,
@@ -52882,7 +52884,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        13
+      ]
     },
     {
       "questID": 601,
@@ -53075,7 +53079,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        44
+      ]
     },
     {
       "questID": 602,
@@ -53144,7 +53150,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        915
+      ]
     },
     {
       "questID": 603,
@@ -53196,7 +53204,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:item"
@@ -53214,74 +53222,7 @@
         }
       ],
       "preRequisites": [
-        604
-      ]
-    },
-    {
-      "questID": 604,
-      "name": "A new dimension",
-      "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside Strongholds. You feel strangely drawn into its mysterious depths.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:end_portal_frame",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "name": "Visit the End",
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
-          "dimension": 1,
-          "range": -1,
-          "visible": false,
-          "hideInfo": false,
-          "taskID": "bq_standard:location"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinAdventureII",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        602
+        986
       ]
     },
     {
@@ -53325,9 +53266,9 @@
           "rewards": [
             {
               "id": "enhancedlootbags:lootbag",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:item"
@@ -53336,19 +53277,19 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivorII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinDarkWizardII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinAdventureII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -53428,19 +53369,19 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivorII",
-              "Count": 1,
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinAdventureII",
-              "Count": 1,
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinDarkWizardII",
-              "Count": 1,
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -85196,7 +85137,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        11
+      ]
     },
     {
       "questID": 910,
@@ -85358,7 +85301,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        11
+      ]
     },
     {
       "questID": 912,
@@ -85438,7 +85383,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        11
+      ]
     },
     {
       "questID": 913,
@@ -85600,7 +85547,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        11
+      ]
     },
     {
       "questID": 915,
@@ -85684,7 +85633,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        11
+      ]
     },
     {
       "questID": 916,
@@ -92295,7 +92246,7 @@
     {
       "questID": 986,
       "name": "Is this the End? No the END Dimension",
-      "description": "After you reach hv tier, build a hv chemical reactor you are able now to crafting some Ender Eyes. Go and find some Dungeon to entered the END. Good luck!\n\nHint: throwing Ender Eyes in the air will guide you to the next End Fortress. From time to time Ender Eyes are destroyed in this progress.",
+      "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside Strongholds. You feel strangely drawn into its mysterious depths.\n\nHint: throwing Ender Eyes in the air will guide you to the next End Fortress. From time to time Ender Eyes are destroyed in this progress.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92527,10 +92478,28 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        943
+        943,
+        602
       ]
     }
   ],
@@ -94442,11 +94411,6 @@
         {
           "id": 943,
           "x": 96,
-          "y": 204
-        },
-        {
-          "id": 986,
-          "x": 48,
           "y": 204
         }
       ]
@@ -97479,38 +97443,38 @@
         },
         {
           "id": 601,
-          "x": 64,
+          "x": 72,
           "y": 0
         },
         {
           "id": 602,
           "x": 0,
-          "y": 32
+          "y": 36
         },
         {
           "id": 603,
-          "x": 64,
-          "y": 32
-        },
-        {
-          "id": 604,
-          "x": 32,
-          "y": 32
+          "x": 72,
+          "y": 36
         },
         {
           "id": 605,
-          "x": 96,
-          "y": 64
+          "x": 108,
+          "y": 72
         },
         {
           "id": 606,
-          "x": 32,
-          "y": 64
+          "x": 36,
+          "y": 72
         },
         {
           "id": 607,
-          "x": 64,
-          "y": 64
+          "x": 72,
+          "y": 72
+        },
+        {
+          "id": 986,
+          "x": 36,
+          "y": 36
         }
       ]
     },
