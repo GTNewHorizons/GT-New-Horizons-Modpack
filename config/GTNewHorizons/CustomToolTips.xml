@@ -47,7 +47,7 @@
 	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 600 §4Blast Resistance 500"/>
 
 //Gregtech	
-	<ToolTip ItemName="gregtech:gt.blockmachines:1110" ToolTip="§4Nitro Diesel works in MV and above"/>
+	<ToolTip ItemName="gregtech:gt.blockmachines:1110" ToolTip="§4Cetan-boosted Fuel works in MV Diesel Generator and above"/>
 	<ToolTip ItemName="gregtech:gt.metaitem.01:30709" ToolTip="§4works in MV Diesel Generator and above"/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace"/>
 	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 10x"/>
