@@ -43336,6 +43336,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
               "id": "ExtraBees:honeyComb",
               "Count": 1,
               "OreDict": "",
@@ -43576,10 +43582,16 @@
         {
           "rewards": [
             {
-              "id": "Forestry:beeCombs",
+              "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 6
+              "Damage": 25
+            },
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -43646,6 +43658,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
             {
               "id": "Forestry:beeCombs",
               "Count": 1,
@@ -43718,6 +43736,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
               "id": "minecraft:paper",
               "Count": 5,
               "OreDict": "",
@@ -43789,6 +43813,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
               "id": "Forestry:honeyDrop",
               "Count": 10,
               "OreDict": "",
@@ -43800,8 +43830,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -43860,6 +43890,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            },
+            {
               "id": "Genetics:misc",
               "Count": 10,
               "OreDict": "",
@@ -43871,8 +43907,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinBeesI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBeesII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -43926,6 +43962,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            },
             {
               "id": "Forestry:beeDroneGE",
               "Count": 1,
@@ -44158,6 +44200,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
               "id": "Forestry:frameUntreated",
               "Count": 3,
               "OreDict": "",
@@ -44180,7 +44228,8 @@
       ],
       "preRequisites": [
         502,
-        504
+        504,
+        578
       ]
     },
     {
@@ -44644,6 +44693,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
             {
               "id": "dreamcraft:item.CoinBeesI",
               "Count": 5,
@@ -92987,41 +93042,7 @@
         "id": "EnderIO:item.darkSteel_chestplate",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0,
-        "tag": {
-          "enderio.darksteel.upgrade.energyUpgrade:10": {
-            "upgradeItem:10": {
-              "id:4": 5635,
-              "Count:4": 1,
-              "Damage:4": 2
-            },
-            "maxOuput:4": 10000,
-            "level_cost:4": 20,
-            "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
-            "maxInput:4": 10000,
-            "capacity:4": 1000000,
-            "energy:4": 1000000
-          },
-          "enderio.darksteel.upgrade.glide:10": {
-            "upgradeItem:10": {
-              "id:4": 5654,
-              "Count:4": 1,
-              "Damage:4": 1
-            },
-            "level_cost:4": 10,
-            "unlocalized_name:8": "enderio.darksteel.upgrade.glider"
-          },
-          "enderio.darksteel.upgrade.apiaristArmor:10": {
-            "upgradeItem:10": {
-              "id:4": 4910,
-              "Count:4": 1,
-              "Damage:4": 0
-            },
-            "level_cost:4": 10,
-            "unlocalized_name:8": "enderio.darksteel.upgrade.apiaristArmor.chestplate",
-            "slot:4": 1
-          }
-        }
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -93171,28 +93192,40 @@
         {
           "choices": [
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:waterlily",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:piston",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "minecraft:stone",
-              "Count": 1,
+              "id": "Forestry:craftingMaterial",
+              "Count": 36,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 2
             },
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:potion",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 8198
             },
             {
-              "id": "minecraft:stone",
+              "id": "minecraft:potion",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 8194
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -93218,6 +93251,1649 @@
       "preRequisites": [
         141,
         139
+      ]
+    },
+    {
+      "questID": 992,
+      "name": "Go find some tropical bees",
+      "description": "Now the next thing is find some tropical bees. Be carefull this bees will poisen you and very agressive. Collecting the sticky combs and extract some silky strings out of it in order to make some Bee clothes.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beePrincessGE",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 30,
+          "NA:4": 0,
+          "Health:4": 30,
+          "IsAnalyzed:4": 0,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesTropical",
+                "UID0:8": "forestry.speciesTropical",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShort",
+                "UID0:8": "forestry.lifespanShort",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceUp1",
+                "UID0:8": "forestry.toleranceUp1",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceUp1",
+                "UID0:8": "forestry.toleranceUp1",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersJungle",
+                "UID0:8": "forestry.flowersJungle",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectMiasmic",
+                "UID0:8": "forestry.effectMiasmic",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 30,
+                "NA:4": 0,
+                "Health:4": 30,
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesTropical",
+                      "UID0:8": "forestry.speciesTropical",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShort",
+                      "UID0:8": "forestry.lifespanShort",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceUp1",
+                      "UID0:8": "forestry.toleranceUp1",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceUp1",
+                      "UID0:8": "forestry.toleranceUp1",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersJungle",
+                      "UID0:8": "forestry.flowersJungle",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectMiasmic",
+                      "UID0:8": "forestry.effectMiasmic",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 30,
+                "Health:4": 30,
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesTropical",
+                      "UID0:8": "forestry.speciesTropical",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShort",
+                      "UID0:8": "forestry.lifespanShort",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceUp1",
+                      "UID0:8": "forestry.toleranceUp1",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceUp1",
+                      "UID0:8": "forestry.toleranceUp1",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersJungle",
+                      "UID0:8": "forestry.flowersJungle",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectMiasmic",
+                      "UID0:8": "forestry.effectMiasmic",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        502
+      ]
+    },
+    {
+      "questID": 993,
+      "name": "Silky combs and Propolis",
+      "description": "Now the next thing is find some tropical bees. The Hives are located in Jungel Biomes. Be carefull this bees will poisen you and be very agressive. Collecting the sticky combs and extract some silky strings out of it in order to make some Bee clothes.\nI know this need a long time to collect it.\nUse a Gretech or Forestry Centrifuge to get Silky Propolis.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beeCombs",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 370,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:propolis",
+              "Count": 305,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "DamascusSteel"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        992,
+        539,
+        994
+      ]
+    },
+    {
+      "questID": 994,
+      "name": "The Centrifuge",
+      "description": "The Forestry Centrifuge are able to centrifuge up to 9 items out of Bee Combs. It use rf.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:factory",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17310
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32600
+            },
+            {
+              "id": "dreamcraft:item.SteelBars",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 20305
+            },
+            {
+              "id": "Forestry:sturdyMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:factory",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11034
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:waxCapsule",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        577
+      ]
+    },
+    {
+      "questID": 995,
+      "name": "Woven silk",
+      "description": "Centrifuge now your silky propolis down to get some silk wisp at a chance of 60%. Put 9 silk in the Forestry carpenter or gregtech assembler to get woven silk. \nThis fine fabric can be used for some Bee Cloth or to upgrade your Forestry Backpacks to 45 slots.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:craftingMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:craftingMaterial",
+              "Count": 216,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:craftingMaterial",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Forestry:beeQueenGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 10,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 10,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 10,
+                "Health:4": 10,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        992,
+        539,
+        994
+      ]
+    },
+    {
+      "questID": 996,
+      "name": "Apiarist\u0027s Cloth",
+      "description": "If you you collect 24 woven silk you can make your some Apiarist cloth to be protected from bee poising. You can upgrade your Ender Io Armor with it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:apiaristHelmet",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:craftingMaterial",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:apiaristHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:apiaristChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:apiaristLegs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:apiaristBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:beeQueenGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 10,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 10,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:apiaristHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        444
+      ]
+    },
+    {
+      "questID": 997,
+      "name": "Dark Steel Armor advanced upgrades",
+      "description": "In order to upgrade your armor and tools, you need 10 Levels each, but also 8 Vibrant crystals in total.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:item.darkSteel_chestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "enderio.darksteel.upgrade.energyUpgrade:10": {
+            "upgradeItem:10": {
+              "id:4": 5635,
+              "Count:4": 1,
+              "Damage:4": 2
+            },
+            "maxOuput:4": 10000,
+            "level_cost:4": 20,
+            "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+            "maxInput:4": 10000,
+            "capacity:4": 1000000,
+            "energy:4": 1000000
+          },
+          "enderio.darksteel.upgrade.glide:10": {
+            "upgradeItem:10": {
+              "id:4": 5654,
+              "Count:4": 1,
+              "Damage:4": 1
+            },
+            "level_cost:4": 10,
+            "unlocalized_name:8": "enderio.darksteel.upgrade.glider"
+          },
+          "enderio.darksteel.upgrade.apiaristArmor:10": {
+            "upgradeItem:10": {
+              "id:4": 4910,
+              "Count:4": 1,
+              "Damage:4": 0
+            },
+            "level_cost:4": 10,
+            "unlocalized_name:8": "enderio.darksteel.upgrade.apiaristArmor.chestplate",
+            "slot:4": 1
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:apiaristHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:apiaristChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:apiaristLegs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:apiaristBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:potion",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 8194
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8230
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:waterlily",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:piston",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockSolarPanel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:blockSolarPanel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemGoggles",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:naturalistHelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemGliderWing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:noteblock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.soundDetector:10": {
+                  "upgradeItem:10": {
+                    "id:4": 25,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.sound"
+                },
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5635,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                },
+                "enderio.darksteel.upgrade.naturalistEye:10": {
+                  "upgradeItem:10": {
+                    "id:4": 4823,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.naturalistEye"
+                },
+                "enderio.darksteel.upgrade.apiaristArmor:10": {
+                  "upgradeItem:10": {
+                    "id:4": 4909,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.apiaristArmor.helmet",
+                  "slot:4": 0
+                },
+                "enderio.darksteel.upgrade.nightVision:10": {
+                  "upgradeItem:10": {
+                    "id:4": 373,
+                    "Count:4": 1,
+                    "Damage:4": 8198
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.nightVision"
+                },
+                "enderio.darksteel.upgrade.gogglesRevealing:10": {
+                  "upgradeItem:10": {
+                    "id:4": 4419,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.gogglesOfRevealing"
+                },
+                "enderio.darksteel.upgrade.speedBoost:10": {
+                  "level:4": 2,
+                  "upgradeItem:10": {
+                    "id:4": 1568,
+                    "Count:4": 1,
+                    "Damage:4": 1
+                  },
+                  "level_cost:4": 30,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.solar_two"
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5635,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                },
+                "enderio.darksteel.upgrade.glide:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5654,
+                    "Count:4": 1,
+                    "Damage:4": 1
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.glider"
+                },
+                "enderio.darksteel.upgrade.apiaristArmor:10": {
+                  "upgradeItem:10": {
+                    "id:4": 4910,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.apiaristArmor.chestplate",
+                  "slot:4": 1
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5635,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                },
+                "enderio.darksteel.upgrade.apiaristArmor:10": {
+                  "upgradeItem:10": {
+                    "id:4": 4911,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.apiaristArmor.leggings",
+                  "slot:4": 2
+                },
+                "enderio.darksteel.upgrade.speedBoost:10": {
+                  "level:4": 3,
+                  "multiplier:6": 0.0,
+                  "upgradeItem:10": {
+                    "id:4": 373,
+                    "Count:4": 1,
+                    "Damage:4": 8194
+                  },
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.speed_three"
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.swim:10": {
+                  "upgradeItem:10": {
+                    "id:4": 111,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.swim"
+                },
+                "enderio.darksteel.upgrade.jumpBoost:10": {
+                  "level:4": 3,
+                  "upgradeItem:10": {
+                    "id:4": 33,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.jump_three"
+                },
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5635,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                },
+                "enderio.darksteel.upgrade.apiaristArmor:10": {
+                  "upgradeItem:10": {
+                    "id:4": 4912,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.apiaristArmor.boots",
+                  "slot:4": 3
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:blockSolarPanel",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "EnderIO:blockCapBank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "type:8": "VIBRANT",
+                "storedEnergyRF:4": 0
+              }
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 8262
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 8258
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        991
       ]
     }
   ],
@@ -95769,6 +97445,11 @@
           "id": 595,
           "x": 168,
           "y": 228
+        },
+        {
+          "id": 994,
+          "x": 60,
+          "y": 72
         }
       ]
     },
@@ -96886,6 +98567,16 @@
           "id": 139,
           "x": 252,
           "y": 240
+        },
+        {
+          "id": 996,
+          "x": 348,
+          "y": 0
+        },
+        {
+          "id": 997,
+          "x": 300,
+          "y": 288
         }
       ]
     },
@@ -98041,147 +99732,162 @@
         {
           "id": 500,
           "x": 0,
-          "y": 0
+          "y": 36
         },
         {
           "id": 501,
-          "x": 40,
-          "y": 0
+          "x": 36,
+          "y": 36
         },
         {
           "id": 502,
-          "x": 80,
-          "y": 0
+          "x": 72,
+          "y": 36
         },
         {
           "id": 503,
-          "x": 152,
-          "y": 0
+          "x": 156,
+          "y": 36
         },
         {
           "id": 504,
-          "x": 200,
-          "y": 0
+          "x": 204,
+          "y": 36
         },
         {
           "id": 505,
-          "x": 200,
-          "y": 32
+          "x": 204,
+          "y": 72
         },
         {
           "id": 506,
-          "x": 112,
-          "y": 64
+          "x": 108,
+          "y": 108
         },
         {
           "id": 507,
-          "x": 152,
-          "y": 32
+          "x": 156,
+          "y": 72
         },
         {
           "id": 508,
-          "x": 152,
-          "y": 64
+          "x": 156,
+          "y": 108
         },
         {
           "id": 509,
-          "x": 40,
-          "y": 96
+          "x": 36,
+          "y": 144
         },
         {
           "id": 511,
           "x": 0,
-          "y": 64
+          "y": 108
         },
         {
           "id": 512,
           "x": 0,
-          "y": 96
+          "y": 144
         },
         {
           "id": 513,
-          "x": 200,
-          "y": 64
+          "x": 204,
+          "y": 108
         },
         {
           "id": 514,
-          "x": 80,
-          "y": 32
+          "x": 72,
+          "y": 72
         },
         {
           "id": 510,
-          "x": 40,
-          "y": 64
+          "x": 36,
+          "y": 108
         },
         {
           "id": 515,
-          "x": 40,
-          "y": 32
+          "x": 36,
+          "y": 72
         },
         {
           "id": 516,
           "x": 0,
-          "y": 32
+          "y": 72
         },
         {
           "id": 517,
-          "x": 80,
-          "y": 96
+          "x": 72,
+          "y": 144
         },
         {
           "id": 518,
-          "x": 80,
-          "y": 64
+          "x": 72,
+          "y": 108
         },
         {
           "id": 519,
           "x": 0,
-          "y": 168
+          "y": 204
         },
         {
           "id": 520,
-          "x": 32,
-          "y": 168
+          "x": 36,
+          "y": 204
         },
         {
           "id": 521,
-          "x": 96,
-          "y": 168
+          "x": 108,
+          "y": 204
         },
         {
           "id": 522,
-          "x": 296,
-          "y": 168
+          "x": 324,
+          "y": 204
         },
         {
           "id": 523,
-          "x": 224,
-          "y": 168
+          "x": 252,
+          "y": 204
         },
         {
           "id": 524,
-          "x": 64,
-          "y": 168
+          "x": 72,
+          "y": 204
         },
         {
           "id": 525,
-          "x": 256,
-          "y": 168
+          "x": 288,
+          "y": 204
         },
         {
           "id": 526,
-          "x": 128,
-          "y": 168
+          "x": 144,
+          "y": 204
         },
         {
           "id": 527,
-          "x": 192,
-          "y": 168
+          "x": 216,
+          "y": 204
         },
         {
           "id": 528,
-          "x": 160,
-          "y": 168
+          "x": 180,
+          "y": 204
+        },
+        {
+          "id": 992,
+          "x": 72,
+          "y": 0
+        },
+        {
+          "id": 993,
+          "x": 108,
+          "y": 0
+        },
+        {
+          "id": 995,
+          "x": 156,
+          "y": 0
         }
       ]
     },
