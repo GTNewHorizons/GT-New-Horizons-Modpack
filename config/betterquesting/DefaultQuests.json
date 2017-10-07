@@ -12384,7 +12384,8 @@
         }
       ],
       "preRequisites": [
-        138
+        138,
+        692
       ]
     },
     {
@@ -12499,8 +12500,8 @@
     },
     {
       "questID": 141,
-      "name": "Basic upgrades",
-      "description": "In order to upgrade your armor and tools, you need 10 Levels each, but also 8 Vibrant crystals.",
+      "name": "Vibrant Crystals",
+      "description": "Vibrant capacitors banks need this magical  crystal too. Armor and tool can be upgraded too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12532,7 +12533,7 @@
           "requiredItems": [
             {
               "id": "EnderIO:itemMaterial",
-              "Count": 4,
+              "Count": 8,
               "OreDict": "",
               "Damage": 6
             }
@@ -12565,8 +12566,7 @@
         }
       ],
       "preRequisites": [
-        140,
-        139
+        989
       ]
     },
     {
@@ -15422,7 +15422,8 @@
         }
       ],
       "preRequisites": [
-        165
+        165,
+        141
       ]
     },
     {
@@ -15505,7 +15506,7 @@
         }
       ],
       "preRequisites": [
-        167
+        141
       ]
     },
     {
@@ -53223,6 +53224,112 @@
       ],
       "preRequisites": [
         986
+      ]
+    },
+    {
+      "questID": 604,
+      "name": "RF Batteries",
+      "description": "Basic Capacitors are RF batteries and saving the RF power you generate. You can put many blocks together to enlarge your Batterie capacity.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockCapBank",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "type:8": "SIMPLE",
+          "storedEnergyRF:4": 1000000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockCapBank",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "type:8": "SIMPLE",
+                "storedEnergyRF:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        129
       ]
     },
     {
@@ -92501,6 +92608,617 @@
         943,
         602
       ]
+    },
+    {
+      "questID": 987,
+      "name": "Upgraded RF Batteries",
+      "description": "Capacitor Banks are upgraded RF batteries and saving the RF power you generate. You can put many blocks together to enlarge your Battery capacity.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockCapBank",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2,
+        "tag": {
+          "type:8": "ACTIVATED",
+          "storedEnergyRF:4": 5000000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockCapBank",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "type:8": "ACTIVATED",
+                "storedEnergyRF:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        990
+      ]
+    },
+    {
+      "questID": 988,
+      "name": "Vibrant Capacitor Banks",
+      "description": "The Vibrant Capacitor Bank is the largest RF Batteries for now. It can stores 25 Mio RF in a single block. Put many Capacitor banks together will enlarge the RF amount you can store.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockCapBank",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3,
+        "tag": {
+          "type:8": "VIBRANT",
+          "storedEnergyRF:4": 25000000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockCapBank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "type:8": "VIBRANT",
+                "storedEnergyRF:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        141
+      ]
+    },
+    {
+      "questID": 989,
+      "name": "Vibrant alloy",
+      "description": "There are some... \"Darker\" uses for machines. Stuff that might be considered \"magic\". Anyway, for that you need a new alloy: Soularium.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11367
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11367
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160,
+        81
+      ]
+    },
+    {
+      "questID": 990,
+      "name": "Energetic Alloy",
+      "description": "Double-layer capacitors need energetic alloy and a Tier 2 Coils Electric Blast Furnace.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11366
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11366
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        604
+      ]
+    },
+    {
+      "questID": 991,
+      "name": "Dark Steel Armor basic upgrades",
+      "description": "In order to upgrade your armor and tools, you need 10 Levels each, but also 8 Vibrant crystals in total.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:item.darkSteel_chestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "enderio.darksteel.upgrade.energyUpgrade:10": {
+            "upgradeItem:10": {
+              "id:4": 5635,
+              "Count:4": 1,
+              "Damage:4": 2
+            },
+            "maxOuput:4": 10000,
+            "level_cost:4": 20,
+            "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+            "maxInput:4": 10000,
+            "capacity:4": 1000000,
+            "energy:4": 1000000
+          },
+          "enderio.darksteel.upgrade.glide:10": {
+            "upgradeItem:10": {
+              "id:4": 5654,
+              "Count:4": 1,
+              "Damage:4": 1
+            },
+            "level_cost:4": 10,
+            "unlocalized_name:8": "enderio.darksteel.upgrade.glider"
+          },
+          "enderio.darksteel.upgrade.apiaristArmor:10": {
+            "upgradeItem:10": {
+              "id:4": 4910,
+              "Count:4": 1,
+              "Damage:4": 0
+            },
+            "level_cost:4": 10,
+            "unlocalized_name:8": "enderio.darksteel.upgrade.apiaristArmor.chestplate",
+            "slot:4": 1
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 6
+                  },
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 6
+                  },
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 6
+                  },
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 6
+                  },
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        141,
+        139
+      ]
     }
   ],
   "questLines": [
@@ -93739,122 +94457,112 @@
         },
         {
           "id": 128,
-          "x": 396,
+          "x": 516,
           "y": 204
         },
         {
           "id": 129,
-          "x": 396,
+          "x": 516,
           "y": 264
         },
         {
           "id": 130,
-          "x": 396,
+          "x": 468,
           "y": 300
         },
         {
           "id": 131,
-          "x": 396,
+          "x": 468,
           "y": 372
         },
         {
           "id": 132,
-          "x": 432,
+          "x": 516,
           "y": 300
         },
         {
           "id": 133,
-          "x": 348,
+          "x": 468,
           "y": 264
         },
         {
           "id": 134,
-          "x": 468,
+          "x": 564,
           "y": 228
         },
         {
           "id": 135,
-          "x": 432,
+          "x": 564,
           "y": 264
         },
         {
           "id": 136,
-          "x": 468,
+          "x": 612,
           "y": 264
         },
         {
           "id": 137,
-          "x": 516,
+          "x": 612,
           "y": 228
         },
         {
           "id": 138,
-          "x": 564,
+          "x": 648,
           "y": 204
-        },
-        {
-          "id": 139,
-          "x": 564,
-          "y": 264
         },
         {
           "id": 140,
-          "x": 612,
+          "x": 696,
           "y": 204
         },
         {
-          "id": 141,
-          "x": 612,
-          "y": 264
-        },
-        {
           "id": 142,
-          "x": 468,
+          "x": 564,
           "y": 300
         },
         {
           "id": 143,
-          "x": 480,
+          "x": 540,
           "y": 372
         },
         {
           "id": 144,
-          "x": 432,
+          "x": 504,
           "y": 348
         },
         {
           "id": 145,
-          "x": 564,
-          "y": 432
+          "x": 612,
+          "y": 420
         },
         {
           "id": 146,
-          "x": 516,
+          "x": 576,
           "y": 396
         },
         {
           "id": 148,
-          "x": 516,
+          "x": 612,
           "y": 300
         },
         {
           "id": 149,
-          "x": 516,
+          "x": 612,
           "y": 336
         },
         {
           "id": 150,
-          "x": 564,
+          "x": 648,
           "y": 336
         },
         {
           "id": 151,
-          "x": 564,
+          "x": 648,
           "y": 300
         },
         {
           "id": 152,
-          "x": 612,
+          "x": 696,
           "y": 300
         },
         {
@@ -94236,6 +94944,21 @@
           "id": 953,
           "x": 348,
           "y": 336
+        },
+        {
+          "id": 604,
+          "x": 468,
+          "y": 228
+        },
+        {
+          "id": 987,
+          "x": 420,
+          "y": 264
+        },
+        {
+          "id": 990,
+          "x": 420,
+          "y": 228
         }
       ]
     },
@@ -94246,172 +94969,192 @@
         {
           "id": 160,
           "x": 192,
-          "y": 48
+          "y": 96
         },
         {
           "id": 162,
           "x": 192,
-          "y": 156
+          "y": 204
         },
         {
           "id": 163,
           "x": 396,
-          "y": 48
+          "y": 96
         },
         {
           "id": 165,
           "x": 300,
-          "y": 48
+          "y": 96
         },
         {
           "id": 167,
           "x": 240,
-          "y": 120
+          "y": 168
         },
         {
           "id": 168,
           "x": 300,
-          "y": 84
+          "y": 132
         },
         {
           "id": 169,
           "x": 348,
-          "y": 48
+          "y": 96
         },
         {
           "id": 166,
           "x": 252,
-          "y": 48
+          "y": 96
         },
         {
           "id": 170,
-          "x": 240,
-          "y": 156
+          "x": 348,
+          "y": 0
         },
         {
           "id": 171,
           "x": 300,
-          "y": 120
+          "y": 168
         },
         {
           "id": 172,
           "x": 300,
-          "y": 156
+          "y": 204
         },
         {
           "id": 173,
           "x": 348,
-          "y": 156
+          "y": 204
         },
         {
           "id": 174,
           "x": 348,
-          "y": 120
+          "y": 168
         },
         {
           "id": 175,
           "x": 384,
-          "y": 156
+          "y": 204
         },
         {
           "id": 769,
           "x": 48,
-          "y": 48
+          "y": 96
         },
         {
           "id": 770,
           "x": 48,
-          "y": 84
+          "y": 132
         },
         {
           "id": 772,
           "x": 48,
-          "y": 120
+          "y": 168
         },
         {
           "id": 789,
           "x": 48,
-          "y": 12
+          "y": 60
         },
         {
           "id": 790,
           "x": 0,
-          "y": 12
+          "y": 60
         },
         {
           "id": 808,
           "x": 96,
-          "y": 120
+          "y": 168
         },
         {
           "id": 860,
           "x": 192,
-          "y": 204
+          "y": 252
         },
         {
           "id": 932,
           "x": 192,
-          "y": 0
+          "y": 48
         },
         {
           "id": 859,
           "x": 48,
-          "y": 252
+          "y": 300
         },
         {
           "id": 858,
           "x": 96,
-          "y": 300
+          "y": 348
         },
         {
           "id": 854,
           "x": 96,
-          "y": 252
+          "y": 300
         },
         {
           "id": 857,
           "x": 156,
-          "y": 300
+          "y": 348
         },
         {
           "id": 856,
           "x": 156,
-          "y": 348
+          "y": 396
         },
         {
           "id": 147,
           "x": 96,
-          "y": 348
+          "y": 396
         },
         {
           "id": 855,
           "x": 156,
-          "y": 252
+          "y": 300
         },
         {
           "id": 851,
           "x": 240,
-          "y": 252
+          "y": 300
         },
         {
           "id": 853,
           "x": 192,
-          "y": 252
+          "y": 300
         },
         {
           "id": 841,
           "x": 240,
-          "y": 300
+          "y": 348
         },
         {
           "id": 557,
           "x": 300,
-          "y": 300
+          "y": 348
         },
         {
           "id": 943,
           "x": 96,
-          "y": 204
+          "y": 252
+        },
+        {
+          "id": 988,
+          "x": 348,
+          "y": 48
+        },
+        {
+          "id": 989,
+          "x": 252,
+          "y": 48
+        },
+        {
+          "id": 141,
+          "x": 300,
+          "y": 48
+        },
+        {
+          "id": 991,
+          "x": 300,
+          "y": 0
         }
       ]
     },
@@ -96133,6 +96876,16 @@
           "id": 804,
           "x": 144,
           "y": 336
+        },
+        {
+          "id": 991,
+          "x": 252,
+          "y": 288
+        },
+        {
+          "id": 139,
+          "x": 252,
+          "y": 240
         }
       ]
     },
