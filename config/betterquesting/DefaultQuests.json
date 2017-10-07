@@ -85262,7 +85262,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        479
+      ]
     },
     {
       "questID": 911,
@@ -85502,7 +85504,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        479
+      ]
     },
     {
       "questID": 914,
@@ -85758,7 +85762,8 @@
         915,
         912,
         911,
-        537
+        537,
+        985
       ]
     },
     {
@@ -92190,6 +92195,88 @@
       "preRequisites": [
         440
       ]
+    },
+    {
+      "questID": 985,
+      "name": "Time to kill (Ghast)",
+      "description": "They shooting exploding fireballs on you  but they week when you hit them or throw the fireballs back. Better upgrade your Armor with fire and blast protection.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 21600,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:ghast_tear",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "target": "Ghast",
+          "required": 10,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "taskID": "bq_standard:hunt"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "betterquesting:extra_life",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        479
+      ]
     }
   ],
   "questLines": [
@@ -96870,7 +96957,7 @@
         },
         {
           "id": 910,
-          "x": 228,
+          "x": 192,
           "y": 96
         },
         {
@@ -96885,12 +96972,12 @@
         },
         {
           "id": 913,
-          "x": 264,
+          "x": 228,
           "y": 132
         },
         {
           "id": 914,
-          "x": 228,
+          "x": 264,
           "y": 132
         },
         {
@@ -96961,6 +97048,11 @@
         {
           "id": 537,
           "x": 336,
+          "y": 132
+        },
+        {
+          "id": 985,
+          "x": 192,
           "y": 132
         }
       ]
