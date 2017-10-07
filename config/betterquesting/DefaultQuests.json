@@ -93022,7 +93022,7 @@
     {
       "questID": 991,
       "name": "Dark Steel Armor basic upgrades",
-      "description": "In order to upgrade your armor and tools, you need 10 Levels each, but also 8 Vibrant crystals in total.",
+      "description": "In order to upgrade your armor, you need 10 Levels each, but also 4 Vibrant crystals in total.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -94386,7 +94386,7 @@
     {
       "questID": 997,
       "name": "Dark Steel Armor advanced upgrades",
-      "description": "In order to upgrade your armor and tools, you need 10 Levels each, but also 8 Vibrant crystals in total.",
+      "description": "To upgrade your armor to be very advanced in tier you need alot of stuff. A Anvil is also needed and a lot of XP.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -94894,6 +94894,504 @@
       ],
       "preRequisites": [
         991
+      ]
+    },
+    {
+      "questID": 998,
+      "name": "Dark Steel Tool and Weapon basic upgrades",
+      "description": "In order to upgrade your weapon and tools, you need 10 Levels each, but also 4 Vibrant crystal.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:item.darkSteel_sword",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_axe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 6
+                  },
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 6
+                  },
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_axe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 6
+                  },
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 6
+                  },
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "minecraft:diamond_shovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        141,
+        139
+      ]
+    },
+    {
+      "questID": 999,
+      "name": "Dark Steel Tool and Weapon advanced upgrades",
+      "description": "Your Weapons and Tools can be upgraded with capacitors and other stuff to be more advanced.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:item.darkSteel_pickaxe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "enderio.darksteel.upgrade.energyUpgrade:10": {
+            "upgradeItem:10": {
+              "id:4": 5637,
+              "Count:4": 1,
+              "Damage:4": 6
+            },
+            "maxOuput:4": 1000,
+            "level_cost:4": 10,
+            "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+            "maxInput:4": 1000,
+            "capacity:4": 100000,
+            "energy:4": 100000
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:diamond_shovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.travel:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 8
+                  },
+                  "level_cost:4": 30,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.travel"
+                },
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5635,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.travel:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5637,
+                    "Count:4": 1,
+                    "Damage:4": 8
+                  },
+                  "level_cost:4": 30,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.travel"
+                },
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5635,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                },
+                "enderio.darksteel.upgrade.spoon:10": {
+                  "upgradeItem:10": {
+                    "id:4": 277,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.spoon"
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_axe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5635,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                }
+              }
+            },
+            {
+              "id": "EnderIO:item.darkSteel_shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5635,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "EnderIO:blockCapBank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "type:8": "VIBRANT",
+                "storedEnergyRF:4": 0
+              }
+            },
+            {
+              "id": "miscutils:MU-metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32054
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        998
       ]
     }
   ],
@@ -96828,8 +97326,13 @@
           "y": 48
         },
         {
-          "id": 991,
-          "x": 300,
+          "id": 998,
+          "x": 252,
+          "y": 0
+        },
+        {
+          "id": 999,
+          "x": 192,
           "y": 0
         }
       ]
