@@ -33774,7 +33774,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        332
+      ]
     },
     {
       "questID": 399,
@@ -33848,7 +33850,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        332
+      ]
     },
     {
       "questID": 400,
@@ -33929,7 +33933,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        986
+      ]
     },
     {
       "questID": 401,
@@ -34010,7 +34016,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        332
+      ]
     },
     {
       "questID": 402,
@@ -34084,7 +34092,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        332
+      ]
     },
     {
       "questID": 403,
@@ -34166,7 +34176,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        332
+      ]
     },
     {
       "questID": 404,
@@ -34240,7 +34252,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        332
+      ]
     },
     {
       "questID": 405,
@@ -92199,7 +92213,7 @@
     {
       "questID": 985,
       "name": "Time to kill (Ghast)",
-      "description": "They shooting exploding fireballs on you  but they week when you hit them or throw the fireballs back. Better upgrade your Armor with fire and blast protection.",
+      "description": "They shooting explosive fireballs on you  but they week when you hit them or throw the fireballs back. Better upgrade your Armor with fire and blast protection.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92276,6 +92290,247 @@
       ],
       "preRequisites": [
         479
+      ]
+    },
+    {
+      "questID": 986,
+      "name": "Is this the End? No the END Dimension",
+      "description": "After you reach hv tier, build a hv chemical reactor you are able now to crafting some Ender Eyes. Go and find some Dungeon to entered the END. Good luck!\n\nHint: throwing Ender Eyes in the air will guide you to the next End Fortress. From time to time Ender Eyes are destroyed in this progress.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:end_portal_frame",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:ender_pearl",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:blaze_powder",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:ender_eye",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "name": "END",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 1,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "BiomesOPlenty:helmetAmethyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 5,
+                    "id:4": 0
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 1
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 3
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 4
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 78
+                  }
+                ],
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Dream Masters Helmet"
+                }
+              }
+            },
+            {
+              "id": "BiomesOPlenty:chestplateAmethyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 5,
+                    "id:4": 0
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 1
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 3
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 4
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 34
+                  }
+                ],
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Dream Masters Chestplate"
+                }
+              }
+            },
+            {
+              "id": "BiomesOPlenty:leggingsAmethyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 5,
+                    "id:4": 0
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 1
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 3
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 4
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 34
+                  }
+                ],
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Dream Masters Leggings"
+                }
+              }
+            },
+            {
+              "id": "BiomesOPlenty:bootsAmethyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 5,
+                    "id:4": 0
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 1
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 2
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 3
+                  },
+                  {
+                    "lvl:4": 5,
+                    "id:4": 4
+                  }
+                ],
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Dream Masters Boots"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        943
       ]
     }
   ],
@@ -94187,6 +94442,11 @@
         {
           "id": 943,
           "x": 96,
+          "y": 204
+        },
+        {
+          "id": 986,
+          "x": 48,
           "y": 204
         }
       ]
