@@ -9148,7 +9148,7 @@
     {
       "questID": 99,
       "name": "Bzzz... Whoom...",
-      "description": "Making some flawless crystals requires a precision laser engraver.\nAt Mv level the percission laser engrave becomes more important.",
+      "description": "Making some flawless crystals requires a precision laser engraver.\nAt Mv level the precision laser engraver becomes more important.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9220,7 +9220,7 @@
     {
       "questID": 100,
       "name": "Press all the things",
-      "description": "With the basic forming press you can make some kind of food, glass arrows and some project red stuff. At mv/hv stage you can make rotors, different AE circuits and double your extruder/mold forms.",
+      "description": "With the basic forming press you can make different food items, glass arrows and some project red components. At mv/hv stage you can make rotors, various AE components and make copies of your molds and extruder shapes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12501,7 +12501,7 @@
     {
       "questID": 141,
       "name": "Vibrant Crystals",
-      "description": "Vibrant capacitors banks need this magical  crystal too. Armor and tool can be upgraded too.",
+      "description": "Vibrant capacitor banks also need this magical crystal. Armor and tools can be upgraded too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46106,7 +46106,7 @@
     {
       "questID": 533,
       "name": "Hydrogen, methane or some farts... (Natural gas) ",
-      "description": "Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood logs will give a better amount of 60 mb each log. Maybe it\u0027s time to build a forestry tree farm.",
+      "description": "Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it\u0027s time to build a forestry tree farm.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -53284,7 +53284,7 @@
     {
       "questID": 604,
       "name": "RF Batteries",
-      "description": "Basic Capacitors are RF batteries and saving the RF power you generate. You can put many blocks together to enlarge your Batterie capacity.",
+      "description": "Basic Capacitors are RF batteries which can store the RF power you generate. You can put many blocks together to enlarge your total battery capacity.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53634,7 +53634,7 @@
     {
       "questID": 608,
       "name": "A lead about lead that leads to lead dust",
-      "description": "The next step of making batteries is to collect some lead. Lead and galena veins can be found in the Twilight Forest.\n\nHint: To get lead, silver and galena you need to go to the twilight forest and look for this mix at y 5 - 45.",
+      "description": "The next step of making batteries is to collect some lead. Lead and galena veins can be found in the Twilight Forest at y levels 5 - 45.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55086,7 +55086,7 @@
     {
       "questID": 623,
       "name": "A big meteorite",
-      "description": "The best way to get rare earth is to find an applied energistics 2 meteorite and grind the blocks into dust. Maybe you completed the quest in the steam age and stored your crushed skystone somewhere? That dust can now be centrifuged into various byproducts like cadmium, neodymium, caesium, lanthanum, and yttrium.\n\nHint: Redstone have rare earth as byproduct, chalcopyrite at Hv level and sphalherite at Lv level have cadmium as byproduct.",
+      "description": "The best way to get rare earth is to find an applied energistics 2 meteorite and grind the blocks into dust. Maybe you completed the quest in the steam age and stored your crushed skystone somewhere? That dust can now be centrifuged into various byproducts like cadmium, neodymium, caesium, lanthanum, and yttrium.\n\nHint: Redstone has rare earth as byproduct. Chalcopyrite (at Hv level) and sphalherite (at Lv level) have cadmium as byproduct.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59917,7 +59917,7 @@
     {
       "questID": 667,
       "name": "Trainspotting",
-      "description": "The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).\n\nHint: You can use your wooden rails for steve carts farms.",
+      "description": "The wooden tracks can be made without any machine. Functionally equivalent to normal rails, but with a lower maximum speed (for safety reasons).\n\nHint: You can use your wooden rails for Steve\u0027s carts farms.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69625,7 +69625,7 @@
     {
       "questID": 759,
       "name": "Molten Polyethylene",
-      "description": "Polyethylene is made out of ethylene in a chemical reactor.\nUse a tank and get those cells manually by clickin on the tank and fill the cells. ",
+      "description": "Polyethylene is made out of ethylene in a chemical reactor.\nTip: Right-clicking an empty cell on a fluid tank will fill the cell with fluid from that tank. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -72130,7 +72130,7 @@
     {
       "questID": 783,
       "name": "We need big toys",
-      "description": "All your little turbines take up too much space? Are you running out of water? It is time to solve this problem. This large turbine can help you produce a tremendous amount of energy. . It will also distill water for you, so you can use the same water again inside your large boiler.  Don\u0027t forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
+      "description": "All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. . It will also distill water for you, so you can use the same water again inside your large boiler.  Don\u0027t forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72254,7 +72254,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can run of both water and distilled water. Water is consumed at a rate of 1l of water per 150l of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1-2 input hatch, 1-2 input bus, 3-4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can uses either water or distilled water. Water is consumed at a rate of 1l of water per 150l of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -77278,7 +77278,7 @@
     {
       "questID": 826,
       "name": "Iron Ore",
-      "description": "With your new iron tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite. So bring me some ores and make some iron ingots out of them.",
+      "description": "With iron tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite. So bring me some ores and make some iron ingots out of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -78934,7 +78934,7 @@
     {
       "questID": 840,
       "name": "Butane and Propane",
-      "description": "You can distill a lot of different gases out of your \"refinery gases\".\nMethane, butane, propane, helium and ethane.\n\nHint:\nRefinery gas is not a best source for Propane and Butane. Better refine it out of naphtha.",
+      "description": "You can distill a lot of different gases out of your \"refinery gases\".\nMethane, butane, propane, helium and ethane.\n\nHint:\nRefinery gas is not the best source for Propane and Butane. Better refine those out of naphtha.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82769,7 +82769,7 @@
     {
       "questID": 875,
       "name": "Slime Island Journey",
-      "description": "Rubber trees are not the only source for raw rubber. Go and find some slimy island high in the sky. Slime balls and slime leaves give raw rubber too.\nMake some slime tree farms beside your rubber farm.",
+      "description": "Rubber trees are not the only source for raw rubber. Go and find a slimy island high in the sky. Slime balls and slime leaves give raw rubber too.\nMake some slime tree farms beside your rubber farm.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83427,7 +83427,7 @@
     {
       "questID": 885,
       "name": "Cave Spider",
-      "description": "You feel lonely. Do you like my toad?",
+      "description": "You feel lonely. Let me sing itsy-bitsy spider for you.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90036,7 +90036,7 @@
     {
       "questID": 951,
       "name": "Fluid Solidifier",
-      "description": "Use a mold form making plates, sticks,  bolts and much more item parts in the fluid solidifier.",
+      "description": "Use molds to make plates, sticks, bolts and many more item parts in the fluid solidifier.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -90307,7 +90307,7 @@
     {
       "questID": 953,
       "name": "Stainless Steel Pipes",
-      "description": "Stainless steel pipes much better then steel pipes. Like all high tier pipes (Titanium, Tungstensteel etc) you need a better wrench to decontruct the pipes. ",
+      "description": "Stainless steel pipes are much better than steel pipes. Like all high tier pipes (Titanium, Tungstensteel etc) you need a better wrench to deconstruct the pipes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90390,8 +90390,8 @@
     },
     {
       "questID": 954,
-      "name": "The \"Waterproblem\" are solved",
-      "description": "Entering hv age you found a way making a water reservoir wich solved the finite water problem. Crafting it with some fused quartz glass, hv pumps and cauldrons.",
+      "name": "The \"Waterproblems\" are solved",
+      "description": "Entering hv age you found a way of making a water reservoir wich solves the finite water problem. Craft it with some fused quartz glass, hv pumps and cauldrons.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90514,7 +90514,7 @@
     {
       "questID": 955,
       "name": "Piston",
-      "description": "Want some piston? Buy some!",
+      "description": "Want some pistons? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90580,7 +90580,7 @@
     {
       "questID": 956,
       "name": "Piston LV",
-      "description": "Want some lv piston? Buy some!",
+      "description": "Want some lv pistons? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90640,7 +90640,7 @@
     {
       "questID": 957,
       "name": "Motor LV",
-      "description": "Want some lv motor? Buy some!",
+      "description": "Want some lv motors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90700,7 +90700,7 @@
     {
       "questID": 958,
       "name": "Pump LV",
-      "description": "Want some lv pump? Buy some!",
+      "description": "Want some lv pumps? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90760,7 +90760,7 @@
     {
       "questID": 959,
       "name": "Conveyor LV",
-      "description": "Want some lv conveyor belt? Buy some!",
+      "description": "Want some lv conveyor belts? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90820,7 +90820,7 @@
     {
       "questID": 960,
       "name": "Robot Arm LV",
-      "description": "Want some lv robot arm? Buy some!",
+      "description": "Want some lv robot arms? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90880,7 +90880,7 @@
     {
       "questID": 961,
       "name": "Sensor LV",
-      "description": "Want some lv sensor? Buy some!",
+      "description": "Want some lv sensors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90940,7 +90940,7 @@
     {
       "questID": 962,
       "name": "Emitter LV",
-      "description": "Want some lv emitter? Buy some!",
+      "description": "Want some lv emitters? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -91000,7 +91000,7 @@
     {
       "questID": 963,
       "name": "Basic Circuit Board",
-      "description": "Want some basic circuit board? Buy some!",
+      "description": "Want some basic circuit boards? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -91060,7 +91060,7 @@
     {
       "questID": 964,
       "name": "Good Circuit Board",
-      "description": "Want some good circuit board? Buy some!",
+      "description": "Want some good circuit boards? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -91420,7 +91420,7 @@
     {
       "questID": 970,
       "name": "Ram Wafer",
-      "description": "Want some ram wafer? Buy some!",
+      "description": "Want some ram wafers? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92326,7 +92326,7 @@
     {
       "questID": 985,
       "name": "Time to kill (Ghast)",
-      "description": "They shooting explosive fireballs on you  but they week when you hit them or throw the fireballs back. Better upgrade your Armor with fire and blast protection.",
+      "description": "They shoot you with explosive fireballs but they are weak when you hit them or throw the fireballs back. Better upgrade your armor with fire and blast protection.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92408,7 +92408,7 @@
     {
       "questID": 986,
       "name": "Is this the End? No the END Dimension",
-      "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside Strongholds. You feel strangely drawn into its mysterious depths.\n\nHint: throwing Ender Eyes in the air will guide you to the next End Fortress. From time to time Ender Eyes are destroyed in this progress.",
+      "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside strongholds. You feel strangely drawn into its mysterious depths.\n\nHint: throwing Ender Eyes in the air in the Overworld will guide you to the nearest stronghold . From time to time Ender Eyes are destroyed in this progress.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92667,7 +92667,7 @@
     {
       "questID": 987,
       "name": "Upgraded RF Batteries",
-      "description": "Capacitor Banks are upgraded RF batteries and saving the RF power you generate. You can put many blocks together to enlarge your Battery capacity.",
+      "description": "Capacitor Banks are upgraded RF batteries which can store the RF power you generate. You can put many blocks together to enlarge your total battery capacity.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92773,7 +92773,7 @@
     {
       "questID": 988,
       "name": "Vibrant Capacitor Banks",
-      "description": "The Vibrant Capacitor Bank is the largest RF Batteries for now. It can stores 25 Mio RF in a single block. Put many Capacitor banks together will enlarge the RF amount you can store.",
+      "description": "The Vibrant Capacitor Bank is the largest RF Battery for now. It can store 25 million RF in a single block. Putting many capacitor banks together will enlarge your total battery capacity.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92867,7 +92867,7 @@
     {
       "questID": 989,
       "name": "Vibrant alloy",
-      "description": "There are some... \"Darker\" uses for machines. Stuff that might be considered \"magic\". Anyway, for that you need a new alloy: Soularium.",
+      "description": "There are some... \"darker\" uses for machines. Stuff that might be considered \"magic\". Anyway, for that you need a new alloy: Soularium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92939,7 +92939,7 @@
     {
       "questID": 990,
       "name": "Energetic Alloy",
-      "description": "Double-layer capacitors need energetic alloy and a Tier 2 Coils Electric Blast Furnace.",
+      "description": "Double-layer capacitors need energetic alloy and an electric blast furnace with tier 2 coils.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -93022,7 +93022,7 @@
     {
       "questID": 991,
       "name": "Dark Steel Armor basic upgrades",
-      "description": "In order to upgrade your armor, you need 10 Levels each, but also 4 Vibrant crystals in total.",
+      "description": "In order to upgrade one armor item with basic upgrades, you need a vibrant crystal and 10 xp levels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -93256,7 +93256,7 @@
     {
       "questID": 992,
       "name": "Go find some tropical bees",
-      "description": "Now the next thing is find some tropical bees. Be carefull this bees will poisen you and very agressive. Collecting the sticky combs and extract some silky strings out of it in order to make some Bee clothes.",
+      "description": "Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very agressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist\u0027s clothes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -93557,7 +93557,7 @@
     {
       "questID": 993,
       "name": "Silky combs and Propolis",
-      "description": "Now the next thing is find some tropical bees. The Hives are located in Jungel Biomes. Be carefull this bees will poisen you and be very agressive. Collecting the sticky combs and extract some silky strings out of it in order to make some Bee clothes.\nI know this need a long time to collect it.\nUse a Gretech or Forestry Centrifuge to get Silky Propolis.",
+      "description": "Collect silky combs and extract some silk wisp out of it in order to make some Apiarist\u0027s clothes.\nThis can take quite a bit of time.\nUse a Gretech or Forestry Centrifuge to get Silky Propolis.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -93666,7 +93666,7 @@
     {
       "questID": 994,
       "name": "The Centrifuge",
-      "description": "The Forestry Centrifuge are able to centrifuge up to 9 items out of Bee Combs. It use rf.",
+      "description": "The Forestry Centrifuge is able to centrifuge up to 9 items out of bee combs. It uses RF energy.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -93798,7 +93798,7 @@
     {
       "questID": 995,
       "name": "Woven silk",
-      "description": "Centrifuge now your silky propolis down to get some silk wisp at a chance of 60%. Put 9 silk in the Forestry carpenter or gregtech assembler to get woven silk. \nThis fine fabric can be used for some Bee Cloth or to upgrade your Forestry Backpacks to 45 slots.",
+      "description": "Centrifuge your silky propolis to get some silk wisp at a chance of 60%. Put 9 silk wisp in the Forestry carpenter or Gregtech assembler to get woven silk. \nThis fine fabric can be used for crafting Apiarist\u0027s Clothes or to upgrade your Forestry Backpacks to 45 slots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -94123,7 +94123,7 @@
     {
       "questID": 996,
       "name": "Apiarist\u0027s Cloth",
-      "description": "If you you collect 24 woven silk you can make your some Apiarist cloth to be protected from bee poising. You can upgrade your Ender Io Armor with it.",
+      "description": "If you have collected 24 woven silk you can make a complete Apiarist\u0027s suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your Ender-io Dark Steel Armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -94386,7 +94386,7 @@
     {
       "questID": 997,
       "name": "Dark Steel Armor advanced upgrades",
-      "description": "To upgrade your armor to be very advanced in tier you need alot of stuff. A Anvil is also needed and a lot of XP.",
+      "description": "Your Dark Steel armor can be upgraded in various ways by combining it with various other items. You will need an anvil and a lot of XP.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -94899,7 +94899,7 @@
     {
       "questID": 998,
       "name": "Dark Steel Tool and Weapon basic upgrades",
-      "description": "In order to upgrade your weapon and tools, you need 10 Levels each, but also 4 Vibrant crystal.",
+      "description": "In order to upgrade a weapon or tool, you need a vibrant crystal and 10 xp levels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95121,7 +95121,7 @@
     {
       "questID": 999,
       "name": "Dark Steel Tool and Weapon advanced upgrades",
-      "description": "Your Weapons and Tools can be upgraded with capacitors and other stuff to be more advanced.",
+      "description": "Your weapons and tools can be upgraded even more by adding capacitors and various other items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95397,7 +95397,7 @@
     {
       "questID": 1000,
       "name": "RF Solar Panel",
-      "description": "It is also possible to powering Rf machines with a Solar panel. It outputs 10 RF/t.",
+      "description": "It is possible to power RF machines with a solar panel. It outputs 10 RF/t.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
