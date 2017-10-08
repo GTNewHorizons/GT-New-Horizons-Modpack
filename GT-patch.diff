@@ -1,0 +1,3087 @@
+From 9c09b6ebe1bfbef3d694b98b5e8c00f4fb37142e Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Sat, 7 Oct 2017 22:49:34 +0200
+Subject: [PATCH] cherry pick Commit: f5abfcefe8d77e2c3c6284bff72de25c0a0ef774
+ [f5abfce]
+
+The right method to find out whether the machine should break the block.
+---
+ .../common/tileentities/machines/basic/GT_MetaTileEntity_Pump.java     | 2 +-
+ .../machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java       | 3 +--
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+
+diff --git a/src/main/java/gregtech/common/tileentities/machines/basic/GT_MetaTileEntity_Pump.java b/src/main/java/gregtech/common/tileentities/machines/basic/GT_MetaTileEntity_Pump.java
+index cec1c5a..3bc1045 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/basic/GT_MetaTileEntity_Pump.java
++++ b/src/main/java/gregtech/common/tileentities/machines/basic/GT_MetaTileEntity_Pump.java
+@@ -201,7 +201,7 @@ public class GT_MetaTileEntity_Pump extends GT_MetaTileEntity_Hatch {
+         if (yHead <= 0) {
+             return false;
+         }
+-        if ((!consumeFluid(getBaseMetaTileEntity().getXCoord(), yHead - 1, getBaseMetaTileEntity().getZCoord())) && (!getBaseMetaTileEntity().getAir(getBaseMetaTileEntity().getXCoord(), yHead - 1, getBaseMetaTileEntity().getZCoord()))) {
++        if ((!consumeFluid(getBaseMetaTileEntity().getXCoord(), yHead - 1, getBaseMetaTileEntity().getZCoord())) && (!getBaseMetaTileEntity().getBlock(getBaseMetaTileEntity().getXCoord(), yHead - 1, getBaseMetaTileEntity().getZCoord()).isAir(getBaseMetaTileEntity().getWorld(), getBaseMetaTileEntity().getXCoord(), yHead - 1, getBaseMetaTileEntity().getZCoord()))) {
+ 
+             return false;
+         }
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java
+index 3fa1a98..3f44900 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java
+@@ -92,8 +92,7 @@ public abstract class GT_MetaTileEntity_ConcreteBackfillerBase extends GT_MetaTi
+ 
+     private boolean isRefillableBlock(int aX, int aY, int aZ){
+         IGregTechTileEntity aBaseTile = getBaseMetaTileEntity();
+-        if (aBaseTile.getTileEntity(aX, aY, aZ) != null) return false;
+-        if (!aBaseTile.getAir(aX, aY, aZ) && aBaseTile.getBlock(aX, aY, aZ).getMaterial().isSolid()) return false;
++        if (!aBaseTile.getBlock(aX, aY, aZ).isAir(aBaseTile.getWorld(), aX, aY, aZ) || aBaseTile.getBlock(aX, aY, aZ).getMaterial().isSolid()) return false;
+         if (!GT_Utility.setBlockByFakePlayer(getFakePlayer(aBaseTile), aX, aY, aZ, GregTech_API.sBlockConcretes, 8, true)) return false;
+         return true;
+     }
+-- 
+1.9.5.msysgit.0
+
+From 74199106670216396a0d2a9c9892969b13930e3e Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Tue, 12 Sep 2017 23:18:27 +0200
+Subject: [PATCH] cherry pick bd305c45b038819de2a0e61166da7344dbc770c7
+ 69d557908f447be138102676309e48e5f95b32b9
+
+Fix localization of Item Distributor #1211
+https://github.com/Blood-Asp/GT5-Unofficial/pull/1211
+---
+ src/main/java/gregtech/api/util/GT_LanguageManager.java                 | 1 +
+ .../tileentities/automation/GT_MetaTileEntity_ItemDistributor.java      | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/main/java/gregtech/api/util/GT_LanguageManager.java b/src/main/java/gregtech/api/util/GT_LanguageManager.java
+index 58e6d91..b2d977e 100644
+--- a/src/main/java/gregtech/api/util/GT_LanguageManager.java
++++ b/src/main/java/gregtech/api/util/GT_LanguageManager.java
+@@ -316,6 +316,7 @@ public class GT_LanguageManager {
+ //    	addStringLocalization("Interaction_DESCRIPTION_Index_208", "Grab");
+ //    	addStringLocalization("Interaction_DESCRIPTION_Index_209", "Grab");
+ //    	addStringLocalization("Interaction_DESCRIPTION_Index_210", "Grab");
++		addStringLocalization("Interaction_DESCRIPTION_Index_211", "Items per side: ");
+ 
+     }
+     
+diff --git a/src/main/java/gregtech/common/tileentities/automation/GT_MetaTileEntity_ItemDistributor.java b/src/main/java/gregtech/common/tileentities/automation/GT_MetaTileEntity_ItemDistributor.java
+index 8239dc1..5fa3bc8 100644
+--- a/src/main/java/gregtech/common/tileentities/automation/GT_MetaTileEntity_ItemDistributor.java
++++ b/src/main/java/gregtech/common/tileentities/automation/GT_MetaTileEntity_ItemDistributor.java
+@@ -153,7 +153,7 @@ public class GT_MetaTileEntity_ItemDistributor extends GT_MetaTileEntity_Buffer
+         //Adjust items per side by 1 or -1, constrained to the cyclic interval [0, 127]
+         itemsPerSide[aSide] += aPlayer.isSneaking() ? -1 : 1;
+         itemsPerSide[aSide] = (byte) ((itemsPerSide[aSide] + 128) % 128);
+-        GT_Utility.sendChatToPlayer(aPlayer, trans("110", "Items per side: " + itemsPerSide[aSide]));
++        GT_Utility.sendChatToPlayer(aPlayer, trans("211", "Items per side: ") + itemsPerSide[aSide]);
+     }
+ 
+     @Override
+-- 
+1.9.5.msysgit.0
+
+From 9956fee4454bc9ec54f5a0ed04e37d6589cbaf19 Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Tue, 12 Sep 2017 23:16:04 +0200
+Subject: [PATCH] cherry pick
+
+dae15665ccb54a0a8d6a76ffcc7d48eae0abec15
+
+Odp speed improving #1209
+https://github.com/Blood-Asp/GT5-Unofficial/pull/1209
+---
+ .../multi/GT_MetaTileEntity_OreDrillingPlant1.java |   8 +-
+ .../multi/GT_MetaTileEntity_OreDrillingPlant2.java |   7 +-
+ .../multi/GT_MetaTileEntity_OreDrillingPlant3.java |   7 +-
+ .../multi/GT_MetaTileEntity_OreDrillingPlant4.java |   8 +-
+ .../GT_MetaTileEntity_OreDrillingPlantBase.java    | 287 ++++++++++++++++++---
+ 5 files changed, 274 insertions(+), 43 deletions(-)
+
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant1.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant1.java
+index 8d1f683..bd1c079 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant1.java
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant1.java
+@@ -1,4 +1,3 @@
+-
+ package gregtech.common.tileentities.machines.multi;
+ 
+ import gregtech.api.enums.ItemList;
+@@ -49,4 +48,9 @@ public class GT_MetaTileEntity_OreDrillingPlant1 extends GT_MetaTileEntity_OreDr
+     protected int getMinTier() {
+         return 2;
+     }
+-}
++
++    @Override
++    protected int getBaseProgressTime() {
++        return 960;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant2.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant2.java
+index 2b161fe..272ea64 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant2.java
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant2.java
+@@ -48,4 +48,9 @@ public class GT_MetaTileEntity_OreDrillingPlant2 extends GT_MetaTileEntity_OreDr
+     protected int getMinTier() {
+         return 3;
+     }
+-}
++
++    @Override
++    protected int getBaseProgressTime() {
++        return 800;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant3.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant3.java
+index 1be6391..f89c578 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant3.java
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant3.java
+@@ -48,4 +48,9 @@ public class GT_MetaTileEntity_OreDrillingPlant3 extends GT_MetaTileEntity_OreDr
+     protected int getMinTier() {
+         return 4;
+     }
+-}
++
++    @Override
++    protected int getBaseProgressTime() {
++        return 640;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant4.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant4.java
+index 2488bc1..4059735 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant4.java
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlant4.java
+@@ -1,4 +1,3 @@
+-
+ package gregtech.common.tileentities.machines.multi;
+ 
+ import gregtech.api.enums.ItemList;
+@@ -49,4 +48,9 @@ public class GT_MetaTileEntity_OreDrillingPlant4 extends GT_MetaTileEntity_OreDr
+     protected int getMinTier() {
+         return 5;
+     }
+-}
++
++    @Override
++    protected int getBaseProgressTime() {
++        return 480;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlantBase.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlantBase.java
+index c34d8b0..a227ab7 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlantBase.java
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlantBase.java
+@@ -1,16 +1,18 @@
+ package gregtech.common.tileentities.machines.multi;
+ 
+-import static gregtech.api.enums.GT_Values.V;
+-import static gregtech.api.enums.GT_Values.VN;
+-
+-import java.util.ArrayList;
+-
++import gregtech.api.GregTech_API;
+ import gregtech.api.enums.ItemList;
+ import gregtech.api.enums.Materials;
+ import gregtech.api.enums.OrePrefixes;
++import gregtech.api.enums.Textures;
+ import gregtech.api.gui.GT_GUIContainer_MultiMachine;
++import gregtech.api.interfaces.ITexture;
+ import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch_Energy;
++import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_MultiBlockBase;
++import gregtech.api.objects.GT_RenderedTexture;
+ import gregtech.api.objects.ItemData;
++import gregtech.api.util.GT_ModHandler;
+ import gregtech.api.util.GT_OreDictUnificator;
+ import gregtech.api.util.GT_Recipe;
+ import gregtech.api.util.GT_Utility;
+@@ -20,40 +22,106 @@ import net.minecraft.block.Block;
+ import net.minecraft.entity.player.InventoryPlayer;
+ import net.minecraft.init.Blocks;
+ import net.minecraft.item.ItemStack;
++import net.minecraft.nbt.NBTTagCompound;
+ import net.minecraft.tileentity.TileEntity;
+ import net.minecraft.world.ChunkPosition;
++import net.minecraftforge.common.util.ForgeDirection;
+ import net.minecraftforge.fluids.FluidStack;
+ 
+-public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTileEntity_DrillerBase {
++import java.util.ArrayList;
++
++import static gregtech.api.enums.GT_Values.*;
++
++public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTileEntity_MultiBlockBase {
++    private static final ItemStack miningPipe = GT_ModHandler.getIC2Item("miningPipe", 0);
++    private static final ItemStack miningPipeTip = GT_ModHandler.getIC2Item("miningPipeTip", 0);
++    private static final Block miningPipeBlock = GT_Utility.getBlockFromStack(miningPipe);
++    private static final Block miningPipeTipBlock = GT_Utility.getBlockFromStack(miningPipeTip);
+ 
+     private final ArrayList<ChunkPosition> oreBlockPositions = new ArrayList<>();
+ 
++    private Block casingBlock;
++    private int casingMeta;
++    private int frameMeta;
++    private int casingTextureIndex;
++
++    private ForgeDirection back;
++    private int xDrill, yDrill, zDrill, xCenter, zCenter, yHead;
++
++    private boolean isPickingPipes;
++
+     public GT_MetaTileEntity_OreDrillingPlantBase(int aID, String aName, String aNameRegional) {
+         super(aID, aName, aNameRegional);
++        initFields();
+     }
+ 
+     public GT_MetaTileEntity_OreDrillingPlantBase(String aName) {
+         super(aName);
++        initFields();
++    }
++
++    private void initFields() {
++        casingBlock = getCasingBlockItem().getBlock();
++        casingMeta = getCasingBlockItem().get(0).getItemDamage();
++        int frameId = 4096 + getFrameMaterial().mMetaItemSubID;
++        frameMeta = GregTech_API.METATILEENTITIES[frameId] != null ? GregTech_API.METATILEENTITIES[frameId].getTileEntityBaseType() : W;
++        casingTextureIndex = getCasingTextureIndex();
++        isPickingPipes = false;
++    }
++
++    public ITexture[] getTexture(IGregTechTileEntity aBaseMetaTileEntity, byte aSide, byte aFacing, byte aColorIndex, boolean aActive, boolean aRedstone) {
++        if (aSide == aFacing)
++            return new ITexture[]{Textures.BlockIcons.CASING_BLOCKS[casingTextureIndex],new GT_RenderedTexture(aActive ? Textures.BlockIcons.OVERLAY_FRONT_ORE_DRILL_ACTIVE : Textures.BlockIcons.OVERLAY_FRONT_ORE_DRILL)};
++        return new ITexture[]{Textures.BlockIcons.CASING_BLOCKS[casingTextureIndex]};
+     }
+ 
+-    @Override
+     public Object getClientGUI(int aID, InventoryPlayer aPlayerInventory, IGregTechTileEntity aBaseMetaTileEntity) {
+         return new GT_GUIContainer_MultiMachine(aPlayerInventory, aBaseMetaTileEntity, getLocalName(), "OreDrillingPlant.png");
+     }
+ 
+     @Override
+-    protected boolean workingDownward(ItemStack aStack, int xDrill, int yDrill, int zDrill, int xPipe, int zPipe, int yHead, int oldYHead){
++    public void saveNBTData(NBTTagCompound aNBT) {
++        super.saveNBTData(aNBT);
++        aNBT.setBoolean("isPickingPipes", isPickingPipes);
++    }
++
++    @Override
++    public void loadNBTData(NBTTagCompound aNBT) {
++        super.loadNBTData(aNBT);
++        isPickingPipes = aNBT.getBoolean("isPickingPipes");
++    }
++
++    @Override
++    public boolean checkRecipe(ItemStack aStack) {
++        setElectricityStats();
++        int oldYHead = yHead;
++        if (!checkPipesAndSetYHead() || !isEnergyEnough()) {
++            stopMachine();
++            return false;
++        }
+         if (yHead != oldYHead) oreBlockPositions.clear();
++        if (isPickingPipes) {
++            if (tryPickPipe()) {
++                mOutputItems = new ItemStack[] {GT_Utility.copyAmount(1, miningPipe)};
++                return true;
++            } else {
++                isPickingPipes = false;
++                stopMachine();
++                return false;
++            }
++        }
+ 
+-        fillMineListIfEmpty(xDrill, yDrill, zDrill, xPipe, zPipe, yHead);
++        putMiningPipesFromInputsInController();
++        if (!tryConsumeDrillingFluid()) return false;
++
++        fillMineListIfEmpty();
+         if (oreBlockPositions.isEmpty()) {
+             if (!tryLowerPipe()) {
+-                if (waitForPipes()) return false;
+                 isPickingPipes = true;
+                 return true;
+             }
+             //new layer - fill again
+-            fillMineListIfEmpty(xDrill, yDrill, zDrill, xPipe, zPipe, yHead);
++            fillMineListIfEmpty();
+         }
+ 
+         ChunkPosition oreBlockPos = null;
+@@ -64,7 +132,6 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+             oreBlock = getBaseMetaTileEntity().getBlock(oreBlockPos.chunkPosX, oreBlockPos.chunkPosY, oreBlockPos.chunkPosZ);
+         }
+ 
+-        if (!tryConsumeDrillingFluid()) return false;
+         if (oreBlock != null && oreBlock != Blocks.air) {
+             ArrayList<ItemStack> oreBlockDrops = getBlockDrops(oreBlock, oreBlockPos.chunkPosX, oreBlockPos.chunkPosY, oreBlockPos.chunkPosZ);
+             getBaseMetaTileEntity().getWorld().setBlockToAir(oreBlockPos.chunkPosX, oreBlockPos.chunkPosY, oreBlockPos.chunkPosZ);
+@@ -74,29 +141,29 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+         return true;
+     }
+ 
+-    @Override
+-    protected boolean checkHatches(){
+-        return !mMaintenanceHatches.isEmpty() && !mInputHatches.isEmpty() && !mOutputBusses.isEmpty() && !mEnergyHatches.isEmpty();
++    private boolean isEnergyEnough() {
++        long requiredEnergy = 512 + getMaxInputVoltage() * 4;
++        for (GT_MetaTileEntity_Hatch_Energy energyHatch : mEnergyHatches) {
++            requiredEnergy -= energyHatch.getEUVar();
++            if (requiredEnergy <= 0) return true;
++        }
++        return false;
+     }
+ 
+-    @Override
+-    protected void setElectricityStats() {
++    private boolean tryPickPipe() {
++        if (yHead == yDrill) return false;
++        if (checkBlockAndMeta(xCenter, yHead + 1, zCenter, miningPipeBlock, W))
++            getBaseMetaTileEntity().getWorld().setBlock(xCenter, yHead + 1, zCenter, miningPipeTipBlock);
++        getBaseMetaTileEntity().getWorld().setBlockToAir(xCenter, yHead, zCenter);
++        return true;
++    }
++
++    private void setElectricityStats() {
+         this.mEfficiency = getCurrentEfficiency(null);
+         this.mEfficiencyIncrease = 10000;
+-        //T1 = 12; T2 = 48; T3 = 192; T4 = 768
+-        this.mEUt = 3 * (1 << (getMinTier() << 1));
+-        //T1 = 960; T2 = 480; T3 = 240; T4 = 120
+-        this.mMaxProgresstime = (isPickingPipes ? 80 : 1920) / (1 << getMinTier());
+-
+-        long voltage = getMaxInputVoltage();
+-        long overclockEu = V[Math.max(1, GT_Utility.getTier(voltage)) - 1];
+-        while (this.mEUt <= overclockEu) {
+-            this.mEUt *= 4;
+-            this.mMaxProgresstime /= 2;
+-        }
+-
+-        this.mEUt = -this.mEUt;
+-        this.mMaxProgresstime = Math.max(1, this.mMaxProgresstime);
++        int overclock = 1 << GT_Utility.getTier(getMaxInputVoltage()) - 1;
++        this.mEUt = -12 * overclock * overclock;
++        this.mMaxProgresstime = (isPickingPipes ? 80 : getBaseProgressTime()) / overclock;
+     }
+ 
+     private ItemStack[] getOutputByDrops(ArrayList<ItemStack> oreBlockDrops) {
+@@ -149,17 +216,37 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+     }
+ 
+     private boolean tryConsumeDrillingFluid() {
+-        if (!depleteInput(new FluidStack(ItemList.sDrillingFluid, 2000))) {
+-            mMaxProgresstime = 0;
+-            return false;
++        return depleteInput(new FluidStack(ItemList.sDrillingFluid, 2000));
++    }
++
++    private void putMiningPipesFromInputsInController() {
++        int maxPipes = miningPipe.getMaxStackSize();
++        if (isHasMiningPipes(maxPipes)) return;
++
++        ItemStack pipes = getStackInSlot(1);
++        for (ItemStack storedItem : getStoredInputs()) {
++            if (!storedItem.isItemEqual(miningPipe)) continue;
++
++            if (pipes == null) {
++                setInventorySlotContents(1, GT_Utility.copy(miningPipe));
++                pipes = getStackInSlot(1);
++            }
++
++            if (pipes.stackSize == maxPipes) break;
++
++            int needPipes = maxPipes - pipes.stackSize;
++            int transferPipes = storedItem.stackSize < needPipes ? storedItem.stackSize : needPipes;
++
++            pipes.stackSize += transferPipes;
++            storedItem.stackSize -= transferPipes;
+         }
+-        return true;
++        updateSlots();
+     }
+ 
+-    private void fillMineListIfEmpty(int xDrill, int yDrill, int zDrill, int xPipe, int zPipe, int yHead) {
++    private void fillMineListIfEmpty() {
+         if (!oreBlockPositions.isEmpty()) return;
+ 
+-        tryAddOreBlockToMineList(xPipe, yHead - 1, zPipe);
++        tryAddOreBlockToMineList(xCenter, yHead - 1, zCenter);
+         if (yHead == yDrill) return; //skip controller block layer
+ 
+         int radius = getRadiusInChunks() << 4;
+@@ -184,8 +271,134 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+         }
+     }
+ 
++    private boolean tryLowerPipe() {
++        if (!isHasMiningPipes()) return false;
++
++        if (yHead <= 0) return false;
++        if (checkBlockAndMeta(xCenter, yHead - 1, zCenter, Blocks.bedrock, W)) return false;
++
++        getBaseMetaTileEntity().getWorld().setBlock(xCenter, yHead - 1, zCenter, miningPipeTipBlock);
++        if (yHead != yDrill) getBaseMetaTileEntity().getWorld().setBlock(xCenter, yHead, zCenter, miningPipeBlock);
++
++        getBaseMetaTileEntity().decrStackSize(1, 1);
++        return true;
++    }
++
++    private boolean isHasMiningPipes() {
++        return isHasMiningPipes(1);
++    }
++
++    private boolean isHasMiningPipes(int minCount) {
++        ItemStack pipe = getStackInSlot(1);
++        return pipe != null && pipe.stackSize > minCount - 1 && pipe.isItemEqual(miningPipe);
++    }
++
++    @Override
++    public boolean checkMachine(IGregTechTileEntity aBaseMetaTileEntity, ItemStack aStack) {
++        updateCoordinates();
++        //check base layer
++        for (int xOff = -1 + back.offsetX; xOff <= 1 + back.offsetX; xOff++) {
++            for (int zOff = -1 + back.offsetZ; zOff <= 1 + back.offsetZ; zOff++) {
++                if (xOff == 0 && zOff == 0) continue;
++
++                IGregTechTileEntity tTileEntity = aBaseMetaTileEntity.getIGregTechTileEntityOffset(xOff, 0, zOff);
++                if (!checkCasingBlock(xOff, 0, zOff)
++                        && !addMaintenanceToMachineList(tTileEntity, casingTextureIndex)
++                        && !addInputToMachineList(tTileEntity, casingTextureIndex)
++                        && !addOutputToMachineList(tTileEntity, casingTextureIndex)
++                        && !addEnergyInputToMachineList(tTileEntity, casingTextureIndex))
++                    return false;
++            }
++        }
++        if (mMaintenanceHatches.isEmpty() || mInputHatches.isEmpty() || mOutputBusses.isEmpty() || mEnergyHatches.isEmpty()) return false;
++        if (GT_Utility.getTier(getMaxInputVoltage()) < getMinTier()) return false;
++        //check tower
++        for (int yOff = 1; yOff < 4; yOff++) {
++            if (!checkCasingBlock(back.offsetX, yOff, back.offsetZ)
++                    || !checkFrameBlock(back.offsetX + 1, yOff, back.offsetZ)
++                    || !checkFrameBlock(back.offsetX - 1, yOff, back.offsetZ)
++                    || !checkFrameBlock(back.offsetX, yOff, back.offsetZ + 1)
++                    || !checkFrameBlock(back.offsetX, yOff, back.offsetZ - 1)
++                    || !checkFrameBlock(back.offsetX, yOff + 3, back.offsetZ))
++                return false;
++        }
++        return true;
++    }
++
++    private void updateCoordinates() {
++        xDrill = getBaseMetaTileEntity().getXCoord();
++        yDrill = getBaseMetaTileEntity().getYCoord();
++        zDrill = getBaseMetaTileEntity().getZCoord();
++        back = ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing());
++        xCenter = xDrill + back.offsetX;
++        zCenter = zDrill + back.offsetZ;
++    }
++
++    private boolean checkPipesAndSetYHead() {
++        yHead = yDrill - 1;
++        while (checkBlockAndMeta(xCenter, yHead, zCenter, miningPipeBlock, W)) yHead--; //skip pipes
++        //is pipe tip OR is controller layer
++        if (checkBlockAndMeta(xCenter, yHead, zCenter, miningPipeTipBlock, W) || ++yHead == yDrill) return true;
++        //pipe column is broken - try fix
++        getBaseMetaTileEntity().getWorld().setBlock(xCenter, yHead, zCenter, miningPipeTipBlock);
++        return true;
++    }
++
++    private boolean checkCasingBlock(int xOff, int yOff, int zOff) {
++        return checkBlockAndMetaOffset(xOff, yOff, zOff, casingBlock, casingMeta);
++    }
++    //meta of frame is getTileEntityBaseType; frame should be checked using its drops (possible a high weight operation)
++    private boolean checkFrameBlock(int xOff, int yOff, int zOff) {
++        return checkBlockAndMetaOffset(xOff, yOff, zOff, GregTech_API.sBlockMachines, frameMeta);
++    }
++
++    private boolean checkBlockAndMetaOffset(int xOff, int yOff, int zOff, Block block, int meta) {
++        return checkBlockAndMeta(xDrill + xOff, yDrill + yOff, zDrill + zOff, block, meta);
++    }
++
++    private boolean checkBlockAndMeta(int x, int y, int z, Block block, int meta) {
++        return (meta == W || getBaseMetaTileEntity().getMetaID(x, y, z) == meta)
++                && getBaseMetaTileEntity().getBlock(x, y, z) == block;
++    }
++
++    @Override
++    public boolean isCorrectMachinePart(ItemStack aStack) {
++        return true;
++    }
++
++    @Override
++    public int getMaxEfficiency(ItemStack aStack) {
++        return 10000;
++    }
++
++    @Override
++    public int getPollutionPerTick(ItemStack aStack) {
++        return 0;
++    }
++
++    @Override
++    public int getDamageToComponent(ItemStack aStack) {
++        return 0;
++    }
++
++    @Override
++    public boolean explodesOnComponentBreak(ItemStack aStack) {
++        return false;
++    }
++
++    protected abstract ItemList getCasingBlockItem();
++
++    protected abstract Materials getFrameMaterial();
++
++    protected abstract int getCasingTextureIndex();
++
+     protected abstract int getRadiusInChunks();
+ 
++    protected abstract int getMinTier();
++
++    //returns theoretical progress time for LV energy hatch
++    protected abstract int getBaseProgressTime();
++
+     protected String[] getDescriptionInternal(String tierSuffix) {
+         String casings = getCasingBlockItem().get(0).getDisplayName();
+         return new String[]{
+-- 
+1.9.5.msysgit.0
+
+From a166a5bbd3a8d9809c2c3c3444451c2870a98cc7 Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Tue, 12 Sep 2017 23:11:20 +0200
+Subject: [PATCH] cherry pick ded594c86c701a0ff1f2282b4d6bff9cc7b1b9f6
+ c6d39f12fdf85edbeadc725e0b398fa70eb15bd0
+
+Patched ME energy tunnel, now they can emit GT energy. #1200
+https://github.com/Blood-Asp/GT5-Unofficial/pull/1200
+---
+ src/main/java/gregtech/GT_Mod.java                 |  1 +
+ .../loaders/postload/GT_AE2EnergyTunnelLoader.java | 27 +++++++
+ .../gregtech/loaders/postload/PartP2PGTPower.java  | 84 ++++++++++++++++++++++
+ 3 files changed, 112 insertions(+)
+ create mode 100644 src/main/java/gregtech/loaders/postload/GT_AE2EnergyTunnelLoader.java
+ create mode 100644 src/main/java/gregtech/loaders/postload/PartP2PGTPower.java
+
+diff --git a/src/main/java/gregtech/GT_Mod.java b/src/main/java/gregtech/GT_Mod.java
+index 939d03a..e1f9842 100644
+--- a/src/main/java/gregtech/GT_Mod.java
++++ b/src/main/java/gregtech/GT_Mod.java
+@@ -625,6 +625,7 @@ public class GT_Mod implements IGT_Mod {
+         new GT_CropLoader().run();
+         new GT_Worldgenloader().run();
+         new GT_CoverLoader().run();
++        new GT_AE2EnergyTunnelLoader().run();
+         LoadArmorComponents.init();
+ 
+         GT_RecipeRegistrator.registerUsagesForMaterials(new ItemStack(Blocks.planks, 1), null, false);
+diff --git a/src/main/java/gregtech/loaders/postload/GT_AE2EnergyTunnelLoader.java b/src/main/java/gregtech/loaders/postload/GT_AE2EnergyTunnelLoader.java
+new file mode 100644
+index 0000000..a558696
+--- /dev/null
++++ b/src/main/java/gregtech/loaders/postload/GT_AE2EnergyTunnelLoader.java
+@@ -0,0 +1,27 @@
++package gregtech.loaders.postload;
++
++import appeng.items.parts.PartType;
++import gregtech.GT_Mod;
++import gregtech.api.util.GT_Log;
++
++import java.lang.reflect.Field;
++
++public class GT_AE2EnergyTunnelLoader implements Runnable {
++    @Override
++    public void run() {
++        if (GT_Mod.gregtechproxy.mAE2Integration) {
++            try {
++                load();
++            } catch (Throwable e) {
++                GT_Log.out.println("Failed to load P2P tunnel for GT electricity");
++                e.printStackTrace(GT_Log.out);
++            }
++        }
++    }
++
++    public void load() throws Throwable {
++        Field f = PartType.class.getDeclaredField("myPart");
++        f.setAccessible(true);
++        f.set(PartType.P2PTunnelEU, PartP2PGTPower.class);
++    }
++}
+diff --git a/src/main/java/gregtech/loaders/postload/PartP2PGTPower.java b/src/main/java/gregtech/loaders/postload/PartP2PGTPower.java
+new file mode 100644
+index 0000000..30a3377
+--- /dev/null
++++ b/src/main/java/gregtech/loaders/postload/PartP2PGTPower.java
+@@ -0,0 +1,84 @@
++package gregtech.loaders.postload;
++
++import appeng.api.networking.IGridNode;
++import appeng.api.networking.ticking.IGridTickable;
++import appeng.api.networking.ticking.TickRateModulation;
++import appeng.api.networking.ticking.TickingRequest;
++import appeng.parts.p2p.PartP2PIC2Power;
++import gregtech.api.interfaces.tileentity.IEnergyConnected;
++import gregtech.api.util.GT_Utility;
++import net.minecraft.item.ItemStack;
++import net.minecraft.tileentity.TileEntity;
++import net.minecraft.world.World;
++import net.minecraftforge.common.util.ForgeDirection;
++
++public class PartP2PGTPower extends PartP2PIC2Power implements IGridTickable {
++    public PartP2PGTPower(ItemStack is) {
++        super(is);
++    }
++
++    public final World getWorld() {
++        return tile.getWorldObj();
++    }
++
++    public final int getXCoord() {
++        return tile.xCoord;
++    }
++
++    public final short getYCoord() {
++        return (short) tile.yCoord;
++    }
++
++    public final int getZCoord() {
++        return tile.zCoord;
++    }
++
++    public final int getOffsetX(byte aSide, int aMultiplier) {
++        return getXCoord() + ForgeDirection.getOrientation(aSide).offsetX * aMultiplier;
++    }
++
++    public final short getOffsetY(byte aSide, int aMultiplier) {
++        return (short) (getYCoord() + ForgeDirection.getOrientation(aSide).offsetY * aMultiplier);
++    }
++
++    public final int getOffsetZ(byte aSide, int aMultiplier) {
++        return getZCoord() + ForgeDirection.getOrientation(aSide).offsetZ * aMultiplier;
++    }
++
++    public final TileEntity getTileEntity(int aX, int aY, int aZ) {
++        return getWorld().getTileEntity(aX, aY, aZ);
++    }
++
++    public final TileEntity getTileEntityAtSide(byte aSide) {
++        int tX = getOffsetX(aSide, 1), tY = getOffsetY(aSide, 1), tZ = getOffsetZ(aSide, 1);
++        return getWorld().getTileEntity(tX, tY, tZ);
++    }
++
++    public boolean outputEnergy() {
++        if (getOfferedEnergy() == 0) {
++            return false;
++        }
++        TileEntity t = getTileEntityAtSide((byte) side.ordinal());
++        if (t instanceof IEnergyConnected) {
++            long voltage = 8 << (getSourceTier() * 2);
++            if (voltage > getOfferedEnergy()) {
++                voltage = (long) getOfferedEnergy();
++            }
++            if (((IEnergyConnected) t).injectEnergyUnits(GT_Utility.getOppositeSide(side.ordinal()), voltage, 1) > 0) {
++                drawEnergy(voltage);
++                return true;
++            }
++        }
++        return false;
++    }
++
++    @Override
++    public TickingRequest getTickingRequest(IGridNode iGridNode) {
++        return new TickingRequest(1, 20, false, false);
++    }
++
++    @Override
++    public TickRateModulation tickingRequest(IGridNode iGridNode, int i) {
++        return outputEnergy() ? TickRateModulation.FASTER : TickRateModulation.SLOWER;
++    }
++}
+\ No newline at end of file
+-- 
+1.9.5.msysgit.0
+
+From a4a0a7c2cc3c299969c62e509cc3c366a90214f3 Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Tue, 12 Sep 2017 23:06:55 +0200
+Subject: [PATCH] cherry pick 11213d18d7345ee29f2efce6c5d421a855bed056
+ fb163d1be0aa291508bb6513e34cacba3ca06b36
+ fb508132d91543d5e837dfa4fac09cf5e4b9e7a8
+ d682ca0d36e3824b1bf73cc800f58c4126bcf104
+ 0f2db4f76a88c26ca08b2da444b264444ce01316
+ 50229e4506687d184c93ed702cdeeecea65e326a
+
+f5195f822d9951015c4ef6599e5b4f6544ec0714
+fbdb6ceecf60183ab382f043b78b61941157eccf
+55af1972b86a82bf6038342aa1a3bf9013d0f164
+
+c0d9d5a268da4b58385ee95e27408e06829c74b8
+416890142c0fa62617fc6e4537826689635e9eb3
+d532cb67f7bc68243e3d2dc2a12a466ed9c9e2d9
+d1671eaf33b3b4223da174e115f35b9bc1f19c5a
+4d90afad87375e3f1013a493f4b3b5d4e92bf521
+3c397d61697c13f0467e0cb67fb127fff8401f71
+64957ccd0f51ef283cc561d52a5439c3752c4e71
+
+b7e0863207253ee758742a22c607c3ccc37af6d3
+
+ae5a1e117d47876de9d2d2e8ea581e15686c5e1a
+a0eb30d03f8fc311598f628ad45b5365c7391917
+505a9c263e88e5519bade6a3167f829e41e13e64
+
+9cbb9c66a2f63e7e0cb4aceebfc9c93776b82be2
+
+Drillers upgrade #1163
+https://github.com/Blood-Asp/GT5-Unofficial/pull/1163
+---
+ src/main/java/gregtech/api/enums/ItemList.java     |   2 +-
+ .../api/gui/GT_GUIContainer_MultiMachine.java      |  25 +-
+ .../GT_MetaTileEntity_Hatch_DataAccess.java        |   4 +
+ .../multi/GT_MetaTileEntity_AssemblyLine.java      |   2 +-
+ .../GT_MetaTileEntity_ConcreteBackfiller1.java     |  51 +++
+ .../GT_MetaTileEntity_ConcreteBackfiller2.java     |  66 ++++
+ .../GT_MetaTileEntity_ConcreteBackfillerBase.java  | 125 ++++++++
+ .../multi/GT_MetaTileEntity_DrillerBase.java       | 357 +++++++++++++++++++++
+ .../machines/multi/GT_MetaTileEntity_OilDrill.java | 270 ----------------
+ .../multi/GT_MetaTileEntity_OilDrill1.java         |  51 +++
+ .../multi/GT_MetaTileEntity_OilDrill2.java         |  51 +++
+ .../multi/GT_MetaTileEntity_OilDrill3.java         |  51 +++
+ .../multi/GT_MetaTileEntity_OilDrillBase.java      | 152 +++++++++
+ .../GT_MetaTileEntity_OreDrillingPlantBase.java    | 269 ++--------------
+ .../preload/GT_Loader_MetaTileEntities.java        |  13 +-
+ 15 files changed, 959 insertions(+), 530 deletions(-)
+ create mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfiller1.java
+ create mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfiller2.java
+ create mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java
+ create mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_DrillerBase.java
+ delete mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill.java
+ create mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill1.java
+ create mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill2.java
+ create mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill3.java
+ create mode 100644 src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrillBase.java
+
+diff --git a/src/main/java/gregtech/api/enums/ItemList.java b/src/main/java/gregtech/api/enums/ItemList.java
+index b1c993a..1e0f667 100644
+--- a/src/main/java/gregtech/api/enums/ItemList.java
++++ b/src/main/java/gregtech/api/enums/ItemList.java
+@@ -661,7 +661,7 @@ public enum ItemList implements IItemContainer {
+     Casing_Tank_1, Casing_Tank_2, Casing_Tank_3, Casing_Tank_4, Casing_Tank_5, Casing_Tank_6, Casing_Tank_7, Casing_Tank_8, Casing_Tank_9, Casing_Tank_10, Casing_Tank_11, Casing_Tank_12, Casing_Tank_13, Casing_Tank_14, Casing_Tank_15, Casing_Tank_0,
+     MobRep_LV, MobRep_MV, MobRep_HV, MobRep_EV, MobRep_IV, MobRep_LuV, MobRep_ZPM, MobRep_UV, Cover_PlayerDetector, Machine_Multi_HeatExchanger,
+     Block_BronzePlate, Block_IridiumTungstensteel, Block_Plascrete, Block_TungstenSteelReinforced,
+-    Honeycomb, Charcoal_Pile, Block_BrittleCharcoal, Seismic_Prospector, Seismic_Prospector_Adv, OilDrill, OreDrill1, OreDrill2, OreDrill3, OreDrill4, PyrolyseOven, OilCracker, Crop_Drop_UUMBerry, Crop_Drop_UUABerry, Empty_Board_Basic, Empty_Board_Elite,
++    Honeycomb, Charcoal_Pile, Block_BrittleCharcoal, Seismic_Prospector, Seismic_Prospector_Adv, OilDrill1, OilDrill2, OilDrill3, ConcreteBackfiller1, ConcreteBackfiller2, OreDrill1, OreDrill2, OreDrill3, OreDrill4, PyrolyseOven, OilCracker, Crop_Drop_UUMBerry, Crop_Drop_UUABerry, Empty_Board_Basic, Empty_Board_Elite,
+     Battery_Charger_4by4_ULV, Battery_Charger_4by4_LV, Battery_Charger_4by4_MV, Battery_Charger_4by4_HV, Battery_Charger_4by4_EV, Battery_Charger_4by4_IV, Battery_Charger_4by4_LuV, Battery_Charger_4by4_ZPM, Battery_Charger_4by4_UV, Battery_Charger_4by4_MAX,
+     MicroTransmitter_HV, MicroTransmitter_EV, MicroTransmitter_IV, MicroTransmitter_LUV, MicroTransmitter_ZPM,
+     Crop_Drop_Bauxite, Crop_Drop_Ilmenite, Crop_Drop_Pitchblende, Crop_Drop_Uraninite, Crop_Drop_Thorium, Crop_Drop_Nickel, Crop_Drop_Zinc, Crop_Drop_Manganese, Crop_Drop_Scheelite, Crop_Drop_Platinum, Crop_Drop_Iridium, Crop_Drop_Osmium, Crop_Drop_Naquadah, Uraniumcell_1, Uraniumcell_2, Uraniumcell_4, Moxcell_1, Moxcell_2, Moxcell_4,
+diff --git a/src/main/java/gregtech/api/gui/GT_GUIContainer_MultiMachine.java b/src/main/java/gregtech/api/gui/GT_GUIContainer_MultiMachine.java
+index 5a7c487..62e6f8c 100644
+--- a/src/main/java/gregtech/api/gui/GT_GUIContainer_MultiMachine.java
++++ b/src/main/java/gregtech/api/gui/GT_GUIContainer_MultiMachine.java
+@@ -1,14 +1,18 @@
+ package gregtech.api.gui;
+ 
+-import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
+-import gregtech.api.util.GT_LanguageManager;
+-import gregtech.api.util.GT_ModHandler;
+-import gregtech.api.util.GT_Utility;
+-import gregtech.common.items.GT_MetaGenerated_Tool_01;
+-import net.minecraft.entity.player.InventoryPlayer;
+-import net.minecraft.item.ItemStack;
++    import static gregtech.api.enums.GT_Values.RES_PATH_GUI;
++
++    import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++    import gregtech.api.util.GT_LanguageManager;
++    import gregtech.api.util.GT_ModHandler;
++    import gregtech.api.util.GT_Utility;
++    import gregtech.common.items.GT_MetaGenerated_Tool_01;
++    import gregtech.common.tileentities.machines.multi.GT_MetaTileEntity_DrillerBase;
++    import gregtech.common.tileentities.machines.multi.GT_MetaTileEntity_LargeTurbine;
++    import net.minecraft.entity.player.InventoryPlayer;
++    import net.minecraft.item.ItemStack;
++
+ 
+-import static gregtech.api.enums.GT_Values.RES_PATH_GUI;
+ 
+ /**
+  * NEVER INCLUDE THIS FILE IN YOUR MOD!!!
+@@ -54,13 +58,12 @@ public class GT_GUIContainer_MultiMachine extends GT_GUIContainerMetaTile_Machin
+                 } else {
+                     fontRendererObj.drawString(trans("142","Running perfectly."), 10, 16, 16448255);
+                 }
+-                int id = mContainer.mTileEntity.getMetaTileID();
+-                if (id == 1157 || id == 1158 || id == 1177 || id == 1178 || id == 1179) {
++                if (mContainer.mTileEntity.getMetaTileEntity() instanceof GT_MetaTileEntity_DrillerBase) {
+                     ItemStack tItem = mContainer.mTileEntity.getMetaTileEntity().getStackInSlot(1);
+                     if (tItem == null || !GT_Utility.areStacksEqual(tItem, GT_ModHandler.getIC2Item("miningPipe", 1L))) {
+                         fontRendererObj.drawString(trans("143", "Missing Mining Pipe"), 10, ((GT_Container_MultiMachine) mContainer).mActive == 0 ? 40 : 24, 16448255);
+                     }
+-                } else if (id == 1131 || id == 1151 || id == 1152 || id == 1153) {
++                } else if (mContainer.mTileEntity.getMetaTileEntity() instanceof GT_MetaTileEntity_LargeTurbine) {
+                     ItemStack tItem = mContainer.mTileEntity.getMetaTileEntity().getStackInSlot(1);
+                     if (tItem == null || !(tItem.getItem() == GT_MetaGenerated_Tool_01.INSTANCE && tItem.getItemDamage() >= 170 && tItem.getItemDamage() <= 177)) {
+                         fontRendererObj.drawString(trans("144", "Missing Turbine Rotor"), 10, ((GT_Container_MultiMachine) mContainer).mActive == 0 ? 40 : 24, 16448255);
+diff --git a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaTileEntity_Hatch_DataAccess.java b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaTileEntity_Hatch_DataAccess.java
+index e28f5e6..bbdf0ec 100644
+--- a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaTileEntity_Hatch_DataAccess.java
++++ b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaTileEntity_Hatch_DataAccess.java
+@@ -98,4 +98,8 @@ public class GT_MetaTileEntity_Hatch_DataAccess extends GT_MetaTileEntity_Hatch
+     public boolean allowPutStack(IGregTechTileEntity aBaseMetaTileEntity, int aIndex, byte aSide, ItemStack aStack) {
+         return false;
+     }
++    @Override
++    public int getInventoryStackLimit() {
++        return 1;
++    }
+ }
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_AssemblyLine.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_AssemblyLine.java
+index 85fa737..2934fc5 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_AssemblyLine.java
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_AssemblyLine.java
+@@ -322,7 +322,7 @@ public class GT_MetaTileEntity_AssemblyLine
+      * @param state using bitmask, 1 for IntegratedCircuit, 2 for DataStick, 4 for DataOrb
+      */
+     private boolean isCorrectDataItem(ItemStack aStack, int state){
+-        if ((state & 1) != 0 && ItemList.Circuit_Integrated.isStackEqual(aStack, false, true)) return true;
++        if ((state & 1) != 0 && ItemList.Circuit_Integrated.isStackEqual(aStack, true, true)) return true;
+         if ((state & 2) != 0 && ItemList.Tool_DataStick.isStackEqual(aStack, false, true)) return true;
+         if ((state & 4) != 0 && ItemList.Tool_DataOrb.isStackEqual(aStack, false, true)) return true;
+         return false;
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfiller1.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfiller1.java
+new file mode 100644
+index 0000000..84bba3b
+--- /dev/null
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfiller1.java
+@@ -0,0 +1,51 @@
++package gregtech.common.tileentities.machines.multi;
++
++import gregtech.api.enums.ItemList;
++import gregtech.api.enums.Materials;
++import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
++import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++
++public class GT_MetaTileEntity_ConcreteBackfiller1 extends GT_MetaTileEntity_ConcreteBackfillerBase {
++    public GT_MetaTileEntity_ConcreteBackfiller1(int aID, String aName, String aNameRegional) {
++        super(aID, aName, aNameRegional);
++    }
++
++    public GT_MetaTileEntity_ConcreteBackfiller1(String aName) {
++        super(aName);
++    }
++
++    @Override
++    public String[] getDescription() {
++        return getDescriptionInternal("");
++    }
++
++    @Override
++    public IMetaTileEntity newMetaEntity(IGregTechTileEntity aTileEntity) {
++        return new GT_MetaTileEntity_ConcreteBackfiller1(mName);
++    }
++
++    @Override
++    protected ItemList getCasingBlockItem() {
++        return ItemList.Casing_SolidSteel;
++    }
++
++    @Override
++    protected Materials getFrameMaterial() {
++        return Materials.Steel;
++    }
++
++    @Override
++    protected int getCasingTextureIndex() {
++        return 16;
++    }
++
++    @Override
++    protected int getRadius() {
++        return 16;
++    }
++
++    @Override
++    protected int getMinTier() {
++        return 2;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfiller2.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfiller2.java
+new file mode 100644
+index 0000000..6357783
+--- /dev/null
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfiller2.java
+@@ -0,0 +1,66 @@
++package gregtech.common.tileentities.machines.multi;
++
++import static gregtech.api.enums.GT_Values.VN;
++
++import gregtech.api.enums.ItemList;
++import gregtech.api.enums.Materials;
++import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
++import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++
++public class GT_MetaTileEntity_ConcreteBackfiller2 extends GT_MetaTileEntity_ConcreteBackfillerBase {
++    public GT_MetaTileEntity_ConcreteBackfiller2(int aID, String aName, String aNameRegional) {
++        super(aID, aName, aNameRegional);
++    }
++
++    public GT_MetaTileEntity_ConcreteBackfiller2(String aName) {
++        super(aName);
++    }
++
++    @Override
++    public String[] getDescription() {
++        String casings = getCasingBlockItem().get(0).getDisplayName();
++        return new String[]{
++                "Controller Block for the Advanced Concrete Backfiller",
++                "Size(WxHxD): 3x7x3", "Controller (Front middle at bottom)",
++                "3x1x3 Base of " + casings,
++                "1x3x1 " + casings + " pillar (Center of base)",
++                "1x3x1 " + getFrameMaterial().mName + " Frame Boxes (Each pillar side and on top)",
++                "1x Input Hatch (One of base casings)",
++                "1x Maintenance Hatch (One of base casings)",
++                "1x " + VN[getMinTier()] + "+ Energy Hatch (Any bottom layer casing)",
++                "Put Programmed Circuits into Data Access to config radius",
++                "Radius = (total config value)x2 blocks",
++                "Default 64, Maximum 128",};
++    }
++
++    @Override
++    public IMetaTileEntity newMetaEntity(IGregTechTileEntity aTileEntity) {
++        return new GT_MetaTileEntity_ConcreteBackfiller2(mName);
++    }
++
++    @Override
++    protected ItemList getCasingBlockItem() {
++        return ItemList.Casing_StableTitanium;
++    }
++
++    @Override
++    protected Materials getFrameMaterial() {
++        return Materials.Titanium;
++    }
++
++    @Override
++    protected int getCasingTextureIndex() {
++        return 50;
++    }
++
++    @Override
++    protected int getRadius() {
++        int tConfig = getTotalConfigValue() * 2;
++        return tConfig >= 128 ? 128 : tConfig <= 0 ? 64 : tConfig;
++    }
++
++    @Override
++    protected int getMinTier() {
++        return 4;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java
+new file mode 100644
+index 0000000..169bb26
+--- /dev/null
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_ConcreteBackfillerBase.java
+@@ -0,0 +1,125 @@
++package gregtech.common.tileentities.machines.multi;
++
++import static gregtech.api.enums.GT_Values.V;
++import static gregtech.api.enums.GT_Values.VN;
++
++import gregtech.api.GregTech_API;
++import gregtech.api.enums.Materials;
++import gregtech.api.gui.GT_GUIContainer_MultiMachine;
++import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++import gregtech.api.util.GT_Utility;
++import net.minecraft.entity.player.InventoryPlayer;
++import net.minecraft.item.ItemStack;
++
++public abstract class GT_MetaTileEntity_ConcreteBackfillerBase extends GT_MetaTileEntity_DrillerBase {
++
++    private int mLastXOff = 0, mLastZOff = 0;
++
++    public GT_MetaTileEntity_ConcreteBackfillerBase(int aID, String aName, String aNameRegional) {
++        super(aID, aName, aNameRegional);
++    }
++
++    public GT_MetaTileEntity_ConcreteBackfillerBase(String aName) {
++        super(aName);
++    }
++
++    protected String[] getDescriptionInternal(String tierSuffix) {
++        String casings = getCasingBlockItem().get(0).getDisplayName();
++        return new String[]{
++                "Controller Block for the Concrete Backfiller " + (tierSuffix != null ? tierSuffix : ""),
++                "Size(WxHxD): 3x7x3", "Controller (Front middle at bottom)",
++                "3x1x3 Base of " + casings,
++                "1x3x1 " + casings + " pillar (Center of base)",
++                "1x3x1 " + getFrameMaterial().mName + " Frame Boxes (Each pillar side and on top)",
++                "1x Input Hatch (One of base casings)",
++                "1x Maintenance Hatch (One of base casings)",
++                "1x " + VN[getMinTier()] + "+ Energy Hatch (Any bottom layer casing)",
++                "Radius is " + getRadius() + " blocks"};
++    }
++
++    @Override
++    public Object getClientGUI(int aID, InventoryPlayer aPlayerInventory, IGregTechTileEntity aBaseMetaTileEntity) {
++        return new GT_GUIContainer_MultiMachine(aPlayerInventory, aBaseMetaTileEntity, getLocalName(), "DrillingRig.png");
++    }
++
++    protected abstract int getRadius();
++
++    @Override
++    protected boolean checkHatches() {
++        return !mMaintenanceHatches.isEmpty() && !mInputHatches.isEmpty() && !mEnergyHatches.isEmpty();
++    }
++
++    @Override
++    protected void setElectricityStats() {
++        this.mEfficiency = getCurrentEfficiency(null);
++        this.mEfficiencyIncrease = 10000;
++        //T1 = 48; T2 = 192; T3 = 768; T4 = 3072
++        this.mEUt = 12 * (1 << (getMinTier() << 1));
++        this.mMaxProgresstime = (isPickingPipes ? 240: 80) / (1 << getMinTier());
++
++        long voltage = getMaxInputVoltage();
++        long overclockEu = V[Math.max(1, GT_Utility.getTier(voltage)) - 1];
++        while (this.mEUt <= overclockEu) {
++            this.mEUt *= 4;
++            this.mMaxProgresstime /= 2;
++        }
++
++        this.mEUt = -this.mEUt;
++        this.mMaxProgresstime = Math.max(1, this.mMaxProgresstime);
++    }
++
++    @Override
++    protected boolean workingUpward(ItemStack aStack, int xDrill, int yDrill, int zDrill, int xPipe, int zPipe, int yHead, int oldYHead) {
++        if (isRefillableBlock(xPipe, yHead - 1, zPipe))
++            return tryRefillBlock(xPipe, yHead - 1, zPipe);
++        int radius = getRadius();
++        if (mLastXOff == 0 && mLastZOff == 0) {
++            mLastXOff = - radius;
++            mLastZOff = - radius;
++        }
++        if (yHead != yDrill) {
++            for (int i = mLastXOff; i <= radius; i++) {
++                for (int j = (i == mLastXOff ? mLastZOff : - radius); j <= radius; j++) {
++                    if (isRefillableBlock(xPipe + i, yHead, zPipe + j)){
++                        mLastXOff = i;
++                        mLastZOff = j;
++                        return tryRefillBlock(xPipe + i, yHead, zPipe + j);
++                    }
++                }
++            }
++        }
++
++        if (tryPickPipe()) {
++            mLastXOff = 0;
++            mLastZOff = 0;
++            return true;
++        } else {
++            isPickingPipes = false;
++            stopMachine();
++            return false;
++        }
++    }
++
++    private boolean isRefillableBlock(int aX, int aY, int aZ){
++        if (getBaseMetaTileEntity().getTileEntity(aX, aY, aZ) != null) return false;
++        if (getBaseMetaTileEntity().getAir(aX, aY, aZ) || !getBaseMetaTileEntity().getBlock(aX, aY, aZ).getMaterial().isSolid())
++            return true;
++        return false;
++    }
++
++    private boolean tryRefillBlock(int aX, int aY, int aZ) {
++        if (!tryConsumeFluid())
++            return false;
++        getBaseMetaTileEntity().getWorld().setBlock(aX, aY, aZ, GregTech_API.sBlockConcretes, 8, 3);
++        return true;
++    }
++
++    private boolean tryConsumeFluid() {
++        if (!depleteInput(Materials.Concrete.getMolten(144L))){
++            mMaxProgresstime = 0;
++            return false;
++        }
++        return true;
++    }
++
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_DrillerBase.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_DrillerBase.java
+new file mode 100644
+index 0000000..2e7616b
+--- /dev/null
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_DrillerBase.java
+@@ -0,0 +1,357 @@
++package gregtech.common.tileentities.machines.multi;
++
++import static gregtech.api.enums.GT_Values.W;
++
++import java.util.ArrayList;
++
++import gregtech.api.GregTech_API;
++import gregtech.api.enums.ItemList;
++import gregtech.api.enums.Materials;
++import gregtech.api.enums.Textures;
++import gregtech.api.interfaces.ITexture;
++import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
++import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch;
++import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch_DataAccess;
++import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch_Energy;
++import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_MultiBlockBase;
++import gregtech.api.objects.GT_RenderedTexture;
++import gregtech.api.util.GT_ModHandler;
++import gregtech.api.util.GT_Utility;
++import net.minecraft.block.Block;
++import net.minecraft.entity.player.InventoryPlayer;
++import net.minecraft.init.Blocks;
++import net.minecraft.item.ItemStack;
++import net.minecraft.nbt.NBTTagCompound;
++import net.minecraftforge.common.util.ForgeDirection;
++
++public abstract class GT_MetaTileEntity_DrillerBase extends GT_MetaTileEntity_MultiBlockBase {
++    private static final ItemStack miningPipe = GT_ModHandler.getIC2Item("miningPipe", 0);
++    private static final ItemStack miningPipeTip = GT_ModHandler.getIC2Item("miningPipeTip", 0);
++    private static final Block miningPipeBlock = GT_Utility.getBlockFromStack(miningPipe);
++    private static final Block miningPipeTipBlock = GT_Utility.getBlockFromStack(miningPipeTip);
++
++    private Block casingBlock;
++    private int casingMeta;
++    private int frameMeta;
++    private int casingTextureIndex;
++
++    private ForgeDirection back;
++
++    private int xDrill, yDrill, zDrill, xPipe, zPipe, yHead;
++    protected boolean isPickingPipes;
++
++    public GT_MetaTileEntity_DrillerBase(int aID, String aName, String aNameRegional) {
++        super(aID, aName, aNameRegional);
++        initFields();
++    }
++
++    public GT_MetaTileEntity_DrillerBase(String aName) {
++        super(aName);
++        initFields();
++    }
++
++    private void initFields() {
++        casingBlock = getCasingBlockItem().getBlock();
++        casingMeta = getCasingBlockItem().get(0).getItemDamage();
++        int frameId = 4096 + getFrameMaterial().mMetaItemSubID;
++        frameMeta = GregTech_API.METATILEENTITIES[frameId] != null ? GregTech_API.METATILEENTITIES[frameId].getTileEntityBaseType() : W;
++        casingTextureIndex = getCasingTextureIndex();
++        isPickingPipes = false;
++    }
++
++    public ITexture[] getTexture(IGregTechTileEntity aBaseMetaTileEntity, byte aSide, byte aFacing, byte aColorIndex, boolean aActive, boolean aRedstone) {
++        if (aSide == aFacing)
++            return new ITexture[]{Textures.BlockIcons.CASING_BLOCKS[casingTextureIndex],new GT_RenderedTexture(aActive ? Textures.BlockIcons.OVERLAY_FRONT_ORE_DRILL_ACTIVE : Textures.BlockIcons.OVERLAY_FRONT_ORE_DRILL)};
++        return new ITexture[]{Textures.BlockIcons.CASING_BLOCKS[casingTextureIndex]};
++    }
++
++    @Override
++    public void saveNBTData(NBTTagCompound aNBT) {
++        super.saveNBTData(aNBT);
++        aNBT.setBoolean("isPickingPipe", isPickingPipes);
++    }
++
++    @Override
++    public void loadNBTData(NBTTagCompound aNBT) {
++        super.loadNBTData(aNBT);
++        isPickingPipes = aNBT.getBoolean("isPickingPipes");
++    }
++
++    protected boolean tryPickPipe() {
++        if (yHead == yDrill) return false;
++        if (tryOutputPipe()){
++            if (checkBlockAndMeta(xPipe, yHead + 1, zPipe, miningPipeBlock, W))
++                getBaseMetaTileEntity().getWorld().setBlock(xPipe, yHead + 1, zPipe, miningPipeTipBlock);
++            getBaseMetaTileEntity().getWorld().setBlockToAir(xPipe, yHead, zPipe);
++            return true;
++        }
++        return false;
++    }
++
++    protected boolean tryLowerPipe() {
++        if (!isHasMiningPipes()) return false;
++
++        if (yHead <= 0) return false;
++        if (!canLowerPipe()) return false;
++
++        getBaseMetaTileEntity().getWorld().setBlock(xPipe, yHead - 1, zPipe, miningPipeTipBlock);
++        if (yHead != yDrill) getBaseMetaTileEntity().getWorld().setBlock(xPipe, yHead, zPipe, miningPipeBlock);
++
++        getBaseMetaTileEntity().decrStackSize(1, 1);
++        return true;
++    }
++
++    private void putMiningPipesFromInputsInController() {
++        int maxPipes = miningPipe.getMaxStackSize();
++        if (isHasMiningPipes(maxPipes)) return;
++
++        ItemStack pipes = getStackInSlot(1);
++        for (ItemStack storedItem : getStoredInputs()) {
++            if (!storedItem.isItemEqual(miningPipe)) continue;
++
++            if (pipes == null) {
++                setInventorySlotContents(1, GT_Utility.copy(miningPipe));
++                pipes = getStackInSlot(1);
++            }
++
++            if (pipes.stackSize == maxPipes) break;
++
++            int needPipes = maxPipes - pipes.stackSize;
++            int transferPipes = storedItem.stackSize < needPipes ? storedItem.stackSize : needPipes;
++
++            pipes.stackSize += transferPipes;
++            storedItem.stackSize -= transferPipes;
++        }
++        updateSlots();
++    }
++
++    private boolean tryOutputPipe(){
++        if (!getBaseMetaTileEntity().addStackToSlot(1, GT_Utility.copyAmount(1, miningPipe)))
++            mOutputItems = new ItemStack[] {GT_Utility.copyAmount(1, miningPipe)};
++        return true;
++    }
++
++    protected boolean canLowerPipe(){
++        return yHead > 0 && !checkBlockAndMeta(xPipe, yHead - 1, zPipe, Blocks.bedrock, W);
++    }
++
++    private boolean isHasMiningPipes() {
++        return isHasMiningPipes(1);
++    }
++
++    private boolean isHasMiningPipes(int minCount) {
++        ItemStack pipe = getStackInSlot(1);
++        return pipe != null && pipe.stackSize > minCount - 1 && pipe.isItemEqual(miningPipe);
++    }
++
++    private boolean isEnergyEnough() {
++        long requiredEnergy = 512 + getMaxInputVoltage() * 4;
++        for (GT_MetaTileEntity_Hatch_Energy energyHatch : mEnergyHatches) {
++            requiredEnergy -= energyHatch.getEUVar();
++            if (requiredEnergy <= 0) return true;
++        }
++        return false;
++    }
++
++    protected boolean workingDownward(ItemStack aStack, int xDrill, int yDrill, int zDrill, int xPipe, int zPipe, int yHead, int oldYHead){
++        if(!tryLowerPipe())
++            if(waitForPipes()) return false;
++        isPickingPipes = true;
++        return true;
++    }
++
++    protected boolean workingUpward(ItemStack aStack, int xDrill, int yDrill, int zDrill, int xPipe, int zPipe, int yHead, int oldYHead) {
++        if (tryPickPipe()) {
++            return true;
++        } else {
++            isPickingPipes = false;
++            stopMachine();
++            return false;
++        }
++    }
++
++    @Override
++    public boolean checkRecipe(ItemStack aStack) {
++        //Public pipe actions
++        setElectricityStats();
++        int oldYHead = yHead;
++        if (!checkPipesAndSetYHead() || !isEnergyEnough()) {
++            stopMachine();
++            return false;
++        }
++        putMiningPipesFromInputsInController();
++        if (!isPickingPipes)
++            return workingDownward(aStack, xDrill, yDrill, zDrill, xPipe, zPipe, yHead, oldYHead);
++        else
++            return workingUpward(aStack, xDrill, yDrill, zDrill, xPipe, zPipe, yHead, oldYHead);
++    }
++
++    @Override
++    public boolean checkMachine(IGregTechTileEntity aBaseMetaTileEntity, ItemStack aStack) {
++        updateCoordinates();
++        //check base layer
++        for (int xOff = -1 + back.offsetX; xOff <= 1 + back.offsetX; xOff++) {
++            for (int zOff = -1 + back.offsetZ; zOff <= 1 + back.offsetZ; zOff++) {
++                if (xOff == 0 && zOff == 0) continue;
++
++                IGregTechTileEntity tTileEntity = aBaseMetaTileEntity.getIGregTechTileEntityOffset(xOff, 0, zOff);
++                if (!checkCasingBlock(xOff, 0, zOff)
++                        && !addMaintenanceToMachineList(tTileEntity, casingTextureIndex)
++                        && !addInputToMachineList(tTileEntity, casingTextureIndex)
++                        && !addOutputToMachineList(tTileEntity, casingTextureIndex)
++                        && !addEnergyInputToMachineList(tTileEntity, casingTextureIndex)
++                        && !addDataAccessToMachineList(tTileEntity, casingTextureIndex))
++                    return false;
++            }
++        }
++        if(!checkHatches()) return false;
++        if (GT_Utility.getTier(getMaxInputVoltage()) < getMinTier()) return false;
++        //check tower
++        for (int yOff = 1; yOff < 4; yOff++) {
++            if (!checkCasingBlock(back.offsetX, yOff, back.offsetZ)
++                    || !checkFrameBlock(back.offsetX + 1, yOff, back.offsetZ)
++                    || !checkFrameBlock(back.offsetX - 1, yOff, back.offsetZ)
++                    || !checkFrameBlock(back.offsetX, yOff, back.offsetZ + 1)
++                    || !checkFrameBlock(back.offsetX, yOff, back.offsetZ - 1)
++                    || !checkFrameBlock(back.offsetX, yOff + 3, back.offsetZ))
++                return false;
++        }
++        return true;
++    }
++
++    private void updateCoordinates() {
++        xDrill = getBaseMetaTileEntity().getXCoord();
++        yDrill = getBaseMetaTileEntity().getYCoord();
++        zDrill = getBaseMetaTileEntity().getZCoord();
++        back = ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing());
++        xPipe = xDrill + back.offsetX;
++        zPipe = zDrill + back.offsetZ;
++    }
++
++    private boolean checkPipesAndSetYHead() {
++        yHead = yDrill - 1;
++        while (checkBlockAndMeta(xPipe, yHead, zPipe, miningPipeBlock, W)) yHead--; //skip pipes
++        //is pipe tip OR is controller layer
++        if (checkBlockAndMeta(xPipe, yHead, zPipe, miningPipeTipBlock, W) || ++yHead == yDrill) return true;
++        //pipe column is broken - try fix
++        getBaseMetaTileEntity().getWorld().setBlock(xPipe, yHead, zPipe, miningPipeTipBlock);
++        return true;
++    }
++
++    protected boolean checkCasingBlock(int xOff, int yOff, int zOff) {
++        return checkBlockAndMetaOffset(xOff, yOff, zOff, casingBlock, casingMeta);
++    }
++    //meta of frame is getTileEntityBaseType; frame should be checked using its drops (possible a high weight operation)
++    protected boolean checkFrameBlock(int xOff, int yOff, int zOff) {
++        return checkBlockAndMetaOffset(xOff, yOff, zOff, GregTech_API.sBlockMachines, frameMeta);
++    }
++
++    protected boolean checkBlockAndMetaOffset(int xOff, int yOff, int zOff, Block block, int meta) {
++        return checkBlockAndMeta(xDrill + xOff, yDrill + yOff, zDrill + zOff, block, meta);
++    }
++
++    private boolean checkBlockAndMeta(int x, int y, int z, Block block, int meta) {
++        return (meta == W || getBaseMetaTileEntity().getMetaID(x, y, z) == meta)
++                && getBaseMetaTileEntity().getBlock(x, y, z) == block;
++    }
++
++    protected boolean waitForPipes(){
++        if (canLowerPipe()) {
++            mMaxProgresstime = 0;
++            return true;
++        }
++        return false;
++    }
++
++    @Override
++    public boolean isCorrectMachinePart(ItemStack aStack) {
++        return true;
++    }
++
++    @Override
++    public int getMaxEfficiency(ItemStack aStack) {
++        return 10000;
++    }
++
++    @Override
++    public int getPollutionPerTick(ItemStack aStack) {
++        return 0;
++    }
++
++    @Override
++    public int getDamageToComponent(ItemStack aStack) {
++        return 0;
++    }
++
++    @Override
++    public boolean explodesOnComponentBreak(ItemStack aStack) {
++        return false;
++    }
++
++    public abstract Object getClientGUI(int aID, InventoryPlayer aPlayerInventory, IGregTechTileEntity aBaseMetaTileEntity);
++
++    protected abstract ItemList getCasingBlockItem();
++
++    protected abstract Materials getFrameMaterial();
++
++    protected abstract int getCasingTextureIndex();
++
++    protected abstract int getMinTier();
++
++    protected abstract boolean checkHatches();
++
++    protected abstract void setElectricityStats();
++
++    public int getTotalConfigValue(){
++        int config = 0;
++        ArrayList<ItemStack> tCircuitList = getDataItems(1);
++        for (ItemStack tCircuit : tCircuitList)
++            config += tCircuit.getItemDamage();
++        return config;
++    }
++
++    public ArrayList<GT_MetaTileEntity_Hatch_DataAccess> mDataAccessHatches = new ArrayList<GT_MetaTileEntity_Hatch_DataAccess>();
++
++    /**
++     * @param state using bitmask, 1 for IntegratedCircuit, 2 for DataStick, 4 for DataOrb
++     */
++    private boolean isCorrectDataItem(ItemStack aStack, int state){
++        if ((state & 1) != 0 && ItemList.Circuit_Integrated.isStackEqual(aStack, true, true)) return true;
++        if ((state & 2) != 0 && ItemList.Tool_DataStick.isStackEqual(aStack, false, true)) return true;
++        if ((state & 4) != 0 && ItemList.Tool_DataOrb.isStackEqual(aStack, false, true)) return true;
++        return false;
++    }
++
++    /**
++     * @param state using bitmask, 1 for IntegratedCircuit, 2 for DataStick, 4 for DataOrb
++     */
++    public ArrayList<ItemStack> getDataItems(int state) {
++        ArrayList<ItemStack> rList = new ArrayList<ItemStack>();
++        if (GT_Utility.isStackValid(mInventory[1]) && isCorrectDataItem(mInventory[1], state)) {
++            rList.add(mInventory[1]);
++        }
++        for (GT_MetaTileEntity_Hatch_DataAccess tHatch : mDataAccessHatches) {
++            if (isValidMetaTileEntity(tHatch)) {
++                for (int i = 0; i < tHatch.getBaseMetaTileEntity().getSizeInventory(); i++) {
++                    if (tHatch.getBaseMetaTileEntity().getStackInSlot(i) != null
++                            && isCorrectDataItem(tHatch.getBaseMetaTileEntity().getStackInSlot(i), state))
++                        rList.add(tHatch.getBaseMetaTileEntity().getStackInSlot(i));
++                }
++            }
++        }
++        return rList;
++    }
++
++    public boolean addDataAccessToMachineList(IGregTechTileEntity aTileEntity, int aBaseCasingIndex) {
++        if (aTileEntity == null) return false;
++        IMetaTileEntity aMetaTileEntity = aTileEntity.getMetaTileEntity();
++        if (aMetaTileEntity == null) return false;
++        if (aMetaTileEntity instanceof GT_MetaTileEntity_Hatch_DataAccess) {
++            ((GT_MetaTileEntity_Hatch) aMetaTileEntity).mMachineBlock = (byte) aBaseCasingIndex;
++            return mDataAccessHatches.add((GT_MetaTileEntity_Hatch_DataAccess) aMetaTileEntity);
++        }
++        return false;
++    }
++
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill.java
+deleted file mode 100644
+index e3e0c85..0000000
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill.java
++++ /dev/null
+@@ -1,270 +0,0 @@
+-package gregtech.common.tileentities.machines.multi;
+-
+-import gregtech.api.GregTech_API;
+-import gregtech.api.enums.Textures;
+-import gregtech.api.gui.GT_GUIContainer_MultiMachine;
+-import gregtech.api.interfaces.ITexture;
+-import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
+-import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
+-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch_Energy;
+-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch_Muffler;
+-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_MultiBlockBase;
+-import gregtech.api.objects.GT_RenderedTexture;
+-import gregtech.api.util.GT_ModHandler;
+-import gregtech.api.util.GT_Utility;
+-import net.minecraft.entity.player.InventoryPlayer;
+-import net.minecraft.init.Blocks;
+-import net.minecraft.item.ItemStack;
+-import net.minecraft.util.EnumChatFormatting;
+-import net.minecraftforge.common.util.ForgeDirection;
+-import net.minecraftforge.fluids.FluidStack;
+-
+-import java.util.ArrayList;
+-
+-import static gregtech.common.GT_UndergroundOil.undergroundOil;
+-
+-public class GT_MetaTileEntity_OilDrill extends GT_MetaTileEntity_MultiBlockBase {
+-
+-    private boolean completedCycle = false;
+-    private int extractionSpeed=0;
+-
+-    public GT_MetaTileEntity_OilDrill(int aID, String aName, String aNameRegional) {
+-        super(aID, aName, aNameRegional);
+-    }
+-
+-    public GT_MetaTileEntity_OilDrill(String aName) {
+-        super(aName);
+-    }
+-
+-    public String[] getDescription() {
+-        return new String[]{
+-                "Controller Block for the Oil Drilling Rig",
+-                "Size(WxHxD): 3x7x3", "Controller (Front middle at bottom)",
+-                "3x1x3 Base of Solid Steel Machine Casings",
+-                "1x3x1 Solid Steel Machine Casing pillar (Center of base)",
+-                "1x3x1 Steel Frame Boxes (Each Steel pillar side and on top)",
+-                "1x Output Hatch (One of base casings)",
+-                "1x Maintenance Hatch (One of base casings)",
+-                "1x Energy Hatch (One of base casings)",
+-                "Also check the seismic prospector..."};
+-    }
+-
+-    public ITexture[] getTexture(IGregTechTileEntity aBaseMetaTileEntity, byte aSide, byte aFacing, byte aColorIndex, boolean aActive, boolean aRedstone) {
+-        if (aSide == aFacing) {
+-            return new ITexture[]{Textures.BlockIcons.CASING_BLOCKS[16], new GT_RenderedTexture(aActive ? Textures.BlockIcons.OVERLAY_FRONT_OIL_DRILL_ACTIVE : Textures.BlockIcons.OVERLAY_FRONT_OIL_DRILL)};
+-        }
+-        return new ITexture[]{Textures.BlockIcons.CASING_BLOCKS[16]};
+-    }
+-
+-    public Object getClientGUI(int aID, InventoryPlayer aPlayerInventory, IGregTechTileEntity aBaseMetaTileEntity) {
+-        return new GT_GUIContainer_MultiMachine(aPlayerInventory, aBaseMetaTileEntity, getLocalName(), "DrillingRig.png");
+-    }
+-
+-    @Override
+-    public boolean checkRecipe(ItemStack aStack) {
+-        if (mInventory[1] == null || (mInventory[1].isItemEqual(GT_ModHandler.getIC2Item("miningPipe", 1L)) && mInventory[1].stackSize < mInventory[1].getMaxStackSize())) {
+-            ArrayList<ItemStack> tItems = getStoredInputs();
+-            for (ItemStack tStack : tItems) {
+-                if (tStack.isItemEqual(GT_ModHandler.getIC2Item("miningPipe", 1L))) {
+-                    if (tStack.stackSize < 2) {
+-                        tStack = null;
+-                    } else {
+-                        tStack.stackSize--;
+-                    }
+-
+-                }
+-                if (mInventory[1] == null) {
+-                    mInventory[1] = GT_ModHandler.getIC2Item("miningPipe", 1L);
+-                } else {
+-                    mInventory[1].stackSize++;
+-                }
+-            }
+-        }
+-        //Output fluid
+-        FluidStack tFluid = undergroundOil(getBaseMetaTileEntity(),.5F+(getInputTier()*.25F));//consumes here...
+-        if (tFluid == null){
+-            extractionSpeed=0;
+-            stopMachine();
+-            return false;//impossible
+-        }
+-        if (getBaseMetaTileEntity().getBlockOffset(ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing()).offsetX, getYOfPumpHead() - 1 - getBaseMetaTileEntity().getYCoord(), ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing()).offsetZ) != Blocks.bedrock) {
+-            //Not at bedrock layer - i prefer to keep it like it is...
+-            if (completedCycle) {
+-                moveOneDown();
+-            }
+-            tFluid = null;
+-            if (mEnergyHatches.size() > 0 && mEnergyHatches.get(0).getEUVar() > (512 + getMaxInputVoltage() * 4))
+-                completedCycle = true;
+-        } else if (tFluid.amount == 0) {//no fluid remaining, for SANity
+-            extractionSpeed=0;
+-	        stopMachine();
+-            return false;//stops processing??
+-        } else {
+-            extractionSpeed=tFluid.amount;
+-        }
+-        this.mEfficiency = (10000 - (getIdealStatus() - getRepairStatus()) * 1000);
+-        this.mEfficiencyIncrease = 10000;
+-        calculateOverclockedNessMulti(24, 160, 1, getMaxInputVoltage());
+-        //In case recipe is too OP for that machine
+-        if (mMaxProgresstime == Integer.MAX_VALUE - 1 && mEUt == Integer.MAX_VALUE - 1)
+-            return false;
+-        if (this.mEUt > 0) {
+-            this.mEUt = (-this.mEUt);
+-        }
+-        this.mOutputFluids = new FluidStack[]{tFluid};
+-        return true;
+-    }
+-
+-    private boolean moveOneDown() {
+-        if ((this.mInventory[1] == null) || (this.mInventory[1].stackSize < 1)
+-                || (!GT_Utility.areStacksEqual(this.mInventory[1], GT_ModHandler.getIC2Item("miningPipe", 1L)))) {
+-            return false;
+-        }
+-        int xDir = ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing()).offsetX;
+-        int zDir = ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing()).offsetZ;
+-        int yHead = getYOfPumpHead();
+-        if (yHead < 1) {
+-            return false;
+-        }
+-        if (getBaseMetaTileEntity().getBlock(getBaseMetaTileEntity().getXCoord() + xDir, yHead - 1, getBaseMetaTileEntity().getZCoord() + zDir) == Blocks.bedrock) {
+-            return false;
+-        }
+-        if (!(getBaseMetaTileEntity().getWorld().setBlock(getBaseMetaTileEntity().getXCoord() + xDir, yHead - 1, getBaseMetaTileEntity().getZCoord() + zDir, GT_Utility.getBlockFromStack(GT_ModHandler.getIC2Item("miningPipeTip", 1L))))) {
+-            return false;
+-        }
+-        if (yHead != getBaseMetaTileEntity().getYCoord()) {
+-            getBaseMetaTileEntity().getWorld().setBlock(getBaseMetaTileEntity().getXCoord() + xDir, yHead, getBaseMetaTileEntity().getZCoord() + zDir, GT_Utility.getBlockFromStack(GT_ModHandler.getIC2Item("miningPipe", 1L)));
+-        }
+-        getBaseMetaTileEntity().decrStackSize(1, 1);
+-        return true;
+-    }
+-
+-    private int getYOfPumpHead() {
+-        int xDir = ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing()).offsetX;
+-        int zDir = ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing()).offsetZ;
+-        int y = getBaseMetaTileEntity().getYCoord() - 1;
+-        while (getBaseMetaTileEntity().getBlock(getBaseMetaTileEntity().getXCoord() + xDir, y, getBaseMetaTileEntity().getZCoord() + zDir) == GT_Utility.getBlockFromStack(GT_ModHandler.getIC2Item("miningPipe", 1L))) {
+-            y--;
+-        }
+-        if (y == getBaseMetaTileEntity().getYCoord() - 1) {
+-            if (getBaseMetaTileEntity().getBlock(getBaseMetaTileEntity().getXCoord() + xDir, y, getBaseMetaTileEntity().getZCoord() + zDir) != GT_Utility.getBlockFromStack(GT_ModHandler.getIC2Item("miningPipeTip", 1L))) {
+-                return y + 1;
+-            }
+-        } else if (getBaseMetaTileEntity().getBlock(getBaseMetaTileEntity().getXCoord() + xDir, y, getBaseMetaTileEntity().getZCoord() + zDir) != GT_Utility
+-                .getBlockFromStack(GT_ModHandler.getIC2Item("miningPipeTip", 1L)) && this.mInventory[1] != null && this.mInventory[1].stackSize > 0 && GT_Utility.areStacksEqual(this.mInventory[1], GT_ModHandler.getIC2Item("miningPipe", 1L))) {
+-            getBaseMetaTileEntity().getWorld().setBlock(getBaseMetaTileEntity().getXCoord() + xDir, y, getBaseMetaTileEntity().getZCoord() + zDir,
+-                    GT_Utility.getBlockFromStack(GT_ModHandler.getIC2Item("miningPipeTip", 1L)));
+-            getBaseMetaTileEntity().decrStackSize(0, 1);
+-        }
+-        return y;
+-    }
+-
+-    @Override
+-    public boolean checkMachine(IGregTechTileEntity aBaseMetaTileEntity, ItemStack aStack) {
+-        int xDir = ForgeDirection.getOrientation(aBaseMetaTileEntity.getBackFacing()).offsetX;
+-        int zDir = ForgeDirection.getOrientation(aBaseMetaTileEntity.getBackFacing()).offsetZ;
+-        for (int i = -1; i < 2; i++) {
+-            for (int j = -1; j < 2; j++) {
+-                if ((xDir + i != 0) || (zDir + j != 0)) {
+-                    IGregTechTileEntity tTileEntity = aBaseMetaTileEntity.getIGregTechTileEntityOffset(xDir + i, 0, zDir + j);
+-                    if ((!addMaintenanceToMachineList(tTileEntity, 16)) && (!addInputToMachineList(tTileEntity, 16)) && (!addOutputToMachineList(tTileEntity, 16)) && (!addEnergyInputToMachineList(tTileEntity, 16))) {
+-                        if (aBaseMetaTileEntity.getBlockOffset(xDir + i, 0, zDir + j) != GregTech_API.sBlockCasings2) {
+-                            return false;
+-                        }
+-                        if (aBaseMetaTileEntity.getMetaIDOffset(xDir + i, 0, zDir + j) != 0) {
+-                            return false;
+-                        }
+-                    }
+-                }
+-            }
+-        }
+-        for (int y = 1; y < 4; y++) {
+-            if (aBaseMetaTileEntity.getBlockOffset(xDir, y, zDir) != GregTech_API.sBlockCasings2) {
+-                return false;
+-            }
+-            if (aBaseMetaTileEntity.getBlockOffset(xDir + 1, y, zDir) != GregTech_API.sBlockMachines) {
+-                return false;
+-            }
+-            if (aBaseMetaTileEntity.getBlockOffset(xDir - 1, y, zDir) != GregTech_API.sBlockMachines) {
+-                return false;
+-            }
+-            if (aBaseMetaTileEntity.getBlockOffset(xDir, y, zDir + 1) != GregTech_API.sBlockMachines) {
+-                return false;
+-            }
+-            if (aBaseMetaTileEntity.getBlockOffset(xDir, y, zDir - 1) != GregTech_API.sBlockMachines) {
+-                return false;
+-            }
+-            if (aBaseMetaTileEntity.getBlockOffset(xDir, y + 3, zDir) != GregTech_API.sBlockMachines) {
+-                return false;
+-            }
+-        }
+-        return true;
+-    }
+-
+-    @Override
+-    public boolean isCorrectMachinePart(ItemStack aStack) {
+-        return true;
+-    }
+-
+-    @Override
+-    public int getMaxEfficiency(ItemStack aStack) {
+-        return 10000;
+-    }
+-
+-    @Override
+-    public int getPollutionPerTick(ItemStack aStack) {
+-        return 0;
+-    }
+-
+-    @Override
+-    public int getDamageToComponent(ItemStack aStack) {
+-        return 0;
+-    }
+-
+-    @Override
+-    public boolean explodesOnComponentBreak(ItemStack aStack) {
+-        return false;
+-    }
+-
+-    public IMetaTileEntity newMetaEntity(IGregTechTileEntity aTileEntity) {
+-        return new GT_MetaTileEntity_OilDrill(this.mName);
+-    }
+-
+-    @Override
+-    public String[] getInfoData() {
+-        int mPollutionReduction=0;
+-        for (GT_MetaTileEntity_Hatch_Muffler tHatch : mMufflerHatches) {
+-            if (isValidMetaTileEntity(tHatch)) {
+-                mPollutionReduction=Math.max(tHatch.calculatePollutionReduction(100),mPollutionReduction);
+-            }
+-        }
+-
+-        long storedEnergy=0;
+-        long maxEnergy=0;
+-        for(GT_MetaTileEntity_Hatch_Energy tHatch : mEnergyHatches) {
+-            if (isValidMetaTileEntity(tHatch)) {
+-                storedEnergy+=tHatch.getBaseMetaTileEntity().getStoredEU();
+-                maxEnergy+=tHatch.getBaseMetaTileEntity().getEUCapacity();
+-            }
+-        }
+-
+-        return new String[]{
+-                "Progress:",
+-                EnumChatFormatting.GREEN + Integer.toString(mProgresstime/20) + EnumChatFormatting.RESET +" s / "+
+-                        EnumChatFormatting.YELLOW + Integer.toString(mMaxProgresstime/20) + EnumChatFormatting.RESET +" s",
+-                "Stored Energy:",
+-                EnumChatFormatting.GREEN + Long.toString(storedEnergy) + EnumChatFormatting.RESET +" EU / "+
+-                        EnumChatFormatting.YELLOW + Long.toString(maxEnergy) + EnumChatFormatting.RESET +" EU",
+-                "Probably uses: "+
+-                        EnumChatFormatting.RED + Integer.toString(-mEUt) + EnumChatFormatting.RESET + " EU/t",
+-                "Maximum total power (to all Energy Hatches, not single ones): ",
+-                EnumChatFormatting.YELLOW+Long.toString(getMaxInputVoltage())+EnumChatFormatting.RESET+ " EU/t * 2A",
+-                "Problems: "+
+-                        EnumChatFormatting.RED+ (getIdealStatus() - getRepairStatus())+EnumChatFormatting.RESET+
+-                        " Efficiency: "+
+-                        EnumChatFormatting.YELLOW+Float.toString(mEfficiency / 100.0F)+EnumChatFormatting.RESET + " %",
+-                "Pollution reduced to: "+ EnumChatFormatting.GREEN + mPollutionReduction+ EnumChatFormatting.RESET+" %",
+-                "Extraction this cycle: "+ EnumChatFormatting.GOLD + extractionSpeed + EnumChatFormatting.RESET+" L"
+-        };
+-    }
+-}
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill1.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill1.java
+new file mode 100644
+index 0000000..750978a
+--- /dev/null
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill1.java
+@@ -0,0 +1,51 @@
++package gregtech.common.tileentities.machines.multi;
++
++import gregtech.api.enums.ItemList;
++import gregtech.api.enums.Materials;
++import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
++import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++
++public class GT_MetaTileEntity_OilDrill1 extends GT_MetaTileEntity_OilDrillBase {
++    public GT_MetaTileEntity_OilDrill1(int aID, String aName, String aNameRegional) {
++        super(aID, aName, aNameRegional);
++    }
++
++    public GT_MetaTileEntity_OilDrill1(String aName) {
++        super(aName);
++    }
++
++    @Override
++    public String[] getDescription() {
++        return getDescriptionInternal("I");
++    }
++
++    @Override
++    public IMetaTileEntity newMetaEntity(IGregTechTileEntity aTileEntity) {
++        return new GT_MetaTileEntity_OilDrill1(mName);
++    }
++
++    @Override
++    protected ItemList getCasingBlockItem() {
++        return ItemList.Casing_SolidSteel;
++    }
++
++    @Override
++    protected Materials getFrameMaterial() {
++        return Materials.Steel;
++    }
++
++    @Override
++    protected int getCasingTextureIndex() {
++        return 16;
++    }
++
++    @Override
++    protected int getRangeInChunks() {
++        return 1;
++    }
++
++    @Override
++    protected int getMinTier() {
++        return 2;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill2.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill2.java
+new file mode 100644
+index 0000000..00b6f19
+--- /dev/null
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill2.java
+@@ -0,0 +1,51 @@
++package gregtech.common.tileentities.machines.multi;
++
++import gregtech.api.enums.ItemList;
++import gregtech.api.enums.Materials;
++import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
++import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++
++public class GT_MetaTileEntity_OilDrill2 extends GT_MetaTileEntity_OilDrillBase {
++    public GT_MetaTileEntity_OilDrill2(int aID, String aName, String aNameRegional) {
++        super(aID, aName, aNameRegional);
++    }
++
++    public GT_MetaTileEntity_OilDrill2(String aName) {
++        super(aName);
++    }
++
++    @Override
++    public String[] getDescription() {
++        return getDescriptionInternal("II");
++    }
++
++    @Override
++    public IMetaTileEntity newMetaEntity(IGregTechTileEntity aTileEntity) {
++        return new GT_MetaTileEntity_OilDrill2(mName);
++    }
++
++    @Override
++    protected ItemList getCasingBlockItem() {
++        return ItemList.Casing_StableTitanium;
++    }
++
++    @Override
++    protected Materials getFrameMaterial() {
++        return Materials.Titanium;
++    }
++
++    @Override
++    protected int getCasingTextureIndex() {
++        return 50;
++    }
++
++    @Override
++    protected int getRangeInChunks() {
++        return 3;
++    }
++
++    @Override
++    protected int getMinTier() {
++        return 3;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill3.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill3.java
+new file mode 100644
+index 0000000..164ece9
+--- /dev/null
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrill3.java
+@@ -0,0 +1,51 @@
++package gregtech.common.tileentities.machines.multi;
++
++import gregtech.api.enums.ItemList;
++import gregtech.api.enums.Materials;
++import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
++import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++
++public class GT_MetaTileEntity_OilDrill3 extends GT_MetaTileEntity_OilDrillBase {
++    public GT_MetaTileEntity_OilDrill3(int aID, String aName, String aNameRegional) {
++        super(aID, aName, aNameRegional);
++    }
++
++    public GT_MetaTileEntity_OilDrill3(String aName) {
++        super(aName);
++    }
++
++    @Override
++    public String[] getDescription() {
++        return getDescriptionInternal("III");
++    }
++
++    @Override
++    public IMetaTileEntity newMetaEntity(IGregTechTileEntity aTileEntity) {
++        return new GT_MetaTileEntity_OilDrill3(mName);
++    }
++
++    @Override
++    protected ItemList getCasingBlockItem() {
++        return ItemList.Casing_RobustTungstenSteel;
++    }
++
++    @Override
++    protected Materials getFrameMaterial() {
++        return Materials.TungstenSteel;
++    }
++
++    @Override
++    protected int getCasingTextureIndex() {
++        return 48;
++    }
++
++    @Override
++    protected int getRangeInChunks() {
++        return 6;
++    }
++
++    @Override
++    protected int getMinTier() {
++        return 4;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrillBase.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrillBase.java
+new file mode 100644
+index 0000000..23fafc3
+--- /dev/null
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OilDrillBase.java
+@@ -0,0 +1,152 @@
++package gregtech.common.tileentities.machines.multi;
++
++import static gregtech.api.enums.GT_Values.V;
++import static gregtech.api.enums.GT_Values.VN;
++import static gregtech.common.GT_UndergroundOil.undergroundOil;
++
++import java.util.ArrayList;
++
++import gregtech.api.gui.GT_GUIContainer_MultiMachine;
++import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
++import gregtech.api.util.GT_Utility;
++import net.minecraft.entity.player.InventoryPlayer;
++import net.minecraft.item.ItemStack;
++import net.minecraft.nbt.NBTTagCompound;
++import net.minecraft.world.chunk.Chunk;
++import net.minecraftforge.fluids.FluidRegistry;
++import net.minecraftforge.fluids.FluidStack;
++
++public abstract class GT_MetaTileEntity_OilDrillBase extends GT_MetaTileEntity_DrillerBase {
++
++    private boolean completedCycle = false;
++
++    private ArrayList<Chunk> mOilFieldChunks = new ArrayList<Chunk>();
++    private int mOilId = 0;
++
++    public GT_MetaTileEntity_OilDrillBase(int aID, String aName, String aNameRegional) {
++        super(aID, aName, aNameRegional);
++    }
++
++    public GT_MetaTileEntity_OilDrillBase(String aName) {
++        super(aName);
++    }
++
++    @Override
++    public void saveNBTData(NBTTagCompound aNBT) {
++        super.saveNBTData(aNBT);
++        aNBT.setInteger("mOilId", mOilId);
++    }
++
++    @Override
++    public void loadNBTData(NBTTagCompound aNBT) {
++        super.loadNBTData(aNBT);
++        mOilId = aNBT.getInteger("mOilId");
++    }
++
++    protected String[] getDescriptionInternal(String tierSuffix) {
++        String casings = getCasingBlockItem().get(0).getDisplayName();
++        return new String[]{
++                "Controller Block for the Oil Drilling Rig " + (tierSuffix != null ? tierSuffix : ""),
++                "Size(WxHxD): 3x7x3", "Controller (Front middle at bottom)",
++                "3x1x3 Base of " + casings,
++                "1x3x1 " + casings + " pillar (Center of base)",
++                "1x3x1 " + getFrameMaterial().mName + " Frame Boxes (Each pillar side and on top)",
++                "1x Output Hatch (One of base casings)",
++                "1x Maintenance Hatch (One of base casings)",
++                "1x " + VN[getMinTier()] + "+ Energy Hatch (Any bottom layer casing)",
++                "Working on " + getRangeInChunks() + " * " + getRangeInChunks() + " chunks",
++                "Use Programmed Circuits to ignore near exhausted oil field"};
++    }
++
++
++    @Override
++    public Object getClientGUI(int aID, InventoryPlayer aPlayerInventory, IGregTechTileEntity aBaseMetaTileEntity) {
++        return new GT_GUIContainer_MultiMachine(aPlayerInventory, aBaseMetaTileEntity, getLocalName(), "DrillingRig.png");
++    }
++
++    protected int getRangeInChunks(){
++        return 0;
++    }
++
++    @Override
++    protected boolean checkHatches() {
++        return !mMaintenanceHatches.isEmpty() && !mOutputHatches.isEmpty() && !mEnergyHatches.isEmpty();
++    }
++
++    @Override
++    protected void setElectricityStats() {
++        this.mEfficiency = getCurrentEfficiency(null);
++        this.mEfficiencyIncrease = 10000;
++        //T1 = 24; T2 = 96; T3 = 384
++        this.mEUt = 6 * (1 << (getMinTier() << 1));
++        //160 per chunk in MV
++        this.mMaxProgresstime = (isPickingPipes ? 80 : 640 * getRangeInChunks() * getRangeInChunks()) / (1 << getMinTier());
++
++        long voltage = getMaxInputVoltage();
++        long overclockEu = V[Math.max(1, GT_Utility.getTier(voltage)) - 1];
++        while (this.mEUt <= overclockEu) {
++            this.mEUt *= 4;
++            this.mMaxProgresstime /= 2;
++        }
++
++        this.mEUt = -this.mEUt;
++        this.mMaxProgresstime = Math.max(1, this.mMaxProgresstime);
++    }
++
++    @Override
++    protected boolean workingDownward(ItemStack aStack, int xDrill, int yDrill, int zDrill, int xPipe, int zPipe, int yHead, int oldYHead){
++        if (!tryLowerPipe()){
++            if (waitForPipes()) return false;
++            if (tryFillChunkList()) {
++                float speed = .5F+(GT_Utility.getTier(getMaxInputVoltage()) - getMinTier()) *.25F;
++                FluidStack tFluid = pumpOil(speed);
++                if (tFluid != null && tFluid.amount > getTotalConfigValue()){
++                    this.mOutputFluids = new FluidStack[]{tFluid};
++                    return true;
++                }
++            }
++            isPickingPipes = true;
++            return true;
++        }
++        return true;
++    }
++
++    private boolean tryFillChunkList(){
++        FluidStack tFluid, tOil;
++        if (mOilId <= 0) {
++            tFluid = undergroundOil(getBaseMetaTileEntity(), -1);
++            if (tFluid == null) return false;
++            mOilId = tFluid.getFluidID();
++        }
++        tOil = new FluidStack(FluidRegistry.getFluid(mOilId), 0);
++
++        if (mOilFieldChunks.isEmpty()) {
++            Chunk tChunk = getBaseMetaTileEntity().getWorld().getChunkFromBlockCoords(getBaseMetaTileEntity().getXCoord(), getBaseMetaTileEntity().getZCoord());
++            int range = getRangeInChunks();
++            int xChunk = (tChunk.xPosition / range) * range, zChunk = (tChunk.zPosition / range) * range;
++            int xDir = tChunk.xPosition < 0 ? -1 : 1, zDir = tChunk.zPosition < 0 ? -1 : 1;
++            for (int i = 0; i < range; i++) {
++                for (int j = 0; j < range; j++) {
++                    tChunk = getBaseMetaTileEntity().getWorld().getChunkFromChunkCoords(xChunk + i * xDir, zChunk + j * zDir);
++                    tFluid = undergroundOil(tChunk, -1);
++                    if (tOil.isFluidEqual(tFluid))
++                        mOilFieldChunks.add(tChunk);
++                }
++            }
++        }
++        if (mOilFieldChunks.isEmpty()) return false;
++        return true;
++    }
++
++    private FluidStack pumpOil(float speed){
++        if (mOilId <= 0) return null;
++        FluidStack tFluid, tOil;
++        tOil = new FluidStack(FluidRegistry.getFluid(mOilId), 0);
++        for (Chunk tChunk : mOilFieldChunks) {
++            tFluid = undergroundOil(getBaseMetaTileEntity(),speed);
++            if (tFluid == null) mOilFieldChunks.remove(tChunk);
++            if (tOil.isFluidEqual(tFluid)) tOil.amount += tFluid.amount;
++        }
++        return tOil.amount == 0 ? null : tOil;
++    }
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlantBase.java b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlantBase.java
+index 3d8dbb0..c34d8b0 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlantBase.java
++++ b/src/main/java/gregtech/common/tileentities/machines/multi/GT_MetaTileEntity_OreDrillingPlantBase.java
+@@ -1,18 +1,16 @@
+ package gregtech.common.tileentities.machines.multi;
+ 
+-import gregtech.api.GregTech_API;
++import static gregtech.api.enums.GT_Values.V;
++import static gregtech.api.enums.GT_Values.VN;
++
++import java.util.ArrayList;
++
+ import gregtech.api.enums.ItemList;
+ import gregtech.api.enums.Materials;
+ import gregtech.api.enums.OrePrefixes;
+-import gregtech.api.enums.Textures;
+ import gregtech.api.gui.GT_GUIContainer_MultiMachine;
+-import gregtech.api.interfaces.ITexture;
+ import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
+-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_Hatch_Energy;
+-import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_MultiBlockBase;
+-import gregtech.api.objects.GT_RenderedTexture;
+ import gregtech.api.objects.ItemData;
+-import gregtech.api.util.GT_ModHandler;
+ import gregtech.api.util.GT_OreDictUnificator;
+ import gregtech.api.util.GT_Recipe;
+ import gregtech.api.util.GT_Utility;
+@@ -22,106 +20,40 @@ import net.minecraft.block.Block;
+ import net.minecraft.entity.player.InventoryPlayer;
+ import net.minecraft.init.Blocks;
+ import net.minecraft.item.ItemStack;
+-import net.minecraft.nbt.NBTTagCompound;
+ import net.minecraft.tileentity.TileEntity;
+ import net.minecraft.world.ChunkPosition;
+-import net.minecraftforge.common.util.ForgeDirection;
+ import net.minecraftforge.fluids.FluidStack;
+ 
+-import java.util.ArrayList;
+-
+-import static gregtech.api.enums.GT_Values.*;
+-
+-public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTileEntity_MultiBlockBase {
+-    private static final ItemStack miningPipe = GT_ModHandler.getIC2Item("miningPipe", 0);
+-    private static final ItemStack miningPipeTip = GT_ModHandler.getIC2Item("miningPipeTip", 0);
+-    private static final Block miningPipeBlock = GT_Utility.getBlockFromStack(miningPipe);
+-    private static final Block miningPipeTipBlock = GT_Utility.getBlockFromStack(miningPipeTip);
++public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTileEntity_DrillerBase {
+ 
+     private final ArrayList<ChunkPosition> oreBlockPositions = new ArrayList<>();
+ 
+-    private Block casingBlock;
+-    private int casingMeta;
+-    private int frameMeta;
+-    private int casingTextureIndex;
+-
+-    private ForgeDirection back;
+-    private int xDrill, yDrill, zDrill, xCenter, zCenter, yHead;
+-
+-    private boolean isPickingPipes;
+-
+     public GT_MetaTileEntity_OreDrillingPlantBase(int aID, String aName, String aNameRegional) {
+         super(aID, aName, aNameRegional);
+-        initFields();
+     }
+ 
+     public GT_MetaTileEntity_OreDrillingPlantBase(String aName) {
+         super(aName);
+-        initFields();
+-    }
+-
+-    private void initFields() {
+-        casingBlock = getCasingBlockItem().getBlock();
+-        casingMeta = getCasingBlockItem().get(0).getItemDamage();
+-        int frameId = 4096 + getFrameMaterial().mMetaItemSubID;
+-        frameMeta = GregTech_API.METATILEENTITIES[frameId] != null ? GregTech_API.METATILEENTITIES[frameId].getTileEntityBaseType() : W;
+-        casingTextureIndex = getCasingTextureIndex();
+-        isPickingPipes = false;
+-    }
+-
+-    public ITexture[] getTexture(IGregTechTileEntity aBaseMetaTileEntity, byte aSide, byte aFacing, byte aColorIndex, boolean aActive, boolean aRedstone) {
+-        if (aSide == aFacing)
+-            return new ITexture[]{Textures.BlockIcons.CASING_BLOCKS[casingTextureIndex],new GT_RenderedTexture(aActive ? Textures.BlockIcons.OVERLAY_FRONT_ORE_DRILL_ACTIVE : Textures.BlockIcons.OVERLAY_FRONT_ORE_DRILL)};
+-        return new ITexture[]{Textures.BlockIcons.CASING_BLOCKS[casingTextureIndex]};
+     }
+ 
++    @Override
+     public Object getClientGUI(int aID, InventoryPlayer aPlayerInventory, IGregTechTileEntity aBaseMetaTileEntity) {
+         return new GT_GUIContainer_MultiMachine(aPlayerInventory, aBaseMetaTileEntity, getLocalName(), "OreDrillingPlant.png");
+     }
+ 
+     @Override
+-    public void saveNBTData(NBTTagCompound aNBT) {
+-        super.saveNBTData(aNBT);
+-        aNBT.setBoolean("isPickingPipes", isPickingPipes);
+-    }
+-
+-    @Override
+-    public void loadNBTData(NBTTagCompound aNBT) {
+-        super.loadNBTData(aNBT);
+-        isPickingPipes = aNBT.getBoolean("isPickingPipes");
+-    }
+-
+-    @Override
+-    public boolean checkRecipe(ItemStack aStack) {
+-        setElectricityStats();
+-        int oldYHead = yHead;
+-        if (!checkPipesAndSetYHead() || !isEnergyEnough()) {
+-            stopMachine();
+-            return false;
+-        }
++    protected boolean workingDownward(ItemStack aStack, int xDrill, int yDrill, int zDrill, int xPipe, int zPipe, int yHead, int oldYHead){
+         if (yHead != oldYHead) oreBlockPositions.clear();
+-        if (isPickingPipes) {
+-            if (tryPickPipe()) {
+-                mOutputItems = new ItemStack[] {GT_Utility.copyAmount(1, miningPipe)};
+-                return true;
+-            } else {
+-                isPickingPipes = false;
+-                stopMachine();
+-                return false;
+-            }
+-        }
+-
+-        putMiningPipesFromInputsInController();
+-        if (!tryConsumeDrillingFluid()) return false;
+ 
+-        fillMineListIfEmpty();
++        fillMineListIfEmpty(xDrill, yDrill, zDrill, xPipe, zPipe, yHead);
+         if (oreBlockPositions.isEmpty()) {
+             if (!tryLowerPipe()) {
++                if (waitForPipes()) return false;
+                 isPickingPipes = true;
+                 return true;
+             }
+             //new layer - fill again
+-            fillMineListIfEmpty();
++            fillMineListIfEmpty(xDrill, yDrill, zDrill, xPipe, zPipe, yHead);
+         }
+ 
+         ChunkPosition oreBlockPos = null;
+@@ -132,6 +64,7 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+             oreBlock = getBaseMetaTileEntity().getBlock(oreBlockPos.chunkPosX, oreBlockPos.chunkPosY, oreBlockPos.chunkPosZ);
+         }
+ 
++        if (!tryConsumeDrillingFluid()) return false;
+         if (oreBlock != null && oreBlock != Blocks.air) {
+             ArrayList<ItemStack> oreBlockDrops = getBlockDrops(oreBlock, oreBlockPos.chunkPosX, oreBlockPos.chunkPosY, oreBlockPos.chunkPosZ);
+             getBaseMetaTileEntity().getWorld().setBlockToAir(oreBlockPos.chunkPosX, oreBlockPos.chunkPosY, oreBlockPos.chunkPosZ);
+@@ -141,24 +74,13 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+         return true;
+     }
+ 
+-    private boolean isEnergyEnough() {
+-        long requiredEnergy = 512 + getMaxInputVoltage() * 4;
+-        for (GT_MetaTileEntity_Hatch_Energy energyHatch : mEnergyHatches) {
+-            requiredEnergy -= energyHatch.getEUVar();
+-            if (requiredEnergy <= 0) return true;
+-        }
+-        return false;
+-    }
+-
+-    private boolean tryPickPipe() {
+-        if (yHead == yDrill) return false;
+-        if (checkBlockAndMeta(xCenter, yHead + 1, zCenter, miningPipeBlock, W))
+-            getBaseMetaTileEntity().getWorld().setBlock(xCenter, yHead + 1, zCenter, miningPipeTipBlock);
+-        getBaseMetaTileEntity().getWorld().setBlockToAir(xCenter, yHead, zCenter);
+-        return true;
++    @Override
++    protected boolean checkHatches(){
++        return !mMaintenanceHatches.isEmpty() && !mInputHatches.isEmpty() && !mOutputBusses.isEmpty() && !mEnergyHatches.isEmpty();
+     }
+ 
+-    private void setElectricityStats() {
++    @Override
++    protected void setElectricityStats() {
+         this.mEfficiency = getCurrentEfficiency(null);
+         this.mEfficiencyIncrease = 10000;
+         //T1 = 12; T2 = 48; T3 = 192; T4 = 768
+@@ -227,37 +149,17 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+     }
+ 
+     private boolean tryConsumeDrillingFluid() {
+-        return depleteInput(new FluidStack(ItemList.sDrillingFluid, 2000));
+-    }
+-
+-    private void putMiningPipesFromInputsInController() {
+-        int maxPipes = miningPipe.getMaxStackSize();
+-        if (isHasMiningPipes(maxPipes)) return;
+-
+-        ItemStack pipes = getStackInSlot(1);
+-        for (ItemStack storedItem : getStoredInputs()) {
+-            if (!storedItem.isItemEqual(miningPipe)) continue;
+-
+-            if (pipes == null) {
+-                setInventorySlotContents(1, GT_Utility.copy(miningPipe));
+-                pipes = getStackInSlot(1);
+-            }
+-
+-            if (pipes.stackSize == maxPipes) break;
+-
+-            int needPipes = maxPipes - pipes.stackSize;
+-            int transferPipes = storedItem.stackSize < needPipes ? storedItem.stackSize : needPipes;
+-
+-            pipes.stackSize += transferPipes;
+-            storedItem.stackSize -= transferPipes;
++        if (!depleteInput(new FluidStack(ItemList.sDrillingFluid, 2000))) {
++            mMaxProgresstime = 0;
++            return false;
+         }
+-        updateSlots();
++        return true;
+     }
+ 
+-    private void fillMineListIfEmpty() {
++    private void fillMineListIfEmpty(int xDrill, int yDrill, int zDrill, int xPipe, int zPipe, int yHead) {
+         if (!oreBlockPositions.isEmpty()) return;
+ 
+-        tryAddOreBlockToMineList(xCenter, yHead - 1, zCenter);
++        tryAddOreBlockToMineList(xPipe, yHead - 1, zPipe);
+         if (yHead == yDrill) return; //skip controller block layer
+ 
+         int radius = getRadiusInChunks() << 4;
+@@ -282,131 +184,8 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+         }
+     }
+ 
+-    private boolean tryLowerPipe() {
+-        if (!isHasMiningPipes()) return false;
+-
+-        if (yHead <= 0) return false;
+-        if (checkBlockAndMeta(xCenter, yHead - 1, zCenter, Blocks.bedrock, W)) return false;
+-
+-        getBaseMetaTileEntity().getWorld().setBlock(xCenter, yHead - 1, zCenter, miningPipeTipBlock);
+-        if (yHead != yDrill) getBaseMetaTileEntity().getWorld().setBlock(xCenter, yHead, zCenter, miningPipeBlock);
+-
+-        getBaseMetaTileEntity().decrStackSize(1, 1);
+-        return true;
+-    }
+-
+-    private boolean isHasMiningPipes() {
+-        return isHasMiningPipes(1);
+-    }
+-
+-    private boolean isHasMiningPipes(int minCount) {
+-        ItemStack pipe = getStackInSlot(1);
+-        return pipe != null && pipe.stackSize > minCount - 1 && pipe.isItemEqual(miningPipe);
+-    }
+-
+-    @Override
+-    public boolean checkMachine(IGregTechTileEntity aBaseMetaTileEntity, ItemStack aStack) {
+-        updateCoordinates();
+-        //check base layer
+-        for (int xOff = -1 + back.offsetX; xOff <= 1 + back.offsetX; xOff++) {
+-            for (int zOff = -1 + back.offsetZ; zOff <= 1 + back.offsetZ; zOff++) {
+-                if (xOff == 0 && zOff == 0) continue;
+-
+-                IGregTechTileEntity tTileEntity = aBaseMetaTileEntity.getIGregTechTileEntityOffset(xOff, 0, zOff);
+-                if (!checkCasingBlock(xOff, 0, zOff)
+-                        && !addMaintenanceToMachineList(tTileEntity, casingTextureIndex)
+-                        && !addInputToMachineList(tTileEntity, casingTextureIndex)
+-                        && !addOutputToMachineList(tTileEntity, casingTextureIndex)
+-                        && !addEnergyInputToMachineList(tTileEntity, casingTextureIndex))
+-                    return false;
+-            }
+-        }
+-        if (mMaintenanceHatches.isEmpty() || mInputHatches.isEmpty() || mOutputBusses.isEmpty() || mEnergyHatches.isEmpty()) return false;
+-        if (GT_Utility.getTier(getMaxInputVoltage()) < getMinTier()) return false;
+-        //check tower
+-        for (int yOff = 1; yOff < 4; yOff++) {
+-            if (!checkCasingBlock(back.offsetX, yOff, back.offsetZ)
+-                    || !checkFrameBlock(back.offsetX + 1, yOff, back.offsetZ)
+-                    || !checkFrameBlock(back.offsetX - 1, yOff, back.offsetZ)
+-                    || !checkFrameBlock(back.offsetX, yOff, back.offsetZ + 1)
+-                    || !checkFrameBlock(back.offsetX, yOff, back.offsetZ - 1)
+-                    || !checkFrameBlock(back.offsetX, yOff + 3, back.offsetZ))
+-                return false;
+-        }
+-        return true;
+-    }
+-
+-    private void updateCoordinates() {
+-        xDrill = getBaseMetaTileEntity().getXCoord();
+-        yDrill = getBaseMetaTileEntity().getYCoord();
+-        zDrill = getBaseMetaTileEntity().getZCoord();
+-        back = ForgeDirection.getOrientation(getBaseMetaTileEntity().getBackFacing());
+-        xCenter = xDrill + back.offsetX;
+-        zCenter = zDrill + back.offsetZ;
+-    }
+-
+-    private boolean checkPipesAndSetYHead() {
+-        yHead = yDrill - 1;
+-        while (checkBlockAndMeta(xCenter, yHead, zCenter, miningPipeBlock, W)) yHead--; //skip pipes
+-        //is pipe tip OR is controller layer
+-        if (checkBlockAndMeta(xCenter, yHead, zCenter, miningPipeTipBlock, W) || ++yHead == yDrill) return true;
+-        //pipe column is broken - try fix
+-        getBaseMetaTileEntity().getWorld().setBlock(xCenter, yHead, zCenter, miningPipeTipBlock);
+-        return true;
+-    }
+-
+-    private boolean checkCasingBlock(int xOff, int yOff, int zOff) {
+-        return checkBlockAndMetaOffset(xOff, yOff, zOff, casingBlock, casingMeta);
+-    }
+-    //meta of frame is getTileEntityBaseType; frame should be checked using its drops (possible a high weight operation)
+-    private boolean checkFrameBlock(int xOff, int yOff, int zOff) {
+-        return checkBlockAndMetaOffset(xOff, yOff, zOff, GregTech_API.sBlockMachines, frameMeta);
+-    }
+-
+-    private boolean checkBlockAndMetaOffset(int xOff, int yOff, int zOff, Block block, int meta) {
+-        return checkBlockAndMeta(xDrill + xOff, yDrill + yOff, zDrill + zOff, block, meta);
+-    }
+-
+-    private boolean checkBlockAndMeta(int x, int y, int z, Block block, int meta) {
+-        return (meta == W || getBaseMetaTileEntity().getMetaID(x, y, z) == meta)
+-                && getBaseMetaTileEntity().getBlock(x, y, z) == block;
+-    }
+-
+-    @Override
+-    public boolean isCorrectMachinePart(ItemStack aStack) {
+-        return true;
+-    }
+-
+-    @Override
+-    public int getMaxEfficiency(ItemStack aStack) {
+-        return 10000;
+-    }
+-
+-    @Override
+-    public int getPollutionPerTick(ItemStack aStack) {
+-        return 0;
+-    }
+-
+-    @Override
+-    public int getDamageToComponent(ItemStack aStack) {
+-        return 0;
+-    }
+-
+-    @Override
+-    public boolean explodesOnComponentBreak(ItemStack aStack) {
+-        return false;
+-    }
+-
+-    protected abstract ItemList getCasingBlockItem();
+-
+-    protected abstract Materials getFrameMaterial();
+-
+-    protected abstract int getCasingTextureIndex();
+-
+     protected abstract int getRadiusInChunks();
+ 
+-    protected abstract int getMinTier();
+-
+     protected String[] getDescriptionInternal(String tierSuffix) {
+         String casings = getCasingBlockItem().get(0).getDisplayName();
+         return new String[]{
+@@ -422,4 +201,4 @@ public abstract class GT_MetaTileEntity_OreDrillingPlantBase extends GT_MetaTile
+                 "1x " + VN[getMinTier()] + "+ Energy Hatch (Any bottom layer casing)",
+                 "Radius is " + (getRadiusInChunks() << 4) + " blocks"};
+     }
+-}
++}
+\ No newline at end of file
+diff --git a/src/main/java/gregtech/loaders/preload/GT_Loader_MetaTileEntities.java b/src/main/java/gregtech/loaders/preload/GT_Loader_MetaTileEntities.java
+index d0eb0f6..72dcf42 100644
+--- a/src/main/java/gregtech/loaders/preload/GT_Loader_MetaTileEntities.java
++++ b/src/main/java/gregtech/loaders/preload/GT_Loader_MetaTileEntities.java
+@@ -1234,8 +1234,17 @@ public class GT_Loader_MetaTileEntities implements Runnable {//TODO CHECK CIRCUI
+         GT_ModHandler.addCraftingRecipe(ItemList.Seismic_Prospector.get(1L, new Object[0]), bitsd, new Object[]{"WWW", "EME", "CCC", 'M', ItemList.Hull_HP, 'W', OrePrefixes.plateDouble.get(Materials.Steel), 'E', OrePrefixes.circuit.get(Materials.Basic), 'C', ItemList.Sensor_LV});
+         GT_ModHandler.addCraftingRecipe(ItemList.Seismic_Prospector_Adv.get(1L, new Object[0]), bitsd, new Object[] { "WWW", "EME", "CCC", 'M', ItemList.Hull_EV, 'W', OrePrefixes.plateDouble.get(Materials.VanadiumSteel),'E', OrePrefixes.circuit.get(Materials.Data), 'C', ItemList.Sensor_EV });
+ 
+-        ItemList.OilDrill.set(new GT_MetaTileEntity_OilDrill(1157, "multimachine.oildrill", "Oil Drilling Rig").getStackForm(1));
+-        GT_ModHandler.addCraftingRecipe(ItemList.OilDrill.get(1L, new Object[0]), bitsd, new Object[]{"WWW", "EME", "CCC", 'M', ItemList.Hull_MV, 'W', OrePrefixes.frameGt.get(Materials.Steel), 'E', OrePrefixes.circuit.get(Materials.Good), 'C', ItemList.Electric_Motor_MV});
++        ItemList.OilDrill1.set(new GT_MetaTileEntity_OilDrill1(1157, "multimachine.oildrill1", "Oil Drilling Rig").getStackForm(1));
++        ItemList.OilDrill2.set(new GT_MetaTileEntity_OilDrill2(133, "multimachine.oildrill2", "Oil Drilling Rig II").getStackForm(1));
++        ItemList.OilDrill3.set(new GT_MetaTileEntity_OilDrill3(134, "multimachine.oildrill3", "Oil Drilling Rig III").getStackForm(1));
++        GT_ModHandler.addCraftingRecipe(ItemList.OilDrill1.get(1L, new Object[0]), bitsd, new Object[]{"WWW", "EME", "CCC", 'M', ItemList.Hull_MV, 'W', OrePrefixes.frameGt.get(Materials.Steel), 'E', OrePrefixes.circuit.get(Materials.Good), 'C', ItemList.Electric_Motor_MV});
++        GT_ModHandler.addCraftingRecipe(ItemList.OilDrill1.get(1L, new Object[0]), bitsd, new Object[]{"WWW", "EME", "CCC", 'M', ItemList.OilDrill1, 'W', OrePrefixes.frameGt.get(Materials.Titanium), 'E', OrePrefixes.circuit.get(Materials.Advanced), 'C', ItemList.Electric_Motor_HV});
++        GT_ModHandler.addCraftingRecipe(ItemList.OilDrill1.get(1L, new Object[0]), bitsd, new Object[]{"WWW", "EME", "CCC", 'M', ItemList.OilDrill2, 'W', OrePrefixes.frameGt.get(Materials.TungstenSteel), 'E', OrePrefixes.circuit.get(Materials.Data), 'C', ItemList.Electric_Motor_EV});
++
++        ItemList.ConcreteBackfiller1.set(new GT_MetaTileEntity_ConcreteBackfiller1(135, "multimachine.concretebackfiller1", "Concrete Backfiller").getStackForm(1));
++        ItemList.ConcreteBackfiller2.set(new GT_MetaTileEntity_ConcreteBackfiller2(136, "multimachine.concretebackfiller3", "Advanced Concrete Backfiller").getStackForm(1));
++        GT_ModHandler.addCraftingRecipe(ItemList.ConcreteBackfiller1.get(1L, new Object[0]), bitsd, new Object[]{"WPW", "EME", "CQC", 'M', ItemList.Hull_MV, 'W', OrePrefixes.frameGt.get(Materials.Steel), 'E', OrePrefixes.circuit.get(Materials.Good), 'C', ItemList.Electric_Motor_MV, 'P', OrePrefixes.pipeLarge.get(Materials.Steel), 'Q', ItemList.Electric_Pump_MV});
++        GT_ModHandler.addCraftingRecipe(ItemList.ConcreteBackfiller2.get(1L, new Object[0]), bitsd, new Object[]{"WPW", "EME", "CQC", 'M', ItemList.ConcreteBackfiller1, 'W', OrePrefixes.frameGt.get(Materials.Titanium), 'E', OrePrefixes.circuit.get(Materials.Data), 'C', ItemList.Electric_Motor_EV, 'P', OrePrefixes.pipeLarge.get(Materials.Steel), 'Q', ItemList.Electric_Pump_EV});
+ 
+         ItemList.OreDrill1.set(new GT_MetaTileEntity_OreDrillingPlant1(1158, "multimachine.oredrill1", "Ore Drilling Plant").getStackForm(1));
+         GT_ModHandler.addCraftingRecipe(ItemList.OreDrill1.get(1L), bitsd, new Object[]{"WWW", "EME", "CCC", 'M', ItemList.Hull_EV, 'W', OrePrefixes.frameGt.get(Materials.Titanium), 'E', OrePrefixes.circuit.get(Materials.Data), 'C', ItemList.Electric_Motor_EV});
+-- 
+1.9.5.msysgit.0
+
+From ffc256ab87f905fa21bdb7102212cafa54c9f6bd Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Tue, 12 Sep 2017 22:41:17 +0200
+Subject: [PATCH] cherry pick 61d058201244d9dd6f19ed72c863722b7da0ad14
+ bab71c5349799ba77ac42f80c54725a999fab40c
+
+Fix #1206 #1210 Fix NPE of fluid check.
+https://github.com/Blood-Asp/GT5-Unofficial/pull/1210
+---
+ .../machines/basic/GT_MetaTileEntity_MicrowaveEnergyTransmitter.java   | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/main/java/gregtech/common/tileentities/machines/basic/GT_MetaTileEntity_MicrowaveEnergyTransmitter.java b/src/main/java/gregtech/common/tileentities/machines/basic/GT_MetaTileEntity_MicrowaveEnergyTransmitter.java
+index 934be4c..abdc569 100644
+--- a/src/main/java/gregtech/common/tileentities/machines/basic/GT_MetaTileEntity_MicrowaveEnergyTransmitter.java
++++ b/src/main/java/gregtech/common/tileentities/machines/basic/GT_MetaTileEntity_MicrowaveEnergyTransmitter.java
+@@ -153,7 +153,8 @@ public class GT_MetaTileEntity_MicrowaveEnergyTransmitter extends GT_MetaTileEnt
+                         sInterDimensionalTeleportAllowed &&
+                                 (
+                                         this.hasBlock ||
+-                                        mFluid.isFluidEqual(Materials.Nitrogen.getPlasma(1)) && mFluid.amount >= 1000
++                                                mFluid != null && mFluid.isFluidEqual(Materials.Nitrogen.getPlasma(1)) && mFluid.amount >= 1000
++
+                                 )
+                 )
+         ;
+-- 
+1.9.5.msysgit.0
+
+From 9dfe682c4415336f03631c5ccaeb762258be4912 Mon Sep 17 00:00:00 2001
+From: MineAnPlay <gelebekenes@hotmail.com>
+Date: Tue, 12 Sep 2017 12:36:29 +0300
+Subject: [PATCH] Change back to old Rotor Solder Materials #1951
+
+From multiples of 18 to multiples of 16 because obtaining multiples of 16 is easier.
+---
+ src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java b/src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java
+index d1ed3a8..a88d8ef 100644
+--- a/src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java
++++ b/src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java
+@@ -14,9 +14,9 @@ public class ProcessingRotor implements gregtech.api.interfaces.IOreRecipeRegist
+     public void registerOre(OrePrefixes aPrefix, Materials aMaterial, String aOreDictName, String aModName, ItemStack aStack) {
+         if ((aMaterial.mUnificatable) && (aMaterial.mMaterialInto == aMaterial) && !aMaterial.contains(SubTag.NO_WORKING)) {
+             GT_ModHandler.addCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), GT_Proxy.tBits, new Object[]{"PhP", "SRf", "PdP", Character.valueOf('P'), aMaterial == Materials.Wood ? OrePrefixes.plank.get(aMaterial) : OrePrefixes.plate.get(aMaterial), Character.valueOf('R'), OrePrefixes.ring.get(aMaterial), Character.valueOf('S'), OrePrefixes.screw.get(aMaterial)});
+-            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.Tin.getMolten(36), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
+-            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.Lead.getMolten(54), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
+-            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.SolderingAlloy.getMolten(18), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
++            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.Tin.getMolten(32), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
++            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.Lead.getMolten(48), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
++            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.SolderingAlloy.getMolten(16), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
+             GT_Values.RA.addExtruderRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, aMaterial, 5L), ItemList.Shape_Extruder_Rotor.get(0L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 200, 60);
+             GT_Values.RA.addFluidSolidifierRecipe(ItemList.Shape_Mold_Rotor.get(1L, new Object[0]),  aMaterial.getMolten(612L), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 100, 60);
+         }
+-- 
+1.9.5.msysgit.0
+
+From 9dfe682c4415336f03631c5ccaeb762258be4912 Mon Sep 17 00:00:00 2001
+From: MineAnPlay <gelebekenes@hotmail.com>
+Date: Tue, 12 Sep 2017 12:36:29 +0300
+Subject: [PATCH] Change back to old Rotor Solder Materials #1951
+
+From multiples of 18 to multiples of 16 because obtaining multiples of 16 is easier.
+---
+ src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java b/src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java
+index d1ed3a8..a88d8ef 100644
+--- a/src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java
++++ b/src/main/java/gregtech/loaders/oreprocessing/ProcessingRotor.java
+@@ -14,9 +14,9 @@ public class ProcessingRotor implements gregtech.api.interfaces.IOreRecipeRegist
+     public void registerOre(OrePrefixes aPrefix, Materials aMaterial, String aOreDictName, String aModName, ItemStack aStack) {
+         if ((aMaterial.mUnificatable) && (aMaterial.mMaterialInto == aMaterial) && !aMaterial.contains(SubTag.NO_WORKING)) {
+             GT_ModHandler.addCraftingRecipe(GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), GT_Proxy.tBits, new Object[]{"PhP", "SRf", "PdP", Character.valueOf('P'), aMaterial == Materials.Wood ? OrePrefixes.plank.get(aMaterial) : OrePrefixes.plate.get(aMaterial), Character.valueOf('R'), OrePrefixes.ring.get(aMaterial), Character.valueOf('S'), OrePrefixes.screw.get(aMaterial)});
+-            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.Tin.getMolten(36), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
+-            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.Lead.getMolten(54), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
+-            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.SolderingAlloy.getMolten(18), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
++            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.Tin.getMolten(32), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
++            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.Lead.getMolten(48), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
++            GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.plate, aMaterial, 4L), GT_OreDictUnificator.get(OrePrefixes.ring, aMaterial, 1L), Materials.SolderingAlloy.getMolten(16), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 240, 24);
+             GT_Values.RA.addExtruderRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, aMaterial, 5L), ItemList.Shape_Extruder_Rotor.get(0L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 200, 60);
+             GT_Values.RA.addFluidSolidifierRecipe(ItemList.Shape_Mold_Rotor.get(1L, new Object[0]),  aMaterial.getMolten(612L), GT_OreDictUnificator.get(OrePrefixes.rotor, aMaterial, 1L), 100, 60);
+         }
+-- 
+1.9.5.msysgit.0
+
+From b4764a64f29fdc1d70e233446b432dbd5f84e476 Mon Sep 17 00:00:00 2001
+From: Technus <daniel112092@gmail.com>
+Date: Tue, 12 Sep 2017 06:55:51 +0200
+Subject: [PATCH] Next attempt on wires.
+
+---
+ .../api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java  | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+index 34e2303..c12bf2e 100644
+--- a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
++++ b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+@@ -23,6 +23,7 @@ import net.minecraft.entity.Entity;
+ import net.minecraft.entity.EntityLivingBase;
+ import net.minecraft.item.ItemStack;
+ import net.minecraft.nbt.NBTTagCompound;
++import net.minecraft.server.MinecraftServer;
+ import net.minecraft.tileentity.TileEntity;
+ import net.minecraft.util.AxisAlignedBB;
+ import net.minecraft.util.EnumChatFormatting;
+@@ -250,8 +251,8 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+             mTransferredAmperageOK=mTransferredAmperage;
+             mTransferredAmperage = 0;
+ 
+-            tickDiff=Math.min((int)(aBaseMetaTileEntity.getWorld().getTotalWorldTime()-lastTickTime),1);
+-            lastTickTime=aBaseMetaTileEntity.getWorld().getTotalWorldTime();
++            tickDiff=Math.min((int)(MinecraftServer.getServer().getTickCounter()-lastTickTime),1);
++            lastTickTime=MinecraftServer.getServer().getTickCounter();
+             if(lastTickDiff<tickDiff)
+                 mOverheat=(short)Math.max(0,mOverheat-100);
+             lastTickDiff=tickDiff;
+-- 
+1.9.5.msysgit.0
+
+From f6dc74ca534bd488a3c537c09a1e6bb5e73593a4 Mon Sep 17 00:00:00 2001
+From: Technus <daniel112092@gmail.com>
+Date: Tue, 12 Sep 2017 06:49:59 +0200
+Subject: [PATCH] Revert "Implement tick counter?"
+
+This reverts commit 0d9d2040bc43f4e18d227b3c51a3edc4f9994747.
+---
+ .../metatileentity/implementations/GT_MetaPipeEntity_Cable.java   | 5 ++---
+ src/main/java/gregtech/common/GT_Proxy.java                       | 8 --------
+ 2 files changed, 2 insertions(+), 11 deletions(-)
+
+diff --git a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+index b7d6b0a..34e2303 100644
+--- a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
++++ b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+@@ -33,7 +33,6 @@ import java.util.ArrayList;
+ import java.util.Arrays;
+ 
+ import static gregtech.api.enums.GT_Values.VN;
+-import static gregtech.common.GT_Proxy.serverSideDimensionWiseTickCounter;
+ 
+ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTileEntityCable {
+     public final float mThickNess;
+@@ -251,8 +250,8 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+             mTransferredAmperageOK=mTransferredAmperage;
+             mTransferredAmperage = 0;
+ 
+-            tickDiff=Math.min((int)(serverSideDimensionWiseTickCounter.get(aBaseMetaTileEntity.getWorld().provider.dimensionId)-lastTickTime),1);
+-            lastTickTime=serverSideDimensionWiseTickCounter.get(aBaseMetaTileEntity.getWorld().provider.dimensionId);
++            tickDiff=Math.min((int)(aBaseMetaTileEntity.getWorld().getTotalWorldTime()-lastTickTime),1);
++            lastTickTime=aBaseMetaTileEntity.getWorld().getTotalWorldTime();
+             if(lastTickDiff<tickDiff)
+                 mOverheat=(short)Math.max(0,mOverheat-100);
+             lastTickDiff=tickDiff;
+diff --git a/src/main/java/gregtech/common/GT_Proxy.java b/src/main/java/gregtech/common/GT_Proxy.java
+index d8d5060..f6d4ca6 100644
+--- a/src/main/java/gregtech/common/GT_Proxy.java
++++ b/src/main/java/gregtech/common/GT_Proxy.java
+@@ -74,7 +74,6 @@ import java.text.DateFormat;
+ import java.util.*;
+ 
+ public abstract class GT_Proxy implements IGT_Mod, IGuiHandler, IFuelHandler {
+-    public static HashMap<Integer,Long> serverSideDimensionWiseTickCounter =new HashMap<>();
+     private static final EnumSet<OreGenEvent.GenerateMinable.EventType> PREVENTED_ORES = EnumSet.of(OreGenEvent.GenerateMinable.EventType.COAL,
+             new OreGenEvent.GenerateMinable.EventType[]{OreGenEvent.GenerateMinable.EventType.IRON, OreGenEvent.GenerateMinable.EventType.GOLD,
+                     OreGenEvent.GenerateMinable.EventType.DIAMOND, OreGenEvent.GenerateMinable.EventType.REDSTONE, OreGenEvent.GenerateMinable.EventType.LAPIS,
+@@ -1249,13 +1248,6 @@ public abstract class GT_Proxy implements IGT_Mod, IGuiHandler, IFuelHandler {
+                 }
+             }
+ 
+-            int dimID=aEvent.world.provider.dimensionId;
+-            if(serverSideDimensionWiseTickCounter.containsKey(dimID)){
+-                serverSideDimensionWiseTickCounter.put(dimID, serverSideDimensionWiseTickCounter.get(dimID)+1);
+-            }else{
+-                serverSideDimensionWiseTickCounter.put(dimID,0L);
+-            }
+-
+             GT_Pollution.onWorldTick(aEvent);
+         }
+     }
+-- 
+1.9.5.msysgit.0
+
+From b0cbd07d6ebb8c1489ce4b664e2eb9d22497e687 Mon Sep 17 00:00:00 2001
+From: Technus <daniel112092@gmail.com>
+Date: Tue, 12 Sep 2017 06:49:51 +0200
+Subject: [PATCH] Revert "Minor optimization of tick counter"
+
+This reverts commit 9caaa58ea11b6477eaabdd509a554e90f60bc2ac.
+---
+ .../metatileentity/implementations/GT_MetaPipeEntity_Cable.java   | 6 +++---
+ src/main/java/gregtech/common/GT_Proxy.java                       | 8 +++++---
+ 2 files changed, 8 insertions(+), 6 deletions(-)
+
+diff --git a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+index a1a537c..b7d6b0a 100644
+--- a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
++++ b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+@@ -250,9 +250,9 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+             mTransferredVoltage=0;
+             mTransferredAmperageOK=mTransferredAmperage;
+             mTransferredAmperage = 0;
+-            final int dimID=aBaseMetaTileEntity.getWorld().provider.dimensionId;
+-            tickDiff=Math.min((int)(serverSideDimensionWiseTickCounter.get(dimID)-lastTickTime),1);
+-            lastTickTime=serverSideDimensionWiseTickCounter.get(dimID);
++
++            tickDiff=Math.min((int)(serverSideDimensionWiseTickCounter.get(aBaseMetaTileEntity.getWorld().provider.dimensionId)-lastTickTime),1);
++            lastTickTime=serverSideDimensionWiseTickCounter.get(aBaseMetaTileEntity.getWorld().provider.dimensionId);
+             if(lastTickDiff<tickDiff)
+                 mOverheat=(short)Math.max(0,mOverheat-100);
+             lastTickDiff=tickDiff;
+diff --git a/src/main/java/gregtech/common/GT_Proxy.java b/src/main/java/gregtech/common/GT_Proxy.java
+index 844f1ef..d8d5060 100644
+--- a/src/main/java/gregtech/common/GT_Proxy.java
++++ b/src/main/java/gregtech/common/GT_Proxy.java
+@@ -1249,10 +1249,12 @@ public abstract class GT_Proxy implements IGT_Mod, IGuiHandler, IFuelHandler {
+                 }
+             }
+ 
+-            final int dimID=aEvent.world.provider.dimensionId;
+-            if(serverSideDimensionWiseTickCounter.containsKey(dimID))
++            int dimID=aEvent.world.provider.dimensionId;
++            if(serverSideDimensionWiseTickCounter.containsKey(dimID)){
+                 serverSideDimensionWiseTickCounter.put(dimID, serverSideDimensionWiseTickCounter.get(dimID)+1);
+-            else serverSideDimensionWiseTickCounter.put(dimID,0L);
++            }else{
++                serverSideDimensionWiseTickCounter.put(dimID,0L);
++            }
+ 
+             GT_Pollution.onWorldTick(aEvent);
+         }
+-- 
+1.9.5.msysgit.0
+
+From f9cef30f7bdaaa101c9dac5feb37bf401582aacf Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Mon, 11 Sep 2017 21:57:22 +0200
+Subject: [PATCH] revert
+
+---
+ build.properties | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/build.properties b/build.properties
+index 476007e..8f302e6 100644
+--- a/build.properties
++++ b/build.properties
+@@ -1,7 +1,7 @@
+ minecraft.version=1.7.10
+ forge.version=10.13.4.1566-1.7.10
+ 
+-gt.version=5.09.32.02
++gt.version=5.09.32.01
+ 
+ ae2.version=rv2-beta-33
+ applecore.version=1.7.10-1.2.1+107.59407
+-- 
+1.9.5.msysgit.0
+
+From 348ad6a1e9d1b4210933a12dbb95b0a5dbfe10a9 Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Mon, 11 Sep 2017 21:56:57 +0200
+Subject: [PATCH] bump version
+
+---
+ build.properties | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/build.properties b/build.properties
+index 8f302e6..476007e 100644
+--- a/build.properties
++++ b/build.properties
+@@ -1,7 +1,7 @@
+ minecraft.version=1.7.10
+ forge.version=10.13.4.1566-1.7.10
+ 
+-gt.version=5.09.32.01
++gt.version=5.09.32.02
+ 
+ ae2.version=rv2-beta-33
+ applecore.version=1.7.10-1.2.1+107.59407
+-- 
+1.9.5.msysgit.0
+
+From 9caaa58ea11b6477eaabdd509a554e90f60bc2ac Mon Sep 17 00:00:00 2001
+From: Technus <daniel112092@gmail.com>
+Date: Mon, 11 Sep 2017 21:43:48 +0200
+Subject: [PATCH] Minor optimization of tick counter
+
+---
+ .../metatileentity/implementations/GT_MetaPipeEntity_Cable.java   | 6 +++---
+ src/main/java/gregtech/common/GT_Proxy.java                       | 8 +++-----
+ 2 files changed, 6 insertions(+), 8 deletions(-)
+
+diff --git a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+index b7d6b0a..a1a537c 100644
+--- a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
++++ b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+@@ -250,9 +250,9 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+             mTransferredVoltage=0;
+             mTransferredAmperageOK=mTransferredAmperage;
+             mTransferredAmperage = 0;
+-
+-            tickDiff=Math.min((int)(serverSideDimensionWiseTickCounter.get(aBaseMetaTileEntity.getWorld().provider.dimensionId)-lastTickTime),1);
+-            lastTickTime=serverSideDimensionWiseTickCounter.get(aBaseMetaTileEntity.getWorld().provider.dimensionId);
++            final int dimID=aBaseMetaTileEntity.getWorld().provider.dimensionId;
++            tickDiff=Math.min((int)(serverSideDimensionWiseTickCounter.get(dimID)-lastTickTime),1);
++            lastTickTime=serverSideDimensionWiseTickCounter.get(dimID);
+             if(lastTickDiff<tickDiff)
+                 mOverheat=(short)Math.max(0,mOverheat-100);
+             lastTickDiff=tickDiff;
+diff --git a/src/main/java/gregtech/common/GT_Proxy.java b/src/main/java/gregtech/common/GT_Proxy.java
+index d8d5060..844f1ef 100644
+--- a/src/main/java/gregtech/common/GT_Proxy.java
++++ b/src/main/java/gregtech/common/GT_Proxy.java
+@@ -1249,12 +1249,10 @@ public abstract class GT_Proxy implements IGT_Mod, IGuiHandler, IFuelHandler {
+                 }
+             }
+ 
+-            int dimID=aEvent.world.provider.dimensionId;
+-            if(serverSideDimensionWiseTickCounter.containsKey(dimID)){
++            final int dimID=aEvent.world.provider.dimensionId;
++            if(serverSideDimensionWiseTickCounter.containsKey(dimID))
+                 serverSideDimensionWiseTickCounter.put(dimID, serverSideDimensionWiseTickCounter.get(dimID)+1);
+-            }else{
+-                serverSideDimensionWiseTickCounter.put(dimID,0L);
+-            }
++            else serverSideDimensionWiseTickCounter.put(dimID,0L);
+ 
+             GT_Pollution.onWorldTick(aEvent);
+         }
+-- 
+1.9.5.msysgit.0
+
+From 0d9d2040bc43f4e18d227b3c51a3edc4f9994747 Mon Sep 17 00:00:00 2001
+From: Technus <daniel112092@gmail.com>
+Date: Mon, 11 Sep 2017 21:40:26 +0200
+Subject: [PATCH] Implement tick counter?
+
+---
+ .../metatileentity/implementations/GT_MetaPipeEntity_Cable.java   | 5 +++--
+ src/main/java/gregtech/common/GT_Proxy.java                       | 8 ++++++++
+ 2 files changed, 11 insertions(+), 2 deletions(-)
+
+diff --git a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+index 34e2303..b7d6b0a 100644
+--- a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
++++ b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+@@ -33,6 +33,7 @@ import java.util.ArrayList;
+ import java.util.Arrays;
+ 
+ import static gregtech.api.enums.GT_Values.VN;
++import static gregtech.common.GT_Proxy.serverSideDimensionWiseTickCounter;
+ 
+ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTileEntityCable {
+     public final float mThickNess;
+@@ -250,8 +251,8 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+             mTransferredAmperageOK=mTransferredAmperage;
+             mTransferredAmperage = 0;
+ 
+-            tickDiff=Math.min((int)(aBaseMetaTileEntity.getWorld().getTotalWorldTime()-lastTickTime),1);
+-            lastTickTime=aBaseMetaTileEntity.getWorld().getTotalWorldTime();
++            tickDiff=Math.min((int)(serverSideDimensionWiseTickCounter.get(aBaseMetaTileEntity.getWorld().provider.dimensionId)-lastTickTime),1);
++            lastTickTime=serverSideDimensionWiseTickCounter.get(aBaseMetaTileEntity.getWorld().provider.dimensionId);
+             if(lastTickDiff<tickDiff)
+                 mOverheat=(short)Math.max(0,mOverheat-100);
+             lastTickDiff=tickDiff;
+diff --git a/src/main/java/gregtech/common/GT_Proxy.java b/src/main/java/gregtech/common/GT_Proxy.java
+index f6d4ca6..d8d5060 100644
+--- a/src/main/java/gregtech/common/GT_Proxy.java
++++ b/src/main/java/gregtech/common/GT_Proxy.java
+@@ -74,6 +74,7 @@ import java.text.DateFormat;
+ import java.util.*;
+ 
+ public abstract class GT_Proxy implements IGT_Mod, IGuiHandler, IFuelHandler {
++    public static HashMap<Integer,Long> serverSideDimensionWiseTickCounter =new HashMap<>();
+     private static final EnumSet<OreGenEvent.GenerateMinable.EventType> PREVENTED_ORES = EnumSet.of(OreGenEvent.GenerateMinable.EventType.COAL,
+             new OreGenEvent.GenerateMinable.EventType[]{OreGenEvent.GenerateMinable.EventType.IRON, OreGenEvent.GenerateMinable.EventType.GOLD,
+                     OreGenEvent.GenerateMinable.EventType.DIAMOND, OreGenEvent.GenerateMinable.EventType.REDSTONE, OreGenEvent.GenerateMinable.EventType.LAPIS,
+@@ -1248,6 +1249,13 @@ public abstract class GT_Proxy implements IGT_Mod, IGuiHandler, IFuelHandler {
+                 }
+             }
+ 
++            int dimID=aEvent.world.provider.dimensionId;
++            if(serverSideDimensionWiseTickCounter.containsKey(dimID)){
++                serverSideDimensionWiseTickCounter.put(dimID, serverSideDimensionWiseTickCounter.get(dimID)+1);
++            }else{
++                serverSideDimensionWiseTickCounter.put(dimID,0L);
++            }
++
+             GT_Pollution.onWorldTick(aEvent);
+         }
+     }
+-- 
+1.9.5.msysgit.0
+
+From 69683365d7faa798c5d782c8e3779b5d323c6ff6 Mon Sep 17 00:00:00 2001
+From: Technus <daniel112092@gmail.com>
+Date: Mon, 11 Sep 2017 21:28:04 +0200
+Subject: [PATCH] Revert "Revert "Add tickDiff for tick diff detection using
+ totalWorldTime, should prevent spontaneous wire combustion""
+
+This reverts commit 77cc90a0c9892c6ebf61c403ea4ba071f3ffaea7.
+---
+ .../implementations/GT_MetaPipeEntity_Cable.java             | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+
+diff --git a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+index aec89a2..34e2303 100644
+--- a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
++++ b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+@@ -44,6 +44,8 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+     public long mRestRF;
+     public short mOverheat;
+     public static short mMaxOverheat=(short) (GT_Mod.gregtechproxy.mWireHeatingTicks * 100);
++    private int tickDiff=1,lastTickDiff=1;
++    private long lastTickTime;
+ 
+     public GT_MetaPipeEntity_Cable(int aID, String aName, String aNameRegional, float aThickNess, Materials aMaterial, long aCableLossPerMeter, long aAmperage, long aVoltage, boolean aInsulated, boolean aCanShock) {
+         super(aID, aName, aNameRegional, 0);
+@@ -229,7 +231,7 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+         mTransferredAmperage += rUsedAmperes;
+         mTransferredVoltageLast20 = (Math.max(mTransferredVoltageLast20, aVoltage));
+         mTransferredAmperageLast20 = Math.max(mTransferredAmperageLast20, mTransferredAmperage);
+-        if (aVoltage > mVoltage || mTransferredAmperage > mAmperage) {
++        if (aVoltage > mVoltage || mTransferredAmperage > (mAmperage*tickDiff)) {
+             if(mOverheat>mMaxOverheat)
+                 getBaseMetaTileEntity().setToFire();
+             else
+@@ -247,6 +249,13 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+             mTransferredVoltage=0;
+             mTransferredAmperageOK=mTransferredAmperage;
+             mTransferredAmperage = 0;
++
++            tickDiff=Math.min((int)(aBaseMetaTileEntity.getWorld().getTotalWorldTime()-lastTickTime),1);
++            lastTickTime=aBaseMetaTileEntity.getWorld().getTotalWorldTime();
++            if(lastTickDiff<tickDiff)
++                mOverheat=(short)Math.max(0,mOverheat-100);
++            lastTickDiff=tickDiff;
++
+             if(mOverheat>0)mOverheat--;
+             if (aTick % 20 == 0) {
+                 mTransferredVoltageLast20OK=mTransferredVoltageLast20;
+@@ -339,6 +348,7 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+                 //EnumChatFormatting.BLUE + mName + EnumChatFormatting.RESET,
+                 "Heat: "+
+                         EnumChatFormatting.RED+ mOverheat +EnumChatFormatting.RESET+" / "+EnumChatFormatting.YELLOW+ mMaxOverheat + EnumChatFormatting.RESET,
++                "TickDiff: "+ EnumChatFormatting.YELLOW+ tickDiff + EnumChatFormatting.RESET,
+                 "Max Load (1t):",
+                 EnumChatFormatting.GREEN + Integer.toString(mTransferredAmperageOK) + EnumChatFormatting.RESET +" A / "+
+                         EnumChatFormatting.YELLOW + Long.toString(mAmperage) + EnumChatFormatting.RESET +" A",
+-- 
+1.9.5.msysgit.0
+
+From 77cc90a0c9892c6ebf61c403ea4ba071f3ffaea7 Mon Sep 17 00:00:00 2001
+From: Technus <daniel112092@gmail.com>
+Date: Mon, 11 Sep 2017 20:33:30 +0200
+Subject: [PATCH] Revert "Add tickDiff for tick diff detection using
+ totalWorldTime, should prevent spontaneous wire combustion"
+
+This reverts commit 3587d3942fb5e5de5821e8207c96a93a7babc31a.
+---
+ .../implementations/GT_MetaPipeEntity_Cable.java             | 12 +-----------
+ 1 file changed, 1 insertion(+), 11 deletions(-)
+
+diff --git a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+index 34e2303..aec89a2 100644
+--- a/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
++++ b/src/main/java/gregtech/api/metatileentity/implementations/GT_MetaPipeEntity_Cable.java
+@@ -44,8 +44,6 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+     public long mRestRF;
+     public short mOverheat;
+     public static short mMaxOverheat=(short) (GT_Mod.gregtechproxy.mWireHeatingTicks * 100);
+-    private int tickDiff=1,lastTickDiff=1;
+-    private long lastTickTime;
+ 
+     public GT_MetaPipeEntity_Cable(int aID, String aName, String aNameRegional, float aThickNess, Materials aMaterial, long aCableLossPerMeter, long aAmperage, long aVoltage, boolean aInsulated, boolean aCanShock) {
+         super(aID, aName, aNameRegional, 0);
+@@ -231,7 +229,7 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+         mTransferredAmperage += rUsedAmperes;
+         mTransferredVoltageLast20 = (Math.max(mTransferredVoltageLast20, aVoltage));
+         mTransferredAmperageLast20 = Math.max(mTransferredAmperageLast20, mTransferredAmperage);
+-        if (aVoltage > mVoltage || mTransferredAmperage > (mAmperage*tickDiff)) {
++        if (aVoltage > mVoltage || mTransferredAmperage > mAmperage) {
+             if(mOverheat>mMaxOverheat)
+                 getBaseMetaTileEntity().setToFire();
+             else
+@@ -249,13 +247,6 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+             mTransferredVoltage=0;
+             mTransferredAmperageOK=mTransferredAmperage;
+             mTransferredAmperage = 0;
+-
+-            tickDiff=Math.min((int)(aBaseMetaTileEntity.getWorld().getTotalWorldTime()-lastTickTime),1);
+-            lastTickTime=aBaseMetaTileEntity.getWorld().getTotalWorldTime();
+-            if(lastTickDiff<tickDiff)
+-                mOverheat=(short)Math.max(0,mOverheat-100);
+-            lastTickDiff=tickDiff;
+-
+             if(mOverheat>0)mOverheat--;
+             if (aTick % 20 == 0) {
+                 mTransferredVoltageLast20OK=mTransferredVoltageLast20;
+@@ -348,7 +339,6 @@ public class GT_MetaPipeEntity_Cable extends MetaPipeEntity implements IMetaTile
+                 //EnumChatFormatting.BLUE + mName + EnumChatFormatting.RESET,
+                 "Heat: "+
+                         EnumChatFormatting.RED+ mOverheat +EnumChatFormatting.RESET+" / "+EnumChatFormatting.YELLOW+ mMaxOverheat + EnumChatFormatting.RESET,
+-                "TickDiff: "+ EnumChatFormatting.YELLOW+ tickDiff + EnumChatFormatting.RESET,
+                 "Max Load (1t):",
+                 EnumChatFormatting.GREEN + Integer.toString(mTransferredAmperageOK) + EnumChatFormatting.RESET +" A / "+
+                         EnumChatFormatting.YELLOW + Long.toString(mAmperage) + EnumChatFormatting.RESET +" A",
+-- 
+1.9.5.msysgit.0
+
+From ce676aaac999865dd05dcf23468c2e3acc6e3c85 Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Sun, 10 Sep 2017 09:59:56 +0200
+Subject: [PATCH] fixed wildcard value in Gravisuit
+
+---
+ src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java b/src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java
+index 5f28da5..a5359e3 100644
+--- a/src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java
++++ b/src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java
+@@ -811,7 +811,7 @@ public class GT_CraftingRecipeLoader implements Runnable {
+ 
+         if (Loader.isModLoaded("GraviSuite")) {
+             GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "advNanoChestPlate", 1, GT_Values.W));
+-            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("GraviSuite", "advNanoChestPlate", 1, GT_Values.W), new Object[]{"CJC", "CNC", "WPW", 'C', OrePrefixes.plateAlloy.get(Materials.Carbon), 'J', GT_ModHandler.getModItem("GraviSuite", "advJetpack", 1, GT_Values.W), 'N', GT_ModHandler.getIC2Item("nanoBodyarmor", 1L), 'W', OrePrefixes.wireGt04.get(Materials.Platinum), 'P', OrePrefixes.circuit.get(Materials.Data)});
++            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("GraviSuite", "advNanoChestPlate", 1, GT_Values.W), new Object[]{"CJC", "CNC", "WPW", 'C', OrePrefixes.plateAlloy.get(Materials.Carbon), 'J', GT_ModHandler.getModItem("GraviSuite", "advJetpack", 1, GT_Values.W), 'N', GT_ModHandler.getIC2Item("nanoBodyarmor", 1, GT_Values.W), 'W', OrePrefixes.wireGt04.get(Materials.Platinum), 'P', OrePrefixes.circuit.get(Materials.Data)});
+ 
+             GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "advLappack", 1, GT_Values.W));
+             GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("GraviSuite", "advLappack", 1, GT_Values.W), new Object[]{"CJC", "TAT", "WPW", 'C', OrePrefixes.plateAlloy.get(Materials.Carbon), 'J',  GT_ModHandler.getIC2Item( "advJetpack", 1, GT_Values.W), 'N', GT_ModHandler.getIC2Item("itemArmorJetpackElectric", 1, GT_Values.W),  'A', GT_ModHandler.getIC2Item( "itemArmorNanoChestplate", 1, GT_Values.W), 'T', OrePrefixes.plate.get(Materials.TungstenSteel), 'W', OrePrefixes.wireGt12.get(Materials.Platinum), 'P', OrePrefixes.circuit.get(Materials.Elite)});
+-- 
+1.9.5.msysgit.0
+
+From d73ea0926b94d1afb610fc15d191d2fde6bc957c Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Sun, 10 Sep 2017 00:30:41 +0200
+Subject: [PATCH] [1.5.1.2] Advanced Nanochestplate/Jetpack recepies #1938
+ https://github.com/GTNewHorizons/NewHorizons/issues/1938
+
+---
+ src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java b/src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java
+index 71c7220..5f28da5 100644
+--- a/src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java
++++ b/src/main/java/gregtech/loaders/postload/GT_CraftingRecipeLoader.java
+@@ -812,6 +812,9 @@ public class GT_CraftingRecipeLoader implements Runnable {
+         if (Loader.isModLoaded("GraviSuite")) {
+             GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "advNanoChestPlate", 1, GT_Values.W));
+             GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("GraviSuite", "advNanoChestPlate", 1, GT_Values.W), new Object[]{"CJC", "CNC", "WPW", 'C', OrePrefixes.plateAlloy.get(Materials.Carbon), 'J', GT_ModHandler.getModItem("GraviSuite", "advJetpack", 1, GT_Values.W), 'N', GT_ModHandler.getIC2Item("nanoBodyarmor", 1L), 'W', OrePrefixes.wireGt04.get(Materials.Platinum), 'P', OrePrefixes.circuit.get(Materials.Data)});
++
++            GT_ModHandler.removeRecipeByOutput(GT_ModHandler.getModItem("GraviSuite", "advLappack", 1, GT_Values.W));
++            GT_ModHandler.addCraftingRecipe(GT_ModHandler.getModItem("GraviSuite", "advLappack", 1, GT_Values.W), new Object[]{"CJC", "TAT", "WPW", 'C', OrePrefixes.plateAlloy.get(Materials.Carbon), 'J',  GT_ModHandler.getIC2Item( "advJetpack", 1, GT_Values.W), 'N', GT_ModHandler.getIC2Item("itemArmorJetpackElectric", 1, GT_Values.W),  'A', GT_ModHandler.getIC2Item( "itemArmorNanoChestplate", 1, GT_Values.W), 'T', OrePrefixes.plate.get(Materials.TungstenSteel), 'W', OrePrefixes.wireGt12.get(Materials.Platinum), 'P', OrePrefixes.circuit.get(Materials.Elite)});
+         }
+ 
+         GT_ModHandler.addShapelessCraftingRecipe(Materials.Fireclay.getDust(2), new Object[]{Materials.Brick.getDust(1), Materials.Clay.getDust(1)});
+-- 
+1.9.5.msysgit.0
+
+From 53629721d939156ba042ad195e2dbb1950a89586 Mon Sep 17 00:00:00 2001
+From: Dream-Master <dream-master@gmx.net>
+Date: Sun, 10 Sep 2017 00:06:20 +0200
+Subject: [PATCH] [1.5.1.2] Double recipe from wooden slab #1928
+ https://github.com/GTNewHorizons/NewHorizons/issues/1928
+
+---
+ src/main/java/gregtech/common/items/GT_MetaGenerated_Item_02.java   | 2 +-
+ src/main/java/gregtech/loaders/postload/GT_MachineRecipeLoader.java | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/main/java/gregtech/common/items/GT_MetaGenerated_Item_02.java b/src/main/java/gregtech/common/items/GT_MetaGenerated_Item_02.java
+index 698b48e..37f90b9 100644
+--- a/src/main/java/gregtech/common/items/GT_MetaGenerated_Item_02.java
++++ b/src/main/java/gregtech/common/items/GT_MetaGenerated_Item_02.java
+@@ -211,7 +211,7 @@ public class GT_MetaGenerated_Item_02 extends GT_MetaGenerated_Item_X32 {
+         ItemList.SFMixture.set(addItem(tLastID = 270, "Super Fuel Binder", "Raw Material", new Object[]{}));
+         ItemList.MSFMixture.set(addItem(tLastID = 271, "Magic Super Fuel Binder", "Raw Material", new Object[]{}));
+         
+-        GT_ModHandler.addCraftingRecipe(ItemList.Plank_Oak.get(2L, new Object[0]), GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"s ", " P", 'P', new ItemStack(Blocks.wooden_slab, 1, 0)});
++        GT_ModHandler.addCraftingRecipe(ItemList.Plank_Oak.get(2L, new Object[0]), GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"s ", " P", 'P', new ItemStack(Blocks.wooden_pressure_plate, 1, 0)});
+         GT_ModHandler.addCraftingRecipe(ItemList.Plank_Spruce.get(2L, new Object[0]), GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"s ", " P", 'P', new ItemStack(Blocks.wooden_slab, 1, 1)});
+         GT_ModHandler.addCraftingRecipe(ItemList.Plank_Birch.get(2L, new Object[0]), GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"s ", " P", 'P', new ItemStack(Blocks.wooden_slab, 1, 2)});
+         GT_ModHandler.addCraftingRecipe(ItemList.Plank_Jungle.get(2L, new Object[0]), GT_ModHandler.RecipeBits.NOT_REMOVABLE | GT_ModHandler.RecipeBits.REVERSIBLE, new Object[]{"s ", " P", 'P', new ItemStack(Blocks.wooden_slab, 1, 3)});
+diff --git a/src/main/java/gregtech/loaders/postload/GT_MachineRecipeLoader.java b/src/main/java/gregtech/loaders/postload/GT_MachineRecipeLoader.java
+index 500c5ea..92fc9a9 100644
+--- a/src/main/java/gregtech/loaders/postload/GT_MachineRecipeLoader.java
++++ b/src/main/java/gregtech/loaders/postload/GT_MachineRecipeLoader.java
+@@ -1413,7 +1413,7 @@ public class GT_MachineRecipeLoader implements Runnable {
+         for (byte i = 0; i < 16; i = (byte) (i + 1)) {
+             GT_Values.RA.addCutterRecipe(new ItemStack(Blocks.wool, 1, i), new ItemStack(Blocks.carpet, 2, i), GT_Values.NI, 50, 8);
+         }
+-        GT_Values.RA.addCutterRecipe(new ItemStack(Blocks.wooden_slab, 1, 0), ItemList.Plank_Oak.get(2L, new Object[0]), GT_Values.NI, 50, 8);
++        GT_Values.RA.addCutterRecipe(new ItemStack(Blocks.wooden_pressure_plate, 1, 0), ItemList.Plank_Oak.get(2L, new Object[0]), GT_Values.NI, 50, 8);
+         GT_Values.RA.addCutterRecipe(new ItemStack(Blocks.wooden_slab, 1, 1), ItemList.Plank_Spruce.get(2L, new Object[0]), GT_Values.NI, 50, 8);
+         GT_Values.RA.addCutterRecipe(new ItemStack(Blocks.wooden_slab, 1, 2), ItemList.Plank_Birch.get(2L, new Object[0]), GT_Values.NI, 50, 8);
+         GT_Values.RA.addCutterRecipe(new ItemStack(Blocks.wooden_slab, 1, 3), ItemList.Plank_Jungle.get(2L, new Object[0]), GT_Values.NI, 50, 8);
+-- 
+1.9.5.msysgit.0
+
