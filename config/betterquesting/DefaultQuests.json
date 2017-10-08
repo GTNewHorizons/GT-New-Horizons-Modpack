@@ -95548,6 +95548,83 @@
       "preRequisites": [
         1000
       ]
+    },
+    {
+      "questID": 1002,
+      "name": "Enchanted Earth",
+      "description": "Enchanted Earth make sapling and seed plant on it grow faster. Basically when stacked on top of each other has a chance to add ticks to the above block accumulating all the way to the seeds, this will speeding up growth a bit with a random chance.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "MagicBees:magicbees.enchantedEarth",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "MagicBees:magicbees.enchantedEarth",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        241
+      ]
     }
   ],
   "questLines": [
@@ -98350,6 +98427,11 @@
           "id": 798,
           "x": 228,
           "y": 72
+        },
+        {
+          "id": 1002,
+          "x": 48,
+          "y": 108
         }
       ]
     },
