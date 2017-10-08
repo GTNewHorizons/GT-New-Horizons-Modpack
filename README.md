@@ -95,7 +95,7 @@ newhorizons.prospercraft.com<BR>
 
 
 Stone Legion Whitelist<BR>
-http://stonelegion.com<BR>
+http://stonelegion.com/<BR>
 s5.stonelegion.com:2005<BR>
 
 
@@ -271,7 +271,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs	3.3.0<BR>
-* Spice of Life	1.3.8<BR>
+* Spice of Life	1.3.11<BR>
 * Standard Expansion 1.0.94<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
