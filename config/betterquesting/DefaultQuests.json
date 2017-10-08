@@ -3954,7 +3954,7 @@
     {
       "questID": 45,
       "name": "Multiblock tanks... Railcraft tanks",
-      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
+      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nUse only Buckets to move fluids because cells get destoyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8253,7 +8253,7 @@
     {
       "questID": 87,
       "name": "Steel multiblock tanks",
-      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.",
+      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nOnly use buckets because cells get destroyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
