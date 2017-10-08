@@ -6,14 +6,14 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0 is out 10.09.2017
+Version 2.0.1.0 is out 08.10.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
 ## Large Modpack with every recipe Gregified
 
 Hey guys, I'd like to open up my project and get more players.<BR>
-I've been working on it for 2,5 years and still got a lot more work to do.
+I've been working on it for 3 years and still got a lot more work to do.
 
 The pack has around 200+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
 An example of Tiering (work in progress) is here:
@@ -96,7 +96,7 @@ newhorizons.prospercraft.com<BR>
 
 Stone Legion Whitelist<BR>
 http://stonelegion.com<BR>
-mc.stonelegion.com<BR>
+s5.stonelegion.com:2005<BR>
 
 
 Bacon Gaming Whitelist<BR>
@@ -119,7 +119,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 2.0 --- 10.09.2017<BR>
+## Modlist - NewHorizons 2.0.1.0 --- 08.10.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta18<BR>
@@ -140,6 +140,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Baubles	1.0.1.11<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
+* Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
 * Better Questing 1.0.178<BR>
 * Better Questing Themed 1.0.0<BR>
@@ -195,10 +196,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.01<BR>
+* Gregtech	5.09.32.06<BR>
 * GT Scanner Mod 1.1<BR>
-* GT New Horizons Core Mod	1.5.7<BR>
-* GT++ 1.6.02<BR>
+* GT New Horizons Core Mod	1.5.10<BR>
+* GT++ 1.6.07<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -231,6 +232,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Mouse Tweaks 2.4.4<BR>
 * MrTJPCore	1.1.0.33<BR>
 * Natura	2.2.0.1.9.126<BR>
+* Natures Compass 1.3.1<BR>
 * NEI	1.0.5.120<BR>
 * Nei Addons	1.12.15.41<BR>
 * Nei Integration	1.1.2<BR>
@@ -274,17 +276,17 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.10.8b<BR>
-* Storage Drawers Wood Addons 1.1.2b<BR>
+* Storage Drawers	1.10.9<BR>
+* Storage Drawers Wood Addons 1.1.2c<BR>
 * Tainted Magic	r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.5.0<BR>
+* Tec Tech 3.5.2<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
 * Thaumic Bases	1.4.15.0<BR>
 * Thaumic Energistics	1.0.0.5<BR>
-* Thaumic Exploration	1.1.70<BR>
+* Thaumic Exploration	1.1.71<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
 * Thaumic Tinkerer	2.5.553<BR>
