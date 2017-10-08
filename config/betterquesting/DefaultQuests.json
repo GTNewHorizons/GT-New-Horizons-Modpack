@@ -92867,7 +92867,7 @@
     {
       "questID": 989,
       "name": "Vibrant alloy",
-      "description": "There are some... \"darker\" uses for machines. Stuff that might be considered \"magic\". Anyway, for that you need a new alloy: Soularium.",
+      "description": "Vibrant alloy is a high tier ender io alloy made out of endereye, energetic alloy and chome dust. 3600k heating coils and a vaccum freezer are needed to make ingots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92939,7 +92939,7 @@
     {
       "questID": 990,
       "name": "Energetic Alloy",
-      "description": "Double-layer capacitors need energetic alloy and an electric blast furnace with tier 2 coils.",
+      "description": "Energetic alloy is a new alloy from ender io made out of gold, conductive iron and black steel dust. Double-layer capacitors need it and it can be made in the  electric blast furnace with tier 2 coils (2700K).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
