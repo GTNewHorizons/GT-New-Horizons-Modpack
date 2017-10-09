@@ -3954,7 +3954,7 @@
     {
       "questID": 45,
       "name": "Multiblock tanks... Railcraft tanks",
-      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nUse only Buckets to move fluids because cells get destoyed.",
+      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nUse only Buckets to move fluids because cells get destroyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92863,7 +92863,7 @@
     {
       "questID": 989,
       "name": "Vibrant alloy",
-      "description": "Vibrant alloy is a high tier ender io alloy made out of endereye, energetic alloy and chome dust. 3600k heating coils and a vaccum freezer are needed to make ingots.",
+      "description": "Vibrant alloy is a high tier EnderIO alloy made out of ender eye, energetic alloy and chrome dust. 3600k heating coils and a vacuum freezer are needed to make ingots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92935,7 +92935,7 @@
     {
       "questID": 990,
       "name": "Energetic Alloy",
-      "description": "Energetic alloy is a new alloy from ender io made out of gold, conductive iron and black steel dust. Double-layer capacitors need it and it can be made in the  electric blast furnace with tier 2 coils (2700K).",
+      "description": "Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it and it can be made in the  electric blast furnace with tier 2 coils (2700K).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -94119,7 +94119,7 @@
     {
       "questID": 996,
       "name": "Apiarist\u0027s Cloth",
-      "description": "If you have collected 24 woven silk you can make a complete Apiarist\u0027s suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your Ender-io Dark Steel Armor.",
+      "description": "If you have collected 24 woven silk you can make a complete Apiarist\u0027s suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your EnderIO Dark Steel Armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95548,7 +95548,7 @@
     {
       "questID": 1002,
       "name": "Enchanted Earth",
-      "description": "Enchanted Earth make sapling and seed plant on it grow faster. Basically when stacked on top of each other has a chance to add ticks to the above block accumulating all the way to the seeds, this will speeding up growth a bit with a random chance.",
+      "description": "Enchanted Earth makes saplings and seeds planted on it grow faster. When stacked on top of each other it has a chance to add ticks to the block above accumulating all the way to the top. This will randomly speed up growth a bit.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
