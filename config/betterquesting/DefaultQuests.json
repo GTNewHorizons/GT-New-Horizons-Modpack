@@ -58311,27 +58311,21 @@
             },
             {
               "id": "IC2:itemPartCarbonPlate",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 17316
             },
             {
               "id": "gregtech:gt.blockmachines",
               "Count": 2,
               "OreDict": "",
-              "Damage": 1644
+              "Damage": 1642
             },
             {
-              "id": "gregtech:gt.metaitem.03",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 1,
-              "OreDict": "circuitElite",
-              "Damage": 32086
+              "OreDict": "circuitData",
+              "Damage": 32704
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -58354,10 +58348,10 @@
         {
           "choices": [
             {
-              "id": "gregtech:gt.metaitem.03",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32086
+              "Damage": 32704
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -58493,7 +58487,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32603
+              "Damage": 32604
             },
             {
               "id": "enhancedlootbags:lootbag",
