@@ -64,7 +64,7 @@ val EmeraldRod = <ore:stickEmerald>;
 val DiamondRod = <ore:stickDiamond>;
 val RedAlloyRod = <ore:stickRedAlloy>;
 val SStoneRod = <dreamcraft:item.SandStoneRod>;
-val CobbleRod = <dreamcraft:item.CobbleStoneRod>;
+val CobbleRod = <gregtech:gt.metaitem.01:23299>;
 val RedAlloySrew = <ore:screwRedAlloy>;
 
 val ClearPane = <TConstruct:GlassPane>;
