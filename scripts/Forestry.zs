@@ -740,6 +740,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 <IC2:itemCasing:1>, <IC2:itemPartCircuit>, <IC2:itemCasing:1>, 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:1>, <gregtech:gt.metaitem.01:27500>], 
 <dreamcraft:item.Display>, <Forestry:beealyzer>);
+// -
+recipes.addShapeless(<Forestry:beealyzer>, [<Forestry:beealyzer>]);
 
 // --- Treealyzer
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
@@ -747,6 +749,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 <IC2:itemCasing>, <IC2:itemPartCircuit>, <IC2:itemCasing> , 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27500>], 
 <dreamcraft:item.Display>, <Forestry:treealyzer>);
+// -
+recipes.addShapeless(<Forestry:treealyzer>, [<Forestry:treealyzer>]);
 
 // --- Flutterlyzer
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
