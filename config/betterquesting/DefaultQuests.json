@@ -88635,7 +88635,7 @@
     {
       "questID": 937,
       "name": "Power of the Sun 1x1 LV",
-      "description": "Put those 32 eu pannel on a block make em placeable. Using a mv assembler to combining a UL hull with the pannel.",
+      "description": "Put those 32 eu pannel on a block make em placeable. Using a mv assembler to combining a LV hull with the pannel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95615,6 +95615,660 @@
       "preRequisites": [
         241
       ]
+    },
+    {
+      "questID": 1003,
+      "name": "Power of the Sun at Mv Level",
+      "description": "Next  solarpannel you can make is the MV one. It gives 128 eu/t max. Most gt machine can use them as covers. First you need to produce a sunnunamium out of 9 sunnarium items.  ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32753
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17341
+            },
+            {
+              "id": "AdvancedSolarPanel:asp_crafting_items",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32752
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19980
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "circuitData",
+              "Damage": 32704
+            },
+            {
+              "id": "dreamcraft:item.IrradiantReinforcedTitaniumPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1380
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32753
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "AdvancedSolarPanel:asp_crafting_items",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        936
+      ]
+    },
+    {
+      "questID": 1004,
+      "name": "Power of the Sun 1x1 MV",
+      "description": "Put those 128 eu pannel on a block make em placeable. Using a hv assembler to combining a MV hull with the pannel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AdvancedSolarPanel:BlockAdvSolarPanel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32753
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AdvancedSolarPanel:BlockAdvSolarPanel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1003
+      ]
+    },
+    {
+      "questID": 1005,
+      "name": "Indium",
+      "description": "At EV Level you are able to make Indium for HV Solar Pannels. Indium can not find in Ore form it can be only made with a ev chemical reactor.\nFirst you need to make Indium out of Purified Galena and Sphalherite ore. Mixing some Aluminium to it and get indium.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2056
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 424
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 6839
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 27,
+              "OreDict": "",
+              "Damage": 6830
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 36,
+              "OreDict": "",
+              "Damage": 30720
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2019
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2056
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "miscutils:MU-metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32054
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 1006,
+      "name": "Power of the Sun at Hv Level",
+      "description": "Next solarpannel you can make is the HV one. It gives 512 eu/t max. Most gt machine can use them as covers. First you need to produce a enriched sunnunamium mixing irridianturanium and sunnarium.  You need the Avaritia 9x9 crafting table to make this pannel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32754
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AdvancedSolarPanel:asp_crafting_items",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17339
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17098
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32753
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17981
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "circuitElite",
+              "Damage": 32705
+            },
+            {
+              "id": "dreamcraft:item.IrradiantReinforcedTungstenPlate",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1400
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32754
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "AdvancedSolarPanel:asp_crafting_items",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1003,
+        1005,
+        861
+      ]
+    },
+    {
+      "questID": 1007,
+      "name": "Power of the Sun 1x1 MV",
+      "description": "Put those 512 eu pannel on a block make em placeable. Using a mv assembler to combining a HV hull with the pannel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AdvancedSolarPanel:BlockAdvSolarPanel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32754
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AdvancedSolarPanel:BlockAdvSolarPanel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1006
+      ]
     }
   ],
   "questLines": [
@@ -97575,213 +98229,238 @@
       "quests": [
         {
           "id": 176,
-          "x": 72,
+          "x": 192,
           "y": 0
         },
         {
           "id": 178,
-          "x": 144,
+          "x": 264,
           "y": 36
         },
         {
           "id": 179,
-          "x": 144,
+          "x": 264,
           "y": 72
         },
         {
           "id": 180,
-          "x": 180,
+          "x": 300,
           "y": 72
         },
         {
           "id": 182,
-          "x": 216,
-          "y": 72
-        },
-        {
-          "id": 181,
-          "x": 216,
-          "y": 108
-        },
-        {
-          "id": 183,
-          "x": 252,
-          "y": 36
-        },
-        {
-          "id": 184,
-          "x": 252,
-          "y": 72
-        },
-        {
-          "id": 185,
-          "x": 180,
-          "y": 108
-        },
-        {
-          "id": 186,
-          "x": 108,
-          "y": 144
-        },
-        {
-          "id": 187,
-          "x": 36,
-          "y": 108
-        },
-        {
-          "id": 188,
-          "x": 144,
-          "y": 108
-        },
-        {
-          "id": 189,
-          "x": 276,
-          "y": 0
-        },
-        {
-          "id": 190,
-          "x": 312,
-          "y": 0
-        },
-        {
-          "id": 191,
-          "x": 312,
-          "y": 108
-        },
-        {
-          "id": 192,
-          "x": 384,
-          "y": 72
-        },
-        {
-          "id": 193,
           "x": 336,
           "y": 72
         },
         {
-          "id": 194,
+          "id": 181,
+          "x": 336,
+          "y": 108
+        },
+        {
+          "id": 183,
+          "x": 372,
+          "y": 36
+        },
+        {
+          "id": 184,
+          "x": 372,
+          "y": 72
+        },
+        {
+          "id": 185,
+          "x": 300,
+          "y": 108
+        },
+        {
+          "id": 186,
+          "x": 156,
+          "y": 36
+        },
+        {
+          "id": 187,
+          "x": 228,
+          "y": 108
+        },
+        {
+          "id": 188,
+          "x": 264,
+          "y": 108
+        },
+        {
+          "id": 189,
+          "x": 396,
+          "y": 0
+        },
+        {
+          "id": 190,
           "x": 432,
+          "y": 0
+        },
+        {
+          "id": 191,
+          "x": 432,
+          "y": 108
+        },
+        {
+          "id": 192,
+          "x": 504,
+          "y": 72
+        },
+        {
+          "id": 193,
+          "x": 456,
+          "y": 72
+        },
+        {
+          "id": 194,
+          "x": 552,
           "y": 72
         },
         {
           "id": 195,
-          "x": 432,
+          "x": 552,
           "y": 0
         },
         {
           "id": 196,
-          "x": 384,
+          "x": 504,
           "y": 36
         },
         {
           "id": 197,
-          "x": 384,
+          "x": 504,
           "y": 0
         },
         {
           "id": 198,
-          "x": 384,
+          "x": 504,
           "y": 108
         },
         {
           "id": 199,
-          "x": 72,
-          "y": 180
+          "x": 192,
+          "y": 216
         },
         {
           "id": 200,
-          "x": 0,
-          "y": 216
-        },
-        {
-          "id": 201,
-          "x": 72,
-          "y": 216
-        },
-        {
-          "id": 202,
-          "x": 72,
+          "x": 120,
           "y": 252
         },
         {
+          "id": 201,
+          "x": 192,
+          "y": 252
+        },
+        {
+          "id": 202,
+          "x": 192,
+          "y": 288
+        },
+        {
           "id": 203,
-          "x": 252,
+          "x": 372,
           "y": 108
         },
         {
           "id": 204,
-          "x": 144,
-          "y": 144
+          "x": 156,
+          "y": 72
         },
         {
           "id": 205,
-          "x": 108,
-          "y": 180
+          "x": 120,
+          "y": 36
         },
         {
           "id": 206,
-          "x": 0,
-          "y": 180
+          "x": 120,
+          "y": 216
         },
         {
           "id": 207,
-          "x": 348,
+          "x": 468,
           "y": 168
         },
         {
           "id": 209,
-          "x": 384,
+          "x": 504,
           "y": 168
         },
         {
           "id": 210,
-          "x": 348,
+          "x": 468,
           "y": 204
         },
         {
           "id": 208,
-          "x": 312,
+          "x": 432,
           "y": 168
         },
         {
           "id": 211,
-          "x": 276,
+          "x": 396,
           "y": 168
         },
         {
           "id": 212,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 805,
-          "x": 36,
-          "y": 36
-        },
-        {
-          "id": 806,
-          "x": 0,
-          "y": 36
-        },
-        {
-          "id": 807,
-          "x": 0,
+          "x": 156,
           "y": 108
         },
         {
+          "id": 806,
+          "x": 156,
+          "y": 144
+        },
+        {
+          "id": 807,
+          "x": 120,
+          "y": 144
+        },
+        {
           "id": 861,
-          "x": 144,
-          "y": 180
+          "x": 120,
+          "y": 72
         },
         {
           "id": 936,
-          "x": 0,
-          "y": 144
+          "x": 120,
+          "y": 180
         },
         {
           "id": 937,
-          "x": 36,
-          "y": 144
+          "x": 156,
+          "y": 180
+        },
+        {
+          "id": 1003,
+          "x": 48,
+          "y": 180
+        },
+        {
+          "id": 1004,
+          "x": 48,
+          "y": 216
+        },
+        {
+          "id": 1005,
+          "x": 48,
+          "y": 36
+        },
+        {
+          "id": 1006,
+          "x": 48,
+          "y": 72
+        },
+        {
+          "id": 1007,
+          "x": 0,
+          "y": 72
         }
       ]
     },
