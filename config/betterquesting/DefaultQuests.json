@@ -80977,7 +80977,7 @@
     {
       "questID": 860,
       "name": "Titanium finaly",
-      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.",
+      "description": "Rutile, chlorine and carbon dust make some Titaniumtetrachloride. Put this with Magnesium in a HV EBF will give you hot Titanium ingots. Freeze it and you got your first titanium.\nOn Mars you will find some pure Titanium ore.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -81009,9 +81009,36 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2375
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2010
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
               "Count": 64,
               "OreDict": "",
-              "Damage": 11028
+              "Damage": 30023
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30376
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -81026,7 +81053,37 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 32,
               "OreDict": "",
-              "Damage": 11340
+              "Damage": 2018
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 12028
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11028
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -81069,8 +81126,8 @@
         }
       ],
       "preRequisites": [
-        162,
-        78
+        78,
+        1012
       ]
     },
     {
@@ -96589,6 +96646,214 @@
       "preRequisites": [
         36
       ]
+    },
+    {
+      "questID": 1011,
+      "name": "Find Bauxite",
+      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 822
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 822
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 19
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 918
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        162
+      ]
+    },
+    {
+      "questID": 1012,
+      "name": "Rutile",
+      "description": "Rutile can be thermal centrifuged out of bauxite and ilmenite dust. \nElectrolyzing bauxite can extrac even more rutile and put ilmenite in the Electric blast furnace give a bit rutile too.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2375
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 303
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 383
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2375
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1011
+      ]
     }
   ],
   "questLines": [
@@ -98433,8 +98698,8 @@
         },
         {
           "id": 860,
-          "x": 192,
-          "y": 252
+          "x": 300,
+          "y": 300
         },
         {
           "id": 932,
@@ -98545,6 +98810,16 @@
           "id": 144,
           "x": 300,
           "y": 132
+        },
+        {
+          "id": 1011,
+          "x": 240,
+          "y": 252
+        },
+        {
+          "id": 1012,
+          "x": 300,
+          "y": 252
         }
       ]
     },
