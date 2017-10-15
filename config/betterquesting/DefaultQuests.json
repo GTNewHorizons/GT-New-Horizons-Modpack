@@ -9148,7 +9148,7 @@
     {
       "questID": 99,
       "name": "Bzzz... Whoom...",
-      "description": "Making some flawless crystals requires a precision laser engraver.\nAt Mv level the precision laser engraver becomes more important.",
+      "description": "Making some flawless crystals requires a precision laser engraver.\nAt MV level the precision laser engraver becomes more important.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9220,7 +9220,7 @@
     {
       "questID": 100,
       "name": "Press all the things",
-      "description": "With the basic forming press you can make different food items, glass arrows and some project red components. At mv/hv stage you can make rotors, various AE components and make copies of your molds and extruder shapes.",
+      "description": "With the basic forming press you can make different food items, glass arrows and some project red components. At MV/HV stage you can make rotors, various AE components and make copies of your molds and extruder shapes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9433,7 +9433,7 @@
     {
       "questID": 103,
       "name": "Get ready for Tier 3",
-      "description": "In order to proceed forward, you need to get aluminium. A lot of it. But for now, one is enough to unlock this quest. Probably the best source for aluminium is clay, however you need a MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup.",
+      "description": "In order to proceed forward, you need to get aluminium. A lot of it. But for now, one is enough to unlock this quest. Probably the best source for aluminium is clay, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -10356,7 +10356,7 @@
     {
       "questID": 116,
       "name": "Alloy smelter",
-      "description": "Upgrade your steam alloy smelter to a LV one.",
+      "description": "Upgrade your steam alloy smelter to an LV one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17205,7 +17205,7 @@
     {
       "questID": 190,
       "name": "Appropriate power",
-      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 5 in this pack that means your Nuclear reactor is 10 times more efficient.",
+      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 5 in this pack. That means your nuclear reactor is 10 times more efficient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -49841,7 +49841,7 @@
     {
       "questID": 576,
       "name": "Working table 2.0",
-      "description": "A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping it off.\n\nResources need to go into the internal inventory. The crafting matrix is only a visual representation.\n\nForestry worktable is super-useful, and can reduce tedium of many common jobs because you can click-drag across a row of buckets, and it will use tools in its own inventory to continue crafting. Specifically:\nMaking torches with creosote - just drag-click all your buckets into the worktable\nMaking fresh water for Pam\u0027s - Same as above\nMaking fresh milk for Pam\u0027s - Same as above\nMaking clay bricks - wooden form is automatically reused\nMaking concrete - not tested, but would probably make this easier too.",
+      "description": "A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping it off.\n\nResources need to go into the internal inventory. The crafting matrix is only a visual representation.\n\nThe Forestry worktable is super-useful, and can reduce the tedium of many common jobs because you can click-drag across a row of items, and it will use tools in its own inventory to continue crafting. Specifically:\nMaking torches with creosote - just drag-click all your buckets into the worktable\nMaking fresh water for Pam\u0027s - Same as above\nMaking fresh milk for Pam\u0027s - Same as above\nMaking clay bricks - a wooden form is automatically reused\nMaking concrete - not tested, but would probably make this easier too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55083,7 +55083,7 @@
     {
       "questID": 623,
       "name": "A big meteorite",
-      "description": "The best way to get rare earth is to find an applied energistics 2 meteorite and grind the blocks into dust. Maybe you completed the quest in the steam age and stored your crushed skystone somewhere? That dust can now be centrifuged into various byproducts like cadmium, neodymium, caesium, lanthanum, and yttrium.\n\nHint: Redstone has rare earth as byproduct. Chalcopyrite (at Hv level) and sphalherite (at Lv level) have cadmium as byproduct.",
+      "description": "The best way to get rare earth is to find an applied energistics 2 meteorite and grind the blocks into dust. Maybe you completed the quest in the steam age and stored your crushed skystone somewhere? That dust can now be centrifuged into various byproducts like cadmium, neodymium, caesium, lanthanum, and yttrium.\n\nHint: Redstone has rare earth as byproduct. Chalcopyrite (at HV level) and sphalherite (at LV level) have cadmium as byproduct.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -67395,7 +67395,7 @@
     {
       "questID": 740,
       "name": "Extrude all the things",
-      "description": "Now you hit the MV tier and it\u0027s time to get a better ratio when making sticks, pipes, wires, plates and many more parts. Most recipes use more than 32 EU/t so better make a MV extruder. After crafting the machine you need some extruder shapes for the different types of parts you want to make.\n\nMost of the Tinkers Gregworks tool parts are made in the extruder.",
+      "description": "Now you hit the MV tier and it\u0027s time to get a better ratio when making sticks, pipes, wires, plates and many more parts. Most recipes use more than 32 EU/t so better make an MV extruder. After crafting the machine you need some extruder shapes for the different types of parts you want to make.\n\nMost of the Tinkers Gregworks tool parts are made in the extruder.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -69953,7 +69953,7 @@
     {
       "questID": 762,
       "name": "TNT",
-      "description": "TNT is much more powerful than the powderbarrel but much harder to craft. There are a LV and a HV ways to craft. At LV you need heavy or light fuel to make some toluene wich can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in a chemical reactor to make toluene more efficient. Mix it with sulfuric acid to make TNT.\n\nThe HV way requires an oil cracking unit to make all kinds of cracked fuel or cracked naphta and a distillation tower to extract toluene from that.",
+      "description": "TNT is much more powerful than the powderbarrel but much harder to craft. There are LV and HV ways to craft. At LV you need heavy or light fuel to make some toluene wich can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in a chemical reactor to make toluene more efficient. Mix it with sulfuric acid to make TNT.\n\nThe HV way requires an oil cracking unit to make all kinds of cracked fuel or cracked naphta and a distillation tower to extract toluene from that.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -73038,7 +73038,7 @@
     {
       "questID": 791,
       "name": "MV Precision Laser",
-      "description": "Advanced circuits need a MV precision laser. Let\u0027s craft one.",
+      "description": "Advanced circuits need an MV precision laser. Let\u0027s craft one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73493,7 +73493,7 @@
     {
       "questID": 795,
       "name": "Basic Circuit Assembler",
-      "description": "Advanced circuits require a LV circuit assembling machine. Let\u0027s make one.",
+      "description": "Advanced circuits require an LV circuit assembling machine. Let\u0027s make one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75000,7 +75000,7 @@
     },
     {
       "questID": 808,
-      "name": "Mixing at hv Level",
+      "name": "Mixing at HV Level",
       "description": "High Tier dusts need HV Mixer.",
       "isMain": false,
       "isSilent": false,
@@ -80977,7 +80977,7 @@
     {
       "questID": 860,
       "name": "Titanium finaly",
-      "description": "Rutile, chlorine and carbon dust make some Titaniumtetrachloride. Put this with Magnesium in a HV EBF will give you hot Titanium ingots. Freeze it and you got your first titanium.\nOn Mars you will find some pure Titanium ore.",
+      "description": "Rutile, chlorine and carbon dust makes Titaniumtetrachloride. Combining this with Magnesium in an HV EBF will give you hot Titanium ingots. Freeze those and you will get your first titanium.\nOn Mars you can find pure Titanium ore.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -83852,7 +83852,7 @@
     {
       "questID": 891,
       "name": "Better Tank... LV Tank",
-      "description": "Next step is to store 64 buckets in a tank. The LV Tank from Gt++ needs steel plates, iron plates, bronze plates a huge clay pipe and a lv pump.",
+      "description": "Next step is to store 64 buckets in a tank. The LV Tank from Gt++ needs steel plates, iron plates, bronze plates a huge clay pipe and an LV pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83930,7 +83930,7 @@
     {
       "questID": 892,
       "name": "Better Tank... MV Tank",
-      "description": "Next step is to store 128 buckets in a tank. The MV Tank from Gt++ needs steel plates, darksteel plates, bronze plates a  bronze pipe and a lv pump.",
+      "description": "Next step is to store 128 buckets in a tank. The MV Tank from Gt++ needs steel plates, darksteel plates, bronze plates a  bronze pipe and an LV pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -84007,8 +84007,8 @@
     },
     {
       "questID": 893,
-      "name": "You\u0027re gonna hate this #2 in mv too",
-      "description": "The second item you\u0027ll need a lot of in mv tier. When you want to get fluid out of tanks you\u0027ll need one. \n\nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be upgraded further into a fluid regulator which allows precise control of fluid transfer speed.",
+      "name": "You\u0027re gonna hate this #2 in MV too",
+      "description": "The second item you\u0027ll need a lot of in MV tier. When you want to get fluid out of tanks you\u0027ll need one. \n\nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be upgraded further into a fluid regulator which allows precise control of fluid transfer speed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -84085,7 +84085,7 @@
     {
       "questID": 894,
       "name": "Better Tank... HV Tank",
-      "description": "Next step is to store 256 buckets in a tank. The HV Tank from Gt++ needs aluminium plates, darksteel plates, vacuum tubes a  steel pipe and a mv pump.",
+      "description": "Next step is to store 256 buckets in a tank. The HV Tank from Gt++ needs aluminium plates, darksteel plates, vacuum tubes a  steel pipe and an MV pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -84162,8 +84162,8 @@
     },
     {
       "questID": 895,
-      "name": "You\u0027re gonna hate this #1 in mv too",
-      "description": "The first item you\u0027ll need a lot of in mv too. If you want to pull items out of chests or barrels you\u0027ll need one. \n\nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.",
+      "name": "You\u0027re gonna hate this #1 in MV too",
+      "description": "The first item you\u0027ll need a lot of in MV too. If you want to pull items out of chests or barrels you\u0027ll need one. \n\nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -84239,8 +84239,8 @@
     },
     {
       "questID": 896,
-      "name": "You\u0027re gonna hate this #3 in mv too",
-      "description": "An electric piston for your mv machines. The third item you are going to craft a lot of in the future.",
+      "name": "You\u0027re gonna hate this #3 in MV too",
+      "description": "An electric piston for your MV machines. The third item you are going to craft a lot of in the future.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -84316,8 +84316,8 @@
     },
     {
       "questID": 897,
-      "name": "You\u0027re gonna hate this #4 in mv too",
-      "description": "The fourth item you\u0027ll need a lot of in mv, which is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots. Adjust with a screwdriver.",
+      "name": "You\u0027re gonna hate this #4 in MV too",
+      "description": "The fourth item you\u0027ll need a lot of in MV, which is also a pain to craft. Arguably the most painful item ever. \n\nHint: Works like a conveyor but can work with selected item slots. Adjust with a screwdriver.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -88035,8 +88035,8 @@
     },
     {
       "questID": 931,
-      "name": "Auto Mining Mv",
-      "description": "The mv miner will find ores fore you and be better then the lv miner. Place up to two stacks of mining pipes in the right slots. This miner need 128 eu to work. The Miner searchen ores in a 24 block radius and works two times faster then the lv variant.",
+      "name": "Auto Mining MV",
+      "description": "The MV miner will find ores for you better than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 128 eu to work. The Miner searches ores in a 24 block radius and works two times faster than the LV variant.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88112,8 +88112,8 @@
     },
     {
       "questID": 932,
-      "name": "Auto Mining Hv",
-      "description": "The mv miner will find ores fore you and be better then the lv miner. Place up to two stacks of mining pipes in the right slots. This miner need 512 eu to work. The Miner searchen ores in a 32 block radius or two chuncks and works two times faster then the mv variant.",
+      "name": "Auto Mining HV",
+      "description": "The HV miner will find ores fore you better than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 512 eu to work. The Miner searches ores in a 32 block radius (two chuncks) and works two times faster than the MV variant.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88191,7 +88191,7 @@
     {
       "questID": 933,
       "name": "Power of the Sun",
-      "description": "Now its time to investigate in some rgenerative engery. Well let\u0027s start with solarpannels. The lowest one only give 1 eu/t. Most gt machine can use them as covers.",
+      "description": "Now its time to investigate in some regenerative engery. Let\u0027s start with solarpanels. The basic one only gives 1 EU/t. Most gt machine can use them as covers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88319,7 +88319,7 @@
     {
       "questID": 934,
       "name": "Power of the Sun 8V",
-      "description": "Next  solarpannel you can make is the ULV one. It gives  8 eu/t. Most gt machine can use them as covers.",
+      "description": "The next solarpanel you can make is the ULV one. It generates 8 EU/t. Most gt machine can use them as covers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88447,7 +88447,7 @@
     {
       "questID": 935,
       "name": "Power of the Sun 1x1",
-      "description": "Put those 1 eu pannel on a block make em placeable. Using a mv assembler to combining a ULV hull with the pannel.",
+      "description": "Put those single eu panels on a block to make them placeable in the world. Use an MV assembler to combine the panel with a ULV hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88550,8 +88550,8 @@
     },
     {
       "questID": 936,
-      "name": "Power of the Sun at Lv Level",
-      "description": "Next  solarpannel you can make is the LV one. It gives 32 eu/t max. Most gt machine can use them as covers. First you need to produce a sunnunamium item out of 10 mio eu power. ",
+      "name": "Power of the Sun at LV Level",
+      "description": "The next solarpanel you can make is the LV one. It generates 32 EU/t max. Most gt machine can use them as covers. First you need to produce a sunnarium item by using 10 million eu power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88695,7 +88695,7 @@
     {
       "questID": 937,
       "name": "Power of the Sun 1x1 LV",
-      "description": "Put those 32 eu pannel on a block make em placeable. Using a mv assembler to combining a LV hull with the pannel.",
+      "description": "Put those 32 eu panel on a block to make them placeable in the world. Use an MV assembler to combine the panel with an LV hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89052,7 +89052,7 @@
     {
       "questID": 940,
       "name": "Cleanroom",
-      "description": "If you want to make more advanced circuits you need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use mv tier.\n\nLet\u0027s build a 5x5x5 room.",
+      "description": "If you want to make more advanced circuits you need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89354,7 +89354,7 @@
     },
     {
       "questID": 943,
-      "name": "Performing chemical experiments at hv Level",
+      "name": "Performing chemical experiments at HV Level",
       "description": "High tier chemical recipes like ammonia need an HV chemical reactor.",
       "isMain": false,
       "isSilent": false,
@@ -89438,7 +89438,7 @@
     {
       "questID": 944,
       "name": "Super Tank I",
-      "description": "Next step is to store 40000 buckets in a tank. The super tank needs a hermetic casing made with aluminium plates and PTFE pipe. The tank need 4 circuits, a pulsatingiron  plates and a mv pump. Now you can store the exact amount of fluids a steel 5x5 steel tank contains.",
+      "description": "Next step is to store 40000 buckets in a tank. The super tank needs a hermetic casing made with aluminium plates and PTFE pipe. The tank need 4 circuits, a pulsatingiron  plates and an MV pump. Now you can store the exact amount of fluids a steel 5x5 steel tank contains.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90441,7 +90441,7 @@
     {
       "questID": 954,
       "name": "The \"Waterproblems\" are solved",
-      "description": "Entering hv age you found a way of making a water reservoir wich solves the finite water problem. Craft it with some fused quartz glass, hv pumps and cauldrons.",
+      "description": "Entering the HV age you found a way of making a water reservoir wich solves the finite water problem. Craft it with some fused quartz glass, HV pumps and cauldrons.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90630,7 +90630,7 @@
     {
       "questID": 956,
       "name": "Piston LV",
-      "description": "Want some lv pistons? Buy some!",
+      "description": "Want some LV pistons? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90690,7 +90690,7 @@
     {
       "questID": 957,
       "name": "Motor LV",
-      "description": "Want some lv motors? Buy some!",
+      "description": "Want some LV motors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90750,7 +90750,7 @@
     {
       "questID": 958,
       "name": "Pump LV",
-      "description": "Want some lv pumps? Buy some!",
+      "description": "Want some LV pumps? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90810,7 +90810,7 @@
     {
       "questID": 959,
       "name": "Conveyor LV",
-      "description": "Want some lv conveyor belts? Buy some!",
+      "description": "Want some LV conveyor belts? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90870,7 +90870,7 @@
     {
       "questID": 960,
       "name": "Robot Arm LV",
-      "description": "Want some lv robot arms? Buy some!",
+      "description": "Want some LV robot arms? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90930,7 +90930,7 @@
     {
       "questID": 961,
       "name": "Sensor LV",
-      "description": "Want some lv sensors? Buy some!",
+      "description": "Want some LV sensors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90990,7 +90990,7 @@
     {
       "questID": 962,
       "name": "Emitter LV",
-      "description": "Want some lv emitters? Buy some!",
+      "description": "Want some LV emitters? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95678,8 +95678,8 @@
     },
     {
       "questID": 1003,
-      "name": "Power of the Sun at Mv Level",
-      "description": "Next  solarpannel you can make is the MV one. It gives 128 eu/t max. Most gt machine can use them as covers. First you need to produce a sunnunamium out of 9 sunnarium items.  ",
+      "name": "Power of the Sun at MV Level",
+      "description": "Next  solarpanel you can make is the MV one. It gives 128 EU/t max. Most gt machine can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.  ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95828,7 +95828,7 @@
     {
       "questID": 1004,
       "name": "Power of the Sun 1x1 MV",
-      "description": "Put those 128 eu pannel on a block make em placeable. Using a hv assembler to combining a MV hull with the pannel.",
+      "description": "Put those 128 eu panels on a block make them placeable in the world. Use an HV assembler to combine the panel with an MV hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95932,7 +95932,7 @@
     {
       "questID": 1005,
       "name": "Indium",
-      "description": "At EV Level you are able to make Indium for HV Solar Pannels. Indium can not find in Ore form it can be only made with a ev chemical reactor.\nFirst you need to make Indium out of Purified Galena and Sphalherite ore. Mixing some Aluminium to it and get indium.",
+      "description": "At EV Level you are able to make Indium for HV Solar Panels. Indium can not be found in Ore form. It can only be made with an ev chemical reactor.\nFirst you need to make indium out of purified galena and sphalherite ore. Mix in some aluminium to get indium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96071,8 +96071,8 @@
     },
     {
       "questID": 1006,
-      "name": "Power of the Sun at Hv Level",
-      "description": "Next solarpannel you can make is the HV one. It gives 512 eu/t max. Most gt machine can use them as covers. First you need to produce a enriched sunnunamium mixing irridianturanium and sunnarium.  You need the Avaritia 9x9 crafting table to make this pannel.",
+      "name": "Power of the Sun at HV Level",
+      "description": "The next solarpanel you can make is the HV one. It generates 512 EU/t max. Most gt machine can use them as covers. First you need to produce enriched sunnarium by mixing irridiant uranium and sunnarium. The Avaritia 9x9 crafting table is required to make this panel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96229,7 +96229,7 @@
     {
       "questID": 1007,
       "name": "Power of the Sun 1x1 HV",
-      "description": "Put those 512 eu pannel on a block make em placeable. Using a mv assembler to combining a HV hull with the pannel.",
+      "description": "Put those 512 eu panels on a block to make them placeable in the world. Use an MV assembler to combine the panel with an HV hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96333,7 +96333,7 @@
     {
       "questID": 1008,
       "name": "Books",
-      "description": "Books can be found easily enough in villages or the roguelike dungeons surface brick house.\nSure they have a recipe too.",
+      "description": "Books can be found easily enough in villages or in the roguelike dungeons surface brick house.\nI'm sure they have a recipe too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96449,7 +96449,7 @@
     {
       "questID": 1009,
       "name": "Fish trapping 2.0",
-      "description": "Fishing can be very boring. Why not to automate it with a fish trap?\nThis is your fish trap 2.0",
+      "description": "Fishing can be very boring. Why not automate it with a fish trap?\nThis is your fish trap 2.0",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96537,7 +96537,7 @@
     {
       "questID": 1010,
       "name": "Fresh Water and Milk",
-      "description": "Many cooking recipes need milk and water. Crafting it in the crafting table can be very tedious.\nMuch easier is to do using a Forestry worktable. Drag-click all your buckets into the worktable, and craft them all at once.",
+      "description": "Many cooking recipes need milk and water. Crafting it in the crafting table can be very tedious.\nIt is much easier by using a Forestry worktable. Drag-click all your buckets into the worktable, and craft them all at once.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96745,7 +96745,7 @@
     {
       "questID": 1012,
       "name": "Rutile",
-      "description": "Rutile can be thermal centrifuged out of bauxite and ilmenite dust. \nElectrolyzing bauxite can extrac even more rutile and put ilmenite in the Electric blast furnace give a bit rutile too.",
+      "description": "Rutile can be thermal centrifuged out of bauxite and ilmenite dust. \nElectrolyzing bauxite can extract even more rutile and putting ilmenite in the electric blast furnace can give some rutile too.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -96858,7 +96858,7 @@
     {
       "questID": 1013,
       "name": "SMD Circuit components",
-      "description": "Surface-mount device are more advanced circuits parts. They needed for high tier circuits and are cheaper in crafting then basic capacitors, transsitors, diodes and resistores. You need an Advanced Assembler for it and molten polyethylen.",
+      "description": "Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylen.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -96970,7 +96970,7 @@
     {
       "questID": 1014,
       "name": "Workstation Extreme Curcuit",
-      "description": "The next tier of circuits are the extrem circuits. Workstation Circuits are the easiest one and need in EV Tier. Lets craft some.",
+      "description": "The next tier of circuits are the extreme circuits. Workstation Circuits are the easiest one and are needed in EV Tier. Let\u0027s craft some.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97110,7 +97110,7 @@
     {
       "questID": 1015,
       "name": "Empty Plastic Board",
-      "description": "Plastic circuit boards require plastic Plate with Sufuric Acid to make a Empty Board. By adding copper foil and Iron3Chloride or Sodium Persulfate  you can craft a plastic circuit board.",
+      "description": "Plastic circuit boards require plastic Plate with Sulfuric Acid to make an Empty Board. By adding copper foil and Iron3Chloride or Sodium Persulfate you can craft a plastic circuit board.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97236,7 +97236,7 @@
     {
       "questID": 1016,
       "name": "Integrated Processor",
-      "description": "There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs a mv circuit assembling machine to be made. The integrated processor a cpu, capacitors, transistors and resitors.\nA cleanroom is needed.",
+      "description": "There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs an MV circuit assembling machine to be made. The integrated processor needs a cpu, capacitors, transistors and resistors.\nA cleanroom is needed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97371,7 +97371,7 @@
     {
       "questID": 1017,
       "name": "Processor Assembly",
-      "description": "Another variant of the advanced circuit from ic2 is the processing assembly.\nTwo Integrated Processors are needed in the mv circuit assembler recipe.\nRecipe is a cleanroom recipe.",
+      "description": "Another variant of the advanced circuit from ic2 is the processing assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97506,7 +97506,7 @@
     {
       "questID": 1018,
       "name": "Central Processing Unit CPU",
-      "description": "Integrated Processor needed central processing units. You can get it via cut down the ram wafer.\nA cleanroom is needed.",
+      "description": "Integrated Processors need central processing units. You can get these by cutting a ram wafer.\nA cleanroom is needed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97605,7 +97605,7 @@
     {
       "questID": 1019,
       "name": "Small Coil",
-      "description": "Processing assembly need some small coils.",
+      "description": "Processing assembly needs some small coils.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97715,7 +97715,7 @@
     {
       "questID": 1020,
       "name": "Iron III Chloride",
-      "description": "Iron 3 chloride can be made out of hydrogen and chlorine make hydrochloric acid. Adding this together with iron dust make iron 3 chloride.\nYou can etch your board with it.",
+      "description": "Iron 3 chloride can be made by first making hydrochloric acid out of hydrogen and chlorine. Then combine this with some iron dust to make iron 3 chloride.\nYou can etch your board with it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97980,7 +97980,7 @@
     {
       "questID": 1022,
       "name": "Motor MV",
-      "description": "Want some mv motors? Buy some!",
+      "description": "Want some MV motors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98040,7 +98040,7 @@
     {
       "questID": 1023,
       "name": "Conveyor MV",
-      "description": "Want some mv conveyor belts? Buy some!",
+      "description": "Want some MV conveyor belts? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98100,7 +98100,7 @@
     {
       "questID": 1024,
       "name": "Pump MV",
-      "description": "Want some mv pumps? Buy some!",
+      "description": "Want some MV pumps? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98160,7 +98160,7 @@
     {
       "questID": 1025,
       "name": "Piston MV",
-      "description": "Want some mv pistons? Buy some!",
+      "description": "Want some MV pistons? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98220,7 +98220,7 @@
     {
       "questID": 1026,
       "name": "Robot Arm MV",
-      "description": "Want some mv robot arms? Buy some!",
+      "description": "Want some MV robot arms? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98280,7 +98280,7 @@
     {
       "questID": 1027,
       "name": "Sensor MV",
-      "description": "Want some mv sensors? Buy some!",
+      "description": "Want some MV sensors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98340,7 +98340,7 @@
     {
       "questID": 1028,
       "name": "Emitter MV",
-      "description": "Want some mv emitters? Buy some!",
+      "description": "Want some MV emitters? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98400,7 +98400,7 @@
     {
       "questID": 1029,
       "name": "Motor HV",
-      "description": "Want some hv motors? Buy some!",
+      "description": "Want some HV motors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98460,7 +98460,7 @@
     {
       "questID": 1030,
       "name": "Conveyor HV",
-      "description": "Want some hv conveyor belts? Buy some!",
+      "description": "Want some HV conveyor belts? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98520,7 +98520,7 @@
     {
       "questID": 1031,
       "name": "Pump HV",
-      "description": "Want some hv pumps? Buy some!",
+      "description": "Want some HV pumps? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98580,7 +98580,7 @@
     {
       "questID": 1032,
       "name": "Piston HV",
-      "description": "Want some hv pistons? Buy some!",
+      "description": "Want some HV pistons? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98640,7 +98640,7 @@
     {
       "questID": 1033,
       "name": "Robot Arm HV",
-      "description": "Want some hv robot arms? Buy some!",
+      "description": "Want some HV robot arms? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98706,7 +98706,7 @@
     {
       "questID": 1034,
       "name": "Sensor HV",
-      "description": "Want some hv sensors? Buy some!",
+      "description": "Want some HV sensors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -98772,7 +98772,7 @@
     {
       "questID": 1035,
       "name": "Emitter HV",
-      "description": "Want some hv emitters? Buy some!",
+      "description": "Want some HV emitters? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
