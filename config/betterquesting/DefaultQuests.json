@@ -11185,7 +11185,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -17205,7 +17205,7 @@
     {
       "questID": 190,
       "name": "Appropriate power",
-      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 10 in this pack that means your Nuclear reactor is 10 times more efficient.",
+      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 5 in this pack that means your Nuclear reactor is 10 times more efficient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -69130,8 +69130,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -88911,8 +88911,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -89036,8 +89036,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -96228,7 +96228,7 @@
     },
     {
       "questID": 1007,
-      "name": "Power of the Sun 1x1 MV",
+      "name": "Power of the Sun 1x1 HV",
       "description": "Put those 512 eu pannel on a block make em placeable. Using a mv assembler to combining a HV hull with the pannel.",
       "isMain": false,
       "isSilent": false,
@@ -96853,6 +96853,862 @@
       ],
       "preRequisites": [
         1011
+      ]
+    },
+    {
+      "questID": 1013,
+      "name": "SMD Circuit components",
+      "description": "Surface-mount device are more advanced circuits parts. They needed for high tier circuits and are cheaper in crafting then basic capacitors, transsitors, diodes and resistores. You need an Advanced Assembler for it and molten polyethylen.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32011
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 212
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32011
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 32016
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32018
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 32020
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2874
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        895,
+        897,
+        1015
+      ]
+    },
+    {
+      "questID": 1014,
+      "name": "Workstation Extreme Curcuit",
+      "description": "The next tier of circuits are the extrem circuits. Workstation Circuits are the easiest one and need in EV Tier. Lets craft some.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32704
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32703
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32016
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 19303
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 26085
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32704
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32011
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32016
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32018
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1017
+      ]
+    },
+    {
+      "questID": 1015,
+      "name": "Empty Plastic Board",
+      "description": "Plastic circuit boards require plastic Plate with Sufuric Acid to make a Empty Board. By adding copper foil and Iron3Chloride or Sodium Persulfate  you can craft a plastic circuit board.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32106
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17874
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 29035
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32007
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32106
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 29035
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17874
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        759
+      ]
+    },
+    {
+      "questID": 1016,
+      "name": "Integrated Processor",
+      "description": "There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs a mv circuit assembling machine to be made. The integrated processor a cpu, capacitors, transistors and resitors.\nA cleanroom is needed.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32080
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32045
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32011
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32018
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 19308
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32080
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32045
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32018
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1013,
+        1018
+      ]
+    },
+    {
+      "questID": 1017,
+      "name": "Processor Assembly",
+      "description": "Another variant of the advanced circuit from ic2 is the processing assembly.\nTwo Integrated Processors are needed in the mv circuit assembler recipe.\nRecipe is a cleanroom recipe.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32703
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32080
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32014
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 19308
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32703
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1013,
+        1019
+      ]
+    },
+    {
+      "questID": 1018,
+      "name": "Central Processing Unit CPU",
+      "description": "Integrated Processor needed central processing units. You can get it via cut down the ram wafer.\nA cleanroom is needed.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32045
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32044
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32045
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24545
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1013,
+        160
+      ]
+    },
+    {
+      "questID": 1019,
+      "name": "Small Coil",
+      "description": "Processing assembly need some small coils.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32014
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 28305
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 19345
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32014
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 28613
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 19345
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1016
       ]
     }
   ],
@@ -98147,13 +99003,13 @@
         },
         {
           "id": 138,
-          "x": 648,
-          "y": 204
+          "x": 564,
+          "y": 180
         },
         {
           "id": 140,
-          "x": 696,
-          "y": 204
+          "x": 612,
+          "y": 180
         },
         {
           "id": 142,
@@ -98233,7 +99089,7 @@
         {
           "id": 126,
           "x": 300,
-          "y": 300
+          "y": 372
         },
         {
           "id": 659,
@@ -98308,27 +99164,27 @@
         {
           "id": 749,
           "x": 264,
-          "y": 336
+          "y": 408
         },
         {
           "id": 751,
           "x": 264,
-          "y": 300
+          "y": 372
         },
         {
           "id": 753,
           "x": 300,
-          "y": 336
+          "y": 408
         },
         {
           "id": 754,
           "x": 228,
-          "y": 300
+          "y": 372
         },
         {
           "id": 757,
-          "x": 348,
-          "y": 300
+          "x": 300,
+          "y": 324
         },
         {
           "id": 758,
@@ -98337,8 +99193,8 @@
         },
         {
           "id": 759,
-          "x": 264,
-          "y": 408
+          "x": 348,
+          "y": 516
         },
         {
           "id": 760,
@@ -98427,8 +99283,8 @@
         },
         {
           "id": 750,
-          "x": 264,
-          "y": 444
+          "x": 348,
+          "y": 552
         },
         {
           "id": 842,
@@ -98452,13 +99308,13 @@
         },
         {
           "id": 846,
-          "x": 228,
-          "y": 408
+          "x": 300,
+          "y": 516
         },
         {
           "id": 847,
-          "x": 264,
-          "y": 372
+          "x": 300,
+          "y": 480
         },
         {
           "id": 848,
@@ -98472,8 +99328,8 @@
         },
         {
           "id": 852,
-          "x": 228,
-          "y": 372
+          "x": 252,
+          "y": 480
         },
         {
           "id": 741,
@@ -98498,32 +99354,32 @@
         {
           "id": 893,
           "x": 264,
-          "y": 228
+          "y": 156
         },
         {
           "id": 894,
-          "x": 300,
-          "y": 228
+          "x": 312,
+          "y": 156
         },
         {
           "id": 895,
-          "x": 264,
-          "y": 132
+          "x": 348,
+          "y": 324
         },
         {
           "id": 896,
-          "x": 264,
-          "y": 180
+          "x": 312,
+          "y": 264
         },
         {
           "id": 897,
-          "x": 300,
-          "y": 180
+          "x": 396,
+          "y": 324
         },
         {
           "id": 931,
-          "x": 300,
-          "y": 132
+          "x": 312,
+          "y": 228
         },
         {
           "id": 933,
@@ -98542,38 +99398,38 @@
         },
         {
           "id": 938,
-          "x": 300,
-          "y": 372
+          "x": 264,
+          "y": 444
         },
         {
           "id": 939,
-          "x": 348,
-          "y": 372
+          "x": 300,
+          "y": 444
         },
         {
           "id": 850,
           "x": 228,
-          "y": 336
+          "y": 444
         },
         {
           "id": 944,
-          "x": 348,
-          "y": 228
+          "x": 360,
+          "y": 156
         },
         {
           "id": 951,
           "x": 228,
-          "y": 444
+          "y": 552
         },
         {
           "id": 952,
           "x": 228,
-          "y": 480
+          "y": 588
         },
         {
           "id": 953,
           "x": 348,
-          "y": 336
+          "y": 444
         },
         {
           "id": 604,
@@ -98589,6 +99445,16 @@
           "id": 990,
           "x": 420,
           "y": 228
+        },
+        {
+          "id": 1013,
+          "x": 396,
+          "y": 444
+        },
+        {
+          "id": 1015,
+          "x": 396,
+          "y": 516
         }
       ]
     },
@@ -98820,6 +99686,31 @@
           "id": 1012,
           "x": 300,
           "y": 252
+        },
+        {
+          "id": 1014,
+          "x": 0,
+          "y": 12
+        },
+        {
+          "id": 1016,
+          "x": 144,
+          "y": 12
+        },
+        {
+          "id": 1017,
+          "x": 48,
+          "y": 12
+        },
+        {
+          "id": 1018,
+          "x": 144,
+          "y": 48
+        },
+        {
+          "id": 1019,
+          "x": 96,
+          "y": 12
         }
       ]
     },
