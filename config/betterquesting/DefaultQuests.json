@@ -74780,7 +74780,7 @@
     {
       "questID": 806,
       "name": "Lapotron Crystal",
-      "description": "With your new HV mixer you can make lapotron dust. Place it in an autoclave to make some raw lapotron crystals. With an HV assembler and advanced circuits you can make some lapotron crystals wich store up to 10 million EU.",
+      "description": "With your new HV mixer you can make lapotron dust. Place it in an autoclave to make some raw lapotron crystals. With an HV assembler and advanced circuits you can make some lapotron crystals wich store up to 10 million EU.\n\nHint: Nei shows only ic2 advanced circuits in recipe but all advanced circuits works.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74828,6 +74828,12 @@
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
+              "OreDict": "circuitAdvanced",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.RawLapotronCrystal",
               "Count": 4,
@@ -96333,7 +96339,7 @@
     {
       "questID": 1008,
       "name": "Books",
-      "description": "Books can be found easily enough in villages or in the roguelike dungeons surface brick house.\nI'm sure they have a recipe too.",
+      "description": "Books can be found easily enough in villages or in the roguelike dungeons surface brick house.\nI\u0027m sure they have a recipe too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
