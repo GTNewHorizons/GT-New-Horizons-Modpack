@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0.1.0 is out 08.10.2017
+Version 2.0.1.1 is out 08.10.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -119,7 +119,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 2.0.1.0 --- 08.10.2017<BR>
+## Modlist - NewHorizons 2.0.1.1 --- 16.10.2017<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta18<BR>
@@ -142,7 +142,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
-* Better Questing 1.0.178<BR>
+* Better Questing 1.0.173_unofficial<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -196,10 +196,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.06<BR>
+* Gregtech	5.09.32.07<BR>
 * GT Scanner Mod 1.1<BR>
-* GT New Horizons Core Mod	1.5.10<BR>
-* GT++ 1.6.07<BR>
+* GT New Horizons Core Mod	1.5.11<BR>
+* GT++ 1.6.09<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -239,14 +239,14 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Nodal Mechanics	1.1-19<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.6.753<BR>
-* Open Computers	1.6.2.12<BR>
+* Open Computers	1.6.2.12 Build 1086<BR>
 * Open Mods Lib	0.10.465<BR>
 * Open Modular Turrets 2.2.10.238<BR>
 * Open Peripheral Addons 0.6.249<BR>
 * Open Peripheral Core 1.4.280<BR>
 * Open Peripheral Integration 0.6.95<BR>
 * Open Printers	0.1.0.132<BR>
-* Open Security	1.0-103<BR>
+* Open Security	1.0-104<BR>
 * p455w0rdslib 1.0.4<BR>
 * Pam's Harvestcraft	1.7.10-m<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
@@ -259,7 +259,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Project Red-Lightning	4.7.0pre12.95GT<BR>
 * Project Red-Mechanical	4.7.0pre12.95GT<BR>
 * Project Red-World	4.7.0pre12.95GT<BR>
-* Questbook 1.1.0<BR>
+* Questbook 1.1.0_unofficial<BR>
 * Railcraft	9.12.2.1<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
