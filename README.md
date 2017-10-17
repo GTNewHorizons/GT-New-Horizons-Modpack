@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0.1.1 is out 16.10.2017
+Version 2.0.1.2 is out 17.10.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -119,7 +119,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ---
 
 
-## Modlist - NewHorizons 2.0.1.1 --- 16.10.2017<BR>
+## Modlist - NewHorizons<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
 * Adventure Backpack 0.9gbeta18<BR>
@@ -142,7 +142,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
-* Better Questing 1.0.173_unofficial<BR>
+* Better Questing 1.0.173b_unofficial<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -196,7 +196,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.07<BR>
+* Gregtech	5.09.32.08<BR>
 * GT Scanner Mod 1.1<BR>
 * GT New Horizons Core Mod	1.5.11<BR>
 * GT++ 1.6.09<BR>
