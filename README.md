@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0.1.2 is out 17.10.2017
+Version 2.0.1.3 is out 18.10.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -142,7 +142,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
-* Better Questing 1.0.173b_unofficial<BR>
+* Better Questing 1.0.173d_unofficial<BR>
 * Better Questing Themed 1.0.0<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
@@ -259,7 +259,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Project Red-Lightning	4.7.0pre12.95GT<BR>
 * Project Red-Mechanical	4.7.0pre12.95GT<BR>
 * Project Red-World	4.7.0pre12.95GT<BR>
-* Questbook 1.1.0_unofficial<BR>
+* Questbook 1.1.0a_unofficial<BR>
 * Railcraft	9.12.2.1<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
@@ -272,7 +272,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs	3.3.0<BR>
 * Spice of Life	1.3.11<BR>
-* Standard Expansion 1.0.94<BR>
+* Standard Expansion 1.0.108a_unofficial<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
