@@ -982,6 +982,8 @@ recipes.addShaped(<ExtraUtilities:enderCollector>, [
 [<ore:lensEnderPearl>, <ore:blockEnderObsidian>, <ore:lensEnderPearl>],
 [<ore:craftingToolHardHammer>, <ore:blockEnderObsidian>, <ore:craftingToolWrench>],
 [<ore:stoneObsidian>, <ore:stoneObsidian>, <ore:stoneObsidian>]]);
+// -
+recipes.addShapedless(<ExtraUtilities:enderCollector>, [<RandomThings:advancedItemCollector>]);
 
 // --- Quiet Expencive Device QED
 recipes.addShaped(<ExtraUtilities:endConstructor>, [

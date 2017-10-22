@@ -390,6 +390,9 @@ recipes.addShaped(<OpenBlocks:sonicglasses>, [
 [<ore:circuitBasic>, <minecraft:iron_helmet> * 1, <ore:circuitBasic>],
 [<ore:screwAluminium>, <ore:craftingToolScrewdriver>, <ore:screwAluminium>]]);
 
+// --- Dev 0
+recipes.addShapeless(<OpenBlocks:devnull>, [<RandomThings:dropFilter:1>]);
+
 
 
 
