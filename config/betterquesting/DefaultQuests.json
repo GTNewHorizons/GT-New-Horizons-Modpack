@@ -7350,12 +7350,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.AluminoSilicateWool",
-              "Count": 192,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
               "id": "gregtech:gt.blockmachines",
               "Count": 128,
               "OreDict": "",
@@ -35555,7 +35549,7 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
+            }
           ],
           "taskID": "bq_standard:retrieval"
         }
