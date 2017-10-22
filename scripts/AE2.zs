@@ -65,7 +65,7 @@ val AdvAssembler = <gregtech:gt.blockmachines:212>;
 val BasicCircuit = <ore:circuitBasic>;
 val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
-val DataCircuit = <gregtech:gt.metaitem.01:32704>;
+val DataCircuit = <ore:circuitData>;
 val EFlow = <gregtech:gt.metaitem.01:32706>;
 
 val StainlessPlate = <ore:plateStainlessSteel>;
