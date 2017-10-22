@@ -124,7 +124,7 @@ Assembler.addRecipe(Mantle, <minecraft:redstone>, <minecraft:string> * 8,  100, 
 Assembler.addRecipe(<FloodLights:electricIncandescentLightBulb>, <gregtech:gt.metaitem.02:19081>, <minecraft:glass_pane> * 2, <liquid:argon> * 1, 200, 120);
 
 // --- Fuel Dissolver
-Assembler.addRecipe(<FloodLights:carbonDissolver>, <minecraft:glass_pane> * 3, <gregtech:gt.metaitem.01:17032> * 2, <liquid:molten.redstone> * 144, 200, 64);
+Assembler.addRecipe(<FloodLights:carbonDissolver>, <minecraft:glass_pane> * 3, <gregtech:gt.metaitem.01:17305> * 2, <liquid:molten.redstone> * 144, 200, 64);
 
 // --- Square Flurocen Light
 Assembler.addRecipe(<FloodLights:smallElectricFloodlightMetaBlock:1>, <FloodLights:electricIncandescentLightBulb>, <gregtech:gt.metaitem.01:28032> * 2, <liquid:molten.glass> * 288, 200, 120);
