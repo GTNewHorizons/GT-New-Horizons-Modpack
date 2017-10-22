@@ -5,8 +5,10 @@
 // --- Importing Stuff ---
 
 
+import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
-import mods.ic2.Compressor;
+import mods.gregtech.FluidSolidifier;
+import mods.gregtech.FormingPress;
 import mods.gregtech.Pulverizer;
 
 
@@ -1189,6 +1191,17 @@ mods.thaumcraft.Research.addInfusionPage("EtheralProcessor", <EMT:EMTMachines:1>
 
 
 
+// --- Alloy Smellter Recipes
+
+
+
+// --- Rubber Ball
+AlloySmelter.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:2880> * 4, <gregtech:gt.metaitem.01:32307> * 0, 200, 16);
+
+
+
+
+
 // --- Assembler Recipes
 
 
@@ -1199,13 +1212,22 @@ Assembler.addRecipe(<EMT:EMTItems:9>, <minecraft:paper> * 12, <EMT:EMTItems:10> 
 
 
 
-// --- Compressor Recipes
+// --- Fluid Solidifier Recipes
 
 
 
 // --- Rubber Ball
-Compressor.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:11880> * 4);
+FluidSolidifier.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:32307> * 0,  <liquid:molten.rubber> * 576, 100, 30);
 
+
+
+
+// --- Forming Press Recipes
+
+
+
+// --- Rubber Ball
+FormingPress.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:2880> * 4, <gregtech:gt.metaitem.01:32307> * 0, 100, 30);
 
 
 
