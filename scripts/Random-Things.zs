@@ -76,17 +76,13 @@ recipes.remove(<RandomThings:advancedFluidDisplay>);
 // --- Wireless Lever
 recipes.remove(<RandomThings:wirelessLever>);
 
-// --- Biome Capsule
-recipes.remove(<RandomThings:biomeCapsule>);
-
-// --- Biome Painter
-recipes.remove(<RandomThings:biomePainter>);
-
 // --- Void Stone
 recipes.remove(<RandomThings:voidStone>);
 
 // --- Void Filer
 recipes.remove(<RandomThings:dropFilter:1>);
+
+
 
 
 // --- Adding recipes ---
@@ -144,7 +140,7 @@ recipes.addShaped(<RandomThings:itemCollector>, [
 [null, <ore:plateRedstone>, null]]);
 
 // --- Advanced Item Collector
-recipes.addShapedless(<RandomThings:advancedItemCollector>, [<ExtraUtilities:enderCollector>]);
+recipes.addShapeless(<RandomThings:advancedItemCollector>, [<ExtraUtilities:enderCollector>]);
 
 // --- Dyeing Machine
 recipes.addShaped(<RandomThings:dyeingMachine>, [
@@ -195,8 +191,13 @@ Assembler.addRecipe(<RandomThings:filter:3>, <minecraft:iron_bars>, <minecraft:e
 Assembler.addRecipe(<RandomThings:wirelessLever>, <minecraft:lever>, <minecraft:redstone_block>, <liquid:ender> * 1000, 300, 30);
 
 // --- Whitestone
-Assembler.addRecipe(<RandomThings:whitestone>, <TwilightForest:item.charmOfKeeping3> * 4, <gregtech:gt.integrated_circuit:1> * 0,  <liquid:ender> * 4000, 1200, 480);
+Assembler.addRecipe(<RandomThings:whitestone>, <TwilightForest:item.charmOfKeeping3> * 4, <gregtech:gt.integrated_circuit:4> * 0,  <liquid:ender> * 4000, 1200, 480);
 
+// --- Whitestone
+Assembler.addRecipe(<RandomThings:bloodStone>, <Railcraft:firestone.refined>, <gregtech:gt.integrated_circuit:1> * 0,  <liquid:molten.blaze> * 1296, 1200, 30);
+
+// --- Spectre Iron
+Assembler.addRecipe(<RandomThings:ingredient:4>, <minecraft:iron_ingot>, <RandomThings:ingredient:3>, 600, 120);
 
 
 
