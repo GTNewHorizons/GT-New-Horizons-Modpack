@@ -99452,6 +99452,66 @@
       "preRequisites": [
         1021
       ]
+    },
+    {
+      "questID": 1046,
+      "name": "Pyrochlore Ore",
+      "description": "Can\u0027t find Pyrochlore ore because run an old worldgen? Buy some Ores.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 1200,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 607
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 607
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        586
+      ]
     }
   ],
   "questLines": [
@@ -102126,6 +102186,11 @@
           "id": 1045,
           "x": 732,
           "y": 180
+        },
+        {
+          "id": 1046,
+          "x": 480,
+          "y": 0
         }
       ]
     },
