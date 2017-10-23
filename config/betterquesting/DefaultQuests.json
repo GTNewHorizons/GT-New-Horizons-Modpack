@@ -96654,7 +96654,7 @@
     {
       "questID": 1011,
       "name": "Find Bauxite",
-      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.",
+      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.\n\nIf you lucky you will find Titanium veins too make the process much more easy.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
