@@ -559,6 +559,15 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11340>);
 // --- Meteoric Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11341>);
 
+// --- Redstone Alloy Ingot
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
+
+// --- Electrical Steel Ingot
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
+
+// --- Soularium Ingot
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
+
 // --- GT Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
 
