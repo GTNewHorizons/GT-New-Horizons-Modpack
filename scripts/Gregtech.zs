@@ -97,7 +97,7 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 //recipes.remove(<gregtech:gt.metatool.01:2>);
 
 // --- GT Shovels
-//recipes.remove(<gregtech:gt.metatool.01:4>);
+recipes.remove(<gregtech:gt.metatool.01:4>);
 
 // --- GT Axes
 //recipes.remove(<gregtech:gt.metatool.01:6>);
