@@ -109,13 +109,13 @@ Assembler.addRecipe(<catwalks:steelgrate> * 10, <gregtech:gt.metaitem.01:23305> 
 Assembler.addRecipe(<catwalks:support_column> * 4, <gregtech:gt.metaitem.01:23305> * 6, <catwalks:steelgrate> * 4, 300, 30);
 
 // --- Catwalk
-Assembler.addRecipe(<catwalks:catwalk_unlit> * 3, <catwalks:steelgrate> * 3, <gregtech:gt.metaitem.01:27305> * 2, <liquid:molten.steel> * 144, 300, 30);
+Assembler.addRecipe(<catwalks:catwalk_unlit> * 6, <catwalks:steelgrate> * 3, <gregtech:gt.metaitem.01:23305> * 2, 300, 30);
 
 // --- Scaffold
 Assembler.addRecipe(<catwalks:scaffold>, <gregtech:gt.blockmachines:4401>, <catwalks:steelgrate>, 100, 30);
 
 // --- Caged Ladda
-Assembler.addRecipe(<catwalks:cagedLadder_north_unlit> * 3, <catwalks:steelgrate> * 3, <minecraft:ladder>, <liquid:molten.steel> * 216, 300, 30);
+Assembler.addRecipe(<catwalks:cagedLadder_north_unlit> * 6, <catwalks:steelgrate> * 4, <minecraft:ladder>, 300, 30);
 
 // --- Sturdy Rail
 Assembler.addRecipe(<catwalks:sturdy_rail>, <minecraft:rail>, <catwalks:steelgrate>, 150, 30);
