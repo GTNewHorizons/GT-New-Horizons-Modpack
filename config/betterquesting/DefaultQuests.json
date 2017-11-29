@@ -70646,10 +70646,10 @@
       ],
       "rewards": [
         {
-          "choices": [
+          "rewards": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 32708
             },
@@ -70657,10 +70657,10 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 3
+              "Damage": 4
             }
           ],
-          "rewardID": "bq_standard:choice"
+          "rewardID": "bq_standard:item"
         },
         {
           "rewards": [
