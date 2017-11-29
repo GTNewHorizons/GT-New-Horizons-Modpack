@@ -95045,27 +95045,18 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "enderio.darksteel.upgrade.travel:10": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
                   "upgradeItem:10": {
                     "id:4": 5637,
                     "Count:4": 1,
-                    "Damage:4": 8
+                    "Damage:4": 6
                   },
-                  "level_cost:4": 30,
-                  "unlocalized_name:8": "enderio.darksteel.upgrade.travel"
-                },
-                "enderio.darksteel.upgrade.energyUpgrade:10": {
-                  "upgradeItem:10": {
-                    "id:4": 5635,
-                    "Count:4": 1,
-                    "Damage:4": 2
-                  },
-                  "maxOuput:4": 10000,
-                  "level_cost:4": 20,
-                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
-                  "maxInput:4": 10000,
-                  "capacity:4": 1000000,
-                  "energy:4": 1000000
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
                 }
               }
             },
@@ -95075,36 +95066,18 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "enderio.darksteel.upgrade.travel:10": {
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
                   "upgradeItem:10": {
                     "id:4": 5637,
                     "Count:4": 1,
-                    "Damage:4": 8
+                    "Damage:4": 6
                   },
-                  "level_cost:4": 30,
-                  "unlocalized_name:8": "enderio.darksteel.upgrade.travel"
-                },
-                "enderio.darksteel.upgrade.energyUpgrade:10": {
-                  "upgradeItem:10": {
-                    "id:4": 5635,
-                    "Count:4": 1,
-                    "Damage:4": 2
-                  },
-                  "maxOuput:4": 10000,
-                  "level_cost:4": 20,
-                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
-                  "maxInput:4": 10000,
-                  "capacity:4": 1000000,
-                  "energy:4": 1000000
-                },
-                "enderio.darksteel.upgrade.spoon:10": {
-                  "upgradeItem:10": {
-                    "id:4": 277,
-                    "Count:4": 1,
-                    "Damage:4": 0
-                  },
+                  "maxOuput:4": 1000,
                   "level_cost:4": 10,
-                  "unlocalized_name:8": "enderio.darksteel.upgrade.spoon"
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
                 }
               }
             },
@@ -95116,16 +95089,16 @@
               "tag": {
                 "enderio.darksteel.upgrade.energyUpgrade:10": {
                   "upgradeItem:10": {
-                    "id:4": 5635,
+                    "id:4": 5637,
                     "Count:4": 1,
-                    "Damage:4": 2
+                    "Damage:4": 6
                   },
-                  "maxOuput:4": 10000,
-                  "level_cost:4": 20,
-                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
-                  "maxInput:4": 10000,
-                  "capacity:4": 1000000,
-                  "energy:4": 1000000
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
                 }
               }
             },
@@ -95137,16 +95110,16 @@
               "tag": {
                 "enderio.darksteel.upgrade.energyUpgrade:10": {
                   "upgradeItem:10": {
-                    "id:4": 5635,
+                    "id:4": 5637,
                     "Count:4": 1,
-                    "Damage:4": 2
+                    "Damage:4": 6
                   },
-                  "maxOuput:4": 10000,
-                  "level_cost:4": 20,
-                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
-                  "maxInput:4": 10000,
-                  "capacity:4": 1000000,
-                  "energy:4": 1000000
+                  "maxOuput:4": 1000,
+                  "level_cost:4": 10,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_one",
+                  "maxInput:4": 1000,
+                  "capacity:4": 100000,
+                  "energy:4": 100000
                 }
               }
             }
