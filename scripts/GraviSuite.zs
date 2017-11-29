@@ -88,7 +88,7 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:5>, [
 [<GraviSuite:itemSimpleItem:1>, <gregtech:gt.blockmachines:23>, <GraviSuite:itemSimpleItem:1>]]);
 
 // --- Vajra
-recipes.addShaped(<GraviSuite:vajra:1>, [
+recipes.addShaped(<GraviSuite:vajra:27>, [
 [<dreamcraft:item.EngravedEnergyChip>, <GraviSuite:itemSimpleItem:4>, <ore:lensReinforcedGlass>],
 [<ore:plateAlloyCarbon>, <GraviSuite:itemSimpleItem:5>, <ore:plateAlloyCarbon>],
 [<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
@@ -100,31 +100,31 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 [<IC2:reactorPlating>, <IC2:reactorVentDiamond:1>, <IC2:reactorPlating>]]);
 
 // --- Ultimate Lappack
-recipes.addShaped(<GraviSuite:ultimateLappack:1>, [
+recipes.addShaped(<GraviSuite:ultimateLappack:27>, [
 [<dreamcraft:item.ChromeItemCasing>, <ore:batteryMaster>, <dreamcraft:item.ChromeItemCasing>],
-[<ore:batteryMaster>, <GraviSuite:advLappack:1>, <ore:batteryMaster>],
+[<ore:batteryMaster>, <GraviSuite:advLappack:27>, <ore:batteryMaster>],
 [<ore:circuitMaster>, <ore:wireGt16NiobiumTitanium>, <ore:circuitMaster>]]);
 
 // --- Epic Lappack
-recipes.addShaped(<GraviSuite:epicLappack:1>, [
+recipes.addShaped(<GraviSuite:epicLappack:27>, [
 [<dreamcraft:item.IridiumAlloyItemCasing>, <gregtech:gt.metaitem.01:32599>, <dreamcraft:item.IridiumAlloyItemCasing>],
-[<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:1>, <gregtech:gt.metaitem.01:32599>],
+[<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:27>, <gregtech:gt.metaitem.01:32599>],
 [<ore:circuitUltimate>, <ore:wireGt16Superconductor>, <ore:circuitUltimate>]]);
 
 // --- Relocator
-recipes.addShaped(<GraviSuite:relocator:1>, [
+recipes.addShaped(<GraviSuite:relocator:27>, [
 [<gregtech:gt.metaitem.01:32676>, <dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:32676>],
 [<ore:circuitUltimate>, <IC2:blockMachine2>, <ore:circuitUltimate>],
-[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:1>, <dreamcraft:item.NeutroniumItemCasing>]]);
+[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:27>, <dreamcraft:item.NeutroniumItemCasing>]]);
 
 // --- Advanced Chainsaw
-recipes.addShaped(<GraviSuite:advChainsaw:1>, [
+recipes.addShaped(<GraviSuite:advChainsaw:27>, [
 [<ore:screwTungstenSteel>, <ore:toolHeadChainsawTungstenSteel>, <ore:craftingToolScrewdriver>],
 [<ore:gearGtSmallTungstenSteel>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <ore:batteryElite>, <ore:plateTungstenSteel>]]);
 
 // --- Advanced Drill
-recipes.addShaped(<GraviSuite:advDDrill:1>, [
+recipes.addShaped(<GraviSuite:advDDrill:27>, [
 [<ore:screwIridium>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:craftingToolScrewdriver>],
 [<ore:gearGtSmallIridium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallIridium>],
 [<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
