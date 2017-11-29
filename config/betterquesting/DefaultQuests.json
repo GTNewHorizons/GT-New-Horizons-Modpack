@@ -70443,6 +70443,12 @@
             },
             {
               "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32708
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
               "Count": 16,
               "OreDict": "",
               "Damage": 17019
