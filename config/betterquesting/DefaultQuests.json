@@ -70646,10 +70646,10 @@
       ],
       "rewards": [
         {
-          "choices": [
+          "rewards": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 32708
             },
@@ -70657,10 +70657,10 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 3
+              "Damage": 5
             }
           ],
-          "rewardID": "bq_standard:choice"
+          "rewardID": "bq_standard:item"
         },
         {
           "rewards": [
@@ -94219,8 +94219,6 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Forestry:apiaristHelmet",
@@ -94247,7 +94245,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:crafting"
         }
       ],
       "rewards": [
@@ -99515,8 +99513,8 @@
     },
     {
       "questID": 1047,
-      "name": "Forest Hive",
-      "description": "Want some Forest Bees? Buy some!",
+      "name": "Common Bees",
+      "description": "Want some common Bees? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99533,10 +99531,153 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "Forestry:beehives",
+        "id": "Forestry:beeQueenGE",
         "Count": 1,
         "OreDict": "",
-        "Damage": 1
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 20,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesCommon",
+                "UID0:8": "forestry.speciesCommon",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShorter",
+                "UID0:8": "forestry.lifespanShorter",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          },
+          "Health:4": 20,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesCommon",
+                "UID0:8": "forestry.speciesCommon",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShorter",
+                "UID0:8": "forestry.lifespanShorter",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -99560,10 +99701,313 @@
         {
           "rewards": [
             {
-              "id": "Forestry:beehives",
+              "id": "Forestry:beeQueenGE",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 20,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 20,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 20,
+                "Health:4": 20,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 20,
+                "Health:4": 20,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:item"
@@ -99575,8 +100019,8 @@
     },
     {
       "questID": 1048,
-      "name": "Deep Hive",
-      "description": "Want some Attuned Bees? Buy some!",
+      "name": "Cultivated Bees",
+      "description": "Want some cultivated Bees? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99593,10 +100037,153 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "MagicBees:hive",
+        "id": "Forestry:beeQueenGE",
         "Count": 1,
         "OreDict": "",
-        "Damage": 3
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 10,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesCultivated",
+                "UID0:8": "forestry.speciesCultivated",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedFast",
+                "UID0:8": "forestry.speedFast",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShortest",
+                "UID0:8": "forestry.lifespanShortest",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          },
+          "Health:4": 10,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesCultivated",
+                "UID0:8": "forestry.speciesCultivated",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedFast",
+                "UID0:8": "forestry.speedFast",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShortest",
+                "UID0:8": "forestry.lifespanShortest",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -99608,7 +100195,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinBees",
-              "Count": 20,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -99620,23 +100207,326 @@
         {
           "rewards": [
             {
-              "id": "ExtraBees:hive",
+              "id": "Forestry:beeQueenGE",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 10,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 10,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 10,
+                "Health:4": 10,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 10,
+                "Health:4": 10,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedFast",
+                      "UID0:8": "forestry.speedFast",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortest",
+                      "UID0:8": "forestry.lifespanShortest",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        479
+        44
       ]
     },
     {
       "questID": 1049,
-      "name": "Ender Hive",
-      "description": "Want some Ender Bees? Buy some!",
+      "name": "Noble Bees",
+      "description": "Want some noble Bees? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99645,7 +100535,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 4800,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99653,10 +100543,153 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "Forestry:beehives",
+        "id": "Forestry:beeQueenGE",
         "Count": 1,
         "OreDict": "",
-        "Damage": 5
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 30,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesNoble",
+                "UID0:8": "forestry.speciesNoble",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShort",
+                "UID0:8": "forestry.lifespanShort",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlow",
+                "UID0:8": "forestry.floweringSlow",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          },
+          "Health:4": 30,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesNoble",
+                "UID0:8": "forestry.speciesNoble",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShort",
+                "UID0:8": "forestry.lifespanShort",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlow",
+                "UID0:8": "forestry.floweringSlow",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -99680,17 +100713,320 @@
         {
           "rewards": [
             {
-              "id": "Forestry:beehives",
+              "id": "Forestry:beeQueenGE",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 30,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShort",
+                      "UID0:8": "forestry.lifespanShort",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlow",
+                      "UID0:8": "forestry.floweringSlow",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 30,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShort",
+                      "UID0:8": "forestry.lifespanShort",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlow",
+                      "UID0:8": "forestry.floweringSlow",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 30,
+                "Health:4": 30,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShort",
+                      "UID0:8": "forestry.lifespanShort",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlow",
+                      "UID0:8": "forestry.floweringSlow",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 30,
+                "Health:4": 30,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShort",
+                      "UID0:8": "forestry.lifespanShort",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlow",
+                      "UID0:8": "forestry.floweringSlow",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        986
+        88
       ]
     },
     {
@@ -99875,8 +101211,8 @@
     },
     {
       "questID": 1053,
-      "name": "Infernal Hive",
-      "description": "Want some Infernal Bees? Buy some!",
+      "name": "Majestic Bees",
+      "description": "Want some majestic Bees? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99885,7 +101221,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 9600,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99893,10 +101229,153 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "MagicBees:hive",
+        "id": "Forestry:beeQueenGE",
         "Count": 1,
         "OreDict": "",
-        "Damage": 4
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 35,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesMajestic",
+                "UID0:8": "forestry.speciesMajestic",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedNormal",
+                "UID0:8": "forestry.speedNormal",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShortened",
+                "UID0:8": "forestry.lifespanShortened",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityMaximum",
+                "UID0:8": "forestry.fertilityMaximum",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          },
+          "Health:4": 35,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesMajestic",
+                "UID0:8": "forestry.speciesMajestic",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedNormal",
+                "UID0:8": "forestry.speedNormal",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShortened",
+                "UID0:8": "forestry.lifespanShortened",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityMaximum",
+                "UID0:8": "forestry.fertilityMaximum",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -99908,7 +101387,7 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinBeesI",
-              "Count": 5,
+              "Count": 7,
               "OreDict": "",
               "Damage": 0
             }
@@ -99920,23 +101399,326 @@
         {
           "rewards": [
             {
-              "id": "MagicBees:hive",
+              "id": "Forestry:beeQueenGE",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 35,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMajestic",
+                      "UID0:8": "forestry.speciesMajestic",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedNormal",
+                      "UID0:8": "forestry.speedNormal",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortened",
+                      "UID0:8": "forestry.lifespanShortened",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityMaximum",
+                      "UID0:8": "forestry.fertilityMaximum",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 35,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMajestic",
+                      "UID0:8": "forestry.speciesMajestic",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedNormal",
+                      "UID0:8": "forestry.speedNormal",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortened",
+                      "UID0:8": "forestry.lifespanShortened",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityMaximum",
+                      "UID0:8": "forestry.fertilityMaximum",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 35,
+                "Health:4": 35,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMajestic",
+                      "UID0:8": "forestry.speciesMajestic",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedNormal",
+                      "UID0:8": "forestry.speedNormal",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortened",
+                      "UID0:8": "forestry.lifespanShortened",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityMaximum",
+                      "UID0:8": "forestry.fertilityMaximum",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 35,
+                "Health:4": 35,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMajestic",
+                      "UID0:8": "forestry.speciesMajestic",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedNormal",
+                      "UID0:8": "forestry.speedNormal",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShortened",
+                      "UID0:8": "forestry.lifespanShortened",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityMaximum",
+                      "UID0:8": "forestry.fertilityMaximum",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        986
+        88
       ]
     },
     {
       "questID": 1054,
-      "name": "Oblivion Hive",
-      "description": "Want some Oblivion Bees? Buy some!",
+      "name": "Imperial Bees",
+      "description": "Want some imperial Bees? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99945,7 +101727,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 19200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99953,10 +101735,84 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "MagicBees:hive",
+        "id": "Forestry:beePrincessGE",
         "Count": 1,
         "OreDict": "",
-        "Damage": 5
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 40,
+          "Health:4": 40,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesImperial",
+                "UID0:8": "forestry.speciesImperial",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanNormal",
+                "UID0:8": "forestry.lifespanNormal",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectBeatific",
+                "UID0:8": "forestry.effectBeatific",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -99967,8 +101823,8 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinBeesI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinBeesII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -99980,17 +101836,320 @@
         {
           "rewards": [
             {
-              "id": "MagicBees:hive",
+              "id": "Forestry:beeQueenGE",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 40,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesImperial",
+                      "UID0:8": "forestry.speciesImperial",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanNormal",
+                      "UID0:8": "forestry.lifespanNormal",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectBeatific",
+                      "UID0:8": "forestry.effectBeatific",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 40,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesImperial",
+                      "UID0:8": "forestry.speciesImperial",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanNormal",
+                      "UID0:8": "forestry.lifespanNormal",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectBeatific",
+                      "UID0:8": "forestry.effectBeatific",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 40,
+                "Health:4": 40,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesImperial",
+                      "UID0:8": "forestry.speciesImperial",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanNormal",
+                      "UID0:8": "forestry.lifespanNormal",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectBeatific",
+                      "UID0:8": "forestry.effectBeatific",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 40,
+                "Health:4": 40,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesImperial",
+                      "UID0:8": "forestry.speciesImperial",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanNormal",
+                      "UID0:8": "forestry.lifespanNormal",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectBeatific",
+                      "UID0:8": "forestry.effectBeatific",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        986
+        89
       ]
     },
     {
@@ -100068,907 +102227,6 @@
       ],
       "preRequisites": [
         260
-      ]
-    },
-    {
-      "questID": 1056,
-      "name": "Meadow Hive",
-      "description": "Want some Meadows Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "Forestry:beehives",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 2
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "Forestry:beehives",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1057,
-      "name": "Modest Hive",
-      "description": "Want some Modest Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "Forestry:beehives",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 3
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "Forestry:beehives",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 3
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1058,
-      "name": "Tropical Hive",
-      "description": "Want some Forest Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "Forestry:beehives",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 4
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "Forestry:beehives",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 4
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1059,
-      "name": "Wintry Hive",
-      "description": "Want some Wintry Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "Forestry:beehives",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 6
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "Forestry:beehives",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 6
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1060,
-      "name": "Marshy Hive",
-      "description": "Want some Marshy Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "Forestry:beehives",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 7
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "Forestry:beehives",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 7
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1061,
-      "name": "Water Hive",
-      "description": "Want some Water Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "ExtraBees:hive",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "ExtraBees:hive",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1062,
-      "name": "Rocky Hive",
-      "description": "Want some Rocky Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "ExtraBees:hive",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 1
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "ExtraBees:hive",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1063,
-      "name": "Nether Hive",
-      "description": "Want some Embittered Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 2400,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "ExtraBees:hive",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 2
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 20,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "ExtraBees:hive",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        479
-      ]
-    },
-    {
-      "questID": 1064,
-      "name": "Curious Hive",
-      "description": "Want some Mystical Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "MagicBees:hive",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "MagicBees:hive",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1065,
-      "name": "Unusual Hive",
-      "description": "Want some Unusual Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "MagicBees:hive",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 1
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "MagicBees:hive",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1066,
-      "name": "Resonating Hive",
-      "description": "Want some Sorcerous Bees? Buy some!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": 1200,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "MagicBees:hive",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 2
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinBees",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "MagicBees:hive",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        44
-      ]
-    },
-    {
-      "questID": 1067,
-      "name": "Space Station",
-      "description": "If you dont have some Space station yet?\nYou can add up to four spin truster to your station to rotate it.\n\nDays on space staions longer then on the overworld so you can generated more power from solar.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "GalaxySpace:item.ModuleLander3",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:iron_ingot",
-              "Count": 24,
-              "OreDict": "ingotIron",
-              "Damage": 0
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
-              "OreDict": "ingotTin",
-              "Damage": 11057
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "ingotAluminium",
-              "Damage": 11019
-            },
-            {
-              "id": "GalacticraftCore:item.basicItem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 14
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "GalacticraftCore:item.standardWrench",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "GalacticraftCore:tile.spinThruster",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 6
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        810
-      ]
-    },
-    {
-      "questID": 1068,
-      "name": "Are you prepared?",
-      "description": "Are you prepared for the Moon?\nA few things will help you to live longer or beware you of death on the Moon.\nIf you died on the moon you will be retured to earth without your stuff. Grave are left on the location you died.",
-      "isMain": true,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:book",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0,
-        "tag": {
-          "ench:9": [
-            {
-              "lvl:4": 2,
-              "id:4": 212
-            }
-          ]
-        }
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "EnderIO:blockEnchanter",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "EnderIO:itemMaterial",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "minecraft:writable_book",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:enchanted_book",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "StoredEnchantments:9": [
-                  {
-                    "lvl:4": 1,
-                    "id:4": 8
-                  }
-                ]
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "minecraft:book",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "ench:9": [
-                  {
-                    "lvl:4": 2,
-                    "id:4": 212
-                  }
-                ]
-              }
-            },
-            {
-              "id": "GalacticraftCore:item.basicItem",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 9
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 6
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinSpaceII",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        810
       ]
     }
   ],
@@ -103656,78 +104914,8 @@
           "y": 324
         },
         {
-          "id": 1050,
-          "x": 0,
-          "y": 276
-        },
-        {
-          "id": 1051,
-          "x": 36,
-          "y": 276
-        },
-        {
-          "id": 1052,
-          "x": 72,
-          "y": 276
-        },
-        {
-          "id": 1056,
-          "x": 36,
-          "y": 324
-        },
-        {
-          "id": 1057,
-          "x": 72,
-          "y": 324
-        },
-        {
-          "id": 1058,
-          "x": 108,
-          "y": 324
-        },
-        {
-          "id": 1059,
-          "x": 144,
-          "y": 324
-        },
-        {
-          "id": 1060,
-          "x": 180,
-          "y": 324
-        },
-        {
-          "id": 1061,
-          "x": 216,
-          "y": 324
-        },
-        {
-          "id": 1062,
-          "x": 252,
-          "y": 324
-        },
-        {
-          "id": 1063,
-          "x": 0,
-          "y": 360
-        },
-        {
-          "id": 1064,
-          "x": 288,
-          "y": 324
-        },
-        {
-          "id": 1065,
-          "x": 324,
-          "y": 324
-        },
-        {
-          "id": 1066,
-          "x": 360,
-          "y": 324
-        },
-        {
           "id": 1048,
-          "x": 36,
+          "x": 0,
           "y": 360
         },
         {
@@ -103736,14 +104924,29 @@
           "y": 396
         },
         {
-          "id": 1053,
+          "id": 1050,
           "x": 36,
-          "y": 396
+          "y": 324
+        },
+        {
+          "id": 1051,
+          "x": 36,
+          "y": 360
+        },
+        {
+          "id": 1052,
+          "x": 72,
+          "y": 360
+        },
+        {
+          "id": 1053,
+          "x": 0,
+          "y": 432
         },
         {
           "id": 1054,
-          "x": 72,
-          "y": 396
+          "x": 0,
+          "y": 468
         }
       ]
     },
@@ -105300,16 +106503,6 @@
           "id": 832,
           "x": 0,
           "y": 0
-        },
-        {
-          "id": 1067,
-          "x": 120,
-          "y": 216
-        },
-        {
-          "id": 1068,
-          "x": 84,
-          "y": 252
         }
       ]
     },
