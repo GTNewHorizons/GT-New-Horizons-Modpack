@@ -89991,7 +89991,7 @@
     },
     {
       "questID": 949,
-      "name": "Seed Bags",
+      "name": "Garden Bags",
       "description": "Finding some special \"pams harvest craft\" gardens can be very difficult. With your farmer coins you can buy some gardenbags.",
       "isMain": false,
       "isSilent": false,
@@ -100991,6 +100991,96 @@
       "preRequisites": [
         810
       ]
+    },
+    {
+      "questID": 1069,
+      "name": "Oak, Spruce, Brich, Jungle Sapling",
+      "description": "You spawn in a dessert and need Oak saplings or Birch ones? No problem for five Forestry Coins you can select which one you want to buy.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 1200,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:sapling",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:sapling",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        440
+      ]
     }
   ],
   "questLines": [
@@ -103765,6 +103855,11 @@
           "id": 1054,
           "x": 72,
           "y": 396
+        },
+        {
+          "id": 1069,
+          "x": 36,
+          "y": 36
         }
       ]
     },
