@@ -212,7 +212,7 @@ mods.thaumcraft.Research.addPage("ElectricMagicTools", "tc.research_page.Electri
 
 // --- Diamond Chain Saw
 mods.thaumcraft.Research.removeResearch("Diamond Chainsaw");
-mods.thaumcraft.Research.addResearch("DiamondChainsaw", "EMT", "lucrum 12, ignis 9, metallum 6, terra 3", 0, -2, 2, <EMT:DiamondChainsaw:1>.withTag({shearsMode: 1 as byte}));
+mods.thaumcraft.Research.addResearch("DiamondChainsaw", "EMT", "lucrum 12, ignis 9, metallum 6, terra 3", 0, -2, 2, <EMT:DiamondChainsaw:27>.withTag({shearsMode: 1 as byte}));
 mods.thaumcraft.Research.addPrereq("DiamondChainsaw", "ElectricMagicTools", false);
 mods.thaumcraft.Research.setRound("DiamondChainsaw", true);
 game.setLocalization("tc.research_name.DiamondChainsaw", "Diamond Chainsaw");
@@ -223,7 +223,7 @@ mods.thaumcraft.Arcane.addShaped("DiamondChainsaw", <EMT:DiamondChainsaw:27>.wit
 [<ore:screwDiamond>, <ore:plateDiamond>, <ore:screwDiamond>],
 [<ore:plateDiamond>, <gregtech:gt.metatool.01:112>, <ore:plateDiamond>],
 [<ore:craftingToolHardHammer>, <ore:plateDiamond>, <ore:craftingToolWrench>]]);
-mods.thaumcraft.Research.addArcanePage("DiamondChainsaw", <EMT:DiamondChainsaw:1>.withTag({shearsMode: 1 as byte}));
+mods.thaumcraft.Research.addArcanePage("DiamondChainsaw", <EMT:DiamondChainsaw:27>.withTag({shearsMode: 1 as byte}));
 
 // --- Thaumic Plate
 mods.thaumcraft.Research.removeResearch("Thaumium Plate");
@@ -318,7 +318,7 @@ game.setLocalization("tc.research_page.NanosuitWings", "Combining the magic harn
 mods.thaumcraft.Infusion.addRecipe("NanosuitWings", <EMT:ThaumiumWing:*>,
 [<IC2:itemArmorNanoChestplate:*>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>], 
 "aer 48, machina 48, potentia 32, volatus 32, praecantatio 16, vitium 8, terra 8", <EMT:NanosuitWing:27>, 5);
-mods.thaumcraft.Research.addInfusionPage("NanosuitWings", <EMT:NanosuitWing:1>);
+mods.thaumcraft.Research.addInfusionPage("NanosuitWings", <EMT:NanosuitWing:27>);
 mods.thaumcraft.Warp.addToResearch("NanosuitWings", 2);
 
 // --- Quantum Wings
@@ -334,7 +334,7 @@ mods.thaumcraft.Research.addPage("QuantumWings", "tc.research_page.QuantumWings"
 game.setLocalization("tc.research_page.QuantumWings", "After exploring all the possibilities of nanotechnologies, you decided to do the last jump. Quantum. You can thrust yourself many blocks high, have a very good protection, and your fall is slowed down a lot. However, the quantum unpredictability happened once again. Your fall will be completely stopped when spacebar and sneak are maintained. You don't know why, but it works. Included: fall damage reduction, 100%.");
 mods.thaumcraft.Infusion.addRecipe("QuantumWings", <EMT:NanosuitWing:*>,
 [<IC2:itemArmorQuantumChestplate:*>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>], 
-"tutamen 64, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16", <EMT:QuantumWing:1>, 10);
+"tutamen 64, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16", <EMT:QuantumWing:27>, 10);
 mods.thaumcraft.Research.addInfusionPage("QuantumWings", <EMT:QuantumWing:27>);
 mods.thaumcraft.Warp.addToResearch("QuantumWings", 3);
 
@@ -352,7 +352,7 @@ game.setLocalization("tc.research_page.InfusedQuantumArmor", "You had been nothi
 mods.thaumcraft.Infusion.addRecipe("InfusedQuantumArmor", <IC2:itemArmorQuantumChestplate:*>,
 [<EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>, <EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>], 
 "tutamen 72, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16, lucrum 8", <EMT:itemArmorQuantumChestplate:27>, 15);
-mods.thaumcraft.Research.addInfusionPage("InfusedQuantumArmor", <EMT:itemArmorQuantumChestplate:1>);
+mods.thaumcraft.Research.addInfusionPage("InfusedQuantumArmor", <EMT:itemArmorQuantumChestplate:27>);
 mods.thaumcraft.Warp.addToResearch("InfusedQuantumArmor", 4);
 
 // --- Iron Omnitool
@@ -365,11 +365,11 @@ game.setLocalization("tc.research_name.IronOmnitool", "Iron Omnitool");
 game.setLocalization("tc.research_text.IronOmnitool", "Changing tools is for peasants");
 mods.thaumcraft.Research.addPage("IronOmnitool", "tc.research_page.IronOmnitool");
 game.setLocalization("tc.research_page.IronOmnitool", "While tinkering with the inner workings of some of your tools to see if magical integration is a possibility, you have discovered a way to combine the Mining Drill and the Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies! As you are working with mundane metals, magic influence is not needed to merge these tools together.");
-mods.thaumcraft.Arcane.addShaped("IronOmnitool", <EMT:Omnitool:1>, "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
+mods.thaumcraft.Arcane.addShaped("IronOmnitool", <EMT:Omnitool:27>, "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
 [<ore:screwIron>, <gregtech:gt.metatool.01:100>, <ore:screwIron>],
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
 [<ore:craftingToolHardHammer>, <gregtech:gt.metatool.01:110>, <ore:craftingToolWrench>]]);
-mods.thaumcraft.Research.addArcanePage("IronOmnitool", <EMT:Omnitool:1>);
+mods.thaumcraft.Research.addArcanePage("IronOmnitool", <EMT:Omnitool:27>);
 
 // --- Diamond Omnitool
 mods.thaumcraft.Research.orphanResearch("Diamond Omnitool");
@@ -386,7 +386,7 @@ game.setLocalization("tc.research_page.DiamondOmnitool", "Your discovery of an I
 mods.thaumcraft.Infusion.addRecipe("DiamondOmnitool", <EMT:DiamondChainsaw:*>,
 [<gregtech:gt.metatool.01:102>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>],
 "instrumentum 32, perfodio 24, potentia 24, metallum 16, telum 16, terra 8", <EMT:Diamond Omnitool:27>, 6);
-mods.thaumcraft.Research.addInfusionPage("DiamondOmnitool", <EMT:Diamond Omnitool:1>);
+mods.thaumcraft.Research.addInfusionPage("DiamondOmnitool", <EMT:Diamond Omnitool:27>);
 
 // --- Thaumium Omnitool
 mods.thaumcraft.Research.orphanResearch("Thaumium Omnitool");
@@ -404,7 +404,7 @@ game.setLocalization("tc.research_page.ThaumiumOmnitool", "After creating the Di
 mods.thaumcraft.Infusion.addRecipe("ThaumiumOmnitool", <EMT:ThaumiumChainsaw:*>,
 [<EMT:ThaumiumDrill:*>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
 "instrumentum 48, perfodio 24, potentia 32, metallum 24, telum 16, terra 8, praecantatio 16", <EMT:ThaumiumOmnitool:27>, 8);
-mods.thaumcraft.Research.addInfusionPage("ThaumiumOmnitool", <EMT:ThaumiumOmnitool:1>);
+mods.thaumcraft.Research.addInfusionPage("ThaumiumOmnitool", <EMT:ThaumiumOmnitool:27>);
 mods.thaumcraft.Warp.addToResearch("ThaumiumOmnitool", 1);
 
 // --- Electric Boots of The Traveller
@@ -422,7 +422,7 @@ game.setLocalization("tc.research_page.ElectricBootsoftheTraveller", "With lots 
 mods.thaumcraft.Infusion.addRecipe("ElectricBootsoftheTraveller", <Thaumcraft:BootsTraveller>,
 [<IC2:itemStaticBoots>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.blockmachines:1361>, <IC2:itemAdvBat:*>, <gregtech:gt.blockmachines:1361>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.01:17500>], 
 "motus 32, potentia 16, tutamen 32, praecantatio 8, volatus 8, iter 8", <EMT:ElectricBootsTraveller:27>, 3);
-mods.thaumcraft.Research.addInfusionPage("ElectricBootsoftheTraveller", <EMT:ElectricBootsTraveller:1>);
+mods.thaumcraft.Research.addInfusionPage("ElectricBootsoftheTraveller", <EMT:ElectricBootsTraveller:27>);
 
 // --- Nano Boots of The Traveller
 mods.thaumcraft.Research.orphanResearch("Nano Boots of the Traveller");
@@ -438,7 +438,7 @@ game.setLocalization("tc.research_page.NanoBootsoftheTraveller", "Your Electric 
 mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:*>,
 [<IC2:itemArmorNanoBoots:*>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:*>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
 "motus 48, potentia 24, tutamen 32, praecantatio 16, volatus 8, iter 16", <EMT:NanoBootsTraveller:27>, 6);
-mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller:1>);
+mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller:27>);
 mods.thaumcraft.Warp.addToResearch("NanoBootsoftheTraveller", 1);
 
 // --- Quantum Boots of The Traveller
@@ -455,7 +455,7 @@ game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "You have me
 mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:*>,
 [<IC2:itemArmorQuantumBoots:*>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:*>, <IC2:itemPartIridium>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
 "motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller:27>, 9);
-mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller:1>);
+mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller:27>);
 mods.thaumcraft.Warp.addToResearch("QuantumBootsoftheTraveller", 2);
 
 // --- Thaumium Drill
@@ -472,7 +472,7 @@ game.setLocalization("tc.research_page.ThaumiumDrill", "You have discovered a wa
 mods.thaumcraft.Infusion.addRecipe("ThaumiumDrill", <gregtech:gt.metatool.01:102>,
 [<gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
 "instrumentum 32, perfodio 16, potentia 32, lucrum 24, praecantatio 8", <EMT:ThaumiumDrill:27>, 7);
-mods.thaumcraft.Research.addInfusionPage("ThaumiumDrill", <EMT:ThaumiumDrill:1>);
+mods.thaumcraft.Research.addInfusionPage("ThaumiumDrill", <EMT:ThaumiumDrill:27>);
 mods.thaumcraft.Warp.addToResearch("ThaumiumDrill", 1);
 
 // --- Drill of The Rockbreaker
@@ -489,7 +489,7 @@ game.setLocalization("tc.research_page.DrilloftheRockbreaker", "After studying t
 mods.thaumcraft.Infusion.addRecipe("DrilloftheRockbreaker", <EMT:ThaumiumDrill:*>,
 [<Thaumcraft:ItemShovelElemental>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemPickaxeElemental>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
 "instrumentum 48, perfodio 24, potentia 48, lucrum 32, praecantatio 16, ignis 8", <EMT:DrillRockbreaker:27>, 10);
-mods.thaumcraft.Research.addInfusionPage("DrilloftheRockbreaker", <EMT:DrillRockbreaker:1>);
+mods.thaumcraft.Research.addInfusionPage("DrilloftheRockbreaker", <EMT:DrillRockbreaker:27>);
 mods.thaumcraft.Warp.addToResearch("DrilloftheRockbreaker", 2);
 
 // --- Thaumium Chainsaw
@@ -506,7 +506,7 @@ game.setLocalization("tc.research_page.ThaumiumChainsaw", "You have found a way 
 mods.thaumcraft.Infusion.addRecipe("ThaumiumChainsaw", <EMT:DiamondChainsaw:*>,
 [<gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
 "instrumentum 32, telum 24, potentia 24, lucrum 16, praecantatio 8", <EMT:ThaumiumChainsaw:27>, 7);
-mods.thaumcraft.Research.addInfusionPage("ThaumiumChainsaw", <EMT:ThaumiumChainsaw:1>);
+mods.thaumcraft.Research.addInfusionPage("ThaumiumChainsaw", <EMT:ThaumiumChainsaw:27>);
 mods.thaumcraft.Warp.addToResearch("ThaumiumChainsaw", 1);
 
 // --- Chainsaw of The Stream
@@ -523,7 +523,7 @@ game.setLocalization("tc.research_page.ChainsawoftheStream", "After studying bot
 mods.thaumcraft.Infusion.addRecipe("ChainsawoftheStream", <EMT:ThaumiumChainsaw:*>,
 [<Thaumcraft:ItemAxeElemental>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <Railcraft:tool.steel.shears>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
 "instrumentum 48, telum 32, potentia 32, lucrum 24, praecantatio 16, aer 8", <EMT:ChainsawStream:27>, 10);
-mods.thaumcraft.Research.addInfusionPage("ChainsawoftheStream", <EMT:ChainsawStream:1>);
+mods.thaumcraft.Research.addInfusionPage("ChainsawoftheStream", <EMT:ChainsawStream:27>);
 mods.thaumcraft.Warp.addToResearch("ChainsawoftheStream", 2);
 
 // --- Inventory Charging Ring
@@ -580,7 +580,7 @@ mods.thaumcraft.Arcane.addShaped("ElectricGogglesofRevealing", <EMT:ElectricGogg
 [<ore:wireGt02AnyCopper>, <minecraft:diamond_helmet>, <ore:wireGt02AnyCopper>],
 [<ore:circuitBasic>, <Thaumcraft:ItemGoggles>, <ore:circuitBasic>],
 [<ProjRed|Integration:projectred.integration.gate:10>, <IC2:itemAdvBat:*>, <ProjRed|Integration:projectred.integration.gate:10>]]);
-mods.thaumcraft.Research.addArcanePage("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing:164>);
+mods.thaumcraft.Research.addArcanePage("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing:165>);
 
 // --- Nanosuit Goggle of Revealing
 mods.thaumcraft.Research.addResearch("NanosuitGogglesofRevealing", "EMT", "tutamen 18, potentia 15, sensus 12, praecantatio 9, auram 6, electrum 3", -4, -2, 3, <EMT:NanosuitGogglesRevealing>);
@@ -594,7 +594,7 @@ game.setLocalization("tc.research_page.NanosuitGogglesofRevealing", "You have di
 mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:*>,
 [<IC2:itemArmorNanoHelmet:*>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:17330>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:32692>, <IC2:itemBatCrystal:*>, <gregtech:gt.metaitem.01:32692>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.blockmachines:1442>], 
 "tutamen 32, potentia 32, sensus 24, praecantatio 16, auram 8, electrum 8", <EMT:NanosuitGogglesRevealing:27>, 6);
-mods.thaumcraft.Research.addInfusionPage("NanosuitGogglesofRevealing", <EMT:NanosuitGogglesRevealing:1>);
+mods.thaumcraft.Research.addInfusionPage("NanosuitGogglesofRevealing", <EMT:NanosuitGogglesRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("NanosuitGogglesofRevealing", 1);
 
 // --- Quantum Goggle of Revealing
@@ -609,7 +609,7 @@ game.setLocalization("tc.research_page.QuantumGogglesofRevealing", "It took a lo
 mods.thaumcraft.Infusion.addRecipe("QuantumGogglesofRevealing", <EMT:NanosuitGogglesRevealing:*>,
 [<IC2:itemArmorQuantumHelmet:*>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32693>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:*>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32693>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.blockmachines:1563>], 
 "tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8", <EMT:QuantumGogglesRevealing:27>, 9);
-mods.thaumcraft.Research.addInfusionPage("QuantumGogglesofRevealing", <EMT:QuantumGogglesRevealing:1>);
+mods.thaumcraft.Research.addInfusionPage("QuantumGogglesofRevealing", <EMT:QuantumGogglesRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("QuantumGogglesofRevealing", 2);
 
 // --- Solar Helm of Revealing
@@ -627,7 +627,7 @@ game.setLocalization("tc.research_page.SolarHelmetofRevealing", "You now have a 
 mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGogglesRevealing:*>,
 [<EMT:EMTSolars:1>, <gregtech:gt.blockmachines:1624>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.metaitem.01:32694>, <dreamcraft:item.MysteriousCrystal>, <IC2:itemBatLamaCrystal:*>, <dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:32694>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.blockmachines:1624>], 
 "tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8, aer 16, lux 32", <EMT:SolarHelmetRevealing:27>, 12);
-mods.thaumcraft.Research.addInfusionPage("SolarHelmetofRevealing", <EMT:SolarHelmetRevealing:1>);
+mods.thaumcraft.Research.addInfusionPage("SolarHelmetofRevealing", <EMT:SolarHelmetRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("SolarHelmetofRevealing", 3);
 
 // --- Compressed Solar Pannels
@@ -789,7 +789,7 @@ mods.thaumcraft.Arcane.addShaped("ElectricScribingTools", <EMT:ElectricScribingT
 [<ore:circuitAdvanced>, <Thaumcraft:ItemInkwell>, <ore:circuitAdvanced>],
 [<Thaumcraft:ItemInkwell>, <IC2:itemBatCrystal:*>, <Thaumcraft:ItemInkwell>],
 [<ore:circuitAdvanced>, <Thaumcraft:ItemInkwell>, <ore:circuitAdvanced>]]);
-mods.thaumcraft.Research.addArcanePage("ElectricScribingTools", <EMT:ElectricScribingTools:1>);
+mods.thaumcraft.Research.addArcanePage("ElectricScribingTools", <EMT:ElectricScribingTools:400>);
 
 // --- Mjolnir
 mods.thaumcraft.Research.orphanResearch("Mjolnir");
@@ -806,7 +806,7 @@ game.setLocalization("tc.research_name.Mjolnirnew", "MjolniR");
 game.setLocalization("tc.research_text.Mjolnirnew", "Godly power");
 mods.thaumcraft.Research.addPage("Mjolnirnew", "tc.research_page.Mjolnirnew");
 game.setLocalization("tc.research_page.Mjolnirnew", "You have travelled the world, in quest for the mighty Hammer of Thor. One day, you stumbled upon its broken remains, and your heart crumbled with it. After some long and tedious research, you found a way to restore this magnificent tool to its past greatness.<BR><BR>You have an odd feeling,(you seem to have a lot of these), that although this tool is amazingly powerful, you could do more with it.");
-mods.thaumcraft.Infusion.addRecipe("Mjolnirnew", <EMT:TaintedMjolnir:1>,
+mods.thaumcraft.Infusion.addRecipe("Mjolnirnew", <EMT:TaintedMjolnir:*>,
 [<Thaumcraft:ItemSwordElemental>, <gregtech:gt.metaitem.01:17880>, <EMT:EMTItems:6>, <Thaumcraft:ItemResource:1>, <gregtech:gt.metaitem.01:17880>, <IC2:itemBatCrystal:*>, <Thaumcraft:FocusShock>, <IC2:itemBatCrystal:*>, <gregtech:gt.metaitem.01:17880>, <Thaumcraft:ItemResource:1>, <EMT:EMTItems:6>, <gregtech:gt.metaitem.01:17880>], 
 "telum 48, tempestas 48, alienis 32, ira 24, aer 16, ignis 16", <EMT:Mjolnir>, 10);
 mods.thaumcraft.Research.addInfusionPage("Mjolnirnew", <EMT:Mjolnir>);
@@ -827,7 +827,7 @@ game.setLocalization("tc.research_page.SuperchargedMjolnir", "After some more ex
 mods.thaumcraft.Infusion.addRecipe("SuperchargedMjolnir", <EMT:Mjolnir>,
 [<IC2:itemNanoSaber:*>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:*>, <Thaumcraft:FocusHellbat>, <IC2:itemBatLamaCrystal:*>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource>, <Thaumcraft:ItemResource:1>, <IC2:itemPartIridium>], 
 "telum 64, potentia 64, alienis 48, ira 32, aer 24, ignis 24, bestia 16", <EMT:SuperchargedMjolnir:27>, 15);
-mods.thaumcraft.Research.addInfusionPage("SuperchargedMjolnir", <EMT:SuperchargedMjolnir:1>);
+mods.thaumcraft.Research.addInfusionPage("SuperchargedMjolnir", <EMT:SuperchargedMjolnir:27>);
 
 // --- Lightning Summoner
 mods.thaumcraft.Research.orphanResearch("Lightning Summoner");
