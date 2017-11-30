@@ -66,7 +66,7 @@ val BasicCircuit = <ore:circuitBasic>;
 val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val DataCircuit = <ore:circuitData>;
-val EFlow = <gregtech:gt.metaitem.01:32706>;
+val EFlow = <ore:circuitMaster>;
 
 val StainlessPlate = <ore:plateStainlessSteel>;
 val EVBatBuffer = <gregtech:gt.blockmachines:194>;
