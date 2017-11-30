@@ -24642,16 +24642,8 @@
       "visibility": "UNLOCKED",
       "tasks": [
         {
-          "target": "Thaumcraft.CultistCleric",
-          "required": 2,
-          "subtypes": true,
-          "ignoreNBT": true,
-          "targetNBT": {},
-          "taskID": "bq_standard:hunt"
-        },
-        {
           "target": "Thaumcraft.CultistKnight",
-          "required": 2,
+          "required": 4,
           "subtypes": true,
           "ignoreNBT": true,
           "targetNBT": {},
@@ -25242,6 +25234,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "Thaumcraft:ItemSpawnerEgg",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
