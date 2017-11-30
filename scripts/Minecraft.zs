@@ -251,6 +251,32 @@ val Map = <minecraft:map>;
 val Paper = <ore:paperEmpty>;
 val WoodDoor = <minecraft:wooden_door>;
 val IronDoor = <minecraft:iron_door>;
+val Sign = <minecraft:sign>;
+
+val Sticks = <minecraft:stick>;
+val Sticks1 = <Natura:natura.stick:*>;
+
+val Planks = <gregtech:gt.metaitem.02:32470>;
+val Planks1 = <gregtech:gt.metaitem.02:32471>;
+val Planks2 = <gregtech:gt.metaitem.02:32472>;
+val Planks3 = <gregtech:gt.metaitem.02:32473>;
+val Planks4 = <gregtech:gt.metaitem.02:32474>;
+val Planks5 = <gregtech:gt.metaitem.02:32475>;
+val Planks6 = <gregtech:gt.metaitem.02:32476>;
+val Planks7 = <gregtech:gt.metaitem.02:32477>;
+val Planks8 = <gregtech:gt.metaitem.02:32478>;
+val Planks9 = <gregtech:gt.metaitem.02:32479>;
+val Planks10 = <gregtech:gt.metaitem.02:32480>;
+val Planks11 = <gregtech:gt.metaitem.02:32481>;
+val Planks12 = <gregtech:gt.metaitem.02:32482>;
+val Planks13 = <gregtech:gt.metaitem.02:32483>;
+val Planks14 = <gregtech:gt.metaitem.02:32484>;
+val Planks15 = <gregtech:gt.metaitem.02:32485>;
+val Planks16 = <gregtech:gt.metaitem.02:32486>;
+val Planks17 = <gregtech:gt.metaitem.02:32487>;
+val Planks18 = <gregtech:gt.metaitem.02:32488>;
+val Planks19 = <gregtech:gt.metaitem.02:32489>;
+val Planks20 = <gregtech:gt.metaitem.02:32490>;
 
 
 // --- Removing Recipes ---
@@ -3092,6 +3118,92 @@ Assembler.addRecipe(<minecraft:ladder> * 4, <minecraft:stick> * 2, <gregtech:gt.
 
 // --- Brick Blocks
 Assembler.addRecipe(<minecraft:brick_block> * 2, <minecraft:brick> * 8, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 500, 300, 16);
+
+// --- Sign
+Assembler.addRecipe(Sign * 3, Sticks, Planks, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks1, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks2, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks3, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks4, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks5, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks6, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks7, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks8, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks9, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks10, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks11, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks12, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks13, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks14, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks15, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks16, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks17, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks18, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks19, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks20, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks1, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks2, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks3, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks4, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks5, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks6, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks7, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks8, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks9, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks10, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks11, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks12, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks13, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks14, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks15, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks16, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks17, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks18, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks19, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks20, 100, 4);
+
 
 
 
