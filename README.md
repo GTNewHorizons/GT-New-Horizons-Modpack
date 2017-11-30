@@ -83,7 +83,7 @@ zeta.gtnewhorizons.com<BR>
  
 Dirt Huts EU Server Whitelisted<BR>
 http://dirthuts.com<BR>
-138.201.134.44:25562<BR>
+s1.digtobuild.com:25560<BR>
 
 
 ## US Server:<BR>
