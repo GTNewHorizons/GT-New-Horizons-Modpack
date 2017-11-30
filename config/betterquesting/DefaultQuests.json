@@ -50562,6 +50562,12 @@
               "Damage": 17308
             },
             {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 19035
+            },
+            {
               "id": "minecraft:glass",
               "Count": 2,
               "OreDict": "",
@@ -51458,6 +51464,12 @@
               "Damage": 32630
             },
             {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
+            },
+            {
               "id": "minecraft:hopper",
               "Count": 1,
               "OreDict": "",
@@ -51730,6 +51742,12 @@
               "Count": 2,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
             },
             {
               "id": "gregtech:gt.blockmachines",
