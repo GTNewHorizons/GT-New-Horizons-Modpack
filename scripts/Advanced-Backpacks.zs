@@ -237,3 +237,13 @@ recipes.addShaped(<adventurebackpack:coalJetpack>.withTag({jetpackData: {waterTa
 
 // --- Melon Juice Bottle
 mods.gregtech.Brewery.addRecipe(<liquid:water> * 750, <minecraft:melon>, <liquid:melonjuice> * 750, false);
+
+
+
+
+// --- Tooltips ---
+
+
+
+
+<Backpack:backpack:*>.addTooltip(format.red("Idiots! not update your backpack with stuff inside - Dream 2017!"));
