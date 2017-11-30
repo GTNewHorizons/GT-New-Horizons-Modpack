@@ -48291,7 +48291,7 @@
     {
       "questID": 557,
       "name": "NITRO! (Cetane-boosted diesel)",
-      "description": "720,000 EU per cell. Yes, yes, this is very good! Make some cetane-boosted diesel fuel and power your MV Diesel Engine with it. For LV Diesel Engines this diesel is too potent to be used!",
+      "description": "720,000 EU per cell. Yes, yes, this is very good! Make some cetane-boosted diesel fuel and power yourDiesel Engine with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
