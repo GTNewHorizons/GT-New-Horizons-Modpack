@@ -101081,6 +101081,178 @@
       "preRequisites": [
         440
       ]
+    },
+    {
+      "questID": 1070,
+      "name": "Magic Feather",
+      "description": "Lets craft some magical Map focus to create a magical map and find Twilight Monster Bosses a bit more easy.\nGo find some Raven feather. You can get them by killing Raven sitting on Obsidian Blocks in Twilight. Then you need some Torcheberrys and at least Glowstone dust.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.magicMapFocus",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.tfFeather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:item.torchberries",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.magicMapFocus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        225
+      ]
+    },
+    {
+      "questID": 1071,
+      "name": "Magic Map",
+      "description": "For the Magic map you need the magic map focus and a stack of Paper. Please using the map only in twilight forest you can get every 24h a new map so be careful with it. Using the map in the Overworld or another dimension will lag the server.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 86400,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.emptyMagicMap",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.magicMapFocus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.emptyMagicMap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1070
+      ]
     }
   ],
   "questLines": [
@@ -104012,192 +104184,202 @@
         {
           "id": 224,
           "x": 0,
-          "y": 0
+          "y": 36
         },
         {
           "id": 225,
           "x": 48,
-          "y": 0
+          "y": 36
         },
         {
           "id": 226,
           "x": 228,
-          "y": 0
+          "y": 36
         },
         {
           "id": 229,
           "x": 48,
-          "y": 36
+          "y": 72
         },
         {
           "id": 231,
           "x": 144,
-          "y": 0
+          "y": 36
         },
         {
           "id": 232,
           "x": 300,
-          "y": 0
+          "y": 36
         },
         {
           "id": 230,
           "x": 108,
-          "y": 0
+          "y": 36
         },
         {
           "id": 233,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
           "id": 227,
           "x": 180,
-          "y": 0
+          "y": 36
         },
         {
           "id": 234,
           "x": 300,
-          "y": 72
+          "y": 108
         },
         {
           "id": 235,
           "x": 228,
-          "y": 36
+          "y": 72
         },
         {
           "id": 236,
           "x": 264,
-          "y": 36
+          "y": 72
         },
         {
           "id": 237,
           "x": 228,
-          "y": 108
+          "y": 144
         },
         {
           "id": 238,
           "x": 228,
-          "y": 144
+          "y": 180
         },
         {
           "id": 241,
           "x": 48,
-          "y": 72
+          "y": 108
         },
         {
           "id": 242,
           "x": 0,
-          "y": 144
+          "y": 180
         },
         {
           "id": 243,
           "x": 48,
-          "y": 144
+          "y": 180
         },
         {
           "id": 244,
           "x": 144,
-          "y": 180
+          "y": 216
         },
         {
           "id": 246,
           "x": 300,
-          "y": 180
+          "y": 216
         },
         {
           "id": 247,
           "x": 144,
-          "y": 252
+          "y": 288
         },
         {
           "id": 248,
           "x": 300,
-          "y": 252
+          "y": 288
         },
         {
           "id": 249,
           "x": 144,
-          "y": 216
+          "y": 252
         },
         {
           "id": 250,
           "x": 300,
-          "y": 216
+          "y": 252
         },
         {
           "id": 245,
           "x": 228,
-          "y": 216
+          "y": 252
         },
         {
           "id": 251,
           "x": 144,
-          "y": 144
+          "y": 180
         },
         {
           "id": 239,
           "x": 180,
-          "y": 144
+          "y": 180
         },
         {
           "id": 252,
           "x": 264,
-          "y": 108
+          "y": 144
         },
         {
           "id": 253,
           "x": 180,
-          "y": 72
+          "y": 108
         },
         {
           "id": 254,
           "x": 144,
-          "y": 72
+          "y": 108
         },
         {
           "id": 240,
           "x": 180,
-          "y": 108
+          "y": 144
         },
         {
           "id": 256,
           "x": 108,
-          "y": 108
+          "y": 144
         },
         {
           "id": 255,
           "x": 108,
-          "y": 72
+          "y": 108
         },
         {
           "id": 257,
           "x": 180,
-          "y": 36
+          "y": 72
         },
         {
           "id": 258,
           "x": 300,
-          "y": 144
+          "y": 180
         },
         {
           "id": 259,
           "x": 264,
-          "y": 144
+          "y": 180
         },
         {
           "id": 610,
           "x": 0,
-          "y": 36
+          "y": 72
         },
         {
           "id": 798,
           "x": 264,
-          "y": 72
+          "y": 108
         },
         {
           "id": 1002,
           "x": 48,
-          "y": 108
+          "y": 144
+        },
+        {
+          "id": 1070,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 1071,
+          "x": 108,
+          "y": 0
         }
       ]
     },
