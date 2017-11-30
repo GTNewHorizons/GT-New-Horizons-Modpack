@@ -532,6 +532,9 @@ recipes.remove(<GalacticraftCore:item.basicItem:20>);
 // --- Raw meteoric Iron
 furnace.remove(<ore:ingotMeteoricIron>, <GalacticraftCore:item.meteoricIronRaw>);
 
+// --- Parachute
+recipes.remove(<GalacticraftCore:item.parachute>);
+
 
 
 
@@ -1136,9 +1139,9 @@ recipes.addShaped(<GalacticraftMars:item.orionDrive>, [
 
 // --- Canvas
 recipes.addShaped(<GalacticraftCore:item.canvas>,  [
-[null, <ore:platePaper>, <ore:stickWood>],
-[<ore:platePaper>, <minecraft:string>, <ore:platePaper>],
-[<ore:stickWood>, <ore:platePaper>, null]]);
+[null, <harvestcraft:wovencottonItem>, <ore:stickPlastic>],
+[<harvestcraft:wovencottonItem>, <ore:stickPlastic>, <harvestcraft:wovencottonItem>],
+[<ore:stickPlastic>, <harvestcraft:wovencottonItem>, null]]);
 
 // --- Ambiete Thermal Controller
 recipes.addShaped(<GalacticraftCore:item.basicItem:20>,  [
@@ -1184,6 +1187,12 @@ recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
 [null, <GalacticraftMars:item.schematic:2>, null],
 [null, null, null],
 [null, null, null]]);
+
+// --- Parachute
+recipes.addShaped(<GalacticraftCore:item.parachute>, [
+[<GalacticraftCore:item.canvas>, <GalacticraftCore:item.canvas>, <GalacticraftCore:item.canvas>],
+[<ore:wireFineSteel>, null, <ore:wireFineSteel>],
+[<ore:wireFineSteel>, <ore:wireFineSteel>, <ore:wireFineSteel>]]);
 
 // --- Rocket Tier 1
 mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship>,[
@@ -1628,6 +1637,13 @@ Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelm
 
 // --- Solar Panel
 Assembler.addRecipe(<GalacticraftCore:item.basicItem>, SolarPanel, <GalacticraftCore:item.basicItem:9>, 200, 120);
+
+// --- Canvas
+Assembler.addRecipe(<GalacticraftCore:item.canvas>,  <harvestcraft:wovencottonItem> * 2, <gregtech:gt.metaitem.01:23874> * 2, 300, 480);
+
+// --- Parachute
+Assembler.addRecipe(<GalacticraftCore:item.parachute>, <GalacticraftCore:item.canvas> * 2, <gregtech:gt.metaitem.02:19305> * 3, 300, 480);
+
 
 
 
