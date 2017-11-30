@@ -131,7 +131,7 @@ recipes.addShapeless(<Thaumcraft:ItemEssence>, [<minecraft:glass_bottle>, <ore:r
 mods.thaumcraft.Research.addCraftingPage("PHIAL", <Thaumcraft:ItemEssence>);
 
 // --- Magic Tallow
-mods.thaumcraft.Crucible.addRecipe("TALLOW", <Thaumcraft:ItemResource:4>, <minecraft:rotten_flesh>, "praecantatio 2, corpus 4, mortuus 2");
+mods.thaumcraft.Crucible.addRecipe("TALLOW", <Thaumcraft:ItemResource:4>, <gregtech:gt.metaitem.01:2877>, "praecantatio 2, corpus 4, mortuus 2");
 
 mods.thaumcraft.Research.setAspects("TALLOW", "corpus 6, praecantatio 6, motus 3");
 mods.thaumcraft.Research.setComplexity("TALLOW", 1);
