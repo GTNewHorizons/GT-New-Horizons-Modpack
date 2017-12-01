@@ -2301,6 +2301,11 @@ recipes.addShaped(ClayBlock * 2, [
 [<ore:itemClay>, <ore:itemClay>, <ore:itemClay>],
 [<ore:itemClay>, <minecraft:water_bucket>, <ore:itemClay>],
 [<ore:itemClay>, <ore:itemClay>, <ore:itemClay>]]);
+// -
+recipes.addShaped(ClayBlock * 2, [
+[<ore:itemClay>, <ore:itemClay>, <ore:itemClay>],
+[<ore:itemClay>, <IguanaTweaksTConstruct:clayBucketWater>, <ore:itemClay>],
+[<ore:itemClay>, <ore:itemClay>, <ore:itemClay>]]);
 
 // --- Pumpkin Seeds
 recipes.addShaped(<minecraft:pumpkin_seeds> * 2, [[<minecraft:pumpkin>, <ore:craftingToolHardHammer>]]);
