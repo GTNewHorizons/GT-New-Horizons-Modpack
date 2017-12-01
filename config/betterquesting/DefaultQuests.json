@@ -69688,16 +69688,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "IC2:itemFluidCell",
-              "Count": 5,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "molten.plastic",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 11874
             }
           ],
           "taskID": "bq_standard:retrieval"
