@@ -77812,22 +77812,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:paper",
-              "Count": 12,
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "minecraft:stick",
-              "Count": 6,
-              "OreDict": "stickWood",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:string",
-              "Count": 6,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 23874
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -77845,10 +77839,10 @@
               "Damage": 0
             },
             {
-              "id": "minecraft:string",
-              "Count": 3,
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 5,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 19305
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -100847,7 +100841,7 @@
       "questID": 1068,
       "name": "Are you prepared?",
       "description": "Are you prepared for the Moon?\nA few things will help you to live longer or beware you of death on the Moon.\nIf you died on the moon you will be retured to earth without your stuff. Grave are left on the location you died.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -100965,13 +100959,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSpaceII",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -101243,6 +101237,154 @@
       ],
       "preRequisites": [
         1070
+      ]
+    },
+    {
+      "questID": 1072,
+      "name": "Moon arrival",
+      "description": "I have a small present for you: a Talisman of Remedium very usefull to persevere the dark nights with all this Monsters.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:mooncharm",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 28,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.moonBlock",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "GalacticraftCore:tile.moonBlock",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "GalacticraftCore:tile.moonBlock",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:quartz",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:coal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ghast_tear",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ender_eye",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "ThaumicTinkerer:cleansingTalisman",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enabled:4": 0
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        810
       ]
     }
   ],
@@ -105597,8 +105739,13 @@
         },
         {
           "id": 1068,
-          "x": 84,
+          "x": 48,
           "y": 252
+        },
+        {
+          "id": 1072,
+          "x": 84,
+          "y": 300
         }
       ]
     },
