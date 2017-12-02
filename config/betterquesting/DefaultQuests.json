@@ -71478,7 +71478,7 @@
         }
       ],
       "preRequisites": [
-        89
+        896
       ],
       "questID": 740
     },
@@ -73602,21 +73602,21 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "gregtech:gt.metaitem.01",
+            "id": "gregtech:gt.blockmachines",
             "Count": 1,
             "OreDict": "",
-            "Damage": 32501
+            "Damage": 162
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
-          "name": "MV Batteries",
+          "name": "MV Battery Buffers",
           "isGlobal": "false",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Better machines need some better batteries. Let\u0027s make some MV battery hulls for new batteries. Now it\u0027s up to you to make lithium, cadmium, sodium or acid batteries with these hulls."
+          "desc": "Mv machines need Battery Buffer too. The come in Different sizes like 1x, 4x, 9x and 16x.\nBuilding a 1x and a 4x buffer."
         }
       },
       "tasks": [
@@ -73628,10 +73628,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 32501
+              "Damage": 162
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 172
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -73646,6 +73652,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11019
             }
           ],
           "rewardID": "bq_standard:item",
@@ -73665,7 +73677,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1082
       ],
       "questID": 758
     },
@@ -107345,6 +107357,172 @@
         896
       ],
       "questID": 1081
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "gregtech:gt.metaitem.01",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 32528,
+            "tag": {
+              "GT.ItemCharge:4": 400000
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "MV Lithium Batterie",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Better machines need some better batteries. Lithium is the best Material you can make batteries out. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32528,
+              "tag": {
+                "GT.ItemCharge:4": 400000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17315
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        1083
+      ],
+      "questID": 1082
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "gregtech:gt.metaitem.01",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 32501
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "MV Batteries",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Better machines need some better batteries. Let\u0027s make some MV battery hulls for new batteries. Now it\u0027s up to you to make lithium, cadmium, sodium or acid batteries with these hulls."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32501
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        89
+      ],
+      "questID": 1083
     }
   ],
   "questLines": [
@@ -108934,6 +109112,18 @@
         },
         {
           "size": 24,
+          "x": 312,
+          "y": 168,
+          "id": 1082
+        },
+        {
+          "size": 24,
+          "x": 264,
+          "y": 168,
+          "id": 1083
+        },
+        {
+          "size": 24,
           "x": 156,
           "y": 36,
           "id": 837
@@ -109024,8 +109214,8 @@
         },
         {
           "size": 24,
-          "x": 264,
-          "y": 156,
+          "x": 72,
+          "y": 288,
           "id": 893
         },
         {
@@ -109036,8 +109226,8 @@
         },
         {
           "size": 24,
-          "x": 312,
-          "y": 156,
+          "x": 0,
+          "y": 288,
           "id": 894
         },
         {
@@ -109210,32 +109400,32 @@
         },
         {
           "size": 24,
-          "x": 84,
-          "y": 300,
+          "x": 0,
+          "y": 168,
           "id": 155
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 336,
+          "x": 0,
+          "y": 120,
           "id": 156
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 372,
+          "x": 0,
+          "y": 84,
           "id": 157
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 408,
+          "x": 36,
+          "y": 84,
           "id": 158
         },
         {
           "size": 24,
           "x": 0,
-          "y": 372,
+          "y": 48,
           "id": 159
         },
         {
@@ -109276,8 +109466,8 @@
         },
         {
           "size": 24,
-          "x": 360,
-          "y": 156,
+          "x": 0,
+          "y": 336,
           "id": 944
         },
         {
@@ -109372,8 +109562,8 @@
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 300,
+          "x": 348,
+          "y": 228,
           "id": 740
         },
         {
@@ -109414,7 +109604,7 @@
         },
         {
           "size": 24,
-          "x": 348,
+          "x": 396,
           "y": 552,
           "id": 750
         },
@@ -109444,32 +109634,32 @@
         },
         {
           "size": 24,
-          "x": 300,
-          "y": 324,
+          "x": 348,
+          "y": 372,
           "id": 757
         },
         {
           "size": 24,
           "x": 396,
-          "y": 444,
+          "y": 372,
           "id": 1013
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 300,
+          "x": 360,
+          "y": 168,
           "id": 758
         },
         {
           "size": 24,
-          "x": 348,
+          "x": 396,
           "y": 516,
           "id": 759
         },
         {
           "size": 24,
-          "x": 396,
-          "y": 480,
+          "x": 432,
+          "y": 372,
           "id": 1015
         },
         {
@@ -109480,13 +109670,13 @@
         },
         {
           "size": 24,
-          "x": 348,
+          "x": 396,
           "y": 480,
           "id": 1020
         },
         {
           "size": 24,
-          "x": 396,
+          "x": 432,
           "y": 516,
           "id": 1021
         }
