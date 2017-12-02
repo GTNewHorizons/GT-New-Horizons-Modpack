@@ -71597,7 +71597,7 @@
       ],
       "preRequisites": [
         103,
-        89
+        1081
       ],
       "questID": 741
     },
@@ -107262,6 +107262,89 @@
         906
       ],
       "questID": 1080
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "gregtech:gt.blockmachines",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 222
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "MV Bending",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Double Aluminium Plates are quite expensive but worth to make it for your Tool Forge. Using your new Mv Bender to make some."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 222
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        896
+      ],
+      "questID": 1081
     }
   ],
   "questLines": [
@@ -108845,6 +108928,12 @@
         },
         {
           "size": 24,
+          "x": 396,
+          "y": 264,
+          "id": 1081
+        },
+        {
+          "size": 24,
           "x": 156,
           "y": 36,
           "id": 837
@@ -108929,8 +109018,8 @@
         },
         {
           "size": 24,
-          "x": 468,
-          "y": 228,
+          "x": 660,
+          "y": 264,
           "id": 604
         },
         {
@@ -108965,20 +109054,20 @@
         },
         {
           "size": 24,
-          "x": 516,
+          "x": 672,
           "y": 204,
           "id": 128
         },
         {
           "size": 24,
-          "x": 312,
+          "x": 348,
           "y": 264,
           "id": 896
         },
         {
           "size": 24,
-          "x": 516,
-          "y": 264,
+          "x": 732,
+          "y": 300,
           "id": 129
         },
         {
@@ -108989,79 +109078,79 @@
         },
         {
           "size": 24,
-          "x": 564,
+          "x": 792,
           "y": 300,
           "id": 130
         },
         {
           "size": 24,
-          "x": 468,
+          "x": 660,
           "y": 300,
           "id": 131
         },
         {
           "size": 24,
-          "x": 564,
+          "x": 792,
           "y": 336,
           "id": 132
         },
         {
           "size": 24,
-          "x": 468,
-          "y": 264,
+          "x": 660,
+          "y": 336,
           "id": 133
         },
         {
           "size": 24,
-          "x": 564,
-          "y": 228,
+          "x": 732,
+          "y": 240,
           "id": 134
         },
         {
           "size": 24,
-          "x": 564,
-          "y": 264,
+          "x": 792,
+          "y": 204,
           "id": 135
         },
         {
           "size": 24,
-          "x": 612,
-          "y": 264,
+          "x": 732,
+          "y": 204,
           "id": 136
         },
         {
           "size": 24,
-          "x": 612,
-          "y": 228,
+          "x": 792,
+          "y": 240,
           "id": 137
         },
         {
           "size": 24,
-          "x": 564,
-          "y": 180,
+          "x": 672,
+          "y": 168,
           "id": 138
         },
         {
           "size": 24,
-          "x": 612,
-          "y": 180,
+          "x": 732,
+          "y": 168,
           "id": 140
         },
         {
           "size": 24,
-          "x": 612,
+          "x": 840,
           "y": 336,
           "id": 142
         },
         {
           "size": 24,
-          "x": 468,
+          "x": 696,
           "y": 336,
           "id": 143
         },
         {
           "size": 24,
-          "x": 516,
+          "x": 732,
           "y": 336,
           "id": 145
         },
@@ -109073,7 +109162,7 @@
         },
         {
           "size": 24,
-          "x": 612,
+          "x": 840,
           "y": 300,
           "id": 148
         },
@@ -109085,25 +109174,25 @@
         },
         {
           "size": 24,
-          "x": 648,
+          "x": 924,
           "y": 336,
           "id": 149
         },
         {
           "size": 24,
-          "x": 612,
+          "x": 840,
           "y": 372,
           "id": 150
         },
         {
           "size": 24,
-          "x": 648,
+          "x": 888,
           "y": 300,
           "id": 151
         },
         {
           "size": 24,
-          "x": 696,
+          "x": 924,
           "y": 300,
           "id": 152
         },
@@ -109151,7 +109240,7 @@
         },
         {
           "size": 24,
-          "x": 312,
+          "x": 396,
           "y": 228,
           "id": 931
         },
@@ -109223,8 +109312,8 @@
         },
         {
           "size": 24,
-          "x": 420,
-          "y": 264,
+          "x": 624,
+          "y": 300,
           "id": 987
         },
         {
@@ -109247,8 +109336,8 @@
         },
         {
           "size": 24,
-          "x": 420,
-          "y": 228,
+          "x": 624,
+          "y": 264,
           "id": 990
         },
         {
@@ -109265,19 +109354,19 @@
         },
         {
           "size": 24,
-          "x": 0,
+          "x": 60,
           "y": 168,
           "id": 737
         },
         {
           "size": 24,
-          "x": 48,
+          "x": 96,
           "y": 132,
           "id": 738
         },
         {
           "size": 24,
-          "x": 0,
+          "x": 60,
           "y": 132,
           "id": 739
         },
@@ -109289,26 +109378,26 @@
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 84,
+          "x": 444,
+          "y": 264,
           "id": 741
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 36,
+          "x": 516,
+          "y": 264,
           "id": 742
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 36,
+          "x": 516,
+          "y": 228,
           "id": 743
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 84,
+          "x": 516,
+          "y": 300,
           "id": 744
         },
         {
