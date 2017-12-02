@@ -31874,7 +31874,7 @@
             "Damage": 38
           },
           "snd_update": "random.levelup",
-          "repeatTime": 4320,
+          "repeatTime": 86400,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Bloodlust: Refined evil",
@@ -31963,7 +31963,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 4320,
+          "repeatTime": 86400,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Bloodlust: Witches hand",
@@ -32121,7 +32121,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 4320,
+          "repeatTime": 86400,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Bloodlust: Taglock kits",
@@ -32201,7 +32201,7 @@
             "Damage": 39
           },
           "snd_update": "random.levelup",
-          "repeatTime": 4320,
+          "repeatTime": 86400,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Bloodlust: Drop of luck",
@@ -49144,7 +49144,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Witch)",
@@ -82790,7 +82790,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 604800,
+          "repeatTime": 12096000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Purge your warp",
@@ -87576,7 +87576,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Maple Syrup",
@@ -87641,7 +87641,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Seed Bags",
@@ -87946,7 +87946,7 @@
             "Damage": 8
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Iron berry bush",
@@ -88011,7 +88011,7 @@
             "Damage": 9
           },
           "snd_update": "random.levelup",
-          "repeatTime": 4800,
+          "repeatTime": 96000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Gold berry bush",
@@ -88076,7 +88076,7 @@
             "Damage": 10
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Copper berry bush",
@@ -88141,7 +88141,7 @@
             "Damage": 8
           },
           "snd_update": "random.levelup",
-          "repeatTime": 7200,
+          "repeatTime": 144000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Aluminum berry bush",
@@ -88206,7 +88206,7 @@
             "Damage": 66
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Witch",
@@ -88271,7 +88271,7 @@
             "Damage": 57
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Pigmen",
@@ -88336,7 +88336,7 @@
             "Damage": 61
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Blaze",
@@ -88401,7 +88401,7 @@
             "Damage": 62
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Magma Cube",
@@ -88466,7 +88466,7 @@
             "Damage": 58
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Enderman",
@@ -88531,7 +88531,7 @@
             "Damage": 59
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Cave Spider",
@@ -88596,7 +88596,7 @@
             "Damage": 56
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Ghast",
@@ -88661,7 +88661,7 @@
             "Damage": 11
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Tin berry bush",
@@ -88726,7 +88726,7 @@
             "Damage": 60
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Silverfish",
@@ -88791,7 +88791,7 @@
             "Damage": 56
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Magma Cube",
@@ -89681,7 +89681,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 43200,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Don\u0027t look it in the eyes!",
@@ -89762,7 +89762,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 43200,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "I don\u0027t even...",
@@ -89843,7 +89843,7 @@
             "Damage": 1
           },
           "snd_update": "random.levelup",
-          "repeatTime": 43200,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "A big ugly snake",
@@ -89924,7 +89924,7 @@
             "Damage": 2
           },
           "snd_update": "random.levelup",
-          "repeatTime": 43200,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Adventure time!",
@@ -90005,7 +90005,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 43200,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Who you\u0027re gonna call?",
@@ -90086,7 +90086,7 @@
             "Damage": 3
           },
           "snd_update": "random.levelup",
-          "repeatTime": 43200,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "The big fluffy crybaby",
@@ -90167,7 +90167,7 @@
             "Damage": 4
           },
           "snd_update": "random.levelup",
-          "repeatTime": 43200,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Let her go",
@@ -90248,7 +90248,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 43200,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Yeti. Alpha, Yeti.",
@@ -90460,7 +90460,7 @@
             "Damage": 4
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Creeper)",
@@ -90547,7 +90547,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Pigman)",
@@ -90634,7 +90634,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Spiders)",
@@ -90721,7 +90721,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Skeleton)",
@@ -90808,7 +90808,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Blaze)",
@@ -90895,7 +90895,7 @@
             "Damage": 2
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Zombie)",
@@ -90982,7 +90982,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Enderman)",
@@ -91073,7 +91073,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Wither)",
@@ -91251,7 +91251,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Skeleton: Evolved",
@@ -91410,7 +91410,7 @@
             "Damage": 4
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Creeper: Evolved",
@@ -91562,7 +91562,7 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Blaze: Evolved",
@@ -91735,7 +91735,7 @@
             "Damage": 10
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Ghast: Evolved",
@@ -91882,7 +91882,7 @@
             "Damage": 2
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Crystal Boss: Ayyy.. Wait, what?",
@@ -92061,7 +92061,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Slime: Evolved",
@@ -92203,7 +92203,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Wolf:Evolved",
@@ -95059,7 +95059,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Garden Bags",
@@ -95124,7 +95124,7 @@
             "Damage": 9
           },
           "snd_update": "random.levelup",
-          "repeatTime": 14400,
+          "repeatTime": 288000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "XP berry bush",
@@ -95707,7 +95707,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Piston",
@@ -95778,7 +95778,7 @@
             "Damage": 32640
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Piston LV",
@@ -95843,7 +95843,7 @@
             "Damage": 32600
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Motor LV",
@@ -95908,7 +95908,7 @@
             "Damage": 32610
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Pump LV",
@@ -95973,7 +95973,7 @@
             "Damage": 32630
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Conveyor LV",
@@ -96038,7 +96038,7 @@
             "Damage": 32650
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Robot Arm LV",
@@ -96103,7 +96103,7 @@
             "Damage": 32690
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Sensor LV",
@@ -96168,7 +96168,7 @@
             "Damage": 32680
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Emitter LV",
@@ -96233,7 +96233,7 @@
             "Damage": 32100
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Basic Circuit Board",
@@ -96298,7 +96298,7 @@
             "Damage": 32101
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Good Circuit Board",
@@ -96363,7 +96363,7 @@
             "Damage": 32700
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Vacuum Tubes",
@@ -96428,7 +96428,7 @@
             "Damage": 32716
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Resistors",
@@ -96493,7 +96493,7 @@
             "Damage": 32715
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Diodes",
@@ -96558,7 +96558,7 @@
             "Damage": 32033
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Wafers",
@@ -96623,7 +96623,7 @@
             "Damage": 32717
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Transistors",
@@ -96688,7 +96688,7 @@
             "Damage": 32039
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Ram Wafer",
@@ -96753,7 +96753,7 @@
             "Damage": 32037
           },
           "snd_update": "random.levelup",
-          "repeatTime": 4800,
+          "repeatTime": 96000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Integrated Logic Circuit Wafer",
@@ -96818,7 +96818,7 @@
             "Damage": 30707
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Oil",
@@ -96883,7 +96883,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Creosote Oil",
@@ -96948,7 +96948,7 @@
             "Damage": 30708
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Diesel",
@@ -97013,7 +97013,7 @@
             "Damage": 30715
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Methane",
@@ -97078,7 +97078,7 @@
             "Damage": 30627
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Bio Diesel",
@@ -97143,7 +97143,7 @@
             "Damage": 30013
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Oxygen",
@@ -97208,7 +97208,7 @@
             "Damage": 30012
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Nitrogen",
@@ -97273,7 +97273,7 @@
             "Damage": 30001
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Hydrogen",
@@ -97338,7 +97338,7 @@
             "Damage": 30726
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Glue",
@@ -97403,7 +97403,7 @@
             "Damage": 30724
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Lubricant",
@@ -97468,7 +97468,7 @@
             "Damage": 30629
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Glycerol",
@@ -97533,7 +97533,7 @@
             "Damage": 30709
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Cetan-Boosted Fuel",
@@ -97598,7 +97598,7 @@
             "Damage": 1
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Silverwood Sapling",
@@ -97669,7 +97669,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 21600,
+          "repeatTime": 432000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Time to kill (Ghast)",
@@ -103029,7 +103029,7 @@
             "Damage": 32601
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Motor MV",
@@ -103094,7 +103094,7 @@
             "Damage": 32631
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Conveyor MV",
@@ -103159,7 +103159,7 @@
             "Damage": 32611
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Pump MV",
@@ -103224,7 +103224,7 @@
             "Damage": 32641
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Piston MV",
@@ -103289,7 +103289,7 @@
             "Damage": 32651
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Robot Arm MV",
@@ -103354,7 +103354,7 @@
             "Damage": 32691
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Sensor MV",
@@ -103419,7 +103419,7 @@
             "Damage": 32681
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Emitter MV",
@@ -103484,7 +103484,7 @@
             "Damage": 32602
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Motor HV",
@@ -103549,7 +103549,7 @@
             "Damage": 32632
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Conveyor HV",
@@ -103614,7 +103614,7 @@
             "Damage": 32612
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Pump HV",
@@ -103679,7 +103679,7 @@
             "Damage": 32642
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Piston HV",
@@ -103744,7 +103744,7 @@
             "Damage": 32652
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Robot Arm HV",
@@ -103815,7 +103815,7 @@
             "Damage": 32692
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Sensor HV",
@@ -103886,7 +103886,7 @@
             "Damage": 32682
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Emitter HV",
@@ -103957,7 +103957,7 @@
             "Damage": 32106
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Plastic Circuit Board",
@@ -104022,7 +104022,7 @@
             "Damage": 32045
           },
           "snd_update": "random.levelup",
-          "repeatTime": 4800,
+          "repeatTime": 96000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Central Procesing Unit Wafer",
@@ -104087,7 +104087,7 @@
             "Damage": 32011
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Resistors SMD",
@@ -104152,7 +104152,7 @@
             "Damage": 32016
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Diodes SMD",
@@ -104217,7 +104217,7 @@
             "Damage": 32018
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Transistors SMD",
@@ -104282,7 +104282,7 @@
             "Damage": 32018
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Capacitor SMD",
@@ -104347,7 +104347,7 @@
             "Damage": 17874
           },
           "snd_update": "random.levelup",
-          "repeatTime": 3600,
+          "repeatTime": 72000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Plastic Sheet",
@@ -104412,7 +104412,7 @@
             "Damage": 30023
           },
           "snd_update": "random.levelup",
-          "repeatTime": 600,
+          "repeatTime": 12000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Chlorine",
@@ -104483,7 +104483,7 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Iron III Chloride",
@@ -104554,7 +104554,7 @@
             "Damage": 30629
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Sodium Persulfate",
@@ -104619,7 +104619,7 @@
             "Damage": 607
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Pyrochlore Ore",
@@ -104684,7 +104684,7 @@
             "Damage": 1
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Forest Hive",
@@ -104749,7 +104749,7 @@
             "Damage": 3
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Deep Hive",
@@ -104814,7 +104814,7 @@
             "Damage": 5
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Ender Hive",
@@ -104879,7 +104879,7 @@
             "Damage": 2
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Bees House",
@@ -104944,7 +104944,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 4800,
+          "repeatTime": 96000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Apiary",
@@ -105009,7 +105009,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Proven Frames",
@@ -105074,7 +105074,7 @@
             "Damage": 4
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Infernal Hive",
@@ -105139,7 +105139,7 @@
             "Damage": 5
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Oblivion Hive",
@@ -105287,7 +105287,7 @@
             "Damage": 2
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Meadow Hive",
@@ -105352,7 +105352,7 @@
             "Damage": 3
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Modest Hive",
@@ -105417,7 +105417,7 @@
             "Damage": 4
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Tropical Hive",
@@ -105482,7 +105482,7 @@
             "Damage": 6
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Wintry Hive",
@@ -105547,7 +105547,7 @@
             "Damage": 7
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Marshy Hive",
@@ -105612,7 +105612,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Water Hive",
@@ -105677,7 +105677,7 @@
             "Damage": 1
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Rocky Hive",
@@ -105742,7 +105742,7 @@
             "Damage": 2
           },
           "snd_update": "random.levelup",
-          "repeatTime": 2400,
+          "repeatTime": 48000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Nether Hive",
@@ -105807,7 +105807,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Curious Hive",
@@ -105872,7 +105872,7 @@
             "Damage": 1
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Unusual Hive",
@@ -105937,7 +105937,7 @@
             "Damage": 2
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Resonating Hive",
@@ -106257,7 +106257,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 1200,
+          "repeatTime": 24000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Oak, Spruce, Brich, Jungle Sapling",
@@ -106352,7 +106352,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Magic Feather",
@@ -106447,7 +106447,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 86400,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Magic Map",
