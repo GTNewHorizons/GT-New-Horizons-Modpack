@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0.1.3 is out 18.10.2017
+Version 2.0.2.0 is out 03.12.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -77,9 +77,6 @@ http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
-Official EU Test Server
-zeta.gtnewhorizons.com<BR>
-
  
 Dirt Huts EU Server Whitelisted<BR>
 http://dirthuts.com<BR>
@@ -142,8 +139,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
-* Better Questing 1.0.173d_unofficial<BR>
-* Better Questing Themed 1.0.0<BR>
+* Better Questing 2.0.233<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
 * Binnie Mods	2.0-22<BR>
@@ -151,10 +147,10 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
 * BloodMagic	1.3.3.24<BR>
-* Bloody Quest 1.1.0<BR>
+* Bloody Quest 1.2.0<BR>
 * Brandon's Core	1.0.0.12<BR>
-* Buildcraft	7.1.22<BR>
-* Buildcraft Compat	7.1.6<BR>
+* Buildcraft	7.1.23<BR>
+* Buildcraft Compat	7.1.7<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks	3.3.8.1<BR>
 * Catwalk Mod 1.1.0<BR>
@@ -192,14 +188,14 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Gadomancy 1.0.7.3<BR>
 * Galacticraft-Planets	3.0.12.502<BR>
 * GalacticraftCore	3.0.12.502<BR>
-* GalactiGreg	0.9.6<BR>
+* GalactiGreg	0.9.7<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.08<BR>
-* GT Scanner Mod 1.1<BR>
-* GT New Horizons Core Mod	1.5.11<BR>
-* GT++ 1.6.09<BR>
+* Gregtech	5.09.32.11<BR>
+* GT Scanner Mod 1.2<BR>
+* GT New Horizons Core Mod	1.5.13<BR>
+* GT++ 1.6.99<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -219,7 +215,6 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Iron Tanks	1.1.65a<BR>
 * Jabba	1.2.5<BR>
 * JourneyMap	5.1.4p2<BR>
-* Lava Monsters	2.2.1<BR>
 * Lootgames 1.0.12<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
@@ -259,20 +254,20 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Project Red-Lightning	4.7.0pre12.95GT<BR>
 * Project Red-Mechanical	4.7.0pre12.95GT<BR>
 * Project Red-World	4.7.0pre12.95GT<BR>
-* Questbook 1.1.0a_unofficial<BR>
+* Questbook 2.1.0<BR>
 * Railcraft	9.12.2.1<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
 * ReAuth 3.5.0<BR>
 * RemoteIO	2.4.0<BR>
-* RF Expansion 1.0.13<BR>
+* RF Expansion 2.0.25<BR>
 * Rogue like Dungeons	1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs	3.3.0<BR>
 * Spice of Life	1.3.11<BR>
-* Standard Expansion 1.0.108a_unofficial<BR>
+* Standard Expansion 2.0.130<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
@@ -280,7 +275,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
 * Tainted Magic	r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.5.2<BR>
+* Tec Tech 3.5.2a<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
@@ -292,14 +287,14 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Thaumic Tinkerer	2.5.553<BR>
 * TiCTooltips	1.2.5<BR>
 * Tinker's Construct	1.8.9.5-GTNH<BR>
-* Tinker's Gregworks	1.0.17<BR>
+* Tinker's Gregworks	1.0.18<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks	02.14.106<BR>
 * Too Much Loot 4.0.2.B1<BR>
 * Translocator	1.1.2.16<BR>
 * Twillight Forest	2.3.7<BR>
 * Ulity Mobs	3.1.1<BR>
-* Ulity Worlds	1.0.9<BR>
+* Ulity Worlds	1.0.9a<BR>
 * Universal Singularities Version 8.4<BR>
 * Waila	1.5.10<BR>
 * Waila Harvestability	1.1.6<BR>
