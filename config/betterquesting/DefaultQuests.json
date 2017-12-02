@@ -59496,7 +59496,6 @@
         }
       ],
       "preRequisites": [
-        7,
         634
       ],
       "questID": 635
@@ -59619,7 +59618,6 @@
         }
       ],
       "preRequisites": [
-        7,
         637
       ],
       "questID": 636
@@ -59715,7 +59713,6 @@
         }
       ],
       "preRequisites": [
-        7,
         635
       ],
       "questID": 637
@@ -59786,6 +59783,12 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
             }
           ],
           "rewardID": "bq_standard:choice",
@@ -59805,7 +59808,6 @@
         }
       ],
       "preRequisites": [
-        7,
         636
       ],
       "questID": 638
@@ -107728,6 +107730,527 @@
         36
       ],
       "questID": 1085
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:cactusfruitjuiceItem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Juice",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Most of your berrys can be extrat to Juice. This is a chance to get more food variants and the nutrition value is higher then eating the fruit directly."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:applejuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:blueberryjuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:strawberryjuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:carrotjuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:melonjuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:raspberryjuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:blackberryjuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:strawberrymilkshakeItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:chocolatemilkshakeItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:bananamilkshakeItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        51
+      ],
+      "questID": 1086
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:potatocakesItem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Potato Cakes",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Potatos, Onions, Butter and a skillet make very tasty Potato Cakes."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:skilletItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:potato",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:onionItem",
+              "Count": 1,
+              "OreDict": "cropOnion",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:butterItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:friedeggItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:egg",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sugar",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32559
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        665
+      ],
+      "questID": 1087
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:friedeggItem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Fried Eggs",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "So easy, skillet and an egg.... fried egg."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:skilletItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:egg",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:friedeggItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:butterItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:egg",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2817
+            },
+            {
+              "id": "harvestcraft:flourItem",
+              "Count": 8,
+              "OreDict": "foodFlour",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        665
+      ],
+      "questID": 1088
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:heartybreakfastItem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Hearty Breakfast",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Let\u0027s now combine all things together and make a healthy and very good Breakfast.\nSome cooked Meat, Potato Cakes, Toast, Fired Egg and a tasty juice and ready is you nurishing meal."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cooked_porkchop",
+              "Count": 1,
+              "OreDict": "listAllmeatcooked",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:potatocakesItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:friedeggItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:toastItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:applejuiceItem",
+              "Count": 64,
+              "OreDict": "listAlljuice",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:heartybreakfastItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:friedeggItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:potatocakesItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:toastItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        1088,
+        638,
+        1087,
+        1086
+      ],
+      "questID": 1089
     }
   ],
   "questLines": [
@@ -112769,6 +113292,18 @@
       "quests": [
         {
           "size": 24,
+          "x": 276,
+          "y": 180,
+          "id": 1088
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 228,
+          "id": 1089
+        },
+        {
+          "size": 24,
           "x": 96,
           "y": 36,
           "id": 718
@@ -112793,27 +113328,9 @@
         },
         {
           "size": 24,
-          "x": 372,
-          "y": 72,
-          "id": 1009
-        },
-        {
-          "size": 24,
           "x": 96,
           "y": 108,
           "id": 722
-        },
-        {
-          "size": 24,
-          "x": 420,
-          "y": 36,
-          "id": 1010
-        },
-        {
-          "size": 24,
-          "x": 264,
-          "y": 36,
-          "id": 627
         },
         {
           "size": 24,
@@ -112823,32 +113340,56 @@
         },
         {
           "size": 24,
-          "x": 264,
-          "y": 0,
-          "id": 628
-        },
-        {
-          "size": 24,
           "x": 48,
           "y": 72,
           "id": 724
         },
         {
           "size": 24,
-          "x": 264,
-          "y": 72,
-          "id": 629
-        },
-        {
-          "size": 24,
-          "x": 0,
-          "y": 156,
+          "x": 48,
+          "y": 144,
           "id": 725
         },
         {
           "size": 24,
-          "x": 264,
+          "x": 228,
+          "y": 144,
+          "id": 665
+        },
+        {
+          "size": 24,
+          "x": 360,
+          "y": 72,
+          "id": 1009
+        },
+        {
+          "size": 24,
+          "x": 228,
           "y": 108,
+          "id": 1010
+        },
+        {
+          "size": 24,
+          "x": 252,
+          "y": 36,
+          "id": 627
+        },
+        {
+          "size": 24,
+          "x": 312,
+          "y": 0,
+          "id": 628
+        },
+        {
+          "size": 24,
+          "x": 360,
+          "y": 36,
+          "id": 629
+        },
+        {
+          "size": 24,
+          "x": 360,
+          "y": 120,
           "id": 630
         },
         {
@@ -112860,7 +113401,7 @@
         {
           "size": 24,
           "x": 312,
-          "y": 180,
+          "y": 120,
           "id": 632
         },
         {
@@ -112868,12 +113409,6 @@
           "x": 312,
           "y": 72,
           "id": 633
-        },
-        {
-          "size": 24,
-          "x": 372,
-          "y": 36,
-          "id": 665
         },
         {
           "size": 24,
@@ -112904,6 +113439,18 @@
           "x": 168,
           "y": 180,
           "id": 638
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 180,
+          "id": 1086
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 180,
+          "id": 1087
         }
       ],
       "lineID": 17,
