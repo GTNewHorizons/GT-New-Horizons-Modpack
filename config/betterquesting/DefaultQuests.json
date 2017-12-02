@@ -106676,6 +106676,592 @@
         810
       ],
       "questID": 1072
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfspawnegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 182
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": 72000,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Naga",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Summon a Naga but only in the Twilight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.tfspawnegg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 182
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        902
+      ],
+      "questID": 1073
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfspawnegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 190
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": 72000,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Lich",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Summon a Lich but only in the Twilight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.tfspawnegg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 190
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        903
+      ],
+      "questID": 1074
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfspawnegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 205
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": 72000,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Minoshroom",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Summon a Minoshroom but only in the Twilight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.tfspawnegg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 205
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        901
+      ],
+      "questID": 1075
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfspawnegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 189
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": 72000,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Hydra",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Summon a Hydra but only in the Twilight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.tfspawnegg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 189
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        900
+      ],
+      "questID": 1076
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfspawnegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 224
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": 72000,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Knight Phantom",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Summon a Knight Phantom but only in the Twilight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.tfspawnegg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 224
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        904
+      ],
+      "questID": 1077
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfspawnegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 217
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": 72000,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Ur-Ghast",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Summon a Ur-Ghast but only in the Twilight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.tfspawnegg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 217
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        905
+      ],
+      "questID": 1078
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfspawnegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 226
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": 72000,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Yeti",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Summon a Yeti but only in the Twilight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.tfspawnegg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 226
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        907
+      ],
+      "questID": 1079
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfspawnegg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 231
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": 72000,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Snow Queen",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Summon a Snow Queen but only in the Twilight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TwilightForest:item.tfspawnegg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 231
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        906
+      ],
+      "questID": 1080
     }
   ],
   "questLines": [
@@ -109653,7 +110239,7 @@
         },
         {
           "size": 24,
-          "x": 480,
+          "x": 588,
           "y": 0,
           "id": 1046
         },
@@ -109776,6 +110362,144 @@
           "x": 36,
           "y": 36,
           "id": 1069
+        },
+        {
+          "size": 24,
+          "x": 300,
+          "y": 72,
+          "id": 1073
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 72,
+          "id": 1074
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 72,
+          "id": 1075
+        },
+        {
+          "size": 24,
+          "x": 408,
+          "y": 72,
+          "id": 1076
+        },
+        {
+          "size": 24,
+          "x": 408,
+          "y": 36,
+          "id": 1077
+        },
+        {
+          "size": 24,
+          "x": 408,
+          "y": 0,
+          "id": 1078
+        },
+        {
+          "size": 24,
+          "x": 444,
+          "y": 0,
+          "id": 1079
+        },
+        {
+          "size": 24,
+          "x": 480,
+          "y": 0,
+          "id": 1080
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 0,
+          "id": 872
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 0,
+          "id": 873
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 72,
+          "id": 876
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 108,
+          "id": 877
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 72,
+          "id": 878
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 144,
+          "id": 879
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 0,
+          "id": 880
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 36,
+          "id": 881
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 72,
+          "id": 882
+        },
+        {
+          "size": 24,
+          "x": 204,
+          "y": 36,
+          "id": 883
+        },
+        {
+          "size": 24,
+          "x": 204,
+          "y": 0,
+          "id": 884
+        },
+        {
+          "size": 24,
+          "x": 252,
+          "y": 0,
+          "id": 885
+        },
+        {
+          "size": 24,
+          "x": 204,
+          "y": 72,
+          "id": 886
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 72,
+          "id": 887
+        },
+        {
+          "size": 24,
+          "x": 300,
+          "y": 0,
+          "id": 888
         },
         {
           "size": 24,
@@ -109968,96 +110692,6 @@
           "x": 72,
           "y": 0,
           "id": 984
-        },
-        {
-          "size": 24,
-          "x": 36,
-          "y": 0,
-          "id": 872
-        },
-        {
-          "size": 24,
-          "x": 0,
-          "y": 0,
-          "id": 873
-        },
-        {
-          "size": 24,
-          "x": 0,
-          "y": 72,
-          "id": 876
-        },
-        {
-          "size": 24,
-          "x": 0,
-          "y": 108,
-          "id": 877
-        },
-        {
-          "size": 24,
-          "x": 36,
-          "y": 72,
-          "id": 878
-        },
-        {
-          "size": 24,
-          "x": 0,
-          "y": 144,
-          "id": 879
-        },
-        {
-          "size": 24,
-          "x": 156,
-          "y": 0,
-          "id": 880
-        },
-        {
-          "size": 24,
-          "x": 156,
-          "y": 36,
-          "id": 881
-        },
-        {
-          "size": 24,
-          "x": 156,
-          "y": 72,
-          "id": 882
-        },
-        {
-          "size": 24,
-          "x": 204,
-          "y": 36,
-          "id": 883
-        },
-        {
-          "size": 24,
-          "x": 204,
-          "y": 0,
-          "id": 884
-        },
-        {
-          "size": 24,
-          "x": 252,
-          "y": 0,
-          "id": 885
-        },
-        {
-          "size": 24,
-          "x": 204,
-          "y": 72,
-          "id": 886
-        },
-        {
-          "size": 24,
-          "x": 72,
-          "y": 72,
-          "id": 887
-        },
-        {
-          "size": 24,
-          "x": 300,
-          "y": 0,
-          "id": 888
         },
         {
           "size": 24,
