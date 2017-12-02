@@ -40768,7 +40768,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -41034,7 +41034,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
-          "visibility": "UNLOCKED",
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
