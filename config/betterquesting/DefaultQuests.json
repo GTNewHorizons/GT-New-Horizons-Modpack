@@ -106693,13 +106693,13 @@
             "Damage": 182
           },
           "snd_update": "random.levelup",
-          "repeatTime": 72000,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Naga",
           "isGlobal": "false",
           "lockedProgress": true,
-          "autoClaim": false,
+          "autoClaim": true,
           "isSilent": false,
           "desc": "Summon a Naga but only in the Twilight."
         }
@@ -106764,13 +106764,13 @@
             "Damage": 190
           },
           "snd_update": "random.levelup",
-          "repeatTime": 72000,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Lich",
           "isGlobal": "false",
           "lockedProgress": false,
-          "autoClaim": false,
+          "autoClaim": true,
           "isSilent": false,
           "desc": "Summon a Lich but only in the Twilight."
         }
@@ -106835,12 +106835,12 @@
             "Damage": 205
           },
           "snd_update": "random.levelup",
-          "repeatTime": 72000,
+          "repeatTime": 864000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Minoshroom",
           "isGlobal": "false",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Summon a Minoshroom but only in the Twilight."
@@ -106906,7 +106906,7 @@
             "Damage": 189
           },
           "snd_update": "random.levelup",
-          "repeatTime": 72000,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Hydra",
@@ -106983,13 +106983,13 @@
             "Damage": 224
           },
           "snd_update": "random.levelup",
-          "repeatTime": 72000,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Knight Phantom",
           "isGlobal": "false",
-          "lockedProgress": true,
-          "autoClaim": true,
+          "lockedProgress": false,
+          "autoClaim": false,
           "isSilent": false,
           "desc": "Summon a Knight Phantom but only in the Twilight."
         }
@@ -107054,13 +107054,13 @@
             "Damage": 217
           },
           "snd_update": "random.levelup",
-          "repeatTime": 72000,
+          "repeatTime": 1728000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Ur-Ghast",
           "isGlobal": "false",
-          "lockedProgress": false,
-          "autoClaim": false,
+          "lockedProgress": true,
+          "autoClaim": true,
           "isSilent": false,
           "desc": "Summon a Ur-Ghast but only in the Twilight."
         }
@@ -107131,13 +107131,13 @@
             "Damage": 226
           },
           "snd_update": "random.levelup",
-          "repeatTime": 72000,
+          "repeatTime": 2592000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Yeti",
           "isGlobal": "false",
-          "lockedProgress": true,
-          "autoClaim": true,
+          "lockedProgress": false,
+          "autoClaim": false,
           "isSilent": false,
           "desc": "Summon a Yeti but only in the Twilight."
         }
@@ -107208,13 +107208,13 @@
             "Damage": 231
           },
           "snd_update": "random.levelup",
-          "repeatTime": 72000,
+          "repeatTime": 3456000,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Snow Queen",
           "isGlobal": "false",
-          "lockedProgress": false,
-          "autoClaim": false,
+          "lockedProgress": true,
+          "autoClaim": true,
           "isSilent": false,
           "desc": "Summon a Snow Queen but only in the Twilight."
         }
