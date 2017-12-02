@@ -178,7 +178,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Eternal Singularity 1.0.4<BR>
 * Extra Cells	2.3.14b200<BR>
 * Extra Utilities	1.2.13<BR>
-* FastCraft	1.25<BR>
+* FastCraft	1.23<BR>
 * Flood Light	1.2.8.137<BR>
 * Forbidden Magic	0.575<BR>
 * Forestry	4.2.16.64<BR>
