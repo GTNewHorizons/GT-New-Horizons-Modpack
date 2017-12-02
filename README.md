@@ -119,7 +119,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 ## Modlist - NewHorizons<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta18<BR>
+* Adventure Backpack 0.9gbeta19<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU	1.2.3.a<BR>
@@ -131,8 +131,8 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * AsieLib	0.4.8<BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
-* Avaritia 1.14<BR>
-* Avaritiaddons 1.4<BR>
+* Avaritia 1.15custom<BR>
+* Avaritiaddons 1.4b<BR>
 * BackPack	2.2.4<BR>
 * Baubles	1.0.1.11<BR>
 * BdLib	1.9.3.109<BR>
@@ -143,7 +143,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
 * Binnie Mods	2.0-22<BR>
-* Biomes o Plenty	2.1.0.2027<BR>
+* Biomes o Plenty	2.1.0.2308<BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
 * BloodMagic	1.3.3.24<BR>
@@ -176,9 +176,9 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Enhanced Loot Bags 1.0.2a<BR>
 * Enhanced Portals 3	3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
-* Extra Cells	2.3.14b199<BR>
+* Extra Cells	2.3.14b200<BR>
 * Extra Utilities	1.2.13<BR>
-* FastCraft	1.23<BR>
+* FastCraft	1.25<BR>
 * Flood Light	1.2.8.137<BR>
 * Forbidden Magic	0.575<BR>
 * Forestry	4.2.16.64<BR>
@@ -279,7 +279,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
-* Thaumic Bases	1.4.15.0<BR>
+* Thaumic Bases	1.4.16.0<BR>
 * Thaumic Energistics	1.0.0.5<BR>
 * Thaumic Exploration	1.1.71<BR>
 * Thaumic Horizon	1.1.9<BR>
