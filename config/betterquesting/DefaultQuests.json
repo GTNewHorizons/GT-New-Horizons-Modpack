@@ -108488,6 +108488,224 @@
         102
       ],
       "questID": 1091
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestthenether:glowFlower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "New source of Glowstone",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Finding some glowflowers in the nether and plant them in the overworld. You never need to go to the Nether and harvest Glowstone dust blocks more."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestthenether:glowFlower",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestthenether:glowflowerseedItem",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        1090
+      ],
+      "questID": 1092
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "gregtech:gt.metaitem.01",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1086
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Did you run low on Gold or Redstone?",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Did you run low on Redstone and Gold? No problem with your Glowstoneflower farm you can centrifuged Glowstone dust to Redstone and Gold Dust.\nRedstone is a good source of Aluminium and Chrome btw."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 256,
+              "OreDict": "",
+              "Damage": 1810
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 256,
+              "OreDict": "",
+              "Damage": 1086
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "minecraft:diamond_hoe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        733
+      ],
+      "questID": 1093
     }
   ],
   "questLines": [
@@ -109583,6 +109801,12 @@
         },
         {
           "size": 24,
+          "x": 24,
+          "y": 336,
+          "id": 1092
+        },
+        {
+          "size": 24,
           "x": 156,
           "y": 372,
           "id": 840
@@ -110116,6 +110340,12 @@
           "x": 156,
           "y": 36,
           "id": 837
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 444,
+          "id": 1093
         },
         {
           "size": 24,
