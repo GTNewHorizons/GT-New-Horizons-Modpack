@@ -100591,7 +100591,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Next  solarpanel you can make is the MV one. It gives 128 EU/t max. Most gt machine can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.  "
+          "desc": "The next solarpanel you can make is the MV one. It gives 128 EU/t max. Most gt machine can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces."
         }
       },
       "tasks": [
@@ -100750,7 +100750,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Put those 128 eu panels on a block make them placeable in the world. Use an HV assembler to combine the panel with an MV hull."
+          "desc": "Put those 128 eu panels on a block to make them placeable in the world. Use an HV assembler to combine the panel with an MV hull."
         }
       },
       "tasks": [
@@ -100862,7 +100862,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "At EV Level you are able to make Indium for HV Solar Panels. Indium can not be found in Ore form. It can only be made with an ev chemical reactor.\nFirst you need to make indium out of purified galena and sphalherite ore. Mix in some aluminium to get indium."
+          "desc": "At EV Level you are able to make Indium for HV Solar Panels. Indium can not be found in Ore form. It can only be made with an EV chemical reactor.\nFirst you need to make indium out of purified galena and sphalerite ore. Mix in some aluminium to get indium."
         }
       },
       "tasks": [
@@ -101014,7 +101014,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The next solarpanel you can make is the HV one. It generates 512 EU/t max. Most gt machine can use them as covers. First you need to produce enriched sunnarium by mixing irridiant uranium and sunnarium. The Avaritia 9x9 crafting table is required to make this panel."
+          "desc": "The next solarpanel you can make is the HV one. It generates 512 EU/t max. Most GregTech machines can use them as covers. First you need to produce enriched sunnarium by mixing irridiant uranium and sunnarium. The Avaritia 9x9 crafting table is required to make this panel."
         }
       },
       "tasks": [
@@ -101629,7 +101629,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.\n\nIf you lucky you will find Titanium veins too make the process much more easy."
+          "desc": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.\n\nIf you are lucky you will find Titanium veins to make the process much easier."
         }
       },
       "tasks": [
@@ -102121,7 +102121,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Plastic circuit boards require plastic Plate with Sulfuric Acid to make an Empty Board. By adding copper foil and Iron3Chloride or Sodium Persulfate you can craft a plastic circuit board."
+          "desc": "Plastic circuit boards require plastic Plate with Sulfuric Acid to make an Empty Board. By adding copper foil and Iron(III) Chloride or Sodium Persulfate you can craft a plastic circuit board."
         }
       },
       "tasks": [
@@ -102400,7 +102400,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Another variant of the advanced circuit from ic2 is the processing assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe."
+          "desc": "Another variant of the advanced circuit from IC2 is the processing assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe."
         }
       },
       "tasks": [
@@ -102769,12 +102769,12 @@
           "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
-          "name": "Iron III Chloride",
+          "name": "Iron(III) Chloride",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Iron 3 chloride can be made by first making hydrochloric acid out of hydrogen and chlorine. Then combine this with some iron dust to make iron 3 chloride.\nYou can etch your board with it."
+          "desc": "Iron(III) Chloride can be made by first making hydrochloric acid out of hydrogen and chlorine. Then combine this with some iron dust to make Iron(III) Chloride.\nYou can etch your board with it."
         }
       },
       "tasks": [
@@ -104505,7 +104505,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Want some iron 3 chloride? Buy some!"
+          "desc": "Want some Iron(III) Chloride? Buy some!"
         }
       },
       "tasks": [
@@ -104641,7 +104641,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Can\u0027t find Pyrochlore ore because run an old worldgen? Buy some Ores."
+          "desc": "Can\u0027t find Pyrochlore ore because of an old worldgen? Buy some Ores."
         }
       },
       "tasks": [
@@ -104901,7 +104901,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Want some bees house? Buy some!"
+          "desc": "Want some bee houses? Buy some!"
         }
       },
       "tasks": [
@@ -104966,7 +104966,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Want some Apiary? Buy some!"
+          "desc": "Want some Apiaries? Buy some!"
         }
       },
       "tasks": [
@@ -105226,7 +105226,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "After a few forbidden researches your warp level are increased a bit. Did you want to know how much warp you have?\nCraft some litmus paper to print out the warp."
+          "desc": "After a few forbidden researches your warp level has increased a bit. Do you want to know how much warp you have?\nCraft some litmus paper to print out the warp level."
         }
       },
       "tasks": [
@@ -106024,7 +106024,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "If you dont have some Space station yet?\nYou can add up to four spin truster to your station to rotate it.\n\nDays on space staions longer then on the overworld so you can generated more power from solar."
+          "desc": "Here\u0027s an idea for your space station.\nYou can add up to four spin trusters to your station to rotate it.\n\nDays on space stations last longer than on the overworld, so you can generate more solar power."
         }
       },
       "tasks": [
@@ -106139,7 +106139,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Are you prepared for the Moon?\nA few things will help you to live longer or beware you of death on the Moon.\nIf you died on the moon you will be retured to earth without your stuff. Grave are left on the location you died."
+          "desc": "Are you prepared for the Moon?\nA few things will help you to live longer and prevent you from dying on the Moon.\nIf you die on the moon you will be retured to earth without your stuff. Graves are placed at the location where you died."
         }
       },
       "tasks": [
@@ -106279,7 +106279,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You spawn in a dessert and need Oak saplings or Birch ones? No problem for five Forestry Coins you can select which one you want to buy."
+          "desc": "You spawned in a desert and need Oak or Bitch saplings? No problem! For five Forestry Coins you can select which one you want to buy."
         }
       },
       "tasks": [
@@ -106374,7 +106374,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Lets craft some magical Map focus to create a magical map and find Twilight Monster Bosses a bit more easy.\nGo find some Raven feather. You can get them by killing Raven sitting on Obsidian Blocks in Twilight. Then you need some Torcheberrys and at least Glowstone dust."
+          "desc": "Let\u0027s craft some magical Map focuses to create a magical map which will help you find Twilight Monster Bosses.\nGo find some Raven feathers. You can get them by killing Ravens sitting on Obsidian Blocks in Twilight. Then you need some Torchberries and some Glowstone dust."
         }
       },
       "tasks": [
@@ -106469,7 +106469,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "For the Magic map you need the magic map focus and a stack of Paper. Please using the map only in twilight forest you can get every 24h a new map so be careful with it. Using the map in the Overworld or another dimension will lag the server."
+          "desc": "For the Magic map you need the magic map focus and a stack of paper. Please only use the map in the Twilight Forest. You can only get one map every 24 hours so be careful with it. Using the map in the Overworld or another dimension will lag the server."
         }
       },
       "tasks": [
@@ -106558,7 +106558,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "I have a small present for you: a Talisman of Remedium very usefull to persevere the dark nights with all this Monsters."
+          "desc": "I have a small present for you: a Talisman of Remedium whic is very usefull to persevere during the dark nights with all these monsters."
         }
       },
       "tasks": [
@@ -106715,7 +106715,7 @@
           "lockedProgress": true,
           "autoClaim": true,
           "isSilent": false,
-          "desc": "Summon a Naga but only in the Twilight."
+          "desc": "Summon a Naga but only in the Twilight Forest."
         }
       },
       "tasks": [
@@ -106786,7 +106786,7 @@
           "lockedProgress": false,
           "autoClaim": true,
           "isSilent": false,
-          "desc": "Summon a Lich but only in the Twilight."
+          "desc": "Summon a Lich but only in the Twilight Forest."
         }
       },
       "tasks": [
@@ -106857,7 +106857,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Summon a Minoshroom but only in the Twilight."
+          "desc": "Summon a Minoshroom but only in the Twilight Forest."
         }
       },
       "tasks": [
@@ -106928,7 +106928,7 @@
           "lockedProgress": true,
           "autoClaim": true,
           "isSilent": false,
-          "desc": "Summon a Hydra but only in the Twilight."
+          "desc": "Summon a Hydra but only in the Twilight Forest."
         }
       },
       "tasks": [
@@ -107005,7 +107005,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Summon a Knight Phantom but only in the Twilight."
+          "desc": "Summon a Knight Phantom but only in the Twilight Forest."
         }
       },
       "tasks": [
@@ -107076,7 +107076,7 @@
           "lockedProgress": true,
           "autoClaim": true,
           "isSilent": false,
-          "desc": "Summon a Ur-Ghast but only in the Twilight."
+          "desc": "Summon a Ur-Ghast but only in the Twilight Forest."
         }
       },
       "tasks": [
@@ -107153,7 +107153,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Summon a Yeti but only in the Twilight."
+          "desc": "Summon a Yeti but only in the Twilight Forest."
         }
       },
       "tasks": [
@@ -107230,7 +107230,7 @@
           "lockedProgress": true,
           "autoClaim": true,
           "isSilent": false,
-          "desc": "Summon a Snow Queen but only in the Twilight."
+          "desc": "Summon a Snow Queen but only in the Twilight Forest."
         }
       },
       "tasks": [
@@ -107301,7 +107301,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Double Aluminium Plates are quite expensive but worth to make it for your Tool Forge. Using your new Mv Bender to make some."
+          "desc": "Double Aluminium Plates are quite expensive but worth making for your Tool Forge. Use your new MV Bender to make some."
         }
       },
       "tasks": [
@@ -107387,7 +107387,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Better machines need some better batteries. Lithium is the best Material you can make batteries out. "
+          "desc": "Better machines need some better batteries. Lithium is the best material to use when making batteries. "
         }
       },
       "tasks": [
@@ -107556,7 +107556,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "If you using Lubricant instead of water or distilled water in your Cutting machines the output or the time a recipe takes is much better.\nYou can make Lubricant out of Oil, Seed Oil, Fish oil or creosote. If you are able to craft a brewery you can using talk and soapstone to get much more Lubricant each cycle."
+          "desc": "Using lubricant instead of water or distilled water in your cutting machines will increase the output or speed of the machines.\nYou can make lubricant out of oil, seed oil, fish oil or creosote. If you are able to craft a brewery you can use talk and soapstone to get much more lubricant each cycle."
         }
       },
       "tasks": [
@@ -107640,7 +107640,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No you ar starting to find more and more Iron and you feel your small Wood chests get to tiny for all the stuff you found or collected. Now it\u0027s time to upgrade your chest to an Iron chest. You can just build a new chest or upgrade the wood chest with an wood to iron upgrade item."
+          "desc": "Now that you are starting to find more and more iron and you feel your wood chests are too small to hold all the stuff you found and collected. Now it\u0027s time to upgrade your chests to a iron chests. You can just build a new chest or upgrade the wood chest with a wood to iron chest upgrade item."
         }
       },
       "tasks": [
@@ -107755,7 +107755,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Most of your berrys can be extrat to Juice. This is a chance to get more food variants and the nutrition value is higher then eating the fruit directly."
+          "desc": "Most of your berries can be extracted to juice. This is a chance to get more food variants and the nutritional value is higher than eating the fruit directly."
         }
       },
       "tasks": [
@@ -107886,7 +107886,7 @@
           "lockedProgress": false,
           "autoClaim": true,
           "isSilent": false,
-          "desc": "Potatos, Onions, Butter and a skillet make very tasty Potato Cakes."
+          "desc": "Potatoes, onions, butter and a skillet make very tasty potato cakes."
         }
       },
       "tasks": [
@@ -108140,7 +108140,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Let\u0027s now combine all things together and make a healthy and very good Breakfast.\nSome cooked Meat, Potato Cakes, Toast, Fired Egg and a tasty juice and ready is you nurishing meal."
+          "desc": "Let\u0027s now combine all things together and make a healthy and very good breakfast.\nSome cooked meat, potato cakes, toast, fried egg and a tasty juice provide you with a very nourishing meal."
         }
       },
       "tasks": [
@@ -108276,7 +108276,7 @@
           "lockedProgress": true,
           "autoClaim": true,
           "isSilent": false,
-          "desc": "Pumps are not only good  for pump  oil and water you can go to the nether and pump out the huge Lava lakes too.\nNot forget to bring some tanks with you."
+          "desc": "Pumps can do more than pump oil and water. You can go to the nether and pump lava from the huge lava lakes too.\nDon\u0027t forget to bring some tanks with you."
         }
       },
       "tasks": [
@@ -108395,7 +108395,7 @@
           "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "After you build a Cutting Machine you now able to make some Diamond Plates for you new 64 Buckets Single Block Tank."
+          "desc": "After you build a cutting machine you can make some diamond plates for your new 64 buckets single block tank."
         }
       },
       "tasks": [
@@ -108513,7 +108513,7 @@
           "lockedProgress": false,
           "autoClaim": true,
           "isSilent": false,
-          "desc": "Finding some glowflowers in the nether and plant them in the overworld. You never need to go to the Nether and harvest Glowstone dust blocks more."
+          "desc": "Find some glowflowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest glowstone lamps again."
         }
       },
       "tasks": [
@@ -108613,7 +108613,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Did you run low on Redstone and Gold? No problem with your Glowstoneflower farm you can centrifuged Glowstone dust to Redstone and Gold Dust.\nRedstone is a good source of Aluminium and Chrome btw."
+          "desc": "Did you run low on redstone and gold? No problem with your glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust.\nRedstone is also a good source of aluminium and chrome."
         }
       },
       "tasks": [
