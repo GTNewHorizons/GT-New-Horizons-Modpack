@@ -108251,6 +108251,243 @@
         1086
       ],
       "questID": 1089
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:flowing_lava",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Try to dry out the Nether",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": true,
+          "isSilent": false,
+          "desc": "Pumps are not only good  for pump  oil and water you can go to the nether and pump out the huge Lava lakes too.\nNot forget to bring some tanks with you."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1140
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "irontank:goldTank",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "JABBA:mover",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "name": "Go to the Nether",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": -1,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        546,
+        625
+      ],
+      "questID": 1090
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "visibility": "UNLOCKED",
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "irontank:diamondTank",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Diamond Tanks... Oh shiny",
+          "isGlobal": "false",
+          "lockedProgress": true,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "After you build a Cutting Machine you now able to make some Diamond Plates for you new 64 Buckets Single Block Tank."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27500
+            },
+            {
+              "id": "TConstruct:GlassPane",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BuildCraft|Factory:tankBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "irontank:diamondTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        102
+      ],
+      "questID": 1091
     }
   ],
   "questLines": [
@@ -109322,9 +109559,21 @@
         },
         {
           "size": 24,
+          "x": 24,
+          "y": 288,
+          "id": 1090
+        },
+        {
+          "size": 24,
           "x": 336,
           "y": 336,
           "id": 579
+        },
+        {
+          "size": 24,
+          "x": 336,
+          "y": 576,
+          "id": 1091
         },
         {
           "size": 24,
