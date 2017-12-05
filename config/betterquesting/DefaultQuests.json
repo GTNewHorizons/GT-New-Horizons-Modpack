@@ -69624,7 +69624,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1082
       ]
     },
     {
@@ -102010,6 +102010,178 @@
       "preRequisites": [
         896
       ]
+    },
+    {
+      "questID": 1082,
+      "name": "MV Battery Buffers",
+      "description": "Mv machines need Battery Buffer too. The come in Different sizes like 1x, 4x, 9x and 16x.\nBuilding a 1x and a 4x buffer.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 162
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 162
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 172
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 1083,
+      "name": "MV Lithium Batterie",
+      "description": "Better machines need some better batteries. Lithium is the best Material you can make batteries out.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32528,
+        "tag": {
+          "GT.ItemCharge:4": 400000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32528
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 17315
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        758
+      ]
     }
   ],
   "questLines": [
@@ -103489,7 +103661,7 @@
         {
           "id": 758,
           "x": 0,
-          "y": 204
+          "y": 132
         },
         {
           "id": 759,
@@ -103638,7 +103810,7 @@
         },
         {
           "id": 743,
-          "x": 480,
+          "x": 492,
           "y": 372
         },
         {
@@ -103770,6 +103942,16 @@
           "id": 1081,
           "x": 444,
           "y": 264
+        },
+        {
+          "id": 1082,
+          "x": 0,
+          "y": 204
+        },
+        {
+          "id": 1083,
+          "x": 0,
+          "y": 84
         }
       ]
     },
