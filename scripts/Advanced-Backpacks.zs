@@ -246,4 +246,4 @@ mods.gregtech.Brewery.addRecipe(<liquid:water> * 750, <minecraft:melon>, <liquid
 
 
 
-<Backpack:backpack:*>.addTooltip(format.red(Idiots! Do not upgrade your backpack with important stuff inside - Dream 2017!));
+<Backpack:backpack:*>.addTooltip(format.red(Idiots! Do not upgrade your backpack with important stuff inside - Dream 2017!"));
