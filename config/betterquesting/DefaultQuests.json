@@ -54848,7 +54848,7 @@
           "rewards": [
             {
               "id": "IC2:itemFluidCell",
-              "Count": 1,
+              "Count": 16,
               "OreDict": "",
               "Damage": 0,
               "tag": {
@@ -54860,7 +54860,7 @@
             },
             {
               "id": "minecraft:bread",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             }
