@@ -95691,7 +95691,7 @@
     {
       "questID": 1003,
       "name": "Power of the Sun at MV Level",
-      "description": "Next  solarpanel you can make is the MV one. It gives 128 EU/t max. Most gt machine can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.  ",
+      "description": "The next solarpanel you can make is the MV one. It gives 128 EU/t max. Most gt machine can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95840,7 +95840,7 @@
     {
       "questID": 1004,
       "name": "Power of the Sun 1x1 MV",
-      "description": "Put those 128 eu panels on a block make them placeable in the world. Use an HV assembler to combine the panel with an MV hull.",
+      "description": "Put those 128 eu panels on a block to make them placeable in the world. Use an HV assembler to combine the panel with an MV hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95944,7 +95944,7 @@
     {
       "questID": 1005,
       "name": "Indium",
-      "description": "At EV Level you are able to make Indium for HV Solar Panels. Indium can not be found in Ore form. It can only be made with an ev chemical reactor.\nFirst you need to make indium out of purified galena and sphalherite ore. Mix in some aluminium to get indium.",
+      "description": "At EV Level you are able to make Indium for HV Solar Panels. Indium can not be found in Ore form. It can only be made with an EV chemical reactor.\nFirst you need to make indium out of purified galena and sphalerite ore. Mix in some aluminium to get indium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96084,7 +96084,7 @@
     {
       "questID": 1006,
       "name": "Power of the Sun at HV Level",
-      "description": "The next solarpanel you can make is the HV one. It generates 512 EU/t max. Most gt machine can use them as covers. First you need to produce enriched sunnarium by mixing irridiant uranium and sunnarium. The Avaritia 9x9 crafting table is required to make this panel.",
+      "description": "The next solarpanel you can make is the HV one. It generates 512 EU/t max. Most GregTech machines can use them as covers. First you need to produce enriched sunnarium by mixing irridiant uranium and sunnarium. The Avaritia 9x9 crafting table is required to make this panel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96662,7 +96662,7 @@
     {
       "questID": 1011,
       "name": "Find Bauxite",
-      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.\n\nIf you lucky you will find Titanium veins too make the process much more easy.",
+      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.\n\nIf you are lucky you will find Titanium veins to make the process much easier.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97122,7 +97122,7 @@
     {
       "questID": 1015,
       "name": "Empty Plastic Board",
-      "description": "Plastic circuit boards require plastic Plate with Sulfuric Acid to make an Empty Board. By adding copper foil and Iron3Chloride or Sodium Persulfate you can craft a plastic circuit board.",
+      "description": "Plastic circuit boards require plastic Plate with Sulfuric Acid to make an Empty Board. By adding copper foil and Iron(III) Chloride or Sodium Persulfate you can craft a plastic circuit board.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97383,7 +97383,7 @@
     {
       "questID": 1017,
       "name": "Processor Assembly",
-      "description": "Another variant of the advanced circuit from ic2 is the processing assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe.",
+      "description": "Another variant of the advanced circuit from IC2 is the processing assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97726,8 +97726,8 @@
     },
     {
       "questID": 1020,
-      "name": "Iron III Chloride",
-      "description": "Iron 3 chloride can be made by first making hydrochloric acid out of hydrogen and chlorine. Then combine this with some iron dust to make iron 3 chloride.\nYou can etch your board with it.",
+      "name": "Iron (III) Chloride",
+      "description": "Iron(III) Chloride can be made by first making hydrochloric acid out of hydrogen and chlorine. Then combine this with some iron dust to make Iron(III) Chloride.\nYou can etch your board with it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -99329,7 +99329,7 @@
     },
     {
       "questID": 1044,
-      "name": "Iron III Chloride",
+      "name": "Iron (III) Chloride",
       "description": "Want some iron 3 chloride? Buy some!",
       "isMain": false,
       "isSilent": false,
@@ -99462,7 +99462,7 @@
     {
       "questID": 1046,
       "name": "Pyrochlore Ore",
-      "description": "Can\u0027t find Pyrochlore ore because run an old worldgen? Buy some Ores.",
+      "description": "Can\u0027t find Pyrochlore ore because of an old worldgen? Buy some Ores.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99702,7 +99702,7 @@
     {
       "questID": 1050,
       "name": "Bees House",
-      "description": "Want some bees house? Buy some!",
+      "description": "Want some bee house? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99762,7 +99762,7 @@
     {
       "questID": 1051,
       "name": "Apiary",
-      "description": "Want some Apiary? Buy some!",
+      "description": "Want some Apiaries? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -100002,7 +100002,7 @@
     {
       "questID": 1055,
       "name": "Did you want to know your warp level?",
-      "description": "After a few forbidden researches your warp level are increased a bit. Did you want to know how much warp you have?\nCraft some litmus paper to print out the warp.",
+      "description": "After a few forbidden researches your warp level has increased a bit. Do you want to know how much warp you have?\nCraft some litmus paper to print out the warp level.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -100739,7 +100739,7 @@
     {
       "questID": 1067,
       "name": "Space Station",
-      "description": "If you dont have some Space station yet?\nYou can add up to four spin truster to your station to rotate it.\n\nDays on space staions longer then on the overworld so you can generated more power from solar.",
+      "description": "Here\u0027s an idea for your space station.\nYou can add up to four spin trusters to your station to rotate it.\n\nDays on space stations last longer than on the overworld, so you can generate more solar power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -100840,7 +100840,7 @@
     {
       "questID": 1068,
       "name": "Are you prepared?",
-      "description": "Are you prepared for the Moon?\nA few things will help you to live longer or beware you of death on the Moon.\nIf you died on the moon you will be retured to earth without your stuff. Grave are left on the location you died.",
+      "description": "Are you prepared for the Moon?\nA few things will help you to live longer and prevent you from dying on the Moon.\nIf you die on the moon you will be retured to earth without your stuff. Graves are placed at the location where you died.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -100980,7 +100980,7 @@
     {
       "questID": 1069,
       "name": "Oak, Spruce, Brich, Jungle Sapling",
-      "description": "You spawn in a dessert and need Oak saplings or Birch ones? No problem for five Forestry Coins you can select which one you want to buy.",
+      "description": "You spawned in a desert and need Oak or Bitch saplings? No problem! For five Forestry Coins you can select which one you want to buy.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101070,7 +101070,7 @@
     {
       "questID": 1070,
       "name": "Magic Feather",
-      "description": "Lets craft some magical Map focus to create a magical map and find Twilight Monster Bosses a bit more easy.\nGo find some Raven feather. You can get them by killing Raven sitting on Obsidian Blocks in Twilight. Then you need some Torcheberrys and at least Glowstone dust.",
+      "description": "Let\u0027s craft some magical Map focuses to create a magical map which will help you find Twilight Monster Bosses.\nGo find some Raven feathers. You can get them by killing Ravens sitting on Obsidian Blocks in Twilight. Then you need some Torchberries and some Glowstone dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101159,7 +101159,7 @@
     {
       "questID": 1071,
       "name": "Magic Map",
-      "description": "For the Magic map you need the magic map focus and a stack of Paper. Please using the map only in twilight forest you can get every 24h a new map so be careful with it. Using the map in the Overworld or another dimension will lag the server.",
+      "description": "For the Magic map you need the magic map focus and a stack of paper. Please only use the map in the Twilight Forest. You can only get one map every 24 hours so be careful with it. Using the map in the Overworld or another dimension will lag the server.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101242,7 +101242,7 @@
     {
       "questID": 1072,
       "name": "Moon arrival",
-      "description": "I have a small present for you: a Talisman of Remedium very usefull to persevere the dark nights with all this Monsters.",
+      "description": "I have a small present for you: a Talisman of Remedium whic is very usefull to persevere during the dark nights with all these monsters.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -101390,7 +101390,7 @@
     {
       "questID": 1073,
       "name": "Naga",
-      "description": "Summon a Naga but only in the Twilight.",
+      "description": "Summon a Naga but only in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101456,7 +101456,7 @@
     {
       "questID": 1074,
       "name": "Lich",
-      "description": "Summon a Lich but only in the Twilight.",
+      "description": "Summon a Lich but only in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101523,7 +101523,7 @@
     {
       "questID": 1075,
       "name": "Minoshroom",
-      "description": "Summon a Minoshroom but only in the Twilight.",
+      "description": "Summon a Minoshroom but only in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101590,7 +101590,7 @@
     {
       "questID": 1076,
       "name": "Hydra",
-      "description": "Summon a Hydra but only in the Twilight",
+      "description": "Summon a Hydra but only in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101663,7 +101663,7 @@
     {
       "questID": 1077,
       "name": "Knight Phantom",
-      "description": "Summon a Knight Phantom but only in the Twilight.",
+      "description": "Summon a Knight Phantom but only in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101730,7 +101730,7 @@
     {
       "questID": 1078,
       "name": "Ur Ghast",
-      "description": "Summon a Ur-Ghast but only in the Twilight.",
+      "description": "Summon a Ur-Ghast but only in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101803,7 +101803,7 @@
     {
       "questID": 1079,
       "name": "Yeti",
-      "description": "Summon a Yeti but only in the Twilight.",
+      "description": "Summon a Yeti but only in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101876,7 +101876,7 @@
     {
       "questID": 1080,
       "name": "Snow Queen",
-      "description": "Summon a Snow Queen but only in the Twilight.",
+      "description": "Summon a Snow Queen but only in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101943,7 +101943,7 @@
     {
       "questID": 1081,
       "name": "MV Bending",
-      "description": "Double Aluminium Plates are quite expensive but worth to make it for your Tool Forge. Using your new Mv Bender to make some.",
+      "description": "Double Aluminium Plates are quite expensive but worth making for your Tool Forge. Use your new MV Bender to make some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102112,7 +102112,7 @@
     {
       "questID": 1083,
       "name": "MV Lithium Batterie",
-      "description": "Better machines need some better batteries. Lithium is the best Material you can make batteries out.",
+      "description": "Better machines need some better batteries. Lithium is the best material to use when making batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102192,7 +102192,7 @@
     {
       "questID": 1084,
       "name": "Lubricant",
-      "description": "If you using Lubricant instead of water or distilled water in your Cutting machines the output or the time a recipe takes is much better.\nYou can make Lubricant out of Oil, Seed Oil, Fish oil or creosote. If you are able to craft a brewery you can using talk and soapstone to get much more Lubricant each cycle.",
+      "description": "Using lubricant instead of water or distilled water in your cutting machines will increase the output or speed of the machines.\nYou can make lubricant out of oil, seed oil, fish oil or creosote. If you are able to craft a brewery you can use talk and soapstone to get much more lubricant each cycle.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102270,7 +102270,7 @@
     {
       "questID": 1085,
       "name": "More Compact Storage",
-      "description": "No you ar starting to find more and more Iron and you feel your small Wood chests get to tiny for all the stuff you found or collected. Now it\u0027s time to upgrade your chest to an Iron chest. You can just build a new chest or upgrade the wood chest with an wood to iron upgrade item.",
+      "description": "Now that you are starting to find more and more iron and you feel your wood chests are too small to hold all the stuff you found and collected. Now it\u0027s time to upgrade your chests to a iron chests. You can just build a new chest or upgrade the wood chest with a wood to iron chest upgrade item.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102378,7 +102378,7 @@
     {
       "questID": 1086,
       "name": "Juice",
-      "description": "Most of your berrys can be extrat to Juice. This is a chance to get more food variants and the nutrition value is higher then eating the fruit directly.",
+      "description": "Most of your berries can be extracted to juice. This is a chance to get more food variants and the nutritional value is higher than eating the fruit directly.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102503,7 +102503,7 @@
     {
       "questID": 1087,
       "name": "Potato Cakes",
-      "description": "Potatos, Onions, Butter and a skillet make very tasty Potato Cakes",
+      "description": "Potatoes, onions, butter and a skillet make very tasty potato cakes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102743,7 +102743,7 @@
     {
       "questID": 1089,
       "name": "Hearty Breakfas",
-      "description": "Let\u0027s now combine all things together and make a healthy and very good Breakfast.\nSome cooked Meat, Potato Cakes, Toast, Fired Egg and a tasty juice and ready is you nurishing meal.",
+      "description": "Let\u0027s now combine all things together and make a healthy and very good breakfast.\nSome cooked meat, potato cakes, toast, fried egg and a tasty juice provide you with a very nourishing meal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102872,7 +102872,7 @@
     {
       "questID": 1090,
       "name": "Try to dry out the Nether",
-      "description": "Pumps are not only good  for pump  oil and water you can go to the nether and pump out the huge Lava lakes too.\nNot forget to bring some tanks with you.",
+      "description": "Pumps can do more than pump oil and water. You can go to the nether and pump lava from the huge lava lakes too.\nDon\u0027t forget to bring some tanks with you.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102982,7 +102982,7 @@
     {
       "questID": 1091,
       "name": "Diamond Tanks... Oh shiny",
-      "description": "After you build a Cutting Machine you now able to make some Diamond Plates for you new 64 Buckets Single Block Tank.",
+      "description": "After you build a cutting machine you can make some diamond plates for your new 64 buckets single block tank.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103092,7 +103092,7 @@
     {
       "questID": 1092,
       "name": "New source of Glowstone",
-      "description": "Finding some glowflowers in the nether and plant them in the overworld. You never need to go to the Nether and harvest Glowstone dust blocks more.",
+      "description": "Find some glowflowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest glowstone lamps again.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103184,7 +103184,7 @@
     {
       "questID": 1093,
       "name": "Did you run low on Gold or Redstone?",
-      "description": "Did you run low on Redstone and Gold? No problem with your Glowstoneflower farm you can centrifuged Glowstone dust to Redstone and Gold Dust.\\nRedstone is a good source of Aluminium and Chrome btw.",
+      "description": "Did you run low on redstone and gold? No problem with your glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust.\nRedstone is also a good source of aluminium and chrome.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
