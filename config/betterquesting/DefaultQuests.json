@@ -103290,6 +103290,218 @@
       "preRequisites": [
         733
       ]
+    },
+    {
+      "questID": 1094,
+      "name": "Diamond Chests... Oh shiny",
+      "description": "After you build a cutting machine you can make some diamond plates for your new big diamond chests.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IronChest:BlockIronChest",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27500
+            },
+            {
+              "id": "minecraft:chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IronChest:goldDiamondUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        102
+      ]
+    },
+    {
+      "questID": 1095,
+      "name": "Even More Compact Storage",
+      "description": "If you found enough gold you can upgrade your chest to make it even a bigger inventory of 9x9. You can just build a new chest or upgrade the iron chest with a wood to gold chest upgrade item.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IronChest:BlockIronChest",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 18086
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27086
+            },
+            {
+              "id": "minecraft:chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IronChest:ironGoldUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:gold_ingot",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1085
+      ]
     }
   ],
   "questLines": [
@@ -103441,285 +103653,290 @@
         {
           "id": 15,
           "x": 408,
-          "y": 36
+          "y": 108
         },
         {
           "id": 17,
           "x": 480,
-          "y": 72
+          "y": 144
         },
         {
           "id": 18,
           "x": 372,
-          "y": 36
+          "y": 108
         },
         {
           "id": 19,
           "x": 372,
-          "y": 72
+          "y": 144
         },
         {
           "id": 20,
           "x": 444,
-          "y": 72
+          "y": 144
         },
         {
           "id": 21,
           "x": 408,
-          "y": 72
+          "y": 144
         },
         {
           "id": 22,
           "x": 408,
-          "y": 108
+          "y": 180
         },
         {
           "id": 23,
           "x": 372,
-          "y": 108
+          "y": 180
         },
         {
           "id": 24,
           "x": 480,
-          "y": 108
+          "y": 180
         },
         {
           "id": 25,
           "x": 444,
-          "y": 108
+          "y": 180
         },
         {
           "id": 27,
           "x": 480,
-          "y": 252
+          "y": 324
         },
         {
           "id": 28,
           "x": 252,
-          "y": 252
+          "y": 324
         },
         {
           "id": 29,
           "x": 108,
-          "y": 216
+          "y": 288
         },
         {
           "id": 30,
           "x": 216,
-          "y": 180
+          "y": 252
         },
         {
           "id": 31,
           "x": 252,
-          "y": 180
+          "y": 252
         },
         {
           "id": 32,
           "x": 372,
-          "y": 144
+          "y": 216
         },
         {
           "id": 33,
           "x": 372,
-          "y": 180
+          "y": 252
         },
         {
           "id": 34,
           "x": 144,
-          "y": 180
+          "y": 252
         },
         {
           "id": 35,
           "x": 252,
-          "y": 0
+          "y": 72
         },
         {
           "id": 36,
           "x": 108,
-          "y": 36
+          "y": 108
         },
         {
           "id": 38,
           "x": 180,
-          "y": 144
+          "y": 216
         },
         {
           "id": 37,
           "x": 108,
-          "y": 180
+          "y": 252
         },
         {
           "id": 39,
           "x": 144,
-          "y": 72
+          "y": 144
         },
         {
           "id": 40,
           "x": 144,
-          "y": 0
+          "y": 72
         },
         {
           "id": 41,
           "x": 336,
-          "y": 108
+          "y": 180
         },
         {
           "id": 26,
           "x": 444,
-          "y": 144
+          "y": 216
         },
         {
           "id": 42,
           "x": 336,
-          "y": 180
+          "y": 252
         },
         {
           "id": 43,
           "x": 336,
-          "y": 144
+          "y": 216
         },
         {
           "id": 472,
           "x": 372,
-          "y": 216
+          "y": 288
         },
         {
           "id": 473,
           "x": 180,
-          "y": 108
+          "y": 180
         },
         {
           "id": 474,
           "x": 180,
-          "y": 216
+          "y": 288
         },
         {
           "id": 480,
           "x": 180,
-          "y": 252
+          "y": 324
         },
         {
           "id": 485,
           "x": 528,
-          "y": 108
+          "y": 180
         },
         {
           "id": 486,
           "x": 144,
-          "y": 36
+          "y": 108
         },
         {
           "id": 487,
           "x": 180,
-          "y": 36
+          "y": 108
         },
         {
           "id": 488,
           "x": 216,
-          "y": 36
+          "y": 108
         },
         {
           "id": 489,
           "x": 0,
-          "y": 108
+          "y": 180
         },
         {
           "id": 491,
           "x": 180,
-          "y": 72
+          "y": 144
         },
         {
           "id": 481,
           "x": 528,
-          "y": 144
+          "y": 216
         },
         {
           "id": 482,
           "x": 0,
-          "y": 36
+          "y": 108
         },
         {
           "id": 483,
           "x": 0,
-          "y": 72
+          "y": 144
         },
         {
           "id": 492,
           "x": 36,
-          "y": 36
+          "y": 108
         },
         {
           "id": 498,
           "x": 144,
-          "y": 108
+          "y": 180
         },
         {
           "id": 656,
           "x": 36,
-          "y": 108
+          "y": 180
         },
         {
           "id": 657,
           "x": 72,
-          "y": 108
+          "y": 180
         },
         {
           "id": 693,
           "x": 216,
-          "y": 72
+          "y": 144
         },
         {
           "id": 727,
           "x": 72,
-          "y": 144
+          "y": 216
         },
         {
           "id": 728,
           "x": 0,
-          "y": 144
+          "y": 216
         },
         {
           "id": 729,
           "x": 0,
-          "y": 180
+          "y": 252
         },
         {
           "id": 825,
           "x": 144,
-          "y": 252
+          "y": 324
         },
         {
           "id": 826,
           "x": 216,
-          "y": 252
+          "y": 324
         },
         {
           "id": 862,
           "x": 444,
-          "y": 180
+          "y": 252
         },
         {
           "id": 863,
           "x": 144,
-          "y": 144
+          "y": 216
         },
         {
           "id": 864,
           "x": 444,
-          "y": 216
+          "y": 288
         },
         {
           "id": 945,
           "x": 36,
-          "y": 0
+          "y": 72
         },
         {
           "id": 947,
           "x": 300,
-          "y": 144
+          "y": 216
         },
         {
           "id": 1085,
+          "x": 108,
+          "y": 36
+        },
+        {
+          "id": 1095,
           "x": 108,
           "y": 0
         }
@@ -104544,6 +104761,11 @@
           "id": 1092,
           "x": 24,
           "y": 252
+        },
+        {
+          "id": 1094,
+          "x": 324,
+          "y": 540
         }
       ]
     },
