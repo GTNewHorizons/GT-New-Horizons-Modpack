@@ -67690,7 +67690,7 @@
       ],
       "preRequisites": [
         103,
-        89
+        1081
       ]
     },
     {
@@ -101933,6 +101933,83 @@
         906,
         1079
       ]
+    },
+    {
+      "questID": 1081,
+      "name": "MV Bending",
+      "description": "Double Aluminium Plates are quite expensive but worth to make it for your Tool Forge. Using your new Mv Bender to make some.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 222
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 222
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        896
+      ]
     }
   ],
   "questLines": [
@@ -103176,102 +103253,102 @@
         },
         {
           "id": 128,
-          "x": 516,
+          "x": 768,
           "y": 204
         },
         {
           "id": 129,
-          "x": 516,
+          "x": 768,
           "y": 264
         },
         {
           "id": 130,
-          "x": 564,
+          "x": 804,
           "y": 300
         },
         {
           "id": 131,
-          "x": 468,
+          "x": 720,
           "y": 300
         },
         {
           "id": 132,
-          "x": 564,
+          "x": 804,
           "y": 336
         },
         {
           "id": 133,
-          "x": 468,
+          "x": 720,
           "y": 264
         },
         {
           "id": 134,
-          "x": 564,
-          "y": 228
+          "x": 804,
+          "y": 264
         },
         {
           "id": 135,
-          "x": 564,
+          "x": 852,
           "y": 264
         },
         {
           "id": 136,
-          "x": 612,
-          "y": 264
+          "x": 852,
+          "y": 228
         },
         {
           "id": 137,
-          "x": 612,
+          "x": 804,
           "y": 228
         },
         {
           "id": 138,
-          "x": 564,
+          "x": 804,
           "y": 180
         },
         {
           "id": 140,
-          "x": 612,
+          "x": 852,
           "y": 180
         },
         {
           "id": 142,
-          "x": 612,
+          "x": 852,
           "y": 336
         },
         {
           "id": 143,
-          "x": 468,
+          "x": 732,
           "y": 336
         },
         {
           "id": 145,
-          "x": 516,
+          "x": 768,
           "y": 336
         },
         {
           "id": 148,
-          "x": 612,
+          "x": 852,
           "y": 300
         },
         {
           "id": 149,
-          "x": 648,
+          "x": 888,
           "y": 336
         },
         {
           "id": 150,
-          "x": 612,
+          "x": 852,
           "y": 372
         },
         {
           "id": 151,
-          "x": 648,
+          "x": 888,
           "y": 300
         },
         {
           "id": 152,
-          "x": 696,
+          "x": 924,
           "y": 300
         },
         {
@@ -103366,17 +103443,17 @@
         },
         {
           "id": 738,
-          "x": 48,
+          "x": 96,
           "y": 132
         },
         {
           "id": 737,
-          "x": 0,
+          "x": 48,
           "y": 168
         },
         {
           "id": 739,
-          "x": 0,
+          "x": 48,
           "y": 132
         },
         {
@@ -103556,32 +103633,32 @@
         },
         {
           "id": 741,
-          "x": 48,
-          "y": 84
+          "x": 444,
+          "y": 264
         },
         {
           "id": 743,
-          "x": 0,
-          "y": 36
+          "x": 504,
+          "y": 300
         },
         {
           "id": 744,
-          "x": 0,
-          "y": 84
+          "x": 504,
+          "y": 264
         },
         {
           "id": 742,
-          "x": 48,
-          "y": 36
+          "x": 504,
+          "y": 228
         },
         {
           "id": 893,
-          "x": 264,
+          "x": 360,
           "y": 156
         },
         {
           "id": 894,
-          "x": 312,
+          "x": 408,
           "y": 156
         },
         {
@@ -103636,7 +103713,7 @@
         },
         {
           "id": 944,
-          "x": 360,
+          "x": 456,
           "y": 156
         },
         {
@@ -103656,17 +103733,17 @@
         },
         {
           "id": 604,
-          "x": 468,
+          "x": 720,
           "y": 228
         },
         {
           "id": 987,
-          "x": 420,
+          "x": 672,
           "y": 264
         },
         {
           "id": 990,
-          "x": 420,
+          "x": 684,
           "y": 228
         },
         {
@@ -103688,6 +103765,11 @@
           "id": 1021,
           "x": 396,
           "y": 516
+        },
+        {
+          "id": 1081,
+          "x": 396,
+          "y": 264
         }
       ]
     },
