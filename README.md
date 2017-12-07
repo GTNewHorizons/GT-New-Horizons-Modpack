@@ -275,7 +275,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
 * Tainted Magic	r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.5.2a<BR>
+* Tec Tech 3.5.2b<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
