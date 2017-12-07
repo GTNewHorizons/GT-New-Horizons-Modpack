@@ -15,6 +15,7 @@ import mods.gregtech.Mixer;
 import mods.nei.NEI;
 import mods.gregtech.PlateBender;
 import mods.gregtech.PrecisionLaser;
+import mods.gregtech.CuttingSaw;
 import mods.ic2.SemiFluidGenerator;
 import mods.gregtech.Wiremill;
 
@@ -1561,6 +1562,24 @@ Compressor.addRecipe(<Railcraft:machine.alpha:12>, <dreamcraft:item.AdvancedCoke
 
 // --- Coke Oven
 Compressor.addRecipe(<Railcraft:machine.alpha:7>, <dreamcraft:item.CokeOvenBrick> * 4);
+
+
+
+
+// --- Cutting Machine Recipes ---
+
+
+
+
+
+// --- Creosote Wood Slab ---
+CuttingSaw.addRecipe(CreosoteWoodSlab * 4, null, CreosoteWood, <liquid:water> * 4, 200, 30);
+// -
+CuttingSaw.addRecipe(CreosoteWoodSlab * 4, null, CreosoteWood, <liquid:ic2distilledwater> * 3, 200, 30);
+// -
+CuttingSaw.addRecipe(CreosoteWoodSlab * 4, null, CreosoteWood, <liquid:lubricant> * 1, 100, 30);
+
+
 
 
 
