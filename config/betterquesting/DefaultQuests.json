@@ -23250,7 +23250,7 @@
         }
       ],
       "preRequisites": [
-        264
+        266
       ]
     },
     {
@@ -23385,7 +23385,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.metaitem.01",
@@ -23457,7 +23457,12 @@
       ],
       "preRequisites": [
         264,
-        860
+        860,
+        271,
+        269,
+        270,
+        268,
+        267
       ]
     },
     {
@@ -26896,8 +26901,7 @@
         }
       ],
       "preRequisites": [
-        263,
-        266
+        263
       ]
     },
     {
@@ -103919,6 +103923,458 @@
       "preRequisites": [
         1097
       ]
+    },
+    {
+      "questID": 1100,
+      "name": "Enchanting Table 1.0",
+      "description": "Finaly with your new Wand and 50 stored vis you are able to build your own enchantment table. The recipe can found on the GTNH Thaumcraft Page",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:enchanting_table",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:enchanting_table",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bookshelf",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        237
+      ]
+    },
+    {
+      "questID": 1101,
+      "name": "Division Sigil",
+      "description": "Maybe you found some division sigil in a chest allready. You hear about some ritual to activate it.\n\nYou need an Enchantment table 8 redstone dust a good sword and an animal you want to sacrifice at night. Catch it with a lasso would be the easiest way.\nBuilding your Table on a grass place and sourroundet it with redstone dust.\nWhen it is night place the animal on or nearby the table and kill it.\nOf cozce you need your sigil with you.\nBe aware your actions have consequences.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:divisionSigil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "damage:4": 256
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:divisionSigil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:enchanting_table",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ExtraUtilities:golden_lasso",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:divisionSigil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "damage:4": 256
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:torch",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1100,
+        117
+      ]
+    },
+    {
+      "questID": 1102,
+      "name": "Beacon",
+      "description": "With your new Wand you are able to create an Beacon. The Beacon recipe is found on the GTNH Thaumcraft Page. Activate in your Base some positive effects with your new crafted Beacon",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:beacon",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:beacon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_block",
+              "Count": 164,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        262
+      ]
+    },
+    {
+      "questID": 1103,
+      "name": "Cursed Earth",
+      "description": "If you get rid of all this monsters this spawns on cursed earth go and grab some blocks with y silk touche shovel. You will need this block for your mob spawner later.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:cursedearthside",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:cursedearthside",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1101
+      ]
+    },
+    {
+      "questID": 1104,
+      "name": "Silky Jewel",
+      "description": "Its time to craft some silky jewel for your tinkers tools. A lot of blocks you can easy grab with this tool.\n\nThe recipe you can found on the GTNH page after research the Enchantment table.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:materials",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 26
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:gold_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1100
+      ]
     }
   ],
   "questLines": [
@@ -107030,37 +107486,37 @@
         {
           "id": 244,
           "x": 144,
-          "y": 216
+          "y": 264
         },
         {
           "id": 246,
           "x": 300,
-          "y": 216
+          "y": 264
         },
         {
           "id": 247,
           "x": 144,
-          "y": 288
+          "y": 336
         },
         {
           "id": 248,
           "x": 300,
-          "y": 288
+          "y": 336
         },
         {
           "id": 249,
           "x": 144,
-          "y": 252
+          "y": 300
         },
         {
           "id": 250,
           "x": 300,
-          "y": 252
+          "y": 300
         },
         {
           "id": 245,
           "x": 228,
-          "y": 252
+          "y": 300
         },
         {
           "id": 251,
@@ -107074,8 +107530,8 @@
         },
         {
           "id": 252,
-          "x": 264,
-          "y": 144
+          "x": 180,
+          "y": 216
         },
         {
           "id": 253,
@@ -107109,8 +107565,8 @@
         },
         {
           "id": 258,
-          "x": 300,
-          "y": 180
+          "x": 264,
+          "y": 216
         },
         {
           "id": 259,
@@ -107146,6 +107602,26 @@
           "id": 1096,
           "x": 228,
           "y": 36
+        },
+        {
+          "id": 1100,
+          "x": 264,
+          "y": 144
+        },
+        {
+          "id": 1101,
+          "x": 300,
+          "y": 144
+        },
+        {
+          "id": 1103,
+          "x": 336,
+          "y": 144
+        },
+        {
+          "id": 1104,
+          "x": 300,
+          "y": 180
         }
       ]
     },
@@ -107156,262 +107632,267 @@
         {
           "id": 260,
           "x": 36,
-          "y": 84
+          "y": 96
         },
         {
           "id": 261,
           "x": 324,
-          "y": 156
+          "y": 132
         },
         {
           "id": 263,
           "x": 288,
-          "y": 156
+          "y": 132
         },
         {
           "id": 265,
           "x": 144,
-          "y": 120
+          "y": 96
         },
         {
           "id": 266,
-          "x": 240,
-          "y": 84
+          "x": 216,
+          "y": 96
         },
         {
           "id": 267,
-          "x": 108,
-          "y": 156
+          "x": 180,
+          "y": 192
         },
         {
           "id": 268,
-          "x": 144,
+          "x": 180,
           "y": 156
         },
         {
           "id": 269,
-          "x": 144,
-          "y": 84
+          "x": 180,
+          "y": 36
         },
         {
           "id": 270,
-          "x": 108,
-          "y": 84
+          "x": 180,
+          "y": 0
         },
         {
           "id": 271,
           "x": 180,
-          "y": 84
+          "y": 72
         },
         {
           "id": 264,
           "x": 180,
-          "y": 156
+          "y": 120
         },
         {
           "id": 262,
           "x": 324,
-          "y": 84
+          "y": 96
         },
         {
           "id": 272,
           "x": 36,
-          "y": 240
+          "y": 252
         },
         {
           "id": 273,
-          "x": 324,
-          "y": 240
+          "x": 372,
+          "y": 168
         },
         {
           "id": 274,
           "x": 324,
-          "y": 192
+          "y": 168
         },
         {
           "id": 275,
           "x": 0,
-          "y": 204
+          "y": 216
         },
         {
           "id": 276,
           "x": 0,
-          "y": 156
+          "y": 168
         },
         {
           "id": 277,
           "x": 0,
-          "y": 120
+          "y": 132
         },
         {
           "id": 278,
           "x": 36,
-          "y": 204
+          "y": 216
         },
         {
           "id": 279,
           "x": 408,
-          "y": 156
+          "y": 168
         },
         {
           "id": 281,
           "x": 480,
-          "y": 156
+          "y": 168
         },
         {
           "id": 280,
           "x": 444,
-          "y": 156
+          "y": 168
         },
         {
           "id": 283,
           "x": 408,
-          "y": 192
+          "y": 204
         },
         {
           "id": 284,
           "x": 408,
-          "y": 240
+          "y": 252
         },
         {
           "id": 285,
           "x": 408,
-          "y": 120
+          "y": 132
         },
         {
           "id": 286,
           "x": 444,
-          "y": 84
+          "y": 96
         },
         {
           "id": 288,
           "x": 372,
-          "y": 120
+          "y": 132
         },
         {
           "id": 289,
           "x": 480,
-          "y": 84
+          "y": 96
         },
         {
           "id": 282,
           "x": 480,
-          "y": 120
+          "y": 132
         },
         {
           "id": 290,
           "x": 0,
-          "y": 276
+          "y": 288
         },
         {
           "id": 291,
           "x": 108,
-          "y": 240
+          "y": 252
         },
         {
           "id": 292,
           "x": 144,
-          "y": 240
+          "y": 252
         },
         {
           "id": 293,
           "x": 180,
-          "y": 240
+          "y": 252
         },
         {
           "id": 294,
           "x": 216,
-          "y": 240
+          "y": 252
         },
         {
           "id": 295,
           "x": 72,
-          "y": 276
+          "y": 288
         },
         {
           "id": 296,
           "x": 36,
-          "y": 276
+          "y": 288
         },
         {
           "id": 297,
           "x": 72,
-          "y": 156
+          "y": 168
         },
         {
           "id": 298,
           "x": 72,
-          "y": 204
+          "y": 216
         },
         {
           "id": 300,
           "x": 120,
-          "y": 276
+          "y": 288
         },
         {
           "id": 299,
           "x": 72,
-          "y": 240
+          "y": 252
         },
         {
           "id": 301,
           "x": 0,
-          "y": 240
+          "y": 252
         },
         {
           "id": 287,
           "x": 444,
-          "y": 120
+          "y": 132
         },
         {
           "id": 302,
           "x": 72,
-          "y": 120
+          "y": 132
         },
         {
           "id": 303,
           "x": 288,
-          "y": 120
+          "y": 168
         },
         {
           "id": 304,
-          "x": 240,
-          "y": 120
+          "x": 288,
+          "y": 204
         },
         {
           "id": 305,
           "x": 0,
-          "y": 84
+          "y": 96
         },
         {
           "id": 306,
           "x": 108,
-          "y": 120
+          "y": 132
         },
         {
           "id": 833,
           "x": 372,
-          "y": 84
+          "y": 96
         },
         {
           "id": 1055,
           "x": 36,
-          "y": 36
+          "y": 48
         },
         {
           "id": 1097,
           "x": 72,
-          "y": 36
+          "y": 48
         },
         {
           "id": 1098,
           "x": 72,
-          "y": 0
+          "y": 12
         },
         {
           "id": 1099,
           "x": 108,
-          "y": 36
+          "y": 48
+        },
+        {
+          "id": 1102,
+          "x": 324,
+          "y": 48
         }
       ]
     },
