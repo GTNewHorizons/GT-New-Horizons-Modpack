@@ -103638,6 +103638,287 @@
       "preRequisites": [
         227
       ]
+    },
+    {
+      "questID": 1097,
+      "name": "Bathing the warp effects away.",
+      "description": "Litmus paper is good to know how high you warp level is but how you can get ride of the nasty warp effects. Bath salt will help you to cleaning you from warp effects for a short period. Just throw it into a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemBathSalts",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemBathSalts",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "auram"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "cognitio"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "ordo"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "sano"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1055
+      ]
+    },
+    {
+      "questID": 1098,
+      "name": "Bathing in a Spaw. Automated Warp removing",
+      "description": "Bathing in a Spa will automate the process of temporary remove warp effects. Take the bath salt inside the spa.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockStoneDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemBathSalts",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1097
+      ]
+    },
+    {
+      "questID": 1099,
+      "name": "Temp warp remover Soap",
+      "description": "This soap is more special it will remove temporary warp and normal warp with a small chance. Maybe you are lucky loosing some warp using the soap.\n\nHint: You need to chisel your Tallow Block that the recipe works.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemSanitySoap",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemSanitySoap",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1097
+      ]
     }
   ],
   "questLines": [
@@ -106875,247 +107156,262 @@
         {
           "id": 260,
           "x": 36,
-          "y": 0
+          "y": 84
         },
         {
           "id": 261,
           "x": 324,
-          "y": 72
+          "y": 156
         },
         {
           "id": 263,
           "x": 288,
-          "y": 72
+          "y": 156
         },
         {
           "id": 265,
           "x": 144,
-          "y": 36
+          "y": 120
         },
         {
           "id": 266,
           "x": 240,
-          "y": 0
+          "y": 84
         },
         {
           "id": 267,
           "x": 108,
-          "y": 72
+          "y": 156
         },
         {
           "id": 268,
           "x": 144,
-          "y": 72
+          "y": 156
         },
         {
           "id": 269,
           "x": 144,
-          "y": 0
+          "y": 84
         },
         {
           "id": 270,
           "x": 108,
-          "y": 0
+          "y": 84
         },
         {
           "id": 271,
           "x": 180,
-          "y": 0
+          "y": 84
         },
         {
           "id": 264,
           "x": 180,
-          "y": 72
+          "y": 156
         },
         {
           "id": 262,
           "x": 324,
-          "y": 0
+          "y": 84
         },
         {
           "id": 272,
           "x": 36,
-          "y": 156
+          "y": 240
         },
         {
           "id": 273,
           "x": 324,
-          "y": 156
+          "y": 240
         },
         {
           "id": 274,
           "x": 324,
-          "y": 108
+          "y": 192
         },
         {
           "id": 275,
           "x": 0,
-          "y": 120
+          "y": 204
         },
         {
           "id": 276,
           "x": 0,
-          "y": 72
+          "y": 156
         },
         {
           "id": 277,
           "x": 0,
-          "y": 36
+          "y": 120
         },
         {
           "id": 278,
           "x": 36,
-          "y": 120
+          "y": 204
         },
         {
           "id": 279,
           "x": 408,
-          "y": 72
+          "y": 156
         },
         {
           "id": 281,
           "x": 480,
-          "y": 72
+          "y": 156
         },
         {
           "id": 280,
           "x": 444,
-          "y": 72
+          "y": 156
         },
         {
           "id": 283,
           "x": 408,
-          "y": 108
+          "y": 192
         },
         {
           "id": 284,
           "x": 408,
-          "y": 156
+          "y": 240
         },
         {
           "id": 285,
           "x": 408,
-          "y": 36
+          "y": 120
         },
         {
           "id": 286,
           "x": 444,
-          "y": 0
+          "y": 84
         },
         {
           "id": 288,
           "x": 372,
-          "y": 36
+          "y": 120
         },
         {
           "id": 289,
           "x": 480,
-          "y": 0
+          "y": 84
         },
         {
           "id": 282,
           "x": 480,
-          "y": 36
+          "y": 120
         },
         {
           "id": 290,
           "x": 0,
-          "y": 192
+          "y": 276
         },
         {
           "id": 291,
           "x": 108,
-          "y": 156
+          "y": 240
         },
         {
           "id": 292,
           "x": 144,
-          "y": 156
+          "y": 240
         },
         {
           "id": 293,
           "x": 180,
-          "y": 156
+          "y": 240
         },
         {
           "id": 294,
           "x": 216,
-          "y": 156
+          "y": 240
         },
         {
           "id": 295,
           "x": 72,
-          "y": 192
+          "y": 276
         },
         {
           "id": 296,
           "x": 36,
-          "y": 192
+          "y": 276
         },
         {
           "id": 297,
           "x": 72,
-          "y": 72
+          "y": 156
         },
         {
           "id": 298,
           "x": 72,
-          "y": 120
+          "y": 204
         },
         {
           "id": 300,
           "x": 120,
-          "y": 192
+          "y": 276
         },
         {
           "id": 299,
           "x": 72,
-          "y": 156
+          "y": 240
         },
         {
           "id": 301,
           "x": 0,
-          "y": 156
+          "y": 240
         },
         {
           "id": 287,
           "x": 444,
-          "y": 36
+          "y": 120
         },
         {
           "id": 302,
           "x": 72,
-          "y": 36
+          "y": 120
         },
         {
           "id": 303,
           "x": 288,
-          "y": 36
+          "y": 120
         },
         {
           "id": 304,
           "x": 240,
-          "y": 36
+          "y": 120
         },
         {
           "id": 305,
           "x": 0,
-          "y": 0
+          "y": 84
         },
         {
           "id": 306,
           "x": 108,
-          "y": 36
+          "y": 120
         },
         {
           "id": 833,
           "x": 372,
-          "y": 0
+          "y": 84
         },
         {
           "id": 1055,
           "x": 36,
-          "y": -48
+          "y": 36
+        },
+        {
+          "id": 1097,
+          "x": 72,
+          "y": 36
+        },
+        {
+          "id": 1098,
+          "x": 72,
+          "y": 0
+        },
+        {
+          "id": 1099,
+          "x": 108,
+          "y": 36
         }
       ]
     },
