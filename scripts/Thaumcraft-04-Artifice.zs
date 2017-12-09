@@ -190,12 +190,19 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemLeggingsFortress>);
 // --- Bone Bow
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemBowBone>);
 
+// --- Scribing Tool
+recipes.removeShapeless(<Thaumcraft:ItemInkwell>, [<minecraft:glass_bottle>, <minecraft:feather>, <ore:dyeBlack>]);
+
 
 
 
 
 // --- Adding Recipes ---
 
+
+
+// --- Scribing Tool
+recipes.addShapeless(<Thaumcraft:ItemInkwell>, [<Thaumcraft:ItemEssence>, <minecraft:feather>, <ore:dyeBlack>]);
 
 
 // --- Thaumometer
