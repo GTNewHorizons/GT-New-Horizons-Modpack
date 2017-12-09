@@ -1194,6 +1194,9 @@ recipes.addShaped(<GalacticraftCore:item.parachute>, [
 [<ore:wireFineSteel>, null, <ore:wireFineSteel>],
 [<ore:wireFineSteel>, <ore:wireFineSteel>, <ore:wireFineSteel>]]);
 
+// --- Raw Meteoric Iron
+recipes.addShapeless(<GalacticraftCore:item.meteoricIronRaw>, [<GalacticraftCore:item.meteoricIronRaw:*>]);
+
 // --- Rocket Tier 1
 mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship>,[
 [<dreamcraft:item.SchematicsTier1>, null, null, null, null, null, null, null, null],
