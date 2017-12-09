@@ -1637,6 +1637,10 @@ Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 4, <Galacticr
 
 // --- Oxygen Mask
 Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:glue> * 144, 400, 120);
+// -
+Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:refinedglue> * 144, 400, 120);
+// -
+Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:moten.rubber> * 72, 400, 120);
 
 // --- Solar Panel
 Assembler.addRecipe(<GalacticraftCore:item.basicItem>, SolarPanel, <GalacticraftCore:item.basicItem:9>, 200, 120);
