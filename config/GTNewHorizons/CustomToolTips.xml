@@ -217,28 +217,28 @@
 	
 //Gendustry Bee Combs
 
-	<ToolTip ItemName="gendustry:HoneyComb:202" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:203" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:204" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:206" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:207" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:301" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:303" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:603" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:605" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:607" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:609" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:610" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:611" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:700" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:701" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:702" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:703" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:800" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:801" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:1000" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:1001" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:1002" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:1003" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
-	<ToolTip ItemName="gendustry:HoneyComb:1004" ToolTip="§4This comb is too dense for basic forestry centrifuge"/>
+	<ToolTip ItemName="gendustry:HoneyComb:202" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:203" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:204" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:206" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:207" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:301" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:303" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:603" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:605" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:607" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:609" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:610" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:611" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:700" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:701" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:702" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:703" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:800" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:801" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:1000" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:1001" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:1002" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:1003" ToolTip="§4Forestry can't process it"/>
+	<ToolTip ItemName="gendustry:HoneyComb:1004" ToolTip="§4Forestry can't process it"/>
 </CustomToolTips>
