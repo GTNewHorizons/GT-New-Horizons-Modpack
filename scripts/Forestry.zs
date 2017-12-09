@@ -2829,6 +2829,14 @@ FluidSolidifier.addRecipe(<Forestry:honeyDrop>, <gregtech:gt.metaitem.01:32309> 
 
 
 
+// --- Ordict support ---
+
+
+// --- Honey Drop
+oreDict.foodHoneydrop.add(<Forestry:honeyDrop>);
+// -
+oreDict.listAllsugar.add(<Forestry:honeyDrop>);
+
 
 // --- Renaming Stuff ---
 
