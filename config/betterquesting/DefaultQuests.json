@@ -105151,166 +105151,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 26
-            },
-            {
-              "id": "Forestry:beeDroneGE",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "MaxH:4": 10,
-                "Health:4": 10,
-                "IsAnalyzed:4": 1,
-                "Genome:10": {
-                  "Chromosomes:9": [
-                    {
-                      "UID1:8": "forestry.speciesCultivated",
-                      "UID0:8": "forestry.speciesCultivated",
-                      "Slot:4": 0
-                    },
-                    {
-                      "UID1:8": "forestry.speedFast",
-                      "UID0:8": "forestry.speedFast",
-                      "Slot:4": 1
-                    },
-                    {
-                      "UID1:8": "forestry.lifespanShortest",
-                      "UID0:8": "forestry.lifespanShortest",
-                      "Slot:4": 2
-                    },
-                    {
-                      "UID1:8": "forestry.fertilityNormal",
-                      "UID0:8": "forestry.fertilityNormal",
-                      "Slot:4": 3
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceNone",
-                      "UID0:8": "forestry.toleranceNone",
-                      "Slot:4": 4
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 5
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceNone",
-                      "UID0:8": "forestry.toleranceNone",
-                      "Slot:4": 7
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 8
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 9
-                    },
-                    {
-                      "UID1:8": "forestry.flowersVanilla",
-                      "UID0:8": "forestry.flowersVanilla",
-                      "Slot:4": 10
-                    },
-                    {
-                      "UID1:8": "forestry.floweringSlowest",
-                      "UID0:8": "forestry.floweringSlowest",
-                      "Slot:4": 11
-                    },
-                    {
-                      "UID1:8": "forestry.territoryAverage",
-                      "UID0:8": "forestry.territoryAverage",
-                      "Slot:4": 12
-                    },
-                    {
-                      "UID1:8": "forestry.effectNone",
-                      "UID0:8": "forestry.effectNone",
-                      "Slot:4": 13
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "id": "Forestry:beePrincessGE",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "MaxH:4": 10,
-                "Health:4": 10,
-                "IsAnalyzed:4": 1,
-                "Genome:10": {
-                  "Chromosomes:9": [
-                    {
-                      "UID1:8": "forestry.speciesCultivated",
-                      "UID0:8": "forestry.speciesCultivated",
-                      "Slot:4": 0
-                    },
-                    {
-                      "UID1:8": "forestry.speedFast",
-                      "UID0:8": "forestry.speedFast",
-                      "Slot:4": 1
-                    },
-                    {
-                      "UID1:8": "forestry.lifespanShortest",
-                      "UID0:8": "forestry.lifespanShortest",
-                      "Slot:4": 2
-                    },
-                    {
-                      "UID1:8": "forestry.fertilityNormal",
-                      "UID0:8": "forestry.fertilityNormal",
-                      "Slot:4": 3
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceNone",
-                      "UID0:8": "forestry.toleranceNone",
-                      "Slot:4": 4
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 5
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceNone",
-                      "UID0:8": "forestry.toleranceNone",
-                      "Slot:4": 7
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 8
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 9
-                    },
-                    {
-                      "UID1:8": "forestry.flowersVanilla",
-                      "UID0:8": "forestry.flowersVanilla",
-                      "Slot:4": 10
-                    },
-                    {
-                      "UID1:8": "forestry.floweringSlowest",
-                      "UID0:8": "forestry.floweringSlowest",
-                      "Slot:4": 11
-                    },
-                    {
-                      "UID1:8": "forestry.territoryAverage",
-                      "UID0:8": "forestry.territoryAverage",
-                      "Slot:4": 12
-                    },
-                    {
-                      "UID1:8": "forestry.effectNone",
-                      "UID0:8": "forestry.effectNone",
-                      "Slot:4": 13
-                    }
-                  ]
-                }
-              }
             }
           ],
           "rewardID": "bq_standard:item"
@@ -107705,6 +107545,206 @@
       ],
       "preRequisites": [
         1121
+      ]
+    },
+    {
+      "questID": 1123,
+      "name": "Alverys",
+      "description": "The Alveary is an advanced variant of the Apiary. The Alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees Frame Housings) and due to its ability to be modified by other blocks. \nIt is possible to adjust the internal temperature of the Alveary using the Alveary Heater or Alveary Fan in order to accommodate Bees that require hotter or colder climates.\n It is also possible to use Mutators to increase chances of mutation, Alveary Lighting and Alveary Rain Shield to allow bees without the Nocturnal and Tolerant Flyer traits to work during the night and rain, respectively, and the Swarmer to use excess Royal Jelly to create princesses that last for a limited number of generations.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:alveary",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 432,
+              "OreDict": "",
+              "Damage": 19086
+            },
+            {
+              "id": "Forestry:royalJelly",
+              "Count": 216,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:pollen",
+              "Count": 216,
+              "OreDict": "itemPollen",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:beeswax",
+              "Count": 432,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:oakStick",
+              "Count": 648,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 216,
+              "OreDict": "",
+              "Damage": 30725
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:craftingMaterial",
+              "Count": 216,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:log",
+              "Count": 1728,
+              "OreDict": "logWood",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 54,
+              "OreDict": "",
+              "Damage": 30713
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:impregnatedCasing",
+              "Count": 216,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:craftingMaterial",
+              "Count": 216,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:alveary",
+              "Count": 27,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wooden_slab",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "Forestry:royalJelly",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:propolis",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        507
       ]
     }
   ],
@@ -113278,6 +113318,11 @@
         {
           "id": 1114,
           "x": 204,
+          "y": 144
+        },
+        {
+          "id": 1123,
+          "x": 252,
           "y": 144
         }
       ]
