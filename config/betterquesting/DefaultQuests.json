@@ -105617,7 +105617,8 @@
         }
       ],
       "preRequisites": [
-        1113
+        1113,
+        1122
       ]
     },
     {
@@ -105923,8 +105924,8 @@
     },
     {
       "questID": 1116,
-      "name": "Breed some common bees",
-      "description": "To breeding bees you need two different bees Drones and Princess from different hives (Meadows and Forestry as an expamle)\nIn an Apiary you can bread them to a new species. \nLook for prestine bees.\nThe next goal is Common Bees and  Cultivated.",
+      "name": "Breed some cultivated bees",
+      "description": "Common Princess and Foresty Drone can be breed to cultivated bees. \n\nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for prestine bees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105941,20 +105942,474 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "Forestry:beePrincessGE",
+        "id": "Forestry:beeQueenGE",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 10,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesCultivated",
+                "UID0:8": "forestry.speciesCultivated",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedFast",
+                "UID0:8": "forestry.speedFast",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShortest",
+                "UID0:8": "forestry.lifespanShortest",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          },
+          "Health:4": 10,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesCultivated",
+                "UID0:8": "forestry.speciesCultivated",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedFast",
+                "UID0:8": "forestry.speedFast",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShortest",
+                "UID0:8": "forestry.lifespanShortest",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesForest",
+                      "UID0:8": "forestry.speciesForest"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesForest",
+                      "UID0:8": "forestry.speciesForest"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesForest",
+                      "UID0:8": "forestry.speciesCultivated"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1117
+      ]
+    },
+    {
+      "questID": 1117,
+      "name": "Breed some common bees",
+      "description": "To breeding bees you need two different bees Drones and Princess from different hives (Meadows and Forestry as an expamle)\nIn an Apiary you can bread them to a new species.\n\nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for prestine bees.\n",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beeQueenGE",
         "Count": 1,
         "OreDict": "",
         "Damage": 0,
         "tag": {
           "MaxH:4": 20,
-          "NA:4": 0,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesCommon",
+                "UID0:8": "forestry.speciesCommon",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShorter",
+                "UID0:8": "forestry.lifespanShorter",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          },
           "Health:4": 20,
           "IsAnalyzed:4": 1,
           "Genome:10": {
             "Chromosomes:9": [
               {
-                "UID1:8": "forestry.speciesMeadows",
-                "UID0:8": "forestry.speciesMeadows"
+                "UID1:8": "forestry.speciesCommon",
+                "UID0:8": "forestry.speciesCommon",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShorter",
+                "UID0:8": "forestry.lifespanShorter",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
               }
             ]
           }
@@ -106081,6 +106536,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
               "id": "Forestry:honeyDrop",
               "Count": 16,
               "OreDict": "",
@@ -106109,6 +106570,1141 @@
       ],
       "preRequisites": [
         500
+      ]
+    },
+    {
+      "questID": 1118,
+      "name": "Breed some noble bees",
+      "description": "Common Princess and cultivated Drone can be breed to noble bees. \n\nNoble Bees produce Dripping Combs every 3.8 minutes and Honeydews. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time. Also if close to an Imperial Bee then it can make Royal Jelly.\n\nLook for prestine bees.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beeQueenGE",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 30,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesNoble",
+                "UID0:8": "forestry.speciesNoble",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShort",
+                "UID0:8": "forestry.lifespanShort",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlow",
+                "UID0:8": "forestry.floweringSlow",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          },
+          "Health:4": 30,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesNoble",
+                "UID0:8": "forestry.speciesNoble",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShort",
+                "UID0:8": "forestry.lifespanShort",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlow",
+                "UID0:8": "forestry.floweringSlow",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1116
+      ]
+    },
+    {
+      "questID": 1119,
+      "name": "Dripping Combs",
+      "description": "Your nobe bees producing some dripping combs.\nA good source for Honeydew , honey and for proven frames.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beeCombs",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1118
+      ]
+    },
+    {
+      "questID": 1120,
+      "name": "Breed some majestic bees",
+      "description": "Noble Princess and cultivated Drone can be breed to majestic bees. \n\nMajestic Bees produce Dripping Combs every 1.5 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for prestine bees.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beeQueenGE",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 35,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesMajestic",
+                "UID0:8": "forestry.speciesMajestic",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedNormal",
+                "UID0:8": "forestry.speedNormal",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShortened",
+                "UID0:8": "forestry.lifespanShortened",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityMaximum",
+                "UID0:8": "forestry.fertilityMaximum",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          },
+          "Health:4": 35,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesMajestic",
+                "UID0:8": "forestry.speciesMajestic",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedNormal",
+                "UID0:8": "forestry.speedNormal",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShortened",
+                "UID0:8": "forestry.lifespanShortened",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityMaximum",
+                "UID0:8": "forestry.fertilityMaximum",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectNone",
+                "UID0:8": "forestry.effectNone",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCultivated",
+                      "UID0:8": "forestry.speciesCultivated"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMajestic",
+                      "UID0:8": "forestry.speciesMajestic"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMajestic",
+                      "UID0:8": "forestry.speciesMajestic"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:honeydew",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1116
+      ]
+    },
+    {
+      "questID": 1121,
+      "name": "Breed some imperial bees",
+      "description": "Noble Princess and majestic Drone can be breed to imperial bees. \n\nImperial Bees produce Dripping Combs every 3.8 minutes and Royal Jelly every 5.1 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time. Royal Jelly is needed in making Scented Paneling for an Alveary.\n\nLook for prestine bees.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beeQueenGE",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 40,
+          "Mate:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesImperial",
+                "UID0:8": "forestry.speciesImperial",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanNormal",
+                "UID0:8": "forestry.lifespanNormal",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectBeatific",
+                "UID0:8": "forestry.effectBeatific",
+                "Slot:4": 13
+              }
+            ]
+          },
+          "Health:4": 40,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesImperial",
+                "UID0:8": "forestry.speciesImperial",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanNormal",
+                "UID0:8": "forestry.lifespanNormal",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceNone",
+                "UID0:8": "forestry.toleranceNone",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersVanilla",
+                "UID0:8": "forestry.flowersVanilla",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectBeatific",
+                "UID0:8": "forestry.effectBeatific",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesNoble",
+                      "UID0:8": "forestry.speciesNoble"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMajestic",
+                      "UID0:8": "forestry.speciesMajestic"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMajestic",
+                      "UID0:8": "forestry.speciesMajestic"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesImperial",
+                      "UID0:8": "forestry.speciesImperial"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesImperial",
+                      "UID0:8": "forestry.speciesImperial"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1120
+      ]
+    },
+    {
+      "questID": 1122,
+      "name": "Royal Jelly",
+      "description": "Royal Jelly is a honey bee secretion that is used in the nutrition of larvae, as well as adult queens. It is only produced by the Imperial Bee. Its production can be increased with Proven Frames or any other kind of frames except for the Soul Frame. The Royal Jelly is very useful because it can craft Ambrosia, which fills 8 hunger points (4 full food icons) and give Regeneration I for 40 seconds. Royal Jelly is also used to craft scented paneling which are vital in the creation of Alveary Blocks.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:royalJelly",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:royalJelly",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "Forestry:frameImpregnated",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1121
       ]
     }
   ],
@@ -111692,8 +113288,38 @@
       "quests": [
         {
           "id": 1116,
-          "x": 108,
+          "x": 48,
           "y": 0
+        },
+        {
+          "id": 1117,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1118,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 1119,
+          "x": 96,
+          "y": 36
+        },
+        {
+          "id": 1120,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 1121,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 1122,
+          "x": 192,
+          "y": 36
         }
       ]
     },
