@@ -105608,6 +105608,295 @@
       "preRequisites": [
         507
       ]
+    },
+    {
+      "questID": 1112,
+      "name": "Frames",
+      "description": "Untreated frames are the simples frames. They not work into bee houses but in apiarys.\nThey increase the Bee\u0027s preformance and Each Untreated Frame will double a bee\u0027s productivity.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:frameUntreated",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wooden_slab",
+              "Count": 9,
+              "OreDict": "slabWood",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:string",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stick",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:frameUntreated",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        502
+      ]
+    },
+    {
+      "questID": 1113,
+      "name": "Impregnated Frames",
+      "description": "Impregnated Frames are even better then untreated Frames. \nEach frame doubles the bee\u0027s productivity. It has a longer durability than the Untreated Frame, but a shorter one compared to the Proven Frame.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:frameImpregnated",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:slab",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 38
+            },
+            {
+              "id": "harvestcraft:wovencottonItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:oakStick",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:frameImpregnated",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        507
+      ]
+    },
+    {
+      "questID": 1114,
+      "name": "Proven Frame",
+      "description": "Profen frame are much better then impregnated ones.\nEach frame doubles the bee\u0027s productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:frameProven",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:frameProven",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "Forestry:propolis",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:propolis",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1113
+      ]
     }
   ],
   "questLines": [
@@ -111005,167 +111294,182 @@
         {
           "id": 500,
           "x": 0,
-          "y": 36
+          "y": 72
         },
         {
           "id": 501,
           "x": 36,
-          "y": 36
+          "y": 72
         },
         {
           "id": 502,
           "x": 72,
-          "y": 36
+          "y": 72
         },
         {
           "id": 503,
           "x": 156,
-          "y": 36
+          "y": 72
         },
         {
           "id": 504,
           "x": 204,
-          "y": 36
+          "y": 72
         },
         {
           "id": 505,
           "x": 252,
-          "y": 36
+          "y": 72
         },
         {
           "id": 506,
           "x": 108,
-          "y": 108
+          "y": 144
         },
         {
           "id": 507,
           "x": 156,
-          "y": 72
+          "y": 108
         },
         {
           "id": 508,
           "x": 156,
-          "y": 108
+          "y": 180
         },
         {
           "id": 509,
           "x": 36,
-          "y": 144
+          "y": 180
         },
         {
           "id": 511,
           "x": 0,
-          "y": 108
+          "y": 144
         },
         {
           "id": 512,
           "x": 0,
-          "y": 144
+          "y": 180
         },
         {
           "id": 513,
           "x": 204,
-          "y": 108
+          "y": 180
         },
         {
           "id": 514,
           "x": 72,
-          "y": 72
+          "y": 108
         },
         {
           "id": 510,
           "x": 36,
-          "y": 108
+          "y": 144
         },
         {
           "id": 515,
           "x": 36,
-          "y": 72
+          "y": 108
         },
         {
           "id": 516,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
           "id": 517,
           "x": 72,
-          "y": 144
+          "y": 180
         },
         {
           "id": 518,
           "x": 72,
-          "y": 108
+          "y": 144
         },
         {
           "id": 519,
           "x": 0,
-          "y": 204
+          "y": 240
         },
         {
           "id": 520,
           "x": 36,
-          "y": 204
+          "y": 240
         },
         {
           "id": 521,
           "x": 108,
-          "y": 204
+          "y": 240
         },
         {
           "id": 522,
           "x": 324,
-          "y": 204
+          "y": 240
         },
         {
           "id": 523,
           "x": 252,
-          "y": 204
+          "y": 240
         },
         {
           "id": 524,
           "x": 72,
-          "y": 204
+          "y": 240
         },
         {
           "id": 525,
           "x": 288,
-          "y": 204
+          "y": 240
         },
         {
           "id": 526,
           "x": 144,
-          "y": 204
+          "y": 240
         },
         {
           "id": 527,
           "x": 216,
-          "y": 204
+          "y": 240
         },
         {
           "id": 528,
           "x": 180,
-          "y": 204
+          "y": 240
         },
         {
           "id": 992,
           "x": 72,
-          "y": 0
+          "y": 36
         },
         {
           "id": 993,
-          "x": 108,
+          "x": 72,
           "y": 0
         },
         {
           "id": 995,
-          "x": 156,
+          "x": 108,
           "y": 0
         },
         {
           "id": 1111,
           "x": 204,
-          "y": 72
+          "y": 108
+        },
+        {
+          "id": 1112,
+          "x": 108,
+          "y": 36
+        },
+        {
+          "id": 1113,
+          "x": 156,
+          "y": 144
+        },
+        {
+          "id": 1114,
+          "x": 204,
+          "y": 144
         }
       ]
     },
