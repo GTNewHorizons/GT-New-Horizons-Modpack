@@ -104108,6 +104108,12 @@
               "Damage": 0
             },
             {
+              "id": "ExtraUtilities:unstableingot",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
@@ -104196,6 +104202,12 @@
               "Count": 164,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
             },
             {
               "id": "Thaumcraft:ItemLootBag",
@@ -104296,7 +104308,8 @@
         }
       ],
       "preRequisites": [
-        1101
+        1101,
+        1104
       ]
     },
     {
@@ -104385,7 +104398,7 @@
     {
       "questID": 1105,
       "name": "Division Sigil Stable",
-      "description": "The second ritual will not so easy like the first one. After this you sigil is so stable making unstable ingots they not explode anymore.",
+      "description": "The second ritual will not so easy like the first one. After this you sigil is so stable making unstable ingots they not explode anymore.\n\nBest location is the End. \nThe ritual is performed by placing a Beacon in the centre of a flat area of at least 11×11, not necessarily End Stone, then place a chest in each of the cardinal directions leaving 4 spaces empty between the chest and the Beacon. In each chest insert these specific contents:\n\nNorth: iron ingot, gold ingot and the other things listed in the task.\nSouth: The different Ore Blocks and the other things listed in the task.\nEast: The potions.\nWest: The Music disks.\n\nA spiral pattern of Redstone and String is then laid out around the beacon. At any time, Shift+Right-clicking the Beacon with an Activated Division Sigil in hand will show the building progress of the ritual.\n\nFinally, kill an Iron Golem while it stands within the ritual area to activate the process. If it works, there will be an explosion that destroys the beacon and chests, while every Enderman in the End vanishes. During the ritual, throngs of aggresive mobs imbued with Haste will begin spawning and attacking the Player who needs to kill 100 of them to complete the ritual. If the Player dies or leave the dimension, the ritual will fail and will have to be started over. Once enough mobs have been killed, the first activated Sigil in the inventory will stabilize. The Pseudo-Inversion Sigil can be used an unlimited number of times, and dividing an Iron Ingot by Diamond will produce Mobius \"Unstable-Stable\" Ingot which does not explode, can be produced in any crafting interface and will stack up to 64.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104500,7 +104513,7 @@
               "id": "minecraft:coal",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 1
             },
             {
               "id": "minecraft:iron_ingot",
@@ -104534,6 +104547,299 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:dirt",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sand",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:grass",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:gravel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:clay",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:obsidian",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:coal_ore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_ore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:gold_ore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone_ore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:lapis_ore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:emerald_ore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:record_cat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_blocks",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_chirp",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_far",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_mall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_mellohi",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_stal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_strad",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_ward",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_11",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_wait",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_13",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8199
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8200
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8201
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8202
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8198
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8203
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8193
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8194
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8195
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8196
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8197
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8205
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:pumpkin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_block",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "name": "The END",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 1,
+          "range": -1,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:divisionSigil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "stable:4": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -104544,6 +104850,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
             },
             {
               "id": "Thaumcraft:ItemLootBag",
