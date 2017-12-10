@@ -93290,75 +93290,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "MaxH:4": 30,
-                "Health:4": 30,
-                "IsAnalyzed:4": 1,
                 "Genome:10": {
                   "Chromosomes:9": [
                     {
                       "UID1:8": "forestry.speciesTropical",
-                      "UID0:8": "forestry.speciesTropical",
-                      "Slot:4": 0
-                    },
-                    {
-                      "UID1:8": "forestry.speedSlower",
-                      "UID0:8": "forestry.speedSlower",
-                      "Slot:4": 1
-                    },
-                    {
-                      "UID1:8": "forestry.lifespanShort",
-                      "UID0:8": "forestry.lifespanShort",
-                      "Slot:4": 2
-                    },
-                    {
-                      "UID1:8": "forestry.fertilityNormal",
-                      "UID0:8": "forestry.fertilityNormal",
-                      "Slot:4": 3
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceUp1",
-                      "UID0:8": "forestry.toleranceUp1",
-                      "Slot:4": 4
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 5
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceUp1",
-                      "UID0:8": "forestry.toleranceUp1",
-                      "Slot:4": 7
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 8
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 9
-                    },
-                    {
-                      "UID1:8": "forestry.flowersJungle",
-                      "UID0:8": "forestry.flowersJungle",
-                      "Slot:4": 10
-                    },
-                    {
-                      "UID1:8": "forestry.floweringSlowest",
-                      "UID0:8": "forestry.floweringSlowest",
-                      "Slot:4": 11
-                    },
-                    {
-                      "UID1:8": "forestry.territoryAverage",
-                      "UID0:8": "forestry.territoryAverage",
-                      "Slot:4": 12
-                    },
-                    {
-                      "UID1:8": "forestry.effectMiasmic",
-                      "UID0:8": "forestry.effectMiasmic",
-                      "Slot:4": 13
+                      "UID0:8": "forestry.speciesTropical"
                     }
                   ]
                 }
@@ -93370,75 +93306,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "MaxH:4": 30,
-                "Health:4": 30,
-                "IsAnalyzed:4": 1,
                 "Genome:10": {
                   "Chromosomes:9": [
                     {
                       "UID1:8": "forestry.speciesTropical",
-                      "UID0:8": "forestry.speciesTropical",
-                      "Slot:4": 0
-                    },
-                    {
-                      "UID1:8": "forestry.speedSlower",
-                      "UID0:8": "forestry.speedSlower",
-                      "Slot:4": 1
-                    },
-                    {
-                      "UID1:8": "forestry.lifespanShort",
-                      "UID0:8": "forestry.lifespanShort",
-                      "Slot:4": 2
-                    },
-                    {
-                      "UID1:8": "forestry.fertilityNormal",
-                      "UID0:8": "forestry.fertilityNormal",
-                      "Slot:4": 3
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceUp1",
-                      "UID0:8": "forestry.toleranceUp1",
-                      "Slot:4": 4
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 5
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceUp1",
-                      "UID0:8": "forestry.toleranceUp1",
-                      "Slot:4": 7
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 8
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 9
-                    },
-                    {
-                      "UID1:8": "forestry.flowersJungle",
-                      "UID0:8": "forestry.flowersJungle",
-                      "Slot:4": 10
-                    },
-                    {
-                      "UID1:8": "forestry.floweringSlowest",
-                      "UID0:8": "forestry.floweringSlowest",
-                      "Slot:4": 11
-                    },
-                    {
-                      "UID1:8": "forestry.territoryAverage",
-                      "UID0:8": "forestry.territoryAverage",
-                      "Slot:4": 12
-                    },
-                    {
-                      "UID1:8": "forestry.effectMiasmic",
-                      "UID0:8": "forestry.effectMiasmic",
-                      "Slot:4": 13
+                      "UID0:8": "forestry.speciesTropical"
                     }
                   ]
                 }
