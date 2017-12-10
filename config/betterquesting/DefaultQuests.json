@@ -43398,7 +43398,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -43406,162 +43406,13 @@
               "id": "Forestry:beePrincessGE",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "MaxH:4": 20,
-                "NA:4": 0,
-                "Health:4": 20,
-                "IsAnalyzed:4": 0,
-                "Genome:10": {
-                  "Chromosomes:9": [
-                    {
-                      "UID1:8": "forestry.speciesMarshy",
-                      "UID0:8": "forestry.speciesMarshy",
-                      "Slot:4": 0
-                    },
-                    {
-                      "UID1:8": "forestry.speedSlowest",
-                      "UID0:8": "forestry.speedSlowest",
-                      "Slot:4": 1
-                    },
-                    {
-                      "UID1:8": "forestry.lifespanShorter",
-                      "UID0:8": "forestry.lifespanShorter",
-                      "Slot:4": 2
-                    },
-                    {
-                      "UID1:8": "forestry.fertilityHigh",
-                      "UID0:8": "forestry.fertilityHigh",
-                      "Slot:4": 3
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceBoth1",
-                      "UID0:8": "forestry.toleranceBoth1",
-                      "Slot:4": 4
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 5
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceNone",
-                      "UID0:8": "forestry.toleranceNone",
-                      "Slot:4": 7
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 8
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 9
-                    },
-                    {
-                      "UID1:8": "forestry.flowersMushrooms",
-                      "UID0:8": "forestry.flowersMushrooms",
-                      "Slot:4": 10
-                    },
-                    {
-                      "UID1:8": "forestry.floweringSlower",
-                      "UID0:8": "forestry.floweringSlower",
-                      "Slot:4": 11
-                    },
-                    {
-                      "UID1:8": "forestry.territoryAverage",
-                      "UID0:8": "forestry.territoryAverage",
-                      "Slot:4": 12
-                    },
-                    {
-                      "UID1:8": "forestry.effectNone",
-                      "UID0:8": "forestry.effectNone",
-                      "Slot:4": 13
-                    }
-                  ]
-                }
-              }
+              "Damage": 0
             },
             {
               "id": "Forestry:beeDroneGE",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "MaxH:4": 20,
-                "Health:4": 20,
-                "IsAnalyzed:4": 0,
-                "Genome:10": {
-                  "Chromosomes:9": [
-                    {
-                      "UID1:8": "forestry.speciesMarshy",
-                      "UID0:8": "forestry.speciesMarshy",
-                      "Slot:4": 0
-                    },
-                    {
-                      "UID1:8": "forestry.speedSlowest",
-                      "UID0:8": "forestry.speedSlowest",
-                      "Slot:4": 1
-                    },
-                    {
-                      "UID1:8": "forestry.lifespanShorter",
-                      "UID0:8": "forestry.lifespanShorter",
-                      "Slot:4": 2
-                    },
-                    {
-                      "UID1:8": "forestry.fertilityHigh",
-                      "UID0:8": "forestry.fertilityHigh",
-                      "Slot:4": 3
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceBoth1",
-                      "UID0:8": "forestry.toleranceBoth1",
-                      "Slot:4": 4
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 5
-                    },
-                    {
-                      "UID1:8": "forestry.toleranceNone",
-                      "UID0:8": "forestry.toleranceNone",
-                      "Slot:4": 7
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 8
-                    },
-                    {
-                      "UID1:8": "forestry.boolFalse",
-                      "UID0:8": "forestry.boolFalse",
-                      "Slot:4": 9
-                    },
-                    {
-                      "UID1:8": "forestry.flowersMushrooms",
-                      "UID0:8": "forestry.flowersMushrooms",
-                      "Slot:4": 10
-                    },
-                    {
-                      "UID1:8": "forestry.floweringSlower",
-                      "UID0:8": "forestry.floweringSlower",
-                      "Slot:4": 11
-                    },
-                    {
-                      "UID1:8": "forestry.territoryAverage",
-                      "UID0:8": "forestry.territoryAverage",
-                      "Slot:4": 12
-                    },
-                    {
-                      "UID1:8": "forestry.effectNone",
-                      "UID0:8": "forestry.effectNone",
-                      "Slot:4": 13
-                    }
-                  ]
-                }
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -93328,7 +93179,7 @@
     {
       "questID": 992,
       "name": "Go find some tropical bees",
-      "description": "Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very agressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist\u0027s clothes.",
+      "description": "Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very agressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist\u0027s clothes.\nLooking for pristine Bees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -93429,7 +93280,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -93440,9 +93291,8 @@
               "Damage": 0,
               "tag": {
                 "MaxH:4": 30,
-                "NA:4": 0,
                 "Health:4": 30,
-                "IsAnalyzed:4": 0,
+                "IsAnalyzed:4": 1,
                 "Genome:10": {
                   "Chromosomes:9": [
                     {
@@ -93522,7 +93372,7 @@
               "tag": {
                 "MaxH:4": 30,
                 "Health:4": 30,
-                "IsAnalyzed:4": 0,
+                "IsAnalyzed:4": 1,
                 "Genome:10": {
                   "Chromosomes:9": [
                     {
@@ -105897,6 +105747,497 @@
       "preRequisites": [
         1113
       ]
+    },
+    {
+      "questID": 1115,
+      "name": "Go find some tropical bees",
+      "description": "Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very agressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist\u0027s clothes.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beePrincessGE",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 30,
+          "NA:4": 0,
+          "Health:4": 30,
+          "IsAnalyzed:4": 0,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesTropical",
+                "UID0:8": "forestry.speciesTropical",
+                "Slot:4": 0
+              },
+              {
+                "UID1:8": "forestry.speedSlower",
+                "UID0:8": "forestry.speedSlower",
+                "Slot:4": 1
+              },
+              {
+                "UID1:8": "forestry.lifespanShort",
+                "UID0:8": "forestry.lifespanShort",
+                "Slot:4": 2
+              },
+              {
+                "UID1:8": "forestry.fertilityNormal",
+                "UID0:8": "forestry.fertilityNormal",
+                "Slot:4": 3
+              },
+              {
+                "UID1:8": "forestry.toleranceUp1",
+                "UID0:8": "forestry.toleranceUp1",
+                "Slot:4": 4
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 5
+              },
+              {
+                "UID1:8": "forestry.toleranceUp1",
+                "UID0:8": "forestry.toleranceUp1",
+                "Slot:4": 7
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 8
+              },
+              {
+                "UID1:8": "forestry.boolFalse",
+                "UID0:8": "forestry.boolFalse",
+                "Slot:4": 9
+              },
+              {
+                "UID1:8": "forestry.flowersJungle",
+                "UID0:8": "forestry.flowersJungle",
+                "Slot:4": 10
+              },
+              {
+                "UID1:8": "forestry.floweringSlowest",
+                "UID0:8": "forestry.floweringSlowest",
+                "Slot:4": 11
+              },
+              {
+                "UID1:8": "forestry.territoryAverage",
+                "UID0:8": "forestry.territoryAverage",
+                "Slot:4": 12
+              },
+              {
+                "UID1:8": "forestry.effectMiasmic",
+                "UID0:8": "forestry.effectMiasmic",
+                "Slot:4": 13
+              }
+            ]
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 30,
+                "NA:4": 0,
+                "Health:4": 30,
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesTropical",
+                      "UID0:8": "forestry.speciesTropical",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShort",
+                      "UID0:8": "forestry.lifespanShort",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceUp1",
+                      "UID0:8": "forestry.toleranceUp1",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceUp1",
+                      "UID0:8": "forestry.toleranceUp1",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersJungle",
+                      "UID0:8": "forestry.flowersJungle",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectMiasmic",
+                      "UID0:8": "forestry.effectMiasmic",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 30,
+                "Health:4": 30,
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesTropical",
+                      "UID0:8": "forestry.speciesTropical",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlower",
+                      "UID0:8": "forestry.speedSlower",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShort",
+                      "UID0:8": "forestry.lifespanShort",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceUp1",
+                      "UID0:8": "forestry.toleranceUp1",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceUp1",
+                      "UID0:8": "forestry.toleranceUp1",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersJungle",
+                      "UID0:8": "forestry.flowersJungle",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectMiasmic",
+                      "UID0:8": "forestry.effectMiasmic",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        502
+      ]
+    },
+    {
+      "questID": 1116,
+      "name": "Breed some common bees",
+      "description": "To breeding bees you need two different bees Drones and Princess from different hives (Meadows and Forestry as an expamle)\nIn an Apiary you can bread them to a new species. \nLook for prestine bees.\nThe next goal is Common Bees and  Cultivated.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:beePrincessGE",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "MaxH:4": 20,
+          "NA:4": 0,
+          "Health:4": 20,
+          "IsAnalyzed:4": 1,
+          "Genome:10": {
+            "Chromosomes:9": [
+              {
+                "UID1:8": "forestry.speciesMeadows",
+                "UID0:8": "forestry.speciesMeadows"
+              }
+            ]
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMeadows",
+                      "UID0:8": "forestry.speciesMeadows"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMeadows",
+                      "UID0:8": "forestry.speciesMeadows"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesForest",
+                      "UID0:8": "forestry.speciesForest"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesForest",
+                      "UID0:8": "forestry.speciesForest"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesForest",
+                      "UID0:8": "forestry.speciesCommon"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesCommon",
+                      "UID0:8": "forestry.speciesCommon"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:honeyDrop",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:beeCombs",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        500
+      ]
     }
   ],
   "questLines": [
@@ -111470,6 +111811,17 @@
           "id": 1114,
           "x": 204,
           "y": 144
+        }
+      ]
+    },
+    {
+      "name": "Be(e) Breeding",
+      "description": "Explain how to breeding Bees",
+      "quests": [
+        {
+          "id": 1116,
+          "x": 108,
+          "y": 0
         }
       ]
     },
