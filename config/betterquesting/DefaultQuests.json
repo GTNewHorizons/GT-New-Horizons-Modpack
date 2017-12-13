@@ -95417,7 +95417,7 @@
     {
       "questID": 1003,
       "name": "Power of the Sun at MV Level",
-      "description": "The next solarpanel you can make is the MV one. It gives 128 EU/t max. Most gt machine can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.",
+      "description": "The next solarpanel you can make is the MV one. It gives 128 EU/t max. Most gt machines can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -100465,7 +100465,7 @@
     {
       "questID": 1067,
       "name": "Space Station",
-      "description": "Here\u0027s an idea for your space station.\nYou can add up to four spin trusters to your station to rotate it.\n\nDays on space stations last longer than on the overworld, so you can generate more solar power.",
+      "description": "Here\u0027s an idea for your space station.\nYou can add up to four spin thrusters to your station to rotate it.\n\nDays on space stations last longer than on the overworld, so you can generate more solar power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -100706,7 +100706,7 @@
     {
       "questID": 1069,
       "name": "Oak, Spruce, Brich, Jungle Sapling",
-      "description": "You spawned in a desert and need Oak or Bitch saplings? No problem! For five Forestry Coins you can select which one you want to buy.",
+      "description": "You spawned in a desert and need Oak or Birch saplings? No problem! For five Forestry Coins you can select which one you want to buy.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -100968,7 +100968,7 @@
     {
       "questID": 1072,
       "name": "Moon arrival",
-      "description": "I have a small present for you: a Talisman of Remedium whic is very usefull to persevere during the dark nights with all these monsters.",
+      "description": "I have a small present for you: a Talisman of Remedium which is very useful to persevere during the dark nights with all these monsters.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -101116,7 +101116,7 @@
     {
       "questID": 1073,
       "name": "Naga",
-      "description": "Summon a Naga but only in the Twilight Forest.",
+      "description": "Summon a Naga in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101182,7 +101182,7 @@
     {
       "questID": 1074,
       "name": "Lich",
-      "description": "Summon a Lich but only in the Twilight Forest.",
+      "description": "Summon a Lich in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101249,7 +101249,7 @@
     {
       "questID": 1075,
       "name": "Minoshroom",
-      "description": "Summon a Minoshroom but only in the Twilight Forest.",
+      "description": "Summon a Minoshroom in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101316,7 +101316,7 @@
     {
       "questID": 1076,
       "name": "Hydra",
-      "description": "Summon a Hydra but only in the Twilight Forest.",
+      "description": "Summon a Hydra in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101389,7 +101389,7 @@
     {
       "questID": 1077,
       "name": "Knight Phantom",
-      "description": "Summon a Knight Phantom but only in the Twilight Forest.",
+      "description": "Summon a Knight Phantom in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101456,7 +101456,7 @@
     {
       "questID": 1078,
       "name": "Ur Ghast",
-      "description": "Summon a Ur-Ghast but only in the Twilight Forest.",
+      "description": "Summon an Ur-Ghast in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101529,7 +101529,7 @@
     {
       "questID": 1079,
       "name": "Yeti",
-      "description": "Summon a Yeti but only in the Twilight Forest.",
+      "description": "Summon a Yeti in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101602,7 +101602,7 @@
     {
       "questID": 1080,
       "name": "Snow Queen",
-      "description": "Summon a Snow Queen but only in the Twilight Forest.",
+      "description": "Summon a Snow Queen in the Twilight Forest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101669,7 +101669,7 @@
     {
       "questID": 1081,
       "name": "MV Bending",
-      "description": "Double Aluminium Plates are quite expensive but worth making for your Tool Forge. Use your new MV Bender to make some.",
+      "description": "Double aluminium plates are quite expensive but worth making for your Tool Forge. Use your new MV Bender to make some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101746,7 +101746,7 @@
     {
       "questID": 1082,
       "name": "MV Battery Buffers",
-      "description": "Mv machines need Battery Buffer too. The come in Different sizes like 1x, 4x, 9x and 16x.\nBuilding a 1x and a 4x buffer.",
+      "description": "MV machines need battery buffers too. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 1x and a 4x buffer.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101996,7 +101996,7 @@
     {
       "questID": 1085,
       "name": "More Compact Storage",
-      "description": "Now that you are starting to find more and more iron and you feel your wood chests are too small to hold all the stuff you found and collected. Now it\u0027s time to upgrade your chests to a iron chests. You can just build a new chest or upgrade the wood chest with a wood to iron chest upgrade item.",
+      "description": "Now that you are starting to find more and more iron and you feel your wood chests are too small to hold all the stuff you found and collected. Now it\u0027s time to upgrade your chests to iron chests. You can just build a new chest or upgrade the wood chest with a wood to iron chest upgrade item.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103124,7 +103124,7 @@
     {
       "questID": 1095,
       "name": "Even More Compact Storage",
-      "description": "If you found enough gold you can upgrade your chest to make it even a bigger inventory of 9x9. You can just build a new chest or upgrade the iron chest with a wood to gold chest upgrade item.",
+      "description": "If you found enough gold you can upgrade your chest to make it an even bigger inventory of 9x9. You can just build a new chest or upgrade the iron chest with a wood to gold chest upgrade item.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103232,7 +103232,7 @@
     {
       "questID": 1096,
       "name": "Scribing Tool",
-      "description": "To unlock you researches you need a scribing tool and Paper. Better creating two of them , one for your research table and one for researches. You need Paper and ink also.",
+      "description": "To unlock your researches you need a scribing tool and paper. Better make two of them. One for your research table and one for researches. You also need some paper and ink.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -103368,7 +103368,7 @@
     {
       "questID": 1097,
       "name": "Bathing the warp effects away.",
-      "description": "Litmus paper is good to know how high you warp level is but how you can get ride of the nasty warp effects. Bath salt will help you to cleaning you from warp effects for a short period. Just throw it into a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.",
+      "description": "Litmus paper tell you how high you warp level is, but how can you get rid of the nasty warp effects? Bath salt will help you by prohibiting warp effects for a short period. Just throw the salt intorelieved a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103494,8 +103494,8 @@
     },
     {
       "questID": 1098,
-      "name": "Bathing in a Spaw. Automated Warp removing",
-      "description": "Bathing in a Spa will automate the process of temporary remove warp effects. Take the bath salt inside the spa.",
+      "name": "Bathing in a Spa. Automated Warp removing",
+      "description": "Bathing in a spa will automate the process of temporary removing warp effects. Take the bath salt with you into the spa.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103572,7 +103572,7 @@
     {
       "questID": 1099,
       "name": "Temp warp remover Soap",
-      "description": "This soap is more special it will remove temporary warp and normal warp with a small chance. Maybe you are lucky loosing some warp using the soap.\n\nHint: You need to chisel your Tallow Block that the recipe works.",
+      "description": "This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. \n\nHint: You need to chisel your tallow block for the recipe to work.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103649,7 +103649,7 @@
     {
       "questID": 1100,
       "name": "Enchanting Table 1.0",
-      "description": "Finaly with your new Wand and 50 stored vis you are able to build your own enchantment table. The recipe can found on the GTNH Thaumcraft Page",
+      "description": "Finaly with your new wand and 50 stored vis you are able to build your own enchantment table. The recipe can be found on the GTNH Thaumcraft Page",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103726,7 +103726,7 @@
     {
       "questID": 1101,
       "name": "Division Sigil",
-      "description": "Maybe you found some division sigil in a chest allready. You hear about some ritual to activate it.\n\nYou need an Enchantment table 8 redstone dust a good sword and an animal you want to sacrifice at night. Catch it with a lasso would be the easiest way.\nBuilding your Table on a grass place and sourroundet it with redstone dust.\nWhen it is night place the animal on or nearby the table and kill it.\nOf cozce you need your sigil with you.\nBe aware your actions have consequences.",
+      "description": "Maybe you found a division sigil in a chest already. You have heard about some ritual to activate it.\n\nYou need an enchantment table, 8 redstone dust, a good sword and an animal you want to sacrifice at night. Catching and holding it with a lasso would be the easiest way.\nPlace your enchantment table on a grass field and sourround it with redstone dust.\nPrecisely at midnight place the animal on or near the table and kill it.\nOf course you also need to have your sigil on you.\nBe aware! Your actions will have consequences.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103876,7 +103876,7 @@
     {
       "questID": 1102,
       "name": "Beacon",
-      "description": "With your new Wand you are able to create an Beacon. The Beacon recipe is found on the GTNH Thaumcraft Page. Activate in your Base some positive effects with your new crafted Beacon",
+      "description": "With your new wand you are able to create a beacon. The beacon recipe is found on the GTNH Thaumcraft Page. Activate it in your base to gain various positive effects.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103959,7 +103959,7 @@
     {
       "questID": 1103,
       "name": "Cursed Earth",
-      "description": "If you get rid of all this monsters this spawns on cursed earth go and grab some blocks with y silk touche shovel. You will need this block for your mob spawner later.",
+      "description": "Kill the monsters that spawn on the cursed earth. Use a shovel with the silk touch enchantment to dig up the cursed earth blocks. You will need these blocks for your mob spawner later.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104037,7 +104037,7 @@
     {
       "questID": 1104,
       "name": "Silky Jewel",
-      "description": "Its time to craft some silky jewel for your tinkers tools. A lot of blocks you can easy grab with this tool.\n\nThe recipe you can found on the GTNH page after research the Enchantment table.",
+      "description": "It\u0027s time to craft some silky jewels for your tinkers tools. Lots of blocks you can easily grab with this tool.\n\nThe recipe can be found on the GTNH page after researching the enchantment table.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104120,7 +104120,7 @@
     {
       "questID": 1105,
       "name": "Division Sigil Stable",
-      "description": "The second ritual will not so easy like the first one. After this you sigil is so stable making unstable ingots they not explode anymore.\n\nBest location is the End. \nThe ritual is performed by placing a Beacon in the centre of a flat area of at least 11×11, not necessarily End Stone, then place a chest in each of the cardinal directions leaving 4 spaces empty between the chest and the Beacon. In each chest insert these specific contents:\n\nNorth: iron ingot, gold ingot and the other things listed in the task.\nSouth: The different Ore Blocks and the other things listed in the task.\nEast: The potions.\nWest: The Music disks.\n\nA spiral pattern of Redstone and String is then laid out around the beacon. At any time, Shift+Right-clicking the Beacon with an Activated Division Sigil in hand will show the building progress of the ritual.\n\nFinally, kill an Iron Golem while it stands within the ritual area to activate the process. If it works, there will be an explosion that destroys the beacon and chests, while every Enderman in the End vanishes. During the ritual, throngs of aggresive mobs imbued with Haste will begin spawning and attacking the Player who needs to kill 100 of them to complete the ritual. If the Player dies or leave the dimension, the ritual will fail and will have to be started over. Once enough mobs have been killed, the first activated Sigil in the inventory will stabilize. The Pseudo-Inversion Sigil can be used an unlimited number of times, and dividing an Iron Ingot by Diamond will produce Mobius \"Unstable-Stable\" Ingot which does not explode, can be produced in any crafting interface and will stack up to 64.",
+      "description": "The second ritual will not be as easy as the first one. After this ritual your sigil will be stable enough to make stable unstable ingots which will not explode.\n\nThis ritual needs to be performed in The End dimension. \nThe ritual is performed by placing a Beacon in the centre of a flat area of at least 11×11, not necessarily End Stone. Then place a chest in each of the cardinal directions leaving 4 spaces empty between the chest and the Beacon. In each chest insert these specific contents:\n\nNorth: iron ingot, gold ingot and the other things listed in the task.\nSouth: The different Ore Blocks and the other things listed in the task.\nEast: The potions.\nWest: The Music disks.\n\nA spiral pattern of Redstone and String is then laid out around the beacon. At any time, Shift+Right-clicking the Beacon with an Activated Division Sigil in hand will show the building progress of the ritual.\n\nFinally, kill an Iron Golem while it stands within the ritual area to activate the process. If it works, there will be an explosion that destroys the beacon and chests, while every Enderman in the End vanishes. During the ritual, throngs of aggresive mobs imbued with Haste will begin spawning and attacking the Player who needs to kill 100 of them to complete the ritual. If the Player dies or leaves the dimension, the ritual will fail and will have to be started over. Once enough mobs have been killed, the first activated Sigil in the inventory will stabilize. The Pseudo-Inversion Sigil can be used an unlimited number of times, and dividing an Iron Ingot by Diamond will produce Mobius \"Unstable-Stable\" Ingot which does not explode, can be produced in any crafting interface and will stack up to 64.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104621,7 +104621,7 @@
     {
       "questID": 1106,
       "name": "Blub blub blub.....",
-      "description": "The brewing stand is realy important for brewing the various potion likenigt vision, healing, hast and jumping. Toxic potions or splass potions can be created too. \nWith you basic wand you can create one.\n\nThe recipes can be found on the GTNH Page in the Thaumcraft Book.",
+      "description": "The brewing stand is really important for brewing the various potion like night vision, healing, haste and jump. Toxic potions or splash potions can be created too. \nWith your basic wand you can create one.\n\nThe recipes can be found on the GTNH page in the Thaumonomicon.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104722,7 +104722,7 @@
     {
       "questID": 1107,
       "name": "The Iron Guy",
-      "description": "You feel lonely? your base are not protected enough?\nNo problem crafting some Iron Golem and the monster problem inside your base is over.",
+      "description": "Do you feel lonely? Need some extra protection in your base?\nCraft some Iron Golems and the monster problem inside your base will be gone.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104822,7 +104822,7 @@
     {
       "questID": 1108,
       "name": "The Cool Guy",
-      "description": "You feel lonely? fare away from a smow biome?\nNo problem crafting some Snow Golem and you get enough water... snow.",
+      "description": "Feeling lonely? Located far away from a smow biome?\nCraft a Snow Golem, and perhaps challenge him to a snow ball fight.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104922,7 +104922,7 @@
     {
       "questID": 1109,
       "name": "Oh crunchy",
-      "description": "After houres of researching Thaumcraft stuff you found a way crafting pure tears. Ichorium purified the netherstar wich sucking all the warp away. Be carful this have a deadly end soon.",
+      "description": "After hours of doing Thaumcraft research you found a way to craft pure tears. Ichorium purifies the nether star wich sucks all the warp away. Be careful, as this may have a deadly end.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104998,8 +104998,8 @@
     },
     {
       "questID": 1110,
-      "name": "Purge all your wap away",
-      "description": "Did you ever have the dream to purge all your warp away with no bad side effects. This prurification Talsiman will let your dreams come true.\nNot forget to waer it.",
+      "name": "Purge all your warp",
+      "description": "Did you ever have a dream where you could purge all your warp with no bad side effects? This purification talisman will let your dreams come true.\nDo not forget to wear it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105076,7 +105076,7 @@
     {
       "questID": 1111,
       "name": "A Chest for Bees",
-      "description": "A chest only for bees. It can hold up to 125 different bees in one chest.",
+      "description": "A chest for bees only. It can hold up to 125 different bees in one chest.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105174,7 +105174,7 @@
     {
       "questID": 1112,
       "name": "Frames",
-      "description": "Untreated frames are the simples frames. They not work into bee houses but in apiarys.\nThey increase the Bee\u0027s preformance and Each Untreated Frame will double a bee\u0027s productivity.",
+      "description": "Untreated frames are the simplest frames. They do not work in bee houses, only in apiaries.\nThey increase the bee\u0027s performance. Each untreated frame will double a bee\u0027s productivity.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105276,7 +105276,7 @@
     {
       "questID": 1113,
       "name": "Impregnated Frames",
-      "description": "Impregnated Frames are even better then untreated Frames. \nEach frame doubles the bee\u0027s productivity. It has a longer durability than the Untreated Frame, but a shorter one compared to the Proven Frame.",
+      "description": "Impregnated Frames are even better than untreated Frames. \nEach frame doubles the bee\u0027s productivity. It has a longer durability than the untreated frame, but a shorter one compared to the proven frame.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105380,7 +105380,7 @@
     {
       "questID": 1114,
       "name": "Proven Frame",
-      "description": "Profen frame are much better then impregnated ones.\nEach frame doubles the bee\u0027s productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.",
+      "description": "Proven frames are much better than impregnated ones.\nEach frame doubles the bee\u0027s productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the proven frame has the longest durability.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105765,7 +105765,7 @@
     {
       "questID": 1116,
       "name": "Breed some cultivated bees",
-      "description": "Common Princess and Foresty Drone can be breed to cultivated bees. \n\nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for prestine bees.",
+      "description": "Common Princess and Foresty Drone can be bred to cultivated bees. \n\nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for pristine bees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -106090,7 +106090,7 @@
     {
       "questID": 1117,
       "name": "Breed some common bees",
-      "description": "To breeding bees you need two different bees Drones and Princess from different hives (Meadows and Forestry as an expamle)\nIn an Apiary you can bread them to a new species.\n\nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for prestine bees.\n",
+      "description": "To cross breed bees you need two different species of bees. One drone and one princess from different hives (Meadows and Forestry as an expamle)\nIn an Apiary you can cross breed them to a new species.\n\nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for pristine bees.\n",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -106415,7 +106415,7 @@
     {
       "questID": 1118,
       "name": "Breed some noble bees",
-      "description": "Common Princess and cultivated Drone can be breed to noble bees. \n\nNoble Bees produce Dripping Combs every 3.8 minutes and Honeydews. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time. Also if close to an Imperial Bee then it can make Royal Jelly.\n\nLook for prestine bees.",
+      "description": "Cross breeding common and cultivated bees can result in noble bees. \n\nNoble bees produce dripping combs every 3.8 minutes and honeydew. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time. \n\nLook for pristine bees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -106740,7 +106740,7 @@
     {
       "questID": 1119,
       "name": "Dripping Combs",
-      "description": "Your nobe bees producing some dripping combs.\nA good source for Honeydew , honey and for proven frames.",
+      "description": "Your noble bees produce some dripping combs.\nA good source for honeydew, honey and for proven frames.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -106817,7 +106817,7 @@
     {
       "questID": 1120,
       "name": "Breed some majestic bees",
-      "description": "Noble Princess and cultivated Drone can be breed to majestic bees. \n\nMajestic Bees produce Dripping Combs every 1.5 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for prestine bees.",
+      "description": "Cross breeding noble and cultivated bees can result in majestic bees.\n\nMajestic bees produce dripping combs every 1.5 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for pristine bees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -107142,7 +107142,7 @@
     {
       "questID": 1121,
       "name": "Breed some imperial bees",
-      "description": "Noble Princess and majestic Drone can be breed to imperial bees. \n\nImperial Bees produce Dripping Combs every 3.8 minutes and Royal Jelly every 5.1 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time. Royal Jelly is needed in making Scented Paneling for an Alveary.\n\nLook for prestine bees.",
+      "description": "Cross breeding noble and majestic bees can result in imperial bees.\n\nImperial bees produce dripping combs every 3.8 minutes and royal jelly every 5.1 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time. Royal jelly is needed in making scented paneling for an Alveary.\n\nLook for pristine bees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -107467,7 +107467,7 @@
     {
       "questID": 1122,
       "name": "Royal Jelly",
-      "description": "Royal Jelly is a honey bee secretion that is used in the nutrition of larvae, as well as adult queens. It is only produced by the Imperial Bee. Its production can be increased with Proven Frames or any other kind of frames except for the Soul Frame. The Royal Jelly is very useful because it can craft Ambrosia, which fills 8 hunger points (4 full food icons) and give Regeneration I for 40 seconds. Royal Jelly is also used to craft scented paneling which are vital in the creation of Alveary Blocks.",
+      "description": "Royal jelly is a honey bee secretion that is used in the nutrition of larvae, as well as adult queens. It is only produced by the imperial bee. It\u0027s production can be increased with proven frames or any other kind of frames except for the soul frame. The royal jelly is very useful because it can craft ambrosia, which fills 8 hunger points (4 full food icons) and give Regeneration I for 40 seconds. Royal jelly is also used to craft scented paneling which are required in the creation of alveary blocks.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -107549,8 +107549,8 @@
     },
     {
       "questID": 1123,
-      "name": "Alverys",
-      "description": "The Alveary is an advanced variant of the Apiary. The Alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees Frame Housings) and due to its ability to be modified by other blocks. \nIt is possible to adjust the internal temperature of the Alveary using the Alveary Heater or Alveary Fan in order to accommodate Bees that require hotter or colder climates.\n It is also possible to use Mutators to increase chances of mutation, Alveary Lighting and Alveary Rain Shield to allow bees without the Nocturnal and Tolerant Flyer traits to work during the night and rain, respectively, and the Swarmer to use excess Royal Jelly to create princesses that last for a limited number of generations.",
+      "name": "Alvearies",
+      "description": "The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. \nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.\n It is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
