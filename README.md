@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0.2.0 is out xx.12.2017
+Version 2.0.2.0 is out 14.12.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -131,7 +131,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * AsieLib	0.4.8<BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
-* Avaritia 1.15custom<BR>
+* Avaritia 1.14custom<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack	2.2.4<BR>
 * Baubles	1.0.1.11<BR>
@@ -165,7 +165,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Custom Main Menu 1.9.2<BR>
 * Datrev Scanner Mod 0.5custom<BR>
 * Default World Generator 0.1-b13<BR>
-* Draconic Evolution	1.0.2k<BR>
+* Draconic Evolution	1.0.2l<BR>
 * Dummy Core 1.13<BR>
 * Electro Magic Tools	1.2.6.5b<BR>
 * Enchiridion 	2.0.2a<BR>
@@ -188,14 +188,14 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Gadomancy 1.0.7.3<BR>
 * Galacticraft-Planets	3.0.12.502<BR>
 * GalacticraftCore	3.0.12.502<BR>
-* GalactiGreg	0.9.7<BR>
+* GalactiGreg	0.9.8<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.11<BR>
+* Gregtech	5.09.32.12<BR>
 * GT Scanner Mod 1.2<BR>
-* GT New Horizons Core Mod	1.5.13<BR>
-* GT++ 1.6.99<BR>
+* GT New Horizons Core Mod	1.5.14<BR>
+* GT++ 1.6.101<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
@@ -234,7 +234,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Nodal Mechanics	1.1-19<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.6.753<BR>
-* Open Computers	1.6.2.12 Build 1086<BR>
+* Open Computers	1.7.1 Build 1127<BR>
 * Open Mods Lib	0.10.465<BR>
 * Open Modular Turrets 2.2.10.238<BR>
 * Open Peripheral Addons 0.6.249<BR>
@@ -275,7 +275,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
 * Tainted Magic	r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.5.2b<BR>
+* Tec Tech 3.6.0<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
