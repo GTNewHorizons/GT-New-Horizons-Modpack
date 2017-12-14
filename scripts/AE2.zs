@@ -901,7 +901,7 @@ recipes.addShaped(<appliedenergistics2:item.ToolMassCannon>, [
 
 // --- Memory Card
 recipes.addShaped(<appliedenergistics2:item.ToolMemoryCard>, [
-[CertusCircuit, <gregtech:gt.metaitem.01:32704>, TitaniumPlate],
+[CertusCircuit, <ore:circuitData>, TitaniumPlate],
 [<ore:plateGold>, <ore:plateRedAlloy>, <ore:plateGold>],
 [null, null, null]]);
 
