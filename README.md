@@ -109,7 +109,8 @@ gtnewhorizons.myftb.de
 
 
 ## Resource Realistic Sky GT New Horizons
-created by MajaProduction needs Optifine installed<BR><BR>
+created by MajaProduction needs Optifine installed<BR>
+you find it in your resource folder<BR>
 
 
 
