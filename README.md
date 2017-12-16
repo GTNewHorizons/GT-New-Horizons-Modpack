@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0.2.0 is out 14.12.2017
+Version 2.0.2.0 is out 16.12.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -193,7 +193,7 @@ you find it in your resource folder<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.12<BR>
+* Gregtech	5.09.32.13<BR>
 * GT Scanner Mod 1.2<BR>
 * GT New Horizons Core Mod	1.5.14<BR>
 * GT++ 1.6.101<BR>
