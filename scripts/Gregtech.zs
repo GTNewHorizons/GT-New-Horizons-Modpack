@@ -514,7 +514,7 @@ recipes.addShaped(<gregtech:gt.metatool.01:8>.withTag({"GT.ToolStats": {PrimaryM
 recipes.addShapeless(<gregtech:gt.metaitem.01:2809> * 2, [<ore:craftingToolMortar>, <ore:logWood>]);
 
 // --- Brick Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:1625> * 2, [<ore:craftingToolMortar>, <minecraft:brick>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:1625>, [<ore:craftingToolMortar>, <minecraft:brick>]);
 
 // --- Long Plastic Rood
 recipes.addShaped(<gregtech:gt.metaitem.02:22874>, [[<ore:stickPlastic>, <ore:craftingToolHardHammer>, <ore:stickPlastic>]]);
