@@ -690,6 +690,17 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2057>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:2034>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
+// --- Gypsum Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2934>, [
+[null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[null, null, <OpenBlocks:filledbucket>]]);
+
+// --- Calcite Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2823>, [
+[null, null, <OpenBlocks:filledbucket>],
+[null, null, <OpenBlocks:filledbucket>],
+[null, null, <OpenBlocks:filledbucket>]]);
+
 // --- Obsidian Dust out of XP 10 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2804>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>,  <OpenBlocks:filledbucket>],
