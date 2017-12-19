@@ -104630,7 +104630,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": -1,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
