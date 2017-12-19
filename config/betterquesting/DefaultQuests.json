@@ -100823,7 +100823,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -100912,7 +100912,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "consume": true,
           "autoConsume": false,
           "requiredItems": [
             {
