@@ -701,6 +701,12 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2823>, [
 [null, null, <OpenBlocks:filledbucket>],
 [null, null, <OpenBlocks:filledbucket>]]);
 
+// --- Raw Rubber Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2896>, [
+[null, null, null],
+[null, null, <OpenBlocks:filledbucket>],
+[null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
 // --- Obsidian Dust out of XP 10 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2804>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>,  <OpenBlocks:filledbucket>],
@@ -709,6 +715,11 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2804>, [
 // --- small Brick Dust out of XP 10 level
 recipes.addShaped(<gregtech:gt.metaitem.01:1625>, [
 [null, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+// --- Wrought Iron Dust out of XP 15 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2304>, [
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
 // --- Sticky Resin out of XP 17,5 level
@@ -744,6 +755,12 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2086>, [
 // --- Tiny Gallium Dust out of XP 20 level
 recipes.addShaped(<gregtech:gt.metaitem.01:37>, [
 [<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+// --- Small Cobalt Bass Dust out of XP 25 level
+recipes.addShaped(<gregtech:gt.metaitem.01:1343>, [
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
