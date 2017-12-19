@@ -98,6 +98,7 @@ val SteelWheels = <gregtech:gt.metaitem.01:32101>;
 val GTHammer = <gregtech:gt.metatool.01:12>;
 val GTScrewdriver = <gregtech:gt.metatool.01:22>;
 val RedAlloyPlate = <ore:plateRedAlloy>;
+val SteelScrew= <ore:screwSteel>;
 
 val BSpace = <JABBA:upgradeCore:1>;
 val RSUp = <JABBA:upgradeCore:2>;
@@ -113,6 +114,8 @@ val Storage9Up = <JABBA:upgradeCore:5>;
 val Storage27Up = <JABBA:upgradeCore:6>;
 val Storage81Up = <JABBA:upgradeCore:8>;
 val Storage243Up = <JABBA:upgradeCore:9>;
+
+val Screwdriver = <ore:craftingToolScrewdriver>;
 
 
 
@@ -344,7 +347,11 @@ recipes.addShaped(VoidUp, [
 [Piston, <Railcraft:machine.beta:11>, Piston],
 [IronPlate, Piston, IronPlate]]);
 
-
+// --- Storage Upgrade
+recipes.addShaped(StorageUp, [
+[SteelScrew, Piston, SteelScrew],
+[SteelScrew, Barrel, SteelScrew],
+[null, Screwdriver, null]]);
 
 
 
