@@ -49599,7 +49599,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 3,
               "OreDict": "",
-              "Damage": 19
+              "Damage": 25
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -49612,7 +49612,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 20
+              "Damage": 26
             }
           ],
           "rewardID": "bq_standard:item"
