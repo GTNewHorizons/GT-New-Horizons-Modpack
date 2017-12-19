@@ -30096,7 +30096,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 4320,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -30179,7 +30179,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 4320,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -30326,7 +30326,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 4320,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -30400,7 +30400,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 4320,
+      "repeatTime": 86400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -46379,7 +46379,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -77997,7 +77997,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 604800,
+      "repeatTime": 12096000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82475,7 +82475,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82535,7 +82535,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82821,7 +82821,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82881,7 +82881,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 4800,
+      "repeatTime": 96000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -82941,7 +82941,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83001,7 +83001,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 7200,
+      "repeatTime": 144000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83061,7 +83061,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83121,7 +83121,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83181,7 +83181,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83241,7 +83241,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83301,7 +83301,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83361,7 +83361,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83421,7 +83421,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83481,7 +83481,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83541,7 +83541,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -83601,7 +83601,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -84427,7 +84427,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 43200,
+      "repeatTime": 864000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -84503,7 +84503,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 43200,
+      "repeatTime": 864000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -84579,7 +84579,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 43200,
+      "repeatTime": 864000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -84655,7 +84655,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 43200,
+      "repeatTime": 864000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -84731,7 +84731,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 43200,
+      "repeatTime": 864000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -84807,7 +84807,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 43200,
+      "repeatTime": 864000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -84883,7 +84883,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 43200,
+      "repeatTime": 864000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -84959,7 +84959,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 43200,
+      "repeatTime": 864000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85158,7 +85158,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85240,7 +85240,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85322,7 +85322,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85404,7 +85404,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85486,7 +85486,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85568,7 +85568,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85650,7 +85650,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85736,7 +85736,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -85901,7 +85901,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -86125,7 +86125,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -86322,7 +86322,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -86544,7 +86544,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -86733,7 +86733,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -86948,7 +86948,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -87132,7 +87132,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -89850,7 +89850,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -89910,7 +89910,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 14400,
+      "repeatTime": 2880400,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90448,7 +90448,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90514,7 +90514,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90574,7 +90574,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90634,7 +90634,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90694,7 +90694,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90754,7 +90754,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90814,7 +90814,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90874,7 +90874,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90934,7 +90934,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90994,7 +90994,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91054,7 +91054,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91114,7 +91114,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91174,7 +91174,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91234,7 +91234,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91294,7 +91294,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91354,7 +91354,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91414,7 +91414,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 4800,
+      "repeatTime": 96000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91474,7 +91474,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91534,7 +91534,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91594,7 +91594,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91654,7 +91654,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91714,7 +91714,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91774,7 +91774,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91834,7 +91834,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91894,7 +91894,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -91954,7 +91954,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -92014,7 +92014,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -92074,7 +92074,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -92134,7 +92134,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -92194,7 +92194,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -92260,7 +92260,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 21600,
+      "repeatTime": 432000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -97726,7 +97726,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -97786,7 +97786,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -97846,7 +97846,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -97906,7 +97906,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -97966,7 +97966,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98026,7 +98026,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98086,7 +98086,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98146,7 +98146,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98206,7 +98206,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98266,7 +98266,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98326,7 +98326,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98386,7 +98386,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98452,7 +98452,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98518,7 +98518,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98584,7 +98584,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98644,7 +98644,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 4800,
+      "repeatTime": 96000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98704,7 +98704,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98764,7 +98764,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98824,7 +98824,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98884,7 +98884,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -98944,7 +98944,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 3600,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99004,7 +99004,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 600,
+      "repeatTime": 12000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99064,7 +99064,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99136,7 +99136,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99196,7 +99196,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99256,7 +99256,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99316,7 +99316,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99376,7 +99376,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99436,7 +99436,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99496,7 +99496,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 4800,
+      "repeatTime": 96000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99556,7 +99556,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99616,7 +99616,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99676,7 +99676,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99813,7 +99813,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99873,7 +99873,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99933,7 +99933,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -99993,7 +99993,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100053,7 +100053,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100113,7 +100113,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100173,7 +100173,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100233,7 +100233,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 2400,
+      "repeatTime": 48000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100293,7 +100293,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100353,7 +100353,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100413,7 +100413,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100714,7 +100714,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100804,7 +100804,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -100893,7 +100893,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 86400,
+      "repeatTime": 1728000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -101124,7 +101124,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 36000,
+      "repeatTime": 720000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -101190,7 +101190,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 36000,
+      "repeatTime": 720000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -101257,7 +101257,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 48000,
+      "repeatTime": 960000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -101324,7 +101324,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 48000,
+      "repeatTime": 960000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -101397,7 +101397,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 60000,
+      "repeatTime": 1200000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -101464,7 +101464,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 60000,
+      "repeatTime": 1200000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -101537,7 +101537,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 72000,
+      "repeatTime": 1440000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -101610,7 +101610,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 72000,
+      "repeatTime": 1440000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
