@@ -1342,7 +1342,7 @@ mods.chisel.Groups.addVariation("ruby", <BiomesOPlenty:gemOre:3>);
 // -
 mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem1:9>);
 // -
-mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem1:11>);
+mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem2:11>);
 // -
 mods.chisel.Groups.addVariation("ruby", <ProjRed|Exploration:projectred.exploration.stone:5>);
 
