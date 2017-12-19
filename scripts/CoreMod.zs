@@ -706,11 +706,22 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2804>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>,  <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, null, null]]);
 
+// --- small Brick Dust out of XP 10 level
+recipes.addShaped(<gregtech:gt.metaitem.01:1625>, [
+[null, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
 // --- Sticky Resin out of XP 17,5 level
 recipes.addShaped(<IC2:itemHarz>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, null, null]]);
+
+// --- Arsenic Dust out of XP 17,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:39>, [
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
 
 // --- Aluminum Tico Dust out of XP 20 level
 recipes.addShaped(<TConstruct:materials:40>, [
@@ -729,6 +740,14 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2086>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
+
+// --- Tiny Gallium Dust out of XP 20 level
+recipes.addShaped(<gregtech:gt.metaitem.01:37>, [
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+
 
 
 
