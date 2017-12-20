@@ -108045,6 +108045,482 @@
       "preRequisites": [
         1124
       ]
+    },
+    {
+      "questID": 1126,
+      "name": "Alumite",
+      "description": "It\u0027s upgrade time again. You can make Alumite mixing obsdidian, steel and auluminu(i)m in the smeltery. Alumite is able to mine Ardite and Cobalt in the Nether.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:materials",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 15
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 31
+            },
+            {
+              "id": "minecraft:gold_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        596
+      ]
+    },
+    {
+      "questID": 1127,
+      "name": "Reinforced X? Unbreakable",
+      "description": "With your Steel Tool you are able to mine obsidian. Large Obsidian Plates gives a Tool Reinforced and make you tool more and more durable. \nReinforced Level X make it unbreakable.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:heavyPlate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:heavyPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:obsidian",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        596
+      ]
+    },
+    {
+      "questID": 1128,
+      "name": "Lapis? Lucky!",
+      "description": "Maybe you be lucky and got luck on your pichaxe. Maybe you a bit lucky and have some free modifier to put some lapis on your pick. If not add a extra modifier with a diamnd and a gold block to put your lapis on the pick.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:dye",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:golden_carrot",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:gingerbreadItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        867
+      ]
+    },
+    {
+      "questID": 1129,
+      "name": "Redstone?. Haste!",
+      "description": "Mining and digging can be soooo slow. Get some redstone on your pick, shove or axe to make it faster.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:redstone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        494
+      ]
+    },
+    {
+      "questID": 1130,
+      "name": "Extra Modifier",
+      "description": "If you don\u0027t have an extra modifier on your tool you can easily add one.\nGold block and a dimand are enough.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:creativeModifier",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:gold_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:book",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 86
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11300
+            },
+            {
+              "id": "harvestcraft:leafyfishsandwichItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        54,
+        495
+      ]
     }
   ],
   "questLines": [
@@ -108491,88 +108967,88 @@
       "quests": [
         {
           "id": 44,
-          "x": 48,
-          "y": 0
+          "x": 36,
+          "y": 36
         },
         {
           "id": 46,
-          "x": 144,
-          "y": 0
+          "x": 192,
+          "y": 36
         },
         {
           "id": 47,
-          "x": 144,
-          "y": 36
-        },
-        {
-          "id": 48,
-          "x": 240,
-          "y": 0
-        },
-        {
-          "id": 49,
-          "x": 420,
-          "y": 0
-        },
-        {
-          "id": 50,
-          "x": 468,
-          "y": 0
-        },
-        {
-          "id": 51,
-          "x": 420,
-          "y": 108
-        },
-        {
-          "id": 53,
-          "x": 240,
-          "y": 108
-        },
-        {
-          "id": 54,
-          "x": 324,
-          "y": 36
-        },
-        {
-          "id": 52,
-          "x": 420,
-          "y": 36
-        },
-        {
-          "id": 55,
-          "x": 240,
-          "y": 36
-        },
-        {
-          "id": 56,
           "x": 192,
           "y": 72
         },
         {
+          "id": 48,
+          "x": 288,
+          "y": 36
+        },
+        {
+          "id": 49,
+          "x": 516,
+          "y": 36
+        },
+        {
+          "id": 50,
+          "x": 552,
+          "y": 36
+        },
+        {
+          "id": 51,
+          "x": 516,
+          "y": 144
+        },
+        {
+          "id": 53,
+          "x": 288,
+          "y": 144
+        },
+        {
+          "id": 54,
+          "x": 372,
+          "y": 72
+        },
+        {
+          "id": 52,
+          "x": 516,
+          "y": 72
+        },
+        {
+          "id": 55,
+          "x": 288,
+          "y": 72
+        },
+        {
+          "id": 56,
+          "x": 240,
+          "y": 144
+        },
+        {
           "id": 57,
-          "x": 468,
-          "y": 108
+          "x": 552,
+          "y": 144
         },
         {
           "id": 58,
-          "x": 516,
-          "y": 0
+          "x": 600,
+          "y": 36
         },
         {
           "id": 59,
-          "x": 48,
+          "x": 36,
           "y": 144
         },
         {
           "id": 60,
           "x": 0,
-          "y": 180
+          "y": 216
         },
         {
           "id": 61,
-          "x": 48,
-          "y": 180
+          "x": 36,
+          "y": 216
         },
         {
           "id": 62,
@@ -108582,232 +109058,257 @@
         {
           "id": 63,
           "x": 0,
-          "y": 48
+          "y": 36
         },
         {
           "id": 64,
           "x": 0,
-          "y": 108
+          "y": 72
         },
         {
           "id": 65,
-          "x": 192,
-          "y": 144
+          "x": 240,
+          "y": 180
         },
         {
           "id": 66,
-          "x": 288,
-          "y": 252
+          "x": 336,
+          "y": 288
         },
         {
           "id": 68,
-          "x": 288,
-          "y": 288
+          "x": 336,
+          "y": 324
         },
         {
           "id": 69,
-          "x": 372,
-          "y": 216
+          "x": 420,
+          "y": 252
         },
         {
           "id": 70,
-          "x": 324,
-          "y": 336
+          "x": 372,
+          "y": 372
         },
         {
           "id": 67,
-          "x": 324,
-          "y": 252
+          "x": 372,
+          "y": 288
         },
         {
           "id": 72,
-          "x": 192,
-          "y": 336
+          "x": 240,
+          "y": 372
         },
         {
           "id": 73,
-          "x": 192,
-          "y": 216
+          "x": 240,
+          "y": 252
         },
         {
           "id": 71,
-          "x": 372,
-          "y": 252
+          "x": 420,
+          "y": 288
         },
         {
           "id": 84,
-          "x": 108,
-          "y": 252
-        },
-        {
-          "id": 16,
-          "x": 108,
+          "x": 156,
           "y": 288
         },
         {
+          "id": 16,
+          "x": 156,
+          "y": 324
+        },
+        {
           "id": 478,
-          "x": 240,
-          "y": 144
+          "x": 288,
+          "y": 180
         },
         {
           "id": 479,
-          "x": 324,
-          "y": 144
+          "x": 372,
+          "y": 180
         },
         {
           "id": 493,
-          "x": 324,
-          "y": 0
-        },
-        {
-          "id": 494,
-          "x": 192,
-          "y": 0
-        },
-        {
-          "id": 495,
-          "x": 384,
+          "x": 372,
           "y": 36
         },
         {
+          "id": 494,
+          "x": 240,
+          "y": 36
+        },
+        {
+          "id": 495,
+          "x": 480,
+          "y": 72
+        },
+        {
           "id": 496,
+          "x": 420,
+          "y": 180
+        },
+        {
+          "id": 497,
+          "x": 372,
+          "y": 216
+        },
+        {
+          "id": 534,
+          "x": 372,
+          "y": 252
+        },
+        {
+          "id": 535,
+          "x": 240,
+          "y": 72
+        },
+        {
+          "id": 536,
+          "x": 468,
+          "y": 252
+        },
+        {
+          "id": 558,
+          "x": 288,
+          "y": 252
+        },
+        {
+          "id": 596,
+          "x": 156,
+          "y": 144
+        },
+        {
+          "id": 597,
+          "x": 468,
+          "y": 216
+        },
+        {
+          "id": 625,
+          "x": 192,
+          "y": 288
+        },
+        {
+          "id": 658,
+          "x": 120,
+          "y": 216
+        },
+        {
+          "id": 694,
+          "x": 336,
+          "y": 144
+        },
+        {
+          "id": 705,
+          "x": 120,
+          "y": 252
+        },
+        {
+          "id": 834,
+          "x": 300,
+          "y": 324
+        },
+        {
+          "id": 835,
+          "x": 372,
+          "y": 324
+        },
+        {
+          "id": 563,
+          "x": 408,
+          "y": 144
+        },
+        {
+          "id": 867,
+          "x": 552,
+          "y": 72
+        },
+        {
+          "id": 868,
+          "x": 600,
+          "y": 72
+        },
+        {
+          "id": 871,
+          "x": 336,
+          "y": 252
+        },
+        {
+          "id": 890,
+          "x": 156,
+          "y": 372
+        },
+        {
+          "id": 942,
+          "x": 516,
+          "y": 252
+        },
+        {
+          "id": 948,
           "x": 372,
           "y": 144
         },
         {
-          "id": 497,
-          "x": 324,
-          "y": 180
-        },
-        {
-          "id": 534,
-          "x": 324,
-          "y": 216
-        },
-        {
-          "id": 535,
-          "x": 192,
-          "y": 36
-        },
-        {
-          "id": 536,
-          "x": 420,
-          "y": 216
-        },
-        {
-          "id": 558,
-          "x": 240,
-          "y": 216
-        },
-        {
-          "id": 596,
-          "x": 192,
-          "y": 108
-        },
-        {
-          "id": 597,
-          "x": 420,
-          "y": 180
-        },
-        {
-          "id": 625,
-          "x": 144,
-          "y": 252
-        },
-        {
-          "id": 658,
-          "x": 108,
-          "y": 144
-        },
-        {
-          "id": 694,
-          "x": 288,
-          "y": 108
-        },
-        {
-          "id": 705,
-          "x": 108,
-          "y": 180
-        },
-        {
-          "id": 834,
-          "x": 252,
-          "y": 288
-        },
-        {
-          "id": 835,
-          "x": 324,
-          "y": 288
-        },
-        {
-          "id": 563,
-          "x": 348,
-          "y": 72
-        },
-        {
-          "id": 867,
-          "x": 468,
-          "y": 36
-        },
-        {
-          "id": 868,
-          "x": 516,
-          "y": 36
-        },
-        {
-          "id": 871,
-          "x": 288,
-          "y": 216
-        },
-        {
-          "id": 890,
-          "x": 108,
-          "y": 336
-        },
-        {
-          "id": 942,
-          "x": 468,
-          "y": 216
-        },
-        {
-          "id": 948,
-          "x": 324,
-          "y": 108
-        },
-        {
           "id": 119,
-          "x": 108,
-          "y": 216
+          "x": 120,
+          "y": 288
         },
         {
           "id": 875,
-          "x": 420,
-          "y": 144
+          "x": 468,
+          "y": 180
         },
         {
           "id": 1008,
-          "x": 384,
-          "y": 72
+          "x": 444,
+          "y": 144
         },
         {
           "id": 1107,
-          "x": 240,
-          "y": 72
+          "x": 288,
+          "y": 108
         },
         {
           "id": 1108,
-          "x": 288,
-          "y": 72
+          "x": 336,
+          "y": 108
         },
         {
           "id": 1124,
-          "x": 108,
-          "y": 108
+          "x": 120,
+          "y": 180
         },
         {
           "id": 1125,
-          "x": 72,
+          "x": 84,
+          "y": 180
+        },
+        {
+          "id": 1126,
+          "x": 84,
+          "y": 144
+        },
+        {
+          "id": 1127,
+          "x": 84,
           "y": 108
+        },
+        {
+          "id": 1128,
+          "x": 552,
+          "y": 108
+        },
+        {
+          "id": 1129,
+          "x": 240,
+          "y": 0
+        },
+        {
+          "id": 1130,
+          "x": 432,
+          "y": 72
         }
       ]
     },
