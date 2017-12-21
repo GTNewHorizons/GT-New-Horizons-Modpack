@@ -107662,7 +107662,7 @@
     {
       "questID": 1123,
       "name": "Alvearies",
-      "description": "The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. \nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.\n It is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.",
+      "description": "The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. \nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.\n It is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.\n\nA submission station is recommend for quests with large amounts of items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -107709,7 +107709,16 @@
               "Count": 216,
               "OreDict": "itemPollen",
               "Damage": 0
-            },
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "Forestry:beeswax",
               "Count": 432,
@@ -108787,6 +108796,122 @@
       "preRequisites": [
         479
       ]
+    },
+    {
+      "questID": 1133,
+      "name": "Submission Station",
+      "description": "Although many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. \nTasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface\u0027s input slot however it will not void items or liquids if no task is selected or if it has already been completed making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "betterquesting:submit_station",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17809
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 17305
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 31305
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "betterquesting:submit_station",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11300
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
     }
   ],
   "questLines": [
@@ -109605,6 +109730,11 @@
           "id": 742,
           "x": 72,
           "y": 216
+        },
+        {
+          "id": 1133,
+          "x": 276,
+          "y": 144
         }
       ]
     },
