@@ -2,6 +2,13 @@
 
 
 
+// --- Importing Stuff ---
+
+
+import mods.gregtech.Mixer;
+
+
+
 
 // --- Remove Recipes ---
 
@@ -37,6 +44,9 @@ recipes.remove(<witchery:kettle>);
 
 // --- Arthana
 recipes.remove(<witchery:arthana>);
+
+// --- Anointing Paste
+recipes.remove(<witchery:ingredient:153>);
 //recipes.remove(<witchery:spinningwheel>);
 //recipes.remove(<witchery:poppetshelf>);
 //recipes.remove(<witchery:poppet>);
@@ -61,6 +71,26 @@ recipes.addShaped(<witchery:ingredient:111>, [
 
 // --- Null Catalyst doublication
 recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>]);
+
+
+
+
+// --- Mixer Recipes
+
+
+
+// --- Anointing Paste
+Mixer.addRecipe(<witchery:ingredient:153>, null, [<witchery:seedsbelladonna>, <witchery:seedsmandrake>, <witchery:seedsartichoke>, <witchery:seedssnowbell>], <liquid:water> * 1000, 400, 120);
+
+
+
+
+// --- Anointing Paste
+mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -2, 2, <witchery:ingredient:153>);
+game.setLocalization("tc.research_name.ANOINTINGPASTE", "Anointing Paste");
+game.setLocalization("tc.research_text.ANOINTINGPASTE", "[WI] Magical Paste");
+mods.thaumcraft.Research.addPage("ANOINTINGPASTE", "Witchery.research_page.ANOINTINGPASTE.1");
+game.setLocalization("Witchery.research_page.ANOINTINGPASTE.1", "Anointing Paste is smeared onto a regular cauldron to turn it into a Witches' Cauldron, ready for brewing interesting potions and spells. Simply place the Cauldron in the world, and then use the Anointing Paste on it to convert it into a Witches' Cauldron. Mixing different witchery seeds in a mixer with water will give anointing paste");
 
 // --- Oven
 mods.thaumcraft.Research.addResearch("OVEN", "WITHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
