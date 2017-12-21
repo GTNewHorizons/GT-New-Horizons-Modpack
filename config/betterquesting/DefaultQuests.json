@@ -77998,7 +77998,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 12096000,
+      "repeatTime": -1,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -78021,7 +78021,7 @@
           "requiredItems": [
             {
               "id": "minecraft:nether_star",
-              "Count": 1,
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             },
@@ -78054,6 +78054,116 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11317
+            },
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 29500
+            },
+            {
+              "id": "ThaumicTinkerer:kamiResource",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "ThaumicTinkerer:kamiResource",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "minecraft:ender_eye",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "alienis"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "permutatio"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "praecantatio"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "sano"
+                  }
+                ]
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
