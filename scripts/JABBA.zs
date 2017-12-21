@@ -63,6 +63,7 @@ val MKX = <JABBA:upgradeStructural:9>;
 val MKXI = <JABBA:upgradeStructural:10>;
 val MKXII = <JABBA:upgradeStructural:11>;
 val MKXIII = <JABBA:upgradeStructural:12>;
+val MKXIV = <JABBA:upgradeStructural:13>;
 
 val Piston = <minecraft:piston>;
 val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
@@ -99,6 +100,8 @@ val GTHammer = <gregtech:gt.metatool.01:12>;
 val GTScrewdriver = <gregtech:gt.metatool.01:22>;
 val RedAlloyPlate = <ore:plateRedAlloy>;
 val SteelScrew= <ore:screwSteel>;
+val BlackPlutoniumPlate = <ore:plateBlackPlutonium>;
+val BlackPlutoniumStick = <ore:stickBlackPlutonium>;
 
 val BSpace = <JABBA:upgradeCore:1>;
 val RSUp = <JABBA:upgradeCore:2>;
@@ -175,6 +178,9 @@ recipes.remove(MKXII);
 
 // --- Structural Upgrade MK XIII
 recipes.remove(MKXIII);
+
+// --- Structural Upgrade MK XIV
+recipes.remove(MKXIV);
 
 // --- Storage Upgrade
 recipes.remove(StorageUp);
@@ -322,6 +328,12 @@ recipes.addShaped(MKXIII, [
 [NeutroniumStick, NeutroniumPlate, NeutroniumStick],
 [NeutroniumPlate, Barrel, NeutroniumPlate],
 [NeutroniumStick, NeutroniumPlate, NeutroniumStick]]);
+
+// --- Structural Upgrade MK XIV
+recipes.addShaped(MKXIV, [
+[BlackPlutoniumStick, BlackPlutoniumPlate, BlackPlutoniumStick],
+[BlackPlutoniumPlate, Barrel, BlackPlutoniumPlate],
+[BlackPlutoniumStick, BlackPlutoniumPlate, BlackPlutoniumStick]]);
 
 // --- BSpace Barrel Upgrade
 recipes.addShaped(BSpace * 2, [
