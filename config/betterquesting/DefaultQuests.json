@@ -4283,7 +4283,7 @@
         }
       ],
       "preRequisites": [
-        494
+        46
       ]
     },
     {
@@ -42670,7 +42670,7 @@
       "questID": 494,
       "name": "Redstone",
       "description": "If you didnt\u0027t find any Redstone veins, it is quite important to look for one now. Try your luck at Y level 5-40.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -42749,7 +42749,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 15,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -52360,7 +52360,7 @@
       "questID": 597,
       "name": "Tetrahedrite, stibnite and copper",
       "description": "Maybe you are wondering why you need tetrahedrite or stibnite. Well, antimony can be centrifuged out of it which is very useful for batteries in the LV Age.\nThe veins can be found between Y level 80-120.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -52444,7 +52444,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 15,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -108493,7 +108493,7 @@
           "requiredItems": [
             {
               "id": "minecraft:redstone",
-              "Count": 64,
+              "Count": 128,
               "OreDict": "",
               "Damage": 0
             }
@@ -108532,7 +108532,7 @@
         }
       ],
       "preRequisites": [
-        494
+        535
       ]
     },
     {
@@ -109363,17 +109363,17 @@
         },
         {
           "id": 46,
-          "x": 228,
+          "x": 156,
           "y": 36
         },
         {
           "id": 47,
-          "x": 228,
-          "y": 72
+          "x": 156,
+          "y": 0
         },
         {
           "id": 48,
-          "x": 324,
+          "x": 276,
           "y": 36
         },
         {
@@ -109528,8 +109528,8 @@
         },
         {
           "id": 494,
-          "x": 276,
-          "y": 36
+          "x": 192,
+          "y": 72
         },
         {
           "id": 495,
@@ -109553,7 +109553,7 @@
         },
         {
           "id": 535,
-          "x": 276,
+          "x": 240,
           "y": 72
         },
         {
@@ -109693,8 +109693,8 @@
         },
         {
           "id": 1129,
-          "x": 276,
-          "y": 0
+          "x": 240,
+          "y": 108
         },
         {
           "id": 1130,
