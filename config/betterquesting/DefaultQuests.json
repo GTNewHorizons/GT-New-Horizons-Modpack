@@ -101781,7 +101781,7 @@
     {
       "questID": 1081,
       "name": "MV Bending",
-      "description": "To make dense plates you need an mv Bender.",
+      "description": "To make dense plates you need an MV Bender.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -107662,7 +107662,7 @@
     {
       "questID": 1123,
       "name": "Alvearies",
-      "description": "The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. \nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.\n It is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.\n\nA submission station is recommend for quests with large amounts of items.",
+      "description": "The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. \nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.\n It is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.\n\nA submission station is recommended for quests with large amounts of items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -107871,7 +107871,7 @@
     {
       "questID": 1124,
       "name": "Barrel Upgrades",
-      "description": "Are your cobblestone or dirt barrel full allready? \nNo problem upgrade it!",
+      "description": "Are your cobblestone or dirt barrels filled to the brim? \nNo problem, upgrade them!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
