@@ -108019,7 +108019,7 @@
     {
       "questID": 1125,
       "name": "Barrel Upgrades Tier 2",
-      "description": "Are your cobblestone or dirt barrel full again? \nNo problem upgrade it!",
+      "description": "Are your upgraded cobblestone or dirt barrels full again? \nNo problem, upgrade them some more!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108167,7 +108167,7 @@
     {
       "questID": 1126,
       "name": "Alumite",
-      "description": "It\u0027s upgrade time again. You can make Alumite mixing obsdidian, steel and auluminu(i)m in the smeltery. Alumite is able to mine Ardite and Cobalt in the Nether.",
+      "description": "It\u0027s upgrade time again. You can make alumite by mixing obsidian, steel and auluminu(i)m in the smeltery. Alumite pickaxes are able to mine ardite and cobalt in the Nether.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108268,7 +108268,7 @@
     {
       "questID": 1127,
       "name": "Reinforced X? Unbreakable",
-      "description": "With your Steel Tool you are able to mine obsidian. Large Obsidian Plates gives a Tool Reinforced and make you tool more and more durable. \nReinforced Level X make it unbreakable.",
+      "description": "With your steel tool you are able to mine obsidian. Large obsidian plates give a reinforced modifier which increases the durability of your tool. \nReinforced level X makes a tool unbreakable.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108378,7 +108378,7 @@
     {
       "questID": 1128,
       "name": "Lapis? Lucky!",
-      "description": "Maybe you be lucky and got luck on your pichaxe. Maybe you a bit lucky and have some free modifier to put some lapis on your pick. If not add a extra modifier with a diamnd and a gold block to put your lapis on the pick.",
+      "description": "Maybe you were lucky and received the luck modifier on your pickaxe. If not, you may still have an unused modifier on your pick so you can add some lapis lazuli. Or you can perhaps add another modifier by adding a diamond and a gold block to your pick and then add some lapis.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108461,7 +108461,7 @@
     {
       "questID": 1129,
       "name": "Redstone?. Haste!",
-      "description": "Mining and digging can be soooo slow. Get some redstone on your pick, shove or axe to make it faster.",
+      "description": "Mining and digging can be soooo slow. Get some redstone on your pick, shovel or axe to make it faster.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108538,7 +108538,7 @@
     {
       "questID": 1130,
       "name": "Extra Modifier",
-      "description": "If you don\u0027t have an extra modifier on your tool you can easily add one.\nGold block and a dimand are enough.",
+      "description": "If you don\u0027t have an extra modifier on your tool you can easily add one.\nA gold block and a diamond are all you need.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108628,7 +108628,7 @@
     {
       "questID": 1131,
       "name": "Ardite and Cobalt",
-      "description": "If you done with all Quest you can look for Cobalt and Ardite in the nether. Remeber you need a electric blast furnace to process this material before you can make tools with it.",
+      "description": "If you are done with all quests you can look for cobalt and ardite in the Nether. Remember, you need an electric blast furnace to process these materials before you can make tools with them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108717,7 +108717,7 @@
     {
       "questID": 1132,
       "name": "Netherquartz? Sharpness",
-      "description": "Your sword is so dull? get some netherquartz to make it sharp again.",
+      "description": "Your sword is too dull? Get some nether quartz to sharpen it again.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108800,7 +108800,7 @@
     {
       "questID": 1133,
       "name": "Submission Station",
-      "description": "Although many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. \nTasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface\u0027s input slot however it will not void items or liquids if no task is selected or if it has already been completed making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!",
+      "description": "Although many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. \nTasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface\u0027s input slot. It will not void items or liquids if no task is selected or if it has already been completed, however, making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
