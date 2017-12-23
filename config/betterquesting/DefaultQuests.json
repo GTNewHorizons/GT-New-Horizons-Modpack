@@ -65094,8 +65094,8 @@
               "Damage": 0
             },
             {
-              "id": "IC2:itemWeedingTrowel",
-              "Count": 1,
+              "id": "minecraft:carrot",
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             },
@@ -65168,7 +65168,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -65177,14 +65177,7 @@
               "Count": 8,
               "OreDict": "",
               "Damage": 0,
-              "tag": {
-                "owner:8": "IC2",
-                "name:8": "carrots",
-                "scan:4": 0,
-                "growth:4": 1,
-                "resistance:4": 0,
-                "gain:4": 0
-              }
+              "tag": {}
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -65351,7 +65344,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -65366,7 +65359,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -65375,14 +65368,7 @@
               "Count": 32,
               "OreDict": "",
               "Damage": 0,
-              "tag": {
-                "owner:8": "IC2",
-                "name:8": "carrots",
-                "scan:4": 0,
-                "growth:4": 1,
-                "resistance:4": 0,
-                "gain:4": 0
-              }
+              "tag": {}
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -65464,7 +65450,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -65548,7 +65534,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -65655,7 +65641,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -65753,7 +65739,38 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "rose",
+                "scan:4": 4
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "dandelion",
+                "scan:4": 4
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -108912,6 +108929,140 @@
       "preRequisites": [
         65
       ]
+    },
+    {
+      "questID": 1134,
+      "name": "Flower Power",
+      "description": "Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers you maybe get a new flower and new dyes with different colors.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:red_flower",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "rose",
+                "scan:4": 4
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "dandelion",
+                "scan:4": 4
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:dye",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "blackthorn",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "IC2",
+                "name:8": "cyazint",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
     }
   ],
   "questLines": [
@@ -113300,6 +113451,11 @@
           "id": 1089,
           "x": 228,
           "y": 228
+        },
+        {
+          "id": 1134,
+          "x": 0,
+          "y": 222
         }
       ]
     },
