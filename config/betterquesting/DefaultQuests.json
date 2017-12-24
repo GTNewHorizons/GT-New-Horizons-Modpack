@@ -10563,7 +10563,6 @@
         }
       ],
       "preRequisites": [
-        106,
         97
       ]
     },
@@ -109109,6 +109108,150 @@
         890,
         898
       ]
+    },
+    {
+      "questID": 1136,
+      "name": "Lossless LV Cables",
+      "description": "How about Losless 32 eu Lv Cables ? Redstone alloy is a superconductor wire and will transfer your energy without any loss.\nRedalloy is a new Alloy you need the EBF for it. Mixing Redstone, Silicon and Coal with hand or in the mixer with a better output.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30651
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2535
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2381
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11381
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30645
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30651
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        97,
+        77
+      ]
     }
   ],
   "questLines": [
@@ -110017,7 +110160,7 @@
         {
           "id": 105,
           "x": 312,
-          "y": 444
+          "y": 408
         },
         {
           "id": 113,
@@ -110101,7 +110244,7 @@
         },
         {
           "id": 539,
-          "x": 288,
+          "x": 252,
           "y": 408
         },
         {
@@ -110156,17 +110299,17 @@
         },
         {
           "id": 550,
-          "x": 252,
+          "x": 216,
           "y": 408
         },
         {
           "id": 551,
-          "x": 168,
+          "x": 120,
           "y": 408
         },
         {
           "id": 552,
-          "x": 216,
+          "x": 168,
           "y": 408
         },
         {
@@ -110181,7 +110324,7 @@
         },
         {
           "id": 555,
-          "x": 288,
+          "x": 252,
           "y": 372
         },
         {
@@ -110281,17 +110424,17 @@
         },
         {
           "id": 639,
-          "x": 168,
+          "x": 120,
           "y": 336
         },
         {
           "id": 640,
-          "x": 168,
+          "x": 120,
           "y": 372
         },
         {
           "id": 641,
-          "x": 216,
+          "x": 168,
           "y": 336
         },
         {
@@ -110301,12 +110444,12 @@
         },
         {
           "id": 643,
-          "x": 252,
+          "x": 216,
           "y": 336
         },
         {
           "id": 644,
-          "x": 288,
+          "x": 252,
           "y": 336
         },
         {
@@ -110401,7 +110544,7 @@
         },
         {
           "id": 840,
-          "x": 216,
+          "x": 168,
           "y": 372
         },
         {
@@ -110411,12 +110554,12 @@
         },
         {
           "id": 891,
-          "x": 96,
+          "x": 120,
           "y": 180
         },
         {
           "id": 892,
-          "x": 48,
+          "x": 84,
           "y": 180
         },
         {
@@ -110463,6 +110606,11 @@
           "id": 1135,
           "x": 84,
           "y": 252
+        },
+        {
+          "id": 1136,
+          "x": 456,
+          "y": 180
         }
       ]
     },
