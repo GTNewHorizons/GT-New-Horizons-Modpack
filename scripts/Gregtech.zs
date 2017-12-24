@@ -1327,9 +1327,9 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 <gregtech:gt.metaitem.03:32078>.addTooltip(format.yellow("LV-tier"));
 <gregtech:gt.metaitem.01:32510>.addTooltip(format.red("LV-tier"));
 <gregtech:gt.metaitem.01:32511>.addTooltip(format.yellow("LV-tier"));
-<gregtech:gt.metaitem.01:32517>.addTooltip(format.green("LV-tier"));
-<gregtech:gt.metaitem.01:32518>.addTooltip(format.gold("LV-tier"));
-<gregtech:gt.metaitem.01.32519>.addTooltip(format.aqua("LV-tier"));
+<gregtech:gt.metaitem.03:32517>.addTooltip(format.green("LV-tier"));
+<gregtech:gt.metaitem.03:32518>.addTooltip(format.blue("LV-tier"));
+<gregtech:gt.metaitem.03:32519>.addTooltip(format.magenta("LV-tier"));
 
 // --- MV Tier
 <gregtech:gt.metaitem.01:32702>.addTooltip(format.red("MV-tier"));
@@ -1337,9 +1337,9 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 <gregtech:gt.metaitem.03:32080>.addTooltip(format.yellow("MV-tier"));
 <gregtech:gt.metaitem.01:32520>.addTooltip(format.red("MV-tier"));
 <gregtech:gt.metaitem.01:32521>.addTooltip(format.yellow("MV-tier"));
-<gregtech:gt.metaitem.01:32527>.addTooltip(format.green("MV-tier"));
-<gregtech:gt.metaitem.01:32528>.addTooltip(format.gold("MV-tier"));
-<gregtech:gt.metaitem.01:32529>.addTooltip(format.aqua("MV-tier"));
+<gregtech:gt.metaitem.03:32527>.addTooltip(format.green("MV-tier"));
+<gregtech:gt.metaitem.03:32528>.addTooltip(format.blue("MV-tier"));
+<gregtech:gt.metaitem.03:32529>.addTooltip(format.magenta("MV-tier"));
 
 // --- HV Tier
 <IC2:itemPartCircuitAdv>.addTooltip(format.gold("HV-tier"));
@@ -1347,9 +1347,9 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 <gregtech:gt.metaitem.03:32082>.addTooltip(format.green("HV-tier"));
 <gregtech:gt.metaitem.01:32530>.addTooltip(format.red("HV-tier"));
 <gregtech:gt.metaitem.01:32531>.addTooltip(format.yellow("HV-tier"));
-<gregtech:gt.metaitem.01:32537>.addTooltip(format.green("HV-tier"));
-<gregtech:gt.metaitem.01:32538>.addTooltip(format.blue("HV-tier"));
-<gregtech:gt.metaitem.01:32539>.addTooltip(format.aqua("HV-tier"));
+<gregtech:gt.metaitem.03:32537>.addTooltip(format.green("HV-tier"));
+<gregtech:gt.metaitem.03:32538>.addTooltip(format.blue("HV-tier"));
+<gregtech:gt.metaitem.03:32539>.addTooltip(format.magenta("HV-tier"));
 
 // --- EV Tier
 <gregtech:gt.metaitem.01:32704>.addTooltip(format.yellow("EV-tier"));
@@ -1384,16 +1384,16 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 
 // --- UHV Tier
 <gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV-tier"));
-<gregtech:gt.metaitem.01:32570>.addTooltip(format.green("UHV-tier"));
+<gregtech:gt.metaitem.03:32570>.addTooltip(format.darkPurple("UHV-tier"));
 
 // --- UEV Tier
-<gregtech:gt.metaitem.01:32575>.addTooltip(format.green("UEV-tier"));
+<gregtech:gt.metaitem.03:32575>.addTooltip(format.darkPurple("UEV-tier"));
 
 // --- UIV Tier
-<gregtech:gt.metaitem.01:32580>.addTooltip(format.green("UIV-tier"));
+<gregtech:gt.metaitem.03:32580>.addTooltip(format.darkPurple("UIV-tier"));
 
 // --- UMV Tier
-<gregtech:gt.metaitem.01:32585>.addTooltip(format.green("UMV-tier"));
+<gregtech:gt.metaitem.03:32585>.addTooltip(format.darkPurple("UMV-tier"));
 
 // --- UXV Tier
-<gregtech:gt.metaitem.01:32590>.addTooltip(format.green("UXV-tier"));
+<gregtech:gt.metaitem.03:32590>.addTooltip(format.darkPurple("UXV-tier"));
