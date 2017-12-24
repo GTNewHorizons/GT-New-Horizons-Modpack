@@ -9349,7 +9349,7 @@
         }
       ],
       "preRequisites": [
-        88
+        95
       ]
     },
     {
@@ -50164,6 +50164,21 @@
             }
           ],
           "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.99",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 810
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -69566,10 +69581,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
+              "id": "gregtech:gt.metaitem.99",
               "Count": 32,
               "OreDict": "",
-              "Damage": 11874
+              "Damage": 874
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -108929,6 +108944,95 @@
       "preRequisites": [
         65
       ]
+    },
+    {
+      "questID": 1134,
+      "name": "LV Advanced Steam Boiler",
+      "description": "The LV Gt++ Steam Boiler is the next machine you can build to produce steam more efficient then with the High Pressure Boiler.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 753
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 753
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11089
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        608
+      ]
     }
   ],
   "questLines": [
@@ -109766,12 +109870,12 @@
         },
         {
           "id": 90,
-          "x": 192,
-          "y": 0
+          "x": 240,
+          "y": 60
         },
         {
           "id": 91,
-          "x": 192,
+          "x": 144,
           "y": 144
         },
         {
@@ -109781,7 +109885,7 @@
         },
         {
           "id": 93,
-          "x": 192,
+          "x": 144,
           "y": 180
         },
         {
@@ -109802,7 +109906,7 @@
         {
           "id": 98,
           "x": 288,
-          "y": 408
+          "y": 504
         },
         {
           "id": 99,
@@ -109816,8 +109920,8 @@
         },
         {
           "id": 101,
-          "x": 240,
-          "y": 0
+          "x": 216,
+          "y": 180
         },
         {
           "id": 102,
@@ -109826,7 +109930,7 @@
         },
         {
           "id": 103,
-          "x": 84,
+          "x": 96,
           "y": 108
         },
         {
@@ -109837,7 +109941,7 @@
         {
           "id": 105,
           "x": 288,
-          "y": 372
+          "y": 444
         },
         {
           "id": 113,
@@ -109846,13 +109950,13 @@
         },
         {
           "id": 114,
-          "x": 360,
-          "y": 0
+          "x": 372,
+          "y": 24
         },
         {
           "id": 115,
           "x": 312,
-          "y": 0
+          "y": 24
         },
         {
           "id": 117,
@@ -109937,7 +110041,7 @@
         {
           "id": 542,
           "x": 396,
-          "y": 336
+          "y": 372
         },
         {
           "id": 543,
@@ -109967,17 +110071,17 @@
         {
           "id": 548,
           "x": 60,
-          "y": 444
+          "y": 504
         },
         {
           "id": 549,
-          "x": 60,
+          "x": 156,
           "y": 504
         },
         {
           "id": 550,
           "x": 192,
-          "y": 480
+          "y": 408
         },
         {
           "id": 551,
@@ -109991,8 +110095,8 @@
         },
         {
           "id": 553,
-          "x": 156,
-          "y": 444
+          "x": 108,
+          "y": 480
         },
         {
           "id": 554,
@@ -110017,12 +110121,12 @@
         {
           "id": 608,
           "x": 396,
-          "y": 492
+          "y": 504
         },
         {
           "id": 609,
           "x": 444,
-          "y": 468
+          "y": 456
         },
         {
           "id": 612,
@@ -110042,7 +110146,7 @@
         {
           "id": 615,
           "x": 648,
-          "y": 396
+          "y": 372
         },
         {
           "id": 611,
@@ -110071,22 +110175,22 @@
         },
         {
           "id": 620,
-          "x": 396,
-          "y": 396
+          "x": 444,
+          "y": 408
         },
         {
           "id": 621,
-          "x": 492,
+          "x": 528,
           "y": 432
         },
         {
           "id": 622,
-          "x": 492,
-          "y": 396
+          "x": 528,
+          "y": 372
         },
         {
           "id": 623,
-          "x": 492,
+          "x": 576,
           "y": 468
         },
         {
@@ -110097,7 +110201,7 @@
         {
           "id": 626,
           "x": 288,
-          "y": 444
+          "y": 540
         },
         {
           "id": 639,
@@ -110127,12 +110231,12 @@
         {
           "id": 644,
           "x": 228,
-          "y": 336
+          "y": 288
         },
         {
           "id": 646,
           "x": 444,
-          "y": 528
+          "y": 540
         },
         {
           "id": 661,
@@ -110161,8 +110265,8 @@
         },
         {
           "id": 116,
-          "x": 276,
-          "y": 0
+          "x": 288,
+          "y": 60
         },
         {
           "id": 726,
@@ -110201,8 +110305,8 @@
         },
         {
           "id": 579,
-          "x": 336,
-          "y": 336
+          "x": 324,
+          "y": 408
         },
         {
           "id": 745,
@@ -110231,7 +110335,7 @@
         },
         {
           "id": 891,
-          "x": 108,
+          "x": 96,
           "y": 180
         },
         {
@@ -110272,6 +110376,11 @@
         {
           "id": 1094,
           "x": 324,
+          "y": 540
+        },
+        {
+          "id": 1134,
+          "x": 396,
           "y": 540
         }
       ]
