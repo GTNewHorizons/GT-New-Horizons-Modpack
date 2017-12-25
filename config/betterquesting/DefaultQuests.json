@@ -14485,7 +14485,7 @@
     },
     {
       "questID": 166,
-      "name": "A new alloy",
+      "name": "A new alloy Soularium",
       "description": "There are some... \"Darker\" uses for machines. Stuff that might be considered \"magic\". Anyway, for that you need a new alloy: Soularium.",
       "isMain": false,
       "isSilent": false,
@@ -46828,7 +46828,7 @@
     },
     {
       "questID": 541,
-      "name": "A new alloy",
+      "name": "A new alloy Cobalt Brass",
       "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027cobalt brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
       "isMain": true,
       "isSilent": false,
