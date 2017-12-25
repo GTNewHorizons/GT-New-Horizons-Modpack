@@ -983,9 +983,9 @@ recipes.addShaped(<IC2:itemwcarbonrotor:1>, [
 
 // --- Kinetic Water Generator
 recipes.addShaped(<IC2:blockKineticGenerator:4>, [
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:rotorStainlessSteel>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<IC2:itemRecipePart:11>, <gregtech:gt.blockcasings2:10>, <IC2:itemRecipePart:11>],
-[<ore:circuitAdvanced>, <ore:rotorStainlessSteel>, <ore:circuitAdvanced>]]);
+[<ore:circuitAdvanced>, <ore:rotorStainlessSteel>, <ore:circuitAdvanced>],
+[<IC2:itemRecipePart:12>, <gregtech:gt.blockcasings2:3>, <IC2:itemRecipePart:12>],
+[<dreamcraft:item.StainlessSteelItemCasing>, <ore:rotorStainlessSteel>,<dreamcraft:item.StainlessSteelItemCasing>]]);
 
 // --- Sterling Kinetic Generator
 recipes.addShaped(<IC2:blockKineticGenerator:5>, [
