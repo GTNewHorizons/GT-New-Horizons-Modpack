@@ -72737,7 +72737,7 @@
     {
       "questID": 789,
       "name": "Energy Crystals",
-      "description": "Make energy crystals out of ruby and redstone dusts in the MV mixer. Energy crystals can store 1 million EU.",
+      "description": "Make energy crystals out of ruby and redstone dusts in the MV mixer. Energy crystals can store 1 million EU and works as a HV battery.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109252,6 +109252,249 @@
         97,
         77
       ]
+    },
+    {
+      "questID": 1142,
+      "name": "HV Battery Buffers",
+      "description": "MV machines need battery buffers too. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 1x and a 4x buffer for HV.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 163
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 163
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 173
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 1143,
+      "name": "HV Batteries",
+      "description": "Better machines need some better batteries. Let\u0027s make some HV battery hulls for new batteries. Now it\u0027s up to you to make lithium, cadmium, sodium or acid batteries with these hulls.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32502
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32502
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1142
+      ]
+    },
+    {
+      "questID": 1144,
+      "name": "HV Lithium Batterie",
+      "description": "Better machines need some better batteries. Lithium is the best material to use when making batteries.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32528,
+        "tag": {
+          "GT.ItemCharge:4": 400000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32538
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17315
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1143
+      ]
     }
   ],
   "questLines": [
@@ -111147,252 +111390,267 @@
         {
           "id": 160,
           "x": 192,
-          "y": 96
+          "y": 120
         },
         {
           "id": 162,
           "x": 192,
-          "y": 204
+          "y": 228
         },
         {
           "id": 163,
           "x": 444,
-          "y": 96
+          "y": 120
         },
         {
           "id": 165,
           "x": 348,
-          "y": 96
+          "y": 120
         },
         {
           "id": 167,
           "x": 252,
-          "y": 132
+          "y": 156
         },
         {
           "id": 168,
           "x": 348,
-          "y": 132
+          "y": 156
         },
         {
           "id": 169,
           "x": 396,
-          "y": 96
+          "y": 120
         },
         {
           "id": 166,
           "x": 252,
-          "y": 96
+          "y": 120
         },
         {
           "id": 170,
           "x": 444,
-          "y": 0
+          "y": 24
         },
         {
           "id": 171,
           "x": 252,
-          "y": 204
+          "y": 228
         },
         {
           "id": 172,
           "x": 300,
-          "y": 204
+          "y": 228
         },
         {
           "id": 173,
           "x": 348,
-          "y": 204
+          "y": 228
         },
         {
           "id": 174,
           "x": 348,
-          "y": 252
+          "y": 276
         },
         {
           "id": 175,
           "x": 396,
-          "y": 204
+          "y": 228
         },
         {
           "id": 769,
           "x": 48,
-          "y": 96
+          "y": 120
         },
         {
           "id": 770,
           "x": 48,
-          "y": 132
+          "y": 156
         },
         {
           "id": 772,
           "x": 48,
-          "y": 168
+          "y": 192
         },
         {
           "id": 789,
           "x": 48,
-          "y": 60
+          "y": 84
         },
         {
           "id": 790,
           "x": 0,
-          "y": 60
+          "y": 84
         },
         {
           "id": 808,
           "x": 96,
-          "y": 168
+          "y": 192
         },
         {
           "id": 860,
           "x": 300,
-          "y": 300
+          "y": 324
         },
         {
           "id": 932,
           "x": 192,
-          "y": 48
+          "y": 72
         },
         {
           "id": 859,
           "x": 48,
-          "y": 300
+          "y": 324
         },
         {
           "id": 858,
           "x": 96,
-          "y": 348
+          "y": 372
         },
         {
           "id": 854,
           "x": 96,
-          "y": 300
+          "y": 324
         },
         {
           "id": 857,
           "x": 156,
-          "y": 348
+          "y": 372
         },
         {
           "id": 856,
           "x": 156,
-          "y": 396
+          "y": 420
         },
         {
           "id": 147,
           "x": 96,
-          "y": 396
+          "y": 420
         },
         {
           "id": 855,
           "x": 156,
-          "y": 300
+          "y": 324
         },
         {
           "id": 851,
           "x": 240,
-          "y": 300
+          "y": 324
         },
         {
           "id": 853,
           "x": 192,
-          "y": 300
+          "y": 324
         },
         {
           "id": 841,
           "x": 240,
-          "y": 348
+          "y": 372
         },
         {
           "id": 557,
           "x": 300,
-          "y": 348
+          "y": 372
         },
         {
           "id": 943,
           "x": 96,
-          "y": 252
+          "y": 276
         },
         {
           "id": 988,
           "x": 444,
-          "y": 48
+          "y": 72
         },
         {
           "id": 989,
           "x": 252,
-          "y": 48
+          "y": 72
         },
         {
           "id": 141,
           "x": 396,
-          "y": 48
+          "y": 72
         },
         {
           "id": 998,
           "x": 396,
-          "y": 0
+          "y": 24
         },
         {
           "id": 999,
           "x": 348,
-          "y": 0
+          "y": 24
         },
         {
           "id": 1000,
           "x": 252,
-          "y": 0
+          "y": 24
         },
         {
           "id": 1001,
           "x": 300,
-          "y": 0
+          "y": 24
         },
         {
           "id": 146,
           "x": 300,
-          "y": 96
+          "y": 120
         },
         {
           "id": 144,
           "x": 300,
-          "y": 132
+          "y": 156
         },
         {
           "id": 1011,
           "x": 240,
-          "y": 252
+          "y": 276
         },
         {
           "id": 1012,
           "x": 300,
-          "y": 252
+          "y": 276
         },
         {
           "id": 1014,
-          "x": 0,
-          "y": 12
+          "x": 48,
+          "y": 0
         },
         {
           "id": 1016,
           "x": 144,
-          "y": 12
+          "y": 36
         },
         {
           "id": 1017,
-          "x": 48,
-          "y": 12
+          "x": 96,
+          "y": 0
         },
         {
           "id": 1018,
           "x": 144,
-          "y": 48
+          "y": 72
         },
         {
           "id": 1019,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 1142,
           "x": 96,
-          "y": 12
+          "y": 84
+        },
+        {
+          "id": 1143,
+          "x": 96,
+          "y": 36
+        },
+        {
+          "id": 1144,
+          "x": 48,
+          "y": 36
         }
       ]
     },
