@@ -8488,7 +8488,9 @@
         543,
         529,
         530,
-        717
+        717,
+        532,
+        533
       ]
     },
     {
@@ -45883,7 +45885,7 @@
       "questID": 532,
       "name": "Diesel, oil or maybe creosote?",
       "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the diesel generators and use them besides steam as a secondary power source.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -45949,8 +45951,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -56607,8 +56609,7 @@
         }
       ],
       "preRequisites": [
-        547,
-        533
+        547
       ]
     },
     {
@@ -56857,8 +56858,7 @@
         }
       ],
       "preRequisites": [
-        547,
-        533
+        547
       ]
     },
     {
@@ -81252,8 +81252,8 @@
     },
     {
       "questID": 862,
-      "name": "Your first bone bow",
-      "description": "Since vanilla bows are only craftable in the assembling machine and mobs do not drop them very often you have to make a Tinkers bow. You could make it out of wood but bone would be much better. So craft the bow limbs out of bone and the bow string out of strings. The arrow that has the most durability is bone flint. It is much lighter but less durable than a regular arrow.\n\nYou can repair your bow the same way as all the other Tinkers tools. Arrows can be regained by repairing them or picking them up from the floor.",
+      "name": "Your first bow",
+      "description": "Since vanilla bows are only craftable in the assembling machine and mobs do not drop them very often you have to make a Tinkers bow. Wood would be the best material for now.  So craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Using a flint tip to make it repair able with flint.\n\nYou can repair your bow the same way as all the other Tinkers tools. Arrows can be regained by repairing them or picking them up from the floor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81276,35 +81276,35 @@
         "Damage": 0,
         "tag": {
           "InfiTool:10": {
-            "BaseDurability:4": 226,
+            "BaseDurability:4": 57,
             "BaseAttack:4": 2,
-            "DrawSpeed:4": 34,
+            "DrawSpeed:4": 16,
             "ToolEXP:4": 0,
-            "HarvestLevel:4": 1,
-            "RenderHead:4": 5,
+            "HarvestLevel:4": 0,
+            "RenderHead:4": 0,
             "ModDurability:6": 0.0,
             "Shoddy:6": 0.0,
             "RenderHandle:4": 0,
-            "Accessory:4": 5,
-            "MiningSpeed:4": 300,
+            "Accessory:4": 0,
+            "MiningSpeed:4": 150,
             "Unbreaking:4": 0,
-            "HarvestLevel2:4": 1,
+            "HarvestLevel2:4": 0,
             "Damage:4": 0,
             "BonusDurability:4": 0,
-            "TotalDurability:4": 226,
-            "MiningSpeed2:4": 300,
-            "BaseDrawSpeed:4": 34,
-            "Head:4": 5,
+            "TotalDurability:4": 57,
+            "MiningSpeed2:4": 150,
+            "BaseDrawSpeed:4": 16,
+            "Head:4": 0,
             "Attack:4": 2,
             "Handle:4": 0,
             "Broken:4": 0,
-            "RenderAccessory:4": 5,
+            "RenderAccessory:4": 0,
             "ToolLevel:4": 1,
             "FlightSpeed:6": 3.0,
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "§fBone Shortbow"
+            "Name:8": "§fWooden Shortbow"
           }
         }
       },
@@ -81362,14 +81362,26 @@
               "Damage": 0
             },
             {
+              "id": "minecraft:flint",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "minecraft:feather",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
+              "id": "minecraft:planks",
+              "Count": 3,
+              "OreDict": "plankWood",
+              "Damage": 0
+            },
+            {
               "id": "minecraft:bone",
-              "Count": 5,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -81386,7 +81398,7 @@
               "id": "TConstruct:arrowhead",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 3
             },
             {
               "id": "TConstruct:toolRod",
@@ -81404,7 +81416,7 @@
               "id": "TConstruct:BowLimbPart",
               "Count": 2,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 0
             },
             {
               "id": "TConstruct:bowstring",
@@ -81428,35 +81440,35 @@
               "Damage": 0,
               "tag": {
                 "InfiTool:10": {
-                  "BaseDurability:4": 226,
+                  "BaseDurability:4": 57,
                   "BaseAttack:4": 2,
-                  "DrawSpeed:4": 34,
+                  "DrawSpeed:4": 16,
                   "ToolEXP:4": 0,
-                  "HarvestLevel:4": 1,
-                  "RenderHead:4": 5,
+                  "HarvestLevel:4": 0,
+                  "RenderHead:4": 0,
                   "ModDurability:6": 0.0,
                   "Shoddy:6": 0.0,
                   "RenderHandle:4": 0,
-                  "Accessory:4": 5,
-                  "MiningSpeed:4": 300,
+                  "Accessory:4": 0,
+                  "MiningSpeed:4": 150,
                   "Unbreaking:4": 0,
-                  "HarvestLevel2:4": 1,
+                  "HarvestLevel2:4": 0,
                   "Damage:4": 0,
                   "BonusDurability:4": 0,
-                  "TotalDurability:4": 226,
-                  "MiningSpeed2:4": 300,
-                  "BaseDrawSpeed:4": 34,
-                  "Head:4": 5,
+                  "TotalDurability:4": 57,
+                  "MiningSpeed2:4": 150,
+                  "BaseDrawSpeed:4": 16,
+                  "Head:4": 0,
                   "Attack:4": 2,
                   "Handle:4": 0,
                   "Broken:4": 0,
-                  "RenderAccessory:4": 5,
+                  "RenderAccessory:4": 0,
                   "ToolLevel:4": 1,
                   "FlightSpeed:6": 3.0,
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fBone Shortbow"
+                  "Name:8": "§fWooden Shortbow"
                 }
               }
             },
@@ -81468,33 +81480,33 @@
               "tag": {
                 "InfiTool:10": {
                   "BreakChance:6": 0.07000000029802322,
-                  "BaseDurability:4": 143,
+                  "BaseDurability:4": 107,
                   "BaseAttack:4": 2,
                   "ToolEXP:4": 0,
                   "HarvestLevel:4": 1,
-                  "RenderHead:4": 5,
+                  "RenderHead:4": 3,
                   "ModDurability:6": 0.0,
                   "Shoddy:6": 0.0,
                   "RenderHandle:4": 1,
                   "Accuracy:6": 95.0,
                   "Accessory:4": 0,
-                  "MiningSpeed:4": 300,
+                  "MiningSpeed:4": 400,
                   "Unbreaking:4": 0,
                   "Damage:4": 0,
                   "BonusDurability:4": 0,
-                  "TotalDurability:4": 143,
-                  "Head:4": 5,
+                  "TotalDurability:4": 107,
+                  "Head:4": 3,
                   "Attack:4": 2,
                   "Handle:4": 1,
                   "Broken:4": 0,
-                  "Mass:6": 3.490000009536743,
-                  "Ammo:4": 15,
+                  "Mass:6": 3.125,
+                  "Ammo:4": 11,
                   "RenderAccessory:4": 0,
                   "ToolLevel:4": 1,
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fBone Arrows"
+                  "Name:8": "§fFlint Arrows"
                 }
               }
             }
@@ -111036,6 +111048,782 @@
       "preRequisites": [
         741
       ]
+    },
+    {
+      "questID": 1152,
+      "name": "Fiery Bowstring",
+      "description": "Why not upgrading your Bowstring too. If you not find any Fiery Strings in the Nether you got some from the last quest. Crafting some Fiery Bowstring with it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:bowstring",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Natura:barleyFood",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:bowstring",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 11382
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1150
+      ]
+    },
+    {
+      "questID": 1153,
+      "name": "Ardite Crossbow Body",
+      "description": "To make you Crossbow even better crafting some ardite Crossbow Body. You got a few Ardite Ingots as reward before.\nWith Redstone you can make your Bow more faster. A free modifier is needed for it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:CrossbowBodyPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 11382
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CrossbowBodyPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:bowstring",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11313
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1152
+      ]
+    },
+    {
+      "questID": 1154,
+      "name": "Magnalium Crossbow Bolts",
+      "description": "Magnalium Bolts are much better then your old Wooden Bolts.\nYou can using Nether Quarts on the Bolts to make it even better. \nA free modifier is needed.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:BoltAmmo",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "BreakChance:6": 0.05400000140070915,
+            "BaseDurability:4": 705,
+            "BaseAttack:4": 3,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 3,
+            "RenderHead:4": 2,
+            "ModDurability:6": 0.0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 1602,
+            "Accuracy:6": 87.5,
+            "Accessory:4": 1,
+            "MiningSpeed:4": 600,
+            "Unbreaking:4": 1,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "TotalDurability:4": 705,
+            "Head:4": 2,
+            "Attack:4": 3,
+            "Handle:4": 1602,
+            "Broken:4": 0,
+            "Mass:6": 3.4800000190734863,
+            "Ammo:4": 71,
+            "RenderAccessory:4": 1,
+            "ToolLevel:4": 1,
+            "Modifiers:4": 0
+          },
+          "display:10": {
+            "Name:8": "§fIron Bolts"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24
+            },
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:fletching",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TGregworks:tGregToolPartToolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1602,
+              "tag": {
+                "material:8": "Magnalium"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:BoltPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1602,
+              "tag": {
+                "DualMat:10": {
+                  "Material2:4": 2
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:BoltAmmo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BreakChance:6": 0.05400000140070915,
+                  "BaseDurability:4": 705,
+                  "BaseAttack:4": 3,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 3,
+                  "RenderHead:4": 2,
+                  "ModDurability:6": 0.0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 1602,
+                  "Accuracy:6": 87.5,
+                  "Accessory:4": 1,
+                  "MiningSpeed:4": 600,
+                  "Unbreaking:4": 1,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "TotalDurability:4": 705,
+                  "Head:4": 2,
+                  "Attack:4": 3,
+                  "Handle:4": 1602,
+                  "Broken:4": 0,
+                  "Mass:6": 3.4800000190734863,
+                  "Ammo:4": 71,
+                  "RenderAccessory:4": 1,
+                  "ToolLevel:4": 1,
+                  "Modifiers:4": 0
+                },
+                "display:10": {
+                  "Name:8": "§fIron Bolts"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 11382
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1150,
+        1155
+      ]
+    },
+    {
+      "questID": 1155,
+      "name": "Basic Fluid Solidifier",
+      "description": "To get your molten fluids back to a solid state you need a Fluid solidifier. It is used for Crobow bolts as well.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 521
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 521
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.99",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 810
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:energydrinkItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:beansontoastItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32716
+            },
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        579
+      ]
+    },
+    {
+      "questID": 1156,
+      "name": "Iron Bolts",
+      "description": "Your Crossbow need some Ammo to shot with. Lets craft some Wooden Blots with an iron tip.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:BoltAmmo",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "BreakChance:6": 0.07000000774860382,
+            "BaseDurability:4": 188,
+            "BaseAttack:4": 3,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 3,
+            "RenderHead:4": 2,
+            "ModDurability:6": 0.0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 0,
+            "Accuracy:6": 97.5,
+            "Accessory:4": 0,
+            "MiningSpeed:4": 600,
+            "Unbreaking:4": 1,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "TotalDurability:4": 188,
+            "Head:4": 2,
+            "Attack:4": 3,
+            "Handle:4": 0,
+            "Broken:4": 0,
+            "Mass:6": 4.335000038146973,
+            "Ammo:4": 19,
+            "RenderAccessory:4": 0,
+            "ToolLevel:4": 1,
+            "Modifiers:4": 0
+          },
+          "display:10": {
+            "Name:8": "§fIron Bolts"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:toolRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Natura:barleyFood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:BoltPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "DualMat:10": {
+                  "Material2:4": 2
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:BoltAmmo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BreakChance:6": 0.07000000774860382,
+                  "BaseDurability:4": 188,
+                  "BaseAttack:4": 3,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 3,
+                  "RenderHead:4": 2,
+                  "ModDurability:6": 0.0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 0,
+                  "Accuracy:6": 97.5,
+                  "Accessory:4": 0,
+                  "MiningSpeed:4": 600,
+                  "Unbreaking:4": 1,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "TotalDurability:4": 188,
+                  "Head:4": 2,
+                  "Attack:4": 3,
+                  "Handle:4": 0,
+                  "Broken:4": 0,
+                  "Mass:6": 4.335000038146973,
+                  "Ammo:4": 19,
+                  "RenderAccessory:4": 0,
+                  "ToolLevel:4": 1,
+                  "Modifiers:4": 0
+                },
+                "display:10": {
+                  "Name:8": "§fIron Bolts"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1151
+      ]
     }
   ],
   "questLines": [
@@ -111874,6 +112662,11 @@
           "id": 1151,
           "x": 36,
           "y": 144
+        },
+        {
+          "id": 1156,
+          "x": 0,
+          "y": 144
         }
       ]
     },
@@ -111909,7 +112702,7 @@
         {
           "id": 94,
           "x": 420,
-          "y": 180
+          "y": 144
         },
         {
           "id": 95,
@@ -111924,7 +112717,7 @@
         {
           "id": 98,
           "x": 360,
-          "y": 504
+          "y": 528
         },
         {
           "id": 99,
@@ -111934,7 +112727,7 @@
         {
           "id": 100,
           "x": 456,
-          "y": 252
+          "y": 180
         },
         {
           "id": 101,
@@ -112028,13 +112821,13 @@
         },
         {
           "id": 532,
-          "x": 384,
-          "y": 144
+          "x": 420,
+          "y": 252
         },
         {
           "id": 533,
-          "x": 324,
-          "y": 324
+          "x": 300,
+          "y": 252
         },
         {
           "id": 538,
@@ -112043,8 +112836,8 @@
         },
         {
           "id": 539,
-          "x": 300,
-          "y": 432
+          "x": 360,
+          "y": 408
         },
         {
           "id": 540,
@@ -112069,7 +112862,7 @@
         {
           "id": 544,
           "x": 420,
-          "y": 252
+          "y": 180
         },
         {
           "id": 545,
@@ -112099,7 +112892,7 @@
         {
           "id": 550,
           "x": 264,
-          "y": 432
+          "y": 408
         },
         {
           "id": 551,
@@ -112123,8 +112916,8 @@
         },
         {
           "id": 555,
-          "x": 300,
-          "y": 396
+          "x": 336,
+          "y": 360
         },
         {
           "id": 598,
@@ -112139,7 +112932,7 @@
         {
           "id": 608,
           "x": 504,
-          "y": 504
+          "y": 480
         },
         {
           "id": 609,
@@ -112194,7 +112987,7 @@
         {
           "id": 620,
           "x": 552,
-          "y": 372
+          "y": 408
         },
         {
           "id": 621,
@@ -112219,7 +113012,7 @@
         {
           "id": 626,
           "x": 396,
-          "y": 540
+          "y": 528
         },
         {
           "id": 639,
@@ -112238,7 +113031,7 @@
         },
         {
           "id": 642,
-          "x": 168,
+          "x": 216,
           "y": 324
         },
         {
@@ -112254,7 +113047,7 @@
         {
           "id": 646,
           "x": 552,
-          "y": 540
+          "y": 528
         },
         {
           "id": 661,
@@ -112288,8 +113081,8 @@
         },
         {
           "id": 726,
-          "x": 360,
-          "y": 540
+          "x": 300,
+          "y": 480
         },
         {
           "id": 717,
@@ -112323,8 +113116,8 @@
         },
         {
           "id": 579,
-          "x": 504,
-          "y": 372
+          "x": 360,
+          "y": 252
         },
         {
           "id": 745,
@@ -112348,7 +113141,7 @@
         },
         {
           "id": 869,
-          "x": 420,
+          "x": 384,
           "y": 144
         },
         {
@@ -112394,12 +113187,12 @@
         {
           "id": 1094,
           "x": 432,
-          "y": 540
+          "y": 528
         },
         {
           "id": 1134,
           "x": 504,
-          "y": 540
+          "y": 528
         },
         {
           "id": 1135,
@@ -112424,11 +113217,31 @@
         {
           "id": 673,
           "x": 300,
-          "y": 252
+          "y": 216
         },
         {
           "id": 1150,
           "x": 252,
+          "y": 288
+        },
+        {
+          "id": 1152,
+          "x": 216,
+          "y": 288
+        },
+        {
+          "id": 1153,
+          "x": 168,
+          "y": 288
+        },
+        {
+          "id": 1154,
+          "x": 300,
+          "y": 288
+        },
+        {
+          "id": 1155,
+          "x": 360,
           "y": 288
         }
       ]
