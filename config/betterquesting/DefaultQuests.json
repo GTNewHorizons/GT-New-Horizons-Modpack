@@ -8433,7 +8433,7 @@
         "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 12
+        "Damage": 1121
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -8447,7 +8447,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 12
+              "Damage": 1121
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -8478,11 +8478,17 @@
         }
       ],
       "preRequisites": [
-        103,
         102,
         97,
         90,
-        546
+        546,
+        1148,
+        98,
+        539,
+        543,
+        529,
+        530,
+        717
       ]
     },
     {
@@ -9446,7 +9452,7 @@
         "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2019
+        "Damage": 11019
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -9458,9 +9464,24 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 8,
               "OreDict": "",
               "Damage": 2019
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11019
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -9482,7 +9503,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -110441,6 +110462,78 @@
       "preRequisites": [
         536
       ]
+    },
+    {
+      "questID": 1148,
+      "name": "MV Machine hull",
+      "description": "The next tier of Machine Hull needs aluminium, alot of aluminium. Let your EBF running and cook some Aluminium.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        103,
+        77
+      ]
     }
   ],
   "questLines": [
@@ -111810,6 +111903,11 @@
           "id": 1136,
           "x": 456,
           "y": 180
+        },
+        {
+          "id": 1148,
+          "x": 156,
+          "y": 60
         }
       ]
     },
