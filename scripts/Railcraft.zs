@@ -569,6 +569,15 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
 // --- Magnetic Steel
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11355>);
 
+// --- Electric Steel
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
+
+// --- Redstonealloy
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
+
+// --- Soularium
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
+
 // --- All Recipes
 mods.railcraft.RockCrusher.removeRecipe(<*>);
 
