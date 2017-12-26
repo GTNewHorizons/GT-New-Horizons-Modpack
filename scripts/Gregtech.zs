@@ -1404,6 +1404,7 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 // --- ZPM Tier
 <gregtech:gt.metaitem.01:32555>.addTooltip(format.green("ZPM-tier"));
 <gregtech:gt.metaitem.01:32736>.addTooltip(format.gold("ZPM-tier"));
+<gregtech:gt.metaitem.01:32598>.addTooltip(format.red("ZPM-tier"));
 
 // --- UV Tier
 <gregtech:gt.metaitem.01:32560>.addTooltip(format.green("UV-tier"));
