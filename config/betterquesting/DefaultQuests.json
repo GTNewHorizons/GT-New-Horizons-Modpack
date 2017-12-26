@@ -60158,7 +60158,8 @@
         }
       ],
       "preRequisites": [
-        673
+        673,
+        672
       ]
     },
     {
@@ -60247,7 +60248,8 @@
         }
       ],
       "preRequisites": [
-        673
+        673,
+        672
       ]
     },
     {
@@ -60358,7 +60360,7 @@
     {
       "questID": 672,
       "name": "Boat shape?",
-      "description": "Really? Yes for the more advanced boats you need a new shape form.",
+      "description": "Really? Yes for the more advanced boats you need a new shape form.\nYou need to make an Extruder first to progress further.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60456,7 +60458,7 @@
     {
       "questID": 673,
       "name": "LV extruder",
-      "description": "The extruder is not very useful in the LV age. But it will extrude your next tier of boat.",
+      "description": "The extruder is not very useful in the LV age. But it will extrude your next tier of boat or make some tinkers construc toolpParts.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60521,7 +60523,7 @@
         }
       ],
       "preRequisites": [
-        672
+        95
       ]
     },
     {
@@ -110534,6 +110536,506 @@
         103,
         77
       ]
+    },
+    {
+      "questID": 1149,
+      "name": "A new Alloy Magnalium",
+      "description": "You wondering why you need magnalium now? Well not for Gt machines right now but for an material update for your Crossbow.\nIt\u0027s a very good material in LV Tier. Go to the Twilight Forest and Find some Olivine/Glauconite Vein lokated at Y 10-40 or on the Overworld a Glauconite Soapstone mix located at Y  20-50 and a Granitic Mineral Vein on the Overworld Located at Y 50-60 (The Gypsum vein you need for The Bricked Blast Furnace).\nWith your Ore Washer you can get Magnesium and Aluminium out of the Ores (Magnesite for Magnesium and Fullers Earth for Aluminium) and mix it in the Alloy smelter to Magnalium.\nMagnesite gives 10 tiny piles of Magnesium each dust but fullers earth gives only a tiny pipe of Aluminium.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11313
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 908
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 928
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2018
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 2019
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 42,
+              "OreDict": "",
+              "Damage": 11313
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        538
+      ]
+    },
+    {
+      "questID": 1150,
+      "name": "Magnalium Crossbow",
+      "description": "Now its time to craft your Crossbow Limb and the Crossbow Body to upgrade your old Wooden Crossbow.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:Crossbow",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "RenderExtra:4": 6,
+            "BaseDurability:4": 288,
+            "BaseAttack:4": 2,
+            "DrawSpeed:4": 35,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 3,
+            "RenderHead:4": 1602,
+            "ModDurability:6": 0.0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 1602,
+            "Accessory:4": 2,
+            "MiningSpeed:4": 600,
+            "Unbreaking:4": 3,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "TotalDurability:4": 288,
+            "BaseDrawSpeed:4": 35,
+            "Head:4": 1602,
+            "Attack:4": 2,
+            "Handle:4": 1602,
+            "Broken:4": 0,
+            "Extra:4": 6,
+            "RenderAccessory:4": 2,
+            "ToolLevel:4": 1,
+            "FlightSpeed:6": 5.99399995803833,
+            "Modifiers:4": 0
+          },
+          "display:10": {
+            "Name:8": "§fMagnalium Crossbow"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 11313
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Cast",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:Cast",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TGregworks:tGregToolPartCrossbowLimb",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1602,
+              "tag": {
+                "material:8": "Magnalium"
+              }
+            },
+            {
+              "id": "TGregworks:tGregToolPartCrossbowBody",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1602,
+              "tag": {
+                "material:8": "Magnalium"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Natura:barleyFood",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1149,
+        673,
+        741
+      ]
+    },
+    {
+      "questID": 1151,
+      "name": "Wooden Crosbow",
+      "description": "Now you are able to do a better long range weaopon a crossbow. Using Wood for the the Crossbow Limb and the Body and using Obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:Crossbow",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "InfiTool:10": {
+            "RenderExtra:4": 6,
+            "BaseDurability:4": 38,
+            "BaseAttack:4": 1,
+            "DrawSpeed:4": 33,
+            "ToolEXP:4": 0,
+            "HarvestLevel:4": 0,
+            "RenderHead:4": 0,
+            "ModDurability:6": 0.0,
+            "Shoddy:6": 0.0,
+            "RenderHandle:4": 0,
+            "Accessory:4": 0,
+            "MiningSpeed:4": 150,
+            "Unbreaking:4": 3,
+            "Damage:4": 0,
+            "BonusDurability:4": 0,
+            "TotalDurability:4": 38,
+            "BaseDrawSpeed:4": 33,
+            "Head:4": 0,
+            "Attack:4": 1,
+            "Handle:4": 0,
+            "Broken:4": 0,
+            "Extra:4": 6,
+            "RenderAccessory:4": 0,
+            "ToolLevel:4": 1,
+            "FlightSpeed:6": 4.5,
+            "Modifiers:4": 0
+          },
+          "display:10": {
+            "Name:8": "§fWooden Crossbow"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:Pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CrossbowLimbPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:CrossbowBodyPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:toughBinding",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "TConstruct:bowstring",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Crossbow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:4": 6,
+                  "BaseDurability:4": 38,
+                  "BaseAttack:4": 1,
+                  "DrawSpeed:4": 33,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 0,
+                  "RenderHead:4": 0,
+                  "ModDurability:6": 0.0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 0,
+                  "Accessory:4": 0,
+                  "MiningSpeed:4": 150,
+                  "Unbreaking:4": 3,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "TotalDurability:4": 38,
+                  "BaseDrawSpeed:4": 33,
+                  "Head:4": 0,
+                  "Attack:4": 1,
+                  "Handle:4": 0,
+                  "Broken:4": 0,
+                  "Extra:4": 6,
+                  "RenderAccessory:4": 0,
+                  "ToolLevel:4": 1,
+                  "FlightSpeed:6": 4.5,
+                  "Modifiers:4": 0
+                },
+                "display:10": {
+                  "Name:8": "§fWooden Crossbow"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        741
+      ]
     }
   ],
   "questLines": [
@@ -111367,6 +111869,11 @@
           "id": 1147,
           "x": 540,
           "y": 288
+        },
+        {
+          "id": 1151,
+          "x": 36,
+          "y": 144
         }
       ]
     },
@@ -111376,168 +111883,168 @@
       "quests": [
         {
           "id": 88,
-          "x": 312,
+          "x": 360,
           "y": 108
         },
         {
           "id": 90,
-          "x": 312,
+          "x": 360,
           "y": 60
         },
         {
           "id": 91,
-          "x": 204,
+          "x": 252,
           "y": 144
         },
         {
           "id": 92,
-          "x": 456,
+          "x": 504,
           "y": 216
         },
         {
           "id": 93,
-          "x": 204,
+          "x": 252,
           "y": 180
         },
         {
           "id": 94,
-          "x": 288,
+          "x": 420,
           "y": 180
         },
         {
           "id": 95,
-          "x": 312,
+          "x": 360,
           "y": 216
         },
         {
           "id": 97,
-          "x": 504,
+          "x": 552,
           "y": 216
         },
         {
           "id": 98,
-          "x": 312,
+          "x": 360,
           "y": 504
         },
         {
           "id": 99,
-          "x": 552,
+          "x": 600,
           "y": 216
         },
         {
           "id": 100,
-          "x": 216,
+          "x": 456,
           "y": 252
         },
         {
           "id": 101,
-          "x": 252,
-          "y": 180
+          "x": 336,
+          "y": 144
         },
         {
           "id": 102,
-          "x": 348,
+          "x": 396,
           "y": 576
         },
         {
           "id": 103,
-          "x": 156,
+          "x": 204,
           "y": 108
         },
         {
           "id": 104,
-          "x": 60,
+          "x": 108,
           "y": 108
         },
         {
           "id": 105,
-          "x": 312,
-          "y": 408
+          "x": 360,
+          "y": 444
         },
         {
           "id": 113,
-          "x": 396,
+          "x": 444,
           "y": 60
         },
         {
           "id": 114,
-          "x": 420,
+          "x": 468,
           "y": 24
         },
         {
           "id": 115,
-          "x": 372,
+          "x": 420,
           "y": 24
         },
         {
           "id": 117,
-          "x": 552,
+          "x": 600,
           "y": 180
         },
         {
           "id": 118,
-          "x": 504,
+          "x": 552,
           "y": 180
         },
         {
           "id": 120,
-          "x": 504,
+          "x": 552,
           "y": 0
         },
         {
           "id": 122,
-          "x": 540,
+          "x": 588,
           "y": 0
         },
         {
           "id": 123,
-          "x": 540,
+          "x": 588,
           "y": 36
         },
         {
           "id": 124,
-          "x": 588,
+          "x": 636,
           "y": 0
         },
         {
           "id": 125,
-          "x": 588,
+          "x": 636,
           "y": 36
         },
         {
           "id": 121,
-          "x": 504,
+          "x": 552,
           "y": 60
         },
         {
           "id": 529,
-          "x": 552,
+          "x": 600,
           "y": 252
         },
         {
           "id": 530,
-          "x": 648,
+          "x": 696,
           "y": 288
         },
         {
           "id": 532,
-          "x": 336,
-          "y": 180
+          "x": 384,
+          "y": 144
         },
         {
           "id": 533,
-          "x": 252,
-          "y": 288
+          "x": 324,
+          "y": 324
         },
         {
           "id": 538,
-          "x": 84,
+          "x": 252,
           "y": 216
         },
         {
           "id": 539,
-          "x": 252,
-          "y": 408
+          "x": 300,
+          "y": 432
         },
         {
           "id": 540,
@@ -111551,363 +112058,378 @@
         },
         {
           "id": 542,
-          "x": 456,
+          "x": 504,
           "y": 408
         },
         {
           "id": 543,
-          "x": 252,
-          "y": 504
+          "x": 300,
+          "y": 528
         },
         {
           "id": 544,
-          "x": 252,
+          "x": 420,
           "y": 252
         },
         {
           "id": 545,
-          "x": 252,
-          "y": 216
+          "x": 300,
+          "y": 180
         },
         {
           "id": 546,
-          "x": 120,
-          "y": 288
+          "x": 36,
+          "y": 180
         },
         {
           "id": 547,
-          "x": 48,
-          "y": 336
+          "x": 36,
+          "y": 360
         },
         {
           "id": 548,
-          "x": 84,
-          "y": 504
+          "x": 132,
+          "y": 528
         },
         {
           "id": 549,
-          "x": 216,
-          "y": 504
+          "x": 264,
+          "y": 528
         },
         {
           "id": 550,
-          "x": 216,
-          "y": 408
+          "x": 264,
+          "y": 432
         },
         {
           "id": 551,
-          "x": 120,
-          "y": 408
+          "x": 168,
+          "y": 432
         },
         {
           "id": 552,
-          "x": 168,
-          "y": 408
+          "x": 216,
+          "y": 432
         },
         {
           "id": 553,
-          "x": 120,
-          "y": 456
+          "x": 168,
+          "y": 480
         },
         {
           "id": 554,
-          "x": 168,
-          "y": 456
+          "x": 216,
+          "y": 480
         },
         {
           "id": 555,
-          "x": 252,
-          "y": 372
+          "x": 300,
+          "y": 396
         },
         {
           "id": 598,
-          "x": 456,
+          "x": 504,
           "y": 444
         },
         {
           "id": 599,
-          "x": 708,
+          "x": 756,
           "y": 108
         },
         {
           "id": 608,
-          "x": 456,
+          "x": 504,
           "y": 504
         },
         {
           "id": 609,
-          "x": 504,
+          "x": 552,
           "y": 480
         },
         {
           "id": 612,
-          "x": 708,
+          "x": 756,
           "y": 516
         },
         {
           "id": 613,
-          "x": 708,
+          "x": 756,
           "y": 444
         },
         {
           "id": 614,
-          "x": 708,
+          "x": 756,
           "y": 480
         },
         {
           "id": 615,
-          "x": 708,
+          "x": 756,
           "y": 408
         },
         {
           "id": 611,
-          "x": 708,
+          "x": 756,
           "y": 564
         },
         {
           "id": 616,
-          "x": 636,
+          "x": 684,
           "y": 564
         },
         {
           "id": 617,
-          "x": 672,
+          "x": 720,
           "y": 540
         },
         {
           "id": 618,
-          "x": 636,
+          "x": 684,
           "y": 516
         },
         {
           "id": 619,
-          "x": 768,
-          "y": 516
-        },
-        {
-          "id": 620,
-          "x": 504,
-          "y": 372
-        },
-        {
-          "id": 621,
-          "x": 588,
-          "y": 444
-        },
-        {
-          "id": 622,
-          "x": 588,
-          "y": 408
-        },
-        {
-          "id": 623,
-          "x": 636,
-          "y": 480
-        },
-        {
-          "id": 624,
-          "x": 636,
-          "y": 444
-        },
-        {
-          "id": 626,
-          "x": 348,
-          "y": 540
-        },
-        {
-          "id": 639,
-          "x": 120,
-          "y": 336
-        },
-        {
-          "id": 640,
-          "x": 120,
-          "y": 372
-        },
-        {
-          "id": 641,
-          "x": 168,
-          "y": 336
-        },
-        {
-          "id": 642,
-          "x": 168,
-          "y": 288
-        },
-        {
-          "id": 643,
-          "x": 216,
-          "y": 336
-        },
-        {
-          "id": 644,
-          "x": 252,
-          "y": 336
-        },
-        {
-          "id": 646,
-          "x": 504,
-          "y": 540
-        },
-        {
-          "id": 661,
-          "x": 456,
-          "y": 252
-        },
-        {
-          "id": 662,
-          "x": 864,
-          "y": 516
-        },
-        {
-          "id": 663,
-          "x": 912,
-          "y": 516
-        },
-        {
-          "id": 664,
           "x": 816,
           "y": 516
         },
         {
+          "id": 620,
+          "x": 552,
+          "y": 372
+        },
+        {
+          "id": 621,
+          "x": 636,
+          "y": 444
+        },
+        {
+          "id": 622,
+          "x": 636,
+          "y": 408
+        },
+        {
+          "id": 623,
+          "x": 684,
+          "y": 480
+        },
+        {
+          "id": 624,
+          "x": 684,
+          "y": 444
+        },
+        {
+          "id": 626,
+          "x": 396,
+          "y": 540
+        },
+        {
+          "id": 639,
+          "x": 168,
+          "y": 360
+        },
+        {
+          "id": 640,
+          "x": 168,
+          "y": 396
+        },
+        {
+          "id": 641,
+          "x": 216,
+          "y": 360
+        },
+        {
+          "id": 642,
+          "x": 168,
+          "y": 324
+        },
+        {
+          "id": 643,
+          "x": 264,
+          "y": 360
+        },
+        {
+          "id": 644,
+          "x": 300,
+          "y": 360
+        },
+        {
+          "id": 646,
+          "x": 552,
+          "y": 540
+        },
+        {
+          "id": 661,
+          "x": 504,
+          "y": 252
+        },
+        {
+          "id": 662,
+          "x": 912,
+          "y": 516
+        },
+        {
+          "id": 663,
+          "x": 960,
+          "y": 516
+        },
+        {
+          "id": 664,
+          "x": 864,
+          "y": 516
+        },
+        {
           "id": 716,
-          "x": 648,
+          "x": 696,
           "y": 144
         },
         {
           "id": 116,
-          "x": 348,
+          "x": 396,
           "y": 60
         },
         {
           "id": 726,
-          "x": 252,
+          "x": 360,
           "y": 540
         },
         {
           "id": 717,
-          "x": 552,
+          "x": 600,
           "y": 336
         },
         {
           "id": 748,
-          "x": 504,
+          "x": 552,
           "y": 336
         },
         {
           "id": 531,
-          "x": 552,
+          "x": 600,
           "y": 288
         },
         {
           "id": 96,
-          "x": 252,
+          "x": 300,
           "y": 60
         },
         {
           "id": 587,
-          "x": 216,
+          "x": 264,
           "y": 60
         },
         {
           "id": 771,
-          "x": 120,
-          "y": 252
+          "x": 168,
+          "y": 216
         },
         {
           "id": 579,
-          "x": 456,
+          "x": 504,
           "y": 372
         },
         {
           "id": 745,
-          "x": 456,
+          "x": 504,
           "y": 336
         },
         {
           "id": 747,
-          "x": 588,
+          "x": 636,
           "y": 336
         },
         {
           "id": 836,
-          "x": 708,
+          "x": 756,
           "y": 336
         },
         {
           "id": 840,
-          "x": 168,
-          "y": 372
+          "x": 216,
+          "y": 396
         },
         {
           "id": 869,
-          "x": 372,
-          "y": 180
+          "x": 420,
+          "y": 144
         },
         {
           "id": 891,
-          "x": 120,
-          "y": 180
+          "x": 132,
+          "y": 216
         },
         {
           "id": 892,
-          "x": 84,
-          "y": 180
+          "x": 132,
+          "y": 252
         },
         {
           "id": 898,
-          "x": 120,
+          "x": 216,
           "y": 216
         },
         {
           "id": 930,
-          "x": 600,
+          "x": 648,
           "y": 252
         },
         {
           "id": 1084,
-          "x": 48,
+          "x": 36,
           "y": 528
         },
         {
           "id": 1090,
-          "x": 84,
-          "y": 288
+          "x": 60,
+          "y": 216
         },
         {
           "id": 1091,
-          "x": 384,
+          "x": 432,
           "y": 576
         },
         {
           "id": 1092,
-          "x": 48,
-          "y": 288
+          "x": 96,
+          "y": 216
         },
         {
           "id": 1094,
-          "x": 384,
+          "x": 432,
           "y": 540
         },
         {
           "id": 1134,
-          "x": 456,
+          "x": 504,
           "y": 540
         },
         {
           "id": 1135,
-          "x": 84,
+          "x": 168,
           "y": 252
         },
         {
           "id": 1136,
-          "x": 456,
+          "x": 504,
           "y": 180
         },
         {
           "id": 1148,
-          "x": 156,
+          "x": 204,
           "y": 60
+        },
+        {
+          "id": 1149,
+          "x": 252,
+          "y": 252
+        },
+        {
+          "id": 673,
+          "x": 300,
+          "y": 252
+        },
+        {
+          "id": 1150,
+          "x": 252,
+          "y": 288
         }
       ]
     },
@@ -115006,17 +115528,17 @@
       "quests": [
         {
           "id": 666,
-          "x": 0,
+          "x": 36,
           "y": 0
         },
         {
           "id": 668,
-          "x": 0,
+          "x": 36,
           "y": 48
         },
         {
           "id": 669,
-          "x": 24,
+          "x": 0,
           "y": 144
         },
         {
@@ -115026,57 +115548,52 @@
         },
         {
           "id": 671,
-          "x": 48,
+          "x": 36,
           "y": 192
         },
         {
           "id": 672,
-          "x": 0,
-          "y": 96
-        },
-        {
-          "id": 673,
-          "x": 48,
+          "x": 36,
           "y": 96
         },
         {
           "id": 667,
-          "x": 180,
+          "x": 216,
           "y": 36
         },
         {
           "id": 674,
-          "x": 276,
+          "x": 312,
           "y": 36
         },
         {
           "id": 675,
-          "x": 228,
+          "x": 264,
           "y": 72
         },
         {
           "id": 676,
-          "x": 228,
+          "x": 264,
           "y": 36
         },
         {
           "id": 490,
-          "x": 96,
+          "x": 132,
           "y": 0
         },
         {
           "id": 677,
-          "x": 180,
+          "x": 216,
           "y": 0
         },
         {
           "id": 866,
-          "x": 180,
+          "x": 216,
           "y": 96
         },
         {
           "id": 874,
-          "x": 96,
+          "x": 132,
           "y": 48
         }
       ]
