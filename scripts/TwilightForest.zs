@@ -32,6 +32,11 @@ recipes.remove(<TwilightForest:item.magicMapFocus>);
 // --- Magic Map
 recipes.remove(<TwilightForest:item.emptyMagicMap>);
 
+// --- Iron Wood raw
+recipes.remove(<TwilightForest:item.ironwoodRaw>);
+// -
+furnace.remove(<TwilightForest:item.ironwoodIngot> * 2);
+
 
 
 // --- Adding Recipes ---
