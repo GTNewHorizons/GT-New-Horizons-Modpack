@@ -111802,6 +111802,356 @@
       "preRequisites": [
         1151
       ]
+    },
+    {
+      "questID": 1157,
+      "name": "Rubber Soft Mallet",
+      "description": "Your wooden soft mallet breaking after a few uses. Now you can make a rubber mallet which is much more durable.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 14,
+        "tag": {
+          "ench:9": [
+            {
+              "lvl:2": 2,
+              "id:2": 19
+            }
+          ],
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Rubber",
+            "MaxDamage:4": 25600,
+            "SecondaryMaterial:8": "Wood"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stick",
+              "Count": 1,
+              "OreDict": "woodStick",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 11880
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 2,
+                    "id:2": 19
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Rubber",
+                  "MaxDamage:4": 25600,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:chickenpotpieItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2880
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        536
+      ]
+    },
+    {
+      "questID": 1158,
+      "name": "Iron Wood",
+      "description": "Ironwood is much more harder and durable for a soft mallet then rubber. Collecting some lieve roots, macerate it and mix the powder with iron and gold to create a new magical material.\n\nYou can make some unique Armor with this material.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.ironwoodIngot",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.liveRoot",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 2832
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 2032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 2086
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 2338
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.ironwoodIngot",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        225
+      ]
+    },
+    {
+      "questID": 1159,
+      "name": "Steeleaf",
+      "description": "If you entered a Labyrinth you can found steeleaf in chests if you lucky.\nThis is the best material for a soft mallet but a unique armor out of steeleaf would be better.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TwilightForest:item.steeleafIngot",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.steeleafIngot",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1158
+      ]
     }
   ],
   "questLines": [
@@ -112645,6 +112995,11 @@
           "id": 1156,
           "x": 0,
           "y": 144
+        },
+        {
+          "id": 1157,
+          "x": 588,
+          "y": 288
         }
       ]
     },
@@ -115008,232 +115363,242 @@
         {
           "id": 224,
           "x": 0,
-          "y": 36
+          "y": 72
         },
         {
           "id": 225,
           "x": 48,
-          "y": 36
+          "y": 72
         },
         {
           "id": 226,
           "x": 264,
-          "y": 36
+          "y": 72
         },
         {
           "id": 229,
           "x": 48,
-          "y": 72
+          "y": 108
         },
         {
           "id": 231,
           "x": 144,
-          "y": 36
+          "y": 72
         },
         {
           "id": 232,
           "x": 300,
-          "y": 36
+          "y": 72
         },
         {
           "id": 230,
           "x": 108,
-          "y": 36
+          "y": 72
         },
         {
           "id": 233,
           "x": 0,
-          "y": 108
+          "y": 144
         },
         {
           "id": 227,
           "x": 180,
-          "y": 36
+          "y": 72
         },
         {
           "id": 234,
           "x": 300,
-          "y": 108
+          "y": 144
         },
         {
           "id": 235,
           "x": 228,
-          "y": 72
+          "y": 108
         },
         {
           "id": 236,
           "x": 264,
-          "y": 72
+          "y": 108
         },
         {
           "id": 237,
           "x": 228,
-          "y": 144
+          "y": 180
         },
         {
           "id": 238,
           "x": 228,
-          "y": 180
+          "y": 216
         },
         {
           "id": 241,
           "x": 48,
-          "y": 108
+          "y": 144
         },
         {
           "id": 242,
           "x": 0,
-          "y": 180
+          "y": 216
         },
         {
           "id": 243,
           "x": 48,
-          "y": 180
+          "y": 216
         },
         {
           "id": 244,
           "x": 144,
-          "y": 264
+          "y": 300
         },
         {
           "id": 246,
           "x": 300,
-          "y": 264
+          "y": 300
         },
         {
           "id": 247,
           "x": 144,
-          "y": 336
+          "y": 372
         },
         {
           "id": 248,
           "x": 300,
-          "y": 336
+          "y": 372
         },
         {
           "id": 249,
           "x": 144,
-          "y": 300
+          "y": 336
         },
         {
           "id": 250,
           "x": 300,
-          "y": 300
+          "y": 336
         },
         {
           "id": 245,
           "x": 228,
-          "y": 300
+          "y": 336
         },
         {
           "id": 251,
           "x": 144,
-          "y": 180
+          "y": 216
         },
         {
           "id": 239,
           "x": 180,
-          "y": 180
+          "y": 216
         },
         {
           "id": 252,
           "x": 180,
-          "y": 216
+          "y": 252
         },
         {
           "id": 253,
           "x": 180,
-          "y": 108
+          "y": 144
         },
         {
           "id": 254,
           "x": 144,
-          "y": 108
+          "y": 144
         },
         {
           "id": 240,
           "x": 180,
-          "y": 144
+          "y": 180
         },
         {
           "id": 256,
           "x": 108,
-          "y": 144
+          "y": 180
         },
         {
           "id": 255,
           "x": 108,
-          "y": 108
+          "y": 144
         },
         {
           "id": 257,
           "x": 180,
-          "y": 72
+          "y": 108
         },
         {
           "id": 258,
           "x": 264,
-          "y": 216
+          "y": 252
         },
         {
           "id": 259,
           "x": 264,
-          "y": 180
+          "y": 216
         },
         {
           "id": 610,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
           "id": 798,
           "x": 228,
-          "y": 108
+          "y": 144
         },
         {
           "id": 1002,
           "x": 48,
-          "y": 144
+          "y": 180
         },
         {
           "id": 1070,
           "x": 48,
-          "y": 0
+          "y": 36
         },
         {
           "id": 1071,
           "x": 0,
-          "y": 0
+          "y": 36
         },
         {
           "id": 1096,
           "x": 228,
-          "y": 36
+          "y": 72
         },
         {
           "id": 1100,
           "x": 264,
-          "y": 144
+          "y": 180
         },
         {
           "id": 1101,
           "x": 300,
-          "y": 144
+          "y": 180
         },
         {
           "id": 1103,
           "x": 336,
-          "y": 144
+          "y": 180
         },
         {
           "id": 1104,
           "x": 300,
-          "y": 180
+          "y": 216
         },
         {
           "id": 1106,
-          "x": 108,
+          "x": 144,
+          "y": 36
+        },
+        {
+          "id": 1159,
+          "x": 84,
           "y": 0
+        },
+        {
+          "id": 1158,
+          "x": 84,
+          "y": 36
         }
       ]
     },
