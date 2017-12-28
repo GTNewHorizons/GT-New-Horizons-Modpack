@@ -110166,7 +110166,7 @@
     {
       "questID": 1145,
       "name": "HV EV Tranformator",
-      "description": "Gregtech Cables will not connect to IC2 machines so you need transformers to convert the energy. The best way is building two transformers and a battery buffer to store the generated energy in batteries or energy cells. Take a cable down to the surface or your base will lose a lot of energy.\n\nBe careful IC2 machines do not care about rain but your GT machines will explode violently if exposed to water.\n\nIt is also important to transfer the power up, not down, to avoid explosions if the rotor generates more than 120 EU/t. It is not recommenend to use better rotors than the iron ones on HV tier.",
+      "description": "Gregtech cables will not connect to IC2 machines so you need transformers to convert the energy. The best way is building two transformers and a battery buffer to store the generated energy in batteries or energy cells. The longer the cable the more energy will be lost at low tiers. So use high tier voltages when transporting energy over long distances.\n\nBe careful; IC2 machines do not care about rain but your GT machines will explode violently if exposed to water.\n\nIt is also important to transfer the power up, not down, to avoid explosions if the rotor generates more than 120 EU/t. It is not recommenend to use better rotors than the iron ones on HV tier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
