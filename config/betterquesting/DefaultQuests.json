@@ -60458,7 +60458,7 @@
     {
       "questID": 673,
       "name": "LV extruder",
-      "description": "The extruder is not very useful in the LV age. But it will extrude your next tier of boat or make some tinkers construc toolpParts.",
+      "description": "The extruder is not very useful in the LV age. But it will extrude your next tier of boat or make some Tinkers Construct tool parts.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72760,7 +72760,7 @@
     {
       "questID": 789,
       "name": "Energy Crystals",
-      "description": "Make energy crystals out of ruby and redstone dusts in the MV mixer. Energy crystals can store 1 million EU and works as a HV battery.",
+      "description": "Make energy crystals out of ruby and redstone dusts in the MV mixer. Energy crystals can store 1 million EU and work as an HV battery.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81253,7 +81253,7 @@
     {
       "questID": 862,
       "name": "Your first bow",
-      "description": "Since vanilla bows are only craftable in the assembling machine and mobs do not drop them very often you have to make a Tinkers bow. Wood would be the best material for now.  So craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Using a flint tip to make it repair able with flint.\n\nYou can repair your bow the same way as all the other Tinkers tools. Arrows can be regained by repairing them or picking them up from the floor.",
+      "description": "Since vanilla bows are only craftable in the assembling machine and mobs do not drop them very often you have to make a Tinkers bow. Wood would be the best material for now.  So craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.\n\nYou can repair your bow the same way as all the other Tinkers tools. Arrows can be regained by repairing them or picking them up from the floor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108958,7 +108958,7 @@
     {
       "questID": 1134,
       "name": "LV Advanced Steam Boiler",
-      "description": "The LV Gt++ Steam Boiler is the next machine you can build to produce steam more efficient then with the High Pressure Boiler.",
+      "description": "The LV Gt++ Steam Boiler is the next machine you can build to produce steam more efficient than with the High Pressure Boiler.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109047,7 +109047,7 @@
     {
       "questID": 1135,
       "name": "ULV Transformer",
-      "description": "To get your simple Ore washer working you need a ULV Transformer. The Washer can only working with 8 EU. If you put more into energy in to it you get a big hole in your base.",
+      "description": "To get your simple ore washer working you need a ULV Transformer. The Washer can only work with 8 EU. If you put more into energy into it you get a big hole in your base.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109125,7 +109125,7 @@
     {
       "questID": 1136,
       "name": "Lossless LV Cables",
-      "description": "How about Losless 32 eu Lv Cables ? Redstone alloy is a superconductor wire and will transfer your energy without any loss.\nRedalloy is a new Alloy you need the EBF for it. Mixing Redstone, Silicon and Coal with hand or in the mixer with a better output.",
+      "description": "How about losless 32 EU LV Cables ? Redstone alloy is a superconductor wire and will transfer your energy without any loss.\nRedalloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109269,7 +109269,7 @@
     {
       "questID": 1137,
       "name": "Kinetic Power",
-      "description": "The Kinetic Generator will transform mechanical energy to electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator, Kinetic Water Generator  or a Kinetic Steam Generator.",
+      "description": "The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator, Kinetic Water Generator  or a Kinetic Steam Generator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109794,7 +109794,7 @@
     {
       "questID": 1141,
       "name": "Wind Meter",
-      "description": "The Windmeter measures wind strength. It show\u0027s you on which high you can place your Wind Generator.",
+      "description": "The Windmeter measures wind strength. It show\u0027s you on which height you can place your Wind Generator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110166,7 +110166,7 @@
     {
       "questID": 1145,
       "name": "HV EV Tranformator",
-      "description": "Gregtech Cables not connect to Ic2 machines so you need transformers to store the energy. The best way is building two transformers and a battery buffer to story the generated energy in batteries or energy cells. Take a cable down to the surface or your base will loose a lot of energy.\n\nBe carful Ic2 machines not take care about rain but your gt machines will badly explode if added to water.\n\nIt is important also to transfer the power up not down to avoid explosions if the rotor generate more then 120 eu/t. It is not recommenend to use better rotors then the iron ones on hv tier.",
+      "description": "Gregtech cables will not connect to IC2 machines so you need transformers to convert the energy. The best way is building two transformers and a battery buffer to store the generated energy in batteries or energy cells. The longer the cable the more energy will be lost at low tiers. So use high tier voltages when transporting energy over long distances.\n\nBe careful; IC2 machines do not care about rain but your GT machines will explode violently if exposed to water.\n\nIt is also important to transfer the power up, not down, to avoid explosions if the rotor generates more than 120 EU/t. It is not recommenend to use better rotors than the iron ones on HV tier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110261,7 +110261,7 @@
     {
       "questID": 1146,
       "name": "GT 6 styled Pipes",
-      "description": "Maybe you wondering why the new pipes not auto-connect anymore? Yes this was changed to make the pipe more smart. You can now use a wrench to conneting the pipes you want and dont need a plate or a foil anymore. Shift klick on the end of the pipes will disable the  fluid input from this side. This is super handy to prevent Coal Boilers from put back steamin in water pipes. \n\nHint: If you click one Pipe on the other they will auto-connect.",
+      "description": "Maybe you are wondering why the new pipes don\u0027t auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don\u0027t need a plate or a foil to prevent pipes from connecting anymore. Shift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nHint: If you click one pipe onto the other they will auto-connect.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110357,7 +110357,7 @@
     {
       "questID": 1147,
       "name": "GT 6 styled Wires and Cables",
-      "description": "Maybe you wondering why the new wires and cables not auto-connect anymore? Well that was changed to make the wires and cables more smart. You have to using a wirecutter to connect the wires and  cable to which side you want. No cable burns or wrongly connected wires and cables in the future anymore.\n\nHint: If you click one wire or cable on the other it will auto-connect. ",
+      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.\n\nHint: If you click one wire or cable on the other it will auto-connect. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110458,7 +110458,7 @@
     {
       "questID": 1148,
       "name": "MV Machine hull",
-      "description": "The next tier of Machine Hull needs aluminium, alot of aluminium. Let your EBF running and cook some Aluminium.",
+      "description": "The next tier of machine hull needs aluminium, a lot of aluminium. Keep your EBF running and make some aluminium.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -110529,8 +110529,8 @@
     },
     {
       "questID": 1149,
-      "name": "A new Alloy Magnalium",
-      "description": "You wondering why you need magnalium now? Well not for Gt machines right now but for an material update for your Crossbow.\nIt\u0027s a very good material in LV Tier. Go to the Twilight Forest and Find some Olivine/Glauconite Vein lokated at Y 10-40 or on the Overworld a Glauconite Soapstone mix located at Y  20-50 and a Granitic Mineral Vein on the Overworld Located at Y 50-60 (The Gypsum vein you need for The Bricked Blast Furnace).\nWith your Ore Washer you can get Magnesium and Aluminium out of the Ores (Magnesite for Magnesium and Fullers Earth for Aluminium) and mix it in the Alloy smelter to Magnalium.\nMagnesite gives 10 tiny piles of Magnesium each dust but fullers earth gives only a tiny pipe of Aluminium.",
+      "name": "A new alloy Magnalium",
+      "description": "You wonder why you need magnalium now? It\u0027s not for GT machines right now but for a material update for your crossbow.\nIt\u0027s a very good material in LV Tier. Go to the Twilight Forest and find an Olivine/Glauconite vein located at Y 10-40 or in the Overworld a Glauconite Soapstone mix located at Y 20-50 and a Granitic Mineral Vein in the Overworld Located at Y 50-60 (The Gypsum vein you will need for the Bricked Blast Furnace).\nWith your Ore Washer you can get Magnesium and Aluminium out of the Ores (Magnesite for Magnesium and Fullers Earth for Aluminium) and mix it in the Alloy smelter to Magnalium.\nMagnesite gives 10 tiny piles of Magnesium each dust but fullers earth gives only a tiny pile of Aluminium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110821,7 +110821,7 @@
     {
       "questID": 1151,
       "name": "Wooden Crosbow",
-      "description": "Now you are able to do a better long range weaopon a crossbow. Using Wood for the the Crossbow Limb and the Body and using Obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.",
+      "description": "Now you are able to make a better long range weapon; a crossbow. Use wood for the the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111030,7 +111030,7 @@
     {
       "questID": 1152,
       "name": "Fiery Bowstring",
-      "description": "Why not upgrading your Bowstring too. If you not find any Fiery Strings in the Nether you got some from the last quest. Crafting some Fiery Bowstring with it.",
+      "description": "Why not upgrade your bowstring too?. If you cannnot find any fiery strings in the Nether you got some from the last quest. Craft some fiery bowstring with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111143,7 +111143,7 @@
     {
       "questID": 1153,
       "name": "Ardite Crossbow Body",
-      "description": "To make you Crossbow even better crafting some ardite Crossbow Body. You got a few Ardite Ingots as reward before.\nWith Redstone you can make your Bow more faster. A free modifier is needed for it.",
+      "description": "To make your crossbow even better craft an ardite crossbow body. You received a few ardite ingots as reward before.\nWith redstone you can make your bow faster. This requires a free modifier slot on your crossbow.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111256,7 +111256,7 @@
     {
       "questID": 1154,
       "name": "Magnalium Crossbow Bolts",
-      "description": "Magnalium Bolts are much better then your old Wooden Bolts.\nYou can using Nether Quarts on the Bolts to make it even better. \nA free modifier is needed.",
+      "description": "Magnalium bolts are much better than your old wooden bolts.\nYou can use nether quartz on the bolts to make them even better. \nThis requires a free modifier slot.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111478,7 +111478,7 @@
     {
       "questID": 1155,
       "name": "Basic Fluid Solidifier",
-      "description": "To get your molten fluids back to a solid state you need a Fluid solidifier. It is used for Crobow bolts as well.",
+      "description": "To get your molten fluids back to a solid state you need a fluid solidifier. It is used for crossbow bolts as well.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111597,7 +111597,7 @@
     {
       "questID": 1156,
       "name": "Iron Bolts",
-      "description": "Your Crossbow need some Ammo to shot with. Lets craft some Wooden Blots with an iron tip.",
+      "description": "Your crossbow need some ammo to shoot with. Let\u0027s craft some wooden bolts with an iron tip.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111806,7 +111806,7 @@
     {
       "questID": 1157,
       "name": "Rubber Soft Mallet",
-      "description": "Your wooden soft mallet breaking after a few uses. Now you can make a rubber mallet which is much more durable.",
+      "description": "Your wooden soft mallet breaks after a few uses. Now you can make a rubber mallet which is much more durable.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111939,7 +111939,7 @@
     {
       "questID": 1158,
       "name": "Iron Wood",
-      "description": "Ironwood is much more harder and durable for a soft mallet then rubber. Collecting some lieve roots, macerate it and mix the powder with iron and gold to create a new magical material.\n\nYou can make some unique Armor with this material.",
+      "description": "Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot, macerate it and mix the powder with iron and gold to create a new magical material.\n\nYou can make some unique armor with this material.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112079,7 +112079,7 @@
     {
       "questID": 1159,
       "name": "Steeleaf",
-      "description": "If you entered a Labyrinth you can found steeleaf in chests if you lucky.\nThis is the best material for a soft mallet but a unique armor out of steeleaf would be better.",
+      "description": "If you locate a labyrinth you may find steeleaf in chests inside if you are lucky.\nThis is the best material for a soft mallet, however a unique armor out of steeleaf would be an even better use for this material.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
