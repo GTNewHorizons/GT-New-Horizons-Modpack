@@ -18054,8 +18054,7 @@
         }
       ],
       "preRequisites": [
-        176,
-        274
+        176
       ]
     },
     {
@@ -45810,7 +45809,7 @@
     {
       "questID": 531,
       "name": "Scanning bees, crops and moooooore!",
-      "description": "Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production.",
+      "description": "Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production. Data sticks with raw prospecting date need a scanner too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
