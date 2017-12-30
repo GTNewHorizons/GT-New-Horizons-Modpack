@@ -50186,21 +50186,6 @@
             }
           ],
           "taskID": "bq_standard:crafting"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.99",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 810
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -90736,7 +90721,8 @@
         }
       ],
       "preRequisites": [
-        89
+        103,
+        95
       ]
     },
     {
@@ -90796,7 +90782,7 @@
         }
       ],
       "preRequisites": [
-        89
+        103
       ]
     },
     {
@@ -90856,7 +90842,8 @@
         }
       ],
       "preRequisites": [
-        89
+        103,
+        93
       ]
     },
     {
@@ -90916,7 +90903,8 @@
         }
       ],
       "preRequisites": [
-        89
+        103,
+        91
       ]
     },
     {
@@ -90976,7 +90964,8 @@
         }
       ],
       "preRequisites": [
-        89
+        103,
+        92
       ]
     },
     {
@@ -91036,7 +91025,8 @@
         }
       ],
       "preRequisites": [
-        89
+        103,
+        530
       ]
     },
     {
@@ -91096,7 +91086,8 @@
         }
       ],
       "preRequisites": [
-        89
+        103,
+        529
       ]
     },
     {
@@ -91673,6 +91664,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 5,
               "OreDict": "",
@@ -91732,6 +91729,12 @@
           "consume": true,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinChemist",
               "Count": 25,
@@ -91793,6 +91796,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 7,
               "OreDict": "",
@@ -91852,6 +91861,12 @@
           "consume": true,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 5,
@@ -91913,6 +91928,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 7,
               "OreDict": "",
@@ -91973,6 +91994,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemist",
               "Count": 25,
               "OreDict": "",
@@ -92032,6 +92059,12 @@
           "consume": true,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinChemist",
               "Count": 25,
@@ -92153,6 +92186,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemist",
               "Count": 25,
               "OreDict": "",
@@ -92212,6 +92251,12 @@
           "consume": true,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinChemist",
               "Count": 25,
@@ -92273,6 +92318,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 7,
               "OreDict": "",
@@ -92332,6 +92383,12 @@
           "consume": true,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinChemistII",
               "Count": 1,
@@ -99181,6 +99238,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemist",
               "Count": 25,
               "OreDict": "",
@@ -99247,6 +99310,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 7,
               "OreDict": "",
@@ -99312,6 +99381,12 @@
           "consume": true,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 7,
@@ -112152,6 +112227,410 @@
       "preRequisites": [
         1158
       ]
+    },
+    {
+      "questID": 1160,
+      "name": "Empty Cells",
+      "description": "With your Plate bender you are able to make empty cells. The Circuit need to configured to 12 otherwise you make foil.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemCellEmpty",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 17057
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11880
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        105
+      ]
+    },
+    {
+      "questID": 1161,
+      "name": "Redalloy Cable",
+      "description": "Want some redalloy cable? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 24000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2006
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 2006
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        67
+      ]
+    },
+    {
+      "questID": 1162,
+      "name": "Tin Cable",
+      "description": "Want some tin cable? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 24000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1246
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1246
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        67
+      ]
+    },
+    {
+      "questID": 1163,
+      "name": "Copper Wire",
+      "description": "Want some coper wires? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 24000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1360
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1360
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        67
+      ]
+    },
+    {
+      "questID": 1164,
+      "name": "Universal Macerator",
+      "description": "One of the important machines in HV will be the Universal Macerator. It have an additional slot for output when macerating Ores.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 681
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 303
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        931,
+        160
+      ]
+    },
+    {
+      "questID": 1165,
+      "name": "Rubber Ingots",
+      "description": "Want some rubber ingots? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 24000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11880
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11880
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        69
+      ]
     }
   ],
   "questLines": [
@@ -113449,7 +113928,7 @@
         },
         {
           "id": 579,
-          "x": 360,
+          "x": 336,
           "y": 252
         },
         {
@@ -113574,8 +114053,13 @@
         },
         {
           "id": 1155,
-          "x": 360,
+          "x": 336,
           "y": 288
+        },
+        {
+          "id": 1160,
+          "x": 396,
+          "y": 492
         }
       ]
     },
@@ -114121,62 +114605,62 @@
         },
         {
           "id": 163,
-          "x": 444,
+          "x": 492,
           "y": 120
         },
         {
           "id": 165,
-          "x": 348,
+          "x": 396,
           "y": 120
         },
         {
           "id": 167,
-          "x": 252,
+          "x": 324,
           "y": 156
         },
         {
           "id": 168,
-          "x": 348,
+          "x": 396,
           "y": 156
         },
         {
           "id": 169,
-          "x": 396,
+          "x": 444,
           "y": 120
         },
         {
           "id": 166,
-          "x": 252,
+          "x": 324,
           "y": 120
         },
         {
           "id": 170,
-          "x": 444,
+          "x": 492,
           "y": 24
         },
         {
           "id": 171,
-          "x": 252,
+          "x": 348,
           "y": 228
         },
         {
           "id": 172,
-          "x": 300,
+          "x": 396,
           "y": 228
         },
         {
           "id": 173,
-          "x": 348,
+          "x": 444,
           "y": 228
         },
         {
           "id": 174,
-          "x": 348,
+          "x": 444,
           "y": 276
         },
         {
           "id": 175,
-          "x": 396,
+          "x": 492,
           "y": 228
         },
         {
@@ -114217,7 +114701,7 @@
         {
           "id": 932,
           "x": 192,
-          "y": 72
+          "y": 36
         },
         {
           "id": 859,
@@ -114281,47 +114765,47 @@
         },
         {
           "id": 988,
-          "x": 444,
+          "x": 492,
           "y": 72
         },
         {
           "id": 989,
-          "x": 252,
+          "x": 324,
           "y": 72
         },
         {
           "id": 141,
-          "x": 396,
+          "x": 444,
           "y": 72
         },
         {
           "id": 998,
-          "x": 396,
+          "x": 444,
           "y": 24
         },
         {
           "id": 999,
-          "x": 348,
+          "x": 396,
           "y": 24
         },
         {
           "id": 1000,
-          "x": 252,
+          "x": 324,
           "y": 24
         },
         {
           "id": 1001,
-          "x": 300,
+          "x": 360,
           "y": 24
         },
         {
           "id": 146,
-          "x": 300,
+          "x": 360,
           "y": 120
         },
         {
           "id": 144,
-          "x": 300,
+          "x": 360,
           "y": 156
         },
         {
@@ -114403,6 +114887,11 @@
           "id": 1145,
           "x": 0,
           "y": 276
+        },
+        {
+          "id": 1164,
+          "x": 228,
+          "y": 72
         }
       ]
     },
@@ -115211,6 +115700,26 @@
           "id": 1080,
           "x": 492,
           "y": 0
+        },
+        {
+          "id": 1161,
+          "x": 588,
+          "y": 60
+        },
+        {
+          "id": 1162,
+          "x": 624,
+          "y": 60
+        },
+        {
+          "id": 1163,
+          "x": 660,
+          "y": 60
+        },
+        {
+          "id": 1165,
+          "x": 696,
+          "y": 60
         }
       ]
     },
