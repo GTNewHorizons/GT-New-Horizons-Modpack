@@ -1869,6 +1869,26 @@ Extruder.addRecipe(<IC2:itemBoat:1>, <gregtech:gt.metaitem.01:11880> * 4, <dream
 // --- Electric Boat Hull
 Extruder.addRecipe(<dreamcraft:item.ElectricBoatHull>, <minecraft:iron_ingot> * 8, <dreamcraft:item.ExtruderShapeBoat> * 0, 1200, 30);
 
+// --- Mining Pipe
+Extruder.addRecipe(<IC2:blockMiningPipe>, <gregtech:gt.blockmachines:5130>, <gregtech:gt.metaitem.01:32358> * 0, 1, 64);
+// -
+Extruder.addRecipe(<IC2:blockMiningPipe> * 2, <gregtech:gt.blockmachines:5131>, <gregtech:gt.metaitem.01:32358> * 0, 4, 64);
+// -
+Extruder.addRecipe(<IC2:blockMiningPipe> * 4, <gregtech:gt.blockmachines:5132>, <gregtech:gt.metaitem.01:32358> * 0, 8, 64);
+// -
+Extruder.addRecipe(<IC2:blockMiningPipe> * 8, <gregtech:gt.blockmachines:5133>, <gregtech:gt.metaitem.01:32358> * 0, 16, 64);
+// -
+Extruder.addRecipe(<IC2:blockMiningPipe> * 16, <gregtech:gt.blockmachines:5134>, <gregtech:gt.metaitem.01:32358> * 0, 32, 64);
+// -
+Extruder.addRecipe(<IC2:blockMiningPipe> * 8, <gregtech:gt.blockmachines:5140>, <gregtech:gt.metaitem.01:32358> * 0, 4, 120);
+// -
+Extruder.addRecipe(<IC2:blockMiningPipe> * 16, <gregtech:gt.blockmachines:5141>, <gregtech:gt.metaitem.01:32358> * 0, 8, 120);
+// -
+Extruder.addRecipe(<IC2:blockMiningPipe> * 32, <gregtech:gt.blockmachines:5142>, <gregtech:gt.metaitem.01:32358> * 0, 16, 120);
+// -
+Extruder.addRecipe(<IC2:blockMiningPipe> * 64, <gregtech:gt.blockmachines:5143>, <gregtech:gt.metaitem.01:32358> * 0, 32, 120);
+
+
 
 
 // --- Fluid Canner Recipes
@@ -1968,9 +1988,24 @@ Polarizer.addRecipe(<IC2:itemStaticBoots>, <minecraft:iron_boots>,  600, 30);
 
 
 // --- Mining Pipe
-Wiremill.addRecipe(<IC2:blockMiningPipe>, <gregtech:gt.blockmachines:5130>, 200, 16);
+Wiremill.addRecipe(<IC2:blockMiningPipe>, <gregtech:gt.blockmachines:5130>, 100, 4);
+// -
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 2, <gregtech:gt.blockmachines:5131>, 150, 8);
+// -
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 4, <gregtech:gt.blockmachines:5132>, 200, 16);
+// -
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 8, <gregtech:gt.blockmachines:5133>, 250, 30);
+// -
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 16, <gregtech:gt.blockmachines:5134>, 300, 64);
+// -
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 8, <gregtech:gt.blockmachines:5140>, 200, 64);
+// -
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 16, <gregtech:gt.blockmachines:5141>, 250, 96);
+// -
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 32, <gregtech:gt.blockmachines:5142>, 300, 120);
+// -
+Wiremill.addRecipe(<IC2:blockMiningPipe> * 64, <gregtech:gt.blockmachines:5143>, 350, 256);
 
-Wiremill.addRecipe(<IC2:blockMiningPipe> * 2, <gregtech:gt.blockmachines:5131>, 400, 30);
 
 
 
