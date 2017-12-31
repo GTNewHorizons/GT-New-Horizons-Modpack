@@ -46,6 +46,11 @@
 	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 300"/>
 	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 300 §4Blast Resistance 420"/>
 	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 600 §4Blast Resistance 500"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunckloader Coin"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunckloader Coin"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIII" ToolTip="§248H Chunckloader Coin"/>
+	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunckloader Use in Personal or Passive Chunckloader"/>
+	
 
 //Gregtech	
 	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace"/>
