@@ -64774,8 +64774,8 @@
     },
     {
       "questID": 716,
-      "name": "Find some Quartz",
-      "description": "The Nether is full of different kinds of quartz. Go and find a quartzite and certus quartz vein. It is located between Y level 40-80.",
+      "name": "Find some Certus Quartz",
+      "description": "The Nether is full of different kinds of quartz but for the Emitter and the Sensor you need Certus Quartz.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -64806,22 +64806,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockores",
-              "Count": 32,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 1523
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 1904
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 1516
+              "Damage": 8516
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -64831,16 +64819,10 @@
         {
           "rewards": [
             {
-              "id": "harvestcraft:heartybreakfastItem",
-              "Count": 1,
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 5,
               "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "harvestcraft:meatfeastpizzaItem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
+              "Damage": 32107
             }
           ],
           "rewardID": "bq_standard:item"
@@ -64848,22 +64830,22 @@
         {
           "choices": [
             {
-              "id": "minecraft:nether_wart",
-              "Count": 16,
+              "id": "minecraft:glowstone_dust",
+              "Count": 8,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "minecraft:ghast_tear",
+              "id": "minecraft:blaze_powder",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "minecraft:blaze_rod",
-              "Count": 2,
+              "id": "Natura:barleyFood",
+              "Count": 3,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 7
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -112619,6 +112601,124 @@
       "preRequisites": [
         69
       ]
+    },
+    {
+      "questID": 1166,
+      "name": "Quartz and Barite Vein",
+      "description": "The Nether is full of different kinds of quartz. Go and find a quartzite and certus quartz vein. It is located between Y level 40-80.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:quartz_ore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1523
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1904
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1516
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:heartybreakfastItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:meatfeastpizzaItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "minecraft:nether_wart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ghast_tear",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:blaze_rod",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        716
+      ]
     }
   ],
   "questLines": [
@@ -114048,6 +114148,11 @@
           "id": 1160,
           "x": 396,
           "y": 492
+        },
+        {
+          "id": 1166,
+          "x": 726,
+          "y": 144
         }
       ]
     },
