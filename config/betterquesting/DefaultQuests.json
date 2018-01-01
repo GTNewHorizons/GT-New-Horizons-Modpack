@@ -54509,7 +54509,7 @@
     {
       "questID": 618,
       "name": "Sulfuric acid",
-      "description": "Combining hydrogen sulfide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. If you have made some light or heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can always make sulfuric acid with some sulfur and water in the chemical reactor.",
+      "description": "Combining sulfur trioxide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. If you have made some light or heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can always make sulfuric acid with some sulfur and water in the chemical reactor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54753,8 +54753,7 @@
         }
       ],
       "preRequisites": [
-        609,
-        579
+        609
       ]
     },
     {
@@ -54855,7 +54854,7 @@
         }
       ],
       "preRequisites": [
-        609
+        1168
       ]
     },
     {
@@ -54956,8 +54955,7 @@
         }
       ],
       "preRequisites": [
-        542,
-        609
+        1167
       ]
     },
     {
@@ -55156,9 +55154,9 @@
         }
       ],
       "preRequisites": [
-        622,
-        621,
-        623
+        623,
+        1167,
+        1168
       ]
     },
     {
@@ -107878,7 +107876,7 @@
           "requiredItems": [
             {
               "id": "Forestry:impregnatedCasing",
-              "Count": 216,
+              "Count": 27,
               "OreDict": "",
               "Damage": 0
             },
@@ -112713,6 +112711,148 @@
       "preRequisites": [
         716
       ]
+    },
+    {
+      "questID": 1167,
+      "name": "Lithium",
+      "description": "Lithium can washed out of Lepidolite Ore or centrifuged out od Spondumene Ore.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2006
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2006
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:coleslawburgerItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        609
+      ]
+    },
+    {
+      "questID": 1168,
+      "name": "Sodium",
+      "description": "Sodium can be washed out of Glauconite Ore and Sand. A second source is electrolyze it out of salt.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2017
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2017
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32224
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        609
+      ]
     }
   ],
   "questLines": [
@@ -113885,13 +114025,13 @@
         },
         {
           "id": 621,
-          "x": 636,
+          "x": 648,
           "y": 444
         },
         {
           "id": 622,
-          "x": 636,
-          "y": 408
+          "x": 600,
+          "y": 372
         },
         {
           "id": 623,
@@ -113901,7 +114041,7 @@
         {
           "id": 624,
           "x": 684,
-          "y": 444
+          "y": 408
         },
         {
           "id": 626,
@@ -114147,6 +114287,16 @@
           "id": 1166,
           "x": 726,
           "y": 144
+        },
+        {
+          "id": 1167,
+          "x": 600,
+          "y": 408
+        },
+        {
+          "id": 1168,
+          "x": 600,
+          "y": 444
         }
       ]
     },
