@@ -93572,7 +93572,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "OR",
+      "logic": "AND",
       "taskLogic": "AND",
       "icon": {
         "id": "Forestry:beeCombs",
@@ -93813,7 +93813,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "OR",
+      "logic": "AND",
       "taskLogic": "AND",
       "icon": {
         "id": "Forestry:craftingMaterial",
