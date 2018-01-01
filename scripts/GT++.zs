@@ -16,6 +16,21 @@
 // --- Thermal Boiler
 recipes.remove(<gregtech:gt.blockmachines:875>);
 
+// --- LV Component Assembler
+recipes.remove(<gregtech:gt.blockmachines:985>);
+
+// --- MV Component Assembler
+recipes.remove(<gregtech:gt.blockmachines:986>);
+
+// --- HV Component Assembler
+recipes.remove(<gregtech:gt.blockmachines:987>);
+
+// --- EV Component Assembler
+recipes.remove(<gregtech:gt.blockmachines:988>);
+
+// --- IV Component Assembler
+recipes.remove(<gregtech:gt.blockmachines:989>);
+
 
 
 // --- Add Recipes ---
