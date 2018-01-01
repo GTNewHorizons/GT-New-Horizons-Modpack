@@ -2162,7 +2162,7 @@ mods.thaumcraft.Arcane.addShaped("ENDERTANK", <EnderStorage:enderChest:4096>, "a
 [<gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:22801>]]);
 mods.thaumcraft.Research.addArcanePage("ENDERTANK", <EnderStorage:enderChest:4096>);
 
-// --- Ender Pouche Arcane
+// --- Ender Pouch Arcane
 mods.thaumcraft.Research.addResearch("ENDERPOUCHE", "NEWHORIZONS", "lucrum 15, vitreus 15, metallum 12, electrum 9, machina 6, alienis 3, ", -4, 4, 4, <EnderStorage:enderPouch>);
 game.setLocalization("tc.research_name.ENDERPOUCHE", "Ender Pouch");
 game.setLocalization("tc.research_text.ENDERPOUCHE", "[EC] Oh, its more magical than a Backpack!");

@@ -1433,13 +1433,13 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 
 
 //--- Seismic Prospector LV
-<gregtech:gt.blockmachines:1156>.addTooltip(format.green("Work Area 16 Blocks Radius = 4 Chunks"));
+<gregtech:gt.blockmachines:1156>.addTooltip("Work Area 16 Blocks Radius = 4 Chunks");
 
 //--- Seismic Prospector MV
-<gregtech:gt.blockmachines:2100>.addTooltip(format.green("Work Area 32 Blocks Radius = 16 Chunks"));
+<gregtech:gt.blockmachines:2100>.addTooltip("Work Area 32 Blocks Radius = 16 Chunks");
 
 //--- Seismic Prospector HV
-<gregtech:gt.blockmachines:2101>.addTooltip(format.green("Work Area 48 Blocks Radius = 36 Chunks"));
+<gregtech:gt.blockmachines:2101>.addTooltip("Work Area 48 Blocks Radius = 36 Chunks");
 
 //--- Seismic Prospector EV
-<gregtech:gt.blockmachines:1173>.addTooltip(format.green("Work Area 128 Blocks Radius = 256 Chunks"));
+<gregtech:gt.blockmachines:1173>.addTooltip("Work Area 128 Blocks Radius = 256 Chunks");

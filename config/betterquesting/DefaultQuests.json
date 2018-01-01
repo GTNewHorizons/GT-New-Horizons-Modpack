@@ -54661,7 +54661,7 @@
     {
       "questID": 620,
       "name": "IC2 Battery",
-      "description": "Some recipes require IC2 batteries. Fill your small battery hull with some molten redstone and you will get your RE-Battery.",
+      "description": "Some recipes require IC2 batteries. Fill your small battery hull with some molten redstone and you will get your RE-Battery. Be careful molten cells will hurt you.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54726,16 +54726,10 @@
         {
           "rewards": [
             {
-              "id": "IC2:itemFluidCell",
+              "id": "gregtech:gt.metaitem.99",
               "Count": 16,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "molten.redstone",
-                  "Amount:4": 1000
-                }
-              }
+              "Damage": 810
             },
             {
               "id": "minecraft:bread",
