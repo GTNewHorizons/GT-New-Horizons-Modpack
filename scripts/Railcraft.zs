@@ -1075,9 +1075,9 @@ recipes.addShaped(<Railcraft:machine.epsilon:4>, [
 
 // --- Force Track Emitter ---
 recipes.addShaped(<Railcraft:machine.epsilon:3>, [
-[IridiumPlate, DiamondLens, IridiumPlate],
-[DiamondLens, <ore:batteryUltimate>, DiamondLens],
-[IridiumPlate, DiamondLens, IridiumPlate]]);
+[DiamondLens, <ore:circuitAdvanced>, DiamondLens],
+[<gregtech:gt.metaitem.01:32682>, <gregtech:gt.blockmachines:13>, <gregtech:gt.metaitem.01:32682>],
+[<ore:cableGt01Gold>, <ore:circuitAdvanced>, <ore:cableGt01Gold>]]);
 
 // --- Work Cart ---
 recipes.addShaped(<Railcraft:cart.work>, [
