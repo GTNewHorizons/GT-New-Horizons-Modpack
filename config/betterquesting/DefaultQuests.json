@@ -53051,12 +53051,12 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:ender_pearl",
-              "Count": 32,
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             }
@@ -112853,6 +112853,186 @@
       "preRequisites": [
         609
       ]
+    },
+    {
+      "questID": 1169,
+      "name": "Bath Salt",
+      "description": "Oh you feel so dirty. Go and take a bath.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 360000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemBathSalts",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemBathSalts",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1097
+      ]
+    },
+    {
+      "questID": 1170,
+      "name": "Bath Salt",
+      "description": "Oh you feel so dirty. Go and take the soap and go showering.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 720000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemSanitySoap",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemSanitySoap",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1099
+      ]
+    },
+    {
+      "questID": 1171,
+      "name": "Damascus Steel Ingots",
+      "description": "Damascus Steel is very durable und usefull for GT tools. Buy some.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 72000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11335
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11335
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
     }
   ],
   "questLines": [
@@ -115957,6 +116137,21 @@
           "id": 1165,
           "x": 696,
           "y": 60
+        },
+        {
+          "id": 1169,
+          "x": 588,
+          "y": 360
+        },
+        {
+          "id": 1170,
+          "x": 624,
+          "y": 360
+        },
+        {
+          "id": 1171,
+          "x": 624,
+          "y": 0
         }
       ]
     },
