@@ -344,13 +344,13 @@ mods.thaumcraft.Aspects.set(<IC2:itemPartIridium>, "metallum 8, fabrico 4, machi
 mods.thaumcraft.Aspects.set(<IC2:itemToolMEter>, "fabrico 15, instrumentum 6, cognitio 2, lux 2");
 
 // --- OD Scanner
-mods.thaumcraft.Aspects.set(<IC2:itemScanner:1>, "fabrico 18, instrumentum 8, cognitio 4, lux 4");
+mods.thaumcraft.Aspects.set(<IC2:itemScanner>, "fabrico 18, instrumentum 8, cognitio 4, lux 4");
 
 // --- OV Scanner
-mods.thaumcraft.Aspects.set(<IC2:itemScannerAdv:1>, "fabrico 10, instrumentum 10, cognitio 6, lux 6");
+mods.thaumcraft.Aspects.set(<IC2:itemScannerAdv>, "fabrico 10, instrumentum 10, cognitio 6, lux 6");
 
 // --- Obscurator
-mods.thaumcraft.Aspects.set(<IC2:obscurator:1>, "instrumentum 6, lux 4, machina 4, tenebrae 2");
+mods.thaumcraft.Aspects.set(<IC2:obscurator>, "instrumentum 6, lux 4, machina 4, tenebrae 2");
 
 // --- Frequenz Transmitter
 mods.thaumcraft.Aspects.set(<IC2:itemFreq>, "metallum 6, instrumentum 4, sensus 4, electrum 2");
@@ -359,25 +359,25 @@ mods.thaumcraft.Aspects.set(<IC2:itemFreq>, "metallum 6, instrumentum 4, sensus 
 mods.thaumcraft.Aspects.set(<IC2:itemBatREDischarged>, "metallum 1, electrum 1, vacuos 1");
 
 // --- Energy Crystal
-mods.thaumcraft.Aspects.set(<IC2:itemBatCrystal:1>, "lucrum 6, potentia 5, vitreus 4, potentia 4");
+mods.thaumcraft.Aspects.set(<IC2:itemBatCrystal>, "lucrum 6, potentia 5, vitreus 4, potentia 4");
 
 // --- Lapatron Crystal
-mods.thaumcraft.Aspects.set(<IC2:itemBatLamaCrystal:1>, "lucrum 8, potentia 6, sensus 5, potentia 5");
+mods.thaumcraft.Aspects.set(<IC2:itemBatLamaCrystal>, "lucrum 8, potentia 6, sensus 5, potentia 5");
 
 // --- Advanced RE Battery
-mods.thaumcraft.Aspects.set(<IC2:itemAdvBat:1>, "electrum 2, metallum 2, vacuos 2, potentia 1");
+mods.thaumcraft.Aspects.set(<IC2:itemAdvBat>, "electrum 2, metallum 2, vacuos 2, potentia 1");
 
 // --- Charging RE Battery
-mods.thaumcraft.Aspects.set(<IC2:itemBatChargeRE:1>, "metallum 2, electrum 2, vacuos 2");
+mods.thaumcraft.Aspects.set(<IC2:itemBatChargeRE>, "metallum 2, electrum 2, vacuos 2");
 
 // --- Charging Advanced RE Battery
-mods.thaumcraft.Aspects.set(<IC2:itemBatChargeAdv:1>, "electrum 3, metallum 3, vacuos 3, potentia 2");
+mods.thaumcraft.Aspects.set(<IC2:itemBatChargeAdv>, "electrum 3, metallum 3, vacuos 3, potentia 2");
 
 // --- Charging Energy Crytal
-mods.thaumcraft.Aspects.set(<IC2:itemBatChargeCrystal:1>, "lucrum 10, potentia 8, sensus 6, potentia 6");
+mods.thaumcraft.Aspects.set(<IC2:itemBatChargeCrystal>, "lucrum 10, potentia 8, sensus 6, potentia 6");
 
 // --- Charging Lapatron Crytal
-mods.thaumcraft.Aspects.set(<IC2:itemBatChargeLamaCrystal:1>, "lucrum 12, potentia 9, sensus 7, potentia 7");
+mods.thaumcraft.Aspects.set(<IC2:itemBatChargeLamaCrystal>, "lucrum 12, potentia 9, sensus 7, potentia 7");
 
 // --- Charging Lapatron Crytal
 mods.thaumcraft.Aspects.set(<IC2:itemGrinPowder>, "venenum 3, messis 2");

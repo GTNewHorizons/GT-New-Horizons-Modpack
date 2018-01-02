@@ -240,7 +240,7 @@ mods.thaumcraft.Infusion.addRecipe("WRATHCAGE", <EnderIO:itemBrokenSpawner>,
 "ira 32, machina 32, bestia 64, metallum 48, alienis 16, exanimis 16, praecantatio 32", <ForbiddenMagic:WrathCage>, 15);
 
 // --- Blank Imprinting Crystal
-mods.thaumcraft.Crucible.addRecipe("WRATHCAGE", <ForbiddenMagic:MobCrystal>, <IC2:itemBatCrystal:*>, "cognitio 10, potentia 10, praecantatio 10, vitreus 10");
+mods.thaumcraft.Crucible.addRecipe("WRATHCAGE", <ForbiddenMagic:MobCrystal>, <IC2:itemBatCrystal:26>, "cognitio 10, potentia 10, praecantatio 10, vitreus 10");
 // -
 mods.thaumcraft.Research.setAspects("WRATHCAGE",  "ira 21, machina 18, bestia 15, metallum 12, praecantatio 9, alienis 6, exanimis 3");
 mods.thaumcraft.Research.setComplexity("WRATHCAGE", 3);

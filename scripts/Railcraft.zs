@@ -1042,11 +1042,11 @@ recipes.addShaped(<Railcraft:machine.gamma:5>, [
 recipes.addShaped(<Railcraft:machine.gamma:6>, [
 [SteelPlate, <gregtech:gt.blockmachines:1426>, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:10>, RedAlloyPlate],
-[SteelPlate, <IC2:itemBatLamaCrystal:*>, SteelPlate]]);
+[SteelPlate, <IC2:itemAdvBat:26>, SteelPlate]]);
 
 // --- Energy Unloder ---
 recipes.addShaped(<Railcraft:machine.gamma:7>, [
-[SteelPlate, <IC2:itemBatLamaCrystal:*>, SteelPlate],
+[SteelPlate, <IC2:itemAdvBat:26>, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:10>, RedAlloyPlate],
 [SteelPlate, <gregtech:gt.blockmachines:1426>, SteelPlate]]);
 
@@ -1351,7 +1351,7 @@ recipes.addShaped(<Railcraft:brick.infernal:2> * 2, [
 // --- Lapatron Loader Upgrade
 recipes.addShaped(<Railcraft:upgrade.lapotron>, [
 [<dreamcraft:item.AluminiumItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.AluminiumItemCasing>],
-[<ore:cableGt02Platinum>, <IC2:itemBatLamaCrystal:*>, <ore:cableGt02Platinum>],
+[<ore:cableGt02Platinum>, <IC2:itemBatLamaCrystal:26>, <ore:cableGt02Platinum>],
 [<dreamcraft:item.AluminiumItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.AluminiumItemCasing>]]);
 
 // --- Cargo Cart

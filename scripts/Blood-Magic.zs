@@ -727,7 +727,7 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:21>, [
 
 // --- Power Core
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:22>, [
-[<AWWayofTime:bloodMagicBaseAlchemyItems:6>, <IC2:itemBatCrystal:*>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:6>, <IC2:itemBatCrystal:26>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>],
 [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
 [<AWWayofTime:bloodMagicBaseAlchemyItems:6>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>]]);
 
