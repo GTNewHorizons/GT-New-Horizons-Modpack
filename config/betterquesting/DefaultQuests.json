@@ -2242,6 +2242,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -4273,6 +4284,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemist",
               "Count": 15,
               "OreDict": "",
@@ -5723,6 +5740,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 15,
@@ -9504,6 +9527,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnicianI",
               "Count": 3,
               "OreDict": "",
@@ -9691,7 +9720,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -9765,7 +9794,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -9836,7 +9865,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -9913,13 +9942,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -9990,7 +10019,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -10061,7 +10090,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -10138,13 +10167,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -12571,8 +12600,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -14564,6 +14593,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 5,
               "OreDict": "",
@@ -16230,6 +16265,17 @@
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -16754,6 +16800,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -18430,6 +18487,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
               "OreDict": "",
@@ -18500,6 +18563,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
@@ -19052,7 +19121,7 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
+              "id": "dreamcraft:item.CoinAdventureII",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -19342,8 +19411,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -21545,6 +21620,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinDarkWizardI",
               "Count": 5,
               "OreDict": "",
@@ -22866,8 +22947,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -22937,8 +23018,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -24957,6 +25038,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinDarkWizardII",
               "Count": 1,
               "OreDict": "",
@@ -26452,6 +26539,17 @@
             {
               "id": "Thaumcraft:blockJar",
               "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -28316,6 +28414,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinDarkWizardII",
               "Count": 5,
@@ -30818,16 +30922,28 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinDarkWizardIII",
-              "Count": 1,
+              "id": "GalacticraftCore:tile.moonBlock",
+              "Count": 10,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 14
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianIII",
-              "Count": 1,
+              "id": "GalacticraftMars:tile.mars",
+              "Count": 10,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 7
+            },
+            {
+              "id": "GalaxySpace:ceresblocks",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "GalaxySpace:ioblocks",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 3
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -39180,7 +39296,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "dreamcraft:item.CoinTechnicianIII",
+        "id": "GalaxySpace:barnardaCdirt",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -39194,14 +39310,38 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinDarkWizardIII",
+              "id": "GalaxySpace:enceladusblocks",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "GalaxySpace:proteusblocks",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "GalaxySpace:plutoblocks",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "GalaxySpace:barnardaCdirt",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianIII",
-              "Count": 20,
+              "id": "GalaxySpace:vegabgrunt",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:tcetieblocks",
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -46968,6 +47108,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 3,
@@ -59486,6 +59632,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 15,
               "OreDict": "",
@@ -68285,6 +68437,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnicianI",
               "Count": 5,
               "OreDict": "",
@@ -69018,6 +69176,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnicianI",
               "Count": 5,
@@ -81118,6 +81282,12 @@
               "Damage": 0
             },
             {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
               "OreDict": "",
@@ -81191,6 +81361,12 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemistII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithII",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
@@ -87954,6 +88130,18 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmithIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemistIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinBloodIII",
               "Count": 1,
               "OreDict": "",
@@ -88923,8 +89111,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -89048,8 +89236,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -90437,8 +90625,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -93055,6 +93243,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinChemistI",
               "Count": 5,
@@ -95840,8 +96034,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -96241,8 +96435,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -103914,8 +104108,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -104051,20 +104245,20 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -104147,8 +104341,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizardI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -104218,14 +104412,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -104308,8 +104502,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -104795,20 +104989,20 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinSurvivorI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinDarkWizardI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -104904,14 +105098,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinChemist",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -109302,6 +109496,18 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinDarkWizard",
               "Count": 15,
               "OreDict": "",
@@ -110678,6 +110884,12 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmith",
               "Count": 15,
               "OreDict": "",
               "Damage": 0
@@ -112100,6 +112312,12 @@
               "Damage": 0
             },
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnician",
               "Count": 25,
               "OreDict": "",
@@ -113032,6 +113250,356 @@
       ],
       "preRequisites": [
         65
+      ]
+    },
+    {
+      "questID": 1172,
+      "name": "Cheaper Annealed Production",
+      "description": "It\u0027 s even faster and cheaper to make annealead copper in the arc furnace then the Electric Blast furnace. Annealead copper is a very good material for wires in mv only 1 EU loss every block.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11345
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11035
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11345
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2880
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        662
+      ]
+    },
+    {
+      "questID": 1173,
+      "name": "Wrought Iron Ingots",
+      "description": "Whant some wrought iron ingots?  Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 36000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11304
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11304
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
+    },
+    {
+      "questID": 1174,
+      "name": "Steel Ingots",
+      "description": "Want some steel ingots?  Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 72000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11305
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11335
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        103
+      ]
+    },
+    {
+      "questID": 1175,
+      "name": "Aluminium Ingots",
+      "description": "Want some aluminium ingots? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 72000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11019
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11019
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        753
+      ]
+    },
+    {
+      "questID": 1176,
+      "name": "Stainless Steel Ingots",
+      "description": "Want some stainless steel ingots? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 72000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11306
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11306
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        860
       ]
     }
   ],
@@ -114477,6 +115045,11 @@
           "id": 1168,
           "x": 600,
           "y": 444
+        },
+        {
+          "id": 1172,
+          "x": 912,
+          "y": 480
         }
       ]
     },
@@ -116151,6 +116724,26 @@
         {
           "id": 1171,
           "x": 624,
+          "y": 0
+        },
+        {
+          "id": 1173,
+          "x": 660,
+          "y": 0
+        },
+        {
+          "id": 1174,
+          "x": 696,
+          "y": 0
+        },
+        {
+          "id": 1175,
+          "x": 732,
+          "y": 0
+        },
+        {
+          "id": 1176,
+          "x": 768,
           "y": 0
         }
       ]
