@@ -987,9 +987,9 @@ recipes.addShapeless(<ExtraUtilities:enderCollector>, [<RandomThings:advancedIte
 
 // --- Quiet Expencive Device QED
 recipes.addShaped(<ExtraUtilities:endConstructor>, [
-[<ore:plateEnderEye>, <ore:circuitData>, <ore:plateEnderEye>],
-[<ore:blockEnderObsidian>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderObsidian>],
-[<ore:plateTitanium>, <ExtraUtilities:decorativeBlock1:11>, <ore:plateTitanium>]]);
+[<ore:plateEnderEye>, <HardcoreEnderExpansion:altar_nexus>, <ore:plateEnderEye>],
+[<ore:blockEnderObsidian>, <Thaumcraft:blockStoneDevice:2>, <ore:blockEnderObsidian>],
+[<ore:plateTitanium>, <ExtraUtilities:decorativeBlock1:12>, <ore:plateTitanium>]]);
 
 // --- Ender Marker
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:endMarker>, [
