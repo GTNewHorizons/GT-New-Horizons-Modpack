@@ -190,8 +190,8 @@ Assembler.addRecipe(<RandomThings:wirelessLever>, <minecraft:lever>, <minecraft:
 // --- Whitestone
 Assembler.addRecipe(<RandomThings:whitestone>, <TwilightForest:item.charmOfKeeping3> * 4, <gregtech:gt.integrated_circuit:4> * 0,  <liquid:ender> * 4000, 1200, 480);
 
-// --- Whitestone
-Assembler.addRecipe(<RandomThings:bloodStone>, <Railcraft:firestone.refined>, <gregtech:gt.integrated_circuit:1> * 0,  <liquid:molten.blaze> * 1296, 1200, 30);
+// --- Bloodstone
+//Assembler.addRecipe(<RandomThings:bloodStone>, <Railcraft:firestone.refined>, <gregtech:gt.integrated_circuit:1> * 0,  <liquid:molten.blaze> * 1296, 1200, 30);
 
 // --- Spectre Iron
 Assembler.addRecipe(<RandomThings:ingredient:4>, <minecraft:iron_ingot>, <RandomThings:ingredient:3>, 600, 120);
