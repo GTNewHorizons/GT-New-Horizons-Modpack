@@ -1031,12 +1031,7 @@ recipes.addShaped(<GalacticraftCore:item.buggymat:2>, [
 recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
 [CompressedAl, <gregtech:gt.metaitem.01:32690>, CompressedAl],
 [BWafer, <gregtech:gt.metaitem.01:32740>, BWafer],
-[CompressedTin, <GalacticraftCore:item.battery:100>, CompressedTin]]);
-// -
-recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
-[CompressedAl, <gregtech:gt.metaitem.01:32690>, CompressedAl],
-[BWafer, <gregtech:gt.metaitem.01:32740>, BWafer],
-[CompressedTin, <GalacticraftCore:item.battery:1>, CompressedTin]]);
+[CompressedTin, <GalacticraftCore:item.battery>, CompressedTin]]);
 
 // --- Walk away
 recipes.addShaped(<GalacticraftMars:tile.walkway> * 2, [
