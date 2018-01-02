@@ -64,7 +64,7 @@ mods.thaumcraft.Research.addTab("WITHERY", "dreamcraft", "textures/thaumcraft/ic
 game.setLocalization("tc.research_category.WITHERY", "Witchery");
 
 // --- Warmwood
-recipes.addShaped(<witchery:ingredient:111>, [
+recipes.addShaped(<witchery:seedswormwood>, [
 [<witchery:mutator>.transformDamage(), <witchery:somniancotton>, null],
 [<witchery:somniancotton>, <minecraft:wheat>, <witchery:somniancotton>],
 [null, <witchery:somniancotton>, null]]);
