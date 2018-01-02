@@ -151,9 +151,6 @@ recipes.addShaped(<RandomThings:dyeingMachine>, [
 // --- Player Interface
 recipes.addShapeless(<RandomThings:playerinterface>, [<RIO:tile.remote_interface>, <RandomThings:ingredient>]);
 
-// --- Void Filer
-recipes.addShapeless(<RandomThings:dropFilter:1>, [<OpenBlocks:devnull>]);
-
 // --- Void Stone
 recipes.addShapeless(<RandomThings:voidStone>, [<ExtraUtilities:trashcan>, <minecraft:ender_pearl>]);
 
@@ -198,6 +195,9 @@ Assembler.addRecipe(<RandomThings:bloodStone>, <Railcraft:firestone.refined>, <g
 
 // --- Spectre Iron
 Assembler.addRecipe(<RandomThings:ingredient:4>, <minecraft:iron_ingot>, <RandomThings:ingredient:3>, 600, 120);
+
+// --- Void Filer
+Assembler.addRecipe(<RandomThings:dropFilter:1>, <ExtraUtilities:trashcan>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 250, 300, 30);
 
 
 
