@@ -45949,7 +45949,7 @@
     {
       "questID": 531,
       "name": "Scanning bees, crops and moooooore!",
-      "description": "Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production. Data sticks with raw prospecting date need a scanner too.",
+      "description": "Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production. Data sticks with raw prospecting data need a scanner too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54807,7 +54807,7 @@
     {
       "questID": 620,
       "name": "IC2 Battery",
-      "description": "Some recipes require IC2 batteries. Fill your small battery hull with some molten redstone and you will get your RE-Battery. Be careful molten cells will hurt you.",
+      "description": "Some recipes require IC2 batteries. Fill your small battery hull with some molten redstone and you will get your RE-Battery. Molten cells will hurt you, so be careful.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -64919,7 +64919,7 @@
     {
       "questID": 716,
       "name": "Find some Certus Quartz",
-      "description": "The Nether is full of different kinds of quartz but for the Emitter and the Sensor you need Certus Quartz.",
+      "description": "The Nether is full of different kinds of quartz. For the emitter and the sensor you will need to find some certus quartz.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -89858,7 +89858,7 @@
     },
     {
       "questID": 946,
-      "name": "Baboo fence",
+      "name": "Bamboo fence",
       "description": "Maybe you are lucky and start off in a bamboo forest.\nBamboo is a very useful tree since it grows really fast and when you place bamboo sticks they will grow and protect your base behind a 3 block tall wall.\nAlternatively, you can also use Berry Bushes.",
       "isMain": false,
       "isSilent": false,
@@ -112411,7 +112411,7 @@
     {
       "questID": 1160,
       "name": "Empty Cells",
-      "description": "With your Plate bender you are able to make empty cells. The Circuit need to configured to 12 otherwise you make foil.",
+      "description": "With your plate bender you are able to make empty cells. The circuit needs to be configured to 12 otherwise you will make foil.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112677,7 +112677,7 @@
     {
       "questID": 1164,
       "name": "Universal Macerator",
-      "description": "One of the important machines in HV will be the Universal Macerator. It have an additional slot for output when macerating Ores.",
+      "description": "One of the important machines in HV is the Universal Macerator. It has an additional output slot to get more materials when macerating ores.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112814,8 +112814,8 @@
     },
     {
       "questID": 1166,
-      "name": "Quartz and Barite Vein",
-      "description": "The Nether is full of different kinds of quartz. Go and find a quartzite and certus quartz vein. It is located between Y level 40-80.",
+      "name": "Quartz and Quartzite Veins",
+      "description": "The Nether is full of different kinds of quartz. Go and find a quartzite and certus quartz vein. They are located between Y levels 40-80.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112933,7 +112933,7 @@
     {
       "questID": 1167,
       "name": "Lithium",
-      "description": "Lithium can washed out of Lepidolite Ore or centrifuged out od Spondumene Ore.",
+      "description": "Lithium can be washed out of Lepidolite Ore or centrifuged out of Spodumene Ore.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113004,7 +113004,7 @@
     {
       "questID": 1168,
       "name": "Sodium",
-      "description": "Sodium can be washed out of Glauconite Ore and Sand. A second source is electrolyze it out of salt.",
+      "description": "Sodium can be washed out of Glauconite Ore and Sand. It can also be electrolyzed out of salt.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113135,7 +113135,7 @@
     {
       "questID": 1170,
       "name": "Bath Salt",
-      "description": "Oh you feel so dirty. Go and take the soap and go showering.",
+      "description": "Oh you feel so dirty. Go and take the soap and a shower.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113195,7 +113195,7 @@
     {
       "questID": 1171,
       "name": "Damascus Steel Ingots",
-      "description": "Damascus Steel is very durable und usefull for GT tools. Buy some.",
+      "description": "Damascus Steel is very durable und useful for GT tools. Buy some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113255,7 +113255,7 @@
     {
       "questID": 1172,
       "name": "Cheaper Annealed Production",
-      "description": "It\u0027 s even faster and cheaper to make annealead copper in the arc furnace then the Electric Blast furnace. Annealead copper is a very good material for wires in mv only 1 EU loss every block.",
+      "description": "It\u0027 s even faster and cheaper to make annealead copper in the arc furnace than in the electric blast furnace. Annealed copper is a very good material for wires in MV. It only loses 1 EU per block.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
