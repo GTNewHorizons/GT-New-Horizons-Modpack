@@ -21484,7 +21484,7 @@
     {
       "questID": 241,
       "name": "Not for soup",
-      "description": "At least not for edible soup, but for essentia slurry. Get yourself a Cauldron and give it a solid whack with your wand.",
+      "description": "At least not for edible soup, but for essentia slurry. Get yourself a Cauldron and give it a solid whack with your wand. Place the netherrack under the crucible and enlighted it with the flint and steel. now you nned to fill water in it (works with pipes too \u003d auto refill)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -21525,6 +21525,18 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "minecraft:netherrack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:flint_and_steel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "Thaumcraft:ItemLootBag",
               "Count": 1,
@@ -21637,7 +21649,8 @@
       ],
       "preRequisites": [
         241,
-        233
+        233,
+        1177
       ]
     },
     {
@@ -113601,6 +113614,118 @@
       "preRequisites": [
         860
       ]
+    },
+    {
+      "questID": 1177,
+      "name": "Thaumium cooking",
+      "description": "Now it is time to cook your first thaumium ingots. After you researched it you need iron ingots and praecantatio aspect for it. ",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "praecantatio"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        241
+      ]
     }
   ],
   "questLines": [
@@ -116906,7 +117031,7 @@
         },
         {
           "id": 226,
-          "x": 264,
+          "x": 312,
           "y": 72
         },
         {
@@ -116916,17 +117041,17 @@
         },
         {
           "id": 231,
-          "x": 144,
+          "x": 156,
           "y": 72
         },
         {
           "id": 232,
-          "x": 300,
+          "x": 348,
           "y": 72
         },
         {
           "id": 230,
-          "x": 108,
+          "x": 96,
           "y": 72
         },
         {
@@ -116936,137 +117061,137 @@
         },
         {
           "id": 227,
-          "x": 180,
+          "x": 228,
           "y": 72
         },
         {
           "id": 234,
-          "x": 300,
+          "x": 348,
           "y": 144
         },
         {
           "id": 235,
-          "x": 228,
+          "x": 276,
           "y": 108
         },
         {
           "id": 236,
-          "x": 264,
+          "x": 312,
           "y": 108
         },
         {
           "id": 237,
-          "x": 228,
+          "x": 276,
           "y": 180
         },
         {
           "id": 238,
-          "x": 228,
+          "x": 276,
           "y": 216
         },
         {
           "id": 241,
-          "x": 48,
+          "x": 96,
           "y": 144
         },
         {
           "id": 242,
           "x": 0,
-          "y": 216
+          "y": 252
         },
         {
           "id": 243,
-          "x": 48,
-          "y": 216
+          "x": 96,
+          "y": 252
         },
         {
           "id": 244,
-          "x": 144,
+          "x": 192,
           "y": 300
         },
         {
           "id": 246,
-          "x": 300,
+          "x": 348,
           "y": 300
         },
         {
           "id": 247,
-          "x": 144,
+          "x": 192,
           "y": 372
         },
         {
           "id": 248,
-          "x": 300,
+          "x": 348,
           "y": 372
         },
         {
           "id": 249,
-          "x": 144,
+          "x": 192,
           "y": 336
         },
         {
           "id": 250,
-          "x": 300,
+          "x": 348,
           "y": 336
         },
         {
           "id": 245,
-          "x": 228,
+          "x": 276,
           "y": 336
         },
         {
           "id": 251,
-          "x": 144,
-          "y": 216
+          "x": 192,
+          "y": 252
         },
         {
           "id": 239,
-          "x": 180,
+          "x": 228,
           "y": 216
         },
         {
           "id": 252,
-          "x": 180,
+          "x": 228,
           "y": 252
         },
         {
           "id": 253,
-          "x": 180,
+          "x": 228,
           "y": 144
         },
         {
           "id": 254,
-          "x": 144,
+          "x": 192,
           "y": 144
         },
         {
           "id": 240,
-          "x": 180,
+          "x": 228,
           "y": 180
         },
         {
           "id": 256,
-          "x": 108,
+          "x": 156,
           "y": 180
         },
         {
           "id": 255,
-          "x": 108,
+          "x": 156,
           "y": 144
         },
         {
           "id": 257,
-          "x": 180,
+          "x": 228,
           "y": 108
         },
         {
           "id": 258,
-          "x": 264,
+          "x": 312,
           "y": 252
         },
         {
           "id": 259,
-          "x": 264,
+          "x": 312,
           "y": 216
         },
         {
@@ -117076,13 +117201,13 @@
         },
         {
           "id": 798,
-          "x": 228,
+          "x": 276,
           "y": 144
         },
         {
           "id": 1002,
-          "x": 48,
-          "y": 180
+          "x": 96,
+          "y": 216
         },
         {
           "id": 1070,
@@ -117096,27 +117221,27 @@
         },
         {
           "id": 1096,
-          "x": 228,
+          "x": 276,
           "y": 72
         },
         {
           "id": 1100,
-          "x": 264,
+          "x": 312,
           "y": 180
         },
         {
           "id": 1101,
-          "x": 300,
+          "x": 348,
           "y": 180
         },
         {
           "id": 1103,
-          "x": 336,
+          "x": 384,
           "y": 180
         },
         {
           "id": 1104,
-          "x": 300,
+          "x": 348,
           "y": 216
         },
         {
@@ -117126,13 +117251,18 @@
         },
         {
           "id": 1159,
-          "x": 84,
+          "x": 96,
           "y": 0
         },
         {
           "id": 1158,
-          "x": 84,
+          "x": 96,
           "y": 36
+        },
+        {
+          "id": 1177,
+          "x": 48,
+          "y": 144
         }
       ]
     },
