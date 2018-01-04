@@ -338,6 +338,9 @@ mods.forestry.Carpenter.removeRecipe(<Forestry:crate>);
 // --- Torch
 mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 
+// --- Irradiated Comb
+mods.forestry.Centrifuge.removeRecipe(<Forestry:beeCombs:9>);
+
 
 
 
