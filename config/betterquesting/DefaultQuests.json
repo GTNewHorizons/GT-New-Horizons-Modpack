@@ -54204,24 +54204,6 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32519,
-              "tag": {
-                "GT.ItemCharge:4": 50000
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -54317,24 +54299,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 32517
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32517,
-              "tag": {
-                "GT.ItemCharge:4": 75000
-              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -54434,24 +54398,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 32518
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32518,
-              "tag": {
-                "GT.ItemCharge:4": 100000
-              }
             }
           ],
           "taskID": "bq_standard:retrieval"
