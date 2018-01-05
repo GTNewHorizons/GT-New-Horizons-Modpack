@@ -311,7 +311,7 @@ game.setLocalization("tc.research_name.CREATIONSHARD", "Shard of Creation");
 game.setLocalization("tc.research_text.CREATIONSHARD", "I am not a madman");
 mods.thaumcraft.Research.addPage("CREATIONSHARD", "tc.research_page.CREATIONSHARD");
 game.setLocalization("tc.research_page.CREATIONSHARD", "You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!");
-mods.thaumcraft.Crucible.addRecipe("CREATIONSHARD", <dreamcraft:item.VoidEssence>, <Thaumcraft:ItemResource:17>, "alienis 16, vacuos 16, tenebrae 16");
+mods.thaumcraft.Crucible.addRecipe("CREATIONSHARD", <dreamcraft:item.VoidEssence> * 2, <Thaumcraft:ItemResource:16>, "alienis 16, vacuos 16, tenebrae 16");
 mods.thaumcraft.Research.addCruciblePage("CREATIONSHARD", <dreamcraft:item.VoidEssence>);
 mods.thaumcraft.Infusion.addRecipe("CREATIONSHARD", <minecraft:nether_star>,
 [<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:6>], 
