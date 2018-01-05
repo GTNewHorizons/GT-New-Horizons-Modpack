@@ -48005,7 +48005,7 @@
     {
       "questID": 553,
       "name": "Diesel fuel",
-      "description": "Mixing your light and heavy fuel together gives you some diesel. You need an MV Micer for it.\nIt burns very well in the diesel generator with a burn value of 480,000 EU per cell.",
+      "description": "Mixing your light and heavy fuel together gives you some diesel. You need the mv Mixer for it. It burns very well in the diesel generator with a burn value of 480,000 EU per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
