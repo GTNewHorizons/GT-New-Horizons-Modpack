@@ -101500,6 +101500,21 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -101516,7 +101531,7 @@
         }
       ],
       "preRequisites": [
-        902
+        225
       ]
     },
     {
@@ -101566,6 +101581,21 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -101582,7 +101612,6 @@
         }
       ],
       "preRequisites": [
-        903,
         1073
       ]
     },
@@ -101627,6 +101656,21 @@
             },
             {
               "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.minotaurAxe",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -101706,6 +101750,21 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -101767,6 +101826,21 @@
             },
             {
               "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.phantomHelm",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -101846,6 +101920,21 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -101919,6 +102008,21 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.alphaFur",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -101983,6 +102087,21 @@
               "Count": 5,
               "OreDict": "",
               "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
             }
           ],
           "taskID": "bq_standard:retrieval"
