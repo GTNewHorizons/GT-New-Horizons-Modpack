@@ -47681,7 +47681,7 @@
     {
       "questID": 549,
       "name": "Light fuel",
-      "description": "By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
+      "description": "By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.\n\nIn mv age you can make diesel out of light and heavy fuel.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47920,7 +47920,7 @@
     {
       "questID": 552,
       "name": "Heavy fuel",
-      "description": "By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 240,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.",
+      "description": "By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 200,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.\n\nIn mv age you can make diesel out of heavy and light fuel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48005,7 +48005,7 @@
     {
       "questID": 553,
       "name": "Diesel fuel",
-      "description": "Mixing your light and heavy fuel together gives you some diesel.\nIt burns very well in the diesel generator with a burn value of 400,000 EU per cell.",
+      "description": "Mixing your light and heavy fuel together gives you some diesel. You need an MV Micer for it.\nIt burns very well in the diesel generator with a burn value of 480,000 EU per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48082,7 +48082,9 @@
         }
       ],
       "preRequisites": [
-        554
+        751,
+        549,
+        552
       ]
     },
     {
@@ -48153,8 +48155,7 @@
         }
       ],
       "preRequisites": [
-        549,
-        552
+        88
       ]
     },
     {
@@ -54804,24 +54805,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemBatRE",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "charge:6": 10000.0
-              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -114709,7 +114692,7 @@
         },
         {
           "id": 543,
-          "x": 300,
+          "x": 312,
           "y": 528
         },
         {
@@ -114734,7 +114717,7 @@
         },
         {
           "id": 548,
-          "x": 132,
+          "x": 216,
           "y": 528
         },
         {
@@ -114758,14 +114741,9 @@
           "y": 432
         },
         {
-          "id": 553,
-          "x": 168,
-          "y": 480
-        },
-        {
           "id": 554,
-          "x": 216,
-          "y": 480
+          "x": 300,
+          "y": 60
         },
         {
           "id": 555,
@@ -114934,7 +114912,7 @@
         },
         {
           "id": 726,
-          "x": 300,
+          "x": 312,
           "y": 480
         },
         {
@@ -114955,12 +114933,12 @@
         {
           "id": 96,
           "x": 300,
-          "y": 60
+          "y": 24
         },
         {
           "id": 587,
-          "x": 264,
-          "y": 60
+          "x": 252,
+          "y": 24
         },
         {
           "id": 771,
@@ -115647,6 +115625,11 @@
           "id": 1093,
           "x": 36,
           "y": 444
+        },
+        {
+          "id": 553,
+          "x": 264,
+          "y": 336
         }
       ]
     },
