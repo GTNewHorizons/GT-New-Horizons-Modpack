@@ -452,12 +452,12 @@ Extruder.addRecipe(<Avaritia:Resource:4> * 9, <Avaritia:Resource_Block>, <gregte
 Extruder.addRecipe(<Avaritia:Resource:6> * 9, <Avaritia:Resource_Block:1>, <gregtech:gt.metaitem.01:32355> * 0, 1200, 524000);
 
 // --- Infinity Plate
-Extruder.addRecipe(<gregtech:gt.metaitem.01:17397>, <Avaritia:Resource:6> * 2, <gregtech:gt.metaitem.01:32350> * 0, 4000, 524000);
-Extruder.addRecipe(<gregtech:gt.metaitem.01:17397>, <gregtech:gt.metaitem.01:11397> * 2, <gregtech:gt.metaitem.01:32350> * 0, 4000, 524000);
+Extruder.addRecipe(<gregtech:gt.metaitem.01:17397>, <Avaritia:Resource:6>, <gregtech:gt.metaitem.01:32350> * 0, 4000, 524000);
+Extruder.addRecipe(<gregtech:gt.metaitem.01:17397>, <gregtech:gt.metaitem.01:11397>, <gregtech:gt.metaitem.01:32350> * 0, 4000, 524000);
 
 // --- Cosmic Neutronium Plate
-Extruder.addRecipe(<gregtech:gt.metaitem.01:17982>, <Avaritia:Resource:4> * 2, <gregtech:gt.metaitem.01:32350> * 0, 3000, 524000);
-Extruder.addRecipe(<gregtech:gt.metaitem.01:17982>, <gregtech:gt.metaitem.01:11982> * 2, <gregtech:gt.metaitem.01:32350> * 0, 3000, 524000);
+Extruder.addRecipe(<gregtech:gt.metaitem.01:17982>, <Avaritia:Resource:4>, <gregtech:gt.metaitem.01:32350> * 0, 3000, 524000);
+Extruder.addRecipe(<gregtech:gt.metaitem.01:17982>, <gregtech:gt.metaitem.01:11982>, <gregtech:gt.metaitem.01:32350> * 0, 3000, 524000);
 
 
 // --- Diamond Lattice
