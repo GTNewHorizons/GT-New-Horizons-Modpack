@@ -132,13 +132,13 @@ recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:3>, [
 
 // --- Industrial Information Panel
 recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:4>, [
-[<gregtech:gt.metaitem.01:32740>, <minecraft:stained_glass_pane:5>, <gregtech:gt.metaitem.01:32740>],
+[<minecraft:stained_glass_pane:5>, <gregtech:gt.metaitem.01:32740>, <minecraft:stained_glass_pane:5>],
 [<ore:circuitBasic>, <IC2:blockMachine>, <ore:circuitBasic>],
 [<ore:plateIron>, <ore:cableGt01RedAlloy>, <ore:plateIron>]]);
 
 // --- Information Panel Extender
 recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:5>, [
-[<gregtech:gt.metaitem.01:32740>, <minecraft:stained_glass_pane:5>, <gregtech:gt.metaitem.01:32740>],
+[<minecraft:stained_glass_pane:5>, <gregtech:gt.metaitem.01:32740>, <minecraft:stained_glass_pane:5>],
 [<gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>, <gregtech:gt.metaitem.01:17809>],
 [<gregtech:gt.metaitem.01:17809>, <ore:cableGt01RedAlloy>, <gregtech:gt.metaitem.01:17809>]]);
 
@@ -146,31 +146,31 @@ recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:5>, [
 recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:6>, [
 [<ore:plateIron>, <gregtech:gt.metaitem.01:32740>, <ore:plateIron>],
 [<ore:cableGt01Platinum>, <gregtech:gt.blockmachines:24>, <ore:cableGt01Platinum>],
-[<ore:plateIron>, <ore:circuitAdvanced>, <ore:plateIron>]]);
+[<ore:plateIron>, <ore:circuitGood>, <ore:plateIron>]]);
 
 // --- Average Counter
 recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:7>, [
 [<ore:plateLead>, <gregtech:gt.metaitem.01:32740>, <ore:plateLead>],
 [<ore:cableGt01Platinum>, <gregtech:gt.blockmachines:24>, <ore:cableGt01Platinum>],
-[<ore:plateLead>, <ore:circuitAdvanced>, <ore:plateLead>]]);
+[<ore:plateLead>, <ore:circuitGood>, <ore:plateLead>]]);
 
 // --- Range Trigger
 recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:8>, [
 [<ore:plateSteel>, <gregtech:gt.metaitem.01:32740>, <ore:plateSteel>],
 [<ore:cableGt01Platinum>, <IC2:blockMachine:12>, <ore:cableGt01Platinum>],
-[<ore:circuitAdvanced>, <IC2:itemFreq>, <ore:circuitAdvanced>]]);
+[<ore:circuitGood>, <IC2:itemFreq>, <ore:circuitGood>]]);
 
 // --- Advanced Information Panel
 recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:9>, [
-[<IC2NuclearControl:ItemUpgrade>, <IC2NuclearControl:blockNuclearControlMain:4>, <IC2NuclearControl:ItemUpgrade:1>],
-[<ore:plateAlloyCarbon>, <ore:circuitAdvanced>, <ore:plateAlloyCarbon>],
-[<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);
+[<minecraft:stained_glass_pane:5>, <gregtech:gt.metaitem.01:32740>, <minecraft:stained_glass_pane:5>],
+[<ore:circuitGood>, <IC2:blockMachine:12>, <ore:circuitGood>],
+[<ore:plateSteel>, <ore:cableGt01RedstoneAlloy>, <ore:plateSteel>]]);
 
 // --- Advanced Panel Extender
 recipes.addShaped(<IC2NuclearControl:blockNuclearControlMain:10>, [
-[<IC2NuclearControl:ItemUpgrade>, <IC2NuclearControl:blockNuclearControlMain:5>, <IC2NuclearControl:ItemUpgrade:1>],
-[<ore:plateAlloyCarbon>, <ore:plateSteel>, <ore:plateAlloyCarbon>],
-[<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolScrewdriver>]]);
+[<minecraft:stained_glass_pane:5>, <gregtech:gt.metaitem.01:32740>, <minecraft:stained_glass_pane:5>],
+[<ore:plateAlloyCarbon>, <ore:plateAlloyCarbon>, <ore:plateAlloyCarbon>],
+[<ore:plateAlloyCarbon>, <ore:cableGt01RedstoneAlloy>, <ore:plateAlloyCarbon>]]);
 
 // --- White Lamp
 recipes.addShaped(<IC2NuclearControl:blockNuclearControlLight>, [
@@ -199,7 +199,7 @@ recipes.addShaped(<IC2NuclearControl:ItemToolDigitalThermometer>, [
 // --- Color Upgrade
 recipes.addShaped(<IC2NuclearControl:ItemUpgrade:1>, [
 [<ore:dyeRed>, <ore:dyeYellow>, <ore:dyeGreen>],
-[<ore:dyeWhite>, <ore:circuitAdvanced>, <ore:dyeMagenta>],
+[<ore:dyeWhite>, <ore:circuitGood>, <ore:dyeMagenta>],
 [<ore:dyeBlack>, <ore:dyeCyan>, <ore:dyeBlue>]]);
 
 // --- ME Network Monitor
