@@ -2209,55 +2209,55 @@ recipes.addShapeless(Sugar,
 // --- Diamond Sword
 recipes.addShaped(<minecraft:diamond_sword>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
-[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>],
 [null, <minecraft:stick>, null]]);
 
 // --- Diamond Shovel
 recipes.addShaped(<minecraft:diamond_shovel>, [
-[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>],
 [null, <minecraft:stick>, null],
 [null, <minecraft:stick>, null]]);
 
 // --- Diamond Pickaxe
 recipes.addShaped(<minecraft:diamond_pickaxe>, [
 [<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <minecraft:diamond>],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <minecraft:stick>, <ore:craftingToolHardHammer>],
 [null, <minecraft:stick>, null]]);
 
 // --- Diamond Axe
 recipes.addShaped(<minecraft:diamond_axe>, [
-[<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <gregtech:gt.metatool.01:12>],
+[<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <ore:craftingToolHardHammer>],
 [<gregtech:gt.metaitem.01:17500>, <minecraft:stick>, null],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, null]]);
+[<ore:craftingToolFile>, <minecraft:stick>, null]]);
 
 // --- Diamond Hoe
 recipes.addShaped(<minecraft:diamond_hoe>, [
-[<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <gregtech:gt.metatool.01:12>],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, null],
+[<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <ore:craftingToolHardHammer>],
+[<ore:craftingToolFile>, <minecraft:stick>, null],
 [null, <minecraft:stick>, null]]);
 
 // --- Diamond Helm
 recipes.addShaped(<minecraft:diamond_helmet>, [
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
-[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
+[<gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17500>],
 [null, null, null]]);
 
 // --- Diamond Chestplate
 recipes.addShaped(<minecraft:diamond_chestplate>, [
-[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
+[<gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>]]);
 
 // --- Diamond Leggins
 recipes.addShaped(<minecraft:diamond_leggings>, [
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
-[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
+[<gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, null, <gregtech:gt.metaitem.01:17500>]]);
 
 // --- Diamond Boots
 recipes.addShaped(<minecraft:diamond_boots>, [
 [<gregtech:gt.metaitem.01:17500>, null, <gregtech:gt.metaitem.01:17500>],
-[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
+[<gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17500>],
 [null, null, null]]);
 
 // --- Iron Horse Armor
@@ -2288,7 +2288,7 @@ recipes.addShaped(<minecraft:saddle>, [
 recipes.addShaped(<minecraft:clock>, [
 [<gregtech:gt.metaitem.01:28086>, <ore:plateGold>, <gregtech:gt.metaitem.01:28086>],
 [<gregtech:gt.metaitem.01:26086>, <minecraft:comparator>, <gregtech:gt.metaitem.01:26086>],
-[<gregtech:gt.metatool.01:22>, <gregtech:gt.metaitem.01:27086>, <gregtech:gt.metatool.01:16>]]);
+[<ore:craftingToolScrewdriver>, <gregtech:gt.metaitem.01:27086>, <ore:craftingToolWrench>]]);
 
 // --- Compass
 recipes.addShaped(<minecraft:compass>, [

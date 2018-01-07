@@ -1109,7 +1109,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:creosote> * 1000,
 recipes.addShaped(<Forestry:infuser>, [
 [null, <ore:stickBronze>, null],
 [null, <ore:stickIron>, null],
-[<gregtech:gt.metatool.01:12>, <minecraft:iron_bars>, <gregtech:gt.metatool.01:18>]]);
+[<ore:craftingToolHardHammer>, <minecraft:iron_bars>, <ore:craftingToolFile>]]);
 
 // --- Pipette
 recipes.addShaped(<Forestry:pipette>, [
@@ -2711,13 +2711,13 @@ recipes.addShapeless(<Forestry:factory2:2>, [<ProjRed|Expansion:projectred.expan
 
 // --- Minecart with Bee House
 recipes.addShaped(<Forestry:cart.beehouse>, [
-[null, <gregtech:gt.metatool.01:22>, null],
+[null, <ore:craftingToolScrewdriver>, null],
 [<ore:screwSteel>, <Forestry:apiculture:2>, <ore:screwSteel>],
 [<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
 
 // --- Minecart with Apiary
 recipes.addShaped(<Forestry:cart.beehouse:1>, [
-[null, <gregtech:gt.metatool.01:22>, null],
+[null, <ore:craftingToolScrewdriver>, null],
 [<ore:screwSteel>, <Forestry:apiculture>, <ore:screwSteel>],
 [<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
 

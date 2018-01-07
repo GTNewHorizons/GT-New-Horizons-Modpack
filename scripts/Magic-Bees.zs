@@ -402,7 +402,7 @@ mods.thaumcraft.Research.addPage("MB_Scoop", "tc.research_page.MB_Scoop.1");
 mods.thaumcraft.Arcane.addShaped("MB_Scoop", <MagicBees:item.thaumiumScoop>, "ordo 10, terra 10, aer 10", [
 [<gregtech:gt.metaitem.01:23330>, <minecraft:wool:*>, <gregtech:gt.metaitem.01:23330>],
 [<gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>],
-[<gregtech:gt.metatool.01:26>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metatool.01:12>]]);
+[<ore:craftingToolWireCutter>, <gregtech:gt.metaitem.01:23330>, <ore:craftingToolHardHammer>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Scoop", <MagicBees:item.thaumiumScoop>);
 mods.thaumcraft.Research.setAspects("MB_Scoop", "ordo 9, terra 6, aer 3");
 mods.thaumcraft.Research.setComplexity("MB_Scoop", 2);
@@ -412,8 +412,8 @@ mods.thaumcraft.Research.clearPages("MB_Grafter");
 mods.thaumcraft.Research.addPage("MB_Grafter", "tc.research_page.MB_Grafter.1");
 mods.thaumcraft.Arcane.addShaped("MB_Grafter", <MagicBees:item.thaumiumGrafter>, "ordo 15, terra 15, aer 15", [
 [null, <gregtech:gt.metaitem.01:23330>, null],
-[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:23330>, null],
-[<gregtech:gt.metaitem.01:17330>, <Thaumcraft:ItemResource:2>, <gregtech:gt.metatool.01:12>]]);
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:23330>, null],
+[<gregtech:gt.metaitem.01:17330>, <Thaumcraft:ItemResource:2>, <ore:craftingToolHardHammer>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Grafter", <MagicBees:item.thaumiumGrafter>);
 mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 12, terra 9, aer 6");
 mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);

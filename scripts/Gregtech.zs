@@ -444,41 +444,41 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2536> * 9, [<gregtech:gt.blockg
 // --- Diamond Sword Blade
 recipes.addShaped(<gregtech:gt.metaitem.02:500>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
-[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>],
 [null, null, null]]);
 
 // --- Diamond Pickaxe Head
 recipes.addShaped(<gregtech:gt.metaitem.02:1500>, [
 [<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <ore:gemDiamond>],
-[<gregtech:gt.metatool.01:18>, null, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, null, <ore:craftingToolHardHammer>],
 [null, null, null]]);
 
 // --- Diamond Shovel Head
 recipes.addShaped(<gregtech:gt.metaitem.02:2500>, [
-[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>],
 [null, null, null],
 [null, null, null]]);
 
 // --- Diamond Axe Head
 recipes.addShaped(<gregtech:gt.metaitem.02:3500>, [
-[<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <gregtech:gt.metatool.01:12>],
+[<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <ore:craftingToolHardHammer>],
 [<gregtech:gt.metaitem.01:17500>, null, null],
-[<gregtech:gt.metatool.01:18>, null, null]]);
+[<ore:craftingToolFile>, null, null]]);
 
 // --- Diamond Hoe Head
 recipes.addShaped(<gregtech:gt.metaitem.02:4500>, [
-[<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <gregtech:gt.metatool.01:12>],
-[<gregtech:gt.metatool.01:18>, null, null],
+[<gregtech:gt.metaitem.01:17500>, <ore:gemDiamond>, <ore:craftingToolHardHammer>],
+[<ore:craftingToolFile>, null, null],
 [null, null, null]]);
 
 // --- Wood Ring
 recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
-[<gregtech:gt.metatool.01:34>, null, null],
+[<ore:craftingToolKnife>, null, null],
 [null, <gregtech:gt.metaitem.01:17809>, null]]);
 
 // --- Glass Dust
-recipes.addShapeless(<gregtech:gt.metaitem.01:2890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassBlock>]);
-recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<gregtech:gt.metatool.01:24>, <TConstruct:GlassPane>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:2890>, [<ore:craftingToolMortar>, <TConstruct:GlassBlock>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<ore:craftingToolMortar>, <TConstruct:GlassPane>]);
 
 // --- Flient Sword
 recipes.addShaped(<gregtech:gt.metatool.01>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [

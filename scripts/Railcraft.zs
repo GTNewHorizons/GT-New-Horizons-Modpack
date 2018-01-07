@@ -1564,7 +1564,7 @@ Compressor.addRecipe(CoalCokeBlock, CoalCoke * 9);
 Compressor.addRecipe(ConcreteBlock, ConcreteSlab * 2);
 
 // --- Creosote Wood Slab ---
-Compressor.addRecipe(CreosoteWood, CreosoteWoodSlab * 2);
+Compressor.addRecipe(CreosoteWood, CreosoteWoodSlab * 4);
 
 // --- Advanced Coke Oven Bricks ---
 Compressor.addRecipe(<Railcraft:machine.alpha:12>, <dreamcraft:item.AdvancedCokeOvenBrick> * 4);
