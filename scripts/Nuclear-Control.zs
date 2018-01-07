@@ -221,6 +221,8 @@ recipes.addShaped(<IC2NuclearControl:remoteMonitor>, [
 
 
 
+// --- Recycle GregTech Sensor Card
+Assembler.addRecipe(<IC2:itemPartCircuit>*3, <gregtech:gt.sensorcard>, <gregtech:gt.sensorcard>, 6400, 10);
 
 // --- Remote Sensor Kit
 Assembler.addRecipe(<IC2NuclearControl:ItemRemoteSensorKit>, <IC2NuclearControl:ItemToolDigitalThermometer:*>, <IC2:itemFreq>, 1600, 2);
