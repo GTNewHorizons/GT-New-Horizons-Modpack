@@ -101,7 +101,7 @@ https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
 Bacongaming.net:25577<BR><BR>
 
 
-GraceCraft Anarchy No Whitelist<BR>
+Grace Craft Anarchy No Whitelist<BR>
 Discord Server:  https://discord.gg/cBQUpSr
 149.56.109.207
 
