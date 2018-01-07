@@ -5,7 +5,7 @@
 // --- Importing Stuff ---
 
 
-
+import mods.gregtech.CuttingSaw;
 import mods.gregtech.PrecisionLaser;
 
 
@@ -284,6 +284,8 @@ mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6
 [<ore:stone>, <ore:stone>, <ore:stone>],
 [<ore:stone>, <Thaumcraft:blockCrystal:*>, <ore:stone>],
 [<ore:stone>, <ore:stone>, <ore:stone>]]);
+// -
+recipes.addShapeless(<Thaumcraft:blockCosmeticSlabStone> * 2, [<Thaumcraft:blockCosmeticSolid:7>, <ore:craftingToolSaw>]);
 // -
 mods.thaumcraft.Research.clearPages("ARCANESTONE");
 mods.thaumcraft.Research.addPage("ARCANESTONE", "tc.research_page.ARCANESTONE.1");
@@ -697,6 +699,21 @@ mods.thaumcraft.Arcane.addShaped("BONEBOW", <Thaumcraft:ItemBowBone>, "aer 32, p
 // -
 mods.thaumcraft.Research.setAspects("BONEBOW", "telum 9, motus 9, aer 6, exanimis 3");
 mods.thaumcraft.Research.setComplexity("BONEBOW", 2);
+
+
+
+
+// --- Cutting Saw recipes ---
+
+
+// --- Arcane Stone Slabs
+CuttingSaw.addRecipe(<Thaumcraft:blockCosmeticSlabStone> * 4, null, <Thaumcraft:blockCosmeticSolid:7>, <liquid:water> * 32, 400, 30);
+// -
+CuttingSaw.addRecipe(<Thaumcraft:blockCosmeticSlabStone> * 4, null, <Thaumcraft:blockCosmeticSolid:7>, <liquid:ic2distilledwater> * 20, 400, 30);
+// -
+CuttingSaw.addRecipe(<Thaumcraft:blockCosmeticSlabStone> * 4, null, <Thaumcraft:blockCosmeticSolid:7>, <liquid:lubricant> * 8, 200, 30);
+
+
 
 
 

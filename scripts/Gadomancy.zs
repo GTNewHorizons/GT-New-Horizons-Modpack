@@ -295,6 +295,8 @@ mods.thaumcraft.Research.setComplexity("GADOMANCY.AURA_EFFECTS", 4);
 
 
 
+// --- Cutting Saw recipes ---
+
 
 // --- Ancient Stone Slabs
 CuttingSaw.addRecipe(<Thaumcraft:blockCosmeticSlabStone:1> * 4, null, <Thaumcraft:blockCosmeticSolid:11>, <liquid:water> * 32, 400, 30);
