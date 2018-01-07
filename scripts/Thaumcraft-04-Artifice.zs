@@ -193,6 +193,9 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemBowBone>);
 // --- Scribing Tool
 recipes.removeShapeless(<Thaumcraft:ItemInkwell>, [<minecraft:glass_bottle>, <minecraft:feather>, <ore:dyeBlack>]);
 
+// --- Arcane Stone Slabs
+recipes.remove(<Thaumcraft:blockCosmeticSlabStone>);
+
 
 
 
