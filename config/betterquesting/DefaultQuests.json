@@ -113893,6 +113893,132 @@
       "preRequisites": [
         624
       ]
+    },
+    {
+      "questID": 1179,
+      "name": "EBF Infos",
+      "description": "You can build you a scanner to check every time how your ebf works or you can make an Informations panel from nuclear control. Make a gt sonsor kit and place the sensor card in your info panel. With redstone you can enable it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2NuclearControl:blockNuclearControlMain",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2NuclearControl:blockNuclearControlMain",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "IC2NuclearControl:blockNuclearControlMain",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32763
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:lever",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "IC2:itemPartCarbonMesh",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30726
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        77,
+        103
+      ]
     }
   ],
   "questLines": [
@@ -118063,12 +118189,12 @@
         {
           "id": 755,
           "x": 0,
-          "y": 108
+          "y": 72
         },
         {
           "id": 756,
           "x": 0,
-          "y": 72
+          "y": 108
         },
         {
           "id": 761,
@@ -118113,7 +118239,7 @@
         {
           "id": 781,
           "x": 96,
-          "y": 108
+          "y": 144
         },
         {
           "id": 784,
@@ -118184,6 +118310,11 @@
           "id": 954,
           "x": 96,
           "y": 36
+        },
+        {
+          "id": 1179,
+          "x": 96,
+          "y": 108
         }
       ]
     },
