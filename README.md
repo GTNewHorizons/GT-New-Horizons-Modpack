@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0.2.5 is out 22.12.2017
+Version 2.0.2.6 is out xx.01.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -83,7 +83,7 @@ http://dirthuts.com<BR>
 s1.digtobuild.com:25560<BR>
 
 
-## US Server:<BR>
+## US/Canada Server:<BR>
 
 Prospercraft Greylist<BR>
 http://www.prospercraft.com/<BR>
@@ -99,6 +99,12 @@ s5.stonelegion.com:2005<BR>
 Bacon Gaming Whitelist<BR>
 https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
 Bacongaming.net:25577<BR><BR>
+
+
+GraceCraft Anarchy No Whitelist<BR>
+Discord Server:  https://discord.gg/cBQUpSr
+149.56.109.207
+
 
 
 ## German Server Public:<BR>
@@ -138,6 +144,7 @@ you find it in your resource folder<BR>
 * Baubles	1.0.1.11<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
+* Berries ++ 1.0.2<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
 * Better Questing 1.0.173custom<BR>
@@ -164,7 +171,7 @@ you find it in your resource folder<BR>
 * Computronics	1.6.5<BR>
 * Craft Tweaker 3.0.12<BR>
 * Custom Main Menu 1.9.2<BR>
-* Datrev Scanner Mod 0.5custom<BR>
+* Datrev Scanner Mod 1.4custom<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution	1.0.2l<BR>
 * Dummy Core 1.13<BR>
@@ -193,15 +200,15 @@ you find it in your resource folder<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.15<BR>
+* Gregtech	5.09.32.17<BR>
 * GT Scanner Mod 1.2<BR>
-* GT New Horizons Core Mod	1.5.15<BR>
+* GT New Horizons Core Mod	1.5.16<BR>
 * GT++ 1.6.110<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
-* Hunger Overhaul	1.0.0.104<BR>
+* Hunger Overhaul	1.0.2<BR>
 * Chisel	2.5.1.44<BR>
 * Chisel Tones 1.0.3<BR>
 * IC2 Nuclear Control	2.4.1a<BR>
@@ -216,7 +223,7 @@ you find it in your resource folder<BR>
 * Iron Tanks	1.1.65a<BR>
 * Jabba	1.2.5<BR>
 * JourneyMap	5.1.4p2<BR>
-* Lootgames 1.0.12<BR>
+* Lootgames 1.0.16<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
@@ -276,7 +283,7 @@ you find it in your resource folder<BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
 * Tainted Magic	r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.2<BR>
+* Tec Tech 3.6.2b<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
@@ -287,7 +294,7 @@ you find it in your resource folder<BR>
 * Thaumic Machina	0.2.1<BR>
 * Thaumic Tinkerer	2.5.553<BR>
 * TiCTooltips	1.2.5<BR>
-* Tinker's Construct	1.8.9.5-GTNH<BR>
+* Tinker's Construct	1.8.9.7-GTNH<BR>
 * Tinker's Gregworks	1.0.18<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks	02.14.106<BR>
@@ -295,7 +302,7 @@ you find it in your resource folder<BR>
 * Translocator	1.1.2.16<BR>
 * Twillight Forest	2.3.7<BR>
 * Ulity Mobs	3.1.1<BR>
-* Ulity Worlds	1.0.9a<BR>
+* Ulity Worlds	1.0.9d<BR>
 * Universal Singularities Version 8.4<BR>
 * Waila	1.5.10<BR>
 * Waila Harvestability	1.1.6<BR>
