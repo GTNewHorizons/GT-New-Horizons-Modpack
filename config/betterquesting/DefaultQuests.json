@@ -73611,7 +73611,7 @@
             {
               "id": "IC2:itemPartCircuitAdv",
               "Count": 4,
-              "OreDict": "",
+              "OreDict": "circuitAdvanced",
               "Damage": 0
             },
             {
@@ -73740,7 +73740,7 @@
             {
               "id": "IC2:itemPartCircuitAdv",
               "Count": 4,
-              "OreDict": "",
+              "OreDict": "circuitAdvanced",
               "Damage": 0
             },
             {
@@ -114019,6 +114019,83 @@
         77,
         103
       ]
+    },
+    {
+      "questID": 1180,
+      "name": "Chunckloading",
+      "description": "After the mv bnder you can pressing dense plate finaly. Lets craft some chunkloader.\n3x3 chuncks are loaded. You need coins to feed the chunckloader. Personal and passive anchors can be loaded with ender pearls for 1h time.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChunkloaderTierI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1081
+      ]
     }
   ],
   "questLines": [
@@ -115999,6 +116076,11 @@
           "id": 553,
           "x": 264,
           "y": 336
+        },
+        {
+          "id": 1180,
+          "x": 492,
+          "y": 264
         }
       ]
     },
