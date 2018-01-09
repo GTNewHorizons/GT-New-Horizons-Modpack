@@ -43184,13 +43184,22 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
               "Damage": 17300
-            },
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.02",
               "Count": 1,
