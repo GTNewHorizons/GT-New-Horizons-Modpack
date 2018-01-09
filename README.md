@@ -6,7 +6,7 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0.2.6 is out xx.01.2017
+Version 2.0.2.6 is out 09.01.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -200,9 +200,9 @@ you find it in your resource folder<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.17<BR>
-* GT Scanner Mod 1.2<BR>
-* GT New Horizons Core Mod	1.5.16<BR>
+* Gregtech	5.09.32.18<BR>
+* GT Scanner Mod 1.4<BR>
+* GT New Horizons Core Mod	1.5.17<BR>
 * GT++ 1.6.110<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
@@ -289,7 +289,7 @@ you find it in your resource folder<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
 * Thaumic Bases	1.4.16.0<BR>
 * Thaumic Energistics	1.0.0.5<BR>
-* Thaumic Exploration	1.1.71<BR>
+* Thaumic Exploration	1.1.72<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
 * Thaumic Tinkerer	2.5.553<BR>
