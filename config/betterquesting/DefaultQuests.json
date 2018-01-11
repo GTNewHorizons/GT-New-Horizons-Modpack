@@ -427,7 +427,7 @@
               "tag": {
                 "GT.ToolStats:10": {
                   "PrimaryMaterial:8": "Flint",
-                  "MaxDamage:4": 12800,
+                  "MaxDamage:4": 6400,
                   "SecondaryMaterial:8": "Wood"
                 }
               }
@@ -446,7 +446,7 @@
                 ],
                 "GT.ToolStats:10": {
                   "PrimaryMaterial:8": "Flint",
-                  "MaxDamage:4": 12800,
+                  "MaxDamage:4": 6400,
                   "SecondaryMaterial:8": "Wood"
                 }
               }
@@ -459,7 +459,7 @@
               "tag": {
                 "GT.ToolStats:10": {
                   "PrimaryMaterial:8": "Flint",
-                  "MaxDamage:4": 12800,
+                  "MaxDamage:4": 6400,
                   "SecondaryMaterial:8": "Wood"
                 }
               }
@@ -1026,7 +1026,7 @@
                 ],
                 "GT.ToolStats:10": {
                   "PrimaryMaterial:8": "Flint",
-                  "MaxDamage:4": 12800,
+                  "MaxDamage:4": 6400,
                   "SecondaryMaterial:8": "Wood"
                 }
               }
@@ -113530,7 +113530,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 64,
               "OreDict": "",
-              "Damage": 11335
+              "Damage": 11305
             }
           ],
           "rewardID": "bq_standard:item"
