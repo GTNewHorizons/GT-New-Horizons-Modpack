@@ -41217,7 +41217,7 @@
     {
       "questID": 481,
       "name": "Creosote oil",
-      "description": "I guess you already processed a bit of wood into charcoal and wonder what you can do with all this creosote oil?\nWell you can burn it in the normal furnace to cook your food or you can make more torches with it. Later in the LV age you probably should run diesel generators with it.",
+      "description": "I guess you already processed a bit of wood into charcoal and wonder what you can do with all this creosote oil?\nWell you can burn it in the normal furnace to cook your food or you can make more torches with it. Later in the LV age you probably should run combustion generators with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46045,7 +46045,7 @@
     {
       "questID": 532,
       "name": "Diesel, oil or maybe creosote?",
-      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the diesel generators and use them besides steam as a secondary power source.",
+      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47444,7 +47444,7 @@
     {
       "questID": 546,
       "name": "Hello Baron, how is your black gold today?",
-      "description": "During your travels you may have seen some of these huge oil wells. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a diesel generator or be refined. \n\nBring a diesel generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)",
+      "description": "During your travels you may have seen some of these huge oil wells. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a combustion generator or be refined. \n\nBring a combustion generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47536,7 +47536,7 @@
     {
       "questID": 547,
       "name": "Your oil is too Crude? Refine it!",
-      "description": "Burning oil in the diesel generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to try and refine it...",
+      "description": "Burning oil in the combustion generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to try and refine it...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -48014,7 +48014,7 @@
     {
       "questID": 553,
       "name": "Diesel fuel",
-      "description": "Mixing your light and heavy fuel together gives you some diesel. You need the mv Mixer for it. It burns very well in the diesel generator with a burn value of 480,000 EU per cell.",
+      "description": "Mixing your light and heavy fuel together gives you some diesel. You need the mv Mixer for it. It burns very well in the combustion generator with a burn value of 480,000 EU per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48335,7 +48335,7 @@
     {
       "questID": 557,
       "name": "NITRO! (Cetane-boosted diesel)",
-      "description": "720,000 EU per cell. Yes, yes, this is very good! Make some cetane-boosted diesel fuel and power yourDiesel Engine with it.",
+      "description": "720,000 EU per cell. Yes, yes, this is very good! Make some cetane-boosted diesel fuel and power your Combustion Engine with it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113530,7 +113530,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 64,
               "OreDict": "",
-              "Damage": 11335
+              "Damage": 11305
             }
           ],
           "rewardID": "bq_standard:item"
