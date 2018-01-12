@@ -845,7 +845,7 @@ recipes.addShaped(<IC2:blockElectric>, [
 // --- CESU
 recipes.addShaped(<IC2:blockElectric:7>, [
 [<ore:cableGt01AnyCopper>, <ore:plateBronze>, <ore:cableGt01AnyCopper>],
-[<IC2:itemAdvBat:26>, <gregtech:gt.blockmachines:12>, <IC2:itemAdvBat:261>],
+[<IC2:itemAdvBat:26>, <gregtech:gt.blockmachines:12>, <IC2:itemAdvBat:26>],
 [<ore:plateBronze>, <IC2:itemAdvBat:26>, <ore:plateBronze>]]);
 
 // --- MFE
