@@ -1723,9 +1723,9 @@ Assembler.addRecipe(<IC2:blockReactorAccessHatch>, <IC2:blockreactorvessel>, <gr
 Assembler.addRecipe(<IC2:blockReactorRedstonePort>, <IC2:blockreactorvessel>, <gregtech:gt.metaitem.01:32731>, 400, 120);
 
 // --- Luminator
-Assembler.addRecipe(<IC2:blockLuminatorDark> * 8, <gregtech:gt.metaitem.01:30087>, <gregtech:gt.blockmachines:1360> * 8, <liquid:molten.glass> * 8000, 600, 30);
+Assembler.addRecipe(<IC2:blockLuminatorDark> * 8, <gregtech:gt.metaitem.01:30087>, <gregtech:gt.blockmachines:1360> * 8, <liquid:molten.glass> * 1152, 600, 30);
 // -
-Assembler.addRecipe(<IC2:blockLuminatorDark> * 16, <gregtech:gt.metaitem.01:30004>, <gregtech:gt.blockmachines:1360> * 16, <liquid:molten.glass> * 8000, 400, 64);
+Assembler.addRecipe(<IC2:blockLuminatorDark> * 16, <gregtech:gt.metaitem.01:30004>, <gregtech:gt.blockmachines:1360> * 16, <liquid:molten.glass> * 1152, 400, 64);
 
 // --- Iron Furnace
 Assembler.addRecipe(IronFurnace, <minecraft:furnace>, <gregtech:gt.metaitem.01:17032> * 5, 400, 16);
