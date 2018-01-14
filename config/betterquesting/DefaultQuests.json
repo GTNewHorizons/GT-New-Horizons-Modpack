@@ -110151,6 +110151,12 @@
               "Damage": 27306
             },
             {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 20306
+            },
+            {
               "id": "IC2:itemBatREDischarged",
               "Count": 1,
               "OreDict": "",
