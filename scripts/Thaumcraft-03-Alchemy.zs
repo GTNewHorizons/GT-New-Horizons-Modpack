@@ -123,6 +123,8 @@ recipes.remove(<Thaumcraft:ItemNugget:5>);
 // --- Adding Recipes ---
 
 
+// --- Salis Mundus
+recipes.addShapeless(<Thaumcraft:ItemResource:14>, [<ore:craftingToolMortar>, <Thaumcraft:ItemShard:6>]);
 
 // --- Phials
 mods.thaumcraft.Research.clearPages("PHIAL");
