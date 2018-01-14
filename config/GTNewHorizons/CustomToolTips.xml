@@ -56,7 +56,7 @@
 
 //Gregtech	
 	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace"/>
-	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 10x"/>
+	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x"/>
 		
 //Enhanced Lootbags	
 	<ToolTip ItemName="enhancedlootbags:lootbag" ToolTip="§3Enchant with a Fortune III Book"/>
