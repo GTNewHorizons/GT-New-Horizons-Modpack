@@ -21484,7 +21484,7 @@
     {
       "questID": 241,
       "name": "Not for soup",
-      "description": "At least not for edible soup, but for essentia slurry. Get yourself a Cauldron and give it a solid whack with your wand. Place the netherrack under the crucible and enlighted it with the flint and steel. now you nned to fill water in it (works with pipes too \u003d auto refill)",
+      "description": "At least not for edible soup, but for essentia slurry. Get yourself a Cauldron and give it a solid whack with your wand. Place the netherrack under the crucible and set it on fire with the flint and steel. Now you need to fill it with water (works with pipes too \u003d auto refill)",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47690,7 +47690,7 @@
     {
       "questID": 549,
       "name": "Light fuel",
-      "description": "By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.\n\nIn mv age you can make diesel out of light and heavy fuel.",
+      "description": "By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.\n\nIn MV age you can make diesel out of light and heavy fuel.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47929,7 +47929,7 @@
     {
       "questID": 552,
       "name": "Heavy fuel",
-      "description": "By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 200,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.\n\nIn mv age you can make diesel out of heavy and light fuel.",
+      "description": "By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 200,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.\n\nIn MV age you can make diesel out of heavy and light fuel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48014,7 +48014,7 @@
     {
       "questID": 553,
       "name": "Diesel fuel",
-      "description": "Mixing your light and heavy fuel together gives you some diesel. You need the mv Mixer for it. It burns very well in the combustion generator with a burn value of 480,000 EU per cell.",
+      "description": "Mixing your light and heavy fuel together gives you some diesel. You need the MV mixer for it. It burns very well in the combustion generator with a burn value of 480,000 EU per cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60812,7 +60812,7 @@
     {
       "questID": 676,
       "name": "Crowbar",
-      "description": "The crowbar comes in a Railcraft and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor belts, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.\nHolding a crowbar, shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.\n\nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).",
+      "description": "The crowbar comes in a Railcraft and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor belts, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.\nHoldi a crowbar and shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.\n\nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113654,7 +113654,7 @@
     {
       "questID": 1177,
       "name": "Thaumium cooking",
-      "description": "Now it is time to cook your first thaumium ingots. After you researched it you need iron ingots and praecantatio aspect for it. ",
+      "description": "Now it is time to cook your first thaumium ingots. After you researched it you need iron ingots and praecantatio aspect to make it. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -113766,7 +113766,7 @@
     {
       "questID": 1178,
       "name": "Food 2.0",
-      "description": "Forget everything you know about food and values. With you new canning machine you be able to fillfood in tin cans and make early game op food. This food can be consumed in milliseconds and make you full and happy.",
+      "description": "Forget everything you know about food and values. With your new canning machine you are able to fill tin cans with very nourishing food. This food can be consumed in milliseconds and makes you full and happy.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113891,7 +113891,7 @@
     {
       "questID": 1179,
       "name": "EBF Infos",
-      "description": "You can build you a scanner to check every time how your ebf works or you can make an Informations panel from nuclear control. Make a gt sonsor kit and place the sensor card in your info panel. With redstone you can enable it.",
+      "description": "You can use a scanner to manually check how your EBF works, or you can make an informations panel from nuclear control and always see the status. Make a GT sensor kit and place the sensor card in your info panel. Enable it with a redstone signal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114017,7 +114017,7 @@
     {
       "questID": 1180,
       "name": "Chunckloading",
-      "description": "After the mv bnder you can pressing dense plate finaly. Lets craft some chunkloader.\n3x3 chuncks are loaded. You need coins to feed the chunckloader. Personal and passive anchors can be loaded with ender pearls for 1h time.",
+      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 1 hour per pearl.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114094,7 +114094,7 @@
     {
       "questID": 1181,
       "name": "Minecart with Tank, Workbench or Furnace",
-      "description": "You want to transport oil or other fluids, have a portable crafting table or a portable chest. Then you need to craft some Minecarts with Tanks, Chests or Crafting table.",
+      "description": "You want to transport oil or other fluids, have a portable crafting table or a portable chest? Then you need to craft some minecarts with tanks, mhests or crafting tables.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114213,7 +114213,7 @@
     {
       "questID": 1182,
       "name": "Fluid loader and unloder",
-      "description": "If you planing to automate the oil transport from your oil field fare away you need a fluid loader and unloader. A locking track will stop the train so long oil is loaded or unloaded.",
+      "description": "If you plan to automate the oil transport from your oil field far away, you need a fluid loader and unloader. A locking track will stop the train as long as oil is loaded or unloaded.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114332,7 +114332,7 @@
     {
       "questID": 1183,
       "name": "Locomotive 0.1 Alpha",
-      "description": "The furnace cart is a cheaper lokomotive. Click it with a coal or charcoal on the cart and and it will moving. ",
+      "description": "The furnace cart is a cheaper locomotive. Click with coal or charcoal on the cart and and it will start moving. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114421,7 +114421,7 @@
     {
       "questID": 1184,
       "name": "Steam Locomotive",
-      "description": "The steam locomotive is much better then the furnace cart. You can controle thr speed and the direction the locomotive will move. You need to put water and coal inside to make steam for powering the locomotive.",
+      "description": "The steam locomotive is much better than the furnace cart. You can control the speed and the direction the locomotive will move. You need to put water and coal inside to make steam to power the locomotive.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114517,7 +114517,7 @@
     {
       "questID": 1185,
       "name": "Electric Locomotive",
-      "description": "Electric Locomotives are much better then steam ones. You need electric rail for it.",
+      "description": "Electric Locomotives are much better than steam ones. You need electric rail for it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114619,7 +114619,7 @@
     {
       "questID": 1186,
       "name": "Boost your speed",
-      "description": "If you decided don\u0027t use a locomotive and driving only with one or two carts you can take all x blocks a booster track. Activate it with a lever or a redstone torche to get it switched on.",
+      "description": "If you decide to not use a locomotive and drive with one or two carts only, you can use some booster tracks. Activate them with a lever or a redstone torch.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114714,7 +114714,7 @@
     {
       "questID": 1187,
       "name": "The transcontinental railroad in high speed",
-      "description": "Did you ever dreamed to driving in a railcart with high speed? Well your dreams cooms true with the High Speed Tracks. Be carefull at high speed you need to lower the speed when you rails change the direction or the track ends.",
+      "description": "Did you ever dream of driving in a railcart at high speeds? Well your dreams can come true with the high speed tracks. Be careful though; you need to lower the speed when you rails change direction or when the track ends.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114846,7 +114846,7 @@
     {
       "questID": 1188,
       "name": "The transcontinental railroad blast proof",
-      "description": "Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hope you be blast proof too. \nYou can move 25% faster then with normal tracks.",
+      "description": "Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hope you are blast proof too. \nYou can move 25% faster than with normal tracks.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114969,7 +114969,7 @@
     {
       "questID": 1189,
       "name": "The transcontinental railroad electrical",
-      "description": "Electrical tracks are used with your electrical locomotive together. You need to feeding the rails with energy.",
+      "description": "Electrical tracks are used together with your electrical locomotive. You need to power the rails with energy.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -115074,7 +115074,7 @@
     {
       "questID": 1190,
       "name": "Electric feeder Unit",
-      "description": "Tget your Tracks electrified you need a Electric feeding unit, shunting wires and some support frames. You can use a mfe or a transformer to get gt energy in to the feeder unit.",
+      "description": "To get your tracks electrified you need an electric feeding unit, shunting wires and some support frames. You can use an MFE or a transformer to get GT energy into the feeder unit.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
