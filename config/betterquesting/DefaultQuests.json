@@ -68443,7 +68443,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.02",
-              "Count": 8,
+              "Count": 16,
               "OreDict": "",
               "Damage": 19035
             }
@@ -68458,7 +68458,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 1980
             }
