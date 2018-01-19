@@ -92219,6 +92219,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinChemist",
               "Count": 25,
               "OreDict": "",
