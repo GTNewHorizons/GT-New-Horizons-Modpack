@@ -47,6 +47,9 @@ recipes.remove(<witchery:arthana>);
 
 // --- Anointing Paste
 recipes.remove(<witchery:ingredient:153>);
+
+// --- Quicklime 
+recipes.remove(<witchery:ingredient:16>);
 //recipes.remove(<witchery:spinningwheel>);
 //recipes.remove(<witchery:poppetshelf>);
 //recipes.remove(<witchery:poppet>);
@@ -72,7 +75,10 @@ recipes.addShaped(<witchery:seedswormwood>, [
 // --- Null Catalyst doublication
 recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>]);
 
-
+// --- Quicklime 
+recipes.addShapeless(<witchery:ingredient:16>, [<gregtech:gt.metaitem.01:2622>]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:2622>, [<witchery:ingredient:16>]);
 
 
 // --- Mixer Recipes
