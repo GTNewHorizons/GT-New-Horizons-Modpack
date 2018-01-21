@@ -51786,7 +51786,7 @@
             {
               "id": "IC2:itemPartCircuit",
               "Count": 2,
-              "OreDict": "",
+              "OreDict": "circuitBasic",
               "Damage": 0
             },
             {
@@ -57424,7 +57424,7 @@
             {
               "id": "IC2:itemPartCircuit",
               "Count": 2,
-              "OreDict": "",
+              "OreDict": "circuitBasic",
               "Damage": 0
             },
             {
@@ -58046,7 +58046,7 @@
             {
               "id": "IC2:itemPartCircuitAdv",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "circuitAdvanced",
               "Damage": 0
             },
             {
@@ -58186,7 +58186,7 @@
             {
               "id": "IC2:itemPartCircuitAdv",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "circuitAdvanced",
               "Damage": 0
             }
           ],
