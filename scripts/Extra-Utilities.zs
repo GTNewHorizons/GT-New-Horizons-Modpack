@@ -961,8 +961,6 @@ recipes.addShaped(<ExtraUtilities:trashcan>, [
 
 // --- Thickened Glass
 recipes.addShapeless(<ExtraUtilities:decorativeBlock2>, [<TConstruct:GlassBlock>]);
-// -
-recipes.addShapeless(<ExtraUtilities:decorativeBlock2>, [<ore:glass>]);
 
 // --- Unstable Ingot
 recipes.addShapeless(<ExtraUtilities:unstableingot>, [<ExtraUtilities:unstableingot:2>]);
