@@ -90155,8 +90155,8 @@
     },
     {
       "questID": 950,
-      "name": "XP berry bush",
-      "description": "Farming your XP instead of harming monsters or aninmals.",
+      "name": "XP berries",
+      "description": "And a few xp berries for cash.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90165,7 +90165,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 3456000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -90173,10 +90173,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "TConstruct:ore.berries.two",
+        "id": "TConstruct:oreBerries",
         "Count": 1,
         "OreDict": "",
-        "Damage": 9
+        "Damage": 5
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -90187,8 +90187,8 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 20,
+              "id": "dreamcraft:item.CoinFarmerI",
+              "Count": 6,
               "OreDict": "",
               "Damage": 0
             }
@@ -90200,17 +90200,17 @@
         {
           "rewards": [
             {
-              "id": "TConstruct:ore.berries.two",
-              "Count": 5,
+              "id": "TConstruct:oreBerries",
+              "Count": 64,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 5
             }
           ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        89
+        1191
       ]
     },
     {
@@ -115198,6 +115198,366 @@
       "preRequisites": [
         1189
       ]
+    },
+    {
+      "questID": 1191,
+      "name": "XP berry bush",
+      "description": "Farming your XP instead of harming monsters or aninmals.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:ore.berries.two",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 9
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinFarmerI",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:ore.berries.two",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        89
+      ]
+    },
+    {
+      "questID": 1192,
+      "name": "Aluminum berries",
+      "description": "And a few aluminum berries for cash.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 1728000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:oreBerries",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:oreBerries",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        879
+      ]
+    },
+    {
+      "questID": 1193,
+      "name": "Gold berries",
+      "description": "And a few gold berries for cash.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 864000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:oreBerries",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:oreBerries",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        877
+      ]
+    },
+    {
+      "questID": 1194,
+      "name": "Iron berries",
+      "description": "And a few iron berries for cash.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 432000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:oreBerries",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:oreBerries",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        876
+      ]
+    },
+    {
+      "questID": 1195,
+      "name": "Copper berries",
+      "description": "And a few copper berries for cash.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 432000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:oreBerries",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:oreBerries",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        878
+      ]
+    },
+    {
+      "questID": 1196,
+      "name": "Tin berries",
+      "description": "And a few tin berries for cash.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 432000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:oreBerries",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "TConstruct:oreBerries",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        887
+      ]
     }
   ],
   "questLines": [
@@ -117861,7 +118221,7 @@
         {
           "id": 877,
           "x": 0,
-          "y": 108
+          "y": 144
         },
         {
           "id": 878,
@@ -117871,7 +118231,7 @@
         {
           "id": 879,
           "x": 0,
-          "y": 144
+          "y": 180
         },
         {
           "id": 887,
@@ -117880,8 +118240,8 @@
         },
         {
           "id": 950,
-          "x": 0,
-          "y": 180
+          "x": 36,
+          "y": 216
         },
         {
           "id": 955,
@@ -118161,7 +118521,7 @@
         {
           "id": 1047,
           "x": 0,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1050,
@@ -118181,77 +118541,77 @@
         {
           "id": 1056,
           "x": 36,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1057,
           "x": 72,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1058,
           "x": 108,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1059,
           "x": 144,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1060,
           "x": 180,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1061,
           "x": 216,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1062,
           "x": 252,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1063,
           "x": 0,
-          "y": 360
+          "y": 384
         },
         {
           "id": 1064,
           "x": 288,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1065,
           "x": 324,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1066,
           "x": 360,
-          "y": 324
+          "y": 348
         },
         {
           "id": 1048,
           "x": 36,
-          "y": 360
+          "y": 384
         },
         {
           "id": 1049,
           "x": 0,
-          "y": 396
+          "y": 420
         },
         {
           "id": 1053,
           "x": 36,
-          "y": 396
+          "y": 420
         },
         {
           "id": 1054,
           "x": 72,
-          "y": 396
+          "y": 420
         },
         {
           "id": 1069,
@@ -118352,6 +118712,36 @@
           "id": 1176,
           "x": 768,
           "y": 0
+        },
+        {
+          "id": 1191,
+          "x": 0,
+          "y": 216
+        },
+        {
+          "id": 1192,
+          "x": 36,
+          "y": 180
+        },
+        {
+          "id": 1193,
+          "x": 36,
+          "y": 144
+        },
+        {
+          "id": 1194,
+          "x": 0,
+          "y": 108
+        },
+        {
+          "id": 1195,
+          "x": 36,
+          "y": 108
+        },
+        {
+          "id": 1196,
+          "x": 72,
+          "y": 108
         }
       ]
     },
