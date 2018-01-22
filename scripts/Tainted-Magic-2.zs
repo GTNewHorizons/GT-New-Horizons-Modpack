@@ -501,7 +501,7 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:162>.withTag
 [<dreamcraft:item.ShadowmetalCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Shadowmetal Attuned Silverwood Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood_staff", <Thaumcraft:WandCasting:288>.withTag({cap: "shadowmetal", rod: "silverwood_staff"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 2500", [
+mods.thaumcraft.Arcane.addShaped("ROD_silverwood_staff", <Thaumcraft:WandCasting:288>.withTag({cap: "shadowmetal", rod: "silverwood_staff"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
 [<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.ShadowmetalCap>],
 [<ore:screwChrome>, <Thaumcraft:WandRod:52>, <ore:screwChrome>],
 [<dreamcraft:item.ShadowmetalCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
