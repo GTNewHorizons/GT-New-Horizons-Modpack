@@ -115649,7 +115649,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": []
+      "preRequisites": [
+        214
+      ]
     },
     {
       "questID": 1198,
@@ -118666,6 +118668,47 @@
       ]
     },
     {
+      "name": "Fusion",
+      "description": "Temp",
+      "quests": [
+        {
+          "id": 1197,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1198,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 1199,
+          "x": 72,
+          "y": 0
+        },
+        {
+          "id": 1200,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 1201,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 1202,
+          "x": 216,
+          "y": 0
+        },
+        {
+          "id": 1203,
+          "x": 288,
+          "y": 0
+        }
+      ]
+    },
+    {
       "name": "Coins, Coins, Coins",
       "description": "These quests will guide you to use your Coins wisely and buy some useful or fancy stuff.",
       "quests": [
@@ -120400,47 +120443,6 @@
           "id": 1179,
           "x": 96,
           "y": 108
-        }
-      ]
-    },
-    {
-      "name": "Fusion",
-      "description": "Temp",
-      "quests": [
-        {
-          "id": 1197,
-          "x": 0,
-          "y": 0
-        },
-        {
-          "id": 1198,
-          "x": 144,
-          "y": 0
-        },
-        {
-          "id": 1199,
-          "x": 72,
-          "y": 0
-        },
-        {
-          "id": 1200,
-          "x": 0,
-          "y": 72
-        },
-        {
-          "id": 1201,
-          "x": 0,
-          "y": 144
-        },
-        {
-          "id": 1202,
-          "x": 216,
-          "y": 0
-        },
-        {
-          "id": 1203,
-          "x": 288,
-          "y": 0
         }
       ]
     },
