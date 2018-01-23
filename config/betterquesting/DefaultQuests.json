@@ -1,5 +1,5 @@
 {
-  "editMode": false,
+  "editMode": true,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -67805,7 +67805,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fSteel Hammer"
+                  "Name:8": "ï¿½fSteel Hammer"
                 }
               }
             }
@@ -67980,7 +67980,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fSteel Lumber Axe"
+                  "Name:8": "ï¿½fSteel Lumber Axe"
                 }
               }
             }
@@ -68155,7 +68155,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fSteel Excavator"
+                  "Name:8": "ï¿½fSteel Excavator"
                 }
               }
             }
@@ -81389,7 +81389,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "§fWooden Shortbow"
+            "Name:8": "ï¿½fWooden Shortbow"
           }
         }
       },
@@ -81553,7 +81553,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fWooden Shortbow"
+                  "Name:8": "ï¿½fWooden Shortbow"
                 }
               }
             },
@@ -81591,7 +81591,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fFlint Arrows"
+                  "Name:8": "ï¿½fFlint Arrows"
                 }
               }
             }
@@ -81694,7 +81694,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "§fBronze Javelin"
+            "Name:8": "ï¿½fBronze Javelin"
           }
         }
       },
@@ -81779,7 +81779,7 @@
                   "TotalDurability:4": 35
                 },
                 "display:10": {
-                  "Name:8": "§fBronze Javelin"
+                  "Name:8": "ï¿½fBronze Javelin"
                 }
               }
             }
@@ -81875,7 +81875,7 @@
             "TotalDurability:4": 113
           },
           "display:10": {
-            "Name:8": "§fFlint Throwing Knife"
+            "Name:8": "ï¿½fFlint Throwing Knife"
           }
         }
       },
@@ -81973,7 +81973,7 @@
                   "TotalDurability:4": 113
                 },
                 "display:10": {
-                  "Name:8": "§fFlint Throwing Knife"
+                  "Name:8": "ï¿½fFlint Throwing Knife"
                 }
               }
             }
@@ -104565,7 +104565,7 @@
     {
       "questID": 1105,
       "name": "Division Sigil Stable",
-      "description": "The second ritual will not be as easy as the first one. After this ritual your sigil will be stable enough to make stable unstable ingots which will not explode.\n\nThis ritual needs to be performed in The End dimension. \nThe ritual is performed by placing a Beacon in the centre of a flat area of at least 11×11, not necessarily End Stone. Then place a chest in each of the cardinal directions leaving 4 spaces empty between the chest and the Beacon. In each chest insert these specific contents:\n\nNorth: iron ingot, gold ingot and the other things listed in the task.\nSouth: The different Ore Blocks and the other things listed in the task.\nEast: The potions.\nWest: The Music disks.\n\nA spiral pattern of Redstone and String is then laid out around the beacon. At any time, Shift+Right-clicking the Beacon with an Activated Division Sigil in hand will show the building progress of the ritual.\n\nFinally, kill an Iron Golem while it stands within the ritual area to activate the process. If it works, there will be an explosion that destroys the beacon and chests, while every Enderman in the End vanishes. During the ritual, throngs of aggresive mobs imbued with Haste will begin spawning and attacking the Player who needs to kill 100 of them to complete the ritual. If the Player dies or leaves the dimension, the ritual will fail and will have to be started over. Once enough mobs have been killed, the first activated Sigil in the inventory will stabilize. The Pseudo-Inversion Sigil can be used an unlimited number of times, and dividing an Iron Ingot by Diamond will produce Mobius \"Unstable-Stable\" Ingot which does not explode, can be produced in any crafting interface and will stack up to 64.",
+      "description": "The second ritual will not be as easy as the first one. After this ritual your sigil will be stable enough to make stable unstable ingots which will not explode.\n\nThis ritual needs to be performed in The End dimension. \nThe ritual is performed by placing a Beacon in the centre of a flat area of at least 11ï¿½11, not necessarily End Stone. Then place a chest in each of the cardinal directions leaving 4 spaces empty between the chest and the Beacon. In each chest insert these specific contents:\n\nNorth: iron ingot, gold ingot and the other things listed in the task.\nSouth: The different Ore Blocks and the other things listed in the task.\nEast: The potions.\nWest: The Music disks.\n\nA spiral pattern of Redstone and String is then laid out around the beacon. At any time, Shift+Right-clicking the Beacon with an Activated Division Sigil in hand will show the building progress of the ritual.\n\nFinally, kill an Iron Golem while it stands within the ritual area to activate the process. If it works, there will be an explosion that destroys the beacon and chests, while every Enderman in the End vanishes. During the ritual, throngs of aggresive mobs imbued with Haste will begin spawning and attacking the Player who needs to kill 100 of them to complete the ritual. If the Player dies or leaves the dimension, the ritual will fail and will have to be started over. Once enough mobs have been killed, the first activated Sigil in the inventory will stabilize. The Pseudo-Inversion Sigil can be used an unlimited number of times, and dividing an Iron Ingot by Diamond will produce Mobius \"Unstable-Stable\" Ingot which does not explode, can be produced in any crafting interface and will stack up to 64.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111021,7 +111021,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "§fMagnalium Crossbow"
+            "Name:8": "ï¿½fMagnalium Crossbow"
           }
         }
       },
@@ -111187,7 +111187,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "§fWooden Crossbow"
+            "Name:8": "ï¿½fWooden Crossbow"
           }
         }
       },
@@ -111300,7 +111300,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fWooden Crossbow"
+                  "Name:8": "ï¿½fWooden Crossbow"
                 }
               }
             }
@@ -111621,7 +111621,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "§fIron Bolts"
+            "Name:8": "ï¿½fIron Bolts"
           }
         }
       },
@@ -111741,7 +111741,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fIron Bolts"
+                  "Name:8": "ï¿½fIron Bolts"
                 }
               }
             }
@@ -111949,7 +111949,7 @@
             "Modifiers:4": 0
           },
           "display:10": {
-            "Name:8": "§fIron Bolts"
+            "Name:8": "ï¿½fIron Bolts"
           }
         }
       },
@@ -112063,7 +112063,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fIron Bolts"
+                  "Name:8": "ï¿½fIron Bolts"
                 }
               }
             }
@@ -115555,6 +115555,519 @@
       ],
       "preRequisites": [
         887
+      ]
+    },
+    {
+      "questID": 1197,
+      "name": "Fusion reactor MK2",
+      "description": "Now that you\u0027re entering ZPM you\u0027ll need to find a new power source. Fusion will be able to satisfy your power needs for many tiers to come. While you could make a MK1 reactor, why not make a mark 2 with some of that Europium you found. The reactor will need at least 2 input hatches, 1 output hatch and 1 energy hatch. All these hatches need to be zpm tier or above. You will also need 32 fusion coils, as well as at least 32 fusion machine casings. This reactor is capable of doing all recipes up to to 65536 eu/t to sustain the reaction, and 320,000,000EU needed to start. Each energy hatch is only capable of inputting 4096eu/t no matter the amperage. You can power them with any voltage from 2 amps of EV, to 2 amps ZPM. ",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1194
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 47
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 67
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 57
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1194
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1198,
+      "name": "Upgrading the reactor",
+      "description": "A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatces, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of inputting up to 8192eu/t, and can take as little as 8192eu/t to run, and up to 2 amps of 524288eu/t before it explodes. ",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1195
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 58
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 68
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 48
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1195
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1199
+      ]
+    },
+    {
+      "questID": 1199,
+      "name": "Making americium",
+      "description": "Before you can upgrade your reactor, you will need americium. The recipe to make it will seem expensive, but once you make the next tier of reactor, you will unlock a simplier and cheaper recipe. You will need at least 128 plates for for the reactor casings, 9 to scan for the the recipe, and 4 for the recipe itself. ",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmetal1",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 141,
+              "OreDict": "",
+              "Damage": 11078
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 141,
+              "OreDict": "",
+              "Damage": 11030
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmetal1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 132,
+              "OreDict": "",
+              "Damage": 17103
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1197
+      ]
+    },
+    {
+      "questID": 1200,
+      "name": "Making power with your plasma",
+      "description": "Now that you have a reactor, it\u0027s time to utalize it. The simpliest plasma you can make for power is Helium plasma. It\u0027s renewable from water, but also provides a lot of power. However, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1153
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 31325
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5204
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "circuitUltimate",
+              "Damage": 32090
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1153
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1197
+      ]
+    },
+    {
+      "questID": 1201,
+      "name": "Turbine Time",
+      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock. Neutronium will give you the longest lasting turbine rotors. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 174,
+        "tag": {
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "DraconiumAwakened",
+            "MaxDamage:4": 19660800,
+            "SecondaryMaterial:8": "DraconiumAwakened"
+          }
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 174,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Neutronium",
+                  "MaxDamage:4": 196608000,
+                  "SecondaryMaterial:8": "Neutronium"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1200
+      ]
+    },
+    {
+      "questID": 1202,
+      "name": "Time for another reactor",
+      "description": "While one reactor is nice and all, why not make another? This time you can use the MK3 americium recipe to make it easier. ",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockcasings4",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1198
+      ]
+    },
+    {
+      "questID": 1203,
+      "name": "Making more americium",
+      "description": "Costing just 1 ingot of Plutonium, and 2 buckets of hydrogen, this recipe is much easier and faster than the MK2 version. By making americium plasma, then putting it through a turbine, you will get americium in the liquid state. Again you will need at least 132 plates for the controller, and the fusion machine casings. ",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 17103
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 132,
+              "OreDict": "",
+              "Damage": 11101
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 264,
+              "OreDict": "",
+              "Damage": 30001
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 132,
+              "OreDict": "",
+              "Damage": 17103
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1202
       ]
     }
   ],
@@ -119887,6 +120400,47 @@
           "id": 1179,
           "x": 96,
           "y": 108
+        }
+      ]
+    },
+    {
+      "name": "Fusion",
+      "description": "Temp",
+      "quests": [
+        {
+          "id": 1197,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1198,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 1199,
+          "x": 72,
+          "y": 0
+        },
+        {
+          "id": 1200,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 1201,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 1202,
+          "x": 216,
+          "y": 0
+        },
+        {
+          "id": 1203,
+          "x": 288,
+          "y": 0
         }
       ]
     },
