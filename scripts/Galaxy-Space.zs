@@ -756,30 +756,6 @@ Compressor.addRecipe(<GalaxySpace:plutoglowstone>, <GalaxySpace:item.GlowstoneDu
 
 
 
-// --- Impulsion Compressor Recipes
-
-
-
-
-// --- Heavy Duty Plats Tier 4
-ImplosionCompressor.addRecipe([<dreamcraft:item.HeavyDutyPlateTier4>, <gregtech:gt.metaitem.01:30> * 2], <dreamcraft:item.HeavyDutyAlloyIngotT4>, 32);
-
-// --- Heavy Duty Plats Tier 5
-ImplosionCompressor.addRecipe([<dreamcraft:item.HeavyDutyPlateTier5>, <gregtech:gt.metaitem.01:84> * 4], <dreamcraft:item.HeavyDutyAlloyIngotT5>, 36);
-
-// --- Heavy Duty Plats Tier 6
-ImplosionCompressor.addRecipe([<dreamcraft:item.HeavyDutyPlateTier6>, <gregtech:gt.metaitem.01:83> * 6], <dreamcraft:item.HeavyDutyAlloyIngotT6>, 40);
-
-// --- Heavy Duty Plats Tier 7
-ImplosionCompressor.addRecipe([<dreamcraft:item.HeavyDutyPlateTier7>, <gregtech:gt.metaitem.01:317> * 9], <dreamcraft:item.HeavyDutyAlloyIngotT7>, 44);
-
-// --- Heavy Duty Plats Tier 8
-ImplosionCompressor.addRecipe([<dreamcraft:item.HeavyDutyPlateTier8>, <gregtech:gt.metaitem.01:327> * 12], <dreamcraft:item.HeavyDutyAlloyIngotT8>, 48);
-
-
-
-
-
 // --- Pulverizer Recipes ---
 
 
