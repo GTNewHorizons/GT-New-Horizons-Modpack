@@ -123,6 +123,8 @@ recipes.remove(<Thaumcraft:ItemNugget:5>);
 // --- Adding Recipes ---
 
 
+// --- Salis Mundus
+recipes.addShapeless(<Thaumcraft:ItemResource:14>, [<ore:craftingToolMortar>, <Thaumcraft:ItemShard:6>]);
 
 // --- Phials
 mods.thaumcraft.Research.clearPages("PHIAL");
@@ -131,7 +133,7 @@ recipes.addShapeless(<Thaumcraft:ItemEssence>, [<minecraft:glass_bottle>, <ore:r
 mods.thaumcraft.Research.addCraftingPage("PHIAL", <Thaumcraft:ItemEssence>);
 
 // --- Magic Tallow
-mods.thaumcraft.Crucible.addRecipe("TALLOW", <Thaumcraft:ItemResource:4>, <minecraft:rotten_flesh>, "praecantatio 2, corpus 4, mortuus 2");
+mods.thaumcraft.Crucible.addRecipe("TALLOW", <Thaumcraft:ItemResource:4>, <gregtech:gt.metaitem.01:2877>, "praecantatio 2, corpus 4, mortuus 2");
 
 mods.thaumcraft.Research.setAspects("TALLOW", "corpus 6, praecantatio 6, motus 3");
 mods.thaumcraft.Research.setComplexity("TALLOW", 1);
@@ -352,7 +354,7 @@ mods.thaumcraft.Research.setAspects("BATHSALTS", "sano 9, cognitio 6, auram 9, o
 mods.thaumcraft.Research.setComplexity("BATHSALTS", 2);
 
 // --- Sanitizing Soap
-mods.thaumcraft.Crucible.addRecipe("SANESOAP", <Thaumcraft:ItemSanitySoap> * 2, <Thaumcraft:blockCosmeticSolid:5>, "alienis 20, cognitio 20, sano 20, ordo 20");
+mods.thaumcraft.Crucible.addRecipe("SANESOAP", <Thaumcraft:ItemSanitySoap> * 2, <chisel:tallow>, "alienis 20, cognitio 20, sano 20, ordo 20");
 // -
 mods.thaumcraft.Research.setAspects("SANESOAP", "sano 12, alienis 12, cognitio 9, ordo 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("SANESOAP", 3);

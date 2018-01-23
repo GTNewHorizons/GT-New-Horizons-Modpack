@@ -420,19 +420,19 @@ recipes.addShaped(<openmodularturrets:bulletCraftable> * 64, [
 
 
 // --- Fence Tier 1
-Assembler.addRecipe(<openmodularturrets:fenceTierOne>, <minecraft:iron_bars>, <gregtech:gt.metaitem.01:28305>,  100, 16);
+Assembler.addRecipe(<openmodularturrets:fenceTierOne> * 4, <minecraft:iron_bars>, <gregtech:gt.metaitem.01:28305>,  100, 16);
 
 // --- Fence Tier 2
-Assembler.addRecipe(<openmodularturrets:fenceTierTwo> * 2, <dreamcraft:item.SteelBars>, <gregtech:gt.metaitem.01:28019>, 100, 30);
+Assembler.addRecipe(<openmodularturrets:fenceTierTwo> * 4, <dreamcraft:item.SteelBars>, <gregtech:gt.metaitem.01:28019>, 100, 30);
 
 // --- Fence Tier 3
-Assembler.addRecipe(<openmodularturrets:fenceTierThree> * 2, <EnderIO:blockDarkIronBars>, <gregtech:gt.metaitem.01:28306>, 100, 64);
+Assembler.addRecipe(<openmodularturrets:fenceTierThree> * 4, <EnderIO:blockDarkIronBars>, <gregtech:gt.metaitem.01:28306>, 100, 64);
 
 // --- Fence Tier 4
-Assembler.addRecipe(<openmodularturrets:fenceTierFour> * 2, <dreamcraft:item.TungstenSteelBars>, <gregtech:gt.metaitem.01:28028>, 100, 120);
+Assembler.addRecipe(<openmodularturrets:fenceTierFour> * 4, <dreamcraft:item.TungstenSteelBars>, <gregtech:gt.metaitem.01:28028>, 100, 120);
 
 // --- Fence Tier 5
-Assembler.addRecipe(<openmodularturrets:fenceTierFive> * 2, <dreamcraft:item.IridiumBars>, <gregtech:gt.metaitem.01:28316>, 100, 256);
+Assembler.addRecipe(<openmodularturrets:fenceTierFive> * 4, <dreamcraft:item.IridiumBars>, <gregtech:gt.metaitem.01:28316>, 100, 256);
 
 // --- Based Power Expander Tier 1
 Assembler.addRecipe(<openmodularturrets:expanderPowerTierOne>, <gregtech:gt.blockmachines:4905>, <gregtech:gt.metaitem.01:32500>, 400, 16);

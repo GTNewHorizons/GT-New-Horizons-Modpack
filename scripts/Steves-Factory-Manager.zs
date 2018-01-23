@@ -33,8 +33,8 @@ val Screen = <OpenComputers:screen3>;
 val Computer = <ore:oc:server3>;
 val PistonHV = <gregtech:gt.metaitem.01:32642>;
 val RedAlloyWire = <ProjRed|Transmission:projectred.transmission.wire>;
-val GTSaw = <gregtech:gt.metatool.01:10>;
-val GTHammer = <gregtech:gt.metatool.01:12>;
+val GTSaw = <ore:craftingToolSaw>;
+val GTHammer = <ore:craftingToolHardHammer>;
 val SensorHV = <gregtech:gt.metaitem.01:32692>;
 val EmitterHV = <gregtech:gt.metaitem.01:32682>;
 val PumpHV = <gregtech:gt.metaitem.01:32612>;
@@ -185,7 +185,7 @@ Assembler.addRecipe(TCableCamouflage, DSCableCamouflage, FieldGeneratorLV, <liqu
 Assembler.addRecipe(<StevesAddons:cable_rf>, InventoryCable, <EnderIO:itemPowerConduit>, <liquid:molten.redstone> * 288, 200, 480); 
 
 // --- Energistics Conector
-Assembler.addRecipe(<StevesAddons:cable_ae>, InventoryCable, <appliedenergistics2:tile.BlockInterface>, <liquid:molten.redstone> * 576, 300, 480);
+//Assembler.addRecipe(<StevesAddons:cable_ae>, InventoryCable, <appliedenergistics2:tile.BlockInterface>, <liquid:molten.redstone> * 576, 300, 480);
 
 // --- Manager Dublicator
 Assembler.addRecipe(<StevesAddons:duplicator>, <gregtech:gt.metaitem.01:32762>, <gregtech:gt.metaitem.01:32708>, <liquid:molten.redstone> * 144, 150, 480);

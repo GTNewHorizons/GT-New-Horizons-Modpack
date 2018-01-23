@@ -63,6 +63,7 @@ val MKX = <JABBA:upgradeStructural:9>;
 val MKXI = <JABBA:upgradeStructural:10>;
 val MKXII = <JABBA:upgradeStructural:11>;
 val MKXIII = <JABBA:upgradeStructural:12>;
+val MKXIV = <JABBA:upgradeStructural:13>;
 
 val Piston = <minecraft:piston>;
 val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
@@ -95,9 +96,12 @@ val EnderEyePlate = <ore:plateEnderEye>;
 val EnderChest = <minecraft:ender_chest>;
 val IronWheels = <gregtech:gt.metaitem.01:32100>;
 val SteelWheels = <gregtech:gt.metaitem.01:32101>;
-val GTHammer = <gregtech:gt.metatool.01:12>;
-val GTScrewdriver = <gregtech:gt.metatool.01:22>;
+val GTHammer = <ore:craftingToolHardHammer>;
+val GTScrewdriver = <ore:craftingToolScrewdriver>;
 val RedAlloyPlate = <ore:plateRedAlloy>;
+val SteelScrew= <ore:screwSteel>;
+val BlackPlutoniumPlate = <ore:plateBlackPlutonium>;
+val BlackPlutoniumStick = <ore:stickBlackPlutonium>;
 
 val BSpace = <JABBA:upgradeCore:1>;
 val RSUp = <JABBA:upgradeCore:2>;
@@ -113,6 +117,8 @@ val Storage9Up = <JABBA:upgradeCore:5>;
 val Storage27Up = <JABBA:upgradeCore:6>;
 val Storage81Up = <JABBA:upgradeCore:8>;
 val Storage243Up = <JABBA:upgradeCore:9>;
+
+val Screwdriver = <ore:craftingToolScrewdriver>;
 
 
 
@@ -172,6 +178,9 @@ recipes.remove(MKXII);
 
 // --- Structural Upgrade MK XIII
 recipes.remove(MKXIII);
+
+// --- Structural Upgrade MK XIV
+recipes.remove(MKXIV);
 
 // --- Storage Upgrade
 recipes.remove(StorageUp);
@@ -320,6 +329,12 @@ recipes.addShaped(MKXIII, [
 [NeutroniumPlate, Barrel, NeutroniumPlate],
 [NeutroniumStick, NeutroniumPlate, NeutroniumStick]]);
 
+// --- Structural Upgrade MK XIV
+recipes.addShaped(MKXIV, [
+[BlackPlutoniumStick, BlackPlutoniumPlate, BlackPlutoniumStick],
+[BlackPlutoniumPlate, Barrel, BlackPlutoniumPlate],
+[BlackPlutoniumStick, BlackPlutoniumPlate, BlackPlutoniumStick]]);
+
 // --- BSpace Barrel Upgrade
 recipes.addShaped(BSpace * 2, [
 [EnderEyePlate, Piston, EnderEyePlate],
@@ -344,7 +359,11 @@ recipes.addShaped(VoidUp, [
 [Piston, <Railcraft:machine.beta:11>, Piston],
 [IronPlate, Piston, IronPlate]]);
 
-
+// --- Storage Upgrade
+recipes.addShaped(StorageUp, [
+[SteelScrew, Piston, SteelScrew],
+[SteelScrew, Barrel, SteelScrew],
+[null, Screwdriver, null]]);
 
 
 

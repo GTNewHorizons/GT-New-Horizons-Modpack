@@ -338,6 +338,9 @@ mods.forestry.Carpenter.removeRecipe(<Forestry:crate>);
 // --- Torch
 mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 
+// --- Irradiated Comb
+mods.forestry.Centrifuge.removeRecipe(<Forestry:beeCombs:9>);
+
 
 
 
@@ -740,6 +743,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 <IC2:itemCasing:1>, <IC2:itemPartCircuit>, <IC2:itemCasing:1>, 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:1>, <gregtech:gt.metaitem.01:27500>], 
 <dreamcraft:item.Display>, <Forestry:beealyzer>);
+// -
+recipes.addShapeless(<Forestry:beealyzer>, [<Forestry:beealyzer>]);
 
 // --- Treealyzer
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
@@ -747,6 +752,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 <IC2:itemCasing>, <IC2:itemPartCircuit>, <IC2:itemCasing> , 
 <gregtech:gt.metaitem.01:27500>, <IC2:itemCasing>, <gregtech:gt.metaitem.01:27500>], 
 <dreamcraft:item.Display>, <Forestry:treealyzer>);
+// -
+recipes.addShapeless(<Forestry:treealyzer>, [<Forestry:treealyzer>]);
 
 // --- Flutterlyzer
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
@@ -1102,7 +1109,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:creosote> * 1000,
 recipes.addShaped(<Forestry:infuser>, [
 [null, <ore:stickBronze>, null],
 [null, <ore:stickIron>, null],
-[<gregtech:gt.metatool.01:12>, <minecraft:iron_bars>, <gregtech:gt.metatool.01:18>]]);
+[<ore:craftingToolHardHammer>, <minecraft:iron_bars>, <ore:craftingToolFile>]]);
 
 // --- Pipette
 recipes.addShaped(<Forestry:pipette>, [
@@ -2704,13 +2711,13 @@ recipes.addShapeless(<Forestry:factory2:2>, [<ProjRed|Expansion:projectred.expan
 
 // --- Minecart with Bee House
 recipes.addShaped(<Forestry:cart.beehouse>, [
-[null, <gregtech:gt.metatool.01:22>, null],
+[null, <ore:craftingToolScrewdriver>, null],
 [<ore:screwSteel>, <Forestry:apiculture:2>, <ore:screwSteel>],
 [<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
 
 // --- Minecart with Apiary
 recipes.addShaped(<Forestry:cart.beehouse:1>, [
-[null, <gregtech:gt.metatool.01:22>, null],
+[null, <ore:craftingToolScrewdriver>, null],
 [<ore:screwSteel>, <Forestry:apiculture>, <ore:screwSteel>],
 [<ore:screwSteel>, <minecraft:minecart>, <ore:screwSteel>]]);
 
@@ -2824,6 +2831,14 @@ FluidSolidifier.addRecipe(<Forestry:honeyDrop>, <gregtech:gt.metaitem.01:32309> 
 
 
 
+
+// --- Ordict support ---
+
+
+// --- Honey Drop
+oreDict.foodHoneydrop.add(<Forestry:honeyDrop>);
+// -
+oreDict.listAllsugar.add(<Forestry:honeyDrop>);
 
 
 // --- Renaming Stuff ---

@@ -131,6 +131,8 @@ recipes.addShaped(RemoteInterface * 2, [
 [InsaneRegulator, EVSensor, InsaneRegulator],
 [<ore:circuitElite>, TungstenCable, <ore:circuitElite>],
 [InsaneRegulator, EVEmitter, InsaneRegulator]]);
+// -
+recipes.addShapeless(<RIO:tile.remote_interface>, [<RandomThings:playerinterface>]);
 
 // --- Water Reservoir
 recipes.addShaped(Reservoir, [
@@ -199,7 +201,30 @@ Assembler.addRecipe(Remote, <WR-CBE|Logic:wirelessLogic>, <WR-CBE|Logic:wireless
 Assembler.addRecipe(BlankPlate, <TConstruct:blankPattern:1>, <gregtech:gt.metaitem.01:17316>, <liquid:molten.redstone> * 100, 200, 480);
 
 // --- Location Chip
-Assembler.addRecipe(Location, <gregtech:gt.metaitem.01:32704> * 2, EFlow * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.01:32704> * 2, <gregtech:gt.metaitem.01:32705> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.01:32704> * 2, <gregtech:gt.metaitem.03:32084> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.01:32704> * 2, <gregtech:gt.metaitem.03:32086> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.01:32704> * 2, <gregtech:gt.metaitem.03:32089> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.03:32083> * 2, <gregtech:gt.metaitem.01:32705> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.03:32083> * 2, <gregtech:gt.metaitem.03:32084> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.03:32083> * 2, <gregtech:gt.metaitem.03:32086> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.03:32083> * 2, <gregtech:gt.metaitem.03:32089> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.03:32085> * 2, <gregtech:gt.metaitem.01:32705> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.03:32085> * 2, <gregtech:gt.metaitem.03:32084> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.03:32085> * 2, <gregtech:gt.metaitem.03:32086> * 2, <liquid:ender> * 1000, 600, 480);
+// -
+Assembler.addRecipe(Location, <gregtech:gt.metaitem.03:32085> * 2, <gregtech:gt.metaitem.03:32089> * 2, <liquid:ender> * 1000, 600, 480);
 
 // --- Item Transfer Chip
 Assembler.addRecipe(<RIO:item.chip.transfer>, <dreamcraft:item.BlankPlatedChip>, <EnderStorage:enderChest>, 200, 480);

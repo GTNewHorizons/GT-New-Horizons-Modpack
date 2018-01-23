@@ -359,25 +359,25 @@ recipes.addShapeless(<harvestcraft:watergarden>, [<harvestcraft:tropicalgarden>,
 // --- Hardened Leather Helm
 recipes.addShaped(<harvestcraft:hardenedleatherhelmItem>, [
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
-[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [null, null, null]]);
 
 // --- Hardened Leather Chestplate
 recipes.addShaped(<harvestcraft:hardenedleatherchestItem>, [
-[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>]]);
 
 // --- Hardened Leather Leggins
 recipes.addShaped(<harvestcraft:hardenedleatherleggingsItem>, [
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
-[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>]]);
 
 // --- Hardened Leather Boots
 recipes.addShaped(<harvestcraft:hardenedleatherbootsItem>, [
 [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>],
-[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [null, null, null]]);
 
 // --- Hardened Leather

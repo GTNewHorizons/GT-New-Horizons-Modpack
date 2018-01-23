@@ -532,6 +532,9 @@ recipes.remove(<GalacticraftCore:item.basicItem:20>);
 // --- Raw meteoric Iron
 furnace.remove(<ore:ingotMeteoricIron>, <GalacticraftCore:item.meteoricIronRaw>);
 
+// --- Parachute
+recipes.remove(<GalacticraftCore:item.parachute>);
+
 
 
 
@@ -705,15 +708,15 @@ recipes.addShaped(<GalacticraftCore:item.basicItem:1>, [
 
 // --- Energy Storage Module
 recipes.addShaped(<GalacticraftCore:tile.machineTiered>, [
-[CompressedSteel, <IC2:itemBatChargeRE:*>, CompressedSteel],
+[CompressedSteel, <IC2:itemBatChargeRE:26>, CompressedSteel],
 [<ore:cableGt01AnyCopper>, <gregtech:gt.blockmachines:11>, <ore:cableGt01AnyCopper>],
-[BWafer, <IC2:itemBatChargeRE:*>, BWafer]]);
+[BWafer, <IC2:itemBatChargeRE:26>, BWafer]]);
 
 // --- Energy Storage Cluster
 recipes.addShaped(<GalacticraftCore:tile.machineTiered:8>, [
-[CompressedTi, <IC2:itemBatChargeAdv:*>, CompressedTi],
+[CompressedTi, <IC2:itemBatChargeAdv:26>, CompressedTi],
 [<ore:cableGt02Gold>, <gregtech:gt.blockmachines:12>, <ore:cableGt02Gold>],
-[AdvWafer, <IC2:itemBatChargeAdv:*>, AdvWafer]]);
+[AdvWafer, <IC2:itemBatChargeAdv:26>, AdvWafer]]);
 
 // --- Spin Truster
 recipes.addShaped(<GalacticraftCore:tile.spinThruster>, [
@@ -1028,7 +1031,12 @@ recipes.addShaped(<GalacticraftCore:item.buggymat:2>, [
 recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
 [CompressedAl, <gregtech:gt.metaitem.01:32690>, CompressedAl],
 [BWafer, <gregtech:gt.metaitem.01:32740>, BWafer],
-[CompressedTin, <GalacticraftCore:item.battery:*>, CompressedTin]]);
+[CompressedTin, <GalacticraftCore:item.battery>, CompressedTin]]);
+// -
+recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
+[CompressedAl, <gregtech:gt.metaitem.01:32690>, CompressedAl],
+[BWafer, <gregtech:gt.metaitem.01:32740>, BWafer],
+[CompressedTin, <GalacticraftCore:item.battery:100>, CompressedTin]]);
 
 // --- Walk away
 recipes.addShaped(<GalacticraftMars:tile.walkway> * 2, [
@@ -1131,9 +1139,9 @@ recipes.addShaped(<GalacticraftMars:item.orionDrive>, [
 
 // --- Canvas
 recipes.addShaped(<GalacticraftCore:item.canvas>,  [
-[null, <ore:platePaper>, <ore:stickWood>],
-[<ore:platePaper>, <minecraft:string>, <ore:platePaper>],
-[<ore:stickWood>, <ore:platePaper>, null]]);
+[null, <harvestcraft:wovencottonItem>, <ore:stickPlastic>],
+[<harvestcraft:wovencottonItem>, <ore:stickPlastic>, <harvestcraft:wovencottonItem>],
+[<ore:stickPlastic>, <harvestcraft:wovencottonItem>, null]]);
 
 // --- Ambiete Thermal Controller
 recipes.addShaped(<GalacticraftCore:item.basicItem:20>,  [
@@ -1179,6 +1187,15 @@ recipes.addShaped(<GalacticraftMars:item.schematic:1>, [
 [null, <GalacticraftMars:item.schematic:2>, null],
 [null, null, null],
 [null, null, null]]);
+
+// --- Parachute
+recipes.addShaped(<GalacticraftCore:item.parachute>, [
+[<GalacticraftCore:item.canvas>, <GalacticraftCore:item.canvas>, <GalacticraftCore:item.canvas>],
+[<ore:wireFineSteel>, null, <ore:wireFineSteel>],
+[<ore:wireFineSteel>, <ore:wireFineSteel>, <ore:wireFineSteel>]]);
+
+// --- Raw Meteoric Iron
+recipes.addShapeless(<GalacticraftCore:item.meteoricIronRaw>, [<GalacticraftCore:item.meteoricIronRaw:*>]);
 
 // --- Rocket Tier 1
 mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship>,[
@@ -1620,9 +1637,20 @@ Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 4, <Galacticr
 
 // --- Oxygen Mask
 Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:glue> * 144, 400, 120);
+// -
+Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:refinedglue> * 144, 400, 120);
+// -
+Assembler.addRecipe(<GalacticraftCore:item.oxygenMask>, <IC2:itemArmorHazmatHelmet>, <dreamcraft:item.ReinforcedGlassPlate> * 16, <liquid:molten.rubber> * 72, 400, 120);
 
 // --- Solar Panel
 Assembler.addRecipe(<GalacticraftCore:item.basicItem>, SolarPanel, <GalacticraftCore:item.basicItem:9>, 200, 120);
+
+// --- Canvas
+Assembler.addRecipe(<GalacticraftCore:item.canvas>,  <harvestcraft:wovencottonItem> * 2, <gregtech:gt.metaitem.01:23874> * 2, 300, 480);
+
+// --- Parachute
+Assembler.addRecipe(<GalacticraftCore:item.parachute>, <GalacticraftCore:item.canvas> * 2, <gregtech:gt.metaitem.02:19305> * 3, 300, 480);
+
 
 
 

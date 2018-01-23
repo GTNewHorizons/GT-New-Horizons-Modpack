@@ -86,6 +86,9 @@ mods.chisel.Groups.removeVariation(<minecraft:stonebrick:1>);
 // --- Energised Voidstone
 recipes.remove(<chisel:voidstone2>);
 
+// --- Concrete
+furnace.remove(<chisel:concrete>);
+
 
 
 
@@ -160,6 +163,7 @@ recipes.addShaped(<chisel:voidstone2> * 8, [
 [<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>],
 [<chisel:voidstone>, <ore:dustGlowstone>, <chisel:voidstone>],
 [<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>]]);
+
 
 
 
@@ -280,6 +284,9 @@ mods.chisel.Groups.addVariation("marble", <Railcraft:cube:7>);
 //-
 mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones>);
 
+// --- Abyssal Stone
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites>);
+
 // --- Limestone
 mods.chisel.Groups.addVariation("limestone", <BiomesOPlenty:rocks>);
 
@@ -322,6 +329,11 @@ mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:13>);
 mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrick:12>);
 // -
 mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrickfancy:12>);
+
+
+// --- Chiselgroup Concrete
+mods.chisel.Groups.addVariation("concrete", <gregtech:gt.blockconcretes:8>);
+
 
 
 

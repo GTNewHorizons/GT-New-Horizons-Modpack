@@ -100,7 +100,7 @@ recipes.addShaped(<AdvancedSolarPanel:advanced_solar_helmet>, [
 // --- Hybrid Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:hybrid_solar_helmet>, [
 [<ore:craftingToolWrench>, <AdvancedSolarPanel:BlockAdvSolarPanel:1>, <ore:craftingToolScrewdriver>],
-[<ore:circuitMaster>, <IC2:itemArmorQuantumHelmet:1>, <ore:circuitMaster>],
+[<ore:circuitMaster>, <IC2:itemArmorQuantumHelmet:26>, <ore:circuitMaster>],
 [<ore:cableGt04Platinum>, <gregtech:gt.blockmachines:23>, <ore:cableGt04Platinum>]]);
 
 // --- Ultimate Solar Helm

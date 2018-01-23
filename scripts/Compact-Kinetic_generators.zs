@@ -114,13 +114,13 @@ recipes.addShaped(<compactkineticgenerators:BlockCkg:7>, [
 // --- Low Kinetic Generator
 recipes.addShaped(<compactkineticgenerators:BlockCkg:8>, [
 [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>],
-[<IC2:itemBatCrystal:*>, <gregtech:gt.blockmachines:14>, <IC2:blockGenerator:9>],
+[<IC2:itemBatCrystal:26>, <gregtech:gt.blockmachines:14>, <IC2:blockGenerator:9>],
 [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 
 // --- Medium Kinetic Generator
 recipes.addShaped(<compactkineticgenerators:BlockCkg:9>, [
 [<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>],
-[<IC2:itemBatLamaCrystal:*>, <gregtech:gt.blockmachines:15>, <compactkineticgenerators:BlockCkg:8>],
+[<IC2:itemBatLamaCrystal:26>, <gregtech:gt.blockmachines:15>, <compactkineticgenerators:BlockCkg:8>],
 [<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>]]);
 
 // --- High Kinetic Generator

@@ -251,6 +251,32 @@ val Map = <minecraft:map>;
 val Paper = <ore:paperEmpty>;
 val WoodDoor = <minecraft:wooden_door>;
 val IronDoor = <minecraft:iron_door>;
+val Sign = <minecraft:sign>;
+
+val Sticks = <minecraft:stick>;
+val Sticks1 = <Natura:natura.stick:*>;
+
+val Planks = <gregtech:gt.metaitem.02:32470>;
+val Planks1 = <gregtech:gt.metaitem.02:32471>;
+val Planks2 = <gregtech:gt.metaitem.02:32472>;
+val Planks3 = <gregtech:gt.metaitem.02:32473>;
+val Planks4 = <gregtech:gt.metaitem.02:32474>;
+val Planks5 = <gregtech:gt.metaitem.02:32475>;
+val Planks6 = <gregtech:gt.metaitem.02:32476>;
+val Planks7 = <gregtech:gt.metaitem.02:32477>;
+val Planks8 = <gregtech:gt.metaitem.02:32478>;
+val Planks9 = <gregtech:gt.metaitem.02:32479>;
+val Planks10 = <gregtech:gt.metaitem.02:32480>;
+val Planks11 = <gregtech:gt.metaitem.02:32481>;
+val Planks12 = <gregtech:gt.metaitem.02:32482>;
+val Planks13 = <gregtech:gt.metaitem.02:32483>;
+val Planks14 = <gregtech:gt.metaitem.02:32484>;
+val Planks15 = <gregtech:gt.metaitem.02:32485>;
+val Planks16 = <gregtech:gt.metaitem.02:32486>;
+val Planks17 = <gregtech:gt.metaitem.02:32487>;
+val Planks18 = <gregtech:gt.metaitem.02:32488>;
+val Planks19 = <gregtech:gt.metaitem.02:32489>;
+val Planks20 = <gregtech:gt.metaitem.02:32490>;
 
 
 // --- Removing Recipes ---
@@ -349,9 +375,6 @@ recipes.remove(Fence);
 
 // --- Fence Gate
 recipes.remove(FenceGate);
-
-// --- Iron Bars
-recipes.remove(IronBars);
 
 // --- Enchantment Table
 recipes.remove(EnchantingTable);
@@ -1104,19 +1127,19 @@ recipes.addShapeless(JackOLantern,
 
 // --- Trappdoor
 recipes.addShaped(Trapdoor, [
-[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>],
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
 [Stick, Flint, Stick],
-[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>]]);
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
 // --- 
 recipes.addShaped(Trapdoor * 2, [
-[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>],
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
 [Stick, IronScrew, Stick],
-[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>]]);
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
 // ---
 recipes.addShaped(Trapdoor * 3, [
-[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>],
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>],
 [Stick, SteelScrew, Stick],
-[<minecraft:wooden_slab:*>, Stick, <minecraft:wooden_slab:*>]]);
+[<minecraft:wooden_slab>, Stick, <minecraft:wooden_slab>]]);
 
 // --- Pressure Plate
 recipes.addShaped(<minecraft:stone_pressure_plate> * 2, [
@@ -1257,12 +1280,6 @@ recipes.addShaped(FenceGate * 6, [
 [SteelScrew, Screwdriver, SteelScrew],
 [CarpentersBlock, Stick, CarpentersBlock],
 [CarpentersBlock, Stick, CarpentersBlock]]);
-
-// --- Iron Bars
-recipes.addShaped(IronBars * 3, [
-[null, HHammer, null],
-[IronRod, IronRod, IronRod],
-[IronRod, IronRod, IronRod]]);
 
 // --- Redstone Lamp
 recipes.addShaped(RSLamp, [
@@ -2192,55 +2209,55 @@ recipes.addShapeless(Sugar,
 // --- Diamond Sword
 recipes.addShaped(<minecraft:diamond_sword>, [
 [null, <gregtech:gt.metaitem.01:17500>, null],
-[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>],
 [null, <minecraft:stick>, null]]);
 
 // --- Diamond Shovel
 recipes.addShaped(<minecraft:diamond_shovel>, [
-[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>],
 [null, <minecraft:stick>, null],
 [null, <minecraft:stick>, null]]);
 
 // --- Diamond Pickaxe
 recipes.addShaped(<minecraft:diamond_pickaxe>, [
 [<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <minecraft:diamond>],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <minecraft:stick>, <ore:craftingToolHardHammer>],
 [null, <minecraft:stick>, null]]);
 
 // --- Diamond Axe
 recipes.addShaped(<minecraft:diamond_axe>, [
-[<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <gregtech:gt.metatool.01:12>],
+[<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <ore:craftingToolHardHammer>],
 [<gregtech:gt.metaitem.01:17500>, <minecraft:stick>, null],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, null]]);
+[<ore:craftingToolFile>, <minecraft:stick>, null]]);
 
 // --- Diamond Hoe
 recipes.addShaped(<minecraft:diamond_hoe>, [
-[<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <gregtech:gt.metatool.01:12>],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, null],
+[<gregtech:gt.metaitem.01:17500>, <minecraft:diamond>, <ore:craftingToolHardHammer>],
+[<ore:craftingToolFile>, <minecraft:stick>, null],
 [null, <minecraft:stick>, null]]);
 
 // --- Diamond Helm
 recipes.addShaped(<minecraft:diamond_helmet>, [
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
-[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
+[<gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17500>],
 [null, null, null]]);
 
 // --- Diamond Chestplate
 recipes.addShaped(<minecraft:diamond_chestplate>, [
-[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
+[<gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>]]);
 
 // --- Diamond Leggins
 recipes.addShaped(<minecraft:diamond_leggings>, [
 [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>],
-[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
+[<gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17500>],
 [<gregtech:gt.metaitem.01:17500>, null, <gregtech:gt.metaitem.01:17500>]]);
 
 // --- Diamond Boots
 recipes.addShaped(<minecraft:diamond_boots>, [
 [<gregtech:gt.metaitem.01:17500>, null, <gregtech:gt.metaitem.01:17500>],
-[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17500>],
+[<gregtech:gt.metaitem.01:17500>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17500>],
 [null, null, null]]);
 
 // --- Iron Horse Armor
@@ -2271,7 +2288,7 @@ recipes.addShaped(<minecraft:saddle>, [
 recipes.addShaped(<minecraft:clock>, [
 [<gregtech:gt.metaitem.01:28086>, <ore:plateGold>, <gregtech:gt.metaitem.01:28086>],
 [<gregtech:gt.metaitem.01:26086>, <minecraft:comparator>, <gregtech:gt.metaitem.01:26086>],
-[<gregtech:gt.metatool.01:22>, <gregtech:gt.metaitem.01:27086>, <gregtech:gt.metatool.01:16>]]);
+[<ore:craftingToolScrewdriver>, <gregtech:gt.metaitem.01:27086>, <ore:craftingToolWrench>]]);
 
 // --- Compass
 recipes.addShaped(<minecraft:compass>, [
@@ -2283,6 +2300,11 @@ recipes.addShaped(<minecraft:compass>, [
 recipes.addShaped(ClayBlock * 2, [
 [<ore:itemClay>, <ore:itemClay>, <ore:itemClay>],
 [<ore:itemClay>, <minecraft:water_bucket>, <ore:itemClay>],
+[<ore:itemClay>, <ore:itemClay>, <ore:itemClay>]]);
+// -
+recipes.addShaped(ClayBlock * 2, [
+[<ore:itemClay>, <ore:itemClay>, <ore:itemClay>],
+[<ore:itemClay>, <IguanaTweaksTConstruct:clayBucketWater>, <ore:itemClay>],
 [<ore:itemClay>, <ore:itemClay>, <ore:itemClay>]]);
 
 // --- Pumpkin Seeds
@@ -3101,6 +3123,92 @@ Assembler.addRecipe(<minecraft:ladder> * 4, <minecraft:stick> * 2, <gregtech:gt.
 
 // --- Brick Blocks
 Assembler.addRecipe(<minecraft:brick_block> * 2, <minecraft:brick> * 8, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 500, 300, 16);
+
+// --- Sign
+Assembler.addRecipe(Sign * 3, Sticks, Planks, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks1, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks2, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks3, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks4, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks5, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks6, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks7, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks8, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks9, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks10, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks11, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks12, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks13, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks14, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks15, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks16, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks17, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks18, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks19, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks, Planks20, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks1, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks2, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks3, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks4, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks5, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks6, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks7, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks8, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks9, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks10, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks11, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks12, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks13, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks14, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks15, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks16, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks17, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks18, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks19, 100, 4);
+// -
+Assembler.addRecipe(Sign * 3, Sticks1, Planks20, 100, 4);
+
 
 
 

@@ -6,14 +6,14 @@
 ## Gregified modpack via Modtweaker (MODS GET GREGED)
 
 
-Version 2.0 is out 10.09.2017
+Version 2.0.2.7 is out 15.01.2017
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
 ## Large Modpack with every recipe Gregified
 
 Hey guys, I'd like to open up my project and get more players.<BR>
-I've been working on it for 2,5 years and still got a lot more work to do.
+I've been working on it for 3 years and still got a lot more work to do.
 
 The pack has around 200+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
 An example of Tiering (work in progress) is here:
@@ -77,16 +77,13 @@ http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
-Official EU Test Server
-zeta.gtnewhorizons.com<BR>
-
  
 Dirt Huts EU Server Whitelisted<BR>
 http://dirthuts.com<BR>
-138.201.134.44:25562<BR>
+s1.digtobuild.com:25560<BR>
 
 
-## US Server:<BR>
+## US/Canada Server:<BR>
 
 Prospercraft Greylist<BR>
 http://www.prospercraft.com/<BR>
@@ -95,13 +92,19 @@ newhorizons.prospercraft.com<BR>
 
 
 Stone Legion Whitelist<BR>
-http://stonelegion.com<BR>
-mc.stonelegion.com<BR>
+http://stonelegion.com/<BR>
+s5.stonelegion.com:2005<BR>
 
 
 Bacon Gaming Whitelist<BR>
 https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
 Bacongaming.net:25577<BR><BR>
+
+
+Grace Craft Anarchy No Whitelist<BR>
+Discord Server:  https://discord.gg/cBQUpSr
+149.56.109.207
+
 
 
 ## German Server Public:<BR>
@@ -112,48 +115,50 @@ gtnewhorizons.myftb.de
 
 
 ## Resource Realistic Sky GT New Horizons
-created by MajaProduction needs Optifine installed<BR><BR>
+created by MajaProduction needs Optifine installed<BR>
+you find it in your resource folder<BR>
 
 
 
 ---
 
 
-## Modlist - NewHorizons 2.0 --- 10.09.2017<BR>
+## Modlist - NewHorizons<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
-* Adventure Backpack 0.9gbeta18<BR>
+* Adventure Backpack 0.9gbeta19<BR>
 * AE2 Stuff	0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU	1.2.3.a<BR>
 * Anger Mod	0.6<BR>
 * AppleCore	1.3.9<BR>
-* Applied Energistics rv3stable6<BR>
+* Applied Energistics rv3stable6a<BR>
 * Aqua Creeper 1.0.1<BR>
 * Architecture Craft 1.4.2<BR>
 * AsieLib	0.4.8<BR>
 * Auto Packer	1.5.9a<BR>
 * Automagy	0.28.2<BR>
-* Avaritia 1.14<BR>
-* Avaritiaddons 1.4<BR>
+* Avaritia 1.14custom<BR>
+* Avaritiaddons 1.4b<BR>
 * BackPack	2.2.4<BR>
 * Baubles	1.0.1.11<BR>
 * BdLib	1.9.3.109<BR>
 * Bee Better At Bees 0.3<BR>
+* Berries ++ 1.1.1c<BR>
+* Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
-* Better Questing 1.0.178<BR>
-* Better Questing Themed 1.0.0<BR>
+* Better Questing 1.0.173custom<BR>
 * Bibliocraft	1.11.7<BR>
 * Bibliowoods	1.9/1.7/1.5<BR>
 * Binnie Mods	2.0-22<BR>
-* Biomes o Plenty	2.1.0.2027<BR>
+* Biomes o Plenty	2.1.0.2308<BR>
 * BlockLimiter	0.51a<BR>
 * Blood Arsenal	1.2.7<BR>
 * BloodMagic	1.3.3.24<BR>
 * Bloody Quest 1.1.0<BR>
 * Brandon's Core	1.0.0.12<BR>
-* Buildcraft	7.1.22<BR>
-* Buildcraft Compat	7.1.6<BR>
+* Buildcraft	7.1.23<BR>
+* Buildcraft Compat	7.1.7<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks	3.3.8.1<BR>
 * Catwalk Mod 1.1.0<BR>
@@ -166,9 +171,9 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Computronics	1.6.5<BR>
 * Craft Tweaker 3.0.12<BR>
 * Custom Main Menu 1.9.2<BR>
-* Datrev Scanner Mod 0.5custom<BR>
+* Datrev Scanner Mod 1.4custom<BR>
 * Default World Generator 0.1-b13<BR>
-* Draconic Evolution	1.0.2k<BR>
+* Draconic Evolution	1.0.2l<BR>
 * Dummy Core 1.13<BR>
 * Electro Magic Tools	1.2.6.5b<BR>
 * Enchiridion 	2.0.2a<BR>
@@ -179,7 +184,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Enhanced Loot Bags 1.0.2a<BR>
 * Enhanced Portals 3	3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
-* Extra Cells	2.3.14b199<BR>
+* Extra Cells	2.3.14b200<BR>
 * Extra Utilities	1.2.13<BR>
 * FastCraft	1.23<BR>
 * Flood Light	1.2.8.137<BR>
@@ -191,19 +196,19 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Gadomancy 1.0.7.3<BR>
 * Galacticraft-Planets	3.0.12.502<BR>
 * GalacticraftCore	3.0.12.502<BR>
-* GalactiGreg	0.9.6<BR>
+* GalactiGreg	0.9.8<BR>
 * Galaxy Space	1.1.3a<BR>
 * Gendustry	1.6.4.135<BR>
 * Gravitation Suite	2.0.68u<BR>
-* Gregtech	5.09.32.01<BR>
-* GT Scanner Mod 1.1<BR>
-* GT New Horizons Core Mod	1.5.7<BR>
-* GT++ 1.6.02<BR>
+* Gregtech	5.09.32.19<BR>
+* GT Scanner Mod 1.4<BR>
+* GT New Horizons Core Mod	1.5.18<BR>
+* GT++ 1.6.110<BR>
 * GTTweaker	1.1.1<BR>
 * Hardcore Ender Expansion	1.8.6<BR>
 * Help Fixer	1.0.7<BR>
 * Holo Inventory	1.9.1.124<BR>
-* Hunger Overhaul	1.0.0.104<BR>
+* Hunger Overhaul	1.0.2<BR>
 * Chisel	2.5.1.44<BR>
 * Chisel Tones 1.0.3<BR>
 * IC2 Nuclear Control	2.4.1a<BR>
@@ -218,8 +223,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Iron Tanks	1.1.65a<BR>
 * Jabba	1.2.5<BR>
 * JourneyMap	5.1.4p2<BR>
-* Lava Monsters	2.2.1<BR>
-* Lootgames 1.0.12<BR>
+* Lootgames 1.0.16<BR>
 * Magic Bees	2.4.3<BR>
 * Malisis Core	0.14.3<BR>
 * Malisis Doors	1.13.2<BR>
@@ -231,20 +235,21 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Mouse Tweaks 2.4.4<BR>
 * MrTJPCore	1.1.0.33<BR>
 * Natura	2.2.0.1.9.126<BR>
+* Natures Compass 1.3.1<BR>
 * NEI	1.0.5.120<BR>
 * Nei Addons	1.12.15.41<BR>
 * Nei Integration	1.1.2<BR>
 * Nodal Mechanics	1.1-19<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks	1.6.753<BR>
-* Open Computers	1.6.2.12<BR>
+* Open Computers	1.7.1 Build 1127<BR>
 * Open Mods Lib	0.10.465<BR>
 * Open Modular Turrets 2.2.10.238<BR>
 * Open Peripheral Addons 0.6.249<BR>
 * Open Peripheral Core 1.4.280<BR>
 * Open Peripheral Integration 0.6.95<BR>
 * Open Printers	0.1.0.132<BR>
-* Open Security	1.0-103<BR>
+* Open Security	1.0-104<BR>
 * p455w0rdslib 1.0.4<BR>
 * Pam's Harvestcraft	1.7.10-m<BR>
 * Pam's Harvestcraft Nether	1.7.10a<BR>
@@ -257,7 +262,7 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * Project Red-Lightning	4.7.0pre12.95GT<BR>
 * Project Red-Mechanical	4.7.0pre12.95GT<BR>
 * Project Red-World	4.7.0pre12.95GT<BR>
-* Questbook 1.1.0<BR>
+* Questbook 1.1.0a unofficial<BR>
 * Railcraft	9.12.2.1<BR>
 * Random Things	2.2.4<BR>
 * Realistic World Gen	1.3.2<BR>
@@ -269,35 +274,35 @@ created by MajaProduction needs Optifine installed<BR><BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs	3.3.0<BR>
-* Spice of Life	1.3.8<BR>
-* Standard Expansion 1.0.94<BR>
+* Spice of Life	1.3.11<BR>
+* Standard Expansion 1.0.108custom<BR>
 * Steve's Carts	2.0.0.18b<BR>
 * Steve's Factory Manager	ALPHA93<BR>
 * Steve's Factory Manager Addon	0.10.16<BR>
-* Storage Drawers	1.10.8b<BR>
-* Storage Drawers Wood Addons 1.1.2b<BR>
+* Storage Drawers	1.10.9<BR>
+* Storage Drawers Wood Addons 1.1.2c<BR>
 * Tainted Magic	r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.5.0<BR>
+* Tec Tech 3.6.2b<BR>
 * Thaumcraft	4.2.3.5<BR>
 * Thaumcraft Mob Aspects	2B-snapsh17<BR>
 * ThaumcraftNEIPlugins	1.7a<BR>
-* Thaumic Bases	1.4.15.0<BR>
+* Thaumic Bases	1.4.16.0<BR>
 * Thaumic Energistics	1.0.0.5<BR>
-* Thaumic Exploration	1.1.70<BR>
+* Thaumic Exploration	1.1.72<BR>
 * Thaumic Horizon	1.1.9<BR>
 * Thaumic Machina	0.2.1<BR>
 * Thaumic Tinkerer	2.5.553<BR>
 * TiCTooltips	1.2.5<BR>
-* Tinker's Construct	1.8.9.5-GTNH<BR>
-* Tinker's Gregworks	1.0.17<BR>
+* Tinker's Construct	1.8.9.7-GTNH<BR>
+* Tinker's Gregworks	1.0.18<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks	02.14.106<BR>
 * Too Much Loot 4.0.2.B1<BR>
 * Translocator	1.1.2.16<BR>
 * Twillight Forest	2.3.7<BR>
 * Ulity Mobs	3.1.1<BR>
-* Ulity Worlds	1.0.9<BR>
+* Ulity Worlds	1.0.9d<BR>
 * Universal Singularities Version 8.4<BR>
 * Waila	1.5.10<BR>
 * Waila Harvestability	1.1.6<BR>

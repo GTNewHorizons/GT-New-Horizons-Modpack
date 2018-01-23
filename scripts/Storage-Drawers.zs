@@ -1033,6 +1033,12 @@ for i, logs in slabsV {
     recipes.addShaped(plank, [[<ore:stickWood>, logs, <ore:stickWood>],[logs, logs, logs],[<ore:stickWood>, logs, <ore:stickWood>]]);
 }
 
+// --- Upgrade Template
+recipes.addShaped(<StorageDrawers:upgradeTemplate>, [
+[<ore:screwSteel>, <minecraft:piston>, <ore:screwSteel>],
+[<ore:screwSteel>, <ore:drawerBasic>, <ore:screwSteel>],
+[null, <ore:craftingToolScrewdriver>, null]]);
+
 
 // --- Assembler recipes ---
 

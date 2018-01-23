@@ -481,6 +481,11 @@ recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnerg
 [Capacitor3, AdvCircuit, Capacitor3],
 [VCrystal, MCasing, VCrystal],
 [Capacitor3, <gregtech:gt.metaitem.01:32540>, Capacitor3]]);
+//-
+recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
+[Capacitor3, AdvCircuit, Capacitor3],
+[VCrystal, MCasing, VCrystal],
+[Capacitor3, <miscutils:MU-metaitem.01:32054>, Capacitor3]]);
 
 // --- Painting Machine
 recipes.addShaped(<EnderIO:blockPainter>, [
@@ -514,7 +519,7 @@ recipes.addShaped(<EnderIO:blockPowerMonitor>, [
 
 // --- Farming Station
 recipes.addShaped(<EnderIO:blockFarmStation>, [
-[PCrystal, <IC2:itemToolHoe:*>, PCrystal],
+[PCrystal, <IC2:itemToolHoe:26>, PCrystal],
 [GCircuit, MCasing, GCircuit],
 [MvMotor, ZLogic, MvMotor]]);
 

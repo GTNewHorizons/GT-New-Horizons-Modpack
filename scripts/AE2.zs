@@ -62,11 +62,12 @@ val CopperCable = <ore:cableGt01Copper>;
 val PlatinumCable = <ore:cableGt04Platinum>;
 val AdvAssembler = <gregtech:gt.blockmachines:212>;
 
+val PrimitiveCircuit = <ore:circuitPrimitive>;
 val BasicCircuit = <ore:circuitBasic>;
 val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
-val DataCircuit = <gregtech:gt.metaitem.01:32704>;
-val EFlow = <gregtech:gt.metaitem.01:32706>;
+val DataCircuit = <ore:circuitData>;
+val EFlow = <ore:circuitMaster>;
 
 val StainlessPlate = <ore:plateStainlessSteel>;
 val EVBatBuffer = <gregtech:gt.blockmachines:194>;
@@ -901,7 +902,7 @@ recipes.addShaped(<appliedenergistics2:item.ToolMassCannon>, [
 
 // --- Memory Card
 recipes.addShaped(<appliedenergistics2:item.ToolMemoryCard>, [
-[CertusCircuit, <gregtech:gt.metaitem.01:32704>, TitaniumPlate],
+[CertusCircuit, <ore:circuitData>, TitaniumPlate],
 [<ore:plateGold>, <ore:plateRedAlloy>, <ore:plateGold>],
 [null, null, null]]);
 
@@ -1088,27 +1089,27 @@ recipes.addShaped(UStorageHousing, [
 
 // --- Storage Cell Component - 1K
 recipes.addShaped(StorageComponent1K, [
-[BasicCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, BasicCircuit],
+[PrimitiveCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, PrimitiveCircuit],
 [<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.LogicProcessorItemGoldCore>, <dreamcraft:item.ChargedCertusQuartzDust>],
-[BasicCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, BasicCircuit]]);
+[PrimitiveCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, PrimitiveCircuit]]);
 
 // --- Storage Cell Component - 4K
 recipes.addShaped(StorageComponent4K, [
-[GoodCircuit, StorageComponent1K, GoodCircuit],
+[BasicCircuit, StorageComponent1K, BasicCircuit],
 [StorageComponent1K, <dreamcraft:item.LogicProcessorItemGoldCore>, StorageComponent1K],
-[GoodCircuit, StorageComponent1K, GoodCircuit]]);
+[BasicCircuit, StorageComponent1K, BasicCircuit]]);
 
 // --- Storage Cell Component - 16K
 recipes.addShaped(StorageComponent16K, [
-[AdvCircuit, StorageComponent4K, AdvCircuit],
+[GoodCircuit, StorageComponent4K, GoodCircuit],
 [StorageComponent4K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent4K],
-[AdvCircuit, StorageComponent4K, AdvCircuit]]);
+[GoodCircuit, StorageComponent4K, GoodCircuit]]);
 
 // --- Storage Cell Component - 64K
 recipes.addShaped(StorageComponent64K, [
-[DataCircuit, StorageComponent16K, DataCircuit],
+[AdvCircuit, StorageComponent16K, AdvCircuit],
 [StorageComponent16K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent16K],
-[DataCircuit, StorageComponent16K, DataCircuit]]);
+[AdvCircuit, StorageComponent16K, AdvCircuit]]);
 
 // --- 2 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:32>, [
@@ -1252,6 +1253,13 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:100>, <appliedenergi
 Assembler.addRecipe(FluixGlassCable * 3, QuartzFiber * 3, FluixDust * 2, 100, 120);
 
 // --- Fluix Covered Cable
+Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.silicone> * 36, 150, 120);
+Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.styrenebutadienerubber> * 36, 150, 120);
+Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.silicone> * 36, 150, 120);
+Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.styrenebutadienerubber> * 36, 150, 120);
+
+Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.silicone> * 72, 150, 120);
+Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 108, 150, 120);
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.rubber> * 144, 150, 120);
 
 // --- ME Dense Cable Fluix
@@ -1292,9 +1300,9 @@ Centrifuge.addRecipe([TinyTNT, TinyTNT], ITNT, 0, 600);
 ChemicalReactor.addRecipe(<dreamcraft:item.ChargedCertusQuartzDust>, <gregtech:gt.metaitem.01:2516> , <minecraft:redstone>, 600);
 
 // --- Charged Certus Quartz Dust
-ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, <liquid:water> * 1000, <dreamcraft:item.ChargedCertusQuartzDust> * 3, <gregtech:gt.metaitem.01:2017>, null, 900, 30);
+ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, null, <dreamcraft:item.ChargedCertusQuartzDust> * 3, <gregtech:gt.metaitem.01:2017>, <liquid:water> * 1000, 900, 30);
 // -
-ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, <liquid:ic2distilledwater> * 1000, <dreamcraft:item.ChargedCertusQuartzDust> * 3, <gregtech:gt.metaitem.01:2017>, null, 700, 30);
+ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, null, <dreamcraft:item.ChargedCertusQuartzDust> * 3, <gregtech:gt.metaitem.01:2017>, <liquid:ic2distilledwater> * 1000, 700, 30);
 
 
 

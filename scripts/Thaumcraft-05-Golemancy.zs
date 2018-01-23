@@ -30,21 +30,21 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:9>);
 // --- All Golems
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>);
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:*>.withTag({advanced: 1 as byte}));
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:1>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:1>.withTag({advanced: 1 as byte}));
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:2>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:2>.withTag({advanced: 1 as byte}));
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:3>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:3>.withTag({advanced: 1 as byte}));
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:4>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:4>.withTag({advanced: 1 as byte}));
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:5>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:5>.withTag({advanced: 1 as byte}));
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:6>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:6>.withTag({advanced: 1 as byte}));
 // -
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:7>);
+//mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemPlacer:7>.withTag({advanced: 1 as byte}));
 
 // --- Golem Animation Core Empty
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemCore:100>);

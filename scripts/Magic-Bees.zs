@@ -402,7 +402,7 @@ mods.thaumcraft.Research.addPage("MB_Scoop", "tc.research_page.MB_Scoop.1");
 mods.thaumcraft.Arcane.addShaped("MB_Scoop", <MagicBees:item.thaumiumScoop>, "ordo 10, terra 10, aer 10", [
 [<gregtech:gt.metaitem.01:23330>, <minecraft:wool:*>, <gregtech:gt.metaitem.01:23330>],
 [<gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>],
-[<gregtech:gt.metatool.01:26>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metatool.01:12>]]);
+[<ore:craftingToolWireCutter>, <gregtech:gt.metaitem.01:23330>, <ore:craftingToolHardHammer>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Scoop", <MagicBees:item.thaumiumScoop>);
 mods.thaumcraft.Research.setAspects("MB_Scoop", "ordo 9, terra 6, aer 3");
 mods.thaumcraft.Research.setComplexity("MB_Scoop", 2);
@@ -412,8 +412,8 @@ mods.thaumcraft.Research.clearPages("MB_Grafter");
 mods.thaumcraft.Research.addPage("MB_Grafter", "tc.research_page.MB_Grafter.1");
 mods.thaumcraft.Arcane.addShaped("MB_Grafter", <MagicBees:item.thaumiumGrafter>, "ordo 15, terra 15, aer 15", [
 [null, <gregtech:gt.metaitem.01:23330>, null],
-[<gregtech:gt.metatool.01:18>, <gregtech:gt.metaitem.01:23330>, null],
-[<gregtech:gt.metaitem.01:17330>, <Thaumcraft:ItemResource:2>, <gregtech:gt.metatool.01:12>]]);
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:23330>, null],
+[<gregtech:gt.metaitem.01:17330>, <Thaumcraft:ItemResource:2>, <ore:craftingToolHardHammer>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Grafter", <MagicBees:item.thaumiumGrafter>);
 mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 12, terra 9, aer 6");
 mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
@@ -454,7 +454,7 @@ Assembler.addRecipe(<MagicBees:miscResources:4>, <MagicBees:miscResources:3> * 4
 Assembler.addRecipe(<MagicBees:miscResources:6>, <MagicBees:miscResources:5> * 6, <gregtech:gt.integrated_circuit:6> * 0, <liquid:molten.thaumium> * 288, 400, 256);
 
 // --- Jade Mood Dail
-Assembler.addRecipe(<MagicBees:moonDial>, <minecraft:clock>, <minecraft:emerald> * 4, <liquid:dye.watermixed.dyegreen> * 576, 200, 30);
+Assembler.addRecipe(<MagicBees:moonDial>, <minecraft:clock>, <gregtech:gt.metaitem.01:8537> * 4, <liquid:dye.watermixed.dyegreen> * 576, 200, 30);
 
 // --- Mysterious Magnet Level 1
 Assembler.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet> * 2, <liquid:molten.redstone> * 1296, 200, 64);
@@ -551,3 +551,53 @@ mods.thaumcraft.Research.refreshResearchRecipe("MB_Scoop");
 
 // --- Thaumic Grafter
 mods.thaumcraft.Research.refreshResearchRecipe("MB_Grafte");
+
+
+
+// --- Ore dict stuff ---
+
+
+
+
+// --- Combs
+oreDict.beeComb.add(<MagicBees:comb>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:1>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:2>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:3>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:4>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:5>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:6>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:7>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:8>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:9>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:10>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:11>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:12>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:13>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:14>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:15>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:16>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:17>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:18>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:19>);
+// -
+oreDict.beeComb.add(<MagicBees:comb:20>);

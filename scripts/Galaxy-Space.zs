@@ -178,6 +178,9 @@ recipes.remove(<GalaxySpace:oxstoragemoduleT2>);
 // --- Methane Gas Canister
 recipes.remove(<GalacticraftMars:item.methaneCanisterPartial:1>);
 
+// --- Lander 2
+recipes.remove(<GalaxySpace:item.ModuleLander2>);
+
 
 
 
@@ -381,6 +384,12 @@ recipes.addShaped(<GalaxySpace:oxstoragemoduleT2>, [
 [<GalacticraftCore:tile.machine2:8>, <GalacticraftCore:item.oxygenConcentrator>, <GalacticraftCore:tile.machine2:8>],
 [<GalacticraftCore:tile.oxygenPipe>, <GalaxySpace:machineframes>, <GalacticraftCore:tile.oxygenPipe>],
 [<GalacticraftCore:tile.machine2:8>, <dreamcraft:item.WaferTier3>, <GalacticraftCore:tile.machine2:8>]]);
+
+// --- Lander 2
+recipes.addShaped(<GalaxySpace:item.ModuleLander2>, [
+[<ore:foilGold>, <GalacticraftCore:item.parachute:*>, <ore:foilGold>],
+[<GalacticraftCore:item.canvas>, <GalaxySpace:item.ModuleLander>, <GalacticraftCore:item.canvas>],
+[<ore:foilGold>, <GalacticraftCore:item.canvas>, <ore:foilGold>]]);
 
 // --- Rocket Tier 4
 mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier4Rocket>,[

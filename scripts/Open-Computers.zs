@@ -25,9 +25,9 @@ mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:69>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, null, null],
-[null, null, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32705>, <ore:circuitSuperconductor>, <gregtech:gt.metaitem.01:32705>, <ore:circuitMaster>, null, null],
+[null, null, <ore:circuitMaster>, <ore:circuitElite>, <ore:circuitSuperconductor>, <ore:circuitElite>, <ore:circuitMaster>, null, null],
 [null, null, <ore:circuitMaster>, <OpenComputers:item:103>, <OpenComputers:case3>, <OpenComputers:item:103>, <ore:circuitMaster>, null, null],
-[null, null, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32705>, <ore:circuitSuperconductor>, <gregtech:gt.metaitem.01:32705>, <ore:circuitMaster>, null, null],
+[null, null, <ore:circuitMaster>, <ore:circuitElite>, <ore:circuitSuperconductor>, <ore:circuitElite>, <ore:circuitMaster>, null, null],
 [null, null, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
@@ -36,11 +36,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:69>, [
 mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:103>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, null, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32705>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32705>, <ore:circuitMaster>, <ore:circuitSuperconductor>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32705>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32705>, <OpenComputers:item:10>, <OpenComputers:item:102>, <OpenComputers:item:43>, <gregtech:gt.metaitem.01:32705>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32705>, <ore:circuitMaster>, <ore:circuitSuperconductor>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32705>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32705>, null, null],
+[null, null, <ore:circuitElite>, <ore:circuitElite>, <ore:circuitElite>, <ore:circuitElite>, <ore:circuitElite>, null, null],
+[null, null, <ore:circuitElite>, <ore:circuitMaster>, <ore:circuitSuperconductor>, <ore:circuitMaster>, <ore:circuitElite>, null, null],
+[null, null, <ore:circuitElite>, <OpenComputers:item:10>, <OpenComputers:item:102>, <OpenComputers:item:43>, <ore:circuitElite>, null, null],
+[null, null, <ore:circuitElite>, <ore:circuitMaster>, <ore:circuitSuperconductor>, <ore:circuitMaster>, <ore:circuitElite>, null, null],
+[null, null, <ore:circuitElite>, <ore:circuitElite>, <ore:circuitElite>, <ore:circuitElite>, <ore:circuitElite>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -48,11 +48,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:103>, [
 mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:90>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, null, <ore:wireGt16Electrum>, <ore:circuitMaster>, <ore:circuitSuperconductor>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32705>, null, null],
+[null, null, <ore:wireGt16Electrum>, <ore:circuitMaster>, <ore:circuitSuperconductor>, <ore:circuitMaster>, <ore:circuitElite>, null, null],
 [null, null, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>, null, null],
 [null, null, <ore:plateDenseObsidian>, <IC2:itemRTGPellet>, <IC2:blockGenerator:6>, <IC2:itemRTGPellet>, <ore:plateDenseObsidian>, null, null],
 [null, null, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32705>, <ore:circuitMaster>, <ore:circuitSuperconductor>, <ore:circuitMaster>, <ore:wireGt16Electrum>, null, null],
+[null, null, <ore:circuitElite>, <ore:circuitMaster>, <ore:circuitSuperconductor>, <ore:circuitMaster>, <ore:wireGt16Electrum>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -60,11 +60,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:90>, [
 mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:93>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, null, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32705>, <ore:circuitSuperconductor>, <gregtech:gt.metaitem.01:32705>, <ore:circuitMaster>, null, null],
+[null, null, <ore:circuitMaster>, <ore:circuitElite>, <ore:circuitSuperconductor>, <ore:circuitElite>, <ore:circuitMaster>, null, null],
 [null, null, <ore:plateDenseChrome>, <ore:plateDenseChrome>, <OpenComputers:screen3>, <ore:plateDenseChrome>, <ore:plateDenseChrome>, null, null],
 [null, null, <ore:plateDenseChrome>, <IC2:itemRTGPellet>, <IC2:blockGenerator:6>, <IC2:itemRTGPellet>, <ore:plateDenseChrome>, null, null],
 [null, null, <ore:plateDenseChrome>, <ore:plateDenseChrome>, <ore:plateDenseChrome>, <ore:plateDenseChrome>, <ore:plateDenseChrome>, null, null],
-[null, null, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32705>, <ore:circuitSuperconductor>, <gregtech:gt.metaitem.01:32705>, <ore:circuitMaster>, null, null],
+[null, null, <ore:circuitMaster>, <ore:circuitElite>, <ore:circuitSuperconductor>, <ore:circuitElite>, <ore:circuitMaster>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -73,9 +73,9 @@ mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:91>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32606>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32606>, <ore:circuitMaster>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32705>, <ore:turbineBladeChrome>, <ore:circuitSuperconductor>, <ore:turbineBladeChrome>, <gregtech:gt.metaitem.01:32705>, null, null],
+[null, null, <ore:circuitElite>, <ore:turbineBladeChrome>, <ore:circuitSuperconductor>, <ore:turbineBladeChrome>, <ore:circuitElite>, null, null],
 [null, null, <HardcoreEnderExpansion:biome_compass>, <ore:turbineBladeChrome>, <OpenComputers:item:90>, <ore:turbineBladeChrome>, <HardcoreEnderExpansion:biome_compass>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32705>, <ore:turbineBladeChrome>, <ore:circuitSuperconductor>, <ore:turbineBladeChrome>, <gregtech:gt.metaitem.01:32705>, null, null],
+[null, null, <ore:circuitElite>, <ore:turbineBladeChrome>, <ore:circuitSuperconductor>, <ore:turbineBladeChrome>, <ore:circuitElite>, null, null],
 [null, null, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32606>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32606>, <ore:circuitMaster>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);

@@ -37,7 +37,7 @@ val BlankPattern = <TConstruct:blankPattern>;
 val BlankCast = <TConstruct:blankPattern:1>;
 
 val SandstoneRod = <dreamcraft:item.SandStoneRod>;
-val CobblestoneRod = <dreamcraft:item.CobbleStoneRod>;
+val CobblestoneRod = <gregtech:gt.metaitem.01:23299>;
 
 val Stone = <ore:stone>;
 val Cobblestone = <ore:cobblestone>;
@@ -83,12 +83,6 @@ recipes.addShaped(<dreamcraft:item.LongObsidianRod> * 2, [
 // --- Long Stone Rod
 recipes.addShaped(<dreamcraft:item.LongStoneRod> * 2, [
 [Saw, Stone, File]]);
-
-// --- Steel Bars
-recipes.addShaped(<dreamcraft:item.SteelBars> * 3, [
-[null, Hammer, null],
-[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
-[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
 
 // --- Mushroom Powder
 recipes.addShaped(<dreamcraft:item.MushroomPowder>, [
@@ -696,16 +690,49 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2057>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:2034>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
+// --- Gypsum Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2934>, [
+[null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[null, null, <OpenBlocks:filledbucket>]]);
+
+// --- Calcite Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2823>, [
+[null, null, <OpenBlocks:filledbucket>],
+[null, null, <OpenBlocks:filledbucket>],
+[null, null, <OpenBlocks:filledbucket>]]);
+
+// --- Raw Rubber Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2896>, [
+[null, null, null],
+[null, null, <OpenBlocks:filledbucket>],
+[null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
 // --- Obsidian Dust out of XP 10 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2804>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>,  <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, null, null]]);
+
+// --- small Brick Dust out of XP 10 level
+recipes.addShaped(<gregtech:gt.metaitem.01:1625>, [
+[null, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+// --- Wrought Iron Dust out of XP 15 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2304>, [
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
 // --- Sticky Resin out of XP 17,5 level
 recipes.addShaped(<IC2:itemHarz>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, null, null]]);
+
+// --- Arsenic Dust out of XP 17,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:39>, [
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
 
 // --- Aluminum Tico Dust out of XP 20 level
 recipes.addShaped(<TConstruct:materials:40>, [
@@ -724,6 +751,20 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2086>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
+
+// --- Tiny Gallium Dust out of XP 20 level
+recipes.addShaped(<gregtech:gt.metaitem.01:37>, [
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+// --- Small Cobalt Bass Dust out of XP 25 level
+recipes.addShaped(<gregtech:gt.metaitem.01:1343>, [
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+
 
 
 
@@ -1277,15 +1318,15 @@ Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 500, <liquid:enrichedbac
 PrecisionLaser.addRecipe(<dreamcraft:item.EngravedDiamondCrystalChip>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:17500> * 4, 400, 1920);
 
 // --- Engraved Energy Chip
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24502> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24502> * 0, <IC2:itemBatCrystal:26>, 600, 4094);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24511> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24511> * 0, <IC2:itemBatCrystal:26>, 600, 4094);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24512> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24512> * 0, <IC2:itemBatCrystal:26>, 600, 4094);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24527> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24527> * 0, <IC2:itemBatCrystal:26>, 600, 4094);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24541> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24541> * 0, <IC2:itemBatCrystal:26>, 600, 4094);
 
 // --- Engraved Quantum Chip
 PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24540> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 30720);
@@ -1295,14 +1336,14 @@ PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.met
 PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24528> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 30720);
 
 // --- Nano Crystal
-PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatCrystal:*>, 600, 480);
+PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatCrystal:26>, 600, 480);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatCrystal:*>, 600, 480);
+PrecisionLaser.addRecipe(<dreamcraft:item.NanoCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatCrystal:26>, 600, 480);
 
 // --- Quantum Crystal
-PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatLamaCrystal:*>, 800, 1920);
+PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24533> * 0, <IC2:itemBatLamaCrystal:26>, 800, 1920);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatLamaCrystal:*>, 800, 1920);
+PrecisionLaser.addRecipe(<dreamcraft:item.QuantumCrystal>, <gregtech:gt.metaitem.01:24532> * 0, <IC2:itemBatLamaCrystal:26>, 800, 1920);
 
 // --- Manyullyn Crystal
 PrecisionLaser.addRecipe(<dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:24508> * 0, <dreamcraft:item.ManyullynPlate> * 4, 1200, 1920);
@@ -1857,7 +1898,7 @@ mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "ALUMENTUM", false);
 mods.thaumcraft.Research.setConcealed("ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "Minecraft.research_page.ENCHANTINGTABLE");
 game.setLocalization("Minecraft.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting tables main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
-mods.thaumcraft.Arcane.addShaped("ENCHANTINGTABLE", <minecraft:enchanting_table>, "aer 50, aqua 50, terra 50, ignis 50, ordo 50, perditio 50", [
+mods.thaumcraft.Arcane.addShaped("ENCHANTINGTABLE", <minecraft:enchanting_table>, "aer 45, aqua 45, terra 45, ignis 45, ordo 45, perditio 45", [
 [<ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"}), <minecraft:carpet:14>, <ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"})],
 [<Thaumcraft:ItemResource>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>],
 [<ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"}), <ore:plateDenseObsidian>, <ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"})]]);
@@ -1888,7 +1929,7 @@ mods.thaumcraft.Research.addPage("BREWINGSTAND", "brewingstand.research_page.BRE
 game.setLocalization("brewingstand.research_page.BREWINGSTAND.2", "By brewing a second ingredient into a base potion in the same manner, you can create a potion with a working effect. A third ingredient may be added to make the effect more intense or last longer, or turn the effect harmful. Finally, gunpowder can be added to a potion at any stage to convert it to a splash potion, which can be thrown (or fired using a dispenser) to disperse its effect in a radius. Each brewing step takes 20 seconds. Brewing can create very useful and lifesaving items. A good number of them are useful in combat by aiding the player or weakening enemies while others can save the players life if used quickly, like Fire Resistance or Healing.");
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "Minecraft.research_page.BREWINGSTAND.3");
 game.setLocalization("Minecraft.research_page.BREWINGSTAND.3", "Gathering the Blaze Rods and Nether Wart necessary for brewing can prove challenging, but once they are set up, most potion ingredients are fairly plentiful and brewing will be a rewarding task.");
-mods.thaumcraft.Arcane.addShaped("BREWINGSTAND", <minecraft:brewing_stand>, "aer 25, aqua 25, terra 25, ignis 25, ordo 25, perditio 25", [
+mods.thaumcraft.Arcane.addShaped("BREWINGSTAND", <minecraft:brewing_stand>, "aer 20, aqua 20, terra 20, ignis 20, ordo 20, perditio 20", [
 [<ore:ringAluminium>, <ore:stickLongBlaze>, <ore:ringAluminium>],
 [<ore:stickAluminium>, <ore:stickLongBlaze>, <ore:stickAluminium>],
 [<ore:screwAluminium>, <minecraft:cauldron>,<ore:screwAluminium>]]);
@@ -2121,7 +2162,7 @@ mods.thaumcraft.Arcane.addShaped("ENDERTANK", <EnderStorage:enderChest:4096>, "a
 [<gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:22801>]]);
 mods.thaumcraft.Research.addArcanePage("ENDERTANK", <EnderStorage:enderChest:4096>);
 
-// --- Ender Pouche Arcane
+// --- Ender Pouch Arcane
 mods.thaumcraft.Research.addResearch("ENDERPOUCHE", "NEWHORIZONS", "lucrum 15, vitreus 15, metallum 12, electrum 9, machina 6, alienis 3, ", -4, 4, 4, <EnderStorage:enderPouch>);
 game.setLocalization("tc.research_name.ENDERPOUCHE", "Ender Pouch");
 game.setLocalization("tc.research_text.ENDERPOUCHE", "[EC] Oh, its more magical than a Backpack!");
@@ -2184,6 +2225,22 @@ mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_
 "auram 64, potentia 64, vitium 32, vitreus 48, spiritus 32, corpus 16, alienis 24, lucrum 8", <HardcoreEnderExpansion:ghost_amulet:1>, 9);
 mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
 mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
+
+// --- Primordial Pearl
+mods.thaumcraft.Research.addResearch("PRIMORDRIALPEARL", "NEWHORIZONS", "auram 27, praecantatio 24, vitium 21, ordo 18, perditio 15, aer 12, ignis 9, terra 6, aqua 3", 4, -2, 4, <Thaumcraft:ItemEldritchObject:3>);
+game.setLocalization("tc.research_name.PRIMORDRIALPEARL", "Primordial Pearl");
+game.setLocalization("tc.research_text.PRIMORDRIALPEARL", "[TC] You found a magical Way of duplication");
+mods.thaumcraft.Research.addPrereq("PRIMORDRIALPEARL", "PRIMPEARL", false);
+mods.thaumcraft.Research.addPrereq("PRIMORDRIALPEARL", "ICHORIUM", false);
+mods.thaumcraft.Research.setConcealed("PRIMORDRIALPEARL", true);
+mods.thaumcraft.Research.setRound("PRIMORDRIALPEARL", true);
+mods.thaumcraft.Research.addPage("PRIMORDRIALPEARL", "tc.research_page.PRIMORDRIALPEARL.1");
+game.setLocalization("tc.research_page.PRIMORDRIALPEARL.1", "You have started to understand how primodial pearls work and found a way to replicate them for future use. By hammering the primodial pearl into 3 pieces, you found that its losing energy really quickly. Perhaps, there is a way to reform each pieces them into a pearl.");
+mods.thaumcraft.Infusion.addRecipe("PRIMORDRIALPEARL", <dreamcraft:item.PrimordialPearlFragment>, 
+[<Thaumcraft:ItemEldritchObject>, <ThaumicTinkerer:kamiResource:6>, <ThaumicTinkerer:kamiResource:2>, <TwilightForest:tile.TFAuroraBrick>, <Thaumcraft:ItemEldritchObject>, <TwilightForest:tile.TFAuroraBrick>, <ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:7>, <Thaumcraft:ItemEldritchObject>, <ThaumicTinkerer:kamiResource:7>, <ThaumicTinkerer:kamiResource:2>, <TwilightForest:tile.TFAuroraBrick>, <Thaumcraft:ItemEldritchObject>, <TwilightForest:tile.TFAuroraBrick>, <ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:6>], 
+"auram 64, ordo 256, ignis 256, aqua 256, terra 256, aer 256, perditio 256, praecantatio 64, vitium 64", <Thaumcraft:ItemEldritchObject:3>, 20);
+mods.thaumcraft.Research.addInfusionPage("PRIMORDRIALPEARL", <Thaumcraft:ItemEldritchObject:3>);
+mods.thaumcraft.Warp.addToResearch("PRIMORDRIALPEARL", 20);
 
 
 

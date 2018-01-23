@@ -4,6 +4,10 @@
 // --- Importing ---
 
 
+import mods.gregtech.CuttingSaw;
+
+
+
 
 
 // --- Removing Recipes ---
@@ -109,6 +113,15 @@ mods.thaumcraft.Arcane.addShaped("GADOMANCY.ANCIENT_STONES", <Thaumcraft:blockCo
 // -
 mods.thaumcraft.Research.setAspects("GADOMANCY.ANCIENT_STONES", "ignis 15, alienis 12, perditio 9, terra 6, permutatio 3");
 mods.thaumcraft.Research.setComplexity("GADOMANCY.ANCIENT_STONES", 3);
+
+// --- Ancient Stone Slabs
+recipes.addShapeless(<Thaumcraft:blockCosmeticSlabStone:1> * 2, [<Thaumcraft:blockCosmeticSolid:11>, <ore:craftingToolSaw>]);
+
+// --- Ancient Stone Steps
+recipes.addShaped(<Thaumcraft:blockStairsEldritch> * 4, [
+[<Thaumcraft:blockCosmeticSolid:11>, null, null],
+[<Thaumcraft:blockCosmeticSolid:11>, <Thaumcraft:blockCosmeticSolid:11>, null],
+[<Thaumcraft:blockCosmeticSolid:11>, <Thaumcraft:blockCosmeticSolid:11>, <Thaumcraft:blockCosmeticSolid:11>]]);
 
 // --- Ancient Stone Pedestal
 mods.thaumcraft.Crucible.addRecipe("GADOMANCY.ANCIENT_STONES", <Thaumcraft:blockCosmeticSolid:15>, <Thaumcraft:blockCosmeticSolid:11>, "permutatio 8, perditio 12, alienis 12, terra 8");
@@ -282,6 +295,15 @@ mods.thaumcraft.Research.setComplexity("GADOMANCY.AURA_EFFECTS", 4);
 
 
 
+// --- Cutting Saw recipes ---
+
+
+// --- Ancient Stone Slabs
+CuttingSaw.addRecipe(<Thaumcraft:blockCosmeticSlabStone:1> * 4, null, <Thaumcraft:blockCosmeticSolid:11>, <liquid:water> * 32, 400, 30);
+// -
+CuttingSaw.addRecipe(<Thaumcraft:blockCosmeticSlabStone:1> * 4, null, <Thaumcraft:blockCosmeticSolid:11>, <liquid:ic2distilledwater> * 20, 400, 30);
+// -
+CuttingSaw.addRecipe(<Thaumcraft:blockCosmeticSlabStone:1> * 4, null, <Thaumcraft:blockCosmeticSolid:11>, <liquid:lubricant> * 8, 200, 30);
 
 
 
