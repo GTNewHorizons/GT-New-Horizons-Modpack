@@ -127,6 +127,26 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [
 [<ore:plateNetherStar>, <dreamcraft:item.NanoCircuit>, <ore:plateNetherStar>],
 [<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
 
+// --- Advanced Solar Panel
+recipes.addShaped(<gregtech:gt.metaitem.01:32752>, [
+[<ore:craftingToolCrowbar>, <AdvancedSolarPanel:BlockAdvSolarPanel>, <ore:craftingToolScrewdriver>],
+[<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]]);
+
+// --- Hybrid Solar Panel
+recipes.addShaped(<gregtech:gt.metaitem.01:32753>, [
+[<ore:craftingToolCrowbar>, <AdvancedSolarPanel:BlockAdvSolarPanel:1>, <ore:craftingToolScrewdriver>],
+[<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]]);
+
+// --- Ultimate Hybrid Solar Panel
+recipes.addShaped(<gregtech:gt.metaitem.01:32754>, [
+[<ore:craftingToolCrowbar>, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, <ore:craftingToolScrewdriver>],
+[<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]]);
+
+// --- Quantum Solar Panel
+recipes.addShaped(<gregtech:gt.metaitem.01:32755>, [
+[<ore:craftingToolCrowbar>, <AdvancedSolarPanel:BlockAdvSolarPanel:3>, <ore:craftingToolScrewdriver>],
+[<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]]);
+
 
 
 

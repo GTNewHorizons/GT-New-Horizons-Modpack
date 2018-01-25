@@ -1,4 +1,5 @@
 // --- Created by DreamMasterXXL ---
+// --- Created by DreamMasterXXL ---
 
 
 // --- Import ---
@@ -1516,6 +1517,12 @@ recipes.addShaped(<IC2:itemWeedingTrowel>, [
 [<ore:screwSteel>, <ore:stickSteel>, <ore:craftingToolScrewdriver>],
 [<ore:plateRubber>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:plateRubber>, <ore:screwSteel>]]);
+
+// --- Solar Panel
+recipes.addShaped(<gregtech:gt.metaitem.01:32750>, [
+[<ore:craftingToolCrowbar>, <IC2:blockGenerator:3>, <ore:craftingToolScrewdriver>],
+[<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]]);
+
 
 
 // --- CF Powder
