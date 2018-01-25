@@ -97910,7 +97910,7 @@
     {
       "questID": 1021,
       "name": "Sodium Persulfate",
-      "description": "Sodium Persulfate can be made in the chemical reactor out of sodium, sulfur and water.\nYou can etch your board with it.",
+      "description": "Sodium Persulfate can be made in the electrolyzer out of sodium bislufate dust.\nSodium bisulfate is made out of sulfuric acid and salt in the chemical reactor.\nYou can etch your board with it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97942,21 +97942,15 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 2017
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2022
+              "Damage": 30720
             },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 30013
+              "Damage": 2817
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -97969,7 +97963,22 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 6,
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2630
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
               "OreDict": "",
               "Damage": 30718
             }
