@@ -277,7 +277,7 @@ mods.thaumcraft.Research.setComplexity("COREGUARD", 3);
 
 // --- Golem Animation Core Use
 mods.thaumcraft.Infusion.addRecipe("COREUSE", <Thaumcraft:ItemGolemCore:1>,
-[<minecraft:nether_star>, <ProjRed|Integration:projectred.integration.gate:26>, <minecraft:lever>, <minecraft:flint_and_steel>, <minecraft:stone_pressure_plate>, <minecraft:shears>],
+[<minecraft:nether_star>, <ProjRed|Integration:projectred.integration.gate:26>, <minecraft:lever>, <minecraft:flint_and_steel:*>, <minecraft:stone_pressure_plate>, <minecraft:shears>],
 "humanus 20, instrumentum 20, machina 20, lucrum 20", <Thaumcraft:ItemGolemCore:8>, 4);
 // -
 mods.thaumcraft.Research.setAspects("COREUSE", "humanus 12, instrumentum 12, machina 9, permutatio 9, motus 6, praecantatio 3");
