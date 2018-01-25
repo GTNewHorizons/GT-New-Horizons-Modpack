@@ -80,6 +80,9 @@ recipes.remove(<chisel:upgrade:2>);
 // --- Mossy stone
 mods.chisel.Groups.removeGroup("cobblestone");
 
+// --- Glowstone
+mods.chisel.Groups.removeGroup("glowstone");
+
 // --- Stonebricks
 mods.chisel.Groups.removeVariation(<minecraft:stonebrick:1>);
 
@@ -333,6 +336,41 @@ mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrickfan
 
 // --- Chiselgroup Concrete
 mods.chisel.Groups.addVariation("concrete", <gregtech:gt.blockconcretes:8>);
+
+// --- Glowstone
+mods.chisel.Groups.addGroup("glowstoneGTNH");
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <minecraft:glowstone>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:1>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:2>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:3>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:4>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:5>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:6>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:7>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:8>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:9>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:10>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:11>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:12>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:13>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:14>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:15>);
 
 
 
