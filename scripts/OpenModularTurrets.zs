@@ -336,7 +336,7 @@ recipes.addShaped(<openmodularturrets:grenadeTurret>, [
 // --- Relativist Turret Tier 3
 recipes.addShaped(<openmodularturrets:relativisticTurret>, [
 [<ore:plateDarkSteel>, <EnderIO:itemMaterial:6>, <ore:plateDarkSteel>],
-[<IC2:itemBatCrystal:1>.withTag({charge: 1000000.0}), <openmodularturrets:sensorTierThreeItem>, <IC2:itemBatCrystal:1>.withTag({charge: 1000000.0})],
+[<IC2:itemBatCrystal:*>, <openmodularturrets:sensorTierThreeItem>, <IC2:itemBatCrystal:*>],
 [<ore:plateDarkSteel>, <ore:plateEnderiumBase>, <ore:plateDarkSteel>]]);
 
 // --- Grenade Launcher Turret Tier 3

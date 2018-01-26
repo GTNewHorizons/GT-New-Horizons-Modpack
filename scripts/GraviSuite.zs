@@ -115,7 +115,7 @@ recipes.addShaped(<GraviSuite:epicLappack:27>, [
 recipes.addShaped(<GraviSuite:relocator:27>, [
 [<gregtech:gt.metaitem.01:32676>, <dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:32676>],
 [<ore:circuitUltimate>, <IC2:blockMachine2>, <ore:circuitUltimate>],
-[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:27>, <dreamcraft:item.NeutroniumItemCasing>]]);
+[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:*>, <dreamcraft:item.NeutroniumItemCasing>]]);
 
 // --- Advanced Chainsaw
 recipes.addShaped(<GraviSuite:advChainsaw:27>, [
