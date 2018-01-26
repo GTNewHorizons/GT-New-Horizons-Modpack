@@ -15399,10 +15399,7 @@
               "id": "EnderIO:itemBrokenSpawner",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "mobType:8": "Skeleton"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
