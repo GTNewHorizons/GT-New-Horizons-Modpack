@@ -277,8 +277,8 @@
     },
     {
       "questID": 4,
-      "name": "Crafting time",
-      "description": "It\u0027s time to get yourself a 3x3 crafting area. Grab some flint and some wood, and build one!",
+      "name": "Main Quests and Secondary Quests",
+      "description": "Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -295,7 +295,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:crafting_table",
+        "id": "questbook:questBook",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -303,36 +303,15 @@
       "visibility": "UNLOCKED",
       "tasks": [
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:crafting_table",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:checkbox"
         }
       ],
       "rewards": [
         {
           "rewards": [
             {
-              "id": "minecraft:apple",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "id": "minecraft:cooked_beef",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -116077,6 +116056,75 @@
       "preRequisites": [
         1202
       ]
+    },
+    {
+      "questID": 1204,
+      "name": "Crafting time",
+      "description": "It\u0027s time to get yourself a 3x3 crafting area. Grab some flint and some wood, and build one!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:crafting_table",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:crafting_table",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:apple",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1
+      ]
     }
   ],
   "questLines": [
@@ -116101,57 +116149,57 @@
         },
         {
           "id": 3,
-          "x": 144,
+          "x": 180,
           "y": 36
         },
         {
           "id": 5,
-          "x": 180,
+          "x": 216,
           "y": 36
         },
         {
           "id": 4,
-          "x": 108,
+          "x": 144,
           "y": 36
         },
         {
           "id": 6,
-          "x": 216,
+          "x": 252,
           "y": 36
         },
         {
           "id": 7,
-          "x": 288,
+          "x": 324,
           "y": 108
         },
         {
           "id": 8,
-          "x": 180,
+          "x": 216,
           "y": 72
         },
         {
           "id": 9,
-          "x": 180,
+          "x": 216,
           "y": 108
         },
         {
           "id": 10,
-          "x": 144,
+          "x": 180,
           "y": 180
         },
         {
           "id": 12,
-          "x": 216,
+          "x": 252,
           "y": 180
         },
         {
           "id": 11,
-          "x": 144,
+          "x": 180,
           "y": 108
         },
         {
           "id": 13,
-          "x": 288,
+          "x": 324,
           "y": 216
         },
         {
@@ -116161,63 +116209,68 @@
         },
         {
           "id": 440,
-          "x": 108,
+          "x": 144,
           "y": 72
         },
         {
           "id": 442,
-          "x": 216,
+          "x": 252,
           "y": 108
         },
         {
           "id": 444,
-          "x": 216,
+          "x": 252,
           "y": 144
         },
         {
           "id": 446,
-          "x": 108,
+          "x": 144,
           "y": 144
         },
         {
           "id": 448,
-          "x": 72,
+          "x": 108,
           "y": 144
         },
         {
           "id": 450,
-          "x": 108,
+          "x": 144,
           "y": 108
         },
         {
           "id": 469,
-          "x": 252,
-          "y": 36
-        },
-        {
-          "id": 470,
           "x": 288,
           "y": 36
         },
         {
+          "id": 470,
+          "x": 324,
+          "y": 36
+        },
+        {
           "id": 471,
-          "x": 252,
+          "x": 288,
           "y": 108
         },
         {
           "id": 484,
-          "x": 216,
+          "x": 252,
           "y": 72
         },
         {
           "id": 865,
-          "x": 144,
+          "x": 180,
           "y": 72
         },
         {
           "id": 946,
-          "x": 144,
+          "x": 180,
           "y": 0
+        },
+        {
+          "id": 1204,
+          "x": 108,
+          "y": 36
         }
       ]
     },
