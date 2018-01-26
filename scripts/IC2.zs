@@ -237,43 +237,43 @@ recipes.remove(IronFurnace);
 furnace.remove(<minecraft:log:3>);
 
 // --- Neutron Reflector
-recipes.remove(<IC2:reactorReflector>);
+recipes.remove(<IC2:reactorReflector:*>);
 
 // --- Thick Neutron Reflector
-recipes.remove(<IC2:reactorReflectorThick>);
+recipes.remove(<IC2:reactorReflectorThick:*>);
 
 // --- Heat Vent
-recipes.remove(<IC2:reactorVent>);
+recipes.remove(<IC2:reactorVent:*>);
 
 // --- Reactor Heat Vent
-recipes.remove(<IC2:reactorVentCore>);
+recipes.remove(<IC2:reactorVentCore:*>);
 
 // --- Overclocked Heat Vent
-recipes.remove(<IC2:reactorVentGold>);
+recipes.remove(<IC2:reactorVentGold:*>);
 
 // --- Advanced Heat Vent
-recipes.remove(<IC2:reactorVentDiamond>);
+recipes.remove(<IC2:reactorVentDiamond:*>);
 
 // --- Component Heat Vent
-recipes.remove(<IC2:reactorVentSpread>);
+recipes.remove(<IC2:reactorVentSpread:*>);
 
 // --- Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitch>);
+recipes.remove(<IC2:reactorHeatSwitch:*>);
 
 // --- Reactor Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitchCore>);
+recipes.remove(<IC2:reactorHeatSwitchCore:*>);
 
 // --- Component Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitchSpread>);
+recipes.remove(<IC2:reactorHeatSwitchSpread>:*);
 
 // --- Advanced Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitchDiamond>);
+recipes.remove(<IC2:reactorHeatSwitchDiamond:*>);
 
 // --- RSH Condensator
-recipes.remove(<IC2:reactorCondensator>);
+recipes.remove(<IC2:reactorCondensator:*>);
 
 // --- LZH Condensator
-recipes.remove(<IC2:reactorCondensatorLap>);
+recipes.remove(<IC2:reactorCondensatorLap:*>);
 
 // --- Treetap
 recipes.remove(<IC2:itemTreetap>);
@@ -802,6 +802,7 @@ recipes.remove(<IC2:itemPartCFPowder>);
 
 
 
+
 // --- Add Recipes ---
 
 
@@ -1012,9 +1013,19 @@ recipes.addShaped(IronFurnace, [
 
 // --- Neutron Reflector
 recipes.addShaped(<IC2:reactorReflector:1>, [
-[<ore:dustTin>, <ore:plateAlloyCarbon>, <ore:dustTin>],
-[<ore:plateAlloyCarbon>, <ore:plateDenseCopper>, <ore:plateAlloyCarbon>],
-[<ore:dustTin>, <ore:plateAlloyCarbon>, <ore:dustTin>]]);
+[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
+[<ore:dustGraphite>, <ore:plateDenseCopper>, <ore:dustGraphite>],
+[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
+// -
+recipes.addShaped(<IC2:reactorReflector:1>, [
+[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
+[<ore:dustGraphite>, <ore:plateDenseSteel>, <ore:dustGraphite>],
+[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
+// -
+recipes.addShaped(<IC2:reactorReflector:1>, [
+[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
+[<ore:dustGraphite>, <ore:plateDoubleBeryllium>, <ore:dustGraphite>],
+[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
 
 // --- Heat Vent
 recipes.addShaped(<IC2:reactorVent:1>, [
@@ -1602,7 +1613,9 @@ Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <greg
 Assembler.addRecipe(<IC2:itemPartCoalChunk>, <minecraft:coal_block>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
 
 // --- Thick Neutron Reflector
-Assembler.addRecipe(<IC2:reactorReflectorThick:1>, <IC2:reactorReflector:1>, <gregtech:gt.metaitem.01:17008> * 4, 600, 64);
+Assembler.addRecipe(<IC2:reactorReflectorThick:1>, <IC2:reactorReflector:1> * 4, <gregtech:gt.metaitem.01:18008> * 2, 600, 64);
+// -
+Assembler.addRecipe(<IC2:reactorReflectorThick:1>, <IC2:reactorReflector:1> * 4, <gregtech:gt.metaitem.01:17370> * 2, 600, 64);
 
 // --- Treetap
 Assembler.addRecipe(<IC2:itemTreetap>, <gregtech:gt.blockmachines:5102> * 3, <gregtech:gt.metaitem.01:27809>, 200, 8);
