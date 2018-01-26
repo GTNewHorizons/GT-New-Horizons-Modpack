@@ -229,7 +229,7 @@ mods.thaumcraft.Research.setComplexity("BLOODRAPIER", 3);
 mods.thaumcraft.Warp.addToResearch("BLOODRAPIER", 2);
 
 // --- Emerald Nugget
-mods.thaumcraft.Crucible.addRecipe("TRANSEMERALD", <ForbiddenMagic:FMResource>, <ForbiddenMagic:FMResource> * 4, "lucrum 4, vitreus 4");
+mods.thaumcraft.Crucible.addRecipe("TRANSEMERALD", <ForbiddenMagic:FMResource> * 4, <ForbiddenMagic:FMResource>, "lucrum 4, vitreus 4");
 // -
 mods.thaumcraft.Research.setAspects("TRANSEMERALD",  "permutatio 15, vitreus 12, lucrum 9, terra 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("TRANSEMERALD", 3);
