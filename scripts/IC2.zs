@@ -95,9 +95,6 @@ recipes.remove(<IC2:itemRecipePart:5>);
 // --- Coil
 recipes.remove(<IC2:itemRecipePart>);
 
-// --- Advanced Battery
-recipes.remove(<IC2:itemAdvBat>);
-
 // --- Bat Box
 recipes.remove(<IC2:blockElectric>);
 
@@ -121,21 +118,6 @@ recipes.remove(<IC2:blockMetal:3>);
 
 // --- Mining Laser
 recipes.remove(<IC2:itemToolMiningLaser>);
-
-// --- Bat Pack
-recipes.remove(<IC2:itemArmorBatpack>);
-
-// --- Advanced Batpack
-recipes.remove(<IC2:itemArmorAdvBatpack>);
-
-// --- Energy Pack
-recipes.remove(<IC2:itemArmorEnergypack>);
-
-// --- Electric Jetpack
-recipes.remove(<IC2:itemArmorJetpackElectric:*>);
-
-// --- Biogas Jetpack
-recipes.remove(<IC2:itemArmorJetpack:*>);
 
 // --- ITNT
 recipes.remove(<IC2:blockITNT>);
@@ -264,7 +246,7 @@ recipes.remove(<IC2:reactorHeatSwitch:*>);
 recipes.remove(<IC2:reactorHeatSwitchCore:*>);
 
 // --- Component Heat Exchanger
-recipes.remove(<IC2:reactorHeatSwitchSpread>:*);
+recipes.remove(<IC2:reactorHeatSwitchSpread:*>);
 
 // --- Advanced Heat Exchanger
 recipes.remove(<IC2:reactorHeatSwitchDiamond:*>);
@@ -534,9 +516,6 @@ recipes.remove(<IC2:reactorCoolantTriple:*>);
 // --- 60k Coolant Cell
 recipes.remove(<IC2:reactorCoolantSix:*>);
 
-// --- Night Vision Goggle
-recipes.remove(<IC2:itemNightvisionGoggles:*>);
-
 // --- Rubber Boots
 recipes.remove(<IC2:itemArmorRubBoots>);
 
@@ -569,30 +548,6 @@ recipes.remove(<IC2:blockGenerator:9>);
 
 // --- Personal Safe
 recipes.remove(<IC2:blockPersonal>);
-
-// --- Nano Suit Boots
-recipes.remove(<IC2:itemArmorNanoBoots>);
-
-// --- Nano Suit Chestplate
-recipes.remove(<IC2:itemArmorNanoChestplate>);
-
-// --- Nano Suit Helmet
-recipes.remove(<IC2:itemArmorNanoHelmet>);
-
-// --- Nano Suit Leggings
-recipes.remove(<IC2:itemArmorNanoLegs>);
-
-// --- Quantum Suit Boots
-recipes.remove(<IC2:itemArmorQuantumBoots>);
-
-// --- Quantum Suit Chestplate
-recipes.remove(<IC2:itemArmorQuantumChestplate>);
-
-// --- Quantum Suit Helmet
-recipes.remove(<IC2:itemArmorQuantumHelmet>);
-
-// --- Quantum Suit Leggings
-recipes.remove(<IC2:itemArmorQuantumLegs>);
 
 // --- Crop Sticks
 recipes.remove(<IC2:blockCrop>);
@@ -832,12 +787,6 @@ recipes.addShaped(<IC2:itemRecipePart:5>, [
 [<ore:plateCopper>, <ore:plateSilver>, <ore:plateCopper>],
 [<ore:plateRubber>, <ore:plateCopper>, <ore:plateRubber>]]);
 
-// --- Advanced Battery
-recipes.addShaped(<IC2:itemAdvBat>, [
-[<ore:wireGt08Copper>, <ore:craftingToolScrewdriver>, <ore:wireGt08Copper>],
-[<IC2:itemCasing>, <gregtech:gt.metaitem.01:32501>, <IC2:itemCasing>],
-[<IC2:itemCasing>, <IC2:itemCasing:6>, <IC2:itemCasing>]]);
-
 // --- Bat Box
 recipes.addShaped(<IC2:blockElectric>, [
 [<ore:cableGt01Tin>, <ore:plateSteel>, <ore:cableGt01Tin>],
@@ -883,36 +832,6 @@ recipes.addShaped(<IC2:itemToolMiningLaser>, [
 [<ore:plateTitanium>, <dreamcraft:item.LaserEmitter>, <ore:plateTitanium>],
 [<ore:circuitMaster>, <gregtech:gt.metaitem.01:32527>, <ore:circuitMaster>],
 [<ore:craftingToolFile>, <IC2:itemRecipePart:2>, <ore:craftingToolHardHammer>]]);
-
-// --- Bat Pack
-recipes.addShaped(<IC2:itemArmorBatpack:26>, [
-[<IC2:itemBatREDischarged>, <ore:circuitBasic>, <IC2:itemBatREDischarged>],
-[<IC2:itemBatREDischarged>, <dreamcraft:item.AluminiumItemCasing>, <IC2:itemBatREDischarged>],
-[<IC2:itemBatREDischarged>, <ore:wireGt02Tin>, <IC2:itemBatREDischarged>]]);
-
-// --- Advanced Batpack
-recipes.addShaped(<IC2:itemArmorAdvBatpack>, [
-[<IC2:itemAdvBat:*>, <ore:circuitGood>, <IC2:itemAdvBat:*>],
-[<IC2:itemAdvBat:*>, <IC2:itemArmorBatpack:26>, <IC2:itemAdvBat:*>],
-[<IC2:itemAdvBat:*>, <ore:wireGt04AnnealedCopper>, <IC2:itemAdvBat:*>]]);
-
-// --- Energy Pack
-recipes.addShaped(<IC2:itemArmorEnergypack>, [
-[<ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>],
-[<ore:batteryElite>, <IC2:itemArmorAdvBatpack:26>, <ore:batteryElite>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:wireGt08Gold>, <dreamcraft:item.StainlessSteelItemCasing>]]);
-
-// --- Electric Jetpack
-recipes.addShaped(<IC2:itemArmorJetpackElectric:26>, [
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<gregtech:gt.metaitem.01:32602>, <IC2:itemArmorBatpack:26>, <gregtech:gt.metaitem.01:32602>],
-[<GraviSuite:itemSimpleItem:6>, <ore:wireGt04AnnealedCopper>, <GraviSuite:itemSimpleItem:6>]]);
-
-// --- Biogas Jetpack
-recipes.addShaped(<IC2:itemArmorJetpack>, [
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
-[<BuildCraft|Factory:tankBlock>, <IC2:reactorCoolantSix:1>, <BuildCraft|Factory:tankBlock>],
-[<GraviSuite:itemSimpleItem:6>, <adventurebackpack:backpackComponent:5>, <GraviSuite:itemSimpleItem:6>]]);
 
 // --- Reactor Plating
 recipes.addShaped(<IC2:reactorPlating>, [
@@ -1176,12 +1095,6 @@ recipes.addShaped(<IC2:itemBatChargeRE>, [
 [<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>],
 [<ore:batteryBasic>, <gregtech:gt.metaitem.01:17315>, <ore:batteryBasic>],
 [<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>]]);
-
-// --- Night Vision Goggle
-recipes.addShaped(<IC2:itemNightvisionGoggles:26>, [
-[<IC2:reactorHeatSwitchDiamond:1>, <ore:screwStainlessSteel>, <IC2:reactorHeatSwitchDiamond:1>],
-[<ore:ringStainlessSteel>, <ore:boltStainlessSteel>, <ore:ringStainlessSteel>],
-[<GalacticraftCore:item.sensorLens>,  <ore:craftingToolScrewdriver>, <GalacticraftCore:item.sensorLens>]]);
 
 // --- Personal Safe
 recipes.addShaped(<IC2:blockPersonal>, [
@@ -1705,18 +1618,6 @@ Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt
 Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.tin> * 144, 600, 30);
 // -
 Assembler.addRecipe(<IC2:itemSolarHelmet>, <minecraft:iron_helmet>, <gregtech:gt.metaitem.01:32750>, <liquid:molten.solderingalloy> * 72, 600, 30);
-
-// --- Nano Suit Boots
-Assembler.addRecipe(<IC2:itemArmorNanoBoots:26>, <dreamcraft:item.CarbonPartBoots>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
-
-// --- Nano Suit Chestplate
-Assembler.addRecipe(<IC2:itemArmorNanoChestplate:26>, <dreamcraft:item.CarbonPartChestplate>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
-
-// --- Nano Suit Helmet
-Assembler.addRecipe(<IC2:itemArmorNanoHelmet:26>, <dreamcraft:item.CarbonPartHelmetNightVision>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
-
-// --- Nano Suit Leggings
-Assembler.addRecipe(<IC2:itemArmorNanoLegs:26>, <dreamcraft:item.CarbonPartLeggings>, <dreamcraft:item.NanoCrystal>, <liquid:molten.redstone> * 144, 600, 480);
 
 // --- Containment Box
 Assembler.addRecipe(<IC2:itemContainmentbox>, <minecraft:chest>, <IC2:itemCasing:6> * 8, 300, 120);
