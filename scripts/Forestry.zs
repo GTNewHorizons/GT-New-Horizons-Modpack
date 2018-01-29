@@ -79,20 +79,9 @@ recipes.remove(<Forestry:mulch>);
 // --- Engines ---
 
 
-// --- Electrical Engine
-recipes.remove(<Forestry:engine>);
-
-// --- Peat fired Engine
-recipes.remove(<Forestry:engine:1>);
-
-// --- Biogas Engine
-recipes.remove(<Forestry:engine:2>);
-
 // --- Bio Generator
 recipes.remove(<Forestry:engine:3>);
 
-// --- Clockwork Engine
-recipes.remove(<Forestry:engine:4>);
 
 
 // --- Farms ---
@@ -577,23 +566,6 @@ recipes.addShaped(<Forestry:engine:3>, [
 [<ore:circuitBasic>, <Forestry:sturdyMachine>, <ore:circuitBasic>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
-// --- Electrical Engine
-recipes.addShaped(<Forestry:engine>, [
-[<ore:plateStainlessSteel>, <ore:plateLapis>, <ore:plateStainlessSteel>],
-[<ore:springStainlessSteel>, <minecraft:piston>, <ore:springStainlessSteel>],
-[<ore:circuitBasic>, <Forestry:sturdyMachine>, <ore:circuitBasic>]]);
-
-// --- Peat fired Engine
-recipes.addShaped(<Forestry:engine:1>, [
-[<ore:plateIron>, <ore:plateLapis>, <ore:plateIron>],
-[<ore:springIron>, <minecraft:piston>, <ore:springIron>],
-[<ore:gearIron>, <Forestry:sturdyMachine>, <ore:gearIron>]]);
-
-// --- Biogas Engine
-recipes.addShaped(<Forestry:engine:2>, [
-[<ore:plateBronze>, <ore:plateLapis>, <ore:plateBronze>],
-[<ore:springBronze>, <minecraft:piston>, <ore:springBronze>],
-[<ore:gearBronze>, <Forestry:sturdyMachine>, <ore:gearBronze>]]);
 
 
 
