@@ -139,6 +139,18 @@ recipes.remove(<Forestry:gearCopper>);
 // --- Tin Gear
 recipes.remove(<Forestry:gearTin>);
 
+// --- Stamp 1n
+recipes.remove(<Forestry:stamps>);
+
+// --- Stamp 2n
+recipes.remove(<Forestry:stamps:1>);
+
+// --- Stamp 5n
+recipes.remove(<Forestry:stamps:2>);
+
+// --- Stamp 10n
+recipes.remove(<Forestry:stamps:3>);
+
 // --- Stamp 20n
 mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:4>);
 
