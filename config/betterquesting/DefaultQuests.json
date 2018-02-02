@@ -8414,8 +8414,8 @@
     },
     {
       "questID": 89,
-      "name": "Tier 3",
-      "description": "In tier 3, you will be able to craft your first actually \"useful\" machines. Basic ones do the job, but with MV, a lot more recipes will unlock. Your goal here is to set up stable ore processing for the vast amounts of materials you\u0027ll need later on. You also should focus on power production if you haven\u0027t already done that.",
+      "name": "MV Steam Turbine",
+      "description": "If you decide to use steam in mv tier then it\u0027s time to build a steam turbine.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8449,7 +8449,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1121
+              "Damage": 12
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -8480,17 +8480,7 @@
         }
       ],
       "preRequisites": [
-        102,
-        97,
-        90,
-        546,
-        1148,
-        98,
-        539,
-        543,
-        529,
-        530,
-        717
+        1148
       ]
     },
     {
@@ -11215,7 +11205,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -11310,7 +11300,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -11429,7 +11419,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -13500,7 +13490,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -13660,7 +13650,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -46020,7 +46010,7 @@
       "questID": 532,
       "name": "Diesel, oil or maybe creosote?",
       "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -49220,7 +49210,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 3,
               "OreDict": "",
-              "Damage": 21
+              "Damage": 20
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -49233,7 +49223,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 21
             }
           ],
           "rewardID": "bq_standard:item"
@@ -59114,7 +59104,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -59237,7 +59227,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -66355,7 +66345,7 @@
       ],
       "preRequisites": [
         717,
-        89
+        1148
       ]
     },
     {
@@ -67532,7 +67522,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -69191,7 +69181,7 @@
       ],
       "preRequisites": [
         77,
-        89
+        1148
       ]
     },
     {
@@ -69809,7 +69799,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -71203,8 +71193,8 @@
         }
       ],
       "preRequisites": [
-        89,
-        771
+        771,
+        1148
       ]
     },
     {
@@ -79863,7 +79853,7 @@
       ],
       "preRequisites": [
         717,
-        89
+        1148
       ]
     },
     {
@@ -79974,7 +79964,7 @@
       ],
       "preRequisites": [
         543,
-        89
+        1148
       ]
     },
     {
@@ -80100,7 +80090,7 @@
       ],
       "preRequisites": [
         852,
-        89
+        1148
       ]
     },
     {
@@ -84171,7 +84161,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -84326,7 +84316,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -84403,7 +84393,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -90288,7 +90278,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -102262,7 +102252,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -110818,7 +110808,20 @@
       ],
       "preRequisites": [
         103,
-        77
+        77,
+        102,
+        543,
+        544,
+        94,
+        90,
+        97,
+        91,
+        92,
+        93,
+        95,
+        529,
+        530,
+        717
       ]
     },
     {
@@ -117511,11 +117514,6 @@
           "y": 180
         },
         {
-          "id": 1148,
-          "x": 204,
-          "y": 60
-        },
-        {
           "id": 1149,
           "x": 252,
           "y": 252
@@ -117588,8 +117586,8 @@
       "quests": [
         {
           "id": 89,
-          "x": 156,
-          "y": 204
+          "x": 312,
+          "y": 132
         },
         {
           "id": 128,
@@ -118115,6 +118113,11 @@
           "id": 1180,
           "x": 492,
           "y": 264
+        },
+        {
+          "id": 1148,
+          "x": 156,
+          "y": 204
         }
       ]
     },
