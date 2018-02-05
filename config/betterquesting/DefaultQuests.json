@@ -116132,7 +116132,7 @@
     {
       "questID": 1205,
       "name": "Hoppers",
-      "description": "Hoppers are becomes more handy when ou try to automating your machines. \nYou can input items via hoppers direct into Gt pipes and don\u0027t use a conveyor belt. \nThe input rate is much slover.",
+      "description": "Hoppers come in handy when you want to automate your machines. \nYou can input items via hoppers directly into GT pipes and you don\u0027t have to use a conveyor belt. \nHowever, the input rate is much slower, and the hopper must be beneath its source inventory.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
