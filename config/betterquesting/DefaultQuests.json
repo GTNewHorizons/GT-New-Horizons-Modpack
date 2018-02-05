@@ -77383,7 +77383,7 @@
           "requiredItems": [
             {
               "id": "GalacticraftCore:item.oilCanisterPartial",
-              "Count": 10,
+              "Count": 8,
               "OreDict": "",
               "Damage": 1001
             }
@@ -77398,7 +77398,7 @@
           "requiredItems": [
             {
               "id": "GalacticraftCore:item.fuelCanisterPartial",
-              "Count": 10,
+              "Count": 4,
               "OreDict": "",
               "Damage": 1
             }
