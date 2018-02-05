@@ -116128,6 +116128,75 @@
       "preRequisites": [
         1
       ]
+    },
+    {
+      "questID": 1205,
+      "name": "Hoppers",
+      "description": "Hoppers are becomes more handy when ou try to automating your machines. \nYou can input items via hoppers direct into Gt pipes and don\u0027t use a conveyor belt. \nThe input rate is much slover.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:hopper",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:hopper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:chocolatesprinklecakeItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        44
+      ]
     }
   ],
   "questLines": [
@@ -116981,6 +117050,11 @@
           "id": 1157,
           "x": 588,
           "y": 288
+        },
+        {
+          "id": 1205,
+          "x": 72,
+          "y": 0
         }
       ]
     },
