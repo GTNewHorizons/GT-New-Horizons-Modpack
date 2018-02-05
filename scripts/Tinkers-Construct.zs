@@ -3319,6 +3319,8 @@ Extruder.addRecipe(<TConstruct:heavyPlate:2>, <minecraft:iron_ingot> * 8, <TCons
 
 // --- Obsidian Large Plate
 Extruder.addRecipe(<TConstruct:heavyPlate:6>, <TConstruct:materials:18> * 8, <TConstruct:metalPattern:16> * 0, 1432, 120);
+// -
+Extruder.addRecipe(<TConstruct:heavyPlate:6>, <gregtech:gt.metaitem.01:11804> * 8, <TConstruct:metalPattern:16> * 0, 1432, 120);
 
 // --- Netherrack Large Plate
 Extruder.addRecipe(<TConstruct:heavyPlate:7>, <minecraft:netherbrick> * 8, <TConstruct:metalPattern:16> * 0, 1960, 30);
