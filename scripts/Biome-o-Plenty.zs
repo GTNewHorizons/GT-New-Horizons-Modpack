@@ -222,3 +222,6 @@ Pulverizer.addRecipe([<minecraft:dye:15> * 15], <BiomesOPlenty:bones:2>, [10000]
 
 // --- Hardened Sand to Quartz Sand dust and flint
 Pulverizer.addRecipe([<dreamcraft:item.SandDust> * 2, <gregtech:gt.metaitem.01:1802>, <gregtech:gt.metaitem.01:1937>, <gregtech:gt.metaitem.01:1833>], <BiomesOPlenty:hardSand>, [10000, 5000, 1000, 500], 200, 8);
+
+// --- Hardened Dirt to Clay, Quicklime Gypsum and Calcite
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:1805> * 2, <gregtech:gt.metaitem.01:1622>, <gregtech:gt.metaitem.01:1934>, <gregtech:gt.metaitem.01:1823>], <BiomesOPlenty:hardDirt>, [10000, 7500, 2500, 2500], 200, 8);
