@@ -98,7 +98,7 @@ val TitaniumGear = <ore:gearTitanium>;
 val TitaniumPlate = <ore:plateTitanium>;
 val ChromePlate = <ore:plateChrome>;
 val BasicCircuit = <ore:circuitBasic>;
-val GoodCircuit = <gregtech:gt.metaitem.01:32702>;
+val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val DataCircuit = <ore:circuitData>;
 val LVChestBuffer = <gregtech:gt.blockmachines:9231>;
@@ -1195,6 +1195,10 @@ Assembler.addRecipe(ModSortingPipe, SortingPipe, <IC2:itemPartCircuit>, 300, 64)
 
 // --- Filter Pipe
 Assembler.addRecipe(FilterPipe, TransferPipe, <gregtech:gt.metaitem.01:32702>, 200, 64);
+// -
+Assembler.addRecipe(FilterPipe, TransferPipe, <gregtech:gt.metaitem.03:32079>, 200, 64);
+// -
+Assembler.addRecipe(FilterPipe, TransferPipe, <gregtech:gt.metaitem.03:32080>, 200, 64);
 
 // --- Rationing Pipe
 Assembler.addRecipe(RationingPipe, SortingPipe, <IC2:itemPartCircuitAdv>, 300, 64);
