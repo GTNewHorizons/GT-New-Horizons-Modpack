@@ -9704,7 +9704,7 @@
     },
     {
       "questID": 107,
-      "name": "Cart modules: Power",
+      "name": "Cart modules: Power Coal",
       "description": "Your cart needs power, obviously. A cart can be powered via solar or lava. But for now you have to use a simple coal engine.",
       "isMain": false,
       "isSilent": false,
@@ -9770,7 +9770,7 @@
         }
       ],
       "preRequisites": [
-        108
+        111
       ]
     },
     {
@@ -9821,7 +9821,7 @@
           "rewards": [
             {
               "id": "minecraft:rail",
-              "Count": 4,
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             }
@@ -9924,7 +9924,7 @@
         }
       ],
       "preRequisites": [
-        108
+        111
       ]
     },
     {
@@ -9995,7 +9995,7 @@
         }
       ],
       "preRequisites": [
-        108
+        111
       ]
     },
     {
@@ -10066,7 +10066,7 @@
         }
       ],
       "preRequisites": [
-        108
+        106
       ]
     },
     {
@@ -10149,7 +10149,7 @@
         }
       ],
       "preRequisites": [
-        108
+        111
       ]
     },
     {
@@ -116197,6 +116197,447 @@
       "preRequisites": [
         44
       ]
+    },
+    {
+      "questID": 1206,
+      "name": "Light Fuel",
+      "description": "Want some light fuel? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 24000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30740
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 30740
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        644
+      ]
+    },
+    {
+      "questID": 1207,
+      "name": "Heavy Fuel",
+      "description": "Want some heavy fuel? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 24000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30741
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 30741
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        644
+      ]
+    },
+    {
+      "questID": 1208,
+      "name": "Cart modules: Power Solar",
+      "description": "Your cart needs power, obviously. A cart can be powered via coal, solar or lava. If you are able to make solar pannels you can power your cart with the sun.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 45
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 45
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "StevesCarts:ModuleComponents",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 44
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        107,
+        933
+      ]
+    },
+    {
+      "questID": 1209,
+      "name": "Cart modules: Digging",
+      "description": "Want to automate digging for ores ? Well a drill head out of iron is the cheapest alternative.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 42,
+        "tag": {
+          "Data:4": 100
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 42,
+              "tag": {
+                "Data:4": 100
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "StevesCarts:ModuleComponents",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        111
+      ]
+    },
+    {
+      "questID": 1210,
+      "name": "Cart modules: Power Thermal",
+      "description": "Your cart needs power, obviously. A cart can be powered via coal, solar or lava. Why not power your cart with Lava.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 69
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 69
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        111
+      ]
+    },
+    {
+      "questID": 1211,
+      "name": "Cart modules: More Storage",
+      "description": "After you craft side chests you can add more diffenrent chets to the crat. Some sides are reserved for tools so there can\u0027t be placed a chest.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:rail",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        110
+      ]
     }
   ],
   "questLines": [
@@ -119432,6 +119873,16 @@
           "id": 1196,
           "x": 72,
           "y": 108
+        },
+        {
+          "id": 1206,
+          "x": 660,
+          "y": 144
+        },
+        {
+          "id": 1207,
+          "x": 696,
+          "y": 144
         }
       ]
     },
@@ -119542,8 +119993,8 @@
       "quests": [
         {
           "id": 108,
-          "x": 72,
-          "y": 48
+          "x": 0,
+          "y": 0
         },
         {
           "id": 106,
@@ -119552,28 +120003,48 @@
         },
         {
           "id": 111,
-          "x": 72,
-          "y": 0
+          "x": 108,
+          "y": 48
         },
         {
           "id": 107,
-          "x": 72,
+          "x": 108,
           "y": 96
         },
         {
           "id": 109,
-          "x": 132,
-          "y": 96
+          "x": 168,
+          "y": 0
         },
         {
           "id": 110,
-          "x": 132,
+          "x": 168,
           "y": 48
         },
         {
           "id": 112,
-          "x": 132,
+          "x": 108,
           "y": 0
+        },
+        {
+          "id": 1208,
+          "x": 108,
+          "y": 156
+        },
+        {
+          "id": 1209,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 1210,
+          "x": 168,
+          "y": 96
+        },
+        {
+          "id": 1211,
+          "x": 216,
+          "y": 48
         }
       ]
     },
