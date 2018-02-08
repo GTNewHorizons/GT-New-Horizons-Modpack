@@ -77729,7 +77729,7 @@
     {
       "questID": 830,
       "name": "Parachute",
-      "description": "A parachute is used to prevent death upon re-entry into the Overworld\u0027s atmosphere. The parachute is an essential part of your journey to space. You should never journey into space without it. There will even be a warning if you try to launch without one on you.",
+      "description": "A parachute is used to prevent death upon re-entry into the Overworld\u0027s atmosphere. The parachute is an essential part of your journey to space. You should never journey into space without it. There will even be a warning if you try to launch without one on you.\n\nUse the assembler to save materials.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77767,7 +77767,7 @@
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 3,
+              "Count": 4,
               "OreDict": "",
               "Damage": 23874
             }
@@ -77782,13 +77782,13 @@
           "requiredItems": [
             {
               "id": "GalacticraftCore:item.canvas",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.02",
-              "Count": 5,
+              "Count": 3,
               "OreDict": "",
               "Damage": 19305
             }
