@@ -3891,6 +3891,8 @@ FluidExtractor.addRecipe(null, <TConstruct:MetalBlock:10>, <liquid:ender> * 2250
 // -
 FluidExtractor.addRecipe(null, <minecraft:ender_pearl>, <liquid:ender> * 250, 10000, 100, 48);
 
+// --- Fluid XP
+FluidExtractor.addRecipe(null, <TConstruct:oreBerries:5>, <liquid:xpjuice> * 250, 10000, 100, 16);
 
 
 
