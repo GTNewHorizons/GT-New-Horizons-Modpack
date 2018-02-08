@@ -2722,7 +2722,7 @@ recipes.addShaped(<minecraft:nether_star> * 16, [
 // --- Mossy Coblestone
 recipes.addShaped(<minecraft:mossy_cobblestone>, [
 [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
-[<BiomesOPlenty:moss>, MossyCobble, <BiomesOPlenty:moss>],
+[<BiomesOPlenty:moss>, <minecraft:cobblestone>, <BiomesOPlenty:moss>],
 [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
 
 // --- Book
