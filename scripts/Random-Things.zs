@@ -6,6 +6,7 @@
 
 
 import mods.gregtech.Assembler;
+import mods.gregtech.BlastFurnace;
 import mods.gregtech.ChemicalReactor;
 
 
@@ -81,6 +82,9 @@ recipes.remove(<RandomThings:voidStone>);
 
 // --- Void Filer
 recipes.remove(<RandomThings:dropFilter:1>);
+
+// --- Spectre Key
+recipes.remove(<RandomThings:spectreKey>);
 
 
 
@@ -193,11 +197,21 @@ Assembler.addRecipe(<RandomThings:whitestone>, <TwilightForest:item.charmOfKeepi
 // --- Bloodstone
 //Assembler.addRecipe(<RandomThings:bloodStone>, <Railcraft:firestone.refined>, <gregtech:gt.integrated_circuit:1> * 0,  <liquid:molten.blaze> * 1296, 1200, 30);
 
-// --- Spectre Iron
-Assembler.addRecipe(<RandomThings:ingredient:4>, <minecraft:iron_ingot>, <RandomThings:ingredient:3>, 600, 120);
-
 // --- Void Filer
 Assembler.addRecipe(<RandomThings:dropFilter:1>, <ExtraUtilities:trashcan>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 250, 300, 30);
+
+// --- Spectre Key
+Assembler.addRecipe(<RandomThings:spectreKey>, <RandomThings:ingredient:4>, <gregtech:gt.metaitem.01:23028>,  <liquid:bacterialsludge> * 1000, 600, 1024);
+
+
+
+
+// --- Blast Furnace recipes ---
+
+
+// --- Spectre Iron
+BlastFurnace.addRecipe([<RandomThings:ingredient:4>], [<gregtech:gt.metaitem.01:2032>, <RandomThings:ingredient:3>], 1200, 480, 2500);
+
 
 
 
