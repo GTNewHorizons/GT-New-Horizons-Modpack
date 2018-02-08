@@ -102,7 +102,7 @@ recipes.addShaped(<FloodLights:carbonLantern>, [
 recipes.addShapeless(<FloodLights:smallElectricFloodlightMetaBlock> * 2, [<FloodLights:smallElectricFloodlightMetaBlock:1>]);
 
 // --- Square Flurocen Light
-recipes.addShapeless(<FloodLights:smallElectricFloodlightMetaBlock:1>, [<FloodLights:smallElectricFloodlightMetaBlock> * 2]);
+recipes.addShapeless(<FloodLights:smallElectricFloodlightMetaBlock:1>, [<FloodLights:smallElectricFloodlightMetaBlock>, <FloodLights:smallElectricFloodlightMetaBlock>]);
 
 // --- Grow Light
 recipes.addShaped(<FloodLights:growLight>, [
