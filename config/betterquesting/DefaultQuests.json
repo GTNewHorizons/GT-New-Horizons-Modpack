@@ -50266,6 +50266,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinForestry",
               "Count": 15,
               "OreDict": "",
@@ -50501,7 +50507,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
@@ -50636,7 +50642,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -50752,14 +50758,20 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -50894,13 +50906,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -51022,13 +51034,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -51404,13 +51416,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventure",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -51553,7 +51565,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -51690,7 +51702,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -51833,7 +51845,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -51964,7 +51976,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -52098,13 +52110,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -52239,13 +52251,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 30,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 15,
+              "Count": 30,
               "OreDict": "",
               "Damage": 0
             }
@@ -52380,13 +52392,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 35,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinForestry",
-              "Count": 15,
+              "Count": 35,
               "OreDict": "",
               "Damage": 0
             }
@@ -93871,6 +93883,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinBees",
               "Count": 15,
               "OreDict": "",
@@ -117206,6 +117224,1006 @@
       "preRequisites": [
         1212
       ]
+    },
+    {
+      "questID": 1214,
+      "name": "Clockwork Engine",
+      "description": "Producing RF Power by hand is a good idea for making one or two recipes in the Forestry machines. The Turrets can be chared with it too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:engine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17086
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17526
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 24304
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 31304
+            },
+            {
+              "id": "Forestry:sturdyMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:piston",
+              "Count": 1,
+              "OreDict": "craftingPiston",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11310
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone_torch",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        577
+      ]
+    },
+    {
+      "questID": 1215,
+      "name": "Bio Gas Engine",
+      "description": "Producing RF Power with Lava is possible with the Biogas engine. You need Water, Seedoil, Milk, Sap Cresote or FR Biomass in the other slot. The engine outputs 50RF/t depends on the fluid you put in.\n\nFuel /Lava /  Usage Energy Ticks\nWater Constant 10 RF/t 1000\nFruit Juice Startup/Restart Only 10 RF/t 2500\nLiquid Honey Startup/Restart Only 20 RF/t 2500\nMilk Constant 10 RF/t 10000\nSeed Oil Startup/Restart Only 30 RF/t 2500\nBiomass Startup/Restart Only 50 RF/t 2500",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:engine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17300
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17526
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 24300
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 31300
+            },
+            {
+              "id": "Forestry:sturdyMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:piston",
+              "Count": 1,
+              "OreDict": "craftingPiston",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:canSeedOil",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:fluid.creosote.can",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:canLava",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:canBiomass",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        577
+      ]
+    },
+    {
+      "questID": 1216,
+      "name": "Peat fired Engine",
+      "description": "Peat fired engines using Peat or Bituminous Peat to run. Peat burns for 5000 ticks and produces 10 RF every tick, 1 peat makes 0.66 Ash, so you get 2 Ash for burning 3 peat.\nBituminous Peat burns for 6000 ticks and produces 20 RF/tick.\n\nPeat Farms can be setup by using a managed farm with tin electron tubes. It is possible with manual farm too.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:engine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 17032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17526
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 24032
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 31032
+            },
+            {
+              "id": "Forestry:sturdyMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:piston",
+              "Count": 1,
+              "OreDict": "craftingPiston",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:peat",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:bituminousPeat",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        577
+      ]
+    },
+    {
+      "questID": 1217,
+      "name": "Copper, Tin, Bronze Tubes",
+      "description": "Tubes are for set farms to a special kind of crop or can used in engines. Also used in Alvearies and crafting recipes also.\n\nHit the hold key to see in which Farm it is used and if it gives a buff or make a engine better.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:thermionicTubes",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 22035
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 22057
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 22300
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 26086
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 17308
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 19035
+            },
+            {
+              "id": "minecraft:glass",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Forestry:canBiomass",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        581
+      ]
+    },
+    {
+      "questID": 1218,
+      "name": "Iron, Gold, Diamantine Tubes",
+      "description": "Tubes are for set farms to a special kind of crop or can used in engines. Also used in Alvearies and crafting recipes also.\n\nHit the hold key to see in which Farm it is used and if it gives a buff or make a engine better.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:thermionicTubes",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22032
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22086
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 26086
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 17308
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 19035
+            },
+            {
+              "id": "minecraft:glass",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Forestry:canSeedOil",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        581
+      ]
+    },
+    {
+      "questID": 1219,
+      "name": "Rubberised, Obsidian, Lapis Tubes",
+      "description": "Tubes are for set farms to a special kind of crop or can used in engines. Also used in Alvearies and crafting recipes also.\n\nHit the hold key to see in which Farm it is used and if it gives a buff or make a engine better.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:thermionicTubes",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22880
+            },
+            {
+              "id": "dreamcraft:item.LongObsidianRod",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22526
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 26086
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 17308
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 19035
+            },
+            {
+              "id": "minecraft:glass",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "gregtech:gt.metaitem.99",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 810
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        581
+      ]
+    },
+    {
+      "questID": 1220,
+      "name": "Blaze, Endereyes, Emerald Tubes",
+      "description": "Tubes are for set farms to a special kind of crop or can used in engines. Also used in Alvearies and crafting recipes also.\n\nHit the hold key to see in which Farm it is used and if it gives a buff or make a engine better.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:thermionicTubes",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22801
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22533
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 22501
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 26086
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 17308
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 19035
+            },
+            {
+              "id": "minecraft:glass",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Forestry:canHoney",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestryI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1219,
+        1218,
+        1217
+      ]
     }
   ],
   "questLines": [
@@ -120470,98 +121488,133 @@
       "quests": [
         {
           "id": 586,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 576,
-          "x": 0,
+          "x": 48,
           "y": 48
         },
         {
           "id": 577,
-          "x": 0,
+          "x": 48,
           "y": 96
         },
         {
           "id": 578,
-          "x": 192,
+          "x": 336,
           "y": 96
         },
         {
           "id": 580,
-          "x": 0,
+          "x": 48,
           "y": 336
         },
         {
           "id": 581,
-          "x": 24,
-          "y": 300
+          "x": 168,
+          "y": 264
         },
         {
           "id": 582,
-          "x": 60,
+          "x": 204,
           "y": 168
         },
         {
           "id": 583,
-          "x": 60,
+          "x": 204,
           "y": 264
         },
         {
           "id": 584,
-          "x": 96,
+          "x": 240,
           "y": 264
         },
         {
           "id": 585,
-          "x": 192,
+          "x": 336,
           "y": 336
         },
         {
           "id": 588,
-          "x": 60,
+          "x": 204,
           "y": 300
         },
         {
           "id": 589,
-          "x": 24,
+          "x": 168,
           "y": 120
         },
         {
           "id": 590,
-          "x": 24,
+          "x": 168,
           "y": 168
         },
         {
           "id": 591,
-          "x": 60,
+          "x": 204,
           "y": 120
         },
         {
           "id": 592,
-          "x": 24,
+          "x": 168,
           "y": 204
         },
         {
           "id": 593,
-          "x": 96,
+          "x": 240,
           "y": 228
         },
         {
           "id": 594,
-          "x": 132,
+          "x": 276,
           "y": 228
         },
         {
           "id": 595,
-          "x": 168,
+          "x": 312,
           "y": 228
         },
         {
           "id": 994,
-          "x": 60,
+          "x": 204,
           "y": 72
+        },
+        {
+          "id": 1214,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 1215,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 1216,
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": 1217,
+          "x": 120,
+          "y": 264
+        },
+        {
+          "id": 1218,
+          "x": 120,
+          "y": 228
+        },
+        {
+          "id": 1219,
+          "x": 120,
+          "y": 192
+        },
+        {
+          "id": 1220,
+          "x": 84,
+          "y": 228
         }
       ]
     },
