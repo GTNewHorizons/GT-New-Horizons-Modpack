@@ -48,18 +48,6 @@ recipes.remove(<AdvancedSolarPanel:hybrid_solar_helmet>);
 // --- Ultimate Solar Helm
 recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
 
-// --- Advanced Solar Panel
-recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel>);
-
-// --- Hybrid Solar Panel
-recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel:1>);
-
-// --- Ultimate Hybrid Solar Panel
-recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel:2>);
-
-// --- Quantum Solar Panel
-recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel:3>);
-
 // --- Irradiant Glass Panel
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:5>);
 
@@ -156,44 +144,18 @@ recipes.addShaped(<gregtech:gt.metaitem.01:32755>, [
 
 
 // --- Irradiant Uranium
-Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:2>, <gregtech:gt.metaitem.01:11098>, <minecraft:glowstone> *4,  600, 64);
+Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:2>, <gregtech:gt.metaitem.01:11098>, <minecraft:glowstone> * 4,  600, 64);
 
 // --- Enriched Sunnarium
-Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:3>, <AdvancedSolarPanel:asp_crafting_items>, <AdvancedSolarPanel:asp_crafting_items:2> *8, 1200, 256);
+Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:3>, <AdvancedSolarPanel:asp_crafting_items>, <AdvancedSolarPanel:asp_crafting_items:2> * 8, 1200, 256);
 
 // --- Sunnarium Alloy
-Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:1>, <gregtech:gt.metaitem.01:17318> * 4, <IC2:itemPartIridium> *8,  800, 480);
+Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:1>, <gregtech:gt.metaitem.01:17318> * 4, <IC2:itemPartIridium> * 8,  800, 480);
 
 // --- Enriched Sunnarium Alloy
-Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPanel:asp_crafting_items:1>, <AdvancedSolarPanel:asp_crafting_items:3> *8,  1600, 1024);
+Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPanel:asp_crafting_items:1>, <AdvancedSolarPanel:asp_crafting_items:3> * 8,  1600, 1024);
 
-// --- Advanced Solar Panel
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel>, <gregtech:gt.blockmachines:11>, <gregtech:gt.metaitem.01:32752>, <liquid:molten.tin> * 144, 800, 64);
-// -
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel>, <gregtech:gt.blockmachines:11>, <gregtech:gt.metaitem.01:32752>, <liquid:molten.solderingalloy> * 72, 800, 64);
-// -
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel>, <gregtech:gt.blockmachines:11>, <gregtech:gt.metaitem.01:32752>, <liquid:molten.lead> * 288, 800, 64);
 
-// --- Hybrid Solar Panel
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:1>, <gregtech:gt.blockmachines:12>, <gregtech:gt.metaitem.01:32753>, <liquid:molten.tin> * 288, 1000, 256);
-// -
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:1>, <gregtech:gt.blockmachines:12>, <gregtech:gt.metaitem.01:32753>, <liquid:molten.solderingalloy> * 144, 1000, 256);
-// -
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:1>, <gregtech:gt.blockmachines:12>, <gregtech:gt.metaitem.01:32753>, <liquid:molten.lead> * 576, 1000, 256);
-
-// --- Ultimate Hybrid Solar Panel
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:2>, <gregtech:gt.blockmachines:13>, <gregtech:gt.metaitem.01:32754>, <liquid:molten.tin> * 432, 1200, 1024);
-// -
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:2>, <gregtech:gt.blockmachines:13>, <gregtech:gt.metaitem.01:32754>, <liquid:molten.solderingalloy> * 216, 1200, 1024);
-// -
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:2>, <gregtech:gt.blockmachines:13>, <gregtech:gt.metaitem.01:32754>, <liquid:molten.lead> * 864, 1200, 1024);
-
-// --- Quantum Solar Panel
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32755>, <liquid:molten.tin> * 576, 1400, 4096);
-// -
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32755>, <liquid:molten.solderingalloy> * 288, 1400, 4096);
-// -
-Assembler.addRecipe(<AdvancedSolarPanel:BlockAdvSolarPanel:3>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32755>, <liquid:molten.lead> * 1152, 1400, 4096);
 
 
 
