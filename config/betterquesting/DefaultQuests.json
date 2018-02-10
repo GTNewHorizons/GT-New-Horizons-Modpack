@@ -115548,7 +115548,7 @@
     {
       "questID": 1197,
       "name": "Fusion reactor MK2",
-      "description": "Now that you\u0027re entering ZPM you\u0027ll need to find a new power source. Fusion will be able to satisfy your power needs for many tiers to come. While you could make a MK1 reactor, why not make a mark 2 with some of that Europium you found. The reactor will need at least 2 input hatches, 1 output hatch and 1 energy hatch. All these hatches need to be zpm tier or above. You will also need 32 fusion coils, as well as at least 32 fusion machine casings. This reactor is capable of doing all recipes up to to 65536 eu/t to sustain the reaction, and 320,000,000EU needed to start. Each energy hatch is only capable of inputting 4096eu/t no matter the amperage. You can power them with any voltage from 2 amps of EV, to 2 amps ZPM. ",
+      "description": "Now that you have some europium, put it to use by making an mk2 reactor. This one will require the same block placement, but replacing LuV casings with fusion casings, and using ZPM tier hatches. This reactor can handle recipes up to 65536eu/t and 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -115636,9 +115636,62 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32091
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32607
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32616
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32636
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32646
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2311
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        214
+        1213
       ]
     },
     {
@@ -115732,7 +115785,60 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32094
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32608
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32617
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32637
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32647
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2023
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1199
       ]
@@ -115807,7 +115913,44 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32599
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1197
       ]
@@ -115815,7 +115958,7 @@
     {
       "questID": 1200,
       "name": "Making power with your plasma",
-      "description": "Now that you have a reactor, it\u0027s time to utalize it. The simpliest plasma you can make for power is Helium plasma. It\u0027s renewable from water, but also provides a lot of power. However, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. ",
+      "description": "Now that you have a reactor, it\u0027s time to utilize it. The simplest plasma you can make for power is Helium plasma. It\u0027s renewable from water, but also provides a lot of power. However, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you\u0027re outputting. For Helium plasma, you will want a UV or above hatch.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -115882,21 +116025,113 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 51
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 61
+            },
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 29,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 1153
             }
           ],
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32096
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32606
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32615
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32635
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32645
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2405
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        1197
+        1212
       ]
     },
     {
       "questID": 1201,
       "name": "Turbine Time",
-      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock. Neutronium will give you the longest lasting turbine rotors. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. ",
+      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -115950,7 +116185,50 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11975
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1200
       ]
@@ -116055,7 +116333,36 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32560
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32737
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1202
       ]
@@ -116637,6 +116944,267 @@
       ],
       "preRequisites": [
         110
+      ]
+    },
+    {
+      "questID": 1212,
+      "name": "Starting Fusion",
+      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options. Solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch inputs 2048eu/t, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn’t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1193
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 56
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 66
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 46
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings4",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1193
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32092
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32606
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32615
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32635
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32645
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2403
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        214
+      ]
+    },
+    {
+      "questID": 1213,
+      "name": "Getting europium",
+      "description": "To make an mk2 reactor, you will need europium. Once you make a t6 rocket you will be able to find this as an ore. Until then you need to produce it in the reactor. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmetal3",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 30001
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 13,
+              "OreDict": "",
+              "Damage": 11067
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmetal3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17070
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32599
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1212
       ]
     }
   ],
@@ -119246,22 +119814,22 @@
     },
     {
       "name": "Fusion",
-      "description": "Temp",
+      "description": "Making power for the lategame tiers, LuV-UMV",
       "quests": [
         {
           "id": 1197,
-          "x": 0,
-          "y": 0
+          "x": 72,
+          "y": 72
         },
         {
           "id": 1198,
           "x": 144,
-          "y": 0
+          "y": 144
         },
         {
           "id": 1199,
           "x": 72,
-          "y": 0
+          "y": 144
         },
         {
           "id": 1200,
@@ -119275,12 +119843,22 @@
         },
         {
           "id": 1202,
-          "x": 216,
-          "y": 0
+          "x": 144,
+          "y": 72
         },
         {
           "id": 1203,
-          "x": 288,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 1212,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1213,
+          "x": 72,
           "y": 0
         }
       ]
