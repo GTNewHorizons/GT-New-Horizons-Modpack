@@ -9,6 +9,9 @@
         <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBone" Amount="6" NBTTag="" Chance="100" LimitedDropCount="10" RandomAmount="true"/>
 		<Drop Identifier="Litch_Ofanix" ItemName="Ztones:ofanix" Amount="1" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
     </CustomDrop>
+		<CustomDrop EntityClassName="twilightforest.entity.EntityTFDeathTome">
+        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBoneChip" Amount="2" NBTTag="" Chance="100" LimitedDropCount="4" RandomAmount="true"/>
+    </CustomDrop>
 	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFSnowQueen">
 		<Drop Identifier="Bloodqueen_Blood" ItemName="dreamcraft:item.SnowQueenBlood" Amount="6" NBTTag="" Chance="100" LimitedDropCount="10" RandomAmount="true"/>	
     </CustomDrop>

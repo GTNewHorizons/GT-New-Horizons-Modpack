@@ -101317,7 +101317,7 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-	          {
+        {
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": true,
@@ -101393,7 +101393,7 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
-        },
+        }
       ],
       "rewards": [
         {
@@ -101493,10 +101493,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TwilightForest:item.trophy",
+              "id": "TwilightForest:tile.TFNagastone",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 13
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -101577,7 +101577,13 @@
               "id": "TwilightForest:item.trophy",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 1
+            },
+            {
+              "id": "dreamcraft:item.LichBoneChip",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -101597,7 +101603,7 @@
         }
       ],
       "preRequisites": [
-        1073
+        225
       ]
     },
     {
@@ -101655,10 +101661,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TwilightForest:item.minotaurAxe",
+              "id": "TwilightForest:item.trophy",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 2
+            },
+            {
+              "id": "TwilightForest:tile.TFMazestone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -101678,7 +101690,7 @@
         }
       ],
       "preRequisites": [
-        1074
+        225
       ]
     },
     {
@@ -101742,7 +101754,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TwilightForest:item.trophy",
+              "id": "TwilightForest:tile.TFFireJet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "TwilightForest:item.minotaurAxe",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -101765,7 +101783,7 @@
         }
       ],
       "preRequisites": [
-        1075
+        225
       ]
     },
     {
@@ -101823,7 +101841,13 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TwilightForest:item.phantomHelm",
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.TFUnderBrick",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -101846,7 +101870,7 @@
         }
       ],
       "preRequisites": [
-        1076
+        225
       ]
     },
     {
@@ -101910,10 +101934,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TwilightForest:item.trophy",
+              "id": "TwilightForest:tile.TFTowerStone",
               "Count": 1,
               "OreDict": "",
-              "Damage": 3
+              "Damage": 1
+            },
+            {
+              "id": "TwilightForest:item.knightlyHelm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -101933,7 +101963,7 @@
         }
       ],
       "preRequisites": [
-        1077
+        225
       ]
     },
     {
@@ -101997,6 +102027,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
               "id": "TwilightForest:item.alphaFur",
               "Count": 1,
               "OreDict": "",
@@ -102020,7 +102056,7 @@
         }
       ],
       "preRequisites": [
-        1078
+        225
       ]
     },
     {
@@ -102078,10 +102114,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "TwilightForest:item.trophy",
+              "id": "TwilightForest:item.alphaFur",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.AuroraPillar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -102101,7 +102143,7 @@
         }
       ],
       "preRequisites": [
-        1079
+        225
       ]
     },
     {
@@ -113285,8 +113327,8 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.CoinSmith",
-              "Count": 50,
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -113299,7 +113341,7 @@
           "rewards": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 16,
               "OreDict": "",
               "Damage": 11335
             }
@@ -113308,7 +113350,7 @@
         }
       ],
       "preRequisites": [
-        65
+        1148
       ]
     },
     {
