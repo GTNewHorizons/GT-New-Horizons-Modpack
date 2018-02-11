@@ -101317,6 +101317,45 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
+	          {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:quartz",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:coal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ghast_tear",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ender_eye",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
         {
           "name": "New Location",
           "posX": 0,
@@ -101355,45 +101394,6 @@
           ],
           "taskID": "bq_standard:retrieval"
         },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:quartz",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:coal",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:glowstone_dust",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:ghast_tear",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:ender_eye",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
       ],
       "rewards": [
         {
