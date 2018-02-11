@@ -16,19 +16,19 @@ import mods.gregtech.PrecisionLaser;
 
 
 // --- Solar Light Splitter
-recipes.remove(<supersolarpanel:solarsplitter>);
+//recipes.remove(<supersolarpanel:solarsplitter>);
 
 // --- Green Spectral Cpmponent
-recipes.remove(<supersolarpanel:greencomponent>);
+//recipes.remove(<supersolarpanel:greencomponent>);
 
 // --- Blue Spectral Cpmponent
-recipes.remove(<supersolarpanel:bluecomponent>);
+//recipes.remove(<supersolarpanel:bluecomponent>);
 
 // --- Red Spectral Cpmponent
-recipes.remove(<supersolarpanel:redcomponent>);
+//recipes.remove(<supersolarpanel:redcomponent>);
 
 // --- Ender Qunatum Component
-recipes.remove(<supersolarpanel:enderquantumcomponent>);
+//recipes.remove(<supersolarpanel:enderquantumcomponent>);
 
 
 
