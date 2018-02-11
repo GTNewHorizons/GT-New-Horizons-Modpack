@@ -910,7 +910,7 @@ Assembler.addRecipe(<ProjRed|Core:projectred.core.part:9>, <ProjRed|Core:project
 //Assembler.addRecipe(<ProjRed|Core:projectred.core.part:47>, <ProjRed|Core:projectred.core.part:46>, <gregtech:gt.blockmachines:1200> * 2, <liquid:molten.redstone> * 288, 400, 24);
 
 // --- LZ Upgarde
-Assembler.addRecipe(<ProjRed|Core:projectred.core.part:48>, <ProjRed|Core:projectred.core.part:47>, <gregtech:gt.metaitem.01:23501> * 2, <liquid:molten.redstone> * 288, 300, 30);
+//Assembler.addRecipe(<ProjRed|Core:projectred.core.part:48>, <ProjRed|Core:projectred.core.part:47>, <gregtech:gt.metaitem.01:23501> * 2, <liquid:molten.redstone> * 288, 300, 30);
 
 // --- Data Card
 Assembler.addRecipe(<ProjRed|Core:projectred.core.datacard>, <gregtech:gt.metaitem.01:20879>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redstone> * 288, 200, 16);
@@ -1086,9 +1086,6 @@ Compressor.addRecipe(<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:proje
 // --- Forming Press Recipes ---
 
 
-
-// --- Circuit Plate
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part> * 4, <minecraft:stone_pressure_plate> * 4, <IC2:itemPartCircuit>, 400, 16);
 
 // --- Silicon Ship
 FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:7>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:13>, 600, 30);
