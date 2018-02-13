@@ -14218,7 +14218,7 @@
         }
       ],
       "preRequisites": [
-        160
+        1231
       ]
     },
     {
@@ -17555,7 +17555,11 @@
         "Damage": 4
       },
       "visibility": "UNLOCKED",
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
       "rewards": [
         {
           "rewards": [
@@ -70871,7 +70875,7 @@
         }
       ],
       "preRequisites": [
-        160
+        1231
       ]
     },
     {
@@ -70954,7 +70958,7 @@
         }
       ],
       "preRequisites": [
-        160
+        1231
       ]
     },
     {
@@ -71032,7 +71036,7 @@
       "questID": 772,
       "name": "Precision is required",
       "description": "You will use this a lot to make high tier circuits, and for other recipes",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -71092,8 +71096,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -71102,7 +71106,7 @@
         }
       ],
       "preRequisites": [
-        160
+        1232
       ]
     },
     {
@@ -88292,7 +88296,7 @@
       ],
       "preRequisites": [
         931,
-        160
+        1231
       ]
     },
     {
@@ -89463,7 +89467,7 @@
       "questID": 943,
       "name": "Performing chemical experiments at HV Level",
       "description": "High tier chemical recipes like ammonia need an HV chemical reactor.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -89529,8 +89533,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -89539,7 +89543,7 @@
         }
       ],
       "preRequisites": [
-        160
+        1231
       ]
     },
     {
@@ -97402,7 +97406,8 @@
       ],
       "preRequisites": [
         1013,
-        1221
+        1221,
+        1015
       ]
     },
     {
@@ -97636,7 +97641,7 @@
       ],
       "preRequisites": [
         1013,
-        160
+        1232
       ]
     },
     {
@@ -112851,7 +112856,7 @@
       ],
       "preRequisites": [
         931,
-        160
+        1231
       ]
     },
     {
@@ -118612,10 +118617,10 @@
               "Damage": 11028
             },
             {
-              "id": "gregtech:gt.metaitem.03",
-              "Count": 16,
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 32106
+              "Damage": 11067
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -119220,7 +119225,7 @@
               "id": "gregtech:gt.metaitem.03",
               "Count": 8,
               "OreDict": "",
-              "Damage": 32101
+              "Damage": 32106
             },
             {
               "id": "IC2:itemCellEmpty",
@@ -119252,6 +119257,1085 @@
       "preRequisites": [
         552,
         1229
+      ]
+    },
+    {
+      "questID": 1231,
+      "name": "You gonna hate this 1-4 in HV",
+      "description": "Pumps, Pistons, Conveyor Belt and Robot arm the most needed machine parts in HV. Go and craft one of each.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32652
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32612
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32642
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32632
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32652
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11303
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
+      "questID": 1232,
+      "name": "You gonna hate this 5 and 6 in HV",
+      "description": "Some machines need Emitters and Sensors like the Analyzer or the circuit Assembler.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32692
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32682
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32692
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11054
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1231,
+        1233
+      ]
+    },
+    {
+      "questID": 1233,
+      "name": "Ender Eyes",
+      "description": "Endereyes are available in HV in the chemical reactor. React some Enderyes in Blazepowder.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:ender_eye",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:blaze_powder",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:ender_pearl",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:ender_eye",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11303
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        943
+      ]
+    },
+    {
+      "questID": 1234,
+      "name": "Empty Expoxide Board",
+      "description": "Epoxide circuit boards require epoxide Plate, gold foil and Sulfuric Acid to make an Empty Board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft a epoxide or addvanced circuit board.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32102
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17470
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 29086
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 29303
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32711
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32102
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 29303
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17470
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1020,
+        1224
+      ]
+    },
+    {
+      "questID": 1235,
+      "name": "Microprocessor LV",
+      "description": "The Microprocessor is the expensiest way to  craft an LV circuit. It need plastic board, a cleanroom, a cpu and a few smd components.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32078
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32045
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32011
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32018
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 19035
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32078
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32045
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1013,
+        1221,
+        1015
+      ]
+    },
+    {
+      "questID": 1236,
+      "name": "Cutting Machine HV",
+      "description": "Nor, Nand and other high tier chips need a hv cutting machine. To cutting the Glowstone Dopped wafers this machine is needed too.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1180
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 253
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.99",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 874
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1221
+      ]
+    },
+    {
+      "questID": 1237,
+      "name": "Glowstone dopped Monocrystalline Silicon",
+      "description": "To make wafers, you need to make monocrystalline silicon first. The process takes 450 seconds and requires silicon dust and gallium arsenide dust in the electric blast furnace. You can make 16 wafers out of every boule.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32031
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32031
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        746
+      ]
+    },
+    {
+      "questID": 1238,
+      "name": "Glowstone Dopped Wafer",
+      "description": "To create some glowstone dopped silicon wafers, put the monocrystalline glowstone dopped silicon boule in a cutting machine. A HV version of the Cutting machines is needed for future wafer and chips.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32034
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 32034
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2020
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1237
+      ]
+    },
+    {
+      "questID": 1239,
+      "name": "Nor and Nand chips",
+      "description": "The Data stick need Nand chips. Nor chips are needed for more advanced circuits. You can get these by cutting a nand and a nor wafer.\nA cleanroom is needed.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32045
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32042
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32040
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32043
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32041
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24533
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24501
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1238,
+        1236,
+        772
+      ]
+    },
+    {
+      "questID": 1240,
+      "name": "Data Sticks",
+      "description": "Data Sticks are very important for Seismic prospecting and for Assembly Line in the LuV age. Go and craft a few data sticks.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32708
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32045
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 32041
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 19308
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17874
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32708
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17874
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32034
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1239
       ]
     }
   ],
@@ -121268,317 +122352,362 @@
         {
           "id": 160,
           "x": 240,
-          "y": 120
+          "y": 108
         },
         {
           "id": 162,
           "x": 240,
-          "y": 228
+          "y": 312
         },
         {
           "id": 163,
           "x": 540,
-          "y": 120
+          "y": 156
         },
         {
           "id": 165,
           "x": 444,
-          "y": 120
+          "y": 156
         },
         {
           "id": 167,
           "x": 372,
-          "y": 156
+          "y": 192
         },
         {
           "id": 168,
           "x": 444,
-          "y": 156
+          "y": 192
         },
         {
           "id": 169,
           "x": 492,
-          "y": 120
+          "y": 156
         },
         {
           "id": 166,
           "x": 372,
-          "y": 120
+          "y": 156
         },
         {
           "id": 170,
           "x": 540,
-          "y": 24
+          "y": 60
         },
         {
           "id": 171,
           "x": 396,
-          "y": 228
+          "y": 264
         },
         {
           "id": 172,
           "x": 444,
-          "y": 228
+          "y": 264
         },
         {
           "id": 173,
           "x": 492,
-          "y": 228
+          "y": 264
         },
         {
           "id": 174,
           "x": 492,
-          "y": 276
+          "y": 312
         },
         {
           "id": 175,
           "x": 540,
-          "y": 228
+          "y": 264
         },
         {
           "id": 769,
-          "x": 96,
-          "y": 120
+          "x": 216,
+          "y": 156
         },
         {
           "id": 770,
-          "x": 96,
-          "y": 156
+          "x": 144,
+          "y": 192
         },
         {
           "id": 772,
           "x": 96,
-          "y": 192
+          "y": 228
         },
         {
           "id": 789,
-          "x": 96,
-          "y": 84
+          "x": 180,
+          "y": 156
         },
         {
           "id": 790,
-          "x": 48,
-          "y": 84
+          "x": 144,
+          "y": 156
         },
         {
           "id": 808,
-          "x": 144,
-          "y": 192
+          "x": 240,
+          "y": 72
         },
         {
           "id": 860,
           "x": 348,
-          "y": 324
+          "y": 348
         },
         {
           "id": 932,
-          "x": 240,
-          "y": 36
+          "x": 288,
+          "y": 276
         },
         {
           "id": 859,
           "x": 96,
-          "y": 324
+          "y": 384
         },
         {
           "id": 858,
           "x": 144,
-          "y": 372
+          "y": 432
         },
         {
           "id": 854,
           "x": 144,
-          "y": 324
+          "y": 384
         },
         {
           "id": 857,
           "x": 204,
-          "y": 372
+          "y": 432
         },
         {
           "id": 856,
           "x": 204,
-          "y": 420
+          "y": 480
         },
         {
           "id": 147,
           "x": 144,
-          "y": 420
+          "y": 480
         },
         {
           "id": 855,
           "x": 204,
-          "y": 324
+          "y": 384
         },
         {
           "id": 851,
           "x": 288,
-          "y": 324
+          "y": 384
         },
         {
           "id": 853,
           "x": 240,
-          "y": 324
+          "y": 384
         },
         {
           "id": 841,
           "x": 288,
-          "y": 372
+          "y": 432
         },
         {
           "id": 557,
           "x": 348,
-          "y": 372
+          "y": 432
         },
         {
           "id": 943,
-          "x": 204,
-          "y": 276
+          "x": 144,
+          "y": 348
         },
         {
           "id": 988,
           "x": 540,
-          "y": 72
+          "y": 108
         },
         {
           "id": 989,
           "x": 372,
-          "y": 72
+          "y": 108
         },
         {
           "id": 141,
           "x": 492,
-          "y": 72
+          "y": 108
         },
         {
           "id": 998,
           "x": 492,
-          "y": 24
+          "y": 60
         },
         {
           "id": 999,
           "x": 444,
-          "y": 24
+          "y": 60
         },
         {
           "id": 1000,
           "x": 372,
-          "y": 24
+          "y": 60
         },
         {
           "id": 1001,
           "x": 408,
-          "y": 24
+          "y": 60
         },
         {
           "id": 146,
           "x": 408,
-          "y": 120
+          "y": 156
         },
         {
           "id": 144,
           "x": 408,
-          "y": 156
+          "y": 192
         },
         {
           "id": 1011,
           "x": 288,
-          "y": 276
+          "y": 312
         },
         {
           "id": 1012,
           "x": 348,
-          "y": 276
+          "y": 312
         },
         {
           "id": 1014,
-          "x": 48,
-          "y": 0
+          "x": 0,
+          "y": 156
         },
         {
           "id": 1016,
-          "x": 192,
-          "y": 0
+          "x": 0,
+          "y": 276
         },
         {
           "id": 1017,
-          "x": 96,
-          "y": 0
+          "x": 0,
+          "y": 192
         },
         {
           "id": 1018,
-          "x": 192,
-          "y": 72
+          "x": 96,
+          "y": 276
         },
         {
           "id": 1019,
-          "x": 144,
-          "y": 0
+          "x": 0,
+          "y": 228
         },
         {
           "id": 1142,
           "x": 144,
-          "y": 84
+          "y": 108
         },
         {
           "id": 1143,
           "x": 144,
-          "y": 36
+          "y": 72
         },
         {
           "id": 1144,
-          "x": 96,
+          "x": 144,
           "y": 36
         },
         {
           "id": 1137,
-          "x": 192,
-          "y": 192
-        },
-        {
-          "id": 1138,
-          "x": 96,
-          "y": 228
-        },
-        {
-          "id": 1139,
-          "x": 144,
-          "y": 228
-        },
-        {
-          "id": 1140,
-          "x": 120,
-          "y": 276
-        },
-        {
-          "id": 1141,
-          "x": 48,
-          "y": 228
-        },
-        {
-          "id": 1145,
-          "x": 48,
-          "y": 276
-        },
-        {
-          "id": 1164,
-          "x": 276,
+          "x": 288,
           "y": 72
         },
         {
-          "id": 1221,
-          "x": 192,
+          "id": 1138,
+          "x": 288,
           "y": 36
+        },
+        {
+          "id": 1139,
+          "x": 324,
+          "y": 72
+        },
+        {
+          "id": 1140,
+          "x": 324,
+          "y": 36
+        },
+        {
+          "id": 1141,
+          "x": 288,
+          "y": 0
+        },
+        {
+          "id": 1145,
+          "x": 324,
+          "y": 0
+        },
+        {
+          "id": 1164,
+          "x": 180,
+          "y": 192
+        },
+        {
+          "id": 1221,
+          "x": 48,
+          "y": 276
         },
         {
           "id": 1222,
           "x": 0,
-          "y": 0
+          "y": 72
         },
         {
           "id": 1225,
           "x": 0,
-          "y": 36
+          "y": 108
+        },
+        {
+          "id": 1231,
+          "x": 240,
+          "y": 276
+        },
+        {
+          "id": 1232,
+          "x": 144,
+          "y": 276
+        },
+        {
+          "id": 1233,
+          "x": 144,
+          "y": 312
+        },
+        {
+          "id": 1235,
+          "x": 48,
+          "y": 312
+        },
+        {
+          "id": 1236,
+          "x": 48,
+          "y": 228
+        },
+        {
+          "id": 1237,
+          "x": 96,
+          "y": 156
+        },
+        {
+          "id": 1238,
+          "x": 96,
+          "y": 192
+        },
+        {
+          "id": 1239,
+          "x": 48,
+          "y": 192
+        },
+        {
+          "id": 1240,
+          "x": 48,
+          "y": 156
         }
       ]
     },
@@ -121589,261 +122718,266 @@
         {
           "id": 176,
           "x": 192,
-          "y": 84
+          "y": 120
         },
         {
           "id": 178,
           "x": 264,
-          "y": 120
+          "y": 156
         },
         {
           "id": 179,
           "x": 264,
-          "y": 156
+          "y": 192
         },
         {
           "id": 180,
           "x": 300,
-          "y": 156
+          "y": 192
         },
         {
           "id": 182,
           "x": 336,
-          "y": 156
+          "y": 192
         },
         {
           "id": 181,
           "x": 336,
-          "y": 192
+          "y": 228
         },
         {
           "id": 183,
           "x": 372,
-          "y": 120
+          "y": 156
         },
         {
           "id": 184,
           "x": 372,
-          "y": 156
+          "y": 192
         },
         {
           "id": 185,
           "x": 300,
-          "y": 192
+          "y": 228
         },
         {
           "id": 186,
           "x": 156,
-          "y": 120
+          "y": 156
         },
         {
           "id": 187,
           "x": 228,
-          "y": 192
+          "y": 228
         },
         {
           "id": 188,
           "x": 264,
-          "y": 192
+          "y": 228
         },
         {
           "id": 189,
           "x": 396,
-          "y": 84
+          "y": 120
         },
         {
           "id": 190,
           "x": 432,
-          "y": 84
+          "y": 120
         },
         {
           "id": 191,
           "x": 432,
-          "y": 192
+          "y": 228
         },
         {
           "id": 192,
           "x": 504,
-          "y": 156
+          "y": 192
         },
         {
           "id": 193,
           "x": 456,
-          "y": 156
+          "y": 192
         },
         {
           "id": 194,
           "x": 552,
-          "y": 156
+          "y": 192
         },
         {
           "id": 195,
           "x": 552,
-          "y": 84
+          "y": 120
         },
         {
           "id": 196,
           "x": 504,
-          "y": 120
+          "y": 156
         },
         {
           "id": 197,
           "x": 504,
-          "y": 84
+          "y": 120
         },
         {
           "id": 198,
           "x": 504,
-          "y": 192
+          "y": 228
         },
         {
           "id": 199,
           "x": 192,
-          "y": 300
+          "y": 336
         },
         {
           "id": 200,
           "x": 120,
-          "y": 336
+          "y": 372
         },
         {
           "id": 201,
           "x": 192,
-          "y": 336
+          "y": 372
         },
         {
           "id": 202,
           "x": 192,
-          "y": 372
+          "y": 408
         },
         {
           "id": 203,
           "x": 372,
-          "y": 192
+          "y": 228
         },
         {
           "id": 204,
           "x": 156,
-          "y": 156
+          "y": 192
         },
         {
           "id": 205,
           "x": 120,
-          "y": 120
+          "y": 156
         },
         {
           "id": 206,
           "x": 120,
-          "y": 300
+          "y": 336
         },
         {
           "id": 207,
           "x": 468,
-          "y": 252
+          "y": 288
         },
         {
           "id": 209,
           "x": 504,
-          "y": 252
+          "y": 288
         },
         {
           "id": 210,
           "x": 468,
-          "y": 288
+          "y": 324
         },
         {
           "id": 208,
           "x": 432,
-          "y": 252
+          "y": 288
         },
         {
           "id": 211,
           "x": 396,
-          "y": 252
+          "y": 288
         },
         {
           "id": 212,
           "x": 48,
-          "y": 84
+          "y": 120
         },
         {
           "id": 805,
           "x": 156,
-          "y": 192
+          "y": 228
         },
         {
           "id": 806,
           "x": 156,
-          "y": 228
+          "y": 264
         },
         {
           "id": 807,
           "x": 120,
-          "y": 228
+          "y": 264
         },
         {
           "id": 861,
           "x": 120,
-          "y": 156
+          "y": 192
         },
         {
           "id": 936,
           "x": 120,
-          "y": 264
+          "y": 300
         },
         {
           "id": 937,
           "x": 156,
-          "y": 264
+          "y": 300
         },
         {
           "id": 1003,
           "x": 48,
-          "y": 264
+          "y": 300
         },
         {
           "id": 1004,
           "x": 48,
-          "y": 300
+          "y": 336
         },
         {
           "id": 1005,
           "x": 48,
-          "y": 120
+          "y": 156
         },
         {
           "id": 1006,
           "x": 48,
-          "y": 156
+          "y": 192
         },
         {
           "id": 1007,
           "x": 0,
-          "y": 156
+          "y": 192
         },
         {
           "id": 1223,
-          "x": 264,
-          "y": 36
+          "x": 228,
+          "y": 72
         },
         {
           "id": 1224,
           "x": 192,
-          "y": 0
+          "y": 36
         },
         {
           "id": 1228,
           "x": 192,
-          "y": 36
+          "y": 72
         },
         {
           "id": 1229,
           "x": 156,
-          "y": 36
+          "y": 72
         },
         {
           "id": 1230,
           "x": 156,
+          "y": 36
+        },
+        {
+          "id": 1234,
+          "x": 192,
           "y": 0
         }
       ]
