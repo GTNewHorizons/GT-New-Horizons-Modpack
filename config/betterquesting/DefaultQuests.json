@@ -47812,7 +47812,7 @@
       "questID": 551,
       "name": "Heavy Sulfuric fuel",
       "description": "The second step is to distill your oil into heavy sulfuric fuel, that has a burn value of 40,000 EU.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -47879,7 +47879,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "Count": 30,
               "OreDict": "",
               "Damage": 0
             }
@@ -47895,7 +47895,7 @@
       "questID": 552,
       "name": "Heavy fuel",
       "description": "By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 200,000 EU.\n\nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.\n\nIn MV age you can make diesel out of heavy and light fuel.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -47962,7 +47962,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "Count": 30,
               "OreDict": "",
               "Damage": 0
             }
@@ -79488,7 +79488,7 @@
     {
       "questID": 845,
       "name": "Bio Diesel Fuel",
-      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite.",
+      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite or for your future epoxide production.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92362,7 +92362,7 @@
     },
     {
       "questID": 982,
-      "name": "Glycerol",
+      "name": "Glycerol Cells",
       "description": "Want some glycerol? Buy some!",
       "isMain": false,
       "isSilent": false,
@@ -97895,7 +97895,7 @@
     {
       "questID": 1021,
       "name": "Sodium Persulfate",
-      "description": "Sodium Persulfate can be made in the electrolyzer out of sodium bislufate dust.\nSodium bisulfate is made out of sulfuric acid and salt in the chemical reactor.\nYou can etch your board with it.",
+      "description": "Sodium Persulfate can be made in the electrolyzer out of sodium bislufate dust.\nSodium bisulfate is made out of sulfuric acid and salt in the chemical reactor.\nYou can etch your board with it.\nSave the Hydrochloric Acid for your future Epoxide production.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -118518,6 +118518,132 @@
       ]
     },
     {
+      "questID": 1224,
+      "name": "Epoxide",
+      "description": "An EV Circuit Assembler need IV Circuits to craft. With this Assembler you can make a lot more high tier circuits.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 17470
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2685
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30648
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30669
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.99",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 470
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17470
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1230,
+        1228
+      ]
+    },
+    {
       "questID": 1225,
       "name": "Iv Circuit Mainframe",
       "description": "With your workstation circuitsyou can craft a HV Circut assembler. This is need for higher circuits.",
@@ -118643,6 +118769,489 @@
       ],
       "preRequisites": [
         1222
+      ]
+    },
+    {
+      "questID": 1226,
+      "name": "Glycerol",
+      "description": "Glyceroal become important in creating Expoxid in the next tiers. It is iportant for TNT production too. It left over wehn you producing Bio diesel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 6,
+        "OreDict": "",
+        "Damage": 30629
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 30629
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2685
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30713
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        845
+      ]
+    },
+    {
+      "questID": 1227,
+      "name": "HCL",
+      "description": "HCl becomes important for your Epoxid production in HV/EV Tier.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30683
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 30683
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2685
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30713
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1021
+      ]
+    },
+    {
+      "questID": 1228,
+      "name": "Epichlorohydrine",
+      "description": "Epichlorohydrine is another product using in your Epoxid production. Mixing Glycerol and HCL together.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30648
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30683
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30629
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30648
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17874
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11067
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 1229,
+      "name": "Phenol",
+      "description": "The esiest way is to get Phenol out of heavy fuel. There are other ways like get it out of Isopropylbenzene and coxygen or chlorobenzene with water.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30687
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30687
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30741
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        176,
+        552
+      ]
+    },
+    {
+      "questID": 1230,
+      "name": "Bisphenol A",
+      "description": "To get Bisphenol A your need to react Phenol, Aceton and HCL in a chemical reactor.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30669
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30672
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30683
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30687
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30669
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32101
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        552,
+        1229
       ]
     }
   ],
@@ -120277,22 +120886,22 @@
         },
         {
           "id": 733,
-          "x": 84,
+          "x": 48,
           "y": 444
         },
         {
           "id": 734,
-          "x": 132,
+          "x": 84,
           "y": 480
         },
         {
           "id": 735,
-          "x": 36,
+          "x": 0,
           "y": 480
         },
         {
           "id": 736,
-          "x": 84,
+          "x": 48,
           "y": 516
         },
         {
@@ -120447,7 +121056,7 @@
         },
         {
           "id": 842,
-          "x": 36,
+          "x": 0,
           "y": 516
         },
         {
@@ -120457,12 +121066,12 @@
         },
         {
           "id": 844,
-          "x": 36,
+          "x": 0,
           "y": 552
         },
         {
           "id": 845,
-          "x": 84,
+          "x": 36,
           "y": 588
         },
         {
@@ -120477,13 +121086,13 @@
         },
         {
           "id": 848,
-          "x": 156,
+          "x": 120,
           "y": 588
         },
         {
           "id": 849,
-          "x": 156,
-          "y": 552
+          "x": 168,
+          "y": 588
         },
         {
           "id": 852,
@@ -120622,7 +121231,7 @@
         },
         {
           "id": 1093,
-          "x": 36,
+          "x": 0,
           "y": 444
         },
         {
@@ -120639,6 +121248,16 @@
           "id": 1148,
           "x": 156,
           "y": 204
+        },
+        {
+          "id": 1226,
+          "x": 36,
+          "y": 624
+        },
+        {
+          "id": 1227,
+          "x": 444,
+          "y": 552
         }
       ]
     },
@@ -120970,241 +121589,261 @@
         {
           "id": 176,
           "x": 192,
-          "y": 48
+          "y": 84
         },
         {
           "id": 178,
           "x": 264,
-          "y": 84
+          "y": 120
         },
         {
           "id": 179,
           "x": 264,
-          "y": 120
+          "y": 156
         },
         {
           "id": 180,
           "x": 300,
-          "y": 120
+          "y": 156
         },
         {
           "id": 182,
           "x": 336,
-          "y": 120
+          "y": 156
         },
         {
           "id": 181,
           "x": 336,
-          "y": 156
+          "y": 192
         },
         {
           "id": 183,
           "x": 372,
-          "y": 84
+          "y": 120
         },
         {
           "id": 184,
           "x": 372,
-          "y": 120
+          "y": 156
         },
         {
           "id": 185,
           "x": 300,
-          "y": 156
+          "y": 192
         },
         {
           "id": 186,
           "x": 156,
-          "y": 84
+          "y": 120
         },
         {
           "id": 187,
           "x": 228,
-          "y": 156
+          "y": 192
         },
         {
           "id": 188,
           "x": 264,
-          "y": 156
+          "y": 192
         },
         {
           "id": 189,
           "x": 396,
-          "y": 48
+          "y": 84
         },
         {
           "id": 190,
           "x": 432,
-          "y": 48
+          "y": 84
         },
         {
           "id": 191,
           "x": 432,
-          "y": 156
+          "y": 192
         },
         {
           "id": 192,
           "x": 504,
-          "y": 120
+          "y": 156
         },
         {
           "id": 193,
           "x": 456,
-          "y": 120
+          "y": 156
         },
         {
           "id": 194,
           "x": 552,
-          "y": 120
+          "y": 156
         },
         {
           "id": 195,
           "x": 552,
-          "y": 48
+          "y": 84
         },
         {
           "id": 196,
           "x": 504,
-          "y": 84
+          "y": 120
         },
         {
           "id": 197,
           "x": 504,
-          "y": 48
+          "y": 84
         },
         {
           "id": 198,
           "x": 504,
-          "y": 156
+          "y": 192
         },
         {
           "id": 199,
           "x": 192,
-          "y": 264
+          "y": 300
         },
         {
           "id": 200,
           "x": 120,
-          "y": 300
+          "y": 336
         },
         {
           "id": 201,
           "x": 192,
-          "y": 300
+          "y": 336
         },
         {
           "id": 202,
           "x": 192,
-          "y": 336
+          "y": 372
         },
         {
           "id": 203,
           "x": 372,
-          "y": 156
+          "y": 192
         },
         {
           "id": 204,
           "x": 156,
-          "y": 120
+          "y": 156
         },
         {
           "id": 205,
           "x": 120,
-          "y": 84
+          "y": 120
         },
         {
           "id": 206,
           "x": 120,
-          "y": 264
+          "y": 300
         },
         {
           "id": 207,
           "x": 468,
-          "y": 216
+          "y": 252
         },
         {
           "id": 209,
           "x": 504,
-          "y": 216
+          "y": 252
         },
         {
           "id": 210,
           "x": 468,
-          "y": 252
+          "y": 288
         },
         {
           "id": 208,
           "x": 432,
-          "y": 216
+          "y": 252
         },
         {
           "id": 211,
           "x": 396,
-          "y": 216
+          "y": 252
         },
         {
           "id": 212,
           "x": 48,
-          "y": 48
+          "y": 84
         },
         {
           "id": 805,
           "x": 156,
-          "y": 156
+          "y": 192
         },
         {
           "id": 806,
           "x": 156,
-          "y": 192
+          "y": 228
         },
         {
           "id": 807,
           "x": 120,
-          "y": 192
+          "y": 228
         },
         {
           "id": 861,
           "x": 120,
-          "y": 120
+          "y": 156
         },
         {
           "id": 936,
           "x": 120,
-          "y": 228
+          "y": 264
         },
         {
           "id": 937,
           "x": 156,
-          "y": 228
+          "y": 264
         },
         {
           "id": 1003,
           "x": 48,
-          "y": 228
+          "y": 264
         },
         {
           "id": 1004,
           "x": 48,
-          "y": 264
+          "y": 300
         },
         {
           "id": 1005,
           "x": 48,
-          "y": 84
+          "y": 120
         },
         {
           "id": 1006,
           "x": 48,
-          "y": 120
+          "y": 156
         },
         {
           "id": 1007,
           "x": 0,
-          "y": 120
+          "y": 156
         },
         {
           "id": 1223,
+          "x": 264,
+          "y": 36
+        },
+        {
+          "id": 1224,
           "x": 192,
+          "y": 0
+        },
+        {
+          "id": 1228,
+          "x": 192,
+          "y": 36
+        },
+        {
+          "id": 1229,
+          "x": 156,
+          "y": 36
+        },
+        {
+          "id": 1230,
+          "x": 156,
           "y": 0
         }
       ]
