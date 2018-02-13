@@ -16000,7 +16000,8 @@
       ],
       "preRequisites": [
         160,
-        860
+        860,
+        1014
       ]
     },
     {
@@ -97401,7 +97402,7 @@
       ],
       "preRequisites": [
         1013,
-        1018
+        1221
       ]
     },
     {
@@ -118266,6 +118267,383 @@
         1218,
         1217
       ]
+    },
+    {
+      "questID": 1221,
+      "name": "Advanced Circuit Assembler",
+      "description": "More advanced circuits require an MV circuit assembling machine. Let\u0027s make one.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1180
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1181
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.99",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 874
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30718
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1018
+      ]
+    },
+    {
+      "questID": 1222,
+      "name": "Advanced Circuit Assembler II",
+      "description": "With your workstation circuitsyou can craft a HV Circut assembler. This is need for higher circuits.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1180
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1182
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1014
+      ]
+    },
+    {
+      "questID": 1223,
+      "name": "EV Circuits assembler",
+      "description": "An EV Circuit Assembler need IV Circuits to craft. With this Assembler you can make a lot more high tier circuits.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1183
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1183
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 1225,
+      "name": "Iv Circuit Mainframe",
+      "description": "With your workstation circuitsyou can craft a HV Circut assembler. This is need for higher circuits.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32705
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4115
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32704
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 32014
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1380
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32705
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32033
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1222
+      ]
     }
   ],
   "questLines": [
@@ -120270,227 +120648,227 @@
       "quests": [
         {
           "id": 160,
-          "x": 192,
+          "x": 240,
           "y": 120
         },
         {
           "id": 162,
-          "x": 192,
+          "x": 240,
           "y": 228
         },
         {
           "id": 163,
-          "x": 492,
+          "x": 540,
           "y": 120
         },
         {
           "id": 165,
-          "x": 396,
+          "x": 444,
           "y": 120
         },
         {
           "id": 167,
-          "x": 324,
+          "x": 372,
           "y": 156
         },
         {
           "id": 168,
-          "x": 396,
+          "x": 444,
           "y": 156
         },
         {
           "id": 169,
-          "x": 444,
+          "x": 492,
           "y": 120
         },
         {
           "id": 166,
-          "x": 324,
+          "x": 372,
           "y": 120
         },
         {
           "id": 170,
-          "x": 492,
+          "x": 540,
           "y": 24
         },
         {
           "id": 171,
-          "x": 348,
+          "x": 396,
           "y": 228
         },
         {
           "id": 172,
-          "x": 396,
+          "x": 444,
           "y": 228
         },
         {
           "id": 173,
-          "x": 444,
+          "x": 492,
           "y": 228
         },
         {
           "id": 174,
-          "x": 444,
+          "x": 492,
           "y": 276
         },
         {
           "id": 175,
-          "x": 492,
+          "x": 540,
           "y": 228
         },
         {
           "id": 769,
-          "x": 48,
+          "x": 96,
           "y": 120
         },
         {
           "id": 770,
-          "x": 48,
+          "x": 96,
           "y": 156
         },
         {
           "id": 772,
-          "x": 48,
+          "x": 96,
           "y": 192
         },
         {
           "id": 789,
-          "x": 48,
+          "x": 96,
           "y": 84
         },
         {
           "id": 790,
-          "x": 0,
+          "x": 48,
           "y": 84
         },
         {
           "id": 808,
-          "x": 96,
+          "x": 144,
           "y": 192
         },
         {
           "id": 860,
-          "x": 300,
+          "x": 348,
           "y": 324
         },
         {
           "id": 932,
-          "x": 192,
+          "x": 240,
           "y": 36
         },
         {
           "id": 859,
-          "x": 48,
+          "x": 96,
           "y": 324
         },
         {
           "id": 858,
-          "x": 96,
+          "x": 144,
           "y": 372
         },
         {
           "id": 854,
-          "x": 96,
+          "x": 144,
           "y": 324
         },
         {
           "id": 857,
-          "x": 156,
+          "x": 204,
           "y": 372
         },
         {
           "id": 856,
-          "x": 156,
+          "x": 204,
           "y": 420
         },
         {
           "id": 147,
-          "x": 96,
+          "x": 144,
           "y": 420
         },
         {
           "id": 855,
-          "x": 156,
+          "x": 204,
           "y": 324
         },
         {
           "id": 851,
-          "x": 240,
+          "x": 288,
           "y": 324
         },
         {
           "id": 853,
-          "x": 192,
+          "x": 240,
           "y": 324
         },
         {
           "id": 841,
-          "x": 240,
+          "x": 288,
           "y": 372
         },
         {
           "id": 557,
-          "x": 300,
+          "x": 348,
           "y": 372
         },
         {
           "id": 943,
-          "x": 156,
+          "x": 204,
           "y": 276
         },
         {
           "id": 988,
-          "x": 492,
+          "x": 540,
           "y": 72
         },
         {
           "id": 989,
-          "x": 324,
+          "x": 372,
           "y": 72
         },
         {
           "id": 141,
-          "x": 444,
+          "x": 492,
           "y": 72
         },
         {
           "id": 998,
-          "x": 444,
+          "x": 492,
           "y": 24
         },
         {
           "id": 999,
-          "x": 396,
+          "x": 444,
           "y": 24
         },
         {
           "id": 1000,
-          "x": 324,
+          "x": 372,
           "y": 24
         },
         {
           "id": 1001,
-          "x": 360,
+          "x": 408,
           "y": 24
         },
         {
           "id": 146,
-          "x": 360,
+          "x": 408,
           "y": 120
         },
         {
           "id": 144,
-          "x": 360,
+          "x": 408,
           "y": 156
         },
         {
           "id": 1011,
-          "x": 240,
+          "x": 288,
           "y": 276
         },
         {
           "id": 1012,
-          "x": 300,
+          "x": 348,
           "y": 276
         },
         {
@@ -120500,8 +120878,8 @@
         },
         {
           "id": 1016,
-          "x": 144,
-          "y": 36
+          "x": 192,
+          "y": 0
         },
         {
           "id": 1017,
@@ -120510,7 +120888,7 @@
         },
         {
           "id": 1018,
-          "x": 144,
+          "x": 192,
           "y": 72
         },
         {
@@ -120520,53 +120898,68 @@
         },
         {
           "id": 1142,
-          "x": 96,
+          "x": 144,
           "y": 84
         },
         {
           "id": 1143,
-          "x": 96,
+          "x": 144,
           "y": 36
         },
         {
           "id": 1144,
-          "x": 48,
+          "x": 96,
           "y": 36
         },
         {
           "id": 1137,
-          "x": 144,
+          "x": 192,
           "y": 192
         },
         {
           "id": 1138,
-          "x": 48,
-          "y": 228
-        },
-        {
-          "id": 1139,
           "x": 96,
           "y": 228
         },
         {
+          "id": 1139,
+          "x": 144,
+          "y": 228
+        },
+        {
           "id": 1140,
-          "x": 72,
+          "x": 120,
           "y": 276
         },
         {
           "id": 1141,
-          "x": 0,
+          "x": 48,
           "y": 228
         },
         {
           "id": 1145,
-          "x": 0,
+          "x": 48,
           "y": 276
         },
         {
           "id": 1164,
-          "x": 228,
+          "x": 276,
           "y": 72
+        },
+        {
+          "id": 1221,
+          "x": 192,
+          "y": 36
+        },
+        {
+          "id": 1222,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1225,
+          "x": 0,
+          "y": 36
         }
       ]
     },
@@ -120577,237 +120970,242 @@
         {
           "id": 176,
           "x": 192,
-          "y": 0
+          "y": 48
         },
         {
           "id": 178,
           "x": 264,
-          "y": 36
+          "y": 84
         },
         {
           "id": 179,
           "x": 264,
-          "y": 72
+          "y": 120
         },
         {
           "id": 180,
           "x": 300,
-          "y": 72
+          "y": 120
         },
         {
           "id": 182,
           "x": 336,
-          "y": 72
+          "y": 120
         },
         {
           "id": 181,
           "x": 336,
-          "y": 108
+          "y": 156
         },
         {
           "id": 183,
           "x": 372,
-          "y": 36
+          "y": 84
         },
         {
           "id": 184,
           "x": 372,
-          "y": 72
+          "y": 120
         },
         {
           "id": 185,
           "x": 300,
-          "y": 108
+          "y": 156
         },
         {
           "id": 186,
           "x": 156,
-          "y": 36
+          "y": 84
         },
         {
           "id": 187,
           "x": 228,
-          "y": 108
+          "y": 156
         },
         {
           "id": 188,
           "x": 264,
-          "y": 108
+          "y": 156
         },
         {
           "id": 189,
           "x": 396,
-          "y": 0
+          "y": 48
         },
         {
           "id": 190,
           "x": 432,
-          "y": 0
+          "y": 48
         },
         {
           "id": 191,
           "x": 432,
-          "y": 108
+          "y": 156
         },
         {
           "id": 192,
           "x": 504,
-          "y": 72
+          "y": 120
         },
         {
           "id": 193,
           "x": 456,
-          "y": 72
+          "y": 120
         },
         {
           "id": 194,
           "x": 552,
-          "y": 72
+          "y": 120
         },
         {
           "id": 195,
           "x": 552,
-          "y": 0
+          "y": 48
         },
         {
           "id": 196,
           "x": 504,
-          "y": 36
+          "y": 84
         },
         {
           "id": 197,
           "x": 504,
-          "y": 0
+          "y": 48
         },
         {
           "id": 198,
           "x": 504,
-          "y": 108
+          "y": 156
         },
         {
           "id": 199,
           "x": 192,
-          "y": 216
+          "y": 264
         },
         {
           "id": 200,
           "x": 120,
-          "y": 252
+          "y": 300
         },
         {
           "id": 201,
           "x": 192,
-          "y": 252
+          "y": 300
         },
         {
           "id": 202,
           "x": 192,
-          "y": 288
+          "y": 336
         },
         {
           "id": 203,
           "x": 372,
-          "y": 108
+          "y": 156
         },
         {
           "id": 204,
           "x": 156,
-          "y": 72
+          "y": 120
         },
         {
           "id": 205,
           "x": 120,
-          "y": 36
+          "y": 84
         },
         {
           "id": 206,
           "x": 120,
-          "y": 216
+          "y": 264
         },
         {
           "id": 207,
           "x": 468,
-          "y": 168
+          "y": 216
         },
         {
           "id": 209,
           "x": 504,
-          "y": 168
+          "y": 216
         },
         {
           "id": 210,
           "x": 468,
-          "y": 204
+          "y": 252
         },
         {
           "id": 208,
           "x": 432,
-          "y": 168
+          "y": 216
         },
         {
           "id": 211,
           "x": 396,
-          "y": 168
+          "y": 216
         },
         {
           "id": 212,
           "x": 48,
-          "y": 0
+          "y": 48
         },
         {
           "id": 805,
           "x": 156,
-          "y": 108
+          "y": 156
         },
         {
           "id": 806,
           "x": 156,
-          "y": 144
+          "y": 192
         },
         {
           "id": 807,
           "x": 120,
-          "y": 144
+          "y": 192
         },
         {
           "id": 861,
           "x": 120,
-          "y": 72
+          "y": 120
         },
         {
           "id": 936,
           "x": 120,
-          "y": 180
+          "y": 228
         },
         {
           "id": 937,
           "x": 156,
-          "y": 180
+          "y": 228
         },
         {
           "id": 1003,
           "x": 48,
-          "y": 180
+          "y": 228
         },
         {
           "id": 1004,
           "x": 48,
-          "y": 216
+          "y": 264
         },
         {
           "id": 1005,
           "x": 48,
-          "y": 36
+          "y": 84
         },
         {
           "id": 1006,
           "x": 48,
-          "y": 72
+          "y": 120
         },
         {
           "id": 1007,
           "x": 0,
-          "y": 72
+          "y": 120
+        },
+        {
+          "id": 1223,
+          "x": 192,
+          "y": 0
         }
       ]
     },
