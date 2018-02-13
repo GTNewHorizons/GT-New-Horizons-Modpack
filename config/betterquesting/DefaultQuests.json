@@ -81314,8 +81314,8 @@
         }
       ],
       "preRequisites": [
-        186,
-        79
+        79,
+        1244
       ]
     },
     {
@@ -96004,21 +96004,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 424
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "gregtech:gt.metaitem.01",
               "Count": 9,
               "OreDict": "",
@@ -96107,7 +96092,7 @@
         }
       ],
       "preRequisites": [
-        176
+        1242
       ]
     },
     {
@@ -96204,7 +96189,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 4,
               "OreDict": "",
-              "Damage": 1400
+              "Damage": 2340
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -118519,7 +118504,7 @@
         }
       ],
       "preRequisites": [
-        176
+        1246
       ]
     },
     {
@@ -120336,6 +120321,1251 @@
       ],
       "preRequisites": [
         1239
+      ]
+    },
+    {
+      "questID": 1241,
+      "name": "Radeon",
+      "description": "Radon is used for Quantum Eyes, Quantum Stars and Emitters and Sensors in the EV Machines. Try to find a pitch Blend vein first and/or recycle your plutonium and uran from your reactor.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30093
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11100
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2098
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30093
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1242
+      ]
+    },
+    {
+      "questID": 1242,
+      "name": "EV Chemical reactor",
+      "description": "An EV Chemical rector is need to get some Indium or make your radon production quit faster.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1183
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 424
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "minecraft:ender_eye",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 1243,
+      "name": "Pitchblen",
+      "description": "In order to try to run your nuclear reactor you need some fuel Uran or Plutonium. Go and find a pitchblendvein on Mars at Y 30-60.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4873
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4873
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4922
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 4098
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        186
+      ]
+    },
+    {
+      "questID": 1244,
+      "name": "Scheelite, Tungstate",
+      "description": "Tungstensteel is the material you need but go to find some Scheelite, Tungstate mic on the mars first. Look at Y 20-60.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4841
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4910
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4841
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 4006
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        186
+      ]
+    },
+    {
+      "questID": 1245,
+      "name": "You gonna hate this 1-4 in EV",
+      "description": "Pumps, Pistons, Conveyor Belt and Robot arm the most needed machine parts in HV. Go and craft one of each.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32653
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32613
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32643
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32633
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32653
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 1246,
+      "name": "You gonna hate this 5 and 6 in EV",
+      "description": "Some machines need Emitters and Sensors like the Analyzer or the circuit Assembler.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32693
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32683
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32693
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11085
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1245,
+        1247
+      ]
+    },
+    {
+      "questID": 1247,
+      "name": "Quantum Eye",
+      "description": "Quantum eyes are neede in EV Emitters and Sensors. Just infuse your Enderye with Radon to get one.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32724
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:ender_eye",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30093
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32724
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32106
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1252
+      ]
+    },
+    {
+      "questID": 1248,
+      "name": "Nano Processor",
+      "description": "There are three variants of advanced circuits. The advanced electronic circuit, the processor assembly and the nanoprocessor. The Nanoprocessor needs an EV circuit assembling machine to be made. Use your Epoxide boards for it.\nA cleanroom is needed.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32080
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32102
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32055
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32011
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32018
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 19303
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32082
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32102
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32055
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32016
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1223,
+        1249
+      ]
+    },
+    {
+      "questID": 1249,
+      "name": "Nano CPU Wafer and Chip",
+      "description": "The Nano CPU Wafer is made out of a CPU Wafer with corbon fiber and molten Glowstone in a ev chemical reactor. Cut into the Nano CPU chip.\nA cleanroom is needed.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32045
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32054
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32055
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:glowstone_dust",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCarbonFibre",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1234,
+        1018
+      ]
+    },
+    {
+      "questID": 1250,
+      "name": "Nano Processor Array",
+      "description": "The Nano Processor Array is a EV circuit. \nA cleanroom is needed.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32083
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32102
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32082
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32014
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 19303
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32083
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32102
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32014
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32018
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1248
+      ]
+    },
+    {
+      "questID": 1251,
+      "name": "Elite Nano Computer",
+      "description": "The Elite Nano Computer is a IV Circuit.\nA cleanroom is needed.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.03",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32084
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32102
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32083
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32016
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32043
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32039
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 19303
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32084
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32102
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32043
+            },
+            {
+              "id": "gregtech:gt.metaitem.03",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32020
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1250
+      ]
+    },
+    {
+      "questID": 1252,
+      "name": "EV Chemical bath",
+      "description": "A HV chemical bath is needed for the Qunatum Eye.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 543
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 543
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1241
       ]
     }
   ],
@@ -122718,267 +123948,327 @@
         {
           "id": 176,
           "x": 192,
-          "y": 120
+          "y": 168
         },
         {
           "id": 178,
           "x": 264,
-          "y": 156
+          "y": 204
         },
         {
           "id": 179,
           "x": 264,
-          "y": 192
+          "y": 240
         },
         {
           "id": 180,
           "x": 300,
-          "y": 192
+          "y": 240
         },
         {
           "id": 182,
           "x": 336,
-          "y": 192
+          "y": 240
         },
         {
           "id": 181,
           "x": 336,
-          "y": 228
+          "y": 276
         },
         {
           "id": 183,
           "x": 372,
-          "y": 156
+          "y": 204
         },
         {
           "id": 184,
           "x": 372,
-          "y": 192
+          "y": 240
         },
         {
           "id": 185,
           "x": 300,
-          "y": 228
+          "y": 276
         },
         {
           "id": 186,
           "x": 156,
-          "y": 156
+          "y": 204
         },
         {
           "id": 187,
           "x": 228,
-          "y": 228
+          "y": 276
         },
         {
           "id": 188,
           "x": 264,
-          "y": 228
+          "y": 276
         },
         {
           "id": 189,
           "x": 396,
-          "y": 120
+          "y": 168
         },
         {
           "id": 190,
           "x": 432,
-          "y": 120
+          "y": 168
         },
         {
           "id": 191,
           "x": 432,
-          "y": 228
+          "y": 276
         },
         {
           "id": 192,
           "x": 504,
-          "y": 192
+          "y": 240
         },
         {
           "id": 193,
           "x": 456,
-          "y": 192
+          "y": 240
         },
         {
           "id": 194,
           "x": 552,
-          "y": 192
+          "y": 240
         },
         {
           "id": 195,
           "x": 552,
-          "y": 120
+          "y": 168
         },
         {
           "id": 196,
           "x": 504,
-          "y": 156
+          "y": 204
         },
         {
           "id": 197,
           "x": 504,
-          "y": 120
+          "y": 168
         },
         {
           "id": 198,
           "x": 504,
-          "y": 228
+          "y": 276
         },
         {
           "id": 199,
           "x": 192,
-          "y": 336
+          "y": 384
         },
         {
           "id": 200,
           "x": 120,
-          "y": 372
+          "y": 420
         },
         {
           "id": 201,
           "x": 192,
-          "y": 372
+          "y": 420
         },
         {
           "id": 202,
           "x": 192,
-          "y": 408
+          "y": 456
         },
         {
           "id": 203,
           "x": 372,
-          "y": 228
+          "y": 276
         },
         {
           "id": 204,
           "x": 156,
-          "y": 192
+          "y": 240
         },
         {
           "id": 205,
           "x": 120,
-          "y": 156
+          "y": 204
         },
         {
           "id": 206,
           "x": 120,
-          "y": 336
+          "y": 384
         },
         {
           "id": 207,
           "x": 468,
-          "y": 288
+          "y": 336
         },
         {
           "id": 209,
           "x": 504,
-          "y": 288
+          "y": 336
         },
         {
           "id": 210,
           "x": 468,
-          "y": 324
+          "y": 372
         },
         {
           "id": 208,
           "x": 432,
-          "y": 288
+          "y": 336
         },
         {
           "id": 211,
           "x": 396,
-          "y": 288
+          "y": 336
         },
         {
           "id": 212,
-          "x": 48,
+          "x": 240,
           "y": 120
         },
         {
           "id": 805,
           "x": 156,
-          "y": 228
+          "y": 276
         },
         {
           "id": 806,
           "x": 156,
-          "y": 264
+          "y": 312
         },
         {
           "id": 807,
           "x": 120,
-          "y": 264
+          "y": 312
         },
         {
           "id": 861,
-          "x": 120,
-          "y": 192
+          "x": 84,
+          "y": 312
         },
         {
           "id": 936,
           "x": 120,
-          "y": 300
+          "y": 348
         },
         {
           "id": 937,
           "x": 156,
-          "y": 300
+          "y": 348
         },
         {
           "id": 1003,
-          "x": 48,
-          "y": 300
+          "x": 36,
+          "y": 348
         },
         {
           "id": 1004,
-          "x": 48,
-          "y": 336
+          "x": 36,
+          "y": 384
         },
         {
           "id": 1005,
-          "x": 48,
-          "y": 156
+          "x": 36,
+          "y": 168
         },
         {
           "id": 1006,
-          "x": 48,
-          "y": 192
+          "x": 36,
+          "y": 312
         },
         {
           "id": 1007,
           "x": 0,
-          "y": 192
+          "y": 312
         },
         {
           "id": 1223,
-          "x": 228,
-          "y": 72
+          "x": 108,
+          "y": 48
         },
         {
           "id": 1224,
           "x": 192,
-          "y": 36
+          "y": 84
         },
         {
           "id": 1228,
           "x": 192,
-          "y": 72
+          "y": 120
         },
         {
           "id": 1229,
           "x": 156,
-          "y": 72
+          "y": 120
         },
         {
           "id": 1230,
           "x": 156,
-          "y": 36
+          "y": 84
         },
         {
           "id": 1234,
           "x": 192,
+          "y": 48
+        },
+        {
+          "id": 1241,
+          "x": 36,
+          "y": 132
+        },
+        {
+          "id": 1243,
+          "x": 120,
+          "y": 240
+        },
+        {
+          "id": 1244,
+          "x": 120,
+          "y": 276
+        },
+        {
+          "id": 1245,
+          "x": 108,
+          "y": 120
+        },
+        {
+          "id": 1246,
+          "x": 108,
+          "y": 84
+        },
+        {
+          "id": 1242,
+          "x": 108,
+          "y": 168
+        },
+        {
+          "id": 1247,
+          "x": 72,
+          "y": 84
+        },
+        {
+          "id": 1248,
+          "x": 108,
           "y": 0
+        },
+        {
+          "id": 1249,
+          "x": 156,
+          "y": 48
+        },
+        {
+          "id": 1250,
+          "x": 156,
+          "y": 0
+        },
+        {
+          "id": 1251,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 1252,
+          "x": 36,
+          "y": 84
         }
       ]
     },
