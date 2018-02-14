@@ -16248,113 +16248,6 @@
       ]
     },
     {
-      "questID": 180,
-      "name": "Drives",
-      "description": "Quite different from anything you\u0027ve seen before. Make sure to check out the item/fluid processors!",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.LogicProcessorItemGoldCore",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "appliedenergistics2:item.ItemMultiMaterial",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 35
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 7
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        181
-      ]
-    },
-    {
       "questID": 181,
       "name": "Fluix crystals",
       "description": "Not \"flux\"! Even if the color is the same.",
@@ -16388,8 +16281,20 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "minecraft:redstone",
+              "Count": 16,
+              "OreDict": "dustRedstone",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:quartz",
+              "Count": 16,
+              "OreDict": "crystalNetherQuartz",
+              "Damage": 0
+            },
+            {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
-              "Count": 4,
+              "Count": 16,
               "OreDict": "",
               "Damage": 1
             }
@@ -16404,7 +16309,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
-              "Count": 8,
+              "Count": 32,
               "OreDict": "",
               "Damage": 7
             }
@@ -16449,7 +16354,7 @@
         }
       ],
       "preRequisites": [
-        183
+        1290
       ]
     },
     {
@@ -16490,42 +16395,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "appliedenergistics2:tile.BlockCraftingUnit",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "appliedenergistics2:tile.BlockCraftingStorage",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "appliedenergistics2:item.ItemMultiMaterial",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 52
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16568,7 +16437,7 @@
         }
       ],
       "preRequisites": [
-        181
+        1301
       ]
     },
     {
@@ -16886,7 +16755,7 @@
         }
       ],
       "preRequisites": [
-        181
+        1290
       ]
     },
     {
@@ -18350,7 +18219,7 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 460
             }
@@ -121567,6 +121436,2043 @@
       "preRequisites": [
         1241
       ]
+    },
+    {
+      "questID": 1290,
+      "name": "Imma chargin\u0027 my...",
+      "description": "Dead meme",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 32,
+              "OreDict": "dustRedstone",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "dustCertusQuartz",
+              "Damage": 2516
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.ChargedCertusQuartzDust",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        176
+      ]
+    },
+    {
+      "questID": 1291,
+      "name": "Keeping your Network Happy",
+      "description": "Helps with Fluctuating Power",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockEnergyCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "internalMaxPower:6": 200000.0,
+          "internalCurrentPower:6": 200000.0
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockEnergyCell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1296
+      ]
+    },
+    {
+      "questID": 1292,
+      "name": "Storing your ME data",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDrive",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockDrive",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        184,
+        183
+      ]
+    },
+    {
+      "questID": 1293,
+      "name": "Safety first!",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extracells:hardmedrive",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:hardmedrive",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1292
+      ]
+    },
+    {
+      "questID": 1294,
+      "name": "Speeding up growth",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1296
+      ]
+    },
+    {
+      "questID": 1295,
+      "name": "Perfecting Crystal Growth",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ae2stuff:Grower",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ae2stuff:Grower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1294
+      ]
+    },
+    {
+      "questID": 1296,
+      "name": "Purifying the impure",
+      "description": "",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sand",
+              "Count": 48,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "dustNetherQuartz",
+              "Damage": 2522
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "dustCertusQuartz",
+              "Damage": 2516
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 16,
+              "OreDict": "dustFluix",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 600,
+              "tag": {
+                "progress:4": 600
+              }
+            },
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "progress:4": 0
+              }
+            },
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1200,
+              "tag": {
+                "progress:4": 1200
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        181
+      ]
+    },
+    {
+      "questID": 1298,
+      "name": "Wireless Setup",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSecurity",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockSecurity",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockWireless",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 42
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        183
+      ]
+    },
+    {
+      "questID": 1299,
+      "name": "Dense boyes",
+      "description": "Giving your network even more stability",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "internalMaxPower:6": 1600000.0,
+          "internalCurrentPower:6": 1600000.0
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1291
+      ]
+    },
+    {
+      "questID": 1300,
+      "name": "ME in the Ether",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ToolWirelessTerminal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "internalMaxPower:6": 1600000.0,
+          "internalCurrentPower:6": 1600000.0
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ToolWirelessTerminal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1298,
+        1299
+      ]
+    },
+    {
+      "questID": 1301,
+      "name": "Annihilation and Formation",
+      "description": "Gates all network I/O",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 44
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 44
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 43
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1296
+      ]
+    },
+    {
+      "questID": 1302,
+      "name": "Interfacing with Machines",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 440
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 440
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1301
+      ]
+    },
+    {
+      "questID": 1303,
+      "name": "Interfacing with Inventories",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 220
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 220
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1302
+      ]
+    },
+    {
+      "questID": 1304,
+      "name": "Interfacing with Tanks",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extracells:part.base",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1303
+      ]
+    },
+    {
+      "questID": 1305,
+      "name": "For Fluid Recipes",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extracells:part.base",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 9
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1302
+      ]
+    },
+    {
+      "questID": 1306,
+      "name": "Putting Items into Machines",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 260
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 260
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1301
+      ]
+    },
+    {
+      "questID": 1308,
+      "name": "Taking Items out of Machines",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 240
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 240
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1301
+      ]
+    },
+    {
+      "questID": 1309,
+      "name": "Emptying Tanks",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extracells:part.base",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1308
+      ]
+    },
+    {
+      "questID": 1310,
+      "name": "Something to put your Components in",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 39
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 39
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1311
+      ]
+    },
+    {
+      "questID": 1311,
+      "name": "Tier 1 Storage",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.LogicProcessorItemGoldCore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.LogicProcessorItemGoldCore",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        183
+      ]
+    },
+    {
+      "questID": 1312,
+      "name": "Automating Crafting",
+      "description": "Doesn\u0027t do anything on its own thoughhgh",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingUnit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingUnit",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1311
+      ]
+    },
+    {
+      "questID": 1313,
+      "name": "1k Item Storage Cell",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {}
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1314,
+        1310
+      ]
+    },
+    {
+      "questID": 1314,
+      "name": "1k Component",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 35
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        1311
+      ]
+    },
+    {
+      "questID": 1315,
+      "name": "1k Crafting Storage",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingStorage",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1314,
+        1312
+      ]
+    },
+    {
+      "questID": 1316,
+      "name": "4k Item Storage Cell",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.4k",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {}
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.4k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1317,
+        1313
+      ]
+    },
+    {
+      "questID": 1317,
+      "name": "4k Component",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 36
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        1314
+      ]
+    },
+    {
+      "questID": 1318,
+      "name": "4k Crafting Storage",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingStorage",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1317,
+        1315
+      ]
+    },
+    {
+      "questID": 1319,
+      "name": "Tier 2 Storage",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.EngineeringProcessorItemDiamondCore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.EngineeringProcessorItemDiamondCore",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1317
+      ]
+    },
+    {
+      "questID": 1320,
+      "name": "16k Item Storage",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.16k",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.16k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1321,
+        1316
+      ]
+    },
+    {
+      "questID": 1321,
+      "name": "16k Component",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 37
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        1319
+      ]
+    },
+    {
+      "questID": 1322,
+      "name": "16k Crafting Storage",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingStorage",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1321,
+        1318
+      ]
+    },
+    {
+      "questID": 1323,
+      "name": "64k Item Storage",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.64k",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.64k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1324,
+        1320
+      ]
+    },
+    {
+      "questID": 1324,
+      "name": "64k Component",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 38
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        1321
+      ]
+    },
+    {
+      "questID": 1325,
+      "name": "64k Crafting Storage",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingStorage",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1324,
+        1322
+      ]
+    },
+    {
+      "questID": 1326,
+      "name": "Co-Processing",
+      "description": "Allows you to process more items in parallel",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingUnit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingUnit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1312
+      ]
+    },
+    {
+      "questID": 1327,
+      "name": "Recipe Patterns",
+      "description": "To store your recipes",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 52
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 52
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        183
+      ]
+    },
+    {
+      "questID": 1328,
+      "name": "Pattern Terminal",
+      "description": "Don\u0027t forget to enable oredict substitution",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 340
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 340
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1327
+      ]
+    },
+    {
+      "questID": 1329,
+      "name": "ME in your Cleanroom",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ae2stuff:Wireless",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ae2stuff:WirelessKit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ae2stuff:Wireless",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1300
+      ]
+    },
+    {
+      "questID": 1330,
+      "name": "Ore Dictionary Output",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extracells:part.base",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1306
+      ]
+    },
+    {
+      "questID": 1331,
+      "name": "To Link P2P Busses",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ToolMemoryCard",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {}
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ToolMemoryCard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        183
+      ]
     }
   ],
   "questLines": [
@@ -123952,58 +125858,53 @@
         },
         {
           "id": 178,
-          "x": 264,
-          "y": 204
+          "x": 240,
+          "y": 384
         },
         {
           "id": 179,
-          "x": 264,
-          "y": 240
-        },
-        {
-          "id": 180,
-          "x": 300,
-          "y": 240
+          "x": 276,
+          "y": 204
         },
         {
           "id": 182,
-          "x": 336,
-          "y": 240
+          "x": 360,
+          "y": 204
         },
         {
           "id": 181,
-          "x": 336,
+          "x": 276,
           "y": 276
         },
         {
           "id": 183,
-          "x": 372,
-          "y": 204
+          "x": 276,
+          "y": 384
         },
         {
           "id": 184,
-          "x": 372,
-          "y": 240
+          "x": 240,
+          "y": 312
         },
         {
           "id": 185,
-          "x": 300,
-          "y": 276
+          "x": 240,
+          "y": 240
         },
         {
           "id": 186,
-          "x": 156,
-          "y": 204
+          "x": 120,
+          "y": 240
         },
         {
           "id": 187,
-          "x": 228,
-          "y": 276
+          "x": 120,
+          "y": 204
         },
         {
           "id": 188,
-          "x": 264,
-          "y": 276
+          "x": 156,
+          "y": 240
         },
         {
           "id": 189,
@@ -124012,47 +125913,47 @@
         },
         {
           "id": 190,
-          "x": 432,
+          "x": 468,
           "y": 168
         },
         {
           "id": 191,
-          "x": 432,
+          "x": 468,
           "y": 276
         },
         {
           "id": 192,
-          "x": 504,
+          "x": 516,
           "y": 240
         },
         {
           "id": 193,
-          "x": 456,
+          "x": 486,
           "y": 240
         },
         {
           "id": 194,
-          "x": 552,
-          "y": 240
+          "x": 564,
+          "y": 276
         },
         {
           "id": 195,
-          "x": 552,
+          "x": 564,
           "y": 168
         },
         {
           "id": 196,
-          "x": 504,
+          "x": 516,
           "y": 204
         },
         {
           "id": 197,
-          "x": 504,
+          "x": 516,
           "y": 168
         },
         {
           "id": 198,
-          "x": 504,
+          "x": 516,
           "y": 276
         },
         {
@@ -124062,7 +125963,7 @@
         },
         {
           "id": 200,
-          "x": 120,
+          "x": 156,
           "y": 420
         },
         {
@@ -124077,48 +125978,48 @@
         },
         {
           "id": 203,
-          "x": 372,
+          "x": 240,
           "y": 276
         },
         {
           "id": 204,
-          "x": 156,
-          "y": 240
+          "x": 126,
+          "y": 276
         },
         {
           "id": 205,
-          "x": 120,
+          "x": 84,
           "y": 204
         },
         {
           "id": 206,
-          "x": 120,
+          "x": 126,
           "y": 384
         },
         {
           "id": 207,
-          "x": 468,
-          "y": 336
+          "x": 432,
+          "y": 96
         },
         {
           "id": 209,
-          "x": 504,
-          "y": 336
+          "x": 468,
+          "y": 132
         },
         {
           "id": 210,
           "x": 468,
-          "y": 372
+          "y": 96
         },
         {
           "id": 208,
           "x": 432,
-          "y": 336
+          "y": 132
         },
         {
           "id": 211,
           "x": 396,
-          "y": 336
+          "y": 132
         },
         {
           "id": 212,
@@ -124127,17 +126028,17 @@
         },
         {
           "id": 805,
-          "x": 156,
+          "x": 174,
           "y": 276
         },
         {
           "id": 806,
-          "x": 156,
+          "x": 174,
           "y": 312
         },
         {
           "id": 807,
-          "x": 120,
+          "x": 126,
           "y": 312
         },
         {
@@ -124147,12 +126048,12 @@
         },
         {
           "id": 936,
-          "x": 120,
+          "x": 126,
           "y": 348
         },
         {
           "id": 937,
-          "x": 156,
+          "x": 174,
           "y": 348
         },
         {
@@ -124217,12 +126118,12 @@
         },
         {
           "id": 1243,
-          "x": 120,
+          "x": 84,
           "y": 240
         },
         {
           "id": 1244,
-          "x": 120,
+          "x": 84,
           "y": 276
         },
         {
@@ -124269,6 +126170,206 @@
           "id": 1252,
           "x": 36,
           "y": 84
+        },
+        {
+          "id": 1290,
+          "x": 276,
+          "y": 240
+        },
+        {
+          "id": 1291,
+          "x": 360,
+          "y": 276
+        },
+        {
+          "id": 1292,
+          "x": 276,
+          "y": 312
+        },
+        {
+          "id": 1293,
+          "x": 324,
+          "y": 312
+        },
+        {
+          "id": 1294,
+          "x": 324,
+          "y": 240
+        },
+        {
+          "id": 1295,
+          "x": 324,
+          "y": 204
+        },
+        {
+          "id": 1296,
+          "x": 324,
+          "y": 276
+        },
+        {
+          "id": 1298,
+          "x": 324,
+          "y": 384
+        },
+        {
+          "id": 1299,
+          "x": 360,
+          "y": 312
+        },
+        {
+          "id": 1300,
+          "x": 360,
+          "y": 384
+        },
+        {
+          "id": 1301,
+          "x": 360,
+          "y": 240
+        },
+        {
+          "id": 1302,
+          "x": 396,
+          "y": 240
+        },
+        {
+          "id": 1303,
+          "x": 396,
+          "y": 204
+        },
+        {
+          "id": 1304,
+          "x": 432,
+          "y": 204
+        },
+        {
+          "id": 1305,
+          "x": 432,
+          "y": 240
+        },
+        {
+          "id": 1306,
+          "x": 396,
+          "y": 312
+        },
+        {
+          "id": 1308,
+          "x": 396,
+          "y": 276
+        },
+        {
+          "id": 1309,
+          "x": 432,
+          "y": 276
+        },
+        {
+          "id": 1310,
+          "x": 324,
+          "y": 420
+        },
+        {
+          "id": 1311,
+          "x": 324,
+          "y": 456
+        },
+        {
+          "id": 1312,
+          "x": 324,
+          "y": 492
+        },
+        {
+          "id": 1313,
+          "x": 360,
+          "y": 420
+        },
+        {
+          "id": 1314,
+          "x": 360,
+          "y": 456
+        },
+        {
+          "id": 1315,
+          "x": 360,
+          "y": 492
+        },
+        {
+          "id": 1316,
+          "x": 396,
+          "y": 420
+        },
+        {
+          "id": 1317,
+          "x": 396,
+          "y": 456
+        },
+        {
+          "id": 1318,
+          "x": 396,
+          "y": 492
+        },
+        {
+          "id": 1319,
+          "x": 432,
+          "y": 456
+        },
+        {
+          "id": 1320,
+          "x": 468,
+          "y": 420
+        },
+        {
+          "id": 1321,
+          "x": 468,
+          "y": 456
+        },
+        {
+          "id": 1322,
+          "x": 468,
+          "y": 492
+        },
+        {
+          "id": 1323,
+          "x": 504,
+          "y": 420
+        },
+        {
+          "id": 1324,
+          "x": 504,
+          "y": 456
+        },
+        {
+          "id": 1325,
+          "x": 504,
+          "y": 492
+        },
+        {
+          "id": 1326,
+          "x": 288,
+          "y": 492
+        },
+        {
+          "id": 1327,
+          "x": 240,
+          "y": 420
+        },
+        {
+          "id": 1328,
+          "x": 240,
+          "y": 492
+        },
+        {
+          "id": 1329,
+          "x": 396,
+          "y": 384
+        },
+        {
+          "id": 1330,
+          "x": 396,
+          "y": 348
+        },
+        {
+          "id": 1331,
+          "x": 276,
+          "y": 420
         }
       ]
     },
