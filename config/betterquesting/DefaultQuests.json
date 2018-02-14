@@ -16250,7 +16250,7 @@
     {
       "questID": 180,
       "name": "16k Item Storage Cell",
-      "description": "No Description",
+      "description": "Middle Tier Storage Cell, which can contain 16,384 bytes of storage.16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040 Stacks,while holding 63 Different items.The 16k Storage Cell uses 128 bytes of data to store a single type. Click here for details on how storage math works.When placed inside a drive or chest will consume 1.5 ae/t.Must be in a ME Drive or ME Chest to be usable.You can remove the 16k ME Storage Component by fully emptying the storage cell, and sneak clicking i in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16334,7 +16334,7 @@
     {
       "questID": 181,
       "name": "Fluix crystals",
-      "description": "Not \"flux\"! Even if the color is the same.",
+      "description": "Not \"flux\"! Even if the color is the same. You need to add redstone and netherquartz to a charged Certus crystal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16738,7 +16738,7 @@
     {
       "questID": 185,
       "name": "Terminals everywhere",
-      "description": "And a pain to craft, no doubt...",
+      "description": "The ME Terminal is a HID which gives you access to a ME Network\u0027s Networked Storage.\n\nIt has the ability to sort and search, as well as filter by using View Cell. It requires a Channel to function.\n\nCan be upgraded into a ME Crafting Terminal.\n\nThe ME Crafting Terminal is the upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network\u0027s Networked Storage.\n\nLike the ME Terminal it also requires a Channel to function.\n\nGives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME Interface in the Inscriber or an Anvil to alter the name displayed in the ME Interface Terminal.\n\nCombined with the fact that you can toggle if the interface shows up at all this gets you control over your itnerface terminal\u0027s display.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16768,12 +16768,6 @@
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
-            {
-              "id": "appliedenergistics2:item.ItemMultiPart",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 340
-            },
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
               "Count": 1,
@@ -121524,7 +121518,7 @@
     {
       "questID": 1253,
       "name": "16k Component",
-      "description": "No Description",
+      "description": "Second largest storage component, used to make 16k ME Storage Cell, or can be upgraded to make 64k ME Storage Component.Can be recovered from a crafted 16k ME Storage Cell by fully emptying the storage cell, and shift clicking i in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121607,7 +121601,7 @@
     {
       "questID": 1254,
       "name": "16k Crafting Storage",
-      "description": "No Description",
+      "description": "Component of the Crafting CPU which provides 16,384 bytes of storage for crafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121691,7 +121685,7 @@
     {
       "questID": 1255,
       "name": "64k Item Storage Cell",
-      "description": "No Description",
+      "description": "Highest Tier Storage Cell, which can contain 65,536 bytes of storage.65,536 bytes of storage can hold 8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items.The 64k Storage Cell uses 512 bytes of data to store a single type. Click here for details on how storage math works.When placed inside a drive or chest will consume 2.0 ae/t.Must be in a ME Drive or ME Chest to be usable.You can remove the 64k ME Storage Component by fully emptying the storage cell, and sneak clicking i in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121775,7 +121769,7 @@
     {
       "questID": 1256,
       "name": "64k Component",
-      "description": "No Description",
+      "description": "Largest storage component, used to make 64k ME Storage Cell.Can be recovered from a crafted 64k ME Storage Cell by fully emptying the storage cell, and shift clicking i in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121858,7 +121852,7 @@
     {
       "questID": 1257,
       "name": "64k Crafting Storage",
-      "description": "No Description",
+      "description": "Component of the Crafting CPU which provides 65,536 bytes of storage for crafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121940,9 +121934,258 @@
       ]
     },
     {
+      "questID": 1258,
+      "name": "Wireless Booster",
+      "description": "The Wireless Boosteris used to increase the range of the ME Wireless Access Point.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 42
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 42
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:ender_eye",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1298
+      ]
+    },
+    {
+      "questID": 1259,
+      "name": "Filling Tanks",
+      "description": "Export Bus for Fluids only.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extracells:part.base",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17811
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17526
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1306
+      ]
+    },
+    {
+      "questID": 1260,
+      "name": "Crafting Monitor",
+      "description": "Component of the Crafting CPU which displays the top level job and its current progress so you can monitor at a glance how your crafting jobs are progressing.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingMonitor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingMonitor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "dreamcraft:item.ChargedCertusQuartzDust",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1312
+      ]
+    },
+    {
       "questID": 1290,
       "name": "Imma chargin\u0027 my...",
-      "description": "Dead meme",
+      "description": "Charged Certus Quarts one of the basic components for a lot of AE recipes. Just mixe some certusquartz and redstone dust to get charged certusquartz dust.\nIn the Autoclave you can make crystals.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122061,7 +122304,7 @@
     {
       "questID": 1291,
       "name": "Keeping your Network Happy",
-      "description": "Helps with Fluctuating Power",
+      "description": "Helps with Fluctuating Power. Energy Cells store up to 200,000 AE. They do not accept power directly but are used to add additional power storage to an already existing ME Network.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122149,7 +122392,7 @@
     {
       "questID": 1292,
       "name": "Storing your ME data",
-      "description": "",
+      "description": "A block designed to do one thing, store Storage Cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space.ME Drives show their contents and the storage cell status on the front of the drive face.Red - Indicates the Storage Cell is Full.Orange - Indicates the Storage Cell cannot hold any more types, but it can store more items.Green - Indicates the cell can hold more types, or more items.Black - Indicates there is no channel, or power is offline.Its important to note, that without a ME Network this block does nothing. Its only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each Storage Cell stored inside it.The ME Drive requires a channel to function.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122233,7 +122476,7 @@
     {
       "questID": 1293,
       "name": "Safety first!",
-      "description": "",
+      "description": "This Storage Cell Housing is blast proof and store only 3 cells.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122316,7 +122559,7 @@
     {
       "questID": 1294,
       "name": "Speeding up growth",
-      "description": "No Description",
+      "description": "Used to accelerate the process of purifying crystals, which allows you to create Pure Certus Quartz Crystal, Pure Nether Quartz Crystal and Pure Fluix Crystal.Must be powered by an ME Network via the top or bottom, and consumes a steady 8 ae/t while plugged in. Crystal Seeds must be in an adjacent water block to be effected, the seeds will shimmer more rapidly when in the presence of a powered Crystal Growth Accelerator.Can only connect to cables, or other networked machines on the top and bottom of the machine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122356,7 +122599,57 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1200,
+              "tag": {
+                "progress:4": 1200
+              }
+            },
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 600,
+              "tag": {
+                "progress:4": 600
+              }
+            },
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "progress:4": 0
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1296
       ]
@@ -122364,7 +122657,7 @@
     {
       "questID": 1295,
       "name": "Perfecting Crystal Growth",
-      "description": "No Description",
+      "description": "The Crystal Growth Chamber is used for fast crystal growth, and it is possible to increase its speed by installing an Acceleration Card in an upgrade slot.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122404,7 +122697,57 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "progress:4": 0
+              }
+            },
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 600,
+              "tag": {
+                "progress:4": 600
+              }
+            },
+            {
+              "id": "appliedenergistics2:item.ItemCrystalSeed",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1200,
+              "tag": {
+                "progress:4": 1200
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1294
       ]
@@ -122412,7 +122755,7 @@
     {
       "questID": 1296,
       "name": "Purifying the impure",
-      "description": "",
+      "description": "Purified version of Nether, Certus and Fluix Crystal",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122576,7 +122919,7 @@
     {
       "questID": 1298,
       "name": "Wireless Setup",
-      "description": "No Description",
+      "description": "Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.\n\nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security.\n\nThe player who places the ME Security Terminal has full control over the network and cannot exclude himself any rights. By adding a blank Biometric Card you define a default behavior for every player who has no own Biometric Card registered.\n\nOther than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly.\n\n\nAllows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point.A network can have any number of ME Wireless Access Point with any number of Wireless Boosters in each one, allowing you to optimize power usage and range by altering your setup.Requires a channel to be operational.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122673,7 +123016,7 @@
     {
       "questID": 1299,
       "name": "Dense boyes",
-      "description": "Giving your network even more stability",
+      "description": "Giving your network even more stability. Dense Energy Cells store AE energy up to 1.6 million units. They do not accept power directly but are used to add additional power storage to an already existing ME Network.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122761,7 +123104,7 @@
     {
       "questID": 1300,
       "name": "ME in the Ether",
-      "description": "No Description",
+      "description": "After you linked up the Wireless Terminal in the ME Security Terminal, it grants a portable access to the ME Network. Put it into a Charger to recharge it.\n\nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME Wireless Access Point.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122850,7 +123193,7 @@
     {
       "questID": 1301,
       "name": "Annihilation and Formation",
-      "description": "Gates all network I/O",
+      "description": "Formation Core a component which can convert energy back into matter.\nAnnihilation Core a component which can convert matter into energy.\nGates all network I/O",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122939,7 +123282,7 @@
     {
       "questID": 1302,
       "name": "Interfacing with Machines",
-      "description": "No Description",
+      "description": "The ME Interface is the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface.The ME Interface acts as an in between when working with pipes, tubes, networks, or machines from other mods.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123028,7 +123371,7 @@
     {
       "questID": 1303,
       "name": "Interfacing with Inventories",
-      "description": "No Description",
+      "description": "The ME Storage Bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.\n\nThe storage via the ME Storage Bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME Storage Bus has its required channel.\n\nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.\n\nThe Storage Bus will function with nearly any inventory block, including ME Interface, Minefactory Reloaded DSUs, Factorization Barrels, JABBA Barrels, and Better Storage Crates. They can also be used to route items passivly into Buildcraft Pipes.\n\nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123111,7 +123454,7 @@
     {
       "questID": 1304,
       "name": "Interfacing with Tanks",
-      "description": "No Description",
+      "description": "Storage Bus for Fluids only.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123194,7 +123537,7 @@
     {
       "questID": 1305,
       "name": "For Fluid Recipes",
-      "description": "No Description",
+      "description": "Me Interface fur Fluids only.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123277,7 +123620,7 @@
     {
       "questID": 1306,
       "name": "Putting Items into Machines",
-      "description": "No Description",
+      "description": "The ME Export Bus extracts items from the ME Network\u0027s Networked Storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME Export Bus will try to export any of the items on its list skipping over those it cannot fit into the destination. The ME Export Bus requires a channel to function.This is the functional opposite of the ME Import Bus.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123360,7 +123703,7 @@
     {
       "questID": 1308,
       "name": "Taking Items out of Machines",
-      "description": "No Description",
+      "description": "Pulls items from the inventory it is pointed at and places them into the ME Network\u0027s Networked Storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The ME Import Bus will attempt to import any possible options, even if 1 or more of the configured items cannot be stored. The ME Import Bus requires a channel to function.This is the functional opposite of the ME Export Bus.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123443,7 +123786,7 @@
     {
       "questID": 1309,
       "name": "Emptying Tanks",
-      "description": "No Description",
+      "description": "Import Bus for Fluids only.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123526,7 +123869,7 @@
     {
       "questID": 1310,
       "name": "Something to put your Components in",
-      "description": "No Description",
+      "description": "An empty storage container, you can insert any of the various storage cell parts into it to create a usable storage cell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123574,7 +123917,7 @@
     {
       "questID": 1311,
       "name": "Tier 1 Storage",
-      "description": "No Description",
+      "description": "The Main Processor for 1K and 4K Cells.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123657,7 +124000,7 @@
     {
       "questID": 1312,
       "name": "Automating Crafting",
-      "description": "Doesn\u0027t do anything on its own thoughhgh",
+      "description": "Is a component of the Crafting CPU. This particular block provides the CPU with no additional features, but can be used as a \"filler\" block and as a crafting ingredient for the following,",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123740,7 +124083,7 @@
     {
       "questID": 1313,
       "name": "1k Item Storage Cell",
-      "description": "No Description",
+      "description": "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage.1,024 bytes of storage can hold 127 Stacks of a single item. or 65 Stacks,while holding 63 Different items.The 1k Storage Cell uses 8 bytes of data to store a single type. Click here for details on how storage math works.When placed inside a drive or chest will consume 0.5 ae/t.Must be in a ME Drive or ME Chest to be usable.You can remove the 1k ME Storage Component by fully emptying the storage cell, and sneak clicking i in your hand.The settings can be changed in the Cell Workbench.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123826,7 +124169,7 @@
     {
       "questID": 1314,
       "name": "1k Component",
-      "description": "No Description",
+      "description": "Smallest storage component, used to make 1k ME Storage Cell, or can be upgraded to make 4k ME Storage Component.Can be recovered from a crafted 1k ME Storage Cell by fully emptying the storage cell, and shift clicking i in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123909,7 +124252,7 @@
     {
       "questID": 1315,
       "name": "1k Crafting Storage",
-      "description": "No Description",
+      "description": "Component of the Crafting CPU which provides 1024 bytes of storage for crafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123993,7 +124336,7 @@
     {
       "questID": 1316,
       "name": "4k Item Storage Cell",
-      "description": "No Description",
+      "description": "Lowest Tier Storage Cell, which can contain 4,096 bytes of storage.4,096 bytes of storage can hold 508 Stacks of a single item. or 260 Stacks,while holding 63 Different items.The 4k Storage Cell uses 32 bytes of data to store a single type. Click here for details on how storage math works.When placed inside a drive or chest will consume 1.0 ae/t.Must be in a ME Drive or ME Chest to be usable.You can remove the 4k ME Storage Component by fully emptying the storage cell, and sneak clicking i in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124079,7 +124422,7 @@
     {
       "questID": 1317,
       "name": "4k Component",
-      "description": "No Description",
+      "description": "Second smallest storage component, used to make 4k ME Storage Cell, or can be upgraded to make 16k ME Storage Component.Can be recovered from a crafted 4k ME Storage Cell by fully emptying the storage cell, and shift clicking i in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124162,7 +124505,7 @@
     {
       "questID": 1318,
       "name": "4k Crafting Storage",
-      "description": "No Description",
+      "description": "Component of the Crafting CPU which provides 4,096 bytes of storage for crafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124246,7 +124589,7 @@
     {
       "questID": 1319,
       "name": "Tier 2 Storage",
-      "description": "No Description",
+      "description": "The Main Processor for 16k and 64k cells.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124329,7 +124672,7 @@
     {
       "questID": 1326,
       "name": "Co-Processing",
-      "description": "Allows you to process more items in parallel",
+      "description": "Component of the Crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124412,7 +124755,7 @@
     {
       "questID": 1327,
       "name": "Recipe Patterns",
-      "description": "To store your recipes",
+      "description": "A blank pattern, once encoded as an Encoded Pattern, is used to control crafting by inserting them into Molecular Assemblers and ME Interfaces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124495,7 +124838,7 @@
     {
       "questID": 1328,
       "name": "Pattern Terminal",
-      "description": "Don\u0027t forget to enable oredict substitution",
+      "description": "A specialized version of the ME Crafting Terminal designed to encode Blank Patterns into Encoded Pattern.\n\nLets you browse the contents of your network like other terminals, but also contains a area for designing patterns. There are two modes for pattern encoding. Crafting Patterns, and Processing Patterns. Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furances, or other machines. To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create Crafting Patterns, and when it shows a furnace, it will create Processing Patterns.\n\nFor Crafting Patterns (\"Crafts...\"), you specify the input crafting materials on a standard 3x3 crafting grid, and the output materials are determined automatically.\n\nFor Processing Patterns (\"Creates...\"), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface. If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a Processing Pattern.\n\nWhen designing crafting patterns you can click the output to extract a crafted item as long as you have the materials required to craft the item.\nDon\u0027t forget to enable oredict substitution",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124578,7 +124921,7 @@
     {
       "questID": 1329,
       "name": "ME in your Cleanroom",
-      "description": "No Description",
+      "description": "Wireless Connector – close range quantum bridge alternative\nConnections are point-to-point – you can’t connect more than 2 blocks together\nEach block will use 10 + distance2 AE/t\nDoes not work across dimensions\nPower needs to be provided on only one side\nUp to 32 channels can be transferred through the connection\nCan connect directly to dense cables",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124673,7 +125016,7 @@
     {
       "questID": 1330,
       "name": "Ore Dictionary Output",
-      "description": "No Description",
+      "description": "The ME Ore Dictionary Export Bus  will attempt to push the configured Item/Fluid [From Same Ore Dictionary] from ME Network into a machine or other input inventory. To configure a Item/Liquid, Type In the Item\u0027s Name [E.g. If You want To Export all Ores Put \"ore*\"]. The rate of export is Very Fast.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124756,7 +125099,7 @@
     {
       "questID": 1331,
       "name": "To Link P2P Busses",
-      "description": "No Description",
+      "description": "A small item, that can be used to store, copy, and paste settings. Shift + Right Click on a configurable object to save the settings onto the memory card, then right click on any other block of the same type to paste the settings.They are also used to link the input P2P Tunnel to the correct output P2P Tunnels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -130239,6 +130582,21 @@
           "id": 1257,
           "x": 516,
           "y": 144
+        },
+        {
+          "id": 1258,
+          "x": 144,
+          "y": 252
+        },
+        {
+          "id": 1259,
+          "x": 0,
+          "y": 180
+        },
+        {
+          "id": 1260,
+          "x": 264,
+          "y": 180
         }
       ]
     },
