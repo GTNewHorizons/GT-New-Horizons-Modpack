@@ -16155,7 +16155,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 37
             }
           ],
           "rewardID": "bq_standard:item"
@@ -16226,7 +16226,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 37
             }
           ],
           "rewardID": "bq_standard:item"
@@ -16330,7 +16330,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 37
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -16404,16 +16404,16 @@
         {
           "choices": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            },
+            {
               "id": "appliedenergistics2:tile.BlockCraftingUnit",
               "Count": 1,
               "OreDict": "",
               "Damage": 1
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 7
             },
             {
               "id": "appliedenergistics2:item.ItemMultiMaterial",
@@ -16428,7 +16428,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -16520,7 +16520,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 37
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -16716,6 +16716,12 @@
         {
           "choices": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            },
+            {
               "id": "appliedenergistics2:item.ItemMultiPart",
               "Count": 1,
               "OreDict": "",
@@ -16726,12 +16732,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 480
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 7
             },
             {
               "id": "appliedenergistics2:item.ItemMultiPart",
@@ -18234,7 +18234,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 37
             }
           ],
           "rewardID": "bq_standard:item"
@@ -115490,7 +115490,7 @@
         "OreDict": "",
         "Damage": 1194
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -115639,7 +115639,7 @@
         "OreDict": "",
         "Damage": 1195
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -115788,7 +115788,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -115900,7 +115900,7 @@
         "OreDict": "",
         "Damage": 1153
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -116080,7 +116080,7 @@
           }
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -116178,7 +116178,7 @@
         "OreDict": "",
         "Damage": 7
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -116214,7 +116214,7 @@
         "OreDict": "",
         "Damage": 17103
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -116891,7 +116891,7 @@
         "OreDict": "",
         "Damage": 1193
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -117040,7 +117040,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -121462,7 +121462,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -121516,7 +121516,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1516
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 810
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         176
       ]
@@ -121550,7 +121585,7 @@
           "internalCurrentPower:6": 200000.0
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -121569,7 +121604,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1296
       ]
@@ -121599,12 +121669,12 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -121617,7 +121687,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11085
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         184,
         183
@@ -121648,7 +121753,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -121666,7 +121771,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 36
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1292
       ]
@@ -121696,7 +121836,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -121744,7 +121884,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -121792,7 +121932,7 @@
         "OreDict": "",
         "Damage": 12
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -121891,7 +122031,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 8523
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         181
       ]
@@ -121921,7 +122096,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -121960,7 +122135,35 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 140
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         183
       ]
@@ -121994,7 +122197,7 @@
           "internalCurrentPower:6": 1600000.0
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122013,7 +122216,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11085
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1291
       ]
@@ -122047,7 +122285,7 @@
           "internalCurrentPower:6": 1600000.0
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122066,7 +122304,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1298,
         1299
@@ -122097,7 +122370,7 @@
         "OreDict": "",
         "Damage": 44
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122121,7 +122394,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1296
       ]
@@ -122151,7 +122459,7 @@
         "OreDict": "",
         "Damage": 440
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122169,7 +122477,48 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1301
       ]
@@ -122199,7 +122548,7 @@
         "OreDict": "",
         "Damage": 220
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122217,7 +122566,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11085
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1302
       ]
@@ -122247,7 +122631,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122265,7 +122649,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17811
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17526
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1303
       ]
@@ -122295,7 +122714,7 @@
         "OreDict": "",
         "Damage": 9
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122313,7 +122732,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17811
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17526
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1302
       ]
@@ -122343,7 +122797,7 @@
         "OreDict": "",
         "Damage": 260
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122361,7 +122815,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 36
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1301
       ]
@@ -122391,7 +122880,7 @@
         "OreDict": "",
         "Damage": 240
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122409,7 +122898,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1301
       ]
@@ -122439,7 +122963,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122457,7 +122981,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17811
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17526
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1308
       ]
@@ -122487,7 +123046,7 @@
         "OreDict": "",
         "Damage": 39
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122535,7 +123094,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122583,7 +123142,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122632,7 +123191,7 @@
         "Damage": 0,
         "tag": {}
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122682,7 +123241,7 @@
         "OreDict": "",
         "Damage": 35
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122730,7 +123289,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122780,7 +123339,7 @@
         "Damage": 0,
         "tag": {}
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122830,7 +123389,7 @@
         "OreDict": "",
         "Damage": 36
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122878,7 +123437,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122927,7 +123486,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -122975,7 +123534,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123024,7 +123583,7 @@
         "OreDict": "",
         "Damage": 37
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123072,7 +123631,7 @@
         "OreDict": "",
         "Damage": 2
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123121,7 +123680,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123170,7 +123729,7 @@
         "OreDict": "",
         "Damage": 38
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123218,7 +123777,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123267,7 +123826,7 @@
         "OreDict": "",
         "Damage": 1
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123315,7 +123874,7 @@
         "OreDict": "",
         "Damage": 52
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123333,7 +123892,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17811
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         183
       ]
@@ -123363,7 +123957,7 @@
         "OreDict": "",
         "Damage": 340
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123381,7 +123975,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17522
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17516
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1327
       ]
@@ -123411,7 +124040,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123435,7 +124064,48 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1300
       ]
@@ -123465,7 +124135,7 @@
         "OreDict": "",
         "Damage": 12
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123483,7 +124153,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         1306
       ]
@@ -123514,7 +124219,7 @@
         "Damage": 0,
         "tag": {}
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -123533,7 +124238,42 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11306
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         183
       ]
