@@ -55,12 +55,11 @@ val LightDetector = <appliedenergistics2:tile.BlockLightDetector>;
 val TinyTNT = <appliedenergistics2:tile.BlockTinyTNT>;
 val ITNT = <IC2:blockITNT>;
 
-val HVMachineHull = <gregtech:gt.blockmachines:12>;
-val AdvElectrolyzer = <gregtech:gt.blockmachines:372>;
+val EVElectrolyzer = <gregtech:gt.blockmachines:374>;
 val AlCable = <ore:cableGt08Aluminium>;
 val CopperCable = <ore:cableGt01Copper>;
 val PlatinumCable = <ore:cableGt04Platinum>;
-val AdvAssembler = <gregtech:gt.blockmachines:212>;
+val EVAssembler = <gregtech:gt.blockmachines:214>;
 
 val PrimitiveCircuit = <ore:circuitPrimitive>;
 val BasicCircuit = <ore:circuitBasic>;
@@ -539,7 +538,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [
 // --- Crystal Growth Accelerator
 recipes.addShaped(CrystalAccelerator, [
 [TitaniumPlate, QuartzGlass, TitaniumPlate], 
-[FluixGlassCable, <gregtech:gt.blockmachines:572>, FluixGlassCable], 
+[FluixGlassCable, <gregtech:gt.blockmachines:574>, FluixGlassCable], 
 [TitaniumPlate, DiamondCircuit, TitaniumPlate]]);
 
 // --- CraftingUnit
@@ -551,13 +550,13 @@ recipes.addShaped(CraftingUnit, [
 // --- Molecular Assembler
 recipes.addShaped(MolecularAssembler, [
 [TitaniumPlate, <ore:blockGlass>, TitaniumPlate],
-[AnnihilationCore, AdvAssembler, FormationCore],
+[AnnihilationCore, EVAssembler, FormationCore],
 [TitaniumPlate, <ore:blockGlass>, TitaniumPlate]]);
 
 // --- Charger
 recipes.addShaped(Charger, [
 [TitaniumPlate, FluixCrystal, TitaniumPlate],
-[CopperCable, AdvElectrolyzer, CopperCable],
+[CopperCable, EVElectrolyzer, CopperCable],
 [TitaniumPlate, FluixCrystal, TitaniumPlate]]);
 
 // --- ME Quantum Ring
