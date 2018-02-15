@@ -122800,6 +122800,77 @@
       ]
     },
     {
+      "questID": 1266,
+      "name": "Tranformator LV-MV",
+      "description": "It\u0027s possible to run mv machines still in LV age. Build a Transformer and using 4 powersourches 32eu/t to power one 128 eu/t  machine. You can change the mode with a soft Mallet.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 21
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 21
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        103
+      ]
+    },
+    {
       "questID": 1290,
       "name": "Imma chargin\u0027 my...",
       "description": "Charged Certus Quarts one of the basic components for a lot of AE recipes. Just mixe some certusquartz and redstone dust to get charged certusquartz dust.\nIn the Autoclave you can make crystals.",
@@ -127251,6 +127322,11 @@
           "id": 1178,
           "x": 684,
           "y": 372
+        },
+        {
+          "id": 1266,
+          "x": 204,
+          "y": 60
         }
       ]
     },
