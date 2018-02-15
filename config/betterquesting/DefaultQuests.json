@@ -19419,8 +19419,8 @@
     },
     {
       "questID": 217,
-      "name": "Final choice: Void",
-      "description": "Tired of mobs in your base? Want to build somewhere... different? Probably in a void dimension? Then this is your chance. But choose wisely; You can only pick one option.",
+      "name": "Final choice: Personal Dimension",
+      "description": "Tired of mobs in your base? Want to build somewhere... different? Probably in a personal dimension? Then this is your chance. But choose wisely; You can only pick one option.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -19450,15 +19450,21 @@
       ],
       "rewards": [
         {
-          "rewards": [
+          "choices": [
             {
               "id": "utilityworlds:uw_portal_void",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "utilityworlds:uw_portal_garden",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:choice"
         }
       ],
       "preRequisites": [
@@ -19469,7 +19475,7 @@
     {
       "questID": 218,
       "name": "Final choice: Loot",
-      "description": "Don\u0027t need a void dimension, eh? Well, then you\u0027ll probably be happy with some extra loot. Choose wisely; You can only pick one.",
+      "description": "Don\u0027t need a personal dimension, eh? Well, then you\u0027ll probably be happy with some extra loot. Choose wisely; You can only pick one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
