@@ -122801,8 +122801,8 @@
     },
     {
       "questID": 1266,
-      "name": "Tranformator LV-MV",
-      "description": "It\u0027s possible to run mv machines still in LV age. Build a Transformer and using 4 powersourches 32eu/t to power one 128 eu/t  machine. You can change the mode with a soft Mallet.",
+      "name": "Transformator LV-MV",
+      "description": "It\u0027s possible to run mv machines still in LV age. Build a Transformer and using 4 powersourches 32eu/t to power one 128 eu/t  machine. You can change the mode with a soft Mallet. If the Transformer is wired and loadeddoes not change the mode otherwise there is a big explosion.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122868,6 +122868,220 @@
       ],
       "preRequisites": [
         103
+      ]
+    },
+    {
+      "questID": 1267,
+      "name": "Transformator MV-HV",
+      "description": "It\u0027s possible to run HV machines still in MV age. Build a Transformer and using 4 powersourches 128eu/t to power one 512 eu/t  machine. You can change the mode with a soft Mallet. If the Transformer is wired and loadeddoes not change the mode otherwise there is a big explosion.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 22
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1266,
+        1148
+      ]
+    },
+    {
+      "questID": 1268,
+      "name": "Transformator MV-HV High Amp",
+      "description": "If you need a Tranformer with more then 4 Ampere you need a high Amp Transformer. You can put in four 128 eu/t powersources and get out 16 ampere at 32eu/t.\nModes can be changed with a soft mallet.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 878
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 878
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1267
+      ]
+    },
+    {
+      "questID": 1269,
+      "name": "Transformator MV-HV High Amp",
+      "description": "If you need even more the craft a power Tranformer with max 64 amps. You can put in sixthen 128 eu/t powersources and get out 64 ampere at 32eu/t. Modes can be changed with a soft mallet.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12001
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12001
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1268
       ]
     },
     {
@@ -127526,22 +127740,22 @@
         },
         {
           "id": 127,
-          "x": 96,
+          "x": 0,
           "y": 168
         },
         {
           "id": 738,
-          "x": 96,
+          "x": 0,
           "y": 132
         },
         {
           "id": 737,
-          "x": 48,
+          "x": 36,
           "y": 168
         },
         {
           "id": 739,
-          "x": 48,
+          "x": 36,
           "y": 132
         },
         {
@@ -127577,7 +127791,7 @@
         {
           "id": 758,
           "x": 0,
-          "y": 132
+          "y": 264
         },
         {
           "id": 759,
@@ -127847,7 +128061,7 @@
         {
           "id": 1083,
           "x": 0,
-          "y": 84
+          "y": 300
         },
         {
           "id": 1093,
@@ -127878,6 +128092,21 @@
           "id": 1227,
           "x": 444,
           "y": 552
+        },
+        {
+          "id": 1267,
+          "x": 96,
+          "y": 168
+        },
+        {
+          "id": 1268,
+          "x": 96,
+          "y": 132
+        },
+        {
+          "id": 1269,
+          "x": 36,
+          "y": 84
         }
       ]
     },
