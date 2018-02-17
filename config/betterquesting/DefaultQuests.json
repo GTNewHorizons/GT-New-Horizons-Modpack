@@ -71065,7 +71065,7 @@
     {
       "questID": 773,
       "name": "Way one: Raw carbon mesh",
-      "description": "This way of making carbon requires autoclaveing 4 carbon dust. You can use polyethylene wich gives you only 1 raw carbon fibre at LV tier, polytetrafluoroethylene gives you 2 at MV Tier or go for the best way: molten epoxide which yields 4 at HV Tier.  ",
+      "description": "This way of making carbon requires autoclaveing 4 carbon dust. You can use polyethylene wich gives you only 1 raw carbon fibre at LV tier, polytetrafluoroethylene gives you 2 at MV Tier or go for the best way: molten epoxid which yields 4 at HV Tier.  ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79445,7 +79445,7 @@
     {
       "questID": 845,
       "name": "Bio Diesel Fuel",
-      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite or for your future epoxide production.",
+      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite or for your future epoxid production.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -97838,7 +97838,7 @@
     {
       "questID": 1021,
       "name": "Sodium Persulfate",
-      "description": "Sodium Persulfate can be made in the electrolyzer out of sodium bisulfate dust.\nSodium bisulfate is made out of sulfuric acid and salt in the chemical reactor.\nYou can etch your board with it.\nSave the hydrochloric acid for your future epoxide production.",
+      "description": "Sodium Persulfate can be made in the electrolyzer out of sodium bisulfate dust.\nSodium bisulfate is made out of sulfuric acid and salt in the chemical reactor.\nYou can etch your board with it.\nSave the hydrochloric acid for your future epoxid production.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -118718,7 +118718,7 @@
     {
       "questID": 1226,
       "name": "Glycerol",
-      "description": "Glycerol becomes important in creating epoxide in the next tiers. It is important for TNT production too. It is left over when producing bio diesel.",
+      "description": "Glycerol becomes important in creating epoxid in the next tiers. It is important for TNT production too. It is left over when producing bio diesel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -118807,7 +118807,7 @@
     {
       "questID": 1227,
       "name": "HCL",
-      "description": "HCl becomes important for your epoxide production in HV/EV tier.",
+      "description": "HCl becomes important for your epoxid production in HV/EV tier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -118896,7 +118896,7 @@
     {
       "questID": 1228,
       "name": "Epichlorohydrine",
-      "description": "Epichlorohydrine is another product used in your epoxide production. Mix glycerol and HCl together.",
+      "description": "Epichlorohydrine is another product used in your epoxid production. Mix glycerol and HCl together.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119495,8 +119495,8 @@
     },
     {
       "questID": 1234,
-      "name": "Empty Expoxide Board",
-      "description": "Epoxide circuit boards require epoxide plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an epoxide or advanced circuit board.",
+      "name": "Empty Expoxid Board",
+      "description": "Epoxid circuit boards require epoxid plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an epoxid or advanced circuit board.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120940,7 +120940,7 @@
     {
       "questID": 1248,
       "name": "Nano Processor",
-      "description": "There are three variants of advanced circuits. The advanced electronic circuit, the processor assembly and the nanoprocessor. The Nanoprocessor needs an EV circuit assembling machine to be made. Use your epoxide boards for it.\nA cleanroom is required.",
+      "description": "There are three variants of advanced circuits. The advanced electronic circuit, the processor assembly and the nanoprocessor. The Nanoprocessor needs an EV circuit assembling machine to be made. Use your epoxid boards for it.\nA cleanroom is required.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
