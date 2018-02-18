@@ -278,7 +278,7 @@
     {
       "questID": 4,
       "name": "Main Quests and Secondary Quests",
-      "description": "Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.",
+      "description": "Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -8415,7 +8415,7 @@
     {
       "questID": 89,
       "name": "MV Steam Turbine",
-      "description": "If you decide to use steam in mv tier then it\u0027s time to build a steam turbine.",
+      "description": "If you decide to use steam in MV tier then it\u0027s time to build a steam turbine.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -16250,7 +16250,7 @@
     {
       "questID": 180,
       "name": "16k Item Storage Cell",
-      "description": "Middle Tier Storage Cell, which can contain 16,384 bytes of storage.16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040 Stacks,while holding 63 Different items.The 16k Storage Cell uses 128 bytes of data to store a single type. Click here for details on how storage math works.When placed inside a drive or chest will consume 1.5 ae/t.Must be in a ME Drive or ME Chest to be usable.You can remove the 16k ME Storage Component by fully emptying the storage cell, and sneak clicking i in your hand.",
+      "description": "Middle tier storage cell, which can contain 16,384 bytes of storage. 16,384 bytes of storage can hold 2,032 stacks of a single item, or 1,040 stacks, while holding 63 different items. The 16k storage cell uses 128 bytes of data to store a single type. When placed inside a drive or chest will consume 1.5 ae/t. Must be in an ME Drive or ME chest to be usable. You can remove the 16k ME storage component by fully emptying the storage cell, and sneak clicking it in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16334,7 +16334,7 @@
     {
       "questID": 181,
       "name": "Fluix crystals",
-      "description": "Not \"flux\"! Even if the color is the same. You need to add redstone and netherquartz to a charged Certus crystal.",
+      "description": "Not \"flux\"! Even if the color is the same. You need to add redstone and netherquartz to a charged certus crystal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16738,7 +16738,7 @@
     {
       "questID": 185,
       "name": "Terminals everywhere",
-      "description": "The ME Terminal is a HID which gives you access to a ME Network\u0027s Networked Storage.\n\nIt has the ability to sort and search, as well as filter by using View Cell. It requires a Channel to function.\n\nCan be upgraded into a ME Crafting Terminal.\n\nThe ME Crafting Terminal is the upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network\u0027s Networked Storage.\n\nLike the ME Terminal it also requires a Channel to function.\n\nGives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME Interface in the Inscriber or an Anvil to alter the name displayed in the ME Interface Terminal.\n\nCombined with the fact that you can toggle if the interface shows up at all this gets you control over your itnerface terminal\u0027s display.",
+      "description": "The ME Terminal is a HID which gives you access to an ME network\u0027s networked storage.\n\nIt has the ability to sort and search, as well as filter by using a view cell. It requires a channel to function.\n\nCan be upgraded into an ME crafting terminal.\n\nThe ME crafting terminal is the upgraded version of the ME terminal which has an integrated crafting grid with access to an ME network\u0027s networked storage.\n\nLike the ME terminal it also requires a channel to function.\n\nGives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME interface in the inscriber or an anvil to alter the name displayed in the ME interface terminal.\n\nCombined with the fact that you can toggle if the interface shows up at all this gets you control over your interface terminal\u0027s display.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79445,7 +79445,7 @@
     {
       "questID": 845,
       "name": "Bio Diesel Fuel",
-      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite or for your future epoxide production.",
+      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite or for your future epoxid production.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -97838,7 +97838,7 @@
     {
       "questID": 1021,
       "name": "Sodium Persulfate",
-      "description": "Sodium Persulfate can be made in the electrolyzer out of sodium bislufate dust.\nSodium bisulfate is made out of sulfuric acid and salt in the chemical reactor.\nYou can etch your board with it.\nSave the Hydrochloric Acid for your future Epoxide production.",
+      "description": "Sodium Persulfate can be made in the electrolyzer out of sodium bisulfate dust.\nSodium bisulfate is made out of sulfuric acid and salt in the chemical reactor.\nYou can etch your board with it.\nSave the hydrochloric acid for your future epoxid production.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -116645,7 +116645,7 @@
     {
       "questID": 1208,
       "name": "Cart modules: Power Solar",
-      "description": "Your cart needs power, obviously. A cart can be powered via coal, solar or lava. If you are able to make solar pannels you can power your cart with the sun.",
+      "description": "Your cart needs power, obviously. A cart can be powered via coal, solar or lava. If you are able to make solar panels you can power your cart with the sun.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -116717,7 +116717,7 @@
     {
       "questID": 1209,
       "name": "Cart modules: Digging",
-      "description": "Want to automate digging for ores ? Well a drill head out of iron is the cheapest alternative.",
+      "description": "Want to automate digging for ores ? A drill head made out of iron is the cheapest alternative.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -116800,7 +116800,7 @@
     {
       "questID": 1210,
       "name": "Cart modules: Power Thermal",
-      "description": "Your cart needs power, obviously. A cart can be powered via coal, solar or lava. Why not power your cart with Lava.",
+      "description": "Your cart needs power, obviously. A cart can be powered via coal, solar or lava. Why not power your cart with lava?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -116871,7 +116871,7 @@
     {
       "questID": 1211,
       "name": "Cart modules: More Storage",
-      "description": "After you craft side chests you can add more diffenrent chets to the crat. Some sides are reserved for tools so there can\u0027t be placed a chest.",
+      "description": "After you craft side chests you can add more different chests to the cart. Some sides are reserved for tools so no chest can be placed there.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -117215,7 +117215,7 @@
     {
       "questID": 1214,
       "name": "Clockwork Engine",
-      "description": "Producing RF Power by hand is a good idea for making one or two recipes in the Forestry machines. The Turrets can be chared with it too.",
+      "description": "Producing RF Power by hand is a good idea for making one or two recipes in the Forestry machines. The turrets can be charged with it too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -117629,7 +117629,7 @@
     {
       "questID": 1217,
       "name": "Copper, Tin, Bronze Tubes",
-      "description": "Tubes are for set farms to a special kind of crop or can used in engines. Also used in Alvearies and crafting recipes also.\n\nHit the hold key to see in which Farm it is used and if it gives a buff or make a engine better.",
+      "description": "Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.\n\nUse a soldering iron to attach an electron tube to a circuit board.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -117775,7 +117775,7 @@
     {
       "questID": 1218,
       "name": "Iron, Gold, Diamantine Tubes",
-      "description": "Tubes are for set farms to a special kind of crop or can used in engines. Also used in Alvearies and crafting recipes also.\n\nHit the hold key to see in which Farm it is used and if it gives a buff or make a engine better.",
+      "description": "Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.\n\nUse a soldering iron to attach an electron tube to a circuit board.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -117921,7 +117921,7 @@
     {
       "questID": 1219,
       "name": "Rubberised, Obsidian, Lapis Tubes",
-      "description": "Tubes are for set farms to a special kind of crop or can used in engines. Also used in Alvearies and crafting recipes also.\n\nHit the hold key to see in which Farm it is used and if it gives a buff or make a engine better.",
+      "description": "Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.\n\nUse a soldering iron to attach an electron tube to a circuit board.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -118067,7 +118067,7 @@
     {
       "questID": 1220,
       "name": "Blaze, Endereyes, Emerald Tubes",
-      "description": "Tubes are for set farms to a special kind of crop or can used in engines. Also used in Alvearies and crafting recipes also.\n\nHit the hold key to see in which Farm it is used and if it gives a buff or make a engine better.",
+      "description": "Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.\n\nUse a soldering iron to attach an electron tube to a circuit board.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -118298,7 +118298,7 @@
     {
       "questID": 1222,
       "name": "Advanced Circuit Assembler II",
-      "description": "With your workstation circuitsyou can craft a HV Circut assembler. This is need for higher circuits.",
+      "description": "With your workstation circuits you can craft an HV circuit assembler. This is need for higher tier circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -118380,8 +118380,8 @@
     },
     {
       "questID": 1223,
-      "name": "EV Circuits assembler",
-      "description": "An EV Circuit Assembler need IV Circuits to craft. With this Assembler you can make a lot more high tier circuits.",
+      "name": "EV Circuits Assembler",
+      "description": "An EV circuit assembler requires IV Circuits to craft. With this assembler you can make a lot more high tier circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -118589,8 +118589,8 @@
     },
     {
       "questID": 1225,
-      "name": "Iv Circuit Mainframe",
-      "description": "With your workstation circuitsyou can craft a HV Circut assembler. This is need for higher circuits.",
+      "name": "IV Circuit Mainframe",
+      "description": "With your workstation circuits you can craft an HV circuit assembler. This is needed for higher tier circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -118718,7 +118718,7 @@
     {
       "questID": 1226,
       "name": "Glycerol",
-      "description": "Glyceroal become important in creating Expoxid in the next tiers. It is iportant for TNT production too. It left over wehn you producing Bio diesel.",
+      "description": "Glycerol becomes important in creating epoxid in the next tiers. It is important for TNT production too. It is left over when producing bio diesel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -118807,7 +118807,7 @@
     {
       "questID": 1227,
       "name": "HCL",
-      "description": "HCl becomes important for your Epoxid production in HV/EV Tier.",
+      "description": "HCl becomes important for your epoxid production in HV/EV tier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -118896,7 +118896,7 @@
     {
       "questID": 1228,
       "name": "Epichlorohydrine",
-      "description": "Epichlorohydrine is another product using in your Epoxid production. Mixing Glycerol and HCL together.",
+      "description": "Epichlorohydrine is another product used in your epoxid production. Mix glycerol and HCl together.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119006,7 +119006,7 @@
     {
       "questID": 1229,
       "name": "Phenol",
-      "description": "The esiest way is to get Phenol out of heavy fuel. There are other ways like get it out of Isopropylbenzene and coxygen or chlorobenzene with water.",
+      "description": "The easiest way is to get phenol out of heavy fuel. There are other ways, like getting it out of isopropylbenzene and oxygen or chlorobenzene and water.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119090,7 +119090,7 @@
     {
       "questID": 1230,
       "name": "Bisphenol A",
-      "description": "To get Bisphenol A your need to react Phenol, Aceton and HCL in a chemical reactor.",
+      "description": "To get Bisphenol A your need to combine Phenol, Aceton and HCl in a chemical reactor.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119201,7 +119201,7 @@
     {
       "questID": 1231,
       "name": "You gonna hate this 1-4 in HV",
-      "description": "Pumps, Pistons, Conveyor Belt and Robot arm the most needed machine parts in HV. Go and craft one of each.",
+      "description": "Pumps, pistons, conveyor Belts and robot arms are the most needed machine parts in HV. Go and craft one of each.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119302,7 +119302,7 @@
     {
       "questID": 1232,
       "name": "You gonna hate this 5 and 6 in HV",
-      "description": "Some machines need Emitters and Sensors like the Analyzer or the circuit Assembler.",
+      "description": "Some machines need emitters and sensors, like the analyzer or the circuit assembler.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119392,7 +119392,7 @@
     {
       "questID": 1233,
       "name": "Ender Eyes",
-      "description": "Endereyes are available in HV in the chemical reactor. React some Enderyes in Blazepowder.",
+      "description": "Ender eyes are available in HV in the chemical reactor. Combine some ender pearls with blaze powder.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119495,8 +119495,8 @@
     },
     {
       "questID": 1234,
-      "name": "Empty Expoxide Board",
-      "description": "Epoxide circuit boards require epoxide Plate, gold foil and Sulfuric Acid to make an Empty Board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft a epoxide or addvanced circuit board.",
+      "name": "Empty Expoxid Board",
+      "description": "Epoxid circuit boards require epoxid plate, gold foil and sulfuric acid to make an empty board. By adding electrum foil and Iron(III) Chloride or Sodium Persulfate you can craft an epoxid or advanced circuit board.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119628,7 +119628,7 @@
     {
       "questID": 1235,
       "name": "Microprocessor LV",
-      "description": "The Microprocessor is the expensiest way to  craft an LV circuit. It need plastic board, a cleanroom, a cpu and a few smd components.",
+      "description": "The Microprocessor is the most expensive way to craft an LV circuit. It requires plastic board, a cleanroom, a cpu and a few smd components.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -119764,7 +119764,7 @@
     {
       "questID": 1236,
       "name": "Cutting Machine HV",
-      "description": "Nor, Nand and other high tier chips need a hv cutting machine. To cutting the Glowstone Dopped wafers this machine is needed too.",
+      "description": "Nor, nand and other high tier chips require an HV cutting machine. This machine is also needed for cutting glowstone doped wafers.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119846,7 +119846,7 @@
     },
     {
       "questID": 1237,
-      "name": "Glowstone dopped Monocrystalline Silicon",
+      "name": "Glowstone Doped Monocrystalline Silicon",
       "description": "To make wafers, you need to make monocrystalline silicon first. The process takes 450 seconds and requires silicon dust and gallium arsenide dust in the electric blast furnace. You can make 16 wafers out of every boule.",
       "isMain": true,
       "isSilent": false,
@@ -119950,8 +119950,8 @@
     },
     {
       "questID": 1238,
-      "name": "Glowstone Dopped Wafer",
-      "description": "To create some glowstone dopped silicon wafers, put the monocrystalline glowstone dopped silicon boule in a cutting machine. A HV version of the Cutting machines is needed for future wafer and chips.",
+      "name": "Glowstone Doped Wafer",
+      "description": "To create some glowstone doped silicon wafers, place the monocrystalline glowstone doped silicon boule in a cutting machine. An HV version of the cutting machine is needed for future wafers and chips.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120034,7 +120034,7 @@
     {
       "questID": 1239,
       "name": "Nor and Nand chips",
-      "description": "The Data stick need Nand chips. Nor chips are needed for more advanced circuits. You can get these by cutting a nand and a nor wafer.\nA cleanroom is needed.",
+      "description": "The data stick requires nand chips. Nor chips are needed for more advanced circuits. You can get these by cutting a nand and a nor wafer.\nA cleanroom is required.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120146,7 +120146,7 @@
     {
       "questID": 1240,
       "name": "Data Sticks",
-      "description": "Data Sticks are very important for Seismic prospecting and for Assembly Line in the LuV age. Go and craft a few data sticks.",
+      "description": "Data sticks are very important for seismic prospecting and for the assembly line in the LuV age. Go and craft a few data sticks.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120280,7 +120280,7 @@
     {
       "questID": 1241,
       "name": "Radeon",
-      "description": "Radon is used for Quantum Eyes, Quantum Stars and Emitters and Sensors in the EV Machines. Try to find a pitch Blend vein first and/or recycle your plutonium and uran from your reactor.",
+      "description": "Radon is used for quantum eyes, quantum stars and emitters and sensors in the EV machines. Try to find a pitch blend vein first and/or recycle your plutonium and uranium from your reactor.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120384,7 +120384,7 @@
     {
       "questID": 1242,
       "name": "EV Chemical reactor",
-      "description": "An EV Chemical rector is need to get some Indium or make your radon production quit faster.",
+      "description": "An EV chemical rector is required to get some indium or make your radon production quite faster.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120467,7 +120467,7 @@
     {
       "questID": 1243,
       "name": "Pitchblen",
-      "description": "In order to try to run your nuclear reactor you need some fuel Uran or Plutonium. Go and find a pitchblendvein on Mars at Y 30-60.",
+      "description": "In order to try running your nuclear reactor you need some uranium or plutonium fuel. Go and find a pitchblend vein on Mars at Y 30-60.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120556,7 +120556,7 @@
     {
       "questID": 1244,
       "name": "Scheelite, Tungstate",
-      "description": "Tungstensteel is the material you need but go to find some Scheelite, Tungstate mic on the mars first. Look at Y 20-60.",
+      "description": "Tungstensteel is the material you need but go find some scheelite and tungstate mix on Mars first. Look at Y 20-60.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120645,7 +120645,7 @@
     {
       "questID": 1245,
       "name": "You gonna hate this 1-4 in EV",
-      "description": "Pumps, Pistons, Conveyor Belt and Robot arm the most needed machine parts in HV. Go and craft one of each.",
+      "description": "Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in HV. Go and craft one of each.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120746,7 +120746,7 @@
     {
       "questID": 1246,
       "name": "You gonna hate this 5 and 6 in EV",
-      "description": "Some machines need Emitters and Sensors like the Analyzer or the circuit Assembler.",
+      "description": "Some machines need emitters and sensors, like the analyzer or the circuit assembler.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120836,7 +120836,7 @@
     {
       "questID": 1247,
       "name": "Quantum Eye",
-      "description": "Quantum eyes are neede in EV Emitters and Sensors. Just infuse your Enderye with Radon to get one.",
+      "description": "Quantum eyes are required in EV emitters and sensors. Just infuse your ender eye with radon to get one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120940,7 +120940,7 @@
     {
       "questID": 1248,
       "name": "Nano Processor",
-      "description": "There are three variants of advanced circuits. The advanced electronic circuit, the processor assembly and the nanoprocessor. The Nanoprocessor needs an EV circuit assembling machine to be made. Use your Epoxide boards for it.\nA cleanroom is needed.",
+      "description": "There are three variants of advanced circuits. The advanced electronic circuit, the processor assembly and the nanoprocessor. The Nanoprocessor needs an EV circuit assembling machine to be made. Use your epoxid boards for it.\nA cleanroom is required.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121075,7 +121075,7 @@
     {
       "questID": 1249,
       "name": "Nano CPU Wafer and Chip",
-      "description": "The Nano CPU Wafer is made out of a CPU Wafer with corbon fiber and molten Glowstone in a ev chemical reactor. Cut into the Nano CPU chip.\nA cleanroom is needed.",
+      "description": "The Nano CPU Wafer is made out of a CPU Wafer with carbon fiber and molten glowstone in an EV chemical reactor. Cut into the nano CPU chip.\nA cleanroom is needed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121174,7 +121174,7 @@
     {
       "questID": 1250,
       "name": "Nano Processor Array",
-      "description": "The Nano Processor Array is a EV circuit. \nA cleanroom is needed.",
+      "description": "The nano processor array is an EV circuit. \nA cleanroom is needed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121308,7 +121308,7 @@
     {
       "questID": 1251,
       "name": "Elite Nano Computer",
-      "description": "The Elite Nano Computer is a IV Circuit.\nA cleanroom is needed.",
+      "description": "The elite nano computer is an IV circuit.\nA cleanroom is needed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121441,8 +121441,8 @@
     },
     {
       "questID": 1252,
-      "name": "EV Chemical bath",
-      "description": "A HV chemical bath is needed for the Qunatum Eye.",
+      "name": "EV Chemical Bath",
+      "description": "An HV chemical bath is needed for the quantum eye.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121525,7 +121525,7 @@
     {
       "questID": 1253,
       "name": "16k Component",
-      "description": "Second largest storage component, used to make 16k ME Storage Cell, or can be upgraded to make 64k ME Storage Component.Can be recovered from a crafted 16k ME Storage Cell by fully emptying the storage cell, and shift clicking i in your hand.",
+      "description": "Second largest storage component, used to make 16k ME storage cell, or can be upgraded to make 64k ME storage component.Can be recovered from a crafted 16k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121608,7 +121608,7 @@
     {
       "questID": 1254,
       "name": "16k Crafting Storage",
-      "description": "Component of the Crafting CPU which provides 16,384 bytes of storage for crafting.",
+      "description": "Component of the crafting CPU which provides 16,384 bytes of storage for crafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121692,7 +121692,7 @@
     {
       "questID": 1255,
       "name": "64k Item Storage Cell",
-      "description": "Highest Tier Storage Cell, which can contain 65,536 bytes of storage.65,536 bytes of storage can hold 8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items.The 64k Storage Cell uses 512 bytes of data to store a single type. Click here for details on how storage math works.When placed inside a drive or chest will consume 2.0 ae/t.Must be in a ME Drive or ME Chest to be usable.You can remove the 64k ME Storage Component by fully emptying the storage cell, and sneak clicking i in your hand.",
+      "description": "Highest tier storage cell, which can contain 65,536 bytes of storage. 65,536 bytes of storage can hold 8,128 stacks of a single item, or 4,160 stacks, while holding 63 different items. The 64k storage cell uses 512 bytes of data to store a single type. When placed inside a drive or chest will consume 2.0 ae/t. Must be in an ME drive or ME chest to be usable. You can remove the 64k ME storage component by fully emptying the storage cell, and sneak clicking it in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121776,7 +121776,7 @@
     {
       "questID": 1256,
       "name": "64k Component",
-      "description": "Largest storage component, used to make 64k ME Storage Cell.Can be recovered from a crafted 64k ME Storage Cell by fully emptying the storage cell, and shift clicking i in your hand.",
+      "description": "Largest storage component, used to make 64k ME storage cell. Can be recovered from a crafted 64k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121859,7 +121859,7 @@
     {
       "questID": 1257,
       "name": "64k Crafting Storage",
-      "description": "Component of the Crafting CPU which provides 65,536 bytes of storage for crafting.",
+      "description": "Component of the crafting CPU which provides 65,536 bytes of storage for crafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121943,7 +121943,7 @@
     {
       "questID": 1258,
       "name": "Wireless Booster",
-      "description": "The Wireless Boosteris used to increase the range of the ME Wireless Access Point.",
+      "description": "The wireless booster is used to increase the range of the ME wireless access point.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122026,7 +122026,7 @@
     {
       "questID": 1259,
       "name": "Filling Tanks",
-      "description": "Export Bus for Fluids only.",
+      "description": "Export bus for fluids only.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122109,7 +122109,7 @@
     {
       "questID": 1260,
       "name": "Crafting Monitor",
-      "description": "Component of the Crafting CPU which displays the top level job and its current progress so you can monitor at a glance how your crafting jobs are progressing.",
+      "description": "Component of the crafting CPU which displays the top level job and its current progress so you can monitor at a glance how your crafting jobs are progressing.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122192,7 +122192,7 @@
     {
       "questID": 1261,
       "name": "Nano Processor Mainframe",
-      "description": "The Nano Processor Mainframe is the cheapest LuV Circuit.\nA cleanroom is needed.",
+      "description": "The nano processor mainframe is the cheapest LuV Circuit.\nA cleanroom is required.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -122326,7 +122326,7 @@
     {
       "questID": 1262,
       "name": "Battery Buffer x9",
-      "description": "EV Battery buffer for up to nine batteries.",
+      "description": "EV battery buffer for up to nine batteries.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122415,7 +122415,7 @@
     {
       "questID": 1263,
       "name": "Blue Steel",
-      "description": "Your sunnarium Batteries are made out of blue steel a mixture out of steel, black steel, brass and rose gold.",
+      "description": "Your sunnarium batteries are made out of blue steel; a mixture of steel, black steel, brass and rose gold.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122531,7 +122531,7 @@
     {
       "questID": 1264,
       "name": "EV Sunnarium Battery",
-      "description": "Your fist EV sunnarium battery used in EV Tier. You make it with the sunnarium you generate before.",
+      "description": "Your fist EV sunnarium battery used in EV tier. You make it with the sunnarium you generated before.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122665,7 +122665,7 @@
     {
       "questID": 1265,
       "name": "EV GT++ Batteries",
-      "description": "A cheaper variant is the GT++ Ev battery.",
+      "description": "A cheaper variant is the GT++ EV battery.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122801,8 +122801,8 @@
     },
     {
       "questID": 1266,
-      "name": "Transformator LV-MV",
-      "description": "It\u0027s possible to run mv machines still in LV age. Build a Transformer and using 4 powersourches 32eu/t to power one 128 eu/t  machine. You can change the mode with a soft Mallet. If the Transformer is wired and loadeddoes not change the mode otherwise there is a big explosion.",
+      "name": "Transformer LV-MV",
+      "description": "It\u0027s possible to run MV machines while still in LV age. Build a transformer and use 4 power sources 32 eu/t to power one 128 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then do NOT! change the mode otherwise there probably will be a big explosion.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122872,8 +122872,8 @@
     },
     {
       "questID": 1267,
-      "name": "Transformator MV-HV",
-      "description": "It\u0027s possible to run HV machines still in MV age. Build a Transformer and using 4 powersourches 128eu/t to power one 512 eu/t  machine. You can change the mode with a soft Mallet. If the Transformer is wired and loadeddoes not change the mode otherwise there is a big explosion.",
+      "name": "Transformer MV-HV",
+      "description": "It\u0027s possible to run HV machines while still in MV age. Build a transformer and use 4 power sources 128 eu/t to power one 512 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then do NOT! change the mode otherwise there probably will be a big explosion.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -122944,8 +122944,8 @@
     },
     {
       "questID": 1268,
-      "name": "Transformator MV-HV High Amp",
-      "description": "If you need a Tranformer with more then 4 Ampere you need a high Amp Transformer. You can put in four 128 eu/t powersources and get out 16 ampere at 32eu/t.\nModes can be changed with a soft mallet.",
+      "name": "Transformer MV-HV High Amp",
+      "description": "If you need a transformer with more than 4 Ampere you need a high amp transformer. You can input four 128 eu/t power sources and output 16 ampere at 32 eu/t.\nModes can be changed with a soft mallet.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123016,7 +123016,7 @@
     {
       "questID": 1269,
       "name": "Transformator MV-HV High Amp",
-      "description": "If you need even more the craft a power Tranformer with max 64 amps. You can put in sixthen 128 eu/t powersources and get out 64 ampere at 32eu/t. Modes can be changed with a soft mallet.",
+      "description": "If you need even more then craft a power tranformer with max 64 amps. You can input sixteen 128 eu/t power sources and output 64 ampere at 32 eu/t. Modes can be changed with a soft mallet.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123087,7 +123087,7 @@
     {
       "questID": 1290,
       "name": "Imma chargin\u0027 my...",
-      "description": "Charged Certus Quarts one of the basic components for a lot of AE recipes. Just mixe some certusquartz and redstone dust to get charged certusquartz dust.\nIn the Autoclave you can make crystals.",
+      "description": "Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.\nUse the autoclave to make crystals.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123206,7 +123206,7 @@
     {
       "questID": 1291,
       "name": "Keeping your Network Happy",
-      "description": "Helps with Fluctuating Power. Energy Cells store up to 200,000 AE. They do not accept power directly but are used to add additional power storage to an already existing ME Network.",
+      "description": "Helps with fluctuating power. Energy cells store up to 200,000 AE. They do not accept power directly but are used to buffer some power in an already existing ME network.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123294,7 +123294,7 @@
     {
       "questID": 1292,
       "name": "Storing your ME data",
-      "description": "A block designed to do one thing, store Storage Cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space.ME Drives show their contents and the storage cell status on the front of the drive face.Red - Indicates the Storage Cell is Full.Orange - Indicates the Storage Cell cannot hold any more types, but it can store more items.Green - Indicates the cell can hold more types, or more items.Black - Indicates there is no channel, or power is offline.Its important to note, that without a ME Network this block does nothing. Its only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each Storage Cell stored inside it.The ME Drive requires a channel to function.",
+      "description": "A block designed to do one thing, store storage cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space. ME drives show their contents and the storage cell status on the front of the drive face. Red - Indicates the storage cell is full. Orange - Indicates the storage cell cannot hold any more types, but it can store more items. Green - Indicates the cell can hold more types, or more items. Black - Indicates there is no channel, or power is offline. It\u0027s important to note, that without an ME Network this block does nothing. It\u0027s only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each storage cell stored inside it. The ME drive requires a channel to function.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123378,7 +123378,7 @@
     {
       "questID": 1293,
       "name": "Safety first!",
-      "description": "This Storage Cell Housing is blast proof and store only 3 cells.",
+      "description": "This storage cell housing is blast proof and stores only 3 cells.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123461,7 +123461,7 @@
     {
       "questID": 1294,
       "name": "Speeding up growth",
-      "description": "Used to accelerate the process of purifying crystals, which allows you to create Pure Certus Quartz Crystal, Pure Nether Quartz Crystal and Pure Fluix Crystal.Must be powered by an ME Network via the top or bottom, and consumes a steady 8 ae/t while plugged in. Crystal Seeds must be in an adjacent water block to be effected, the seeds will shimmer more rapidly when in the presence of a powered Crystal Growth Accelerator.Can only connect to cables, or other networked machines on the top and bottom of the machine.",
+      "description": "Used to accelerate the process of purifying crystals, which allows you to create pure certus quartz crystal, pure nether quartz crystal and pure fluix crystal. Must be powered by an ME Network via the top or bottom, and consumes a steady 8 ae/t while plugged in. Crystal Seeds must be in an adjacent water block to be effected, the seeds will shimmer more rapidly when in the presence of a powered crystal growth accelerator. Can only connect to cables, or other networked machines on the top and bottom of the machine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123559,7 +123559,7 @@
     {
       "questID": 1295,
       "name": "Perfecting Crystal Growth",
-      "description": "The Crystal Growth Chamber is used for fast crystal growth, and it is possible to increase its speed by installing an Acceleration Card in an upgrade slot.",
+      "description": "The crystal growth chamber is used for fast crystal growth, and it is possible to increase its speed by installing an acceleration card in an upgrade slot.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123657,7 +123657,7 @@
     {
       "questID": 1296,
       "name": "Purifying the impure",
-      "description": "Purified version of Nether, Certus and Fluix Crystal",
+      "description": "Purified version of nether, certus and fluix crystal",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123821,7 +123821,7 @@
     {
       "questID": 1298,
       "name": "Wireless Setup",
-      "description": "Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.\n\nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security.\n\nThe player who places the ME Security Terminal has full control over the network and cannot exclude himself any rights. By adding a blank Biometric Card you define a default behavior for every player who has no own Biometric Card registered.\n\nOther than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly.\n\n\nAllows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point.A network can have any number of ME Wireless Access Point with any number of Wireless Boosters in each one, allowing you to optimize power usage and range by altering your setup.Requires a channel to be operational.",
+      "description": "Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.\n\nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides network level security.\n\nThe player who places the ME security terminal has full control over the network and cannot exclude himself any rights. By adding a blank biometric card you define a default behavior for every player who has no own biometric card registered.\n\nOther than adding security on software layer, you can link up your wireless terminal with the network and access it wirelessly.\n\n\nAllows wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless boosters installed into the ME wireless access point. A network can have any number of ME wireless access point with any number of wireless boosters in each one, allowing you to optimize power usage and range by altering your setup. Requires a channel to be operational.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123918,7 +123918,7 @@
     {
       "questID": 1299,
       "name": "Dense boyes",
-      "description": "Giving your network even more stability. Dense Energy Cells store AE energy up to 1.6 million units. They do not accept power directly but are used to add additional power storage to an already existing ME Network.",
+      "description": "Giving your network even more stability. Dense energy cells store AE energy up to 1.6 million units. They do not accept power directly but are used to buffer power in an already existing ME Network.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124006,7 +124006,7 @@
     {
       "questID": 1300,
       "name": "ME in the Ether",
-      "description": "After you linked up the Wireless Terminal in the ME Security Terminal, it grants a portable access to the ME Network. Put it into a Charger to recharge it.\n\nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME Wireless Access Point.",
+      "description": "After you linked up the wireless terminal in the ME security terminal, it grants a portable access to the ME network. Put it into a charger to recharge it.\n\nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME wireless access point.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124095,7 +124095,7 @@
     {
       "questID": 1301,
       "name": "Annihilation and Formation",
-      "description": "Formation Core a component which can convert energy back into matter.\nAnnihilation Core a component which can convert matter into energy.\nGates all network I/O",
+      "description": "Formation Core - a component which can convert energy back into matter.\nAnnihilation Core - a component which can convert matter into energy.\nGates all network I/O.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124184,7 +124184,7 @@
     {
       "questID": 1302,
       "name": "Interfacing with Machines",
-      "description": "The ME Interface is the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface.The ME Interface acts as an in between when working with pipes, tubes, networks, or machines from other mods.",
+      "description": "The ME Interface is the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface. The ME Interface acts as an in between when working with pipes, tubes, networks, or machines from other mods.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124273,7 +124273,7 @@
     {
       "questID": 1303,
       "name": "Interfacing with Inventories",
-      "description": "The ME Storage Bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.\n\nThe storage via the ME Storage Bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME Storage Bus has its required channel.\n\nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.\n\nThe Storage Bus will function with nearly any inventory block, including ME Interface, Minefactory Reloaded DSUs, Factorization Barrels, JABBA Barrels, and Better Storage Crates. They can also be used to route items passivly into Buildcraft Pipes.\n\nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.",
+      "description": "The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.\n\nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.\n\nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.\n\nThe storage bus will function with nearly any inventory block, including ME Interface, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.\n\nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124356,7 +124356,7 @@
     {
       "questID": 1304,
       "name": "Interfacing with Tanks",
-      "description": "Storage Bus for Fluids only.",
+      "description": "Storage bus for fluids only.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124439,7 +124439,7 @@
     {
       "questID": 1305,
       "name": "For Fluid Recipes",
-      "description": "Me Interface fur Fluids only.",
+      "description": "Me interface for fluids only.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124521,8 +124521,8 @@
     },
     {
       "questID": 1306,
-      "name": "Putting Items into Machines",
-      "description": "The ME Export Bus extracts items from the ME Network\u0027s Networked Storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME Export Bus will try to export any of the items on its list skipping over those it cannot fit into the destination. The ME Export Bus requires a channel to function.This is the functional opposite of the ME Import Bus.",
+      "name": "Extracting Items From the Network",
+      "description": "The ME export bus extracts items from the ME network\u0027s networked storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME export bus will try to export any of the items on its list skipping over those it cannot fit into the destination. The ME export bus requires a channel to function. This is the functional opposite of the ME import bus.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124604,8 +124604,8 @@
     },
     {
       "questID": 1308,
-      "name": "Taking Items out of Machines",
-      "description": "Pulls items from the inventory it is pointed at and places them into the ME Network\u0027s Networked Storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The ME Import Bus will attempt to import any possible options, even if 1 or more of the configured items cannot be stored. The ME Import Bus requires a channel to function.This is the functional opposite of the ME Export Bus.",
+      "name": "Inserting Items Into the Network",
+      "description": "Pulls items from the inventory it is pointed at and places them into the ME network\u0027s networked storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The ME import bus will attempt to import any possible options, even if 1 or more of the configured items cannot be stored. The ME import bus requires a channel to function. This is the functional opposite of the ME export bus.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124819,7 +124819,7 @@
     {
       "questID": 1311,
       "name": "Tier 1 Storage",
-      "description": "The Main Processor for 1K and 4K Cells.",
+      "description": "The main processor for 1K and 4K cells.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124902,7 +124902,7 @@
     {
       "questID": 1312,
       "name": "Automating Crafting",
-      "description": "Is a component of the Crafting CPU. This particular block provides the CPU with no additional features, but can be used as a \"filler\" block and as a crafting ingredient for the following,",
+      "description": "Is a component of the crafting CPU. This particular block provides the CPU with no additional features, but can be used as a \"filler\" block and as a crafting ingredient for the crafting storage, monitor and co-processing units.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124985,7 +124985,7 @@
     {
       "questID": 1313,
       "name": "1k Item Storage Cell",
-      "description": "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage.1,024 bytes of storage can hold 127 Stacks of a single item. or 65 Stacks,while holding 63 Different items.The 1k Storage Cell uses 8 bytes of data to store a single type. Click here for details on how storage math works.When placed inside a drive or chest will consume 0.5 ae/t.Must be in a ME Drive or ME Chest to be usable.You can remove the 1k ME Storage Component by fully emptying the storage cell, and sneak clicking i in your hand.The settings can be changed in the Cell Workbench.",
+      "description": "Lowest tier storage cell, which can contain 1,024 bytes of storage. 1,024 bytes of storage can hold 127 stacks of a single item, or 65 stacks, while holding 63 different items. The 1k storage cell uses 8 bytes of data to store a single type. When placed inside a drive or chest will consume 0.5 ae/t. Must be in an ME drive or ME chest to be usable. You can remove the 1k ME storage component by fully emptying the storage cell, and sneak clicking it in your hand. The settings can be changed in the cell workbench.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125071,7 +125071,7 @@
     {
       "questID": 1314,
       "name": "1k Component",
-      "description": "Smallest storage component, used to make 1k ME Storage Cell, or can be upgraded to make 4k ME Storage Component.Can be recovered from a crafted 1k ME Storage Cell by fully emptying the storage cell, and shift clicking i in your hand.",
+      "description": "Smallest storage component, used to make 1k ME storage cell, or can be upgraded to make 4k ME storage component. Can be recovered from a crafted 1k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125154,7 +125154,7 @@
     {
       "questID": 1315,
       "name": "1k Crafting Storage",
-      "description": "Component of the Crafting CPU which provides 1024 bytes of storage for crafting.",
+      "description": "Component of the crafting CPU which provides 1024 bytes of storage for crafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125238,7 +125238,7 @@
     {
       "questID": 1316,
       "name": "4k Item Storage Cell",
-      "description": "Lowest Tier Storage Cell, which can contain 4,096 bytes of storage.4,096 bytes of storage can hold 508 Stacks of a single item. or 260 Stacks,while holding 63 Different items.The 4k Storage Cell uses 32 bytes of data to store a single type. Click here for details on how storage math works.When placed inside a drive or chest will consume 1.0 ae/t.Must be in a ME Drive or ME Chest to be usable.You can remove the 4k ME Storage Component by fully emptying the storage cell, and sneak clicking i in your hand.",
+      "description": "Second tier storage cell, which can contain 4,096 bytes of storage. 4,096 bytes of storage can hold 508 stacks of a single item, or 260 stacks, while holding 63 different items. The 4k storage cell uses 32 bytes of data to store a single type. When placed inside a drive or chest will consume 1.0 ae/t. Must be in an ME drive or ME chest to be usable. You can remove the 4k ME storage component by fully emptying the storage cell, and sneak clicking it in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125324,7 +125324,7 @@
     {
       "questID": 1317,
       "name": "4k Component",
-      "description": "Second smallest storage component, used to make 4k ME Storage Cell, or can be upgraded to make 16k ME Storage Component.Can be recovered from a crafted 4k ME Storage Cell by fully emptying the storage cell, and shift clicking i in your hand.",
+      "description": "Second smallest storage component, used to make 4k ME storage cell, or can be upgraded to make 16k ME storage component. Can be recovered from a crafted 4k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125407,7 +125407,7 @@
     {
       "questID": 1318,
       "name": "4k Crafting Storage",
-      "description": "Component of the Crafting CPU which provides 4,096 bytes of storage for crafting.",
+      "description": "Component of the crafting CPU which provides 4,096 bytes of storage for crafting.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125491,7 +125491,7 @@
     {
       "questID": 1319,
       "name": "Tier 2 Storage",
-      "description": "The Main Processor for 16k and 64k cells.",
+      "description": "The main processor for 16k and 64k cells.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125574,7 +125574,7 @@
     {
       "questID": 1326,
       "name": "Co-Processing",
-      "description": "Component of the Crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
+      "description": "Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125657,7 +125657,7 @@
     {
       "questID": 1327,
       "name": "Recipe Patterns",
-      "description": "A blank pattern, once encoded as an Encoded Pattern, is used to control crafting by inserting them into Molecular Assemblers and ME Interfaces.",
+      "description": "A blank pattern, once encoded as an encoded pattern, is used to control crafting by inserting them into molecular assemblers and ME interfaces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125740,7 +125740,7 @@
     {
       "questID": 1328,
       "name": "Pattern Terminal",
-      "description": "A specialized version of the ME Crafting Terminal designed to encode Blank Patterns into Encoded Pattern.\n\nLets you browse the contents of your network like other terminals, but also contains a area for designing patterns. There are two modes for pattern encoding. Crafting Patterns, and Processing Patterns. Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furances, or other machines. To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create Crafting Patterns, and when it shows a furnace, it will create Processing Patterns.\n\nFor Crafting Patterns (\"Crafts...\"), you specify the input crafting materials on a standard 3x3 crafting grid, and the output materials are determined automatically.\n\nFor Processing Patterns (\"Creates...\"), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface. If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a Processing Pattern.\n\nWhen designing crafting patterns you can click the output to extract a crafted item as long as you have the materials required to craft the item.\nDon\u0027t forget to enable oredict substitution",
+      "description": "A specialized version of the ME crafting terminal designed to encode blank patterns into encoded patterns.\n\nLets you browse the contents of your network like other terminals, but also contains a area for designing patterns. There are two modes for pattern encoding. Crafting patterns, and processing patterns. Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furnaces, or other machines. To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create crafting patterns, and when it shows a furnace, it will create processing patterns.\n\nFor crafting patterns (\"Crafts...\"), you specify the input crafting materials on a standard 3x3 crafting grid, and the output materials are determined automatically.\n\nFor processing patterns (\"Creates...\"), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface. If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a processing pattern.\n\nWhen designing crafting patterns you can click the output to extract a crafted item as long as you have the materials required to craft the item.\nDon\u0027t forget to enable oredict substitution where needed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125823,7 +125823,7 @@
     {
       "questID": 1329,
       "name": "ME in your Cleanroom",
-      "description": "Wireless Connector – close range quantum bridge alternative\nConnections are point-to-point – you can’t connect more than 2 blocks together\nEach block will use 10 + distance2 AE/t\nDoes not work across dimensions\nPower needs to be provided on only one side\nUp to 32 channels can be transferred through the connection\nCan connect directly to dense cables",
+      "description": "Wireless connector – close range quantum bridge alternative.\nConnections are point-to-point – you can\u0027t connect more than 2 blocks together. Each block will use 10 + distance2 AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125918,7 +125918,7 @@
     {
       "questID": 1330,
       "name": "Ore Dictionary Output",
-      "description": "The ME Ore Dictionary Export Bus  will attempt to push the configured Item/Fluid [From Same Ore Dictionary] from ME Network into a machine or other input inventory. To configure a Item/Liquid, Type In the Item\u0027s Name [E.g. If You want To Export all Ores Put \"ore*\"]. The rate of export is Very Fast.",
+      "description": "The ME ore dictionary export bus  will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item\u0027s name [e.g. if you want to export all ores put \"ore*\"]. The rate of export is very fast.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -126001,7 +126001,7 @@
     {
       "questID": 1331,
       "name": "To Link P2P Busses",
-      "description": "A small item, that can be used to store, copy, and paste settings. Shift + Right Click on a configurable object to save the settings onto the memory card, then right click on any other block of the same type to paste the settings.They are also used to link the input P2P Tunnel to the correct output P2P Tunnels.",
+      "description": "A small item, that can be used to store, copy, and paste settings. Shift + right click on a configurable object to save the settings onto the memory card, then right click on any other block of the same type to paste the settings. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
