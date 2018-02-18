@@ -38479,7 +38479,7 @@
     },
     {
       "questID": 452,
-      "name": "Trigger S",
+      "name": "Trigger Singularity",
       "description": "Triggered by making a singularity.",
       "isMain": false,
       "isSilent": false,
@@ -38527,7 +38527,7 @@
     },
     {
       "questID": 453,
-      "name": "Trigger Sh",
+      "name": "Trigger Shard of Creation",
       "description": "Triggered by making a \"Shard of Creation\".",
       "isMain": false,
       "isSilent": false,
@@ -38575,7 +38575,7 @@
     },
     {
       "questID": 454,
-      "name": "Trigger LSS",
+      "name": "Trigger Life and Soul Shard",
       "description": "Triggered by making a \"Life Shard\" and a \"Soul Shard\".",
       "isMain": false,
       "isSilent": false,
@@ -38629,7 +38629,7 @@
     },
     {
       "questID": 455,
-      "name": "Trigger MC",
+      "name": "Trigger Unknwon Crystal",
       "description": "Triggered by finding a \"Mysterious Crystal\".",
       "isMain": false,
       "isSilent": false,
@@ -38850,7 +38850,7 @@
     },
     {
       "questID": 457,
-      "name": "Trigger P",
+      "name": "Trigger Pluto",
       "description": "Triggers if you have been on Pluto.",
       "isMain": false,
       "isSilent": false,
@@ -38894,7 +38894,7 @@
     },
     {
       "questID": 458,
-      "name": "Trigger Pr",
+      "name": "Trigger Primordial Pearl",
       "description": "Triggered by the Primordial Pearl.",
       "isMain": false,
       "isSilent": false,
@@ -38942,7 +38942,7 @@
     },
     {
       "questID": 459,
-      "name": "Trigger Fo",
+      "name": "Trigger Wand Focus Animation",
       "description": "Triggers if you craft the Primordial Focus.",
       "isMain": false,
       "isSilent": false,
@@ -38990,7 +38990,7 @@
     },
     {
       "questID": 460,
-      "name": "Trigger V",
+      "name": "Trigger Vortex Attenuator",
       "description": "Triggers after you craft a Vortex.",
       "isMain": false,
       "isSilent": false,
@@ -39038,7 +39038,7 @@
     },
     {
       "questID": 461,
-      "name": "Trigger TE",
+      "name": "Trigger The End Dim",
       "description": "Triggers if you arrived at The End.",
       "isMain": false,
       "isSilent": false,
@@ -39082,7 +39082,7 @@
     },
     {
       "questID": 462,
-      "name": "Trigger Ca",
+      "name": "Trigger Amorphic Crystal",
       "description": "Triggers if you craft the Catalyst.",
       "isMain": false,
       "isSilent": false,
@@ -39291,7 +39291,7 @@
     },
     {
       "questID": 465,
-      "name": "Trigger Nt",
+      "name": "Trigger Neutronium Ore",
       "description": "Triggers if you get Neutronium Ore.",
       "isMain": false,
       "isSilent": false,
@@ -39339,7 +39339,7 @@
     },
     {
       "questID": 466,
-      "name": "Trigger BP",
+      "name": "Trigger Black Plutonium Ore",
       "description": "Triggers if you find Black Plutonium.",
       "isMain": false,
       "isSilent": false,
@@ -39387,7 +39387,7 @@
     },
     {
       "questID": 467,
-      "name": "Trigger VC",
+      "name": "Trigger Empty Void Capsule",
       "description": "Triggers if you have a Void Capsule.",
       "isMain": false,
       "isSilent": false,
@@ -39435,7 +39435,7 @@
     },
     {
       "questID": 468,
-      "name": "Trigger Tt",
+      "name": "Trigger Thuaminite Nugget",
       "description": "Triggers if you get Thaumite Nuggets.",
       "isMain": false,
       "isSilent": false,
@@ -126082,6 +126082,2667 @@
       "preRequisites": [
         183
       ]
+    },
+    {
+      "questID": 1332,
+      "name": "Compressed Solar LV",
+      "description": "»¨The power of the sun x10.»¨\n»¨»¨»≠»≠»¨»≤This solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! »ØNote: You\u0027ll need a IC2 Transformer outputting in a GT Transformer to actually recive power from this.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EMTSolars",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockGenerator",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "dreamcraft:item.ReinforcedAluminiumIronPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 21
+            },
+            {
+              "id": "IC2:blockElectric",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        62,
+        237
+      ]
+    },
+    {
+      "questID": 1333,
+      "name": "Essentia Generator: Potentia",
+      "description": "Arent you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs IC2EU.\n»ØNote: IC2EU must be converted via a IC2-Transfomer Outputting into a Gregtech transformer to actually use it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EssentiaGenerators",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EssentiaGenerators",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "potentia"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "Thaumcraft:FocusTrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemBatCrystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32681
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        789,
+        240,
+        238
+      ]
+    },
+    {
+      "questID": 1334,
+      "name": "Essentia Generator: Auram",
+      "description": "This Generator is quite tricky. It requieres Auram Essentia, that isn\u0027t that common, but its output is nice.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EssentiaGenerators",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EssentiaGenerators",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "auram"
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1333
+      ]
+    },
+    {
+      "questID": 1335,
+      "name": "Infused Solars",
+      "description": "Compressed Solar Panels can be infused with Aspects for certain additional features. Check them out and choose one of them.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "OR",
+      "icon": {
+        "id": "EMT:EMTSolars2",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:BlockJarFilledItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        241,
+        1332
+      ]
+    },
+    {
+      "questID": 1336,
+      "name": "Double Compressed Solar",
+      "description": "100EU/t for 72x1EU/t Solars? Sounds like a good deal. Get one of these. They can be Infused aswell.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EMTSolars",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockGenerator",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1332,
+        261
+      ]
+    },
+    {
+      "questID": 1337,
+      "name": "Even more Infused",
+      "description": "You can infuse double or triplecompressed solars aswell.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EMTSolars",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        1335,
+        1336
+      ]
+    },
+    {
+      "questID": 1338,
+      "name": "Full power",
+      "description": "Triple Compressed Solars. Yes, thats right. They are a bit more expensive than their lower counterparts, 576 Solars in total. But they give out 1.000IC2EU per tick and have no  need to be cleaned due to their inner magic. How so? Magic.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EMTSolars",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "EMT:EMTSolars",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "EMT:EMTSolars2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EMT:EMTSolars2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1336
+      ]
+    },
+    {
+      "questID": 1339,
+      "name": "Essentia Generator: Ignis",
+      "description": "So, you got rid of the Potentia, maybe you don\u0027t want Ignis, but Potentia? Get this one to be able to burn Ignis.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EssentiaGenerators",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EssentiaGenerators",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "ignis"
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1333
+      ]
+    },
+    {
+      "questID": 1340,
+      "name": "Essentia Generator: Arbor",
+      "description": "When it comes to getting Precantatio Essentia, you\u0027ll end up with a couple dozends of Arbor Essentia jars.  But no worries! This generator runs on Arbor! Awesome!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EssentiaGenerators",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EssentiaGenerators",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "arbor"
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1333
+      ]
+    },
+    {
+      "questID": 1341,
+      "name": "Essentia Generator: Aer",
+      "description": "Sugarcanes to power...? This generator runs on Aer Essentia, it might not be as powerfull as it\u0027s counterparts, but it\u0027s fuel is cheap.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EssentiaGenerators",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EssentiaGenerators",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "aer"
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1333
+      ]
+    },
+    {
+      "questID": 1342,
+      "name": "Essentia Generator: Lucrum",
+      "description": "This highly-warped-high-power Essentia generator is a lifesaver, when you run out of energy. Just toss some gold into your Arcane Furnace and burn the Lucrum you got.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EssentiaGenerators",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EssentiaGenerators",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:ItemEssence",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Aspects:9": [
+                  {
+                    "amount:4": 8,
+                    "key:8": "lucrum"
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1333
+      ]
+    },
+    {
+      "questID": 1343,
+      "name": "Works like in anime!",
+      "description": "You want to fly. Badly. So go and ductape wings!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:FeatherWing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:FeatherWing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        645,
+        230
+      ]
+    },
+    {
+      "questID": 1344,
+      "name": "Angle Wings",
+      "description": "Since you have access to better materials than cardboard now, you wanted to make wings. Angle wings.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:ThaumiumWing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:ThaumiumWing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1343,
+        1177
+      ]
+    },
+    {
+      "questID": 1345,
+      "name": "Secret-Angle-Assasin",
+      "description": "Infusing your Wings with Nano-Technologies seems to be the next step, to further improofe them and combine magic and technology.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:NanosuitWing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 1000000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:NanosuitWing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemPartCarbonPlate",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1344,
+        779
+      ]
+    },
+    {
+      "questID": 1346,
+      "name": "Dropped in Asgard, fallen to earth",
+      "description": "You\u0027ve heared rumors of a mighty weapon, dropped in Asgard and fallen to earth. Could this be the mystical Item?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:TaintedMjolnir",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:TaintedMjolnir",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1364
+      ]
+    },
+    {
+      "questID": 1347,
+      "name": "Repaired it!",
+      "description": "Sadly enough, the hammer was broken. But you have the skills and the knowledge to repair it, don\u0027t you?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:Mjolnir",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTItems",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "Thaumcraft:FocusShock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemSwordElemental",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemBatCrystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 17880
+            },
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:Mjolnir",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1346,
+        1361,
+        238
+      ]
+    },
+    {
+      "questID": 1348,
+      "name": "Super-Mjollnir",
+      "description": "Addidional twerks to your Mjollnir have changed it. Now you can summon Guardian Snowman to help you out!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:SuperchargedMjolnir",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 2000000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:SuperchargedMjolnir",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1347
+      ]
+    },
+    {
+      "questID": 1349,
+      "name": "Electrogoggles",
+      "description": "As you wander with your Goggles of Revealing you noticed that they tend to break easy. So craft yourself some electric ones that just need to be charged again!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:ElectricGogglesRevealing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 100000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:ElectricGogglesRevealing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 165
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        226
+      ]
+    },
+    {
+      "questID": 1350,
+      "name": "Nano Goggles",
+      "description": "The #1 product for spys and wanna-be-spys. Nano-Goggles. Don\u0027t you want one of these too? But they are sold out? Craft some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:NanosuitGogglesRevealing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 1000000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:NanosuitGogglesRevealing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1349,
+        779
+      ]
+    },
+    {
+      "questID": 1351,
+      "name": "Quantum Goggles",
+      "description": "As you continue to progress, you notice that your black goggles don\u0027t fit to your nice white and shiny armor. You decide to get a pair of white ones.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:QuantumGogglesRevealing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 1.0E7
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:QuantumGogglesRevealing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1350,
+        803
+      ]
+    },
+    {
+      "questID": 1352,
+      "name": "Goggles \u003e 9000",
+      "description": "This special pair of goggles recharges itself while you wander in sunlight. How convinient.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:SolarHelmetRevealing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 2.0E7
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:SolarHelmetRevealing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1351,
+        1336
+      ]
+    },
+    {
+      "questID": 1353,
+      "name": "Sparking Nitor...?",
+      "description": "ßeYELLOW!ß0 What an ungly color! I want ß5PURPLE ß0Nitor! Get me some and you\u0027ll recive something nice in exchange.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:electricCloud",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:electricCloud",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:pamcandleDeco11",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:blockWoodenDevice",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "color:4": 10
+              }
+            },
+            {
+              "id": "TConstruct:slime.gel",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        255
+      ]
+    },
+    {
+      "questID": 1354,
+      "name": "Rechageable Scribing Tools",
+      "description": "Are you tired of getting all the Ink for your scribing and you don\u0027t want to use ß4your bloodß0 aswell? Get this Hi-Tech Scribing Device which will make your life much easier!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:ElectricScribingTools",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 400.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:ElectricScribingTools",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 400
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemBatCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemInkwell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        1096,
+        789
+      ]
+    },
+    {
+      "questID": 1355,
+      "name": "Angle Wings - Ultra Force!",
+      "description": "From ore to ingot, from nano to quantum, as you progress, your technology level increases, so should your wings aswell.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:QuantumWing",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 1.0E7
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:QuantumWing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemOreIridium",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1345,
+        803
+      ]
+    },
+    {
+      "questID": 1356,
+      "name": "Angle Wings - Combine!",
+      "description": "The last step is to combine the quantum armor with your quantum wings.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:itemArmorQuantumChestplate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 2.0E7
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:itemArmorQuantumChestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1355,
+        803
+      ]
+    },
+    {
+      "questID": 1357,
+      "name": "Electric Hoe-ing",
+      "description": "While the Hoe of Growth breaks easily, we have a fix for you! Get this one and simply recharge it, when it\u0027s empty.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:ElectricHoeGrowth",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "charge:6": 200000.0
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:ElectricHoeGrowth",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1561
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        238
+      ]
+    },
+    {
+      "questID": 1358,
+      "name": "EU-\u003eVIS",
+      "description": "This device allows you to charge your wands using EU, but it costs 10kEU per Vis restored.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EMTMachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTMachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 52
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1333,
+        215,
+        238
+      ]
+    },
+    {
+      "questID": 1359,
+      "name": "Press and hold the B button to block!",
+      "description": "This Focus allows you to block any incoming damage. Sneak away if you\u0027re fighting an enemy too strong for you!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:ShieldFocus",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:ShieldFocus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        238,
+        79
+      ]
+    },
+    {
+      "questID": 1360,
+      "name": "Reactor Shielding 2.0",
+      "description": "Shield Blocks - explosionproof - single use. Get a couple of these to shield your reactor!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:ShieldBlock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:ShieldBlock",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:itemOreIridium",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1359
+      ]
+    },
+    {
+      "questID": 1361,
+      "name": "What the Heck...?",
+      "description": "You found a yellow-ish glowing ball. It might be usefull later on.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:EMTItems",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTItems",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1365
+      ]
+    },
+    {
+      "questID": 1362,
+      "name": "The One Ring.",
+      "description": "So you found it. The One Ring, forged by a mighty Dark Wizzard. A strange feeling tells you to put it on. The Ring seems to whisper to you aswell...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EMT:BaseBaubles",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:BaseBaubles",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1363
+      ]
+    },
+    {
+      "questID": 1363,
+      "name": "Trigger:Ring",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": true,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:BaseBaubles",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1364,
+      "name": "Trigger:Mjoellnir",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": true,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:TaintedMjolnir",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1365,
+      "name": "Trigger:Ballthingy",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": true,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:lever",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EMT:EMTItems",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
     }
   ],
   "questLines": [
@@ -126228,6 +128889,21 @@
           "id": 1204,
           "x": 108,
           "y": 36
+        },
+        {
+          "id": 1363,
+          "x": 0,
+          "y": 66
+        },
+        {
+          "id": 1364,
+          "x": 0,
+          "y": 90
+        },
+        {
+          "id": 1365,
+          "x": 0,
+          "y": 114
         }
       ]
     },
@@ -130457,6 +133133,167 @@
       ]
     },
     {
+      "name": "Electro Magic",
+      "description": "This Tab focus on Electro Magic Tools and Thaumic Energistics. These are some nice mods, that will help you with machinery and magic.",
+      "quests": [
+        {
+          "id": 1332,
+          "x": 42,
+          "y": 42
+        },
+        {
+          "id": 1333,
+          "x": 210,
+          "y": 42
+        },
+        {
+          "id": 1334,
+          "x": 252,
+          "y": 42
+        },
+        {
+          "id": 1335,
+          "x": 0,
+          "y": 42
+        },
+        {
+          "id": 1336,
+          "x": 42,
+          "y": 84
+        },
+        {
+          "id": 1337,
+          "x": 0,
+          "y": 84
+        },
+        {
+          "id": 1338,
+          "x": 42,
+          "y": 126
+        },
+        {
+          "id": 1339,
+          "x": 186,
+          "y": 0
+        },
+        {
+          "id": 1340,
+          "x": 168,
+          "y": 42
+        },
+        {
+          "id": 1341,
+          "x": 234,
+          "y": 0
+        },
+        {
+          "id": 1342,
+          "x": 210,
+          "y": 84
+        },
+        {
+          "id": 1343,
+          "x": 294,
+          "y": 0
+        },
+        {
+          "id": 1344,
+          "x": 294,
+          "y": 42
+        },
+        {
+          "id": 1345,
+          "x": 294,
+          "y": 84
+        },
+        {
+          "id": 1346,
+          "x": 336,
+          "y": 0
+        },
+        {
+          "id": 1347,
+          "x": 336,
+          "y": 42
+        },
+        {
+          "id": 1348,
+          "x": 336,
+          "y": 84
+        },
+        {
+          "id": 1349,
+          "x": 126,
+          "y": 0
+        },
+        {
+          "id": 1350,
+          "x": 126,
+          "y": 42
+        },
+        {
+          "id": 1351,
+          "x": 126,
+          "y": 84
+        },
+        {
+          "id": 1352,
+          "x": 84,
+          "y": 84
+        },
+        {
+          "id": 1353,
+          "x": 42,
+          "y": 0
+        },
+        {
+          "id": 1354,
+          "x": 84,
+          "y": 0
+        },
+        {
+          "id": 1355,
+          "x": 294,
+          "y": 126
+        },
+        {
+          "id": 1356,
+          "x": 294,
+          "y": 168
+        },
+        {
+          "id": 1357,
+          "x": 84,
+          "y": 42
+        },
+        {
+          "id": 1358,
+          "x": 168,
+          "y": 84
+        },
+        {
+          "id": 1359,
+          "x": 168,
+          "y": 126
+        },
+        {
+          "id": 1360,
+          "x": 210,
+          "y": 126
+        },
+        {
+          "id": 1361,
+          "x": 378,
+          "y": 0
+        },
+        {
+          "id": 1362,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
       "name": "Multiblock Goals",
       "description": "This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier.",
       "quests": [
@@ -131553,88 +134390,68 @@
       "quests": [
         {
           "id": 308,
-          "x": 240,
-          "y": 64
+          "x": 252,
+          "y": 72
         },
         {
           "id": 351,
           "x": 0,
-          "y": 0
+          "y": 72
         },
         {
           "id": 352,
-          "x": 0,
-          "y": 64
+          "x": 48,
+          "y": 72
         },
         {
           "id": 353,
-          "x": 48,
+          "x": 108,
           "y": 0
         },
         {
           "id": 354,
-          "x": 112,
+          "x": 144,
           "y": 0
         },
         {
           "id": 355,
-          "x": 48,
-          "y": 32
+          "x": 96,
+          "y": 36
         },
         {
           "id": 356,
-          "x": 112,
-          "y": 32
+          "x": 156,
+          "y": 36
         },
         {
           "id": 357,
-          "x": 48,
-          "y": 64
+          "x": 96,
+          "y": 72
         },
         {
           "id": 358,
-          "x": 48,
-          "y": 96
+          "x": 96,
+          "y": 108
         },
         {
           "id": 359,
-          "x": 112,
-          "y": 96
+          "x": 156,
+          "y": 108
         },
         {
           "id": 360,
-          "x": 48,
-          "y": 128
+          "x": 108,
+          "y": 144
         },
         {
           "id": 361,
-          "x": 112,
-          "y": 128
+          "x": 144,
+          "y": 144
         },
         {
           "id": 350,
-          "x": 176,
-          "y": 64
-        },
-        {
-          "id": 452,
-          "x": 80,
-          "y": 0
-        },
-        {
-          "id": 453,
-          "x": 80,
-          "y": 32
-        },
-        {
-          "id": 454,
-          "x": 80,
-          "y": 96
-        },
-        {
-          "id": 455,
-          "x": 80,
-          "y": 128
+          "x": 204,
+          "y": 72
         }
       ]
     },
@@ -131823,59 +134640,9 @@
           "y": 128
         },
         {
-          "id": 457,
-          "x": 160,
-          "y": 0
-        },
-        {
-          "id": 458,
-          "x": 320,
-          "y": 0
-        },
-        {
-          "id": 459,
-          "x": 416,
-          "y": 32
-        },
-        {
-          "id": 460,
-          "x": 256,
-          "y": 96
-        },
-        {
-          "id": 461,
-          "x": 160,
-          "y": 96
-        },
-        {
-          "id": 462,
-          "x": 96,
-          "y": 128
-        },
-        {
           "id": 464,
           "x": 0,
           "y": 0
-        },
-        {
-          "id": 465,
-          "x": 96,
-          "y": 0
-        },
-        {
-          "id": 466,
-          "x": 192,
-          "y": 0
-        },
-        {
-          "id": 467,
-          "x": 128,
-          "y": 128
-        },
-        {
-          "id": 468,
-          "x": 192,
-          "y": 96
         }
       ]
     },
