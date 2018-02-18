@@ -118464,7 +118464,7 @@
     {
       "questID": 1224,
       "name": "Epoxid",
-      "description": "An EV Circuit Assembler need IV Circuits to craft. With this Assembler you can make a lot more high tier circuits.",
+      "description": "Epoxid is needed for your advanced Circuits boards. You need Sodiumhydroxide, Epichlorohydrine and Bispenol A to make it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121441,7 +121441,7 @@
     },
     {
       "questID": 1252,
-      "name": "EV Chemical Bath",
+      "name": "Chemical Bath",
       "description": "An HV chemical bath is needed for the quantum eye.",
       "isMain": true,
       "isSilent": false,
