@@ -126086,7 +126086,7 @@
     {
       "questID": 1332,
       "name": "Compressed Solar LV",
-      "description": "ȬThe power of the sun x10.Ȭ\nȬȬȭȭȬȲThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! ȯNote: You\u0027ll need a IC2 Transformer outputting in a GT Transformer to actually recive power from this.",
+      "description": "�lThe power of the sun x10.�rThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! �oNote: You\u0027ll need a IC2 Transformer outputting in a GT Transformer to actually recive power from this.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -126195,7 +126195,7 @@
     {
       "questID": 1333,
       "name": "Essentia Generator: Potentia",
-      "description": "Arent you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs IC2EU.\nȯNote: IC2EU must be converted via a IC2-Transfomer Outputting into a Gregtech transformer to actually use it.",
+      "description": "Arent you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs IC2EU.\n�oNote: IC2EU must be converted via a IC2-Transfomer Outputting into a Gregtech transformer to actually use it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
