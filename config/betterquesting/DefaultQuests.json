@@ -109757,7 +109757,7 @@
             {
               "id": "IC2:itemPartCircuitAdv",
               "Count": 2,
-              "OreDict": "circuitAdvanced",
+              "OreDict": "",
               "Damage": 0
             }
           ],
@@ -109879,7 +109879,7 @@
             {
               "id": "IC2:itemPartCircuitAdv",
               "Count": 2,
-              "OreDict": "circuitAdvanced",
+              "OreDict": "",
               "Damage": 0
             }
           ],
@@ -123085,6 +123085,1248 @@
       ]
     },
     {
+      "questID": 1270,
+      "name": "Time for a Spade",
+      "description": "Having Weeding Trowel, Hoe and Shovel in Inventroy seems to be painful when dealing with crops. Get the Spade, that combines these Items, it\u0027s unbreakable andhighers the chanche of getting seeds from plants.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "berriespp:itemSpade",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "berriespp:itemSpade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "berriespp",
+                "name:8": "White Stonelilly",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "berriespp",
+                "name:8": "Nether Stonelilly",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "berriespp",
+                "name:8": "Black Stonelilly",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "berriespp",
+                "name:8": "Red Stonelilly",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "berriespp",
+                "name:8": "Gray Stonelilly",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "berriespp",
+                "name:8": "Goldfish Plant",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        724,
+        1271
+      ]
+    },
+    {
+      "questID": 1271,
+      "name": "Plate Bending HV",
+      "description": "This Plate Bending Machine allows you to directly make double, triple or more compressed plates, which might be useful for your first rocket.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 223
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 223
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemDensePlates",
+              "Count": 3,
+              "OreDict": "plateDenseSteel",
+              "Damage": 5
+            },
+            {
+              "id": "IC2:itemPartCircuitAdv",
+              "Count": 2,
+              "OreDict": "circuitAdvanced",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1231
+      ]
+    },
+    {
+      "questID": 1272,
+      "name": "Wheaty juice",
+      "description": "The first step to brew beer or other alcoholic fluids is wheaty juice.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.02",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32115
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32115
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            },
+            {
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        634,
+        1273
+      ]
+    },
+    {
+      "questID": 1273,
+      "name": "Brewing, the Industrial Way",
+      "description": "If you want brews or alcohol, i recommend you to build one of these.You might have notice that you can not build a brewing stand without Thaumcraft. But fear not, you can still find them in chests.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 491
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 491
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        93
+      ]
+    },
+    {
+      "questID": 1274,
+      "name": "Ferment your brew!",
+      "description": "What\u0027s better than lame brews? Alcoholic brews! Get one of these to make beer, rum or even vodka.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 501
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 501
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "berriespp:BppPotions",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1273
+      ]
+    },
+    {
+      "questID": 1275,
+      "name": "Fake Jägermeister",
+      "description": "Jägermeister is a common drink in germany, why don\u0027t you grab a bottle? This one does seems to be a cheap fake tho...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "berriespp:BppPotions",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 9
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "berriespp:BppPotions",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dreamcraft:item.CoinCookII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1278
+      ]
+    },
+    {
+      "questID": 1276,
+      "name": "Korn and Doppelkorn",
+      "description": "Korn is german for wheat. That\u0027s why this special alcoholic brew is called like this. Doppelkorn means double-wheat.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "berriespp:BppPotions",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "berriespp:BppPotions",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "berriespp:BppPotions",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            },
+            {
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1272,
+        547
+      ]
+    },
+    {
+      "questID": 1277,
+      "name": "Sugarcanes",
+      "description": "Sugarcanes are a source of sugar, and therefore alcohol. If you want some rum or sugar, you\u0027ll need these.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:reeds",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:reeds",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        19
+      ]
+    },
+    {
+      "questID": 1278,
+      "name": "Vodka",
+      "description": "Vodka is russian for \"small Water\". It is a rather high proof alcoholic fluid.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.02",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32105
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32105
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1272,
+        893
+      ]
+    },
+    {
+      "questID": 1280,
+      "name": "The industrial way",
+      "description": "Making rum can be automated, but you need to follow this industrial way for it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "berriespp:BppPotions",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32109
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "consume": false,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "potion.freed",
+              "Amount": 1000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        },
+        {
+          "consume": false,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "potion.swhine",
+              "Amount": 1000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            },
+            {
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1277,
+        1274
+      ]
+    },
+    {
+      "questID": 1281,
+      "name": "Rum",
+      "description": "Rum. Yummy!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.02",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32110
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32110
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            },
+            {
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1280,
+        1285
+      ]
+    },
+    {
+      "questID": 1282,
+      "name": "The gathering: Sugar",
+      "description": "Stockpileing Sugar might be a good idea. Or not?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:sugar",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sugar",
+              "Count": 256,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:caramelappleItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1277,
+        1283
+      ]
+    },
+    {
+      "questID": 1283,
+      "name": "Honey for sugar.",
+      "description": "Since honey contains a lot of sugar, it might be a good idea to get some honey.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "OR",
+      "icon": {
+        "id": "BiomesOPlenty:jarFilled",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "consume": false,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "for.honey",
+              "Amount": 1000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        },
+        {
+          "consume": true,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "honey",
+              "Amount": 1000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:honeyedSlice",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        502,
+        994,
+        1284
+      ]
+    },
+    {
+      "questID": 1284,
+      "name": "Whisps honey",
+      "description": "Giant whisps can be found in the Nether, quick! Sneak into their hive and steal some honey!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BiomesOPlenty:hive",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "consume": false,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "honey",
+              "Amount": 5000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        479
+      ]
+    },
+    {
+      "questID": 1285,
+      "name": "Non-Industrial Rum",
+      "description": "Brewing rum is not an industrial task. It only requiers a barrel and some sugarcanes.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemBarrel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBarrel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:blockScaffold",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemTreetap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:reeds",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemMugEmpty",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1277
+      ]
+    },
+    {
+      "questID": 1288,
+      "name": "Hops, the source of beer",
+      "description": "If you don\u0027t want pure alcohol, but beer, get some hops by crossbreeding IC² crops.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemHops",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemHops",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmerI",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 35
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        721
+      ]
+    },
+    {
       "questID": 1290,
       "name": "Imma chargin\u0027 my...",
       "description": "Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.\nUse the autoclave to make crystals.",
@@ -130055,7 +131297,7 @@
         },
         {
           "id": 771,
-          "x": 168,
+          "x": 180,
           "y": 216
         },
         {
@@ -130090,12 +131332,12 @@
         },
         {
           "id": 891,
-          "x": 132,
+          "x": 144,
           "y": 216
         },
         {
           "id": 892,
-          "x": 132,
+          "x": 144,
           "y": 252
         },
         {
@@ -130125,8 +131367,8 @@
         },
         {
           "id": 1092,
-          "x": 96,
-          "y": 216
+          "x": 60,
+          "y": 252
         },
         {
           "id": 1094,
@@ -130140,7 +131382,7 @@
         },
         {
           "id": 1135,
-          "x": 168,
+          "x": 216,
           "y": 252
         },
         {
@@ -130217,6 +131459,16 @@
           "id": 1266,
           "x": 204,
           "y": 60
+        },
+        {
+          "id": 1273,
+          "x": 108,
+          "y": 216
+        },
+        {
+          "id": 1274,
+          "x": 108,
+          "y": 252
         }
       ]
     },
@@ -130798,7 +132050,7 @@
         {
           "id": 162,
           "x": 240,
-          "y": 312
+          "y": 348
         },
         {
           "id": 163,
@@ -130892,8 +132144,8 @@
         },
         {
           "id": 860,
-          "x": 348,
-          "y": 348
+          "x": 342,
+          "y": 306
         },
         {
           "id": 932,
@@ -131008,12 +132260,12 @@
         {
           "id": 1011,
           "x": 288,
-          "y": 312
+          "y": 348
         },
         {
           "id": 1012,
-          "x": 348,
-          "y": 312
+          "x": 342,
+          "y": 348
         },
         {
           "id": 1014,
@@ -131149,6 +132401,11 @@
           "id": 1240,
           "x": 48,
           "y": 156
+        },
+        {
+          "id": 1271,
+          "x": 288,
+          "y": 312
         }
       ]
     },
@@ -133736,133 +134993,198 @@
         },
         {
           "id": 628,
-          "x": 324,
+          "x": 312,
           "y": 0
         },
         {
           "id": 629,
-          "x": 384,
+          "x": 372,
           "y": 36
         },
         {
           "id": 630,
-          "x": 384,
+          "x": 372,
           "y": 132
         },
         {
           "id": 631,
-          "x": 324,
+          "x": 312,
           "y": 36
         },
         {
           "id": 632,
-          "x": 324,
+          "x": 312,
           "y": 132
         },
         {
           "id": 633,
-          "x": 324,
+          "x": 312,
           "y": 72
         },
         {
           "id": 634,
-          "x": 168,
+          "x": 174,
           "y": 36
         },
         {
           "id": 635,
-          "x": 168,
+          "x": 174,
           "y": 72
         },
         {
           "id": 636,
-          "x": 168,
+          "x": 174,
           "y": 144
         },
         {
           "id": 637,
-          "x": 168,
+          "x": 174,
           "y": 108
         },
         {
           "id": 638,
-          "x": 168,
+          "x": 174,
           "y": 180
         },
         {
           "id": 665,
-          "x": 228,
+          "x": 216,
           "y": 144
         },
         {
           "id": 718,
-          "x": 96,
+          "x": 84,
           "y": 36
         },
         {
           "id": 719,
-          "x": 96,
+          "x": 84,
           "y": 72
         },
         {
           "id": 720,
           "x": 0,
-          "y": 72
+          "y": 42
         },
         {
           "id": 721,
-          "x": 48,
-          "y": 108
+          "x": 84,
+          "y": 144
         },
         {
           "id": 722,
-          "x": 96,
-          "y": 108
+          "x": 126,
+          "y": 72
         },
         {
           "id": 723,
-          "x": 0,
-          "y": 108
+          "x": 48,
+          "y": 174
         },
         {
           "id": 724,
-          "x": 48,
+          "x": 36,
           "y": 72
         },
         {
           "id": 725,
-          "x": 0,
-          "y": 156
+          "x": 120,
+          "y": 174
         },
         {
           "id": 1009,
-          "x": 384,
+          "x": 372,
           "y": 72
         },
         {
           "id": 1010,
-          "x": 228,
+          "x": 216,
           "y": 108
         },
         {
           "id": 1086,
-          "x": 168,
+          "x": 156,
           "y": 228
         },
         {
           "id": 1087,
-          "x": 228,
+          "x": 216,
           "y": 180
         },
         {
           "id": 1088,
-          "x": 276,
+          "x": 264,
           "y": 180
         },
         {
           "id": 1089,
-          "x": 228,
+          "x": 216,
           "y": 228
+        },
+        {
+          "id": 1270,
+          "x": 0,
+          "y": 102
+        },
+        {
+          "id": 1272,
+          "x": 216,
+          "y": 72
+        },
+        {
+          "id": 1276,
+          "x": 264,
+          "y": 72
+        },
+        {
+          "id": 1278,
+          "x": 264,
+          "y": 108
+        },
+        {
+          "id": 1277,
+          "x": 438,
+          "y": 36
+        },
+        {
+          "id": 1280,
+          "x": 408,
+          "y": 72
+        },
+        {
+          "id": 1281,
+          "x": 438,
+          "y": 108
+        },
+        {
+          "id": 1282,
+          "x": 474,
+          "y": 36
+        },
+        {
+          "id": 1283,
+          "x": 510,
+          "y": 36
+        },
+        {
+          "id": 1288,
+          "x": 84,
+          "y": 264
+        },
+        {
+          "id": 1284,
+          "x": 510,
+          "y": 0
+        },
+        {
+          "id": 1285,
+          "x": 474,
+          "y": 72
+        },
+        {
+          "id": 1275,
+          "x": 264,
+          "y": 144
         }
       ]
     },
