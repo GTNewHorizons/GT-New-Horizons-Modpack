@@ -60270,7 +60270,7 @@
     {
       "questID": 671,
       "name": "Electric boat",
-      "description": "The alectric boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will hopefully drop itself once you crash, which is slightly nicer than the usual sticks. That\u0027s all well and good, but what if we utilize the electric engine? Wearing an energy storage device in your chestplate slot, like a batpack or energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a decent batpack won\u0027t last long!",
+      "description": "The electric boat works mostly like a vanilla boat, chugging through the water at a decent pace. It will hopefully drop itself once you crash, which is slightly nicer than the usual sticks. That\u0027s all well and good, but what if we utilize the electric engine? Wearing an energy storage device in your chestplate slot, like a batpack or energypack, will cause the boat to drain energy from it and propel you forward at supersonic speed! Doing this will consume about 100 EU per block traveled, so even a decent batpack won\u0027t last long!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
