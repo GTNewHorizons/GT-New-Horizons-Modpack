@@ -3,7 +3,10 @@
 
 
 // --- Imports
-import mods.gregtech.Assembler;
+
+
+
+// --- Remove Recipes ---
 
 
 
@@ -79,14 +82,3 @@ mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:91>, [
 [null, null, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32606>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32606>, <ore:circuitMaster>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-
-
-
-
-
-// --- Assembler Recipes
-
-
-
-// --- Printed Circuit Board
-Assembler.addRecipe(<OpenComputers:item:32>, <OpenComputers:item:31>, <gregtech:gt.blockmachines:1420> * 4, <liquid:sulfuricacid> * 144, 200, 30);
