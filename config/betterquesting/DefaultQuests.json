@@ -127437,7 +127437,7 @@
     {
       "questID": 1333,
       "name": "Essentia Generator: Potentia",
-      "description": "Arent you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs IC2EU.\n§oNote: IC2EU must be converted via a IC2-Transfomer Outputting into a Gregtech transformer to actually use it.",
+      "description": "Arent you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs GTEU.\n§o§o§r§lNO TRANSFORMER NEEDED!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -127501,8 +127501,8 @@
               "Damage": 0
             },
             {
-              "id": "IC2:itemBatCrystal",
-              "Count": 2,
+              "id": "IC2:itemAdvBat",
+              "Count": 3,
               "OreDict": "",
               "Damage": 26
             },
@@ -127517,9 +127517,9 @@
         }
       ],
       "preRequisites": [
-        789,
         240,
-        238
+        238,
+        88
       ]
     },
     {
