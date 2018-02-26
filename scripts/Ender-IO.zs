@@ -114,7 +114,7 @@ val SoulariumRod = <ore:stickSoularium>;
 val Leather = <ore:itemLeather>;
 val TLeather = <Backpack:tannedLeather>;
 val MSScrew = <ore:screwSteelMagnetic>;
-
+val sgLargeCapacitor = <SGCraft:ic2Capacitor>;
 
 
 
@@ -519,7 +519,7 @@ recipes.addShaped(<EnderIO:blockPowerMonitor>, [
 
 // --- Farming Station
 recipes.addShaped(<EnderIO:blockFarmStation>, [
-[PCrystal, <IC2:itemToolHoe:*>, PCrystal],
+[PCrystal, <IC2:itemToolHoe:26>, PCrystal],
 [GCircuit, MCasing, GCircuit],
 [MvMotor, ZLogic, MvMotor]]);
 
@@ -589,8 +589,8 @@ recipes.addShaped(<EnderIO:blockTravelAnchor>, [
 
 // --- Telepad Block
 recipes.addShaped(<EnderIO:blockTelePad>, [
-[DarkSteelPlate, FQuartz, DarkSteelPlate],
-[Capacitor3, <EnderIO:blockTravelAnchor>, Capacitor3],
+[<dreamcraft:item.StargateShieldingFoil>, FQuartz, <dreamcraft:item.StargateShieldingFoil>],
+[sgLargeCapacitor, <SGCraft:sgCoreCrystal>, sgLargeCapacitor],
 [LuVMotor, LuVFieldGen, LuVMotor]]);
 
 // --- Slice and Splice
