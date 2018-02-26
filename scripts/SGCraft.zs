@@ -131,40 +131,40 @@ mods.avaritia.ExtremeCrafting.addShaped(sgLargeCapacitor, [
 
 // ---sgIrisBlade
 mods.avaritia.ExtremeCrafting.addShaped(sgIrisBlade, [
-[null, null, null, null, null, null, null, null, <ore:blockTitanium>],
-[null, null, null, null, null, null, <ore:blockTitanium>, <ore:blockTitanium>, null],
-[null, null, null, null, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null],
+[null, null, null, null, null, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>],
+[null, null, null, null, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null],
+[null, null, null, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null],
 [null, null, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null, null],
 [null, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null, null],
 [<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null, null],
 [<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null],
-[<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null],
-[<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>]]);
+[<ore:blockTitanium>, UVPiston, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null],
+[SuperconductingCoil, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>]]);
 
 // ---sgIrisUpgrade
 mods.avaritia.ExtremeCrafting.addShaped(sgIrisUpgrade, [
 [null, null, sgIrisBlade, sgIrisBlade, sgIrisBlade, sgIrisBlade, sgIrisBlade, null, null],
-[null, null, null, null, null, null, null, null, null],
+[null, SuperconductingCoil, null, null, null, null, null, SuperconductingCoil, null],
 [sgIrisBlade, null, null, null, null, null, null, null, sgIrisBlade],
 [sgIrisBlade, null, null, null, null, null, null, null, sgIrisBlade],
 [sgIrisBlade, null, null, null, null, null, null, null, sgIrisBlade],
 [sgIrisBlade, null, null, null, null, null, null, null, sgIrisBlade],
 [sgIrisBlade, null, null, null, null, null, null, null, sgIrisBlade],
-[null, null, null, null, null, null, null, null, null],
+[null, SuperconductingCoil, null, null, null, null, null, SuperconductingCoil, null],
 [null, null, sgIrisBlade, sgIrisBlade, sgIrisBlade, sgIrisBlade, sgIrisBlade, null, null]]);
 
 
 // ---sgPowerAcceptor
 mods.avaritia.ExtremeCrafting.addShaped(sgICPowerAcceptor, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, Nanocircuit, null, null, null, null],
-[null, null, null, SuperconductingCoil, sgLargeCapacitor, SuperconductingCoil, null, null, null],
-[null, null, Nanocircuit, sgLargeCapacitor, sgRingBlock, sgLargeCapacitor, Nanocircuit, null, null],
-[null, null, null, SuperconductingCoil, sgLargeCapacitor, SuperconductingCoil, null, null, null],
-[null, null, null, null, Nanocircuit, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, null, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, Nanocircuit, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, sgLargeCapacitor, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, Nanocircuit, sgLargeCapacitor, sgRingBlock, sgLargeCapacitor, Nanocircuit, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, sgLargeCapacitor, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, null, null, Nanocircuit, null, null, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, null, null, null, null, null, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>]]);
 
 recipes.addShapeless(sgICPowerAcceptor,[sgRFPowerAcceptor]);
 recipes.addShapeless(sgRFPowerAcceptor,[sgICPowerAcceptor]);
