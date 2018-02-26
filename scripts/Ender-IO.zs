@@ -519,7 +519,7 @@ recipes.addShaped(<EnderIO:blockPowerMonitor>, [
 
 // --- Farming Station
 recipes.addShaped(<EnderIO:blockFarmStation>, [
-[PCrystal, <IC2:itemToolHoe:26>, PCrystal],
+[PCrystal, <IC2:itemToolHoe:*>, PCrystal],
 [GCircuit, MCasing, GCircuit],
 [MvMotor, ZLogic, MvMotor]]);
 
