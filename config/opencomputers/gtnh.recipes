@@ -37,7 +37,11 @@ manual = true
 
 nanomachines = true
 
-texturePicker = true
+texturePickertexturePicker {
+  input: [[dyeBlack, dyeRed, dyeGreen]
+          [dyeBlue, "oc:analyzer", dyePurple]
+          [dyeYellow, dyeMagenta, dyeWhite]]
+}
 
 wrench = true
 
