@@ -37,7 +37,7 @@ manual = true
 
 nanomachines = true
 
-texturePickertexturePicker {
+texturePicker {
   input: [[dyeBlack, dyeRed, dyeGreen]
           [dyeBlue, "oc:analyzer", dyePurple]
           [dyeYellow, dyeMagenta, dyeWhite]]
