@@ -127328,7 +127328,7 @@
     {
       "questID": 1332,
       "name": "Compressed Solar LV",
-      "description": "§lThe power of the sun x10.§rThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! §oNote: You\u0027ll need a IC2 Transformer outputting in a GT Transformer to actually recive power from this.",
+      "description": "§lThe power of the sun x10.§rThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! § §lNOTE: They give out GTEU. NO TRANSFORMER NEEDED!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
