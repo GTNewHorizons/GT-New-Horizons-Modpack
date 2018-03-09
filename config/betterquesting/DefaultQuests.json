@@ -125415,6 +125415,81 @@
       ]
     },
     {
+      "questID": 1297,
+      "name": "Dragon essense",
+      "description": "Need some Dragon essense? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 864000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HardcoreEnderExpansion:essence",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:dragon_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreEnderExpansion:essence",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        400
+      ]
+    },
+    {
       "questID": 1298,
       "name": "Wireless Setup",
       "description": "Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.\n\nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides network level security.\n\nThe player who places the ME security terminal has full control over the network and cannot exclude himself any rights. By adding a blank biometric card you define a default behavior for every player who has no own biometric card registered.\n\nOther than adding security on software layer, you can link up your wireless terminal with the network and access it wirelessly.\n\n\nAllows wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless boosters installed into the ME wireless access point. A network can have any number of ME wireless access point with any number of wireless boosters in each one, allowing you to optimize power usage and range by altering your setup. Requires a channel to be operational.",
@@ -126196,6 +126271,81 @@
       ],
       "preRequisites": [
         1301
+      ]
+    },
+    {
+      "questID": 1307,
+      "name": "Dragon essense II",
+      "description": "Need some Dragon essense? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 864000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "DraconicEvolution:dragonHeart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "DraconicEvolution:dragonHeart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreEnderExpansion:essence",
+              "Count": 320,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1297
       ]
     },
     {
@@ -133774,6 +133924,16 @@
           "id": 1287,
           "x": 660,
           "y": 360
+        },
+        {
+          "id": 1297,
+          "x": 840,
+          "y": 360
+        },
+        {
+          "id": 1307,
+          "x": 840,
+          "y": 396
         }
       ]
     },
