@@ -54669,7 +54669,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 161
+              "Damage": 171
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -59538,8 +59538,8 @@
     },
     {
       "questID": 664,
-      "name": "LV battery buffer 4 slots",
-      "description": "Upgrade your battery buffer to hold 4 batteries which allows max 4 ampere output.\nUseful for your EBF and the arc furnace.",
+      "name": "LV battery buffer 9 slots",
+      "description": "Upgrade your battery buffer to hold 9 batteries which allows max 9 ampere output.\nUseful for your EBF and the arc furnace.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59573,7 +59573,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 171
+              "Damage": 181
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -86512,8 +86512,15 @@
         "OreDict": "",
         "Damage": 4,
         "tag": {
-          "backpackData:10": {
-            "colorName:8": "Blaze"
+          "wearableData:10": {
+            "inventory:9": [],
+            "type:1": 4,
+            "leftTank:10": {
+              "Empty:8": ""
+            },
+            "rightTank:10": {
+              "Empty:8": ""
+            }
           }
         }
       },
@@ -117012,10 +117019,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings4",
+              "id": "gregtech:gt.blockcasings",
               "Count": 32,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 15
             },
             {
               "id": "gregtech:gt.blockcasings",
@@ -120466,7 +120473,7 @@
     },
     {
       "questID": 1243,
-      "name": "Pitchblen",
+      "name": "Pitchblend",
       "description": "In order to try running your nuclear reactor you need some uranium or plutonium fuel. Go and find a pitchblend vein on Mars at Y 30-60.",
       "isMain": true,
       "isSilent": false,
@@ -130131,21 +130138,6 @@
           "id": 1204,
           "x": 108,
           "y": 36
-        },
-        {
-          "id": 1363,
-          "x": 0,
-          "y": 66
-        },
-        {
-          "id": 1364,
-          "x": 0,
-          "y": 90
-        },
-        {
-          "id": 1365,
-          "x": 0,
-          "y": 114
         }
       ]
     },
