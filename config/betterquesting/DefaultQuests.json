@@ -123800,6 +123800,84 @@
       ]
     },
     {
+      "questID": 1279,
+      "name": "Firestone Ore/Dust",
+      "description": "Firestone ore is handy for some base building machines. Unforunately, it\u0027s in the nether...at the bottom of the lava ocean! Here are some tips for finding it\n\nFirestone can be mined with the GT miners, if you place it within range.\nFirestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won\u0027t have any. Can you think of ways to check the lava depth, and what\u0027s down there?\nNormally you can\u0027t see through lava, but if you enable nightvision on the nanosuit, you can see a short distance at the bottom. But how to prevent getting burned?\nAlternatively, if you keep your head at just the correct height above the lava and at the correct angle, you\u0027ll be able to see underneath it, Surely there must be a hovering jetpack?\nFirestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2347
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2347
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2347
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1090,
+        931
+      ]
+    },
+    {
       "questID": 1280,
       "name": "The industrial way",
       "description": "Making rum can be automated, but you need to follow this industrial way for it.",
@@ -132019,6 +132097,11 @@
           "id": 1269,
           "x": 36,
           "y": 84
+        },
+        {
+          "id": 1279,
+          "x": 492,
+          "y": 228
         }
       ]
     },
