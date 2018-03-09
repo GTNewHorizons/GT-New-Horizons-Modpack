@@ -66354,21 +66354,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 242
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "IC2:itemFuelPlantBall",
               "Count": 64,
               "OreDict": "",
@@ -66383,19 +66368,19 @@
           "choices": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 16,
+              "Count": 4,
               "OreDict": "",
               "Damage": 1366
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "Count": 1,
               "OreDict": "",
               "Damage": 32702
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 4,
               "OreDict": "",
               "Damage": 17019
             },
@@ -66458,21 +66443,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 302
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "dreamcraft:item.MaceratedPlantmass",
               "Count": 64,
               "OreDict": "",
@@ -66487,19 +66457,19 @@
           "choices": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 16,
+              "Count": 8,
               "OreDict": "",
               "Damage": 1366
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 32702
             },
             {
               "id": "IC2:itemPartIndustrialDiamond",
-              "Count": 4,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
@@ -66555,21 +66525,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 362
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -66673,21 +66628,6 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemCellEmpty",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 6
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -66733,7 +66673,7 @@
         }
       ],
       "preRequisites": [
-        733
+        1323
       ]
     },
     {
@@ -66774,21 +66714,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 492
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemCellEmpty",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 6
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -66837,7 +66762,7 @@
         }
       ],
       "preRequisites": [
-        733
+        1323
       ]
     },
     {
@@ -66947,8 +66872,7 @@
         }
       ],
       "preRequisites": [
-        734,
-        735
+        1323
       ]
     },
     {
@@ -79744,21 +79668,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 512
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -127318,6 +127227,457 @@
       ]
     },
     {
+      "questID": 1320,
+      "name": "Advanced Compressor",
+      "description": "The mv compressor is double fast than the LV one and use 4x power. I suggest crafting 4 MV compressors for the new bio diesel processing line.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 242
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 242
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        731
+      ]
+    },
+    {
+      "questID": 1321,
+      "name": "Advanced Macerator",
+      "description": "The mv macerator is double fast than the LV one and use 4x power.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 301
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 302
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        732
+      ]
+    },
+    {
+      "questID": 1322,
+      "name": "Advanced Centrifuge",
+      "description": "The mv centrifuge is double fast than the LV one and use 4x power.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 362
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 362
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        733
+      ]
+    },
+    {
+      "questID": 1323,
+      "name": "Biomass",
+      "description": "Chose the ic2 or the gregtech way to make biomass. Water and BioChaff is needed.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemCellEmpty",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        733
+      ]
+    },
+    {
+      "questID": 1324,
+      "name": "Advanced Fluid Extractor",
+      "description": "The mv fluid extractor is double fast than the LV one and use 4x power.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 512
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 512
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        848
+      ]
+    },
+    {
       "questID": 1326,
       "name": "Co-Processing",
       "description": "Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
@@ -131962,568 +132322,593 @@
       "quests": [
         {
           "id": 89,
-          "x": 312,
+          "x": 408,
           "y": 132
         },
         {
           "id": 128,
-          "x": 768,
+          "x": 864,
           "y": 204
         },
         {
           "id": 129,
-          "x": 768,
+          "x": 864,
           "y": 264
         },
         {
           "id": 130,
-          "x": 804,
+          "x": 900,
           "y": 300
         },
         {
           "id": 131,
-          "x": 720,
+          "x": 816,
           "y": 300
         },
         {
           "id": 132,
-          "x": 804,
+          "x": 900,
           "y": 336
         },
         {
           "id": 133,
-          "x": 720,
+          "x": 816,
           "y": 264
         },
         {
           "id": 134,
-          "x": 804,
+          "x": 900,
           "y": 264
         },
         {
           "id": 135,
-          "x": 852,
+          "x": 948,
           "y": 264
         },
         {
           "id": 136,
-          "x": 852,
+          "x": 948,
           "y": 228
         },
         {
           "id": 137,
-          "x": 804,
+          "x": 900,
           "y": 228
         },
         {
           "id": 138,
-          "x": 804,
+          "x": 900,
           "y": 180
         },
         {
           "id": 140,
-          "x": 852,
+          "x": 948,
           "y": 180
         },
         {
           "id": 142,
-          "x": 852,
+          "x": 948,
           "y": 336
         },
         {
           "id": 143,
-          "x": 732,
+          "x": 828,
           "y": 336
         },
         {
           "id": 145,
-          "x": 768,
+          "x": 864,
           "y": 336
         },
         {
           "id": 148,
-          "x": 852,
+          "x": 948,
           "y": 300
         },
         {
           "id": 149,
-          "x": 888,
+          "x": 984,
           "y": 336
         },
         {
           "id": 150,
-          "x": 852,
+          "x": 948,
           "y": 372
         },
         {
           "id": 151,
-          "x": 888,
+          "x": 984,
           "y": 300
         },
         {
           "id": 152,
-          "x": 924,
+          "x": 1020,
           "y": 300
         },
         {
           "id": 153,
-          "x": 48,
-          "y": 228
+          "x": 132,
+          "y": 240
         },
         {
           "id": 154,
-          "x": 48,
-          "y": 264
+          "x": 96,
+          "y": 240
         },
         {
           "id": 155,
-          "x": 84,
-          "y": 300
+          "x": 132,
+          "y": 312
         },
         {
           "id": 156,
-          "x": 48,
-          "y": 336
+          "x": 96,
+          "y": 312
         },
         {
           "id": 157,
           "x": 48,
-          "y": 372
+          "y": 312
         },
         {
           "id": 158,
-          "x": 0,
-          "y": 408
+          "x": 48,
+          "y": 276
         },
         {
           "id": 159,
           "x": 0,
-          "y": 372
+          "y": 312
         },
         {
           "id": 126,
-          "x": 360,
+          "x": 456,
           "y": 372
         },
         {
           "id": 659,
-          "x": 216,
+          "x": 312,
           "y": 132
         },
         {
           "id": 660,
-          "x": 264,
+          "x": 360,
           "y": 132
         },
         {
           "id": 730,
-          "x": 84,
-          "y": 336
-        },
-        {
-          "id": 731,
-          "x": 84,
+          "x": 96,
           "y": 372
         },
         {
+          "id": 731,
+          "x": 96,
+          "y": 408
+        },
+        {
           "id": 732,
-          "x": 120,
+          "x": 144,
           "y": 408
         },
         {
           "id": 733,
-          "x": 48,
+          "x": 144,
           "y": 444
         },
         {
           "id": 734,
-          "x": 84,
+          "x": 192,
           "y": 480
         },
         {
           "id": 735,
-          "x": 0,
+          "x": 96,
           "y": 480
         },
         {
           "id": 736,
-          "x": 48,
+          "x": 144,
           "y": 516
         },
         {
           "id": 127,
-          "x": 0,
+          "x": 96,
           "y": 168
         },
         {
           "id": 738,
-          "x": 0,
-          "y": 132
-        },
-        {
-          "id": 737,
-          "x": 36,
+          "x": 48,
           "y": 168
         },
         {
+          "id": 737,
+          "x": 96,
+          "y": 132
+        },
+        {
           "id": 739,
-          "x": 36,
+          "x": 48,
           "y": 132
         },
         {
           "id": 740,
-          "x": 48,
-          "y": 300
+          "x": 132,
+          "y": 276
         },
         {
           "id": 749,
-          "x": 228,
+          "x": 324,
           "y": 408
         },
         {
           "id": 751,
-          "x": 264,
+          "x": 360,
           "y": 372
         },
         {
           "id": 753,
-          "x": 264,
+          "x": 360,
           "y": 408
         },
         {
           "id": 754,
-          "x": 228,
+          "x": 324,
           "y": 372
         },
         {
           "id": 757,
-          "x": 396,
-          "y": 408
+          "x": 492,
+          "y": 372
         },
         {
           "id": 758,
-          "x": 0,
-          "y": 264
+          "x": 48,
+          "y": 204
         },
         {
           "id": 759,
-          "x": 396,
+          "x": 492,
           "y": 516
         },
         {
           "id": 760,
-          "x": 156,
+          "x": 252,
           "y": 132
         },
         {
           "id": 773,
-          "x": 120,
-          "y": 336
-        },
-        {
-          "id": 774,
-          "x": 84,
-          "y": 408
-        },
-        {
-          "id": 778,
-          "x": 120,
+          "x": 216,
           "y": 372
         },
         {
-          "id": 780,
+          "id": 774,
           "x": 48,
           "y": 408
         },
         {
+          "id": 778,
+          "x": 216,
+          "y": 408
+        },
+        {
+          "id": 780,
+          "x": 0,
+          "y": 408
+        },
+        {
           "id": 785,
-          "x": 96,
+          "x": 192,
           "y": 0
         },
         {
           "id": 794,
-          "x": 264,
+          "x": 360,
           "y": 0
         },
         {
           "id": 795,
-          "x": 156,
+          "x": 252,
           "y": 0
         },
         {
           "id": 746,
-          "x": 96,
+          "x": 192,
           "y": 84
         },
         {
           "id": 752,
-          "x": 96,
+          "x": 192,
           "y": 36
         },
         {
           "id": 782,
-          "x": 156,
+          "x": 252,
           "y": 84
         },
         {
           "id": 791,
-          "x": 216,
+          "x": 312,
           "y": 36
         },
         {
           "id": 792,
-          "x": 216,
+          "x": 312,
           "y": 84
         },
         {
           "id": 837,
-          "x": 156,
+          "x": 252,
           "y": 36
         },
         {
           "id": 793,
-          "x": 312,
+          "x": 408,
           "y": 0
         },
         {
           "id": 838,
-          "x": 360,
+          "x": 456,
           "y": 0
         },
         {
           "id": 839,
-          "x": 408,
+          "x": 504,
           "y": 0
         },
         {
           "id": 750,
-          "x": 396,
+          "x": 492,
           "y": 552
         },
         {
           "id": 842,
-          "x": 0,
+          "x": 96,
           "y": 516
         },
         {
           "id": 843,
-          "x": 84,
+          "x": 192,
           "y": 552
         },
         {
           "id": 844,
-          "x": 0,
+          "x": 96,
           "y": 552
         },
         {
           "id": 845,
-          "x": 36,
+          "x": 144,
           "y": 588
         },
         {
           "id": 846,
-          "x": 360,
+          "x": 456,
           "y": 516
         },
         {
           "id": 847,
-          "x": 360,
+          "x": 456,
           "y": 480
         },
         {
           "id": 848,
-          "x": 120,
+          "x": 216,
           "y": 588
         },
         {
           "id": 849,
-          "x": 168,
+          "x": 252,
           "y": 588
         },
         {
           "id": 852,
-          "x": 216,
+          "x": 312,
           "y": 516
         },
         {
           "id": 893,
-          "x": 360,
-          "y": 156
-        },
-        {
-          "id": 894,
-          "x": 408,
-          "y": 156
-        },
-        {
-          "id": 895,
-          "x": 396,
-          "y": 324
-        },
-        {
-          "id": 896,
-          "x": 396,
-          "y": 264
-        },
-        {
-          "id": 897,
-          "x": 444,
-          "y": 324
-        },
-        {
-          "id": 931,
-          "x": 444,
-          "y": 228
-        },
-        {
-          "id": 933,
-          "x": 264,
-          "y": 36
-        },
-        {
-          "id": 934,
-          "x": 312,
-          "y": 36
-        },
-        {
-          "id": 935,
-          "x": 312,
-          "y": 84
-        },
-        {
-          "id": 938,
-          "x": 264,
-          "y": 444
-        },
-        {
-          "id": 939,
-          "x": 300,
-          "y": 444
-        },
-        {
-          "id": 850,
-          "x": 216,
-          "y": 444
-        },
-        {
-          "id": 944,
           "x": 456,
           "y": 156
         },
         {
+          "id": 894,
+          "x": 504,
+          "y": 156
+        },
+        {
+          "id": 895,
+          "x": 492,
+          "y": 324
+        },
+        {
+          "id": 896,
+          "x": 492,
+          "y": 264
+        },
+        {
+          "id": 897,
+          "x": 540,
+          "y": 324
+        },
+        {
+          "id": 931,
+          "x": 540,
+          "y": 228
+        },
+        {
+          "id": 933,
+          "x": 360,
+          "y": 36
+        },
+        {
+          "id": 934,
+          "x": 408,
+          "y": 36
+        },
+        {
+          "id": 935,
+          "x": 408,
+          "y": 84
+        },
+        {
+          "id": 938,
+          "x": 360,
+          "y": 444
+        },
+        {
+          "id": 939,
+          "x": 396,
+          "y": 444
+        },
+        {
+          "id": 850,
+          "x": 312,
+          "y": 444
+        },
+        {
+          "id": 944,
+          "x": 552,
+          "y": 156
+        },
+        {
           "id": 951,
-          "x": 204,
+          "x": 300,
           "y": 552
         },
         {
           "id": 952,
-          "x": 204,
+          "x": 300,
           "y": 588
         },
         {
           "id": 953,
-          "x": 300,
+          "x": 396,
           "y": 372
         },
         {
           "id": 604,
-          "x": 720,
+          "x": 816,
           "y": 228
         },
         {
           "id": 987,
-          "x": 672,
+          "x": 768,
           "y": 264
         },
         {
           "id": 990,
-          "x": 672,
+          "x": 768,
           "y": 228
         },
         {
           "id": 1013,
-          "x": 444,
+          "x": 540,
           "y": 444
         },
         {
           "id": 1015,
-          "x": 444,
+          "x": 540,
           "y": 480
         },
         {
           "id": 1020,
-          "x": 396,
+          "x": 492,
           "y": 480
         },
         {
           "id": 1021,
-          "x": 444,
+          "x": 540,
           "y": 516
         },
         {
           "id": 1081,
-          "x": 444,
+          "x": 540,
           "y": 264
         },
         {
           "id": 1082,
-          "x": 0,
+          "x": 96,
           "y": 204
         },
         {
           "id": 1083,
           "x": 0,
-          "y": 300
+          "y": 204
         },
         {
           "id": 1093,
-          "x": 0,
+          "x": 96,
           "y": 444
         },
         {
           "id": 553,
-          "x": 264,
+          "x": 360,
           "y": 336
         },
         {
           "id": 1180,
-          "x": 492,
+          "x": 588,
           "y": 264
         },
         {
           "id": 1148,
-          "x": 156,
+          "x": 252,
           "y": 204
         },
         {
           "id": 1226,
-          "x": 36,
+          "x": 144,
           "y": 624
         },
         {
           "id": 1227,
-          "x": 444,
+          "x": 540,
           "y": 552
         },
         {
           "id": 1267,
-          "x": 96,
+          "x": 192,
           "y": 168
         },
         {
           "id": 1268,
-          "x": 96,
+          "x": 192,
           "y": 132
         },
         {
           "id": 1269,
-          "x": 36,
+          "x": 132,
           "y": 84
         },
         {
           "id": 1279,
-          "x": 492,
+          "x": 588,
           "y": 228
+        },
+        {
+          "id": 1320,
+          "x": 48,
+          "y": 372
+        },
+        {
+          "id": 1321,
+          "x": 144,
+          "y": 372
+        },
+        {
+          "id": 1322,
+          "x": 192,
+          "y": 444
+        },
+        {
+          "id": 1323,
+          "x": 144,
+          "y": 480
+        },
+        {
+          "id": 1324,
+          "x": 216,
+          "y": 624
         }
       ]
     },
