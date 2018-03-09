@@ -15,10 +15,10 @@ import mods.gregtech.Brewery;
 
 
 // --- Advanced Backpack
-recipes.remove(<adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), true);
+recipes.remove(<adventurebackpack:adventureBackpack>.withTag({wearableData: {type: 0 as byte}}), true);
 
 // --- Squid Backpack
-recipes.remove(<adventurebackpack:adventureBackpack:62>.withTag({backpackData: {colorName: "Squid"}}), true);
+recipes.remove(<adventurebackpack:adventureBackpack:62>.withTag({wearableData: {type: 62 as byte}}), true);
 
 // --- Backpack Tank
 recipes.remove(<adventurebackpack:backpackComponent:2>);
@@ -86,30 +86,30 @@ recipes.remove(<adventurebackpack:melonJuiceBottle>);
 
 
 // --- Advanced Backpack
-recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), [
+recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({wearableData: {type: 0 as byte}}), [
 [<ore:materialHardenedleather>, <ore:plateAluminium>, <ore:materialHardenedleather>],
 [<adventurebackpack:backpackComponent:2>, <ore:chestIron>, <adventurebackpack:backpackComponent:2>],
 [<ore:materialHardenedleather>, <adventurebackpack:backpackComponent:1>, <ore:materialHardenedleather>]]);
 // -
-recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({backpackData: {colorName: "Standard"}}), [
+recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({wearableData: {type: 0 as byte}}), [
 [<ore:materialHardenedleather>, <ore:plateAluminium>, <ore:materialHardenedleather>],
 [<BuildCraft|Factory:tankBlock>, <ore:chestIron>, <BuildCraft|Factory:tankBlock>],
 [<ore:materialHardenedleather>, <sleepingbag:sleepingBag>, <ore:materialHardenedleather>]]);
 
 // --- Bat Backpack
-recipes.addShaped(<adventurebackpack:adventureBackpack:2>.withTag({backpackData: {colorName: "Bat"}}), [
+recipes.addShaped(<adventurebackpack:adventureBackpack:2>.withTag({wearableData: {type: 2 as byte}}), [
 [<ore:itemLeather>, <IC2:itemNightvisionGoggles:1>, <ore:itemLeather>],
 [<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8262>],
 [<ore:blockWoolBlack>, <ore:blockWoolBlack>, <ore:blockWoolBlack>]]);
 
 // --- Iron Golem Backpack
-recipes.addShaped(<adventurebackpack:adventureBackpack:11>.withTag({backpackData: {colorName: "IronGolem"}}), [
+recipes.addShaped(<adventurebackpack:adventureBackpack:11>.withTag({wearableData: {type: 11 as byte}}), [
 [<ore:itemLeather>, <minecraft:red_flower>, <ore:itemLeather>],
 [<minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
 [<ore:plateIron>, <IC2:itemArmorRubBoots>, <ore:plateIron>]]);
 
 // --- Squid Backpack
-recipes.addShaped(<adventurebackpack:adventureBackpack:62>.withTag({backpackData: {colorName: "Squid"}}), [
+recipes.addShaped(<adventurebackpack:adventureBackpack:62>.withTag({wearableData: {type: 62 as byte}}), [
 [<ore:itemLeather>, <GalacticraftCore:item.oxygenMask>, <ore:itemLeather>],
 [<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8269>],
 [<ore:blockWoolBlue>, <minecraft:dye>, <ore:blockWoolBlue>]]);
@@ -165,12 +165,12 @@ recipes.addShaped(<adventurebackpack:backpackComponent:6>, [
 [<IC2:itemRecipePart:12>, <ore:craftingToolScrewdriver>, <IC2:itemRecipePart:12>]]);
 
 // --- Copter Pack 
-recipes.addShaped(<adventurebackpack:copterPack>.withTag({fuelTank: {Empty: ""}}), [
+recipes.addShaped(<adventurebackpack:copterPack>.withTag({wearableData: {}}), [
 [<ore:screwDiamond>, <adventurebackpack:backpackComponent:6>, <ore:screwDiamond>],
 [<adventurebackpack:backpackComponent:2>, <gregtech:gt.metaitem.01:32601>, <ore:pipeTinySteel>],
 [<ore:pipeTinySteel>, <adventurebackpack:backpackComponent:5>, <ore:pipeTinySteel>]]);
 // -
-recipes.addShaped(<adventurebackpack:copterPack>.withTag({fuelTank: {Empty: ""}}), [
+recipes.addShaped(<adventurebackpack:copterPack>.withTag({wearableData: {}}), [
 [<ore:screwDiamond>, <adventurebackpack:backpackComponent:6>, <ore:screwDiamond>],
 [<BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:32601>, <ore:pipeTinySteel>],
 [<ore:pipeTinySteel>, <adventurebackpack:backpackComponent:5>, <ore:pipeTinySteel>]]);
@@ -218,12 +218,12 @@ recipes.addShaped(<adventurebackpack:clockworkCrossbow>, [
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
 
 // --- Coal Jetpack
-recipes.addShaped(<adventurebackpack:coalJetpack>.withTag({jetpackData: {waterTank: {Empty: ""}}}), [
+recipes.addShaped(<adventurebackpack:coalJetpack>.withTag({wearableData: {}}), [
 [<ore:plateAluminium>, <ore:screwSteel>, <ore:plateAluminium>],
 [<adventurebackpack:backpackComponent:2>, <gregtech:gt.metaitem.01:32601>, <adventurebackpack:backpackComponent:2>],
 [<ore:pipeTinySteel>, <Railcraft:machine.beta:5>, <ore:pipeTinySteel>]]);
 // -
-recipes.addShaped(<adventurebackpack:coalJetpack>.withTag({jetpackData: {waterTank: {Empty: ""}}}), [
+recipes.addShaped(<adventurebackpack:coalJetpack>.withTag({wearableData: {}}), [
 [<ore:plateAluminium>, <ore:screwSteel>, <ore:plateAluminium>],
 [<BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:32601>, <BuildCraft|Factory:tankBlock>],
 [<ore:pipeTinySteel>, <Railcraft:machine.beta:5>, <ore:pipeTinySteel>]]);
