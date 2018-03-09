@@ -113189,7 +113189,7 @@
     },
     {
       "questID": 1170,
-      "name": "Bath Salt",
+      "name": "Bath Soop",
       "description": "Oh you feel so dirty. Go and take the soap and a shower.",
       "isMain": false,
       "isSilent": false,
@@ -124348,6 +124348,170 @@
       ]
     },
     {
+      "questID": 1286,
+      "name": "Primal Shrooms",
+      "description": "Primal shrooms allow you to refill wands easier before you can move nodes to your base.\nGo and find some in a magical forrest biome or buy some if no biome is close to your location.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCustomPlant",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thaumicbases:ashroom",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "Thaumcraft:blockCustomPlant",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "minecraft:nether_wart",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        241
+      ]
+    },
+    {
+      "questID": 1287,
+      "name": "Vish Shroom",
+      "description": "Oh you feel so dirty. Go and take a bath.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 432000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:blockCustomPlant",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1097
+      ]
+    },
+    {
       "questID": 1288,
       "name": "Hops, the source of beer",
       "description": "If you don\u0027t want pure alcohol, but beer, get some hops by crossbreeding IC² crops.",
@@ -133497,6 +133661,11 @@
           "id": 1207,
           "x": 696,
           "y": 144
+        },
+        {
+          "id": 1287,
+          "x": 660,
+          "y": 360
         }
       ]
     },
@@ -133945,6 +134114,11 @@
           "id": 1177,
           "x": 48,
           "y": 144
+        },
+        {
+          "id": 1286,
+          "x": 156,
+          "y": 108
         }
       ]
     },
