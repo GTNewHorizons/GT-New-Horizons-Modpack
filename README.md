@@ -114,6 +114,14 @@ https://myftb.de/
 gtnewhorizons.myftb.de
 
 
+
+## France Server Public Whitelisted:<BR>
+
+Trilex Server
+mc.trilexnet.com
+Discord Server: https://discord.gg/0m5HHKEswEbYn8nb
+
+
 ## Resource Realistic Sky GT New Horizons
 created by MajaProduction needs Optifine installed<BR>
 you find it in your resource folder<BR>
