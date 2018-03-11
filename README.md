@@ -58,8 +58,8 @@ You want to roam the land and kill everything in sight with ease, build a highly
 ## How do I join a server?
 
 Go to the multiplayer menu and choose the server you would like to play on.<BR>
-If the server is whitelisted (check out the list below) you have to contact the staff on the linked website/discord first.
-For the official servers you can either apply directly on our website or type the "!apply" command on our discord (both linked below) to get further instructions on joining the official servers! 
+If the server is whitelisted (check out the list below) you have to contact the staff on the linked website/discord first.<BR>
+For the official servers you can either apply directly on our website or type the "!apply" command on our discord (both linked below) to get further instructions on how to join! 
 
 ## EU Servers:<BR>
 
