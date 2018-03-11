@@ -78,14 +78,14 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 // --- Magnetron
 recipes.addShaped(<GraviSuite:itemSimpleItem:4>, [
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>],
-[<ore:plateDenseCopper>, <GraviSuite:itemSimpleItem:1>, <ore:plateDenseCopper>],
+[<ore:plateDenseCopper>, <gregtech:gt.blockmachines:2384>, <ore:plateDenseCopper>],
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>]]);
  
 // --- Vajra Core
 recipes.addShaped(<GraviSuite:itemSimpleItem:5>, [
 [<ore:craftingToolWrench>, <ore:plateCopper>, <ore:craftingToolHardHammer>],
 [<IC2:itemPartIridium>, <IC2:blockMachine2:1>, <IC2:itemPartIridium>],
-[<GraviSuite:itemSimpleItem:1>, <gregtech:gt.blockmachines:23>, <GraviSuite:itemSimpleItem:1>]]);
+[<gregtech:gt.blockmachines:2384>, <gregtech:gt.blockmachines:23>, <gregtech:gt.blockmachines:2384>]]);
 
 // --- Vajra
 recipes.addShaped(<GraviSuite:vajra:27>, [
