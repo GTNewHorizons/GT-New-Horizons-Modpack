@@ -99,7 +99,7 @@ Discord Server:  https://discord.gg/cBQUpSr<BR>
 
 ## German Server Public:<BR>
 
-MyFTB<BR> (whitelist???)
+MyFTB (whitelist???)<BR>
 https://myftb.de/<BR>
 gtnewhorizons.myftb.de<BR>
 
