@@ -2710,6 +2710,15 @@ recipes.addShapeless(<minecraft:minecart>, [<Forestry:cart.beehouse>]);
 // -
 recipes.addShapeless(<minecraft:minecart>, [<Forestry:cart.beehouse:1>]);
 
+//Fermenter
+//OutputFluid, InputStack, FluidInput, FermentationValue, FloatModifier //FermentationValue [Amount of InputFluid] * FloatModifier [Multiplier for OutputFluid] = Amount of OutputFluid
+mods.forestry.Fermenter.addRecipe(<liquid:biomass> * 75, <miscutils:blockRainforestOakSapling>, <liquid:juice> * 50, 75, 1);
+// -
+mods.forestry.Fermenter.addRecipe(<liquid:biomass> * 75, <miscutils:blockRainforestOakSapling>, <liquid:for.honey> * 50, 75, 1);
+//-
+mods.forestry.Fermenter.addRecipe(<liquid:biomass> * 75, <miscutils:blockRainforestOakSapling>, <liquid:honey> * 50, 75, 1);
+//-
+mods.forestry.Fermenter.addRecipe(<liquid:biomass> * 50, <miscutils:blockRainforestOakSapling>, <liquid:water> * 50, 50, 1);
 
 
 
