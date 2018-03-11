@@ -3,34 +3,23 @@
 
 # GT New Horizons Mod Pack
 
-## Gregified modpack via Modtweaker (MODS GET GREGED)
-
-
 Version 2.0.3.0 is out 09.03.2018
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
-## Large Modpack with every recipe Gregified
+## What is GT New Horizons?
 
-Hey guys, I'd like to open up my project and get more players.<BR>
-I've been working on it for 3 years and still got a lot more work to do.
+You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR>
+Over 3 years of developement (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with custom reward system, unique world generation, custom mods coded for the pack, custom Thauminomicon pages, and many more.
+ 
+The main intentions of the pack are a long lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR>
+To reach this goal GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression. <BR>
+Starting in the stone age you will barely be able to survive until you get your first steam machines and eventually reach electricity. Later on you will have to visit other planets and dimensions to gather important ressources and fight mighty bosses to channel their magical power.
 
-The pack has around 200+ mods that are carefully selected and balanced between each other and GregTech. I've created a Tiering system that follows GT. You can't get lategame stuff without lategame GT!<BR>
-An example of Tiering (work in progress) is here:
+If you are fan of expert mode packs and want to take it to the next level this pack will be your friend!
 
-**Tier 0:** Vanilla Minecraft, Pam's Harvestcraft, GT Flint tools<BR>
-**Tier 1:** GT Bronze Age, TiCo, Chisel, Jabba, Twillight Forest<BR>
-**Tier 2:** GT (LV), Railcraft, Forestry, Extra Utilities, Backpacks<BR>
-**Tier 3:** GT (MV), Thaumcraft (+Addons), Binnie, Advanced Solar Panels, AE2<BR>
-**Tier 4:** GT (HV), Galacticraft (+Addons), AFSU, Witchery<BR>
-**Tier 5:** GT (EV), Gendustry, Blood Magic<BR>
-**Tier 6x:** GT (IV-MAX), Draconic Evolution<BR>
-
-The server is very complex and heavily modified.<BR>
-The number of mod interactions in this pack is beyond the scope of this thread.
 
 ---
-
 ## What does this pack have to offer?
 
 **Technology**<BR>
@@ -38,12 +27,16 @@ Everything you do is tied to GT as it should be. I'm using my own mods DreamCraf
 You can also look forward to TiCo, Railcraft, Forestry, Extra Utilities, Openblocks, AE2, Buildcraft, Galacticraft with many addons, Gendustry, Steve's Carts, Open Computers and many others.
 
 **Magic**<BR>
-Many mods are carefully tied to Thaumcraft. Its addons like Forbidden Magic, Automagy, Thaumic Tinkerer, Thaumic Exploration, Thaumic Horizons etc. are also modified.<BR>
+Many mods are carefully tied to Thaumcraft using a progression centered around killing Twilight Forest bosses. Its addons like Forbidden Magic, Automagy, Thaumic Tinkerer, Thaumic Exploration, Thaumic Horizons etc. are also modified.<BR>
+
 When you've progressed enough you can reach Witchery or even Blood Magic.
 
 **Exploration**<BR>
 Using Realistic World Gen along with Biomes'o'Plenty creates a wonderful terrain. With Twillight Forest (that you need to conquer to reach endgame Thaumcraft), Galacticraft and other mods the server has over EIGHT dimensions.<BR>
+
 Rogue-like Dungeons and HEE with other mods' worldgen make sure you got some goodies to find.
+
+Ore generation is a modified Gregtech ore generation, with large veins of materials. Finding the vein will take time, but once you find one you're good for quite a while.  And with Journeymap included, you'll be setting waypoints across the map for rare ores, that villager with the perfect trade, and that oil field you want to turn into a forest of pumps!
 
 **Survival**<BR>
 Hunger Overhaul, Pam's Harvestcraft, Special Mobs, HEE, Infernal Mobs, Lava Monsters, Zombie Awareness. Do I need to continue?
@@ -51,9 +44,11 @@ Hunger Overhaul, Pam's Harvestcraft, Special Mobs, HEE, Infernal Mobs, Lava Mons
 You want to roam the land and kill everything in sight with ease, build a highly advanced MagicTech base and raid all the dungeons in Minecraft? Sure, you can. You got a long journey ahead though.
 
 
-
 ## TL;DR
-Food is a thing in the pack during starting days, you cant see at night time w/o potions/effect. Some passive mobs explode on death, other mobs can be infernal. **You'll die A LOT**. Use a good strategy. Progress in magic and  tech should be equal, and have the patience to read the entire readme and not use the TL;DR :P
+* Food is a critical thing in the pack starting the game
+* Hardcore darkness means you cant see at night time w/o potions/effect. You'll be cowering in a dirt hut until you get some tech to make torches. Oh yeah, did I mention torches require tech?? You'll have to smelt coal or make charcoal using a coke oven to get torches, so get a bed setup ASAP!
+* Some passive mobs explode on death, other mobs can be infernal. **You'll die A LOT**. Use a good strategy. Progress in magic and  tech should be equal, and have the patience to read the entire readme and not use the TL;DR :P
+* Read the quest book!  Not only is it rewarding, but it's a great guide on "Now What?" Make sure to check back on tabs in case progress in another tab has opened up new quests in a different tab.
 
 
 ---
@@ -106,13 +101,11 @@ Discord Server:  https://discord.gg/cBQUpSr
 149.56.109.207
 
 
-
 ## German Server Public:<BR>
 
 MyFTB
 https://myftb.de/
 gtnewhorizons.myftb.de
-
 
 
 ## France Server Public Whitelisted:<BR>
@@ -127,10 +120,7 @@ created by MajaProduction needs Optifine installed<BR>
 you find it in your resource folder<BR>
 
 
-
 ---
-
-
 ## Modlist - NewHorizons<BR>
 
 * Advanced Solar Panels	3.5.1a<BR>
