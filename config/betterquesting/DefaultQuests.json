@@ -119765,7 +119765,7 @@
     {
       "questID": 1237,
       "name": "Glowstone Doped Monocrystalline Silicon",
-      "description": "To make wafers, you need to make monocrystalline silicon first. The process takes 450 seconds and requires silicon dust and gallium arsenide dust in the electric blast furnace. You can make 16 wafers out of every boule.",
+      "description": "To make more advanced wafers, you need to make glowstone dopped monocrystalline silicon first. The process takes 600 seconds and requires silicon dust and glowstone dust in the electric blast furnace. You can make 32 wafers out of every boule.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
