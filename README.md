@@ -23,9 +23,12 @@ If you are fan of expert mode packs and want to take it to the next level this p
 ## What does this pack have to offer?
 
 **Technology**<BR>
-Everything you do is tied to GT as it should be. I'm using my own mods DreamCraftCore (for items) and MinetweakerGTAddon allowing me to use various GT machines I wouldn't be able to otherwise.<BR>
-You can also look forward to TiCo, Railcraft, Forestry, Extra Utilities, Openblocks, AE2, Buildcraft, Galacticraft with many addons, Gendustry, Steve's Carts, Open Computers and many others.
+GregTech on its own comes with a huge tech tree using the EU system and the other technology based mods will open up along.<BR>
+The main cables of GregTech got the inbuild feature to convert EU to RF so you don't have to worry about different energy systems and things feeling incompatible.<BR>
 
+Complex processing lines, automation, a large variety in power generation and a lot of materials to work with create an enviroment with many possibilities that the player has to explore.<BR>
+Crossbreeding plants, bees and crops with Forestry and IndustrialCraft2, setting up mobfarms using EnderIO and Draconic Evolution and general infrastructure improvements with Railcraft and Applied Energistics; it's all there, anything you would want (and possibly need) if you enjoy the technical aspect of modded Minecraft.
+ 
 **Magic**<BR>
 Many mods are carefully tied to Thaumcraft using a progression centered around killing Twilight Forest bosses. Its addons like Forbidden Magic, Automagy, Thaumic Tinkerer, Thaumic Exploration, Thaumic Horizons etc. are also modified.<BR>
 
