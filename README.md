@@ -89,7 +89,7 @@ s5.stonelegion.com:2005<BR>
 
 Bacon Gaming (whitelist)<BR>
 https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
-Bacongaming.net:25577<BR><BR>
+Bacongaming.net:25577<BR>
 
 
 Grace Craft Anarchy (no whitelist)<BR>
