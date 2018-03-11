@@ -23,7 +23,7 @@ If you are fan of expert mode packs and want to take it to the next level this p
 ## What does this pack have to offer?
 
 **Technology**<BR>
-GregTech on its own comes with a huge tech tree using the EU system and the other technology based mods will open up along.<BR>
+GregTech on its own comes with a huge tech tree using the EU system and the other technology based mods will open up while you are progressing through the tiers.<BR>
 The main cables of GregTech got the inbuild feature to convert EU to RF so you don't have to worry about different energy systems and things feeling incompatible.<BR>
 
 Complex processing lines, automation, a large variety in power generation and a lot of materials to work with create an enviroment with many possibilities that the player has to explore.<BR>
@@ -55,67 +55,69 @@ You want to roam the land and kill everything in sight with ease, build a highly
 
 
 ---
-## How do I join?
+## How do I join a server?
 
-Go to the Main Menu and choose the server you like to play.
+Go to the multiplayer menu and choose the server you would like to play on.<BR>
+If the server is whitelisted (check out the list below) you have to contact the staff on the linked website/discord first.
+For the official servers you can either apply directly on our website or type the "!apply" command on our discord (both linked below) to get further instructions on joining the official servers! 
 
-## Links
+## EU Servers:<BR>
 
-Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
-FTB Launcher Code: GTNH<BR>
-Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
-Discord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
-Forum Link: http://gtnewhorizons.com/<BR>
-
-
-## EU Server:<BR>
-
-Official EU Server Public Whitelisted<BR>
+Official EU Server Public (whitelist)<BR>
 http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
  
-Dirt Huts EU Server Whitelisted<BR>
+Dirt Huts EU Server (whitelist)<BR>
 http://dirthuts.com<BR>
 s1.digtobuild.com:25560<BR>
 
 
-## US/Canada Server:<BR>
+## US/Canada Servers:<BR>
 
-Prospercraft Greylist<BR>
+Prospercraft (greylist)<BR>
 http://www.prospercraft.com/<BR>
 newhorizonsold.prospercraft.com<BR>
 newhorizons.prospercraft.com<BR>
 
 
-Stone Legion Whitelist<BR>
+Stone Legion (whitelist)<BR>
 http://stonelegion.com/<BR>
 s5.stonelegion.com:2005<BR>
 
 
-Bacon Gaming Whitelist<BR>
+Bacon Gaming (whitelist)<BR>
 https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
 Bacongaming.net:25577<BR><BR>
 
 
-Grace Craft Anarchy No Whitelist<BR>
+Grace Craft Anarchy (no whitelist)<BR>
 Discord Server:  https://discord.gg/cBQUpSr<BR>
 149.56.109.207<BR>
 
 
 ## German Server Public:<BR>
 
-MyFTB<BR>
+MyFTB<BR> (whitelist???)
 https://myftb.de/<BR>
 gtnewhorizons.myftb.de<BR>
 
 
-## France Server Public Whitelisted:<BR>
+## France Server Public:<BR>
 
-Trilex Server<BR>
+Trilex Server (whitelist)<BR>
 mc.trilexnet.com<BR>
 Discord Server: https://discord.gg/0m5HHKEswEbYn8nb<BR>
+
+
+## Official Links
+
+Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
+FTB Launcher Code: GTNH<BR>
+Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
+Discord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
+Forum Link: http://gtnewhorizons.com/<BR>
 
 
 ## Resource Realistic Sky GT New Horizons
