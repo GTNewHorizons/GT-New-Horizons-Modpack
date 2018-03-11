@@ -97,22 +97,22 @@ Bacongaming.net:25577<BR><BR>
 
 
 Grace Craft Anarchy No Whitelist<BR>
-Discord Server:  https://discord.gg/cBQUpSr
-149.56.109.207
+Discord Server:  https://discord.gg/cBQUpSr<BR>
+149.56.109.207<BR>
 
 
 ## German Server Public:<BR>
 
-MyFTB
-https://myftb.de/
-gtnewhorizons.myftb.de
+MyFTB<BR>
+https://myftb.de/<BR>
+gtnewhorizons.myftb.de<BR>
 
 
 ## France Server Public Whitelisted:<BR>
 
-Trilex Server
-mc.trilexnet.com
-Discord Server: https://discord.gg/0m5HHKEswEbYn8nb
+Trilex Server<BR>
+mc.trilexnet.com<BR>
+Discord Server: https://discord.gg/0m5HHKEswEbYn8nb<BR>
 
 
 ## Resource Realistic Sky GT New Horizons
