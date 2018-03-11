@@ -118508,7 +118508,7 @@
     {
       "questID": 1225,
       "name": "IV Circuit Mainframe",
-      "description": "With your workstation circuits you can craft an HV circuit assembler. This is needed for higher tier circuits.",
+      "description": "Mainframes are the first IV Circuits you can make in HV. Used for EV and IV machines and components.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
