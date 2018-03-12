@@ -123125,6 +123125,20 @@
               "Damage": 0,
               "tag": {
                 "owner:8": "berriespp",
+                "name:8": "Yellow Stonelilly",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "berriespp",
                 "name:8": "Goldfish Plant",
                 "scan:4": 4,
                 "growth:4": 1,
@@ -128224,7 +128238,7 @@
           "requiredItems": [
             {
               "id": "IC2:blockGenerator",
-              "Count": 9,
+              "Count": 8,
               "OreDict": "",
               "Damage": 3
             },
@@ -128233,27 +128247,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": false,
-          "ignoreNBT": true,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 21
-            },
-            {
-              "id": "IC2:blockElectric",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 3
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -128294,8 +128287,8 @@
         }
       ],
       "preRequisites": [
-        62,
-        237
+        237,
+        935
       ]
     },
     {
@@ -128723,7 +128716,7 @@
     {
       "questID": 1338,
       "name": "Full power",
-      "description": "Triple Compressed Solars. Yes, thats right. They are a bit more expensive than their lower counterparts, 576 Solars in total. But they give out 1.000IC2EU per tick and have no  need to be cleaned due to their inner magic. How so? Magic.",
+      "description": "Triple Compressed Solars. Yes, thats right. They are a bit more expensive than their lower counterparts, 576 Solars in total. But they give out 1.000GTEU per tick and have no  need to be cleaned due to their inner magic. How so? Magic.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
