@@ -30,28 +30,29 @@ Complex processing lines, automation, a large variety in power generation and a 
 Crossbreeding plants, bees and crops with Forestry and IndustrialCraft2, setting up mobfarms using EnderIO and Draconic Evolution and general infrastructure improvements with Railcraft and Applied Energistics; it's all there, anything you would want (and possibly need) if you enjoy the technical aspect of modded Minecraft.
  
 **Magic**<BR>
-Many mods are carefully tied to Thaumcraft using a progression centered around killing Twilight Forest bosses. Its addons like Forbidden Magic, Automagy, Thaumic Tinkerer, Thaumic Exploration, Thaumic Horizons etc. are also modified.<BR>
-
-When you've progressed enough you can reach Witchery or even Blood Magic.
+GT New Horizons comes with a variety of powerfull magic mods. Your main access will be through the Thauminomicon which is modified to also feature custom sections for Blood Magic, Witchery and other important things besides having the usual content of Thaumcraft and its add-ons.<BR>
+The Twilight Forest is a dimension linked to magic in this pack and you will have to explore and defeat the bosses to progress. Later on there is power generation with essentia and options to store it using your AE system connecting technic with magic.
 
 **Exploration**<BR>
-Using Realistic World Gen along with Biomes'o'Plenty creates a wonderful terrain. With Twillight Forest (that you need to conquer to reach endgame Thaumcraft), Galacticraft and other mods the server has over EIGHT dimensions.<BR>
-
-Rogue-like Dungeons and HEE with other mods' worldgen make sure you got some goodies to find.
-
-Ore generation is a modified Gregtech ore generation, with large veins of materials. Finding the vein will take time, but once you find one you're good for quite a while.  And with Journeymap included, you'll be setting waypoints across the map for rare ores, that villager with the perfect trade, and that oil field you want to turn into a forest of pumps!
+Using Realistic World Gen along with Biomes o'Plenty creates a beautiful terrain in the overworld.<BR>
+Besides all the biomes and natural structures you can find there will be challanging Dungeons that come with decent loot and spawners you might want to take advantage of.<BR>
+ 
+GregTech makes ores spawn in large veins rather than small clusters of everything being all over the place.<BR>
+Finding the veins will take time, but once you find one you are good for quite a while.<BR>
+In most packs nearly everything spawns in the overworld which is not the case in GT New Horizons, and you are encouraged to mine in other dimensions such as the Twilight Forest, the nether, the end and (later on) even on other planets to make your way to the endgame. Unlocking things by mining for materials on other planets will create that situation where Galacticraft all of a sudden becomes important to progress which feels really rewarding.<BR>
 
 **Survival**<BR>
-Hunger Overhaul, Pam's Harvestcraft, Special Mobs, HEE, Infernal Mobs, Lava Monsters, Zombie Awareness. Do I need to continue?
+The first few days and nights will be rough, in fact nights will stay rough for a while since hardcore darkness makes them pitch black without any light sources or potion effects, so you might want to get a bed up quickly!<BR>
+Food is a critical thing early game and you can't keep eating the same things. Better watch out for some gardens from Pam's Harvestcraft to get some variety into your nutrition!<BR>
 
-You want to roam the land and kill everything in sight with ease, build a highly advanced MagicTech base and raid all the dungeons in Minecraft? Sure, you can. You got a long journey ahead though.
+Be prepared to face strong mobs that can cause death quickly if you play without any strategy.<BR>
+Facing them with better gear will make life easier once you progress but until then you might want to torch up your base.<BR>
 
+**Questing**<BR>
+GT New Horizons comes with over 1300 quests that will guide the player through the maze that modded Minecraft can be.<BR>
+The texts will inform you what's required to progress so you don't have to watch tutorials or ask others as often. The questbook can even save you the time to type into NEI, just click the items displayed in the quest and it will display the recipe through NEI, quite handy right?
 
-## TL;DR
-* Food is a critical thing in the pack starting the game
-* Hardcore darkness means you cant see at night time w/o potions/effect. You'll be cowering in a dirt hut until you get some tech to make torches. Oh yeah, did I mention torches require tech?? You'll have to smelt coal or make charcoal using a coke oven to get torches, so get a bed setup ASAP!
-* Some passive mobs explode on death, other mobs can be infernal. **You'll die A LOT**. Use a good strategy. Progress in magic and  tech should be equal, and have the patience to read the entire readme and not use the TL;DR :P
-* Read the quest book!  Not only is it rewarding, but it's a great guide on "Now What?" Make sure to check back on tabs in case progress in another tab has opened up new quests in a different tab.
+Custom lootbags and the coin system make for unique and helpfull rewards. And we all enjoy the gamble from time to time.
 
 
 ---
