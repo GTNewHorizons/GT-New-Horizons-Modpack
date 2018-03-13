@@ -124,7 +124,12 @@ lanCard {
           ["oc:cable", "oc:materialCard", "oc:cable"]
           [screwStainlessSteel , craftingToolScrewdriver, screwStainlessSteel]]
 }
-wlanCard {
+wlanCard1 {
+  input: [[screwAluminium , "oc:circuitChip2" , screwAluminium]
+          [torchRedstoneActive, "oc:lanCard", torchRedstoneActive]
+          [screwAluminium , craftingToolScrewdriver, screwAluminium]]
+}
+wlanCard2 {
   input: [[screwTitanium , "oc:circuitChip3" , screwTitanium]
           [materialEnderPearl, "oc:lanCard", materialEnderPearl]
           [screwTitanium , craftingToolScrewdriver, screwTitanium]]
@@ -266,6 +271,10 @@ cable {
   time: 64
   output: 8
 }
+carpetedCapacitor {
+  type: shapeless
+  input: [carpet, "oc:capacitor"]
+}
 capacitor {
   # 7 = CESU
   input: [["", {item="ic2.blockElectric", subID=7}, ""]
@@ -312,7 +321,7 @@ powerDistributor {
           ["oc:materialCircuitBoardPrinted", plateAluminium, craftingToolWrench]]
 }
 rack {
-  input: [[craftingToolScrewdriver, "oc:wlanCard", craftingToolWrench]
+  input: [[craftingToolScrewdriver, "oc:wlanCard2", craftingToolWrench]
           [{item="ic2.reactorVentDiamond", subID=1}, chest, {item="ic2.reactorVentDiamond", subID=1}]
           ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }

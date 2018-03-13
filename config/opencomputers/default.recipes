@@ -16,7 +16,7 @@ manual {
   input: [book, "oc:circuitChip1"]
 }
 nanomachines {
-  input: [["oc:chamelium", "oc:wlanCard", "oc:chamelium"]
+  input: [["oc:chamelium", "oc:wlanCard2", "oc:chamelium"]
           ["oc:cpu2", "oc:materialAcid", "oc:ram1"]
           ["oc:chamelium", "oc:capacitor", "oc:chamelium"]]
 }
@@ -69,7 +69,7 @@ microcontrollerCase2 {
 }
 terminal {
   input: [[nuggetIron, "oc:solarGeneratorUpgrade", nuggetIron]
-          ["oc:circuitChip3", "oc:screen2", "oc:wlanCard"]
+          ["oc:circuitChip3", "oc:screen2", "oc:wlanCard2"]
           [nuggetIron, "oc:keyboard", nuggetIron]]
 }
 tabletCase1 {
@@ -104,8 +104,8 @@ server3 {
           [obsidian, "oc:materialCircuitBoardPrinted", obsidian]]
 }
 terminalServer {
-  input: [[obsidian, "oc:wlanCard", obsidian]
-          ["oc:wlanCard", "oc:circuitChip2", "oc:wlanCard"]
+  input: [[obsidian, "oc:wlanCard2", obsidian]
+          ["oc:wlanCard2", "oc:circuitChip2", "oc:wlanCard2"]
           [obsidian, "oc:materialCircuitBoardPrinted", obsidian]]
 }
 
@@ -200,7 +200,11 @@ lanCard {
   input: [["oc:cable", "oc:circuitChip1", ""]
           ["", "oc:materialCard", ""]]
 }
-wlanCard {
+wlanCard1 {
+  input: [[torchRedstoneActive, "oc:circuitChip1", torchRedstoneActive]
+          ["", "oc:materialCard", ""]]
+}
+wlanCard2 {
   input: [[materialEnderPearl, "oc:circuitChip2", ""]
           ["", "oc:materialCard", ""]]
 }
@@ -563,6 +567,14 @@ cable {
           ["", nuggetIron, ""]]
   output: 4
 }
+luaBios {
+  type: shapeless
+  input: ["oc:eeprom", "oc:manual"]
+}
+carpetedCapacitor {
+  type: shapeless
+  input: [carpet, "oc:capacitor"]
+}
 capacitor {
   input: [[ingotIron, "oc:materialTransistor", ingotIron]
           [nuggetGold, paper, nuggetGold]
@@ -643,7 +655,7 @@ powerDistributor {
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 rack {
-  input: [[gemDiamond, "oc:wlanCard", gemDiamond]
+  input: [[gemDiamond, "oc:wlanCard2", gemDiamond]
           [fenceIron, chest, fenceIron]
           ["oc:relay", "oc:materialCircuitBoardPrinted", "oc:powerDistributor"]]
 }

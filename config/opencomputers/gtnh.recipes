@@ -45,9 +45,12 @@ texturePicker {
 
 wrench = true
 
-lootDisks = true
-
 luaBios = true
+
+carpetedCapacitor {
+  type: shapeless
+  input: [carpet, "oc:capacitor"]
+}
 
 droneCase1 = true
 
@@ -115,7 +118,9 @@ redstoneCard2 = true
 
 lanCard = true
 
-wlanCard = true
+wlanCard1 = true
+
+wlanCard2 = true
 
 linkedCard = true
 

@@ -10,7 +10,7 @@ analyzer {
 }
 terminal {
   input: [[nuggetIron, "oc:solarGeneratorUpgrade", nuggetIron]
-          ["oc:circuitChip3", "oc:screen2", "oc:wlanCard"]
+          ["oc:circuitChip3", "oc:screen2", "oc:wlanCard2"]
           [nuggetIron, "oc:keyboard", nuggetIron]]
 }
 
@@ -102,7 +102,7 @@ graphicsCard3 {
 }
 internetCard {
   input: [["oc:materialInterweb", "oc:circuitChip3", torchRedstoneActive]
-          ["", "oc:wlanCard", obsidian]]
+          ["", "oc:wlanCard2", obsidian]]
 }
 redstoneCard1 {
   input: [[torchRedstoneActive, "oc:circuitChip1", ""]
@@ -116,13 +116,17 @@ lanCard {
   input: [["oc:cable", "oc:circuitChip1", ""]
           ["", "oc:materialCard", ""]]
 }
-wlanCard {
+wlanCard1 {
+  input: [[torchRedstoneActive, "oc:circuitChip1", torchRedstoneActive]
+          ["", "oc:lanCard", ""]]
+}
+wlanCard2 {
   input: [[materialEnderPearl, "oc:circuitChip2", ""]
           ["", "oc:lanCard", ""]]
 }
 linkedCard {
   input: [[eyeOfEnder, "", eyeOfEnder]
-          ["oc:wlanCard", "oc:materialInterweb", "oc:wlanCard"]
+          ["oc:wlanCard2", "oc:materialInterweb", "oc:wlanCard2"]
           ["oc:circuitChip3", "", "oc:circuitChip3"]]
   output: 2 # Note: all resulting cards are linked to each other.
 }
@@ -312,6 +316,10 @@ cable {
           ["", nuggetIron, ""]]
   output: 4
 }
+carpetedCapacitor {
+  type: shapeless
+  input: [carpet, "oc:capacitor"]
+}
 capacitor {
   input: [[ingotIron, "oc:materialTransistor", ingotIron]
           [nuggetGold, paper, nuggetGold]
@@ -372,7 +380,7 @@ powerDistributor {
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 rack {
-  input: [["oc:circuitChip3", "oc:wlanCard", "oc:circuitChip3"]
+  input: [["oc:circuitChip3", "oc:wlanCard2", "oc:circuitChip3"]
           [fenceIron, chest, fenceIron]
           ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
