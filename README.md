@@ -98,16 +98,16 @@ Discord Server:  https://discord.gg/cBQUpSr<BR>
 149.56.109.207<BR>
 
 
-## German Server Public:<BR>
+## German Server:<BR>
 
-MyFTB (whitelist???)<BR>
+MyFTB Public (no whitelist)<BR>
 https://myftb.de/<BR>
 gtnewhorizons.myftb.de<BR>
 
 
-## France Server Public:<BR>
+## France Server:<BR>
 
-Trilex Server (whitelist)<BR>
+Trilex Server Public (whitelist)<BR>
 mc.trilexnet.com<BR>
 Discord Server: https://discord.gg/0m5HHKEswEbYn8nb<BR>
 
