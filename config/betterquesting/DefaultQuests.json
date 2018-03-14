@@ -8955,6 +8955,8 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "gregtech:gt.blockmachines",
@@ -8963,7 +8965,7 @@
               "Damage": 551
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -54669,7 +54671,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 161
+              "Damage": 171
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -59538,8 +59540,8 @@
     },
     {
       "questID": 664,
-      "name": "LV battery buffer 4 slots",
-      "description": "Upgrade your battery buffer to hold 4 batteries which allows max 4 ampere output.\nUseful for your EBF and the arc furnace.",
+      "name": "LV battery buffer 9 slots",
+      "description": "Upgrade your battery buffer to hold 9 batteries which allows max 9 ampere output.\nUseful for your EBF and the arc furnace.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -59573,7 +59575,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 171
+              "Damage": 181
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -66352,21 +66354,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 242
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "IC2:itemFuelPlantBall",
               "Count": 64,
               "OreDict": "",
@@ -66381,19 +66368,19 @@
           "choices": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 16,
+              "Count": 4,
               "OreDict": "",
               "Damage": 1366
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
+              "Count": 1,
               "OreDict": "",
               "Damage": 32702
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 4,
               "OreDict": "",
               "Damage": 17019
             },
@@ -66456,21 +66443,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 302
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "dreamcraft:item.MaceratedPlantmass",
               "Count": 64,
               "OreDict": "",
@@ -66485,19 +66457,19 @@
           "choices": [
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 16,
+              "Count": 8,
               "OreDict": "",
               "Damage": 1366
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 32702
             },
             {
               "id": "IC2:itemPartIndustrialDiamond",
-              "Count": 4,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
@@ -66553,21 +66525,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 362
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -66671,21 +66628,6 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemCellEmpty",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 6
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -66731,7 +66673,7 @@
         }
       ],
       "preRequisites": [
-        733
+        1323
       ]
     },
     {
@@ -66772,21 +66714,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 492
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemCellEmpty",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 6
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -66835,7 +66762,7 @@
         }
       ],
       "preRequisites": [
-        733
+        1323
       ]
     },
     {
@@ -66945,8 +66872,7 @@
         }
       ],
       "preRequisites": [
-        734,
-        735
+        1323
       ]
     },
     {
@@ -79749,21 +79675,6 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 512
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
               "id": "gregtech:gt.metaitem.01",
               "Count": 64,
               "OreDict": "",
@@ -86512,8 +86423,15 @@
         "OreDict": "",
         "Damage": 4,
         "tag": {
-          "backpackData:10": {
-            "colorName:8": "Blaze"
+          "wearableData:10": {
+            "inventory:9": [],
+            "type:1": 4,
+            "leftTank:10": {
+              "Empty:8": ""
+            },
+            "rightTank:10": {
+              "Empty:8": ""
+            }
           }
         }
       },
@@ -88680,7 +88598,7 @@
             },
             {
               "id": "IC2:itemPartCircuitAdv",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "circuitAdvanced",
               "Damage": 0
             },
@@ -113180,7 +113098,7 @@
     },
     {
       "questID": 1170,
-      "name": "Bath Salt",
+      "name": "Bath Soap",
       "description": "Oh you feel so dirty. Go and take the soap and a shower.",
       "isMain": false,
       "isSilent": false,
@@ -117012,10 +116930,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockcasings4",
+              "id": "gregtech:gt.blockcasings",
               "Count": 32,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 15
             },
             {
               "id": "gregtech:gt.blockcasings",
@@ -120466,7 +120384,7 @@
     },
     {
       "questID": 1243,
-      "name": "Pitchblen",
+      "name": "Pitchblend",
       "description": "In order to try running your nuclear reactor you need some uranium or plutonium fuel. Go and find a pitchblend vein on Mars at Y 30-60.",
       "isMain": true,
       "isSilent": false,
@@ -123791,6 +123709,84 @@
       ]
     },
     {
+      "questID": 1279,
+      "name": "Firestone Ore/Dust",
+      "description": "Firestone ore is handy for some base building machines. Unforunately, it\u0027s in the nether...at the bottom of the lava ocean! Here are some tips for finding it\n\nFirestone can be mined with the GT miners, if you place it within range.\nFirestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won\u0027t have any. Can you think of ways to check the lava depth, and what\u0027s down there?\nNormally you can\u0027t see through lava, but if you enable nightvision on the nanosuit, you can see a short distance at the bottom. But how to prevent getting burned?\nAlternatively, if you keep your head at just the correct height above the lava and at the correct angle, you\u0027ll be able to see underneath it, Surely there must be a hovering jetpack?\nFirestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2347
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2347
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2347
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1090,
+        931
+      ]
+    },
+    {
       "questID": 1280,
       "name": "The industrial way",
       "description": "Making rum can be automated, but you need to follow this industrial way for it.",
@@ -124261,6 +124257,170 @@
       ]
     },
     {
+      "questID": 1286,
+      "name": "Primal Shrooms",
+      "description": "Primal shrooms allow you to refill wands easier before you can move nodes to your base.\nGo and find some in a magical forrest biome or buy some if no biome is close to your location.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCustomPlant",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thaumicbases:ashroom",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "Thaumcraft:blockCustomPlant",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "minecraft:nether_wart",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        241
+      ]
+    },
+    {
+      "questID": 1287,
+      "name": "Vish Shroom",
+      "description": "Oh you feel so dirty. Go and take a bath.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 432000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:blockCustomPlant",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1097
+      ]
+    },
+    {
       "questID": 1288,
       "name": "Hops, the source of beer",
       "description": "If you don\u0027t want pure alcohol, but beer, get some hops by crossbreeding IC² crops.",
@@ -124324,6 +124484,109 @@
       ],
       "preRequisites": [
         721
+      ]
+    },
+    {
+      "questID": 1289,
+      "name": "Looting II",
+      "description": "The butchers knife from gt have looting 2. Go and find some treasures during your nightly monster slaying.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 36,
+        "tag": {
+          "ench:9": [
+            {
+              "lvl:2": 1,
+              "id:2": 21
+            }
+          ]
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 36,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 21
+                  }
+                ]
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 54
+            },
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
       ]
     },
     {
@@ -125058,6 +125321,81 @@
       ],
       "preRequisites": [
         181
+      ]
+    },
+    {
+      "questID": 1297,
+      "name": "Dragon essense",
+      "description": "Need some Dragon essense? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 864000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HardcoreEnderExpansion:essence",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:dragon_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreEnderExpansion:essence",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        400
       ]
     },
     {
@@ -125842,6 +126180,81 @@
       ],
       "preRequisites": [
         1301
+      ]
+    },
+    {
+      "questID": 1307,
+      "name": "Dragon essense II",
+      "description": "Need some Dragon essense? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 864000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "DraconicEvolution:dragonHeart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "DraconicEvolution:dragonHeart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreEnderExpansion:essence",
+              "Count": 320,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1297
       ]
     },
     {
@@ -126811,6 +127224,457 @@
       ],
       "preRequisites": [
         1317
+      ]
+    },
+    {
+      "questID": 1320,
+      "name": "Advanced Compressor",
+      "description": "The mv compressor is double fast than the LV one and use 4x power. I suggest crafting 4 MV compressors for the new bio diesel processing line.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 242
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 242
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        731
+      ]
+    },
+    {
+      "questID": 1321,
+      "name": "Advanced Macerator",
+      "description": "The mv macerator is double fast than the LV one and use 4x power.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 301
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 302
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        732
+      ]
+    },
+    {
+      "questID": 1322,
+      "name": "Advanced Centrifuge",
+      "description": "The mv centrifuge is double fast than the LV one and use 4x power.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 362
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 362
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        733
+      ]
+    },
+    {
+      "questID": 1323,
+      "name": "Biomass",
+      "description": "Chose the ic2 or the gregtech way to make biomass. Water and BioChaff is needed.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemCellEmpty",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        733
+      ]
+    },
+    {
+      "questID": 1324,
+      "name": "Advanced Fluid Extractor",
+      "description": "The mv fluid extractor is double fast than the LV one and use 4x power.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 512
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 512
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1366
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32702
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        848
       ]
     },
     {
@@ -130131,21 +130995,6 @@
           "id": 1204,
           "x": 108,
           "y": 36
-        },
-        {
-          "id": 1363,
-          "x": 0,
-          "y": 66
-        },
-        {
-          "id": 1364,
-          "x": 0,
-          "y": 90
-        },
-        {
-          "id": 1365,
-          "x": 0,
-          "y": 114
         }
       ]
     },
@@ -130425,7 +131274,7 @@
         },
         {
           "id": 945,
-          "x": 36,
+          "x": 0,
           "y": 72
         },
         {
@@ -130445,7 +131294,12 @@
         },
         {
           "id": 1146,
-          "x": 60,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 1289,
+          "x": 72,
           "y": 36
         }
       ]
@@ -131468,563 +132322,593 @@
       "quests": [
         {
           "id": 89,
-          "x": 312,
+          "x": 408,
           "y": 132
         },
         {
           "id": 128,
-          "x": 768,
+          "x": 864,
           "y": 204
         },
         {
           "id": 129,
-          "x": 768,
+          "x": 864,
           "y": 264
         },
         {
           "id": 130,
-          "x": 804,
+          "x": 900,
           "y": 300
         },
         {
           "id": 131,
-          "x": 720,
+          "x": 816,
           "y": 300
         },
         {
           "id": 132,
-          "x": 804,
+          "x": 900,
           "y": 336
         },
         {
           "id": 133,
-          "x": 720,
+          "x": 816,
           "y": 264
         },
         {
           "id": 134,
-          "x": 804,
+          "x": 900,
           "y": 264
         },
         {
           "id": 135,
-          "x": 852,
+          "x": 948,
           "y": 264
         },
         {
           "id": 136,
-          "x": 852,
+          "x": 948,
           "y": 228
         },
         {
           "id": 137,
-          "x": 804,
+          "x": 900,
           "y": 228
         },
         {
           "id": 138,
-          "x": 804,
+          "x": 900,
           "y": 180
         },
         {
           "id": 140,
-          "x": 852,
+          "x": 948,
           "y": 180
         },
         {
           "id": 142,
-          "x": 852,
+          "x": 948,
           "y": 336
         },
         {
           "id": 143,
-          "x": 732,
+          "x": 828,
           "y": 336
         },
         {
           "id": 145,
-          "x": 768,
+          "x": 864,
           "y": 336
         },
         {
           "id": 148,
-          "x": 852,
+          "x": 948,
           "y": 300
         },
         {
           "id": 149,
-          "x": 888,
+          "x": 984,
           "y": 336
         },
         {
           "id": 150,
-          "x": 852,
+          "x": 948,
           "y": 372
         },
         {
           "id": 151,
-          "x": 888,
+          "x": 984,
           "y": 300
         },
         {
           "id": 152,
-          "x": 924,
+          "x": 1020,
           "y": 300
         },
         {
           "id": 153,
-          "x": 48,
-          "y": 228
+          "x": 132,
+          "y": 240
         },
         {
           "id": 154,
-          "x": 48,
-          "y": 264
+          "x": 96,
+          "y": 240
         },
         {
           "id": 155,
-          "x": 84,
-          "y": 300
+          "x": 132,
+          "y": 312
         },
         {
           "id": 156,
-          "x": 48,
-          "y": 336
+          "x": 96,
+          "y": 312
         },
         {
           "id": 157,
           "x": 48,
-          "y": 372
+          "y": 312
         },
         {
           "id": 158,
-          "x": 0,
-          "y": 408
+          "x": 48,
+          "y": 276
         },
         {
           "id": 159,
           "x": 0,
-          "y": 372
+          "y": 312
         },
         {
           "id": 126,
-          "x": 360,
+          "x": 456,
           "y": 372
         },
         {
           "id": 659,
-          "x": 216,
+          "x": 312,
           "y": 132
         },
         {
           "id": 660,
-          "x": 264,
+          "x": 360,
           "y": 132
         },
         {
           "id": 730,
-          "x": 84,
-          "y": 336
-        },
-        {
-          "id": 731,
-          "x": 84,
+          "x": 96,
           "y": 372
         },
         {
+          "id": 731,
+          "x": 96,
+          "y": 408
+        },
+        {
           "id": 732,
-          "x": 120,
+          "x": 144,
           "y": 408
         },
         {
           "id": 733,
-          "x": 48,
+          "x": 144,
           "y": 444
         },
         {
           "id": 734,
-          "x": 84,
+          "x": 192,
           "y": 480
         },
         {
           "id": 735,
-          "x": 0,
+          "x": 96,
           "y": 480
         },
         {
           "id": 736,
-          "x": 48,
+          "x": 144,
           "y": 516
         },
         {
           "id": 127,
-          "x": 0,
+          "x": 96,
           "y": 168
         },
         {
           "id": 738,
-          "x": 0,
-          "y": 132
-        },
-        {
-          "id": 737,
-          "x": 36,
+          "x": 48,
           "y": 168
         },
         {
+          "id": 737,
+          "x": 96,
+          "y": 132
+        },
+        {
           "id": 739,
-          "x": 36,
+          "x": 48,
           "y": 132
         },
         {
           "id": 740,
-          "x": 48,
-          "y": 300
+          "x": 132,
+          "y": 276
         },
         {
           "id": 749,
-          "x": 228,
+          "x": 324,
           "y": 408
         },
         {
           "id": 751,
-          "x": 264,
+          "x": 360,
           "y": 372
         },
         {
           "id": 753,
-          "x": 264,
+          "x": 360,
           "y": 408
         },
         {
           "id": 754,
-          "x": 228,
+          "x": 324,
           "y": 372
         },
         {
           "id": 757,
-          "x": 396,
-          "y": 408
+          "x": 492,
+          "y": 372
         },
         {
           "id": 758,
-          "x": 0,
-          "y": 264
+          "x": 48,
+          "y": 204
         },
         {
           "id": 759,
-          "x": 396,
+          "x": 492,
           "y": 516
         },
         {
           "id": 760,
-          "x": 156,
+          "x": 252,
           "y": 132
         },
         {
           "id": 773,
-          "x": 120,
-          "y": 336
-        },
-        {
-          "id": 774,
-          "x": 84,
-          "y": 408
-        },
-        {
-          "id": 778,
-          "x": 120,
+          "x": 216,
           "y": 372
         },
         {
-          "id": 780,
+          "id": 774,
           "x": 48,
           "y": 408
         },
         {
+          "id": 778,
+          "x": 216,
+          "y": 408
+        },
+        {
+          "id": 780,
+          "x": 0,
+          "y": 408
+        },
+        {
           "id": 785,
-          "x": 96,
+          "x": 192,
           "y": 0
         },
         {
           "id": 794,
-          "x": 264,
+          "x": 360,
           "y": 0
         },
         {
           "id": 795,
-          "x": 156,
+          "x": 252,
           "y": 0
         },
         {
           "id": 746,
-          "x": 96,
+          "x": 192,
           "y": 84
         },
         {
           "id": 752,
-          "x": 96,
+          "x": 192,
           "y": 36
         },
         {
           "id": 782,
-          "x": 156,
+          "x": 252,
           "y": 84
         },
         {
           "id": 791,
-          "x": 216,
+          "x": 312,
           "y": 36
         },
         {
           "id": 792,
-          "x": 216,
+          "x": 312,
           "y": 84
         },
         {
           "id": 837,
-          "x": 156,
+          "x": 252,
           "y": 36
         },
         {
           "id": 793,
-          "x": 312,
+          "x": 408,
           "y": 0
         },
         {
           "id": 838,
-          "x": 360,
+          "x": 456,
           "y": 0
         },
         {
           "id": 839,
-          "x": 408,
+          "x": 504,
           "y": 0
         },
         {
           "id": 750,
-          "x": 396,
+          "x": 492,
           "y": 552
         },
         {
           "id": 842,
-          "x": 0,
+          "x": 96,
           "y": 516
         },
         {
           "id": 843,
-          "x": 84,
+          "x": 192,
           "y": 552
         },
         {
           "id": 844,
-          "x": 0,
+          "x": 96,
           "y": 552
         },
         {
           "id": 845,
-          "x": 36,
+          "x": 144,
           "y": 588
         },
         {
           "id": 846,
-          "x": 360,
+          "x": 456,
           "y": 516
         },
         {
           "id": 847,
-          "x": 360,
+          "x": 456,
           "y": 480
         },
         {
           "id": 848,
-          "x": 120,
+          "x": 216,
           "y": 588
         },
         {
           "id": 849,
-          "x": 168,
+          "x": 252,
           "y": 588
         },
         {
           "id": 852,
-          "x": 216,
+          "x": 312,
           "y": 516
         },
         {
           "id": 893,
-          "x": 360,
-          "y": 156
-        },
-        {
-          "id": 894,
-          "x": 408,
-          "y": 156
-        },
-        {
-          "id": 895,
-          "x": 396,
-          "y": 324
-        },
-        {
-          "id": 896,
-          "x": 396,
-          "y": 264
-        },
-        {
-          "id": 897,
-          "x": 444,
-          "y": 324
-        },
-        {
-          "id": 931,
-          "x": 444,
-          "y": 228
-        },
-        {
-          "id": 933,
-          "x": 264,
-          "y": 36
-        },
-        {
-          "id": 934,
-          "x": 312,
-          "y": 36
-        },
-        {
-          "id": 935,
-          "x": 312,
-          "y": 84
-        },
-        {
-          "id": 938,
-          "x": 264,
-          "y": 444
-        },
-        {
-          "id": 939,
-          "x": 300,
-          "y": 444
-        },
-        {
-          "id": 850,
-          "x": 216,
-          "y": 444
-        },
-        {
-          "id": 944,
           "x": 456,
           "y": 156
         },
         {
+          "id": 894,
+          "x": 504,
+          "y": 156
+        },
+        {
+          "id": 895,
+          "x": 492,
+          "y": 324
+        },
+        {
+          "id": 896,
+          "x": 492,
+          "y": 264
+        },
+        {
+          "id": 897,
+          "x": 540,
+          "y": 324
+        },
+        {
+          "id": 931,
+          "x": 540,
+          "y": 228
+        },
+        {
+          "id": 933,
+          "x": 360,
+          "y": 36
+        },
+        {
+          "id": 934,
+          "x": 408,
+          "y": 36
+        },
+        {
+          "id": 935,
+          "x": 408,
+          "y": 84
+        },
+        {
+          "id": 938,
+          "x": 360,
+          "y": 444
+        },
+        {
+          "id": 939,
+          "x": 396,
+          "y": 444
+        },
+        {
+          "id": 850,
+          "x": 312,
+          "y": 444
+        },
+        {
+          "id": 944,
+          "x": 552,
+          "y": 156
+        },
+        {
           "id": 951,
-          "x": 204,
+          "x": 300,
           "y": 552
         },
         {
           "id": 952,
-          "x": 204,
+          "x": 300,
           "y": 588
         },
         {
           "id": 953,
-          "x": 300,
+          "x": 396,
           "y": 372
         },
         {
           "id": 604,
-          "x": 720,
+          "x": 816,
           "y": 228
         },
         {
           "id": 987,
-          "x": 672,
+          "x": 768,
           "y": 264
         },
         {
           "id": 990,
-          "x": 672,
+          "x": 768,
           "y": 228
         },
         {
           "id": 1013,
-          "x": 444,
+          "x": 540,
           "y": 444
         },
         {
           "id": 1015,
-          "x": 444,
+          "x": 540,
           "y": 480
         },
         {
           "id": 1020,
-          "x": 396,
+          "x": 492,
           "y": 480
         },
         {
           "id": 1021,
-          "x": 444,
+          "x": 540,
           "y": 516
         },
         {
           "id": 1081,
-          "x": 444,
+          "x": 540,
           "y": 264
         },
         {
           "id": 1082,
-          "x": 0,
+          "x": 96,
           "y": 204
         },
         {
           "id": 1083,
           "x": 0,
-          "y": 300
+          "y": 204
         },
         {
           "id": 1093,
-          "x": 0,
+          "x": 96,
           "y": 444
         },
         {
           "id": 553,
-          "x": 264,
+          "x": 360,
           "y": 336
         },
         {
           "id": 1180,
-          "x": 492,
+          "x": 588,
           "y": 264
         },
         {
           "id": 1148,
-          "x": 156,
+          "x": 252,
           "y": 204
         },
         {
           "id": 1226,
-          "x": 36,
+          "x": 144,
           "y": 624
         },
         {
           "id": 1227,
-          "x": 444,
+          "x": 540,
           "y": 552
         },
         {
           "id": 1267,
-          "x": 96,
+          "x": 192,
           "y": 168
         },
         {
           "id": 1268,
-          "x": 96,
+          "x": 192,
           "y": 132
         },
         {
           "id": 1269,
-          "x": 36,
+          "x": 132,
           "y": 84
+        },
+        {
+          "id": 1279,
+          "x": 588,
+          "y": 228
+        },
+        {
+          "id": 1320,
+          "x": 48,
+          "y": 372
+        },
+        {
+          "id": 1321,
+          "x": 144,
+          "y": 372
+        },
+        {
+          "id": 1322,
+          "x": 192,
+          "y": 444
+        },
+        {
+          "id": 1323,
+          "x": 144,
+          "y": 480
+        },
+        {
+          "id": 1324,
+          "x": 216,
+          "y": 624
         }
       ]
     },
@@ -133420,6 +134304,21 @@
           "id": 1207,
           "x": 696,
           "y": 144
+        },
+        {
+          "id": 1287,
+          "x": 660,
+          "y": 360
+        },
+        {
+          "id": 1297,
+          "x": 840,
+          "y": 360
+        },
+        {
+          "id": 1307,
+          "x": 840,
+          "y": 396
         }
       ]
     },
@@ -133868,6 +134767,11 @@
           "id": 1177,
           "x": 48,
           "y": 144
+        },
+        {
+          "id": 1286,
+          "x": 156,
+          "y": 108
         }
       ]
     },

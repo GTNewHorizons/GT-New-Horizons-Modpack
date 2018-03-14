@@ -1626,6 +1626,12 @@ recipes.addShaped(<TConstruct:ToolStationBlock:1>, [
 [<ore:stickWood>, <TConstruct:blankPattern>, <ore:stickWood>],
 [<TConstruct:trap.barricade.oak>, <ore:stickWood>, <TConstruct:trap.barricade.oak>],
 [null, <ore:craftingToolSoftHammer>, null]]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:1>, [<TConstruct:ToolStationBlock:2>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:1>, [<TConstruct:ToolStationBlock:3>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:1>, [<TConstruct:ToolStationBlock:4>]);
 
 // --- Part Builder Spruce
 recipes.addShaped(<TConstruct:ToolStationBlock:2>, [

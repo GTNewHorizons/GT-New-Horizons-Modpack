@@ -761,3 +761,6 @@ NEI.overrideName(PipeDiamondKinesis, "Diamond-Covered Kinesis Pipe");
 
 // --- Emerald-Covered Kinesis Pipe
 NEI.overrideName(PipeEmeraldKinesis, "Emerald-Covered Kinesis Pipe");
+
+// --- Redstone Crystal
+NEI.overrideName(<BuildCraft|Silicon:redstoneCrystal>, "Firestone Crystal");

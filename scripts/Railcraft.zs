@@ -179,7 +179,7 @@ val WoodenTrack = <Railcraft:track:736>.withTag({track: "railcraft:track.slow"})
 val Track = <minecraft:rail>;
 val ReinforcedTrack = <Railcraft:track:24050>.withTag({track: "railcraft:track.reinforced"});
 val HsTrack = <Railcraft:track:816>.withTag({track: "railcraft:track.speed"});
-val ElectricTrack = <Railcraft:track:10192>.withTag({track: "railcraft:track.electric"});
+val ElectricTrack = <Railcraft:track>.withTag({track: "railcraft:track.electric"});
 
 val BronzePipe = <gregtech:gt.blockmachines:5123>;
 val SteelPipe = <gregtech:gt.blockmachines:5133>;
