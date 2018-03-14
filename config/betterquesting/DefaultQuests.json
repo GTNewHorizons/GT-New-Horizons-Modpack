@@ -3037,12 +3037,6 @@
               "Count": 1,
               "OreDict": "craftingToolHardHammer",
               "Damage": 12
-            },
-            {
-              "id": "gregtech:gt.metatool.01",
-              "Count": 1,
-              "OreDict": "craftingToolSoftHammer",
-              "Damage": 14
             }
           ],
           "taskID": "bq_standard:crafting"
@@ -51605,6 +51599,12 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 11
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 31305
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -102615,7 +102615,7 @@
             },
             {
               "id": "harvestcraft:onionItem",
-              "Count": 1,
+              "Count": 4,
               "OreDict": "cropOnion",
               "Damage": 0
             },
@@ -102810,8 +102810,8 @@
     },
     {
       "questID": 1089,
-      "name": "Hearty Breakfas",
-      "description": "Let\u0027s now combine all things together and make a healthy and very good breakfast.\nSome cooked meat, potato cakes, toast, fried egg and a tasty juice provide you with a very nourishing meal.",
+      "name": "Hearty Breakfast",
+      "description": "Let\u0027s now combine all things together and make a healthy and very good breakfast.\nSome cooked meat, potato cakes, toast, fried egg and a tasty juice provide you with a very nourishing meal.\nYou can use any cooked meat and any fruit juice here.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102867,7 +102867,7 @@
             },
             {
               "id": "harvestcraft:applejuiceItem",
-              "Count": 64,
+              "Count": 1,
               "OreDict": "listAlljuice",
               "Damage": 0
             }
@@ -112213,7 +112213,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 9,
               "OreDict": "",
-              "Damage": 2086
+              "Damage": 86
             }
           ],
           "taskID": "bq_standard:retrieval"
