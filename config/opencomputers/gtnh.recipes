@@ -45,6 +45,8 @@ texturePicker {
 
 wrench = true
 
+lootDisks = []
+
 luaBios = true
 
 carpetedCapacitor {
@@ -309,3 +311,5 @@ waypoint = true
 appengTunnel = true
 
 chipDiamond = false
+
+gemDiamond = false
