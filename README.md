@@ -41,7 +41,7 @@ Besides all the biomes and natural structures you can find there will be challen
 In the early game, villages offer a nice resting spot while looking for the optimal base location. Later you will revisit the villages to trade for key items and scavenge for parts. Eventually you may end up relocating villagers closer to you - or taking over a village yourself.
  
 ***Put the mining back in Minecraft***
-GregTech spawns ore in large localized veins rather than small clusters everything, rewarding long searches with a huge vein that can sustain your base's growth for a long time.<BR>
+GregTech spawns ore in large localized veins rather than small clusters of everything, rewarding long searches with a huge vein that can sustain your base's growth for a long time.<BR>
 
 In most packs nearly everything spawns in the overworld which is not the case in GT New Horizons, and you are encouraged to mine in other dimensions such as the Twilight Forest, the nether, the end and (later on) even on other planets to make your way to the endgame. Unlocking things by mining for materials on other planets will create that situation where Galacticraft all of a sudden becomes important to progress which feels really rewarding.<BR>
 
@@ -59,10 +59,10 @@ The texts will inform you what's required to progress so you don't have to watch
 Custom lootbags and the coin system make for unique and helpful rewards. And we all enjoy the gamble from time to time.
 
 ***Is this a game for newbies?***
-Newbies to minecraft? Definitely not. Newbies to modded minecraft?  Maybe.  The questbook is a great introduction to the variety and type of mods available. With each mod gated players must learn about the mod to make the most of it while waiting for the next mod to unlock.
+Newbies to Minecraft? Definitely not. Newbies to modded Minecraft?  Maybe.  The questbook is a great introduction to the variety and type of mods available. With each mod gated players must learn about the mod to make the most of it while waiting for the next mod to unlock.
 
 ***Is this modpack for me??***
-Does the thought of earning that top-end gear over weeks or months appeal to you?
+Does the thought of earning that top-end gear over weeks or months appeal to you? The usual packs feel like they are over in 1 or 2 weeks since you get OP gear so quickly?
 
 How about designing a chemical processing system to rival a real oil refinery, with multiple inputs creating dozens of outputs and intermediate products to finally make a bar of plastic, rubber, explosives or other top end gear?
 
