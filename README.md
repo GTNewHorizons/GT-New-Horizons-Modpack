@@ -24,36 +24,55 @@ If you are fan of expert mode packs and want to take it to the next level this p
 
 ***Technology***<BR>
 GregTech on its own comes with a huge tech tree using the EU system and the other technology based mods will open up while you are progressing through the tiers.<BR>
-The main cables of GregTech got the inbuild feature to convert EU to RF so you don't have to worry about different energy systems and things feeling incompatible.<BR>
+The main cables of GregTech convert EU to RF so you don't have to worry about different energy systems and things feeling incompatible.<BR>
 
 Complex processing lines, automation, a large variety in power generation and a lot of materials to work with create an enviroment with many possibilities that the player has to explore.<BR>
-Crossbreeding plants, bees and crops with Forestry and IndustrialCraft2, setting up mobfarms using EnderIO and Draconic Evolution and general infrastructure improvements with Railcraft and Applied Energistics; it's all there, anything you would want (and possibly need) if you enjoy the technical aspect of modded Minecraft.
+Crossbreeding plants, bees and crops with Forestry and IndustrialCraft2, setting up mobfarms using EnderIO and Draconic Evolution, and general infrastructure improvements with Railcraft and Applied Energistics - it's all there, anything you want (and need!) if you enjoy the technical aspect of modded Minecraft.
  
 ***Magic***<BR>
-GT New Horizons comes with a variety of powerfull magic mods. Your main access will be through the Thauminomicon which is modified to also feature custom sections for Blood Magic, Witchery and other important things besides having the usual content of Thaumcraft and its add-ons.<BR>
-The Twilight Forest is a dimension linked to magic in this pack and you will have to explore and defeat the bosses to progress. Later on there is power generation with essentia and options to store it using your AE system connecting technic with magic.
+GT New Horizons comes with a variety of powerful magic mods. Your main access will be through the Thauminomicon which is modified to also feature custom sections for Blood Magic, Witchery, and other important things besides having the usual content of Thaumcraft and its add-ons.<BR>
+
+The Twilight Forest is the dimension linked to magic in this pack and you will have to explore and defeat the bosses to progress in magic. Later on there is power generation with essentia and options to store it using your AE system connecting technology with magic.
 
 ***Exploration***<BR>
 Using Realistic World Gen along with Biomes o'Plenty creates a beautiful terrain in the overworld.<BR>
-Besides all the biomes and natural structures you can find there will be challanging Dungeons that come with decent loot and spawners you might want to take advantage of.<BR>
+Besides all the biomes and natural structures you can find there will be challenging Rogue-like Dungeons that come with decent loot and spawners you might want to use in creative ways.<BR>
+
+In the early game, villages offer a nice resting spot while looking for the optimal base location. Later you will revisit the villages to trade for key items and scavenge for parts. Eventually you may end up relocating villagers closer to you - or taking over a village yourself.
  
-GregTech makes ores spawn in large veins rather than small clusters of everything being all over the place.<BR>
-Finding the veins will take time, but once you find one you are good for quite a while.<BR>
+***Put the mining back in Minecraft***
+GregTech spawns ore in large localized veins rather than small clusters everything, rewarding long searches with a huge vein that can sustain your base's growth for a long time.<BR>
+
 In most packs nearly everything spawns in the overworld which is not the case in GT New Horizons, and you are encouraged to mine in other dimensions such as the Twilight Forest, the nether, the end and (later on) even on other planets to make your way to the endgame. Unlocking things by mining for materials on other planets will create that situation where Galacticraft all of a sudden becomes important to progress which feels really rewarding.<BR>
 
 ***Survival***<BR>
-The first few days and nights will be rough, in fact nights will stay rough for a while since hardcore darkness makes them pitch black without any light sources or potion effects, so you might want to get a bed up quickly!<BR>
-Food is a critical thing early game and you can't keep eating the same things. Better watch out for some gardens from Pam's Harvestcraft to get some variety into your nutrition!<BR>
+The first few days and nights will be rough, in fact nights will stay rough for a while since hardcore darkness makes them pitch black without any light sources or potion effects, so you might want to get a bed quickly!<BR>
+Food is a critical thing early game and you can't keep eating the same things because of Spice of Life. Better watch out for some gardens from Pam's Harvestcraft to get some variety into your nutrition!<BR>
 
 Be prepared to face strong mobs that can cause death quickly if you play without any strategy.<BR>
-Facing them with better gear will make life easier once you progress but until then you might want to torch up your base.<BR>
+Facing them with better gear will make life easier once you progress but until then light up your base - there are plenty of options available from Chisel, Project Red, Ztones and Floodlights.<BR>
 
 ***Questing***<BR>
 GT New Horizons comes with over 1300 quests that will guide the player through the maze that modded Minecraft can be.<BR>
 The texts will inform you what's required to progress so you don't have to watch tutorials or ask others as often. The questbook can even save you the time to type into NEI, just click the items displayed in the quest and it will display the recipe through NEI, quite handy right?
 
-Custom lootbags and the coin system make for unique and helpfull rewards. And we all enjoy the gamble from time to time.
+Custom lootbags and the coin system make for unique and helpful rewards. And we all enjoy the gamble from time to time.
 
+***Is this a game for newbies?***
+Newbies to minecraft? Definitely not. Newbies to modded minecraft?  Maybe.  The questbook is a great introduction to the variety and type of mods available. With each mod gated players must learn about the mod to make the most of it while waiting for the next mod to unlock.
+
+***Is this modpack for me??***
+Does the thought of earning that top-end gear over weeks or months appeal to you?
+
+How about designing a chemical processing system to rival a real oil refinery, with multiple inputs creating dozens of outputs and intermediate products to finally make a bar of plastic, rubber, explosives or other top end gear?
+
+Does the sound of machinery processing ore via crushing, washing, centrifuging, smelting in a blast furnace, and cooling off in a vacuum freezer tickle your brain?
+
+Then this is the pack for you.
+
+Your pick is not ready.
+
+Welcome home.
 
 ---
 ## How do I join a server?
