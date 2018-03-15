@@ -40,7 +40,7 @@ Besides all the biomes and natural structures you can find there will be challen
 
 In the early game, villages offer a nice resting spot while looking for the optimal base location. Later you will revisit the villages to trade for key items and scavenge for parts. Eventually you may end up relocating villagers closer to you - or taking over a village yourself.
  
-***Put the mining back in Minecraft***
+***Put the mining back in Minecraft*** <BR>
 GregTech spawns ore in large localized veins rather than small clusters of everything, rewarding long searches with a huge vein that can sustain your base's growth for a long time.<BR>
 
 In most packs nearly everything spawns in the overworld which is not the case in GT New Horizons, and you are encouraged to mine in other dimensions such as the Twilight Forest, the nether, the end and (later on) even on other planets to make your way to the endgame. Unlocking things by mining for materials on other planets will create that situation where Galacticraft all of a sudden becomes important to progress which feels really rewarding.<BR>
