@@ -58,10 +58,10 @@ The texts will inform you what's required to progress so you don't have to watch
 
 Custom lootbags and the coin system make for unique and helpful rewards. And we all enjoy the gamble from time to time.
 
-***Is this a game for newbies?***<BR>
+***Is this a game for newbies?*** <BR>
 Newbies to Minecraft? Definitely not. Newbies to modded Minecraft?  Maybe.  The questbook is a great introduction to the variety and type of mods available. With each mod gated players must learn about the mod to make the most of it while waiting for the next mod to unlock.
 
-***Is this modpack for me??***<BR>
+***Is this modpack for me?*** <BR>
 Does the thought of earning that top-end gear over weeks or months appeal to you? The usual packs feel like they are over in 1 or 2 weeks since you get OP gear so quickly?
 
 How about designing a chemical processing system to rival a real oil refinery, with multiple inputs creating dozens of outputs and intermediate products to finally make a bar of plastic, rubber, explosives or other top end gear?
