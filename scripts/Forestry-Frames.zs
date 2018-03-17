@@ -84,13 +84,13 @@
 <miscutils:frameAccelerated>.addShiftTooltip("Genetic-Decay:"+format.gold(" x1"));
 
 // --- Void Frame (GT++)
-<miscutils:frameVoid>.addTooltip("<Hold Shift>");
-<miscutils:frameVoid>.addShiftTooltip("Durability:"+format.darkRed(" 20"));
-<miscutils:frameVoid>.addShiftTooltip("Territory:"+format.aqua(" x1"));
-<miscutils:frameVoid>.addShiftTooltip("Mutation-Rate:"+format.gold(" x1"));
-<miscutils:frameVoid>.addShiftTooltip("Lifespan:"+format.darkRed(" x0.0001"));
-<miscutils:frameVoid>.addShiftTooltip("Production:"+format.bold(" x10"));
-<miscutils:frameVoid>.addShiftTooltip("Genetic-Decay:"+format.gold(" x1"));
+//<miscutils:frameVoid>.addTooltip("<Hold Shift>");
+//<miscutils:frameVoid>.addShiftTooltip("Durability:"+format.darkRed(" 20"));
+//<miscutils:frameVoid>.addShiftTooltip("Territory:"+format.aqua(" x1"));
+//<miscutils:frameVoid>.addShiftTooltip("Mutation-Rate:"+format.gold(" x1"));
+//<miscutils:frameVoid>.addShiftTooltip("Lifespan:"+format.darkRed(" x0.0001"));
+//<miscutils:frameVoid>.addShiftTooltip("Production:"+format.bold(" x10"));
+//<miscutils:frameVoid>.addShiftTooltip("Genetic-Decay:"+format.gold(" x1"));
 
 // --- Mutagenic Frame (GT++)
 <miscutils:frameMutagenic>.addTooltip("<Hold Shift>");
