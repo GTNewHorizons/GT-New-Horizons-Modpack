@@ -36,7 +36,6 @@
 <ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Lifespan:"+format.red(" x0.5"));
 <ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Production:"+format.green(" x1.5"));
 <ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Genetic-Decay:"+format.gold(" x1"));
-<ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Genetic-Decay:"+format.gold(" x1"));
 
 // --- Restraint Frame (Extra Bees)
 <ExtraBees:hiveFrame.cage>.addTooltip("<Hold Shift>");
