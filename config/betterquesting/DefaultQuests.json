@@ -127692,6 +127692,83 @@
       ]
     },
     {
+      "questID": 1325,
+      "name": "Dagger of Sacrifice",
+      "description": "Time to get more blood. Mobs are a good source for more blood. Transform your knife of sacrifice in your tier 2 altar into a dagger of sacrifice.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AWWayofTime:daggerOfSacrifice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AWWayofTime:daggerOfSacrifice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinBloodII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        409
+      ]
+    },
+    {
       "questID": 1326,
       "name": "Co-Processing",
       "description": "Component of the crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.\n\nThis can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
@@ -136963,6 +137040,11 @@
         {
           "id": 415,
           "x": 312,
+          "y": 120
+        },
+        {
+          "id": 1325,
+          "x": 108,
           "y": 120
         }
       ]
