@@ -107776,6 +107776,166 @@
               "Damage": 26
             },
             {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 20,
+                "Health:4": 20,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "extrabees.species.ocean",
+                      "UID0:8": "extrabees.species.ocean",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceBoth1",
+                      "UID0:8": "forestry.toleranceBoth1",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolTrue",
+                      "UID0:8": "forestry.boolTrue",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "extrabees.flower.water",
+                      "UID0:8": "extrabees.flower.water",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "extrabees.effect.water",
+                      "UID0:8": "extrabees.effect.water",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 20,
+                "Health:4": 20,
+                "IsAnalyzed:4": 1,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "extrabees.species.ocean",
+                      "UID0:8": "extrabees.species.ocean",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceBoth1",
+                      "UID0:8": "forestry.toleranceBoth1",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolTrue",
+                      "UID0:8": "forestry.boolTrue",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "extrabees.flower.water",
+                      "UID0:8": "extrabees.flower.water",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlowest",
+                      "UID0:8": "forestry.floweringSlowest",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "extrabees.effect.water",
+                      "UID0:8": "extrabees.effect.water",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
               "id": "Forestry:beeCombs",
               "Count": 32,
               "OreDict": "",
