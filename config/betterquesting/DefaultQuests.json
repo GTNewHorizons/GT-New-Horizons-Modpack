@@ -51747,7 +51747,7 @@
               "id": "Forestry:thermionicTubes",
               "Count": 4,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 4
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -134411,8 +134411,8 @@
         },
         {
           "id": 994,
-          "x": 204,
-          "y": 72
+          "x": 96,
+          "y": 48
         },
         {
           "id": 1214,
