@@ -385,26 +385,26 @@ recipes.addShaped(<harvestcraft:hardenedleatherItem>, [
 [<Backpack:tannedLeather>, <harvestcraft:waxItem>, <Backpack:tannedLeather>]]);
 
 // --- Fresh Milk
-recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>]);
 
-recipes.addShapeless(<harvestcraft:freshmilkItem> * 2, [<IguanaTweaksTConstruct:clayBucketMilk>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<harvestcraft:freshmilkItem> * 2, [<IguanaTweaksTConstruct:clayBucketMilk>]);
 
 // --- Fresh Water
-recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>]);
 
-recipes.addShapeless(<harvestcraft:freshwaterItem> * 2, [<IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<harvestcraft:freshwaterItem> * 2, [<IguanaTweaksTConstruct:clayBucketWater>]);
 
 // --- Salt
 recipes.addShapeless(<gregtech:gt.metaitem.01:1817>, [<harvestcraft:potItem>, <harvestcraft:freshwaterItem>]); 
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <minecraft:water_bucket>]);
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:1817> * 2, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:1817> * 2, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>]);
 
 // --- Wet Tofu
-recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <minecraft:water_bucket>]);
 // -
-recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <IguanaTweaksTConstruct:clayBucketWater>]);
 // -
 recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <harvestcraft:freshwaterItem>, <harvestcraft:freshwaterItem>]);
 
