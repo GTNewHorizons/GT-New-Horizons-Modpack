@@ -455,6 +455,9 @@ recipes.remove(<minecraft:wooden_pressure_plate>);
 // --- Saddle
 recipes.remove(<minecraft:saddle>);
 
+// --- Packed Ice
+recipes.removeShaped(<minecraft:packed_ice> * 4);
+
 
 // --- Wool ---
 
@@ -1310,6 +1313,12 @@ recipes.addShaped(Hopper, [
 [IronPlate, Chest, IronPlate],
 [IronPlate, IronGear, IronPlate],
 [HHammer, IronPlate, <ore:craftingToolFile>]]);
+
+// --- Packed Ice
+recipes.addShaped(<minecraft:packed_ice>, [
+[<minecraft:ice>, <minecraft:ice>, null],
+[<minecraft:ice>, <minecraft:ice>, null],
+[null, null, null]]);
 
 
 
