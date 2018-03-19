@@ -65995,7 +65995,7 @@
     {
       "questID": 727,
       "name": "Better than barrels",
-      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system (Tec2k17)\nlater in the HV age with some help of ProjectRed Transportation.",
+      "description": "While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot). Once you reach HV you can combine them with some ProjectRed pipes to set up a \"ghetto ME storage system\" (Tec2k17)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124663,7 +124663,7 @@
     {
       "questID": 1289,
       "name": "Looting II",
-      "description": "The butchers knife from gt have looting 2. Go and find some treasures during your nightly monster slaying.",
+      "description": "The butchery knife from GT comes with a looting effect depending on the material. You will most likely use iron which will result in looting 2. Can be used to finish off mobs or to simply make your animal farms more efficient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
