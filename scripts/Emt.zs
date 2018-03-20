@@ -1159,7 +1159,7 @@ mods.thaumcraft.Research.addCruciblePage("AerGenerator", <EMT:EssentiaGenerators
 // --- Lucrum Potentia Generator
 mods.thaumcraft.Research.orphanResearch("Lucrum Generator");
 mods.thaumcraft.Research.removeResearch("Lucrum Generator");
-mods.thaumcraft.Research.addResearch("LucrumGenerator", "EMT", "Lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4, 8, 3, <EMT:EssentiaGenerators:4>);
+mods.thaumcraft.Research.addResearch("LucrumGenerator", "EMT", "lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4, 8, 3, <EMT:EssentiaGenerators:5>);
 mods.thaumcraft.Research.addPrereq("LucrumGenerator", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("LucrumGenerator", "PotentiaGenerator", false);
 mods.thaumcraft.Research.addPrereq("LucrumGenerator", "AerGenerator", false);
