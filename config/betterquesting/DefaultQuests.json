@@ -112110,7 +112110,6 @@
                   "BaseDurability:4": 188,
                   "BaseAttack:4": 3,
                   "ToolEXP:4": 0,
-                  "Built:4": 1,
                   "HarvestLevel:4": 3,
                   "RenderHead:4": 2,
                   "ModDurability:6": 0.0,
@@ -112134,7 +112133,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "ï¿½fIron Bolts"
+                  "Name:8": "§fIron Bolts"
                 }
               }
             }
