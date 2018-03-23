@@ -124276,7 +124276,7 @@
         "OreDict": "",
         "Damage": 3
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "consume": false,
@@ -131547,6 +131547,84 @@
         486,
         995
       ]
+    },
+    {
+      "questID": 1368,
+      "name": "Lost in the Twilight Forest",
+      "description": "If you stay in twilight forst and your portal get brocken during some fight you get lost. Every 24h you are able to exchange some materials to get a new portal crystal to escape.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 1728000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.TwilightCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.tfFeather",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.TFFirefly",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.TFPlant",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "TwilightForest:tile.TFLog",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.TwilightCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        225
+      ]
     }
   ],
   "questLines": [
@@ -135419,12 +135497,12 @@
         {
           "id": 1070,
           "x": 48,
-          "y": 36
+          "y": 0
         },
         {
           "id": 1071,
           "x": 0,
-          "y": 36
+          "y": 0
         },
         {
           "id": 1096,
@@ -135475,6 +135553,11 @@
           "id": 1286,
           "x": 156,
           "y": 108
+        },
+        {
+          "id": 1368,
+          "x": 0,
+          "y": 36
         }
       ]
     },
