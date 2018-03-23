@@ -124536,7 +124536,7 @@
     {
       "questID": 1287,
       "name": "Vish Shroom",
-      "description": "Oh you feel so dirty. Go and take a bath.",
+      "description": "Magic mushrooms whoooo!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124590,7 +124590,7 @@
         }
       ],
       "preRequisites": [
-        1097
+        1286
       ]
     },
     {
