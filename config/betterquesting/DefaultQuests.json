@@ -102011,7 +102011,7 @@
     {
       "questID": 1081,
       "name": "MV Bending",
-      "description": "To make dense plates you need an MV Bender.",
+      "description": "This Plate Bending Machine allows you to directly make double, triple or more compressed plates, which might be useful for your first rocket in HV Tier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102055,10 +102055,10 @@
         {
           "rewards": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "id": "IC2:itemDensePlates",
+              "Count": 8,
               "OreDict": "",
-              "Damage": 11019
+              "Damage": 5
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -112134,7 +112134,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fIron Bolts"
+                  "Name:8": "ï¿½fIron Bolts"
                 }
               }
             }
@@ -117032,7 +117032,7 @@
     {
       "questID": 1212,
       "name": "Starting Fusion",
-      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options. Solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch inputs 2048eu/t, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn’t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
+      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options. Solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch inputs 2048eu/t, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesnï¿½t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -123317,8 +123317,8 @@
     },
     {
       "questID": 1271,
-      "name": "Plate Bending HV",
-      "description": "This Plate Bending Machine allows you to directly make double, triple or more compressed plates, which might be useful for your first rocket.",
+      "name": "Extruder HV",
+      "description": "The HV Extruder is needed to extrude tough metals like Tungstensteel and HSS.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123352,7 +123352,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 223
+              "Damage": 283
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -123362,10 +123362,10 @@
         {
           "choices": [
             {
-              "id": "IC2:itemDensePlates",
-              "Count": 3,
-              "OreDict": "plateDenseSteel",
-              "Damage": 5
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11306
             },
             {
               "id": "IC2:itemPartCircuitAdv",
@@ -123610,8 +123610,8 @@
     },
     {
       "questID": 1275,
-      "name": "Fake Jägermeister",
-      "description": "Jägermeister is a common drink in germany, why don\u0027t you grab a bottle? This one does seems to be a cheap fake tho...",
+      "name": "Fake Jï¿½germeister",
+      "description": "Jï¿½germeister is a common drink in germany, why don\u0027t you grab a bottle? This one does seems to be a cheap fake tho...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124597,7 +124597,7 @@
     {
       "questID": 1288,
       "name": "Hops, the source of beer",
-      "description": "If you don\u0027t want pure alcohol, but beer, get some hops by crossbreeding IC² crops.",
+      "description": "If you don\u0027t want pure alcohol, but beer, get some hops by crossbreeding ICï¿½ crops.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128180,7 +128180,7 @@
     {
       "questID": 1329,
       "name": "ME in your Cleanroom",
-      "description": "Wireless connector – close range quantum bridge alternative.\nConnections are point-to-point – you can\u0027t connect more than 2 blocks together. Each block will use 10 + distance2 AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. ",
+      "description": "Wireless connector ï¿½ close range quantum bridge alternative.\nConnections are point-to-point ï¿½ you can\u0027t connect more than 2 blocks together. Each block will use 10 + distance2 AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128443,7 +128443,7 @@
     {
       "questID": 1332,
       "name": "Compressed Solar LV",
-      "description": "§lThe power of the sun x10.§rThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! § §lNOTE: They give out GTEU. NO TRANSFORMER NEEDED!",
+      "description": "ï¿½lThe power of the sun x10.ï¿½rThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! ï¿½ ï¿½lNOTE: They give out GTEU. NO TRANSFORMER NEEDED!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128531,7 +128531,7 @@
     {
       "questID": 1333,
       "name": "Essentia Generator: Potentia",
-      "description": "Arent you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs GTEU.\n§o§o§r§lNO TRANSFORMER NEEDED!",
+      "description": "Arent you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs GTEU.\nï¿½oï¿½oï¿½rï¿½lNO TRANSFORMER NEEDED!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -130187,7 +130187,7 @@
     {
       "questID": 1353,
       "name": "Sparking Nitor...?",
-      "description": "§eYELLOW!§0 What an ungly color! I want §5PURPLE §0Nitor! Get me some and you\u0027ll recive something nice in exchange.",
+      "description": "ï¿½eYELLOW!ï¿½0 What an ungly color! I want ï¿½5PURPLE ï¿½0Nitor! Get me some and you\u0027ll recive something nice in exchange.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -130262,7 +130262,7 @@
     {
       "questID": 1354,
       "name": "Rechageable Scribing Tools",
-      "description": "Are you tired of getting all the Ink for your scribing and you don\u0027t want to use §4your blood§0 aswell? Get this Hi-Tech Scribing Device which will make your life much easier!",
+      "description": "Are you tired of getting all the Ink for your scribing and you don\u0027t want to use ï¿½4your bloodï¿½0 aswell? Get this Hi-Tech Scribing Device which will make your life much easier!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
