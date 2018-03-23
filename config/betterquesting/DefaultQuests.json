@@ -131435,6 +131435,118 @@
       "preRequisites": [
         1121
       ]
+    },
+    {
+      "questID": 1367,
+      "name": "Upgrade your Forestry Backpack",
+      "description": "With your woven silk you can upgrade your Forstry backpacks. Each Pack have 45 slots.\nYou need a carpenter, your old backpack and a bit seed oil.\n\nIf the recipe not working put the bag in a crafting grid to reset additional nbt data.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:diggerBag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:craftingMaterial",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:diggerBagT2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:minerBagT2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:craftingMaterial",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "DamascusSteel",
+                  "MaxDamage:4": 128000,
+                  "SecondaryMaterial:8": "DamascusSteel"
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        486,
+        995
+      ]
     }
   ],
   "questLines": [
@@ -138151,6 +138263,11 @@
           "id": 1123,
           "x": 252,
           "y": 144
+        },
+        {
+          "id": 1367,
+          "x": 150,
+          "y": 0
         }
       ]
     },
