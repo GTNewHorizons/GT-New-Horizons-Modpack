@@ -131785,6 +131785,174 @@
       "preRequisites": [
         1369
       ]
+    },
+    {
+      "questID": 1371,
+      "name": "LOX Cannister, refill your Tanks",
+      "description": "To make liquid oxygen you need 16 oxygen cells and a universal fluid cell. Put them in the assember to get 1 cell compressed oxygen.\nAfter this put it in the vacuum freezer and wait a bit.\nNow you get liquid air. Fill it into a empty galacticraft cannister to get a good air backup for your tanks.\nTo refill your oxygen tanks just put both in the crafting grid to transfer oxygen.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.canisterPartialLOX",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30013
+            },
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "compressedoxygen",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquidoxygen",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.oilCanisterPartial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1001
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.canisterPartialLOX",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.oilCanisterPartial",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1001
+            },
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.oxygenTankLightFull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 900
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        827
+      ]
     }
   ],
   "questLines": [
@@ -137175,128 +137343,133 @@
       "quests": [
         {
           "id": 809,
-          "x": 84,
+          "x": 132,
           "y": 0
         },
         {
           "id": 810,
-          "x": 84,
+          "x": 132,
           "y": 216
         },
         {
           "id": 811,
-          "x": 0,
+          "x": 48,
           "y": 60
         },
         {
           "id": 812,
-          "x": 84,
+          "x": 132,
           "y": 60
         },
         {
           "id": 813,
-          "x": 120,
-          "y": 96
-        },
-        {
-          "id": 814,
-          "x": 48,
-          "y": 96
-        },
-        {
-          "id": 815,
           "x": 168,
           "y": 96
         },
         {
-          "id": 816,
+          "id": 814,
+          "x": 96,
+          "y": 96
+        },
+        {
+          "id": 815,
           "x": 216,
+          "y": 96
+        },
+        {
+          "id": 816,
+          "x": 264,
           "y": 132
         },
         {
           "id": 817,
-          "x": 216,
+          "x": 264,
           "y": 96
         },
         {
           "id": 818,
-          "x": 252,
+          "x": 300,
           "y": 132
         },
         {
           "id": 819,
-          "x": 0,
+          "x": 48,
           "y": 96
         },
         {
           "id": 820,
-          "x": 48,
+          "x": 96,
           "y": 216
         },
         {
           "id": 821,
-          "x": 0,
+          "x": 48,
           "y": 216
         },
         {
           "id": 822,
-          "x": 252,
-          "y": 60
+          "x": 300,
+          "y": 0
         },
         {
           "id": 823,
-          "x": 216,
-          "y": 60
+          "x": 264,
+          "y": 0
         },
         {
           "id": 824,
-          "x": 252,
+          "x": 300,
           "y": 96
         },
         {
           "id": 827,
-          "x": 0,
+          "x": 48,
           "y": 156
         },
         {
           "id": 828,
-          "x": 300,
+          "x": 348,
           "y": 132
         },
         {
           "id": 829,
-          "x": 300,
+          "x": 348,
           "y": 96
         },
         {
           "id": 830,
-          "x": 300,
-          "y": 60
+          "x": 348,
+          "y": 0
         },
         {
           "id": 831,
-          "x": 36,
+          "x": 84,
           "y": 0
         },
         {
           "id": 832,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 1067,
-          "x": 120,
+          "x": 168,
           "y": 216
         },
         {
           "id": 1068,
-          "x": 48,
+          "x": 96,
           "y": 252
         },
         {
           "id": 1072,
-          "x": 84,
+          "x": 132,
           "y": 300
+        },
+        {
+          "id": 1371,
+          "x": 0,
+          "y": 156
         }
       ]
     },
