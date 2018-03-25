@@ -24252,6 +24252,12 @@
         {
           "rewards": [
             {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
               "id": "Thaumcraft:ItemLootBag",
               "Count": 1,
               "OreDict": "",
@@ -132729,6 +132735,868 @@
       "preRequisites": [
         285
       ]
+    },
+    {
+      "questID": 1382,
+      "name": "Pimp your Wand Focus",
+      "description": "The Manipulator requires both EXP levels and centi-vis in order to upgrade foci. Each Focus can be upgraded a total of five times, with the level and vis cost increasing by 8 for each upgrade. Some upgrades can be applied only at certain levels (often only at level 3), and others have prerequisite upgrades. Some upgrades like Frugal and Potency can be applied multiple times. All upgrades are permanent, and there is currently no way to remove them.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 13
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockStoneDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        275
+      ]
+    },
+    {
+      "questID": 1383,
+      "name": "Advanced Node Stabilizer",
+      "description": "The advanced node stabilizer acts like a normal node stabilizer but with key differences. It will still stop the node it affects from being drained but the node can now drain from other lesser nodes. It also has a higher chance to improve fading and unstable nodes. The downside is that any nodes it affects will have their recharge rates effectively reduced to nothing. They will recharge at an extravagantly reduced rate.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 10
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockStoneDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        276
+      ]
+    },
+    {
+      "questID": 1384,
+      "name": "Wand Focus Efreet\u0027s Flame",
+      "description": "The Wand Focus: Efreet\u0027s Flame is a Wand Focus that smelts blocks like a Furnace would when pointed and fired at them. It shoots a beam similar to the Wand Focus: Excavation. Each usage consumes 0.45 Ignis and 0.12 Perditio\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusSmelt",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusSmelt",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        234,
+        1373
+      ]
+    },
+    {
+      "questID": 1385,
+      "name": "Wand Focus Dislocation",
+      "description": "Wand Focus: Dislocation allows the user to take and place any blocks, even Tile Entities and things usually unobtainable, like Aura Nodes and their energized counterparts.\nIt uses:\n5 Ordo + 5 Perditio + 1 Terra to take any solid block. \n25 Ordo + 25 Perditio + 5 Terra to take any block with tile entities (such as Chest). \n100 Ordo + 100 Perditio + 20 Terra to take Mob Spawner.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusDislocation",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusDislocation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1375,
+        238,
+        1388
+      ]
+    },
+    {
+      "questID": 1386,
+      "name": "Wand Focus Mending",
+      "description": "The Wand Focus: Mending is a wand focus that will slowly mend the Caster\u0027s wounds by expending Vis. The Focus consumes 0.45 Aqua and 0.45 Terra per cast, healing half a heart (1 health).\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusHeal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusHeal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1380,
+        238,
+        1388
+      ]
+    },
+    {
+      "questID": 1387,
+      "name": "Wand Focus Uprising",
+      "description": "The Wand Focus: Uprising is a wand focus that propels the player in the direction they\u0027re facing. When used, the focus consumes 0.15 Aer per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusFlight",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusFlight",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1384,
+        238
+      ]
+    },
+    {
+      "questID": 1388,
+      "name": "Wand Focus Disorientation",
+      "description": "The Wand Focus: Distortion is a focus, which can be equipped on any wand that protects the caster from \"ordinary\" projectiles such as arrows, snowballs, and potions. The focus can be enabled by cycling through the foci currently in the player\u0027s inventory, which is done with the F-key. The focus consumes 0.04 Aer and 0.08 Ordo per tick from the Vis stored in the wand while in use.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusDeflect",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusDeflect",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1387
+      ]
+    },
+    {
+      "questID": 1389,
+      "name": "Wand Focus Ender Rift",
+      "description": "The Wand Focus: Ender Rift is a Wand Focus that opens the vanilla Ender Chest remotely when the player right-clicks with it. When used, the focus consumes 0.9 Ordo + 0.9 Perditio\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusEnderChest",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusEnderChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1388
+      ]
+    },
+    {
+      "questID": 1390,
+      "name": "Wand Focus Telekinesis",
+      "description": "Wand Focus: Telekinesis is a wand focus can move nearby objects such as dropped items, arrows ect. where you are pointing with the wand or towards you, if you hold Shift key why using it. Consumes 0.05 Aer + 0.05 Perditio per tick used.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusTelekinesis",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusTelekinesis",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        238,
+        1387
+      ]
+    },
+    {
+      "questID": 1391,
+      "name": "Wand Focus Experience Drain",
+      "description": "Wand Focus: Experience Drain, this focus will drain the player\u0027s experience at a rate of 15 xp per tick, restoring vis at a rather fast rate.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusXPDrain",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusXPDrain",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        238,
+        320
+      ]
+    },
+    {
+      "questID": 1392,
+      "name": "Wand Focus Shadow Beam",
+      "description": "Wand Focus: Shadowbeam shoots a beam of energy that is reflected by any block and damages everything it passes through. The beam travels rather short distance though. Consumes 0.15 Aer + 0.25 Ordo + 0.25 Perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:focusShadowbeam",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:focusShadowbeam",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        238,
+        320
+      ]
     }
   ],
   "questLines": [
@@ -136681,273 +137549,283 @@
       "quests": [
         {
           "id": 260,
-          "x": 36,
+          "x": 78,
           "y": 96
         },
         {
           "id": 261,
-          "x": 324,
+          "x": 366,
           "y": 132
         },
         {
           "id": 263,
-          "x": 288,
+          "x": 330,
           "y": 132
         },
         {
           "id": 265,
-          "x": 144,
+          "x": 186,
           "y": 96
         },
         {
           "id": 266,
-          "x": 216,
+          "x": 258,
           "y": 96
         },
         {
           "id": 267,
-          "x": 180,
+          "x": 222,
           "y": 192
         },
         {
           "id": 268,
-          "x": 180,
+          "x": 222,
           "y": 156
         },
         {
           "id": 269,
-          "x": 180,
+          "x": 222,
           "y": 36
         },
         {
           "id": 270,
-          "x": 180,
+          "x": 222,
           "y": 0
         },
         {
           "id": 271,
-          "x": 180,
+          "x": 222,
           "y": 72
         },
         {
           "id": 264,
-          "x": 180,
+          "x": 222,
           "y": 120
         },
         {
           "id": 262,
-          "x": 324,
+          "x": 366,
           "y": 96
         },
         {
           "id": 272,
-          "x": 36,
+          "x": 78,
           "y": 252
         },
         {
           "id": 273,
-          "x": 372,
+          "x": 414,
           "y": 168
         },
         {
           "id": 274,
-          "x": 324,
+          "x": 366,
           "y": 168
         },
         {
           "id": 275,
-          "x": 0,
+          "x": 42,
           "y": 216
         },
         {
           "id": 276,
-          "x": 0,
+          "x": 42,
           "y": 168
         },
         {
           "id": 277,
-          "x": 0,
+          "x": 42,
           "y": 132
         },
         {
           "id": 278,
-          "x": 36,
+          "x": 78,
           "y": 216
         },
         {
           "id": 279,
-          "x": 408,
+          "x": 450,
           "y": 168
         },
         {
           "id": 281,
-          "x": 480,
+          "x": 522,
           "y": 168
         },
         {
           "id": 280,
-          "x": 444,
+          "x": 486,
           "y": 168
         },
         {
           "id": 283,
-          "x": 408,
+          "x": 450,
           "y": 204
         },
         {
           "id": 284,
-          "x": 408,
+          "x": 450,
           "y": 252
         },
         {
           "id": 285,
-          "x": 408,
+          "x": 450,
           "y": 132
         },
         {
           "id": 286,
-          "x": 444,
+          "x": 486,
           "y": 96
         },
         {
           "id": 288,
-          "x": 372,
+          "x": 414,
           "y": 132
         },
         {
           "id": 289,
-          "x": 480,
+          "x": 522,
           "y": 96
         },
         {
           "id": 282,
-          "x": 480,
+          "x": 522,
           "y": 132
         },
         {
           "id": 290,
-          "x": 0,
+          "x": 42,
           "y": 288
         },
         {
           "id": 291,
-          "x": 108,
+          "x": 150,
           "y": 252
         },
         {
           "id": 292,
-          "x": 144,
+          "x": 186,
           "y": 252
         },
         {
           "id": 293,
-          "x": 180,
+          "x": 222,
           "y": 252
         },
         {
           "id": 294,
-          "x": 216,
+          "x": 258,
           "y": 252
         },
         {
           "id": 295,
-          "x": 72,
+          "x": 114,
           "y": 288
         },
         {
           "id": 296,
-          "x": 36,
+          "x": 78,
           "y": 288
         },
         {
           "id": 297,
-          "x": 72,
+          "x": 114,
           "y": 168
         },
         {
           "id": 298,
-          "x": 72,
+          "x": 114,
           "y": 216
         },
         {
           "id": 300,
-          "x": 120,
+          "x": 162,
           "y": 288
         },
         {
           "id": 299,
-          "x": 72,
+          "x": 114,
           "y": 252
         },
         {
           "id": 301,
-          "x": 0,
+          "x": 42,
           "y": 252
         },
         {
           "id": 287,
-          "x": 444,
+          "x": 486,
           "y": 132
         },
         {
           "id": 302,
-          "x": 72,
+          "x": 114,
           "y": 132
         },
         {
           "id": 303,
-          "x": 288,
+          "x": 330,
           "y": 168
         },
         {
           "id": 304,
-          "x": 288,
+          "x": 330,
           "y": 204
         },
         {
           "id": 305,
-          "x": 0,
+          "x": 42,
           "y": 96
         },
         {
           "id": 306,
-          "x": 108,
+          "x": 150,
           "y": 132
         },
         {
           "id": 833,
-          "x": 372,
+          "x": 414,
           "y": 96
         },
         {
           "id": 1055,
-          "x": 36,
+          "x": 78,
           "y": 48
         },
         {
           "id": 1097,
-          "x": 72,
+          "x": 114,
           "y": 48
         },
         {
           "id": 1098,
-          "x": 72,
+          "x": 114,
           "y": 12
         },
         {
           "id": 1099,
-          "x": 108,
+          "x": 150,
           "y": 48
         },
         {
           "id": 1102,
-          "x": 324,
+          "x": 366,
           "y": 48
         },
         {
           "id": 1105,
-          "x": 324,
+          "x": 366,
           "y": 0
+        },
+        {
+          "id": 1382,
+          "x": 0,
+          "y": 216
+        },
+        {
+          "id": 1383,
+          "x": 0,
+          "y": 168
         }
       ]
     },
@@ -137189,53 +138067,98 @@
       "quests": [
         {
           "id": 1372,
-          "x": 48,
+          "x": 96,
           "y": 0
         },
         {
           "id": 1373,
-          "x": 48,
+          "x": 96,
           "y": 36
         },
         {
           "id": 1374,
-          "x": 0,
+          "x": 48,
           "y": 36
         },
         {
           "id": 1375,
-          "x": 96,
+          "x": 144,
           "y": 36
         },
         {
           "id": 1376,
-          "x": 144,
+          "x": 192,
           "y": 36
         },
         {
           "id": 1377,
-          "x": 48,
+          "x": 96,
           "y": 72
         },
         {
           "id": 1378,
-          "x": 96,
-          "y": 72
-        },
-        {
-          "id": 1379,
           "x": 144,
           "y": 72
         },
         {
-          "id": 1380,
+          "id": 1379,
           "x": 192,
           "y": 72
         },
         {
+          "id": 1380,
+          "x": 0,
+          "y": 72
+        },
+        {
           "id": 1381,
+          "x": 144,
+          "y": 108
+        },
+        {
+          "id": 1384,
+          "x": 48,
+          "y": 72
+        },
+        {
+          "id": 1385,
+          "x": 192,
+          "y": 144
+        },
+        {
+          "id": 1386,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 1387,
+          "x": 48,
+          "y": 108
+        },
+        {
+          "id": 1388,
+          "x": 48,
+          "y": 144
+        },
+        {
+          "id": 1389,
+          "x": 48,
+          "y": 180
+        },
+        {
+          "id": 1390,
           "x": 96,
           "y": 108
+        },
+        {
+          "id": 1391,
+          "x": 96,
+          "y": 180
+        },
+        {
+          "id": 1392,
+          "x": 144,
+          "y": 180
         }
       ]
     },
