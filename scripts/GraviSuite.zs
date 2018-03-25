@@ -47,8 +47,6 @@ recipes.remove(<GraviSuite:relocator:*>);
 recipes.remove(<GraviSuite:epicLappack:*>);
  
  
- 
- 
 // --- Add Recipes ---
 
 
@@ -113,9 +111,13 @@ recipes.addShaped(<GraviSuite:epicLappack:27>, [
 
 // --- Relocator
 recipes.addShaped(<GraviSuite:relocator:27>, [
-[<gregtech:gt.metaitem.01:32676>, <dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:32676>],
-[<ore:circuitUltimate>, <IC2:blockMachine2>, <ore:circuitUltimate>],
-[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:*>, <dreamcraft:item.NeutroniumItemCasing>]]);
+[<ore:screwOsmium>,<ore:craftingToolScrewdriver>,<ore:screwOsmium>],
+[<ore:plateOsmium>,<DraconicEvolution:teleporterMKII>,<ore:plateOsmium>],
+[<SGCraft:ic2Capacitor>,<gregtech:gt.blockcasings:15>,<SGCraft:ic2Capacitor>]]);
+//recipes.addShaped(<GraviSuite:relocator:27>, [
+//[<gregtech:gt.metaitem.01:32676>, <dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:32676>],
+//[<ore:circuitUltimate>, <IC2:blockMachine2>, <ore:circuitUltimate>],
+//[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:*>, <dreamcraft:item.NeutroniumItemCasing>]]);
 
 // --- Advanced Chainsaw
 recipes.addShaped(<GraviSuite:advChainsaw:27>, [
@@ -128,7 +130,6 @@ recipes.addShaped(<GraviSuite:advDDrill:27>, [
 [<ore:screwIridium>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:craftingToolScrewdriver>],
 [<ore:gearGtSmallIridium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallIridium>],
 [<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
-
 
 
 
