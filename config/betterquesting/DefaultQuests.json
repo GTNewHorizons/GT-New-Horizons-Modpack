@@ -133597,6 +133597,552 @@
         238,
         320
       ]
+    },
+    {
+      "questID": 1393,
+      "name": "Wand Focus Tainted Storm",
+      "description": "Wand Focus: Tainted Storm can be equipped on any wand and will emit a stream of tainted particles which will damage anything in a short distance and inflict Taint Poison for 5 seconds. The focus will also debuff the caster with Flux Flu III for 10 seconds unless enchanted with Antibody. The foci can be enchanted with Frugal, Potency, Enlarge, Antibody and Corrosive. Each cast costs 0.1 Aqua + 0.1 Perditio\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TaintedMagic:ItemFocusTaint",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TaintedMagic:ItemFocusTaint",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1380,
+        238
+      ]
+    },
+    {
+      "questID": 1394,
+      "name": "Wand Focus Tainted Shockwave",
+      "description": "Wand Focus: Tainted Shockwave will release a powerful shockwave around the caster which travels 15-20 blocks and will damage all mobs in the radius and push them back same as enchantment Knockback II. After using this foci the caster will be unable to use any other magic for 15 seconds. The foci can be enchanted with Frugal and Enlarge, each level of Enlarge will add 1 block to the shockwave radius. Each cast costs 10 Aqua + 5 Ordo + 10 Terra + 10 Perditio.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TaintedMagic:ItemFocusTaintedBlast",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TaintedMagic:ItemFocusTaintedBlast",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1393
+      ]
+    },
+    {
+      "questID": 1395,
+      "name": "Wand Focus Vis Shard",
+      "description": "Wand Focus: Vis Shard can be equipped on any wand. While equipped, it can be right-clicked to cast homing projectile which deals 2-5 damage points. This projectile can bounce off of solid blocks. If the target is not hit in 10 seconds, the projectile disappears. This focus can be enchanted with Frugal, Potency and Persistent.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TaintedMagic:ItemFocusVisShard",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TaintedMagic:ItemFocusVisShard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        243
+      ]
+    },
+    {
+      "questID": 1396,
+      "name": "Wand Focus Dark Matter",
+      "description": "Wand Focus: Dark Matter allows the player to cast the projectiles Eldritch Guardians cast. Can be upgraded with Potency, Frugal, Sanity, Diffusion and Corrosive. For each projectile cast the player will get Temporary Warp. This will not happen if the focus is enchanted with Sanity. Enchanting the focus with Diffusion will change its firing mode from single projectiles to short-range black gas which acts as a flamethrower.\n\nEach cast costs 0.2 Ignis + 0.2 Perditio. With Corrosive each cast will cost additionally 0.2 Aqua + 0.3 Ignis\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TaintedMagic:ItemFocusEldritch",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TaintedMagic:ItemFocusEldritch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        320,
+        284,
+        1378
+      ]
+    },
+    {
+      "questID": 1397,
+      "name": "Wand Focus Time",
+      "description": "Wand Focus: Time can be equipped by any wand. When used during day, will set the time to dusk, when used during night, will set the time to sunrise. Each cast costs 10 of all primal aspects and will make the player unable to use any other foci for 30 seconds.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TaintedMagic:ItemFocusTime",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TaintedMagic:ItemFocusTime",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        320,
+        284,
+        1396
+      ]
+    },
+    {
+      "questID": 1398,
+      "name": "Wand Focus Meteorology",
+      "description": "Wand Focus: Meteorology can be eqipped by any wand. When used during rain will stop rain, when used during sunny weather, will start rain. Each cast costs 10 of each primal aspect and will make the caster unable to use any other foci for 30 seconds.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TaintedMagic:ItemFocusMeteorology",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TaintedMagic:ItemFocusMeteorology",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        320,
+        284,
+        1396
+      ]
+    },
+    {
+      "questID": 1399,
+      "name": "Wand Focus Mage\u0027s Mace",
+      "description": "Wand Focus: Mage\u0027s Mace can be equipped by any wand and will boost attack damage up to 15 hearts. It can be enchanted with Frugal, Potency and Bloodlust. Each attack with this focus costs 0.5 Perditio.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TaintedMagic:ItemFocusMageMace",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TaintedMagic:ItemFocusMageMace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        238
+      ]
     }
   ],
   "questLines": [
@@ -138067,98 +138613,133 @@
       "quests": [
         {
           "id": 1372,
-          "x": 96,
+          "x": 132,
           "y": 0
         },
         {
           "id": 1373,
-          "x": 96,
+          "x": 132,
           "y": 36
         },
         {
           "id": 1374,
-          "x": 48,
+          "x": 84,
           "y": 36
         },
         {
           "id": 1375,
-          "x": 144,
+          "x": 180,
           "y": 36
         },
         {
           "id": 1376,
-          "x": 192,
+          "x": 228,
           "y": 36
         },
         {
           "id": 1377,
-          "x": 96,
+          "x": 132,
           "y": 72
         },
         {
           "id": 1378,
-          "x": 144,
+          "x": 228,
           "y": 72
         },
         {
           "id": 1379,
-          "x": 192,
+          "x": 276,
           "y": 72
         },
         {
           "id": 1380,
-          "x": 0,
+          "x": 36,
           "y": 72
         },
         {
           "id": 1381,
-          "x": 144,
-          "y": 108
+          "x": 276,
+          "y": 144
         },
         {
           "id": 1384,
-          "x": 48,
+          "x": 84,
           "y": 72
         },
         {
           "id": 1385,
-          "x": 192,
+          "x": 180,
           "y": 144
         },
         {
           "id": 1386,
-          "x": 0,
+          "x": 36,
           "y": 144
         },
         {
           "id": 1387,
-          "x": 48,
+          "x": 84,
           "y": 108
         },
         {
           "id": 1388,
-          "x": 48,
+          "x": 84,
           "y": 144
         },
         {
           "id": 1389,
-          "x": 48,
+          "x": 84,
           "y": 180
         },
         {
           "id": 1390,
-          "x": 96,
+          "x": 132,
           "y": 108
         },
         {
           "id": 1391,
-          "x": 96,
+          "x": 132,
           "y": 180
         },
         {
           "id": 1392,
-          "x": 144,
+          "x": 180,
           "y": 180
+        },
+        {
+          "id": 1393,
+          "x": 0,
+          "y": 108
+        },
+        {
+          "id": 1394,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 1395,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 1396,
+          "x": 228,
+          "y": 180
+        },
+        {
+          "id": 1397,
+          "x": 228,
+          "y": 216
+        },
+        {
+          "id": 1398,
+          "x": 276,
+          "y": 216
+        },
+        {
+          "id": 1399,
+          "x": 36,
+          "y": 36
         }
       ]
     },
