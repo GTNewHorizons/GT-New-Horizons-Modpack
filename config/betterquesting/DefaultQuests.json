@@ -134220,6 +134220,121 @@
       "preRequisites": [
         1378
       ]
+    },
+    {
+      "questID": 1401,
+      "name": "Infuse your Focus",
+      "description": "Try to add Potency to your Shock Focus. At Level 3 you can add change lighning or Shock Wave.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:FocusShock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "upgrade:9": [
+            {
+              "id:4": 0
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            }
+          ]
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:FocusShock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "upgrade:9": [
+                  {
+                    "id:4": 0
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  }
+                ]
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:experience_bottle",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1382
+      ]
     }
   ],
   "questLines": [
@@ -138172,283 +138287,288 @@
       "quests": [
         {
           "id": 260,
-          "x": 78,
+          "x": 126,
           "y": 96
         },
         {
           "id": 261,
-          "x": 366,
+          "x": 414,
           "y": 132
         },
         {
           "id": 263,
-          "x": 330,
+          "x": 378,
           "y": 132
         },
         {
           "id": 265,
-          "x": 186,
+          "x": 234,
           "y": 96
         },
         {
           "id": 266,
-          "x": 258,
+          "x": 306,
           "y": 96
         },
         {
           "id": 267,
-          "x": 222,
+          "x": 270,
           "y": 192
         },
         {
           "id": 268,
-          "x": 222,
+          "x": 270,
           "y": 156
         },
         {
           "id": 269,
-          "x": 222,
+          "x": 270,
           "y": 36
         },
         {
           "id": 270,
-          "x": 222,
+          "x": 270,
           "y": 0
         },
         {
           "id": 271,
-          "x": 222,
+          "x": 270,
           "y": 72
         },
         {
           "id": 264,
-          "x": 222,
+          "x": 270,
           "y": 120
         },
         {
           "id": 262,
-          "x": 366,
+          "x": 414,
           "y": 96
         },
         {
           "id": 272,
-          "x": 78,
+          "x": 126,
           "y": 252
         },
         {
           "id": 273,
-          "x": 414,
+          "x": 462,
           "y": 168
         },
         {
           "id": 274,
-          "x": 366,
+          "x": 414,
           "y": 168
         },
         {
           "id": 275,
-          "x": 42,
+          "x": 90,
           "y": 216
         },
         {
           "id": 276,
-          "x": 42,
+          "x": 90,
           "y": 168
         },
         {
           "id": 277,
-          "x": 42,
+          "x": 90,
           "y": 132
         },
         {
           "id": 278,
-          "x": 78,
+          "x": 126,
           "y": 216
         },
         {
           "id": 279,
-          "x": 450,
+          "x": 498,
           "y": 168
         },
         {
           "id": 281,
-          "x": 522,
+          "x": 570,
           "y": 168
         },
         {
           "id": 280,
-          "x": 486,
+          "x": 534,
           "y": 168
         },
         {
           "id": 283,
-          "x": 450,
+          "x": 498,
           "y": 204
         },
         {
           "id": 284,
-          "x": 450,
+          "x": 498,
           "y": 252
         },
         {
           "id": 285,
-          "x": 450,
+          "x": 498,
           "y": 132
         },
         {
           "id": 286,
-          "x": 486,
+          "x": 534,
           "y": 96
         },
         {
           "id": 288,
-          "x": 414,
+          "x": 462,
           "y": 132
         },
         {
           "id": 289,
-          "x": 522,
+          "x": 570,
           "y": 96
         },
         {
           "id": 282,
-          "x": 522,
+          "x": 570,
           "y": 132
         },
         {
           "id": 290,
-          "x": 42,
+          "x": 90,
           "y": 288
         },
         {
           "id": 291,
-          "x": 150,
+          "x": 198,
           "y": 252
         },
         {
           "id": 292,
-          "x": 186,
+          "x": 234,
           "y": 252
         },
         {
           "id": 293,
-          "x": 222,
+          "x": 270,
           "y": 252
         },
         {
           "id": 294,
-          "x": 258,
+          "x": 306,
           "y": 252
         },
         {
           "id": 295,
-          "x": 114,
-          "y": 288
-        },
-        {
-          "id": 296,
-          "x": 78,
-          "y": 288
-        },
-        {
-          "id": 297,
-          "x": 114,
-          "y": 168
-        },
-        {
-          "id": 298,
-          "x": 114,
-          "y": 216
-        },
-        {
-          "id": 300,
           "x": 162,
           "y": 288
         },
         {
+          "id": 296,
+          "x": 126,
+          "y": 288
+        },
+        {
+          "id": 297,
+          "x": 162,
+          "y": 168
+        },
+        {
+          "id": 298,
+          "x": 162,
+          "y": 216
+        },
+        {
+          "id": 300,
+          "x": 210,
+          "y": 288
+        },
+        {
           "id": 299,
-          "x": 114,
+          "x": 162,
           "y": 252
         },
         {
           "id": 301,
-          "x": 42,
+          "x": 90,
           "y": 252
         },
         {
           "id": 287,
-          "x": 486,
+          "x": 534,
           "y": 132
         },
         {
           "id": 302,
-          "x": 114,
+          "x": 162,
           "y": 132
         },
         {
           "id": 303,
-          "x": 330,
+          "x": 378,
           "y": 168
         },
         {
           "id": 304,
-          "x": 330,
+          "x": 378,
           "y": 204
         },
         {
           "id": 305,
-          "x": 42,
+          "x": 90,
           "y": 96
         },
         {
           "id": 306,
-          "x": 150,
+          "x": 198,
           "y": 132
         },
         {
           "id": 833,
-          "x": 414,
+          "x": 462,
           "y": 96
         },
         {
           "id": 1055,
-          "x": 78,
+          "x": 126,
           "y": 48
         },
         {
           "id": 1097,
-          "x": 114,
+          "x": 162,
           "y": 48
         },
         {
           "id": 1098,
-          "x": 114,
+          "x": 162,
           "y": 12
         },
         {
           "id": 1099,
-          "x": 150,
+          "x": 198,
           "y": 48
         },
         {
           "id": 1102,
-          "x": 366,
+          "x": 414,
           "y": 48
         },
         {
           "id": 1105,
-          "x": 366,
+          "x": 414,
           "y": 0
         },
         {
           "id": 1382,
-          "x": 0,
+          "x": 48,
           "y": 216
         },
         {
           "id": 1383,
-          "x": 0,
+          "x": 48,
           "y": 168
+        },
+        {
+          "id": 1401,
+          "x": 0,
+          "y": 216
         }
       ]
     },
