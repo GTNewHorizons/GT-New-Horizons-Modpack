@@ -134143,6 +134143,83 @@
       "preRequisites": [
         238
       ]
+    },
+    {
+      "questID": 1400,
+      "name": "Wand Focus Blink",
+      "description": "Wand Focus: Blink is a very powerful focus allowing to teleport whenever you click, as long as the destination is less then 50 blocks away from you. But, as there is no teleport cooldown, you can travel extremally fast with it. Consumes 3 Perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ForbiddenMagic:BlinkFocus",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ForbiddenMagic:BlinkFocus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1378
+      ]
     }
   ],
   "questLines": [
@@ -138740,6 +138817,11 @@
           "id": 1399,
           "x": 36,
           "y": 36
+        },
+        {
+          "id": 1400,
+          "x": 276,
+          "y": 108
         }
       ]
     },
