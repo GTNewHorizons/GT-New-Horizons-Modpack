@@ -22,6 +22,13 @@ import mods.gregtech.Pulverizer;
 // --- Variables ---
 
 
+var IronOreberry = <TConstruct:oreBerries:0>;
+var GoldOreberry = <TConstruct:oreBerries:1>;
+var CopperOreberry = <TConstruct:oreBerries:2>;
+var TinOreberry = <TConstruct:oreBerries:3>;
+var AluminiumOreberry = <TConstruct:oreBerries:4>;
+var EssenceOreberry = <TConstruct:oreBerries:5>;
+
 val CastingBasin = <TConstruct:SearedBlock:2>;
 val String = <minecraft:string>;
 val SilkyCloth = <TConstruct:materials:25>;
@@ -80,6 +87,14 @@ val Paintbrush = <ExtraUtilities:paintbrush>;
 
 // --- Removing Recipes ---
 
+
+// --- Tooltips ---
+IronOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+TinOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+CopperOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+GoldOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+AluminiumOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+EssenceOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
 
 // --- Blocks ---
 
