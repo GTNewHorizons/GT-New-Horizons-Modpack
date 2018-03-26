@@ -656,9 +656,6 @@ Extractor.addRecipe(<harvestcraft:figjuiceItem>, <ExtraTrees:food:32>);
 // -
 Extractor.addRecipe(<harvestcraft:figjuiceItem>, <harvestcraft:figItem>);
 
-// --- Sugar
-Extractor.addRecipe(<minecraft:sugar>, <harvestcraft:beetItem>);
-
 // --- Cooking Oil
 Extractor.addRecipe(<harvestcraft:oliveoilItem>, <ExtraTrees:food:35>);
 // -
