@@ -4006,10 +4006,10 @@
               "Damage": 2
             },
             {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
+              "id": "TConstruct:oreBerries",
+              "Count": 10,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 1
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -6735,10 +6735,10 @@
         {
           "rewards": [
             {
-              "id": "TConstruct:ore.berries.two",
-              "Count": 10,
+              "id": "TConstruct:oreBerries",
+              "Count": 20,
               "OreDict": "",
-              "Damage": 8
+              "Damage": 4
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -7193,22 +7193,22 @@
         {
           "choices": [
             {
-              "id": "TConstruct:ore.berries.two",
-              "Count": 10,
+              "id": "TConstruct:oreBerries",
+              "Count": 20,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 5
             },
             {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
+              "id": "TConstruct:oreBerries",
+              "Count": 20,
               "OreDict": "",
-              "Damage": 8
+              "Damage": 0
             },
             {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
+              "id": "TConstruct:oreBerries",
+              "Count": 20,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 1
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -42835,10 +42835,10 @@
               "Damage": 32221
             },
             {
-              "id": "TConstruct:ore.berries.two",
-              "Count": 5,
+              "id": "TConstruct:oreBerries",
+              "Count": 10,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 5
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -77107,10 +77107,10 @@
         {
           "choices": [
             {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
+              "id": "TConstruct:oreBerries",
+              "Count": 10,
               "OreDict": "",
-              "Damage": 10
+              "Damage": 2
             },
             {
               "id": "harvestcraft:footlongItem",
@@ -77214,10 +77214,10 @@
         {
           "choices": [
             {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
+              "id": "TConstruct:oreBerries",
+              "Count": 10,
               "OreDict": "",
-              "Damage": 8
+              "Damage": 0
             },
             {
               "id": "minecraft:lava_bucket",
@@ -82904,246 +82904,6 @@
       ]
     },
     {
-      "questID": 876,
-      "name": "Iron berry bush",
-      "description": "Farming your iron (berries) instead of finding iron ores.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "TConstruct:ore.berries.one",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 8
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 8
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        76
-      ]
-    },
-    {
-      "questID": 877,
-      "name": "Gold berry bush",
-      "description": "Farming your gold (berries) instead of finding gold ore.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "TConstruct:ore.berries.one",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 9
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 9
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        88
-      ]
-    },
-    {
-      "questID": 878,
-      "name": "Copper berry bush",
-      "description": "Farming your copper (berries) instead of finding copper ore.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "TConstruct:ore.berries.one",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 10
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 10
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        76
-      ]
-    },
-    {
-      "questID": 879,
-      "name": "Aluminum berry bush",
-      "description": "Farming your Aluminum (berries) instead of looking for aluminum gravel.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "TConstruct:ore.berries.two",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 8
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 20,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "TConstruct:ore.berries.two",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 8
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        89
-      ]
-    },
-    {
       "questID": 880,
       "name": "Witch",
       "description": "You feel lonely. What\u0027s cooking?",
@@ -83561,66 +83321,6 @@
       ],
       "preRequisites": [
         479
-      ]
-    },
-    {
-      "questID": 887,
-      "name": "Tin berry bush",
-      "description": "Farming your tin (berries) instead of finding tin ore.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "TConstruct:ore.berries.one",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 11
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinFarmer",
-              "Count": 10,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "TConstruct:ore.berries.one",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 11
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        76
       ]
     },
     {
@@ -90068,7 +89768,7 @@
         }
       ],
       "preRequisites": [
-        1191
+        89
       ]
     },
     {
@@ -115274,66 +114974,6 @@
       ]
     },
     {
-      "questID": 1191,
-      "name": "XP berry bush",
-      "description": "Farming your XP instead of harming monsters or aninmals.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "TConstruct:ore.berries.two",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 9
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "dreamcraft:item.CoinFarmerI",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "TConstruct:ore.berries.two",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 9
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        89
-      ]
-    },
-    {
       "questID": 1192,
       "name": "Aluminum berries",
       "description": "And a few aluminum berries for cash.",
@@ -115390,7 +115030,7 @@
         }
       ],
       "preRequisites": [
-        879
+        89
       ]
     },
     {
@@ -115450,7 +115090,7 @@
         }
       ],
       "preRequisites": [
-        877
+        88
       ]
     },
     {
@@ -115510,7 +115150,7 @@
         }
       ],
       "preRequisites": [
-        876
+        76
       ]
     },
     {
@@ -115570,7 +115210,7 @@
         }
       ],
       "preRequisites": [
-        878
+        76
       ]
     },
     {
@@ -115630,7 +115270,7 @@
         }
       ],
       "preRequisites": [
-        887
+        76
       ]
     },
     {
@@ -137252,33 +136892,8 @@
           "y": 36
         },
         {
-          "id": 876,
-          "x": 0,
-          "y": 72
-        },
-        {
-          "id": 877,
-          "x": 0,
-          "y": 144
-        },
-        {
-          "id": 878,
-          "x": 36,
-          "y": 72
-        },
-        {
-          "id": 879,
-          "x": 0,
-          "y": 180
-        },
-        {
-          "id": 887,
-          "x": 72,
-          "y": 72
-        },
-        {
           "id": 950,
-          "x": 36,
+          "x": 0,
           "y": 216
         },
         {
@@ -137752,18 +137367,13 @@
           "y": 0
         },
         {
-          "id": 1191,
-          "x": 0,
-          "y": 216
-        },
-        {
           "id": 1192,
-          "x": 36,
+          "x": 0,
           "y": 180
         },
         {
           "id": 1193,
-          "x": 36,
+          "x": 0,
           "y": 144
         },
         {
