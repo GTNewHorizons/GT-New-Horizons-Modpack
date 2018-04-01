@@ -2797,6 +2797,8 @@ mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamPaperbark>, false, false,
 mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs>, false, false, 20, <minecraft:coal:1>);
 // -
 mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs:1>, false, false, 20, <minecraft:coal:1>);
+//-
+mods.railcraft.BlastFurnace.addRecipe(<miscutils:blockRainforestOakLog>, false, false, 20, <minecraft:coal:1>);
 
 
 
