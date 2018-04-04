@@ -130794,8 +130794,8 @@
     },
     {
       "questID": 1355,
-      "name": "Angle Wings - Ultra Force!",
-      "description": "From ore to ingot, from nano to quantum, as you progress, your technology level increases, so should your wings aswell.",
+      "name": "Angel Wings - Ultra Force!",
+      "description": "From ore to ingot, from nano to quantum, as you progress, your technology level increases, so should your wings as well.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -130903,7 +130903,7 @@
     },
     {
       "questID": 1356,
-      "name": "Angle Wings - Combine!",
+      "name": "Angel Wings - Combine!",
       "description": "The last step is to combine the quantum armor with your quantum wings.",
       "isMain": false,
       "isSilent": false,
@@ -131271,7 +131271,7 @@
     {
       "questID": 1361,
       "name": "What the Heck...?",
-      "description": "You found a yellow-ish glowing ball. It might be usefull later on.",
+      "description": "You found a yellow-ish glowing ball. It might be useful later on.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -131331,7 +131331,7 @@
     {
       "questID": 1362,
       "name": "The One Ring.",
-      "description": "So you found it. The One Ring, forged by a mighty Dark Wizzard. A strange feeling tells you to put it on. The Ring seems to whisper to you aswell...",
+      "description": "So you found it. The One Ring, forged by a mighty Dark Wizard. A strange feeling tells you to put it on. The Ring seems to whisper to you as well...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -131886,7 +131886,7 @@
     {
       "questID": 1367,
       "name": "Upgrade your Forestry Backpack",
-      "description": "With your woven silk you can upgrade your Forstry backpacks. Each Pack have 45 slots.\nYou need a carpenter, your old backpack and a bit seed oil.\n\nIf the recipe not working put the bag in a crafting grid to reset additional nbt data.",
+      "description": "With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.\nYou need a carpenter, your old backpack and a bit of seed oil.\n\nIf the recipe is not working, put the bag in a crafting grid to reset additional nbt data.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -131998,7 +131998,7 @@
     {
       "questID": 1368,
       "name": "Lost in the Twilight Forest",
-      "description": "If you stay in twilight forst and your portal get brocken during some fight you get lost. Every 24h you are able to exchange some materials to get a new portal crystal to escape.",
+      "description": "If you stay in the Twilight Forest and your portal gets broken, you are stuck. Every 24h you are able to exchange some materials to get a new portal crystal to escape.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -132076,7 +132076,7 @@
     {
       "questID": 1369,
       "name": "Time to find some Amber",
-      "description": "Every Thaumcraft Infused Stone vein have a bit amber ore in it. Go and find some amber ores.",
+      "description": "Every Thaumcraft Infused Stone vein has a bit of amber ore in it. Go and find some amber ore.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -132159,7 +132159,7 @@
     {
       "questID": 1370,
       "name": "Light it up!",
-      "description": "The arcane lamp creates additional light sources which acts like a Torch in the sphere with the radius of 16 blocks centered on it.\nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.\"",
+      "description": "The arcane lamp creates additional light sources which acts like a Torch in a sphere with a radius of 16 blocks centered on it.\nWhen attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.\"",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -132236,7 +132236,7 @@
     {
       "questID": 1371,
       "name": "LOX Cannister, refill your Tanks",
-      "description": "To make liquid oxygen you need 16 oxygen cells and a universal fluid cell. Put them in the assember to get 1 cell compressed oxygen.\nAfter this put it in the vacuum freezer and wait a bit.\nNow you get liquid air. Fill it into a empty galacticraft cannister to get a good air backup for your tanks.\nTo refill your oxygen tanks just put both in the crafting grid to transfer oxygen.",
+      "description": "To make liquid oxygen you need 16 oxygen cells and a universal fluid cell. Put them in the assember to get 1 cell of compressed oxygen.\nAfter this put it in the vacuum freezer and wait a bit.\nNow you get some liquid air. Fill it into a empty galacticraft cannister to get a good air backup for your tanks.\nTo refill your oxygen tanks just put both in the crafting grid to transfer oxygen.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -132481,7 +132481,7 @@
     {
       "questID": 1373,
       "name": "Wand Focus Excavation",
-      "description": "The Wand Focus: Excavation when equipped to a wand, it will emit a green beam of light that will mine blocks of any hardness (except for blocks like Bedrock) from a distance.\nIts base vis cost is 0.15  terra per tick that it mines a block. It is also used in operating the Arcane Bore.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "The Wand Focus: Excavation when equipped to a wand, will emit a green beam of light that will mine blocks of any hardness (except for blocks like Bedrock) from a distance.\nIts base vis cost is 0.15  terra per tick that it mines a block. It is also used in operating the Arcane Bore.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -132559,7 +132559,7 @@
     {
       "questID": 1374,
       "name": "Wand Focus Shock",
-      "description": "The Wand Focus: Shock when equipped to a wand, it will shoot a bolt of lightning when the right mouse button is pressed. It homes in slightly to the nearest mob/player from where it is aimed. Its base vis cost is 0.25 air per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "The Wand Focus: Shock when equipped to a wand will shoot a bolt of lightning when the right mouse button is pressed. It homes in slightly to the nearest mob/player from where it is aimed. Its base vis cost is 0.25 air per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -132637,7 +132637,7 @@
     {
       "questID": 1375,
       "name": "Wand Focus Equal Trade",
-      "description": "Wand Focus: Equal Trade is a wand focus added by Thaumcraft 4. It is used to switch out blocks in the world with blocks in the player\u0027s inventory. Shift right-clicking on a block with it equipped will attune the focus to the block, making it the substitute block. Left-clicking on another block will replace it with the substitute block. Right-clicking will transform an a 3x3 area of blocks that the player can see (the focus will not affect blocks behind those). This range can be extended by using a Focal Manipulator. Each use costs 0.05 ordo 0.05 perditio and 0.05 terra.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Equal Trade is a wand focus added by Thaumcraft 4. It is used to switch out blocks in the world with blocks in the player\u0027s inventory. Shift right-clicking on a block with it equipped will attune the focus to the block, making it the substitute block. Left-clicking on another block will replace it with the substitute block. Right-clicking will transform a 3x3 area of blocks that the player can see (the focus will not affect blocks behind those). This range can be extended by using a Focal Manipulator. Each use costs 0.05 ordo 0.05 perditio and 0.05 terra.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -132715,7 +132715,7 @@
     {
       "questID": 1376,
       "name": "Wand Focus Frost",
-      "description": "The Wand Focus: Frost is a wand focus when equipped to a wand, it will launch a ball of ice that can bounce off of blocks and mobs if their hardness is high enough.[clarify] Its base vis cost is 0.05 aqua 0.02 ignis and 0.02 perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "The Wand Focus: Frost when equipped to a wand will launch a ball of ice that can bounce off of blocks and mobs if their hardness is high enough.  It will inflict Slowness on mobs, freeze water and solidify lava.  Its base vis cost is 0.05 aqua 0.02 ignis and 0.02 perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -132793,7 +132793,7 @@
     {
       "questID": 1377,
       "name": "Wand Focus Warding",
-      "description": "The Wand Focus: Warding can be used to make blocks invincible. To ward a block, right click on it with a wand or staff with this focus on it. This will make the block invincible until it is unwarded by right clicking it again with the wand. Take note that only the player who warded the block can unward it. \n\nEffects of Warded Blocks are completely indestructible and will produce particle effects similiar to runic shielding when the owner or another player tries to break it. Also, blocks that are affected by gravity(such as sand and gravel) will not fall when warded. Warded blocks cannot be affected by any outside influence such as redstone and pistons. If you attempt to ward glass, it will break the glass instead. There is a block known as warded glass available within the warded arcana research. The only way to break the warded glass is via the owner right clicking with a wand in hand. Warding a block costs 0.1 aqua, 0.25 ordo and 0.25 terra.\n\nSpecial Note: Warded blocks emit light.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "The Wand Focus: Warding can be used to make blocks invincible. To ward a block, right click on it with a wand or staff with this focus on it. This will make the block invincible until it is unwarded by right clicking it again with the wand. Take note that only the player who warded the block can unward it. \n\nWarded Blocks are completely indestructible and will produce particle effects similiar to runic shielding when the owner or another player tries to break it. Also, blocks that are affected by gravity(such as sand and gravel) will not fall when warded. Warded blocks cannot be affected by any outside influence such as redstone and pistons. If you attempt to ward glass, it will break the glass instead. There is a block known as warded glass available within the warded arcana research. The only way to break the warded block is via the owner right clicking with a wand in hand. Warding a block costs 0.1 aqua, 0.25 ordo and 0.25 terra.\n\nSpecial Note: Warded blocks emit light.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -132871,7 +132871,7 @@
     {
       "questID": 1378,
       "name": "Wand Focus Portable Hole",
-      "description": "The Wand Focus: Portable Hole when equipped to a wand, the focus will create a temporary 3x3 hole centered on the targeted block that will go 32 blocks. Some blocks cannot be passed through, such as Bedrock. Its base vis cost is air 0.1  and perditio 0.1  per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "The Wand Focus: Portable Hole when equipped to a wand will create a temporary 3x3 hole centered on the targeted block that will go 32 blocks. Some blocks cannot be passed through, such as Bedrock. Its base vis cost is air 0.1  and perditio 0.1  per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -133032,8 +133032,8 @@
     },
     {
       "questID": 1380,
-      "name": "Wand Focus Peach\u0027s Curse",
-      "description": "The Pech\u0027s Curse is a rare wand focus which cannot be crafted by the player. It can only be obtained from a Pech Thaumaturge -- either by trading, or by killing it for the drop. (If attacked, the Pech will use it against you!)  Its vis cost per shot is 0.1 Perditio, 0.1 Terra and 0.1 Aqua.\n\nThe focus fires a small ball of energy with a bright bluish-green trail. This missile is affected by gravity, so the shots need to be \"arched\" to hit distant targets. When the shot hits a mob, it does one heart of damage and randomly inflicts one of several effects on the target: Poison, Weakness, or Slowness. A 5th-level upgrade to the focus can make it give all the effects at once.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "name": "Wand Focus Pech\u0027s Curse",
+      "description": "The Pech\u0027s Curse is a rare wand focus which cannot be crafted by the player. It can only be obtained from a Pech Thaumaturge -- either by trading, or by killing it for the drop. (If attacked, the Pech will use it against you!)  Its vis cost per shot is 0.1 Perditio, 0.1 Terra and 0.1 Aqua.\n\nThe focus fires a small ball of energy with a bright bluish-green trail. This missile is affected by gravity, so the shots need to be \"arced\" to hit distant targets. When the shot hits a mob, it does one heart of damage and randomly inflicts one of several effects on the target: Poison, Weakness, or Slowness. A 5th-level upgrade to the focus can make it give all the effects at once.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -133110,7 +133110,7 @@
     {
       "questID": 1381,
       "name": "Wand Focus Primal",
-      "description": "The Wand Focus: Primal is a wand focus holding right-click with it equipped will hurl an orb of primal energy. The orb explodes on impact, and has a small chance to cause other effects, such as creating taint, or a node at the impact site. Its base vis cost changes every tick.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "The Wand Focus: Primal will hurl an orb of primal energy while holding right-click with it equipped. The orb explodes on impact, and has a small chance to cause other effects, such as creating taint, or a node at the impact site. Its base vis cost changes every tick.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -133187,7 +133187,7 @@
     {
       "questID": 1382,
       "name": "Pimp your Wand Focus",
-      "description": "The Manipulator requires both EXP levels and centi-vis in order to upgrade foci. Each Focus can be upgraded a total of five times, with the level and vis cost increasing by 8 for each upgrade. Some upgrades can be applied only at certain levels (often only at level 3), and others have prerequisite upgrades. Some upgrades like Frugal and Potency can be applied multiple times. All upgrades are permanent, and there is currently no way to remove them.",
+      "description": "The Manipulator requires both XP levels and centi-vis in order to upgrade foci. Each Focus can be upgraded a total of five times, with the level and vis cost increasing by 8 for each upgrade. Some upgrades can be applied only at certain levels (often only at level 3), and others have prerequisite upgrades. Some upgrades like Frugal and Potency can be applied multiple times. All upgrades are permanent, and there is currently no way to remove them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -133264,7 +133264,7 @@
     {
       "questID": 1383,
       "name": "Advanced Node Stabilizer",
-      "description": "The advanced node stabilizer acts like a normal node stabilizer but with key differences. It will still stop the node it affects from being drained but the node can now drain from other lesser nodes. It also has a higher chance to improve fading and unstable nodes. The downside is that any nodes it affects will have their recharge rates effectively reduced to nothing. They will recharge at an extravagantly reduced rate.",
+      "description": "The advanced node stabilizer acts like a normal node stabilizer but with key differences. It will still stop the node it affects from being drained but the node can now drain from other lesser nodes. It also has a higher chance to improve fading and unstable nodes. The downside is that any nodes it affects will have their recharge rates effectively reduced to nothing. They will recharge at an extremely reduced rate.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -133661,7 +133661,7 @@
     {
       "questID": 1388,
       "name": "Wand Focus Disorientation",
-      "description": "The Wand Focus: Distortion is a focus, which can be equipped on any wand that protects the caster from \"ordinary\" projectiles such as arrows, snowballs, and potions. The focus can be enabled by cycling through the foci currently in the player\u0027s inventory, which is done with the F-key. The focus consumes 0.04 Aer and 0.08 Ordo per tick from the Vis stored in the wand while in use.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "The Wand Focus: Distortion can be equipped on any wand.  It protects the caster from \"ordinary\" projectiles such as arrows, snowballs, and potions. The focus can be enabled by cycling through the foci currently in the player\u0027s inventory, which is done with the F-key. The focus consumes 0.04 Aer and 0.08 Ordo per tick from the Vis stored in the wand while in use.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -133815,7 +133815,7 @@
     {
       "questID": 1390,
       "name": "Wand Focus Telekinesis",
-      "description": "Wand Focus: Telekinesis is a wand focus can move nearby objects such as dropped items, arrows ect. where you are pointing with the wand or towards you, if you hold Shift key why using it. Consumes 0.05 Aer + 0.05 Perditio per tick used.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Telekinesis is a wand focus that can move nearby objects such as dropped items, arrows etc. where you are pointing with the wand or towards you, if you hold Shift key while using it. Consumes 0.05 Aer + 0.05 Perditio per tick used.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -133893,7 +133893,7 @@
     {
       "questID": 1391,
       "name": "Wand Focus Experience Drain",
-      "description": "Wand Focus: Experience Drain, this focus will drain the player\u0027s experience at a rate of 15 xp per tick, restoring vis at a rather fast rate.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Experience Drain will drain the player\u0027s experience at a rate of 15 xp per tick, restoring vis at a rather fast rate.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -133971,7 +133971,7 @@
     {
       "questID": 1392,
       "name": "Wand Focus Shadow Beam",
-      "description": "Wand Focus: Shadowbeam shoots a beam of energy that is reflected by any block and damages everything it passes through. The beam travels rather short distance though. Consumes 0.15 Aer + 0.25 Ordo + 0.25 Perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Shadowbeam shoots a beam of energy that is reflected by any block and damages everything it passes through. The beam travels a rather short distance though. Consumes 0.15 Aer + 0.25 Ordo + 0.25 Perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134127,7 +134127,7 @@
     {
       "questID": 1394,
       "name": "Wand Focus Tainted Shockwave",
-      "description": "Wand Focus: Tainted Shockwave will release a powerful shockwave around the caster which travels 15-20 blocks and will damage all mobs in the radius and push them back same as enchantment Knockback II. After using this foci the caster will be unable to use any other magic for 15 seconds. The foci can be enchanted with Frugal and Enlarge, each level of Enlarge will add 1 block to the shockwave radius. Each cast costs 10 Aqua + 5 Ordo + 10 Terra + 10 Perditio.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Tainted Shockwave will release a powerful shockwave around the caster which travels 15-20 blocks and will damage all mobs in the radius and push them back the same as a Knockback II enchantment. After using this foci the caster will be unable to use any other magic for 15 seconds. The foci can be enchanted with Frugal and Enlarge, each level of Enlarge will add 1 block to the shockwave radius. Each cast costs 10 Aqua + 5 Ordo + 10 Terra + 10 Perditio.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134360,7 +134360,7 @@
     {
       "questID": 1397,
       "name": "Wand Focus Time",
-      "description": "Wand Focus: Time can be equipped by any wand. When used during day, will set the time to dusk, when used during night, will set the time to sunrise. Each cast costs 10 of all primal aspects and will make the player unable to use any other foci for 30 seconds.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Time can be equipped by any wand. When used during day, will set the time to dusk.  When used during night, will set the time to sunrise. Each cast costs 10 of all primal aspects and will make the player unable to use any other foci for 30 seconds.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134439,7 +134439,7 @@
     {
       "questID": 1398,
       "name": "Wand Focus Meteorology",
-      "description": "Wand Focus: Meteorology can be eqipped by any wand. When used during rain will stop rain, when used during sunny weather, will start rain. Each cast costs 10 of each primal aspect and will make the caster unable to use any other foci for 30 seconds.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Meteorology can be equipped by any wand. When used during rain will stop rain, when used during sunny weather, will start rain. Each cast costs 10 of each primal aspect and will make the caster unable to use any other foci for 30 seconds.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134838,7 +134838,94 @@
             }
           ],
           "rewardID": "bq_standard:item"
-        },
+        }
+      ],
+      "preRequisites": [
+        1378
+      ]
+    },
+    {
+      "questID": 1401,
+      "name": "Infuse your Focus",
+      "description": "Try to add Potency to your Shock Focus. At Level 3 you can add Chain Lightning or Shock Wave.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:FocusShock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "upgrade:9": [
+            {
+              "id:4": 0
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            }
+          ]
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:FocusShock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "upgrade:9": [
+                  {
+                    "id:4": 0
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  }
+                ]
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
         {
           "rewards": [
             {
@@ -136323,7 +136410,7 @@
     },
     {
       "name": "Tier 3 - 128 EU (MV)",
-      "description": "Your second voltage tier. Don\u0027t mix different voltage levels, or you will be punished in a hard way.",
+      "description": "Your second voltage tier. Don\u0027t mix different voltage levels, or you will be punished in a hard way. Start thinking about how to expand your base. ",
       "quests": [
         {
           "id": 89,
@@ -138440,7 +138527,7 @@
     },
     {
       "name": "Steve Carts",
-      "description": "Auto farming and mining ",
+      "description": "Basic auto farming and mining.  Protect them from lightning strikes!",
       "quests": [
         {
           "id": 108,
@@ -139325,7 +139412,7 @@
     },
     {
       "name": "Focus on Wand Foci",
-      "description": "Did you know which wand focus is usefull and which not?",
+      "description": "Did you know which wand focus is useful and which not?",
       "quests": [
         {
           "id": 1372,
@@ -140058,8 +140145,8 @@
       ]
     },
     {
-      "name": "Cooking Farming Fishing",
-      "description": "Cooking basic and more advanced food",
+      "name": "Fishing Farming Cooking",
+      "description": "Catch it, grow it, eat it!",
       "quests": [
         {
           "id": 627,
@@ -140265,7 +140352,7 @@
     },
     {
       "name": "Transportation",
-      "description": "All kinds of transportation means",
+      "description": "From four legged steeds to iron horses",
       "quests": [
         {
           "id": 666,
@@ -141761,7 +141848,7 @@
     },
     {
       "name": "Be(e) Breeding",
-      "description": "Explain how to breeding Bees",
+      "description": "Breeding Bees for Better Bling",
       "quests": [
         {
           "id": 1116,
