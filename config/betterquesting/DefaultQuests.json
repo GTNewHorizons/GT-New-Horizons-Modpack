@@ -62726,7 +62726,7 @@
     {
       "questID": 695,
       "name": "Automation tier 1",
-      "description": "Do you want to automate your smeltery because you are planning to make stacks of glass blocks? \nNo problem, craft a large bronze pipe and place it under the faucet. Now the molten fluid will flow inside the pipe. Under the pipe you have to place the casting basins or tables.\nA hopper and a chest underneath would be good to auto-output products.",
+      "description": "Do you want to automate your smeltery because you are planning to make stacks of glass blocks? \nNo problem, craft a large bronze pipe and place it under the faucet. Now the molten fluid will flow inside the pipe. Under or next to the pipe you have to place the casting basins or tables.\nA hopper and a chest underneath would auto-output products. NOTE: Faucets will output precisely 144L each activation if you toggle it off immediately. That's going to have some uses later on...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62855,7 +62855,7 @@
     {
       "questID": 696,
       "name": "Automation tier 2",
-      "description": "You want a better automation than using pipes? Sure, craft a comparator and link it with redstone dust placed on the ground. The redstone needs to be adjecent to the faucet to activate the crafting process.",
+      "description": "You want a better automation than using pipes? Sure, craft a comparator and link it with redstone dust placed on the ground. The redstone needs to be adjacent to the faucet to activate the crafting process.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109668,7 +109668,7 @@
     {
       "questID": 1134,
       "name": "LV Advanced Steam Boiler",
-      "description": "The LV Gt++ Steam Boiler is the next machine you can build to produce steam more efficient than with the High Pressure Boiler.",
+      "description": "The LV Gt++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the High Pressure Boiler.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109757,7 +109757,7 @@
     {
       "questID": 1135,
       "name": "ULV Transformer",
-      "description": "To get your simple ore washer working you need a ULV Transformer. The Washer can only work with 8 EU. If you put more into energy into it you get a big hole in your base.",
+      "description": "To get your simple ore washer working you need a ULV Transformer. The Washer can only work with 8 EU. If you put more energy into it you get a big hole in your base.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110384,7 +110384,7 @@
     {
       "questID": 1140,
       "name": "Rotor",
-      "description": "The Kinetic Generator will transform mechanical energy to electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator, Kinetic Water Generator  or a Kinetic Steam Generator.",
+      "description": "The Kinetic Wind and Water Generators need Rotors to function.  They can be added and removed with standard automation. Higher tier rotors will last longer.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110651,7 +110651,7 @@
     {
       "questID": 1142,
       "name": "HV Battery Buffers",
-      "description": "MV machines need battery buffers too. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 1x and a 4x buffer for HV.",
+      "description": "HV machines need battery buffers too. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 1x and a 4x buffer for HV.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110989,7 +110989,7 @@
     {
       "questID": 1146,
       "name": "GT 6 styled Pipes",
-      "description": "Maybe you are wondering why the new pipes don\u0027t auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don\u0027t need a plate or a foil to prevent pipes from connecting anymore. Shift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nHint: If you click one pipe onto the other they will auto-connect.",
+      "description": "Maybe you are wondering why the new pipes don\u0027t auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don\u0027t need a plate or a foil to prevent pipes from connecting anymore (You'll still want to cover hot pipes to prevent getting hurt!). Shift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nHint: If you click one pipe onto the other they will auto-connect.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111085,7 +111085,7 @@
     {
       "questID": 1147,
       "name": "GT 6 styled Wires and Cables",
-      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.\n\nHint: If you click one wire or cable on the other it will auto-connect. ",
+      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.\n\nHint: If you click one wire or cable on the other it will auto-connect. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111186,7 +111186,7 @@
     {
       "questID": 1148,
       "name": "MV Machine hull",
-      "description": "The next tier of machine hull needs aluminium, a lot of aluminium. Keep your EBF running and make some aluminium.",
+      "description": "The next tier of machine hull needs aluminium - a lot of aluminium. Keep your EBF running and make some aluminium.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -111270,7 +111270,7 @@
     },
     {
       "questID": 1149,
-      "name": "A new alloy Magnalium",
+      "name": "A new alloy - Magnalium",
       "description": "You wonder why you need magnalium now? It\u0027s not for GT machines right now but for a material update for your crossbow.\nIt\u0027s a very good material in LV Tier. Go to the Twilight Forest and find an Olivine/Glauconite vein located at Y 10-40 or in the Overworld a Glauconite Soapstone mix located at Y 20-50 and a Granitic Mineral Vein in the Overworld Located at Y 50-60 (The Gypsum vein you will need for the Bricked Blast Furnace).\nWith your Ore Washer you can get Magnesium and Aluminium out of the Ores (Magnesite for Magnesium and Fullers Earth for Aluminium) and mix it in the Alloy smelter to Magnalium.\nMagnesite gives 10 tiny piles of Magnesium each dust but fullers earth gives only a tiny pile of Aluminium.",
       "isMain": false,
       "isSilent": false,
@@ -111568,7 +111568,7 @@
     {
       "questID": 1151,
       "name": "Wooden Crosbow",
-      "description": "Now you are able to make a better long range weapon; a crossbow. Use wood for the the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.",
+      "description": "Now you are able to make a better long range weapon - a crossbow. Use wood for the the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112896,7 +112896,7 @@
     {
       "questID": 1160,
       "name": "Empty Cells",
-      "description": "With your plate bender you are able to make empty cells. The circuit needs to be configured to 12 otherwise you will make foil.",
+      "description": "With your plate bender you are able to make empty cells. The circuit needs to be configured to 12 otherwise you will make foil. Once you have an MV Extruder, you can make cells directly from ingots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113102,7 +113102,7 @@
     {
       "questID": 1163,
       "name": "Copper Wire",
-      "description": "Want some coper wires? Buy some!",
+      "description": "Want some copper wires? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113418,7 +113418,7 @@
     {
       "questID": 1167,
       "name": "Lithium",
-      "description": "Lithium can be washed out of Lepidolite Ore or centrifuged out of Spodumene Ore.",
+      "description": "Lithium can be washed out of Lepidolite Ore or centrifuged out of Spodumene Ore. At MV you can electrolyze clay dust for it. Look for canyons to find hardened clay and macerate it for dust.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113620,7 +113620,7 @@
     {
       "questID": 1170,
       "name": "Bath Soap",
-      "description": "Oh you feel so dirty. Go and take the soap and a shower.",
+      "description": "Oh you feel so dirty. Get the soap and take a long hot bath to get rid of some of that nasty Warp.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113740,7 +113740,7 @@
     {
       "questID": 1172,
       "name": "Cheaper Annealed Production",
-      "description": "It\u0027 s even faster and cheaper to make annealead copper in the arc furnace than in the electric blast furnace. Annealed copper is a very good material for wires in MV. It only loses 1 EU per block.",
+      "description": "It\u0027 s even faster and cheaper to make annealed copper in the arc furnace than in the electric blast furnace. Annealed copper is a very good material for cables in MV. It only loses 1 EU per block.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114090,7 +114090,7 @@
     {
       "questID": 1177,
       "name": "Thaumium cooking",
-      "description": "Now it is time to cook your first thaumium ingots. After you researched it you need iron ingots and praecantatio aspect to make it. ",
+      "description": "Now it is time to cook your first thaumium ingots. After researching it you need iron ingots and praecantatio aspect to make it. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -114202,7 +114202,7 @@
     {
       "questID": 1178,
       "name": "Food 2.0",
-      "description": "Forget everything you know about food and values. With your new canning machine you are able to fill tin cans with very nourishing food. This food can be consumed in milliseconds and makes you full and happy.",
+      "description": "Forget everything you know about food and values. With your new canning machine you are able to fill tin cans with very nourishing food. This food can be consumed in milliseconds and makes you full and happy. And you can eat as much as you want without getting tired of the food.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114327,7 +114327,7 @@
     {
       "questID": 1179,
       "name": "EBF Infos",
-      "description": "You can use a scanner to manually check how your EBF works, or you can make an informations panel from nuclear control and always see the status. Make a GT sensor kit and place the sensor card in your info panel. Enable it with a redstone signal.",
+      "description": "You can use a scanner to manually check how your EBF works, or you can make an information panel from nuclear control and always see the status. Make a GT sensor kit and place the sensor card in your info panel. Enable it with a redstone signal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114452,8 +114452,8 @@
     },
     {
       "questID": 1180,
-      "name": "Chunckloading",
-      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 1 hour per pearl.",
+      "name": "Chunkloading",
+      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 1 hour per pearl. Read up on the differences.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114530,7 +114530,7 @@
     {
       "questID": 1181,
       "name": "Minecart with Tank, Workbench or Furnace",
-      "description": "You want to transport oil or other fluids, have a portable crafting table or a portable chest? Then you need to craft some minecarts with tanks, mhests or crafting tables.",
+      "description": "You want to transport oil or other fluids, have a portable crafting table or a portable chest? Then you need to craft some minecarts with tanks, chests or crafting tables.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -115149,8 +115149,8 @@
     },
     {
       "questID": 1187,
-      "name": "The transcontinental railroad in high speed",
-      "description": "Did you ever dream of driving in a railcart at high speeds? Well your dreams can come true with the high speed tracks. Be careful though; you need to lower the speed when you rails change direction or when the track ends.",
+      "name": "The transcontinental railroad - high speed",
+      "description": "Did you ever dream of driving in a railcart at high speeds? Well your dreams can come true with the high speed tracks. Be careful though; you need to lower the speed when your rails change direction or when the track ends.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -115281,7 +115281,7 @@
     },
     {
       "questID": 1188,
-      "name": "The transcontinental railroad blast proof",
+      "name": "The transcontinental railroad - blast proof",
       "description": "Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hope you are blast proof too. \nYou can move 25% faster than with normal tracks.",
       "isMain": false,
       "isSilent": false,
@@ -116226,7 +116226,7 @@
     {
       "questID": 1198,
       "name": "Upgrading the reactor",
-      "description": "A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatces, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of inputting up to 8192eu/t, and can take as little as 8192eu/t to run, and up to 2 amps of 524288eu/t before it explodes. ",
+      "description": "A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of inputting up to 8192eu/t, and can take as little as 8192eu/t to run, and up to 2 amps of 524288eu/t before it explodes. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -116660,7 +116660,7 @@
     {
       "questID": 1201,
       "name": "Turbine Time",
-      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. ",
+      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -117323,7 +117323,7 @@
     },
     {
       "questID": 1210,
-      "name": "Cart modules: Power Thermal",
+      "name": "Cart modules: Thermal Engine",
       "description": "Your cart needs power, obviously. A cart can be powered via coal, solar or lava. Why not power your cart with lava?",
       "isMain": false,
       "isSilent": false,
@@ -117478,7 +117478,7 @@
     {
       "questID": 1212,
       "name": "Starting Fusion",
-      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options. Solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch inputs 2048eu/t, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn�t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
+      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch inputs 2048eu/t, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn�t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -118021,7 +118021,7 @@
     {
       "questID": 1216,
       "name": "Peat fired Engine",
-      "description": "Peat fired engines using Peat or Bituminous Peat to run. Peat burns for 5000 ticks and produces 10 RF every tick, 1 peat makes 0.66 Ash, so you get 2 Ash for burning 3 peat.\nBituminous Peat burns for 6000 ticks and produces 20 RF/tick.\n\nPeat Farms can be setup by using a managed farm with tin electron tubes. It is possible with manual farm too.",
+      "description": "Peat fired engines use Peat or Bituminous Peat to run. Peat burns for 5000 ticks and produces 10 RF every tick, 1 peat makes 0.66 Ash, so you get 2 Ash for burning 3 peat.\nBituminous Peat burns for 6000 ticks and produces 20 RF/tick.\n\nPeat Farms can be setup by using a managed farm with tin electron tubes. It is possible with a manual farm too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -118988,7 +118988,7 @@
     {
       "questID": 1224,
       "name": "Epoxid",
-      "description": "Epoxid is needed for your advanced Circuits boards. You need Sodiumhydroxide, Epichlorohydrine and Bispenol A to make it.",
+      "description": "Epoxid is needed for your advanced Circuits boards. You need Sodium Hydroxide, Epichlorohydrin and Bispenol A to make it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119419,8 +119419,8 @@
     },
     {
       "questID": 1228,
-      "name": "Epichlorohydrine",
-      "description": "Epichlorohydrine is another product used in your epoxid production. Mix glycerol and HCl together.",
+      "name": "Epichlorohydrin",
+      "description": "Epichlorohydrin is another product needed in your epoxid production. Mix glycerol and HCl together.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119530,7 +119530,7 @@
     {
       "questID": 1229,
       "name": "Phenol",
-      "description": "The easiest way is to get phenol out of heavy fuel. There are other ways, like getting it out of isopropylbenzene and oxygen or chlorobenzene and water.",
+      "description": "The easiest way is to get phenol out of heavy fuel. There are other ways, like getting it out of wood tar from a pyrolyse oven, isopropylbenzene and oxygen, or chlorobenzene and water.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119614,7 +119614,7 @@
     {
       "questID": 1230,
       "name": "Bisphenol A",
-      "description": "To get Bisphenol A your need to combine Phenol, Aceton and HCl in a chemical reactor.",
+      "description": "To get Bisphenol A you need to combine Phenol, Acetone and HCl in a chemical reactor.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -119916,7 +119916,7 @@
     {
       "questID": 1233,
       "name": "Ender Eyes",
-      "description": "Ender eyes are available in HV in the chemical reactor. Combine some ender pearls with blaze powder.",
+      "description": "Ender eyes are available at HV in the chemical reactor. Combine some ender pearls with blaze powder.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120558,7 +120558,7 @@
     {
       "questID": 1239,
       "name": "Nor and Nand chips",
-      "description": "The data stick requires nand chips. Nor chips are needed for more advanced circuits. You can get these by cutting a nand and a nor wafer.\nA cleanroom is required.",
+      "description": "The data stick requires nand chips. Nor chips are needed for more advanced circuits. You can get these by cutting nand and nor wafers.\nA cleanroom is required.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120908,7 +120908,7 @@
     {
       "questID": 1242,
       "name": "EV Chemical reactor",
-      "description": "An EV chemical rector is required to get some indium or make your radon production quite faster. If you make an large cvemical reactor allready use them.",
+      "description": "An EV chemical reactor is required to get some indium or make your radon production much faster. If you already made a large chemical reactor use that instead.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121080,7 +121080,7 @@
     {
       "questID": 1244,
       "name": "Scheelite, Tungstate",
-      "description": "Tungstensteel is the material you need but go find some scheelite and tungstate mix on Mars first. Look at Y 20-60.",
+      "description": "Tungstensteel is the material you need but first go find some scheelite and tungstate mix on Mars. Look at Y 20-60.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121169,7 +121169,7 @@
     {
       "questID": 1245,
       "name": "You gonna hate this 1-4 in EV",
-      "description": "Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in HV. Go and craft one of each.",
+      "description": "Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in EV. Go and craft one of each.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121599,7 +121599,7 @@
     {
       "questID": 1249,
       "name": "Nano CPU Wafer and Chip",
-      "description": "The Nano CPU Wafer is made out of a CPU Wafer with carbon fiber and molten glowstone in an EV chemical reactor. Cut into the nano CPU chip.\nA cleanroom is needed.",
+      "description": "The Nano CPU Wafer is made out of a CPU Wafer with carbon fiber and molten glowstone in an EV chemical reactor. Cut it for nano CPU chips.\nA cleanroom is needed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -121965,7 +121965,7 @@
     },
     {
       "questID": 1252,
-      "name": "Chemical Bath",
+      "name": "HV Chemical Bath",
       "description": "An HV chemical bath is needed for the quantum eye.",
       "isMain": true,
       "isSilent": false,
@@ -122939,7 +122939,7 @@
     {
       "questID": 1263,
       "name": "Blue Steel",
-      "description": "Your sunnarium batteries are made out of blue steel; a mixture of steel, black steel, brass and rose gold.",
+      "description": "Your sunnarium batteries are made out of blue steel: a mixture of steel, black steel, brass and rose gold.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123055,7 +123055,7 @@
     {
       "questID": 1264,
       "name": "EV Sunnarium Battery",
-      "description": "Your fist EV sunnarium battery used in EV tier. You make it with the sunnarium you generated before.",
+      "description": "Your first EV sunnarium battery used in EV tier. You make it with the sunnarium you generated before.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123325,8 +123325,8 @@
     },
     {
       "questID": 1266,
-      "name": "Transformer LV-MV",
-      "description": "It\u0027s possible to run MV machines while still in LV age. Build a transformer and use 4 power sources 32 eu/t to power one 128 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then do NOT! change the mode otherwise there probably will be a big explosion.",
+      "name": "Low Voltage Transformer",
+      "description": "It\u0027s possible to run MV machines while still in LV age. Build a transformer and use 4 power sources 32 eu/t to power one 128 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then DO NOT change the mode otherwise there probably will be a big explosion.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123396,8 +123396,8 @@
     },
     {
       "questID": 1267,
-      "name": "Transformer MV-HV",
-      "description": "It\u0027s possible to run HV machines while still in MV age. Build a transformer and use 4 power sources 128 eu/t to power one 512 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then do NOT! change the mode otherwise there probably will be a big explosion.",
+      "name": "Medium Voltage Transformer",
+      "description": "It\u0027s possible to run HV machines while still in MV age. Build a transformer and use 4 power sources 128 eu/t to power one 512 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then DO NOT change the mode otherwise there probably will be a big explosion.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123468,8 +123468,8 @@
     },
     {
       "questID": 1268,
-      "name": "Transformer MV-HV High Amp",
-      "description": "If you need a transformer with more than 4 Ampere you need a high amp transformer. You can input four 128 eu/t power sources and output 16 ampere at 32 eu/t.\nModes can be changed with a soft mallet.",
+      "name": "LV High-Amp Transformer",
+      "description": "If you need a transformer with more than 4 amperes you need a high amp transformer. You can input four 128 eu/t power sources and output 16 ampere at 32 eu/t.\nModes can be changed with a soft mallet.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123539,8 +123539,8 @@
     },
     {
       "questID": 1269,
-      "name": "Transformator MV-HV High Amp",
-      "description": "If you need even more then craft a power tranformer with max 64 amps. You can input sixteen 128 eu/t power sources and output 64 ampere at 32 eu/t. Modes can be changed with a soft mallet.",
+      "name": "Low Voltage Power Transformer",
+      "description": "If you need even more amps then craft a power tranformer with a max LV output of 64 amps. You can input sixteen 128 eu/t power sources and output 64 amps at 32 eu/t. Modes can be changed with a soft mallet.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123611,7 +123611,7 @@
     {
       "questID": 1270,
       "name": "Time for a Spade",
-      "description": "Having Weeding Trowel, Hoe and Shovel in Inventroy seems to be painful when dealing with crops. Get the Spade, that combines these Items, it\u0027s unbreakable andhighers the chanche of getting seeds from plants.",
+      "description": "Having a Weeding Trowel, Hoe and Shovel in your Inventory is painful when dealing with crops. Get the Spade - it combines these Items, unbreakable and increases the chance of getting seeds from plants.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -123914,7 +123914,7 @@
     {
       "questID": 1273,
       "name": "Brewing, the Industrial Way",
-      "description": "If you want brews or alcohol, i recommend you to build one of these.You might have notice that you can not build a brewing stand without Thaumcraft. But fear not, you can still find them in chests.",
+      "description": "If you want brews or alcohol, I recommend you to build one of these. You might have noticed that you cannot build a brewing stand without Thaumcraft. But fear not, you can still find them in chests. Better get searching...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124131,7 +124131,7 @@
     {
       "questID": 1276,
       "name": "Korn and Doppelkorn",
-      "description": "Korn is german for wheat. That\u0027s why this special alcoholic brew is called like this. Doppelkorn means double-wheat.",
+      "description": "Korn is german for wheat. That\u0027s why this special alcoholic brew is named like this. Doppelkorn means double-wheat.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124331,7 +124331,7 @@
     {
       "questID": 1279,
       "name": "Firestone Ore/Dust",
-      "description": "Firestone ore is handy for some base building machines. Unforunately, it\u0027s in the nether...at the bottom of the lava ocean! Here are some tips for finding it\n\nFirestone can be mined with the GT miners, if you place it within range.\nFirestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won\u0027t have any. Can you think of ways to check the lava depth, and what\u0027s down there?\nNormally you can\u0027t see through lava, but if you enable nightvision on the nanosuit, you can see a short distance at the bottom. But how to prevent getting burned?\nAlternatively, if you keep your head at just the correct height above the lava and at the correct angle, you\u0027ll be able to see underneath it, Surely there must be a hovering jetpack?\nFirestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!",
+      "description": "Firestone ore is handy for some base building machines. Unforunately, it\u0027s in the nether...at the bottom of the lava ocean! Here are some tips for finding it\n\nFirestone can be mined with the GT miners, if you place it within range.\nFirestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won\u0027t have any. Can you think of ways to check the lava depth, and what\u0027s down there?\nNormally you can\u0027t see through lava, but if you enable nightvision on the nanosuit, you can see a short distance at the bottom. But how to prevent getting burned?\nAlternatively, if you keep your head at just the correct height above the lava and at the correct angle, you\u0027ll be able to see underneath it - surely there must be a hovering jetpack?\nFirestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124565,7 +124565,7 @@
     {
       "questID": 1282,
       "name": "The gathering: Sugar",
-      "description": "Stockpileing Sugar might be a good idea. Or not?",
+      "description": "Stockpiling sugar might be a good idea if you have a sweet tooth. Or not?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124700,8 +124700,8 @@
     },
     {
       "questID": 1284,
-      "name": "Whisps honey",
-      "description": "Giant whisps can be found in the Nether, quick! Sneak into their hive and steal some honey!",
+      "name": "Wasps honey",
+      "description": "Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124771,7 +124771,7 @@
     {
       "questID": 1285,
       "name": "Non-Industrial Rum",
-      "description": "Brewing rum is not an industrial task. It only requiers a barrel and some sugarcanes.",
+      "description": "Brewing rum is not an industrial task. It only requires a barrel and some sugarcanes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -124879,7 +124879,7 @@
     {
       "questID": 1286,
       "name": "Primal Shrooms",
-      "description": "Primal shrooms allow you to refill wands easier before you can move nodes to your base.\nGo and find some in a magical forrest biome or buy some if no biome is close to your location.",
+      "description": "Primal shrooms allow you to refill wands easier before you can move nodes to your base.\nGo and find some in a magical forest biome. Try using a Habitat Locator or Biome Compass. Or buy some if no biome is close to your location",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
