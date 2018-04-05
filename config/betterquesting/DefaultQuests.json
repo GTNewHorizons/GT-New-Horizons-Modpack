@@ -23990,7 +23990,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "",
-              "Damage": 27084
+              "Damage": 27083
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -24089,6 +24089,12 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 27030
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27084
             }
           ],
           "taskID": "bq_standard:retrieval"
