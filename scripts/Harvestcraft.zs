@@ -23,8 +23,6 @@ val String = <minecraft:string>;
 val Cotton = <Natura:barleyFood:3>;
 val flour = <ore:dustWheat>;
 
-
-
 // --- Removing Recipes ---
 
 // --- Sink ---
@@ -32,9 +30,6 @@ recipes.remove(<harvestcraft:sink:*>);
 
 // --- Market ---
 recipes.remove(<harvestcraft:market>);
-
-// --- Salt ---
-recipes.remove(<harvestcraft:saltItem>);
 
 // --- Salt Block
 recipes.remove(<harvestcraft:spamcompressedsaltBlockalt>);
@@ -184,6 +179,9 @@ recipes.remove(<harvestcraft:lemonaideItem>);
 
 // --- Adding Back Recipes ---
 
+// --- Edible Salt
+
+recipes.addShapeless(<dreamcraft:item.EdibleSalt>, [<ore:toolPot>, <ore:listAllwater>]);
 
 // --- Woven Cotton
 recipes.addShaped(WovenCloth, [
@@ -393,13 +391,6 @@ recipes.addShapeless(<harvestcraft:freshmilkItem> * 2, [<IguanaTweaksTConstruct:
 recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>]);
 
 recipes.addShapeless(<harvestcraft:freshwaterItem> * 2, [<IguanaTweaksTConstruct:clayBucketWater>]);
-
-// --- Salt
-recipes.addShapeless(<gregtech:gt.metaitem.01:1817>, [<harvestcraft:potItem>, <harvestcraft:freshwaterItem>]); 
-// -
-recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <minecraft:water_bucket>]);
-// -
-recipes.addShapeless(<gregtech:gt.metaitem.01:1817> * 2, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>]);
 
 // --- Wet Tofu
 recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <minecraft:water_bucket>]);
