@@ -125586,7 +125586,7 @@
     {
       "questID": 1294,
       "name": "Speeding up growth",
-      "description": "Used to accelerate the process of purifying crystals, which allows you to create pure certus quartz crystal, pure nether quartz crystal and pure fluix crystal. Must be powered by an ME Network via the top or bottom, and consumes a steady 8 ae/t while plugged in. Crystal Seeds must be in an adjacent water block to be effected, the seeds will shimmer more rapidly when in the presence of a powered crystal growth accelerator. Can only connect to cables, or other networked machines on the top and bottom of the machine.",
+      "description": "Used to accelerate the process of purifying crystals, which allows you to create pure certus quartz crystal, pure nether quartz crystal and pure fluix crystal. Must be powered by an ME Network via the top or bottom, and consumes a steady 8 ae/t while plugged in. Crystal Seeds must be in an adjacent water block to be affected - the seeds will shimmer more rapidly when in the presence of a powered crystal growth accelerator. Can only connect to cables, or other networked machines on the top and bottom of the machine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125782,7 +125782,7 @@
     {
       "questID": 1296,
       "name": "Purifying the impure",
-      "description": "Purified version of nether, certus and fluix crystal",
+      "description": "Purified versions of nether, certus and fluix crystals",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -126021,7 +126021,7 @@
     {
       "questID": 1298,
       "name": "Wireless Setup",
-      "description": "Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.\n\nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides network level security.\n\nThe player who places the ME security terminal has full control over the network and cannot exclude himself any rights. By adding a blank biometric card you define a default behavior for every player who has no own biometric card registered.\n\nOther than adding security on software layer, you can link up your wireless terminal with the network and access it wirelessly.\n\n\nAllows wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless boosters installed into the ME wireless access point. A network can have any number of ME wireless access point with any number of wireless boosters in each one, allowing you to optimize power usage and range by altering your setup. Requires a channel to be operational.",
+      "description": "Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.\n\nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides network level security.\n\nThe player who places the ME security terminal has full control over the network and cannot exclude himself any rights. By adding a blank biometric card you define a default behavior for every player who has no biometric card registered.\n\nIn addition to security on the software layer, you can link up your wireless terminal with the network and access it wirelessly.\n\n\nAllows wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless boosters installed into the ME wireless access point. A network can have any number of ME wireless access point with any number of wireless boosters in each one, allowing you to optimize power usage and range by altering your setup. Requires a channel to be operational.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -126117,7 +126117,7 @@
     },
     {
       "questID": 1299,
-      "name": "Dense boyes",
+      "name": "Dense boys",
       "description": "Giving your network even more stability. Dense energy cells store AE energy up to 1.6 million units. They do not accept power directly but are used to buffer power in an already existing ME Network.",
       "isMain": false,
       "isSilent": false,
@@ -126639,7 +126639,7 @@
     {
       "questID": 1305,
       "name": "For Fluid Recipes",
-      "description": "Me interface for fluids only.",
+      "description": "ME interface for fluids only.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -127849,7 +127849,7 @@
     {
       "questID": 1320,
       "name": "Advanced Compressor",
-      "description": "The mv compressor is double fast than the LV one and use 4x power. I suggest crafting 4 MV compressors for the new bio diesel processing line.",
+      "description": "The MV compressor is twice as fast as the LV one but uses 4x the power. I suggest crafting 4 MV compressors for the new biomass processing line.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -127938,7 +127938,7 @@
     {
       "questID": 1321,
       "name": "Advanced Macerator",
-      "description": "The mv macerator is double fast than the LV one and use 4x power.",
+      "description": "The MV macerator is twice as fast as the LV one but uses 4x the power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128027,7 +128027,7 @@
     {
       "questID": 1322,
       "name": "Advanced Centrifuge",
-      "description": "The mv centrifuge is double fast than the LV one and use 4x power.",
+      "description": "The MV centrifuge is twice as fast as the LV one but uses 4x the power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128116,7 +128116,7 @@
     {
       "questID": 1323,
       "name": "Biomass",
-      "description": "Chose the ic2 or the gregtech way to make biomass. Water and BioChaff is needed.",
+      "description": "Chose the IC2 or the gregtech way to make biomass. Water and BioChaff is needed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128211,7 +128211,7 @@
     {
       "questID": 1324,
       "name": "Advanced Fluid Extractor",
-      "description": "The mv fluid extractor is double fast than the LV one and use 4x power.",
+      "description": "The MV fluid extractor is twice as fast as the LV one but uses 4x the power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128543,7 +128543,7 @@
     {
       "questID": 1328,
       "name": "Pattern Terminal",
-      "description": "A specialized version of the ME crafting terminal designed to encode blank patterns into encoded patterns.\n\nLets you browse the contents of your network like other terminals, but also contains a area for designing patterns. There are two modes for pattern encoding. Crafting patterns, and processing patterns. Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furnaces, or other machines. To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create crafting patterns, and when it shows a furnace, it will create processing patterns.\n\nFor crafting patterns (\"Crafts...\"), you specify the input crafting materials on a standard 3x3 crafting grid, and the output materials are determined automatically.\n\nFor processing patterns (\"Creates...\"), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface. If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a processing pattern.\n\nWhen designing crafting patterns you can click the output to extract a crafted item as long as you have the materials required to craft the item.\nDon\u0027t forget to enable oredict substitution where needed.",
+      "description": "A specialized version of the ME crafting terminal designed to encode blank patterns into encoded patterns.\n\nLets you browse the contents of your network like other terminals, but also contains an area for designing patterns. There are two modes for pattern encoding. Crafting patterns, and processing patterns. Processing patterns are designed for use with machines that do not use standard crafting recipes - such as furnaces, or other machines. To select between modes, click the button to the right of the interface: when it shows a standard crafting table, it will create crafting patterns, and when it shows a furnace, it will create processing patterns.\n\nFor crafting patterns (\"Crafts...\"), you specify the input crafting materials on a standard 3x3 crafting grid, and the output materials are determined automatically.\n\nFor processing patterns (\"Creates...\"), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface. If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a processing pattern.\n\nWhen designing crafting patterns you can click the output to extract a crafted item as long as you have the materials required to craft the item.\nDon\u0027t forget to enable oredict substitution where needed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128721,7 +128721,7 @@
     {
       "questID": 1330,
       "name": "Ore Dictionary Output",
-      "description": "The ME ore dictionary export bus  will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item\u0027s name [e.g. if you want to export all ores put \"ore*\"]. The rate of export is very fast.",
+      "description": "The ME ore dictionary export bus will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item\u0027s name [e.g. if you want to export all ores put \"ore*\"]. The rate of export is very fast.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128889,7 +128889,7 @@
     {
       "questID": 1332,
       "name": "Compressed Solar LV",
-      "description": "�lThe power of the sun x10.�rThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! � �lNOTE: They give out GTEU. NO TRANSFORMER NEEDED!",
+      "description": "�lThe power of the sun x10.�rThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! � �lNOTE: They give out GT EU. NO TRANSFORMER NEEDED!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -128977,7 +128977,7 @@
     {
       "questID": 1333,
       "name": "Essentia Generator: Potentia",
-      "description": "Arent you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs GTEU.\n�o�o�r�lNO TRANSFORMER NEEDED!",
+      "description": "Aren\u0027t you tired of voiding all that useless potentia essentia? Well here\u0027s the solution:\nA generator that consumes potentia and outputs GT EU.\n�o�o�r�lNO TRANSFORMER NEEDED!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129065,7 +129065,7 @@
     {
       "questID": 1334,
       "name": "Essentia Generator: Auram",
-      "description": "This Generator is quite tricky. It requieres Auram Essentia, that isn\u0027t that common, but its output is nice.",
+      "description": "This Generator is quite tricky. It requires Auram Essentia, that isn\u0027t that common, but its output is nice.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129287,7 +129287,7 @@
     {
       "questID": 1336,
       "name": "Double Compressed Solar",
-      "description": "100EU/t for 72x1EU/t Solars? Sounds like a good deal. Get one of these. They can be Infused aswell.",
+      "description": "100EU/t for 72x1EU/t Solars? Sounds like a good deal. Get one of these. They can be Infused as well.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129362,7 +129362,7 @@
     {
       "questID": 1337,
       "name": "Even more Infused",
-      "description": "You can infuse double or triplecompressed solars aswell.",
+      "description": "You can infuse double or triple compressed solars as well.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129399,7 +129399,7 @@
     {
       "questID": 1338,
       "name": "Full power",
-      "description": "Triple Compressed Solars. Yes, thats right. They are a bit more expensive than their lower counterparts, 576 Solars in total. But they give out 1.000GTEU per tick and have no  need to be cleaned due to their inner magic. How so? Magic.",
+      "description": "Triple Compressed Solars. Yes, that\u0027s right. They are a bit more expensive than their lower counterparts, 576 Solars in total. But they give out 1,000 GT EU per tick and have no need to be cleaned.  How so? Magic.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129569,7 +129569,7 @@
     {
       "questID": 1340,
       "name": "Essentia Generator: Arbor",
-      "description": "When it comes to getting Precantatio Essentia, you\u0027ll end up with a couple dozends of Arbor Essentia jars.  But no worries! This generator runs on Arbor! Awesome!",
+      "description": "When using magical plants to get Praecantatio Essentia, you\u0027ll end up with a couple dozen of Arbor Essentia jars.  But no worries! This generator runs on Arbor! Awesome!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129649,7 +129649,7 @@
     {
       "questID": 1341,
       "name": "Essentia Generator: Aer",
-      "description": "Sugarcanes to power...? This generator runs on Aer Essentia, it might not be as powerfull as it\u0027s counterparts, but it\u0027s fuel is cheap.",
+      "description": "Sugarcanes to power...? This generator runs on Aer Essentia, it might not be as powerful as it\u0027s counterparts, but it\u0027s fuel is cheap.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129729,7 +129729,7 @@
     {
       "questID": 1342,
       "name": "Essentia Generator: Lucrum",
-      "description": "This highly-warped-high-power Essentia generator is a lifesaver, when you run out of energy. Just toss some gold into your Arcane Furnace and burn the Lucrum you got.",
+      "description": "This highly-warped, high-power Essentia generator is a lifesaver, when you run out of energy. Just toss some gold into your Arcane Furnace and burn the Lucrum you get.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129875,8 +129875,8 @@
     },
     {
       "questID": 1344,
-      "name": "Angle Wings",
-      "description": "Since you have access to better materials than cardboard now, you wanted to make wings. Angle wings.",
+      "name": "Angel Wings",
+      "description": "Since you have access to better materials than cardboard now, you wanted to make wings. Angel wings.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -129942,8 +129942,8 @@
     },
     {
       "questID": 1345,
-      "name": "Secret-Angle-Assasin",
-      "description": "Infusing your Wings with Nano-Technologies seems to be the next step, to further improofe them and combine magic and technology.",
+      "name": "Secret-Angel-Assasin",
+      "description": "Infusing your Wings with Nano-Technologies seems to be the next step, to further improve them and combine magic and technology.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -130382,7 +130382,7 @@
     {
       "questID": 1350,
       "name": "Nano Goggles",
-      "description": "The #1 product for spys and wanna-be-spys. Nano-Goggles. Don\u0027t you want one of these too? But they are sold out? Craft some!",
+      "description": "The #1 product for spies and wanna-be-spies. Nano-Goggles. Don\u0027t you want one of these too? But they are sold out? Craft some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -130464,7 +130464,7 @@
     {
       "questID": 1351,
       "name": "Quantum Goggles",
-      "description": "As you continue to progress, you notice that your black goggles don\u0027t fit to your nice white and shiny armor. You decide to get a pair of white ones.",
+      "description": "As you continue to progress, you notice that your black goggles don\u0027t match your nice white and shiny armor. You decide to get a pair of white ones.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -130633,7 +130633,7 @@
     {
       "questID": 1353,
       "name": "Sparking Nitor...?",
-      "description": "�eYELLOW!�0 What an ungly color! I want �5PURPLE �0Nitor! Get me some and you\u0027ll recive something nice in exchange.",
+      "description": "�eYELLOW!�0 What an ungly color! I want �5PURPLE �0Nitor! Get me some and you\u0027ll receive something nice in exchange.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -130707,8 +130707,8 @@
     },
     {
       "questID": 1354,
-      "name": "Rechageable Scribing Tools",
-      "description": "Are you tired of getting all the Ink for your scribing and you don\u0027t want to use �4your blood�0 aswell? Get this Hi-Tech Scribing Device which will make your life much easier!",
+      "name": "Rechargeable Scribing Tools",
+      "description": "Are you tired of getting all the Ink for your scribing and you don\u0027t want to use �4your blood�0 either? Get this Hi-Tech Scribing Device which will make your life much easier!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
