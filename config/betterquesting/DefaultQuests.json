@@ -24033,7 +24033,7 @@
         }
       ],
       "preRequisites": [
-        274
+        261
       ]
     },
     {
@@ -24089,6 +24089,12 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 27030
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27084
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -82904,6 +82910,124 @@
       ]
     },
     {
+      "questID": 876,
+      "name": "LCR Large Chemical Reactor",
+      "description": "Chemical recipes without using cells? Build a LCR a large chemical reactor and use only fluids for your chemical recipes.\nAdding some input/output buses and hatches you like.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1169
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1169
+            },
+            {
+              "id": "gregtech:gt.blockcasings8",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings8",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32408
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5683
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
       "questID": 880,
       "name": "Witch",
       "description": "You feel lonely. What\u0027s cooking?",
@@ -95564,7 +95688,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.metaitem.01",
@@ -95669,7 +95793,8 @@
         }
       ],
       "preRequisites": [
-        1242
+        1242,
+        176
       ]
     },
     {
@@ -120107,7 +120232,7 @@
     {
       "questID": 1242,
       "name": "EV Chemical reactor",
-      "description": "An EV chemical rector is required to get some indium or make your radon production quite faster.",
+      "description": "An EV chemical rector is required to get some indium or make your radon production quite faster. If you have an large chemical reactor you can make indium there aswell.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -133975,77 +134100,6 @@
       "preRequisites": [
         1382
       ]
-    },
-    {
-      "questID": 1402,
-      "name": "Iridium screws",
-      "description": "Chrome screws are nice, but they seem to break if too much vis channel throu them. Get some Iridium screws.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 27084
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 27084
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinDarkWizardII",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "Thaumcraft:ItemLootBag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        274
-      ]
     }
   ],
   "questLines": [
@@ -136706,8 +136760,8 @@
         },
         {
           "id": 1241,
-          "x": 36,
-          "y": 132
+          "x": 0,
+          "y": 84
         },
         {
           "id": 1243,
@@ -136731,8 +136785,8 @@
         },
         {
           "id": 1242,
-          "x": 108,
-          "y": 168
+          "x": 36,
+          "y": 120
         },
         {
           "id": 1247,
@@ -137973,13 +138027,13 @@
         },
         {
           "id": 261,
-          "x": 402,
+          "x": 414,
           "y": 132
         },
         {
           "id": 263,
-          "x": 354,
-          "y": 126
+          "x": 378,
+          "y": 132
         },
         {
           "id": 265,
@@ -138023,7 +138077,7 @@
         },
         {
           "id": 262,
-          "x": 402,
+          "x": 414,
           "y": 96
         },
         {
@@ -138033,12 +138087,12 @@
         },
         {
           "id": 273,
-          "x": 402,
-          "y": 204
+          "x": 462,
+          "y": 168
         },
         {
           "id": 274,
-          "x": 402,
+          "x": 414,
           "y": 168
         },
         {
@@ -138183,12 +138237,12 @@
         },
         {
           "id": 303,
-          "x": 354,
-          "y": 162
+          "x": 378,
+          "y": 168
         },
         {
           "id": 304,
-          "x": 354,
+          "x": 378,
           "y": 204
         },
         {
@@ -138228,12 +138282,12 @@
         },
         {
           "id": 1102,
-          "x": 402,
+          "x": 414,
           "y": 48
         },
         {
           "id": 1105,
-          "x": 402,
+          "x": 414,
           "y": 0
         },
         {
@@ -138250,11 +138304,6 @@
           "id": 1401,
           "x": 0,
           "y": 216
-        },
-        {
-          "id": 1402,
-          "x": 438,
-          "y": 168
         }
       ]
     },
@@ -139034,6 +139083,11 @@
         {
           "id": 1179,
           "x": 96,
+          "y": 108
+        },
+        {
+          "id": 876,
+          "x": 384,
           "y": 108
         }
       ]
