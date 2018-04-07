@@ -24033,7 +24033,7 @@
         }
       ],
       "preRequisites": [
-        261
+        274
       ]
     },
     {
@@ -24089,12 +24089,6 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 27030
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 27084
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -133981,6 +133975,77 @@
       "preRequisites": [
         1382
       ]
+    },
+    {
+      "questID": 1402,
+      "name": "Iridium screws",
+      "description": "Chrome screws are nice, but they seem to break if too much vis channel throu them. Get some Iridium screws.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 27084
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27084
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        274
+      ]
     }
   ],
   "questLines": [
@@ -137908,13 +137973,13 @@
         },
         {
           "id": 261,
-          "x": 414,
+          "x": 402,
           "y": 132
         },
         {
           "id": 263,
-          "x": 378,
-          "y": 132
+          "x": 354,
+          "y": 126
         },
         {
           "id": 265,
@@ -137958,7 +138023,7 @@
         },
         {
           "id": 262,
-          "x": 414,
+          "x": 402,
           "y": 96
         },
         {
@@ -137968,12 +138033,12 @@
         },
         {
           "id": 273,
-          "x": 462,
-          "y": 168
+          "x": 402,
+          "y": 204
         },
         {
           "id": 274,
-          "x": 414,
+          "x": 402,
           "y": 168
         },
         {
@@ -138118,12 +138183,12 @@
         },
         {
           "id": 303,
-          "x": 378,
-          "y": 168
+          "x": 354,
+          "y": 162
         },
         {
           "id": 304,
-          "x": 378,
+          "x": 354,
           "y": 204
         },
         {
@@ -138163,12 +138228,12 @@
         },
         {
           "id": 1102,
-          "x": 414,
+          "x": 402,
           "y": 48
         },
         {
           "id": 1105,
-          "x": 414,
+          "x": 402,
           "y": 0
         },
         {
@@ -138185,6 +138250,11 @@
           "id": 1401,
           "x": 0,
           "y": 216
+        },
+        {
+          "id": 1402,
+          "x": 438,
+          "y": 168
         }
       ]
     },
