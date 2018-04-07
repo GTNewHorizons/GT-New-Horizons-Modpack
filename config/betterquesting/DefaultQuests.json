@@ -82904,6 +82904,124 @@
       ]
     },
     {
+      "questID": 876,
+      "name": "LCR Large Chemical Reactor",
+      "description": "Chemical recipes without using cells? Build a LCR a large chemical reactor and use only fluids for your chemical recipes.\nYou need also:\nMaintenance Hatch 1;\n(EV) Energy Hatch 1;\nInput Bus  1;\nOut Bus  1;\nInput Hatch  5;\nOutput Hatch  5.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1169
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1169
+            },
+            {
+              "id": "gregtech:gt.blockcasings8",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings8",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5683
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32408
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        160
+      ]
+    },
+    {
       "questID": 880,
       "name": "Witch",
       "description": "You feel lonely. What\u0027s cooking?",
@@ -95669,7 +95787,7 @@
         }
       ],
       "preRequisites": [
-        1242
+        176
       ]
     },
     {
@@ -120101,14 +120219,14 @@
         }
       ],
       "preRequisites": [
-        1242
+        176
       ]
     },
     {
       "questID": 1242,
       "name": "EV Chemical reactor",
-      "description": "An EV chemical rector is required to get some indium or make your radon production quite faster.",
-      "isMain": true,
+      "description": "An EV chemical rector is required to get some indium or make your radon production quite faster. If you make an large cvemical reactor allready use them.",
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -120175,7 +120293,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -136707,7 +136825,7 @@
         {
           "id": 1241,
           "x": 36,
-          "y": 132
+          "y": 120
         },
         {
           "id": 1243,
@@ -136731,8 +136849,8 @@
         },
         {
           "id": 1242,
-          "x": 108,
-          "y": 168
+          "x": 288,
+          "y": 120
         },
         {
           "id": 1247,
@@ -139035,6 +139153,11 @@
           "id": 1179,
           "x": 96,
           "y": 108
+        },
+        {
+          "id": 876,
+          "x": 336,
+          "y": 72
         }
       ]
     },
