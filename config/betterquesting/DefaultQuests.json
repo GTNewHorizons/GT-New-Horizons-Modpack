@@ -95688,7 +95688,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "OR",
+      "logic": "AND",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.metaitem.01",
@@ -95793,7 +95793,6 @@
         }
       ],
       "preRequisites": [
-        1242,
         176
       ]
     },
@@ -120226,14 +120225,14 @@
         }
       ],
       "preRequisites": [
-        1242
+        176
       ]
     },
     {
       "questID": 1242,
       "name": "EV Chemical reactor",
       "description": "An EV chemical rector is required to get some indium or make your radon production quite faster. If you have an large chemical reactor you can make indium there aswell.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -120300,7 +120299,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -136760,8 +136759,8 @@
         },
         {
           "id": 1241,
-          "x": 0,
-          "y": 84
+          "x": 36,
+          "y": 120
         },
         {
           "id": 1243,
@@ -136785,7 +136784,7 @@
         },
         {
           "id": 1242,
-          "x": 36,
+          "x": 336,
           "y": 120
         },
         {
