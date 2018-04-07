@@ -132947,6 +132947,90 @@
       ]
     },
     {
+      "questID": 1379,
+      "name": "Fluid loader and unloder",
+      "description": "When transporting oil from long distances, a train is going to need a chunk loader. Craft one, and I\u0027ll give you a second one for free.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:cart.anchor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:cart.anchor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Railcraft:cart.anchor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChunkloaderTierI",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1182,
+        1180
+      ]
+    },
+    {
       "questID": 1380,
       "name": "Wand Focus Peach\u0027s Curse",
       "description": "The Pech\u0027s Curse is a rare wand focus which cannot be crafted by the player. It can only be obtained from a Pech Thaumaturge -- either by trading, or by killing it for the drop. (If attacked, the Pech will use it against you!)  Its vis cost per shot is 0.1 Perditio, 0.1 Terra and 0.1 Aqua.\n\nThe focus fires a small ball of energy with a bright bluish-green trail. This missile is affected by gravity, so the shots need to be \"arched\" to hit distant targets. When the shot hits a mob, it does one heart of damage and randomly inflicts one of several effects on the target: Poison, Weakness, or Slowness. A 5th-level upgrade to the focus can make it give all the effects at once.\n\nThis focus can be upgraded at the Focal Manipulator.",
@@ -140302,6 +140386,11 @@
           "id": 1190,
           "x": 312,
           "y": 168
+        },
+        {
+          "id": 1379,
+          "x": 312,
+          "y": 96
         }
       ]
     },
