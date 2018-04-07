@@ -99407,7 +99407,7 @@
     {
       "questID": 1041,
       "name": "Capacitor SMD",
-      "description": "Want some SMD capacitor? Buy some!",
+      "description": "Want some SMD capacitors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99467,7 +99467,7 @@
     {
       "questID": 1042,
       "name": "Plastic Sheet",
-      "description": "Want some Plastic Sheet? Buy some!",
+      "description": "Want some Plastic Sheets? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -99977,7 +99977,7 @@
     {
       "questID": 1050,
       "name": "Bees House",
-      "description": "Want some bee house? Buy some!",
+      "description": "Want some bee houses? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101115,7 +101115,7 @@
     {
       "questID": 1068,
       "name": "Are you prepared?",
-      "description": "Are you prepared for the Moon?\nA few things will help you to live longer and prevent you from dying on the Moon.\nIf you die on the moon you will be retured to earth without your stuff. Graves are placed at the location where you died.",
+      "description": "Are you prepared for the Moon?\nA few things will help you to live longer and prevent you from dying on the Moon.\nIf you die on the moon you will be returned to earth without your stuff. Graves are placed at the location where you died.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101254,7 +101254,7 @@
     },
     {
       "questID": 1069,
-      "name": "Oak, Spruce, Brich, Jungle Sapling",
+      "name": "Oak, Spruce, Birch, Jungle Sapling",
       "description": "You spawned in a desert and need Oak or Birch saplings? No problem! For five Forestry Coins you can select which one you want to buy.",
       "isMain": false,
       "isSilent": false,
@@ -102622,7 +102622,7 @@
     {
       "questID": 1084,
       "name": "Lubricant",
-      "description": "Using lubricant instead of water or distilled water in your cutting machines will increase the output or speed of the machines.\nYou can make lubricant out of oil, seed oil, fish oil or creosote. If you are able to craft a brewery you can use talk and soapstone to get much more lubricant each cycle.",
+      "description": "Using lubricant instead of water or distilled water in your cutting machines will increase the output or speed of the machines.\nYou can make lubricant out of oil, seed oil, fish oil or creosote. If you are able to craft a brewery you can use talc and soapstone to get much more lubricant each cycle.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -102700,7 +102700,7 @@
     {
       "questID": 1085,
       "name": "More Compact Storage",
-      "description": "Now that you are starting to find more and more iron and you feel your wood chests are too small to hold all the stuff you found and collected. Now it\u0027s time to upgrade your chests to iron chests. You can just build a new chest or upgrade the wood chest with a wood to iron chest upgrade item.",
+      "description": "Now that you are starting to find more and more iron you feel your wood chests are too small to hold all the stuff you found and collected. Now it\u0027s time to upgrade your chests to iron chests. You can just build a new chest or upgrade the wood chest with a wood to iron chest upgrade item.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103173,7 +103173,7 @@
     {
       "questID": 1089,
       "name": "Hearty Breakfast",
-      "description": "Let\u0027s now combine all things together and make a healthy and very good breakfast.\nSome cooked meat, potato cakes, toast, fried egg and a tasty juice provide you with a very nourishing meal.\nYou can use any cooked meat and any fruit juice here.",
+      "description": "Let\u0027s now combine all the things together and make a healthy and very good breakfast.\nSome cooked meat, potato cakes, toast, fried egg and a tasty juice provide you with a very nourishing meal.\nYou can use any cooked meat and any fruit juice here.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103302,7 +103302,7 @@
     {
       "questID": 1090,
       "name": "Try to dry out the Nether",
-      "description": "Pumps can do more than pump oil and water. You can go to the nether and pump lava from the huge lava lakes too.\nDon\u0027t forget to bring some tanks with you.",
+      "description": "Pumps can do more than pump oil and water. You can go to the nether and pump lava from the huge lava lakes too.\nDon\u0027t forget to bring some tanks or fluid cells with you. Lava can be centrifuged for gold, silver, tin, copper, and a little tungstate.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103522,7 +103522,7 @@
     {
       "questID": 1092,
       "name": "New source of Glowstone",
-      "description": "Find some glowflowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest glowstone lamps again.",
+      "description": "Find some glowflowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest glowstone again.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -103828,7 +103828,7 @@
     {
       "questID": 1095,
       "name": "Even More Compact Storage",
-      "description": "If you found enough gold you can upgrade your chest to make it an even bigger inventory of 9x9. You can just build a new chest or upgrade the iron chest with a wood to gold chest upgrade item.",
+      "description": "If you found enough gold you can upgrade your chest to make it an even bigger inventory of 9x9. You can just build a new chest or upgrade the iron chest with a wood to gold chest upgrade item. You can use an assembler to make them a little easier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104072,7 +104072,7 @@
     {
       "questID": 1097,
       "name": "Bathing the warp effects away.",
-      "description": "Litmus paper tell you how high you warp level is, but how can you get rid of the nasty warp effects? Bath salt will help you by prohibiting warp effects for a short period. Just throw the salt intorelieved a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.",
+      "description": "Litmus paper tell you how high you warp level is, but how can you get rid of the nasty warp effects? Bath salt will help you by prohibiting warp effects for a short period. Just throw the salt into a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104276,7 +104276,7 @@
     {
       "questID": 1099,
       "name": "Temp warp remover Soap",
-      "description": "This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. \n\nHint: You need to chisel your tallow block for the recipe to work.",
+      "description": "This soap is very special. It will remove temporary warp and has a small chance to also remove some normal warp, if you are lucky. Taking a bath first increases your chances.\n\nHint: You need to chisel your tallow block for the recipe to work.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104353,7 +104353,7 @@
     {
       "questID": 1100,
       "name": "Enchanting Table 1.0",
-      "description": "Finaly with your new wand and 50 stored vis you are able to build your own enchantment table. The recipe can be found on the GTNH Thaumcraft Page",
+      "description": "Finally with your new wand and 50 stored vis you are able to build your own enchantment table. The recipe can be found on the GTNH Thaumcraft Page",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -104430,7 +104430,7 @@
     {
       "questID": 1101,
       "name": "Division Sigil",
-      "description": "Maybe you found a division sigil in a chest already. You have heard about some ritual to activate it.\n\nYou need an enchantment table, 8 redstone dust, a good sword and an animal you want to sacrifice at night. Catching and holding it with a lasso would be the easiest way.\nPlace your enchantment table on a grass field and sourround it with redstone dust.\nPrecisely at midnight place the animal on or near the table and kill it.\nOf course you also need to have your sigil on you.\nBe aware! Your actions will have consequences.",
+      "description": "Maybe you found a division sigil in a chest already. You have heard about some ritual to activate it.\n\nYou need an enchantment table, 8 redstone dust, a good sword and an animal you want to sacrifice at night. Catching and holding it with a lasso would be the easiest way.\nPlace your enchantment table on a grass field and surround it with redstone dust.\nPrecisely at midnight place the animal on or near the table and kill it.\nOf course you also need to have your sigil on you.\nBe aware! Your actions will have consequences.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105325,7 +105325,7 @@
     {
       "questID": 1106,
       "name": "Blub blub blub.....",
-      "description": "The brewing stand is really important for brewing the various potion like night vision, healing, haste and jump. Toxic potions or splash potions can be created too. \nWith your basic wand you can create one.\n\nThe recipes can be found on the GTNH page in the Thaumonomicon.",
+      "description": "The brewing stand is really important for brewing the various potions like night vision, healing, haste and jump. Toxic potions or splash potions can be created too. \nWith your basic wand you can create one.\n\nThe recipes can be found on the GTNH page in the Thaumonomicon.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105626,7 +105626,7 @@
     {
       "questID": 1109,
       "name": "Oh crunchy",
-      "description": "After hours of doing Thaumcraft research you found a way to craft pure tears. Ichorium purifies the nether star wich sucks all the warp away. Be careful, as this may have a deadly end.",
+      "description": "After hours of doing Thaumcraft research you found a way to craft pure tears. Ichorium purifies the nether star which sucks all the warp away. Be careful, as this may have a deadly end.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -106168,7 +106168,7 @@
     {
       "questID": 1115,
       "name": "Go find some tropical bees",
-      "description": "Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very agressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist\u0027s clothes.",
+      "description": "Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist\u0027s clothes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -106794,7 +106794,7 @@
     {
       "questID": 1117,
       "name": "Breed some common bees",
-      "description": "To cross breed bees you need two different species of bees. One drone and one princess from different hives (Meadows and Forestry as an expamle)\nIn an Apiary you can cross breed them to a new species.\n\nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for pristine bees.\n",
+      "description": "To cross breed bees you need two different species of bees. One drone and one princess from different hives (Meadows and Forestry as an example)\nIn an Apiary you can cross breed them to a new species.\n\nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee\u0027s base production speed and the product\u0027s rarity. They do not reflect actual production time.\n\nLook for pristine bees.\n",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108331,7 +108331,7 @@
     {
       "questID": 1122,
       "name": "Royal Jelly",
-      "description": "Royal jelly is a honey bee secretion that is used in the nutrition of larvae, as well as adult queens. It is only produced by the imperial bee. It\u0027s production can be increased with proven frames or any other kind of frames except for the soul frame. The royal jelly is very useful because it can craft ambrosia, which fills 8 hunger points (4 full food icons) and give Regeneration I for 40 seconds. Royal jelly is also used to craft scented paneling which are required in the creation of alveary blocks.",
+      "description": "Royal jelly is a honey bee secretion that is used in the nutrition of larvae, as well as adult queens. It is only produced by the imperial bee. It\u0027s production can be increased with proven frames or any other kind of frames except for the soul frame. Royal jelly is also useful because it can craft ambrosia, which fills 8 hunger points (4 full food icons) and gives Regeneration I for 40 seconds. Royal jelly is used to craft scented paneling which are required in the creation of alveary blocks.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -108919,7 +108919,7 @@
     {
       "questID": 1126,
       "name": "Alumite",
-      "description": "It\u0027s upgrade time again. You can make alumite by mixing obsidian, steel and auluminu(i)m in the smeltery. Alumite pickaxes are able to mine ardite and cobalt in the Nether.",
+      "description": "It\u0027s upgrade time again. You can make alumite by mixing obsidian, steel and alumin(i)um in the smeltery. Alumite pickaxes are able to mine ardite and cobalt in the Nether.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109130,7 +109130,7 @@
     {
       "questID": 1128,
       "name": "Lapis? Lucky!",
-      "description": "Maybe you were lucky and received the luck modifier on your pickaxe. If not, you may still have an unused modifier on your pick so you can add some lapis lazuli. Or you can perhaps add another modifier by adding a diamond and a gold block to your pick and then add some lapis.",
+      "description": "Maybe you were lucky and received the luck modifier on your pickaxe. If not, you may still have an unused modifier on your pick so you can add some lapis lazuli. Or you can perhaps add another modifier by adding a diamond and a gold block to your pick and then add some lapis. You can put the lapis lazuli in more than one slot in the tool station, or use blocks to raise the luck level faster.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109212,7 +109212,7 @@
     },
     {
       "questID": 1129,
-      "name": "Redstone?. Haste!",
+      "name": "Redstone? Haste!",
       "description": "Mining and digging can be soooo slow. Get some redstone on your pick, shovel or axe to make it faster.",
       "isMain": false,
       "isSilent": false,
