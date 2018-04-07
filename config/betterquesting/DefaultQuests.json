@@ -83022,6 +83022,400 @@
       ]
     },
     {
+      "questID": 877,
+      "name": "Scepter with 75 vis capacity",
+      "description": "A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forrest monster mob drop and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150% as much vis as a wand with the same core, and gives an additional 5% discount for costs, beyond any discounts from its caps or the user\u0027s worn equipment. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4,
+        "tag": {
+          "cap:8": "iron",
+          "rod:8": "greatwood",
+          "sceptre:4": 1
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.LichBone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.IronWandCap",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27306
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandCasting",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "cap:8": "iron",
+                "rod:8": "greatwood",
+                "sceptre:4": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        879
+      ]
+    },
+    {
+      "questID": 878,
+      "name": "Magic Staff Core",
+      "description": "A staff requires an extra step for crafting: Two (matching) wand cores must be combined with a primal charm, and crystal clusters to produce a staff core. (While the recipes are all similar, each type of staff core requires a separate research topic to be learned.) ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandRod",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 50
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        263
+      ]
+    },
+    {
+      "questID": 879,
+      "name": "Primal Cham",
+      "description": "With your new 50 vis wand you are able to make some Scepter wich holds up to 75 vis.\nFirst you need some primal cham which cost 50 vis to craft.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 15
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 28351
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:blockCrystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        265
+      ]
+    },
+    {
       "questID": 880,
       "name": "Witch",
       "description": "You feel lonely. What\u0027s cooking?",
@@ -83439,6 +83833,150 @@
       ],
       "preRequisites": [
         479
+      ]
+    },
+    {
+      "questID": 887,
+      "name": "Magic Staff",
+      "description": "Equipped the core with two wand caps, a twilight forest mob drop and screws just as for making a wand. A staff cannot be used for crafting, but holds 250% as much vis as a corresponding wand. It can even serve as a backup weapon for melee. While it cannot receive weapon enchantments, its damage is decent, and it does not take damage with use (no durability bar).",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8,
+        "tag": {
+          "cap:8": "iron",
+          "rod:8": "greatwood_staff",
+          "AttributeModifiers:9": [
+            {
+              "UUIDMost:4": -3801225194067177672,
+              "UUIDLeast:4": -6586624321849018929,
+              "Amount:6": 6.0,
+              "AttributeName:8": "generic.attackDamage",
+              "Operation:4": 0,
+              "Name:8": "Weapon modifier"
+            }
+          ]
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "dreamcraft:item.IronWandCap",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:item.fieryBlood",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 27028
+            },
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandCasting",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "cap:8": "iron",
+                "rod:8": "greatwood_staff",
+                "AttributeModifiers:9": [
+                  {
+                    "UUIDMost:4": -3801225194067177672,
+                    "UUIDLeast:4": -6586624321849018929,
+                    "Amount:6": 6.0,
+                    "AttributeName:8": "generic.attackDamage",
+                    "Operation:4": 0,
+                    "Name:8": "Weapon modifier"
+                  }
+                ]
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        878
       ]
     },
     {
@@ -115092,6 +115630,151 @@
       ]
     },
     {
+      "questID": 1191,
+      "name": "Magic \"Staffter\"",
+      "description": "It is also possible to create a bizarre hybrid of staff and scepter (sometimes called a \"staffter\"), by using a staff core instead of a wand core in the scepter recipe. The resulting device can neither hold a focus nor be placed in a crafting table, but it can still be used to activate constructs, or as a \"vis battery\" for Repair-enchanted equipment or Runic shielding.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8,
+        "tag": {
+          "cap:8": "iron",
+          "rod:8": "greatwood_staff",
+          "AttributeModifiers:9": [
+            {
+              "UUIDMost:4": -3801225194067177672,
+              "UUIDLeast:4": -6586624321849018929,
+              "Amount:6": 6.0,
+              "AttributeName:8": "generic.attackDamage",
+              "Operation:4": 0,
+              "Name:8": "Weapon modifier"
+            }
+          ]
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandRod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "dreamcraft:item.IronWandCap",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:item.fieryBlood",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27028
+            },
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:WandCasting",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12,
+              "tag": {
+                "cap:8": "iron",
+                "rod:8": "greatwood_staff",
+                "sceptre:4": 1,
+                "AttributeModifiers:9": [
+                  {
+                    "UUIDMost:4": -3801225194067177672,
+                    "UUIDLeast:4": -6586624321849018929,
+                    "Amount:6": 6.0,
+                    "AttributeName:8": "generic.attackDamage",
+                    "Operation:4": 0,
+                    "Name:8": "Weapon modifier"
+                  }
+                ]
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        878
+      ]
+    },
+    {
       "questID": 1192,
       "name": "Aluminum berries",
       "description": "And a few aluminum berries for cash.",
@@ -132264,83 +132947,6 @@
       ]
     },
     {
-      "questID": 1379,
-      "name": "Wand Focus Nine Hells",
-      "description": "The Wand Focus: Shock when equipped to a wand, it will allow the player to summon a Firebat which will attack the mob that the player is pointing at. Its base vis cost is 1 air , 2 ignis  and 1 perditio  per bat summoned.\n\nThis focus can be upgraded at the Focal Manipulator.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "Thaumcraft:FocusHellbat",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "Thaumcraft:FocusHellbat",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 10
-            },
-            {
-              "id": "Thaumcraft:ItemLootBag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 2
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinDarkWizardII",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        238
-      ]
-    },
-    {
       "questID": 1380,
       "name": "Wand Focus Peach\u0027s Curse",
       "description": "The Pech\u0027s Curse is a rare wand focus which cannot be crafted by the player. It can only be obtained from a Pech Thaumaturge -- either by trading, or by killing it for the drop. (If attacked, the Pech will use it against you!)  Its vis cost per shot is 0.1 Perditio, 0.1 Terra and 0.1 Aqua.\n\nThe focus fires a small ball of energy with a bright bluish-green trail. This missile is affected by gravity, so the shots need to be \"arched\" to hit distant targets. When the shot hits a mob, it does one heart of damage and randomly inflicts one of several effects on the target: Poison, Weakness, or Slowness. A 5th-level upgrade to the focus can make it give all the effects at once.\n\nThis focus can be upgraded at the Focal Manipulator.",
@@ -137980,13 +138586,13 @@
         },
         {
           "id": 258,
-          "x": 312,
+          "x": 348,
           "y": 252
         },
         {
           "id": 259,
           "x": 312,
-          "y": 216
+          "y": 252
         },
         {
           "id": 610,
@@ -138020,22 +138626,22 @@
         },
         {
           "id": 1100,
-          "x": 312,
+          "x": 348,
           "y": 180
         },
         {
           "id": 1101,
-          "x": 348,
-          "y": 180
-        },
-        {
-          "id": 1103,
           "x": 384,
           "y": 180
         },
         {
+          "id": 1103,
+          "x": 420,
+          "y": 180
+        },
+        {
           "id": 1104,
-          "x": 348,
+          "x": 384,
           "y": 216
         },
         {
@@ -138086,272 +138692,272 @@
       "quests": [
         {
           "id": 260,
-          "x": 126,
+          "x": 132,
           "y": 96
         },
         {
           "id": 261,
-          "x": 402,
+          "x": 408,
           "y": 132
         },
         {
           "id": 263,
-          "x": 354,
-          "y": 126
+          "x": 360,
+          "y": 132
         },
         {
           "id": 265,
-          "x": 234,
+          "x": 240,
           "y": 96
         },
         {
           "id": 266,
-          "x": 306,
+          "x": 312,
           "y": 96
         },
         {
           "id": 267,
-          "x": 270,
+          "x": 276,
           "y": 192
         },
         {
           "id": 268,
-          "x": 270,
+          "x": 276,
           "y": 156
         },
         {
           "id": 269,
-          "x": 270,
+          "x": 276,
           "y": 36
         },
         {
           "id": 270,
-          "x": 270,
+          "x": 276,
           "y": 0
         },
         {
           "id": 271,
-          "x": 270,
+          "x": 276,
           "y": 72
         },
         {
           "id": 264,
-          "x": 270,
+          "x": 276,
           "y": 120
         },
         {
           "id": 262,
-          "x": 402,
+          "x": 408,
           "y": 96
         },
         {
           "id": 272,
-          "x": 126,
+          "x": 132,
           "y": 252
         },
         {
           "id": 273,
-          "x": 402,
+          "x": 408,
           "y": 204
         },
         {
           "id": 274,
-          "x": 402,
+          "x": 408,
           "y": 168
         },
         {
           "id": 275,
-          "x": 90,
+          "x": 96,
           "y": 216
         },
         {
           "id": 276,
-          "x": 90,
+          "x": 96,
           "y": 168
         },
         {
           "id": 277,
-          "x": 90,
+          "x": 96,
           "y": 132
         },
         {
           "id": 278,
-          "x": 126,
+          "x": 132,
           "y": 216
         },
         {
           "id": 279,
-          "x": 498,
+          "x": 504,
           "y": 168
         },
         {
           "id": 281,
-          "x": 570,
+          "x": 576,
           "y": 168
         },
         {
           "id": 280,
-          "x": 534,
+          "x": 540,
           "y": 168
         },
         {
           "id": 283,
-          "x": 498,
+          "x": 504,
           "y": 204
         },
         {
           "id": 284,
-          "x": 498,
+          "x": 504,
           "y": 252
         },
         {
           "id": 285,
-          "x": 498,
+          "x": 504,
           "y": 132
         },
         {
           "id": 286,
-          "x": 534,
+          "x": 540,
           "y": 96
         },
         {
           "id": 288,
-          "x": 462,
+          "x": 468,
           "y": 132
         },
         {
           "id": 289,
-          "x": 570,
+          "x": 576,
           "y": 96
         },
         {
           "id": 282,
-          "x": 570,
+          "x": 576,
           "y": 132
         },
         {
           "id": 290,
-          "x": 90,
+          "x": 96,
           "y": 288
         },
         {
           "id": 291,
-          "x": 198,
+          "x": 228,
           "y": 252
         },
         {
           "id": 292,
-          "x": 234,
+          "x": 276,
           "y": 252
         },
         {
           "id": 293,
-          "x": 270,
+          "x": 324,
           "y": 252
         },
         {
           "id": 294,
-          "x": 306,
+          "x": 372,
           "y": 252
         },
         {
           "id": 295,
-          "x": 162,
+          "x": 168,
           "y": 288
         },
         {
           "id": 296,
-          "x": 126,
+          "x": 132,
           "y": 288
         },
         {
           "id": 297,
-          "x": 162,
+          "x": 168,
           "y": 168
         },
         {
           "id": 298,
-          "x": 162,
+          "x": 168,
           "y": 216
         },
         {
           "id": 300,
-          "x": 210,
+          "x": 228,
           "y": 288
         },
         {
           "id": 299,
-          "x": 162,
+          "x": 168,
           "y": 252
         },
         {
           "id": 301,
-          "x": 90,
+          "x": 96,
           "y": 252
         },
         {
           "id": 287,
-          "x": 534,
+          "x": 540,
           "y": 132
         },
         {
           "id": 302,
-          "x": 162,
+          "x": 168,
           "y": 132
         },
         {
           "id": 303,
-          "x": 354,
-          "y": 162
+          "x": 360,
+          "y": 168
         },
         {
           "id": 304,
-          "x": 354,
+          "x": 360,
           "y": 204
         },
         {
           "id": 305,
-          "x": 90,
+          "x": 96,
           "y": 96
         },
         {
           "id": 306,
-          "x": 198,
+          "x": 204,
           "y": 132
         },
         {
           "id": 833,
-          "x": 462,
+          "x": 468,
           "y": 96
         },
         {
           "id": 1055,
-          "x": 126,
+          "x": 132,
           "y": 48
         },
         {
           "id": 1097,
-          "x": 162,
-          "y": 48
+          "x": 132,
+          "y": 12
         },
         {
           "id": 1098,
-          "x": 162,
+          "x": 168,
           "y": 12
         },
         {
           "id": 1099,
-          "x": 198,
-          "y": 48
+          "x": 96,
+          "y": 12
         },
         {
           "id": 1102,
-          "x": 402,
+          "x": 408,
           "y": 48
         },
         {
           "id": 1105,
-          "x": 402,
+          "x": 408,
           "y": 0
         },
         {
@@ -138371,8 +138977,33 @@
         },
         {
           "id": 1402,
-          "x": 438,
+          "x": 444,
           "y": 168
+        },
+        {
+          "id": 877,
+          "x": 204,
+          "y": 36
+        },
+        {
+          "id": 878,
+          "x": 324,
+          "y": 168
+        },
+        {
+          "id": 879,
+          "x": 204,
+          "y": 72
+        },
+        {
+          "id": 887,
+          "x": 324,
+          "y": 204
+        },
+        {
+          "id": 1191,
+          "x": 324,
+          "y": 132
         }
       ]
     },
@@ -138645,11 +139276,6 @@
         {
           "id": 1378,
           "x": 228,
-          "y": 72
-        },
-        {
-          "id": 1379,
-          "x": 276,
           "y": 72
         },
         {
