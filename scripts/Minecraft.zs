@@ -3242,11 +3242,11 @@ BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>], 100, 
 
 
 // --- Wooden Pressure Plate
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:water> * 4, 50, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:water> * 4, 50, 4);
 // -
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:ic2distilledwater> * 3, 50, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:lubricant> * 1, 25, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Stone Pressure Plate
 CuttingSaw.addRecipe(<minecraft:stone_pressure_plate> * 2, null, <minecraft:stone_slab>, <liquid:water> * 4, 50, 8);
