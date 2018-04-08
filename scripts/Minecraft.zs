@@ -1151,10 +1151,10 @@ recipes.addShaped(<minecraft:stone_pressure_plate> * 2, [
 [null, null, null]]);
 
 // --- Wooden Pressure Plate
-recipes.addShaped(<minecraft:wooden_pressure_plate> * 2, [
-[Saw, <ore:slabWood>, null],
-[null, null, null],
-[null, null, null]]);
+//recipes.addShaped(<minecraft:wooden_pressure_plate> * 2, [
+//[Saw, <ore:slabWood>, null],
+//[null, null, null],
+//[null, null, null]]);
 
 //Glass Pane
 recipes.addShapeless(<minecraft:glass_pane> * 2, [Saw, Glass]);
@@ -3320,6 +3320,7 @@ Mixer.addRecipe(<minecraft:fire_charge>, [<minecraft:blaze_powder> * 3, <minecra
 
 
 Slicer.addRecipe(<minecraft:melon> * 8, <minecraft:melon_block>, <gregtech:gt.metaitem.01:32398> * 0, 100, 8);
+
 
 
 
