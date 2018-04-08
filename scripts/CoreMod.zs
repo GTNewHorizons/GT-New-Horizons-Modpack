@@ -965,7 +965,7 @@ AlloySmelter.addRecipe(<dreamcraft:item.OsmiumItemCasing> * 2, <gregtech:gt.meta
 AlloySmelter.addRecipe(<dreamcraft:item.NeutroniumItemCasing> * 2, <gregtech:gt.metaitem.01:11129> * 3, <gregtech:gt.metaitem.01:32302> * 0, 1800, 480);
 
 // --- Coke Oven Bricks
-AlloySmelter.addRecipe(<dreamcraft:item.CokeOvenBrick> * 2, <minecraft:sand>, <minecraft:clay_ball>, 200, 8);
+AlloySmelter.addRecipe(<dreamcraft:item.CokeOvenBrick> * 2, <minecraft:sand:*>, <minecraft:clay_ball>, 200, 8);
 
 
 
