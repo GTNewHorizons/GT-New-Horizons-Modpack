@@ -1152,7 +1152,7 @@ recipes.addShaped(<minecraft:stone_pressure_plate> * 2, [
 
 // --- Wooden Pressure Plate
 recipes.addShaped(<minecraft:wooden_pressure_plate> * 2, [
-[Saw, <ore:slabWood>, null],
+[Saw, <minecraft:wooden_slab>, null],
 [null, null, null],
 [null, null, null]]);
 
@@ -3242,11 +3242,11 @@ BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>], 100, 
 
 
 // --- Wooden Pressure Plate
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:water> * 4, 50, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:water> * 4, 50, 4);
 // -
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:ic2distilledwater> * 3, 50, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:lubricant> * 1, 25, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Stone Pressure Plate
 CuttingSaw.addRecipe(<minecraft:stone_pressure_plate> * 2, null, <minecraft:stone_slab>, <liquid:water> * 4, 50, 8);
@@ -3320,6 +3320,7 @@ Mixer.addRecipe(<minecraft:fire_charge>, [<minecraft:blaze_powder> * 3, <minecra
 
 
 Slicer.addRecipe(<minecraft:melon> * 8, <minecraft:melon_block>, <gregtech:gt.metaitem.01:32398> * 0, 100, 8);
+
 
 
 
