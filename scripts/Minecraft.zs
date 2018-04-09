@@ -3323,6 +3323,15 @@ Slicer.addRecipe(<minecraft:melon> * 8, <minecraft:melon_block>, <gregtech:gt.me
 
 
 
+// --- Burn Values ---
+
+
+
+// --- Pressure Plate
+furnace.setFuel(<minecraft:wooden_pressure_plate>, 75);
+
+
+
 
 // --- Nei overriding Stuff ---
 
