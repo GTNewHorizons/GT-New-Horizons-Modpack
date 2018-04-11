@@ -93730,7 +93730,7 @@
     {
       "questID": 992,
       "name": "Go find some tropical bees",
-      "description": "Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very agressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist\u0027s clothes.\nLooking for pristine Bees.",
+      "description": "Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist\u0027s clothes.\nLooking for pristine Bees.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -93902,7 +93902,7 @@
     {
       "questID": 993,
       "name": "Silky combs and Propolis",
-      "description": "Collect silky combs and extract some silk wisp out of it in order to make some Apiarist\u0027s clothes.\nThis can take quite a bit of time.\nUse a Gretech or Forestry Centrifuge to get Silky Propolis.",
+      "description": "Collect silky combs and extract some silk wisp out of it in order to make some Apiarist\u0027s clothes.\nThis can take quite a bit of time.\nUse a GregTech or Forestry Centrifuge to get Silky Propolis.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -95953,7 +95953,7 @@
     {
       "questID": 1003,
       "name": "Power of the Sun at MV Level",
-      "description": "The next solarpanel you can make is the MV one. It gives 128 EU/t max. Most gt machines can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.",
+      "description": "The next solar panel you can make is the MV one. It gives 128 EU/t max. Most GT machines can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96206,7 +96206,7 @@
     {
       "questID": 1005,
       "name": "Indium",
-      "description": "At EV Level you are able to make Indium for HV Solar Panels. Indium can not be found in Ore form. It can only be made with an EV chemical reactor.\nFirst you need to make indium out of purified galena and sphalerite ore. Mix in some aluminium to get indium.",
+      "description": "At EV Level you are able to make Indium for HV Solar Panels. Indium cannot be found in Ore form. It can only be made with an EV chemical reactor.\nFirst you need to make indium out of purified galena and sphalerite ore. Mix in some aluminium to get indium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96331,7 +96331,7 @@
     {
       "questID": 1006,
       "name": "Power of the Sun at HV Level",
-      "description": "The next solarpanel you can make is the HV one. It generates 512 EU/t max. Most GregTech machines can use them as covers. First you need to produce enriched sunnarium by mixing irridiant uranium and sunnarium. The Avaritia 9x9 crafting table is required to make this panel.",
+      "description": "The next solar panel you can make is the HV one. It generates 512 EU/t max. Most GregTech machines can use them as covers. First you need to produce enriched sunnarium by mixing irradiated uranium and sunnarium. The Avaritia 9x9 dire crafting table is required to make this panel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96796,7 +96796,7 @@
     {
       "questID": 1010,
       "name": "Fresh Water and Milk",
-      "description": "Many cooking recipes need milk and water. Crafting it in the crafting table can be very tedious.\nIt is much easier by using a Forestry worktable. Drag-click all your buckets into the worktable, and craft them all at once.",
+      "description": "Many cooking recipes need milk and water. Crafting it in the crafting table can be very tedious.\nIt is much easier using a Forestry worktable. Drag-click all your buckets into the worktable, and craft them all at once.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96909,7 +96909,7 @@
     {
       "questID": 1011,
       "name": "Find Bauxite",
-      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron will help to build your tier 2 rocket for reaching Mars.\n\nIf you are lucky you will find Titanium veins to make the process much easier.",
+      "description": "The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron is required for your tier 2 rocket for reaching Mars so be sure to collect a stack from fallen meteors and small ores beneath the surface.\n\nIf you are lucky you will find Titanium veins to make the process much easier.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97117,7 +97117,7 @@
     {
       "questID": 1013,
       "name": "SMD Circuit components",
-      "description": "Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylen.",
+      "description": "Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97495,7 +97495,7 @@
     {
       "questID": 1016,
       "name": "Integrated Processor",
-      "description": "There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs an MV circuit assembling machine to be made. The integrated processor needs a cpu, capacitors, transistors and resistors.\nA cleanroom is needed.",
+      "description": "There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs an MV circuit assembling machine. The integrated processor requires a CPU, capacitors, transistors and resistors.\nA cleanroom is needed.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97631,7 +97631,7 @@
     {
       "questID": 1017,
       "name": "Processor Assembly",
-      "description": "Another variant of the advanced circuit from IC2 is the processing assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe.",
+      "description": "Another variant of the advanced circuit from IC2 is the processor assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -97765,7 +97765,7 @@
     },
     {
       "questID": 1018,
-      "name": "Central Processing Unit CPU",
+      "name": "Central Processing Unit",
       "description": "Integrated Processors need central processing units. You can get these by cutting a ram wafer.\nA cleanroom is needed.",
       "isMain": true,
       "isSilent": false,
@@ -99347,7 +99347,7 @@
     {
       "questID": 1040,
       "name": "Transistors SMD",
-      "description": "Want some SMD transistor? Buy some!",
+      "description": "Want some SMD transistors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
