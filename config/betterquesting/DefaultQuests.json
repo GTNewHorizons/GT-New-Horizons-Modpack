@@ -71991,7 +71991,7 @@
     {
       "questID": 783,
       "name": "We need big toys",
-      "description": "All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. . It will also distill water for you, so you can use the same water again inside your large boiler.  Don\u0027t forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).",
+      "description": "All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. It will also distill water for you, so you can use the same water again inside your large boiler.  Don\u0027t forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance). Make sure you provide the optimal flow of steam using a fluid regulator. Don't exceed your dynamo hatch's EU rating, or it will explode!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72115,7 +72115,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can uses either water or distilled water. Water is consumed at a rate of 1l of water per 150l of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72503,7 +72503,7 @@
     {
       "questID": 787,
       "name": "Moooooore steam",
-      "description": "Stock up on titanium, it will be fun. A large titanium boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal cobalt rotors will be just right. Optimal flow for such rotor is 800 liters per tick. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors.",
+      "description": "Stock up on titanium, it will be fun. A large titanium boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal cobalt rotors will be just right. Optimal flow for such rotor is 800 liters per tick. Make a fluid regulator in the assembler to control the flow rate. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors. Make sure your dynamo hatch is capable of accepting all the EU, or it will explode!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -73447,7 +73447,7 @@
     {
       "questID": 796,
       "name": "Sensor lens",
-      "description": "The nightvision goggles need special sensor lenses to work.",
+      "description": "The night vision goggles need special sensor lenses to work.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -73570,7 +73570,7 @@
     {
       "questID": 797,
       "name": "Advanced Heat Exchanger",
-      "description": "The nightvision goggles need advanced heat exchangers to work.",
+      "description": "The night vision goggles need advanced heat exchangers to work.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74651,7 +74651,7 @@
     {
       "questID": 806,
       "name": "Lapotron Crystal",
-      "description": "With your new HV mixer you can make lapotron dust. Place it in an autoclave to make some raw lapotron crystals. With an HV assembler and advanced circuits you can make some lapotron crystals wich store up to 10 million EU.\n\nHint: Nei shows only ic2 advanced circuits in recipe but all advanced circuits works.",
+      "description": "With your new HV mixer you can make lapotron dust. Place it in an autoclave to make some raw lapotron crystals. With an HV assembler and advanced circuits you can make lapotron crystals which store up to 10 million EU.\n\nHint: Nei shows only ic2 advanced circuits in recipe but all advanced circuits works.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74780,7 +74780,7 @@
     {
       "questID": 807,
       "name": "Quantum Crystal",
-      "description": "For you quantum armor you need some quantum crystals. Place a lapotron crystal in your precision laser to get a quantum crystal ",
+      "description": "For your quantum armor you need some quantum crystals. Place a lapotron crystal in your precision laser to get a quantum crystal ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -75695,7 +75695,7 @@
     },
     {
       "questID": 814,
-      "name": "Rocket Fines",
+      "name": "Rocket Fins",
       "description": "Every rocket needs a few rocket fins.",
       "isMain": true,
       "isSilent": false,
@@ -75934,7 +75934,7 @@
     {
       "questID": 816,
       "name": "Moon Lander",
-      "description": "The Moon lander is requiered for a soft landing.\nYou will need an additional frequency module for hearing some things on planets and a second seat for a Moon buggy you may build later.",
+      "description": "The Moon lander is requiered for a soft landing.\nYou will need an additional frequency module for hearing things on planets and a second seat for a Moon buggy you may build later.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76180,7 +76180,7 @@
     {
       "questID": 818,
       "name": "Frequency Module",
-      "description": "The frequency Module will help you hear sounds properly while in space (it\u0027s also used with the telemetry unit so that your buddies can keep track of you from your base, if you are playing with friends). You need it in you inventory and in the Moon lander.",
+      "description": "The frequency Module will help you hear sounds properly while in space (it\u0027s also used with the telemetry unit so that your buddies can keep track of you from your base, if you are playing with friends). You need it in your inventory and in the Moon lander.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76316,8 +76316,8 @@
     },
     {
       "questID": 819,
-      "name": "Small Fuel Cannister",
-      "description": "Every rocket needs fuel storage cannisters. For the tier 1 rocket you need to craft two of them.",
+      "name": "Small Fuel Canister",
+      "description": "Every rocket needs fuel storage canisters. For the tier 1 rocket you need to craft two of them.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76835,7 +76835,7 @@
     {
       "questID": 823,
       "name": "Oxygen Mask",
-      "description": "The oxygen mask is part of the oxygen system used to breathe on planets without oxygen, the others being oxygen gear and oxygen tanks.",
+      "description": "The oxygen mask is part of the system used to breathe on planets without oxygen, the others being oxygen gear and oxygen tanks.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76940,7 +76940,7 @@
     {
       "questID": 824,
       "name": "Oxygen Tanks",
-      "description": "The Light oxygen tank is an oxygen storage tank that can hold up to 90 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.\n\nUsage:\nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.",
+      "description": "The Light oxygen tank is an oxygen storage tank that can hold up to 90 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.\n\nUsage:\nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77057,7 +77057,7 @@
     {
       "questID": 825,
       "name": "Copper Ore",
-      "description": "Can be found between y levels 5 and 60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".\n\nHint:\nTo see where a special ore can be found click the raw ore in nei and it will show your more details. Works with small ores too.",
+      "description": "Can be found between y levels 5 and 60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you\u0027ll find it together with  \"Iron\" and \"Pyrite\".\n\nHint:\nTo see where a special ore can be found click the raw ore in NEI and it will show you more details. Works with small ores too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -77146,7 +77146,7 @@
     {
       "questID": 826,
       "name": "Iron Ore",
-      "description": "With iron tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite. So bring me some ores and make some iron ingots out of them.\n\nHint:\nTo see where a special ore can be found click the raw ore in nei and it will show your more details. Works with small ores too.",
+      "description": "With iron tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite. So bring me some ores and make some iron ingots out of them.\n\nHint:\nTo see where a special ore can be found click the raw ore in nei and it will show you more details. Works with small ores too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -77253,7 +77253,7 @@
     {
       "questID": 827,
       "name": "Rocket Fuel",
-      "description": "For every flight the rocket needs some fuel. So refine some fuel and fill some fuel cannisters. ",
+      "description": "For every flight the rocket needs some fuel. So refine some fuel and fill some fuel canisters. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77774,7 +77774,7 @@
     {
       "questID": 831,
       "name": "Advanced Wafers",
-      "description": "The advanced wafer is used for more advanced machines such as the advanced solar panel or the avaritia dire crafting table. It is also used in the creation of a space station.",
+      "description": "The advanced wafer is used for more advanced machines such as the advanced solar panel or the Avaritia dire crafting table. It is also used in the creation of a space station.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78427,7 +78427,7 @@
     {
       "questID": 836,
       "name": "Gallium Arsenide",
-      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get crushed ore, you may need a Tinker\u0027s Construct tool with the Luck (Fortune) enchant on it. Sphalerite is another source of gallium.\nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Another source is tinkers construct cobalt ore in the nether.\nYou need to level up your obsidian level tool or use a alumite tool.\n\nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.\n\nMix those two dusts in a mixer to get gallium arsenic dust.\n\nIn the nether it is maybe more easy to use a miner to get all the ores you need.",
+      "description": "The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get crushed ore, you may need a Tinker\u0027s Construct tool with the Luck (Fortune) enchant on it. Sphalerite is another source of gallium. Finally you can breed zinc bees, which have a small chance at gallium combs.\nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Another source is tinkers construct cobalt ore in the nether.\nYou need to level up your obsidian level tool or use a alumite tool.\n\nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.\n\nMix those two dusts in a mixer to get gallium arsenic dust.\n\nIn the nether it is maybe easier to use a GT miner to get all the ores you need.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78537,7 +78537,7 @@
     {
       "questID": 837,
       "name": "ILC and RAM",
-      "description": "Advanced circuits need itegrated logic circuits and random access memory chips.\nYou can get those by cutting the ILC and RAM wafers.",
+      "description": "Advanced circuits need integrated logic circuits and random access memory chips.\nYou can get those by cutting the ILC and RAM wafers.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78647,7 +78647,7 @@
     {
       "questID": 838,
       "name": "Advanced Circuits",
-      "description": "For the next tier we need advanced circuits. To make an advanced circuit, you need good integrated circuits, RAM, an ILC and transistors.",
+      "description": "For the next tier we need advanced circuits. To make an advanced circuit, you need good integrated circuits, RAM, an integrated logic circuit, and transistors.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -78781,7 +78781,7 @@
     {
       "questID": 839,
       "name": "Handle tiny piles like a K1ng",
-      "description": "Don\u0027t you hate to manually compress all those tiny piles ? Well, let me show you how to automate that. A combination of typefilter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chestbuffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.",
+      "description": "Don\u0027t you hate having to manually compress all those tiny piles ? Well, let me show you how to automate that. A combination of typefilter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chestbuffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79377,7 +79377,7 @@
     {
       "questID": 845,
       "name": "Bio Diesel Fuel",
-      "description": "With ethanol or methanol and seedoil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite or for your future epoxid production.",
+      "description": "With ethanol or methanol and seed oil or fish oil you can make bio diesel. Burn value is 256,000 EU per cell. Diesel and bio diesel are needed for cetane-boosted diesel.\n\nYou get some glycerol as by-product. Save it so you can make glyceryl trinitrate for your dynamite or for your future epoxid production.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79469,7 +79469,7 @@
     {
       "questID": 846,
       "name": "O like Oxygen",
-      "description": "Oxygen can be made in different ways. Centrifuge some brown an yellow lemonite dust, or electrolyze it out of water or various other oxygen-rich elements.",
+      "description": "Oxygen can be made in different ways. Centrifuge some brown and yellow lemonite dust, or electrolyze it out of water or various other oxygen-rich elements.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -79650,7 +79650,7 @@
     {
       "questID": 848,
       "name": "Seed Oil",
-      "description": "To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil when placed in a fluid extractor.",
+      "description": "To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil and fish produce fish oil when placed in a fluid extractor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -80945,7 +80945,7 @@
     {
       "questID": 860,
       "name": "Titanium finaly",
-      "description": "Rutile, chlorine and carbon dust makes Titaniumtetrachloride. Combining this with Magnesium in an HV EBF will give you hot Titanium ingots. Freeze those and you will get your first titanium.\nOn Mars you can find pure Titanium ore.",
+      "description": "Rutile, chlorine and carbon dust makes Titaniumtetrachloride. Combining this with Magnesium in an HV EBF will give you hot Titanium ingots. Freeze those and you will get your first titanium.\nOn the Moon if you are lucky you can find pure Titanium ore.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -81877,7 +81877,7 @@
     {
       "questID": 865,
       "name": "Monster trap",
-      "description": "If you\u0027re lucky you spawn in a sand or rainforest biome and find some quicksand. Collect a stack of the stuff, dig a small ditch and fill it with the quicksand to protect your \"dirt base\" home.",
+      "description": "If you\u0027re lucky you spawned in a sand or rainforest biome and find some quicksand. Collect a stack of the stuff, dig a small ditch and fill it with the quicksand to protect your \"dirt base\" home. Just don't fall in!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82906,7 +82906,7 @@
     {
       "questID": 876,
       "name": "LCR Large Chemical Reactor",
-      "description": "Chemical recipes without using cells? Build a LCR a large chemical reactor and use only fluids for your chemical recipes.\nYou need also:\nMaintenance Hatch 1;\n(EV) Energy Hatch 1;\nInput Bus  1;\nOut Bus  1;\nInput Hatch  5;\nOutput Hatch  5.",
+      "description": "Chemical recipes without using cells? Build a LCR a large chemical reactor and use only fluids for your chemical recipes.\nYou need also:\nMaintenance Hatch 1;\n(EV) Energy Hatch 1;\nInput Bus  1;\nOutput Bus  1;\nInput Hatch  5;\nOutput Hatch  5.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83024,7 +83024,7 @@
     {
       "questID": 877,
       "name": "Scepter with 75 vis capacity",
-      "description": "A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forrest monster mob drop and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150% as much vis as a wand with the same core, and gives an additional 5% discount for costs, beyond any discounts from its caps or the user\u0027s worn equipment. ",
+      "description": "A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150% as much vis as a wand with the same core, and gives an additional 5% discount for costs, beyond any discounts from its caps or the user\u0027s worn equipment. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83283,8 +83283,8 @@
     },
     {
       "questID": 879,
-      "name": "Primal Cham",
-      "description": "With your new 50 vis wand you are able to make some Scepter wich holds up to 75 vis.\nFirst you need some primal cham which cost 50 vis to craft.",
+      "name": "Primal Charm",
+      "description": "With your new 50 vis wand you are able to make a Scepter which holds up to 75 vis.\nFirst you need some primal charms which cost 50 vis to craft.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -83837,8 +83837,8 @@
     },
     {
       "questID": 887,
-      "name": "Magic Staff",
-      "description": "Equipped the core with two wand caps, a twilight forest mob drop and screws just as for making a wand. A staff cannot be used for crafting, but holds 250% as much vis as a corresponding wand. It can even serve as a backup weapon for melee. While it cannot receive weapon enchantments, its damage is decent, and it does not take damage with use (no durability bar).",
+      "name": "A Wizard's Staff has a Knob on the End",
+      "description": "Join the core with two wand caps, a twilight forest mob drop, and screws just as for making a wand. A staff cannot be used for crafting, but holds 250% as much vis as a corresponding wand. It can even serve as a backup weapon for melee. While it cannot receive weapon enchantments, its damage is decent, and it does not take damage with use (no durability bar).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -84102,7 +84102,7 @@
     {
       "questID": 890,
       "name": "Better Tank... ULV Tank",
-      "description": "Next step is to store 32 buckets in a tank. The ULV Tank from Gt++ needs steel plates, iron plates, tin plates a clay pipe and a water bucket.",
+      "description": "Next step is to store 32 buckets in a tank. The ULV Tank from Gt++ needs steel plates, iron plates, tin plates, a clay pipe, and a water bucket.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -84177,7 +84177,7 @@
     {
       "questID": 891,
       "name": "Better Tank... LV Tank",
-      "description": "Next step is to store 64 buckets in a tank. The LV Tank from Gt++ needs steel plates, iron plates, bronze plates a huge clay pipe and an LV pump.",
+      "description": "Next step is to store 64 buckets in a tank. The LV Tank from Gt++ needs steel plates, iron plates, bronze plates, a huge clay pipe, and an LV pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -84255,7 +84255,7 @@
     {
       "questID": 892,
       "name": "Better Tank... MV Tank",
-      "description": "Next step is to store 128 buckets in a tank. The MV Tank from Gt++ needs steel plates, darksteel plates, bronze plates a  bronze pipe and an LV pump.",
+      "description": "Next step is to store 128 buckets in a tank. The MV Tank from Gt++ needs steel plates, darksteel plates, bronze plates, a bronze pipe and an LV pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -84410,7 +84410,7 @@
     {
       "questID": 894,
       "name": "Better Tank... HV Tank",
-      "description": "Next step is to store 256 buckets in a tank. The HV Tank from Gt++ needs aluminium plates, darksteel plates, vacuum tubes a  steel pipe and an MV pump.",
+      "description": "Next step is to store 256 buckets in a tank. The HV Tank from Gt++ needs aluminium plates, darksteel plates, vacuum tubes, a steel pipe, and an MV pump.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -84719,7 +84719,7 @@
     {
       "questID": 898,
       "name": "Simple Ore Washer",
-      "description": "Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It work reasonably fast and uses 8eu max. Ok, you do not get any byproducts, but who cares!",
+      "description": "Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It work reasonably fast and uses 8eu max - make sure you don't provide too much voltage! Ok, so you do not get any byproducts, but who cares!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -85763,7 +85763,7 @@
     {
       "questID": 911,
       "name": "Time to kill (Spiders)",
-      "description": "Eeeek! Wall climbing monsters, gross! Slay them. Quickly!",
+      "description": "Eeeek! Wall climbing monsters, gross! Slay them. Quickly! Watch out for the witch spiders, they can give as good as they get.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -86177,7 +86177,7 @@
     {
       "questID": 916,
       "name": "Time to kill (Wither)",
-      "description": "After collecting a couple of those wither skeleton heads, you feel like you could need some more action. So why not kill a wither? You\u0027ll need a ton of nether stars anyway...",
+      "description": "After collecting a couple of those wither skeleton heads, you feel like you could use some more action. So why not kill a wither? You\u0027ll need a ton of nether stars anyway...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -86271,7 +86271,7 @@
     {
       "questID": 917,
       "name": "Secret: The trade for life",
-      "description": "You have been busy my friend. I have something for you. Give me your hearts, and I will magically enhance them so you can actually use those.",
+      "description": "You have been busy my friend. I have something for you. Give me your hearts, and I will magically enhance them so you can actually use them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -86342,7 +86342,7 @@
     {
       "questID": 918,
       "name": "Skeleton: Evolved",
-      "description": "In order to advance to a higher tier and reach Mars, Deimos and Phobos, you need to make yourself a better rocket. There are rumors, that an evolved skeleton has schematics of such a device.",
+      "description": "In order to advance to a higher tier and reach Mars, Deimos and Phobos, you need to make yourself a better rocket. There are rumors that an Evolved Skeleton hiding out on the Moon has schematics of such a device.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -87914,7 +87914,7 @@
     {
       "questID": 926,
       "name": "Blood Altar Tier 3",
-      "description": "To make your altar more powerfull you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium block and on top one block of glowstone blocks on each pillar.",
+      "description": "To make your altar more powerful you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium block and on top one block of glowstone blocks on each pillar.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -88007,7 +88007,7 @@
     {
       "questID": 927,
       "name": "Blood Altar Tier 4",
-      "description": "If you want to make tier 4 slates you need a Tier 4 altar. This can be made like the tier 3 altar with pillars out of void-blood-soaked stones four blocks high and a blood brick on top the pillars.",
+      "description": "If you want to make tier 4 slates you need a Tier 4 altar. This can be made like the tier 3 altar with pillars out of void-blood-soaked stones four blocks high and a blood brick on top of the pillars.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -88183,7 +88183,7 @@
     {
       "questID": 929,
       "name": "Blood Altar Tier 6",
-      "description": "The highest tier of the blood altar is tier 6. You need pillars of blood-soaked ichorium 7 blocks high and on top the crystal cluster blocks out of demon souls shards.",
+      "description": "The highest tier of the blood altar is tier 6. You need pillars of blood-soaked ichorium 7 blocks high and on top the crystal cluster blocks made out of demon soul shards.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -88380,7 +88380,7 @@
     {
       "questID": 931,
       "name": "Auto Mining MV",
-      "description": "The MV miner will find ores for you better than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 128 eu to work. The Miner searches ores in a 24 block radius and works two times faster than the LV variant.",
+      "description": "The MV miner will find ores for you faster than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 128 eu to work. The Miner searches ores in a 24 block radius and works two times faster than the LV variant.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88457,7 +88457,7 @@
     {
       "questID": 932,
       "name": "Auto Mining HV",
-      "description": "The HV miner will find ores fore you better than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 512 eu to work. The Miner searches ores in a 32 block radius (two chuncks) and works two times faster than the MV variant.",
+      "description": "The HV miner will find ores for you faster than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 512 eu to work. The Miner searches ores in a 32 block radius (two chunks) and works two times faster than the MV variant.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88535,7 +88535,7 @@
     {
       "questID": 933,
       "name": "Power of the Sun",
-      "description": "Now its time to investigate in some regenerative engery. Let\u0027s start with solarpanels. The basic one only gives 1 EU/t. Most gt machine can use them as covers.",
+      "description": "Now its time to invest in some renewable energy. Let\u0027s start with solar panels. The basic one only gives 1 EU/t. Most gt machine can use them as covers. Be sure to put a glass layer above them in case it rains while you swap panels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88663,7 +88663,7 @@
     {
       "questID": 934,
       "name": "Power of the Sun 8V",
-      "description": "The next solarpanel you can make is the ULV one. It generates 8 EU/t. Most gt machine can use them as covers.",
+      "description": "The next solar panel you can make is the ULV one. It generates 8 EU/t. Most gt machines can use them as covers.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88895,7 +88895,7 @@
     {
       "questID": 936,
       "name": "Power of the Sun at LV Level",
-      "description": "The next solarpanel you can make is the LV one. It generates 32 EU/t max. Most gt machine can use them as covers. First you need to produce a sunnarium item by using 10 million eu power.",
+      "description": "The next solar panel you can make is the LV one. It generates 32 EU/t max. Most gt machines can use them as covers. First you need to produce a sunnarium item by using 10 million eu power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89143,7 +89143,7 @@
     {
       "questID": 938,
       "name": "Automated Sticky Resin Farmer",
-      "description": "If you are tired of crafting tons of tree taps, how about a machine that uses power but never breaks? Let\u0027s craft an electric tree tap.",
+      "description": "If you are tired of crafting tons of tree taps, how about a machine that uses power but never breaks? Let\u0027s craft an electric tree tap!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89271,7 +89271,7 @@
     {
       "questID": 939,
       "name": "Automated Farmer",
-      "description": "Your hoe must be getting worn out by now. Why not craft an electric one which never breaks.",
+      "description": "Your hoe must be getting worn out by now. Why not craft an electric one which never breaks?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89396,7 +89396,7 @@
     {
       "questID": 940,
       "name": "Cleanroom",
-      "description": "If you want to make more advanced circuits you need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room.",
+      "description": "If you want to make more advanced circuits you'll need a cleanroom. The cleanroom is a multiblock between 5x4x5 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you'll need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89527,7 +89527,7 @@
     {
       "questID": 941,
       "name": "A very useful Scanner",
-      "description": "The portable scanner is a tool capable of showing advanced information about almost every block in the game. \nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops, which shows more information than the cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load.\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.\nIt also gives information about pollution level in the chunk the scanned block belongs to.\nAdditional to that it shows when the clenroom has reached his 100% efficeny level.",
+      "description": "The portable scanner is a tool capable of showing advanced information about almost every block in the game. \nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops, which shows more information than the cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.\nIt also gives information about pollution level in the chunk the scanned block belongs to.\nIn addition it shows when the cleanroom has reached its 100% efficieny level.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89604,7 +89604,7 @@
     {
       "questID": 942,
       "name": "The Plunger",
-      "description": "The Plunger can be used to clear liquids from pipes. It can also be used on a machine to remove up to 1000mb of fluid from its internal buffer. You don\u0027t have to wrench your machine and replace it. It can be crafted from a rod of the desired material and rubber sheets. \n\nHint: Plunger deals 2.75 - 7.75 damage depending on the materials used.",
+      "description": "The Plunger is used to clear liquids from pipes. It can also be used on a machine to remove up to 1000mb of fluid from its internal buffer. You don\u0027t have to wrench your machine and replace it. It can be crafted from a rod of the desired material and rubber sheets. \n\nHint: Plunger deals 2.75 - 7.75 damage depending on the materials used.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89782,7 +89782,7 @@
     {
       "questID": 944,
       "name": "Super Tank I",
-      "description": "Next step is to store 40000 buckets in a tank. The super tank needs a hermetic casing made with aluminium plates and PTFE pipe. The tank need 4 circuits, a pulsatingiron  plates and an MV pump. Now you can store the exact amount of fluids a steel 5x5 steel tank contains.",
+      "description": "Next step is to store 4000 buckets in a tank. The super tank I needs a hermetic casing made with aluminium plates and PTFE pipe. The tank need 4 circuits, a pulsating iron plate and an MV pump. Now you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89874,8 +89874,8 @@
     },
     {
       "questID": 945,
-      "name": "Chad a better way to make Paper",
-      "description": "Making paper out of wood pulp and water can be tedious and difficult. Why not using some sugar cane macerate it down to chad and press it with two stone plates to paper? Later on you can use the chemical bath for a even better ratio.",
+      "name": "Chad - A better way to make Paper",
+      "description": "Making paper out of wood pulp and water can be tedious and difficult. Why not macerate some sugar cane down to chads and press it with two stone plates to paper? Later on you can use the chemical bath for a even better ratio.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -90080,7 +90080,7 @@
     {
       "questID": 947,
       "name": "Punji Sticks",
-      "description": "A early game protection fence can mada out of punji sticks. It hurts all mobs/players and add give slowness II potion effect. Making a trench around your base and put the punji sticks inside.",
+      "description": "A early game protection moat can be made out of punji sticks. It hurts all mobs/players and additionally gives a slowness II potion effect. Make a trench around your base and put the punji sticks inside.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90176,7 +90176,7 @@
     {
       "questID": 948,
       "name": "Better than iron",
-      "description": "Wrought Iron will become very soon more important when you have a bit steel and able to build high pressure steam machines. The material is much harder then iron and you can make better tools with it too.\nTo make wrought Iron you need a furnace to smelt iron ingots down to wrough iron nuggets. With the compressor you can compress the nuggets to ingots.\n\nHint:\nCrushed or purified oredust can be smelt to iron nuggets directly.",
+      "description": "Wrought Iron will become more important very soon when you have a bit of steel and are able to build high pressure steam machines. The material is much harder than iron and you can make better tools with it too.\nTo make wrought iron you need a furnace to smelt iron ingots down to wrought iron nuggets. With the compressor you can compress the nuggets to ingots.\n\nHint:\nCrushed or purified oredust can be smelt to iron nuggets directly. Later on you can use an arc furnace to make wrought iron ingots directly",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90310,7 +90310,7 @@
     {
       "questID": 949,
       "name": "Garden Bags",
-      "description": "Finding some special \"pams harvest craft\" gardens can be very difficult. With your farmer coins you can buy some gardenbags.",
+      "description": "Finding some special \"Pam's HarvestCraft\" gardens can be very difficult. With your farmer coins you can buy some garden bags.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90534,7 +90534,7 @@
     {
       "questID": 952,
       "name": "Base too big? I\u0027ve got a fix for you!",
-      "description": "Keeping a base spread apart for pollution or explosion prevention can really wear you out. Try harvesting some Marble and centrifuging it into Calcite, and mix up some concrete in your Mixer. Next output it into a Fluid Solidifier to make concrete blocks. You\u0027ll move faster on top of these blocks. They can even be turned into bricks to prevent unwanted spawns! Hint: 10 buckets of wet mix converts to exactly 160 blocks. Note: Don\u0027t stack blocks more than 1 high or else you might move faster than you\u0027d like. Or do it if you need to really get from point A to point B in a hurry. Also keep your animals off them.",
+      "description": "Keeping a base spread apart for pollution or explosion prevention can really wear you out. Try harvesting some Marble and centrifuging it into Calcite, and mix up some concrete in your Mixer. Next output it into a Fluid Solidifier with a block mold to make concrete blocks. You\u0027ll move faster on top of these blocks. They can even be turned into bricks to prevent unwanted spawns! Hint: 10 buckets of wet mix converts to exactly 160 blocks. Note: Don\u0027t stack blocks more than 1 high or else you might move faster than you\u0027d like. Or do it if you need to really get from point A to point B in a hurry. Also keep your animals off them. These blocks can also be Chiseled into different varieties.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -90784,8 +90784,8 @@
     },
     {
       "questID": 954,
-      "name": "The \"Waterproblems\" are solved",
-      "description": "Entering the HV age you found a way of making a water reservoir wich solves the finite water problem. Craft it with some fused quartz glass, HV pumps and cauldrons.",
+      "name": "The \"Water Problems\" are solved",
+      "description": "Entering the HV age you found a way of making a water reservoir which solves the finite water problem. Craft it with some fused quartz glass, HV pumps, and cauldrons.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -91760,7 +91760,7 @@
     {
       "questID": 969,
       "name": "Transistors",
-      "description": "Want some transistor? Buy some!",
+      "description": "Want some transistors? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92665,8 +92665,8 @@
     },
     {
       "questID": 983,
-      "name": "Cetan-Boosted Fuel",
-      "description": "Want some cetan-boosted fuel? Buy some!",
+      "name": "Cetane-Boosted Fuel",
+      "description": "Want some cetane-boosted fuel? Buy some!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92798,7 +92798,7 @@
     {
       "questID": 985,
       "name": "Time to kill (Ghast)",
-      "description": "They shoot you with explosive fireballs but they are weak when you hit them or throw the fireballs back. Better upgrade your armor with fire and blast protection.",
+      "description": "They shoot you with explosive fireballs but they are weak when you hit them or knock the fireballs back with a weapon. Better upgrade your armor with fire and blast protection.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -92880,7 +92880,7 @@
     {
       "questID": 986,
       "name": "Is this the End? No the END Dimension",
-      "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside strongholds. You feel strangely drawn into its mysterious depths.\n\nHint: throwing Ender Eyes in the air in the Overworld will guide you to the nearest stronghold . From time to time Ender Eyes are destroyed in this progress.",
+      "description": "Your investigation into the pearls has shown you that the source of the disturbance seems to be coming out of the shimmering portals inside strongholds. You feel strangely drawn into its mysterious depths.\n\nHint: throwing Ender Eyes in the air in the Overworld will guide you to the nearest stronghold . From time to time Ender Eyes are destroyed in this process, so make extras.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
