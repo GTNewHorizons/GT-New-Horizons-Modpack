@@ -132948,7 +132948,7 @@
     },
     {
       "questID": 1379,
-      "name": "Cart with Chunckloader",
+      "name": "Cart with Chunkloader",
       "description": "When transporting oil from long distances, a train is going to need a chunk loader. Craft one, and I\u0027ll give you a second one for free.",
       "isMain": false,
       "isSilent": false,
@@ -134204,7 +134204,7 @@
     {
       "questID": 1395,
       "name": "Wand Focus Vis Shard",
-      "description": "Wand Focus: Vis Shard can be equipped on any wand. While equipped, it can be right-clicked to cast homing projectile which deals 2-5 damage points. This projectile can bounce off of solid blocks. If the target is not hit in 10 seconds, the projectile disappears. This focus can be enchanted with Frugal, Potency and Persistent.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Vis Shard can be equipped on any wand. While equipped, it can be right-clicked to cast a homing projectile which deals 2-5 damage points. This projectile can bounce off of solid blocks. If the target is not hit in 10 seconds, the projectile disappears. This focus can be enchanted with Frugal, Potency and Persistent.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134595,7 +134595,7 @@
     {
       "questID": 1400,
       "name": "Wand Focus Blink",
-      "description": "Wand Focus: Blink is a very powerful focus allowing to teleport whenever you click, as long as the destination is less then 50 blocks away from you. But, as there is no teleport cooldown, you can travel extremally fast with it. Consumes 3 Perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
+      "description": "Wand Focus: Blink is a very powerful focus allowing to teleport whenever you click, as long as the destination is less then 50 blocks away from you. But, as there is no teleport cooldown, you can travel extremely fast with it. Consumes 3 Perditio per cast.\n\nThis focus can be upgraded at the Focal Manipulator.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134672,7 +134672,7 @@
     {
       "questID": 1401,
       "name": "Infuse your Focus",
-      "description": "Try to add Potency to your Shock Focus. At Level 3 you can add change lighning or Shock Wave.",
+      "description": "Try to add Potency to your Shock Focus. At Level 3 you can add Chain Lightning or Shock Wave.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134787,7 +134787,7 @@
     {
       "questID": 1402,
       "name": "Iridium screws",
-      "description": "Chrome screws are nice, but they seem to break if too much vis channel throu them. Get some Iridium screws.",
+      "description": "Chrome screws are nice, but they seem to break if too much vis channels through them. Get some Iridium screws.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
