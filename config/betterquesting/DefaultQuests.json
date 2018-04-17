@@ -8443,7 +8443,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1121
+              "Damage": 12
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -48890,7 +48890,7 @@
     {
       "questID": 562,
       "name": "High pressure boiler tank",
-      "description": "After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version.",
+      "description": "After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50110,7 +50110,7 @@
     {
       "questID": 578,
       "name": "The carpenter",
-      "description": "The Carpenter is similar to an automatic crafting table. It has an item input slot and a storage slot for the recipes. Some recipes need an additional fluid like water, creosote, honey or molten redstone. With the carpenter you can make farmblocks, woven backpacks, bee and tree analysers and many more.\n\nThe carpenter needs power to work. You can use a GT cable or a battery box to connect to the machine or make some forestry, railcraft or buildcraft RF engines.",
+      "description": "The carpenter is similar to an automatic crafting table. It has an item input slot and a storage slot for the recipes. Some recipes need an additional fluid like water, creosote, honey or molten redstone. With the carpenter you can make farmblocks, woven backpacks, bee and tree analysers and many more.\n\nThe carpenter needs power to work. You can use a GT cable or a battery box to connect to the machine or make some forestry, railcraft or buildcraft RF engines.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50354,7 +50354,7 @@
     {
       "questID": 580,
       "name": "Thermionic fabricator",
-      "description": "The thermionic fabricator is used to craft electron tubes and stained glass. It requires redstone flux (RF) energy to run. It is your first machine which is made in the carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop.",
+      "description": "The thermionic fabricator is used to craft electron tubes and stained glass. It requires redstone flux (RF) energy to run. It is your first machine made in the carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop. It will continuously draw power, so disconnect it if you don't need it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50618,7 +50618,7 @@
     {
       "questID": 582,
       "name": "Your first multiblock farm",
-      "description": "The smallest farm you can build requires 36 farm blocks. For water input you need a valve, items go through the hatches and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the carpenter when crafting the different farm blocks.",
+      "description": "The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). For water input you need a valve, items go through the hatches, and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the carpenter when crafting the different farm blocks.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50747,7 +50747,7 @@
     {
       "questID": 583,
       "name": "Farm logic",
-      "description": "This chip is optional and more advanced. The farms are working without them too. But if you want to configure your farm you will need one of them.",
+      "description": "This chip is optional and more advanced. Farms can work without it. But if you want to configure your farm you will need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51015,7 +51015,7 @@
     {
       "questID": 585,
       "name": "Heating coils",
-      "description": "Your thermionic fabricator needs heating coils to function. So combine some magnetized (requires polarizer) steel rods with some copper wire and make some.",
+      "description": "Your thermionic fabricator needs heating coils to function. So combine some magnetized (requires polariser) steel rods with some copper wire and make some.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51296,7 +51296,7 @@
     {
       "questID": 588,
       "name": "Finding Apatite",
-      "description": "It\u0027s now time to search for some ores. Apatite is the most basic material in Forestry. You can make fertilizer, farm blocks and many other things. The vein is found between Y level 40-60.",
+      "description": "It\u0027s now time to search for some ores. Apatite is the most important material in Forestry. You can make fertilizer, farm blocks and many other things. The vein is found between Y level 40-60.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51397,7 +51397,7 @@
     {
       "questID": 589,
       "name": "Multiblock farm: Hatch",
-      "description": "Farm hatch (Pipe connectivity)\n\nYou can supply and extract items from the farm by using farm hatches that are connected to pipe systems. \n\nSupplying items\nThe farm hatch is clever enough to know which item goes where. If an item isn\u0027t appropriate for the farm\u0027s configuration, the hatch will simply reject it.\n\nExtracting items\nAny item that is harvested by the Multifarm is automatically ejected by the farm hatches into inventories or pipes. Pipes can be used to extract from other sides.",
+      "description": "Farm hatch (Item pipe connectivity)\n\nYou can supply and extract items from the farm by using farm hatches that are connected to pipe systems. \n\nSupplying items\nThe farm hatch is clever enough to know which item goes where. If an item isn\u0027t appropriate for the farm\u0027s configuration, the hatch will simply reject it.\n\nExtracting items\nAny item that is harvested by the Multifarm is automatically ejected by the farm hatches into inventories or pipes. Pipes can be used to extract from other sides.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -51956,8 +51956,8 @@
     },
     {
       "questID": 593,
-      "name": "Farm logic enhanced",
-      "description": "This chip is optional and more advanced than the basic one. The farms can work without them too. If you want to configure your farm you will need one of them.",
+      "name": "Enhanced farm logic",
+      "description": "This chip is optional and more advanced than the basic one. The farms can work without them. However, if you want to configure your farm you will need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52097,8 +52097,8 @@
     },
     {
       "questID": 594,
-      "name": "Farm logic refined",
-      "description": "This chip is optional and more advanced than the enhanced one. The farms are working without them too. If you want to configure your farm even more you will need one of them.",
+      "name": "Refined farm logic",
+      "description": "This chip is optional and more advanced than the enhanced one. The farms can work without them. If you want to configure your farm even more you will need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -52238,8 +52238,8 @@
     },
     {
       "questID": 595,
-      "name": "Farm logic intricate",
-      "description": "This chip is optional and more advanced than the refined one. The farms are working without them too. If you want to configure your farm even more you will need one of them.",
+      "name": "Intricate farm logic",
+      "description": "This chip is optional and more advanced than the refined one. The farms will work without them, but if you want to configure your farm even more you will need one of them.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -53206,7 +53206,7 @@
     {
       "questID": 603,
       "name": "Dimensional chest",
-      "description": "You\u0027ve heard rumors, that the endermen had build laboratories in the End. To invent new machines and weapons in order to attack the Overworld. One of their inventions is a chest, which is somehow linked to all instances of itself. Go and try to find one of those.",
+      "description": "You\u0027ve heard rumors, that the endermen had built laboratories in the End. To invent new machines and weapons in order to attack the Overworld. One of their inventions is a chest, which is somehow linked to all instances of itself. Go and try to find one of those.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54494,7 +54494,7 @@
     {
       "questID": 617,
       "name": "Fluid canner",
-      "description": "The fluid canner is a fundamental machine, since it is necessary to move fluids around, as well as for filling tin cells, glass bottles, buckets, and even batteries.\n\nAnother interesting thing about the fluid canner is that it can be transformed into a raintank, by attaching a drain cover on its top (Any machine with tank actually can be...).",
+      "description": "The fluid canner is a fundamental machine, since it is necessary to move fluids around, as well as for filling tin cells, glass bottles, buckets, and even batteries. Most cases you can use the small GT++ tanks instead.\n\nAnother interesting thing about the fluid canner is that it can be transformed into a raintank, by attaching a drain cover on its top (Any machine with a tank actually can be...).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -54643,7 +54643,7 @@
     {
       "questID": 619,
       "name": "Battery buffer",
-      "description": "Batteries can be placed directly in machines. To recharge a battery you need a battery buffer. They come in different sizes: 1, 4, 9 and 16 slots.",
+      "description": "Batteries can be placed directly in machines. To recharge a battery you need a battery buffer. Buffers can also power an energy network. They come in different sizes: 1, 4, 9 and 16 slots. They can draw 2A and output 1A per battery inserted - watch your wire amperage!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55128,7 +55128,7 @@
     {
       "questID": 624,
       "name": "Basic canner",
-      "description": "The canning machine is mainly used to fill tin cans with any kind of food, but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with redstone, cadmium, lithium or sodium.",
+      "description": "The canning machine is mainly used to fill tin cans with any kind of food, but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with sulfur, mercury, cadmium, lithium or sodium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -55201,7 +55201,7 @@
     {
       "questID": 625,
       "name": "Packing your tanks chests and barrels",
-      "description": "Packing your chests and barrels without spilling all the things (buildcraft(tm))? \nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don\u0027t have to travel very far. Not portable buildcraft and iron tanks can moved so too without loosing fluids.",
+      "description": "Packing your chests and barrels without spilling all the things (buildcraft(tm))? \nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don\u0027t have to travel very far. Not portable buildcraft and iron tanks can moved so too without loosing fluids.\n\nPS Later on you can fly or make a traveller\u0027s belt to get around the debuff.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56459,7 +56459,7 @@
     {
       "questID": 638,
       "name": "Tasty toast",
-      "description": "Smelt your bread again and you get some toast!? Give\u0027s you more nutrition points, and unlocks more culinary potential!",
+      "description": "Smelt your bread again and you get some toast! Give\u0027s you more nutrition points, and unlocks more culinary potential!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -56715,7 +56715,7 @@
     {
       "questID": 641,
       "name": "Naphtha",
-      "description": "You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the gas turbine.\nNaphtha is also a base product for polyethylene and polycaprolactam.",
+      "description": "You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the gas turbine.\nNaphtha is also a base product for polyethylene and polycaprolactam - a great substitute for string.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -57693,7 +57693,7 @@
     {
       "questID": 650,
       "name": "Copter jetpack",
-      "description": "The copter jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. \nBuckets of creosote, lava, oil and fuel will work.\nEquip your jetpack and hit Shift and the adventure backpacks action-key. You can also switch between hover and normal mode.\n\nMax flying height is limited to Y level 200. \n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.",
+      "description": "The copter jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. \nBuckets of creosote, lava, oil, cetane, diesel,ethanol, and fuel will work.\nEquip your jetpack and hit Shift and the adventure backpacks action-key. You can also switch between hover and normal mode.\n\nMax flying height is limited to Y level 200. \n\nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60481,7 +60481,7 @@
     {
       "questID": 673,
       "name": "LV extruder",
-      "description": "The extruder is not very useful in the LV age. But it will extrude your next tier of boat or make some Tinkers Construct tool parts.",
+      "description": "The extruder is not very useful in the LV age. But it will extrude your next tier of boat, make rubber sheets more efficiently, or make some Tinkers Construct tool parts.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -60754,7 +60754,7 @@
     {
       "questID": 676,
       "name": "Crowbar",
-      "description": "The crowbar comes in a Railcraft and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor belts, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.\nHoldi a crowbar and shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.\n\nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).",
+      "description": "The crowbar comes in a Railcraft and a gregtech variant. It is used to manipulate machines from railcraft, remove plates and any other covers (pumps, conveyor belts, etc.) from gregtech pipes and machines as well as breaking certain objects faster, such as tracks. This tool is also used to access certain inventories from Railcraft.\nHold a crowbar and shift + right click to attach carts. Click the starting cart then continue to click to add more carts to the link. Carts will act slower the more connections are made.\n\nThe crowbar can be used as a weapon, though it costs twice as much durability on attack (just like any other non weapon tool...).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62284,7 +62284,7 @@
     {
       "questID": 691,
       "name": "Armor 2.5",
-      "description": "The steel armor has much more durability than the iron/bronze or chainmail armor.",
+      "description": "The steel armor has more durability than the iron/bronze or chainmail armor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -62405,7 +62405,7 @@
     {
       "questID": 692,
       "name": "Composite vest",
-      "description": "Combining the strength of advanced alloy plates with the steel chestplate makes your vest very hard. Now you have double the durability and increased armor points by 1,5.",
+      "description": "Combining the strength of advanced alloy plates with the steel chestplate makes your vest very hard. Now you have double the durability and increased armor points by 1.5.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134754,17 +134754,34 @@
         {
           "rewards": [
             {
+              "id": "minecraft:experience_bottle",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "Thaumcraft:ItemLootBag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        274
+        1382
       ]
     },
     {
@@ -134825,6 +134842,104 @@
       ],
       "preRequisites": [
         1378
+      ]
+    },
+    {
+      "questID": 1401,
+      "name": "Infuse your Focus",
+      "description": "Try to add Potency to your Shock Focus. At Level 3 you can add Chain Lightning or Shock Wave.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:FocusShock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "upgrade:9": [
+            {
+              "id:4": 0
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            }
+          ]
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:FocusShock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "upgrade:9": [
+                  {
+                    "id:4": 0
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  }
+                ]
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        274
       ]
     }
   ],
