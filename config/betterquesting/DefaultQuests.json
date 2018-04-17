@@ -8443,7 +8443,7 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1121
+              "Damage": 12
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -50354,7 +50354,7 @@
     {
       "questID": 580,
       "name": "Thermionic fabricator",
-      "description": "The thermionic fabricator is used to craft electron tubes and stained glass. It requires redstone flux (RF) energy to run. It is your first machine made in the carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop. It will continuously draw power, so disconnect it if you don\u0027t need it.",
+      "description": "The thermionic fabricator is used to craft electron tubes and stained glass. It requires redstone flux (RF) energy to run. It is your first machine made in the carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop. It will continuously draw power, so disconnect it if you don't need it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -134754,17 +134754,34 @@
         {
           "rewards": [
             {
+              "id": "minecraft:experience_bottle",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "Thaumcraft:ItemLootBag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        274
+        1382
       ]
     },
     {
@@ -134825,6 +134842,104 @@
       ],
       "preRequisites": [
         1378
+      ]
+    },
+    {
+      "questID": 1401,
+      "name": "Infuse your Focus",
+      "description": "Try to add Potency to your Shock Focus. At Level 3 you can add Chain Lightning or Shock Wave.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:FocusShock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "upgrade:9": [
+            {
+              "id:4": 0
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            },
+            {
+              "id:4": -1
+            }
+          ]
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:FocusShock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "upgrade:9": [
+                  {
+                    "id:4": 0
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  },
+                  {
+                    "id:4": -1
+                  }
+                ]
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        274
       ]
     }
   ],
