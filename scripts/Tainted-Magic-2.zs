@@ -399,7 +399,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:72>.wit
 [<dreamcraft:item.ShadowmetalCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 // --- Shadowmetal Attuned Obsidian Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:108>.withTag({cap: "shadowmetal", rod: "obsidian", sceptre: 1 as byte}), "aer 125, terra 125, ignis 125, aqua 125, ordo 125, perditio 1255", [
+mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:108>.withTag({cap: "shadowmetal", rod: "obsidian", sceptre: 1 as byte}), "aer 125, terra 125, ignis 125, aqua 125, ordo 125, perditio 125", [
 [<TwilightForest:item.fieryBlood>, <dreamcraft:item.ShadowmetalCap>, <Thaumcraft:ItemResource:15>],
 [<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <dreamcraft:item.ShadowmetalCap>],
 [<dreamcraft:item.ShadowmetalCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
