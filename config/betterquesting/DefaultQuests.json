@@ -135381,7 +135381,7 @@
     {
       "questID": 1407,
       "name": "EV Laser Engraver",
-      "description": "An EV precission laser is required to make some quantum crystals. Other recipes are twice faster than with an HVprecission laser.",
+      "description": "An EV precission laser is required to make some quantum crystals. Other recipes are twice faster than with an HV precission laser.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -135655,7 +135655,7 @@
     {
       "questID": 1409,
       "name": "Superconductors 8192 eu/t",
-      "description": "How about losless 8192 EU IV Wires ? Vanadiumtriindinid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix vanadium and indium in a hv mixer. Now you got the base dust wich need an EBF with HSSE Coils. A vacuumfreezer is also needed to cool it down. Make some IV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Tungstensteel pipes andivv pumps to get your 8192 eu/t superconductor wires.",
+      "description": "How about losless 8192 EU IV Wires ? Vanadiumtriindinid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix vanadium and indium in a hv mixer. Now you got the base dust wich need an EBF with HSSG Coils. A vacuumfreezer is also needed to cool it down. Make some IV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Niobiomtitanium pipes and iv pumps to get your 8192 eu/t superconductor wires.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -135922,6 +135922,150 @@
       ],
       "preRequisites": [
         213
+      ]
+    },
+    {
+      "questID": 1411,
+      "name": "Some rare high tier metals",
+      "description": "Small pile of Platinum, Palladium, Iridium and Osmium can be get during some chemical reactoin with nitric acid. You dont have the technology to process it right now but later on you need large amount of it. You can start now to collect some dust and process it later.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2241
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 30653
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6855
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6909
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 14,
+              "OreDict": "",
+              "Damage": 2241
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 85
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 52
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 84
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 83
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30659
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6855
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        854,
+        851
       ]
     }
   ],
@@ -138067,7 +138211,7 @@
         },
         {
           "id": 770,
-          "x": 144,
+          "x": 180,
           "y": 192
         },
         {
@@ -138102,58 +138246,58 @@
         },
         {
           "id": 859,
-          "x": 96,
-          "y": 384
+          "x": 144,
+          "y": 540
         },
         {
           "id": 858,
           "x": 144,
-          "y": 432
+          "y": 492
         },
         {
           "id": 854,
           "x": 144,
-          "y": 384
+          "y": 396
         },
         {
           "id": 857,
-          "x": 204,
-          "y": 432
+          "x": 84,
+          "y": 396
         },
         {
           "id": 856,
-          "x": 204,
-          "y": 480
+          "x": 84,
+          "y": 492
         },
         {
           "id": 147,
-          "x": 144,
-          "y": 480
+          "x": 84,
+          "y": 540
         },
         {
           "id": 855,
           "x": 204,
-          "y": 384
+          "y": 396
         },
         {
           "id": 851,
-          "x": 288,
-          "y": 384
+          "x": 204,
+          "y": 492
         },
         {
           "id": 853,
-          "x": 240,
-          "y": 384
+          "x": 204,
+          "y": 444
         },
         {
           "id": 841,
-          "x": 288,
-          "y": 432
+          "x": 252,
+          "y": 492
         },
         {
           "id": 557,
-          "x": 348,
-          "y": 432
+          "x": 252,
+          "y": 540
         },
         {
           "id": 943,
@@ -138287,7 +138431,7 @@
         },
         {
           "id": 1164,
-          "x": 180,
+          "x": 264,
           "y": 192
         },
         {
@@ -138364,6 +138508,11 @@
           "id": 1404,
           "x": 264,
           "y": 156
+        },
+        {
+          "id": 1411,
+          "x": 168,
+          "y": 444
         }
       ]
     },
