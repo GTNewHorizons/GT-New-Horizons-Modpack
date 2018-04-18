@@ -566,8 +566,8 @@ recipes.addShaped(<ProjRed|Core:projectred.core.part:44>, [
 // --- Screwdriver
 recipes.addShaped(<ProjRed|Core:projectred.core.screwdriver>, [
 [null, <ore:craftingToolFile>, <ore:stickSteel>],
-[<ore:stickRubber>, <ore:stickSteel>, <ore:craftingToolHardHammer>],
-[<ore:stickRubber>, <ore:stickRubber>, null]]);
+[<ore:stickAnyRubber>, <ore:stickSteel>, <ore:craftingToolHardHammer>],
+[<ore:stickAnyRubber>, <ore:stickAnyRubber>, null]]);
 
 // --- Multimeter
 recipes.addShaped(<ProjRed|Core:projectred.core.wiredebugger>, [

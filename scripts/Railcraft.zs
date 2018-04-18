@@ -631,7 +631,7 @@ recipes.remove(<Railcraft:machine.gamma:11>);
 
 // --- Wire Support Frame
 recipes.addShaped(<Railcraft:frame>, [
-[<ore:plateRubber>, <ore:plateSteel>, <ore:plateRubber>],
+[<ore:plateAnyRubber>, <ore:plateSteel>, <ore:plateAnyRubber>],
 [<Railcraft:part.rebar>, <ore:craftingToolWrench>, <Railcraft:part.rebar>],
 [<Railcraft:part.rebar>, <Railcraft:part.rebar>, <Railcraft:part.rebar>]]);
 

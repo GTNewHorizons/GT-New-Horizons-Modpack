@@ -129,7 +129,7 @@ recipes.addShapeless(<Thaumcraft:ItemResource:14>, [<ore:craftingToolMortar>, <T
 // --- Phials
 mods.thaumcraft.Research.clearPages("PHIAL");
 mods.thaumcraft.Research.addPage("PHIAL", "tc.research_page.PHIAL.1");
-recipes.addShapeless(<Thaumcraft:ItemEssence>, [<minecraft:glass_bottle>, <ore:roundRubber>]);
+recipes.addShapeless(<Thaumcraft:ItemEssence>, [<minecraft:glass_bottle>, <ore:roundAnyRubber>]);
 mods.thaumcraft.Research.addCraftingPage("PHIAL", <Thaumcraft:ItemEssence>);
 
 // --- Magic Tallow
@@ -218,7 +218,7 @@ mods.thaumcraft.Research.setComplexity("TUBES", 2);
 // --- Essentia Valve
 mods.thaumcraft.Arcane.addShaped("TUBES", <Thaumcraft:blockTube:1>, "ordo 8, aqua 8", [
 [<ore:screwThaumium>, <minecraft:lever>, <ore:screwThaumium>],
-[<ore:plateRubber>, <Thaumcraft:blockTube>, <ore:gearGtSmallThaumium>],
+[<ore:plateAnyRubber>, <Thaumcraft:blockTube>, <ore:gearGtSmallThaumium>],
 [null, null, null]]);
 
 // --- Essentia Resonator
@@ -239,7 +239,7 @@ mods.thaumcraft.Research.setComplexity("TUBEFILTER", 3);
 // --- Restricted Essentia Tubes
 mods.thaumcraft.Arcane.addShaped("TUBEFILTER", <Thaumcraft:blockTube:5>, "terra 16, aqua 16", [
 [null, null, null],
-[<ore:ringRubber>, <Thaumcraft:blockTube>, <ore:ringRubber>],
+[<ore:ringAnyRubber>, <Thaumcraft:blockTube>, <ore:ringAnyRubber>],
 [null, null, null]]);
 
 // --- Directional Essentia Tubes
@@ -331,7 +331,7 @@ mods.thaumcraft.Research.setComplexity("PURESILVER", 2);
 
 // --- Warded Jar
 mods.thaumcraft.Arcane.addShaped("JARLABEL", <Thaumcraft:blockJar>, "aqua 2", [
-[<ore:paneGlassColorless>, <ore:plateRubber>, <ore:paneGlassColorless>],
+[<ore:paneGlassColorless>, <ore:plateAnyRubber>, <ore:paneGlassColorless>],
 [<ore:paneGlassColorless>, null, <ore:paneGlassColorless>],
 [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]]);
 

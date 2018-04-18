@@ -480,7 +480,7 @@ recipes.addShaped(<Forestry:core>, [
 // --- Bottler
 recipes.addShaped(<Forestry:factory>, [
 [<ore:plateCupronickel>, <BuildCraft|Factory:tankBlock>, <ore:plateCupronickel>],
-[<ore:ringRubber>, <Forestry:sturdyMachine>, <ore:ringRubber>],
+[<ore:ringAnyRubber>, <Forestry:sturdyMachine>, <ore:ringAnyRubber>],
 [<ore:gearGtSmallSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallSteel>]]);
 
 // --- Carpenter
@@ -1097,8 +1097,8 @@ recipes.addShaped(<Forestry:infuser>, [
 
 // --- Pipette
 recipes.addShaped(<Forestry:pipette>, [
-[null, <ore:plateRubber>, <ore:plateRubber>],
-[null, <ore:cellEmpty>, <ore:plateRubber>],
+[null, <ore:plateAnyRubber>, <ore:plateAnyRubber>],
+[null, <ore:cellEmpty>, <ore:plateAnyRubber>],
 [<ore:boltGlass>, null, null]]);
 
 // --- Spectacles

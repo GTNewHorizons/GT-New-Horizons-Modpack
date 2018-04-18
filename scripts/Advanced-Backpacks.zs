@@ -148,9 +148,9 @@ recipes.addShaped(<adventurebackpack:backpackComponent:3>, [
 
 // --- Hose
 recipes.addShaped(<adventurebackpack:backpackHose>.withTag({mode: -1, amount: 0, fluid: "None", tank: -1}), [
-[<ore:plateRubber>, <adventurebackpack:backpackComponent:3>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:dyeGreen>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:dyeGreen>, <ore:plateRubber>]]);
+[<ore:plateAnyRubber>, <adventurebackpack:backpackComponent:3>, <ore:plateAnyRubber>],
+[<ore:plateAnyRubber>, <ore:dyeGreen>, <ore:plateAnyRubber>],
+[<ore:plateAnyRubber>, <ore:dyeGreen>, <ore:plateAnyRubber>]]);
 
 // --- Two Cylinder Disel Engine
 recipes.addShaped(<adventurebackpack:backpackComponent:5>, [
@@ -177,9 +177,9 @@ recipes.addShaped(<adventurebackpack:copterPack>.withTag({wearableData: {fuelTan
 
 // --- Inflateable Boot 
 recipes.addShaped(<adventurebackpack:backpackComponent:7>, [
-[<ore:plateRubber>, <ore:craftingToolWrench>, <ore:plateRubber>],
-[<ore:plateRubber>, <gregtech:gt.metaitem.01:32610>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
+[<ore:plateAnyRubber>, <ore:craftingToolWrench>, <ore:plateAnyRubber>],
+[<ore:plateAnyRubber>, <gregtech:gt.metaitem.01:32610>, <ore:plateAnyRubber>],
+[<ore:plateAnyRubber>, <ore:plateAnyRubber>, <ore:plateAnyRubber>]]);
 
 // --- Inflateable Boot (Motorized)
 //recipes.addShaped(<adventurebackpack:backpackComponent:8>, [
@@ -196,7 +196,7 @@ recipes.addShaped(<adventurebackpack:backpackComponent:9>, [
 // --- Piston Boots
 recipes.addShaped(<adventurebackpack:pistonBoots>, [
 [<Backpack:tannedLeather>, <ore:craftingToolScrewdriver>, <Backpack:tannedLeather>],
-[<ore:plateRubber>, <minecraft:leather_boots>, <ore:plateRubber>],
+[<ore:plateAnyRubber>, <minecraft:leather_boots>, <ore:plateAnyRubber>],
 [<ore:craftingPiston>, <ore:screwBronze>, <ore:craftingPiston>]]);
 
 // --- Adventures Suit

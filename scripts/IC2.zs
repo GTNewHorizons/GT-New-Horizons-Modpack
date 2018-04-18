@@ -783,9 +783,9 @@ recipes.addShaped(<IC2:blockReactorChamber>, [
 
 // --- Heat Conductor
 recipes.addShaped(<IC2:itemRecipePart:5>, [
-[<ore:plateRubber>, <ore:plateCopper>, <ore:plateRubber>],
+[<ore:plateAnyRubber>, <ore:plateCopper>, <ore:plateAnyRubber>],
 [<ore:plateCopper>, <ore:plateSilver>, <ore:plateCopper>],
-[<ore:plateRubber>, <ore:plateCopper>, <ore:plateRubber>]]);
+[<ore:plateAnyRubber>, <ore:plateCopper>, <ore:plateAnyRubber>]]);
 
 // --- Bat Box
 recipes.addShaped(<IC2:blockElectric>, [
@@ -813,8 +813,8 @@ recipes.addShaped(<IC2:blockElectric:2>, [
 
 // --- Rubber Sheet
 recipes.addShaped(<IC2:blockRubber>, [
-[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
+[<ore:plateAnyRubber>, <ore:plateAnyRubber>, <ore:plateAnyRubber>],
+[<ore:plateAnyRubber>, <ore:plateAnyRubber>, <ore:plateAnyRubber>],
 [null, null, null]]);
 
 // --- Wood Scaffold
@@ -1053,12 +1053,12 @@ recipes.addShaped(<IC2:itemBoat:3>, [
 
 // --- Rubber Boat
 recipes.addShaped(<IC2:itemBoat:1>, [
-[<ore:plateRubber>, <ore:craftingToolSaw>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
+[<ore:plateAnyRubber>, <ore:craftingToolSaw>, <ore:plateAnyRubber>],
+[<ore:plateAnyRubber>, <ore:craftingToolSoftHammer>, <ore:plateAnyRubber>],
+[<ore:plateAnyRubber>, <ore:plateAnyRubber>, <ore:plateAnyRubber>]]);
 
 // --- Rubber Boat repair
-recipes.addShapeless(<IC2:itemBoat:1>, [<IC2:itemBoat:2>, <ore:plateRubber>, <ore:plateRubber>, <ore:craftingToolHardHammer>]);
+recipes.addShapeless(<IC2:itemBoat:1>, [<IC2:itemBoat:2>, <ore:plateAnyRubber>, <ore:plateAnyRubber>, <ore:craftingToolHardHammer>]);
 
 // --- Electric Treetap
 recipes.addShaped(<IC2:itemTreetapElectric>, [
@@ -1439,8 +1439,8 @@ recipes.addShaped(<gregtech:gt.metaitem.01:11084> * 16, [
 // --- Weeding Trowel
 recipes.addShaped(<IC2:itemWeedingTrowel>, [
 [<ore:screwSteel>, <ore:stickSteel>, <ore:craftingToolScrewdriver>],
-[<ore:plateRubber>, <ore:stickSteel>, <ore:stickSteel>],
-[<ore:stickSteel>, <ore:plateRubber>, <ore:screwSteel>]]);
+[<ore:plateAnyRubber>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:plateAnyRubber>, <ore:screwSteel>]]);
 
 // --- Solar Panel
 recipes.addShaped(<gregtech:gt.metaitem.01:32750>, [

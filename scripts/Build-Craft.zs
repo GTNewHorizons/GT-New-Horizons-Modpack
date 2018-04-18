@@ -518,9 +518,9 @@ recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>, [
 
 // --- Void Fluid Pipe
 recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>, [
-[<ore:stickRubber>, ClearPane, <ore:stickRubber>],
+[<ore:stickAnyRubber>, ClearPane, <ore:stickAnyRubber>],
 [ClearPane, <ore:gemEnderPearl>, ClearPane],
-[<ore:stickRubber>, ClearPane, <ore:stickRubber>]]);
+[<ore:stickAnyRubber>, ClearPane, <ore:stickAnyRubber>]]);
 
 // --- Auto Workbench
 recipes.addShaped(AutoWorkB, [
