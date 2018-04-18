@@ -134901,7 +134901,7 @@
     {
       "questID": 1404,
       "name": "Superconductors 128 eu/t",
-      "description": "How about losless 128 EU LV Wires ? Pentacadmiummagnesiumhexaoxid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix cadmium, magnesium and oxygen in a mv mixer. Now you got the base dust wich need an EBF with Kanthal Coils. A vacuumfreezer is also needed to cool it down. Make some MV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Stainless Steel pipes and hv pumps to get your 128 eu/t superconductor wires.",
+      "description": "How about losless 128 EU MV Wires ? Pentacadmiummagnesiumhexaoxid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix cadmium, magnesium and oxygen in a mv mixer. Now you got the base dust wich need an EBF with Kanthal Coils. A vacuumfreezer is also needed to cool it down. Make some MV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Stainless Steel pipes and hv pumps to get your 128 eu/t superconductor wires.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -135097,7 +135097,7 @@
     {
       "questID": 1405,
       "name": "Superconductors 512 eu/t",
-      "description": "How about losless 512 EU LV Wires ? Titaniumonabariumdecacoppereikosaoxid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix titanium, barium, copper and oxygen in a hv mixer. Now you got the base dust wich need an EBF with Nichrome Coils. A vacuumfreezer is also needed to cool it down. Make some HV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Titanium pipes and ev pumps to get your 512 eu/t superconductor wires.",
+      "description": "How about losless 512 EU HV Wires ? Titaniumonabariumdecacoppereikosaoxid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix titanium, barium, copper and oxygen in a hv mixer. Now you got the base dust wich need an EBF with Nichrome Coils. A vacuumfreezer is also needed to cool it down. Make some HV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Titanium pipes and ev pumps to get your 512 eu/t superconductor wires.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -135219,19 +135219,19 @@
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 16,
               "OreDict": "",
               "Damage": 32613
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 16,
               "OreDict": "",
               "Damage": 30004
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
+              "Count": 16,
               "OreDict": "",
               "Damage": 30012
             }
@@ -135460,6 +135460,468 @@
       "preRequisites": [
         806,
         1246
+      ]
+    },
+    {
+      "questID": 1408,
+      "name": "Superconductors 2048 eu/t",
+      "description": "How about losless 2048 EU EV Wires ? Uraniumtriplatinid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix uranium 238 and platinum in a hv mixer. Now you got the base dust wich need an EBF with Tungstensteel Coils. A vacuumfreezer is also needed to cool it down. Make some EV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Tungstensteel pipes andivv pumps to get your 2048 eu/t superconductor wires.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2360
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2098
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 2085
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 2989
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 11989
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 2240
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 2240
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 5160
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32614
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 30012
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 30004
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 2360
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        861,
+        1243,
+        86
+      ]
+    },
+    {
+      "questID": 1409,
+      "name": "Superconductors 8192 eu/t",
+      "description": "How about losless 8192 EU IV Wires ? Vanadiumtriindinid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix vanadium and indium in a hv mixer. Now you got the base dust wich need an EBF with HSSE Coils. A vacuumfreezer is also needed to cool it down. Make some IV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Tungstensteel pipes andivv pumps to get your 8192 eu/t superconductor wires.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2380
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2029
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 2056
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 2990
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 11990
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 2260
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 2260
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5180
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32614
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30012
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 30004
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 2380
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        475,
+        1410
+      ]
+    },
+    {
+      "questID": 1410,
+      "name": "IV Mixer",
+      "description": "An IV mixer is required to mixe niobiumtitanium dust. Other recipes are twice faster than with an EV mixer.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 585
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 585
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11047
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        213
       ]
     }
   ],
@@ -137911,167 +138373,167 @@
       "quests": [
         {
           "id": 176,
-          "x": 228,
+          "x": 252,
           "y": 168
         },
         {
           "id": 186,
-          "x": 120,
+          "x": 144,
           "y": 240
         },
         {
           "id": 187,
-          "x": 120,
+          "x": 144,
           "y": 204
         },
         {
           "id": 188,
-          "x": 168,
+          "x": 192,
           "y": 240
         },
         {
           "id": 189,
-          "x": 336,
+          "x": 360,
           "y": 168
         },
         {
           "id": 190,
-          "x": 420,
+          "x": 444,
           "y": 168
         },
         {
           "id": 191,
-          "x": 420,
+          "x": 444,
           "y": 276
         },
         {
           "id": 192,
-          "x": 480,
+          "x": 504,
           "y": 240
         },
         {
           "id": 193,
-          "x": 444,
+          "x": 468,
           "y": 240
         },
         {
           "id": 194,
-          "x": 528,
+          "x": 552,
           "y": 132
         },
         {
           "id": 195,
-          "x": 528,
+          "x": 552,
           "y": 168
         },
         {
           "id": 196,
-          "x": 480,
+          "x": 504,
           "y": 204
         },
         {
           "id": 197,
-          "x": 480,
+          "x": 504,
           "y": 168
         },
         {
           "id": 198,
-          "x": 480,
+          "x": 504,
           "y": 276
         },
         {
           "id": 199,
-          "x": 228,
+          "x": 252,
           "y": 384
         },
         {
           "id": 200,
-          "x": 264,
+          "x": 288,
           "y": 348
         },
         {
           "id": 201,
-          "x": 264,
+          "x": 288,
           "y": 384
         },
         {
           "id": 202,
-          "x": 300,
+          "x": 324,
           "y": 384
         },
         {
           "id": 204,
-          "x": 120,
+          "x": 144,
           "y": 276
         },
         {
           "id": 205,
-          "x": 84,
+          "x": 108,
           "y": 204
         },
         {
           "id": 206,
-          "x": 120,
+          "x": 144,
           "y": 384
         },
         {
           "id": 207,
-          "x": 300,
+          "x": 324,
           "y": 240
         },
         {
           "id": 209,
-          "x": 300,
+          "x": 324,
           "y": 276
         },
         {
           "id": 210,
-          "x": 336,
+          "x": 360,
           "y": 276
         },
         {
           "id": 208,
-          "x": 336,
+          "x": 360,
           "y": 240
         },
         {
           "id": 211,
-          "x": 336,
+          "x": 360,
           "y": 204
         },
         {
           "id": 212,
-          "x": 300,
+          "x": 324,
           "y": 120
         },
         {
           "id": 805,
-          "x": 192,
+          "x": 216,
           "y": 120
         },
         {
           "id": 806,
-          "x": 192,
+          "x": 216,
           "y": 84
         },
         {
           "id": 807,
-          "x": 156,
+          "x": 180,
           "y": 48
         },
         {
           "id": 861,
-          "x": 84,
+          "x": 108,
           "y": 312
         },
         {
           "id": 936,
-          "x": 120,
+          "x": 144,
           "y": 348
         },
         {
           "id": 937,
-          "x": 168,
+          "x": 192,
           "y": 348
         },
         {
@@ -138101,193 +138563,208 @@
         },
         {
           "id": 1223,
-          "x": 108,
+          "x": 132,
           "y": 48
         },
         {
           "id": 1224,
-          "x": 264,
+          "x": 288,
           "y": 84
         },
         {
           "id": 1228,
-          "x": 264,
+          "x": 288,
           "y": 120
         },
         {
           "id": 1229,
-          "x": 228,
+          "x": 252,
           "y": 120
         },
         {
           "id": 1230,
-          "x": 228,
+          "x": 252,
           "y": 84
         },
         {
           "id": 1234,
-          "x": 264,
+          "x": 288,
           "y": 48
         },
         {
           "id": 1241,
-          "x": 36,
+          "x": 60,
           "y": 120
         },
         {
           "id": 1243,
-          "x": 84,
+          "x": 108,
           "y": 240
         },
         {
           "id": 1244,
-          "x": 84,
+          "x": 108,
           "y": 276
         },
         {
           "id": 1245,
-          "x": 108,
+          "x": 132,
           "y": 120
         },
         {
           "id": 1246,
-          "x": 108,
+          "x": 132,
           "y": 84
         },
         {
           "id": 1242,
-          "x": 336,
+          "x": 360,
           "y": 120
         },
         {
           "id": 1247,
-          "x": 72,
+          "x": 96,
           "y": 84
         },
         {
           "id": 1248,
-          "x": 108,
+          "x": 132,
           "y": 0
         },
         {
           "id": 1249,
-          "x": 228,
+          "x": 252,
           "y": 48
         },
         {
           "id": 1250,
-          "x": 156,
+          "x": 180,
           "y": 0
         },
         {
           "id": 1251,
-          "x": 192,
+          "x": 216,
           "y": 0
         },
         {
           "id": 1252,
-          "x": 36,
+          "x": 60,
           "y": 84
         },
         {
           "id": 1261,
-          "x": 228,
+          "x": 252,
           "y": 0
         },
         {
           "id": 1262,
-          "x": 120,
+          "x": 144,
           "y": 420
         },
         {
           "id": 1263,
-          "x": 84,
+          "x": 108,
           "y": 420
         },
         {
           "id": 1264,
-          "x": 84,
+          "x": 108,
           "y": 456
         },
         {
           "id": 1265,
-          "x": 120,
+          "x": 144,
           "y": 456
         },
         {
           "id": 1405,
-          "x": 264,
+          "x": 288,
           "y": 204
         },
         {
           "id": 1406,
-          "x": 156,
+          "x": 180,
           "y": 120
         },
         {
           "id": 1407,
-          "x": 156,
+          "x": 180,
           "y": 84
+        },
+        {
+          "id": 1408,
+          "x": 72,
+          "y": 276
         }
       ]
     },
     {
-      "name": "Tier 6 and beyond",
-      "description": "The last regular tier that will \"guide\" you ",
+      "name": "Tier 6 - 8192 EU (IV)",
+      "description": "The last regular tier that will \"guide\" you",
       "quests": [
         {
           "id": 213,
-          "x": 24,
+          "x": 72,
           "y": 0
         },
         {
           "id": 214,
-          "x": 24,
+          "x": 72,
           "y": 80
         },
         {
           "id": 215,
-          "x": 24,
+          "x": 72,
           "y": 40
         },
         {
           "id": 216,
-          "x": 72,
+          "x": 120,
           "y": 40
         },
         {
           "id": 217,
-          "x": 0,
-          "y": 120
-        },
-        {
-          "id": 218,
           "x": 48,
           "y": 120
         },
         {
+          "id": 218,
+          "x": 96,
+          "y": 120
+        },
+        {
           "id": 219,
-          "x": 72,
+          "x": 120,
           "y": 0
         },
         {
           "id": 220,
-          "x": 112,
+          "x": 160,
           "y": 0
         },
         {
           "id": 221,
-          "x": 152,
+          "x": 200,
           "y": 0
         },
         {
           "id": 222,
-          "x": 152,
+          "x": 200,
           "y": 40
         },
         {
           "id": 223,
-          "x": 192,
+          "x": 240,
+          "y": 0
+        },
+        {
+          "id": 1409,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1410,
+          "x": 36,
           "y": 0
         }
       ]
