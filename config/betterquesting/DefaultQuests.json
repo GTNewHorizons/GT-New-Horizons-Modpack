@@ -74645,13 +74645,13 @@
       ],
       "preRequisites": [
         789,
-        176
+        1406
       ]
     },
     {
       "questID": 806,
       "name": "Lapotron Crystal",
-      "description": "With your new HV mixer you can make lapotron dust. Place it in an autoclave to make some raw lapotron crystals. With an HV assembler and advanced circuits you can make lapotron crystals which store up to 10 million EU.\n\nHint: Nei shows only ic2 advanced circuits in recipe but all advanced circuits works.",
+      "description": "With your new HV mixer you can make lapotron dust. Place it in an autoclave to make some raw lapotron crystals. With an EV assembler and advanced circuits you can make lapotron crystals which store up to 10 million EU.\n\nHint: Nei shows only ic2 advanced circuits in recipe but all advanced circuits works.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -74701,7 +74701,7 @@
           "requiredItems": [
             {
               "id": "IC2:itemPartCircuitAdv",
-              "Count": 2,
+              "Count": 8,
               "OreDict": "circuitAdvanced",
               "Damage": 0
             },
@@ -74872,7 +74872,7 @@
         }
       ],
       "preRequisites": [
-        806
+        1407
       ]
     },
     {
@@ -135294,6 +135294,173 @@
         176,
         79
       ]
+    },
+    {
+      "questID": 1406,
+      "name": "EV Assembler",
+      "description": "An EV asembler is required to make some lapotron crystals. Other recipes are twice faster than with an HV assembler.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 214
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 214
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11067
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1245
+      ]
+    },
+    {
+      "questID": 1407,
+      "name": "EV Laser Engraver",
+      "description": "An EV precission laser is required to make some quantum crystals. Other recipes are twice faster than with an HVprecission laser.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 594
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 594
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11085
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        806,
+        1246
+      ]
     }
   ],
   "questLines": [
@@ -137744,7 +137911,7 @@
       "quests": [
         {
           "id": 176,
-          "x": 192,
+          "x": 228,
           "y": 168
         },
         {
@@ -137759,7 +137926,7 @@
         },
         {
           "id": 188,
-          "x": 156,
+          "x": 168,
           "y": 240
         },
         {
@@ -137814,22 +137981,22 @@
         },
         {
           "id": 199,
-          "x": 192,
+          "x": 228,
           "y": 384
         },
         {
           "id": 200,
-          "x": 228,
+          "x": 264,
           "y": 348
         },
         {
           "id": 201,
-          "x": 228,
+          "x": 264,
           "y": 384
         },
         {
           "id": 202,
-          "x": 264,
+          "x": 300,
           "y": 384
         },
         {
@@ -137874,23 +138041,23 @@
         },
         {
           "id": 212,
-          "x": 240,
+          "x": 300,
           "y": 120
         },
         {
           "id": 805,
-          "x": 174,
-          "y": 276
+          "x": 192,
+          "y": 120
         },
         {
           "id": 806,
-          "x": 174,
-          "y": 312
+          "x": 192,
+          "y": 84
         },
         {
           "id": 807,
-          "x": 120,
-          "y": 312
+          "x": 156,
+          "y": 48
         },
         {
           "id": 861,
@@ -137904,7 +138071,7 @@
         },
         {
           "id": 937,
-          "x": 174,
+          "x": 168,
           "y": 348
         },
         {
@@ -137939,27 +138106,27 @@
         },
         {
           "id": 1224,
-          "x": 192,
+          "x": 264,
           "y": 84
         },
         {
           "id": 1228,
-          "x": 192,
+          "x": 264,
           "y": 120
         },
         {
           "id": 1229,
-          "x": 156,
+          "x": 228,
           "y": 120
         },
         {
           "id": 1230,
-          "x": 156,
+          "x": 228,
           "y": 84
         },
         {
           "id": 1234,
-          "x": 192,
+          "x": 264,
           "y": 48
         },
         {
@@ -137989,7 +138156,7 @@
         },
         {
           "id": 1242,
-          "x": 288,
+          "x": 336,
           "y": 120
         },
         {
@@ -138004,7 +138171,7 @@
         },
         {
           "id": 1249,
-          "x": 156,
+          "x": 228,
           "y": 48
         },
         {
@@ -138049,8 +138216,18 @@
         },
         {
           "id": 1405,
-          "x": 240,
+          "x": 264,
           "y": 204
+        },
+        {
+          "id": 1406,
+          "x": 156,
+          "y": 120
+        },
+        {
+          "id": 1407,
+          "x": 156,
+          "y": 84
         }
       ]
     },
