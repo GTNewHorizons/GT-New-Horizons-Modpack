@@ -429,17 +429,6 @@ furnace.addRecipe(<ThaumicTinkerer:kamiResource:2> * 2, <gregtech:gt.blockmetal8
 
 
 
-// --- Compressor recipes ---
-
-
-
-
-// --- Ichor Blocks
-Compressor.addRecipe(<gregtech:gt.blockmetal8:13>, <ThaumicTinkerer:kamiResource:2> * 2);
-
-
-
-
 
 // --- Alloy Smelter Recipes ---
 
