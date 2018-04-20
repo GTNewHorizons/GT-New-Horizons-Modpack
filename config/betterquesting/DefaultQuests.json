@@ -135972,7 +135972,7 @@
     {
       "questID": 1410,
       "name": "IV Mixer",
-      "description": "An IV mixer is required to mixe niobiumtitanium dust. Other recipes are twice faster than with an EV mixer.",
+      "description": "An IV mixer is required to mixe niobiumtitanium and vanadiumgallium dust. Other recipes are twice faster than with an EV mixer.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -136026,6 +136026,12 @@
               "Count": 8,
               "OreDict": "",
               "Damage": 11047
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11037
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -136194,6 +136200,383 @@
       "preRequisites": [
         854,
         851
+      ]
+    },
+    {
+      "questID": 1412,
+      "name": "Assembling Line",
+      "description": "The assembling line short form \u0027Ass Line\u0027 is a multiblock and important for high tier Components in LUV tier and obove for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5–16 blocks long. The minimum length requires depends on the number of components and fluids required by the recipe it\u0027s crafting. A length of 11 blocks will be recommened to fit for 80% of all recipes in GTNH.\n\nFirst layer have on the outer side input hatches for fluids (4) in the middle layer input busses for items(10) and on the end 1 output bus. on the outer layer you have to add one maintainance hatch the rest is steel machine casings.\n\nThe second layer have on the outer sides left and right reinforced Glass blocks and in the middle assembling line cases.\n\nThe third layer have left and right grate casings and in the middel assembling machine casings. Controlblock and Data Acess hatch goes to one side.\n\nThe forth layer have steel machine caings (11)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1170
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 39,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 55
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 85
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockAlloyGlass",
+              "Count": 22,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 11,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1170
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 46
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 145
+            },
+            {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:paper",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "squidink",
+                  "Amount:4": 1000
+                }
+              }
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32708
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        213
+      ]
+    },
+    {
+      "questID": 1413,
+      "name": "You gonna hate this 1-4 in IV",
+      "description": "Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in IV. Go and craft one of each.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32654
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32614
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32644
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32634
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32654
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11028
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        213
+      ]
+    },
+    {
+      "questID": 1414,
+      "name": "You gonna hate this 5 and 6 in IV",
+      "description": "Some machines need emitters and sensors, like the analyzer or the circuit assembler.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32694
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32684
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32694
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11084
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1413
       ]
     }
   ],
@@ -138987,27 +139370,27 @@
         {
           "id": 214,
           "x": 72,
-          "y": 80
+          "y": 96
         },
         {
           "id": 215,
           "x": 72,
-          "y": 40
+          "y": 48
         },
         {
           "id": 216,
           "x": 120,
-          "y": 40
+          "y": 48
         },
         {
           "id": 217,
           "x": 48,
-          "y": 120
+          "y": 144
         },
         {
           "id": 218,
           "x": 96,
-          "y": 120
+          "y": 144
         },
         {
           "id": 219,
@@ -139043,6 +139426,16 @@
           "id": 1410,
           "x": 36,
           "y": 0
+        },
+        {
+          "id": 1414,
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": 1413,
+          "x": 36,
+          "y": 48
         }
       ]
     },
@@ -141254,6 +141647,11 @@
           "id": 876,
           "x": 336,
           "y": 72
+        },
+        {
+          "id": 1412,
+          "x": 288,
+          "y": 252
         }
       ]
     },
