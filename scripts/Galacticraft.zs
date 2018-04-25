@@ -1011,9 +1011,9 @@ recipes.addShaped(<GalacticraftCore:item.oilExtractor>, [
 
 // --- Buggy Wheel
 recipes.addShaped(<GalacticraftCore:item.buggymat>, [
-[CompressedSteel, <ore:plateRubber>, CompressedSteel],
-[<ore:plateRubber>, CompressedTi, <ore:plateRubber>],
-[CompressedSteel, <ore:plateRubber>, CompressedSteel]]);
+[CompressedSteel, <ore:plateAnyRubber>, CompressedSteel],
+[<ore:plateAnyRubber>, CompressedTi, <ore:plateAnyRubber>],
+[CompressedSteel, <ore:plateAnyRubber>, CompressedSteel]]);
 
 // --- Buggy Seat
 recipes.addShaped(<GalacticraftCore:item.buggymat:1>, [

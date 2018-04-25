@@ -47,21 +47,19 @@ recipes.remove(<GraviSuite:relocator:*>);
 recipes.remove(<GraviSuite:epicLappack:*>);
  
  
- 
- 
 // --- Add Recipes ---
 
 
 // --- Super Conductor Cover
 recipes.addShaped(<GraviSuite:itemSimpleItem>, [
 [<IC2:itemPartAlloy>, <IC2:itemPartIridium>, <IC2:itemPartAlloy>],
-[<gregtech:gt.blockmachines:2020>, <gregtech:gt.blockmachines:2020>, <gregtech:gt.blockmachines:2020>],
+[<gregtech:gt.blockmachines:2400>, <gregtech:gt.blockmachines:2400>, <gregtech:gt.blockmachines:2400>],
 [<IC2:itemPartAlloy>, <IC2:itemPartIridium>, <IC2:itemPartAlloy>]]);
 
 // --- Super Conductor
 recipes.addShaped(<GraviSuite:itemSimpleItem:1>, [
 [<GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>],
-[<gregtech:gt.blockmachines:2024>, <ore:platePlatinum>, <gregtech:gt.blockmachines:2024>],
+[<gregtech:gt.blockmachines:2424>, <ore:platePlatinum>, <gregtech:gt.blockmachines:2424>],
 [<GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>]]);
 
 // --- Cooling Core
@@ -78,14 +76,14 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 // --- Magnetron
 recipes.addShaped(<GraviSuite:itemSimpleItem:4>, [
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>],
-[<ore:plateDenseCopper>, <GraviSuite:itemSimpleItem:1>, <ore:plateDenseCopper>],
+[<ore:plateDenseCopper>, <gregtech:gt.blockmachines:2384>, <ore:plateDenseCopper>],
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>]]);
  
 // --- Vajra Core
 recipes.addShaped(<GraviSuite:itemSimpleItem:5>, [
 [<ore:craftingToolWrench>, <ore:plateCopper>, <ore:craftingToolHardHammer>],
 [<IC2:itemPartIridium>, <IC2:blockMachine2:1>, <IC2:itemPartIridium>],
-[<GraviSuite:itemSimpleItem:1>, <gregtech:gt.blockmachines:23>, <GraviSuite:itemSimpleItem:1>]]);
+[<gregtech:gt.blockmachines:2384>, <gregtech:gt.blockmachines:23>, <gregtech:gt.blockmachines:2384>]]);
 
 // --- Vajra
 recipes.addShaped(<GraviSuite:vajra:27>, [
@@ -102,20 +100,24 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 // --- Ultimate Lappack
 recipes.addShaped(<GraviSuite:ultimateLappack:27>, [
 [<dreamcraft:item.ChromeItemCasing>, <ore:batteryMaster>, <dreamcraft:item.ChromeItemCasing>],
-[<ore:batteryMaster>, <GraviSuite:advLappack:27>, <ore:batteryMaster>],
+[<ore:batteryMaster>, <GraviSuite:advLappack:*>, <ore:batteryMaster>],
 [<ore:circuitMaster>, <ore:wireGt16NiobiumTitanium>, <ore:circuitMaster>]]);
 
 // --- Epic Lappack
 recipes.addShaped(<GraviSuite:epicLappack:27>, [
 [<dreamcraft:item.IridiumAlloyItemCasing>, <gregtech:gt.metaitem.01:32599>, <dreamcraft:item.IridiumAlloyItemCasing>],
-[<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:27>, <gregtech:gt.metaitem.01:32599>],
+[<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:*>, <gregtech:gt.metaitem.01:32599>],
 [<ore:circuitUltimate>, <ore:wireGt16Superconductor>, <ore:circuitUltimate>]]);
 
 // --- Relocator
 recipes.addShaped(<GraviSuite:relocator:27>, [
-[<gregtech:gt.metaitem.01:32676>, <dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:32676>],
-[<ore:circuitUltimate>, <IC2:blockMachine2>, <ore:circuitUltimate>],
-[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:*>, <dreamcraft:item.NeutroniumItemCasing>]]);
+[<ore:screwOsmium>,<ore:craftingToolScrewdriver>,<ore:screwOsmium>],
+[<ore:plateOsmium>,<DraconicEvolution:teleporterMKII>,<ore:plateOsmium>],
+[<SGCraft:ic2Capacitor>,<gregtech:gt.blockcasings:15>,<SGCraft:ic2Capacitor>]]);
+//recipes.addShaped(<GraviSuite:relocator:27>, [
+//[<gregtech:gt.metaitem.01:32676>, <dreamcraft:item.NeutroniumItemCasing>, <gregtech:gt.metaitem.01:32676>],
+//[<ore:circuitUltimate>, <IC2:blockMachine2>, <ore:circuitUltimate>],
+//[<dreamcraft:item.NeutroniumItemCasing>, <IC2:itemBatLamaCrystal:*>, <dreamcraft:item.NeutroniumItemCasing>]]);
 
 // --- Advanced Chainsaw
 recipes.addShaped(<GraviSuite:advChainsaw:27>, [
@@ -128,7 +130,6 @@ recipes.addShaped(<GraviSuite:advDDrill:27>, [
 [<ore:screwIridium>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:craftingToolScrewdriver>],
 [<ore:gearGtSmallIridium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallIridium>],
 [<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
-
 
 
 

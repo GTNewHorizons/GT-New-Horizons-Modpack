@@ -114,7 +114,7 @@ val DiamondCircuit = <appliedenergistics2:item.ItemMultiMaterial:24>;
 val SteelPlate = <ore:plateSteel>;
 val AlPlate = <ore:plateAluminium>;
 val TitaniumPlate = <ore:plateTitanium>;
-val RubberPlate = <ore:plateRubber>;
+val RubberPlate = <ore:plateAnyRubber>;
 val CertusPlate = <gregtech:gt.metaitem.01:17516>;
 val NQuartzPlate = <gregtech:gt.metaitem.01:17522>;
 val QuartzitePlate = <gregtech:gt.metaitem.01:17523>;
@@ -586,7 +586,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockSpatialIOPort>, [
 // --- ME Interface
 recipes.addShaped(<appliedenergistics2:tile.BlockInterface>, [
 [TitaniumPlate, <appliedenergistics2:item.ItemMultiPart:16>, TitaniumPlate],
-[<appliedenergistics2:item.ItemMultiMaterial:44>, <gregtech:gt.blockcasings:2>, <appliedenergistics2:item.ItemMultiMaterial:43>],
+[<appliedenergistics2:item.ItemMultiMaterial:44>, <gregtech:gt.blockcasings:4>, <appliedenergistics2:item.ItemMultiMaterial:43>],
 [TitaniumPlate, <appliedenergistics2:item.ItemMultiPart:16>, TitaniumPlate]]);
 
 // --- ME Interface
@@ -606,9 +606,9 @@ recipes.addShaped(<appliedenergistics2:tile.BlockIOPort>, [
 
 // --- Matter Condenser
 recipes.addShaped(<appliedenergistics2:tile.BlockCondenser>, [
-[TitaniumPlate, <gregtech:gt.metaitem.01:32641>, TitaniumPlate],
-[<gregtech:gt.metaitem.01:32641>, <gregtech:gt.blockmachines:12>, <gregtech:gt.metaitem.01:32641>],
-[TitaniumPlate, <gregtech:gt.metaitem.01:32641>, TitaniumPlate]]);
+[TitaniumPlate, <gregtech:gt.metaitem.01:32643>, TitaniumPlate],
+[<gregtech:gt.metaitem.01:32643>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32643>],
+[TitaniumPlate, <gregtech:gt.metaitem.01:32643>, TitaniumPlate]]);
   
 // --- Enegery Acceptor
 recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [
@@ -619,7 +619,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [
 // --- Vibration Chamber
 recipes.addShaped(<appliedenergistics2:tile.BlockVibrationChamber>, [
 [TitaniumPlate, <ore:screwTitanium>, TitaniumPlate],
-[<ore:craftingToolScrewdriver>, <gregtech:gt.blockmachines:262>, <ore:craftingToolWrench>],
+[<ore:craftingToolScrewdriver>, <gregtech:gt.blockmachines:264>, <ore:craftingToolWrench>],
 [TitaniumPlate, <appliedenergistics2:tile.BlockEnergyAcceptor>, TitaniumPlate]]);
 
 // --- ME Security Terminal

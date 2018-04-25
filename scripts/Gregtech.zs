@@ -432,6 +432,8 @@ recipes.removeShapeless(<minecraft:coal:1> * 9, [<gregtech:gt.blockgem3:4>]);
 // --- Charcoal Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2536> * 9, [<gregtech:gt.blockgem3:4>]);
 
+// --- Teleporter
+recipes.remove(<gregtech:gt.blockmachines:1145>);
 
 
 
@@ -439,6 +441,11 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2536> * 9, [<gregtech:gt.blockg
 
 // --- Add Recipes ---
 
+// --- Teleporter
+recipes.addShaped(<gregtech:gt.blockmachines:1145>,[
+[<dreamcraft:item.NanoCircuit>,<SGCraft:ic2PowerUnit>,<dreamcraft:item.NanoCircuit>],
+[<SGCraft:ic2Capacitor>,<SGCraft:stargateBase>,<SGCraft:ic2Capacitor>],
+[<SGCraft:ic2Capacitor>,<SGCraft:ocInterface>,<SGCraft:ic2Capacitor>]]);
 
 
 // --- Diamond Sword Blade

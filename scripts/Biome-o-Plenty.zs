@@ -108,12 +108,7 @@ recipes.removeShaped(<minecraft:wheat>, [[<BiomesOPlenty:plants:6>, <BiomesOPlen
 // --- Bucket Glitch
 recipes.addShapeless(<minecraft:bucket>, [<BiomesOPlenty:bopBucket>]); 
 
-// --- Lime Stone
-recipes.addShaped(<BiomesOPlenty:rocks> * 8, [
-[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
-[<minecraft:stone>, <minecraft:dye:10>, <minecraft:stone>],
-[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
-// -
+// --- Limestone
 recipes.addShapeless(<BiomesOPlenty:rocks:1>, [<BiomesOPlenty:rocks>]);
 
 // --- Polish Lime Stone
@@ -142,6 +137,10 @@ Assembler.addRecipe(<BiomesOPlenty:misc:2>, <Forestry:beeswax> * 2, <gregtech:gt
 
 // --- Hive Block
 Assembler.addRecipe(<BiomesOPlenty:hive:1>, <Forestry:propolis> * 2, <gregtech:gt.integrated_circuit:2> * 0, 400, 40);
+
+// --- Lime Stone
+Assembler.addRecipe(<BiomesOPlenty:rocks> * 8, <minecraft:stone> * 8, <minecraft:dye:10>, 300, 2);
+
 
 
 

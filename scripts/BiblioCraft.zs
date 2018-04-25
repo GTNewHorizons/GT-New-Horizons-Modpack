@@ -1224,7 +1224,7 @@ recipes.addShaped(<BiblioCraft:BiblioBell>, [
 
 // --- Cookie Jar
 recipes.addShaped(<BiblioCraft:BiblioStuffs>, [
-[null, <ore:plateRubber>, null],
+[null, <ore:plateAnyRubber>, null],
 [<minecraft:glass_pane>, null, <minecraft:glass_pane>],
 [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]]);
 

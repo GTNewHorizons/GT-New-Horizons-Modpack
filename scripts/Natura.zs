@@ -2109,4 +2109,42 @@ mods.chisel.Groups.addVariation("bookshelf", <Natura:Natura.bookshelf:12>);
 
 
 
+
+// --- Burn Values ---
+
+
+
+// --- Pressure Plate
+furnace.setFuel(<Natura:NetherPressurePlate>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.eucalyptus>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.sakura>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.ghostwood>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.redwood>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.bloodwood>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.hopseed>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.maple>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.amaranth>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.silverbell>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.tiger>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.willow>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.darkwood>, 75);
+// -
+furnace.setFuel(<Natura:pressureplate.fusewood>, 75);
+
+
+
+
+
 // --- Hiding Stuff ---

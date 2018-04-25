@@ -212,22 +212,22 @@ recipes.addShaped(<GalaxySpace:item.lead_leg>, [
 [<ore:CompressedLead>, <ore:craftingToolHardHammer>, <ore:CompressedLead>]]);
 
 // --- Solar Flares
-recipes.addShaped(<GalaxySpace:item.SolarFlares:1>, [
-[<ore:compressedDesh>, <GalaxySpace:item.SolarFlares>, <ore:compressedDesh>],
-[<GalaxySpace:item.SolarFlares>, <ore:compressedTitanium>, <GalaxySpace:item.SolarFlares>],
-[<ore:compressedDesh>, <GalaxySpace:item.SolarFlares>, <ore:compressedDesh>]]);
+//recipes.addShaped(<GalaxySpace:item.SolarFlares:1>, [
+//[<ore:compressedDesh>, <GalaxySpace:item.SolarFlares>, <ore:compressedDesh>],
+//[<GalaxySpace:item.SolarFlares>, <ore:compressedTitanium>, <GalaxySpace:item.SolarFlares>],
+//[<ore:compressedDesh>, <GalaxySpace:item.SolarFlares>, <ore:compressedDesh>]]);
 
 // --- Part Solar Flares
-recipes.addShaped(<GalaxySpace:item.SolarFlares>, [
-[<ore:compressedIron>, <GalacticraftCore:item.steelPole>, <ore:compressedIron>],
-[<GalacticraftCore:item.steelPole>, <GalacticraftCore:item.basicItem:1>, <GalacticraftCore:item.steelPole>],
-[<GalacticraftCore:item.steelPole>, <ore:compressedSteel>, <GalacticraftCore:item.steelPole>]]);
+//recipes.addShaped(<GalaxySpace:item.SolarFlares>, [
+//[<ore:compressedIron>, <GalacticraftCore:item.steelPole>, <ore:compressedIron>],
+//[<GalacticraftCore:item.steelPole>, <GalacticraftCore:item.basicItem:1>, <GalacticraftCore:item.steelPole>],
+//[<GalacticraftCore:item.steelPole>, <ore:compressedSteel>, <GalacticraftCore:item.steelPole>]]);
 
 // --- Solar Wind Panel
-recipes.addShaped(<GalaxySpace:solarwindpanel>, [
-[<ore:compressedTitanium>, <GalaxySpace:item.SolarFlares>, <ore:compressedTitanium>],
-[<GalacticraftCore:tile.aluminumWire:1>, <GalacticraftCore:item.steelPole>, <GalacticraftCore:tile.aluminumWire:1>],
-[<gregtech:gt.metaitem.01:32600>, <ore:waferAdvanced>, <gregtech:gt.metaitem.01:32690>]]);
+//recipes.addShaped(<GalaxySpace:solarwindpanel>, [
+//[<ore:compressedTitanium>, <GalaxySpace:item.SolarFlares>, <ore:compressedTitanium>],
+//[<GalacticraftCore:tile.aluminumWire:1>, <GalacticraftCore:item.steelPole>, <GalacticraftCore:tile.aluminumWire:1>],
+//[<gregtech:gt.metaitem.01:32600>, <ore:waferAdvanced>, <gregtech:gt.metaitem.01:32690>]]);
 
 // --- Cobaltum Boots
 recipes.addShaped(<GalaxySpace:item.cobaltum_boots>, [

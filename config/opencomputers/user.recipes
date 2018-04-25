@@ -8,11 +8,11 @@
 # recipe and hide the item in the creative tab and NEI. If you assign `true`,
 # the recipe will still be disabled, but not hidden in the creative tab/NEI.
 
-include file("default.recipes")
-include file("hardmode.recipes")
-include file("gregtech.recipes")
+#include file("default.recipes")
+#include file("hardmode.recipes")
+#include file("gregtech.recipes")
 #include file("peaceful.recipes")
-#include file("your_custom.recipes")
+include file("gtnh.recipes")
 
 # You can also specify custom recipes in this file directly. Have a look at the
 # default.recipes file to get an idea how recipes have to be structured. You'll

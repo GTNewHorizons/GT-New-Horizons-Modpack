@@ -566,8 +566,8 @@ recipes.addShaped(<ProjRed|Core:projectred.core.part:44>, [
 // --- Screwdriver
 recipes.addShaped(<ProjRed|Core:projectred.core.screwdriver>, [
 [null, <ore:craftingToolFile>, <ore:stickSteel>],
-[<ore:stickRubber>, <ore:stickSteel>, <ore:craftingToolHardHammer>],
-[<ore:stickRubber>, <ore:stickRubber>, null]]);
+[<ore:stickAnyRubber>, <ore:stickSteel>, <ore:craftingToolHardHammer>],
+[<ore:stickAnyRubber>, <ore:stickAnyRubber>, null]]);
 
 // --- Multimeter
 recipes.addShaped(<ProjRed|Core:projectred.core.wiredebugger>, [
@@ -576,7 +576,7 @@ recipes.addShaped(<ProjRed|Core:projectred.core.wiredebugger>, [
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
 
 // --- Black Insulated Wire
-recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire>, <ore:plateRubber>]);
+recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:16>, [<ProjRed|Transmission:projectred.transmission.wire>, <ore:plateAnyRubber>]);
 
 // --- White Insulated Wire
 recipes.addShapeless(<ProjRed|Transmission:projectred.transmission.wire:1>, [<ProjRed|Transmission:projectred.transmission.wire:16>, <ore:dyeWhite>]);
@@ -920,6 +920,8 @@ Assembler.addRecipe(<ProjRed|Expansion:projectred.expansion.electric_screwdriver
 
 // --- Bundled  Cable
 Assembler.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:17>, <ProjRed|Transmission:projectred.transmission.wire> * 5, <gregtech:gt.metaitem.01:17880> * 5, 300, 30);
+Assembler.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:17>, <ProjRed|Transmission:projectred.transmission.wire> * 5, <gregtech:gt.metaitem.01:17635> * 5, 300, 30);
+Assembler.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:17>, <ProjRed|Transmission:projectred.transmission.wire> * 5, <gregtech:gt.metaitem.01:17471> * 5, 300, 30);
 
 // --- Item Transport Pipe
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe>, <TConstruct:GlassPane>, <gregtech:gt.metaitem.02:22032> * 2, 100, 30);
@@ -1311,9 +1313,13 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, [<minecraft:glowstone_du
 
 // --- Black Insulated Wire
 Packer.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:16>, <ProjRed|Transmission:projectred.transmission.wire>, <gregtech:gt.metaitem.01:17880>, 100, 8);
+Packer.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:16>, <ProjRed|Transmission:projectred.transmission.wire>, <gregtech:gt.metaitem.01:17635>, 100, 8);
+Packer.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:16>, <ProjRed|Transmission:projectred.transmission.wire>, <gregtech:gt.metaitem.01:17471>, 100, 8);
 
 // --- Low Load Power Line
 Packer.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:34>, <dreamcraft:item.ElectrotineWire>, <gregtech:gt.metaitem.01:17880>, 100, 8);
+Packer.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:34>, <dreamcraft:item.ElectrotineWire>, <gregtech:gt.metaitem.01:17635>, 100, 8);
+Packer.addRecipe(<ProjRed|Transmission:projectred.transmission.wire:34>, <dreamcraft:item.ElectrotineWire>, <gregtech:gt.metaitem.01:17471>, 100, 8);
 
 
 

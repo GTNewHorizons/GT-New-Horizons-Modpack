@@ -455,6 +455,9 @@ recipes.remove(<minecraft:wooden_pressure_plate>);
 // --- Saddle
 recipes.remove(<minecraft:saddle>);
 
+// --- Packed Ice
+recipes.removeShaped(<minecraft:packed_ice> * 4);
+
 
 // --- Wool ---
 
@@ -1149,7 +1152,7 @@ recipes.addShaped(<minecraft:stone_pressure_plate> * 2, [
 
 // --- Wooden Pressure Plate
 recipes.addShaped(<minecraft:wooden_pressure_plate> * 2, [
-[Saw, <ore:slabWood>, null],
+[Saw, <minecraft:wooden_slab>, null],
 [null, null, null],
 [null, null, null]]);
 
@@ -1174,7 +1177,7 @@ recipes.addShapedMirrored(Torch * 5, [
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 5, [
-[AnyWool, <Railcraft:fluid.creosote.bucket>.transformReplace(<minecraft:bucket>)],
+[AnyWool, <Railcraft:fluid.creosote.bucket>],
 [Stick, null]]);
 // -
 recipes.addShapedMirrored(Torch * 4, [
@@ -1310,6 +1313,12 @@ recipes.addShaped(Hopper, [
 [IronPlate, Chest, IronPlate],
 [IronPlate, IronGear, IronPlate],
 [HHammer, IronPlate, <ore:craftingToolFile>]]);
+
+// --- Packed Ice
+recipes.addShaped(<minecraft:packed_ice>, [
+[<minecraft:ice>, <minecraft:ice>, null],
+[<minecraft:ice>, <minecraft:ice>, null],
+[null, null, null]]);
 
 
 
@@ -2438,12 +2447,12 @@ recipes.addShaped(<minecraft:fishing_rod>, [
 // --- Paper
 recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
-[<ore:dustWood>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:dustWood>],
+[<ore:dustWood>, <minecraft:water_bucket>, <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
 // -
 recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
-[<ore:dustWood>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <ore:dustWood>],
+[<ore:dustWood>, <IguanaTweaksTConstruct:clayBucketWater>, <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
 
 // --- String
@@ -2483,12 +2492,12 @@ recipes.addShapeless(<minecraft:stone_slab:7>, [Saw, QuartzBlock]);
 // --- Brick Blocks
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:ingotBrick>],
+[<ore:ingotBrick>, <minecraft:water_bucket>, <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 // -
 recipes.addShaped(<minecraft:brick_block> * 2, [
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <ore:ingotBrick>],
+[<ore:ingotBrick>, <IguanaTweaksTConstruct:clayBucketWater>, <ore:ingotBrick>],
 [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 
 // --- Brick
@@ -2497,7 +2506,7 @@ furnace.addRecipe(<minecraft:brick>, <dreamcraft:item.UnfiredClayBrick>);
 // --- Nether Bricks
 recipes.addShaped(<minecraft:nether_brick> * 2, [
 [<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>],
-[<ore:ingotBrickNether>, <minecraft:lava_bucket>.transformReplace(<minecraft:bucket>), <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <minecraft:lava_bucket>, <ore:ingotBrickNether>],
 [<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
 // -
 recipes.addShaped(<minecraft:nether_brick> * 2, [
@@ -2728,7 +2737,7 @@ recipes.addShaped(<minecraft:mossy_cobblestone>, [
 // --- Book
 recipes.addShaped(Book, [
 [String, Paper, <minecraft:leather>],
-[String, Paper, <TConstruct:buckets:25>.transformReplace(<minecraft:bucket>)],
+[String, Paper, <TConstruct:buckets:25>],
 [String, Paper, <minecraft:leather>]]);
 
 // --- Book Shelf
@@ -2788,6 +2797,8 @@ mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamPaperbark>, false, false,
 mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs>, false, false, 20, <minecraft:coal:1>);
 // -
 mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs:1>, false, false, 20, <minecraft:coal:1>);
+//-
+mods.railcraft.BlastFurnace.addRecipe(<miscutils:blockRainforestOakLog>, false, false, 20, <minecraft:coal:1>);
 
 
 
@@ -3231,11 +3242,11 @@ BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>], 100, 
 
 
 // --- Wooden Pressure Plate
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:water> * 4, 50, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:water> * 4, 50, 4);
 // -
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:ic2distilledwater> * 3, 50, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:ic2distilledwater> * 3, 50, 4);
 // -
-CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:lubricant> * 1, 25, 4);
+//CuttingSaw.addRecipe(<minecraft:wooden_pressure_plate> * 2, null, <minecraft:wooden_slab:*>, <liquid:lubricant> * 1, 25, 4);
 
 // --- Stone Pressure Plate
 CuttingSaw.addRecipe(<minecraft:stone_pressure_plate> * 2, null, <minecraft:stone_slab>, <liquid:water> * 4, 50, 8);
@@ -3309,6 +3320,16 @@ Mixer.addRecipe(<minecraft:fire_charge>, [<minecraft:blaze_powder> * 3, <minecra
 
 
 Slicer.addRecipe(<minecraft:melon> * 8, <minecraft:melon_block>, <gregtech:gt.metaitem.01:32398> * 0, 100, 8);
+
+
+
+// --- Burn Values ---
+
+
+
+// --- Pressure Plate
+furnace.setFuel(<minecraft:wooden_pressure_plate>, 75);
+
 
 
 
