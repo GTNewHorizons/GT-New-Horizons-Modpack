@@ -5,11 +5,11 @@ import mods.thaumcraft.Arcane;
 import mods.thaumcraft.Research;
 
 // --- Vars ---
-val capThauminite = <ForbiddenMagic:WandCaps:4>;//insert dreamcraft item
-val capMana = <ForbiddenMagic:WandCaps:3>; //insert dreamcraft item
-val capTerra = <ForbiddenMagic:WandCaps:2>; //insert dreamcraft item
-val capVinteum = <ForbiddenMagic:WandCaps:1>; //insert dreamcraft item
-val capElementium = <ForbiddenMagic:WandCaps:5>; //insert dreamcraft item
+val capThauminite = <dreamcraft:item.WandCapThauminite>;
+val capMana = <dreamcraft:item.WandCapManaSteel>; 
+val capTerra = <dreamcraft:item.WandCapTerraSteel>; // awesome vis discount!
+val capVinteum = <dreamcraft:item.WandCapVinteum>;
+val capElementium = <dreamcraft:item.WandCapElementium>; 
 val primalCharm = <Thaumcraft:ItemResource:15>;
 
 // --- Adding Research ---
