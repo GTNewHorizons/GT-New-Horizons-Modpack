@@ -21,6 +21,11 @@ val Saw = <ore:craftingToolSaw>;
 
 // --- Removing Recipes ---
 
+// Remove "Pam's Harvest the Nether" crop to seed recipes
+recipes.remove(<harvestthenether:bloodleafseedItem>);
+recipes.remove(<harvestthenether:fleshrootseedItem>);
+recipes.remove(<harvestthenether:marrowberryseedItem>);
+recipes.remove(<harvestthenether:glowflowerseedItem>);
 
 
 
