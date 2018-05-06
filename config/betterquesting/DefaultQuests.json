@@ -70470,7 +70470,7 @@
     {
       "questID": 766,
       "name": "Let\u0027s get it crackin!",
-      "description": "Cracking oil will result in better by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT for advanced tier rockets. \n\nIf you add steam the amout of EU/t will be reduced by 50% and if you add hydrogen the output will be increased by 30%.",
+      "description": "Cracking oil will result in better by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT for advanced tier rockets. \n\nIf you add steam the amout of EU/t will be reduced by 50% and if you add hydrogen the output will be increased by 30%.\n\nHint: Only GT/Railcraft steam can used no ic2 steam.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70576,10 +70576,16 @@
               "Damage": 30001
             },
             {
-              "id": "IC2:itemCellEmpty",
+              "id": "IC2:itemFluidCell",
               "Count": 64,
               "OreDict": "",
-              "Damage": 14
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "steam",
+                  "Amount:4": 1000
+                }
+              }
             }
           ],
           "rewardID": "bq_standard:choice"
