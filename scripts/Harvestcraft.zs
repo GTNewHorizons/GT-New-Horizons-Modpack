@@ -175,6 +175,9 @@ recipes.remove(<harvestcraft:blueberryjuiceItem>);
 // --- Lemonade
 recipes.remove(<harvestcraft:lemonaideItem>);
 
+// Seeds
+recipes.remove(<harvestcraft:cottonseedItem>);
+
 
 
 // --- Adding Back Recipes ---
