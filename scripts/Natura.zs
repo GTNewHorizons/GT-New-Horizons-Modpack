@@ -260,8 +260,6 @@ furnace.remove(<minecraft:coal:1>, <*>);
 recipes.addShapeless(Cotton,
 [<harvestcraft:cottonItem>, <harvestcraft:cottonItem>]);
 
-// --- Cotton Seeds
-recipes.addShapeless(<Natura:barley.seed:1>, [<Natura:barleyFood:3>]);
 
 // --- Imp Leather
 recipes.addShaped(Leather, [
@@ -1210,8 +1208,6 @@ recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<harvestcraft:juicerIte
 // -
 recipes.addShapeless(<harvestcraft:blackberryjuiceItem>, [<harvestcraft:juicerItem>, <harvestcraft:blackberryItem>]);
 
-// --- Barley Seeds
-recipes.addShapeless(<Natura:barley.seed>, [<Natura:barleyFood>]);
 
 // --- Nether Furnace
 recipes.addShaped(<Natura:NetherFurnace>, [
