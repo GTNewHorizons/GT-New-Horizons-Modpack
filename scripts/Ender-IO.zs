@@ -919,3 +919,12 @@ FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.0
 
 // --- Binder Composite
 Pulverizer.addRecipe([<EnderIO:itemMaterial:2> * 9], <IC2:itemPartCFPowder>, [10000], 300, 2);
+
+
+
+// --- Tooltips ---
+
+
+
+// --- Untreated Frame (Forestry)
+<EnderIO:blockTravelAnchor>.addTooltip("Cooldown 5 seconds");
