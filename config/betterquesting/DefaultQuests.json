@@ -81255,7 +81255,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.metaitem.01",
@@ -81318,8 +81318,8 @@
         }
       ],
       "preRequisites": [
-        79,
-        1244
+        1244,
+        1415
       ]
     },
     {
@@ -136584,6 +136584,95 @@
       "preRequisites": [
         1413
       ]
+    },
+    {
+      "questID": 1415,
+      "name": "Scheelite, Tungstate Mars Moons",
+      "description": "Tungstensteel is the material you need but first go find some scheelite and tungstate mix on Mars moon Deimos. Look at Y 20-60.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 841
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 910
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 841
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        186
+      ]
     }
   ],
   "questLines": [
@@ -139044,12 +139133,12 @@
         },
         {
           "id": 186,
-          "x": 144,
+          "x": 156,
           "y": 240
         },
         {
           "id": 187,
-          "x": 144,
+          "x": 156,
           "y": 204
         },
         {
@@ -139129,7 +139218,7 @@
         },
         {
           "id": 204,
-          "x": 144,
+          "x": 192,
           "y": 276
         },
         {
@@ -139189,7 +139278,7 @@
         },
         {
           "id": 861,
-          "x": 108,
+          "x": 132,
           "y": 312
         },
         {
@@ -139360,6 +139449,11 @@
         {
           "id": 1408,
           "x": 72,
+          "y": 276
+        },
+        {
+          "id": 1415,
+          "x": 156,
           "y": 276
         }
       ]
