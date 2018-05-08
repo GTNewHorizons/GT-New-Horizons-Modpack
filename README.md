@@ -89,7 +89,7 @@ delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
  
-Dif to build EU Server (whitelist)<BR>
+Dig to build EU Server (whitelist)<BR>
 https://www.digtobuild.com/<BR>
 s1.digtobuild.com:25560<BR>
 
