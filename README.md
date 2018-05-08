@@ -89,8 +89,8 @@ delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
  
-Dirt Huts EU Server (whitelist)<BR>
-http://dirthuts.com<BR>
+Dif to build EU Server (whitelist)<BR>
+https://www.digtobuild.com/<BR>
 s1.digtobuild.com:25560<BR>
 
 
@@ -122,13 +122,6 @@ Discord Server:  https://discord.gg/cBQUpSr<BR>
 MyFTB Public (no whitelist)<BR>
 https://myftb.de/<BR>
 gtnewhorizons.myftb.de<BR>
-
-
-## France Server:<BR>
-
-Trilex Server Public (whitelist)<BR>
-mc.trilexnet.com<BR>
-Discord Server: https://discord.gg/0m5HHKEswEbYn8nb<BR>
 
 
 ## Official Links
