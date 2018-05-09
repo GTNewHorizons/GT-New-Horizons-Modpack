@@ -20721,7 +20721,7 @@
     {
       "questID": 233,
       "name": "Getting shards",
-      "description": "Now that you found all six primal types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer.",
+      "description": "Now that you found all six primal types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -22407,7 +22407,7 @@
     {
       "questID": 252,
       "name": "This is the end...",
-      "description": "...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you\u0027ve already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither spawning right next to someone. Be careful, my friend...",
+      "description": "...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you\u0027ve already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -24039,7 +24039,7 @@
     {
       "questID": 274,
       "name": "Reactor material",
-      "description": "This stuff is interesting... Maybe I can use it as wand conductor?",
+      "description": "This stuff is interesting... Maybe I can use it as a wand conductor?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26751,7 +26751,7 @@
     {
       "questID": 302,
       "name": "Useful plant life",
-      "description": "While regular plants are mostly used to make food, you are wondering if you could get some... \"more special\" plant life going...",
+      "description": "While regular plants are mostly used to make food, you are wondering if you could get some... \"more useful\" plant life going...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29241,7 +29241,7 @@
     },
     {
       "questID": 332,
-      "name": "Brewers start",
+      "name": "Fire burn and...",
       "description": "In order to get started with your basic witchery needs, you need a witches oven. It\u0027s used to get the most basic ingredients for your recipes: Fumes.",
       "isMain": false,
       "isSilent": false,
@@ -29401,7 +29401,7 @@
     },
     {
       "questID": 334,
-      "name": "A cauldron?",
+      "name": "...Cauldron bubble",
       "description": "The second thing you\u0027ll need is a cauldron. It is used to craft most of the basic items, like mutandis.",
       "isMain": false,
       "isSilent": false,
@@ -30309,7 +30309,7 @@
     {
       "questID": 345,
       "name": "Bloodlust: Seeping shoes",
-      "description": "Who needs an antidote?",
+      "description": "Who needs an antidote? Now with free fertilizer!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -30583,7 +30583,7 @@
     },
     {
       "questID": 349,
-      "name": "Be a vampire; Like a sir",
+      "name": "Be a vampire; Dress like a fancy person",
       "description": "Sometimes it can be troublesome to get fancy clothing. However, if you prove yourself worthy, you get a set for free.",
       "isMain": false,
       "isSilent": false,
@@ -30945,7 +30945,7 @@
     {
       "questID": 353,
       "name": "A problem that matters",
-      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow... \nBut... How?",
+      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a massive star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow... \nBut... How?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -31413,7 +31413,7 @@
     {
       "questID": 360,
       "name": "A casing",
-      "description": "I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals we know and none of them meet the requirements. I heard you have access to the space? Can you try to find a suitable material while you\u0027re out there?",
+      "description": "I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals we know and none of them meet the requirements. I heard you have access to outer space? Can you try to find a suitable material while you\u0027re out there?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -32073,7 +32073,7 @@
     {
       "questID": 371,
       "name": "We need to control it",
-      "description": "The problem is, that the immense power of this dust is released all at once. We need something to control the vast amount of energies. I noticed that the dust starts to glow when it gets near an aura node. Maybe Thaumaturgy has the solution?",
+      "description": "The problem is that the immense power of this dust is released all at once. We need something to control the vast amount of energies. I noticed that the dust starts to glow when it gets near an aura node. Maybe Thaumaturgy has the solution?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -32274,7 +32274,7 @@
     {
       "questID": 375,
       "name": "An interesting material",
-      "description": "This metal has quite interesting properties. It seems, that it has absorbed some of the energy that exists in the End. While ender pearls are quite fragile, this metal is a lot more durable. However, the absorbed energy is not enough to teleport things around. But you might find a solution for this.",
+      "description": "This metal has quite interesting properties. It seems that it has absorbed some of the energy that exists in the End. While ender pearls are quite fragile, this metal is a lot more durable. However, the absorbed energy is not enough to teleport things around. But you might find a solution for this.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -32882,7 +32882,7 @@
     {
       "questID": 385,
       "name": "Draconic... Like... Dragon?",
-      "description": "Maybe you where looking for the right things in the wrong place. As this dust obviously origins from dragons, the best thing to do now is to find answers in the dimension of dragons: The End.",
+      "description": "Maybe you where looking for the right things in the wrong place. As this dust obviously comes from dragons, the best thing to do now is to find answers in the dimension of dragons: The End.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33097,7 +33097,7 @@
     {
       "questID": 389,
       "name": "Draconic evolution",
-      "description": "Don\u0027t you hate it to manually compress all those tiny piles? Let\u0027s automate this process! A combination of a typefilter, a chest buffer (super buffer in HV) and a packager frees you from that annoying task. The chestbuffer can hold up to 9 tiny piles and the super buffer can hold all your tiny dusts and you can set its mode with a screwdriver on the output side. Set it to 9 and let the packager handle the rest.",
+      "description": "I found a way to combine technology and magic into something fantastic. A shiny blue emblem that emits immense amount of energy. I've decided to call it the draconic core. Make one for yourself!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -35523,7 +35523,7 @@
     {
       "questID": 418,
       "name": "Spell foci",
-      "description": "You have nine basic elements and each have a focus, an item that represents them. You place this focus in your altar next to the spell table in order for your magic to flow through it and the paradigm.",
+      "description": "There are nine basic elements and each has a focus, an item that represents them. You place this focus in your altar next to the spell table in order for your magic to flow through it and the paradigm.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37023,7 +37023,7 @@
     {
       "questID": 435,
       "name": "Bound tools: Shovel",
-      "description": "Ever wanted to clear out a large terrain with dirt, gravel and sand? Why not let demons do it? This shovel, imbued with the soul of a demon will unleash the power on your will. But be warned: The demon you\u0027re about to summon with this is thirsty, and it costs a lot of LP to make use of it, so make sure your LP pool is full!",
+      "description": "Ever wanted to clear out a large terrain with dirt, gravel and sand? Why not let demons do it? This shovel, imbued with the soul of a demon will unleash the power by your will. But be warned: The demon you\u0027re about to summon with this is thirsty, and it costs a lot of LP to make use of it, so make sure your LP pool is full!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37290,7 +37290,7 @@
     {
       "questID": 438,
       "name": "Complex spell system",
-      "description": "Unlike the simple spells with foci and paradigm, the complex spell system is incredible... complex. There are way too much combinations to cover them here, so it\u0027s advised to look for the knowledge in other places. However, with the items from this quest, you are able to craft a simple mining spell.",
+      "description": "Unlike the simple spells with foci and paradigm, the complex spell system is incredibly...complex. There are way too much combinations to cover them here, so it\u0027s advised to look for the knowledge in other places. However, with the items from this quest, you are able to craft a simple mining spell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37439,7 +37439,7 @@
     {
       "questID": 439,
       "name": "Steam \u003e Tier 2",
-      "description": "Three steam backpacks give a better one \u003d Tier 2.",
+      "description": "Three steam lootbags give a better one \u003d Tier 2.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37499,7 +37499,7 @@
     {
       "questID": 440,
       "name": "Oak trees are not apple trees",
-      "description": "Oak trees which give apples?  Who the hell added this to minecraft? You find a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.",
+      "description": "Oak trees which give apples?  Who the hell added this to minecraft? You found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37805,7 +37805,7 @@
     {
       "questID": 443,
       "name": "Tier 2 \u003e Tier 3",
-      "description": "Three Tier 2 backpacks give a better one \u003d Tier 3.",
+      "description": "Three Tier 2 lootbags give a better one \u003d Tier 3.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37975,7 +37975,7 @@
     {
       "questID": 445,
       "name": "Tier 3 \u003e Tier 4",
-      "description": "Three Tier 3 backpacks give a better one \u003d Tier 4",
+      "description": "Three Tier 3 lootbags give a better one \u003d Tier 4",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38137,7 +38137,7 @@
     {
       "questID": 447,
       "name": "Tier 4 \u003e Tier 5",
-      "description": "Three Tier 4 backpacks give a better one \u003d Tier 5.",
+      "description": "Three Tier 4 lootbags give a better one \u003d Tier 5.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38272,7 +38272,7 @@
     {
       "questID": 449,
       "name": "Tier 5 \u003e Tier 6",
-      "description": "Three Tier 5 backpacks give a better one \u003d Tier 6.",
+      "description": "Three Tier 5 lootbags give a better one \u003d Tier 6.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38332,7 +38332,7 @@
     {
       "questID": 450,
       "name": "Your first long range weapon",
-      "description": "Since you can\u0027t make any vanilla bow before LV and Tinkers weapons are not in this Tier you find a way to make a spear out of sticks, leather and a string. Get one because some infernal monsters are easier to kill with a long range weapon.",
+      "description": "Since you can\u0027t make any vanilla bow before LV and Tinkers weapons are not in this Tier, you find a way to make a spear out of sticks, leather and a string. Get one because some infernal monsters are easier to kill with a long range weapon.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38631,7 +38631,7 @@
     },
     {
       "questID": 455,
-      "name": "Trigger Unknwon Crystal",
+      "name": "Trigger Unknown Crystal",
       "description": "Triggered by finding a \"Mysterious Crystal\".",
       "isMain": false,
       "isSilent": false,
@@ -39437,8 +39437,8 @@
     },
     {
       "questID": 468,
-      "name": "Trigger Thuaminite Nugget",
-      "description": "Triggers if you get Thaumite Nuggets.",
+      "name": "Trigger Thauminite Nugget",
+      "description": "Triggers if you get Thauminite Nuggets.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40230,7 +40230,7 @@
     {
       "questID": 473,
       "name": "Making a better sword",
-      "description": "Now it\u0027s time to make your first tinkers sword. First you have to make blade, hand guard and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword.",
+      "description": "Now it\u0027s time to make your first tinkers sword. First you have to make blade, hand guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41040,7 +41040,7 @@
     {
       "questID": 480,
       "name": "Malachite",
-      "description": "Another copper source  is \"malachite\" which can be found between Y level 10 and 40. This vein contains more iron ore variants like \"brown limonite\", \"yellow limonite\" and \"banded iron ore\".\n\nHint:\nTo see where a special ore can be found click the raw ore in nei and it will show your more details. Works with small ores too.",
+      "description": "Another copper source  is \"malachite\" which can be found between Y level 10 and 40. This vein contains more iron ore variants like \"brown limonite\", \"yellow limonite\" and \"banded iron ore\".\n\nHint:\nTo see where a special ore can be found click the raw ore in nei and it will show you more details. Works with small ores too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41177,7 +41177,7 @@
     {
       "questID": 482,
       "name": "Animal farms",
-      "description": "Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you coul simply make a farm to get a decent amount of leather, wool and meat.",
+      "description": "Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat. Make sure you don\u0027t put too many animals in the pen or they will overcrowd and kill each other.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41532,7 +41532,7 @@
     {
       "questID": 484,
       "name": "Can you hear the carrots grow?",
-      "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will trade you some bone meal.",
+      "description": "Tired of waiting since your carrots grow sooooo slow?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will trade you some bone meal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41745,7 +41745,7 @@
     {
       "questID": 486,
       "name": "Tanned leather",
-      "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some bound leather from four pieces of leather, some strings and a woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather.",
+      "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some bound leather from four pieces of leather, some strings and a woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather. Stockpile some for later.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42282,7 +42282,7 @@
     {
       "questID": 490,
       "name": "Horseback riding",
-      "description": "Are you ready for a small trip? With your new lunch box, saddle, lead and of course a horse we can start a small journey.",
+      "description": "Are you ready for a small trip? With your new lunch box, saddle, lead and of course a horse we can start a small journey. Be sure to make paths over water, horses don\u0027t like going over deep water.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42375,7 +42375,7 @@
     {
       "questID": 491,
       "name": "Sleeping outside",
-      "description": "Carrying the bed with you all the time the looks very funny. Why don\u0027t you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. Be warned: If you play on a server then you\u0027d better sleep below Y level 128, as nights are very cold in the mountains...",
+      "description": "Carrying the bed with you all the time the looks very funny. Why don\u0027t you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. This way if you die, you'll be right at home! Be warned: If you play on a server then you\u0027d better sleep below Y level 128, as nights are very cold in the mountains...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42767,7 +42767,7 @@
     {
       "questID": 494,
       "name": "Redstone",
-      "description": "If you didnt\u0027t find any Redstone veins, it is quite important to look for one now. Try your luck at Y level 5-40.",
+      "description": "If you didnt\u0027t find any Redstone veins yet, it is quite important to look for one now. Try your luck at Y level 5-40.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42980,7 +42980,7 @@
     {
       "questID": 496,
       "name": "How to make rubber",
-      "description": "Making rubber is now more complicated, you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn\u0027t it? Found on Y level 5-20.",
+      "description": "Making rubber is now more complicated - you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn\u0027t it? Found on Y level 5-20. Later on you can get sulfur from chemicals like hydrogren sulfide or pyrite.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -43638,7 +43638,7 @@
     {
       "questID": 503,
       "name": "Analyze them all",
-      "description": "Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties.",
+      "description": "Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties. This kit isn't very good, but waste not, want not.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43869,7 +43869,7 @@
     {
       "questID": 506,
       "name": "To play god",
-      "description": "In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge, that seems to be available only on Mars. You will be able to continue, once you\u0027ve arrived there.\n\nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you will understand why you should look into the Genetics mod.",
+      "description": "In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be available only on Mars. You will be able to continue, once you\u0027ve arrived there.\n\nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you will understand why you should look into the Genetics mod.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44323,7 +44323,7 @@
     {
       "questID": 510,
       "name": "Diamondware",
-      "description": "Also known as labware. Be prepared. In order to do serious bee-work, you need stacks of diamonds. I\u0027m not joking, stacks!",
+      "description": "Also known as labware. Be prepared. In order to do serious bee-work, you need stacks of diamonds. I\u0027m not joking, stacks! Better start working on that diamond bee!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45097,7 +45097,7 @@
     {
       "questID": 521,
       "name": "Only the Best: Fertility 4",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Bees bees everywhere!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45340,7 +45340,7 @@
     {
       "questID": 524,
       "name": "Only the Best: Speed Fastest",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Buzz buzz buzz, working hard and really buzzing!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45502,7 +45502,7 @@
     {
       "questID": 526,
       "name": "Only the Best: Rain",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Beekeeping in the rain!  Make sure to keep your GT machines covered!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45583,7 +45583,7 @@
     {
       "questID": 527,
       "name": "Only the Best: Day and Night",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Bee working day and night, all night and all day long!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45664,7 +45664,7 @@
     {
       "questID": 528,
       "name": "Only the Best: Cave",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Bees with Cave can work in housing that is covered - by more housing!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45895,7 +45895,7 @@
     {
       "questID": 531,
       "name": "Scanning bees, crops and moooooore!",
-      "description": "Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production. Data sticks with raw prospecting data need a scanner too.",
+      "description": "Automate your bee, sapling, or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production. Data sticks with raw prospecting data need a scanner too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45969,7 +45969,7 @@
     {
       "questID": 532,
       "name": "Diesel, oil or maybe creosote?",
-      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source.",
+      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46214,7 +46214,7 @@
     {
       "questID": 535,
       "name": "Redstone, early game processing",
-      "description": "Are you wondering how to process redstone without any macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it. You will get pure redstone dust for your red alloy ingots.",
+      "description": "Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack. You will get pure redstone dust for your red alloy ingots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46477,7 +46477,7 @@
     {
       "questID": 537,
       "name": "Time to kill (Witch)",
-      "description": "Witches are always infernal and very dangerous. Be careful since they throw potions at you.",
+      "description": "Witches bring stitches because they are always infernal and very dangerous. Be careful since they throw potions at you.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46936,8 +46936,8 @@
     },
     {
       "questID": 541,
-      "name": "A new alloy Cobalt Brass",
-      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027cobalt brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
+      "name": "A new alloy - Cobalt Brass",
+      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027cobalt brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47154,7 +47154,7 @@
     {
       "questID": 543,
       "name": "C9H8O4...NaCl...H2O...",
-      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dye? Then it\u0027s time to craft a chemical reactor.",
+      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dyes? Then it\u0027s time to craft a chemical reactor.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47368,7 +47368,7 @@
     {
       "questID": 546,
       "name": "Hello Baron, how is your black gold today?",
-      "description": "During your travels you may have seen some of these huge oil wells. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a combustion generator or be refined. \nMining pipes are needed for pumping the oil.\n\nBring a combustion generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)",
+      "description": "During your travels you may have seen some of these huge oil spouts. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a combustion generator or be refined. \nMining pipes are needed for pumping the oil.\n\nBring a combustion generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)\nTaller spouts have more oil!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -48023,7 +48023,7 @@
     {
       "questID": 554,
       "name": "Hey DJ, Mix it!",
-      "description": "The mixer is a very useful device. You can mix all kind of fluid and items. (Useful to prevent dust from falling to the ground when crafting.)",
+      "description": "The mixer is a very useful device. You can mix all kinds of fluids and items. Useful to prevent dust from falling to the ground when crafting - most mixer recipes give a slight boost over hand crafting!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48171,7 +48171,7 @@
     {
       "questID": 556,
       "name": "Glyceryl trini...... what?",
-      "description": "Kids, today we will make some glyceryl trinitrate with some glycerol.\n    - Chemistry 101",
+      "description": "Kids, today we will make some glyceryl trinitrate (aka Nitroglycerin) with some glycerol.\n    - Chemistry 101",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48339,8 +48339,8 @@
     },
     {
       "questID": 558,
-      "name": "Where can I put all the items in?",
-      "description": "After you make your first steel you\u0027re able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it\u0027s a bit bigger than a small chest.",
+      "name": "What can I put all these items in?",
+      "description": "After you make your first steel you\u0027re able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it\u0027s a bit bigger than a small chest. Later you can make it even larger. You can put one on your back and set it to automatically pick up stuff. The maximum you can have in your inventory at once is 4.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48651,7 +48651,7 @@
     {
       "questID": 560,
       "name": "Railcraft steam power",
-      "description": "As an alternative way to steam you can use the railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.",
+      "description": "As an alternative way to make steam you can use the railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48765,7 +48765,7 @@
     {
       "questID": 561,
       "name": "Liquid fuelled firebox",
-      "description": "Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.\nDiesel, ethanol, creosote and biofuel all work well here.",
+      "description": "Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.\nDiesel, ethanol, creosote and biodiesel all work well here.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
