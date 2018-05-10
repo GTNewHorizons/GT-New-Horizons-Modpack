@@ -201,8 +201,8 @@ recipes.addShaped(<CarpentersBlocks:blockCarpentersBarrier>, [
 [WoodScrew, Screwdriver, WoodScrew]]);
 
 // --- Carpenters Pressure Plate
-recipes.addShaped(<CarpentersBlocks:blockCarpentersPressurePlate> *, [
-[WoodScrew, Hammer, WoodScrew]
+recipes.addShaped(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, [
+[WoodScrew, Hammer, WoodScrew],
 [CarpentersBlock, <ore:springAnyIron>, CarpentersBlock],
 [WoodScrew, Screwdriver, WoodScrew]]);
 
@@ -314,9 +314,9 @@ Assembler.addRecipe(<CarpentersBlocks:itemCarpentersTile> * 2, <CarpentersBlocks
 Assembler.addRecipe(<CarpentersBlocks:itemCarpentersDoor>, CarpentersBlock, <minecraft:wooden_door>, 150, 16);
 
 // --- Carpenters Pressure Plate
-Assembler.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, CarpentersBlock, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, CarpentersBlock * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, CarpentersBlock, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, CarpentersBlock * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 
 

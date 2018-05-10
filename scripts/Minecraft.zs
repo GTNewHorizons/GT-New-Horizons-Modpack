@@ -452,12 +452,6 @@ recipes.removeShaped(<minecraft:bookshelf>);
 //Wooden PressurePlate
 recipes.remove(<minecraft:wooden_pressure_plate>);
 
-// --- Wighten Pressure Plate
-recipes.remove(<minecraft:stone_pressure_plate>);
-
-// --- Heavy Pressure Plate
-recipes.remove(<minecraft:light_weighted_pressure_plate>);
-
 // --- Saddle
 recipes.remove(<minecraft:saddle>);
 
@@ -1161,18 +1155,6 @@ recipes.addShaped(<minecraft:wooden_pressure_plate> * 2, [
 [<ore:screwWood>, HHammer, <ore:screwWood>],
 [<gregtech:gt.metaitem.02:32470>, <ore:springAnyIron>, <gregtech:gt.metaitem.02:32470>],
 [<ore:screwWood>, Screwdriver, <ore:screwWood>]]);
-
-// --- Wighten Pressure Plate
-recipes.addShaped(<minecraft:light_weighted_pressure_plate>, [
-[<ore:screwSteel>, HHammer, <ore:screwSteel>],
-[<gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:24305>, <gregtech:gt.metaitem.01:17086>],
-[<ore:screwSteel>, Screwdriver, <ore:screwSteel>]]);
-
-// --- Heavy Pressure Plate
-recipes.addShaped(<minecraft:heavy_weighted_pressure_plate>, [
-[<ore:screwSteel>, HHammer, <ore:screwSteel>],
-[<gregtech:gt.metaitem.01:17032>, <gregtech:gt.metaitem.02:24305>, <gregtech:gt.metaitem.01:17032>],
-[<ore:screwSteel>, Screwdriver, <ore:screwSteel>]]);
 
 //Glass Pane
 recipes.addShapeless(<minecraft:glass_pane> * 2, [Saw, Glass]);
@@ -3247,12 +3229,6 @@ Assembler.addRecipe(<minecraft:wooden_pressure_plate> * 2, <gregtech:gt.metaitem
 Assembler.addRecipe(<minecraft:stone_pressure_plate> * 2, <minecraft:stone_slab> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
 Assembler.addRecipe(<minecraft:stone_pressure_plate> * 2, <minecraft:stone_slab> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
-
-// --- Wighten Pressure Plate
-Assembler.addRecipe(<minecraft:light_weighted_pressure_plate> * 2, <gregtech:gt.metaitem.01:17086> * 2, <gregtech:gt.metaitem.02:24305>, 200, 16);
-
-// --- Heavy Pressure Plate
-Assembler.addRecipe(<minecraft:heavy_weighted_pressure_plate>, <gregtech:gt.metaitem.01:17032> * 2, <gregtech:gt.metaitem.02:24305>, 200, 16);
 
 
 

@@ -1713,69 +1713,69 @@ Assembler.addRecipe(<Natura:natura.bow.darkwood>, <Natura:natura.stick:11> * 3, 
 Assembler.addRecipe(<Natura:natura.bow.fusewood>, <Natura:natura.stick:12> * 3, <Natura:barleyFood:7> * 3, 400, 16);
 
 // --- Eucalyptus Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.eucalyptus> * 2, <Natura:plankSlab1>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.eucalyptus> * 2, <Natura:plankSlab1> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.eucalyptus> * 2, <Natura:plankSlab1>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.eucalyptus> * 2, <Natura:plankSlab1> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Sakura Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.sakura> * 2, <Natura:plankSlab1:1>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.sakura> * 2, <Natura:plankSlab1:1> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.sakura> * 2, <Natura:plankSlab1:1>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.sakura> * 2, <Natura:plankSlab1:1> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Ghost Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.ghostwood> * 2, <Natura:plankSlab1:2>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.ghostwood> * 2, <Natura:plankSlab1:2> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.ghostwood> * 2, <Natura:plankSlab1:2>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.ghostwood> * 2, <Natura:plankSlab1:2> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Red Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.redwood> * 2, <Natura:plankSlab1:3>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.redwood> * 2, <Natura:plankSlab1:3> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.redwood> * 2, <Natura:plankSlab1:3>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.redwood> * 2, <Natura:plankSlab1:3> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Blood Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.bloodwood> * 2, <Natura:plankSlab1:4>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.bloodwood> * 2, <Natura:plankSlab1:4> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.bloodwood> * 2, <Natura:plankSlab1:4>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.bloodwood> * 2, <Natura:plankSlab1:4> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- HopSeed Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.hopseed> * 2, <Natura:plankSlab1:5>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.hopseed> * 2, <Natura:plankSlab1:5> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.hopseed> * 2, <Natura:plankSlab1:5>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.hopseed> * 2, <Natura:plankSlab1:5> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Maple Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.maple> * 2, <Natura:plankSlab1:6>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.maple> * 2, <Natura:plankSlab1:6> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.maple> * 2, <Natura:plankSlab1:6>, <gregtech:gt.metaitem.02:24304>, 100, 8); 
+Assembler.addRecipe(<Natura:pressureplate.maple> * 2, <Natura:plankSlab1:6> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8); 
 
 // --- Silverbell Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.silverbell> * 2, <Natura:plankSlab1:7>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.silverbell> * 2, <Natura:plankSlab1:7> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.silverbell> * 2, <Natura:plankSlab1:7>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.silverbell> * 2, <Natura:plankSlab1:7> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Amaranth Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.amaranth> * 2, <Natura:plankSlab2>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.amaranth> * 2, <Natura:plankSlab2> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.amaranth> * 2, <Natura:plankSlab2>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.amaranth> * 2, <Natura:plankSlab2> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Tiger Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.tiger> * 2, <Natura:plankSlab2:1>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.tiger> * 2, <Natura:plankSlab2:1> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.tiger> * 2, <Natura:plankSlab2:1>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.tiger> * 2, <Natura:plankSlab2:1> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Willow Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.willow> * 2, <Natura:plankSlab2:2>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.willow> * 2, <Natura:plankSlab2:2> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.willow> * 2, <Natura:plankSlab2:2>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.willow> * 2, <Natura:plankSlab2:2> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Dark Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.darkwood> * 2, <Natura:plankSlab2:3>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.darkwood> * 2, <Natura:plankSlab2:3> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.darkwood> * 2, <Natura:plankSlab2:3>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.darkwood> * 2, <Natura:plankSlab2:3> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Fuse Wood Pressure Plate
-Assembler.addRecipe(<Natura:pressureplate.fusewood> * 2, <Natura:plankSlab2:4>, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.fusewood> * 2, <Natura:plankSlab2:4> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<Natura:pressureplate.fusewood> * 2, <Natura:plankSlab2:4>, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:pressureplate.fusewood> * 2, <Natura:plankSlab2:4> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Eucalyptus Button
 CuttingSaw.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:water> * 4, 50, 4);
