@@ -201,7 +201,10 @@ recipes.addShaped(<CarpentersBlocks:blockCarpentersBarrier>, [
 [WoodScrew, Screwdriver, WoodScrew]]);
 
 // --- Carpenters Pressure Plate
-recipes.addShapeless(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, [Saw, CarpentersBlock]);
+recipes.addShaped(<CarpentersBlocks:blockCarpentersPressurePlate> *, [
+[WoodScrew, Hammer, WoodScrew]
+[CarpentersBlock, <ore:springAnyIron>, CarpentersBlock],
+[WoodScrew, Screwdriver, WoodScrew]]);
 
 // --- Carpenters Button
 recipes.addShapeless(<CarpentersBlocks:blockCarpentersButton>, [Saw, <CarpentersBlocks:blockCarpentersPressurePlate>]);
@@ -310,18 +313,18 @@ Assembler.addRecipe(<CarpentersBlocks:itemCarpentersTile> * 2, <CarpentersBlocks
 // ---  Carpenters Door
 Assembler.addRecipe(<CarpentersBlocks:itemCarpentersDoor>, CarpentersBlock, <minecraft:wooden_door>, 150, 16);
 
+// --- Carpenters Pressure Plate
+Assembler.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, CarpentersBlock, <gregtech:gt.metaitem.02:24032>, 100, 8);
+// -
+Assembler.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, CarpentersBlock, <gregtech:gt.metaitem.02:24304>, 100, 8);
+
+
 
 
 
 
 // --- Cutting Saw Recipes ---
 
-
-
-// --- Carpenters Pressure Plate
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:water> * 20, 100, 30);
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:ic2distilledwater> * 10, 100, 30);
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:lubricant> * 2, 50, 30);
 
 
 // --- Carpenters Button
