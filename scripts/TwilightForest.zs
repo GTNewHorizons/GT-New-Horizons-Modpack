@@ -27,7 +27,7 @@ recipes.remove(CarminiteReactor);
 recipes.removeShapeless(<TwilightForest:item.fieryIngot>);
 
 // --- Magic Map Focus
-recipes.remove(<TwilightForest:item.magicMapFocus>);
+//recipes.remove(<TwilightForest:item.magicMapFocus>);
 
 // --- Magic Map
 recipes.remove(<TwilightForest:item.emptyMagicMap>);
