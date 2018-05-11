@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.3.0 is out 09.03.2018
+Version 2.0.4.0 Beta is out 11.05.2018
 
 [![Build Status](http://jenkins.usrv.de:8081/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.de:8081/job/GTNewHorizons%20Configs/)
 
@@ -147,18 +147,16 @@ you find it in your resource folder<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU 1.2.3.a<BR>
 * Anger Mod 0.6<BR>
-* AppleCore 3.1.1<BR>
+* AppleCore 1.3.9<BR>
 * Applied Energistics rv3beta17<BR>
 * Aqua Creeper 1.0.1<BR>
-* Architecture Craft 1.7.1<BR>
-* Auto Packer 1.5.9a<BR>
+* Architecture Craft 1.7.2<BR>
 * Automagy 0.28.2<BR>
 * Avaritia 1.14custom<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
-* Berries ++ 1.2.6c<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
 * Better Questing 1.0.173custom<BR>
@@ -166,7 +164,7 @@ you find it in your resource folder<BR>
 * Bibliowoods 1.9/1.7/1.5<BR>
 * Binnie Mods 2.0-23<BR>
 * Biomes o Plenty 2.1.0.2308<BR>
-* BlockLimiter 0.51a<BR>
+* BlockLimiter 0.52<BR>
 * Blood Arsenal 1.2.7<BR>
 * BloodMagic 1.3.3.24<BR>
 * Bloody Quest 1.1.0<BR>
@@ -175,17 +173,17 @@ you find it in your resource folder<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks 3.3.8.1<BR>
 * Catwalk Mod 1.1.0<BR>
+* Chisel 2.5.1.44<BR>
 * Chisel Tones 1.0-3<BR>
 * Command Block BQ Mod 1<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics 1.6.5<BR>
 * Craft Tweaker 3.0.12<BR>
+* Crops ++ 1.2.8<BR>
 * Custom Main Menu 1.9.2<BR>
-* Datrev Scanner Mod 1.4custom<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2l<BR>
 * Electro Magic Tools 1.2.7.1<BR>
-* Enchiridion 2.0.2a<BR>
 * Ender IO 2.3.0.432<BR>
 * Ender Storage 1.4.7.38<BR>
 * Ender Zoo 1.0.15.32<BR>
@@ -202,26 +200,24 @@ you find it in your resource folder<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
 * Gadomancy 1.0.7.3<BR>
-* Galacticraft-Planets 3.0.12.503<BR>
-* GalacticraftCore 3.0.12.503<BR>
+* Galacticraft-Planets 3.0.12.504<BR>
+* GalacticraftCore 3.0.12.504<BR>
 * GalactiGreg 0.9.8<BR>
-* Galaxy Space 1.1.3a<BR>
+* Galaxy Space 1.1.3b<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.20<BR>
-* GT Scanner Mod 1.4<BR>
-* GT Ore Nei Plugin 1.0.5b<BR>
-* GT New Horizons Core Mod 1.5.18<BR>
-* GT++ 1.7.0-pre8-final<BR>
+* Gregtech 5.09.32.23<BR>
+* GT Scanner Mod 1.4,2<BR>
+* GT Ore Nei Plugin 1.0.6<BR>
+* GT New Horizons Core Mod 1.5.24<BR>
+* GT++ 1.7.0-pre11-final<BR>
 * GTTweaker 1.1.1<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
 * Holo Inventory 1.9.1.124<BR>
 * Hunger Overhaul 1.0.2<BR>
-* Chisel 2.5.1.44<BR>
-* Chisel Tones 1.0.3<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
-* IguanaTinkerTweaks 2.1.6b<BR>
+* IguanaTinkerTweaks 2.1.2<BR>
 * Industrial Craft 2 2.2.2.828a<BR>
 * Industrial Craft 2 Nei Plugin 1.1.0<BR>
 * Infernal Mobs 1.6.6<BR>
@@ -246,7 +242,7 @@ you find it in your resource folder<BR>
 * Nodal Mechanics 1.1-19<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks 1.6.753<BR>
-* Open Computers 1.7.1 Build 1127<BR>
+* Open Computers 1.7.2 Build 1166<BR>
 * Open Modular Turrets 2.2.10.238<BR>
 * Open Peripheral Addons 0.6.249<BR>
 * Open Peripheral Core 1.4.280<BR>
@@ -282,22 +278,22 @@ you find it in your resource folder<BR>
 * Steve's Factory Manager Addon 0.10.16<BR>
 * Storage Drawers 1.10.9<BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
-* Supeer Solar Panel 1.1.2<BR>
-* Super Tic 1.0<BR>
+* Super Solar Panel 1.1.2<BR>
+* Super Tic 1.2<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.3<BR>
+* Tec Tech 3.6.5<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
 * Thaumic Bases 1.4.17.0<BR>
-* Thaumic Energistics 1.0.0.5<BR>
+* Thaumic Energistics 1.1.2.0<BR>
 * Thaumic Exploration 1.1.73<BR>
 * Thaumic Horizon 1.1.9<BR>
 * Thaumic Machina 0.2.1<BR>
-* Thaumic Tinkerer 2.5.554-GTNH<BR>
+* Thaumic Tinkerer 2.5.555-GTNH<BR>
 * TiCTooltips 1.2.5<BR>
-* Tinker's Construct 1.8.9.11-GTNH<BR>
+* Tinker's Construct 1.8.9.12-GTNH<BR>
 * Tinker's Gregworks 1.0.18<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks 02.14.106<BR>
@@ -311,7 +307,7 @@ you find it in your resource folder<BR>
 * Waila Harvestability 1.1.6<BR>
 * Waila Plugins 0.2.0.25<BR>
 * Wawla 1.0.5.120<BR>
-* Warp Theory 1.0h dev<BR>
+* Warp Theory 1.0i dev<BR>
 * Wireless Redstone CBE 1.4.1.11<BR>
 * Witchery 0.24.1<BR>
 * Ztones 2.2.2custom<BR>
@@ -329,14 +325,14 @@ you find it in your resource folder<BR>
 * Ender Core 0.2.0.39<BR>
 * InpureCore 1.0.0B9-62<BR>
 * Malisis Core 0.14.3<BR>
-* MicdoodleCore 3.0.12.503<BR>
+* MicdoodleCore 3.0.12.504<BR>
 * Mantle 0.3.2b<BR>
 * MrTJPCore 1.1.0.33<BR>
 * Open Mods Lib 0.10.465<BR>
 * p455w0rdslib 1.0.4<BR>
 * Player api 1.4<BR>
 * Wanion Lib 1.8<BR>
-* YamCore 0.5.77<BR>
+* YamCore 0.5.78<BR>
 * Yuuto Lib 1.0.3<BR>
 
 ---
