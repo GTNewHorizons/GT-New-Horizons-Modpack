@@ -99,19 +99,19 @@ recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({wearableData: {
 // --- Bat Backpack
 recipes.addShaped(<adventurebackpack:adventureBackpack:2>.withTag({wearableData: {type: 2 as byte}}), [
 [<ore:itemLeather>, <IC2:itemNightvisionGoggles:1>, <ore:itemLeather>],
-[<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8262>],
+[<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}), <minecraft:potion:8262>],
 [<ore:blockWoolBlack>, <ore:blockWoolBlack>, <ore:blockWoolBlack>]]);
 
 // --- Iron Golem Backpack
 recipes.addShaped(<adventurebackpack:adventureBackpack:11>.withTag({wearableData: {type: 11 as byte}}), [
 [<ore:itemLeather>, <minecraft:red_flower>, <ore:itemLeather>],
-[<minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
+[<minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}), <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
 [<ore:plateIron>, <IC2:itemArmorRubBoots>, <ore:plateIron>]]);
 
 // --- Squid Backpack
 recipes.addShaped(<adventurebackpack:adventureBackpack:62>.withTag({wearableData: {type: 62 as byte}}), [
 [<ore:itemLeather>, <GalacticraftCore:item.oxygenMask>, <ore:itemLeather>],
-[<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.onlyWithTag({backpackData: {colorName: "Standard"}}), <minecraft:potion:8269>],
+[<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}), <minecraft:potion:8269>],
 [<ore:blockWoolBlue>, <minecraft:dye>, <ore:blockWoolBlue>]]);
 
 // --- Backpack Tank
