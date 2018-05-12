@@ -555,8 +555,8 @@ mods.thaumcraft.Research.setAspects("OCULUS", "alienis 12, cognitio 12, tenebrae
 mods.thaumcraft.Research.setComplexity("OCULUS", 3);
 
 // --- Primal Crusher
-mods.thaumcraft.Infusion.addRecipe("PRIMALCRUSHER", <Thaumcraft:ItemEldritchObject:3>,
-[<Thaumcraft:ItemResource:15>, <Thaumcraft:ItemPickVoid>, <Thaumcraft:ItemShovelVoid>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemPickaxeElemental>, <Thaumcraft:ItemShovelElemental>],
+mods.thaumcraft.Infusion.addRecipe("PRIMALCRUSHER", <Thaumcraft:ItemResource:15>,
+[<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:ItemPickVoid>, <Thaumcraft:ItemShovelVoid>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemPickaxeElemental>, <Thaumcraft:ItemShovelElemental>],
 "alienis 24, instrumentum 24, lucrum 24, perditio 24, perfodio 24, telum 24, vacuos 24", <Thaumcraft:ItemPrimalCrusher>, 10);
 // -
 mods.thaumcraft.Research.setAspects("PRIMALCRUSHER", "praecantatio 12, alienis 12, instrumentum 12, lucrum 9, perditio 9, perfodio 9, telum 6, vacuos 3");

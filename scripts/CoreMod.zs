@@ -2218,19 +2218,20 @@ mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:
 mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
 
 // --- Primordial Pearl
-mods.thaumcraft.Research.addResearch("PRIMORDRIALPEARL", "NEWHORIZONS", "auram 27, praecantatio 24, vitium 21, ordo 18, perditio 15, aer 12, ignis 9, terra 6, aqua 3", 4, -2, 4, <Thaumcraft:ItemEldritchObject:3>);
+mods.thaumcraft.Research.moveResearch("PRIMORDRIALPEARL","NEWHORIZONS",4,-2);
+//mods.thaumcraft.Research.addResearch("PRIMORDRIALPEARL", "NEWHORIZONS", "auram 27, praecantatio 24, vitium 21, ordo 18, perditio 15, aer 12, ignis 9, terra 6, aqua 3", 4, -2, 4, <Thaumcraft:ItemEldritchObject:3>);
 game.setLocalization("tc.research_name.PRIMORDRIALPEARL", "Primordial Pearl");
 game.setLocalization("tc.research_text.PRIMORDRIALPEARL", "[TC] You found a magical Way of duplication");
-mods.thaumcraft.Research.addPrereq("PRIMORDRIALPEARL", "PRIMPEARL", false);
+//mods.thaumcraft.Research.addPrereq("PRIMORDRIALPEARL", "PRIMPEARL", false);
 mods.thaumcraft.Research.addPrereq("PRIMORDRIALPEARL", "ICHORIUM", false);
 mods.thaumcraft.Research.setConcealed("PRIMORDRIALPEARL", true);
 mods.thaumcraft.Research.setRound("PRIMORDRIALPEARL", true);
-mods.thaumcraft.Research.addPage("PRIMORDRIALPEARL", "tc.research_page.PRIMORDRIALPEARL.1");
+//mods.thaumcraft.Research.addPage("PRIMORDRIALPEARL", "tc.research_page.PRIMORDRIALPEARL.1");
 game.setLocalization("tc.research_page.PRIMORDRIALPEARL.1", "You have started to understand how primodial pearls work and found a way to replicate them for future use. By hammering the primodial pearl into 3 pieces, you found that its losing energy really quickly. Perhaps, there is a way to reform each pieces them into a pearl.");
-mods.thaumcraft.Infusion.addRecipe("PRIMORDRIALPEARL", <dreamcraft:item.PrimordialPearlFragment>, 
-[<Thaumcraft:ItemEldritchObject>, <ThaumicTinkerer:kamiResource:6>, <ThaumicTinkerer:kamiResource:2>, <TwilightForest:tile.TFAuroraBrick>, <Thaumcraft:ItemEldritchObject>, <TwilightForest:tile.TFAuroraBrick>, <ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:7>, <Thaumcraft:ItemEldritchObject>, <ThaumicTinkerer:kamiResource:7>, <ThaumicTinkerer:kamiResource:2>, <TwilightForest:tile.TFAuroraBrick>, <Thaumcraft:ItemEldritchObject>, <TwilightForest:tile.TFAuroraBrick>, <ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:6>], 
-"auram 64, ordo 256, ignis 256, aqua 256, terra 256, aer 256, perditio 256, praecantatio 64, vitium 64", <Thaumcraft:ItemEldritchObject:3>, 20);
-mods.thaumcraft.Research.addInfusionPage("PRIMORDRIALPEARL", <Thaumcraft:ItemEldritchObject:3>);
+//mods.thaumcraft.Infusion.addRecipe("PRIMORDRIALPEARL", <dreamcraft:item.PrimordialPearlFragment>, 
+//[<Thaumcraft:ItemEldritchObject>, <ThaumicTinkerer:kamiResource:6>, <ThaumicTinkerer:kamiResource:2>, <TwilightForest:tile.TFAuroraBrick>, <Thaumcraft:ItemEldritchObject>, <TwilightForest:tile.TFAuroraBrick>, <ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:7>, <Thaumcraft:ItemEldritchObject>, <ThaumicTinkerer:kamiResource:7>, <ThaumicTinkerer:kamiResource:2>, <TwilightForest:tile.TFAuroraBrick>, <Thaumcraft:ItemEldritchObject>, <TwilightForest:tile.TFAuroraBrick>, <ThaumicTinkerer:kamiResource:2>, <ThaumicTinkerer:kamiResource:6>], 
+//"auram 64, ordo 256, ignis 256, aqua 256, terra 256, aer 256, perditio 256, praecantatio 64, vitium 64", <Thaumcraft:ItemEldritchObject:3>, 20);
+//mods.thaumcraft.Research.addInfusionPage("PRIMORDRIALPEARL", <Thaumcraft:ItemEldritchObject:3>);
 mods.thaumcraft.Warp.addToResearch("PRIMORDRIALPEARL", 20);
 
 
