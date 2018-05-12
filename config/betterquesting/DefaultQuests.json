@@ -7,7 +7,7 @@
     {
       "questID": 0,
       "name": "Your first night",
-      "description": "Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...",
+      "description": "Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...\n\nNote: You don\u0027t need to keep this book, you can use tilde to open quests without the book.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1757,7 +1757,7 @@
     {
       "questID": 20,
       "name": "Gravel: The Gathering",
-      "description": "Your tools will eventually lose durability. You think it would be a good idea to collect more gravel in order to provide yourself with flint for more tools.",
+      "description": "Your tools will eventually lose durability. You think it would be a good idea to collect more gravel in order to provide yourself with flint for more tools. Try searching near water.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -1934,7 +1934,7 @@
     {
       "questID": 22,
       "name": "Finite water!?",
-      "description": "Finite water is a problem, that\u0027s for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for.. 3 cacti so you can setup a farm. Deal?",
+      "description": "Finite water is a problem, that\u0027s for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for... 3 cacti so you can setup a farm. Deal?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2328,7 +2328,7 @@
     {
       "questID": 27,
       "name": "Finally, some power",
-      "description": "Now that you have a coke oven, you should start producing charcoal. The more, the better. Don\u0027t worry about the creosote oil; I have another deal for you...",
+      "description": "Now that you have a coke oven, you can start producing charcoal. The more, the better. Don\u0027t worry about the creosote oil; I have another deal for you...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2755,7 +2755,7 @@
     {
       "questID": 33,
       "name": "Tinker-time",
-      "description": "While using your flint tools is fun in terms of burning pigs and cows, they are not very good, and can\u0027t be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.",
+      "description": "While using your flint tools is fun in terms of killing pigs and cows, they are not very good, and can\u0027t be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3938,7 +3938,7 @@
     {
       "questID": 45,
       "name": "Multiblock tanks... Railcraft tanks",
-      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nUse only Buckets to move fluids because cells get destroyed.",
+      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nUse only Buckets to move fluids because cells get destroyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4596,7 +4596,7 @@
     {
       "questID": 52,
       "name": "A clear view",
-      "description": "Are you still living in your dirt/cobblestone bunker? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.\n\nHint: In order to use it for recipes, you have to chisel it.",
+      "description": "Are you still living in your dirt hut/cobble hovel? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.\n\nHint: In order to use it for recipes, you have to chisel it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5055,7 +5055,7 @@
     {
       "questID": 57,
       "name": "Upgrade: Extractor",
-      "description": "An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You most probably want to craft this, as the extractor does also extract your nerves... (This quest is optional)",
+      "description": "An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You probably want to craft this, as the extractor does also extract your nerves... (This quest is optional)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5642,7 +5642,7 @@
     {
       "questID": 65,
       "name": "Blastoff!",
-      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bricked blast furnace. Return here when you made at least 8 steel ingots.",
+      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here when you made at least 8 steel ingots.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5737,7 +5737,7 @@
     {
       "questID": 66,
       "name": "Time for some logic",
-      "description": "Good news! You are now able to advance to the next tier! Bad news is: You still have to craft a lot of things before you can begin. Fear not mortal, I shall guide you!",
+      "description": "Good news! You are now able to advance to the next tier! Bad news: You still have to craft a lot of things before you can begin. Fear not mortal, I shall guide you!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -6250,7 +6250,7 @@
     {
       "questID": 71,
       "name": "Basic crafting: Motors",
-      "description": "Motors are little devices that can turn electrical power into rotational energy. Very useful for all kind of machines, and not that difficult to craft. The pattern is always the same, only the materials change with tiers. For now you can use restone to magnetize your iron rod. Later one you are able to build a Electromagnetic Polarizer.",
+      "description": "Motors are little devices that can turn electrical power into rotational energy. Very useful for all kind of machines, and not that difficult to craft. The pattern is always the same, only the materials change with tiers. For now you can use redstone to magnetize your iron rod. Later on you will build an Electromagnetic Polarizer.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -7549,7 +7549,7 @@
     {
       "questID": 80,
       "name": "Compress all the things",
-      "description": "Martin\u0027s (DreamMasterXXL) favourite machine. Compress ALL the things! With explosives, of course.",
+      "description": "Martin\u0027s (DreamMasterXXL) favourite machine. Compress ALL the things! With explosives, of course. Boom today!\n\nNote: You might want to put this far from your living quarters, the pollution can get high really fast.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8242,7 +8242,7 @@
     {
       "questID": 87,
       "name": "Steel multiblock tanks",
-      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nOnly use buckets because cells get destroyed.",
+      "description": "Do you want to have tanks that can hold double the amount of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x4x3 to 9x8x9 blocks (X and Z must be the same, and odd). \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nOnly use buckets because cells get destroyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9278,7 +9278,7 @@
     {
       "questID": 101,
       "name": "Mjolnir!!! (electric forge hammer)",
-      "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.",
+      "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow, use this hammer. There are no recipes that require anything more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9349,7 +9349,7 @@
     {
       "questID": 102,
       "name": "Cutting things apart",
-      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and all of that will be done with the highest possible efficiency. Totally worth it! \n\nHint: Just add water.",
+      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and all of that will be done with the highest possible efficiency. Totally worth it! \n\nHint: Just add water. Later on lubricant will help it run faster.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9420,7 +9420,7 @@
     {
       "questID": 103,
       "name": "Get ready for Tier 3",
-      "description": "In order to proceed forward, you need to get aluminium. A lot of it. But for now, one is enough to unlock this quest. Probably the best source for aluminium is clay, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup.",
+      "description": "In order to proceed forward, you need to get aluminium. A lot of it. But for now, one is enough to unlock this quest. Probably the best source for aluminium is clay or hardened clay from canyons, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9627,7 +9627,7 @@
     {
       "questID": 106,
       "name": "Your first automation",
-      "description": "Well, probably not the first, but definitely something big! You will need a cart assembler in the first place.",
+      "description": "Well, probably not the first, but definitely something big! You will need a cart assembler first.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9701,7 +9701,7 @@
     {
       "questID": 107,
       "name": "Cart modules: Power Coal",
-      "description": "Your cart needs power, obviously. A cart can be powered via solar or lava. But for now you have to use a simple coal engine.",
+      "description": "Your cart needs power, obviously. A cart can be powered via coal, solar, or lava. But for now you have to use a simple coal engine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11206,7 +11206,7 @@
     },
     {
       "questID": 127,
-      "name": "Project red begging",
+      "name": "Project red beginning",
       "description": "First of all there are 3 types of pipes: null logic, pressurized and routed.\n-Null Logic are the most basic kind. They can\u0027t have any logical thinking. Item transport pipes are of this category and they are used to craft and connect the routed and pressurized pipes. It would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced. They can communicate with each other in order to create pipe networks, and can be used for very complex tasks.\n \n-Pressurized pipes are too complicated to use and explain. You won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever, in order to control the logic of the routed pipes you will need special circuit chips.",
       "isMain": false,
       "isSilent": false,
@@ -11301,7 +11301,7 @@
     },
     {
       "questID": 128,
-      "name": "Ender not-so-IO",
+      "name": "IO, IO, it\u0027s off to EnderIO we go",
       "description": "You\u0027ve probably used EnderIO before. It\u0027s quite useful for a lot of things. But a lot of stuff has changed here, so let\u0027s start from scratch.",
       "isMain": false,
       "isSilent": false,
@@ -11513,7 +11513,7 @@
     {
       "questID": 130,
       "name": "Portable tanks",
-      "description": "Until now, you where required to use buildcraft tanks to carry liquids around. Which can be a pain to do. These little tanks are able to push and pull liquids by themselves, as they have a built-in pump which is powered by some magic energy source. How convenient.",
+      "description": "Until now, you had to use buildcraft tanks to carry liquids around. Which can be a pain to do. These little tanks are able to push and pull liquids by themselves, as they have a built-in pump which is powered by some magic energy source. How convenient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11744,7 +11744,7 @@
     {
       "questID": 133,
       "name": "The power of enderman",
-      "description": "Elevators are nice, but they are limited to vertical teleportation, and their range is also somewhat limited. Travel anchors do not have that limitation. You can teleport from one anchor to any other within range. You can name them and even set them as private.",
+      "description": "Elevators are nice, but they are limited to vertical teleportation, and their range is also somewhat limited. Travel anchors do not have that limitation. You can teleport from one anchor to any other within range. You can name them and even set them as private. They have a 5s cooldown.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12739,7 +12739,7 @@
     {
       "questID": 144,
       "name": "Automated crafting",
-      "description": "You know yet another automated crafting solution...",
+      "description": "You know, yet another automated crafting solution...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13255,7 +13255,7 @@
     {
       "questID": 151,
       "name": "Automated mob-farming",
-      "description": "Of course... zombies loves that... disgusting liquid. While using a small amount per hit, he will attack everything that is within his range. That also includes players, so be careful. Rumors are, that there might be a weapon that will never break when used in this \"machine\"...",
+      "description": "Of course... zombies loves that... disgusting liquid. While using a small amount per hit, he will attack everything that is within his range. That also includes players, so be careful. Rumors are there might be a weapon that will never break when used in this \"machine\"...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13415,7 +13415,7 @@
     {
       "questID": 153,
       "name": "Simple item transfer",
-      "description": "Translocators can only transfer items over a distance of 1 block. But they\u0027re quite cheap, and a good solution to build compact machine setups.",
+      "description": "Translocators can only transfer items over a distance of 1 block. But they\u0027re quite cheap, and a good solution to build compact machine setups. They include a free simple item filter which can be enabled on the input or output side.  And they support multiple inputs and outputs! Glowstone will make it transfer faster - try investigating other upgrades.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13492,7 +13492,7 @@
     {
       "questID": 154,
       "name": "Simple fluid transfer",
-      "description": "Just like the item translocators, the fluid ones transfer... fluids. Same restrictions apply, 1 block distance.",
+      "description": "Just like the item translocators, the fluid ones transfer... fluids. Same restrictions apply, 1 block distance. These can also be upgraded.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -14052,7 +14052,7 @@
     {
       "questID": 161,
       "name": "Paying the highest price",
-      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.\n\nIn tier 1 you only need to place the blood altar.",
+      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.\n\nIn tier 1 you only need to place the blood altar. Plan for the configuration to grow in size",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -14125,7 +14125,7 @@
     {
       "questID": 162,
       "name": "Dimensional goal: Moon",
-      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. Since you will need titanium in large quantities. \n\nHint: more info will be found in the Space Race quest tab.",
+      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. You will need titanium in large quantities. \n\nHint: more info will be found in the Space Race quest tab.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -14412,7 +14412,7 @@
     {
       "questID": 165,
       "name": "Soul eater",
-      "description": "Wouldn\u0027t it be great to actually make use of the intelligence or abilities a certain creature has? For example: the ender-teleportation or brain capacity of a zombie for simple logic? (He doesn\u0027t use it anyway...) With this machine, you are able to bind a captured soul to an item, which can then be used in machines to improve their functionality.",
+      "description": "Wouldn\u0027t it be great to actually make use of the intelligence or abilities a certain creature has? For example: enderman teleportation or brain capacity of a zombie for simple logic? (He doesn\u0027t use it anyway...) With this machine, you are able to bind a captured soul to an item, which can then be used in machines to improve their functionality.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16523,7 +16523,7 @@
     {
       "questID": 183,
       "name": "Getting your first circuits",
-      "description": "Making the circuits is quite different from what you\u0027re used to, so it\u0027s advised to check NEI for the new recipes. Get 8 of each circuits for now.",
+      "description": "Making the circuits is quite different from what you\u0027re used to, so it\u0027s advised to check NEI for the new recipes. Get 8 of each circuit for now.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17404,7 +17404,7 @@
     {
       "questID": 193,
       "name": "Tier 1 fuel: Thorium",
-      "description": "The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect \"fire and forget\" power source.",
+      "description": "The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect \"fission and forget\" power source.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17625,7 +17625,7 @@
     {
       "questID": 196,
       "name": "Move the heat",
-      "description": "Reactors heat up, well the rods do, so you need to \"move the heat away\" to somewhere else. You should get one of each, and try to figure out what each individual heat exchangers does, in order to figure out a good setup.",
+      "description": "Reactors heat up, well the rods do, so you need to \"move the heat away\" to somewhere else. You should get one of each, and try to figure out what each individual heat exchanger does, in order to figure out a good setup.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18029,7 +18029,7 @@
     {
       "questID": 200,
       "name": "Advanced mob-protection",
-      "description": "Like the chandelier, the magnum torch prevents monsters from spawning. However, its range is quite big, so a single one might be enough for your entire base.",
+      "description": "Like the chandelier, the magnum torch prevents monsters from spawning. However, its range is quite big, so a single one might be enough for your entire base.\nDon\u0027t forget, monsters can still follow you home!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33097,7 +33097,7 @@
     {
       "questID": 389,
       "name": "Draconic evolution",
-      "description": "I found a way to combine technology and magic into something fantastic. A shiny blue emblem that emits immense amount of energy. I've decided to call it the draconic core. Make one for yourself!",
+      "description": "I found a way to combine technology and magic into something fantastic. A shiny blue emblem that emits immense amount of energy. I\u0027ve decided to call it the draconic core. Make one for yourself!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42375,7 +42375,7 @@
     {
       "questID": 491,
       "name": "Sleeping outside",
-      "description": "Carrying the bed with you all the time the looks very funny. Why don\u0027t you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. This way if you die, you'll be right at home! Be warned: If you play on a server then you\u0027d better sleep below Y level 128, as nights are very cold in the mountains...",
+      "description": "Carrying the bed with you all the time the looks very funny. Why don\u0027t you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. This way if you die, you\u0027ll be right at home! Be warned: If you play on a server then you\u0027d better sleep below Y level 128, as nights are very cold in the mountains...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43638,7 +43638,7 @@
     {
       "questID": 503,
       "name": "Analyze them all",
-      "description": "Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties. This kit isn't very good, but waste not, want not.",
+      "description": "Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties. This kit isn\u0027t very good, but waste not, want not.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -143852,4 +143852,4 @@
       ]
     }
   ]
-}
+}}
