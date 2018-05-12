@@ -4,6 +4,7 @@
 // --- Importing Stuff ---
 
 import mods.gregtech.Assembler;
+import mods.nei.NEI;
 
 // --- Variables ---
 
@@ -36,7 +37,8 @@ recipes.remove(<TwilightForest:item.emptyMagicMap>);
 recipes.remove(<TwilightForest:item.ironwoodRaw>);
 // -
 furnace.remove(<TwilightForest:item.ironwoodIngot> * 2);
-
+//---Uncrafting table
+recipes.remove(<TwilightForest:tile.TFUncraftingTable>);
 
 
 // --- Adding Recipes ---
@@ -66,3 +68,6 @@ Assembler.addRecipe(<TwilightForest:item.carminite>, <Thaumcraft:ItemResource:14
 
 
 // --- Hiding Stuff ---
+
+//--- Uncrafting Table
+NEI.hide(<TwilightForest:tile.TFUncraftingTable>);
