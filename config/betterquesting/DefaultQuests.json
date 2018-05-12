@@ -3938,7 +3938,7 @@
     {
       "questID": 45,
       "name": "Multiblock tanks... Railcraft tanks",
-      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nUse only Buckets to move fluids because cells get destroyed.",
+      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. You can color the tank with Buildcraft paintbrushes and the GT spray can.\n\nUse only Buckets to move fluids because cells get destroyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7221,7 +7221,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers \u003d 78%.",
+      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers \u003d 78%.\nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8242,7 +8242,7 @@
     {
       "questID": 87,
       "name": "Steel multiblock tanks",
-      "description": "Do you want to have tanks that can hold double the amount of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x4x3 to 9x8x9 blocks (X and Z must be the same, and odd). \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nOnly use buckets because cells get destroyed.",
+      "description": "Do you want to have tanks that can hold double the amount of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x4x3 to 9x8x9 blocks (X and Z must be the same, and odd). Just like the iron tanks, the Buildcraft paintbrush and GT spray can colorize tanks for identification. Get started on that tank farm full of lube!\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank - valves cannot be on an edge!\n\nOnly use buckets or large fluid cells because 1000L GT cells get destroyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12123,7 +12123,7 @@
           "requiredItems": [
             {
               "id": "EnderIO:itemMaterial",
-              "Count": 32,
+              "Count": 128,
               "OreDict": "",
               "Damage": 1
             }
@@ -17185,7 +17185,7 @@
     {
       "questID": 190,
       "name": "Appropriate power",
-      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 5 in this pack. That means your nuclear reactor is 10 times more efficient.",
+      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 10x in this pack. That means your nuclear reactor is 10 times more efficient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -20721,7 +20721,7 @@
     {
       "questID": 233,
       "name": "Getting shards",
-      "description": "Now that you found all six primal types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards.",
+      "description": "Now that you found all six primal types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards. An autoclave can turn shard dust into a shard. Maybe there is a magical way to do the same thing?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -50488,8 +50488,8 @@
     },
     {
       "questID": 581,
-      "name": "Tubes",
-      "description": "Before you can craft your first farm block you need apatite tubes. Make some apatite long rods first (Using a lathe or extruder). You need golden bolts and a red alloy plate.\nPut some glass or sand into your thermionic fabricator and make your first tubes.",
+      "name": "A Series of Tubes",
+      "description": "Before you can craft your first farm block you need apatite tubes. Make some apatite rods first with a lathe, then use a forge hammer to join them into long apatite rods. You need golden bolts and a red alloy plate.\nPut some glass or sand into your thermionic fabricator and make your first tubes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50618,7 +50618,7 @@
     {
       "questID": 582,
       "name": "Your first multiblock farm",
-      "description": "The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). For water input you need a valve, items go through the hatches, and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the carpenter when crafting the different farm blocks.",
+      "description": "The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). For water input you need a valve, items go through the hatches, and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the carpenter when crafting the different farm blocks. If you need the farm to work faster, just add more gearboxes.\nYou can use Orchard mode to collect Pam foods and Natura products. You can even mix and match modes on the same farm - logging and collecting fruit from trees, for example.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88437,7 +88437,7 @@
     {
       "questID": 930,
       "name": "Auto Mining",
-      "description": "A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 32 EU/t to work; with an 8V Solar panel it works at 25% speed. The miner searches for ores in a 16 block radius.",
+      "description": "A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 8 EU/t to work. The miner searches for ores in a 16 block radius. Don't forget to cover it up!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89530,7 +89530,7 @@
     {
       "questID": 940,
       "name": "Cleanroom",
-      "description": "If you want to make more advanced circuits you\u0027ll need a cleanroom. The cleanroom is a multiblock between 5x4x5 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you\u0027ll need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room.",
+      "description": "If you want to make more advanced circuits you\u0027ll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxD) blocks. Besides plascrete blocks you\u0027ll need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room. Expanding it vertically is easy to do.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111219,7 +111219,7 @@
     {
       "questID": 1147,
       "name": "GT 6 styled Wires and Cables",
-      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.\n\nHint: If you click one wire or cable on the other it will auto-connect. ",
+      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.\n\nHint: If you click one wire or cable on the other it will auto-connect. Cables and pipes can be painted to make sure you do not cross your MV line with your EV line, or dump hot lava into your plastic water pipes. No boom today.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112465,7 +112465,7 @@
     {
       "questID": 1156,
       "name": "Iron Bolts",
-      "description": "Your crossbow need some ammo to shoot with. Let\u0027s craft some wooden bolts with an iron tip.",
+      "description": "Your crossbow need some ammo to shoot with. Let\u0027s craft some wooden bolts with an iron tip. You\u0027ll need to pump smeltery iron into a fluid solidifier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114336,7 +114336,7 @@
     {
       "questID": 1178,
       "name": "Food 2.0",
-      "description": "Forget everything you know about food and values. With your new canning machine you are able to fill tin cans with very nourishing food. This food can be consumed in milliseconds and makes you full and happy. And you can eat as much as you want without getting tired of the food.",
+      "description": "Forget everything you know about food and values. With your new canning machine you are able to fill tin cans with very nourishing food. This food can be consumed in milliseconds and makes you full and happy. And you can eat as much as you want without getting tired of the food.\nEating before you are starving restores saturation and conserves cans.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -120938,7 +120938,7 @@
     {
       "questID": 1241,
       "name": "Radeon",
-      "description": "Radon is used for quantum eyes, quantum stars and emitters and sensors in the EV machines. Try to find a Pitchblend vein first and/or recycle your plutonium and uranium from your reactor.\n\nThis Vein can be found on Mars and Phobos.",
+      "description": "Radon is used for quantum eyes, quantum stars and emitters and sensors in the EV machines. Try to find a Pitchblende vein first and/or recycle your plutonium and uranium from your reactor.\n\nThis Vein can be found on Mars and Phobos.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -132369,8 +132369,8 @@
     },
     {
       "questID": 1371,
-      "name": "LOX Cannister, refill your Tanks",
-      "description": "To make liquid oxygen you need 16 oxygen cells and a universal fluid cell. Put them in the assember to get 1 cell of compressed oxygen.\nAfter this put it in the vacuum freezer and wait a bit.\nNow you get some liquid air. Fill it into a empty galacticraft cannister to get a good air backup for your tanks.\nTo refill your oxygen tanks just put both in the crafting grid to transfer oxygen.",
+      "name": "LOX and Bagels",
+      "description": "The LOX canister is an alternate solution to refilling your oxygen tanks.\nTo make liquid oxygen you need 16 oxygen cells, a universal fluid cell, and a circuit config 16. Transfer the oxygen gas into an MV+ assembler, and put in the universal fluid cell and circuit to get 1 cell of compressed oxygen.\nPut this in the vacuum freeezer to get 1 cell of liquid oxygen.\nTransfer this liquid oxygen into a tank, and then into a LOX canister.\nTo refill your oxygen tanks just put the tank and the LOX canister in the crafting grid to transfer oxygen.\nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.\n\nSo much Greggy!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
