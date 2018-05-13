@@ -265,9 +265,9 @@ mods.avaritia.ExtremeCrafting.addShaped(MutagenProducer, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, MutagenTank, <gendustry:HoneyComb:1300>, PowerModule, <gendustry:HoneyComb:1300>, MutagenTank, null, null],
-[null, null, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:32657>, GeneticCircuit, <gregtech:gt.metaitem.01:32657>, <gregtech:gt.metaitem.01:32617>, null, null],
+[null, null, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:32657>, GeneticsProcessor, <gregtech:gt.metaitem.01:32657>, <gregtech:gt.metaitem.01:32617>, null, null],
 [null, null, BeeReceptacle, OsmiumGear, HardCasing, OsmiumGear, BeeReceptacle, null, null],
-[null, null, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:32608>, GeneticCircuit, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32617>, null, null],
+[null, null, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:32608>, GeneticsProcessor, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32617>, null, null],
 [null, null, MutagenTank, <gendustry:HoneyComb:1300>, PowerModule, <gendustry:HoneyComb:1300>, MutagenTank, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
