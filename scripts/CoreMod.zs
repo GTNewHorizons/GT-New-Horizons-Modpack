@@ -1099,9 +1099,9 @@ Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16,
 
 
 // --- Radioactive Bacterial Sludge
-Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:2098>, <liquid:enrichedbacterialsludge> * 750, false);
+Brewery.addRecipe(<liquid:bacterialsludge> * 100, <gregtech:gt.metaitem.01:2098>, <liquid:enrichedbacterialsludge> * 10 false);
 // -
-Brewery.addRecipe(<liquid:bacterialsludge> * 750, <gregtech:gt.metaitem.01:97> , <liquid:enrichedbacterialsludge> * 750, false);
+Brewery.addRecipe(<liquid:bacterialsludge> * 100, <gregtech:gt.metaitem.01:97> , <liquid:enrichedbacterialsludge> * 10, false);
 
 
 
@@ -1296,7 +1296,7 @@ CuttingSaw.addRecipe(<dreamcraft:item.MysteriousCrystalPlate> * 9, null, <dreamc
 
 
 // --- Fermented bacterial Sludge
-Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 500, <liquid:enrichedbacterialsludge> * 750, 2400, false); 
+Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 75, <liquid:enrichedbacterialsludge> * 750, 2400, false); 
 
 
 
@@ -1367,7 +1367,7 @@ PrecisionLaser.addRecipe(<dreamcraft:item.EngravedGoldChip>, <gregtech:gt.metait
 
 
 // --- Mutagen
-Distillery.addRecipe(<liquid:mutagen> * 1000, <gregtech:gt.integrated_circuit:3> * 0, <liquid:fermentedbacterialsludge> * 750, 1200, 256, false);
+Distillery.addRecipe(<liquid:mutagen> * 10, <gregtech:gt.integrated_circuit:3> * 0, <liquid:fermentedbacterialsludge> * 100, 600, 1920, false);
 
 
 
