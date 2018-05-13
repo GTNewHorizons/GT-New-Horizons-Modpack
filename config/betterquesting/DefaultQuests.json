@@ -8993,7 +8993,7 @@
     {
       "questID": 97,
       "name": "Avengers, assemble!",
-      "description": "An absolute must have for fans of the movie. Oh, and to make all the things, of course.",
+      "description": "An absolute must have for fans of the movie. Oh, and to make all the things, of course.\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47154,7 +47154,7 @@
     {
       "questID": 543,
       "name": "C9H8O4...NaCl...H2O...",
-      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dyes? Then it\u0027s time to craft a chemical reactor.",
+      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dyes? Then it\u0027s time to craft a chemical reactor.\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -48023,7 +48023,7 @@
     {
       "questID": 554,
       "name": "Hey DJ, Mix it!",
-      "description": "The mixer is a very useful device. You can mix all kinds of fluids and items. Useful to prevent dust from falling to the ground when crafting - most mixer recipes give a slight boost over hand crafting!",
+      "description": "The mixer is a very useful device. You can mix all kinds of fluids and items. Useful to prevent dust from falling to the ground when crafting - most mixer recipes give a slight boost over hand crafting!\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72249,7 +72249,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -86311,7 +86311,7 @@
     {
       "questID": 916,
       "name": "Time to kill (Wither)",
-      "description": "After collecting a couple of those wither skeleton heads, you feel like you could use some more action. So why not kill a wither? You\u0027ll need a ton of nether stars anyway...",
+      "description": "After collecting a couple of those wither skeleton heads, you feel like you could use some more action. So why not kill a wither? You\u0027ll need a ton of nether stars anyway...\n\nKill it twice for something nice.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89530,7 +89530,7 @@
     {
       "questID": 940,
       "name": "Cleanroom",
-      "description": "If you want to make more advanced circuits you\u0027ll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxD) blocks. Besides plascrete blocks you\u0027ll need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room. Expanding it vertically is easy to do.",
+      "description": "If you want to make more advanced circuits you\u0027ll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxD) blocks. Besides plascrete blocks for all edges you\u0027ll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109424,7 +109424,7 @@
     {
       "questID": 1130,
       "name": "Extra Modifier",
-      "description": "If you don\u0027t have an extra modifier on your tool you can easily add one.\nA gold block and a diamond are all you need.",
+      "description": "If you don\u0027t have an extra modifier on your tool you can easily add one.\nA gold block and a diamond are all you need.\nYou can add two more modifiers, but you need to figure out how yourself.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112137,7 +112137,7 @@
     {
       "questID": 1154,
       "name": "Magnalium Crossbow Bolts",
-      "description": "Magnalium bolts are much better than your old wooden bolts.\nYou can use nether quartz on the bolts to make them even better. \nThis requires a free modifier slot.",
+      "description": "Magnalium bolts are much better than your old wooden bolts.\nYou can use nether quartz on the bolts to make them even better. \nThis requires a free modifier slot.\nNOTE: Unlike other tinker tools and weapons, bolts cannot be upgraded.  You will need to make a fresh one. Experiment with NEI to find other good bolt materials. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112464,7 +112464,7 @@
     },
     {
       "questID": 1156,
-      "name": "Iron Bolts",
+      "name": "Iron Tipped Bolts",
       "description": "Your crossbow need some ammo to shoot with. Let\u0027s craft some wooden bolts with an iron tip. You\u0027ll need to pump smeltery iron into a fluid solidifier.",
       "isMain": false,
       "isSilent": false,
@@ -114587,7 +114587,7 @@
     {
       "questID": 1180,
       "name": "Chunkloading",
-      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 1 hour per pearl. Read up on the differences.",
+      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 1 hour per pearl. World anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -116210,8 +116210,8 @@
     },
     {
       "questID": 1197,
-      "name": "Fusion reactor MK2",
-      "description": "Now that you have some europium, put it to use by making an mk2 reactor. This one will require the same block placement, but replacing LuV casings with fusion casings, and using ZPM tier hatches. This reactor can handle recipes up to 65536eu/t and 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster. ",
+      "name": "Fusion reactor MK2 - bigger, better, fusor",
+      "description": "Now that you have some europium, put it to use by making an mk2 reactor. This one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. This reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -116360,7 +116360,7 @@
     {
       "questID": 1198,
       "name": "Upgrading the reactor",
-      "description": "A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of inputting up to 8192eu/t, and can take as little as 8192eu/t to run, and up to 2 amps of 524288eu/t before it explodes. ",
+      "description": "A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -116509,7 +116509,7 @@
     {
       "questID": 1199,
       "name": "Making americium",
-      "description": "Before you can upgrade your reactor, you will need americium. The recipe to make it will seem expensive, but once you make the next tier of reactor, you will unlock a simplier and cheaper recipe. You will need at least 128 plates for for the reactor casings, 9 to scan for the the recipe, and 4 for the recipe itself. ",
+      "description": "Before you can upgrade your reactor, you will need americium. The recipe to make it will seem expensive, but once you make the next tier of reactor, you will unlock a simpler and cheaper recipe. You will need at least 128 plates for for the reactor casings, 9 to scan for the the recipe, and 4 for the recipe itself. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -116794,7 +116794,7 @@
     {
       "questID": 1201,
       "name": "Turbine Time",
-      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate",
+      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -117612,7 +117612,7 @@
     {
       "questID": 1212,
       "name": "Starting Fusion",
-      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch inputs 2048eu/t, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesnï¿½t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
+      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn\u0027t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -136211,7 +136211,7 @@
     {
       "questID": 1412,
       "name": "Assembling Line",
-      "description": "The assembling line short form \u0027Ass Line\u0027 is a multiblock and important for high tier Components in LUV tier and obove for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5–16 blocks long. The minimum length requires depends on the number of components and fluids required by the recipe it\u0027s crafting. A length of 11 blocks will be recommened to fit for 80% of all recipes in GTNH.\n\nFirst layer have on the outer side input hatches for fluids (4) in the middle layer input busses for items(10) and on the end 1 output bus. on the outer layer you have to add one maintainance hatch the rest is steel machine casings.\n\nThe second layer have on the outer sides left and right reinforced Glass blocks and in the middle assembling line cases.\n\nThe third layer have left and right grate casings and in the middel assembling machine casings. Controlblock and Data Acess hatch goes to one side.\n\nThe forth layer have steel machine caings (11)",
+      "description": "The assembling line (short form \u0027Ass Line\u0027) is a multiblock and important for high tier Components in LuV tier and above for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it\u0027s crafting. A length of 11 blocks will fit 80% of all recipes in GTNH.\n\The bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items(10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.\n\nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.\n\nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.\n\nThe fourth layer is a single line of Solid Steel Machine Casings in the middle(11), with one Energy Hatch for power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
