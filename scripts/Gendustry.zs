@@ -314,7 +314,7 @@ mods.avaritia.ExtremeCrafting.addShaped(AdvMutatron, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, NaqudahAlloyGear, <ore:plateCosmicNeutronium>, PowerModule, <ore:plateCosmicNeutronium>, NaqudahAlloyGear, null, null],
 [null, null, <ore:plateCosmicNeutronium>, <gendustry:HoneyComb:1302>, GeneticsProcessor, <gendustry:HoneyComb:1302>, <ore:plateCosmicNeutronium>, null, null],
-[null, null, <gregtech:gt.metaitem.01:32658>, GeneticsProcessor, AdvMutatron, GeneticsProcessor, <gregtech:gt.metaitem.01:32658>, null, null],
+[null, null, <gregtech:gt.metaitem.01:32658>, GeneticsProcessor, Mutatron, GeneticsProcessor, <gregtech:gt.metaitem.01:32658>, null, null],
 [null, null, <ore:plateCosmicNeutronium>, <gendustry:HoneyComb:1302>, GeneticsProcessor, <gendustry:HoneyComb:1302>, <ore:plateCosmicNeutronium>, null, null],
 [null, null, NaqudahAlloyGear, <ore:plateCosmicNeutronium>, PowerModule, <ore:plateCosmicNeutronium>, NaqudahAlloyGear, null, null],
 [null, null, null, null, null, null, null, null, null],
