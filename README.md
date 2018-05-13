@@ -18,6 +18,26 @@ Starting in the stone age you will barely be able to survive until you get your 
 
 If you are fan of expert mode packs and want to take it to the next level this pack will be your friend!
 
+## Quotes
+---
+thcv - This pack is pushing my mental capacity
+moronwmachinegun - Noooooooooooooooo! (after cleanroom explosion)
+mitchej123 - it probably would have been a bit easier if I put the turbines closer, but it wouldn't look as cool
+K1ngMX - problem is like in programming: each change in isolation makes sense, some time later you think "how could this all happen" lol
+tsutaaja - If it's not too costly
+DreamMasterXXL - Idiots! Do not upgrade your backpack with important stuff inside!
+Chaotick - It's already quite the list of errands
+LogicFalls - F--k this mod is complicated
+Codewarrior0 - Blood, sweat, and tiers
+Chewy - No more making any of this irritating s--t
+moronwmachinegun - It's never enough
+Mondfaust - this game wants so much stuff...
+K1ngMX - GTNH is basically pain for win
+Pao - RNGesus hates you.
+LogicFalls - This modpack makes me unhappy. But it's the good kind of unhappy.
+Elusive Ent - GTNH you never fail to frustrate, but i love you all the same
+DoomSquirter - welcome to gregtech where we invented the fountain of youth by slowing down time to make you enjoy each millisecond even more.
+moronwmachinegun - controller on the front, maintenance in the back? World's worst haircut - gregullet
 
 ---
 ## What does this pack have to offer?
