@@ -136707,7 +136707,7 @@
     {
       "questID": 1417,
       "name": "Cough cough - Something needs to be done about the smell",
-      "description": "Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air.       ",
+      "description": "Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small steel turbines should be fine for now. You\u0027ll need two amps of steady power to keep the scrubber working.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -136730,9 +136730,77 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 756
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "miscutils:itemAirFilter",
+              "Count": 11,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "AirFilter:10": {
+                  "Damage:4": 0
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 170
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 759
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
-      "preRequisites": []
+      "preRequisites": [
+        77
+      ]
     },
     {
       "questID": 1418,
@@ -136767,7 +136835,7 @@
     {
       "questID": 1419,
       "name": "Who cares about a little cancer...",
-      "description": "...when it means you don\u0027t have to strip naked to recharge your nanosuit? The Wireless Charger will keep your armor and tools charged up without having to put them into a battery buffer. You didn\u0027t want kids anyways...     ",
+      "description": "...when it means you don\u0027t have to strip naked to recharge your nanosuit? \nThe Wireless Charger will keep your armor and tools charged up without \nhaving to put them into a battery buffer. \n\nYou didn\u0027t want kids anyways...     ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -136784,15 +136852,51 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 892
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": []
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 892
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        779
+      ]
     },
     {
       "questID": 1420,
