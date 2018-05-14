@@ -260,18 +260,41 @@ recipes.remove(<gendustry:ErrorSensorCover>);
 
 // --- Blocks ---
 
+// --- Mutagen Producer
+mods.avaritia.ExtremeCrafting.addShaped(MutagenProducer, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, MutagenTank, <gendustry:HoneyComb:1300>, PowerModule, <gendustry:HoneyComb:1300>, MutagenTank, null, null],
+[null, null, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:32657>, GeneticsProcessor, <gregtech:gt.metaitem.01:32657>, <gregtech:gt.metaitem.01:32617>, null, null],
+[null, null, BeeReceptacle, OsmiumGear, HardCasing, OsmiumGear, BeeReceptacle, null, null],
+[null, null, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:32608>, GeneticsProcessor, <gregtech:gt.metaitem.01:32608>, <gregtech:gt.metaitem.01:32617>, null, null],
+[null, null, MutagenTank, <gendustry:HoneyComb:1300>, PowerModule, <gendustry:HoneyComb:1300>, MutagenTank, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
 
 // --- Industrial Apiary
-recipes.addShaped(IndustrialApiary, [
-[TitaniumGear, ApicultureChest, TitaniumGear],
-[AlvearyFan, HardCasing, AlvearyHeater],
-[TitaniumGear, IvMotor, TitaniumGear]]);
+mods.avaritia.ExtremeCrafting.addShaped(IndustrialApiary, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null,  <ore:gearTungstenSteel>, <Forestry:alveary:6>, <gregtech:gt.metaitem.01:32675>, <Forestry:alveary:6>,  <ore:gearTungstenSteel>, null, null],
+[null, null, <Forestry:alveary:5>, <Forestry:alveary>, <Forestry:alveary:7>, <Forestry:alveary>, <Forestry:alveary:4>, null, null],
+[null, null, <gregtech:gt.metaitem.01:32606>, <Forestry:alveary:2>, <Forestry:apiculture>, <Forestry:alveary:2>, <gregtech:gt.metaitem.01:32606>, null, null],
+[null, null, <Forestry:alveary:5>, <Forestry:alveary>, <Forestry:alveary:7>, <Forestry:alveary>, <Forestry:alveary:4>, null, null],
+[null, null, <ore:gearTungstenSteel>, <Forestry:alveary:3>, <gregtech:gt.metaitem.01:32675>, <Forestry:alveary:3>,  <ore:gearTungstenSteel>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
 
 // --- Mutatron
-recipes.addShaped(Mutatron, [
-[MutagenTank, GeneticsProcessor, MutagenTank],
-[BeeReceptacle, HardCasing, BeeReceptacle],
-[OsmiumGear, PowerModule, OsmiumGear]]);
+mods.avaritia.ExtremeCrafting.addShaped(Mutatron, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, MutagenTank, <ore:plateMysteriousCrystal>, GeneticsProcessor, <ore:plateMysteriousCrystal>, MutagenTank, null, null],
+[null, null, OsmiumGear, BeeReceptacle, <gendustry:HoneyComb:702>, BeeReceptacle, OsmiumGear, null, null],
+[null, null, <gregtech:gt.metaitem.01:32656>, PowerModule, HardCasing, PowerModule, <gregtech:gt.metaitem.01:32656>, null, null],
+[null, null, OsmiumGear, BeeReceptacle, <gendustry:HoneyComb:702>, BeeReceptacle, OsmiumGear, null, null],
+[null, null, MutagenTank, <ore:plateMysteriousCrystal>, GeneticsProcessor, <ore:plateMysteriousCrystal>, MutagenTank, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
 
 // --- Genetic Imprinter
 recipes.addShaped(GeneticImprinter, [
@@ -286,10 +309,16 @@ recipes.addShaped(GeneticSampler, [
 [OsmiumGear, PowerModule, OsmiumGear]]);
 
 // --- Advanced Mutatron
-recipes.addShaped(AdvMutatron, [
-[UVRobotorArm, GeneticsProcessor, UVRobotorArm],
-[GeneticsProcessor, Mutatron, GeneticsProcessor],
-[NaqudahAlloyGear, PowerModule, NaqudahAlloyGear]]);
+mods.avaritia.ExtremeCrafting.addShaped(AdvMutatron, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, NaqudahAlloyGear, <ore:plateCosmicNeutronium>, PowerModule, <ore:plateCosmicNeutronium>, NaqudahAlloyGear, null, null],
+[null, null, <ore:plateCosmicNeutronium>, <gendustry:HoneyComb:1302>, GeneticsProcessor, <gendustry:HoneyComb:1302>, <ore:plateCosmicNeutronium>, null, null],
+[null, null, <gregtech:gt.metaitem.01:32658>, GeneticsProcessor, Mutatron, GeneticsProcessor, <gregtech:gt.metaitem.01:32658>, null, null],
+[null, null, <ore:plateCosmicNeutronium>, <gendustry:HoneyComb:1302>, GeneticsProcessor, <gendustry:HoneyComb:1302>, <ore:plateCosmicNeutronium>, null, null],
+[null, null, NaqudahAlloyGear, <ore:plateCosmicNeutronium>, PowerModule, <ore:plateCosmicNeutronium>, NaqudahAlloyGear, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
 
 // --- Protein Liquifier
 recipes.addShaped(Liquifier, [
@@ -491,48 +520,48 @@ furnace.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneTemplate>);
 
 
 // --- Genetics Labware
-Assembler.addRecipe(Labware * 2, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:28305>, <liquid:molten.glass> * 576, 200, 1920);
+Assembler.addRecipe(Labware * 2, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:28305>, <liquid:molten.glass> * 576, 200, 7680);
 
 // --- Blank Gene Sample
-Assembler.addRecipe(BlankGene, <gregtech:gt.metaitem.01:17057> * 4, <gregtech:gt.metaitem.01:2308>, <liquid:molten.glass> * 144, 100, 1920);
+Assembler.addRecipe(BlankGene, <gregtech:gt.metaitem.01:17057> * 4, <gregtech:gt.metaitem.01:2308>, <liquid:molten.glass> * 144, 100, 7680);
 
 // --- Genetic Tamplate
-Assembler.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneSampleBlank> * 4, <gregtech:gt.metaitem.01:17500>, <liquid:molten.redstone> * 576, 400, 1920);
+Assembler.addRecipe(<gendustry:GeneTemplate>, <gendustry:GeneSampleBlank> * 4, <gregtech:gt.metaitem.01:17500>, <liquid:molten.redstone> * 576, 400, 7680);
 
 // --- Mutagen Tank
-Assembler.addRecipe(MutagenTank, DTank, <gregtech:gt.metaitem.01:18052>, 300, 1920);
+Assembler.addRecipe(MutagenTank, DTank, <gregtech:gt.metaitem.01:18052>, 300, 7680);
 
 // --- Genetics Processor
-Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 1920);
+Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 7680);
 // -
-Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.03:32084>, 400, 1920);
+Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.03:32084>, 400, 7680);
 // -
-Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.03:32086>, 400, 1920);
+Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.03:32086>, 400, 7680);
 // -
-Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.03:32089>, 400, 1920);
+Assembler.addRecipe(GeneticsProcessor, <dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.03:32089>, 400, 7680);
 
 // --- Environmental Processor
-Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 1920);
+Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.01:32705>, 400, 7680);
 // -
-Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32084>, 400, 1920);
+Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32084>, 400, 7680);
 // -
-Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32086>, 400, 1920);
+Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32086>, 400, 7680);
 // -
-Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32089>, 400, 1920);
+Assembler.addRecipe(EnviroProcessor, <dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.03:32089>, 400, 7680);
 
 // --- Upgrade Frame
-Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32087>, 400, 1920);
+Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32087>, 400, 7680);
 // -
-Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32092>, 400, 1920);
+Assembler.addRecipe(UpFrame, <dreamcraft:item.IndustryFrame>, <gregtech:gt.metaitem.03:32092>, 400, 7680);
 
 // --- Item Ijector Cover
-Assembler.addRecipe(<gendustry:EjectCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:3>, 200, 1920);
+Assembler.addRecipe(<gendustry:EjectCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:3>, 200, 7680);
 
 // --- Item Import Cover
-Assembler.addRecipe(<gendustry:ImportCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:6>, 200, 1920);
+Assembler.addRecipe(<gendustry:ImportCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:6>, 200, 7680);
 
 // --- Error Sensor Cover
-Assembler.addRecipe(<gendustry:ErrorSensorCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:5>, 200, 1920);
+Assembler.addRecipe(<gendustry:ErrorSensorCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:5>, 200, 7680);
 
 
 

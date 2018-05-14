@@ -7,7 +7,7 @@
     {
       "questID": 0,
       "name": "Your first night",
-      "description": "Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...",
+      "description": "Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...\n\nNote: You don\u0027t need to keep this book, you can use tilde to open quests without the book.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1757,7 +1757,7 @@
     {
       "questID": 20,
       "name": "Gravel: The Gathering",
-      "description": "Your tools will eventually lose durability. You think it would be a good idea to collect more gravel in order to provide yourself with flint for more tools.",
+      "description": "Your tools will eventually lose durability. You think it would be a good idea to collect more gravel in order to provide yourself with flint for more tools. Try searching near water.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -1934,7 +1934,7 @@
     {
       "questID": 22,
       "name": "Finite water!?",
-      "description": "Finite water is a problem, that\u0027s for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for.. 3 cacti so you can setup a farm. Deal?",
+      "description": "Finite water is a problem, that\u0027s for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for... 3 cacti so you can setup a farm. Deal?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2328,7 +2328,7 @@
     {
       "questID": 27,
       "name": "Finally, some power",
-      "description": "Now that you have a coke oven, you should start producing charcoal. The more, the better. Don\u0027t worry about the creosote oil; I have another deal for you...",
+      "description": "Now that you have a coke oven, you can start producing charcoal. The more, the better. Don\u0027t worry about the creosote oil; I have another deal for you...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -2755,7 +2755,7 @@
     {
       "questID": 33,
       "name": "Tinker-time",
-      "description": "While using your flint tools is fun in terms of burning pigs and cows, they are not very good, and can\u0027t be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.",
+      "description": "While using your flint tools is fun in terms of killing pigs and cows, they are not very good, and can\u0027t be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -3938,7 +3938,7 @@
     {
       "questID": 45,
       "name": "Multiblock tanks... Railcraft tanks",
-      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nUse only Buckets to move fluids because cells get destroyed.",
+      "description": "576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn\u0027t enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. You can color the tank with Buildcraft paintbrushes and the GT spray can.\n\nUse only Buckets to move fluids because cells get destroyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4596,7 +4596,7 @@
     {
       "questID": 52,
       "name": "A clear view",
-      "description": "Are you still living in your dirt/cobblestone bunker? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.\n\nHint: In order to use it for recipes, you have to chisel it.",
+      "description": "Are you still living in your dirt hut/cobble hovel? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.\n\nHint: In order to use it for recipes, you have to chisel it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5055,7 +5055,7 @@
     {
       "questID": 57,
       "name": "Upgrade: Extractor",
-      "description": "An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You most probably want to craft this, as the extractor does also extract your nerves... (This quest is optional)",
+      "description": "An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You probably want to craft this, as the extractor does also extract your nerves... (This quest is optional)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5642,7 +5642,7 @@
     {
       "questID": 65,
       "name": "Blastoff!",
-      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest set and build a bricked blast furnace. Return here when you made at least 8 steel ingots.",
+      "description": "It\u0027s about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here when you made at least 8 steel ingots.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5737,7 +5737,7 @@
     {
       "questID": 66,
       "name": "Time for some logic",
-      "description": "Good news! You are now able to advance to the next tier! Bad news is: You still have to craft a lot of things before you can begin. Fear not mortal, I shall guide you!",
+      "description": "Good news! You are now able to advance to the next tier! Bad news: You still have to craft a lot of things before you can begin. Fear not mortal, I shall guide you!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -6250,7 +6250,7 @@
     {
       "questID": 71,
       "name": "Basic crafting: Motors",
-      "description": "Motors are little devices that can turn electrical power into rotational energy. Very useful for all kind of machines, and not that difficult to craft. The pattern is always the same, only the materials change with tiers. For now you can use restone to magnetize your iron rod. Later one you are able to build a Electromagnetic Polarizer.",
+      "description": "Motors are little devices that can turn electrical power into rotational energy. Very useful for all kind of machines, and not that difficult to craft. The pattern is always the same, only the materials change with tiers. For now you can use redstone to magnetize your iron rod. Later on you will build an Electromagnetic Polarizer.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -7221,7 +7221,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers \u003d 78%.",
+      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers \u003d 78%.\nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7549,7 +7549,7 @@
     {
       "questID": 80,
       "name": "Compress all the things",
-      "description": "Martin\u0027s (DreamMasterXXL) favourite machine. Compress ALL the things! With explosives, of course.",
+      "description": "Martin\u0027s (DreamMasterXXL) favourite machine. Compress ALL the things! With explosives, of course. Boom today!\n\nNote: You might want to put this far from your living quarters, the pollution can get high really fast.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8242,7 +8242,7 @@
     {
       "questID": 87,
       "name": "Steel multiblock tanks",
-      "description": "Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks. \n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.\n\nOnly use buckets because cells get destroyed.",
+      "description": "Do you want to have tanks that can hold double the amount of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x4x3 to 9x8x9 blocks (X and Z must be the same, and odd). Just like the iron tanks, the Buildcraft paintbrush and GT spray can colorize tanks for identification. Get started on that tank farm full of lube!\n\nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank - valves cannot be on an edge!\n\nOnly use buckets or large fluid cells because 1000L GT cells get destroyed.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8993,7 +8993,7 @@
     {
       "questID": 97,
       "name": "Avengers, assemble!",
-      "description": "An absolute must have for fans of the movie. Oh, and to make all the things, of course.",
+      "description": "An absolute must have for fans of the movie. Oh, and to make all the things, of course.\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9278,7 +9278,7 @@
     {
       "questID": 101,
       "name": "Mjolnir!!! (electric forge hammer)",
-      "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.",
+      "description": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow, use this hammer. There are no recipes that require anything more than steam level to hammer something.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9349,7 +9349,7 @@
     {
       "questID": 102,
       "name": "Cutting things apart",
-      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and all of that will be done with the highest possible efficiency. Totally worth it! \n\nHint: Just add water.",
+      "description": "An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and all of that will be done with the highest possible efficiency. Totally worth it! \n\nHint: Just add water. Later on lubricant will help it run faster.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9420,7 +9420,7 @@
     {
       "questID": 103,
       "name": "Get ready for Tier 3",
-      "description": "In order to proceed forward, you need to get aluminium. A lot of it. But for now, one is enough to unlock this quest. Probably the best source for aluminium is clay, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup.",
+      "description": "In order to proceed forward, you need to get aluminium. A lot of it. But for now, one is enough to unlock this quest. Probably the best source for aluminium is clay or hardened clay from canyons, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -9627,7 +9627,7 @@
     {
       "questID": 106,
       "name": "Your first automation",
-      "description": "Well, probably not the first, but definitely something big! You will need a cart assembler in the first place.",
+      "description": "Well, probably not the first, but definitely something big! You will need a cart assembler first.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -9701,7 +9701,7 @@
     {
       "questID": 107,
       "name": "Cart modules: Power Coal",
-      "description": "Your cart needs power, obviously. A cart can be powered via solar or lava. But for now you have to use a simple coal engine.",
+      "description": "Your cart needs power, obviously. A cart can be powered via coal, solar, or lava. But for now you have to use a simple coal engine.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11206,7 +11206,7 @@
     },
     {
       "questID": 127,
-      "name": "Project red begging",
+      "name": "Project red beginning",
       "description": "First of all there are 3 types of pipes: null logic, pressurized and routed.\n-Null Logic are the most basic kind. They can\u0027t have any logical thinking. Item transport pipes are of this category and they are used to craft and connect the routed and pressurized pipes. It would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced. They can communicate with each other in order to create pipe networks, and can be used for very complex tasks.\n \n-Pressurized pipes are too complicated to use and explain. You won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever, in order to control the logic of the routed pipes you will need special circuit chips.",
       "isMain": false,
       "isSilent": false,
@@ -11301,7 +11301,7 @@
     },
     {
       "questID": 128,
-      "name": "Ender not-so-IO",
+      "name": "IO, IO, it\u0027s off to EnderIO we go",
       "description": "You\u0027ve probably used EnderIO before. It\u0027s quite useful for a lot of things. But a lot of stuff has changed here, so let\u0027s start from scratch.",
       "isMain": false,
       "isSilent": false,
@@ -11513,7 +11513,7 @@
     {
       "questID": 130,
       "name": "Portable tanks",
-      "description": "Until now, you where required to use buildcraft tanks to carry liquids around. Which can be a pain to do. These little tanks are able to push and pull liquids by themselves, as they have a built-in pump which is powered by some magic energy source. How convenient.",
+      "description": "Until now, you had to use buildcraft tanks to carry liquids around. Which can be a pain to do. These little tanks are able to push and pull liquids by themselves, as they have a built-in pump which is powered by some magic energy source. How convenient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11744,7 +11744,7 @@
     {
       "questID": 133,
       "name": "The power of enderman",
-      "description": "Elevators are nice, but they are limited to vertical teleportation, and their range is also somewhat limited. Travel anchors do not have that limitation. You can teleport from one anchor to any other within range. You can name them and even set them as private.",
+      "description": "Elevators are nice, but they are limited to vertical teleportation, and their range is also somewhat limited. Travel anchors do not have that limitation. You can teleport from one anchor to any other within range. You can name them and even set them as private. They have a 5s cooldown.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -12123,7 +12123,7 @@
           "requiredItems": [
             {
               "id": "EnderIO:itemMaterial",
-              "Count": 32,
+              "Count": 128,
               "OreDict": "",
               "Damage": 1
             }
@@ -12739,7 +12739,7 @@
     {
       "questID": 144,
       "name": "Automated crafting",
-      "description": "You know yet another automated crafting solution...",
+      "description": "You know, yet another automated crafting solution...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13255,7 +13255,7 @@
     {
       "questID": 151,
       "name": "Automated mob-farming",
-      "description": "Of course... zombies loves that... disgusting liquid. While using a small amount per hit, he will attack everything that is within his range. That also includes players, so be careful. Rumors are, that there might be a weapon that will never break when used in this \"machine\"...",
+      "description": "Of course... zombies loves that... disgusting liquid. While using a small amount per hit, he will attack everything that is within his range. That also includes players, so be careful. Rumors are there might be a weapon that will never break when used in this \"machine\"...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13415,7 +13415,7 @@
     {
       "questID": 153,
       "name": "Simple item transfer",
-      "description": "Translocators can only transfer items over a distance of 1 block. But they\u0027re quite cheap, and a good solution to build compact machine setups.",
+      "description": "Translocators can only transfer items over a distance of 1 block. But they\u0027re quite cheap, and a good solution to build compact machine setups. They include a free simple item filter which can be enabled on the input or output side.  And they support multiple inputs and outputs! Glowstone will make it transfer faster - try investigating other upgrades.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -13492,7 +13492,7 @@
     {
       "questID": 154,
       "name": "Simple fluid transfer",
-      "description": "Just like the item translocators, the fluid ones transfer... fluids. Same restrictions apply, 1 block distance.",
+      "description": "Just like the item translocators, the fluid ones transfer... fluids. Same restrictions apply, 1 block distance. These can also be upgraded.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -14052,7 +14052,7 @@
     {
       "questID": 161,
       "name": "Paying the highest price",
-      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.\n\nIn tier 1 you only need to place the blood altar.",
+      "description": "When regular magic just isn\u0027t enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.\n\nIn tier 1 you only need to place the blood altar. Plan for the configuration to grow in size",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -14125,7 +14125,7 @@
     {
       "questID": 162,
       "name": "Dimensional goal: Moon",
-      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. Since you will need titanium in large quantities. \n\nHint: more info will be found in the Space Race quest tab.",
+      "description": "HV is the age where you should focus on reaching the Moon, as soon as possible. You will need titanium in large quantities. \n\nHint: more info will be found in the Space Race quest tab.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -14412,7 +14412,7 @@
     {
       "questID": 165,
       "name": "Soul eater",
-      "description": "Wouldn\u0027t it be great to actually make use of the intelligence or abilities a certain creature has? For example: the ender-teleportation or brain capacity of a zombie for simple logic? (He doesn\u0027t use it anyway...) With this machine, you are able to bind a captured soul to an item, which can then be used in machines to improve their functionality.",
+      "description": "Wouldn\u0027t it be great to actually make use of the intelligence or abilities a certain creature has? For example: enderman teleportation or brain capacity of a zombie for simple logic? (He doesn\u0027t use it anyway...) With this machine, you are able to bind a captured soul to an item, which can then be used in machines to improve their functionality.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -16523,7 +16523,7 @@
     {
       "questID": 183,
       "name": "Getting your first circuits",
-      "description": "Making the circuits is quite different from what you\u0027re used to, so it\u0027s advised to check NEI for the new recipes. Get 8 of each circuits for now.",
+      "description": "Making the circuits is quite different from what you\u0027re used to, so it\u0027s advised to check NEI for the new recipes. Get 8 of each circuit for now.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17185,7 +17185,7 @@
     {
       "questID": 190,
       "name": "Appropriate power",
-      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 5 in this pack. That means your nuclear reactor is 10 times more efficient.",
+      "description": "Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let\u0027s start with something more powerful: A nuclear reactor!\n\nHint:\nThe multiplier is set to 10x in this pack. That means your nuclear reactor is 10 times more efficient.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17404,7 +17404,7 @@
     {
       "questID": 193,
       "name": "Tier 1 fuel: Thorium",
-      "description": "The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect \"fire and forget\" power source.",
+      "description": "The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect \"fission and forget\" power source.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17625,7 +17625,7 @@
     {
       "questID": 196,
       "name": "Move the heat",
-      "description": "Reactors heat up, well the rods do, so you need to \"move the heat away\" to somewhere else. You should get one of each, and try to figure out what each individual heat exchangers does, in order to figure out a good setup.",
+      "description": "Reactors heat up, well the rods do, so you need to \"move the heat away\" to somewhere else. You should get one of each, and try to figure out what each individual heat exchanger does, in order to figure out a good setup.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18029,7 +18029,7 @@
     {
       "questID": 200,
       "name": "Advanced mob-protection",
-      "description": "Like the chandelier, the magnum torch prevents monsters from spawning. However, its range is quite big, so a single one might be enough for your entire base.",
+      "description": "Like the chandelier, the magnum torch prevents monsters from spawning. However, its range is quite big, so a single one might be enough for your entire base.\nDon\u0027t forget, monsters can still follow you home!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -20721,7 +20721,7 @@
     {
       "questID": 233,
       "name": "Getting shards",
-      "description": "Now that you found all six primal types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer.",
+      "description": "Now that you found all six primal types of infused stone, you need to break those up in order to get the shards. The easiest way to do that, is to throw these stones in your Forge Hammer. Later when you have a Sifter, you can sift purified ores for more shards. An autoclave can turn shard dust into a shard. Maybe there is a magical way to do the same thing?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -22407,7 +22407,7 @@
     {
       "questID": 252,
       "name": "This is the end...",
-      "description": "...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you\u0027ve already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither spawning right next to someone. Be careful, my friend...",
+      "description": "...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you\u0027ve already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend...",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -24039,7 +24039,7 @@
     {
       "questID": 274,
       "name": "Reactor material",
-      "description": "This stuff is interesting... Maybe I can use it as wand conductor?",
+      "description": "This stuff is interesting... Maybe I can use it as a wand conductor?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -26751,7 +26751,7 @@
     {
       "questID": 302,
       "name": "Useful plant life",
-      "description": "While regular plants are mostly used to make food, you are wondering if you could get some... \"more special\" plant life going...",
+      "description": "While regular plants are mostly used to make food, you are wondering if you could get some... \"more useful\" plant life going...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29241,7 +29241,7 @@
     },
     {
       "questID": 332,
-      "name": "Brewers start",
+      "name": "Fire burn and...",
       "description": "In order to get started with your basic witchery needs, you need a witches oven. It\u0027s used to get the most basic ingredients for your recipes: Fumes.",
       "isMain": false,
       "isSilent": false,
@@ -29401,7 +29401,7 @@
     },
     {
       "questID": 334,
-      "name": "A cauldron?",
+      "name": "...Cauldron bubble",
       "description": "The second thing you\u0027ll need is a cauldron. It is used to craft most of the basic items, like mutandis.",
       "isMain": false,
       "isSilent": false,
@@ -30309,7 +30309,7 @@
     {
       "questID": 345,
       "name": "Bloodlust: Seeping shoes",
-      "description": "Who needs an antidote?",
+      "description": "Who needs an antidote? Now with free fertilizer!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -30583,7 +30583,7 @@
     },
     {
       "questID": 349,
-      "name": "Be a vampire; Like a sir",
+      "name": "Be a vampire; Dress like a fancy person",
       "description": "Sometimes it can be troublesome to get fancy clothing. However, if you prove yourself worthy, you get a set for free.",
       "isMain": false,
       "isSilent": false,
@@ -30945,7 +30945,7 @@
     {
       "questID": 353,
       "name": "A problem that matters",
-      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow... \nBut... How?",
+      "description": "I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a massive star. But I can\u0027t really \"kill\" a sun for this. I need to compress matter somehow... \nBut... How?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -31413,7 +31413,7 @@
     {
       "questID": 360,
       "name": "A casing",
-      "description": "I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals we know and none of them meet the requirements. I heard you have access to the space? Can you try to find a suitable material while you\u0027re out there?",
+      "description": "I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals we know and none of them meet the requirements. I heard you have access to outer space? Can you try to find a suitable material while you\u0027re out there?",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -32073,7 +32073,7 @@
     {
       "questID": 371,
       "name": "We need to control it",
-      "description": "The problem is, that the immense power of this dust is released all at once. We need something to control the vast amount of energies. I noticed that the dust starts to glow when it gets near an aura node. Maybe Thaumaturgy has the solution?",
+      "description": "The problem is that the immense power of this dust is released all at once. We need something to control the vast amount of energies. I noticed that the dust starts to glow when it gets near an aura node. Maybe Thaumaturgy has the solution?",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -32274,7 +32274,7 @@
     {
       "questID": 375,
       "name": "An interesting material",
-      "description": "This metal has quite interesting properties. It seems, that it has absorbed some of the energy that exists in the End. While ender pearls are quite fragile, this metal is a lot more durable. However, the absorbed energy is not enough to teleport things around. But you might find a solution for this.",
+      "description": "This metal has quite interesting properties. It seems that it has absorbed some of the energy that exists in the End. While ender pearls are quite fragile, this metal is a lot more durable. However, the absorbed energy is not enough to teleport things around. But you might find a solution for this.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -32882,7 +32882,7 @@
     {
       "questID": 385,
       "name": "Draconic... Like... Dragon?",
-      "description": "Maybe you where looking for the right things in the wrong place. As this dust obviously origins from dragons, the best thing to do now is to find answers in the dimension of dragons: The End.",
+      "description": "Maybe you where looking for the right things in the wrong place. As this dust obviously comes from dragons, the best thing to do now is to find answers in the dimension of dragons: The End.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -33097,7 +33097,7 @@
     {
       "questID": 389,
       "name": "Draconic evolution",
-      "description": "Don\u0027t you hate it to manually compress all those tiny piles? Let\u0027s automate this process! A combination of a typefilter, a chest buffer (super buffer in HV) and a packager frees you from that annoying task. The chestbuffer can hold up to 9 tiny piles and the super buffer can hold all your tiny dusts and you can set its mode with a screwdriver on the output side. Set it to 9 and let the packager handle the rest.",
+      "description": "I found a way to combine technology and magic into something fantastic. A shiny blue emblem that emits immense amount of energy. I\u0027ve decided to call it the draconic core. Make one for yourself!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -35523,7 +35523,7 @@
     {
       "questID": 418,
       "name": "Spell foci",
-      "description": "You have nine basic elements and each have a focus, an item that represents them. You place this focus in your altar next to the spell table in order for your magic to flow through it and the paradigm.",
+      "description": "There are nine basic elements and each has a focus, an item that represents them. You place this focus in your altar next to the spell table in order for your magic to flow through it and the paradigm.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37023,7 +37023,7 @@
     {
       "questID": 435,
       "name": "Bound tools: Shovel",
-      "description": "Ever wanted to clear out a large terrain with dirt, gravel and sand? Why not let demons do it? This shovel, imbued with the soul of a demon will unleash the power on your will. But be warned: The demon you\u0027re about to summon with this is thirsty, and it costs a lot of LP to make use of it, so make sure your LP pool is full!",
+      "description": "Ever wanted to clear out a large terrain with dirt, gravel and sand? Why not let demons do it? This shovel, imbued with the soul of a demon will unleash the power by your will. But be warned: The demon you\u0027re about to summon with this is thirsty, and it costs a lot of LP to make use of it, so make sure your LP pool is full!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37290,7 +37290,7 @@
     {
       "questID": 438,
       "name": "Complex spell system",
-      "description": "Unlike the simple spells with foci and paradigm, the complex spell system is incredible... complex. There are way too much combinations to cover them here, so it\u0027s advised to look for the knowledge in other places. However, with the items from this quest, you are able to craft a simple mining spell.",
+      "description": "Unlike the simple spells with foci and paradigm, the complex spell system is incredibly...complex. There are way too much combinations to cover them here, so it\u0027s advised to look for the knowledge in other places. However, with the items from this quest, you are able to craft a simple mining spell.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37439,7 +37439,7 @@
     {
       "questID": 439,
       "name": "Steam \u003e Tier 2",
-      "description": "Three steam backpacks give a better one \u003d Tier 2.",
+      "description": "Three steam lootbags give a better one \u003d Tier 2.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37499,7 +37499,7 @@
     {
       "questID": 440,
       "name": "Oak trees are not apple trees",
-      "description": "Oak trees which give apples?  Who the hell added this to minecraft? You find a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.",
+      "description": "Oak trees which give apples?  Who the hell added this to minecraft? You found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37805,7 +37805,7 @@
     {
       "questID": 443,
       "name": "Tier 2 \u003e Tier 3",
-      "description": "Three Tier 2 backpacks give a better one \u003d Tier 3.",
+      "description": "Three Tier 2 lootbags give a better one \u003d Tier 3.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -37975,7 +37975,7 @@
     {
       "questID": 445,
       "name": "Tier 3 \u003e Tier 4",
-      "description": "Three Tier 3 backpacks give a better one \u003d Tier 4",
+      "description": "Three Tier 3 lootbags give a better one \u003d Tier 4",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38137,7 +38137,7 @@
     {
       "questID": 447,
       "name": "Tier 4 \u003e Tier 5",
-      "description": "Three Tier 4 backpacks give a better one \u003d Tier 5.",
+      "description": "Three Tier 4 lootbags give a better one \u003d Tier 5.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38272,7 +38272,7 @@
     {
       "questID": 449,
       "name": "Tier 5 \u003e Tier 6",
-      "description": "Three Tier 5 backpacks give a better one \u003d Tier 6.",
+      "description": "Three Tier 5 lootbags give a better one \u003d Tier 6.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38332,7 +38332,7 @@
     {
       "questID": 450,
       "name": "Your first long range weapon",
-      "description": "Since you can\u0027t make any vanilla bow before LV and Tinkers weapons are not in this Tier you find a way to make a spear out of sticks, leather and a string. Get one because some infernal monsters are easier to kill with a long range weapon.",
+      "description": "Since you can\u0027t make any vanilla bow before LV and Tinkers weapons are not in this Tier, you find a way to make a spear out of sticks, leather and a string. Get one because some infernal monsters are easier to kill with a long range weapon.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -38631,7 +38631,7 @@
     },
     {
       "questID": 455,
-      "name": "Trigger Unknwon Crystal",
+      "name": "Trigger Unknown Crystal",
       "description": "Triggered by finding a \"Mysterious Crystal\".",
       "isMain": false,
       "isSilent": false,
@@ -39437,8 +39437,8 @@
     },
     {
       "questID": 468,
-      "name": "Trigger Thuaminite Nugget",
-      "description": "Triggers if you get Thaumite Nuggets.",
+      "name": "Trigger Thauminite Nugget",
+      "description": "Triggers if you get Thauminite Nuggets.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40230,7 +40230,7 @@
     {
       "questID": 473,
       "name": "Making a better sword",
-      "description": "Now it\u0027s time to make your first tinkers sword. First you have to make blade, hand guard and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword.",
+      "description": "Now it\u0027s time to make your first tinkers sword. First you have to make blade, hand guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41040,7 +41040,7 @@
     {
       "questID": 480,
       "name": "Malachite",
-      "description": "Another copper source  is \"malachite\" which can be found between Y level 10 and 40. This vein contains more iron ore variants like \"brown limonite\", \"yellow limonite\" and \"banded iron ore\".\n\nHint:\nTo see where a special ore can be found click the raw ore in nei and it will show your more details. Works with small ores too.",
+      "description": "Another copper source  is \"malachite\" which can be found between Y level 10 and 40. This vein contains more iron ore variants like \"brown limonite\", \"yellow limonite\" and \"banded iron ore\".\n\nHint:\nTo see where a special ore can be found click the raw ore in nei and it will show you more details. Works with small ores too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41177,7 +41177,7 @@
     {
       "questID": 482,
       "name": "Animal farms",
-      "description": "Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you coul simply make a farm to get a decent amount of leather, wool and meat.",
+      "description": "Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat. Make sure you don\u0027t put too many animals in the pen or they will overcrowd and kill each other.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41532,7 +41532,7 @@
     {
       "questID": 484,
       "name": "Can you hear the carrots grow?",
-      "description": "Tired of waiting since your carrots grow sooooo slow... ?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will trade you some bone meal.",
+      "description": "Tired of waiting since your carrots grow sooooo slow?\nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will trade you some bone meal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41745,7 +41745,7 @@
     {
       "questID": 486,
       "name": "Tanned leather",
-      "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some bound leather from four pieces of leather, some strings and a woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather.",
+      "description": "You have found a way to make leather more durable and more resistant by further processing it. Make some bound leather from four pieces of leather, some strings and a woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather. Stockpile some for later.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42282,7 +42282,7 @@
     {
       "questID": 490,
       "name": "Horseback riding",
-      "description": "Are you ready for a small trip? With your new lunch box, saddle, lead and of course a horse we can start a small journey.",
+      "description": "Are you ready for a small trip? With your new lunch box, saddle, lead and of course a horse we can start a small journey. Be sure to make paths over water, horses don\u0027t like going over deep water.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42375,7 +42375,7 @@
     {
       "questID": 491,
       "name": "Sleeping outside",
-      "description": "Carrying the bed with you all the time the looks very funny. Why don\u0027t you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. Be warned: If you play on a server then you\u0027d better sleep below Y level 128, as nights are very cold in the mountains...",
+      "description": "Carrying the bed with you all the time the looks very funny. Why don\u0027t you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. This way if you die, you\u0027ll be right at home! Be warned: If you play on a server then you\u0027d better sleep below Y level 128, as nights are very cold in the mountains...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42767,7 +42767,7 @@
     {
       "questID": 494,
       "name": "Redstone",
-      "description": "If you didnt\u0027t find any Redstone veins, it is quite important to look for one now. Try your luck at Y level 5-40.",
+      "description": "If you didnt\u0027t find any Redstone veins yet, it is quite important to look for one now. Try your luck at Y level 5-40.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42980,7 +42980,7 @@
     {
       "questID": 496,
       "name": "How to make rubber",
-      "description": "Making rubber is now more complicated, you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn\u0027t it? Found on Y level 5-20.",
+      "description": "Making rubber is now more complicated - you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn\u0027t it? Found on Y level 5-20. Later on you can get sulfur from chemicals like hydrogren sulfide or pyrite.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -43638,7 +43638,7 @@
     {
       "questID": 503,
       "name": "Analyze them all",
-      "description": "Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties.",
+      "description": "Every bee has multiple properties that define what the bee does, how it behaves in rain or at night, and a couple of other aspects. It is mandatory to keep track of those properties. This kit isn\u0027t very good, but waste not, want not.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43869,7 +43869,7 @@
     {
       "questID": 506,
       "name": "To play god",
-      "description": "In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge, that seems to be available only on Mars. You will be able to continue, once you\u0027ve arrived there.\n\nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you will understand why you should look into the Genetics mod.",
+      "description": "In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be available only on Mars. You will be able to continue, once you\u0027ve arrived there.\n\nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you will understand why you should look into the Genetics mod.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -44323,7 +44323,7 @@
     {
       "questID": 510,
       "name": "Diamondware",
-      "description": "Also known as labware. Be prepared. In order to do serious bee-work, you need stacks of diamonds. I\u0027m not joking, stacks!",
+      "description": "Also known as labware. Be prepared. In order to do serious bee-work, you need stacks of diamonds. I\u0027m not joking, stacks! Better start working on that diamond bee!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45097,7 +45097,7 @@
     {
       "questID": 521,
       "name": "Only the Best: Fertility 4",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Bees bees everywhere!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45340,7 +45340,7 @@
     {
       "questID": 524,
       "name": "Only the Best: Speed Fastest",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Buzz buzz buzz, working hard and really buzzing!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45502,7 +45502,7 @@
     {
       "questID": 526,
       "name": "Only the Best: Rain",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Beekeeping in the rain!  Make sure to keep your GT machines covered!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45583,7 +45583,7 @@
     {
       "questID": 527,
       "name": "Only the Best: Day and Night",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Bee working day and night, all night and all day long!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45664,7 +45664,7 @@
     {
       "questID": 528,
       "name": "Only the Best: Cave",
-      "description": "On your way to awesome bees, you have to collect only the best traits available.",
+      "description": "On your way to awesome bees, you have to collect only the best traits available. Bees with Cave can work in housing that is covered - by more housing!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45895,7 +45895,7 @@
     {
       "questID": 531,
       "name": "Scanning bees, crops and moooooore!",
-      "description": "Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production. Data sticks with raw prospecting data need a scanner too.",
+      "description": "Automate your bee, sapling, or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production. Data sticks with raw prospecting data need a scanner too.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -45969,7 +45969,7 @@
     {
       "questID": 532,
       "name": "Diesel, oil or maybe creosote?",
-      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source.",
+      "description": "You probably collected a ton of creosote and maybe even have built your first \u0027electric\u0027 blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46214,7 +46214,7 @@
     {
       "questID": 535,
       "name": "Redstone, early game processing",
-      "description": "Are you wondering how to process redstone without any macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it. You will get pure redstone dust for your red alloy ingots.",
+      "description": "Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack. You will get pure redstone dust for your red alloy ingots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46477,7 +46477,7 @@
     {
       "questID": 537,
       "name": "Time to kill (Witch)",
-      "description": "Witches are always infernal and very dangerous. Be careful since they throw potions at you.",
+      "description": "Witches bring stitches because they are always infernal and very dangerous. Be careful since they throw potions at you.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -46936,8 +46936,8 @@
     },
     {
       "questID": 541,
-      "name": "A new alloy Cobalt Brass",
-      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027cobalt brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.",
+      "name": "A new alloy - Cobalt Brass",
+      "description": "If you want to cut diamond blocks into plates, it\u0027s time to get a new alloy \u0027cobalt brass\u0027.\nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.\n\nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47154,7 +47154,7 @@
     {
       "questID": 543,
       "name": "C9H8O4...NaCl...H2O...",
-      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dye? Then it\u0027s time to craft a chemical reactor.",
+      "description": "Want to make some cetane-boosted diesel, plastic or some chemical dyes? Then it\u0027s time to craft a chemical reactor.\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -47368,7 +47368,7 @@
     {
       "questID": 546,
       "name": "Hello Baron, how is your black gold today?",
-      "description": "During your travels you may have seen some of these huge oil wells. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a combustion generator or be refined. \nMining pipes are needed for pumping the oil.\n\nBring a combustion generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)",
+      "description": "During your travels you may have seen some of these huge oil spouts. Now it\u0027s time to go make a pump and put this black gold into tanks. Oil can be burned in a combustion generator or be refined. \nMining pipes are needed for pumping the oil.\n\nBring a combustion generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)\nTaller spouts have more oil!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -48023,7 +48023,7 @@
     {
       "questID": 554,
       "name": "Hey DJ, Mix it!",
-      "description": "The mixer is a very useful device. You can mix all kind of fluid and items. (Useful to prevent dust from falling to the ground when crafting.)",
+      "description": "The mixer is a very useful device. You can mix all kinds of fluids and items. Useful to prevent dust from falling to the ground when crafting - most mixer recipes give a slight boost over hand crafting!\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48171,7 +48171,7 @@
     {
       "questID": 556,
       "name": "Glyceryl trini...... what?",
-      "description": "Kids, today we will make some glyceryl trinitrate with some glycerol.\n    - Chemistry 101",
+      "description": "Kids, today we will make some glyceryl trinitrate (aka Nitroglycerin) with some glycerol.\n    - Chemistry 101",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48339,8 +48339,8 @@
     },
     {
       "questID": 558,
-      "name": "Where can I put all the items in?",
-      "description": "After you make your first steel you\u0027re able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it\u0027s a bit bigger than a small chest.",
+      "name": "What can I put all these items in?",
+      "description": "After you make your first steel you\u0027re able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it\u0027s a bit bigger than a small chest. Later you can make it even larger. You can put one on your back and set it to automatically pick up stuff. The maximum you can have in your inventory at once is 4.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48651,7 +48651,7 @@
     {
       "questID": 560,
       "name": "Railcraft steam power",
-      "description": "As an alternative way to steam you can use the railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.",
+      "description": "As an alternative way to make steam you can use the railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -48765,7 +48765,7 @@
     {
       "questID": 561,
       "name": "Liquid fuelled firebox",
-      "description": "Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.\nDiesel, ethanol, creosote and biofuel all work well here.",
+      "description": "Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.\nDiesel, ethanol, creosote and biodiesel all work well here.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50488,8 +50488,8 @@
     },
     {
       "questID": 581,
-      "name": "Tubes",
-      "description": "Before you can craft your first farm block you need apatite tubes. Make some apatite long rods first (Using a lathe or extruder). You need golden bolts and a red alloy plate.\nPut some glass or sand into your thermionic fabricator and make your first tubes.",
+      "name": "A Series of Tubes",
+      "description": "Before you can craft your first farm block you need apatite tubes. Make some apatite rods first with a lathe, then use a forge hammer to join them into long apatite rods. You need golden bolts and a red alloy plate.\nPut some glass or sand into your thermionic fabricator and make your first tubes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -50618,7 +50618,7 @@
     {
       "questID": 582,
       "name": "Your first multiblock farm",
-      "description": "The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). For water input you need a valve, items go through the hatches, and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the carpenter when crafting the different farm blocks.",
+      "description": "The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). For water input you need a valve, items go through the hatches, and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the carpenter when crafting the different farm blocks. If you need the farm to work faster, just add more gearboxes.\nYou can use Orchard mode to collect Pam foods and Natura products. You can even mix and match modes on the same farm - logging and collecting fruit from trees, for example.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -72249,7 +72249,7 @@
     {
       "questID": 784,
       "name": "It\u0027s time to get more steam",
-      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
+      "description": "As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.\n\nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.\n\nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -86311,7 +86311,7 @@
     {
       "questID": 916,
       "name": "Time to kill (Wither)",
-      "description": "After collecting a couple of those wither skeleton heads, you feel like you could use some more action. So why not kill a wither? You\u0027ll need a ton of nether stars anyway...",
+      "description": "After collecting a couple of those wither skeleton heads, you feel like you could use some more action. So why not kill a wither? You\u0027ll need a ton of nether stars anyway...\n\nKill it twice for something nice.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -88437,7 +88437,7 @@
     {
       "questID": 930,
       "name": "Auto Mining",
-      "description": "A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 32 EU/t to work; with an 8V Solar panel it works at 25% speed. The miner searches for ores in a 16 block radius.",
+      "description": "A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 8 EU/t to work. The miner searches for ores in a 16 block radius. Don\u0027t forget to cover it up!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89530,7 +89530,7 @@
     {
       "questID": 940,
       "name": "Cleanroom",
-      "description": "If you want to make more advanced circuits you\u0027ll need a cleanroom. The cleanroom is a multiblock between 5x4x5 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you\u0027ll need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room.",
+      "description": "If you want to make more advanced circuits you\u0027ll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxD) blocks. Besides plascrete blocks for all edges you\u0027ll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -105560,7 +105560,7 @@
     {
       "questID": 1107,
       "name": "The Iron Guy",
-      "description": "Do you feel lonely? Need some extra protection in your base?\nCraft some Iron Golems and the monster problem inside your base will be gone.",
+      "description": "Do you feel lonely? Need some extra protection in your base? Want to keep the pigmen off your back in the Nether?\nCraft some Iron Golems and the monster problem inside your base will be gone.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -109424,7 +109424,7 @@
     {
       "questID": 1130,
       "name": "Extra Modifier",
-      "description": "If you don\u0027t have an extra modifier on your tool you can easily add one.\nA gold block and a diamond are all you need.",
+      "description": "If you don\u0027t have an extra modifier on your tool you can easily add one.\nA gold block and a diamond are all you need.\nYou can add two more modifiers, but you need to figure out how yourself.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111219,7 +111219,7 @@
     {
       "questID": 1147,
       "name": "GT 6 styled Wires and Cables",
-      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.\n\nHint: If you click one wire or cable on the other it will auto-connect. ",
+      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.\n\nHint: If you click one wire or cable on the other it will auto-connect. Cables and pipes can be painted to make sure you do not cross your MV line with your EV line, or dump hot lava into your plastic water pipes. No boom today.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112137,7 +112137,7 @@
     {
       "questID": 1154,
       "name": "Magnalium Crossbow Bolts",
-      "description": "Magnalium bolts are much better than your old wooden bolts.\nYou can use nether quartz on the bolts to make them even better. \nThis requires a free modifier slot.",
+      "description": "Magnalium bolts are much better than your old wooden bolts.\nYou can use nether quartz on the bolts to make them even better. \nThis requires a free modifier slot.\nNOTE: Unlike other tinker tools and weapons, bolts cannot be upgraded.  You will need to make a fresh one. Experiment with NEI to find other good bolt materials. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112464,8 +112464,8 @@
     },
     {
       "questID": 1156,
-      "name": "Iron Bolts",
-      "description": "Your crossbow need some ammo to shoot with. Let\u0027s craft some wooden bolts with an iron tip.",
+      "name": "Iron Tipped Bolts",
+      "description": "Your crossbow need some ammo to shoot with. Let\u0027s craft some wooden bolts with an iron tip. You\u0027ll need to pump smeltery iron into a fluid solidifier.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114336,7 +114336,7 @@
     {
       "questID": 1178,
       "name": "Food 2.0",
-      "description": "Forget everything you know about food and values. With your new canning machine you are able to fill tin cans with very nourishing food. This food can be consumed in milliseconds and makes you full and happy. And you can eat as much as you want without getting tired of the food.",
+      "description": "Forget everything you know about food and values. With your new canning machine you are able to fill tin cans with very nourishing food. This food can be consumed in milliseconds and makes you full and happy. And you can eat as much as you want without getting tired of the food.\nEating before you are starving restores saturation and conserves cans.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114587,7 +114587,7 @@
     {
       "questID": 1180,
       "name": "Chunkloading",
-      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 1 hour per pearl. Read up on the differences.",
+      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 1 hour per pearl. World anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -116210,8 +116210,8 @@
     },
     {
       "questID": 1197,
-      "name": "Fusion reactor MK2",
-      "description": "Now that you have some europium, put it to use by making an mk2 reactor. This one will require the same block placement, but replacing LuV casings with fusion casings, and using ZPM tier hatches. This reactor can handle recipes up to 65536eu/t and 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster. ",
+      "name": "Fusion reactor MK2 - bigger, better, fusor",
+      "description": "Now that you have some europium, put it to use by making an mk2 reactor. This one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. This reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -116360,7 +116360,7 @@
     {
       "questID": 1198,
       "name": "Upgrading the reactor",
-      "description": "A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of inputting up to 8192eu/t, and can take as little as 8192eu/t to run, and up to 2 amps of 524288eu/t before it explodes. ",
+      "description": "A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -116509,7 +116509,7 @@
     {
       "questID": 1199,
       "name": "Making americium",
-      "description": "Before you can upgrade your reactor, you will need americium. The recipe to make it will seem expensive, but once you make the next tier of reactor, you will unlock a simplier and cheaper recipe. You will need at least 128 plates for for the reactor casings, 9 to scan for the the recipe, and 4 for the recipe itself. ",
+      "description": "Before you can upgrade your reactor, you will need americium. The recipe to make it will seem expensive, but once you make the next tier of reactor, you will unlock a simpler and cheaper recipe. You will need at least 128 plates for for the reactor casings, 9 to scan for the the recipe, and 4 for the recipe itself. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -116794,7 +116794,7 @@
     {
       "questID": 1201,
       "name": "Turbine Time",
-      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate",
+      "description": "Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn\u0027t also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -117612,7 +117612,7 @@
     {
       "questID": 1212,
       "name": "Starting Fusion",
-      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch inputs 2048eu/t, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesnï¿½t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
+      "description": "Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn\u0027t matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -120938,7 +120938,7 @@
     {
       "questID": 1241,
       "name": "Radeon",
-      "description": "Radon is used for quantum eyes, quantum stars and emitters and sensors in the EV machines. Try to find a Pitchblend vein first and/or recycle your plutonium and uranium from your reactor.\n\nThis Vein can be found on Mars and Phobos.",
+      "description": "Radon is used for quantum eyes, quantum stars and emitters and sensors in the EV machines. Try to find a Pitchblende vein first and/or recycle your plutonium and uranium from your reactor.\n\nThis Vein can be found on Mars and Phobos.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -132369,8 +132369,8 @@
     },
     {
       "questID": 1371,
-      "name": "LOX Cannister, refill your Tanks",
-      "description": "To make liquid oxygen you need 16 oxygen cells and a universal fluid cell. Put them in the assember to get 1 cell of compressed oxygen.\nAfter this put it in the vacuum freezer and wait a bit.\nNow you get some liquid air. Fill it into a empty galacticraft cannister to get a good air backup for your tanks.\nTo refill your oxygen tanks just put both in the crafting grid to transfer oxygen.",
+      "name": "LOX and Bagels",
+      "description": "The LOX canister is an alternate solution to refilling your oxygen tanks.\nTo make liquid oxygen you need 16 oxygen cells, a universal fluid cell, and a circuit config 16. Transfer the oxygen gas into an MV+ assembler, and put in the universal fluid cell and circuit to get 1 cell of compressed oxygen.\nPut this in the vacuum freeezer to get 1 cell of liquid oxygen.\nTransfer this liquid oxygen into a tank, and then into a LOX canister.\nTo refill your oxygen tanks just put the tank and the LOX canister in the crafting grid to transfer oxygen.\nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.\n\nSo much Greggy!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -136211,7 +136211,7 @@
     {
       "questID": 1412,
       "name": "Assembling Line",
-      "description": "The assembling line short form \u0027Ass Line\u0027 is a multiblock and important for high tier Components in LUV tier and obove for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5–16 blocks long. The minimum length requires depends on the number of components and fluids required by the recipe it\u0027s crafting. A length of 11 blocks will be recommened to fit for 80% of all recipes in GTNH.\n\nFirst layer have on the outer side input hatches for fluids (4) in the middle layer input busses for items(10) and on the end 1 output bus. on the outer layer you have to add one maintainance hatch the rest is steel machine casings.\n\nThe second layer have on the outer sides left and right reinforced Glass blocks and in the middle assembling line cases.\n\nThe third layer have left and right grate casings and in the middel assembling machine casings. Controlblock and Data Acess hatch goes to one side.\n\nThe forth layer have steel machine caings (11)",
+      "description": "The assembling line (short form \u0027Ass Line\u0027) is a multiblock and important for high tier Components in LuV tier and above for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it\u0027s crafting. A length of 11 blocks will fit 80% of all recipes in GTNH.\nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items(10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.\n\nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.\n\nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.\n\nThe fourth layer is a single line of Solid Steel Machine Casings in the middle(11), with one Energy Hatch for power.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -136673,6 +136673,350 @@
       "preRequisites": [
         186
       ]
+    },
+    {
+      "questID": 1416,
+      "name": "Mallard Rust Smelly",
+      "description": "Or is it Alloy Blast Smelter? Well, that makes more sense. This multibock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1417,
+      "name": "Cough cough - Something needs to be done about the smell",
+      "description": "Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small steel turbines should be fine for now. You\u0027ll need two amps of steady power to keep the scrubber working.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 756
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "miscutils:itemAirFilter",
+              "Count": 11,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "AirFilter:10": {
+                  "Damage:4": 0
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 170
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 759
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        77
+      ]
+    },
+    {
+      "questID": 1418,
+      "name": "EU packets flowing everywhere...",
+      "description": "...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let\u0027s start working on a Power Sub-Station to store EU and deliver it to our base.              ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1419,
+      "name": "Who cares about a little cancer...",
+      "description": "...when it means you don\u0027t have to strip naked to recharge your nanosuit? \nThe Wireless Charger will keep your armor and tools charged up without \nhaving to put them into a battery buffer. \n\nYou didn\u0027t want kids anyways...     ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 892
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 892
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        779
+      ]
+    },
+    {
+      "questID": 1420,
+      "name": "Shake that booty...",
+      "description": "...out of the purified ores.  Anyways, a Large Sifter will increase your sifting rate significantly. What will you do with all these gems??",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1421,
+      "name": "Hulk Smash!",
+      "description": "Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration statck to keep up with all the ores you are getting.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1422,
+      "name": "The rocks in the washer...",
+      "description": "...go round and round, all the live long day. A large orewashing plant gets your rocks nice and clean.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 1423,
+      "name": "Dancing in circles",
+      "description": "Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge.  Build a large thermal refinery to get the most out of your ores.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
     }
   ],
   "questLines": [
@@ -141752,6 +142096,52 @@
           "id": 1412,
           "x": 288,
           "y": 252
+        }
+      ]
+    },
+    {
+      "name": "GT++ Multiblocks",
+      "description": "GT++ adds new functionality to GT, including high speed multiblocks - Under Construction",
+      "quests": [
+        {
+          "id": 1416,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 1417,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 1418,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 1419,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 1420,
+          "x": 336,
+          "y": 0
+        },
+        {
+          "id": 1421,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 1422,
+          "x": 240,
+          "y": 0
+        },
+        {
+          "id": 1423,
+          "x": 288,
+          "y": 0
         }
       ]
     },
