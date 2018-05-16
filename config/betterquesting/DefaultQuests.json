@@ -16272,7 +16272,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -122376,7 +122376,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -127421,7 +127421,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -127674,7 +127674,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -136694,15 +136694,33 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 810
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 810
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
-      "preRequisites": []
+      "preRequisites": [
+        213
+      ]
     },
     {
       "questID": 1417,
@@ -136724,10 +136742,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 758
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -136822,15 +136840,33 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 812
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 812
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
-      "preRequisites": []
+      "preRequisites": [
+        861
+      ]
     },
     {
       "questID": 1419,
@@ -136918,15 +136954,33 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 840
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 840
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
-      "preRequisites": []
+      "preRequisites": [
+        213
+      ]
     },
     {
       "questID": 1421,
@@ -136948,15 +137002,33 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 797
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 797
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
-      "preRequisites": []
+      "preRequisites": [
+        213
+      ]
     },
     {
       "questID": 1422,
@@ -136978,15 +137050,33 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 850
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 850
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
-      "preRequisites": []
+      "preRequisites": [
+        213
+      ]
     },
     {
       "questID": 1423,
@@ -137008,15 +137098,33 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 849
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 849
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
-      "preRequisites": []
+      "preRequisites": [
+        213
+      ]
     }
   ],
   "questLines": [
