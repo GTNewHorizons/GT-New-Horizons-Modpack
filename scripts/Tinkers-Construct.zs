@@ -1689,6 +1689,13 @@ recipes.addShaped(<TConstruct:ToolStationBlock:10>, [
 [<ore:stickWood>, <TConstruct:blankPattern>, <ore:stickWood>],
 [<minecraft:fence>, <ore:stickWood>, <minecraft:fence>],
 [null, <ore:craftingToolSoftHammer>, null]]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:11>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:12>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:13>]);
+
 
 // --- Stencil Table Spruce
 recipes.addShaped(<TConstruct:ToolStationBlock:11>, [
