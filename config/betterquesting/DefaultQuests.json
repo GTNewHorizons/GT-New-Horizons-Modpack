@@ -81235,7 +81235,8 @@
       ],
       "preRequisites": [
         78,
-        1012
+        1012,
+        1424
       ]
     },
     {
@@ -137125,6 +137126,107 @@
       "preRequisites": [
         213
       ]
+    },
+    {
+      "questID": 1424,
+      "name": "Find Titanium",
+      "description": "If you are lucky you will find a pure Titanium veins to make the process much easier.\nTitanium can be found on moon at Y Level 10-70.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 28
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 28
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 825
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 842
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 925
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        162
+      ]
     }
   ],
   "questLines": [
@@ -139294,8 +139396,8 @@
         },
         {
           "id": 860,
-          "x": 342,
-          "y": 306
+          "x": 348,
+          "y": 384
         },
         {
           "id": 932,
@@ -139414,7 +139516,7 @@
         },
         {
           "id": 1012,
-          "x": 342,
+          "x": 348,
           "y": 348
         },
         {
@@ -139571,6 +139673,11 @@
           "id": 1411,
           "x": 168,
           "y": 444
+        },
+        {
+          "id": 1424,
+          "x": 288,
+          "y": 384
         }
       ]
     },
