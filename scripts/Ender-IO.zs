@@ -585,7 +585,7 @@ recipes.addShaped(<EnderIO:blockEnderIo>, [
 recipes.addShaped(<EnderIO:blockTravelAnchor>, [
 [ESteelPlate, PIPlate, ESteelPlate],
 [PCrystal, MCasing, PCrystal],
-[ESteelPlate, PIPlate, ESteelPlate]]);
+[ESteelPlate, <gregtech:gt.metaitem.01:32670>, ESteelPlate]]);
 
 // --- Telepad Block
 recipes.addShaped(<EnderIO:blockTelePad>, [

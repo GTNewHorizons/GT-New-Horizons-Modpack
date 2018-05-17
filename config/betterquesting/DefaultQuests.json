@@ -11744,7 +11744,7 @@
     {
       "questID": 133,
       "name": "The power of enderman",
-      "description": "Elevators are nice, but they are limited to vertical teleportation, and their range is also somewhat limited. Travel anchors do not have that limitation. You can teleport from one anchor to any other within range. You can name them and even set them as private. They have a 5s cooldown.",
+      "description": "Elevators are nice, but they are limited to vertical teleportation, and their range is also somewhat limited. Travel anchors do not have that limitation. You can teleport from one anchor to any other within range. You can name them and even set them as private. They have a 2s cooldown.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
