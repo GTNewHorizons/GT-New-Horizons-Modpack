@@ -116509,7 +116509,7 @@
     {
       "questID": 1199,
       "name": "Making americium",
-      "description": "Before you can upgrade your reactor, you will need americium. The recipe to make it will seem expensive, but once you make the next tier of reactor, you will unlock a simpler and cheaper recipe. You will need at least 128 plates for for the reactor casings, 9 to scan for the the recipe, and 4 for the recipe itself. ",
+      "description": "Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simplier and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
