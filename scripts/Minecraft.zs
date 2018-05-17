@@ -3278,6 +3278,9 @@ CuttingSaw.addRecipe(<minecraft:stone_button> * 2, null, <minecraft:stone_pressu
 // --- Blazepowder
 Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
 
+// --- Quicksilver
+Extractor.addRecipe(<Thaumcraft:ItemResource:3>, <Thaumcraft:blockCustomPlant:2>);
+
 // --- Wheat
 Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);
 
