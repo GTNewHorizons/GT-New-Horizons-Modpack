@@ -163,7 +163,7 @@ Infusion.addRecipe("TB.VoidAnvil",<thaumicbases:thaumicAnvil>,
 // --- Void Seed
 Infusion.addRecipe("TB.VoidSeed",<Thaumcraft:ItemResource:17>,
 [<thaumicbases:lazulliaSeeds>,<thaumicbases:lucriteSeeds>,<thaumicbases:redlonSeeds>,<thaumicbases:rainbowCactus>,<thaumicbases:metalleatSeeds>,<thaumicbases:plaxSeed>,<thaumicbases:briar>,<thaumicbases:aurelia>,<thaumicbases:ashroom>,<thaumicbases:knoseSeed>,<thaumicbases:flaxium>,<thaumicbases:glieoniaSeed>],
-"messis 512,herba 512,victus 256,auram 256,praecantatio 128,alienis 128,tenebrae 128,desidia 64,nebrisum 32",<thaumicbases:voidSeed>,10);
+"messis 64, herba 64, victus 32, auram 32, praecantatio 16, alienis 16, tenebrae 16, desidia 8, nebrisum 8",<thaumicbases:voidSeed>,10);
 
 // --- Thauminite Wand Caps
 Infusion.addRecipe("CAP_thauminite",<dreamcraft:item.ChargedThaumiumWandCap>,
