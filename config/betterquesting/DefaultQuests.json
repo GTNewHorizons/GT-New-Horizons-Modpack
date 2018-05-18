@@ -96623,7 +96623,7 @@
     {
       "questID": 1007,
       "name": "Power of the Sun 1x1 HV",
-      "description": "Put those 512 eu panels on a block to make them placeable in the world. Use an MV assembler to combine the panel with an HV hull.",
+      "description": "Put those 512 eu panels on a block to make them placeable in the world. Use an EV assembler to combine the panel with an HV hull.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
