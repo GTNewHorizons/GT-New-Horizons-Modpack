@@ -55,6 +55,9 @@ recipes.remove(<Ztones:splatAxe>);
 // --- Terrain Eater
 recipes.remove(<Ztones:terrainEater>);
 
+// --- Cobblestone
+recipes.removeShapeless(<minecraft:cobblestone>, [<Ztones:ofanix>]);
+
 
 
 
