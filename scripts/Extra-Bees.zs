@@ -66,11 +66,9 @@ mods.forestry.Carpenter.removeRecipe(<ExtraBees:misc>);
 
 
 // --- Apiarist Database
-mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1440, 
-[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17501>, <gregtech:gt.metaitem.01:27500>, 
-<IC2:itemCasing:3>, <IC2:itemPartCircuitAdv>, <IC2:itemCasing:3>, 
-<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>], 
-<Forestry:beealyzer>, <ExtraBees:dictionary>);
+mods.forestry.Carpenter.addRecipe(<ExtraBees:dictionary>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17501>, <gregtech:gt.metaitem.01:27500>],
+														  [<IC2:itemCasing:3>, <ore:circuitAdvanced>, <IC2:itemCasing:3>], 
+                                                          [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 1440, 60, <Forestry:beealyzer>);
 
 // --- Mutator
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500, 
@@ -100,7 +98,6 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500,
 <Forestry:thermionicTubes:2>, <minecraft:stained_glass:*>, <Forestry:thermionicTubes:2>], 
 <Forestry:alveary>, <ExtraBees:alveary:3>);
 
-
 // --- Electrical Stimulator
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.blockmachines:1460>, <Forestry:thermionicTubes:1>, 
@@ -116,11 +113,9 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500,
 <Forestry:alveary>, <ExtraBees:alveary:5>);
 
 // --- Alveary Transmission
-mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500, 
-[<Forestry:thermionicTubes>, <IC2:itemPartCircuitAdv>, <Forestry:thermionicTubes>, 
-<gregtech:gt.blockmachines:1587>, <gregtech:gt.blockmachines:13>, <gregtech:gt.blockmachines:1587>, 
-<Forestry:thermionicTubes>, <gregtech:gt.blockmachines:1587>, <Forestry:thermionicTubes>], 
-<Forestry:alveary>, <ExtraBees:alveary:6>);
+mods.forestry.Carpenter.addRecipe(<ExtraBees:alveary:6>, [[<Forestry:thermionicTubes>, <ore:circuitAdvanced>, <Forestry:thermionicTubes>],
+														  [<gregtech:gt.blockmachines:1587>, <gregtech:gt.blockmachines:13>, <gregtech:gt.blockmachines:1587>], 
+                                                          [<Forestry:thermionicTubes>, <gregtech:gt.blockmachines:1587>, <Forestry:thermionicTubes>]], <liquid:for.honey> * 7500, 60, <Forestry:alveary>);
 
 // --- Scented Gear
 mods.forestry.Carpenter.addRecipe(20, <liquid:for.honey> * 1000, 

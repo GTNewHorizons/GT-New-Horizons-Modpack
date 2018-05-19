@@ -93,18 +93,14 @@ recipes.remove(<ExtraTrees:multifence:*>);
 
 
 // --- Arborist Database
-mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1440, 
-[<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:3>, <gregtech:gt.metaitem.01:27500>, 
-<gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17501>, 
-<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:3>, <gregtech:gt.metaitem.01:27500>], 
-<Forestry:treealyzer>, <ExtraTrees:database>);
+mods.forestry.Carpenter.addRecipe(<ExtraTrees:database>, [[<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:3>, <gregtech:gt.metaitem.01:27500>],
+														 [<gregtech:gt.metaitem.01:17500>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:17501>], 
+                                                         [<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:3>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 1440, 60, <Forestry:treealyzer>);
 
 // --- Lepidopterist Database
-mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1440, 
-[<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:3>, <gregtech:gt.metaitem.01:27500>, 
-<gregtech:gt.metaitem.01:17501>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>, 
-<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:3>, <gregtech:gt.metaitem.01:27500>], 
-<Forestry:flutterlyzer>, <ExtraTrees:databaseMoth>);
+mods.forestry.Carpenter.addRecipe(<ExtraTrees:databaseMoth>, [[<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:3>, <gregtech:gt.metaitem.01:27500>],
+														 [<gregtech:gt.metaitem.01:17501>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:17500>], 
+                                                         [<gregtech:gt.metaitem.01:27500>, <IC2:itemCasing:3>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 1440, 60, <Forestry:flutterlyzer>);
 
 // --- Lumbermill
 recipes.addShaped(<ExtraTrees:machine>, [
