@@ -84040,12 +84040,6 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 27028
-            },
-            {
-              "id": "Thaumcraft:ItemResource",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 15
             }
           ],
           "taskID": "bq_standard:retrieval"
