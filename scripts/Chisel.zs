@@ -92,6 +92,9 @@ recipes.remove(<chisel:voidstone2>);
 // --- Concrete
 furnace.remove(<chisel:concrete>);
 
+// --- Torch
+mods.chisel.Groups.removeVariation(<minecraft:torch>);
+
 
 
 
@@ -373,6 +376,11 @@ mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:13>);
 mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:14>);
 // -
 mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:15>);
+
+
+// --- Torch
+mods.chisel.Groups.addVariation("torch", <GalacticraftCore:tile.glowstoneTorch>);
+
 
 
 
