@@ -2217,16 +2217,6 @@ mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_
 mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
 mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
 
-// --- Primordrial Pearl
-mods.thaumcraft.Research.moveResearch("PRIMORDRIALPEARL","NEWHORIZONS",4,-2);
-game.setLocalization("tc.research_name.PRIMORDRIALPEARL", "Primordial Pearl");
-game.setLocalization("tc.research_text.PRIMORDRIALPEARL", "[TC] You found a magical Way of duplication");
-mods.thaumcraft.Research.addPrereq("PRIMORDRIALPEARL", "ICHORIUM", false);
-mods.thaumcraft.Research.setConcealed("PRIMORDRIALPEARL", true);
-mods.thaumcraft.Research.setRound("PRIMORDRIALPEARL", true);
-game.setLocalization("tc.research_page.PRIMORDRIALPEARL.1", "You have started to understand how primodial pearls work and found a way to replicate them for future use. By hammering the primodial pearl into 3 pieces, you found that its losing energy really quickly. Perhaps, there is a way to reform each pieces them into a pearl.");
-mods.thaumcraft.Warp.addToResearch("PRIMORDRIALPEARL", 20);
-
 
 
 // --- Hiding Stuff ----
