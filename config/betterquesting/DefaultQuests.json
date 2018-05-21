@@ -48000,13 +48000,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinChemist",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "Count": 25,
               "OreDict": "",
               "Damage": 0
             }
@@ -75305,6 +75305,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
               "OreDict": "",
@@ -75696,6 +75702,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
@@ -76186,6 +76198,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
               "OreDict": "",
@@ -76366,7 +76384,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32690
+              "Damage": 32692
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -76759,13 +76777,13 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32601
+              "Damage": 32602
             },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32611
+              "Damage": 32612
             },
             {
               "id": "gregtech:gt.blockmachines",
@@ -76881,13 +76899,13 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 32610
+              "Damage": 32612
             },
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32600
+              "Damage": 32602
             },
             {
               "id": "GalacticraftCore:tile.oxygenPipe",
@@ -77525,7 +77543,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32600
+              "Damage": 32602
             },
             {
               "id": "GalacticraftCore:item.airFan",
@@ -77665,7 +77683,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32601
+              "Damage": 32602
             },
             {
               "id": "GalacticraftCore:item.oilCanisterPartial",
@@ -77677,7 +77695,7 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
-              "Damage": 32641
+              "Damage": 32642
             },
             {
               "id": "GalacticraftCore:item.basicItem",
@@ -101647,7 +101665,7 @@
       "questID": 1072,
       "name": "Moon arrival",
       "description": "I have a small present for you: a Talisman of Remedium which is very useful to persevere during the dark nights with all these monsters.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -101773,13 +101791,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSpaceII",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinAdventureII",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -137483,6 +137501,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 2,
               "OreDict": "",
@@ -137617,6 +137641,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 2,
@@ -138112,6 +138142,12 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 2,
               "OreDict": "",
@@ -138348,6 +138384,12 @@
         },
         {
           "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 1,
@@ -138646,10 +138688,10 @@
               "Damage": 0
             },
             {
-              "id": "GalacticraftCore:item.basicItem",
+              "id": "GalacticraftCore:item.meteoricIronIngot",
               "Count": 14,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 1
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -138786,6 +138828,271 @@
       ],
       "preRequisites": [
         186
+      ]
+    },
+    {
+      "questID": 1439,
+      "name": "Permanent Oxygen Systems",
+      "description": "You decided to have a longer stay on the moon and look for a permernent oxygen setup to refill your outdoor gear and building a small Base.\n\nDon\u0027t forget to bring repair stuff for your tools and armor! Dream 2018!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "thaumcraftneiplugin:Aspect",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Aspects:9": [
+            {
+              "amount:4": 2,
+              "key:8": "aer"
+            }
+          ]
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glass",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:tile.oxygenCollector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:tile.oxygenCompressor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:tile.distributor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leaves",
+              "Count": 64,
+              "OreDict": "treeLeaves",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:log",
+              "Count": 16,
+              "OreDict": "logWood",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32538,
+              "tag": {
+                "GT.ItemCharge:4": 1600000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "GalacticraftCore:item.oxygenTankLightFull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1371,
+        1440
+      ]
+    },
+    {
+      "questID": 1440,
+      "name": "Oxygen Bauble Distributer",
+      "description": "The Oxygen Bubble Distributor takes oxygen from the Oxygen Collector, and makes an oxygen bubble providing an area to safely breathe in without needing Oxygen Gear. The bubble is a sphere surrounding the distributor and will go through walls (or any block). Alternatively, you can use an Oxygen Sealer (need compressed Desh Plates)to contain oxygen inside a room.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:tile.distributor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32602
+            },
+            {
+              "id": "GalacticraftCore:item.airVent",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.airFan",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.distributor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leaves",
+              "Count": 512,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        810
       ]
     }
   ],
@@ -144459,193 +144766,203 @@
       "quests": [
         {
           "id": 809,
-          "x": 132,
+          "x": 120,
           "y": 0
         },
         {
           "id": 810,
-          "x": 132,
+          "x": 120,
           "y": 216
         },
         {
           "id": 811,
-          "x": 48,
+          "x": 36,
           "y": 60
         },
         {
           "id": 812,
-          "x": 132,
+          "x": 120,
           "y": 60
         },
         {
           "id": 813,
-          "x": 168,
+          "x": 156,
           "y": 96
         },
         {
           "id": 814,
-          "x": 96,
+          "x": 84,
           "y": 96
         },
         {
           "id": 815,
-          "x": 216,
+          "x": 204,
           "y": 96
         },
         {
           "id": 816,
-          "x": 264,
+          "x": 252,
           "y": 132
         },
         {
           "id": 817,
-          "x": 264,
+          "x": 252,
           "y": 96
         },
         {
           "id": 818,
-          "x": 300,
+          "x": 288,
           "y": 132
         },
         {
           "id": 819,
-          "x": 48,
+          "x": 36,
           "y": 96
         },
         {
           "id": 820,
-          "x": 96,
+          "x": 84,
           "y": 216
         },
         {
           "id": 821,
-          "x": 48,
+          "x": 0,
           "y": 216
         },
         {
           "id": 822,
-          "x": 300,
+          "x": 288,
           "y": 0
         },
         {
           "id": 823,
-          "x": 264,
+          "x": 252,
           "y": 0
         },
         {
           "id": 824,
-          "x": 300,
+          "x": 288,
           "y": 96
         },
         {
           "id": 827,
-          "x": 48,
-          "y": 156
+          "x": 36,
+          "y": 216
         },
         {
           "id": 828,
-          "x": 348,
+          "x": 336,
           "y": 132
         },
         {
           "id": 829,
-          "x": 348,
+          "x": 336,
           "y": 96
         },
         {
           "id": 830,
-          "x": 348,
+          "x": 336,
           "y": 0
         },
         {
           "id": 831,
-          "x": 84,
+          "x": 72,
           "y": 0
         },
         {
           "id": 832,
-          "x": 48,
+          "x": 36,
           "y": 0
         },
         {
           "id": 1067,
-          "x": 168,
+          "x": 156,
           "y": 216
         },
         {
           "id": 1068,
-          "x": 96,
+          "x": 84,
           "y": 252
         },
         {
           "id": 1072,
-          "x": 132,
-          "y": 300
+          "x": 156,
+          "y": 252
         },
         {
           "id": 1371,
-          "x": 0,
-          "y": 156
+          "x": 36,
+          "y": 300
         },
         {
           "id": 1426,
-          "x": 168,
+          "x": 192,
           "y": 252
         },
         {
           "id": 1427,
-          "x": 312,
+          "x": 300,
           "y": 252
         },
         {
           "id": 1428,
-          "x": 312,
+          "x": 300,
           "y": 216
         },
         {
           "id": 1429,
-          "x": 312,
+          "x": 300,
           "y": 300
         },
         {
           "id": 1430,
-          "x": 240,
+          "x": 228,
           "y": 252
         },
         {
           "id": 1431,
-          "x": 348,
+          "x": 336,
           "y": 252
         },
         {
           "id": 1432,
-          "x": 264,
+          "x": 252,
           "y": 216
         },
         {
           "id": 1433,
-          "x": 348,
+          "x": 336,
           "y": 216
         },
         {
           "id": 1434,
-          "x": 420,
+          "x": 408,
           "y": 216
         },
         {
           "id": 1435,
-          "x": 384,
+          "x": 372,
           "y": 216
         },
         {
           "id": 1436,
-          "x": 420,
+          "x": 408,
           "y": 180
         },
         {
           "id": 1437,
-          "x": 348,
+          "x": 336,
           "y": 300
+        },
+        {
+          "id": 1439,
+          "x": 120,
+          "y": 300
+        },
+        {
+          "id": 1440,
+          "x": 120,
+          "y": 252
         }
       ]
     },
