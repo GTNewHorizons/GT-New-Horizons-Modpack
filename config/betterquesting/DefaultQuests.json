@@ -115147,7 +115147,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -115157,7 +115157,48 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "model:8": "railcraft:default"
+                "GT.CraftingComponents:10": {
+                  "Ingredient.5:10": {
+                    "id:4": 2041,
+                    "Count:4": 1,
+                    "Damage:4": 101
+                  },
+                  "Ingredient.6:10": {
+                    "id:4": 101,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "Ingredient.7:10": {
+                    "id:4": 328,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "Ingredient.8:10": {
+                    "id:4": 342,
+                    "Count:4": 1,
+                    "Damage:4": 0
+                  },
+                  "Ingredient.0:10": {
+                    "id:4": 1277,
+                    "Count:4": 1,
+                    "Damage:4": 4
+                  },
+                  "Ingredient.1:10": {
+                    "id:4": 1277,
+                    "Count:4": 1,
+                    "Damage:4": 4
+                  },
+                  "Ingredient.3:10": {
+                    "id:4": 1277,
+                    "Count:4": 1,
+                    "Damage:4": 4
+                  },
+                  "Ingredient.4:10": {
+                    "id:4": 1277,
+                    "Count:4": 1,
+                    "Damage:4": 4
+                  }
+                }
               }
             }
           ],
@@ -115243,7 +115284,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
