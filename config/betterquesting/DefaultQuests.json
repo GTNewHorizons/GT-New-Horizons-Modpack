@@ -1994,7 +1994,7 @@
     {
       "questID": 23,
       "name": "Something to carry liquids",
-      "description": "You tried to move water with your bare hands, which didn\u0027t work at all. Luckily, you remember how to make a bucket out of clay.",
+      "description": "You tried to move water with your bare hands, which didn\u0027t work at all. Luckily, you remember how to make a bucket out of clay dust.\n\nPut it in a mortar to get small clay dust wich can be crafted to clay dust.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -75586,7 +75586,7 @@
     {
       "questID": 811,
       "name": "Tier 1 Schematic",
-      "description": "Each rocket needs a construction plan. You can craft the first one using a data circuit and a compressed steel plate.",
+      "description": "Each rocket needs a construction plan. You can craft the first one using a data circuit and a compressed steel plate in a hv circuit assembler.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -137547,7 +137547,7 @@
     {
       "questID": 1427,
       "name": "Tier 2 Heavy Duty Plates",
-      "description": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 10 tier 2  hevy duty plates out of tier 1 platesand meteoric iron plates.",
+      "description": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 10 tier 2  heavy duty plates out of tier 1 platesand meteoric iron plates.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -137679,7 +137679,7 @@
     {
       "questID": 1428,
       "name": "Tier 2 Schematic",
-      "description": "Each rocket needs a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The second circuit using a elite circuit and a heavy duty plate tier 2 and the data stick.",
+      "description": "Each rocket needs a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The second circuit using a elite circuit and a heavy duty plate tier 2 and the data stick in a ev circuit assembler.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -137836,7 +137836,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "GalacticraftCore:item.spaceship",
+        "id": "GalacticraftMars:item.spaceshipTier2",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -138313,7 +138313,6 @@
         }
       ],
       "preRequisites": [
-        816,
         1427,
         176
       ]
@@ -138321,7 +138320,7 @@
     {
       "questID": 1433,
       "name": "Moon Dungeon",
-      "description": "After a while you will find a moon dungeon. A big hole will show you the way to the dungeon. Go and fighting some mobs before you have to kill the Boss Monster. It will drop the ey for the chest with the schematics for tier 2 rockets.\nIf you dont find the rocket schematics you can exchange it and go to another dungeon to get the moon buggy one.",
+      "description": "After a while you will find a moon dungeon. A big hole will show you the way to the dungeon. Go and fighting some mobs before you have to kill the Boss Monster. It will drop the ey for the chest with the schematics for tier 2 rockets.\nIf you dont find the rocket schematics you can exchange it and go to another dungeon to get the moon buggy schematics.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -138562,7 +138561,7 @@
     {
       "questID": 1435,
       "name": "Tier 2 Schematic",
-      "description": "The moon buggy need a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The moon buggy circuit using a elite circuit and a heavy duty plate tier 1 and the data stick.",
+      "description": "The moon buggy need a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The moon buggy circuit using a elite circuit and a heavy duty plate tier 1 and the data stick in a ev crcuit assembler.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -138931,7 +138930,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 12096000,
+      "repeatTime": 24192000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -139247,7 +139246,7 @@
         }
       ],
       "preRequisites": [
-        810
+        1445
       ]
     },
     {
@@ -139694,6 +139693,1300 @@
       "preRequisites": [
         1442,
         162
+      ]
+    },
+    {
+      "questID": 1445,
+      "name": "Moon Day and Night time",
+      "description": "The Moon\u0027s day-night cycle is 2h 40min long, equaling 8 Overworld days and it is linked to the Moon phases seen on the Overworld. The daytime on the moon lasts from a full moon to the next new moon (4 Overworld days, equaling 1h 20min) and, logically, the nighttime lasts from the new moon to the next full moon.\n\nSince the 1st Overworld night is full moon, you can have a safer landing within the 1st 4 Overworld days, and then the next 4 Overworld days are more dangerous since hostile mobs will be able to spawn in the dark, and so on. If you miss the counting, the moon phases can tell you when it is daytime or nighttime on the moon.\n\nDuring the nighttime, the environment light levels go very low, allowing hostile mobs to spawn on the surface.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:compass",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        810
+      ]
+    },
+    {
+      "questID": 1446,
+      "name": "Mars Dungeon",
+      "description": "After houres you will find a mars dungeon. A big hole will show you the way to the dungeon. Go and fighting some mobs before you have to kill the Boss Monster. It will drop the ey for the chest with the schematics for tier 3 rockets.\nIf you dont find the rocket schematics you can exchange it and go to another dungeon if you need the schematics for the astro miner or the cargo rocket.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:tile.mars",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:tile.mars",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "GalacticraftMars:item.key",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.schematic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1429
+      ]
+    },
+    {
+      "questID": 1447,
+      "name": "Astro Miner Schematic",
+      "description": "The moon buggy need a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The moon buggy circuit using a elite circuit and a heavy duty plate tier 1 and the data stick.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.SchematicsAstroMiner",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.schematic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32708
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "circuitElite",
+              "Damage": 32705
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32708,
+              "tag": {
+                "rocket_tier:4": 102
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SchematicsAstroMiner",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1453
+      ]
+    },
+    {
+      "questID": 1448,
+      "name": "Tier 3 Schematic",
+      "description": "Each rocket needs a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The third circuit using a elite circuit and a heavy duty plate tier 3 and the data stick in a iv circuit assembler.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.SchematicsTier3",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.schematic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32708
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "circuitElite",
+              "Damage": 32705
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32708,
+              "tag": {
+                "rocket_tier:4": 3
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SchematicsTier3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1453
+      ]
+    },
+    {
+      "questID": 1449,
+      "name": "Cargo Rocket Schematic",
+      "description": "The Cargo Rocket has the capability to transport solid items between dimensions, and is a perfect way to transport items between dimensions without relying on Enderchests.\n\nThis rocket can be loaded with 2000 fuel points (2000 mB or 2 buckets) of (Rocket) Fuel. The safe fuel level is 80%.\n\nYou can fill up the right slots with chests to increase the storage space to 36 and 54 slots.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "dreamcraft:item.SchematicsCargoRocket",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.schematic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32708
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "circuitElite",
+              "Damage": 32705
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32708,
+              "tag": {
+                "rocket_tier:4": 101
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SchematicsCargoRocket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1446
+      ]
+    },
+    {
+      "questID": 1450,
+      "name": "Astro Miner",
+      "description": "The Astro Miner is an automatic mining vehicle which moves around, making tunnels and mining up everything it finds, and brings it all back to a base station where it docks. It is not player-rideable* so do not try and climb inside it!\n",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.itemAstroMiner",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SchematicsAstroMiner",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.heavyPlating",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.orionDrive",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32603
+            },
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftMars:tile.beamReceiver",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "GalacticraftCore:item.steelPole",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.itemAstroMiner",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11884
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1447
+      ]
+    },
+    {
+      "questID": 1451,
+      "name": "Astro Miner Base",
+      "description": "To construct the dock, place 8 Astro Miner Base blocks in a cube, 2 blocks high, 2 blocks wide and 2 blocks deep. When the last of the base blocks is placed, it should automatically convert into an Astro Miner Base.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:tile.minerBase",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4177
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "GalacticraftCore:tile.machineTiered",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:tile.minerBase",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11081
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1450
+      ]
+    },
+    {
+      "questID": 1452,
+      "name": "Loading and Unloading Cargo Rockets",
+      "description": "To use the Cargo Rocket at full capacity it is necessary to equip a Rocket Launch Pad, to send items, with:\n\nFuel Loader\nLaunch Controller\nCargo Loader\nAnd the receiving side with:\n\nFuel Loader\nLaunch Controller\nCargo Unloader\n\nIt is also possible to use Buildcraft pipes to transfer items into the Cargo loaders. Next step is to set up the Frequencies in both Launch Controllers (i.e. Set: A to target B, B to target A). Have a look at Launch Controller to setup the automated launch. The first time you have to right-click the Cargo rocket and press launch at the top right corner.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:tile.marsMachine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.fuelLoader",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:tile.marsMachine",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "GalacticraftCore:tile.cargo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:tile.cargo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11316
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1449
+      ]
+    },
+    {
+      "questID": 1453,
+      "name": "Tier 3 Heavy Duty Plates",
+      "description": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 42 tier 3 heavy duty plates out of tier 2 platesand desh plates.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.itemBasicAsteroids",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 42,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 168,
+              "OreDict": "",
+              "Damage": 17884
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 42,
+              "OreDict": "",
+              "Damage": 32464
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 42,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 17884
+            },
+            {
+              "id": "IC2:blockITNT",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        80,
+        1446
+      ]
+    },
+    {
+      "questID": 1454,
+      "name": "Rocket Tier 3",
+      "description": "After days of hard work and houndred tons ofstacks iTNT your third rocket is finally ready. But before you can go to the Asteroids, Ceres or Jupiter Moons you need to craft a few more things.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.itemTier3Rocket",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.SchematicsTier3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.heavyNoseCone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:item.ModuleLander3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.MediumFuelCanister",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:item.ModuleSmallFuelCanister",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "GalacticraftCore:item.engine",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.itemTier3Rocket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:blockITNT",
+              "Count": 96,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1453
+      ]
+    },
+    {
+      "questID": 1455,
+      "name": "Replacement Rocket Tier 3",
+      "description": "Did you tier 2 rocket bugged away? No problem buy some new one!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 36288000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.itemTier3Rocket",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSpaceIII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "GalacticraftMars:item.itemTier3Rocket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1454
       ]
     }
   ],
@@ -143215,6 +144508,11 @@
           "id": 1438,
           "x": 516,
           "y": 408
+        },
+        {
+          "id": 1455,
+          "x": 552,
+          "y": 408
         }
       ]
     },
@@ -145508,7 +146806,7 @@
         {
           "id": 1371,
           "x": 36,
-          "y": 300
+          "y": 324
         },
         {
           "id": 1426,
@@ -145573,17 +146871,67 @@
         {
           "id": 1439,
           "x": 120,
-          "y": 300
+          "y": 324
         },
         {
           "id": 1440,
           "x": 120,
-          "y": 252
+          "y": 288
         },
         {
           "id": 1441,
           "x": 156,
-          "y": 300
+          "y": 324
+        },
+        {
+          "id": 1445,
+          "x": 120,
+          "y": 252
+        },
+        {
+          "id": 1446,
+          "x": 300,
+          "y": 336
+        },
+        {
+          "id": 1447,
+          "x": 336,
+          "y": 372
+        },
+        {
+          "id": 1448,
+          "x": 264,
+          "y": 372
+        },
+        {
+          "id": 1449,
+          "x": 336,
+          "y": 336
+        },
+        {
+          "id": 1450,
+          "x": 384,
+          "y": 372
+        },
+        {
+          "id": 1451,
+          "x": 384,
+          "y": 408
+        },
+        {
+          "id": 1452,
+          "x": 384,
+          "y": 336
+        },
+        {
+          "id": 1453,
+          "x": 300,
+          "y": 372
+        },
+        {
+          "id": 1454,
+          "x": 300,
+          "y": 408
         }
       ]
     },
