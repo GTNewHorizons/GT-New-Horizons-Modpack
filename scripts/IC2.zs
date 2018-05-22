@@ -1447,6 +1447,11 @@ recipes.addShaped(<gregtech:gt.metaitem.01:32750>, [
 [<ore:craftingToolCrowbar>, <IC2:blockGenerator:3>, <ore:craftingToolScrewdriver>],
 [<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]]);
 
+// --- Cell Exchange
+recipes.addShapeless(<IC2:itemFluidCell>, [<IC2:itemCellEmpty>]]);
+// -
+recipes.addShapeless(<IC2:itemCellEmpty>, [<IC2:itemFluidCell>]]);
+
 
 
 // --- CF Powder
