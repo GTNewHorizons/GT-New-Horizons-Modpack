@@ -398,7 +398,7 @@ recipes.addShaped(<GalaxySpace:item.ModuleLander2>, [
 recipes.addShaped(<GalaxySpace:item.ModuleLander3>, [
 [<GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>],
 [<GalacticraftCore:item.steelPole>, <GalaxySpace:item.ModuleLander2>, <GalacticraftCore:item.steelPole>],
-[<GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5, <GalacticraftMars:item.null:5>]]);
+[<GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>]]);
 
 // --- Rocket Tier 4
 mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier4Rocket>,[
