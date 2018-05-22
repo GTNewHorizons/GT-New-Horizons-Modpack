@@ -136532,12 +136532,6 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1170
-            },
-            {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 1,
-              "OreDict": "",
               "Damage": 46
             },
             {
@@ -136557,6 +136551,21 @@
               "Count": 15,
               "OreDict": "",
               "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1170
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -141975,6 +141984,119 @@
               "OreDict": "",
               "Damage": 0
             },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1454
+      ]
+    },
+    {
+      "questID": 1464,
+      "name": "Arc Lamp",
+      "description": "The Arc Lamp is a very bright lamp. It is directional - meaning the light it casts is brighter in the direction it is facing. Its facing can be rotated using a Standard Wrench.\n\nIncluding the Arc Lamp the brightness of blocks which are close to light sources is:\n\nRedstone Torch: 3-6\nTorch: 9-12\nBlock of Glowstone: 10-13\nArc Lamp: 13-14\n\nThe Arc Lamp can light up a fairly large area - for example a whole room - at light level 14: it is almost as bright as full sunlight.\n\nThe Arc Lamp also has the interesting property of actively repelling mobs. Not only does its light prevent mobs from spawning nearby, but it is so bright that if a mob comes close to the Arc Lamp the mob will turn around and walk away again. This mob repellant effect is confirmed to work on : Zombies, Skeletons, Creepers, Evolved Zombies, Evolved Skeletons, Evolved Creepers. It may also work on either types of mobs (confirmation required). But it has no effect on Spiders (they are not afraid of sunlight either) or boss mobs.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:tile.arclamp",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 112,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "ProjRed|Illumination:projectred.illumination.lamp",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "GalacticraftCore:item.battery",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "electricity:6": 15000.0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.arclamp",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianII",
               "Count": 5,
@@ -147971,6 +148093,11 @@
         {
           "id": 1463,
           "x": 252,
+          "y": 540
+        },
+        {
+          "id": 1464,
+          "x": 348,
           "y": 540
         }
       ]
