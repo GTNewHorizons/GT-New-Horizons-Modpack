@@ -16891,19 +16891,19 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventureII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSpaceII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -17014,7 +17014,7 @@
       "questID": 188,
       "name": "Dimensional goal: Deimos",
       "description": "A smaller goal, as the main goal is Mars. But you\u0027ll find different ores on this moon also.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -17075,19 +17075,19 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinAdventureII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSpaceII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -18400,13 +18400,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSpaceII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -18415,7 +18415,8 @@
         }
       ],
       "preRequisites": [
-        186
+        186,
+        205
       ]
     },
     {
@@ -18452,10 +18453,67 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "dreamcraft:item.SchematicsCargoRocket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.noseCone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "GalacticraftCore:item.rocketFins",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:item.ModuleSmallFuelCanister",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "GalacticraftCore:item.engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "GalacticraftMars:item.spaceshipTier2",
               "Count": 1,
               "OreDict": "",
-              "Damage": 13
+              "Damage": 11
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -18477,13 +18535,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSpaceII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -18492,7 +18550,8 @@
         }
       ],
       "preRequisites": [
-        186
+        186,
+        1449
       ]
     },
     {
@@ -19244,7 +19303,7 @@
     },
     {
       "questID": 215,
-      "name": "On your way to tier 7",
+      "name": "On your way to tier 7 Asteriods DIM",
       "description": "The next tier is defined as \"Asteroids-Dimension\" and \"8192 EU/t machines\". The machines now reached their full potential, and some asteroids may contain precious ores to improve your power generation.",
       "isMain": true,
       "isSilent": false,
@@ -19262,7 +19321,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "GalacticraftCore:item.spaceship",
+        "id": "GalacticraftMars:item.itemTier3Rocket",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -136839,7 +136898,7 @@
         }
       ],
       "preRequisites": [
-        186
+        188
       ]
     },
     {
@@ -139715,7 +139774,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:compass",
+        "id": "minecraft:clock",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -140534,7 +140593,7 @@
     },
     {
       "questID": 1452,
-      "name": "Loading and Unloading Cargo Rockets",
+      "name": "Launch Controler",
       "description": "To use the Cargo Rocket at full capacity it is necessary to equip a Rocket Launch Pad, to send items, with:\n\nFuel Loader\nLaunch Controller\nCargo Loader\nAnd the receiving side with:\n\nFuel Loader\nLaunch Controller\nCargo Unloader\n\nIt is also possible to use Buildcraft pipes to transfer items into the Cargo loaders. Next step is to set up the Frequencies in both Launch Controllers (i.e. Set: A to target B, B to target A). Have a look at Launch Controller to setup the automated launch. The first time you have to right-click the Cargo rocket and press launch at the top right corner.",
       "isMain": false,
       "isSilent": false,
@@ -140576,18 +140635,6 @@
               "Count": 2,
               "OreDict": "",
               "Damage": 8
-            },
-            {
-              "id": "GalacticraftCore:tile.cargo",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "GalacticraftCore:tile.cargo",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 4
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -140630,7 +140677,7 @@
         }
       ],
       "preRequisites": [
-        1449
+        205
       ]
     },
     {
@@ -141574,6 +141621,372 @@
       ],
       "preRequisites": [
         1453
+      ]
+    },
+    {
+      "questID": 1461,
+      "name": "Desh",
+      "description": "Desh is a very important material for high tier rockets and used by many recipes in Galacticraft and Galaxy space. Go and find a desh vein on Mars at Y 5-40.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4884
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4884
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4910
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4841
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        186
+      ]
+    },
+    {
+      "questID": 1462,
+      "name": "Thermal Cloth",
+      "description": "Thermal Padding is a suite of garments made out of an advanced insulating material. The garments are able to keep a player from freezing to death in the cold environments of Outer Space. They are also able to keep the player from suffering heat exhaustion in an overly hot environment.\n\nThe temperature indicator on the Life Support HUD will show if the player is becoming too hot or too cold - as the temperature approaches dangerous levels, an \"Invalid Thermal Protection\" warning will be shown. On Mars and the Asteroids, simply wearing a full set of Thermal Padding should be enough to fix this.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.thermalPadding",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 96,
+              "OreDict": "",
+              "Damage": 29019
+            },
+            {
+              "id": "dreamcraft:item.MeteoricIronString",
+              "Count": 96,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.thermalPadding",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.thermalPadding",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftMars:item.thermalPadding",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "GalacticraftMars:item.thermalPadding",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11019
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 11340
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1454
+      ]
+    },
+    {
+      "questID": 1463,
+      "name": "Sleeping in Space",
+      "description": "The Cryogenic Chamber is used to sleep on other planets and skip long nighttimes. It can be used at any time, even during the daytime, and in any dimension, including the Overworld.\n\nUsing the chamber during the daytime will skip the time to the next sunrise, except on the Asteroids dimension where the Sun is always locked on West.\n\nOnce the player has used the Cryogenic Chamber, there is a 300 seconds cool-down time before he can use the chamber again. Breaking and placing back the chamber or trying to use different chamber will not reset the cool-down time, unless by dying.\n\nThe chamber does not require energy to work.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:tile.marsMachine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GraviSuite:itemSimpleItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "CarpentersBlocks:itemCarpentersBed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:clock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:tile.marsMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1454
       ]
     }
   ],
@@ -144124,16 +144537,6 @@
           "y": 384
         },
         {
-          "id": 204,
-          "x": 192,
-          "y": 276
-        },
-        {
-          "id": 205,
-          "x": 108,
-          "y": 204
-        },
-        {
           "id": 206,
           "x": 144,
           "y": 384
@@ -144185,7 +144588,7 @@
         },
         {
           "id": 861,
-          "x": 132,
+          "x": 156,
           "y": 312
         },
         {
@@ -144265,7 +144668,7 @@
         },
         {
           "id": 1244,
-          "x": 108,
+          "x": 156,
           "y": 276
         },
         {
@@ -144355,13 +144758,18 @@
         },
         {
           "id": 1408,
-          "x": 72,
+          "x": 108,
           "y": 276
         },
         {
           "id": 1415,
-          "x": 156,
+          "x": 192,
           "y": 276
+        },
+        {
+          "id": 1461,
+          "x": 108,
+          "y": 204
         }
       ]
     },
@@ -144377,27 +144785,27 @@
         {
           "id": 214,
           "x": 72,
-          "y": 96
+          "y": 180
         },
         {
           "id": 215,
           "x": 72,
-          "y": 48
+          "y": 132
         },
         {
           "id": 216,
-          "x": 120,
-          "y": 48
+          "x": 132,
+          "y": 132
         },
         {
           "id": 217,
-          "x": 48,
-          "y": 144
+          "x": 36,
+          "y": 216
         },
         {
           "id": 218,
-          "x": 96,
-          "y": 144
+          "x": 108,
+          "y": 216
         },
         {
           "id": 219,
@@ -147507,7 +147915,7 @@
         },
         {
           "id": 1452,
-          "x": 384,
+          "x": 420,
           "y": 336
         },
         {
@@ -147544,6 +147952,26 @@
           "id": 1460,
           "x": 192,
           "y": 432
+        },
+        {
+          "id": 205,
+          "x": 384,
+          "y": 336
+        },
+        {
+          "id": 204,
+          "x": 384,
+          "y": 300
+        },
+        {
+          "id": 1462,
+          "x": 300,
+          "y": 540
+        },
+        {
+          "id": 1463,
+          "x": 252,
+          "y": 540
         }
       ]
     },
