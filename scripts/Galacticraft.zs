@@ -1439,9 +1439,9 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.spaceshipTier2:11
 [null, null, null, null, <GalacticraftCore:item.engine>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 // -
-recipes.addShapeless(<GalacticraftMars:item.spaceshipTier2:12>, [<GalacticraftMars:item.spaceshipTier2:11>]);
+recipes.addShapeless(<GalacticraftMars:item.spaceshipTier2:11>, [<GalacticraftMars:item.spaceshipTier2:12>]);
 // -
-recipes.addShapeless(<GalacticraftMars:item.spaceshipTier2:13>, [<GalacticraftMars:item.spaceshipTier2:11>]);
+recipes.addShapeless(<GalacticraftMars:item.spaceshipTier2:11>, [<GalacticraftMars:item.spaceshipTier2:13>]);
 
 // --- Cargo Rocket 2
 mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.spaceshipTier2:12>, [
