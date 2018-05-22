@@ -19303,7 +19303,7 @@
     },
     {
       "questID": 215,
-      "name": "On your way to tier 7 Asteriods DIM",
+      "name": "On your way to Asteriods DIM",
       "description": "The next tier is defined as \"Asteroids-Dimension\" and \"8192 EU/t machines\". The machines now reached their full potential, and some asteroids may contain precious ores to improve your power generation.",
       "isMain": true,
       "isSilent": false,
@@ -138945,27 +138945,27 @@
           "choices": [
             {
               "id": "GalacticraftCore:tile.oxygenPipe",
-              "Count": 16,
+              "Count": 8,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "id": "GalacticraftCore:item.meteoricIronIngot",
               "Count": 4,
               "OreDict": "",
-              "Damage": 6
+              "Damage": 1
             },
             {
               "id": "GalacticraftCore:item.basicItem",
               "Count": 1,
               "OreDict": "",
-              "Damage": 14
+              "Damage": 13
             },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 7
+              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -138983,7 +138983,7 @@
         }
       ],
       "preRequisites": [
-        1429
+        1426
       ]
     },
     {
@@ -142109,6 +142109,850 @@
       ],
       "preRequisites": [
         1454
+      ]
+    },
+    {
+      "questID": 1465,
+      "name": "Air Lock",
+      "description": "Air Lock is an airtight door used to provide a passage between enclosed rooms and between an enclosed room and outer space. It is made from Air Lock Frames and one Air Lock Controller.\n\nThe air lock will keep air inside the room while it is closed. But when the air lock is open, the room is no longer sealed and oxygen gear must be worn until the air lock is closed. In environments with extreme temperatures, Thermal Padding must also be worn.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:tile.airLockFrame",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.airLockFrame",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftCore:tile.airLockFrame",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1429
+      ]
+    },
+    {
+      "questID": 1466,
+      "name": "Temperatur Control",
+      "description": "Ambient Thermal Controller is an item for use in the Oxygen Sealer to provide thermal protection in sealed spaces.\n\nAmbient Thermal Controller is useful in the dimensions too cold or too hot for players to survive without Thermal Padding.\n\nIt can be placed in the 3rd slot next to the energy and oxygen slots in a working Oxygen Sealer. Once the Ambient Thermal Controller is in the sealer, it will heat or cool the output oxygen according to the local environment, and then the player can safely take the thermal padding off in the sealed room.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.basicItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 20
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1467
+      ]
+    },
+    {
+      "questID": 1467,
+      "name": "Oxygen Sealer",
+      "description": "The Oxygen Sealer is a machine that fills a room with oxygen (although the oxygen is generally not visible) up to around 800-1000 blocks (amount stacks with multiple sealers within close proximity) allowing the user to breathe without Oxygen Gear. Unlike the Oxygen Bubble Distributor, the Oxygen Sealer confines the oxygen to the room it is in. The sealer must be supplied with power and sufficient oxygen. See Oxygen Collector for supplying oxygen.\n\nThe sealer will only work in a room that is completely sealed off from outer space. This can be achieved with either a completely closed off room, or with an Air Lock. The sealer must have nothing above it to block its vents. It is designed to check for a proper seal about every 5 seconds, so be sure to give it time to seal.\n\nEach sealer requires at least 320 air points per second to work continuously or it will fail.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:tile.sealer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.sealer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "GalacticraftCore:item.airVent",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1465,
+        1440
+      ]
+    },
+    {
+      "questID": 1468,
+      "name": "Large Oxygen Tanks",
+      "description": "The Large oxygen tank is an oxygen storage tank that can hold up to 2700 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.\n\nUsage:\nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftCore:item.oxygenTankHeavyFull",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 14,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32406
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.oxygenTankHeavyFull",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2700
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1429
+      ]
+    },
+    {
+      "questID": 1469,
+      "name": "Bacterial Sludge",
+      "description": "Bacterial Sludge is a fluid block that generates naturally on Mars.\n\nIt generates in the giant underground caves in Mars and floods over almost the whole cavern floor.\n\nCollect it to produce mutagen for bees mutation in gendustry.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:tile.sludge",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 256,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "bacterialsludge",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ExtraUtilities:shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1429
+      ]
+    },
+    {
+      "questID": 1470,
+      "name": "Cavernous Vine",
+      "description": "Cavernous Vine is a poisonous plant that grows naturally in the Mars undergrounds. It grows from the ceiling down to the floor in the huge caves flooded with Bacterial Sludge, emits light and can trap mobs in it.\n\nAny mob that touches this plant will be poisoned, dragged up and lose health down to 1 health point (half a heart) while trapped in this plant. Mobs that are immune to poison, like Zombies and Skeletons, will not lose health.\n\nThey grow from the bottom face of a solid block down to 1 block away from the floor.\n\nCavernous vines can be broken by hand without taking damage or being poisoned but they will drop nothing. They can be obtained as an item using shears. Even picks with Silk Touch enchant will not obtain anything.\n\nOnce obtained, they can be replanted elsewhere and regrow, like cactus.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:tile.cavernVines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:tile.cavernVines",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:tile.oxygenPipe",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1469
+      ]
+    },
+    {
+      "questID": 1471,
+      "name": "Slimeling",
+      "description": "Slimeling is a mob-utility that spawns from Slimeling Eggs found on Mars surface. It shares some features from vanilla wolves and mules: it can be tamable and attacks mobs that threaten its owners, and can be equipped with a special chest to transport items.\n\nAs an allied mob, Slimelings will actively help and follow the player-owner and will attempt to protect them. They can also have a neutral behavior, that is, they can attack if provoked or hurt by non-owners.\n\nItems that you can feed Slimelings with:\n\nBoat\nCooked fish\nGunpowder\nGold ingot\nRedstone repeater\nWooden door\n\nSlimelings can be equipped by their owners with a Slimeling Inventory Bag to transport items.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:tile.slimelingEgg",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:tile.slimelingEgg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalacticraftMars:tile.slimelingEgg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalacticraftMars:tile.slimelingEgg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:boat",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:cooked_fished",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:gunpowder",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:gold_ingot",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:repeater",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:wooden_door",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1429
+      ]
+    },
+    {
+      "questID": 1472,
+      "name": "Grapple",
+      "description": "The Grapple is a grappling hook and rope which can be thrown by a player, and then used to swing the player in the direction it was thrown. Useful for reaching places that are otherwise too high to jump to, or traveling around the Asteroids.\n\nRight-click to aim the Grapple at a block you want to reach, similar to aiming a Bow. Release the right-click - similar to firing an arrow from a bow - to grapple yourself in that direction.\n\nFor best results, aim the Grapple at a point 1 or 2 blocks higher than the point you want to reach.\nIf there is no safe platform to land at that point, you can fall back down and you will take fall damage, so it takes some skill to use the Grapple safely.\nTake care using the Grapple near a Nether Portal, End Portal or at a low height (less than y \u003d 30) on a Space Station. There can be strange consequences if it crosses into another dimension.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalacticraftMars:item.grapple",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14341
+            },
+            {
+              "id": "dreamcraft:item.MeteoricIronString",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28341
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.grapple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftCore:item.battery",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 100,
+              "tag": {
+                "electricity:6": 0.0
+              }
+            },
+            {
+              "id": "dreamcraft:item.MeteoricIronString",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11341
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1462
       ]
     }
   ],
@@ -147923,7 +148767,7 @@
         {
           "id": 1371,
           "x": 36,
-          "y": 324
+          "y": 336
         },
         {
           "id": 1426,
@@ -147982,23 +148826,23 @@
         },
         {
           "id": 1437,
-          "x": 336,
-          "y": 300
+          "x": 204,
+          "y": 216
         },
         {
           "id": 1439,
           "x": 120,
-          "y": 324
+          "y": 336
         },
         {
           "id": 1440,
           "x": 120,
-          "y": 288
+          "y": 300
         },
         {
           "id": 1441,
           "x": 156,
-          "y": 324
+          "y": 336
         },
         {
           "id": 1445,
@@ -148008,77 +148852,77 @@
         {
           "id": 1446,
           "x": 300,
-          "y": 336
+          "y": 360
         },
         {
           "id": 1447,
           "x": 336,
-          "y": 372
+          "y": 396
         },
         {
           "id": 1448,
           "x": 228,
-          "y": 432
+          "y": 456
         },
         {
           "id": 1449,
           "x": 336,
-          "y": 336
+          "y": 360
         },
         {
           "id": 1450,
           "x": 384,
-          "y": 372
+          "y": 396
         },
         {
           "id": 1451,
           "x": 420,
-          "y": 372
+          "y": 396
         },
         {
           "id": 1452,
           "x": 420,
-          "y": 336
+          "y": 360
         },
         {
           "id": 1453,
           "x": 300,
-          "y": 372
+          "y": 396
         },
         {
           "id": 1454,
           "x": 300,
-          "y": 492
+          "y": 516
         },
         {
           "id": 1456,
           "x": 336,
-          "y": 432
+          "y": 456
         },
         {
           "id": 1457,
           "x": 264,
-          "y": 432
+          "y": 456
         },
         {
           "id": 1458,
           "x": 372,
-          "y": 432
+          "y": 456
         },
         {
           "id": 1459,
           "x": 408,
-          "y": 432
+          "y": 456
         },
         {
           "id": 1460,
           "x": 192,
-          "y": 432
+          "y": 456
         },
         {
           "id": 205,
           "x": 384,
-          "y": 336
+          "y": 360
         },
         {
           "id": 204,
@@ -148088,17 +148932,57 @@
         {
           "id": 1462,
           "x": 300,
-          "y": 540
+          "y": 564
         },
         {
           "id": 1463,
           "x": 252,
-          "y": 540
+          "y": 564
         },
         {
           "id": 1464,
           "x": 348,
-          "y": 540
+          "y": 564
+        },
+        {
+          "id": 1465,
+          "x": 252,
+          "y": 300
+        },
+        {
+          "id": 1466,
+          "x": 204,
+          "y": 336
+        },
+        {
+          "id": 1467,
+          "x": 204,
+          "y": 300
+        },
+        {
+          "id": 1468,
+          "x": 336,
+          "y": 300
+        },
+        {
+          "id": 1469,
+          "x": 252,
+          "y": 336
+        },
+        {
+          "id": 1470,
+          "x": 204,
+          "y": 372
+        },
+        {
+          "id": 1471,
+          "x": 252,
+          "y": 372
+        },
+        {
+          "id": 1472,
+          "x": 300,
+          "y": 600
         }
       ]
     },
