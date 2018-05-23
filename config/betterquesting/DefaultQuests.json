@@ -60751,7 +60751,7 @@
     {
       "questID": 674,
       "name": "Wooden rail variants",
-      "description": "The wooden junction, wye and switch tracks need an assembling machine to craft. They allow you to join and switch to tracks going to different locations.",
+      "description": "The wooden junction, wye and switch tracks need an assembling machine to craft. They allow you to join and switch to tracks going to different locations.\n\nNei not shows the right recipe on the first page. Switch a bit through the recipes to find the right one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -115602,7 +115602,7 @@
     {
       "questID": 1188,
       "name": "The transcontinental railroad - blast proof",
-      "description": "Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hope you are blast proof too. \nYou can move 25% faster than with normal tracks.",
+      "description": "Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hope you are blast proof too. \nYou can move 25% faster than with normal tracks.\n\nNei not shows the right recipe on the first page. Switch a bit through the recipes to find the right one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -115725,7 +115725,7 @@
     {
       "questID": 1189,
       "name": "The transcontinental railroad electrical",
-      "description": "Electrical tracks are used together with your electrical locomotive. You need to power the rails with energy.",
+      "description": "Electrical tracks are used together with your electrical locomotive. You need to power the rails with energy.\n\nNei not shows the right recipe on the first page. Switch a bit through the recipes to find the right one.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
