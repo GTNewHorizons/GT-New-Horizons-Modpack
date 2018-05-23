@@ -6512,7 +6512,7 @@
     {
       "questID": 74,
       "name": "You are not prepared!!!",
-      "description": "It\u0027s time for something really big: A smeltery! There\u0027s a lot to craft, so better gather some resources...",
+      "description": "It\u0027s time for something really big: A smeltery! There\u0027s a lot to craft, so better gather some resources...\nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base.  Taller/wider smelteries can do more items at one time, conserving fuel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -43139,7 +43139,7 @@
     },
     {
       "questID": 497,
-      "name": "More charcoal",
+      "name": "Lit way to get charred",
       "description": "You have found an alternative way of making charcoal with a \"charcoal pile igniter\". \nGo and start getting massive amounts of charcoal.",
       "isMain": false,
       "isSilent": false,
@@ -76247,7 +76247,7 @@
     {
       "questID": 816,
       "name": "Moon Lander",
-      "description": "The Moon lander is requiered for a soft landing.\nYou will need an additional frequency module for hearing things on planets and a second seat for a Moon buggy you may build later.",
+      "description": "The Moon lander is required for a soft landing.\nYou will need an additional frequency module for hearing things on planets and a second seat for a Moon buggy you may build later.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -76788,7 +76788,7 @@
     {
       "questID": 820,
       "name": "Rocket Launch Pad",
-      "description": "Every rocket needs a launch pad. Build a 3x3 launch pad to place your rocket on.",
+      "description": "Every rocket needs a 񘄴�4launch pad.�0 Build a 3x3 launch pad to place your rocket.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -77619,7 +77619,7 @@
           "requiredItems": [
             {
               "id": "GalacticraftCore:item.fuelCanisterPartial",
-              "Count": 4,
+              "Count": 8,
               "OreDict": "",
               "Damage": 1
             }
@@ -81263,7 +81263,7 @@
     },
     {
       "questID": 860,
-      "name": "Titanium finaly",
+      "name": "Titanium finally",
       "description": "Rutile, chlorine and carbon dust makes Titaniumtetrachloride. Combining this with Magnesium in an HV EBF will give you hot Titanium ingots. Freeze those and you will get your first titanium.\nOn the Moon if you are lucky you can find pure Titanium ore.",
       "isMain": true,
       "isSilent": false,
@@ -101435,7 +101435,7 @@
     {
       "questID": 1068,
       "name": "Are you prepared?",
-      "description": "Are you prepared for the Moon?\nA few things will help you to live longer and prevent you from dying on the Moon.\nIf you die on the moon you will be returned to earth without your stuff. Graves are placed at the location where you died.",
+      "description": "Are you prepared for the Moon?\nA few things will help you to live longer and prevent you from dying on the Moon.\nIf you die on the moon you will be returned to earth without your stuff. A �2Soulbind�0 enchantment will keep an item with you when you die.\nGraves are placed at the location where you died.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -101837,7 +101837,7 @@
     {
       "questID": 1072,
       "name": "Moon arrival",
-      "description": "I have a small present for you: a Talisman of Remedium which is very useful to persevere during the dark nights with all these monsters.",
+      "description": "I have a small present for you: a Talisman of Remedium which is very useful to persevere during the dark nights with all these monsters.\nFirst you have to prove you can survive on the moon by yourself. After mining some moon turf, dirt, and rock, you can have it.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111309,7 +111309,7 @@
     {
       "questID": 1146,
       "name": "GT 6 styled Pipes",
-      "description": "Maybe you are wondering why the new pipes don\u0027t auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don\u0027t need a plate or a foil to prevent pipes from connecting anymore (You\u0027ll still want to cover hot pipes to prevent getting hurt!). Shift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nHint: If you click one pipe onto the other they will auto-connect.",
+      "description": "Maybe you are wondering why the new pipes don\u0027t auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don\u0027t need a plate or a foil to prevent pipes from connecting anymore (You\u0027ll still want to cover hot pipes to prevent getting hurt!). Shift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.\n\nHint: If you click one pipe onto the other they will auto-connect.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111405,7 +111405,7 @@
     {
       "questID": 1147,
       "name": "GT 6 styled Wires and Cables",
-      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.\n\nHint: If you click one wire or cable on the other it will auto-connect. Cables and pipes can be painted to make sure you do not cross your MV line with your EV line, or dump hot lava into your plastic water pipes. No boom today.",
+      "description": "Maybe you are wondering why the new wires and cables don\u0027t auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on. You can shift-rightclick to attach a cable on the side of a machine you cannot see, like attaching a cable to the bottom while looking at the front.\n\nHint: If you click one wire or cable on the other it will auto-connect. Cables and pipes can be painted to make sure you do not cross your MV line with your EV line, or dump hot lava into your plastic water pipes. No boom today.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -115216,48 +115216,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "GT.CraftingComponents:10": {
-                  "Ingredient.5:10": {
-                    "id:4": 2041,
-                    "Count:4": 1,
-                    "Damage:4": 101
-                  },
-                  "Ingredient.6:10": {
-                    "id:4": 101,
-                    "Count:4": 1,
-                    "Damage:4": 0
-                  },
-                  "Ingredient.7:10": {
-                    "id:4": 328,
-                    "Count:4": 1,
-                    "Damage:4": 0
-                  },
-                  "Ingredient.8:10": {
-                    "id:4": 342,
-                    "Count:4": 1,
-                    "Damage:4": 0
-                  },
-                  "Ingredient.0:10": {
-                    "id:4": 1277,
-                    "Count:4": 1,
-                    "Damage:4": 4
-                  },
-                  "Ingredient.1:10": {
-                    "id:4": 1277,
-                    "Count:4": 1,
-                    "Damage:4": 4
-                  },
-                  "Ingredient.3:10": {
-                    "id:4": 1277,
-                    "Count:4": 1,
-                    "Damage:4": 4
-                  },
-                  "Ingredient.4:10": {
-                    "id:4": 1277,
-                    "Count:4": 1,
-                    "Damage:4": 4
-                  }
-                }
+                "model:8": "railcraft:default"
               }
             }
           ],
@@ -132597,7 +132556,7 @@
     {
       "questID": 1371,
       "name": "LOX and Bagels",
-      "description": "The LOX canister is an alternate solution to refilling your oxygen tanks.\nTo make liquid oxygen you need 16 oxygen cells, a universal fluid cell, and a circuit config 16. Transfer the oxygen gas into an MV+ assembler, and put in the universal fluid cell and circuit to get 1 cell of compressed oxygen.\nPut this in the vacuum freeezer to get 1 cell of liquid oxygen.\nTransfer this liquid oxygen into a tank, and then into a LOX canister.\nTo refill your oxygen tanks just put the tank and the LOX canister in the crafting grid to transfer oxygen.\nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.\n\nSo much Greggy!",
+      "description": "The LOX canister is an alternate solution to refilling your oxygen tanks.\nTo make liquid oxygen you need 16 oxygen cells, a universal fluid cell, and a circuit config 16. Transfer the oxygen gas into an MV+ assembler, and put in the universal fluid cell and circuit to get 1 cell of compressed oxygen.\nPut this in the vacuum freeezer to get 1 cell of liquid oxygen.\nTransfer this liquid oxygen into a tank, and then into a LOX canister.\nTo refill your oxygen tanks just put the tank and the LOX canister in the crafting grid to transfer oxygen.\nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks. With a full stack you won\u0027t need to bring oxygen equipment with you.\n\nSo much Greggy!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -137466,7 +137425,7 @@
     {
       "questID": 1425,
       "name": "Replacement Rocket Tier 1",
-      "description": "Did you tier 1 rocket bugged away? No problem buy some new one!",
+      "description": "Did your tier 1 rocket fly away without you? Did it end up bugged in a cloud? No problem buy a new one!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -137532,7 +137491,7 @@
     {
       "questID": 1426,
       "name": "Find some Meteoric Iron",
-      "description": "To reach tier two planets like mars or moon  phobos and deimos you need a better rocket. Your next goal is Tier two rocket plates which need meteoric Iron. \nYou will find small meteoric iron ore under the surface or mine the fallen meteroes on the surface.",
+      "description": "To reach tier two planets like Mars or its moons  Phobos and Deimos you need a better rocket. Your next goal is Tier two rocket plates which need meteoric Iron. \nYou will find small meteoric iron ore under the surface or you can mine the fallen meteors on the surface. Use your ears to listen to their impacts.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -137615,7 +137574,7 @@
     {
       "questID": 1427,
       "name": "Tier 2 Heavy Duty Plates",
-      "description": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 10 tier 2  heavy duty plates out of tier 1 platesand meteoric iron plates.",
+      "description": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 10 tier 2  heavy duty plates out of tier 1 plates and meteoric iron plates.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -137747,7 +137706,7 @@
     {
       "questID": 1428,
       "name": "Tier 2 Schematic",
-      "description": "Each rocket needs a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The second circuit using a elite circuit and a heavy duty plate tier 2 and the data stick in a ev circuit assembler.",
+      "description": "Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The tier 2 rocket uses an elite circuit, a heavy duty plate tier 2, and the data stick in a ev circuit assembler.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -137887,7 +137846,7 @@
     {
       "questID": 1429,
       "name": "Rocket Tier 2",
-      "description": "After hours of hard work and tons ofstacks iTNT your second rocket is finally ready. But before you can go to the Mars you need to craft a few more things.",
+      "description": "After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -138038,8 +137997,8 @@
     },
     {
       "questID": 1430,
-      "name": "Recycle your rocket and save the Nature",
-      "description": "Why not recycling your old Tier 1 rocket to get componets for your new tier 2 rockets. You can put your old rocket in an arc furnace or an plasma arc furnace to get back lots of materials.",
+      "name": "Recycle your rocket and save the Environment",
+      "description": "Why not recycle your old Tier 1 rocket to get componets for your new tier 2 rocket? Put your old rocket in an arc furnace or plasma arc furnace to get back lots of materials.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -138056,18 +138015,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "thaumcraftneiplugin:Aspect",
+        "id": "minecraft:red_flower",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0,
-        "tag": {
-          "Aspects:9": [
-            {
-              "amount:4": 2,
-              "key:8": "permutatio"
-            }
-          ]
-        }
+        "Damage": 0
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -138137,13 +138088,13 @@
       ],
       "preRequisites": [
         80,
-        1426
+        1428
       ]
     },
     {
       "questID": 1431,
       "name": "Booster",
-      "description": "The distance between mars and earth are much bigger then to the moon and so the rocket need a booster to reach it.",
+      "description": "The distance between Mars and Earth is much larger than to the Moon and so the rocket needsboosters to reach it.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -138259,7 +138210,7 @@
     {
       "questID": 1432,
       "name": "Mars Lander",
-      "description": "The Mars lander is requiered for a soft landing.\nPut the Moon lander on a Parchute  will do the trick.",
+      "description": "The Mars lander is required for a soft landing.\nPut the Moon lander on a Parchute and surround it with airbags - that will do the trick. You hope.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -138388,7 +138339,7 @@
     {
       "questID": 1433,
       "name": "Moon Dungeon",
-      "description": "After a while you will find a moon dungeon. A big hole will show you the way to the dungeon. Go and fighting some mobs before you have to kill the Boss Monster. It will drop the ey for the chest with the schematics for tier 2 rockets.\nIf you dont find the rocket schematics you can exchange it and go to another dungeon to get the moon buggy schematics.",
+      "description": "While looking for the meteoric iron you will find a moon dungeon. Look for a deep hole that is not a crater with a bottom that is not moon rock - it will show you the way to the dungeon. Go and fight a few mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematics for tier 2 rockets.\n\nKill the Boss Monster again in a different dungeon if you want an extra tier 2 schematic to exchange for a moon buggy schematic.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -138483,13 +138434,13 @@
         }
       ],
       "preRequisites": [
-        1427
+        1426
       ]
     },
     {
       "questID": 1434,
-      "name": "Moon Buggy",
-      "description": "Moving faster on moon or other planets surface will be fun.",
+      "name": "Moon Patrol",
+      "description": "Moving faster on the Moon or other planets surface will be fun. I\u0027m sure it will be totally safe.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -138628,8 +138579,8 @@
     },
     {
       "questID": 1435,
-      "name": "Tier 2 Schematic",
-      "description": "The moon buggy need a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The moon buggy circuit using a elite circuit and a heavy duty plate tier 1 and the data stick in a ev crcuit assembler.",
+      "name": "Moon Buggy Schematic",
+      "description": "The moon buggy needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The moon buggy circuit uses a EV-tiercircuit, a heavy duty plate tier 1, and the data stick in a ev circuit assembler.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -138763,7 +138714,7 @@
     {
       "questID": 1436,
       "name": "Fueling your Buggy",
-      "description": "The moon buggy need gasoline to working. Build a 3x3 fueling pad connect it with a fuel loader and place the buggy ontop.",
+      "description": "The moon buggy needs gasoline to work. Build a 3x3 fueling pad, connect it with a fuel loader, and place the buggy on top.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -138989,7 +138940,7 @@
     {
       "questID": 1438,
       "name": "Replacement Rocket Tier 2",
-      "description": "Did you tier 2 rocket bugged away? No problem buy some new one!",
+      "description": "Did you build your tier 2 rocket using English instead of Metric units and smash into Mars? No problem buy a new one!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -139197,8 +139148,8 @@
     },
     {
       "questID": 1440,
-      "name": "Oxygen Bauble Distributer",
-      "description": "The Oxygen Bubble Distributor takes oxygen from the Oxygen Collector, and makes an oxygen bubble providing an area to safely breathe in without needing Oxygen Gear. The bubble is a sphere surrounding the distributor and will go through walls (or any block). Alternatively, you can use an Oxygen Sealer (need compressed Desh Plates)to contain oxygen inside a room.",
+      "name": "Oxygen Bubble Distributer",
+      "description": "The Oxygen Bubble Distributor takes oxygen from the Oxygen Collector, and makes an oxygen bubble providing an area to safely breathe in without needing Oxygen Gear. The bubble is a sphere surrounding the distributor and will go through walls (or any block). Alternatively, you can use an Oxygen Sealer (need compressed Desh Plates) to contain oxygen inside a room.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -139320,7 +139271,7 @@
     {
       "questID": 1441,
       "name": "Space torches",
-      "description": "Normal torches won\u0027t work in space only in the area where the oxygen bauble is.\nA solution are glowstone torches or other mods lamps.",
+      "description": "Normal torches won\u0027t work in space, only in the area within the oxygen bubble.\nOne solution is glowstone torches. You can also use other mods\u0027 lights and lamps. You\u0027ll probably want 3-5 stacks for mining veins.\nAnother is to use nightvision and a magnum torch or GregTech monster repellator to keep mobs away.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -139766,7 +139717,7 @@
     {
       "questID": 1445,
       "name": "Moon Day and Night time",
-      "description": "The Moon\u0027s day-night cycle is 2h 40min long, equaling 8 Overworld days and it is linked to the Moon phases seen on the Overworld. The daytime on the moon lasts from a full moon to the next new moon (4 Overworld days, equaling 1h 20min) and, logically, the nighttime lasts from the new moon to the next full moon.\n\nSince the 1st Overworld night is full moon, you can have a safer landing within the 1st 4 Overworld days, and then the next 4 Overworld days are more dangerous since hostile mobs will be able to spawn in the dark, and so on. If you miss the counting, the moon phases can tell you when it is daytime or nighttime on the moon.\n\nDuring the nighttime, the environment light levels go very low, allowing hostile mobs to spawn on the surface.",
+      "description": "The Moon\u0027s day-night cycle is 2h 40min long, equaling 8 Overworld days and it is linked to the Moon phases seen on the Overworld. The daytime on the moon lasts from a full moon to the next new moon (4 Overworld days, equaling 1h 20min) and, logically, the nighttime lasts from the new moon to the next full moon.\n\nSince the 1st Overworld night is full moon, you can safely land within the 1st 4 Overworld days, and then the next 4 Overworld days are more dangerous since hostile mobs will be able to spawn in the dark, and so on. If you miscount, the moon phases can tell you when it is daytime or nighttime on the moon. Full moon is the start of the moon day, new (or dark) moon is the start of the moon night.\n\nDuring the nighttime, the environment light levels go very low, allowing hostile mobs to spawn on the surface.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -139802,7 +139753,7 @@
     {
       "questID": 1446,
       "name": "Mars Dungeon",
-      "description": "After houres you will find a mars dungeon. A big hole will show you the way to the dungeon. Go and fighting some mobs before you have to kill the Boss Monster. It will drop the ey for the chest with the schematics for tier 3 rockets.\nIf you dont find the rocket schematics you can exchange it and go to another dungeon if you need the schematics for the astro miner or the cargo rocket.",
+      "description": "After hours you will find a Mars dungeon. A big hole will show you the way to the dungeon. Go and fight some mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematics for tier 3 rockets.\nIf you need the schematics for the astro miner or the cargo rocket, kill another Boss Monster and exchange the schematics.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -139903,7 +139854,7 @@
     {
       "questID": 1447,
       "name": "Astro Miner Schematic",
-      "description": "The moon buggy need a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The moon buggy circuit using a elite circuit and a heavy duty plate tier 1 and the data stick.",
+      "description": "The astro miner needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The astro miner circuit uses a EV-tier circuit and a heavy duty plate tier 3 and the data stick.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -139963,8 +139914,8 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
-              "OreDict": "circuitElite",
-              "Damage": 32705
+              "OreDict": "circuitData",
+              "Damage": 32704
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -140037,7 +139988,7 @@
     {
       "questID": 1448,
       "name": "Tier 3 Schematic",
-      "description": "Each rocket needs a construction plan. Scan it in a hv scanner and put the construction date on a data stick. The third circuit using a elite circuit and a heavy duty plate tier 3 and the data stick in a iv circuit assembler.",
+      "description": "Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The third tier schematic circuit uses an elite circuit and a heavy duty plate tier 3 and the data stick in a iv circuit assembler.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -140177,7 +140128,7 @@
     {
       "questID": 1449,
       "name": "Cargo Rocket Schematic",
-      "description": "The Cargo Rocket has the capability to transport solid items between dimensions, and is a perfect way to transport items between dimensions without relying on Enderchests.\n\nThis rocket can be loaded with 2000 fuel points (2000 mB or 2 buckets) of (Rocket) Fuel. The safe fuel level is 80%.\n\nYou can fill up the right slots with chests to increase the storage space to 36 and 54 slots.",
+      "description": "The Cargo Rocket has the capability to transport solid items between dimensions, and is a perfect way to transport items between dimensions without relying on Enderchests.\n\nThis rocket can be loaded with 2000 fuel points or 2 buckets of Rocket Fuel. The safe fuel level is 80 percent. \n\nYou can fill up the right slots with chests to increase the storage space to 36 and 54 slots.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -140237,8 +140188,8 @@
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
-              "OreDict": "circuitElite",
-              "Damage": 32705
+              "OreDict": "circuitData",
+              "Damage": 32704
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -140692,7 +140643,7 @@
     {
       "questID": 1453,
       "name": "Tier 3 Heavy Duty Plates",
-      "description": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 42 tier 3 heavy duty plates out of tier 2 platesand desh plates.",
+      "description": "Rockets require heavy duty plates for the main hull. Let\u0027s craft 42 tier 3 heavy duty plates out of tier 2 plates and desh plates.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -140824,7 +140775,7 @@
     {
       "questID": 1454,
       "name": "Rocket Tier 3",
-      "description": "After days of hard work and houndred tons ofstacks iTNT your third rocket is finally ready. But before you can go to the Asteroids, Ceres or Jupiter Moons you need to craft a few more things.",
+      "description": "After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready. But before you can go to the Asteroids, Ceres or Jupiter Moons you need to craft a few more things.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -140982,13 +140933,14 @@
         1456,
         1458,
         1459,
-        1460
+        1460,
+        1473
       ]
     },
     {
       "questID": 1455,
       "name": "Replacement Rocket Tier 3",
-      "description": "Did you tier 2 rocket bugged away? No problem buy some new one!",
+      "description": "Did you tier 3 rocket use the same launch computer as the tier 1 and blow up during launch? No problem buy a new one!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -141054,7 +141006,7 @@
     {
       "questID": 1456,
       "name": "Tier 3 Lander",
-      "description": "The Tier 3 or Deep Space lander is requiered for a soft landing.\nPut the Mars lander in a desh cage.",
+      "description": "The Tier 3 or Deep Space lander is required for a soft landing.\nPut the Mars lander in a desh cage.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -141867,7 +141819,7 @@
         }
       ],
       "preRequisites": [
-        1454
+        1427
       ]
     },
     {
@@ -142108,7 +142060,7 @@
         }
       ],
       "preRequisites": [
-        1454
+        1429
       ]
     },
     {
@@ -142208,7 +142160,7 @@
     },
     {
       "questID": 1466,
-      "name": "Temperatur Control",
+      "name": "Temperature Control",
       "description": "Ambient Thermal Controller is an item for use in the Oxygen Sealer to provide thermal protection in sealed spaces.\n\nAmbient Thermal Controller is useful in the dimensions too cold or too hot for players to survive without Thermal Padding.\n\nIt can be placed in the 3rd slot next to the energy and oxygen slots in a working Oxygen Sealer. Once the Ambient Thermal Controller is in the sealer, it will heat or cool the output oxygen according to the local environment, and then the player can safely take the thermal padding off in the sealed room.",
       "isMain": false,
       "isSilent": false,
@@ -142613,7 +142565,7 @@
     {
       "questID": 1470,
       "name": "Cavernous Vine",
-      "description": "Cavernous Vine is a poisonous plant that grows naturally in the Mars undergrounds. It grows from the ceiling down to the floor in the huge caves flooded with Bacterial Sludge, emits light and can trap mobs in it.\n\nAny mob that touches this plant will be poisoned, dragged up and lose health down to 1 health point (half a heart) while trapped in this plant. Mobs that are immune to poison, like Zombies and Skeletons, will not lose health.\n\nThey grow from the bottom face of a solid block down to 1 block away from the floor.\n\nCavernous vines can be broken by hand without taking damage or being poisoned but they will drop nothing. They can be obtained as an item using shears. Even picks with Silk Touch enchant will not obtain anything.\n\nOnce obtained, they can be replanted elsewhere and regrow, like cactus.",
+      "description": "Cavernous Vine is a poisonous plant that grows naturally in the Mars underground. It grows from the ceiling down to the floor in the huge caves flooded with Bacterial Sludge, emits light and can trap mobs in it.\n\nAny mob that touches this plant will be poisoned, dragged up and lose health down to 1 health point (half a heart) while trapped in this plant. Mobs that are immune to poison, like Zombies and Skeletons, will not lose health.\n\nThey grow from the bottom face of a solid block down to 1 block away from the floor.\n\nCavernous vines can be broken by hand without taking damage or being poisoned but they will drop nothing. They can be obtained as an item using shears. Even picks with Silk Touch enchant will not obtain anything.\n\nOnce obtained, they can be replanted elsewhere and regrow, like cactus.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -142708,7 +142660,7 @@
     {
       "questID": 1471,
       "name": "Slimeling",
-      "description": "Slimeling is a mob-utility that spawns from Slimeling Eggs found on Mars surface. It shares some features from vanilla wolves and mules: it can be tamable and attacks mobs that threaten its owners, and can be equipped with a special chest to transport items.\n\nAs an allied mob, Slimelings will actively help and follow the player-owner and will attempt to protect them. They can also have a neutral behavior, that is, they can attack if provoked or hurt by non-owners.\n\nItems that you can feed Slimelings with:\n\nBoat\nCooked fish\nGunpowder\nGold ingot\nRedstone repeater\nWooden door\n\nSlimelings can be equipped by their owners with a Slimeling Inventory Bag to transport items.",
+      "description": "Slimeling is a utility mob that spawns from Slimeling Eggs found on Mars surface. It shares some features from vanilla wolves and mules: it can be tamable and attacks mobs that threaten its owners, and can be equipped with a special chest to transport items.\n\nAs an allied mob, Slimelings will actively help and follow the player-owner and will attempt to protect them. They can also have a neutral behavior, that is, they can attack if provoked or hurt by non-owners.\n\nItems that you can feed Slimelings with:\n\nBoat\nCooked fish\nGunpowder\nGold ingot\nRedstone repeater\nWooden door\n\nSlimelings can be equipped by their owners with a Slimeling Inventory Bag to transport items.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -142953,6 +142905,281 @@
       ],
       "preRequisites": [
         1462
+      ]
+    },
+    {
+      "questID": 1473,
+      "name": "Nice and comfortable - in space!",
+      "description": "These thermal clothes will keep you nice and warm even in the coldest depths of outer space.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "GalaxySpace:item.ThermalPaddingT2",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "dreamcraft:item.TungstenString",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 29028
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.ThermalClothT2",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalaxySpace:item.ThermalPaddingT2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "GalaxySpace:item.ThermalPaddingT2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "GalaxySpace:item.ThermalPaddingT2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "GalaxySpace:item.ThermalPaddingT2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "GalacticraftMars:item.null",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "GalacticraftMars:item.itemBasicAsteroids",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "dreamcraft:item.MediumFuelCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSpaceII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1453
+      ]
+    },
+    {
+      "questID": 1474,
+      "name": "Want to join a band?",
+      "description": "Or at least play with drums?  If you have extra Meteoric Iron after building your rocket and thermal padding, turn it into Meteoric Steel and use it to make some drums. These drums can hold 256 buckets even after breaking.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:drum",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "plateSteel",
+              "Damage": 17305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 28341
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5134
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:drum",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ExtraUtilities:drum",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:4": 3,
+                    "id:4": 35
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        176
       ]
     }
   ],
@@ -145736,6 +145963,11 @@
           "id": 1461,
           "x": 108,
           "y": 204
+        },
+        {
+          "id": 1474,
+          "x": 228,
+          "y": 240
         }
       ]
     },
@@ -148781,7 +149013,7 @@
         },
         {
           "id": 1428,
-          "x": 300,
+          "x": 252,
           "y": 216
         },
         {
@@ -148791,38 +149023,38 @@
         },
         {
           "id": 1430,
-          "x": 252,
-          "y": 252
+          "x": 300,
+          "y": 216
         },
         {
           "id": 1431,
           "x": 336,
-          "y": 252
+          "y": 216
         },
         {
           "id": 1432,
           "x": 252,
-          "y": 216
+          "y": 252
         },
         {
           "id": 1433,
-          "x": 336,
-          "y": 216
+          "x": 252,
+          "y": 174
         },
         {
           "id": 1434,
-          "x": 408,
-          "y": 216
+          "x": 342,
+          "y": 174
         },
         {
           "id": 1435,
-          "x": 372,
-          "y": 216
+          "x": 300,
+          "y": 174
         },
         {
           "id": 1436,
-          "x": 408,
-          "y": 180
+          "x": 384,
+          "y": 174
         },
         {
           "id": 1437,
@@ -148931,18 +149163,18 @@
         },
         {
           "id": 1462,
-          "x": 300,
-          "y": 564
+          "x": 336,
+          "y": 252
         },
         {
           "id": 1463,
-          "x": 252,
-          "y": 564
+          "x": 300,
+          "y": 558
         },
         {
           "id": 1464,
-          "x": 348,
-          "y": 564
+          "x": 336,
+          "y": 330
         },
         {
           "id": 1465,
@@ -148981,8 +149213,13 @@
         },
         {
           "id": 1472,
-          "x": 300,
-          "y": 600
+          "x": 378,
+          "y": 252
+        },
+        {
+          "id": 1473,
+          "x": 150,
+          "y": 456
         }
       ]
     },
