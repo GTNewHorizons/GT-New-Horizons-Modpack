@@ -1448,9 +1448,9 @@ recipes.addShaped(<gregtech:gt.metaitem.01:32750>, [
 [<ore:craftingToolWrench>, <ore:craftingToolHardHammer>, <ore:craftingToolFile>]]);
 
 // --- Cell Exchange
-recipes.addShapeless(<IC2:itemFluidCell>, [<IC2:itemCellEmpty>]]);
+recipes.addShapeless(<IC2:itemFluidCell>, [<IC2:itemCellEmpty>]);
 // -
-recipes.addShapeless(<IC2:itemCellEmpty>, [<IC2:itemFluidCell>]]);
+recipes.addShapeless(<IC2:itemCellEmpty>, [<IC2:itemFluidCell>]);
 
 
 
