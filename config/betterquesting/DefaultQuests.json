@@ -17475,7 +17475,7 @@
     {
       "questID": 194,
       "name": "Monitoring your reactor",
-      "description": "It\u0027s important to monitor your reactor (Or just fancy to have a big screen somewhere...). So now that you\u0027ve gained knowledge about the available fuel rods, you can start to build yourself a power plant. Here is something to help you out.",
+      "description": "It\u0027s important to monitor your reactor (Or just fancy to have a big screen somewhere...). So now that you\u0027ve gained knowledge about the available fuel rods, you can start to build yourself a power plant. Here is something to help you out.\n\nUse the sensor kit on the block you want to monitor, then put the sensor card in the display panel.  Next select which lines of information you want to display.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70451,7 +70451,7 @@
     {
       "questID": 765,
       "name": "Time to drill!",
-      "description": "Pumps are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There\u0027s also a chance to find natural gas.\n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. ",
+      "description": "Pumps are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There\u0027s also a chance to find natural gas.\n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. \n\nLater you can upgrade the oil drilling rig so it extracts from more than one chunk at a time.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -70735,7 +70735,7 @@
     {
       "questID": 767,
       "name": "Analyzing the soil",
-      "description": "To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking a Seismic Prospector with 8 dynamite, 4 TNT, 2 industrial TNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.\nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed page and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don\u0027t assemble more than one book at time.\n\nTADA now you have a book with info about the chunk you scanned.",
+      "description": "To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking a Seismic Prospector with 8 dynamite, 4 TNT, 2 industrial TNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.\nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed page and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don\u0027t assemble more than one book at time.\n\nTADA now you have a book with info about the chunk you scanned.\n\nNote: Each oilfield is 8x8 chunks. Within the field the amount can vary +- 25 percent. The amount reported in the book is the oil extracted per tick from that chunk.  The total amount in the chunk is complicated.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114647,7 +114647,7 @@
     {
       "questID": 1179,
       "name": "EBF Infos",
-      "description": "You can use a scanner to manually check how your EBF works, or you can make an information panel from nuclear control and always see the status. Make a GT sensor kit and place the sensor card in your info panel. Enable it with a redstone signal.",
+      "description": "You can use a scanner to manually check how your EBF works, or you can make an information panel from nuclear control and always see the status. Make a GT sensor kit and use it on the EBF controller. Place the the sensor card in your info panel. Enable it with a redstone signal.\n\nThe GregTech sensor card can monitor Gregtech machines like the EBF, Turbines, and Pyrolyse ovens. This is handy for keeping an eye on maintenance issues for multiblocks.\n\nIf you want to put the panels far from the machines they are monitoring, you will need range upgrades.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -121310,8 +121310,8 @@
     },
     {
       "questID": 1243,
-      "name": "Pitchblend",
-      "description": "In order to try running your nuclear reactor you need some uranium or plutonium fuel. Go and find a pitchblend vein on Mars at Y 30-60.",
+      "name": "Pitchblende",
+      "description": "In order to try running your nuclear reactor you need some uranium or plutonium fuel. Go and find a pitchblende vein on Mars at Y 30-60.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -136872,7 +136872,7 @@
     {
       "questID": 1416,
       "name": "Mallard Rust Smelly",
-      "description": "Or is it Alloy Blast Smelter? Well, that makes more sense. This multibock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids.",
+      "description": "Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -136903,6 +136903,36 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "miscutils:miscutils.blockcasings",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "miscutils:miscutils.blockcasings",
+              "Count": 13,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
@@ -136912,9 +136942,45 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2028
+            },
+            {
+              "id": "miscutils:itemDustIncoloy020",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "miscutils:itemDustIncoloyMA956",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "miscutils:itemDustInconel625",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
-        213
+        1243
       ]
     },
     {
@@ -137049,6 +137115,36 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "miscutils:gtplusplus.blockcasings.2",
+              "Count": 19,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "miscutils:gtplusplus.blockcasings.2",
+              "Count": 80,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
@@ -137056,11 +137152,73 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 44
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 44
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        861
+        1416
       ]
     },
     {
@@ -137211,6 +137369,21 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "miscutils:miscutils.blockcasings",
+              "Count": 26,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
@@ -137220,7 +137393,37 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4884
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4841
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4873
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
         213
       ]
@@ -137259,6 +137462,21 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "miscutils:gtplusplus.blockcasings.2",
+              "Count": 70,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
@@ -137268,7 +137486,37 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 944
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 810
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 526
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
         213
       ]
@@ -148289,18 +148537,18 @@
       "quests": [
         {
           "id": 1416,
-          "x": 144,
-          "y": 0
-        },
-        {
-          "id": 1417,
           "x": 96,
           "y": 0
         },
         {
-          "id": 1418,
+          "id": 1417,
           "x": 48,
           "y": 0
+        },
+        {
+          "id": 1418,
+          "x": 96,
+          "y": 60
         },
         {
           "id": 1419,
@@ -148309,22 +148557,22 @@
         },
         {
           "id": 1420,
-          "x": 336,
+          "x": 288,
           "y": 0
         },
         {
           "id": 1421,
-          "x": 192,
+          "x": 144,
           "y": 0
         },
         {
           "id": 1422,
-          "x": 240,
+          "x": 192,
           "y": 0
         },
         {
           "id": 1423,
-          "x": 288,
+          "x": 240,
           "y": 0
         }
       ]
