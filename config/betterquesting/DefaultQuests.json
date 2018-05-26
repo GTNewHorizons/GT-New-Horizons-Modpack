@@ -143555,7 +143555,7 @@
     {
       "questID": 1476,
       "name": "All the finest cuts of meat",
-      "description": "This knife is not going to work for slaughtering the hundreds of animals you will need for food and materials. Make yourself a GregTech Butchery Knife. It stops the explosions, and kills the cows much faster. Later when you get Stainless Steel, you can make a new one that will kill cows in one hit.\n\nNote: GT Tool damage is based on mining level.",
+      "description": "This knife is not going to work for slaughtering the hundreds of animals you will need for food and materials. Make yourself a GregTech Butchery Knife. It stops the explosions, and kills the cows much faster. Later when you get Stainless Steel, you can make a new one that will kill cows in one hit.\n\nNote: GT Tool damage is based on mining level. Higher tier Butchery knives have better Looting levels",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
