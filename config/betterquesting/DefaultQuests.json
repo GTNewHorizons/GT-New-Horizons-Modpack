@@ -137488,12 +137488,6 @@
               "Count": 64,
               "OreDict": "",
               "Damage": 544
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 6
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -137502,7 +137496,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -137511,8 +137505,7 @@
         }
       ],
       "preRequisites": [
-        1231,
-        838
+        1148
       ]
     },
     {
@@ -137800,34 +137793,27 @@
         {
           "rewards": [
             {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
               "id": "gregtech:gt.blockores",
               "Count": 64,
               "OreDict": "",
               "Damage": 34
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
+            },
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+      "rewards": [],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        213
+        1148
       ]
     },
     {
@@ -143933,160 +143919,6 @@
       ],
       "preRequisites": [
         492
-      ]
-    },
-    {
-      "questID": 1477,
-      "name": "You\u0027re gonna hate this #6 in MV too",
-      "description": "The sixth item you\u0027ll need a lot of. For the scanner and the seismic prospector.",
-      "isMain": true,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 32691
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32691
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "gregtech:gt.metaitem.02",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 29501
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        1148
-      ]
-    },
-    {
-      "questID": 1478,
-      "name": "You\u0027re gonna hate this #5 in MV too",
-      "description": "The fifth item you\u0027ll need a lot of. For the microwave, the scanner, the precision laser engraver, etc.",
-      "isMain": true,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metaitem.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 32681
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 32681
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "minecraft:ender_pearl",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        1148
       ]
     }
   ],
