@@ -41411,7 +41411,7 @@
       ],
       "preRequisites": [
         483,
-        492
+        1476
       ]
     },
     {
@@ -143429,6 +143429,250 @@
       "preRequisites": [
         176
       ]
+    },
+    {
+      "questID": 1475,
+      "name": "Cows are supposed to Moo!",
+      "description": "What the?  You noticed sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife. Craft a flint GregTech knife and I will give you an old iron one to use once it wears out.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 34,
+        "tag": {
+          "ench:9": [
+            {
+              "lvl:2": 1,
+              "id:2": 20
+            }
+          ],
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Flint",
+            "MaxDamage:4": 12800,
+            "SecondaryMaterial:8": "Wood"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 12800,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 16
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Iron",
+                  "MaxDamage:4": 25600,
+                  "SecondaryMaterial:8": "Iron",
+                  "Damage:4": 2800
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "minecraft:porkchop",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 1476,
+      "name": "All the finest cuts of meat",
+      "description": "This knife is not going to work for slaughtering the hundreds of animals you will need for food and materials. Make yourself a GregTech Butchery Knife. It stops the explosions, and kills the cows much faster. Later when you get Stainless Steel, you can make a new one that will kill cows in one hit.\n\nNote: GT Tool damage is based on mining level. Higher tier Butchery knives have better Looting levels",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 36,
+        "tag": {
+          "ench:9": [
+            {
+              "lvl:2": 1,
+              "id:2": 16
+            },
+            {
+              "lvl:2": 2,
+              "id:2": 21
+            }
+          ],
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Iron",
+            "MaxDamage:4": 25600,
+            "SecondaryMaterial:8": "Iron"
+          }
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 36,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 16
+                  },
+                  {
+                    "lvl:2": 2,
+                    "id:2": 21
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Iron",
+                  "MaxDamage:4": 25600,
+                  "SecondaryMaterial:8": "Iron"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:leather",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "minecraft:beef",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        492
+      ]
     }
   ],
   "questLines": [
@@ -143489,7 +143733,7 @@
         {
           "id": 10,
           "x": 180,
-          "y": 180
+          "y": 198
         },
         {
           "id": 12,
@@ -143575,6 +143819,11 @@
           "id": 1204,
           "x": 108,
           "y": 36
+        },
+        {
+          "id": 1475,
+          "x": 204,
+          "y": 168
         }
       ]
     },
@@ -143789,7 +144038,7 @@
         },
         {
           "id": 492,
-          "x": 36,
+          "x": 60,
           "y": 108
         },
         {
@@ -143881,6 +144130,11 @@
           "id": 1289,
           "x": 72,
           "y": 36
+        },
+        {
+          "id": 1476,
+          "x": 30,
+          "y": 108
         }
       ]
     },
