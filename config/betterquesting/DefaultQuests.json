@@ -7221,7 +7221,7 @@
     {
       "questID": 77,
       "name": "EBF-Time",
-      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers \u003d 78%.\nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.",
+      "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers \u003d 78%.\nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.\n\nIf the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -41411,7 +41411,7 @@
       ],
       "preRequisites": [
         483,
-        492
+        1476
       ]
     },
     {
@@ -45863,8 +45863,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -45938,8 +45938,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -136947,7 +136947,7 @@
           "choices": [
             {
               "id": "enhancedlootbags:lootbag",
-              "Count": 3,
+              "Count": 2,
               "OreDict": "",
               "Damage": 7
             },
@@ -136977,6 +136977,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -137076,9 +137087,43 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "miscutils:itemAirFilter",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "AirFilter:10": {
+                  "Damage:4": 0
+                }
+              }
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        77
+        1477
       ]
     },
     {
@@ -137218,7 +137263,8 @@
         }
       ],
       "preRequisites": [
-        1416
+        1416,
+        861
       ]
     },
     {
@@ -137266,13 +137312,27 @@
       ],
       "rewards": [
         {
-          "rewards": [
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32538,
+              "tag": {
+                "GT.ItemCharge:4": 1600000
+              }
+            },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
               "Damage": 6
-            },
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianI",
               "Count": 5,
@@ -137321,6 +137381,36 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "miscutils:gtplusplus.blockcasings.2",
+              "Count": 18,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "miscutils:gtplusplus.blockcasings.2",
+              "Count": 47,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
@@ -137330,9 +137420,99 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:diamond_ore",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 502
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 501
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 503
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 514
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 542
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 543
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 541
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 540
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 545
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 544
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        213
+        1231,
+        838
       ]
     },
     {
@@ -137416,12 +137596,23 @@
             },
             {
               "id": "enhancedlootbags:lootbag",
-              "Count": 5,
+              "Count": 2,
               "OreDict": "",
               "Damage": 8
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -137515,6 +137706,17 @@
             }
           ],
           "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
@@ -137524,7 +137726,7 @@
     {
       "questID": 1423,
       "name": "Dancing in circles",
-      "description": "Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge.  Build a large thermal refinery to get the most out of your ores.",
+      "description": "Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge.  Build a large thermal refinery to get the most out of your ores.\n\nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -137555,6 +137757,36 @@
           "autoConsume": false,
           "requiredItems": [
             {
+              "id": "gregtech:gt.blockcasings3",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "miscutils:gtplusplus.blockcasings.2",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
               "id": "gregtech:gt.blockmachines",
               "Count": 1,
               "OreDict": "",
@@ -137564,7 +137796,36 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 34
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         213
       ]
@@ -143429,6 +143690,404 @@
       "preRequisites": [
         176
       ]
+    },
+    {
+      "questID": 1475,
+      "name": "Cows are supposed to Moo!",
+      "description": "What the?  You noticed sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife. Craft a flint GregTech knife and I will give you an old iron one to use once it wears out.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 34,
+        "tag": {
+          "ench:9": [
+            {
+              "lvl:2": 1,
+              "id:2": 20
+            }
+          ],
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Flint",
+            "MaxDamage:4": 12800,
+            "SecondaryMaterial:8": "Wood"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Flint",
+                  "MaxDamage:4": 12800,
+                  "SecondaryMaterial:8": "Wood"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 16
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Iron",
+                  "MaxDamage:4": 25600,
+                  "SecondaryMaterial:8": "Iron",
+                  "Damage:4": 2800
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "minecraft:porkchop",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 1476,
+      "name": "All the finest cuts of meat",
+      "description": "This knife is not going to work for slaughtering the hundreds of animals you will need for food and materials. Make yourself a GregTech Butchery Knife. It stops the explosions, and kills the cows much faster. Later when you get Stainless Steel, you can make a new one that will kill cows in one hit.\n\nNote: GT Tool damage is based on mining level.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 36,
+        "tag": {
+          "ench:9": [
+            {
+              "lvl:2": 1,
+              "id:2": 16
+            },
+            {
+              "lvl:2": 2,
+              "id:2": 21
+            }
+          ],
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Iron",
+            "MaxDamage:4": 25600,
+            "SecondaryMaterial:8": "Iron"
+          }
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 36,
+              "tag": {
+                "ench:9": [
+                  {
+                    "lvl:2": 1,
+                    "id:2": 16
+                  },
+                  {
+                    "lvl:2": 2,
+                    "id:2": 21
+                  }
+                ],
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Iron",
+                  "MaxDamage:4": 25600,
+                  "SecondaryMaterial:8": "Iron"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:leather",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "minecraft:beef",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        492
+      ]
+    },
+    {
+      "questID": 1477,
+      "name": "You\u0027re gonna hate this #6 in MV too",
+      "description": "The sixth item you\u0027ll need a lot of. For the scanner and the seismic prospector.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32691
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32691
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 29501
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1148
+      ]
+    },
+    {
+      "questID": 1478,
+      "name": "You\u0027re gonna hate this #5 in MV too",
+      "description": "The fifth item you\u0027ll need a lot of. For the microwave, the scanner, the precision laser engraver, etc.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32681
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32681
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:ender_pearl",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1148
+      ]
     }
   ],
   "questLines": [
@@ -143489,7 +144148,7 @@
         {
           "id": 10,
           "x": 180,
-          "y": 180
+          "y": 198
         },
         {
           "id": 12,
@@ -143575,6 +144234,11 @@
           "id": 1204,
           "x": 108,
           "y": 36
+        },
+        {
+          "id": 1475,
+          "x": 204,
+          "y": 168
         }
       ]
     },
@@ -143789,7 +144453,7 @@
         },
         {
           "id": 492,
-          "x": 36,
+          "x": 60,
           "y": 108
         },
         {
@@ -143881,6 +144545,11 @@
           "id": 1289,
           "x": 72,
           "y": 36
+        },
+        {
+          "id": 1476,
+          "x": 30,
+          "y": 108
         }
       ]
     },
@@ -145152,7 +145821,7 @@
         },
         {
           "id": 760,
-          "x": 252,
+          "x": 192,
           "y": 132
         },
         {
@@ -145452,7 +146121,7 @@
         },
         {
           "id": 1268,
-          "x": 192,
+          "x": 132,
           "y": 132
         },
         {
@@ -145489,6 +146158,16 @@
           "id": 1324,
           "x": 216,
           "y": 624
+        },
+        {
+          "id": 1477,
+          "x": 264,
+          "y": 132
+        },
+        {
+          "id": 1478,
+          "x": 228,
+          "y": 132
         }
       ]
     },
