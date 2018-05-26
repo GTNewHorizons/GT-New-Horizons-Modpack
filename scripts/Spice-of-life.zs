@@ -27,5 +27,5 @@ recipes.addShaped(<SpiceOfLife:lunchbag>, [
 
 // --- Lunch Box
 recipes.addShaped(<SpiceOfLife:lunchbox>, [
-[<minecraft:heavy_weighted_pressure_plate>, <ore:craftingToolScrewdriver>, <minecraft:heavy_weighted_pressure_plate>],
-[<ore:screwAnyIron>, <minecraft:heavy_weighted_pressure_plate>, <ore:screwAnyIron>]]);
+[<ore:plateDoubleIron>, <ore:craftingToolScrewdriver>, <ore:plateDoubleIron>],
+[<ore:screwAnyIron>, <ore:plateDoubleIron>, <ore:screwAnyIron>]]);
