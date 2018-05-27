@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.4.0 Beta is out 11.05.2018
+Version 2.0.4.1 is out 27.05.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -200,7 +200,7 @@ you find it in your resource folder<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics 1.6.5<BR>
 * Craft Tweaker 3.0.12<BR>
-* Crops ++ 1.2.8<BR>
+* Crops ++ 1.2.8d<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2l<BR>
@@ -224,15 +224,15 @@ you find it in your resource folder<BR>
 * Galacticraft-Planets 3.0.12.504<BR>
 * GalacticraftCore 3.0.12.504<BR>
 * GalactiGreg 0.9.8<BR>
-* Galaxy Space 1.1.3b<BR>
+* Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.23<BR>
+* Gregtech 5.09.32.24<BR>
 * GT Scanner Mod 1.4,2<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.24<BR>
-* GT++ 1.7.0-pre11-final<BR>
-* GTTweaker 1.1.1<BR>
+* GT New Horizons Core Mod 1.5.25<BR>
+* GT++ 1.7.0-pre20<BR>
+* GTTweaker 1.7.0<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
 * Holo Inventory 1.9.1.124<BR>
@@ -270,7 +270,7 @@ you find it in your resource folder<BR>
 * Open Peripheral Integration 0.6.95<BR>
 * Open Printers 0.1.0.132<BR>
 * Open Security 1.0-109<BR>
-* Pam's Harvestcraft 1.7.10-m<BR>
+* Pam's Harvestcraft 1.7.10-n<BR>
 * Pam's Harvestcraft Nether 1.7.10a<BR>
 * Project Blue 1.1.6<BR>
 * Project Red-Base 4.7.0pre12.95GT<BR>
@@ -303,12 +303,12 @@ you find it in your resource folder<BR>
 * Super Tic 1.2<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.5<BR>
+* Tec Tech 3.6.5a<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
 * Thaumic Bases 1.4.17.0<BR>
-* Thaumic Energistics 1.1.2.0<BR>
+* Thaumic Energistics 1.1.3.0<BR>
 * Thaumic Exploration 1.1.73<BR>
 * Thaumic Horizon 1.1.9<BR>
 * Thaumic Machina 0.2.1<BR>
@@ -320,6 +320,7 @@ you find it in your resource folder<BR>
 * TMechworks 02.14.106<BR>
 * Too Much Loot 4.0.2.B1<BR>
 * Translocator 1.1.2.16<BR>
+* Travellers Gear 1.16.6a<BR>
 * Twillight Forest 2.3.7<BR>
 * Ulity Mobs 3.1.1<BR>
 * Ulity Worlds 1.0.9d<BR>
@@ -331,6 +332,7 @@ you find it in your resource folder<BR>
 * Warp Theory 1.0i dev<BR>
 * Wireless Redstone CBE 1.4.1.11<BR>
 * Witchery 0.24.1<BR>
+* Witching Gadgets 1.2.9a GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
 ## Libs and Cores<BR>
@@ -341,7 +343,7 @@ you find it in your resource folder<BR>
 * CodeChickenLib 1.1.3.140<BR>
 * CofhCore 3.1.4.329<BR>
 * CofhLib 1.2.1.185<BR>
-* Crop Loader Core 0.0.8<BR>
+* Crop Loader Core 0.1.1<BR>
 * Dummy Core 1.13<BR>
 * Ender Core 0.2.0.39<BR>
 * InpureCore 1.0.0B9-62<BR>
