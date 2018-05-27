@@ -231,7 +231,7 @@ you find it in your resource folder<BR>
 * GT Scanner Mod 1.4,2<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
 * GT New Horizons Core Mod 1.5.25<BR>
-* GT++ 1.7.0-pre20<BR>
+* GT++ 1.7.0-pre21<BR>
 * GTTweaker 1.7.0<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
