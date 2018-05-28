@@ -125427,109 +125427,6 @@
       ]
     },
     {
-      "questID": 1289,
-      "name": "Looting II",
-      "description": "The butchery knife from GT comes with a looting effect depending on the material. You will most likely use iron which will result in looting 2. Can be used to finish off mobs or to simply make your animal farms more efficient.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "gregtech:gt.metatool.01",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 36,
-        "tag": {
-          "ench:9": [
-            {
-              "lvl:2": 1,
-              "id:2": 21
-            }
-          ]
-        }
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metatool.01",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 36,
-              "tag": {
-                "ench:9": [
-                  {
-                    "lvl:2": 1,
-                    "id:2": 21
-                  }
-                ]
-              }
-            }
-          ],
-          "taskID": "bq_standard:crafting"
-        }
-      ],
-      "rewards": [
-        {
-          "choices": [
-            {
-              "id": "minecraft:spawn_egg",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 54
-            },
-            {
-              "id": "minecraft:spawn_egg",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 50
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 1
-            }
-          ],
-          "rewardID": "bq_standard:choice"
-        },
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinSmith",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        36
-      ]
-    },
-    {
       "questID": 1290,
       "name": "Imma chargin\u0027 my...",
       "description": "Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.\nUse the autoclave to make crystals.",
@@ -143894,6 +143791,18 @@
         {
           "rewards": [
             {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 54
+            },
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
               "id": "minecraft:leather",
               "Count": 8,
               "OreDict": "",
@@ -143916,8 +143825,14 @@
         {
           "rewards": [
             {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 3,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
@@ -145535,11 +145450,6 @@
         {
           "id": 1146,
           "x": 0,
-          "y": 36
-        },
-        {
-          "id": 1289,
-          "x": 72,
           "y": 36
         },
         {
