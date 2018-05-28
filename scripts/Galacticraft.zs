@@ -1678,7 +1678,7 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11340> * 2], [<GalacticraftCore
 
 
 // --- Bacterial Sludge dublication
-Brewery.addRecipe(<liquid:binnie.bacteria> * 750, <gregtech:gt.metaitem.01:2398>, <liquid:bacterialsludge> * 75, false);
+Brewery.addRecipe(<liquid:bacterialsludge> * 75, <gregtech:gt.metaitem.01:2398>, <liquid:binnie.bacteria> * 750, false);
 
 
 
