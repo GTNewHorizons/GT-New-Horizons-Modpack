@@ -55315,7 +55315,7 @@
     {
       "questID": 624,
       "name": "Basic canner",
-      "description": "The canning machine is mainly used to fill tin cans with any kind of food, but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with sulfur, mercury, cadmium, lithium or sodium.",
+      "description": "The canning machine is mainly used to fill tin cans with any kind of food (HV Tier), but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with sulfur, mercury, cadmium, lithium or sodium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114597,19 +114597,19 @@
           "choices": [
             {
               "id": "minecraft:apple",
-              "Count": 8,
+              "Count": 64,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "minecraft:cooked_beef",
-              "Count": 8,
+              "Count": 32,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "minecraft:golden_apple",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
@@ -114617,7 +114617,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 14
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -114625,14 +114625,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinCook",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinTechnician",
-              "Count": 15,
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -114641,7 +114641,7 @@
         }
       ],
       "preRequisites": [
-        624
+        1289
       ]
     },
     {
@@ -125424,6 +125424,77 @@
       ],
       "preRequisites": [
         721
+      ]
+    },
+    {
+      "questID": 1289,
+      "name": "HV Canner",
+      "description": "The canning machine is mainly used to fill tin cans with any kind of food, but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with sulfur, mercury, cadmium, lithium or sodium.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 233
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 233
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1231
       ]
     },
     {
@@ -146460,11 +146531,6 @@
           "y": 480
         },
         {
-          "id": 1178,
-          "x": 684,
-          "y": 372
-        },
-        {
           "id": 1266,
           "x": 204,
           "y": 60
@@ -147465,6 +147531,16 @@
           "id": 1424,
           "x": 288,
           "y": 384
+        },
+        {
+          "id": 1178,
+          "x": 144,
+          "y": 228
+        },
+        {
+          "id": 1289,
+          "x": 180,
+          "y": 228
         }
       ]
     },
