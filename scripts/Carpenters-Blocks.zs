@@ -230,10 +230,7 @@ recipes.addShaped(<CarpentersBlocks:blockCarpentersLever>,  [
 [null, Screwdriver, null]]);
 
 // --- CarpentersBlock Wedge Slope
-recipes.addShaped(<CarpentersBlocks:blockCarpentersSlope> * 3, [
-[null, null, IronScrew],
-[null, Screwdriver, <CarpentersBlocks:blockCarpentersPressurePlate>],
-[IronScrew, <CarpentersBlocks:blockCarpentersPressurePlate>, <CarpentersBlocks:blockCarpentersPressurePlate>]]);
+recipes.addShapeless(<CarpentersBlocks:blockCarpentersSlope> * 2, [<CarpentersBlocks:blockCarpentersBlock>, Saw]);
 
 // --- Carpenters Stairs
 recipes.addShapeless(<CarpentersBlocks:blockCarpentersStairs>, [Saw, <CarpentersBlocks:blockCarpentersSlope>]);
