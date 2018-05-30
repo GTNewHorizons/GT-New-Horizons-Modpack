@@ -332,6 +332,6 @@ CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <Carpen
 CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:lubricant> * 2, 50, 30);
 
 // --- CarpentersBlock Wedge Slope
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, <CarpentersBlocks:blockCarpentersBlock>, <liquid:water> * 20, 100, 16);
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, <CarpentersBlocks:blockCarpentersBlock>, <liquid:ic2distilledwater> * 10, 100, 16);
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, <CarpentersBlocks:blockCarpentersBlock>, <liquid:lubricant> * 2, 50, 16);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, null, <CarpentersBlocks:blockCarpentersBlock>, <liquid:water> * 20, 100, 16);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, null, <CarpentersBlocks:blockCarpentersBlock>, <liquid:ic2distilledwater> * 10, 100, 16);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, null, <CarpentersBlocks:blockCarpentersBlock>, <liquid:lubricant> * 2, 50, 16);
