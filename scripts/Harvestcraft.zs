@@ -175,6 +175,9 @@ recipes.remove(<harvestcraft:blueberryjuiceItem>);
 // --- Lemonade
 recipes.remove(<harvestcraft:lemonaideItem>);
 
+// --- Onion Soup
+recipes.remove(<harvestcraft:onionsoupItem>);
+
 
 
 // --- Adding Back Recipes ---
@@ -454,6 +457,12 @@ recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<ore:toolJuicer>, <ore:
 
 // --- Lemonade
 recipes.addShapeless(<harvestcraft:lemonaideItem>, [<ore:toolJuicer>, <ore:cropLemon>, <ore:listAllsugar>]);
+
+// --- Onion Soup
+recipes.addShaped(<harvestcraft:onionsoupItem>, [
+[<harvestcraft:potItem>, <ore:cropOnion>, null],
+[<harvestcraft:stockItem>, <harvestcraft:cheeseItem>, null],
+[null, null, null]]);
 
 
 
