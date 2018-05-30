@@ -1125,7 +1125,7 @@ recipes.addShaped(<GalacticraftMars:tile.marsMachine:8>, [
 // --- Grappler
 recipes.addShaped(<GalacticraftMars:item.grapple>, [
 [null, null, <ore:toolHeadArrowMeteoricSteel>],
-[String, String, String],
+[<dreamcraft:item.MeteoricIronString>, <dreamcraft:item.MeteoricIronString>, <dreamcraft:item.MeteoricIronString>],
 [<ore:ringMeteoricSteel>, null, null]]);
 
 // --- Astro Miner Base
