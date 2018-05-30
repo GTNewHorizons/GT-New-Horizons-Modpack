@@ -292,9 +292,6 @@ Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLever>,  CarpentersBlock, <
 // --- Carpenters Safe
 Assembler.addRecipe(Safe, CollapsibleBlock * 4, IC2Safe, 300, 30);
 
-// --- CarpentersBlock Wedge Slope
-Assembler.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 2, <CarpentersBlocks:blockCarpentersPressurePlate>, IronScrew, 100, 16);
-
 // --- Carpenters Torch
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersTorch> * 10, CarpentersBlock, <minecraft:torch> * 10, 100, 16);
 
@@ -333,3 +330,8 @@ CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersButton> * 4, null, <Carpen
 CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:water> * 20, 100, 30);
 CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:ic2distilledwater> * 10, 100, 30);
 CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:lubricant> * 2, 50, 30);
+
+// --- CarpentersBlock Wedge Slope
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, <CarpentersBlocks:blockCarpentersBlock>, <liquid:water> * 20, 100, 16);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, <CarpentersBlocks:blockCarpentersBlock>, <liquid:ic2distilledwater> * 10, 100, 16);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, <CarpentersBlocks:blockCarpentersBlock>, <liquid:lubricant> * 2, 50, 16);
