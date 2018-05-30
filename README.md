@@ -39,6 +39,7 @@ If you are fan of expert mode packs and want to take it to the next level this p
 - DoomSquirter - welcome to gregtech where we invented the fountain of youth by slowing down time to make you enjoy each millisecond even more.
 - moronwmachinegun - controller on the front, maintenance in the back? World's worst haircut - gregullet
 - Axiflare - I've jabbed my screwdriver and my fist into it every way I can think of.
+- Scribit - Useless coins that are actually useful.
 
 
 ## What does this pack have to offer?
