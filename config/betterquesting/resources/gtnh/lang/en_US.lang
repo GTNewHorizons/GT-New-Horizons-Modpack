@@ -1,0 +1,2339 @@
+betterquesting.title.quest_lines=Quest Lines
+betterquesting.title.edit_line1=Edit Quest Lines
+betterquesting.title.edit_line2=Edit Quest Line - %s
+betterquesting.title.edit_quest=Edit Quest
+betterquesting.title.edit_tasks=Edit Tasks
+betterquesting.title.edit_rewards=Edit Rewards
+betterquesting.title.edit_text=Text Editor
+betterquesting.title.pre_requisites=Edit Pre-Requisites
+betterquesting.title.json_object=Object
+betterquesting.title.json_array=List
+betterquesting.title.json_add=New Type
+betterquesting.title.select_item=Select Item
+betterquesting.title.select_fluid=Select Fluid
+betterquesting.title.select_entity=Select Entity
+betterquesting.title.party_none=Questing Party
+betterquesting.title.party=Manage Party - %s
+betterquesting.title.party_invite=Invite Users
+betterquesting.title.select_theme=Select Theme
+betterquesting.title.importers=Importers
+betterquesting.title.submit_station=Submit Station
+
+betterquesting.btn.rewards=Rewards
+betterquesting.btn.tasks=Tasks
+betterquesting.btn.advanced=Advanced
+betterquesting.btn.is_main=Is Main
+betterquesting.btn.requirements=Requirements
+betterquesting.btn.edit=Edit
+betterquesting.btn.new=Add New
+betterquesting.btn.import=Import
+betterquesting.btn.logic=Logic
+betterquesting.btn.show=Show
+betterquesting.btn.claim=Claim
+betterquesting.btn.detect_submit=Detect/Submit
+betterquesting.btn.add_remove_quests=Add/Remove Quests
+betterquesting.btn.designer=Designer
+betterquesting.btn.item=Item
+betterquesting.btn.list=List
+betterquesting.btn.fluid=Fluid
+betterquesting.btn.entity=Entity
+betterquesting.btn.text=Text
+betterquesting.btn.number=Number
+betterquesting.btn.object=Object
+betterquesting.btn.raw_nbt=Raw NBT
+betterquesting.btn.party_new=Create Party
+betterquesting.btn.party_leave=Leave
+betterquesting.btn.party_invite=Invite
+betterquesting.btn.party_kick=Kick
+betterquesting.btn.party_join=Join
+betterquesting.btn.party_share_lives=Share Lives
+betterquesting.btn.party_share_loot=Share Loot
+
+betterquesting.home.exit=Exit
+betterquesting.home.quests=Quests
+betterquesting.home.party=Party
+betterquesting.home.theme=Theme
+
+betterquesting.gui.name=Name
+betterquesting.gui.description=Description
+betterquesting.gui.quest_line=Quest Line
+betterquesting.gui.database=Database
+betterquesting.gui.selection=Selection
+betterquesting.gui.search=Search
+betterquesting.gui.folder=Folder
+betterquesting.gui.party_invites=Invites
+betterquesting.gui.party_members=Members
+betterquesting.gui.remaining_lives=Remaining Lives: %s
+betterquesting.gui.full_lives=Lives Full
+betterquesting.gui.closing_warning=Are you sure you want to close this editor?
+betterquesting.gui.closing_confirm=Changes may be lost!
+
+betterquesting.tooltip.tasks_complete=%s/%s Tasks Complete
+betterquesting.tooltip.complete=COMPLETE
+betterquesting.tooltip.incomplete=INCOMPLETE
+betterquesting.tooltip.rewards_pending=Unclaimed rewards
+betterquesting.tooltip.requires=Requires:
+betterquesting.tooltip.shift_advanced=Hold SHIFT for advanced info
+betterquesting.tooltip.reset_time=Cooldown: %s
+betterquesting.tooltip.main_quest=Main Quest: %s
+betterquesting.tooltip.global_quest=Global Quest: %s
+betterquesting.tooltip.global_share=Global Share: %s
+betterquesting.tooltip.task_logic=Task Logic: %s
+betterquesting.tooltip.simultaneous=Simultaneos Tasks: %s
+betterquesting.tooltip.auto_claim=Auto Claim: %s
+betterquesting.tooltip.repeat=Cooldown: %s
+
+betterquesting.notice.complete=Quest Complete
+betterquesting.notice.update=Quest Updated
+betterquesting.notice.unlock=Quest Unlocked
+
+betterquesting.msg.heart_disabled=Hardcore lives are not enabled. Use "/bq_admin hardcore" to toggle it
+
+key.betterquesting.quests=Open Quests
+key.betterquesting.party=Party Manager
+key.betterquesting.themes=Change Theme
+
+itemGroup.betterquesting=Better Questing
+
+fluid.betterquesting.placeholder=Placeholder
+
+item.betterquesting.placeholder.name=Item Placeholder
+item.betterquesting.extra_life.full.name=Extra Life
+item.betterquesting.extra_life.half.name=Half Heart
+item.betterquesting.extra_life.quarter.name=Quarter Heart
+item.betterquesting.guide.name=Better Questing Starter Guide
+
+tile.betterquesting.submit_station.name=Object Submission Station (OSS)
+
+betterquesting.btn.help1=Navigation
+betterquesting.btn.help2=OSS Block
+betterquesting.btn.help3=Making Quests
+betterquesting.btn.help4=Commands
+betterquesting.btn.help5=Importing
+betterquesting.btn.help6=Themes
+betterquesting.btn.help7=Localization
+betterquesting.btn.help8=Resources
+
+betterquesting.help.page1=§l§nGeneral Navigation%n§r%nBetter Questing's main questing GUIs do not rely on an item or block that could be easily lost but instead through a single keybinding which can be found and changed through the controls menu.%n%nIn the Quest Lines screen you can select any of your active lines from the list and drag around the box to navigate to the quest of your choosing to begin completing tasks.%n%nQuesting parties can be created or edited via the Party Management screens. Here you can also toggle options for sharing hardcore lives or quest rewards.%n%nIf you'd like to change the look of your questing UIs you can choose from the currently installed themes in the Theme selection screen.
+betterquesting.help.page2=§l§nSubmission Station%n§r%nAlthough many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. Tasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot however it will not void items or liquids if no task is selected or if it has already been completed making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!
+betterquesting.help.page3=§l§nMaking Quests%n§r%nTo begin making quests and quest lines you will first have to enable edit mode by running the edit command (See commands for more info). You will then be able to add or remove quest lines however you do not require one to begin making quests. This is especially handy if you'd like to make secret quests that unlock other quests or quest lines.%n%nThere are several menus you will need to become familiar with while editing. These will be a little overwhelming at first compared to most other mods but over time it will get easier. Some advanced editing screens will edit raw questing data so you'd want to be very careful what you change as it could have adverse side effects however this should never result in corruption or a crash. If either occurs than you should immediately report it to a developer.
+betterquesting.help.page4=§l§nCommands%n§r%nThere are only a handful of commands you need to know when working with Better Questing. They are separated into user commands that anyone can run and admin commands which are restricted to server operators.%n%n§o/bq_user refresh%n§r%nManually resyncs the local questing database with the server in case of potential desync issues.%n%n§o/bq_user help%n§r%nGives the player a copy of this guide%n%n§o/bq_admin edit%n§r%nToggles quest editing mode on and off. When enabled, operators will be able to access the editing menus for quests and quest lines. Remember to disable this before publishing packs or quests.%n%n§o/bq_admin hardcore%n§r%nToggles on and off the use of hardcore lives. When all lives have been depleted, players will be banned from the server or have their world deleted as per standard vanilla hardcore.%n%n§o/bq_admin reset [all|<quest_id>] [username|uuid]%n§r%nErases quest completion data for the given user. Handy to use before publishing packs.%n%n§o/bq_admin default [save|load]%n§r%nSaves/loads the current quest database to/from the global default directory. Setting defaults means any newly created worlds will start with that particular set of quests. Saving will also preserve completion data, hardcore state and edit mode so be sure to use the various other command as necessary before running this one.%n%n§o/bq_admin complete <quest_id> [username|uuid]%n§r%nForce completes a quest for the given user%n%n§o/bq_admin delete [all|<quest_id>]%n§r%nDeletes given quest(s) and progression data however it does not delete new world defaults.%n%n§o/bq_admin lives [add|set|max|default] <value> [username]%n§r%nThese commands change the amount of lives players have or the starting and max values.
+betterquesting.help.page5=§l§nImporting%n§r%nSome expansion packs may include importers for other questing mods or allow pack makers to download online quest lines. To access these importers you can click on the 'Import' button in the main quest line editor. By default Better Questing does not have any importers so if you require a specific importer you'll need to either find an expansion with one or make it yourself.
+betterquesting.help.page6=§l§nThemes%n§r%nIf you're someone who prefers a certain color pallet in their UIs or are just a pack maker wanting to give it that more authentic look and feel then themes are your best friend. Themes can change the look of the questing UIs to suit whatever your needs may be whether it be futuristic, magical or just classic Minecraft. They can be installed either through resource packs, resource directory or via expansions packs.
+betterquesting.help.page7=§l§nLocalization%n§r%nBetter Questing supports full localization of quest names and descriptions so that if you wanted to release your pack to users of all nationalities now you now can! In order to begin localizing your quests you'll need to use unique keys such as "§omypack.quest1.name§r" instead of plain text. You can then create a resource pack containing only .lang files for all the language specific translations. These files can alternatively be stored in Better Questing's resource directory for better bundling in packs
+betterquesting.help.page8=§l§nResources%n§r%nIf you want to customise the home screen, bundle themes or add localization files then you can do so through: %n%n"§o/config/betterquesting/resources/<pack_name>/§r"%n%nAny folders here can be treated as unlisted resource packs containing everything required to personalize your pack.
+
+betterquesting.design.tree=Tree Design
+
+betterquesting.toolbox.tab.main=Main
+
+betterquesting.toolbox.tool.open.name=Open
+betterquesting.toolbox.tool.open.desc=Opens a quest for futher editing
+betterquesting.toolbox.tool.grab.name=Grab
+betterquesting.toolbox.tool.grab.desc=Picks up and moves quests elsewhere in the quest line
+betterquesting.toolbox.tool.link.name=Link
+betterquesting.toolbox.tool.link.desc=Sets a quest as prerequisites for others. If a link is already present then it is removed
+betterquesting.toolbox.tool.snap.name=Grid Snap
+betterquesting.toolbox.tool.snap.desc=Changes the grid snap resolution for various other tools
+betterquesting.toolbox.tool.copy.name=Copy
+betterquesting.toolbox.tool.copy.desc=Copies the given quest including prerequisites, tasks and rewards but not progression data
+betterquesting.toolbox.tool.new.name=New Quest
+betterquesting.toolbox.tool.new.desc=Creates a new empty quest
+betterquesting.toolbox.tool.delete.name=Delete Quest
+betterquesting.toolbox.tool.delete.desc=Deletes the given quest from the quest line and database
+betterquesting.toolbox.tool.remove.name=Remove Quest
+betterquesting.toolbox.tool.remove.desc=Removes the given quest only from the quest line. The quest will still be accessible through the database
+betterquesting.toolbox.tool.complete.name=Manual Complete
+betterquesting.toolbox.tool.complete.desc=Forcibly completes the selected quest
+betterquesting.toolbox.tool.reset.name=Reset Quest
+betterquesting.toolbox.tool.reset.desc=Resets completion status and all task progress
+betterquesting.toolbox.tool.icon.name=Select Icon
+betterquesting.toolbox.tool.icon.desc=Changes the quest's icon
+
+betterquesting.cmd.complete=Completed quest %s for %s
+betterquesting.cmd.default.save=Quest database saved as default
+betterquesting.cmd.default.load=Reloaded default quest database
+betterquesting.cmd.default.none=No default currently set
+betterquesting.cmd.delete.single=Deleted quest %s
+betterquesting.cmd.delete.all=Deleted all quests
+betterquesting.cmd.edit=Edit mode %s
+betterquesting.cmd.hardcore=Hardcore mode %s
+
+betterquesting.cmd.lives.add_player=Added %s lives to %s (Total: %s)
+betterquesting.cmd.lives.add_all=Added %s lives to all players
+betterquesting.cmd.lives.remove_player=Removed %s lives from %s (Total: %s)
+betterquesting.cmd.lives.remove_all=Removed %s lives from all players
+betterquesting.cmd.lives.set_player=Set %s's lives to %s
+betterquesting.cmd.lives.set_all=Set all player's lives to %s
+betterquesting.cmd.lives.max=Set max lives to %s
+betterquesting.cmd.lives.default=Set default lives to %s
+
+betterquesting.cmd.reset.player_single=Reset quest '%s' for %s
+betterquesting.cmd.reset.player_all=Reset all quests for %s
+betterquesting.cmd.reset.all_single=Reset quest '%s' for everyone
+betterquesting.cmd.reset.all_all=Reset all quests for everyone
+betterquesting.cmd.refresh=Refreshing local database...
+
+####################
+#Quest Localisation#
+####################
+
+########
+#Tier 0#
+########
+
+#Tier 0 - It begins
+#name
+tier0.name=Tier 0 - It begins
+#description
+tier0.desc=The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam's Harvestcraft.
+
+########
+#Quests#
+########
+
+#Your first night
+#name
+tier0.quest1.name=Your first night
+#description
+tier0.quest1.desc=Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...
+
+#Sticks 'n Stones
+#name
+tier0.quest2.name=Sticks 'n Stones
+#description
+tier0.quest2.desc=This book has a built-in reading light, lucky you! Most probably you will read this text while you are waiting for the night to be over. Once it is, go out and collect some gravel and wood. Keep in mind that you need food, so look for Pam's Harvestcraft gardens. (And save some of the vegetables for seeds!)
+
+#Where is the flint?
+#name
+tier0.quest3.name=Where is the flint?
+#description
+tier0.quest3.desc=As you might have noticed, while collecting gravel, no flint dropped for you. Well, there is a... recipe for that. Look up flint in NEI and craft some!
+
+#Crafting time
+#name
+tier0.quest4.name=Crafting time
+#description
+tier0.quest4.desc=It's time to get yourself a 3x3 crafting area. Grab some flint and some wood, and build one!
+
+#Main Quests and Secondary Quests
+#name
+tier0.quest5.name=Main Quests and Secondary Quests
+#description
+tier0.quest5.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.
+
+#Storage for days
+#name
+tier0.quest6.name=Storage for days
+#description
+tier0.quest6.desc=Now that you've unlocked 3x3 crafting, it's about time to make some storage for your goods. Take some of your wood, and craft a chest. You will need 4 wood, 4 planks and 1 flint.
+
+#Bamboo fence
+#name
+tier0.quest7.name=Bamboo fence
+#description
+tier0.quest7.desc=Maybe you are lucky and start off in a bamboo forest.%nBamboo is a very useful tree since it grows really fast and when you place bamboo sticks they will grow and protect your base behind a 3 block tall wall.%nAlternatively, you can also use Berry Bushes.
+
+#Tools
+#name
+tier0.quest8.name=Tools
+#description
+tier0.quest8.desc=Now that you've got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)
+
+#You reap...
+#name
+tier0.quest9.name=You reap...
+#description
+tier0.quest9.desc=You won't always get food rewards from this book, so it might be a good idea to take care of that problem. As you've created a hoe already, go and find some water nearby and make a field. Let's trade some sticks for a carrot, so you can start your own farm.
+
+#Collecting some berries
+#name
+tier0.quest10.name=Collecting some berries
+#description
+tier0.quest10.desc=Are you now waiting for the carrots to grow? Go and find some berry bushes and berries. The berries are a good source of food and you can put these bushes around your house to make a wall. It should provide a good protection against all those monsters that want to come into your house and kill you.
+
+#Berry medley
+#name
+tier0.quest11.name=Berry medley
+#description
+tier0.quest11.desc=Hmmm... what can you do with all those berries? Just eating? You will see that they have a very low saturation Level. Let's plant the new berry bushes and mix the berries to make some better food.
+
+#Oak trees are not apple trees
+#name
+tier0.quest12.name=Oak trees are not apple trees
+#description
+tier0.quest12.desc=Oak trees which give apples?  Who the hell added this to minecraft? You find a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.
+
+#Monster trap
+#name
+tier0.quest13.name=Monster trap
+#description
+tier0.quest13.desc=If you're lucky you spawn in a sand or rainforest biome and find some quicksand. Collect a stack of the stuff, dig a small ditch and fill it with the quicksand to protect your "dirt base" home.
+
+#Get that stone
+#name
+tier0.quest14.name=Get that stone
+#description
+tier0.quest14.desc=Look at you, with your shiny flint pickaxe! Time to mine some cobblestone. Yay! (And maybe you can improve this dirt-hut too...)
+
+#Can you hear the carrots grow?
+#name
+tier0.quest15.name=Can you hear the carrots grow?
+#description
+tier0.quest15.desc=Tired of waiting since your carrots grow sooooo slow... ?%nWell I got an idea, bone meal will help you grow food in seconds. Ok, chop down some trees and I will trade you some bone meal.
+
+#Your first long range weapon
+#name
+tier0.quest16.name=Your first long range weapon
+#description
+tier0.quest16.desc=Since you can't make any vanilla bow before LV and Tinkers weapons are not in this Tier you find a way to make a spear out of sticks, leather and a string. Get one because some infernal monsters are easier to kill with a long range weapon.
+
+#Sharpness: Over... 5...
+#name
+tier0.quest17.name=Sharpness: Over... 5...
+#description
+tier0.quest17.desc=It's about time to craft something more useful: A sword!
+
+#Fire, fire, Grandpa!
+#name
+tier0.quest18.name=Fire, fire, Grandpa!
+#description
+tier0.quest18.desc=Time to burn some stuff, isn't it? You can't make charcoal in it, but you sure will find some usage for it soon(tm).
+
+#"Backed" potatoes
+#name
+tier0.quest19.name="Backed" potatoes
+#description
+tier0.quest19.desc=Eating raw potatoes isn't that healthy, as you might have noticed. Some potatoes are green and poisonous already. After you get a furnace you can make delicious baked potatoes as another food alternative. Put a baked potato on a stick to make it even more delicious.
+
+#Food variants
+#name
+tier0.quest20.name=Food variants
+#description
+tier0.quest20.desc=Maybe you noticed already that eating the same food too often is very boring and not healthy any more. Some food like tea leaf can be taken to the furnace and processed further. So take a break and drink a cup of tea. Maybe munch some tasty raisins as they are very nice.
+
+#...what you sow
+#name
+tier0.quest21.name=...what you sow
+#description
+tier0.quest21.desc=If you, by chance, did read the previous quest and planted the carrot I gave you, then you're fine. Meanwhile, you should turn some more fruits and vegetables into seeds, and increase the size of your farm to get a steady supply of food.
+
+#Shield update
+#name
+tier0.quest22.name=Shield update
+#description
+tier0.quest22.desc=Your wooden shield is very weak. So you look for a better one. Looks like you need some leather, so go and find some cows.
+
+#Shields UP
+#name
+tier0.quest23.name=Shields UP
+#description
+tier0.quest23.desc=With a sword in one hand, what can you do with the other? Right, you need a shield. Let's make one.
+
+#Soft mallet adventure
+#name
+tier0.quest24.name=Soft mallet adventure
+#description
+tier0.quest24.desc=You now have some melon slices or pumpkins but what can you do with them? Well just eat them or... use a mallet to get some seeds... OK, let's craft one. Perhaps you can use this mallet for some other things too.
+
+#Rest in pieces
+#name
+tier0.quest25.name=Rest in pieces
+#description
+tier0.quest25.desc=It's GLOPPing time! Go kill some pigs to gather meat. (And yes, they will drop cooked porkchops. Now isn't that useful...)
+
+#Fluffy and red
+#name
+tier0.quest26.name=Fluffy and red
+#description
+tier0.quest26.desc=Epic quest: Kill some sheep! (And try to get some wool, for a bed, obviously...)
+
+#What is that...?
+#name
+tier0.quest27.name=What is that...?
+#description
+tier0.quest27.desc=You've seen a lot of trees, but there are a few that look really special. You are sure that these trees are much more than just wood to build your home with or used to get charcoal.
+
+#SO...TIRED...MUST...SLEEP...
+#name
+tier0.quest28.name=SO...TIRED...MUST...SLEEP...
+#description
+tier0.quest28.desc=Sleepy time, and the end of Tier 0. Congratulations, you've built your first hideout, and you should have a steady supply of food by now. See you again in tier 1!
+
+###############
+#End Of Tier 0#
+###############
+
+
+##########
+#Tier 0.5#
+##########
+
+#Tier 0.5 - Stone Age
+#name
+tier0.5.name=Tier 0.5 - Stone Age
+#description
+tier0.5.desc=Basically the "Tier 0" of all your progression. This set helps you through the first tier until you can build your first steam machine
+
+########
+#Quests#
+########
+
+#Even More Compact Storage
+#name
+tier0.5.quest1.name=Even More Compact Storage
+#description
+tier0.5.quest1.desc=If you found enough gold you can upgrade your chest to make it an even bigger inventory of 9x9. You can just build a new chest or upgrade the iron chest with a wood to gold chest upgrade item.
+
+#GT 6 styled Pipes
+#name
+tier0.5.quest2.name=GT 6 styled Pipes
+#description
+tier0.5.quest2.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore. Shift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes.%n%nHint: If you click one pipe onto the other they will auto-connect.
+
+#Looting II
+#name
+tier0.5.quest3.name=Looting II
+#description
+tier0.5.quest3.desc=The butchers knife from gt have looting 2. Go and find some treasures during your nightly monster slaying.
+
+#More Compact Storage
+#name
+tier0.5.quest4.name=More Compact Storage
+#description
+tier0.5.quest4.desc=Now that you are starting to find more and more iron and you feel your wood chests are too small to hold all the stuff you found and collected. Now it's time to upgrade your chests to iron chests. You can just build a new chest or upgrade the wood chest with a wood to iron chest upgrade item.
+
+#Chad a better way to make Paper
+#name
+tier0.5.quest5.name=Chad a better way to make Paper
+#description
+tier0.5.quest5.desc=Making paper out of wood pulp and water can be tedious and difficult. Why not using some sugar cane macerate it down to chad and press it with two stone plates to paper? Later on you can use the chemical bath for a even better ratio.
+
+#You shall proceed
+#name
+tier0.5.quest6.name=You shall proceed
+#description
+tier0.5.quest6.desc=As you've gathered and crafted all materials and tools you need for your basic steam machinery, you may now proceed to the next tier. Keep in mind that you'll need mountains of resources in order to craft even the simplest things, so you probably should stock up on all ores in this tier. But that's up to you.
+
+#Making bronze
+#name
+tier0.5.quest7.name=Making bronze
+#description
+tier0.5.quest7.desc=Now that you've found copper and tin, you should make yourself some bronze. Use your macer... mortar to grind up some copper and tin ingots, and mix them together!
+
+#Animal farms
+#name
+tier0.5.quest8.name=Animal farms
+#description
+tier0.5.quest8.desc=Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you coul simply make a farm to get a decent amount of leather, wool and meat.
+
+#Sheep hairdresser
+#name
+tier0.5.quest9.name=Sheep hairdresser
+#description
+tier0.5.quest9.desc=Killing sheep to get the wool is so ineffective. Making some shears would make sense if you need more wool.
+
+#Important tools
+#name
+tier0.5.quest10.name=Important tools
+#description
+tier0.5.quest10.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.
+
+#Tanned leather
+#name
+tier0.5.quest11.name=Tanned leather
+#description
+tier0.5.quest11.desc=You have found a way to make leather more durable and more resistant by further processing it. Make some bound leather from four pieces of leather, some strings and a woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather.
+
+#Need more space?
+#name
+tier0.5.quest12.name=Need more space?
+#description
+tier0.5.quest12.desc=As you might know: tanned leather is more resistant and good enough for a backpack. Let's get a digger's backpack and a miner's backpack. Each pack holds different items. So use both for your first true back-packed mining experience.
+
+#You need them all!
+#name
+tier0.5.quest13.name=You need them all!
+#description
+tier0.5.quest13.desc=There are many more backpacks: Hunter, builder, forester...
+
+#Basic processing
+#name
+tier0.5.quest14.name=Basic processing
+#description
+tier0.5.quest14.desc=Most things are unavailable at the moment, so let's begin with something simple. Take some of your cobblestone and smelt it into regular stone. Since this modpack is evil, you'll need to use wood for that. How much fun is that?!
+
+#Ready, set, go!
+#name
+tier0.5.quest15.name=Ready, set, go!
+#description
+tier0.5.quest15.desc=You probably should have a home by now. A steady supply of food is a fundamental requirement at all times. Take this lunch bag, it will help you store some of your foods. You will have to travel far in this tier, better be prepared!
+
+#Gardener
+#name
+tier0.5.quest16.name=Gardener
+#description
+tier0.5.quest16.desc=If you are wondering: Why do I never get seeds when destroying grass? You are right. Try to work with your new mattock on the grass blocks that do not have water anywhere nearby to find some seeds.
+
+#Better storage
+#name
+tier0.5.quest17.name=Better storage
+#description
+tier0.5.quest17.desc=While standard chests are good for your basic items and goods, they are not ideal for storing a large amount of ore. You should build yourself some barrels in order to keep things organized.
+
+#Sleeping outside
+#name
+tier0.5.quest18.name=Sleeping outside
+#description
+tier0.5.quest18.desc=Carrying the bed with you all the time the looks very funny. Why don't you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. Be warned: If you play on a server then you'd better sleep below Y level 128, as nights are very cold in the mountains...
+
+#Fallen from the sky
+#name
+tier0.5.quest19.name=Fallen from the sky
+#description
+tier0.5.quest19.desc=There are big meteors everywhere and you are wondering why you need to mine them now?%nSkystone is a good source of rare earth metals in the LV age.%nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important.
+
+#Maceration v0.1 Alpha
+#name
+tier0.5.quest20.name=Maceration v0.1 Alpha
+#description
+tier0.5.quest20.desc=This fancy little device works (almost...) like a macerator. Some people say it's even better, since it does not require power, yay! You only need to craft one for this quest, but you probably should make some more if you can...
+
+#Clay: The Gathering
+#name
+tier0.5.quest21.name=Clay: The Gathering
+#description
+tier0.5.quest21.desc=While bored, you thought that it might be a good idea to take up pottery. You should go and find some clay, the riverbanks should have some.
+
+#Gravel: The Gathering
+#name
+tier0.5.quest22.name=Gravel: The Gathering
+#description
+tier0.5.quest22.desc=Your tools will eventually lose durability. You think it would be a good idea to collect more gravel in order to provide yourself with flint for more tools.
+
+#Sand: The Gathering
+#name
+tier0.5.quest23.name=Sand: The Gathering
+#description
+tier0.5.quest23.desc=In a strange vision you saw a big structure which would allow you to make charcoal. Finally some torches! According to your calculations, you will need a lot of sand for that.
+
+#Better lunch bag
+#name
+tier0.5.quest24.name=Better lunch bag
+#description
+tier0.5.quest24.desc=Your lunch bag is now so abused and rather old so it's time to get something better. Let's craft a lunch box which can hold way more food.
+
+#Iron shields
+#name
+tier0.5.quest25.name=Iron shields
+#description
+tier0.5.quest25.desc=You have been using your hide shield long enough. After you make your first tools, grab a bit of iron ore and make a nice iron shield.
+
+#Stone spear
+#name
+tier0.5.quest26.name=Stone spear
+#description
+tier0.5.quest26.desc=Upgrade your wooden spear with a stone arrowhead and iron screws to a stone spear.
+This spear has better durability than the wooden one.
+
+#XP usage?!
+#name
+tier0.5.quest27.name=XP usage?!
+#description
+tier0.5.quest27.desc=Exploring some dungeons or fighting mobs probably gave you a lot of XP. Better use it to get iron, copper, tin or other useful dusts before you die during the next fight.%nPlace your tank on the ground and a drain on top. Now you can fill it with XP.
+
+#Making a better sword
+#name
+tier0.5.quest28.name=Making a better sword
+#description
+tier0.5.quest28.desc=Now it's time to make your first tinkers sword. First you have to make blade, hand guard and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword.
+
+#Don't burn your fingers!
+#name
+tier0.5.quest29.name=Don't burn your fingers!
+#description
+tier0.5.quest29.desc=You have decided it's time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discovered a pair of magical items that would allow you to carry anything hot, even lava in a bucket.%n%nThe gloves have to be placed in the Baubles ring slots of Thaumcraft.
+
+#Something to carry liquids
+#name
+tier0.5.quest30.name=Something to carry liquids
+#description
+tier0.5.quest30.desc=You tried to move water with your bare hands, which didn't work at all. Luckily, you remember how to make a bucket out of clay.
+
+#Finite water!?
+#name
+tier0.5.quest31.name=Finite water!?
+#description
+tier0.5.quest31.desc=Finite water is a problem, that's for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for.. 3 cacti so you can setup a farm. Deal?
+
+#Another brick in the wall
+#name
+tier0.5.quest32.name=Another brick in the wall
+#description
+tier0.5.quest32.desc=Your vision becomes more clear, you'll need bricks for your first multiblock structure. You think that 104 bricks should be enough. However, the bricks you'll need are somewhat special. Make sure to craft the correct ones!
+
+#Getting (char)coal
+#name
+tier0.5.quest33.name=Getting (char)coal
+#description
+tier0.5.quest33.desc=It's time to get yourself some charcoal. For that, we're going to build a coke oven. Good that you just collected a lot of resources! (What a coincidence...)
+
+#You need MOOOOOOORE wood
+#name
+tier0.5.quest34.name=You need MOOOOOOORE wood
+#description
+tier0.5.quest34.desc=It's time to feed your new coke oven with some wood to get more charcoal. You are looking for the most efficient way to plant trees. Try to find some spruce saplings and some jungle saplings. Both can be planted in a 2x2 grid to get bigger trees.
+
+#Compact Drawers
+#name
+tier0.5.quest35.name=Compact Drawers
+#description
+tier0.5.quest35.desc=They are very compact and add some fanciness to your glorious dirt base.
+
+#Better than barrels
+#name
+tier0.5.quest36.name=Better than barrels
+#description
+tier0.5.quest36.desc=While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a "ghetto ME storage system (Tec2k17)%nlater in the HV age with some help of ProjectRed Transportation.
+
+#Bronze javelin
+#name
+tier0.5.quest37.name=Bronze javelin
+#description
+tier0.5.quest37.desc=The bronze javelin is a bit expensive and has only 7 throws, yet it is a good mid-range weapon. With one bronze ingot you can replenish your stack of javelins.
+
+#Making better tools
+#name
+tier0.5.quest38.name=Making better tools
+#description
+tier0.5.quest38.desc=With aluminium and copper, you can create a pretty durable material "Aluminum Brass", which can be used to cast better tools. These can be used to mine some more advanced ores.%n%nBut first you need a smeltery. See the Multiblock Goals chapter in this book, or find smeltery blocks in a village nearby.
+
+#Punji Sticks
+#name
+tier0.5.quest39.name=Punji Sticks
+#description
+tier0.5.quest39.desc=A early game protection fence can be made out of punji sticks. It hurts all mobs/players and add give slowness II potion effect. Make a trench around your base and put the punji sticks inside.
+
+#Cotton, cotton and more cotton
+#name
+tier0.5.quest40.name=Cotton, cotton and more cotton
+#description
+tier0.5.quest40.desc=You find out that cotton is very useful, it can be used to make string, wool, and some other useful items too. Make a small cotton plantation to get tons of it.
+
+#Book parts
+#name
+tier0.5.quest41.name=Book parts
+#description
+tier0.5.quest41.desc=After you found a way to move water around, you had another brilliant idea: Paper! Paper is no longer made with sugarcane, you will now need wood pulp. You will need a lot of wood to craft wood pulp, so better grab your axe and go chop some trees.
+
+#Forming press v0.1
+#name
+tier0.5.quest42.name=Forming press v0.1
+#description
+tier0.5.quest42.desc=As you may have noticed, you cannot turn clay into bricks directly. Well, to be fair, it wasn't a good recipe anyway. You'll probably end up with something bread-shaped. So in order to make bricks, you need a form. Get yourself a knife and a blank pattern, and cut a brick sized piece out. It's as easy as that.
+
+#Creosote oil
+#name
+tier0.5.quest43.name=Creosote oil
+#description
+tier0.5.quest43.desc=I guess you already processed a bit of wood into charcoal and wonder what you can do with all this creosote oil?%nWell you can burn it in the normal furnace to cook your food or you can make more torches with it. Later in the LV age you probably should run combustion generators with it.
+
+#Framing Drawers
+#name
+tier0.5.quest44.name=Framing Drawers
+#description
+tier0.5.quest44.desc=Now you can really make some swaggy and even FANCIER drawers using this table, all you have to do is place some decorative blocks (works with almost ALL decorative blocks) and it will take their texture, the TOP left is the outer Square bottom left is for the front face and top right is for the borders.
+
+#Getting iron
+#name
+tier0.5.quest45.name=Getting iron
+#description
+tier0.5.quest45.desc=Iron can be found in multiple veins. Magnetite veins (y 30-180), chalcopyrite veins (y 5-60), and limonite veins (y 10-40) all contain iron ore.
+
+#Aluminini...um...?
+#name
+tier0.5.quest46.name=Aluminini...um...?
+#description
+tier0.5.quest46.desc=However it is spelled, you will need it. You can find it in chunks of gravel on the surface. Try searching in rivers. (This quest is optional, but recommended.)
+
+#Copper
+#name
+tier0.5.quest47.name=Copper
+#description
+tier0.5.quest47.desc=Copper ingots can be created by smelting copper, chalcopyrite, or malachite ore.
+
+#Tin
+#name
+tier0.5.quest48.name=Tin
+#description
+tier0.5.quest48.desc=Tin ingots can be created by smelting tin and cassiterite ore.
+
+#Cow Tipper
+#name
+tier0.5.quest49.name=Cow Tipper
+#description
+tier0.5.quest49.desc=Before you had to kill some pigs and sheep to complete quests. Now it's time to kill some cows and hopefully get some leather. If you are lucky and get a cow trophy you may never need to kill another cow in the future.
+
+#Tinker-time
+#name
+tier0.5.quest50.name=Tinker-time
+#description
+tier0.5.quest50.desc=While using your flint tools is fun in terms of burning pigs and cows, they are not very good, and can't be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.
+
+#Your first bow
+#name
+tier0.5.quest51.name=Your first bow
+#description
+tier0.5.quest51.desc=Since vanilla bows are only craftable in the assembling machine and mobs do not drop them very often you have to make a Tinkers bow. Wood would be the best material for now.  So craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.%n%nYou can repair your bow the same way as all the other Tinkers tools. Arrows can be regained by repairing them or picking them up from the floor.
+
+#Another fuel source
+#name
+tier0.5.quest52.name=Another fuel source
+#description
+tier0.5.quest52.desc=Lignite and regular coal are the fuel sources you'll definitely need. The latter can be turned into coal coke, which is a superior fuel source to smelt your first large batch of ore.
+
+#Upgrade 2.0
+#name
+tier0.5.quest53.name=Upgrade 2.0
+#description
+tier0.5.quest53.desc=Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe?%nI have an idea. Bring me all the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.
+
+#Your first tool
+#name
+tier0.5.quest54.name=Your first tool
+#description
+tier0.5.quest54.desc=When your tinkers tables are ready you can craft your first tool. If you did not find a village yet you can only craft flint tools. Let's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords. Your new tools are weak at first but the more you use them the better they will get. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.
+
+#Your first flint throwing knife
+#name
+tier0.5.quest55.name=Your first flint throwing knife
+#description
+tier0.5.quest55.desc=Is the bone bow too expensive for your taste? Then make a flint throwing knife instead. You need flint and a stick to get 12 knives. The durability and the attack damage are very low but it still helps with killing mobs from a safe distance.
+
+#Copper Ore
+#name
+tier0.5.quest56.name=Copper Ore
+#description
+tier0.5.quest56.desc=Can be found between y levels 5 and 60 either as "Copper Ore" or "Chalcopyrite". Most of the time you'll find it together with  "Iron" and "Pyrite".
+
+#Malachite
+#name
+tier0.5.quest57.name=Malachite
+#description
+tier0.5.quest57.desc=Another copper source  is "malachite" which can be found between Y level 10 and 40. This vein contains more iron ore variants like "brown limonite", "yellow limonite" and "banded iron ore".
+
+#Iron Ore
+#name
+tier0.5.quest58.name=Iron Ore
+#description
+tier0.5.quest58.desc=With iron tools, you are able to mine most of the Overworld ores. I think you already found iron or magnetite. So bring me some ores and make some iron ingots out of them.
+
+#Copper sky, Iron curtain
+#name
+tier0.5.quest59.name=Copper sky, Iron curtain
+#description
+tier0.5.quest59.desc=With your newly acquired fuel source, you are now ready to process more advanced materials than stone or clay. Iron or copper, for example. Just in case you don't know, they spawn in rather large veins. Use the following quests to locate the most important veins.
+
+#Finally, some power
+#name
+tier0.5.quest60.name=Finally, some power
+#description
+tier0.5.quest60.desc=Now that you have a coke oven, you should start producing charcoal. The more, the better. Don't worry about the creosote oil. I have another deal for you...
+
+#################
+#End Of Tier 0.5#
+#################
+
+
+########
+#Tier 1#
+########
+
+#Tier 1 - Steam
+#name
+tier1.name=Tier 1 - Steam
+#description
+tier1.desc=Quest set for all steam-based machines.
+
+########
+#Quests#
+########
+
+#Hoppers
+#name
+tier1.quest1.name=Hoppers
+#description
+tier1.quest1.desc=Hoppers come in handy when you want to automate your machines.%nYou can input items via hoppers directly into GT pipes and you don't have to use a conveyor belt.%nHowever, the input rate is much slower, and the hopper must be beneath its source inventory.
+
+#Upgrade: High speed alloys
+#name
+tier1.quest2.name=Upgrade: High speed alloys
+#description
+tier1.quest2.desc=Like most machines, there is a more advanced version of the alloy smelter. Keep in mind that this machine uses a lot of steam, so you better get some more boilers first. (This quest is optional)
+
+#Upgrade: Better furnace
+#name
+tier1.quest3.name=Upgrade: Better furnace
+#description
+tier1.quest3.desc=An updated version of the steam furnace. Uses more steam, but is almost twice as fast. (This quest is optional)
+
+#Using steam to cook things
+#name
+tier1.quest4.name=Using steam to cook things
+#description
+tier1.quest4.desc=A rather slow process, but it's more efficient than using a regular furnace.
+
+#Welcome to Tier 1
+#name
+tier1.quest5.name=Welcome to Tier 1
+#description
+tier1.quest5.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.
+
+#More advanced alloys
+#name
+tier1.quest6.name=More advanced alloys
+#description
+tier1.quest6.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? It might also come in handy when processing raw rubber.
+
+#A very important alloy
+#name
+tier1.quest7.name=A very important alloy
+#description
+tier1.quest7.desc=The most important alloy (until you reach a higher tier) is undoubtedly red alloy. Fortunately, you have an alloy smelter, so grab some redstone and combine it with copper to get yourself a handful of that.
+
+#Wire Cutter v.0.2alpha
+#name
+tier1.quest8.name=Wire Cutter v.0.2alpha
+#description
+tier1.quest8.desc=Small gears require a wire cutter to be made, so let's craft one.
+
+#The hell is that?
+#name
+tier1.quest9.name=The hell is that?
+#description
+tier1.quest9.desc=In order to get more machines, you'll need pistons. But not those amateurish ones, you need special ones, and I shall guide you in the making of them.
+
+#Macerator v1.0!
+#name
+tier1.quest10.name=Macerator v1.0!
+#description
+tier1.quest10.desc=Finally you are able to make a device that will replace your mortar. However, the "no-durability" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.
+
+#Upgrade: Better macerator
+#name
+tier1.quest11.name=Upgrade: Better macerator
+#description
+tier1.quest11.desc=An updated version of the steam macerator. Uses more steam, but is almost twice as fast. (This quest is optional)
+
+#The power of the sun
+#name
+tier1.quest12.name=The power of the sun
+#description
+tier1.quest12.desc=The sun has quite a bit of power, so why not use it to produce steam?%n%nHint: Just remember that the solar boiler calcifies and becomes less efficient over time.
+
+#Steam alternatives
+#name
+tier1.quest13.name=Steam alternatives
+#description
+tier1.quest13.desc=There is more than one way to get steam for your machines. This completely optional quest shows you some alternative methods for producing steam.
+
+#Redstone
+#name
+tier1.quest14.name=Redstone
+#description
+tier1.quest14.desc=If you didnt't find any Redstone veins, it is quite important to look for one now. Try your luck at Y level 5-40.
+
+#Redstone, early game processing
+#name
+tier1.quest15.name=Redstone, early game processing
+#description
+tier1.quest15.desc=Are you wondering how to process redstone without any macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it. You will get pure redstone dust for your red alloy ingots.
+
+#Upgrade: A better compressor
+#name
+tier1.quest16.name=Upgrade: A better compressor
+#description
+tier1.quest16.desc=An updated version of the steam compressor. Uses more steam, but is almost twice as fast. (This quest is optional)
+
+#Compressing stuff
+#name
+tier1.quest17.name=Compressing stuff
+#description
+tier1.quest17.desc=This rather simple device does a very important job: compression. It's main function is to press 9 ingots into a block, but it's also useful for a variety of recipes, for example making firm tofu.
+
+#Extra Modifier
+#name
+tier1.quest18.name=Extra Modifier
+#description
+tier1.quest18.desc=If you don't have an extra modifier on your tool you can easily add one.%nA gold block and a diamond are all you need.
+
+#Oh, shiny! (Not platinum!)
+#name
+tier1.quest19.name=Oh, shiny! (Not platinum!)
+#description
+tier1.quest19.desc=To make your first macerator you need two diamonds, and to enter the Twilight Forest you need one. Finding a diamond vein would help you a lot. Go and look for one at Y level 5-20.
+
+#A clear view
+#name
+tier1.quest20.name=A clear view
+#description
+tier1.quest20.desc=Are you still living in your dirt/cobblestone bunker? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.%n%nHint: In order to use it for recipes, you have to chisel it.
+
+#Lapis, Lazurite, Sodalite, Calcite
+#name
+tier1.quest21.name=Lapis, Lazurite, Sodalite, Calcite
+#description
+tier1.quest21.desc=In order to make your bricked blast furnace you need to find a lapis vine containing calcite.%nYou can find the vein in the overworld or the Twilight Forest at Y 20-50.
+
+#Gypsum
+#name
+tier1.quest22.name=Gypsum
+#description
+tier1.quest22.desc=To make bricks for the blast furnace you need concrete and gypsum. Gypsum can be found in a vein together with basaltic and granitic mineral sand, and fullers earth. Y 50-60 and only in the overworld.
+
+#Upgrade: Coal boiler
+#name
+tier1.quest23.name=Upgrade: Coal boiler
+#description
+tier1.quest23.desc=This is basically just an upgrade to your current coal boiler, however it produces more than twice as much steam. Something you should consider building if you're planning to get some of the upgraded machines.
+
+#Another use for Java, I mean Lava
+#name
+tier1.quest24.name=Another use for Java, I mean Lava
+#description
+tier1.quest24.desc=With a more durable steel casing, you can use lava to make steam.
+
+#Reinforced X? Unbreakable
+#name
+tier1.quest25.name=Reinforced X? Unbreakable
+#description
+tier1.quest25.desc=With your steel tool you are able to mine obsidian. Large obsidian plates give a reinforced modifier which increases the durability of your tool.%nReinforced level X makes a tool unbreakable.
+
+#Redstone? Haste!
+#name
+tier1.quest26.name=Redstone? Haste!
+#description
+tier1.quest26.desc=Mining and digging can be soooo slow. Get some redstone on your pick, shovel or axe to make it faster.
+
+#Upgrade: Forge hammer
+#name
+tier1.quest27.name=Upgrade: Forge hammer
+#description
+tier1.quest27.desc=An updated version of the steam forge hammer. Uses more steam, but is almost twice as fast. (This quest is optional)
+
+#The Iron Guy
+#name
+tier1.quest28.name=The Iron Guy
+#description
+tier1.quest28.desc=Do you feel lonely? Need some extra protection in your base?%nCraft some Iron Golems and the monster problem inside your base will be gone.
+
+#The Cool Guy
+#name
+tier1.quest29.name=The Cool Guy
+#description
+tier1.quest29.desc=Feeling lonely? Located far away from a snow biome?%nCraft a Snow Golem, and perhaps challenge him to a snow ball fight.
+
+#Lapis? Lucky!
+#name
+tier1.quest30.name=Lapis? Lucky!
+#description
+tier1.quest30.desc=Maybe you were lucky and received the luck modifier on your pickaxe. If not, you may still have an unused modifier on your pick so you can add some lapis lazuli. Or you can perhaps add another modifier by adding a diamond and a gold block to your pick and then add some lapis.
+
+#Iron Bolts
+#name
+tier1.quest31.name=Iron Bolts
+#description
+tier1.quest31.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts with an iron tip.
+
+#Wooden Crosbow
+#name
+tier1.quest32.name=Wooden Crosbow
+#description
+tier1.quest32.desc=Now you are able to make a better long range weapon; a crossbow. Use wood for the the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.
+
+#Alumite
+#name
+tier1.quest33.name=Alumite
+#description
+tier1.quest33.desc=It's upgrade time again. You can make alumite by mixing obsidian, steel and auluminu(i)m in the smeltery. Alumite pickaxes are able to mine ardite and cobalt in the Nether.
+
+#Upgrade of the upgrade of the...
+#name
+tier1.quest34.name=Upgrade of the upgrade of the...
+#description
+tier1.quest34.desc=It's upgrade time. Unlock redstone and obsidian level for your different tools.
+
+#Submission Station
+#name
+tier1.quest35.name=Submission Station
+#description
+tier1.quest35.desc=Although many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy.%nTasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot. It will not void items or liquids if no task is selected or if it has already been completed, however, making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!
+
+#Hammer time v2
+#name
+tier1.quest36.name=Hammer time v2
+#description
+tier1.quest36.desc=Using 6 ingots to craft a hammer seems pretty wasteful, as this tool has durability. How nice would it be to have a machine that does the same but without having durability and using three ingots to make two plates? Guess what, there is one! And you should totally get one.
+
+#One Anvil... Better make that two!
+#name
+tier1.quest37.name=One Anvil... Better make that two!
+#description
+tier1.quest37.desc=With your brand-new Compressor you are able to make some metal blocks for your new anvil. Better craft two anvils, one will be required for the forge hammer.%n%nWith the anvil you can repair, rename and enchant armor and tools.
+
+#Better than iron
+#name
+tier1.quest38.name=Better than iron
+#description
+tier1.quest38.desc=Wrought Iron will become very soon more important when you have a bit steel and able to build high pressure steam machines. The material is much harder then iron and you can make better tools with it too.%nTo make wrought Iron you need a furnace to smelt iron ingots down to wrough iron nuggets. With the compressor you can compress the nuggets to ingots.%n%nHint: Crushed or purified oredust can be smelt to iron nuggets directly.
+
+#Bookshelves...? Ah forestry... Multiblock farms!
+#name
+tier1.quest39.name=Bookshelves...? Ah forestry... Multiblock farms!
+#description
+tier1.quest39.desc=The bookshelf can only be made with wood planks, which are made in a compressor. Perhaps someone thinks this is a bit crazy...
+
+#Books
+#name
+tier1.quest40.name=Books
+#description
+tier1.quest40.desc=Books can be found easily enough in villages or in the roguelike dungeons surface brick house.%nI'm sure they have a recipe too.
+
+#Extracting stuff
+#name
+tier1.quest41.name=Extracting stuff
+#description
+tier1.quest41.desc=As you'll need rubber later to make cables from wires, you should get yourself a steam extractor. You can also use this machine to get more dyes from flowers, or process different fruits into juice.
+
+#Upgrade: Extractor
+#name
+tier1.quest42.name=Upgrade: Extractor
+#description
+tier1.quest42.desc=An updated version of the steam extractor. Uses more steam, but is almost twice as fast. You most probably want to craft this, as the extractor does also extract your nerves... (This quest is optional)
+
+#Mining Dirt Block by Block is so Old School
+#name
+tier1.quest43.name=Mining Dirt Block by Block is so Old School
+#description
+tier1.quest43.desc=By making a steel excavator you are now able to mine dirt in a 3x3 area. Don't destroy your whole garden.
+
+#Tool Forge
+#name
+tier1.quest44.name=Tool Forge
+#description
+tier1.quest44.desc=Finally you get your first alumite. Now it's time to craft a tool forge for making bigger Tinkers tools. 
+
+#Barrel Upgrades Tier 2
+#name
+tier1.quest45.name=Barrel Upgrades Tier 2
+#description
+tier1.quest45.desc=Are your upgraded cobblestone or dirt barrels full again?%nNo problem, upgrade them some more!
+
+#Barrel Upgrades
+#name
+tier1.quest46.name=Barrel Upgrades
+#description
+tier1.quest46.desc=Are your cobblestone or dirt barrels filled to the brim?%nNo problem, upgrade them!
+
+#Blastoff!
+#name
+tier1.quest47.name=Blastoff!
+#description
+tier1.quest47.desc=It's about time to make some steel. Look in the Multiblock Goals quest set and build a bricked blast furnace. Return here when you made at least 8 steel ingots.
+
+#Flint and steel
+#name
+tier1.quest48.name=Flint and steel
+#description
+tier1.quest48.desc=After you make steel you are able to craft flint and steel. I guess you want to travel to the Nether as soon as possible but be aware the Nether is a very dangerous place.
+
+#THE NETHER
+#name
+tier1.quest49.name=THE NETHER
+#description
+tier1.quest49.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.
+
+#How to make rubber
+#name
+tier1.quest50.name=How to make rubber
+#description
+tier1.quest50.desc=Making rubber is now more complicated, you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn't it? Found on Y level 5-20.
+
+#Slime Island Journey
+#name
+tier1.quest51.name=Slime Island Journey
+#description
+tier1.quest51.desc=Rubber trees are not the only source for raw rubber. Go and find a slimy island high in the sky. Slime balls and slime leaves give raw rubber too.%nMake some slime tree farms beside your rubber farm.
+
+#Cutting a Tree log by log is so Old School
+#name
+tier1.quest52.name=Cutting a Tree log by log is so Old School
+#description
+tier1.quest52.desc=By making a steel lumber axe you are now able to cut down the entire tree in one hit. Don't forget your backpack when you are cutting a sacred oak tree down.
+
+#One Block mining is so Old School
+#name
+tier1.quest53.name=One Block mining is so Old School
+#description
+tier1.quest53.desc=By making a steel hammer you are now able to mine a shaft of 3x3 blocks. Be careful in the Nether or you could be boiled in lava very quickly.
+
+#Iron spear
+#name
+tier1.quest54.name=Iron spear
+#description
+tier1.quest54.desc=Upgrade your wooden spear with an iron arrowhead and two steel screws to an iron spear.%nThe iron spear has better durability than the stone variant.
+
+#More charcoal
+#name
+tier1.quest55.name=More charcoal
+#description
+tier1.quest55.desc=You have found an alternative way of making charcoal with a "charcoal pile igniter".%nGo and start getting massive amounts of charcoal.
+
+#Ardite and Cobalt
+#name
+tier1.quest56.name=Ardite and Cobalt
+#description
+tier1.quest56.desc=If you are done with all quests you can look for cobalt and ardite in the Nether. Remember, you need an electric blast furnace to process these materials before you can make tools with them.
+
+#Netherquartz? Sharpness
+#name
+tier1.quest57.name=Netherquartz? Sharpness
+#description
+tier1.quest57.desc=Your sword is too dull? Get some nether quartz to sharpen it again.
+
+#Tetrahedrite, stibnite and copper
+#name
+tier1.quest58.name=Tetrahedrite, stibnite and copper
+#description
+tier1.quest58.desc=Maybe you are wondering why you need tetrahedrite or stibnite. Well, antimony can be centrifuged out of it which is very useful for batteries in the LV Age.%nThe veins can be found between Y level 80-120.
+
+#Accelerated plant growth
+#name
+tier1.quest59.name=Accelerated plant growth
+#description
+tier1.quest59.desc=Plants grow very slowly, you might've discovered that by now. So why you don't counter that? A watering can will come in handy very soon.
+
+#Basic crafting: Casings
+#name
+tier1.quest60.name=Basic crafting: Casings
+#description
+tier1.quest60.desc=All machines need a hull to keep their private parts together. Good news is: They are crafted in the same way for every tier, only the materials change.
+
+#Where can I put all the items in?
+#name
+tier1.quest61.name=Where can I put all the items in?
+#description
+tier1.quest61.desc=After you make your first steel you're able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it's a bit bigger than a small chest.
+
+#Molds, molds, molds
+#name
+tier1.quest62.name=Molds, molds, molds
+#description
+tier1.quest62.desc=After you can make steel and have a tinkers smelter you have to make molds. Molds can be used in the alloy smelter and the fluid solidifier. You need them to make vacuum tubes, ingots, gears and more.
+
+#Pollution what....?
+#name
+tier1.quest63.name=Pollution what....?
+#description
+tier1.quest63.desc=If you are running your bricked blast furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, I will trade you a complete hazmat suit.
+
+#Wire-Wrap
+#name
+tier1.quest64.name=Wire-Wrap
+#description
+tier1.quest64.desc=Placing wires without insulation seems to be a bad idea. Now that you have an extractor to extract raw rubber out of sticky resin and an alloy smelter to further process it using sulphur, you should work on getting some insulating rubber sheets.
+
+#Low tier wires
+#name
+tier1.quest65.name=Low tier wires
+#description
+tier1.quest65.desc=Low tier wires like red alloy and tin can be made in a crafting table. Copper wire requires an alloy smelter. So let's make a mold for the rubber plates.
+
+#The Plunger
+#name
+tier1.quest66.name=The Plunger
+#description
+tier1.quest66.desc=The Plunger can be used to clear liquids from pipes. It can also be used on a machine to remove up to 1000mb of fluid from its internal buffer. You don't have to wrench your machine and replace it. It can be crafted from a rod of the desired material and rubber sheets.%n%nHint: Plunger deals 2.75 - 7.75 damage depending on the materials used.
+
+#A quite different storage
+#name
+tier1.quest67.name=A quite different storage
+#description
+tier1.quest67.desc=Regular chests can fill up rather quickly if you happen to collect mob drops like swords and/or armor. By using a cabinet, you can store up to 270 items of the same type.
+
+#Where I can put all the liquids?
+#name
+tier1.quest68.name=Where I can put all the liquids?
+#description
+tier1.quest68.desc=With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It's possible to upgrade those tanks so they can hold up to 64 buckets.
+
+#Packing your tanks chests and barrels
+#name
+tier1.quest69.name=Packing your tanks, chests and barrels
+#description
+tier1.quest69.desc=Packing your chests and barrels without spilling all the things (buildcraft(tm))?%nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Not portable buildcraft and iron tanks can moved so too without loosing fluids.
+
+#Time for some logic
+#name
+tier1.quest70.name=Time for some logic
+#description
+tier1.quest70.desc=Good news! You are now able to advance to the next tier! Bad news is: You still have to craft a lot of things before you can begin. Fear not mortal, I shall guide you!
+
+#Wired, weird?!
+#name
+tier1.quest71.name=Wired, weird?!
+#description
+tier1.quest71.desc=One of the very basic materials which you should memorize how to craft are wires and cables. Basically you just cut a plate into a wire with your wire cutter. Not very efficient, but there will be a better way later.
+
+#Basic crafting: Motors
+#name
+tier1.quest72.name=Basic crafting: Motors
+#description
+tier1.quest72.desc=Motors are little devices that can turn electrical power into rotational energy. Very useful for all kind of machines, and not that difficult to craft. The pattern is always the same, only the materials change with tiers. For now you can use restone to magnetize your iron rod.%nLater one you are able to build a Electromagnetic Polarizer.
+
+#GT 6 styled Wires and Cables
+#name
+tier1.quest73.name=GT 6 styled Wires and Cables
+#description
+tier1.quest73.desc=Maybe you are wondering why the new wires and cables don't auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on.%n%nHint: If you click one wire or cable on the other it will auto-connect. 
+
+#Rubber Soft Mallet
+#name
+tier1.quest74.name=Rubber Soft Mallet
+#description
+tier1.quest74.desc=Your wooden soft mallet breaks after a few uses. Now you can make a rubber mallet which is much more durable.
+
+#Better Tank... Iron Tank
+#name
+tier1.quest75.name=Better Tank... Iron Tank
+#description
+tier1.quest75.desc=Storing more than 16 buckets of fluid in one tank? Sure! Just make an iron tank or upgrade the Buildcraft tank.%nDiamond tanks carry up to 64 buckets and obsidian ones are blast proof.
+
+#Circuit Boards
+#name
+tier1.quest76.name=Circuit Boards
+#description
+tier1.quest76.desc=For every circuit you need a basic circuit board. Craft a coated circuit board and use copper wire to finish it.
+
+#Your first logic circuit
+#name
+tier1.quest77.name=Your first logic circuit
+#description
+tier1.quest77.desc=Steam machines are quite stupid, they just do one thing over and over again. As you advance into the electrical age, you've decided that you want the machines to have more features, like automatic output in order to create some automation. For that, you need logic circuits.
+
+#Resistor
+#name
+tier1.quest78.name=Resistor
+#description
+tier1.quest78.desc=Every basic circuit needs two resistors to work
+
+#Better Tank... ULV Tank
+#name
+tier1.quest79.name=Better Tank... ULV Tank
+#description
+tier1.quest79.desc=Next step is to store 32 buckets in a tank. The ULV Tank from Gt++ needs steel plates, iron plates, tin plates a clay pipe and a water bucket.
+
+#Basic crafting: Rotors
+#name
+tier1.quest80.name=Basic crafting: Rotors
+#description
+tier1.quest80.desc=Rotors are also crafted using an identical pattern with different materials. A bit annoying to craft at the moment, but you don't need a lot of them anyway.
+
+#Steam-a-licious!
+#name
+tier1.quest81.name=Steam-a-licious!
+#description
+tier1.quest81.desc=You almost made it. One last crafting step is required in order to advance to Tier 2. Keep going!
+
+###############
+#End Of Tier 1#
+###############
+
+
+########
+#Tier 2#
+########
+
+#Tier 2 - 32 EU (LV)
+#name
+tier2.name=Tier 2 - 32 EU (LV)
+#description
+tier2.desc=The first "voltage" tier of this pack. Things are getting easier...
+
+########
+#Quests#
+########
+
+#Protect your base; Tier 1
+#name
+tier2.quest1.name=Protect your base; Tier 1
+#description
+tier2.quest1.desc=One needs proper protection for ones home. So why not get some turrets for safety? At the moment, 2 Turrets are available: "Potato" and "disposable item". I assume you can guess what they do and how they work...
+
+#Turret base
+#name
+tier2.quest2.name=Turret base
+#description
+tier2.quest2.desc=Turrets must be placed on top of a turret base. Only the player who initially placed the base can access and configure the turret. So don't worry about people taking your ammunition.
+
+#Don't play with your food!
+#name
+tier2.quest3.name=Don't play with your food!
+#description
+tier2.quest3.desc=Use it to kill zombies instead. Does only a little damage, but hey, who cares?
+
+#Magnetize your rods
+#name
+tier2.quest4.name=Magnetize your rods
+#description
+tier2.quest4.desc=Magnetic steel rods need a polariser to craft. Make a few for your coils.
+
+#Saving redstone
+#name
+tier2.quest5.name=Saving redstone
+#description
+tier2.quest5.desc=Tired of using 4 redstone for one magnetic iron rod? Well, good news for you! The polarizer doesn't need redstone, just a little bit of power. You don't need to attach this machine to a permanent power source, it runs fine on battery power.
+
+#Basic transport: Fluids
+#name
+tier2.quest6.name=Basic transport: Fluids
+#description
+tier2.quest6.desc=Just like item nodes, liquid nodes transfer... liquids. But probably the best thing: They can all utilize the same transfer pipe!
+
+#Basic transport: Items
+#name
+tier2.quest7.name=Basic transport: Items
+#description
+tier2.quest7.desc=In order to transfer items, you need so called "nodes". There are some for pushing items into a pipe system, and later you'll have access to nodes that are able to pull items from attached inventories.
+
+#Who needs that dirt anyway
+#name
+tier2.quest8.name=Who needs that dirt anyway
+#description
+tier2.quest8.desc=You probably have a ton of items floating around in your base. So why not use them to kill your enemies?
+
+#Upgrading intensifies
+#name
+tier2.quest9.name=Upgrading intensifies
+#description
+tier2.quest9.desc=Your turrets probably need more space to hold more ammunition, so why not get an upgrade for that?
+
+#Transformer LV-MV
+#name
+tier2.quest10.name=Transformer LV-MV
+#description
+tier2.quest10.desc=It's possible to run MV machines while still in LV age. Build a transformer and use 4 power sources 32 eu/t to power one 128 eu/t machine. You can change the mode of a transformer with a soft mallet. If the transformer is wired and loaded then do NOT! change the mode otherwise there probably will be a big explosion.
+
+#Hey DJ, Mix it!
+#name
+tier2.quest11.name=Hey DJ, Mix it!
+#description
+tier2.quest11.desc=The mixer is a very useful device. You can mix all kind of fluid and items. (Useful to prevent dust from falling to the ground when crafting.)
+
+#Damn you, wire cutter!
+#name
+tier2.quest12.name=Damn you, wire cutter!
+#description
+tier2.quest12.desc=Enough is enough. No more wasting gazillions of ingots just for a couple of wires. Now that you have power, you should go for a wiremill!
+
+#Alloy smelter
+#name
+tier2.quest13.name=Alloy smelter
+#description
+tier2.quest13.desc=Upgrade your steam alloy smelter to an LV one.
+
+#Basic transport pipe
+#name
+tier2.quest14.name=Basic transport pipe
+#description
+tier2.quest14.desc=These pipes are rather simple and won't do anything on their own. But in combination with transfer nodes, you'll soon find out how great they are. Also, given the correct upgrades, they even surpass most other transfer systems.
+
+#Passive defence
+#name
+tier2.quest15.name=Passive defence
+#description
+tier2.quest15.desc=A more "passive" approach to base defence are walls and fences. But seriously, where is the fun in that?
+
+#Your magic progression
+#name
+tier2.quest16.name=Your magic progression
+#description
+tier2.quest16.desc=Now that you are able to produce aluminium, you may dig into magic. If you haven't unlocked basic thaumaturgy, try to find a silverwood and a greatwood sapling.
+
+#Get ready for Tier 3
+#name
+tier2.quest17.name=Get ready for Tier 3
+#description
+tier2.quest17.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, one is enough to unlock this quest. Probably the best source for aluminium is clay, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup.
+
+#Welcome to Tier 2
+#name
+tier2.quest18.name=Welcome to Tier 2
+#description
+tier2.quest18.desc=Why, hello there! Seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to use them until you reach tier 3.
+
+#Thermal centrifuge
+#name
+tier2.quest19.name=Thermal centrifuge
+#description
+tier2.quest19.desc=A optional machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods.
+
+#A new alloy Cobalt Brass
+#name
+tier2.quest20.name=A new alloy Cobalt Brass
+#description
+tier2.quest20.desc=If you want to cut diamond blocks into plates, it's time to get a new alloy 'cobalt brass'.%nFirst you need to make brass out of zinc (only found in small ores or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.%n%nNow that you have come this far, we think that you are able to look up the ores that you need by yourself with the help of NEI and the ore mix spreadsheet.
+
+#You're gonna hate this #1
+#name
+tier2.quest21.name=You're gonna hate this #1
+#description
+tier2.quest21.desc=The first item you'll need a lot of. If you want to pull items out of chests or barrels you'll need one.%n%nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.
+
+#Mjolnir!!! (electric forge hammer)
+#name
+tier2.quest22.name=Mjolnir!!! (electric forge hammer)
+#description
+tier2.quest22.desc=Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow use this hammer. There are no recipes that require anything more than steam level to hammer something.
+
+#Sifting Machine
+#name
+tier2.quest23.name=Sifting Machine
+#description
+tier2.quest23.desc=You need flawless or exquisite diamonds, emeralds, rubies or other gems? Well then it's time for you to make a Sifting Machine.
+
+#Electric macerator
+#name
+tier2.quest24.name=Electric macerator
+#description
+tier2.quest24.desc=It is highly recommended to get one of these, as the efficiency in terms of coal/steam used to macerate something is a lot better when using EU.
+
+#Find some Certus Quartz
+#name
+tier2.quest25.name=Find some Certus Quartz
+#description
+tier2.quest25.desc=The Nether is full of different kinds of quartz. For the emitter and the sensor you will need to find some certus quartz.
+
+#Quartz and Quartzite Veins
+#name
+tier2.quest26.name=Quartz and Quartzite Veins
+#description
+tier2.quest26.desc=The Nether is full of different kinds of quartz. Go and find a quartzite and certus quartz vein. They are located between Y levels 40-80.
+
+#Hello Baron, how is your black gold today?
+#name
+tier2.quest27.name=Hello Baron, how is your black gold today?
+#description
+tier2.quest27.desc=During your travels you may have seen some of these huge oil wells. Now it's time to go make a pump and put this black gold into tanks. Oil can be burned in a combustion generator or be refined.%nMining pipes are needed for pumping the oil.%n%nBring a combustion generator with you to power the pump. (Thanks to the advancement of technology the pumping machine can auto output on top.)
+
+#You're gonna hate this #2
+#name
+tier2.quest28.name=You're gonna hate this #2
+#description
+tier2.quest28.desc=The second item you'll need a lot of. When you want to get fluid out of tanks you'll need one.%n%nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.
+
+#Suction device... nice
+#name
+tier2.quest29.name=Suction device... nice
+#description
+tier2.quest29.desc=I hope you are not thinking about what I am thinking you are thinking about...%n%nHint:%nIt is highly recommended to get one of these, as the efficiency in terms of coal/steam used to extracting something is a lot better when using EU.
+
+#Compact? Or is it?
+#name
+tier2.quest30.name=Compact? Or is it?
+#description
+tier2.quest30.desc=It is a compressor but that doesn't mean it is compact...%n%nHint:%nIt is highly recommended to get one of these electric compressors, as the efficiency in terms of coal/steam used to compress something is a lot better when using EU.
+
+#Press all the things
+#name
+tier2.quest31.name=Press all the things
+#description
+tier2.quest31.desc=With the basic forming press you can make different food items, glass arrows and some project red components. At MV/HV stage you can make rotors, various AE components and make copies of your molds and extruder shapes.
+
+#Lossless LV Cables
+#name
+tier2.quest32.name=Lossless LV Cables
+#description
+tier2.quest32.desc=How about losless 32 EU LV Cables ? Redstone alloy is a superconductor wire and will transfer your energy without any loss.
+Redalloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.
+
+#Basic monster protection
+#name
+tier2.quest33.name=Basic monster protection
+#description
+tier2.quest33.desc=Spawning monsters in or near your base can be annoying. Especially if you happen to get infernal creepers. Luckily, there is a good way to prevent them from spawning at all.
+
+#Gotta catch 'em all
+#name
+tier2.quest34.name=Gotta catch 'em all
+#description
+tier2.quest34.desc=Sure, you can use wheat/potatoes/carrots to make animals follow you back to your base, but that can be tedious. A golden lasso is a proper solution for animal transportation.
+
+#Try to dry out the Nether
+#name
+tier2.quest35.name=Try to dry out the Nether
+#description
+tier2.quest35.desc=Pumps can do more than pump oil and water. You can go to the nether and pump lava from the huge lava lakes too.%nDon't forget to bring some tanks with you.
+
+#New source of Glowstone
+#name
+tier2.quest36.name=New source of Glowstone
+#description
+tier2.quest36.desc=Find some glowflowers in the Nether and plant them in the Overworld. You will never need to go to the Nether and harvest glowstone lamps again.
+
+#Better Tank... LV Tank
+#name
+tier2.quest37.name=Better Tank... LV Tank
+#description
+tier2.quest37.desc=Next step is to store 64 buckets in a tank. The LV Tank from Gt++ needs steel plates, iron plates, bronze plates a huge clay pipe and an LV pump.
+
+#Dust to crystals
+#name
+tier2.quest38.name=Dust to crystals
+#description
+tier2.quest38.desc=Use the autoclave to crystallize your dust. You can make raw carbon mesh out of carbon dust.
+
+#Simple Ore Washer
+#name
+tier2.quest39.name=Simple Ore Washer
+#description
+tier2.quest39.desc=Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It work reasonably fast and uses 8eu max. Ok, you do not get any byproducts, but who cares!
+
+#Basic ore washer
+#name
+tier2.quest40.name=Basic ore washer
+#description
+tier2.quest40.desc=Macerating ores usually doubles the output. If you want MOOOOOOORE, craft an ore washer and wash out some rare materials.
+
+#LV extruder
+#name
+tier2.quest41.name=LV extruder
+#description
+tier2.quest41.desc=The extruder is not very useful in the LV age. But it will extrude your next tier of boat or make some Tinkers Construct tool parts.
+
+#You're gonna hate this #3
+#name
+tier2.quest42.name=You're gonna hate this #3
+#description
+tier2.quest42.desc=A piston, but more .. "electrical". The third item you are going to craft a lot of in the future.
+
+#You're gonna hate this #4
+#name
+tier2.quest43.name=You're gonna hate this #4
+#description
+tier2.quest43.desc=The fourth item you'll need a lot of, and is also a pain to craft. Arguably the most painful item ever.%n%nHint: Works like a conveyor but can work with selected item slots, adjust with a screwdriver.
+
+#Avengers, assemble!
+#name
+tier2.quest44.name=Avengers, assemble!
+#description
+tier2.quest44.desc=An absolute must have for fans of the movie. Oh, and to make all the things, of course.
+
+#Bzzz... Whoom...
+#name
+tier2.quest45.name=Bzzz... Whoom...
+#description
+tier2.quest45.desc=Making some flawless crystals requires a precision laser engraver.%nAt MV level the precision laser engraver becomes more important.
+
+#Better Tank... MV Tank
+#name
+tier2.quest46.name=Better Tank... MV Tank
+#description
+tier2.quest46.desc=Next step is to store 128 buckets in a tank. The MV Tank from Gt++ needs steel plates, darksteel plates, bronze plates a  bronze pipe and an LV pump.
+
+#ULV Transformer
+#name
+tier2.quest47.name=ULV Transformer
+#description
+tier2.quest47.desc=To get your simple ore washer working you need a ULV Transformer. The Washer can only work with 8 EU. If you put more into energy into it you get a big hole in your base.
+
+#A new alloy Magnalium
+#name
+tier2.quest48.name=A new alloy Magnalium
+#description
+tier2.quest48.desc=You wonder why you need magnalium now? It's not for GT machines right now but for a material update for your crossbow.%nIt's a very good material in LV Tier. Go to the Twilight Forest and find an Olivine/Glauconite vein located at Y 10-40 or in the Overworld a Glauconite Soapstone mix located at Y 20-50 and a Granitic Mineral Vein in the Overworld Located at Y 50-60 (The Gypsum vein you will need for the Bricked Blast Furnace).%nWith your Ore Washer you can get Magnesium and Aluminium out of the Ores (Magnesite for Magnesium and Fullers Earth for Aluminium) and mix it in the Alloy smelter to Magnalium.%nMagnesite gives 10 tiny piles of Magnesium each dust but fullers earth gives only a tiny pile of Aluminium.
+
+#Hydrogen, methane or some farts... (Natural gas) 
+#name
+tier2.quest49.name=Hydrogen, methane or some farts... (Natural gas) 
+#description
+tier2.quest49.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm.
+
+#Molten redstone?
+#name
+tier2.quest50.name=Molten redstone?
+#description
+tier2.quest50.desc=You heard that the carpenter needs some molten redstone for a few recipes.%nConverting redstone dust into a fluid requires a fluid extractor. Let's build one.
+
+#Diesel, oil or maybe creosote?
+#name
+tier2.quest51.name=Diesel, oil or maybe creosote?
+#description
+tier2.quest51.desc=You probably collected a ton of creosote and maybe even have built your first 'electric' blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source.
+
+#Bow, arrows and quiver
+#name
+tier2.quest52.name=Bow, arrows and quiver
+#description
+tier2.quest52.desc=Wow, your first handmade *ehm* machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. You can put up to 4 stacks of arrows in your quiver.%n%nLet's go hunt a bit.
+
+#You're gonna hate this #5
+#name
+tier2.quest53.name=You're gonna hate this #5
+#description
+tier2.quest53.desc=The fifth item you'll need a lot of. For the microwave, the scanner, the precision laser engraver, etc.
+
+#Auto Mining
+#name
+tier2.quest54.name=Auto Mining
+#description
+tier2.quest54.desc=A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 32 EU/t to work; with an 8V Solar panel it works at 25% speed. The miner searches for ores in a 16 block radius.
+
+#Ardite Crossbow Body
+#name
+tier2.quest55.name=Ardite Crossbow Body
+#description
+tier2.quest55.desc=To make your crossbow even better craft an ardite crossbow body. You received a few ardite ingots as reward before.%nWith redstone you can make your bow faster. This requires a free modifier slot on your crossbow.
+
+#Fiery Bowstring
+#name
+tier2.quest56.name=Fiery Bowstring
+#description
+tier2.quest56.desc=Why not upgrade your bowstring too?. If you cannnot find any fiery strings in the Nether you got some from the last quest. Craft some fiery bowstring with it.
+
+#Magnalium Crossbow
+#name
+tier2.quest57.name=Magnalium Crossbow
+#description
+tier2.quest57.desc=Now its time to craft your Crossbow Limb and the Crossbow Body to upgrade your old Wooden Crossbow.
+
+#Magnalium Crossbow Bolts
+#name
+tier2.quest58.name=Magnalium Crossbow Bolts
+#description
+tier2.quest58.desc=Magnalium bolts are much better than your old wooden bolts.%nYou can use nether quartz on the bolts to make them even better.%nThis requires a free modifier slot.
+
+#Basic Fluid Solidifier
+#name
+tier2.quest59.name=Basic Fluid Solidifier
+#description
+tier2.quest59.desc=To get your molten fluids back to a solid state you need a fluid solidifier. It is used for crossbow bolts as well.
+
+#Scanning bees, crops and moooooore!
+#name
+tier2.quest60.name=Scanning bees, crops and moooooore!
+#description
+tier2.quest60.desc=Automate your bee or crop scanning. Later on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for the UU matter production. Data sticks with raw prospecting data need a scanner too.
+
+#You're gonna hate this #6
+#name
+tier2.quest61.name=You're gonna hate this #6
+#description
+tier2.quest61.desc=The sixth item you'll need a lot of. For the scanner and the seismic prospector.
+
+#Sulfuric gas
+#name
+tier2.quest62.name=Sulfuric gas
+#description
+tier2.quest62.desc=Another distillate for your gas turbine you can make out of oil is sulfuric gas with a burn value of 25,000 EU per cell.
+
+#Glue
+#name
+tier2.quest63.name=Glue
+#description
+tier2.quest63.desc=If you centrifuge sticky resin, you get some glue. Glue is very useful in the creation of good circuit boards.
+
+#Empty Circuit Board
+#name
+tier2.quest64.name=Empty Circuit Board
+#description
+tier2.quest64.desc=Good circuit boards require wooden pulp and refined glue to make phenolic circuit boards. By adding gold wire you can craft a good circuit board.
+
+#Good Circuits
+#name
+tier2.quest65.name=Good Circuits
+#description
+tier2.quest65.desc=Good circuits are an improvement on basic circuits. They are a component of all MV gregtech machines. Be sure you build the electric blast furnace first, so you can process some aluminium dust into ingots.
+
+#Diode
+#name
+tier2.quest66.name=Diode
+#description
+tier2.quest66.desc=Good circuits need diodes. There are two ways to craft them. Using a silicon wafer together with some fine tin wire or gallium arsenide. Molten glass is also needed.
+
+#Gallium Arsenide
+#name
+tier2.quest67.name=Gallium Arsenide
+#description
+tier2.quest67.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get cushed ore, you may need a Tinker's Construct tool with the Luck (Fortune) enchant on it. Sphalerite is another source of gallium.%nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Another source is tinkers construct cobalt ore in the nether.%nMix those two dusts in a mixer to get gallium arsenic dust.
+
+#Your oil is too Crude? Refine it!
+#name
+tier2.quest68.name=Your oil is too Crude? Refine it!
+#description
+tier2.quest68.desc=Burning oil in the combustion generator is a very inefficient way of producing power. Every bucket/cell of oil only gives you 20,000 EU. Time to try and refine it...
+
+#Sulfuric naphtha
+#name
+tier2.quest69.name=Sulfuric naphtha
+#description
+tier2.quest69.desc=Another distillate you can make out of oil is sulfuric naphtha with a burn value of 40,000 EU per cell in the gas turbine.
+
+#Naphtha
+#name
+tier2.quest70.name=Naphtha
+#description
+tier2.quest70.desc=You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the gas turbine.%nNaphtha is also a base product for polyethylene and polycaprolactam.
+
+#Refinery gas
+#name
+tier2.quest71.name=Refinery gas
+#description
+tier2.quest71.desc=Refine your gas in a chemical reactor with hydrogen gas to give it a better burn value of 160,000 EU, and maybe use it to make methane gas.
+
+#Methane
+#name
+tier2.quest72.name=Methane
+#description
+tier2.quest72.desc=Distilling some "refinery gases" gives you some methane gas. There are many more ways to get methane.
+
+#N like nitrogen... Hide, alphabet strikes again!
+#name
+tier2.quest73.name=N like nitrogen... Hide, alphabet strikes again!
+#description
+tier2.quest73.desc=You can get some nitrogen by centrifuging... air. This process takes a long time, especially at the LV tier.
+
+#How to get sodium/lithium
+#name
+tier2.quest74.name=How to get sodium/lithium
+#description
+tier2.quest74.desc=Salt ore mixes can be found in the Overworld between Y level 50-70. Salt isn't only used to get sodium, it's an important ingredient in many pam's harvestcraft food recipes.%n%nHint: Lepidolite and spodumene are good sources of lithium for your batteries.
+
+#Food 2.0
+#name
+tier2.quest75.name=Food 2.0
+#description
+tier2.quest75.desc=Forget everything you know about food and values. With your new canning machine you are able to fill tin cans with very nourishing food. This food can be consumed in milliseconds and makes you full and happy.
+
+#LPG
+#name
+tier2.quest76.name=LPG
+#description
+tier2.quest76.desc=Centrifuging some Butane or Propane gives you LPG with a burn value of 320,000 EU, the same as naphtha. Also it is a way to get methane and eventually epichlorohydrin.
+
+#Butane and Propane
+#name
+tier2.quest77.name=Butane and Propane
+#description
+tier2.quest77.desc=You can distill a lot of different gases out of your "refinery gases".%nMethane, butane, propane, helium and ethane.%n%nHint:%nRefinery gas is not the best source for Propane and Butane. Better refine those out of naphtha.
+
+#H like Hydrogen... rest of the alphabet is too complicated...
+#name
+tier2.quest78.name=H like Hydrogen... rest of the alphabet is too complicated...
+#description
+tier2.quest78.desc=Centrifuge some brown or yellow limonite dust to get some hydrogen, or use an Electrolyser with some water to produce it in a fluid form.
+
+#Round and round and round...
+#name
+tier2.quest79.name=Round and round and round...
+#description
+tier2.quest79.desc=After purification of your ore dust, you can centrifuge it to get even more byproducts out of the dust.
+
+#Water and electricity, sounds fun and safe right?
+#name
+tier2.quest80.name=Water and electricity, sounds fun and safe right?
+#description
+tier2.quest80.desc=Using the power of water and electricity you can get even more out of your dusts.
+
+#IC2 Battery
+#name
+tier2.quest81.name=IC2 Battery
+#description
+tier2.quest81.desc=Some recipes require IC2 batteries. Fill your small battery hull with some molten redstone and you will get your RE-Battery. Molten cells will hurt you, so be careful.
+
+#Lithium
+#name
+tier2.quest82.name=Lithium
+#description
+tier2.quest82.desc=Lithium can be washed out of Lepidolite Ore or centrifuged out of Spodumene Ore.
+
+#Basic canner
+#name
+tier2.quest83.name=Basic canner
+#description
+tier2.quest83.desc=The canning machine is mainly used to fill tin cans with any kind of food, but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with redstone, cadmium, lithium or sodium.
+
+#Reusable battery: Lithium
+#name
+tier2.quest84.name=Reusable battery: Lithium
+#description
+tier2.quest84.desc=Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.
+
+#Heavy Sulfuric fuel
+#name
+tier2.quest85.name=Heavy Sulfuric fuel
+#description
+tier2.quest85.desc=The second step is to distill your oil into heavy sulfuric fuel, that has a burn value of 40,000 EU.
+
+#Heavy fuel
+#name
+tier2.quest86.name=Heavy fuel
+#description
+tier2.quest86.desc=By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 200,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of heavy and light fuel.
+
+#The missing one
+#name
+tier2.quest87.name=The missing one
+#description
+tier2.quest87.desc=It was once said... <basdxz> But ffs, add a plate bender to the LV tier book ...and then it popped into existence.
+
+#Antimony
+#name
+tier2.quest88.name=Antimony
+#description
+tier2.quest88.desc=The most efficient way to get antimony for batteries is to centrifuge stibnite dust, the second most efficient way is to use tetrahedrite dust.
+
+#Sodium
+#name
+tier2.quest89.name=Sodium
+#description
+tier2.quest89.desc=Sodium can be washed out of Glauconite Ore and Sand. It can also be electrolyzed out of salt.
+
+#How to get sodium
+#name
+tier2.quest90.name=How to get sodium
+#description
+tier2.quest90.desc=A second source for sodium is glauconite ore or glauconite sand. This type of ore vein can be found at Y level 20-50.
+
+#Reusable battery: Sodium
+#name
+tier2.quest91.name=Reusable battery: Sodium
+#description
+tier2.quest91.desc=Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.
+
+#Chemical rubber production
+#name
+tier2.quest92.name=Chemical rubber production
+#description
+tier2.quest92.desc=A much more efficient way to make insulated cables is by making molten rubber in a chemical reactor which can be applied to a cable in the assembling machine. When you put both machines next to each other you can output the molten rubber directly to the assembling machine by clicking the fluid auto-output button on the chemical reactor. Make sure to set the correct side of the reactor as output side by wrenching it.
+
+#Empty Cells
+#name
+tier2.quest93.name=Empty Cells
+#description
+tier2.quest93.desc=With your plate bender you are able to make empty cells. The circuit needs to be configured to 12 otherwise you will make foil.
+
+#A lead about lead that leads to lead dust
+#name
+tier2.quest94.name=A lead about lead that leads to lead dust
+#description
+tier2.quest94.desc=The next step of making batteries is to collect some lead. Lead and galena veins can be found in the Twilight Forest at y levels 5 - 45.
+
+#Battery alloy
+#name
+tier2.quest95.name=Battery alloy
+#description
+tier2.quest95.desc=Mixing antimony and lead in the alloy smelter will give you some battery alloy.%nCombine it with some tin cable and voila there is your small battery hull.
+
+#A big meteorite
+#name
+tier2.quest96.name=A big meteorite
+#description
+tier2.quest96.desc=The best way to get rare earth is to find an applied energistics 2 meteorite and grind the blocks into dust. Maybe you completed the quest in the steam age and stored your crushed skystone somewhere? That dust can now be centrifuged into various byproducts like cadmium, neodymium, caesium, lanthanum, and yttrium.%n%nHint: Redstone has rare earth as byproduct. Chalcopyrite (at HV level) and sphalherite (at LV level) have cadmium as byproduct.
+
+#Reusable battery: Cadmium
+#name
+tier2.quest97.name=Reusable battery: Cadmium
+#description
+tier2.quest97.desc=Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.
+
+#Cheaper Annealed Production
+#name
+tier2.quest98.name=Cheaper Annealed Production
+#description
+tier2.quest98.desc=It' s even faster and cheaper to make annealead copper in the arc furnace than in the electric blast furnace. Annealed copper is a very good material for wires in MV. It only loses 1 EU per block.
+
+#Lubricant
+#name
+tier2.quest99.name=Lubricant
+#description
+tier2.quest99.desc=Using lubricant instead of water or distilled water in your cutting machines will increase the output or speed of the machines.%nYou can make lubricant out of oil, seed oil, fish oil or creosote. If you are able to craft a brewery you can use talk and soapstone to get much more lubricant each cycle.
+
+#Light Sulfuric Fuel
+#name
+tier2.quest100.name=Light Sulfuric Fuel
+#description
+tier2.quest100.desc=The first step is to distill your oil into light sulfuric fuel, that has a burn value of 40,000 EU.
+
+#Light fuel
+#name
+tier2.quest101.name=Light fuel
+#description
+tier2.quest101.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of light and heavy fuel.
+
+#C9H8O4...NaCl...H2O...
+#name
+tier2.quest102.name=C9H8O4...NaCl...H2O...
+#description
+tier2.quest102.desc=Want to make some cetane-boosted diesel, plastic or some chemical dye? Then it's time to craft a chemical reactor.
+
+#No more filing
+#name
+tier2.quest103.name=No more filing
+#description
+tier2.quest103.desc=Why waste a full ingot to make a rod by using a tool which loses durability and takes even MORE ingots? With this little device, all your rod-needs shall be fulfilled (for now).
+
+#Portable mob spawners..? Cool!
+#name
+tier2.quest104.name=Portable mob spawners..? Cool!
+#description
+tier2.quest104.desc=Do you want to move the spawners around and build some cool mob farms? That will be no problem if you get the diamond dolly.
+
+#Diamond Chests... Oh shiny
+#name
+tier2.quest105.name=Diamond Chests... Oh shiny
+#description
+tier2.quest105.desc=After you build a cutting machine you can make some diamond plates for your new big diamond chests.
+
+#LV Advanced Steam Boiler
+#name
+tier2.quest106.name=LV Advanced Steam Boiler
+#description
+tier2.quest106.desc=The LV Gt++ Steam Boiler is the next machine you can build to produce steam more efficient than with the High Pressure Boiler.
+
+#Electrotine battery
+#name
+tier2.quest107.name=Electrotine battery
+#description
+tier2.quest107.desc=The electrotine battery is exclusively used in project red machines and the jetpack.%nElectrotine is a mixture of redstone and electrum dust.
+
+#Sulfuric acid
+#name
+tier2.quest108.name=Sulfuric acid
+#description
+tier2.quest108.desc=Combining sulfur trioxide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. If you have made some light or heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can always make sulfuric acid with some sulfur and water in the chemical reactor.
+
+#Fluid canner
+#name
+tier2.quest109.name=Fluid canner
+#description
+tier2.quest109.desc=The fluid canner is a fundamental machine, since it is necessary to move fluids around, as well as for filling tin cells, glass bottles, buckets, and even batteries.%n%nAnother interesting thing about the fluid canner is that it can be transformed into a raintank, by attaching a drain cover on its top (Any machine with tank actually can be...).
+
+#Single use battery: Acid
+#name
+tier2.quest110.name=Single use battery: Acid
+#description
+tier2.quest110.desc=Mercury and acid Batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an extractor to be converted back into small battery hulls.%n%nThey can be placed in the battery slot in any standard LV gregtech machine, in that case they will be depleted before the machine's internal EU storage. They can also be used in LV battery buffers.
+
+#Battery buffer
+#name
+tier2.quest111.name=Battery buffer
+#description
+tier2.quest111.desc=Batteries can be placed directly in machines. To recharge a battery you need a battery buffer. They come in different sizes: 1, 4, 9 and 16 slots.
+
+#LV battery buffer 9 slots
+#name
+tier2.quest112.name=LV battery buffer 9 slots
+#description
+tier2.quest112.desc=Upgrade your battery buffer to hold 9 batteries which allows max 9 ampere output.%nUseful for your EBF and the arc furnace.
+
+#Basic arc furnace
+#name
+tier2.quest113.name=Basic arc furnace
+#description
+tier2.quest113.desc=The arc furnace is an alternative to smelting stuff back into components and making wrought iron. The recipes use oxygen and 3 amperes of power.
+
+#Faster steel production
+#name
+tier2.quest114.name=Faster steel production
+#description
+tier2.quest114.desc=A faster alternative to steel production is to use the arc furnace and smelt the iron ingots into wrought iron ingots. Then macerate them to dust and smelt them very fast in the EBF to steel. (Some might even dare arc furnacing the dust itself...)
+
+#A truly sharp saw blade
+#name
+tier2.quest115.name=A truly sharp saw blade
+#description
+tier2.quest115.desc=Combining cobalt brass and diamond dust makes a really sharp saw blade for your cutting machine.
+
+#Cutting things apart
+#name
+tier2.quest116.name=Cutting things apart
+#description
+tier2.quest116.desc=An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and all of that will be done with the highest possible efficiency. Totally worth it!%n%nHint: Just add water.
+
+#Diamond Tanks... Oh shiny
+#name
+tier2.quest117.name=Diamond Tanks... Oh shiny
+#description
+tier2.quest117.desc=After you build a cutting machine you can make some diamond plates for your new 64 buckets single block tank.
+
+#Mercury
+#name
+tier2.quest118.name=Mercury
+#description
+tier2.quest118.desc=Mercury can be centrifuged out of redstone. If you find some cinnabar ore in the redstone vein you can use that too.
+
+#Single use battery: Mercury
+#name
+tier2.quest119.name=Single use battery: Mercury
+#description
+tier2.quest119.desc=Mercury and acid batteries are single-use batteries. They are crafted fully charged but cannot be re-charged. Once their stored energy is depleted, they can be placed in an extractor to be converted back into small battery hulls.%n%nThey can be placed in the battery slot of any standard LV gregtech machine, in that case they will be depleted before the machine's internal EU storage. They can also be used in LV battery buffers.
+
+###############
+#End Of Tier 2#
+###############
+
+
+##################
+#Multiblock Goals#
+##################
+
+#Multiblock Goals
+#name
+multiblock.goals=Multiblock Goals
+#description
+multiblock.goals.desc=This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier.
+
+########
+#Quests#
+########
+
+#Automation tier 1
+#name
+multiblock.goals.quest1.name=Automation tier 1
+#description
+multiblock.goals.quest1.desc=Do you want to automate your smeltery because you are planning to make stacks of glass blocks?%nNo problem, craft a large bronze pipe and place it under the faucet. Now the molten fluid will flow inside the pipe. Under the pipe you have to place the casting basins or tables.%n%nA hopper and a chest underneath would be good to auto-output products.
+
+#You are not prepared!!!
+#name
+multiblock.goals.quest2.name=You are not prepared!!!
+#description
+multiblock.goals.quest2.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...
+
+#The water dilemma
+#name
+multiblock.goals.quest3.name=The water dilemma
+#description
+multiblock.goals.quest3.desc=Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water.
+
+#Multiblock tanks... Railcraft tanks
+#name
+multiblock.goals.quest4.name=Multiblock tanks... Railcraft tanks
+#description
+multiblock.goals.quest4.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.%n%nUse only Buckets to move fluids because cells get destroyed.
+
+#Why one coke oven when you can have ten
+#name
+multiblock.goals.quest5.name=Why one coke oven when you can have ten
+#description
+multiblock.goals.quest5.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.
+
+#Analyzing the soil
+#name
+multiblock.goals.quest6.name=Analyzing the soil
+#description
+multiblock.goals.quest6.desc=To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking a seismic prospector with 8 dynamite, 4 TNT, 2 industrial TNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.%nProTip: you can do it more efficiently by only scanning every 8 chunks.%n%nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only gregtech machines will work)%n%nAfter the process is done take the printed page and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue.%n%nTADA now you have a book with info about the chunk you scanned.  
+
+#Railcraft steam power
+#name
+multiblock.goals.quest7.name=Railcraft steam power
+#description
+multiblock.goals.quest7.desc=As an alternative way to steam you can use the railcraft boilers. They require at least one firebox.
+More than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.
+
+#Liquid fuelled firebox
+#name
+multiblock.goals.quest8.name=Liquid fuelled firebox
+#description
+multiblock.goals.quest8.desc=Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.%nDiesel, ethanol, creosote and biofuel all work well here.
+
+#It's time to get more steam
+#name
+multiblock.goals.quest9.name=It's time to get more steam
+#description
+multiblock.goals.quest9.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can uses either water or distilled water. Water is consumed at a rate of 1l of water per 150l of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.
+
+#Automation tier 2
+#name
+multiblock.goals.quest10.name=Automation tier 2
+#description
+multiblock.goals.quest10.desc=You want a better automation than using pipes? Sure, craft a comparator and link it with redstone dust placed on the ground. The redstone needs to be adjecent to the faucet to activate the crafting process.
+
+#Time to get some steel
+#name
+multiblock.goals.quest11.name=Time to get some steel
+#description
+multiblock.goals.quest11.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...
+
+#The "Waterproblems" are solved
+#name
+multiblock.goals.quest12.name=The "Waterproblems" are solved
+#description
+multiblock.goals.quest12.desc=Entering the HV age you found a way of making a water reservoir wich solves the finite water problem. Craft it with some fused quartz glass, HV pumps and cauldrons.
+
+#Steel multiblock tanks
+#name
+multiblock.goals.quest13.name=Steel multiblock tanks
+#description
+multiblock.goals.quest13.desc=Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.%n%nOnly use buckets because cells get destroyed.
+
+#Smelt all the things...
+#name
+multiblock.goals.quest14.name=Smelt all the things...
+#description
+multiblock.goals.quest14.desc=Smelting up to nine items at once? With a bit of steel you can make a railcraft Steam Oven. 2x2x2%n%nHint: All furnace recipes work just fine, but you cannot use it to make charcoal from wood.
+
+#Low pressure boiler tank
+#name
+multiblock.goals.quest15.name=Low pressure boiler tank
+#description
+multiblock.goals.quest15.desc=The low pressure boiler tank is the easiest way to store steam. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.
+
+#High pressure boiler tank
+#name
+multiblock.goals.quest16.name=High pressure boiler tank
+#description
+multiblock.goals.quest16.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version.
+
+#Steam is never enough
+#name
+multiblock.goals.quest17.name=Steam is never enough
+#description
+multiblock.goals.quest17.desc=Now you can make advanced circuits, which means it's time to build a large steel boiler. This boiler is one and a half times more efficient than a bronze one, and that means we need 5 more steam turbines. Don't forget to monitor the water level!
+
+#We need big toys
+#name
+multiblock.goals.quest18.name=We need big toys
+#description
+multiblock.goals.quest18.desc=All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. . It will also distill water for you, so you can use the same water again inside your large boiler.  Don't forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).
+
+#Better than Duct Tape
+#name
+multiblock.goals.quest19.name=Better than Duct Tape
+#description
+multiblock.goals.quest19.desc=A soldering iron tool to remove the burned out circuits message is better than duct tape.%nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player's inventory.%n%nFor the other problems other tools are necessary.%n%nPossible problems                  Tool to fix%n"Pipe is loose."                        Wrench%n"Screws are missing."             Screwdriver%n"Something is stuck."               Soft mallet%n"Platings are dented."            Hammer%n"Circuitry burned out."          Soldering Iron%n"That doesn't belong there." Crowbar%n
+
+#EBF-Time
+#name
+multiblock.goals.quest20.name=EBF-Time
+#description
+multiblock.goals.quest20.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the heating coils might be a little tricky...%n%n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers = 78%.
+
+#2x steel
+#name
+multiblock.goals.quest21.name=2x steel
+#description
+multiblock.goals.quest21.desc=Steel production is so slow. If you got enough bricks and clay, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some bricks, clay and concrete.
+
+#4x steel
+#name
+multiblock.goals.quest22.name=4x steel
+#description
+multiblock.goals.quest22.desc=Not even two BBFs are fast enough...
+
+#An unexpected Bonus
+#name
+multiblock.goals.quest23.name=An unexpected Bonus
+#description
+multiblock.goals.quest23.desc=Because we're nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bricked blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)
+
+#Smelt all the things stack wise...
+#name
+multiblock.goals.quest24.name=Smelt all the things stack wise...
+#description
+multiblock.goals.quest24.desc=...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can't go any faster!%n%nHint: Parallel smelting depends on coils, consult your local doctor before use.
+
+#Time to drill! 
+#name
+multiblock.goals.quest25.name=Time to drill! 
+#description
+multiblock.goals.quest25.desc=Pumps are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There's also a chance to find natural gas.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch coresponding to the power tier. 
+
+#Moooooore steam
+#name
+multiblock.goals.quest26.name=Moooooore steam
+#description
+multiblock.goals.quest26.desc=Stock up on titanium, it will be fun. A large titanium boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal cobalt rotors will be just right. Optimal flow for such rotor is 800 liters per tick. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors.
+
+#Less Power loss
+#name
+multiblock.goals.quest27.name=Less Power loss
+#description
+multiblock.goals.quest27.desc=When you reach MV tier you can make your own duct tape in case you have to move your multiblock machines around. Duct tape will fix all maintenance problems in any multiblock machine.
+
+#EBF Infos
+#name
+multiblock.goals.quest28.name=EBF Infos
+#description
+multiblock.goals.quest28.desc=You can use a scanner to manually check how your EBF works, or you can make an informations panel from nuclear control and always see the status. Make a GT sensor kit and place the sensor card in your info panel. Enable it with a redstone signal.
+
+#Compress all the things
+#name
+multiblock.goals.quest29.name=Compress all the things
+#description
+multiblock.goals.quest29.desc=Martin's (DreamMasterXXL) favourite machine. Compress ALL the things! With explosives, of course.
+
+#Compress all the things
+#name
+multiblock.goals.quest30.name=You smell like a distillery!
+#description
+multiblock.goals.quest30.desc=This bad boy will tremendously boost the by-products of your cracked fuel by multiplying them by 5. This way you can make industrial TNT, polyethylene, polytetrafluoroethylene and other plastics more efficiently.%n%nYou will also need this for your automated setups.
+
+#Even more steam? Are you sure?
+#name
+multiblock.goals.quest31.name=Even more steam? Are you sure?
+#description
+multiblock.goals.quest31.desc=This boiler is the most efficient source of steam. It allows you to produce as much as 2000 litres of steam per tick. If you need more, then build a dual or even quad boiler.
+
+#Still not enough charcoal?
+#name
+multiblock.goals.quest32.name=Still not enough charcoal?
+#description
+multiblock.goals.quest32.desc=This oven is the best way to get charcoal and creosote (x50 faster than Railcraft's coke oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it's worth it. Finally, it will be possible to dismantle the charcoal pit.%nWith Cupronickel coils the oven is a bit slowlier. Each coil tier speed up the charcoal production.
+
+#Glyceryl trini...... what?
+#name
+multiblock.goals.quest33.name=Glyceryl trini...... what?
+#description
+multiblock.goals.quest33.desc=Kids, today we will make some glyceryl trinitrate with some glycerol.%n%n    - Chemistry 101
+
+#Powderbarrels
+#name
+multiblock.goals.quest34.name=Powderbarrels
+#description
+multiblock.goals.quest34.desc=Powderbarrels are twice as good as dynamite in the implosion compressor. Craft one stack.
+
+#TNT
+#name
+multiblock.goals.quest35.name=TNT
+#description
+multiblock.goals.quest35.desc=TNT is much more powerful than the powderbarrel but much harder to craft. There are LV and HV ways to craft. At LV you need heavy or light fuel to make some toluene wich can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in a chemical reactor to make toluene more efficient. Mix it with sulfuric acid to make TNT.%n%nThe HV way requires an oil cracking unit to make all kinds of cracked fuel or cracked naphta and a distillation tower to extract toluene from that.
+
+#Let's get it crackin!
+#name
+multiblock.goals.quest36.name=Let's get it crackin!
+#description
+multiblock.goals.quest36.desc=Cracking oil will result in better by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT for advanced tier rockets.%n%nIf you add steam the amout of EU/t will be reduced by 50% and if you add hydrogen the output will be increased by 30%
+
+#High speed charcoal
+#name
+multiblock.goals.quest37.name=High speed charcoal
+#description
+multiblock.goals.quest37.desc=Sure, those coke ovens are nice, but they aren't even remotely fast enough to keep up with a large steam boiler. Luckily, there is an upgrade available! The creosote oil will not be produced, but the process will speed up dramatically. Who needs that nasty yellowish flammable stuff anyway...
+
+#Upgrade #1: More heat
+#name
+multiblock.goals.quest38.name=Upgrade #1: More heat
+#description
+multiblock.goals.quest38.desc=Better materials need higher temperatures. You can just exchange the old coils with the new ones. You can even recycle the old coils, how fancy is that!
+
+#At the end of...
+#name
+multiblock.goals.quest39.name=At the end of...
+#description
+multiblock.goals.quest39.desc=...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff. You will need a minimum of 16 frost proof machine casings, the rest depends on your setup.
+
+#Dynamite
+#name
+multiblock.goals.quest40.name=Dynamite
+#description
+multiblock.goals.quest40.desc=Dynamite is the most basic explosive you can use in the implosion compressor.%nMix some paper, string and glyceryl trinitrate in a chemical reactor to get dynamite.
+
+#iTNT
+#name
+multiblock.goals.quest41.name=iTNT
+#description
+multiblock.goals.quest41.desc=Industrial TNT is the HV variant of TNT. It explodes with more power, yet does not destroy blocks when it explodes.
+
+#Cleanroom
+#name
+multiblock.goals.quest42.name=Cleanroom
+#description
+multiblock.goals.quest42.desc=If you want to make more advanced circuits you need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.%n%nLet's build a 5x5x5 room.
+
+#A very useful Scanner
+#name
+multiblock.goals.quest43.name=A very useful Scanner
+#description
+multiblock.goals.quest43.desc=The portable scanner is a tool capable of showing advanced information about almost every block in the game.%nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.%n%nIt can scan crops, which shows more information than the cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.%nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load.%nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.%nIt also gives information about pollution level in the chunk the scanned block belongs to.%nAdditional to that it shows when the clenroom has reached his 100% efficeny level.
+
+#Upgrade #2: Higher tier
+#name
+multiblock.goals.quest44.name=Upgrade #2: Higher tier
+#description
+multiblock.goals.quest44.desc=To reach the 3600k heat capacity of your EBF, so you can process high-tier materials like tungsten, you need nichrome heating coils.
+
+#Upgrade #3: Upgrade tier 4
+#name
+multiblock.goals.quest45.name=Upgrade #3: Upgrade tier 4
+#description
+multiblock.goals.quest45.desc=To process more advanced materials like enderium, enriched naquadah or niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.
+
+#Upgrade #4: Upgrade tier 5
+#name
+multiblock.goals.quest46.name=Upgrade #4: Upgrade tier 5
+#description
+multiblock.goals.quest46.desc=To process more advanced materials like HSS-E, HSS-S, naquadah or draconium you need more than 4500K. Time to upgrade your EBF to 5400k.
+
+#Upgrade #6: Upgrade tier 7
+#name
+multiblock.goals.quest47.name=Upgrade #6: Upgrade tier 7
+#description
+multiblock.goals.quest47.desc=To process the most advanced materials like neutronium, fluxed-electrum or awakened draconium you need more than 7200K. Upgrade your EBF to 9001k. (OVER 9000!!!)
+
+#Upgrade #3: Upgrade tier 6
+#name
+multiblock.goals.quest48.name=Upgrade #3: Upgrade tier 6
+#description
+multiblock.goals.quest48.desc=To process more advanced materials like naquadah-alloy you need more than 5400K. Upgrade your EBF to 7200k to increase the heat.
+
+#########################
+#End Of Multiblock Goals#
+#########################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

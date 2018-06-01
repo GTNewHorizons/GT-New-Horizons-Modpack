@@ -1,0 +1,2301 @@
+betterquesting.title.quest_lines=§rЦепочка Заданий
+betterquesting.title.edit_line1=Edit Quest Lines
+betterquesting.title.edit_line2=Edit Quest Line - %s
+betterquesting.title.edit_quest=Edit Quest
+betterquesting.title.edit_tasks=Edit Tasks
+betterquesting.title.edit_rewards=Редактировать Награды
+betterquesting.title.edit_text=Редактировать Текст
+betterquesting.title.pre_requisites=Edit Pre-Requisites
+betterquesting.title.json_object=Object
+betterquesting.title.json_array=Список
+betterquesting.title.json_add=New Type
+betterquesting.title.select_item=Выбрать Предмет
+betterquesting.title.select_fluid=Выбрать Жидкость
+betterquesting.title.select_entity=Выбрать Существо
+betterquesting.title.party_none=Группа
+betterquesting.title.party=Управление Группой - %s
+betterquesting.title.party_invite=Пригласить Игроков
+betterquesting.title.select_theme=Выбрать Оформление
+betterquesting.title.importers=Importers
+betterquesting.title.submit_station=Submit Station
+
+betterquesting.btn.rewards=Награды
+betterquesting.btn.tasks=Задания
+betterquesting.btn.advanced=Advanced
+betterquesting.btn.is_main=Is Main
+betterquesting.btn.requirements=Требования
+betterquesting.btn.edit=Редактировать
+betterquesting.btn.new=Добавить Новый
+betterquesting.btn.import=Импорт
+betterquesting.btn.logic=Логика
+betterquesting.btn.show=Show
+betterquesting.btn.claim=Забрать
+betterquesting.btn.detect_submit=Подтвердить
+betterquesting.btn.add_remove_quests=Add/Remove Quests
+betterquesting.btn.designer=Designer
+betterquesting.btn.item=Предмет
+betterquesting.btn.list=Список
+betterquesting.btn.fluid=Жидкость
+betterquesting.btn.entity=Существо
+betterquesting.btn.text=Текст
+betterquesting.btn.number=Число
+betterquesting.btn.object=Объект
+betterquesting.btn.raw_nbt=Raw NBT
+betterquesting.btn.party_new=Создать Группу
+betterquesting.btn.party_leave=Покинуть
+betterquesting.btn.party_invite=Пригласить
+betterquesting.btn.party_kick=Выгнать
+betterquesting.btn.party_join=Присоединиться
+betterquesting.btn.party_share_lives=Общие Жизни
+betterquesting.btn.party_share_loot=Общие Награды
+
+betterquesting.home.exit=Выход
+betterquesting.home.quests=Задания
+betterquesting.home.party=Группа
+betterquesting.home.theme=Оформление
+
+betterquesting.gui.name=Название
+betterquesting.gui.description=Описание
+betterquesting.gui.quest_line=§rЦепочка Заданий
+betterquesting.gui.database=Database
+betterquesting.gui.selection=Ваш Выбор
+betterquesting.gui.search=Поиск
+betterquesting.gui.folder=Folder
+betterquesting.gui.party_invites=Приглашения
+betterquesting.gui.party_members=Участники
+betterquesting.gui.remaining_lives=Осталось Жизней: %s
+betterquesting.gui.full_lives=Максимальное Количество Жизней
+betterquesting.gui.closing_warning=Вы уверены, что хотите закрыть редактор?
+betterquesting.gui.closing_confirm=Изменения могут быть утеряны!
+
+betterquesting.tooltip.tasks_complete=%s/%s Заданий Выполнено
+betterquesting.tooltip.complete=ЗАВЕРШЁН
+betterquesting.tooltip.incomplete=НЕ ЗАВЕРШЁН
+betterquesting.tooltip.rewards_pending=ЗАБЕРИТЕ НАГРАДУ
+betterquesting.tooltip.requires=Требования:
+betterquesting.tooltip.shift_advanced=Hold SHIFT for advanced info
+betterquesting.tooltip.reset_time=Время Восстановления: %s
+betterquesting.tooltip.main_quest=Основное Задание: %s
+betterquesting.tooltip.global_quest=Global Quest: %s
+betterquesting.tooltip.global_share=Global Share: %s
+betterquesting.tooltip.task_logic=Логика Задания: %s
+betterquesting.tooltip.simultaneous=Simultaneos Tasks: %s
+betterquesting.tooltip.auto_claim=Auto Claim: %s
+betterquesting.tooltip.repeat=Время Восстановления: %s
+
+betterquesting.notice.complete=Задание Завершено
+betterquesting.notice.update=Задание Обновлено
+betterquesting.notice.unlock=Задание Разблокировано
+
+betterquesting.msg.heart_disabled=Хардкорные жизни не активированы. Используй "/bq_admin hardcore" чтобы активировать
+
+key.betterquesting.quests=Открыть Задания
+key.betterquesting.party=Управление Группой
+key.betterquesting.themes=Поменять Оформление
+
+itemGroup.betterquesting=Better Questing
+
+fluid.betterquesting.placeholder=Placeholder
+
+item.betterquesting.placeholder.name=Item Placeholder
+item.betterquesting.extra_life.full.name=Extra Life
+item.betterquesting.extra_life.half.name=Half Heart
+item.betterquesting.extra_life.quarter.name=Quarter Heart
+item.betterquesting.guide.name=Better Questing Starter Guide
+
+tile.betterquesting.submit_station.name=Object Submission Station (OSS)
+
+betterquesting.btn.help1=Navigation
+betterquesting.btn.help2=OSS Block
+betterquesting.btn.help3=Making Quests
+betterquesting.btn.help4=Commands
+betterquesting.btn.help5=Importing
+betterquesting.btn.help6=Themes
+betterquesting.btn.help7=Localization
+betterquesting.btn.help8=Resources
+
+betterquesting.help.page1=§l§nGeneral Navigation%n§r%nBetter Questing's main questing GUIs do not rely on an item or block that could be easily lost but instead through a single keybinding which can be found and changed through the controls menu.%n%nIn the Quest Lines screen you can select any of your active lines from the list and drag around the box to navigate to the quest of your choosing to begin completing tasks.%n%nQuesting parties can be created or edited via the Party Management screens. Here you can also toggle options for sharing hardcore lives or quest rewards.%n%nIf you'd like to change the look of your questing UIs you can choose from the currently installed themes in the Theme selection screen.
+betterquesting.help.page2=§l§nSubmission Station%n§r%nAlthough many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. Tasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot however it will not void items or liquids if no task is selected or if it has already been completed making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!
+betterquesting.help.page3=§l§nMaking Quests%n§r%nTo begin making quests and quest lines you will first have to enable edit mode by running the edit command (See commands for more info). You will then be able to add or remove quest lines however you do not require one to begin making quests. This is especially handy if you'd like to make secret quests that unlock other quests or quest lines.%n%nThere are several menus you will need to become familiar with while editing. These will be a little overwhelming at first compared to most other mods but over time it will get easier. Some advanced editing screens will edit raw questing data so you'd want to be very careful what you change as it could have adverse side effects however this should never result in corruption or a crash. If either occurs than you should immediately report it to a developer.
+betterquesting.help.page4=§l§nCommands%n§r%nThere are only a handful of commands you need to know when working with Better Questing. They are separated into user commands that anyone can run and admin commands which are restricted to server operators.%n%n§o/bq_user refresh%n§r%nManually resyncs the local questing database with the server in case of potential desync issues.%n%n§o/bq_user help%n§r%nGives the player a copy of this guide%n%n§o/bq_admin edit%n§r%nToggles quest editing mode on and off. When enabled, operators will be able to access the editing menus for quests and quest lines. Remember to disable this before publishing packs or quests.%n%n§o/bq_admin hardcore%n§r%nToggles on and off the use of hardcore lives. When all lives have been depleted, players will be banned from the server or have their world deleted as per standard vanilla hardcore.%n%n§o/bq_admin reset [all|<quest_id>] [username|uuid]%n§r%nErases quest completion data for the given user. Handy to use before publishing packs.%n%n§o/bq_admin default [save|load]%n§r%nSaves/loads the current quest database to/from the global default directory. Setting defaults means any newly created worlds will start with that particular set of quests. Saving will also preserve completion data, hardcore state and edit mode so be sure to use the various other command as necessary before running this one.%n%n§o/bq_admin complete <quest_id> [username|uuid]%n§r%nForce completes a quest for the given user%n%n§o/bq_admin delete [all|<quest_id>]%n§r%nDeletes given quest(s) and progression data however it does not delete new world defaults.%n%n§o/bq_admin lives [add|set|max|default] <value> [username]%n§r%nThese commands change the amount of lives players have or the starting and max values.
+betterquesting.help.page5=§l§nImporting%n§r%nSome expansion packs may include importers for other questing mods or allow pack makers to download online quest lines. To access these importers you can click on the 'Import' button in the main quest line editor. By default Better Questing does not have any importers so if you require a specific importer you'll need to either find an expansion with one or make it yourself.
+betterquesting.help.page6=§l§nThemes%n§r%nIf you're someone who prefers a certain color pallet in their UIs or are just a pack maker wanting to give it that more authentic look and feel then themes are your best friend. Themes can change the look of the questing UIs to suit whatever your needs may be whether it be futuristic, magical or just classic Minecraft. They can be installed either through resource packs, resource directory or via expansions packs.
+betterquesting.help.page7=§l§nLocalization%n§r%nBetter Questing supports full localization of quest names and descriptions so that if you wanted to release your pack to users of all nationalities now you now can! In order to begin localizing your quests you'll need to use unique keys such as "§omypack.quest1.name§r" instead of plain text. You can then create a resource pack containing only .lang files for all the language specific translations. These files can alternatively be stored in Better Questing's resource directory for better bundling in packs
+betterquesting.help.page8=§l§nResources%n§r%nIf you want to customise the home screen, bundle themes or add localization files then you can do so through: %n%n"§o/config/betterquesting/resources/<pack_name>/§r"%n%nAny folders here can be treated as unlisted resource packs containing everything required to personalize your pack.
+
+betterquesting.design.tree=Tree Design
+
+betterquesting.toolbox.tab.main=Main
+
+betterquesting.toolbox.tool.open.name=Open
+betterquesting.toolbox.tool.open.desc=Opens a quest for futher editing
+betterquesting.toolbox.tool.grab.name=Grab
+betterquesting.toolbox.tool.grab.desc=Picks up and moves quests elsewhere in the quest line
+betterquesting.toolbox.tool.link.name=Link
+betterquesting.toolbox.tool.link.desc=Sets a quest as prerequisites for others. If a link is already present then it is removed
+betterquesting.toolbox.tool.snap.name=Grid Snap
+betterquesting.toolbox.tool.snap.desc=Changes the grid snap resolution for various other tools
+betterquesting.toolbox.tool.copy.name=Copy
+betterquesting.toolbox.tool.copy.desc=Copies the given quest including prerequisites, tasks and rewards but not progression data
+betterquesting.toolbox.tool.new.name=New Quest
+betterquesting.toolbox.tool.new.desc=Creates a new empty quest
+betterquesting.toolbox.tool.delete.name=Delete Quest
+betterquesting.toolbox.tool.delete.desc=Deletes the given quest from the quest line and database
+betterquesting.toolbox.tool.remove.name=Remove Quest
+betterquesting.toolbox.tool.remove.desc=Removes the given quest only from the quest line. The quest will still be accessible through the database
+betterquesting.toolbox.tool.complete.name=Manual Complete
+betterquesting.toolbox.tool.complete.desc=Forcibly completes the selected quest
+betterquesting.toolbox.tool.reset.name=Reset Quest
+betterquesting.toolbox.tool.reset.desc=Resets completion status and all task progress
+betterquesting.toolbox.tool.icon.name=Select Icon
+betterquesting.toolbox.tool.icon.desc=Changes the quest's icon
+
+betterquesting.cmd.complete=Completed quest %s for %s
+betterquesting.cmd.default.save=Quest database saved as default
+betterquesting.cmd.default.load=Reloaded default quest database
+betterquesting.cmd.default.none=No default currently set
+betterquesting.cmd.delete.single=Deleted quest %s
+betterquesting.cmd.delete.all=Deleted all quests
+betterquesting.cmd.edit=Edit mode %s
+betterquesting.cmd.hardcore=Hardcore mode %s
+
+betterquesting.cmd.lives.add_player=Added %s lives to %s (Total: %s)
+betterquesting.cmd.lives.add_all=Added %s lives to all players
+betterquesting.cmd.lives.remove_player=Removed %s lives from %s (Total: %s)
+betterquesting.cmd.lives.remove_all=Removed %s lives from all players
+betterquesting.cmd.lives.set_player=Set %s's lives to %s
+betterquesting.cmd.lives.set_all=Set all player's lives to %s
+betterquesting.cmd.lives.max=Set max lives to %s
+betterquesting.cmd.lives.default=Set default lives to %s
+
+betterquesting.cmd.reset.player_single=Reset quest '%s' for %s
+betterquesting.cmd.reset.player_all=Reset all quests for %s
+betterquesting.cmd.reset.all_single=Reset quest '%s' for everyone
+betterquesting.cmd.reset.all_all=Reset all quests for everyone
+betterquesting.cmd.refresh=Refreshing local database...
+
+####################
+#Quest Localisation#
+####################
+
+########
+#Tier 0#
+########
+
+#Tier 0 - It begins
+#name
+tier0.name=Тир 0 - Самое Начало
+#description
+tier0.desc=Самый первый тир, нулевой. Эта глава проведет тебя по простым механикам этой сборки. Затронутые моды: Vanilla, Pam's Harvestcraft.
+
+########
+#Quests#
+########
+
+#Your first night
+#name
+tier0.quest1.name=§rТвоя первая ночь
+#description
+tier0.quest1.desc=Перво-наперво тебе следует найти еду и убежище на ночь. Местные ночи жестоки, поскольку в этой сборке присутствует хардкорная темнота. А теперь ступай, набери еды...%n%n§aОт переводчика:%nЗдравствуй! Меня зовут Баш, и я являюсь русским локализатором данной сборки.%nПеревод может содержать ошибки.%nТы можешь помочь автору переводов, указав на эти ошибки.%nСообщать об ошибке следует здесь:  https://discord.gg/aGymCPY %n%nЯ также выкладываю свои похождения в данной сборке.%nПлейлист с прохождением: https://goo.gl/AQXS1R %n%nМой Вк: https://vk.com/id353009539 %nМой Твитч: https://www.twitch.tv/bashduude
+
+#Sticks 'n Stones
+#name
+tier0.quest2.name=§rПалки да Камни
+#description
+tier0.quest2.desc=Эта книжка имеет встроенный светильник, вот везунчик! Наверняка ты читаешь этот текст, пока простаиваешь ночь. С рассветом ступай собери немного гравия и дерева. И не забывай, что тебе нужна еда. Так что поглядывай на сады из Pam's Harvestcraft.(Сохрани некоторые овощи для семян!)
+
+#Where is the flint?
+#name
+tier0.quest3.name=§rГде же кремень?
+#description
+tier0.quest3.desc=Скорее всего, собирая гравий, ты обратил внимание, что тебе не выпало ни единого кремня. Дело в том что... для него есть рецепт. Поищи кремень в NEI и скрафти немного!
+
+#Crafting time
+#name
+tier0.quest4.name=§rВремя крафта
+#description
+tier0.quest4.desc=Самое время собрать 3х3 крафтинг зону. Используя кремень и дерево скрафти верстак!
+
+#Main Quests and Secondary Quests
+#name
+tier0.quest5.name=§rОсновные и Второстепенные Задания
+#description
+tier0.quest5.desc=Теперь, когда ты забрался так далеко, обрати внимание на два новых задания. Видишь разницу? Задание с резкой кромкой это основное задание, и оно ведет к другим основным заданиям толстой линией. Чтобы разблокировать следующий тир заданий, тебе следует завершать основные задания. Другое задание - опциональное, и не требуется для разблокировки следующих тиров. Несмотря на это, опциональные задания частенько дают тебе представление о полезных предметах или процессах.%n%nНе все основные задания соединены линией из-за количества квестов в этой книжке. Если нет очивидной толстой линии от основного квеста к основному - попробуй завершить другие основные задания, доступные тебе.
+
+#Storage for days
+#name
+tier0.quest6.name=§rВместительное хранилище
+#description
+tier0.quest6.desc=Разблокировав 3х3 крафтинг зону, самое время позаботиться о хранении твоего добра. Возьми немного дерева и скрафти сундук. Тебе понадобиться 4 дерева, 4 доски и 1 кремень.
+
+#Bamboo fence
+#name
+tier0.quest7.name=§rБамбуковый забор
+#description
+tier0.quest7.desc=Возможно тебе повезло начать в бамбуковом лесу.%nБамбук - очень полезное дерево, посколько оно растет очень быстро. Установленные бамбуковые палки вырастают в забор, высотой в 3 блока, который будет служить неплохой защитой для твоей базы.%nАльтернативой могут служить ягодные кусты.
+
+#Tools
+#name
+tier0.quest8.name=§rИнструменты
+#description
+tier0.quest8.desc=Теперь, когда у тебя есть укрытие, верстак и хранилище предметов, тебе следует собрать инструменты.(Если ты, конечно, не хочешь продолжать толкать деревья голыми руками...)
+
+
+#You reap...
+#name
+tier0.quest9.name=§rЧто посеешь...
+#description
+tier0.quest9.desc=Ты не всегда будешь получать съедобные награды из этой книги, так что, возможно, следует позаботиться об этой проблеме. Поскольку, ты уже скрафтил мотыгу, ступай найди воду и возделай поле. Совершим обмен: я тебе морковь, а ты мне палки. Так ты сможешь начать свой огород.
+
+#Collecting some berries
+#name
+tier0.quest10.name=§rСобирая ягоды
+#description
+tier0.quest10.desc=Ждешь пока твои морковки взойдут? Ступай собери ягод да ягодных кустов. Ягоды - хороший источник продовольствия, а кусты ты можешь посадить вокруг своего дома, чтобы возвести стену. Она будет снабжать тебя и едой, и защитой против всех монстров, что захотят посетить твой дом и убить тебя.
+
+#Berry medley
+#name
+tier0.quest11.name=§rЯгодная смесь
+#description
+tier0.quest11.desc=Хммм... что бы тебе сделать со всеми этими ягодами? Просто схавать? Ими сильно не насытишься. Давай посадим новых кустов и смешаем ягоды, чтобы получить более насыщенное блюдо.
+
+#Oak trees are not apple trees
+#name
+tier0.quest12.name=§rДубовые деревья - это не яблони
+#description
+tier0.quest12.desc=Дуб, который дает яблоки? Кто чёрт возьми добавил это в minecraft? Найди способ соеденить дубовый саженец с яблоком, чтобы получить саженец яблочного дерева. Посади его, он станет еще одним безлимитным источником продовольствия.
+
+#Monster trap
+#name
+tier0.quest13.name=§rЛовушка для монстров
+#description
+tier0.quest13.desc=Если ты везунчик, то ты появился в биоме пустыни или дождливого леса и уже наткнулся на некоторые залежи зыбучего песка. Собери стак этого песка, вырой небольшую яму и засыпь ее им. Это защитит твое грязевое поместье.
+
+#Get that stone
+#name
+tier0.quest14.name=§rДобудь булыжника
+#description
+tier0.quest14.desc=Взгляни на себя с этой блестящей кремниевой киркой! Время добыть немного булыжника. Юху!(Заодно сможешь улучшить это грязевое нечто...)
+
+#Can you hear the carrots grow?
+#name
+tier0.quest15.name=§rСлышишь? Морковки растут.
+#description
+tier0.quest15.desc=Устал ждать, так как твои морковки растут цеееелую вечность...?%nУ меня есть идея. Костная мука позволит вырастить еду за считанные секунды. Ступай, наруби немного дерева, и я обменяю тебе немного костной муки.
+
+#Your first long range weapon
+#name
+tier0.quest16.name=§rТвоё первое оружие дальнего боя
+#description
+tier0.quest16.desc=Поскольку ты не сможешь сделать ванильный лук до LV тира и оружие из Tinkers тоже не в этом тире, ты находишь способ сделать копье из палок, кожи и нити. Скрафти его, потому что справиться с инфернал монстрами куда легче, находясь, как можно дальше от них.
+
+#Sharpness: Over... 5...
+#name
+tier0.quest17.name=§rОстрота: Свыше... 5...
+#description
+tier0.quest17.desc=Самое время скрафтить что-то более полезное: Меч!
+
+#Fire, fire, Grandpa!
+#name
+tier0.quest18.name=§rЖги, жги, Бабуля!
+#description
+tier0.quest18.desc=Самое время сжечь кое-что, не так ли? У тебя пока нет возможности сделать древесный уголь, но ты наверняка скоро найдешь ей применение.
+
+#"Backed" potatoes
+#name
+tier0.quest19.name=§r"Припечёная" картошка
+#description
+tier0.quest19.desc=Есть сырую картошку, не особо-то полезно, как ты мог убедиться. Некоторый картофель изначально зеленый и испорченный. Приобретя печку, ты сможешь готовить вкуснейшую печёную картошку, как альтернативу к уже имеющейся пище.
+
+#Food variants
+#name
+tier0.quest20.name=§rПродуктовое разнообразие
+#description
+tier0.quest20.desc=Наверное, ты обратил внимание, что поедание одной и той же еды слишком часто - это очень скучно и совсем не здорово. Некоторые продукты питания, такие как чайный лист, могут быть приготовлены в печке. Так что сделай перерыв и выпей чашечку чая. Можешь пожевать вкусного изюма, он ничего такой.
+
+#...what you sow
+#name
+tier0.quest21.name=§r...то и пожнёшь
+#description
+tier0.quest21.desc=Если ты прочел предыдущий квест и посадил морковки, что я дал тебе, значит ты в порядке. Между тем, тебе следует посадить больше фруктов и овощей, и увеличить границы своего огорода для стабильного получения продуктов питания.
+
+#Shield update
+#name
+tier0.quest22.name=§rПатч для щита
+#description
+tier0.quest22.desc=Твой деревянный щит никуда не годится. Тебе следует улучшить его. Похоже тебе понадобится кожа, ступай найди коров.
+
+#Shields UP
+#name
+tier0.quest23.name=§rПоднять Щиты
+#description
+tier0.quest23.desc=Держа меч в одной руке, куда деть вторую? Верно, тебе нужен щит. Скрафти его.
+
+#Soft mallet adventure
+#name
+tier0.quest24.name=§rПриключения мягкого молота
+#description
+tier0.quest24.desc=Что тебе делать с тыквами или арбузными дольками? Ну, ты можешь просто съесть их или... использовать молот и получить семена... Давай скрафтим его. Возможно он тебе еще в чем-нибудь пригодится.
+
+#Rest in pieces
+#name
+tier0.quest25.name=§rПокойся кусочками
+#description
+tier0.quest25.desc=Время пришло! Ступай заруби пару свиней, и нарежь мяса.(И да, они будут дропать приготовленную свинину. Разве это не полезно...)
+
+#Fluffy and red
+#name
+tier0.quest26.name=§rМягкая и красная
+#description
+tier0.quest26.desc=Эпическое задание: Убей овец! (А еще попробуй достать шерсти, на кровать, очевидно...)
+
+#What is that...?
+#name
+tier0.quest27.name=§rЭто что ещё за...?
+#description
+tier0.quest27.desc=Ты повидал достаточно деревьев, но некоторые из них выглядят действительно особенно. Ты уверен, что эти деревья не просто строительный материал или средство получения древесного угля.
+
+#SO...TIRED...MUST...SLEEP...
+#name
+tier0.quest28.name=§rТАК...УСТАЛ...ДОЛЖЕН...ОТДОХНУТЬ...
+#description
+tier0.quest28.desc=Время отдохнуть и закончить тир 0. Прими мои поздравления, ты построил свое первое убежище и уже должен иметь стабильный источник питания. Увидимся в 1 тире!
+
+###############
+#End Of Tier 0#
+###############
+
+
+##########
+#Tier 0.5#
+##########
+
+#Tier 0.5 - Stone Age
+#name
+tier0.5.name=Тир 0.5 - Каменная Эпоха
+#description
+tier0.5.desc=По сути - это "Тир 0" твоего развития. Этот раздел проведёт тебя до твоего первого парового механизма.
+
+########
+#Quests#
+########
+
+#Even More Compact Storage
+#name
+tier0.5.quest1.name=§rЕщё Более Компактное Хранение
+#description
+tier0.5.quest1.desc=Если ты добыл достаточное количество золота, ты можешь улучшить свои сундуки в золото, с внутренним хранилищем 9х9 слотов. Ты можешь скрафтить золотой сундук с нуля или улучшить текущий железный, используя "улучшение из железного в золотой сундук".
+
+#GT 6 styled Pipes
+#name
+tier0.5.quest2.name=§rМеханика Труб из GT 6
+#description
+tier0.5.quest2.desc=Наверное, ты гадаешь, почему новые трубы больше не присоединяются сами по себе? Так трубы стали "умнее". Теперь ты можешь присоединять только те трубы, которые ты хочешь, используя ключ. Тебе больше не нужны заплатки или фольга, чтобы недопустить соединение труб. Shift + Клик на конце трубы - отключит вход жидкости с этой стороны. Это очень полезно, например, чтобы не допустить утечку пара из угольных бойлеров в трубы с водой.%n%nСовет: если ты кликнешь одной трубой по другой трубе - они авто-присоединятся. 
+
+#Looting II
+#name
+tier0.5.quest3.name=§rДобыча II
+#description
+tier0.5.quest3.desc=Нож мясника из грега имеет добычу 2. Ступай собери ништяков во время твоего ночного мобо-руба.
+
+#More Compact Storage
+#name
+tier0.5.quest4.name=§rБолее Компактное Хранение
+#description
+tier0.5.quest4.desc=Собирая всё больше и больше железа, ты осознаешь, что твои сундуки не резиновые. Самое время улучшить их в железные сундуки. Ты можешь скрафтить железный сундук с нуля или улучшить текущий деревянный, используя "улучшение из деревянного в железный сундук".
+
+#Chad a better way to make Paper
+#name
+tier0.5.quest5.name=§rСахарный тростник - более выгодный способ изготовления Бумаги
+#description
+tier0.5.quest5.desc=Изготавливать бумагу из опилок и воды весьма нудно и трудоемко. Почему бы тебе не использовать сахарный тростник? Его можно подробить на маленькие кусочки и сжать между двумя каменными плитами, для производства бумаги. Позже ты сможешь использовать химическую ванну и получать бумагу с ещё более выгодным соотношением.
+
+#You shall proceed
+#name
+tier0.5.quest6.name=§rИдём дальше?
+#description
+tier0.5.quest6.desc=Поскольку ты собрал и скрафтил все материалы и интрументы, которые тебе понадобятся для простых паровых механизмов, - ты можешь перейти на следующий тир. Не забывай, что тебе понадобятся целые горы ресурсов, чтобы скрафтить даже самые простые вещи. Я бы рекомедовал тебе набить свои сундуки рудами из этого тира.Но решение, конечно, же за тобой.
+
+#Making bronze
+#name
+tier0.5.quest7.name=§rПроизводство бронзы
+#description
+tier0.5.quest7.desc=Из меди и олова, что ты нашел, тебе следует сделать бронзы. Используй свой изме... ступу, чтобы перемолоть медные и оловянные слитки и смешать их в однородную смесь.
+
+#Animal farms
+#name
+tier0.5.quest8.name=§rСарай для животных
+#description
+tier0.5.quest8.desc=Пытаешься добыть кожи или шерсти? Возможно ты тратишь кучу времени, бегая по местности, охотясь на животных. Почему бы тебе не разводить своих животных в сарае и получать с них достаточное количество кожи, шерсти и мяса?
+
+#Sheep hairdresser
+#name
+tier0.5.quest9.name=§rОвечья парикмахерская
+#description
+tier0.5.quest9.desc=Получать шерсть, убивая овец, весьма неэффективно. Крафт ножниц стал бы весьма разумным решением, если у тебя есть потребность в шерсти.
+
+#Important tools
+#name
+tier0.5.quest10.name=§rВажные инструменты
+#description
+tier0.5.quest10.desc=Чтобы соорудить даже самые простые механизмы - тебе нужны подходящие инструменты. Позже большинство из этих инструментов будут заменены механизмами. А пока, тебе следует ознакомиться с рецептом каждых из них, поскольку они будут расходоваться весьма активно, начиная прямо сейчас.%n%nТвои новые интрументы также можно использовать для изготовления жидкостных резервуаров из Railcraft, весьма полезных мульти-блок структур, учитывая не бесконечность воды.
+
+#Tanned leather
+#name
+tier0.5.quest11.name=§rДублёная кожа
+#description
+tier0.5.quest11.desc=Ты нашёл способ изготавливать более прочную кожу. Изготовь вязанной кожи из четырёх кусков кожи, некоторого количества ниток и тканного хлопка. Повесь её на доске для высушивания. Спустя 10 минут на доске будет готовая дублёная кожа.
+
+#Need more space?
+#name
+tier0.5.quest12.name=§rНужно больше места?
+#description
+tier0.5.quest12.desc=Наверняка ты в курсе: дублёная кожа куда более прочная и отлично сгодится для рюкзака. Скрафти рюкзаки землекопа и шахтёра. Каждый хранит разные предметы. Ступай, используй оба в своём первом упакованном шахтёрском походе.
+
+#You need them all!
+#name
+tier0.5.quest13.name=§rСобери коллекцию!
+#description
+tier0.5.quest13.desc=В сборке есть и другие рюкзаки, например: Охотника, строителя, лесника...
+
+#Basic processing
+#name
+tier0.5.quest14.name=§rПростая обработка
+#description
+tier0.5.quest14.desc=Большинство процессов недоступно на данный момент, так что давай начнем с чего-нибудь попроще. Обжарь булыжник в камень. И, поскольку, эта сборка сущий кошмар, тебе придется использовать дерево в качестве топлива. Весело, не так ли?!
+
+#Ready, set, go!
+#name
+tier0.5.quest15.name=§rНа старт, внимание, марш!
+#description
+tier0.5.quest15.desc=К этому времени у тебя уже должен быть дом. Стабильный источник продовольствия - это фундаментальное требование всех времен. В этом тире придется побегать, так что возьми этот мешочек для ланча, он поможет хранить некоторые твои продукты.
+
+#Gardener
+#name
+tier0.5.quest16.name=§rСадовник
+#description
+tier0.5.quest16.desc=На случай если ты гадаешь: Почему я ни разу не получил семена, сшибая траву? В этой сборке это немного иначе. Попробуй возделать землю, которая находится подальше от источника воды, своей новой мотыгой, чтобы получить семена.
+
+#Better storage
+#name
+tier0.5.quest17.name=§rПодходящее хранение
+#description
+tier0.5.quest17.desc=Обычные сундуки отлично справляются с хранением разнообразных предметов, однако они совсем не идеальны для хранения больших запасов руды. Тебе следует соорудить пару бочек для более удобного хранения руды.
+
+#Sleeping outside
+#name
+tier0.5.quest18.name=§rСон снаружи
+#description
+tier0.5.quest18.desc=Постоянно таскать по всюду свою кровать выглядит весьма забавно. Почему бы тебе не скрафтить спальный мешок, чтобы спать снаружи без необходимости установки кровати и постоянной смены точки спавна. Предупреждаю: Если ты играешь на сервере, лучше бы тебе спать ниже Y128, в горах ночью бывает прохладно...
+
+#Fallen from the sky
+#name
+tier0.5.quest19.name=§rУпавшие с небес
+#description
+tier0.5.quest19.desc=Повсюду валяются большие метеориты, и ты гадаешь на кой тебе нужно их выкапывать?%nНебесный камень - это хороший источник металлов редкой земли в эпохе низкого напряжения.%nВ самом метеоре ты можешь обнаружить сундук, содержащий некоторые прессы обработки. Сохрани их на потом, они действительно полезные.
+
+#Maceration v0.1 Alpha
+#name
+tier0.5.quest20.name=§rИзмельчение v0.1 Альфа
+#description
+tier0.5.quest20.desc=Это забавное небольшое устройство работает(почти...) как измельчитель. Некоторые скажут - да он даже лучше, поскольку не требует никакой энергии, юху! На задание нужно скрафтить только один такой, но тебе возможно нужно сделать их с запасом, если позволяют ресурсы...
+
+#Clay: The Gathering
+#name
+tier0.5.quest21.name=§rГлина: Добыча
+#description
+tier0.5.quest21.desc=В скучные моменты, ты подумываешь, что было бы здорово заняться керамикой. Ступай собери глины. В реках должно быть некоторое количество.
+
+#Gravel: The Gathering
+#name
+tier0.5.quest22.name=§rГравий: Добыча
+#description
+tier0.5.quest22.desc=Со временем твои инструменты теряют прочность. Возможно было бы неплохо собрать гравия, чтобы пополнить свои запасы кремня, для изготовления новых.
+
+#Sand: The Gathering
+#name
+tier0.5.quest23.name=§rПесок: Добыча
+#description
+tier0.5.quest23.desc=В странном видении ты видел огромный мульти-блок, который бы позволял тебе производить древесный уголь. Наконец-то факела! По твоим расчётам, тебе понадобиться куча песка.
+
+#Better lunch bag
+#name
+tier0.5.quest24.name=§rУлучшенный мешочек для ланча
+#description
+tier0.5.quest24.desc=Твой мешочек для ланча исчерпал себя, да и весьма устарел. Самое время получить что-то лучшее. Скрафти коробку для ланча, которая сможет держать куда больше продуктов.
+
+#Iron shields
+#name
+tier0.5.quest25.name=§rЖелезные щиты
+#description
+tier0.5.quest25.desc=Ты весьма дольго использовал свой кожанный щит. После производства первых инструментов, возьми немного железной руды и скрафти отличный железный щит.
+
+#Stone spear
+#name
+tier0.5.quest26.name=§rКаменное копьё
+#description
+tier0.5.quest26.desc=Улучши свое деревянное копьё каменным наконечником и парой железных болтов. Такое копье имеет большую прочность.
+
+#XP usage?!
+#name
+tier0.5.quest27.name=§rПрименение Опыту?!
+#description
+tier0.5.quest27.desc=Исследуя подземелья или сражаясь с мобами, ты наверняка получил кучу опыта. Используй его, чтобы получить железную, медную, оловянную или любую другую полезную пыль, прежду чем ты потеряешь весь опыт от следующей неудачной битвы.%nРасположи резервуар на земле и поставь сверху всасыватель опыта. Теперь ты можешь заполнить его опытом.
+
+#Making a better sword
+#name
+tier0.5.quest28.name=§rИзготовление лучшего меча
+#description
+tier0.5.quest28.desc=Самое время соорудить твой первый Tinkers меч. Сначала изготавливаешь формы для острия, защиты для рук и рукояти. Расплавь некоторое количество бронзы в плавильне и отлей новые детали. Тадааам... вот и твой первый tinkers меч.
+
+#Don't burn your fingers!
+#name
+tier0.5.quest29.name=§rОсторожно, пальцы!
+#description
+tier0.5.quest29.desc=Ты решил, что самое время приготовить вкусненькой пиццы, в процессе ты серьезно обжог свои пальцы. Читая древнюю поварскую книгу, ты наткнулся на пару магических предметов, что позволили бы тебе переносить что-то горячее, даже раскалённую лаву в ведре.%n%nПерчатки следует расположить в слоты для колец из Thaumcraft.
+
+#Something to carry liquids
+#name
+tier0.5.quest30.name=§rЧто-то для переноса жидкости
+#description
+tier0.5.quest30.desc=Ты хотел перенести воды в ладонях, но похоже, это совсем не сработало. Повезло, что ты помнишь как делать ведро из глины.
+
+#Finite water!?
+#name
+tier0.5.quest31.name=§rНе бесконечная вода!?
+#description
+tier0.5.quest31.desc=Даа...не бесконечная вода это проблема. Прошлой ночью тебя посетила идея. Раз ты можешь пить кактусовый сок, значит ты способен сконцетрировать воду из 8 штук, и использовать ее для большинства рецептов, что требуют воду. Клёво, не так ли? Так что насчёт очередного обмена? 10 дерева за... 3 кактуса, чтобы ты смог наладить ферму. Договорились?
+
+#Another brick in the wall
+#name
+tier0.5.quest32.name=§rЕще один кирпичик в стену
+#description
+tier0.5.quest32.desc=Твой разум становится более ясным, тебе нужны кирпичи для твоей первой мульти-блок структуры. Ты думаешь, что порядка 104 кирпичей должно быть достаточно. Правда, кирпичи, что тебе нужны, - в некотором смысле особенные. Убедись, что крафтишь те, что надо!
+
+#Getting (char)coal
+#name
+tier0.5.quest33.name=§rПолучая уголь
+#description
+tier0.5.quest33.desc=Самое время запасись древесным углём. Для этого, мы построим коксовую печь. Здорово, что ты собрал кучу ресурсов!(Вот ведь совпадение...)
+
+#You need MOOOOOOORE wood
+#name
+tier0.5.quest34.name=§rНужно БООООООЛЬШЕ дерева
+#description
+tier0.5.quest34.desc=Самое время заполнить твою новенькую коксовую печь деревом, чтобы получить древесного угля. Ты гадаешь над самым эффективным способом посадки деревьев. Попробуй найти немного еловых и тропических саженцев. Оба могут быть посажены в 2х2 сетке для выращивания огромных деревьев.
+
+#Compact Drawers
+#name
+tier0.5.quest35.name=§rВместительные ящики
+#description
+tier0.5.quest35.desc=Они очень вместительные и добавляют красоту в твою восхитительную базу из грязи.
+
+#Better than barrels
+#name
+tier0.5.quest36.name=§rЛучше чем бочки
+#description
+tier0.5.quest36.desc=В то время как бочки предоставляют только одну ячейку для хранения, ящики могут вмещать вплоть до четырех ячеек каждый, 16 стаков в ячейке. Также они могут быть использованы для создания "подпольной МЕ системы хранения (Tec2k17)%nпозже в эпохе высокого напряжения с некоторой помощью ProjectRed Transportation.
+
+#Bronze javelin
+#name
+tier0.5.quest37.name=§rБронзовое копье
+#description
+tier0.5.quest37.desc=Бронзовое копье немного дороговато и имеет только 7 использований, однако это хорошее оружие средней дистанции. Затратив один слиток бронзы, ты сможешь восстановить все использования своего копья.
+
+#Making better tools
+#name
+tier0.5.quest38.name=§rИзготавливая лучшие инструменты
+#description
+tier0.5.quest38.desc=Из алюминия и меди ты можешь создать алюминиевую латунь и использовать ее как форму в плавильне.%n%nНо сначала тебе понадобиться сама плавильня. Загляни в главу "мульти-блок цели" в этой книжке, или укради плавильню в ближайшей деревне.
+
+#Punji Sticks
+#name
+tier0.5.quest39.name=§rПалочки панджи
+#description
+tier0.5.quest39.desc=Защитой начального уровня могут послужить палочки панджи. Они наносят урон и игрокам, и монстрам, а так же имеют свойство замедлять(зелье замедления 2). Сделай траншею вокруг своей базы и поставь туда палочки панджи.
+
+#Cotton, cotton and more cotton
+#name
+tier0.5.quest40.name=§rХлопок, хлопок и ещё хлопок
+#description
+tier0.5.quest40.desc=Оказывается, что хлопок очень полезен! С его помощью можно изготавливать нить, шерсть и другие полезные предметы. Посади небольшую хлопковую плантацию.
+
+#Book parts
+#name
+tier0.5.quest41.name=§rЧасти книжки
+#description
+tier0.5.quest41.desc=После обнаружения способа перемещать воду, у тебя появилась другая великолепная идея: Бумага! Бумага больше не делается из тростника, чтобы сделать ее - тебе нужны опилки. Тебе понадобиться целая куча опилок, так что хватай свой топор и вперед за работу.
+
+#Forming press v0.1
+#name
+tier0.5.quest42.name=§rФормировочный пресс v0.1
+#description
+tier0.5.quest42.desc=Как ты уже мог убедиться, ты не можешь напрямую получать кирпичи из глины. Если честно, этот рецепт изначально был так себе. Ты скорее всего получал бы кирпичи в форме хлеба. Так что для изготовления нормальных кирпичей, - тебе понадобиться форма. Скрафти себе нож и пустую схему. Затем вырежи из нее ножем кусок, похожий на кирпич. Вот так всё просто.
+
+#Creosote oil
+#name
+tier0.5.quest43.name=§rКреозотовое масло
+#description
+tier0.5.quest43.desc=Предположу, что ты уже получил некоторое количество древесного угля и гадаешь что же тебе делать с этим креозотовым маслом?%nНу... ты можешь использовать его в качестве топлива в обычной печке, чтобы готовить себе еду, или, например, делать факела. Позже в эпохе низкого напряжения ты сможешь запускать генераторы, работающие на этом масле.
+
+#Framing Drawers
+#name
+tier0.5.quest44.name=§rУкрашая Ящики
+#description
+tier0.5.quest44.desc=Теперь ты можешь делать действительно зачётные ящики, используя вот этот стол. Все что от тебя требуется - это добавить декоративных блоков(работает практически всё что угодно) и новый ящик позаимствует их текстуру. Верхний левый - это внешний квадрат. Нижний левый - это передняя часть ящика. Верхний правый - для окантовки.
+
+#Getting iron
+#name
+tier0.5.quest45.name=§rДобыча железа
+#description
+tier0.5.quest45.desc=Железно можно найти в куче разных жил. Магнетитовые жилы(y30-180), халькопиритовые жилы(y5-60), лимонитовые жилы(10-40) все они содержат железную руду.
+
+#Aluminini...um...?
+#name
+tier0.5.quest46.name=§rАлью...алюми..ниум?
+#description
+tier0.5.quest46.desc=Как бы ты его не произносил, он тебе нужен. Ты можешь найти его в кускай гравия на поверхности. Возможно стоит поискать в реках.(Это задание второстепенное, однако рекомендуемое.)
+
+#Copper
+#name
+tier0.5.quest47.name=§rМедь
+#description
+tier0.5.quest47.desc=Медные слитки могут быть выплавлены из медной, халькопиритовой или малахитовой руды.
+
+#Tin
+#name
+tier0.5.quest48.name=§rОлово
+#description
+tier0.5.quest48.desc=Оловянные слитки могут быть выплавлены из оловянной и касситеритовой руды.
+
+#Cow Tipper
+#name
+tier0.5.quest49.name=§rОпрокидыватель Коров
+#description
+tier0.5.quest49.desc=Тебе уже приходилось убивать свиней да овец, чтобы завершать задания. Теперь нужно убить коров, и желательно получить немного кожи. Если тебе повезет и ты получить коровий трофей, тебе, возможно, больше никогда не придется убивать коров.
+
+#Tinker-time
+#name
+tier0.5.quest50.name=§rTinker Время
+#description
+tier0.5.quest50.desc=Использовать кремниевые инструменты может быть весело, поджигая свиней да коров, однако они не особо то хороши, да и чинить их нельзя. Ты нашел способ крафтить инструменты, которые можно было бы чинить и улучшать, но для этого определенно нужна более продвинутая технология производства.
+
+#Your first bow
+#name
+tier0.5.quest51.name=§rТвой первый лук
+#description
+tier0.5.quest51.desc=Поскольку ванильные луки можно крафтить только в сборочной машине, а мобы не особо-то часто их роняют, - тебе придется сделать Tinkers лук. На данный момент дерево станет лучшим материалом. Так что скрафти конечности лука из дерева, а тетеву из ниток. Стрела, которая имеет наибольшую прочность - делается из кости. Скрафти палку из кости. Она гораздо легче чем обычная стрела, правда жертвует долговечностью. Используй кремниевый наконечник, чтобы её можно было чинить кремнем.%n%nТы можешь чинить свой лук точно так же, как ты чинишь любой другой Tinkers инструмент. Количество стрел можно вернуть, если починить их, или подобрать ранее выстрелленые стрелы.
+
+#Another fuel source
+#name
+tier0.5.quest52.name=§rОчередной источник топлива
+#description
+tier0.5.quest52.desc=Бурый и обычный уголь - источники топлива, которые тебе определенно пригодятся. Последний может быть преобразован в коксовый уголь, - он горит в два раза дольше обычного угля, и пригодится для пережарки твоей первой большой партии руды.
+
+#Upgrade 2.0
+#name
+tier0.5.quest53.name=§rUpgrade 2.0
+#description
+tier0.5.quest53.desc=Найди железную, медную и оловянную руды. Это смешно... Как ты можешь добывать их обыкновенной кремниевой киркой?%nУ меня есть идея. Принеси мне булыжника, что ты накопал своей киркой, я обменяю его на улучшенное оголовье кирки.
+
+#Your first tool
+#name
+tier0.5.quest54.name=§rТвой первый инструмент
+#description
+tier0.5.quest54.desc=Когда твои Tinkers столы будут готовы, ты сможешь собрать свой первый интрумент. Если ты еще не натыкался на деревню - ты можешь крафтить только кремниевые инструменты. Начнём с кирки, топора и лопаты. С этого момента мечи недосягаемы, посколько для их производства требуются металлы вроде железа или бронзы, которые ты определенно получишь, чуть позже. А пока, используй gregtech мечи. Твои новые инструменты не особо-то прочные по началу, но чем чаще ты ими пользуешься, тем лучше они становятся. Они будут улучшаться вплоть до 99 уровня, если ты, конечно, будет так долго играть. Части инструментов можно заменить ценой некоторого количества опыта, накопленного инструментом, а так же перед заменой инструмент должен быть в идеальном состоянии.
+
+#Your first flint throwing knife
+#name
+tier0.5.quest55.name=§rТвой первый кремниевый кидательный нож
+#description
+tier0.5.quest55.desc=Костяной лук слишком дорогой для тебя? Тогда сделай кремниевый кидательный ножик. Тебе понадобится кремень и палка, чтобы получить 12 ножей. Прочность и урон достаточно низки, но всё же лучше лупить мобов с безопасной дистанции.
+
+#Copper Ore
+#name
+tier0.5.quest56.name=§rМедная Руда
+#description
+tier0.5.quest56.desc=Её можно найти между y5 и y60 либо как "Медную руду", либо как "Халькопирит". Чаще всего ты встретишь ее вместе с "Железом" и "Пиритом".
+
+#Malachite
+#name
+tier0.5.quest57.name=§rМалахит
+#description
+tier0.5.quest57.desc=Очередной источник меди - это "малахит", его можно найти между y10 и y40. Данная жила содержит больше вариантов железных руд, вроде "коричневого лимонита", "жёлтого лимонита" и "полосчатое железо".
+
+#Iron Ore
+#name
+tier0.5.quest58.name=§rЖелезная Руда
+#description
+tier0.5.quest58.desc=Имея железные инструменты, ты способен добывать большинство overworld руд. Я думаю, что ты уже натыкался на железо или магнетит. Так что принеси мне немного руды, и выплавь некоторое количество железных слитков.
+
+#Copper sky, Iron curtain
+#name
+tier0.5.quest59.name=§rМедное небо, Железный занавес
+#description
+tier0.5.quest59.desc=С твоим свеже приобритенным топливом, ты теперь в состоянии обрабатывать более продвинутые материалы, чем камень или глина. Железо или медь, например. Вдруг ты не знал, - они появляются в огромных жилах. Используй данные задания, чтобы найти наиболее важные жилы.
+
+#Finally, some power
+#name
+tier0.5.quest60.name=§rНаконец-то, энергия
+#description
+tier0.5.quest60.desc=Имея коксовую печь тебе следует производить древесный уголь. Чем больше - тем лучше. Не думай о креозотовом масле, у меня есть еще одна сделка для тебя...
+
+#################
+#End Of Tier 0.5#
+#################
+
+
+########
+#Tier 1#
+########
+
+#Tier 1 - Steam
+#name
+tier1.name=Тир 1 - Пар
+#description
+tier1.desc=Цепочка заданий, основанная на паровых механизмах.
+
+########
+#Quests#
+########
+
+#Hoppers
+#name
+tier1.quest1.name=§rВоронка
+#description
+tier1.quest1.desc=Воронка может очень пригодиться при автоматизации твоих механизмов.%nТы можешь передавать предметы через воронку напрямую в трубы из GT, без необходимости использования конвеерной ленты.%nПри таком использовании предметы поступают в трубу гораздо медленее.
+
+#Upgrade: High speed alloys
+#name
+tier1.quest2.name=§rУлучшение: Скоростные сплавы
+#description
+tier1.quest2.desc=Как и для большинства механизмов, для сплавщика сплавов тоже есть улучшение. Улучшенные механизмы потребляют кучу пара, так что позаботься сперва о его получнии. (Данное задание опционально)
+
+#Upgrade: Better furnace
+#name
+tier1.quest3.name=§rУлучшение: Новая печка
+#description
+tier1.quest3.desc=Новая версия паровой печки. Потребляет кучу пара, однако работает почти в два раза быстрее. (Данное задание опционально)
+
+#Using steam to cook things
+#name
+tier1.quest4.name=§rГотовка на пару
+#description
+tier1.quest4.desc=Работает медленнее, зато куда эффективней обычной печки.
+
+#Welcome to Tier 1
+#name
+tier1.quest5.name=§rДобро Пожаловать в Тир 1
+#description
+tier1.quest5.desc=Прими мои поздравления, и привествую! Этот тир проведет тебя по первым механизмам, позволит выжать больше из руды, а так же научит изготавливать бронзу с большей выгодой.
+
+#More advanced alloys
+#name
+tier1.quest6.name=§rПродвинутые сплавы
+#description
+tier1.quest6.desc=Твоя пекарня отлично справляется с выплавкой сплавов в слитки, однако сам процесс трудоемок и не  особо эффективен. Тебе нужно что-то новое, так почему бы не подкинуть работёнки пару? Это также позволит удобнее обрабатывать сырьевую резину.
+
+#A very important alloy
+#name
+tier1.quest7.name=§rОчень важный сплав
+#description
+tier1.quest7.desc=Наиболее важным сплавом (пока ты не перейдешь в тир выше) является красный сплав. Повезло, у тебя есть сплавщик сплавов, так что бери медь, добавь к ней красной пыли и выплавь парочку.
+
+#Wire Cutter v.0.2alpha
+#name
+tier1.quest8.name=§rКусачки v.0.2 альфа
+#description
+tier1.quest8.desc=Для изготовления небольших шестерёнок тебе понадобятся кусачки. Скрафти.
+
+#The hell is that?
+#name
+tier1.quest9.name=§rЭто ещё что за?
+#description
+tier1.quest9.desc=Для изготовления механизмов тебе понадобятся поршни. Позволь мне научить тебя их изготавливать.
+
+#Macerator v1.0!
+#name
+tier1.quest10.name=§rИзмельчитель v1.0!
+#description
+tier1.quest10.desc=Наконец-то ты можешь создать механизм, что позволит тебе заменить твою ступу. За "бесконечную прочность" данной машины придется заплатить: Тебе нужно 2 алмаза для изготовления измельчительных головок. 
+
+#Upgrade: Better macerator
+#name
+tier1.quest11.name=§rУлучшение: Новый измельчитель
+#description
+tier1.quest11.desc=Новая версия парового измельчителя. Потребляет больше пара, однако практически вдвое быстрее. (Данное задание опционально)
+
+#The power of the sun
+#name
+tier1.quest12.name=§rЭнергия солнца
+#description
+tier1.quest12.desc=Солнце выделяет тепло, так почему бы не воспользоваться этим для получения пара?%n%nПодсказка: Солнечный бойлер со временем кальцифицирует и становится менее эффективным.
+
+#Steam alternatives
+#name
+tier1.quest13.name=§rПаровые альтернативы
+#description
+tier1.quest13.desc=Существует несколько способов получения пара. Данное опциональное задание покажет тебе альтернативные способы получение пара.
+
+#Redstone
+#name
+tier1.quest14.name=§rКрасная Пыль
+#description
+tier1.quest14.desc=Если ты ещё не находил жил с красной пылью, то самое время поискать. Испытай удачу на Y5-40 высоте.
+
+#Redstone, early game processing
+#name
+tier1.quest15.name=§rКрасная пыль, обработка ранней игры
+#description
+tier1.quest15.desc=Ты гадаешь как обработать красную пыль не имея измельчителя? Ты можешь воспользоваться gregtech молотом и разбить им руду. Затем использовать разбитую руду на верстаке вместе с молотом, чтобы получить грязной красной пыли. Затем заполни котёл водой и вымочи в нем руду. Так ты сможешь получить красной пыли для слитков красного сплава.
+
+#Upgrade: A better compressor
+#name
+tier1.quest16.name=§rУлучшение: Новый компрессор
+#description
+tier1.quest16.desc=Новая версия парового компрессора. Потребляет больше пара, однако практически вдвое быстрее. (Данное задание опционально)
+
+#Compressing stuff
+#name
+tier1.quest17.name=§rУплотняя всякое
+#description
+tier1.quest17.desc=Этот относительно простой механизм выполняет очень важную функцию: уплотнение. Его главная работа, - это сжатие 9 слитков в блок. Можно уплотнять и другие вещи, например мягкий тофу.
+
+#Extra Modifier
+#name
+tier1.quest18.name=§rДополнительный Модификатор
+#description
+tier1.quest18.desc=Если тебе нехватает модификатора на твоём инструменте, ты с лёгкость можешь его добавить.%nЗолотой блок и алмаз - всё что тебе понадобится.
+
+#Oh, shiny! (Not platinum!)
+#name
+tier1.quest19.name=§rУуу, блестяшка! (Не платина!)
+#description
+tier1.quest19.desc=Для изготовления твоего первого измельчителя тебе нужны два алмаза. Для похода в Twilight Forest тоже нужен один. Где искать алмазы? В алмазной жиле. Поищи на Y5-20 высоте.
+
+#A clear view
+#name
+tier1.quest20.name=§rХорошая видимость
+#description
+tier1.quest20.desc=Ты всё еще живешь в своем грязево/булыжниковом бункере? Не хочешь запустить немного дневнего света? Измельчи песка и кремня и скрафти стеклянный порошок. Положи его в плавильню и вылей в отливочную корзину, для получения чистого стекла.%n%nСовет: Чтобы использовать стекло в рецептах, тебе придется обработать его стамеской.
+
+#Lapis, Lazurite, Sodalite, Calcite
+#name
+tier1.quest21.name=§rЛапис, Лазурит, Содалит, Кальцит
+#description
+tier1.quest21.desc=Для постройки кирпичной доменной печки тебе придется поискать жилу лаписа с кальцитом.%nЖилу можно найти в overworld или Twilight Forest на Y20-50 высоте.
+
+#Gypsum
+#name
+tier1.quest22.name=§rГипс
+#description
+tier1.quest22.desc=Для изготовления кирпичей доменной печи тебе потребуется цемент и гипс. Гипс можно найти в жиле с базальтовым и гранитным минеральными песками, и валяльной глиной. Поищи на Y50-60 высоте в overworld.
+
+#Upgrade: Coal boiler
+#name
+tier1.quest23.name=§rУлучшение: Угольный бойлер
+#description
+tier1.quest23.desc=По сути - это просто лучшая версия твоего текущего угольного бойлера, однака он производит больше чем в два раза больше пара. Одназначно следует скрафтить, если ты планируешь улучшать другие механизмы.
+
+#Another use for Java, I mean Lava
+#name
+tier1.quest24.name=§rЕще одно применение для Джавы, в смысле для Лавы
+#description
+tier1.quest24.desc=С новым, более прочным стальным корпусом, ты можешь использовать лаву для производства пара.
+
+#Reinforced X? Unbreakable
+#name
+tier1.quest25.name=§rУкрепление X? Неразрушимый
+#description
+tier1.quest25.desc=С помощью стального инструмента ты в состоянии добывать обсидиан. Большие обсидиановые пластины добавляют модификатор укрепления. Он увеличивает прочность твоего инструмента.%nИнструмент с укреплением 10 уровня становиться неразрушимым.
+
+#Redstone? Haste!
+#name
+tier1.quest26.name=§rКрасная пыль? Скорость!
+#description
+tier1.quest26.desc=Копание и добыча могут быть ооооочень медленными. Добавь немного красной пыли своей кирке, лопате или топору, чтобы ускорить их.
+
+#Upgrade: Forge hammer
+#name
+tier1.quest27.name=§rУлучшение: Кузнечный молот
+#description
+tier1.quest27.desc=Новая версия парогово кузнечного молота. Потребляет больше пара, однако практически вдвое быстрее. (Данное задание опционально)
+
+#The Iron Guy
+#name
+tier1.quest28.name=§rЖелезный чувак
+#description
+tier1.quest28.desc=Тебе одиноко? Твоя база нуждается в защите?%nСкрафти Железных Големов и ты забудешь о проблеме с монстрами внутри своей базы.
+
+#The Cool Guy
+#name
+tier1.quest29.name=§rПрохладный чувак
+#description
+tier1.quest29.desc=Тебе одиноко? Находишься далеко от снежного биома?%n Скрафти Снежного Голема и если захочешь, вызови его на снежковую дуэль.
+
+#Lapis? Lucky!
+#name
+tier1.quest30.name=§rЛапис? Удача!
+#description
+tier1.quest30.desc=Возможно тебе повезло, и ты уже получил модификатор удачи на своей кирке. Если же нет, и у тебя есть не использованный модификатор - ты можешь добавить лаписа. Если модификатора нет, - его всегда можно добавить блоком золота и алмазом(единожды).
+
+#Iron Bolts
+#name
+tier1.quest31.name=§rЖелезные Болты
+#description
+tier1.quest31.desc=Для стрельбы твоему арбалету требуются патроны. Давай скрафтим деревянных болтов с железным наконечником.
+
+#Wooden Crosbow
+#name
+tier1.quest32.name=§rДеревянный Арбалет
+#description
+tier1.quest32.desc=У тебя появилась возможность сделать хорошее оружие дальнего боя. Арбалет. Используй дерево для основы и плеч арбалета. Обсидиан, для прочного крепления. Обыкновенные нити подойдут для тетевы.
+
+#Alumite
+#name
+tier1.quest33.name=§rАлюмит
+#description
+tier1.quest33.desc=Снова настоло время улучшений. Ты можешь изготовить алюмит путём смешивания обсидиана, стали и алюминия в плавильне. Алюмитовые кирки способны добывать ардайт и кобальт в Nether.
+
+#Upgrade of the upgrade of the...
+#name
+tier1.quest34.name=§rУлучшая улучшение улу...
+#description
+tier1.quest34.desc=Время улучшений. Позволь своим инструментам добывать обсидиан и красную пыль.
+
+#Submission Station
+#name
+tier1.quest35.name=§rСтанция Передачи
+#description
+tier1.quest35.desc=Не смотря на то, что большинство заданий могут быть подтверждены напрямую из твоего инверторя (включая жидкости), иногда тебе нужно более автоматизированное решение. Тут то и поможет Станция Передачи.%nЗадания, поддерживающие Станцию Передачи можно выбрать во встроенном интерфейсе, чтобы её активировать. После настройки предметы или жидкости могут быть доставлены с помощью труб или напрямую через слот ввода. Предметы и жидкости не испарятся, если ни одного задания не было выбрано, или если задание уже было завершено, что делает станцию относительно безопасной от случайного удаления предметов или жидкостей. Несколько Станций Передачи способны отслеживать разные под-задачи одного задания одновременно!
+
+#Hammer time v2
+#name
+tier1.quest36.name=§rКузнечный молот v2
+#description
+tier1.quest36.desc=Использовать 6 слитков для последующего крафта молота может выглядеть весьма растратно, поскольку молот не бесконечен. Было бы здорово иметь механизм, что позволит молотить всякое, только не используя прочность, а так же создавать две плиты из двух слитков...И что ты думаешь? Такой существует! И тебе определенно следует скрафтить такой.
+
+#One Anvil... Better make that two!
+#name
+tier1.quest37.name=§rОдна наковальня...Лучше сделаю две!
+#description
+tier1.quest37.desc=Используя твой новёханький уплотнитель ты способен сжать пару слитков в металлические блоки, для создания наковальни. И лучше сделать две наковальни, одна понадобиться для кузнечного молота.%n%nНа наковальне ты можешь чинить, переименовывать и зачаровывать броню и инструменты.
+
+#Better than iron
+#name
+tier1.quest38.name=§rЛучше железа
+#description
+tier1.quest38.desc=Укрепленное железо очень скоро станет важным слитком, когда у тебя появится немного стали и ты сможешь создавать механизмы высокого давления. Этот материал гораздо прочнее обычного железа, ты так же можешь делать из него инструменты.%nЧтобы изготовить укрепленное железо тебе нужно обжарить железные слитки в укрепленные железные самородки. Используя компрессор ты сможешь сжать самородки в слитки.%n%nСовет: измельченная или очищенная рудная пыль может быть обжарена прямиком в самородки.
+
+#Bookshelves...? Ah forestry... Multiblock farms!
+#name
+tier1.quest39.name=§rКнижные полки...? Ааа forestry... Мульти-блок фермы!
+#description
+tier1.quest39.desc=Книжные полки можно изготовить только с помощью деревянных пластин, которые делаются в уплотнителе. Возможно кто-то думает, что это чересчур.
+
+#Books
+#name
+tier1.quest40.name=§rКнижки
+#description
+tier1.quest40.desc=Книжки не сложно найти в деревнях или roguelike подземельях(кирпичный дом на поверхности).%nЯ уверен, что и рецепт у них есть.
+
+#Extracting stuff
+#name
+tier1.quest41.name=§rВыжимание всякого
+#description
+tier1.quest41.desc=С потребностью в резине для производства изолированных проводов тебе следует обзавестить паровым экстрактором. Ты также будешь получать больше красителей, выжимая цветы, или выжимать фруктовый сок.
+
+#Upgrade: Extractor
+#name
+tier1.quest42.name=§rУлучшение: Экстрактор
+#description
+tier1.quest42.desc=Новая версия парового экстрактора. Потребляет больше пара, однако практически вдвое быстрее. Ты наверняка захочешь скрафтить этот механизм, поскольку текущий экстрактор выжимает твои нервы... (Данное задание опционально)
+
+#Mining Dirt Block by Block is so Old School
+#name
+tier1.quest43.name=§rКопать землю по одному блоку - так старомодно
+#description
+tier1.quest43.desc=Сделав стальной экскаватор ты сможешь копать землю в 3х3 области. Не уничтожь свой собственный сад.
+
+#Tool Forge
+#name
+tier1.quest44.name=§rИнженерная Кузня
+#description
+tier1.quest44.desc=Наконец-то ты получил свой первый алюмит. Самое время скрафтить Инженерную Кузню для изготовления лучших Tinkers инструментов.
+
+#Barrel Upgrades Tier 2
+#name
+tier1.quest45.name=§rУлучения для Бочки Тир 2
+#description
+tier1.quest45.desc=Твои бочки с землей или булыжником снова забиты до отказа?%nНе проблема, улучши их ещё!
+
+#Barrel Upgrades
+#name
+tier1.quest46.name=§rУлучения для Бочки
+#description
+tier1.quest46.desc=Твои бочки с землей или булыжником забиты до отказа?%nНе проблема, улучши их!
+
+#Blastoff!
+#name
+tier1.quest47.name=§rПодрывай!
+#description
+tier1.quest47.desc=Самое время получить немного стали. Загляни во вкладку Мульти-блок Целей и построй кирпичную доменную печь. Возвращайся, когда добудешь как минимум 8 стальных слитков.
+
+#Flint and steel
+#name
+tier1.quest48.name=§rСталь да кремень
+#description
+tier1.quest48.desc=После налаженного производства стали ты способен скрафтить огниво. Я полагаю, ты хочешь отправиться в Nether как можно скорее, но будь осторожен. Nether - очень опасное место.
+
+#THE NETHER
+#name
+tier1.quest49.name=§rNETHER
+#description
+tier1.quest49.desc=Стало еще опаснее с новыми хардкорными инфернал монстрами. Веселись и будь осторожен.
+
+#How to make rubber
+#name
+tier1.quest50.name=§rКак изготавливать резину
+#description
+tier1.quest50.desc=Изготавливать резину куда сложнее, тебе нужна сырьевая резина и сера. Искать серу следует в Nether. Ищи на Y5-20 высоте.
+
+#Slime Island Journey
+#name
+tier1.quest51.name=§rПутешествие на Слизневый Остров
+#description
+tier1.quest51.desc=Резиновые деревья не единственный источник сырьевой резины. Ступай поищи слизневый остров высоко в небе. Слизневые шарики и слизневые листья также дают резину.%nТебе следует обзавестись фермой резиновых деревьев, позади твоей текущей фермы резины.
+
+#Cutting a Tree log by log is so Old School
+#name
+tier1.quest52.name=§rРубить деревья бревно за бревном - так старомодно
+#description
+tier1.quest52.desc=После производства стального лесоповального топора ты способен рубить деревья в один удар. Не забудь свой рюкзак, когда собираешься срубить священное дубовое дерево.
+
+#One Block mining is so Old School
+#name
+tier1.quest53.name=§rДобывать по одному блоку - так старомодно
+#description
+tier1.quest53.desc=После производства стального молота ты способен копать шахту 3х3 блока. Не свари себя в лаве, копая такие в Nether.
+
+#Iron spear
+#name
+tier1.quest54.name=§rЖелезное копьё
+#description
+tier1.quest54.desc=Улучши свое деревянное копье железным наконечником и двумя стальными винтами.%nЖелезное копье имеет лучшую прочность чем каменное.
+
+#More charcoal
+#name
+tier1.quest55.name=§rБольше древесного угля
+#description
+tier1.quest55.desc=Ты наткнулся на альтернативный способ получения древесного угля, используя "яму для производства древесного угля".%nЧего ты ждешь? Горы древесного угля ждут тебя!
+
+#Ardite and Cobalt
+#name
+tier1.quest56.name=§rАрдайт и Кобальт
+#description
+tier1.quest56.desc=Если ты выполнил все задания, ты можешь поискать кобальт и ардайт в Nether. Помни, что для обработки этих руд тебе понадобиться электрическая доменная печь.
+
+#Netherquartz? Sharpness
+#name
+tier1.quest57.name=§rNether-кварц? Острота
+#description
+tier1.quest57.desc=Твой меч туповат? Добудь Nether Кварца, чтобы заточить его.
+
+#Tetrahedrite, stibnite and copper
+#name
+tier1.quest58.name=§rТетраэдрит, антимонит и медь
+#description
+tier1.quest58.desc=На случай, если ты гадаешь зачем тебе тетраэдрит или антимонит. Ну, антимонит можно подвергнуть процедуре центрифугирования, в результате которой можно получить полезные материалы для аккумуляторов в эпохе низкого напряжения.%nЖилы можно найти на Y80-120 высоте.
+
+#Accelerated plant growth
+#name
+tier1.quest59.name=§rУскоренный рост растений
+#description
+tier1.quest59.desc=Растения не особо-то быстро растут. Так почему бы тебе не ускорить их рост? Лейка - отличный способ.
+
+#Basic crafting: Casings
+#name
+tier1.quest60.name=§rПростой крафт: Корпуса
+#description
+tier1.quest60.desc=Любые механизмы требуют корпус, для содержания их внутренностей в одном месте. Есть хорошая новость: Все корпуса крафтятся одинаково в любой эпохе, меняются только материалы.
+
+#Where can I put all the items in?
+#name
+tier1.quest61.name=§rКуда бы мне сложить предметы?
+#description
+tier1.quest61.desc=После получения стали, у тебя появилась возможность скрафтить небольшой рюкзак. В нём можно хранить кучу разных вещей. Вмещая 36 предметов - он даже больше обычного сундука.
+
+#Molds, molds, molds
+#name
+tier1.quest62.name=§rФормы, формы, формы
+#description
+tier1.quest62.desc=С помощью стали и Tinkers плавильни, ты можешь выплавить литейные формы. Их можно использовать в сплавщике сплавов и в затвердителе жидкостей. С их помощью ты сможешь изготавливать вакуумных трубки, слитки, шестеренки и ещё целую кучу всего.
+
+#Pollution what....?
+#name
+tier1.quest63.name=§rЗагрязнение...?
+#description
+tier1.quest63.desc=Если ты пользуешься своей кирпичной доменной печью достаточно продолжительное время - иногда тебя будут охватывать головокружения, головные боли и другие странные эффекты. Всё верно. Это - загрязнение... от изготовления кучи стали. Хорошо, если ты принесешь мне несколько резиновых пластин, я обменяю их на полный костюм химзащиты.
+
+#Wire-Wrap
+#name
+tier1.quest64.name=§rИзоляция проводов
+#description
+tier1.quest64.desc=Ставить провода без изоляции, возможно не лучшая затея. Имея экстрактор, способный выжимать сырьевую резину из липкой резины, и сплавщик сплавов позволяющий, используя серу, обрабатывать резину, тебе следует скрафтить несколько резиновых брусков.
+
+#Low tier wires
+#name
+tier1.quest65.name=§rПровода низкого тира
+#description
+tier1.quest65.desc=Низкоуровневые провода из красного сплава или олова можно получить на верстаке. Медные же провода уже требуют изоляции в сплавщике сплавов. Давай сделаем форму для резиновых плит.
+
+#The Plunger
+#name
+tier1.quest66.name=§rВантуз
+#description
+tier1.quest66.desc=С помощью вантуза можно прочищать трубы. А еще можно убирать вплоть до 1000mb жидкости из внутреннего хранилища механизма. Больше не требуется снимать и заного устанавливать механизм, для его очистки. Вантуз можно скрафтить из стержня желаемого материала и резиновых пластин.%n%nПодсказка: Вантуз получает 2.75-7.75 урона в зависимости от используемых материалов.
+
+#A quite different storage
+#name
+tier1.quest67.name=§rДругой тип хранения
+#description
+tier1.quest67.desc=Обыкновенные сундуки заполняются относительно быстро, если забивать их лутом с мобов вроде мечей или брони. Используя шкафчик, ты можешь хранить вплоть до 270 предметов одного типа.
+
+#Where I can put all the liquids?
+#name
+tier1.quest68.name=§rКуда девать жидкости?
+#description
+tier1.quest68.desc=С помощью сплавщика сплавов ты можешь соединять два разных материала. Что будет, если совместить обсидиановую пыль и стекло? Обсидиановое стекло. Великолепно. Твой первый резервуар, который ты сможешь скрафтить - станет Buildcraft резервуар. Он вмещает вплоть до 16 вёдер одинаковой жидкости. Его вместимость можно будет улучшить вплоть до 64 вёдер.
+
+#Packing your tanks chests and barrels
+#name
+tier1.quest69.name=§rУпаковывая резервуары, сундуки и бочки
+#description
+tier1.quest69.desc=Упаковать сундуки и бочки, не разлив и не расплескав их содержимое?%nНе проблема! Скрафти тележку и ты сможешь переносить заполненные сундуки, бочки или ящики куда угодно. Перенося какой-либо предмет накладывает на тебя дебаф замедления, так что, надеюсь, тебе не далеко нести. Не переносимые buildcraft и железные резервуары тоже можно переносить не теряя жидкости.
+
+#Time for some logic
+#name
+tier1.quest70.name=§rВремя для логики
+#description
+tier1.quest70.desc=Хорошие новости! Ты на этапе продвижения к следующему тиру! А вот плохие новости: Нужно скрафтить кучу всего, прежде чем ты сможешь начать. Не бойся, я проведу тебя по всем крафтам!
+
+#Wired, weird?!
+#name
+tier1.quest71.name=§rПроводка
+#description
+tier1.quest71.desc=Одним из самых простых материалов, крафт которых тебе следует запомнить, станут провода. По сути ты просто режешь плиту на провода с помощью кусачек. Позже будет более эффективный способ.
+
+#Basic crafting: Motors
+#name
+tier1.quest72.name=§rПростой крафт: Моторчики
+#description
+tier1.quest72.desc=Моторчики - небольшие устройства, которые позволяют переводить электрическую энергию во вращательную. Очень полезны для любых типов механизмов и не так сложны в производстве. Крафт всегда одинаков, меняются лишь материалы. На данном этапе ты можешь использовать красную пыль для намагничивания твоего железного стержня.%nПозже ты сможешь скрафтить электромагнитный поляризатор.
+
+#GT 6 styled Wires and Cables
+#name
+tier1.quest73.name=§rGT 6 Провода
+#description
+tier1.quest73.desc=Если ты гадаешь: "почему новые провода больше не авто-присоединяются?". Изменение было сделано, чтобы улучшить провода. Чтобы соединить провод тебе нужно использовать кусачки. Больше никаких сгоровших или неправильно соединённых проводов.%n%nПодсказка: Если ты кликнешь проводом по проводу - они авто-присоединятся.
+
+#Rubber Soft Mallet
+#name
+tier1.quest74.name=§rРезиновый Мягкий Молот
+#description
+tier1.quest74.desc=Деревянный мягкий молот ломается после пары использований. Теперь ты можешь скрафтить резиновый молот, с гораздо большей прочностью.
+
+#Better Tank... Iron Tank
+#name
+tier1.quest75.name=§rЛучший Резервуар...Железный Резервуар
+#description
+tier1.quest75.desc=Хранить больше 16 ведер жидкости в одном резервуаре? Да легко! Просто скрафти железный резервуар, или улучши текущий buildcraft резервуар.%nАлмазный резервуар хранит вплоть до 64 ведер, а обсидиановый ещё и взрывопрочный.
+
+#Circuit Boards
+#name
+tier1.quest76.name=§rПечатные Платы
+#description
+tier1.quest76.desc=Для каждой схемы тебе понадобится простая печатная плата. Скрафти обработанную деревянную пластину и используй медный провод для получения печатной платы.
+
+#Your first logic circuit
+#name
+tier1.quest77.name=§rПервая схема логики
+#description
+tier1.quest77.desc=Паровые механизмы - бестолковые. Они делают одно и тоже снова и снова. Прогрессируя в электрической эпохе, ты решил, сделать машины чуточку умнее. Например автоматический вывод, для создания простой автоматизации. И для этого тебе потребуются схемы логики.
+
+#Resistor
+#name
+tier1.quest78.name=§rРезистор
+#description
+tier1.quest78.desc=Любой печатной плате требуется пара резисторов для работы.
+
+#Better Tank... ULV Tank
+#name
+tier1.quest79.name=§rЛучший Резервуар... Резервуар Сверх Низкого Напряжения
+#description
+tier1.quest79.desc=Следующий шаг - хранить 32 ведра в резервуаре. РСНН из gregtech++ требует стальные, железные или оловянные пластины, глинянную трубу и ведро воды.
+
+#Basic crafting: Rotors
+#name
+tier1.quest80.name=§rПростой крафт: Роторы
+#description
+tier1.quest80.desc=У всех роторов идентичный рецепт крафта, за исключением материалов. На данный момент несколько муторный крафт, но тебе много и не нужно.
+
+#Steam-a-licious!
+#name
+tier1.quest81.name=§rПаро-пре-красно!
+#description
+tier1.quest81.desc=Ты на финишной черте. Еще один крафт, чтобы перейти в Тир 2. Продолжай!
+
+###############
+#End Of Tier 1#
+###############
+
+
+########
+#Tier 2#
+########
+
+#Tier 2 - 32 EU (LV)
+#name
+tier2.name=Тир 2 - 32 EU (Низкое Напряжение)
+#description
+tier2.desc=Первый тир "напряжения" этой сборки. Жить становится проще...
+
+########
+#Quests#
+########
+
+#Protect your base; Tier 1
+#name
+tier2.quest1.name=§rЗащити свою базу - Тир 1
+#description
+tier2.quest1.desc=База должна быть безопасной. Так почему бы тебе не обзавестись туррелями? На данный момент тебе доступны две туррели: "Картофельная" и "Предметная". Предположу, что ты знаешь как работает туррель...
+
+#Turret base
+#name
+tier2.quest2.name=§rПлатформа для Туррели
+#description
+tier2.quest2.desc=Туррели необходимо размещать на особые платформы. Только тот игрок, что разместил пушку на платформу может ее настраивать. Так что можешь не переживать, что другие игроки станут заимствовать аммуницию в твоей туррели.
+
+#Don't play with your food!
+#name
+tier2.quest3.name=§rНе играйся с едой!
+#description
+tier2.quest3.desc=Лучше используй её для убийства зомби. Урон, правда, не велик, но эй, пофиг а?
+
+#Magnetize your rods
+#name
+tier2.quest4.name=§rНамагничивай свои стержни
+#description
+tier2.quest4.desc=Для намагничивания стальных стержней требуется наличие электромагнитного поляризатора. Намагнить парочку для моторчиков.
+
+#Saving redstone
+#name
+tier2.quest5.name=§rЭкономя красную пыль
+#description
+tier2.quest5.desc=Надоело тратить 4 красной пыли для намагничивания одного железного стержня? У меня есть кое-что что для тебя! Электромагнитный поляризатор не требует красной пыли и потребляет немного энергии. Тебе даже не нужно устанавливать его к постоянному источнику энергии, он вполне неплохо работает и на аккумуляторе.
+
+#Basic transport: Fluids
+#name
+tier2.quest6.name=§rПростая транспортировка: Жидкости
+#description
+tier2.quest6.desc=Так же как и предметный узел, жидкостный передает... жидкости. А самое клёвое заключается в том, что: Они могут делить одну и ту же трубу для передачи и жидкостей и предметов.
+
+#Basic transport: Items
+#name
+tier2.quest7.name=§rПростая транспортировка: Предметы
+#description
+tier2.quest7.desc=Для передачи предметов тебе нужны так называемые "узлы передачи". Существует и такие, что передают предметы по трубам, и такие, что запрашивают эти предметы.
+
+#Who needs that dirt anyway
+#name
+tier2.quest8.name=§rДа кому нужна земля
+#description
+tier2.quest8.desc=У тебя наверняка целая куча ненужных блоков, разбросанных по всей базе. Так почему бы не использовать их для убийства недоброжелатей?
+
+#Upgrading intensifies
+#name
+tier2.quest9.name=§rУлучшая вместимость
+#description
+tier2.quest9.desc=Наверняка твоим туррелям не помешает пара лишних слотов под аммуницию, так почему бы их не скрафтить?
+
+#Transformer LV-MV
+#name
+tier2.quest10.name=§rТрансформатор Низкое - Среднее напряжение
+#description
+tier2.quest10.desc=Ты вполне можешь запускать механизмы среднего напряжения, находясь в эпохе низкого напряжения. Скрафти трансформатор и используй 4 источника энергии, производящие 32 eu/t, чтобы запитать один 128 eu/t механизм. Режим трансформатора можно сменить, кликнув по нему мягким молотом. Правда я бы не советовал этого делать на запитанном трансформаторе. Может получиться яма вместо базы.
+
+#Hey DJ, Mix it!
+#name
+tier2.quest11.name=§rЭй Диджей, мешай!
+#description
+tier2.quest11.desc=Микссер - очень полезный механизм. С его помощью ты можешь смешивать предметы и жидкости.
+
+#Damn you, wire cutter!
+#name
+tier2.quest12.name=§rЧёрт вас возми, кусачки!
+#description
+tier2.quest12.desc=Хватит, значит хватит. Больше никакой бестолковой траты слитков, для получения парочки проводов. Теперь, когда по твоим проводам течет электричество имеет смысл скрафтить машину, выдавливающую провода.
+
+#Alloy smelter
+#name
+tier2.quest13.name=§rСплавщик сплавов
+#description
+tier2.quest13.desc=Замени свой паровой сплавщик сплавов альтернативой из эпохи низкого напряжения.
+
+#Basic transport pipe
+#name
+tier2.quest14.name=§rПростая транспортировочная труба
+#description
+tier2.quest14.desc=Эти трубы относительно просты и не будут ничего передавать сами по себе. Но стоит их подключить к узлу передачи, ты сразу поймешь насколько они хороши. А если им ещё и подключить улучшения, они обойдут большинство других транспортировочных систем.
+
+#Passive defence
+#name
+tier2.quest15.name=§rПассивная защита
+#description
+tier2.quest15.desc=Более "пассивный" подход к защите базы - это стены и заборы. Но серьезно, разве это весело?
+
+#Your magic progression
+#name
+tier2.quest16.name=§rМагический прогресс
+#description
+tier2.quest16.desc=С налаженным производством алюминия, ты можешь перейти в магию. Если ты еще не разблокировал цепочку "Простого Таумкрафта", попробуй поискать саженцы серебрянного и великого дерева.
+
+#Get ready for Tier 3
+#name
+tier2.quest17.name=§rГотовимся к 3 Тиру.
+#description
+tier2.quest17.desc=Для дальшейшего продвижения тебе нужно наладить производство алюминия. Целую кучу. Наверное, лучший источник алюминия - это глина. Правда для его получения понадобиться механизм среднего напряжения. Так что пока тебе придется поискать альтернативные источники.
+
+#Welcome to Tier 2
+#name
+tier2.quest18.name=§rДобро Пожаловать в Тир 2
+#description
+tier2.quest18.desc=Ну привет! Похоже ты дошёл до электрической эпохи. Не торопись выбрасывать свои паровые механизмы, они наверняка пригодятся вплоть до 3 Тира.
+
+#Thermal centrifuge
+#name
+tier2.quest19.name=§rТепловая центрифуга
+#description
+tier2.quest19.desc=Опциональный механизм, позволяющий получить кучу побочных продуктов из перемолотых и очищенных рудных пылей. Данный механизм очень пригодится для переработки обедненных топливных стержней реактора.
+
+#A new alloy Cobalt Brass
+#name
+tier2.quest20.name=§rНовый сплав Кобальтовая Латунь
+#description
+tier2.quest20.desc=Для распиливания алмазных блоков в пластины, тебе придется получить новый сплав "кобальтовая латунь".%nДля начала тебе нужно получить латуни. Ее можно получить из цинка(можно найти в небольших жилах, или как побочный материал из олова или тетраэдрита в результате центрифугирования). Смешай латунь с алюминиевой и кобальтовой(тоже можно получить центрифугированием) пылью, для получения порошка кобальтовой латуни.%n%nРаз ты так далеко зашел, мы считаем, что ты и сам в состоянии посмотреть в NEI какие руды, что, и в результате чего дают.%n%n§aОт переводчика: порошок кобальтовой латуни также можно получить из 9 вёдер опыта.
+
+#You're gonna hate this #1
+#name
+tier2.quest21.name=§rТы это возненавидишь #1
+#description
+tier2.quest21.desc=Это первый предмет, которого понадобиться целая куча. Если ты захочешь забирать предметы из сундуков или бочек - конвеер это то, что тебе нужно.%n%nСовет: коневееры отлично работают с предметными трубами или с gt механизмами, настраивается отвёрткой.
+
+#Mjolnir!!! (electric forge hammer)
+#name
+tier2.quest22.name=§rМьёльнир!!! (электрический кузнечный молот)
+#description
+tier2.quest22.desc=Не то чтобы необходим, но он гораздо быстрее своего парового брата и его можно автоматизировать. Также если ты считаешь, что вымывать руду - не самый подходящий для тебе процесс - используй этот молот. Все кузнечные молоты после парового только ускоряют его работу, со всеми рецептами справляется и паровой вариант.
+
+#Sifting Machine
+#name
+tier2.quest23.name=§rПросеиватель
+#description
+tier2.quest23.desc=Нужны безупречные или изысканные алмазы, эмеральды, рубины или любые другие камни? В таком случае самое время обзавестить просеивателем.
+
+#Electric macerator
+#name
+tier2.quest24.name=§rЭлектрический измельчитель
+#description
+tier2.quest24.desc=Я особо рекомендую получить этот механизм, поскольку эффективность в плане уголь/пар использованная, при работе этого механизма, куда выше при использовании EU.
+
+#Find some Certus Quartz
+#name
+tier2.quest25.name=§rНайди немного Certus Кварца
+#description
+tier2.quest25.desc=Nether полон разничными типами кварца. Для эмиттера и датчика тебе понадобиться некоторое количество certus кварца.
+
+#Quartz and Quartzite Veins
+#name
+tier2.quest26.name=§rЖилы Кварца и Кварцита
+#description
+tier2.quest26.desc=Nether полон разничными типами кварца. Ступай поищи жилу кварца и кварцита. Их можно найти на Y40-80 высоте.
+
+#Hello Baron, how is your black gold today?
+#name
+tier2.quest27.name=§rЗдравствуйте, Магнат, как сегодня ваше золото?
+#description
+tier2.quest27.desc=Путешествуя по миру, ты наверняка натыкался на огромные, бьющие из земли, маслянные колодцы. Самое время обзавестись насосом и выкачать все чёрное золото в свои резервуары. Нефть можно сжечь в генераторе сгорания или обработать.%nДля выкачивания масла необходимы шахтёрские трубы.%n%nЗахвати с собой генератор сгорания для питания твоего насоса. (Спасибо достижениям технологии, насос авто-выкачивает жидкость через верхнюю плоскость.)
+
+#You're gonna hate this #2
+#name
+tier2.quest28.name=§rТы это возненавидишь #2
+#description
+tier2.quest28.desc=Следующий предмет, который тебе очень пригодится - электрический насос. Если захочешь перекачать жидкость из резервуаров - тебе такой пригодится.%n%nСовет: Здорово работает в сочетании с жидкостными трубами или gt механизмами, настраивается отвёрткой. Может быть улучшен в жидкостный регулятор, позволяющий настраивать объем выкачиваемой жидкости.
+
+#Suction device... nice
+#name
+tier2.quest29.name=§rСосущее приспособление... неплохо
+#description
+tier2.quest29.desc=Я надеюсь, ты не думаешь о чём я думаю, что ты думаешь...%n%nСовет:%nЯ особо рекомендую получить этот механизм, поскольку эффективность в плане уголь/пар использованная, при работе этого механизма, куда выше при использовании EU.
+
+#Compact? Or is it?
+#name
+tier2.quest30.name=§rКомпактно? Или..?
+#description
+tier2.quest30.desc=Да, он уплотняет, но это не означает уменьшение...%n%nСовет:%nЯ особо рекомендую получить этот механизм, поскольку эффективность в плане уголь/пар использованная, при работе этого механизма, куда выше при использовании EU.
+
+#Press all the things
+#name
+tier2.quest31.name=§rДави налево и направо
+#description
+tier2.quest31.desc=Имея простой формирочоный пресс, ты способен изготовливать еду, стекло, стреды, компоненты из project red.
+В эпохе среднего/высокого напряжения ты сможешь изготавливать роторы, различные AE компоненты, а так же изготавливать копии стальных и выдавливающих форм.
+
+#Lossless LV Cables
+#name
+tier2.quest32.name=§rПровода Низкого Напряжения без потерь
+#description
+tier2.quest32.desc=Как насчёт 32 EU проводов не имеющих потерь? Сплав красной пили это суперпроводник, способный передавать энергию без каких-либо потерь. Сплав Красной Пыли это новый сплав, требующий Электрической Доменной Печки. Смешай красную пыль кремний и уголь на верстаке, или в миксере для лучшего результата.
+
+#Basic monster protection
+#name
+tier2.quest33.name=§rПростая защита от монстров
+#description
+tier2.quest33.desc=Постоянное появление монстров вокруг твоей базы может надоедать. Особенно если тебе везет на инфернальных криперов. Повезло, что существует неплохой способ это остановить.
+
+#Gotta catch 'em all
+#name
+tier2.quest34.name=§rСоберу их всех
+#description
+tier2.quest34.desc=Да, ты всё также можешь использовать зерно/картошку/морковь, чтобы завлекать животных к себе на базу. Это может очень быстро утомить. Золотое лассо - адекватное решение транспортировки животных.
+
+#Try to dry out the Nether
+#name
+tier2.quest35.name=§rПопробуй осушить Nether
+#description
+tier2.quest35.desc=Насосы способны на большее, чем перекачка масла и воды. Ты можешь отправиться в nether и выкачать лавы из гигантских лавовых озёр.%nНе забудь захватить с собой парочку резервуаров.
+
+#New source of Glowstone
+#name
+tier2.quest36.name=§rНовый источник Светящейся Пыли
+#description
+tier2.quest36.desc=Поищи светящиеся цветы в nether и посади их в overworld. Больше не возникнет потребности идти в nether за светящейся пылью.
+
+#Better Tank... LV Tank
+#name
+tier2.quest37.name=§rЛучший Резервуар... Резервуар Низкого Напряжения
+#description
+tier2.quest37.desc=Следующий шаг - хранить вплоть до 64 вёдер в резервуаре. Для изготовления Резервуара Низкого Напряжения из Gt++ нужны стальные, железные, бронзовые пластины, огромная глиняная труба и насос низкого напряжения.
+
+#Dust to crystals
+#name
+tier2.quest38.name=§rПыль в кристаллы
+#description
+tier2.quest38.desc=Используя кристаллизатор ты можешь изготавливать сырьевой углеродную сетку из порошка углерода.
+
+#Simple Ore Washer
+#name
+tier2.quest39.name=§rПростейшая Промывка Руды
+#description
+tier2.quest39.desc=Слишком ленив, чтобы как следуют промывать руду. И бегать к котлу тоже совсем не хочется? В таком случае простая промывочная машина - то что тебе нужно! Она работает относительно быстро и использует 8eu в пике. Да, никаких побочных продуктов, но кому они нужны!
+
+#Basic ore washer
+#name
+tier2.quest40.name=§rПростая провымка руды
+#description
+tier2.quest40.desc=Измельчение руды обычно их удваивает. НО ЕСЛИ ТЫ ХОЧЕШЬ БООООЛЬШЕ, скрафти промывочный пункт и вымывай некоторые редкие материалы.
+
+#LV extruder
+#name
+tier2.quest41.name=§rВыдавливатель Низкого Напряжения
+#description
+tier2.quest41.desc=Выдавливатель не особо-то полезен в эпохе Низкого Напряжения. Но он сможет выдавить лодку следующих тиров или, например, некоторые части интрументов Tinkers Construct.
+
+#You're gonna hate this #3
+#name
+tier2.quest42.name=§rТы это возненавидишь #3
+#description
+tier2.quest42.desc=Более "электрическая" версия поршня. Это третий предмет, которого понадобиться целая куча.
+
+#You're gonna hate this #4
+#name
+tier2.quest43.name=§rТы это возненавидишь #4
+#description
+tier2.quest43.desc=Четвертым предметом станет Рука Робота. Очевидно этот предмет крафтить сложнее всех предыдущих.%n%nПодсказка: Он работает как конвеерная лента, но может работать с выбранными слотами предметов, настраивается отвёрткой.
+
+#Avengers, assemble!
+#name
+tier2.quest44.name=§rМстители, собираемся!
+#description
+tier2.quest44.desc=Однозначный "маст хэв" фанатов фильма. А, ну и для производства всего подряд тоже, конечно.
+
+#Bzzz... Whoom...
+#name
+tier2.quest45.name=§rБззз....вууум...
+#description
+tier2.quest45.desc=Изготавление превосходных кристаллов требует наличие точного лазерного ЧПУ.%nВ эпохе Среднего Напряжения Лазерный ЧПУ становится более важной машиной.
+
+#Better Tank... MV Tank
+#name
+tier2.quest46.name=§rЛучший Резервуар... Резервуар Среднего Напряжения
+#description
+tier2.quest46.desc=Следующим шагом станет хранение 128 вёдер в резервуаре. Резервуар Среднего Напряжения из Gt++ требует пластины из стали, темной стали или бронзы, бронзовую трубу и насос Низкого Напряжения.
+
+#ULV Transformer
+#name
+tier2.quest47.name=§rТрансформатор Сверх Низкого Напряжения
+#description
+tier2.quest47.desc=Чтобы наладить работу твоего простейшего промывочного пункта тебе понадобится Трансформатор СНН. Промывочный пункт может работать только с 8 EU. Добавив большее напряжение ты рискуешь превратить свою базу в руины.
+
+#A new alloy Magnalium
+#name
+tier2.quest48.name=§rНовый сплав Магналий
+#description
+tier2.quest48.desc=Гадаешь зачем тебе магналий? Нет, на данный момент он не нужен для gt механизмов, но как улучшение для твоего арбалета - самое то.%nЭто очень хороший материал в эпохе Низкого Напряжения. Ступай в Twilight Forest и найди там жилу Оливина/Глауконита на Y10-40 высоте. Или в overworld в жиле Глауконита/Мыльного Камня на Y20-50 высоте, или в Гранитной Минеральной жиле на Y50-60 высоте.%nИспользуя промывочный пункт, ты можешь получить магний или алюминий(Магнезит для магния, Валяльная Глина для алюминия) и смешать все это в сплавщике сплавов в Магналий.%nМазнезит дает 10 крохотных кусочков магния, с каждого порошка, но валяльная глина дает лишь один крохотный кусочек алюминия.
+
+#Hydrogen, methane or some farts... (Natural gas) 
+#name
+tier2.quest49.name=§rВодород, метан или пердёж...(Природный газ)
+#description
+tier2.quest49.desc=Иногда, после центрифугирования остаются газы вроде водорода или метана. Если положить в центрифугу коричневые или жёлтые лимониты, можно получить водород. Если ненужную пищу - то метан. Дерево тоже будет оставлять метан, в количестве 60 mb за бревно. Возможно, настоло время фермы дерева из forestry.
+
+#Molten redstone?
+#name
+tier2.quest50.name=§rЖидкая красная пыль?
+#description
+tier2.quest50.desc=Ты где-то услышал, что для некоторых рецептов карпентера нужна жидкая красная пыль.%nПреобразование красной пыли в жидкость требует наличие жидкостного экстрактора. Давай скрафтим.
+
+#Diesel, oil or maybe creosote?
+#name
+tier2.quest51.name=§rДизель, нефть или, может, креозот?
+#description
+tier2.quest51.desc=Наверняка ты собрал целый вагон креозота, может даже уже собрал свою первую Электрическую Доменную Печь. Креозот может стать неплохим источником топлива. Попробуй сделать парочку генераторов сгорания и используй их параллельно с твоим паровым генератором, как запасной источник энергии.
+
+#Bow, arrows and quiver
+#name
+tier2.quest52.name=§rЛук, стрелы да колчан
+#description
+tier2.quest52.desc=Ого, твой первый ручной *кхм* машинной работы лук. Ты можешь расположить свой лук в слоты из мода mine and blade battlegears. Самое время сделать колчан со стрелами. Ты можешь вместить вплоть дл 4 стаков стрел в колчане.%n%nПойдем поохотимся.
+
+#You're gonna hate this #5
+#name
+tier2.quest53.name=§rТы это возненавидишь #5
+#description
+tier2.quest53.desc=Пятый супер нужный предмет - передатчик. Он понадобиться для изготовления микроволновки, сканера, лазерного ЧПУ...
+
+#Auto Mining
+#name
+tier2.quest54.name=§rАвто-Шахтёр
+#description
+tier2.quest54.desc=Шахтёр в эпохе Низкого Напряжения? Вау! Эта крутая машина будет искать руды за тебя. Расположи пару стаков шахтёрских труб в нужный слот. Данный механизм потребляет 32 EU/t. Используя 8V солнечную панель он работает с 25% скоростью. Шахтёр ищет руды в радиусе 16 блоков.
+
+#Ardite Crossbow Body
+#name
+tier2.quest55.name=§rАрдайтовый Корпус Арбалета
+#description
+tier2.quest55.desc=Чтобы сделать твой арбалет ещё лучше - скрафти ардайтовый корпус. Я дал тебе пару слитков в твоём предыдущем задании.%nДобавив красной пыли, ты сделаешь свой арбалет быстрее. Для этого понадобиться слот модификатора.
+
+#Fiery Bowstring
+#name
+tier2.quest56.name=§rПламенная Тетева
+#description
+tier2.quest56.desc=Почему бы тебе не улучшить и тетеву твоего арбалета? Если ты не можешь найти ни одной пламенной нити в nether, я выдал тебе парочку за твоё прошлое задание. Скрафти пламенную тетеву.
+
+#Magnalium Crossbow
+#name
+tier2.quest57.name=§rМагналиевый Арбалет
+#description
+tier2.quest57.desc=Самое время скрафтить корпус и плечи для арбалета и улучшить твоего деревянного старичка.
+
+#Magnalium Crossbow Bolts
+#name
+tier2.quest58.name=§rМагналиевые Болты
+#description
+tier2.quest58.desc=Магналиевые болты куда лучше твоих деревянных.%nТы можешь использовать nether кварц, чтобы их заточить.%nДля этого нужен слот модификатора.
+
+#Basic Fluid Solidifier
+#name
+tier2.quest59.name=§rПростой Жидкостной Затвердитель
+#description
+tier2.quest59.desc=Чтобы вернуть твоим расплавленным жидкостям твердую форму, тебе нужен жидкостный затвердитель. С его помощью можно изготавливать арбалетные болты.
+
+#Scanning bees, crops and moooooore!
+#name
+tier2.quest60.name=§rСканирование пчёл, семян и проооочего!
+#description
+tier2.quest60.desc=Автоматизируй сканирование пчёл и растений. Позже, этот механизм становиться очень полезным для сканирования частей машин высокого тира, или для заполнения сфер информации, для производства материи. Емкостные стержни также требуют наличие сканера.
+
+#You're gonna hate this #6
+#name
+tier2.quest61.name=§rТы это возненавидишь #6
+#description
+tier2.quest61.desc=Шестым предметом станет датчик. Он понадобится для сканера или наблюдателя сейсмических изменений.
+
+#Sulfuric gas
+#name
+tier2.quest62.name=§rСерный газ
+#description
+tier2.quest62.desc=Еще один вид топлива для твоей газовой турбины ты можешь изготовить из масла. Цена сгорания такового за еденицу капсулы - 25.000 EU.
+
+#Glue
+#name
+tier2.quest63.name=§rКлей
+#description
+tier2.quest63.desc=Положив в центрифугу липкую резину ты получишь клей. Клей очень полезен в создании хороших печатных плат.
+
+#Empty Circuit Board
+#name
+tier2.quest64.name=§rПустая печатная плата
+#description
+tier2.quest64.desc=Хорошие печатные платы требуют опилок и обработанного клея для создания фенольных печатных плат. Добавив золотой провод у тебя получится Хорошая печатная плата.
+
+#Good Circuits
+#name
+tier2.quest65.name=§rХорошие схемы
+#description
+tier2.quest65.desc=Хорошие схемы это улучшение схем логики. Они являются компонентом всех механизмов Среднего Напряжения. Убедись, что у тебя есть электрическая доменная печь для производства алюминия.
+
+#Diode
+#name
+tier2.quest66.name=§rДиоды
+#description
+tier2.quest66.desc=Хорошим схемам нужны диоды. Существует два способа их получения. Использовав кремниевую пластину вместе с тонким оловянным проводом или арсенидом галлия. Жидкое стекло также требуется для производства.
+
+#Gallium Arsenide
+#name
+tier2.quest67.name=§rАрсенид Галлия
+#description
+tier2.quest67.desc=Для производства диодов необходим арсенид галлия. Так как же тебе его получить?%nПолучить галлий можно из измельченной цинковой руды, используя тепловую центрифугу. Малые цинковые жилы могут быть найдены в overworld или в nether на Y80-210 высоте. Чтобы получить больше цинка, тебе может понадобиться интрумент из tinkers construct, зачарованный на удачу. Сфалерит - альтернативный источник галлия.%nАрсенид можно получить из маленьких жил реальгара в nether на Y5-85 высоте. Добавь их в центрифугу. Еще один источник - кобальтовая руда в nether.%nСмешай две этих пыли в миксере для получения арсенида галлия.
+
+#Your oil is too Crude? Refine it!
+#name
+tier2.quest68.name=§rГрязная нефть? Так очисти её!
+#description
+tier2.quest68.desc=Сжигать нефть в генераторе сгорания очень неэффективный способ получения энергии. Каждое ведро/капсула нефти даёт лишь 20.000 EU. Самое время её обработать...
+
+#Sulfuric naphtha
+#name
+tier2.quest69.name=§rСернистый Лигроин
+#description
+tier2.quest69.desc=Ты можешь дистиллировать сернистый лигроин из масла, имеющий ценность сгорания 40.000 EU за капсулу в газовой турбине.
+
+#Naphtha
+#name
+tier2.quest70.name=§rЛигроин
+#description
+tier2.quest70.desc=Ты можешь обработать сернистый лигроин в жидкий лигроин, который имеет цену сгорания 320.000 EU за капсулу в газовой турбине.%nЛигроин также является основой для производства полиэтилена и поликапролактама.
+
+#Refinery gas
+#name
+tier2.quest71.name=§rОбработанный газ
+#description
+tier2.quest71.desc=Обработай свой газ в хим реакторе вместе с газом водорода, чтобы увеличить его сгораемую ценность и получить 160.000 EU за капсулу, с его помощью можно изготавливать метан.
+
+#Methane
+#name
+tier2.quest72.name=§rМетан
+#description
+tier2.quest72.desc=Если дистиллировать обработанные газы, ты получишь метан. Стоит упомянуть, что в сборке есть куча других методов и способов получения метана.
+
+#N like nitrogen... Hide, alphabet strikes again!
+#name
+tier2.quest73.name=§rА как Азот...
+#description
+tier2.quest73.desc=Ты можешь получить азот в центрефуге, используя... воздух. Это достаточно долгий процесс, особенно в эпохе низкого напряжения.
+
+#How to get sodium/lithium
+#name
+tier2.quest74.name=§rПолучение натрия/лития
+#description
+tier2.quest74.desc=Соляные жилы можно найти в overworld на Y50-70 высоте. Соль не единственный источник натрия. Соль играет большую роль в рецептах pam's harvestcraft.%n%nСовет: Лепидолит и сподумен - хорошие источники лития для твоих аккумуляторов.
+
+#Food 2.0
+#name
+tier2.quest75.name=§rЕда 2.0
+#description
+tier2.quest75.desc=Забудь всё что ты знал о еде и её ценности. Твоя новая упаковывающая машина способна консервировать любую съедобную пишу. Такой едой можно насытиться за считанные миллисекунды.
+
+#LPG
+#name
+tier2.quest76.name=§rСжиженный Нефтяной Газ
+#description
+tier2.quest76.desc=После центрифугирования бутана или пропана остается СНГ со стоимостью сгорания 320.000 EU за капсулу. С его помощью можно получить метан и эпихлоргидрин.
+
+#Butane and Propane
+#name
+tier2.quest77.name=§rБутан и Пропан
+#description
+tier2.quest77.desc=Ты можешь дистиллировать великое разнообразие газов из обработанного газа.%nМетан, бутан, пропан, гелий и этан.%n%nПодсказка:%nОбработанный газ не является лучшим  источником Пропана и Бутана. Их лучше получать из Лигроина.
+
+#H like Hydrogen... rest of the alphabet is too complicated...
+#name
+tier2.quest78.name=§rВ как водород...
+#description
+tier2.quest78.desc=Если положить в центрифугу коричневые или жёлтые лимониты, можно получить водород. Или можно использовать Электролизер с некоторым количеством воды и получить его в жидкой форме.
+
+#Round and round and round...
+#name
+tier2.quest79.name=§rКрутись крутись вертись...
+#description
+tier2.quest79.desc=После очищения руды, ты можешь подвергнуть её центрифугированию и получить еще больше побочных ресурсов.
+
+#Water and electricity, sounds fun and safe right?
+#name
+tier2.quest80.name=§rВода и электричество, звучит весело и безопасно, верно?
+#description
+tier2.quest80.desc=Использовав силу воды и электричества ты получишь еще больше побочных ресурсов.
+
+#IC2 Battery
+#name
+tier2.quest81.name=§rАккумулятор IC2
+#description
+tier2.quest81.desc=Некоторые рецепты требуют аккумуляторы из IC2. Заполни свой маленький корпус аккумулятора жидкой красной пылью, и ты получишь "перезаряжаемый аккумулятор". Раскалённые капсулы жгутся, так что осторожней.
+
+#Lithium
+#name
+tier2.quest82.name=§rЛитий
+#description
+tier2.quest82.desc=Литий можно промыть из Лепидолитовой руды или в процессе центрифугирования Сподумена.
+
+#Basic canner
+#name
+tier2.quest83.name=§rПростой консерватор
+#description
+tier2.quest83.desc=Главное назначение консерватора - заполнение оловянных капсул любым типом пищи, а так же для заполнения капсул и другими твердыми материалами, вроде лития, кадмия или натрия.
+
+#Reusable battery: Lithium
+#name
+tier2.quest84.name=§rАккумулятор: Литиевый
+#description
+tier2.quest84.desc=Натриевые, кадмиевые и литиевые батарейки - это перезаряжаемые аккумуляторы. Они крафтятся не имея никакого изначально сохраненного ресурса энергии, но могут быть заряжены в любом gt механизме. Если они больше не нужны, их можно выжать в экстракторе обратно в пустые аккумуляторные батареи. Всё содержимое будет утеряно.
+
+#Heavy Sulfuric fuel
+#name
+tier2.quest85.name=§rТяжёлое Сернистое топливо
+#description
+tier2.quest85.desc=Следующий шаг - дистилляция твоего масла в тяжелое сернистое топливо, с ценностью в 40.000 EU за капсулу.
+
+#Heavy fuel
+#name
+tier2.quest86.name=§rТяжёлое топливо
+#description
+tier2.quest86.desc=Добавив водород в тяжелое сернистое топливо в хим реакторе, ты сможешь получить некоторое количество тяжелого топлива с ценностью в 200.000 EU за капсулу.%n%nКапсулы с сероводородом можно будет использовать для получения сернистой кислоты для производства Динамита или кислотных батареек.%n%nВ эпохе среднего напряжения ты сможешь производить дизель из тяжелого или легкого топлива.
+
+#The missing one
+#name
+tier2.quest87.name=§rМне тебя так не хватало
+#description
+tier2.quest87.desc=Как однажды было сказано... <basdxz> Чёрт возьми, добавь сгибающее устройство в эпоху Низкого Напряжения ...и вот оно случилось.
+
+#Antimony
+#name
+tier2.quest88.name=§rСурьма
+#description
+tier2.quest88.desc=Наиболее эффективным способом получиния сурьмы для батареек является центрифугирование антимонита, вторым по эффективности является тетраэдрит.
+
+#Sodium
+#name
+tier2.quest89.name=§rНатрий
+#description
+tier2.quest89.desc=Натрий можно вымыть из Глауконитовой руды и песка. Его также можно добыть путем электролиза из соли.
+
+#How to get sodium
+#name
+tier2.quest90.name=§rГде взять натрий
+#description
+tier2.quest90.desc=Источником натрия является глауконитовая руда и песок. Данную жилу следует искать на Y20-50 высоте.
+
+#Reusable battery: Sodium
+#name
+tier2.quest91.name=§rАккумулятор: Натриевый
+#description
+tier2.quest91.desc=Натриевые, кадмиевые и литиевые батарейки - это перезаряжаемые аккумуляторы. Они крафтятся не имея никакого изначально сохраненного ресурса энергии, но могут быть заряжены в любом gt механизме. Если они больше не нужны, их можно выжать в экстракторе обратно в пустые аккумуляторные батареи. Всё содержимое будет утеряно.
+
+#Chemical rubber production
+#name
+tier2.quest92.name=§rХим продукция резины
+#description
+tier2.quest92.desc=Гораздо более эффективный способ получения изолированных проводов является изготовление жидкой резины в хим реакторе, которую затем можно нанести на провод в сборочном механизме. Если ты расположишь два механизма рядом, ты сможешь напрямую выводить жидкую резину в сборочный механизм, нажав на авто-выгрузку жидкостей из хим реактора. Убедись, что вывод механизма повернут в нужную сторону, используя гаечный ключ.
+
+#Empty Cells
+#name
+tier2.quest93.name=§rПустые Капсулы
+#description
+tier2.quest93.desc=Используя сгибающую машину ты можешь изготавливать пустые капсулы. Схему логики следует сконфигурировать на 12 режим, иначе ты получишь фольгу.
+
+#A lead about lead that leads to lead dust
+#name
+tier2.quest94.name=§rСвинец, что сведет в свинцовый порошок
+#description
+tier2.quest94.desc=Следующий шаг изготовления аккумуляторов - собрать свинцовой руды. Свинцовые и Галенитовые жилы можно найти в Twilight Forest на Y5-45 высоте.
+
+#Battery alloy
+#name
+tier2.quest95.name=§rАккумуляторный сплав
+#description
+tier2.quest95.desc=Смешав сурьму со свинцов в сплавщике сплавов можно получить аккумуляторный сплав.%nДобавив оловянных проводов ты получишь маленький аккумуляторный корпус.
+
+#A big meteorite
+#name
+tier2.quest96.name=§rБольшой метеор
+#description
+tier2.quest96.desc=Лучшим способом получения редкой земли, является раскопка метеоров из applied energistics 2, с их последующим измельчением. Возможно, ты завершал задание в паровой эпохе и у тебя где-то хранится измельченный небесный камень? Этот порошок можно центрифугировать в различные побочные ресурсы вроде натрия, неодия, цезия, лантана и иттрия.%n%nПодсказка: Красная пыль тоже имеет редкую землю как побочный ресурс. Халькопирит (Высокое Напряжение) и сфалерит(Низкое напряжение) имеют кадмий как побочный ресурс.
+
+#Reusable battery: Cadmium
+#name
+tier2.quest97.name=§rАккумулятор: Кадмиевый
+#description
+tier2.quest97.desc=Натриевые, кадмиевые и литиевые батарейки - это перезаряжаемые аккумуляторы. Они крафтятся не имея никакого изначально сохраненного ресурса энергии, но могут быть заряжены в любом gt механизме. Если они больше не нужны, их можно выжать в экстракторе обратно в пустые аккумуляторные батареи. Всё содержимое будет утеряно.
+
+#Cheaper Annealed Production
+#name
+tier2.quest98.name=§rБолее дешёвый обжиг
+#description
+tier2.quest98.desc=Куда быстрее и дешевле делать обожженную медь в электродуговой печи, нежели чем в электрической доменной печке. Обожженная медь славится своими проводами для Среднего Напряжения. Она теряет лишь 1 EU за блок.
+
+#Lubricant
+#name
+tier2.quest99.name=§rСмазка
+#description
+tier2.quest99.desc=Использовать смазку вместо воды или дистиллированной воды в твоем металлорежущем станке повысит его производство или скорость.%nСмазку можно изготовить из масла, раститольного масла, рыбьего жира или креозота. Если ты можешь себе позволить крафт пивоварного станка, тогда имеет смысл использовать тальк или мыльный камень, для получения ещё большего количества смазки за каждый цикл.
+
+#Light Sulfuric Fuel
+#name
+tier2.quest100.name=§rЛёгкое Сернистое топливо
+#description
+tier2.quest100.desc=Сначала ты дистиллируешь нефть в легкое сернистое топливо, ценой в 40.000 EU за капсулу.
+
+#Light fuel
+#name
+tier2.quest101.name=§rЛёгкое топливо
+#description
+tier2.quest101.desc=Добавив водород в лёгкое сернистое топливо в хим реакторе, ты произведешь некоторое количество легкого топлива ценой в 320.000 EU за капсулу.%n%nКапсулы с сероводородом можно будет использовать для получения сернистой кислоты для производства Динамита или кислотных батареек.%n%nВ эпохе среднего напряжения ты сможешь производить дизель из тяжелого или легкого топлива.
+
+#C9H8O4...NaCl...H2O...
+#name
+tier2.quest102.name=§rC9H8O4...NaCl...H2O...
+#description
+tier2.quest102.desc=Хочешь изготовить дизельное топливо с примесью цетана, пластик или хим краситель? Значит пора крафтить хим реактор.
+
+#No more filing
+#name
+tier2.quest103.name=§rБольше никакой опиловки
+#description
+tier2.quest103.desc=Зачем тратить целый слиток на производство стержня, используя инструмент, теряющий прочность, в результате чего, расходующий ЕЩЁ БОЛЬШЕ слитков? Имея этот механизм, все твои потребности в стержнях станут восполнены(пока что).
+
+#Portable mob spawners..? Cool!
+#name
+tier2.quest104.name=§rПереносить спавнеры монстров..? Клёво!
+#description
+tier2.quest104.desc=Хочешь перенести спавнер монстров в другое место и построить крутую мобо-ферму? Не вопрос, если ты скрафтишь алмазную тележку.
+
+#Diamond Chests... Oh shiny
+#name
+tier2.quest105.name=§rАлмазные Сундуки... Ух блестяшка
+#description
+tier2.quest105.desc=После установки в мастерской металлорежущего станка, ты способен распиливать алмазные блоки для производства больших алмазных сундуков.
+
+#LV Advanced Steam Boiler
+#name
+tier2.quest106.name=§rПаровой бойлер Низкого Напряжения
+#description
+tier2.quest106.desc=Паровой бойлер Низкого Напряжения из Gt++ - это следующая машина, которую ты можешь скрафтить для увеличения эффективности вырабатываемого пара.
+
+#Electrotine battery
+#name
+tier2.quest107.name=§rЭлектротиновые аккумуляторы
+#description
+tier2.quest107.desc=Электротиновые аккумуляторы используются только в project red механизмах и реактивном ранце.%nЭлектротин это смесь красной пыли и электрума.
+
+#Sulfuric acid
+#name
+tier2.quest108.name=§rСерная кислота
+#description
+tier2.quest108.desc=Соеденив триоксид серы с водой в хим реакторе ты получишь серную кислоту для одноразовых батареек. Если ранее ты делал тяжелое или легкое топливо, значит у тебя где-то остался сероводород. Если нет, ты всегда можешь получить серную кислоту смешав серу с водой в хим реакторе.
+
+#Fluid canner
+#name
+tier2.quest109.name=§rЖидкостный консерватор
+#description
+tier2.quest109.desc=Жидкостный консерватор - фундаментальный механизм, с его помощью можно перемещать жидкости по мастерской, или заполнять их в капсулы, ведра или аккумуляторы.%n%nИнтересный факт про жидкостный консерватор - его можно переделать в сборщик дождя, добавив слив к верхней крышке механизма (На самом деле любой механизм с емкостью может им стать...).
+
+#Single use battery: Acid
+#name
+tier2.quest110.name=§rОдноразовая батарейка: Кислота
+#description
+tier2.quest110.desc=Ртутные и кислотные батарейки являются одноразовыми. Они крафтятся полностью заряженными и их нельзя перезарядить. Как только их внутреннее хранилище заканчивается, их можно обратно конвертировать в пустые корпуса.%n%nБатарейки можно разместить в слот для аккумулятора в любом gregtech механизме Низкого Напряжения, в этом случае будет расходоваться их емкость, а не емкость самого механизма. Их также можно использовать в аккумуляторном буфере Низкого Напряжения.
+
+#Battery buffer
+#name
+tier2.quest111.name=§rАккумуляторный Буфер
+#description
+tier2.quest111.desc=Аккумуляторы можно устанавливать прямиком в механизмы. Чтобы перезарядить аккумулятор тебе понадобиться Аккумуляторный Буфер. Они бывают разных размеров: на 1, 4, 9 и 16 аккумуляторов.%n%n§aОт переводчика: Количество аккумуляторов, положенных в буфер определяют количество ампер, выдаваемых этим буфером.
+
+#LV battery buffer 9 slots
+#name
+tier2.quest112.name=§rАккумуляторный Буфер Низкого Напряжения на 9 слотов
+#description
+tier2.quest112.desc=Улучши свой аккумуляторный буфер, чтобы от вмещал вплоть до 9 аккумуляторов, что позволяет выдавать максимально 9 ампер.%nПолезно для твоей Электрической Доменной или Электодуговой печи.
+
+#Basic arc furnace
+#name
+tier2.quest113.name=§rПростая электродуговая печь
+#description
+tier2.quest113.desc=Электродуговая печь - это альтернативный способ выплавлять всякое обратно в компоненты или для производства укрепленного железа. Рецепты используют кислород и 3 ампера тока.
+
+#Faster steel production
+#name
+tier2.quest114.name=§rУскоренное производство стали
+#description
+tier2.quest114.desc=Ускоренная альтернатива производства стали - это использование электродуговой печи для укрепления железа. Затем измельчение его в порошок и последующее приготовление в сталь в ЭДП. (Известны случаи попытки изготовить сталь в электродуговой печи...)
+
+#A truly sharp saw blade
+#name
+tier2.quest115.name=§rОтлично заточенный пильный диск
+#description
+tier2.quest115.desc=Если соеденить кобальтовую латунь с алмазным порошком можно получить очень острый пильный диск для производства металлорежущего станка.
+
+#Cutting things apart
+#name
+tier2.quest116.name=§rВсё пополам
+#description
+tier2.quest116.desc=Однозначно обязательный механизм. Он распилит стержни в болты, пластины в корпуса, брусья в доски и всё это с максимально возможной эффективностью. Однозначно стоит того!%n%nСовет: Просто добавь воды.
+
+#Diamond Tanks... Oh shiny
+#name
+tier2.quest117.name=§rАлмазные Резервуары... Ух Блестяшка
+#description
+tier2.quest117.desc=После установки в мастерской металлорежущего станка, ты способен распиливать алмазные блоки для производства резервуаров, вмещающих 64 ведра.
+
+#Mercury
+#name
+tier2.quest118.name=§rРтуть
+#description
+tier2.quest118.desc=Ртуть можно добыть путем центрифугирования  красной пыли. Если ты нашел киноварь в жиле с красной пылью, его тоже можно использовать.
+
+#Single use battery: Mercury
+#name
+tier2.quest119.name=§rОдноразовая батарейка: Ртуть
+#description
+tier2.quest119.desc=Ртутные и кислотные батарейки являются одноразовыми. Они крафтятся полностью заряженными и их нельзя перезарядить. Как только их внутреннее хранилище заканчивается, их можно обратно конвертировать в пустые корпуса.%n%nБатарейки можно разместить в слот для аккумулятора в любом gregtech механизме Низкого Напряжения, в этом случае будет расходоваться их емкость, а не емкость самого механизма. Их также можно использовать в аккумуляторном буфере Низкого Напряжения.
+
+###############
+#End Of Tier 2#
+###############
+
+
+##################
+#Multiblock Goals#
+##################
+
+#Multiblock Goals
+#name
+multiblock.goals=Мульти-блок Цели
+#description
+multiblock.goals.desc=В данном разделе будут отображены основные мульти-блок цели. Ты можешь крафтить некоторые мульти-блок структуры гораздо ранее соответствующего им тира.
+
+########
+#Quests#
+########
+
+#Automation tier 1
+#name
+multiblock.goals.quest1.name=Automation tier 1
+#description
+multiblock.goals.quest1.desc=Do you want to automate your smeltery because you are planning to make stacks of glass blocks?%nNo problem, craft a large bronze pipe and place it under the faucet. Now the molten fluid will flow inside the pipe. Under the pipe you have to place the casting basins or tables.%n%nA hopper and a chest underneath would be good to auto-output products.
+
+#You are not prepared!!!
+#name
+multiblock.goals.quest2.name=You are not prepared!!!
+#description
+multiblock.goals.quest2.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...
+
+#The water dilemma
+#name
+multiblock.goals.quest3.name=The water dilemma
+#description
+multiblock.goals.quest3.desc=Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water.
+
+#Multiblock tanks... Railcraft tanks
+#name
+multiblock.goals.quest4.name=Multiblock tanks... Railcraft tanks
+#description
+multiblock.goals.quest4.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x3x4 while the biggest are 9x9x8.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.%n%nUse only Buckets to move fluids because cells get destroyed.
+
+#Why one coke oven when you can have ten
+#name
+multiblock.goals.quest5.name=Why one coke oven when you can have ten
+#description
+multiblock.goals.quest5.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.
+
+#Analyzing the soil
+#name
+multiblock.goals.quest6.name=Analyzing the soil
+#description
+multiblock.goals.quest6.desc=To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking a seismic prospector with 8 dynamite, 4 TNT, 2 industrial TNT or 1 glyceryl. Then use a data stick to extract the data by right clicking on it after the animation has finished.%nProTip: you can do it more efficiently by only scanning every 8 chunks.%n%nNow you need to add the analyzed data stick to a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have atleast 144 mb squid ink in it. (Only gregtech machines will work)%n%nAfter the process is done take the printed page and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue.%n%nTADA now you have a book with info about the chunk you scanned.  
+
+#Railcraft steam power
+#name
+multiblock.goals.quest7.name=Railcraft steam power
+#description
+multiblock.goals.quest7.desc=As an alternative way to steam you can use the railcraft boilers. They require at least one firebox.
+More than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.
+
+#Liquid fuelled firebox
+#name
+multiblock.goals.quest8.name=Liquid fuelled firebox
+#description
+multiblock.goals.quest8.desc=Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.%nDiesel, ethanol, creosote and biofuel all work well here.
+
+#It's time to get more steam
+#name
+multiblock.goals.quest9.name=It's time to get more steam
+#description
+multiblock.goals.quest9.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800 liters of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can uses either water or distilled water. Water is consumed at a rate of 1l of water per 150l of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with pipe casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.
+
+#Automation tier 2
+#name
+multiblock.goals.quest10.name=Automation tier 2
+#description
+multiblock.goals.quest10.desc=You want a better automation than using pipes? Sure, craft a comparator and link it with redstone dust placed on the ground. The redstone needs to be adjecent to the faucet to activate the crafting process.
+
+#Time to get some steel
+#name
+multiblock.goals.quest11.name=Time to get some steel
+#description
+multiblock.goals.quest11.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...
+
+#The "Waterproblems" are solved
+#name
+multiblock.goals.quest12.name=The "Waterproblems" are solved
+#description
+multiblock.goals.quest12.desc=Entering the HV age you found a way of making a water reservoir wich solves the finite water problem. Craft it with some fused quartz glass, HV pumps and cauldrons.
+
+#Steel multiblock tanks
+#name
+multiblock.goals.quest13.name=Steel multiblock tanks
+#description
+multiblock.goals.quest13.desc=Do you want to have tanks that can hold double the amount than that of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x3x4 to 9x9x8 blocks.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank.%n%nOnly use buckets because cells get destroyed.
+
+#Smelt all the things...
+#name
+multiblock.goals.quest14.name=Smelt all the things...
+#description
+multiblock.goals.quest14.desc=Smelting up to nine items at once? With a bit of steel you can make a railcraft Steam Oven. 2x2x2%n%nHint: All furnace recipes work just fine, but you cannot use it to make charcoal from wood.
+
+#Low pressure boiler tank
+#name
+multiblock.goals.quest15.name=Low pressure boiler tank
+#description
+multiblock.goals.quest15.desc=The low pressure boiler tank is the easiest way to store steam. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.
+
+#High pressure boiler tank
+#name
+multiblock.goals.quest16.name=High pressure boiler tank
+#description
+multiblock.goals.quest16.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version.
+
+#Steam is never enough
+#name
+multiblock.goals.quest17.name=Steam is never enough
+#description
+multiblock.goals.quest17.desc=Now you can make advanced circuits, which means it's time to build a large steel boiler. This boiler is one and a half times more efficient than a bronze one, and that means we need 5 more steam turbines. Don't forget to monitor the water level!
+
+#We need big toys
+#name
+multiblock.goals.quest18.name=We need big toys
+#description
+multiblock.goals.quest18.desc=All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. . It will also distill water for you, so you can use the same water again inside your large boiler.  Don't forget to make a rotor for the turbine. At the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance).
+
+#Better than Duct Tape
+#name
+multiblock.goals.quest19.name=Better than Duct Tape
+#description
+multiblock.goals.quest19.desc=A soldering iron tool to remove the burned out circuits message is better than duct tape.%nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player's inventory.%n%nFor the other problems other tools are necessary.%n%nPossible problems                  Tool to fix%n"Pipe is loose."                        Wrench%n"Screws are missing."             Screwdriver%n"Something is stuck."               Soft mallet%n"Platings are dented."            Hammer%n"Circuitry burned out."          Soldering Iron%n"That doesn't belong there." Crowbar%n
+
+#EBF-Time
+#name
+multiblock.goals.quest20.name=EBF-Time
+#description
+multiblock.goals.quest20.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the heating coils might be a little tricky...%n%n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%nA few recipes produce CO2/SO2 as fluid. You need to add an additional fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers = 78%.
+
+#2x steel
+#name
+multiblock.goals.quest21.name=2x steel
+#description
+multiblock.goals.quest21.desc=Steel production is so slow. If you got enough bricks and clay, build a second BBF. Build it attached to the first one, so they can share a wall an you will save some bricks, clay and concrete.
+
+#4x steel
+#name
+multiblock.goals.quest22.name=4x steel
+#description
+multiblock.goals.quest22.desc=Not even two BBFs are fast enough...
+
+#An unexpected Bonus
+#name
+multiblock.goals.quest23.name=An unexpected Bonus
+#description
+multiblock.goals.quest23.desc=Because we're nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bricked blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)
+
+#Smelt all the things stack wise...
+#name
+multiblock.goals.quest24.name=Smelt all the things stack wise...
+#description
+multiblock.goals.quest24.desc=...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can't go any faster!%n%nHint: Parallel smelting depends on coils, consult your local doctor before use.
+
+#Time to drill! 
+#name
+multiblock.goals.quest25.name=Time to drill! 
+#description
+multiblock.goals.quest25.desc=Pumps are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There's also a chance to find natural gas.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch coresponding to the power tier. 
+
+#Moooooore steam
+#name
+multiblock.goals.quest26.name=Moooooore steam
+#description
+multiblock.goals.quest26.desc=Stock up on titanium, it will be fun. A large titanium boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal cobalt rotors will be just right. Optimal flow for such rotor is 800 liters per tick. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors.
+
+#Less Power loss
+#name
+multiblock.goals.quest27.name=Less Power loss
+#description
+multiblock.goals.quest27.desc=When you reach MV tier you can make your own duct tape in case you have to move your multiblock machines around. Duct tape will fix all maintenance problems in any multiblock machine.
+
+#EBF Infos
+#name
+multiblock.goals.quest28.name=EBF Infos
+#description
+multiblock.goals.quest28.desc=You can use a scanner to manually check how your EBF works, or you can make an informations panel from nuclear control and always see the status. Make a GT sensor kit and place the sensor card in your info panel. Enable it with a redstone signal.
+
+#Compress all the things
+#name
+multiblock.goals.quest29.name=Compress all the things
+#description
+multiblock.goals.quest29.desc=Martin's (DreamMasterXXL) favourite machine. Compress ALL the things! With explosives, of course.
+
+#Compress all the things
+#name
+multiblock.goals.quest30.name=You smell like a distillery!
+#description
+multiblock.goals.quest30.desc=This bad boy will tremendously boost the by-products of your cracked fuel by multiplying them by 5. This way you can make industrial TNT, polyethylene, polytetrafluoroethylene and other plastics more efficiently.%n%nYou will also need this for your automated setups.
+
+#Even more steam? Are you sure?
+#name
+multiblock.goals.quest31.name=Even more steam? Are you sure?
+#description
+multiblock.goals.quest31.desc=This boiler is the most efficient source of steam. It allows you to produce as much as 2000 litres of steam per tick. If you need more, then build a dual or even quad boiler.
+
+#Still not enough charcoal?
+#name
+multiblock.goals.quest32.name=Still not enough charcoal?
+#description
+multiblock.goals.quest32.desc=This oven is the best way to get charcoal and creosote (x50 faster than Railcraft's coke oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it's worth it. Finally, it will be possible to dismantle the charcoal pit.%nWith Cupronickel coils the oven is a bit slowlier. Each coil tier speed up the charcoal production.
+
+#Glyceryl trini...... what?
+#name
+multiblock.goals.quest33.name=Glyceryl trini...... what?
+#description
+multiblock.goals.quest33.desc=Kids, today we will make some glyceryl trinitrate with some glycerol.%n%n    - Chemistry 101
+
+#Powderbarrels
+#name
+multiblock.goals.quest34.name=Powderbarrels
+#description
+multiblock.goals.quest34.desc=Powderbarrels are twice as good as dynamite in the implosion compressor. Craft one stack.
+
+#TNT
+#name
+multiblock.goals.quest35.name=TNT
+#description
+multiblock.goals.quest35.desc=TNT is much more powerful than the powderbarrel but much harder to craft. There are LV and HV ways to craft. At LV you need heavy or light fuel to make some toluene wich can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in a chemical reactor to make toluene more efficient. Mix it with sulfuric acid to make TNT.%n%nThe HV way requires an oil cracking unit to make all kinds of cracked fuel or cracked naphta and a distillation tower to extract toluene from that.
+
+#Let's get it crackin!
+#name
+multiblock.goals.quest36.name=Let's get it crackin!
+#description
+multiblock.goals.quest36.desc=Cracking oil will result in better by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT for advanced tier rockets.%n%nIf you add steam the amout of EU/t will be reduced by 50% and if you add hydrogen the output will be increased by 30%
+
+#High speed charcoal
+#name
+multiblock.goals.quest37.name=High speed charcoal
+#description
+multiblock.goals.quest37.desc=Sure, those coke ovens are nice, but they aren't even remotely fast enough to keep up with a large steam boiler. Luckily, there is an upgrade available! The creosote oil will not be produced, but the process will speed up dramatically. Who needs that nasty yellowish flammable stuff anyway...
+
+#Upgrade #1: More heat
+#name
+multiblock.goals.quest38.name=Upgrade #1: More heat
+#description
+multiblock.goals.quest38.desc=Better materials need higher temperatures. You can just exchange the old coils with the new ones. You can even recycle the old coils, how fancy is that!
+
+#At the end of...
+#name
+multiblock.goals.quest39.name=At the end of...
+#description
+multiblock.goals.quest39.desc=...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff. You will need a minimum of 16 frost proof machine casings, the rest depends on your setup.
+
+#Dynamite
+#name
+multiblock.goals.quest40.name=Dynamite
+#description
+multiblock.goals.quest40.desc=Dynamite is the most basic explosive you can use in the implosion compressor.%nMix some paper, string and glyceryl trinitrate in a chemical reactor to get dynamite.
+
+#iTNT
+#name
+multiblock.goals.quest41.name=iTNT
+#description
+multiblock.goals.quest41.desc=Industrial TNT is the HV variant of TNT. It explodes with more power, yet does not destroy blocks when it explodes.
+
+#Cleanroom
+#name
+multiblock.goals.quest42.name=Cleanroom
+#description
+multiblock.goals.quest42.desc=If you want to make more advanced circuits you need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxDx) blocks. Besides plascrete blocks you need a controller, filter casings on the top, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.%n%nLet's build a 5x5x5 room.
+
+#A very useful Scanner
+#name
+multiblock.goals.quest43.name=A very useful Scanner
+#description
+multiblock.goals.quest43.desc=The portable scanner is a tool capable of showing advanced information about almost every block in the game.%nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.%n%nIt can scan crops, which shows more information than the cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.%nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load.%nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.%nIt also gives information about pollution level in the chunk the scanned block belongs to.%nAdditional to that it shows when the clenroom has reached his 100% efficeny level.
+
+#Upgrade #2: Higher tier
+#name
+multiblock.goals.quest44.name=Upgrade #2: Higher tier
+#description
+multiblock.goals.quest44.desc=To reach the 3600k heat capacity of your EBF, so you can process high-tier materials like tungsten, you need nichrome heating coils.
+
+#Upgrade #3: Upgrade tier 4
+#name
+multiblock.goals.quest45.name=Upgrade #3: Upgrade tier 4
+#description
+multiblock.goals.quest45.desc=To process more advanced materials like enderium, enriched naquadah or niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.
+
+#Upgrade #4: Upgrade tier 5
+#name
+multiblock.goals.quest46.name=Upgrade #4: Upgrade tier 5
+#description
+multiblock.goals.quest46.desc=To process more advanced materials like HSS-E, HSS-S, naquadah or draconium you need more than 4500K. Time to upgrade your EBF to 5400k.
+
+#Upgrade #6: Upgrade tier 7
+#name
+multiblock.goals.quest47.name=Upgrade #6: Upgrade tier 7
+#description
+multiblock.goals.quest47.desc=To process the most advanced materials like neutronium, fluxed-electrum or awakened draconium you need more than 7200K. Upgrade your EBF to 9001k. (OVER 9000!!!)
+
+#Upgrade #3: Upgrade tier 6
+#name
+multiblock.goals.quest48.name=Upgrade #3: Upgrade tier 6
+#description
+multiblock.goals.quest48.desc=To process more advanced materials like naquadah-alloy you need more than 5400K. Upgrade your EBF to 7200k to increase the heat.
+
+#########################
+#End Of Multiblock Goals#
+#########################
+
+
+
+
+
+
+
+
+
