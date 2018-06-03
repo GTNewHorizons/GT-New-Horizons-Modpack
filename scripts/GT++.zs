@@ -6,6 +6,8 @@
 
 
 import mods.gregtech.Assembler;
+import mods.gregtech.Canner;
+import mods.gregtech.FluidCanner;
 
 
 
@@ -113,3 +115,36 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 
 // --- Personla Cloaking Device
 Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium> * 4, <gregtech:gt.metaitem.01:32597>, <liquid:molten.nichrome> * 1440, 2400, 7860);
+
+
+
+
+
+// --- Canner Recipes ---
+
+
+
+
+// --- Gelid Cryotheum
+Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <miscutils:material:4>, <IC2:itemFluidCell>, 100, 120);
+
+// --- Blazing Cryotheum
+Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <gregtech:gt.metaitem.01:2843>, <IC2:itemFluidCell>, 100, 120);
+
+
+
+
+// --- Fluid Canner ---
+
+
+
+
+// --- Gelid Cryotheum
+FluidCanner.addRecipe(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <liquid:cryotheum> * 1000, null);
+// -
+FluidCanner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <IC2:itemFluidCell>, null, <liquid:cryotheum> * 1000);
+
+// --- Blazing Pyrotheum
+FluidCanner.addRecipe(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <liquid:pyrotheum> * 1000, null);
+// -
+FluidCanner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <IC2:itemFluidCell>, null, <liquid:pyrotheum> * 1000);
