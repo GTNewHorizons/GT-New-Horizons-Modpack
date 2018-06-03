@@ -1009,48 +1009,48 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:creosote> * 1000,
 // --- Farm Control
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:0}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:0}) * 2);
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:0}) * 2);
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:1}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:1}) * 2);
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:1}) * 2);
 // -
 
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:2}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:2}) * 2);
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:2}) * 2);
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:3}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:3}) * 2);														
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:3}) * 2);														
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:4}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:4}) * 2);
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:4}) * 2);
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:5}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:5}) * 2);
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:5}) * 2);
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:6}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:6}) * 2);
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:6}) * 2);
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:7}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:7}) * 2);
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:7}) * 2);
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:8}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:8}) * 2);															
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:8}) * 2);															
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:9}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:9}) * 2);																
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:9}) * 2);																
 //-
 mods.forestry.Carpenter.addRecipe(<Forestry:ffarm:5>.withTag({FarmBlock:10}) * 2, [[<Forestry:thermionicTubes:4>, <gregtech:gt.metaitem.02:31305>, <Forestry:thermionicTubes:4>],
                                                             [<ore:circuitBasic>, <gregtech:gt.metaitem.01:32600>, <ore:circuitBasic>],
-                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm:5>.withTag({FarmBlock:10}) * 2);
+                                                            [<Forestry:thermionicTubes:4>, <gregtech:gt.blockmachines:1246>, <Forestry:thermionicTubes:4>]], <liquid:creosote> * 1000, 60,  <Forestry:ffarm>.withTag({FarmBlock:10}) * 2);
 															
 // --- Tools and Items ---
 
