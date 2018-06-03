@@ -1222,95 +1222,95 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:90>.withTag(
 
 // --- Mechanists Amber Wand
 mods.thaumcraft.Arcane.addShaped("Rod_AmberGTNH", <Thaumcraft:WandCasting:48>.withTag({cap: "MECHANIST", rod: "AMBER"}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedMechanistWandCap>],
-[<ore:screwTungstenSteel>, <ThaumicExploration:amberCore>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<ore:screwStainlessSteel>, <ThaumicExploration:amberCore>, <ore:screwStainlessSteel>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
 // --- Mechanists Amber Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:72>.withTag({cap: "MECHANIST", rod: "AMBER", sceptre: 1}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ThaumicExploration:amberCore>, <dreamcraft:item.ChargedMechanistWandCap>],
-[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+[<dreamcraft:item.LichBone>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <ThaumicExploration:amberCore>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwStainlessSteel>,<dreamcraft:item.LichBone>]]);
 
 // --- Sorjournas Amber Wand
 mods.thaumcraft.Arcane.addShaped("Rod_AmberGTNH", <Thaumcraft:WandCasting:48>.withTag({cap: "SOJOURNER", rod: "AMBER"}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSojournerWandCap>],
-[<ore:screwTungstenSteel>, <ThaumicExploration:amberCore>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<ore:screwStainlessSteel>, <ThaumicExploration:amberCore>, <ore:screwStainlessSteel>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
 // --- Sorjournas Amber Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:72>.withTag({cap: "SOJOURNER", rod: "AMBER", sceptre: 1}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ThaumicExploration:amberCore>, <dreamcraft:item.ChargedSojournerWandCap>],
-[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+[<dreamcraft:item.LichBone>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <ThaumicExploration:amberCore>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
 // --- Mechanists Amber Wand Staff
 mods.thaumcraft.Arcane.addShaped("Rod_Amber_StaffGTNH", <Thaumcraft:WandCasting:108>.withTag({cap: "MECHANIST", rod: "AMBER_staff"}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedMechanistWandCap>],
-[<ore:screwTungstenSteel>, <ThaumicExploration:amberStaffCore>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<ore:screwStainlessSteel>, <ThaumicExploration:amberStaffCore>, <ore:screwStainlessSteel>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
 // --- Mechanists Amber Scepter Staff
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:162>.withTag({cap: "MECHANIST", rod: "AMBER_staff", sceptre: 1}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ThaumicExploration:amberStaffCore>, <dreamcraft:item.ChargedMechanistWandCap>],
-[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+[<dreamcraft:item.LichBone>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <ThaumicExploration:amberStaffCore>, <dreamcraft:item.ChargedMechanistWandCap>],
+[<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
 // --- Sorjournas Amber Wand Staff
 mods.thaumcraft.Arcane.addShaped("Rod_Amber_StaffGTNH", <Thaumcraft:WandCasting:108>.withTag({cap: "SOJOURNER", rod: "AMBER_staff"}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.ChargedSojournerWandCap>],
-[<ore:screwTungstenSteel>, <ThaumicExploration:amberStaffCore>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<ore:screwStainlessSteel>, <ThaumicExploration:amberStaffCore>, <ore:screwStainlessSteel>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
 // --- Sorjournas Amber Scepter Staff
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:162>.withTag({cap: "SOJOURNER", rod: "AMBER_staff", sceptre: 1}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ThaumicExploration:amberStaffCore>, <dreamcraft:item.ChargedSojournerWandCap>],
-[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
+[<dreamcraft:item.LichBone>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
+[<ore:screwStainlessSteel>, <ThaumicExploration:amberStaffCore>, <dreamcraft:item.ChargedSojournerWandCap>],
+[<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
 
-// --- Mechanists Amber Wand
+// --- Mechanists Transmutative Wand
 mods.thaumcraft.Arcane.addShaped("Rod_TransmutatitionGTNH", <Thaumcraft:WandCasting:36>.withTag({cap: "MECHANIST", rod: "TRANSMUTATION"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
 [<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedMechanistWandCap>],
 [<ore:screwTitanium>, <ThaumicExploration:transmutationCore>, <ore:screwTitanium>],
 [<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
-// --- Mechanists Amber Scepter
+// --- Mechanists Transmutative Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:54>.withTag({cap: "MECHANIST", rod: "TRANSMUTATION", sceptre: 1}), "aer 110, terra 110, ignis 110, aqua 110, ordo 110, perditio 110", [
 [<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
 [<ore:screwTitanium>, <ThaumicExploration:transmutationCore>, <dreamcraft:item.ChargedMechanistWandCap>],
 [<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
-// --- Sorjournas Amber Wand
+// --- Sorjournas Transmutative Wand
 mods.thaumcraft.Arcane.addShaped("Rod_TransmutatitionGTNH", <Thaumcraft:WandCasting:36>.withTag({cap: "SOJOURNER", rod: "TRANSMUTATION"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
 [<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSojournerWandCap>],
 [<ore:screwTitanium>, <ThaumicExploration:transmutationCore>, <ore:screwTitanium>],
 [<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
-// --- Sorjournas Amber Scepter
+// --- Sorjournas Transmutative Scepter
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:54>.withTag({cap: "SOJOURNER", rod: "TRANSMUTATION", sceptre: 1}), "aer 110, terra 110, ignis 110, aqua 110, ordo 110, perditio 110", [
 [<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
 [<ore:screwTitanium>, <ThaumicExploration:transmutationCore>, <dreamcraft:item.ChargedSojournerWandCap>],
 [<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
-// --- Mechanists Amber Wand Staff
+// --- Mechanists Transmutative Wand Staff
 mods.thaumcraft.Arcane.addShaped("Rod_Transmutaion_StaffGTNH", <Thaumcraft:WandCasting:84>.withTag({cap: "MECHANIST", rod: "TRANSMUTATION_staff"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
 [<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedMechanistWandCap>],
 [<ore:screwTitanium>, <ThaumicExploration:transmutationStaffCore>, <ore:screwTitanium>],
 [<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
-// --- Mechanists Amber Scepter Staff
+// --- Mechanists Transmutative Scepter Staff
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:126>.withTag({cap: "MECHANIST", rod: "TRANSMUTATION_staff", sceptre: 1}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
 [<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedMechanistWandCap>, <Thaumcraft:ItemResource:15>],
 [<ore:screwTitanium>, <ThaumicExploration:transmutationStaffCore>, <dreamcraft:item.ChargedMechanistWandCap>],
 [<dreamcraft:item.ChargedMechanistWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
-// --- Sorjournas Amber Wand Staff
+// --- Sorjournas Transmutative Wand Staff
 mods.thaumcraft.Arcane.addShaped("Rod_Transmutaion_StaffGTNH", <Thaumcraft:WandCasting:84>.withTag({cap: "SOJOURNER", rod: "TRANSMUTATION_staff"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
 [<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.ChargedSojournerWandCap>],
 [<ore:screwTitanium>, <ThaumicExploration:transmutationStaffCore>, <ore:screwTitanium>],
 [<dreamcraft:item.ChargedSojournerWandCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
-// --- Sorjournas Amber Scepter Staff
+// --- Sorjournas Transmutative Scepter Staff
 mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:126>.withTag({cap: "SOJOURNER", rod: "TRANSMUTATION_staff", sceptre: 1}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
 [<TwilightForest:item.fieryBlood>, <dreamcraft:item.ChargedSojournerWandCap>, <Thaumcraft:ItemResource:15>],
 [<ore:screwTitanium>, <ThaumicExploration:transmutationStaffCore>, <dreamcraft:item.ChargedSojournerWandCap>],

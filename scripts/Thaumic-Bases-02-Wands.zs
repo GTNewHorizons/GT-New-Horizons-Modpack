@@ -194,7 +194,7 @@ Arcane.addShaped("ROD_tbthaumium", <Thaumcraft:WandCasting:24>.withTag({cap: "cl
 [<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 // --- Thauminite Bossed Thaumic Scepter
-Arcane.addShaped("ROD_tbthaumium", <Thaumcraft:WandCasting:36>.withTag({cap: "thauminite", rod: "tbthaumium", sceptre: 1 as byte}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
+Arcane.addShaped("ROD_tbthaumium", <Thaumcraft:WandCasting:36>.withTag({cap: "thauminite", rod: "tbthaumium", sceptre: 1 as byte}), "aer 125, terra 125, ignis 125, aqua 125, ordo 125, perditio 125", [
 [<TwilightForest:item.fieryBlood>, capThauminite, primalCharm],
 [<ore:screwTitanium>, <thaumicbases:resource:3>, capThauminite],
 [capThauminite, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
