@@ -305,7 +305,7 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:108>.withTag
 [capMana, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Manasteel Entwined Thaumic Wand
-Arcane.addShaped("ROD_tbvoid", <Thaumcraft:WandCasting:36>.withTag({cap: "manasteel", rod: "tbthaumium"}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
+Arcane.addShaped("ROD_tbthaumium", <Thaumcraft:WandCasting:36>.withTag({cap: "manasteel", rod: "tbthaumium"}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
 [<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, capMana],
 [<ore:screwTitanium>, <thaumicbases:resource:3>, <ore:screwTitanium>],
 [capMana, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
@@ -324,8 +324,8 @@ Arcane.addShaped("ROD_tbvoid", <Thaumcraft:WandCasting:96>.withTag({cap: "manast
 
 // --- Manasteel Entwined Void Scepter
 Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:144>.withTag({cap: "manasteel", rod: "tbvoid", sceptre:1}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, capMana],
-[<ore:screwTungstenSteel>, <thaumicbases:resource:4>, <ore:screwTungstenSteel>],
+[<TwilightForest:item.fieryTears>, capMana, primalCharm],
+[<ore:screwTungstenSteel>, <thaumicbases:resource:4>, capMana],
 [capMana, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Manasteel Entwined Livingwood Wand
@@ -699,8 +699,8 @@ Arcane.addShaped("ROD_tbvoid", <Thaumcraft:WandCasting:96>.withTag({cap: "vinteu
 
 // --- Vinteum Bossed Void Scepter
 Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:144>.withTag({cap: "vinteum", rod: "tbvoid", sceptre:1}), "aer 200, terra 200, ignis 200, aqua 200, ordo 200, perditio 200", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, capVinteum],
-[<ore:screwTungstenSteel>, <thaumicbases:resource:4>, <ore:screwTungstenSteel>],
+[<TwilightForest:item.fieryTears>, capVinteum, primalCharm],
+[<ore:screwTungstenSteel>, <thaumicbases:resource:4>, capVinteum],
 [capVinteum, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Vinteum Bossed Livingwood Wand
@@ -1428,25 +1428,25 @@ mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:162>.withTag
 [capElementium, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Elementium Kissed Thaumic Wand
-Arcane.addShaped("ROD_tbthaumium", <Thaumcraft:WandCasting:54>.withTag({cap: "elementium", rod: "tbthaumium"}), "aer 175, terra 175, ignis 175, aqua 175, ordo 175, perditio 175", [
+Arcane.addShaped("ROD_tbthaumium", <Thaumcraft:WandCasting:54>.withTag({cap: "elementium", rod: "tbthaumium"}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
 [<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, capElementium],
 [<ore:screwTitanium>, <thaumicbases:resource:3>, <ore:screwTitanium>],
 [capElementium, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 // --- Elementium Kissed Thaumic Scepter
-Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:81>.withTag({cap: "elementium", rod: "tbthaumium", sceptre: 1}), "aer 175, terra 175, ignis 175, aqua 175, ordo 175, perditio 175", [
+Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:81>.withTag({cap: "elementium", rod: "tbthaumium", sceptre: 1}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
 [<TwilightForest:item.fieryBlood>, capElementium, primalCharm],
 [<ore:screwTitanium>, <thaumicbases:resource:3>, capElementium],
 [capElementium, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
 
 // --- Elementium Kissed Void Wand
-Arcane.addShaped("ROD_tbvoid", <Thaumcraft:WandCasting:144>.withTag({cap: "elementium", rod: "tbvoid"}), "aer 175, terra 175, ignis 175, aqua 175, ordo 175, perditio 175", [
+Arcane.addShaped("ROD_tbvoid", <Thaumcraft:WandCasting:144>.withTag({cap: "elementium", rod: "tbvoid"}), "aer 190, terra 190, ignis 190, aqua 190, ordo 190, perditio 190", [
 [<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, capElementium],
 [<ore:screwTungstenSteel>, <thaumicbases:resource:4>, <ore:screwTungstenSteel>],
 [capElementium, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
 
 // --- Elementium Kissed Void Scepter
-Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:216>.withTag({cap: "elementium", rod: "tbvoid", sceptre:1}), "aer 175, terra 175, ignis 175, aqua 175, ordo 175, perditio 175", [
+Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:216>.withTag({cap: "elementium", rod: "tbvoid", sceptre:1}), "aer 210, terra 210, ignis 210, aqua 210, ordo 210, perditio 210", [
 [<TwilightForest:item.fieryTears>, capElementium, primalCharm],
 [<ore:screwTungstenSteel>, <thaumicbases:resource:4>, capElementium],
 [capElementium, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
