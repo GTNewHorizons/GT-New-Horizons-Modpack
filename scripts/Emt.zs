@@ -262,8 +262,8 @@ mods.thaumcraft.Arcane.addShaped("FeatherWings", <EMT:EMTItems:7>, "aer 5, terra
 [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>],
 [<minecraft:feather>, <EMT:EMTItems:9>, <minecraft:feather>],
 [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>]]);
-mods.thaumcraft.Research.addArcanePage("FeatherWings", <EMT:EMTItems:7>);
-mods.thaumcraft.Arcane.addShaped("FeatherWings", <EMT:EMTItems:7>, "aer 15, ordo 5", [
+mods.thaumcraft.Research.addArcanePage("FeatherWings", <EMT:EMTItems:11>);
+mods.thaumcraft.Arcane.addShaped("FeatherWings", <EMT:EMTItems:11>, "aer 15, ordo 5", [
 [<gregtech:gt.metaitem.01:21879>, <gregtech:gt.metaitem.01:21879>, null],
 [<EMT:EMTItems:8>, <EMT:EMTItems:8>, null],
 [null, null, null]]);
