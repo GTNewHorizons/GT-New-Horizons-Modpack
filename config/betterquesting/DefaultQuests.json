@@ -7641,7 +7641,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -8165,7 +8165,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -37795,7 +37795,7 @@
             {
               "id": "minecraft:stick",
               "Count": 1,
-              "OreDict": "stickWood",
+              "OreDict": "woodStick",
               "Damage": 0
             }
           ],
@@ -41696,7 +41696,8 @@
         }
       ],
       "preRequisites": [
-        6
+        6,
+        9
       ]
     },
     {
@@ -69558,7 +69559,7 @@
       ],
       "preRequisites": [
         77,
-        89
+        1148
       ]
     },
     {
@@ -70587,8 +70588,8 @@
         }
       ],
       "preRequisites": [
-        89,
-        767
+        767,
+        1148
       ]
     },
     {
@@ -70779,9 +70780,15 @@
           "rewards": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 32708
+            },
+            {
+              "id": "gregtech:gt.blockreinforced",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 5
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -138850,31 +138857,13 @@
               "Count": 16,
               "OreDict": "",
               "Damage": 14
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
+            },
             {
               "id": "GalacticraftCore:item.key",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
+            },
             {
               "id": "GalacticraftCore:item.schematic",
               "Count": 1,
@@ -140282,31 +140271,13 @@
               "Count": 16,
               "OreDict": "",
               "Damage": 7
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
+            },
             {
               "id": "GalacticraftMars:item.key",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
+            },
             {
               "id": "GalacticraftMars:item.schematic",
               "Count": 1,
@@ -145150,7 +145121,7 @@
         {
           "id": 7,
           "x": 324,
-          "y": 72
+          "y": 108
         },
         {
           "id": 8,
@@ -145229,12 +145200,12 @@
         },
         {
           "id": 471,
-          "x": 252,
-          "y": 72
+          "x": 288,
+          "y": 108
         },
         {
           "id": 484,
-          "x": 288,
+          "x": 252,
           "y": 72
         },
         {
