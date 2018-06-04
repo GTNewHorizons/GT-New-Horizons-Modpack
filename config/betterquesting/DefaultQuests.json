@@ -7641,7 +7641,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -8165,7 +8165,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -69558,7 +69558,7 @@
       ],
       "preRequisites": [
         77,
-        89
+        1148
       ]
     },
     {
@@ -70587,8 +70587,8 @@
         }
       ],
       "preRequisites": [
-        89,
-        767
+        767,
+        1148
       ]
     },
     {
@@ -70779,9 +70779,15 @@
           "rewards": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 32708
+            },
+            {
+              "id": "gregtech:gt.blockreinforced",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 5
             },
             {
               "id": "enhancedlootbags:lootbag",
