@@ -1320,6 +1320,28 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 
 
 
+// --- Circuit conversion
+// --- MV Tier
+
+
+// --- Yellow to Gold
+recipes.addShapeless(<gregtech:gt.metaitem.03:32079>,
+[<gregtech:gt.metaitem.03:32080>]);
+// --- Gold to Red
+recipes.addShapeless(<gregtech:gt.metaitem.01:32702>,
+[<gregtech:gt.metaitem.03:32079>]);
+
+
+// --- HV Tier
+
+
+// --- Green to Yellow
+recipes.addShapeless(<gregtech:gt.metaitem.01:32703>,
+[<gregtech:gt.metaitem.03:32082>]);
+// --- Yellow to Gold
+recipes.addShapeless(<IC2:itemPartCircuitAdv>,
+[<gregtech:gt.metaitem.01:32703>]);
+
 
 // --- Circuit Tooltips for Tiers ---
 
