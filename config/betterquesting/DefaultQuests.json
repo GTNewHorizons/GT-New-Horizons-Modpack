@@ -145247,7 +145247,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -145266,6 +145266,144 @@
       "rewards": [],
       "preRequisites": [
         1204
+      ]
+    },
+    {
+      "questID": 1496,
+      "name": "How the heck do I find ores?",
+      "description": "GregTech ore generation is based on veins. Veins are centered on orecenters, based on the chunk number. To find the chunk number, hit F3. In the X and Z lines you will see numbers like\nc: 3 (14)\nc: -2 (1)\n\nThe 3,-2 is the chunk\u0027s address. Ignore the negative sign.  Now, the orecenters are located at 3N+1 chunks.  So, 4,7 is an orecenter. 10,16. -22,19.  Etc. \n\nProtip: to find out if a number is divisible by 3, add the digits and see if the sum is divisible by 3.  So 86 \u003d 8+6 \u003d 14. So you need to go down 1 chunk or up 2 chunks so that you are on a 3N+1 chunk.\n\nFor reading all the way, I\u0027ll give you an ingot of iron.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:iron_ore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        15
+      ]
+    },
+    {
+      "questID": 1497,
+      "name": "Digging deeper",
+      "description": "Now that you know where to dig, dig all the way down to bedrock to find if there is a vein located there.\n\nNow, what if you know what you want but notwhere to find it? Our fancy bartimausnek developer has added a nifty feature to NEI that shows you where to find ores! Simply look for the oreblock in NEI, and click on it for info on where to find that ore.\n\nMake sure you look for the Gregtech variety of the ore.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:gold_ore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 1,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp"
+        }
+      ],
+      "preRequisites": [
+        1496
+      ]
+    },
+    {
+      "questID": 1498,
+      "name": "A dimension by any other name...",
+      "description": "Use this table to decode dimension names\n\nOW - Overworld\nNe - Nether\nTF - Twilight Forest\nEN - End\nVA - Vanilla End Asteroids\nEA - End Asteroids\nMo - Moon\nMa - Mars\nAs - Mars Asteroids\nBC - Barnard C\nBE - Barnard E\nBF - Barnard F\nCa - Callisto\nCA - Centauri A\nCe - Ceres\nDe - Deimos\nEn - Enceladus\nEu - Europa\nHa - Haumea\nIo - Io\nKB - Kuiper Belt\nMM - Makemake\nMe - Mercury\nMi - Miranda\nOb - Oberon\nPh - Phobos\nPl - Pluto\nPr - Proteus\nTE - Tau Ceti E\nTi - Titan\nTr - Triton\nVB - Vega B\nVe - Venus\nDD - Deep Dark/Underdark\n",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:coal_ore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1497
       ]
     }
   ],
@@ -145592,7 +145730,7 @@
         },
         {
           "id": 485,
-          "x": 528,
+          "x": 516,
           "y": 180
         },
         {
@@ -145622,7 +145760,7 @@
         },
         {
           "id": 481,
-          "x": 528,
+          "x": 516,
           "y": 216
         },
         {
@@ -145728,6 +145866,21 @@
         {
           "id": 1476,
           "x": 30,
+          "y": 108
+        },
+        {
+          "id": 1496,
+          "x": 444,
+          "y": 108
+        },
+        {
+          "id": 1497,
+          "x": 480,
+          "y": 108
+        },
+        {
+          "id": 1498,
+          "x": 516,
           "y": 108
         }
       ]
