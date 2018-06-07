@@ -95072,7 +95072,7 @@
     {
       "questID": 997,
       "name": "Dark Steel Armor advanced upgrades",
-      "description": "Your Dark Steel armor can be upgraded in various ways by combining it with various other items. You will need an anvil and a lot of XP.",
+      "description": "Your Dark Steel armor can be upgraded in various ways by combining it with various other items. You will need an anvil and a lot of XP.\n\nMake sure when making the potions to only do three at a time, so the NBT data matches.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -145405,6 +145405,251 @@
       "preRequisites": [
         1497
       ]
+    },
+    {
+      "questID": 1499,
+      "name": "Chemical bath",
+      "description": "Wait, what? You want more byproducts from your ores?  A cheaper way to make paper? Well, the chemical bath is perfect for you! \n\nYou\u0027ll have to provide liquids like mercury to extract different products like nickel, silver, copper, and platinum from ores. \n\nFor paper you\u0027ll only need some water and wood pulp. Maybe you\u0027ll find more uses for it!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 541
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 541
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        91,
+        93
+      ]
+    },
+    {
+      "questID": 1500,
+      "name": "Better Questing?",
+      "description": "For quests to save properly, you must be online and logged into your Mojang account.  Sorry, it\u0027s a limitation of Better Questing.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "questbook:questBook",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 1501,
+      "name": "Backup your stuff...",
+      "description": "Single player? Please install your preferred backup mod, or use the command line to backup your game. Not sure which to use? AromaBackup for 1.7.10 works pretty well.\n\nRemember though Journeymap information isn\u0027t included with AromaBackup, so you should backup your journeymap directory after exploration.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "adventurebackpack:blockCampFire",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1500
+      ]
+    },
+    {
+      "questID": 1502,
+      "name": "Tesla would be proud",
+      "description": "Tired of sticking your EnderIO items in the capacitor bank to charge it? Time to make a wireless charger.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockWirelessCharger",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockWirelessCharger",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        166
+      ]
     }
   ],
   "questLines": [
@@ -145561,6 +145806,16 @@
           "id": 1495,
           "x": 108,
           "y": 72
+        },
+        {
+          "id": 1500,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 1501,
+          "x": 0,
+          "y": 108
         }
       ]
     },
@@ -146346,11 +146601,6 @@
           "y": 528
         },
         {
-          "id": 99,
-          "x": 600,
-          "y": 216
-        },
-        {
           "id": 100,
           "x": 456,
           "y": 180
@@ -146889,6 +147139,11 @@
           "id": 1266,
           "x": 204,
           "y": 60
+        },
+        {
+          "id": 1499,
+          "x": 216,
+          "y": 162
         }
       ]
     },
@@ -147901,6 +148156,11 @@
           "id": 1289,
           "x": 180,
           "y": 228
+        },
+        {
+          "id": 1502,
+          "x": 336,
+          "y": 156
         }
       ]
     },
