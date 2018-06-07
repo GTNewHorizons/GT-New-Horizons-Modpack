@@ -7596,7 +7596,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings2",
-              "Count": 16,
+              "Count": 20,
               "OreDict": "",
               "Damage": 0
             }
@@ -7694,7 +7694,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.blockcasings2",
-              "Count": 16,
+              "Count": 21,
               "OreDict": "",
               "Damage": 1
             }
@@ -125325,7 +125325,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 432000,
+      "repeatTime": 1200,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -125370,7 +125370,7 @@
         }
       ],
       "preRequisites": [
-        1286
+        241
       ]
     },
     {
@@ -145431,7 +145431,7 @@
         "OreDict": "",
         "Damage": 541
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -145599,7 +145599,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -145650,6 +145650,82 @@
       "preRequisites": [
         166
       ]
+    },
+    {
+      "questID": 1503,
+      "name": "Nobody wants an explosion...",
+      "description": "...right?  So when building multiblocks, make sure you\n\n1. Don\u0027t cross chunk boundaries with the multiblock.\n\n2. Don\u0027t rely on resources coming from outside the chunk to prevent explosions.  In other words, make sure you source your water locally.\n\nGood luck.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:fireworks",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:fireworks",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 1504,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
     }
   ],
   "questLines": [
@@ -149252,6 +149328,16 @@
           "id": 1412,
           "x": 288,
           "y": 252
+        },
+        {
+          "id": 1503,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 1504,
+          "x": 234,
+          "y": 258
         }
       ]
     },
