@@ -224,6 +224,11 @@ recipes.removeShaped(<ore:ingotThauminite>, [
 [<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>],
 [<thaumicbases:resource>, <thaumicbases:resource>, <thaumicbases:resource>]]);
 
+// --- Aluminium Round
+recipes.removeShaped(<ore:roundAluminium>, [
+[<ore:craftingToolFile>,<TConstruct:oreBerries:4>, null],
+[<TConstruct:oreBerries:4>, <ore:craftingToolHardHammer>, null]]);
+
 // --- Iridium IC2
 recipes.remove(<IC2:itemOreIridium>);
 
