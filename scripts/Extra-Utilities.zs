@@ -61,6 +61,7 @@ val Noteblock = <minecraft:noteblock>;
 val BUD = <ExtraUtilities:budoff>;
 val WaterBucket = <minecraft:water_bucket>;
 val LVRegulator = <gregtech:gt.blockmachines:9271>;
+val LuVFieldgen = <gregtech:gt.metaitem.01:32675>;
 
 val SpeedUp = <ExtraUtilities:nodeUpgrade>;
 val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
@@ -581,7 +582,7 @@ mods.extraUtils.QED.addShapedRecipe(<AdvancedSolarPanel:BlockMolecularTransforme
 
 // --- Ender Quarry
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
-[EnderCore, <ore:gearTungstenSteel>, EnderCore],
+[EnderCore, LuVFieldgen, EnderCore],
 [EnderPump, DiamondMatrix, EnderPump],
 [EnderCore, AdvMiner, EnderCore]]);
 

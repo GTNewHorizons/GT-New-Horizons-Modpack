@@ -31,6 +31,7 @@ val IronFurnace = <IC2:blockMachine:1>;
 val IronPlate = <ore:plateAnyIron>;
 val Furnace = <minecraft:furnace>;
 val Wrench = <ore:craftingToolWrench>;
+val LuVFieldGen = <gregtech:gt.metaitem.01.32675>;
 
 
 
@@ -1282,7 +1283,7 @@ recipes.addShaped(<IC2:blockMachine2:1>, [
 
 // --- Teleporter
 recipes.addShaped(<IC2:blockMachine2>, [
-[<ore:circuitMaster>, <ore:lensDiamond>, <ore:circuitMaster>],
+[<LuVFieldGen>, <ore:lensDiamond>, LuVFieldGen],
 [<ore:circuitElite>, <IC2:blockElectric:5>, <ore:circuitElite>],
 [<gregtech:gt.metaitem.01:32604>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32604>]]);
 
