@@ -37926,7 +37926,7 @@
         }
       ],
       "preRequisites": [
-        89
+        1148
       ]
     },
     {
@@ -80189,7 +80189,7 @@
     {
       "questID": 850,
       "name": "Ethenone",
-      "description": "Hopefully you saved some sulfuric acid during your fuel production. Together with acetic acid you can make ethenone.\nCraft an advanced chemical reactor to get access to more advanced recipes.",
+      "description": "Hopefully you saved some sulfuric acid during your fuel production. Together with acetic acid you can make ethenone.\nCraft an advanced chemical reactor to get access to more advanced recipes.\n\nSave the ethenone for HV, you will need it to make tetranitromethane for cetane boosted diesel.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -81271,7 +81271,8 @@
         }
       ],
       "preRequisites": [
-        126
+        126,
+        160
       ]
     },
     {
@@ -92921,7 +92922,7 @@
         }
       ],
       "preRequisites": [
-        102
+        1084
       ]
     },
     {
@@ -93125,7 +93126,7 @@
     {
       "questID": 985,
       "name": "Time to kill (Ghast)",
-      "description": "They shoot you with explosive fireballs but they are weak when you hit them or knock the fireballs back with a weapon. Better upgrade your armor with fire and blast protection.",
+      "description": "They shoot you with explosive fireballs but they are weak when you hit them or knock the fireballs back with a weapon. Better upgrade your armor with fire and blast protection.\nSorry about the giant ghast Amancila, it can\u0027t be changed. You\u0027ll need to kill 10.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -106417,7 +106418,7 @@
     {
       "questID": 1114,
       "name": "Proven Frame",
-      "description": "Proven frames are much better than impregnated ones.\nEach frame doubles the bee\u0027s productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the proven frame has the longest durability.",
+      "description": "Proven frames are much better than impregnated ones.\nEach frame doubles the bee\u0027s productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the proven frame has the longest durability.\n\nYou can make them or purchase them from a villager.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -120479,7 +120480,8 @@
       ],
       "preRequisites": [
         1020,
-        1224
+        1224,
+        176
       ]
     },
     {
@@ -120802,7 +120804,8 @@
         }
       ],
       "preRequisites": [
-        746
+        746,
+        160
       ]
     },
     {
@@ -125325,7 +125328,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": 1200,
+      "repeatTime": 24000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -128259,7 +128262,7 @@
         "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 301
+        "Damage": 302
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -145726,6 +145729,1119 @@
       "tasks": [],
       "rewards": [],
       "preRequisites": []
+    },
+    {
+      "questID": 1505,
+      "name": "Not enough items",
+      "description": "More like too many items!\n\nHere are some tips for using NEI.\n\nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won\u0027t be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!\n\nEven better, you can use T to search nearby inventories, which will emit some particles.\n\nO will make the NEI information hide.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:bookshelf",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        15
+      ]
+    },
+    {
+      "questID": 1506,
+      "name": "NEI is more powerful than you imagine",
+      "description": "NEI has some really nice advanced features too.\n\nClick on an item to see the recipe to create it, and press Backspace to go back to the previous recipe. \n\nHold Shift to stop the oredict toggling items, and to show the oredict entries for the current item under your cursor.\n\nSearch using #oredict to find items that match that oredict; for example, #dyewhite will list all white dyes.\n\nSearch using @mod. to find all items from that mod; for example, @mod.gt++ will list all GT++ blocks.\n\nUse * (asterisk) as a wild card.  For example large * fluid pipe will show you all the large fluid pipes.\n\nIt has more advanced features, you should check the web for details.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:bookshelf",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1505
+      ]
+    },
+    {
+      "questID": 1507,
+      "name": "Making a list, checking it twice",
+      "description": "As your base grows, you\u0027re going to have a dozen different long term goals each with many steps. Build a clipboard to keep track of what you need to do.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BiblioCraft:item.BiblioClipboard",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "BiblioCraft:item.BiblioClipboard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
+      "questID": 1508,
+      "name": "A better crafting table",
+      "description": "Tired of your stuff falling out of your crafting table every time you walk away?  This fancy table from Tinker\u0027s Construct has slots to hold the items in your recipe. \n\nYou can also place it next to a tool station or tool forge to upgrade with 8 modifiers at a time. Very handy for additional speed or looting!\n\nWhen it is placed next to a vanilla chest, it will even show the chest\u0027s inventory in the crafting window. Single or double vanilla chests only please.\n\nCut it again for a sleek, low profile version.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "TConstruct:CraftingStation",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftingStation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSmith",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:plumjellysandwichItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        33
+      ]
+    },
+    {
+      "questID": 1509,
+      "name": "Travelocity!",
+      "description": "A staff of traveling can get you really moving around your base.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemTravelStaff",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Energy:4": 250000
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemTravelStaff",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16,
+              "tag": {
+                "Energy:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:blockTravelAnchor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        141
+      ]
+    },
+    {
+      "questID": 1510,
+      "name": "Biomes everywhere, but not the one you want?",
+      "description": "Tired of searching all over the map for that Bamboo Forest or Tropical rainforest?  Desperate for clay dust and need to find a Canyon biome?\n\nNature\u0027s compass will lead you to the biome you are looking for, if it is within range.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "naturescompass:NaturesCompass",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {}
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "naturescompass:NaturesCompass",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBees",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        97
+      ]
+    },
+    {
+      "questID": 1511,
+      "name": "Humid and warm?",
+      "description": "Stop guessing what the humidity and temperature are for your biome. Use the habitat locator to get a reading on your current climate.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:habitatLocator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:habitatLocator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        502
+      ]
+    },
+    {
+      "questID": 1512,
+      "name": "Put the drones in a jar and shake it up",
+      "description": "Once you get good effects from your bees, instead of just trashing the excessive drones, you can put them in collector\u0027s jars to get the effects anywhere in your base.\n\nHealing? XP? Poison?\n\nThe collector\u0027s jars can even be piped or connected to a conveyor so that drones last a long time.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "MagicBees:effectJar",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "MagicBees:effectJar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "MagicBees:effectJar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        504
+      ]
+    },
+    {
+      "questID": 1513,
+      "name": "Magic frames",
+      "description": "Alternatively, you can try going through the Apimancy tree of your Thauminomicon to make Magic Frames. They\u0027re the core of magically endowed frames.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "MagicBees:frameMagic",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "MagicBees:frameMagic",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "MagicBees:frameMagic",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1114
+      ]
+    },
+    {
+      "questID": 1514,
+      "name": "Chocolate frame",
+      "description": "The chocolate frame can be used to increase production, but reduces lifetime. A shrewd beekeeper can use this to speed up mutation by using 3 in an apiary to kill off queens quickly.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraBees:hiveFrame.cocoa",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraBees:hiveFrame.cocoa",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ExtraBees:hiveFrame.cocoa",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1513
+      ]
+    },
+    {
+      "questID": 1515,
+      "name": "Are the bees buzzing, or screaming?",
+      "description": "Soul frames don\u0027t shorten the life of the bee as much as chocolate frames, but they greatly increase the chances of a mutation.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraBees:hiveFrame.soul",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraBees:hiveFrame.soul",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ExtraBees:hiveFrame.soul",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1513
+      ]
+    },
+    {
+      "questID": 1516,
+      "name": "Bees buzzing beyond the dark",
+      "description": "If even the soul frame takes too long for your taste, the oblivion frame will destroy a bee in a single bee tick (27s). Be careful using more than one, there are rumors it might harm your princesses...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "MagicBees:frameOblivion",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "MagicBees:frameOblivion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:apiculture",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinBeesII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1513
+      ]
+    },
+    {
+      "questID": 1517,
+      "name": "Need a place for all those ores?",
+      "description": "How about a compressed chest from Avaritia?",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "avaritiaddons:CompressedChest",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "avaritiaddons:CompressedChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSmithI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        932
+      ]
+    },
+    {
+      "questID": 1518,
+      "name": "All the crops you could want",
+      "description": "Tired of applying bonemeal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate.  Bonemeal or fertilizer will make it work even faster.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:sprinkler",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:fertilizerCompound",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "OpenBlocks:sprinkler",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        138
+      ]
+    },
+    {
+      "questID": 1519,
+      "name": "Portable tanks too small?",
+      "description": "How about large steel fluid cells instead?  Each holds 8, and they can stack to 64. Unfortunately, you have to load and unload them using GT machines, but hey, 512 buckets in a single slot is pretty good!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32405
+      },
+      "visibility": "HIDDEN",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32405
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32405
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        105
+      ]
+    },
+    {
+      "questID": 1520,
+      "name": "Large Aluminium Fluid Cells",
+      "description": "512 buckets in a stack not cutting it?  Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That\u0027s half a supertank!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 4,
+        "OreDict": "",
+        "Damage": 32407
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32407
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32407
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1081
+      ]
     }
   ],
   "questLines": [
@@ -146213,6 +147329,26 @@
           "id": 1498,
           "x": 516,
           "y": 108
+        },
+        {
+          "id": 1505,
+          "x": 408,
+          "y": 72
+        },
+        {
+          "id": 1506,
+          "x": 444,
+          "y": 72
+        },
+        {
+          "id": 1507,
+          "x": 72,
+          "y": 36
+        },
+        {
+          "id": 1508,
+          "x": 408,
+          "y": 288
         }
       ]
     },
@@ -147220,6 +148356,16 @@
           "id": 1499,
           "x": 216,
           "y": 162
+        },
+        {
+          "id": 1510,
+          "x": 600,
+          "y": 216
+        },
+        {
+          "id": 1519,
+          "x": 312,
+          "y": 444
         }
       ]
     },
@@ -147831,6 +148977,16 @@
           "id": 1494,
           "x": 396,
           "y": 408
+        },
+        {
+          "id": 1518,
+          "x": 900,
+          "y": 138
+        },
+        {
+          "id": 1520,
+          "x": 588,
+          "y": 324
         }
       ]
     },
@@ -147850,8 +149006,8 @@
         },
         {
           "id": 163,
-          "x": 540,
-          "y": 156
+          "x": 492,
+          "y": 192
         },
         {
           "id": 165,
@@ -148237,6 +149393,16 @@
           "id": 1502,
           "x": 336,
           "y": 156
+        },
+        {
+          "id": 1509,
+          "x": 540,
+          "y": 156
+        },
+        {
+          "id": 1517,
+          "x": 288,
+          "y": 240
         }
       ]
     },
@@ -150545,6 +151711,36 @@
           "id": 1367,
           "x": 150,
           "y": 0
+        },
+        {
+          "id": 1511,
+          "x": 36,
+          "y": 36
+        },
+        {
+          "id": 1512,
+          "x": 252,
+          "y": 24
+        },
+        {
+          "id": 1513,
+          "x": 252,
+          "y": 180
+        },
+        {
+          "id": 1514,
+          "x": 306,
+          "y": 108
+        },
+        {
+          "id": 1515,
+          "x": 306,
+          "y": 144
+        },
+        {
+          "id": 1516,
+          "x": 306,
+          "y": 180
         }
       ]
     },
