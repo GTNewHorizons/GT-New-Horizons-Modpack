@@ -126,6 +126,9 @@ recipes.addShapeless(<BiomesOPlenty:coral1:13>, [<BiomesOPlenty:coral2:8>, <ore:
 // --- Blue Coral
 recipes.addShapeless(<BiomesOPlenty:coral1:14>, [<BiomesOPlenty:coral2:8>, <ore:dustGlowstone>, <ore:dyeBlue>]);
 
+// --- Dirt
+furnace.addRecipe(<minecraft:dirt>, <BiomesOPlenty:driedDirt>);
+
 
 
 
