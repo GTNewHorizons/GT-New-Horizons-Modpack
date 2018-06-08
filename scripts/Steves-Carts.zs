@@ -974,7 +974,7 @@ recipes.addShaped(<StevesCarts:CartModule:79>, [
 recipes.addShaped(<StevesCarts:CartModule:80>, [
 [GSawBlade, GSawBlade, GSawBlade],
 [GSawBlade, <StevesCarts:CartModule:79>, GSawBlade],
-[MasterCircuit, HvMotor, MasterCircuit]]);
+[AdvCircuit, HvMotor, AdvCircuit]]);
 
 // --- Tank Pane
 recipes.addShaped(<StevesCarts:ModuleComponents:61> * 2, [
