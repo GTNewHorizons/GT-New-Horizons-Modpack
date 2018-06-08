@@ -145701,36 +145701,6 @@
       "preRequisites": []
     },
     {
-      "questID": 1504,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": []
-    },
-    {
       "questID": 1505,
       "name": "Not enough items",
       "description": "More like too many items!\n\nHere are some tips for using NEI.\n\nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won\u0027t be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!\n\nEven better, you can use T to search nearby inventories, which will emit some particles.\n\nO will make the NEI information hide.",
@@ -149001,7 +148971,7 @@
         },
         {
           "id": 162,
-          "x": 240,
+          "x": 288,
           "y": 348
         },
         {
@@ -149096,7 +149066,7 @@
         },
         {
           "id": 860,
-          "x": 348,
+          "x": 372,
           "y": 384
         },
         {
@@ -149106,13 +149076,13 @@
         },
         {
           "id": 859,
-          "x": 144,
-          "y": 540
+          "x": 240,
+          "y": 516
         },
         {
           "id": 858,
           "x": 144,
-          "y": 492
+          "y": 516
         },
         {
           "id": 854,
@@ -149127,37 +149097,37 @@
         {
           "id": 856,
           "x": 84,
-          "y": 492
+          "y": 444
         },
         {
           "id": 147,
           "x": 84,
-          "y": 540
+          "y": 516
         },
         {
           "id": 855,
           "x": 204,
-          "y": 396
+          "y": 348
         },
         {
           "id": 851,
           "x": 204,
-          "y": 492
+          "y": 444
         },
         {
           "id": 853,
           "x": 204,
-          "y": 444
+          "y": 396
         },
         {
           "id": 841,
-          "x": 252,
-          "y": 492
+          "x": 204,
+          "y": 480
         },
         {
           "id": 557,
-          "x": 252,
-          "y": 540
+          "x": 168,
+          "y": 480
         },
         {
           "id": 943,
@@ -149211,12 +149181,12 @@
         },
         {
           "id": 1011,
-          "x": 288,
+          "x": 324,
           "y": 348
         },
         {
           "id": 1012,
-          "x": 348,
+          "x": 372,
           "y": 348
         },
         {
@@ -149376,7 +149346,7 @@
         },
         {
           "id": 1424,
-          "x": 288,
+          "x": 324,
           "y": 384
         },
         {
@@ -150499,11 +150469,6 @@
           "id": 1503,
           "x": 192,
           "y": 0
-        },
-        {
-          "id": 1504,
-          "x": 234,
-          "y": 258
         }
       ]
     },
