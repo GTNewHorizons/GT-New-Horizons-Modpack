@@ -31,7 +31,7 @@ val IronFurnace = <IC2:blockMachine:1>;
 val IronPlate = <ore:plateAnyIron>;
 val Furnace = <minecraft:furnace>;
 val Wrench = <ore:craftingToolWrench>;
-val LuVFieldGen = <gregtech:gt.metaitem.01.32675>;
+val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
 
 
 
