@@ -4001,4 +4001,13 @@ Pulverizer.addRecipe([<TConstruct:materials:38> * 2, <TConstruct:materials:38>],
 
 
 
+// --- Ordict remove ---
+
+
+// --- Gravel
+oreDict.nuggetAluminium.remove(<TConstruct:oreBerries:4>);
+
+
+
+
 // --- Hiding Stuff ---
