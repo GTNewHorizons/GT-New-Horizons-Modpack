@@ -145774,6 +145774,134 @@
       "preRequisites": []
     },
     {
+      "questID": 1504,
+      "name": "Divine rod of the gods?",
+      "description": "The ore finder rod takes the tedium out of finding an ore.  You\u0027ll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.\n\nOre blocks can be purchased from the Coins tab.\n\nTo use, shift click when looking at stone to open inventory and put the block into the slot.\n\nAs you get close, you will see and hear a response from the ore finder tool.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ifu:ifu_buildingKit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {}
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 23086
+            },
+            {
+              "id": "minecraft:stick",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23032
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28086
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ifu:ifu_buildingKit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 824
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 57
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 35
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 855
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
       "questID": 1505,
       "name": "Not enough items",
       "description": "More like too many items!\n\nHere are some tips for using NEI.\n\nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won\u0027t be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!\n\nEven better, you can use T to search nearby inventories, which will emit some particles.\n\nO will make the NEI information hide.",
@@ -146956,6 +147084,103 @@
       "preRequisites": [
         1231
       ]
+    },
+    {
+      "questID": 1522,
+      "name": "Portable prospecting tool",
+      "description": "Now that you have some tech, you\u0027ve discovered a way to prospect for ores. This took only has a chance at finding the ores in a chunk. If you are clever, you can use it to locate ores.\n\nUnfortunately, the tech to make it repairable or rechargeable doesn\u0027t work yet, so you\u0027ll have to make a new one each time it breaks.\n\nAnd since it doesn\u0027t make a convenient book like the seismic prospector, you\u0027ll have to keep track on your own where the ores are found.\n\nGood luck.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.detrav.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2,
+        "tag": {
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Steel",
+            "MaxDamage:4": 1000,
+            "SecondaryMaterial:8": "Steel"
+          }
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.detrav.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "GT.ToolStats:10": {
+                  "PrimaryMaterial:8": "Steel",
+                  "MaxDamage:4": 1000,
+                  "SecondaryMaterial:8": "Steel"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32690
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        530
+      ]
     }
   ],
   "questLines": [
@@ -147463,6 +147688,11 @@
           "id": 1508,
           "x": 408,
           "y": 288
+        },
+        {
+          "id": 1504,
+          "x": 144,
+          "y": 36
         }
       ]
     },
@@ -148480,6 +148710,11 @@
           "id": 1519,
           "x": 312,
           "y": 444
+        },
+        {
+          "id": 1522,
+          "x": 720,
+          "y": 252
         }
       ]
     },
