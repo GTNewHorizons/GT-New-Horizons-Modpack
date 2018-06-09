@@ -38,6 +38,9 @@ remove_TC_Arcane(CAP_Thauminite);
 // --- Iron Wand Cap
 recipes.remove(<Thaumcraft:WandCap>);
 
+// --- Iron Capped Wand
+recipes.remove(<Thaumcraft:WandCasting>);
+
 // --- Thaumcraft Wand Caps Arcane
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:*>);
 
@@ -175,8 +178,6 @@ mods.thaumcraft.Research.setComplexity("CAP_copper", 1);
 mods.thaumcraft.Research.addPage("SCEPTRE", "tc.research_page.RESEARCH.1");
 // -
 mods.thaumcraft.Research.addArcanePage("CAP_copper", <Thaumcraft:WandCasting:2>.withTag({cap: "copper", rod: "wood"}));
-
-mods.thaumcraft.Research.addPage("CAP_copper", "tc.research_page.CAP_copper.2");
 
 // --- Gold Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_gold");
