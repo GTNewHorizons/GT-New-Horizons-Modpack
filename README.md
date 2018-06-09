@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.4.1 is out 27.05.2018
+Version 2.0.4.3 is out 09.06.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -213,11 +213,11 @@ you find it in your resource folder<BR>
 * Enhanced Portals 3 3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
 * Extra Cells 2.3.14b200<BR>
-* Extra Utilities 1.2.13<BR>
+* Extra Utilities 1.2.14<BR>
 * FastCraft 1.23<BR>
 * Flood Light 1.2.8.137<BR>
 * Forbidden Magic 0.575<BR>
-* Forestry 4.2.16.64<BR>
+* Forestry 4.2.17.0<BR>
 * Forge Microblocks 1.2.0.347<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
@@ -228,17 +228,19 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.25<BR>
-* GT Scanner Mod 1.4.2<BR>
+* Gregtech 5.09.32.27<BR>
+* GT Scanner Mod 1.5.0<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.26<BR>
-* GT++ 1.7.1a<BR>
+* GT New Horizons Core Mod 1.5.27<BR>
+* GT++ 1.7.1b<BR>
+* GTNH TC Wands 1.0<BR>
 * GTTweaker 1.7.0<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
 * Holo Inventory 1.9.1.124<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
+* IFU 1.0<BR>
 * IguanaTinkerTweaks 2.1.2<BR>
 * Industrial Craft 2 2.2.2.828a<BR>
 * Industrial Craft 2 Nei Plugin 1.1.0<BR>
@@ -333,7 +335,7 @@ you find it in your resource folder<BR>
 * Warp Theory 1.0i dev<BR>
 * Wireless Redstone CBE 1.4.1.11<BR>
 * Witchery 0.24.1<BR>
-* Witching Gadgets 1.2.9b GTNH<BR>
+* Witching Gadgets 1.2.9c GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
 ## Libs and Cores<BR>
