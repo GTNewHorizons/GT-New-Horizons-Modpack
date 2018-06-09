@@ -93126,7 +93126,7 @@
     {
       "questID": 985,
       "name": "Time to kill (Ghast)",
-      "description": "They shoot you with explosive fireballs but they are weak when you hit them or knock the fireballs back with a weapon. Better upgrade your armor with fire and blast protection.\nSorry about the giant ghast Amancila, it can\u0027t be changed. You\u0027ll need to kill 10.",
+      "description": "They shoot you with explosive fireballs but they are weak when you hit them or knock the fireballs back with a weapon. Better upgrade your armor with fire and blast protection.\n\nSorry about the giant ghast Amancila, it can\u0027t be changed. \n\nYou\u0027ll need to kill 10.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110325,7 +110325,7 @@
     {
       "questID": 1137,
       "name": "Kinetic Power",
-      "description": "The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator, Kinetic Water Generator  or a Kinetic Steam Generator.",
+      "description": "The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator, Kinetic Water Generator  or a Kinetic Steam Generator.\n\nNOTE: It now requires an Avaritia Dire Crafting Table and Titanium. Follow the quests in Space Race and get to the moon.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110363,7 +110363,7 @@
             },
             {
               "id": "dreamcraft:item.StainlessSteelItemCasing",
-              "Count": 6,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             },
@@ -110396,7 +110396,7 @@
             },
             {
               "id": "gregtech:gt.metaitem.02",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 21306
             },
@@ -110410,7 +110410,43 @@
               "id": "gregtech:gt.blockmachines",
               "Count": 2,
               "OreDict": "",
-              "Damage": 1428
+              "Damage": 1646
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 18306
+            },
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 31028
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "circuitData",
+              "Damage": 32704
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32602
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32538
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -110441,10 +110477,10 @@
               "Damage": 6
             },
             {
-              "id": "IC2:itemPartCircuitAdv",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 32704
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -110474,7 +110510,7 @@
     {
       "questID": 1138,
       "name": "Kinetic Wind Power",
-      "description": "The Kinetic Wind Generator generates energy from wind power which varies randomly, although certain factors can change this. \nUnlike the Windmill, the Kinetic Wind Generator will require maintenance in the form of the Rotors. These are needed to run the Kinetic Wind Generator.\nOnce a Rotor is placed inside the GUI, the block is given sufficient space, and the current wind level is adequate for the current rotor, the Kinetic Wind Generator will begin to generate Kinetic Energy. \nThis can be converted into EU by using a Kinetic Generator attached to the correct face (the black circle).\nAbout Wind\nFirst off, the wind strength of a particular area is affected by 3 factors: Height, Weather, and Chance. The higher up in the world you are, the higher the wind level. Below y64, there is never enough wind to be used, and KWG\u0027s will not function at all. Weather will also give boosts; Rainy weather will give a 20% boost to normal wind levels, and stormy weather will give a 50% boost. The final factor of chance makes the wind strength vary randomly, however there is a limited range of variation.\nThe easiest way to check the current wind level in an area is by using a Windmeter.\nWind is strongest at around Y160, towards the build limit of Y255 there is very little wind, hence no point attempting to run Windmills that high.",
+      "description": "The Kinetic Wind Generator generates energy from wind power which varies randomly, although certain factors can change this. \nUnlike the Windmill, the Kinetic Wind Generator will require maintenance in the form of the Rotors. These are needed to run the Kinetic Wind Generator.\nOnce a Rotor is placed inside the GUI, the block is given sufficient space, and the current wind level is adequate for the current rotor, the Kinetic Wind Generator will begin to generate Kinetic Energy. \nThis can be converted into EU by using a Kinetic Generator attached to the correct face (the black circle).\nAbout Wind\nFirst off, the wind strength of a particular area is affected by 3 factors: Height, Weather, and Chance. The higher up in the world you are, the higher the wind level. Below y64, there is never enough wind to be used, and KWG\u0027s will not function at all. Weather will also give boosts; Rainy weather will give a 20% boost to normal wind levels, and stormy weather will give a 50% boost. The final factor of chance makes the wind strength vary randomly, however there is a limited range of variation.\nThe easiest way to check the current wind level in an area is by using a Windmeter.\nWind is strongest at around Y160, towards the build limit of Y255 there is very little wind, hence no point attempting to run Windmills that high.\nWhile inconvenient, the Wind Generator can run anywhere.\n\nYou will need to use NEI to see the recipe, since it use the Dire Crafting table. Make sure to put the items in the right place, or you will get a Water Generator instead.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110512,7 +110548,7 @@
             },
             {
               "id": "dreamcraft:item.StainlessSteelItemCasing",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             },
@@ -110520,19 +110556,37 @@
               "id": "gregtech:gt.metaitem.02",
               "Count": 2,
               "OreDict": "",
-              "Damage": 21306
+              "Damage": 20028
             },
             {
               "id": "IC2:itemRecipePart",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 12
             },
             {
-              "id": "IC2:itemPartCircuitAdv",
+              "id": "gregtech:gt.metaitem.01",
               "Count": 2,
-              "OreDict": "circuitAdvanced",
-              "Damage": 0
+              "OreDict": "circuitData",
+              "Damage": 32704
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 18306
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1646
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32602
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -110596,7 +110650,7 @@
     {
       "questID": 1139,
       "name": "Kinetic Water Power",
-      "description": "The Kinetic Water Generator allows Kinetic Units to be produced via the movement of water in river and (deep) ocean biomes. As with the Kinetic Wind Generator, it requires either a Wooden, Iron, Steel, Carbon Gearbox Rotor or GT++.\nIf the Kinetic Water Generator\u0027s Rotor isn\u0027t entirely submerged in water, it will alert you there is \"no room for the rotor\". If the Kinetic Water Generator isn\u0027t placed in a river, ocean or deep ocean biome, it will alert you it \"must be placed in a river or ocean biome\".",
+      "description": "The Kinetic Water Generator allows Kinetic Units to be produced via the movement of water in river and (deep) ocean biomes. As with the Kinetic Wind Generator, it requires either a Wooden, Iron, Steel, Carbon Gearbox Rotor or GT++.\n\nIf the Kinetic Water Generator\u0027s Rotor isn\u0027t entirely submerged in water, it will alert you there is \"no room for the rotor\". If the Kinetic Water Generator isn\u0027t placed in a river, ocean or deep ocean biome, it will alert you it \"must be placed in a river or ocean biome\".\n\nWhile inconvenient, the Water Generator runs more consistently.\n\nYou will need to use NEI to see the recipe, since it use the Dire Crafting table. Make sure to put the items in the right place, or you will get a Wind Generator instead.\n\nYou can use Witchery to convert biomes.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -110634,27 +110688,45 @@
             },
             {
               "id": "dreamcraft:item.StainlessSteelItemCasing",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32602
+            },
+            {
+              "id": "IC2:itemRecipePart",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32704
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1646
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 18306
             },
             {
               "id": "gregtech:gt.metaitem.02",
               "Count": 2,
               "OreDict": "",
-              "Damage": 21306
-            },
-            {
-              "id": "IC2:itemRecipePart",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 12
-            },
-            {
-              "id": "IC2:itemPartCircuitAdv",
-              "Count": 2,
-              "OreDict": "circuitAdvanced",
-              "Damage": 0
+              "Damage": 20028
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -137107,7 +137179,7 @@
         }
       ],
       "preRequisites": [
-        1477
+        1494
       ]
     },
     {
@@ -137254,7 +137326,7 @@
     {
       "questID": 1419,
       "name": "Who cares about a little cancer...",
-      "description": "...when it means you don\u0027t have to strip naked to recharge your nanosuit? \nThe Wireless Charger will keep your armor and tools charged up without \nhaving to put them into a battery buffer. \n\nYou didn\u0027t want kids anyways...     ",
+      "description": "...when it means you don\u0027t have to strip naked to recharge your nanosuit? \nThe Wireless Charger will keep your armor and tools charged up without having to put them into a battery buffer. \n\nIt will charge armor and tools at the tier and below.\n\nYou didn\u0027t want kids anyways...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -137495,8 +137567,8 @@
         }
       ],
       "preRequisites": [
-        1231,
-        838
+        1164,
+        1521
       ]
     },
     {
@@ -145126,7 +145198,7 @@
     {
       "questID": 1494,
       "name": "Stainless taking too long?",
-      "description": "Time for a second blast furnace! \n\nYou can make ingots faster 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It\u0027s probably time to t add a second EBF to your base. EBFs can share walls and input/output hatches, but not mufflers or energy hatches.\n\nRemember pollution will be very high with two EBFs active at once!\nWatch out for high pollution effects. Use the best mufflers available and don\u0027t place the EBFs in the same chunk as farmland or other high pollution machines like pyrolyze ovens and large boilers.\n\nYou can use whatever coils you have lying around, but you might want to start searching for Mica if you haven\u0027t found any yet.",
+      "description": "Time for a second blast furnace! \n\nYou can make ingots faster 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It\u0027s probably time to add a second EBF to your base. EBFs can share walls and input/output hatches, but not mufflers or energy hatches.\n\nRemember pollution will be very high with two EBFs active at once!\nWatch out for high pollution effects. Use the best mufflers available and don\u0027t place the EBFs in the same chunk as farmland or other high pollution machines like pyrolyze ovens and large boilers.\n\nYou can use whatever coils you have lying around, but you might want to start searching for Mica if you haven\u0027t found any yet.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -146811,6 +146883,77 @@
       ],
       "preRequisites": [
         1081
+      ]
+    },
+    {
+      "questID": 1521,
+      "name": "Separating gems from the dust",
+      "description": "The sifter runs so slow, you should make an HV sifter to get gems faster. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 643
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 643
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1231
       ]
     }
   ],
@@ -148957,6 +149100,11 @@
           "id": 1520,
           "x": 588,
           "y": 324
+        },
+        {
+          "id": 1417,
+          "x": 432,
+          "y": 408
         }
       ]
     },
@@ -149371,8 +149519,18 @@
         },
         {
           "id": 1517,
+          "x": 324,
+          "y": 276
+        },
+        {
+          "id": 1420,
+          "x": 300,
+          "y": 192
+        },
+        {
+          "id": 1521,
           "x": 288,
-          "y": 240
+          "y": 234
         }
       ]
     },
@@ -149699,6 +149857,16 @@
           "id": 1474,
           "x": 228,
           "y": 240
+        },
+        {
+          "id": 1416,
+          "x": 72,
+          "y": 240
+        },
+        {
+          "id": 1418,
+          "x": 72,
+          "y": 276
         }
       ]
     },
@@ -149790,6 +149958,21 @@
           "id": 202,
           "x": 162,
           "y": 48
+        },
+        {
+          "id": 1421,
+          "x": 36,
+          "y": 90
+        },
+        {
+          "id": 1422,
+          "x": 108,
+          "y": 90
+        },
+        {
+          "id": 1423,
+          "x": 36,
+          "y": 132
         }
       ]
     },
@@ -150208,6 +150391,11 @@
           "id": 1444,
           "x": 252,
           "y": 240
+        },
+        {
+          "id": 1419,
+          "x": 180,
+          "y": 324
         }
       ]
     },
@@ -151346,7 +151534,7 @@
       ]
     },
     {
-      "name": "GT++ Multiblocks",
+      "name": "GT++ ",
       "description": "GT++ adds new functionality to GT, including high speed multiblocks - Under Construction",
       "quests": [
         {
