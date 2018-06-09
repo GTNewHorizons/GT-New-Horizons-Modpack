@@ -62,6 +62,9 @@ val BUD = <ExtraUtilities:budoff>;
 val WaterBucket = <minecraft:water_bucket>;
 val LVRegulator = <gregtech:gt.blockmachines:9271>;
 val LuVFieldgen = <gregtech:gt.metaitem.01:32675>;
+val HVWA = <gregtech:gt.blockmachines:11102>;
+val EVWA = <gregtech:gt.blockmachines:11103>;
+val IVWA = <gregtech:gt.blockmachines:11104>;
 
 val SpeedUp = <ExtraUtilities:nodeUpgrade>;
 val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
@@ -648,21 +651,21 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:5>, [
 
 // --- Quarry Speed I Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [
-[UpgradeBase, <ore:gearTitanium>, UpgradeBase],
+[HVWA, <ore:gearTitanium>, HVWA],
 [SpeedUp, <ore:gearDiamond>, SpeedUp],
-[UpgradeBase, <ore:gearTitanium>, UpgradeBase]]);
+[HVWA, <ore:gearTitanium>, HVWA]]);
 
 // --- Quarry Speed II Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [
-[UpgradeBase, <ore:gearTungstenSteel>, UpgradeBase],
+[EVWA, <ore:gearTungstenSteel>, EVWA],
 [<ore:gearTungstenSteel>, <ExtraUtilities:enderQuarryUpgrade:6>, <ore:gearTungstenSteel>],
-[UpgradeBase, <ore:gearTungstenSteel>, UpgradeBase]]);
+[EVWA, <ore:gearTungstenSteel>, EVWA]]);
 
 // --- Quarry Speed III Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [
-[UpgradeBase, <ore:gearChrome>, UpgradeBase],
+[IVWA, <ore:gearChrome>, IVWA],
 [<ore:gearChrome>, <ExtraUtilities:enderQuarryUpgrade:7>, <ore:gearChrome>],
-[UpgradeBase, <ore:gearChrome>, UpgradeBase]]);
+[IVWA, <ore:gearChrome>, IVWA]]);
 
 // --- Quarry Pump Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [
