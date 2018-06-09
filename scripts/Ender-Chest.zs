@@ -18,6 +18,3 @@ recipes.remove(<EnderStorage:enderChest:*>);
 
 // --- Ender Pouch
 recipes.remove(<EnderStorage:enderPouch:*>);
-
-
-// --- Adding Recipes ---

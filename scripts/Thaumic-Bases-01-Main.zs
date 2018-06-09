@@ -438,7 +438,6 @@ Warp.addToResearch("TB.ThaumicAnvil",1);
 Research.clearPages("ROD_tbthaumium");
 Research.addPage("ROD_tbthaumium","tb.rec.thaumRod.page.0");
 Research.addInfusionPage("ROD_tbthaumium",<thaumicbases:resource:3>);
-Research.addArcanePage("ROD_tbthaumium", <Thaumcraft:WandCasting:36>.withTag({cap: "thaumium", rod: "tbthaumium"}));
 
 // --- Bloody Robes
 Research.refreshResearchRecipe("TB.BloodyRobes");
