@@ -144,29 +144,29 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:13>);
 mods.thaumcraft.Research.clearPages("BASICTHAUMATURGY");
 mods.thaumcraft.Research.addPage("BASICTHAUMATURGY", "tc.research_page.BASICTHAUMATURGY.1");
 mods.thaumcraft.Research.addPage("BASICTHAUMATURGY", "tc.research_page.BASICTHAUMATURGY.2");
-recipes.addShaped(<dreamcraft:item.IronWandCap>, [
+recipes.addShaped(<Thaumcraft:WandCap>, [
 [<ore:screwIron>, <ore:foilIron>, <ore:screwIron>],
 [<ore:foilIron>, <ore:ringIron>, <ore:foilIron>],
 [<ore:screwIron>, <ore:foilIron>, <ore:screwIron>]]);
 // -
-mods.thaumcraft.Research.addCraftingPage("BASICTHAUMATURGY", <dreamcraft:item.IronWandCap>);
+mods.thaumcraft.Research.addCraftingPage("BASICTHAUMATURGY", <Thaumcraft:WandCap>);
 
 // --- Iron Capped Wooden Wand
 recipes.addShaped(<Thaumcraft:WandCasting>.withTag({aqua: 0, terra: 0, ignis: 0, ordo: 0, perditio: 0, aer: 0}), [
-[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.IronWandCap>],
+[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <Thaumcraft:WandCap>],
 [<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
-[<dreamcraft:item.IronWandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
+[<Thaumcraft:WandCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
 // -
 mods.thaumcraft.Research.addCraftingPage("BASICTHAUMATURGY", <Thaumcraft:WandCasting>);
 
 // --- Copper Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_copper");
 mods.thaumcraft.Research.addPage("CAP_copper", "tc.research_page.CAP_copper.1");
-mods.thaumcraft.Arcane.addShaped("CAP_copper", <dreamcraft:item.CopperWandCap>, "ordo 15, ignis 15, aer 15", [
+mods.thaumcraft.Arcane.addShaped("CAP_copper", <Thaumcraft:WandCap:3>, "ordo 15, ignis 15, aer 15", [
 [<ore:screwSteel>, <ore:foilCopper>, <ore:screwSteel>],
 [<ore:foilCopper>, <ore:ringCopper>, <ore:foilCopper>],
 [<ore:screwSteel>, <ore:foilCopper>, <ore:screwSteel>]]);
-mods.thaumcraft.Research.addArcanePage("CAP_copper", <dreamcraft:item.CopperWandCap>);
+mods.thaumcraft.Research.addArcanePage("CAP_copper", <Thaumcraft:WandCap:3>);
 // -
 mods.thaumcraft.Research.setAspects("CAP_copper", "instrumentum 3, metallum 6, permutatio 6");
 mods.thaumcraft.Research.setComplexity("CAP_copper", 1);
@@ -181,11 +181,11 @@ mods.thaumcraft.Research.addPage("CAP_copper", "tc.research_page.CAP_copper.2");
 // --- Gold Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_gold");
 mods.thaumcraft.Research.addPage("CAP_gold", "tc.research_page.CAP_gold.1");
-mods.thaumcraft.Arcane.addShaped("CAP_gold", <dreamcraft:item.GoldWandCap>, "ordo 20, ignis 20, aer 20", [
+mods.thaumcraft.Arcane.addShaped("CAP_gold", <Thaumcraft:WandCap:1>, "ordo 20, ignis 20, aer 20", [
 [<ore:screwAluminium>, <ore:foilGold>, <ore:screwAluminium>],
 [<ore:foilGold>, <ore:ringGold>, <ore:foilGold>],
 [<ore:screwAluminium>, <ore:foilGold>, <ore:screwAluminium>]]);
-mods.thaumcraft.Research.addArcanePage("CAP_gold", <dreamcraft:item.GoldWandCap>);
+mods.thaumcraft.Research.addArcanePage("CAP_gold", <Thaumcraft:WandCap:1>);
 // -
 mods.thaumcraft.Research.setAspects("CAP_gold", "instrumentum 9, metallum 6, lucrum 3");
 mods.thaumcraft.Research.setComplexity("CAP_gold", 2);
@@ -204,7 +204,7 @@ mods.thaumcraft.Arcane.addShaped("CAP_silver", <Thaumcraft:WandCap:5>, "ordo 25,
 mods.thaumcraft.Research.addArcanePage("CAP_silver", <Thaumcraft:WandCap:5>);
 
 // --- Charged Silver Wand Cap
-mods.thaumcraft.Research.addInfusionPage("CAP_silver", <dreamcraft:item.ChargedSilverWandCap>);
+mods.thaumcraft.Research.addInfusionPage("CAP_silver", <Thaumcraft:WandCap:4>);
 // -
 mods.thaumcraft.Research.addArcanePage("CAP_silver", <Thaumcraft:WandCasting:4>.withTag({cap: "silver", rod: "wood"}));
 
@@ -221,8 +221,8 @@ mods.thaumcraft.Research.addArcanePage("CAP_thaumium", <Thaumcraft:WandCap:6>);
 // --- Charged Thaumium Wand Cap
 mods.thaumcraft.Infusion.addRecipe("CAP_thaumium", <Thaumcraft:WandCap:6>, 
 [<Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2330>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2330>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2330>], 
-"auram 25, potentia 40, praecantatio 25", <dreamcraft:item.ChargedThaumiumWandCap>, 5);
-mods.thaumcraft.Research.addInfusionPage("CAP_thaumium", <dreamcraft:item.ChargedThaumiumWandCap>);
+"auram 25, potentia 40, praecantatio 25", <Thaumcraft:WandCap:2>, 5);
+mods.thaumcraft.Research.addInfusionPage("CAP_thaumium", <Thaumcraft:WandCap:2>);
 // -
 mods.thaumcraft.Research.setAspects("CAP_thaumium", "instrumentum 6, auram 9, metallum 12, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("CAP_thaumium", 3);

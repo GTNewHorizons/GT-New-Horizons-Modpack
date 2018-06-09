@@ -34,7 +34,7 @@ recipes.addShapeless(<enhancedlootbags:lootbag:9>.withTag({ench: [{lvl: 3 as sho
 recipes.addShapeless(<enhancedlootbags:lootbag:10>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:10>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Thaumcraft:ItemBathSalts>]);
 
 // --- Loot Bag (Magic Grandmaster)
-recipes.addShapeless(<enhancedlootbags:lootbag:12>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:12>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <dreamcraft:item.ChargedThaumiumWandCap>]);
+recipes.addShapeless(<enhancedlootbags:lootbag:12>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:12>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Thaumcraft:WandCap:2>]);
 
 // --- Loot Bag (Magic Grandmaster Unique)
 recipes.addShapeless(<enhancedlootbags:lootbag:13>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:13>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <ThaumicTinkerer:warpGate>]);

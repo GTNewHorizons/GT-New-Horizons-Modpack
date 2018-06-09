@@ -15,7 +15,7 @@ val plankGreatwood = <Thaumcraft:blockWoodenDevice:6>;
 val alumentum = <Thaumcraft:ItemResource:0>;
 val nitor = <Thaumcraft:ItemResource:1>;
 val salis = <Thaumcraft:ItemResource:14>;
-val capThauminite = <dreamcraft:item.WandCapThauminite>;
+val capThauminite = <thaumicbases:resource:2>;
 
 
 // --- Removing Recipes ---
@@ -166,7 +166,7 @@ Infusion.addRecipe("TB.VoidSeed",<Thaumcraft:ItemResource:17>,
 "messis 64, herba 64, victus 32, auram 32, praecantatio 16, alienis 16, tenebrae 16, desidia 8, nebrisum 8",<thaumicbases:voidSeed>,10);
 
 // --- Thauminite Wand Caps
-Infusion.addRecipe("CAP_thauminite",<dreamcraft:item.ChargedThaumiumWandCap>,
+Infusion.addRecipe("CAP_thauminite",<Thaumcraft:WandCap:2>,
 [<thaumicbases:resource:1>,salis,<Thaumcraft:ItemResource:3>,<thaumicbases:resource:1>,salis,<Thaumcraft:ItemResource:3>,<thaumicbases:resource:1>,salis,<Thaumcraft:ItemResource:3>],
 "praecantatio 32, auram 16, metallum 16, vitreus 16, instrumentum 32",capThauminite,6);
 
@@ -225,55 +225,55 @@ Infusion.addRecipe("TB.NodeLinker",<Thaumcraft:blockStoneDevice:11>,
 //Iron
 Arcane.addShaped("TB.Bracelet.Iron",<thaumicbases:castingBracelet:0>,"aer 30, ignis 30, aqua 30, terra 30, ordo 30, perditio 30",[
 [<ore:screwAluminium>,<TwilightForest:item.nagaScale>,<ore:screwAluminium>],
-[<dreamcraft:item.IronWandCap>,<ore:stickIron>,<dreamcraft:item.IronWandCap>],
+[<Thaumcraft:WandCap>,<ore:stickIron>,<Thaumcraft:WandCap>],
 [<ore:boltIron>,<ore:craftingToolScrewdriver>,<ore:boltIron>]]);
 
 //Gold
 Arcane.addShaped("TB.Bracelet.Gold",<thaumicbases:castingBracelet:1>,"aer 60, ignis 60, aqua 60, terra 60, ordo 60, perditio 60",[
 [<ore:screwStainlessSteel>,<dreamcraft:item.LichBone>,<ore:screwStainlessSteel>],
-[<dreamcraft:item.GoldWandCap>,<ore:stickGold>,<dreamcraft:item.GoldWandCap>],
+[<Thaumcraft:WandCap:1>,<ore:stickGold>,<Thaumcraft:WandCap:1>],
 [<ore:boltGold>,<ore:craftingToolScrewdriver>,<ore:boltGold>]]);
 
 //Greatwood
 Arcane.addShaped("TB.Bracelet.Greatwood",<thaumicbases:castingBracelet:2>,"aer 90, ignis 90, aqua 90, terra 90, ordo 90, perditio 90",[
 [<ore:screwStainlessSteel>,<dreamcraft:item.LichBone>,<ore:screwStainlessSteel>],
-[<dreamcraft:item.GoldWandCap>,<Thaumcraft:WandRod:0>,<dreamcraft:item.GoldWandCap>],
+[<Thaumcraft:WandCap:1>,<Thaumcraft:WandRod:0>,<Thaumcraft:WandCap:1>],
 [<ore:boltRoseGold>,<ore:craftingToolScrewdriver>,<ore:boltRoseGold>]]);
 
 //Reed
 Arcane.addShaped("TB.Bracelet.Reed",<thaumicbases:castingBracelet:5>,"aer 120,ignis 120, aqua 120, terra 120, ordo 120, perditio 120",[
 [<ore:screwTitanium>,<TwilightForest:item.fieryBlood>,<ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>,<Thaumcraft:WandRod:5>,<dreamcraft:item.ChargedThaumiumWandCap>],
+[<Thaumcraft:WandCap:2>,<Thaumcraft:WandRod:5>,<Thaumcraft:WandCap:2>],
 [<ore:boltThaumium>,<ore:craftingToolScrewdriver>,<ore:boltThaumium>]]);
 
 //Bone
 Arcane.addShaped("TB.Bracelet.Bone",<thaumicbases:castingBracelet:6>,"aer 120,ignis 120, aqua 120, terra 120, ordo 120, perditio 120",[
 [<ore:screwTitanium>,<TwilightForest:item.fieryBlood>,<ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>,<Thaumcraft:WandRod:7>,<dreamcraft:item.ChargedThaumiumWandCap>],
+[<Thaumcraft:WandCap:2>,<Thaumcraft:WandRod:7>,<Thaumcraft:WandCap:2>],
 [<ore:boltThaumium>,<ore:craftingToolScrewdriver>,<ore:boltThaumium>]]);
 
 //Obsidian
 Arcane.addShaped("TB.Bracelet.Obsidian",<thaumicbases:castingBracelet:7>,"aer 120,ignis 120, aqua 120, terra 120, ordo 120, perditio 120",[
 [<ore:screwTitanium>,<TwilightForest:item.fieryBlood>,<ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>,<Thaumcraft:WandRod:1>,<dreamcraft:item.ChargedThaumiumWandCap>],
+[<Thaumcraft:WandCap:2>,<Thaumcraft:WandRod:1>,<Thaumcraft:WandCap:2>],
 [<ore:boltThaumium>,<ore:craftingToolScrewdriver>,<ore:boltThaumium>]]);
 
 //Blaze
 Arcane.addShaped("TB.Bracelet.Blaze",<thaumicbases:castingBracelet:8>,"aer 120,ignis 120, aqua 120, terra 120, ordo 120, perditio 120",[
 [<ore:screwTitanium>,<TwilightForest:item.fieryBlood>,<ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>,<Thaumcraft:WandRod:6>,<dreamcraft:item.ChargedThaumiumWandCap>],
+[<Thaumcraft:WandCap:2>,<Thaumcraft:WandRod:6>,<Thaumcraft:WandCap:2>],
 [<ore:boltThaumium>,<ore:craftingToolScrewdriver>,<ore:boltThaumium>]]);
 
 //Ice
 Arcane.addShaped("TB.Bracelet.Ice",<thaumicbases:castingBracelet:9>,"aer 120,ignis 120, aqua 120, terra 120, ordo 120, perditio 120",[
 [<ore:screwTitanium>,<TwilightForest:item.fieryBlood>,<ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>,<Thaumcraft:WandRod:3>,<dreamcraft:item.ChargedThaumiumWandCap>],
+[<Thaumcraft:WandCap:2>,<Thaumcraft:WandRod:3>,<Thaumcraft:WandCap:2>],
 [<ore:boltThaumium>,<ore:craftingToolScrewdriver>,<ore:boltThaumium>]]);
 
 //Qurartz
 Arcane.addShaped("TB.Bracelet.Quartz",<thaumicbases:castingBracelet:10>,"aer 120,ignis 120, aqua 120, terra 120, ordo 120, perditio 120",[
 [<ore:screwTitanium>,<TwilightForest:item.fieryBlood>,<ore:screwTitanium>],
-[<dreamcraft:item.ChargedThaumiumWandCap>,<Thaumcraft:WandRod:4>,<dreamcraft:item.ChargedThaumiumWandCap>],
+[<Thaumcraft:WandCap:2>,<Thaumcraft:WandRod:4>,<Thaumcraft:WandCap:2>],
 [<ore:boltThaumium>,<ore:craftingToolScrewdriver>,<ore:boltThaumium>]]);
 
 //Thaumium
@@ -285,18 +285,18 @@ Arcane.addShaped("TB.Bracelet.Thaumium",<thaumicbases:castingBracelet:3>,"aer 13
 //Silverwood
 Arcane.addShaped("TB.Bracelet.Silverwood",<thaumicbases:castingBracelet:4>,"aer 150,ignis 150, aqua 150, terra 150, ordo 150, perditio 150",[
 [<ore:screwTungstenSteel>,<TwilightForest:item.carminite>,<ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedVoidWandCap>,<Thaumcraft:WandRod:2>,<dreamcraft:item.ChargedVoidWandCap>],
+[<Thaumcraft:WandCap:7>,<Thaumcraft:WandRod:2>,<Thaumcraft:WandCap:7>],
 [<ore:boltVoid>,<ore:craftingToolScrewdriver>,<ore:boltVoid>]]);
 
 //Void
 Arcane.addShaped("TB.Bracelet.Void",<thaumicbases:castingBracelet:11>,"aer 150,ignis 150, aqua 150, terra 150, ordo 150, perditio 150",[
 [<ore:screwTungstenSteel>,<TwilightForest:item.carminite>,<ore:screwTungstenSteel>],
-[<dreamcraft:item.ChargedVoidWandCap>,<thaumicbases:resource:4>,<dreamcraft:item.ChargedVoidWandCap>],
+[<Thaumcraft:WandCap:7>,<thaumicbases:resource:4>,<Thaumcraft:WandCap:7>],
 [<ore:boltVoid>,<ore:craftingToolScrewdriver>,<ore:boltVoid>]]);
 
 //Primal
 Infusion.addRecipe("TB.Bracelet.Primal",<thaumicbases:castingBracelet:4>,
-[<dreamcraft:item.IchoriumCap>,<dreamcraft:item.SnowQueenBlood>,<thaumicbases:castingBracelet:5>,<thaumicbases:castingBracelet:6>,<thaumicbases:castingBracelet:7>,<gregtech:gt.metaitem.01:27084>,<dreamcraft:item.IchoriumCap>,<gregtech:gt.metaitem.01:27084>,<thaumicbases:castingBracelet:8>,<thaumicbases:castingBracelet:9>,<thaumicbases:castingBracelet:10>,<dreamcraft:item.SnowQueenBlood>],
+[<ThaumicTinkerer:kamiResource:4>, <dreamcraft:item.SnowQueenBlood>, <thaumicbases:castingBracelet:5>,<thaumicbases:castingBracelet:6>, <thaumicbases:castingBracelet:7>, <gregtech:gt.metaitem.01:27084>, <ThaumicTinkerer:kamiResource:4>, <gregtech:gt.metaitem.01:27084>, <thaumicbases:castingBracelet:8>, <thaumicbases:castingBracelet:9>, <thaumicbases:castingBracelet:10>, <dreamcraft:item.SnowQueenBlood>],
 "aer 64, ignis 64, aqua 64, terra 64, ordo 64, perditio 64, praecantatio 32, alienis 32",<thaumicbases:castingBracelet:12>,10);
 
 // --- Node Foci

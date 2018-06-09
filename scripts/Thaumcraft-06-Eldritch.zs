@@ -209,8 +209,8 @@ mods.thaumcraft.Research.addArcanePage("CAP_void", <Thaumcraft:WandCap:8>);
 // --- Charged Void Cap
 mods.thaumcraft.Infusion.addRecipe("CAP_void", <Thaumcraft:WandCap:8>, 
 [<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:17>], 
-"alienis 32, auram 32, potentia 32, vacuos 32", <dreamcraft:item.ChargedVoidWandCap>, 8);
-mods.thaumcraft.Research.addInfusionPage("CAP_void", <dreamcraft:item.ChargedVoidWandCap>);
+"alienis 32, auram 32, potentia 32, vacuos 32", <Thaumcraft:WandCap:7>, 8);
+mods.thaumcraft.Research.addInfusionPage("CAP_void", <Thaumcraft:WandCap:7>);
 // -
 mods.thaumcraft.Research.setAspects("CAP_void", "auram 12, vacuos 12, alienis 9, praecantatio 9, instrumentum 6, terra 6, tenebrae 3");
 mods.thaumcraft.Research.setComplexity("CAP_void", 3);

@@ -528,13 +528,13 @@ mods.thaumcraft.Research.addPage("CapSojournerGTNH", "tc.research_page.CapSojour
 game.setLocalization("tc.research_page.CapSojournerGTNH", "Even with the wand recharge pedestal, refilling your wand has been a chore. One must go through the work of constructing the pedestal and placing nodes in its vicinity. You have developed a special wand cap that will passively drain nearby nodes in a similar fashion to the Wand Recharge Pedestal when the wand is held in the hand.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.");
 mods.thaumcraft.Arcane.addShaped("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
 [<ore:screwDiamond>, <ore:plateLapis>, <ore:screwDiamond>],
-[<ore:plateLapis>, <dreamcraft:item.ChargedThaumiumWandCap>, <ore:plateLapis>],
+[<ore:plateLapis>, <Thaumcraft:WandCap:2>, <ore:plateLapis>],
 [<ore:screwDiamond>, <ore:plateLapis>, <ore:screwDiamond>]]);
 mods.thaumcraft.Research.addArcanePage("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>);
 mods.thaumcraft.Infusion.addRecipe("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>,
 [<Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>], 
-"auram 48, praecantatio 32, permutatio 24, potentia 32, aer 16, ordo 16", <dreamcraft:item.ChargedSojournerWandCap>, 6);
-mods.thaumcraft.Research.addInfusionPage("CapSojournerGTNH", <dreamcraft:item.ChargedSojournerWandCap>);
+"auram 48, praecantatio 32, permutatio 24, potentia 32, aer 16, ordo 16", <ThaumicExploration:sojournerCap>, 6);
+mods.thaumcraft.Research.addInfusionPage("CapSojournerGTNH", <ThaumicExploration:sojournerCap>);
 
 // --- Mechanist Cap
 mods.thaumcraft.Research.orphanResearch("CAP_MECHANIST");
@@ -549,13 +549,13 @@ mods.thaumcraft.Research.addPage("CapMechanistGTNH", "tc.research_page.CapMechan
 game.setLocalization("tc.research_page.CapMechanistGTNH", "You have researched nodes extensively, and you feel that you have reached a point in which you can no longer improve the draining speed of nodes without improving your wands themselves. You have created a mechanical wand cap that is able to deconstruct and harvest vis from a node much more quickly than usual, using a combination of gadgetry and magic.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.");
 mods.thaumcraft.Arcane.addShaped("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
 [<ore:screwDiamond>, <ore:plateRedstone>, <ore:screwDiamond>],
-[<minecraft:repeater>, <dreamcraft:item.ChargedThaumiumWandCap>, <minecraft:repeater>],
+[<minecraft:repeater>, <Thaumcraft:WandCap:2>, <minecraft:repeater>],
 [<ore:screwDiamond>, <minecraft:piston>, <ore:screwDiamond>]]);
 mods.thaumcraft.Research.addArcanePage("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>);
 mods.thaumcraft.Infusion.addRecipe("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>,
 [<Thaumcraft:ItemResource:14>, <minecraft:redstone>, <Thaumcraft:ItemResource:14>, <minecraft:redstone>, <Thaumcraft:ItemResource:14>, <minecraft:redstone>], 
-"auram 48, praecantatio 32, machina 24, potentia 32, aer 16, ordo 16", <dreamcraft:item.ChargedMechanistWandCap>, 6);
-mods.thaumcraft.Research.addInfusionPage("CapMechanistGTNH", <dreamcraft:item.ChargedMechanistWandCap>);
+"auram 48, praecantatio 32, machina 24, potentia 32, aer 16, ordo 16", <ThaumicExploration:mechanistCap>, 6);
+mods.thaumcraft.Research.addInfusionPage("CapMechanistGTNH", <ThaumicExploration:mechanistCap>);
 
 // --- Thaumostatic Stabilizer
 mods.thaumcraft.Research.orphanResearch("STABILIZERBELT");

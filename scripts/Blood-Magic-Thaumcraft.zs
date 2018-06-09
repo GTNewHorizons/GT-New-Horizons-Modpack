@@ -1180,10 +1180,10 @@ mods.thaumcraft.Warp.addToResearch("ENERGYBAZOOKAIII", 20);
 // --- Blood Infused Wand Cap
 mods.thaumcraft.Research.clearPages("CAP_blood_iron");
 mods.thaumcraft.Research.addPage("CAP_blood_iron", "blood_arsenal.research_page.CAP_blood_iron.1");
-mods.thaumcraft.Infusion.addRecipe("CAP_blood_iron", <dreamcraft:item.WandCapAlchemical>, 
+mods.thaumcraft.Infusion.addRecipe("CAP_blood_iron", <ForbiddenMagic:WandCaps>, 
 [<BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <gregtech:gt.metaitem.01:17977>, <gregtech:gt.metaitem.01:28977>, <gregtech:gt.metaitem.01:17977>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <gregtech:gt.metaitem.01:17977>, <gregtech:gt.metaitem.01:28977>, <gregtech:gt.metaitem.01:17977>, <BloodArsenal:blood_infused_glowstone_dust>],
-"aqua 32, praecantatio 24, victus 24, metallum 16, ignis 8", <dreamcraft:item.WandCapBloodIron>, 10);
-mods.thaumcraft.Research.addInfusionPage("CAP_blood_iron", <dreamcraft:item.WandCapBloodIron>);
+"aqua 32, praecantatio 24, victus 24, metallum 16, ignis 8", <BloodArsenal:wand_caps>, 10);
+mods.thaumcraft.Research.addInfusionPage("CAP_blood_iron", <BloodArsenal:wand_caps>);
 // -
 mods.thaumcraft.Research.setAspects("CAP_blood_iron", "victus 18, aqua 15 , praecantatio 12, tenebrae 9, metallum 6, tenebrae 3");
 mods.thaumcraft.Research.setComplexity("CAP_blood_iron", 3);

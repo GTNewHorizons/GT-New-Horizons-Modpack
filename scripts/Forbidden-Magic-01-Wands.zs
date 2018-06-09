@@ -5,11 +5,11 @@ import mods.thaumcraft.Arcane;
 import mods.thaumcraft.Research;
 
 // --- Vars ---
-val capThauminite = <dreamcraft:item.WandCapThauminite>;
-val capMana = <dreamcraft:item.WandCapManaSteel>; 
-val capTerra = <dreamcraft:item.WandCapTerraSteel>; // awesome vis discount!
-val capVinteum = <dreamcraft:item.WandCapVinteum>;
-val capElementium = <dreamcraft:item.WandCapElementium>; 
+val capThauminite = <thaumicbases:resource:2>;
+val capMana = <ForbiddenMagic:WandCaps:3>; 
+val capTerra = <ForbiddenMagic:WandCaps:2>; // awesome vis discount!
+val capVinteum = <ForbiddenMagic:WandCaps:1>;
+val capElementium = <ForbiddenMagic:WandCaps:5>; 
 val primalCharm = <Thaumcraft:ItemResource:15>;
 
 // --- Adding Research ---
@@ -62,7 +62,7 @@ mods.thaumcraft.Infusion.addRecipe("ROD_witchwood", <witchery:ingredient:82>,
  [<gregtech:gt.metaitem.01:8529>,<witchery:witchsapling:0>,<witchery:ingredient:34>,<witchery:witchsapling:1>,<witchery:ingredient:36>,<witchery:witchsapling:2>,<gregtech:gt.metaitem.01:8529>,<witchery:witchsapling:0>,<witchery:ingredient:34>,<witchery:witchsapling:1>,<witchery:ingredient:36>,<witchery:witchsapling:2>],
  "arbor 64, praecantatio 48, herba 32, instrumentum 24,vacuos 24", <ForbiddenMagic:WandCores:4>, 6);
 //Manasteel Wand Cap
-mods.thaumcraft.Infusion.addRecipe("CAP_manasteel", <dreamcraft:item.ChargedSilverWandCap>, [<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>,<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>,<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>,<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>,<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>],
+mods.thaumcraft.Infusion.addRecipe("CAP_manasteel", <Thaumcraft:WandCap:4>, [<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>,<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>,<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>,<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>,<gregtech:gt.metaitem.01:2333>,<ProjRed|Core:projectred.core.part:56>],
  "potentia 64, praecantatio 48, electrum 32, instrumentum 24, machina 24", capMana, 6);
 //Terrasteel Wand Cap
 mods.thaumcraft.Infusion.addRecipe("CAP_terrasteel", capMana, [<gregtech:gt.metaitem.02:30501>,<Thaumcraft:blockCrystal:3>,<gregtech:gt.metaitem.01:17339>,<Thaumcraft:blockCrystal:3>,<gregtech:gt.metaitem.02:30501>,<Thaumcraft:blockCrystal:3>,<gregtech:gt.metaitem.01:17339>,<Thaumcraft:blockCrystal:3>],

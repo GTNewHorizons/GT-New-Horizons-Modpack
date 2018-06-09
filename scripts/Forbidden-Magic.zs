@@ -407,10 +407,10 @@ mods.thaumcraft.Warp.addToResearch("ROD_blood_staff", 4);
 // --- Alchemical Caps
 mods.thaumcraft.Research.clearPages("CAP_alchemical");
 mods.thaumcraft.Research.addPage("CAP_alchemical", "forbidden.research_page.CAP_alchemical.1");
-mods.thaumcraft.Infusion.addRecipe("CAP_alchemical", <dreamcraft:item.GoldWandCap>,
+mods.thaumcraft.Infusion.addRecipe("CAP_alchemical", <Thaumcraft:WandCap:1>,
 [<AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>, <AWWayofTime:magicales>, <gregtech:gt.metaitem.01:2330>],
-"victus 16, aqua 32, praecantatio 16, permutatio 8, metallum 8", <dreamcraft:item.WandCapAlchemical>, 6);
-mods.thaumcraft.Research.addInfusionPage("CAP_alchemical", <dreamcraft:item.WandCapAlchemical>);
+"victus 16, aqua 32, praecantatio 16, permutatio 8, metallum 8", <ForbiddenMagic:WandCaps>, 6);
+mods.thaumcraft.Research.addInfusionPage("CAP_alchemical", <ForbiddenMagic:WandCaps>);
 // -
 mods.thaumcraft.Research.setAspects("CAP_alchemical", "victus 15, aqua 12, instrumentum 9, metallum 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("CAP_alchemical", 3);
