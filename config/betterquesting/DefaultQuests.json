@@ -145174,7 +145174,7 @@
         "OreDict": "",
         "Damage": 1000
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "partialMatch": true,
@@ -145532,7 +145532,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -145580,7 +145580,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "UNLOCKED",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
