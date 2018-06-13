@@ -320,7 +320,7 @@
         }
       ],
       "preRequisites": [
-        1
+        1204
       ]
     },
     {
@@ -20538,7 +20538,7 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.IronWandCap",
+              "id": "Thaumcraft:WandCap",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
@@ -20749,10 +20749,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.GoldWandCap",
+              "id": "Thaumcraft:WandCap",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -23969,10 +23969,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.ChargedThaumiumWandCap",
+              "id": "Thaumcraft:WandCap",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -74003,7 +74003,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "dreamcraft:item.IronWandCap",
+              "id": "Thaumcraft:WandCap",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
@@ -153968,6 +153968,102 @@
       ]
     },
     {
+      "name": "They are coming...",
+      "description": "The spirits that I\u0027ve called... Demon invasions and beyond. Really deep into dark magic!",
+      "quests": [
+        {
+          "id": 700,
+          "x": 252,
+          "y": 108
+        },
+        {
+          "id": 702,
+          "x": 252,
+          "y": 0
+        },
+        {
+          "id": 704,
+          "x": 36,
+          "y": 0
+        },
+        {
+          "id": 701,
+          "x": 252,
+          "y": 72
+        },
+        {
+          "id": 707,
+          "x": 288,
+          "y": 36
+        },
+        {
+          "id": 708,
+          "x": 36,
+          "y": 72
+        },
+        {
+          "id": 706,
+          "x": 252,
+          "y": 36
+        },
+        {
+          "id": 709,
+          "x": 72,
+          "y": 72
+        },
+        {
+          "id": 710,
+          "x": 36,
+          "y": 108
+        },
+        {
+          "id": 711,
+          "x": 324,
+          "y": 36
+        },
+        {
+          "id": 712,
+          "x": 72,
+          "y": 108
+        },
+        {
+          "id": 713,
+          "x": 288,
+          "y": 72
+        },
+        {
+          "id": 714,
+          "x": 72,
+          "y": 36
+        },
+        {
+          "id": 703,
+          "x": 144,
+          "y": 36
+        },
+        {
+          "id": 715,
+          "x": 144,
+          "y": 108
+        },
+        {
+          "id": 406,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 928,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 929,
+          "x": 216,
+          "y": 36
+        }
+      ]
+    },
+    {
       "name": "Transportation",
       "description": "From four legged steeds to iron horses",
       "quests": [
@@ -155222,102 +155318,6 @@
           "id": 405,
           "x": 32,
           "y": 32
-        }
-      ]
-    },
-    {
-      "name": "They are coming...",
-      "description": "The spirits that I\u0027ve called... Demon invasions and beyond. Really deep into dark magic!",
-      "quests": [
-        {
-          "id": 700,
-          "x": 252,
-          "y": 108
-        },
-        {
-          "id": 702,
-          "x": 252,
-          "y": 0
-        },
-        {
-          "id": 704,
-          "x": 36,
-          "y": 0
-        },
-        {
-          "id": 701,
-          "x": 252,
-          "y": 72
-        },
-        {
-          "id": 707,
-          "x": 288,
-          "y": 36
-        },
-        {
-          "id": 708,
-          "x": 36,
-          "y": 72
-        },
-        {
-          "id": 706,
-          "x": 252,
-          "y": 36
-        },
-        {
-          "id": 709,
-          "x": 72,
-          "y": 72
-        },
-        {
-          "id": 710,
-          "x": 36,
-          "y": 108
-        },
-        {
-          "id": 711,
-          "x": 324,
-          "y": 36
-        },
-        {
-          "id": 712,
-          "x": 72,
-          "y": 108
-        },
-        {
-          "id": 713,
-          "x": 288,
-          "y": 72
-        },
-        {
-          "id": 714,
-          "x": 72,
-          "y": 36
-        },
-        {
-          "id": 703,
-          "x": 144,
-          "y": 36
-        },
-        {
-          "id": 715,
-          "x": 144,
-          "y": 108
-        },
-        {
-          "id": 406,
-          "x": 0,
-          "y": 72
-        },
-        {
-          "id": 928,
-          "x": 144,
-          "y": 0
-        },
-        {
-          "id": 929,
-          "x": 216,
-          "y": 36
         }
       ]
     },
