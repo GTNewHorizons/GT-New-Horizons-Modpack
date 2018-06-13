@@ -1709,6 +1709,9 @@ PlateBender.addRecipe(<dreamcraft:item.CallistoIceDensePlate>, <dreamcraft:item.
 // --- Dense Black Plutonium Plate
 PlateBender.addRecipe(<dreamcraft:item.BlackPlutoniumDensePlate>, <dreamcraft:item.BlackPlutoniumPlate> * 9, 1200, 480);
 
+// --- Obsidian Plate
+PlateBender.addRecipe(<gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:11804>, 400, 24);
+
 
 
 
