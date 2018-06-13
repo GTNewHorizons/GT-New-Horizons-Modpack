@@ -20735,10 +20735,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "dreamcraft:item.GoldWandCap",
+        "id": "Thaumcraft:WandCap",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 1
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -73989,7 +73989,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "dreamcraft:item.IronWandCap",
+        "id": "Thaumcraft:WandCap",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -83413,7 +83413,7 @@
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.IronWandCap",
+              "id": "Thaumcraft:WandCap",
               "Count": 3,
               "OreDict": "",
               "Damage": 0
@@ -84224,7 +84224,7 @@
               "Damage": 50
             },
             {
-              "id": "dreamcraft:item.IronWandCap",
+              "id": "Thaumcraft:WandCap",
               "Count": 2,
               "OreDict": "",
               "Damage": 0
@@ -116043,7 +116043,7 @@
               "Damage": 50
             },
             {
-              "id": "dreamcraft:item.IronWandCap",
+              "id": "Thaumcraft:WandCap",
               "Count": 3,
               "OreDict": "",
               "Damage": 0
