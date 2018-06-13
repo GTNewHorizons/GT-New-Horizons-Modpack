@@ -132354,7 +132354,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": true,
-          "consume": false,
+          "consume": true,
           "autoConsume": false,
           "requiredItems": [
             {
