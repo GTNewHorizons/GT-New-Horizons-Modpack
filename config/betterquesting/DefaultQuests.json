@@ -145723,7 +145723,9 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        13
+      ]
     },
     {
       "questID": 1504,
