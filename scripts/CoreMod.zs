@@ -1070,14 +1070,15 @@ Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <a
 // --- Compressed Lead-Nickel Plate
 Assembler.addRecipe(<dreamcraft:item.LeadNickelPlate> * 2, <GalaxySpace:item.CompressedPlates:3>, <GalaxySpace:item.CompressedPlates:6>, <liquid:ic2coolant> * 2000, 600, 1024);
 
-// --- Compressed Oxygen
-Assembler.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressedoxygen", Amount: 1000}}), <IC2:itemFluidCell>, <gregtech:gt.integrated_circuit:16> * 0, <liquid:oxygen> * 16000, 1200, 120);
 
-// --- Compressed Nitrogen
-Assembler.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "compressednitrogen", Amount: 1000}}), <IC2:itemFluidCell>, <gregtech:gt.integrated_circuit:16> * 0, <liquid:nitrogen> * 16000, 1200, 120);
+
 
 
 // --- Autoclave Recipes ---
+
+
+
+
 
 // --- Mysterious Crystal Shards
 Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:water> * 1000, 9000, 3600, 480);
