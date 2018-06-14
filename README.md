@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.4.3 is out 09.06.2018
+Version 2.0.4.5 is out 14.06.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -213,7 +213,7 @@ you find it in your resource folder<BR>
 * Enhanced Portals 3 3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
 * Extra Cells 2.3.14b200<BR>
-* Extra Utilities 1.2.14<BR>
+* Extra Utilities 1.2.13a<BR>
 * FastCraft 1.23<BR>
 * Flood Light 1.2.8.137<BR>
 * Forbidden Magic 0.575<BR>
@@ -228,10 +228,10 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.27<BR>
-* GT Scanner Mod 1.5.0<BR>
+* Gregtech 5.09.32.28<BR>
+* GT Scanner Mod 1.5.0a<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.27<BR>
+* GT New Horizons Core Mod 1.5.28<BR>
 * GT++ 1.7.1b<BR>
 * GTNH TC Wands 1.0<BR>
 * GTTweaker 1.7.0<BR>
@@ -335,7 +335,7 @@ you find it in your resource folder<BR>
 * Warp Theory 1.0i dev<BR>
 * Wireless Redstone CBE 1.4.1.11<BR>
 * Witchery 0.24.1<BR>
-* Witching Gadgets 1.2.9c GTNH<BR>
+* Witching Gadgets 1.2.9d GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
 ## Libs and Cores<BR>
