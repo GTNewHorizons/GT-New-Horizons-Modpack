@@ -3255,7 +3255,24 @@ BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>], 100, 
 
 
 // -- Bones
-ChemicalBath.addRecipe([<minecraft:bone> * 8, <minecraft:bone> * 6, <minecraft:bone> * 4], <minecraft:skull>, <liquid:hell_blood> * 1000, [10000, 9000, 7500], 200, 30); 
+ChemicalBath.addRecipe([<minecraft:bone> * 8, <minecraft:bone> * 6, <minecraft:bone> * 4], <minecraft:skull>, <liquid:hell_blood> * 1000, [10000, 7500, 5000], 200, 30); 
+
+// -- Cole Blocks
+ChemicalBath.addRecipe([<minecraft:coal_block> * 2, <minecraft:coal_block>, <minecraft:coal_block>], <minecraft:skull:1>, <liquid:hell_blood> * 1000, [10000, 7500, 5000], 200, 30); 
+
+// -- Gunpowder
+ChemicalBath.addRecipe([<minecraft:gunpowder> * 4, <minecraft:gunpowder> * 3, <minecraft:gunpowder> * 2], <minecraft:skull:4>, <liquid:hell_blood> * 1000, [10000, 7500, 5000], 200, 30); 
+
+// -- Enderpearl
+ChemicalBath.addRecipe([<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], <HardcoreEnderExpansion:enderman_head>, <liquid:hell_blood> * 1000, [10000, 5000, 2500], 200, 30); 
+
+// -- Zombi Brain
+ChemicalBath.addRecipe([<Thaumcraft:ItemZombieBrain>], <minecraft:skull:3>, <liquid:hell_blood> * 1000, [1000], 200, 30); 
+
+// -- Rotten flesh
+ChemicalBath.addRecipe([<minecraft:rotten_flesh> * 4, <minecraft:leather> * 2, <gregtech:gt.metaitem.01:2892> * 4], <minecraft:skull:2>, <liquid:hell_blood> * 1000, [10000, 3000, 5000], 200, 30); 
+
+
 
 
 
