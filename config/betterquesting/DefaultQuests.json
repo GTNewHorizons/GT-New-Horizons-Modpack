@@ -132565,7 +132565,7 @@
     {
       "questID": 1371,
       "name": "LOX and Bagels",
-      "description": "The LOX canister is an alternate solution to refilling your oxygen tanks.\nTo make liquid oxygen you need 16 oxygen cells, a universal fluid cell, and a circuit config 16. Transfer the oxygen gas into an MV+ assembler, and put in the universal fluid cell and circuit to get 1 cell of compressed oxygen.\nPut this in the vacuum freeezer to get 1 cell of liquid oxygen.\nTransfer this liquid oxygen into a tank, and then into a LOX canister.\nTo refill your oxygen tanks just put the tank and the LOX canister in the crafting grid to transfer oxygen.\nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks. With a full stack you won\u0027t need to bring oxygen equipment with you.\n\nSo much Greggy!",
+      "description": "The LOX canister is an alternate solution to refilling your oxygen tanks.\nTo make liquid oxygen you need 1 oxygen cells.\nPut this in the HV powered vacuum freeezer to get 1 cell of liquid oxygen.\nTransfer this liquid oxygen into a tank, and then into a LOX canister.\nTo refill your oxygen tanks just put the tank and the LOX canister in the crafting grid to transfer oxygen.\nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks. With a full stack you won\u0027t need to bring oxygen equipment with you.\n\nSo much Greggy!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -132597,37 +132597,9 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
+              "Count": 1,
               "OreDict": "",
               "Damage": 30013
-            },
-            {
-              "id": "IC2:itemFluidCell",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {}
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemFluidCell",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "compressedoxygen",
-                  "Amount:4": 1000
-                }
-              }
             }
           ],
           "taskID": "bq_standard:retrieval"
