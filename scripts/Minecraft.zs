@@ -10,6 +10,7 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.ChemicalBath;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
 import mods.gregtech.FluidExtractor;
@@ -3246,6 +3247,15 @@ BlastFurnace.addRecipe([<minecraft:glass>], [<TConstruct:GlassBlock>], 100, 120,
 // --- Clear Pane
 BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>], 100, 120, 1000);
 
+
+
+
+// --- Chemical Bath Recipes ---
+
+
+
+// -- Bones
+ChemicalBath.addRecipe([<minecraft:bone> * 8, <minecraft:bone> * 6, <minecraft:bone> * 4], <minecraft:skull>, <liquid:hell_blood> * 1000, [10000, 9000, 7500], 200, 30); 
 
 
 
