@@ -80,6 +80,7 @@ gendustry.bees.species.Nickel=Nickel
 gendustry.bees.species.Zinc=Zinc
 gendustry.bees.species.Silver=Silver
 gendustry.bees.species.Gold=Gold
+gendustry.bees.species.Arsenic=Arsenic
 
 #Rare Metal
 gendustry.bees.species.Aluminium=Aluminium
@@ -231,6 +232,7 @@ gendustry.honeycomb.zincdust.name=Zinc Comb
 gendustry.honeycomb.galliumdust.name=Gallium Comb
 gendustry.honeycomb.silverdust.name=Silver Comb
 gendustry.honeycomb.golddust.name=Gold Comb
+gendustry.honeycomb.arsenicdust.name=Arsenic Comb
 
 # Rare Metal
 gendustry.honeycomb.aluminium.name=Aluminium Comb
