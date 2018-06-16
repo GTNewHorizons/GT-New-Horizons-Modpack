@@ -114811,8 +114811,8 @@
     },
     {
       "questID": 1180,
-      "name": "Chunkloading",
-      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 1 hour per pearl. World anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
+      "name": "Personal Chunkloading",
+      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some personal chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 4 hour per pearl, 1h in personal anchors . World anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114832,7 +114832,7 @@
         "id": "Railcraft:machine.alpha",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 2
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -114846,7 +114846,7 @@
               "id": "Railcraft:machine.alpha",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -147630,6 +147630,160 @@
       "preRequisites": [
         138
       ]
+    },
+    {
+      "questID": 1528,
+      "name": "Passive Chunkloading",
+      "description": "Let\u0027s craft some personal chunkloaders. You need double steel plates, obsidian plates, diamond plates and a ender pearl.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 4 hour per pearl, 1h in personal anchors . Passive anchors can powerd also with ender fragments for 1h.  World anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:ender_pearl",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        102
+      ]
+    },
+    {
+      "questID": 1529,
+      "name": "Chunkloading",
+      "description": "With your hv assembler you can craft a anchor.\n3x3 chunks are loaded. You need coins to power the chunkloader. Personal and passive anchors can be powered with ender pearls for 4 hour per pearl, 1h in personal anchors . World anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChunkloaderTierII",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        770
+      ]
     }
   ],
   "questLines": [
@@ -149164,6 +149318,11 @@
           "id": 1522,
           "x": 720,
           "y": 252
+        },
+        {
+          "id": 1528,
+          "x": 396,
+          "y": 612
         }
       ]
     },
@@ -150231,6 +150390,11 @@
           "id": 1521,
           "x": 288,
           "y": 234
+        },
+        {
+          "id": 1529,
+          "x": 144,
+          "y": 192
         }
       ]
     },
