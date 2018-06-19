@@ -66785,7 +66785,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
         "id": "IC2:itemBiochaff",
@@ -66854,7 +66854,8 @@
         }
       ],
       "preRequisites": [
-        732
+        732,
+        1322
       ]
     },
     {
@@ -66943,7 +66944,7 @@
         }
       ],
       "preRequisites": [
-        1323
+        733
       ]
     },
     {
@@ -67032,7 +67033,7 @@
         }
       ],
       "preRequisites": [
-        1323
+        733
       ]
     },
     {
@@ -124400,8 +124401,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 1,
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             },
@@ -124416,7 +124417,8 @@
         }
       ],
       "preRequisites": [
-        1273
+        1273,
+        93
       ]
     },
     {
@@ -124923,8 +124925,7 @@
         }
       ],
       "preRequisites": [
-        1280,
-        1285
+        1280
       ]
     },
     {
@@ -125131,114 +125132,6 @@
       ],
       "preRequisites": [
         479
-      ]
-    },
-    {
-      "questID": 1285,
-      "name": "Non-Industrial Rum",
-      "description": "Brewing rum is not an industrial task. It only requires a barrel and some sugarcanes.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "IC2:itemBarrel",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "UNLOCKED",
-      "tasks": [
-        {
-          "partialMatch": false,
-          "ignoreNBT": true,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemBarrel",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "IC2:blockScaffold",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "IC2:itemTreetap",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:reeds",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "IC2:itemMugEmpty",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "dreamcraft:item.CoinCook",
-              "Count": 5,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "enhancedlootbags:lootbag",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 28
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        1277
       ]
     },
     {
@@ -128443,7 +128336,7 @@
         }
       ],
       "preRequisites": [
-        733
+        732
       ]
     },
     {
@@ -128463,7 +128356,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
         "id": "IC2:itemCellEmpty",
@@ -128538,7 +128431,9 @@
         }
       ],
       "preRequisites": [
-        733
+        733,
+        734,
+        735
       ]
     },
     {
@@ -148731,7 +148626,7 @@
         {
           "id": 91,
           "x": 252,
-          "y": 144
+          "y": 108
         },
         {
           "id": 92,
@@ -148781,12 +148676,12 @@
         {
           "id": 103,
           "x": 204,
-          "y": 108
+          "y": 60
         },
         {
           "id": 104,
-          "x": 108,
-          "y": 108
+          "x": 168,
+          "y": 60
         },
         {
           "id": 105,
@@ -148886,7 +148781,7 @@
         {
           "id": 541,
           "x": 0,
-          "y": 144
+          "y": 108
         },
         {
           "id": 542,
@@ -149301,12 +149196,12 @@
         {
           "id": 1266,
           "x": 204,
-          "y": 60
+          "y": 24
         },
         {
           "id": 1499,
-          "x": 216,
-          "y": 162
+          "x": 180,
+          "y": 144
         },
         {
           "id": 1510,
@@ -149327,6 +149222,16 @@
           "id": 1528,
           "x": 396,
           "y": 612
+        },
+        {
+          "id": 1274,
+          "x": 216,
+          "y": 144
+        },
+        {
+          "id": 1273,
+          "x": 252,
+          "y": 144
         }
       ]
     },
@@ -151053,11 +150958,6 @@
           "id": 1284,
           "x": 510,
           "y": 0
-        },
-        {
-          "id": 1285,
-          "x": 474,
-          "y": 72
         },
         {
           "id": 1275,
