@@ -75693,10 +75693,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "GalacticraftCore:item.basicItem",
+              "id": "GalacticraftCore:item.heavyPlating",
               "Count": 1,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 0
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -75798,25 +75798,25 @@
           "requiredItems": [
             {
               "id": "GalacticraftCore:item.basicItem",
-              "Count": 36,
+              "Count": 37,
               "OreDict": "",
               "Damage": 8
             },
             {
               "id": "GalacticraftCore:item.basicItem",
-              "Count": 36,
+              "Count": 37,
               "OreDict": "",
               "Damage": 9
             },
             {
               "id": "GalacticraftCore:item.basicItem",
-              "Count": 36,
+              "Count": 37,
               "OreDict": "",
               "Damage": 10
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 144,
+              "Count": 148,
               "OreDict": "",
               "Damage": 26306
             }
@@ -75831,7 +75831,7 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 36,
+              "Count": 37,
               "OreDict": "",
               "Damage": 32462
             }
@@ -75846,7 +75846,7 @@
           "requiredItems": [
             {
               "id": "GalacticraftCore:item.heavyPlating",
-              "Count": 36,
+              "Count": 37,
               "OreDict": "",
               "Damage": 0
             }
