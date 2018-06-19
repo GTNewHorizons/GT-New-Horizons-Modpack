@@ -90208,7 +90208,7 @@
       "questID": 945,
       "name": "Chad - A better way to make Paper",
       "description": "Making paper out of wood pulp and water can be tedious and difficult. Why not macerate some sugar cane down to chads and press it with two stone plates to paper? Later on you can use the chemical bath for a even better ratio.",
-      "isMain": true,
+      "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
