@@ -132269,10 +132269,10 @@
               "Damage": 0
             },
             {
-              "id": "TwilightForest:tile.TFPlant",
-              "Count": 4,
+              "id": "TwilightForest:item.torchberries",
+              "Count": 16,
               "OreDict": "",
-              "Damage": 3
+              "Damage": 0
             },
             {
               "id": "TwilightForest:tile.TFLog",
