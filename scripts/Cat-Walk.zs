@@ -109,7 +109,7 @@ Assembler.addRecipe(<catwalks:steelgrate> * 10, <gregtech:gt.metaitem.01:23305> 
 Assembler.addRecipe(<catwalks:support_column> * 4, <gregtech:gt.metaitem.01:23305> * 6, <catwalks:steelgrate> * 4, 300, 30);
 
 // --- Catwalk
-Assembler.addRecipe(<catwalks:catwalk_unlit> * 6, <catwalks:steelgrate> * 3, <gregtech:gt.metaitem.01:23305> * 2, 300, 30);
+Assembler.addRecipe(<catwalks:catwalk_unlit> * 6, <catwalks:steelgrate> * 3, <gregtech:gt.metaitem.01:27305> * 2, 300, 30);
 
 // --- Scaffold
 Assembler.addRecipe(<catwalks:scaffold>, <gregtech:gt.blockmachines:4401>, <catwalks:steelgrate>, 100, 30);
