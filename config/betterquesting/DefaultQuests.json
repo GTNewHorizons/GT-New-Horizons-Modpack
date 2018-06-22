@@ -125135,6 +125135,161 @@
       ]
     },
     {
+      "questID": 1285,
+      "name": "Diamond Spikes",
+      "description": "Diamond Spike damages mobs that touch any side of it other than the bottom. With +7 attack damage, the Spike does as much damage as a Diamond Sword. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block. Most explosions won\u0027t destroy the Spike because it has a very high blast resistance.\n\nThese can also be enchanted with all the enchantments a regular diamond sword would receive. This includes looting, sharpness, which functions exactly as it does on a sword. Interestingly, mobs killed by the Diamond Spike will return experience as if killed by the player",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExtraUtilities:spike_base_diamond",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 27500
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 17500
+            },
+            {
+              "id": "minecraft:diamond_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:diamond_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraUtilities:spike_base_diamond",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:heartybreakfastItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:epicbaconItem",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 17305
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivor",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        495,
+        98
+      ]
+    },
+    {
       "questID": 1286,
       "name": "Primal Shrooms",
       "description": "Primal shrooms allow you to refill wands easier before you can move nodes to your base.\nGo and find some in a magical forest biome. Try using a Nature\u0027s Compass. Or buy some if no biome is close to your location.",
@@ -148671,7 +148826,7 @@
         {
           "id": 102,
           "x": 396,
-          "y": 576
+          "y": 612
         },
         {
           "id": 103,
@@ -148776,7 +148931,7 @@
         {
           "id": 540,
           "x": 0,
-          "y": 576
+          "y": 612
         },
         {
           "id": 541,
@@ -149106,7 +149261,7 @@
         {
           "id": 1091,
           "x": 432,
-          "y": 576
+          "y": 612
         },
         {
           "id": 1092,
@@ -149221,7 +149376,7 @@
         {
           "id": 1528,
           "x": 396,
-          "y": 612
+          "y": 648
         },
         {
           "id": 1274,
@@ -149232,6 +149387,11 @@
           "id": 1273,
           "x": 252,
           "y": 144
+        },
+        {
+          "id": 1285,
+          "x": 360,
+          "y": 564
         }
       ]
     },
