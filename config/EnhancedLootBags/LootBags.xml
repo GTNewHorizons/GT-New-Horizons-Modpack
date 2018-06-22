@@ -795,7 +795,7 @@
         <Loot Identifier="54dacd99-4db0-4e19-a253-db6ddb1bca3a" ItemName="Forestry:craftingMaterial:4" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="50da335a-c8d8-40a6-8e0d-e6f2ffb47d91" ItemName="Forestry:iodineCapsule" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="22" GroupName="Space Invaders Moon" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="22" GroupName="Space Invaders Moon" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="false">
         <Loot Identifier="b67ea431-9998-448b-b907-72aab4767736" ItemName="GalacticraftCore:item.basicItem:13" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="25a585e4-4a11-4915-8c61-ed2b7cdb87ab" ItemName="GalacticraftCore:item.basicItem:6" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d35027b2-7cd9-4b58-b38c-e1d245197b08" ItemName="GalacticraftCore:item.basicItem:7" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -852,7 +852,7 @@
         <Loot Identifier="7dbfa05b-3334-4cf5-bd5e-83ee5890621a" ItemName="GalaxySpace:item.ModuleSmallCanister" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="2d909b38-54ba-4134-8fda-7eae5396ab4e" ItemName="GalaxySpace:item.ModuleLander" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="23" GroupName="Space Invaders Mars" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="23" GroupName="Space Invaders Mars" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="false">
         <Loot Identifier="2dd286d5-f921-439c-8dd5-90803cf086af" ItemName="GalacticraftCore:item.basicItem:14" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="98c1e73e-0c35-4241-9bfd-794d2b359c86" ItemName="GalacticraftCore:item.oxygenTankMedFull:1800" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f5796061-a1a0-46bd-8716-1b7a5644e37a" ItemName="GalacticraftMars:item.thermalPadding" Amount="1" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -874,7 +874,7 @@
         <Loot Identifier="34b2a842-f531-49c3-819e-8c6090792a06" ItemName="GalaxySpace:item.ModuleLander2" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c9f98913-b022-4cf3-ba7d-5cf35748735e" ItemName="dreamcraft:item.MediumFuelCanister" Amount="1" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="24" GroupName="Space Invaders Asteroids" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="24" GroupName="Space Invaders Asteroids" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="false">
         <Loot Identifier="465d0889-0ebf-463b-8277-5af639f5ab94" ItemName="GalacticraftCore:item.oxygenTankHeavyFull:2700" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="8f57ac71-eed3-44bb-ae5e-574cce61b2c6" ItemName="GalaxySpace:item.ModuleLander3" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9060b9fd-a8a5-4795-8bd5-084f213e5b88" ItemName="GalaxySpace:item.CompressedSDHD120" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
