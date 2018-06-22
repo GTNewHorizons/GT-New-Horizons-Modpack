@@ -14184,6 +14184,12 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
+              "Damage": 22
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 6
             }
           ],
@@ -16882,6 +16888,12 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
+              "Damage": 23
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 7
             }
           ],
@@ -16977,6 +16989,12 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
+              "Damage": 23
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 7
             }
           ],
@@ -17062,6 +17080,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
@@ -75641,6 +75665,12 @@
               "Count": 16,
               "OreDict": "",
               "Damage": 9
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -138530,6 +138560,12 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
+              "Damage": 23
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 7
             }
           ],
@@ -141496,6 +141532,12 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 3
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24
             },
             {
               "id": "enhancedlootbags:lootbag",
@@ -148327,6 +148369,12 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
+              "Damage": 24
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 8
             }
           ],
@@ -148411,6 +148459,12 @@
       "rewards": [
         {
           "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24
+            },
             {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
@@ -148562,6 +148616,12 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 24
             },
             {
               "id": "enhancedlootbags:lootbag",
