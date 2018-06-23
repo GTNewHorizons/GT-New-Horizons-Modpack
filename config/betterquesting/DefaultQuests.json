@@ -7391,7 +7391,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 50,
+              "Count": 75,
               "OreDict": "",
               "Damage": 0
             }
@@ -7461,8 +7461,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnicianII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -7534,7 +7534,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -8227,7 +8227,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -40655,8 +40655,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinTechnicianII",
-              "Count": 5,
+              "id": "dreamcraft:item.CoinTechnicianIII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -40735,7 +40735,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianIII",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -40814,7 +40814,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianIII",
-              "Count": 2,
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -148869,6 +148869,126 @@
       "preRequisites": [
         753
       ]
+    },
+    {
+      "questID": 1538,
+      "name": "Titan Ingots",
+      "description": "Want some titan ingots? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 72000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11028
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11028
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        861
+      ]
+    },
+    {
+      "questID": 1539,
+      "name": "Tungsten Steel Ingots",
+      "description": "Want some tungesten steel ingots? Buy some!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 72000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11316
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "dreamcraft:item.CoinSmithII",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11316
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1493
+      ]
     }
   ],
   "questLines": [
@@ -153519,6 +153639,16 @@
           "id": 1523,
           "x": 588,
           "y": 30
+        },
+        {
+          "id": 1538,
+          "x": 804,
+          "y": 0
+        },
+        {
+          "id": 1539,
+          "x": 840,
+          "y": 0
         }
       ]
     },
