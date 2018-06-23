@@ -6915,7 +6915,7 @@
       "questID": 76,
       "name": "Time to get some steel",
       "description": "You need steel? Uhh... fine. Let\u0027s get busy...\n\nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -7222,7 +7222,7 @@
       "questID": 77,
       "name": "EBF-Time",
       "description": "In order to get alumin(i)um ingots, you need an electric blast furnace. It\u0027s another very important step towards victory, so let\u0027s get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers \u003d 78%.\n\nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.\n\nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.\n\nIf the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -7405,9 +7405,9 @@
     },
     {
       "questID": 78,
-      "name": "Upgrade #1: More heat",
-      "description": "Better materials need higher temperatures. You can just exchange the old coils with the new ones. You can even reuse the old coils in other machines, how fancy is that!",
-      "isMain": false,
+      "name": "Upgrade #1: More heat - Kanthal Coils",
+      "description": "Better materials need higher temperatures. You can just exchange the old coils with the new ones. Kanthal coils let you reach 2700 K. You can even reuse the old coils in other machines, how fancy is that!",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -7477,9 +7477,9 @@
     },
     {
       "questID": 79,
-      "name": "Upgrade #2: Higher tier",
+      "name": "Upgrade #2: Higher tier - Nichrome Coils",
       "description": "To reach the 3600k heat capacity of your EBF, so you can process high-tier materials like tungsten, you need nichrome heating coils.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -7550,7 +7550,7 @@
       "questID": 80,
       "name": "Compress all the things",
       "description": "Martin\u0027s (DreamMasterXXL) favourite machine. Compress ALL the things! With explosives, of course. Boom today!\n\nNote: You might want to put this far from your living quarters, the pollution can get high really fast.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -8170,9 +8170,9 @@
     },
     {
       "questID": 86,
-      "name": "Upgrade #3: Upgrade tier 4",
+      "name": "Upgrade #3: Upgrade tier 4 - Tungstensteel Coils",
       "description": "To process more advanced materials like enderium, enriched naquadah or niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -16181,7 +16181,7 @@
     {
       "questID": 179,
       "name": "Find them all",
-      "description": "There are a lot of asteroids on the surface, but there are more underground. In order to find those, you need a compass. (This quest is optional)",
+      "description": "There are a lot of asteroids on the surface, but there are more underground. In order to find those, you need a compass. The compass will only tell you the chunk has an asteroid in it, with your ancient ore finder wand, you can get a better idea where in the chunk the meteor is hiding.\n\nThis quest is optional.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -40599,9 +40599,9 @@
     },
     {
       "questID": 475,
-      "name": "Upgrade #4: Upgrade tier 5",
+      "name": "Upgrade #4: Upgrade tier 5 - HSS-G Coils",
       "description": "To process more advanced materials like HSS-E, HSS-S, naquadah or draconium you need more than 4500K. Time to upgrade your EBF to 5400k.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -40670,9 +40670,9 @@
     },
     {
       "questID": 476,
-      "name": "Upgrade #3: Upgrade tier 6",
+      "name": "Upgrade #3: Upgrade tier 6 - Naquadah Coils",
       "description": "To process more advanced materials like naquadah-alloy you need more than 5400K. Upgrade your EBF to 7200k to increase the heat.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -40749,9 +40749,9 @@
     },
     {
       "questID": 477,
-      "name": "Upgrade #6: Upgrade tier 7",
+      "name": "Upgrade #6: Upgrade tier 7 - Naquadah Alloy Coils",
       "description": "To process the most advanced materials like neutronium, fluxed-electrum or awakened draconium you need more than 7200K. Upgrade your EBF to 9001k. (OVER 9000!!!)",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -62826,7 +62826,7 @@
     {
       "questID": 693,
       "name": "Fallen from the sky",
-      "description": "There are big meteors everywhere and you are wondering why you need to mine them now?\nSkystone is a good source of rare earth metals in the LV age. \nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important. Plus the chest is nice, and can be placed underneath blocks and still opened.",
+      "description": "There are big meteors everywhere and you are wondering why you need to mine them now?\nSkystone is a good source of rare earth metals in the LV age. \nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important. Plus the chest is nice, and can be placed underneath blocks and still opened.\n\nHint: If your all your surface meteors have been raided, put some skystone in your orefinder to find underground ones.  Often there is a second meteor right next to the one on the surface!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -79166,7 +79166,7 @@
     {
       "questID": 839,
       "name": "Handle tiny piles like a K1ng",
-      "description": "Don\u0027t you hate having to manually compress all those tiny piles ? Well, let me show you how to automate that. A combination of typefilter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chestbuffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.",
+      "description": "Don\u0027t you hate having to manually compress all those tiny piles ? Well, let me show you how to automate that. A combination of typefilter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chestbuffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.\n\nSuper buffers can be lag sources, so be careful to keep them as empty as possible. If you are using a multiblock packager, be sure to change the buffer from Stocking mode to Transfer Size mode.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -82665,7 +82665,7 @@
     {
       "questID": 869,
       "name": "Sifting Machine",
-      "description": "You need flawless or exquisite diamonds, emeralds, rubies or other gems? Well then it\u0027s time for you to make a Sifting Machine.",
+      "description": "You need flawless or exquisite diamonds, emeralds, rubies or other gems? Well then it\u0027s time for you to make a Sifting Machine.\n\nYou can find small Zinc ores (look in NEI) or you can search the Nether for Sphalerite.\n\nYou\u0027ll need either an Ore Washer or Simple Ore Washer since the Sifter only takes purified ores.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89778,7 +89778,7 @@
       "questID": 940,
       "name": "Cleanroom",
       "description": "If you want to make more advanced circuits you\u0027ll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxD) blocks. Besides plascrete blocks for all edges you\u0027ll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.\n\nLet\u0027s build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -89908,8 +89908,8 @@
     {
       "questID": 941,
       "name": "A very useful Scanner",
-      "description": "The portable scanner is a tool capable of showing advanced information about almost every block in the game. \nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops, which shows more information than the cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.\nIt also gives information about pollution level in the chunk the scanned block belongs to.\nIn addition it shows when the cleanroom has reached its 100% efficieny level.",
-      "isMain": false,
+      "description": "The portable scanner is a tool capable of showing advanced information about almost every block in the game. \nIn order to function, the tool needs to be charged first. It can hold up to 400k EU and accept 128 EU/t or less. This is MV tier.\n\nIt can scan crops, which shows more information than the cropnalyzer does. The crop, which was scanned in the world, will drop a scanned seed bag.\nIt can scan machines from GregTech, giving information about current progress, the stored energy, efficiency, problems and CPU-load - be sure to check the full chat window for additional details.\nFor any block in the game it scans, it gives information about its ID, Metadata, position in the world and hardness value.\nIt also gives information about pollution level in the chunk the scanned block belongs to.\nIn addition it shows when the cleanroom has reached its 100 percent efficieny level.",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -135304,7 +135304,7 @@
     {
       "questID": 1404,
       "name": "Superconductors 128 eu/t",
-      "description": "How about losless 128 EU MV Wires ? Pentacadmiummagnesiumhexaoxid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix cadmium, magnesium and oxygen in a mv mixer. Now you got the base dust wich need an EBF with Kanthal Coils. A vacuumfreezer is also needed to cool it down. Make some MV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Stainless Steel pipes and hv pumps to get your 128 eu/t superconductor wires.",
+      "description": "How about lossless 128 EU MV Wires ? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.\nMix cadmium, magnesium and oxygen in a mv mixer. Next te base dust needs an EBF with Kanthal Coils. A vacuum freezer is also required to cool it down. Make some MV Superconductor base Wires and use an assembler to combine these wires with Nitrogen, Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -135500,7 +135500,7 @@
     {
       "questID": 1405,
       "name": "Superconductors 512 eu/t",
-      "description": "How about losless 512 EU HV Wires ? Titaniumonabariumdecacoppereikosaoxid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix titanium, barium, copper and oxygen in a hv mixer. Now you got the base dust wich need an EBF with Nichrome Coils. A vacuumfreezer is also needed to cool it down. Make some HV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Titanium pipes and ev pumps to get your 512 eu/t superconductor wires.",
+      "description": "How about lossless 512 EU HV Wires ? Titaniumonabariumdecacoppereikosaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.\nMix titanium, barium, copper and oxygen in an HV mixer. Next the base needs an EBF with Nichrome Coils. A vacuum freezer is also required to cool it down. Make some HV Superconductor base Wires and use an assembler to combine these wires with Nitrogen, Helium, Titanium pipes and EV pumps to get your 512 eu/t superconductor wires.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -135868,7 +135868,7 @@
     {
       "questID": 1408,
       "name": "Superconductors 2048 eu/t",
-      "description": "How about losless 2048 EU EV Wires ? Uraniumtriplatinid is a superconductor wire and will transfer your energy without any loss. Every Voltages have now a superconductor wire and a bas wire with only a very small loss.\nMix uranium 238 and platinum in a hv mixer. Now you got the base dust wich need an EBF with Tungstensteel Coils. A vacuumfreezer is also needed to cool it down. Make some EV Superconductor base Wires and use an assembler to combining these wires with Nitrogen, Helium, Tungstensteel pipes andivv pumps to get your 2048 eu/t superconductor wires.",
+      "description": "How about lossless 2048 EU EV Wires ? Uraniumtriplatinide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.\nMix uranium 238 and platinum in an HV mixer. Next the base needs an EBF with Tungstensteel Coils. A vacuum freezer is also required to cool it down. Make some EV Superconductor base Wires and use an assembler to combine these wires with Nitrogen, Helium, Tungstensteel pipes and IV pumps to get your 2048 eu/t superconductor wires.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -136481,7 +136481,7 @@
       "questID": 1412,
       "name": "Assembling Line",
       "description": "The assembling line (short form \u0027Ass Line\u0027) is a multiblock and important for high tier Components in LuV tier and above for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it\u0027s crafting. A length of 11 blocks will fit 80% of all recipes in GTNH.\nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items(10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.\n\nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.\n\nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.\n\nThe fourth layer is a single line of Solid Steel Machine Casings in the middle(11), with one Energy Hatch for power.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -145643,7 +145643,7 @@
     {
       "questID": 1501,
       "name": "Backup your stuff...",
-      "description": "Single player? Please install your preferred backup mod, or use the command line to backup your game. Not sure which to use? AromaBackup for 1.7.10 works pretty well.\n\nRemember though Journeymap information isn\u0027t included with AromaBackup, so you should backup your journeymap directory after exploration.",
+      "description": "Single player? Please install your preferred backup mod, or use the command line to backup your game. Not sure which to use? AromaBackup for 1.7.10 works pretty well.\n\nRemember though Journeymap and Thaumcraft Node Tracker information isn\u0027t included with AromaBackup, so you should backup your journeymap and tcnodetracker directories after exploration.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -145769,7 +145769,7 @@
       "questID": 1503,
       "name": "Nobody wants an explosion...",
       "description": "...right?  So when building multiblocks, make sure you\n\n1. Don\u0027t cross chunk boundaries with the multiblock.\n\n2. Don\u0027t rely on resources coming from outside the chunk to prevent explosions.  In other words, make sure you source your water locally.\n\nGood luck.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -147238,7 +147238,7 @@
     {
       "questID": 1523,
       "name": "Can\u0027t find those ores?",
-      "description": "Having trouble locating some of the basic ores? Trade in some coins for oreblocks to use in the Ore Finder Wand.",
+      "description": "Having trouble locating some of the basic ores? Trade in some coins for oreblocks to use in the Ore Finder Wand.\n\nIf you are clever, you can use one oreblock to find a vein containing another oreblock to use to find another vein.  For example, if you choose Redstone, you can use that to find Cinnabar, which can be used to find Thaumcraft Aspect Shard ores in the Twilight Forest.  Experiment and find some combos!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -147270,13 +147270,13 @@
           "requiredItems": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "Count": 50,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 25,
+              "Count": 50,
               "OreDict": "",
               "Damage": 0
             }
@@ -147334,6 +147334,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 530
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 523
             },
             {
               "id": "gregtech:gt.blockores",
@@ -148654,6 +148660,215 @@
         1532,
         1531
       ]
+    },
+    {
+      "questID": 1536,
+      "name": "I ain\u0027t afraid of no ghost!",
+      "description": "I\u0027ve found a use for the Ectoplasm you can collect from spirits of the dead.\nIt makes a very useful glass that you can walk on, but mobs cannot.  However, they think they can!  So you can use this to create a moat around your base that drops mobs to the death in various ways, or just to shuttle them off somewhere else. Separate babies from mothers? Use it in a mob farm?  So many possibilities!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "RandomThings:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RandomThings:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:glass",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RandomThings:spectreGlass",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:glass",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "harvestcraft:stuffedeggplantItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        52
+      ]
+    },
+    {
+      "questID": 1537,
+      "name": "Black and Decker",
+      "description": "Tired of having to replace tools all the time? Now that stainless steel is available, it\u0027s time to make some electric versions of the screwdriver and wrench! Charge them up like a battery, and they will last much longer than normal versions of the tools.\n\nYou can use lithium batteries, or if you are on a budget cadmium batteries instead. \n\nLater Vibrant Alloy will make excellent tools with great durability.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 120,
+        "tag": {
+          "GT.ToolStats:10": {
+            "PrimaryMaterial:8": "Neutronium",
+            "MaxDamage:4": 65536000,
+            "SecondaryMaterial:8": "Neutronium"
+          }
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 120
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metatool.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 150
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32518
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        753
+      ]
     }
   ],
   "questLines": [
@@ -149577,6 +149792,11 @@
           "id": 1205,
           "x": 72,
           "y": 0
+        },
+        {
+          "id": 1536,
+          "x": 516,
+          "y": 108
         }
       ]
     },
@@ -150658,7 +150878,7 @@
         {
           "id": 850,
           "x": 312,
-          "y": 444
+          "y": 480
         },
         {
           "id": 944,
@@ -150849,6 +151069,11 @@
           "id": 1527,
           "x": 864,
           "y": 138
+        },
+        {
+          "id": 1537,
+          "x": 324,
+          "y": 444
         }
       ]
     },
@@ -152160,7 +152385,7 @@
     },
     {
       "name": "Multiblock Goals",
-      "description": "This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier.",
+      "description": "This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier. Check back often.",
       "quests": [
         {
           "id": 74,
