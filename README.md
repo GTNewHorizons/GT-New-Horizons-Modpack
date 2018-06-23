@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.4.5 is out 14.06.2018
+Version 2.0.4.6 is out 23.06.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -228,11 +228,11 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.28<BR>
+* Gregtech 5.09.32.29<BR>
 * GT Scanner Mod 1.5.0a<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.28<BR>
-* GT++ 1.7.1b<BR>
+* GT New Horizons Core Mod 1.5.29<BR>
+* GT++ 1.7.1.01<BR>
 * GTNH TC Wands 1.0<BR>
 * GTTweaker 1.7.0<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
@@ -240,7 +240,7 @@ you find it in your resource folder<BR>
 * Holo Inventory 1.9.1.124<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
-* IFU 1.0<BR>
+* IFU 1.2<BR>
 * IguanaTinkerTweaks 2.1.2<BR>
 * Industrial Craft 2 2.2.2.828a<BR>
 * Industrial Craft 2 Nei Plugin 1.1.0<BR>
@@ -335,7 +335,7 @@ you find it in your resource folder<BR>
 * Warp Theory 1.0i dev<BR>
 * Wireless Redstone CBE 1.4.1.11<BR>
 * Witchery 0.24.1<BR>
-* Witching Gadgets 1.2.9d GTNH<BR>
+* Witching Gadgets 1.2.9e GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
 ## Libs and Cores<BR>
