@@ -138730,7 +138730,7 @@
             },
             {
               "id": "GalacticraftCore:item.heavyPlating",
-              "Count": 4,
+              "Count": 8,
               "OreDict": "",
               "Damage": 0
             },
@@ -139145,6 +139145,21 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "GalacticraftCore:item.basicItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
@@ -139373,10 +139388,10 @@
               "Damage": 0
             },
             {
-              "id": "gregtech:gt.blockmetal1",
+              "id": "Railcraft:cube",
               "Count": 9,
-              "OreDict": "blockBlackSteel",
-              "Damage": 12
+              "OreDict": "",
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
