@@ -137121,7 +137121,7 @@
         },
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
@@ -137129,12 +137129,7 @@
               "id": "miscutils:itemAirFilter",
               "Count": 11,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "AirFilter:10": {
-                  "Damage:4": 0
-                }
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
