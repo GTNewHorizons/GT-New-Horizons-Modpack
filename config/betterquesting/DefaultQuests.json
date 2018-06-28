@@ -1,6 +1,7 @@
 {
   "editMode": false,
   "hardcore": false,
+  "partySingleReward": true,
   "defLives": 3,
   "maxLives": 10,
   "questDatabase": [
@@ -3609,7 +3610,7 @@
       "questID": 41,
       "name": "Don\u0027t burn your fingers!",
       "description": "You have decided it\u0027s time to make some tasty pizza, but your fingers got burned badly. Reading an ancient cookbook you discovered a pair of magical items that would allow you to carry anything hot, even lava in a bucket.\n\nThe gloves have to be placed in the Baubles ring slots of Thaumcraft.\n\nFor the protection effect, the hot item has to be in your active slot. I wonder if there is some way to carry more than a few buckets at a time?",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -3698,7 +3699,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -3714,7 +3715,7 @@
       "questID": 42,
       "name": "Cow Tipper",
       "description": "Before you had to kill some pigs and sheep to complete quests. Now it\u0027s time to kill some cows and hopefully get some leather. If you are lucky and get a cow trophy you may never need to kill another cow in the future.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -3768,7 +3769,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSurvivor",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -3784,7 +3785,7 @@
       "questID": 43,
       "name": "Cotton, cotton and more cotton",
       "description": "You find out that cotton is very useful, it can be used to make string, wool, and some other useful items too. Make a small cotton plantation to get tons of it.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -3845,7 +3846,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmer",
-              "Count": 5,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -111541,7 +111542,8 @@
         }
       ],
       "preRequisites": [
-        36
+        35,
+        40
       ]
     },
     {
@@ -145439,7 +145441,7 @@
         }
       ],
       "preRequisites": [
-        15
+        28
       ]
     },
     {
@@ -146110,7 +146112,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinSmith",
-              "Count": 20,
+              "Count": 10,
               "OreDict": "",
               "Damage": 0
             }
@@ -146119,7 +146121,8 @@
         }
       ],
       "preRequisites": [
-        36
+        36,
+        54
       ]
     },
     {
@@ -149466,7 +149469,7 @@
         },
         {
           "id": 1146,
-          "x": 0,
+          "x": 192,
           "y": 36
         },
         {
@@ -149476,18 +149479,18 @@
         },
         {
           "id": 1496,
-          "x": 444,
-          "y": 108
+          "x": 252,
+          "y": 360
         },
         {
           "id": 1497,
-          "x": 480,
-          "y": 108
+          "x": 312,
+          "y": 360
         },
         {
           "id": 1498,
-          "x": 516,
-          "y": 108
+          "x": 372,
+          "y": 360
         },
         {
           "id": 1505,
@@ -149498,11 +149501,6 @@
           "id": 1506,
           "x": 444,
           "y": 72
-        },
-        {
-          "id": 1507,
-          "x": 72,
-          "y": 36
         },
         {
           "id": 1508,
@@ -149563,7 +149561,7 @@
         {
           "id": 54,
           "x": 408,
-          "y": 72
+          "y": 108
         },
         {
           "id": 52,
@@ -149572,7 +149570,7 @@
         },
         {
           "id": 55,
-          "x": 324,
+          "x": 372,
           "y": 72
         },
         {
@@ -149862,8 +149860,8 @@
         },
         {
           "id": 1130,
-          "x": 468,
-          "y": 72
+          "x": 480,
+          "y": 108
         },
         {
           "id": 1131,
@@ -149929,6 +149927,11 @@
           "id": 1536,
           "x": 516,
           "y": 108
+        },
+        {
+          "id": 1507,
+          "x": 408,
+          "y": 72
         }
       ]
     },
