@@ -111735,7 +111735,7 @@
     {
       "questID": 1149,
       "name": "A new alloy - Magnalium",
-      "description": "You wonder why you need magnalium now? It\u0027s not for GT machines right now but for a material update for your crossbow.\nIt\u0027s a very good material in LV Tier. Go to the Twilight Forest and find an Olivine/Glauconite vein located at Y 10-40 or in the Overworld a Glauconite Soapstone mix located at Y 20-50 and a Granitic Mineral Vein in the Overworld Located at Y 50-60 (The Gypsum vein you will need for the Bricked Blast Furnace).\nWith your Ore Washer you can get Magnesium and Aluminium out of the Ores (Magnesite for Magnesium and Fullers Earth for Aluminium) and mix it in the Alloy smelter to Magnalium.\nMagnesite gives 10 tiny piles of Magnesium each dust but fullers earth gives only a tiny pile of Aluminium.",
+      "description": "You wonder why you need magnalium now? It\u0027s not for GT machines right now but for a material update for your crossbow.\nIt\u0027s a very good material in LV Tier. Go to the Twilight Forest and find an Olivine/Glauconite vein located at Y 10-40 or in the Overworld a Glauconite Soapstone mix located at Y 20-50 and a Granitic Mineral Vein in the Overworld Located at Y 50-60 (The Gypsum vein you will need for the Bricked Blast Furnace).\nWith your Ore Washer you can get Magnesium and Aluminium out of the Ores (Magnesite for Magnesium (marbel can be used too)and Fullers Earth for Aluminium) and mix it in the Alloy smelter to Magnalium.\nMagnesite gives 10 tiny piles of Magnesium each dust but fullers earth gives only a tiny pile of Aluminium.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -111759,27 +111759,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 908
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 928
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -149004,6 +148983,127 @@
       "preRequisites": [
         1493
       ]
+    },
+    {
+      "questID": 1540,
+      "name": "Magnalium Source",
+      "description": "Magnesite the source of Magnesium can be found in Twilight Forest at Y 10-40. Fullers Earth can be found on the Overworld at Y 50-70. Marbel dust can be used for magnesium dust also.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockores",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 908
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 908
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 928
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockstones",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:heartybreakfastItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:meatfeastpizzaItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 11305
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11300
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinAdventure",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        539
+      ]
     }
   ],
   "questLines": [
@@ -150171,7 +150271,7 @@
         },
         {
           "id": 555,
-          "x": 336,
+          "x": 384,
           "y": 360
         },
         {
@@ -150563,6 +150663,11 @@
           "id": 1285,
           "x": 360,
           "y": 564
+        },
+        {
+          "id": 1540,
+          "x": 336,
+          "y": 324
         }
       ]
     },
