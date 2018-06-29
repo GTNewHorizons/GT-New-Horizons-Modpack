@@ -89423,7 +89423,7 @@
     {
       "questID": 937,
       "name": "Power of the Sun 1x1 LV",
-      "description": "Put those 32 eu panel on a block to make them placeable in the world. Use an MV assembler to combine the panel with an LV hull.",
+      "description": "Put those 32 eu panel on a block to make them placeable in the world. Use an MV assembler to combine the panel with an LV hull a battery and a robot arm. This pannel don\u0027t need to be cleaned manually.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89458,6 +89458,18 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 32752
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32518
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32650
             },
             {
               "id": "gregtech:gt.blockmachines",
@@ -96493,7 +96505,7 @@
     {
       "questID": 1004,
       "name": "Power of the Sun 1x1 MV",
-      "description": "Put those 128 eu panels on a block to make them placeable in the world. Use an HV assembler to combine the panel with an MV hull.",
+      "description": "Put those 128 eu panels on a block to make them placeable in the world. Use an HV assembler to combine the panel with an MV hull a battery and a robot arm. This panel don\u0027t need to be cleaned manually.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96528,6 +96540,18 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 32753
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32528
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32651
             },
             {
               "id": "gregtech:gt.blockmachines",
@@ -96879,7 +96903,7 @@
     {
       "questID": 1007,
       "name": "Power of the Sun 1x1 HV",
-      "description": "Put those 512 eu panels on a block to make them placeable in the world. Use an EV assembler to combine the panel with an HV hull.",
+      "description": "Put those 512 eu panels on a block to make them placeable in the world. Use an EV assembler to combine the panel with an HV hull a battery and a robot arm. This panel don\u0027t need to be cleaned manually.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -96914,6 +96938,18 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 32754
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32538
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32652
             },
             {
               "id": "gregtech:gt.blockmachines",
