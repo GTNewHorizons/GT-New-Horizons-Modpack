@@ -1471,10 +1471,11 @@ recipes.addShapeless(<IC2:itemFluidCell>, [<IC2:itemCellEmpty>]);
 // -
 recipes.addShapeless(<IC2:itemCellEmpty>, [<IC2:itemFluidCell>]);
 
-
-
 // --- CF Powder
-recipes.addShapeless(<IC2:itemPartCFPowder>, [<ore:dustCalcite>, <ore:dustCalcite>, <ore:dustStone>, <ore:dustClay>, <dreamcraft:item.SandDust>]);
+recipes.addShaped(<IC2:itemPartCFPowder>, [
+[<ore:dustCalcite>, <ore:dustCalcite>, <ore:dustStone>],
+[<ore:dustClay>, <dreamcraft:item.SandDust>, null],
+[null, null, null]]);
 
 
 
@@ -1548,11 +1549,6 @@ Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <greg
 
 // --- Coal Chunk
 Assembler.addRecipe(<IC2:itemPartCoalChunk>, <minecraft:coal_block>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
-
-// --- Thick Neutron Reflector
-Assembler.addRecipe(<IC2:reactorReflectorThick:1>, [<IC2:reactorReflector:1>, <IC2:reactorReflector:1>, <IC2:reactorReflector:1>, <IC2:reactorReflector:1>, <gregtech:gt.metaitem.01:18008> * 2], null, 600, 64);
-// -
-Assembler.addRecipe(<IC2:reactorReflectorThick:1>, [<IC2:reactorReflector:1>, <IC2:reactorReflector:1>, <IC2:reactorReflector:1>, <IC2:reactorReflector:1>, <gregtech:gt.metaitem.01:17370> * 2], null, 600, 64);
 
 // --- Treetap
 Assembler.addRecipe(<IC2:itemTreetap>, <gregtech:gt.blockmachines:5102> * 3, <gregtech:gt.metaitem.01:27809>, 200, 8);
