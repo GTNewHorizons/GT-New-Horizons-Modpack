@@ -56,7 +56,6 @@ recipes.addShaped(<gregtech:gt.blockmachines:875>, [
 [<ore:gearGtTitanium>, <ore:circuitElite>, <ore:gearGtTitanium>],
 [<RIO:tile.machine:1>, <gregtech:gt.blockmachines:363>, <RIO:tile.machine:1>]]);
 
-
 // --- Accelerated Frame
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
 [<gregtech:gt.metaitem.02:22303>, <gregtech:gt.metaitem.01:23303>, <gregtech:gt.metaitem.02:22303>, 
@@ -126,10 +125,10 @@ Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium
 
 
 // --- Gelid Cryotheum
-Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <miscutils:material:4>, <IC2:itemFluidCell>, 100, 120);
+//Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <miscutils:material:4>, <IC2:itemFluidCell>, 100, 120);
 
 // --- Blazing Cryotheum
-Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <gregtech:gt.metaitem.01:2843>, <IC2:itemFluidCell>, 100, 120);
+//Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <gregtech:gt.metaitem.01:2843>, <IC2:itemFluidCell>, 100, 120);
 
 
 
@@ -140,11 +139,11 @@ Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Am
 
 
 // --- Gelid Cryotheum
-FluidCanner.addRecipe(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <liquid:cryotheum> * 1000, null);
+//FluidCanner.addRecipe(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <liquid:cryotheum> * 1000, null);
 // -
-FluidCanner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <IC2:itemFluidCell>, null, <liquid:cryotheum> * 1000);
+//FluidCanner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <IC2:itemFluidCell>, null, <liquid:cryotheum> * 1000);
 
 // --- Blazing Pyrotheum
-FluidCanner.addRecipe(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <liquid:pyrotheum> * 1000, null);
+//FluidCanner.addRecipe(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <liquid:pyrotheum> * 1000, null);
 // -
-FluidCanner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <IC2:itemFluidCell>, null, <liquid:pyrotheum> * 1000);
+//FluidCanner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <IC2:itemFluidCell>, null, <liquid:pyrotheum> * 1000);

@@ -22,6 +22,7 @@ import mods.gregtech.Pulverizer;
 val LvMotor = <gregtech:gt.metaitem.01:32600>;
 val MvMotor = <gregtech:gt.metaitem.01:32601>;
 val HvMotor = <gregtech:gt.metaitem.01:32602>;
+val RobotArmHV = <gregtech:gt.metaitem.01:32652>;
 val LvPump = <gregtech:gt.metaitem.01:32610>;
 val MvPump = <gregtech:gt.metaitem.01:32611>;
 val HvPump = <gregtech:gt.metaitem.01:32612>;
@@ -47,7 +48,9 @@ val Capacitor3 = <EnderIO:itemBasicCapacitor:2>;
 val VAPlate = <gregtech:gt.metaitem.01:17367>;
 val PIPlate = <gregtech:gt.metaitem.01:17378>;
 val EAPlate = <gregtech:gt.metaitem.01:17366>;
+val DensePulsatingIronPlate = <ore:plateDensePulsatingIron>;
 val DiamondGear = <ore:gearDiamond>;
+val GearElectricSteel = <ore:gearElectricalSteel>;
 val Cauldron = <minecraft:cauldron>;
 val VCrystal = <EnderIO:itemMaterial:6>;
 val RedstonePlate = <ore:plateRedstone>;
@@ -519,9 +522,9 @@ recipes.addShaped(<EnderIO:blockPowerMonitor>, [
 
 // --- Farming Station
 recipes.addShaped(<EnderIO:blockFarmStation>, [
-[PCrystal, <IC2:itemToolHoe:*>, PCrystal],
-[GCircuit, MCasing, GCircuit],
-[MvMotor, ZLogic, MvMotor]]);
+[RobotArmHV, DensePulsatingIronPlate, RobotArmHV],
+[PCrystal, MCasing, PCrystal],
+[GearElectricSteel, ZLogic, GearElectricSteel]]);
 
 // --- Wireless Charger
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [
