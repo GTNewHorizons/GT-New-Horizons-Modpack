@@ -82710,7 +82710,7 @@
       ],
       "rewards": [
         {
-          "rewards": [
+          "choices": [
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 64,
@@ -82728,9 +82728,15 @@
               "Count": 64,
               "OreDict": "",
               "Damage": 6502
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6535
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:choice"
         },
         {
           "rewards": [
