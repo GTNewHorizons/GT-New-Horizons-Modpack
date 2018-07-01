@@ -90581,7 +90581,7 @@
     {
       "questID": 948,
       "name": "Better than iron",
-      "description": "Wrought Iron will become more important very soon when you have a bit of steel and are able to build high pressure steam machines. The material is much harder than iron and you can make better tools with it too.\nTo make wrought iron you need a furnace to smelt iron ingots down to wrought iron nuggets. With the compressor you can compress the nuggets to ingots.\n\nHint:\nCrushed or purified oredust can be smelt to iron nuggets directly. Later on you can use an arc furnace to make wrought iron ingots directly",
+      "description": "Wrought Iron will become more important very soon when you have a bit of steel and are able to build high pressure steam machines. The material is much harder than iron and you can make better tools with it too.\nTo make wrought iron you need a tinkers smelterto melt some iron ingots down and cast nuggets and put this in a furnace to get wrought Iron nuggest. With the compressor you can compress the nuggets to ingots.\n\nHint:\nCrushed or purified oredust can be smelt to iron nuggets directly. Later on you can use an arc furnace to make wrought iron ingots directly",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
