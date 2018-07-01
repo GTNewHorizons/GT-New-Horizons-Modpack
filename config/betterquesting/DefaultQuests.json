@@ -125529,7 +125529,7 @@
     {
       "questID": 1288,
       "name": "Hops, the source of beer",
-      "description": "If you don\u0027t want pure alcohol, but beer, get some hops by crossbreeding IC� crops.",
+      "description": "If you don\u0027t want pure alcohol, but beer, get some hops by crossbreeding IC2 crops.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -125574,13 +125574,13 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinFarmerI",
-              "Count": 1,
+              "Count": 6,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
-              "Count": 1,
+              "Count": 5,
               "OreDict": "",
               "Damage": 35
             }
@@ -149146,6 +149146,356 @@
       "preRequisites": [
         539
       ]
+    },
+    {
+      "questID": 1541,
+      "name": "Anylyze your crops",
+      "description": "The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it.\n\nYou may have noticed that NEI does not include every possible combination. The cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the chance outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer. You can also do this while sneaking, and it will have a different gui, where you can select any crops from a row instead of needing to use them from your inventory.\n\nIn either of the GUIs, you can choose up to four crops to breed together. Then click \"process\" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.\n\nWhen trying to get a specific crop, you generally want to maximize it\u0027s weight. But more specifically, you want to maximize the proportion of its weight out of all the weights. This means there are usually no benefits or downsides to breeding 3 or 4 crops together instead of 2, since all weights are increased evenly.\n\nTry a variety of combinations to get the crops you want. Often, breeding together two of the same crop is a surprisingly good option or even the best one.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemCropnalyzer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1,
+        "tag": {
+          "uid:4": -73442049,
+          "charge:6": 100000.0,
+          "Items:9": []
+        }
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32740
+            },
+            {
+              "id": "miscutils:MU-metaitem.01",
+              "Count": 1,
+              "OreDict": "circuitGood",
+              "Damage": 32202
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemCropnalyzer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32767,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemCropSeed",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "owner:8": "berriespp",
+                "name:8": "Glowflower",
+                "scan:4": 4,
+                "growth:4": 1,
+                "resistance:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "IC2:blockCrop",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        721,
+        103
+      ]
+    },
+    {
+      "questID": 1542,
+      "name": "Crop automation",
+      "description": "The Crop-Matron is a LV machine that will monitor crops in a 9x9x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be added to the Crop-Matron with Fluid Cells, or pumped in directly.\n\nUse Weed-EX sparingly, since overuse will affect crops negatively. Tilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockMachine2",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "BuildCraft|Factory:tankBlock",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCasing",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
+              "OreDict": "circuitBasic",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMachine2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "IC2:itemWeedEx",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemFertilizer",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        721,
+        103
+      ]
+    },
+    {
+      "questID": 1543,
+      "name": "Weed Ex",
+      "description": "Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of crop quality. Damage to the crop\u0027s quality is permanent and cannot be reversed, aside from complete removal.\n\nUsage:\nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop-Matron to automatically apply it to your crops. Overuse will reduce crop quality, capping their stats at 10.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemWeedEx",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemWeedEx",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:spider_eye",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32402
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1273,
+        1542
+      ]
     }
   ],
   "questLines": [
@@ -152355,7 +152705,7 @@
         {
           "id": 723,
           "x": 48,
-          "y": 174
+          "y": 108
         },
         {
           "id": 724,
@@ -152365,7 +152715,7 @@
         {
           "id": 725,
           "x": 120,
-          "y": 174
+          "y": 108
         },
         {
           "id": 1009,
@@ -152455,6 +152805,21 @@
         {
           "id": 1275,
           "x": 264,
+          "y": 144
+        },
+        {
+          "id": 1541,
+          "x": 48,
+          "y": 180
+        },
+        {
+          "id": 1542,
+          "x": 48,
+          "y": 144
+        },
+        {
+          "id": 1543,
+          "x": 0,
           "y": 144
         }
       ]
