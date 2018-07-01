@@ -26749,7 +26749,7 @@
     {
       "questID": 301,
       "name": "One does not simply...",
-      "description": "...play with magic. Be warned, these fires are very dangerous! But who doesn\u0027t want a patch of snow in the nether?\n\n§4Fire spread is disabled in the configs of servers to prevent massive lag and world destruction.",
+      "description": "...play with magic. Be warned, these fires are very dangerous! But who doesn\u0027t want a patch of snow in the nether?\n\nï¿½4Fire spread is disabled in the configs of servers to prevent massive lag and world destruction.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -76857,7 +76857,7 @@
     {
       "questID": 820,
       "name": "Rocket Launch Pad",
-      "description": "Every rocket needs a §4§0§4launch pad.§0 Build a 3x3 launch pad to place your rocket.",
+      "description": "Every rocket needs a ï¿½4ï¿½0ï¿½4launch pad.ï¿½0 Build a 3x3 launch pad to place your rocket.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -101548,7 +101548,7 @@
     {
       "questID": 1068,
       "name": "Are you prepared?",
-      "description": "Are you prepared for the Moon?\nA few things will help you to live longer and prevent you from dying on the Moon.\nIf you die on the moon you will be returned to earth without your stuff. A §2Soulbind§0 enchantment will keep an item with you when you die.\nGraves are placed at the location where you died.",
+      "description": "Are you prepared for the Moon?\nA few things will help you to live longer and prevent you from dying on the Moon.\nIf you die on the moon you will be returned to earth without your stuff. A ï¿½2Soulbindï¿½0 enchantment will keep an item with you when you die.\nGraves are placed at the location where you died.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -112217,7 +112217,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fWooden Crossbow"
+                  "Name:8": "Wooden Crossbow"
                 }
               }
             }
@@ -112658,7 +112658,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fIron Bolts"
+                  "Name:8": "Iron Bolts"
                 }
               }
             }
@@ -112980,7 +112980,7 @@
                   "Modifiers:4": 0
                 },
                 "display:10": {
-                  "Name:8": "§fIron Bolts"
+                  "Name:8": "Iron Bolts"
                 }
               }
             }
