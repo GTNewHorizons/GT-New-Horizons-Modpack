@@ -73691,13 +73691,15 @@
         }
       ],
       "preRequisites": [
-        795
+        795,
+        785,
+        837
       ]
     },
     {
       "questID": 795,
       "name": "Basic Circuit Assembler",
-      "description": "Advanced circuits require an LV circuit assembling machine. Let\u0027s make one.",
+      "description": "Advanced circuits require an LV circuit assembling machine. Basic ones can be made much more efficient with this machine. Let\u0027s craft one.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -73756,7 +73758,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -73765,7 +73767,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnicianI",
-              "Count": 5,
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -73774,8 +73776,9 @@
         }
       ],
       "preRequisites": [
-        785,
-        837
+        717,
+        530,
+        529
       ]
     },
     {
@@ -150596,7 +150599,7 @@
         },
         {
           "id": 529,
-          "x": 600,
+          "x": 648,
           "y": 252
         },
         {
@@ -150877,7 +150880,7 @@
         {
           "id": 531,
           "x": 600,
-          "y": 288
+          "y": 252
         },
         {
           "id": 96,
@@ -150906,13 +150909,13 @@
         },
         {
           "id": 747,
-          "x": 636,
-          "y": 336
+          "x": 600,
+          "y": 372
         },
         {
           "id": 836,
           "x": 756,
-          "y": 336
+          "y": 372
         },
         {
           "id": 840,
@@ -150941,8 +150944,8 @@
         },
         {
           "id": 930,
-          "x": 648,
-          "y": 252
+          "x": 720,
+          "y": 336
         },
         {
           "id": 1084,
@@ -151093,6 +151096,11 @@
           "id": 1540,
           "x": 336,
           "y": 324
+        },
+        {
+          "id": 795,
+          "x": 648,
+          "y": 336
         }
       ]
     },
@@ -151386,11 +151394,6 @@
           "y": 0
         },
         {
-          "id": 795,
-          "x": 252,
-          "y": 0
-        },
-        {
           "id": 746,
           "x": 192,
           "y": 84
@@ -151417,7 +151420,7 @@
         },
         {
           "id": 837,
-          "x": 252,
+          "x": 360,
           "y": 36
         },
         {
@@ -151517,12 +151520,12 @@
         },
         {
           "id": 933,
-          "x": 360,
+          "x": 408,
           "y": 36
         },
         {
           "id": 934,
-          "x": 408,
+          "x": 456,
           "y": 36
         },
         {
