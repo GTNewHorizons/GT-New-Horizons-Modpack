@@ -112175,6 +112175,54 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Crossbow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:4": 6,
+                  "BaseDurability:4": 38,
+                  "BaseAttack:4": 1,
+                  "DrawSpeed:4": 33,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:4": 0,
+                  "RenderHead:4": 0,
+                  "ModDurability:6": 0.0,
+                  "Shoddy:6": 0.0,
+                  "RenderHandle:4": 0,
+                  "Accessory:4": 0,
+                  "MiningSpeed:4": 150,
+                  "Unbreaking:4": 3,
+                  "Damage:4": 0,
+                  "BonusDurability:4": 0,
+                  "TotalDurability:4": 38,
+                  "BaseDrawSpeed:4": 33,
+                  "Head:4": 0,
+                  "Attack:4": 1,
+                  "Handle:4": 0,
+                  "Broken:4": 0,
+                  "Extra:4": 6,
+                  "RenderAccessory:4": 0,
+                  "ToolLevel:4": 1,
+                  "FlightSpeed:6": 4.5,
+                  "Modifiers:4": 0
+                },
+                "display:10": {
+                  "Name:8": "§fWooden Crossbow"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
