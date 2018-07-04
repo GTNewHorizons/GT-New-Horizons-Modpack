@@ -162,19 +162,19 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2836>);
 //recipes.remove(<gregtech:gt.metaitem.01:32754>);
 
 // --- Solar Panel 2048 EU
-recipes.remove(<gregtech:gt.metaitem.01:32755>);
+//recipes.remove(<gregtech:gt.metaitem.01:32755>);
 
 // --- Solar Panel 8192 EU
-recipes.remove(<gregtech:gt.metaitem.01:32756>);
+//recipes.remove(<gregtech:gt.metaitem.01:32756>);
 
 // --- Solar Panel 32768 EU
-recipes.remove(<gregtech:gt.metaitem.01:32757>);
+//recipes.remove(<gregtech:gt.metaitem.01:32757>);
 
 // --- Solar Panel 131072 EU
-recipes.remove(<gregtech:gt.metaitem.01:32758>);
+//recipes.remove(<gregtech:gt.metaitem.01:32758>);
 
 // --- Solar Panel 524288 EU
-recipes.remove(<gregtech:gt.metaitem.01:32759>);
+//recipes.remove(<gregtech:gt.metaitem.01:32759>);
 
 // --- Apatite
 recipes.removeShaped(<gregtech:gt.metaitem.01:8530>, [
