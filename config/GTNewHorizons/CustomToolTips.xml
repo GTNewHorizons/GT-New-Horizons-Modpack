@@ -46,13 +46,13 @@
 	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 300"/>
 	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 300 §4Blast Resistance 420"/>
 	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 600 §4Blast Resistance 500"/>
-	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Passive Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Personal Chunkloader, 48H in Passive Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Personal Chunkloader, 96H in Passive Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIII" ToolTip="§248H Chunkloader Coin, 96H in Personal Chunkloader, 192H in Passive Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Personal Chunkloader, 384H in Passive Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Personal Chunkloader, 768H in Passive Chunkloader"/>
-	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunkloader Use in Personal and 4H in Passive Chunkloader"/>
+	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIII" ToolTip="§248H Chunkloader Coin, 96H in Passive Chunkloader, 192H in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader"/>
+	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunkloader Use in Passive and 4H in Personal Chunkloader"/>
 	
 
 //Gregtech	
