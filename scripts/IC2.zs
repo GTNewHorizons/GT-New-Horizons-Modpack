@@ -1157,7 +1157,7 @@ recipes.addShaped(<IC2:itemScanner>, [
 
 // --- OV Scanner
 recipes.addShaped(<IC2:itemScannerAdv>, [
-[<dreamcraft:item.TitaniumItemCasing>, <IC2:itemScanner:26>, <dreamcraft:item.TitaniumItemCasing>],
+[<dreamcraft:item.TitaniumItemCasing>, <IC2:itemScanner:*>, <dreamcraft:item.TitaniumItemCasing>],
 [<ore:circuitData>, <dreamcraft:item.Display>, <ore:circuitData>],
 [<ore:cableGt01Nichrome>, <ore:batteryMaster>, <ore:cableGt01Nichrome>]]);
 
