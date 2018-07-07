@@ -103,6 +103,8 @@ PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.0
 // -
 PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.01:24512> * 0, <AdvancedSolarPanel:asp_crafting_items:5>, 1000, 7680);
 // -
+PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.01:24502> * 0, <AdvancedSolarPanel:asp_crafting_items:5>, 1000, 7680);
+// -
 PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.01:24527> * 0, <AdvancedSolarPanel:asp_crafting_items:5>, 1000, 7680);
 // -
 PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.01:24541> * 0, <AdvancedSolarPanel:asp_crafting_items:5>, 1000, 7680);
