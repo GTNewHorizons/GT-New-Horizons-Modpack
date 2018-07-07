@@ -5,6 +5,8 @@
 // --- Importing Stuff ---
 
 
+import mods.gregtech.BlastFurnace;
+import mods.gregtech.FormingPress;
 import mods.gregtech.Mixer;
 
 
@@ -57,6 +59,9 @@ recipes.remove(<witchery:ingredient:16>);
 //recipes.remove(<witchery:distilleryidle>);
 //recipes.remove(<witchery:ingredient:10>);
 
+// --- Soft Clay Jar
+recipes.remove(<witchery:ingredient:26>);
+
 
 
 // --- Adding Recipes ---
@@ -81,7 +86,28 @@ recipes.addShapeless(<witchery:ingredient:16>, [<gregtech:gt.metaitem.01:2622>])
 recipes.addShapeless(<gregtech:gt.metaitem.01:2622>, [<witchery:ingredient:16>]);
 
 
-// --- Mixer Recipes
+
+// --- Blast furnace recipes ---
+
+
+
+// --- Clay Jar
+BlastFurnace.addRecipe([<witchery:ingredient:27>], [<witchery:ingredient:26>], 600, 120, 1000); 
+
+
+
+
+// --- Forming Press Recipes ---
+
+
+
+// --- Soft Clay Jar
+FormingPress.addRecipe(<witchery:ingredient:26>, <minecraft:clay_ball> * 4, <gregtech:gt.metaitem.01:32305> * 0, 100, 30);
+
+
+
+
+// --- Mixer Recipes ---
 
 
 

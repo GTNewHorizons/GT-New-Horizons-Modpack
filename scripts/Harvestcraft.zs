@@ -7,6 +7,7 @@
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
+import mods.gregtech.FormingPress;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
 
@@ -381,10 +382,6 @@ recipes.addShaped(<harvestcraft:hardenedleatherbootsItem>, [
 [<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [null, null, null]]);
 
-// --- Hardened Leather
-recipes.addShaped(<harvestcraft:hardenedleatherItem>, [
-[<Backpack:tannedLeather>, <harvestcraft:waxItem>, <Backpack:tannedLeather>]]);
-
 // --- Fresh Milk
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>]);
 
@@ -703,6 +700,14 @@ Extractor.addRecipe(<harvestcraft:chestnutbutterItem>, <Forestry:fruits:2>);
 
 // --- Pistachio Butter
 Extractor.addRecipe(<harvestcraft:pistachiobutterItem>, <harvestcraft:pistachioItem>);
+
+
+// --- Forming Press Recipes ---
+
+
+
+// --- Hardened Leather
+FormingPress.addRecipe(<harvestcraft:hardenedleatherItem>, <Backpack:tannedLeather> * 2, <harvestcraft:waxItem>, 300, 30);
 
 
 
