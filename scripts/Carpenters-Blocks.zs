@@ -290,7 +290,7 @@ Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLadder>, CarpentersBlock, <
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLever>,  CarpentersBlock, <minecraft:lever>, 50, 16);
 
 // --- Carpenters Safe
-Assembler.addRecipe(Safe, CollapsibleBlock * 4, IC2Safe, 300, 30);
+Assembler.addRecipe(Safe, CollapsibleBlock * 3, IC2Safe, 300, 30);
 
 // --- Carpenters Torch
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersTorch> * 10, CarpentersBlock, <minecraft:torch> * 10, 100, 16);
