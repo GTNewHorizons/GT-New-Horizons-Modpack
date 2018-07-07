@@ -80130,8 +80130,7 @@
         }
       ],
       "preRequisites": [
-        717,
-        1148
+        717
       ]
     },
     {
@@ -128786,7 +128785,8 @@
         }
       ],
       "preRequisites": [
-        848
+        848,
+        717
       ]
     },
     {
@@ -149534,6 +149534,101 @@
       ]
     },
     {
+      "questID": 1544,
+      "name": "Fish Oil",
+      "description": "To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil and fish produce fish oil when placed in a fluid extractor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:fish",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 30711
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30713
+            },
+            {
+              "id": "IC2:itemFuelPlantBall",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:itemCellEmpty",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinChemist",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1148
+      ]
+    },
+    {
       "questID": 1545,
       "name": "Time to ore drill!",
       "description": "Auto Miner are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that but you will need to search for ores using a seismic prospector or the advanced one. \n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. \n\nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius.\n\nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.",
@@ -151462,12 +151557,12 @@
         },
         {
           "id": 734,
-          "x": 192,
+          "x": 180,
           "y": 480
         },
         {
           "id": 735,
-          "x": 96,
+          "x": 108,
           "y": 480
         },
         {
@@ -151542,7 +151637,7 @@
         },
         {
           "id": 773,
-          "x": 216,
+          "x": 180,
           "y": 372
         },
         {
@@ -151552,7 +151647,7 @@
         },
         {
           "id": 778,
-          "x": 216,
+          "x": 180,
           "y": 408
         },
         {
@@ -151622,23 +151717,23 @@
         },
         {
           "id": 842,
-          "x": 96,
+          "x": 108,
           "y": 516
         },
         {
           "id": 843,
-          "x": 192,
+          "x": 144,
           "y": 552
         },
         {
           "id": 844,
-          "x": 96,
+          "x": 108,
           "y": 552
         },
         {
           "id": 845,
           "x": 144,
-          "y": 588
+          "y": 600
         },
         {
           "id": 846,
@@ -151652,13 +151747,13 @@
         },
         {
           "id": 848,
-          "x": 216,
-          "y": 588
+          "x": 180,
+          "y": 552
         },
         {
           "id": 849,
           "x": 252,
-          "y": 588
+          "y": 600
         },
         {
           "id": 852,
@@ -151818,7 +151913,7 @@
         {
           "id": 1226,
           "x": 144,
-          "y": 624
+          "y": 636
         },
         {
           "id": 1227,
@@ -151868,7 +151963,7 @@
         {
           "id": 1324,
           "x": 216,
-          "y": 624
+          "y": 552
         },
         {
           "id": 1477,
@@ -151919,6 +152014,11 @@
           "id": 1537,
           "x": 324,
           "y": 444
+        },
+        {
+          "id": 1544,
+          "x": 216,
+          "y": 516
         }
       ]
     },
