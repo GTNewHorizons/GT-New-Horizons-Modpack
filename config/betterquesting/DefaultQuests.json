@@ -70507,8 +70507,8 @@
     },
     {
       "questID": 765,
-      "name": "Time to drill!",
-      "description": "Pumps are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There\u0027s also a chance to find natural gas.\n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. \n\nLater you can upgrade the oil drilling rig so it extracts from more than one chunk at a time.",
+      "name": "Time to oil drill!",
+      "description": "Pumps are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There\u0027s also a chance to find natural gas.\n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. \n\nLater you can upgrade the oil drilling rig so it extracts from more than one chunk at a time.\n\nYou need mining pipes in the machine block.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -149532,6 +149532,183 @@
         1273,
         1542
       ]
+    },
+    {
+      "questID": 1545,
+      "name": "Time to ore drill!",
+      "description": "Auto Miner are nice but you\u0027re going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that but you will need to search for ores using a seismic prospector or the advanced one. \n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. \n\nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius.\n\nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1158
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1158
+            },
+            {
+              "id": "gregtech:gt.blockcasings2",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 4401
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 52
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 72
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 82
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 42
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemFluidCell",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "liquid_drillingfluid",
+                  "Amount:4": 1000
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32601
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32708
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 17019
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnicianI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        767,
+        1148
+      ]
     }
   ],
   "questLines": [
@@ -153227,7 +153404,7 @@
         },
         {
           "id": 768,
-          "x": 336,
+          "x": 384,
           "y": 108
         },
         {
@@ -153312,7 +153489,7 @@
         },
         {
           "id": 876,
-          "x": 336,
+          "x": 384,
           "y": 72
         },
         {
@@ -153324,6 +153501,11 @@
           "id": 1503,
           "x": 192,
           "y": 0
+        },
+        {
+          "id": 1545,
+          "x": 336,
+          "y": 72
         }
       ]
     },
