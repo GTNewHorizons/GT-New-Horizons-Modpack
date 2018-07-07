@@ -62,6 +62,9 @@ recipes.remove(<witchery:ingredient:16>);
 // --- Soft Clay Jar
 recipes.remove(<witchery:ingredient:26>);
 
+// --- Clay Jar
+furnace.remove(<witchery:ingredient:27>);
+
 
 
 // --- Adding Recipes ---
