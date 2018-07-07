@@ -5,7 +5,7 @@
 // --- Importing Stuff ---
 
 
-import mods.gregtech.BlastFurnace;
+//import mods.gregtech.BlastFurnace;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Mixer;
 
@@ -63,7 +63,7 @@ recipes.remove(<witchery:ingredient:16>);
 recipes.remove(<witchery:ingredient:26>);
 
 // --- Clay Jar
-furnace.remove(<witchery:ingredient:27>);
+//furnace.remove(<witchery:ingredient:27>);
 
 
 
@@ -95,7 +95,7 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2622>, [<witchery:ingredient:16>])
 
 
 // --- Clay Jar
-BlastFurnace.addRecipe([<witchery:ingredient:27>], [<witchery:ingredient:26>], 600, 120, 1000); 
+//BlastFurnace.addRecipe([<witchery:ingredient:27>], [<witchery:ingredient:26>], 600, 120, 1000); 
 
 
 
