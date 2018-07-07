@@ -65,9 +65,9 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 
 // --- Mutagenic Frame
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
-[<gregtech:gt.metaitem.02:22098>, <gregtech:gt.metaitem.01:23098>, <gregtech:gt.metaitem.02:22098>, 
-<gregtech:gt.metaitem.01:23098>, <gregtech:gt.metaitem.01:29098>, <gregtech:gt.metaitem.01:23098>, 
-<gregtech:gt.metaitem.02:22098>, <gregtech:gt.metaitem.01:23098>, <gregtech:gt.metaitem.02:22098>],
+[<gregtech:gt.metaitem.02:22097>, <gregtech:gt.metaitem.01:23101>, <gregtech:gt.metaitem.02:22097>, 
+<gregtech:gt.metaitem.01:23101>, <gregtech:gt.metaitem.01:29101>, <gregtech:gt.metaitem.01:23101>, 
+<gregtech:gt.metaitem.02:22097>, <gregtech:gt.metaitem.01:23101>, <gregtech:gt.metaitem.02:22097>],
 <Forestry:frameImpregnated>, <miscutils:frameMutagenic>);
 
 // --- Working Frame
