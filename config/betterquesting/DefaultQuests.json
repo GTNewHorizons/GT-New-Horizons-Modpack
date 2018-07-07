@@ -74023,8 +74023,8 @@
     },
     {
       "questID": 798,
-      "name": "Iron capped Greatwood Wand",
-      "description": "Making a gold capped greatwood wand requires 35 vis, but your old wand\u0027s limit is 25. So first create an iron capped greatwood wand and then create a gold capped greatwood wand.\nMake sure you use NEI \u0027U\u0027 command on the wand caps to find the correct GT:NH recipe for the wand.",
+      "name": "Copper capped Greatwood Wand",
+      "description": "Making a gold capped greatwood wand requires 35 vis, but your old wand\u0027s limit is 25. So first create an iron or copper capped greatwood wand and then create a gold capped greatwood wand.\nMake sure you use NEI \u0027U\u0027 command on the wand caps to find the correct GT:NH recipe for the wand.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -74044,7 +74044,7 @@
         "id": "Thaumcraft:WandCap",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 3
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -74058,7 +74058,7 @@
               "id": "Thaumcraft:WandCap",
               "Count": 2,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 3
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -74073,9 +74073,9 @@
               "id": "Thaumcraft:WandCasting",
               "Count": 1,
               "OreDict": "",
-              "Damage": 3,
+              "Damage": 6,
               "tag": {
-                "cap:8": "iron",
+                "cap:8": "copper",
                 "rod:8": "greatwood"
               }
             }
