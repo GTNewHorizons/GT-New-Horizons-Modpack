@@ -114925,8 +114925,8 @@
     },
     {
       "questID": 1180,
-      "name": "Personal Chunkloading",
-      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some personal chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. \nPassive anchors can be powered with ender pearls for 4 hours per pearl, personal anchors 1 hour per pearl. \n\nWorld anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
+      "name": "Passive Chunkloading",
+      "description": "Using the MV bender you can finally press dense plates. Let\u0027s craft some passive chunkloaders.\n3x3 chunks are loaded. You need coins to power the chunkloader. \nPersonal anchors can be powered with ender pearls for 4 hours per pearl, passive anchors 1 hour per pearl. \n\nWorld anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -114946,7 +114946,7 @@
         "id": "Railcraft:machine.alpha",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2
+        "Damage": 13
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -114960,7 +114960,7 @@
               "id": "Railcraft:machine.alpha",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 13
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -147825,8 +147825,8 @@
     },
     {
       "questID": 1528,
-      "name": "Passive Chunkloading",
-      "description": "Let\u0027s craft some passive chunkloaders. You need double steel plates, obsidian plates, diamond plates and a ender pearl.\n3x3 chunks are loaded. You need coins to power the chunkloader. \nPersonal and passive anchors can also be powered with ender pearls for 4 hour per pearl, 1h in personal anchors . Passive anchors can powered also with ender fragments for 1h.  \n\nWorld anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
+      "name": "Personal Chunkloading",
+      "description": "Let\u0027s craft some personal chunkloaders. You need double gold plates, obsidian plates, diamond plates and a ender pearl.\n3x3 chunks are loaded. You need coins to power the chunkloader. \nPersonal and passive anchors can also be powered with ender pearls for 4 hour per pearl, 1h in passive anchors . Personal anchors can powered also with ender fragments for 1h.  \n\nWorld anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -147860,7 +147860,7 @@
               "id": "Railcraft:machine.alpha",
               "Count": 1,
               "OreDict": "",
-              "Damage": 13
+              "Damage": 2
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -147903,7 +147903,7 @@
     {
       "questID": 1529,
       "name": "Chunkloading",
-      "description": "With your hv assembler you can craft a world anchor.\n3x3 chunks are loaded. You need coins to power the chunkloader. \nPassive anchors can be powered with ender pearls for 4 hours per pearl, personal anchors 1 hour per pearl. \n\nWorld anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
+      "description": "With your hv assembler you can craft a world anchor.\n3x3 chunks are loaded. You need coins to power the chunkloader. \nPersonal anchors can be powered with ender pearls for 4 hours per pearl, passive anchors 1 hour per pearl. \n\nWorld anchors are always loaded. Personal anchors are loaded while the player is logged in. Passive only loads once the owner visits, and stays loaded until they logout.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
