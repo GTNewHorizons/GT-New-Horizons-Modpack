@@ -105,7 +105,7 @@ BlastFurnace.addRecipe([<witchery:ingredient:27>], [<witchery:ingredient:26>], 6
 
 
 // --- Soft Clay Jar
-FormingPress.addRecipe(<witchery:ingredient:26>, <minecraft:clay_ball> * 4, <gregtech:gt.metaitem.01:32305> * 0, 100, 30);
+FormingPress.addRecipe(<witchery:ingredient:26> * 4, <minecraft:clay_ball> * 4, <gregtech:gt.metaitem.01:32305> * 0, 400, 30);
 
 
 
