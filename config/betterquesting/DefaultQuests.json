@@ -120422,7 +120422,7 @@
             {
               "id": "minecraft:blaze_powder",
               "Count": 1,
-              "OreDict": "",
+              "OreDict": "itemBlazePowder",
               "Damage": 0
             },
             {
