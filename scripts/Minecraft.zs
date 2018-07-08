@@ -2749,13 +2749,13 @@ recipes.addShaped(Bookshelf, [
 
 // --- Iron nuggets
 recipes.addShaped(<gregtech:gt.metaitem.01:9032> * 9, [
-[<ore:ingotIron>, <ore:craftingToolSaw>, null],
+[<ore:craftingToolSaw>, <ore:ingotIron>, null],
 [null, null, null],
 [null, null, null]]);
 
 // --- Gold nuggets
 recipes.addShaped(<minecraft:gold_nugget> * 9, [
-[<ore:ingotGold>, <ore:craftingToolSaw>, null],
+[<ore:craftingToolSaw>, <ore:ingotGold>, null],
 [null, null, null],
 [null, null, null]]);
 
