@@ -149804,6 +149804,125 @@
         767,
         1148
       ]
+    },
+    {
+      "questID": 1546,
+      "name": "Rare ores",
+      "description": "Did you look for days to find Diamonds, Redstone, Tatalite, Certus Quartz or Mica? \nWell i could give a ore from each rare ores to make it more easy to find the mix.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:diamond_ore",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 35
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 937
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 870
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 86
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 500
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 810
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 921
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 901
+            },
+            {
+              "id": "gregtech:gt.blockores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 516
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1504
+      ]
     }
   ],
   "questLines": [
@@ -150311,6 +150430,11 @@
           "id": 1504,
           "x": 144,
           "y": 36
+        },
+        {
+          "id": 1546,
+          "x": 144,
+          "y": 0
         }
       ]
     },
