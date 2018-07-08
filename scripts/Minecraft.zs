@@ -2747,6 +2747,18 @@ recipes.addShaped(Bookshelf, [
 [Book, Book, Book],
 [<ore:plateWood>, <ore:plateWood>, <ore:plateWood>]]);
 
+// --- Iron nuggets
+recipes.addShaped(<gregtech:gt.metaitem.01:9032> * 9, [
+[<ore:ingotIron>, <ore:craftingToolSaw>, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Gold nuggets
+recipes.addShaped(<minecraft:gold_nugget> * 9, [
+[<ore:ingotGold>, <ore:craftingToolSaw>, null],
+[null, null, null],
+[null, null, null]]);
+
 
 // --- Charcoal
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:log:*>, false, false, 20, <minecraft:coal:1>);
