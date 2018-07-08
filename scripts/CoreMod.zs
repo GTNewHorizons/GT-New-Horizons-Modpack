@@ -533,15 +533,15 @@ recipes.addShaped(<dreamcraft:item.ReinforcedTungstenSteelIronPlate>, [
 
 // --- Reinforced Iridium Iron Plate
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:7>, [
-[<ore:plateAlloyAdvanced>, <ore:plateIridiumAlloy>, <ore:plateAlloyAdvanced>],
-[<ore:plateIridiumAlloy>, <AdvancedSolarPanel:asp_crafting_items:6>, <ore:plateIridiumAlloy>],
-[<ore:plateAlloyAdvanced>, <ore:plateIridiumAlloy>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <ore:plateAlloyIridium>, <ore:plateAlloyAdvanced>],
+[<ore:plateAlloyIridium>, <AdvancedSolarPanel:asp_crafting_items:6>, <ore:plateAlloyIridium>],
+[<ore:plateAlloyAdvanced>, <ore:plateAlloyIridium>, <ore:plateAlloyAdvanced>]]);
 
 // --- Reinforced Naquadria Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedNaquadriaIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateMyseriousCrystal>, <ore:plateAlloyAdvanced>],
-[<ore:plateMyseriousCrystal>, <dreamcraft:item.NaquadriaIronPlate>, <ore:plateMyseriousCrystal>],
-[<ore:plateAlloyAdvanced>, <ore:plateMyseriousCrystal>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <ore:plateMysteriousCrystal>, <ore:plateAlloyAdvanced>],
+[<ore:plateMysteriousCrystal>, <dreamcraft:item.NaquadriaIronPlate>, <ore:plateMysteriousCrystal>],
+[<ore:plateAlloyAdvanced>, <ore:plateMysteriousCrystal>, <ore:plateAlloyAdvanced>]]);
 
 // --- Reinforced Neutronium Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedNeutroniumIronPlate>, [
