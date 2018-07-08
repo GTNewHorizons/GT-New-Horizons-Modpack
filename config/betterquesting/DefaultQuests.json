@@ -88927,7 +88927,7 @@
     {
       "questID": 933,
       "name": "Power of the Sun",
-      "description": "Now its time to invest in some renewable energy. Let\u0027s start with solar panels. The basic one only gives 1 EU/t. Most gt machine can use them as covers. Be sure to put a glass layer above them in case it rains while you swap panels.",
+      "description": "Now its time to invest in some renewable energy. Let\u0027s start with solar panels. The basic one only gives 1 EU/t. Most gt machine can use them as covers. Be sure to put a glass layer above them in case it rains while you swap panels.\n\nThe Aluminium Iron plate need a mv forming press.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89087,13 +89087,13 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 32750
             },
             {
               "id": "gregtech:gt.metaitem.03",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 32033
             },
@@ -89319,7 +89319,7 @@
           "requiredItems": [
             {
               "id": "AdvancedSolarPanel:asp_crafting_items",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 9
             }
@@ -89340,15 +89340,15 @@
             },
             {
               "id": "gregtech:gt.metaitem.03",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 32034
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 18980
+              "Damage": 17473
             },
             {
               "id": "IC2:itemPartCircuitAdv",
@@ -89358,13 +89358,13 @@
             },
             {
               "id": "dreamcraft:item.IrradiantReinforcedAluminiumPlate",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 1200
             }
@@ -96396,13 +96396,13 @@
           "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 17341
             },
             {
               "id": "AdvancedSolarPanel:asp_crafting_items",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             }
@@ -96423,15 +96423,15 @@
             },
             {
               "id": "gregtech:gt.metaitem.03",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 32034
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 19980
+              "Damage": 17470
             },
             {
               "id": "gregtech:gt.metaitem.01",
@@ -96441,15 +96441,15 @@
             },
             {
               "id": "dreamcraft:item.IrradiantReinforcedTitaniumPlate",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "gregtech:gt.blockmachines",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
-              "Damage": 1380
+              "Damage": 2200
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -96786,19 +96786,19 @@
           "requiredItems": [
             {
               "id": "AdvancedSolarPanel:asp_crafting_items",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 3
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 17339
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 1,
+              "Count": 2,
               "OreDict": "",
               "Damage": 17098
             }
@@ -96831,7 +96831,7 @@
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "circuitElite",
               "Damage": 32705
             },
@@ -149923,6 +149923,77 @@
       "preRequisites": [
         1504
       ]
+    },
+    {
+      "questID": 1547,
+      "name": "Press all the things in MV",
+      "description": "With the mv forming press you can make aluminiun iron plates for solar panels and a few rotors blades for turbines.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 602
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 602
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        896
+      ]
     }
   ],
   "questLines": [
@@ -152143,6 +152214,11 @@
           "id": 1544,
           "x": 216,
           "y": 516
+        },
+        {
+          "id": 1547,
+          "x": 492,
+          "y": 228
         }
       ]
     },
