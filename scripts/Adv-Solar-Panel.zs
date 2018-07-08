@@ -33,9 +33,6 @@ recipes.remove(<AdvancedSolarPanel:asp_crafting_items:3>);
 // --- Enriched Sunnarium Alloy
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:4>);
 
-// --- Iridium Iron Plate
-recipes.remove(<AdvancedSolarPanel:asp_crafting_items:6>);
-
 // --- MT Core
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:12>);
 
@@ -50,9 +47,6 @@ recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
 
 // --- Irradiant Glass Panel
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:5>);
-
-// --- Irradiant Reinforced Plate
-recipes.remove(<AdvancedSolarPanel:asp_crafting_items:8>);
 
 // --- Sunnarium Ingot
 furnace.remove(<gregtech:gt.metaitem.01:11318>);
@@ -72,12 +66,6 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:12>, [
 [<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:1>, <AdvancedSolarPanel:asp_crafting_items:5>],
 [<ore:plateTitanium>, <ore:craftingToolWrench>, <ore:plateTitanium>],
 [<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:1>, <AdvancedSolarPanel:asp_crafting_items:5>]]);
-
-// --- Iridium Iron Plate
-recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
-[<ore:plateIron>, <ore:plateIridium>, <ore:plateIron>],
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
 
 // --- Advanced Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:advanced_solar_helmet>, [
@@ -102,12 +90,6 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:5> * 4, [
 [<ore:glassReinforced>, <AdvancedSolarPanel:asp_crafting_items:2>, <ore:glassReinforced>],
 [<AdvancedSolarPanel:asp_crafting_items:2>, <ore:plateGlowstone>, <AdvancedSolarPanel:asp_crafting_items:2>],
 [<ore:glassReinforced>, <AdvancedSolarPanel:asp_crafting_items:2>, <ore:glassReinforced>]]);
-
-// --- Irradiant Reinforced Iridium Plate
-recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:8>, [
-[<ore:screwRedAlloy>, <AdvancedSolarPanel:asp_crafting_items:4>, <ore:screwRedAlloy>],
-[<ore:plateIridium>, <AdvancedSolarPanel:asp_crafting_items:7>, <ore:plateIridium>],
-[<ore:screwRedAlloy>, <ore:plateOsmium>, <ore:screwRedAlloy>]]);
 
 // --- Quantum Core
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [

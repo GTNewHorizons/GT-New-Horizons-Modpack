@@ -63,6 +63,17 @@ val String = <minecraft:string>;
 // --- Dissenchanter
 recipes.remove(<DraconicEvolution:dissEnchanter>);
 
+// --- Iridium Iron Plate
+recipes.remove(<AdvancedSolarPanel:asp_crafting_items:6>);
+
+// --- Reinforced Iridium Iron Plate
+recipes.remove(<AdvancedSolarPanel:asp_crafting_items:7>);
+
+// --- Irradiant Reinforced Iridium Plate
+recipes.remove(<AdvancedSolarPanel:asp_crafting_items:8>);
+
+
+
 
 // --- Adding Back Recipes ---
 
@@ -490,48 +501,6 @@ recipes.addShaped(<dreamcraft:item.SawBladePeridot>, [
 [<ore:platePeridot>, <ore:platePeridot>, null],
 [File, Hammer, null]]);
 
-// --- Aluminium Iron Plate
-recipes.addShaped(<dreamcraft:item.AluminiumIronPlate>, [
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
-[<ore:plateIron>, <ore:plateAluminium>, <ore:plateIron>],
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
-
-// --- Titanium Iron Plate
-recipes.addShaped(<dreamcraft:item.TitaniumIronPlate>, [
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
-[<ore:plateIron>, <ore:plateTitanium>, <ore:plateIron>],
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
-
-// --- Chrome Iron Plate
-recipes.addShaped(<dreamcraft:item.ChromeIronPlate>, [
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
-[<ore:plateIron>, <ore:plateChrome>, <ore:plateIron>],
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
-
-// --- Tungsten Iron Plate
-recipes.addShaped(<dreamcraft:item.TungstenIronPlate>, [
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
-[<ore:plateIron>, <ore:plateTungsten>, <ore:plateIron>],
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
-
-// --- Tungsten Steel Iron Plate
-recipes.addShaped(<dreamcraft:item.TungstenSteelIronPlate>, [
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
-[<ore:plateIron>, <ore:plateTungstenSteel>, <ore:plateIron>],
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
-
-// --- Naquadria Iron Plate
-recipes.addShaped(<dreamcraft:item.NaquadriaIronPlate>, [
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
-[<ore:plateIron>, <ore:plateNaquadria>, <ore:plateIron>],
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
-
-// --- Neutronium Iron Plate
-recipes.addShaped(<dreamcraft:item.NeutroniumIronPlate>, [
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>],
-[<ore:plateIron>, <ore:plateNeutronium>, <ore:plateIron>],
-[<ore:screwSteel>, <ore:plateIron>, <ore:screwSteel>]]);
-
 // --- Reinforced Aluminium Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedAluminiumIronPlate>, [
 [<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>],
@@ -540,39 +509,45 @@ recipes.addShaped(<dreamcraft:item.ReinforcedAluminiumIronPlate>, [
 
 // --- Reinforced Titanium Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedTitaniumIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyCarbon>, <dreamcraft:item.TitaniumIronPlate>, <ore:plateAlloyCarbon>],
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <ore:plateSilicon>, <ore:plateAlloyAdvanced>],
+[<ore:plateSilicon>, <dreamcraft:item.TitaniumIronPlate>, <ore:plateSilicon>],
+[<ore:plateAlloyAdvanced>, <ore:plateSilicon>, <ore:plateAlloyAdvanced>]]);
 
 // --- Reinforced Chrome Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedChromeIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyCarbon>, <dreamcraft:item.ChromeIronPlate>, <ore:plateAlloyCarbon>],
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <ore:plateDiamond>, <ore:plateAlloyAdvanced>],
+[<ore:plateDiamond>, <dreamcraft:item.ChromeIronPlate>, <ore:plateDiamond>],
+[<ore:plateAlloyAdvanced>, <ore:plateDiamond>, <ore:plateAlloyAdvanced>]]);
 
 // --- Reinforced Tungsten Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedTungstenIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyCarbon>, <dreamcraft:item.TungstenIronPlate>, <ore:plateAlloyCarbon>],
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <ore:plateTungsten>, <ore:plateAlloyAdvanced>],
+[<ore:plateTungsten>, <dreamcraft:item.TungstenIronPlate>, <ore:plateTungsten>],
+[<ore:plateAlloyAdvanced>, <ore:plateTungsten>, <ore:plateAlloyAdvanced>]]);
 
 // --- Reinforced Tungsten Steel Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedTungstenSteelIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyCarbon>, <dreamcraft:item.TungstenSteelIronPlate>, <ore:plateAlloyCarbon>],
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <ore:plateTungstenSteel>, <ore:plateAlloyAdvanced>],
+[<ore:plateTungstenSteel>, <dreamcraft:item.TungstenSteelIronPlate>, <ore:plateTungstenSteel>],
+[<ore:plateAlloyAdvanced>, <ore:plateTungstenSteel>, <ore:plateAlloyAdvanced>]]);
+
+// --- Reinforced Iridium Iron Plate
+recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:7>, [
+[<ore:plateAlloyAdvanced>, <ore:plateIridiumAlloy>, <ore:plateAlloyAdvanced>],
+[<ore:plateIridiumAlloy>, <AdvancedSolarPanel:asp_crafting_items:6>, <ore:plateIridiumAlloy>],
+[<ore:plateAlloyAdvanced>, <ore:plateIridiumAlloy>, <ore:plateAlloyAdvanced>]]);
 
 // --- Reinforced Naquadria Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedNaquadriaIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyCarbon>, <dreamcraft:item.NaquadriaIronPlate>, <ore:plateAlloyCarbon>],
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <ore:plateMyseriousCrystal>, <ore:plateAlloyAdvanced>],
+[<ore:plateMyseriousCrystal>, <dreamcraft:item.NaquadriaIronPlate>, <ore:plateMyseriousCrystal>],
+[<ore:plateAlloyAdvanced>, <ore:plateMyseriousCrystal>, <ore:plateAlloyAdvanced>]]);
 
 // --- Reinforced Neutronium Iron Plate
 recipes.addShaped(<dreamcraft:item.ReinforcedNeutroniumIronPlate>, [
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>],
-[<ore:plateAlloyCarbon>, <dreamcraft:item.NeutroniumIronPlate>, <ore:plateAlloyCarbon>],
-[<ore:plateAlloyAdvanced>, <ore:plateAlloyCarbon>, <ore:plateAlloyAdvanced>]]);
+[<ore:plateAlloyAdvanced>, <ore:plateBlackPlutonium>, <ore:plateAlloyAdvanced>],
+[<ore:plateBlackPlutonium>, <dreamcraft:item.NeutroniumIronPlate>, <ore:plateBlackPlutonium>],
+[<ore:plateAlloyAdvanced>, <ore:plateBlackPlutonium>, <ore:plateAlloyAdvanced>]]);
 
 // --- Irradiant Reinforced Aluminium Plate
 recipes.addShaped(<dreamcraft:item.IrradiantReinforcedAluminiumPlate>, [
@@ -603,6 +578,12 @@ recipes.addShaped(<dreamcraft:item.IrradiantReinforcedChromePlate>, [
 [<ore:screwRedAlloy>, <AdvancedSolarPanel:asp_crafting_items:1>, <ore:screwRedAlloy>],
 [<ore:plateFierySteel>, <dreamcraft:item.ReinforcedChromeIronPlate>, <ore:plateFierySteel>],
 [<ore:screwRedAlloy>, <ore:plateYttriumBariumCuprate>, <ore:screwRedAlloy>]]);
+
+// --- Irradiant Reinforced Iridium Plate
+recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:8>, [
+[<ore:screwRedAlloy>, <AdvancedSolarPanel:asp_crafting_items:4>, <ore:screwRedAlloy>],
+[<ore:plateIridium>, <AdvancedSolarPanel:asp_crafting_items:7>, <ore:plateIridium>],
+[<ore:screwRedAlloy>, <ore:plateOsmium>, <ore:screwRedAlloy>]]);
 
 // --- Irradiant Reinforced Naquadria Plate
 recipes.addShaped(<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, [
@@ -1300,6 +1281,7 @@ Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 75, <liquid:enrichedbact
 
 
 
+
 // --- Engraving Laser Recipes ---
 
 
@@ -1524,6 +1506,30 @@ FormingPress.addRecipe(<dreamcraft:item.GeneticCircuit>, <gregtech:gt.metaitem.0
 
 // --- Environmental Circuit
 FormingPress.addRecipe(<dreamcraft:item.EnvironmentalCircuit>, <gregtech:gt.metaitem.01:32713>, <BuildCraft|Silicon:redstoneChipset:3>, 300, 480);
+
+// --- Aluminium Iron Plate
+FormingPress.addRecipe(<dreamcraft:item.AluminiumIronPlate>,  <ore:plateAluminium> * 2, <ore:plateIron> * 4, 600, 120);
+
+// --- Titanium Iron Plate
+FormingPress.addRecipe(<dreamcraft:item.TitaniumIronPlate>,  <ore:plateTitanium> * 2, <ore:plateIron> * 4, 600, 480);
+
+// --- Chrome Iron Plate
+FormingPress.addRecipe(<dreamcraft:item.ChromeIronPlate>,  <ore:plateChrome> * 2, <ore:plateIron> * 4, 600, 1920);
+
+// --- Tungsten Iron Plate
+FormingPress.addRecipe(<dreamcraft:item.TungstenIronPlate>,  <ore:plateTungsten> * 2, <ore:plateIron> * 4, 600, 7680);
+
+// --- Tungsten Steel Iron Plate
+FormingPress.addRecipe(<dreamcraft:item.TungstenSteelIronPlate>,  <ore:plateTungstenSteel> * 2, <ore:plateIron> * 4, 600, 30720);
+
+// --- Iridium Iron Plate
+FormingPress.addRecipe(<AdvancedSolarPanel:asp_crafting_items:6>,  <ore:plateIridium> * 2, <ore:plateIron> * 4, 600, 122880);
+
+// --- Naquadria Iron Plate
+FormingPress.addRecipe(<dreamcraft:item.NaquadriaIronPlate>,  <ore:plateNaquadria> * 2, <ore:plateIron> * 4, 600, 500000);
+
+// --- Neutronium Iron Plate
+FormingPress.addRecipe(<dreamcraft:item.NeutroniumIronPlate>,  <ore:plateNeutronium> * 2, <ore:plateIron> * 4, 600, 2000000);
 
 
 
