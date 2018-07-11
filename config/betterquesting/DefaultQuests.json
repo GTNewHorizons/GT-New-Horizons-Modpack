@@ -9844,7 +9844,7 @@
     {
       "questID": 109,
       "name": "Cart modules: Farming",
-      "description": "Unfortunately, the basic farmer can\u0027t farm anything besides wheat. It\u0027s not expensive at all, and probably the cheapest solution to give your automated food production a nice boost.",
+      "description": "Unfortunately, the basic farmer can\u0027t farm anything besides wheat, carrots and potatoes. It\u0027s not expensive at all, and probably the cheapest solution to give your automated food production a nice boost.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -149994,6 +149994,303 @@
       "preRequisites": [
         896
       ]
+    },
+    {
+      "questID": 1550,
+      "name": "More seed types",
+      "description": "This fancy addon allows your cart to plant/harvest more seed types. If you got an MV+ centrifuge you might want to look at glow flowers for some free redstone and gold.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 105
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 105
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        109
+      ]
+    },
+    {
+      "questID": 1551,
+      "name": "More tree types",
+      "description": "The standard wood cutter can only chop down (and replant) vanilla trees. If you want to use saplings from other mods however this addon will come in handy. Who knows - maybe you are tired of clicking rubber trees with a treetap.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:blockRubSapling",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:CartModule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 88
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinForestry",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        112,
+        1148
+      ]
+    },
+    {
+      "questID": 1552,
+      "name": "Further automation",
+      "description": "If you want to load and unload a lot of different items from your cargo manager the pipes can get quite messy. The external distributor is a block you can place next to your cargo manager and it will help you to access different slots which you can specify in its GUI. Quite handy for pumping items in and out!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:BlockDistributor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:BlockDistributor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        108
+      ]
+    },
+    {
+      "questID": 1553,
+      "name": "Advanced detector rail",
+      "description": "Now that you have a cargo manager you need a specific rail so that your cart can interact with it. Just place it next to the cargo manager, depending on the color of the side it is on you will have to adjust settings in the cargo manager GUI.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StevesCarts:BlockAdvDetector",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StevesCarts:BlockAdvDetector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:rail",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        108
+      ]
     }
   ],
   "questLines": [
@@ -153815,57 +154112,77 @@
       "quests": [
         {
           "id": 108,
-          "x": 0,
-          "y": 0
+          "x": 48,
+          "y": 48
         },
         {
           "id": 106,
-          "x": 0,
-          "y": 48
-        },
-        {
-          "id": 111,
-          "x": 108,
-          "y": 48
-        },
-        {
-          "id": 107,
-          "x": 108,
+          "x": 48,
           "y": 96
         },
         {
-          "id": 109,
-          "x": 168,
-          "y": 0
+          "id": 111,
+          "x": 156,
+          "y": 96
         },
         {
-          "id": 110,
-          "x": 168,
+          "id": 107,
+          "x": 156,
+          "y": 144
+        },
+        {
+          "id": 109,
+          "x": 216,
           "y": 48
         },
         {
+          "id": 110,
+          "x": 216,
+          "y": 96
+        },
+        {
           "id": 112,
-          "x": 108,
-          "y": 0
+          "x": 156,
+          "y": 48
         },
         {
           "id": 1208,
-          "x": 108,
-          "y": 156
+          "x": 156,
+          "y": 204
         },
         {
           "id": 1209,
+          "x": 96,
+          "y": 48
+        },
+        {
+          "id": 1210,
+          "x": 216,
+          "y": 144
+        },
+        {
+          "id": 1211,
+          "x": 264,
+          "y": 96
+        },
+        {
+          "id": 1550,
+          "x": 216,
+          "y": 0
+        },
+        {
+          "id": 1551,
+          "x": 156,
+          "y": 0
+        },
+        {
+          "id": 1552,
           "x": 48,
           "y": 0
         },
         {
-          "id": 1210,
-          "x": 168,
-          "y": 96
-        },
-        {
-          "id": 1211,
-          "x": 216,
+          "id": 1553,
+          "x": 0,
           "y": 48
         }
       ]
