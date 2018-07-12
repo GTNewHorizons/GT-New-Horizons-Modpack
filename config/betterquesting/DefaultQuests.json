@@ -81350,7 +81350,7 @@
         "complete": "random.levelup",
         "update": "random.levelup"
       },
-      "logic": "AND",
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
         "id": "gregtech:gt.metaitem.01",
@@ -81360,63 +81360,6 @@
       },
       "visibility": "UNLOCKED",
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 2375
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 2010
-            },
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 64,
-              "OreDict": "",
-              "Damage": 30023
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 30376
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 32,
-              "OreDict": "",
-              "Damage": 2018
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": false,
@@ -81491,7 +81434,6 @@
         }
       ],
       "preRequisites": [
-        78,
         1012,
         1424
       ]
@@ -97504,6 +97446,48 @@
               "Count": 16,
               "OreDict": "",
               "Damage": 2375
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2010
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 30023
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 30376
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2018
             }
           ],
           "taskID": "bq_standard:retrieval"
