@@ -3999,6 +3999,13 @@ Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, [<minecraft:nether_wart>, 
 // --- Ardite Dust
 Pulverizer.addRecipe([<TConstruct:materials:38> * 2, <TConstruct:materials:38>], <TConstruct:SearedBrick:2>, [10000, 1000], 400, 2);
 
+// --- Wood pulp
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809>], <TConstruct:woodPattern:*>, [10000], 200, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809>], <TConstruct:Pattern:*>, [10000], 200, 2);
+
+
+
 
 
 // --- Ordict remove ---
