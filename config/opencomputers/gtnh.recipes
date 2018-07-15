@@ -58,7 +58,6 @@ lootDisks: [
   }
 ]
 
-}
 luaBios {
   type: shapeless
   input: ["oc:eeprom", "oc:manual"]
