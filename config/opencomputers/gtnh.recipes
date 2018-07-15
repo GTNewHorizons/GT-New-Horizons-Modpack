@@ -45,9 +45,24 @@ texturePicker {
 
 wrench = true
 
-lootDisks = []
+lootDisks: [
+  {
+    name: "OpenComputers:openos"
+    type: shapeless
+    input: ["oc:floppy", "oc:manual"]
+  },
+  {
+    name: "OpenComputers:oppm"
+    type: shapeless
+    input: ["oc:floppy", "oc:materialInterweb"]
+  }
+]
 
-luaBios = true
+}
+luaBios {
+  type: shapeless
+  input: ["oc:eeprom", "oc:manual"]
+}
 
 carpetedCapacitor {
   type: shapeless
