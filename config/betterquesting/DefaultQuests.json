@@ -76635,7 +76635,7 @@
               "id": "GalacticraftCore:item.battery",
               "Count": 2,
               "OreDict": "",
-              "Damage": 100,
+              "Damage": 32767,
               "tag": {
                 "electricity:6": 0.0
               }
