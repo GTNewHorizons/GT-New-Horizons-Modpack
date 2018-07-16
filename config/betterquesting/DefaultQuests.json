@@ -121490,12 +121490,6 @@
               "Count": 16,
               "OreDict": "",
               "Damage": 4922
-            },
-            {
-              "id": "gregtech:gt.blockores",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 4098
             }
           ],
           "taskID": "bq_standard:retrieval"
