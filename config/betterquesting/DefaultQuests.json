@@ -7956,7 +7956,7 @@
     {
       "questID": 84,
       "name": "Where I can put all the liquids?",
-      "description": "With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It\u0027s possible to upgrade those tanks so they can hold up to 64 buckets.",
+      "description": "With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and thickened glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It\u0027s possible to upgrade those tanks so they can hold up to 64 buckets.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8010,12 +8010,27 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "gregtech:gt.metaitem.01",
               "Count": 4,
               "OreDict": "dustObsidian",
               "Damage": 2804
+            },
+            {
+              "id": "ExtraUtilities:decorativeBlock2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -8034,19 +8049,6 @@
             }
           ],
           "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "BuildCraft|Factory:tankBlock",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting"
         }
       ],
       "rewards": [
@@ -52774,7 +52776,7 @@
     {
       "questID": 599,
       "name": "Thermal centrifuge",
-      "description": "A optional machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods.",
+      "description": "A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -67682,6 +67684,18 @@
               "id": "gregtech:gt.metaitem.01",
               "Count": 1,
               "OreDict": "",
+              "Damage": 32375
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32374
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 32355
             },
             {
@@ -68581,7 +68595,7 @@
       ],
       "preRequisites": [
         77,
-        760
+        759
       ]
     },
     {
@@ -72319,7 +72333,7 @@
         }
       ],
       "preRequisites": [
-        746
+        760
       ]
     },
     {
@@ -72708,8 +72722,7 @@
         }
       ],
       "preRequisites": [
-        752,
-        97
+        752
       ]
     },
     {
@@ -73692,7 +73705,6 @@
       ],
       "preRequisites": [
         795,
-        785,
         837
       ]
     },
@@ -79166,6 +79178,7 @@
         }
       ],
       "preRequisites": [
+        785,
         793
       ]
     },
@@ -152044,8 +152057,8 @@
         },
         {
           "id": 785,
-          "x": 192,
-          "y": 0
+          "x": 576,
+          "y": 588
         },
         {
           "id": 794,
@@ -152054,48 +152067,48 @@
         },
         {
           "id": 746,
-          "x": 192,
-          "y": 84
+          "x": 540,
+          "y": 552
         },
         {
           "id": 752,
-          "x": 192,
-          "y": 36
+          "x": 540,
+          "y": 588
         },
         {
           "id": 782,
-          "x": 252,
+          "x": 192,
           "y": 84
         },
         {
           "id": 791,
-          "x": 312,
+          "x": 264,
           "y": 36
         },
         {
           "id": 792,
-          "x": 312,
+          "x": 264,
           "y": 84
         },
         {
           "id": 837,
-          "x": 360,
-          "y": 36
+          "x": 264,
+          "y": 0
         },
         {
           "id": 793,
-          "x": 408,
+          "x": 612,
           "y": 0
         },
         {
           "id": 838,
-          "x": 456,
-          "y": 0
+          "x": 612,
+          "y": 588
         },
         {
           "id": 839,
-          "x": 504,
-          "y": 0
+          "x": 648,
+          "y": 588
         },
         {
           "id": 750,
@@ -152179,17 +152192,17 @@
         },
         {
           "id": 933,
-          "x": 408,
-          "y": 36
+          "x": 312,
+          "y": 84
         },
         {
           "id": 934,
-          "x": 456,
+          "x": 312,
           "y": 36
         },
         {
           "id": 935,
-          "x": 408,
+          "x": 360,
           "y": 84
         },
         {
@@ -152304,8 +152317,8 @@
         },
         {
           "id": 1227,
-          "x": 540,
-          "y": 552
+          "x": 576,
+          "y": 516
         },
         {
           "id": 1267,
