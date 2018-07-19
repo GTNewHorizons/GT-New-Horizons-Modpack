@@ -1646,7 +1646,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 // --- Larch Fence
 
 recipes.addShaped(<Forestry:fences>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks>, <ore:stickWood>]]);
 // -
@@ -1663,7 +1663,7 @@ recipes.addShaped(<Forestry:fences> * 4, [
 // --- Teak Fence
 
 recipes.addShaped(<Forestry:fences:1>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:1>, <ore:stickWood>]]);
 // -
@@ -1680,7 +1680,7 @@ recipes.addShaped(<Forestry:fences:1> * 4, [
 // --- Acacia Fence
 
 recipes.addShaped(<Forestry:fences:2>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:2>, <ore:stickWood>]]);
 // -
@@ -1697,7 +1697,7 @@ recipes.addShaped(<Forestry:fences:2> * 4, [
 // --- Lime Fence
 
 recipes.addShaped(<Forestry:fences:3>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:3>, <ore:stickWood>]]);
 // -
@@ -1714,7 +1714,7 @@ recipes.addShaped(<Forestry:fences:3> * 4, [
 // --- Chestnut Fence
 
 recipes.addShaped(<Forestry:fences:4>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:4>, <ore:stickWood>]]);
 // -
@@ -1731,7 +1731,7 @@ recipes.addShaped(<Forestry:fences:4> * 4, [
 // --- Wenge Fence
 
 recipes.addShaped(<Forestry:fences:5>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:5>, <ore:stickWood>]]);
 // -
@@ -1748,7 +1748,7 @@ recipes.addShaped(<Forestry:fences:5> * 4, [
 // --- Baobab Fence
 
 recipes.addShaped(<Forestry:fences:6>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:6>, <ore:stickWood>]]);
 // -
@@ -1765,7 +1765,7 @@ recipes.addShaped(<Forestry:fences:6> * 4, [
 // --- Sequoia Fence
 
 recipes.addShaped(<Forestry:fences:7>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:7>, <ore:stickWood>]]);
 // -
@@ -1782,7 +1782,7 @@ recipes.addShaped(<Forestry:fences:7> * 4, [
 // --- Kapok Fence
 
 recipes.addShaped(<Forestry:fences:8>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:8>, <ore:stickWood>]]);
 // -
@@ -1799,7 +1799,7 @@ recipes.addShaped(<Forestry:fences:8> * 4, [
 // --- Ebony Fence
 
 recipes.addShaped(<Forestry:fences:9>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:9>, <ore:stickWood>]]);
 // -
@@ -1816,7 +1816,7 @@ recipes.addShaped(<Forestry:fences:9> * 4, [
 // --- Mahagany Fence
 
 recipes.addShaped(<Forestry:fences:10>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:10>, <ore:stickWood>]]);
 // -
@@ -1833,7 +1833,7 @@ recipes.addShaped(<Forestry:fences:10> * 4, [
 // --- Balsa Fence
 
 recipes.addShaped(<Forestry:fences:11>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:11>, <ore:stickWood>]]);
 // -
@@ -1850,7 +1850,7 @@ recipes.addShaped(<Forestry:fences:11> * 4, [
 // --- Willow Fence
 
 recipes.addShaped(<Forestry:fences:12>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:12>, <ore:stickWood>]]);
 // -
@@ -1867,7 +1867,7 @@ recipes.addShaped(<Forestry:fences:12> * 4, [
 // --- Walnut Fence
 
 recipes.addShaped(<Forestry:fences:13>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:13>, <ore:stickWood>]]);
 // -
@@ -1884,7 +1884,7 @@ recipes.addShaped(<Forestry:fences:13> * 4, [
 // --- Greenheart Fence
 
 recipes.addShaped(<Forestry:fences:14>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:14>, <ore:stickWood>]]);
 // -
@@ -1901,7 +1901,7 @@ recipes.addShaped(<Forestry:fences:14> * 4, [
 // --- Cherry Fence
 
 recipes.addShaped(<Forestry:fences:15>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:15>, <ore:stickWood>]]);
 // -
@@ -1918,7 +1918,7 @@ recipes.addShaped(<Forestry:fences:15> * 4, [
 // --- Mahoe Fence
 
 recipes.addShaped(<Forestry:fences:16>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:16>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:16>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:16>, <ore:stickWood>]]);
 // -
@@ -1936,7 +1936,7 @@ recipes.addShaped(<Forestry:fences:16> * 4, [
 // --- Poplar Fence
 
 recipes.addShaped(<Forestry:fences:17>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:17>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:17>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:17>, <ore:stickWood>]]);
 // -
@@ -1953,7 +1953,7 @@ recipes.addShaped(<Forestry:fences:17> * 4, [
 // --- Palm Fence
 
 recipes.addShaped(<Forestry:fences:18>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:18>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:18>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:18>, <ore:stickWood>]]);
 // -
@@ -1970,7 +1970,7 @@ recipes.addShaped(<Forestry:fences:18> * 4, [
 // --- Papaya Fence
 
 recipes.addShaped(<Forestry:fences:19>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:19>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:19>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:19>, <ore:stickWood>]]);
 // -
@@ -1987,7 +1987,7 @@ recipes.addShaped(<Forestry:fences:19> * 4, [
 // --- Pine Fence
 
 recipes.addShaped(<Forestry:fences:20>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:20>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:20>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:20>, <ore:stickWood>]]);
 // -
@@ -2004,7 +2004,7 @@ recipes.addShaped(<Forestry:fences:20> * 4, [
 // --- Plum Fence
 
 recipes.addShaped(<Forestry:fences:21>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:21>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:21>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:21>, <ore:stickWood>]]);
 // -
@@ -2021,7 +2021,7 @@ recipes.addShaped(<Forestry:fences:21> * 4, [
 // --- Maple Fence
 
 recipes.addShaped(<Forestry:fences:22>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:22>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:22>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:22>, <ore:stickWood>]]);
 // -
@@ -2038,7 +2038,7 @@ recipes.addShaped(<Forestry:fences:22> * 4, [
 // --- Citrus Fence
 
 recipes.addShaped(<Forestry:fences:23>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:23>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:23>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:23>, <ore:stickWood>]]);
 // -
@@ -2055,7 +2055,7 @@ recipes.addShaped(<Forestry:fences:23> * 4, [
 // --- Giant Sequoia Fence
 
 recipes.addShaped(<Forestry:fences:24>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:24>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:24>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:24>, <ore:stickWood>]]);
 // -
@@ -2072,7 +2072,7 @@ recipes.addShaped(<Forestry:fences:24> * 4, [
 // --- Ipe Fence
 
 recipes.addShaped(<Forestry:fences:25>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:25>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:25>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:25>, <ore:stickWood>]]);
 // -
@@ -2089,7 +2089,7 @@ recipes.addShaped(<Forestry:fences:25> * 4, [
 // --- Padauk Fence
 
 recipes.addShaped(<Forestry:fences:26>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:26>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:26>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:26>, <ore:stickWood>]]);
 // -
@@ -2106,7 +2106,7 @@ recipes.addShaped(<Forestry:fences:26> * 4, [
 // --- Cocobola Fence
 
 recipes.addShaped(<Forestry:fences:27>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:27>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:27>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:27>, <ore:stickWood>]]);
 // -
@@ -2123,7 +2123,7 @@ recipes.addShaped(<Forestry:fences:27> * 4, [
 // --- Zebra Wood Fence
 
 recipes.addShaped(<Forestry:fences:28>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:28>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:28>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planks:28>, <ore:stickWood>]]);
 // -
@@ -2143,7 +2143,7 @@ recipes.addShaped(<Forestry:fences:28> * 4, [
 // --- Larch Fence
 
 recipes.addShaped(<Forestry:fencesFireproof>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planks:29>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof>, <ore:stickWood>]]);
 // -
@@ -2160,7 +2160,7 @@ recipes.addShaped(<Forestry:fencesFireproof> * 4, [
 // --- Teak Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:1>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:1>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:1>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:1>, <ore:stickWood>]]);
 // -
@@ -2177,7 +2177,7 @@ recipes.addShaped(<Forestry:fencesFireproof:1> * 4, [
 // --- Acacia Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:2>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:2>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:2>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:2>, <ore:stickWood>]]);
 // -
@@ -2194,7 +2194,7 @@ recipes.addShaped(<Forestry:fencesFireproof:2> * 4, [
 // --- Lime Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:3>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:3>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:3>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:3>, <ore:stickWood>]]);
 // -
@@ -2211,7 +2211,7 @@ recipes.addShaped(<Forestry:fencesFireproof:3> * 4, [
 // --- Chestnut Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:4>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:4>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:4>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:4>, <ore:stickWood>]]);
 // -
@@ -2228,7 +2228,7 @@ recipes.addShaped(<Forestry:fencesFireproof:4> * 4, [
 // --- Wenge Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:5>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:5>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:5>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:5>, <ore:stickWood>]]);
 // -
@@ -2245,7 +2245,7 @@ recipes.addShaped(<Forestry:fencesFireproof:5> * 4, [
 // --- Baobab Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:6>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:6>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:6>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:6>, <ore:stickWood>]]);
 // -
@@ -2262,7 +2262,7 @@ recipes.addShaped(<Forestry:fencesFireproof:6> * 4, [
 // --- Sequoia Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:7>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:7>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:7>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:7>, <ore:stickWood>]]);
 // -
@@ -2296,7 +2296,7 @@ recipes.addShaped(<Forestry:fencesFireproof:8> * 4, [
 // --- Ebony Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:9>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:9>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:9>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:9>, <ore:stickWood>]]);
 // -
@@ -2313,7 +2313,7 @@ recipes.addShaped(<Forestry:fencesFireproof:9> * 4, [
 // --- Mahagany Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:10>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:10>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:10>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:10>, <ore:stickWood>]]);
 // -
@@ -2330,7 +2330,7 @@ recipes.addShaped(<Forestry:fencesFireproof:10> * 4, [
 // --- Balsa Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:11>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:11>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:11>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:11>, <ore:stickWood>]]);
 // -
@@ -2347,7 +2347,7 @@ recipes.addShaped(<Forestry:fencesFireproof:11> * 4, [
 // --- Willow Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:12>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:12>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:12>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:12>, <ore:stickWood>]]);
 // -
@@ -2364,7 +2364,7 @@ recipes.addShaped(<Forestry:fencesFireproof:12> * 4, [
 // --- Walnut Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:13>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:13>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:13>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:13>, <ore:stickWood>]]);
 // -
@@ -2381,7 +2381,7 @@ recipes.addShaped(<Forestry:fencesFireproof:13> * 4, [
 // --- Greenheart Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:14>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:14>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:14>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:14>, <ore:stickWood>]]);
 // -
@@ -2398,7 +2398,7 @@ recipes.addShaped(<Forestry:fencesFireproof:14> * 4, [
 // --- Cherry Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:15>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:15>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:15>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:15>, <ore:stickWood>]]);
 // -
@@ -2415,7 +2415,7 @@ recipes.addShaped(<Forestry:fencesFireproof:15> * 4, [
 // --- Mahoe Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:16>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:16>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:16>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:16>, <ore:stickWood>]]);
 // -
@@ -2433,7 +2433,7 @@ recipes.addShaped(<Forestry:fencesFireproof:16> * 4, [
 // --- Poplar Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:17>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:17>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:17>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:17>, <ore:stickWood>]]);
 // -
@@ -2450,7 +2450,7 @@ recipes.addShaped(<Forestry:fencesFireproof:17> * 4, [
 // --- Palm Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:18>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:18>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:18>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:18>, <ore:stickWood>]]);
 // -
@@ -2467,7 +2467,7 @@ recipes.addShaped(<Forestry:fencesFireproof:18> * 4, [
 // --- Papaya Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:19>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:19>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:19>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:19>, <ore:stickWood>]]);
 // -
@@ -2484,7 +2484,7 @@ recipes.addShaped(<Forestry:fencesFireproof:19> * 4, [
 // --- Pine Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:20>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:20>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:20>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:20>, <ore:stickWood>]]);
 // -
@@ -2501,7 +2501,7 @@ recipes.addShaped(<Forestry:fencesFireproof:20> * 4, [
 // --- Plum Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:21>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:21>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:21>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:21>, <ore:stickWood>]]);
 // -
@@ -2518,7 +2518,7 @@ recipes.addShaped(<Forestry:fencesFireproof:21> * 4, [
 // --- Maple Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:22>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:22>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:22>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:22>, <ore:stickWood>]]);
 // -
@@ -2535,7 +2535,7 @@ recipes.addShaped(<Forestry:fencesFireproof:22> * 4, [
 // --- Citrus Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:23>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:23>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:23>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:23>, <ore:stickWood>]]);
 // -
@@ -2552,7 +2552,7 @@ recipes.addShaped(<Forestry:fencesFireproof:23> * 4, [
 // --- Giant Sequoia Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:24>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:24>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:24>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:24>, <ore:stickWood>]]);
 // -
@@ -2569,7 +2569,7 @@ recipes.addShaped(<Forestry:fencesFireproof:24> * 4, [
 // --- Ipe Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:25>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:25>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:25>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:25>, <ore:stickWood>]]);
 // -
@@ -2586,7 +2586,7 @@ recipes.addShaped(<Forestry:fencesFireproof:25> * 4, [
 // --- Padauk Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:26>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:26>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:26>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:26>, <ore:stickWood>]]);
 // -
@@ -2603,7 +2603,7 @@ recipes.addShaped(<Forestry:fencesFireproof:26> * 4, [
 // --- Cocobola Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:27>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:27>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:27>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:27>, <ore:stickWood>]]);
 // -
@@ -2620,7 +2620,7 @@ recipes.addShaped(<Forestry:fencesFireproof:27> * 4, [
 // --- Zebra Wood Fence
 
 recipes.addShaped(<Forestry:fencesFireproof:28>, [
-[null, null, null],
+[<ore:stickWood>, <Forestry:planksFireproof:28>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:28>, <ore:stickWood>],
 [<ore:stickWood>, <Forestry:planksFireproof:28>, <ore:stickWood>]]);
 // -
