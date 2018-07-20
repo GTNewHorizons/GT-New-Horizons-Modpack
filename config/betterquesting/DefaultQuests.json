@@ -138853,7 +138853,7 @@
     {
       "questID": 1432,
       "name": "Mars Lander",
-      "description": "The Mars lander is required for a soft landing.\nPut the Moon lander on a Parchute and surround it with airbags - that will do the trick. You hope.",
+      "description": "The Mars lander is required for a soft landing.\nPut the Moon lander on a Parchute and surround it with airbags - that will do the trick. You hope.\n\nHint: Some times you can\u0027t loot or break the lander. Try to move it with a hopper underneath.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
