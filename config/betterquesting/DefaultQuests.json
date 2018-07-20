@@ -11210,7 +11210,7 @@
     {
       "questID": 127,
       "name": "Project red beginning",
-      "description": "First of all there are 3 types of pipes: null logic, pressurized and routed.\n-Null Logic are the most basic kind. They can\u0027t have any logical thinking. Item transport pipes are of this category and they are used to craft and connect the routed and pressurized pipes. It would be a wise choice to craft some extras.\n \n-Routed pipes are the most advanced. They can communicate with each other in order to create pipe networks, and can be used for very complex tasks.\n \n-Pressurized pipes are too complicated to use and explain. You won\u0027t need them anyway since you can use the routed ones to do anything you want.\n\nHowever, in order to control the logic of the routed pipes you will need special circuit chips.",
+      "description": "Welcome to Project Red!\n\nThis quest will learn you the basic of Projectred and learn you how to set up a Ghetto AE system.\n\nThe Ghetto AE system will be really useful for sorting all of your first items\n\nFirst of all there are different types of pipes: \n\nItem Transport pipes are the most basic pipes, classified as Null-logic. They don\u0027t do anything besides connect other pipes together.\nItem Transport pipes only have the ability to take items that enter it and pass them along to another connected pipe. They will NOT connect to inventories at all. In a junction where there is more than 1 possible direction, item payloads will travel in a randomly selected direction.\n \nRouted pipes are the most advanced. These pipes \u0027communicate\u0027 with one-another to form pipe networks, in order to allow for incredibly complicated demand driven systems, with absolutely no redstone circuitry required.\n \nPressurized pipes are pipes that use a pressure based routing system where the payload travels to the closest inventory that can accept it. Finding the closest inventory is influenced by both distance and Pressure Resistance Pipes (which, to the path finder, are 1000 blocks long), but the actual path that items take is only influenced by distance.\n\nHowever, in order to control the logic of the routed pipes you will need special circuit chips.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -11245,12 +11245,6 @@
               "Count": 16,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "ProjRed|Core:projectred.core.part",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 44
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -11266,22 +11260,10 @@
               "Damage": 22032
             },
             {
-              "id": "gregtech:gt.blockmachines",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 1420
-            },
-            {
-              "id": "ProjRed|Core:projectred.core.part",
-              "Count": 8,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -11290,7 +11272,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -11299,7 +11281,7 @@
         }
       ],
       "preRequisites": [
-        1148
+        717
       ]
     },
     {
@@ -67213,10 +67195,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+        "id": "ProjRed|Core:projectred.core.part",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 44
       },
       "visibility": "UNLOCKED",
       "tasks": [
@@ -67227,67 +67209,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
+              "id": "ProjRed|Core:projectred.core.part",
+              "Count": 4,
               "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 1
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 4
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 5
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 3
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 2
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 7
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 6
+              "Damage": 44
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -67298,21 +67223,21 @@
           "choices": [
             {
               "id": "IC2:itemPartCircuit",
-              "Count": 4,
+              "Count": 2,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "ProjRed|Core:projectred.core.part",
-              "Count": 8,
+              "Count": 2,
               "OreDict": "",
-              "Damage": 44
+              "Damage": 0
             },
             {
               "id": "enhancedlootbags:lootbag",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -67321,7 +67246,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -67371,24 +67296,6 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 1
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 2
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 4
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.pipe",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 6
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -67405,13 +67312,13 @@
             },
             {
               "id": "ProjRed|Core:projectred.core.part",
-              "Count": 4,
+              "Count": 2,
               "OreDict": "",
               "Damage": 13
             },
             {
               "id": "gregtech:gt.metaitem.01",
-              "Count": 2,
+              "Count": 1,
               "OreDict": "",
               "Damage": 17500
             },
@@ -67419,7 +67326,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -67428,7 +67335,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -67502,15 +67409,9 @@
           "requiredItems": [
             {
               "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 4,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 1
             },
             {
               "id": "ProjRed|Transportation:projectred.transportation.routingchip",
@@ -67541,7 +67442,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 5
+              "Damage": 4
             }
           ],
           "rewardID": "bq_standard:choice"
@@ -67550,7 +67451,7 @@
           "rewards": [
             {
               "id": "dreamcraft:item.CoinTechnician",
-              "Count": 25,
+              "Count": 15,
               "OreDict": "",
               "Damage": 0
             }
@@ -149902,6 +149803,104 @@
       ]
     },
     {
+      "questID": 1548,
+      "name": "Inputting chest for Ghetto ME System",
+      "description": "To be able to put items into the Ghetto ME system you need just a few additional pipes.\nThe Extraction pipe should be connected to the chest you want to take items from.\nInside the Extraction pipe you need to put the Item Extraction chip, and configure it to blacklist if you want it to take all items from the chest.\n\nThe Routed Junction pipe is needed so the items inside the pipes know which direction to take, without this they will just fly around inside the pipes without knowing where to go.\nYou might also need some additional item transport pipes depending on your setup.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IronChest:BlockIronChest",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.routingchip",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "ProjRed|Transportation:projectred.transportation.pipe",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        739
+      ]
+    },
+    {
       "questID": 1550,
       "name": "More seed types",
       "description": "This fancy addon allows your cart to plant/harvest more seed types. If you got an MV+ centrifuge you might want to look at glow flowers for some free redstone and gold.",
@@ -151304,7 +151303,7 @@
         },
         {
           "id": 542,
-          "x": 504,
+          "x": 408,
           "y": 408
         },
         {
@@ -151364,8 +151363,8 @@
         },
         {
           "id": 555,
-          "x": 384,
-          "y": 360
+          "x": 408,
+          "y": 372
         },
         {
           "id": 598,
@@ -151535,12 +151534,12 @@
         {
           "id": 717,
           "x": 600,
-          "y": 336
+          "y": 300
         },
         {
           "id": 748,
           "x": 552,
-          "y": 336
+          "y": 300
         },
         {
           "id": 531,
@@ -151569,8 +151568,8 @@
         },
         {
           "id": 745,
-          "x": 504,
-          "y": 336
+          "x": 420,
+          "y": 300
         },
         {
           "id": 747,
@@ -151760,7 +151759,7 @@
         {
           "id": 1540,
           "x": 336,
-          "y": 324
+          "y": 360
         },
         {
           "id": 795,
@@ -151771,6 +151770,31 @@
           "id": 597,
           "x": 504,
           "y": 480
+        },
+        {
+          "id": 739,
+          "x": 456,
+          "y": 372
+        },
+        {
+          "id": 737,
+          "x": 504,
+          "y": 408
+        },
+        {
+          "id": 127,
+          "x": 552,
+          "y": 372
+        },
+        {
+          "id": 738,
+          "x": 504,
+          "y": 336
+        },
+        {
+          "id": 1548,
+          "x": 456,
+          "y": 336
         }
       ]
     },
@@ -151890,7 +151914,7 @@
         },
         {
           "id": 154,
-          "x": 96,
+          "x": 48,
           "y": 240
         },
         {
@@ -151967,26 +151991,6 @@
           "id": 736,
           "x": 144,
           "y": 516
-        },
-        {
-          "id": 127,
-          "x": 96,
-          "y": 168
-        },
-        {
-          "id": 738,
-          "x": 48,
-          "y": 168
-        },
-        {
-          "id": 737,
-          "x": 96,
-          "y": 132
-        },
-        {
-          "id": 739,
-          "x": 48,
-          "y": 132
         },
         {
           "id": 740,
@@ -152285,8 +152289,8 @@
         },
         {
           "id": 1083,
-          "x": 0,
-          "y": 204
+          "x": 48,
+          "y": 168
         },
         {
           "id": 1093,
@@ -152330,8 +152334,8 @@
         },
         {
           "id": 1269,
-          "x": 132,
-          "y": 84
+          "x": 96,
+          "y": 132
         },
         {
           "id": 1279,
