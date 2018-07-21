@@ -352,7 +352,7 @@ mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_EssenceUnstable");
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("METABOLICFRAME", true);
 mods.thaumcraft.Research.addPage("METABOLICFRAME", "MagicBees.research_page.METABOLICFRAME");
-game.setLocalization("MagicBees.research_page.METABOLICFRAME", "The Metabolic Frame is an Item used in an Apiary, which drastically increases a bee's mutation rate as well as slightly its production at the cost of high aura consumption. It has a durability of 130. The Metabolic Frame increases the mutation rate by 80% and its production by 20%.");
+game.setLocalization("MagicBees.research_page.METABOLICFRAME", "The Metabolic Frame is an Item used in an Apiary, which drastically increases a bee's mutation rate as well as a slight increase in it's production. It has a durability of 130. The Metabolic Frame increases the mutation rate by 80% and its production by 20%.");
 mods.thaumcraft.Arcane.addShaped("METABOLICFRAME", <MagicBees:frameMetabolic>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:12>, <ore:screwAluminium>],
 [<MagicBees:miscResources:20>, <MagicBees:frameMagic>, <MagicBees:miscResources:20>],
