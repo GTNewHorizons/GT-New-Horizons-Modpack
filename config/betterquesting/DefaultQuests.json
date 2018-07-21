@@ -149901,6 +149901,125 @@
       ]
     },
     {
+      "questID": 1549,
+      "name": "Plunger 2.0 The Hand Pump",
+      "description": "The new hand pump can remove fluids out of your machine input slots. The pluinger removes the fluid only the hand pump can store it and drain it to a tank.\n\nUse your coin in a lv assembler to craft a hand pump.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "miscutils:MU-metatool.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1000
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32610
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
+            },
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 2,
+              "OreDict": "circuitBasic",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23301
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 28301
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "miscutils:itemGenericToken",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32716
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32700
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinTechnician",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        942,
+        97
+      ]
+    },
+    {
       "questID": 1550,
       "name": "More seed types",
       "description": "This fancy addon allows your cart to plant/harvest more seed types. If you got an MV+ centrifuge you might want to look at glow flowers for some free redstone and gold.",
@@ -151228,8 +151347,8 @@
         },
         {
           "id": 118,
-          "x": 552,
-          "y": 180
+          "x": 504,
+          "y": 144
         },
         {
           "id": 120,
@@ -151795,6 +151914,11 @@
           "id": 1548,
           "x": 456,
           "y": 336
+        },
+        {
+          "id": 1549,
+          "x": 552,
+          "y": 180
         }
       ]
     },
