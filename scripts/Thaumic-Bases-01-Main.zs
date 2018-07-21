@@ -3,6 +3,7 @@
 
 // --- Imports ---
 import mods.thaumcraft.Arcane;
+import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Research;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Warp;
@@ -351,6 +352,9 @@ Infusion.addRecipe("TB.NodeFoci.Taint",<Thaumcraft:blockMetalDevice:12>,
 [<Thaumcraft:ItemResource:11>,<thaumicbases:crystalBlock:7>,<thaumicbases:concentratedTaint>,<thaumicbases:crystalBlock:7>,<thaumicbases:concentratedTaint>,<thaumicbases:crystalBlock:7>,<thaumicbases:concentratedTaint>,<thaumicbases:crystalBlock:7>],
 "auram 256 , vitium 192, venenum 128, perditio 64, strontio 32",<thaumicbases:nodeFoci:9>,10);
 
+// --- Salis douplication
+Crucible.addRecipe("TB.SM", <Thaumcraft:ItemResource:14> * 2, <Thaumcraft:ItemResource:14>, "aer 4, aqua 4, ignis 4, praecantatio 4, ordo 4, perditio 4, terra 4");
+
 
 
 // --- Deco Blocks
@@ -575,6 +579,11 @@ Research.addPage("TB.NodeLinker","tb.rec.nodeLink.page.0");
 Research.addPage("TB.NodeLinker","tb.rec.nodeLink.page.1");
 Research.addPage("TB.NodeLinker","tb.rec.nodeLink.page.2");
 Research.addInfusionPage("TB.NodeLinker",<thaumicbases:nodeLinker>);
+
+// --- Salis douplication
+Research.refreshResearchRecipe("TB.SM");
+
+
 
 // --- Ordict remove ---
 
