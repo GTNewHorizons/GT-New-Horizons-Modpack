@@ -29325,7 +29325,7 @@
     {
       "questID": 332,
       "name": "Fire burn and...",
-      "description": "In order to get started with your basic witchery needs, you need a witches oven. It\u0027s used to get the most basic ingredients for your recipes: Fumes.",
+      "description": "In order to get started with your basic witchery needs, you need a witches oven. It\u0027s used to get the most basic ingredients for your recipes: Fumes.\n\nThe oven is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot. Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.\n\nUpgrading an Oven\n\nAn oven can be upgraded by placing either a Fume Funnel or a Filtered Fume Funnel to the left and right of it. Each Fume Funnel will increase the cooking speed by and additional 10% (over a furnace) and increase the chance of a by-product being produced by and additional 25% for a Fume Funnel or 30% for a Filtered Fume Funnel.\nAn Oven can use at most two upgrades and they must have the same facing as the oven.\n\nA fully upgraded oven will therefore cook at 130% speed (compared to a furnace) and have a chance of a by-product of 90%.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29479,13 +29479,14 @@
         }
       ],
       "preRequisites": [
-        334
+        334,
+        1556
       ]
     },
     {
       "questID": 334,
       "name": "...Cauldron bubble",
-      "description": "The second thing you\u0027ll need is a cauldron. It is used to craft most of the basic items, like mutandis.",
+      "description": "The second thing you\u0027ll need is a cauldron. It is used to craft most of the basic items, like mutandis.\n\nIt is made by placing a regular Cauldron in the world, and then using Anointing Paste on it.\n\nTo brew a potion, cast a ritual or create an item, the cauldron must first be filled with water. This can be achieved with by using three buckets of water on it, or pumping water into it using pipes, or by using a Dispenser containing a Brew of Endless Water.\n\nOnce a cauldron is full of water, it must boil. Lighting a fire beneath the cauldron is the only way for this to happen. Using a netherrak block will guarantee the fire does not go out, although if it does go out, it may be set to boil again without any consequences (unlike brewing in a Kettle!).\n\nWhen the water is boiling, ingredients may be added to the Cauldron (one after another), to create the desired effect. The book, Witches\u0027 Brews gives a complete overview of all ingredients and what they can do when added to a brew.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29645,7 +29646,7 @@
     {
       "questID": 336,
       "name": "Probably usable for soup",
-      "description": "But its main purpose is to brew potions and infusions.",
+      "description": "But its main purpose is to brew potions and infusions.\n\nA kettle must be set up in the correct way, before it may be used. \n\nFirstly, a fire must be set under the kettle (netherrack is best for this, but wood will do just as well). \n\nNext the kettle must be filled by using a Water-filled Bucket on it. \n\nThirdly, each of the six ingredients for the brew or infusion must be thrown into the kettle, one at a time (the liquid will change color according to the recipe being used). \n\nFinally, a glass bottle must be used on the kettle to bottle the resulting brew, this must be done multiple times depending on the recipe.\n\nIt is important to keep the fire going constantly while the recipe is being prepared, otherwise it will be ruined. Swirls coming from the kettle is a sign all is well, black smoke (and brown liquid) indicates the brew is ruined. When a brew is ruined, the kettle must be emptied with a glass bottle, or just filled with more water, and the whole process repeated.\n\nWhen a brew is complete, the liquid will be the color of the resulting brew and will splutter (in addition to white swirls).\n\nSome recipes will require magical energy from a nearby Altar before they are bottled. If the brew is bottled when insufficient energy is available, the brew will be ruined. Black swirls coming from the Kettle is a good sign there is not enough power. A kettle must be within 14 (to 16) blocks of an Altar in order to obtain power from it (it can obtain power only from a single altar).",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -42453,6 +42454,17 @@
         {
           "rewards": [
             {
+              "id": "minecraft:spawn_egg",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 100
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
               "id": "dreamcraft:item.CoinFarmer",
               "Count": 10,
               "OreDict": "",
@@ -42463,7 +42475,7 @@
         }
       ],
       "preRequisites": [
-        489
+        486
       ]
     },
     {
@@ -150315,6 +150327,592 @@
       "preRequisites": [
         108
       ]
+    },
+    {
+      "questID": 1554,
+      "name": "Exhale of the horned one",
+      "description": "Exhale of the Horned One is an ingredient used in many recipes. It is acquired with a random chance when burning Oak saplings in an oven.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 31
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sapling",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 31
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        332
+      ]
+    },
+    {
+      "questID": 1555,
+      "name": "Mutate your saplings",
+      "description": "Mutandis is a mutagen that is used by witches and warlocks to mutate plants into other species. Simply use Mutandis on small plants, grass, flowers, saplings, etc. and it will be randomly converted to another plant. Mutandis cannot mutate multi-stage plants like wheat and cactus.\n\nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.\n\nMutandis has another interesting property when crafted with raw meat. It seems to mutate it into another type of raw meat. It even seems to have an effect on Rotten Flesh.\n\nSome recipes require Mutandis as an ingredient.\n\nMutandis can be upgraded to Mutandis Extremis to have effect on a wider variety of plants.\n\nMutandis is made in a Witches\u0027 Cauldron using Mandrake Root, Exhale of the Horned One and an Egg.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 14
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:egg",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 22
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 31
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 48,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:glass_bottle",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1554,
+        334
+      ]
+    },
+    {
+      "questID": 1556,
+      "name": "Breath o Goddess",
+      "description": "The Breath of the Goddess is an ingredient used in many recipes. It is acquired with a random chance when burning Birch saplings in an oven.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sapling",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 32
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1554
+      ]
+    },
+    {
+      "questID": 1557,
+      "name": "Mutated saplings",
+      "description": "Rowan saplings grow into Rowan trees when planted. Rowan trees can be harvested for Rowan logs and Rowan leaves (which yield more Rowan saplings). Rowan saplings cooked in an oven yield Wood Ash, and have a chance of producing a Whiff of Magic.\n\nRowan saplings can initially be acquired only by using Mutandis on another planted sapling (does not matter which type). Given the mutation of the sapling is random it may take a few goes before Rowan saplings appear.\n\nHawthorn saplings grow into Hawthorn trees when planted. Hawthorn trees can be harvested for Hawthorn logs and Hawthorn leaves (which yield more Hawthorn saplings). Hawthorn saplings cooked in an oven yield Wood Ash, and have a chance of producing Odour of Purity.\n\nHawthorn saplings can initially be acquired only by using Mutandis on another planted sapling (does not matter which type). Given the mutation of the sapling is random it may take a few goes before Hawthorn saplings appear.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:witchsapling",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:witchsapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:witchsapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1555
+      ]
+    },
+    {
+      "questID": 1558,
+      "name": "Whiff of Magic",
+      "description": "A Whiff of Magic is an ingredient used in many recipes. It is acquired with a random chance when burning Rowan saplings in an oven.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 34
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:witchsapling",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 34
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1557
+      ]
+    },
+    {
+      "questID": 1559,
+      "name": "Odour of Purity",
+      "description": "Odour of Purity is an ingredient used in many recipes. It is acquired with a random chance when burning Hawthorn saplings in an oven.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 36
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:witchsapling",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 36
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1557
+      ]
     }
   ],
   "questLines": [
@@ -150606,7 +151204,7 @@
         {
           "id": 40,
           "x": 144,
-          "y": 72
+          "y": 0
         },
         {
           "id": 41,
@@ -150770,18 +151368,18 @@
         },
         {
           "id": 1085,
-          "x": 108,
+          "x": 72,
           "y": 36
         },
         {
           "id": 1095,
-          "x": 108,
-          "y": 0
+          "x": 0,
+          "y": 36
         },
         {
           "id": 1146,
-          "x": 192,
-          "y": 36
+          "x": 252,
+          "y": 0
         },
         {
           "id": 1476,
@@ -150820,12 +151418,12 @@
         },
         {
           "id": 1504,
-          "x": 144,
+          "x": 108,
           "y": 36
         },
         {
           "id": 1546,
-          "x": 144,
+          "x": 108,
           "y": 0
         }
       ]
@@ -156448,88 +157046,118 @@
         },
         {
           "id": 333,
-          "x": 84,
-          "y": 0
+          "x": 108,
+          "y": 132
         },
         {
           "id": 334,
-          "x": 48,
+          "x": 108,
           "y": 0
         },
         {
           "id": 335,
-          "x": 64,
-          "y": 88
+          "x": 108,
+          "y": 264
         },
         {
           "id": 336,
-          "x": 64,
-          "y": 32
+          "x": 108,
+          "y": 168
         },
         {
           "id": 337,
-          "x": 64,
-          "y": 120
+          "x": 108,
+          "y": 300
         },
         {
           "id": 338,
-          "x": 64,
-          "y": 152
+          "x": 108,
+          "y": 336
         },
         {
           "id": 339,
-          "x": 32,
-          "y": 152
+          "x": 72,
+          "y": 336
         },
         {
           "id": 340,
-          "x": 0,
-          "y": 152
+          "x": 36,
+          "y": 336
         },
         {
           "id": 341,
-          "x": 0,
-          "y": 192
+          "x": 36,
+          "y": 372
         },
         {
           "id": 342,
-          "x": 32,
-          "y": 192
+          "x": 72,
+          "y": 372
         },
         {
           "id": 343,
-          "x": 32,
-          "y": 32
+          "x": 72,
+          "y": 192
         },
         {
           "id": 344,
-          "x": 96,
-          "y": 32
+          "x": 144,
+          "y": 192
         },
         {
           "id": 345,
-          "x": 8,
-          "y": 88
+          "x": 48,
+          "y": 264
         },
         {
           "id": 346,
-          "x": 8,
-          "y": 56
+          "x": 60,
+          "y": 228
         },
         {
           "id": 347,
-          "x": 120,
-          "y": 56
+          "x": 156,
+          "y": 228
         },
         {
           "id": 348,
-          "x": 120,
-          "y": 88
+          "x": 168,
+          "y": 264
         },
         {
           "id": 349,
-          "x": 64,
-          "y": 192
+          "x": 108,
+          "y": 372
+        },
+        {
+          "id": 1554,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 1555,
+          "x": 36,
+          "y": 36
+        },
+        {
+          "id": 1556,
+          "x": 0,
+          "y": 132
+        },
+        {
+          "id": 1557,
+          "x": 36,
+          "y": 72
+        },
+        {
+          "id": 1558,
+          "x": 36,
+          "y": 108
+        },
+        {
+          "id": 1559,
+          "x": 72,
+          "y": 72
         }
       ]
     },
