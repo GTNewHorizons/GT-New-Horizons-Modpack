@@ -1,16 +1,16 @@
 #Branches
-for.genus.brbees.organicBranch=Twilight Branche
-for.genus.brbees.gemBranch=Advanced Gem Branche
-for.genus.brbees.metalBranch=Metal Branche
-for.genus.brbees.raremetalBranch=Advanced Mineral Branche
-for.genus.brbees.radioactiveBranch=Raidioactive Branche
-for.genus.brbees.thaumicBranch=Advanced Thaumic Branche
-for.genus.brbees.alloyBranch=Alloy Branche
-for.genus.brbees.ic2Branch=IC2 Branche
-for.genus.brbees.tfBranch=Twilight Branche
-for.genus.brbees.spaceBranch=Space Branche
-for.genus.brbees.planetBranch=Planet Branche
-for.genus.brbees.infinityBranch=Infinity Branche
+for.genus.brbees.organicBranch=Twilight Branch
+for.genus.brbees.gemBranch=Advanced Gem Branch
+for.genus.brbees.metalBranch=Metal Branch
+for.genus.brbees.raremetalBranch=Advanced Mineral Branch
+for.genus.brbees.radioactiveBranch=Raidioactive Branch
+for.genus.brbees.thaumicBranch=Advanced Thaumic Branch
+for.genus.brbees.alloyBranch=Alloy Branch
+for.genus.brbees.ic2Branch=IC2 Branch
+for.genus.brbees.tfBranch=Twilight Branch
+for.genus.brbees.spaceBranch=Space Branch
+for.genus.brbees.planetBranch=Planet Branch
+for.genus.brbees.infinityBranch=Infinity Branch
 
 #Bees
 gendustry.bees.species.Clay=Clay
@@ -69,6 +69,7 @@ gendustry.bees.species.Olivine=Olivine
 gendustry.bees.species.Emerald=Emerald
 gendustry.bees.species.RedGarnet=Red Garnet
 gendustry.bees.species.YellowGarnet=Yellow Garnet
+gendustry.bees.species.FireStone=Firestone
 
 #Metal
 gendustry.bees.species.Copper=Copper
@@ -179,11 +180,11 @@ gendustry.honeycomb.oil.name=Oil Comb
 gendustry.honeycomb.redalloy.name=Red Alloy Comb
 gendustry.honeycomb.redstonealloy.name=Redstone Alloy Comb
 gendustry.honeycomb.conductiveiron.name=Conductive Iron Comb
-gendustry.honeycomb.energeticalloy.name=Energetic Comb
-gendustry.honeycomb.vibrantalloy.name=Vibrant Comb
+gendustry.honeycomb.energeticalloy.name=Energetic Alloy Comb
+gendustry.honeycomb.vibrantalloy.name=Vibrant Alloy Comb
 gendustry.honeycomb.electricalsteel.name=Electrical Steel Comb
 gendustry.honeycomb.darksteel.name=Dark Steel Comb
-gendustry.honeycomb.pulsatingiron.name=Pulsating Comb
+gendustry.honeycomb.pulsatingiron.name=Pulsating Iron Comb
 # new 
 gendustry.honeycomb.enderium.name=Enderium Comb
 gendustry.honeycomb.stainlesssteel.name=Stainless Steel Comb
@@ -218,6 +219,7 @@ gendustry.honeycomb.yellowgarnet.name=Yellow Garnet Comb
 gendustry.honeycomb.rareearth.name=Rare Earth Comb
 gendustry.honeycomb.pyrope.name=Pyrope Comb
 gendustry.honeycomb.grossular.name=Grossular Comb
+gendustry.honeycomb.firestone=Firestone Comb
 
 #Metal
 gendustry.honeycomb.slag.name=Slag Comb
