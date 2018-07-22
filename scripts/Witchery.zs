@@ -52,11 +52,9 @@ recipes.remove(<witchery:ingredient:153>);
 
 // --- Quicklime 
 recipes.remove(<witchery:ingredient:16>);
-//recipes.remove(<witchery:spinningwheel>);
 //recipes.remove(<witchery:poppetshelf>);
 //recipes.remove(<witchery:poppet>);
 //recipes.remove(<witchery:poppet:*>);
-//recipes.remove(<witchery:distilleryidle>);
 //recipes.remove(<witchery:ingredient:10>);
 
 // --- Soft Clay Jar
@@ -65,14 +63,20 @@ recipes.remove(<witchery:ingredient:26>);
 // --- Clay Jar
 //furnace.remove(<witchery:ingredient:27>);
 
+// --- Spinning Wheel
+recipes.remove(<witchery:spinningwheel>);
+
+// --- Distillery
+recipes.remove(<witchery:distilleryidle>);
+
 
 
 // --- Adding Recipes ---
 
 
 // --- Witchery Tab
-mods.thaumcraft.Research.addTab("WITHERY", "dreamcraft", "textures/thaumcraft/icon/icon_Witchery.png", "dreamcraft", "textures/thaumcraft/tab/tab_Witchery.png");
-game.setLocalization("tc.research_category.WITHERY", "Witchery");
+mods.thaumcraft.Research.addTab("WITCHERY", "dreamcraft", "textures/thaumcraft/icon/icon_Witchery.png", "dreamcraft", "textures/thaumcraft/tab/tab_Witchery.png");
+game.setLocalization("tc.research_category.WITCHERY", "Witchery");
 
 // --- Warmwood
 recipes.addShaped(<witchery:seedswormwood>, [
@@ -121,14 +125,14 @@ Mixer.addRecipe(<witchery:ingredient:153>, null, [<witchery:seedsbelladonna>, <w
 
 
 // --- Anointing Paste
-mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -2, 2, <witchery:ingredient:153>);
+mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITCHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -2, 2, <witchery:ingredient:153>);
 game.setLocalization("tc.research_name.ANOINTINGPASTE", "Anointing Paste");
 game.setLocalization("tc.research_text.ANOINTINGPASTE", "[WI] Magical Paste");
 mods.thaumcraft.Research.addPage("ANOINTINGPASTE", "Witchery.research_page.ANOINTINGPASTE.1");
 game.setLocalization("Witchery.research_page.ANOINTINGPASTE.1", "Anointing Paste is smeared onto a regular cauldron to turn it into a Witches' Cauldron, ready for brewing interesting potions and spells. Simply place the Cauldron in the world, and then use the Anointing Paste on it to convert it into a Witches' Cauldron. Mixing different witchery seeds in a mixer with water will give anointing paste");
 
 // --- Oven
-mods.thaumcraft.Research.addResearch("OVEN", "WITHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
+mods.thaumcraft.Research.addResearch("OVEN", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
 game.setLocalization("tc.research_name.OVEN", "Witchery Oven");
 game.setLocalization("tc.research_text.OVEN", "[WI] The tales of Hansel and Gretel");
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.1");
@@ -142,7 +146,7 @@ mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 20, ig
 mods.thaumcraft.Research.addArcanePage("OVEN", <witchery:witchesovenidle>);
 
 // --- Kettle
-mods.thaumcraft.Research.addResearch("KETTLE", "WITHERY", "metallum 15, fabrico 12, instrumentum 9, ignis 6", 2, 0, 4, <witchery:kettle>);
+mods.thaumcraft.Research.addResearch("KETTLE", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, ignis 6", 2, 0, 4, <witchery:kettle>);
 game.setLocalization("tc.research_name.KETTLE", "Witchery Kettle");
 game.setLocalization("tc.research_text.KETTLE", "[WI] Hocus pocus");
 mods.thaumcraft.Research.addPrereq("KETTLE", "OVEN", false);
@@ -159,8 +163,36 @@ mods.thaumcraft.Arcane.addShaped("KETTLE", <witchery:kettle>, "aer 40, ignis 40,
 [<ore:screwThaumium>, <minecraft:cauldron>, <ore:screwThaumium>]]);
 mods.thaumcraft.Research.addArcanePage("KETTLE", <witchery:kettle>);
 
+// --- Spinning Wheel
+mods.thaumcraft.Research.addResearch("SPINNINGWHEELW", "WITCHERY", "arbor 18, motus 15, fabrico 12, instrumentum 9, aer 6, praecantatio 3", 4, 0, 4, <witchery:spinningwheel>);
+game.setLocalization("tc.research_name.SPINNINGWHEELW", "Witchery Spinning Wheel");
+game.setLocalization("tc.research_text.SPINNINGWHEELW", "[WI] Round and round...");
+mods.thaumcraft.Research.addPrereq("SPINNINGWHEELW", "KETTLE", false);
+mods.thaumcraft.Research.setConcealed("SPINNINGWHEELW", true);
+mods.thaumcraft.Research.addPage("SPINNINGWHEELW", "Witchery.research_page.SPINNINGWHEELW");
+game.setLocalization("Witchery.research_page.SPINNINGWHEELW", "A Spinning Wheel is a device for spinning materials into thread. It is a magical device that draws power from a nearby Altar. To start spinning, place the raw material in the slot on the left, any additional ingredients in the bottom slots and the process will begin as long as there is sufficient power.<BR>The spinning wheel can be used to make Golden Thread, Fanciful Thread and Tormented Twine.");
+mods.thaumcraft.Arcane.addShaped("SPINNINGWHEELW", <witchery:spinningwheel>, "aer 60, ignis 60, ordo 60, perditio 60", [
+[<ore:stickStainlessSteel>, <witchery:ingredient:10>, <ore:screwStainlessSteel>],
+[<minecraft:item_frame>, <minecraft:item_frame>, <minecraft:item_frame>],
+[<ore:stickStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:stickStainlessSteel>]]);
+mods.thaumcraft.Research.addArcanePage("SPINNINGWHEELW", <witchery:spinningwheel>);
+
+// --- Distillery
+mods.thaumcraft.Research.addResearch("DISTILLERY", "WITCHERY", "metallum 18, motus 15, fabrico 12, instrumentum 9, aqua 6, praecantatio 3", 6, 0, 4, <witchery:distilleryidle>);
+game.setLocalization("tc.research_name.DISTILLERY", "Witchery Spinning Wheel");
+game.setLocalization("tc.research_text.DISTILLERY", "[WI] Blub...Blub...");
+mods.thaumcraft.Research.addPrereq("DISTILLERY", "SPINNINGWHEELW", false);
+mods.thaumcraft.Research.setConcealed("DISTILLERY", true);
+mods.thaumcraft.Research.addPage("DISTILLERY", "Witchery.research_page.DISTILLERY");
+game.setLocalization("Witchery.research_page.DISTILLERY", "A distillery used by a witch is a construct used for distilling magical ingredients. It is unlike a normal distillery, because it heats itself using energy obtained from a nearby altar, the distillery must be within about 14 (to 16) blocks of an altar to draw power from it, a small icon is shown in the interface if no power is available.One or two ingredients are distilled together and will result in up to four distillates; or resulting materials. A supply of clay jars is also needed to capture the some or all of the distillates.A distillery is crafted using Iron Ingots, Gold Ingots, an Attuned Stone and Clay jars.");
+mods.thaumcraft.Arcane.addShaped("DISTILLERY", <witchery:distilleryidle>, "aer 80, ignis 80, ordo 80, perditio 80, aqua 80", [
+[<witchery:ingredient:27>, <witchery:ingredient:10>, <witchery:ingredient:27>],
+[<ore:pipeSmallStainlessSteel>, <witchery:cauldron>, <ore:pipeSmallStainlessSteel>],
+[<ore:plateDenseThaumium>, <ore:craftingIronFurnace>, <ore:plateDenseThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("DISTILLERY", <witchery:distilleryidle>);
+
 // --- Altar
-mods.thaumcraft.Research.addResearch("ALTAR", "WITHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2, 0, 4, <witchery:altar>);
+mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2, 0, 4, <witchery:altar>);
 game.setLocalization("tc.research_name.ALTAR", "Witchery Altar");
 game.setLocalization("tc.research_text.ALTAR", "[WI] Our Father");
 mods.thaumcraft.Research.addPrereq("ALTAR", "OVEN", false);
@@ -177,7 +209,7 @@ mods.thaumcraft.Arcane.addShaped("ALTAR", <witchery:altar> * 2, "terra 20, ignis
 mods.thaumcraft.Research.addArcanePage("ALTAR", <witchery:altar>);
 
 // --- Candelabra
-mods.thaumcraft.Research.addResearch("CANDELABRA", "WITHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", -2, -2, 4, <witchery:ingredient>);
+mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", -2, -2, 4, <witchery:ingredient>);
 game.setLocalization("tc.research_name.CANDELABRA", "Candelabra");
 game.setLocalization("tc.research_text.CANDELABRA", "[WI] It became light");
 mods.thaumcraft.Research.addPrereq("CANDELABRA", "ALTAR", false);
@@ -192,7 +224,7 @@ mods.thaumcraft.Arcane.addShaped("CANDELABRA", <witchery:ingredient> , "terra 5,
 mods.thaumcraft.Research.addArcanePage("CANDELABRA", <witchery:ingredient>);
 
 // --- Chalice
-mods.thaumcraft.Research.addResearch("CHALICE", "WITHERY", "praecantatio 15, lucrum 12, metallum 9, terra 6", -4, 0, 4, <witchery:ingredient:1>);
+mods.thaumcraft.Research.addResearch("CHALICE", "WITCHERY", "praecantatio 15, lucrum 12, metallum 9, terra 6", -4, 0, 4, <witchery:ingredient:1>);
 game.setLocalization("tc.research_name.CHALICE", "Chalice");
 game.setLocalization("tc.research_text.CHALICE", "[WI] Cheers");
 mods.thaumcraft.Research.addPrereq("CHALICE", "ALTAR", false);
@@ -206,7 +238,7 @@ mods.thaumcraft.Arcane.addShaped("CHALICE", <witchery:ingredient:1> , "aqua 15, 
 mods.thaumcraft.Research.addArcanePage("CHALICE", <witchery:ingredient:1>);
 
 // --- Arthana
-mods.thaumcraft.Research.addResearch("ARTHANA", "WITHERY", "praecantatio 15, lucrum 12, instrumentum 9, mortuus 6", -4, -2, 4, <witchery:arthana>);
+mods.thaumcraft.Research.addResearch("ARTHANA", "WITCHERY", "praecantatio 15, lucrum 12, instrumentum 9, mortuus 6", -4, -2, 4, <witchery:arthana>);
 game.setLocalization("tc.research_name.ARTHANA", "Arthana");
 game.setLocalization("tc.research_text.ARTHANA", "[WI] Ritualistic Knife");
 mods.thaumcraft.Research.addPrereq("ARTHANA", "ALTAR", false);
@@ -222,7 +254,7 @@ mods.thaumcraft.Arcane.addShaped("ARTHANA", <witchery:arthana> , "terra 20, perd
 mods.thaumcraft.Research.addArcanePage("ARTHANA", <witchery:arthana>);
 
 // --- Fume Funnel
-mods.thaumcraft.Research.addResearch("FUMEFUNNEL", "WITHERY", "metallum 15, ignis 12, lux 9, sensus 6", 0, 2, 4, <witchery:fumefunnel>);
+mods.thaumcraft.Research.addResearch("FUMEFUNNEL", "WITCHERY", "metallum 15, ignis 12, lux 9, sensus 6", 0, 2, 4, <witchery:fumefunnel>);
 game.setLocalization("tc.research_name.FUMEFUNNEL", "Fume Funnel");
 game.setLocalization("tc.research_text.FUMEFUNNEL", "[WI] Upgrades Yea");
 mods.thaumcraft.Research.addPrereq("FUMEFUNNEL", "OVEN", false);
@@ -237,7 +269,7 @@ mods.thaumcraft.Research.addArcanePage("FUMEFUNNEL", <witchery:fumefunnel>);
 mods.thaumcraft.Warp.addToResearch("FUMEFUNNEL", 1);
 
 // --- Fitered Fume Funnel
-mods.thaumcraft.Research.addResearch("FILTEREDFUMEFUNNEL", "WITHERY", "metallum 15, vitreus 12, lux 9, praecantatio 6", 0, 4, 4, <witchery:filteredfumefunnel>);
+mods.thaumcraft.Research.addResearch("FILTEREDFUMEFUNNEL", "WITCHERY", "metallum 15, vitreus 12, lux 9, praecantatio 6", 0, 4, 4, <witchery:filteredfumefunnel>);
 game.setLocalization("tc.research_name.FILTEREDFUMEFUNNEL", "Filtered Fume Funnel");
 game.setLocalization("tc.research_text.FILTEREDFUMEFUNNEL", "[WI] Upgrades again? Yea!");
 mods.thaumcraft.Research.addPrereq("FILTEREDFUMEFUNNEL", "FUMEFUNNEL", false);
@@ -251,7 +283,7 @@ mods.thaumcraft.Research.addInfusionPage("FILTEREDFUMEFUNNEL", <witchery:filtere
 mods.thaumcraft.Warp.addToResearch("FILTEREDFUMEFUNNEL", 2);
 
 // --- Fume Filter
-mods.thaumcraft.Research.addResearch("FUMEFILTER", "WITHERY", "metallum 9, vitreus 9, lucrum 6, praecantatio 3", 2, 2, 4, <witchery:ingredient:73>);
+mods.thaumcraft.Research.addResearch("FUMEFILTER", "WITCHERY", "metallum 9, vitreus 9, lucrum 6, praecantatio 3", 2, 2, 4, <witchery:ingredient:73>);
 game.setLocalization("tc.research_name.FUMEFILTER", "Fume Filter");
 game.setLocalization("tc.research_text.FUMEFILTER", "[WI] More By-products");
 mods.thaumcraft.Research.addPrereq("FUMEFILTER", "DISTILESSENTIA", false);
