@@ -29374,6 +29374,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
               "id": "minecraft:sapling",
               "Count": 30,
               "OreDict": "",
@@ -29407,7 +29413,7 @@
     {
       "questID": 333,
       "name": "Offerings",
-      "description": "For all your offering needs. And of course, it looks fancy!",
+      "description": "For all your offering needs. And of course, it looks fancy!\n\nAn altar is created by placing six altar blocks in a 2x3 pattern; you will know it is correct when a red cloth appears over the top of the altar.\n\nActivating the altar by right-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery or kettle recipe.\n\nThe maximum amount of power available is determined by how many natural items are in the vicinity of the altar, dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).\n\nCertain objects (or foci), placed onto an altar, will boost the focusing capabilities of an altar, either improving the amount of magic it can focus, the rate at which it replenishes or the range it can distribute power. Only one of each type of item (skull, chalice, etc.) will have an effect. There may also be other less savory foci that dark magic practitioners could make use of.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -29457,6 +29463,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
               "id": "witchery:arthana",
               "Count": 1,
               "OreDict": "",
@@ -29468,8 +29480,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -29621,7 +29633,7 @@
               "id": "enhancedlootbags:lootbag",
               "Count": 1,
               "OreDict": "",
-              "Damage": 9
+              "Damage": 10
             }
           ],
           "rewardID": "bq_standard:item"
@@ -29629,8 +29641,8 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -29639,7 +29651,7 @@
         }
       ],
       "preRequisites": [
-        336
+        1567
       ]
     },
     {
@@ -29689,6 +29701,12 @@
         {
           "rewards": [
             {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
               "id": "witchery:ingredient",
               "Count": 4,
               "OreDict": "",
@@ -29700,14 +29718,14 @@
         {
           "rewards": [
             {
-              "id": "dreamcraft:item.CoinCook",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             },
             {
-              "id": "dreamcraft:item.CoinDarkWizard",
-              "Count": 25,
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
               "OreDict": "",
               "Damage": 0
             }
@@ -29805,7 +29823,7 @@
         }
       ],
       "preRequisites": [
-        335
+        1571
       ]
     },
     {
@@ -150637,7 +150655,7 @@
     {
       "questID": 1557,
       "name": "Mutated saplings",
-      "description": "Rowan saplings grow into Rowan trees when planted. Rowan trees can be harvested for Rowan logs and Rowan leaves (which yield more Rowan saplings). Rowan saplings cooked in an oven yield Wood Ash, and have a chance of producing a Whiff of Magic.\n\nRowan saplings can initially be acquired only by using Mutandis on another planted sapling (does not matter which type). Given the mutation of the sapling is random it may take a few goes before Rowan saplings appear.\n\nHawthorn saplings grow into Hawthorn trees when planted. Hawthorn trees can be harvested for Hawthorn logs and Hawthorn leaves (which yield more Hawthorn saplings). Hawthorn saplings cooked in an oven yield Wood Ash, and have a chance of producing Odour of Purity.\n\nHawthorn saplings can initially be acquired only by using Mutandis on another planted sapling (does not matter which type). Given the mutation of the sapling is random it may take a few goes before Hawthorn saplings appear.",
+      "description": "Rowan saplings grow into Rowan trees when planted. Rowan trees can be harvested for Rowan logs and Rowan leaves (which yield more Rowan saplings). Rowan saplings cooked in an oven yield Wood Ash, and have a chance of producing a Whiff of Magic.\n\nRowan saplings can initially be acquired only by using Mutandis on another planted sapling (does not matter which type). Given the mutation of the sapling is random it may take a few goes before Rowan saplings appear.\n\nHawthorn saplings grow into Hawthorn trees when planted. Hawthorn trees can be harvested for Hawthorn logs and Hawthorn leaves (which yield more Hawthorn saplings). Hawthorn saplings cooked in an oven yield Wood Ash, and have a chance of producing Odour of Purity.\n\nHawthorn saplings can initially be acquired only by using Mutandis on another planted sapling (does not matter which type). Given the mutation of the sapling is random it may take a few goes before Hawthorn saplings appear.\n\nAlder saplings grow into Alder trees when planted. Alder trees can be harvested for Alder logs and Alder leaves (which yield more Alder saplings). Alder saplings cooked in an oven yield Wood Ash, and have a chance of producing Reek of Misfortune.\n\nAlder saplings can initially be acquired only by using Mutandis on another planted sapling (does not matter which type). Given the mutation of the sapling is random, it may take a few goes before Alder saplings appear.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -150678,6 +150696,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 2
+            },
+            {
+              "id": "witchery:witchsapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -150911,6 +150935,1344 @@
       ],
       "preRequisites": [
         1557
+      ]
+    },
+    {
+      "questID": 1560,
+      "name": "Witchery Seeds",
+      "description": "According to the legend, when the root of the Mandrake plant is dug up it screams and kills all who hear it. This is only partially true. A fully grown Mandrake may scream causing immense discomfort to those around. This is why it is best to harvest the Mandrake root at night when the plant is more likely to be dormant. Mandrake is grown from Mandrake Seeds which may be obtained by breaking tall grass, or by breaking a partially (or fully) grown Mandrake plant.\n\nBreaking a fully grown Mandrake plant will either yield Mandrake Root or the Mandrake may awaken and cause all sorts of mischief (and pain to the ears!).\n\nBelladonna seeds can be planted and eventually grow into the multistage belladonna plant. The fully grown belladonna plant can be harvested to obtain more Belladonna seeds and a Belladonna flower.\n\nSnowbell seeds can be planted and eventually grow into the multistage snowbell plant. The fully grown snowbell plant can be harvested to obtain more Snowbell seeds, snowballs and occasionally a Icy Needle.\n\nWater Artichoke seeds can be planted and eventually grow into the multistage Water Artichoke plant. The fully grown Water Artichoke plant can be harvested to obtain more Water Artichoke seeds and a Water Artichoke Globe.\n\nWater Artichoke seeds can only be planted on still water blocks.\n\nGarlic is a plantable crop that can be used to make tasty food, and to deal with vampires. Garlic can be obtained by breaking tall grass, although it has a very low drop chance. It may be planted on tilled farm land, and will grow in five stages. When full grown the plant may be harvested for up to three dropped garlic bulbs. Which may either be replanted, or used in a crafting recipe.\n\nGarlic bulbs can be used to make meaty stew, a particularly nourishing meal. It is also the main ingredient in making a Garlic Garland, a useful tool in warding off vampires. Finally, garlic can be used by witches in a Witches\u0027 Cauldron to make a vampire Weakening brew, and by Witch Hunters, to make vampire resistant armor.\n\nWolfsbane seeds can be planted and eventually grow into the multistage Wolfsbane plant. The fully grown Wolfsbane plant can be harvested to obtain more Wolfsbane seeds and the Wolfsbane flower.\n",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:seedsbelladonna",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:seedsmandrake",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:seedsbelladonna",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:seedssnowbell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:seedsartichoke",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:garlic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:seedswolfsbane",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IC2:blockCrop",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinFarmer",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        483
+      ]
+    },
+    {
+      "questID": 1561,
+      "name": "Purified Milk",
+      "description": "Purified Milk is an antidote in a similar way to normal milk, although it only has a chance of working and will only remove a single status effect. It is advantageous because it can stack to 64 items.\n\nPurified Milk is an ingredient in the Brew of Sleeping.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 105
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:milk_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 36
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 105
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 31
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 34
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 36
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1559
+      ]
+    },
+    {
+      "questID": 1562,
+      "name": "Brew of love",
+      "description": "The Brew of Love is a throwable potion that causes farm animals and villagers to get their luvin\u0027 on. When used on animals the effect is the same as if all hit animals were fed and their breeding cooldown is reset.\n\nIn the case of villagers, two (or more) must be hit by the same brew.\n\nThe Brew of Love may be thrown at a group of two or more enthralled zombies (created with a Brew of Raising or enthralled with the Infernal Infusion power), which will cause pairs of them to produce a baby zombie. It will also cause them to become a zombie villagers. Zombie villagers can be turned back to villagers either using the normal method, or by casting a Rite of Fertility.\n\nThe Brew of Love is created in a kettle using the recipe found in the book Witchcraft: Brews \u0026 Infusions. Into the pot, throw a Rose, a Golden Carrot, Whiff of Magic, a Lily Pad, a Water Artichoke Globe and Cocoa Beans.\n\nWear a Witches Hat (and/or robes) while brewing to get more brews than just three.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 3,
+        "OreDict": "",
+        "Damage": 75
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:red_flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:golden_carrot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:waterlily",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 69
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 105
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 75
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:glass_bottle",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        336
+      ]
+    },
+    {
+      "questID": 1563,
+      "name": "Sleep well!",
+      "description": "The Brew of Sleeping is the normal way for a Witch to enter the Spirit World. \nNeedless to say an unprepared witch will almost always experience a nightmare when the head to the spirit world this way. The witch must drink the brew and they will fall into a deep sleep, leaving their body and items behind and entering the world of spirits.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 95
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 105
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 78
+            },
+            {
+              "id": "minecraft:cookie",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 69
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 95
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:glass_bottle",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCookI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1562
+      ]
+    },
+    {
+      "questID": 1564,
+      "name": "The Spirit world",
+      "description": "The spirit world is an alternate reality that mirrors the Overworld in topography. When people dream they often end up in the spirit world without realizing it (often appearing as one of its many denizens). Powerful witches can create Brews of Sleeping that allow them to pass their awake consciousness into the Spirit World, leaving their bodies and gear behind.\n\nThe Spirit World is the only source of Wispy Cotton, Disturbed Cotton, Mellifluous Hunger the materials needed to make Dream Weavers. Also Brews of Flowing Spirit can only be made in the Spirit World.\n\nVery few things can pass into, or return from the Spirit World, keep this in mind when heading there (Icy Needle always stay in the inventory). Wispy Cotton, Disturbed Cotton, Mellifluous Hunger and Brews of Flowing Spirit can pass from the Spirit World to the Real World but not the other way.\n\nTwo important things to note: Circle magic does not function in the Spirit World; and Endermen cannot enter the Spirit World.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:end_portal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "name": "Dream World",
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "dimension": 55,
+          "range": 0,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 78
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1563
+      ]
+    },
+    {
+      "questID": 1565,
+      "name": "Nights not dark anymore",
+      "description": "Hardcore darkness is a pain but now the night will be  bright. Be carful the mobs are the same.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8198
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:nether_wart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "minecraft:golden_carrot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8198
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "minecraft:nether_wart",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinChemistI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1106
+      ]
+    },
+    {
+      "questID": 1566,
+      "name": "Wake up early",
+      "description": "You wake up very early because of the nightmares follow you in this dimension. \nYou wasn\u0027t prepared for it. Let get some stuff first and we entering a second time to get some wispy/disturbed cotton.\n\nIf you not unlock your Brewing stand you have to do it first.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:grave",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 78
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 8198
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AWWayofTime:alchemyFlask",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "CustomFlaskEffects:9": [
+                  {
+                    "durationFactor:4": 2,
+                    "concentration:4": 0,
+                    "potionID:4": 104,
+                    "tickDuration:4": 1200
+                  }
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1564
+      ]
+    },
+    {
+      "questID": 1567,
+      "name": "Wake up early",
+      "description": "Your second visit was much more relaxing i guess. With night view and flight potion you found a few wispy/disturbed cotton allready. \n\nDisturbed Cotton can be spun into Tormented Twine. It cannot be replanted.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 99
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 99
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8262
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinSurvivorI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinAdventureI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1566
+      ]
+    },
+    {
+      "questID": 1568,
+      "name": "Attuned stone",
+      "description": "An attuned stone, is a diamond that has been infused with natural magic in a fiery medium. Attuned stones can be used to link non-magical devices to the magical currents present in the world, and are one of the main ingredients in crafting distilleries, kettles, altar foci and poppet shelves.\n\nThe other main use of attuned stones is to act as a portable power source for circle magic rites, when a nearby altar is not available. To act in such a way, the attuned stone must first be charged with a Rite of Charging.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 10
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34
+            },
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:lava_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1558
+      ]
+    },
+    {
+      "questID": 1569,
+      "name": "Reek of Misfortune",
+      "description": "Reek of Misfortune is an ingredient used in many recipes. It is acquired with a random chance when burning Alder saplings in an oven.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 35
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:witchsapling",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 35
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 27
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinCook",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizard",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1557
+      ]
+    },
+    {
+      "questID": 1570,
+      "name": "Tormented Twine",
+      "description": "Tormented Twine is spun from Disturbed Cotton using a Spinning Wheel. It is an ingredient used to make Dream Catchers.\n\nIt is made in a Spinning Wheel using Disturbed Cotton, String and Reek of Misfortune.\n\nA Altar have to be nearby to power the spinning wheel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 101
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:string",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 35
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 99
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 99
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardI",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        335
+      ]
+    },
+    {
+      "questID": 1571,
+      "name": "Distillery",
+      "description": "A distillery used by a witch is a construct used for distilling magical ingredients. It is unlike a normal distillery, because it heats itself using energy obtained from a nearby altar, the distillery must be within about 14 (to 16) blocks of an altar to draw power from it, a small icon is shown in the interface if no power is available.\n\nOne or two ingredients are distilled together and will result in up to four distillates; or resulting materials. A supply of clay jars is also needed to capture the some or all of the distillates.\n\nA distillery is crafted using Iron Ingots, Gold Ingots, an Attuned Stone and Clay jars.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:distilleryidle",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:distilleryidle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 27
+            },
+            {
+              "id": "enhancedlootbags:lootbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        335
+      ]
+    },
+    {
+      "questID": 1572,
+      "name": "Nightmare protection",
+      "description": "The Dream Weaver of Nightmares has two effects, firstly it will add a short weakness effect to a player when they wake up from a good nights sleep. Secondly, it will corrupt all other nearby dream weavers so that they have the opposite effect. If the dream weaver is itself corrupted by another nearby Dream Weaver of Nightmares, it will add a short blindness effect instead of nausea.\n\nThe Dream Weaver of Nightmares can also be used to fend off nightmares when a Brew of Sleeping is drunk. Having the Dream Weaver nearby will reduce the chance of a nightmare to 50% (this can be decreased further by other means!)",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "witchery:ingredient",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "UNLOCKED",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            },
+            {
+              "id": "minecraft:item_frame",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16454
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16452
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 29
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 99
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "rewards": [
+            {
+              "id": "dreamcraft:item.CoinSurvivorII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "dreamcraft:item.CoinDarkWizardII",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        1570
       ]
     }
   ],
@@ -154262,6 +155624,11 @@
           "id": 1543,
           "x": 0,
           "y": 144
+        },
+        {
+          "id": 1560,
+          "x": 174,
+          "y": 0
         }
       ]
     },
@@ -156277,6 +157644,11 @@
           "id": 1370,
           "x": 192,
           "y": 108
+        },
+        {
+          "id": 1565,
+          "x": 144,
+          "y": 0
         }
       ]
     },
@@ -157040,123 +158412,178 @@
       "quests": [
         {
           "id": 332,
-          "x": 0,
+          "x": 48,
           "y": 0
         },
         {
           "id": 333,
-          "x": 108,
+          "x": 156,
           "y": 132
         },
         {
           "id": 334,
-          "x": 108,
-          "y": 0
+          "x": 180,
+          "y": 24
         },
         {
           "id": 335,
-          "x": 108,
-          "y": 264
+          "x": 396,
+          "y": 240
         },
         {
           "id": 336,
-          "x": 108,
-          "y": 168
+          "x": 204,
+          "y": 156
         },
         {
           "id": 337,
-          "x": 108,
-          "y": 300
+          "x": 372,
+          "y": 324
         },
         {
           "id": 338,
-          "x": 108,
-          "y": 336
+          "x": 348,
+          "y": 360
         },
         {
           "id": 339,
-          "x": 72,
-          "y": 336
+          "x": 312,
+          "y": 324
         },
         {
           "id": 340,
-          "x": 36,
-          "y": 336
+          "x": 264,
+          "y": 312
         },
         {
           "id": 341,
-          "x": 36,
-          "y": 372
+          "x": 240,
+          "y": 348
         },
         {
           "id": 342,
-          "x": 72,
-          "y": 372
+          "x": 264,
+          "y": 384
         },
         {
           "id": 343,
-          "x": 72,
-          "y": 192
+          "x": 312,
+          "y": 228
         },
         {
           "id": 344,
-          "x": 144,
+          "x": 456,
           "y": 192
         },
         {
           "id": 345,
-          "x": 48,
+          "x": 336,
           "y": 264
         },
         {
           "id": 346,
-          "x": 60,
-          "y": 228
+          "x": 456,
+          "y": 264
         },
         {
           "id": 347,
-          "x": 156,
+          "x": 480,
           "y": 228
         },
         {
           "id": 348,
-          "x": 168,
-          "y": 264
+          "x": 336,
+          "y": 192
         },
         {
           "id": 349,
-          "x": 108,
+          "x": 312,
           "y": 372
         },
         {
           "id": 1554,
           "x": 0,
-          "y": 36
+          "y": 60
         },
         {
           "id": 1555,
-          "x": 36,
-          "y": 36
+          "x": 108,
+          "y": 24
         },
         {
           "id": 1556,
-          "x": 0,
-          "y": 132
+          "x": 24,
+          "y": 156
         },
         {
           "id": 1557,
-          "x": 36,
-          "y": 72
+          "x": 72,
+          "y": 60
         },
         {
           "id": 1558,
-          "x": 36,
+          "x": 48,
           "y": 108
         },
         {
           "id": 1559,
-          "x": 72,
+          "x": 108,
           "y": 72
+        },
+        {
+          "id": 1561,
+          "x": 120,
+          "y": 108
+        },
+        {
+          "id": 1562,
+          "x": 252,
+          "y": 132
+        },
+        {
+          "id": 1563,
+          "x": 276,
+          "y": 96
+        },
+        {
+          "id": 1564,
+          "x": 324,
+          "y": 84
+        },
+        {
+          "id": 1566,
+          "x": 372,
+          "y": 108
+        },
+        {
+          "id": 1567,
+          "x": 396,
+          "y": 156
+        },
+        {
+          "id": 1568,
+          "x": 84,
+          "y": 120
+        },
+        {
+          "id": 1569,
+          "x": 36,
+          "y": 72
+        },
+        {
+          "id": 1570,
+          "x": 444,
+          "y": 312
+        },
+        {
+          "id": 1571,
+          "x": 384,
+          "y": 288
+        },
+        {
+          "id": 1572,
+          "x": 456,
+          "y": 360
         }
       ]
     },
