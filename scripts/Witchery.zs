@@ -135,7 +135,7 @@ mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.1");
 game.setLocalization("Witchery.research_page.OVEN.1", "The witches oven, made infamous in the tale of Hansel and Gretel, is a very practical device for the would-be witch or warlock. While unable to smelt metals, the oven is particularly good at cooking food and making charcoal; cooking about 10% faster than a furnace. The second, and probably more important feature of a witches oven, is that it is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot.");
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.2");
 game.setLocalization("Witchery.research_page.OVEN.2", "Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.");
-mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 25, ignis 25, terra 25", [
+mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 20, ignis 20, terra 20", [
 [<ore:plateSteel>, <ore:plateThaumium>, <ore:plateSteel>],
 [<dreamcraft:item.SteelBars>, <Thaumcraft:blockMetalDevice>, <dreamcraft:item.SteelBars>],
 [<IC2:blockFenceIron>, <IC2:blockMachine:1>, <IC2:blockFenceIron>]]);
@@ -153,7 +153,7 @@ mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.2");
 game.setLocalization("Witchery.research_page.KETTLE.2", "It is important to keep the fire going constantly while the recipe is being prepared, otherwise it will be ruined. Swirls coming from the kettle is a sign all is well, black smoke (and brown liquid) indicates the brew is ruined. When a brew is ruined, the kettle must be emptied with a glass bottle, or just filled with more water, and the whole process repeated. When a brew is complete, the liquid will be the color of the resulting brew and will splutter (in addition to white swirls). Some recipes will require magical energy from a nearby Altar before they are bottled. If the brew is bottled when insufficient energy is available, the brew will be ruined. Black swirls coming from the Kettle is a good sign there is not enough power.");
 mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.3");
 game.setLocalization("Witchery.research_page.KETTLE.3", "A kettle must be within 14 (to 16) blocks of an Altar in order to obtain power from it (it can obtain power only from a single altar).");
-mods.thaumcraft.Arcane.addShaped("KETTLE", <witchery:kettle>, "aer 25, ignis 25, aqua 25, perditio 25", [
+mods.thaumcraft.Arcane.addShaped("KETTLE", <witchery:kettle>, "aer 40, ignis 40, aqua 40, perditio 40", [
 [<ore:craftingToolScrewdriver>, <dreamcraft:item.SteelBars>, <ore:craftingToolHardHammer>],
 [<ore:plateSteel>, <witchery:ingredient:10>, <ore:plateSteel>],
 [<ore:screwThaumium>, <minecraft:cauldron>, <ore:screwThaumium>]]);
@@ -170,7 +170,7 @@ mods.thaumcraft.Research.addPage("ALTAR", "Witchery.research_page.ALTAR.1");
 game.setLocalization("Witchery.research_page.ALTAR.1", "An altar is a focal point to concentrate the magic present in the surrounding area into single usable source of power. Since witchcraft is a method to harness the power of nature, placing an altar in a location with little or no living things will yield very little magic to work with. There is a reason why most witches huts are found deep in dark forests or swamps!<BR>An altar is created by placing six altar blocks in a 2x3 pattern; you will know it is correct when a red cloth appears over the top of the altar.");
 mods.thaumcraft.Research.addPage("ALTAR", "Witchery.research_page.ALTAR.2");
 game.setLocalization("Witchery.research_page.ALTAR.2", "Activating the altar by right-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery or kettle recipe.<BR>The maximum amount of power available is determined by how many natural items are in the vicinity of the altar, dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).");
-mods.thaumcraft.Arcane.addShaped("ALTAR", <witchery:altar> * 2, "terra 10, ignis 10, ordo 10", [
+mods.thaumcraft.Arcane.addShaped("ALTAR", <witchery:altar> * 2, "terra 20, ignis 20, ordo 20", [
 [<witchery:ingredient:32>, <Thaumcraft:blockCosmeticSolid:6>, <witchery:ingredient:31>],
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>],
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>]]);
