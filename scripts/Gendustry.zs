@@ -138,6 +138,7 @@ val CrystalBattery = <IC2:itemBatChargeCrystal>;
 val DTank = <irontank:diamondTank>;
 val Coil = <IC2:itemRecipePart>;
 val ApicultureChest = <Forestry:apicultureChest>;
+val comb = <ore:beeComb>;
 
 
 
@@ -567,6 +568,145 @@ Assembler.addRecipe(<gendustry:ImportCover>, <gregtech:gt.metaitem.01:17052>, <I
 
 // --- Error Sensor Cover
 Assembler.addRecipe(<gendustry:ErrorSensorCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:5>, 200, 7680);
+
+
+
+// --- Ordict Combs ---
+
+
+
+comb.add(<gendustry:HoneyComb:101>);
+comb.add(<gendustry:HoneyComb:1105>);
+comb.add(<gendustry:HoneyComb:1110>);
+comb.add(<gendustry:HoneyComb:1200>);
+comb.add(<gendustry:HoneyComb:408>);
+comb.add(<gendustry:HoneyComb:308>);
+comb.add(<gendustry:HoneyComb:1205>);
+comb.add(<gendustry:HoneyComb:511>);
+comb.add(<gendustry:HoneyComb:614>);
+comb.add(<gendustry:HoneyComb:202>);
+comb.add(<gendustry:HoneyComb:10>);
+comb.add(<gendustry:HoneyComb:500>);
+comb.add(<gendustry:HoneyComb:404>);
+comb.add(<gendustry:HoneyComb:1001>);
+comb.add(<gendustry:HoneyComb:24>);
+comb.add(<gendustry:HoneyComb:301>);
+comb.add(<gendustry:HoneyComb:25>);
+comb.add(<gendustry:HoneyComb:14>);
+comb.add(<gendustry:HoneyComb:504>);
+comb.add(<gendustry:HoneyComb:702>);
+comb.add(<gendustry:HoneyComb:802>);
+comb.add(<gendustry:HoneyComb:20>);
+comb.add(<gendustry:HoneyComb:606>);
+comb.add(<gendustry:HoneyComb:1100>);
+comb.add(<gendustry:HoneyComb:1302>);
+comb.add(<gendustry:HoneyComb:1109>);
+comb.add(<gendustry:HoneyComb:602>);
+comb.add(<gendustry:HoneyComb:411>);
+comb.add(<gendustry:HoneyComb:1201>);
+comb.add(<gendustry:HoneyComb:1104>);
+comb.add(<gendustry:HoneyComb:507>);
+comb.add(<gendustry:HoneyComb:206>);
+comb.add(<gendustry:HoneyComb:307>);
+comb.add(<gendustry:HoneyComb:1206>);
+comb.add(<gendustry:HoneyComb:512>);
+comb.add(<gendustry:HoneyComb:201>);
+comb.add(<gendustry:HoneyComb:102>);
+comb.add(<gendustry:HoneyComb:302>);
+comb.add(<gendustry:HoneyComb:407>);
+comb.add(<gendustry:HoneyComb:21>);
+comb.add(<gendustry:HoneyComb:1210>);
+comb.add(<gendustry:HoneyComb:1106>);
+comb.add(<gendustry:HoneyComb:1111>);
+comb.add(<gendustry:HoneyComb:403>);
+comb.add(<gendustry:HoneyComb:610>);
+comb.add(<gendustry:HoneyComb:901>);
+comb.add(<gendustry:HoneyComb:1207>);
+comb.add(<gendustry:HoneyComb:706>);
+comb.add(<gendustry:HoneyComb:1114>);
+comb.add(<gendustry:HoneyComb:701>);
+comb.add(<gendustry:HoneyComb:13>);
+comb.add(<gendustry:HoneyComb:1002>);
+comb.add(<gendustry:HoneyComb:503>);
+comb.add(<gendustry:HoneyComb:605>);
+comb.add(<gendustry:HoneyComb:1202>);
+comb.add(<gendustry:HoneyComb:205>);
+comb.add(<gendustry:HoneyComb:508>);
+comb.add(<gendustry:HoneyComb:412>);
+comb.add(<gendustry:HoneyComb:1103>);
+comb.add(<gendustry:HoneyComb:1301>);
+comb.add(<gendustry:HoneyComb:17>);
+comb.add(<gendustry:HoneyComb:601>);
+comb.add(<gendustry:HoneyComb:402>);
+comb.add(<gendustry:HoneyComb:22>);
+comb.add(<gendustry:HoneyComb:204>);
+comb.add(<gendustry:HoneyComb:413>);
+comb.add(<gendustry:HoneyComb:12>);
+comb.add(<gendustry:HoneyComb:611>);
+comb.add(<gendustry:HoneyComb:1107>);
+comb.add(<gendustry:HoneyComb:704>);
+comb.add(<gendustry:HoneyComb:604>);
+comb.add(<gendustry:HoneyComb:1209>);
+comb.add(<gendustry:HoneyComb:900>);
+comb.add(<gendustry:HoneyComb:406>);
+comb.add(<gendustry:HoneyComb:509>);
+comb.add(<gendustry:HoneyComb:303>);
+comb.add(<gendustry:HoneyComb:208>);
+comb.add(<gendustry:HoneyComb:103>);
+comb.add(<gendustry:HoneyComb:609>);
+comb.add(<gendustry:HoneyComb:700>);
+comb.add(<gendustry:HoneyComb:1112>);
+comb.add(<gendustry:HoneyComb:608>);
+comb.add(<gendustry:HoneyComb:306>);
+comb.add(<gendustry:HoneyComb:1113>);
+comb.add(<gendustry:HoneyComb:1000>);
+comb.add(<gendustry:HoneyComb:1102>);
+comb.add(<gendustry:HoneyComb:505>);
+comb.add(<gendustry:HoneyComb:1203>);
+comb.add(<gendustry:HoneyComb:1208>);
+comb.add(<gendustry:HoneyComb:209>);
+comb.add(<gendustry:HoneyComb:1003>);
+comb.add(<gendustry:HoneyComb:18>);
+comb.add(<gendustry:HoneyComb:705>);
+comb.add(<gendustry:HoneyComb:707>);
+comb.add(<gendustry:HoneyComb:414>);
+comb.add(<gendustry:HoneyComb:409>);
+comb.add(<gendustry:HoneyComb:310>);
+comb.add(<gendustry:HoneyComb:1300>);
+comb.add(<gendustry:HoneyComb:16>);
+comb.add(<gendustry:HoneyComb:502>);
+comb.add(<gendustry:HoneyComb:703>);
+comb.add(<gendustry:HoneyComb:613>);
+comb.add(<gendustry:HoneyComb:600>);
+comb.add(<gendustry:HoneyComb:11>);
+comb.add(<gendustry:HoneyComb:612>);
+comb.add(<gendustry:HoneyComb:203>);
+comb.add(<gendustry:HoneyComb:1108>);
+comb.add(<gendustry:HoneyComb:304>);
+comb.add(<gendustry:HoneyComb:1101>);
+comb.add(<gendustry:HoneyComb:401>);
+comb.add(<gendustry:HoneyComb:23>);
+comb.add(<gendustry:HoneyComb:510>);
+comb.add(<gendustry:HoneyComb:207>);
+comb.add(<gendustry:HoneyComb:800>);
+comb.add(<gendustry:HoneyComb:300>);
+comb.add(<gendustry:HoneyComb:410>);
+comb.add(<gendustry:HoneyComb:405>);
+comb.add(<gendustry:HoneyComb:19>);
+comb.add(<gendustry:HoneyComb:603>);
+comb.add(<gendustry:HoneyComb:305>);
+comb.add(<gendustry:HoneyComb:801>);
+comb.add(<gendustry:HoneyComb:506>);
+comb.add(<gendustry:HoneyComb:400>);
+comb.add(<gendustry:HoneyComb:415>);
+comb.add(<gendustry:HoneyComb:15>);
+comb.add(<gendustry:HoneyComb:200>);
+comb.add(<gendustry:HoneyComb:1004>);
+comb.add(<gendustry:HoneyComb:501>);
+comb.add(<gendustry:HoneyComb:607>);
+comb.add(<gendustry:HoneyComb:309>);
+comb.add(<gendustry:HoneyComb:1204>);
+comb.add(<gendustry:HoneyComb:100>);
 
 
 
