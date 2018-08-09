@@ -197,7 +197,7 @@ you find it in your resource folder<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics 1.6.5<BR>
 * Craft Tweaker 3.0.12<BR>
-* Crops ++ 1.3.1<BR>
+* Crops ++ 1.3.1a<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2m<BR>
