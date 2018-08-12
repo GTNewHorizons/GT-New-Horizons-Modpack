@@ -937,17 +937,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockWireless>, [
 
 // --- Storage Monitor
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:400>, [
-[Screwdriver, <appliedenergistics2:item.ItemMultiPart:200>, HHammer],
-[CertusScrew, <appliedenergistics2:item.ItemMultiPart:280>, CertusScrew],
-[NQuartzPlate, NQuartzPlate, NQuartzPlate]]);
-// -
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:400>, [
-[Screwdriver, <appliedenergistics2:item.ItemMultiPart:180>, HHammer],
-[CertusScrew, <appliedenergistics2:item.ItemMultiPart:280>, CertusScrew],
-[NQuartzPlate, NQuartzPlate, NQuartzPlate]]);
-// -
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:400>, [
-[Screwdriver, <appliedenergistics2:item.ItemMultiPart:160>, HHammer],
+[Screwdriver, <ore:itemIlluminatedPanel>, HHammer],
 [CertusScrew, <appliedenergistics2:item.ItemMultiPart:280>, CertusScrew],
 [NQuartzPlate, NQuartzPlate, NQuartzPlate]]);
 
