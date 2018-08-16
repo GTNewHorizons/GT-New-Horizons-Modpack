@@ -1331,19 +1331,19 @@
     <LootGroup GroupMetaID="39" GroupName="AE Advanced" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="false">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="40" GroupName="AE Master" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="false">
+    <LootGroup GroupMetaID="40" GroupName="AE Master" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="41" GroupName="Tier 7 LuV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+	<LootGroup GroupMetaID="41" GroupName="Tier 7 LuV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="42" GroupName="Tier 8 ZPM" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+	<LootGroup GroupMetaID="42" GroupName="Tier 8 ZPM" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="43" GroupName="Tier 9 UV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+	<LootGroup GroupMetaID="43" GroupName="Tier 9 UV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="44" GroupName="Tier 10 UHV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+	<LootGroup GroupMetaID="44" GroupName="Tier 10 UHV" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
