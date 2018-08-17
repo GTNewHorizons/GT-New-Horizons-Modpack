@@ -394,7 +394,7 @@
         <Loot Identifier="ecd39158-7db6-409b-b863-758a097df233" ItemName="gregtech:gt.metaitem.01:32614" Amount="4" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="858694c8-387f-46fd-8f1e-4b6daf8bdc9f" ItemName="gregtech:gt.blockmachines:1646" Amount="64" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="fab608eb-e7db-44d7-8aaa-d9c6411fad5e" ItemName="gregtech:gt.blockmachines:5161" Amount="64" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-		<Loot Identifier="9634e48c-9378-42d0-88d4-73c7a1af55d5" ItemName="gregtech:gt.metaitem.01:11316" Amount="16" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9634e48c-9378-42d0-88d4-73c7a1af55d5" ItemName="gregtech:gt.metaitem.01:11316" Amount="16" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="9" GroupName="Magic Novice" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="6f554424-39f4-425a-9c4c-0e2a399e7793" ItemName="ForbiddenMagic:UmbralBush" Amount="1" NBTTag="" Chance="10" LimitedDropCount="2" RandomAmount="false"/>
@@ -1334,16 +1334,42 @@
     <LootGroup GroupMetaID="40" GroupName="AE Master" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="41" GroupName="Tier 7 LuV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="41" GroupName="Tier 7 LuV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="6e551483-7967-4024-affc-36b8acdfa015" ItemName="gregtech:gt.metaitem.01:11471" Amount="32" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c36a0006-f34d-4e8c-b707-0f8d62d44fdc" ItemName="gregtech:gt.metaitem.01:11599" Amount="16" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="31168dd4-4530-4918-ba8b-c2c483f0b5c8" ItemName="gendustry:IndustrialApiary" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="557cfb09-8503-4b95-9f61-595def6de9ff" ItemName="gendustry:Labware" Amount="32" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ce22712b-da28-4155-8e5a-9f5dc26beebf" ItemName="gregtech:gt.metaitem.01:11070" Amount="4" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="17e5b73f-8737-4eb5-bc94-c6ffa2bc64cd" ItemName="gregtech:gt.blockores:129" Amount="32" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cc5bbc6a-6895-438a-aa47-d0762854b3a3" ItemName="gregtech:gt.blockmachines:1135" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6184faee-91a0-4289-9d25-9c16a7e01705" ItemName="gregtech:gt.metaitem.03:32103" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bbb68bb9-9b0a-4586-a791-94ed0bc392f3" ItemName="gregtech:gt.metaitem.03:32104" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="10503cc8-1c7b-4518-b197-42b5025b6367" ItemName="gregtech:gt.metaitem.01:11030" Amount="32" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="26abba78-9935-483d-b01c-2014755db2f5" ItemName="gregtech:gt.blockmachines:1726" Amount="64" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="58511a58-d023-40df-b376-f7a698d5e042" ItemName="gregtech:gt.blockmachines:5181" Amount="64" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d3157164-543e-4043-9309-50cbf8219651" ItemName="gregtech:gt.metaitem.01:32606" Amount="4" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="75628a88-c6ee-4664-bac5-03a01aedb47e" ItemName="gregtech:gt.metaitem.01:32615" Amount="4" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6c951a17-02bd-4780-91b8-c52fc504b7fd" ItemName="TConstruct:heartCanister:6" Amount="1" NBTTag="" Chance="5" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9a989ea3-4851-474b-ba61-6b97423d1a57" ItemName="gregtech:gt.metaitem.01:32713" Amount="4" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b37b9318-c885-456b-8565-9191e0e610f4" ItemName="gregtech:gt.metaitem.01:11314" Amount="32" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c80ee07f-17a5-49fa-97b7-15509e17a792" ItemName="gregtech:gt.metaitem.01:32505" Amount="1" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d65f1215-1745-48ee-98b7-c17b46fe9ce4" ItemName="gregtech:gt.metaitem.01:11084" Amount="16" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e527ba5d-5ce7-4aa5-9f2c-f9b42a1bf9ec" ItemName="gregtech:gt.metaitem.01:11083" Amount="16" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7a2befe5-d0e2-4c44-9c62-d0ae6c76ea46" ItemName="GalacticraftMars:item.itemBasicAsteroids" Amount="4" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d54fa66b-8480-4cb2-91f8-0ea7cedd54e0" ItemName="GalacticraftCore:item.heavyPlating" Amount="12" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a0247300-f18b-4b13-869a-b98320bbd6b8" ItemName="GalacticraftMars:item.null:3" Amount="8" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="381f52c9-a5df-4c73-ae2a-a542ee2e0634" ItemName="dreamcraft:item.HeavyDutyPlateTier4" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4dd85b7d-e511-4a29-acb0-c4d1a1019a0e" ItemName="gregtech:gt.metaitem.03:32088" Amount="4" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="59a8a006-9fcd-438d-bed6-5bd9592b8797" ItemName="gregtech:gt.metaitem.01:32712" Amount="8" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4146a676-62e3-415a-8d2b-4506d112c9ff" ItemName="gregtech:gt.metaitem.01:32720" Amount="8" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="42" GroupName="Tier 8 ZPM" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="42" GroupName="Tier 8 ZPM" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="43" GroupName="Tier 9 UV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-	<LootGroup GroupMetaID="43" GroupName="Tier 9 UV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
-    </LootGroup>
-	<LootGroup GroupMetaID="44" GroupName="Tier 10 UHV" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="44" GroupName="Tier 10 UHV" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
