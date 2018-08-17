@@ -95,6 +95,7 @@ val SteelScrew = <ore:screwSteel>;
 val RedAlloyPlate = <ore:plateRedAlloy>;
 val RedAlloyFoil = <ore:foilRedAlloy>;
 val ElectrumPlate = <ore:plateElectrum>;
+val EuropiumPlate = <ore:plateEuropium>;
 val ElectrumFoil = <ore:foilElectrum>;
 val EnderPearlPlate = <ore:plateEnderPearl>;
 val EnderEyePlate = <ore:plateEnderEye>;
@@ -587,7 +588,7 @@ mods.extraUtils.QED.addShapedRecipe(<AdvancedSolarPanel:BlockMolecularTransforme
 
 // --- Ender Quarry
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
-[EnderCore, LuVFieldgen, EnderCore],
+[EuropiumPlate, LuVFieldgen, EuropiumPlate],
 [EnderPump, DiamondMatrix, EnderPump],
 [EnderCore, AdvMiner, EnderCore]]);
 
