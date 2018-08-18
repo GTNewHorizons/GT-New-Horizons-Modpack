@@ -1124,6 +1124,15 @@ recipes.addShaped(<appliedenergistics2:item.ToolPortableCell>, [
 [<ore:screwTitanium>, <appliedenergistics2:tile.BlockChest>, <ore:screwTitanium>],
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:craftingToolWrench>]]);
  
+// --- Inscriber
+recipes.addShaped(Inscriber,[ 
+[<ore:plateTitanium>, <ore:gemFluix>, <ore:plateTitanium>], 
+[<IC2:itemRecipePart>,<gregtech:gt.blockmachines:604>,<IC2:itemRecipePart>], 
+[<ore:plateTitanium>, <ore:gemFluix>, <ore:plateTitanium>]]);
+
+
+
+
 
 // --- Avaritia Recipes ---
 
