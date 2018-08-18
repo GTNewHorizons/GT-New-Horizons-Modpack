@@ -650,7 +650,7 @@
         <Loot Identifier="ddd754f9-f813-4f8c-a919-a022ec89b0a6" ItemName="Thaumcraft:ItemGolemCore:1" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f603fc8b-61d0-4ca9-8d3d-995b7e9b7950" ItemName="Thaumcraft:ItemGolemCore:2" Amount="2" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="12" GroupName="Magic Grandmaster" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="12" GroupName="Magic Grandmaster" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="false">
         <Loot Identifier="bfa8a5f4-4139-4597-9089-3b7b39eae299" ItemName="Thaumcraft:WandCasting:84" Amount="1" NBTTag="{cap:&quot;void&quot;,rod:&quot;equivalent&quot;}" Chance="15" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="2763f2bb-5d2a-460f-80a8-770b4c16bc4b" ItemName="Thaumcraft:BlockJarNodeItem" Amount="1" NBTTag="{nodetype:0,Aspects:[0:{amount:80,key:&quot;instrumentum&quot;}],display:{Lore:[0:&quot;First hand. Not the second hand crap from the questbook&quot;],Name:&quot;Namikon's totally legit Node&quot;},nodemod:0,nodeid:&quot;0:-312:64:54&quot;}" Chance="15" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="855ab00e-4a15-4041-8800-843ab46e4c0b" ItemName="Thaumcraft:ItemResource:16" Amount="16" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
