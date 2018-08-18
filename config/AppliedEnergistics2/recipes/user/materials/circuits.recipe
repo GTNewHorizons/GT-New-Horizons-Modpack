@@ -13,3 +13,11 @@ inscribe=
 inscribe=
     oredictionary:itemSilicon ae2:ItemMaterial.SiliconPress
     -> ae2:ItemMaterial.SiliconPrint
+
+inscribe=
+	oredictionary:plateDiamond ae2:ItemMaterial.EngProcessorPress
+	-> ae2:ItemMaterial.EngProcessorPrint
+
+inscribe=
+	oredictionary:plateGold ae2:ItemMaterial.LogicProcessorPress
+	-> ae2:ItemMaterial.LogicProcessorPrint
