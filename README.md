@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.4.7 is out 06.08.2018
+Version 2.0.4.9 is out xx.08.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -226,11 +226,11 @@ you find it in your resource folder<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
 * Gregtech 5.09.32.32<BR>
-* GT Scanner Mod 1.5.0a<BR>
+* GT Scanner Mod 1.5.1<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.33<BR>
-* GT++ 1.7.03.05-gtnh<BR>
-* GTNH TC Wands 1.0<BR>
+* GT New Horizons Core Mod 1.5.35<BR>
+* GT++ 1.7.03.08<BR>
+* GTNH TC Wands 1.0.2<BR>
 * GTTweaker 1.7.0<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
@@ -303,7 +303,7 @@ you find it in your resource folder<BR>
 * Super Tic 1.2<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.6<BR>
+* Tec Tech 3.6.6a<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
