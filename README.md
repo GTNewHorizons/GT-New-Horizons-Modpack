@@ -225,11 +225,11 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.32<BR>
+* Gregtech 5.09.32.34<BR>
 * GT Scanner Mod 1.5.1<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.35<BR>
-* GT++ 1.7.03.08<BR>
+* GT New Horizons Core Mod 1.5.36<BR>
+* GT++ 1.7.02.09<BR>
 * GTNH TC Wands 1.0.2<BR>
 * GTTweaker 1.7.0<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
