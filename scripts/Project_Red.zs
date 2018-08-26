@@ -543,7 +543,7 @@ recipes.addShaped(<ProjRed|Exploration:projectred.exploration.peridotleggings>, 
 // --- Null Logic Routing Chip
 recipes.addShaped(<ProjRed|Core:projectred.core.part:44>, [
 [<ore:wireGt01Gold>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>],
-[<ore:wireGt01Gold>, <ore:circuitBasic>, <ore:wireGt01Gold>],
+[<ore:wireGt01Gold>, <ore:circuitPrimitive>, <ore:wireGt01Gold>],
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
 
 // --- RX Upgarde
