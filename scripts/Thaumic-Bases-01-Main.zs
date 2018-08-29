@@ -90,6 +90,7 @@ recipes.removeShaped(<thaumicbases:crystalSlab:*>);
 recipes.removeShaped(<thaumicbases:genericSlab:*>);
 
 
+
 // --- Adding Recipes ---
 
 // --- Thaumic Relocator
@@ -358,6 +359,9 @@ Infusion.addRecipe("TB.NodeFoci.Taint",<Thaumcraft:blockMetalDevice:12>,
 
 // --- Salis douplication
 Crucible.addRecipe("TB.SM", <Thaumcraft:ItemResource:14> * 2, <Thaumcraft:ItemResource:14>, "aer 4, aqua 4, ignis 4, praecantatio 4, ordo 4, perditio 4, terra 4");
+
+// --- Amber
+Crucible.addRecipe("TB.Amber", <Thaumcraft:ItemResource:6>, <minecraft:sapling:1>, "vinculum 4");
 
 
 
