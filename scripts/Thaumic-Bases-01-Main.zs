@@ -97,11 +97,15 @@ Arcane.addShaped("TB.Relocator", <thaumicbases:relocator:0>, "aer 20, terra 10, 
  [plankGreatwood, <ore:plateInfusedAir>, plankGreatwood],
  [nitor, <ore:rotorThaumium>, nitor],
  [plankGreatwood, <ore:plateInfusedWater>, plankGreatwood]]);
+// -  
+recipes.addShapeless(<thaumicbases:relocator>, [nitor, <thaumicbases:relocator:6>, nitor]);
 
 Arcane.addShaped("TB.Relocator", <thaumicbases:relocator:6> ,"aer 20, terra 10, aqua 5", [
  [plankGreatwood, <ore:plateInfusedWater>, plankGreatwood],
  [alumentum, <ore:rotorThaumium>, alumentum],
  [plankGreatwood, <ore:plateInfusedAir>, plankGreatwood]]);
+// - 
+recipes.addShapeless(<thaumicbases:relocator:6>, [alumentum, <thaumicbases:relocator>, alumentum]);
  
 // --- Advanced Alchemical Furnace 
 Infusion.addRecipe("TB.AdvAlc",<Thaumcraft:blockStoneDevice:0>,
