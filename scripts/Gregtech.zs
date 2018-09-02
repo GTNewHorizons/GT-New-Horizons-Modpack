@@ -1384,14 +1384,19 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 <gregtech:gt.metaitem.03:32088>.addTooltip(format.aqua("ZPM-tier"));
 <gregtech:gt.metaitem.03:32090>.addTooltip(format.blue("ZPM-tier"));
 <gregtech:gt.metaitem.03:32093>.addTooltip(format.darkPurple("ZPM-tier"));
+<gregtech:gt.metaitem.03:32097>.addTooltip(format.green("ZPM-tier"));
 
 // --- UV Tier
 <gregtech:gt.metaitem.03:32091>.addTooltip(format.blue("UV-tier"));
 <gregtech:gt.metaitem.03:32094>.addTooltip(format.darkPurple("UV-tier"));
+<gregtech:gt.metaitem.03:32098>.addTooltip(format.aqua("UV-tier"));
 
 // --- UHV Tier
 <gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV-tier"));
+<gregtech:gt.metaitem.03:32099>.addTooltip(format.green("UHV-tier"));
 
+// --- UEV Tier
+<gregtech:gt.metaitem.03:32120>.addTooltip(format.green("UEV-tier"));
 
 
 // --- Batteries Tooltips for Tiers ---
