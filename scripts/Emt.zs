@@ -1,5 +1,5 @@
 // --- Created by DreamMasterXXL ---
-
+// --- Modified by bartimaeusnek ---
 
 
 // --- Importing Stuff ---
@@ -190,7 +190,6 @@ mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTMachines:*>);
 
 
 // --- Add Recipes ---
-
 
 
 // --- Glue
@@ -1094,7 +1093,7 @@ mods.thaumcraft.Research.setConcealed("PotentiaGenerator", true);
 game.setLocalization("tc.research_name.PotentiaGenerator", "Potentia Generator");
 game.setLocalization("tc.research_text.PotentiaGenerator", "Harnessing the power-producing potential of Essentia");
 mods.thaumcraft.Research.addPage("PotentiaGenerator", "tc.research_page.PotentiaGenerator");
-game.setLocalization("tc.research_page.PotentiaGenerator", "After much studying and research, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 4 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing Essentia with EU, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering. <BR><BR>All Essentia Generators give out Gregtech EU, so no transformers are needed!");
+game.setLocalization("tc.research_page.PotentiaGenerator", "After much studying and research, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 4 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing Essentia with EU, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering. <BR><BR>All Essentia Generators give out Gregtech EU, so no transformers are needed, you can make a book containing Information about Essentia Burn Values by putting a Book, a LV circuit and any shard in an MV Assembler");
 mods.thaumcraft.Infusion.addRecipe("PotentiaGenerator", <IC2:blockGenerator:7>,
 [<Thaumcraft:FocusTrade>, <gregtech:gt.metaitem.01:32681>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32601>, <IC2:blockElectric:7>, <gregtech:gt.blockmachines:22>, <Thaumcraft:blockJar>, <IC2:blockMachine:12>, <IC2:blockElectric:7>, <gregtech:gt.metaitem.01:32601>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32681>], 
 "potentia 48, permutatio 32, machina 16, praecantatio 32, metallum 32", <EMT:EssentiaGenerators>, 6);
@@ -1176,6 +1175,75 @@ mods.thaumcraft.Infusion.addRecipe("LucrumGenerator", <EMT:EssentiaGenerators>,
 "permutatio 128, lucrum 256, praecantatio 32, nebrisum 16", <EMT:EssentiaGenerators:5>, 10);
 mods.thaumcraft.Research.addInfusionPage("LucrumGenerator", <EMT:EssentiaGenerators:5>);
 mods.thaumcraft.Warp.addToResearch("LucrumGenerator", 5);
+
+
+// --- Essentia Filler
+mods.thaumcraft.Research.addResearch("EssentiaFiller", "EMT", "iter 12, permutatio 9, aqua 6, praecantatio 3", -4, 10, 3, <EMT:EMTMachines:2>);
+mods.thaumcraft.Research.addPrereq("EssentiaFiller", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("EssentiaFiller", "LucrumGenerator", false);
+mods.thaumcraft.Research.setConcealed("EssentiaFiller", true);
+game.setLocalization("tc.research_name.EssentiaFiller", "Essentia Filler");
+game.setLocalization("tc.research_text.EssentiaFiller", "Fill her up!");
+mods.thaumcraft.Research.addPage("EssentiaFiller", "tc.research_page.EssentiaFiller");
+game.setLocalization("tc.research_page.EssentiaFiller", "It's been a long time since you discovered the flow of Essentia, now you found a way to move essentia into Essentia Hatches.");
+mods.thaumcraft.Arcane.addShaped("EssentiaFiller", <EMT:EMTMachines:2>, "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<ore:plateIridium>, <ore:pipeTinyNetherStar>, <ore:plateIridium>],
+[<ore:pipeTinyNetherStar>, <GalacticraftCore:tile.fuelLoader>, <ore:pipeTinyNetherStar>],
+[<ore:plateIridium>, <ore:pipeTinyNetherStar>, <ore:plateIridium>]]);
+mods.thaumcraft.Research.addArcanePage("EssentiaFiller", <EMT:EMTMachines:2>);
+
+// --- Large Essentia Generator
+mods.thaumcraft.Research.addResearch("LargeEssentiaGenerator", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4, 12, 3, <gregtech:gt.blockmachines:13000>);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "EssentiaFiller", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "LucrumGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "PotentiaGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "AerGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "IgnisGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "AuramGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "ArborGenerator", false);
+mods.thaumcraft.Research.setConcealed("LargeEssentiaGenerator", true);
+game.setLocalization("tc.research_name.LargeEssentiaGenerator", "Large Essentia Generator");
+game.setLocalization("tc.research_text.LargeEssentiaGenerator", "Burn everything");
+mods.thaumcraft.Research.addPage("LargeEssentiaGenerator", "tc.research_page.LargeEssentiaGenerator");
+game.setLocalization("tc.research_page.LargeEssentiaGenerator", "This must be it. All your efforts to making the Essentia Generators finally payed of. You managed to make a shematic for a reactor like structure that will allow you to create Energy out of almost anything. The only remaining problems are the Chamber and the Walls of this Structure.");
+mods.thaumcraft.Infusion.addRecipe("LargeEssentiaGenerator", <IC2:blockGenerator:5>,
+[<gregtech:gt.blockmachines:1191>,<EMT:EssentiaGenerators>, <EMT:EssentiaGenerators:1>, <EMT:EssentiaGenerators:2>,<gregtech:gt.blockmachines:1191>, <EMT:EssentiaGenerators:3>, <EMT:EssentiaGenerators:4>, <EMT:EssentiaGenerators:5>], 
+"permutatio 1024, praecantatio 512, lucrum 256, radio 128, nebrisum 64, terminus 32", <gregtech:gt.blockmachines:13000>, 10);
+mods.thaumcraft.Research.addInfusionPage("LargeEssentiaGenerator", <gregtech:gt.blockmachines:13000>);
+mods.thaumcraft.Warp.addToResearch("LargeEssentiaGenerator", 10);
+
+// --- Essentia Diffusion Cells
+mods.thaumcraft.Research.addResearch("EssentiaDiffusionCells", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -2, 14, 3, <EMT:EMT_GTBLOCK_CASEING:1>);
+mods.thaumcraft.Research.addPrereq("EssentiaDiffusionCells", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("EssentiaDiffusionCells", "LargeEssentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("EssentiaDiffusionCells", true);
+game.setLocalization("tc.research_name.EssentiaDiffusionCells", "Essentia Diffusion Cells");
+game.setLocalization("tc.research_text.EssentiaDiffusionCells", "Take them apart");
+mods.thaumcraft.Research.addPage("EssentiaDiffusionCells", "tc.research_page.EssentiaDiffusionCells");
+game.setLocalization("tc.research_page.EssentiaDiffusionCells", "The inner chamber of your Large Essentia Generator need to widstand the highest mechanical, and magical pressure. It also needs a special catalyst that will activate the Essentia, but your efforts with a Primordial Pearl have failed, they just weren't strong enough...");
+mods.thaumcraft.Infusion.addRecipe("EssentiaDiffusionCells", <EMT:EMT_GTBLOCK_CASEING:5>,
+[<Avaritia:big_pearl>,<gregtech:gt.metaitem.02:19083>, <gregtech:gt.metaitem.02:19083>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>, <thaumicenergistics:material>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19101>, <gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.01:32684>,<gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>, <thaumicenergistics:material>,<gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19083>, <gregtech:gt.metaitem.02:19083>], 
+"perditio 64, permutatio 64, praecantatio 64, nebrisum 64, radio 64", <EMT:EMT_GTBLOCK_CASEING:1>, 10);
+mods.thaumcraft.Research.addInfusionPage("EssentiaDiffusionCells", <EMT:EMT_GTBLOCK_CASEING:1>);
+mods.thaumcraft.Warp.addToResearch("EssentiaDiffusionCells", 10);
+
+// --- Magic Containing Casings
+mods.thaumcraft.Research.addResearch("MagicContainingCasings", "EMT", "tutamen 32,nebrisum 12, ordo 9, tempus 6, praecantatio 3", -6, 14, 3,  <EMT:EMT_GTBLOCK_CASEING>);
+mods.thaumcraft.Research.addPrereq("MagicContainingCasings", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("MagicContainingCasings", "LargeEssentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("MagicContainingCasings", true);
+game.setLocalization("tc.research_name.MagicContainingCasings", "Magic Containing Casings");
+game.setLocalization("tc.research_text.MagicContainingCasings", "Keeping the Magic inside");
+mods.thaumcraft.Research.addPage("MagicContainingCasings", "tc.research_page.MagicContainingCasings");
+game.setLocalization("tc.research_page.MagicContainingCasings", "The outer layer of your Large Essentia Generator needs to keep the Essential Radiation in place, but needs to be cooled and aswell. The only solution you found in this topic are Force-Fields.");
+mods.thaumcraft.Infusion.addRecipe("MagicContainingCasings", <EMT:EMT_GTBLOCK_CASEING:4>,
+[<gregtech:gt.metaitem.01:32674>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<gregtech:gt.metaitem.01:32674>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>], 
+"ordo 64, tempus 64, praecantatio 64, nebrisum 64, tutamen 512", <EMT:EMT_GTBLOCK_CASEING>, 10);
+mods.thaumcraft.Research.addInfusionPage("MagicContainingCasings", <EMT:EMT_GTBLOCK_CASEING>);
+mods.thaumcraft.Warp.addToResearch("MagicContainingCasings", 10);
+
+
 
 // --- Industrial Wand Charging Station
 mods.thaumcraft.Research.addResearch("IndustrialWandChargingStation", "EMT", "permutatio 15, potentia 12, fabrico 9, praecantatio 6, lucrum 3", -6, 2, 3, <EMT:EMTMachines>);
