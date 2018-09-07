@@ -1109,7 +1109,8 @@ FormingPress.addRecipe(<dreamcraft:item.MoldBoots>, <gregtech:gt.metaitem.01:323
 // --- Extruder Shape Boat
 FormingPress.addRecipe(<dreamcraft:item.ExtruderShapeBoat>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.ExtruderShapeBoat> * 0, 200, 256);
 
-
+// --- Blank Coin
+FormingPress.addRecipe(<dreamcraft:item.CoinBlank>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:32304> * 0, 200, 30);
 
 
 
