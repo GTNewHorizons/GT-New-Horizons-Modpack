@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.4.9 is out 26.08.2018
+Version 2.0.5.0 is out 10.09.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -160,7 +160,7 @@ you find it in your resource folder<BR>
 ## Modlist - NewHorizons<BR>
 
 * Advanced Solar Panels 3.5.1a<BR>
-* Adventure Backpack 0.9h9<BR>
+* Adventure Backpack 0.9h10<BR>
 * AE2 Stuff 0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU 1.2.3.a<BR>
@@ -201,7 +201,7 @@ you find it in your resource folder<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2m<BR>
-* Electro Magic Tools 1.2.7.1a<BR>
+* Electro Magic Tools 1.2.7.2<BR>
 * Ender IO 2.3.0.432<BR>
 * Ender Storage 1.4.7.38<BR>
 * Ender Zoo 1.0.15.32<BR>
@@ -225,12 +225,12 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.34<BR>
-* GT Scanner Mod 1.5.1<BR>
+* Gregtech 5.09.32.36<BR>
+* GT Scanner Mod 1.5.3<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.36<BR>
+* GT New Horizons Core Mod 1.5.39<BR>
 * GT++ 1.7.02.09<BR>
-* GTNH TC Wands 1.0.2<BR>
+* GTNH TC Wands 1.0.4<BR>
 * GTTweaker 1.7.0<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
