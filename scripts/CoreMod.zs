@@ -124,6 +124,12 @@ recipes.addShaped(<dreamcraft:item.MoldFormBottle>, [
 [null, BlankCast, null],
 [null, File, null]]);
 
+// --- Coinage Mold
+recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, WireCutter, null]]);	
+
 // --- Ingot Mold
 recipes.addShaped(<dreamcraft:item.MoldFormIngot>, [
 [null, Hammer, null],
