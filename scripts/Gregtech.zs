@@ -54,10 +54,6 @@ var plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
 var plateAluminium = <gregtech:gt.metaitem.01:17019>;
 var shutterModule = <gregtech:gt.metaitem.01:32749>;
 
-val BlankCast = <TConstruct:blankPattern:1>;
-val File = <ore:craftingToolFile>;
-val WireCutter = <ore:craftingToolWireCutter>;
-
 
 
 // ---Remove Recipes ---
@@ -862,12 +858,6 @@ recipes.addShaped(<gregtech:gt.blockgranites:13>, [
 [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
 [<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:11>, <BiomesOPlenty:moss>],
 [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
-
-// --- Coinage Mold
-recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
-[null, null, null],
-[null, BlankCast, null],
-[File, WireCutter, null]]);	
 
 
 
