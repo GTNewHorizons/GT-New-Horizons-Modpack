@@ -15892,6 +15892,15 @@
       <itemStack oreDictionary="foodCornmeal" chance="0.5" />
     </output>
   </recipe>
+  
+    <recipe name="WroughtIronIngot" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="ingotWroughtIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustWroughtIron" number="1" />
+      </output>
+    </recipe>
 
 </recipeGroup>
 
