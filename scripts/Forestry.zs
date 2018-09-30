@@ -1367,10 +1367,10 @@ mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 250,
 null, <Forestry:frameImpregnated>);
 
 // --- Proven Frame
-mods.thaumcraft.Research.addResearch("PROVENFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", -1, 6, 4, <Forestry:frameProven>);
+mods.thaumcraft.Research.addResearch("PROVENFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", 7, 0, 4, <Forestry:frameProven>);
 game.setLocalization("tc.research_name.PROVENFRAME", "Proven Frame");
 game.setLocalization("tc.research_text.PROVENFRAME", "[FR] Better than Impregnated Frames");
-mods.thaumcraft.Research.addPrereq("PROVENFRAME", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addPrereq("PROVENFRAME", "MB_EssenceArmor", false);
 mods.thaumcraft.Research.setConcealed("PROVENFRAME", true);
 mods.thaumcraft.Research.addPage("PROVENFRAME", "Forestry.research_page.PROVENFRAME");
 game.setLocalization("Forestry.research_page.PROVENFRAME", "The Proven Frame is an item used in an Apiary. Each frame doubles the bees productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the Proven Frame has the longest durability.<BR> Proven Frames are normally only obtainable through trading with an Apiarist Villager. The Villager will trade six Proven Frames for one Emerald.<BR> Now you find a magical way put different Bee products and infuse a impregnated Frame to get a Proven Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");

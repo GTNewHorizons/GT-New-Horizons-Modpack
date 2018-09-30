@@ -178,7 +178,7 @@ recipes.addShaped(<MagicBees:magnet>, [
 [<ore:screwSteelMagnetic>, <ore:gemExquisiteDiamond>, <ore:craftingToolScrewdriver>]]);
 
 // --- Magic Apiary
-mods.thaumcraft.Research.addResearch("MAGICAPIARY", "MAGICBEES", "praecantatio 15, sano 12, ignis 9, lucrum 6", 3, 5, 4, <MagicBees:magicApiary>);
+mods.thaumcraft.Research.addResearch("MAGICAPIARY", "MAGICBEES", "praecantatio 15, sano 12, ignis 9, lucrum 6", 1, 7, 4, <MagicBees:magicApiary>);
 game.setLocalization("tc.research_name.MAGICAPIARY", "Magic Apiary");
 game.setLocalization("tc.research_text.MAGICAPIARY", "[MB] Magical Apiary.");
 mods.thaumcraft.Research.addPrereq("MAGICAPIARY", "MB_DimensionalSingularity", false);
@@ -193,7 +193,7 @@ mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>)
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
 
 // --- Vis Apiary Booster
-mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -5, 5);
+mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -3, 7);
 mods.thaumcraft.Research.setRound("MB_VisAuraProvider", true);
 mods.thaumcraft.Research.addPrereq("MB_VisAuraProvider", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.setAspects("MB_VisAuraProvider", "lucrum 15, metallum 12, vitreus 12, ordo 9, motus 6, machina 3");
@@ -273,6 +273,7 @@ mods.thaumcraft.Research.setAspects("MB_DimensionalSingularity", "perditio 15, p
 mods.thaumcraft.Research.setComplexity("MB_DimensionalSingularity", 3);
 
 // --- Essence of Scornful Oblivion
+mods.thaumcraft.Research.moveResearch("MB_EssenceOblivion", "MAGICBEES", -7, 4);
 mods.thaumcraft.Research.clearPages("MB_EssenceOblivion");
 mods.thaumcraft.Research.addPage("MB_EssenceOblivion", "tc.research_page.MB_EssenceOblivion.1");
 mods.thaumcraft.Infusion.addRecipe("MB_EssenceOblivion", <minecraft:dragon_egg>, [<MagicBees:miscResources:17>, <MagicBees:miscResources:17>, <MagicBees:miscResources:17>],  " alienis 100, praecantatio 100, lucrum 75, bestia 75", <MagicBees:miscResources:11>, 8);
@@ -282,7 +283,6 @@ mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 3);
 
 // --- Magic Frame
 mods.thaumcraft.Research.moveResearch("MB_FrameMagic", "MAGICBEES", -4, 0);
-mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "MB_Root", false);
 mods.thaumcraft.Research.setConcealed("MB_FrameMagic", true);
 mods.thaumcraft.Research.clearPages("MB_FrameMagic");
@@ -301,7 +301,6 @@ game.setLocalization("tc.research_name.GENTLEFRAME", "Gentle Frame");
 game.setLocalization("tc.research_text.GENTLEFRAME", "[MB] Magic Living Frame");
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_EssenceLife");
-mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("GENTLEFRAME", true);
 mods.thaumcraft.Research.addPage("GENTLEFRAME", "MagicBees.research_page.GENTLEFRAME");
 game.setLocalization("MagicBees.research_page.GENTLEFRAME", "The Gentle Frame is an Item used in an Apiary, which increases a Queen's lifespan and production at the cost of a slightly lower mutation rate. It has a durability of 200, which is slightly shorter than average. The Gentle Frame increases a bee's lifespan by 50% and its productivity by 40%. Its mutation rate is lowered by 30%, leaving it at 70% of its initial mutation rate. With each durability use/bee cycle, the Resilient Frame will deplete the nearby Aura by one point. Additionally, Sano and Victus Flux will be released into the Aura. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
@@ -317,7 +316,6 @@ game.setLocalization("tc.research_name.RESILIENTFRAME", "Resilient Frame");
 game.setLocalization("tc.research_text.RESILIENTFRAME", "[MB] Magic Production Frame");
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_EssenceArmor");
-mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("RESILIENTFRAME", true);
 mods.thaumcraft.Research.addPage("RESILIENTFRAME", "MagicBees.research_page.RESILIENTFRAME");
 game.setLocalization("MagicBees.research_page.RESILIENTFRAME", "The Resilient Frame is an Item used in an Apiary, which doubles the bee's productivity. It has a durability of 840, making it the most durable frame available. The Resilient Frame is the longer-lasting counterpart to the Magic Frame. With each durability use/bee cycle, the Resilient Frame will deplete the nearby Aura by two points. Additionally, Tutamen Flux will be released into the Aura. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
@@ -333,7 +331,6 @@ game.setLocalization("tc.research_name.NECROTICFRAME", "Necrotic Frame");
 game.setLocalization("tc.research_text.NECROTICFRAME", "[MB] Magic Killing Frame");
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_EssenceDeath");
-mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("NECROTICFRAME", true);
 mods.thaumcraft.Research.addPage("NECROTICFRAME", "MagicBees.research_page.NECROTICFRAME");
 game.setLocalization("MagicBees.research_page.NECROTICFRAME", "The Necrotic Frame is an Item used in an Apiary, which drastically decreases a Queen's lifespan and productivity. It has a durability of 270. The Necrotic Frame decreases a bee's lifespan to only 30% and its productivity to 75%. With each durability use/bee cycle, the Necrotic Frame will deplete the nearby Aura by one point. Additionally, a significant amount of Mortuus and Venenum Flux will be released into the aura. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
@@ -349,7 +346,6 @@ game.setLocalization("tc.research_name.METABOLICFRAME", "Metabolic Frame");
 game.setLocalization("tc.research_text.METABOLICFRAME", "[MB] Magic Drug Frame");
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_EssenceUnstable");
-mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("METABOLICFRAME", true);
 mods.thaumcraft.Research.addPage("METABOLICFRAME", "MagicBees.research_page.METABOLICFRAME");
 game.setLocalization("MagicBees.research_page.METABOLICFRAME", "The Metabolic Frame is an Item used in an Apiary, which drastically increases a bee's mutation rate as well as a slight increase in it's production. It has a durability of 130. The Metabolic Frame increases the mutation rate by 80% and its production by 20%.");
@@ -365,7 +361,6 @@ game.setLocalization("tc.research_name.TEMPORALFRAME", "Temporal Frame");
 game.setLocalization("tc.research_text.TEMPORALFRAME", "[MB] Magic Time Frame");
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_EssenceTime");
-mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("TEMPORALFRAME", true);
 mods.thaumcraft.Research.addPage("TEMPORALFRAME", "MagicBees.research_page.TEMPORALFRAME");
 game.setLocalization("MagicBees.research_page.TEMPORALFRAME", "The Temporal Frame is an Item used in an Apiary, which drastically increases a Queen's lifespan to 150%. It has a durability of 300. Out of all Frames, the Temporal Frame gives the highest lifespan increase. With each durability use/bee cycle, the Temporal Frame will deplete the nearby Aura by one point. However, a significant amount of Tempus Flux will be released into the aura. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
@@ -418,11 +413,10 @@ mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 12, terra 9, aer 6");
 mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
 
 // --- Enchanted Earth
-mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -2, 2, <MagicBees:magicbees.enchantedEarth>);
+mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -3, 2, <MagicBees:magicbees.enchantedEarth>);
 game.setLocalization("tc.research_name.ENCHANTEDEARTH", "Enchanted Earth");
 game.setLocalization("tc.research_text.ENCHANTEDEARTH", "[MC] Magical Dirt");
 mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "MB_EssenceLife", false);
-mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "INFUSION");
 mods.thaumcraft.Research.setConcealed("ENCHANTEDEARTH", true);
 mods.thaumcraft.Research.addPage("ENCHANTEDEARTH", "MagicBees.research_page.ENCHANTEDEARTH");
 game.setLocalization("MagicBees.research_page.ENCHANTEDEARTH", "Enchanted Earth makes plants and trees grow a bit faster in a 3x3 area around it.");

@@ -124,12 +124,6 @@ recipes.addShaped(<dreamcraft:item.MoldFormBottle>, [
 [null, BlankCast, null],
 [null, File, null]]);
 
-// --- Coinage Mold
-recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
-[null, null, null],
-[null, BlankCast, null],
-[File, WireCutter, null]]);	
-
 // --- Ingot Mold
 recipes.addShaped(<dreamcraft:item.MoldFormIngot>, [
 [null, Hammer, null],
@@ -1933,7 +1927,7 @@ mods.thaumcraft.Research.addInfusionPage("BEACON", <minecraft:beacon>);
 mods.thaumcraft.Warp.addToResearch("BEACON", 2);
 
 // --- Dragon Egg
-mods.thaumcraft.Research.addResearch("DRAGONEGG", "MAGICBEES", "alienis 15, praecantatio 12, victus 9, bestia 6", 4, 4, 4, <minecraft:dragon_egg>);
+mods.thaumcraft.Research.addResearch("DRAGONEGG", "MAGICBEES", "alienis 15, praecantatio 12, victus 9, bestia 6", 2, 5, 4, <minecraft:dragon_egg>);
 game.setLocalization("tc.research_name.DRAGONEGG", "Dragon Egg");
 game.setLocalization("tc.research_text.DRAGONEGG", "[MC] Dragon Egg duplication");
 mods.thaumcraft.Research.addPrereq("DRAGONEGG", "MB_DimensionalSingularity", false);
