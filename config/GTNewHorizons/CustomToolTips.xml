@@ -296,29 +296,27 @@
 	<ToolTip ItemName="gendustry:HoneyComb:1302" ToolTip="§4Forestry can't process it"/>
 	
 //GT Bee Combs
-    <ToolTip ItemName="gregtech:gt.comb:4" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:5" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:6" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:9" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:10" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:7" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:8" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:11" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:12" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:13" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:14" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:15" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:16" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:17" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:18" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:19" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:21" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:23" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:24" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:25" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:26" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:27" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:28" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:29" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:30" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:32" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:34" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:35" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:36" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:37" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:38" ToolTip="§4Forestry can't process it"/>
@@ -328,11 +326,11 @@
     <ToolTip ItemName="gregtech:gt.comb:42" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:43" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:44" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:50" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:51" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:45" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:46" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:52" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:53" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:54" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:55" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:56" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:57" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:58" ToolTip="§4Forestry can't process it"/>
@@ -379,7 +377,6 @@
     <ToolTip ItemName="gregtech:gt.comb:99" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:100" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:101" ToolTip="§4Forestry can't process it"/>
-    <ToolTip ItemName="gregtech:gt.comb:102" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:103" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:104" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:105" ToolTip="§4Forestry can't process it"/>
@@ -393,6 +390,8 @@
     <ToolTip ItemName="gregtech:gt.comb:113" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:114" ToolTip="§4Forestry can't process it"/>
     <ToolTip ItemName="gregtech:gt.comb:115" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:116" ToolTip="§4Forestry can't process it"/>
+    <ToolTip ItemName="gregtech:gt.comb:117" ToolTip="§4Forestry can't process it"/>
 
 
 //BQ Command Blocks
