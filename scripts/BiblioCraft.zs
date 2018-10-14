@@ -839,6 +839,12 @@ recipes.remove(<BiblioCraft:item.tapeMeasure>);
 // --- Clipboard
 recipes.remove(<BiblioCraft:item.BiblioClipboard>);
 
+// --- Sloted Book
+recipes.remove(<BiblioCraft:item.SlottedBook>);
+
+// --- Atlas
+recipes.remove(<BiblioCraft:item.AtlasBook>);
+
 
 
 
@@ -910,6 +916,12 @@ recipes.addShaped(<BiblioCraft:BiblioPaneler:6>, [
 [<ore:plateIron>, <ore:craftingToolSaw>, <ore:plateIron>],
 [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>],
 [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+// --- Atlas
+recipes.addShaped(<BiblioCraft:item.AtlasBook>, [
+[<ore:platePaper>, <BiblioCraft:item.BiblioMapTool>, <ore:platePaper>],
+[<ore:platePaper>, <ore:craftingBook>, <ore:platePaper>],
+[<ore:platePaper>, <ore:paperMap>, <ore:platePaper>]]);
 
 // Type Writers
 for i, color in color16 {
