@@ -1533,4 +1533,84 @@
     <LootGroup GroupMetaID="44" GroupName="Tier 10 UHV" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
+    <LootGroup GroupMetaID="45" GroupName="Computer Floppys" Rarity="0" MinItems="1" MaxItems="1" CombineTrashGroup="false">
+        <Loot Identifier="5cec0932-72e8-46a8-a34a-fe2c894f56bf" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;plan9k&quot;},oc:color:1,display:{Name:&quot;Plan9k (Operating System)&quot;},oc:lootFactory:&quot;OpenComputers:plan9k&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8ba52fee-e737-49b0-a38e-183ca8b8cc54" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;SecureOS&quot;},oc:color:1,oc:lootFactory:&quot;opensecurity:SecureOS&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="016a832d-defc-459c-b9ec-7c2801bf4ee5" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;network&quot;},oc:color:10,display:{Name:&quot;Network (Network Stack)&quot;},oc:lootFactory:&quot;OpenComputers:network&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7e1809e2-20d8-474e-92cf-f53e9d685b46" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;dig&quot;},oc:color:3,display:{Name:&quot;Digger&quot;},oc:lootFactory:&quot;OpenComputers:dig&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f6359334-0076-42c7-8177-f1fed4c965fb" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;oppm&quot;},oc:color:6,display:{Name:&quot;OPPM (Package Manager)&quot;},oc:lootFactory:&quot;OpenComputers:oppm&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1107ce93-74ff-448a-a625-a2f4f01b8373" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;openloader&quot;},oc:color:13,display:{Name:&quot;OpenLoader (Boot Loader)&quot;},oc:lootFactory:&quot;OpenComputers:openloader&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ea31d625-e803-41ac-ab03-88f234de4eb7" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;irc&quot;},oc:color:12,display:{Name:&quot;OpenIRC (IRC Client)&quot;},oc:lootFactory:&quot;OpenComputers:irc&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="022cddfa-4ea8-4b74-a28d-ca76c0d863be" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;explode&quot;},oc:color:1,oc:lootFactory:&quot;computronics:explode&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8b4743b6-af4a-40ac-8c56-c0d773e791c8" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;openos&quot;},oc:color:2,display:{Name:&quot;OpenOS (Operating System)&quot;},oc:lootFactory:&quot;OpenComputers:openos&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8050d594-e98c-4038-8b4c-d9b66931ed45" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;maze&quot;},oc:color:14,display:{Name:&quot;Mazer&quot;},oc:lootFactory:&quot;OpenComputers:maze&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="00f10e24-f3ac-4bf0-84f7-ac9095680251" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;builder&quot;},oc:color:11,display:{Name:&quot;Builder&quot;},oc:lootFactory:&quot;OpenComputers:builder&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="df254eb0-4f47-4cce-b636-3e6513b30edd" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;generator&quot;},oc:color:5,display:{Name:&quot;Generator Upgrade Software&quot;},oc:lootFactory:&quot;OpenComputers:generator&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8900d7e3-60c2-484b-a10a-0d8ae5579d33" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;tape&quot;},oc:color:15,oc:lootFactory:&quot;computronics:tape&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7f3a1abd-cd8c-4b4c-bf0b-68635a767cda" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;data&quot;},oc:color:9,display:{Name:&quot;Data Card Software&quot;},oc:lootFactory:&quot;OpenComputers:data&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="46" GroupName="Tier 1 Computers" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="b1614813-43ac-4501-b6cd-eded00a8626a" ItemName="miscutils:itemGenericToken" Amount="4" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bde78b50-c28f-42be-a55c-7fab383eb365" ItemName="OpenComputers:screen1" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0ceb2485-62a5-43b2-9113-a8ff9dbde0ce" ItemName="OpenComputers:keyboard" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="08d426b2-f280-4d97-aca0-f56c09524beb" ItemName="OpenComputers:item:57" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3d1965ab-fb33-4aa8-aa71-5e38405a04b5" ItemName="OpenComputers:item:18" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="722aefbb-7ab4-4615-94d1-fd090d3b3e06" ItemName="OpenComputers:powerConverter" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a26fadcb-ddfa-448d-99e6-a401e1d54627" ItemName="OpenComputers:item:11" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="90e3dc1e-78ac-4a0f-ae44-da740d40584d" ItemName="OpenComputers:item:98" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="73194927-0045-4268-907a-a8c969c36370" ItemName="OpenComputers:item:33" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3b828ed2-23d8-4194-999a-1f3c200adad5" ItemName="OpenComputers:diskDrive" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ae7bf922-9999-4a8a-a0ce-778e14cd72a3" ItemName="OpenComputers:redstone" Amount="2" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8e26eb14-f299-4208-91a2-5e3aeed3fca7" ItemName="OpenComputers:item:24" Amount="4" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4f9fe184-3985-49ac-b046-853104505d69" ItemName="OpenComputers:cable:11250603" Amount="16" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f43df290-6b23-443b-9401-9ff46e6ac711" ItemName="OpenComputers:wrench" Amount="1" NBTTag="" Chance="80" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cac85a89-f451-488d-a403-2e2a49426404" ItemName="OpenComputers:item:29" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="04d84b44-79ec-4529-89d8-c3d95186d4e9" ItemName="OpenComputers:item" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="869849d1-7fa1-411c-9a1b-2aff0817e9fd" ItemName="OpenComputers:item:19" Amount="4" NBTTag="" Chance="90" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d4df27f1-c6d3-4541-b82f-57f7c9f682bb" ItemName="OpenComputers:transposer" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c7147f7c-17c7-4a98-9e13-aa3c626366dd" ItemName="OpenComputers:eeprom" Amount="1" NBTTag="" Chance="95" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="78fa26f7-52c0-4487-96d3-28a48c646133" ItemName="OpenComputers:item:104" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3fea384a-bc0c-4d4a-b503-e4b2bcf12626" ItemName="OpenComputers:item:78" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5739d57b-087c-4521-a713-be070d20c63a" ItemName="OpenComputers:item:1" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5775da4e-a2bf-46f8-a154-99799004c0b8" ItemName="OpenComputers:adapter" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ef3aa884-9629-44de-ba16-ff23ef176aeb" ItemName="OpenComputers:waypoint" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2bebff97-ced0-4162-a795-610208281228" ItemName="OpenComputers:item:99" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="fa113365-4663-423c-884a-05f06966704e" ItemName="OpenComputers:case1" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a586b6a4-263b-423b-a719-e83b69f5d1d5" ItemName="OpenComputers:item:5" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d35661a2-509d-4730-a5b4-398340326070" ItemName="OpenComputers:item:4" Amount="8" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="eb6c12d9-abc9-491d-805c-83edfbe2b4e4" ItemName="OpenComputers:item:27" Amount="8" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6142f69b-58a4-4e80-8487-7cbb7a921430" ItemName="OpenComputers:item:28" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a00b915c-223b-4e8e-a06b-44186c3368d0" ItemName="OpenComputers:item:83" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0d90ca91-a09b-4a78-91e1-4216af813884" ItemName="OpenComputers:item:63" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bdbc0bac-d8ee-41f5-893f-c98988dd24bd" ItemName="OpenComputers:item:54" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="58b74cf6-f06d-47c8-b998-c03eb9bac1c6" ItemName="OpenComputers:eeprom" Amount="1" NBTTag="{oc:data:{oc:readonly:0b,oc:eeprom:[1617 bytes],oc:label:&quot;EEPROM (Lua BIOS)&quot;}}" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="fcdc1466-405c-4e3b-bf3d-56fca7c0fdcc" ItemName="computronics:computronics.colorfulLamp" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2b61659b-f076-4414-a3a0-5a9292a9fcc7" ItemName="computronics:computronics.chatBox" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d90b909f-0c3b-4fe9-b703-614f17f5c376" ItemName="computronics:computronics.camera" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="414d7e20-a3a3-416e-b12b-a0f7add53c79" ItemName="computronics:computronics.ocParts:14" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="eac38027-83e0-4686-b0b7-3c6dc9cafa01" ItemName="OpenComputers:item:85" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a99ccb25-76eb-4754-b5f8-eddc4101a24c" ItemName="OpenComputers:item:52" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c16eb5fc-987b-4d60-8379-2947526e9670" ItemName="OpenComputers:item:53" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c0a7310d-9956-45d4-8df6-6141b621f0b8" ItemName="OpenComputers:item:14" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4a276d9a-4f7e-4ba5-b7c6-4ae4bdc62af9" ItemName="OpenComputers:item:78" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="dcad5044-d424-40d4-b263-612d2af83b90" ItemName="OpenComputers:item:76" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="4d225c26-c922-41f7-9e04-195c57539bfb" ItemName="computronics:computronics.ocParts:5" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1881733e-8259-4eab-ae1c-109c3ecc46c0" ItemName="OpenComputers:item:66" Amount="1" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="c380e9ed-8f24-4cae-9015-7a71f68b5f91" ItemName="computronics:computronics.ocParts:7" Amount="1" NBTTag="{oc:data:{}}" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="47" GroupName="Tier 2 Computers" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+        <Loot Identifier="75c3b96c-4d56-41b1-a434-b63c4e048c05" ItemName="OpenComputers:relay" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="67f2d65f-d269-40bf-916c-ae84acba15c3" ItemName="OpenComputers:assembler" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="772b3b52-aea1-470c-814f-8d9ca838584c" ItemName="miscutils:itemGenericToken" Amount="2" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="48" GroupName="Tier 3 Computers" Rarity="2" MinItems="2" MaxItems="3" CombineTrashGroup="false">
+        <Loot Identifier="787f1943-5ae4-404f-b421-9704795e59d9" ItemName="OpenComputers:item:95" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a39d7e4b-027a-4e7d-9e1a-708cd343007a" ItemName="miscutils:itemGenericToken" Amount="3" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="49" GroupName="Tier 3.5 Computers" Rarity="3" MinItems="2" MaxItems="3" CombineTrashGroup="false">
+        <Loot Identifier="2c389f4f-0e76-4e61-94d5-9583449bc677" ItemName="miscutils:itemGenericToken" Amount="4" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
+    <LootGroup GroupMetaID="50" GroupName="Tier 4 Computers" Rarity="4" MinItems="2" MaxItems="4" CombineTrashGroup="false">
+        <Loot Identifier="67067cd2-27e2-4ae3-9c26-e61b0a8ee0b8" ItemName="miscutils:itemGenericToken" Amount="5" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+    </LootGroup>
 </LootGroups>
