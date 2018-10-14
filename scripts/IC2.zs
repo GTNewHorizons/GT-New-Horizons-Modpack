@@ -1139,7 +1139,7 @@ recipes.addShaped(<IC2:itemArmorCFPack:26>, [
 
 // --- Nano Saber
 recipes.addShaped(<IC2:itemNanoSaber>, [
-[<ore:plateAlloyIridium>, <ore:toolHeadSwordPlatinum>, <ore:plateAlloyIridium>],
+[<ore:plateAlloyIridium>, <TGregworks:tGregToolPartLargeSwordBlade:1529>.withTag({material: "TungstenSteel"}), <ore:plateAlloyIridium>],
 [<ore:circuitMaster>, <ore:batteryMaster>, <ore:circuitMaster>],
 [<ore:craftingToolFile>, <IC2:itemRecipePart:2>, <ore:craftingToolHardHammer>]]);
 
