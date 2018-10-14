@@ -116,3 +116,9 @@ recipes.addShapeless(<enhancedlootbags:lootbag:38>.withTag({ench: [{lvl: 3 as sh
 
 // --- Loot Bag (Tier 7 LuV)
 recipes.addShapeless(<enhancedlootbags:lootbag:41>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:41>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:17070>]);
+
+// --- Loot Bag (Floppy)
+recipes.addShapeless(<enhancedlootbags:lootbag:45>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:45>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <OpenComputers:eeprom>]);
+
+// --- Loot Bag (Computer Tier 1)
+recipes.addShapeless(<enhancedlootbags:lootbag:46>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:46>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <OpenComputers:case1>]);
