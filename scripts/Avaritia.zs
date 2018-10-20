@@ -238,10 +238,10 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Orb_Armok>, [
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Sword>, [
 [null, null, null, null, null, null, null, <ore:plateInfinity>, <TConstruct:largeSwordBlade:1511>],
 [null, null, null, null, null, null, <ore:plateInfinity>, <TaintedMagic:ItemPrimordialEdge>, <ore:plateInfinity>],
-[null, null, null, null, null, <ore:plateInfinity>, <IC2:itemNanoSaber:1>, <ore:plateInfinity>, null],
+[null, null, null, null, null, <ore:plateInfinity>, <IC2:itemNanoSaber:*>, <ore:plateInfinity>, null],
 [null, null, null, null, <ore:plateInfinity>, <ThaumicTinkerer:ichorSwordGem:*>, <ore:plateInfinity>, null, null],
 [null, <TaintedMagic:ItemMaterial:5>, null, <ore:plateInfinity>, <Avaritia:Skull_Sword>, <ore:plateInfinity>, null, null, null],
-[null, null, <TaintedMagic:ItemMaterial:5>, <DraconicEvolution:draconicDistructionStaff>, <ore:plateInfinity>, null, null, null, null],
+[null, null, <TaintedMagic:ItemMaterial:5>, <DraconicEvolution:draconicDistructionStaff:*>, <ore:plateInfinity>, null, null, null, null],
 [null, null, <ore:blockCosmicNeutronium>, <TaintedMagic:ItemMaterial:5>, null, null, null, null, null],
 [null, <ore:blockCosmicNeutronium>, null, null, <TaintedMagic:ItemMaterial:5>, null, null, null, null],
 [<Avaritia:Resource:5>, null, null, null, null, null, null, null, null]]);
