@@ -261,7 +261,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Pickaxe>.withTag({enc
 // --- Planet Eater
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Shovel>.withTag({destroyer: 0 as byte}), [
 [null, null, null, null, null, null, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>],
-[null, null, null, null, null, <ore:plateInfinity>, <GraviSuite:advDDrill:1>, <DraconicEvolution:draconicShovel>, <ore:plateInfinity>],
+[null, null, null, null, null, <ore:plateInfinity>, <GraviSuite:advDDrill:*>, <DraconicEvolution:draconicShovel>, <ore:plateInfinity>],
 [null, null, null, null, null, null, <ThaumicTinkerer:ichorShovelGem:*>, <BloodArsenal:blood_infused_shovel_diamond>, <ore:plateInfinity>],
 [null, null, null, null, null, <ore:blockCosmicNeutronium>, null, <ore:plateInfinity>, null],
 [null, null, null, null, <ore:blockCosmicNeutronium>, null, null, null, null],
@@ -285,7 +285,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Thaumcraft:WandCasting:9000>.withTag({c
 // --- Nature's Ruin
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Axe>, [
 [null, <ore:plateInfinity>, null, null, null, null, null, null, null],
-[<ore:plateInfinity>, <GraviSuite:advChainsaw:1>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, null, null, null, null],
+[<ore:plateInfinity>, <GraviSuite:advChainsaw:*>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, null, null, null, null],
 [<ore:plateInfinity>, <ThaumicTinkerer:ichorAxeGem:*>, <DraconicEvolution:draconicAxe>, <ore:plateInfinity>, null, null, null, null, null],
 [null, <ore:plateInfinity>, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
 [null, null, <ore:blockCosmicNeutronium>, null, null, null, null, null, null],
@@ -328,7 +328,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Chest>, [
 [null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null],
 [<ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>],
 [<ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>],
-[null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <GraviSuite:graviChestPlate:1>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null],
+[null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <GraviSuite:graviChestPlate:*>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null],
 [null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <BloodArsenal:life_imbued_chestplate>.withTag({LPStored: 100000}), <ThaumicTinkerer:ichorclothChestGem:*>, <AWWayofTime:sanguineRobe>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null],
 [null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <GalaxySpace:item.spacesuit_jetplate>, <Avaritia:Resource:5>, <DraconicEvolution:draconicChest>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null],
 [null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <EMT:ShieldFocus>, <BloodArsenal:sigil_of_divinity>, <TaintedMagic:ItemFocusTime>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null],
@@ -338,7 +338,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Chest>, [
 // --- Infinity Pants
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Pants>, [
 [<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>],
-[<ore:plateCosmicNeutronium>, <TaintedMagic:ItemFocusTime>, <GalaxySpace:item.spacesuit_leg>, <BloodArsenal:life_imbued_leggings>.withTag({LPStored: 100000}), <BloodArsenal:sigil_of_divinity>, <ThaumicTinkerer:ichorclothLegsGem:*>, <IC2:itemArmorQuantumLegs:26>, <EMT:ShieldFocus>, <ore:plateCosmicNeutronium>],
+[<ore:plateCosmicNeutronium>, <TaintedMagic:ItemFocusTime>, <GalaxySpace:item.spacesuit_leg>, <BloodArsenal:life_imbued_leggings>.withTag({LPStored: 100000}), <BloodArsenal:sigil_of_divinity>, <ThaumicTinkerer:ichorclothLegsGem:*>, <IC2:itemArmorQuantumLegs:*>, <EMT:ShieldFocus>, <ore:plateCosmicNeutronium>],
 [<ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <DraconicEvolution:draconicLeggs>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>],
 [<ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <Avaritia:Resource:5>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>],
 [<ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>],
@@ -355,7 +355,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Shoes>, [
 [null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null],
 [null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null],
 [<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <ore:plateInfinity>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>],
-[<ore:plateCosmicNeutronium>, <ThaumicTinkerer:ichorclothBootsGem:*>, <DraconicEvolution:draconicBoots>, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <IC2:itemArmorQuantumBoots:1>, <BloodArsenal:life_imbued_boots>.withTag({LPStored: 100000}), <ore:plateCosmicNeutronium>],
+[<ore:plateCosmicNeutronium>, <ThaumicTinkerer:ichorclothBootsGem:*>, <DraconicEvolution:draconicBoots>, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <IC2:itemArmorQuantumBoots:*>, <BloodArsenal:life_imbued_boots>.withTag({LPStored: 100000}), <ore:plateCosmicNeutronium>],
 [<ore:plateCosmicNeutronium>, <TaintedMagic:ItemFocusTime>, <AWWayofTime:sanguineBoots>, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <GalaxySpace:item.spacesuit_gravityboots>, <EMT:ShieldFocus>, <ore:plateCosmicNeutronium>],
 [<ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <BloodArsenal:sigil_of_divinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>]]);
 
