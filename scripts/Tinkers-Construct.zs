@@ -2650,7 +2650,7 @@ Extruder.addRecipe(<TConstruct:toolRod:7>, <minecraft:netherbrick>, <TConstruct:
 Extruder.addRecipe(<TConstruct:toolRod:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:1> * 0, 800, 120);
 
 // --- Ardite Tool Rod
-Extruder.addRecipe(<TConstruct:toolRod:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:1> * 0, 606, 120);
+Extruder.addRecipe(<TConstruct:toolRod:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:1> * 0, 606, 120);
 
 // --- Manyullyn Tool Rod
 Extruder.addRecipe(<TConstruct:toolRod:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:1> * 0, 1200, 120);
@@ -2697,7 +2697,7 @@ Extruder.addRecipe(<TConstruct:pickaxeHead:7>, <minecraft:netherbrick>, <TConstr
 Extruder.addRecipe(<TConstruct:pickaxeHead:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:2> * 0, 1600, 120);
 
 // --- Ardite Pickaxe Head
-Extruder.addRecipe(<TConstruct:pickaxeHead:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:2> * 0, 1213, 120);
+Extruder.addRecipe(<TConstruct:pickaxeHead:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:2> * 0, 1213, 120);
 
 // --- Manyullyn Pickaxe Head
 Extruder.addRecipe(<TConstruct:pickaxeHead:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:2> * 0, 2400, 120);
@@ -2744,7 +2744,7 @@ Extruder.addRecipe(<TConstruct:shovelHead:7>, <minecraft:netherbrick>, <TConstru
 Extruder.addRecipe(<TConstruct:shovelHead:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:3> * 0, 1600, 120);
 
 // --- Ardite Shovel Head
-Extruder.addRecipe(<TConstruct:shovelHead:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:3> * 0, 1213, 120);
+Extruder.addRecipe(<TConstruct:shovelHead:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:3> * 0, 1213, 120);
 
 // --- Manyullyn Shovel Head
 Extruder.addRecipe(<TConstruct:shovelHead:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:3> * 0, 2400, 120);
@@ -2791,7 +2791,7 @@ Extruder.addRecipe(<TConstruct:hatchetHead:7>, <minecraft:netherbrick>, <TConstr
 Extruder.addRecipe(<TConstruct:hatchetHead:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:4> * 0, 1600, 120);
 
 // --- Ardite Axe Head
-Extruder.addRecipe(<TConstruct:hatchetHead:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:4> * 0, 1213, 120);
+Extruder.addRecipe(<TConstruct:hatchetHead:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:4> * 0, 1213, 120);
 
 // --- Manyullyn Axe Head
 Extruder.addRecipe(<TConstruct:hatchetHead:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:4> * 0, 2400, 120);
@@ -2838,7 +2838,7 @@ Extruder.addRecipe(<TConstruct:swordBlade:7>, <minecraft:netherbrick>, <TConstru
 Extruder.addRecipe(<TConstruct:swordBlade:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:5> * 0, 1600, 120);
 
 // --- Ardite Sword Blade
-Extruder.addRecipe(<TConstruct:swordBlade:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:5> * 0, 1213, 120);
+Extruder.addRecipe(<TConstruct:swordBlade:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:5> * 0, 1213, 120);
 
 // --- Manyullyn Sword Blade
 Extruder.addRecipe(<TConstruct:swordBlade:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:5> * 0, 2400, 120);
@@ -2885,7 +2885,7 @@ Extruder.addRecipe(<TConstruct:wideGuard:7>, <minecraft:netherbrick>, <TConstruc
 Extruder.addRecipe(<TConstruct:wideGuard:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:6> * 0, 800, 120);
 
 // --- Ardite Wide Guard
-Extruder.addRecipe(<TConstruct:wideGuard:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:6> * 0, 606, 120);
+Extruder.addRecipe(<TConstruct:wideGuard:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:6> * 0, 606, 120);
 
 // --- Manyullyn Wide Guard
 Extruder.addRecipe(<TConstruct:wideGuard:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:6> * 0, 1200, 120);
@@ -2932,7 +2932,7 @@ Extruder.addRecipe(<TConstruct:handGuard:7>, <minecraft:netherbrick>, <TConstruc
 Extruder.addRecipe(<TConstruct:handGuard:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:7> * 0, 800, 120);
 
 // --- Ardite Hand Guard
-Extruder.addRecipe(<TConstruct:handGuard:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:7> * 0, 606, 120);
+Extruder.addRecipe(<TConstruct:handGuard:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:7> * 0, 606, 120);
 
 // --- Manyullyn Hand Guard
 Extruder.addRecipe(<TConstruct:handGuard:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:7> * 0, 1200, 120);
@@ -2979,7 +2979,7 @@ Extruder.addRecipe(<TConstruct:crossbar:7>, <minecraft:netherbrick>, <TConstruct
 Extruder.addRecipe(<TConstruct:crossbar:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:8> * 0, 800, 120);
 
 // --- Ardite Crossbar
-Extruder.addRecipe(<TConstruct:crossbar:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:8> * 0, 606, 120);
+Extruder.addRecipe(<TConstruct:crossbar:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:8> * 0, 606, 120);
 
 // --- Manyullyn Crossbar
 Extruder.addRecipe(<TConstruct:crossbar:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:8> * 0, 1200, 120);
@@ -3026,7 +3026,7 @@ Extruder.addRecipe(<TConstruct:binding:7>, <minecraft:netherbrick>, <TConstruct:
 Extruder.addRecipe(<TConstruct:binding:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:9> * 0, 800, 120);
 
 // --- Ardite Binding
-Extruder.addRecipe(<TConstruct:binding:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:9> * 0, 606, 120);
+Extruder.addRecipe(<TConstruct:binding:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:9> * 0, 606, 120);
 
 // --- Manyullyn Binding
 Extruder.addRecipe(<TConstruct:binding:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:9> * 0, 1200, 120);
@@ -3073,7 +3073,7 @@ Extruder.addRecipe(<TConstruct:frypanHead:7>, <minecraft:netherbrick>, <TConstru
 Extruder.addRecipe(<TConstruct:frypanHead:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:10> * 0, 1600, 120);
 
 // --- Ardite Pan
-Extruder.addRecipe(<TConstruct:frypanHead:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:10> * 0, 1213, 120);
+Extruder.addRecipe(<TConstruct:frypanHead:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:10> * 0, 1213, 120);
 
 // --- Manyullyn Pan
 Extruder.addRecipe(<TConstruct:frypanHead:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:10> * 0, 2400, 120);
@@ -3120,7 +3120,7 @@ Extruder.addRecipe(<TConstruct:signHead:7>, <minecraft:netherbrick>, <TConstruct
 Extruder.addRecipe(<TConstruct:signHead:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:11> * 0, 1600, 120);
 
 // --- Ardite Sign Head
-Extruder.addRecipe(<TConstruct:signHead:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:11> * 0, 1213, 120);
+Extruder.addRecipe(<TConstruct:signHead:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:11> * 0, 1213, 120);
 
 // --- Manyullyn Sign Head
 Extruder.addRecipe(<TConstruct:signHead:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:11> * 0, 2400, 120);
@@ -3167,7 +3167,7 @@ Extruder.addRecipe(<TConstruct:knifeBlade:7>, <minecraft:netherbrick>, <TConstru
 Extruder.addRecipe(<TConstruct:knifeBlade:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:12> * 0, 800, 120);
 
 // --- Ardite Knife Blade
-Extruder.addRecipe(<TConstruct:knifeBlade:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:12> * 0, 606, 120);
+Extruder.addRecipe(<TConstruct:knifeBlade:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:12> * 0, 606, 120);
 
 // --- Manyullyn Knife Blade
 Extruder.addRecipe(<TConstruct:knifeBlade:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:12> * 0, 1200, 120);
@@ -3214,7 +3214,7 @@ Extruder.addRecipe(<TConstruct:chiselHead:7>, <minecraft:netherbrick>, <TConstru
 Extruder.addRecipe(<TConstruct:chiselHead:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:13> * 0, 800, 120);
 
 // --- Ardite Chisel Head
-Extruder.addRecipe(<TConstruct:chiselHead:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:13> * 0, 606, 120);
+Extruder.addRecipe(<TConstruct:chiselHead:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:13> * 0, 606, 120);
 
 // --- Manyullyn Chisel Head
 Extruder.addRecipe(<TConstruct:chiselHead:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:13> * 0, 1200, 120);
@@ -3261,7 +3261,7 @@ Extruder.addRecipe(<TConstruct:toughRod:7>, <minecraft:netherbrick> * 3, <TConst
 Extruder.addRecipe(<TConstruct:toughRod:10>, <gregtech:gt.metaitem.01:11033> * 3, <TConstruct:metalPattern:14> * 0, 4800, 120);
 
 // --- Ardite Tough Rod
-Extruder.addRecipe(<TConstruct:toughRod:11>, <gregtech:gt.metaitem.01:11382> * 3, <TConstruct:metalPattern:14> * 0, 3639, 120);
+Extruder.addRecipe(<TConstruct:toughRod:11>, <TConstruct:materials:4> * 3, <TConstruct:metalPattern:14> * 0, 3639, 120);
 
 // --- Manyullyn Tough Rod
 Extruder.addRecipe(<TConstruct:toughRod:12>, <TConstruct:materials:5> * 3, <TConstruct:metalPattern:14> * 0, 7200, 120);
@@ -3308,7 +3308,7 @@ Extruder.addRecipe(<TConstruct:toughBinding:7>, <minecraft:netherbrick> * 3, <TC
 Extruder.addRecipe(<TConstruct:toughBinding:10>, <gregtech:gt.metaitem.01:11033> * 3, <TConstruct:metalPattern:15> * 0, 4800, 120);
 
 // --- Ardite Tough Binding
-Extruder.addRecipe(<TConstruct:toughBinding:11>, <gregtech:gt.metaitem.01:11382> * 3, <TConstruct:metalPattern:15> * 0, 3639, 120);
+Extruder.addRecipe(<TConstruct:toughBinding:11>, <TConstruct:materials:4> * 3, <TConstruct:metalPattern:15> * 0, 3639, 120);
 
 // --- Manyullyn Tough Binding
 Extruder.addRecipe(<TConstruct:toughBinding:12>, <TConstruct:materials:5> * 3, <TConstruct:metalPattern:15> * 0, 7200, 120);
@@ -3357,7 +3357,7 @@ Extruder.addRecipe(<TConstruct:heavyPlate:7>, <minecraft:netherbrick> * 8, <TCon
 Extruder.addRecipe(<TConstruct:heavyPlate:10>, <gregtech:gt.metaitem.01:11033> * 8, <TConstruct:metalPattern:16> * 0, 12800, 120);
 
 // --- Ardite Large Plate
-Extruder.addRecipe(<TConstruct:heavyPlate:11>, <gregtech:gt.metaitem.01:11382> * 8, <TConstruct:metalPattern:16> * 0, 9704, 120);
+Extruder.addRecipe(<TConstruct:heavyPlate:11>, <TConstruct:materials:4> * 8, <TConstruct:metalPattern:16> * 0, 9704, 120);
 
 // --- Manyullyn Large Plate
 Extruder.addRecipe(<TConstruct:heavyPlate:12>, <TConstruct:materials:5> * 8, <TConstruct:metalPattern:16> * 0, 19200, 120);
@@ -3404,7 +3404,7 @@ Extruder.addRecipe(<TConstruct:broadAxeHead:7>, <minecraft:netherbrick> * 8, <TC
 Extruder.addRecipe(<TConstruct:broadAxeHead:10>, <gregtech:gt.metaitem.01:11033> * 8, <TConstruct:metalPattern:17> * 0, 12800, 120);
 
 // --- Ardite Broad Axe Head
-Extruder.addRecipe(<TConstruct:broadAxeHead:11>, <gregtech:gt.metaitem.01:11382> * 8, <TConstruct:metalPattern:17> * 0, 9704, 120);
+Extruder.addRecipe(<TConstruct:broadAxeHead:11>, <TConstruct:materials:4> * 8, <TConstruct:metalPattern:17> * 0, 9704, 120);
 
 // --- Manyullyn Broad Axe Head
 Extruder.addRecipe(<TConstruct:broadAxeHead:12>, <TConstruct:materials:5> * 8, <TConstruct:metalPattern:17> * 0, 19200, 120);
@@ -3451,7 +3451,7 @@ Extruder.addRecipe(<TConstruct:scytheBlade:7>, <minecraft:netherbrick> * 8, <TCo
 Extruder.addRecipe(<TConstruct:scytheBlade:10>, <gregtech:gt.metaitem.01:11033> * 8, <TConstruct:metalPattern:18> * 0, 12800, 120);
 
 // --- Ardite Scythe Head
-Extruder.addRecipe(<TConstruct:scytheBlade:11>, <gregtech:gt.metaitem.01:11382> * 8, <TConstruct:metalPattern:18> * 0, 9704, 120);
+Extruder.addRecipe(<TConstruct:scytheBlade:11>, <TConstruct:materials:4> * 8, <TConstruct:metalPattern:18> * 0, 9704, 120);
 
 // --- Manyullyn Scythe Head
 Extruder.addRecipe(<TConstruct:scytheBlade:12>, <TConstruct:materials:5> * 8, <TConstruct:metalPattern:18> * 0, 19200, 120);
@@ -3498,7 +3498,7 @@ Extruder.addRecipe(<TConstruct:excavatorHead:7>, <minecraft:netherbrick> * 8, <T
 Extruder.addRecipe(<TConstruct:excavatorHead:10>, <gregtech:gt.metaitem.01:11033> * 8, <TConstruct:metalPattern:19> * 0, 12800, 120);
 
 // --- Ardite Excavator Head
-Extruder.addRecipe(<TConstruct:excavatorHead:11>, <gregtech:gt.metaitem.01:11382> * 8, <TConstruct:metalPattern:19> * 0, 9704, 120);
+Extruder.addRecipe(<TConstruct:excavatorHead:11>, <TConstruct:materials:4> * 8, <TConstruct:metalPattern:19> * 0, 9704, 120);
 
 // --- Manyullyn Excavator Head
 Extruder.addRecipe(<TConstruct:excavatorHead:12>, <TConstruct:materials:5> * 8, <TConstruct:metalPattern:19> * 0, 19200, 120);
@@ -3545,7 +3545,7 @@ Extruder.addRecipe(<TConstruct:largeSwordBlade:7>, <minecraft:netherbrick> * 8, 
 Extruder.addRecipe(<TConstruct:largeSwordBlade:10>, <gregtech:gt.metaitem.01:11033> * 8, <TConstruct:metalPattern:20> * 0, 12800, 120);
 
 // --- Ardite Large Sword Blade
-Extruder.addRecipe(<TConstruct:largeSwordBlade:11>, <gregtech:gt.metaitem.01:11382> * 8, <TConstruct:metalPattern:20> * 0, 9704, 120);
+Extruder.addRecipe(<TConstruct:largeSwordBlade:11>, <TConstruct:materials:4> * 8, <TConstruct:metalPattern:20> * 0, 9704, 120);
 
 // --- Manyullyn Large Sword Blade
 Extruder.addRecipe(<TConstruct:largeSwordBlade:12>, <TConstruct:materials:5> * 8, <TConstruct:metalPattern:20> * 0, 19200, 120);
@@ -3592,7 +3592,7 @@ Extruder.addRecipe(<TConstruct:hammerHead:7>, <minecraft:netherbrick> * 8, <TCon
 Extruder.addRecipe(<TConstruct:hammerHead:10>, <gregtech:gt.metaitem.01:11033> * 8, <TConstruct:metalPattern:21> * 0, 12800, 120);
 
 // --- Ardite Hammer Head
-Extruder.addRecipe(<TConstruct:hammerHead:11>, <gregtech:gt.metaitem.01:11382> * 8, <TConstruct:metalPattern:21> * 0, 9704, 120);
+Extruder.addRecipe(<TConstruct:hammerHead:11>, <TConstruct:materials:4> * 8, <TConstruct:metalPattern:21> * 0, 9704, 120);
 
 // --- Manyullyn Hammer Head
 Extruder.addRecipe(<TConstruct:hammerHead:12>, <TConstruct:materials:5> * 8, <TConstruct:metalPattern:21> * 0, 19200, 120);
@@ -3639,7 +3639,7 @@ Extruder.addRecipe(<TConstruct:fullGuard:7>, <minecraft:netherbrick> * 3, <TCons
 Extruder.addRecipe(<TConstruct:fullGuard:10>, <gregtech:gt.metaitem.01:11033> * 3, <TConstruct:metalPattern:22> * 0, 4800, 120);
 
 // --- Ardite Full Guard
-Extruder.addRecipe(<TConstruct:fullGuard:11>, <gregtech:gt.metaitem.01:11382> * 3, <TConstruct:metalPattern:22> * 0, 3639, 120);
+Extruder.addRecipe(<TConstruct:fullGuard:11>, <TConstruct:materials:4> * 3, <TConstruct:metalPattern:22> * 0, 3639, 120);
 
 // --- Manyullyn Full Guard
 Extruder.addRecipe(<TConstruct:fullGuard:12>, <TConstruct:materials:5> * 3, <TConstruct:metalPattern:22> * 0, 7200, 120);
@@ -3686,7 +3686,7 @@ Extruder.addRecipe(<TConstruct:arrowhead:7>, <minecraft:netherbrick>, <TConstruc
 Extruder.addRecipe(<TConstruct:arrowhead:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:metalPattern:25> * 0, 1600, 120);
 
 // --- Ardite Arrowhead
-Extruder.addRecipe(<TConstruct:arrowhead:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:metalPattern:25> * 0, 1213, 120);
+Extruder.addRecipe(<TConstruct:arrowhead:11>, <TConstruct:materials:4>, <TConstruct:metalPattern:25> * 0, 1213, 120);
 
 // --- Manyullyn Arrowhead
 Extruder.addRecipe(<TConstruct:arrowhead:12>, <TConstruct:materials:5>, <TConstruct:metalPattern:25> * 0, 2400, 120);
@@ -3733,7 +3733,7 @@ Extruder.addRecipe(<TConstruct:ShurikenPart:7>, <minecraft:netherbrick>, <TConst
 Extruder.addRecipe(<TConstruct:ShurikenPart:10>, <gregtech:gt.metaitem.01:11033>, <TConstruct:Cast> * 0, 800, 120);
 
 // --- Ardite Shuriken
-Extruder.addRecipe(<TConstruct:ShurikenPart:11>, <gregtech:gt.metaitem.01:11382>, <TConstruct:Cast> * 0, 606, 120);
+Extruder.addRecipe(<TConstruct:ShurikenPart:11>, <TConstruct:materials:4>, <TConstruct:Cast> * 0, 606, 120);
 
 // --- Manyullyn Shuriken
 Extruder.addRecipe(<TConstruct:ShurikenPart:12>, <TConstruct:materials:5>, <TConstruct:Cast> * 0, 1200, 120);
@@ -3780,7 +3780,7 @@ Extruder.addRecipe(<TConstruct:CrossbowLimbPart:7>, <minecraft:netherbrick> * 4,
 Extruder.addRecipe(<TConstruct:CrossbowLimbPart:10>, <gregtech:gt.metaitem.01:11033> * 4, <TConstruct:Cast:1> * 0, 6400, 120);
 
 // --- Ardite Crossbow Limb
-Extruder.addRecipe(<TConstruct:CrossbowLimbPart:11>, <gregtech:gt.metaitem.01:11382> * 4, <TConstruct:Cast:1> * 0, 4852, 120);
+Extruder.addRecipe(<TConstruct:CrossbowLimbPart:11>, <TConstruct:materials:4> * 4, <TConstruct:Cast:1> * 0, 4852, 120);
 
 // --- Manyullyn Crossbow Limb
 Extruder.addRecipe(<TConstruct:CrossbowLimbPart:12>, <TConstruct:materials:5> * 4, <TConstruct:Cast:1> * 0, 9600, 120);
@@ -3827,7 +3827,7 @@ Extruder.addRecipe(<TConstruct:CrossbowBodyPart:7>, <minecraft:netherbrick> * 5,
 Extruder.addRecipe(<TConstruct:CrossbowBodyPart:10>, <gregtech:gt.metaitem.01:11033> * 5, <TConstruct:Cast:2> * 0, 8000, 120);
 
 // --- Ardite Crossbow Body
-Extruder.addRecipe(<TConstruct:CrossbowBodyPart:11>, <gregtech:gt.metaitem.01:11382> * 5, <TConstruct:Cast:2> * 0, 6065, 120);
+Extruder.addRecipe(<TConstruct:CrossbowBodyPart:11>, <TConstruct:materials:4> * 5, <TConstruct:Cast:2> * 0, 6065, 120);
 
 // --- Manyullyn Crossbow Body
 Extruder.addRecipe(<TConstruct:CrossbowBodyPart:12>, <TConstruct:materials:5> * 5, <TConstruct:Cast:2> * 0, 12000, 120);
@@ -3874,7 +3874,7 @@ Extruder.addRecipe(<TConstruct:BowLimbPart:7>, <minecraft:netherbrick> * 2, <TCo
 Extruder.addRecipe(<TConstruct:BowLimbPart:10>, <gregtech:gt.metaitem.01:11033> * 2, <TConstruct:Cast:3> * 0, 2400, 120);
 
 // --- Ardite Bow Limb
-Extruder.addRecipe(<TConstruct:BowLimbPart:11>, <gregtech:gt.metaitem.01:11382> * 2, <TConstruct:Cast:3> * 0, 1820, 120);
+Extruder.addRecipe(<TConstruct:BowLimbPart:11>, <TConstruct:materials:4> * 2, <TConstruct:Cast:3> * 0, 1820, 120);
 
 // --- Manyullyn Bow Limb
 Extruder.addRecipe(<TConstruct:BowLimbPart:12>, <TConstruct:materials:5> * 2, <TConstruct:Cast:3> * 0, 3600, 120);
