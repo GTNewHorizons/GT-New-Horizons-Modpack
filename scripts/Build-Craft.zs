@@ -554,15 +554,15 @@ recipes.addShaped(ArchitectT, [
 
 // --- Electronic Library
 recipes.addShaped(ElecectronicLib, [
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:crystalRedstone>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:itemCasingStainlessSteel>, <ore:crystalRedstone>, <ore:itemCasingStainlessSteel>],
 [<ore:circuitData>, <dreamcraft:item.Display>, <ore:circuitData>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:plateSteel>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+[<ore:itemCasingStainlessSteel>, <ore:plateSteel>, <ore:itemCasingStainlessSteel>]]);
 
 // --- Flood Gate
 recipes.addShaped(FloodGate, [
-[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32610>, <IC2:itemCasing:5>],
+[<ore:itemCasingSteel>, <gregtech:gt.metaitem.01:32610>, <ore:itemCasingSteel>],
 [<dreamcraft:item.SteelBars>, <BuildCraft|Factory:tankBlock>, <dreamcraft:item.SteelBars>],
-[<IC2:itemCasing:5>, <dreamcraft:item.SteelBars>, <IC2:itemCasing:5>]]);
+[<ore:itemCasingSteel>, <dreamcraft:item.SteelBars>, <ore:itemCasingSteel>]]);
 
 // --- Laser
 recipes.addShaped(Laser, [

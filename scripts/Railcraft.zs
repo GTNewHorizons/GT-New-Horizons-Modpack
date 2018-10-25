@@ -1350,9 +1350,9 @@ recipes.addShaped(<Railcraft:brick.infernal:2> * 2, [
 
 // --- Lapatron Loader Upgrade
 recipes.addShaped(<Railcraft:upgrade.lapotron>, [
-[<dreamcraft:item.AluminiumItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.AluminiumItemCasing>],
+[<ore:itemCasingAluminium>, <ore:circuitAdvanced>, <ore:itemCasingAluminium>],
 [<ore:cableGt02Platinum>, <IC2:itemBatLamaCrystal:*>, <ore:cableGt02Platinum>],
-[<dreamcraft:item.AluminiumItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.AluminiumItemCasing>]]);
+[<ore:itemCasingAluminium>, <ore:circuitAdvanced>, <ore:itemCasingAluminium>]]);
 
 // --- Cargo Cart
 recipes.addShaped(<Railcraft:cart.cargo>, [

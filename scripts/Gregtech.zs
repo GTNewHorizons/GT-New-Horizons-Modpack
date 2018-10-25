@@ -608,9 +608,9 @@ recipes.addShaped(<gregtech:gt.metaitem.01:34>, [
 
 // --- Motor Machine Casing
 recipes.addShaped(<gregtech:gt.blockcasings2:11>, [
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:itemCasingStainlessSteel>, <ore:circuitAdvanced>, <ore:itemCasingStainlessSteel>],
 [<gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32602>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+[<ore:itemCasingStainlessSteel>, <ore:circuitAdvanced>, <ore:itemCasingStainlessSteel>]]);
 
 // --- Solar Panel
 recipes.addShapeless(<gregtech:gt.metaitem.01:32750>, [<ProjRed|Expansion:projectred.expansion.solar_panel>]);
@@ -773,9 +773,9 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2322> * 2, [<gregtech:gt.metaitem.
 
 // --- Pump Machinen Casing
 recipes.addShaped(<gregtech:gt.blockcasings2:10>, [
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:itemCasingStainlessSteel>, <ore:circuitAdvanced>, <ore:itemCasingStainlessSteel>],
 [<gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockcasings2>, <gregtech:gt.metaitem.01:32612>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+[<ore:itemCasingStainlessSteel>, <ore:circuitAdvanced>, <ore:itemCasingStainlessSteel>]]);
 
 // --- Small Black Granit Gear
 recipes.addShaped(<gregtech:gt.metaitem.02:20849>, [
@@ -789,9 +789,9 @@ recipes.addShaped(<gregtech:gt.metaitem.02:20850>, [
 
 // --- Processor Machine Casing
 recipes.addShaped(<gregtech:gt.blockcasings2:6>, [
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitElite>, <dreamcraft:item.StainlessSteelItemCasing>],
+[<ore:itemCasingStainlessSteel>, <ore:circuitElite>, <ore:itemCasingStainlessSteel>],
 [<ore:circuitElite>, <gregtech:gt.blockcasings2>, <ore:circuitElite>],
-[<dreamcraft:item.StainlessSteelItemCasing>, <ore:circuitElite>, <dreamcraft:item.StainlessSteelItemCasing>]]);
+[<ore:itemCasingStainlessSteel>, <ore:circuitElite>, <ore:itemCasingStainlessSteel>]]);
 
 // --- Obsidian Plates
 recipes.addShaped(<gregtech:gt.metaitem.01:17804>, [

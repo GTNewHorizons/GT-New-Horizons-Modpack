@@ -26,8 +26,8 @@ recipes.remove(<AFSU:AFSU>);
 
 // --- AFSU
 recipes.addShaped(<AFSU:AFSU>, [
-[<ore:cableGt01Platinum>, <dreamcraft:item.TungstenSteelItemCasing>, <ore:cableGt01Platinum>],
-[<dreamcraft:item.TungstenSteelItemCasing>, <gregtech:gt.blockmachines:15>, <dreamcraft:item.TungstenSteelItemCasing>],
+[<ore:cableGt01Platinum>, <ore:itemCasingTungstenSteel>, <ore:cableGt01Platinum>],
+[<ore:itemCasingTungstenSteel>, <gregtech:gt.blockmachines:15>, <ore:itemCasingTungstenSteel>],
 [<ore:circuitMaster>, <AFSU:ALC>, <ore:circuitMaster>]]);
 
 

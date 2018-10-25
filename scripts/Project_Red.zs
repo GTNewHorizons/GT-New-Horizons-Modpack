@@ -395,42 +395,42 @@ mods.tconstruct.Smeltery.addAlloy(<liquid:redmetal.molten> * 144, [<liquid:redst
 // --- Electrotine Generator
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine1:1>, [
 [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>],
-[<IC2:itemCasing:5>, <ProjRed|Expansion:projectred.expansion.emptybattery>, <IC2:itemCasing:5>],
+[<ore:itemCasingSteel>, <ProjRed|Expansion:projectred.expansion.emptybattery>, <ore:itemCasingSteel>],
 [<ore:circuitBasic>, <ProjRed|Expansion:projectred.expansion.emptybattery>, <ore:circuitBasic>]]);
 
 // --- Block Breaker
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2>, [
-[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:5>],
+[<ore:itemCasingSteel>, <gregtech:gt.metaitem.01:32600>, <ore:itemCasingSteel>],
 [<dreamcraft:item.DiamondDrillTip>, <IC2:blockMiningPipe>, <ore:circuitBasic>],
-[<IC2:itemCasing:5>, <ore:gearSteel>, <IC2:itemCasing:5>]]);
+[<ore:itemCasingSteel>, <ore:gearSteel>, <ore:itemCasingSteel>]]);
 // -
 recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2>, [<OpenBlocks:blockbreaker>]);
 
 // --- Item Importer
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:1>, [
-[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:5>],
+[<ore:itemCasingSteel>, <gregtech:gt.metaitem.01:32600>, <ore:itemCasingSteel>],
 [<ore:circuitBasic>, <ore:pipeMediumTin>, <gregtech:gt.metaitem.01:32630>],
-[<IC2:itemCasing:5>, <ore:craftingPiston>, <IC2:itemCasing:5>]]);
+[<ore:itemCasingSteel>, <ore:craftingPiston>, <ore:itemCasingSteel>]]);
 
 // --- Block Placer
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:2>, [
-[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:5>],
+[<ore:itemCasingSteel>, <gregtech:gt.metaitem.01:32600>, <ore:itemCasingSteel>],
 [<gregtech:gt.metaitem.01:32630>, <ore:pipeMediumTin>, <ore:circuitBasic>],
-[<IC2:itemCasing:5>, <ore:craftingPiston>, <IC2:itemCasing:5>]]);
+[<ore:itemCasingSteel>, <ore:craftingPiston>, <ore:itemCasingSteel>]]);
 // -
 recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:2>, [<OpenBlocks:blockPlacer>]);
 
 // --- Filtered Importer
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:3>, [
-[<dreamcraft:item.AluminiumItemCasing>, <gregtech:gt.metaitem.01:32601>, <dreamcraft:item.AluminiumItemCasing>],
+[<ore:itemCasingAluminium>, <gregtech:gt.metaitem.01:32601>, <ore:itemCasingAluminium>],
 [<ore:circuitGood>, <ProjRed|Expansion:projectred.expansion.machine2:1>, <gregtech:gt.metaitem.01:32631>],
-[<dreamcraft:item.AluminiumItemCasing>, <ore:craftingFilter>, <dreamcraft:item.AluminiumItemCasing>]]);
+[<ore:itemCasingAluminium>, <ore:craftingFilter>, <ore:itemCasingAluminium>]]);
 
 // --- Fire Starter
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:4>, [
 [<TConstruct:heavyPlate:7>, <gregtech:gt.metaitem.01:32600>, <TConstruct:heavyPlate:7>],
 [<ore:circuitBasic>, <minecraft:flint_and_steel>, <gregtech:gt.metaitem.01:32630>],
-[<IC2:itemCasing:5>, <ore:craftingPiston>, <IC2:itemCasing:5>]]);
+[<ore:itemCasingSteel>, <ore:craftingPiston>, <ore:itemCasingSteel>]]);
 
 // --- Battery Box
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.machine2:5>, [
@@ -573,7 +573,7 @@ recipes.addShaped(<ProjRed|Core:projectred.core.screwdriver>, [
 // --- Multimeter
 recipes.addShaped(<ProjRed|Core:projectred.core.wiredebugger>, [
 [<ore:wireGt01RedAlloy>, <ore:stickSteelMagnetic>, <ore:wireGt01RedAlloy>],
-[<IC2:itemCasing:5>, <ore:plateGlowstone>, <IC2:itemCasing:5>],
+[<ore:itemCasingSteel>, <ore:plateGlowstone>, <ore:itemCasingSteel>],
 [<ore:screwSteel>, <ore:craftingToolScrewdriver>, <ore:screwSteel>]]);
 
 // --- Black Insulated Wire
@@ -807,9 +807,9 @@ recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routingchip:
 
 // --- Router Utility
 recipes.addShaped(<ProjRed|Transportation:projectred.transportation.routerutil>, [
-[<ore:wireGt01RedAlloy>, <IC2:itemCasing:5>, <ore:wireGt01RedAlloy>],
+[<ore:wireGt01RedAlloy>, <ore:itemCasingSteel>, <ore:wireGt01RedAlloy>],
 [<ore:circuitGood>, <ore:plateEmerald>, <ore:circuitGood>],
-[<IC2:itemCasing:5>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 18000 as long}), <IC2:itemCasing:5>]]);
+[<ore:itemCasingSteel>, <gregtech:gt.metaitem.01:32510>.withTag({"GT.ItemCharge": 18000 as long}), <ore:itemCasingSteel>]]);
 
 // --- Jetpack
 recipes.addShaped(<ProjRed|Expansion:projectred.expansion.jetpack:6400>, [

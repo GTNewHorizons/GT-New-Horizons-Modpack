@@ -33,7 +33,7 @@ import mods.gregtech.Pulverizer;
 
 
 val PCB = <StevesCarts:ModuleComponents:9>;
-val SteelCasing = <IC2:itemCasing:5>;
+val SteelCasing = <ore:itemCasingSteel>;
 val LvRobotArm = <gregtech:gt.metaitem.01:32650>;
 val MvRobotArm = <gregtech:gt.metaitem.01:32651>;
 val LVConveyorBelt = <gregtech:gt.metaitem.01:32630>;

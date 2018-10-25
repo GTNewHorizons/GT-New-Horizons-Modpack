@@ -362,8 +362,8 @@ recipes.addShaped(<OpenBlocks:drawingtable>, [
 
 // --- XP Shower
 recipes.addShaped(<OpenBlocks:xpshower>, [
-[<IC2:itemCasing:4>, <ore:pipeSmallSteel>, <IC2:itemCasing:4>],
-[<IC2:itemCasing:4>, <ore:pipeSmallSteel>, <IC2:itemCasing:4>],
+[<ore:itemCasingAnyIron>, <ore:pipeSmallSteel>, <ore:itemCasingAnyIron>],
+[<ore:itemCasingAnyIron>, <ore:pipeSmallSteel>, <ore:itemCasingAnyIron>],
 [<ore:pipeSmallSteel>, <ore:pipeSmallSteel>, <ore:pipeSmallSteel>]]);
 
 // --- Scaffolding
@@ -378,7 +378,7 @@ recipes.addShaped(<OpenBlocks:generic:9>, [
 // --- Slime Alyzer
 recipes.addShaped(<OpenBlocks:slimalyzer>, [
 [<ore:screwIron>, <ore:circuitBasic>, <ore:screwIron>],
-[<IC2:itemCasing:4>, <TConstruct:materials:1>, <IC2:itemCasing:4>],
+[<ore:itemCasingAnyIron>, <TConstruct:materials:1>, <ore:itemCasingAnyIron>],
 [<ore:craftingToolScrewdriver>, <ore:circuitBasic>, <ore:craftingToolFile>]]);
 
 // --- Paint Brush
@@ -408,10 +408,10 @@ Assembler.addRecipe(<OpenBlocks:ladder>, <minecraft:trapdoor>, <minecraft:ladder
 Assembler.addRecipe(<OpenBlocks:sky:1>, <OpenBlocks:sky>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redstone> * 144, 200, 16);
 
 // --- Paint Mixer
-Assembler.addRecipe(<OpenBlocks:paintmixer>, <gregtech:gt.blockmachines:581>, <IC2:itemCasing:4> * 4, 600, 30);
+Assembler.addRecipe(<OpenBlocks:paintmixer>, <gregtech:gt.blockmachines:581>, <ore:itemCasingAnyIron> * 4, 600, 30);
 
 // --- Xp Bottler
-Assembler.addRecipe(<OpenBlocks:xpbottler>, <Forestry:factory>, <IC2:itemCasing:4> * 4, 600, 30);
+Assembler.addRecipe(<OpenBlocks:xpbottler>, <Forestry:factory>, <ore:itemCasingAnyIron> * 4, 600, 30);
 
 // --- Unprepared Stencil
 Assembler.addRecipe(<OpenBlocks:generic:10>, <TConstruct:blankPattern>, <gregtech:gt.metaitem.01:17032>, 200, 16);
