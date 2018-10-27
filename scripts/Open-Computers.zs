@@ -82,3 +82,15 @@ mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:91>, [
 [null, null, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32606>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32606>, <ore:circuitMaster>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+
+// --- Component Bus (Creative)
+mods.avaritia.ExtremeCrafting.addShaped(<OpenComputers:item:114>, [
+[<OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>],
+[<OpenComputers:item:72>, <OpenComputers:item:39>, <OpenComputers:item:72>, <OpenComputers:item:26>, <OpenComputers:item:106>, <OpenComputers:item:26>, <OpenComputers:item:72>, <OpenComputers:item:39>, <OpenComputers:item:72>],
+[<OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>],
+[<OpenComputers:item:72>, <OpenComputers:item:39>, <OpenComputers:item:72>, <gregtech:gt.metaitem.03:32105>, <ore:circuitSuperconductor>, <gregtech:gt.metaitem.03:32105>, <OpenComputers:item:72>, <OpenComputers:item:39>, <OpenComputers:item:72>],
+[<OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:7>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>],
+[<OpenComputers:item:72>, <OpenComputers:item:39>, <OpenComputers:item:72>, <gregtech:gt.metaitem.03:32105>, <ore:circuitSuperconductor>, <gregtech:gt.metaitem.03:32105>, <OpenComputers:item:72>, <OpenComputers:item:39>, <OpenComputers:item:72>],
+[<OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>],
+[<OpenComputers:item:72>, <OpenComputers:item:39>, <OpenComputers:item:72>, <OpenComputers:item:26>, <OpenComputers:item:106>, <OpenComputers:item:26>, <OpenComputers:item:72>, <OpenComputers:item:39>, <OpenComputers:item:72>],
+[<OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>, <OpenComputers:item:72>]]);
