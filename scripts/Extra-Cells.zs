@@ -5,7 +5,6 @@
 // --- Importing Stuff ---
 
 
-import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 
 
@@ -591,20 +590,14 @@ recipes.addShaped(<extracells:oc.upgrade>, [
 [<ore:plateChrome>, <OpenComputers:item:32>, <ore:plateChrome>]]);
 
 
-// --- Alloy Smelter Recipes ---
-
-
-
-// --- Quartz Tank
-AlloySmelter.addRecipe(<extracells:certustank>, <appliedenergistics2:tile.BlockQuartzGlass> * 8, <gregtech:gt.metaitem.01:32308> * 0, 800, 30);
-
-
 
 
 // --- Assembler Recipes ---
 
 
 
+// --- Quartz Tank
+Assembler.addRecipe(<extracells:certustank>, <appliedenergistics2:tile.BlockQuartzGlass> * 8, <gregtech:gt.integrated_circuit:8> * 0, 800, 30);
 
 // --- ME Fluid Export Bus
 Assembler.addRecipe(<extracells:part.base>, <appliedenergistics2:item.ItemMultiPart:260>, <gregtech:gt.metaitem.01:17526> * 3, 300, 120);

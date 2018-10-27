@@ -3254,10 +3254,10 @@ Assembler.addRecipe(<minecraft:stone_pressure_plate> * 2, <minecraft:stone_slab>
 
 
 // --- Glass Block
-BlastFurnace.addRecipe([<minecraft:glass>], [<TConstruct:GlassBlock>], 100, 120, 1000);
+BlastFurnace.addRecipe([<minecraft:glass>], [<TConstruct:GlassBlock>, <gregtech:gt.integrated_circuit:1>], 100, 120, 1000);
 
 // --- Clear Pane
-BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>], 100, 120, 1000);
+BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>, <gregtech:gt.integrated_circuit:1>], 100, 120, 1000);
 
 
 

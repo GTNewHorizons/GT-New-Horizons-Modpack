@@ -1283,6 +1283,18 @@ Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:
 
 
 
+// --- Blast Furnace Recipes ---
+
+
+
+
+// --- Quartz Glass
+BlastFurnace.addRecipe([QuartzGlass * 4], [<minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4], 200, 120, 1000);
+
+
+
+
+
 // --- Centrifuge Recipes ---
 
 

@@ -11,6 +11,7 @@ import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.gregtech.Fuels;
 import mods.gregtech.FluidSolidifier;
+import mods.gregtech.FormingPress;
 import mods.ic2.SemiFluidGenerator;
 import mods.nei.NEI;
 
@@ -2781,6 +2782,22 @@ mods.gregtech.Centrifuge.addRecipe([<Forestry:propolis>], null, <BiomesOPlenty:h
 
 // --- Honey Drops
 FluidSolidifier.addRecipe(<Forestry:honeyDrop>, <gregtech:gt.metaitem.01:32309> * 0, <liquid:for.honey> * 200, 400, 8);
+
+
+// --- Forming Press ---
+
+
+
+// --- Wax Cast
+FormingPress.addRecipe(<Forestry:waxCast>, <Forestry:beeswax> * 9, <gregtech:gt.metaitem.01:32308> * 0, 100, 30);
+// -
+FormingPress.addRecipe(<Forestry:waxCast>, <Forestry:refractoryWax> * 9, <gregtech:gt.metaitem.01:32308> * 0, 100, 30);
+// -
+FormingPress.addRecipe(<Forestry:waxCast>, <MagicBees:wax> * 9, <gregtech:gt.metaitem.01:32308> * 0, 100, 30);
+// -
+FormingPress.addRecipe(<Forestry:waxCast>, <MagicBees:wax:1> * 9, <gregtech:gt.metaitem.01:32308> * 0, 100, 30);
+// -
+FormingPress.addRecipe(<Forestry:waxCast>, <MagicBees:wax:2> * 9, <gregtech:gt.metaitem.01:32308> * 0, 100, 30);
 
 
 
