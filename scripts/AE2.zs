@@ -6,6 +6,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Autoclave;
 import mods.gregtech.Assembler;
+import mods.gregtech.BlastFurnace;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
