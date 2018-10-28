@@ -236,7 +236,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Orb_Armok>, [
 
 // --- Infinity Sword
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Sword>, [
-[null, null, null, null, null, null, null, <ore:plateInfinity>, <TConstruct:largeSwordBlade:1511>],
+[null, null, null, null, null, null, null, <ore:plateInfinity>, <TGregworks:tGregToolPartLargeSwordBlade:1511>.withTag({material: "Neutronium"})],
 [null, null, null, null, null, null, <ore:plateInfinity>, <TaintedMagic:ItemPrimordialEdge>, <ore:plateInfinity>],
 [null, null, null, null, null, <ore:plateInfinity>, <IC2:itemNanoSaber:*>, <ore:plateInfinity>, null],
 [null, null, null, null, <ore:plateInfinity>, <ThaumicTinkerer:ichorSwordGem:*>, <ore:plateInfinity>, null, null],
