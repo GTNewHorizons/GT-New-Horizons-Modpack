@@ -1366,7 +1366,7 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:12>, <liquid:alumin
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, 500, <TConstruct:MetalBlock:6>);
 
 // --- Steel Ingot
-//mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:16>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 600);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11305>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 800);
 
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);
