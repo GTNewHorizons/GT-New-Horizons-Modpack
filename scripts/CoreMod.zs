@@ -548,6 +548,12 @@ recipes.addShaped(<dreamcraft:item.ReinforcedNeutroniumIronPlate>, [
 [<ore:plateBlackPlutonium>, <dreamcraft:item.NeutroniumIronPlate>, <ore:plateBlackPlutonium>],
 [<ore:plateAlloyAdvanced>, <ore:plateBlackPlutonium>, <ore:plateAlloyAdvanced>]]);
 
+// --- Reinforced Bedrockium Iron Plate
+recipes.addShaped(<dreamcraft:item.ReinforcedBedrockiumIronPlate>, [
+[<ore:plateAlloyAdvanced>, <ore:plateAwakenedDraconium>, <ore:plateAlloyAdvanced>],
+[<ore:plateAwakenedDraconium>, <dreamcraft:item.BedrockiumIronPlate>, <ore:plateAwakenedDraconium>],
+[<ore:plateAlloyAdvanced>, <ore:plateAwakenedDraconium>, <ore:plateAlloyAdvanced>]]);
+
 // --- Bow Fletching Cast
 recipes.addShaped(<dreamcraft:item.BowFletchingCast>, [
 [null, null, Hammer],
@@ -894,6 +900,9 @@ Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <Advanced
 // --- Enriched Naquadria Neutronium Sunnarium Alloy
 Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaNeutroniumSunnariumAlloy>, <dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <gregtech:gt.metaitem.01:22129>, 2400, 2000000);
 
+// --- Enriched X Sunnarium Alloy
+Assembler.addRecipe(<dreamcraft:item.EnrichedXSunnariumAlloy>, <dreamcraft:item.EnrichedNaquadriaNeutroniumSunnariumAlloy>, <dreamcraft:item.BedrockiumPlate> * 18, 2800, 8000000);
+
 // --- Reinforced Bronze Plated Stone
 Assembler.addRecipe(<dreamcraft:tile.BronzePlatedReinforcedStone>, <IC2:blockAlloy>, <gregtech:gt.metaitem.01:17300> * 6, <liquid:molten.steel> * 144, 200, 30);
 
@@ -987,7 +996,8 @@ Assembler.addRecipe(<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, [<dream
 // --- Irradiant Reinforced Neutronium Plate
 Assembler.addRecipe(<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, [<dreamcraft:item.ReinforcedNeutroniumIronPlate>, <dreamcraft:item.EnrichedNaquadriaNeutroniumSunnariumAlloy>, <ore:plateMysteriousCrystal>, <ore:plateNetherStar> * 2, <ore:screwRedAlloy> * 4], <liquid:molten.solderingalloy> * 18432, 600, 2000000);
 
-
+// --- Irradiant Reinforced Bedrockium Plate
+Assembler.addRecipe(<dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, [<dreamcraft:item.ReinforcedBedrockiumIronPlate>, <dreamcraft:item.EnrichedNaquadriaNeutroniumSunnariumAlloy>, <ore:plateAwakenedDraconium>, <ore:plateInfinityCatalyst> * 2, <ore:screwRedAlloy> * 4], <liquid:molten.solderingalloy> * 36864, 600, 8000000);
 
 
 
@@ -1342,6 +1352,9 @@ FormingPress.addRecipe(<dreamcraft:item.NaquadriaIronPlate>,  <ore:plateNaquadri
 
 // --- Neutronium Iron Plate
 FormingPress.addRecipe(<dreamcraft:item.NeutroniumIronPlate>,  <ore:plateNeutronium> * 2, <ore:plateIron> * 4, 600, 2000000);
+
+// --- Neutronium Iron Plate
+FormingPress.addRecipe(<dreamcraft:item.BedrockiumIronPlate>,  <ore:plateBedrockium> * 2, <ore:plateIron> * 4, 600, 8000000);
 
 
 
