@@ -639,30 +639,6 @@ recipes.addShaped(<gregtech:gt.metaitem.02:22532>, [[<ore:stickEnderPearl>, <ore
 // --- Long Endereye Rod
 recipes.addShaped(<gregtech:gt.metaitem.02:22533>, [[<ore:stickEnderEye>, <ore:craftingToolHardHammer>, <ore:stickEnderEye>]]);
 
-// --- Solar Panel 1EU
-//recipes.addShaped(<gregtech:gt.metaitem.01:32750>, [
-//[<gregtech:gt.metaitem.03:32033>, <TConstruct:GlassPane>, <gregtech:gt.metaitem.03:32033>],
-//[<ore:circuitBasic>, <IC2:itemPartCarbonPlate>, <ore:circuitBasic>],
-//[<ore:wireGt01RedAlloy>, <dreamcraft:item.AluminiumIronPlate>, <ore:wireGt01RedAlloy>]]);
-
-// --- Solar Panel 8EU
-//recipes.addShaped(<gregtech:gt.metaitem.01:32751>, [
-//[<gregtech:gt.metaitem.03:32033>, <gregtech:gt.metaitem.01:32750>, <gregtech:gt.metaitem.03:32033>],
-//[<ore:circuitGood>, <ore:plateGalliumArsenide>, <ore:circuitGood>],
-//[<ore:wireGt01Tin>, <dreamcraft:item.ReinforcedAluminiumIronPlate>, <ore:wireGt01Tin>]]);
-
-// --- Solar Panel 32EU
-//recipes.addShaped(<gregtech:gt.metaitem.01:32752>, [
-//[<gregtech:gt.metaitem.03:32034>, <gregtech:gt.metaitem.01:32751>, <gregtech:gt.metaitem.03:32034>],
-//[<ore:circuitAdvanced>, <ore:plateDoubleGalliumArsenide>, <ore:circuitAdvanced>],
-//[<ore:wireGt01Cobalt>, <dreamcraft:item.IrradiantReinforcedAluminiumPlate>, <ore:wireGt01Cobalt>]]);
-
-// --- Solar Panel 128 EU
-//recipes.addShaped(<gregtech:gt.metaitem.01:32753>, [
-//[<gregtech:gt.metaitem.03:32034>, <gregtech:gt.metaitem.01:32752>, <gregtech:gt.metaitem.03:32034>],
-//[<ore:circuitElite>, <ore:plateTrippleGalliumArsenide>, <ore:circuitElite>],
-//[<ore:wireGt01AnnealedCopper>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <ore:wireGt01AnnealedCopper>]]);
-
 // --- Solar Panel HV 32 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32752>, [
 [null, null, null, null, null, null, null, null, null],
@@ -678,37 +654,37 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32752>, [
 // --- Solar Panel HV 128 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32753>, [
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <gregtech:gt.metaitem.03:32063>, null, null, null, null],
 [null, null, null, <ore:wireGt01SuperconductorMV>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <ore:wireGt01SuperconductorMV>, null, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:plateEpoxid>, <gregtech:gt.metaitem.03:32034>, null, null, null],
 [null, null, null, <ore:circuitData>, <gregtech:gt.metaitem.01:32752>, <ore:circuitData>, null, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:plateEpoxid>, <gregtech:gt.metaitem.03:32034>, null, null, null],
 [null, null, null, <ore:wireGt01SuperconductorMV>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <ore:wireGt01SuperconductorMV>, null, null, null],
-[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <gregtech:gt.metaitem.03:32063>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Solar Panel HV 512 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32754>, [
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <gregtech:gt.metaitem.03:32065>, null, null, null, null],
 [null, null, null, <ore:wireGt01SuperconductorHV>, <dreamcraft:item.IrradiantReinforcedTungstenPlate>, <ore:wireGt01SuperconductorHV>, null, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:plateIndiumGalliumPhosphide>, <gregtech:gt.metaitem.03:32034>, null, null, null],
 [null, null, <ore:circuitElite>, <ore:circuitElite>, <gregtech:gt.metaitem.01:32753>, <ore:circuitElite>,  <ore:circuitElite>, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:plateIndiumGalliumPhosphide>, <gregtech:gt.metaitem.03:32034>, null, null, null],
 [null, null, null, <ore:wireGt01SuperconductorHV>, <dreamcraft:item.IrradiantReinforcedTungstenPlate>, <ore:wireGt01SuperconductorHV>, null, null, null],
-[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <gregtech:gt.metaitem.03:32065>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Solar Panel EV 2048 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32755>, [
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <gregtech:gt.metaitem.03:32051>, null, null, null, null],
 [null, null, <ore:wireGt01SuperconductorEV>, <ore:plateTripleSilicon>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:plateTripleSilicon>, <ore:wireGt01SuperconductorEV>, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32035>, <ore:platePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, null, null, null],
 [null, <ore:wireGt01SuperconductorEV>, <ore:circuitMaster>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32754>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:wireGt01SuperconductorEV>, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:platePolybenzimidazole>, <gregtech:gt.metaitem.03:32034>, null, null, null],
 [null, null, <ore:wireGt01SuperconductorEV>, <ore:plateTripleSilicon>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:plateTripleSilicon>, <ore:wireGt01SuperconductorEV>, null, null],
-[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, <gregtech:gt.metaitem.03:32051>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Solar Panel IV 8192 EU
