@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.5.0 is out 10.09.2018
+Version 2.0.6.0 is out 16.11.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -123,16 +123,9 @@ http://www.prospercraft.com/<BR>
 newhorizonsold.prospercraft.com<BR>
 newhorizons.prospercraft.com<BR>
 
-
-Stone Legion (whitelist)<BR>
-http://stonelegion.com/<BR>
-s5.stonelegion.com:2005<BR>
-
-
 Boqqed up  (whitelist)<BR>
 Discord: https://discord.gg/3D897y4<BR>
 http://jesus2xs.com/<BR>
-
 
 
 ## German Server:<BR>
@@ -168,7 +161,7 @@ you find it in your resource folder<BR>
 * AppleCore 1.3.9<BR>
 * Applied Energistics rv3beta17<BR>
 * Aqua Creeper 1.0.1<BR>
-* Architecture Craft 1.7.2<BR>
+* Architecture Craft 1.7.3<BR>
 * Automagy 0.28.2<BR>
 * Avaritia 1.14custom<BR>
 * Avaritiaddons 1.4b<BR>
@@ -201,7 +194,7 @@ you find it in your resource folder<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2m<BR>
-* Electro Magic Tools 1.2.7.2<BR>
+* Electro Magic Tools 1.2.7.4<BR>
 * Ender IO 2.3.0.432<BR>
 * Ender Storage 1.4.7.38<BR>
 * Ender Zoo 1.0.15.32<BR>
@@ -214,7 +207,7 @@ you find it in your resource folder<BR>
 * Find It 1.0.1<BR>
 * Flood Light 1.2.8.137<BR>
 * Forbidden Magic 0.575<BR>
-* Forestry 4.2.17.0<BR>
+* Forestry 4.2.18.0<BR>
 * Forge Microblocks 1.2.0.347<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
@@ -225,10 +218,10 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.36<BR>
+* Gregtech 5.09.33.03<BR>
 * GT Scanner Mod 1.5.3<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.39<BR>
+* GT New Horizons Core Mod 1.6.03<BR>
 * GT++ 1.7.02.09<BR>
 * GTNH TC Wands 1.0.4<BR>
 * GTTweaker 1.7.0<BR>
@@ -237,7 +230,7 @@ you find it in your resource folder<BR>
 * Holo Inventory 1.9.1.124<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
-* IFU 1.2<BR>
+* IFU 1.4<BR>
 * IguanaTinkerTweaks 2.1.2<BR>
 * Industrial Craft 2 2.2.2.828a<BR>
 * Industrial Craft 2 Nei Plugin 1.1.0<BR>
@@ -245,7 +238,7 @@ you find it in your resource folder<BR>
 * Inventory Tweaks 1.59.156<BR>
 * Iron Chest Minecarts 1.0.4<BR>
 * Iron Chests 6.0.62.745<BR>
-* Iron Tanks 1.1.65a<BR>
+* Iron Tanks 1.1.16<BR>
 * Jabba 1.2.5<BR>
 * JourneyMap 5.1.4p2<BR>
 * Lootgames 1.0.16<BR>
@@ -265,9 +258,7 @@ you find it in your resource folder<BR>
 * Open Blocks 1.6.753<BR>
 * Open Computers 1.7.2 Build 1166<BR>
 * Open Modular Turrets 2.2.10.238<BR>
-* Open Peripheral Addons 0.6.249<BR>
-* Open Peripheral Core 1.4.280<BR>
-* Open Peripheral Integration 0.6.95<BR>
+* Open Glasses 1.0.46
 * Open Printers 0.1.0.132<BR>
 * Open Security 1.0-109<BR>
 * Pam's Harvestcraft 1.7.10-n<BR>
@@ -303,14 +294,14 @@ you find it in your resource folder<BR>
 * Super Tic 1.2<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.6a<BR>
+* Tec Tech 3.6.7<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
-* Thaumic Bases 1.4.17.0<BR>
+* Thaumic Bases 1.4.18.0<BR>
 * Thaumic Energistics 1.1.3.0<BR>
 * Thaumic Exploration 1.1.73<BR>
-* Thaumic Horizon 1.1.9<BR>
+* Thaumic Horizon 1.1.9.7<BR>
 * Thaumic Machina 0.2.1<BR>
 * Thaumic Tinkerer 2.5.555-GTNH<BR>
 * TiCTooltips 1.2.5<BR>
