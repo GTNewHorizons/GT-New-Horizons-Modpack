@@ -1474,7 +1474,7 @@ recipes.addShapeless(<IC2:itemCellEmpty>, [<IC2:itemFluidCell>]);
 // --- CF Powder
 recipes.addShaped(<IC2:itemPartCFPowder>, [
 [<ore:dustCalcite>, <ore:dustCalcite>, <ore:dustStone>],
-[<ore:dustClay>, <dreamcraft:item.SandDust>, null],
+[<ore:dustClay>, <ore:dustQuartzSand>, null],
 [null, null, null]]);
 
 
