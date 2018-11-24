@@ -1698,7 +1698,7 @@ comb.add(<gregtech:gt.comb:69>);
 oreDict.combHv.add(<gregtech:gt.comb:69>);
 comb.add(<gregtech:gt.comb:70>);
 oreDict.combIv.add(<gregtech:gt.comb:70>);
-comb.add(<gregtech:gt.comb:71
+comb.add(<gregtech:gt.comb:71>);
 oreDict.combLv.add(<gregtech:gt.comb:71>);
 comb.add(<gregtech:gt.comb:72>);
 oreDict.combIv.add(<gregtech:gt.comb:72>);
