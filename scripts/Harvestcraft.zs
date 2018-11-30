@@ -10,6 +10,8 @@ import mods.ic2.Extractor;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
+import minetweaker.item.IItemStack;
+import minetweaker.item.IIngredient;
 
 
 // --- Variables ---
@@ -23,6 +25,29 @@ val WovenCloth = <harvestcraft:wovencottonItem>;
 val String = <minecraft:string>;
 val Cotton = <Natura:barleyFood:3>;
 val flour = <ore:dustWheat>;
+
+var Trapdoors = [
+<Natura:trapdoor.eucalyptus>,
+<Natura:trapdoor.sakura>,
+<Natura:trapdoor.ghostwood>,
+<Natura:trapdoor.redwood>,
+<Natura:trapdoor.bloodwood>,
+<Natura:trapdoor.hopseed>,
+<Natura:trapdoor.maple>,
+<Natura:trapdoor.amaranth>,
+<Natura:trapdoor.silverbell>,
+<Natura:trapdoor.tiger>,
+<Natura:trapdoor.willow>,
+<Natura:trapdoor.darkwood>,
+<Natura:trapdoor.fusewood>,
+<malisisdoors:trapdoor_acacia>,
+<malisisdoors:trapdoor_birch>,
+<malisisdoors:trapdoor_dark_oak>,
+<malisisdoors:trapdoor_jungle>,
+<malisisdoors:trapdoor_spruce>]
+as IItemStack[];
+
+var Animaltrap = <harvestcraft:animaltrap>;
 
 // --- Removing Recipes ---
 
@@ -461,7 +486,13 @@ recipes.addShaped(<harvestcraft:onionsoupItem>, [
 [<harvestcraft:stockItem>, <harvestcraft:cheeseItem>, null],
 [null, null, null]]);
 
-
+// --- Animaltrap
+for i, Trapdoor in Trapdoors {  
+recipes.addShaped(Animaltrap, [
+[<ore:stickWood>, Trapdoor, <ore:stickWood>],
+[<minecraft:string>, <ore:chestWood>, <minecraft:string>],
+[<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
+}
 
 
 // --- Ordicted Things ---
