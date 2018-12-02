@@ -524,9 +524,9 @@ recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>, [
 
 // --- Auto Workbench
 recipes.addShaped(AutoWorkB, [
-[<IC2:itemCasing:4>, <ore:gearGtSmallAnyIron>, <IC2:itemCasing:4>],
+[<ore:itemCasingAnyIron>, <ore:gearGtSmallAnyIron>, <ore:itemCasingAnyIron>],
 [<ore:gearGtSmallAnyIron>, <Forestry:factory2:2>, <ore:gearGtSmallAnyIron>],
-[<IC2:itemCasing:4>, <gregtech:gt.metaitem.01:32600>, <IC2:itemCasing:4>]]);
+[<ore:itemCasingAnyIron>, <gregtech:gt.metaitem.01:32600>, <ore:itemCasingAnyIron>]]);
 
 // --- Paint Brush
 recipes.addShapeless(<BuildCraft|Core:paintbrush>, [<OpenBlocks:paintBrush>]);
