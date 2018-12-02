@@ -2,6 +2,15 @@
 
 
 
+// --- Importing Stuff ---
+
+
+//import mods.gregtech.BlastFurnace;
+import mods.gregtech.FormingPress;
+import mods.gregtech.Mixer;
+
+
+
 
 // --- Remove Recipes ---
 
@@ -23,16 +32,42 @@ recipes.remove(<witchery:ingredient:73>);
 // --- Null Catalyst duplication
 recipes.removeShapeless(<witchery:ingredient:130>, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>]);
 
-//recipes.remove(<witchery:distilleryidle>);
-//recipes.remove(<witchery:ingredient:10>);
-//recipes.remove(<witchery:altar>);
+// --- Altar
+recipes.remove(<witchery:altar>);
+
+// --- Candelabra
+recipes.remove(<witchery:ingredient>);
+
+// --- Chalice
+recipes.remove(<witchery:ingredient:1>);
+
+// --- Kettle
+recipes.remove(<witchery:kettle>);
+
+// --- Arthana
+recipes.remove(<witchery:arthana>);
+
+// --- Anointing Paste
+recipes.remove(<witchery:ingredient:153>);
+
+// --- Quicklime 
+recipes.remove(<witchery:ingredient:16>);
+//recipes.remove(<witchery:poppetshelf>);
 //recipes.remove(<witchery:poppet>);
 //recipes.remove(<witchery:poppet:*>);
-//recipes.remove(<witchery:kettle>);
-//recipes.remove(<witchery:spinningwheel>);
-//recipes.remove(<witchery:poppetshelf>);
+//recipes.remove(<witchery:ingredient:10>);
 
+// --- Soft Clay Jar
+recipes.remove(<witchery:ingredient:26>);
 
+// --- Clay Jar
+//furnace.remove(<witchery:ingredient:27>);
+
+// --- Spinning Wheel
+recipes.remove(<witchery:spinningwheel>);
+
+// --- Distillery
+recipes.remove(<witchery:distilleryidle>);
 
 
 
@@ -40,11 +75,11 @@ recipes.removeShapeless(<witchery:ingredient:130>, [<witchery:ingredient:130>, <
 
 
 // --- Witchery Tab
-mods.thaumcraft.Research.addTab("WITHERY", "dreamcraft", "textures/thaumcraft/icon/icon_Witchery.png", "dreamcraft", "textures/thaumcraft/tab/tab_Witchery.png");
-game.setLocalization("tc.research_category.WITHERY", "Witchery");
+mods.thaumcraft.Research.addTab("WITCHERY", "dreamcraft", "textures/thaumcraft/icon/icon_Witchery.png", "dreamcraft", "textures/thaumcraft/tab/tab_Witchery.png");
+game.setLocalization("tc.research_category.WITCHERY", "Witchery");
 
 // --- Warmwood
-recipes.addShaped(<witchery:ingredient:111>, [
+recipes.addShaped(<witchery:seedswormwood>, [
 [<witchery:mutator>.transformDamage(), <witchery:somniancotton>, null],
 [<witchery:somniancotton>, <minecraft:wheat>, <witchery:somniancotton>],
 [null, <witchery:somniancotton>, null]]);
@@ -52,22 +87,174 @@ recipes.addShaped(<witchery:ingredient:111>, [
 // --- Null Catalyst doublication
 recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>]);
 
+// --- Quicklime 
+recipes.addShapeless(<witchery:ingredient:16>, [<gregtech:gt.metaitem.01:2622>]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:2622>, [<witchery:ingredient:16>]);
+
+
+
+// --- Blast furnace recipes ---
+
+
+
+// --- Clay Jar
+//BlastFurnace.addRecipe([<witchery:ingredient:27>], [<witchery:ingredient:26>], 600, 120, 1000); 
+
+
+
+
+// --- Forming Press Recipes ---
+
+
+
+// --- Soft Clay Jar
+FormingPress.addRecipe(<witchery:ingredient:26> * 4, <minecraft:clay_ball> * 4, <gregtech:gt.metaitem.01:32305> * 0, 400, 30);
+
+
+
+
+// --- Mixer Recipes ---
+
+
+
+// --- Anointing Paste
+Mixer.addRecipe(<witchery:ingredient:153>, null, [<witchery:seedsbelladonna>, <witchery:seedsmandrake>, <witchery:seedsartichoke>, <witchery:seedssnowbell>], <liquid:water> * 1000, 400, 120);
+
+
+
+
+// --- Anointing Paste
+mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITCHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -2, 2, <witchery:ingredient:153>);
+game.setLocalization("tc.research_name.ANOINTINGPASTE", "Anointing Paste");
+game.setLocalization("tc.research_text.ANOINTINGPASTE", "[WI] Magical Paste");
+mods.thaumcraft.Research.addPage("ANOINTINGPASTE", "Witchery.research_page.ANOINTINGPASTE.1");
+game.setLocalization("Witchery.research_page.ANOINTINGPASTE.1", "Anointing Paste is smeared onto a regular cauldron to turn it into a Witches' Cauldron, ready for brewing interesting potions and spells. Simply place the Cauldron in the world, and then use the Anointing Paste on it to convert it into a Witches' Cauldron. Mixing different witchery seeds in a mixer with water will give anointing paste");
+
 // --- Oven
-mods.thaumcraft.Research.addResearch("OVEN", "WITHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
+mods.thaumcraft.Research.addResearch("OVEN", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
 game.setLocalization("tc.research_name.OVEN", "Witchery Oven");
 game.setLocalization("tc.research_text.OVEN", "[WI] The tales of Hansel and Gretel");
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.1");
 game.setLocalization("Witchery.research_page.OVEN.1", "The witches oven, made infamous in the tale of Hansel and Gretel, is a very practical device for the would-be witch or warlock. While unable to smelt metals, the oven is particularly good at cooking food and making charcoal; cooking about 10% faster than a furnace. The second, and probably more important feature of a witches oven, is that it is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot.");
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.2");
 game.setLocalization("Witchery.research_page.OVEN.2", "Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.");
-mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 25, ignis 25, terra 25", [
+mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 20, ignis 20, terra 20", [
 [<ore:plateSteel>, <ore:plateThaumium>, <ore:plateSteel>],
 [<dreamcraft:item.SteelBars>, <Thaumcraft:blockMetalDevice>, <dreamcraft:item.SteelBars>],
-[<ExtraUtilities:microblocks:1>.withTag({mat: "Railcraft:cube_2"}), <IC2:blockMachine:1>, <ExtraUtilities:microblocks:1>.withTag({mat: "Railcraft:cube_2"})]]);
+[<IC2:blockFenceIron>, <IC2:blockMachine:1>, <IC2:blockFenceIron>]]);
 mods.thaumcraft.Research.addArcanePage("OVEN", <witchery:witchesovenidle>);
 
+// --- Kettle
+mods.thaumcraft.Research.addResearch("KETTLE", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, ignis 6", 2, 0, 4, <witchery:kettle>);
+game.setLocalization("tc.research_name.KETTLE", "Witchery Kettle");
+game.setLocalization("tc.research_text.KETTLE", "[WI] Hocus pocus");
+mods.thaumcraft.Research.addPrereq("KETTLE", "OVEN", false);
+mods.thaumcraft.Research.setConcealed("KETTLE", true);
+mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.1");
+game.setLocalization("Witchery.research_page.KETTLE.1", "Nothing invokes the image of witchcraft more than a bubbling witches kettle (or cauldron), which is used to make witches brews and later infusions.<BR>A kettle must be set up in the correct way, before it may be used. Firstly, a fire must be set under the kettle (netherrack is best for this, but wood will do just as well). Next the kettle must be filled by using a Water-filled Bucket on it. Thirdly, the ingredients for the brew or infusion must be thrown into the kettle (the liquid will change color according to the recipe being used). Finally, a glass bottle must be used on the kettle to bottle the resulting brew.");
+mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.2");
+game.setLocalization("Witchery.research_page.KETTLE.2", "It is important to keep the fire going constantly while the recipe is being prepared, otherwise it will be ruined. Swirls coming from the kettle is a sign all is well, black smoke (and brown liquid) indicates the brew is ruined. When a brew is ruined, the kettle must be emptied with a glass bottle, or just filled with more water, and the whole process repeated. When a brew is complete, the liquid will be the color of the resulting brew and will splutter (in addition to white swirls). Some recipes will require magical energy from a nearby Altar before they are bottled. If the brew is bottled when insufficient energy is available, the brew will be ruined. Black swirls coming from the Kettle is a good sign there is not enough power.");
+mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.3");
+game.setLocalization("Witchery.research_page.KETTLE.3", "A kettle must be within 14 (to 16) blocks of an Altar in order to obtain power from it (it can obtain power only from a single altar).");
+mods.thaumcraft.Arcane.addShaped("KETTLE", <witchery:kettle>, "aer 40, ignis 40, aqua 40, perditio 40", [
+[<ore:craftingToolScrewdriver>, <dreamcraft:item.SteelBars>, <ore:craftingToolHardHammer>],
+[<ore:plateSteel>, <witchery:ingredient:10>, <ore:plateSteel>],
+[<ore:screwThaumium>, <minecraft:cauldron>, <ore:screwThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("KETTLE", <witchery:kettle>);
+
+// --- Spinning Wheel
+mods.thaumcraft.Research.addResearch("SPINNINGWHEELW", "WITCHERY", "arbor 18, motus 15, fabrico 12, instrumentum 9, aer 6, praecantatio 3", 4, 0, 4, <witchery:spinningwheel>);
+game.setLocalization("tc.research_name.SPINNINGWHEELW", "Witchery Spinning Wheel");
+game.setLocalization("tc.research_text.SPINNINGWHEELW", "[WI] Round and round...");
+mods.thaumcraft.Research.addPrereq("SPINNINGWHEELW", "KETTLE", false);
+mods.thaumcraft.Research.setConcealed("SPINNINGWHEELW", true);
+mods.thaumcraft.Research.addPage("SPINNINGWHEELW", "Witchery.research_page.SPINNINGWHEELW");
+game.setLocalization("Witchery.research_page.SPINNINGWHEELW", "A Spinning Wheel is a device for spinning materials into thread. It is a magical device that draws power from a nearby Altar. To start spinning, place the raw material in the slot on the left, any additional ingredients in the bottom slots and the process will begin as long as there is sufficient power.<BR>The spinning wheel can be used to make Golden Thread, Fanciful Thread and Tormented Twine.");
+mods.thaumcraft.Arcane.addShaped("SPINNINGWHEELW", <witchery:spinningwheel>, "aer 60, ignis 60, ordo 60, perditio 60", [
+[<ore:stickStainlessSteel>, <witchery:ingredient:10>, <ore:screwStainlessSteel>],
+[<minecraft:item_frame>, <minecraft:item_frame>, <minecraft:item_frame>],
+[<ore:stickStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:stickStainlessSteel>]]);
+mods.thaumcraft.Research.addArcanePage("SPINNINGWHEELW", <witchery:spinningwheel>);
+
+// --- Distillery
+mods.thaumcraft.Research.addResearch("DISTILLERY", "WITCHERY", "metallum 18, motus 15, fabrico 12, instrumentum 9, aqua 6, praecantatio 3", 6, 0, 4, <witchery:distilleryidle>);
+game.setLocalization("tc.research_name.DISTILLERY", "Distillery");
+game.setLocalization("tc.research_text.DISTILLERY", "[WI] Blub...Blub...");
+mods.thaumcraft.Research.addPrereq("DISTILLERY", "SPINNINGWHEELW", false);
+mods.thaumcraft.Research.setConcealed("DISTILLERY", true);
+mods.thaumcraft.Research.addPage("DISTILLERY", "Witchery.research_page.DISTILLERY");
+game.setLocalization("Witchery.research_page.DISTILLERY", "A distillery used by a witch is a construct used for distilling magical ingredients. It is unlike a normal distillery, because it heats itself using energy obtained from a nearby altar, the distillery must be within about 14 (to 16) blocks of an altar to draw power from it, a small icon is shown in the interface if no power is available.One or two ingredients are distilled together and will result in up to four distillates; or resulting materials. A supply of clay jars is also needed to capture the some or all of the distillates.A distillery is crafted using Iron Ingots, Gold Ingots, an Attuned Stone and Clay jars.");
+mods.thaumcraft.Arcane.addShaped("DISTILLERY", <witchery:distilleryidle>, "aer 80, ignis 80, ordo 80, perditio 80, aqua 80", [
+[<witchery:ingredient:27>, <witchery:ingredient:10>, <witchery:ingredient:27>],
+[<ore:pipeSmallStainlessSteel>, <witchery:cauldron>, <ore:pipeSmallStainlessSteel>],
+[<ore:plateDenseThaumium>, <ore:craftingIronFurnace>, <ore:plateDenseThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("DISTILLERY", <witchery:distilleryidle>);
+
+// --- Altar
+mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2, 0, 4, <witchery:altar>);
+game.setLocalization("tc.research_name.ALTAR", "Witchery Altar");
+game.setLocalization("tc.research_text.ALTAR", "[WI] Our Father");
+mods.thaumcraft.Research.addPrereq("ALTAR", "OVEN", false);
+mods.thaumcraft.Research.addPrereq("ALTAR", "ARCANESTONE", false);
+mods.thaumcraft.Research.setConcealed("ALTAR", true);
+mods.thaumcraft.Research.addPage("ALTAR", "Witchery.research_page.ALTAR.1");
+game.setLocalization("Witchery.research_page.ALTAR.1", "An altar is a focal point to concentrate the magic present in the surrounding area into single usable source of power. Since witchcraft is a method to harness the power of nature, placing an altar in a location with little or no living things will yield very little magic to work with. There is a reason why most witches huts are found deep in dark forests or swamps!<BR>An altar is created by placing six altar blocks in a 2x3 pattern; you will know it is correct when a red cloth appears over the top of the altar.");
+mods.thaumcraft.Research.addPage("ALTAR", "Witchery.research_page.ALTAR.2");
+game.setLocalization("Witchery.research_page.ALTAR.2", "Activating the altar by right-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery or kettle recipe.<BR>The maximum amount of power available is determined by how many natural items are in the vicinity of the altar, dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).");
+mods.thaumcraft.Arcane.addShaped("ALTAR", <witchery:altar> * 2, "terra 20, ignis 20, ordo 20", [
+[<witchery:ingredient:32>, <Thaumcraft:blockCosmeticSolid:6>, <witchery:ingredient:31>],
+[<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>],
+[<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>]]);
+mods.thaumcraft.Research.addArcanePage("ALTAR", <witchery:altar>);
+
+// --- Candelabra
+mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", -2, -2, 4, <witchery:ingredient>);
+game.setLocalization("tc.research_name.CANDELABRA", "Candelabra");
+game.setLocalization("tc.research_text.CANDELABRA", "[WI] It became light");
+mods.thaumcraft.Research.addPrereq("CANDELABRA", "ALTAR", false);
+mods.thaumcraft.Research.addPrereq("CANDELABRA", "TALLOW", false);
+mods.thaumcraft.Research.setConcealed("CANDELABRA", true);
+mods.thaumcraft.Research.addPage("CANDELABRA", "Witchery.research_page.CANDELABRA");
+game.setLocalization("Witchery.research_page.CANDELABRA", "The candelabra is an upgrade for an altar that improves its recharge rate. The chalice will increase the recharge rate by 2x the base recharge rate.<BR>The candelabra is an upgrade to a torch. Only one torch upgrade will have an effect on an altar.");
+mods.thaumcraft.Arcane.addShaped("CANDELABRA", <witchery:ingredient> , "terra 5, ignis 10, ordo 5", [
+[<Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>],
+[<ore:stickIron>, <witchery:ingredient:10>, <ore:stickIron>],
+[<ore:plateIron>, <ore:stickThaumium>, <ore:plateIron>]]);
+mods.thaumcraft.Research.addArcanePage("CANDELABRA", <witchery:ingredient>);
+
+// --- Chalice
+mods.thaumcraft.Research.addResearch("CHALICE", "WITCHERY", "praecantatio 15, lucrum 12, metallum 9, terra 6", -4, 0, 4, <witchery:ingredient:1>);
+game.setLocalization("tc.research_name.CHALICE", "Chalice");
+game.setLocalization("tc.research_text.CHALICE", "[WI] Cheers");
+mods.thaumcraft.Research.addPrereq("CHALICE", "ALTAR", false);
+mods.thaumcraft.Research.setConcealed("CHALICE", true);
+mods.thaumcraft.Research.addPage("CHALICE", "Witchery.research_page.CHALICE");
+game.setLocalization("Witchery.research_page.CHALICE", "The chalice is an upgrade for an altar that improves the maximum amount of power an altar can hold. The chalice will increase the maximum power by 1x the base power rate.<BR>The chalice upgrades to the Filled Chalice. Only one chalice upgrade will have an effect on an altar.");
+mods.thaumcraft.Arcane.addShaped("CHALICE", <witchery:ingredient:1> , "aqua 15, terra 10, ordo 5", [
+[<ore:foilGold>, <witchery:ingredient:10>, <ore:foilGold>],
+[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
+[<ore:foilThaumium>, <ore:ingotGold>, <ore:foilThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("CHALICE", <witchery:ingredient:1>);
+
+// --- Arthana
+mods.thaumcraft.Research.addResearch("ARTHANA", "WITCHERY", "praecantatio 15, lucrum 12, instrumentum 9, mortuus 6", -4, -2, 4, <witchery:arthana>);
+game.setLocalization("tc.research_name.ARTHANA", "Arthana");
+game.setLocalization("tc.research_text.ARTHANA", "[WI] Ritualistic Knife");
+mods.thaumcraft.Research.addPrereq("ARTHANA", "ALTAR", false);
+mods.thaumcraft.Research.setConcealed("ARTHANA", true);
+mods.thaumcraft.Research.addPage("ARTHANA", "Witchery.research_page.ARTHANA.1");
+game.setLocalization("Witchery.research_page.ARTHANA.1", "An Arthana is a ritualistic knife use by witches and warlocks to both collect special ingredients and to perform some rites. It has the same general properties as a golden sword (damage, enchantability, etc.), although it has the durability of an iron sword. It is repaired with a Gold Ingot.<BR>The main purpose of the dagger is to collect specialist ingredients used in witchcraft, and to this end it will dramatically improve the chance of a mob dropping such ingredients (e.g. Wool of Bat, Tongue of Dog, etc.). It also gives a small chance of undead dropping Spectral Dust.");
+mods.thaumcraft.Research.addPage("ARTHANA", "Witchery.research_page.ARTHANA.2");
+game.setLocalization("Witchery.research_page.ARTHANA.2", "When only using vanilla Minecraft with Witchery (and no other mods), an Arthana dagger is the only way to get a skull to drop when a skeleton is killed, the drop chance is about 5% (the skull is a key upgrade for an altar). The dagger even gives a very small probability for other head drops (from mobs and players). All drop chances are increased with the Looting enchantment.<BR>An Arthana does not change the drop chance for Wither Skeleton Skulls, that will require the Looting enchantment as usual.<BR>Some Circle Magic rites use an Arthana as a foci, the Arthana is not consumed in the proces.");
+mods.thaumcraft.Arcane.addShaped("ARTHANA", <witchery:arthana> , "terra 20, perditio 15, ordo 10", [
+[<TConstruct:handGuard:16>, <ore:craftingToolScrewdriver>, <TConstruct:knifeBlade:202>],
+[<ore:screwThaumium>, <ore:gemEmerald>, <ore:craftingToolHardHammer>],
+[<TConstruct:toolRod:6>, <ore:screwThaumium>, <TConstruct:handGuard:16>]]);
+mods.thaumcraft.Research.addArcanePage("ARTHANA", <witchery:arthana>);
+
 // --- Fume Funnel
-mods.thaumcraft.Research.addResearch("FUMEFUNNEL", "WITHERY", "metallum 15, ignis 12, lux 9, sensus 6", 0, 2, 4, <witchery:fumefunnel>);
+mods.thaumcraft.Research.addResearch("FUMEFUNNEL", "WITCHERY", "metallum 15, ignis 12, lux 9, sensus 6", 0, 2, 4, <witchery:fumefunnel>);
 game.setLocalization("tc.research_name.FUMEFUNNEL", "Fume Funnel");
 game.setLocalization("tc.research_text.FUMEFUNNEL", "[WI] Upgrades Yea");
 mods.thaumcraft.Research.addPrereq("FUMEFUNNEL", "OVEN", false);
@@ -82,7 +269,7 @@ mods.thaumcraft.Research.addArcanePage("FUMEFUNNEL", <witchery:fumefunnel>);
 mods.thaumcraft.Warp.addToResearch("FUMEFUNNEL", 1);
 
 // --- Fitered Fume Funnel
-mods.thaumcraft.Research.addResearch("FILTEREDFUMEFUNNEL", "WITHERY", "metallum 15, vitreus 12, lux 9, praecantatio 6", 0, 4, 4, <witchery:filteredfumefunnel>);
+mods.thaumcraft.Research.addResearch("FILTEREDFUMEFUNNEL", "WITCHERY", "metallum 15, vitreus 12, lux 9, praecantatio 6", 0, 4, 4, <witchery:filteredfumefunnel>);
 game.setLocalization("tc.research_name.FILTEREDFUMEFUNNEL", "Filtered Fume Funnel");
 game.setLocalization("tc.research_text.FILTEREDFUMEFUNNEL", "[WI] Upgrades again? Yea!");
 mods.thaumcraft.Research.addPrereq("FILTEREDFUMEFUNNEL", "FUMEFUNNEL", false);
@@ -96,7 +283,7 @@ mods.thaumcraft.Research.addInfusionPage("FILTEREDFUMEFUNNEL", <witchery:filtere
 mods.thaumcraft.Warp.addToResearch("FILTEREDFUMEFUNNEL", 2);
 
 // --- Fume Filter
-mods.thaumcraft.Research.addResearch("FUMEFILTER", "WITHERY", "metallum 9, vitreus 9, lucrum 6, praecantatio 3", 2, 2, 2, <witchery:ingredient:73>);
+mods.thaumcraft.Research.addResearch("FUMEFILTER", "WITCHERY", "metallum 9, vitreus 9, lucrum 6, praecantatio 3", 2, 2, 4, <witchery:ingredient:73>);
 game.setLocalization("tc.research_name.FUMEFILTER", "Fume Filter");
 game.setLocalization("tc.research_text.FUMEFILTER", "[WI] More By-products");
 mods.thaumcraft.Research.addPrereq("FUMEFILTER", "DISTILESSENTIA", false);

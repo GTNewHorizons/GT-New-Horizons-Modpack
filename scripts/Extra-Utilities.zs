@@ -61,6 +61,10 @@ val Noteblock = <minecraft:noteblock>;
 val BUD = <ExtraUtilities:budoff>;
 val WaterBucket = <minecraft:water_bucket>;
 val LVRegulator = <gregtech:gt.blockmachines:9271>;
+val LuVFieldgen = <gregtech:gt.metaitem.01:32675>;
+val HVWA = <gregtech:gt.blockmachines:11102>;
+val EVWA = <gregtech:gt.blockmachines:11103>;
+val IVWA = <gregtech:gt.blockmachines:11104>;
 
 val SpeedUp = <ExtraUtilities:nodeUpgrade>;
 val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
@@ -74,7 +78,9 @@ val RoundRobinUp = <ExtraUtilities:nodeUpgrade:9>;
 
 val RedAlloyRod = <ore:stickRedAlloy>;
 val BronzeGear = <ore:gearBronze>;
+val WoodPlate = <ore:plateWood>;
 val IronPlate = <ore:plateAnyIron>;
+val GoldPlate = <ore:plateGold>;
 val DiamondPlate = <ore:plateDiamond>;
 val SteelRing = <ore:ringSteel>;
 val StainlessGear = <ore:gearStainlessSteel>;
@@ -89,6 +95,7 @@ val SteelScrew = <ore:screwSteel>;
 val RedAlloyPlate = <ore:plateRedAlloy>;
 val RedAlloyFoil = <ore:foilRedAlloy>;
 val ElectrumPlate = <ore:plateElectrum>;
+val EuropiumPlate = <ore:plateEuropium>;
 val ElectrumFoil = <ore:foilElectrum>;
 val EnderPearlPlate = <ore:plateEnderPearl>;
 val EnderEyePlate = <ore:plateEnderEye>;
@@ -98,7 +105,7 @@ val TitaniumGear = <ore:gearTitanium>;
 val TitaniumPlate = <ore:plateTitanium>;
 val ChromePlate = <ore:plateChrome>;
 val BasicCircuit = <ore:circuitBasic>;
-val GoodCircuit = <gregtech:gt.metaitem.01:32702>;
+val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val DataCircuit = <ore:circuitData>;
 val LVChestBuffer = <gregtech:gt.blockmachines:9231>;
@@ -581,7 +588,7 @@ mods.extraUtils.QED.addShapedRecipe(<AdvancedSolarPanel:BlockMolecularTransforme
 
 // --- Ender Quarry
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
-[EnderCore, <ore:gearTungstenSteel>, EnderCore],
+[EuropiumPlate, LuVFieldgen, EuropiumPlate],
 [EnderPump, DiamondMatrix, EnderPump],
 [EnderCore, AdvMiner, EnderCore]]);
 
@@ -647,21 +654,21 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:5>, [
 
 // --- Quarry Speed I Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [
-[UpgradeBase, <ore:gearTitanium>, UpgradeBase],
+[HVWA, <ore:gearTitanium>, HVWA],
 [SpeedUp, <ore:gearDiamond>, SpeedUp],
-[UpgradeBase, <ore:gearTitanium>, UpgradeBase]]);
+[HVWA, <ore:gearTitanium>, HVWA]]);
 
 // --- Quarry Speed II Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [
-[UpgradeBase, <ore:gearTungstenSteel>, UpgradeBase],
+[EVWA, <ore:gearTungstenSteel>, EVWA],
 [<ore:gearTungstenSteel>, <ExtraUtilities:enderQuarryUpgrade:6>, <ore:gearTungstenSteel>],
-[UpgradeBase, <ore:gearTungstenSteel>, UpgradeBase]]);
+[EVWA, <ore:gearTungstenSteel>, EVWA]]);
 
 // --- Quarry Speed III Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [
-[UpgradeBase, <ore:gearChrome>, UpgradeBase],
+[IVWA, <ore:gearChrome>, IVWA],
 [<ore:gearChrome>, <ExtraUtilities:enderQuarryUpgrade:7>, <ore:gearChrome>],
-[UpgradeBase, <ore:gearChrome>, UpgradeBase]]);
+[IVWA, <ore:gearChrome>, IVWA]]);
 
 // --- Quarry Pump Upgrade
 recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [
@@ -987,9 +994,9 @@ recipes.addShapeless(<ExtraUtilities:enderCollector>, [<RandomThings:advancedIte
 
 // --- Quiet Expencive Device QED
 recipes.addShaped(<ExtraUtilities:endConstructor>, [
-[<ore:plateEnderEye>, <ore:circuitData>, <ore:plateEnderEye>],
-[<ore:blockEnderObsidian>, <ExtraUtilities:decorativeBlock1:12>, <ore:blockEnderObsidian>],
-[<ore:plateTitanium>, <ExtraUtilities:decorativeBlock1:11>, <ore:plateTitanium>]]);
+[<ore:plateEnderEye>, <HardcoreEnderExpansion:altar_nexus>, <ore:plateEnderEye>],
+[<ore:blockEnderObsidian>, <Thaumcraft:blockStoneDevice:2>, <ore:blockEnderObsidian>],
+[<ore:plateTitanium>, <ExtraUtilities:decorativeBlock1:12>, <ore:plateTitanium>]]);
 
 // --- Ender Marker
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:endMarker>, [
@@ -999,27 +1006,27 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:endMarker>, [
 
 // --- Wood Spike Post
 recipes.addShaped(<ExtraUtilities:spike_base_wood> * 2, [
-[Saw, null, Screwdriver],
-[WoodScrew, Wood, WoodScrew],
-[Wood, Log, Wood]]);
+[Saw, <minecraft:wooden_sword>, Screwdriver],
+[WoodScrew, WoodPlate, WoodScrew],
+[WoodPlate, Log, WoodPlate]]);
 
 // --- Iron Spike Post
 recipes.addShaped(<ExtraUtilities:spike_base> * 2, [
-[Saw, null, Screwdriver],
-[IronScrew, IronIngot, IronScrew],
-[IronIngot, IronBlock, IronIngot]]);
+[Saw, <minecraft:iron_sword>, Screwdriver],
+[IronScrew, IronPlate, IronScrew],
+[IronPlate, IronBlock, IronPlate]]);
 
 // --- Gold Spike Post
 recipes.addShaped(<ExtraUtilities:spike_base_gold> * 2, [
-[Saw, null, Screwdriver],
-[GoldScrew, GoldIngot, GoldScrew],
-[GoldIngot, GoldBlock, GoldIngot]]);
+[Saw, <minecraft:golden_sword>, Screwdriver],
+[GoldScrew, GoldPlate, GoldScrew],
+[GoldPlate, GoldBlock, GoldPlate]]);
 
 // --- Diamond Spike Post
 recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
-[Saw, null, Screwdriver],
-[DiamondScrew, Diamond, DiamondScrew],
-[Diamond, DiamondBlock, Diamond]]);
+[Saw, <minecraft:diamond_sword>, Screwdriver],
+[DiamondScrew, DiamondPlate, DiamondScrew],
+[DiamondPlate, DiamondBlock, DiamondPlate]]);
 
 // --- Builder Wand
 recipes.addShaped(<ExtraUtilities:builderswand>, [
@@ -1195,6 +1202,10 @@ Assembler.addRecipe(ModSortingPipe, SortingPipe, <IC2:itemPartCircuit>, 300, 64)
 
 // --- Filter Pipe
 Assembler.addRecipe(FilterPipe, TransferPipe, <gregtech:gt.metaitem.01:32702>, 200, 64);
+// -
+Assembler.addRecipe(FilterPipe, TransferPipe, <gregtech:gt.metaitem.03:32079>, 200, 64);
+// -
+Assembler.addRecipe(FilterPipe, TransferPipe, <gregtech:gt.metaitem.03:32080>, 200, 64);
 
 // --- Rationing Pipe
 Assembler.addRecipe(RationingPipe, SortingPipe, <IC2:itemPartCircuitAdv>, 300, 64);

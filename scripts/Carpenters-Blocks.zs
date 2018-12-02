@@ -201,7 +201,10 @@ recipes.addShaped(<CarpentersBlocks:blockCarpentersBarrier>, [
 [WoodScrew, Screwdriver, WoodScrew]]);
 
 // --- Carpenters Pressure Plate
-recipes.addShapeless(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, [Saw, CarpentersBlock]);
+recipes.addShaped(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, [
+[WoodScrew, Hammer, WoodScrew],
+[CarpentersBlock, <ore:springAnyIron>, CarpentersBlock],
+[WoodScrew, Screwdriver, WoodScrew]]);
 
 // --- Carpenters Button
 recipes.addShapeless(<CarpentersBlocks:blockCarpentersButton>, [Saw, <CarpentersBlocks:blockCarpentersPressurePlate>]);
@@ -227,10 +230,7 @@ recipes.addShaped(<CarpentersBlocks:blockCarpentersLever>,  [
 [null, Screwdriver, null]]);
 
 // --- CarpentersBlock Wedge Slope
-recipes.addShaped(<CarpentersBlocks:blockCarpentersSlope> * 3, [
-[null, null, IronScrew],
-[null, Screwdriver, <CarpentersBlocks:blockCarpentersPressurePlate>],
-[IronScrew, <CarpentersBlocks:blockCarpentersPressurePlate>, <CarpentersBlocks:blockCarpentersPressurePlate>]]);
+recipes.addShapeless(<CarpentersBlocks:blockCarpentersSlope> * 2, [<CarpentersBlocks:blockCarpentersBlock>, Saw]);
 
 // --- Carpenters Stairs
 recipes.addShapeless(<CarpentersBlocks:blockCarpentersStairs>, [Saw, <CarpentersBlocks:blockCarpentersSlope>]);
@@ -290,10 +290,7 @@ Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLadder>, CarpentersBlock, <
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersLever>,  CarpentersBlock, <minecraft:lever>, 50, 16);
 
 // --- Carpenters Safe
-Assembler.addRecipe(Safe, CollapsibleBlock * 4, IC2Safe, 300, 30);
-
-// --- CarpentersBlock Wedge Slope
-Assembler.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 2, <CarpentersBlocks:blockCarpentersPressurePlate>, IronScrew, 100, 16);
+Assembler.addRecipe(Safe, CollapsibleBlock * 3, IC2Safe, 300, 30);
 
 // --- Carpenters Torch
 Assembler.addRecipe(<CarpentersBlocks:blockCarpentersTorch> * 10, CarpentersBlock, <minecraft:torch> * 10, 100, 16);
@@ -310,18 +307,18 @@ Assembler.addRecipe(<CarpentersBlocks:itemCarpentersTile> * 2, <CarpentersBlocks
 // ---  Carpenters Door
 Assembler.addRecipe(<CarpentersBlocks:itemCarpentersDoor>, CarpentersBlock, <minecraft:wooden_door>, 150, 16);
 
+// --- Carpenters Pressure Plate
+Assembler.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, CarpentersBlock * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
+// -
+Assembler.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 2, CarpentersBlock * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
+
+
 
 
 
 
 // --- Cutting Saw Recipes ---
 
-
-
-// --- Carpenters Pressure Plate
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:water> * 20, 100, 30);
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:ic2distilledwater> * 10, 100, 30);
-CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersPressurePlate> * 4, null, CarpentersBlock, <liquid:lubricant> * 2, 50, 30);
 
 
 // --- Carpenters Button
@@ -333,3 +330,8 @@ CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersButton> * 4, null, <Carpen
 CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:water> * 20, 100, 30);
 CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:ic2distilledwater> * 10, 100, 30);
 CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersStairs> * 4, null, <CarpentersBlocks:blockCarpentersSlope>, <liquid:lubricant> * 2, 50, 30);
+
+// --- CarpentersBlock Wedge Slope
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, null, <CarpentersBlocks:blockCarpentersBlock>, <liquid:water> * 20, 100, 16);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, null, <CarpentersBlocks:blockCarpentersBlock>, <liquid:ic2distilledwater> * 10, 100, 16);
+CuttingSaw.addRecipe(<CarpentersBlocks:blockCarpentersSlope> * 4, null, <CarpentersBlocks:blockCarpentersBlock>, <liquid:lubricant> * 2, 50, 16);

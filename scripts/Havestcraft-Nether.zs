@@ -80,54 +80,54 @@ recipes.addShaped(<harvestthenether:netherbedItem>, [
 recipes.addShaped(<harvestthenether:Quartz Sword>, [
 [null, <harvestthenether:quartzingotItem>, null],
 [<gregtech:gt.metaitem.01:17522>, <harvestthenether:quartzingotItem> * 64, <gregtech:gt.metaitem.01:17522>],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, <gregtech:gt.metatool.01:12>]]);
+[<ore:craftingToolFile>, <minecraft:stick>, <ore:craftingToolHardHammer>]]);
 
 // --- Quartz Shovel
 recipes.addShaped(<harvestthenether:Quartz Shovel>, [
 [<gregtech:gt.metaitem.01:17522>, <harvestthenether:quartzingotItem> * 64, <gregtech:gt.metaitem.01:17522>],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <minecraft:stick>, <ore:craftingToolHardHammer>],
 [null, <minecraft:stick>, null]]);
 
 // --- Quartz Pickaxe
 recipes.addShaped(<harvestthenether:Quartz Pickaxe>, [
 [<gregtech:gt.metaitem.01:17522>, <harvestthenether:quartzingotItem>, <harvestthenether:quartzingotItem>],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, <gregtech:gt.metatool.01:12>],
+[<ore:craftingToolFile>, <minecraft:stick>, <ore:craftingToolHardHammer>],
 [null, <minecraft:stick>, null]]);
 
 // --- Quartz Axe
 recipes.addShaped(<harvestthenether:Quartz Axe>, [
-[<gregtech:gt.metaitem.01:17522>, <harvestthenether:quartzingotItem>, <gregtech:gt.metatool.01:12>],
+[<gregtech:gt.metaitem.01:17522>, <harvestthenether:quartzingotItem>, <ore:craftingToolHardHammer>],
 [<gregtech:gt.metaitem.01:17522>, <minecraft:stick>, null],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, null]]);
+[<ore:craftingToolFile>, <minecraft:stick>, null]]);
 
 // --- Quartz Hoe
 recipes.addShaped(<harvestthenether:Quartz Hoe>, [
-[<gregtech:gt.metaitem.01:17522>, <harvestthenether:quartzingotItem>, <gregtech:gt.metatool.01:12>],
-[<gregtech:gt.metatool.01:18>, <minecraft:stick>, null],
+[<gregtech:gt.metaitem.01:17522>, <harvestthenether:quartzingotItem>, <ore:craftingToolHardHammer>],
+[<ore:craftingToolFile>, <minecraft:stick>, null],
 [null, <minecraft:stick>, null]]);
 
 // --- Quartz Helm
 recipes.addShaped(<harvestthenether:quartzhelmItem>, [
 [<harvestthenether:quartzingotItem>, <harvestthenether:quartzingotItem>, <harvestthenether:quartzingotItem>],
-[<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17522>],
+[<gregtech:gt.metaitem.01:17522>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17522>],
 [null, null, null]]);
 
 // --- Quartz Chestplate
 recipes.addShaped(<harvestthenether:quartzchestItem>, [
-[<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17522>],
+[<gregtech:gt.metaitem.01:17522>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17522>],
 [<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:17522>],
 [<harvestthenether:quartzingotItem>, <harvestthenether:quartzingotItem>, <harvestthenether:quartzingotItem>]]);
 
 // --- Quartz Leggins
 recipes.addShaped(<harvestthenether:quartzleggingsItem>, [
 [<harvestthenether:quartzingotItem>, <harvestthenether:quartzingotItem>, <harvestthenether:quartzingotItem>],
-[<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17522>],
+[<gregtech:gt.metaitem.01:17522>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17522>],
 [<gregtech:gt.metaitem.01:17522>, null, <gregtech:gt.metaitem.01:17522>]]);
 
 // --- Quartz Boots
 recipes.addShaped(<harvestthenether:quartzbootsItem>, [
 [<harvestthenether:quartzingotItem>, null, <harvestthenether:quartzingotItem>],
-[<gregtech:gt.metaitem.01:17522>, <gregtech:gt.metatool.01:12>, <gregtech:gt.metaitem.01:17522>],
+[<gregtech:gt.metaitem.01:17522>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17522>],
 [null, null, null]]);
 
 // --- Glow Flower Seed

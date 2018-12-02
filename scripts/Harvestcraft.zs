@@ -7,8 +7,11 @@
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
+import mods.gregtech.FormingPress;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
+import minetweaker.item.IItemStack;
+import minetweaker.item.IIngredient;
 
 
 // --- Variables ---
@@ -23,7 +26,28 @@ val String = <minecraft:string>;
 val Cotton = <Natura:barleyFood:3>;
 val flour = <ore:dustWheat>;
 
+var Trapdoors = [
+<Natura:trapdoor.eucalyptus>,
+<Natura:trapdoor.sakura>,
+<Natura:trapdoor.ghostwood>,
+<Natura:trapdoor.redwood>,
+<Natura:trapdoor.bloodwood>,
+<Natura:trapdoor.hopseed>,
+<Natura:trapdoor.maple>,
+<Natura:trapdoor.amaranth>,
+<Natura:trapdoor.silverbell>,
+<Natura:trapdoor.tiger>,
+<Natura:trapdoor.willow>,
+<Natura:trapdoor.darkwood>,
+<Natura:trapdoor.fusewood>,
+<malisisdoors:trapdoor_acacia>,
+<malisisdoors:trapdoor_birch>,
+<malisisdoors:trapdoor_dark_oak>,
+<malisisdoors:trapdoor_jungle>,
+<malisisdoors:trapdoor_spruce>]
+as IItemStack[];
 
+var Animaltrap = <harvestcraft:animaltrap>;
 
 // --- Removing Recipes ---
 
@@ -32,9 +56,6 @@ recipes.remove(<harvestcraft:sink:*>);
 
 // --- Market ---
 recipes.remove(<harvestcraft:market>);
-
-// --- Salt ---
-recipes.remove(<harvestcraft:saltItem>);
 
 // --- Salt Block
 recipes.remove(<harvestcraft:spamcompressedsaltBlockalt>);
@@ -180,10 +201,16 @@ recipes.remove(<harvestcraft:blueberryjuiceItem>);
 // --- Lemonade
 recipes.remove(<harvestcraft:lemonaideItem>);
 
+// --- Onion Soup
+recipes.remove(<harvestcraft:onionsoupItem>);
+
 
 
 // --- Adding Back Recipes ---
 
+// --- Edible Salt
+
+recipes.addShapeless(<dreamcraft:item.EdibleSalt>, [<ore:toolPot>, <ore:listAllwater>]);
 
 // --- Woven Cotton
 recipes.addShaped(WovenCloth, [
@@ -359,52 +386,41 @@ recipes.addShapeless(<harvestcraft:watergarden>, [<harvestcraft:tropicalgarden>,
 // --- Hardened Leather Helm
 recipes.addShaped(<harvestcraft:hardenedleatherhelmItem>, [
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
-[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [null, null, null]]);
 
 // --- Hardened Leather Chestplate
 recipes.addShaped(<harvestcraft:hardenedleatherchestItem>, [
-[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>]]);
 
 // --- Hardened Leather Leggins
 recipes.addShaped(<harvestcraft:hardenedleatherleggingsItem>, [
 [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
-[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>]]);
 
 // --- Hardened Leather Boots
 recipes.addShaped(<harvestcraft:hardenedleatherbootsItem>, [
 [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>],
-[<harvestcraft:hardenedleatherItem>, <gregtech:gt.metatool.01:12>, <harvestcraft:hardenedleatherItem>],
+[<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [null, null, null]]);
 
-// --- Hardened Leather
-recipes.addShaped(<harvestcraft:hardenedleatherItem>, [
-[<Backpack:tannedLeather>, <harvestcraft:waxItem>, <Backpack:tannedLeather>]]);
-
 // --- Fresh Milk
-recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>]);
 
-recipes.addShapeless(<harvestcraft:freshmilkItem> * 2, [<IguanaTweaksTConstruct:clayBucketMilk>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<harvestcraft:freshmilkItem> * 2, [<IguanaTweaksTConstruct:clayBucketMilk>]);
 
 // --- Fresh Water
-recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>]);
 
-recipes.addShapeless(<harvestcraft:freshwaterItem> * 2, [<IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
-
-// --- Salt
-recipes.addShapeless(<gregtech:gt.metaitem.01:1817>, [<harvestcraft:potItem>, <harvestcraft:freshwaterItem>]); 
-// -
-recipes.addShapeless(<gregtech:gt.metaitem.01:2817>, [<harvestcraft:potItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
-// -
-recipes.addShapeless(<gregtech:gt.metaitem.01:1817> * 2, [<harvestcraft:potItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<harvestcraft:freshwaterItem> * 2, [<IguanaTweaksTConstruct:clayBucketWater>]);
 
 // --- Wet Tofu
-recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <minecraft:water_bucket>]);
 // -
-recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <IguanaTweaksTConstruct:clayBucketWater>]);
 // -
 recipes.addShapeless(<dreamcraft:item.WetTofu>, [<harvestcraft:soybeanItem>, <harvestcraft:freshwaterItem>, <harvestcraft:freshwaterItem>]);
 
@@ -464,7 +480,19 @@ recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<ore:toolJuicer>, <ore:
 // --- Lemonade
 recipes.addShapeless(<harvestcraft:lemonaideItem>, [<ore:toolJuicer>, <ore:cropLemon>, <ore:listAllsugar>]);
 
+// --- Onion Soup
+recipes.addShaped(<harvestcraft:onionsoupItem>, [
+[<harvestcraft:potItem>, <ore:cropOnion>, null],
+[<harvestcraft:stockItem>, <harvestcraft:cheeseItem>, null],
+[null, null, null]]);
 
+// --- Animaltrap
+for i, Trapdoor in Trapdoors {  
+recipes.addShaped(Animaltrap, [
+[<ore:stickWood>, Trapdoor, <ore:stickWood>],
+[<minecraft:string>, <ore:chestWood>, <minecraft:string>],
+[<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
+}
 
 
 // --- Ordicted Things ---
@@ -656,9 +684,6 @@ Extractor.addRecipe(<harvestcraft:figjuiceItem>, <ExtraTrees:food:32>);
 // -
 Extractor.addRecipe(<harvestcraft:figjuiceItem>, <harvestcraft:figItem>);
 
-// --- Sugar
-Extractor.addRecipe(<minecraft:sugar>, <harvestcraft:beetItem>);
-
 // --- Cooking Oil
 Extractor.addRecipe(<harvestcraft:oliveoilItem>, <ExtraTrees:food:35>);
 // -
@@ -706,6 +731,14 @@ Extractor.addRecipe(<harvestcraft:chestnutbutterItem>, <Forestry:fruits:2>);
 
 // --- Pistachio Butter
 Extractor.addRecipe(<harvestcraft:pistachiobutterItem>, <harvestcraft:pistachioItem>);
+
+
+// --- Forming Press Recipes ---
+
+
+
+// --- Hardened Leather
+FormingPress.addRecipe(<harvestcraft:hardenedleatherItem>, <Backpack:tannedLeather> * 2, <harvestcraft:waxItem>, 300, 30);
 
 
 

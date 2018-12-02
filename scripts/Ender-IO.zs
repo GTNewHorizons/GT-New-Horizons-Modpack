@@ -22,6 +22,7 @@ import mods.gregtech.Pulverizer;
 val LvMotor = <gregtech:gt.metaitem.01:32600>;
 val MvMotor = <gregtech:gt.metaitem.01:32601>;
 val HvMotor = <gregtech:gt.metaitem.01:32602>;
+val RobotArmHV = <gregtech:gt.metaitem.01:32652>;
 val LvPump = <gregtech:gt.metaitem.01:32610>;
 val MvPump = <gregtech:gt.metaitem.01:32611>;
 val HvPump = <gregtech:gt.metaitem.01:32612>;
@@ -33,9 +34,9 @@ val Circuit = <ore:circuitBasic>;
 val GCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val EnergyFlowCircuit = <ore:circuitMaster>;
-val IronCasing = <IC2:itemCasing:4>;
-val SteelCasing = <IC2:itemCasing:5>;
-val AluCasing = <dreamcraft:item.AluminiumItemCasing>;
+val IronCasing = <ore:itemCasingAnyIron>;
+val SteelCasing = <ore:itemCasingSteel>;
+val AluCasing = <ore:itemCasingAluminium>;
 val IronRotor = <ore:rotorIron>;
 val SteelRotor = <ore:rotorSteel>;
 val Tank = <EnderIO:blockTank>;
@@ -47,7 +48,9 @@ val Capacitor3 = <EnderIO:itemBasicCapacitor:2>;
 val VAPlate = <gregtech:gt.metaitem.01:17367>;
 val PIPlate = <gregtech:gt.metaitem.01:17378>;
 val EAPlate = <gregtech:gt.metaitem.01:17366>;
+val DensePulsatingIronPlate = <ore:plateDensePulsatingIron>;
 val DiamondGear = <ore:gearDiamond>;
+val GearElectricSteel = <ore:gearElectricalSteel>;
 val Cauldron = <minecraft:cauldron>;
 val VCrystal = <EnderIO:itemMaterial:6>;
 val RedstonePlate = <ore:plateRedstone>;
@@ -114,7 +117,7 @@ val SoulariumRod = <ore:stickSoularium>;
 val Leather = <ore:itemLeather>;
 val TLeather = <Backpack:tannedLeather>;
 val MSScrew = <ore:screwSteelMagnetic>;
-
+val sgLargeCapacitor = <SGCraft:ic2Capacitor>;
 
 
 
@@ -519,9 +522,9 @@ recipes.addShaped(<EnderIO:blockPowerMonitor>, [
 
 // --- Farming Station
 recipes.addShaped(<EnderIO:blockFarmStation>, [
-[PCrystal, <IC2:itemToolHoe:*>, PCrystal],
-[GCircuit, MCasing, GCircuit],
-[MvMotor, ZLogic, MvMotor]]);
+[RobotArmHV, DensePulsatingIronPlate, RobotArmHV],
+[PCrystal, MCasing, PCrystal],
+[GearElectricSteel, ZLogic, GearElectricSteel]]);
 
 // --- Wireless Charger
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [
@@ -585,12 +588,12 @@ recipes.addShaped(<EnderIO:blockEnderIo>, [
 recipes.addShaped(<EnderIO:blockTravelAnchor>, [
 [ESteelPlate, PIPlate, ESteelPlate],
 [PCrystal, MCasing, PCrystal],
-[ESteelPlate, PIPlate, ESteelPlate]]);
+[ESteelPlate, <gregtech:gt.metaitem.01:32670>, ESteelPlate]]);
 
 // --- Telepad Block
 recipes.addShaped(<EnderIO:blockTelePad>, [
-[DarkSteelPlate, FQuartz, DarkSteelPlate],
-[Capacitor3, <EnderIO:blockTravelAnchor>, Capacitor3],
+[<dreamcraft:item.StargateShieldingFoil>, FQuartz, <dreamcraft:item.StargateShieldingFoil>],
+[sgLargeCapacitor, <SGCraft:sgCoreCrystal>, sgLargeCapacitor],
 [LuVMotor, LuVFieldGen, LuVMotor]]);
 
 // --- Slice and Splice
@@ -847,7 +850,7 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit>, <gregtech:gt.blockmachines:5112
 Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:5132>, <gregtech:gt.metaitem.01:17364>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Ender Fluid Conduit
-Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5142>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5680>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Item Conduit
 Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);
@@ -886,7 +889,7 @@ Assembler.addRecipe(<EnderIO:itemExtractSpeedUpgrade:1>, <EnderIO:itemExtractSpe
 Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <gregtech:gt.metaitem.01:25379>, 200, 48);
 
 // --- Dark Clear Glass
-Assembler.addRecipe(<EnderIO:blockFusedQuartz:5>, <minecraft:dye>, <EnderIO:blockFusedQuartz:1>, 100, 48);
+//Assembler.addRecipe(<EnderIO:blockFusedQuartz:5>, <minecraft:dye>, <EnderIO:blockFusedQuartz:1>, 100, 48);
 
 
 
@@ -919,3 +922,12 @@ FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.0
 
 // --- Binder Composite
 Pulverizer.addRecipe([<EnderIO:itemMaterial:2> * 9], <IC2:itemPartCFPowder>, [10000], 300, 2);
+
+
+
+// --- Tooltips ---
+
+
+
+// --- Untreated Frame (Forestry)
+<EnderIO:blockTravelAnchor>.addTooltip("Cooldown 5 seconds");

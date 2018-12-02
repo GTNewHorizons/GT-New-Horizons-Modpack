@@ -22,6 +22,13 @@ import mods.gregtech.Pulverizer;
 // --- Variables ---
 
 
+var IronOreberry = <TConstruct:oreBerries:0>;
+var GoldOreberry = <TConstruct:oreBerries:1>;
+var CopperOreberry = <TConstruct:oreBerries:2>;
+var TinOreberry = <TConstruct:oreBerries:3>;
+var AluminiumOreberry = <TConstruct:oreBerries:4>;
+var EssenceOreberry = <TConstruct:oreBerries:5>;
+
 val CastingBasin = <TConstruct:SearedBlock:2>;
 val String = <minecraft:string>;
 val SilkyCloth = <TConstruct:materials:25>;
@@ -80,6 +87,14 @@ val Paintbrush = <ExtraUtilities:paintbrush>;
 
 // --- Removing Recipes ---
 
+
+// --- Tooltips ---
+IronOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+TinOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+CopperOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+GoldOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+AluminiumOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+EssenceOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
 
 // --- Blocks ---
 
@@ -1351,7 +1366,7 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:12>, <liquid:alumin
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, 500, <TConstruct:MetalBlock:6>);
 
 // --- Steel Ingot
-//mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:16>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 600);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11305>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 800);
 
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);
@@ -1412,17 +1427,17 @@ recipes.addShaped(<TConstruct:SmelteryNether>, [
 // --- Seared Bricks
 recipes.addShaped(<TConstruct:Smeltery:2> * 2, [
 [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>],
-[<TConstruct:materials:2>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <minecraft:water_bucket>, <TConstruct:materials:2>],
 [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
 // -
 recipes.addShaped(<TConstruct:Smeltery:2> * 2, [
 [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>],
-[<TConstruct:materials:2>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), <TConstruct:materials:2>],
+[<TConstruct:materials:2>, <IguanaTweaksTConstruct:clayBucketWater>, <TConstruct:materials:2>],
 [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
 // -
 recipes.addShaped(<TConstruct:SmelteryNether:2> * 2, [
 [<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>],
-[<TConstruct:materials:37>, <minecraft:lava_bucket>.transformReplace(<minecraft:bucket>), <TConstruct:materials:37>],
+[<TConstruct:materials:37>, <minecraft:lava_bucket>, <TConstruct:materials:37>],
 [<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>]]);
 // -
 recipes.addShaped(<TConstruct:SmelteryNether:2> * 2, [
@@ -1542,52 +1557,52 @@ recipes.addShaped(<TConstruct:GlassPane> * 2, [
 // --- Grout
 recipes.addShaped(Grout * 4, [
 [Sand, Sand, Sand],
-[Claydust, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), Claydust],
+[Claydust, <minecraft:water_bucket>, Claydust],
 [Gravel, Gravel, Gravel]]);
 // -
 recipes.addShaped(Grout * 4, [
 [Gravel, Gravel, Gravel],
-[Claydust, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), Claydust],
+[Claydust, <minecraft:water_bucket>, Claydust],
 [Sand, Sand, Sand]]);
 // -
 recipes.addShaped(Grout * 4, [
 [Sand, Claydust, Gravel],
-[Sand, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), Gravel],
+[Sand, <minecraft:water_bucket>, Gravel],
 [Sand, Claydust, Gravel]]);
 // -
 recipes.addShaped(Grout * 4, [
 [Gravel, Claydust, Sand],
-[Gravel, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), Sand],
+[Gravel, <minecraft:water_bucket>, Sand],
 [Gravel, Claydust, Sand]]);
 
 recipes.addShaped(Grout * 4, [
 [Sand, Sand, Sand],
-[Claydust, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), Claydust],
+[Claydust, <IguanaTweaksTConstruct:clayBucketWater>, Claydust],
 [Gravel, Gravel, Gravel]]);
 // -
 recipes.addShaped(Grout * 4, [
 [Gravel, Gravel, Gravel],
-[Claydust, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), Claydust],
+[Claydust, <IguanaTweaksTConstruct:clayBucketWater>, Claydust],
 [Sand, Sand, Sand]]);
 // -
 recipes.addShaped(Grout * 4, [
 [Sand, Claydust, Gravel],
-[Sand, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), Gravel],
+[Sand, <IguanaTweaksTConstruct:clayBucketWater>, Gravel],
 [Sand, Claydust, Gravel]]);
 // -
 recipes.addShaped(Grout * 4, [
 [Gravel, Claydust, Sand],
-[Gravel, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>), Sand],
+[Gravel, <IguanaTweaksTConstruct:clayBucketWater>, Sand],
 [Gravel, Claydust, Sand]]);
 
 // --- Slime Soil
-recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <minecraft:soul_sand>, Gravel, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <minecraft:soul_sand>, Gravel, <minecraft:water_bucket>]);
 // -
-recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <minecraft:soul_sand>, Gravel, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <minecraft:soul_sand>, Gravel, <IguanaTweaksTConstruct:clayBucketWater>]);
 // -
-recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natura:soil.tainted>, <Natura:heatsand>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natura:soil.tainted>, <Natura:heatsand>, <minecraft:water_bucket>]);
 // -
-recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natura:soil.tainted>, <Natura:heatsand>, <IguanaTweaksTConstruct:clayBucketWater>.transformReplace(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natura:soil.tainted>, <Natura:heatsand>, <IguanaTweaksTConstruct:clayBucketWater>]);
 
 // --- Seared Bricks
 furnace.addRecipe(<TConstruct:materials:2>, <dreamcraft:item.UnfiredSearedBrick>);
@@ -1626,6 +1641,12 @@ recipes.addShaped(<TConstruct:ToolStationBlock:1>, [
 [<ore:stickWood>, <TConstruct:blankPattern>, <ore:stickWood>],
 [<TConstruct:trap.barricade.oak>, <ore:stickWood>, <TConstruct:trap.barricade.oak>],
 [null, <ore:craftingToolSoftHammer>, null]]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:1>, [<TConstruct:ToolStationBlock:2>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:1>, [<TConstruct:ToolStationBlock:3>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:1>, [<TConstruct:ToolStationBlock:4>]);
 
 // --- Part Builder Spruce
 recipes.addShaped(<TConstruct:ToolStationBlock:2>, [
@@ -1668,6 +1689,13 @@ recipes.addShaped(<TConstruct:ToolStationBlock:10>, [
 [<ore:stickWood>, <TConstruct:blankPattern>, <ore:stickWood>],
 [<minecraft:fence>, <ore:stickWood>, <minecraft:fence>],
 [null, <ore:craftingToolSoftHammer>, null]]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:11>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:12>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:13>]);
+
 
 // --- Stencil Table Spruce
 recipes.addShaped(<TConstruct:ToolStationBlock:11>, [
@@ -1698,85 +1726,85 @@ recipes.addShapeless(<TConstruct:CraftingSlab:3>, [<ore:craftingToolSaw>, <TCons
 
 // --- Tool Forge Iron
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockIron>, <TConstruct:CraftingSlab:1>, <ore:blockIron>],
 [<ore:blockIron>, <ore:craftingToolHardHammer>, <ore:blockIron>]]);
 
 // --- Tool Forge Gold
 recipes.addShaped(<TConstruct:ToolForgeBlock:1>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockGold>, <TConstruct:CraftingSlab:1>, <ore:blockGold>],
 [<ore:blockGold>, <ore:craftingToolHardHammer>, <ore:blockGold>]]);
 
 // --- Tool Forge Diamond
 recipes.addShaped(<TConstruct:ToolForgeBlock:2>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockDiamond>, <TConstruct:CraftingSlab:1>, <ore:blockDiamond>],
 [<ore:blockDiamond>, <ore:craftingToolHardHammer>, <ore:blockDiamond>]]);
 
 // --- Tool Forge Emerald
 recipes.addShaped(<TConstruct:ToolForgeBlock:3>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockEmerald>, <TConstruct:CraftingSlab:1>, <ore:blockEmerald>],
 [<ore:blockEmerald>, <ore:craftingToolHardHammer>, <ore:blockEmerald>]]);
 
 // --- Tool Forge Cobalt
 recipes.addShaped(<TConstruct:ToolForgeBlock:4>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockCobalt>, <TConstruct:CraftingSlab:1>, <ore:blockCobalt>],
 [<ore:blockCobalt>, <ore:craftingToolHardHammer>, <ore:blockCobalt>]]);
 
 // --- Tool Forge Ardite
 recipes.addShaped(<TConstruct:ToolForgeBlock:5>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockArdite>, <TConstruct:CraftingSlab:1>, <ore:blockArdite>],
 [<ore:blockArdite>, <ore:craftingToolHardHammer>, <ore:blockArdite>]]);
 
 // --- Tool Forge Manyullyn
 recipes.addShaped(<TConstruct:ToolForgeBlock:6>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockManyullyn>, <TConstruct:CraftingSlab:1>, <ore:blockManyullyn>],
 [<ore:blockManyullyn>, <ore:craftingToolHardHammer>, <ore:blockManyullyn>]]);
 
 // --- Tool Forge Copper
 recipes.addShaped(<TConstruct:ToolForgeBlock:7>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockCopper>, <TConstruct:CraftingSlab:1>, <ore:blockCopper>],
 [<ore:blockCopper>, <ore:craftingToolHardHammer>, <ore:blockCopper>]]);
 
 // --- Tool Forge Bronze
 recipes.addShaped(<TConstruct:ToolForgeBlock:8>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockBronze>, <TConstruct:CraftingSlab:1>, <ore:blockBronze>],
 [<ore:blockBronze>, <ore:craftingToolHardHammer>, <ore:blockBronze>]]);
 
 // --- Tool Forge Tin
 recipes.addShaped(<TConstruct:ToolForgeBlock:9>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockTin>, <TConstruct:CraftingSlab:1>, <ore:blockTin>],
 [<ore:blockTin>, <ore:craftingToolHardHammer>, <ore:blockTin>]]);
 
 // --- Tool Forge Aluminum
 recipes.addShaped(<TConstruct:ToolForgeBlock:10>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockAluminium>, <TConstruct:CraftingSlab:1>, <ore:blockAluminium>],
 [<ore:blockAluminium>, <ore:craftingToolHardHammer>, <ore:blockAluminium>]]);
 
 // --- Tool Forge Alumium Brass
 recipes.addShaped(<TConstruct:ToolForgeBlock:11>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockAluminiumBrass>, <TConstruct:CraftingSlab:1>, <ore:blockAluminiumBrass>],
 [<ore:blockAluminiumBrass>, <ore:craftingToolHardHammer>, <ore:blockAluminiumBrass>]]);
 
 // --- Tool Forge Alumite
 recipes.addShaped(<TConstruct:ToolForgeBlock:12>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockAlumite>, <TConstruct:CraftingSlab:1>, <ore:blockAlumite>],
 [<ore:blockAlumite>, <ore:craftingToolHardHammer>, <ore:blockAlumite>]]);
 
 // --- Tool Forge Steel
 recipes.addShaped(<TConstruct:ToolForgeBlock:13>, [
-[<ore:plateDenseAluminium>, <TConstruct:SearedSlab:1>, <ore:plateDenseAluminium>],
+[<TConstruct:heavyPlate:15>, <TConstruct:SearedSlab:1>, <TConstruct:heavyPlate:15>],
 [<ore:blockSteel>, <TConstruct:CraftingSlab:1>, <ore:blockSteel>],
 [<ore:blockSteel>, <ore:craftingToolHardHammer>, <ore:blockSteel>]]);
 
@@ -1935,13 +1963,13 @@ recipes.addShaped(<TConstruct:trap.barricade.jungle>, [
 // --- Slime Channel
 recipes.addShaped(<TConstruct:slime.channel>, [
 [<ore:slimeball>, <ore:slimeball>, <ore:slimeball>],
-[<ore:dustRedstone>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:dustRedstone>],
+[<ore:dustRedstone>, <minecraft:water_bucket>, <ore:dustRedstone>],
 [<ore:slimeball>, <ore:slimeball>, <ore:slimeball>]]);
 
 // --- Blood Channel
 recipes.addShaped(<TConstruct:blood.channel>, [
 [<TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>],
-[<ore:dustRedstone>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:dustRedstone>],
+[<ore:dustRedstone>, <minecraft:water_bucket>, <ore:dustRedstone>],
 [<TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>]]);
 
 // --- Bounce Pad
@@ -2480,7 +2508,7 @@ Assembler.addRecipe(<TConstruct:explosive.slime>, <TConstruct:slime.gel:1>, <IC2
 Assembler.addRecipe(<TConstruct:explosive.slime:2>, <TConstruct:slime.gel>, <TConstruct:explosive.slime>, 600, 64);
 
 // --- Empty Canister
-Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>, <gregtech:gt.metaitem.01:27316> * 4, 2400, 480);
+Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>, <gregtech:gt.metaitem.01:27306> * 4, 2400, 480);
 
 
 
@@ -2490,10 +2518,10 @@ Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>,
 
 
 // --- Clear Glass
-BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>], 100, 120, 1000);
+BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>, <gregtech:gt.integrated_circuit:1>], 100, 120, 1000);
 
 // --- Clear Glass Pane
-BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>], 100, 120, 1000);
+BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>, <gregtech:gt.integrated_circuit:1>], 100, 120, 1000);
 
 
 
@@ -3319,6 +3347,8 @@ Extruder.addRecipe(<TConstruct:heavyPlate:2>, <minecraft:iron_ingot> * 8, <TCons
 
 // --- Obsidian Large Plate
 Extruder.addRecipe(<TConstruct:heavyPlate:6>, <TConstruct:materials:18> * 8, <TConstruct:metalPattern:16> * 0, 1432, 120);
+// -
+Extruder.addRecipe(<TConstruct:heavyPlate:6>, <gregtech:gt.metaitem.01:11804> * 8, <TConstruct:metalPattern:16> * 0, 1432, 120);
 
 // --- Netherrack Large Plate
 Extruder.addRecipe(<TConstruct:heavyPlate:7>, <minecraft:netherbrick> * 8, <TConstruct:metalPattern:16> * 0, 1960, 30);
@@ -3889,6 +3919,8 @@ FluidExtractor.addRecipe(null, <TConstruct:MetalBlock:10>, <liquid:ender> * 2250
 // -
 FluidExtractor.addRecipe(null, <minecraft:ender_pearl>, <liquid:ender> * 250, 10000, 100, 48);
 
+// --- Fluid XP
+FluidExtractor.addRecipe(null, <TConstruct:oreBerries:5>, <liquid:xpjuice> * 250, 10000, 100, 16);
 
 
 
@@ -3966,6 +3998,22 @@ Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, [<minecraft:nether_wart>, 
 
 // --- Ardite Dust
 Pulverizer.addRecipe([<TConstruct:materials:38> * 2, <TConstruct:materials:38>], <TConstruct:SearedBrick:2>, [10000, 1000], 400, 2);
+
+// --- Wood pulp
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809>], <TConstruct:woodPattern:*>, [10000], 200, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809>], <TConstruct:Pattern:*>, [10000], 200, 2);
+
+
+
+
+
+// --- Ordict remove ---
+
+
+// --- Gravel
+oreDict.nuggetAluminium.remove(<TConstruct:oreBerries:4>);
+
 
 
 

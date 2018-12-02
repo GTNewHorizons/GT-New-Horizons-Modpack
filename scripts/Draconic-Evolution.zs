@@ -27,7 +27,8 @@ val ChaoticCore = <DraconicEvolution:chaoticCore>;
 val DCham = <DraconicEvolution:teleporterMKI>;
 val IRotor = <DraconicEvolution:reactorCraftingPart:1>;
 val ORotor = <DraconicEvolution:reactorCraftingPart:2>;
-
+val sgCoreCrystal = <SGCraft:sgCoreCrystal>;
+val sgLargeCapacitor = <SGCraft:ic2Capacitor>;
 
 
 
@@ -278,11 +279,11 @@ mods.avaritia.ExtremeCrafting.addShaped(DCham, [
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterMKII>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null],
-[null, null, <ore:plateDraconium>, <ore:pearlEnderEye>, null, <ore:pearlEnderEye>, <ore:plateDraconium>, null, null],
-[null, <ore:plateDraconium>, <ore:pearlEnderEye>, WyvernCore, null, WyvernCore, <ore:pearlEnderEye>, <ore:plateDraconium>, null],
-[null, <ore:plateDraconium>, null, null, DCham, null, null, <ore:plateDraconium>, null],
-[null, <ore:plateDraconium>, <ore:pearlEnderEye>, WyvernCore, null, WyvernCore, <ore:pearlEnderEye>, <ore:plateDraconium>, null],
-[null, null, <ore:plateDraconium>, <ore:pearlEnderEye>, null, <ore:pearlEnderEye>, <ore:plateDraconium>, null, null],
+[null, null, <ore:plateDraconium>, sgLargeCapacitor, null, sgLargeCapacitor, <ore:plateDraconium>, null, null],
+[null, <ore:plateDraconium>, sgLargeCapacitor, DCham, WyvernCore, DCham, sgLargeCapacitor, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, null, WyvernCore,sgCoreCrystal , WyvernCore, null, <ore:plateDraconium>, null],
+[null, <ore:plateDraconium>, sgLargeCapacitor, DCham, WyvernCore, DCham, sgLargeCapacitor, <ore:plateDraconium>, null],
+[null, null, <ore:plateDraconium>, sgLargeCapacitor, null, sgLargeCapacitor, <ore:plateDraconium>, null, null],
 [null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 

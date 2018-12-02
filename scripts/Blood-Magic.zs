@@ -761,15 +761,15 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:8>, [
 [<AWWayofTime:blankSlate>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:blankSlate>],
 [<AWWayofTime:reinforcedSlate>, <ore:plateTitanium>, <AWWayofTime:reinforcedSlate>]]);
 
-// --- Output Spell Cable
-mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:9>, [
+// ---  Input Spell Cable
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:14>, [
 [<AWWayofTime:blankSlate>, <AWWayofTime:simpleCatalyst>, null],
 [<AWWayofTime:reinforcedSlate>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:bloodMagicBaseItems:2>],
-[<AWWayofTime:blankSlate>, <AWWayofTime:simpleCatalyst>, null]]);
+[<AWWayofTime:blankSlate>, <AWWayofTime:simpleCatalyst>, <AWWayofTime:bloodMagicBaseItems:2>]]);
 
-// --- Input Spell Cable
-mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:14>, [
-[null, <AWWayofTime:simpleCatalyst>, <AWWayofTime:blankSlate>],
+// --- Output Spell Cable
+mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:9>, [
+[<AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:simpleCatalyst>, <AWWayofTime:blankSlate>],
 [<AWWayofTime:bloodMagicBaseItems:2>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:reinforcedSlate>],
 [null, <AWWayofTime:simpleCatalyst>, <AWWayofTime:blankSlate>]]);
 

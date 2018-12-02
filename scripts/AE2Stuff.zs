@@ -57,7 +57,7 @@ recipes.addShaped(<ae2stuff:Wireless>, [
 // --- Wireless Setup Kit
 recipes.addShaped(<ae2stuff:WirelessKit>, [
 [<appliedenergistics2:item.ItemMultiMaterial:41>, <ore:plateTitanium>, <appliedenergistics2:item.ItemMultiMaterial:41>],
-[<appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiPart:160>, <appliedenergistics2:item.ItemMultiMaterial:24>],
+[<appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiPart:180>, <appliedenergistics2:item.ItemMultiMaterial:24>],
 [<ore:crystalPureFluix>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:crystalPureFluix>]]);
 
 // --- Network Visualisation Tool
@@ -65,3 +65,9 @@ recipes.addShaped(<ae2stuff:Visualiser>, [
 [<ore:crystalPureFluix>, <appliedenergistics2:item.ToolNetworkTool>, <ore:crystalPureFluix>],
 [<ore:screwTitanium>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ore:screwTitanium>],
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:craftingToolWrench>]]);
+
+// --- Advanced Inscriber
+recipes.addShaped(<ae2stuff:Inscriber>, [
+[<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTungstenSteel>],
+[<appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:tile.BlockInscriber>, <appliedenergistics2:item.ItemMultiMaterial:22>],
+[<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTungstenSteel>]]);

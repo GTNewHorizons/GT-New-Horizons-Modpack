@@ -189,81 +189,81 @@ recipes.addShaped(<ExtraTrees:fence:66>.withTag({meta: 66}) * 4, [
 recipes.addShapeless(<ExtraTrees:multifence>.withTag({meta: 0}), [<minecraft:fence>]);
 
 // --- Spruce Fence
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 65537}), [
+recipes.addShaped(<ExtraTrees:fence:1>.withTag({meta: 1}), [
 [<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 65537}) * 2, [
+recipes.addShaped(<ExtraTrees:fence:1>.withTag({meta: 1}) * 2, [
 [IronScrew, Screwdriver, IronScrew],
 [<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 65537}) * 4, [
+recipes.addShaped(<ExtraTrees:fence:1>.withTag({meta: 1}) * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:1>, <ore:stickWood>]]);
 
 // --- Birch Fence
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131074}), [
+recipes.addShaped(<ExtraTrees:fence:2>.withTag({meta: 2}), [
 [<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131074}) * 2, [
+recipes.addShaped(<ExtraTrees:fence:2>.withTag({meta: 2}) * 2, [
 [IronScrew, Screwdriver, IronScrew],
 [<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131074}) * 4, [
+recipes.addShaped(<ExtraTrees:fence:2>.withTag({meta: 2}) * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:2>, <ore:stickWood>]]);
 
 // --- Jungle Fence
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 196611}), [
+recipes.addShaped(<ExtraTrees:fence:3>.withTag({meta: 3}), [
 [<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 196611}) * 2, [
+recipes.addShaped(<ExtraTrees:fence:3>.withTag({meta: 3}) * 2, [
 [IronScrew, Screwdriver, IronScrew],
 [<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 196611}) * 4, [
+recipes.addShaped(<ExtraTrees:fence:3>.withTag({meta: 3}) * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:3>, <ore:stickWood>]]);
 
 // --- Acacia Fence
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 262148}), [
+recipes.addShaped(<ExtraTrees:fence:4>.withTag({meta: 4}), [
 [<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 262148}) * 2, [
+recipes.addShaped(<ExtraTrees:fence:4>.withTag({meta: 4}) * 2, [
 [IronScrew, Screwdriver, IronScrew],
 [<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 262148}) * 4, [
+recipes.addShaped(<ExtraTrees:fence:4>.withTag({meta: 4}) * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:4>, <ore:stickWood>]]);
 
 // --- Dark Oak Fence
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 327685}), [
+recipes.addShaped(<ExtraTrees:fence:5>.withTag({meta: 5}), [
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 327685}) * 2, [
+recipes.addShaped(<ExtraTrees:fence:5>.withTag({meta: 5}) * 2, [
 [IronScrew, Screwdriver, IronScrew],
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>]]);
 // -
-recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 327685}) * 4, [
+recipes.addShaped(<ExtraTrees:fence:5>.withTag({meta: 5}) * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>]]);

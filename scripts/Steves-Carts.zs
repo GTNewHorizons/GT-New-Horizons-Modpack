@@ -33,7 +33,7 @@ import mods.gregtech.Pulverizer;
 
 
 val PCB = <StevesCarts:ModuleComponents:9>;
-val SteelCasing = <IC2:itemCasing:5>;
+val SteelCasing = <ore:itemCasingSteel>;
 val LvRobotArm = <gregtech:gt.metaitem.01:32650>;
 val MvRobotArm = <gregtech:gt.metaitem.01:32651>;
 val LVConveyorBelt = <gregtech:gt.metaitem.01:32630>;
@@ -140,7 +140,7 @@ val GlowstonePlate = <ore:plateGlowstone>;
 val Diamond = <ore:gemDiamond>;
 val BlockEmerald = <ore:blockEmerald>;
 val LiBattery = <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long});
-val Crystal = <IC2:itemBatCrystal:1>.withTag({charge: 1000000.0});
+val Crystal = <IC2:itemBatCrystal:*>;
 val Circuit = <ore:circuitBasic>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val FDiamond = <ore:gemFlawlessDiamond>;
@@ -974,7 +974,7 @@ recipes.addShaped(<StevesCarts:CartModule:79>, [
 recipes.addShaped(<StevesCarts:CartModule:80>, [
 [GSawBlade, GSawBlade, GSawBlade],
 [GSawBlade, <StevesCarts:CartModule:79>, GSawBlade],
-[MasterCircuit, HvMotor, MasterCircuit]]);
+[AdvCircuit, HvMotor, AdvCircuit]]);
 
 // --- Tank Pane
 recipes.addShaped(<StevesCarts:ModuleComponents:61> * 2, [
@@ -1733,11 +1733,11 @@ CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:M
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:ModuleComponents:32>, <liquid:lubricant> * 2, 50, 30);
 
 // ---  Iron Pane
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.01:17032>, <liquid:water> * 8, 200, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <IC2:itemCasing:4>, <liquid:water> * 8, 200, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.01:17032>, <liquid:ic2distilledwater> * 6, 200, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <IC2:itemCasing:4>, <liquid:ic2distilledwater> * 6, 200, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.01:17032>, <liquid:lubricant> * 2, 100, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <IC2:itemCasing:4>, <liquid:lubricant> * 2, 100, 30);
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <StevesCarts:ModuleComponents:35>, <liquid:water> * 12, 200, 30);
 // -

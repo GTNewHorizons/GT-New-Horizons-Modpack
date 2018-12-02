@@ -362,8 +362,8 @@ recipes.addShaped(<OpenBlocks:drawingtable>, [
 
 // --- XP Shower
 recipes.addShaped(<OpenBlocks:xpshower>, [
-[<IC2:itemCasing:4>, <ore:pipeSmallSteel>, <IC2:itemCasing:4>],
-[<IC2:itemCasing:4>, <ore:pipeSmallSteel>, <IC2:itemCasing:4>],
+[<ore:itemCasingAnyIron>, <ore:pipeSmallSteel>, <ore:itemCasingAnyIron>],
+[<ore:itemCasingAnyIron>, <ore:pipeSmallSteel>, <ore:itemCasingAnyIron>],
 [<ore:pipeSmallSteel>, <ore:pipeSmallSteel>, <ore:pipeSmallSteel>]]);
 
 // --- Scaffolding
@@ -378,7 +378,7 @@ recipes.addShaped(<OpenBlocks:generic:9>, [
 // --- Slime Alyzer
 recipes.addShaped(<OpenBlocks:slimalyzer>, [
 [<ore:screwIron>, <ore:circuitBasic>, <ore:screwIron>],
-[<IC2:itemCasing:4>, <TConstruct:materials:1>, <IC2:itemCasing:4>],
+[<ore:itemCasingAnyIron>, <TConstruct:materials:1>, <ore:itemCasingAnyIron>],
 [<ore:craftingToolScrewdriver>, <ore:circuitBasic>, <ore:craftingToolFile>]]);
 
 // --- Paint Brush
@@ -390,8 +390,6 @@ recipes.addShaped(<OpenBlocks:sonicglasses>, [
 [<ore:circuitBasic>, <minecraft:iron_helmet> * 1, <ore:circuitBasic>],
 [<ore:screwAluminium>, <ore:craftingToolScrewdriver>, <ore:screwAluminium>]]);
 
-// --- Dev 0
-recipes.addShapeless(<OpenBlocks:devnull>, [<RandomThings:dropFilter:1>]);
 
 
 
@@ -410,10 +408,10 @@ Assembler.addRecipe(<OpenBlocks:ladder>, <minecraft:trapdoor>, <minecraft:ladder
 Assembler.addRecipe(<OpenBlocks:sky:1>, <OpenBlocks:sky>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:molten.redstone> * 144, 200, 16);
 
 // --- Paint Mixer
-Assembler.addRecipe(<OpenBlocks:paintmixer>, <gregtech:gt.blockmachines:581>, <IC2:itemCasing:4> * 4, 600, 30);
+Assembler.addRecipe(<OpenBlocks:paintmixer>, <gregtech:gt.blockmachines:581>, <ore:itemCasingAnyIron> * 4, 600, 30);
 
 // --- Xp Bottler
-Assembler.addRecipe(<OpenBlocks:xpbottler>, <Forestry:factory>, <IC2:itemCasing:4> * 4, 600, 30);
+Assembler.addRecipe(<OpenBlocks:xpbottler>, <Forestry:factory>, <ore:itemCasingAnyIron> * 4, 600, 30);
 
 // --- Unprepared Stencil
 Assembler.addRecipe(<OpenBlocks:generic:10>, <TConstruct:blankPattern>, <gregtech:gt.metaitem.01:17032>, 200, 16);
@@ -447,9 +445,6 @@ Assembler.addRecipe(<OpenBlocks:emptyMap>.withTag({Scale: 4 as byte}), <OpenBloc
 
 // --- Catographer
 Assembler.addRecipe(<OpenBlocks:cartographer>, <OpenBlocks:generic:9>, <minecraft:ender_eye>, <liquid:ender> * 1000, 600, 120);
-
-// --- Dev/Null
-Assembler.addRecipe(<OpenBlocks:devnull>, <ExtraUtilities:trashcan>, <gregtech:gt.integrated_circuit:1> * 0, <liquid:ender> * 250, 300, 30);
 
 // --- Pedometer
 Assembler.addRecipe(<OpenBlocks:pedometer>, <minecraft:clock>, <IC2:itemPartCircuit> * 2, <liquid:molten.redstone> * 144, 200, 30);
@@ -638,7 +633,7 @@ Mixer.addRecipe(<OpenBlocks:tastyClay>, null, [<minecraft:clay_ball>, <minecraft
 
 
 // --- Golden Egg
-mods.thaumcraft.Research.addResearch("GOLDENEGG", "MAGICBEES", "alienis 15, bestia 12, victus 9, humanus 6", -6, 4, 4, <OpenBlocks:goldenegg>);
+mods.thaumcraft.Research.addResearch("GOLDENEGG", "MAGICBEES", "alienis 15, bestia 12, victus 9, humanus 6", -4, 5, 4, <OpenBlocks:goldenegg>);
 game.setLocalization("tc.research_name.GOLDENEGG", "Golden Egg");
 game.setLocalization("tc.research_text.GOLDENEGG", "[OB] Make A MiniMe");
 mods.thaumcraft.Research.addPrereq("GOLDENEGG", "MB_DimensionalSingularity", false);

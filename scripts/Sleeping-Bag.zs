@@ -37,3 +37,5 @@ recipes.addShaped(<sleepingbag:sleepingBag>, [
 [TannedLeather, TannedLeather, TannedLeather]]);
 // -
 recipes.addShapeless(<sleepingbag:sleepingBag>, [<adventurebackpack:backpackComponent:1>]);
+// -
+recipes.addShapeless(<adventurebackpack:backpackComponent:1>, [<OpenBlocks:sleepingBag>]);

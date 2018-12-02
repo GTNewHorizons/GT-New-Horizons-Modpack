@@ -184,19 +184,19 @@ furnace.addRecipe(<ThaumicTinkerer:kamiResource:3> * 9, <ThaumicTinkerer:kamiRes
 // --- Ichor Wand Cap
 mods.thaumcraft.Research.orphanResearch("CAP_ICHOR");
 mods.thaumcraft.Research.removeResearch("CAP_ICHOR");
-mods.thaumcraft.Research.addResearch("CAPICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <dreamcraft:item.IchoriumCap>);
+mods.thaumcraft.Research.addResearch("CAPICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <ThaumicTinkerer:kamiResource:4>);
 game.setLocalization("tc.research_name.CAPICHOR", "Ichorium Wand Caps");
 game.setLocalization("tc.research_text.CAPICHOR", "[TT] Somewhat like a Steam Sale");
 mods.thaumcraft.Research.addPrereq("CAPICHOR", "ICHORIUM", false);
 mods.thaumcraft.Research.setConcealed("CAPICHOR", true);
 mods.thaumcraft.Research.addPage("CAPICHOR", "tt.research.page.CAPICHOR");
 game.setLocalization("tt.research.page.CAPICHOR", "You have put Ichorium to its first ever use, by devising wand caps that give you a 30% discount on everything. Now you need to actually put this to any use and create a wand that can store more vis.");
-mods.thaumcraft.Arcane.addShaped("CAPICHOR", <dreamcraft:item.IchoriumCap> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
-[<ThaumicTinkerer:kamiResource>, <dreamcraft:item.ChargedVoidWandCap>, <ThaumicTinkerer:kamiResource>],
+mods.thaumcraft.Arcane.addShaped("CAPICHOR", <ThaumicTinkerer:kamiResource:4> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
+[<ThaumicTinkerer:kamiResource>, <Thaumcraft:WandCap:7>, <ThaumicTinkerer:kamiResource>],
 [<ore:ringVoid>, <ThaumicTinkerer:kamiResource:2>, <ore:ringVoid>],
-[<ThaumicTinkerer:kamiResource>, <dreamcraft:item.ChargedVoidWandCap>, <ThaumicTinkerer:kamiResource>]]);
+[<ThaumicTinkerer:kamiResource>, <Thaumcraft:WandCap:7>, <ThaumicTinkerer:kamiResource>]]);
 // -
-mods.thaumcraft.Research.addArcanePage("CAPICHOR", <dreamcraft:item.IchoriumCap>);
+mods.thaumcraft.Research.addArcanePage("CAPICHOR", <ThaumicTinkerer:kamiResource:4>);
 // -
 mods.thaumcraft.Research.setAspects("CAPICHOR", "metallum 15, instrumentum 15, tenebrae 12, praecantatio 9, lux 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("CAPICHOR", 4);
@@ -211,9 +211,9 @@ mods.thaumcraft.Research.setAspects("CAT_AMULET", "cognitio 15, ordo 15, tenebra
 mods.thaumcraft.Research.setComplexity("CAT_AMULET", 4);
 
 // --- Bottomless Pouch
-mods.thaumcraft.Infusion.addRecipe("ICHOR_POUCH", <Thaumcraft:FocusPouch>.withTag({Inventory: []}), 
+mods.thaumcraft.Infusion.addRecipe("ICHOR_POUCH", <Thaumcraft:FocusPouch>, 
 [<Thaumcraft:blockJar:3>, <ThaumicTinkerer:kamiResource:1>, <ThaumicTinkerer:kamiResource:1>, <Thaumcraft:FocusPortableHole>, <ThaumicTinkerer:kamiResource:1>, <Thaumcraft:TrunkSpawner>, <ThaumicTinkerer:kamiResource:1>, <gregtech:gt.metaitem.02:30500>],
-"vacuos 64, humanus 48, pannus 48, alienis 48, aer 64", <ThaumicTinkerer:ichorPouch>.withTag({Inventory: []}), 10);
+"vacuos 64, humanus 48, pannus 48, alienis 48, aer 64", <ThaumicTinkerer:ichorPouch>, 10);
 // -
 mods.thaumcraft.Research.setAspects("ICHOR_POUCH", "vacuos 15, pannus 15, alienis 12, humanus 9, motus 6, aer 3");
 mods.thaumcraft.Research.setComplexity("ICHOR_POUCH", 4);
@@ -426,17 +426,6 @@ mods.thaumcraft.Warp.addToResearch("PLACEMENT_MIRROR", 8);
 
 // --- Ichor Ingots
 furnace.addRecipe(<ThaumicTinkerer:kamiResource:2> * 2, <gregtech:gt.blockmetal8:13>);
-
-
-
-// --- Compressor recipes ---
-
-
-
-
-// --- Ichor Blocks
-Compressor.addRecipe(<gregtech:gt.blockmetal8:13>, <ThaumicTinkerer:kamiResource:2> * 2);
-
 
 
 

@@ -1,0 +1,329 @@
+# Note that there is support for a number of GregTech machines, by using the
+# appropriate `type` specifier. Available types are:
+# - gt_alloySmelter : Alloy Smelter Recipe
+# - gt_assembler    : Circuit Assembler Machine
+# - gt_bender       : Plate Bending Machine Recipe
+# - gt_canner       : Canning Machine Recipe
+# - gt_chemical     : Chemical Recipe
+# - gt_cnc          : CNC-Machine Recipe
+# - gt_cutter       : Cutter Recipe
+# - gt_fluidCanner  : Fluid Canner Recipe
+# - gt_formingPress : Forming Press Recipe
+# - gt_lathe        : Lathe Machine Recipe
+# - gt_laserEngraver: Laser Engraver Recipe
+# - gt_wiremill     : Wiremill Recipe
+#
+# For these types, there a few more options for inputs and outputs. A full
+# recipe using all these options would look like this:
+# name {
+#   type: gt_???
+#   input: ["primaryInput", "possiblyOptionalSecondaryInput"]
+#   count: [1, 2] # would mean 1 of primary, 2 of secondary
+#   output: 2 # size of primary output stack
+#   eu: EU consumed for the operation
+#   time: time it takes to complete the operation, in ticks.
+#   # The following are usually optional.
+#   secondaryOutput: ["secondaryOutput1", "secondaryOutput2"] # Max number depends on machine.
+#   secondaryOutputCount: [2, 2] # Like `count` to `input`.
+#   inputFluid: {name="water", amount="500"}
+#   outputFluid: {name="lava"} # defaults to amount = 1000
+# }
+
+analyzer = true
+
+hoverBoots = true
+
+manual = true
+
+nanomachines = true
+
+texturePicker {
+  input: [[dyeBlack, dyeRed, dyeGreen]
+          [dyeBlue, "oc:analyzer", dyePurple]
+          [dyeYellow, dyeMagenta, dyeWhite]]
+}
+
+wrench = true
+
+lootDisks: [
+  {
+    name: "OpenComputers:openos"
+    type: shapeless
+    input: ["oc:floppy", "oc:manual"]
+  },
+  {
+    name: "OpenComputers:oppm"
+    type: shapeless
+    input: ["oc:floppy", "oc:materialInterweb"]
+  }
+]
+
+luaBios {
+  type: shapeless
+  input: ["oc:eeprom", "oc:manual"]
+}
+
+carpetedCapacitor {
+  type: shapeless
+  input: [carpet, "oc:capacitor"]
+}
+
+droneCase1 = true
+
+droneCase2 = true
+
+microcontrollerCase1 = true
+
+microcontrollerCase2 = true
+
+terminal = true
+
+tabletCase1 = true
+
+tabletCase2 = true
+
+diskDriveMountable = true
+
+server1 = true
+
+server2 = true
+
+server3 = true
+
+terminalServer = true
+
+ram1 = true
+
+ram2 = true
+
+ram3 = true
+
+ram4 = true
+
+ram5 = true
+
+ram6 = true
+
+eeprom = true
+
+floppy = true
+
+hdd1 = true
+
+hdd2 = true
+
+hdd3 = true
+
+dataCard1 = true
+
+dataCard2 = true
+
+dataCard3 = true
+
+graphicsCard1 = true
+
+graphicsCard2 = true
+
+graphicsCard3 = true
+
+internetCard  = true
+
+redstoneCard1 = true
+
+redstoneCard2 = true
+
+lanCard = true
+
+wlanCard1 = true
+
+wlanCard2 = true
+
+linkedCard = true
+
+abstractBusCard = true
+
+worldSensorCard = true
+
+angelUpgrade = true
+
+batteryUpgrade1 = true
+
+batteryUpgrade2 = true
+
+batteryUpgrade3 = true
+
+chunkloaderUpgrade = true
+
+craftingUpgrade = true
+
+databaseUpgrade1 = true
+
+databaseUpgrade2 = true
+
+databaseUpgrade3 = true
+
+experienceUpgrade = true
+
+generatorUpgrade = true
+
+hoverUpgrade1 = true
+
+hoverUpgrade2 = true
+
+inventoryUpgrade = true
+
+inventoryControllerUpgrade = true
+
+mfu = true
+
+leashUpgrade = true
+
+navigationUpgrade = true
+
+pistonUpgrade = true
+
+signUpgrade = true
+
+solarGeneratorUpgrade = true
+
+tankUpgrade = true
+
+tankControllerUpgrade = true
+
+tractorBeamUpgrade = true
+
+tradingUpgrade = true
+
+cardContainer1 = true
+
+cardContainer2 = true
+
+cardContainer3 = true
+
+upgradeContainer1 = true
+
+upgradeContainer2 = true
+
+upgradeContainer3 = true
+
+cuttingWire = false
+
+acid = true
+
+disk = true
+
+chamelium = true
+
+chameliumBlock  = true
+
+endstone = false
+
+inkCartridgeEmpty = true
+
+inkCartridge = true
+
+buttonGroup = false
+
+arrowKeys = false
+
+numPad = false
+
+transistor = false
+
+chip1 = true
+
+chip2 = true
+
+chip3 = true
+
+alu = true
+
+cu = true
+
+apu1 = true
+
+apu2 = true
+
+componentBus1 = true
+
+componentBus2 = true
+
+componentBus3 = true
+
+cpu1 = true
+
+cpu2 = true
+
+cpu3 = true
+
+rawCircuitBoard = false
+
+circuitBoard = false
+
+printedCircuitBoard = false
+
+card = true
+
+interweb = true
+
+adapter = true
+
+assembler = true
+
+cable = true
+
+capacitor = true
+
+charger = true
+
+case1 = true
+
+case2 = true
+
+case3 = true
+
+disassembler = true
+
+diskDrive = true
+
+geolyzer = true
+
+hologram1 = true
+
+hologram2 = true
+
+keyboard = true
+
+motionSensor = true
+
+netSplitter = true
+
+printer = true
+
+powerConverter = true
+
+powerDistributor = true
+
+rack = true
+
+raid = true
+
+redstone = true
+
+relay = true
+
+screen1 = true
+
+screen2 = true
+
+screen3 = true
+
+transposer = true
+
+waypoint = true
+
+appengTunnel = true
+
+chipDiamond = false
+
+gemDiamond = false

@@ -80,11 +80,20 @@ recipes.remove(<chisel:upgrade:2>);
 // --- Mossy stone
 mods.chisel.Groups.removeGroup("cobblestone");
 
+// --- Glowstone
+mods.chisel.Groups.removeGroup("glowstone");
+
 // --- Stonebricks
 mods.chisel.Groups.removeVariation(<minecraft:stonebrick:1>);
 
 // --- Energised Voidstone
 recipes.remove(<chisel:voidstone2>);
+
+// --- Concrete
+furnace.remove(<chisel:concrete>);
+
+// --- Torch
+mods.chisel.Groups.removeVariation(<minecraft:torch>);
 
 
 
@@ -160,6 +169,7 @@ recipes.addShaped(<chisel:voidstone2> * 8, [
 [<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>],
 [<chisel:voidstone>, <ore:dustGlowstone>, <chisel:voidstone>],
 [<chisel:voidstone>, <chisel:voidstone>, <chisel:voidstone>]]);
+
 
 
 
@@ -280,6 +290,11 @@ mods.chisel.Groups.addVariation("marble", <Railcraft:cube:7>);
 //-
 mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones>);
 
+// --- Abyssal Stone
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites>);
+// -
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <Railcraft:cube:6>);
+
 // --- Limestone
 mods.chisel.Groups.addVariation("limestone", <BiomesOPlenty:rocks>);
 
@@ -322,6 +337,51 @@ mods.chisel.Groups.addVariation("endstone", <chisel:end_Stone:13>);
 mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrick:12>);
 // -
 mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrickfancy:12>);
+
+
+// --- Chiselgroup Concrete
+mods.chisel.Groups.addVariation("concrete", <gregtech:gt.blockconcretes:8>);
+
+// --- Glowstone
+mods.chisel.Groups.addGroup("glowstoneGTNH");
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <minecraft:glowstone>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:1>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:2>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:3>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:4>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:5>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:6>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:7>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:8>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:9>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:10>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:11>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:12>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:13>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:14>);
+// -
+mods.chisel.Groups.addVariation("glowstoneGTNH", <chisel:glowstone:15>);
+
+
+// --- Torch
+mods.chisel.Groups.addVariation("torch", <GalacticraftCore:tile.glowstoneTorch>);
+
+
 
 
 

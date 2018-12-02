@@ -37,12 +37,10 @@ config/GregTech/*
 config/HungerOverhaul/*
 config/INpureProjects/
 config/NEI/
-config/opencomputers/*
 config/railcraft/*
 config/SlimeKnights/
 config/SpiceOfLife/
 config/Spmod/
-config/ThaumcraftMobAspects/
 config/warptheory/
 
 #Whitelist files modified by GT:NH from above list
@@ -74,7 +72,6 @@ config/warptheory/
 !config/GregTech/WorldGeneration.cfg
 !config/GregTech/Unification.cfg
 !config/HungerOverhaul/HungerOverhaul.cfg
-!config/opencomputers/user.recipes
 !config/railcraft/blocks.cfg
 !config/railcraft/railcraft.cfg
 

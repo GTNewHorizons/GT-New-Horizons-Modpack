@@ -34,7 +34,7 @@ val IronScrew = <ore:screwAnyIron>;
 val SteelScrew = <ore:screwSteel>;
 val GoldScrew = <ore:screwGold>;
 
-val GTScrewdriver = <gregtech:gt.metatool.01:22>;
+val GTScrewdriver = <ore:craftingToolScrewdriver>;
 val Minecart = <minecraft:minecart>;
 
 

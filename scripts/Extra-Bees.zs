@@ -66,11 +66,9 @@ mods.forestry.Carpenter.removeRecipe(<ExtraBees:misc>);
 
 
 // --- Apiarist Database
-mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1440, 
-[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17501>, <gregtech:gt.metaitem.01:27500>, 
-<IC2:itemCasing:3>, <IC2:itemPartCircuitAdv>, <IC2:itemCasing:3>, 
-<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>], 
-<Forestry:beealyzer>, <ExtraBees:dictionary>);
+mods.forestry.Carpenter.addRecipe(<ExtraBees:dictionary>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17501>, <gregtech:gt.metaitem.01:27500>],
+														  [<ore:itemCasingGold>, <ore:circuitAdvanced>, <ore:itemCasingGold>], 
+                                                          [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 1440, 60, <Forestry:beealyzer>);
 
 // --- Mutator
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500, 
@@ -100,7 +98,6 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500,
 <Forestry:thermionicTubes:2>, <minecraft:stained_glass:*>, <Forestry:thermionicTubes:2>], 
 <Forestry:alveary>, <ExtraBees:alveary:3>);
 
-
 // --- Electrical Stimulator
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500, 
 [<Forestry:thermionicTubes:1>, <gregtech:gt.blockmachines:1460>, <Forestry:thermionicTubes:1>, 
@@ -116,11 +113,9 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500,
 <Forestry:alveary>, <ExtraBees:alveary:5>);
 
 // --- Alveary Transmission
-mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 7500, 
-[<Forestry:thermionicTubes>, <IC2:itemPartCircuitAdv>, <Forestry:thermionicTubes>, 
-<gregtech:gt.blockmachines:1587>, <gregtech:gt.blockmachines:13>, <gregtech:gt.blockmachines:1587>, 
-<Forestry:thermionicTubes>, <gregtech:gt.blockmachines:1587>, <Forestry:thermionicTubes>], 
-<Forestry:alveary>, <ExtraBees:alveary:6>);
+mods.forestry.Carpenter.addRecipe(<ExtraBees:alveary:6>, [[<Forestry:thermionicTubes>, <ore:circuitAdvanced>, <Forestry:thermionicTubes>],
+														  [<gregtech:gt.blockmachines:1587>, <gregtech:gt.blockmachines:13>, <gregtech:gt.blockmachines:1587>], 
+                                                          [<Forestry:thermionicTubes>, <gregtech:gt.blockmachines:1587>, <Forestry:thermionicTubes>]], <liquid:for.honey> * 7500, 60, <Forestry:alveary>);
 
 // --- Scented Gear
 mods.forestry.Carpenter.addRecipe(20, <liquid:for.honey> * 1000, 
@@ -131,10 +126,10 @@ mods.forestry.Carpenter.addRecipe(20, <liquid:for.honey> * 1000,
 
 // --- Healing Frame
 recipes.remove(<ExtraBees:hiveFrame.clay>);
-mods.thaumcraft.Research.addResearch("HEALINGFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, victus 6", -3, 6, 4, <ExtraBees:hiveFrame.clay>);
+mods.thaumcraft.Research.addResearch("HEALINGFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, victus 6", 7, -2, 4, <ExtraBees:hiveFrame.clay>);
 game.setLocalization("tc.research_name.HEALINGFRAME", "Healing Frame");
 game.setLocalization("tc.research_text.HEALINGFRAME", "[EB] The Bees will never die ?");
-mods.thaumcraft.Research.addPrereq("HEALINGFRAME", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addPrereq("HEALINGFRAME", "MB_EssenceLife", false);
 mods.thaumcraft.Research.setConcealed("HEALINGFRAME", true);
 mods.thaumcraft.Research.addPage("HEALINGFRAME", "ExtraBees.research_page.HEALINGFRAME");
 game.setLocalization("ExtraBees.research_page.HEALINGFRAME", "The Healing Frame is an Item used in an Apiary, which increases a Queens lifespan at the cost of a lesser productivity and a decreased mutation rate. It increases a bees lifespan 50% while reducing its productivity to 75% and the chance of mutation to only 50%. It is constructed using Clay and an Impregnated Frame. In an Alveary structure, the Frame Housing can be added to make use of the Frame.");
@@ -146,10 +141,10 @@ mods.thaumcraft.Research.addArcanePage("HEALINGFRAME", <ExtraBees:hiveFrame.clay
 
 // --- Chocolate Frame
 recipes.remove(<ExtraBees:hiveFrame.cocoa>);
-mods.thaumcraft.Research.addResearch("CHOCOLATEFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, fames 6", 1, 6, 4, <ExtraBees:hiveFrame.cocoa>);
+mods.thaumcraft.Research.addResearch("CHOCOLATEFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, fames 6", 7, 2, 4, <ExtraBees:hiveFrame.cocoa>);
 game.setLocalization("tc.research_name.CHOCOLATEFRAME", "Chocolate Frame");
 game.setLocalization("tc.research_text.CHOCOLATEFRAME", "[EB] Feeding the Bees");
-mods.thaumcraft.Research.addPrereq("CHOCOLATEFRAME", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addPrereq("CHOCOLATEFRAME", "MB_EssenceUnstable", false);
 mods.thaumcraft.Research.setConcealed("CHOCOLATEFRAME", true);
 mods.thaumcraft.Research.addPage("CHOCOLATEFRAME", "ExtraBees.research_page.CHOCOLATEFRAME_1");
 mods.thaumcraft.Research.addPage("CHOCOLATEFRAME", "ExtraBees.research_page.CHOCOLATEFRAME_2");
@@ -163,7 +158,7 @@ mods.thaumcraft.Research.addArcanePage("CHOCOLATEFRAME", <ExtraBees:hiveFrame.co
 
 // --- Restraint Frame
 recipes.remove(<ExtraBees:hiveFrame.cage>);
-mods.thaumcraft.Research.addResearch("RESTRAINTFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, metallum 6", -1, 8, 4, <ExtraBees:hiveFrame.cage>);
+mods.thaumcraft.Research.addResearch("RESTRAINTFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, metallum 6", 9, 0, 4, <ExtraBees:hiveFrame.cage>);
 game.setLocalization("tc.research_name.RESTRAINTFRAME", "Restraint Frame");
 game.setLocalization("tc.research_text.RESTRAINTFRAME", "[EB] A Bee Cage ?");
 mods.thaumcraft.Research.addPrereq("RESTRAINTFRAME", "PROVENFRAME", false);
@@ -180,7 +175,7 @@ mods.thaumcraft.Research.addArcanePage("RESTRAINTFRAME", <ExtraBees:hiveFrame.ca
 
 // --- Soul Frame
 recipes.remove(<ExtraBees:hiveFrame.soul>);
-mods.thaumcraft.Research.addResearch("SOULFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, spiritus 6", -1, 10, 4, <ExtraBees:hiveFrame.soul>);
+mods.thaumcraft.Research.addResearch("SOULFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, spiritus 6", 11, 0, 4, <ExtraBees:hiveFrame.soul>);
 game.setLocalization("tc.research_name.SOULFRAME", "Soul Frame");
 game.setLocalization("tc.research_text.SOULFRAME", "[EB] Feeding the Bees");
 mods.thaumcraft.Research.addPrereq("SOULFRAME", "RESTRAINTFRAME", false);
