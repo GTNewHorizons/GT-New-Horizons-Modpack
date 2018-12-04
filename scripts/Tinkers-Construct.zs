@@ -2518,10 +2518,10 @@ Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>,
 
 
 // --- Clear Glass
-BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>, <gregtech:gt.integrated_circuit:1>], 100, 120, 1000);
+BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
 
 // --- Clear Glass Pane
-BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>, <gregtech:gt.integrated_circuit:1>], 100, 120, 1000);
+BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
 
 
 
