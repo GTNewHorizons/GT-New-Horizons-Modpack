@@ -220,7 +220,6 @@ val ClearPane = <TConstruct:GlassPane>;
 val Coal = <ore:gemCoal>;
 val Charcoal = <ore:gemCharcoal>;
 val CoalCoke = <ore:fuelCoke>;
-val Phosphorous = <ore:dustPhosphorite>;
 val Beeswax = <ore:itemBeeswax>;
 val WovenCloth = <harvestcraft:wovencottonItem>;
 val Sulfur = <ore:dustSulfur>;

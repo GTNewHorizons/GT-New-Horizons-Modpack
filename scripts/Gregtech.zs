@@ -349,9 +349,9 @@ recipes.removeShapeless(<ore:dustNiter>);
 recipes.removeShapeless(<ore:gemNiter>);
 
 // --- Phosphorus Dust
-recipes.removeShapeless(<ore:dustPhosphorus>);
+recipes.removeShapeless(<ore:dustTricalciumPhosphate>);
 // -
-recipes.removeShapeless(<ore:gemPhosphorus>);
+recipes.removeShapeless(<ore:gemTricalciumPhosphate>);
 
 // --- Lignite Coal Dust
 recipes.removeShapeless(<ore:dustLignite>);
