@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.6.0 is out 16.11.2018
+Version 2.0.6.2 is out 13.12.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -110,6 +110,8 @@ http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 
+Official EU Test Server Private (whitelist)<BR>
+zeta.gtnewhorizons.com<BR>
  
 Dig to build EU Server (whitelist)<BR>
 https://www.digtobuild.com/<BR>
@@ -218,10 +220,10 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.33.03<BR>
+* Gregtech 5.09.33.04<BR>
 * GT Scanner Mod 1.5.3<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.6.03<BR>
+* GT New Horizons Core Mod 1.6.04<BR>
 * GT++ 1.7.02.09<BR>
 * GTNH TC Wands 1.0.4<BR>
 * GTTweaker 1.7.0<BR>
@@ -253,10 +255,10 @@ you find it in your resource folder<BR>
 * NEI 1.0.5.120<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
-* Nodal Mechanics 1.1-19<BR>
+* Nodal Mechanics 1.1.0-K<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks 1.6.753<BR>
-* Open Computers 1.7.2 Build 1166<BR>
+* Open Computers 1.7.3 Build 1258<BR>
 * Open Modular Turrets 2.2.10.238<BR>
 * Open Glasses 1.0.46
 * Open Printers 0.1.0.132<BR>
@@ -294,7 +296,7 @@ you find it in your resource folder<BR>
 * Super Tic 1.2<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.7<BR>
+* Tec Tech 3.6.8<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
