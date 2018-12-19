@@ -45,8 +45,8 @@ recipes.remove(<GraviSuite:relocator:*>);
 
 // --- Epic Lappack
 recipes.remove(<GraviSuite:epicLappack:*>);
- 
- 
+
+
 // --- Add Recipes ---
 
 
@@ -78,7 +78,7 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:4>, [
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>],
 [<ore:plateDenseCopper>, <gregtech:gt.blockmachines:2384>, <ore:plateDenseCopper>],
 [<ore:plateDenseNeodymiumMagnetic>, <IC2:itemRecipePart>, <ore:plateDenseNeodymiumMagnetic>]]);
- 
+
 // --- Vajra Core
 recipes.addShaped(<GraviSuite:itemSimpleItem:5>, [
 [<ore:craftingToolWrench>, <ore:plateCopper>, <ore:craftingToolHardHammer>],
@@ -90,7 +90,7 @@ recipes.addShaped(<GraviSuite:vajra:27>, [
 [<dreamcraft:item.EngravedEnergyChip>, <GraviSuite:itemSimpleItem:4>, <ore:lensReinforcedGlass>],
 [<ore:plateAlloyCarbon>, <GraviSuite:itemSimpleItem:5>, <ore:plateAlloyCarbon>],
 [<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
- 
+
 // --- Engine Boost
 recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 [<ore:itemCasingAluminium>, <IC2:itemPartAlloy>, <ore:itemCasingAluminium>],
@@ -99,7 +99,7 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:6>, [
 
 // --- Ultimate Lappack
 recipes.addShaped(<GraviSuite:ultimateLappack:27>, [
-[<dreamcraft:item.ChromeItemCasing>, <ore:batteryMaster>, <dreamcraft:item.ChromeItemCasing>],
+[<ore:itemCasingChrome>, <ore:batteryMaster>, <ore:itemCasingChrome>],
 [<ore:batteryMaster>, <GraviSuite:advLappack:*>, <ore:batteryMaster>],
 [<ore:circuitMaster>, <ore:wireGt16NiobiumTitanium>, <ore:circuitMaster>]]);
 
@@ -136,7 +136,7 @@ recipes.addShaped(<GraviSuite:advDDrill:27>, [
 // --- Nei Change Names ---
 
 
- 
+
 // --- SuperConductorCover
 <GraviSuite:itemSimpleItem>.displayName = "Superconductor Cover";
 
