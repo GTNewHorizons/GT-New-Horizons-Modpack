@@ -159,7 +159,7 @@ recipes.addShaped(<dreamcraft:item.MoldFormBread>, [
 [null, BlankCast, null],
 [null, File, null]]);
 
-// --- Baguette Mold, 
+// --- Baguette Mold,
 recipes.addShaped(<dreamcraft:item.MoldFormBaguette>, [
 [null, null, Hammer],
 [null, BlankCast, null],
@@ -449,7 +449,7 @@ recipes.addShaped(<dreamcraft:item.Display>, [
 
 // --- Laser Emitter
 recipes.addShaped(<dreamcraft:item.LaserEmitter>, [
-[<dreamcraft:item.TitaniumItemCasing>, <ore:lensRuby>, <dreamcraft:item.TitaniumItemCasing>],
+[<ore:itemCasingTitanium>, <ore:lensRuby>, <ore:itemCasingTitanium>],
 [<IC2:reactorCoolantSix:1>, <gregtech:gt.metaitem.01:32682>, <IC2:reactorCoolantSix:1>],
 [<ore:plateAlloyAdvanced>, <ore:plateAlloyAdvanced>, <ore:plateAlloyAdvanced>]]);
 
@@ -609,7 +609,7 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2805>, [
 // --- Copper Dust out of XP 5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2035>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null]]);
- 
+
 // --- Sulfur Dust out of XP 5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2022>, [
 [<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
@@ -1121,9 +1121,9 @@ Compressor.addRecipe(<dreamcraft:item.BioCarbonPlate>, <dreamcraft:item.BioOrgan
 
 // --- Engine Core
 mods.forestry.Carpenter.addRecipe(20, <liquid:seedoil> * 500, [
-null, <gregtech:gt.metaitem.01:17526>, null, 
-null, <minecraft:piston>, null, 
-null, null, null], 
+null, <gregtech:gt.metaitem.01:17526>, null,
+null, <minecraft:piston>, null,
+null, null, null],
 <Forestry:sturdyMachine>, <dreamcraft:item.EngineCore>);
 
 
@@ -1161,7 +1161,7 @@ CuttingSaw.addRecipe(<dreamcraft:item.MysteriousCrystalPlate> * 9, null, <dreamc
 
 
 // --- Fermented bacterial Sludge
-Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 75, <liquid:enrichedbacterialsludge> * 750, 2400, false); 
+Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 75, <liquid:enrichedbacterialsludge> * 750, 2400, false);
 
 
 
@@ -1566,7 +1566,7 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:s
 
 // --- Mold Marshmallow
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MarshmallowForm>, <liquid:steel.molten> * 576, <dreamcraft:item.MarshmallowFormMold>, true, 100);
- 
+
 // --- Bow Fletching Cast
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowFletchingCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:fletching:*>, false, 100);
 
@@ -1618,8 +1618,8 @@ mods.thaumcraft.Research.addSibling("WITHERRING", "RUNICARMOR");
 mods.thaumcraft.Research.setConcealed("WITHERRING", true);
 mods.thaumcraft.Research.addPage("WITHERRING", "NewHorizons.research_page.WITHERRING");
 game.setLocalization("NewHorizons.research_page.WITHERRING", "The Wither Protection Ring is a very special ring. Now you find a way to rid of the nasty withering effect. With this Ring it is time to farm some Netherstars. Good luck!!!");
-mods.thaumcraft.Infusion.addRecipe("WITHERRING", <Thaumcraft:ItemBaubleBlanks:1>, 
-[<minecraft:nether_star>, <minecraft:milk_bucket>, <minecraft:skull:1>, <minecraft:milk_bucket>, <minecraft:skull:1>], 
+mods.thaumcraft.Infusion.addRecipe("WITHERRING", <Thaumcraft:ItemBaubleBlanks:1>,
+[<minecraft:nether_star>, <minecraft:milk_bucket>, <minecraft:skull:1>, <minecraft:milk_bucket>, <minecraft:skull:1>],
 "alienis 45, praecantatio 35, spiritus 30, superbia 25, infernus 15",  <dreamcraft:item.WitherProtectionRing>, 3);
 mods.thaumcraft.Research.addInfusionPage("WITHERRING", <dreamcraft:item.WitherProtectionRing>);
 mods.thaumcraft.Warp.addToResearch("WITHERRING", 2);
@@ -1708,8 +1708,8 @@ mods.thaumcraft.Research.setConcealed("DEZILSMARSHMALLOW", false);
 mods.thaumcraft.Research.setSpikey("DEZILSMARSHMALLOW", true);
 mods.thaumcraft.Research.addPage("DEZILSMARSHMALLOW", "de.research_page.DEZILSMARSHMALLOW");
 game.setLocalization("de.research_page.DEZILSMARSHMALLOW", "The ultimate power of food. You can swim in lava, dive like a fish, mine like crazy and jump like a rabbit. Eat one of these marshmallows and you will never get hungry again. You feel like you can take on the Dragon with just bare hands");
-mods.thaumcraft.Infusion.addRecipe("DEZILSMARSHMALLOW", <dreamcraft:item.Marshmallow>, 
-[<harvestcraft:epicbaconItem>, <harvestcraft:deluxechickencurryItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:heartybreakfastItem>], 
+mods.thaumcraft.Infusion.addRecipe("DEZILSMARSHMALLOW", <dreamcraft:item.Marshmallow>,
+[<harvestcraft:epicbaconItem>, <harvestcraft:deluxechickencurryItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:heartybreakfastItem>],
 "alienis 32, praecantatio 16, superbia 24, sano 28, iter 20, potentia 12",  <DraconicEvolution:dezilsMarshmallow>, 5);
 mods.thaumcraft.Research.addInfusionPage("DEZILSMARSHMALLOW", <DraconicEvolution:dezilsMarshmallow>);
 mods.thaumcraft.Warp.addToResearch("DEZILSMARSHMALLOW", 8);
@@ -1768,8 +1768,8 @@ mods.thaumcraft.Research.addPrereq("BEACON", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("BEACON", false);
 mods.thaumcraft.Research.addPage("BEACON", "Minecraft.research_page.BEACON");
 game.setLocalization("Minecraft.research_page.BEACON", "A beacon is a unique block that projects a light beam skyward and can provide status effects to players in the vicinity. Beacon blocks can function as light sources, emitting a light level 15. Like other light sources, they will melt snow and ice. When activated, beacon blocks provide two unique functions: An aesthetic landmark beam reaching into the sky, which can be visible from far away. Powers, which give players status effects within a certain range.");
-mods.thaumcraft.Infusion.addRecipe("BEACON", <minecraft:diamond_block>, 
-[<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>], 
+mods.thaumcraft.Infusion.addRecipe("BEACON", <minecraft:diamond_block>,
+[<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>],
 "praecantatio 64, alienis 64, lux 64, ordo 64, ignis 64, terra 64", <minecraft:beacon>, 6);
 mods.thaumcraft.Research.addInfusionPage("BEACON", <minecraft:beacon>);
 mods.thaumcraft.Warp.addToResearch("BEACON", 2);
@@ -1783,8 +1783,8 @@ mods.thaumcraft.Research.addSibling("DRAGONEGG", "INFUSION");
 mods.thaumcraft.Research.setConcealed("DRAGONEGG", true);
 mods.thaumcraft.Research.addPage("DRAGONEGG", "Minecraft.research_page.DRAGONEGG");
 game.setLocalization("Minecraft.research_page.DRAGONEGG", "Dragon Eggs are dropped by Enderdragons when they are killed. When Right Clicked they teleport a short distance. Now you find a magical way to duplicate this Powerful Item using Draconis Bee Products and The Essence of false Life inside the Infusion Table");
-mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>, 
-[<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>], 
+mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>,
+[<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>],
 "alienis 64, bestia 56, praecantatio 48, victus 48",  <minecraft:dragon_egg>, 6);
 mods.thaumcraft.Research.addInfusionPage("DRAGONEGG", <minecraft:dragon_egg>);
 mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
@@ -1815,8 +1815,8 @@ mods.thaumcraft.Research.setConcealed("LAVACRYSTAL", true);
 mods.thaumcraft.Research.setRound("LAVACRYSTAL", true);
 mods.thaumcraft.Research.addPage("LAVACRYSTAL", "TConstruct.research_page.LAVACRYSTAL");
 game.setLocalization("TConstruct.research_page.LAVACRYSTAL", "A Lava Crystal is a modifier both for tools and weapons. If added, the tool(s) is/are granted with the power of a furnace, meaning it will auto-smelt blocks when harvested. However, adding this to a weapon will not give it the same effect. Instead, it will set mobs on fire for 3 seconds.<BR>This modifier can be stacked with Luck (Fortune) and is not compatible with Silky (Silk Touch).");
-mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>, 
-[<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>], 
+mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>,
+[<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>],
 "ignis 25, perditio 25, vacuos 20, praecantatio 35", <TConstruct:materials:7>, 3);
 mods.thaumcraft.Research.addInfusionPage("LAVACRYSTAL", <TConstruct:materials:7>);
 
@@ -1830,7 +1830,7 @@ mods.thaumcraft.Research.setConcealed("BALLOFMOSS", true);
 mods.thaumcraft.Research.setRound("BALLOFMOSS", true);
 mods.thaumcraft.Research.addPage("BALLOFMOSS", "TConstruct.research_page.BALLOFMOSS");
 game.setLocalization("TConstruct.research_page.BALLOFMOSS", "The Ball of Moss for Tinkers Construct Tools.<BR> Attaching moss to a tool infuses it with life. The tool appers to be capable of regenerating wear and tear.<BR>Effects:<BR> The tool slowly repair itself.<BR>Sunlight speeds up the process.");
-mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>, 
+mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>,
 [<gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>],
 "sano 30, terra 25, instrumentum 35", <TConstruct:materials:6>, 5);
 mods.thaumcraft.Research.addInfusionPage("BALLOFMOSS", <TConstruct:materials:6>);
@@ -1861,8 +1861,8 @@ mods.thaumcraft.Research.setConcealed("REDHEART", true);
 mods.thaumcraft.Research.setRound("REDHEART", true);
 mods.thaumcraft.Research.addPage("REDHEART", "TConstruct.research_page.REDHEART.1");
 game.setLocalization("TConstruct.research_page.REDHEART.1", "The Miniature Red Heart is an item from Tinkers Construct. It is extremely rare and has very little uses, as it is only used to craft the Heart Canister.It is dropped randomly by hostile mobs or crafting via Infusion. The drop rate is 0.2% from regular hostile mobs. The heart may drop anytime a mob dies, the kill does not have to be caused by a player.Its primary use is in crafting the Red Heart Canister, but it can also be eaten to restore 10 life.");
-mods.thaumcraft.Infusion.addRecipe("REDHEART", <minecraft:golden_apple>, 
-[<TConstruct:jerky:6>, <minecraft:apple>, <TConstruct:jerky:7>, <TConstruct:materials:8>, <TConstruct:jerky>, <TConstruct:jerky:1>, <TConstruct:jerky:2>, <TConstruct:jerky:3>, <TConstruct:jerky:4>, <TConstruct:jerky:5>], 
+mods.thaumcraft.Infusion.addRecipe("REDHEART", <minecraft:golden_apple>,
+[<TConstruct:jerky:6>, <minecraft:apple>, <TConstruct:jerky:7>, <TConstruct:materials:8>, <TConstruct:jerky>, <TConstruct:jerky:1>, <TConstruct:jerky:2>, <TConstruct:jerky:3>, <TConstruct:jerky:4>, <TConstruct:jerky:5>],
 "exanimis 25, ignis 35, lucrum 35, sano 50, praecantatio 50", <TConstruct:heartCanister:1>, 3);
 mods.thaumcraft.Research.addInfusionPage("REDHEART", <TConstruct:heartCanister:1>);
 mods.thaumcraft.Warp.addToResearch("REDHEARTCANISTER", 1);
@@ -1891,8 +1891,8 @@ mods.thaumcraft.Research.setConcealed("YELLOWHEART", true);
 mods.thaumcraft.Research.setRound("YELLOWHEART", true);
 mods.thaumcraft.Research.addPage("YELLOWHEART", "TConstruct.research_page.YELLOWHEART.1");
 game.setLocalization("TConstruct.research_page.YELLOWHEART.1", "The Miniature Yellow Heart is an item from Tinkers Construct. It can be obtained by killing Boss mobs such as the Wither or King Slime, as well as from killing any Boss Monsters in the Twilight like the Naga, the Lich or the Hydra. Its primary use is in crafting the Yellow Heart Canister, but it can also be eaten to restore 20 life.");
-mods.thaumcraft.Infusion.addRecipe("YELLOWHEART", <minecraft:golden_apple:1>, 
-[<TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>], 
+mods.thaumcraft.Infusion.addRecipe("YELLOWHEART", <minecraft:golden_apple:1>,
+[<TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>],
 "exanimis 50, ignis 75, lucrum 75, sano 100, praecantatio 100", <TConstruct:heartCanister:3>, 3);
 mods.thaumcraft.Research.addInfusionPage("YELLOWHEART", <TConstruct:heartCanister:3>);
 mods.thaumcraft.Warp.addToResearch("YELLOWHEARTCANISTER", 2);
@@ -1921,8 +1921,8 @@ mods.thaumcraft.Research.setConcealed("GREENHEART", true);
 mods.thaumcraft.Research.setRound("GREENHEART", true);
 mods.thaumcraft.Research.addPage("GREENHEART", "TConstruct.research_page.GREENHEART.1");
 game.setLocalization("TConstruct.research_page.GREENHEART.1", "The Miniature Green Heart is an item from Tinkers Construct. It can be made via Infusion. Its primary use is in crafting the Geen Heart Canister, but it can also be eaten to restore 30 life.");
-mods.thaumcraft.Infusion.addRecipe("GREENHEART", <TConstruct:diamondApple>, 
-[<TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>], 
+mods.thaumcraft.Infusion.addRecipe("GREENHEART", <TConstruct:diamondApple>,
+[<TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>],
 "exanimis 100, ignis 150, lucrum 150, sano 200, praecantatio 200", <TConstruct:heartCanister:5>, 3);
 mods.thaumcraft.Research.addInfusionPage("GREENHEART", <TConstruct:heartCanister:5>);
 mods.thaumcraft.Warp.addToResearch("GREENHEART", 3);
@@ -2045,8 +2045,8 @@ mods.thaumcraft.Research.setConcealed("GHOSTAMULET", true);
 mods.thaumcraft.Research.setRound("GHOSTAMULET", true);
 mods.thaumcraft.Research.addPage("GHOSTAMULET", "Hee.research_page.GHOSTAMULET.1");
 game.setLocalization("Hee.research_page.GHOSTAMULET.1", "Getting Dragon Essence from a Dragon is quite hard on a multiplayer server. You have found a way to purify your Ghost Amulet without Dragon essence the magical way. You need some Draconium, Endium, Infernium and other End items and ores which let you resurrect a Dragon and get some Dragon Essence.");
-mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>, 
-[<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>], 
+mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>,
+[<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>],
 "auram 64, potentia 64, vitium 32, vitreus 48, spiritus 32, corpus 16, alienis 24, lucrum 8", <HardcoreEnderExpansion:ghost_amulet:1>, 9);
 mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
 mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);

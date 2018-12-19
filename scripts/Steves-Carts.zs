@@ -90,9 +90,9 @@ val GalgadorianDrillTip = <ore:toolHeadDrillGalgadorian>;
 val CobaltBrassGear = <ore:gearCobaltBrass>;
 val SReinforcedDust = <ore:dustSmallReinforced>;
 val SGalgadorianDust = <ore:dustSmallGalgadorian>;
-val IronCasing = <IC2:itemCasing:4>;
+val IronCasing = <ore:itemCasingIron>;
 val Furnace = <ore:craftingFurnace>;
-val Piston = <ore:craftingPiston>; 
+val Piston = <ore:craftingPiston>;
 val IronFurnace = <ore:craftingIronFurnace>;
 val LVMotor = <gregtech:gt.metaitem.01:32600>;
 val MVMotor = <gregtech:gt.metaitem.01:32601>;
@@ -397,19 +397,19 @@ recipes.remove(<StevesCarts:ModuleComponents:38>);
 // --- Huge Dynamic Pane
 recipes.remove(<StevesCarts:ModuleComponents:39>);
 
-// --- Basic Farmer 
+// --- Basic Farmer
 recipes.remove(<StevesCarts:CartModule:14>);
 
-// --- Galgadorian Farmer 
+// --- Galgadorian Farmer
 recipes.remove(<StevesCarts:CartModule:84>);
 
-// --- Basic Wooden Cutter 
+// --- Basic Wooden Cutter
 recipes.remove(<StevesCarts:CartModule:15>);
 
-// --- Hardened Wooden Cutter 
+// --- Hardened Wooden Cutter
 recipes.remove(<StevesCarts:CartModule:79>);
 
-// --- Galgadorian Wooden Cutter 
+// --- Galgadorian Wooden Cutter
 recipes.remove(<StevesCarts:CartModule:80>);
 
 // --- Tank Pane
@@ -946,31 +946,31 @@ recipes.addShaped(<StevesCarts:ModuleComponents:36>, [
 [<StevesCarts:ModuleComponents:35>, SteelScrew, <StevesCarts:ModuleComponents:35>],
 [null, <StevesCarts:ModuleComponents:35>, null]]);
 
-// --- Basic Farmer 
+// --- Basic Farmer
 recipes.addShaped(<StevesCarts:CartModule:14>, [
 [DiamondStick, LVMotor, DiamondStick],
 [PCB, BladeArm, PCB],
 [DiamondStick, LvRobotArm, DiamondStick]]);
 
-// --- Galgadorian Farmer 
+// --- Galgadorian Farmer
 recipes.addShaped(<StevesCarts:CartModule:84>, [
 [GalgadorianStick, MVMotor, GalgadorianStick],
 [AdvPCB, <StevesCarts:CartModule:14>, AdvPCB],
 [GalgadorianStick, MvRobotArm, GalgadorianStick]]);
 
-// --- Basic Wooden Cutter 
+// --- Basic Wooden Cutter
 recipes.addShaped(<StevesCarts:CartModule:15>, [
 [SawBlade, SawBlade, SawBlade],
 [SawBlade, WoodCore, SawBlade],
 [PCB, LVMotor, PCB]]);
 
-// --- Hardened Wooden Cutter 
+// --- Hardened Wooden Cutter
 recipes.addShaped(<StevesCarts:CartModule:79>, [
 [HSawBlade, HSawBlade, HSawBlade],
 [HSawBlade, <StevesCarts:CartModule:15>, HSawBlade],
 [AdvPCB, MVMotor, AdvPCB]]);
 
-// --- Galgadorian Wooden Cutter 
+// --- Galgadorian Wooden Cutter
 recipes.addShaped(<StevesCarts:CartModule:80>, [
 [GSawBlade, GSawBlade, GSawBlade],
 [GSawBlade, <StevesCarts:CartModule:79>, GSawBlade],
@@ -1657,13 +1657,13 @@ Assembler.addRecipe(<StevesCarts:CartModule:76>, <StevesCarts:CartModule:81>, <g
 
 
 // --- Reinforced Metal Ingot
-BlastFurnace.addRecipe([<StevesCarts:ModuleComponents:22>], [<StevesCarts:ModuleComponents:21>], 1000, 120, 1700); 
+BlastFurnace.addRecipe([<StevesCarts:ModuleComponents:22>], [<StevesCarts:ModuleComponents:21>], 1000, 120, 1700);
 
 // --- Galgadorian Metal
-BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:12384>], <liquid:oxygen> * 1000, [<StevesCarts:ModuleComponents:46>], 2000, 120, 2200); 
+BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:12384>], <liquid:oxygen> * 1000, [<StevesCarts:ModuleComponents:46>], 2000, 120, 2200);
 
 // --- Enhanced Galgadorian Block
-BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:12385>], <liquid:oxygen> * 1000, [<StevesCarts:ModuleComponents:48>], 3000, 120, 3500); 
+BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:12385>], <liquid:oxygen> * 1000, [<StevesCarts:ModuleComponents:48>], 3000, 120, 3500);
 
 // --- Refined Handle
 BlastFurnace.addRecipe([RHandle], [<StevesCarts:ModuleComponents:11>], 200, 120, 1000);
@@ -1733,11 +1733,11 @@ CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:M
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:31> * 4, null, <StevesCarts:ModuleComponents:32>, <liquid:lubricant> * 2, 50, 30);
 
 // ---  Iron Pane
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <IC2:itemCasing:4>, <liquid:water> * 8, 200, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.02:18032>, <liquid:water> * 8, 200, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <IC2:itemCasing:4>, <liquid:ic2distilledwater> * 6, 200, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.02:18032>, <liquid:ic2distilledwater> * 6, 200, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <IC2:itemCasing:4>, <liquid:lubricant> * 2, 100, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <gregtech:gt.metaitem.02:18032>, <liquid:lubricant> * 2, 100, 30);
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:34> * 4, null, <StevesCarts:ModuleComponents:35>, <liquid:water> * 12, 200, 30);
 // -
@@ -1778,13 +1778,13 @@ CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <TConstruct:Gl
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <TConstruct:GlassPane>, <liquid:ic2distilledwater> * 6, 200, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <TConstruct:GlassPane>, <liquid:lubricant> * 2, 100, 30); 
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <TConstruct:GlassPane>, <liquid:lubricant> * 2, 100, 30);
 //-
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <minecraft:glass_pane>, <liquid:water> * 8, 200, 30);
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <minecraft:glass_pane>, <liquid:ic2distilledwater> * 6, 200, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <minecraft:glass_pane>, <liquid:lubricant> * 2, 100, 30); 
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <minecraft:glass_pane>, <liquid:lubricant> * 2, 100, 30);
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <StevesCarts:ModuleComponents:62>, <liquid:water> * 12, 200, 30);
 // -
