@@ -1340,6 +1340,8 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_du
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:11> * 2], 50, 8);
 // -
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32418> * 2], 50, 8);
+// -
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32410> * 2], 50, 8);
 
 // --- Brown Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, [<minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:6> * 2], 50, 8);
