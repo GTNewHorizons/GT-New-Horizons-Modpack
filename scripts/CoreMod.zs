@@ -847,9 +847,9 @@ recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), 
 
 // --- Neutron Reflector Parts
 recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
-[<IC2:reactorReflectorThick:1>, <IC2:reactorReflectorThick:1>, <IC2:reactorReflectorThick:1>],
-[<IC2:reactorReflectorThick:1>, <ore:craftingToolWrench>, <IC2:reactorReflectorThick:1>],
-[<IC2:reactorReflectorThick:1>, <IC2:reactorReflectorThick:1>, <IC2:reactorReflectorThick:1>]]);
+[<IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>],
+[<IC2:reactorReflectorThick:0>, <ore:craftingToolWrench>, <IC2:reactorReflectorThick:0>],
+[<IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>]]);
 
 // --- Wooden Brick Form
 recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
