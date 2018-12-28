@@ -269,6 +269,8 @@ mods.chisel.Groups.addVariation("glasswork", <chisel:glass2>);
 mods.chisel.Groups.addVariation("glasswork", <TConstruct:GlassBlock>);
 // -
 mods.chisel.Groups.addVariation("glasswork", <EnderIO:blockFusedQuartz:1>);
+// -
+mods.chisel.Groups.addVariation("glass", <TConstruct:GlassBlock>);
 
 // --- Cloud
 mods.chisel.Groups.addVariation("cloud", <Natura:Cloud>);
