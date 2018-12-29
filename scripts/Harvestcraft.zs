@@ -497,12 +497,6 @@ recipes.addShaped(Animaltrap, [
 [<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
 }
 
-// --- Mix Bowl ---
-recipes.addShaped(<harvestcraft:mixingbowlItem>, [
-[SSlPlate, SSlPlate, SSlPlate],
-[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
-[SSlBolt, SSlPlate, SSlBolt]]);
-
 // --- Cutboard ---
 recipes.addShapeless(<harvestcraft:cuttingboardItem>, [<gregtech:gt.metatool.01:36>.withTag({ench: [{lvl: 3 as short, id: 16 as short}, {lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "StainlessSteel", MaxDamage: 48000 as long, SecondaryMaterial: "StainlessSteel"}})]);
 // -
