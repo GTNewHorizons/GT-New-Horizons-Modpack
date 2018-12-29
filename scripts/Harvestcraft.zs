@@ -25,6 +25,9 @@ val WovenCloth = <harvestcraft:wovencottonItem>;
 val String = <minecraft:string>;
 val Cotton = <Natura:barleyFood:3>;
 val flour = <ore:dustWheat>;
+val SSlPlate = <ore:plateStainlessSteel>;
+val SSlBolt = <ore:boltStainlessSteel>;
+val SSlStick = <ore:stickStainlessSteel>;
 
 var Trapdoors = [
 <Natura:trapdoor.eucalyptus>,
@@ -493,6 +496,36 @@ recipes.addShaped(Animaltrap, [
 [<minecraft:string>, <ore:chestWood>, <minecraft:string>],
 [<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
 }
+
+// --- Mix Bowl ---
+recipes.addShaped(<harvestcraft:mixingbowlItem>, [
+[SSlPlate, SSlPlate, SSlPlate],
+[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
+[SSlBolt, SSlPlate, SSlBolt]]);
+
+// --- Cutboard ---
+recipes.addShapeless(<harvestcraft:cuttingboardItem>, [<gregtech:gt.metatool.01:36>.withTag({ench: [{lvl: 3 as short, id: 16 as short}, {lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "StainlessSteel", MaxDamage: 48000 as long, SecondaryMaterial: "StainlessSteel"}})]);
+// -
+recipes.addShapeless(<gregtech:gt.metatool.01:36>.withTag({ench: [{lvl: 3 as short, id: 16 as short}, {lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "StainlessSteel", MaxDamage: 48000 as long, SecondaryMaterial: "StainlessSteel"}}), [<harvestcraft:cuttingboardItem>]);
+
+// --- Mortar ---
+recipes.addShaped(<harvestcraft:mortarandpestleItem>, [
+[<ore:craftingToolHardHammer>, SSlStick, <ore:craftingToolFile>],
+[<ore:stoneGraniteBlack>, SSlStick, <ore:stoneGraniteBlack>],
+[<ore:stoneGraniteBlack>, <ore:stoneGraniteBlack>, <ore:stoneGraniteBlack>]]);
+
+// --- Bakeware ---
+recipes.addShaped(<harvestcraft:bakewareItem>, [
+[SSlPlate, null, SSlPlate],
+[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
+[SSlBolt, SSlPlate, SSlBolt]]);
+
+// --- Juicer ---
+recipes.addShaped(<harvestcraft:juicerItem>, [
+[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
+[SSlPlate, <gregtech:gt.metaitem.02:8306>, SSlPlate],
+[SSlBolt, SSlPlate, SSlBolt]]);
+
 
 
 // --- Ordicted Things ---
