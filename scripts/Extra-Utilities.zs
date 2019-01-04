@@ -783,9 +783,9 @@ recipes.addShaped(Drum, [
 
 // --- Bedrock Drum
 recipes.addShaped(BedDrum, [
-[<dreamcraft:item.BedrockiumPlate>, <ore:ringTungstenSteel>, <dreamcraft:item.BedrockiumPlate>],
-[<dreamcraft:item.BedrockiumPlate>, <ExtraUtilities:drum>, <dreamcraft:item.BedrockiumPlate>],
-[<dreamcraft:item.BedrockiumPlate>, <ore:ringTungstenSteel>, <dreamcraft:item.BedrockiumPlate>]]);
+[<ore:plateBedrockium>, <ore:ringTungstenSteel>, <ore:plateBedrockium>],
+[<ore:plateBedrockium>, <ExtraUtilities:drum>, <ore:plateBedrockium>],
+[<ore:plateBedrockium>, <ore:ringTungstenSteel>, <ore:plateBedrockium>]]);
 
 // --- Conveyor Belt
 recipes.addShaped(Conveyor, [
