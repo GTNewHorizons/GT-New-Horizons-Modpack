@@ -783,9 +783,9 @@ recipes.addShaped(Drum, [
 
 // --- Bedrock Drum
 recipes.addShaped(BedDrum, [
-[<dreamcraft:item.BedrockiumPlate>, <ore:ringTungstenSteel>, <dreamcraft:item.BedrockiumPlate>],
-[<dreamcraft:item.BedrockiumPlate>, <ExtraUtilities:drum>, <dreamcraft:item.BedrockiumPlate>],
-[<dreamcraft:item.BedrockiumPlate>, <ore:ringTungstenSteel>, <dreamcraft:item.BedrockiumPlate>]]);
+[<ore:plateBedrockium>, <ore:ringTungstenSteel>, <ore:plateBedrockium>],
+[<ore:plateBedrockium>, <ExtraUtilities:drum>, <ore:plateBedrockium>],
+[<ore:plateBedrockium>, <ore:ringTungstenSteel>, <ore:plateBedrockium>]]);
 
 // --- Conveyor Belt
 recipes.addShaped(Conveyor, [
@@ -819,13 +819,13 @@ recipes.addShaped(WateringCan, [
 // --- Reinforced Watering Can
 recipes.addShaped(<ExtraUtilities:watering_can:3>, [
 [HHammer, <ore:ringNeutronium>, Screwdriver],
-[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>],
-[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <ore:screwNeutronium>]]);
+[<ore:plateBedrockium>, <ore:plateBedrockium>, <ore:plateBedrockium>],
+[<ore:plateBedrockium>, <ore:plateBedrockium>, <ore:screwNeutronium>]]);
 // -
 recipes.addShaped(<ExtraUtilities:watering_can:3>, [
 [Screwdriver, <ore:ringNeutronium>, HHammer],
-[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>],
-[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <ore:screwNeutronium>]]);
+[<ore:plateBedrockium>, <ore:plateBedrockium>, <ore:plateBedrockium>],
+[<ore:plateBedrockium>, <ore:plateBedrockium>, <ore:screwNeutronium>]]);
 
 // --- Magnum Torch
 mods.extraUtils.QED.addShapedRecipe(MagnumTorch, [
