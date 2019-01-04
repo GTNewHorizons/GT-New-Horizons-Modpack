@@ -819,13 +819,13 @@ recipes.addShaped(WateringCan, [
 // --- Reinforced Watering Can
 recipes.addShaped(<ExtraUtilities:watering_can:3>, [
 [HHammer, <ore:ringNeutronium>, Screwdriver],
-[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>],
-[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <ore:screwNeutronium>]]);
+[<ore:plateBedrockium>, <ore:plateBedrockium>, <ore:plateBedrockium>],
+[<ore:plateBedrockium>, <ore:plateBedrockium>, <ore:screwNeutronium>]]);
 // -
 recipes.addShaped(<ExtraUtilities:watering_can:3>, [
 [Screwdriver, <ore:ringNeutronium>, HHammer],
-[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>],
-[<dreamcraft:item.BedrockiumPlate>, <dreamcraft:item.BedrockiumPlate>, <ore:screwNeutronium>]]);
+[<ore:plateBedrockium>, <ore:plateBedrockium>, <ore:plateBedrockium>],
+[<ore:plateBedrockium>, <ore:plateBedrockium>, <ore:screwNeutronium>]]);
 
 // --- Magnum Torch
 mods.extraUtils.QED.addShapedRecipe(MagnumTorch, [
