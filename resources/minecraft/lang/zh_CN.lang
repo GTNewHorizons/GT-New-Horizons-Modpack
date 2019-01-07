@@ -3505,20 +3505,20 @@ gtnh.quest875.name=史莱姆空岛之旅
 gtnh.quest875.desc=橡胶树不是生橡胶的唯一来源,去找找悬在空中的史莱姆岛.岛上凝固的史莱姆块和史莱姆树叶都可以通过提取或者离心的方式得到生橡胶.你可以在你的橡胶树林场旁边规划一块区域来种植一些史莱姆树苗.这样就可以源源不断的生产生橡胶了.
 
 #Quest_876.Bring me my vat of polyethelyne!
-gtnh.quest876.name=铁矿莓丛
-gtnh.quest876.desc=你可以种植铁矿莓丛来获得铁,而不是出去寻找铁矿.
+gtnh.quest876.name=给我一大桶聚乙烯!
+gtnh.quest876.desc=厌倦了使用小单元来处理化学品?建造一个大型化学反应釜吧,你可以直接用管道输入或输出流体,或使用大型流体单元来从输出仓运输流体.  注意,如果输出仓已满,多方块将会吞掉多余的产物!  顺便说一下,某些旧配方在大型化学反应釜中变得更简单了.  大型化学反应釜可看做超净间环境.  你还需要:  1x维护仓 1x能源仓 1x输入总线 5x输出总线 5x输入仓 5x输出仓
 
 #Quest_877.Scepter with 75 vis capacity
-gtnh.quest877.name=金矿莓丛
-gtnh.quest877.desc=你可以种植金矿莓丛来获得金子,而不是出去寻找金矿.
+gtnh.quest877.name=可存储75vis的权杖
+gtnh.quest877.desc=权杖是用杖柄、元始魔力、三个杖端、一个暮色森林怪物掉落物、和一些螺丝制成的.可使用任何种类的杖柄和杖端,但三个杖端必须同类.权杖无法安装法杖核心,但vis存储量是相同杖柄制成法杖的150%,并提供额外5%的魔力减免. 
 
 #Quest_878.Magic Staff Core
-gtnh.quest878.name=铜矿莓丛
-gtnh.quest878.desc=你可以种植铜矿莓丛来获得铜,而不是出去寻找铜矿.
+gtnh.quest878.name=魔法杖芯
+gtnh.quest878.desc=杖柄可进一步合成:两个(匹配的)杖柄通过元始魔力结合起来,再加上魔法水晶簇即可制成杖芯.(由于合成表形式都一样,每种杖芯都需要分别研究.) 
 
 #Quest_879.Primal Charm
-gtnh.quest879.name=铝矿莓丛
-gtnh.quest879.desc=你可以种植铝矿莓丛来获得铝,而不是出去寻找铝矿砂砾.
+gtnh.quest879.name=元始魔力
+gtnh.quest879.desc=有了新的可存储50vis的魔杖,你可以制作一柄权杖,可存储75vis魔力. 首先你需要一些元始魔力,合成需消耗50vis.
 
 #Quest_880.Witch
 gtnh.quest880.name=女巫
