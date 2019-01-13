@@ -132,6 +132,16 @@ furnace.addRecipe(<minecraft:dirt>, <BiomesOPlenty:driedDirt>);
 
 
 
+
+// --- Burn Values ---
+
+
+// --- Baboo Sticks
+furnace.setFuel(<BiomesOPlenty:bamboo>, 100);
+
+
+
+
 // --- Assembler Recipes ---
 
 
