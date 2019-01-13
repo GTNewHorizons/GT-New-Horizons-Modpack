@@ -436,13 +436,6 @@ CuttingSaw.addRecipe(<HardcoreEnderExpansion:ravaged_brick_slab> * 2, null, <Har
 // -
 CuttingSaw.addRecipe(<HardcoreEnderExpansion:ravaged_brick_slab> * 2, null, <HardcoreEnderExpansion:ravaged_brick:*>, <liquid:molten.blaze> * 36, 150, 120);
 
-// --- Endium Plate
-CuttingSaw.addRecipe(<gregtech:gt.metaitem.01:17770> * 9, null, <HardcoreEnderExpansion:endium_block>, <liquid:water> * 500, 3600, 30);
-// -
-CuttingSaw.addRecipe(<gregtech:gt.metaitem.01:17770> * 9, null, <HardcoreEnderExpansion:endium_block>, <liquid:ic2distilledwater> * 350, 3600, 30);
-// -
-CuttingSaw.addRecipe(<gregtech:gt.metaitem.01:17770> * 9, null, <HardcoreEnderExpansion:endium_block>, <liquid:lubricant> * 150, 1800, 30);
-
 
 
 
@@ -483,6 +476,3 @@ Pulverizer.addRecipe([<HardcoreEnderExpansion:end_powder> * 4], <HardcoreEnderEx
 
 // --- Igneous Rock
 Pulverizer.addRecipe([<HardcoreEnderExpansion:igneous_rock> * 2], <HardcoreEnderExpansion:igneous_rock_ore>, [10000], 300, 2);
-
-// --- Endium Dust
-Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2770> * 9], <HardcoreEnderExpansion:endium_block>, [10000], 300, 2);
