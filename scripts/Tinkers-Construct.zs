@@ -311,12 +311,12 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
 // --- Cobalt Nugget
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
 // -
-mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetCobalt>);
+//mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetCobalt>);
 
 // --- Cobalt Ingot
 mods.tconstruct.Smeltery.removeMelting(<ore:ingotCobalt>);
 // -
-mods.tconstruct.Casting.removeTableRecipe(<ore:ingotCobalt>);
+//mods.tconstruct.Casting.removeTableRecipe(<ore:ingotCobalt>);
 
 // --- Cobalt Block
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2:5>);
