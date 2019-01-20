@@ -6,7 +6,7 @@ Delete the DefaultDatabase.json file in the world save (or create a new world).
 
 Use `/bq_admin edit` to enable edit mode. 
 
-When editting quests, make sure that requirements are generally set to Retrieval and Consume: False. Update the quest icon. Change the Show setting to Unlocked. If you think it is a main quest that players should perform, mark it as main.  Link the requirements quests to your new quest. Add some appropriate rewards.
+When editing quests, make sure that requirements are generally set to Retrieval and Consume: False. Update the quest icon. Change the Show setting to Unlocked. If you think it is a main quest that players should perform, mark it as main.  Link the requirements quests to your new quest. Add some appropriate rewards.
 
 Use `/bq_admin edit` to disable edit mode.
 
@@ -17,4 +17,4 @@ Copy the file from the modpack config directory back into the repo config direct
 
 It's a good idea to do a compare vs the QuestDatabase.json file and the DefaultQuests.json file.  The only changes should be the changes you added.  Make sure you didn't leave the Edit mode enabled. A good tool to compare the files is Beyond Compare from http://www.scootersoftware.com .
 
-Once you have commited your DefaultQuests.json file, notify DreammasterXXL and he will accept your pull request and generate an updated en_US.lang file.
+Once you have committed your DefaultQuests.json file, notify DreammasterXXL and he will accept your pull request and generate an updated en_US.lang file.
