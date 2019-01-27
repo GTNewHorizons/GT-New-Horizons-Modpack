@@ -1713,11 +1713,11 @@ Compressor.addRecipe(<StevesCarts:ModuleComponents:48>, <StevesCarts:ModuleCompo
 
 
 // ---  Chest Pane
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.01:18809>, <liquid:water> * 4, 100, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.02:18809>, <liquid:water> * 4, 100, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.01:18809>, <liquid:ic2distilledwater> * 3, 100, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.02:18809>, <liquid:ic2distilledwater> * 3, 100, 30);
 // -
-CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.01:18809>, <liquid:lubricant> * 1, 50, 30);
+CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <gregtech:gt.metaitem.02:18809>, <liquid:lubricant> * 1, 50, 30);
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:30> * 4, null, <StevesCarts:ModuleComponents:31>, <liquid:water> * 6, 100, 30);
 // -
