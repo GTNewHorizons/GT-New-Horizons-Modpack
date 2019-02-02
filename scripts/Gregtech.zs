@@ -517,14 +517,6 @@ recipes.addShaped(<gregtech:gt.metatool.01:8>.withTag({"GT.ToolStats": {PrimaryM
 [null, Stick, null],
 [null, Stick, null]]);
 
-// --- Mince Meat
-recipes.addShapeless(<gregtech:gt.metaitem.01:2892>, [<ore:craftingToolMortar>, <ore:listAllmeatraw>]);
-recipes.addShapeless(<gregtech:gt.metaitem.01:2892>, [<ore:craftingToolMortar>, <ore:listAllfishraw>]);
-
-// --- Cooked Mince Meat
-recipes.addShapeless(<gregtech:gt.metaitem.01:2893>, [<ore:craftingToolMortar>, <ore:listAllmeatcooked>]);
-recipes.addShapeless(<gregtech:gt.metaitem.01:2893>, [<ore:craftingToolMortar>, <ore:listAllfishcooked>]);
-
 // --- Wood Pulp
 recipes.addShapeless(<gregtech:gt.metaitem.01:2809> * 2, [<ore:craftingToolMortar>, <ore:logWood>]);
 
@@ -652,11 +644,11 @@ recipes.addShaped(<gregtech:gt.metaitem.02:22533>, [[<ore:stickEnderEye>, <ore:c
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32752>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, <ore:wireGt01Cobalt>, <dreamcraft:item.IrradiantReinforcedAluminiumPlate>, <ore:wireGt01Cobalt>, null, null, null],
+[null, null, null, <ore:wireGt01SuperconductorMV>, <dreamcraft:item.IrradiantReinforcedAluminiumPlate>, <ore:wireGt01SuperconductorMV>, null, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:platePolytetrafluoroethylene>, <gregtech:gt.metaitem.03:32034>, null, null, null],
 [null, null, null, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32751>, <ore:circuitAdvanced>, null, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:platePolytetrafluoroethylene>, <gregtech:gt.metaitem.03:32034>, null, null, null],
-[null, null, null, <ore:wireGt01Cobalt>, <dreamcraft:item.IrradiantReinforcedAluminiumPlate>, <ore:wireGt01Cobalt>, null, null, null],
+[null, null, null, <ore:wireGt01SuperconductorMV>, <dreamcraft:item.IrradiantReinforcedAluminiumPlate>, <ore:wireGt01SuperconductorMV>, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -664,11 +656,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32752>, [
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32753>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32063>, null, null, null, null],
-[null, null, null, <ore:wireGt01SuperconductorMV>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <ore:wireGt01SuperconductorMV>, null, null, null],
+[null, null, null, <ore:wireGt01SuperconductorHV>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <ore:wireGt01SuperconductorHV>, null, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:plateEpoxid>, <gregtech:gt.metaitem.03:32034>, null, null, null],
 [null, null, null, <ore:circuitData>, <gregtech:gt.metaitem.01:32752>, <ore:circuitData>, null, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:plateEpoxid>, <gregtech:gt.metaitem.03:32034>, null, null, null],
-[null, null, null, <ore:wireGt01SuperconductorMV>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <ore:wireGt01SuperconductorMV>, null, null, null],
+[null, null, null, <ore:wireGt01SuperconductorHV>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <ore:wireGt01SuperconductorHV>, null, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32063>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -676,11 +668,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32753>, [
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32754>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32065>, null, null, null, null],
-[null, null, null, <ore:wireGt01SuperconductorHV>, <dreamcraft:item.IrradiantReinforcedTungstenPlate>, <ore:wireGt01SuperconductorHV>, null, null, null],
+[null, null, null, <ore:wireGt01SuperconductorEV>, <dreamcraft:item.IrradiantReinforcedTungstenPlate>, <ore:wireGt01SuperconductorEV>, null, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:plateIndiumGalliumPhosphide>, <gregtech:gt.metaitem.03:32034>, null, null, null],
 [null, null, <ore:circuitElite>, <ore:circuitElite>, <gregtech:gt.metaitem.01:32753>, <ore:circuitElite>,  <ore:circuitElite>, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:plateIndiumGalliumPhosphide>, <gregtech:gt.metaitem.03:32034>, null, null, null],
-[null, null, null, <ore:wireGt01SuperconductorHV>, <dreamcraft:item.IrradiantReinforcedTungstenPlate>, <ore:wireGt01SuperconductorHV>, null, null, null],
+[null, null, null, <ore:wireGt01SuperconductorEV>, <dreamcraft:item.IrradiantReinforcedTungstenPlate>, <ore:wireGt01SuperconductorEV>, null, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32065>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -688,11 +680,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32754>, [
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32755>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32051>, null, null, null, null],
-[null, null, <ore:wireGt01SuperconductorEV>, <ore:plateTripleSilicon>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:plateTripleSilicon>, <ore:wireGt01SuperconductorEV>, null, null],
+[null, null, <ore:wireGt01SuperconductorIV>, <ore:plateTripleSilicon>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:plateTripleSilicon>, <ore:wireGt01SuperconductorIV>, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32035>, <ore:platePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, null, null, null],
-[null, <ore:wireGt01SuperconductorEV>, <ore:circuitMaster>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32754>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:wireGt01SuperconductorEV>, null],
+[null, <ore:wireGt01SuperconductorIV>, <ore:circuitMaster>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32754>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:wireGt01SuperconductorIV>, null],
 [null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:platePolybenzimidazole>, <gregtech:gt.metaitem.03:32034>, null, null, null],
-[null, null, <ore:wireGt01SuperconductorEV>, <ore:plateTripleSilicon>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:plateTripleSilicon>, <ore:wireGt01SuperconductorEV>, null, null],
+[null, null, <ore:wireGt01SuperconductorIV>, <ore:plateTripleSilicon>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:plateTripleSilicon>, <ore:wireGt01SuperconductorIV>, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32051>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -700,61 +692,61 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32755>, [
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32756>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32053>, null, null, null, null],
-[null, null, <ore:wireGt01SuperconductorIV>, <gregtech:gt.metaitem.03:32034>, <dreamcraft:item.IrradiantReinforcedChromePlate>, <gregtech:gt.metaitem.03:32034>, <ore:wireGt01SuperconductorIV>, null, null],
+[null, null, <ore:wireGt01SuperconductorLuV>, <gregtech:gt.metaitem.03:32034>, <dreamcraft:item.IrradiantReinforcedChromePlate>, <gregtech:gt.metaitem.03:32034>, <ore:wireGt01SuperconductorLuV>, null, null],
 [null, null, <ore:plateQuadrupleSilicon>, <gregtech:gt.metaitem.03:32035>, <ore:plateDoublePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, <ore:plateQuadrupleSilicon>, null, null],
-[null, <ore:wireGt01SuperconductorIV>, <ore:circuitUltimate>, <ore:circuitUltimate>, <gregtech:gt.metaitem.01:32755>, <ore:circuitUltimate>, <ore:circuitUltimate>, <ore:wireGt01SuperconductorIV>, null],
+[null, <ore:wireGt01SuperconductorLuV>, <ore:circuitUltimate>, <ore:circuitUltimate>, <gregtech:gt.metaitem.01:32755>, <ore:circuitUltimate>, <ore:circuitUltimate>, <ore:wireGt01SuperconductorLuV>, null],
 [null, null, <ore:plateQuadrupleSilicon>, <gregtech:gt.metaitem.03:32035>, <ore:plateDoublePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, <ore:plateQuadrupleSilicon>, null, null],
-[null, null, <ore:wireGt01SuperconductorIV>, <gregtech:gt.metaitem.03:32034>, <dreamcraft:item.IrradiantReinforcedChromePlate>, <gregtech:gt.metaitem.03:32034>, <ore:wireGt01SuperconductorIV>, null, null],
+[null, null, <ore:wireGt01SuperconductorLuV>, <gregtech:gt.metaitem.03:32034>, <dreamcraft:item.IrradiantReinforcedChromePlate>, <gregtech:gt.metaitem.03:32034>, <ore:wireGt01SuperconductorLuV>, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32053>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Solar Panel LuV 32768 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32757>, [
 [null, null, null, null, <gregtech:gt.metaitem.03:32059>, null, null, null, null],
-[null, null, null, <ore:wireGt02SuperconductorLuV>, <ore:circuitSuperconductor>, <ore:wireGt02SuperconductorLuV>, null, null, null],
-[null, null, <ore:wireGt02SuperconductorLuV>, <gregtech:gt.metaitem.03:32035>, <AdvancedSolarPanel:asp_crafting_items:8>, <gregtech:gt.metaitem.03:32035>, <ore:wireGt02SuperconductorLuV>, null, null],
-[null, null, <ore:plateQuintupleSilicon>, <gregtech:gt.metaitem.03:32035>, <ore:plateTriplePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, <ore:plateQuintupleSilicon>, null, null],
-[null, <supersolarpanel:solarsplitter>, <ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <gregtech:gt.metaitem.01:32756>, <ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <supersolarpanel:solarsplitter>, null],
-[null, null, <ore:plateQuintupleSilicon>, <gregtech:gt.metaitem.03:32035>, <ore:plateTriplePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, <ore:plateQuintupleSilicon>, null, null],
-[null, null, <ore:wireGt02SuperconductorLuV>, <gregtech:gt.metaitem.03:32035>, <AdvancedSolarPanel:asp_crafting_items:8>, <gregtech:gt.metaitem.03:32035>, <ore:wireGt02SuperconductorLuV>, null, null],
-[null, null, null, <ore:wireGt02SuperconductorLuV>, <ore:circuitSuperconductor>, <ore:wireGt02SuperconductorLuV>, null, null, null],
+[null, null, null, <ore:wireGt02SuperconductorZPM>, <ore:circuitInfinite>, <ore:wireGt02SuperconductorZPM>, null, null, null],
+[null, null, <ore:wireGt02SuperconductorZPM>, <gregtech:gt.metaitem.03:32035>, <AdvancedSolarPanel:asp_crafting_items:8>, <gregtech:gt.metaitem.03:32035>, <ore:wireGt02SuperconductorZPM>, null, null],
+[null, null, <ore:plateQuintupleSilicon>, <gregtech:gt.metaitem.03:32151>, <gregtech:gt.metaitem.01:32756>, <gregtech:gt.metaitem.03:32151>, <ore:plateQuintupleSilicon>, null, null],
+[null, <supersolarpanel:solarsplitter>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:plateTriplePolybenzimidazole>, <ore:circuitInfinite>, <ore:circuitInfinite>, <supersolarpanel:solarsplitter>, null],
+[null, null, <ore:plateQuintupleSilicon>, <gregtech:gt.metaitem.03:32151>, <gregtech:gt.metaitem.01:32756>, <gregtech:gt.metaitem.03:32151>, <ore:plateQuintupleSilicon>, null, null],
+[null, null, <ore:wireGt02SuperconductorZPM>, <gregtech:gt.metaitem.03:32035>, <AdvancedSolarPanel:asp_crafting_items:8>, <gregtech:gt.metaitem.03:32035>, <ore:wireGt02SuperconductorZPM>, null, null],
+[null, null, null, <ore:wireGt02SuperconductorZPM>, <ore:circuitInfinite>, <ore:wireGt02SuperconductorZPM>, null, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32059>, null, null, null, null]]);
 
 // --- Solar Panel ZPM 131072 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32758>, [
-[null, null, null, <ore:wireGt04SuperconductorZPM>, <gregtech:gt.metaitem.03:32048>, <ore:wireGt04SuperconductorZPM>, null, null, null],
-[null, null, <gregtech:gt.metaitem.03:32161>, <ore:wireGt04SuperconductorZPM>, <ore:circuitInfinite>, <ore:wireGt04SuperconductorZPM>, <gregtech:gt.metaitem.03:32161>, null, null],
-[null, null, <ore:wireGt04SuperconductorZPM>, <gregtech:gt.metaitem.03:32151>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt04SuperconductorZPM>, null, null],
-[null, null, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.03:32035>, <ore:plateQuadruplePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, <IC2:itemPartCarbonPlate>, null, null],
-[<supersolarpanel:enderquantumcomponent>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <ore:circuitInfinite>, <ore:circuitInfinite>, <gregtech:gt.metaitem.01:32757>, <ore:circuitInfinite>, <ore:circuitInfinite>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <supersolarpanel:enderquantumcomponent>],
-[null, null, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.03:32035>, <ore:plateQuadruplePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, <IC2:itemPartCarbonPlate>, null, null],
-[null, null, <ore:wireGt04SuperconductorZPM>, <gregtech:gt.metaitem.03:32151>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>,<gregtech:gt.metaitem.03:32151>, <ore:wireGt04SuperconductorZPM>, null, null],
-[null, null, <gregtech:gt.metaitem.03:32161>, <ore:wireGt04SuperconductorZPM>, <ore:circuitInfinite>, <ore:wireGt04SuperconductorZPM>, <gregtech:gt.metaitem.03:32161>, null, null],
-[null, null, null, <ore:wireGt04SuperconductorZPM>, <gregtech:gt.metaitem.03:32048>, <ore:wireGt04SuperconductorZPM>, null, null, null]]);
+[null, null, null, <ore:wireGt04SuperconductorUV>, <gregtech:gt.metaitem.03:32048>, <ore:wireGt04SuperconductorUV>, null, null, null],
+[null, null, <gregtech:gt.metaitem.03:32161>, <ore:wireGt04SuperconductorUV>, <ore:circuitBio>, <ore:wireGt04SuperconductorUV>, <gregtech:gt.metaitem.03:32161>, null, null],
+[null, null, <ore:wireGt04SuperconductorUV>, <gregtech:gt.metaitem.03:32151>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt04SuperconductorUV>, null, null],
+[null, null, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.03:32153>, <gregtech:gt.metaitem.01:32757>, <gregtech:gt.metaitem.03:32153>, <IC2:itemPartCarbonPlate>, null, null],
+[<supersolarpanel:enderquantumcomponent>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <ore:circuitBio>, <ore:circuitBio>, <ore:plateQuadruplePolybenzimidazole>, <ore:circuitBio>, <ore:circuitBio>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <supersolarpanel:enderquantumcomponent>],
+[null, null, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.03:32153>, <gregtech:gt.metaitem.01:32757>, <gregtech:gt.metaitem.03:32153>, <IC2:itemPartCarbonPlate>, null, null],
+[null, null, <ore:wireGt04SuperconductorUV>, <gregtech:gt.metaitem.03:32151>, <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>,<gregtech:gt.metaitem.03:32151>, <ore:wireGt04SuperconductorUV>, null, null],
+[null, null, <gregtech:gt.metaitem.03:32161>, <ore:wireGt04SuperconductorUV>, <ore:circuitBio>, <ore:wireGt04SuperconductorUV>, <gregtech:gt.metaitem.03:32161>, null, null],
+[null, null, null, <ore:wireGt04SuperconductorUV>, <gregtech:gt.metaitem.03:32048>, <ore:wireGt04SuperconductorUV>, null, null, null]]);
 
 // --- Solar Panel UV 524288 EU
 mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32759>, [
-[null, null, <ore:wireGt08SuperconductorUV>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32071>, <ore:plateDenseSilicon>, <ore:wireGt08SuperconductorUV>, null, null],
-[null, <gregtech:gt.metaitem.03:32163>, <ore:wireGt08SuperconductorUV>, <gregtech:gt.metaitem.03:32151>, <ore:circuitBio>,<gregtech:gt.metaitem.03:32151>, <ore:wireGt08SuperconductorUV>, <gregtech:gt.metaitem.03:32163>, null],
-[null, <ore:wireGt08SuperconductorUV>, <gregtech:gt.metaitem.03:32151>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt08SuperconductorUV>, null],
-[null, <ore:wireGt08SuperconductorUV>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <ore:plateDensePolybenzimidazole>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:wireGt08SuperconductorUV>, null],
-[<ore:wireGt08SuperconductorUV>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:circuitBio>, <ore:circuitBio>, <gregtech:gt.metaitem.01:32758>, <ore:circuitBio>, <ore:circuitBio>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:wireGt08SuperconductorUV>],
-[null, <ore:wireGt08SuperconductorUV>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <ore:plateDensePolybenzimidazole>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:wireGt08SuperconductorUV>, null],
-[null, <ore:wireGt08SuperconductorUV>, <gregtech:gt.metaitem.03:32151>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt08SuperconductorUV>, null],
-[null, <gregtech:gt.metaitem.03:32163>, <ore:wireGt08SuperconductorUV>, <gregtech:gt.metaitem.03:32151>, <ore:circuitBio>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt08SuperconductorUV>, <gregtech:gt.metaitem.03:32163>, null],
-[null, null, <ore:wireGt08SuperconductorUV>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32071>, <ore:plateDenseSilicon>, <ore:wireGt08SuperconductorUV>, null, null]]);
+[null, null, <ore:wireGt08Superconductor>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32068>, <ore:plateDenseSilicon>, <ore:wireGt08Superconductor>, null, null],
+[null, <gregtech:gt.metaitem.03:32163>, <ore:wireGt08Superconductor>, <gregtech:gt.metaitem.03:32153>, <ore:circuitNano>,<gregtech:gt.metaitem.03:32153>, <ore:wireGt08Superconductor>, <gregtech:gt.metaitem.03:32163>, null],
+[null, <ore:wireGt08Superconductor>, <dreamcraft:item.PicoWafer>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:plateDenseSilicon>, <dreamcraft:item.PicoWafer>, <ore:wireGt08Superconductor>, null],
+[null, <ore:wireGt08Superconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.01:32758>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:wireGt08Superconductor>, null],
+[<ore:wireGt08Superconductor>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:circuitNano>, <ore:circuitNano>, <ore:plateDensePolybenzimidazole>, <ore:circuitNano>, <ore:circuitNano>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:wireGt08Superconductor>],
+[null, <ore:wireGt08Superconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.01:32758>, <ore:plateDenseSilicon>, <IC2:itemPartCarbonPlate>, <ore:wireGt08Superconductor>, null],
+[null, <ore:wireGt08Superconductor>, <dreamcraft:item.PicoWafer>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <ore:plateDenseSilicon>, <dreamcraft:item.PicoWafer>, <ore:wireGt08Superconductor>, null],
+[null, <gregtech:gt.metaitem.03:32163>, <ore:wireGt08Superconductor>, <gregtech:gt.metaitem.03:32153>, <ore:circuitNano>, <gregtech:gt.metaitem.03:32153>, <ore:wireGt08Superconductor>, <gregtech:gt.metaitem.03:32163>, null],
+[null, null, <ore:wireGt08Superconductor>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32068>, <ore:plateDenseSilicon>, <ore:wireGt08Superconductor>, null, null]]);
 
 // --- Solar Panel UHV 2097152 EU
-mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.03:32130>, [
-[<gregtech:gt.metaitem.03:32165>, <dreamcraft:item.NanoCircuit>, <ore:wireGt16SuperconductorUHV>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32068>, <ore:plateDenseSilicon>, <ore:wireGt16SuperconductorUHV>, <dreamcraft:item.NanoCircuit>, <gregtech:gt.metaitem.03:32165>],
-[<gregtech:gt.metaitem.03:32165>, <dreamcraft:item.NanoCircuit>, <ore:wireGt16SuperconductorUHV>, <gregtech:gt.metaitem.03:32153>, <AdvancedSolarPanel:asp_crafting_items:13>,<gregtech:gt.metaitem.03:32153>, <ore:wireGt16SuperconductorUHV>, <dreamcraft:item.NanoCircuit>, <gregtech:gt.metaitem.03:32165>],
-[null, <ore:wireGt16SuperconductorUHV>, <gregtech:gt.metaitem.03:32151>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt16SuperconductorUHV>, null],
-[null, <ore:wireGt16SuperconductorUHV>, <IC2:itemPartCarbonPlate>, <ore:plateDensePolybenzimidazole>, <ore:plateDensePolybenzimidazole>, <ore:plateDensePolybenzimidazole>, <IC2:itemPartCarbonPlate>, <ore:wireGt16SuperconductorUHV>, null],
-[<ore:wireGt16SuperconductorUHV>, <dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, <AdvancedSolarPanel:asp_crafting_items:13>, <AdvancedSolarPanel:asp_crafting_items:13>, <gregtech:gt.metaitem.01:32759>, <AdvancedSolarPanel:asp_crafting_items:13>, <AdvancedSolarPanel:asp_crafting_items:13>, <dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, <ore:wireGt16SuperconductorUHV>],
-[null, <ore:wireGt16SuperconductorUHV>, <IC2:itemPartCarbonPlate>, <ore:plateDensePolybenzimidazole>, <ore:plateDensePolybenzimidazole>, <ore:plateDensePolybenzimidazole>, <IC2:itemPartCarbonPlate>, <ore:wireGt16SuperconductorUHV>, null],
-[null, <ore:wireGt16SuperconductorUHV>, <gregtech:gt.metaitem.03:32151>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt16SuperconductorUHV>, null],
-[<gregtech:gt.metaitem.03:32165>, <dreamcraft:item.NanoCircuit>, <ore:wireGt16SuperconductorUHV>, <gregtech:gt.metaitem.03:32153>, <AdvancedSolarPanel:asp_crafting_items:13>, <gregtech:gt.metaitem.03:32153>, <ore:wireGt16SuperconductorUHV>, <dreamcraft:item.NanoCircuit>, <gregtech:gt.metaitem.03:32165>],
-[<gregtech:gt.metaitem.03:32165>, <dreamcraft:item.NanoCircuit>, <ore:wireGt16SuperconductorUHV>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32068>, <ore:plateDenseSilicon>, <ore:wireGt16SuperconductorUHV>, <dreamcraft:item.NanoCircuit>, <gregtech:gt.metaitem.03:32165>]]);
+//mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.03:32130>, [
+//[<gregtech:gt.metaitem.03:32165>, <dreamcraft:item.NanoCircuit>, <ore:wireGt16Superconductor>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32068>, <ore:plateDenseSilicon>, <ore:wireGt16Superconductor>, <dreamcraft:item.NanoCircuit>, <gregtech:gt.metaitem.03:32165>],
+//[<gregtech:gt.metaitem.03:32165>, <dreamcraft:item.NanoCircuit>, <ore:wireGt16Superconductor>, <gregtech:gt.metaitem.03:32153>, <AdvancedSolarPanel:asp_crafting_items:13>,<gregtech:gt.metaitem.03:32153>, <ore:wireGt16Superconductor>, <dreamcraft:item.NanoCircuit>, <gregtech:gt.metaitem.03:32165>],
+//[null, <ore:wireGt16Superconductor>, <gregtech:gt.metaitem.03:32151>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt16Superconductor>, null],
+//[null, <ore:wireGt16Superconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDensePolybenzimidazole>, <ore:plateDensePolybenzimidazole>, <ore:plateDensePolybenzimidazole>, <IC2:itemPartCarbonPlate>, <ore:wireGt16Superconductor>, null],
+//[<ore:wireGt16Superconductor>, <dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, <AdvancedSolarPanel:asp_crafting_items:13>, <AdvancedSolarPanel:asp_crafting_items:13>, <gregtech:gt.metaitem.01:32759>, <AdvancedSolarPanel:asp_crafting_items:13>, <AdvancedSolarPanel:asp_crafting_items:13>, <dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, <ore:wireGt16Superconductor>],
+//[null, <ore:wireGt16Superconductor>, <IC2:itemPartCarbonPlate>, <ore:plateDensePolybenzimidazole>, <ore:plateDensePolybenzimidazole>, <ore:plateDensePolybenzimidazole>, <IC2:itemPartCarbonPlate>, <ore:wireGt16Superconductor>, null],
+//[null, <ore:wireGt16Superconductor>, <gregtech:gt.metaitem.03:32151>, <ore:plateDenseSilicon>, <dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32151>, <ore:wireGt16Superconductor>, null],
+//[<gregtech:gt.metaitem.03:32165>, <dreamcraft:item.NanoCircuit>, <ore:wireGt16Superconductor>, <gregtech:gt.metaitem.03:32153>, <AdvancedSolarPanel:asp_crafting_items:13>, <gregtech:gt.metaitem.03:32153>, <ore:wireGt16Superconductor>, <dreamcraft:item.NanoCircuit>, <gregtech:gt.metaitem.03:32165>],
+//[<gregtech:gt.metaitem.03:32165>, <dreamcraft:item.NanoCircuit>, <ore:wireGt16Superconductor>, <ore:plateDenseSilicon>, <gregtech:gt.metaitem.03:32068>, <ore:plateDenseSilicon>, <ore:wireGt16Superconductor>, <dreamcraft:item.NanoCircuit>, <gregtech:gt.metaitem.03:32165>]]);
 
 // --- Frames
 recipes.addShapeless(<gregtech:gt.blockmachines:4905> * 2, [<MCFrames:mcframes.frame>]);
