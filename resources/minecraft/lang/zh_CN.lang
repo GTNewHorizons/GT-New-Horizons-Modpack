@@ -85,8 +85,8 @@ gtnh.quest20.name=Gravel: 堆积砂砾
 gtnh.quest20.desc=你的工具最终将会失去所有的耐久度.你认为收集更多的砂砾是个好主意,以便为日后制造工具提供燧石.尝试在水附近搜索.
 
 #Quest_21.Clay: The Gathering
-gtnh.quest21.name=Clay: 堆积黏土
-gtnh.quest21.desc=有点无聊,你觉得做陶机消磨时间是个好主意.你应该去河岸找一些黏土.
+gtnh.quest21.name=Clay: 堆积粘土
+gtnh.quest21.desc=有点无聊,你觉得做陶器消磨时间是个好主意.你应该去河岸找一些粘土.
 
 #Quest_22.Finite water!?
 gtnh.quest22.name=有限的水！？
@@ -94,7 +94,7 @@ gtnh.quest22.desc=有限的水肯定是个问题.你昨晚想到:既然可以喝
 
 #Quest_23.Something to carry liquids
 gtnh.quest23.name=装液体的东西
-gtnh.quest23.desc=你试图用你的方块手乘点水,然而并没有什么卵用.幸运的是,你还记得怎么用黏土做一个桶子.把它放进一个研钵里,可以得到粘土粉.
+gtnh.quest23.desc=你试图用你的方块手乘点水,然而并没有什么卵用.幸运的是,你还记得怎么用粘土做一个桶子.把它放进一个研钵里,可以得到粘土粉.
 
 #Quest_24.Getting (char)coal
 gtnh.quest24.name=获得(焦)木炭
@@ -106,7 +106,7 @@ gtnh.quest25.desc=你的目标变得更明确,你将需要砖块来完成你的�
 
 #Quest_26.Forming press v0.1
 gtnh.quest26.name=冲压机 v0.1
-gtnh.quest26.desc=就像你注意到的,你没办法直接让黏土变成砖块——好啦,客观来说,不管从哪点来看这也不是个什么好配方,反正你大概要做好成品是某种长方形玩意的准备了.所以呢,为了做些砖块,你得要有一把刀和一个空的模具,然后切下一块砖块大小的东西.你看,很简单吧？
+gtnh.quest26.desc=就像你注意到的,你没办法直接让粘土变成砖块——好啦,客观来说,不管从哪点来看这也不是个什么好配方,反正你大概要做好成品是某种长方形玩意的准备了.所以呢,为了做些砖块,你得要有一把刀和一个空的模具,然后切下一块砖块大小的东西.你看,很简单吧？
 
 #Quest_27.Finally, some power
 gtnh.quest27.name=总算有能源了！
@@ -114,11 +114,11 @@ gtnh.quest27.desc=现在你有一个焦炭炉了,你该开始生产些木炭了�
 
 #Quest_28.Copper sky, Iron curtain
 gtnh.quest28.name=天铜地铁
-gtnh.quest28.desc=在你取得了新的燃料后,你可以处理一些比石头或黏土更高阶的原料了,例如——铁和铜.以防万一提醒一下,你大概不清楚铁和铜藏在相当大的矿脉里头,可以跟着任务指示找出最重要的那条矿脉. 译者注:格雷科技5矿脉生成范围为48×48(并非绝对),中心坐标为[48n+24/-8,48m+24/-8](即24加48的正整数倍或-8减48的正整数倍,例如[24,72][-8,120][-104,-200])
+gtnh.quest28.desc=在你取得了新的燃料后,你可以处理一些比石头或粘土更高阶的原料了,例如——铁和铜.以防万一提醒一下,你大概不清楚铁和铜藏在相当大的矿脉里头,可以跟着任务指示找出最重要的那条矿脉. 译者注:格雷科技5矿脉生成范围为48×48(并非绝对),中心坐标为[48n+24/-8,48m+24/-8](即24加48的正整数倍或-8减48的正整数倍,例如[24,72][-8,120][-104,-200])
 
 #Quest_29.Another fuel source
 gtnh.quest29.name=另一个燃料来源
-gtnh.quest29.desc=你绝对需要褐炭和一般的煤炭.后者制作成的焦炭是一种绝佳燃料,可以用来冶炼你第一批数量可观的矿石！
+gtnh.quest29.desc=你绝对需要褐煤和一般的煤炭.后者制作成的焦炭是一种绝佳燃料,可以用来冶炼你第一批数量可观的矿石！
 
 #Quest_30.Copper
 gtnh.quest30.name=铜
@@ -157,68 +157,68 @@ gtnh.quest38.name=做些更好的工具
 gtnh.quest38.desc=有了铝和铜后,你可以做些更漂亮耐用的金属——铝黄铜！它还可以拿来制作更好的工具、用来开采更好的矿石！但你先要有一个冶炼炉.你可以在附近村庄里找找看,或者看看书上标「多方块结构」的章节.
 
 #Quest_39.Better storage
-gtnh.quest39.name=Better storage
+gtnh.quest39.name=更好的存储
 gtnh.quest39.desc=这些标准的箱子拿来存放你的一般道具或者产品是很好啦,但对于储藏大量的矿石就不是那么理想了.你应该给你自己建造一些JABBA桶,好让你的仓库更有秩序些.
 
 #Quest_40.You shall proceed
 gtnh.quest40.name=继续前进
-gtnh.quest40.desc=当你为你的基础蒸汽机搜集好所有材料、制作出所有工具后,你该准备前往下一阶段了.请记得,为了制作那些最简单的东西,你将需要山上的资源,所以在这个阶段你也许该准备好所有的矿石,但要不要这么做就看你自己决定了.
+gtnh.quest40.desc=当你为你的基础蒸汽机搜集好所有材料、制作出所有工具后,你该准备前往下一阶段了.请记得,为了制作那些最简单的东西,你将需要如山的资源,所以在这个阶段你也许该准备好所有的矿石,但要不要这么做就看你自己决定了.
 
 #Quest_41.Don't burn your fingers!
 gtnh.quest41.name=别烫到你的手指！
-gtnh.quest41.desc=你先前决定该是时候做些美味比萨了,结果却是烫到了自己的手指头.读了本古老的秘籍后,你发现有一副魔法道具让你可以拿起任何高温的东西,包括一桶熔岩！ PS:手套要装备在饰品栏内.
+gtnh.quest41.desc=你先前决定该是时候做些美味比萨了,结果却是烫到了自己的手指头.读了本古老的秘籍后,你发现有一副魔法道具让你可以拿起任何高温的东西,包括一桶岩浆！ PS:手套要装备在饰品栏内.
 
 #Quest_42.Cow Tipper
 gtnh.quest42.name=屠牛者
-gtnh.quest42.desc=在你杀了些猪与羊来完成任务之前,现在,是时候边祈祷能得到些皮革、边来宰些牛了.如果你是欧皇,得到了牛战利品,未来你就不需要再杀其他的牛了. 译者注:右击牛战利品会给予玩家一个皮革,冷却时间为20000tick即16分40秒,所以说不需要再杀了...而战利品的掉落几率为0.1％,所以文本里的内容...看看就好...
+gtnh.quest42.desc=在之前,你必须杀一些猪和羊来完成任务,现在,是时候宰些牛了,祈祷能获得皮革吧.如果你是欧皇,得到了牛战利品,未来你就不需要再杀其他的牛了. 译者注:右击牛战利品会给予玩家一个皮革,冷却时间为20000tick即16分40秒,所以说不需要再杀了...而战利品的掉落几率为0.1％,所以文本里的内容...看看就好...
 
 #Quest_43.Cotton, cotton and more cotton
 gtnh.quest43.name=棉花,棉花,还有更多的棉花！
-gtnh.quest43.desc=你发现棉花的用处了,它可以用来做些线、羊毛,或者其他有用的道具.开个小棉花田,收获数以吨计的棉花！
+gtnh.quest43.desc=你发现棉花的用处了,它可以用来做些线、羊毛,或者其他有用的道具.开个小棉花田,收获成吨的棉花！
 
 #Quest_44.Welcome to Tier 1
 gtnh.quest44.name=欢迎来到第1阶
-gtnh.quest44.desc=欢迎,到目前为止做得好！在本阶(第1阶)你将拥有你的第一台机器、获得更多矿物产品,并且更有效率的制作铜锭.
+gtnh.quest44.desc=欢迎,到目前为止做得很好！在本阶(第1阶)你将拥有你的第一台机器、获得更多矿物产物,并且可以更有效率地制作铜锭.
 
 #Quest_45.Multiblock tanks... Railcraft tanks
 gtnh.quest45.name=多方块储罐...RC蓄水器
-gtnh.quest45.desc=576桶的容量,这应该够你储存你截至目前为止所获得的杂酚油了吧！ 如果不够的话,你可以让这个蓄水槽更大！最小的蓄水槽大小是 3 x 3 x 4 ,而最大的则是 9 x 9 x 8. 提示:如果你把阀门放在水槽底部的话,只需要连接一根液体管道就可以自动输出蓄水槽里面的液体.你可以使用BC的颜料刷和GT的喷漆罐来给蓄水器上色.注意:请使用桶来移动液体,如果使用单元,单元将会消失.
+gtnh.quest45.desc=576桶的容量,这应该够你储存你截至目前为止所获得的杂酚油了吧！ 如果不够的话,你可以让这个蓄水器更大！最小的蓄水器大小是3x3x4,而最大的则是9x9x8. 提示:如果你把阀门放在蓄水器底部的话,只需要连接一根液体管道就可以自动输出蓄水器里面的液体.你可以使用BC的颜料刷和GT的喷漆罐来给蓄水器上色.注意:请使用桶来移动液体,如果使用单元,单元将会消失.(手持单元右键蓄水器,单元就不会消失)
 
 #Quest_46.More advanced alloys
 gtnh.quest46.name=更多高级合金
-gtnh.quest46.desc=你的冶炼炉很好的将金属搅拌、熔炼成了合金,但效率并不高,而且还十分受限于它的复杂性.你需要换台新的,那何不把你的蒸气拿来用用？在加工生橡胶的时候,它可能可以派上用场.你应该留意配方,看看机器何时能提供更好的选项来制作产品.
+gtnh.quest46.desc=你的冶炼炉可以将金属搅拌、熔炼成合金,但效率并不高,而且由于它的复杂性,用处有限.你需要换台新的,那何不把你的蒸汽拿来用用？在加工生橡胶的时候,它可能可以派上用场.你应该留意NEI,看看机器何时能为制作产品提供更优选择.
 
 #Quest_47.Upgrade: High speed alloys
 gtnh.quest47.name=升级:高速合金
-gtnh.quest47.desc=就像大多数的机器一样,这里有个更高阶的合金冶炼炉.请记得,这台机器需要大量的蒸气,所以你最好先准备更多的锅炉.(此为支线任务)
+gtnh.quest47.desc=就像大多数的机器一样,这里有个更高阶的合金炉.请记得,这台机器需要大量的蒸汽,所以你最好先准备更多的锅炉.(此为支线任务)
 
 #Quest_48.A very important alloy
 gtnh.quest48.name=一个非常重要的合金
-gtnh.quest48.desc=最重要的合金当然是红色合金(直到你到达更高的阶段之前啦)！幸运的是,你有一台合金冶炼炉,所以,抓起些红石来和铜结合,送你自己一打这玩意吧！
+gtnh.quest48.desc=最重要的合金当然是红色合金(直到你到达更高的阶段之前啦)！幸运的是,你有一台合金炉,所以,抓起些红石来和铜结合,送你自己一打这玩意吧！
 
 #Quest_49.The hell is that?
 gtnh.quest49.name=什么鬼东西？
-gtnh.quest49.desc=为了得到更多的机器,你需要活塞.可不是要那些业余的东西,你缺的是特别的那种,而我将指导你该如何做出他们.
+gtnh.quest49.desc=为了得到更多的机器,你需要活塞.可不是要那些业余的东西,你缺的是特别的那种,而我将指导你该如何做出它们.
 
 #Quest_50.Macerator v1.0!
 gtnh.quest50.name=粉碎机 v1.0!
-gtnh.quest50.desc=你总算可以做出一个取代研钵的装置了.无论如何,想要一个不会被消耗掉的装置是需要付出代价的——你需要两颗钻石来做研磨头.
+gtnh.quest50.desc=你总算可以做出一个取代研钵的设备了.无论如何,想要一个不会被消耗掉的设备是需要付出代价的——你需要两颗钻石来做研磨头.
 
 #Quest_51.Extracting stuff
 gtnh.quest51.name=提取原料
-gtnh.quest51.desc=为了之后需要橡胶来包裹导线、做些线缆,你该弄台蒸气提取机了.你也可以用这台机器来从花朵里得到更多的染料,或者将各种水果做成果汁.
+gtnh.quest51.desc=为了之后需要的橡胶————包裹导线、制作线缆,你该弄台蒸汽提取机了.你也可以用这台机器来从花朵里得到更多的染料,或者将各种水果做成果汁.
 
 #Quest_52.A clear view
 gtnh.quest52.name=清晰的视野
-gtnh.quest52.desc=你还住在你那用泥土或圆石做的火柴盒里吗？何不让阳光照进来呢？磨碎一些沙子和燧石,做些玻璃粉放进你的冶炼炉里,接着把它们倒到浇铸台上,做些通透玻璃. 提示:你必须用凿子它来使用这个配方.
+gtnh.quest52.desc=你还住在你那用泥土或圆石做的火柴盒里吗？何不让阳光照进来呢？磨碎一些沙子和燧石,做些玻璃粉放进你的冶炼炉里,接着把它们倒到铸造盆里,做些通透玻璃. 提示:要想使用此配方,你必须用凿子处理它.
 
 #Quest_53.Hammer time v2
 gtnh.quest53.name=锤子时刻 v2.0
-gtnh.quest53.desc=毕竟锤子是有耐久度的,花费6个锭来做支锤子似乎颇浪费.如果有台机器可以做出同样的一支锤子但没有耐久消耗、而且只要3锭就可以做出两块板子——那该有多好？那你知道吗——那里就有一台！而你真该拿到一个！
+gtnh.quest53.desc=毕竟锤子是有耐久的,花费6个锭来重新做支锤子似乎颇为浪费.如果有台机器可以像锤子一样工作但没有耐久消耗、而且只要3锭就可以做出两块板子——那该有多好？那你知道吗——那里就有一台！而你真该做一个！
 
 #Quest_54.Compressing stuff
 gtnh.quest54.name=压缩材料
-gtnh.quest54.desc=这简单的设备真的做了非常重要的工作+压缩.把9个锭压缩成一块是它的主要功能,但它在各种配方中也派得上用场,举例来说,可以利用它来做些硬豆腐.
+gtnh.quest54.desc=这简单的设备可以做到非常重要的工作:压缩.把9个锭压缩成一个块是它的主要功能,但它在各种配方中也派得上用场,举例来说,可以利用它来做些硬豆腐.
 
 #Quest_55.Upgrade: A better compressor
 gtnh.quest55.name=升级:压缩机
@@ -241,16 +241,16 @@ gtnh.quest59.name=蒸汽替代品
 gtnh.quest59.desc=不只一种方法可以让你的机器得到蒸汽,而这个支线任务向你展示了一些产生蒸汽的替代方案.
 
 #Quest_60.Upgrade: Coal boiler
-gtnh.quest60.name=升级:煤炭锅炉
-gtnh.quest60.desc=这基本上只是对你现有的煤炭锅炉升级,但不管怎样,它产生了几乎是两倍多的蒸汽.如果你预计要做些更高阶的机器,那你最好考虑建造这台进阶的煤炭锅炉.
+gtnh.quest60.name=升级:燃煤锅炉
+gtnh.quest60.desc=这基本上只是对你现有的燃煤锅炉升级,但不管怎样,它产生了几乎是两倍多的蒸汽.如果你预计要做些更高阶的机器,那你最好考虑建造这台进阶的燃煤锅炉.
 
 #Quest_61.Another use for Java, I mean Lava
-gtnh.quest61.name=Java的另一个用途,呃,我是说熔岩(Lava)
-gtnh.quest61.desc=有了更耐用的钢外壳,你可以用熔岩来制造些蒸汽.
+gtnh.quest61.name=Java的另一个用途,呃,我是说岩浆(Lava)
+gtnh.quest61.desc=有了更耐用的钢外壳,你可以用岩浆来制造些蒸汽.
 
 #Quest_62.The power of the sun
 gtnh.quest62.name=太阳之力
-gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新防止就能重置钙化(￣▽￣)~*
+gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~*
 
 #Quest_63.Using steam to cook things
 gtnh.quest63.name=用蒸汽烹饪
@@ -269,7 +269,7 @@ gtnh.quest66.name=是时候搞些逻辑电路
 gtnh.quest66.desc=好消息是,你现在可以进阶到下一阶段了！而坏消息则是,在开始之前,你依然必须做一大堆东西！不过不用担心,我会指导你怎么去做的！
 
 #Quest_67.Wired, weird?!
-gtnh.quest67.name=导线,奇怪?
+gtnh.quest67.name=导线,奇怪?(Wired, weird?!)
 gtnh.quest67.desc=你应该记住如何制作导线和线缆,它们是最基础的材料之一.一般来说,你只需用剪线钳将金属板剪成导线就行了.这种方法效率不高,但以后会有更好的办法.
 
 #Quest_68.Your first logic circuit
@@ -282,7 +282,7 @@ gtnh.quest69.desc=使用没有绝缘的导线似乎是一个坏主意.现在你�
 
 #Quest_70.Steam-a-licious!
 gtnh.quest70.name=更多蒸汽！
-gtnh.quest70.desc=你几乎完成它了！只需要最后一个制作步骤就可以到达第2阶=的需求！继续前进！
+gtnh.quest70.desc=你几乎完成它了！只需要最后一个制作步骤就可以到达第2阶的需求！继续前进！
 
 #Quest_71.Basic crafting: Motors
 gtnh.quest71.name=基础制作:马达
@@ -298,7 +298,7 @@ gtnh.quest73.desc=所有机器都需要一个机箱来保护它们的敏感部�
 
 #Quest_74.You are not prepared!!!
 gtnh.quest74.name=你还没准备好！！！
-gtnh.quest74.desc=迎接一个大家伙的时间到了——冶炼炉！那还有许多工作要做,所以最好搜集些资源......PS:这本书告诉你的是一个3X3的底座,但是你可以用一个较小的底座搭建一个熔炉,更高更大的熔炉可以同时做更多的物品以节约燃料.
+gtnh.quest74.desc=迎接一个大家伙的时间到了——冶炼炉！那还有许多工作要做,所以最好搜集些资源......PS:这本书告诉你的是一个3X3的底座,但是你可以用一个较小的底座搭建一个冶炼炉,更高更大的冶炼炉可以同时做更多的物品以节约燃料.
 
 #Quest_75.The water dilemma
 gtnh.quest75.name=缺水危机
@@ -310,7 +310,7 @@ gtnh.quest76.desc=你需要钢？呃......好的.我们有得忙的...... 提示
 
 #Quest_77.EBF-Time
 gtnh.quest77.name=电力高炉时代
-gtnh.quest77.desc=为了得到铝,你需要一个电力高炉.这是通向胜利的另一重要的一步.让我们开始吧. 加热线圈可能会很棘手...... (你需要两个LV级能源输入仓并提供总共4A的LV电流,或者如果你没有修复全部的故障,你就需要三个LV级能源输入仓和更多的电流)
+gtnh.quest77.desc=为了得到铝,你需要一个电力高炉.这是通向胜利的另一重要的一步.让我们开始吧. 加热线圈可能会很棘手...... (你需要两个LV级能源仓并提供总共4A的LV电流,或者如果你没有修复全部的故障,你就需要三个LV级能源仓和更多的电流)
 
 #Quest_78.Upgrade #1: More heat - Kanthal Coils
 gtnh.quest78.name=升级#1: 更多的热量 - 贝塔尔线圈
@@ -322,15 +322,15 @@ gtnh.quest79.desc=为了使你的电力高炉达到3600k,以便处理钨等高�
 
 #Quest_80.Compress all the things
 gtnh.quest80.name=压缩万物
-gtnh.quest80.desc=DreamMasterXXL(GTNH作者)最喜欢的机器.压缩所有的东西！ 当然,是以爆炸的形式.PS:你可能想把这家伙放在离你家远一点的地方,他会产生大量的污染.
+gtnh.quest80.desc=DreamMasterXXL(GTNH作者)最喜欢的机器.压缩所有的东西！ 当然,是以爆炸的形式.  PS:你可能想把这家伙放在离你家远一点的地方,他会产生大量的污染.
 
 #Quest_81.At the end of...
 gtnh.quest81.name=终结......
-gtnh.quest81.desc=......宇宙的终将热寂.但要等待宇宙的死亡未免需要太长的时间了.因此,我们向你推荐真空冷冻机.它应该足以冷却你的热材料. 你需要至少16个隔热机器外壳,剩下的部分取决于你的配置.
+gtnh.quest81.desc=......宇宙的终将热寂.但要等待宇宙的死亡未免需要太长的时间了.因此,我们向你推荐真空冷冻机.它应该足以冷却你的热材料. 你需要至少16个隔热机械方块,剩下的部分取决于你的配置.
 
 #Quest_82.An unexpected Bonus
 gtnh.quest82.name=意想不到的福利
-gtnh.quest82.desc=因为我们是友善的开发者,所以我们决定加入一点小小的福利,在你碰巧把木炭拿去压缩成木炭块的时候.它不仅允许让你一次加工超过16个钢锭(不是在砖高炉里),还得受益于每块木炭块10倍于木炭的燃烧时间,而不是9倍.所以有一块木炭是免费的.这个加成只在第一次压缩的时候才会出现. (但哪怕是为了好玩,你也一定要制作一个五重压缩的木炭块)
+gtnh.quest82.desc=因为我们是友善的开发者,所以我们决定加入一点小小的福利,在你碰巧把木炭拿去压缩成木炭块的时候.它不仅允许让你一次加工超过16个钢锭(不是在砖高炉里),还使每块木炭块的燃烧时间10倍于木炭的燃烧时间,而不是9倍.所以有一块木炭是免费的.这个加成只在第一次压缩的时候才会出现. (但哪怕是为了好玩,你也一定要制作一个五重压缩的木炭块)
 
 #Quest_83.High speed charcoal
 gtnh.quest83.name=高速木炭炉
@@ -349,8 +349,8 @@ gtnh.quest86.name=升级#3:升级到第4阶 - 钨钢线圈
 gtnh.quest86.desc=要处理更高级的材料,如:末影锭,富集硅岩或铌钛合金,你需要超过3600K的温度.再次升级你的高炉...
 
 #Quest_87.Steel multiblock tanks
-gtnh.quest87.name=钢储罐
-gtnh.quest87.desc=想要双倍容量的蓄水槽？去做一个钢储罐.尺寸可以从3x3x4到9x9x8.(x和z必须是相同的,奇数)允许的所有大小.就像铁质蓄水器一样,可以使用BC颜料刷和GT喷漆罐来改变颜色. 提示:如果你在底部放了阀门,流体能够自动输出(不需要任何的泵).PS:请使用桶来移动液体,如果使用单元,单元将会消失.
+gtnh.quest87.name=钢质蓄水器
+gtnh.quest87.desc=想要双倍容量的蓄水槽？去做一个钢质蓄水器.尺寸可以从3x3x4到9x9x8.(x和z必须是相同的,奇数)允许的所有大小.就像铁质蓄水器一样,可以使用BC颜料刷和GT喷漆罐来改变颜色. 提示:如果你在底部放了阀门,流体能够自动输出(不需要任何的泵).PS:请使用桶来移动液体,如果使用单元,单元将会消失.
 
 #Quest_88.Welcome to Tier 2
 gtnh.quest88.name=欢迎来到第2阶！
@@ -366,35 +366,35 @@ gtnh.quest90.desc=够了,再也不用为几根导线去浪费巨量的矿锭了.
 
 #Quest_91.You're gonna hate this #1
 gtnh.quest91.name=你会讨厌它们的#1
-gtnh.quest91.desc=第一种你非常需要的东西.如果你想将物品从箱子或桶中抽出,你就会需要一个. 跟物品管道或GT机器配合起来非常好,用螺丝刀调整模式.
+gtnh.quest91.desc=第一种你非常需要的东西.如果你想将物品从箱子或桶中抽出物品,你就会需要一个. 跟物品管道或GT机器配合起来非常好用,用螺丝刀调整模式.
 
 #Quest_92.You're gonna hate this #4
 gtnh.quest92.name=你会讨厌它们的#4
-gtnh.quest92.desc=第四种你非常需要的东西,而且它合成起来非常令人痛苦.可能是目前为止最蛋疼的东西了. 工作起来像输送机,但可以指定物品槽,用螺丝刀调整
+gtnh.quest92.desc=第四种你非常需要的东西,而且它合成起来令人非常痛苦.可能是目前为止最蛋疼的东西了. 工作起来像传送带,但可以指定物品槽,用螺丝刀调整模式.
 
 #Quest_93.You're gonna hate this #2
 gtnh.quest93.name=你会讨厌它们的#2
-gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它. 提示:跟液体管道或GT机器配合的非常好,使用螺丝刀进行调整.它还可以进一步升级为可以精确控制流体传输速度的流体校准器.
+gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它. 提示:跟液体管道或GT机器配合得非常好,使用螺丝刀进行调整.它还可以进一步升级为可以精确控制流体传输速度的流体校准器.
 
 #Quest_94.Electric macerator
 gtnh.quest94.name=电力粉碎机
-gtnh.quest94.desc=强烈推荐做一个,因为在消耗煤/蒸汽方面,使用电力时研磨东西的效率要高的多.
+gtnh.quest94.desc=强烈推荐做一个,因为在消耗煤/蒸汽方面,使用电力时研磨东西的效率要高得多.
 
 #Quest_95.You're gonna hate this #3
 gtnh.quest95.name=你会讨厌它们的#3
-gtnh.quest95.desc=活塞,但是它是"电动的".第三件你将来要合成很多很多的东西.
+gtnh.quest95.desc=活塞,但是它是"电动的". 这是你将来要合成很多很多的第三件东西.
 
 #Quest_96.Saving redstone
 gtnh.quest96.name=拯救红石
-gtnh.quest96.desc=厌倦使用四个红石制做含磁电杆了吗？好消息！使用磁化机不需要红石,只需要通电,你不一定要接上导线,这台机器使用电池也能运作得很好.
+gtnh.quest96.desc=厌倦使用四个红石制做磁化铁杆了吗？好消息！使用磁化机不需要红石,只需要通电,你不一定要接上导线,这台机器使用电池也能运作得很好.
 
 #Quest_97.Avengers, assemble!
 gtnh.quest97.name=复仇者,组装！
 gtnh.quest97.desc=电影粉丝绝对必须要拥有它.哦,当然要用来做所有的东西.提示:你可以使用GUI中的电池插槽和其他额外的插槽来存储未使用的配置电路.
 
 #Quest_98.No more filing
-gtnh.quest98.name=不要用锉刀
-gtnh.quest98.desc=为什么要耗费一个完整的锭来制作杆？而且还需要使用一种消耗耐久的工具,导致花费了更多的金属锭.有了这个小装置,你所需要的所有的杆都会被完整地加工出来(对于现在).
+gtnh.quest98.name=不用锉刀了
+gtnh.quest98.desc=为什么要耗费一个完整的锭来制作杆？而且还需要使用一种消耗耐久的工具,导致花费了更多的金属锭. 有了这个小装置,你所需要的所有的杆都会被完整地加工出来(对于现在).
 
 #Quest_99.Bzzz... Whoom...
 gtnh.quest99.name=滋滋...嗡咛...
@@ -402,23 +402,23 @@ gtnh.quest99.desc=为了给不错的电路板制作蚀刻电路,你需要一台�
 
 #Quest_100.Press all the things
 gtnh.quest100.name=冲压万物
-gtnh.quest100.desc=使用基础冲压机,你可以制作不同的食品、玻璃箭头和一些红色部件.在MV/HV阶段,你可以制造转子、各种AE组件,并复制你的模具和模头形状.
+gtnh.quest100.desc=使用基础冲压机床,你可以制作不同的食品、玻璃箭头和一些红石计划(Project-Red)部件. 在MV/HV阶段,你可以制造转子、各种AE组件,并复制你的模具和模头.
 
 #Quest_101.Mjolnir!!! (electric forge hammer)
-gtnh.quest101.name=Mjolnir!!! (电力锻造锤)
-gtnh.quest101.desc=非必须品,但比蒸气锻造锤快得多,并可以自动化.如果你觉得洗矿太慢、使用这锻造锤吧.蒸气等级的锻造锤就可以完成所有需要的加工.
+gtnh.quest101.name=Mjolnir(雷神之锤)!!! (电力锻造锤)
+gtnh.quest101.desc=非必须品,但比蒸汽锻造锤快得多,并可以自动化.如果你觉得洗矿太慢,使用这锻造锤吧.蒸汽等级的锻造锤就可以完成所有需要的加工.
 
 #Quest_102.Cutting things apart
 gtnh.quest102.name=切割物品
-gtnh.quest102.desc=绝对必要的机器.能将杆切成螺栓、板切成外壳、原木切成木材、并且是最高效率.完全值回票价！提示:加点水吧,如果使用润滑剂将帮助他运行的更快！
+gtnh.quest102.desc=绝对必要的机器.能将杆切成螺栓、板切成外壳、原木切成木板、并且是最高效率.完全值回票价！提示:加点水吧,如果使用润滑油将帮助它运行地更快！
 
 #Quest_103.Get ready for Tier 3
 gtnh.quest103.name=第3阶准备
-gtnh.quest103.desc=为了进一步发展,你需要铝、非常多的铝.但现在只需要一个铝粉来完成这任务.黏土可能是最好的铝来源.但那需要MV级机器,现在你需要找替代方案,直到你有足够的铝粉来完成准备工作.
+gtnh.quest103.desc=为了进一步发展,你需要铝、非常多的铝.但现在只需要一个铝粉来完成这任务.粘土可能是最好的铝来源.但那需要MV级机器,现在你需要找替代方案,直到你有足够的铝粉来完成准备工作.
 
 #Quest_104.Your magic progression
 gtnh.quest104.name=你的魔法之路
-gtnh.quest104.desc=现在你可以炼铝,可以开始研究魔法.如果你还没解锁神秘任务.找到银树树苗跟宏伟巨树.
+gtnh.quest104.desc=现在你炼出铝了,可以开始研究魔法.如果你还没解锁神秘任务.找到银树树苗跟宏伟之树树苗.
 
 #Quest_105.The missing one
 gtnh.quest105.name=缺少的一环
@@ -438,7 +438,7 @@ gtnh.quest108.desc=你可以手动填充和清空你的矿车,但自动化转移
 
 #Quest_109.Cart modules: Farming
 gtnh.quest109.name=矿车模块:农业
-gtnh.quest109.desc=不幸的是,基础农业除了小麦以外什么都不能种.它并不贵,也许是最便宜的自动化食物生产方法.
+gtnh.quest109.desc=不幸的是,基础农业模块除了小麦以外什么都不能种.它并不贵,也许是最便宜的自动化食物生产方法.
 
 #Quest_110.Cart modules: Storage
 gtnh.quest110.name=矿车模块:储存
@@ -458,7 +458,7 @@ gtnh.quest113.desc=这些管道非常简单,它们本身不会做任何事情.�
 
 #Quest_114.Basic transport: Items
 gtnh.quest114.name=基础运输:物品
-gtnh.quest114.desc=为了传输物品,你需要所谓的"节点".一些用于将物品推入管道系统.之后你将可以接触到能够从连接到的容器中抽取物品的节点.
+gtnh.quest114.desc=为了传输物品,你需要所谓的"节点"————用于将物品推入管道系统.之后你将接触到能够从管道连接到的容器中抽取物品的节点.
 
 #Quest_115.Basic transport: Fluids
 gtnh.quest115.name=基础运输:液体
@@ -482,7 +482,7 @@ gtnh.quest119.desc=如果你收集了怪物掉落的剑或者护甲,那么普通
 
 #Quest_120.Protect your base;Tier 1
 gtnh.quest120.name=保护你的基地:第1级
-gtnh.quest120.desc=一个人要用适当的方式来保卫他的家.那么为什么不用炮塔来保卫安全呢？目前有2种炮塔可供选择:"土豆"和"一次性物品".我想你能猜到它们是用来干什么的,以及它们是如何工作的.
+gtnh.quest120.desc=一个人要用适当的方式来保卫他的家.那么为什么不用炮塔来保卫安全呢？目前有2种炮塔可供选择:"土豆"和"一次性物品".我想你能猜到它们是用来干什么的,以及它们是如何工作的...(不,我不能)
 
 #Quest_121.Passive defence
 gtnh.quest121.name=被动防御
@@ -494,11 +494,11 @@ gtnh.quest122.desc=炮塔必须放在炮塔基座的顶部.只有最初放置基
 
 #Quest_123.Who needs that dirt anyway
 gtnh.quest123.name=谁还需要那些泥土？
-gtnh.quest123.desc=你可能丢了很多东西在你的基地周围的地上.那么为什么不用它来杀死敌人呢？
+gtnh.quest123.desc=你可能丢了成吨的东西在你的基地周围地上.那么为什么不用它来杀死敌人呢？
 
 #Quest_124.Don't play with your food!
 gtnh.quest124.name=不要玩食物！
-gtnh.quest124.desc=利用它来杀些殭尸.噢,只造成了一丁点伤害......但,呵呵,谁在乎啊？
+gtnh.quest124.desc=利用它来杀些僵尸.噢,只造成了一丁点伤害......但,呵呵,谁在乎啊？
 
 #Quest_125.Upgrading intensifies
 gtnh.quest125.name=强化升级
@@ -506,7 +506,7 @@ gtnh.quest125.desc=你的炮塔可能需要更多的空间来容纳更多的弹�
 
 #Quest_126.Electrolysing all the things
 gtnh.quest126.name=电解万物
-gtnh.quest126.desc=自从你开始磨粉,洗矿和离心矿石,你收集了很多粉末.到目前为止,你还不能分解它们.现在是时候从它们中获取纯净的组分和有用的材料了. 译者注:格雷的电解机一点都不电解！这分明是原子剥离机......
+gtnh.quest126.desc=自从你开始磨粉,洗矿和离心矿石,你收集了很多粉末.到目前为止,你还不能分解它们.现在是时候从它们中获取纯净的成分和有用的材料了. 译者注:格雷的电解机一点都不电解！这分明是原子剥离机......
 
 #Quest_127.Project red beginning
 gtnh.quest127.name=红石计划请求
@@ -546,7 +546,7 @@ gtnh.quest135.desc=以太扳手不仅仅是一个普通的扳手.在握住它的
 
 #Quest_136.Improving conduits
 gtnh.quest136.name=升级导管
-gtnh.quest136.desc=导管本身是非常棒的,但你可以做得更好.通过使用过滤机和速度升级,你可以更好地控制它们的工作和工作速度.
+gtnh.quest136.desc=导管本身是非常棒的,但你可以做得更好.通过使用过滤器和速度升级,你可以更好地控制它们的工作和工作速度.
 
 #Quest_137.Making things pretty
 gtnh.quest137.name=变得漂亮
@@ -562,7 +562,7 @@ gtnh.quest139.desc=有了玄钢,你现在可以制作一套新的护甲了.它�
 
 #Quest_140.Dark steel tools
 gtnh.quest140.name=玄钢工具
-gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.
+gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.  这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.  玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.  玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.  玄钢镐?好吧,我没发现它有啥用,或许你可以给我个惊喜.
 
 #Quest_141.Vibrant Crystals
 gtnh.quest141.name=充能晶体
@@ -573,7 +573,7 @@ gtnh.quest142.name=酿造液体
 gtnh.quest142.desc=这种机器不仅能够酿造更强大的可燃液体,还可用于酿造营养精华液,可能很快(tm)就有用了.
 
 #Quest_143.Smelting all-joy
-gtnh.quest143.name=熔炼乐趣
+gtnh.quest143.name=熔炼合金(alloy)(熔炼所有乐趣(all-joy))
 gtnh.quest143.desc=这种合金炉允许你生产各种石英玻璃和纯净玻璃.
 
 #Quest_144.Automated crafting
@@ -582,7 +582,7 @@ gtnh.quest144.desc=你了解的另一个自动合成方法...
 
 #Quest_145.Ore processing kind of...
 gtnh.quest145.name=一种矿物处理......
-gtnh.quest145.desc=研磨机与SAG研磨,战争仍在继续.
+gtnh.quest145.desc=研磨机与SAG研磨,战争仍在继续,看不到尽头.
 
 #Quest_146.Torture device
 gtnh.quest146.name=酷刑装置
@@ -590,7 +590,7 @@ gtnh.quest146.desc=当臣民们不愿合作时......
 
 #Quest_147.Rocket fuel
 gtnh.quest147.name=燃料注入机
-gtnh.quest147.desc=火箭燃料燃料将来用于银河火箭.它确实产生了相当大的功率.用你的化学反应釜做一些.在发电机中燃烧或每个单元产生112000EU/t,将产生160个RF/T
+gtnh.quest147.desc=火箭燃料将来用于星系的火箭.它确实可以产生相当大功率的能量.用你的化学反应釜做一些.在发电机中燃烧每个单元可产生112000EU,而在燃烧发电机中可产生160RF/t.
 
 #Quest_148.Tasty...
 gtnh.quest148.name=美味的......
@@ -614,11 +614,11 @@ gtnh.quest152.desc=用天域之剑,你的杀手乔将永远运作下去.适当�
 
 #Quest_153.Simple item transfer
 gtnh.quest153.name=简单的物品转移
-gtnh.quest153.desc=转运机只能在1格的距离内转移物品.但它们相当便宜,是构建紧凑型机组的好帮手.它们包括一个简单的过滤系统,它们支持多种输入和输出！萤石将使其转移更快 - 尝试发现其他升级.
+gtnh.quest153.desc=转运器只能在1格的距离内转移物品.但它们相当便宜,是构建紧凑型机组的好帮手.它们包括一个简单的过滤系统,它们支持多种输入和输出！萤石将使其转移更快 - 尝试发现其他升级.
 
 #Quest_154.Simple fluid transfer
-gtnh.quest154.name=Simple fluid transfer
-gtnh.quest154.desc=就像物品转运机一样,液体转运机转移液体.相同的使用限制,1格距离,这些也可以升级.
+gtnh.quest154.name=简单的液体转移
+gtnh.quest154.desc=就像物品转运器一样,液体转运器转移液体.相同的使用限制,1格距离,液体转运器也可以升级.
 
 #Quest_155.Harder, stronger, faster
 gtnh.quest155.name=更硬,更强,更快
@@ -634,7 +634,7 @@ gtnh.quest157.desc=没什么好看的.继续...
 
 #Quest_158.Sometimes, a bullet will do
 gtnh.quest158.name=让子弹飞一会儿
-gtnh.quest158.desc=它们打的真疼.已经警告过你了.
+gtnh.quest158.desc=它们打得真疼.已经警告过你了.
 
 #Quest_159.Burn them. Burn them all!
 gtnh.quest159.name=烧死他们,全都烧死！
@@ -646,19 +646,19 @@ gtnh.quest160.desc=照例是第一个机器外壳...
 
 #Quest_161.Paying the highest price
 gtnh.quest161.name=付出最高的代价
-gtnh.quest161.desc=当一般的魔法已经不能满足你需要的时候,你可能需要一些……更强大的力量.这份力量需要用血液来支付,你的血……或者是其他什么人或者生物的.在第一层,你只需要放置一个血祭坛.规划配置以增加大小.
+gtnh.quest161.desc=当一般的魔法已经不能满足你需要的时候,你可能需要一些……更强大的力量.这份力量需要用血液来支付,你的血……或者是其他什么人或者生物的.在第一阶,你只需要放置一个血之祭坛.建议做好规划,这个祭坛将会越来越大.
 
 #Quest_162.Dimensional goal: Moon
 gtnh.quest162.name=目标:月球
-gtnh.quest162.desc=在HV阶段,你应该尽快登上月球.在月球上可以获得大量的钛. 提示更多的信息你可以在太空竞赛标签中找到.
+gtnh.quest162.desc=在HV阶段,你应该尽快登上月球.在月球上可以获得大量的钛. 提示:你可以在太空竞赛标签中找到更多的信息.
 
 #Quest_163.I see everything
 gtnh.quest163.name=我看到了一切
-gtnh.quest163.desc=存储控制面板可以代替PR的存储系统(希望吧). 和红石计划一样,你必须使用管道链接每一个箱子或者木桶. 除此之外,你还需要给每一个链接到存储设备的管道上面安装"远程接入升级"后才可以在面板上面看到里面存储的物品. 提示:这个设备需要使用营养精华液来驱动.
+gtnh.quest163.desc=存储控制面板可以代替红石计划的存储系统(希望吧). 和红石计划一样,你必须使用管道链接每一个箱子或者桶. 除此之外,你还需要给每一个链接到存储设备的管道上面安装"远程接入升级"后才可以在面板上面看到里面存储的物品. 提示:这个设备需要使用营养精华液来驱动.
 
 #Quest_164.Portable battery...
 gtnh.quest164.name=便携式电池...(Portable battery...)
-gtnh.quest164.desc=不完全是一个"电池",更多的是你生命点的便携式接入点,也就是血液(Not exactly a "battery", more a portable access point for your life points, aka blood.).
+gtnh.quest164.desc=不完全是一个"电池",更多的是你生命点(LP)的便携式接入点,也就是血液 (Not exactly a "battery", more a portable access point for your life points, aka blood.).
 
 #Quest_165.Soul eater
 gtnh.quest165.name=噬魂者
@@ -666,7 +666,7 @@ gtnh.quest165.desc=如果我们可以利用某些生物的智慧或者能力是�
 
 #Quest_166.A new alloy Soularium
 gtnh.quest166.name=新的合金-魂金
-gtnh.quest166.desc=一些……"邪恶"用途的机器.你可能认为他们是一种"魔法"类型设备.但是不管怎么样,你需要一种新的合金"魂金"
+gtnh.quest166.desc=一些……"邪恶"用途的机器.你可能认为它们是一种"魔法"类型设备.但是不管怎么样,你需要一种新的合金:"魂金"
 
 #Quest_167.Experience storage
 gtnh.quest167.name=经验存储
@@ -694,15 +694,15 @@ gtnh.quest172.desc=来,让我们大声喊出来:R——P——G——！！Allah
 
 #Quest_173.Tier 3 base
 gtnh.quest173.name=3级炮台基座
-gtnh.quest173.desc=更多的存储,更多的电源,以及更多的升级插槽.
+gtnh.quest173.desc=更多的存储,更多的能量,以及更多的升级插槽.
 
 #Quest_174.This is relatively useful
 gtnh.quest174.name=这个炮台可能会比较有用
-gtnh.quest174.desc=恩……可能会有点用,至少这个炮台看起来比较有趣. 备注:这个炮台不会造成伤害,但是可以将怪物困在原地.在·
+gtnh.quest174.desc=恩……可能会有点用,至少这个炮台看起来比较有趣. 备注:这个炮台不会造成伤害,但是可以将怪物困在原地.
 
 #Quest_175.Fire in the hole
 gtnh.quest175.name=小心！我要扔手雷了！(Fire in the hole)
-gtnh.quest175.desc=耶！还有什么能比爆炸将怪物撕成碎片更加过瘾了呢？
+gtnh.quest175.desc=耶！还有什么能比用爆炸将怪物撕成碎片更加过瘾了呢？
 
 #Quest_176.Tier 5
 gtnh.quest176.name=第5阶段
@@ -714,23 +714,23 @@ gtnh.quest177.desc=是时候抽血了.你必须从你自己开始…
 
 #Quest_178.It's storage time!
 gtnh.quest178.name=存储时间！
-gtnh.quest178.desc=现在你已经进入高压时代了,你可以开始考虑建设你的外星存储系统. 在一开始AE提供给你的存储空间很小而且整个系统特别的费电.但是外星科技绝绝对值得你付出努力. 首先你应该获得4种不同类型芯片的印压板.
+gtnh.quest178.desc=现在你已经进入高压时代了,你可以开始考虑建设你的外星存储系统(AE). 在一开始AE提供给你的存储空间很小而且整个系统特别的费电.但是外星科技绝绝对值得你付出努力. 首先你应该获得4种不同类型芯片的压印模板.
 
 #Quest_179.Find them all
 gtnh.quest179.name=找到他们
-gtnh.quest179.desc=地表上有很多陨石,但地下有更多.为了找到这些,你需要一个指南针.指南针只会告诉你区域里有一颗陨石,用你古老的陨石罗盘,你可以更好地知道陨石藏在哪里.(这个任务是可选的)
+gtnh.quest179.desc=地表上有很多陨石,但地下有更多.为了找到这些陨石,你需要一个陨石罗盘.但陨石罗盘只会告诉你当前区块里有一颗陨石,而用你古老的寻矿魔杖,你可以更好地知道陨石藏在哪里.(这个任务是可选的)
 
 #Quest_180.16k Item Storage Cell
 gtnh.quest180.name=16K-ME存储单元
 gtnh.quest180.desc=一个中型存储单元.拥有16384字节的存储空间.16384字节可以容纳2032组或者1040个单一物品,同时可以支持存储63种不同的物品.16K存储单元每存储一类物品需要消耗128字节的存储空间. 存储单元需要和ME驱动器或者ME箱子搭配使用,这个组件将以1.5AE/T的速度消耗能源. 你可以将组件内的所有物品全部取出后,手持存储元件按住SHIFT右击,或者在合成栏里面将它拆分成存储组件和存储外壳.
 
 #Quest_181.Fluix crystals
-gtnh.quest181.name=福鲁伊克斯水晶
-gtnh.quest181.desc=不是 "flux"!虽然他们的颜色差不多！ 你需要将这些材料扔到一个水坑里面,然后等一会就可以了.
+gtnh.quest181.name=福鲁伊克斯(Fluix)水晶
+gtnh.quest181.desc=不是"flux(咒波)"!虽然它们的颜色差不多！ 你需要将红石和下界石英添加到充能赛特斯石英中.
 
 #Quest_182.Applied crafting
 gtnh.quest182.name=外星科技-自动合成
-gtnh.quest182.desc=手动制造物品很痛苦,为什么不把他们交给外星科技呢？
+gtnh.quest182.desc=手动合成物品很痛苦,为什么不把它们交给外星科技呢？
 
 #Quest_183.Getting your first circuits
 gtnh.quest183.name=获得第一个AE处理器
@@ -738,11 +738,11 @@ gtnh.quest183.desc=处理器的合成表可能和你原来接触的不是很一�
 
 #Quest_184.Cables
 gtnh.quest184.name=外星科技-线缆
-gtnh.quest184.desc=如果你想在你的基地某个位置访问AE网络,那么你就需要敷设一条线缆到那个位置.你需要很多线缆. 现在使用普通的玻璃线缆或者智能线缆就能满足日常使用.但是以后,越来越多的设备需要接入网络,致密线缆和P2P通道就会派上用场了.
+gtnh.quest184.desc=如果你想在你的基地某个位置访问AE网络,那么你就需要铺设一条线缆到那个位置.你需要很多线缆. 现在使用普通的玻璃线缆或者智能线缆就能满足日常使用.但是以后,越来越多的设备需要接入网络,致密线缆和P2P通道就会派上用场了.
 
 #Quest_185.Terminals everywhere
 gtnh.quest185.name=终端无处不在
-gtnh.quest185.desc=这个ME终端是一个HID(人机接口设备),你可以通过它来访问接入的ME网络中的所有存储设备. 终端具有排序和搜索的功能.将终端接入网络需要占用一个通道. 你可以将ME终端升级为ME合成终端,合成终端拥有3*3的合成面板,可以直接使用ME网络中的物品进行合成.和ME终端一样,ME合成终端同样需要一个通道来运行. 最后是ME接口终端,这个面板可以直接对ME接口里面的编码样板进行更换,接口终端显示的ME接口名字由它所相邻的机器名字决定,你也可以通过名称压印模板或者铁砧来改变ME接口的名字.你可以切换合成终端的界面.
+gtnh.quest185.desc=这个ME终端是一个HID(人机接口设备),你可以通过它来访问接入的ME网络中的所有存储设备. 终端具有排序和搜索的功能.将终端接入网络需要占用一个频道. 你可以将ME终端升级为ME合成终端,合成终端拥有3*3的合成面板,可以直接使用ME网络中的物品进行合成.和ME终端一样,ME合成终端同样需要一个频道来运行. 最后是ME接口终端,这个面板可以直接对ME接口里面的编码样板进行更换,接口终端显示的ME接口名字由它所相邻的机器名字决定,你也可以通过名称压印模板或者铁砧来改变ME接口的名字. 你还可以切换终端的界面.
 
 #Quest_186.Dimensional goal: Mars
 gtnh.quest186.name=目标:火星
@@ -758,11 +758,11 @@ gtnh.quest188.desc=一个小目标,你的主要目标还是火星. 不过你能�
 
 #Quest_189.HEV Mark III protective system
 gtnh.quest189.name=HEV Mark III 防护系统
-gtnh.quest189.desc=接下来你会接触到一些有污染并且很危险的东西. 你可能会污染这里的环境,所以你要做好最坏的打算.
+gtnh.quest189.desc=接下来你会接触到一些有污染甚至很危险的东西. 你可能会在这里跟许多肮脏的东西打交道,所以你要做好最坏的打算.
 
 #Quest_190.Appropriate power
 gtnh.quest190.name=适当的能源
-gtnh.quest190.desc=不管你在用魔法、蒸汽、石油或者沼气在发电,到了这一层你都会碰到问题. 所以你需要升级的的电网,至少对你的高炉供电系统进行升级. 所以让我们来使用强大的能源:核能！ 提示: 这个整合包核反应堆的效率乘数为10,这意味着GTNH牌反应堆的效率要比以往的高10倍！！！
+gtnh.quest190.desc=不管你在用魔法、蒸汽、石油或者沼气在发电,到了这一阶段你都会碰到问题. 所以你需要升级的的电网,至少对你的高炉供电系统进行升级. 所以让我们来使用强大的能源:核能！ 提示: 这个整合包核反应堆的效率乘数为10,这意味着GTNH牌反应堆的效率要比以往的高10倍！！！
 
 #Quest_191.Tier 2 fuel: Uranium
 gtnh.quest191.name=第二阶燃料:铀
@@ -770,7 +770,7 @@ gtnh.quest191.desc=这仅仅是"普通"的铀燃料.没有什么特殊的……
 
 #Quest_192.Tier 3 fuel: MOX
 gtnh.quest192.name=第三阶燃料:MOX
-gtnh.quest192.desc=这种燃料具有很高的放射性,但同时他也是最强大的燃料棒. MOX燃烧速度是铀的两倍,但是在高速燃烧的同时会产生巨大的电力. 传闻,MOX发电速度可以达到不可思议的11kEU/T的程度.
+gtnh.quest192.desc=这种燃料具有很高的放射性,但同时它也是你可以获得的最强大的燃料棒. MOX燃烧速度是铀的两倍,但是在高速燃烧的同时会产生巨大的电力. 传闻,MOX发电速度可以达到不可思议的11kEU/t的程度.
 
 #Quest_193.Tier 1 fuel: Thorium
 gtnh.quest193.name=第一阶燃料:钍
@@ -785,16 +785,16 @@ gtnh.quest195.name=反应堆扩容
 gtnh.quest195.desc=想要释放反应堆全部的潜力,你就需要给你的反应堆加装6个反应仓.
 
 #Quest_196.Move the heat
-gtnh.quest196.name=热交换机
-gtnh.quest196.desc=反应堆温度会提高,燃料棒也会.因此你需要将燃料棒的温度转移到其他什么地方去. 热交换机可以实现这种功能,你应该每一种热交换机都制造一个,并且试一试哪一种更适合你的反应堆.
+gtnh.quest196.name=热交换
+gtnh.quest196.desc=反应堆温度会提高,燃料棒也会.因此你需要将燃料棒的温度转移到其他什么地方去. 热交换器可以实现这种功能,你应该每一种热交换器都制造一个,并且试一试哪一种更适合你的反应堆.
 
 #Quest_197.Venting heat
 gtnh.quest197.name=散热
 gtnh.quest197.desc=你不能让热量聚集在反应堆内部,最终你需要将反应堆内部的热量散发的大气中. 不同的散热片有不同的散热能力,你需要找出他们哪一种散热片适合用在你设计的反应堆中.
 
 #Quest_198.Double the fun
-gtnh.quest198.name=二联燃料
-gtnh.quest198.desc=你需要更多的能量？为什么不把燃料棒组合在一起呢？ 二联燃料可以产生两倍的能量(显然发热量也是两倍),但同时只占用一个槽.
+gtnh.quest198.name=二联燃料棒,双倍的快乐(double the fun(fuel))
+gtnh.quest198.desc=你需要更多的能量？为什么不把燃料棒组合在一起呢？ 二联燃料棒可以产生两倍的能量(显然发热量也是两倍),但同时只占用一个槽.
 
 #Quest_199.Quit exhaling dusts
 gtnh.quest199.name=QED(Quit exhaling dusts)
@@ -806,7 +806,7 @@ gtnh.quest200.desc=卓越火炬和奢华吊顶灯类似,可以阻止很大范围
 
 #Quest_201.Automated mining
 gtnh.quest201.name=自动挖掘
-gtnh.quest201.desc=你挖矿的利机！QED牌末影采石场.正如0lafe所说,"这个小黑匣子可以让你的日子变得惬意"和"你对致密黑曜石板的海量需求."注意:最好将采石场和标记放在矿石边界上. 通过这种方式,你可以立即开始获得矿石,特别是从行星开始.
+gtnh.quest201.desc=你的挖矿利器！QED牌末影采石场.正如0lafe所说,"这个小黑匣子可以让你的日子变得惬意"和"你对致密黑曜石板的海量需求."注意:最好将采石场和标记放在矿脉边界上. 通过这种方式,你可以立即开始获得矿石,特别在行星和漆黑世界(DD).
 
 #Quest_202.Accelerating things
 gtnh.quest202.name=速度升级
@@ -814,11 +814,11 @@ gtnh.quest202.desc=如果你感觉末影采石场的挖掘速度不能让你满�
 
 #Quest_203.Bundled AE channels
 gtnh.quest203.name=P2P通道-ME
-gtnh.quest203.desc=P2P通道可以在一条线缆上面传送最多32个频道！ 你需要制造很多这个东西！
+gtnh.quest203.desc=P2P通道-ME可以传送最多32个频道！ 你需要制造很多这种东西！
 
 #Quest_204.Load and unload the rocket
 gtnh.quest204.name=自动化装卸火箭
-gtnh.quest204.desc=如果你不能自动装卸火箭的货物,那么有一个自动火箭有什么用？
+gtnh.quest204.desc=如果你不能自动装卸火箭的货物,那么有一个自动货运火箭有什么用？
 
 #Quest_205.Cargo rocket: For the fun
 gtnh.quest205.name=货运火箭:纯粹是为了好玩
@@ -837,31 +837,31 @@ gtnh.quest208.name=保护你的基地:第4级
 gtnh.quest208.desc=制作强大炮塔所使用的小部件.
 
 #Quest_209.Make love, not war
-gtnh.quest209.name=爱与和平,不要战争！
-gtnh.quest209.desc=对于那些不想开杀戒的人来说,这个炮塔只会把目标传送出去而不会杀死他们. 但是这需要耗费大量的电力！
+gtnh.quest209.name=爱与和平,不要战争！(Make love, not war)自己体会
+gtnh.quest209.desc=适合那些不想开杀戒的人,这个炮塔只会把目标传送出去而不会杀死他们. 但是这需要耗费大量的电力！
 
 #Quest_210.Why grenades...
 gtnh.quest210.name=火箭炮
 gtnh.quest210.desc=什么时候可以使用火箭炮？是的火箭炮！ 火箭发射炮塔可以自动搜索和摧毁敌人,并且在攻击的时候发出巨大的爆炸声！
 
 #Quest_211.Tier 4 fence and walls
-gtnh.quest211.name=第四阶段的墙和栅栏
+gtnh.quest211.name=第4级的墙和栅栏
 gtnh.quest211.desc=再一次升级你的墙壁和栅栏.
 
 #Quest_212.Pulverize the Moon
 gtnh.quest212.name=粉碎月球
-gtnh.quest212.desc=就是字面的意思. 你可以把大部分的行星岩石扔到研磨机里面打碎,这些被打碎的粉通过离心有一定几率产出很多有用的金属. 这并不需要很多的能量,但是我确信可以帮助到你.
+gtnh.quest212.desc=就是字面的意思. 你可以把大部分的行星岩石扔到粉碎机里打碎,这些被打碎的粉通过离心有一定几率产出很多有用的金属. 这并不需要很多的能量,但是我确信可以帮助到你.
 
 #Quest_213.Tier 6
 gtnh.quest213.name=第6阶段
-gtnh.quest213.desc=在IV级.你的机器将会需要钨钢. 你应该去访问火星和它的卫星:火卫一和火卫二. 到目前为止你应该已经精通了格雷科技,前提是如果你还没有清理过格雷机器在你家里留下的大坑……
+gtnh.quest213.desc=在IV级.你的机器将会需要钨钢. 你应该造访火星和它的卫星:火卫一和火卫二. 到目前为止你应该已经精通了格雷科技,前提是如果你还没有清理过格雷机器在你家里留下的大坑……
 
 #Quest_214.This is the end.... ?
 gtnh.quest214.name=这就结束了……？
-gtnh.quest214.desc=游戏的常规内容基本上已经结束了. 但是！这仅仅是你旅程的开始,因为以后游戏中还有更强大和更有趣的东西. 你已经证明了你非常强大,并且已经成功挑战了这一层. 祝贺你！
+gtnh.quest214.desc=游戏的常规内容基本上已经结束了. 但是！这仅仅是你旅程的开始,因为以后游戏中还有更强大和更有趣的东西. 你已经证明了你非常强大,并且已经成功通过了这一阶段的挑战. 祝贺你！
 
 #Quest_215.On your way to Asteriods and other Tier 3 DIMs
-gtnh.quest215.name=前往小行星和其他三阶DIMs的路上
+gtnh.quest215.name=前往小行星和其他三阶星球的路上
 gtnh.quest215.desc=下一个阶段我想应该是"到达其他的小行星"并且拥有IV级别的机器. 当你进入了这个级别,你的机器应该已经发挥了几乎全部的潜能.去一些小行星上采集一些珍贵的矿石可以帮助你提高你的发电能力.
 
 #Quest_216."Clean" energy..?
@@ -1022,7 +1022,7 @@ gtnh.quest254.desc=这个漂亮的小装置会帮你过滤出物品中蕴含的�
 
 #Quest_255.An alternative to torches
 gtnh.quest255.name=火把的代替品
-gtnh.quest255.desc=还有熔岩！它可是很好的魔法热源.
+gtnh.quest255.desc=还有岩浆！它可是很好的魔法热源.
 
 #Quest_256.Not coal
 gtnh.quest256.name=不用煤
@@ -1590,7 +1590,7 @@ gtnh.quest396.desc=现在我已经找到了一种方法来稳定龙尘并将其�
 
 #Quest_397.Endless evolution
 gtnh.quest397.name=无尽的进化
-gtnh.quest397.desc=使用你的机器,你现在可以处理无限数量的这些核心.因为让你的傀儡只为一个核心工作是很可怕的,所以你决定只在16个核心中大量工作.你真是太好了.
+gtnh.quest397.desc=使用你的机器,你现在可以处理无限数量的这些核心.并且由于让你的傀儡只为一个核心工作是很可怕的,所以你决定一次做16个.真是个好主意.
 
 #Quest_398.Kill Baba Yaga
 gtnh.quest398.name=杀了Baba Yaga
@@ -1618,7 +1618,7 @@ gtnh.quest403.desc=Mog和Gulg是霍布金斯崇拜的神的存在.他们可以�
 
 #Quest_404.Kill Demon
 gtnh.quest404.name=杀了恶魔
-gtnh.quest404.desc=恶魔是强大的,邪恶的存有们生活在地狱的维度中.到目前为止,还没有人看到幽灵漫游,在那里他们的奴仆:GHATS,火焰和他们的ILK似乎占主导地位.遇到没有保护自己的恶魔,几乎肯定会死亡.他们被称为一个众所周知的卡车击中,并需要大量的伤害急刹.一些恶魔甚至被发现射击火球！当然,它们也能免疫火的伤害.
+gtnh.quest404.desc=恶魔是强大的,邪恶的存在,它们生活在地狱般的维度中.到目前为止,还没有人在下界看到它们游荡,在那里它们的奴仆:恶魂、烈焰人和火焰和它们的变种似乎占主导地位.如果你没有保护自己的手段就遇到了恶魔,你几乎肯定会死亡.它们的攻击就像重型卡车一样强力,并需要巨量的伤害才能杀死它们.一些恶魔甚至可以射击火球！当然,它们还能免疫火焰伤害.
 
 #Quest_405.The power of infinity
 gtnh.quest405.name=无限的力量
@@ -1882,7 +1882,7 @@ gtnh.quest469.desc=你现在还在等着胡萝卜长大么？出去找一些灌�
 
 #Quest_470.Berry medley
 gtnh.quest470.name=什锦莓
-gtnh.quest470.desc=恩……这些浆果能做什么呢？直接吃掉？可能你会发现浆果提供的饱食度很低,那么让我们种植一些不同种类的莓丛,然后把他们制作成什锦梅吧！
+gtnh.quest470.desc=恩……这些浆果能做什么呢？直接吃掉？可能你会发现浆果提供的饱食度很低,那么让我们种植一些不同种类的莓丛,然后把他们制作成什锦莓吧！
 
 #Quest_471.Food variants
 gtnh.quest471.name=花样小吃
@@ -1894,7 +1894,7 @@ gtnh.quest472.desc=当你准备好了匠魂里面各种组装台、工具台什�
 
 #Quest_473.Making a better sword
 gtnh.quest473.name=做一把好剑
-gtnh.quest473.desc=现在是时候做一把匠魂大剑了！首先你需要制作剑刃、护手和手柄.在匠魂冶炼厂里面融化一些青铜来铸造这些零件.拿去工具组装台把他们装好,这样你就有你第一把剑魂的大剑了.
+gtnh.quest473.desc=现在是时候做一把匠魂大剑了！首先你需要制作剑刃、护手和手柄.在匠魂冶炼厂里面融化一些青铜来铸造这些零件.拿去工具组装台把他们装好,这样你就有你第一把匠魂的大剑了.
 
 #Quest_474.Upgrade 2.0
 gtnh.quest474.name=升级2.0
@@ -1922,7 +1922,7 @@ gtnh.quest479.desc=现在这里有更加危险的精英怪物. 玩的开心！�
 
 #Quest_480.Malachite
 gtnh.quest480.name=孔雀石
-gtnh.quest480.desc=铜的另一个来源就是"孔雀石". 你可以在Y轴10到40之间发现这种矿脉.这里包含了很多铁矿石的变种,如"带状铁矿脉""黄褐铁矿石""棕褐铁矿石" 注:这种矿石中期提取氢气很有用,留意他们的位置.要看到 在哪里可以找到特殊矿石点击nei中的原矿,它会显示更多细节. 也适用于小矿石.
+gtnh.quest480.desc=铜的另一个来源就是"孔雀石". 你可以在Y轴10到40之间发现这种矿脉.这里包含了很多铁矿石的变种,如"带状铁矿石""黄褐铁矿石""棕褐铁矿石" 注:这种矿石中期提取氢气很有用,留意它们的位置.想要知道在哪里可以找到某些特殊矿石,你可以点击NEI中的原矿,NEI会显示此矿石的更多细节(包括可能的矿脉、生成高度、概率以及生成世界等信息). 也适用于贫瘠矿石.
 
 #Quest_481.Creosote oil
 gtnh.quest481.name=杂酚油
@@ -2254,7 +2254,7 @@ gtnh.quest562.desc=当你有了钢之后你就可以制作高压锅炉方块了.
 
 #Quest_563.Bookshelves...? Ah forestry... Multiblock farms!
 gtnh.quest563.name=书架……？哦林业……还有多方块农场！
-gtnh.quest563.desc=书架只能使用木板来制作,而木板只能通过压缩机压缩木浆来获得.也许有的人认为这比较疯狂
+gtnh.quest563.desc=书架只能使用木板来制作,而木板只能通过压缩机压缩木浆来获得.也许有的人认为这比较疯狂...
 
 #Quest_564.Forestry Basic > Advanced
 gtnh.quest564.name=基础林业奖励 > 高级林业奖励
@@ -2442,7 +2442,7 @@ gtnh.quest609.desc=使用合金炉搅拌锑跟铅,可以得到电池合金.与�
 
 #Quest_610.Lead, galena and silver
 gtnh.quest610.name=铅、方铅矿,以及银
-gtnh.quest610.desc=你无法在主世界或地狱找到铅、方铅矿跟银.该探索神秘的暮色森林了.在Y=5-40寻找这种矿脉.
+gtnh.quest610.desc=你无法在主世界或下界找到铅、方铅矿跟银.该探索神秘的暮色森林了.在Y=5-40寻找这种矿脉.
 
 #Quest_611.Single use battery: Mercury
 gtnh.quest611.name=一次性电池:汞
@@ -2598,7 +2598,7 @@ gtnh.quest648.desc=好极了...你现在有一个空的喷气背包.你需要25�
 
 #Quest_649.Coal steam jetpack
 gtnh.quest649.name=燃煤喷气背包
-gtnh.quest649.desc=你的燃煤喷气背包需要水跟炭来制造蒸气.在短暂的暖机之后,就可以起飞了.记住你需要滑翔翼来安全的降落.将蒸气背包装在你的背上,并按shift以及探险背包动作键来启动它.这种喷气背包的最大飞行高度是(185层).垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是(135层),直升机的理想高度是(100层).
+gtnh.quest649.desc=你的燃煤喷气背包需要水跟炭来制造蒸汽.在短暂的暖机之后,就可以起飞了.记住你需要滑翔翼来安全的降落.将蒸汽背包装在你的背上,并按shift以及探险背包动作键来启动它.这种喷气背包的最大飞行高度是(185层).垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是(135层),直升机的理想高度是(100层).
 
 #Quest_650.Copter jetpack
 gtnh.quest650.name=直升机背包
@@ -2706,7 +2706,7 @@ gtnh.quest675.desc=手动转辙机是手动版本的电动转辙机,需要玩家
 
 #Quest_676.Crowbar
 gtnh.quest676.name=撬棍
-gtnh.quest676.desc=撬棍有RC版本跟GT版本.可以用来操作RC的机器,或用来移除在GT管道和机器上的覆盖板(电动泵,输送机模块等等).并可以更快的拆除一些对象,像是轨道.这样工具也可用来存取RC的物品库存.撬棍也可以当武器使用,虽然攻击会消耗双倍耐久(就像其他的非武器工具一样...). 译者注:食我物理学圣剑啦！
+gtnh.quest676.desc=撬棍有RC版本跟GT版本.可以用来操作RC的机器,或用来移除在GT管道和机器上的覆盖板(电动泵,传送带模块等等).并可以更快的拆除一些对象,像是轨道.这样工具也可用来存取RC的物品库存.撬棍也可以当武器使用,虽然攻击会消耗双倍耐久(就像其他的非武器工具一样...). 译者注:食我物理学圣剑啦！
 
 #Quest_677.Minecart
 gtnh.quest677.name=矿车
@@ -2774,7 +2774,7 @@ gtnh.quest692.desc=将高级合金的强度与钢铁胸甲结合,将使你非常
 
 #Quest_693.Fallen from the sky
 gtnh.quest693.name=从天而降
-gtnh.quest693.desc=你可以在许多地方找到巨大的殒石.而你可能会疑惑为何需要现在去挖掘它们？在LV时代,陨石是地球上稀有金属的一个好来源. 在陨石中你可以找到一个陨石箱,其中装了一些处理器印压模板.将它们保存起来,它们非常重要.
+gtnh.quest693.desc=你可以在许多地方找到巨大的陨石.而你可能会疑惑为何需要现在去挖掘它们？在LV时代,陨石是地球上稀有金属的一个好来源. 在陨石中你可以找到一个陨石箱,其中装了一些处理器印压模板.将它们保存起来,它们非常重要.
 
 #Quest_694.One Anvil... Better make that two!
 gtnh.quest694.name=一个铁砧...最好做两个！
@@ -2866,7 +2866,7 @@ gtnh.quest715.desc=有了这些新的碎片,你可以制作最强力的法术组
 
 #Quest_716.Find some Certus Quartz
 gtnh.quest716.name=寻找石英(Find some Quartz)
-gtnh.quest716.desc=地狱充满各种不同的石英.找到一个石英岩及赛特斯石英矿脉.其分布高度为Y=40-80.
+gtnh.quest716.desc=下界充满各种不同的石英.找到一个石英岩及赛特斯石英矿脉.其分布高度为Y=40-80.
 
 #Quest_717.Good Circuits
 gtnh.quest717.name=进阶电子电路(Good Circuits.)
@@ -2970,7 +2970,7 @@ gtnh.quest741.desc=终于,你得到了第一个铝锭.现在该制作一个工�
 
 #Quest_742.One Block mining is so Old School
 gtnh.quest742.name=一格一格挖矿已经过气了
-gtnh.quest742.desc=制作一把钢捶子,你就可以一次挖3x3范围的矿.在地狱小心点,因为一不小心你就会被岩浆煮熟.
+gtnh.quest742.desc=制作一把钢锤子,你就可以一次挖3x3范围的矿.在下界小心点,因为一不小心你就会被岩浆煮熟.
 
 #Quest_743.Cutting a Tree log by log is so Old School
 gtnh.quest743.name=一次砍一个原木已经过气了
@@ -3066,7 +3066,7 @@ gtnh.quest765.desc=泵是很好,但你现在到了一个需要更多更多更多
 
 #Quest_766.Let's get it crackin!
 gtnh.quest766.name=裂化石油
-gtnh.quest766.desc=裂化石油可以在蒸馏塔中得到更好的副产品.制造这个多方块构造是个聪明的主意,因为高阶火箭将会需要非常大量的工业TNT.如果你加入蒸气,电压的消耗将会减少50%,如果你加入氢气,输出产量将增加30%.
+gtnh.quest766.desc=裂化石油可以在蒸馏塔中得到更好的副产品.制造这个多方块构造是个聪明的主意,因为高阶火箭将会需要非常大量的工业TNT.如果你加入蒸汽,电压的消耗将会减少50%,如果你加入氢气,输出产量将增加30%.
 
 #Quest_767.Analyzing the soil
 gtnh.quest767.name=分析地层
@@ -3137,24 +3137,24 @@ gtnh.quest783.name=我们需要些大家伙
 gtnh.quest783.desc=你的基础蒸汽轮机太占空间？该解决这个问题了.这台大型蒸汽轮机可以帮助你生产大量的能源.别忘了为它制造一个涡轮. 在起步阶段,最适合的涡轮材料是:钒钢(有极高的耐久度,但产能较慢)、钴(在耐久跟性能间取得不错的平衡),及哈氏合金(有更高的效率、耐久,及性能).
 
 #Quest_784.It's time to get more steam
-gtnh.quest784.name=该制造更多蒸气了
-gtnh.quest784.desc=一旦你有能力储存大量的能源,就需要有方法生产大量的能源.你需要一个大型青铜锅炉.但为了制造这个锅炉,你需要像山一样多的青铜.这个锅炉每tick能产生800L的蒸气,这足供十台基础蒸汽轮机运作了.
+gtnh.quest784.name=该制造更多蒸汽了
+gtnh.quest784.desc=一旦你有能力储存大量的能源,就需要有方法生产大量的能源.你需要一个大型青铜锅炉.但为了制造这个锅炉,你需要像山一样多的青铜.这个锅炉每tick能产生800L的蒸汽,这足供十台基础蒸汽轮机运作了.
 
 #Quest_785.Transistor
 gtnh.quest785.name=晶体管
 gtnh.quest785.desc=为了下一个阶段我们需要高级电路板.为了制造高级电路板,你需要一些晶体管.
 
 #Quest_786.Steam is never enough
-gtnh.quest786.name=蒸气永远不够
-gtnh.quest786.desc=现在你可以制造高级电路板了,这也是盖大型钢锅炉的时刻了.这台锅炉的效率是青铜版的1.5倍,这表示我们需要再多5台蒸气轮机.别忘了监控你的水量！
+gtnh.quest786.name=蒸汽永远不够
+gtnh.quest786.desc=现在你可以制造高级电路板了,这也是盖大型钢锅炉的时刻了.这台锅炉的效率是青铜版的1.5倍,这表示我们需要再多5台蒸汽轮机.别忘了监控你的水量！
 
 #Quest_787.Moooooore steam
-gtnh.quest787.name=更多更多更多蒸气
-gtnh.quest787.desc=囤积钛,这会很有趣.大型钛锅炉每t生产1600L蒸气.为应付这数量,你需要为你的大型蒸汽轮机选择正确的涡轮.例如,两个钴涡轮就很适当.钴涡轮的最佳流量是800L/t.如果你有不止一个锅炉,你就需要做更多计算来选择适当的涡轮.
+gtnh.quest787.name=更多更多更多蒸汽
+gtnh.quest787.desc=囤积钛,这会很有趣.大型钛锅炉每t生产1600L蒸汽.为应付这数量,你需要为你的大型蒸汽轮机选择正确的涡轮.例如,两个钴涡轮就很适当.钴涡轮的最佳流量是800L/t.如果你有不止一个锅炉,你就需要做更多计算来选择适当的涡轮.
 
 #Quest_788.Even more steam? Are you sure?
-gtnh.quest788.name=还要更多蒸气？你确定吗？
-gtnh.quest788.desc=这台锅炉是最有效率产生蒸气的途径.其产能达到2B/t.如果你需要更多,盖两台甚至四台锅炉.
+gtnh.quest788.name=还要更多蒸汽？你确定吗？
+gtnh.quest788.desc=这台锅炉是最有效率产生蒸汽的途径.其产能达到2B/t.如果你需要更多,盖两台甚至四台锅炉.
 
 #Quest_789.Energy Crystals
 gtnh.quest789.name=能量水晶
@@ -3238,7 +3238,7 @@ gtnh.quest808.desc=高阶粉末需要HV级搅拌机.
 
 #Quest_809.NASA Workbench aka Dire Crafting Table
 gtnh.quest809.name=NASA工作台,又名终极工作台
-gtnh.quest809.desc=Avarita的9x9终极工作台取代了NASA工作台.这是制作所有火箭及高阶装备的必需品.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV组件、晶元,以及一个水晶矩阵.然后......没错,你确实需要下界之星.提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入熔岩球、烈焰粉及小搓下界之星粉复制.
+gtnh.quest809.desc=Avarita的9x9终极工作台取代了NASA工作台.这是制作所有火箭及高阶装备的必需品.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV组件、晶元,以及一个水晶矩阵.然后......没错,你确实需要下界之星.提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入岩浆膏、烈焰粉及小搓下界之星粉复制.
 
 #Quest_810.Rocket Tier 1
 gtnh.quest810.name=1阶火箭
@@ -3342,7 +3342,7 @@ gtnh.quest834.desc=每一块电路板都需要电路板基板. 电路板基板�
 
 #Quest_835.Resistor
 gtnh.quest835.name=电阻
-gtnh.quest835.desc=每个电路扳都需要两个电阻.
+gtnh.quest835.desc=每个电路板都需要两个电阻.
 
 #Quest_836.Gallium Arsenide
 gtnh.quest836.name=砷化镓
@@ -3482,7 +3482,7 @@ gtnh.quest869.desc=你需要无瑕或精致的钻石、祖母绿、红宝石或�
 
 #Quest_870.Smelt all the things...
 gtnh.quest870.name=熔了所有东西……
-gtnh.quest870.desc=想一次熔炼多达九件物品？只要一点点钢,你就可以做一台railcraft蒸气烤炉.这是一个2x2x2的多方块结构. 提示:所有熔炉的配方运作得都不错,但你没办法用它来烧木头制作木炭.
+gtnh.quest870.desc=想一次熔炼多达九件物品？只要一点点钢,你就可以做一台railcraft蒸汽烤炉.这是一个2x2x2的多方块结构. 提示:所有熔炉的配方运作得都不错,但你没办法用它来烧木头制作木炭.
 
 #Quest_871.Molds, molds, molds
 gtnh.quest871.name=铸模、模具、铸模
@@ -3549,8 +3549,8 @@ gtnh.quest886.name=恶魂
 gtnh.quest886.desc=你空虚寂寞觉得冷.至少你不是个大只的爱哭鬼？
 
 #Quest_887.A Wizard's Staff has a Knob on the End
-gtnh.quest887.name=锡矿莓丛
-gtnh.quest887.desc=通过种植它来获得锡(浆果),而不是去找锡矿.
+gtnh.quest887.name=法师的杖芯顶部有魔晶
+gtnh.quest887.desc=将杖柄两端装上杖端,再添上暮色森林怪物掉落物,以及一些螺丝即可制成法杖. 而杖芯无法用于奥术工作台,但它可以储存同种材质法杖250%的魔力. 它甚至可以作为近战武器. 虽然它无法获得武器的附魔,但它的伤害很可观,而且不会损失耐久(本来就没有耐久条→_→).
 
 #Quest_888.Silverfish
 gtnh.quest888.name=蠹虫
@@ -4362,7 +4362,7 @@ gtnh.quest1089.desc=现在让我们吧所有的东西放在一起,来做一顿�
 
 #Quest_1090.Try to dry out the Nether
 gtnh.quest1090.name=尝试抽干下界
-gtnh.quest1090.desc=泵不仅仅能抽石油和水. 你还可以到下界去抽熔岩湖里面的岩浆！ 别忘了带一些储罐.
+gtnh.quest1090.desc=泵不仅仅能抽石油和水. 你还可以到下界去抽岩浆湖里面的岩浆！ 别忘了带一些储罐.
 
 #Quest_1091.Diamond Tanks... Oh shiny
 gtnh.quest1091.name=钻石储罐……哦真亮
@@ -4765,8 +4765,8 @@ gtnh.quest1190.name=电力供给单元
 gtnh.quest1190.desc=为了使你的轨道交通进入电气化时代,你需要给你新铺设的电力轨道提供能源. 你现在需要电力供给单元、电力分路线缆和线缆支撑架. 你可以使用一个MFE或者变压器来获取GT输入的电能.
 
 #Quest_1191.Magic "Staffter"
-gtnh.quest1191.name=精华莓丛
-gtnh.quest1191.desc=你可以种植精华莓丛来获得经验值,而不需要到处杀怪物和动物.
+gtnh.quest1191.name=魔法"手权杖"
+gtnh.quest1191.desc=将权杖合成表中的杖柄换成杖芯,就可以制作出一种奇怪的混合体,融合了手杖(staff)与权杖(scepter)(有时被称为"手权杖"(staffter)). 这种产物无法安装核心也无法放入奥术工作台,但它仍然可以用于激活结构(如注魔祭坛),或是作为拥有修复附魔装备的"vis电池",它还能为符文护盾充能.
 
 #Quest_1192.Aluminum berries
 gtnh.quest1192.name=铝矿莓
@@ -4834,7 +4834,7 @@ gtnh.quest1207.desc=你可以使用硬币购买一些重燃油.
 
 #Quest_1208.Cart modules: Power Solar
 gtnh.quest1208.name=矿车模块:太阳能引擎
-gtnh.quest1208.desc=你的矿车需要动力. 矿车可以使用煤、太阳能或者熔岩来供电. 如果你造了太阳能电池板,你可以用太阳能来为你的矿车充电.
+gtnh.quest1208.desc=你的矿车需要动力. 矿车可以使用煤、太阳能或者岩浆来供电. 如果你造了太阳能电池板,你可以用太阳能来为你的矿车充电.
 
 #Quest_1209.Cart modules: Digging
 gtnh.quest1209.name=矿车模块:挖掘
@@ -4842,7 +4842,7 @@ gtnh.quest1209.desc=想试一试让矿车来挖掘么？用铁做的钻头是最
 
 #Quest_1210.Cart modules: Thermal Engine
 gtnh.quest1210.name=矿车模块:地热引擎
-gtnh.quest1210.desc=你的矿车需要动力. 矿车可以使用煤、太阳能或者熔岩来供电. 试着用岩浆来驱动矿车吧.
+gtnh.quest1210.desc=你的矿车需要动力. 矿车可以使用煤、太阳能或者岩浆来供电. 试着用岩浆来驱动矿车吧.
 
 #Quest_1211.Cart modules: More Storage
 gtnh.quest1211.name=矿车模块:更多的存储空间
@@ -5085,8 +5085,8 @@ gtnh.quest1270.name=铲子时间到
 gtnh.quest1270.desc=当你的背包里同时有除草铲、锄头和铲子时,处理作物是一件痛苦的事. 做个多功能铲吧-它结合了这些工具,并且是牢不可破的,并增加了从植物获得种子的机会
 
 #Quest_1271.Extruder HV
-gtnh.quest1271.name=HV卷板机
-gtnh.quest1271.desc=你可以通过HV卷板机来直接制造2层、3层甚至更多层的压缩板,这可能对未来你建造第一个火箭很有帮助.
+gtnh.quest1271.name=HV压模机
+gtnh.quest1271.desc=你需要HV压模机来挤压那些难以加工的金属,如钨钢和HSS.
 
 #Quest_1272.Wheaty juice
 gtnh.quest1272.name=小麦汁
@@ -5118,7 +5118,7 @@ gtnh.quest1278.desc=伏特加在俄罗斯被称为"可爱的小水",这是一种
 
 #Quest_1279.Firestone Ore/Dust
 gtnh.quest1279.name=火石矿粉
-gtnh.quest1279.desc=BC里面的建筑机和填充机都要用到火石.不幸的是火石只会在下界熔岩之后的底部生成……不过这里有一些提示可能会帮助到你. 火石只会在6格深以上的熔岩湖中生成,并且它只会取代地狱岩,所以一个充满了灵魂沙的峡谷是绝对不会产生火石的. 火石会不断点燃身边的方块,因此找到了马上将它们收纳到背包里.
+gtnh.quest1279.desc=BC里面的建筑机和填充机都要用到火石.不幸的是火石只会在下界岩浆湖的底部生成……不过这里有一些提示可能会帮助到你. 火石只会在6格深以上的岩浆湖中生成,并且它只会取代地狱岩,所以一个充满了灵魂沙的峡谷是绝对不会产生火石的. 火石会不断点燃身边的方块,因此找到后马上将它们收纳到背包里.
 
 #Quest_1280.The industrial way
 gtnh.quest1280.name=工业之路
@@ -5506,7 +5506,7 @@ gtnh.quest1375.desc=法杖核心:更替是由神秘时代4添加的法杖核心.
 
 #Quest_1376.Wand Focus Frost
 gtnh.quest1376.name=法杖核心:寒霜
-gtnh.quest1376.desc=法杖核心:寒霜,当装备到法杖上时,它将发射一个冰球,如果目标的硬度足够高,冰球可以在方块块和怪物身上反弹. 它会对怪物施加缓慢效果、冻结水和凝固熔岩. 它的基础消耗为每次发射0.05水、0.02火和0.02混沌要素. 这个核心可以在核心镶嵌台升级.
+gtnh.quest1376.desc=法杖核心:寒霜,当装备到法杖上时,它将发射一个冰球,如果目标的硬度足够高,冰球可以在方块块和怪物身上反弹. 它会对怪物施加缓慢效果、冻结水和凝固岩浆. 它的基础消耗为每次发射0.05水、0.02火和0.02混沌要素. 这个核心可以在核心镶嵌台升级.
 
 #Quest_1377.Wand Focus Warding
 gtnh.quest1377.name=法杖核心:守护
@@ -5982,11 +5982,11 @@ gtnh.quest1494.desc=是时候起第二个高炉了！ 你可以通过3种方式�
 
 #Quest_1495.All alone in the night
 gtnh.quest1495.name=一个人在夜里
-gtnh.quest1495.desc=如果你正在玩单人生存,那么更新意味着必须重新加载默认任务. 使用此方块可以让你无需进入创意模式即可完成这个操作--你不会失去进度,但你将有新的任务要完成！ 抱歉,没有奖励,除了你知道你自己对抗世界的满足感.
+gtnh.quest1495.desc=如果你正在玩单人生存,那么更新意味着必须重新加载默认任务. 使用此方块可以让你无需进入创造模式即可完成这个操作--你不会失去进度,但你将有新的任务要完成！ 抱歉,没有奖励,除了你知道你自己对抗世界的满足感.
 
 #Quest_1496.How the heck do I find ores?
 gtnh.quest1496.name=见鬼,我该怎么找到矿石？
-gtnh.quest1496.desc=GregTech矿石生成基于矿脉. 矿脉以矿石中心为中心,基于区块数. 要查找区块数,请按F3. 在X和Z行中,你将看到c:3(14)、c:-2(1)等数字.3,-2是区块的地址.忽略负号. 现在,矿脉中心位于3N+1区块. 所以,4,7是矿脉中心.10,16、-22,19.等等  提示:要找出一个数字是否可以被3整除,将各位数字相加并检查总和是否可以被3整除.比如86:8+6=14.所以你需要向下一个区块或者向上2个区块,这样你就可以到达3N+1区块. 为了一路阅读,我会给你一块铁锭.
+gtnh.quest1496.desc=GregTech矿石生成基于矿脉. 矿脉以矿石中心为中心,基于区块数. 要查找区块数,请按F3. 在X和Z行中,你将看到c:3(14)、c:-2(1)等数字.3,-2是区块的地址.忽略负号. 现在,矿脉中心位于3N+1区块. 所以,4,7是矿脉中心.10,16、-22,19.等等  提示:要找出一个数字是否可以被3整除,将各位数字相加并检查总和是否可以被3整除.比如86:8+6=14.所以你需要向下一个区块或者向上2个区块,这样你就可以到达3N+1区块. 看在你一路读下来的份上,给你块铁锭吧.
 
 #Quest_1497.Digging deeper
 gtnh.quest1497.name=深层发掘
@@ -6026,7 +6026,7 @@ gtnh.quest1505.desc=其实更像是太多的物品！ 以下是使用NEI的一�
 
 #Quest_1506.NEI is more powerful than you imagine
 gtnh.quest1506.name=NEI比你想象的更强大
-gtnh.quest1506.desc=NEI也有一些非常好的高级功能. 点击一个物品查看制作它的配方,然后按Backspace返回上一个配方. 按住Shift停止oredict切换物品,并显示光标下当前物品的矿典条目. 使用(#矿典名)查找与该矿典匹配的物品;例如,#dyewhite将列出所有白色染料. 使用@mod进行搜索.找到该mod的所有物品;例如,@mod.gt++将列出所有GT++的方块. 使用*(星号)作为通配符. 例如,大型*流体管道将显示所有大型流体管道. 它具有更多高级功能,你可以上网b以获取更多信息.
+gtnh.quest1506.desc=NEI也有一些非常好的高级功能. 点击一个物品查看制作它的配方,然后按Backspace返回上一个配方. 按住Shift停止oredict切换物品,并显示光标下当前物品的矿典条目. 使用(#矿典名)查找与该矿典匹配的物品;例如,#dyewhite将列出所有白色染料. 使用@mod进行搜索.找到该mod的所有物品;例如,@mod.gt++将列出所有GT++的方块. 使用*(星号)作为通配符. 例如,大型*流体管道将显示所有大型流体管道. 它具有更多高级功能,你可以上网搜索以获取更多信息.
 
 #Quest_1507.Making a list, checking it twice
 gtnh.quest1507.name=制作清单,检查两次
@@ -6186,7 +6186,7 @@ gtnh.quest1545.desc=自动采矿机很不错,但你要达到一个你想要MOOOO
 
 #Quest_1546.Rare ores
 gtnh.quest1546.name=稀有矿石
-gtnh.quest1546.desc=你有没有花几天时间寻找钻石,红石,钽铁矿石,赛特斯石英或云母的经历？ 矿脉是不同矿石混合的,你可以使用不同的矿石来寻找,如钻石矿脉的可用煤矿石寻找或赛特斯石英矿脉的可用石英岩矿石寻找. 如果你有锡石矿石(不是沙子),可以找到云母矿石. 下界黝铜矿矿石可以用铜矿石找到.
+gtnh.quest1546.desc=你有没有花几天时间寻找钻石,红石,钽铁矿石,赛特斯石英或云母的经历？ 矿脉是不同矿石混合的,你可以使用不同的矿石来寻找,如钻石矿脉的可用煤矿石寻找或赛特斯石英矿脉的可用石英岩矿石寻找. 如果你有锡石矿石(不是锡石矿砂),可以找到云母矿石. 下界黝铜矿矿石可以用铜矿石找到.
 
 #Quest_1547.Press all the things in MV
 gtnh.quest1547.name=压制MV中的所有东西
@@ -6974,7 +6974,7 @@ gtnh.quest1742.desc=月球在氦3上很丰富,它已被数十亿年的太阳风�
 
 #Quest_1743.Saltwater and Chlorobenzene on Mars
 gtnh.quest1743.name=火星上的盐水和氯苯
-gtnh.quest1743.desc=火星富含盐水和氯苯.如果你离氯很近,你可以离心液体.  更多液体和气体可以在以下位置找到: 盐水: 月球-非常低、火星-低、木卫二-高  氦3: 月球-非常低、水星-低/高  氯苯: 火星-非常低  氮: 海卫一-高、冥王星-高  甲烷: 土卫六-高  乙烷: 土卫六-低  乙烯:海卫一-低  氧气: 土卫四-低  超重油: 土卫二-低、巴纳德C-高、鲸鱼座T星E-低  熔融超能硅岩: 巴纳德C-低、织女一B-高  熔融硅岩: 金星-非常低、土卫六-低、妊神星-高  液态空气: 土卫四-低、冥卫一-中、巴纳德E-高
+gtnh.quest1743.desc=火星富含盐水和氯苯.如果你缺乏氯,你可以离心液体.  更多液体和气体可以在以下位置找到: 盐水: 月球-非常低、火星-低、木卫二-高  氦3: 月球-非常低、水星-低/高  氯苯: 火星-非常低  氮: 海卫一-高、冥王星-高  甲烷: 土卫六-高  乙烷: 土卫六-低  乙烯:海卫一-低  氧气: 土卫四-低  超重油: 土卫二-低、巴纳德C-高、鲸鱼座T星E-低  熔融超能硅岩: 巴纳德C-低、织女一B-高  熔融硅岩: 金星-非常低、土卫六-低、妊神星-高  液态空气: 土卫四-低、冥卫一-中、巴纳德E-高
 
 #Quest_1744.Chemical lesson part two
 gtnh.quest1744.name=化学课第二部分
@@ -7155,6 +7155,18 @@ gtnh.quest1787.desc=装配线的合成表一向令人**痛苦. 扫描物品,打�
 #Quest_1788.Some refreshing milk for that radiation sickness?
 gtnh.quest1788.name=治疗辐射的新鲜牛奶？
 gtnh.quest1788.desc=你最好习惯处理辐射材料.忘记保护你自己会导致一堆讨厌的辐射debuff,那会很容易就杀死你.然而美味的牛提取物————牛奶,包含特殊的治疗能力,完全消除大多数负面效果.申请奖励然后试试它,或许同时搭配些曲奇效果更佳？
+
+#Quest_1789.Factory Iron Door
+gtnh.quest1789.name=工厂的铁门
+gtnh.quest1789.desc=你的新工厂需要铁门.当然合成表真的很难,而且需要钢. 如果你愿意的话,你可以选择额外的两个门作为奖励.
+
+#Quest_1790.Wooden Door
+gtnh.quest1790.name=木门
+gtnh.quest1790.desc=你的新家需要木门.当然合成表真的很难,而且需要铁/铜和大量的木头. 如果你愿意的话,你可以选择额外的两个门作为奖励.
+
+#Quest_1791.Oilsand or how you get heavy Oil
+gtnh.quest1791.name=油砂或是别的什么获得重油的方式
+gtnh.quest1791.desc=油砂是获得原油、重油的另一种方式.可能你很幸运,在沙漠里找到了油砂矿脉.使用你的离心机,你可以从油砂中获得重油和沙子. 油砂矿脉可以在Y=50-80找到.
 
 ##################################Line##################################
 
