@@ -1309,7 +1309,7 @@ recipes.addShaped(<IC2:blockChargepad:3>, [
 recipes.addShaped(<IC2:blockChargepad:2>, [
 [<ore:screwAluminium>, <minecraft:heavy_weighted_pressure_plate>, <ore:screwAluminium>],
 [<ore:circuitAdvanced>, <IC2:blockElectric:1>, <ore:circuitAdvanced>],
-[<ore:itemCasingAluminium> * 1, <ore:craftingToolScrewdriver>, <ore:itemCasingAluminium>]]);
+[<ore:itemCasingAluminium>, <ore:craftingToolScrewdriver>, <ore:itemCasingAluminium>]]);
 
 // --- Charge Pad CESU
 recipes.addShaped(<IC2:blockChargepad:1>, [
