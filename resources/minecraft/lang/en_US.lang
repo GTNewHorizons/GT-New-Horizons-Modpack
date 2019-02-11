@@ -1,4 +1,4 @@
-#################################Quests#################################
+﻿#################################Quests#################################
 
 #Quest_0.Your first night
 gtnh.quest0.name=Your first night
@@ -1848,8 +1848,8 @@ gtnh.quest460.desc=Triggers after you craft a Vortex.
 gtnh.quest461.name=Trigger The End Dim
 gtnh.quest461.desc=Triggers if you arrived at The End.
 
-#Quest_462.Trigger Amorphic Crystal
-gtnh.quest462.name=Trigger Amorphic Crystal
+#Quest_462.Trigger Amorphic Catalyst
+gtnh.quest462.name=Trigger Amorphic Catalyst
 gtnh.quest462.desc=Triggers if you craft the Catalyst.
 
 #Quest_463.Runes tier 2
@@ -7332,8 +7332,8 @@ gtnh.quest1831.desc=To build a Windmill you will need a Dispenser, but that item
 gtnh.quest1832.name=Grinding with Wind
 gtnh.quest1832.desc=The Windmill is a grinder that uses the force of wind to macerate Items and Blocks. It is pretty slow and won't macerate ores well. You will only get one crushed Ore from it. However it does give you a bonus when you try to macerate other things. That bonus depends on the Item inserted, for example Netherrack has a chance to give two instead of one dust and Wheat will always give one and a quarter flour.\n\nThe dispensers replace a clay block in the walls. Put anything you like in the interior - a bed, stairs, torches, etc.\n\nNormal multiblock rules apply - do not cross chunk boundaries with this multiblock.
 
-#Quest_1833.Upgrade #6: Upgrade tier 9 - Awakened Draconium Coils
-gtnh.quest1833.name=Upgrade #6: Upgrade tier 9 - Awakened Draconium Coils
+#Quest_1833.Upgrade #8: Upgrade tier 9 - Awakened Draconium Coils
+gtnh.quest1833.name=Upgrade #8: Upgrade tier 9 - Awakened Draconium Coils
 gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys or Infinity need more than 12000K. Upgrade your EBF to 15000k.
 
 #Quest_1834.Mushroom Biomes ? why there so many?
@@ -7354,7 +7354,7 @@ gtnh.quest1837.desc=Ironwood is much harder and durable material than you imagin
 
 #Quest_1838.Low on Sticks?
 gtnh.quest1838.name=Low on Sticks?
-gtnh.quest1838.desc=If you stay in the Twilight Forest you will found the Canopy Tree. This big tree generates alot of logs for your Coke ovens and some roots when plantet which give sticks. Be carful that no building or chest right beside the Tree otherwise the root replace it.
+gtnh.quest1838.desc=If you stay in the Twilight Forest you will found the Canopy Tree. This big tree generates a lot of logs for your Coke ovens and some roots when plantet which give sticks. Be carful that no building or chest right beside the Tree otherwise the root replace it.
 
 #Quest_1839."Oh magic" armor
 gtnh.quest1839.name="Oh magic" armor
@@ -7478,11 +7478,11 @@ gtnh.quest1868.desc=Mv Energy hatches need ultra low power ICs. Go and craft som
 
 #Quest_1869.Hydrogen, methane or some farts... (Natural gas) MV 
 gtnh.quest1869.name=Hydrogen, methane or some farts... (Natural gas) MV 
-gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combusion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMv Gasturbines have a 90% fuel efficiency.
+gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combustion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMv Gas turbines have a 90% fuel efficiency.
 
 #Quest_1870.Diesel, oil or maybe creosote? MV
 gtnh.quest1870.name=Diesel, oil or maybe creosote? MV
-gtnh.quest1870.desc=You probably collected a ton of creosote and maybe even have built your first 'electric' blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.\n\nCombustion Gnerators have a 90% fuel efficiency.
+gtnh.quest1870.desc=You probably collected a ton of creosote and maybe even have built your first 'electric' blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.\n\nMV Combustion Gnerators have a 90% fuel efficiency.
 
 #Quest_1871.Field Generator I
 gtnh.quest1871.name=Field Generator I
@@ -7510,7 +7510,7 @@ gtnh.quest1876.desc=To get UU Ampflifier out of you scrap you need a Amplificato
 
 #Quest_1877.UU Matter
 gtnh.quest1877.name=UU Matter
-gtnh.quest1877.desc=To get UU Ampflifier out of you scrap you need a Amplificator. You can't make UU Mater before HV so its a good time to start with it now.\nThe downside is you can't build a Hv one so build a lv one and powering with 8 amps to grt your fist uu.\nIf you not have a field generator now go to the quest and build some.
+gtnh.quest1877.desc=To get UU Matter you need a Mass Fabricator.\nThe downside is you can't build a Hv one so build a lv one and powering with 8 amps to get your first uu matter.\nIf you not have a field generator now go to the quest and build some.
 
 #Quest_1878.Data Orbs
 gtnh.quest1878.name=Data Orbs
@@ -7518,7 +7518,7 @@ gtnh.quest1878.desc=Data Orbs are high tier data sticks for replicate materials 
 
 #Quest_1879.Create new material out of pure energy
 gtnh.quest1879.name=Create new material out of pure energy
-gtnh.quest1879.desc=Replicate material out of pure energy. You need to scan your elemets first like Hydrogen, Iron, Gold etc and save them on a Data Orb. Later on you can user your replicator to copy this item.
+gtnh.quest1879.desc=Replicate material out of pure energy. You need to scan your elemets first like Hydrogen, Iron, Gold etc and save them on a Data Orb. Later on you can use your replicator to copy this item.
 
 #Quest_1880.Field Generator II
 gtnh.quest1880.name=Field Generator II
