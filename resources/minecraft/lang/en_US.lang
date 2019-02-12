@@ -6814,7 +6814,7 @@ gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrade and Ch
 
 #Quest_1703.Potassium Nitrate
 gtnh.quest1703.name=Potassium Nitrate
-gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and nitric acid.
+gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and ammonia.
 
 #Quest_1704.Chromium Trioxide
 gtnh.quest1704.name=Chromium Trioxide
@@ -7478,7 +7478,7 @@ gtnh.quest1868.desc=Mv Energy hatches need ultra low power ICs. Go and craft som
 
 #Quest_1869.Hydrogen, methane or some farts... (Natural gas) MV 
 gtnh.quest1869.name=Hydrogen, methane or some farts... (Natural gas) MV 
-gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combustion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMv Gas turbines have a 90% fuel efficiency.
+gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combustion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMV Gas turbines have a 90% fuel efficiency.
 
 #Quest_1870.Diesel, oil or maybe creosote? MV
 gtnh.quest1870.name=Diesel, oil or maybe creosote? MV
@@ -7510,7 +7510,7 @@ gtnh.quest1876.desc=To get UU Ampflifier out of you scrap you need a Amplificato
 
 #Quest_1877.UU Matter
 gtnh.quest1877.name=UU Matter
-gtnh.quest1877.desc=To get UU Matter you need a Mass Fabricator.\nThe downside is you can't build a Hv one so build a lv one and powering with 8 amps to get your first uu matter.\nIf you not have a field generator now go to the quest and build some.
+gtnh.quest1877.desc=Next you will need a Mass Fabricator to make UU matter. This matter can be used make more things.\n\nThe downside is you can\u0027t build an HV one right now. Build an LV one and power it with 8 amps of LV to get your first UU matter. Watch your voltage levels and currents!\n\nIf you do not have a field generator, go do the tetrafluoroethylene quest and build some.  \n\nFor now, just stockpile the UU matter.
 
 #Quest_1878.Data Orbs
 gtnh.quest1878.name=Data Orbs
