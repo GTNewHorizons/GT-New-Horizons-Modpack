@@ -1,4 +1,4 @@
-#################################Quests#################################
+﻿#################################Quests#################################
 
 #Quest_0.Your first night
 gtnh.quest0.name=你的第一个夜晚
@@ -375,6 +375,7 @@ gtnh.quest92.desc=第四种你非常需要的东西,而且它合成起来令人�
 #Quest_93.You're gonna hate this #2
 gtnh.quest93.name=你会讨厌它们的#2
 gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它. 提示:可用于管道或GT机器.使用螺丝刀进行调整.无法用于机器正面.当机器或管道装上覆盖版后,如果使用扳手拆除后,覆盖版将会保留在其中.当此机器或管道再次被放置后,覆盖版将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖版,然后再放置于比较狭小不便操作的位置.要移除覆盖版,需要使用撬棍.  它还可以进一步升级为可以精确控制流体传输速度的流体校准器.
+
 #Quest_94.Electric macerator
 gtnh.quest94.name=电力粉碎机
 gtnh.quest94.desc=强烈推荐做一个,因为在消耗煤/蒸汽方面,使用电力时研磨东西的效率要高得多.
@@ -1847,7 +1848,7 @@ gtnh.quest460.desc=制作漩涡后触发.
 gtnh.quest461.name=触发末地时刻
 gtnh.quest461.desc=如果你在末地,就会触发.
 
-#Quest_462.Trigger Amorphic Crystal
+#Quest_462.Trigger Amorphic Catalyst
 gtnh.quest462.name=触发无序催化剂
 gtnh.quest462.desc=如果你制作这种催化剂就会触发.
 
@@ -2969,15 +2970,15 @@ gtnh.quest741.desc=终于,你得到了第一个铝锭.现在该制作一个工�
 
 #Quest_742.One Block mining is so Old School
 gtnh.quest742.name=一格一格挖矿已经过气了
-gtnh.quest742.desc=制作一把钢锤子,你就可以一次挖3x3范围的矿.在下界小心点,因为一不小心你就会被岩浆煮熟.
+gtnh.quest742.desc=制作一柄大锤,你就可以一次挖3x3范围的矿.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  你需要一个锤头、两个大板、一个坚韧手柄来制造一柄大锤.  在下界小心点,因为一不小心你就会被岩浆煮熟.
 
 #Quest_743.Cutting a Tree log by log is so Old School
 gtnh.quest743.name=一次砍一个原木已经过气了
-gtnh.quest743.desc=制作一把钢伐木斧,你就可以一次砍掉一整棵树.当你砍掉一棵神圣橡木时,别忘了你的背包.
+gtnh.quest743.desc=制作一把伐木斧,你就可以一次砍掉一整棵树.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  当你砍掉一棵神圣橡木时,别忘了带上你的背包.
 
 #Quest_744.Mining Dirt Block by Block is so Old School
 gtnh.quest744.name=慢慢挖土已经过气了
-gtnh.quest744.desc=制作一把钢铲,你就可以一次挖3x3范围的土.别不小心毁了你的整个花园.
+gtnh.quest744.desc=制作一把挖掘铲,你就可以一次挖3x3范围的土.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  别不小心毁了你的整个花园.
 
 #Quest_745.Glue
 gtnh.quest745.name=胶水
@@ -4035,7 +4036,6 @@ gtnh.quest1007.desc=把那些512EU的太阳能板制造成方块,这样他们能
 gtnh.quest1008.name=书
 gtnh.quest1008.desc=你可以很容易的在村庄或者有着砖块屋顶的地牢里面找到书. 不过我可以告诉你书的合成表.  现在,胶水在你的手上...或者说在马身上？试着将一匹马放到冶炼炉中,并喂给它一些干草保证它存活.(动物保护者协会表示强烈谴责)
 
-
 #Quest_1009.Fish trapping 2.0
 gtnh.quest1009.name=捕鱼陷阱2.0
 gtnh.quest1009.desc=钓鱼真的很无聊.那为什么不用捕鱼机来自动捕鱼呢？ 那么来做一个2.0版本的捕鱼陷阱吧！不需要鱼饵呦~~~
@@ -4056,7 +4056,7 @@ gtnh.quest1012.desc=想要得到钛你首先需要得到一些金红石. 金红�
 gtnh.quest1013.name=贴片电路元件
 gtnh.quest1013.desc=SMD(Surface-mount devices意为:表面贴装机件)是一种更先进的电子零件. 在生产高级电路板的时候你需要用到它们.并且它们要比基础的电容、晶体管、二极管、电阻便宜. 要生产这些零件,你首先需要一个高级的组装机和一些熔融聚乙烯.  建议你检查下自己还有多少镓存货.现在使用贴片二极管和贴片电阻并不划算,除非你有一台高压粉碎机、蜜蜂或是铝土矿. 使用IC相应杂交产物可以让你的锌、闪锌和铝土拥有4倍产出.  获取铂最容易的方式是化学浸洗粉碎镍矿石.
 
-#Quest_1014.Workstation Extreme Curcuit
+#Quest_1014.Workstation Extreme Circuit
 gtnh.quest1014.name=工作站电路板
 gtnh.quest1014.desc=下一级是高级电路. 工作站是最简单的高级电路,它可以用来制造EV级别的机器. 让我们来生产一些！
 
@@ -4624,9 +4624,9 @@ gtnh.quest1154.desc=镁铝合金制作的弹药要比过去的弹药好很多. �
 gtnh.quest1155.name=基础流体固化机
 gtnh.quest1155.desc=如果你想让液体变成固体那么你就需要液体固化机.这台机器也可以用于制作弩箭的箭头.
 
-#Quest_1156.Iron Tipped Bolts
-gtnh.quest1156.name=铁弩箭
-gtnh.quest1156.desc=光有十字弓还不够,我们还需要一些弹药.让我们来制作一些木柄铁头的弩箭.
+#Quest_1156.Wooden Bolts
+gtnh.quest1156.name=铁质弩箭
+gtnh.quest1156.desc=光有弩还不够,我们还需要一些弹药.让我们来制作一些木质弩箭.现在你可以用冶炼炉熔炼铁、钢或者铝装上你的箭头.  更高阶的弩箭和箭头制造需要用到流体固化器,将你想要用的金属泵入流体固化器吧.
 
 #Quest_1157.Rubber Soft Mallet
 gtnh.quest1157.name=橡胶软锤
@@ -6176,9 +6176,9 @@ gtnh.quest1542.desc=作物监管机是一台LV机器,可以监控9x9x3区域的�
 gtnh.quest1543.name=除草剂
 gtnh.quest1543.desc=除草剂以作物质量为代价防止杂草在空作物架上生长. 它对作物质量的损害是永久性的,并且不能逆转,除非完全移除作物. 用途:当手持除草剂时,右键单击作物架以使用它. 它也可以放置在作物监管机中,自动将其应用于作物. 过度使用将降低作物质量,将其统计数据限制在10以内.
 
-#Quest_1544.Fish Oil
-gtnh.quest1544.name=鱼油
-gtnh.quest1544.desc=为了生产生物柴油,你需要生产一些种子油或者是鱼油,将他们和甲醇或者乙醇搅拌就可以得到生物柴油. 因此你需要一个能快速从种子中压榨出种子油的机器,嗯...进阶流体提取机就不错.
+#Quest_1544.Seed/Fish Oil
+gtnh.quest1544.name=种子油,鱼油
+gtnh.quest1544.desc=为了生产生物柴油,你需要生产一些种子油或者是鱼油,将他们和甲醇或者乙醇搅拌就可以得到生物柴油. 因此你需要一个能快速从种子中压榨出种子油的机器,嗯...进阶流体提取机就不错.  潘马斯农场的花生就是种子油的良好来源.  你也可以选择林业的核桃,或者IC作物油菜.  你也可以看看捕鱼,农业,烹饪任务栏,抓些鱼来提取鱼油也是不错的选择.
 
 #Quest_1545.Time to ore drill!
 gtnh.quest1545.name=钻矿时间！
@@ -6546,7 +6546,7 @@ gtnh.quest1635.desc=是时候构建一个简单的系统来存储你的东西. �
 
 #Quest_1636.Desulfuring oil automation
 gtnh.quest1636.name=石油脱硫自动化
-gtnh.quest1636.desc=该任务线将向你展示如何自动脱硫石油产品. 一旦解锁了LV蒸馏室的任务并拥有一些聚乙烯板,就回到这里.
+gtnh.quest1636.desc=该任务线将向你展示如何自动脱硫石油产品. 一旦解锁了LV蒸馏室的任务并拥有一些聚乙烯片,就回到这里.
 
 #Quest_1637.Storing the fluids
 gtnh.quest1637.name=储存液体
@@ -6786,7 +6786,7 @@ gtnh.quest1695.desc=在IV化学反应釜中将3,3-二氯联苯胺与氨和锌搅
 
 #Quest_1696.IV Chemical reactor
 gtnh.quest1696.name=IV化学反应釜
-gtnh.quest1696.desc=高级化学配方需要高级IV化学反应釜.
+gtnh.quest1696.desc=高级化学配方需要高级IV化学反应釜.  或者你也可以给你的大型化学反应釜换上IV能源仓.
 
 #Quest_1697.Polybenzimidazole finally
 gtnh.quest1697.name=最后--聚苯并咪唑
@@ -7466,7 +7466,7 @@ gtnh.quest1865.desc=需要末影珍珠?杀戮末影人来获取珍珠实在是�
 
 #Quest_1866.Options for finding aluminuim at this age
 gtnh.quest1866.name=在这个阶段找到铝
-gtnh.quest1866.desc=在旧的服务器或是非洲人的世界种子里,可能很难找到铝矿沙砾.铝矿沙砾的替代品是种植铝矿莓(冶炼炉任务的奖励) 在宝箱中寻找铝锭 经验桶  当你到达LV阶段,你能电解蓝宝石,或是离心各种矿石获取铝.查查NEI吧.
+gtnh.quest1866.desc=在旧的服务器或是非洲人的世界种子里,可能很难找到铝矿沙砾.铝矿沙砾的替代品是种植铝矿莓(冶炼炉任务的奖励) 在宝箱中寻找铝锭 经验桶  当你到达LV阶段,你能电解蓝宝石,或是离心各种矿石获取少量铝.查查NEI吧.
 
 #Quest_1867.MV Motor
 gtnh.quest1867.name=MV马达
@@ -7490,21 +7490,21 @@ gtnh.quest1871.desc=力场发生器是一种强大的设备.它将用于合成�
 
 #Quest_1872.Vinyl Chloride
 gtnh.quest1872.name=氯乙烯
-gtnh.quest1872.desc=氯乙烯是制作先进的PVC物品管道的基础产品.PVC物品管道用于合成LuV机器或超级缸的密封机械方块.
+gtnh.quest1872.desc=氯乙烯是制作先进的PVC物品管道的基础产品.PVC物品管道用于合成LuV机器或超级缸II的密封机械方块.
 
 #Quest_1873.Poly Vinyl Chloride
 gtnh.quest1873.name=聚氯乙烯
 gtnh.quest1873.desc=聚氯乙烯是熔融状态的PVC(Poly-Vinyl-Chloride).  你需要氯乙烯和氧气来制备聚氯乙烯.
 
-#Quest_1874.PVC Plates
+#Quest_1874.PVC Sheets
 gtnh.quest1874.name=聚氯乙烯片
-gtnh.quest1874.desc=聚氯乙烯片只用于合成PVC物品管道.
+gtnh.quest1874.desc=聚氯乙烯片可用于合成不错的PVC物品管道,也能用于制造电路板.
 
 #Quest_1875.Recycler
 gtnh.quest1875.name=回收机
 gtnh.quest1875.desc=如果你有许多木头、树苗、泥土或石头,循环利用它们吧,你能得到废料.稍后你可以用废料制造UU-A,这样就降低你制造UU-M的消耗. 而要获得废料,你需要一台回收机.
 
-#Quest_1876.Advanced Aplificator
+#Quest_1876.Advanced Amplifabricator
 gtnh.quest1876.name=UU增幅液生产器
 gtnh.quest1876.desc=想要用废料生产UU增幅液(UU-A),你需要一台UU增幅液生产器.在HV之前,你不能制造UU物质(UU-M),所以先制造UU增幅液吧.
 
@@ -7518,11 +7518,43 @@ gtnh.quest1878.desc=数据球是高阶的闪存,用于记录复制信息或是�
 
 #Quest_1879.Create new material out of pure energy
 gtnh.quest1879.name=用纯能量创造新材料
-gtnh.quest1879.desc=用纯能量复制出材料.首先你需要扫描你的元素,比如氢、铁、金等,并将数据存储在数据球中.稍后你可以用你的复制机消耗UU物质复制出这个元素.
+gtnh.quest1879.desc=用纯能量复制出材料.首先你需要扫描你的元素,比如氢、铁、金等,并将数据存储在数据球中.稍后你可以用你的复制机消耗UU物质复制出扫描的元素.
 
 #Quest_1880.Field Generator II
 gtnh.quest1880.name=力场发生器 II
 gtnh.quest1880.desc=力场发生器是一种强大的设备.它将用于合成高阶储罐、箱子、质量发生器或传送机.  复制机也需要它.如果你还没有解锁钨钢,寻找关于它的任务然后制造一批吧.
+
+#Quest_1881.Clay for pennies
+gtnh.quest1881.name=硬币换粘土
+gtnh.quest1881.desc=找不到粘土?用一些硬币换一组吧.
+
+#Quest_1882.Tired of grinding reeds?
+gtnh.quest1882.name=厌倦了研磨甘蔗?
+gtnh.quest1882.desc=拿些硬币来跟我换点纸屑吧.
+
+#Quest_1883.Glassy eyed
+gtnh.quest1883.name=目光呆滞
+gtnh.quest1883.desc=...制作玻璃粉太费力了?跟我交换点吧.
+
+#Quest_1884.Shhh, don't tell 0lafe...
+gtnh.quest1884.name=嘘,别告诉0lafe...
+gtnh.quest1884.desc=这里的捕鱼者便宜卖啦!
+
+#Quest_1885.Wood for sheep?
+gtnh.quest1885.name=木头换羊?
+gtnh.quest1885.desc=不,谢谢! 但用些硬币和原木换些作物架是笔不错的买卖?
+
+#Quest_1886.Manure for fertilizer
+gtnh.quest1886.name=肥料,肥料
+gtnh.quest1886.desc=我是说,你还打算怎么处理这些垃圾呢?
+
+#Quest_1887.Electric Furnace
+gtnh.quest1887.name=电炉
+gtnh.quest1887.desc=这个任务是Shawnbyday建议添加的.如果你有一个LV机器外壳、两个电路板和一些备用线缆,那就做一个吧.
+
+#Quest_1888.Repairing your Hazmat Suit
+gtnh.quest1888.name=修理你的防化服
+gtnh.quest1888.desc=穿着防化服的时候得小心.它的耐久不高.  在你进入LV时代能制作一套新的之前,你可以在这里修理你的防化服.
 
 ##################################Line##################################
 

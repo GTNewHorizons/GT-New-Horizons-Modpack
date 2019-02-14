@@ -1,4 +1,4 @@
-﻿#################################Quests#################################
+#################################Quests#################################
 
 #Quest_0.Your first night
 gtnh.quest0.name=Your first night
@@ -2970,15 +2970,15 @@ gtnh.quest741.desc=Finally you get your first alumite. Now it's time to craft a 
 
 #Quest_742.One Block mining is so Old School
 gtnh.quest742.name=One Block mining is so Old School
-gtnh.quest742.desc=By making a steel hammer you are now able to mine a shaft of 3x3 blocks. Be careful in the Nether or you could be boiled in lava very quickly.
+gtnh.quest742.desc=By making a hammer you are now able to mine a shaft of 3x3 blocks. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder.  You'll need a hammer head,two large plates and a large rod for your hammer.  Be careful in the Nether or you could be boiled in lava very quickly.
 
 #Quest_743.Cutting a Tree log by log is so Old School
 gtnh.quest743.name=Cutting a Tree log by log is so Old School
-gtnh.quest743.desc=By making a steel lumber axe you are now able to cut down the entire tree in one hit. Don't forget your backpack when you are cutting a sacred oak tree down.
+gtnh.quest743.desc=By making a lumber axe you are now able to cut down the entire tree in one hit. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder.   Don't forget your backpack when you are cutting a sacred oak tree down.
 
 #Quest_744.Mining Dirt Block by Block is so Old School
 gtnh.quest744.name=Mining Dirt Block by Block is so Old School
-gtnh.quest744.desc=By making a steel excavator you are now able to mine dirt in a 3x3 area. Don't destroy your whole garden.
+gtnh.quest744.desc=By making an excavator you are now able to mine dirt in a 3x3 area. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. \nHigher tier metals require the MV extruder.  Don't destroy your whole garden.
 
 #Quest_745.Glue
 gtnh.quest745.name=Glue
@@ -3070,7 +3070,7 @@ gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil 
 
 #Quest_767.Analyzing the soil
 gtnh.quest767.name=Analyzing the soil
-gtnh.quest767.desc=Tired of looking for ores by hand? Want to find deep oil that will last a long time? A seismic prospector will tell you the ores in the surrounding chunk in a handy book you can read, and also the oil in the oilfields beneath each 8x8 chunks.\n\nTo determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking an Advanced Seismic Prospector with 2 Powderbarrels, 4 Glyceryl Trinitate cells, 8 TNT or 16 TNT.  Make sure you wait a few seconds after placing the prospector before applying the explosives.\n\nThen use a Data Stick to extract the data by right clicking on it after the animation has finished.\n\nNow you need to put the analyzed data stick in a GT scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have at least 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed pages and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don't assemble more than one book at time.\n\nTADA now you have a book with detailed info about the chunks you scanned.\n\nNote: Each oilfield is 8x8 chunks, and always on a by 8 chunk boundary. Within the field the amount can vary +- 25 percent. The amount reported in the book is the minimum and maximum per oilfield across all chunks in the field. The prospector reports on 3x3 oil fields at all tiers with the center oil field where the seismic prospector is located. Oil extraction rate depends on many factors, check the wiki for details. In general, anything above 300 is really good. The total amount in the chunk is complicated. \n\nOre locations are given as the center of the chunk. Ores that are marginal in that chunk may not be found in the center but on an edge. Look at where ores are located and determine the center of the vein. At higher tiers, it scans more chunks for ores.
+gtnh.quest767.desc=Tired of looking for ores by hand? Want to find deep oil that will last a long time? A seismic prospector will tell you the ores in the surrounding chunk in a handy book you can read, and also the oil in the oilfields beneath each 8x8 chunks.\n\nTo determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking an Advanced Seismic Prospector with 2 Powderbarrels, 4 Glyceryl Trinitate cells, 8 iTNT or 16 TNT.  Make sure you wait a few seconds after placing the prospector before applying the explosives.\n\nThen use a Data Stick to extract the data by right clicking on it after the animation has finished.\n\nNow you need to put the analyzed data stick in a GT scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have at least 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed pages and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don't assemble more than one book at time.\n\nTADA now you have a book with detailed info about the chunks you scanned.\n\nNote: Each oilfield is 8x8 chunks, and always on a by 8 chunk boundary. Within the field the amount can vary +- 25 percent. The amount reported in the book is the minimum and maximum per oilfield across all chunks in the field. The prospector reports on 3x3 oil fields at all tiers with the center oil field where the seismic prospector is located. Oil extraction rate depends on many factors, check the wiki for details. In general, anything above 300 is really good. The total amount in the chunk is complicated. \n\nOre locations are given as the center of the chunk. Ores that are marginal in that chunk may not be found in the center but on an edge. Look at where ores are located and determine the center of the vein. At higher tiers, it scans more chunks for ores.
 
 #Quest_768.You smell like a distillery!
 gtnh.quest768.name=You smell like a distillery!
@@ -4056,8 +4056,8 @@ gtnh.quest1012.desc=Rutile can be thermal centrifuged out of bauxite and ilmenit
 gtnh.quest1013.name=SMD Circuit components
 gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.\n\nThe easiest way to get Platinum is with Nickel ore and a chemical bath.
 
-#Quest_1014.Workstation Extreme Curcuit
-gtnh.quest1014.name=Workstation Extreme Curcuit
+#Quest_1014.Workstation Extreme Circuit
+gtnh.quest1014.name=Workstation Extreme Circuit
 gtnh.quest1014.desc=The next tier of circuits are the extreme circuits. Workstation Circuits are the easiest one and are needed in EV Tier. Let's craft some.
 
 #Quest_1015.Empty Plastic Board
@@ -4624,9 +4624,9 @@ gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.\
 gtnh.quest1155.name=Basic Fluid Solidifier
 gtnh.quest1155.desc=To get your molten fluids back to a solid state you need a fluid solidifier. It is used for crossbow bolts as well.
 
-#Quest_1156.Iron Tipped Bolts
-gtnh.quest1156.name=Iron Tipped Bolts
-gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts with an iron tip. You'll need to pump smeltery iron into a fluid solidifier.
+#Quest_1156.Wooden Bolts
+gtnh.quest1156.name=Wooden Bolts
+gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, alumite, or steel on the tip of your bolts using the Smeltery.  For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.
 
 #Quest_1157.Rubber Soft Mallet
 gtnh.quest1157.name=Rubber Soft Mallet
@@ -6176,9 +6176,9 @@ gtnh.quest1542.desc=The Crop-Matron is a LV machine that will monitor crops in a
 gtnh.quest1543.name=Weed Ex
 gtnh.quest1543.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of crop quality. Damage to the crop's quality is permanent and cannot be reversed, aside from complete removal.\n\nUsage:\nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop-Matron to automatically apply it to your crops. Overuse will reduce crop quality, capping their stats at 10.
 
-#Quest_1544.Fish Oil
-gtnh.quest1544.name=Fish Oil
-gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil and fish produce fish oil when placed in a fluid extractor.
+#Quest_1544.Seed/Fish Oil
+gtnh.quest1544.name=Seed/Fish Oil
+gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil and fish produce fish oil when placed in a fluid extractor. \n\nPam's peanuts are a good seed oil source.  Another option is Forestry Butternuts. Or you can use IC2 crops to get Rapeseed.\n\nLook under Fishing Farming Cooking tab for fish catching options.
 
 #Quest_1545.Time to ore drill!
 gtnh.quest1545.name=Time to ore drill!
@@ -6546,7 +6546,7 @@ gtnh.quest1635.desc=Time to build a simple system to store your stuff. Place dow
 
 #Quest_1636.Desulfuring oil automation
 gtnh.quest1636.name=Desulfuring oil automation
-gtnh.quest1636.desc=This quest line will show you how to automated desulfuring of oil products. Return here once you have unlocked the LV distillery quest and have some polyethylene plates.
+gtnh.quest1636.desc=This quest line will show you how to automate desulfuring of oil products. Return here once you have unlocked the LV distillery quest and have some polyethylene plates.
 
 #Quest_1637.Storing the fluids
 gtnh.quest1637.name=Storing the fluids
@@ -6786,7 +6786,7 @@ gtnh.quest1695.desc=Mixing 3,3 Dichlorobenzidine with Ammonia and Zinc in an IV 
 
 #Quest_1696.IV Chemical reactor
 gtnh.quest1696.name=IV Chemical reactor
-gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.
+gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.\nAlternative you can use your Large Chemical Rector with iv hatches.
 
 #Quest_1697.Polybenzimidazole finally
 gtnh.quest1697.name=Polybenzimidazole finally
@@ -6814,7 +6814,7 @@ gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrade and Ch
 
 #Quest_1703.Potassium Nitrate
 gtnh.quest1703.name=Potassium Nitrate
-gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and ammonia.
+gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and nitric acid.
 
 #Quest_1704.Chromium Trioxide
 gtnh.quest1704.name=Chromium Trioxide
@@ -7466,63 +7466,95 @@ gtnh.quest1865.desc=Need enderpearls? Getting them by killing endermen can be da
 
 #Quest_1866.Options for finding aluminuim at this age
 gtnh.quest1866.name=Options for finding aluminuim at this age
-gtnh.quest1866.desc=It can be hard to find aluminium gravel ores on old servers, or unlucky world seeds. Alternative to aluminium gravel ores are\n\nPlanting the Aluminium  ore berries from the Smeltery quest\nSearching for Aluminium bars in chests\nXP buckets\n\nOnce you reach LV, you can electrolyze Sapphires and find small quantities with centrifuging various ores. Check NEI.
+gtnh.quest1866.desc=It can be hard to find aluminium gravel ores on old servers, or unlucky world seeds. Alternative to aluminium gravel ores are\n\n- Planting the Aluminium  ore berries from the Smeltery quest\n- Searching for Aluminium bars in chests\nXP buckets\n\nOnce you reach LV, you can electrolyze Sapphires and get small quantities from centrifuging various ores. Check NEI.
 
 #Quest_1867.MV Motor
 gtnh.quest1867.name=MV Motor
-gtnh.quest1867.desc=Most machines in mv need a motor as well. If you not build a polariser allready go back to Tier 2 Quests and craft some. Motors need magnetic steel rods and alu rods, 2x cupronickel wires and copper cables.
+gtnh.quest1867.desc=Most machines in MV need a motor as well. If you have not built a polarizer already, go back to Tier 2 Quests and craft one. Motors need magnetic steel rods and alu rods, 2x cupronickel wires and copper cables.
 
 #Quest_1868.Ultra Low Power IC
 gtnh.quest1868.name=Ultra Low Power IC
-gtnh.quest1868.desc=Mv Energy hatches need ultra low power ICs. Go and craft some.
+gtnh.quest1868.desc=MV Energy hatches need ultra low power ICs. Go and craft some.
 
 #Quest_1869.Hydrogen, methane or some farts... (Natural gas) MV 
 gtnh.quest1869.name=Hydrogen, methane or some farts... (Natural gas) MV 
-gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combustion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMV Gas turbines have a 90% fuel efficiency.
+gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combustion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMV Gas Turbines have a 90 percent fuel efficiency.
 
 #Quest_1870.Diesel, oil or maybe creosote? MV
 gtnh.quest1870.name=Diesel, oil or maybe creosote? MV
-gtnh.quest1870.desc=You probably collected a ton of creosote and maybe even have built your first 'electric' blast furnace. creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.\n\nMV Combustion Gnerators have a 90% fuel efficiency.
+gtnh.quest1870.desc=You probably collected a ton of creosote and maybe even have built your first Electric Blast Furnace. Creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.\n\nAdvanced Combustion Gnerators have a 90 percent fuel efficiency.
 
 #Quest_1871.Field Generator I
 gtnh.quest1871.name=Field Generator I
-gtnh.quest1871.desc=Field Generators are powerful devices. It will be used in high tier Tanks, Chests, in the Matter Production or in Teleporters.
+gtnh.quest1871.desc=Field Generators are powerful devices. It will be used in high tier Tanks, Chests, in UU Matter Production or in Teleporters.
 
 #Quest_1872.Vinyl Chloride
 gtnh.quest1872.name=Vinyl Chloride
-gtnh.quest1872.desc=Vinyl Chlorine is the base product for making PVC for advanced pipes. This Pipes are needed in Luv machines or the hermetic Casings for super Tanks.
+gtnh.quest1872.desc=Vinyl Chloride is the base product for making PVC for advanced pipes. These Pipes are needed in LuV machines or the Hermetic Casings for Super Tank II's.
 
 #Quest_1873.Poly Vinyl Chloride
 gtnh.quest1873.name=Poly Vinyl Chloride
-gtnh.quest1873.desc=Polyvenyl Chloride is fluid PVC which can be used for the PVC Pipes.\nYou need Vinylchloride and Oxygen to make it.
+gtnh.quest1873.desc=Polyvinyl Chloride is PVC which can be used for the PVC Pipes.\nYou need Vinyl Chloride and Oxygen to make it.
 
-#Quest_1874.PVC Plates
-gtnh.quest1874.name=PVC Plates
-gtnh.quest1874.desc=PVC Plates are only good for Pipes.
+#Quest_1874.PVC Sheets
+gtnh.quest1874.name=PVC Sheets
+gtnh.quest1874.desc=PVC Sheets make good item pipes, and can also be used for circuit boards.
 
 #Quest_1875.Recycler
 gtnh.quest1875.name=Recycler
 gtnh.quest1875.desc=If you have to much wood, saplings, dirt or stone just recycle it and get scrap. Later on you can use it for uu amplifier to make uu matter cheaper.\nFor this you need a recycler.
 
-#Quest_1876.Advanced Aplificator
-gtnh.quest1876.name=Advanced Aplificator
-gtnh.quest1876.desc=To get UU Ampflifier out of you scrap you need a Amplificator. You can't make UU Mater before HV so its a good time to start with it now.
+#Quest_1876.Advanced Amplifabricator
+gtnh.quest1876.name=Advanced Amplifabricator
+gtnh.quest1876.desc=To get UU Amplifier out of you scrap you need an Amplifabricator. You can't make UU Matter before HV so its a good time to start with it now.
 
 #Quest_1877.UU Matter
 gtnh.quest1877.name=UU Matter
-gtnh.quest1877.desc=Next you will need a Mass Fabricator to make UU matter. This matter can be used make more things.\n\nThe downside is you can\u0027t build an HV one right now. Build an LV one and power it with 8 amps of LV to get your first UU matter. Watch your voltage levels and currents!\n\nIf you do not have a field generator, go do the tetrafluoroethylene quest and build some.  \n\nFor now, just stockpile the UU matter.
+gtnh.quest1877.desc=Next you will need a Mass Fabricator to make UU matter. This matter can be used make more things.\n\nThe downside is you can't build an HV one right now. Build an LV one and power it with 8 amps of LV to get your first UU matter. Watch your voltage levels and currents!\n\nIf you do not have a field generator, go do the tetrafluoroethylene quest and build some.  \n\nFor now, just stockpile the UU matter.
 
 #Quest_1878.Data Orbs
 gtnh.quest1878.name=Data Orbs
-gtnh.quest1878.desc=Data Orbs are high tier data sticks for replicate materials or used as data storages.
+gtnh.quest1878.desc=Data Orbs are high tier data sticks to replicate materials or used as data storages.
 
 #Quest_1879.Create new material out of pure energy
 gtnh.quest1879.name=Create new material out of pure energy
-gtnh.quest1879.desc=Replicate material out of pure energy. You need to scan your elemets first like Hydrogen, Iron, Gold etc and save them on a Data Orb. Later on you can use your replicator to copy this item.
+gtnh.quest1879.desc=Replicate material out of pure energy. Scan your elements first, like Hydrogen, Iron, Gold etc, and save them on a Data Orb. Later on you can use your replicator to copy this item.
 
 #Quest_1880.Field Generator II
 gtnh.quest1880.name=Field Generator II
-gtnh.quest1880.desc=Field Generators are powerful devices. It will be used in high tier Tanks, Chests, in the Matter Production or in Teleporters.\nThe replicator needs it also. If you not unlocked Tungstensteel go to the Quest and make them first.
+gtnh.quest1880.desc=Field Generators are powerful devices. It will be used in high tier Tanks, Chests, in the Matter Production or in Teleporters.\nThe replicator needs it also. If you have not unlocked Tungstensteel go and do that now.
+
+#Quest_1881.Clay for pennies
+gtnh.quest1881.name=Clay for pennies
+gtnh.quest1881.desc=Hard to find that clay? Have a stack for some coins.
+
+#Quest_1882.Tired of grinding reeds?
+gtnh.quest1882.name=Tired of grinding reeds?
+gtnh.quest1882.desc=I can trade you some chads for coins.
+
+#Quest_1883.Glassy eyed
+gtnh.quest1883.name=Glassy eyed
+gtnh.quest1883.desc=...from all the mortars you have to use to make glass dust? Have some for trade.
+
+#Quest_1884.Shhh, don't tell 0lafe...
+gtnh.quest1884.name=Shhh, don't tell 0lafe...
+gtnh.quest1884.desc=But here is a nice quest to get cheap fish catchers!
+
+#Quest_1885.Wood for sheep?
+gtnh.quest1885.name=Wood for sheep?
+gtnh.quest1885.desc=No thanks! But how about some crop sticks for coins and logs?
+
+#Quest_1886.Manure for fertilizer
+gtnh.quest1886.name=Manure for fertilizer
+gtnh.quest1886.desc=I mean, what else are you going to do with this junk?
+
+#Quest_1887.Electric Furnace
+gtnh.quest1887.name=Electric Furnace
+gtnh.quest1887.desc=This quest was suggested by Shawnbyday. If you have a lv machine hull, two circuits and a few cables spare just craft it.
+
+#Quest_1888.Repairing your Hazmat Suit
+gtnh.quest1888.name=Repairing your Hazmat Suit
+gtnh.quest1888.desc=Be careful to ware you hazamute suit every time. The duarbility is not high. \nYou can repair your suit befor you can craft a new one in late LV Age.
 
 ##################################Line##################################
 
