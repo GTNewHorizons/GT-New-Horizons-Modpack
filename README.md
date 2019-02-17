@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.6.2 is out 13.12.2018
+Version 2.0.6.8 is out 17.02.2018
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -168,6 +168,7 @@ you find it in your resource folder<BR>
 * Avaritia 1.14custom<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
+* Bartworks 0.3.21<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -176,7 +177,7 @@ you find it in your resource folder<BR>
 * Bibliocraft 1.11.7<BR>
 * Bibliowoods 1.9/1.7/1.5<BR>
 * Binnie Mods 2.0-23<BR>
-* Biomes o Plenty 2.1.0.2308<BR>
+* Biomes o Plenty 2.1.0.2309<BR>
 * BlockLimiter 0.52<BR>
 * Blood Arsenal 1.2.7<BR>
 * BloodMagic 1.3.3.24<BR>
@@ -185,8 +186,8 @@ you find it in your resource folder<BR>
 * Buildcraft Compat 7.1.7<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks 3.3.8.1<BR>
-* Catwalk Mod 1.1.0<BR>
-* Chisel 2.5.1.44<BR>
+* Catwalk Mod 2.0.4<BR>
+* Chisel 2.9.5.11<BR>
 * Chisel Tones 1.0-3<BR>
 * Command Block BQ Mod 1<BR>
 * Compact Kinetic Generators 1.0<BR>
@@ -195,12 +196,12 @@ you find it in your resource folder<BR>
 * Crops ++ 1.3.1a<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
-* Draconic Evolution 1.0.2m<BR>
+* Draconic Evolution 1.0.2n<BR>
 * Electro Magic Tools 1.2.7.4<BR>
 * Ender IO 2.3.0.432<BR>
 * Ender Storage 1.4.7.38<BR>
 * Ender Zoo 1.0.15.32<BR>
-* Enhanced Loot Bags 1.0.2a<BR>
+* Enhanced Loot Bags 1.0.2b<BR>
 * Enhanced Portals 3 3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
 * Extra Cells 2.3.14bnightly<BR>
@@ -220,11 +221,11 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.33.04<BR>
+* Gregtech 5.09.33.10<BR>
 * GT Scanner Mod 1.5.3<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.6.04<BR>
-* GT++ 1.7.02.09<BR>
+* GT New Horizons Core Mod 1.6.07<BR>
+* GT++ 1.7.03.89<BR>
 * GTNH TC Wands 1.0.4<BR>
 * GTTweaker 1.7.0<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
@@ -232,14 +233,14 @@ you find it in your resource folder<BR>
 * Holo Inventory 1.9.1.124<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
-* IFU 1.4<BR>
+* IFU 1.5<BR>
 * IguanaTinkerTweaks 2.1.2<BR>
 * Industrial Craft 2 2.2.2.828a<BR>
 * Industrial Craft 2 Nei Plugin 1.1.0<BR>
 * Infernal Mobs 1.6.6<BR>
 * Inventory Tweaks 1.59.156<BR>
 * Iron Chest Minecarts 1.0.4<BR>
-* Iron Chests 6.0.62.745<BR>
+* Iron Chests 6.0.62.742<BR>
 * Iron Tanks 1.1.16<BR>
 * Jabba 1.2.5<BR>
 * JourneyMap 5.1.4p2<BR>
@@ -258,11 +259,11 @@ you find it in your resource folder<BR>
 * Nodal Mechanics 1.1.0-K<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks 1.6.753<BR>
-* Open Computers 1.7.3 Build 1258<BR>
+* Open Computers 1.7.4 Build 1265<BR>
 * Open Modular Turrets 2.2.10.238<BR>
 * Open Glasses 1.0.46
 * Open Printers 0.1.0.132<BR>
-* Open Security 1.0-109<BR>
+* Open Security 1.0-117<BR>
 * Pam's Harvestcraft 1.7.10-n<BR>
 * Pam's Harvestcraft Nether 1.7.10a<BR>
 * Project Blue 1.1.6<BR>
@@ -284,7 +285,7 @@ you find it in your resource folder<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
-* Special Mobs 3.3.0<BR>
+* Special Mobs 3.3.1<BR>
 * Spice of Life 1.3.11<BR>
 * Standard Expansion 1.0.108b<BR>
 * Steve's Carts 2.0.0.18b<BR>
@@ -296,7 +297,7 @@ you find it in your resource folder<BR>
 * Super Tic 1.2<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.8<BR>
+* Tec Tech 3.6.9<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
@@ -320,12 +321,12 @@ you find it in your resource folder<BR>
 * Universal Singularities Version 8.4<BR>
 * Waila 1.5.10<BR>
 * Waila Harvestability 1.1.6<BR>
-* Waila Plugins 0.2.0.25<BR>
+* Waila Plugins 0.2.1<BR>
 * Wawla 1.0.5.120<BR>
 * Warp Theory 1.0i dev<BR>
 * Wireless Redstone CBE 1.4.1.11<BR>
 * Witchery 0.24.1<BR>
-* Witching Gadgets 1.2.9g GTNH<BR>
+* Witching Gadgets 1.2.9h GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
 ## Libs and Cores<BR>
@@ -349,7 +350,6 @@ you find it in your resource folder<BR>
 * Player api 1.4<BR>
 * Wanion Lib 1.8<BR>
 * YamCore 0.5.78<BR>
-* Yuuto Lib 1.0.3<BR>
 
 ---
 
