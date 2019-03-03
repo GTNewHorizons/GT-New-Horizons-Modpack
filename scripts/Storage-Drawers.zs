@@ -807,6 +807,7 @@ for i, logs in slabsF {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, logs, logs],[logs, <minecraft:chest>, logs],[logs, logs, logs]]);
+    Assembler.addRecipe(plank, [logs * 8,<minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 // Drawers 1x2
 for i, logs in slabsF {
@@ -814,6 +815,7 @@ for i, logs in slabsF {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, <minecraft:chest>, logs],[logs, logs, logs],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank, [logs * 7,<minecraft:chest> * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 200, 16);
 }
 // Drawers 2x2
 for i, logs in slabsF {
@@ -821,6 +823,7 @@ for i, logs in slabsF {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>]]);
+    Assembler.addRecipe(plank, [logs * 5,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:4> * 0], null, 200, 16);
 }
 // DrawersCompact 1x2
 for i, logs in slabsF {
@@ -828,6 +831,7 @@ for i, logs in slabsF {
    
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // DrawersCompact 2x2
 for i, logs in slabsF {
@@ -835,6 +839,7 @@ for i, logs in slabsF {
     
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, <minecraft:chest>, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 5,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:14> * 0], null, 200, 16);
 }
 // Drawers Trim
 for i, logs in slabsF {
@@ -842,6 +847,7 @@ for i, logs in slabsF {
    
     recipes.remove(plank);
     recipes.addShaped(plank, [[<ore:stickWood>, logs, <ore:stickWood>],[logs, logs, logs],[<ore:stickWood>, logs, <ore:stickWood>]]);
+    Assembler.addRecipe(plank, [logs * 5,<ore:stickWood> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 
 //  ---- Biome o plenty Wood Add!
@@ -853,6 +859,7 @@ for i, logs in slabsB {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, logs, logs],[logs, <minecraft:chest>, logs],[logs, logs, logs]]);
+	Assembler.addRecipe(plank, [logs * 8,<minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 // Drawers 1x2
 for i, logs in slabsB {
@@ -860,6 +867,7 @@ for i, logs in slabsB {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, <minecraft:chest>, logs],[logs, logs, logs],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank, [logs * 7,<minecraft:chest> * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 200, 16);
 }
 // Drawers 2x2
 for i, logs in slabsB {
@@ -867,6 +875,7 @@ for i, logs in slabsB {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>]]);
+    Assembler.addRecipe(plank, [logs * 5,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:4> * 0], null, 200, 16);
 }
 // DrawersCompact 1x2
 for i, logs in slabsB {
@@ -874,6 +883,7 @@ for i, logs in slabsB {
    
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // DrawersCompact 2x2
 for i, logs in slabsB {
@@ -881,6 +891,7 @@ for i, logs in slabsB {
     
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, <minecraft:chest>, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // Drawers Trim
 for i, logs in slabsB {
@@ -888,6 +899,7 @@ for i, logs in slabsB {
    
     recipes.remove(plank);
     recipes.addShaped(plank, [[<ore:stickWood>, logs, <ore:stickWood>],[logs, logs, logs],[<ore:stickWood>, logs, <ore:stickWood>]]);
+    Assembler.addRecipe(plank, [logs * 5,<ore:stickWood> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 
 
@@ -902,6 +914,7 @@ for i, logs in slabsN {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, logs, logs],[logs, <minecraft:chest>, logs],[logs, logs, logs]]);
+    Assembler.addRecipe(plank, [logs * 8,<minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 // Drawers 1x2
 for i, logs in slabsN {
@@ -909,6 +922,7 @@ for i, logs in slabsN {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, <minecraft:chest>, logs],[logs, logs, logs],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank, [logs * 7,<minecraft:chest> * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 200, 16);
 }
 // Drawers 2x2
 for i, logs in slabsN {
@@ -916,6 +930,7 @@ for i, logs in slabsN {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>]]);
+    Assembler.addRecipe(plank, [logs * 5,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:4> * 0], null, 200, 16);
 }
 // DrawersCompact 1x2
 for i, logs in slabsN {
@@ -923,6 +938,7 @@ for i, logs in slabsN {
    
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // DrawersCompact 2x2
 for i, logs in slabsN {
@@ -930,6 +946,7 @@ for i, logs in slabsN {
     
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, <minecraft:chest>, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // Drawers Trim
 for i, logs in slabsN {
@@ -937,6 +954,7 @@ for i, logs in slabsN {
    
     recipes.remove(plank);
     recipes.addShaped(plank, [[<ore:stickWood>, logs, <ore:stickWood>],[logs, logs, logs],[<ore:stickWood>, logs, <ore:stickWood>]]);
+    Assembler.addRecipe(plank, [logs * 5,<ore:stickWood> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 
 
@@ -950,6 +968,7 @@ for i, logs in slabsTW {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, logs, logs],[logs, <minecraft:chest>, logs],[logs, logs, logs]]);
+    Assembler.addRecipe(plank, [logs * 8,<minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 // Drawers 1x2
 for i, logs in slabsTW {
@@ -957,6 +976,7 @@ for i, logs in slabsTW {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, <minecraft:chest>, logs],[logs, logs, logs],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank, [logs * 7,<minecraft:chest> * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 200, 16);
 }
 // Drawers 2x2
 for i, logs in slabsTW {
@@ -964,6 +984,7 @@ for i, logs in slabsTW {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>]]);
+    Assembler.addRecipe(plank, [logs * 5,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:4> * 0], null, 200, 16);
 }
 // DrawersCompact 1x2
 for i, logs in slabsTW {
@@ -971,6 +992,7 @@ for i, logs in slabsTW {
    
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // DrawersCompact 2x2
 for i, logs in slabsTW {
@@ -978,6 +1000,7 @@ for i, logs in slabsTW {
     
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, <minecraft:chest>, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // Drawers Trim
 for i, logs in slabsTW {
@@ -985,6 +1008,7 @@ for i, logs in slabsTW {
    
     recipes.remove(plank);
     recipes.addShaped(plank, [[<ore:stickWood>, logs, <ore:stickWood>],[logs, logs, logs],[<ore:stickWood>, logs, <ore:stickWood>]]);
+    Assembler.addRecipe(plank, [logs * 5,<ore:stickWood> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 
 //  ---- Vanilla Wood Add!
@@ -996,6 +1020,7 @@ for i, logs in slabsV {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, logs, logs],[logs, <minecraft:chest>, logs],[logs, logs, logs]]);
+    Assembler.addRecipe(plank, [logs * 8,<minecraft:chest>, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 // Drawers 1x2
 for i, logs in slabsV {
@@ -1003,6 +1028,7 @@ for i, logs in slabsV {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[logs, <minecraft:chest>, logs],[logs, logs, logs],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank, [logs * 7,<minecraft:chest> * 2, <gregtech:gt.integrated_circuit:2> * 0], null, 200, 16);
 }
 // Drawers 2x2
 for i, logs in slabsV {
@@ -1010,6 +1036,7 @@ for i, logs in slabsV {
     
     recipes.remove(plank);
     recipes.addShaped(plank, [[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>]]);
+    Assembler.addRecipe(plank, [logs * 5,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:4> * 0], null, 200, 16);
 }
 // DrawersCompact 1x2
 for i, logs in slabsV {
@@ -1017,6 +1044,7 @@ for i, logs in slabsV {
    
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, logs, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, logs, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // DrawersCompact 2x2
 for i, logs in slabsV {
@@ -1024,6 +1052,7 @@ for i, logs in slabsV {
     
     recipes.remove(plank);
     recipes.addShaped(plank * 2, [[logs, <minecraft:chest>, logs],[<minecraft:chest>, logs, <minecraft:chest>],[logs, <minecraft:chest>, logs]]);
+    Assembler.addRecipe(plank * 2, [logs * 7,<minecraft:chest> * 4, <gregtech:gt.integrated_circuit:12> * 0], null, 200, 16);
 }
 // Drawers Trim
 for i, logs in slabsV {
@@ -1031,6 +1060,7 @@ for i, logs in slabsV {
    
     recipes.remove(plank);
     recipes.addShaped(plank, [[<ore:stickWood>, logs, <ore:stickWood>],[logs, logs, logs],[<ore:stickWood>, logs, <ore:stickWood>]]);
+    Assembler.addRecipe(plank, [logs * 5,<ore:stickWood> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 16);
 }
 
 // --- Upgrade Template
