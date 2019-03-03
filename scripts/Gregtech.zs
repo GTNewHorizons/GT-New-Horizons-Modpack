@@ -147,36 +147,6 @@ recipes.remove(<IC2:itemRTGPellet>);
 // --- Saltpeter
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2836>);
 
-// --- Solar Panel 1EU
-//recipes.remove(<gregtech:gt.metaitem.01:32750>);
-
-// --- Solar Panel 8EU
-//recipes.remove(<gregtech:gt.metaitem.01:32751>);
-
-// --- Solar Panel 32EU
-//recipes.remove(<gregtech:gt.metaitem.01:32752>);
-
-// --- Solar Panel 128 EU
-//recipes.remove(<gregtech:gt.metaitem.01:32753>);
-
-// --- Solar Panel 512 EU
-//recipes.remove(<gregtech:gt.metaitem.01:32754>);
-
-// --- Solar Panel 2048 EU
-//recipes.remove(<gregtech:gt.metaitem.01:32755>);
-
-// --- Solar Panel 8192 EU
-//recipes.remove(<gregtech:gt.metaitem.01:32756>);
-
-// --- Solar Panel 32768 EU
-//recipes.remove(<gregtech:gt.metaitem.01:32757>);
-
-// --- Solar Panel 131072 EU
-//recipes.remove(<gregtech:gt.metaitem.01:32758>);
-
-// --- Solar Panel 524288 EU
-//recipes.remove(<gregtech:gt.metaitem.01:32759>);
-
 // --- Apatite
 recipes.removeShaped(<gregtech:gt.metaitem.01:8530>, [
 [<ore:shardApatite>, <ore:shardApatite>, <ore:shardApatite>],
@@ -691,7 +661,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<gregtech:gt.metaitem.01:32755>, [
 [null, null, <ore:wireGt01SuperconductorIV>, <ore:plateTripleSilicon>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:plateTripleSilicon>, <ore:wireGt01SuperconductorIV>, null, null],
 [null, null, null, <gregtech:gt.metaitem.03:32035>, <ore:platePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, null, null, null],
 [null, <ore:wireGt01SuperconductorIV>, <ore:circuitMaster>, <ore:circuitMaster>, <gregtech:gt.metaitem.01:32754>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:wireGt01SuperconductorIV>, null],
-[null, null, null, <gregtech:gt.metaitem.03:32034>, <ore:platePolybenzimidazole>, <gregtech:gt.metaitem.03:32034>, null, null, null],
+[null, null, null, <gregtech:gt.metaitem.03:32035>, <ore:platePolybenzimidazole>, <gregtech:gt.metaitem.03:32035>, null, null, null],
 [null, null, <ore:wireGt01SuperconductorIV>, <ore:plateTripleSilicon>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <ore:plateTripleSilicon>, <ore:wireGt01SuperconductorIV>, null, null],
 [null, null, null, null, <gregtech:gt.metaitem.03:32051>, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
