@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.6.8 is out 17.02.2019
+Version 2.0.7.0 is out 08.03.2019
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -109,16 +109,13 @@ Official EU Server Public (whitelist)<BR>
 http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
+eta.gtnewhorizons.com<BR>
 
 Official EU Test Server Private (whitelist)<BR>
 zeta.gtnewhorizons.com<BR>
  
-Dig to build EU Server (whitelist)<BR>
-https://www.digtobuild.com/<BR>
-s1.digtobuild.com:25560<BR>
 
-
-## US/Canada Servers:<BR>
+ ## US/Canada Servers:<BR>
 
 Prospercraft (greylist)<BR>
 http://www.prospercraft.com/<BR>
@@ -129,12 +126,22 @@ Boqqed up  (whitelist)<BR>
 Discord: https://discord.gg/3D897y4<BR>
 http://jesus2xs.com/<BR>
 
+Fully Toasted GTNH Server CA(whitelist)
+https://fullytoasted.world/
+gtnh.toastedpack.world
+
 
 ## German Server:<BR>
 
 MyFTB Public (no whitelist)<BR>
 https://myftb.de/<BR>
 gtnewhorizons.myftb.de<BR>
+
+
+## Russian Server:<BR>
+
+Wabulabudaba GTNH Server Russia
+94.23.17.222:25565
 
 
 ## Official Links
@@ -165,10 +172,10 @@ you find it in your resource folder<BR>
 * Aqua Creeper 1.0.1<BR>
 * Architecture Craft 1.7.3<BR>
 * Automagy 0.28.2<BR>
-* Avaritia 1.14custom<BR>
+* Avaritia 1.15custom<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.3.21<BR>
+* Bartworks 0.3.22<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -192,8 +199,9 @@ you find it in your resource folder<BR>
 * Command Block BQ Mod 1<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics 1.6.5<BR>
+* Controlling 1.0.0<BR>
 * Craft Tweaker 3.0.12<BR>
-* Crops ++ 1.3.1a<BR>
+* Crops ++ 1.3.2<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2n<BR>
@@ -221,13 +229,13 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.33.10<BR>
+* Gregtech 5.09.33.12<BR>
 * GT Scanner Mod 1.5.3<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.6.07<BR>
+* GT New Horizons Core Mod 1.6.10<BR>
 * GT++ 1.7.03.89<BR>
 * GTNH TC Wands 1.0.4<BR>
-* GTTweaker 1.7.0<BR>
+* GTTweaker 1.7.1<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
 * Holo Inventory 1.9.1.124<BR>
@@ -236,7 +244,7 @@ you find it in your resource folder<BR>
 * IFU 1.5<BR>
 * IguanaTinkerTweaks 2.1.2<BR>
 * Industrial Craft 2 2.2.2.828a<BR>
-* Industrial Craft 2 Nei Plugin 1.1.0<BR>
+* Industrial Craft 2 Nei Plugin 1.2.2<BR>
 * Infernal Mobs 1.6.6<BR>
 * Inventory Tweaks 1.59.156<BR>
 * Iron Chest Minecarts 1.0.4<BR>
@@ -244,7 +252,7 @@ you find it in your resource folder<BR>
 * Iron Tanks 1.1.16<BR>
 * Jabba 1.2.5<BR>
 * JourneyMap 5.1.4p2<BR>
-* Lootgames 1.0.16<BR>
+* Lootgames 1.0.17<BR>
 * Magic Bees 2.4.3<BR>
 * Malisis Doors 1.13.2<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
@@ -285,7 +293,7 @@ you find it in your resource folder<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
-* Special Mobs 3.3.1<BR>
+* Special Mobs 3.3.2<BR>
 * Spice of Life 1.3.11<BR>
 * Standard Expansion 1.0.108b<BR>
 * Steve's Carts 2.0.0.18b<BR>
@@ -297,7 +305,7 @@ you find it in your resource folder<BR>
 * Super Tic 1.2<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.9<BR>
+* Tec Tech 3.6.10<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
@@ -326,7 +334,7 @@ you find it in your resource folder<BR>
 * Warp Theory 1.0i dev<BR>
 * Wireless Redstone CBE 1.4.1.11<BR>
 * Witchery 0.24.1<BR>
-* Witching Gadgets 1.2.9h GTNH<BR>
+* Witching Gadgets 1.2.9i GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
 ## Libs and Cores<BR>
