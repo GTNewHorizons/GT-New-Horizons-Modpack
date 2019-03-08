@@ -1330,7 +1330,7 @@ gtnh.quest331.desc=...when you can teleport? This little device allows you to te
 
 #Quest_332.Fire burn and...
 gtnh.quest332.name=Fire burn and...
-gtnh.quest332.desc=In order to get started with your basic witchery needs, you need a witches oven. It's used to get the most basic ingredients for your recipes - Fumes.\n\nThe oven is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot. Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.\n\nUpgrading an Oven\n\nAn oven can be upgraded by placing either a Fume Funnel or a Filtered Fume Funnel to the left and right of it. Each Fume Funnel will increase the cooking speed by and additional 10 per cent (over a furnace) and increase the chance of a by-product being produced by and additional 25 per cent for a Fume Funnel or 30 per cent for a Filtered Fume Funnel.\nAn Oven can use at most two upgrades and they must have the same facing as the oven.\n\nA fully upgraded oven will therefore cook at 130 per cent speed (compared to a furnace) and have a chance of a by-product of 90 per cent.
+gtnh.quest332.desc=In order to get started with your basic witchery needs, you need a witches oven. It requires anointing paste, which you will need an MV mixer to make.\n\nThe witches oven is used to get the most basic ingredients for your recipes - Fumes.\n\nThe oven is able to capture the by-products produced in the cooking process. Activating the oven to show the interface screen, you will see an additional slot to the right of the fuel slot. Clay jars must be placed in this slot. If there are clay jars present when something is cooked, there is a chance a by-product will be captured in one of the jars. These by-products are important ingredients in other recipes. If there are no clay jars in the oven when something is cooked, no by-products will be produced.\n\nUpgrading an Oven\n\nAn oven can be upgraded by placing either a Fume Funnel or a Filtered Fume Funnel to the left and right of it. Each Fume Funnel will increase the cooking speed by and additional 10 per cent (over a furnace) and increase the chance of a by-product being produced by and additional 25 per cent for a Fume Funnel or 30 per cent for a Filtered Fume Funnel.\nAn Oven can use at most two upgrades and they must have the same facing as the oven.\n\nA fully upgraded oven will therefore cook at 130 per cent speed (compared to a furnace) and have a chance of a by-product of 90 per cent.
 
 #Quest_333.Offerings
 gtnh.quest333.name=Offerings
@@ -2142,7 +2142,7 @@ gtnh.quest534.desc=If you are running your bricked blast furnace for a long time
 
 #Quest_535.Redstone, early game processing
 gtnh.quest535.name=Redstone, early game processing
-gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack. You will get pure redstone dust for your red alloy ingots.
+gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack but you will need a new iron bucket as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your red alloy ingots.
 
 #Quest_536.Low tier wires
 gtnh.quest536.name=Low tier wires
@@ -3022,7 +3022,7 @@ gtnh.quest754.desc=Some materials like stainless steel require 480 EU/t. Your LV
 
 #Quest_755.Better than Duct Tape
 gtnh.quest755.name=Better than Duct Tape
-gtnh.quest755.desc=A soldering iron tool to remove the "burned out circuits" message is better than duct tape. \nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player's inventory.\n\nFor the other problems other tools are necessary.\n\nPossible problems                  Tool to fix\n"Pipe is loose."                        Wrench\n"Screws are missing."             Screwdriver \n"Something is stuck."               Soft mallet \n"Platings are dented."              Hammer \n"Circuitry burned out."          Soldering Iron \n"That doesn't belong there."     Crowbar
+gtnh.quest755.desc=A soldering iron tool to remove the "burned out circuits" message is better than duct tape. \nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player's inventory.\n\nIn order to "complete" the quest they will need to charge the soldering iron after you craft it.\n\nFor the other problems other tools are necessary.\n\nPossible problems                  Tool to fix\n"Pipe is loose."                        Wrench\n"Screws are missing."             Screwdriver \n"Something is stuck."               Soft mallet \n"Platings are dented."              Hammer \n"Circuitry burned out."          Soldering Iron \n"That doesn't belong there."     Crowbar
 
 #Quest_756.Less Power loss
 gtnh.quest756.name=Less Power loss
@@ -3442,7 +3442,7 @@ gtnh.quest859.desc=Hypochlorous acid requires water, chlorine and some mercury.
 
 #Quest_860.Titanium finally
 gtnh.quest860.name=Titanium finally
-gtnh.quest860.desc=Rutile, chlorine and carbon dust makes Titaniumtetrachloride. Combining this with Magnesium in an HV EBF will give you hot Titanium ingots. Freeze those and you will get your first titanium.\nOn the Moon if you are lucky you can find pure Titanium ore.
+gtnh.quest860.desc=Rutile, chlorine and carbon dust makes Titaniumtetrachloride. Combining this with Magnesium in an HV EBF will give you hot Titanium ingots. Freeze those and you will get your first titanium.\nOn the Moon if you are lucky you can find Ilmenite ore which make the processing of Titanium a bit easier.
 
 #Quest_861.Tungstensteel
 gtnh.quest861.name=Tungstensteel
@@ -3726,11 +3726,11 @@ gtnh.quest930.desc=A miner in LV age? Wow! This nifty machine will find ores for
 
 #Quest_931.Auto Mining MV
 gtnh.quest931.name=Auto Mining MV
-gtnh.quest931.desc=The MV miner will find ores for you faster than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 128 eu to work. The Miner searches ores in a 24 block radius and works two times faster than the LV variant.
+gtnh.quest931.desc=The MV miner will find ores for you faster than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 32 eu to work. The Miner searches ores in a 24 block radius and works two times faster than the LV variant.
 
 #Quest_932.Auto Mining HV
 gtnh.quest932.name=Auto Mining HV
-gtnh.quest932.desc=The HV miner will find ores for you faster than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 512 eu to work. The Miner searches ores in a 32 block radius (two chunks) and works two times faster than the MV variant.
+gtnh.quest932.desc=The HV miner will find ores for you faster than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 128 eu to work. The Miner searches ores in a 32 block radius (two chunks) and works two times faster than the MV variant.
 
 #Quest_933.Power of the Sun
 gtnh.quest933.name=Power of the Sun
@@ -4046,7 +4046,7 @@ gtnh.quest1010.desc=Many cooking recipes need milk and water. Crafting it in the
 
 #Quest_1011.Find Bauxite
 gtnh.quest1011.name=Find Bauxite
-gtnh.quest1011.desc=The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron is required for your tier 2 rocket for reaching Mars so be sure to collect a stack from fallen meteors and small ores beneath the surface.\n\nIf you are lucky you will find Titanium veins to make the process much easier.
+gtnh.quest1011.desc=The main goal when you reach the Moon is to find some bauxite ore to make titanium for the EV machine tier. Some meteoric iron is required for your tier 2 rocket for reaching Mars so be sure to collect a stack from fallen meteors and small ores beneath the surface.
 
 #Quest_1012.Rutile
 gtnh.quest1012.name=Rutile
@@ -5696,9 +5696,9 @@ gtnh.quest1422.desc=...go round and round, all the live long day. A large orewas
 gtnh.quest1423.name=Dancing in circles
 gtnh.quest1423.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge.  Build a large thermal refinery to get the most out of your ores.\n\nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.
 
-#Quest_1424.Find Titanium
-gtnh.quest1424.name=Find Titanium
-gtnh.quest1424.desc=If you are lucky you will find a pure Titanium veins to make the process much easier.\nTitanium can be found on moon at Y Level 10-70.
+#Quest_1424.Find Ilmenite
+gtnh.quest1424.name=Find Ilmenite
+gtnh.quest1424.desc=Ilmenite will give a better amount of Titanium per Ore than Bauxite.\nThis Vein can be found on moon at Y Level 10-70.
 
 #Quest_1425.Calculation processor
 gtnh.quest1425.name=Calculation processor
@@ -6178,7 +6178,7 @@ gtnh.quest1543.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop
 
 #Quest_1544.Seed/Fish Oil
 gtnh.quest1544.name=Seed/Fish Oil
-gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil and fish produce fish oil when placed in a fluid extractor. \n\nPam's peanuts are a good seed oil source.  Another option is Forestry Butternuts. Or you can use IC2 crops to get Rapeseed.\n\nLook under Fishing Farming Cooking tab for fish catching options.
+gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil and fish produce fish oil when placed in a fluid extractor. \n\nPam's peanuts are a good seedoil source.  Another option is Forestry Butternuts. Or you can use IC2 crops to get Rapeseed.\n\nLook under Fishing Farming Cooking tab for fish catching options.
 
 #Quest_1545.Time to ore drill!
 gtnh.quest1545.name=Time to ore drill!
@@ -7270,7 +7270,7 @@ gtnh.quest1816.desc=Having a hard time finding that Lapis vein for some calcite?
 
 #Quest_1817.Upgrade #7: Upgrade tier 8 - Electrum Flux Coils
 gtnh.quest1817.name=Upgrade #7: Upgrade tier 8 - Electrum Flux Coils
-gtnh.quest1817.desc=To process the more advanced materials like Cosmic Neutronium, Tritanium and Awakened Draconium you need more than 9000K. Upgrade your EBF to 12000k.
+gtnh.quest1817.desc=To process the more advanced materials like Cosmic Neutronium, Tritanium and Awakened Draconium you need more than 9000K. Upgrade your EBF to 9900k.
 
 #Quest_1818.Large Essentia Generator
 gtnh.quest1818.name=Large Essentia Generator
@@ -7334,7 +7334,7 @@ gtnh.quest1832.desc=The Windmill is a grinder that uses the force of wind to mac
 
 #Quest_1833.Upgrade #8: Upgrade tier 9 - Awakened Draconium Coils
 gtnh.quest1833.name=Upgrade #8: Upgrade tier 9 - Awakened Draconium Coils
-gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys or Infinity need more than 12000K. Upgrade your EBF to 15000k.
+gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys or Infinity need more than 9900K. Upgrade your EBF to 10800k.
 
 #Quest_1834.Mushroom Biomes ? why there so many?
 gtnh.quest1834.name=Mushroom Biomes ? why there so many?
@@ -7466,7 +7466,7 @@ gtnh.quest1865.desc=Need enderpearls? Getting them by killing endermen can be da
 
 #Quest_1866.Options for finding aluminuim at this age
 gtnh.quest1866.name=Options for finding aluminuim at this age
-gtnh.quest1866.desc=It can be hard to find aluminium gravel ores on old servers, or unlucky world seeds. Alternative to aluminium gravel ores are\n\n- Planting the Aluminium  ore berries from the Smeltery quest\n- Searching for Aluminium bars in chests\nXP buckets\n\nOnce you reach LV, you can electrolyze Sapphires and get small quantities from centrifuging various ores. Check NEI.
+gtnh.quest1866.desc=It can be hard to find aluminium gravel ores on old servers, or unlucky world seeds. Alternative to aluminium gravel ores are\n\n- Planting the Aluminium  ore berries from the Smeltery quest\n- Searching for Aluminium bars in chests\n-XP buckets\n\nOnce you reach LV, you can electrolyze Sapphires and get small quantities from centrifuging various ores. Check NEI.
 
 #Quest_1867.MV Motor
 gtnh.quest1867.name=MV Motor
@@ -7478,7 +7478,7 @@ gtnh.quest1868.desc=MV Energy hatches need ultra low power ICs. Go and craft som
 
 #Quest_1869.Hydrogen, methane or some farts... (Natural gas) MV 
 gtnh.quest1869.name=Hydrogen, methane or some farts... (Natural gas) MV 
-gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combustion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMV Gas Turbines have a 90 percent fuel efficiency.
+gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combusion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMV Gas Turbines have a 90 percent fuel efficiency.
 
 #Quest_1870.Diesel, oil or maybe creosote? MV
 gtnh.quest1870.name=Diesel, oil or maybe creosote? MV
@@ -7555,6 +7555,18 @@ gtnh.quest1887.desc=This quest was suggested by Shawnbyday. If you have a lv mac
 #Quest_1888.Repairing your Hazmat Suit
 gtnh.quest1888.name=Repairing your Hazmat Suit
 gtnh.quest1888.desc=Be careful to ware you hazamute suit every time. The duarbility is not high. \nYou can repair your suit befor you can craft a new one in late LV Age.
+
+#Quest_1889.Healing Axe 2.0
+gtnh.quest1889.name=Healing Axe 2.0
+gtnh.quest1889.desc=After party loot was limited to one loot per party not everyone can have a healing axe for free.\nGo and buy some.
+
+#Quest_1890.IV Assembler
+gtnh.quest1890.name=IV Assembler
+gtnh.quest1890.desc=An IV asembler is required to make enriched Sunnarium for HV Solar Pannels . Other recipes are twice faster than with an EV assembler.
+
+#Quest_1891.Desh, Scheelite, Tungstate
+gtnh.quest1891.name=Desh, Scheelite, Tungstate
+gtnh.quest1891.desc=Tungstensteel is the material you need but first go find some desh scheelite and tungstate mix on Mars. Look at Y 5-40.
 
 ##################################Line##################################
 
