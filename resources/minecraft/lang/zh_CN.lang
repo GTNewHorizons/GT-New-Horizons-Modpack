@@ -1,4 +1,4 @@
-﻿#################################Quests#################################
+#################################Quests#################################
 
 #Quest_0.Your first night
 gtnh.quest0.name=你的第一个夜晚
@@ -309,8 +309,8 @@ gtnh.quest76.name=是时候获得一些钢了！
 gtnh.quest76.desc=你需要钢？呃......好的.我们有得忙的...... 提示:砖砌高炉和大多数GT多方块机器一样,它们之间可以共享墙壁.尽管这样做会影响到空气质量......
 
 #Quest_77.EBF-Time
-gtnh.quest77.name=电力高炉时代
-gtnh.quest77.desc=为了得到铝,你需要一个电力高炉.这是通向胜利的另一重要的一步.让我们开始吧. 加热线圈可能会很棘手...... (你需要两个LV级能源仓并提供总共4A的LV电流,或者如果你没有修复全部的故障,你就需要三个LV级能源仓和更多的电流)一些高炉配方会产生CO2/SO2.你可以在电力高炉顶层放置一个输出仓来收集这些气体.而能收集到的比例与消声仓的等级有关.MAX等级的消声仓可回收78%的气体.  某些"智者"总是说:让消声仓Moint-Mup.其实应该是point-up(指向上方).  如果你需要一台完美的电力高炉,你可以添加更多的输入仓,在其中存储不同的气体.  译者注:前期氧与氮两种气体,中期陆续加入氦和氩,至于氢气用得非常少,不建议常备.  如果污染变得非常严重,查看GT++的污染清理机.
+gtnh.quest77.name=工业高炉时代
+gtnh.quest77.desc=为了得到铝,你需要一个工业高炉.这是通向胜利的另一重要的一步.让我们开始吧. 加热线圈可能会很棘手...... (你需要两个LV级能源仓并提供总共4A的LV电流,或者如果你没有修复全部的故障,你就需要三个LV级能源仓和更多的电流)一些高炉配方会产生CO2/SO2.你可以在工业高炉顶层放置一个输出仓来收集这些气体.而能收集到的比例与消声仓的等级有关.MAX等级的消声仓可回收78%的气体.  某些"智者"总是说:让消声仓Moint-Mup.其实应该是point-up(指向上方).  如果你需要一台完美的工业高炉,你可以添加更多的输入仓,在其中存储不同的气体.  译者注:前期氧与氮两种气体,中期陆续加入氦和氩,至于氢气用得非常少,不建议常备.  如果污染变得非常严重,查看GT++的污染清理机.
 
 #Quest_78.Upgrade #1: More heat - Kanthal Coils
 gtnh.quest78.name=升级#1: 更多的热量 - 贝塔尔线圈
@@ -318,7 +318,7 @@ gtnh.quest78.desc=更好的材料需要更高的温度.贝塔尔线圈可以达�
 
 #Quest_79.Upgrade #2: Higher tier - Nichrome Coils
 gtnh.quest79.name=升级#2:更高的阶级 - 镍铬线圈
-gtnh.quest79.desc=为了使你的电力高炉达到3600k,以便处理钨等高级材料,你需要镍铬合金加热线圈.
+gtnh.quest79.desc=为了使你的工业高炉达到3600k,以便处理钨等高级材料,你需要镍铬合金加热线圈.
 
 #Quest_80.Compress all the things
 gtnh.quest80.name=压缩万物
@@ -1902,15 +1902,15 @@ gtnh.quest474.desc=去找铁、铜和锡矿.当然,怎么可能就让你使用�
 
 #Quest_475.Upgrade #4: Upgrade tier 5 - HSS-G Coils
 gtnh.quest475.name=升级#4:升级到第5阶 - 高速钢-G 线圈
-gtnh.quest475.desc=要处理更高级的材料,如:高速钢-E、高速钢-S,你需要超过4500K的温度.将你的电力高炉温度提高到5400K.
+gtnh.quest475.desc=要处理更高级的材料,如:高速钢-E、高速钢-S,你需要超过4500K的温度.将你的工业高炉温度提高到5400K.
 
 #Quest_476.Upgrade #5: Upgrade tier 6 - Naquadah Coils
 gtnh.quest476.name=升级#5:升级到第6阶 - 硅岩线圈
-gtnh.quest476.desc=要处理更高级的材料,如:硅岩、富集硅岩、龙锭,你需要超过5400K的温度.将你的电力高炉温度提高到7200K
+gtnh.quest476.desc=要处理更高级的材料,如:硅岩、富集硅岩、龙锭,你需要超过5400K的温度.将你的工业高炉温度提高到7200K
 
 #Quest_477.Upgrade #6: Upgrade tier 7 - Naquadah Alloy Coils
 gtnh.quest477.name=升级#6:升级到第7阶 - 硅岩合金线圈
-gtnh.quest477.desc=处理更先进的材料(通流琥珀金、中子等)时7200K的炉温也已经无能为力了.因此将你的电力高炉的温度提高至9001K.(超过 9000!!!)
+gtnh.quest477.desc=处理更先进的材料(通流琥珀金、中子等)时7200K的炉温也已经无能为力了.因此将你的工业高炉的温度提高至9001K.(超过 9000!!!)
 
 #Quest_478.Flint and steel
 gtnh.quest478.name=打火石
@@ -2130,7 +2130,7 @@ gtnh.quest531.desc=自动化扫描你的蜜蜂和种子.在后面,这台机器�
 
 #Quest_532.Diesel, oil or maybe creosote?
 gtnh.quest532.name=柴油,原油或者木榴油.
-gtnh.quest532.desc=你可能已经收集了大量的木榴油,甚至已经建好了第一台电力高炉. 木榴油在一段时间里是一种非常不错的燃料.造一些柴油发电机用它们充当除了蒸汽以外的第二能源.小型发电机只会在有EU需求时使用燃料.
+gtnh.quest532.desc=你可能已经收集了大量的木榴油,甚至已经建好了第一台工业高炉. 木榴油在一段时间里是一种非常不错的燃料.造一些柴油发电机用它们充当除了蒸汽以外的第二能源.小型发电机只会在有EU需求时使用燃料.
 
 #Quest_533.Hydrogen, methane or some farts... (Natural gas) 
 gtnh.quest533.name=氢气、甲烷或者一些屁(天然气)
@@ -2142,7 +2142,7 @@ gtnh.quest534.desc=如果你的砖高炉运行了很久,在你接近他的时候
 
 #Quest_535.Redstone, early game processing
 gtnh.quest535.name=红石的前期处理
-gtnh.quest535.desc=你想知道如何在没有粉碎机的时候处理红石？嗯,你可以用GT锻造锤开采它们得到粉碎的矿石,然后在工作台里用锻造锤把它们砸成含杂红石粉.之后,在炼药锅里装上水,把粉末扔进去.这样你就可以得到为烧红石合金准备的纯净的红石粉了.
+gtnh.quest535.desc=你想知道如何在没有粉碎机的时候处理红石？嗯,你可以用GT锻造锤开采它们得到粉碎的矿石,然后在工作台里用锻造锤把它们砸成含杂红石粉.之后,在炼药锅里装上水,把粉末扔进去-按住Ctrl+Q可以一次丢出整组物品. 你需要一个铁桶,原来的粘土桶无法完成这项工作.这样你就可以得到为烧红石合金准备的纯净的红石粉了.
 
 #Quest_536.Low tier wires
 gtnh.quest536.name=低阶线缆
@@ -2654,11 +2654,11 @@ gtnh.quest662.desc=电弧炉是将物品熔炼,得到原料跟制造熟铁的一
 
 #Quest_663.Faster steel production
 gtnh.quest663.name=更快的制造钢
-gtnh.quest663.desc=生产钢的一个更快的方法是,使用电弧炉将铁锭制作成熟铁锭.然后将之粉碎成熟铁粉.最后在电力高炉(EBF)中快速炼成钢.(某些胆大的家伙甚至敢直接用电弧加热铁粉...)
+gtnh.quest663.desc=生产钢的一个更快的方法是,使用电弧炉将铁锭制作成熟铁锭.然后将之粉碎成熟铁粉.最后在工业高炉(EBF)中快速炼成钢.(某些胆大的家伙甚至敢直接用电弧加热铁粉...)
 
 #Quest_664.LV battery buffer 9 slots
 gtnh.quest664.name=LV级电池箱(9槽)
-gtnh.quest664.desc=升级你的电池箱成9槽,最大可输出9安培电流.用于电力高炉(EBF)或电弧炉非常实用.
+gtnh.quest664.desc=升级你的电池箱成9槽,最大可输出9安培电流.用于工业高炉(EBF)或电弧炉非常实用.
 
 #Quest_665.Kitchenware
 gtnh.quest665.name=厨具
@@ -2870,7 +2870,7 @@ gtnh.quest716.desc=下界充满各种不同的石英.找到一个石英岩及赛
 
 #Quest_717.Good Circuits
 gtnh.quest717.name=进阶电子电路(Good Circuits.)
-gtnh.quest717.desc=进阶电子电路是基础电子电路的改良版.它是所有MV机器的组件.确认你先盖了电力高炉(EBF),以便将铝粉炼成铝锭.
+gtnh.quest717.desc=进阶电子电路是基础电子电路的改良版.它是所有MV机器的组件.确认你先盖了工业高炉(EBF),以便将铝粉炼成铝锭.
 
 #Quest_718.Moron's Manual to Fecund Farms
 gtnh.quest718.name=农场"智者"手册
@@ -2986,7 +2986,7 @@ gtnh.quest745.desc=如果你离心粘性树脂,就会得到一些胶水.在制�
 
 #Quest_746.Silicon
 gtnh.quest746.name=硅
-gtnh.quest746.desc=在生产芯片过程中硅是一种十分重要的原材料.你可以透过离心漂白土、石棉粉,或红石来得到硅(更简单的方法是电解粘土粉,可以获得大量的硅、铝、钠和锂,这四种材料在一段时间都很有用).你需要使用电力高炉来将硅粉制作成为硅锭. 制作硅锭需要电力高炉达到1687K的炉温,并且需要电力高炉拥有120EU/T的功率.制作一个硅锭在MV阶段需要耗时84秒.
+gtnh.quest746.desc=在生产芯片过程中硅是一种十分重要的原材料.你可以透过离心漂白土、石棉粉,或红石来得到硅(更简单的方法是电解粘土粉,可以获得大量的硅、铝、钠和锂,这四种材料在一段时间都很有用).你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要工业高炉达到1687K的炉温,并且需要工业高炉拥有120EU/T的功率.制作一个硅锭在MV阶段需要耗时84秒.
 
 #Quest_747.Diode
 gtnh.quest747.name=二极管
@@ -3013,16 +3013,16 @@ gtnh.quest752.name=硅板
 gtnh.quest752.desc=高级电路板需要蚀刻高压电路(晶体管),由硅板、精制锡线缆,及液态聚乙烯	制成.
 
 #Quest_753.Stainless Steel EBF processing
-gtnh.quest753.name=不锈钢与电力高炉
-gtnh.quest753.desc=不锈钢锭是在电力高炉中制造,温度1700K.需要480EU/t烧制80秒,如果加入氧气则需要60秒.你至少需要两个MV级能源仓来为电力高炉供电.
+gtnh.quest753.name=不锈钢与工业高炉
+gtnh.quest753.desc=不锈钢锭是在工业高炉中制造,温度1700K.需要480EU/t烧制80秒,如果加入氧气则需要60秒.你至少需要两个MV级能源仓来为工业高炉供电.
 
 #Quest_754.MV Energy Hatch
 gtnh.quest754.name=MV级能源仓
-gtnh.quest754.desc=有些原料如不锈钢,需要480EU/t.你的LV级能源仓已经不敷使用.制造至少两个MV级能源仓来将你的电力高炉升级到HV. 如果你没有所需的超低功率IC，先做点晶元吧.
+gtnh.quest754.desc=有些原料如不锈钢,需要480EU/t.你的LV级能源仓已经不敷使用.制造至少两个MV级能源仓来将你的工业高炉升级到HV. 如果你没有所需的超低功率IC，先做点晶元吧.
 
 #Quest_755.Better than Duct Tape
 gtnh.quest755.name=比胶带更好
-gtnh.quest755.desc=电烙铁可以移除"电路短路了"的故障讯息,比胶带更好.修复时需要一个精制焊锡导线跟10KEU的电力.有许多材料可以做为焊接材料,由锡、铅,或焊锡制成的精制线缆、杆,或锭都可以.电烙铁将会消耗玩家物品栏中找到的第一个这类材料.至于其他故障需要其他的工具.可能的故障有,管道松了——扳手,有些螺丝没有到位——螺丝刀,有什么东西卡住了——软锤,板子凹凸不平——锤,电路短路了——电烙铁,有个零件不应该在这里——撬棍.
+gtnh.quest755.desc=电烙铁可以移除"电路短路了"的故障讯息,比胶带更好.修复时需要一个精制焊锡导线跟10KEU的电力.有许多材料可以做为焊接材料,由锡、铅,或焊锡制成的精制线缆、杆,或锭都可以.电烙铁将会消耗玩家物品栏中找到的第一个这类材料.  完成任务所需的电烙铁需要充满电.  至于其他故障需要其他的工具.可能的故障有,管道松了——扳手,有些螺丝没有到位——螺丝刀,有什么东西卡住了——软锤,板子凹凸不平——锤,电路短路了——电烙铁,有个零件不应该在这里——撬棍.
 
 #Quest_756.Less Power loss
 gtnh.quest756.name=减少电力损失
@@ -3098,7 +3098,7 @@ gtnh.quest773.desc=这个方法是在高压釜中处理四个碳粉.LV时代,你
 
 #Quest_774.Way two: Bio Organic Mesh
 gtnh.quest774.name=方法二:生物有机网
-gtnh.quest774.desc=如果你想保护生态系统,可以用高压釜将16个植物球制成未加工的生物纤维.可以使用下列液体:生物质:33%机率.甲醇:50%机率.柴油:90%机率.硝基柴油:100%机率.然而,使用这个方制造碳板需要电力高炉.
+gtnh.quest774.desc=如果你想保护生态系统,可以用高压釜将16个植物球制成未加工的生物纤维.可以使用下列液体:生物质:33%机率.甲醇:50%机率.柴油:90%机率.硝基柴油:100%机率.然而,使用这个方制造碳板需要工业高炉.
 
 #Quest_775.Carbon parts
 gtnh.quest775.name=碳纤零件
@@ -3122,7 +3122,7 @@ gtnh.quest779.desc=现在你可以不用担心大部份的怪物了.这将帮助
 
 #Quest_780.Organic Way
 gtnh.quest780.name=有机之道
-gtnh.quest780.desc=生物碳板由生物有机网制成.将生碳板放入电力高炉来制造碳板.
+gtnh.quest780.desc=生物碳板由生物有机网制成.将生碳板放入工业高炉来制造碳板.
 
 #Quest_781.Still not enough charcoal?
 gtnh.quest781.name=木炭还是不够？
@@ -3130,7 +3130,7 @@ gtnh.quest781.desc=现在你有一台真空冷却机,有制造铁铬铝耐热材
 
 #Quest_782.Monocrystalline Silicon
 gtnh.quest782.name=单晶硅
-gtnh.quest782.desc=为了制造晶元,你必须先制造单晶硅.这制程需在电力高炉加入硅粉以及砷化镓粉,需时450秒.每个硅球可以制成16个晶元.
+gtnh.quest782.desc=为了制造晶元,你必须先制造单晶硅.这制程需在工业高炉加入硅粉以及砷化镓粉,需时450秒.每个硅球可以制成16个晶元.
 
 #Quest_783.We need big toys
 gtnh.quest783.name=我们需要些大家伙
@@ -3442,11 +3442,11 @@ gtnh.quest859.desc=次氯酸需要水、氯和一些汞.
 
 #Quest_860.Titanium finally
 gtnh.quest860.name=总算能炼钛了
-gtnh.quest860.desc=到达月球的主要目标就是找到一些铝土矿来做些EV机器阶段需要的钛.一些陨石矿可以帮助你制作第二阶段的火箭来到达火星.
+gtnh.quest860.desc=金红石、氯和碳粉可制成四氯化钛. 把它与镁放入HV工业高炉,你将获得热钛锭.将其冷冻,你就能获得你的第一块钛锭了. 如果你足够欧,在月球上还能找到纯钛矿石,大大简化制取钛的工序.
 
 #Quest_861.Tungstensteel
 gtnh.quest861.name=钨钢
-gtnh.quest861.desc=下一阶段需要钨钢.在火星或者月球的石头粉里可以找到钨,将其和些钢粉搅拌,并将它们在3000K(需要镍铬合金线圈)的电力高炉中融合起来.
+gtnh.quest861.desc=下一阶段需要钨钢.在火星或者月球的石头粉里可以找到钨,将其和些钢粉搅拌,并将它们在3000K(需要镍铬合金线圈)的工业高炉中融合起来.
 
 #Quest_862.Your first bow
 gtnh.quest862.name=你的第一把骨弓
@@ -3726,11 +3726,11 @@ gtnh.quest930.desc=LV时代的自动采矿设备.所以这台漂亮的机器可�
 
 #Quest_931.Auto Mining MV
 gtnh.quest931.name=MV自动采矿机
-gtnh.quest931.desc=MV采矿机同样可以帮助你挖出地下的矿石,而且做得更好. 同样,在机器的GUI的左侧放置两组挖矿管道. MV采矿机需要128EU/T的能源才能工作.它可以在24格的范围内搜索矿石,并且可以比LV级别的采矿机速度快上2倍.
+gtnh.quest931.desc=MV采矿机同样可以帮助你挖出地下的矿石,而且做得更好. 同样,在机器的GUI的左侧放置两组挖矿管道. MV采矿机需要32EU/T的能源才能工作.它可以在半径24格的范围内搜索矿石,并且可以比LV级别的采矿机速度快上2倍.
 
 #Quest_932.Auto Mining HV
 gtnh.quest932.name=HV自动采矿机
-gtnh.quest932.desc=和LV和MV的自动采矿机差不多.它可以在32格范围内搜索矿石,并且比MV的自动采矿机还要快上两倍！
+gtnh.quest932.desc=和LV和MV的自动采矿机差不多. HV采矿机需要128EU/T的能源才能工作.它可以在半径32格范围内搜索矿石,并且比MV的自动采矿机还要快上两倍！
 
 #Quest_933.Power of the Sun
 gtnh.quest933.name=太阳能
@@ -3958,11 +3958,11 @@ gtnh.quest988.desc=谐振电容库是目前最大的存储RF能量的电池. 它
 
 #Quest_989.Vibrant alloy
 gtnh.quest989.name=脉冲合金
-gtnh.quest989.desc=脉冲合金是将充能合金粉末、末影之眼粉末和铬粉末搅拌而成的一种高级合金. 制作它需要使电力高炉达到3600K的炉温(使用镍铬合金线圈),并且需要使用真空冷冻机来给制作好的脉冲合金锭降温.
+gtnh.quest989.desc=脉冲合金是将充能合金粉末、末影之眼粉末和铬粉末搅拌而成的一种高级合金. 制作它需要使工业高炉达到3600K的炉温(使用镍铬合金线圈),并且需要使用真空冷冻机来给制作好的脉冲合金锭降温.
 
 #Quest_990.Energetic Alloy
 gtnh.quest990.name=充能合金
-gtnh.quest990.desc=充能合金是将导电铁、黑钢和金搅拌而成的一种新型合金.在生产双层电容的时候需要用到它. 在得到充能合金粉末后需要将它放入2700K炉温(达到这个温度需要用到贝尔塔合金线圈)的电力高炉中熔炼成充能合金锭.
+gtnh.quest990.desc=充能合金是将导电铁、黑钢和金搅拌而成的一种新型合金.在生产双层电容的时候需要用到它. 在得到充能合金粉末后需要将它放入2700K炉温(达到这个温度需要用到贝尔塔合金线圈)的工业高炉中熔炼成充能合金锭.
 
 #Quest_991.Dark Steel Armor basic upgrades
 gtnh.quest991.name=玄钢护甲基础升级
@@ -4046,11 +4046,11 @@ gtnh.quest1010.desc=很多合成表都需要用到牛奶和淡水.但是普通�
 
 #Quest_1011.Find Bauxite
 gtnh.quest1011.name=找到铝土矿脉
-gtnh.quest1011.desc=在你到达月球后的主要目标是找到一些铝土矿,EV级别的机器需要用到钛. 收集一些陨铁可以帮助你建造2级火箭到达火星.
+gtnh.quest1011.desc=在你到达月球后的主要目标是找到一些铝土矿,EV级别的机器需要用到钛. 收集一些陨铁可以帮助你建造2级火箭到达火星. 你需要至少一组陨铁,地表的陨石和地下的贫瘠陨铁矿石都能帮助你.
 
 #Quest_1012.Rutile
 gtnh.quest1012.name=金红石
-gtnh.quest1012.desc=想要得到钛你首先需要得到一些金红石. 金红石可以通过热力离心铝土矿或者钛铁矿得到. 电解铝土能得到更多的金红石,在电力高炉里面处理钛铁矿也能得到一些.
+gtnh.quest1012.desc=想要得到钛你首先需要得到一些金红石. 金红石可以通过热力离心铝土矿或者钛铁矿得到. 电解铝土能得到更多的金红石,在工业高炉里面处理钛铁矿也能得到一些.
 
 #Quest_1013.SMD Circuit components
 gtnh.quest1013.name=贴片电路元件
@@ -4526,7 +4526,7 @@ gtnh.quest1130.desc=如果你的工具没有剩余的强化次数了你可以用
 
 #Quest_1131.Ardite and Cobalt
 gtnh.quest1131.name=阿迪特和钴
-gtnh.quest1131.desc=如果你完成了所有的材料任务,你可以在下界找一些阿迪特和钴矿石. 记住,你需要用电力高炉来加工这些矿物,然后才能用它们来制作工具.  但是你听说只有在另一片土地上才能找到一种特殊的木材--暮色森林,这种木材可以使工具足够坚固,能开采阿迪特和钴矿石.
+gtnh.quest1131.desc=如果你完成了所有的材料任务,你可以在下界找一些阿迪特和钴矿石. 记住,你需要用工业高炉来加工这些矿物,然后才能用它们来制作工具.  但是你听说只有在另一片土地上才能找到一种特殊的木材--暮色森林,这种木材可以使工具足够坚固,能开采阿迪特和钴矿石.
 
 #Quest_1132.Netherquartz? Sharpness
 gtnh.quest1132.name=石英能让武器变锋利？
@@ -4546,7 +4546,7 @@ gtnh.quest1135.desc=如果你想让你的简易洗矿机工作,那么你会需�
 
 #Quest_1136.Lossless LV Cables
 gtnh.quest1136.name=无损低压线缆
-gtnh.quest1136.desc=在32EU/T的电压下如何进行无损传输呢？为什么不试试无损低压线缆呢? 红石合金可制成超导导线并可无损传输你的能量. 红色合金是一种新的合金,电力高炉需要用到它. 将红石、硅和煤混合,虽然用手也可以,但用搅拌机效果更佳.
+gtnh.quest1136.desc=在32EU/T的电压下如何进行无损传输呢？为什么不试试无损低压线缆呢? 红石合金可制成超导导线并可无损传输你的能量. 红色合金是一种新的合金,工业高炉需要用到它. 将红石、硅和煤混合,虽然用手也可以,但用搅拌机效果更佳.
 
 #Quest_1137.Kinetic Power
 gtnh.quest1137.name=动能
@@ -4594,7 +4594,7 @@ gtnh.quest1147.desc=也许你在想为什么现在的导线或者线缆不会自
 
 #Quest_1148.MV Machine hull
 gtnh.quest1148.name=MV机器外壳
-gtnh.quest1148.desc=MV阶段的机器需要铝,大量的铝. 保持你的电力高炉的运行,多准备一些铝.
+gtnh.quest1148.desc=MV阶段的机器需要铝,大量的铝. 保持你的工业高炉的运行,多准备一些铝.
 
 #Quest_1149.A new alloy - Magnalium
 gtnh.quest1149.name=新的合金-镁铝合金
@@ -4717,8 +4717,8 @@ gtnh.quest1178.name=食物2.0
 gtnh.quest1178.desc=忘记你有关食物的一切知识吧！有了全新的装罐机,你可以将食物变成营养丰富的罐头来填饱肚子了. 罐头可以快速的恢复你的饱食度,这会让你感觉很快乐的！
 
 #Quest_1179.EBF Infos
-gtnh.quest1179.name=监视你的电力高炉
-gtnh.quest1179.desc=你可能一直在用扫描仪来检查你的电力高炉的生产进度.现在你可以使用工业信息屏来实时监视这些信息了.制作一个GT传感器,扫描一下你的电力高炉,将传感器卡片放到信息屏的控制方块内,最后提供一个红石信号.
+gtnh.quest1179.name=监视你的工业高炉
+gtnh.quest1179.desc=你可能一直在用扫描仪来检查你的工业高炉的生产进度.现在你可以使用工业信息屏来实时监视这些信息了.制作一个GT传感器,扫描一下你的工业高炉,将传感器卡片放到信息屏的控制方块内,最后提供一个红石信号.
 
 #Quest_1180.Passive Chunkloading
 gtnh.quest1180.name=区块加载
@@ -5618,11 +5618,11 @@ gtnh.quest1403.desc=如果你决定在高压阶段使用蒸汽,那么就该建�
 
 #Quest_1404.Superconductors 128 eu/t
 gtnh.quest1404.name=MV超导
-gtnh.quest1404.desc=无损的MV超导导线怎么样？ MV超导是一种超导材料,可以毫无损失地传递能量. 现在,每个电压都有超导线和粗胚,损耗很小.在搅拌机中搅拌镉,镁和氧. 接下来的粗胚粉需要带有坝塔尔合金线圈的电力高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些MV超导粗胚导线并使用组装机将这些导线与氮,氦,不锈钢流体管道和高压泵组合在一起,以获得128eu/t的超导导线.
+gtnh.quest1404.desc=无损的MV超导导线怎么样？ MV超导是一种超导材料,可以毫无损失地传递能量. 现在,每个电压都有超导线和粗胚,损耗很小.在搅拌机中搅拌镉,镁和氧. 接下来的粗胚粉需要带有坝塔尔合金线圈的工业高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些MV超导粗胚导线并使用组装机将这些导线与氮,氦,不锈钢流体管道和高压泵组合在一起,以获得128eu/t的超导导线.
 
 #Quest_1405.Superconductors 512 eu/t
 gtnh.quest1405.name=HV超导
-gtnh.quest1405.desc=无损的HV超导导线如何？ HV超导是一种超导材料,可以毫无损失地传递你的能量. 现在每个电压都有超导线和粗胚,损耗非常小. 在高压搅拌机中搅拌钛,钡,铜和氧. 接下来,粗胚粉需要带有镍铬合金线圈的电力高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些HV超导粗胚导线并使用组装机将这些导线与氮,氦,钛流体管道和EV泵组合在一起,以获得512eu/t的超导导线.
+gtnh.quest1405.desc=无损的HV超导导线如何？ HV超导是一种超导材料,可以毫无损失地传递你的能量. 现在每个电压都有超导线和粗胚,损耗非常小. 在高压搅拌机中搅拌钛,钡,铜和氧. 接下来,粗胚粉需要带有镍铬合金线圈的工业高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些HV超导粗胚导线并使用组装机将这些导线与氮,氦,钛流体管道和EV泵组合在一起,以获得512eu/t的超导导线.
 
 #Quest_1406.EV Assembler
 gtnh.quest1406.name=EV组装机
@@ -5634,11 +5634,11 @@ gtnh.quest1407.desc=制造量子晶体需要EV精密激光蚀刻机. 其他配�
 
 #Quest_1408.Superconductors 2048 eu/t
 gtnh.quest1408.name=EV超导
-gtnh.quest1408.desc=无损的EV超导导线怎么样？ EV超导是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导线和损耗非常小的超导粗胚. 在高压搅拌机中搅拌铀238和铂. 接下来,粗胚粉需要带有钨钢线圈的电力高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些EV超导粗胚导线并使用组装机将这些导线与氮,氦,钨钢流体管道和IV泵组合在一起,以获得2048eu/t超导导线.
+gtnh.quest1408.desc=无损的EV超导导线怎么样？ EV超导是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导线和损耗非常小的超导粗胚. 在高压搅拌机中搅拌铀238和铂. 接下来,粗胚粉需要带有钨钢线圈的工业高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些EV超导粗胚导线并使用组装机将这些导线与氮,氦,钨钢流体管道和IV泵组合在一起,以获得2048eu/t超导导线.
 
 #Quest_1409.Superconductors 8192 eu/t
 gtnh.quest1409.name=IV超导
-gtnh.quest1409.desc=无损的IV超导导线怎么样？ IV超导是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导线和只有极小损耗的超导粗胚. 在高压搅拌机中搅拌钒和铟. 现在你有了粗胚粉,它需要一个带有HSS-G线圈的电力高炉(EBF),还有一个真空冷冻机来冷却它. 制造一些IV超导粗胚导线并使用组装机将这些线与氮,氦和铌钛流体管道和LuV泵组合在一起,以获得你的8192EU/t超导导线.
+gtnh.quest1409.desc=无损的IV超导导线怎么样？ IV超导是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导线和只有极小损耗的超导粗胚. 在高压搅拌机中搅拌钒和铟. 现在你有了粗胚粉,它需要一个带有HSS-G线圈的工业高炉(EBF),还有一个真空冷冻机来冷却它. 制造一些IV超导粗胚导线并使用组装机将这些线与氮,氦和铌钛流体管道和LuV泵组合在一起,以获得你的8192EU/t超导导线.
 
 #Quest_1410.IV Mixer
 gtnh.quest1410.name=IV搅拌机
@@ -5696,9 +5696,9 @@ gtnh.quest1422.desc=......周而复始,24小时运作. 一个大型的洗矿厂�
 gtnh.quest1423.name=在圈子里跳舞
 gtnh.quest1423.desc=旋转,变热--听起来像一个舞蹈. 或是热力离心机. 建造一个工业热力精炼厂,以充分利用你的矿石. 只要你有至少8个热处理机械方块,你可以使用噪音危险标志代替热处理机械方块.
 
-#Quest_1424.Find Titanium
-gtnh.quest1424.name=寻找钛
-gtnh.quest1424.desc=如果你很幸运,你会发现一种纯钛矿石,使处理过程更容易. 钛可以在月球上找到Y=10-70.
+#Quest_1424.Find Ilmenite
+gtnh.quest1424.name=寻找钛铁
+gtnh.quest1424.desc=钛铁相比于铝土来说可以出产更多的钛. 钛铁矿脉可以在月球上Y=10-70找到.
 
 #Quest_1425.Calculation processor
 gtnh.quest1425.name=运算处理器
@@ -5946,7 +5946,7 @@ gtnh.quest1485.desc=碳弩臂的耐久是镁铝合金弩臂耐久的1/3,但伤�
 
 #Quest_1486.Glowing Marshmallow
 gtnh.quest1486.name=热棉花糖
-gtnh.quest1486.desc=下一步是在电力高炉内加热生糖浆,达到4500K,同时加入氡气体以使其发光.  现在,你获得了麻痹II效果.
+gtnh.quest1486.desc=下一步是在工业高炉内加热生糖浆,达到4500K,同时加入氡气体以使其发光.  现在,你获得了麻痹II效果.
 
 #Quest_1487.Cooling your Marshmallow
 gtnh.quest1487.name=冷却你的棉花糖
@@ -5966,7 +5966,7 @@ gtnh.quest1490.desc=一些机器需要发射器和传感器,比如说扫描仪�
 
 #Quest_1491.HSSG
 gtnh.quest1491.name=HSS-G
-gtnh.quest1491.desc=在你用钨钢升级了电力高炉的线圈后,你可以制作高速钢(HSS-G)锭了.这种锭在LuV阶段很重要.  HSS-G是由钨钢、铬、钼和钒混合而成的.
+gtnh.quest1491.desc=在你用钨钢升级了工业高炉的线圈后,你可以制作高速钢(HSS-G)锭了.这种锭在LuV阶段很重要.  HSS-G是由钨钢、铬、钼和钒混合而成的.
 
 #Quest_1492.Plunger 2.0 The Hand Pump Replacement
 gtnh.quest1492.name=搋子2.0替代手泵
@@ -5978,7 +5978,7 @@ gtnh.quest1493.desc=LuV级. 你的机器需要铬. 建议去的行星和卫星:�
 
 #Quest_1494.Stainless taking too long?
 gtnh.quest1494.name=不锈钢需要太长时间？
-gtnh.quest1494.desc=是时候起第二个高炉了！ 你可以通过3种方式更快地制造锭:更好的线圈,更高等级的能源仓或增加更多的高炉. 可能是时候向你的基地添加第二个电力高炉(EBF)了. 电力高炉(EBF)可以共用墙壁和输入/输出仓(总线),但不能共用消声仓或维护仓. 请记住污染将非常高,如果同时有两个电力高炉(EBF)运行！请注意高污染效应. 使用最好的消声仓,不要将电力高炉(EBF)放在与农田附近,也不要与其他高污染机器(如热解炉和大型锅炉)放在相同区块中. 你可以使用你周围的任何线圈,但你可能想要开始寻找一些窍门,如果你还没有找到的话.
+gtnh.quest1494.desc=是时候起第二个高炉了！ 你可以通过3种方式更快地制造锭:更好的线圈,更高等级的能源仓或增加更多的高炉. 可能是时候向你的基地添加第二个工业高炉(EBF)了. 工业高炉(EBF)可以共用墙壁和输入/输出仓(总线),但不能共用消声仓或维护仓. 请记住污染将非常高,如果同时有两个工业高炉(EBF)运行！请注意高污染效应. 使用最好的消声仓,不要将工业高炉(EBF)放在与农田附近,也不要与其他高污染机器(如热解炉和大型锅炉)放在相同区块中. 你可以使用你周围的任何线圈,但你可能想要开始寻找一些窍门,如果你还没有找到的话.
 
 #Quest_1495.All alone in the night
 gtnh.quest1495.name=一个人在夜里
@@ -6090,7 +6090,7 @@ gtnh.quest1521.desc=筛选机运行得如此之慢,你应该制作一个HV筛选
 
 #Quest_1522.Niobium-Titanium
 gtnh.quest1522.name=铌钛合金
-gtnh.quest1522.desc=在LuV阶段,铌钛合金变得非常重要.它需要EV搅拌机和拥有钨钢线圈的电力高炉制作.
+gtnh.quest1522.desc=在LuV阶段,铌钛合金变得非常重要.它需要EV搅拌机和拥有钨钢线圈的工业高炉制作.
 
 #Quest_1523.Can't find those ores?
 gtnh.quest1523.name=找不到那些矿石？
@@ -6098,11 +6098,11 @@ gtnh.quest1523.desc=难以找到一些基本矿石？买些矿石,然后用到�
 
 #Quest_1524.Better bolts
 gtnh.quest1524.name=更好的弩箭
-gtnh.quest1524.desc=如果你在MV阶段并且具有电力高炉(EBF),那么你可以使用钒钢作为箭头,制造新的镁铝合金弩箭.你的敌人会为你的力量而战栗. 在NEI下搜索"箭羽",看看是否还有别的箭羽选择. 祝你狩猎愉快！
+gtnh.quest1524.desc=如果你在MV阶段并且具有工业高炉(EBF),那么你可以使用钒钢作为箭头,制造新的镁铝合金弩箭.你的敌人会为你的力量而战栗. 在NEI下搜索"箭羽",看看是否还有别的箭羽选择. 祝你狩猎愉快！
 
 #Quest_1525.Best bolts?
 gtnh.quest1525.name=最好的弩箭？
-gtnh.quest1525.desc=你在月球上发现的陨铁,当通过电力高炉(EBF)冶炼后,变成了这种惊人的陨钢,边缘非常锋利. 用一些陨钢和充能合金杆制作一种很棒的弩箭. 你的下一个弩箭,你必须自己弄清楚它.左边的那些箭羽作为练习留给读者.
+gtnh.quest1525.desc=你在月球上发现的陨铁,当通过工业高炉(EBF)冶炼后,变成了这种惊人的陨钢,边缘非常锋利. 用一些陨钢和充能合金杆制作一种很棒的弩箭. 你的下一个弩箭,你必须自己弄清楚它.左边的那些箭羽作为练习留给读者.
 
 #Quest_1526.Best crossbow?
 gtnh.quest1526.name=最好的弩？
@@ -6670,11 +6670,11 @@ gtnh.quest1666.desc=要处理一些你以后会发现的新锭,你需要氩气. 
 
 #Quest_1667.Naquadah
 gtnh.quest1667.name=硅岩
-gtnh.quest1667.desc=在谷神星,你可以找到贫瘠硅岩矿石. 既然你有了粉和氩气,你可以制作一些硅岩锭.你的电力高炉(EBF)需要HSS-G线圈.
+gtnh.quest1667.desc=在谷神星,你可以找到贫瘠硅岩矿石. 既然你有了粉和氩气,你可以制作一些硅岩锭.你的工业高炉(EBF)需要HSS-G线圈.
 
 #Quest_1668.HSSG
 gtnh.quest1668.name=HSS-G
-gtnh.quest1668.desc=在你制造钨钢并且可以使用新线圈升级你的电力高炉后,你就可以制造HSS-G锭. 这种锭在LuV阶段中变得非常重要.HSS-G由钨钢,铬,钼和钒制成.
+gtnh.quest1668.desc=在你制造钨钢并且可以使用新线圈升级你的工业高炉后,你就可以制造HSS-G锭. 这种锭在LuV阶段中变得非常重要.HSS-G由钨钢,铬,钼和钒制成.
 
 #Quest_1669.IV Circuit Assembler
 gtnh.quest1669.name=IV电路组装机
@@ -6682,7 +6682,7 @@ gtnh.quest1669.desc=IV电路组装机可以让你轻松制作MV电路板,以及�
 
 #Quest_1670.Naquadah Doped Monocrystalline Silicon
 gtnh.quest1670.name=硅岩掺杂的单晶硅
-gtnh.quest1670.desc=要制作最先进的晶元,首先需要制作硅岩掺杂的单晶硅. 该过程需要750秒,并且需要将硅块和硅岩锭放入电力高炉中. 你可以从每个单晶硅中制作64个晶元.
+gtnh.quest1670.desc=要制作最先进的晶元,首先需要制作硅岩掺杂的单晶硅. 该过程需要750秒,并且需要将硅块和硅岩锭放入工业高炉中. 你可以从每个单晶硅中制作64个晶元.
 
 #Quest_1671.Naquadah Doped Wafer
 gtnh.quest1671.name=硅岩掺杂的晶元
@@ -6846,7 +6846,7 @@ gtnh.quest1710.desc=晶体处理器主机是你可以制作的第一个UV电路.
 
 #Quest_1711.Superconductors 32768 eu/t
 gtnh.quest1711.name=32768-EU/t的超导
-gtnh.quest1711.desc=无损32768-EU-LuV导线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide(是的你没有看错,这就是这种材料的原文)是一种超导导线,可以毫无损失地传输你的能量. 现在每个电压都有超导导线和粗胚,粗胚的线损很小. 在EV搅拌机中搅拌铟,锡,钡,钽,铜和氧.现在你有了超导粗胚粉,它需要一个带有硅岩线圈的电力高炉(EBF),以及一个真空冷冻机来冷却它. 制造一些LuV超导粗胚导线并使用组装机将这些导线与氮,氦和微型末影(te)管道和LuV泵组合在一起,你就能获得32768-EU/t的超导导线.
+gtnh.quest1711.desc=无损32768-EU-LuV导线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide(是的你没有看错,这就是这种材料的原文)是一种超导导线,可以毫无损失地传输你的能量. 现在每个电压都有超导导线和粗胚,粗胚的线损很小. 在EV搅拌机中搅拌铟,锡,钡,钽,铜和氧.现在你有了超导粗胚粉,它需要一个带有硅岩线圈的工业高炉(EBF),以及一个真空冷冻机来冷却它. 制造一些LuV超导粗胚导线并使用组装机将这些导线与氮,氦和微型末影(te)管道和LuV泵组合在一起,你就能获得32768-EU/t的超导导线.
 
 #Quest_1712.Cheaper LV circuits
 gtnh.quest1712.name=廉价的低压电路
@@ -6874,7 +6874,7 @@ gtnh.quest1717.desc=金星有两种你真正想要的矿石.一个是量子矿�
 
 #Quest_1718.Yttrium-Barium-Cuprate
 gtnh.quest1718.name=钇钡铜
-gtnh.quest1718.desc=在LuV阶段中,钇钡铜变得更加重要. 它需要EV搅拌机和钨钢线圈的电力高炉.
+gtnh.quest1718.desc=在LuV阶段中,钇钡铜变得更加重要. 它需要EV搅拌机和钨钢线圈的工业高炉.
 
 #Quest_1719.Power of the Sun 1x1 EV
 gtnh.quest1719.name=EV太阳能
@@ -7058,7 +7058,7 @@ gtnh.quest1763.desc=好吧,你有你的电脑,它说“Hello World！”当你�
 
 #Quest_1764.Basic Power Display
 gtnh.quest1764.name=基本电源显示
-gtnh.quest1764.desc=对于这一部分,我们将学习如何使用我们的适配器,将它放在旁边-比如你的电力高炉(EBF)电池缓冲区并用线缆将它连接到计算机. 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序. 在'component.list（）'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer. 如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了. 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法. 我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge. 因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量.这是一个使用它的程序示例. 在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的. 我想这就足够了;恭喜！实验和学习,不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局. 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.\nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.\n\nType in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.\nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.\n\nSo now assign a variable to it;for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.\nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type\n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.\n\n So if we're using a 2x2 battery buffer;we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end\nPoof you now see what all the batteries EU values.  Now what can we do with this?\n\nTry making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'\n\nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.\n\nPlace in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.\n\nI suppose that's enough for now;congrats!  Experiment and learn, and don't forget to check google as much as possible!  \nThis questline will be updated again in the future;but I figure this is a good ending point for now.
+gtnh.quest1764.desc=对于这一部分,我们将学习如何使用我们的适配器,将它放在旁边-比如你的工业高炉(EBF)电池缓冲区并用线缆将它连接到计算机. 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序. 在'component.list（）'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer. 如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了. 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法. 我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge. 因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量.这是一个使用它的程序示例. 在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的. 我想这就足够了;恭喜！实验和学习,不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局. 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.\nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.\n\nType in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.\nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.\n\nSo now assign a variable to it;for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.\nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type\n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.\n\n So if we're using a 2x2 battery buffer;we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end\nPoof you now see what all the batteries EU values.  Now what can we do with this?\n\nTry making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'\n\nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.\n\nPlace in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.\n\nI suppose that's enough for now;congrats!  Experiment and learn, and don't forget to check google as much as possible!  \nThis questline will be updated again in the future;but I figure this is a good ending point for now.
 
 #Quest_1765.Online Shopping - Tier 1
 gtnh.quest1765.name=在线购物-第一阶
@@ -7178,7 +7178,7 @@ gtnh.quest1793.desc=将泥土与沙子放入组装机,再加上一些种子油,�
 
 #Quest_1794.Even more stats
 gtnh.quest1794.name=更多信息
-gtnh.quest1794.desc=使用便携式扫描仪对种植于土地上的作物扫描,你可以获知作物信息与环境信息.  你可以在多方块任务栏的电力高炉任务后找到便携式扫描仪的任务.
+gtnh.quest1794.desc=使用便携式扫描仪对种植于土地上的作物扫描,你可以获知作物信息与环境信息.  你可以在多方块任务栏的工业高炉任务后找到便携式扫描仪的任务.
 
 #Quest_1795.Metals from the Sky
 gtnh.quest1795.name=天外金属
@@ -7270,7 +7270,7 @@ gtnh.quest1816.desc=为了方解石找了一年的青金石矿脉?我来卖给�
 
 #Quest_1817.Upgrade #7: Upgrade tier 8 - Electrum Flux Coils
 gtnh.quest1817.name=升级#7:升级到第8阶 - 通流琥珀金线圈
-gtnh.quest1817.desc=处理更先进的材料(宇宙中子素、三钛合金和觉醒龙锭),你需要超过9000K的炉温.将你的电力高炉温度提高到12000K.
+gtnh.quest1817.desc=处理更先进的材料(宇宙中子素、三钛合金和觉醒龙锭),你需要超过9000K的炉温.将你的工业高炉温度提高到9900K.
 
 #Quest_1818.Large Essentia Generator
 gtnh.quest1818.name=大型源质发电机
@@ -7289,8 +7289,8 @@ gtnh.quest1821.name=线缆二极管
 gtnh.quest1821.desc=有时候你只需要一个二极管,无论是为了防止电流在复杂的能量系统中回流,或是在Thermos服务器的边界.制作一个4A二极管,我会送你个2A的!
 
 #Quest_1822.Manual Transformer
-gtnh.quest1822.name=手动变压器
-gtnh.quest1822.desc=你是否被建造一长串分级变压器所困扰?不想让你的基地有爆炸的风险?想要使用TecTech的64A能源仓和动力仓来转换你的电力?制作一个手动动力仓吧!
+gtnh.quest1822.name=可调变压器
+gtnh.quest1822.desc=你是否被建造一长串分级变压器所困扰?不想让你的基地有爆炸的风险?想要使用TecTech的64A能源仓和动力仓来转换你的电力?制作一个可调动力仓吧!
 
 #Quest_1823.Mobile Trash Can
 gtnh.quest1823.name=便携式垃圾桶
@@ -7334,7 +7334,7 @@ gtnh.quest1832.desc=风车可以用风的力量研磨物品和方块.它非常�
 
 #Quest_1833.Upgrade #8: Upgrade tier 9 - Awakened Draconium Coils
 gtnh.quest1833.name=升级#8:升级到第9阶 - 觉醒龙锭线圈
-gtnh.quest1833.desc=处理最先进的材料(无尽催化剂、无尽),你需要超过12000K的炉温.将你的电力高炉温度提高到15000K.
+gtnh.quest1833.desc=处理最先进的材料(无尽催化剂、无尽),你需要超过12000K的炉温.将你的工业高炉温度提高到10800K.
 
 #Quest_1834.Mushroom Biomes ? why there so many?
 gtnh.quest1834.name=蘑菇岛?为什么有这么多蘑菇岛?
@@ -7350,7 +7350,7 @@ gtnh.quest1836.desc=小刀这样的GT工具在处理食物时用完了?潘马斯
 
 #Quest_1837.Ardite and Cobalt Mining
 gtnh.quest1837.name=开采阿迪特和钴
-gtnh.quest1837.desc=铁木比你想象的还要坚固耐用.用它制作的工具和装甲有优越的性能.用它制作镐,开采等级能达到钴,这意味着你可以不用电力高炉也能获得阿迪特和钴.
+gtnh.quest1837.desc=铁木比你想象的还要坚固耐用.用它制作的工具和装甲有优越的性能.用它制作镐,开采等级能达到钴,这意味着你可以不用工业高炉也能获得阿迪特和钴.
 
 #Quest_1838.Low on Sticks?
 gtnh.quest1838.name=苍穹树
@@ -7413,8 +7413,8 @@ gtnh.quest1852.name=她转了一圈又一圈...
 gtnh.quest1852.desc=...但她永远不会停下,因为你永远有东西要磨.你可以用漏斗使风车永远装满需要处理的物品.只需要记得从发射器中把成品取出来.
 
 #Quest_1853.Moron's Manual for Effective EBFing
-gtnh.quest1853.name=高效电力高炉"智者"手册
-gtnh.quest1853.desc=欢迎来到最后一册"智者"手册,高效电力高炉! 这本手册包含了使用GT电力高炉会遇到的常见问题.  安装 安装你的电力高炉时,确保将其远离你的日常活动区域.没有人会喜欢污染的!  安装时,确保高炉内部中空.有时某些东西可能会偷偷溜进去,比如神秘时代的光球!  确保你的消声仓面向外面.如果不能散发出那些令人愉快的气体,电力高炉就不能工作!  在放置能源仓时,减少发电机到电力高炉的距离.  尤其是在LV电压时,短短的几米将会导致很大差异!  通过线缆传输的每安电流都会损失一点点-而你需要尽可能减少这种损失!  输出仓和输出总线会向与出口相邻的储罐和箱子自动输出流体或物品.  当输出仓/总线满了后,它们会吞掉此后的产物,所以看着点它们!  建造多个高炉时,它们可以共用机械方块、线圈、仓室、总线,节省你的开支.  不推荐共用能源仓和维护仓!(译者注:能源仓为2A输入,所以可以两台共用一个能源仓,但确保使用双能源仓升压的高炉运行时,与其共用能源仓的高炉关闭)
+gtnh.quest1853.name=高效工业高炉"智者"手册
+gtnh.quest1853.desc=欢迎来到最后一册"智者"手册,高效工业高炉! 这本手册包含了使用GT工业高炉会遇到的常见问题.  安装 安装你的工业高炉时,确保将其远离你的日常活动区域.没有人会喜欢污染的!  安装时,确保高炉内部中空.有时某些东西可能会偷偷溜进去,比如神秘时代的光球!  确保你的消声仓面向外面.如果不能散发出那些令人愉快的气体,工业高炉就不能工作!  在放置能源仓时,减少发电机到工业高炉的距离.  尤其是在LV电压时,短短的几米将会导致很大差异!  通过线缆传输的每安电流都会损失一点点-而你需要尽可能减少这种损失!  输出仓和输出总线会向与出口相邻的储罐和箱子自动输出流体或物品.  当输出仓/总线满了后,它们会吞掉此后的产物,所以看着点它们!  建造多个高炉时,它们可以共用机械方块、线圈、仓室、总线,节省你的开支.  不推荐共用能源仓和维护仓!(译者注:能源仓为2A输入,所以可以两台共用一个能源仓,但确保使用双能源仓升压的高炉运行时,与其共用能源仓的高炉关闭)
 
 #Quest_1854.Just like Mom used to make
 gtnh.quest1854.name=就像妈妈以前做的
@@ -7482,7 +7482,7 @@ gtnh.quest1869.desc=某些物品离心处理后会留下气体,比如氢气或�
 
 #Quest_1870.Diesel, oil or maybe creosote? MV
 gtnh.quest1870.name=柴油,石油或者杂酚油? MV
-gtnh.quest1870.desc=你可能收集了成吨的杂酚油,甚至可能已经建造了第一台电力高炉.这时,杂酚油就是不错的燃料.所以试着制造一些柴油发电机并用它们作为蒸汽以外的第二种能量来源.小型发电机只会在有EU需求时使用燃料.MV柴油发电机的燃料效率为90%.
+gtnh.quest1870.desc=你可能收集了成吨的杂酚油,甚至可能已经建造了第一台工业高炉.这时,杂酚油就是不错的燃料.所以试着制造一些柴油发电机并用它们作为蒸汽以外的第二种能量来源.小型发电机只会在有EU需求时使用燃料.MV柴油发电机的燃料效率为90%.
 
 #Quest_1871.Field Generator I
 gtnh.quest1871.name=力场发生器 I
@@ -7555,6 +7555,18 @@ gtnh.quest1887.desc=这个任务是Shawnbyday建议添加的.如果你有一个L
 #Quest_1888.Repairing your Hazmat Suit
 gtnh.quest1888.name=修理你的防化服
 gtnh.quest1888.desc=穿着防化服的时候得小心.它的耐久不高.  在你进入LV时代能制作一套新的之前,你可以在这里修理你的防化服.
+
+#Quest_1889.Healing Axe 2.0
+gtnh.quest1889.name=治愈之斧 2.0
+gtnh.quest1889.desc=多人组队完成治愈之斧任务后只能免费获得一把治愈之斧,想要一人一把？ 买一些吧!
+
+#Quest_1890.IV Assembler
+gtnh.quest1890.name=IV组装机
+gtnh.quest1890.desc=想要制作HV太阳能覆盖版,你需要富集阳光化合物,做一台IV组装机吧!  它比EV组装机快一倍.
+
+#Quest_1891.Desh, Scheelite, Tungstate
+gtnh.quest1891.name=戴斯, 白钨, 钨酸盐
+gtnh.quest1891.desc=钨钢是你不可或缺的一种材料,但你首先得在火星上找到戴斯、白钨、钨酸盐三者混合的矿脉. 搜索Y=5-40.
 
 ##################################Line##################################
 
@@ -7647,7 +7659,7 @@ gtnh.line21.name=魔法学徒
 gtnh.line21.desc=魔法的奥秘皆藏于此.卓越的成就,但也需要大量的工作.我将成为你的导师.照我的指导,你将成为一位伟大的法师,就像我.
 
 #Adept Thaumaturgy
-gtnh.line22.name==熟练的神秘使
+gtnh.line22.name=熟练的神秘使
 gtnh.line22.desc=囊括扭曲.
 
 #Kaaami, Haaaami, ... HA!
