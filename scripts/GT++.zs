@@ -6,8 +6,6 @@
 
 
 import mods.gregtech.Assembler;
-import mods.gregtech.Canner;
-import mods.gregtech.FluidCanner;
 
 
 
@@ -43,6 +41,29 @@ recipes.remove(<miscutils:frameArborists>);
 // --- personal Cloaking Device
 recipes.remove(<miscutils:personalCloakingDevice-0.0>);
 
+// --- UHV Motor
+recipes.remove(<gregtech:gt.metaitem.01:32596>);
+
+// --- UHV Pump
+recipes.remove(<gregtech:gt.metaitem.01:32618>);
+
+// --- UHV Conveyor
+recipes.remove(<gregtech:gt.metaitem.01:32638>);
+
+// --- UHV Piston
+recipes.remove(<gregtech:gt.metaitem.01:32648>);
+
+// --- UHV Robot Arm
+recipes.remove(<gregtech:gt.metaitem.01:32658>);
+
+// --- UHV Emitter
+recipes.remove(<gregtech:gt.metaitem.01:32688>);
+
+// --- UHV Sensor
+recipes.remove(<gregtech:gt.metaitem.01:32698>);
+
+// --- UHV Field generator
+recipes.remove(<gregtech:gt.metaitem.01:32678>);
 
 
 
@@ -53,7 +74,7 @@ recipes.remove(<miscutils:personalCloakingDevice-0.0>);
 // --- Thermal Boiler
 recipes.addShaped(<gregtech:gt.blockmachines:875>, [
 [<RIO:tile.machine:1>, <gregtech:gt.blockmachines:363>, <RIO:tile.machine:1>],
-[<ore:gearGtTitanium>, <ore:circuitElite>, <ore:gearGtTitanium>],
+[<ore:gearGtTungstenSteel>, <ore:circuitElite>, <ore:gearGtTungstenSteel>],
 [<RIO:tile.machine:1>, <gregtech:gt.blockmachines:363>, <RIO:tile.machine:1>]]);
 
 // --- Accelerated Frame
@@ -114,36 +135,3 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 
 // --- Personla Cloaking Device
 Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium> * 4, <gregtech:gt.metaitem.01:32597>, <liquid:molten.nichrome> * 1440, 2400, 7860);
-
-
-
-
-
-// --- Canner Recipes ---
-
-
-
-
-// --- Gelid Cryotheum
-//Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <miscutils:material:4>, <IC2:itemFluidCell>, 100, 120);
-
-// --- Blazing Cryotheum
-//Canner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <gregtech:gt.metaitem.01:2843>, <IC2:itemFluidCell>, 100, 120);
-
-
-
-
-// --- Fluid Canner ---
-
-
-
-
-// --- Gelid Cryotheum
-//FluidCanner.addRecipe(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <liquid:cryotheum> * 1000, null);
-// -
-//FluidCanner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}), <IC2:itemFluidCell>, null, <liquid:cryotheum> * 1000);
-
-// --- Blazing Pyrotheum
-//FluidCanner.addRecipe(<IC2:itemFluidCell>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <liquid:pyrotheum> * 1000, null);
-// -
-//FluidCanner.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "pyrotheum", Amount: 1000}}), <IC2:itemFluidCell>, null, <liquid:pyrotheum> * 1000);
