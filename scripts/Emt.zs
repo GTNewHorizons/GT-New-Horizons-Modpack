@@ -648,10 +648,48 @@ mods.thaumcraft.Arcane.addShaped("CompressedSolars", <EMT:EMTSolars:1>, "aer 100
 [<EMT:EMTSolars>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <EMT:EMTSolars>],
 [<EMT:EMTSolars>, <EMT:EMTSolars>, <EMT:EMTSolars>]]);
 mods.thaumcraft.Research.addArcanePage("CompressedSolars", <EMT:EMTSolars:1>);
-mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <EMT:EMTSolars:1>,
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>,
 [<dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>], 
 "aer 150, aqua 150, terra 150, ignis 150, ordo 150, perditio 150", <EMT:EMTSolars:2>, 15);
 mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars:2>);
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedChromePlate>,
+[
+<dreamcraft:item.IrradiantReinforcedChromePlate>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>,
+<dreamcraft:item.IrradiantReinforcedChromePlate>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>
+], 
+"aer 300, aqua 300, terra 300, ignis 300, ordo 300, perditio 300", <EMT:EMTSolars3>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3>);
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <AdvancedSolarPanel:asp_crafting_items:8>,
+[
+<AdvancedSolarPanel:asp_crafting_items:8>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>,
+<AdvancedSolarPanel:asp_crafting_items:8>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>
+], 
+"aer 600, aqua 600, terra 600, ignis 600, ordo 600, perditio 600", <EMT:EMTSolars3:7>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3:7>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>,
+[
+<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>,
+<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>
+], 
+"aer 1200, aqua 1200, terra 1200, ignis 1200, ordo 1200, perditio 1200", <EMT:EMTSolars3:14>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3:14>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>,
+[
+<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>,
+<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>
+], 
+"aer 2400, aqua 2400, terra 2400, ignis 2400, ordo 2400, perditio 2400", <EMT:EMTSolars4:5>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:5>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <AdvancedSolarPanel:asp_crafting_items:13>,
+[
+<AdvancedSolarPanel:asp_crafting_items:13>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>,
+<AdvancedSolarPanel:asp_crafting_items:13>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>
+], 
+"aer 4800, aqua 4800, terra 4800, ignis 4800, ordo 4800, perditio 4800", <EMT:EMTSolars4:12>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:12>);
 
 // --- Water Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Water Infused Solar Panels");
@@ -669,6 +707,18 @@ mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:4>,
 mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:4>);
 mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:5>, <EMT:EMTSolars:2>, "aqua 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:5>);
+//new ones
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars3:5>, <EMT:EMTSolars3>, "aqua 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars3:5>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars3:12>, <EMT:EMTSolars3:7>, "aqua 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars3:12>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars4:3>, <EMT:EMTSolars3:14>, "aqua 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars4:3>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars4:10>, <EMT:EMTSolars4:5>, "aqua 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars4:10>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>, <EMT:EMTSolars4:12>, "aqua 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>);
+
 
 // --- Entropy Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Entropy Infused Solar Panels");
@@ -687,6 +737,18 @@ mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSo
 mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars:8>, <EMT:EMTSolars:2>, "perditio 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars:8>);
 
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars3:2>, <EMT:EMTSolars3>, "perditio 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars3:2>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars3:9>, <EMT:EMTSolars3:7>, "perditio 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars3:9>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4>, <EMT:EMTSolars3:14>, "perditio 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4:7>, <EMT:EMTSolars4:5>, "perditio 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4:7>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4:14>, <EMT:EMTSolars4:12>, "perditio 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4:14>);
+
+
 // --- Order Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Order Infused Solar Panels");
@@ -703,6 +765,18 @@ mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:10>
 mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:10>);
 mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:11>, <EMT:EMTSolars:2>, "ordo 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:11>);
+
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:1>, <EMT:EMTSolars3>, "ordo 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:1>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:8>, <EMT:EMTSolars3:7>, "ordo 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:8>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:15>, <EMT:EMTSolars3:14>, "ordo 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:15>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars4:6>, <EMT:EMTSolars4:5>, "ordo 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars4:6>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars4:13>, <EMT:EMTSolars4:12>, "ordo 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars4:13>);
+
 
 // --- Fire Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Fire Infused Solar Panels");
@@ -721,6 +795,17 @@ mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolar
 mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars:14>, <EMT:EMTSolars:2>, "ignis 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars:14>);
 
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars3:6>, <EMT:EMTSolars3>, "ignis 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars3:6>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars3:13>, <EMT:EMTSolars3:7>, "ignis 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars3:13>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars4:4>, <EMT:EMTSolars3:14>, "ignis 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars4:4>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars4:11>, <EMT:EMTSolars4:5>, "ignis 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars4:11>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars5:2>, <EMT:EMTSolars4:12>, "ignis 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars5:2>);
+
 // --- Air Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Air Infused Solar Panels");
@@ -737,6 +822,17 @@ mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars2>, <E
 mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars2>);
 mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars2:1>, <EMT:EMTSolars:2>, "aer 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars2:1>);
+
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars3:3>, <EMT:EMTSolars3>, "aer 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars3:3>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars3:10>, <EMT:EMTSolars3:7>, "aer 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars3:10>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:1>, <EMT:EMTSolars3:14>, "aer 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:1>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:8>, <EMT:EMTSolars4:5>, "aer 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:8>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:15>, <EMT:EMTSolars4:12>, "aer 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:15>);
 
 // --- Earth Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Earth Infused Solar Panels");
@@ -755,6 +851,16 @@ mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSola
 mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>, <EMT:EMTSolars:2>, "terra 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>);
 
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars3:4>, <EMT:EMTSolars3>, "terra 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars3:4>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars3:11>, <EMT:EMTSolars3:7>, "terra 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars3:11>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars4:2>, <EMT:EMTSolars3:14>, "terra 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars4:2>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>, <EMT:EMTSolars4:5>, "terra 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars5>, <EMT:EMTSolars4:12>, "terra 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars5>);
 // --- Electric Hoe of Growth
 mods.thaumcraft.Research.orphanResearch("Electric Hoe of Growth");
 mods.thaumcraft.Research.removeResearch("Electric Hoe of Growth");
