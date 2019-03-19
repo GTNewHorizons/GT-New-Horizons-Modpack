@@ -418,6 +418,7 @@ mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrickfan
 // --- Chiselgroup Concrete
 mods.chisel.Groups.addVariation("concrete", <gregtech:gt.blockconcretes:8>);
 
+
 // --- Glowstone
 mods.chisel.Groups.addGroup("glowstoneGTNH");
 // -
@@ -459,7 +460,8 @@ mods.chisel.Groups.addVariation("torch", <GalacticraftCore:tile.glowstoneTorch>)
 
 
 
-
+// --- Aluminium Block GT
+mods.chisel.Groups.addVariation("aluminumblock", <gregtech:gt.blockmetal1:1>);
 
 
 
