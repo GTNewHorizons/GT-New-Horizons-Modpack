@@ -1131,6 +1131,19 @@ recipes.addShaped(Inscriber,[
 [<IC2:itemRecipePart>,<gregtech:gt.blockmachines:604>,<IC2:itemRecipePart>], 
 [<ore:plateTitanium>, <ore:gemFluix>, <ore:plateTitanium>]]);
 
+// --- Quartz Cutting Knife
+recipes.addShaped(<appliedenergistics2:item.ToolCertusQuartzCuttingKnife>, [
+[<ore:craftingToolHardHammer>, <ore:screwTitanium>, <ore:stickWood>], 
+[<ore:gemCertusQuartz>, <ore:stickWood>, <ore:screwTitanium>], 
+[<ore:plateCertusQuartz>, <ore:gemCertusQuartz>, <ore:craftingToolFile>]]);
+
+// --- Nether Quartz Knife
+recipes.addShaped(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>, [
+[<ore:craftingToolHardHammer>, <ore:screwTitanium>, <ore:stickWood>], 
+[<ore:gemNetherQuartz>, <ore:stickWood>, <ore:screwTitanium>], 
+[<ore:plateNetherQuartz>, <ore:gemNetherQuartz>, <ore:craftingToolFile>]]);
+
+
 
 
 
