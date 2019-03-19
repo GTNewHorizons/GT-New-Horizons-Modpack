@@ -539,7 +539,7 @@ furnace.remove(<ore:ingotMeteoricIron>, <GalacticraftCore:item.meteoricIronRaw>)
 recipes.remove(<GalacticraftCore:item.parachute>);
 
 // --- Desh smelting
-furnace.remove(<GalacticraftMars:item.null>);
+furnace.remove(<ore:ingotDesh>, <GalacticraftMars:item.null>);
 
 
 
