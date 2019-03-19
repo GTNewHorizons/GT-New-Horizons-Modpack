@@ -290,9 +290,9 @@ mods.avaritia.ExtremeCrafting.addShaped(Mutatron, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, MutagenTank, <ore:plateMysteriousCrystal>, GeneticsProcessor, <ore:plateMysteriousCrystal>, MutagenTank, null, null],
-[null, null, OsmiumGear, BeeReceptacle, <gendustry:HoneyComb:702>, BeeReceptacle, OsmiumGear, null, null],
+[null, null, OsmiumGear, BeeReceptacle, <gregtech:gt.comb:79>, BeeReceptacle, OsmiumGear, null, null],
 [null, null, <gregtech:gt.metaitem.01:32656>, PowerModule, HardCasing, PowerModule, <gregtech:gt.metaitem.01:32656>, null, null],
-[null, null, OsmiumGear, BeeReceptacle, <gendustry:HoneyComb:702>, BeeReceptacle, OsmiumGear, null, null],
+[null, null, OsmiumGear, BeeReceptacle, <gregtech:gt.comb:79>, BeeReceptacle, OsmiumGear, null, null],
 [null, null, MutagenTank, <ore:plateMysteriousCrystal>, GeneticsProcessor, <ore:plateMysteriousCrystal>, MutagenTank, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
@@ -314,9 +314,9 @@ mods.avaritia.ExtremeCrafting.addShaped(AdvMutatron, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, NaqudahAlloyGear, <ore:plateCosmicNeutronium>, PowerModule, <ore:plateCosmicNeutronium>, NaqudahAlloyGear, null, null],
-[null, null, <ore:plateCosmicNeutronium>, <gendustry:HoneyComb:707>, GeneticsProcessor, <gendustry:HoneyComb:707>, <ore:plateCosmicNeutronium>, null, null],
+[null, null, <ore:plateCosmicNeutronium>, <gregtech:gt.comb:85>, GeneticsProcessor, <gregtech:gt.comb:85>, <ore:plateCosmicNeutronium>, null, null],
 [null, null, <gregtech:gt.metaitem.01:32657>, GeneticsProcessor, Mutatron, GeneticsProcessor, <gregtech:gt.metaitem.01:32657>, null, null],
-[null, null, <ore:plateCosmicNeutronium>, <gendustry:HoneyComb:707>, GeneticsProcessor, <gendustry:HoneyComb:707>, <ore:plateCosmicNeutronium>, null, null],
+[null, null, <ore:plateCosmicNeutronium>, <gregtech:gt.comb:85>, GeneticsProcessor, <gregtech:gt.comb:85>, <ore:plateCosmicNeutronium>, null, null],
 [null, null, NaqudahAlloyGear, <ore:plateCosmicNeutronium>, PowerModule, <ore:plateCosmicNeutronium>, NaqudahAlloyGear, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
@@ -352,13 +352,13 @@ recipes.addShaped(Replicator, [
 
 // --- Bee Receptacle
 recipes.addShaped(BeeReceptacle, [
-[HSSScrew, <gendustry:HoneyComb:701>, HSSScrew],
+[HSSScrew, <gregtech:gt.comb:78>, HSSScrew],
 [IridiumAlloyCasing, OsmiumBars, IridiumAlloyCasing],
 [HSSScrew, Screwdriver, HSSScrew]]);
 
 // --- Power Module
 recipes.addShaped(PowerModule, [
-[VanadiumGalliumCable, <gendustry:HoneyComb:702>, VanadiumGalliumCable],
+[VanadiumGalliumCable, <gregtech:gt.comb:79>, VanadiumGalliumCable],
 [IridiumAlloyCasing, <ore:circuitMaster>, IridiumAlloyCasing],
 [OsmiumSmallGear, LuVMotor, OsmiumSmallGear]]);
 
@@ -502,7 +502,7 @@ recipes.addShaped(<gendustry:IndustrialScoop:100>, [
 
 // --- Climate Control Module
 recipes.addShaped(<gendustry:ClimateModule>, [
-[<gendustry:HoneyComb:610>, Coil, <gendustry:HoneyComb:700>],
+[<gregtech:gt.comb:70>, Coil, <gregtech:gt.comb:77>],
 [PalladiumRod, OsmiumRotor, PalladiumRod],
 [IridiumAlloyCasing, LuVMotor, IridiumAlloyCasing]]);
 
@@ -568,278 +568,5 @@ Assembler.addRecipe(<gendustry:ImportCover>, <gregtech:gt.metaitem.01:17052>, <I
 
 // --- Error Sensor Cover
 Assembler.addRecipe(<gendustry:ErrorSensorCover>, <gregtech:gt.metaitem.01:17052>, <IC2:upgradeModule:5>, 200, 7680);
-
-
-
-// --- Ordict Combs ---
-
-
-
-comb.add(<gendustry:HoneyComb:101>);
-oreDict.combLv.add(<gendustry:HoneyComb:101>);
-comb.add(<gendustry:HoneyComb:1105>);
-oreDict.combIv.add(<gendustry:HoneyComb:1105>);
-comb.add(<gendustry:HoneyComb:1110>);
-oreDict.combLv.add(<gendustry:HoneyComb:1110>);
-comb.add(<gendustry:HoneyComb:1200>);
-oreDict.combHv.add(<gendustry:HoneyComb:1200>);
-comb.add(<gendustry:HoneyComb:408>);
-oreDict.combLv.add(<gendustry:HoneyComb:408>);
-comb.add(<gendustry:HoneyComb:308>);
-oreDict.combHv.add(<gendustry:HoneyComb:308>);
-comb.add(<gendustry:HoneyComb:1205>);
-oreDict.combIv.add(<gendustry:HoneyComb:1205>);
-comb.add(<gendustry:HoneyComb:511>);
-oreDict.combLv.add(<gendustry:HoneyComb:511>);
-comb.add(<gendustry:HoneyComb:614>);
-oreDict.combHv.add(<gendustry:HoneyComb:614>);
-comb.add(<gendustry:HoneyComb:202>);
-oreDict.combMv.add(<gendustry:HoneyComb:202>);
-comb.add(<gendustry:HoneyComb:10>);
-oreDict.combLv.add(<gendustry:HoneyComb:10>);
-comb.add(<gendustry:HoneyComb:500>);
-oreDict.combLv.add(<gendustry:HoneyComb:500>);
-comb.add(<gendustry:HoneyComb:404>);
-oreDict.combLv.add(<gendustry:HoneyComb:404>);
-comb.add(<gendustry:HoneyComb:1001>);
-oreDict.combHv.add(<gendustry:HoneyComb:1001>);
-comb.add(<gendustry:HoneyComb:24>);
-oreDict.combLv.add(<gendustry:HoneyComb:24>);
-comb.add(<gendustry:HoneyComb:301>);
-oreDict.combMv.add(<gendustry:HoneyComb:301>);
-comb.add(<gendustry:HoneyComb:25>);
-oreDict.combLv.add(<gendustry:HoneyComb:25>);
-comb.add(<gendustry:HoneyComb:14>);
-oreDict.combLv.add(<gendustry:HoneyComb:14>);
-comb.add(<gendustry:HoneyComb:504>);
-oreDict.combLv.add(<gendustry:HoneyComb:504>);
-comb.add(<gendustry:HoneyComb:702>);
-oreDict.combIv.add(<gendustry:HoneyComb:702>);
-comb.add(<gendustry:HoneyComb:802>);
-oreDict.combEv.add(<gendustry:HoneyComb:802>);
-comb.add(<gendustry:HoneyComb:20>);
-oreDict.combLv.add(<gendustry:HoneyComb:20>);
-comb.add(<gendustry:HoneyComb:606>);
-oreDict.combLv.add(<gendustry:HoneyComb:606>);
-comb.add(<gendustry:HoneyComb:1100>);
-oreDict.combEv.add(<gendustry:HoneyComb:1100>);
-comb.add(<gendustry:HoneyComb:1302>);
-oreDict.combUhV.add(<gendustry:HoneyComb:1302>);
-comb.add(<gendustry:HoneyComb:1109>);
-oreDict.combLv.add(<gendustry:HoneyComb:1109>);
-comb.add(<gendustry:HoneyComb:602>);
-oreDict.combLv.add(<gendustry:HoneyComb:602>);
-comb.add(<gendustry:HoneyComb:411>);
-oreDict.combLv.add(<gendustry:HoneyComb:411>);
-comb.add(<gendustry:HoneyComb:1201>);
-oreDict.combHv.add(<gendustry:HoneyComb:1201>);
-comb.add(<gendustry:HoneyComb:1104>);
-oreDict.combHv.add(<gendustry:HoneyComb:1104>);
-comb.add(<gendustry:HoneyComb:507>);
-oreDict.combLv.add(<gendustry:HoneyComb:507>);
-comb.add(<gendustry:HoneyComb:206>);
-oreDict.combMv.add(<gendustry:HoneyComb:206>);
-comb.add(<gendustry:HoneyComb:307>);
-oreDict.combHv.add(<gendustry:HoneyComb:307>);
-comb.add(<gendustry:HoneyComb:1206>);
-oreDict.combIv.add(<gendustry:HoneyComb:1206>);
-comb.add(<gendustry:HoneyComb:512>);
-oreDict.combLv.add(<gendustry:HoneyComb:512>);
-comb.add(<gendustry:HoneyComb:201>);
-oreDict.combLv.add(<gendustry:HoneyComb:201>);
-comb.add(<gendustry:HoneyComb:102>);
-oreDict.combLv.add(<gendustry:HoneyComb:102>);
-comb.add(<gendustry:HoneyComb:302>);
-oreDict.combLv.add(<gendustry:HoneyComb:302>);
-comb.add(<gendustry:HoneyComb:407>);
-oreDict.combLv.add(<gendustry:HoneyComb:407>);
-comb.add(<gendustry:HoneyComb:21>);
-oreDict.combLv.add(<gendustry:HoneyComb:21>);
-comb.add(<gendustry:HoneyComb:1210>);
-oreDict.combZpm.add(<gendustry:HoneyComb:1210>);
-comb.add(<gendustry:HoneyComb:1106>);
-oreDict.combIv.add(<gendustry:HoneyComb:1106>);
-comb.add(<gendustry:HoneyComb:1111>);
-oreDict.combZpm.add(<gendustry:HoneyComb:1111>);
-comb.add(<gendustry:HoneyComb:403>);
-oreDict.combLv.add(<gendustry:HoneyComb:403>);
-comb.add(<gendustry:HoneyComb:610>);
-oreDict.combIv.add(<gendustry:HoneyComb:610>);
-comb.add(<gendustry:HoneyComb:901>);
-oreDict.combLv.add(<gendustry:HoneyComb:901>);
-comb.add(<gendustry:HoneyComb:1207>);
-oreDict.combIv.add(<gendustry:HoneyComb:1207>);
-comb.add(<gendustry:HoneyComb:706>);
-oreDict.combLv.add(<gendustry:HoneyComb:706>);
-comb.add(<gendustry:HoneyComb:1114>);
-oreDict.combZpm.add(<gendustry:HoneyComb:1114>);
-comb.add(<gendustry:HoneyComb:701>);
-oreDict.combEv.add(<gendustry:HoneyComb:701>);
-comb.add(<gendustry:HoneyComb:13>);
-oreDict.combLv.add(<gendustry:HoneyComb:13>);
-comb.add(<gendustry:HoneyComb:1002>);
-oreDict.combHv.add(<gendustry:HoneyComb:1002>);
-comb.add(<gendustry:HoneyComb:503>);
-oreDict.combLv.add(<gendustry:HoneyComb:503>);
-comb.add(<gendustry:HoneyComb:605>);
-oreDict.combHv.add(<gendustry:HoneyComb:605>);
-comb.add(<gendustry:HoneyComb:1202>);
-oreDict.combEv.add(<gendustry:HoneyComb:1202>);
-comb.add(<gendustry:HoneyComb:205>);
-oreDict.combLv.add(<gendustry:HoneyComb:205>);
-comb.add(<gendustry:HoneyComb:508>);
-oreDict.combLv.add(<gendustry:HoneyComb:508>);
-comb.add(<gendustry:HoneyComb:412>);
-oreDict.combLv.add(<gendustry:HoneyComb:412>);
-comb.add(<gendustry:HoneyComb:1103>);
-oreDict.combHv.add(<gendustry:HoneyComb:1103>);
-comb.add(<gendustry:HoneyComb:1301>);
-oreDict.combUv.add(<gendustry:HoneyComb:1301>);
-comb.add(<gendustry:HoneyComb:17>);
-oreDict.combLv.add(<gendustry:HoneyComb:17>);
-comb.add(<gendustry:HoneyComb:601>);
-oreDict.combLv.add(<gendustry:HoneyComb:601>);
-comb.add(<gendustry:HoneyComb:402>);
-oreDict.combLv.add(<gendustry:HoneyComb:402>);
-comb.add(<gendustry:HoneyComb:22>);
-oreDict.combLv.add(<gendustry:HoneyComb:22>);
-comb.add(<gendustry:HoneyComb:204>);
-oreDict.combHv.add(<gendustry:HoneyComb:204>);
-comb.add(<gendustry:HoneyComb:413>);
-oreDict.combLv.add(<gendustry:HoneyComb:413>);
-comb.add(<gendustry:HoneyComb:12>);
-oreDict.combLv.add(<gendustry:HoneyComb:12>);
-comb.add(<gendustry:HoneyComb:611>);
-oreDict.combIv.add(<gendustry:HoneyComb:611>);
-comb.add(<gendustry:HoneyComb:1107>);
-oreDict.combIv.add(<gendustry:HoneyComb:1107>);
-comb.add(<gendustry:HoneyComb:704>);
-oreDict.combEv.add(<gendustry:HoneyComb:704>);
-comb.add(<gendustry:HoneyComb:604>);
-oreDict.combLv.add(<gendustry:HoneyComb:604>);
-comb.add(<gendustry:HoneyComb:1209>);
-oreDict.combLv.add(<gendustry:HoneyComb:1209>);
-comb.add(<gendustry:HoneyComb:900>);
-oreDict.combLv.add(<gendustry:HoneyComb:900>);
-comb.add(<gendustry:HoneyComb:406>);
-oreDict.combLv.add(<gendustry:HoneyComb:406>);
-comb.add(<gendustry:HoneyComb:509>);
-oreDict.combLv.add(<gendustry:HoneyComb:509>);
-comb.add(<gendustry:HoneyComb:303>);
-oreDict.combMv.add(<gendustry:HoneyComb:303>);
-comb.add(<gendustry:HoneyComb:208>);
-oreDict.combMv.add(<gendustry:HoneyComb:208>);
-comb.add(<gendustry:HoneyComb:103>);
-oreDict.combLv.add(<gendustry:HoneyComb:103>);
-comb.add(<gendustry:HoneyComb:609>);
-oreDict.combHv.add(<gendustry:HoneyComb:609>);
-comb.add(<gendustry:HoneyComb:700>);
-oreDict.combEv.add(<gendustry:HoneyComb:700>);
-comb.add(<gendustry:HoneyComb:1112>);
-oreDict.combZpm.add(<gendustry:HoneyComb:1112>);
-comb.add(<gendustry:HoneyComb:608>);
-oreDict.combLv.add(<gendustry:HoneyComb:608>);
-comb.add(<gendustry:HoneyComb:306>);
-oreDict.combHv.add(<gendustry:HoneyComb:306>);
-comb.add(<gendustry:HoneyComb:1113>);
-oreDict.combZpm.add(<gendustry:HoneyComb:1113>);
-comb.add(<gendustry:HoneyComb:1000>);
-oreDict.combMv.add(<gendustry:HoneyComb:1000>);
-comb.add(<gendustry:HoneyComb:1102>);
-oreDict.combMv.add(<gendustry:HoneyComb:1102>);
-comb.add(<gendustry:HoneyComb:505>);
-oreDict.combLv.add(<gendustry:HoneyComb:505>);
-comb.add(<gendustry:HoneyComb:1203>);
-oreDict.combEv.add(<gendustry:HoneyComb:1203>);
-comb.add(<gendustry:HoneyComb:1208>);
-oreDict.combLv.add(<gendustry:HoneyComb:1208>);
-comb.add(<gendustry:HoneyComb:209>);
-oreDict.combHv.add(<gendustry:HoneyComb:209>);
-comb.add(<gendustry:HoneyComb:1003>);
-oreDict.combLv.add(<gendustry:HoneyComb:1003>);
-comb.add(<gendustry:HoneyComb:18>);
-oreDict.combLv.add(<gendustry:HoneyComb:18>);
-comb.add(<gendustry:HoneyComb:705>);
-oreDict.combIv.add(<gendustry:HoneyComb:705>);
-comb.add(<gendustry:HoneyComb:707>);
-oreDict.combZpm.add(<gendustry:HoneyComb:707>);
-comb.add(<gendustry:HoneyComb:414>);
-oreDict.combLv.add(<gendustry:HoneyComb:414>);
-comb.add(<gendustry:HoneyComb:409>);
-oreDict.combLv.add(<gendustry:HoneyComb:409>);
-comb.add(<gendustry:HoneyComb:310>);
-oreDict.combEv.add(<gendustry:HoneyComb:310>);
-comb.add(<gendustry:HoneyComb:1300>);
-oreDict.combUv.add(<gendustry:HoneyComb:1300>);
-comb.add(<gendustry:HoneyComb:16>);
-oreDict.combLv.add(<gendustry:HoneyComb:16>);
-comb.add(<gendustry:HoneyComb:502>);
-oreDict.combLv.add(<gendustry:HoneyComb:502>);
-comb.add(<gendustry:HoneyComb:703>);
-oreDict.combLv.add(<gendustry:HoneyComb:703>);
-comb.add(<gendustry:HoneyComb:613>);
-oreDict.combMv.add(<gendustry:HoneyComb:613>);
-comb.add(<gendustry:HoneyComb:600>);
-oreDict.combLv.add(<gendustry:HoneyComb:600>);
-comb.add(<gendustry:HoneyComb:11>);
-oreDict.combLv.add(<gendustry:HoneyComb:11>);
-comb.add(<gendustry:HoneyComb:612>);
-oreDict.combMv.add(<gendustry:HoneyComb:612>);
-comb.add(<gendustry:HoneyComb:203>);
-oreDict.combHv.add(<gendustry:HoneyComb:203>);
-comb.add(<gendustry:HoneyComb:1108>);
-oreDict.combZpm.add(<gendustry:HoneyComb:1108>);
-comb.add(<gendustry:HoneyComb:304>);
-oreDict.combLv.add(<gendustry:HoneyComb:304>);
-comb.add(<gendustry:HoneyComb:1101>);
-oreDict.combEv.add(<gendustry:HoneyComb:1101>);
-comb.add(<gendustry:HoneyComb:401>);
-oreDict.combLv.add(<gendustry:HoneyComb:401>);
-comb.add(<gendustry:HoneyComb:23>);
-oreDict.combLv.add(<gendustry:HoneyComb:23>);
-comb.add(<gendustry:HoneyComb:510>);
-oreDict.combLv.add(<gendustry:HoneyComb:510>);
-comb.add(<gendustry:HoneyComb:207>);
-oreDict.combHv.add(<gendustry:HoneyComb:207>);
-comb.add(<gendustry:HoneyComb:800>);
-oreDict.combHv.add(<gendustry:HoneyComb:800>);
-comb.add(<gendustry:HoneyComb:300>);
-oreDict.combLv.add(<gendustry:HoneyComb:300>);
-comb.add(<gendustry:HoneyComb:410>);
-oreDict.combLv.add(<gendustry:HoneyComb:410>);
-comb.add(<gendustry:HoneyComb:405>);
-oreDict.combLv.add(<gendustry:HoneyComb:405>);
-comb.add(<gendustry:HoneyComb:19>);
-oreDict.combLv.add(<gendustry:HoneyComb:19>);
-comb.add(<gendustry:HoneyComb:603>);
-oreDict.combEv.add(<gendustry:HoneyComb:603>);
-comb.add(<gendustry:HoneyComb:305>);
-oreDict.combHv.add(<gendustry:HoneyComb:305>);
-comb.add(<gendustry:HoneyComb:801>);
-oreDict.combHv.add(<gendustry:HoneyComb:801>);
-comb.add(<gendustry:HoneyComb:506>);
-oreDict.combLv.add(<gendustry:HoneyComb:506>);
-comb.add(<gendustry:HoneyComb:400>);
-oreDict.combLv.add(<gendustry:HoneyComb:400>);
-comb.add(<gendustry:HoneyComb:415>);
-oreDict.combLv.add(<gendustry:HoneyComb:415>);
-comb.add(<gendustry:HoneyComb:15>);
-oreDict.combLv.add(<gendustry:HoneyComb:15>);
-comb.add(<gendustry:HoneyComb:200>);
-oreDict.combLv.add(<gendustry:HoneyComb:200>);
-comb.add(<gendustry:HoneyComb:1004>);
-oreDict.combEv.add(<gendustry:HoneyComb:1004>);
-comb.add(<gendustry:HoneyComb:501>);
-oreDict.combLv.add(<gendustry:HoneyComb:501>);
-comb.add(<gendustry:HoneyComb:607>);
-oreDict.combEv.add(<gendustry:HoneyComb:607>);
-comb.add(<gendustry:HoneyComb:309>);
-oreDict.combHv.add(<gendustry:HoneyComb:309>);
-comb.add(<gendustry:HoneyComb:1204>);
-oreDict.combIv.add(<gendustry:HoneyComb:1204>);
-comb.add(<gendustry:HoneyComb:100>);
-oreDict.combLv.add(<gendustry:HoneyComb:100>);
-
-
 
 // --- Hiding Stuff ---
