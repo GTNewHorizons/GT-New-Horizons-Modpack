@@ -126,6 +126,9 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 <gregtech:gt.metaitem.02:22889>, <gregtech:gt.metaitem.01:23889>, <gregtech:gt.metaitem.02:22889>],
 <Forestry:frameImpregnated>, <miscutils:frameArborists>);
 
+// --- Useless Frame give Beekeeper coins
+recipes.addShapeless(<dreamcraft:item.CoinBeesI> * 16, [<miscutils:frameUseless>]);
+
 
 
 
