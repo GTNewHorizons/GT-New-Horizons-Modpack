@@ -155,7 +155,7 @@ mods.avaritia.ExtremeCrafting.addShaped(sgIrisUpgrade, [
 
 
 // ---sgPowerAcceptor
-mods.avaritia.ExtremeCrafting.addShaped(sgICPowerAcceptor, [
+mods.avaritia.ExtremeCrafting.addShaped(sgRFPowerAcceptor, [
 [<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, null, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, Nanocircuit, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
@@ -165,9 +165,6 @@ mods.avaritia.ExtremeCrafting.addShaped(sgICPowerAcceptor, [
 [<ore:blockNaquadahAlloy>, null, null, null, Nanocircuit, null, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, null, null, null, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>]]);
-
-recipes.addShapeless(sgICPowerAcceptor,[sgRFPowerAcceptor]);
-recipes.addShapeless(sgRFPowerAcceptor,[sgICPowerAcceptor]);
 
 
 // ---sgOpenComputerInterface
