@@ -405,6 +405,12 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2536> * 9, [<gregtech:gt.blockg
 // --- Teleporter
 recipes.remove(<gregtech:gt.blockmachines:1145>);
 
+// --- Niobtitaninum Dust handcraft
+recipes.removeShapeless(<gregtech:gt.metaitem.01:1360>);
+
+// --- Tungstencarbide Dust handcraft
+recipes.removeShapeless(<gregtech:gt.metaitem.01:1370>);
+
 
 
 
@@ -1188,7 +1194,6 @@ Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2890>], <BloodArsenal:glass_shard
 
 // --- Grounded Casseterite
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:5937> * 4], <gregtech:gt.blockores:937>, [10000], 300, 2);
-
 
 
 
