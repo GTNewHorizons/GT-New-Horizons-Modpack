@@ -152,7 +152,7 @@ Assembler.addRecipe(<BiomesOPlenty:misc:2>, <Forestry:beeswax> * 2, <gregtech:gt
 Assembler.addRecipe(<BiomesOPlenty:hive:1>, <Forestry:propolis> * 2, <gregtech:gt.integrated_circuit:2> * 0, 400, 40);
 
 // --- Lime Stone
-Assembler.addRecipe(<BiomesOPlenty:rocks> * 8, <minecraft:stone> * 8, <minecraft:dye:10>, 300, 2);
+Assembler.addRecipe(<BiomesOPlenty:rocks>, <minecraft:stone>, <gregtech:gt.metaitem.01:2823> * 4, 50, 2);
 
 
 
