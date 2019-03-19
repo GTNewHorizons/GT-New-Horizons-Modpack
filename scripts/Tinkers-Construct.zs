@@ -333,7 +333,7 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:sand>);
 mods.tconstruct.Smeltery.removeAlloy(<liquid:alumite.molten>);
 
 // --- Obsidian Dust
-mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
+//mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
 
 // --- Obsidian Dust
 furnace.remove(<ore:ingotObsidian>);
