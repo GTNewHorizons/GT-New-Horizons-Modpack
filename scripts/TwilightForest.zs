@@ -3,6 +3,7 @@
 
 // --- Importing Stuff ---
 
+import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.nei.NEI;
 
@@ -49,6 +50,16 @@ recipes.addShaped(CarminiteReactor, [
 [ETowerWood, Carminite, ETowerWood],
 [Carminite, RSBlock, Carminite],
 [ETowerWood, Carminite, ETowerWood]]);
+
+
+
+// --- Alloy Smelter recipes ---
+
+
+// --- Steeleaf
+AlloySmelter.addRecipe(<TwilightForest:item.steeleafIngot>, <gregtech:gt.metaitem.01:2339>, <gregtech:gt.metaitem.01:32306> * 0, 100, 4);
+
+
 
 
 // --- Assembler Recipes ---
