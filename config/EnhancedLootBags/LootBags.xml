@@ -103,6 +103,12 @@
         <Loot Identifier="42ac9249-1bc3-46d2-b5ec-f5d74db7ed46" ItemName="minecraft:cooked_chicken" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="71f79ff6-ea53-4b3e-b34e-74b5a27cb161" ItemName="minecraft:cooked_beef" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="84fdd5bc-e64b-4c1a-a13f-5624a57a08b3" ItemName="minecraft:egg" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="7f167195-f00b-48e9-a492-bf657d03afa5" ItemName="gregtech:gt.metaitem.01:27809" Amount="64" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d0740c1b-902b-4e01-b6bf-33c996225cb3" ItemName="harvestcraft:applepieItem" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1919ddfc-984e-46bf-a6ba-5fd62ab489a6" ItemName="gregtech:gt.metaitem.01:2817" Amount="64" NBTTag="" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e8869ecc-7c0d-4a7f-8dee-b85acb3616cd" ItemName="harvestcraft:pbandjItem" Amount="2" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6877f492-f8dd-435a-ac78-6c8b45bb6121" ItemName="minecraft:skull:2" Amount="1" NBTTag="" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3c6d8ee7-4089-421d-b729-673ea42ffbd2" ItemName="minecraft:skull:4" Amount="1" NBTTag="" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="1" GroupName="Basic Stone Age" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="27dd855c-7e1f-499e-84a4-93e1845baf83" ItemName="minecraft:potato" Amount="8" NBTTag="" Chance="80" LimitedDropCount="0" RandomAmount="true"/>
@@ -162,6 +168,12 @@
         <Loot Identifier="e12cd73a-2a34-40cf-a5eb-e7e9a3b281bd" ItemName="minecraft:chest" Amount="8" NBTTag="" Chance="40" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5593c3b7-5cfb-4ffe-88b6-6576e4da7144" ItemName="minecraft:flint" Amount="32" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d80193d1-749b-49ea-bd5c-b5dcf204712f" ItemName="minecraft:log" Amount="64" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b1ef5161-c79a-4141-9b7b-836603ca0395" ItemName="minecraft:potion:8205" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="4" RandomAmount="false"/>
+        <Loot Identifier="d781d803-c756-40c3-b139-478a5a2e8a2c" ItemName="minecraft:potion:8198" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="4" RandomAmount="false"/>
+        <Loot Identifier="75065747-7c90-4390-8ab5-cc76a43477a6" ItemName="Natura:natura.armor.imphelmet" Amount="1" NBTTag="{ench:[0:{lvl:1s,id:0s},1:{lvl:1s,id:1s}]}" Chance="25" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="60d22be4-55a9-4456-b718-32170ab0d5db" ItemName="Natura:natura.armor.impjerkin" Amount="1" NBTTag="{ench:[0:{lvl:1s,id:3s},1:{lvl:1s,id:1s}]}" Chance="25" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="3e9c46f1-95a3-40ca-92fd-a793b3cf545d" ItemName="Natura:natura.armor.impleggings" Amount="1" NBTTag="{ench:[0:{lvl:1s,id:4s},1:{lvl:1s,id:1s}]}" Chance="25" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="a8f8f47a-09e3-4d00-883b-ede829e18adc" ItemName="Natura:natura.armor.impboots" Amount="1" NBTTag="{ench:[0:{lvl:1s,id:2s},1:{lvl:1s,id:1s}]}" Chance="25" ItemGroup="" LimitedDropCount="2" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="2" GroupName="Steam Age" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="0af8494c-84ee-4da2-9183-caac33026400" ItemName="gregtech:gt.blockmachines:1" Amount="1" NBTTag="" Chance="50" LimitedDropCount="8" RandomAmount="false"/>
@@ -242,9 +254,26 @@
         <Loot Identifier="ef675b81-535e-4943-936c-b62a4ac213a9" ItemName="minecraft:spawn_egg:94" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="d0266732-2b4f-4211-8227-fea5250a3709" ItemName="minecraft:spawn_egg:100" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="04e92352-2618-4520-9d9d-3796cb897543" ItemName="TConstruct:SpeedBlock" Amount="32" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="fb379690-a6d8-466a-9b03-c30312fdd216" ItemName="minecraft:potion:8262" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="358f92a4-c964-4442-bed3-f47b6039eef7" ItemName="minecraft:potion:8269" Amount="4" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6618b7ac-d63f-4d3c-b465-e4a62fd9b8c8" ItemName="Natura:natura.armor.imphelmet" Amount="1" NBTTag="{ench:[0:{lvl:2s,id:0s},1:{lvl:2s,id:1s}],RepairCost:2,display:{Name:&quot;Impskin 2.0&quot;}}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9cfb9de2-f208-4571-8e93-2cf3372dac32" ItemName="Natura:natura.armor.impjerkin" Amount="1" NBTTag="{ench:[0:{lvl:2s,id:1s},1:{lvl:2s,id:3s}],RepairCost:2,display:{Name:&quot;Impskin 2.0&quot;}}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="f4ad782b-6813-41a6-9ee4-c0fa10341480" ItemName="Natura:natura.armor.impleggings" Amount="1" NBTTag="{ench:[0:{lvl:2s,id:1s},1:{lvl:2s,id:4s}],RepairCost:2,display:{Name:&quot;Impskin 2.0&quot;}}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d70c6e84-071a-4835-a5ea-0145621d3b1a" ItemName="Natura:natura.armor.impboots" Amount="1" NBTTag="{ench:[0:{lvl:2s,id:2s},1:{lvl:2s,id:1s}],RepairCost:2,display:{Name:&quot;Impskin 2.0&quot;}}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="0a38269c-eb23-46a9-82b2-979a852fa0f6" ItemName="IC2:itemArmorHazmatHelmet" Amount="1" NBTTag="" Chance="33" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a1aa3af2-f244-4e5d-a232-e5e91d0f0e68" ItemName="IC2:itemCellEmpty:5" Amount="8" NBTTag="" Chance="60" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="153ab6d3-a4f8-4dcb-bcd3-661f6003048f" ItemName="gregtech:gt.metatool.01:22" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;Iron&quot;,MaxDamage:25600L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1abe187f-9af8-48c8-8df9-fd62b9584f7d" ItemName="gregtech:gt.metatool.01:12" Amount="1" NBTTag="{ench:[0:{lvl:1s,id:16s}],GT.ToolStats:{PrimaryMaterial:&quot;Iron&quot;,MaxDamage:25600L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bbde3237-6155-4235-aaa5-87e1cab3a212" ItemName="gregtech:gt.metatool.01:16" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;Iron&quot;,MaxDamage:25600L,SecondaryMaterial:&quot;Iron&quot;}}" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="98935987-24a7-414c-a2ba-503164d2339c" ItemName="gregtech:gt.metatool.01:18" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;Iron&quot;,MaxDamage:25600L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ebf6f65b-b072-4571-8b00-67dbe4e4a98e" ItemName="minecraft:potion:8193" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ae2af578-ce4f-4061-a11b-ba352b02bedd" ItemName="minecraft:potion:8194" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ac6b90ad-c196-400a-a698-5bdfa79c965e" ItemName="minecraft:potion:8195" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e5d808bb-1e0c-4f3d-b912-a0194ad88c9c" ItemName="minecraft:potion:8201" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5189894e-be7a-4ed7-aed0-15e1beeac7c3" ItemName="minecraft:potion:8206" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="3" GroupName="Tier 1" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="cookiedropbecauseempty" ItemName="minecraft:cookie" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="4" GroupName="Tier 2 LV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="cfec9a8f-65e1-496c-8e34-8008b91fcd37" ItemName="StevesCarts:ModuleComponents:9" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
@@ -342,6 +371,18 @@
         <Loot Identifier="4db03857-eea9-4869-bbc9-eb2d047613c1" ItemName="StevesCarts:CartModule:5" Amount="1" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f9904676-a558-4d85-940f-1482d7b82bc7" ItemName="StevesCarts:ModuleComponents:9" Amount="2" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="7c1e0f26-afe7-44d4-a0a5-254ace462ca6" ItemName="StevesCarts:ModuleComponents:16" Amount="2" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="9899e31b-e06b-4264-a2cf-809c264a5498" ItemName="gregtech:gt.metatool.01:22" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;VanadiumSteel&quot;,MaxDamage:192000L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="44" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="502c5a5e-7f32-44e4-8c59-73f35d0217ef" ItemName="gregtech:gt.metatool.01:18" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;Steel&quot;,MaxDamage:51200L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5142eb40-0c45-4a8b-b9cf-e14d6c90dd6c" ItemName="gregtech:gt.metatool.01:12" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;VanadiumSteel&quot;,MaxDamage:192000L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="44" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6582954f-54fe-4b5f-bc42-5970500ac956" ItemName="gregtech:gt.metatool.01:12" Amount="1" NBTTag="{ench:[0:{lvl:2s,id:16s}],GT.ToolStats:{PrimaryMaterial:&quot;Steel&quot;,MaxDamage:51200L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="a7f255d4-e39c-45bb-b7ee-30e04ec8b55b" ItemName="gregtech:gt.metatool.01:16" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;VanadiumSteel&quot;,MaxDamage:192000L,SecondaryMaterial:&quot;VanadiumSteel&quot;}}" Chance="44" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="836b836e-c44e-4fc8-9f38-36cf9d3e09fa" ItemName="gregtech:gt.metatool.01:16" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;Steel&quot;,MaxDamage:51200L,SecondaryMaterial:&quot;Steel&quot;}}" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="080410d7-dc3c-4c9b-a15a-07e786e13ad8" ItemName="gregtech:gt.metatool.01:18" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;VanadiumSteel&quot;,MaxDamage:192000L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="44" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="311abe9c-ea8b-4547-8c80-c4bdb4db735d" ItemName="gregtech:gt.metatool.01:22" Amount="1" NBTTag="{GT.ToolStats:{PrimaryMaterial:&quot;Steel&quot;,MaxDamage:51200L,SecondaryMaterial:&quot;Wood&quot;}}" Chance="66" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7ec2265e-04f1-46e4-9f52-09324c6c677f" ItemName="minecraft:potion:8257" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="1ffe08ff-48a9-44dd-9879-e8ddb46f7835" ItemName="minecraft:potion:8258" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="3015ae9e-3c0f-4463-bf01-f066ec54d8b2" ItemName="minecraft:potion:8259" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="df429597-a807-4a0b-954c-327ec603361a" ItemName="minecraft:potion:8265" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="5" GroupName="Tier 3 MV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="a2547e7a-3aa3-4e16-aadf-6ea21f9f5bc6" ItemName="EnderIO:itemMachinePart" Amount="1" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="false"/>
@@ -415,6 +456,10 @@
         <Loot Identifier="595b3d5b-5584-4dc5-924f-82b17feef404" ItemName="gregtech:gt.metaitem.01:32715" Amount="4" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c924875c-c65d-45f0-9afa-c1b2a8602831" ItemName="gregtech:gt.metaitem.01:32716" Amount="4" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9f2061ff-5644-466d-8d3d-524f1fef68c3" ItemName="gregtech:gt.metaitem.03:32100" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="075c32e1-c659-429f-b4a9-c8db70e3a198" ItemName="minecraft:potion:8197" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="b9e5b09b-d5b4-4c38-bb92-56e64028f460" ItemName="minecraft:potion:8233" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="6e7e4ed9-913a-426c-9d3a-78475423309d" ItemName="minecraft:potion:8225" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="297a212f-cc6d-4f74-a7c1-ed105813a818" ItemName="minecraft:potion:8270" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="6" GroupName="Tier 4 HV" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="25b6e4ee-02bc-477f-9006-2d8585e79f0f" ItemName="IC2:blockMachine2:1" Amount="1" NBTTag="" Chance="30" LimitedDropCount="0" RandomAmount="false"/>
