@@ -706,7 +706,7 @@ gtnh.quest175.desc=Ah, there is nothing like an explosion and the certainty that
 
 #Quest_176.Tier 5
 gtnh.quest176.name=Tier 5
-gtnh.quest176.desc=The main goal here is to get a tier 2 rocket, and reach Mars. You also might want to rethink your power setup, as more and more machines will be upgraded. This quest set will teach you about a couple of options you have regarding power production.
+gtnh.quest176.desc=The main goal here is to get a tier 2 rocket, and reach Mars. You also might want to rethink your power setup, as more and more machines will be upgraded. This quest set will teach you about a couple of options you have regarding power production.\n\nMultiblock goals includes quests for the large gas turbine and large combustion engine.
 
 #Quest_177.*Poke*
 gtnh.quest177.name=*Poke*
@@ -774,7 +774,7 @@ gtnh.quest192.desc=Highly radioactive, the most powerful fuel rod you can get. B
 
 #Quest_193.Tier 1 fuel: Thorium
 gtnh.quest193.name=Tier 1 fuel: Thorium
-gtnh.quest193.desc=The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect "fission and forget" power source.
+gtnh.quest193.desc=The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect "fission and forget" power source.\n\nHint:\nAfter they are used up you can recycle them to get Lutetium which is used for make americium in the fusion reactor.\nAmericium is needed for top tier materials later, so start stockpiling now. Plus, you get power!
 
 #Quest_194.Monitoring your reactor
 gtnh.quest194.name=Monitoring your reactor
@@ -3134,7 +3134,7 @@ gtnh.quest782.desc=To make wafers, you need to make monocrystalline silicon firs
 
 #Quest_783.We need big toys
 gtnh.quest783.name=We need big toys
-gtnh.quest783.desc=All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. It will also distill water for you, so you can use the same water again inside your large boiler.  Don't forget to make a rotor for the turbine. \nAt the initial stage the most suitable materials for the rotor are: vanadium steel (it has a very high durability, but slowly produces energy), cobalt (good combination of durability and performance) and ultimet (has higher efficiency, durability and performance). \nMake sure you provide the optimal flow of steam using a fluid regulator. Don't exceed your dynamo hatch's EU rating, or it will explode!
+gtnh.quest783.desc=All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. It will also distill water for you, so you can use the same water again inside your large boiler.  Don't forget to make a rotor for the turbine. \n\nMake sure you provide the optimal flow of steam using a fluid regulator. Don't exceed your dynamo hatch's EU rating, or it will explode! For HV you will probably want an IC2 fluid regulator. Above HV you can use the fluid regulator covers.\n\nTurbines with a small turbine durability below 75k have their recipes removed. Use NEI with the appropriate long rod to find assembler recipes that will work for you. Long magnalium for small turbines, long titanium for normal turbines, etc.\n\nPre-moon, the best rotors are small ardite or vibrant alloy. Remember to disassemble rotor blades before they break to recover the materials.\n\nPost-moon, the best HV rotors are normal damascus or blue steel. Risk-takers can try ultimet but you must not provide optimal flow since it will give 517 EU/t, blowing up your dynamo.\n\nFor additional choices, see the Large Turbine Calculator in Discord.
 
 #Quest_784.It's time to get more steam
 gtnh.quest784.name=It's time to get more steam
@@ -3150,7 +3150,7 @@ gtnh.quest786.desc=Now you can make advanced circuits, which means it's time to 
 
 #Quest_787.Moooooore steam
 gtnh.quest787.name=Moooooore steam
-gtnh.quest787.desc=Stock up on titanium, it will be fun. A large titanium boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal cobalt rotors will be just right. Optimal flow for such rotor is 800 liters per tick. Make a fluid regulator in the assembler to control the flow rate. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors. Make sure your dynamo hatch is capable of accepting all the EU, or it will explode!
+gtnh.quest787.desc=Stock up on titanium, it will be fun. A large titanium boiler produces 1600 litres of steam per tick. For this amount you need to choose the right rotors for your turbines. For example, 2 normal damascus steel rotors will be just right. Optimal flow for such rotor is 800 liters per tick. Make a fluid regulator in the assembler to control the flow rate. If you have more than one boiler, you will need to make calculations in order to select the appropriate rotors. Make sure your dynamo hatch is capable of accepting all the EU, or it will explode!
 
 #Quest_788.Even more steam? Are you sure?
 gtnh.quest788.name=Even more steam? Are you sure?
@@ -7250,7 +7250,7 @@ gtnh.quest1811.desc=4000 buckets not enough storage? Stockpiling diesel for a li
 
 #Quest_1812.Teflon Don
 gtnh.quest1812.name=Teflon Don
-gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  \n\nThe first one is hydrofluoric acid.  If you have not reached the moon yet, the best sources for fluorine are hammering sandstone for a chance at fluorite and centrifuging stone dust or black granite dust for biotite. Mix it with some hydrogen to get hydrofluoric acid.
+gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  \n\nThe first one is hydrofluoric acid.  If you have not reached the moon yet, the best sources for fluorine are hammering sandstone for a chance at fluorite and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.
 
 #Quest_1813.Chloroform
 gtnh.quest1813.name=Chloroform
@@ -7567,6 +7567,22 @@ gtnh.quest1890.desc=An IV asembler is required to make enriched Sunnarium for HV
 #Quest_1891.Desh, Scheelite, Tungstate
 gtnh.quest1891.name=Desh, Scheelite, Tungstate
 gtnh.quest1891.desc=Tungstensteel is the material you need but first go find some desh scheelite and tungstate mix on Mars. Look at Y 5-40.
+
+#Quest_1892.Fluorine
+gtnh.quest1892.name=Fluorine
+gtnh.quest1892.desc=Want some fluorine? Buy some!
+
+#Quest_1893.Fluid Regulator
+gtnh.quest1893.name=Fluid Regulator
+gtnh.quest1893.desc=Turbines require precise amounts of fluids or else they will explode.  Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:\n\n1L - Right click with an empty hand\n16L - Right click with a screwdriver\n256L - Right click with a screwdriver while sneaking\n\nTo lower the fluid limit, do the same while looking at the left side.
+
+#Quest_1894.Gas Turbine
+gtnh.quest1894.name=Gas Turbine
+gtnh.quest1894.desc=A Large Gas Turbine is more fuel-efficient than singleblock turbines and can have lower pollution with upgraded mufflers.\n\nYou will also need a muffler, maintenance hatch, input hatch, and dynamo hatch.  Don't forget a fluid regulator. It can be a low tier fluid regulator since the fluid/tick necessary is much less than steam.\n\nSelecting a rotor is pretty easy. Take the EU/t of your dynamo hatch, and select a rotor that has (optimal gas flow * efficiency) that is close. Now, setting up the fluid regulator is hard. The easiest way is to let in 1 L/t and use the hand-scanner to tell you the optimal flow rate. Otherwise divide the optimal gas flow by the EU/L of your gas and round down. \n\nFor example, if we are using a normal vibrant alloy turbine with 1800 EU/t optimal gas flow and 115 percent efficiency with benzene. \n1800/288 = 6.25\nRounded down that is 6L/t.  6 * 288 * 1.15 = 1987, perfect for an EV dynamo.\nOther gases may output slightly higher or lower EU depending on how close to optimal they can reach. For example refinery gas\n1800/160 = 11.25\n11 * 160 * 1.15 = 2024, still OK for an EV dynamo\nHowever hydrogen at 20 EU/L is dangerous because\n1800/20 = 90\n90 * 20 * 1.15 = 2070, above 2048, so BOOOOM.\n\nOther useful turbine options at EV are normal ardite and galgadorian.\n\nFor additional choices, see the Large Turbine Calculator in Discord.
+
+#Quest_1895.Manganese Ore
+gtnh.quest1895.name=Manganese Ore
+gtnh.quest1895.desc=Can't find Manganese ore because its not generated early game and you need to grow your Pyrolusium crop? Buy some Ores.
 
 ##################################Line##################################
 
