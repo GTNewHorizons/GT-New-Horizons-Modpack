@@ -205,6 +205,10 @@ mods.thaumcraft.Arcane.addShaped("CAP_silver", <Thaumcraft:WandCap:5>, "ordo 25,
 mods.thaumcraft.Research.addArcanePage("CAP_silver", <Thaumcraft:WandCap:5>);
 
 // --- Charged Silver Wand Cap
+mods.thaumcraft.Infusion.addRecipe("CAP_silver", <Thaumcraft:WandCap:5>, 
+[<Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2054>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2054>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2054>], 
+"auram 18, potentia 30, praecantatio 18", <Thaumcraft:WandCap:4>, 5);
+// -
 mods.thaumcraft.Research.addInfusionPage("CAP_silver", <Thaumcraft:WandCap:4>);
 // -
 mods.thaumcraft.Research.addArcanePage("CAP_silver", <Thaumcraft:WandCasting:4>.withTag({cap: "silver", rod: "wood"}));

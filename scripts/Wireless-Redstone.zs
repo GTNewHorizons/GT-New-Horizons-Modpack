@@ -84,18 +84,18 @@ recipes.addShaped(<WR-CBE|Core:stoneBowl>, [
 recipes.addShaped(<WR-CBE|Addons:remote>, [
 [<ore:craftingToolScrewdriver>, <WR-CBE|Core:wirelessTransceiver>, <ore:craftingToolFile>],
 [<ore:circuitAdvanced>, <dreamcraft:item.Display>, <ore:circuitAdvanced>],
-[<dreamcraft:item.TungstenSteelItemCasing>, <ore:screwTungstenSteel>, <dreamcraft:item.TungstenSteelItemCasing>]]);
+[<ore:itemCasingTungstenSteel>, <ore:screwTungstenSteel>, <ore:itemCasingTungstenSteel>]]);
 
 // ---Wireless Sniffer
 recipes.addShaped(<WR-CBE|Addons:sniffer>, [
 [<WR-CBE|Core:recieverDish>, <WR-CBE|Core:wirelessTransceiver>, <WR-CBE|Core:recieverDish>],
-[<dreamcraft:item.TungstenSteelItemCasing>, <ore:stickTungstenSteel>, <dreamcraft:item.TungstenSteelItemCasing>],
+[<ore:itemCasingTungstenSteel>, <ore:stickTungstenSteel>, <ore:itemCasingTungstenSteel>],
 [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
 
 // ---Private Sniffer
 recipes.addShaped(<WR-CBE|Addons:psniffer>, [
 [<WR-CBE|Core:blazeRecieverDish>, <WR-CBE|Core:blazeTransceiver>, <WR-CBE|Core:blazeRecieverDish>],
-[<dreamcraft:item.TungstenSteelItemCasing>, <ore:stickTungstenSteel>, <dreamcraft:item.TungstenSteelItemCasing>],
+[<ore:itemCasingTungstenSteel>, <ore:stickTungstenSteel>, <ore:itemCasingTungstenSteel>],
 [<ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part>]]);
 
 

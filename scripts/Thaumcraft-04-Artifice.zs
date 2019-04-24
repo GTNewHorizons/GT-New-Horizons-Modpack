@@ -211,7 +211,7 @@ recipes.addShapeless(<Thaumcraft:ItemInkwell>, [<Thaumcraft:ItemEssence>, <minec
 // --- Thaumometer
 recipes.addShaped(<Thaumcraft:ItemThaumometer>, [
 [<Thaumcraft:ItemShard>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:2>],
-[<IC2:itemCasing:3>, <ore:lensDiamond>, <IC2:itemCasing:3>],
+[<ore:itemCasingGold>, <ore:lensDiamond>, <ore:itemCasingGold>],
 [<Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>]]);
 
 mods.thaumcraft.Research.clearPages("RESEARCH");

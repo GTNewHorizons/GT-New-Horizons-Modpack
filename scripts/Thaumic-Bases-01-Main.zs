@@ -90,6 +90,7 @@ recipes.removeShaped(<thaumicbases:crystalSlab:*>);
 recipes.removeShaped(<thaumicbases:genericSlab:*>);
 
 
+
 // --- Adding Recipes ---
 
 // --- Thaumic Relocator
@@ -97,11 +98,15 @@ Arcane.addShaped("TB.Relocator", <thaumicbases:relocator:0>, "aer 20, terra 10, 
  [plankGreatwood, <ore:plateInfusedAir>, plankGreatwood],
  [nitor, <ore:rotorThaumium>, nitor],
  [plankGreatwood, <ore:plateInfusedWater>, plankGreatwood]]);
+// -  
+recipes.addShapeless(<thaumicbases:relocator>, [nitor, <thaumicbases:relocator:6>, nitor]);
 
 Arcane.addShaped("TB.Relocator", <thaumicbases:relocator:6> ,"aer 20, terra 10, aqua 5", [
  [plankGreatwood, <ore:plateInfusedWater>, plankGreatwood],
  [alumentum, <ore:rotorThaumium>, alumentum],
  [plankGreatwood, <ore:plateInfusedAir>, plankGreatwood]]);
+// - 
+recipes.addShapeless(<thaumicbases:relocator:6>, [alumentum, <thaumicbases:relocator>, alumentum]);
  
 // --- Advanced Alchemical Furnace 
 Infusion.addRecipe("TB.AdvAlc",<Thaumcraft:blockStoneDevice:0>,
@@ -354,6 +359,9 @@ Infusion.addRecipe("TB.NodeFoci.Taint",<Thaumcraft:blockMetalDevice:12>,
 
 // --- Salis douplication
 Crucible.addRecipe("TB.SM", <Thaumcraft:ItemResource:14> * 2, <Thaumcraft:ItemResource:14>, "aer 4, aqua 4, ignis 4, praecantatio 4, ordo 4, perditio 4, terra 4");
+
+// --- Amber
+Crucible.addRecipe("TB.Amber", <Thaumcraft:ItemResource:6>, <minecraft:sapling:1>, "vinculum 4");
 
 
 

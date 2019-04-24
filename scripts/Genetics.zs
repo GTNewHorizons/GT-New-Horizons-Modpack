@@ -180,7 +180,7 @@ recipes.addShaped(<Genetics:advMachine>, [
 
 
 // --- Reinforced  Casing
-Assembler.addRecipe(<Genetics:misc>, <Forestry:sturdyMachine>, <dreamcraft:item.AluminiumItemCasing> * 8, 1200, 120);
+Assembler.addRecipe(<Genetics:misc>, <Forestry:sturdyMachine>, <ore:itemCasingAluminium> * 8, 1200, 120);
 
 // --- Glass Cylinder
 Assembler.addRecipe(<Genetics:misc:8>, <minecraft:glass_pane> * 6, <gregtech:gt.integrated_circuit:6> * 0, 200, 16);

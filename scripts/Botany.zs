@@ -47,7 +47,7 @@ recipes.remove(<Botany:soilMeter>);
 
 // --- Botanis Database
 mods.forestry.Carpenter.addRecipe(<Botany:database>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>],
-													 [<IC2:itemCasing:3>, <ore:circuitAdvanced>, <IC2:itemCasing:3>], 
+													 [<ore:itemCasingGold>, <ore:circuitAdvanced>, <ore:itemCasingGold>], 
                                                      [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17501>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 1440, 60, <dreamcraft:item.Display>);
 
 // --- Wooden Trowel

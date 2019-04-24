@@ -269,6 +269,8 @@ mods.chisel.Groups.addVariation("glasswork", <chisel:glass2>);
 mods.chisel.Groups.addVariation("glasswork", <TConstruct:GlassBlock>);
 // -
 mods.chisel.Groups.addVariation("glasswork", <EnderIO:blockFusedQuartz:1>);
+// -
+mods.chisel.Groups.addVariation("glass", <TConstruct:GlassBlock>);
 
 // --- Cloud
 mods.chisel.Groups.addVariation("cloud", <Natura:Cloud>);
@@ -289,11 +291,85 @@ mods.chisel.Groups.addVariation("cloud", <Natura:Cloud>);
 mods.chisel.Groups.addVariation("marble", <Railcraft:cube:7>);
 //-
 mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones>);
+// -
+mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones:1>);
+// -
+mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones:2>);
+// -
+mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones:3>);
+// -
+mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones:4>);
+// -
+mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones:5>);
+// -
+mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones:6>);
+// -
+mods.chisel.Groups.addVariation("marble", <gregtech:gt.blockstones:7>);
 
 // --- Abyssal Stone
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <Railcraft:cube:6>);
+// -
 mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites>);
 // -
-mods.chisel.Groups.addVariation("RCAbyssalBlock", <Railcraft:cube:6>);
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:1>);
+// -
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:2>);
+// -
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:3>);
+// -
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:4>);
+// -
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:5>);
+// -
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:6>);
+// -
+mods.chisel.Groups.addVariation("RCAbyssalBlock", <gregtech:gt.blockgranites:7>);
+
+// --- Basalt
+mods.chisel.Groups.addGroup("basalt");
+// -
+mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:8>);
+// -
+mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:9>);
+// -
+mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:10>);
+// -
+mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:11>);
+// -
+mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:12>);
+// -
+mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:13>);
+// -
+mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:14>);
+// -
+mods.chisel.Groups.addVariation("basalt", <gregtech:gt.blockstones:15>);
+// -
+mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:2>);
+// -
+mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:3>);
+// -
+mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:4>);
+
+
+
+// --- Red Granite
+mods.chisel.Groups.addGroup("redgranite");
+// -
+mods.chisel.Groups.addVariation("redgranite", <gregtech:gt.blockgranites:8>);
+// -
+mods.chisel.Groups.addVariation("redgranite", <gregtech:gt.blockgranites:9>);
+// -
+mods.chisel.Groups.addVariation("redgranite", <gregtech:gt.blockgranites:10>);
+// -
+mods.chisel.Groups.addVariation("redgranite", <gregtech:gt.blockgranites:11>);
+// -
+mods.chisel.Groups.addVariation("redgranite", <gregtech:gt.blockgranites:12>);
+// -
+mods.chisel.Groups.addVariation("redgranite", <gregtech:gt.blockgranites:13>);
+// -
+mods.chisel.Groups.addVariation("redgranite", <gregtech:gt.blockgranites:14>);
+// -
+mods.chisel.Groups.addVariation("redgranite", <gregtech:gt.blockgranites:15>);
 
 // --- Limestone
 mods.chisel.Groups.addVariation("limestone", <BiomesOPlenty:rocks>);
@@ -342,6 +418,7 @@ mods.chisel.Groups.addVariation("endstone", <TConstruct:decoration.multibrickfan
 // --- Chiselgroup Concrete
 mods.chisel.Groups.addVariation("concrete", <gregtech:gt.blockconcretes:8>);
 
+
 // --- Glowstone
 mods.chisel.Groups.addGroup("glowstoneGTNH");
 // -
@@ -383,7 +460,8 @@ mods.chisel.Groups.addVariation("torch", <GalacticraftCore:tile.glowstoneTorch>)
 
 
 
-
+// --- Aluminium Block GT
+mods.chisel.Groups.addVariation("aluminumblock", <gregtech:gt.blockmetal1:1>);
 
 
 

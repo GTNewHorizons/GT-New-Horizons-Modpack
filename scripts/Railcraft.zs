@@ -1350,9 +1350,9 @@ recipes.addShaped(<Railcraft:brick.infernal:2> * 2, [
 
 // --- Lapatron Loader Upgrade
 recipes.addShaped(<Railcraft:upgrade.lapotron>, [
-[<dreamcraft:item.AluminiumItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.AluminiumItemCasing>],
+[<ore:itemCasingAluminium>, <ore:circuitAdvanced>, <ore:itemCasingAluminium>],
 [<ore:cableGt02Platinum>, <IC2:itemBatLamaCrystal:*>, <ore:cableGt02Platinum>],
-[<dreamcraft:item.AluminiumItemCasing>, <ore:circuitAdvanced>, <dreamcraft:item.AluminiumItemCasing>]]);
+[<ore:itemCasingAluminium>, <ore:circuitAdvanced>, <ore:itemCasingAluminium>]]);
 
 // --- Cargo Cart
 recipes.addShaped(<Railcraft:cart.cargo>, [
@@ -1483,6 +1483,12 @@ Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforce
 
 // --- Reinforced Junction Tack ---
 Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27306> * 4, 800, 64);
+
+// --- H.S. Booster Track ---
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.boost"}) * 16, [<Railcraft:part.railbed:1>, <Railcraft:part.rail:3> * 4, <ore:plateRedAlloy> * 2, <gregtech:gt.integrated_circuit:16> * 0], null, 1200, 64);
+
+// --- H.S. Transition Track ---
+Assembler.addRecipe(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}) * 4, [<Railcraft:part.railbed:1>,  HsTrack * 2, <ore:plateRedAlloy> * 2], null, 1200, 64);
 
 // --- H.S. Switch Track ---
 Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, <gregtech:gt.metaitem.02:23305> * 4, 800, 64);

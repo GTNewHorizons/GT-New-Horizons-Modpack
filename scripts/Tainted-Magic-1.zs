@@ -303,21 +303,21 @@ mods.thaumcraft.Warp.addToResearch("ShadowClothGTNH", 2);
 // --- Shard of Creation
 mods.thaumcraft.Research.orphanResearch("CREATIONSHARD");
 mods.thaumcraft.Research.removeResearch("CREATIONSHARD");
-mods.thaumcraft.Research.addResearch("CREATIONSHARD", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
-mods.thaumcraft.Research.addPrereq("CREATIONSHARD", "TMELDRITCHMAJOR", false);
-mods.thaumcraft.Research.addPrereq("CREATIONSHARD", "PRIMPEARL", false);
-mods.thaumcraft.Research.setConcealed("CREATIONSHARD", true);
-game.setLocalization("tc.research_name.CREATIONSHARD", "Shard of Creation");
-game.setLocalization("tc.research_text.CREATIONSHARD", "I am not a madman");
-mods.thaumcraft.Research.addPage("CREATIONSHARD", "tc.research_page.CREATIONSHARD");
-game.setLocalization("tc.research_page.CREATIONSHARD", "You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!");
-mods.thaumcraft.Crucible.addRecipe("CREATIONSHARD", <dreamcraft:item.VoidEssence> * 2, <Thaumcraft:ItemResource:16>, "alienis 16, vacuos 16, tenebrae 16");
-mods.thaumcraft.Research.addCruciblePage("CREATIONSHARD", <dreamcraft:item.VoidEssence>);
-mods.thaumcraft.Infusion.addRecipe("CREATIONSHARD", <minecraft:nether_star>,
+mods.thaumcraft.Research.addResearch("CreationShardGTNH", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "TMELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "PRIMPEARL", false);
+mods.thaumcraft.Research.setConcealed("CreationShardGTNH", true);
+game.setLocalization("tc.research_name.CreationShardGTNH", "Shard of Creation");
+game.setLocalization("tc.research_text.CreationShardGTNH", "I am not a madman");
+mods.thaumcraft.Research.addPage("CreationShardGTNH", "tc.research_page.CreationShardGTNH");
+game.setLocalization("tc.research_page.CreationShardGTNH", "You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!");
+mods.thaumcraft.Crucible.addRecipe("CreationShardGTNH", <dreamcraft:item.VoidEssence> * 2, <Thaumcraft:ItemResource:16>, "alienis 16, vacuos 16, tenebrae 16");
+mods.thaumcraft.Research.addCruciblePage("CreationShardGTNH", <dreamcraft:item.VoidEssence>);
+mods.thaumcraft.Infusion.addRecipe("CreationShardGTNH", <minecraft:nether_star>,
 [<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:6>], 
 "alienis 64, vacuos 64, praecantatio 64, auram 64, tenebrae 64", <TaintedMagic:ItemMaterial:5> * 2, 12);
-mods.thaumcraft.Research.addInfusionPage("CREATIONSHARD", <TaintedMagic:ItemMaterial:5>);
-mods.thaumcraft.Warp.addToResearch("CREATIONSHARD", 10);
+mods.thaumcraft.Research.addInfusionPage("CreationShardGTNH", <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Warp.addToResearch("CreationShardGTNH", 10);
 
 // --- Wand Focus Dark Matter
 mods.thaumcraft.Research.orphanResearch("ELDRITCHFOCUS");
@@ -325,7 +325,7 @@ mods.thaumcraft.Research.removeResearch("ELDRITCHFOCUS");
 mods.thaumcraft.Research.addResearch("EldritchFocusGTNH", "TM", "alienis 18, perditio 15, aer 12, tenebrae 9, potentia 6, ira 3", 8, -4, 4, <TaintedMagic:ItemFocusEldritch>);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "EvilshardsGTNH", true);
-mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CREATIONSHARD", false);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CreationShardGTNH", false);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "FOCUSPORTABLEHOLE", false);
 mods.thaumcraft.Research.setConcealed("EldritchFocusGTNH", true);
 game.setLocalization("tc.research_name.EldritchFocusGTNH", "Wand Focus: Dark Matter");

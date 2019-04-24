@@ -6,25 +6,25 @@
 
 
 
-// --- Loot Bag (Basic)
+// --- Loot Bag (Basic Stone Age)
 recipes.addShapeless(<enhancedlootbags:lootbag:1>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:1>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:clay_ball>]);
 
 // --- Loot Bag (Steam)
 recipes.addShapeless(<enhancedlootbags:lootbag:2>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:2>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <IC2:itemHarz>]);
 
-// --- Loot Bag (Tier 2)
+// --- Loot Bag (Tier 2 LV)
 recipes.addShapeless(<enhancedlootbags:lootbag:4>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:4>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32610>]);
 
-// --- Loot Bag (Tier 3)
+// --- Loot Bag (Tier 3 MV)
 recipes.addShapeless(<enhancedlootbags:lootbag:5>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:5>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <IC2:itemPartIndustrialDiamond>]);
 
-// --- Loot Bag (Tier 4)
+// --- Loot Bag (Tier 4 HV)
 recipes.addShapeless(<enhancedlootbags:lootbag:6>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:6>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32602>]);
 
-// --- Loot Bag (Tier 5)
+// --- Loot Bag (Tier 5 EV)
 recipes.addShapeless(<enhancedlootbags:lootbag:7>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:7>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <IC2:itemBatLamaCrystal:26>]);
 
-// --- Loot Bag (Tier 6)
+// --- Loot Bag (Tier 6 IV)
 recipes.addShapeless(<enhancedlootbags:lootbag:8>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:8>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32706>]);
 
 // --- Loot Bag (Magic Novize)
@@ -107,3 +107,18 @@ recipes.addShapeless(<enhancedlootbags:lootbag:35>.withTag({ench: [{lvl: 3 as sh
 
 // --- Loot Bag (Gardens)
 recipes.addShapeless(<enhancedlootbags:lootbag:36>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:36>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <harvestcraft:beefwellingtonItem>]);
+
+// --- Loot Bag (AE Basic)
+recipes.addShapeless(<enhancedlootbags:lootbag:37>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:37>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <appliedenergistics2:item.ItemMultiMaterial:22>]);
+
+// --- Loot Bag (AE Advanced)
+recipes.addShapeless(<enhancedlootbags:lootbag:38>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:38>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <appliedenergistics2:item.ItemMultiMaterial:30>]);
+
+// --- Loot Bag (Tier 7 LuV)
+recipes.addShapeless(<enhancedlootbags:lootbag:41>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:41>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:17070>]);
+
+// --- Loot Bag (Floppy)
+recipes.addShapeless(<enhancedlootbags:lootbag:45>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:45>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <OpenComputers:eeprom>]);
+
+// --- Loot Bag (Computer Tier 1)
+recipes.addShapeless(<enhancedlootbags:lootbag:46>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:46>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <OpenComputers:case1>]);

@@ -839,6 +839,12 @@ recipes.remove(<BiblioCraft:item.tapeMeasure>);
 // --- Clipboard
 recipes.remove(<BiblioCraft:item.BiblioClipboard>);
 
+// --- Sloted Book
+recipes.remove(<BiblioCraft:item.SlottedBook>);
+
+// --- Atlas
+recipes.remove(<BiblioCraft:item.AtlasBook>);
+
 
 
 
@@ -910,6 +916,12 @@ recipes.addShaped(<BiblioCraft:BiblioPaneler:6>, [
 [<ore:plateIron>, <ore:craftingToolSaw>, <ore:plateIron>],
 [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>],
 [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+// --- Atlas
+recipes.addShaped(<BiblioCraft:item.AtlasBook>, [
+[<ore:platePaper>, <BiblioCraft:item.BiblioMapTool>, <ore:platePaper>],
+[<ore:platePaper>, <ore:craftingBook>, <ore:platePaper>],
+[<ore:platePaper>, <ore:paperMap>, <ore:platePaper>]]);
 
 // Type Writers
 for i, color in color16 {
@@ -1373,9 +1385,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:1>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat2:1>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, PlumSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, PlumSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable2:1>, [
@@ -1471,9 +1483,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:0>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat2:0>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, PineSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, PineSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable2:0>, [
@@ -1569,9 +1581,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:2>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat2:2>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, PoplarSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, PoplarSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable2:2>, [
@@ -1667,9 +1679,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:3>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat2:3>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, SequoiaSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, SequoiaSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable2:3>, [
@@ -1765,9 +1777,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:4>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat2:4>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, TeakSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, TeakSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable2:4>, [
@@ -1863,9 +1875,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:5>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat2:5>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, WalnutSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, WalnutSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable2:5>, [
@@ -1961,9 +1973,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:6>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat2:6>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, WengeSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, WengeSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable2:6>, [
@@ -2059,9 +2071,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk2:7>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat2:7>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, WillowSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, WillowSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable2:7>, [
@@ -2157,9 +2169,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:0>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:0>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, AcaciaSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, AcaciaSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:0>, [
@@ -2255,9 +2267,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:1>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:1>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, BalsaSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, BalsaSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:1>, [
@@ -2353,9 +2365,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:2>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:2>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, BaobabSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, BaobabSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:2>, [
@@ -2451,9 +2463,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:3>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:3>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, CherrySlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, CherrySlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:3>, [
@@ -2549,9 +2561,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:4>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:4>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, ChestnutSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, ChestnutSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:4>, [
@@ -2647,9 +2659,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:5>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:5>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, CitrusSlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, CitrusSlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:5>, [
@@ -2745,9 +2757,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:6>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:6>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, EbonySlab, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, EbonySlab, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:6>, [
@@ -2843,9 +2855,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:7>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:7>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, GreenheartSlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, GreenheartSlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:7>, [
@@ -2941,9 +2953,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:8>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:8>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, KapokSlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, KapokSlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:8>, [
@@ -3039,9 +3051,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:9>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:9>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, LarchSlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, LarchSlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:9>, [
@@ -3137,9 +3149,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:10>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:10>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, LimeSlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, LimeSlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:10>, [
@@ -3235,9 +3247,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:11>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:11>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, MahoeSlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, MahoeSlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:11>, [
@@ -3333,9 +3345,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:12>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:12>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, MahoganySlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, MahoganySlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:12>, [
@@ -3431,9 +3443,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:13>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:13>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, MappleSlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, MappleSlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:13>, [
@@ -3529,9 +3541,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:14>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:14>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, PalmSlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, PalmSlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:14>, [
@@ -3627,9 +3639,9 @@ recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFstdesk:15>, [
 
 // - Seat
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodSeat:15>, [
-[null, <ore:blockWool>, null],
+[null, <ore:slabCloth>, null],
 [null, PapayaSlabs, null],
-[<ore:stickWood>, <minecraft:wooden_pressure_plate>, <ore:stickWood>]]);
+[<ore:stickWood>, PapayaSlabs, <ore:stickWood>]]);
 
 // - Table
 recipes.addShaped(<BiblioWoodsForestry:BiblioWoodFsttable:15>, [

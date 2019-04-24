@@ -65,3 +65,9 @@ recipes.addShaped(<ae2stuff:Visualiser>, [
 [<ore:crystalPureFluix>, <appliedenergistics2:item.ToolNetworkTool>, <ore:crystalPureFluix>],
 [<ore:screwTitanium>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ore:screwTitanium>],
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:craftingToolWrench>]]);
+
+// --- Advanced Inscriber
+recipes.addShaped(<ae2stuff:Inscriber>, [
+[<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTungstenSteel>],
+[<appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:tile.BlockInscriber>, <appliedenergistics2:item.ItemMultiMaterial:22>],
+[<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTungstenSteel>]]);

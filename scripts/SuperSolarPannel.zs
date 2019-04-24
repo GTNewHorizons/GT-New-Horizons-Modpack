@@ -64,9 +64,9 @@ recipes.addShaped(<supersolarpanel:solarsplitter>, [
 
 // --- Ender Qunatum Component
 recipes.addShaped(<supersolarpanel:enderquantumcomponent>, [
-[<AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateEnderium>, <AdvancedSolarPanel:asp_crafting_items:3>],
-[<ore:plateEnderium>, <ore:plateQuantum>, <ore:plateEnderium>],
-[<AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateEnderium>, <AdvancedSolarPanel:asp_crafting_items:3>]]);
+[<AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateElectrumFlux>, <AdvancedSolarPanel:asp_crafting_items:3>],
+[<ore:plateElectrumFlux>, <ore:plateDenseInfinityCatalyst>, <ore:plateElectrumFlux>],
+[<AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateElectrumFlux>, <AdvancedSolarPanel:asp_crafting_items:3>]]);
 
 
 

@@ -790,7 +790,7 @@ Assembler.addRecipe(<malisisdoors:garage_door> * 2, PlasticPlate, SteelRing, 150
 Assembler.addRecipe(<malisisdoors:rustyLadder>, IronRod * 3, <gregtech:gt.integrated_circuit:3> * 0, 60, 16);
 
 // --- Carriage Door
-Assembler.addRecipe(<malisisdoors:carriage_door>, QuatzBlock * 4, Door * 2, 200, 30);
+//Assembler.addRecipe(<malisisdoors:carriage_door>, QuatzBlock * 4, Door * 2, 200, 30);
 
 // --- Acacia Door
 Assembler.addRecipe(<malisisdoors:item.door_acacia>, <minecraft:planks:4> * 4, <minecraft:trapdoor>, <liquid:molten.iron> * 16, 400, 4);

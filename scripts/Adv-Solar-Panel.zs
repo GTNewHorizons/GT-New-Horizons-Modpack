@@ -63,9 +63,9 @@ recipes.remove(<AdvancedSolarPanel:asp_crafting_items:13>);
 
 // --- MT Core fore Molecular Transformer
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:12>, [
-[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:1>, <AdvancedSolarPanel:asp_crafting_items:5>],
+[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:*>, <AdvancedSolarPanel:asp_crafting_items:5>],
 [<ore:plateTitanium>, <ore:craftingToolWrench>, <ore:plateTitanium>],
-[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:1>, <AdvancedSolarPanel:asp_crafting_items:5>]]);
+[<AdvancedSolarPanel:asp_crafting_items:5>, <IC2:reactorReflectorThick:*>, <AdvancedSolarPanel:asp_crafting_items:5>]]);
 
 // --- Advanced Solar Helm
 recipes.addShaped(<AdvancedSolarPanel:advanced_solar_helmet>, [

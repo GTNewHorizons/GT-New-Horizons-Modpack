@@ -179,7 +179,7 @@ mods.thaumcraft.Research.addArcanePage("SPINNINGWHEELW", <witchery:spinningwheel
 
 // --- Distillery
 mods.thaumcraft.Research.addResearch("DISTILLERY", "WITCHERY", "metallum 18, motus 15, fabrico 12, instrumentum 9, aqua 6, praecantatio 3", 6, 0, 4, <witchery:distilleryidle>);
-game.setLocalization("tc.research_name.DISTILLERY", "Witchery Spinning Wheel");
+game.setLocalization("tc.research_name.DISTILLERY", "Distillery");
 game.setLocalization("tc.research_text.DISTILLERY", "[WI] Blub...Blub...");
 mods.thaumcraft.Research.addPrereq("DISTILLERY", "SPINNINGWHEELW", false);
 mods.thaumcraft.Research.setConcealed("DISTILLERY", true);

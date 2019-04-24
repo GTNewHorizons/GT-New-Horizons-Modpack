@@ -177,15 +177,15 @@ recipes.addShaped(<RIO:item.linker>, [
 
 // --- Remote Accessor
 recipes.addShaped(<RIO:item.remoteAccessor>, [
-[<dreamcraft:item.TungstenSteelItemCasing>, <RIO:tile.remote_interface>, <dreamcraft:item.TungstenSteelItemCasing>],
+[<ore:itemCasingTungstenSteel>, <RIO:tile.remote_interface>, <ore:itemCasingTungstenSteel>],
 [<RIO:item.linker>, <RIO:item.chip.location>, <RIO:item.linker>],
 [<ore:screwTungstenSteel>, <RIO:item.wireless_transmitter>, <ore:screwTungstenSteel>]]);
 
 // --- PDA
 recipes.addShaped(<RIO:item.pda>, [
-[<ore:screwIron>, <dreamcraft:item.AluminiumItemCasing>, <ore:screwIron>],
+[<ore:screwIron>, <ore:itemCasingAluminium>, <ore:screwIron>],
 [<ore:circuitBasic>, <dreamcraft:item.Display>, <ore:circuitBasic>],
-[<dreamcraft:item.AluminiumItemCasing>, <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long}), <dreamcraft:item.AluminiumItemCasing>]]);
+[<ore:itemCasingAluminium>, <gregtech:gt.metaitem.01:32518>.withTag({"GT.ItemCharge": 100000 as long}), <ore:itemCasingAluminium>]]);
 
 
 

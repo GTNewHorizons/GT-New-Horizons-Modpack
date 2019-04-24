@@ -311,12 +311,12 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
 // --- Cobalt Nugget
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
 // -
-mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetCobalt>);
+//mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetCobalt>);
 
 // --- Cobalt Ingot
 mods.tconstruct.Smeltery.removeMelting(<ore:ingotCobalt>);
 // -
-mods.tconstruct.Casting.removeTableRecipe(<ore:ingotCobalt>);
+//mods.tconstruct.Casting.removeTableRecipe(<ore:ingotCobalt>);
 
 // --- Cobalt Block
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2:5>);
@@ -333,7 +333,7 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:sand>);
 mods.tconstruct.Smeltery.removeAlloy(<liquid:alumite.molten>);
 
 // --- Obsidian Dust
-mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
+//mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
 
 // --- Obsidian Dust
 furnace.remove(<ore:ingotObsidian>);
@@ -1366,7 +1366,7 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:12>, <liquid:alumin
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, 500, <TConstruct:MetalBlock:6>);
 
 // --- Steel Ingot
-//mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:16>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 600);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11305>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 800);
 
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);
@@ -2518,10 +2518,10 @@ Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>,
 
 
 // --- Clear Glass
-BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>], 100, 120, 1000);
+BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
 
 // --- Clear Glass Pane
-BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>], 100, 120, 1000);
+BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
 
 
 
