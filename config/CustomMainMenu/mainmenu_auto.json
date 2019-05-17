@@ -200,10 +200,15 @@
 	
     "other":
     {
-		"background":
-		{
-			"image" : "mainmenu:textures/bg.png",
-			"mode" : "stretch"
-		}
+	        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["mainmenu:textures/bg.png","mainmenu:textures/bg5.png"],
+                "displayDuration" : 200,
+                "fadeDuration" : 40
+            }
+        }
     }
 }
