@@ -197,6 +197,7 @@
         }
 		
     },
+	
     "other":
     {
 	        "background":
@@ -204,7 +205,7 @@
             "image" : "",
             "slideshow":
             {
-                "images" : ["mainmenu:textures/bg.png",mainmenu:textures/bg2.png",mainmenu:textures/bg4.png","mainmenu:textures/bg7.png"],
+                "images" : ["mainmenu:textures/bg.png","mainmenu:textures/bg2.png","mainmenu:textures/bg4.png","mainmenu:textures/bg7.png"],
                 "displayDuration" : 150,
                 "fadeDuration" : 40
             }
