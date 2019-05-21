@@ -193,30 +193,3 @@ mods.thaumcraft.Research.refreshResearchRecipe("DECONSTRUCTOR");
 
 
 // --- Hiding Stuff ---
-
-
-// --- Wands
-NEI.hide(<Thaumcraft:WandCasting:9>);
-// -
-NEI.hide(<Thaumcraft:WandCasting:36>);
-// -
-NEI.hide(<Thaumcraft:WandCasting:54>);
-// -
-NEI.hide(<Thaumcraft:WandCasting:72>);
-// -
-NEI.hide(<Thaumcraft:WandCasting:84>);
-
-// --- Wand Caps
-NEI.hide(<Thaumcraft:WandCap>);
-// -
-NEI.hide(<Thaumcraft:WandCap:1>);
-// -
-NEI.hide(<Thaumcraft:WandCap:2>);
-// -
-NEI.hide(<Thaumcraft:WandCap:3>);
-// -
-NEI.hide(<Thaumcraft:WandCap:4>);
-// -
-NEI.hide(<Thaumcraft:WandCap:7>);
-// -
-NEI.hide(<TaintedMagic:ItemWandCap:*>);

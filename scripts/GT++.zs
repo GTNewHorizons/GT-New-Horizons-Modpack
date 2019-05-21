@@ -5,6 +5,7 @@
 // --- Importing Stuff ---
 
 
+import mods.gregtech.Assembler;
 
 
 
@@ -37,6 +38,32 @@ recipes.remove(<miscutils:frameStabilizing>);
 // --- Arborists Frame
 recipes.remove(<miscutils:frameArborists>);
 
+// --- personal Cloaking Device
+recipes.remove(<miscutils:personalCloakingDevice-0.0>);
+
+// --- UHV Motor
+recipes.remove(<gregtech:gt.metaitem.01:32596>);
+
+// --- UHV Pump
+recipes.remove(<gregtech:gt.metaitem.01:32618>);
+
+// --- UHV Conveyor
+recipes.remove(<gregtech:gt.metaitem.01:32638>);
+
+// --- UHV Piston
+recipes.remove(<gregtech:gt.metaitem.01:32648>);
+
+// --- UHV Robot Arm
+recipes.remove(<gregtech:gt.metaitem.01:32658>);
+
+// --- UHV Emitter
+recipes.remove(<gregtech:gt.metaitem.01:32688>);
+
+// --- UHV Sensor
+recipes.remove(<gregtech:gt.metaitem.01:32698>);
+
+// --- UHV Field generator
+recipes.remove(<gregtech:gt.metaitem.01:32678>);
 
 
 
@@ -47,9 +74,8 @@ recipes.remove(<miscutils:frameArborists>);
 // --- Thermal Boiler
 recipes.addShaped(<gregtech:gt.blockmachines:875>, [
 [<RIO:tile.machine:1>, <gregtech:gt.blockmachines:363>, <RIO:tile.machine:1>],
-[<ore:gearGtTitanium>, <ore:circuitElite>, <ore:gearGtTitanium>],
+[<ore:gearGtTungstenSteel>, <ore:circuitElite>, <ore:gearGtTungstenSteel>],
 [<RIO:tile.machine:1>, <gregtech:gt.blockmachines:363>, <RIO:tile.machine:1>]]);
-
 
 // --- Accelerated Frame
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
@@ -60,9 +86,9 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 
 // --- Mutagenic Frame
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576, 
-[<gregtech:gt.metaitem.02:22098>, <gregtech:gt.metaitem.01:23098>, <gregtech:gt.metaitem.02:22098>, 
-<gregtech:gt.metaitem.01:23098>, <gregtech:gt.metaitem.01:29098>, <gregtech:gt.metaitem.01:23098>, 
-<gregtech:gt.metaitem.02:22098>, <gregtech:gt.metaitem.01:23098>, <gregtech:gt.metaitem.02:22098>],
+[<gregtech:gt.metaitem.02:22097>, <gregtech:gt.metaitem.01:23101>, <gregtech:gt.metaitem.02:22097>, 
+<gregtech:gt.metaitem.01:23101>, <gregtech:gt.metaitem.01:29101>, <gregtech:gt.metaitem.01:23101>, 
+<gregtech:gt.metaitem.02:22097>, <gregtech:gt.metaitem.01:23101>, <gregtech:gt.metaitem.02:22097>],
 <Forestry:frameImpregnated>, <miscutils:frameMutagenic>);
 
 // --- Working Frame
@@ -99,3 +125,16 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 <gregtech:gt.metaitem.01:23889>, <minecraft:paper>, <gregtech:gt.metaitem.01:23889>, 
 <gregtech:gt.metaitem.02:22889>, <gregtech:gt.metaitem.01:23889>, <gregtech:gt.metaitem.02:22889>],
 <Forestry:frameImpregnated>, <miscutils:frameArborists>);
+
+// --- Useless Frame give Beekeeper coins
+recipes.addShapeless(<dreamcraft:item.CoinBeesI> * 16, [<miscutils:frameUseless>]);
+
+
+
+
+// --- Assembler Recipes ---
+
+
+
+// --- Personla Cloaking Device
+Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium> * 4, <gregtech:gt.metaitem.01:32597>, <liquid:molten.nichrome> * 1440, 2400, 7860);

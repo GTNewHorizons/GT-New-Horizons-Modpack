@@ -1,5 +1,5 @@
 // --- Created by DreamMasterXXL ---
-
+// --- Modified by bartimaeusnek ---
 
 
 // --- Importing Stuff ---
@@ -192,7 +192,6 @@ mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTMachines:*>);
 // --- Add Recipes ---
 
 
-
 // --- Glue
 recipes.addShapeless(<EMT:EMTItems:8>, [<TConstruct:materials:36>, <TConstruct:materials:36>]);
 
@@ -262,8 +261,8 @@ mods.thaumcraft.Arcane.addShaped("FeatherWings", <EMT:EMTItems:7>, "aer 5, terra
 [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>],
 [<minecraft:feather>, <EMT:EMTItems:9>, <minecraft:feather>],
 [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>]]);
-mods.thaumcraft.Research.addArcanePage("FeatherWings", <EMT:EMTItems:7>);
-mods.thaumcraft.Arcane.addShaped("FeatherWings", <EMT:EMTItems:7>, "aer 15, ordo 5", [
+mods.thaumcraft.Research.addArcanePage("FeatherWings", <EMT:EMTItems:11>);
+mods.thaumcraft.Arcane.addShaped("FeatherWings", <EMT:EMTItems:11>, "aer 15, ordo 5", [
 [<gregtech:gt.metaitem.01:21879>, <gregtech:gt.metaitem.01:21879>, null],
 [<EMT:EMTItems:8>, <EMT:EMTItems:8>, null],
 [null, null, null]]);
@@ -435,7 +434,7 @@ game.setLocalization("tc.research_name.NanoBootsoftheTraveller", "Nano Boots of 
 game.setLocalization("tc.research_text.NanoBootsoftheTraveller", "Speed demon");
 mods.thaumcraft.Research.addPage("NanoBootsoftheTraveller", "tc.research_page.NanoBootsoftheTraveller");
 game.setLocalization("tc.research_page.NanoBootsoftheTraveller", "Your Electric Boots of the Traveller are nice, but you think you can do better. You have found a way to upgrade these boots to the Nano tier, improving the mechanical components and improving the spell cast on the footwear. These boots allow for higher jumps and faster running than before.");
-mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller>,
+mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:*>,
 [<IC2:itemArmorNanoBoots:26>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:26>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
 "motus 48, potentia 24, tutamen 32, praecantatio 16, volatus 8, iter 16", <EMT:NanoBootsTraveller:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller:27>);
@@ -591,7 +590,7 @@ game.setLocalization("tc.research_name.NanosuitGogglesofRevealing", "Nanosuit Go
 game.setLocalization("tc.research_text.NanosuitGogglesofRevealing", "Top-tier eye protection");
 mods.thaumcraft.Research.addPage("NanosuitGogglesofRevealing", "tc.research_page.NanosuitGogglesofRevealing");
 game.setLocalization("tc.research_page.NanosuitGogglesofRevealing", "You have discovered a way to incorporate your previous vis sensors to a Nanosuit Helmet without moving too much around. By infusing the nano helmet with magic, you will be able to use it to see Aura Nodes. During the magical process, the control circuits for the night vision feature are replaced with capacitors to absorb the excess magical energy and vis-sensing microchips. This will prevent you from turning off the night vision effect of the helmet.");
-mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:165>,
+mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:*>,
 [<IC2:itemArmorNanoHelmet:26>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:17330>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:32692>, <IC2:itemBatCrystal:26>, <gregtech:gt.metaitem.01:32692>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.blockmachines:1442>], 
 "tutamen 32, potentia 32, sensus 24, praecantatio 16, auram 8, electrum 8", <EMT:NanosuitGogglesRevealing:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanosuitGogglesofRevealing", <EMT:NanosuitGogglesRevealing:27>);
@@ -649,10 +648,48 @@ mods.thaumcraft.Arcane.addShaped("CompressedSolars", <EMT:EMTSolars:1>, "aer 100
 [<EMT:EMTSolars>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <EMT:EMTSolars>],
 [<EMT:EMTSolars>, <EMT:EMTSolars>, <EMT:EMTSolars>]]);
 mods.thaumcraft.Research.addArcanePage("CompressedSolars", <EMT:EMTSolars:1>);
-mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <EMT:EMTSolars:1>,
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>,
 [<dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>], 
 "aer 150, aqua 150, terra 150, ignis 150, ordo 150, perditio 150", <EMT:EMTSolars:2>, 15);
 mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars:2>);
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedChromePlate>,
+[
+<dreamcraft:item.IrradiantReinforcedChromePlate>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>,
+<dreamcraft:item.IrradiantReinforcedChromePlate>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>
+], 
+"aer 300, aqua 300, terra 300, ignis 300, ordo 300, perditio 300", <EMT:EMTSolars3>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3>);
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <AdvancedSolarPanel:asp_crafting_items:8>,
+[
+<AdvancedSolarPanel:asp_crafting_items:8>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>,
+<AdvancedSolarPanel:asp_crafting_items:8>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>
+], 
+"aer 600, aqua 600, terra 600, ignis 600, ordo 600, perditio 600", <EMT:EMTSolars3:7>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3:7>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>,
+[
+<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>,
+<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>
+], 
+"aer 1200, aqua 1200, terra 1200, ignis 1200, ordo 1200, perditio 1200", <EMT:EMTSolars3:14>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3:14>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>,
+[
+<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>,
+<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>
+], 
+"aer 2400, aqua 2400, terra 2400, ignis 2400, ordo 2400, perditio 2400", <EMT:EMTSolars4:5>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:5>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <AdvancedSolarPanel:asp_crafting_items:13>,
+[
+<AdvancedSolarPanel:asp_crafting_items:13>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>,
+<AdvancedSolarPanel:asp_crafting_items:13>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>
+], 
+"aer 4800, aqua 4800, terra 4800, ignis 4800, ordo 4800, perditio 4800", <EMT:EMTSolars4:12>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:12>);
 
 // --- Water Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Water Infused Solar Panels");
@@ -670,6 +707,18 @@ mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:4>,
 mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:4>);
 mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:5>, <EMT:EMTSolars:2>, "aqua 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:5>);
+//new ones
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars3:5>, <EMT:EMTSolars3>, "aqua 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars3:5>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars3:12>, <EMT:EMTSolars3:7>, "aqua 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars3:12>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars4:3>, <EMT:EMTSolars3:14>, "aqua 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars4:3>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars4:10>, <EMT:EMTSolars4:5>, "aqua 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars4:10>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>, <EMT:EMTSolars4:12>, "aqua 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>);
+
 
 // --- Entropy Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Entropy Infused Solar Panels");
@@ -688,6 +737,18 @@ mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSo
 mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars:8>, <EMT:EMTSolars:2>, "perditio 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars:8>);
 
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars3:2>, <EMT:EMTSolars3>, "perditio 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars3:2>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars3:9>, <EMT:EMTSolars3:7>, "perditio 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars3:9>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4>, <EMT:EMTSolars3:14>, "perditio 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4:7>, <EMT:EMTSolars4:5>, "perditio 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4:7>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4:14>, <EMT:EMTSolars4:12>, "perditio 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4:14>);
+
+
 // --- Order Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Order Infused Solar Panels");
@@ -704,6 +765,18 @@ mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:10>
 mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:10>);
 mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:11>, <EMT:EMTSolars:2>, "ordo 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:11>);
+
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:1>, <EMT:EMTSolars3>, "ordo 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:1>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:8>, <EMT:EMTSolars3:7>, "ordo 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:8>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:15>, <EMT:EMTSolars3:14>, "ordo 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:15>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars4:6>, <EMT:EMTSolars4:5>, "ordo 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars4:6>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars4:13>, <EMT:EMTSolars4:12>, "ordo 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars4:13>);
+
 
 // --- Fire Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Fire Infused Solar Panels");
@@ -722,6 +795,17 @@ mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolar
 mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars:14>, <EMT:EMTSolars:2>, "ignis 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars:14>);
 
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars3:6>, <EMT:EMTSolars3>, "ignis 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars3:6>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars3:13>, <EMT:EMTSolars3:7>, "ignis 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars3:13>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars4:4>, <EMT:EMTSolars3:14>, "ignis 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars4:4>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars4:11>, <EMT:EMTSolars4:5>, "ignis 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars4:11>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars5:2>, <EMT:EMTSolars4:12>, "ignis 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars5:2>);
+
 // --- Air Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Air Infused Solar Panels");
@@ -738,6 +822,17 @@ mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars2>, <E
 mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars2>);
 mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars2:1>, <EMT:EMTSolars:2>, "aer 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars2:1>);
+
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars3:3>, <EMT:EMTSolars3>, "aer 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars3:3>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars3:10>, <EMT:EMTSolars3:7>, "aer 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars3:10>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:1>, <EMT:EMTSolars3:14>, "aer 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:1>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:8>, <EMT:EMTSolars4:5>, "aer 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:8>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:15>, <EMT:EMTSolars4:12>, "aer 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:15>);
 
 // --- Earth Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Earth Infused Solar Panels");
@@ -756,6 +851,16 @@ mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSola
 mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>, <EMT:EMTSolars:2>, "terra 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>);
 
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars3:4>, <EMT:EMTSolars3>, "terra 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars3:4>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars3:11>, <EMT:EMTSolars3:7>, "terra 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars3:11>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars4:2>, <EMT:EMTSolars3:14>, "terra 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars4:2>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>, <EMT:EMTSolars4:5>, "terra 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars5>, <EMT:EMTSolars4:12>, "terra 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars5>);
 // --- Electric Hoe of Growth
 mods.thaumcraft.Research.orphanResearch("Electric Hoe of Growth");
 mods.thaumcraft.Research.removeResearch("Electric Hoe of Growth");
@@ -1094,7 +1199,7 @@ mods.thaumcraft.Research.setConcealed("PotentiaGenerator", true);
 game.setLocalization("tc.research_name.PotentiaGenerator", "Potentia Generator");
 game.setLocalization("tc.research_text.PotentiaGenerator", "Harnessing the power-producing potential of Essentia");
 mods.thaumcraft.Research.addPage("PotentiaGenerator", "tc.research_page.PotentiaGenerator");
-game.setLocalization("tc.research_page.PotentiaGenerator", "After much studying and research, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 4 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing Essentia with EU, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering. <BR><BR>All Essentia Generators give out Gregtech EU, so no transformers are needed!");
+game.setLocalization("tc.research_page.PotentiaGenerator", "After much studying and research, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 4 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing Essentia with EU, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering. <BR><BR>All Essentia Generators give out Gregtech EU, so no transformers are needed, you can make a book containing Information about Essentia Burn Values by putting a Book, a LV circuit and any shard in an MV Assembler");
 mods.thaumcraft.Infusion.addRecipe("PotentiaGenerator", <IC2:blockGenerator:7>,
 [<Thaumcraft:FocusTrade>, <gregtech:gt.metaitem.01:32681>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32601>, <IC2:blockElectric:7>, <gregtech:gt.blockmachines:22>, <Thaumcraft:blockJar>, <IC2:blockMachine:12>, <IC2:blockElectric:7>, <gregtech:gt.metaitem.01:32601>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32681>], 
 "potentia 48, permutatio 32, machina 16, praecantatio 32, metallum 32", <EMT:EssentiaGenerators>, 6);
@@ -1176,6 +1281,75 @@ mods.thaumcraft.Infusion.addRecipe("LucrumGenerator", <EMT:EssentiaGenerators>,
 "permutatio 128, lucrum 256, praecantatio 32, nebrisum 16", <EMT:EssentiaGenerators:5>, 10);
 mods.thaumcraft.Research.addInfusionPage("LucrumGenerator", <EMT:EssentiaGenerators:5>);
 mods.thaumcraft.Warp.addToResearch("LucrumGenerator", 5);
+
+
+// --- Essentia Filler
+mods.thaumcraft.Research.addResearch("EssentiaFiller", "EMT", "iter 12, permutatio 9, aqua 6, praecantatio 3", -4, 10, 3, <EMT:EMTMachines:2>);
+mods.thaumcraft.Research.addPrereq("EssentiaFiller", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("EssentiaFiller", "LucrumGenerator", false);
+mods.thaumcraft.Research.setConcealed("EssentiaFiller", true);
+game.setLocalization("tc.research_name.EssentiaFiller", "Essentia Filler");
+game.setLocalization("tc.research_text.EssentiaFiller", "Fill her up!");
+mods.thaumcraft.Research.addPage("EssentiaFiller", "tc.research_page.EssentiaFiller");
+game.setLocalization("tc.research_page.EssentiaFiller", "It's been a long time since you discovered the flow of Essentia, now you found a way to move essentia into Essentia Hatches.");
+mods.thaumcraft.Arcane.addShaped("EssentiaFiller", <EMT:EMTMachines:2>, "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<ore:plateIridium>, <ore:pipeTinyNetherStar>, <ore:plateIridium>],
+[<ore:pipeTinyNetherStar>, <GalacticraftCore:tile.fuelLoader>, <ore:pipeTinyNetherStar>],
+[<ore:plateIridium>, <ore:pipeTinyNetherStar>, <ore:plateIridium>]]);
+mods.thaumcraft.Research.addArcanePage("EssentiaFiller", <EMT:EMTMachines:2>);
+
+// --- Large Essentia Generator
+mods.thaumcraft.Research.addResearch("LargeEssentiaGenerator", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4, 12, 3, <gregtech:gt.blockmachines:13000>);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "EssentiaFiller", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "LucrumGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "PotentiaGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "AerGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "IgnisGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "AuramGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "ArborGenerator", false);
+mods.thaumcraft.Research.setConcealed("LargeEssentiaGenerator", true);
+game.setLocalization("tc.research_name.LargeEssentiaGenerator", "Large Essentia Generator");
+game.setLocalization("tc.research_text.LargeEssentiaGenerator", "Burn everything");
+mods.thaumcraft.Research.addPage("LargeEssentiaGenerator", "tc.research_page.LargeEssentiaGenerator");
+game.setLocalization("tc.research_page.LargeEssentiaGenerator", "This must be it. All your efforts to making the Essentia Generators finally payed of. You managed to make a shematic for a reactor like structure that will allow you to create Energy out of almost anything. The only remaining problems are the Chamber and the Walls of this Structure.");
+mods.thaumcraft.Infusion.addRecipe("LargeEssentiaGenerator", <IC2:blockGenerator:5>,
+[<gregtech:gt.blockmachines:1191>,<EMT:EssentiaGenerators>, <EMT:EssentiaGenerators:1>, <EMT:EssentiaGenerators:2>,<gregtech:gt.blockmachines:1191>, <EMT:EssentiaGenerators:3>, <EMT:EssentiaGenerators:4>, <EMT:EssentiaGenerators:5>], 
+"permutatio 1024, praecantatio 512, lucrum 256, radio 128, nebrisum 64, terminus 32", <gregtech:gt.blockmachines:13000>, 10);
+mods.thaumcraft.Research.addInfusionPage("LargeEssentiaGenerator", <gregtech:gt.blockmachines:13000>);
+mods.thaumcraft.Warp.addToResearch("LargeEssentiaGenerator", 10);
+
+// --- Essentia Diffusion Cells
+mods.thaumcraft.Research.addResearch("EssentiaDiffusionCells", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -2, 14, 3, <EMT:EMT_GTBLOCK_CASEING:1>);
+mods.thaumcraft.Research.addPrereq("EssentiaDiffusionCells", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("EssentiaDiffusionCells", "LargeEssentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("EssentiaDiffusionCells", true);
+game.setLocalization("tc.research_name.EssentiaDiffusionCells", "Essentia Diffusion Cells");
+game.setLocalization("tc.research_text.EssentiaDiffusionCells", "Take them apart");
+mods.thaumcraft.Research.addPage("EssentiaDiffusionCells", "tc.research_page.EssentiaDiffusionCells");
+game.setLocalization("tc.research_page.EssentiaDiffusionCells", "The inner chamber of your Large Essentia Generator need to widstand the highest mechanical, and magical pressure. It also needs a special catalyst that will activate the Essentia, but your efforts with a Primordial Pearl have failed, they just weren't strong enough...");
+mods.thaumcraft.Infusion.addRecipe("EssentiaDiffusionCells", <EMT:EMT_GTBLOCK_CASEING:5>,
+[<Avaritia:big_pearl>,<gregtech:gt.metaitem.02:19083>, <gregtech:gt.metaitem.02:19083>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>, <thaumicenergistics:material>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19101>, <gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.01:32684>,<gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>, <thaumicenergistics:material>,<gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19083>, <gregtech:gt.metaitem.02:19083>], 
+"perditio 64, permutatio 64, praecantatio 64, nebrisum 64, radio 64", <EMT:EMT_GTBLOCK_CASEING:1>, 10);
+mods.thaumcraft.Research.addInfusionPage("EssentiaDiffusionCells", <EMT:EMT_GTBLOCK_CASEING:1>);
+mods.thaumcraft.Warp.addToResearch("EssentiaDiffusionCells", 10);
+
+// --- Magic Containing Casings
+mods.thaumcraft.Research.addResearch("MagicContainingCasings", "EMT", "tutamen 32,nebrisum 12, ordo 9, tempus 6, praecantatio 3", -6, 14, 3,  <EMT:EMT_GTBLOCK_CASEING>);
+mods.thaumcraft.Research.addPrereq("MagicContainingCasings", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("MagicContainingCasings", "LargeEssentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("MagicContainingCasings", true);
+game.setLocalization("tc.research_name.MagicContainingCasings", "Magic Containing Casings");
+game.setLocalization("tc.research_text.MagicContainingCasings", "Keeping the Magic inside");
+mods.thaumcraft.Research.addPage("MagicContainingCasings", "tc.research_page.MagicContainingCasings");
+game.setLocalization("tc.research_page.MagicContainingCasings", "The outer layer of your Large Essentia Generator needs to keep the Essential Radiation in place, but needs to be cooled and aswell. The only solution you found in this topic are Force-Fields.");
+mods.thaumcraft.Infusion.addRecipe("MagicContainingCasings", <EMT:EMT_GTBLOCK_CASEING:4>,
+[<gregtech:gt.metaitem.01:32674>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<gregtech:gt.metaitem.01:32674>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>], 
+"ordo 64, tempus 64, praecantatio 64, nebrisum 64, tutamen 512", <EMT:EMT_GTBLOCK_CASEING>, 10);
+mods.thaumcraft.Research.addInfusionPage("MagicContainingCasings", <EMT:EMT_GTBLOCK_CASEING>);
+mods.thaumcraft.Warp.addToResearch("MagicContainingCasings", 10);
+
+
 
 // --- Industrial Wand Charging Station
 mods.thaumcraft.Research.addResearch("IndustrialWandChargingStation", "EMT", "permutatio 15, potentia 12, fabrico 9, praecantatio 6, lucrum 3", -6, 2, 3, <EMT:EMTMachines>);

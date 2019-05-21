@@ -31,15 +31,15 @@ recipes.remove(<Translocator:diamondNugget>);
 
 // --- Item Translocator
 recipes.addShaped(<Translocator:translocator> * 2, [
-[<dreamcraft:item.AluminiumItemCasing>, <ore:plateRedAlloy>, <dreamcraft:item.AluminiumItemCasing>],
+[<ore:itemCasingAluminium>, <ore:plateRedAlloy>, <ore:itemCasingAluminium>],
 [<ore:pipeMediumBrass>, <ore:gemEnderPearl>, <ore:pipeMediumBrass>],
-[<dreamcraft:item.AluminiumItemCasing>, <ore:plateRedAlloy>, <dreamcraft:item.AluminiumItemCasing>]]);
+[<ore:itemCasingAluminium>, <ore:plateRedAlloy>, <ore:itemCasingAluminium>]]);
 
 // --- Fluid Translocator
 recipes.addShaped(<Translocator:translocator:1> * 2, [
-[<dreamcraft:item.AluminiumItemCasing>, <ore:plateRedAlloy>, <dreamcraft:item.AluminiumItemCasing>],
+[<ore:itemCasingAluminium>, <ore:plateRedAlloy>, <ore:itemCasingAluminium>],
 [<ore:pipeMediumSteel>, <ore:gemEnderPearl>, <ore:pipeMediumSteel>],
-[<dreamcraft:item.AluminiumItemCasing>, <ore:plateRedAlloy>, <dreamcraft:item.AluminiumItemCasing>]]);
+[<ore:itemCasingAluminium>, <ore:plateRedAlloy>, <ore:itemCasingAluminium>]]);
 
 
 

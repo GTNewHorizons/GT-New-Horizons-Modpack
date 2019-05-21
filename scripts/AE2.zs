@@ -6,6 +6,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Autoclave;
 import mods.gregtech.Assembler;
+import mods.gregtech.BlastFurnace;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
@@ -937,17 +938,7 @@ recipes.addShaped(<appliedenergistics2:tile.BlockWireless>, [
 
 // --- Storage Monitor
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:400>, [
-[Screwdriver, <appliedenergistics2:item.ItemMultiPart:200>, HHammer],
-[CertusScrew, <appliedenergistics2:item.ItemMultiPart:280>, CertusScrew],
-[NQuartzPlate, NQuartzPlate, NQuartzPlate]]);
-// -
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:400>, [
-[Screwdriver, <appliedenergistics2:item.ItemMultiPart:180>, HHammer],
-[CertusScrew, <appliedenergistics2:item.ItemMultiPart:280>, CertusScrew],
-[NQuartzPlate, NQuartzPlate, NQuartzPlate]]);
-// -
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:400>, [
-[Screwdriver, <appliedenergistics2:item.ItemMultiPart:160>, HHammer],
+[Screwdriver, <ore:itemIlluminatedPanel>, HHammer],
 [CertusScrew, <appliedenergistics2:item.ItemMultiPart:280>, CertusScrew],
 [NQuartzPlate, NQuartzPlate, NQuartzPlate]]);
 
@@ -1134,6 +1125,28 @@ recipes.addShaped(<appliedenergistics2:item.ToolPortableCell>, [
 [<ore:screwTitanium>, <appliedenergistics2:tile.BlockChest>, <ore:screwTitanium>],
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:craftingToolWrench>]]);
  
+// --- Inscriber
+recipes.addShaped(Inscriber,[ 
+[<ore:plateTitanium>, <ore:gemFluix>, <ore:plateTitanium>], 
+[<IC2:itemRecipePart>,<gregtech:gt.blockmachines:604>,<IC2:itemRecipePart>], 
+[<ore:plateTitanium>, <ore:gemFluix>, <ore:plateTitanium>]]);
+
+// --- Quartz Cutting Knife
+recipes.addShaped(<appliedenergistics2:item.ToolCertusQuartzCuttingKnife>, [
+[<ore:craftingToolHardHammer>, <ore:screwTitanium>, <ore:stickWood>], 
+[<ore:gemCertusQuartz>, <ore:stickWood>, <ore:screwTitanium>], 
+[<ore:plateCertusQuartz>, <ore:gemCertusQuartz>, <ore:craftingToolFile>]]);
+
+// --- Nether Quartz Knife
+recipes.addShaped(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>, [
+[<ore:craftingToolHardHammer>, <ore:screwTitanium>, <ore:stickWood>], 
+[<ore:gemNetherQuartz>, <ore:stickWood>, <ore:screwTitanium>], 
+[<ore:plateNetherQuartz>, <ore:gemNetherQuartz>, <ore:craftingToolFile>]]);
+
+
+
+
+
 
 // --- Avaritia Recipes ---
 
@@ -1280,6 +1293,18 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56>, FluixCoveredC, 
 Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:water> * 200, 7000, 2000, 24);
 // -
 Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:ic2distilledwater> * 200, 9000, 1500, 24);
+
+
+
+
+// --- Blast Furnace Recipes ---
+
+
+
+
+// --- Quartz Glass
+BlastFurnace.addRecipe([QuartzGlass * 4], [<minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4], 200, 120, 1000);
+
 
 
 

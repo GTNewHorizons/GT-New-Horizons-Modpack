@@ -303,21 +303,21 @@ mods.thaumcraft.Warp.addToResearch("ShadowClothGTNH", 2);
 // --- Shard of Creation
 mods.thaumcraft.Research.orphanResearch("CREATIONSHARD");
 mods.thaumcraft.Research.removeResearch("CREATIONSHARD");
-mods.thaumcraft.Research.addResearch("CREATIONSHARD", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
-mods.thaumcraft.Research.addPrereq("CREATIONSHARD", "TMELDRITCHMAJOR", false);
-mods.thaumcraft.Research.addPrereq("CREATIONSHARD", "PRIMPEARL", false);
-mods.thaumcraft.Research.setConcealed("CREATIONSHARD", true);
-game.setLocalization("tc.research_name.CREATIONSHARD", "Shard of Creation");
-game.setLocalization("tc.research_text.CREATIONSHARD", "I am not a madman");
-mods.thaumcraft.Research.addPage("CREATIONSHARD", "tc.research_page.CREATIONSHARD");
-game.setLocalization("tc.research_page.CREATIONSHARD", "You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!");
-mods.thaumcraft.Crucible.addRecipe("CREATIONSHARD", <dreamcraft:item.VoidEssence> * 2, <Thaumcraft:ItemResource:16>, "alienis 16, vacuos 16, tenebrae 16");
-mods.thaumcraft.Research.addCruciblePage("CREATIONSHARD", <dreamcraft:item.VoidEssence>);
-mods.thaumcraft.Infusion.addRecipe("CREATIONSHARD", <minecraft:nether_star>,
+mods.thaumcraft.Research.addResearch("CreationShardGTNH", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "TMELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "PRIMPEARL", false);
+mods.thaumcraft.Research.setConcealed("CreationShardGTNH", true);
+game.setLocalization("tc.research_name.CreationShardGTNH", "Shard of Creation");
+game.setLocalization("tc.research_text.CreationShardGTNH", "I am not a madman");
+mods.thaumcraft.Research.addPage("CreationShardGTNH", "tc.research_page.CreationShardGTNH");
+game.setLocalization("tc.research_page.CreationShardGTNH", "You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!");
+mods.thaumcraft.Crucible.addRecipe("CreationShardGTNH", <dreamcraft:item.VoidEssence> * 2, <Thaumcraft:ItemResource:16>, "alienis 16, vacuos 16, tenebrae 16");
+mods.thaumcraft.Research.addCruciblePage("CreationShardGTNH", <dreamcraft:item.VoidEssence>);
+mods.thaumcraft.Infusion.addRecipe("CreationShardGTNH", <minecraft:nether_star>,
 [<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:6>], 
 "alienis 64, vacuos 64, praecantatio 64, auram 64, tenebrae 64", <TaintedMagic:ItemMaterial:5> * 2, 12);
-mods.thaumcraft.Research.addInfusionPage("CREATIONSHARD", <TaintedMagic:ItemMaterial:5>);
-mods.thaumcraft.Warp.addToResearch("CREATIONSHARD", 10);
+mods.thaumcraft.Research.addInfusionPage("CreationShardGTNH", <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Warp.addToResearch("CreationShardGTNH", 10);
 
 // --- Wand Focus Dark Matter
 mods.thaumcraft.Research.orphanResearch("ELDRITCHFOCUS");
@@ -325,7 +325,7 @@ mods.thaumcraft.Research.removeResearch("ELDRITCHFOCUS");
 mods.thaumcraft.Research.addResearch("EldritchFocusGTNH", "TM", "alienis 18, perditio 15, aer 12, tenebrae 9, potentia 6, ira 3", 8, -4, 4, <TaintedMagic:ItemFocusEldritch>);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "EvilshardsGTNH", true);
-mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CREATIONSHARD", false);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CreationShardGTNH", false);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "FOCUSPORTABLEHOLE", false);
 mods.thaumcraft.Research.setConcealed("EldritchFocusGTNH", true);
 game.setLocalization("tc.research_name.EldritchFocusGTNH", "Wand Focus: Dark Matter");
@@ -863,7 +863,7 @@ mods.thaumcraft.Warp.addToResearch("PrimalBladeGTNH", 10);
 // --- Cloth Cap
 mods.thaumcraft.Research.orphanResearch("CAP_cloth");
 mods.thaumcraft.Research.removeResearch("CAP_cloth");
-mods.thaumcraft.Research.addResearch("Cap_ClothGTNH", "TM", "praecantatio 12, pannus 9, sano 6, alienis 3", 7, 5, 3, <dreamcraft:item.EnchantedClothCap>);
+mods.thaumcraft.Research.addResearch("Cap_ClothGTNH", "TM", "praecantatio 12, pannus 9, sano 6, alienis 3", 7, 5, 3, <TaintedMagic:ItemWandCap:1>);
 mods.thaumcraft.Research.addPrereq("Cap_ClothGTNH", "CAP_gold", false);
 mods.thaumcraft.Research.addPrereq("Cap_ClothGTNH", "ENCHFABRIC", false);
 mods.thaumcraft.Research.setConcealed("Cap_ClothGTNH", true);
@@ -871,17 +871,17 @@ game.setLocalization("tc.research_name.Cap_ClothGTNH", "Cloth Caps");
 game.setLocalization("tc.research_text.Cap_ClothGTNH", "Remember to wrap it");
 mods.thaumcraft.Research.addPage("Cap_ClothGTNH", "tc.research_page.Cap_ClothGTNH");
 game.setLocalization("tc.research_page.Cap_ClothGTNH", "With the immersive study of wandcraft, and the discovery of Enchanted Fabric, you decided to use some to cap a wand.<BR>You are not sure why it worked, seeing as it is just cloth, but it did nonetheless. Using a few pieces of fabric, and a little vis, you have forged a fairly effective and very cheap wand cap.<BR>This cap grants a 5% Vis Discount... Though, you are not quite sure why.");
-mods.thaumcraft.Arcane.addShaped("Cap_ClothGTNH", <dreamcraft:item.EnchantedClothCap>, "terra 25, ignis 25, ordo 25, perditio 25", [
+mods.thaumcraft.Arcane.addShaped("Cap_ClothGTNH", <TaintedMagic:ItemWandCap:1>, "terra 25, ignis 25, ordo 25, perditio 25", [
 [<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>], 
-[<Thaumcraft:ItemResource:7>, <dreamcraft:item.GoldWandCap>, <Thaumcraft:ItemResource:7>],
+[<Thaumcraft:ItemResource:7>, <Thaumcraft:WandCap:1>, <Thaumcraft:ItemResource:7>],
 [<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>]]);
-mods.thaumcraft.Research.addArcanePage("Cap_ClothGTNH", <dreamcraft:item.EnchantedClothCap>);
+mods.thaumcraft.Research.addArcanePage("Cap_ClothGTNH", <TaintedMagic:ItemWandCap:1>);
 mods.thaumcraft.Warp.addToResearch("Cap_ClothGTNH", 1);
 
 // --- Shadow Imbued-Cloth Cap
 mods.thaumcraft.Research.orphanResearch("CAP_shadowcloth");
 mods.thaumcraft.Research.removeResearch("CAP_shadowcloth");
-mods.thaumcraft.Research.addResearch("CaP_ShadowClothGTNH", "TM", "praecantatio 18, pannus 15, tenebrae 12, vacuos 9, metallum 6, alienis 3", -2, 3, 4, <dreamcraft:item.ShadowImbuedClothCap>);
+mods.thaumcraft.Research.addResearch("CaP_ShadowClothGTNH", "TM", "praecantatio 18, pannus 15, tenebrae 12, vacuos 9, metallum 6, alienis 3", -2, 3, 4, <TaintedMagic:ItemWandCap:3>);
 mods.thaumcraft.Research.addPrereq("CaP_ShadowClothGTNH", "CAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CaP_ShadowClothGTNH", "ShadowClothGTNH", false);
 mods.thaumcraft.Research.setConcealed("CaP_ShadowClothGTNH", true);
@@ -889,17 +889,17 @@ game.setLocalization("tc.research_name.CaP_ShadowClothGTNH", "Shadow-Imbued Clot
 game.setLocalization("tc.research_text.CaP_ShadowClothGTNH", "On Wednesdays we wear black");
 mods.thaumcraft.Research.addPage("CaP_ShadowClothGTNH", "tc.research_page.CaP_ShadowClothGTNH");
 game.setLocalization("tc.research_page.CaP_ShadowClothGTNH", "You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a Charged Thaumium Wand Cap to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 10% Vis Discount.");
-mods.thaumcraft.Arcane.addShaped("CaP_ShadowClothGTNH", <dreamcraft:item.ShadowImbuedClothCap>, "terra 50, ignis 50, ordo 50, perditio 50", [
+mods.thaumcraft.Arcane.addShaped("CaP_ShadowClothGTNH", <TaintedMagic:ItemWandCap:3>, "terra 50, ignis 50, ordo 50, perditio 50", [
 [<TaintedMagic:ItemMaterial:1>, <ore:foilShadow>, <TaintedMagic:ItemMaterial:1>], 
-[<ore:foilShadow>, <dreamcraft:item.ChargedThaumiumWandCap>, <ore:foilShadow>],
+[<ore:foilShadow>, <Thaumcraft:WandCap:2>, <ore:foilShadow>],
 [<TaintedMagic:ItemMaterial:1>, <ore:foilShadow>, <TaintedMagic:ItemMaterial:1>]]);
-mods.thaumcraft.Research.addArcanePage("CaP_ShadowClothGTNH", <dreamcraft:item.ShadowImbuedClothCap>);
+mods.thaumcraft.Research.addArcanePage("CaP_ShadowClothGTNH", <TaintedMagic:ItemWandCap:3>);
 mods.thaumcraft.Warp.addToResearch("CaP_ShadowClothGTNH", 2);
 
 // --- Crimson-Stained Cloth Cap
 mods.thaumcraft.Research.orphanResearch("CAP_crimsoncloth");
 mods.thaumcraft.Research.removeResearch("CAP_crimsoncloth");
-mods.thaumcraft.Research.addResearch("CaP_CrimsonClothGTNH", "TM", "tenebrae 18, praecantatio 15, pannus 12, sano 9, aqua 6, alienis 3", -1, -6, 4, <dreamcraft:item.CrimsonStainedClothCap>);
+mods.thaumcraft.Research.addResearch("CaP_CrimsonClothGTNH", "TM", "tenebrae 18, praecantatio 15, pannus 12, sano 9, aqua 6, alienis 3", -1, -6, 4, <TaintedMagic:ItemWandCap:2>);
 mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "Cap_ClothGTNH", true);
 mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "CrimsonRobesGTNH", false);
 mods.thaumcraft.Research.setConcealed("CaP_CrimsonClothGTNH", true);
@@ -907,17 +907,17 @@ game.setLocalization("tc.research_name.CaP_CrimsonClothGTNH", "Crimson-Stained C
 game.setLocalization("tc.research_text.CaP_CrimsonClothGTNH", "I love them red");
 mods.thaumcraft.Research.addPage("CaP_CrimsonClothGTNH", "tc.research_page.CaP_CrimsonClothGTNH");
 game.setLocalization("tc.research_page.CaP_CrimsonClothGTNH", "Using the same concept that the Cloth Caps laid down, you created very similar caps from Crimson-Stained Cloth. Though, you needed some Enchanted Cloth Cap to bind it all together.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps seem to provide a 15% vis discount.");
-mods.thaumcraft.Arcane.addShaped("CaP_CrimsonClothGTNH", <dreamcraft:item.CrimsonStainedClothCap>, "terra 75, ignis 75, ordo 75, perditio 75", [
+mods.thaumcraft.Arcane.addShaped("CaP_CrimsonClothGTNH", <TaintedMagic:ItemWandCap:2>, "terra 75, ignis 75, ordo 75, perditio 75", [
 [<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>], 
-[<TaintedMagic:ItemMaterial:2>, <dreamcraft:item.EnchantedClothCap>, <TaintedMagic:ItemMaterial:2>],
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemWandCap:1>, <TaintedMagic:ItemMaterial:2>],
 [<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>]]);
-mods.thaumcraft.Research.addArcanePage("CaP_CrimsonClothGTNH", <dreamcraft:item.CrimsonStainedClothCap>);
+mods.thaumcraft.Research.addArcanePage("CaP_CrimsonClothGTNH", <TaintedMagic:ItemWandCap:2>);
 mods.thaumcraft.Warp.addToResearch("CaP_CrimsonClothGTNH", 4);
 
 // --- Shadow Metal Cap
 mods.thaumcraft.Research.orphanResearch("CAP_shadowmetal");
 mods.thaumcraft.Research.removeResearch("CAP_shadowmetal");
-mods.thaumcraft.Research.addResearch("CaP_ShadowmetalGTNH", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -4, 4, 4, <dreamcraft:item.ShadowmetalCap>);
+mods.thaumcraft.Research.addResearch("CaP_ShadowmetalGTNH", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -4, 4, 4, <TaintedMagic:ItemWandCap>);
 mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "CaP_ShadowClothGTNH", false);
 mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "CAP_void", false);
 mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "PRIMPEARL", false);
@@ -927,607 +927,7 @@ game.setLocalization("tc.research_text.CaP_ShadowmetalGTNH", "What a drag");
 mods.thaumcraft.Research.addPage("CaP_ShadowmetalGTNH", "tc.research_page.CaP_ShadowmetalGTNH");
 game.setLocalization("tc.research_page.CaP_ShadowmetalGTNH", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.<BR>The Primordial Pearl is not consumed during the crafting process.");
 mods.thaumcraft.Infusion.addRecipe("CaP_ShadowmetalGTNH", <Thaumcraft:ItemEldritchObject:3>,
-[<dreamcraft:item.ChargedVoidWandCap>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>], 
-"alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 32, lucrum 16", <dreamcraft:item.ShadowmetalCap>, 12);
-mods.thaumcraft.Research.addInfusionPage("CaP_ShadowmetalGTNH", <dreamcraft:item.ShadowmetalCap>);
+[<Thaumcraft:WandCap:7>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>], 
+"alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 32, lucrum 16", <TaintedMagic:ItemWandCap>, 12);
+mods.thaumcraft.Research.addInfusionPage("CaP_ShadowmetalGTNH", <TaintedMagic:ItemWandCap>);
 mods.thaumcraft.Warp.addToResearch("CaP_ShadowmetalGTNH", 8);
-
-// --- Satain Entwined Wooden Wand
-mods.thaumcraft.Arcane.addShaped("CaP_CrimsonClothGTNH", <Thaumcraft:WandCasting:3>.withTag({cap: "cloth", rod: "wood"}), "aer 10, terra 10, ignis 10, aqua 10, ordo 10, perditio 10", [
-[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
-
-// --- Satain Entwined Wooden Scepter
-mods.thaumcraft.Arcane.addShaped("CaP_CrimsonClothGTNH", <Thaumcraft:WandCasting:4>.withTag({cap: "cloth", rod: "wood", sceptre: 1 as byte}), "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20", [
-[<TwilightForest:item.nagaScale>,  <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwAluminium>, <Forestry:oakStick>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>,  <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
-
-// --- Satain Entwined Greatwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:9>.withTag({cap: "cloth", rod: "greatwood"}), "aer 35, terra 35, ignis 35, aqua 35, ordo 35, perditio 35", [
-[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
-
-// --- Satain Entwined Greatwood Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:13>.withTag({cap: "cloth", rod: "greatwood", sceptre: 1 as byte}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<dreamcraft:item.LichBone>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
-
-// --- Satain Entwined Greatwood Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:24>.withTag({cap: "cloth", rod: "greatwood_staff"}), "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:50>, <ore:screwTitanium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Gretwood Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:36>.withTag({cap: "cloth", rod: "greatwood_staff", sceptre: 1 as byte}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:50>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Reed Wand
-mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:18>.withTag({aqua: 100, cap: "cloth", rod: "reed"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <ore:screwTitanium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Reed Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "cloth", rod: "reed", sceptre: 1 as byte}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Reed Staff
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:42>.withTag({cap: "cloth", rod: "reed_staff"}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:55>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Reed Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:63>.withTag({cap: "cloth", rod: "reed_staff", sceptre: 1 as byte}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:55>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Blazing Wand
-mods.thaumcraft.Arcane.addShaped("ROD_blaze", <Thaumcraft:WandCasting:18>.withTag({cap: "cloth", rod: "blaze"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <ore:screwTitanium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Blaze Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "cloth", rod: "blaze", sceptre: 1 as byte}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Blaze Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:42>.withTag({cap: "cloth", rod: "blaze_staff"}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:56>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Blaze Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:63>.withTag({cap: "cloth", rod: "blaze_staff"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:56>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Obsidian Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:18>.withTag({cap: "cloth", rod: "obsidian"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <ore:screwTitanium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Obsidian Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "cloth", rod: "obsidian", sceptre: 1 as byte}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Obsidian Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian_staff", <Thaumcraft:WandCasting:42>.withTag({cap: "cloth", rod: "obsidian_staff", sceptre: 1 as byte}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:51>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Obsidian Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:63>.withTag({cap: "cloth", rod: "obsidian_staff"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:51>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Icy Wand
-mods.thaumcraft.Arcane.addShaped("ROD_ice", <Thaumcraft:WandCasting:18>.withTag({cap: "cloth", rod: "ice"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <ore:screwTitanium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Icy Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "cloth", rod: "ice", sceptre: 1 as byte}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Icy Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_ice_staff", <Thaumcraft:WandCasting:42>.withTag({cap: "cloth", rod: "ice_staff"}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:53>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Icy Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:63>.withTag({cap: "cloth", rod: "ice_staff", sceptre: 1 as byte}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:53>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Bone Wand
-mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:18>.withTag({cap: "cloth", rod: "bone"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <ore:screwTitanium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Bone Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "cloth", rod: "bone", sceptre: 1 as byte}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Bone Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_bone_staff", <Thaumcraft:WandCasting:42>.withTag({cap: "cloth", rod: "bone_staff"}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:57>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Bone Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:63>.withTag({cap: "cloth", rod: "bone_staff", sceptre: 1 as byte}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:57>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Quartz Wand
-mods.thaumcraft.Arcane.addShaped("ROD_quartz", <Thaumcraft:WandCasting:18>.withTag({cap: "cloth", rod: "quartz"}), "aer 70, terra 70, ignis 70, aqua 70, ordo 70, perditio 70", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <ore:screwTitanium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Quartz Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:27>.withTag({cap: "cloth", rod: "quartz", sceptre: 1 as byte}), "aer 95, terra 95, ignis 95, aqua 95, ordo 95, perditio 95", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Satain Entwined Quartz Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_quartz_staff", <Thaumcraft:WandCasting:42>.withTag({cap: "cloth", rod: "quartz_staff"}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:54>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Quartz Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:63>.withTag({cap: "cloth", rod: "quartz_staff", sceptre: 1 as byte}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:54>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Silverwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:27>.withTag({cap: "cloth", rod: "silverwood"}), "aer 110, terra 110, ignis 110, aqua 110, ordo 110, perditio 110", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Silverwood Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:40>.withTag({cap: "cloth", rod: "silverwood", sceptre: 1 as byte}), "aer 140, terra 140, ignis 140, aqua 140, ordo 140, perditio 140", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Silverwood Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood_staff", <Thaumcraft:WandCasting:72>.withTag({cap: "cloth", rod: "silverwood_staff"}), "aer 210, terra 210, ignis 210, aqua 210, ordo 210, perditio 210", [
-[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwChrome>, <Thaumcraft:WandRod:52>, <ore:screwChrome>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Satain Entwined Silverwood Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:108>.withTag({cap: "cloth", rod: "silverwood_staff", sceptre: 1 as byte}), "aer 230, terra 230, ignis 230, aqua 230, ordo 230, perditio 230", [
-[<TwilightForest:item.carminite>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwChrome>, <Thaumcraft:WandRod:52>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Satain Entwined Ichorclothstapped Silverwooden Wand
-mods.thaumcraft.Arcane.addShaped("ROD_ICHORCLOTH", <Thaumcraft:WandCasting:30>.withTag({cap: "cloth", rod: "ICHORCLOTH"}), "aer 400, terra 400, ignis 400, aqua 400, ordo 400, perditio 400", [
-[<dreamcraft:item.SnowQueenBlood>, <ore:screwOsmium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwOsmium>, <ThaumicTinkerer:kamiResource:5>, <ore:screwOsmium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwOsmium>, <dreamcraft:item.SnowQueenBlood>]]);
-
-// --- Satain Entwined Ichorclothstapped Silverwooden Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "cloth", rod: "ICHORCLOTH", sceptre: 1 as byte}), "aer 450, terra 450, ignis 450, aqua 450, ordo 450, perditio 450", [
-[<dreamcraft:item.SnowQueenBlood>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwOsmium>, <ThaumicTinkerer:kamiResource:5>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwOsmium>, <dreamcraft:item.SnowQueenBlood>]]);
-
-// --- Satain Entwined Primal Staff
-mods.thaumcraft.Arcane.addShaped("ROD_primal_staff", <Thaumcraft:WandCasting:96>.withTag({cap: "cloth", rod: "primal_staff"}), "aer 230, terra 230, ignis 230, aqua 230, ordo 230, perditio 230", [
-[<TwilightForest:item.carminite>, <ore:screwIridium>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwIridium>, <Thaumcraft:WandRod:100>, <ore:screwIridium>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwIridium>, <TwilightForest:item.carminite>]]);
-
-// --- Satain Entwined Primal Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:144>.withTag({cap: "cloth", rod: "primal_staff", sceptre: 1 as byte}), "aer 300, terra 300, ignis 300, aqua 300, ordo 300, perditio 300", [
-[<TwilightForest:item.carminite>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwIridium>, <Thaumcraft:WandRod:100>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwIridium>, <TwilightForest:item.carminite>]]);
-
-// --- Satain Entwined Blood Wood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_blood_wood", <Thaumcraft:WandCasting:48>.withTag({cap: "cloth", rod: "blood_wood"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Blood Wood Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:72>.withTag({cap: "cloth", rod: "blood_wood", sceptre: 1 as byte}), "aer 140, terra 140, ignis 140, aqua 140, ordo 140, perditio 140", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Blood Wood Staff Wand
-mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:81>.withTag({cap: "cloth", rod: "blood_wood_staff"}), "aer 220, terra 220, ignis 220, aqua 220, ordo 220, perditio 220", [
-[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <ore:screwChrome>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Satain Entwined Blood Wood Staff Scepter
-mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:121>.withTag({cap: "cloth", rod: "blood_wood_staff", sceptre: 1 as byte}), "aer 240, terra 240, ignis 240, aqua 240, ordo 240, perditio 240", [
-[<TwilightForest:item.carminite>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Satain Entwined Blood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:36>.withTag({cap: "cloth", rod: "blood"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores:3>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Blood Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:54>.withTag({cap: "cloth", rod: "blood", sceptre: 1 as byte}), "aer 140, terra 140, ignis 140, aqua 140, ordo 140, perditio 140", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores:3>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Blood Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_blood_staff", <Thaumcraft:WandCasting:72>.withTag({cap: "cloth", rod: "blood_staff"}), "aer 220, terra 220, ignis 220, aqua 220, ordo 220, perditio 220", [
-[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwChrome>, <ForbiddenMagic:WandCores:9>, <ore:screwChrome>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Satain Entwined Blood Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:108>.withTag({cap: "cloth", rod: "blood_staff", sceptre: 1 as byte}), "aer 240, terra 240, ignis 240, aqua 240, ordo 240, perditio 240", [
-[<TwilightForest:item.carminite>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwChrome>, <ForbiddenMagic:WandCores:9>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Satain Entwined Infernal Wand
-mods.thaumcraft.Arcane.addShaped("ROD_infernal", <Thaumcraft:WandCasting:36>.withTag({cap: "cloth", rod: "infernal"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores:1>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Infernal Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:54>.withTag({cap: "cloth", rod: "infernal", sceptre: 1 as byte}), "aer 140, terra 140, ignis 140, aqua 140, ordo 140, perditio 140", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores:1>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Tainted Wand
-mods.thaumcraft.Arcane.addShaped("ROD_tainted", <Thaumcraft:WandCasting:36>.withTag({cap: "cloth", rod: "tainted"}), "aer 120, terra 120, ignis 120, aqua 120, ordo 120, perditio 120", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.EnchantedClothCap>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Satain Entwined Tainted Scepter
-mods.thaumcraft.Arcane.addShaped("ROD_tainted", <Thaumcraft:WandCasting:54>.withTag({cap: "cloth", rod: "tainted", sceptre: 1 as byte}), "aer 140, terra 140, ignis 140, aqua 140, ordo 140, perditio 140", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.EnchantedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores>, <dreamcraft:item.EnchantedClothCap>],
-[<dreamcraft:item.EnchantedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Wooden Wand
-mods.thaumcraft.Arcane.addShaped("CaP_CrimsonClothGTNH", <Thaumcraft:WandCasting:5>.withTag({cap: "crimsoncloth", rod: "wood"}), "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
-[<TwilightForest:item.nagaScale>, <ore:screwAluminium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwAluminium>, <Forestry:oakStick>, <ore:screwAluminium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
-
-// --- Crimson Stained Wooden Scepter
-mods.thaumcraft.Arcane.addShaped("CaP_CrimsonClothGTNH", <Thaumcraft:WandCasting:7>.withTag({cap: "crimsoncloth", rod: "wood", sceptre: 1 as byte}), "aer 25, terra 25, ignis 25, aqua 25, ordo 25, perditio 25", [
-[<TwilightForest:item.nagaScale>,  <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwAluminium>, <Forestry:oakStick>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>,  <ore:screwAluminium>, <TwilightForest:item.nagaScale>]]);
-
-// --- Crimson Stained Greatwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_greatwood", <Thaumcraft:WandCasting:15>.withTag({cap: "crimsoncloth", rod: "greatwood"}), "aer 40, terra 40, ignis 40, aqua 40, ordo 40, perditio 40", [
-[<dreamcraft:item.LichBone>, <ore:screwStainlessSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <ore:screwStainlessSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
-
-// --- Crimson Stained Greatwood Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:22>.withTag({cap: "crimsoncloth", rod: "greatwood", sceptre: 1 as byte}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<dreamcraft:item.LichBone>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwStainlessSteel>, <Thaumcraft:WandRod>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwStainlessSteel>, <dreamcraft:item.LichBone>]]);
-
-// --- Crimson Stained Greatwood Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_greatwood_staff", <Thaumcraft:WandCasting:40>.withTag({cap: "crimsoncloth", rod: "greatwood_staff"}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:50>, <ore:screwTitanium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Gretwood Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:60>.withTag({cap: "crimsoncloth", rod: "greatwood_staff", sceptre: 1 as byte}), "aer 110, terra 110, ignis 110, aqua 110, ordo 110, perditio 110", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:50>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Reed Wand
-mods.thaumcraft.Arcane.addShaped("ROD_reed", <Thaumcraft:WandCasting:30>.withTag({aqua: 100, cap: "crimsoncloth", rod: "reed"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <ore:screwTitanium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Reed Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "crimsoncloth", rod: "reed", sceptre: 1 as byte}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:5>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Reed Staff
-mods.thaumcraft.Arcane.addShaped("ROD_reed_staff", <Thaumcraft:WandCasting:70>.withTag({cap: "crimsoncloth", rod: "reed_staff"}), "aer 115, terra 115, ignis 115, aqua 115, ordo 115, perditio 115", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:55>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Reed Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:105>.withTag({cap: "crimsoncloth", rod: "reed_staff", sceptre: 1 as byte}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:55>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Blazing Wand
-mods.thaumcraft.Arcane.addShaped("ROD_blaze", <Thaumcraft:WandCasting:30>.withTag({cap: "crimsoncloth", rod: "blaze"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <ore:screwTitanium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Blaze Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "crimsoncloth", rod: "blaze", sceptre: 1 as byte}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:6>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Blaze Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_blaze_staff", <Thaumcraft:WandCasting:70>.withTag({cap: "crimsoncloth", rod: "blaze_staff"}), "aer 115, terra 115, ignis 115, aqua 115, ordo 115, perditio 115", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:56>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Blaze Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:105>.withTag({cap: "crimsoncloth", rod: "blaze_staff"}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:56>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Obsidian Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian", <Thaumcraft:WandCasting:30>.withTag({cap: "crimsoncloth", rod: "obsidian"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <ore:screwTitanium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Obsidian Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "crimsoncloth", rod: "obsidian", sceptre: 1 as byte}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:1>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Obsidian Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_obsidian_staff", <Thaumcraft:WandCasting:70>.withTag({cap: "crimsoncloth", rod: "obsidian_staff", sceptre: 1 as byte}), "aer 115, terra 115, ignis 115, aqua 115, ordo 115, perditio 115", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:51>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Obsidian Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:105>.withTag({cap: "crimsoncloth", rod: "obsidian_staff"}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:51>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Icy Wand
-mods.thaumcraft.Arcane.addShaped("ROD_ice", <Thaumcraft:WandCasting:30>.withTag({cap: "crimsoncloth", rod: "ice"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <ore:screwTitanium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Icy Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "crimsoncloth", rod: "ice", sceptre: 1 as byte}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:3>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Icy Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_ice_staff", <Thaumcraft:WandCasting:70>.withTag({cap: "crimsoncloth", rod: "ice_staff"}), "aer 115, terra 115, ignis 115, aqua 115, ordo 115, perditio 115", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:53>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Icy Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:105>.withTag({cap: "crimsoncloth", rod: "ice_staff", sceptre: 1 as byte}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:53>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Bone Wand
-mods.thaumcraft.Arcane.addShaped("ROD_bone", <Thaumcraft:WandCasting:30>.withTag({cap: "crimsoncloth", rod: "bone"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <ore:screwTitanium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Bone Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "crimsoncloth", rod: "bone", sceptre: 1 as byte}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:7>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Bone Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_bone_staff", <Thaumcraft:WandCasting:70>.withTag({cap: "crimsoncloth", rod: "bone_staff"}), "aer 115, terra 115, ignis 115, aqua 115, ordo 115, perditio 115", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:57>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Bone Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:105>.withTag({cap: "crimsoncloth", rod: "bone_staff", sceptre: 1 as byte}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:57>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Quartz Wand
-mods.thaumcraft.Arcane.addShaped("ROD_quartz", <Thaumcraft:WandCasting:30>.withTag({cap: "crimsoncloth", rod: "quartz"}), "aer 80, terra 80, ignis 80, aqua 80, ordo 80, perditio 80", [
-[<TwilightForest:item.fieryBlood>, <ore:screwTitanium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <ore:screwTitanium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Quartz Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:45>.withTag({cap: "crimsoncloth", rod: "quartz", sceptre: 1 as byte}), "aer 105, terra 105, ignis 105, aqua 105, ordo 105, perditio 105", [
-[<TwilightForest:item.fieryBlood>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTitanium>, <Thaumcraft:WandRod:4>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTitanium>, <TwilightForest:item.fieryBlood>]]);
-
-// --- Crimson Stained Quartz Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_quartz_staff", <Thaumcraft:WandCasting:70>.withTag({cap: "crimsoncloth", rod: "quartz_staff"}), "aer 115, terra 115, ignis 115, aqua 115, ordo 115, perditio 115", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:54>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Quartz Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:105>.withTag({cap: "crimsoncloth", rod: "quartz_staff", sceptre: 1 as byte}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:54>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Silverwood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:45>.withTag({cap: "crimsoncloth", rod: "silverwood"}), "aer 100, terra 100, ignis 100, aqua 100, ordo 100, perditio 100", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Silverwood Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:67>.withTag({cap: "crimsoncloth", rod: "silverwood", sceptre: 1 as byte}), "aer 130, terra 130, ignis 130, aqua 130, ordo 130, perditio 130", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <Thaumcraft:WandRod:2>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Silverwood Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood_staff", <Thaumcraft:WandCasting:120>.withTag({cap: "crimsoncloth", rod: "silverwood_staff"}), "aer 190, terra 190, ignis 190, aqua 190, ordo 190, perditio 190", [
-[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwChrome>, <Thaumcraft:WandRod:52>, <ore:screwChrome>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Crimson Stained Silverwood Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:180>.withTag({cap: "crimsoncloth", rod: "silverwood_staff", sceptre: 1 as byte}), "aer 210, terra 210, ignis 210, aqua 210, ordo 210, perditio 210", [
-[<TwilightForest:item.carminite>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwChrome>, <Thaumcraft:WandRod:52>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Crimson Stained Ichorclothstapped Silverwooden Wand
-mods.thaumcraft.Arcane.addShaped("ROD_ICHORCLOTH", <Thaumcraft:WandCasting:50>.withTag({cap: "crimsoncloth", rod: "ICHORCLOTH"}), "aer 350, terra 350, ignis 350, aqua 350, ordo 350, perditio 350", [
-[<dreamcraft:item.SnowQueenBlood>, <ore:screwOsmium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwOsmium>, <ThaumicTinkerer:kamiResource:5>, <ore:screwOsmium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwOsmium>, <dreamcraft:item.SnowQueenBlood>]]);
-
-// --- Crimson Stained Ichorclothstapped Silverwooden Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:75>.withTag({cap: "crimsoncloth", rod: "ICHORCLOTH", sceptre: 1 as byte}), "aer 400, terra 400, ignis 400, aqua 400, ordo 400, perditio 400", [
-[<dreamcraft:item.SnowQueenBlood>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwOsmium>, <ThaumicTinkerer:kamiResource:5>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwOsmium>, <dreamcraft:item.SnowQueenBlood>]]);
-
-// --- Crimson Stained Primal Staff
-mods.thaumcraft.Arcane.addShaped("ROD_primal_staff", <Thaumcraft:WandCasting:160>.withTag({cap: "crimsoncloth", rod: "primal_staff"}), "aer 210, terra 210, ignis 210, aqua 210, ordo 210, perditio 210", [
-[<TwilightForest:item.carminite>, <ore:screwIridium>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwIridium>, <Thaumcraft:WandRod:100>, <ore:screwIridium>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwIridium>, <TwilightForest:item.carminite>]]);
-
-// --- Crimson Stained Primal Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:240>.withTag({cap: "crimsoncloth", rod: "primal_staff", sceptre: 1 as byte}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
-[<TwilightForest:item.carminite>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwIridium>, <Thaumcraft:WandRod:100>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwIridium>, <TwilightForest:item.carminite>]]);
-
-// --- Crimson Stained Blood Wood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_blood_wood", <Thaumcraft:WandCasting:80>.withTag({cap: "crimsoncloth", rod: "blood_wood"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Blood Wood Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:120>.withTag({cap: "crimsoncloth", rod: "blood_wood", sceptre: 1 as byte}), "aer 180, terra 180, ignis 180, aqua 180, ordo 180, perditio 180", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <BloodArsenal:wand_cores>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Blood Wood Staff Wand
-mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:135>.withTag({cap: "crimsoncloth", rod: "blood_wood_staff"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
-[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <ore:screwChrome>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Crimson Stained Blood Wood Staff Scepter
-mods.thaumcraft.Arcane.addShaped("RODBLOODWOODSTAFF", <Thaumcraft:WandCasting:202>.withTag({cap: "crimsoncloth", rod: "blood_wood_staff", sceptre: 1 as byte}), "aer 280, terra 280, ignis 280, aqua 280, ordo 280, perditio 280", [
-[<TwilightForest:item.carminite>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwChrome>, <BloodArsenal:wand_cores:1>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Crimson Stained Blood Wand
-mods.thaumcraft.Arcane.addShaped("ROD_silverwood", <Thaumcraft:WandCasting:60>.withTag({cap: "crimsoncloth", rod: "blood"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores:3>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Blood Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:90>.withTag({cap: "crimsoncloth", rod: "blood", sceptre: 1 as byte}), "aer 180, terra 180, ignis 180, aqua 180, ordo 180, perditio 180", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores:3>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Blood Staff Wand
-mods.thaumcraft.Arcane.addShaped("ROD_blood_staff", <Thaumcraft:WandCasting:120>.withTag({cap: "crimsoncloth", rod: "blood_staff"}), "aer 250, terra 250, ignis 250, aqua 250, ordo 250, perditio 250", [
-[<TwilightForest:item.carminite>, <ore:screwChrome>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwChrome>, <ForbiddenMagic:WandCores:9>, <ore:screwChrome>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Crimson Stained Blood Staff Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:180>.withTag({cap: "crimsoncloth", rod: "blood_staff", sceptre: 1 as byte}), "aer 280, terra 280, ignis 280, aqua 280, ordo 280, perditio 280", [
-[<TwilightForest:item.carminite>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwChrome>, <ForbiddenMagic:WandCores:9>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwChrome>, <TwilightForest:item.carminite>]]);
-
-// --- Crimson Stained Infernal Wand
-mods.thaumcraft.Arcane.addShaped("ROD_infernal", <Thaumcraft:WandCasting:60>.withTag({cap: "crimsoncloth", rod: "infernal"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores:1>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Infernal Scepter
-mods.thaumcraft.Arcane.addShaped("SCEPTRE", <Thaumcraft:WandCasting:90>.withTag({cap: "crimsoncloth", rod: "infernal", sceptre: 1 as byte}), "aer 180, terra 180, ignis 180, aqua 180, ordo 180, perditio 180", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores:1>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Tainted Wand
-mods.thaumcraft.Arcane.addShaped("ROD_tainted", <Thaumcraft:WandCasting:60>.withTag({cap: "crimsoncloth", rod: "tainted"}), "aer 150, terra 150, ignis 150, aqua 150, ordo 150, perditio 150", [
-[<TwilightForest:item.fieryTears>, <ore:screwTungstenSteel>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores>, <ore:screwTungstenSteel>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);
-
-// --- Crimson Stained Tainted Scepter
-mods.thaumcraft.Arcane.addShaped("ROD_tainted", <Thaumcraft:WandCasting:90>.withTag({cap: "crimsoncloth", rod: "tainted", sceptre: 1 as byte}), "aer 180, terra 180, ignis 180, aqua 180, ordo 180, perditio 180", [
-[<TwilightForest:item.fieryTears>, <dreamcraft:item.CrimsonStainedClothCap>, <Thaumcraft:ItemResource:15>],
-[<ore:screwTungstenSteel>, <ForbiddenMagic:WandCores>, <dreamcraft:item.CrimsonStainedClothCap>],
-[<dreamcraft:item.CrimsonStainedClothCap>, <ore:screwTungstenSteel>, <TwilightForest:item.fieryTears>]]);

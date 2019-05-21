@@ -64,9 +64,9 @@ recipes.addShaped(<supersolarpanel:solarsplitter>, [
 
 // --- Ender Qunatum Component
 recipes.addShaped(<supersolarpanel:enderquantumcomponent>, [
-[<AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateEnderium>, <AdvancedSolarPanel:asp_crafting_items:3>],
-[<ore:plateEnderium>, <ore:plateQuantum>, <ore:plateEnderium>],
-[<AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateEnderium>, <AdvancedSolarPanel:asp_crafting_items:3>]]);
+[<AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateElectrumFlux>, <AdvancedSolarPanel:asp_crafting_items:3>],
+[<ore:plateElectrumFlux>, <ore:plateDenseInfinityCatalyst>, <ore:plateElectrumFlux>],
+[<AdvancedSolarPanel:asp_crafting_items:3>, <ore:plateElectrumFlux>, <AdvancedSolarPanel:asp_crafting_items:3>]]);
 
 
 
@@ -102,6 +102,8 @@ PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.0
 PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.01:24511> * 0, <AdvancedSolarPanel:asp_crafting_items:5>, 1000, 7680);
 // -
 PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.01:24512> * 0, <AdvancedSolarPanel:asp_crafting_items:5>, 1000, 7680);
+// -
+PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.01:24502> * 0, <AdvancedSolarPanel:asp_crafting_items:5>, 1000, 7680);
 // -
 PrecisionLaser.addRecipe(<supersolarpanel:redcomponent>, <gregtech:gt.metaitem.01:24527> * 0, <AdvancedSolarPanel:asp_crafting_items:5>, 1000, 7680);
 // -

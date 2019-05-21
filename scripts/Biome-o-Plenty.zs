@@ -126,6 +126,19 @@ recipes.addShapeless(<BiomesOPlenty:coral1:13>, [<BiomesOPlenty:coral2:8>, <ore:
 // --- Blue Coral
 recipes.addShapeless(<BiomesOPlenty:coral1:14>, [<BiomesOPlenty:coral2:8>, <ore:dustGlowstone>, <ore:dyeBlue>]);
 
+// --- Dirt
+furnace.addRecipe(<minecraft:dirt>, <BiomesOPlenty:driedDirt>);
+
+
+
+
+
+// --- Burn Values ---
+
+
+// --- Baboo Sticks
+furnace.setFuel(<BiomesOPlenty:bamboo>, 100);
+
 
 
 
@@ -139,7 +152,7 @@ Assembler.addRecipe(<BiomesOPlenty:misc:2>, <Forestry:beeswax> * 2, <gregtech:gt
 Assembler.addRecipe(<BiomesOPlenty:hive:1>, <Forestry:propolis> * 2, <gregtech:gt.integrated_circuit:2> * 0, 400, 40);
 
 // --- Lime Stone
-Assembler.addRecipe(<BiomesOPlenty:rocks> * 8, <minecraft:stone> * 8, <minecraft:dye:10>, 300, 2);
+Assembler.addRecipe(<BiomesOPlenty:rocks>, <minecraft:stone>, <gregtech:gt.metaitem.01:2823> * 4, 50, 2);
 
 
 
@@ -211,13 +224,13 @@ FluidSolidifier.addRecipe(<BiomesOPlenty:honeyBlock>, <gregtech:gt.metaitem.01:3
 
 
 // --- Small Bone Segment
-Pulverizer.addRecipe([<minecraft:dye:15> * 5], <BiomesOPlenty:bones>, [10000], 300, 2);
+Pulverizer.addRecipe([<minecraft:dye:15> * 8], <BiomesOPlenty:bones>, [10000], 300, 2);
 
 // --- Medium Bone Segment
-Pulverizer.addRecipe([<minecraft:dye:15> * 10], <BiomesOPlenty:bones:1>, [10000], 300, 2);
+Pulverizer.addRecipe([<minecraft:dye:15> * 12], <BiomesOPlenty:bones:1>, [10000], 300, 2);
 
 // --- Large Bone Segment
-Pulverizer.addRecipe([<minecraft:dye:15> * 15], <BiomesOPlenty:bones:2>, [10000], 300, 2);
+Pulverizer.addRecipe([<minecraft:dye:15> * 24], <BiomesOPlenty:bones:2>, [10000], 300, 2);
 
 // --- Hardened Sand to Quartz Sand dust and flint
 Pulverizer.addRecipe([<dreamcraft:item.SandDust> * 2, <gregtech:gt.metaitem.01:1802>, <gregtech:gt.metaitem.01:1937>, <gregtech:gt.metaitem.01:1833>], <BiomesOPlenty:hardSand>, [10000, 5000, 1000, 500], 200, 8);

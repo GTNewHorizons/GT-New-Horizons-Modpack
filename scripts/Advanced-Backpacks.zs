@@ -236,7 +236,7 @@ recipes.addShaped(<adventurebackpack:coalJetpack>.withTag({wearableData: {waterT
 
 
 // --- Melon Juice Bottle
-mods.gregtech.Brewery.addRecipe(<liquid:water> * 750, <minecraft:melon>, <liquid:melonjuice> * 750, false);
+mods.gregtech.Brewery.addRecipe(<liquid:melonjuice> * 750, <minecraft:melon>, <liquid:water> * 750, false);
 
 
 

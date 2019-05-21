@@ -33,42 +33,42 @@
 <ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Durability:"+format.gold(" 240"));
 <ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Territory:"+format.aqua(" x1"));
 <ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Mutation-Rate:"+format.gold(" x1"));
-<ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Lifespan:"+format.red(" x0.5"));
-<ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Production:"+format.green(" x1.5"));
+<ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Lifespan:"+format.red(" x0.75 (x0.25x)"));
+<ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Production:"+format.green(" x1.5 (x5)"));
 <ExtraBees:hiveFrame.cocoa>.addShiftTooltip("Genetic-Decay:"+format.aqua(" x1"));
 
 // --- Restraint Frame (Extra Bees)
 <ExtraBees:hiveFrame.cage>.addTooltip("<Hold Shift>");
 <ExtraBees:hiveFrame.cage>.addShiftTooltip("Durability:"+format.gold(" 240"));
-<ExtraBees:hiveFrame.cage>.addShiftTooltip("Territory:"+format.darkRed(" x0.5"));
+<ExtraBees:hiveFrame.cage>.addShiftTooltip("Territory:"+format.darkRed(" x0.5 (x0.1)"));
 <ExtraBees:hiveFrame.cage>.addShiftTooltip("Mutation-Rate:"+format.gold(" x1"));
-<ExtraBees:hiveFrame.cage>.addShiftTooltip("Lifespan:"+format.gold(" x0.75"));
-<ExtraBees:hiveFrame.cage>.addShiftTooltip("Production:"+format.gold(" x0.75"));
+<ExtraBees:hiveFrame.cage>.addShiftTooltip("Lifespan:"+format.gold(" x0.75 (x0.5)"));
+<ExtraBees:hiveFrame.cage>.addShiftTooltip("Production:"+format.gold(" x0.75 (x0.5)"));
 <ExtraBees:hiveFrame.cage>.addShiftTooltip("Genetic-Decay:"+format.aqua(" x1"));
 
 // --- Soul Frame (Extra Bees)
 <ExtraBees:hiveFrame.soul>.addTooltip("<Hold Shift>");
 <ExtraBees:hiveFrame.soul>.addShiftTooltip("Durability:"+format.red(" 80"));
 <ExtraBees:hiveFrame.soul>.addShiftTooltip("Territory:"+format.aqua(" x1"));
-<ExtraBees:hiveFrame.soul>.addShiftTooltip("Mutation-Rate:"+format.yellow(" x1.5"));
-<ExtraBees:hiveFrame.soul>.addShiftTooltip("Lifespan:"+format.gold(" x0.75"));
-<ExtraBees:hiveFrame.soul>.addShiftTooltip("Production:"+format.red(" x0.25"));
+<ExtraBees:hiveFrame.soul>.addShiftTooltip("Mutation-Rate:"+format.yellow(" x1.5 (x5)"));
+<ExtraBees:hiveFrame.soul>.addShiftTooltip("Lifespan:"+format.gold(" x0.75 (x0.5)"));
+<ExtraBees:hiveFrame.soul>.addShiftTooltip("Production:"+format.red(" x0.25 (x0.1)"));
 <ExtraBees:hiveFrame.soul>.addShiftTooltip("Genetic-Decay:"+format.aqua(" x1"));
 
 // --- Healing Frame (Extra Bees)
 <ExtraBees:hiveFrame.clay>.addTooltip("<Hold Shift>");
 <ExtraBees:hiveFrame.clay>.addShiftTooltip("Durability:"+format.gold(" 240"));
 <ExtraBees:hiveFrame.clay>.addShiftTooltip("Territory:"+format.aqua(" x1"));
-<ExtraBees:hiveFrame.clay>.addShiftTooltip("Mutation-Rate:"+format.darkRed(" x0.5"));
-<ExtraBees:hiveFrame.clay>.addShiftTooltip("Lifespan:"+format.green(" x1.5"));
-<ExtraBees:hiveFrame.clay>.addShiftTooltip("Production:"+format.gold(" x0.75"));
+<ExtraBees:hiveFrame.clay>.addShiftTooltip("Mutation-Rate:"+format.darkRed(" x0.5 (x0.2)"));
+<ExtraBees:hiveFrame.clay>.addShiftTooltip("Lifespan:"+format.green(" x1.5 (x5)"));
+<ExtraBees:hiveFrame.clay>.addShiftTooltip("Production:"+format.gold(" x0.75 (x0.2)"));
 <ExtraBees:hiveFrame.clay>.addShiftTooltip("Genetic-Decay:"+format.aqua(" x1"));
 
 // --- Nova Frame (Extra Bees)
 <ExtraBees:hiveFrame.debug>.addTooltip("<Hold Shift>");
 <ExtraBees:hiveFrame.debug>.addShiftTooltip("Durability:"+format.gold(" 240"));
 <ExtraBees:hiveFrame.debug>.addShiftTooltip("Territory:"+format.aqua(" x1"));
-<ExtraBees:hiveFrame.debug>.addShiftTooltip("Mutation-Rate:"+format.bold(" x100"));
+<ExtraBees:hiveFrame.debug>.addShiftTooltip("Mutation-Rate:"+format.gold(" x1"));
 <ExtraBees:hiveFrame.debug>.addShiftTooltip("Lifespan:"+format.darkRed(" x0.0001"));
 <ExtraBees:hiveFrame.debug>.addShiftTooltip("Production:"+format.yellow(" x1"));
 <ExtraBees:hiveFrame.debug>.addShiftTooltip("Genetic-Decay:"+format.aqua(" x1"));
@@ -77,7 +77,7 @@
 <miscutils:frameAccelerated>.addTooltip("<Hold Shift>");
 <miscutils:frameAccelerated>.addShiftTooltip("Durability:"+format.red(" 175"));
 <miscutils:frameAccelerated>.addShiftTooltip("Territory:"+format.aqua(" x1"));
-<miscutils:frameAccelerated>.addShiftTooltip("Mutation-Rate:"+format.darkGreen(" x2.5"));
+<miscutils:frameAccelerated>.addShiftTooltip("Mutation-Rate:"+format.yellow(" x1.2"));
 <miscutils:frameAccelerated>.addShiftTooltip("Lifespan:"+format.yellow(" x0.9"));
 <miscutils:frameAccelerated>.addShiftTooltip("Production:"+format.green(" x1.8"));
 <miscutils:frameAccelerated>.addShiftTooltip("Genetic-Decay:"+format.aqua(" x1"));
@@ -98,7 +98,7 @@
 // --- Slowing Frame (GT++)
 <miscutils:frameSlowing>.addTooltip("<Hold Shift>");
 <miscutils:frameSlowing>.addShiftTooltip("Durability:"+format.red(" 175"));
-<miscutils:frameSlowing>.addShiftTooltip("Territory:"+format.darkRed(" x0.5"));
+<miscutils:frameSlowing>.addShiftTooltip("Territory:"+format.darkRed(" x1"));
 <miscutils:frameSlowing>.addShiftTooltip("Mutation-Rate:"+format.darkRed(" x0.5"));
 <miscutils:frameSlowing>.addShiftTooltip("Lifespan:"+format.gold(" x2"));
 <miscutils:frameSlowing>.addShiftTooltip("Production:"+format.darkRed(" x0.5"));
@@ -135,7 +135,7 @@
 <miscutils:frameBusy>.addTooltip("<Hold Shift>");
 <miscutils:frameBusy>.addShiftTooltip("Durability:"+format.bold(" 2000"));
 <miscutils:frameBusy>.addShiftTooltip("Territory:"+format.aqua(" x1"));
-<miscutils:frameBusy>.addShiftTooltip("Mutation-Rate:"+format.gold(" x1"));
+<miscutils:frameBusy>.addShiftTooltip("Mutation-Rate:"+format.darkRed(" x0"));
 <miscutils:frameBusy>.addShiftTooltip("Lifespan:"+format.aqua(" x3"));
 <miscutils:frameBusy>.addShiftTooltip("Production:"+format.aqua(" x4"));
 <miscutils:frameBusy>.addShiftTooltip("Genetic-Decay:"+format.aqua(" x1"));

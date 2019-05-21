@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.4.0 Beta is out 11.05.2018
+Version 2.0.7.0 is out 08.03.2019
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -19,27 +19,29 @@ Starting in the stone age you will barely be able to survive until you get your 
 If you are fan of expert mode packs and want to take it to the next level this pack will be your friend!
 
 ## Quotes
----
-thcv - This pack is pushing my mental capacity
-moronwmachinegun - Noooooooooooooooo! (after cleanroom explosion)
-mitchej123 - it probably would have been a bit easier if I put the turbines closer, but it wouldn't look as cool
-K1ngMX - problem is like in programming: each change in isolation makes sense, some time later you think "how could this all happen" lol
-tsutaaja - If it's not too costly
-DreamMasterXXL - Idiots! Do not upgrade your backpack with important stuff inside!
-Chaotick - It's already quite the list of errands
-LogicFalls - F--k this mod is complicated
-Codewarrior0 - Blood, sweat, and tiers
-Chewy - No more making any of this irritating s--t
-moronwmachinegun - It's never enough
-Mondfaust - this game wants so much stuff...
-K1ngMX - GTNH is basically pain for win
-Pao - RNGesus hates you.
-LogicFalls - This modpack makes me unhappy. But it's the good kind of unhappy.
-Elusive Ent - GTNH you never fail to frustrate, but i love you all the same
-DoomSquirter - welcome to gregtech where we invented the fountain of youth by slowing down time to make you enjoy each millisecond even more.
-moronwmachinegun - controller on the front, maintenance in the back? World's worst haircut - gregullet
 
----
+- thcv - This pack is pushing my mental capacity
+- moronwmachinegun - Noooooooooooooooo! (after cleanroom explosion)
+- mitchej123 - it probably would have been a bit easier if I put the turbines closer, but it wouldn't look as cool
+- K1ngMX - problem is like in programming: each change in isolation makes sense, some time later you think "how could this all happen" lol
+- tsutaaja - If it's not too costly
+- DreamMasterXXL - Idiots! Do not upgrade your backpack with important stuff inside!
+- Chaotick - It's already quite the list of errands
+- LogicFalls - F--k this mod is complicated
+- Codewarrior0 - Blood, sweat, and tiers
+- Chewy - No more making any of this irritating s--t
+- moronwmachinegun - It's never enough
+- Mondfaust - this game wants so much stuff...
+- K1ngMX - GTNH is basically pain for win
+- Pao - RNGesus hates you.
+- LogicFalls - This modpack makes me unhappy. But it's the good kind of unhappy.
+- Elusive Ent - GTNH you never fail to frustrate, but i love you all the same
+- DoomSquirter - welcome to gregtech where we invented the fountain of youth by slowing down time to make you enjoy each millisecond even more.
+- moronwmachinegun - controller on the front, maintenance in the back? World's worst haircut - gregullet
+- Axiflare - I've jabbed my screwdriver and my fist into it every way I can think of.
+- Scribit - Useless coins that are actually useful.
+
+
 ## What does this pack have to offer?
 
 ***Technology***<BR>
@@ -107,34 +109,26 @@ Official EU Server Public (whitelist)<BR>
 http://gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
+eta.gtnewhorizons.com<BR>
 
+Official EU Test Server Private (whitelist)<BR>
+zeta.gtnewhorizons.com<BR>
  
-Dig to build EU Server (whitelist)<BR>
-https://www.digtobuild.com/<BR>
-s1.digtobuild.com:25560<BR>
 
-
-## US/Canada Servers:<BR>
+ ## US/Canada Servers:<BR>
 
 Prospercraft (greylist)<BR>
 http://www.prospercraft.com/<BR>
 newhorizonsold.prospercraft.com<BR>
 newhorizons.prospercraft.com<BR>
 
+Boqqed up  (whitelist)<BR>
+Discord: https://discord.gg/3D897y4<BR>
+http://jesus2xs.com/<BR>
 
-Stone Legion (whitelist)<BR>
-http://stonelegion.com/<BR>
-s5.stonelegion.com:2005<BR>
-
-
-Bacon Gaming (whitelist)<BR>
-https://www.breakfastcraft.com/post/bacon-is-now-gt-new-horizons/<BR>
-Bacongaming.net:25577<BR>
-
-
-Grace Craft Anarchy (no whitelist)<BR>
-Discord Server:  https://discord.gg/cBQUpSr<BR>
-149.56.109.207<BR>
+Fully Toasted GTNH Server CA(whitelist)
+https://fullytoasted.world/
+gtnh.toastedpack.world
 
 
 ## German Server:<BR>
@@ -142,6 +136,12 @@ Discord Server:  https://discord.gg/cBQUpSr<BR>
 MyFTB Public (no whitelist)<BR>
 https://myftb.de/<BR>
 gtnewhorizons.myftb.de<BR>
+
+
+## Russian Server:<BR>
+
+Wabulabudaba GTNH Server Russia
+94.23.17.222:25565
 
 
 ## Official Links
@@ -162,7 +162,7 @@ you find it in your resource folder<BR>
 ## Modlist - NewHorizons<BR>
 
 * Advanced Solar Panels 3.5.1a<BR>
-* Adventure Backpack 0.9h8<BR>
+* Adventure Backpack 0.9h10<BR>
 * AE2 Stuff 0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU 1.2.3.a<BR>
@@ -170,20 +170,21 @@ you find it in your resource folder<BR>
 * AppleCore 1.3.9<BR>
 * Applied Energistics rv3beta17<BR>
 * Aqua Creeper 1.0.1<BR>
-* Architecture Craft 1.7.2<BR>
+* Architecture Craft 1.7.3<BR>
 * Automagy 0.28.2<BR>
-* Avaritia 1.14custom<BR>
+* Avaritia 1.15custom<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
+* Bartworks 0.3.22<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
-* Better Questing 1.0.173custom<BR>
+* Better Questing 1.0.173e<BR>
 * Bibliocraft 1.11.7<BR>
 * Bibliowoods 1.9/1.7/1.5<BR>
 * Binnie Mods 2.0-23<BR>
-* Biomes o Plenty 2.1.0.2308<BR>
+* Biomes o Plenty 2.1.0.2309<BR>
 * BlockLimiter 0.52<BR>
 * Blood Arsenal 1.2.7<BR>
 * BloodMagic 1.3.3.24<BR>
@@ -192,62 +193,66 @@ you find it in your resource folder<BR>
 * Buildcraft Compat 7.1.7<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks 3.3.8.1<BR>
-* Catwalk Mod 1.1.0<BR>
-* Chisel 2.5.1.44<BR>
+* Catwalk Mod 2.0.4<BR>
+* Chisel 2.9.5.11<BR>
 * Chisel Tones 1.0-3<BR>
 * Command Block BQ Mod 1<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics 1.6.5<BR>
+* Controlling 1.0.0<BR>
 * Craft Tweaker 3.0.12<BR>
-* Crops ++ 1.2.8<BR>
+* Crops ++ 1.3.2<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
-* Draconic Evolution 1.0.2l<BR>
-* Electro Magic Tools 1.2.7.1<BR>
+* Draconic Evolution 1.0.2n<BR>
+* Electro Magic Tools 1.2.7.4<BR>
 * Ender IO 2.3.0.432<BR>
 * Ender Storage 1.4.7.38<BR>
 * Ender Zoo 1.0.15.32<BR>
-* Enhanced Loot Bags 1.0.2a<BR>
+* Enhanced Loot Bags 1.0.2b<BR>
 * Enhanced Portals 3 3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
-* Extra Cells 2.3.14b200<BR>
-* Extra Utilities 1.2.13<BR>
+* Extra Cells 2.3.14bnightly<BR>
+* Extra Utilities 1.2.13a<BR>
 * FastCraft 1.23<BR>
+* Find It 1.0.1<BR>
 * Flood Light 1.2.8.137<BR>
 * Forbidden Magic 0.575<BR>
-* Forestry 4.2.16.64<BR>
+* Forestry 4.2.18.0<BR>
 * Forge Microblocks 1.2.0.347<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
-* Gadomancy 1.0.7.3<BR>
+* Gadomancy 1.0.7.4<BR>
 * Galacticraft-Planets 3.0.12.504<BR>
 * GalacticraftCore 3.0.12.504<BR>
-* GalactiGreg 0.9.8<BR>
-* Galaxy Space 1.1.3b<BR>
+* GalactiGreg 0.9.9<BR>
+* Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.32.23<BR>
-* GT Scanner Mod 1.4,2<BR>
+* Gregtech 5.09.33.12<BR>
+* GT Scanner Mod 1.5.3<BR>
 * GT Ore Nei Plugin 1.0.6<BR>
-* GT New Horizons Core Mod 1.5.24<BR>
-* GT++ 1.7.0-pre11-final<BR>
-* GTTweaker 1.1.1<BR>
+* GT New Horizons Core Mod 1.6.10<BR>
+* GT++ 1.7.03.89<BR>
+* GTNH TC Wands 1.0.4<BR>
+* GTTweaker 1.7.1<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
 * Holo Inventory 1.9.1.124<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
+* IFU 1.5<BR>
 * IguanaTinkerTweaks 2.1.2<BR>
 * Industrial Craft 2 2.2.2.828a<BR>
-* Industrial Craft 2 Nei Plugin 1.1.0<BR>
+* Industrial Craft 2 Nei Plugin 1.2.2<BR>
 * Infernal Mobs 1.6.6<BR>
 * Inventory Tweaks 1.59.156<BR>
 * Iron Chest Minecarts 1.0.4<BR>
-* Iron Chests 6.0.62.745<BR>
-* Iron Tanks 1.1.65a<BR>
+* Iron Chests 6.0.62.742<BR>
+* Iron Tanks 1.1.16<BR>
 * Jabba 1.2.5<BR>
 * JourneyMap 5.1.4p2<BR>
-* Lootgames 1.0.16<BR>
+* Lootgames 1.0.17<BR>
 * Magic Bees 2.4.3<BR>
 * Malisis Doors 1.13.2<BR>
 * Mine and Blade Battlegear 2 Bullseye 1.0.8.4<BR>
@@ -259,17 +264,15 @@ you find it in your resource folder<BR>
 * NEI 1.0.5.120<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
-* Nodal Mechanics 1.1-19<BR>
+* Nodal Mechanics 1.1.0-K<BR>
 * Not Enough Thaumcraft Tabs 1.0.2<BR>
 * Open Blocks 1.6.753<BR>
-* Open Computers 1.7.2 Build 1166<BR>
+* Open Computers 1.7.4 Build 1265<BR>
 * Open Modular Turrets 2.2.10.238<BR>
-* Open Peripheral Addons 0.6.249<BR>
-* Open Peripheral Core 1.4.280<BR>
-* Open Peripheral Integration 0.6.95<BR>
+* Open Glasses 1.0.46
 * Open Printers 0.1.0.132<BR>
-* Open Security 1.0-109<BR>
-* Pam's Harvestcraft 1.7.10-m<BR>
+* Open Security 1.0-117<BR>
+* Pam's Harvestcraft 1.7.10-n<BR>
 * Pam's Harvestcraft Nether 1.7.10a<BR>
 * Project Blue 1.1.6<BR>
 * Project Red-Base 4.7.0pre12.95GT<BR>
@@ -285,14 +288,14 @@ you find it in your resource folder<BR>
 * Realistic World Gen 1.3.2<BR>
 * ReAuth 3.5.0<BR>
 * RemoteIO 2.4.0<BR>
-* RF Expansion 1.0.13<BR>
+* RF Expansion 1.0.13a<BR>
 * Rogue like Dungeons 1.5.0b<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
-* Special Mobs 3.3.0<BR>
+* Special Mobs 3.3.2<BR>
 * Spice of Life 1.3.11<BR>
-* Standard Expansion 1.0.108custom<BR>
+* Standard Expansion 1.0.108b<BR>
 * Steve's Carts 2.0.0.18b<BR>
 * Steve's Factory Manager ALPHA93<BR>
 * Steve's Factory Manager Addon 0.10.16<BR>
@@ -302,14 +305,14 @@ you find it in your resource folder<BR>
 * Super Tic 1.2<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.6.5<BR>
+* Tec Tech 3.6.10<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
-* Thaumic Bases 1.4.17.0<BR>
-* Thaumic Energistics 1.1.2.0<BR>
+* Thaumic Bases 1.4.18.0<BR>
+* Thaumic Energistics 1.1.3.0<BR>
 * Thaumic Exploration 1.1.73<BR>
-* Thaumic Horizon 1.1.9<BR>
+* Thaumic Horizon 1.1.9.7<BR>
 * Thaumic Machina 0.2.1<BR>
 * Thaumic Tinkerer 2.5.555-GTNH<BR>
 * TiCTooltips 1.2.5<BR>
@@ -319,17 +322,19 @@ you find it in your resource folder<BR>
 * TMechworks 02.14.106<BR>
 * Too Much Loot 4.0.2.B1<BR>
 * Translocator 1.1.2.16<BR>
+* Travellers Gear 1.16.6a<BR>
 * Twillight Forest 2.3.7<BR>
 * Ulity Mobs 3.1.1<BR>
 * Ulity Worlds 1.0.9d<BR>
 * Universal Singularities Version 8.4<BR>
 * Waila 1.5.10<BR>
 * Waila Harvestability 1.1.6<BR>
-* Waila Plugins 0.2.0.25<BR>
+* Waila Plugins 0.2.1<BR>
 * Wawla 1.0.5.120<BR>
 * Warp Theory 1.0i dev<BR>
 * Wireless Redstone CBE 1.4.1.11<BR>
 * Witchery 0.24.1<BR>
+* Witching Gadgets 1.2.9i GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
 ## Libs and Cores<BR>
@@ -340,7 +345,7 @@ you find it in your resource folder<BR>
 * CodeChickenLib 1.1.3.140<BR>
 * CofhCore 3.1.4.329<BR>
 * CofhLib 1.2.1.185<BR>
-* Crop Loader Core 0.0.8<BR>
+* Crop Loader Core 0.1.1<BR>
 * Dummy Core 1.13<BR>
 * Ender Core 0.2.0.39<BR>
 * InpureCore 1.0.0B9-62<BR>
@@ -353,8 +358,7 @@ you find it in your resource folder<BR>
 * Player api 1.4<BR>
 * Wanion Lib 1.8<BR>
 * YamCore 0.5.78<BR>
-* Yuuto Lib 1.0.3<BR>
 
 ---
 
-Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT , Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, and many more.
+Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT , Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe , Teirdalin and many more.

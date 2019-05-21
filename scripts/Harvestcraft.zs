@@ -7,8 +7,11 @@
 import mods.gregtech.Centrifuge;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
+import mods.gregtech.FormingPress;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
+import minetweaker.item.IItemStack;
+import minetweaker.item.IIngredient;
 
 
 // --- Variables ---
@@ -22,6 +25,32 @@ val WovenCloth = <harvestcraft:wovencottonItem>;
 val String = <minecraft:string>;
 val Cotton = <Natura:barleyFood:3>;
 val flour = <ore:dustWheat>;
+val SSlPlate = <ore:plateStainlessSteel>;
+val SSlBolt = <ore:boltStainlessSteel>;
+val SSlStick = <ore:stickStainlessSteel>;
+
+var Trapdoors = [
+<Natura:trapdoor.eucalyptus>,
+<Natura:trapdoor.sakura>,
+<Natura:trapdoor.ghostwood>,
+<Natura:trapdoor.redwood>,
+<Natura:trapdoor.bloodwood>,
+<Natura:trapdoor.hopseed>,
+<Natura:trapdoor.maple>,
+<Natura:trapdoor.amaranth>,
+<Natura:trapdoor.silverbell>,
+<Natura:trapdoor.tiger>,
+<Natura:trapdoor.willow>,
+<Natura:trapdoor.darkwood>,
+<Natura:trapdoor.fusewood>,
+<malisisdoors:trapdoor_acacia>,
+<malisisdoors:trapdoor_birch>,
+<malisisdoors:trapdoor_dark_oak>,
+<malisisdoors:trapdoor_jungle>,
+<malisisdoors:trapdoor_spruce>]
+as IItemStack[];
+
+var Animaltrap = <harvestcraft:animaltrap>;
 
 // --- Removing Recipes ---
 
@@ -174,6 +203,9 @@ recipes.remove(<harvestcraft:blueberryjuiceItem>);
 
 // --- Lemonade
 recipes.remove(<harvestcraft:lemonaideItem>);
+
+// --- Onion Soup
+recipes.remove(<harvestcraft:onionsoupItem>);
 
 
 
@@ -378,10 +410,6 @@ recipes.addShaped(<harvestcraft:hardenedleatherbootsItem>, [
 [<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [null, null, null]]);
 
-// --- Hardened Leather
-recipes.addShaped(<harvestcraft:hardenedleatherItem>, [
-[<Backpack:tannedLeather>, <harvestcraft:waxItem>, <Backpack:tannedLeather>]]);
-
 // --- Fresh Milk
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>]);
 
@@ -455,6 +483,41 @@ recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<ore:toolJuicer>, <ore:
 // --- Lemonade
 recipes.addShapeless(<harvestcraft:lemonaideItem>, [<ore:toolJuicer>, <ore:cropLemon>, <ore:listAllsugar>]);
 
+// --- Onion Soup
+recipes.addShaped(<harvestcraft:onionsoupItem>, [
+[<harvestcraft:potItem>, <ore:cropOnion>, null],
+[<harvestcraft:stockItem>, <harvestcraft:cheeseItem>, null],
+[null, null, null]]);
+
+// --- Animaltrap
+for i, Trapdoor in Trapdoors {  
+recipes.addShaped(Animaltrap, [
+[<ore:stickWood>, Trapdoor, <ore:stickWood>],
+[<minecraft:string>, <ore:chestWood>, <minecraft:string>],
+[<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
+}
+
+// --- Cutboard ---
+recipes.addShapeless(<harvestcraft:cuttingboardItem>, [<gregtech:gt.metatool.01:36>.withTag({ench: [{lvl: 3 as short, id: 16 as short}, {lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "StainlessSteel", MaxDamage: 48000 as long, SecondaryMaterial: "StainlessSteel"}}).noReturn()]);
+
+
+// --- Mortar ---
+recipes.addShaped(<harvestcraft:mortarandpestleItem>, [
+[<ore:craftingToolHardHammer>, SSlStick, <ore:craftingToolFile>],
+[<ore:stoneGraniteBlack>, SSlStick, <ore:stoneGraniteBlack>],
+[<ore:stoneGraniteBlack>, <ore:stoneGraniteBlack>, <ore:stoneGraniteBlack>]]);
+
+// --- Bakeware ---
+recipes.addShaped(<harvestcraft:bakewareItem>, [
+[SSlPlate, null, SSlPlate],
+[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
+[SSlBolt, SSlPlate, SSlBolt]]);
+
+// --- Juicer ---
+recipes.addShaped(<harvestcraft:juicerItem>, [
+[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
+[SSlPlate, <gregtech:gt.metaitem.02:8306>, SSlPlate],
+[SSlBolt, SSlPlate, SSlBolt]]);
 
 
 
@@ -694,6 +757,14 @@ Extractor.addRecipe(<harvestcraft:chestnutbutterItem>, <Forestry:fruits:2>);
 
 // --- Pistachio Butter
 Extractor.addRecipe(<harvestcraft:pistachiobutterItem>, <harvestcraft:pistachioItem>);
+
+
+// --- Forming Press Recipes ---
+
+
+
+// --- Hardened Leather
+FormingPress.addRecipe(<harvestcraft:hardenedleatherItem>, <Backpack:tannedLeather> * 2, <harvestcraft:waxItem>, 300, 30);
 
 
 

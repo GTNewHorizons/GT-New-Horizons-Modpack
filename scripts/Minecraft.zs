@@ -10,6 +10,7 @@ import mods.gregtech.AlloySmelter;
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
+import mods.gregtech.ChemicalBath;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
 import mods.gregtech.FluidExtractor;
@@ -219,7 +220,6 @@ val ClearPane = <TConstruct:GlassPane>;
 val Coal = <ore:gemCoal>;
 val Charcoal = <ore:gemCharcoal>;
 val CoalCoke = <ore:fuelCoke>;
-val Phosphorous = <ore:dustPhosphorite>;
 val Beeswax = <ore:itemBeeswax>;
 val WovenCloth = <harvestcraft:wovencottonItem>;
 val Sulfur = <ore:dustSulfur>;
@@ -2746,6 +2746,18 @@ recipes.addShaped(Bookshelf, [
 [Book, Book, Book],
 [<ore:plateWood>, <ore:plateWood>, <ore:plateWood>]]);
 
+// --- Iron nuggets
+recipes.addShaped(<gregtech:gt.metaitem.01:9032> * 9, [
+[<ore:craftingToolSaw>, <ore:ingotIron>, null],
+[null, null, null],
+[null, null, null]]);
+
+// --- Gold nuggets
+recipes.addShaped(<minecraft:gold_nugget> * 9, [
+[<ore:craftingToolSaw>, <ore:ingotGold>, null],
+[null, null, null],
+[null, null, null]]);
+
 
 // --- Charcoal
 mods.railcraft.BlastFurnace.addRecipe(<minecraft:log:*>, false, false, 20, <minecraft:coal:1>);
@@ -3241,10 +3253,36 @@ Assembler.addRecipe(<minecraft:stone_pressure_plate> * 2, <minecraft:stone_slab>
 
 
 // --- Glass Block
-BlastFurnace.addRecipe([<minecraft:glass>], [<TConstruct:GlassBlock>], 100, 120, 1000);
+BlastFurnace.addRecipe([<minecraft:glass>], [<TConstruct:GlassBlock>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
 
 // --- Clear Pane
-BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>], 100, 120, 1000);
+BlastFurnace.addRecipe([<minecraft:glass_pane>], [<TConstruct:GlassPane>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
+
+
+
+
+// --- Chemical Bath Recipes ---
+
+
+
+// -- Bones
+ChemicalBath.addRecipe([<minecraft:bone> * 8, <minecraft:bone> * 6, <minecraft:bone> * 4], <minecraft:skull>, <liquid:hell_blood> * 1000, [10000, 7500, 5000], 200, 30); 
+
+// -- Cole Blocks
+ChemicalBath.addRecipe([<minecraft:coal_block> * 2, <minecraft:coal_block>, <minecraft:coal_block>], <minecraft:skull:1>, <liquid:hell_blood> * 1000, [10000, 7500, 5000], 200, 30); 
+
+// -- Gunpowder
+ChemicalBath.addRecipe([<minecraft:gunpowder> * 4, <minecraft:gunpowder> * 3, <minecraft:gunpowder> * 2], <minecraft:skull:4>, <liquid:hell_blood> * 1000, [10000, 7500, 5000], 200, 30); 
+
+// -- Enderpearl
+ChemicalBath.addRecipe([<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>], <HardcoreEnderExpansion:enderman_head>, <liquid:hell_blood> * 1000, [10000, 5000, 2500], 200, 30); 
+
+// -- Zombi Brain
+ChemicalBath.addRecipe([<Thaumcraft:ItemZombieBrain>], <minecraft:skull:3>, <liquid:hell_blood> * 1000, [1000], 200, 30); 
+
+// -- Rotten flesh
+ChemicalBath.addRecipe([<minecraft:rotten_flesh> * 4, <minecraft:leather> * 2, <gregtech:gt.metaitem.01:2892> * 4], <minecraft:skull:2>, <liquid:hell_blood> * 1000, [10000, 3000, 5000], 200, 30); 
+
 
 
 
@@ -3277,6 +3315,9 @@ CuttingSaw.addRecipe(<minecraft:stone_button> * 2, null, <minecraft:stone_pressu
 
 // --- Blazepowder
 Extractor.addRecipe(<minecraft:blaze_powder>, <Thaumcraft:blockCustomPlant:3>);
+
+// --- Quicksilver
+Extractor.addRecipe(<Thaumcraft:ItemResource:3>, <Thaumcraft:blockCustomPlant:2>);
 
 // --- Wheat
 Extractor.addRecipe(<minecraft:wheat> * 9, <minecraft:hay_block>);

@@ -133,15 +133,6 @@ mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 <gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],		
 <minecraft:paper>, <Forestry:stamps:6>);	
 
-// --- Coinage Mold
-recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
-[null, null, null],
-[null, BlankCast, null],
-[File, WireCutter, null]]);	
-
-
-
-
 
 // --- Assembler recipes ---
 
@@ -162,14 +153,3 @@ Assembler.addRecipe(<dreamcraft:item.CoinChunkloaderTierIV>, <dreamcraft:item.Co
 
 // --- Chunk Loader Coin V
 Assembler.addRecipe(<dreamcraft:item.CoinChunkloaderTierV>, <dreamcraft:item.CoinBlank>, <gregtech:gt.integrated_circuit:5> * 0, <liquid:ender> * 48000, 600, 30720);
-
-
-
-
-// --- Forming Press Recipes ---
-
-
-
-
-// --- Blank Coin
-FormingPress.addRecipe(<dreamcraft:item.CoinBlank>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:32304> * 0, 200, 30);

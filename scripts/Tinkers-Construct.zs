@@ -311,12 +311,12 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
 // --- Cobalt Nugget
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
 // -
-mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetCobalt>);
+//mods.tconstruct.Casting.removeTableRecipe(<ore:nuggetCobalt>);
 
 // --- Cobalt Ingot
 mods.tconstruct.Smeltery.removeMelting(<ore:ingotCobalt>);
 // -
-mods.tconstruct.Casting.removeTableRecipe(<ore:ingotCobalt>);
+//mods.tconstruct.Casting.removeTableRecipe(<ore:ingotCobalt>);
 
 // --- Cobalt Block
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2:5>);
@@ -333,7 +333,7 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:sand>);
 mods.tconstruct.Smeltery.removeAlloy(<liquid:alumite.molten>);
 
 // --- Obsidian Dust
-mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
+//mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
 
 // --- Obsidian Dust
 furnace.remove(<ore:ingotObsidian>);
@@ -1366,7 +1366,7 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:12>, <liquid:alumin
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:12>, <liquid:aluminum.molten> * 144, 500, <TConstruct:MetalBlock:6>);
 
 // --- Steel Ingot
-//mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:16>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 600);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11305>, <liquid:steel.molten> * 144, <TConstruct:metalPattern>, false, 800);
 
 // --- Seared Stone
 mods.tconstruct.Casting.addBasinRecipe(<TConstruct:Smeltery:4>, <liquid:stone.seared> * 360, null, false, 245);
@@ -1689,6 +1689,13 @@ recipes.addShaped(<TConstruct:ToolStationBlock:10>, [
 [<ore:stickWood>, <TConstruct:blankPattern>, <ore:stickWood>],
 [<minecraft:fence>, <ore:stickWood>, <minecraft:fence>],
 [null, <ore:craftingToolSoftHammer>, null]]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:11>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:12>]);
+// -
+recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:13>]);
+
 
 // --- Stencil Table Spruce
 recipes.addShaped(<TConstruct:ToolStationBlock:11>, [
@@ -2511,10 +2518,10 @@ Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>,
 
 
 // --- Clear Glass
-BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>], 100, 120, 1000);
+BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
 
 // --- Clear Glass Pane
-BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>], 100, 120, 1000);
+BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
 
 
 
@@ -3991,6 +3998,22 @@ Mixer.addRecipe(<TConstruct:CraftedSoil:6> * 2, null, [<minecraft:nether_wart>, 
 
 // --- Ardite Dust
 Pulverizer.addRecipe([<TConstruct:materials:38> * 2, <TConstruct:materials:38>], <TConstruct:SearedBrick:2>, [10000, 1000], 400, 2);
+
+// --- Wood pulp
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809>], <TConstruct:woodPattern:*>, [10000], 200, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809>], <TConstruct:Pattern:*>, [10000], 200, 2);
+
+
+
+
+
+// --- Ordict remove ---
+
+
+// --- Gravel
+oreDict.nuggetAluminium.remove(<TConstruct:oreBerries:4>);
+
 
 
 
