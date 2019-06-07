@@ -25,7 +25,7 @@ recipes.remove(<BiomesOPlenty:gemOre:11>);
 recipes.remove(<BiomesOPlenty:gems:5>);
 
 // --- Emty Jar
-recipes.remove(<BiomesOPlenty:jar Empty>);
+recipes.remove(<BiomesOPlenty:jarEmpty>);
 
 // --- Dart Blower
 recipes.remove(<BiomesOPlenty:dartBlower>);
