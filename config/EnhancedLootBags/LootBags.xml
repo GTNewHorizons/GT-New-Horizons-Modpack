@@ -1772,6 +1772,5 @@
         <Loot Identifier="ae8093d7-12ab-479f-8ea0-03a3b5ea71ba" ItemName="Forestry:ffarm" Amount="16" NBTTag="{FarmBlock:0}" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="b067ae9d-0786-42ba-b491-f82c424833d3" ItemName="TConstruct:oreBerries" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9c4b849f-28d5-4c3e-b0a4-cda23c15c92e" ItemName="gregtech:gt.blockmetal2:7" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="d0bde7e2-4957-4d8d-a294-1653287defb9" ItemName="minecraft:gold_block" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
 </LootGroups>
