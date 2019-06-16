@@ -1,4 +1,4 @@
-﻿#################################Quests#################################
+#################################Quests#################################
 
 #Quest_0.Your first night
 gtnh.quest0.name=Your first night
@@ -4034,7 +4034,7 @@ gtnh.quest1007.desc=Put those 512 EU panels on a block to make them placeable in
 
 #Quest_1008.Books
 gtnh.quest1008.name=Books
-gtnh.quest1008.desc=Books can be found easily enough in villages or in the roguelike dungeons surface brick house.\nI'm sure they have a recipe too.\n\nNow glue on the other hand...or should I say horse? Try and get a horse inside a smeltery and feed it hay to keep it alive.
+gtnh.quest1008.desc=Books can be found easily enough in villages or in the roguelike dungeons surface brick house.\nI'm sure they have a recipe too.\n\nNow glue on the other hand...or should I say horse? Try and get a horse inside a smeltery and feed it hay to keep it alive.\n\nOr you can wait until after you go to the Nether and get some sulfur. Either way. 
 
 #Quest_1009.Fish trapping 2.0
 gtnh.quest1009.name=Fish trapping 2.0
@@ -4486,7 +4486,7 @@ gtnh.quest1120.desc=Cross breeding noble and cultivated bees can result in majes
 
 #Quest_1121.Breed some imperial bees
 gtnh.quest1121.name=Breed some imperial bees
-gtnh.quest1121.desc=Cross breeding noble and majestic bees can result in imperial bees.\n\nThese bees produce a Regeneration buff in their active area.  You can probably find a use for this in case of...accidents.\n\nImperial bees produce dripping combs every 3.8 minutes and royal jelly every 5.1 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. \n\nRoyal jelly is needed in making scented paneling for an Alveary - the third tier bee housing.
+gtnh.quest1121.desc=Cross breeding noble and majestic bees can result in imperial bees.\n\nThese bees produce a Regeneration buff in their active area.  You can probably find a use for this in case of...accidents.\n\nImperial bees produce dripping combs every 3.8 minutes and royal jelly every 5.1 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. \n\nRoyal jelly is needed in making scented paneling for an Alveary - the third tier bee housing.\n\nYou can now start working towards the Master Registry in the To Grind, or Not to Grind tab.
 
 #Quest_1122.Royal Jelly
 gtnh.quest1122.name=Royal Jelly
@@ -6646,7 +6646,7 @@ gtnh.quest1660.desc=Now we add a bit sulfur to the raw dust and get molten styre
 
 #Quest_1661.Silicone Rubber
 gtnh.quest1661.name=Silicone Rubber
-gtnh.quest1661.desc=Want to make some synthetic rubber like Silicone Rubber?\nThere are different ways to do it and this quest is only an example how you can make it.\n\nFist step you need Chloromethane. \n\nYou can use 2 Chlorine and 1 Methane per Chloromethane in your chemical reactor.\n\nAlternatively you can use Methanol and Hydrochloric Acid.
+gtnh.quest1661.desc=Want to make some synthetic rubber like Silicone Rubber?\nThere are different ways to do it and this quest is only an example of how you can make it.\n\nFirst step you need Chloromethane. \n\nYou can use 2 Chlorine and 1 Methane per Chloromethane in your chemical reactor.\n\nAlternatively you can use Methanol and Hydrochloric Acid.
 
 #Quest_1662.Dimethyldichlorosilane
 gtnh.quest1662.name=Dimethyldichlorosilane
@@ -8026,11 +8026,11 @@ gtnh.quest2005.desc=Only dangerous cliffs to fly off. TecTech can be the source 
 
 #Quest_2006.The Beginning of the End Game
 gtnh.quest2006.name=The Beginning of the End Game
-gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machinery for all your end-tier needs. However, learning TecTech is incredibly confusing, so listen very carefully. First, you'll need to gather various casings for your machines that you'll need. High Power Casings, Computer Casings, and Computer Vents will do, though you'll require a large amount of them before proceeding onward.
+gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machinery for all your end-tier needs. However, learning TecTech is incredibly confusing, so listen very carefully. \n\nFirst, you'll need to gather various casings for your machines that you'll need. High Power Casings, Computer Casings, and Computer Vents will do, though you'll require a large amount of them before proceeding onward.
 
 #Quest_2007.Quantum Computer
 gtnh.quest2007.name=Quantum Computer
-gtnh.quest2007.desc=One of the more incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the giant Research Station. First, you'll need a few things, the Quantum Computer itself, a huge energy hatch several amps of UV or above, this is because as Computer Racks, that'll be explained later on down here, will continuously increase the demand of energy input for every new Computer Rack that you add on. The Multiblock also consumes a large amount of energy by itself. Another important factor is ONLY turn on the Quantum Computer once you have the desired recipes for the Research Station ready to avoid excess energy loss. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint, this will give you a hefty amount of information and various ghost-like blocks that'll show where casings and or hatches should go.\n\nComputation:\nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. It will include the following information\nBase computation: \nAfter overclocking: <numbers, same as above unless you specially overclock it>\nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>\n\nComputer Racks:\nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve "55 percent" in your Computer Racks, but in reality, they could around 4000-4999 heat. In order to precisely find out how much heat, you'll need a Parametrizer, which will be explained later. Now that you've understood one of the more basic concepts and safety of handling within the Computer Racks (scan the Racks before you run the Quantum Computer!), what are the more optimal setups for your Quantum Computer? Do keep in mind that even a 128 min Computation / Sec setup can complete practically 3/4th's of the recipes within the Research Station. In this case, a 4 Computer Rack setup with 1 Advanced Heat Vent and 3 Wetwareprocessors (LuV) will generate 72 Computation every second; leading up to a maximum of 288 Computation every second at just 5 amps of UV (524,288 EU/t) with only 4 Computer Racks required. This is a rather minimal setup compared to some of the more complicated setups.\n\nAnd most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Scan them before anything else! Otherwise, you're going to get an explosion.\n\nUncertainty Resolver\nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schr�dinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer.\n\nNow that you understand some of this, it is time to build the Computer! You'll need to gather quite a lot of resources at first.
+gtnh.quest2007.desc=One of the more incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the giant Research Station. First, you'll need a few things, the Quantum Computer itself, a huge energy hatch several amps of UV or above, this is because as Computer Racks, that'll be explained later on down here, will continuously increase the demand of energy input for every new Computer Rack that you add on. The Multiblock also consumes a large amount of energy by itself. Another important factor is ONLY turn on the Quantum Computer once you have the desired recipes for the Research Station ready to avoid excess energy loss. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint, this will give you a hefty amount of information and various ghost-like blocks that'll show where casings and or hatches should go.\n\nComputation:\nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. It will include the following information\nBase computation: \nAfter overclocking: <numbers, same as above unless you specially overclock it>\nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>\n\nComputer Racks:\nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve "55 percent" in your Computer Racks, but in reality, they could explode around 4000-4999 heat. In order to precisely find out how much heat, you'll need a Parametrizer, which will be explained later. Now that you've understood one of the more basic concepts and safety of handling within the Computer Racks (scan the Racks before you run the Quantum Computer!), what are the more optimal setups for your Quantum Computer? Do keep in mind that even a 128 min Computation / Sec setup can complete practically 3/4th's of the recipes within the Research Station. In this case, a 4 Computer Rack setup with 1 Advanced Heat Vent and 3 Wetwareprocessors (LuV) will generate 72 Computation every second; leading up to a maximum of 288 Computation every second at just 5 amps of UV (524,288 EU/t) with only 4 Computer Racks required. This is a rather minimal setup compared to some of the more complicated setups.\n\nAnd most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Scan them before anything else! Otherwise, you're going to get an explosion.\n\nUncertainty Resolver\nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schr�dinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer.\n\nNow that you understand some of this, it is time to build the Computer! You'll need to gather quite a lot of resources at first.
 
 #Quest_2008.Research Station
 gtnh.quest2008.name=Research Station
@@ -8658,7 +8658,7 @@ gtnh.quest2163.desc=To breed a Clay bee you must put a Clay block beneath the ho
 
 #Quest_2164.Industrious
 gtnh.quest2164.name=Industrious
-gtnh.quest2164.desc=Industrious bees produce pollen clusters, a key ingredient to the Alveary. They're also used for breeding many other bees. Breed them from Diligent and Unweary.
+gtnh.quest2164.desc=Industrious bees produce pollen clusters, a key ingredient to the Alveary. They're also used for breeding many other bees. Their pollination speed is Fast, better than most bees. Breed them from Diligent and Unweary.
 
 #Quest_2165.Slimeball
 gtnh.quest2165.name=Slimeball
@@ -8670,7 +8670,7 @@ gtnh.quest2166.desc=Never having to use a treetap again?  Sign me up! You'll nee
 
 #Quest_2167.Oil
 gtnh.quest2167.name=Oil
-gtnh.quest2167.desc=Finally, Black Gold. The Oil bee, with proper...encouragement...can take care of all your power and chemical needs for quite some time. Breed them from Coal and Stickyresin.
+gtnh.quest2167.desc=Finally, Black Gold. The Oil bee, with proper...encouragement...can take care of all your power and chemical needs for quite some time. An alternate bee, Distilled, provides slightly more oil but has a longer breeding chain.  It is below the Magical bees. Breed them from Coal and Stickyresin.
 
 #Quest_2168.Coal
 gtnh.quest2168.name=Coal
@@ -8686,7 +8686,7 @@ gtnh.quest2170.desc=Rural bees like to live out in the country - you'll have to 
 
 #Quest_2171.Blooming
 gtnh.quest2171.name=Blooming
-gtnh.quest2171.desc=A Blooming bee will bonemeal nearby saplings. This can definitely help your log and sapling production rate. Breed them from Industrious and Thriving.
+gtnh.quest2171.desc=A Blooming bee will bonemeal nearby saplings. This can definitely help your log and sapling production rate. They also provide the fastest pollination. Breed them from Industrious and Thriving.
 
 #Quest_2172.Diamond
 gtnh.quest2172.name=Diamond
@@ -8854,7 +8854,7 @@ gtnh.quest2212.desc=Enchanting drops from Arcane bees are used to create Aromati
 
 #Quest_2213.Eldritch
 gtnh.quest2213.name=Eldritch
-gtnh.quest2213.desc=Eldritch are the start of the magic bee family. Breed them from Mysterious and Cultivated.
+gtnh.quest2213.desc=Eldritch are the start of the magic bee family. Breed them from Mystical and Cultivated.
 
 #Quest_2214.Supernatural
 gtnh.quest2214.name=Supernatural
@@ -8918,10 +8918,10 @@ gtnh.quest2228.desc=Not much to say about this bee.  Breed them from Ethereal an
 
 #Quest_2229.Spirit
 gtnh.quest2229.name=Spirit
-gtnh.quest2229.desc=The Spirit bee is the first bee to give you Soul Combs, necessary for Soulful Wax, used in many magical frames.
+gtnh.quest2229.desc=The Spirit bee is the first bee to give you Soul Combs, necessary for Soulful Wax, used in many magical frames. Breed them from Ethereal and Aware.
 
-#Quest_2230.Spirit
-gtnh.quest2230.name=Spirit
+#Quest_2230.Soul
+gtnh.quest2230.name=Soul
 gtnh.quest2230.desc=The Soul bee has the highest chance of making Soul Combs, 20 percent. Breed them from Aware and Spirit.
 
 #Quest_2231.Chaotic
@@ -8930,7 +8930,7 @@ gtnh.quest2231.desc=Chaotic bees require an Entropic Crystal Cluster. They will 
 
 #Quest_2232.Ordered
 gtnh.quest2232.name=Ordered
-gtnh.quest2232.desc=Ordered bees require Ordered Crystal Clusters. They can produce Order Infused Dust. Breed them from Supernatural and Ethereal.
+gtnh.quest2232.desc=Ordered bees require Ordered Crystal Clusters. They can produce Order Infused Dust. Breed them from Arcane and Ethereal.
 
 #Quest_2233.Vis
 gtnh.quest2233.name=Vis
@@ -8938,11 +8938,11 @@ gtnh.quest2233.desc=Vis bees lead to some of the most powerful bees in the whole
 
 #Quest_2234.Rejuvenating
 gtnh.quest2234.name=Rejuvenating
-gtnh.quest2234.desc=Rejuvenating bees must be bred within 25m of a node.  They will slowly charge the nearest node.
+gtnh.quest2234.desc=Rejuvenating bees must be bred within 25m of a node.  They will slowly charge the nearest node. Breed them from Vis and Attuned.
 
 #Quest_2235.Empowering
 gtnh.quest2235.name=Empowering
-gtnh.quest2235.desc=The Empowering bee will randomly add aspects to nearby nodes, allowing enormous power to build up. The best chance to breed them is during the Full moon. Breed them from Rejuventating and Vis.
+gtnh.quest2235.desc=The Empowering bee will randomly add aspects to nearby nodes, allowing enormous power to build up. The best chance to breed them is during the Full moon. Breed them from Rejuvenating and Vis.
 
 #Quest_2236.Edenic
 gtnh.quest2236.name=Edenic
@@ -8970,7 +8970,7 @@ gtnh.quest2241.desc=The Thaumic Shards bee has a chance of giving you any shard 
 
 #Quest_2242.Salis Mundus
 gtnh.quest2242.name=Salis Mundus
-gtnh.quest2242.desc=Tired of all the effort it takes to make Salis Mundus? After hours of breeding you can now do magic trouble free with this bee making all the Salis Mundus you need. It requires a Magical Biome. Breed them from Thaumic Shards and Thaumium Dust.
+gtnh.quest2242.desc=Tired of all the effort it takes to make Salis Mundus? After hours of breeding you can now do magic trouble free with this bee making all the Salis Mundus you need. It requires a Magical Forest Biome. Breed them from Thaumic Shards and Thaumium Dust.
 
 #Quest_2243.Heroic
 gtnh.quest2243.name=Heroic
@@ -9030,7 +9030,7 @@ gtnh.quest2256.desc=Brazil Nuts don't give you much in the way of important attr
 
 #Quest_2257.Coconut
 gtnh.quest2257.name=Coconut
-gtnh.quest2257.desc=Coconut is King for seedoil production - 300L per nut. Breed them from Brazil and Balsa.
+gtnh.quest2257.desc=Coconut is King for seedoil production - 300L per nut. Breed them from Brazil Nut and Balsa.
 
 #Quest_2258.Aromatic Lump
 gtnh.quest2258.name=Aromatic Lump
@@ -9055,6 +9055,122 @@ gtnh.quest2262.desc=Quantum boots of the traveller, for when you really need to 
 #Quest_2263.Industrial Grafter
 gtnh.quest2263.name=Industrial Grafter
 gtnh.quest2263.desc=If you're tired of constantly replacing branchcutters, this Industrial Grafter is rechargeable.
+
+#Quest_2264.Do you taste metal?
+gtnh.quest2264.name=Do you taste metal?
+gtnh.quest2264.desc=Metal oreberries are a great source of new seeds. You can breed some or buy some from the Coins shop. I need some Copper myself, so give me some berries please.
+
+#Quest_2265.Deep blue sea of sapphires
+gtnh.quest2265.name=Deep blue sea of sapphires
+gtnh.quest2265.desc=Sapphirum are pretty easy to get from Copper Oreberries.  You'll need a block of Sapphire beneath them to get them to maturity. They are a good source of aluminium and oxygen in LV.
+
+#Quest_2266.Red touch yellow
+gtnh.quest2266.name=Red touch yellow
+gtnh.quest2266.desc=Garnets are actually more valuable than Sapphires. They're an early source of Chrome and Manganese, which you'll need for HV machines. To reach maturity, you will need a block of Garnet beneath these crops. You can get Garnets from the HV macerator and Spessartine Ore, or you can use an Implosion Compressor to turn Garnet Sands into crystals to make blocks.
+
+#Quest_2267.A travel companion
+gtnh.quest2267.name=A travel companion
+gtnh.quest2267.desc=Lonely? The Traveling Trunk is a simple companion, giving you some extra space. With upgrades (one per trunk) it can offer you some nice advantages. Like other golems, you can pick it up with the Golemancer's Bell. It's brain is pretty small though, so it can easily get stuck. You can order it to stay in one spot via the GUI. It will attempt to teleport to you, as long as the chunk is still loaded. It can also follow you into different dimensions.\n\nThey will heal slowly on their own, or faster if you right-click on them with any food, including rotten meat. Keep away from lava.\n\nGolem upgrade effects:\nAer: Moves faster\nEarth: 1 more row of item slots\nFire: Attacks hostile mobs, setting them on fire\nWater: Nearly invulnerable. In SMP, can only be opened or picked up by player who placed it.\nEntropy: Sucks in loose items nearby if it has room\nOrder: Can be picked up with its contents, and nested in other inventories. Don't be stupid.
+
+#Quest_2268.Who needs friends?
+gtnh.quest2268.name=Who needs friends?
+gtnh.quest2268.desc=Luggage is better than a dumb old traveling trunk.  It automatically picks up dropped items, saving you time while mining. It's near-invulnerable, including in lava. It will follow you like an eager puppy, to the ends of the earth - but you probably should pick her up before changing dimensions. A lightning strike can provide more room. Shift right-clicking will turn it back into an item without losing its contents. Look for her in the GTNH tab of the Thaumonomicon
+
+#Quest_2269.Magenta
+gtnh.quest2269.name=Magenta
+gtnh.quest2269.desc=Magenta bees are also Fastest production, but come with +- 3 Climate. Breed them from Pink and Blue.
+
+#Quest_2270.Pink
+gtnh.quest2270.name=Pink
+gtnh.quest2270.desc=Pink princesses provide pink dye. They also have Fastest production and +-3 Humidity. Breed them from Red and White.
+
+#Quest_2271.White
+gtnh.quest2271.name=White
+gtnh.quest2271.desc=White bees provide white dye. Breed them from Forest and Diligent.
+
+#Quest_2272.Red
+gtnh.quest2272.name=Red
+gtnh.quest2272.desc=Dye bees obviously provide dyes, but some of them are also useful for their traits. There are many dye bees, these are just a sample. They can be useful for the hard to find dye colors from flowers. Breed Red from Common and Diligent.
+
+#Quest_2273.Blue
+gtnh.quest2273.name=Blue
+gtnh.quest2273.desc=Blue princesses will provide  a handy source of blue dye. Breed them from Forest and Diligent.
+
+#Quest_2274.Batty
+gtnh.quest2274.name=Batty
+gtnh.quest2274.desc=Batty bees will spawn firebats. So prepare for battle. Their specialty is Gunpowder. Breed them from Skulking and Windy.
+
+#Quest_2275.Ghastly
+gtnh.quest2275.name=Ghastly
+gtnh.quest2275.desc=Ghastly bees will spawn Ghasts, so beeee careful. Their specialty is Ghast Tears. They only have 1 fertility so you want to make sure you breed the drones with your master template princess. Breed them from Batty and Ethereal.
+
+#Quest_2276.Smouldering
+gtnh.quest2276.name=Smouldering
+gtnh.quest2276.desc=Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use a Climate Acclimator or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.
+
+#Quest_2277.Refined
+gtnh.quest2277.name=Refined
+gtnh.quest2277.desc=Ah, here it is. This bee has been known to power whole civilizations. Placed in a top tier bee housing like an Alveary or Industrial Apiary, with appropriate frames, it can produce oil faster than some wells. In addition, you will get small amounts of Diesel fuel as well! Breed them from Oily and Distilled.
+
+#Quest_2278.Distilled
+gtnh.quest2278.name=Distilled
+gtnh.quest2278.desc=What's this?  A step back you say! Yes, the Distilled bee doesn't make anything of use, but the potential is there. Breed them from Oily and Industrious.
+
+#Quest_2279.Oily
+gtnh.quest2279.name=Oily
+gtnh.quest2279.desc=Finally, the Oily bee! Its combs produce the most oil, but its output isn't that thrilling...yet.  Breed them from Primeval and Ocean. As an alternative, you can breed them from Primeval and Frugal if you can't find an Ocean biome or used up all your Beekeeper coins.
+
+#Quest_2280.Primeval
+gtnh.quest2280.name=Primeval
+gtnh.quest2280.desc=Primeval. The next step. Breed them from Ancient and Secluded.
+
+#Quest_2281.Ancient
+gtnh.quest2281.name=Ancient
+gtnh.quest2281.desc=Ancient bees are the first step to the best oil bees in the game. Breed them from Diligent and Noble.
+
+#Quest_2282.Ocean
+gtnh.quest2282.name=Ocean
+gtnh.quest2282.desc=The Ocean bee can be hard to breed since some servers use a worldgen that prevents ocean biomes from appearing. You might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers! If you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Coins tab. Breed them from Diligent and Water.
+
+#Quest_2283.Resinous
+gtnh.quest2283.name=Resinous
+gtnh.quest2283.desc=Well at least you can get a couple of Sticky Resin from this otherwise boring bee. Breed them from Miry and Primeval.
+
+#Quest_2284.Miry
+gtnh.quest2284.name=Miry
+gtnh.quest2284.desc=Miry bees aren't too useful yet. They'll open up the Boggy branch for you.  You'll need to find a biome with Warm/Damp to breed them. Use your Nature's Compass and Habitat Locator to find them. An easy one to find is Rainforest. Breed them from Marshy and Noble. 
+
+#Quest_2285.Elastic
+gtnh.quest2285.name=Elastic
+gtnh.quest2285.desc=Finally!  A useful bee from the Boggy branch. The Elastic bee will actually produce rubber bars for you!  No more smelly Sulfur!  Breed them from Distilled and Resinous.
+
+#Quest_2286.Master registry
+gtnh.quest2286.name=Master registry
+gtnh.quest2286.desc=The master beekeeper needs a master registry. Make sure you don't get any tears in your apiaries as you collect all the requirements!
+
+#Quest_2287.Agrarian
+gtnh.quest2287.name=Agrarian
+gtnh.quest2287.desc=Agrarian bees are supposed to help crops nearby grow. The effect isn't really that noticeable, is it? You'll have to be in a Plains-like biome for these to appear. Breed them from Farmerly and Industrious.
+
+#Quest_2288.Farmerly
+gtnh.quest2288.name=Farmerly
+gtnh.quest2288.desc=Like most farmers, these bees seem to spend all their time complaining about the neighbors or the weather instead of actually doing much. They'll need a Plains-like biome.  Breed them from Unweary and Rural.
+
+#Quest_2289.Sandwich
+gtnh.quest2289.name=Sandwich
+gtnh.quest2289.desc=sudo make me a sandwich.  Or a bee that makes sandwich parts anyways. Breed them from Batty and Agrarian.
+
+#Quest_2290.Fertilizer
+gtnh.quest2290.name=Fertilizer
+gtnh.quest2290.desc=The Fertilizer bee will make your crop empire purr.  Or grow anyways. They are a good source of Fastest production and Faster pollination as well. Breed them from Apatite and Ash.
+
+#Quest_2291.Apatite
+gtnh.quest2291.name=Apatite
+gtnh.quest2291.desc=The Apatite bee requires an Apatite Block beneath it to breed. Its Seedy comb will make seedoil as well. Breed them from Ash and Coal.
+
+#Quest_2292.Ash
+gtnh.quest2292.name=Ash
+gtnh.quest2292.desc=A bee to make ashes?  What insanity is this?  At least you can get Large territory from them. You'll need to pay the Nether a visit. Breed them from Clay and Coal.
 
 ##################################Line##################################
 
