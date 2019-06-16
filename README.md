@@ -144,6 +144,12 @@ Wabulabudaba GTNH Server Russia
 94.23.17.222:25565
 
 
+## Australian Server:<BR>
+
+Australian GTNH Server
+kyledot.net
+
+
 ## Official Links
 
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
