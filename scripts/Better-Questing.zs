@@ -15,7 +15,7 @@ recipes.remove(<betterquesting:submit_station>);
 recipes.remove(<bq_rf:rf_station>);
 
 // --- Quest Book
-recipes.remove(<questbook:questBook>);
+//recipes.remove(<questbook:questBook>);
 
 
 
@@ -39,7 +39,7 @@ recipes.addShaped(<bq_rf:rf_station>, [
 [<ore:plateSteel>, <betterquesting:submit_station>, <ore:plateSteel>]]);
 
 // --- Quest Book
-recipes.addShaped(<questbook:questBook>, [
-[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
-[<ore:stickWood>, <minecraft:book>, <ore:stickWood>],
-[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+//recipes.addShaped(<questbook:questBook>, [
+//[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+//[<ore:stickWood>, <minecraft:book>, <ore:stickWood>],
+//[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
