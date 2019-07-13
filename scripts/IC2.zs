@@ -16,6 +16,7 @@ import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.Fuels;
+import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
 import mods.gregtech.PlateBender;
@@ -1899,6 +1900,13 @@ FluidCanner.addRecipe(<IC2:reactorCoolantTriple:1>, <dreamcraft:item.ThirtyKCell
 // --- 60k Cooling Cell
 FluidCanner.addRecipe(<IC2:reactorCoolantSix:1>, <dreamcraft:item.SixtyKCell>, null, <liquid:ic2coolant> * 6000);
 
+
+// --- Lathe Recipes
+
+
+
+// --- Diamond sticks
+Lathe.addRecipe([<gregtech:gt.metaitem.01:23500>, <gregtech:gt.metaitem.01:1500> * 2], <IC2:itemPartIndustrialDiamond>, 3830, 16);
 
 
 
