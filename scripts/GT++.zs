@@ -65,6 +65,21 @@ recipes.remove(<gregtech:gt.metaitem.01:32698>);
 // --- UHV Field generator
 recipes.remove(<gregtech:gt.metaitem.01:32678>);
 
+// --- LV Superchest
+recipes.remove(<gregtech:gt.blockmachines:946>);
+
+// --- MV Superchest
+recipes.remove(<gregtech:gt.blockmachines:947>);
+
+// --- HV Superchest
+recipes.remove(<gregtech:gt.blockmachines:948>);
+
+// --- EV Superchest
+recipes.remove(<gregtech:gt.blockmachines:949>);
+
+// --- IV Superchest
+recipes.remove(<gregtech:gt.blockmachines:950>);
+
 
 
 // --- Add Recipes ---
