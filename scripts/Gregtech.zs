@@ -1313,6 +1313,21 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32325>, <liquid:
 // --- Rotor Mold
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32324>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormRotor>, true, 100);
 
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32326>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeTiny>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32327>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeSmall>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32328>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeMedium>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32329>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeLarge>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32330>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeHuge>, true, 100);
+
 // --- Extruder Shape Plate
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32350>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapePlate>, true, 100);
 

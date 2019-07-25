@@ -273,6 +273,36 @@ recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
 [null, BlankCast, null],
 [File, Hammer, null]]);
 
+// --- Mold Form Pipe Tiny
+recipes.addShaped(<dreamcraft:item.MoldFormPipeTiny>, [
+[null, File, null],
+[null, BlankCast, null],
+[null, Hammer, null]]);
+
+// --- Mold Form Pipe Small
+recipes.addShaped(<dreamcraft:item.MoldFormPipeSmall>, [
+[null, File, null],
+[null, BlankCast, null],
+[Hammer, null, null]]);
+
+// --- Mold Form Pipe Medium
+recipes.addShaped(<dreamcraft:item.MoldFormPipeMedium>, [
+[null, File, null],
+[Hammer, BlankCast, null],
+[null, null, null]]);
+
+// --- Mold Form Pipe Large
+recipes.addShaped(<dreamcraft:item.MoldFormPipeLarge>, [
+[Hammer, File, null],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Mold Form Pipe Huge
+recipes.addShaped(<dreamcraft:item.MoldFormPipeHuge>, [
+[Hammer, null, File],
+[null, BlankCast, null],
+[null, null, null]]);
+
 // --- Extruder Shape Plate
 recipes.addShaped(<dreamcraft:item.ShapePlate>, [
 [null, WireCutter, File],
@@ -851,6 +881,16 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBolt>, <liquid:alum
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRound>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormTurbineBlade>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeTiny>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeSmall>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeMedium>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeLarge>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeHuge>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- BBQ Glows Left Hand
 recipes.addShaped(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [
