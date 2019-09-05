@@ -114,7 +114,7 @@ val DiamondCircuit = <appliedenergistics2:item.ItemMultiMaterial:24>;
 
 val SteelPlate = <ore:plateSteel>;
 val AlPlate = <ore:plateAluminium>;
-val TitaniumPlate = <ore:plateTitanium>;
+val VibrantAlloyPlate = <ore:plateVibrantAlloy>;
 val RubberPlate = <ore:plateAnyRubber>;
 val CertusPlate = <gregtech:gt.metaitem.01:17516>;
 val NQuartzPlate = <gregtech:gt.metaitem.01:17522>;
@@ -508,9 +508,9 @@ recipes.remove(<appliedenergistics2:item.ToolPortableCell>);
 
 // --- ME Controller
 recipes.addShaped(MEController, [
-[TitaniumPlate, AdvCircuit, TitaniumPlate],
+[VibrantAlloyPlate, AdvCircuit, VibrantAlloyPlate],
 [DiamondCircuit, FluixBlock, DiamondCircuit],
-[TitaniumPlate, AdvCircuit, TitaniumPlate]]);
+[VibrantAlloyPlate, AdvCircuit, VibrantAlloyPlate]]);
 
 // --- Energy Cell
 recipes.addShaped(EnergyCell, [
@@ -532,63 +532,63 @@ recipes.addShaped(MEChest, [
 
 // --- ME Drive
 recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [
-[TitaniumPlate, DiamondCircuit, TitaniumPlate], 
+[VibrantAlloyPlate, DiamondCircuit, VibrantAlloyPlate], 
 [FluixGlassCable, <appliedenergistics2:tile.BlockChest>, FluixGlassCable], 
-[TitaniumPlate, <ore:circuitAdvanced>, TitaniumPlate]]);
+[VibrantAlloyPlate, <ore:circuitAdvanced>, VibrantAlloyPlate]]);
 
 // --- Crystal Growth Accelerator
 recipes.addShaped(CrystalAccelerator, [
-[TitaniumPlate, QuartzGlass, TitaniumPlate], 
+[VibrantAlloyPlate, QuartzGlass, VibrantAlloyPlate], 
 [FluixGlassCable, <gregtech:gt.blockmachines:574>, FluixGlassCable], 
-[TitaniumPlate, DiamondCircuit, TitaniumPlate]]);
+[VibrantAlloyPlate, DiamondCircuit, VibrantAlloyPlate]]);
 
 // --- CraftingUnit
 recipes.addShaped(CraftingUnit, [
-[TitaniumPlate, GoldCircuit, TitaniumPlate],
+[VibrantAlloyPlate, GoldCircuit, VibrantAlloyPlate],
 [BasicCircuit, DiamondCircuit, BasicCircuit],
-[TitaniumPlate, CertusCircuit, TitaniumPlate]]);
+[VibrantAlloyPlate, CertusCircuit, VibrantAlloyPlate]]);
 
 // --- Molecular Assembler
 recipes.addShaped(MolecularAssembler, [
-[TitaniumPlate, <ore:blockGlass>, TitaniumPlate],
+[VibrantAlloyPlate, <ore:blockGlass>, VibrantAlloyPlate],
 [AnnihilationCore, EVAssembler, FormationCore],
-[TitaniumPlate, <ore:blockGlass>, TitaniumPlate]]);
+[VibrantAlloyPlate, <ore:blockGlass>, VibrantAlloyPlate]]);
 
 // --- Charger
 recipes.addShaped(Charger, [
-[TitaniumPlate, FluixCrystal, TitaniumPlate],
+[VibrantAlloyPlate, FluixCrystal, VibrantAlloyPlate],
 [CopperCable, EVElectrolyzer, CopperCable],
-[TitaniumPlate, FluixCrystal, TitaniumPlate]]);
+[VibrantAlloyPlate, FluixCrystal, VibrantAlloyPlate]]);
 
 // --- ME Quantum Ring
 recipes.addShaped(<appliedenergistics2:tile.BlockQuantumRing>, [
-[TitaniumPlate, GoldCircuit, TitaniumPlate],
+[VibrantAlloyPlate, GoldCircuit, VibrantAlloyPlate],
 [DiamondCircuit, <appliedenergistics2:tile.BlockEnergyCell>, FluixGlassCable],
-[TitaniumPlate, GoldCircuit, TitaniumPlate]]);
+[VibrantAlloyPlate, GoldCircuit, VibrantAlloyPlate]]);
 
 // --- ME Quantum Link Chamber
 recipes.addShaped(<appliedenergistics2:tile.BlockQuantumLinkChamber>, [
-[TitaniumPlate, FluixPearl, TitaniumPlate],
+[VibrantAlloyPlate, FluixPearl, VibrantAlloyPlate],
 [FluixPearl, QuartzGlass, FluixPearl],
-[TitaniumPlate, FluixPearl, TitaniumPlate]]);
+[VibrantAlloyPlate, FluixPearl, VibrantAlloyPlate]]);
   
 // --- Spatial Pylon
 recipes.addShaped(<appliedenergistics2:tile.BlockSpatialPylon>, [
-[TitaniumPlate, FluixGlassCable, TitaniumPlate],
+[VibrantAlloyPlate, FluixGlassCable, VibrantAlloyPlate],
 [FluixDust, FluixCrystal, FluixDust],
-[TitaniumPlate, FluixGlassCable, TitaniumPlate]]);
+[VibrantAlloyPlate, FluixGlassCable, VibrantAlloyPlate]]);
   
 // --- Spatial IO Port
 recipes.addShaped(<appliedenergistics2:tile.BlockSpatialIOPort>, [
-[TitaniumPlate, <appliedenergistics2:tile.BlockSpatialPylon>, TitaniumPlate],
+[VibrantAlloyPlate, <appliedenergistics2:tile.BlockSpatialPylon>, VibrantAlloyPlate],
 [FluixGlassCable, <appliedenergistics2:tile.BlockIOPort>, FluixGlassCable],
-[TitaniumPlate, DiamondCircuit, TitaniumPlate]]);
+[VibrantAlloyPlate, DiamondCircuit, VibrantAlloyPlate]]);
 
 // --- ME Interface
 recipes.addShaped(<appliedenergistics2:tile.BlockInterface>, [
-[TitaniumPlate, <appliedenergistics2:item.ItemMultiPart:16>, TitaniumPlate],
-[<appliedenergistics2:item.ItemMultiMaterial:44>, <gregtech:gt.blockcasings:4>, <appliedenergistics2:item.ItemMultiMaterial:43>],
-[TitaniumPlate, <appliedenergistics2:item.ItemMultiPart:16>, TitaniumPlate]]);
+[VibrantAlloyPlate, <appliedenergistics2:item.ItemMultiPart:16>, VibrantAlloyPlate],
+[<appliedenergistics2:item.ItemMultiMaterial:44>, <gregtech:gt.blockcasings:3>, <appliedenergistics2:item.ItemMultiMaterial:43>],
+[VibrantAlloyPlate, <appliedenergistics2:item.ItemMultiPart:16>, VibrantAlloyPlate]]);
 
 // --- ME Interface
 recipes.addShapeless(<appliedenergistics2:tile.BlockInterface>, [<appliedenergistics2:item.ItemMultiPart:440>]);
@@ -597,37 +597,37 @@ recipes.addShapeless(<appliedenergistics2:tile.BlockInterface>, [<appliedenergis
 recipes.addShaped(<appliedenergistics2:tile.BlockCellWorkbench>, [
 [<ore:craftingToolScrewdriver>, <gregtech:gt.metaitem.01:32740>, <ore:craftingToolWrench>],
 [<ore:screwTitanium>, <minecraft:crafting_table>, <ore:screwTitanium>],
-[TitaniumPlate, CertusCircuit, TitaniumPlate]]);
+[VibrantAlloyPlate, CertusCircuit, VibrantAlloyPlate]]);
 
 // --- ME IO Port
 recipes.addShaped(<appliedenergistics2:tile.BlockIOPort>, [
-[<appliedenergistics2:item.ItemMultiPart:16>, TitaniumPlate, <appliedenergistics2:item.ItemMultiPart:16>],
+[<appliedenergistics2:item.ItemMultiPart:16>, VibrantAlloyPlate, <appliedenergistics2:item.ItemMultiPart:16>],
 [<appliedenergistics2:tile.BlockDrive>, FluixGlassCable, <appliedenergistics2:tile.BlockDrive>],
-[TitaniumPlate, GoldCircuit, TitaniumPlate]]);
+[VibrantAlloyPlate, GoldCircuit, VibrantAlloyPlate]]);
 
 // --- Matter Condenser
 recipes.addShaped(<appliedenergistics2:tile.BlockCondenser>, [
-[TitaniumPlate, <gregtech:gt.metaitem.01:32643>, TitaniumPlate],
+[VibrantAlloyPlate, <gregtech:gt.metaitem.01:32643>, VibrantAlloyPlate],
 [<gregtech:gt.metaitem.01:32643>, <gregtech:gt.blockmachines:14>, <gregtech:gt.metaitem.01:32643>],
-[TitaniumPlate, <gregtech:gt.metaitem.01:32643>, TitaniumPlate]]);
+[VibrantAlloyPlate, <gregtech:gt.metaitem.01:32643>, VibrantAlloyPlate]]);
   
 // --- Enegery Acceptor
 recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [
-[TitaniumPlate, FluixCrystal, TitaniumPlate],
+[VibrantAlloyPlate, FluixCrystal, VibrantAlloyPlate],
 [FluixCrystal, GlowstonePlate, FluixCrystal],
-[TitaniumPlate, FluixCrystal, TitaniumPlate]]);
+[VibrantAlloyPlate, FluixCrystal, VibrantAlloyPlate]]);
 
 // --- Vibration Chamber
 recipes.addShaped(<appliedenergistics2:tile.BlockVibrationChamber>, [
-[TitaniumPlate, <ore:screwTitanium>, TitaniumPlate],
+[VibrantAlloyPlate, <ore:screwTitanium>, VibrantAlloyPlate],
 [<ore:craftingToolScrewdriver>, <gregtech:gt.blockmachines:264>, <ore:craftingToolWrench>],
-[TitaniumPlate, <appliedenergistics2:tile.BlockEnergyAcceptor>, TitaniumPlate]]);
+[VibrantAlloyPlate, <appliedenergistics2:tile.BlockEnergyAcceptor>, VibrantAlloyPlate]]);
 
 // --- ME Security Terminal
 recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>, [
-[TitaniumPlate, <appliedenergistics2:tile.BlockChest>, TitaniumPlate],
+[VibrantAlloyPlate, <appliedenergistics2:tile.BlockChest>, VibrantAlloyPlate],
 [FluixGlassCable, StorageComponent16K, FluixGlassCable],
-[TitaniumPlate, DiamondCircuit, TitaniumPlate]]);
+[VibrantAlloyPlate, DiamondCircuit, VibrantAlloyPlate]]);
 
 // --- Sky Stone Stairs
 recipes.addShaped(<appliedenergistics2:tile.SkyStoneStairBlock> * 4, [
@@ -740,7 +740,7 @@ recipes.addShaped(Compass, [
 
 // --- Illuminated Panel
 recipes.addShaped(Illuminated, [
-[Screwdriver, TitaniumPlate, HHammer],
+[Screwdriver, VibrantAlloyPlate, HHammer],
 [CertusScrew, <gregtech:gt.metaitem.01:32740>, CertusScrew],
 [GlowstonePlate, <ore:plateRedAlloy>, GlowstonePlate]]);
 
@@ -787,9 +787,9 @@ recipes.addShaped(WirelessTerminal, [
 
 // --- Advanced Card
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:28>, [
-[<ore:platePlatinum>, TitaniumPlate, null],
-[<ore:plateRedAlloy>, CertusCircuit, TitaniumPlate],
-[<ore:platePlatinum>, TitaniumPlate, null]]);
+[<ore:platePlatinum>, VibrantAlloyPlate, null],
+[<ore:plateRedAlloy>, CertusCircuit, VibrantAlloyPlate],
+[<ore:platePlatinum>, VibrantAlloyPlate, null]]);
 
 // --- Basic Card
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:25>, [
@@ -824,7 +824,7 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:30>, [<appliede
 // --- Wireless Booster
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:42>, [
 [FluixDust, <ore:gemCertusQuartz>, <ore:plateEnderPearl>],
-[TitaniumPlate, AlPlate, TitaniumPlate],
+[VibrantAlloyPlate, AlPlate, VibrantAlloyPlate],
 [null, null, null]]);
 
 // --- ME Annihilation Plane
@@ -860,7 +860,7 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:cra
 
 // --- ME Export Bus
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:260>, [
-[Screwdriver, TitaniumPlate, HHammer],
+[Screwdriver, VibrantAlloyPlate, HHammer],
 [CertusScrew, <appliedenergistics2:item.ItemMultiMaterial:43>, CertusScrew],
 [NQuartzPlate, <gregtech:gt.metaitem.01:32640>, NQuartzPlate]]);
 
@@ -872,13 +872,13 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:320>, [
 
 // --- ME Import Bus
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:240>, [
-[Screwdriver, TitaniumPlate, HHammer],
+[Screwdriver, VibrantAlloyPlate, HHammer],
 [CertusScrew, <appliedenergistics2:item.ItemMultiMaterial:44>, CertusScrew],
 [NQuartzPlate, <gregtech:gt.metaitem.01:32640>, NQuartzPlate]]);
 
 // --- P2P Tunnel - ME
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:460>, [
-[Screwdriver, TitaniumPlate, HHammer],
+[Screwdriver, VibrantAlloyPlate, HHammer],
 [CertusScrew, DiamondCircuit, CertusScrew],
 [FluixCrystal, FluixCrystal, FluixCrystal]]);
  
@@ -896,13 +896,13 @@ recipes.addShaped(<appliedenergistics2:item.ToolNetherQuartzWrench>, [
 
 // --- Matter Cannon
 recipes.addShaped(<appliedenergistics2:item.ToolMassCannon>, [
-[TitaniumPlate, TitaniumPlate, <appliedenergistics2:item.ItemMultiMaterial:43>],
+[VibrantAlloyPlate, VibrantAlloyPlate, <appliedenergistics2:item.ItemMultiMaterial:43>],
 [<appliedenergistics2:item.ItemMultiMaterial:38>, <appliedenergistics2:tile.BlockDenseEnergyCell>, null],
-[TitaniumPlate, null, null]]);
+[VibrantAlloyPlate, null, null]]);
 
 // --- Memory Card
 recipes.addShaped(<appliedenergistics2:item.ToolMemoryCard>, [
-[CertusCircuit, <ore:circuitData>, TitaniumPlate],
+[CertusCircuit, <ore:circuitData>, VibrantAlloyPlate],
 [<ore:plateGold>, <ore:plateRedAlloy>, <ore:plateGold>],
 [null, null, null]]);
 
@@ -926,7 +926,7 @@ recipes.addShaped(<appliedenergistics2:item.ToolColorApplicator>, [
 
 // --- Biometric Card
 recipes.addShaped(<appliedenergistics2:item.ToolBiometricCard>, [
-[DiamondCircuit, <gregtech:gt.metaitem.01:32740>, TitaniumPlate],
+[DiamondCircuit, <gregtech:gt.metaitem.01:32740>, VibrantAlloyPlate],
 [<ore:plateGold>, <ore:plateRedAlloy>, <ore:plateGold>],
 [null, null, null]]);
 
@@ -1127,9 +1127,9 @@ recipes.addShaped(<appliedenergistics2:item.ToolPortableCell>, [
  
 // --- Inscriber
 recipes.addShaped(Inscriber,[ 
-[<ore:plateTitanium>, <ore:gemFluix>, <ore:plateTitanium>], 
+[<ore:plateVibrantAlloy>, <ore:gemFluix>, <ore:plateVibrantAlloy>], 
 [<IC2:itemRecipePart>,<gregtech:gt.blockmachines:604>,<IC2:itemRecipePart>], 
-[<ore:plateTitanium>, <ore:gemFluix>, <ore:plateTitanium>]]);
+[<ore:plateVibrantAlloy>, <ore:gemFluix>, <ore:plateVibrantAlloy>]]);
 
 // --- Quartz Cutting Knife
 recipes.addShaped(<appliedenergistics2:item.ToolCertusQuartzCuttingKnife>, [
