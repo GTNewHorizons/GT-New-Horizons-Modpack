@@ -2871,7 +2871,8 @@ ArcFurnace.addRecipe([<minecraft:glass> * 2], <minecraft:sand>, <liquid:oxygen> 
 
 
 
-
+// --- String
+Assembler.addRecipe(<minecraft:string>, <Natura:barleyFood:3> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 24);
 
 // --- Hay Block
 Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 30);
