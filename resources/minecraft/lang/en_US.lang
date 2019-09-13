@@ -9183,174 +9183,174 @@ gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generate powe
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
-gtnh.line0.name=Tier 0 - It begins
-gtnh.line0.desc=The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam's Harvestcraft.
+gtnh.line#.name=Tier 0 - It begins
+gtnh.line#.desc=The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam's Harvestcraft.
 
 # QuestLine.1 - Tier 0.5 - Stone Age
-gtnh.line1.name=Tier 0.5 - Stone Age
-gtnh.line1.desc=Basically the "Tier 0" of all your progression. This set helps you through the first tier until you can build your first steam machine
+gtnh.line#.name=Tier 0.5 - Stone Age
+gtnh.line#.desc=Basically the "Tier 0" of all your progression. This set helps you through the first tier until you can build your first steam machine
 
 # QuestLine.2 - Tier 1 - Steam
-gtnh.line2.name=Tier 1 - Steam
-gtnh.line2.desc=Quest set for all steam-based machines.
+gtnh.line#.name=Tier 1 - Steam
+gtnh.line#.desc=Quest set for all steam-based machines.
 
 # QuestLine.3 - Tier 2 - 32 EU (LV)
-gtnh.line3.name=Tier 2 - 32 EU (LV)
-gtnh.line3.desc=The first "voltage" tier of this pack. Things are getting easier...\nBTW, if you can't see any quests, click in the quest window or use the mousewheel to zoom in and out. 
+gtnh.line#.name=Tier 2 - 32 EU (LV)
+gtnh.line#.desc=The first "voltage" tier of this pack. Things are getting easier...\nBTW, if you can't see any quests, click in the quest window or use the mousewheel to zoom in and out. 
 
 # QuestLine.4 - Tier 3 - 128 EU (MV)
-gtnh.line4.name=Tier 3 - 128 EU (MV)
-gtnh.line4.desc=Your second voltage tier. Don't mix different voltage levels, or you will be punished in a hard way. Start thinking about how to expand your base. \nAgain, use mousewheel to zoom out to see quests.
+gtnh.line#.name=Tier 3 - 128 EU (MV)
+gtnh.line#.desc=Your second voltage tier. Don't mix different voltage levels, or you will be punished in a hard way. Start thinking about how to expand your base. \nAgain, use mousewheel to zoom out to see quests.
 
 # QuestLine.5 - Tier 4 - 512 EU (HV)
-gtnh.line5.name=Tier 4 - 512 EU (HV)
-gtnh.line5.desc=Finally some power to work with. This tier will help you reach distant planets and gather more rare resources to build even more advanced machines.
+gtnh.line#.name=Tier 4 - 512 EU (HV)
+gtnh.line#.desc=Finally some power to work with. This tier will help you reach distant planets and gather more rare resources to build even more advanced machines.
 
 # QuestLine.6 - Tier 5 - 2048 EU (EV)
-gtnh.line6.name=Tier 5 - 2048 EU (EV)
-gtnh.line6.desc=Titanium level, fissile energy sources, Applied Energistics 2.
+gtnh.line#.name=Tier 5 - 2048 EU (EV)
+gtnh.line#.desc=Titanium level, fissile energy sources, Applied Energistics 2.
 
 # QuestLine.7 - Tier 6 - 8192 EU (IV)
-gtnh.line7.name=Tier 6 - 8192 EU (IV)
-gtnh.line7.desc=Tungsten level, Asteriod dims, assembly line
+gtnh.line#.name=Tier 6 - 8192 EU (IV)
+gtnh.line#.desc=Tungsten level, Asteriod dims, assembly line
 
 # QuestLine.8 - Tier 7 - 32768 EU (LuV)
-gtnh.line8.name=Tier 7 - 32768 EU (LuV)
-gtnh.line8.desc=If you have made it this far, you should walk with your head held high - you are at the start of the lategame. Endgame is still a long road ahead of you, but you are now an expert at GTNH and most of the mods it comes with. Congrats, and be proud of your Big Dick Energy.
+gtnh.line#.name=Tier 7 - 32768 EU (LuV)
+gtnh.line#.desc=If you have made it this far, you should walk with your head held high - you are at the start of the lategame. Endgame is still a long road ahead of you, but you are now an expert at GTNH and most of the mods it comes with. Congrats, and be proud of your Big Dick Energy.
 
 # QuestLine.9 - Fusion
-gtnh.line9.name=Fusion
-gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV
+gtnh.line#.name=Fusion
+gtnh.line#.desc=Making power for the lategame tiers, LuV-UMV
 
 # QuestLine.10 - Fishing Farming Cooking
-gtnh.line10.name=Fishing Farming Cooking
-gtnh.line10.desc=Catch it, grow it, eat it!
+gtnh.line#.name=Fishing Farming Cooking
+gtnh.line#.desc=Catch it, grow it, eat it!
 
 # QuestLine.11 - Armors and Jetpacks
-gtnh.line11.name=Armors and Jetpacks
-gtnh.line11.desc=Guiding you through the armor and jetpacks and Adventure Backpacks.
+gtnh.line#.name=Armors and Jetpacks
+gtnh.line#.desc=Guiding you through the armor and jetpacks and Adventure Backpacks.
 
 # QuestLine.12 - Multiblock Goals
-gtnh.line12.name=Multiblock Goals
-gtnh.line12.desc=This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier. Check back often.
+gtnh.line#.name=Multiblock Goals
+gtnh.line#.desc=This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier. Check back often.
 
 # QuestLine.13 - Building Better Bases
-gtnh.line13.name=Building Better Bases
-gtnh.line13.desc=Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests. (under construction)
+gtnh.line#.name=Building Better Bases
+gtnh.line#.desc=Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests. (under construction)
 
 # QuestLine.14 - Steve Carts
-gtnh.line14.name=Steve Carts
-gtnh.line14.desc=Basic auto farming and mining.  Protect them from lightning strikes!
+gtnh.line#.name=Steve Carts
+gtnh.line#.desc=Basic auto farming and mining.  Protect them from lightning strikes!
 
 # QuestLine.15 - Project Red
-gtnh.line15.name=Project Red
-gtnh.line15.desc=Low tier storage and automation. You'll need a forming press to get started.
+gtnh.line#.name=Project Red
+gtnh.line#.desc=Low tier storage and automation. You'll need a forming press to get started.
 
 # QuestLine.16 - Coins, Coins, Coins
-gtnh.line16.name=Coins, Coins, Coins
-gtnh.line16.desc=These quests will guide you to use your Coins wisely and buy some useful or fancy stuff.\nZoom out using mousewheel to see all the amazing things for sale!
+gtnh.line#.name=Coins, Coins, Coins
+gtnh.line#.desc=These quests will guide you to use your Coins wisely and buy some useful or fancy stuff.\nZoom out using mousewheel to see all the amazing things for sale!
 
 # QuestLine.17 - GT++ 
-gtnh.line17.name=GT++ 
-gtnh.line17.desc=GT++ adds new functionality to GT, including high speed multiblocks - Under Construction
+gtnh.line#.name=GT++ 
+gtnh.line#.desc=GT++ adds new functionality to GT, including high speed multiblocks - Under Construction
 
 # QuestLine.18 - Forestry and Multi-farms
-gtnh.line18.name=Forestry and Multi-farms
-gtnh.line18.desc=Automated Farms, tree breeding, and more.....
+gtnh.line#.name=Forestry and Multi-farms
+gtnh.line#.desc=Automated Farms, tree breeding, and more.....
 
 # QuestLine.19 - Be(e) Breeding
-gtnh.line19.name=Be(e) Breeding
-gtnh.line19.desc=Breeding Bees for Better Bling (experimental, may cause honey leakage)
+gtnh.line#.name=Be(e) Breeding
+gtnh.line#.desc=Breeding Bees for Better Bling (experimental, may cause honey leakage)
 
 # QuestLine.20 - How to be(e)
-gtnh.line20.name=How to be(e)
-gtnh.line20.desc=A non-tiered quest set that is meant as an in game, quest based tutorial and guide to bees. Since they are a really helpful tool to advance forward.
+gtnh.line#.name=How to be(e)
+gtnh.line#.desc=A non-tiered quest set that is meant as an in game, quest based tutorial and guide to bees. Since they are a really helpful tool to advance forward.
 
 # QuestLine.21 - Slice and splice
-gtnh.line21.name=Slice and splice
-gtnh.line21.desc=An introduction to using Binnie's Genetics mod for bees, trees, and Botany flowers. (under construction)
+gtnh.line#.name=Slice and splice
+gtnh.line#.desc=An introduction to using Binnie's Genetics mod for bees, trees, and Botany flowers. (under construction)
 
 # QuestLine.22 - Novice Thaumaturge
-gtnh.line22.name=Novice Thaumaturge
-gtnh.line22.desc=Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great wizard, like me.
+gtnh.line#.name=Novice Thaumaturge
+gtnh.line#.desc=Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great wizard, like me.
 
 # QuestLine.23 - Adept Thaumaturgy
-gtnh.line23.name=Adept Thaumaturgy
-gtnh.line23.desc=Warp included.
+gtnh.line#.name=Adept Thaumaturgy
+gtnh.line#.desc=Warp included.
 
 # QuestLine.24 - Kaaami, Haaaami, ... HA!
-gtnh.line24.name=Kaaami, Haaaami, ... HA!
-gtnh.line24.desc=Ultimate (magical) POWER!!!
+gtnh.line#.name=Kaaami, Haaaami, ... HA!
+gtnh.line#.desc=Ultimate (magical) POWER!!!
 
 # QuestLine.25 - Focus on Wand Foci
-gtnh.line25.name=Focus on Wand Foci
-gtnh.line25.desc=Did you know which wand focus is useful and which not?
+gtnh.line#.name=Focus on Wand Foci
+gtnh.line#.desc=Did you know which wand focus is useful and which not?
 
 # QuestLine.26 - Electro Magic
-gtnh.line26.name=Electro Magic
-gtnh.line26.desc=This Tab focus on Electro Magic Tools and Thaumic Energistics. These are some nice mods, that will help you with machinery and magic.
+gtnh.line#.name=Electro Magic
+gtnh.line#.desc=This Tab focus on Electro Magic Tools and Thaumic Energistics. These are some nice mods, that will help you with machinery and magic.
 
 # QuestLine.27 - Look to the edges
-gtnh.line27.name=Look to the edges
-gtnh.line27.desc=Granny Weatherwax would approve.
+gtnh.line#.name=Look to the edges
+gtnh.line#.desc=Granny Weatherwax would approve.
 
 # QuestLine.28 - Paying the highest price
-gtnh.line28.name=Paying the highest price
-gtnh.line28.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
+gtnh.line#.name=Paying the highest price
+gtnh.line#.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
 
 # QuestLine.29 - More blood, more stuff
-gtnh.line29.name=More blood, more stuff
-gtnh.line29.desc=Advanced Blood Magic? My veins feel weird...
+gtnh.line#.name=More blood, more stuff
+gtnh.line#.desc=Advanced Blood Magic? My veins feel weird...
 
 # QuestLine.30 - They are coming...
-gtnh.line30.name=They are coming...
-gtnh.line30.desc=The spirits that I've called... Demon invasions and beyond. Really deep into dark magic!
+gtnh.line#.name=They are coming...
+gtnh.line#.desc=The spirits that I've called... Demon invasions and beyond. Really deep into dark magic!
 
 # QuestLine.31 - Open Computers
-gtnh.line31.name=Open Computers
-gtnh.line31.desc=The magical world of ingame programming!
+gtnh.line#.name=Open Computers
+gtnh.line#.desc=The magical world of ingame programming!
 
 # QuestLine.32 - Stacy's Factory Manager
-gtnh.line32.name=Stacy's Factory Manager
-gtnh.line32.desc=Right? Right.
+gtnh.line#.name=Stacy's Factory Manager
+gtnh.line#.desc=Right? Right.
 
 # QuestLine.33 - Transportation
-gtnh.line33.name=Transportation
-gtnh.line33.desc=From four legged steeds to iron horses
+gtnh.line#.name=Transportation
+gtnh.line#.desc=From four legged steeds to iron horses
 
 # QuestLine.34 - Space Race
-gtnh.line34.name=Space Race
-gtnh.line34.desc=A guide to help you start Galacticraft and reach the Moon
+gtnh.line#.name=Space Race
+gtnh.line#.desc=A guide to help you start Galacticraft and reach the Moon
 
 # QuestLine.35 - Applied Energistics
-gtnh.line35.name=Applied Energistics
-gtnh.line35.desc=AE2 focuses on creating a compact, easily accessible, considerably extendible storage system called an ME Network. 
+gtnh.line#.name=Applied Energistics
+gtnh.line#.desc=AE2 focuses on creating a compact, easily accessible, considerably extendible storage system called an ME Network. 
 
 # QuestLine.36 - An Age of Tech
-gtnh.line36.name=An Age of Tech
-gtnh.line36.desc=I've been keeping a watchful eye on your technological advance - it's time to see the dreams of a technological future! I shall guide you to a whole new complicated series of machinery. Be wary though, these machines will test your resolve (and energy limits) to the extreme. (under construction)
+gtnh.line#.name=An Age of Tech
+gtnh.line#.desc=I've been keeping a watchful eye on your technological advance - it's time to see the dreams of a technological future! I shall guide you to a whole new complicated series of machinery. Be wary though, these machines will test your resolve (and energy limits) to the extreme. (under construction)
 
 # QuestLine.37 - Kill all the things
-gtnh.line37.name=Kill all the things
-gtnh.line37.desc=This world is full of nasty things. Time to kill some and improve your reputation.
+gtnh.line#.name=Kill all the things
+gtnh.line#.desc=This world is full of nasty things. Time to kill some and improve your reputation.
 
 # QuestLine.38 - To grind, or not to grind
-gtnh.line38.name=To grind, or not to grind
-gtnh.line38.desc=That is the question. Do you want good tools? Well, then go grind stuff! The rewards of these quests are worth it, trust me.
+gtnh.line#.name=To grind, or not to grind
+gtnh.line#.desc=That is the question. Do you want good tools? Well, then go grind stuff! The rewards of these quests are worth it, trust me.
 
 # QuestLine.39 - Legendary Quests
-gtnh.line39.name=Legendary Quests
-gtnh.line39.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
+gtnh.line#.name=Legendary Quests
+gtnh.line#.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
 
 # QuestLine.40 - Legendary Tier X
-gtnh.line40.name=Legendary Tier X
-gtnh.line40.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
+gtnh.line#.name=Legendary Tier X
+gtnh.line#.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
 
 # QuestLine.41 - Legendary Infinity
-gtnh.line41.name=Legendary Infinity
-gtnh.line41.desc=A legendary questline with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
+gtnh.line#.name=Legendary Infinity
+gtnh.line#.desc=A legendary questline with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
 
 # QuestLine.42 - Reward Area
-gtnh.line42.name=Reward Area
-gtnh.line42.desc=Upgrade your loot bags!
+gtnh.line#.name=Reward Area
+gtnh.line#.desc=Upgrade your loot bags!
 
