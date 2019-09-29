@@ -571,25 +571,8 @@ recipes.addShaped(<extracells:storage.fluid.portable>, [
 [<ore:screwTitanium>, <appliedenergistics2:tile.BlockChest>, <ore:screwTitanium>],
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:craftingToolWrench>]]);
 
-// --- ME Upgrade Tier 1
-recipes.addShaped(<extracells:oc.upgrade:2>, [
-[<ore:plateTitanium>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ore:plateTitanium>],
-[<OpenComputers:item:24>, <OpenComputers:item:13>, <OpenComputers:item:24>],
-[<ore:plateTitanium>, <OpenComputers:item:32>, <ore:plateTitanium>]]);
-
-// --- ME Upgrade Tier 2
-recipes.addShaped(<extracells:oc.upgrade:1>, [
-[<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ore:plateTungstenSteel>],
-[<OpenComputers:item:25>, <OpenComputers:item:13>, <OpenComputers:item:25>],
-[<ore:plateTungstenSteel>, <OpenComputers:item:32>, <ore:plateTungstenSteel>]]);
-
-// --- ME Upgrade Tier 3
-recipes.addShaped(<extracells:oc.upgrade>, [
-[<ore:plateChrome>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ore:plateChrome>],
-[<OpenComputers:item:26>, <OpenComputers:item:13>, <OpenComputers:item:26>],
-[<ore:plateChrome>, <OpenComputers:item:32>, <ore:plateChrome>]]);
-
-
+// PCB conversion recipe for Computronics
+recipes.addShapeless(<OpenComputers:item:32>,[<gregtech:gt.metaitem.01:32720>]);
 
 
 // --- Assembler Recipes ---
