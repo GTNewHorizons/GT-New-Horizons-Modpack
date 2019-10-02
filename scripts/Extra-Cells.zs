@@ -82,7 +82,15 @@ val Screwdriver = <ore:craftingToolScrewdriver>;
 val SHammer = <ore:craftingToolSoftHammer>;
 val HHammer = <ore:craftingToolHardHammer>;
 
+var SoCchip = <gregtech:gt.metaitem.03:32047>;
+var ASoCchip = <gregtech:gt.metaitem.03:32049>;
+var RAMchip = <gregtech:gt.metaitem.03:32039>;
 
+var mPlatinum = <liquid:molten.platinum>;
+var mEuropuim = <liquid:molten.europium>;
+var mAmericium = <liquid:molten.americium>;
+var mNeutronium = <liquid:molten.neutronium>;
+var mFlerovium = <liquid:molten.flerovium_gt5u>;
 
 // --- Removing Recipes ---
 
@@ -346,28 +354,52 @@ recipes.addShaped(Storage16384K, [
 recipes.addShapeless(<extracells:storage.physical:3>, [<extracells:storage.component:3>, <extracells:storage.casing:0>]);
 
 // --- Storage Cell Component - 256K
-recipes.addShaped(StorageComponent256K, [
-[DataCircuit, StorageComponent64K, DataCircuit],
-[StorageComponent64K, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, StorageComponent64K],
-[DataCircuit, StorageComponent64K, DataCircuit]]);
+//recipes.addShaped(StorageComponent256K, [
+//[DataCircuit, StorageComponent64K, DataCircuit],
+//[StorageComponent64K, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, StorageComponent64K],
+//[DataCircuit, StorageComponent64K, DataCircuit]]);
+
+Assembler.addRecipe(StorageComponent256K, [DataCircuit*4, StorageComponent64K*4, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, <gregtech:gt.metaitem.03:32041>,<gregtech:gt.integrated_circuit:1>*0], null, 200, 7680);
+Assembler.addRecipe(StorageComponent256K, [DataCircuit*3, StorageComponent64K*4, <dreamcraft:item.EmeraldAdvancedCoreChip>, <gregtech:gt.metaitem.03:32043>,<gregtech:gt.integrated_circuit:1>*0], null, 280, 30720);
+
+Assembler.addRecipe(StorageComponent256K, [DataCircuit*3, StorageComponent64K*3, SoCchip, <dreamcraft:item.EmeraldAdvancedCoreChip>,<gregtech:gt.integrated_circuit:2>*0], mAmericium * 36, 30, 122880);
+Assembler.addRecipe(StorageComponent256K, [EliteCircuit, StorageComponent64K*2, ASoCchip, <dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.integrated_circuit:2>*0], mNeutronium * 36, 30, 500000);
 
 // --- Storage Cell Component - 1024K
-recipes.addShaped(StorageComponent1024K, [
-[EliteCircuit, StorageComponent256K, EliteCircuit],
-[StorageComponent256K, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, StorageComponent256K],
-[EliteCircuit, StorageComponent256K, EliteCircuit]]);
+//recipes.addShaped(StorageComponent1024K, [
+//[EliteCircuit, StorageComponent256K, EliteCircuit],
+//[StorageComponent256K, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, StorageComponent256K],
+//[EliteCircuit, StorageComponent256K, EliteCircuit]]);
+
+Assembler.addRecipe(StorageComponent1024K, [EliteCircuit*4, StorageComponent256K*4, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, <gregtech:gt.metaitem.03:32041>,<gregtech:gt.integrated_circuit:1>*0], null, 220, 7680);
+Assembler.addRecipe(StorageComponent1024K, [EliteCircuit*3, StorageComponent256K*4, <dreamcraft:item.EmeraldAdvancedCoreChip>, <gregtech:gt.metaitem.03:32043>,<gregtech:gt.integrated_circuit:1>*0], null, 300, 30720);
+
+Assembler.addRecipe(StorageComponent1024K, [EliteCircuit*3, StorageComponent256K*3, SoCchip, <dreamcraft:item.EmeraldAdvancedCoreChip>,<gregtech:gt.integrated_circuit:2>*0], mAmericium * 36, 30, 122880);
+Assembler.addRecipe(StorageComponent1024K, [MasterCircuit, StorageComponent256K*2, ASoCchip, <dreamcraft:item.EngravedEnergyChip>,<gregtech:gt.integrated_circuit:2>*0], mNeutronium * 36, 30, 500000);
 
 // --- Storage Cell Component - 4096K
-recipes.addShaped(StorageComponent4096K, [
-[MasterCircuit, StorageComponent1024K, MasterCircuit],
-[StorageComponent1024K, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, StorageComponent1024K],
-[MasterCircuit, StorageComponent1024K, MasterCircuit]]);
+//recipes.addShaped(StorageComponent4096K, [
+//[MasterCircuit, StorageComponent1024K, MasterCircuit],
+//[StorageComponent1024K, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, StorageComponent1024K],
+//[MasterCircuit, StorageComponent1024K, MasterCircuit]]);
+
+Assembler.addRecipe(StorageComponent4096K, [MasterCircuit*4, StorageComponent1024K*4, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <gregtech:gt.metaitem.03:32041>,<gregtech:gt.integrated_circuit:1>*0], null, 240, 30720);
+Assembler.addRecipe(StorageComponent4096K, [MasterCircuit*3, StorageComponent1024K*4, <dreamcraft:item.EmeraldHighAdvancedCoreChip>, <gregtech:gt.metaitem.03:32043>, <gregtech:gt.integrated_circuit:1>*0], null, 320, 122880);
+
+Assembler.addRecipe(StorageComponent4096K, [MasterCircuit*3, StorageComponent1024K*3, SoCchip, <dreamcraft:item.EmeraldHighAdvancedCoreChip>, <gregtech:gt.integrated_circuit:2>*0], mNeutronium * 36, 30, 500000);
+Assembler.addRecipe(StorageComponent4096K, [SuperconductorCircuits, StorageComponent1024K*2, ASoCchip, <dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.integrated_circuit:2>*0], mFlerovium * 36, 30, 2000000);
 
 // --- Storage Cell Component - 16384K
-recipes.addShaped(StorageComponent16384K, [
-[SuperconductorCircuits, StorageComponent4096K, SuperconductorCircuits],
-[StorageComponent4096K, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, StorageComponent4096K],
-[SuperconductorCircuits, StorageComponent4096K, SuperconductorCircuits]]);
+//recipes.addShaped(StorageComponent16384K, [
+//[SuperconductorCircuits, StorageComponent4096K, SuperconductorCircuits],
+//[StorageComponent4096K, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, StorageComponent4096K],
+//[SuperconductorCircuits, StorageComponent4096K, SuperconductorCircuits]]);
+
+Assembler.addRecipe(StorageComponent16384K, [SuperconductorCircuits*4, StorageComponent4096K*4, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, <gregtech:gt.metaitem.03:32041>,<gregtech:gt.integrated_circuit:1>*0], null, 260, 30720);
+Assembler.addRecipe(StorageComponent16384K, [SuperconductorCircuits*3, StorageComponent4096K*4, <dreamcraft:item.EmeraldHighAdvancedCoreChip>, <gregtech:gt.metaitem.03:32043>,<gregtech:gt.integrated_circuit:1>*0], null, 340, 122880);
+
+Assembler.addRecipe(StorageComponent16384K, [SuperconductorCircuits*3, StorageComponent4096K*3, SoCchip, <dreamcraft:item.EmeraldHighAdvancedCoreChip>, <gregtech:gt.integrated_circuit:2>*0], mNeutronium * 36, 30, 500000);
+Assembler.addRecipe(StorageComponent16384K, [InfinityCircuits, StorageComponent4096K*2, ASoCchip, <dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.integrated_circuit:2>*0], mFlerovium * 36, 30, 2000000);
 
 // --- Universal Advanced Storage Housing
 recipes.addShaped(UAdvStorageHousing, [
@@ -472,46 +504,82 @@ recipes.addShaped(FluidStorage4096K, [
 recipes.addShapeless(<extracells:storage.fluid:6>, [<extracells:storage.component:10>, <extracells:storage.casing:1>]);
 
 // --- Fluid Storage Cell Component - 1K
-recipes.addShaped(FluidSComponent1K, [
-[PrimitiveCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>, PrimitiveCircuit],
-[<appliedenergistics2:item.ItemMultiMaterial:8>, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <appliedenergistics2:item.ItemMultiMaterial:8>],
-[PrimitiveCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>, PrimitiveCircuit]]);
+//recipes.addShaped(FluidSComponent1K, [
+//[PrimitiveCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>, PrimitiveCircuit],
+//[<appliedenergistics2:item.ItemMultiMaterial:8>, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <appliedenergistics2:item.ItemMultiMaterial:8>],
+//[PrimitiveCircuit, <appliedenergistics2:item.ItemMultiMaterial:8>, PrimitiveCircuit]]);
+
+Assembler.addRecipe(FluidSComponent1K, [RAMchip*4, <ore:dustFluix>*4, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <gregtech:gt.integrated_circuit:1>*0], null, 180, 480);
+Assembler.addRecipe(FluidSComponent1K, [<gregtech:gt.metaitem.03:32041>*3, <ore:dustFluix>*4, <dreamcraft:item.DiamondFluidCoreChip>, <gregtech:gt.integrated_circuit:1>*0], null, 240, 1920);
 
 // --- Fluid Storage Cell Component - 4K
-recipes.addShaped(FluidSComponent4K, [
-[BasicCircuit, FluidSComponent1K, BasicCircuit],
-[FluidSComponent1K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent1K],
-[BasicCircuit, FluidSComponent1K, BasicCircuit]]);
+//recipes.addShaped(FluidSComponent4K, [
+//[BasicCircuit, FluidSComponent1K, BasicCircuit],
+//[FluidSComponent1K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent1K],
+//[BasicCircuit, FluidSComponent1K, BasicCircuit]]);
+
+Assembler.addRecipe(FluidSComponent4K, [BasicCircuit*4, FluidSComponent1K*4, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <gregtech:gt.metaitem.03:32039>, <gregtech:gt.integrated_circuit:1>*0], null, 200, 480);
+Assembler.addRecipe(FluidSComponent4K, [BasicCircuit*3, FluidSComponent1K*4, <dreamcraft:item.DiamondFluidCoreChip>, <gregtech:gt.metaitem.03:32041>, <gregtech:gt.integrated_circuit:1>*0], null, 260, 1920);
 
 // --- Fluid Storage Cell Component - 16K
-recipes.addShaped(FluidSComponent16K, [
-[GoodCircuit, FluidSComponent4K, GoodCircuit],
-[FluidSComponent4K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent4K],
-[GoodCircuit, FluidSComponent4K, GoodCircuit]]);
+//recipes.addShaped(FluidSComponent16K, [
+//[GoodCircuit, FluidSComponent4K, GoodCircuit],
+//[FluidSComponent4K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent4K],
+//[GoodCircuit, FluidSComponent4K, GoodCircuit]]);
+
+Assembler.addRecipe(FluidSComponent16K, [GoodCircuit*4, FluidSComponent4K*4, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <gregtech:gt.metaitem.03:32039>, <gregtech:gt.integrated_circuit:1>*0], null, 220, 1920);
+Assembler.addRecipe(FluidSComponent16K, [GoodCircuit*3, FluidSComponent4K*4, <dreamcraft:item.DiamondFluidCoreChip>, <gregtech:gt.metaitem.03:32041>, <gregtech:gt.integrated_circuit:1>*0], null, 280, 7680);
+
+Assembler.addRecipe(FluidSComponent16K, [RAMchip*32, <ore:dustFluix>*32, SoCchip, <dreamcraft:item.DiamondFluidCoreChip>, <gregtech:gt.integrated_circuit:2>*0], mEuropuim * 36, 30, 30720);
+Assembler.addRecipe(FluidSComponent16K, [<gregtech:gt.metaitem.03:32041>*16, <ore:dustFluix>*16, ASoCchip, <gregtech:gt.metaitem.01:32714>, <gregtech:gt.integrated_circuit:2>*0], mAmericium * 36, 30, 122880);
 
 // --- Fluid Storage Cell Component - 64K
-recipes.addShaped(FluidSComponent64K, [
-[AdvCircuit, FluidSComponent16K, AdvCircuit],
-[FluidSComponent16K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent16K],
-[AdvCircuit, FluidSComponent16K, AdvCircuit]]);
+//recipes.addShaped(FluidSComponent64K, [
+//[AdvCircuit, FluidSComponent16K, AdvCircuit],
+//[FluidSComponent16K, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, FluidSComponent16K],
+//[AdvCircuit, FluidSComponent16K, AdvCircuit]]);
+
+Assembler.addRecipe(FluidSComponent64K, [AdvCircuit*4, FluidSComponent16K*4, <dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <gregtech:gt.metaitem.03:32039>,<gregtech:gt.integrated_circuit:1>*0], null, 240, 1920);
+Assembler.addRecipe(FluidSComponent64K, [AdvCircuit*3, FluidSComponent16K*4, <dreamcraft:item.DiamondFluidCoreChip>, <gregtech:gt.metaitem.03:32041>,<gregtech:gt.integrated_circuit:1>*0], null, 300, 7680);
+
+Assembler.addRecipe(FluidSComponent64K, [AdvCircuit*3, FluidSComponent16K*3, SoCchip, <dreamcraft:item.DiamondFluidCoreChip>, <gregtech:gt.integrated_circuit:2>*0], mEuropuim * 36, 30, 30720);
+Assembler.addRecipe(FluidSComponent64K, [DataCircuit, FluidSComponent16K*2, ASoCchip, <gregtech:gt.metaitem.01:32714>, <gregtech:gt.integrated_circuit:2>*0], mAmericium * 36, 30, 122880);
 
 // --- Fluid Storage Cell Component - 256K
-recipes.addShaped(FluidSComponent256K, [
-[DataCircuit, FluidSComponent64K, DataCircuit],
-[FluidSComponent64K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent64K],
-[DataCircuit, FluidSComponent64K, DataCircuit]]);
+//recipes.addShaped(FluidSComponent256K, [
+//[DataCircuit, FluidSComponent64K, DataCircuit],
+//[FluidSComponent64K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent64K],
+//[DataCircuit, FluidSComponent64K, DataCircuit]]);
+
+Assembler.addRecipe(FluidSComponent256K, [DataCircuit*4, FluidSComponent64K*4, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, <gregtech:gt.metaitem.03:32041>, <gregtech:gt.integrated_circuit:1>*0], null, 260, 7680);
+Assembler.addRecipe(FluidSComponent256K, [DataCircuit*3, FluidSComponent64K*4, <dreamcraft:item.EmeraldAdvancedFluidCoreChip>, <gregtech:gt.metaitem.03:32043>, <gregtech:gt.integrated_circuit:1>*0], null, 320, 30720);
+
+Assembler.addRecipe(FluidSComponent256K, [DataCircuit*3, FluidSComponent64K*3, SoCchip, <dreamcraft:item.EmeraldAdvancedFluidCoreChip>, <gregtech:gt.integrated_circuit:2>*0], mAmericium * 36, 30, 122880);
+Assembler.addRecipe(FluidSComponent256K, [EliteCircuit, FluidSComponent64K*2, ASoCchip, <gregtech:gt.metaitem.01:32714>, <gregtech:gt.integrated_circuit:2>*0], mNeutronium * 36, 30, 500000);
 
 // --- Fluid Storage Cell Component - 1024K
-recipes.addShaped(FluidSComponent1024K, [
-[EliteCircuit, FluidSComponent256K, EliteCircuit],
-[FluidSComponent256K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent256K],
-[EliteCircuit, FluidSComponent256K, EliteCircuit]]);
+//recipes.addShaped(FluidSComponent1024K, [
+//[EliteCircuit, FluidSComponent256K, EliteCircuit],
+//[FluidSComponent256K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent256K],
+//[EliteCircuit, FluidSComponent256K, EliteCircuit]]);
+
+Assembler.addRecipe(FluidSComponent1024K, [EliteCircuit*4, FluidSComponent256K*4, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, <gregtech:gt.metaitem.03:32041>, <gregtech:gt.integrated_circuit:1>*0], null, 280, 7680);
+Assembler.addRecipe(FluidSComponent1024K, [EliteCircuit*3, FluidSComponent256K*4, <dreamcraft:item.EmeraldAdvancedFluidCoreChip>, <gregtech:gt.metaitem.03:32043>, <gregtech:gt.integrated_circuit:1>*0], null, 340, 30720);
+
+Assembler.addRecipe(FluidSComponent1024K, [EliteCircuit*3, FluidSComponent256K*3, SoCchip, <dreamcraft:item.EmeraldAdvancedFluidCoreChip>, <gregtech:gt.integrated_circuit:2>*0], mAmericium * 36, 30, 122880);
+Assembler.addRecipe(FluidSComponent1024K, [MasterCircuit, FluidSComponent256K*2, ASoCchip, <gregtech:gt.metaitem.01:32714>, <gregtech:gt.integrated_circuit:2>*0], mNeutronium * 36, 30, 500000);
 
 // --- Fluid Storage Cell Component - 4096K
-recipes.addShaped(FluidSComponent4096K, [
-[MasterCircuit, FluidSComponent1024K, MasterCircuit],
-[FluidSComponent1024K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent1024K],
-[MasterCircuit, FluidSComponent1024K, MasterCircuit]]);
+//recipes.addShaped(FluidSComponent4096K, [
+//[MasterCircuit, FluidSComponent1024K, MasterCircuit],
+//FluidSComponent1024K, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, FluidSComponent1024K],
+//[MasterCircuit, FluidSComponent1024K, MasterCircuit]]);
+
+Assembler.addRecipe(FluidSComponent4096K, [MasterCircuit*4, FluidSComponent1024K*4, <dreamcraft:item.EngineeringProcessorFluidEmeraldCore>, <gregtech:gt.metaitem.03:32041>, <gregtech:gt.integrated_circuit:1>*0], null, 300, 30720);
+Assembler.addRecipe(FluidSComponent4096K, [MasterCircuit*3, FluidSComponent1024K*4, <dreamcraft:item.EmeraldAdvancedFluidCoreChip>, <gregtech:gt.metaitem.03:32043>, <gregtech:gt.integrated_circuit:1>*0], null, 360, 122880);
+
+Assembler.addRecipe(FluidSComponent4096K, [MasterCircuit*3, FluidSComponent1024K*3, SoCchip, <dreamcraft:item.EmeraldAdvancedFluidCoreChip>, <gregtech:gt.integrated_circuit:2>*0], mNeutronium * 36, 30, 500000);
+Assembler.addRecipe(FluidSComponent4096K, [SuperconductorCircuits, FluidSComponent1024K*2, ASoCchip, <gregtech:gt.metaitem.01:32714>, <gregtech:gt.integrated_circuit:2>*0], mFlerovium * 36, 30, 2000000);
 
 // --- Universal Fluid Storage Housing
 recipes.addShaped(UFluidStorageHousing, [
