@@ -964,6 +964,10 @@ Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:g
 // --- Flint Dust
 Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2802> * 8],  null, <minecraft:gravel> * 16, null, null, [10000], 50, 1920);
 
+// --- Re-add Cadmium Centrifuge recipe
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:1067>, <gregtech:gt.metaitem.01:1045>, <gregtech:gt.metaitem.01:1064>, <gregtech:gt.metaitem.01:1065>, <gregtech:gt.metaitem.01:1055>, <gregtech:gt.metaitem.01:1062>], null, <gregtech:gt.metaitem.01:2891>, null, null, new int[]{2500, 2500, 2500, 2500, 2500, 2500}, 64, 20);
+        
+
 
 
 
