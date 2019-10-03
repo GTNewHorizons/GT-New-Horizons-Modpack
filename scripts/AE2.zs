@@ -132,7 +132,6 @@ val IronRod = <ore:stickIron>;
 
 var mEuropuim = <liquid:molten.europium>;
 var mAmericium = <liquid:molten.americium>;
-var mPlatinum = <liquid:molten.platinum>;
 var RAMchip = <gregtech:gt.metaitem.03:32039>;
 var SoCchip = <gregtech:gt.metaitem.03:32047>;
 var ASoCchip = <gregtech:gt.metaitem.03:32049>;
@@ -1083,43 +1082,31 @@ recipes.addShaped(UStorageHousing, [
 [CertusScrew, AlPlate, HHammer]]);
 
 // --- Storage Cell Component - 1K
-//recipes.addShaped(StorageComponent1K, [
-//[PrimitiveCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, PrimitiveCircuit],
-//[<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.LogicProcessorItemGoldCore>, <dreamcraft:item.ChargedCertusQuartzDust>],
-//[PrimitiveCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, PrimitiveCircuit]]);
-
-Assembler.addRecipe(StorageComponent1K, [RAMchip*4, <ore:dustChargedCertusQuartz>*4, <dreamcraft:item.LogicProcessorItemGoldCore>,<gregtech:gt.integrated_circuit:1>*0], null, 120, 480);
-Assembler.addRecipe(StorageComponent1K, [<gregtech:gt.metaitem.03:32041>*3, <ore:dustChargedCertusQuartz>*4, <dreamcraft:item.GoldCoreChip>,<gregtech:gt.integrated_circuit:1>*0], null, 180, 1920);
+recipes.addShaped(StorageComponent1K, [
+[PrimitiveCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, PrimitiveCircuit],
+[<dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.LogicProcessorItemGoldCore>, <dreamcraft:item.ChargedCertusQuartzDust>],
+[PrimitiveCircuit, <dreamcraft:item.ChargedCertusQuartzDust>, PrimitiveCircuit]]);
 
 // --- Storage Cell Component - 4K
-//recipes.addShaped(StorageComponent4K, [
-//[BasicCircuit, StorageComponent1K, BasicCircuit],
-//[StorageComponent1K, <dreamcraft:item.LogicProcessorItemGoldCore>, StorageComponent1K],
-//[BasicCircuit, StorageComponent1K, BasicCircuit]]);
-
-Assembler.addRecipe(StorageComponent4K, [BasicCircuit*4, StorageComponent1K*4, <dreamcraft:item.LogicProcessorItemGoldCore>, RAMchip,<gregtech:gt.integrated_circuit:1>*0], null, 160, 480);
-Assembler.addRecipe(StorageComponent4K, [BasicCircuit*3, StorageComponent1K*4, <dreamcraft:item.GoldCoreChip>, <gregtech:gt.metaitem.03:32041>,<gregtech:gt.integrated_circuit:1>*0], null, 240, 1920);
+recipes.addShaped(StorageComponent4K, [
+[BasicCircuit, StorageComponent1K, BasicCircuit],
+[StorageComponent1K, <dreamcraft:item.LogicProcessorItemGoldCore>, StorageComponent1K],
+[BasicCircuit, StorageComponent1K, BasicCircuit]]);
 
 // --- Storage Cell Component - 16K
-//recipes.addShaped(StorageComponent16K, [
-//[GoodCircuit, StorageComponent4K, GoodCircuit],
-//[StorageComponent4K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent4K],
-//[GoodCircuit, StorageComponent4K, GoodCircuit]]);
-
-Assembler.addRecipe(StorageComponent16K, [GoodCircuit*4, StorageComponent4K*4, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, RAMchip,<gregtech:gt.integrated_circuit:1>*0], null, 180, 1920);
-Assembler.addRecipe(StorageComponent16K, [GoodCircuit*3, StorageComponent4K*4, <dreamcraft:item.DiamondCoreChip>, <gregtech:gt.metaitem.03:32041>,<gregtech:gt.integrated_circuit:1>*0], null, 260, 7680);
+recipes.addShaped(StorageComponent16K, [
+[GoodCircuit, StorageComponent4K, GoodCircuit],
+[StorageComponent4K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent4K],
+[GoodCircuit, StorageComponent4K, GoodCircuit]]);
 
 Assembler.addRecipe(StorageComponent16K, [RAMchip*32, <ore:dustChargedCertusQuartz>*32, SoCchip, <dreamcraft:item.DiamondCoreChip>,<gregtech:gt.integrated_circuit:2>*0], mEuropuim * 36, 30, 30720);
 Assembler.addRecipe(StorageComponent16K, [<gregtech:gt.metaitem.03:32041>*16, <ore:dustChargedCertusQuartz>*16, <gregtech:gt.metaitem.03:32049>, <dreamcraft:item.EngravedDiamondCrystalChip>, <gregtech:gt.integrated_circuit:2>*0], mAmericium * 36, 30, 122880);
 
 // --- Storage Cell Component - 64K
-//recipes.addShaped(StorageComponent64K, [
-//[AdvCircuit, StorageComponent16K, AdvCircuit],
-//[StorageComponent16K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent16K],
-//[AdvCircuit, StorageComponent16K, AdvCircuit]]);
-
-Assembler.addRecipe(StorageComponent64K, [AdvCircuit*4, StorageComponent16K*4, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, RAMchip,<gregtech:gt.integrated_circuit:1>*0], null, 200, 1920);
-Assembler.addRecipe(StorageComponent64K, [AdvCircuit*3, StorageComponent16K*4, <dreamcraft:item.DiamondCoreChip>,<gregtech:gt.metaitem.03:32041>,<gregtech:gt.integrated_circuit:1>*0], null, 280, 7680);
+recipes.addShaped(StorageComponent64K, [
+[AdvCircuit, StorageComponent16K, AdvCircuit],
+[StorageComponent16K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent16K],
+[AdvCircuit, StorageComponent16K, AdvCircuit]]);
 
 Assembler.addRecipe(StorageComponent64K, [AdvCircuit*3, StorageComponent16K*3, SoCchip, <dreamcraft:item.DiamondCoreChip>,<gregtech:gt.integrated_circuit:2>*0], mEuropuim * 36, 30, 30720);
 Assembler.addRecipe(StorageComponent64K, [<ore:circuitData>, StorageComponent16K*2, <gregtech:gt.metaitem.03:32049>, <dreamcraft:item.EngravedDiamondCrystalChip>, <gregtech:gt.integrated_circuit:2>*0], mAmericium * 36, 30, 122880);
