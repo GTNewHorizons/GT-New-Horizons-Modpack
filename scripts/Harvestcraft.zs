@@ -455,9 +455,9 @@ furnace.addRecipe(<harvestcraft:turkeycookedItem>, <harvestcraft:turkeyrawItem>)
 recipes.addShapeless(<harvestcraft:boiledeggItem>, [<harvestcraft:potItem>, <minecraft:egg>]);
 
 // --- Heavy Cream
-recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.reuse()), <harvestcraft:soymilkItem>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.reuse(), <harvestcraft:soymilkItem>]);
 // -
-recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.reuse()), <harvestcraft:freshmilkItem>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.reuse(), <harvestcraft:freshmilkItem>]);
 // -
 recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:milk_bucket>]);
 // -
