@@ -5,8 +5,6 @@
 // --- Importing Stuff ---
 
 
-import mods.gregtech.Assembler;
-
 
 
 
@@ -37,9 +35,6 @@ recipes.remove(<miscutils:frameStabilizing>);
 
 // --- Arborists Frame
 recipes.remove(<miscutils:frameArborists>);
-
-// --- personal Cloaking Device
-recipes.remove(<miscutils:personalCloakingDevice-0.0>);
 
 // --- UHV Motor
 recipes.remove(<gregtech:gt.metaitem.01:32596>);
@@ -143,13 +138,3 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 
 // --- Useless Frame give Beekeeper coins
 recipes.addShapeless(<dreamcraft:item.CoinBeesI> * 16, [<miscutils:frameUseless>]);
-
-
-
-
-// --- Assembler Recipes ---
-
-
-
-// --- Personla Cloaking Device
-Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium> * 4, <gregtech:gt.metaitem.01:32597>, <liquid:molten.nichrome> * 1440, 2400, 7860);
