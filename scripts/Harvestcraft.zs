@@ -455,13 +455,13 @@ furnace.addRecipe(<harvestcraft:turkeycookedItem>, <harvestcraft:turkeyrawItem>)
 recipes.addShapeless(<harvestcraft:boiledeggItem>, [<harvestcraft:potItem>, <minecraft:egg>]);
 
 // --- Heavy Cream
-recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <harvestcraft:soymilkItem>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.reuse()), <harvestcraft:soymilkItem>]);
 // -
-recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <harvestcraft:freshmilkItem>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.reuse()), <harvestcraft:freshmilkItem>]);
 // -
-recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:milk_bucket>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:milk_bucket>]);
 // -
-recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <IguanaTweaksTConstruct:clayBucketMilk>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <IguanaTweaksTConstruct:clayBucketMilk>]);
 // -
 recipes.addShapeless(<harvestcraft:heavycreamItem>, [<harvestcraft:mixingbowlItem>, <harvestcraft:soymilkItem>]);
 // -
