@@ -1420,52 +1420,66 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 // --- Circuit Tooltips for Tiers ---
 
 
+// --- ULV Tier
+<gregtech:gt.metaitem.01:32700>.addTooltip(format.red("ULV-tier"));
+<gregtech:gt.metaitem.03:32075>.addTooltip(format.gold("ULV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:4>.addTooltip(format.lightPurple("ULV-tier"));
+
 // --- LV Tier
 <IC2:itemPartCircuit>.addTooltip(format.red("LV-tier"));
 <gregtech:gt.metaitem.01:32701>.addTooltip(format.gold("LV-tier"));
 <gregtech:gt.metaitem.03:32078>.addTooltip(format.yellow("LV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:5>.addTooltip(format.lightPurple("LV-tier"));
 
 // --- MV Tier
 <gregtech:gt.metaitem.01:32702>.addTooltip(format.red("MV-tier"));
 <gregtech:gt.metaitem.03:32079>.addTooltip(format.gold("MV-tier"));
 <gregtech:gt.metaitem.03:32080>.addTooltip(format.yellow("MV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:6>.addTooltip(format.lightPurple("MV-tier"));
 
 // --- HV Tier
 <IC2:itemPartCircuitAdv>.addTooltip(format.gold("HV-tier"));
 <gregtech:gt.metaitem.01:32703>.addTooltip(format.yellow("HV-tier"));
 <gregtech:gt.metaitem.03:32082>.addTooltip(format.green("HV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:7>.addTooltip(format.lightPurple("HV-tier"));
 
 // --- EV Tier
 <gregtech:gt.metaitem.01:32704>.addTooltip(format.yellow("EV-tier"));
 <gregtech:gt.metaitem.03:32083>.addTooltip(format.green("EV-tier"));
 <gregtech:gt.metaitem.03:32085>.addTooltip(format.aqua("EV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:8>.addTooltip(format.lightPurple("EV-tier"));
 
 // --- IV Tier
 <gregtech:gt.metaitem.01:32705>.addTooltip(format.yellow("IV-tier"));
 <gregtech:gt.metaitem.03:32084>.addTooltip(format.green("IV-tier"));
 <gregtech:gt.metaitem.03:32086>.addTooltip(format.aqua("IV-tier"));
 <gregtech:gt.metaitem.03:32089>.addTooltip(format.blue("IV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:9>.addTooltip(format.lightPurple("IV-tier"));
 
 // --- LuV Tier
 <gregtech:gt.metaitem.01:32706>.addTooltip(format.green("LuV-tier"));
 <gregtech:gt.metaitem.03:32087>.addTooltip(format.aqua("LuV-tier"));
 <gregtech:gt.metaitem.03:32096>.addTooltip(format.blue("LuV-tier"));
 <gregtech:gt.metaitem.03:32092>.addTooltip(format.darkPurple("LuV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:10>.addTooltip(format.lightPurple("LuV-tier"));
 
 // --- ZPM Tier
 <gregtech:gt.metaitem.03:32088>.addTooltip(format.aqua("ZPM-tier"));
 <gregtech:gt.metaitem.03:32090>.addTooltip(format.blue("ZPM-tier"));
 <gregtech:gt.metaitem.03:32093>.addTooltip(format.darkPurple("ZPM-tier"));
 <gregtech:gt.metaitem.03:32097>.addTooltip(format.green("ZPM-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:11>.addTooltip(format.lightPurple("ZPM-tier"));
 
 // --- UV Tier
 <gregtech:gt.metaitem.03:32091>.addTooltip(format.blue("UV-tier"));
 <gregtech:gt.metaitem.03:32094>.addTooltip(format.darkPurple("UV-tier"));
 <gregtech:gt.metaitem.03:32098>.addTooltip(format.aqua("UV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:12>.addTooltip(format.lightPurple("UV-tier"));
 
 // --- UHV Tier
 <gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV-tier"));
 <gregtech:gt.metaitem.03:32099>.addTooltip(format.green("UHV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:13>.addTooltip(format.lightPurple("UHV-tier"));
 
 // --- UEV Tier
 <gregtech:gt.metaitem.03:32120>.addTooltip(format.green("UEV-tier"));
