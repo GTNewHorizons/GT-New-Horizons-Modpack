@@ -285,6 +285,17 @@ recipes.remove(<extracells:storage.component:17>);
 // --- Gas Storage Housing
 recipes.remove(<extracells:storage.casing:2>);
 
+// --- Crafing Storage 256K
+recipes.remove(<extracells:craftingstorage>);
+
+// --- Crafing Storage 1024K
+recipes.remove(<extracells:craftingstorage:1>);
+
+// --- Crafing Storage 4096K
+recipes.remove(<extracells:craftingstorage:2>);
+
+// --- Crafing Storage 16384K
+recipes.remove(<extracells:craftingstorage:3>);
 
 
 
@@ -617,6 +628,21 @@ Assembler.addRecipe(<extracells:pattern.fluid>, <extracells:storage.casing:1>, <
 
 // --- Wireless Fluid ME Terminal
 Assembler.addRecipe(<extracells:terminal.fluid.wireless>, <appliedenergistics2:item.ToolWirelessTerminal:*>, <extracells:part.base:3>, 600, 120);
+
+// --- Crafing Storage 256K
+Assembler.addRecipe(<extracells:craftingstorage>, <appliedenergistics2:tile.BlockCraftingUnit>, <extracells:storage.component>, 400, 1920);
+
+// --- Crafing Storage 1024K
+Assembler.addRecipe(<extracells:craftingstorage:1>, <appliedenergistics2:tile.BlockCraftingUnit>, <extracells:storage.component:1>, 400, 1920);
+
+// --- Crafing Storage 4096K
+Assembler.addRecipe(<extracells:craftingstorage:2>, <appliedenergistics2:tile.BlockCraftingUnit>, <extracells:storage.component:2>, 400, 1920);
+
+// --- Crafing Storage 16384K
+Assembler.addRecipe(<extracells:craftingstorage:3>, <appliedenergistics2:tile.BlockCraftingUnit>, <extracells:storage.component:3>, 400, 1920);
+
+// --- 64 K Crafting  Storage
+Assembler.addRecipe(<appliedenergistics2:tile.BlockCraftingStorage:3>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:38>, 400, 480);
 
 
 
