@@ -458,6 +458,12 @@ recipes.remove(<minecraft:saddle>);
 // --- Packed Ice
 recipes.removeShaped(<minecraft:packed_ice> * 4);
 
+// --- Lapis Blocks
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2526>);
+
+// --- Emerald Blocks
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2501>);
+
 
 // --- Wool ---
 
