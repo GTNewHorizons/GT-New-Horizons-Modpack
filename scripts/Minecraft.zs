@@ -1320,12 +1320,6 @@ recipes.addShaped(Hopper, [
 [IronPlate, IronGear, IronPlate],
 [HHammer, IronPlate, <ore:craftingToolFile>]]);
 
-// --- Packed Ice
-recipes.addShaped(<minecraft:packed_ice>, [
-[<minecraft:ice>, <minecraft:ice>, null],
-[<minecraft:ice>, <minecraft:ice>, null],
-[null, null, null]]);
-
 
 
 // --- Wool ---
