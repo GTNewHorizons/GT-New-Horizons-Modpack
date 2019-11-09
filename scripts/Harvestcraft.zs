@@ -207,6 +207,9 @@ recipes.remove(<harvestcraft:lemonaideItem>);
 // --- Onion Soup
 recipes.remove(<harvestcraft:onionsoupItem>);
 
+// --- Hearty Breakfast
+recipes.remove(<harvestcraft:heartybreakfastItem>);
+
 
 
 // --- Adding Back Recipes ---
@@ -518,6 +521,17 @@ recipes.addShaped(<harvestcraft:juicerItem>, [
 [SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
 [SSlPlate, <gregtech:gt.metaitem.02:8306>, SSlPlate],
 [SSlBolt, SSlPlate, SSlBolt]]);
+
+// --- Hearty Breakfast
+recipes.addShaped(<harvestcraft:heartybreakfastItem>, [
+[<ore:listAllmeatcooked>, <harvestcraft:friedeggItem>, null],
+[<harvestcraft:toastItem>, <harvestcraft:potatocakesItem>, null],
+[<ore:listAlljuice>, null, null]]);
+// -
+recipes.addShaped(<harvestcraft:heartybreakfastItem>, [
+[<ore:listAllmeatcooked>, <harvestcraft:friedeggItem>, null],
+[<harvestcraft:toastItem>, <harvestcraft:potatocakesItem>, null],
+[<ore:foodChocolatemilk>, null, null]]);
 
 
 
