@@ -218,7 +218,7 @@ Infusion.addRecipe("ROD_tbvoid",<thaumicbases:resource:3>,
 
 // --- Node Manipulator
 Infusion.addRecipe("TB.NodeMan",<Thaumcraft:blockStoneDevice:11>,
-[<dreamcraft:item.ManyullynCrystal>,<gregtech:gt.metaitem.01:32683>,<Thaumcraft:blockStoneDevice:10>,<gregtech:gt.metaitem.01:17362>,<Thaumcraft:ItemResource:10>,<gregtech:gt.metaitem.01:32693>,<Thaumcraft:blockStoneDevice:10>,<Thaumcraft:ItemResource:10>,<gregtech:gt.metaitem.01:32693>,<gregtech:gt.metaitem.01:17362>,<gregtech:gt.metaitem.01:32683>],
+[<thaumicbases:blockSalisMundus>,<gregtech:gt.metaitem.01:32683>,<gregtech:gt.metaitem.01:17362>,<Thaumcraft:blockStoneDevice:10>,<Thaumcraft:ItemResource:10>,<gregtech:gt.metaitem.01:32693>,<Thaumcraft:blockStoneDevice:14>,<gregtech:gt.metaitem.01:32693>,<Thaumcraft:ItemResource:10>,<Thaumcraft:blockStoneDevice:10>,<gregtech:gt.metaitem.01:17362>,<gregtech:gt.metaitem.01:32683>],
 "alienis 64,auram 48,praecantatio 40, potentia 32, vacuos 32, tenebrae 24",<thaumicbases:nodeManipulator>,9);
 
 // --- Node Linking Device
