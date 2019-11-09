@@ -1773,4 +1773,19 @@
         <Loot Identifier="b067ae9d-0786-42ba-b491-f82c424833d3" ItemName="TConstruct:oreBerries" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9c4b849f-28d5-4c3e-b0a4-cda23c15c92e" ItemName="gregtech:gt.blockmetal2:7" Amount="1" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
+	<LootGroup GroupMetaID="52" GroupName="Witchery Novice" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+		<Loot Identifier="cookiedropbecauseempty" ItemName="minecraft:cookie" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+	</LootGroup>
+	<LootGroup GroupMetaID="53" GroupName="Witchery Adept" Rarity="1" MinItems="2" MaxItems="3" CombineTrashGroup="true">
+        <Loot Identifier="cookiedropbecauseempty" ItemName="minecraft:cookie" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+	</LootGroup>
+	<LootGroup GroupMetaID="54" GroupName="Witchery Master" Rarity="2" MinItems="3" MaxItems="4" CombineTrashGroup="true">
+		<Loot Identifier="cookiedropbecauseempty" ItemName="minecraft:cookie" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+	</LootGroup>
+	<LootGroup GroupMetaID="55" GroupName="Witchery Witch" Rarity="3" MinItems="4" MaxItems="5" CombineTrashGroup="true">
+		<Loot Identifier="cookiedropbecauseempty" ItemName="minecraft:cookie" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+	</LootGroup>
+	<LootGroup GroupMetaID="56" GroupName="Witchery Deamon" Rarity="4" MinItems="5" MaxItems="6" CombineTrashGroup="true">
+	    <Loot Identifier="cookiedropbecauseempty" ItemName="minecraft:cookie" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+	</LootGroup>
 </LootGroups>
