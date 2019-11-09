@@ -8,6 +8,7 @@
 //import mods.gregtech.BlastFurnace;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Mixer;
+import mods.gregtech.CuttingSaw;
 
 
 
@@ -69,6 +70,12 @@ recipes.remove(<witchery:spinningwheel>);
 // --- Distillery
 recipes.remove(<witchery:distilleryidle>);
 
+// --- Demonic Contract
+recipes.remove(<witchery:ingredient:140>);
+
+// --- Bone Needle
+recipes.remove(<witchery:ingredient:7>);
+
 
 
 // --- Adding Recipes ---
@@ -92,16 +99,30 @@ recipes.addShapeless(<witchery:ingredient:16>, [<gregtech:gt.metaitem.01:2622>])
 // -
 recipes.addShapeless(<gregtech:gt.metaitem.01:2622>, [<witchery:ingredient:16>]);
 
+// --- Demonic Contract
+recipes.addShaped(<witchery:ingredient:140>, [
+[<ore:platePaper>, <ore:string>, <ore:platePaper>],
+[<ore:string>, <witchery:ingredient:163>, <ore:string>],
+[<ore:platePaper>, <ore:string>, <ore:platePaper>]]);
+
+// --- Bone Needle
+recipes.addShapeless(<witchery:ingredient:7> * 4, [<minecraft:bone>, <ore:craftingToolKnife>]);
 
 
-// --- Blast furnace recipes ---
+// --- Machine Recipes ---
 
 
 
-// --- Clay Jar
-//BlastFurnace.addRecipe([<witchery:ingredient:27>], [<witchery:ingredient:26>], 600, 120, 1000); 
+// --- Cutting Saw
 
 
+
+// --- Bone Needle
+CuttingSaw.addRecipe(<witchery:ingredient:7> * 8, null, <minecraft:bone>,  <liquid:water> * 32, 100, 24);
+// -
+CuttingSaw.addRecipe(<witchery:ingredient:7> * 8, null, <minecraft:bone>,  <liquid:ic2distilledwater> * 16, 100, 24);
+// -
+CuttingSaw.addRecipe(<witchery:ingredient:7> * 8, null, <minecraft:bone>,  <liquid:lubricant> * 8, 50, 24);
 
 
 // --- Forming Press Recipes ---
@@ -252,6 +273,17 @@ mods.thaumcraft.Arcane.addShaped("ARTHANA", <witchery:arthana> , "terra 20, perd
 [<ore:screwThaumium>, <ore:gemEmerald>, <ore:craftingToolHardHammer>],
 [<TConstruct:toolRod:6>, <ore:screwThaumium>, <TConstruct:handGuard:16>]]);
 mods.thaumcraft.Research.addArcanePage("ARTHANA", <witchery:arthana>);
+
+// --- Warm Blood
+mods.thaumcraft.Research.addResearch("WARMBLOOD", "WITCHERY", "fames 15, lucrum 12, aqua 9, exanimis 6", -2, 2, 4, <witchery:ingredient:163>);
+game.setLocalization("tc.research_name.WARMBLOOD", "Warm Blood");
+game.setLocalization("tc.research_text.WARMBLOOD", "[WI] Mhhh warm Blood");
+mods.thaumcraft.Research.addPrereq("WARMBLOOD", "ALTAR", false);
+mods.thaumcraft.Research.setConcealed("WARMBLOOD", true);
+mods.thaumcraft.Research.addPage("WARMBLOOD", "Witchery.research_page.WARMBLOOD");
+game.setLocalization("Witchery.research_page.WARMBLOOD", "The Bottle of Warm Blood is an item that can be drunk by a player. If the player is a vampire, they will restore 2 droplets of blood to the blood pool. If the player is not a vampire they will get a hunger debuff. This item allows a players to quickly get blood, or it can be used as a ingredient for the Demonic Contract.");
+mods.thaumcraft.Crucible.addRecipe("WARMBLOOD", <witchery:ingredient:163>, <TConstruct:jerky:7>, "exanimis 4, fames 4, lucrum 4");
+mods.thaumcraft.Research.addCruciblePage("WARMBLOOD", <witchery:ingredient:163>);
 
 // --- Fume Funnel
 mods.thaumcraft.Research.addResearch("FUMEFUNNEL", "WITCHERY", "metallum 15, ignis 12, lux 9, sensus 6", 0, 2, 4, <witchery:fumefunnel>);
