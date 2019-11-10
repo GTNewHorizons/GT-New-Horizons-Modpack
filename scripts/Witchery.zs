@@ -112,8 +112,11 @@ recipes.remove(<witchery:circletalisman>);
 // --- Earmuffs
 recipes.remove(<witchery:earmuffs>);
 
-// ---Attuned Stone
+// --- Attuned Stone
 recipes.remove(<witchery:ingredient:10>);
+
+// --- Quartz Sphere
+recipes.remove(<witchery:ingredient:92>);
 
 
 
@@ -274,8 +277,9 @@ mods.thaumcraft.Research.addArcanePage("OVEN", <witchery:witchesovenidle>);
 
 // --- Attuned Stone
 mods.thaumcraft.Research.addResearch("ATTUNEDSTONE", "WITCHERY", "instrumentum 15, vitreus 12, ordo 9, praecantatio 6", 2, 0, 4, <witchery:ingredient:10>);
-game.setLocalization("tc.research_name.ATTUNEDSTONE", "Witchery Oven");
+game.setLocalization("tc.research_name.ATTUNEDSTONE", "Attuned Stone");
 game.setLocalization("tc.research_text.ATTUNEDSTONE", "[WI] Stone Tuning");
+mods.thaumcraft.Research.addPrereq("ATTUNEDSTONE", "OVEN", false);
 mods.thaumcraft.Research.addPage("ATTUNEDSTONE", "Witchery.research_page.ATTUNEDSTONE");
 game.setLocalization("Witchery.research_page.ATTUNEDSTONE", "An attuned stone, is a diamond that has been infused with natural magic in a fiery medium. <BR>Attuned stones can be used to link non-magical devices to the magical currents present in the world, and are one of the main ingredients in crafting distilleries, kettles, altar foci and poppet shelves.<BR>The other main use of attuned stones is to act as a portable power source for circle magic rites, when a nearby altar is not available. To act in such a way, the attuned stone must first be charged with a Rite of Charging.");
 mods.thaumcraft.Arcane.addShaped("ATTUNEDSTONE", <witchery:ingredient:10>, "aer 30, ignis 30, terra 30, ordo 30", [
@@ -283,6 +287,19 @@ mods.thaumcraft.Arcane.addShaped("ATTUNEDSTONE", <witchery:ingredient:10>, "aer 
 [null, <minecraft:diamond>, null],
 [null, <minecraft:lava_bucket>, null]]);
 mods.thaumcraft.Research.addArcanePage("ATTUNEDSTONE", <witchery:ingredient:10>);
+
+// --- Quartz Sphere
+mods.thaumcraft.Research.addResearch("QUARTZSPHERE", "WITCHERY", "vitreus 15, instrumentum 12, auram 9, ordo 6, praecantatio 3", 2, -2, 4, <witchery:ingredient:92>);
+game.setLocalization("tc.research_name.QUARTZSPHERE", "Quatz Sphere");
+game.setLocalization("tc.research_text.QUARTZSPHERE", "[WI] Calling The Witches");
+mods.thaumcraft.Research.addPrereq("QUARTZSPHERE", "ATTUNEDSTONE", false);
+mods.thaumcraft.Research.addPage("QUARTZSPHERE", "Witchery.research_page.QUARTZSPHERE");
+game.setLocalization("Witchery.research_page.QUARTZSPHERE", "A Quartz Sphere is a component used in the Ritual production of a Crystal Ball.");
+mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 50, ignis 50, terra 50, ordo 50", [
+[<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>],
+[<ore:plateCertusQuartz>, <ore:gemExquisiteGlass>, <ore:plateCertusQuartz>],
+[<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>]]);
+mods.thaumcraft.Research.addArcanePage("ATTUNEDSTONE", <witchery:ingredient:92>);
 
 // --- Candelabra
 mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", 0, -2, 4, <witchery:ingredient>);
