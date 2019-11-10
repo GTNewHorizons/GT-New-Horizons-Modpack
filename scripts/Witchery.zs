@@ -106,6 +106,9 @@ recipes.addShaped(<witchery:ingredient:49>);
 // --- Ritual Chalk
 recipes.addShaped(<witchery:chalkritual>);
 
+// --- Circle Talisman
+recipes.addShaped(<witchery:circletalisman>);
+
 
 
 
@@ -303,18 +306,37 @@ mods.thaumcraft.Research.addArcanePage("DISTILLERY", <witchery:distilleryidle>);
 
 // --- Ritual Chalk
 recipes.addShaped(<witchery:chalkritual>);
-mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, air 6, praecantatio 3", 6, -2, 4, <witchery:chalkritual>);
+mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, aer 6, praecantatio 3", 6, -2, 4, <witchery:chalkritual>);
 game.setLocalization("tc.research_name.RITUALCHALK", "Ritual Chalk");
 game.setLocalization("tc.research_text.RITUALCHALK", "[WI] Drawing Signs");
 mods.thaumcraft.Research.addPrereq("RITUALCHALK", "DISTILLERY", false);
 mods.thaumcraft.Research.setConcealed("RITUALCHALK", true);
-mods.thaumcraft.Research.addPage("RITUALCHALK", "Witchery.research_page.RITUALCHALK");
-game.setLocalization("Witchery.research_page.RITUALCHALK", "Ritual chalk is used to draw each of the white ritual glyphs that make up a ritual circle. It is also used as an ingredient in crafting the other types of chalk. To draw a ritual glyph, use the chalk on the ground. Ritual glyphs of various types will be drawn, although they all have the same function. If you use the chalk on an existing ritual glyph, a new one will be drawn in its place. Ritual chalk is crafted from Gypsum, Wood Ash and Tear of the Goddess. Ritual glyphs should be arranged in the roughly circular patterns as illustrated in the book Witchcraft: Circle Magic. With a heart glyph drawn with Golden Chalk in the center.");
-mods.thaumcraft.Arcane.addShaped("RITUALCHALK", <witchery:chalkritual> * 2, "sensus 50, motus 50, potentia 25, air 25, praecantatio 15", [
+mods.thaumcraft.Research.addPage("RITUALCHALK", "Witchery.research_page.RITUALCHALK.1");
+game.setLocalization("Witchery.research_page.RITUALCHALK.1", "Ritual chalk is used to draw each of the white ritual glyphs that make up a ritual circle. It is also used as an ingredient in crafting the other types of chalk. To draw a ritual glyph, use the chalk on the ground. Ritual glyphs of various types will be drawn, although they all have the same function. If you use the chalk on an existing ritual glyph, a new one will be drawn in its place. <BR>Ritual chalk is crafted from Gypsum, Wood Ash and Tear of the Goddess.");
+mods.thaumcraft.Research.addPage("RITUALCHALK", "Witchery.research_page.RITUALCHALK.2");
+game.setLocalization("Witchery.research_page.RITUALCHALK.2", "Ritual glyphs should be arranged in the roughly circular patterns as illustrated in the book Witchcraft: Circle Magic. With a heart glyph drawn with Golden Chalk in the center.");
+mods.thaumcraft.Arcane.addShaped("RITUALCHALK", <witchery:chalkritual> * 2, "sensus 50, motus 50, potentia 25, aer 25, praecantatio 15", [
 [<witchery:ingredient:18>, <witchery:ingredient:37>, <witchery:ingredient:18>],
 [<witchery:ingredient:18>, <witchery:ingredient:17>, <witchery:ingredient:18>],
 [<witchery:ingredient:18>, <witchery:ingredient:17>, <witchery:ingredient:18>]]);
 mods.thaumcraft.Research.addArcanePage("RITUALCHALK", <witchery:chalkritual>);
+
+// --- Circle Talisman
+recipes.addShaped(<witchery:chalkritual>);
+mods.thaumcraft.Research.addResearch("CIRCLETALISMAN", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, aer 6, praecantatio 3", 8, -2, 4, <witchery:circletalisman>);
+game.setLocalization("tc.research_name.CIRCLETALISMAN", "Circle Talisman");
+game.setLocalization("tc.research_text.CIRCLETALISMAN", "[WI] Oh Shiny Talisman");
+mods.thaumcraft.Research.addPrereq("CIRCLETALISMAN", "RITUALCHALK", false);
+mods.thaumcraft.Research.setConcealed("CIRCLETALISMAN", true);
+mods.thaumcraft.Research.addPage("CIRCLETALISMAN", "Witchery.research_page.CIRCLETALISMAN.1");
+game.setLocalization("Witchery.research_page.CIRCLETALISMAN.1", "A circle talisman allows a pattern of glyphs drawn onto the ground to be bound instead to the talisman (the glyphs will disappear) and later be redrawn at a new location when then talisman is used. This makes it very easy for the witch or wizard to prepare time consuming circles in advance for rapid deployment later. <BR> To bind a circle talisman perform the Rite of Binding described in Witchcraft: Circle Magic with any pattern of circles.");
+mods.thaumcraft.Research.addPage("CIRCLETALISMAN", "Witchery.research_page.CIRCLETALISMAN.2");
+game.setLocalization("Witchery.research_page.CIRCLETALISMAN.2", "To deploy a bound talisman, right-click on the ground in a place with enough space to contain the pattern. You will hear a fail sound if there are obstructions and the circles cannot be placed.");
+mods.thaumcraft.Arcane.addShaped("CIRCLETALISMAN", <witchery:circletalisman>, "sensus 50, motus 50, potentia 25, aer 25, praecantatio 15", [
+[<ore:screwGold>, <ore:stickGold>, <ore:screwGold>],
+[<ore:stickGold>, <ore:gemExquisiteDiamond>, <ore:stickGold>],
+[<ore:screwGold>, <ore:stickGold>, <ore:screwGold>]]);
+mods.thaumcraft.Research.addArcanePage("CIRCLETALISMAN", <witchery:circletalisman>);
 
 // --- Altar
 mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2, 0, 4, <witchery:altar>);
