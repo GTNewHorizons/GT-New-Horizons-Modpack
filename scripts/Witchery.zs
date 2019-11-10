@@ -109,6 +109,9 @@ recipes.remove(<witchery:chalkritual>);
 // --- Circle Talisman
 recipes.remove(<witchery:circletalisman>);
 
+// --- Earmuffs
+recipes.remove(<witchery:earmuffs>);
+
 
 
 
@@ -196,6 +199,12 @@ recipes.addShaped(<witchery:ingredient:49>, [
 [<witchery:ingredient:34>, <witchery:ingredient:37>, <witchery:ingredient:34>],
 [<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
 [<witchery:ingredient:21>, <minecraft:brewing_stand>, <witchery:ingredient:21>]]);
+
+// --- Earmuffs
+recipes.addShaped(<witchery:earmuffs>, [
+[<ore:srewThaumium>, <ore:springSteel>, <ore:srewThaumium>],
+[<ore:dyeBlack>, <ore:craftingToolWrench>, <ore:craftingFeather>],
+[<ore:ringThaumium>, <ore:craftingScrewdriver>, <ore:ringThaumium>]]);
 
 
 
@@ -305,7 +314,6 @@ mods.thaumcraft.Arcane.addShaped("DISTILLERY", <witchery:distilleryidle>, "aer 8
 mods.thaumcraft.Research.addArcanePage("DISTILLERY", <witchery:distilleryidle>);
 
 // --- Ritual Chalk
-recipes.addShaped(<witchery:chalkritual>);
 mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, aer 6, praecantatio 3", 6, -2, 4, <witchery:chalkritual>);
 game.setLocalization("tc.research_name.RITUALCHALK", "Ritual Chalk");
 game.setLocalization("tc.research_text.RITUALCHALK", "[WI] Drawing Signs");
@@ -322,7 +330,6 @@ mods.thaumcraft.Arcane.addShaped("RITUALCHALK", <witchery:chalkritual> * 2, "sen
 mods.thaumcraft.Research.addArcanePage("RITUALCHALK", <witchery:chalkritual>);
 
 // --- Circle Talisman
-recipes.addShaped(<witchery:chalkritual>);
 mods.thaumcraft.Research.addResearch("CIRCLETALISMAN", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, aer 6, praecantatio 3", 8, -2, 4, <witchery:circletalisman>);
 game.setLocalization("tc.research_name.CIRCLETALISMAN", "Circle Talisman");
 game.setLocalization("tc.research_text.CIRCLETALISMAN", "[WI] Oh Shiny Talisman");

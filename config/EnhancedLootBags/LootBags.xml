@@ -1824,6 +1824,7 @@
         <Loot Identifier="2c2859d2-7c74-48dc-ae18-c7eb05ed0df7" ItemName="witchery:ingredient:158" Amount="2" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f7cf00b4-7a09-4b3f-ae20-2188f4684a21" ItemName="witchery:witchesovenidle" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="dc415227-df26-48eb-987a-1c00c783d7dc" ItemName="witchery:ingredient:53" Amount="1" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="7874df08-4913-478e-b00d-61923a93641c" ItemName="witchery:earmuffs" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="53" GroupName="Witchery Adept" Rarity="1" MinItems="2" MaxItems="3" CombineTrashGroup="false">
         <Loot Identifier="a43c4fb1-5919-4c22-87ec-3e178b42531c" ItemName="witchery:vampirebook" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
