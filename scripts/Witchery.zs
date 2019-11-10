@@ -86,28 +86,28 @@ recipes.remove(<witchery:ingredient:106>);
 recipes.remove(<witchery:ingredient:127>);
 
 // --- Book of Collection Fumes
-recipes.addShaped(<witchery:ingredient:46>);
+recipes.remove(<witchery:ingredient:46>);
 
 // --- Book of Symbology
-recipes.addShaped(<witchery:ingredient:107>);
+recipes.remove(<witchery:ingredient:107>);
 
 // --- Book of Brews
-recipes.addShaped(<witchery:cauldronbook>);
+recipes.remove(<witchery:cauldronbook>);
 
 // --- Book of Distillation
-recipes.addShaped(<witchery:ingredient:47>);
+recipes.remove(<witchery:ingredient:47>);
 
 // --- Book of Circle Magic
-recipes.addShaped(<witchery:ingredient:48>);
+recipes.remove(<witchery:ingredient:48>);
 
 // --- Book of Brews and Infusions
-recipes.addShaped(<witchery:ingredient:49>);
+recipes.remove(<witchery:ingredient:49>);
 
 // --- Ritual Chalk
-recipes.addShaped(<witchery:chalkritual>);
+recipes.remove(<witchery:chalkritual>);
 
 // --- Circle Talisman
-recipes.addShaped(<witchery:circletalisman>);
+recipes.remove(<witchery:circletalisman>);
 
 
 
