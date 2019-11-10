@@ -299,7 +299,7 @@ mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 
 [<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>],
 [<ore:plateCertusQuartz>, <ore:gemExquisiteGlass>, <ore:plateCertusQuartz>],
 [<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>]]);
-mods.thaumcraft.Research.addArcanePage("ATTUNEDSTONE", <witchery:ingredient:92>);
+mods.thaumcraft.Research.addArcanePage("QUARTZSPHERE", <witchery:ingredient:92>);
 
 // --- Candelabra
 mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", 0, -2, 4, <witchery:ingredient>);
