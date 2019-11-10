@@ -76,6 +76,38 @@ recipes.remove(<witchery:ingredient:140>);
 // --- Bone Needle
 recipes.remove(<witchery:ingredient:7>);
 
+// --- Book of Herbology
+recipes.remove(<witchery:ingredient:81>);
+
+// --- Book of Biome
+recipes.remove(<witchery:ingredient:106>);
+
+// --- Book of Conjuration and Fetishes
+recipes.remove(<witchery:ingredient:127>);
+
+// --- Book of Collection Fumes
+recipes.addShaped(<witchery:ingredient:46>);
+
+// --- Book of Symbology
+recipes.addShaped(<witchery:ingredient:107>);
+
+// --- Book of Brews
+recipes.addShaped(<witchery:cauldronbook>);
+
+// --- Book of Distillation
+recipes.addShaped(<witchery:ingredient:47>);
+
+// --- Book of Circle Magic
+recipes.addShaped(<witchery:ingredient:48>);
+
+// --- Book of Brews and Infusions
+recipes.addShaped(<witchery:ingredient:49>);
+
+// --- Ritual Chalk
+recipes.addShaped(<witchery:chalkritual>);
+
+
+
 
 
 // --- Adding Recipes ---
@@ -107,6 +139,63 @@ recipes.addShaped(<witchery:ingredient:140>, [
 
 // --- Bone Needle
 recipes.addShapeless(<witchery:ingredient:7> * 4, [<minecraft:bone>, <ore:craftingToolKnife>]);
+
+// --- Book of Herbology
+recipes.addShaped(<witchery:ingredient:81>, [
+[<witchery:ingredient:22>, <witchery:ingredient:21>, <witchery:garlic>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:69>, <witchery:ingredient:156>, <witchery:ingredient:111>]]);
+
+// --- Book of Biome
+recipes.addShaped(<witchery:ingredient:106>, [
+[<minecraft:stained_hardened_clay>, <BiomesOPlenty:mud:1>, <minecraft:mycelium>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<minecraft:netherrack>, <minecraft:dirt:2>, <TConstruct:CraftedSoil:5>]]);
+
+// --- Book of Conjuration and Fetishes
+recipes.addShaped(<witchery:ingredient:127>, [
+[<witchery:poppet>.withTag({WITCDamage: 0}), <witchery:ingredient:7>, <witchery:ingredient:14>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:74>, <witchery:ingredient:25>, <witchery:ingredient:90>]]);
+
+// --- Book of Collection Fumes
+recipes.addShaped(<witchery:ingredient:46>, [
+[<witchery:ingredient:27>, <witchery:ingredient:27>, <witchery:ingredient:27>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:27>, <witchery:ingredient:27>, <witchery:ingredient:27>]]);
+
+// --- Book of Brews
+recipes.addShaped(<witchery:cauldronbook>, [
+[<witchery:ingredient:31>, <witchery:ingredient:33>, <witchery:ingredient:32>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:34>, <witchery:ingredient:35>, <witchery:ingredient:28>]]);
+
+// --- Book of Symbology
+recipes.addShaped(<witchery:ingredient:107>, [
+[<witchery:chalkritual>, <witchery:circletalisman>, <witchery:chalkritual>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:glintweed>, <witchery:ingredient:78>, <witchery:grassper>]]);
+
+// --- Book of Distillation
+recipes.addShaped(<witchery:ingredient:47>, [
+[<witchery:ingredient:27>, <witchery:ingredient:10>, <witchery:ingredient:27>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:27>, <witchery:cauldron>, <witchery:ingredient:27>]]);
+
+// --- Book of Circle Magic
+recipes.addShaped(<witchery:ingredient:48>, [
+[<witchery:ingredient:17>, <witchery:ingredient:37>, <witchery:ingredient:17>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:17>, <witchery:ingredient:37>, <witchery:ingredient:17>]]);
+
+// --- Book of Brews and Infusions
+recipes.addShaped(<witchery:ingredient:49>, [
+[<witchery:ingredient:34>, <witchery:ingredient:37>, <witchery:ingredient:34>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:21>, <minecraft:brewing_stand>, <witchery:ingredient:21>]]);
+
+
+
 
 
 // --- Machine Recipes ---
@@ -211,6 +300,21 @@ mods.thaumcraft.Arcane.addShaped("DISTILLERY", <witchery:distilleryidle>, "aer 8
 [<ore:pipeSmallStainlessSteel>, <witchery:cauldron>, <ore:pipeSmallStainlessSteel>],
 [<ore:plateDenseThaumium>, <ore:craftingIronFurnace>, <ore:plateDenseThaumium>]]);
 mods.thaumcraft.Research.addArcanePage("DISTILLERY", <witchery:distilleryidle>);
+
+// --- Ritual Chalk
+recipes.addShaped(<witchery:chalkritual>);
+mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, air 6, praecantatio 3", 6, -2, 4, <witchery:chalkritual>);
+game.setLocalization("tc.research_name.RITUALCHALK", "Ritual Chalk");
+game.setLocalization("tc.research_text.RITUALCHALK", "[WI] Drawing Signs");
+mods.thaumcraft.Research.addPrereq("RITUALCHALK", "DISTILLERY", false);
+mods.thaumcraft.Research.setConcealed("RITUALCHALK", true);
+mods.thaumcraft.Research.addPage("RITUALCHALK", "Witchery.research_page.RITUALCHALK");
+game.setLocalization("Witchery.research_page.RITUALCHALK", "Ritual chalk is used to draw each of the white ritual glyphs that make up a ritual circle. It is also used as an ingredient in crafting the other types of chalk. To draw a ritual glyph, use the chalk on the ground. Ritual glyphs of various types will be drawn, although they all have the same function. If you use the chalk on an existing ritual glyph, a new one will be drawn in its place. Ritual chalk is crafted from Gypsum, Wood Ash and Tear of the Goddess. Ritual glyphs should be arranged in the roughly circular patterns as illustrated in the book Witchcraft: Circle Magic. With a heart glyph drawn with Golden Chalk in the center.");
+mods.thaumcraft.Arcane.addShaped("RITUALCHALK", <witchery:chalkritual> * 2, "sensus 50, motus 50, potentia 25, air 25, praecantatio 15", [
+[<witchery:ingredient:18>, <witchery:ingredient:37>, <witchery:ingredient:18>],
+[<witchery:ingredient:18>, <witchery:ingredient:17>, <witchery:ingredient:18>],
+[<witchery:ingredient:18>, <witchery:ingredient:17>, <witchery:ingredient:18>]]);
+mods.thaumcraft.Research.addArcanePage("RITUALCHALK", <witchery:chalkritual>);
 
 // --- Altar
 mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2, 0, 4, <witchery:altar>);
