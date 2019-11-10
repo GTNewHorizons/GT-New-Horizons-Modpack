@@ -1825,6 +1825,10 @@
         <Loot Identifier="f7cf00b4-7a09-4b3f-ae20-2188f4684a21" ItemName="witchery:witchesovenidle" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="dc415227-df26-48eb-987a-1c00c783d7dc" ItemName="witchery:ingredient:53" Amount="1" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="7874df08-4913-478e-b00d-61923a93641c" ItemName="witchery:earmuffs" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="e9b95533-0a06-4e67-ad4f-bafbfb1086da" ItemName="minecraft:egg" Amount="8" NBTTag="" Chance="95" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2e178775-02a2-45dc-b302-379b2a6afcd1" ItemName="witchery:witchhand" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="2051decc-f283-455a-877c-291970417f4b" ItemName="witchery:ingredient:78" Amount="4" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="8667db74-e58c-4d7c-a161-569a94b5d538" ItemName="witchery:ingredient:69" Amount="8" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="53" GroupName="Witchery Adept" Rarity="1" MinItems="2" MaxItems="3" CombineTrashGroup="false">
         <Loot Identifier="a43c4fb1-5919-4c22-87ec-3e178b42531c" ItemName="witchery:vampirebook" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1865,16 +1869,17 @@
         <Loot Identifier="0d14a907-bc14-4993-87ce-2d9a7e353b19" ItemName="witchery:vampirebook:9" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="487c365b-a386-4683-a5e9-0975c0313844" ItemName="witchery:stairswoodrowan" Amount="8" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="edfe6cbc-4b81-485e-98ff-1308ac99f45b" ItemName="witchery:ingredient:31" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="ef7a85e6-c23b-4e7f-b5b5-6f0747cad13b" ItemName="witchery:ingredient:12" Amount="4" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="aece778e-b160-401f-a953-418201637c99" ItemName="witchery:ingredient:15" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="bb8f62df-9e95-4ad5-829f-c07126b46b9e" ItemName="witchery:arthana" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="54" GroupName="Witchery Master" Rarity="2" MinItems="3" MaxItems="4" CombineTrashGroup="false">
-        <Loot Identifier="2a862fd9-3f25-4297-a633-f60f33da3f1e" ItemName="witchery:ingredient:69" Amount="16" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="ee6a3072-471c-4905-b1c9-27bc2866115a" ItemName="witchery:ingredient:78" Amount="4" NBTTag="" Chance="65" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="3af83aed-fb1d-49b5-afd9-ab5d0b2f72e7" ItemName="witchery:distilleryidle" Amount="1" NBTTag="" Chance="10" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="49887f23-01d4-42b1-87ed-c93146e0969a" ItemName="witchery:ingredient:27" Amount="64" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="8b5aadeb-ff6b-4706-9601-dcd6e88cc17a" ItemName="witchery:kettle" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="9cc611be-e974-4a7c-909a-9a4b3048273a" ItemName="witchery:altar" Amount="4" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="2f1af3e4-a4a7-429e-a9d4-6ba2a79b350c" ItemName="witchery:ingredient:62" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="94698d95-1776-4de1-ad2d-0cc2fbfa2b06" ItemName="witchery:ingredient:23" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="94698d95-1776-4de1-ad2d-0cc2fbfa2b06" ItemName="witchery:ingredient:23" Amount="1" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="e71fba43-667f-4a51-9056-6c43ee41799e" ItemName="witchery:ingredient:130" Amount="2" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="6dab5766-8ee1-40a4-93a4-760d8f679556" ItemName="witchery:ingredient:37" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="7de18721-cc02-4a39-9cc1-a9424f8bb29d" ItemName="witchery:ingredient:30" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
@@ -1890,10 +1895,17 @@
         <Loot Identifier="ef94faf0-46cb-4b64-b2d4-4a6061515470" ItemName="witchery:ingredient:29" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5952f254-1a62-4632-bbdb-922e7686d663" ItemName="witchery:witchesovenidle" Amount="1" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="ebf3a3fb-9464-48b5-a10f-2254fea44ee0" ItemName="witchery:ingredient:61" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="29c99157-4b91-46a1-bb0b-f9ac5bcce34e" ItemName="witchery:ingredient:90" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="fecd7003-b842-48d0-a47b-edf56dd0f0cf" ItemName="witchery:ingredient:89" Amount="1" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="5dbb4859-92d7-4d7d-9552-e5b5842ad035" ItemName="witchery:polynesiacharm" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="39712fe7-ce4e-4501-8742-34dca25b1140" ItemName="witchery:chalkritual" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="178bceb0-001c-457f-a82d-1cf30630bc36" ItemName="witchery:chalkotherwhere" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="d77ab29a-bcaa-4cda-bce8-7c7426f2c65a" ItemName="witchery:chalkinfernal" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="47f31735-6963-413a-8aaf-266f102e035e" ItemName="witchery:chalkheart" Amount="2" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
     <LootGroup GroupMetaID="55" GroupName="Witchery Witch" Rarity="3" MinItems="4" MaxItems="5" CombineTrashGroup="false">
         <Loot Identifier="0e517470-cad6-4e8a-a95b-8a2ba797ceeb" ItemName="witchery:spinningwheel" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
-        <Loot Identifier="af104008-3c9a-46eb-ab82-78a331d57a9d" ItemName="witchery:chalkritual" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
+        <Loot Identifier="af104008-3c9a-46eb-ab82-78a331d57a9d" ItemName="witchery:chalkritual" Amount="2" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="bc2171c4-fb12-4086-958f-f9abd0e50687" ItemName="witchery:circletalisman" Amount="1" NBTTag="" Chance="35" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f09323b5-b81a-4472-af03-72acad499184" ItemName="witchery:ingredient:96" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="2a722f83-c9c0-480b-9d6d-858fd65d08d4" ItemName="witchery:ingredient:99" Amount="8" NBTTag="" Chance="85" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
