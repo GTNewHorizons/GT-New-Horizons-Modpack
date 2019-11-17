@@ -152,3 +152,9 @@ recipes.addShapeless(<enhancedlootbags:lootbag:55>.withTag({ench: [{lvl: 3 as sh
 
 // --- Loot Bag (Witchery Deamon)
 recipes.addShapeless(<enhancedlootbags:lootbag:56>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:56>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <witchery:leonardsurn:3>]);
+
+// --- Loot Bag (HEE-Basic)
+recipes.addShapeless(<enhancedlootbags:lootbag:57>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:57>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <HardcoreEnderExpansion:enderman_head>]);
+
+// --- Loot Bag (HEE-Advanced)
+recipes.addShapeless(<enhancedlootbags:lootbag:58>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:58>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <HardcoreEnderExpansion:rune:5>]);
