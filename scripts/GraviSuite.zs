@@ -53,13 +53,13 @@ recipes.remove(<GraviSuite:epicLappack:*>);
 // --- Super Conductor Cover
 recipes.addShaped(<GraviSuite:itemSimpleItem>, [
 [<IC2:itemPartAlloy>, <IC2:itemPartIridium>, <IC2:itemPartAlloy>],
-[<gregtech:gt.blockmachines:2420>, <gregtech:gt.blockmachines:2420>, <gregtech:gt.blockmachines:2420>],
+[<gregtech:gt.blockmachines:2380>, <gregtech:gt.blockmachines:2380>, <gregtech:gt.blockmachines:2380>],
 [<IC2:itemPartAlloy>, <IC2:itemPartIridium>, <IC2:itemPartAlloy>]]);
 
 // --- Super Conductor
 recipes.addShaped(<GraviSuite:itemSimpleItem:1>, [
 [<GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>],
-[<gregtech:gt.blockmachines:2024>, <ore:plateNeutronium>, <gregtech:gt.blockmachines:2024>],
+[<gregtech:gt.blockmachines:2404>, <ore:plateRhodium-PlatedPalladium>, <gregtech:gt.blockmachines:2404>],
 [<GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>, <GraviSuite:itemSimpleItem>]]);
 
 // --- Cooling Core
