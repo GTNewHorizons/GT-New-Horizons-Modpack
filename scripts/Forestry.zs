@@ -153,6 +153,15 @@ recipes.remove(<Forestry:stamps:2>);
 recipes.remove(<Forestry:stamps:3>);
 
 // --- Stamp 20n
+recipes.remove(<Forestry:stamps:4>);
+
+// --- Stamp 50n
+recipes.remove(<Forestry:stamps:5>);
+
+// --- Stamp 100n
+recipes.remove(<Forestry:stamps:6>);
+
+// --- Stamp 20n
 mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:4>);
 
 // --- Stamp 50n
