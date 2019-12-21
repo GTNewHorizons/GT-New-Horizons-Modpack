@@ -144,10 +144,8 @@ Wabulabudaba GTNH Server Russia
 94.23.17.222:25565
 
 
-## Australian Server:<BR>
-
-Australian GTNH Server
-kyledot.net
+Hitechmine.ru  GTNG Server Russia
+hitechmine.ru:25565
 
 
 ## Official Links
