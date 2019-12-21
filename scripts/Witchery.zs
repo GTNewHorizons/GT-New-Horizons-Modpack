@@ -118,6 +118,9 @@ recipes.remove(<witchery:ingredient:10>);
 // --- Quartz Sphere
 recipes.remove(<witchery:ingredient:92>);
 
+// --- Waystone
+recipes.remove(<witchery:ingredient:12>);
+
 
 
 
@@ -274,6 +277,7 @@ mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 20, ig
 [<dreamcraft:item.SteelBars>, <Thaumcraft:blockMetalDevice>, <dreamcraft:item.SteelBars>],
 [<IC2:blockFenceIron>, <IC2:blockMachine:1>, <IC2:blockFenceIron>]]);
 mods.thaumcraft.Research.addArcanePage("OVEN", <witchery:witchesovenidle>);
+mods.thaumcraft.Warp.addToResearch("OVEN", 1);
 
 // --- Attuned Stone
 mods.thaumcraft.Research.addResearch("ATTUNEDSTONE", "WITCHERY", "instrumentum 15, vitreus 12, ordo 9, praecantatio 6", 2, 0, 4, <witchery:ingredient:10>);
@@ -334,6 +338,7 @@ mods.thaumcraft.Arcane.addShaped("KETTLE", <witchery:kettle>, "aer 40, ignis 40,
 [<ore:plateSteel>, <witchery:ingredient:10>, <ore:plateSteel>],
 [<ore:screwThaumium>, <minecraft:cauldron>, <ore:screwThaumium>]]);
 mods.thaumcraft.Research.addArcanePage("KETTLE", <witchery:kettle>);
+mods.thaumcraft.Warp.addToResearch("KETTLE", 2);
 
 // --- Spinning Wheel
 mods.thaumcraft.Research.addResearch("SPINNINGWHEELW", "WITCHERY", "arbor 18, motus 15, fabrico 12, instrumentum 9, aer 6, praecantatio 3", 6, 0, 4, <witchery:spinningwheel>);
@@ -362,6 +367,7 @@ mods.thaumcraft.Arcane.addShaped("DISTILLERY", <witchery:distilleryidle>, "aer 8
 [<ore:pipeSmallStainlessSteel>, <witchery:cauldron>, <ore:pipeSmallStainlessSteel>],
 [<ore:plateDenseThaumium>, <ore:craftingIronFurnace>, <ore:plateDenseThaumium>]]);
 mods.thaumcraft.Research.addArcanePage("DISTILLERY", <witchery:distilleryidle>);
+mods.thaumcraft.Warp.addToResearch("DISTILLERY", 3);
 
 // --- Ritual Chalk
 mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, iter 6, praecantatio 3", 8, -2, 4, <witchery:chalkritual>);
@@ -394,6 +400,7 @@ mods.thaumcraft.Arcane.addShaped("CIRCLETALISMAN", <witchery:circletalisman>, "o
 [<ore:stickGold>, <ore:gemExquisiteDiamond>, <ore:stickGold>],
 [<ore:screwGold>, <ore:stickGold>, <ore:screwGold>]]);
 mods.thaumcraft.Research.addArcanePage("CIRCLETALISMAN", <witchery:circletalisman>);
+mods.thaumcraft.Warp.addToResearch("CIRCLETALISMAN", 1);
 
 // --- Altar
 mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2, 0, 4, <witchery:altar>);
@@ -411,6 +418,7 @@ mods.thaumcraft.Arcane.addShaped("ALTAR", <witchery:altar> * 2, "terra 20, ignis
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>],
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>]]);
 mods.thaumcraft.Research.addArcanePage("ALTAR", <witchery:altar>);
+mods.thaumcraft.Warp.addToResearch("ALTAR", 2);
 
 // --- Chalice
 mods.thaumcraft.Research.addResearch("CHALICE", "WITCHERY", "praecantatio 15, lucrum 12, metallum 9, terra 6", 0, 0, 4, <witchery:ingredient:1>);
@@ -442,6 +450,7 @@ mods.thaumcraft.Arcane.addShaped("ARTHANA", <witchery:arthana> , "terra 20, perd
 [<ore:screwThaumium>, <ore:gemEmerald>, <ore:craftingToolHardHammer>],
 [<TConstruct:toolRod:6>, <ore:screwThaumium>, <TConstruct:handGuard:16>]]);
 mods.thaumcraft.Research.addArcanePage("ARTHANA", <witchery:arthana>);
+mods.thaumcraft.Warp.addToResearch("ARTHANA", 2);
 
 // --- Warm Blood
 mods.thaumcraft.Research.addResearch("WARMBLOOD", "WITCHERY", "fames 15, lucrum 12, aqua 9, exanimis 6", -2, -2, 4, <witchery:ingredient:163>);
@@ -453,6 +462,7 @@ mods.thaumcraft.Research.addPage("WARMBLOOD", "Witchery.research_page.WARMBLOOD"
 game.setLocalization("Witchery.research_page.WARMBLOOD", "The Bottle of Warm Blood is an item that can be drunk by a player. If the player is a vampire, they will restore 2 droplets of blood to the blood pool. If the player is not a vampire they will get a hunger debuff. This item allows a players to quickly get blood, or it can be used as a ingredient for the Demonic Contract.");
 mods.thaumcraft.Crucible.addRecipe("WARMBLOOD", <witchery:ingredient:163>, <TConstruct:jerky:7>, "exanimis 4, fames 4, lucrum 4");
 mods.thaumcraft.Research.addCruciblePage("WARMBLOOD", <witchery:ingredient:163>);
+mods.thaumcraft.Warp.addToResearch("WARMBLOOD", 3);
 
 // --- Fume Funnel
 mods.thaumcraft.Research.addResearch("FUMEFUNNEL", "WITCHERY", "metallum 15, ignis 12, lux 9, sensus 6", 0, 2, 4, <witchery:fumefunnel>);
@@ -498,3 +508,17 @@ mods.thaumcraft.Infusion.addRecipe("FILTEREDFUMEFUNNEL", <witchery:fumefunnel>,
 "metallum 32, vitreus 8, praecantatio 24, lux 16", <witchery:filteredfumefunnel>, 3);
 mods.thaumcraft.Research.addInfusionPage("FILTEREDFUMEFUNNEL", <witchery:filteredfumefunnel>);
 mods.thaumcraft.Warp.addToResearch("FILTEREDFUMEFUNNEL", 2);
+
+// --- Waystone
+mods.thaumcraft.Research.addResearch("WAYSTONE", "WITCHERY", "motus 15, iter 12, tenebrae 9, praecantatio 6", 8, -4, 4, <witchery:ingredient:12>);
+game.setLocalization("tc.research_name.WAYSTONE", "Waystone");
+game.setLocalization("tc.research_text.WAYSTONE", "[WI] Teleport");
+mods.thaumcraft.Research.addPrereq("WAYSTONE", "RITUALCHALK", false);
+mods.thaumcraft.Research.setConcealed("WAYSTONE", true);
+mods.thaumcraft.Research.addPage("WAYSTONE", "Witchery.research_page.WAYSTONE");
+game.setLocalization("Witchery.research_page.WAYSTONE", "A waystone is an etched piece of flint that is an important foci for circle magic involving transposition. A waystone can be bound to a specific location using the Rite of Binding described in the book, Witchcraft: Circle Magic.<BR>A bound waystone can also be made by dropping up to eight into a hollow 3x3 circle of Otherwhere runes and waiting.");
+mods.thaumcraft.Infusion.addRecipe("WAYSTONE", <minecraft:flint>, 
+[<witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>], 
+"motus 32, iter 16, praecantatio 24, tenebrae 16", <witchery:ingredient:12>, 5);
+mods.thaumcraft.Research.addInfusionPage("WAYSTONE", <witchery:ingredient:12>);
+mods.thaumcraft.Warp.addToResearch("WAYSTONE", 5);
