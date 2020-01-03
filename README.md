@@ -130,6 +130,9 @@ Fully Toasted GTNH Server CA(whitelist)
 https://fullytoasted.world/
 gtnh.toastedpack.world
 
+Modded Minecraft Club Montreal CA (open) 
+https://www.moddedminecraft.club/
+gtnh.moddedminecraft.club
 
 ## German Server:<BR>
 
