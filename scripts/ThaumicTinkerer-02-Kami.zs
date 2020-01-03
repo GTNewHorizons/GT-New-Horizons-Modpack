@@ -29,7 +29,7 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:kamiResource>);
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:kamiResource:1>);
 
 // --- Ichorium
-mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:kamiResource:2>);
+mods.thaumcraft.Arcane.removeRecipe(<gregtech:gt.metaitem.01:11978>);
 
 // --- Inchorium Nuggets
 recipes.remove(<ThaumicTinkerer:kamiResource:3>);
