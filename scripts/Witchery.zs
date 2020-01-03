@@ -142,9 +142,15 @@ recipes.addShaped(<witchery:seedswormwood>, [
 recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>]);
 
 // --- Quicklime 
-recipes.addShapeless(<witchery:ingredient:16>, [<gregtech:gt.metaitem.01:2622>]);
+recipes.addShaped(<witchery:ingredient:16>, [
+[null, null, <gregtech:gt.metaitem.01:2622>],
+[null, null, null],
+[null, null, null]]);
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:2622>, [<witchery:ingredient:16>]);
+recipes.addShaped(<gregtech:gt.metaitem.01:2622>, [
+[null, null, <witchery:ingredient:16>],
+[null, null, null],
+[null, null, null]]);
 
 // --- Demonic Contract
 recipes.addShaped(<witchery:ingredient:140>, [
