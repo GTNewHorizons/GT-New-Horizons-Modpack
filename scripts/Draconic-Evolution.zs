@@ -278,13 +278,13 @@ mods.avaritia.ExtremeCrafting.addShaped(DCham, [
 // --- Enhanced Charm of Disloctotion
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:teleporterMKII>, [
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null],
-[null, null, <ore:plateDraconium>, sgLargeCapacitor, null, sgLargeCapacitor, <ore:plateDraconium>, null, null],
-[null, <ore:plateDraconium>, sgLargeCapacitor, DCham, WyvernCore, DCham, sgLargeCapacitor, <ore:plateDraconium>, null],
-[null, <ore:plateDraconium>, null, WyvernCore,sgCoreCrystal , WyvernCore, null, <ore:plateDraconium>, null],
-[null, <ore:plateDraconium>, sgLargeCapacitor, DCham, WyvernCore, DCham, sgLargeCapacitor, <ore:plateDraconium>, null],
-[null, null, <ore:plateDraconium>, sgLargeCapacitor, null, sgLargeCapacitor, <ore:plateDraconium>, null, null],
-[null, null, null, <ore:plateDraconium>, <ore:plateDraconium>, <ore:plateDraconium>, null, null, null],
+[null, null, WyvernCore, <gregtech:gt.metaitem.01:32697>, null, <gregtech:gt.metaitem.01:32697>, WyvernCore, null, null],
+[null, WyvernCore, <ore:blockDraconium>, <ore:blockDraconium>, <gregtech:gt.metaitem.01:32676>, <ore:blockDraconium>, <ore:blockDraconium>, WyvernCore, null],
+[null, <gregtech:gt.metaitem.01:32697>, <ore:blockDraconium>, DCham, <gregtech:gt.metaitem.01:32687>, DCham, <ore:blockDraconium>, <gregtech:gt.metaitem.01:32697>, null],
+[null, null, <gregtech:gt.metaitem.01:32676>, <gregtech:gt.metaitem.01:32687>, <IC2:blockMachine2>, <gregtech:gt.metaitem.01:32687>, <gregtech:gt.metaitem.01:32676>, null, null],
+[null, <gregtech:gt.metaitem.01:32697>, <ore:blockDraconium>, DCham, <gregtech:gt.metaitem.01:32687>, DCham, <ore:blockDraconium>, <gregtech:gt.metaitem.01:32697>, null],
+[null, WyvernCore, <ore:blockDraconium>, <ore:blockDraconium>, <gregtech:gt.metaitem.01:32676>, <ore:blockDraconium>, <ore:blockDraconium>, WyvernCore, null],
+[null, null, WyvernCore, <gregtech:gt.metaitem.01:32697>, null, <gregtech:gt.metaitem.01:32697>, WyvernCore, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Wyvern Core
