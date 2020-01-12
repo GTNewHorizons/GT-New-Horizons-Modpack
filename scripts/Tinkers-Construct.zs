@@ -2319,9 +2319,15 @@ recipes.addShaped(<TConstruct:Redstone.Landmine:3>, [
 [<minecraft:stone>, <Railcraft:detector:4>, <minecraft:stone>]]);
 
 // --- Aluminum Aluminium Exchange
-recipes.addShapeless(<TConstruct:materials:40>, [<gregtech:gt.metaitem.01:2019>]);
+recipes.addShaped(<TConstruct:materials:40>, [
+[null, null, <gregtech:gt.metaitem.01:2019>],
+[null, null, null],
+[null, null, null]]);
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:2019>, [<TConstruct:materials:40>]);
+recipes.addShaped(<gregtech:gt.metaitem.01:2019>, [ 
+[null, null, <TConstruct:materials:40>],
+[null, null, null],
+[null, null, null]]);
 
 // --- Obsidian Sticks
 recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);

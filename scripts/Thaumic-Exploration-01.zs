@@ -480,7 +480,7 @@ game.setLocalization("tc.research_text.SoulbraizerGTNH", "Warp is bad mmkay?");
 mods.thaumcraft.Research.addPage("SoulbraizerGTNH", "tc.research_page.SoulbraizerGTNH");
 game.setLocalization("tc.research_page.SoulbraizerGTNH", "Warp is a dangerous, malicious force. While in a mind, it is bad enough, released onto the world it is worse, this is why we have made a way to hold this warp safeish. It needs both vis from a node, and Mortus essentia, but it can hold the warp the player has, without too much damage to the enviroment");
 mods.thaumcraft.Infusion.addRecipe("SoulbraizerGTNH", <minecraft:nether_star>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemSanitySoap>], 
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemSanitySoap>], 
 "auram 64, mortuus 48, tenebrae 48, alienis 32, praecantatio 16", <ThaumicExploration:soulBrazier>, 16);
 mods.thaumcraft.Research.addInfusionPage("SoulbraizerGTNH", <ThaumicExploration:soulBrazier>);
 
