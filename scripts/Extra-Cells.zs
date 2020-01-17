@@ -551,6 +551,8 @@ recipes.addShaped(<extracells:ecbaseblock>, [
 [<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>],
 [<extracells:storage.component:4>, <appliedenergistics2:tile.BlockInterface>, <extracells:storage.component:4>],
 [<ore:plateLapis>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateLapis>]]);
+// -
+recipes.addShapeless(<extracells:ecbaseblock>, [<extracells:part.base:9>]);
 
 // --- ME Fluid Auto Filler
 recipes.addShaped(<extracells:ecbaseblock:1>, [
