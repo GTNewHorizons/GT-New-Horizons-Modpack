@@ -3,7 +3,7 @@
 
 # GT New Horizons Mod Pack
 
-Version 2.0.8.2 is out 15.01.2020
+Version 2.0.8.3 is out 17.01.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -182,7 +182,7 @@ you find it in your resource folder<BR>
 * Avaritia 1.16-custom<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.7<BR>
+* Bartworks 0.5.8<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -238,8 +238,8 @@ you find it in your resource folder<BR>
 * Gregtech 5.09.33.30<BR>
 * GT Scanner Mod 1.5.6a<BR>
 * GT Ore Nei Plugin 1.0.7<BR>
-* GT New Horizons Core Mod 1.6.27<BR>
-* GT++ 1.7.04.468<BR>
+* GT New Horizons Core Mod 1.6.28<BR>
+* GT++ 1.7.04.471<BR>
 * GTNH TC Wands 1.0.4<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
