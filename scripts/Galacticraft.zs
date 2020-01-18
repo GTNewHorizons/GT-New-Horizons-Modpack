@@ -1708,7 +1708,8 @@ Canner.addRecipe(<GalacticraftCore:item.basicItem:18>, <minecraft:potato> * 16, 
 // --- Solid Meteoric Iron
 Compressor.addRecipe(<GalacticraftCore:tile.gcBlockCore:12>, <gregtech:gt.metaitem.01:11340> * 9);
 
-
+// --- Cheese Ore ---
+Compressor.addRecipe(<GalacticraftCore:tile.moonBlock:2>,<GalacticraftCore:item.cheeseCurd> * 9);
 
 
 
