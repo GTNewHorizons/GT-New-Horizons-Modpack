@@ -1,4 +1,4 @@
-﻿#################################Quests#################################
+#################################Quests#################################
 
 # Quest.0 - §d§3§2§1§lYour first night
 gtnh.quest0.name=§d§3§2§1§lYour first night
@@ -22,7 +22,7 @@ gtnh.quest4.desc=Now that you have made it this far notice the two new quests. S
 
 # Quest.5 - §1§lTools
 gtnh.quest5.name=§1§lTools
-gtnh.quest5.desc=Now that you've got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)%n%nNOTE: Make sure to
+gtnh.quest5.desc=Now that you've got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)%n%nNOTE: Make sure to use vanilla sticks, not Natura sticks.
 
 # Quest.6 - §1§lYou reap...
 gtnh.quest6.name=§1§lYou reap...
@@ -186,7 +186,7 @@ gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the c
 
 # Quest.46 - §3§lMore advanced alloys
 gtnh.quest46.name=§3§lMore advanced alloys
-gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? %n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output sideby whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.
+gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.%n%nIf you try enabling item output, you'll see it comes out the same side as the steam outlet. How unfortunate! However you can still empty the machine by putting a hopper beneath it. %n%nWARNING: The Alloy Smelter recipes take a *lot* of steam. Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor mans" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.
 
 # Quest.47 - §3§lUpgrade: High speed alloys
 gtnh.quest47.name=§3§lUpgrade: High speed alloys
@@ -2550,7 +2550,7 @@ gtnh.quest636.desc=Baking your dough in a Furnace makes some tasty bread.%nYour 
 
 # Quest.637 - Do'h!
 gtnh.quest637.name=Do'h!
-gtnh.quest637.desc=Water and flour makes a dough or two...%nDough can be used in many different food recipes from pam's harvestcraft.
+gtnh.quest637.desc=Water and flour makes a dough or two...%nDough can be used in many different food recipes from pam's harvestcraft.%n%nDon't use the terrible NEI recipe, instead drop a stack of flour into a cauldron full of water. Celiacs beware!
 
 # Quest.638 - Tasty toast
 gtnh.quest638.name=Tasty toast
@@ -3794,7 +3794,7 @@ gtnh.quest947.desc=A early game protection moat can be made out of punji sticks.
 
 # Quest.948 - §3§lBetter than iron
 gtnh.quest948.name=§3§lBetter than iron
-gtnh.quest948.desc=Wrought Iron will become more important very soon when you have a bit of steel and are able to build high pressure steam machines. The material is much harder than iron, and you can make better tools with it too.%nTo make wrought iron, you need a tinkers smelter to melt some iron ingots down and cast nuggets; put these in a furnace to get wrought iron nuggets. With the compressor, you can compress the nuggets into ingots.%n%n§§§4§4§9§4Hint:%nCrushed or purified iron ore (not an impure version, look for Chalcopyrite veins) can be smelted to iron nuggets directly. Or you can use an alloy smelter to turn iron ingots into nuggets faster than a smeltery.%n%nLater on, you can use an arc furnace to make wrought iron ingots directly.
+gtnh.quest948.desc=Wrought Iron will become more important very soon when you have a bit of steel and are able to build high pressure steam machines. The material is much harder than iron, and you can make better tools with it too.%nTo make wrought iron, you need a tinkers smelter to melt some iron ingots down and cast nuggets; put these in a furnace to get wrought iron nuggets. With the compressor, you can compress the nuggets into ingots.%n%n§§§4§4§9§4Hint:%nCrushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. Or you can use an alloy smelter to turn iron ingots into nuggets faster than a smeltery. You can also use a saw to cut up iron ingots into nuggets.%n%nLater on, you can use an arc furnace to make wrought iron ingots directly.
 
 # Quest.949 - Garden Bags
 gtnh.quest949.name=Garden Bags
@@ -4506,7 +4506,7 @@ gtnh.quest1125.desc=Are your upgraded cobblestone or dirt barrels full again? %n
 
 # Quest.1126 - §3§lAlumite
 gtnh.quest1126.name=§3§lAlumite
-gtnh.quest1126.desc=It's upgrade time again. You can make alumite like modpack Moron by mixing obsidian, steel and alumin(i)um in the smeltery, or you can be a GregTech hero and search NEI for an alternate recipe using dusts. Alumite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Ardite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
+gtnh.quest1126.desc=It's upgrade time again. You can make alumite like modpack Moron by mixing obsidian, steel and alumin(i)um in the smeltery, or you can be a GregTech hero and search NEI for an alternate recipe using dusts. Alumite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Alumite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
 
 # Quest.1127 - §3§lReinforced X? Unbreakable
 gtnh.quest1127.name=§3§lReinforced X? Unbreakable
@@ -8498,11 +8498,11 @@ gtnh.quest2123.desc=No Description
 
 # Quest.2124 - Silver Lime
 gtnh.quest2124.name=Silver Lime
-gtnh.quest2124.desc=Silver Lime, a basic tree breed. Breed it by mating Silver Birch with Apple Oak.
+gtnh.quest2124.desc=Silver Lime, a basic tree breed. Breed it by mating Silver Birch with Apple Oak.%n%nNote: For all tree breeding quests, the required tree must be a pure species, not a hybrid, and must be scanned.
 
 # Quest.2125 - Teak
 gtnh.quest2125.name=Teak
-gtnh.quest2125.desc=Teak is the first step to Cocobolo, a true giant. Breed it by mating Jungle and Dark Oak.
+gtnh.quest2125.desc=Teak is the first step to Cocobolo, a true giant. Breed it by mating Jungle and Dark Oak.%n%nNote: For all tree breeding quests, the required tree must be a pure species, not a hybrid, and must be scanned.
 
 # Quest.2126 - Balsa
 gtnh.quest2126.name=Balsa
@@ -8510,7 +8510,7 @@ gtnh.quest2126.desc=Balsa has some pretty wood. Breed it by mating Teak and Acac
 
 # Quest.2127 - Common Beech
 gtnh.quest2127.name=Common Beech
-gtnh.quest2127.desc=Common Beech gives you access to the Faster maturity attribute. Breed them from Silver Birch and Apple Oak.
+gtnh.quest2127.desc=Common Beech gives you access to the Faster maturity attribute. Breed them from Silver Birch and Apple Oak.%n%nNote: For all tree breeding quests, the required tree must be a pure species, not a hybrid, and must be scanned.
 
 # Quest.2128 - Hill Cherry
 gtnh.quest2128.name=Hill Cherry
@@ -9590,7 +9590,7 @@ gtnh.quest2396.desc=Hydrogen Peroxide is made in a GT++ Chemical Plant.%n%nGood 
 
 # Quest.2397 - Playing with the Big Boys, chemically
 gtnh.quest2397.name=Playing with the Big Boys, chemically
-gtnh.quest2397.desc=Once you have a full LV setup along with an EBF, you can start thinking about making a Chemical Plant. This facility will process certain chemical recipes you'll need later on.%n%nIt will need a mine cart load of reources, so start mining!%n%nUnder Construction.
+gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on.%n%nIt will need a mine cart load of reources, so start mining!%n%nValid solid steel casings:%nSolid steel casings%nClean Stainless Steel Casing%nStable Titanium Casing%nRobust Tungsten Steel Casing%n%nValid pipe casings:%nBronze%nSteel%nTitanium%nTungsten
 
 # Quest.2398 - §3§lHidden drawers
 gtnh.quest2398.name=§3§lHidden drawers
@@ -9599,6 +9599,18 @@ gtnh.quest2398.desc=You might notice once you get a wall of drawers that looking
 # Quest.2399 - I know his name!
 gtnh.quest2399.name=I know his name!
 gtnh.quest2399.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. %n%nGregtech "remembers" how you made items, in case you want to disassemble them later. This means that items made slightly differently can't stack.  This machine will remove that disassembly NBT data so all those items will now stack together. %n%nObviously, this means you can't disassemble the item you put through this machine. 
+
+# Quest.2400 - Steadfast Bees
+gtnh.quest2400.name=Steadfast Bees
+gtnh.quest2400.desc=Normally you find Steadfast drones in dungeon loot chests. If you haven't been lucky yet, or if your server owners are cruel and disable dungeons, you can buy some here.
+
+# Quest.2401 - Monastic Bees
+gtnh.quest2401.name=Monastic Bees
+gtnh.quest2401.desc=Normally you find Monastic drones by trading Beekeeper villagers. If you haven't been lucky yet, villages are all dead, or if your server owners are cruel and disable villages, you can buy some here.%n%nExpensive to encourage you to try looking really hard, and to try and heal zombie villagers.  Good luck!
+
+# Quest.2402 - §2§lGot a flat tire?
+gtnh.quest2402.name=§2§lGot a flat tire?
+gtnh.quest2402.desc=The crowbar is the GT tool used to remove a cover off of a machine, pipe, or wire. Covers can be decorative, functional like pumps and conveyors, or safety, like putting a wooden plank over your steam pipes so they don't burn you.%n%nSorry, it only comes in blue!
 
 ##################################Line##################################
 
