@@ -202,6 +202,47 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:2>);
 // --- Seared Stone
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:4>);
 
+// --- Seared Paver
+recipes.remove(<TConstruct:Smeltery:6>);
+recipes.remove(<TConstruct:SmelteryNether:6>);
+
+// --- Chiseled Seared Bricks
+recipes.remove(<TConstruct:Smeltery:8>);
+recipes.remove(<TConstruct:SmelteryNether:8>);
+recipes.remove(<TConstruct:Smeltery:9>);
+recipes.remove(<TConstruct:SmelteryNether:9>);
+recipes.remove(<TConstruct:Smeltery:11>);
+recipes.remove(<TConstruct:SmelteryNether:11>);
+
+// --- Chiseled SpeedBlock
+recipes.remove(<TConstruct:SpeedBlock:1>);
+
+// --- Chiseled Brown Stone
+recipes.remove(<TConstruct:SpeedBlock:3>);
+recipes.remove(<TConstruct:SpeedBlock:4>);
+recipes.remove(<TConstruct:SpeedBlock:5>);
+recipes.remove(<TConstruct:SpeedBlock:6>);
+
+// --- Chiseled Bricks Fancy
+
+recipes.remove(<TConstruct:decoration.multibrickfancy:4>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:5>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:6>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:7>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:8>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:9>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:10>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:11>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:12>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:13>);
+
+// --- Chiseled Metal Fancy
+
+recipes.remove(<TConstruct:decoration.multibrickmetal:4>);
+recipes.remove(<TConstruct:decoration.multibrickmetal:5>);
+recipes.remove(<TConstruct:decoration.multibrickmetal:6>);
+recipes.remove(<TConstruct:decoration.multibrickmetal:7>);
+
 // --- Seared Cobblestone
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
 
