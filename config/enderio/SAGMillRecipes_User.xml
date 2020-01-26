@@ -1773,6 +1773,15 @@
       <itemStack oreDictionary="dustImpureZinc" number="1" />
     </output>
   </recipe>
+  <recipe name="NickelOre" energyCost="3600" >
+    <input>
+      <itemStack oreDictionary="oreNickel" />
+    </input>
+    <output>
+      <itemStack oreDictionary="dustNickel" number="2" />
+      <itemStack oreDictionary="dustPlatinumMetallicPowder" chance="0.1" />
+    </output>
+  </recipe>
 </recipeGroup>
 
 
