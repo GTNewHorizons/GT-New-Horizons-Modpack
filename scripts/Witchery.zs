@@ -219,7 +219,7 @@ recipes.addShaped(<witchery:ingredient:49>, [
 recipes.addShaped(<witchery:earmuffs>, [
 [<ore:srewThaumium>, <ore:springSteel>, <ore:srewThaumium>],
 [<ore:dyeBlack>, <ore:craftingToolWrench>, <ore:craftingFeather>],
-[<ore:ringThaumium>, <ore:craftingScrewdriver>, <ore:ringThaumium>]]);
+[<ore:ringThaumium>, <ore:craftingToolScrewdriver>, <ore:ringThaumium>]]);
 
 
 
