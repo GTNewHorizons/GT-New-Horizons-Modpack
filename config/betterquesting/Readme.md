@@ -24,7 +24,7 @@ https://confluence.atlassian.com/get-started-with-sourcetree
 - Merge - This has to be done when two people are editing the same file. Don't ever do this, it's an advanced topic, and really hard to do with quest files.
 - Pull Request - Once you have completed your changes, push your branch to your forked repo. On github, you can goto your forked repo page and do a Pull Request to send the branch to the source repo owners and ask permission for them to add it to their repo.
  
-= Doing quests for GTNH =
+# Doing quests for GTNH #
 1. Fork the NewHorizons repo to your github account, if Dream has not added you as a developer.
 2. Add the repo to your SourceTree. Click the + icon on the top set of tabs. Select Clone and paste in what you get from Github when you do the green Clone or Download button. Double click the repo to open it in a tab.
 3. Start GTNH and let it begin loading.
@@ -37,7 +37,7 @@ https://confluence.atlassian.com/get-started-with-sourcetree
 10. MAKE SURE YOU ARE USING THE LATEST CHANGES!
 11. Use `bq_admin edit` to unlock edit mode
 
-New Quests
+# New Quests #
 101. Open the quest book and click Edit at the bottom.
 102. Click the tab you want to put the quest, then click Designer.
 103. Click New Quest, and place it in the quest graph.
@@ -55,7 +55,7 @@ New Quests
 115. If the quest is an important one, goto Advanced, Properties, Betterquesting, and set isMain to 1.
 116. Repeat times, and how requirements are treated (OR, AND, etc) can be set here in the Advanced Properties window.
 
-Moving Old Quests
+# Moving Old Quests #
 201. If you need to move a quest to a new tab, get the quest ID.
 202. Click the destination tab, and select the Add/Remove quests button.
 203. Search for the quest id on the right side, click + to add it to the quests for that tab.
@@ -63,18 +63,18 @@ Moving Old Quests
 205. Find the quest in the left side, and hit the - to remove it.
 206. Quests can be in more than one tab. Information quests should get added to the Tips and Tricks tab. Just dont remove it from the original location.
 
-Deleting/hiding quests 
+# Deleting/hiding quests # 
 301. DO NOT DELETE QUESTS FROM A RELEASED QUEST DATABASE. This will cause problems with quest numbering, screwing up localization.
 302. Instead, unlink a quest from all prereqs, and make sure nothing requires it. Check for off-tab requirements too (need more info here)
 303. In the Edit Quest window, click Show until it changes to HIDDEN
 304. Use `bq_admin edit` to leave edit mode and confirm the quest is no longer visible.
 
-Testing quests
+# Testing quests #
 401. You can use Detect/Submit to see if the quest will properly detect items. Make sure to make fresh GT items from at least 1 step before so that you confirm the ignoreNBT is working properly. GT items cheated in have no NBT data, so you want to make sure that players who have to craft their items can get them to match.
 402. Some quests you might have to complete their prerequisites to unlock and test. To complete a quest do `/bq_admin complete <quest_id>`. Once the prereqs are unlocked you can use `/bq_admin edit` to leave editing mode.
 403. Do a `bq_admin reset all` to reset your quests back.
 
-Completing
+# Completing #
 501. Preferably, do 1 issue per commit. This prevents a corruption from destroying a lot of work.
 502. Once you have completed your changes, do `bq_admin edit` to disable edit mode.
 503. `/bq_ admin default save` will move your changes from the save game back to the config directory. LOOK REALLY CLOSELY AT THE COMMAND AND MAKE SURE IT SAYS *SAVE*. LIKE SERIOUSLY STARE AT IT.
@@ -84,7 +84,7 @@ Completing
 507. In the commit message, put `#<issue number> <description>`. Check other commits for examples.
 508. Return to your game, do `/bq_admin edit` and continue editing.
 
-Pushing back to the repo
+# Pushing back to the repo #
 601. In SourceTree you can just select the "Push changes immediately.." option when doing your commit, at least until you get more experience. 
 602. Make sure your commits are on your branch with `git status` and `git reflog`. In SourceTree you should see your new commits at the top, with the flair showing your branch.
 603. Send your changes back to github with `git push`. In SourceTree press the Push button.  Make sure your Local branch is selected.
