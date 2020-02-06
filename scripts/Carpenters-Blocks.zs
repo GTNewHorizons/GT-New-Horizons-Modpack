@@ -197,7 +197,7 @@ recipes.addShaped(<CarpentersBlocks:blockCarpentersLadder>, [
 
 // --- Carpenters Barrier
 recipes.addShaped(<CarpentersBlocks:blockCarpentersBarrier>, [
-[CarpentersBlock, <minecraft:fence>, CarpentersBlock],
+[CarpentersBlock, <ore:fenceWood>, CarpentersBlock],
 [WoodScrew, Screwdriver, WoodScrew]]);
 
 // --- Carpenters Pressure Plate
