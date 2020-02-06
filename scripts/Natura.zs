@@ -250,9 +250,6 @@ furnace.remove(<minecraft:coal:1>, <*>);
 <ore:listAllfruit>.add(<Natura:saguaro.fruit>);
 <ore:cropCactusfruit>.add(<Natura:saguaro.fruit>);
 
-// --- Adding Natura Fences to oredict
-
-<ore:fenceWood>.add(<Natura:Natura.fence:*>);
 
 // --- Adding Recipes ---
 

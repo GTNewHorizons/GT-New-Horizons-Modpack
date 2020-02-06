@@ -267,7 +267,3 @@ recipes.addShaped(<ExtraTrees:fence:5>.withTag({meta: 5}) * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>],
 [<ore:stickWood>, <minecraft:planks:5>, <ore:stickWood>]]);
-
-// --- Adding Extra-Trees Fences to oredict
-
-<ore:fenceWood>.add(<ExtraTrees:fence:*>);

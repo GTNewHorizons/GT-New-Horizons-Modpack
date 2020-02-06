@@ -1029,8 +1029,6 @@ furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 // --- Iron Nuggets
 recipes.remove(<ore:nuggetIron>);
 
-// --- Adding Fence to oredict
-<ore:fenceWood>.add(Fence);
 
 // --- Adding Back Recipes ---
 
