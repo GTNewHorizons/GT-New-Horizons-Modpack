@@ -1728,7 +1728,7 @@ recipes.addShapeless(<TConstruct:CraftingSlab:4>, [<ore:craftingToolSaw>, <TCons
 // --- Stencil Table Oak
 recipes.addShaped(<TConstruct:ToolStationBlock:10>, [
 [<ore:stickWood>, <TConstruct:blankPattern>, <ore:stickWood>],
-[<minecraft:fence>, <ore:stickWood>, <minecraft:fence>],
+[<ore:fenceWood>, <ore:stickWood>, <ore:fenceWood>],
 [null, <ore:craftingToolSoftHammer>, null]]);
 // -
 recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:11>]);
