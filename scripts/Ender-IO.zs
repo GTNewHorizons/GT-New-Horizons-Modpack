@@ -498,6 +498,9 @@ recipes.removeShaped(<minecraft:ender_pearl>, [
 [<EnderZoo:enderFragment>, <EnderZoo:enderFragment>, <EnderZoo:enderFragment>],
 [null, <EnderZoo:enderFragment>, null]]);
 
+// --- Dark Steel Rood
+recipes.remove(<EnderIO:itemMaterial:12>);
+
 
 
 
@@ -938,6 +941,11 @@ recipes.addShaped(<EnderIO:item.endSteel_sword>, [
 [File, ESPlate, Hammer],
 [null, darkSteelRod, null]]);
 
+// --- Dark Steel Rood
+recipes.addShaped(<EnderIO:itemMaterial:12>, [
+[<ore:craftingToolScrewdriver>, <ore:screwEndSteel>, <ore:stickDarkSteel>],
+[<ore:screwEndSteel>, <ore:stickDarkSteel>, <ore:screwEndSteel>],
+[<ore:stickDarkSteel>, <ore:screwEndSteel>, <ore:craftingToolHardHammer>]]);
 
 
 
