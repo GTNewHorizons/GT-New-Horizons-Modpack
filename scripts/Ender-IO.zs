@@ -17,23 +17,54 @@ import mods.gregtech.Pulverizer;
 
 // --- Variables ---
 
-
-
+// GT Parts
 val LvMotor = <gregtech:gt.metaitem.01:32600>;
 val MvMotor = <gregtech:gt.metaitem.01:32601>;
 val HvMotor = <gregtech:gt.metaitem.01:32602>;
-val RobotArmHV = <gregtech:gt.metaitem.01:32652>;
+val EvMotor = <gregtech:gt.metaitem.01:32603>;
+val LuVMotor = <gregtech:gt.metaitem.01:32606>;
+
 val LvPump = <gregtech:gt.metaitem.01:32610>;
 val MvPump = <gregtech:gt.metaitem.01:32611>;
 val HvPump = <gregtech:gt.metaitem.01:32612>;
+
+
+val RobotArmHV = <gregtech:gt.metaitem.01:32652>;
+
 val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
-val LuVMotor = <gregtech:gt.metaitem.01:32606>;
-val IronFurnace = <ore:craftingIronFurnace>;
-val MCasing = <EnderIO:itemMachinePart>;
+
 val Circuit = <ore:circuitBasic>;
 val GCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
+val DataCircuit = <ore:circuitData>;
 val EnergyFlowCircuit = <ore:circuitMaster>;
+
+//Plates
+val VAPlate = <gregtech:gt.metaitem.01:17367>;
+val PIPlate = <gregtech:gt.metaitem.01:17378>;
+val EAPlate = <gregtech:gt.metaitem.01:17366>;
+val RedstonePlate = <ore:plateRedstone>;
+val ESteelPlate = <ore:plateElectricalSteel>;
+val ESPlate = <ore:plateEndSteel>;
+
+// Ingots
+val ESIngot = <ore:ingotEndSteel>;
+
+//Capacitors
+val Capacitor = <EnderIO:itemBasicCapacitor>;
+val Capacitor2 = <EnderIO:itemBasicCapacitor:1>;
+val Capacitor3 = <EnderIO:itemBasicCapacitor:2>;
+val Capacitor4 = <EnderIO:itemBasicCapacitor:3>;
+
+val DSteelCasing = <ore:itemCasingDarkSteel>;
+val ESteelCasing = <ore:itemCasingEndSteel>;
+
+val IronFurnace = <ore:craftingIronFurnace>;
+
+val MCasing = <EnderIO:itemMachinePart>;
+val SCasing = <EnderIO:itemMachinePart:2>;
+val ECasing = <EnderIO:itemMachinePart:3>;
+
 val IronCasing = <ore:itemCasingAnyIron>;
 val SteelCasing = <ore:itemCasingSteel>;
 val AluCasing = <ore:itemCasingAluminium>;
@@ -41,20 +72,16 @@ val IronRotor = <ore:rotorIron>;
 val SteelRotor = <ore:rotorSteel>;
 val Tank = <EnderIO:blockTank>;
 val FQuartz = <EnderIO:blockFusedQuartz>;
+val EFQuartz = <EnderIO:blockFusedQuartz:2>;
 val LvPiston = <gregtech:gt.metaitem.01:32640>;
-val Capacitor = <EnderIO:itemBasicCapacitor>;
-val Capacitor2 = <EnderIO:itemBasicCapacitor:1>;
-val Capacitor3 = <EnderIO:itemBasicCapacitor:2>;
-val VAPlate = <gregtech:gt.metaitem.01:17367>;
-val PIPlate = <gregtech:gt.metaitem.01:17378>;
-val EAPlate = <gregtech:gt.metaitem.01:17366>;
+
+
 val DensePulsatingIronPlate = <ore:plateDensePulsatingIron>;
 val DiamondGear = <ore:gearDiamond>;
 val GearElectricSteel = <ore:gearElectricalSteel>;
 val Cauldron = <minecraft:cauldron>;
 val VCrystal = <EnderIO:itemMaterial:6>;
-val RedstonePlate = <ore:plateRedstone>;
-val ESteelPlate = <ore:plateElectricalSteel>;
+
 val Display = <dreamcraft:item.Display>;
 val ConduitProbe = <EnderIO:itemConduitProbe>;
 val EConduit = <EnderIO:itemPowerConduit>;
@@ -69,6 +96,7 @@ val IronTank = <irontank:ironTank>;
 val DarkSteelBars = <EnderIO:blockDarkIronBars>;
 val DarkSteelPlate = <ore:plateDarkSteel>;
 val SEnder = <EnderIO:itemFrankenSkull:4>;
+val GDiode = <EnderIO:itemFrankenSkull:6>;
 val ECrystal = <EnderIO:itemMaterial:8>;
 val Chest = <ore:chestWood>;
 val LvConveyor =  <gregtech:gt.metaitem.01:32630>;
@@ -92,6 +120,7 @@ val ETable = <minecraft:enchanting_table>;
 val Book = <ore:crafting Book>;
 val DarkIronBars = <EnderIO:blockDarkIronBars>;
 val Hammer = <ore:craftingToolHardHammer>;
+val File = <ore:craftingToolFile>;
 val Wrench = <ore:craftingToolWrench>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val SteelScrew = <ore:screwSteel>;
@@ -118,7 +147,7 @@ val Leather = <ore:itemLeather>;
 val TLeather = <Backpack:tannedLeather>;
 val MSScrew = <ore:screwSteelMagnetic>;
 val sgLargeCapacitor = <SGCraft:ic2Capacitor>;
-
+val darkSteelRod = <EnderIO:itemMaterial:12>;
 
 
 
@@ -135,11 +164,20 @@ recipes.remove(<EnderIO:blockCombustionGenerator>);
 // --- Zombi Generator
 recipes.remove(<EnderIO:blockZombieGenerator>);
 
+// --- Frankenzombie Generator
+recipes.remove(<EnderIO:blockFrankenzombieGenerator>);
+
+// --- Ender Generator
+recipes.remove(<EnderIO:blockEnderGenerator>);
+
 // --- Photovoltaic Cell
 recipes.remove(<EnderIO:blockSolarPanel>);
 
 // --- Advanced Photovoltaic Cell
 recipes.remove(<EnderIO:blockSolarPanel:1>);
+
+// --- Vibrant Photovoltaic Cell
+recipes.remove(<EnderIO:blockSolarPanel:2>);
 
 // --- SAG Mill
 recipes.remove(<EnderIO:blockSagMill>);
@@ -164,6 +202,9 @@ recipes.remove(Capacitor2);
 
 // --- Octadic Capacitor
 recipes.remove(Capacitor3);
+
+// --- Melodic Capacitor
+recipes.remove(Capacitor4);
 
 // --- Machine Casing
 recipes.remove(MCasing);
@@ -222,8 +263,30 @@ recipes.remove(PCrystal);
 // --- Vibrant Crystal
 recipes.remove(VCrystal);
 
-// --- Dark Steel Ball
-recipes.remove(<EnderIO:itemMaterial:7>);
+// --- Vibrant Crystal
+recipes.remove(VCrystal);
+
+// --- Grinding Balls
+recipes.remove(<EnderIO:itemGrindingBall:0>);
+recipes.remove(<EnderIO:itemGrindingBall:1>);
+recipes.remove(<EnderIO:itemGrindingBall:2>);
+recipes.remove(<EnderIO:itemGrindingBall:3>);
+recipes.remove(<EnderIO:itemGrindingBall:4>);
+recipes.remove(<EnderIO:itemGrindingBall:5>);
+recipes.remove(<EnderIO:itemGrindingBall:6>);
+recipes.remove(<EnderIO:itemGrindingBall:7>);
+recipes.remove(<EnderIO:itemGrindingBall:8>);
+
+// --- End Steel Armor
+recipes.remove(<EnderIO:item.endSteel_helmet>);
+recipes.remove(<EnderIO:item.endSteel_chestplate>);
+recipes.remove(<EnderIO:item.endSteel_leggings>);
+recipes.remove(<EnderIO:item.endSteel_boots>);
+
+// --- End Steel Tools
+recipes.remove(<EnderIO:item.endSteel_pickaxe>);
+recipes.remove(<EnderIO:item.endSteel_axe>);
+recipes.remove(<EnderIO:item.endSteel_sword>);
 
 // --- Weather Crystal
 recipes.remove(WCrystal);
@@ -275,6 +338,12 @@ recipes.remove(<EnderIO:blockDarkSteelAnvil>);
 
 // --- Dark Iron Bars
 recipes.remove(<EnderIO:blockDarkIronBars>);
+
+// --- Soularium Bars
+recipes.remove(<EnderIO:blockSoulariumBars>);
+
+// --- End Steel Bars
+recipes.remove(<EnderIO:blockEndSteelBars>);
 
 // --- Dark Steel Ladder
 recipes.remove(<EnderIO:blockDarkSteelLadder>);
@@ -399,11 +468,23 @@ recipes.remove(<EnderIO:itemMagnet:*>);
 // --- Network Conduit
 recipes.remove(<EnderIO:itemOCConduit>);
 
+// --- Soul Chassis
+recipes.remove(<EnderIO:itemMachinePart:2>);
+
+// --- End Steel Chassis
+recipes.remove(<EnderIO:itemMachinePart:3>);
+
 // --- Dark Steel Ingot
 recipes.removeShaped(<EnderIO:itemAlloy:6>, [
 [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
 [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
 [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>]]);
+
+// --- End Steel Ingot
+recipes.removeShaped(<EnderIO:itemAlloy:8>, [
+[<EnderIO:itemMaterial:11>, <EnderIO:itemMaterial:11>, <EnderIO:itemMaterial:11>],
+[<EnderIO:itemMaterial:11>, <EnderIO:itemMaterial:11>, <EnderIO:itemMaterial:11>],
+[<EnderIO:itemMaterial:11>, <EnderIO:itemMaterial:11>, <EnderIO:itemMaterial:11>]]);
 
 // --- Ender Pearl
 recipes.removeShaped(<minecraft:ender_pearl>, [
@@ -437,11 +518,23 @@ recipes.addShaped(<EnderIO:blockCombustionGenerator>, [
 [SteelRotor, MCasing, SteelRotor],
 [MvMotor, Tank, MvMotor]]);
 
-// --- Zombi Generator
+// --- Zombie Generator
 recipes.addShaped(<EnderIO:blockZombieGenerator>, [
 [SteelCasing, GCircuit, SteelCasing],
 [FQuartz, MCasing, FQuartz],
 [MvMotor, ZElectrode, MvMotor]]);
+
+// --- Frankenzombie Generator
+recipes.addShaped(<EnderIO:blockFrankenzombieGenerator>, [
+[DSteelCasing, AdvCircuit, DSteelCasing],
+[FQuartz, SCasing, FQuartz],
+[HvMotor, ZLogic, HvMotor]]);
+
+// --- Ender Generator
+recipes.addShaped(<EnderIO:blockEnderGenerator>, [
+[ESteelCasing, DataCircuit, ESteelCasing],
+[FQuartz, ECasing, FQuartz],
+[EvMotor, EResonator, EvMotor]]);
 
 // --- Photovoltaic Cell
 recipes.addShaped(<EnderIO:blockSolarPanel>, [
@@ -454,6 +547,12 @@ recipes.addShaped(<EnderIO:blockSolarPanel:1>, [
 [PIPlate, FQuartz, PIPlate],
 [VAPlate, <EnderIO:blockSolarPanel>, VAPlate],
 [Capacitor2, FQuartz, Capacitor2]]);
+
+// --- Vibrant Photovoltaic Cell
+recipes.addShaped(<EnderIO:blockSolarPanel:2>, [
+[ESPlate, EFQuartz, ESPlate],
+[VAPlate, <EnderIO:blockSolarPanel:1>, VAPlate],
+[Capacitor3, EFQuartz, Capacitor3]]);
 
 // --- SAG Mill
 recipes.addShaped(<EnderIO:blockSagMill>, [
@@ -502,11 +601,23 @@ recipes.addShaped(<EnderIO:blockCrafter>, [
 [Circuit, MCasing, Circuit],
 [SteelCasing, <EnderIO:itemFrankenSkull:1>, SteelCasing]]);
 
-// --- Machinen Casing
+// --- Machine Casing
 recipes.addShaped(MCasing, [
 [SteelCasing, ESteelPlate, SteelCasing],
 [ESteelPlate, Capacitor, ESteelPlate],
 [SteelCasing, ESteelPlate, SteelCasing]]);
+
+// --- Soul Machine Casing
+recipes.addShaped(<EnderIO:itemMachinePart:2>, [
+[<ore:itemCasingSoularium>, <ore:plateSoularium>, <ore:itemCasingSoularium>],
+[<ore:plateSoularium>, Capacitor2, <ore:plateSoularium>],
+[<ore:itemCasingSoularium>, <ore:plateSoularium>, <ore:itemCasingSoularium>]]);
+
+// --- End Machine Casing
+recipes.addShaped(<EnderIO:itemMachinePart:3>, [
+[<ore:itemCasingEndSteel>, <ore:plateEndSteel>, <ore:itemCasingEndSteel>],
+[<ore:plateEndSteel>, Capacitor3, <ore:plateEndSteel>],
+[<ore:itemCasingEndSteel>, <ore:plateEndSteel>, <ore:itemCasingEndSteel>]]);
 
 // --- The Vat
 recipes.addShaped(<EnderIO:blockVat>, [
@@ -572,11 +683,51 @@ recipes.addShaped(<EnderIO:blockInventoryPanel>, [
 [PCrystal, Display, PCrystal],
 [DarkSteelPlate, ZLogic, DarkSteelPlate]]);
 
-// --- Dark Steel Ball
-recipes.addShaped(<EnderIO:itemMaterial:7> * 4, [
+// --- Grinding Balls
+recipes.addShaped(<EnderIO:itemGrindingBall:0> * 4, [
+[<ore:screwElectricalSteel>, <ore:plateElectricalSteel>, <ore:screwElectricalSteel>],
+[<ore:plateElectricalSteel>, <ore:ringElectricalSteel>, <ore:plateElectricalSteel>],
+[<ore:screwElectricalSteel>, <ore:plateElectricalSteel>, <ore:screwElectricalSteel>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBall:1> * 4, [
+[<ore:screwEnergeticAlloy>, <ore:plateEnergeticAlloy>, <ore:screwEnergeticAlloy>],
+[<ore:plateEnergeticAlloy>, <ore:ringEnergeticAlloy>, <ore:plateEnergeticAlloy>],
+[<ore:screwEnergeticAlloy>, <ore:plateEnergeticAlloy>, <ore:screwEnergeticAlloy>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBall:2> * 4, [
+[<ore:screwVibrantAlloy>, <ore:plateVibrantAlloy>, <ore:screwVibrantAlloy>],
+[<ore:plateVibrantAlloy>, <ore:ringVibrantAlloy>, <ore:plateVibrantAlloy>],
+[<ore:screwVibrantAlloy>, <ore:plateVibrantAlloy>, <ore:screwVibrantAlloy>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBall:3> * 4, [
+[<ore:screwRedstoneAlloy>, <ore:plateRedstoneAlloy>, <ore:screwRedstoneAlloy>],
+[<ore:plateRedstoneAlloy>, <ore:ringRedstoneAlloy>, <ore:plateRedstoneAlloy>],
+[<ore:screwRedstoneAlloy>, <ore:plateRedstoneAlloy>, <ore:screwRedstoneAlloy>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBall:4> * 4, [
+[<ore:screwConductiveIron>, <ore:plateConductiveIron>, <ore:screwConductiveIron>],
+[<ore:plateConductiveIron>, <ore:ringConductiveIron>, <ore:plateConductiveIron>],
+[<ore:screwConductiveIron>, <ore:plateConductiveIron>, <ore:screwConductiveIron>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBall:5> * 4, [
+[<ore:screwPulsatingIron>, <ore:platePulsatingIron>, <ore:screwPulsatingIron>],
+[<ore:platePulsatingIron>, <ore:ringPulsatingIron>, <ore:platePulsatingIron>],
+[<ore:screwPulsatingIron>, <ore:platePulsatingIron>, <ore:screwPulsatingIron>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBall:6> * 4, [
 [DarkSteelScrew, DarkSteelPlate, DarkSteelScrew],
 [DarkSteelPlate, DarkSteelRing, DarkSteelPlate],
 [DarkSteelScrew, DarkSteelPlate, DarkSteelScrew]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBall:7> * 4, [
+[<ore:screwSoularium>, <ore:plateSoularium>, <ore:screwSoularium>],
+[<ore:plateSoularium>, <ore:ringSoularium>, <ore:plateSoularium>],
+[<ore:screwSoularium>, <ore:plateSoularium>, <ore:screwSoularium>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBall:8> * 4, [
+[<ore:screwEndSteel>, <ore:plateEndSteel>, <ore:screwEndSteel>],
+[<ore:plateEndSteel>, <ore:ringEndSteel>, <ore:plateEndSteel>],
+[<ore:screwEndSteel>, <ore:plateEndSteel>, <ore:screwEndSteel>]]);
 
 // --- Ender IO
 recipes.addShaped(<EnderIO:blockEnderIo>, [
@@ -655,6 +806,18 @@ recipes.addShaped(<EnderIO:blockDarkIronBars> * 3, [
 [null, Hammer, null],
 [<gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>],
 [<gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>]]);
+
+// --- Soularium Bars
+recipes.addShaped(<EnderIO:blockSoulariumBars> * 3, [
+[null, Hammer, null],
+[<gregtech:gt.metaitem.01:23379>, <gregtech:gt.metaitem.01:23379>, <gregtech:gt.metaitem.01:23379>],
+[<gregtech:gt.metaitem.01:23379>, <gregtech:gt.metaitem.01:23379>, <gregtech:gt.metaitem.01:23379>]]);
+
+// --- End Steel Bars
+recipes.addShaped(<EnderIO:blockEndSteelBars> * 3, [
+[null, Hammer, null],
+[<gregtech:gt.metaitem.01:23401>, <gregtech:gt.metaitem.01:23401>, <gregtech:gt.metaitem.01:23401>],
+[<gregtech:gt.metaitem.01:23401>, <gregtech:gt.metaitem.01:23401>, <gregtech:gt.metaitem.01:23401>]]);
 
 // --- Dark Steel Ladder
 recipes.addShaped(<EnderIO:blockDarkSteelLadder>, [
@@ -737,6 +900,43 @@ recipes.addShaped(<EnderIO:itemMagnet:16>, [
 [Wrench, MSScrew, VCrystal],
 [ESteelPlate, CIPlate, CIPlate]]);
 
+// --- End Steel Armor
+recipes.addShaped(<EnderIO:item.endSteel_helmet>, [
+[ESPlate, ESPlate, ESPlate],
+[ESPlate, Hammer, ESPlate],
+[null, null, null]]);
+
+recipes.addShaped(<EnderIO:item.endSteel_chestplate>, [
+[ESPlate, Hammer, ESPlate],
+[ESPlate, ESPlate, ESPlate],
+[ESPlate, ESPlate, ESPlate]]);
+
+recipes.addShaped(<EnderIO:item.endSteel_leggings>, [
+[ESPlate, ESPlate, ESPlate],
+[ESPlate, Hammer, ESPlate],
+[ESPlate, null, ESPlate]]);
+
+recipes.addShaped(<EnderIO:item.endSteel_boots>, [
+[ESPlate, null, ESPlate],
+[ESPlate, Hammer, ESPlate],
+[null, null, null]]);
+
+// --- End Steel Tools
+recipes.addShaped(<EnderIO:item.endSteel_pickaxe>, [
+[ESPlate, ESIngot, ESIngot],
+[File, darkSteelRod, Hammer],
+[null, darkSteelRod, null]]);
+
+recipes.addShaped(<EnderIO:item.endSteel_axe>, [
+[ESPlate, ESIngot, Hammer],
+[ESPlate, darkSteelRod, ESPlate],
+[File, darkSteelRod, null]]);
+
+recipes.addShaped(<EnderIO:item.endSteel_sword>, [
+[null, ESPlate, null],
+[File, ESPlate, Hammer],
+[null, darkSteelRod, null]]);
+
 
 
 
@@ -774,6 +974,9 @@ Assembler.addRecipe(Capacitor2, Capacitor * 2, <gregtech:gt.metaitem.01:2535>,  
 // --- Octadic Capacitor
 Assembler.addRecipe(Capacitor3, Capacitor2 * 2, <minecraft:glowstone_dust> * 4,  <liquid:molten.vibrantalloy> * 864, 200, 480);
 
+// --- Octadic Capacitor
+Assembler.addRecipe(Capacitor4, Capacitor3 * 2, <minecraft:ender_eye>,  <liquid:molten.endsteel> * 864, 200, 1920);
+
 // --- Vacuum Chest
 Assembler.addRecipe(<EnderIO:blockVacuumChest>, <gregtech:gt.blockmachines:9231>, <ExtraUtilities:enderCollector>, 200, 64);
 
@@ -786,8 +989,17 @@ Assembler.addRecipe(<EnderIO:itemMaterial:5>, <minecraft:diamond>, <gregtech:gt.
 // --- Vibrant Crystal
 Assembler.addRecipe(<EnderIO:itemMaterial:6>, <minecraft:emerald>, <gregtech:gt.metaitem.01:9367> * 8, 600, 120);
 
-// --- Dark Steel Ball
-Assembler.addRecipe(<EnderIO:itemMaterial:7> * 4, <gregtech:gt.metaitem.01:17364> * 4, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+// --- Grinding Balls
+Assembler.addRecipe(<EnderIO:itemGrindingBall:0>, <gregtech:gt.metaitem.01:17365>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:1>, <gregtech:gt.metaitem.01:17366>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:2>, <gregtech:gt.metaitem.01:17367>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:3>, <gregtech:gt.metaitem.01:17381>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:4>, <gregtech:gt.metaitem.01:17369>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:5>, <gregtech:gt.metaitem.01:17378>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:6>, <gregtech:gt.metaitem.01:17364>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:7>, <gregtech:gt.metaitem.01:17379>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:8>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+
 
 // --- Weather Crystal
 Assembler.addRecipe(WCrystal, <dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:9321> * 8, 200, 256);
@@ -803,6 +1015,12 @@ Assembler.addRecipe(<EnderIO:blockDarkSteelLadder> * 2, <EnderIO:blockDarkIronBa
 
 // --- Dark Iron Bars
 Assembler.addRecipe(<EnderIO:blockDarkIronBars> * 4, <gregtech:gt.metaitem.01:23364> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 64);
+
+// --- Soularium Bars
+Assembler.addRecipe(<EnderIO:blockSoulariumBars> * 4, <gregtech:gt.metaitem.01:23379> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 64);
+
+// --- End Steel Bars
+Assembler.addRecipe(<EnderIO:blockEndSteelBars> * 4, <gregtech:gt.metaitem.01:23401> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 64);
 
 // --- Powered Light Inverted
 Assembler.addRecipe(<EnderIO:blockElectricLight:1>, <EnderIO:blockElectricLight>, <minecraft:redstone_torch>, 200, 64);
