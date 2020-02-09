@@ -96,6 +96,7 @@ val IronTank = <irontank:ironTank>;
 val DarkSteelBars = <EnderIO:blockDarkIronBars>;
 val DarkSteelPlate = <ore:plateDarkSteel>;
 val SEnder = <EnderIO:itemFrankenSkull:4>;
+val SContractor = <EnderIO:itemFrankenSkull:5>;
 val GDiode = <EnderIO:itemFrankenSkull:6>;
 val ECrystal = <EnderIO:itemMaterial:8>;
 val Chest = <ore:chestWood>;
@@ -663,7 +664,7 @@ recipes.addShaped(<EnderIO:blockReservoir> * 2, [
 
 // --- Dimensional Tranceiver
 recipes.addShaped(<EnderIO:blockTransceiver>, [
-[Capacitor3, EnergyFlowCircuit, Capacitor3],
+[Capacitor4, EnergyFlowCircuit, Capacitor4],
 [ECrystal, <ore:frameGtEnderium>, ECrystal],
 [FQuartz, SEnder, FQuartz]]);
 
@@ -904,20 +905,20 @@ recipes.addShaped(<EnderIO:itemMagnet:16>, [
 recipes.addShaped(<EnderIO:item.endSteel_helmet>, [
 [ESPlate, ESPlate, ESPlate],
 [ESPlate, Hammer, ESPlate],
-[null, null, null]]);
+[null, GDiode, null]]);
 
 recipes.addShaped(<EnderIO:item.endSteel_chestplate>, [
 [ESPlate, Hammer, ESPlate],
-[ESPlate, ESPlate, ESPlate],
+[ESPlate, GDiode, ESPlate],
 [ESPlate, ESPlate, ESPlate]]);
 
 recipes.addShaped(<EnderIO:item.endSteel_leggings>, [
 [ESPlate, ESPlate, ESPlate],
 [ESPlate, Hammer, ESPlate],
-[ESPlate, null, ESPlate]]);
+[ESPlate, GDiode, ESPlate]]);
 
 recipes.addShaped(<EnderIO:item.endSteel_boots>, [
-[ESPlate, null, ESPlate],
+[ESPlate, GDiode, ESPlate],
 [ESPlate, Hammer, ESPlate],
 [null, null, null]]);
 
