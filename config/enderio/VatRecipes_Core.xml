@@ -128,6 +128,26 @@
         <fluidStack name="cloud_seed_concentrated" />
       </output>
     </recipe>
+	<recipe name="Ender Distillation" energyCost="15000">
+      <input>
+        <itemStack oreDictionary="itemPulsatingPowder" slot="0" multiplier="2" />
+        <itemStack oreDictionary="itemEnderCrystalPowder" slot="1" multiplier="2" />
+        <fluidStack name="nutrient_distillation" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="ender_distillation" />
+      </output>
+    </recipe>
+	<recipe name="Vapor of Levity" energyCost="20000" >
+      <input>
+        <itemStack oreDictionary="itemPulsatingPowder" slot="0" multiplier="1" />
+        <itemStack oreDictionary="itemPrecientPowder" slot="1" multiplier="1" />
+        <fluidStack name="ender_distillation" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack name="vapor_of_levity" />
+      </output>
+    </recipe>
   </recipeGroup>
 
 </VatRecipes>
