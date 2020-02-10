@@ -481,9 +481,9 @@ Research.clearPages("CAP_thauminite");
 Research.addPage("CAP_thauminite","tb.rec.capthauminite.page.NH.0");
 Research.addPage("CAP_thauminite","tb.rec.capthauminite.page.NH.1");
 //game.setLocalization("tc.research_text.CAP_thauminite","No activation here!");
-game.setLocalization("tb.rec.capthauminite.page.NH.0", "A thaumaturge alway seeks for a way to give discovered materials a real purpose. That metal you've just unlocked, thauminite works just as thaumium, so why not use it as a wand cap ? Well, thauminite does'nt seem to be as bendable as thaumium, due to the high amount of vitreus in it. However, that property can be used to enhance regular thaumium caps. The infusion is capable of turning the thauminite into small pieces, making it able to re-crystalise directly on the thaumium caps. To ensure that cap and thauminite are bound together for  ...forever you'll also need some quicksilver and also a bit of salis mundus to reduce thauminites crystalisation time.");
+game.setLocalization("tb.rec.capthauminite.page.NH.0", "A thaumaturge always seeks for a way to give discovered materials a real purpose. That metal you've just unlocked, thauminite works just as thaumium, so why not use it as a wand cap ? Well, thauminite doesn't seem to be as bendable as thaumium, due to the high amount of vitreus in it. However, that property can be used to enhance regular thaumium caps. The infusion is capable of turning the thauminite into small pieces, making it able to re-crystalise directly on the thaumium caps. To ensure that cap and thauminite are bound together for  ...forever you'll also need some quicksilver and also a bit of salis mundus to reduce thauminites crystalisation time.");
 Research.addInfusionPage("CAP_thauminite",capThauminite);
-game.setLocalization("tb.rec.capthauminite.page.NH.1", "These new caps seem to better than thaumium caps, but you feel something within them... maybe there is something more to them ?");
+game.setLocalization("tb.rec.capthauminite.page.NH.1", "These new caps seem to better than thaumium caps, but you feel something within them... maybe there is something more to them?");
 Warp.addToResearch("CAP_thauminite",2);
 
 // --- Focus Experience

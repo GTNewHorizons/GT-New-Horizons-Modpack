@@ -70,9 +70,8 @@ game.setLocalization("tc.research_text.PURETEAR", "Magical Medicine");
 mods.thaumcraft.Research.addPrereq("PURETEAR", "ELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("PURETEAR", "warptheory.paper", false);
 mods.thaumcraft.Research.addPrereq("PURETEAR", "ICHORIUM", false);
-mods.thaumcraft.Research.addPage("PURETEAR", "tc.research_page.PURETEAR");
-game.setLocalization("tc.research_page.PURETEAR", "By combining the curative properties of Ghast Tears, the magical energy of Salis Mundus, and the stabilizing properties of crystals, you've discovered a means of purging negative magical energy from the body.<BR>The process is not without drawbacks, though, as all that energy has to go somewhere.");
-mods.thaumcraft.Infusion.addRecipe("PURETEAR", <minecraft:nether_star>, 
+mods.thaumcraft.Research.addPage("PURETEAR", "research.warptheory.warpcleanser");
+mods.thaumcraft.Infusion.addRecipe("PURETEAR", <minecraft:nether_star>,
 [<gregtech:gt.metaitem.01:11978>, <appliedenergistics2:item.ItemMultiMaterial:10>, <gregtech:gt.metaitem.01:24500>, <appliedenergistics2:item.ItemMultiMaterial:11>, <minecraft:ghast_tear>, <Thaumcraft:ItemResource:14>, <minecraft:ghast_tear>, <appliedenergistics2:item.ItemMultiMaterial:11>, <gregtech:gt.metaitem.01:24500>, <appliedenergistics2:item.ItemMultiMaterial:10>], 
 "alienis 32, permutatio 32, praecantatio 16, sano 16", <WarpTheory:item.warptheory.cleanser>, 10);
 mods.thaumcraft.Research.addInfusionPage("PURETEAR", <WarpTheory:item.warptheory.cleanser>);
