@@ -767,42 +767,43 @@ mods.thaumcraft.Warp.addToResearch("INSCRIPTIONUNDEAD", 4);
 // --- Warp Wood Rod
 mods.thaumcraft.Research.orphanResearch("ROD_warpwood");
 mods.thaumcraft.Research.removeResearch("ROD_warpwood");
-mods.thaumcraft.Research.addResearch("RoD_WarpwoodGTNH", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, instrumentum 6, terra 3", 8, -2, 4, <TaintedMagic:ItemWandRod>);
-mods.thaumcraft.Research.addPrereq("RoD_WarpwoodGTNH", "ShadowmetalGTNH", true);
-mods.thaumcraft.Research.addPrereq("RoD_WarpwoodGTNH", "WarpTreeGTNH", false);
-mods.thaumcraft.Research.addPrereq("RoD_WarpwoodGTNH", "VOIDMETAL", false);
-mods.thaumcraft.Research.addPrereq("RoD_WarpwoodGTNH", "VOIDMETAL", false);
-mods.thaumcraft.Research.addPrereq("RoD_WarpwoodGTNH", "PRIMPEARL", false);
-mods.thaumcraft.Research.addPrereq("RoD_WarpwoodGTNH", "ROD_primal_staff", false);   
-mods.thaumcraft.Research.setConcealed("RoD_WarpwoodGTNH", true);
-game.setLocalization("tc.research_name.RoD_WarpwoodGTNH", "Warpwood Wand Rod");
-game.setLocalization("tc.research_text.RoD_WarpwoodGTNH", "The wand chooses the wizard...");
-mods.thaumcraft.Research.addPage("RoD_WarpwoodGTNH", "tc.research_page.RoD_WarpwoodGTNH.1");
-game.setLocalization("tc.research_page.RoD_WarpwoodGTNH.1", "Ever since you discovered Warpwood, you have wondered if it would be possible to forge this wood into a wand. The Primordial Pearl has given you the answer to the question.<BR>Since the wood is imbued with warp, you think it's only logical to use a Zombie Brain as a place to store the insanity. And, Using the power of the Primordial Pearl as the core of this rod, the power is immense.<BR>The wood is also extremely dense, making it able to store huge amounts of vis - 250 of each, that is.<BR>(Continued)");
-mods.thaumcraft.Infusion.addRecipe("RoD_WarpwoodGTNH", <Thaumcraft:ItemEldritchObject:3>,
+mods.thaumcraft.Research.addResearch("ROD_warpwood", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, instrumentum 6, terra 3", 8, -2, 4, <TaintedMagic:ItemWandRod>);
+mods.thaumcraft.Research.addPrereq("ROD_warpwood", "ShadowmetalGTNH", true);
+mods.thaumcraft.Research.addPrereq("ROD_warpwood", "WarpTreeGTNH", false);
+mods.thaumcraft.Research.addPrereq("ROD_warpwood", "VOIDMETAL", false);
+mods.thaumcraft.Research.addPrereq("ROD_warpwood", "VOIDMETAL", false);
+mods.thaumcraft.Research.addPrereq("ROD_warpwood", "PRIMPEARL", false);
+mods.thaumcraft.Research.addPrereq("ROD_warpwood", "ROD_primal_staff", false);
+mods.thaumcraft.Research.setConcealed("ROD_warpwood", true);
+game.setLocalization("tc.research_name.ROD_warpwood", "Warpwood Wand Rod");
+game.setLocalization("tc.research_text.ROD_warpwood", "The wand chooses the wizard...");
+mods.thaumcraft.Research.addPage("ROD_warpwood", "tc.research_page.ROD_warpwood.1");
+game.setLocalization("tc.research_page.ROD_warpwood.1", "Ever since you discovered Warpwood, you have wondered if it would be possible to forge this wood into a wand. The Primordial Pearl has given you the answer to the question.<BR>Since the wood is imbued with warp, you think it's only logical to use a Zombie Brain as a place to store the insanity. And, Using the power of the Primordial Pearl as the core of this rod, the power is immense.<BR>The wood is also extremely dense, making it able to store huge amounts of vis - 250 of each, that is.<BR>(Continued)");
+mods.thaumcraft.Infusion.addRecipe("ROD_warpwood", <Thaumcraft:ItemEldritchObject:3>,
 [<TaintedMagic:BlockWarpwoodLog>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>], 
 "alienis 64, arbor 64, praecantatio 64, tenebrae 48, instrumentum 32, terra 24", <TaintedMagic:ItemWandRod>, 9);
-mods.thaumcraft.Research.addInfusionPage("RoD_WarpwoodGTNH", <TaintedMagic:ItemWandRod>);
-mods.thaumcraft.Warp.addToResearch("RoD_WarpwoodGTNH", 3);
-mods.thaumcraft.Research.addPage("RoD_WarpwoodGTNH", "tc.research_page.RoD_WarpwoodGTNH.2");
-game.setLocalization("tc.research_page.RoD_WarpwoodGTNH.2", "It would also seem that the warp stored within the rod festers off of your own, creating vis as a byproduct and quickly filling up your wand. The more warp you amass, the greater the reaction, and the faster the wand will recharge itself. Due to this process being fueled by the Primordial Pearl, the influx of vis would put any other core to shame.<BR>Seeing as it wards off all warp, The Warp Ward buff seems to negate the reaction completely.<BR><BR>§oToday my wand started whispering strangely to me. As my insane mind grows stronger, the more my wand reveals to me...");
+mods.thaumcraft.Research.addInfusionPage("ROD_warpwood", <TaintedMagic:ItemWandRod>);
+mods.thaumcraft.Warp.addToResearch("ROD_warpwood", 3);
+mods.thaumcraft.Research.addPage("ROD_warpwood", "tc.research_page.ROD_warpwood.2");
+game.setLocalization("tc.research_page.ROD_warpwood.2", "It would also seem that the warp stored within the rod festers off of your own, creating vis as a byproduct and quickly filling up your wand. The more warp you amass, the greater the reaction, and the faster the wand will recharge itself. Due to this process being fueled by the Primordial Pearl, the influx of vis would put any other core to shame.<BR>Seeing as it wards off all warp, The Warp Ward buff seems to negate the reaction completely.<BR><BR>§oToday my wand started whispering strangely to me. As my insane mind grows stronger, the more my wand reveals to me...");
+
 
 // --- Warp Wood Stuff
 mods.thaumcraft.Research.orphanResearch("ROD_warpwood_staff");
 mods.thaumcraft.Research.removeResearch("ROD_warpwood_staff");
-mods.thaumcraft.Research.addResearch("RoD_Warpwood_StaffGTNH", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, potentia 6, instrumentum 3", 9, -2, 4, <TaintedMagic:ItemWandRod:1>);
-mods.thaumcraft.Research.addPrereq("RoD_Warpwood_StaffGTNH", "RoD_WarpwoodGTNH", false);
-mods.thaumcraft.Research.setConcealed("RoD_Warpwood_StaffGTNH", true);
-game.setLocalization("tc.research_name.RoD_Warpwood_StaffGTNH", "Warpwood Staff Core");
-game.setLocalization("tc.research_text.RoD_Warpwood_StaffGTNH", "It's not quite clear why...");
-mods.thaumcraft.Research.addPage("RoD_Warpwood_StaffGTNH", "tc.research_page.RoD_Warpwood_StaffGTNH");
-game.setLocalization("tc.research_page.RoD_Warpwood_StaffGTNH", "After having seen the power of the Warpwood wand core, you wondered what would happen if you were to make a staff.<BR>Unlike most staves, simply adding a primal charm was not enough to bind them into a staff core. It took the use of the Primordial Pearl.<BR>The same auto recharging abilities seem to apply as well, and on top of all of that this staff core offers a huge amount of storage - 500 primal vis.");
-mods.thaumcraft.Arcane.addShaped("RoD_Warpwood_StaffGTNH", <TaintedMagic:ItemWandRod:1>, "aqua 150, terra 150, ignis 150, aer 150, ordo 150, perditio 150", [
+mods.thaumcraft.Research.addResearch("ROD_warpwood_staff", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, potentia 6, instrumentum 3", 9, -2, 4, <TaintedMagic:ItemWandRod:1>);
+mods.thaumcraft.Research.addPrereq("ROD_warpwood_staff", "ROD_warpwood", false);
+mods.thaumcraft.Research.setConcealed("ROD_warpwood_staff", true);
+game.setLocalization("tc.research_name.ROD_warpwood_staff", "Warpwood Staff Core");
+game.setLocalization("tc.research_text.ROD_warpwood_staff", "It's not quite clear why...");
+mods.thaumcraft.Research.addPage("ROD_warpwood_staff", "tc.research_page.ROD_warpwood_staff");
+game.setLocalization("tc.research_page.ROD_warpwood_staff", "After having seen the power of the Warpwood wand core, you wondered what would happen if you were to make a staff.<BR>Unlike most staves, simply adding a primal charm was not enough to bind them into a staff core. It took the use of the Primordial Pearl.<BR>The same auto recharging abilities seem to apply as well, and on top of all of that this staff core offers a huge amount of storage - 500 primal vis.");
+mods.thaumcraft.Arcane.addShaped("ROD_warpwood_staff", <TaintedMagic:ItemWandRod:1>, "aqua 150, terra 150, ignis 150, aer 150, ordo 150, perditio 150", [
 [<ore:screwShadow>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemEldritchObject:3>], 
 [<TaintedMagic:ItemMaterial:3>, <TaintedMagic:ItemWandRod>, <TaintedMagic:ItemMaterial:3>],
 [<TaintedMagic:ItemWandRod>, <TaintedMagic:ItemMaterial:4>, <ore:screwShadow>]]);
-mods.thaumcraft.Research.addArcanePage("RoD_Warpwood_StaffGTNH", <TaintedMagic:ItemWandRod:1>);
-mods.thaumcraft.Warp.addToResearch("RoD_Warpwood_StaffGTNH", 5);
+mods.thaumcraft.Research.addArcanePage("ROD_warpwood_staff", <TaintedMagic:ItemWandRod:1>);
+mods.thaumcraft.Warp.addToResearch("ROD_warpwood_staff", 5);
 
 // --- Wand Focus Time
 mods.thaumcraft.Research.orphanResearch("FOCUSTIME");
@@ -863,71 +864,71 @@ mods.thaumcraft.Warp.addToResearch("PrimalBladeGTNH", 10);
 // --- Cloth Cap
 mods.thaumcraft.Research.orphanResearch("CAP_cloth");
 mods.thaumcraft.Research.removeResearch("CAP_cloth");
-mods.thaumcraft.Research.addResearch("Cap_ClothGTNH", "TM", "praecantatio 12, pannus 9, sano 6, alienis 3", 7, 5, 3, <TaintedMagic:ItemWandCap:1>);
-mods.thaumcraft.Research.addPrereq("Cap_ClothGTNH", "CAP_gold", false);
-mods.thaumcraft.Research.addPrereq("Cap_ClothGTNH", "ENCHFABRIC", false);
-mods.thaumcraft.Research.setConcealed("Cap_ClothGTNH", true);
-game.setLocalization("tc.research_name.Cap_ClothGTNH", "Cloth Caps");
-game.setLocalization("tc.research_text.Cap_ClothGTNH", "Remember to wrap it");
-mods.thaumcraft.Research.addPage("Cap_ClothGTNH", "tc.research_page.Cap_ClothGTNH");
-game.setLocalization("tc.research_page.Cap_ClothGTNH", "With the immersive study of wandcraft, and the discovery of Enchanted Fabric, you decided to use some to cap a wand.<BR>You are not sure why it worked, seeing as it is just cloth, but it did nonetheless. Using a few pieces of fabric, and a little vis, you have forged a fairly effective and very cheap wand cap.<BR>This cap grants a 5% Vis Discount... Though, you are not quite sure why.");
-mods.thaumcraft.Arcane.addShaped("Cap_ClothGTNH", <TaintedMagic:ItemWandCap:1>, "terra 25, ignis 25, ordo 25, perditio 25", [
+mods.thaumcraft.Research.addResearch("CAP_cloth", "TM", "praecantatio 12, pannus 9, sano 6, alienis 3", 7, 5, 3, <TaintedMagic:ItemWandCap:1>);
+mods.thaumcraft.Research.addPrereq("CAP_cloth", "CAP_gold", false);
+mods.thaumcraft.Research.addPrereq("CAP_cloth", "ENCHFABRIC", false);
+mods.thaumcraft.Research.setConcealed("CAP_cloth", true);
+game.setLocalization("tc.research_name.CAP_cloth", "Cloth Caps");
+game.setLocalization("tc.research_text.CAP_cloth", "Remember to wrap it");
+mods.thaumcraft.Research.addPage("CAP_cloth", "tc.research_page.CAP_cloth");
+game.setLocalization("tc.research_page.CAP_cloth", "With the immersive study of wandcraft, and the discovery of Enchanted Fabric, you decided to use some to cap a wand.<BR>You are not sure why it worked, seeing as it is just cloth, but it did nonetheless. Using a few pieces of fabric, and a little vis, you have forged a fairly effective and very cheap wand cap.<BR>This cap grants a 5% Vis Discount... Though, you are not quite sure why.");
+mods.thaumcraft.Arcane.addShaped("CAP_cloth", <TaintedMagic:ItemWandCap:1>, "terra 25, ignis 25, ordo 25, perditio 25", [
 [<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>], 
 [<Thaumcraft:ItemResource:7>, <Thaumcraft:WandCap:1>, <Thaumcraft:ItemResource:7>],
 [<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>]]);
-mods.thaumcraft.Research.addArcanePage("Cap_ClothGTNH", <TaintedMagic:ItemWandCap:1>);
-mods.thaumcraft.Warp.addToResearch("Cap_ClothGTNH", 1);
+mods.thaumcraft.Research.addArcanePage("CAP_cloth", <TaintedMagic:ItemWandCap:1>);
+mods.thaumcraft.Warp.addToResearch("CAP_cloth", 1);
 
 // --- Shadow Imbued-Cloth Cap
 mods.thaumcraft.Research.orphanResearch("CAP_shadowcloth");
 mods.thaumcraft.Research.removeResearch("CAP_shadowcloth");
-mods.thaumcraft.Research.addResearch("CaP_ShadowClothGTNH", "TM", "praecantatio 18, pannus 15, tenebrae 12, vacuos 9, metallum 6, alienis 3", -2, 3, 4, <TaintedMagic:ItemWandCap:3>);
-mods.thaumcraft.Research.addPrereq("CaP_ShadowClothGTNH", "CAP_thaumium", false);
-mods.thaumcraft.Research.addPrereq("CaP_ShadowClothGTNH", "ShadowClothGTNH", false);
-mods.thaumcraft.Research.setConcealed("CaP_ShadowClothGTNH", true);
-game.setLocalization("tc.research_name.CaP_ShadowClothGTNH", "Shadow-Imbued Cloth Caps");
-game.setLocalization("tc.research_text.CaP_ShadowClothGTNH", "On Wednesdays we wear black");
-mods.thaumcraft.Research.addPage("CaP_ShadowClothGTNH", "tc.research_page.CaP_ShadowClothGTNH");
-game.setLocalization("tc.research_page.CaP_ShadowClothGTNH", "You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a Charged Thaumium Wand Cap to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 10% Vis Discount.");
-mods.thaumcraft.Arcane.addShaped("CaP_ShadowClothGTNH", <TaintedMagic:ItemWandCap:3>, "terra 50, ignis 50, ordo 50, perditio 50", [
+mods.thaumcraft.Research.addResearch("CAP_shadowcloth", "TM", "praecantatio 18, pannus 15, tenebrae 12, vacuos 9, metallum 6, alienis 3", -2, 3, 4, <TaintedMagic:ItemWandCap:3>);
+mods.thaumcraft.Research.addPrereq("CAP_shadowcloth", "CAP_thaumium", false);
+mods.thaumcraft.Research.addPrereq("CAP_shadowcloth", "ShadowClothGTNH", false);
+mods.thaumcraft.Research.setConcealed("CAP_shadowcloth", true);
+game.setLocalization("tc.research_name.CAP_shadowcloth", "Shadow-Imbued Cloth Caps");
+game.setLocalization("tc.research_text.CAP_shadowcloth", "On Wednesdays we wear black");
+mods.thaumcraft.Research.addPage("CAP_shadowcloth", "tc.research_page.CAP_shadowcloth");
+game.setLocalization("tc.research_page.CAP_shadowcloth", "You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a Charged Thaumium Wand Cap to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 10% Vis Discount.");
+mods.thaumcraft.Arcane.addShaped("CAP_shadowcloth", <TaintedMagic:ItemWandCap:3>, "terra 50, ignis 50, ordo 50, perditio 50", [
 [<TaintedMagic:ItemMaterial:1>, <ore:foilShadow>, <TaintedMagic:ItemMaterial:1>], 
 [<ore:foilShadow>, <Thaumcraft:WandCap:2>, <ore:foilShadow>],
 [<TaintedMagic:ItemMaterial:1>, <ore:foilShadow>, <TaintedMagic:ItemMaterial:1>]]);
-mods.thaumcraft.Research.addArcanePage("CaP_ShadowClothGTNH", <TaintedMagic:ItemWandCap:3>);
-mods.thaumcraft.Warp.addToResearch("CaP_ShadowClothGTNH", 2);
+mods.thaumcraft.Research.addArcanePage("CAP_shadowcloth", <TaintedMagic:ItemWandCap:3>);
+mods.thaumcraft.Warp.addToResearch("CAP_shadowcloth", 2);
 
 // --- Crimson-Stained Cloth Cap
 mods.thaumcraft.Research.orphanResearch("CAP_crimsoncloth");
 mods.thaumcraft.Research.removeResearch("CAP_crimsoncloth");
-mods.thaumcraft.Research.addResearch("CaP_CrimsonClothGTNH", "TM", "tenebrae 18, praecantatio 15, pannus 12, sano 9, aqua 6, alienis 3", -1, -6, 4, <TaintedMagic:ItemWandCap:2>);
-mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "Cap_ClothGTNH", true);
-mods.thaumcraft.Research.addPrereq("CaP_CrimsonClothGTNH", "CrimsonRobesGTNH", false);
-mods.thaumcraft.Research.setConcealed("CaP_CrimsonClothGTNH", true);
-game.setLocalization("tc.research_name.CaP_CrimsonClothGTNH", "Crimson-Stained Cloth Caps");
-game.setLocalization("tc.research_text.CaP_CrimsonClothGTNH", "I love them red");
-mods.thaumcraft.Research.addPage("CaP_CrimsonClothGTNH", "tc.research_page.CaP_CrimsonClothGTNH");
-game.setLocalization("tc.research_page.CaP_CrimsonClothGTNH", "Using the same concept that the Cloth Caps laid down, you created very similar caps from Crimson-Stained Cloth. Though, you needed some Enchanted Cloth Cap to bind it all together.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps seem to provide a 15% vis discount.");
-mods.thaumcraft.Arcane.addShaped("CaP_CrimsonClothGTNH", <TaintedMagic:ItemWandCap:2>, "terra 75, ignis 75, ordo 75, perditio 75", [
+mods.thaumcraft.Research.addResearch("CAP_crimsoncloth", "TM", "tenebrae 18, praecantatio 15, pannus 12, sano 9, aqua 6, alienis 3", -1, -6, 4, <TaintedMagic:ItemWandCap:2>);
+mods.thaumcraft.Research.addPrereq("CAP_crimsoncloth", "CAP_cloth", true);
+mods.thaumcraft.Research.addPrereq("CAP_crimsoncloth", "CrimsonRobesGTNH", false);
+mods.thaumcraft.Research.setConcealed("CAP_crimsoncloth", true);
+game.setLocalization("tc.research_name.CAP_crimsoncloth", "Crimson-Stained Cloth Caps");
+game.setLocalization("tc.research_text.CAP_crimsoncloth", "I love them red");
+mods.thaumcraft.Research.addPage("CAP_crimsoncloth", "tc.research_page.CAP_crimsoncloth");
+game.setLocalization("tc.research_page.CAP_crimsoncloth", "Using the same concept that the Cloth Caps laid down, you created very similar caps from Crimson-Stained Cloth. Though, you needed some Enchanted Cloth Cap to bind it all together.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps seem to provide a 15% vis discount.");
+mods.thaumcraft.Arcane.addShaped("CAP_crimsoncloth", <TaintedMagic:ItemWandCap:2>, "terra 75, ignis 75, ordo 75, perditio 75", [
 [<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>], 
 [<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemWandCap:1>, <TaintedMagic:ItemMaterial:2>],
 [<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>]]);
-mods.thaumcraft.Research.addArcanePage("CaP_CrimsonClothGTNH", <TaintedMagic:ItemWandCap:2>);
-mods.thaumcraft.Warp.addToResearch("CaP_CrimsonClothGTNH", 4);
+mods.thaumcraft.Research.addArcanePage("CAP_crimsoncloth", <TaintedMagic:ItemWandCap:2>);
+mods.thaumcraft.Warp.addToResearch("CAP_crimsoncloth", 4);
 
 // --- Shadow Metal Cap
 mods.thaumcraft.Research.orphanResearch("CAP_shadowmetal");
 mods.thaumcraft.Research.removeResearch("CAP_shadowmetal");
-mods.thaumcraft.Research.addResearch("CaP_ShadowmetalGTNH", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -4, 4, 4, <TaintedMagic:ItemWandCap>);
-mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "CaP_ShadowClothGTNH", false);
-mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "CAP_void", false);
-mods.thaumcraft.Research.addPrereq("CaP_ShadowmetalGTNH", "PRIMPEARL", false);
-mods.thaumcraft.Research.setConcealed("CaP_ShadowmetalGTNH", true);
-game.setLocalization("tc.research_name.CaP_ShadowmetalGTNH", "Shadowmetal Wand Caps");
-game.setLocalization("tc.research_text.CaP_ShadowmetalGTNH", "What a drag");
-mods.thaumcraft.Research.addPage("CaP_ShadowmetalGTNH", "tc.research_page.CaP_ShadowmetalGTNH");
-game.setLocalization("tc.research_page.CaP_ShadowmetalGTNH", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.<BR>The Primordial Pearl is not consumed during the crafting process.");
-mods.thaumcraft.Infusion.addRecipe("CaP_ShadowmetalGTNH", <Thaumcraft:ItemEldritchObject:3>,
+mods.thaumcraft.Research.addResearch("CAP_shadowmetal", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -4, 4, 4, <TaintedMagic:ItemWandCap>);
+mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "CAP_shadowcloth", false);
+mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "CAP_void", false);
+mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "PRIMPEARL", false);
+mods.thaumcraft.Research.setConcealed("CAP_shadowmetal", true);
+game.setLocalization("tc.research_name.CAP_shadowmetal", "Shadowmetal Wand Caps");
+game.setLocalization("tc.research_text.CAP_shadowmetal", "What a drag");
+mods.thaumcraft.Research.addPage("CAP_shadowmetal", "tc.research_page.CAP_shadowmetal");
+game.setLocalization("tc.research_page.CAP_shadowmetal", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.<BR>The Primordial Pearl is not consumed during the crafting process.");
+mods.thaumcraft.Infusion.addRecipe("CAP_shadowmetal", <Thaumcraft:ItemEldritchObject:3>,
 [<Thaumcraft:WandCap:7>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>], 
 "alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 32, lucrum 16", <TaintedMagic:ItemWandCap>, 12);
-mods.thaumcraft.Research.addInfusionPage("CaP_ShadowmetalGTNH", <TaintedMagic:ItemWandCap>);
-mods.thaumcraft.Warp.addToResearch("CaP_ShadowmetalGTNH", 8);
+mods.thaumcraft.Research.addInfusionPage("CAP_shadowmetal", <TaintedMagic:ItemWandCap>);
+mods.thaumcraft.Warp.addToResearch("CAP_shadowmetal", 8);

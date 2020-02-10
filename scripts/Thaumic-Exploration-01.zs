@@ -518,44 +518,44 @@ mods.thaumcraft.Research.addInfusionPage("BurnGTNH", <ThaumicExploration:everbur
 // --- Sojourner Cap
 mods.thaumcraft.Research.orphanResearch("CAP_SOJOURNER");
 mods.thaumcraft.Research.removeResearch("CAP_SOJOURNER");
-mods.thaumcraft.Research.addResearch("CapSojournerGTNH", "TX", "auram 15, permutatio 12, potentia 9, lucrum 6, instrumentum 3", -5, -8, 3, <ThaumicExploration:sojournerCapUncharged>);
-mods.thaumcraft.Research.addPrereq("CapSojournerGTNH", "TXCAP_thaumium", false);
-mods.thaumcraft.Research.addPrereq("CapSojournerGTNH", "WANDPED", false);
-mods.thaumcraft.Research.setConcealed("CapSojournerGTNH", true);
-game.setLocalization("tc.research_name.CapSojournerGTNH", "Sojourner's Wand Caps");
-game.setLocalization("tc.research_text.CapSojournerGTNH", "Sentient wand caps");
-mods.thaumcraft.Research.addPage("CapSojournerGTNH", "tc.research_page.CapSojournerGTNH");
-game.setLocalization("tc.research_page.CapSojournerGTNH", "Even with the wand recharge pedestal, refilling your wand has been a chore. One must go through the work of constructing the pedestal and placing nodes in its vicinity. You have developed a special wand cap that will passively drain nearby nodes in a similar fashion to the Wand Recharge Pedestal when the wand is held in the hand.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.");
-mods.thaumcraft.Arcane.addShaped("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
+mods.thaumcraft.Research.addResearch("CAP_SOJOURNER", "TX", "auram 15, permutatio 12, potentia 9, lucrum 6, instrumentum 3", -5, -8, 3, <ThaumicExploration:sojournerCapUncharged>);
+mods.thaumcraft.Research.addPrereq("CAP_SOJOURNER", "TXCAP_thaumium", false);
+mods.thaumcraft.Research.addPrereq("CAP_SOJOURNER", "WANDPED", false);
+mods.thaumcraft.Research.setConcealed("CAP_SOJOURNER", true);
+game.setLocalization("tc.research_name.CAP_SOJOURNER", "Sojourner's Wand Caps");
+game.setLocalization("tc.research_text.CAP_SOJOURNER", "Sentient wand caps");
+mods.thaumcraft.Research.addPage("CAP_SOJOURNER", "tc.research_page.CAP_SOJOURNER");
+game.setLocalization("tc.research_page.CAP_SOJOURNER", "Even with the wand recharge pedestal, refilling your wand has been a chore. One must go through the work of constructing the pedestal and placing nodes in its vicinity. You have developed a special wand cap that will passively drain nearby nodes in a similar fashion to the Wand Recharge Pedestal when the wand is held in the hand.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.");
+mods.thaumcraft.Arcane.addShaped("CAP_SOJOURNER", <ThaumicExploration:sojournerCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
 [<ore:screwDiamond>, <ore:plateLapis>, <ore:screwDiamond>],
 [<ore:plateLapis>, <Thaumcraft:WandCap:2>, <ore:plateLapis>],
 [<ore:screwDiamond>, <ore:plateLapis>, <ore:screwDiamond>]]);
-mods.thaumcraft.Research.addArcanePage("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>);
-mods.thaumcraft.Infusion.addRecipe("CapSojournerGTNH", <ThaumicExploration:sojournerCapUncharged>,
+mods.thaumcraft.Research.addArcanePage("CAP_SOJOURNER", <ThaumicExploration:sojournerCapUncharged>);
+mods.thaumcraft.Infusion.addRecipe("CAP_SOJOURNER", <ThaumicExploration:sojournerCapUncharged>,
 [<Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2500>], 
 "auram 48, praecantatio 32, permutatio 24, potentia 32, aer 16, ordo 16", <ThaumicExploration:sojournerCap>, 6);
-mods.thaumcraft.Research.addInfusionPage("CapSojournerGTNH", <ThaumicExploration:sojournerCap>);
+mods.thaumcraft.Research.addInfusionPage("CAP_SOJOURNER", <ThaumicExploration:sojournerCap>);
 
 // --- Mechanist Cap
 mods.thaumcraft.Research.orphanResearch("CAP_MECHANIST");
 mods.thaumcraft.Research.removeResearch("CAP_MECHANIST");
-mods.thaumcraft.Research.addResearch("CapMechanistGTNH", "TX", "auram 15, machina 12, potentia 9, lucrum 6, instrumentum 3",  -9, -6, 3, <ThaumicExploration:mechanistCapUncharged>);
-mods.thaumcraft.Research.addPrereq("CapMechanistGTNH", "TXCAP_thaumium", false);
-mods.thaumcraft.Research.addPrereq("CapMechanistGTNH", "NODETAPPER2", false);
-mods.thaumcraft.Research.setConcealed("CapMechanistGTNH", true);
-game.setLocalization("tc.research_name.CapMechanistGTNH", "Mechanist's Wand Caps");
-game.setLocalization("tc.research_text.CapMechanistGTNH", "Mechanical wand caps");
-mods.thaumcraft.Research.addPage("CapMechanistGTNH", "tc.research_page.CapMechanistGTNH");
-game.setLocalization("tc.research_page.CapMechanistGTNH", "You have researched nodes extensively, and you feel that you have reached a point in which you can no longer improve the draining speed of nodes without improving your wands themselves. You have created a mechanical wand cap that is able to deconstruct and harvest vis from a node much more quickly than usual, using a combination of gadgetry and magic.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.");
-mods.thaumcraft.Arcane.addShaped("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
+mods.thaumcraft.Research.addResearch("CAP_MECHANIST", "TX", "auram 15, machina 12, potentia 9, lucrum 6, instrumentum 3",  -9, -6, 3, <ThaumicExploration:mechanistCapUncharged>);
+mods.thaumcraft.Research.addPrereq("CAP_MECHANIST", "TXCAP_thaumium", false);
+mods.thaumcraft.Research.addPrereq("CAP_MECHANIST", "NODETAPPER2", false);
+mods.thaumcraft.Research.setConcealed("CAP_MECHANIST", true);
+game.setLocalization("tc.research_name.CAP_MECHANIST", "Mechanist's Wand Caps");
+game.setLocalization("tc.research_text.CAP_MECHANIST", "Mechanical wand caps");
+mods.thaumcraft.Research.addPage("CAP_MECHANIST", "tc.research_page.CAP_MECHANIST");
+game.setLocalization("tc.research_page.CAP_MECHANIST", "You have researched nodes extensively, and you feel that you have reached a point in which you can no longer improve the draining speed of nodes without improving your wands themselves. You have created a mechanical wand cap that is able to deconstruct and harvest vis from a node much more quickly than usual, using a combination of gadgetry and magic.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.");
+mods.thaumcraft.Arcane.addShaped("CAP_MECHANIST", <ThaumicExploration:mechanistCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
 [<ore:screwDiamond>, <ore:plateRedstone>, <ore:screwDiamond>],
 [<minecraft:repeater>, <Thaumcraft:WandCap:2>, <minecraft:repeater>],
 [<ore:screwDiamond>, <minecraft:piston>, <ore:screwDiamond>]]);
-mods.thaumcraft.Research.addArcanePage("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>);
-mods.thaumcraft.Infusion.addRecipe("CapMechanistGTNH", <ThaumicExploration:mechanistCapUncharged>,
+mods.thaumcraft.Research.addArcanePage("CAP_MECHANIST", <ThaumicExploration:mechanistCapUncharged>);
+mods.thaumcraft.Infusion.addRecipe("CAP_MECHANIST", <ThaumicExploration:mechanistCapUncharged>,
 [<Thaumcraft:ItemResource:14>, <minecraft:redstone>, <Thaumcraft:ItemResource:14>, <minecraft:redstone>, <Thaumcraft:ItemResource:14>, <minecraft:redstone>], 
 "auram 48, praecantatio 32, machina 24, potentia 32, aer 16, ordo 16", <ThaumicExploration:mechanistCap>, 6);
-mods.thaumcraft.Research.addInfusionPage("CapMechanistGTNH", <ThaumicExploration:mechanistCap>);
+mods.thaumcraft.Research.addInfusionPage("CAP_MECHANIST", <ThaumicExploration:mechanistCap>);
 
 // --- Thaumostatic Stabilizer
 mods.thaumcraft.Research.orphanResearch("STABILIZERBELT");
@@ -683,86 +683,86 @@ mods.thaumcraft.Warp.addToResearch("TENTACLERING", 2);
 // --- Transmutative Rod
 mods.thaumcraft.Research.orphanResearch("ROD_TRANSMUTATION");
 mods.thaumcraft.Research.removeResearch("ROD_TRANSMUTATION");
-mods.thaumcraft.Research.addResearch("Rod_TransmutatitionGTNH", "TX", "permutatio 15, instrumentum 12, praecantatio 9, alienis 6, terra 3", -1, -1, 4, <ThaumicExploration:transmutationCore>);
-mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "TXROD_greatwood", false);
-mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "TXBASICARTIFACE", false);
-mods.thaumcraft.Research.addPrereq("Rod_TransmutatitionGTNH", "TXINFUSION", true);
-mods.thaumcraft.Research.setConcealed("Rod_TransmutatitionGTNH", true);
-game.setLocalization("tc.research_name.Rod_TransmutatitionGTNH", "Transmutative Wand Core");
-game.setLocalization("tc.research_text.Rod_TransmutatitionGTNH", "One thing into another");
-mods.thaumcraft.Research.addPage("Rod_TransmutatitionGTNH", "tc.research_page.Rod_TransmutatitionGTNH");
-game.setLocalization("tc.research_page.Rod_TransmutatitionGTNH", "While experimenting with the properties of primal charms, you have found that you can sporadically convert one form of vis into another. You have found this property to be too unreliable to use for most purposes, but if a charm is infused with certain materials, it can be used as a wand core with unique properties.<BR><BR>When the wand is filled at over 90% capacity of a certain aspect, this vis will be converted into other forms of vis, albeit at a low ratio.<BR><BR>This wand also boasts a higher vis capacity than a mundane greatwood wand, holding up to 75 vis of each type.");
-mods.thaumcraft.Infusion.addRecipe("Rod_TransmutatitionGTNH", <Thaumcraft:WandRod>,
+mods.thaumcraft.Research.addResearch("ROD_TRANSMUTATION", "TX", "permutatio 15, instrumentum 12, praecantatio 9, alienis 6, terra 3", -1, -1, 4, <ThaumicExploration:transmutationCore>);
+mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXROD_greatwood", false);
+mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXBASICARTIFACE", false);
+mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXINFUSION", true);
+mods.thaumcraft.Research.setConcealed("ROD_TRANSMUTATION", true);
+game.setLocalization("tc.research_name.ROD_TRANSMUTATION", "Transmutative Wand Core");
+game.setLocalization("tc.research_text.ROD_TRANSMUTATION", "One thing into another");
+mods.thaumcraft.Research.addPage("ROD_TRANSMUTATION", "tc.research_page.ROD_TRANSMUTATION");
+game.setLocalization("tc.research_page.ROD_TRANSMUTATION", "While experimenting with the properties of primal charms, you have found that you can sporadically convert one form of vis into another. You have found this property to be too unreliable to use for most purposes, but if a charm is infused with certain materials, it can be used as a wand core with unique properties.<BR><BR>When the wand is filled at over 90% capacity of a certain aspect, this vis will be converted into other forms of vis, albeit at a low ratio.<BR><BR>This wand also boasts a higher vis capacity than a mundane greatwood wand, holding up to 75 vis of each type.");
+mods.thaumcraft.Infusion.addRecipe("ROD_TRANSMUTATION", <Thaumcraft:WandRod>,
 [<Thaumcraft:ItemResource:14>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>], 
 "praecantatio 32, permutatio 32, auram 24, terra 16, arbor 8, alienis 8", <ThaumicExploration:transmutationCore>, 8);
-mods.thaumcraft.Research.addInfusionPage("Rod_TransmutatitionGTNH", <ThaumicExploration:transmutationCore>);
+mods.thaumcraft.Research.addInfusionPage("ROD_TRANSMUTATION", <ThaumicExploration:transmutationCore>);
 
 // --- Transmutative Stuff Core
 mods.thaumcraft.Research.orphanResearch("ROD_TRANSMUTATION_staff");
 mods.thaumcraft.Research.removeResearch("ROD_TRANSMUTATION_staff");
-mods.thaumcraft.Research.addResearch("Rod_Transmutaion_StaffGTNH", "TX", "permutatio 18, instrumentum 15, praecantatio 12, alienis 9, terra 6, arbor 3", 0, 0, 4, <ThaumicExploration:transmutationStaffCore>);
-mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "TXROD_greatwood_staff", false);
-mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "Rod_TransmutatitionGTNH", false);
-mods.thaumcraft.Research.addPrereq("Rod_Transmutaion_StaffGTNH", "TXBASICARTIFACE", false);
-mods.thaumcraft.Research.setConcealed("Rod_Transmutaion_StaffGTNH", true);
-game.setLocalization("tc.research_name.Rod_Transmutaion_StaffGTNH", "Transmutative Staff Core");
-game.setLocalization("tc.research_text.Rod_Transmutaion_StaffGTNH", "One thing into another");
-mods.thaumcraft.Research.addPage("Rod_Transmutaion_StaffGTNH", "tc.research_page.Rod_Transmutaion_StaffGTNH");
-game.setLocalization("tc.research_page.Rod_Transmutaion_StaffGTNH", "A staff core crafted from a primal charm and various shards can store 175 vis of each type.<BR>Like the wand core it transmutate vis forms when over 90% capacity in a particular type.");
-mods.thaumcraft.Arcane.addShaped("Rod_Transmutaion_StaffGTNH", <ThaumicExploration:transmutationStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
+mods.thaumcraft.Research.addResearch("ROD_TRANSMUTATION_staff", "TX", "permutatio 18, instrumentum 15, praecantatio 12, alienis 9, terra 6, arbor 3", 0, 0, 4, <ThaumicExploration:transmutationStaffCore>);
+mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "TXROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "ROD_TRANSMUTATION", false);
+mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "TXBASICARTIFACE", false);
+mods.thaumcraft.Research.setConcealed("ROD_TRANSMUTATION_staff", true);
+game.setLocalization("tc.research_name.ROD_TRANSMUTATION_staff", "Transmutative Staff Core");
+game.setLocalization("tc.research_text.ROD_TRANSMUTATION_staff", "One thing into another");
+mods.thaumcraft.Research.addPage("ROD_TRANSMUTATION_staff", "tc.research_page.ROD_TRANSMUTATION_staff");
+game.setLocalization("tc.research_page.ROD_TRANSMUTATION_staff", "A staff core crafted from a primal charm and various shards can store 175 vis of each type.<BR>Like the wand core it transmutate vis forms when over 90% capacity in a particular type.");
+mods.thaumcraft.Arcane.addShaped("ROD_TRANSMUTATION_staff", <ThaumicExploration:transmutationStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
 [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
 [<Thaumcraft:blockCrystal:2>, <ThaumicExploration:transmutationCore>, <Thaumcraft:blockCrystal:3>],
 [<ThaumicExploration:transmutationCore>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
-mods.thaumcraft.Research.addArcanePage("Rod_Transmutaion_StaffGTNH", <ThaumicExploration:transmutationStaffCore>);
+mods.thaumcraft.Research.addArcanePage("ROD_TRANSMUTATION_staff", <ThaumicExploration:transmutationStaffCore>);
 
 // --- Amber Rod
 mods.thaumcraft.Research.orphanResearch("ROD_AMBER");
 mods.thaumcraft.Research.removeResearch("ROD_AMBER");
-mods.thaumcraft.Research.addResearch("Rod_AmberGTNH", "TX", "auram 15, instrumentum 12, praecantatio 9, vinculum 6, vitreus 3", -5, -1, 4, <ThaumicExploration:amberCore>);
-mods.thaumcraft.Research.addPrereq("Rod_AmberGTNH", "TXROD_greatwood", false);
-mods.thaumcraft.Research.setConcealed("Rod_AmberGTNH", true);
-game.setLocalization("tc.research_name.Rod_AmberGTNH", "Amber Wand Core");
-game.setLocalization("tc.research_text.Rod_AmberGTNH", "Regenerative vis storage");
-mods.thaumcraft.Research.addPage("Rod_AmberGTNH", "tc.research_page.Rod_AmberGTNH");
-game.setLocalization("tc.research_page.Rod_AmberGTNH", "You have finally found a practical use for amber, in the form of a wand core. Amber serves as a poor conduit for vis, and thus can only hold 10 vis of each type, but it has other benefits.<BR><BR>Amber cores seem to store a fleeting memory of vis when empty. By harnessing this memory, you have created a wand core that can replenish all forms of vis at a rather quick rate when not at full capacity. While many of the other wand cores you have created have had regenerative properties, the amber core regenerates one point of every type of vis, instead of one type in particular, at two times the rate.");
-mods.thaumcraft.Infusion.addRecipe("Rod_AmberGTNH", <gregtech:gt.metaitem.01:23514>,
+mods.thaumcraft.Research.addResearch("ROD_AMBER", "TX", "auram 15, instrumentum 12, praecantatio 9, vinculum 6, vitreus 3", -5, -1, 4, <ThaumicExploration:amberCore>);
+mods.thaumcraft.Research.addPrereq("ROD_AMBER", "TXROD_greatwood", false);
+mods.thaumcraft.Research.setConcealed("ROD_AMBER", true);
+game.setLocalization("tc.research_name.ROD_AMBER", "Amber Wand Core");
+game.setLocalization("tc.research_text.ROD_AMBER", "Regenerative vis storage");
+mods.thaumcraft.Research.addPage("ROD_AMBER", "tc.research_page.ROD_AMBER");
+game.setLocalization("tc.research_page.ROD_AMBER", "You have finally found a practical use for amber, in the form of a wand core. Amber serves as a poor conduit for vis, and thus can only hold 10 vis of each type, but it has other benefits.<BR><BR>Amber cores seem to store a fleeting memory of vis when empty. By harnessing this memory, you have created a wand core that can replenish all forms of vis at a rather quick rate when not at full capacity. While many of the other wand cores you have created have had regenerative properties, the amber core regenerates one point of every type of vis, instead of one type in particular, at two times the rate.");
+mods.thaumcraft.Infusion.addRecipe("ROD_AMBER", <gregtech:gt.metaitem.01:23514>,
 [<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>], 
 "praecantatio 32, vinculum 32, auram 24, vitreus 16, arbor 8, alienis 8", <ThaumicExploration:amberCore>, 8);
-mods.thaumcraft.Research.addInfusionPage("Rod_AmberGTNH", <ThaumicExploration:amberCore>);
+mods.thaumcraft.Research.addInfusionPage("ROD_AMBER", <ThaumicExploration:amberCore>);
 
 // --- Amber Rod Staff Core
 mods.thaumcraft.Research.orphanResearch("ROD_AMBER_staff");
 mods.thaumcraft.Research.removeResearch("ROD_AMBER_staff");
-mods.thaumcraft.Research.addResearch("Rod_Amber_StaffGTNH", "TX", "vinculum 18, instrumentum 15, praecantatio 12, alienis 9, auram 6, alienis 3", -6, 0, 4, <ThaumicExploration:amberStaffCore>);
-mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "TXROD_greatwood_staff", false);
-mods.thaumcraft.Research.addPrereq("Rod_Amber_StaffGTNH", "TXBASICARTIFACE", true);
-mods.thaumcraft.Research.setConcealed("Rod_Amber_StaffGTNH", true);
-game.setLocalization("tc.research_name.Rod_Amber_StaffGTNH", "Amber Staff Core");
-game.setLocalization("tc.research_text.Rod_Amber_StaffGTNH", "Regenerative vis storage");
-mods.thaumcraft.Research.addPage("Rod_Amber_StaffGTNH", "tc.research_page.Rod_Amber_StaffGTNH");
-game.setLocalization("tc.research_page.Rod_Amber_StaffGTNH", "A staff core crafted from amber can store 25 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.");
-mods.thaumcraft.Arcane.addShaped("Rod_Amber_StaffGTNH", <ThaumicExploration:amberStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
+mods.thaumcraft.Research.addResearch("ROD_AMBER_staff", "TX", "vinculum 18, instrumentum 15, praecantatio 12, alienis 9, auram 6, alienis 3", -6, 0, 4, <ThaumicExploration:amberStaffCore>);
+mods.thaumcraft.Research.addPrereq("ROD_AMBER_staff", "TXROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("ROD_AMBER_staff", "TXBASICARTIFACE", true);
+mods.thaumcraft.Research.setConcealed("ROD_AMBER_staff", true);
+game.setLocalization("tc.research_name.ROD_AMBER_staff", "Amber Staff Core");
+game.setLocalization("tc.research_text.ROD_AMBER_staff", "Regenerative vis storage");
+mods.thaumcraft.Research.addPage("ROD_AMBER_staff", "tc.research_page.ROD_AMBER_staff");
+game.setLocalization("tc.research_page.ROD_AMBER_staff", "A staff core crafted from amber can store 25 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.");
+mods.thaumcraft.Arcane.addShaped("ROD_AMBER_staff", <ThaumicExploration:amberStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
 [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
 [<Thaumcraft:blockCrystal:2>, <ThaumicExploration:amberCore>, <Thaumcraft:blockCrystal:3>],
 [<ThaumicExploration:amberCore>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>]]);
-mods.thaumcraft.Research.addArcanePage("Rod_Amber_StaffGTNH", <ThaumicExploration:amberStaffCore>);
+mods.thaumcraft.Research.addArcanePage("ROD_AMBER_staff", <ThaumicExploration:amberStaffCore>);
 
 // --- Necromancers Staff Core
 mods.thaumcraft.Research.orphanResearch("ROD_NECROMANCER_staff");
 mods.thaumcraft.Research.removeResearch("ROD_NECROMANCER_staff");
-mods.thaumcraft.Research.addResearch("Rod_Necromancer_StaffGTNH", "TX", "mortuus 21, instrumentum 18, perditio 15, auram 12, spiritus 9, exanimis 6, cognitio 3", -3, 1, 4, <ThaumicExploration:necroStaffCore>);
-mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "TXROD_greatwood_staff", false);
-mods.thaumcraft.Research.addPrereq("Rod_Necromancer_StaffGTNH", "BraincureGTNH", true);
-mods.thaumcraft.Research.setConcealed("Rod_Necromancer_StaffGTNH", true);
-game.setLocalization("tc.research_name.Rod_Necromancer_StaffGTNH", "Necromancer's Staff Core");
-game.setLocalization("tc.research_text.Rod_Necromancer_StaffGTNH", "The power of the undead");
-mods.thaumcraft.Research.addPage("Rod_Necromancer_StaffGTNH", "tc.research_page.Rod_Necromancer_StaffGTNH");
-game.setLocalization("tc.research_page.Rod_Necromancer_StaffGTNH", "You have created a horrifying tool by infusing a Bone Staff Core with remnants of the undead.<BR><BR>This staff core is the perfect tool for the bloodthirsty thaumaturge. It boasts a large capacity of 200 vis, and receives four times the normal amount of vis from killed monsters. In addition, this staff is an even more proficient at melee combat. Striking a monster begins to wither their life force away. Unfortunately, this does not come without downsides. The dark magic used to infuse the staff makes it less receptive to vis obtained from other means, only effectively receiving 75% of the vis an ordinary wand would from nodes or other sources.");
-mods.thaumcraft.Infusion.addRecipe("Rod_Necromancer_StaffGTNH", <Thaumcraft:WandRod:57>,
+mods.thaumcraft.Research.addResearch("ROD_NECROMANCER_staff", "TX", "mortuus 21, instrumentum 18, perditio 15, auram 12, spiritus 9, exanimis 6, cognitio 3", -3, 1, 4, <ThaumicExploration:necroStaffCore>);
+mods.thaumcraft.Research.addPrereq("ROD_NECROMANCER_staff", "TXROD_greatwood_staff", false);
+mods.thaumcraft.Research.addPrereq("ROD_NECROMANCER_staff", "BraincureGTNH", true);
+mods.thaumcraft.Research.setConcealed("ROD_NECROMANCER_staff", true);
+game.setLocalization("tc.research_name.ROD_NECROMANCER_staff", "Necromancer's Staff Core");
+game.setLocalization("tc.research_text.ROD_NECROMANCER_staff", "The power of the undead");
+mods.thaumcraft.Research.addPage("ROD_NECROMANCER_staff", "tc.research_page.ROD_NECROMANCER_staff");
+game.setLocalization("tc.research_page.ROD_NECROMANCER_staff", "You have created a horrifying tool by infusing a Bone Staff Core with remnants of the undead.<BR><BR>This staff core is the perfect tool for the bloodthirsty thaumaturge. It boasts a large capacity of 200 vis, and receives four times the normal amount of vis from killed monsters. In addition, this staff is an even more proficient at melee combat. Striking a monster begins to wither their life force away. Unfortunately, this does not come without downsides. The dark magic used to infuse the staff makes it less receptive to vis obtained from other means, only effectively receiving 75% of the vis an ordinary wand would from nodes or other sources.");
+mods.thaumcraft.Infusion.addRecipe("ROD_NECROMANCER_staff", <Thaumcraft:WandRod:57>,
 [<minecraft:skull:1>, <ThaumicExploration:pureZombieBrain>, <minecraft:rotten_flesh>, <minecraft:bone>, <minecraft:nether_star>, <ThaumicExploration:pureZombieBrain>, <minecraft:rotten_flesh>, <minecraft:bone>], 
 "mortuus 64, instrumentum 24, perditio 48, auram 32, spiritus 32, exanimis 16, cognitio 16", <ThaumicExploration:necroStaffCore>, 12);
-mods.thaumcraft.Research.addInfusionPage("Rod_Necromancer_StaffGTNH", <ThaumicExploration:necroStaffCore>);
-mods.thaumcraft.Warp.addToResearch("Rod_Necromancer_StaffGTNH", 3);
+mods.thaumcraft.Research.addInfusionPage("ROD_NECROMANCER_staff", <ThaumicExploration:necroStaffCore>);
+mods.thaumcraft.Warp.addToResearch("ROD_NECROMANCER_staff", 3);
 
 
 
