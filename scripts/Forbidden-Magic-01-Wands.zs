@@ -141,7 +141,7 @@ mods.thaumcraft.Research.addResearch("CAP_terrasteel", "FORBIDDEN", "terra 5, pr
 game.setLocalization("en_US", "tc.research_name.CAP_terrasteel", "Terrasteel Wand Caps");
 game.setLocalization("en_US", "tc.research_text.CAP_terrasteel", "[FM] Completion!");
 mods.thaumcraft.Research.addPage("CAP_terrasteel", "derp.research_page.CAP_terrasteel");
-game.setLocalization("en_US", "derp.research_page.CAP_terrasteel", "You've read about a metal, that's completly charged with magical energys that it could even summon demons, you don't think that's true, but it's worth a try. Just infuse you manasteel caps again with some steel leafs, crystal clusters and add a few jars of praecantatio essentia and see what happens, maybe it will be the best wand cap existing in this world.");
+game.setLocalization("en_US", "derp.research_page.CAP_terrasteel", "You've read about a metal, that's completely charged with magical energies that it could even summon demons, you don't think that's true, but it's worth a try. Just infuse you manasteel caps again with some steel leafs, crystal clusters and add a few jars of praecantatio essentia and see what happens, maybe it will be the best wand cap existing in this world.");
 mods.thaumcraft.Research.addInfusionPage("CAP_terrasteel",capTerra);
 mods.thaumcraft.Research.setConcealed("CAP_terrasteel", true);
 mods.thaumcraft.Research.addPrereq("CAP_terrasteel", "CAP_manasteel", false);
@@ -153,7 +153,7 @@ mods.thaumcraft.Research.addResearch("CAP_elementium", "FORBIDDEN", "auram 5, pr
 game.setLocalization("en_US", "tc.research_name.CAP_elementium", "Elementium Wand Caps");
 game.setLocalization("en_US", "tc.research_text.CAP_elementium", "[FM] Eco Friendly Wand Caps");
 mods.thaumcraft.Research.addPage("CAP_elementium", "derp.research_page.CAP_elementium");
-game.setLocalization("en_US", "derp.research_page.CAP_elementium", "What would happen if you combine you Manasteel caps with power of elemental shards? Insted of thinking about what could happen, you simply tried it, since the shards seem to resist the cap you decited to use some tungstensteel screws to bind it all together. The result is a metal, that has a higher vis dicount than thaumium. Sadly it has to be reinfused, due to it's new non magical components.");
+game.setLocalization("en_US", "derp.research_page.CAP_elementium", "What would happen if you combine you Manasteel caps with power of elemental shards? Instead of thinking about what could happen, you simply tried it, since the shards seem to resist the cap you decided to use some tungstensteel screws to bind it all together. The result is a metal, that has a higher vis discount than thaumium. Sadly it has to be reinfused, due to it's new non magical components.");
 mods.thaumcraft.Research.addPrereq("CAP_elementium", "CAP_manasteel", false);
 mods.thaumcraft.Research.addArcanePage("CAP_elementium",<ForbiddenMagic:WandCaps:6>);
 mods.thaumcraft.Research.addInfusionPage("CAP_elementium",capElementium);
@@ -164,7 +164,7 @@ mods.thaumcraft.Research.addResearch("VINTEUM", "FORBIDDEN", "metallum 5, permut
 game.setLocalization("en_US", "tc.research_name.VINTEUM", "Vinteum");
 game.setLocalization("en_US", "tc.research_text.VINTEUM", "[FM] Thaumium's smaller brother");
 mods.thaumcraft.Research.addPage("VINTEUM", "derp.research_page.VINTEUM");
-game.setLocalization("en_US", "derp.research_page.VINTEUM", "Every Thaumaturge knows about Thaumium, it is faily easy to produce and is a great magical conductor. More skilled Thaumaturges prefer usiung vintum insted. Vintum is similar to Thaumium, but can also be turned into gems, due to it's more ordered molecular structure. You just have to reorganize some Thaumium to turn it into vinteum, just throw it into a cauldron with some Permutatio and Ordo in it, that should be enough.");
+game.setLocalization("en_US", "derp.research_page.VINTEUM", "Every Thaumaturge knows about Thaumium, it is fairly easy to produce and is a great magical conductor. More skilled Thaumaturges prefer using vinteum instead. Vintum is similar to Thaumium, but can also be turned into gems, due to it's more ordered molecular structure. You just have to reorganize some Thaumium to turn it into vinteum, just throw it into a cauldron with some Permutatio and Ordo in it, that should be enough.");
 mods.thaumcraft.Research.addCruciblePage("VINTEUM",<gregtech:gt.metaitem.01:9529>);
 mods.thaumcraft.Research.setConcealed("VINTEUM", true);
 mods.thaumcraft.Research.addPrereq("VINTEUM", "JOURNEY", false);
@@ -177,7 +177,7 @@ mods.thaumcraft.Research.addResearch("CAP_vinteum", "FORBIDDEN", "permutatio 5, 
 game.setLocalization("en_US", "tc.research_name.CAP_vinteum", "Vinteum Caps");
 game.setLocalization("en_US", "tc.research_text.CAP_vinteum", "[FM] They're blue!");
 mods.thaumcraft.Research.addPage("CAP_vinteum", "derp.research_page.CAP_vinteum");
-game.setLocalization("en_US", "derp.research_page.CAP_vinteum", "Since vinteum is just reorganized Thaumium, you can't exspect that it gives you a higher vis discount, but since it is much more ordered you can dirctly use it's full magical potenital, which means no infusion required");
+game.setLocalization("en_US", "derp.research_page.CAP_vinteum", "Since vinteum is just reorganized Thaumium, you can't expect that it gives you a higher vis discount, but since it is much more ordered you can directly use it's full magical potential, which means no infusion required");
 mods.thaumcraft.Research.addArcanePage("CAP_vinteum",capVinteum);
 mods.thaumcraft.Research.setConcealed("CAP_vinteum", true);
 mods.thaumcraft.Research.addPrereq("CAP_vinteum", "VINTEUM", false);
