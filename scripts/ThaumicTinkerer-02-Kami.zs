@@ -168,10 +168,13 @@ mods.thaumcraft.Research.setComplexity("ICHOR_CLOTH", 4);
 mods.thaumcraft.Warp.addToResearch("ICHOR_CLOTH", 1);
 
 // --- Ichorium
+mods.thaumcraft.Research.clearPages("ICHORIUM");
+mods.thaumcraft.Research.addPage("ICHORIUM", "ttresearch.page.ICHORIUM.0");
 mods.thaumcraft.Arcane.addShaped("ICHORIUM", <gregtech:gt.metaitem.01:11978>, "aer 125, aqua 125, ignis 125, terra 125, ordo 125, perditio 125", [
 [<ore:ingotVoid>, <ThaumicTinkerer:kamiResource>, <ore:ingotVoid>],
 [<ThaumicTinkerer:kamiResource>, <ore:ingotOsmiridium>, <ThaumicTinkerer:kamiResource>],
 [<ore:gemFlawlessDiamond>, <ThaumicTinkerer:kamiResource>, <ore:gemFlawlessDiamond>]]);
+mods.thaumcraft.Research.addArcanePage("ICHORIUM", <gregtech:gt.metaitem.01:11978>);
 // -
 mods.thaumcraft.Research.setAspects("ICHORIUM", "metallum 15, fabrico 15, instrumentum 12, praecantatio 9, lux 6, alienis 3");
 mods.thaumcraft.Research.setComplexity("ICHORIUM", 4);
