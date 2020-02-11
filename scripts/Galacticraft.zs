@@ -1495,18 +1495,18 @@ Assembler.addRecipe(<GalacticraftCore:item.spaceship:2>, <GalacticraftCore:item.
 Assembler.addRecipe(<GalacticraftCore:item.spaceship:3>, <GalacticraftCore:item.spaceship>, <ore:chestGold>, 100, 480);
 
 // --- Rocket Tier 2 with Chest
-Assembler.addRecipe(<GalacticraftMars:item.spaceshipTier2:1>, <GalacticraftMars:item.spaceshipTier2>, <ore:chestCopper>, 100, 1920);
+Assembler.addRecipe(<GalacticraftMars:item.spaceshipTier2:1>, <GalacticraftMars:item.spaceshipTier2>, <ore:chestCopper>, 100, 1024);
 // -
-Assembler.addRecipe(<GalacticraftMars:item.spaceshipTier2:2>, <GalacticraftMars:item.spaceshipTier2>, <ore:chestIron>, 100, 1920);
+Assembler.addRecipe(<GalacticraftMars:item.spaceshipTier2:2>, <GalacticraftMars:item.spaceshipTier2>, <ore:chestIron>, 100, 1024);
 // -
-Assembler.addRecipe(<GalacticraftMars:item.spaceshipTier2:3>, <GalacticraftMars:item.spaceshipTier2>, <ore:chestGold>, 100, 1920);
+Assembler.addRecipe(<GalacticraftMars:item.spaceshipTier2:3>, <GalacticraftMars:item.spaceshipTier2>, <ore:chestGold>, 100, 1024);
 
 // --- Rocket Tier 3 with Chest 
-Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:1>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestCopper>, 100, 7680);
+Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:1>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestCopper>, 100, 1920);
 // -
-Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:2>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestIron>, 100, 7680);
+Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:2>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestIron>, 100, 1920);
 // -
-Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:3>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestGold>, 100, 7680);
+Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:3>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestGold>, 100, 1920);
 
 // --- Moon Buggy with Chest
 recipes.addShapeless(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.buggy>, <ore:chestCopper>, 100, 480);
