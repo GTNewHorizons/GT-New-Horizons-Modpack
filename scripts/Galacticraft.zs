@@ -1509,11 +1509,11 @@ Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:2>, <GalacticraftMars
 Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:3>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestGold>, 100, 1920);
 
 // --- Moon Buggy with Chest
-recipes.addShapeless(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.buggy>, <ore:chestCopper>, 100, 480);
+Assembler.addRecipe(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.buggy>, <ore:chestCopper>, 100, 480);
 // -
-recipes.addShapeless(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.buggy>, <ore:chestIron>, 100, 480);
+Assembler.addRecipe(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.buggy>, <ore:chestIron>, 100, 480);
 // -
-recipes.addShapeless(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.buggy>, <ore:chestGold>, 100, 480);
+Assembler.addRecipe(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.buggy>, <ore:chestGold>, 100, 480);
 
 
 // --- Blast Furnace Recipes --- 

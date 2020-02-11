@@ -536,32 +536,32 @@ Assembler.addRecipe(<GalaxySpace:item.Tier4Rocket:2>, <GalaxySpace:item.Tier4Roc
 Assembler.addRecipe(<GalaxySpace:item.Tier4Rocket:3>, <GalaxySpace:item.Tier4Rocket>, <ore:chestGold>, 100, 4096);
 
 // --- Rocket Tier 5 with Chest
-Assembler.addRecipe(<GalaxySpace:item.Tier5Rocket:1>, <GalaxySpace:item.Tier4Rocket>, <ore:chestCopper>, 100, 7680);
+Assembler.addRecipe(<GalaxySpace:item.Tier5Rocket:1>, <GalaxySpace:item.Tier5Rocket>, <ore:chestCopper>, 100, 7680);
 // -
-Assembler.addRecipe(<GalaxySpace:item.Tier5Rocket:2>, <GalaxySpace:item.Tier4Rocket>, <ore:chestIron>, 100, 7680);
+Assembler.addRecipe(<GalaxySpace:item.Tier5Rocket:2>, <GalaxySpace:item.Tier5Rocket>, <ore:chestIron>, 100, 7680);
 // -
-Assembler.addRecipe(<GalaxySpace:item.Tier5Rocket:3>, <GalaxySpace:item.Tier4Rocket>, <ore:chestGold>, 100, 7680);
+Assembler.addRecipe(<GalaxySpace:item.Tier5Rocket:3>, <GalaxySpace:item.Tier5Rocket>, <ore:chestGold>, 100, 7680);
 
 // --- Rocket Tier 6 with Chest
-Assembler.addRecipe(<GalaxySpace:item.Tier6Rocket:1>, <GalaxySpace:item.Tier4Rocket>, <ore:chestCopper>, 100, 16384);
+Assembler.addRecipe(<GalaxySpace:item.Tier6Rocket:1>, <GalaxySpace:item.Tier6Rocket>, <ore:chestCopper>, 100, 16384);
 // -
-Assembler.addRecipe(<GalaxySpace:item.Tier6Rocket:2>, <GalaxySpace:item.Tier4Rocket>, <ore:chestIron>, 100, 16384);
+Assembler.addRecipe(<GalaxySpace:item.Tier6Rocket:2>, <GalaxySpace:item.Tier6Rocket>, <ore:chestIron>, 100, 16384);
 // -
-Assembler.addRecipe(<GalaxySpace:item.Tier6Rocket:3>, <GalaxySpace:item.Tier4Rocket>, <ore:chestGold>, 100, 16384);
+Assembler.addRecipe(<GalaxySpace:item.Tier6Rocket:3>, <GalaxySpace:item.Tier6Rocket>, <ore:chestGold>, 100, 16384);
 
 // --- Rocket Tier 7 with Chest
-Assembler.addRecipe(<GalaxySpace:item.Tier7Rocket:1>, <GalaxySpace:item.Tier4Rocket>, <ore:chestCopper>, 100, 30720);
+Assembler.addRecipe(<GalaxySpace:item.Tier7Rocket:1>, <GalaxySpace:item.Tier7Rocket>, <ore:chestCopper>, 100, 30720);
 // -
-Assembler.addRecipe(<GalaxySpace:item.Tier7Rocket:2>, <GalaxySpace:item.Tier4Rocket>, <ore:chestIron>, 100, 30720);
+Assembler.addRecipe(<GalaxySpace:item.Tier7Rocket:2>, <GalaxySpace:item.Tier7Rocket>, <ore:chestIron>, 100, 30720);
 // -
-Assembler.addRecipe(<GalaxySpace:item.Tier7Rocket:3>, <GalaxySpace:item.Tier4Rocket>, <ore:chestGold>, 100, 30720);
+Assembler.addRecipe(<GalaxySpace:item.Tier7Rocket:3>, <GalaxySpace:item.Tier7Rocket>, <ore:chestGold>, 100, 30720);
 
 // --- Rocket Tier 8 with Chest
-Assembler.addRecipe(<GalaxySpace:item.Tier8Rocket:1>, <GalaxySpace:item.Tier4Rocket>, <ore:chestCopper>, 100, 65536);
+Assembler.addRecipe(<GalaxySpace:item.Tier8Rocket:1>, <GalaxySpace:item.Tier8Rocket>, <ore:chestCopper>, 100, 65536);
 // -
-Assembler.addRecipe(<GalaxySpace:item.Tier8Rocket:2>, <GalaxySpace:item.Tier4Rocket>, <ore:chestIron>, 100, 65536);
+Assembler.addRecipe(<GalaxySpace:item.Tier8Rocket:2>, <GalaxySpace:item.Tier8Rocket>, <ore:chestIron>, 100, 65536);
 // -
-Assembler.addRecipe(<GalaxySpace:item.Tier8Rocket:3>, <GalaxySpace:item.Tier4Rocket>, <ore:chestGold>, 100, 65536);
+Assembler.addRecipe(<GalaxySpace:item.Tier8Rocket:3>, <GalaxySpace:item.Tier8Rocket>, <ore:chestGold>, 100, 65536);
 
 
 
