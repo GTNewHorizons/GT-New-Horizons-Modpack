@@ -1030,7 +1030,6 @@ furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 recipes.remove(<ore:nuggetIron>);
 
 
-
 // --- Adding Back Recipes ---
 
 
@@ -1071,27 +1070,7 @@ recipes.addShaped(Dropper, [
 // --- Piston
 recipes.addShaped(Piston, [
 [<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, Fence, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
-// -
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <ExtraTrees:fence:*>, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
-// -
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <Forestry:fences:*>, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
-// -
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <Forestry:fencesFireproof:*>, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
-// -
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <Natura:Natura.fence:*>, <ore:gearGtSmallAnyIron>],
+[<ore:gearGtSmallAnyIron>, <ore:fenceWood>, <ore:gearGtSmallAnyIron>],
 [Cobble, <ore:plateRedAlloy>, Cobble]]);
 
 // --- Sticky Piston
@@ -2416,27 +2395,7 @@ recipes.addShaped(<minecraft:item_frame>, [
 recipes.addShaped(<minecraft:bed>, [
 [<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[Fence, <ore:craftingToolSoftHammer>, Fence]]);
-// -
-recipes.addShaped(<minecraft:bed>, [
-[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<ExtraTrees:fence:*>, <ore:craftingToolSoftHammer>, <ExtraTrees:fence:*>]]);
-// -
-recipes.addShaped(<minecraft:bed>, [
-[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<Forestry:fences:*>, <ore:craftingToolSoftHammer>, <Forestry:fences:*>]]);
-// -
-recipes.addShaped(<minecraft:bed>, [
-[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<Forestry:fencesFireproof:*>, <ore:craftingToolSoftHammer>, <Forestry:fencesFireproof:*>]]);
-// -
-recipes.addShaped(<minecraft:bed>, [
-[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<Natura:Natura.fence:*>, <ore:craftingToolSoftHammer>, <Natura:Natura.fence:*>]]);
+[<ore:fenceWood>, <ore:craftingToolSoftHammer>, <ore:fenceWood>]]);
 
 // --- Fishing Rod
 recipes.addShaped(<minecraft:fishing_rod>, [
