@@ -304,9 +304,9 @@ game.setLocalization("tc.research_text.QUARTZSPHERE", "[WI] Calling The Witches"
 mods.thaumcraft.Research.addPrereq("QUARTZSPHERE", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.addPage("QUARTZSPHERE", "Witchery.research_page.QUARTZSPHERE");
 game.setLocalization("Witchery.research_page.QUARTZSPHERE", "A Quartz Sphere is a component used in the Ritual production of a Crystal Ball.");
-mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 50, ignis 50, terra 50, ordo 50", [
+mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 25, ignis 25, terra 25, ordo 25", [
 [<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>],
-[<ore:plateCertusQuartz>, <ore:gemExquisiteGlass>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <ore:lensGlass>, <ore:plateCertusQuartz>],
 [<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>]]);
 mods.thaumcraft.Research.addArcanePage("QUARTZSPHERE", <witchery:ingredient:92>);
 
