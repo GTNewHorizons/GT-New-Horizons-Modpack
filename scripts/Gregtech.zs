@@ -90,20 +90,8 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 // --- Netherstar Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
-// --- GT Swords
-//recipes.remove(<gregtech:gt.metatool.01>);
-
-// --- GT Pickaxes
-//recipes.remove(<gregtech:gt.metatool.01:2>);
-
 // --- GT Shovels
-recipes.remove(<gregtech:gt.metatool.01:4>);
-
-// --- GT Axes
-//recipes.remove(<gregtech:gt.metatool.01:6>);
-
-// --- GT Hoes
-//recipes.remove(<gregtech:gt.metatool.01:8>);
+recipes.removeShapeless(<gregtech:gt.metatool.01:4>);
 
 // --- Eridium Neutron Reflector
 recipes.remove(<gregtech:gt.neutronreflector>);
@@ -413,8 +401,6 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:1370>);
 
 
 
-
-
 // --- Add Recipes ---
 
 // --- Teleporter
@@ -462,36 +448,6 @@ recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
 // --- Glass Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2890>, [<ore:craftingToolMortar>, <TConstruct:GlassBlock>]);
 recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<ore:craftingToolMortar>, <TConstruct:GlassPane>]);
-
-// --- Flient Sword
-recipes.addShaped(<gregtech:gt.metatool.01>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[null, Flint, null],
-[null, Flint, null],
-[null, Stick, null]]);
-
-// --- Flint Pickaxe
-recipes.addShaped(<gregtech:gt.metatool.01:2>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[Flint, Flint, Flint],
-[null, Stick, null],
-[null, Stick, null]]);
-
-// --- Flint Shovel
-recipes.addShaped(<gregtech:gt.metatool.01:4>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[null, Flint, null],
-[null, Stick, null],
-[null, Stick, null]]);
-
-// --- Flint Axe
-recipes.addShaped(<gregtech:gt.metatool.01:6>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[Flint, Flint, null],
-[Flint, Stick, null],
-[null, Stick, null]]);
-
-// --- Flint Hoe
-recipes.addShaped(<gregtech:gt.metatool.01:8>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[Flint, Flint, null],
-[null, Stick, null],
-[null, Stick, null]]);
 
 // --- Mince Meat
 recipes.addShapeless(<gregtech:gt.metaitem.01:2892>, [<ore:craftingToolMortar>, <ore:listAllmeatraw>]);
