@@ -131,6 +131,9 @@ val CertusQuartz = <ore:gemCertusQuartz>;
 val ALRod = <ore:stickAluminium>;
 val IronRod = <ore:stickIron>;
 
+// Add skystone oredict
+val SkystoneBlockVar = <ore:SkystoneBlock>;
+SkystoneBlockVar.add(<appliedenergistics2:tile.BlockSkyStone>);
 
 
 // --- Removing Recipes ---
