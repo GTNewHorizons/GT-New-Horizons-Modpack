@@ -1485,7 +1485,7 @@ Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforce
 Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27306> * 4, 800, 64);
 
 // --- H.S. Booster Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.boost"}) * 16, [<Railcraft:part.railbed:1>, <Railcraft:part.rail:3> * 4, <ore:plateRedAlloy> * 2, <gregtech:gt.integrated_circuit:16> * 0], null, 1200, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.boost"}) * 8, HsTrack * 12, <ore:ingotRedAlloy> * 1, 600, 64);
 
 // --- H.S. Transition Track ---
 Assembler.addRecipe(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}) * 4, [<Railcraft:part.railbed:1>,  HsTrack * 2, <ore:plateRedAlloy> * 2], null, 1200, 64);
