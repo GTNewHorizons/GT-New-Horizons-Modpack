@@ -165,7 +165,7 @@ recipes.addShapeless(<witchery:ingredient:7> * 4, [<minecraft:bone>, <ore:crafti
 recipes.addShaped(<witchery:ingredient:81>, [
 [<witchery:ingredient:22>, <witchery:ingredient:21>, <witchery:garlic>],
 [<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
-[<witchery:ingredient:69>, <witchery:ingredient:156>, <witchery:ingredient:111>]]);
+[<witchery:ingredient:69>, <witchery:ingredient:156>, <ore:listAllseed>]]);
 
 // --- Book of Biome
 recipes.addShaped(<witchery:ingredient:106>, [
@@ -177,7 +177,7 @@ recipes.addShaped(<witchery:ingredient:106>, [
 recipes.addShaped(<witchery:ingredient:127>, [
 [<witchery:poppet>.withTag({WITCDamage: 0}), <witchery:ingredient:7>, <witchery:ingredient:14>],
 [<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
-[<witchery:ingredient:74>, <witchery:ingredient:25>, <witchery:ingredient:90>]]);
+[<witchery:ingredient:74>, <witchery:ingredient:25>, <ore:flowerYellow>]]);
 
 // --- Book of Collection Fumes
 recipes.addShaped(<witchery:ingredient:46>, [
@@ -201,7 +201,7 @@ recipes.addShaped(<witchery:ingredient:107>, [
 recipes.addShaped(<witchery:ingredient:47>, [
 [<witchery:ingredient:27>, <witchery:ingredient:10>, <witchery:ingredient:27>],
 [<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
-[<witchery:ingredient:27>, <witchery:cauldron>, <witchery:ingredient:27>]]);
+[<witchery:ingredient:27>, <minecraft:cauldron>, <witchery:ingredient:27>]]);
 
 // --- Book of Circle Magic
 recipes.addShaped(<witchery:ingredient:48>, [
@@ -211,16 +211,15 @@ recipes.addShaped(<witchery:ingredient:48>, [
 
 // --- Book of Brews and Infusions
 recipes.addShaped(<witchery:ingredient:49>, [
-[<witchery:ingredient:34>, <witchery:ingredient:37>, <witchery:ingredient:34>],
+[<witchery:ingredient:34>, <witchery:ingredient:34>, <witchery:ingredient:34>],
 [<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
-[<witchery:ingredient:21>, <minecraft:brewing_stand>, <witchery:ingredient:21>]]);
+[<witchery:ingredient:21>, <minecraft:cauldron>, <witchery:ingredient:21>]]);
 
 // --- Earmuffs
 recipes.addShaped(<witchery:earmuffs>, [
-[<ore:srewThaumium>, <ore:springSteel>, <ore:srewThaumium>],
+[<ore:screwThaumium>, <ore:springSteel>, <ore:screwThaumium>],
 [<ore:dyeBlack>, <ore:craftingToolWrench>, <ore:craftingFeather>],
-[<ore:ringThaumium>, <ore:craftingScrewdriver>, <ore:ringThaumium>]]);
-
+[<ore:ringThaumium>, <ore:craftingToolScrewdriver>, <ore:ringThaumium>]]);
 
 
 
@@ -305,9 +304,9 @@ game.setLocalization("tc.research_text.QUARTZSPHERE", "[WI] Calling The Witches"
 mods.thaumcraft.Research.addPrereq("QUARTZSPHERE", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.addPage("QUARTZSPHERE", "Witchery.research_page.QUARTZSPHERE");
 game.setLocalization("Witchery.research_page.QUARTZSPHERE", "A Quartz Sphere is a component used in the Ritual production of a Crystal Ball.");
-mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 50, ignis 50, terra 50, ordo 50", [
+mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 25, ignis 25, terra 25, ordo 25", [
 [<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>],
-[<ore:plateCertusQuartz>, <ore:gemExquisiteGlass>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <ore:lensGlass>, <ore:plateCertusQuartz>],
 [<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>]]);
 mods.thaumcraft.Research.addArcanePage("QUARTZSPHERE", <witchery:ingredient:92>);
 

@@ -137,6 +137,16 @@
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="7" exp="0.7" />
       </output>
     </recipe>
+	<recipe name="End Steel" energyCost="20000">
+	  <input>
+        <itemStack modID="minecraft" itemName="end_stone" />
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" />
+		<itemStack modID="minecraft" itemName="obsidian" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="8" exp="0.7" />
+      </output>
+    </recipe>
     <recipe name="Fused Quartz" energyCost="5000" >
       <input>
         <itemStack modID="minecraft" itemName="quartz" number="4" />

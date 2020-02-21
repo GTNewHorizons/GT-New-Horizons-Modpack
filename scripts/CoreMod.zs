@@ -744,9 +744,9 @@ recipes.addShaped(<gregtech:gt.metaitem.01:37>, [
 
 // --- Leather out of XP 20 level
 recipes.addShaped(<minecraft:leather>, [
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
-[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
-[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
 // --- Small Cobalt Bass Dust out of XP 25 level
 recipes.addShaped(<gregtech:gt.metaitem.01:1343>, [

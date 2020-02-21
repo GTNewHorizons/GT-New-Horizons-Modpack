@@ -1635,8 +1635,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 
 // --- Builders Backpach
 recipes.addShaped(<Forestry:builderBag>, [
-[<harvestcraft:wovencottonItem>, <minecraft:fence>, <harvestcraft:wovencottonItem>],
-[<ore:itemLeather>, <minecraft:fence>, <ore:itemLeather>],
+[<harvestcraft:wovencottonItem>, <ore:fenceWood>, <harvestcraft:wovencottonItem>],
+[<ore:itemLeather>, <ore:fenceWood>, <ore:itemLeather>],
 [<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 // - 
 recipes.addShapeless(<Forestry:builderBag>, [<Forestry:builderBag>]);

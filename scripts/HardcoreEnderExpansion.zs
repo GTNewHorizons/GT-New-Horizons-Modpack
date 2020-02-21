@@ -10,6 +10,7 @@ import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
+import mods.gregtech.ForgeHammer;
 import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
 
@@ -376,7 +377,8 @@ recipes.addShaped(<HardcoreEnderExpansion:curse:266>, [
 [<ore:dustNetherrack>, <HardcoreEnderExpansion:curse:10>, <ore:dustTinyNetherStar>],
 [null, <HardcoreEnderExpansion:arcane_shard>, null]]);
 
-
+// --- Sphalerite
+furnace.addRecipe(<gregtech:gt.metaitem.01:11036>, <HardcoreEnderExpansion:sphalerite>);
 
 
 
@@ -462,6 +464,14 @@ Extractor.addRecipe(<minecraft:dye:14> * 4, <HardcoreEnderExpansion:crossed_deco
 
 
 
+// --- Forge Hammer recipes
+
+
+
+// --- Sphalerite to crushed dust
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:5839> * 2, <HardcoreEnderExpansion:sphalerite>, 4, 10);
+
+
 
 // --- Lathe Recipes ---
 
@@ -486,3 +496,6 @@ Pulverizer.addRecipe([<HardcoreEnderExpansion:igneous_rock> * 2], <HardcoreEnder
 
 // --- Endium Dust
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2770> * 9], <HardcoreEnderExpansion:endium_block>, [10000], 50, 480);
+
+// --- Sphalerite to crushed dust
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:5839> * 4], <HardcoreEnderExpansion:sphalerite>, [10000], 400, 2);
