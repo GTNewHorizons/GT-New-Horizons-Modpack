@@ -47,19 +47,19 @@ mods.thaumcraft.Research.addArcanePage("BLOODALTAR", <AWWayofTime:Altar>);
 mods.thaumcraft.Warp.addToResearch("BLOODALTAR", 5);
 
 // --- Life Infuser
-mods.thaumcraft.Research.addResearch("LIFEINFUSER", "BLOODMAGIC", "victus 18, alienis 15, praecantatio 12, auram 9, fames 6, terra 3", -2, 2, 3, <BloodArsenal:life_infuser>);
+mods.thaumcraft.Research.addResearch("LIFEINFUSER", "BLOODMAGIC", "victus 18, alienis 15, praecantatio 12, auram 9, fames 6, terra 3", 6, -6, 3, <BloodArsenal:life_infuser>);
 game.setLocalization("tc.research_name.LIFEINFUSER", "Life Infuser");
 game.setLocalization("tc.research_text.LIFEINFUSER", "[BA] Transfer your Life Essence");
-mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "BLOODALTAR", false);
+mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "IMBUEARMOR", false);
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("LIFEINFUSER", false);
 mods.thaumcraft.Research.addPage("LIFEINFUSER", "bloodmagic.research_page.LIFEINFUSER");
-game.setLocalization("bloodmagic.research_page.LIFEINFUSER", "The Life Infuser is a Block Added by Blood Arsenal. It takes in life essence and gradually repairs a tool using 500 LE each damage point repaired. Once an orb is inserted into the Life Essence Materializer, it will suck out LP from the orb's owner converting it to Life Essence which can then be pumped out. (converts 150 - 100)");
+game.setLocalization("bloodmagic.research_page.LIFEINFUSER", "The Life Infuser is a Block Added by Blood Arsenal. It takes in life essence and gradually repairs a tool using 500 LE each damage point repaired. Once an orb is inserted into the Life Essence Materializer, it will suck out LP from the orb's owner converting it to Life Essence which can then be pumped out. (converts 150 - 100). Used to charge the Life Imbued Armor. 'Repairing' an item with metadata is NOT RECOMMENDED unless you want to break the game.");
 mods.thaumcraft.Infusion.addRecipe("LIFEINFUSER", <AWWayofTime:Altar>, 
 [<minecraft:nether_star>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>, <AWWayofTime:imbuedSlate>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:251>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>], 
 "victus 32, alienis 32, praecantatio 24, auram 16, fames 8, terra 8", <BloodArsenal:life_infuser>, 5);
 mods.thaumcraft.Research.addInfusionPage("LIFEINFUSER", <BloodArsenal:life_infuser>);
-mods.thaumcraft.Warp.addToResearch("LIFEINFUSER", 50);
+mods.thaumcraft.Warp.addToResearch("LIFEINFUSER", 60);
 
 // --- Life Essence Materializer
 mods.thaumcraft.Arcane.addShaped("LIFEINFUSER", <BloodArsenal:lp_materializer>, "ignis 50, terra 50, aqua 50, ordo 50", [
@@ -420,13 +420,12 @@ game.setLocalization("tc.research_text.IMBUEARMOR", "[BM] Life for blood");
 mods.thaumcraft.Research.addPrereq("IMBUEARMOR", "BLOODLETTERSPACK", false);
 mods.thaumcraft.Research.setConcealed("IMBUEARMOR", true);
 mods.thaumcraft.Research.addPage("IMBUEARMOR", "bloodmagic.research_page.IMBUEARMOR");
-game.setLocalization("bloodmagic.research_page.IMBUEARMOR", "The Life Imbued Armor is a powerful armor able to store Life Essence and utilize it to protect the wearer. Wearing this full set of armor will randomly heal you completely for the cost of LE inside the armor. Can be refilled in the Life Infuser.");
+game.setLocalization("bloodmagic.research_page.IMBUEARMOR", "The Life Imbued Armor is a powerful armor able to store Life Essence and utilize it to protect the wearer. Wearing this full set of armor will randomly heal you completely for the cost of LE inside the armor. Can be refilled in the Life Infuser. Unfortunately, the Life Infuser is broken (balance-wise), so it has an extremely high warp level to compensate.");
 mods.thaumcraft.Arcane.addShaped("IMBUEARMOR", <BloodArsenal:life_imbued_helmet>.withTag({LPStored: 0}), "terra 30, ignis 30, ordo 30, perditio 30", [
 [<TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>],
 [<TConstruct:heavyPlate:251>, <Thaumcraft:ItemHelmetThaumium>, <TConstruct:heavyPlate:251>],
 [null, <ore:craftingToolHardHammer>, null]]);
 mods.thaumcraft.Research.addArcanePage("IMBUEARMOR", <BloodArsenal:life_imbued_helmet>.withTag({LPStored: 0}));
-mods.thaumcraft.Warp.addToResearch("IMBUEARMOR", 10);
 
 // --- Life Imbued Chestplate
 mods.thaumcraft.Arcane.addShaped("IMBUEARMOR", <BloodArsenal:life_imbued_chestplate>.withTag({LPStored: 0}), "terra 60, ignis 60, ordo 60, perditio 60", [
@@ -1196,7 +1195,7 @@ mods.thaumcraft.Research.setAspects("ROD_blood_wood", "victus 18, praecantatio 1
 mods.thaumcraft.Research.setComplexity("ROD_blood_wood", 3);
 mods.thaumcraft.Warp.addToResearch("ROD_blood_wood", 5);
 
-// --- Blood Infused Wodden Staff of Doom
+// --- Blood Infused Wooden Staff of Doom
 mods.thaumcraft.Research.orphanResearch("ROD_blood_wood_staff");
 mods.thaumcraft.Research.removeResearch("ROD_blood_wood_staff");
 mods.thaumcraft.Research.addResearch("RODBLOODWOODSTAFF", "FORBIDDEN", "victus 18, instrumentum 15, aqua 12, praecantatio 9, potentia 6, tenebrae 3", 7, -5, 3, <BloodArsenal:wand_cores:1>);
