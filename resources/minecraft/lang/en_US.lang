@@ -3722,15 +3722,15 @@ gtnh.quest929.desc=The highest tier of the blood altar is tier 6. You need pilla
 
 # Quest.930 - §5§lAuto Mining
 gtnh.quest930.name=§5§lAuto Mining
-gtnh.quest930.desc=A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 8 EU/t to work. The miner searches for ores in a 17x17 block work area. Now comes with 2 fortune bonus! Great for gathering additional small ores...%n%nDon't forget to cover it up! These are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest930.desc=A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 8 EU/t to work. The miner searches for ores in a 17x17 block work area (adjustable with a screwdriver). Now comes with 1 fortune bonus! Great for gathering additional small ores...%n%nDon't forget to cover it up! These are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
 
 # Quest.931 - §6§lAuto Mining MV
 gtnh.quest931.name=§6§lAuto Mining MV
-gtnh.quest931.desc=The MV miner will find ores for you faster than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 32 eu to work. The Miner searches ores in a 33x33 block area and works two times faster than the LV variant. Comes with 4 fortune bonus, great for gathering small ores in the Nether.%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest931.desc=The MV miner will find ores for you faster than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 32 eu to work. The Miner searches ores in a 33x33 block area (adjustable with a screwdriver) and works two times faster than the LV variant. Comes with 2 fortune bonus, great for gathering small ores in the Nether.%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
 
 # Quest.932 - §9§lAuto Mining HV
 gtnh.quest932.name=§9§lAuto Mining HV
-gtnh.quest932.desc=The HV miner will find ores for you faster than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 128 eu to work. The Miner searches ores in a 49x49 block area (three chunks wide, perfect for a chunkloader) and works two times faster than the MV variant. It also has a 6 fortune bonus, making it even better for small ores.  Recommend taking some with you to the Moon to gather meteoric iron.
+gtnh.quest932.desc=The HV miner will find ores for you faster than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 128 eu to work. The Miner searches ores in a 49x49 block area (three chunks wide, perfect for a chunkloader) and works two times faster than the MV variant. It also has a 3 fortune bonus, making it even better for small ores.  Recommend taking some with you to the Moon to gather meteoric iron.
 
 # Quest.933 - §6§lPower of the Sun
 gtnh.quest933.name=§6§lPower of the Sun
@@ -5714,7 +5714,7 @@ gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.1428 - Tier 2 Schematic
 gtnh.quest1428.name=Tier 2 Schematic
-gtnh.quest1428.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The tier 2 rocket uses an elite circuit, a heavy duty plate tier 2, and the data stick in a ev circuit assembler.
+gtnh.quest1428.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The tier 2 rocket uses an elite circuit, a heavy duty plate tier 2, and the data stick in a hv circuit assembler.
 
 # Quest.1429 - Rocket Tier 2
 gtnh.quest1429.name=Rocket Tier 2
@@ -5956,12 +5956,12 @@ gtnh.quest1487.desc=In the next step you cool your glowing Mashmallows in an HV 
 gtnh.quest1488.name=Dezil's Marshmallow
 gtnh.quest1488.desc=In the last step you need to infuse your Marshmallow with some epic food in the thaumcraft infusion altar. Before you can do it you need to unlock the research.%nWarp will be added.
 
-# Quest.1489 - §c§lNow you really gonna hate this 1-4 in LuV
-gtnh.quest1489.name=§c§lNow you really gonna hate this 1-4 in LuV
+# Quest.1489 - §c§lNow you realy gonna hate this 1-4 in LuV
+gtnh.quest1489.name=§c§lNow you realy gonna hate this 1-4 in LuV
 gtnh.quest1489.desc=Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in LuV. Go and craft one of each with your new Assembly Line.
 
-# Quest.1490 - §c§lNow you really gonna hate this 5 and 6 in LuV
-gtnh.quest1490.name=§c§lNow you really gonna hate this 5 and 6 in LuV
+# Quest.1490 - §c§lNow you realy gonna hate this 5 and 6 in LuV
+gtnh.quest1490.name=§c§lNow you realy gonna hate this 5 and 6 in LuV
 gtnh.quest1490.desc=Some machines need emitters and sensors, like the analyzer or the circuit assembler.
 
 # Quest.1491 - §b§lHSS-G
@@ -6182,7 +6182,7 @@ gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mi
 
 # Quest.1545 - §6§lTime to ore drill!
 gtnh.quest1545.name=§6§lTime to ore drill!
-gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. Each tier of the controller also gives 5 bonus fortune for small ores. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
 
 # Quest.1546 - §2§lRare ores
 gtnh.quest1546.name=§2§lRare ores
@@ -7158,11 +7158,11 @@ gtnh.quest1788.desc=No Description
 
 # Quest.1789 - §3§lFactory Iron Door
 gtnh.quest1789.name=§3§lFactory Iron Door
-gtnh.quest1789.desc=For your new Factory you need iron doors. Well the recipe is really hard and need steel. %nYou can choose two more doors as reward if you like.
+gtnh.quest1789.desc=For your new Factory you need iron doors. Well the recipe is realy hard and need steel. %nYou can choose two more doors as reward if you like.
 
 # Quest.1790 - §2§lWooden Door
 gtnh.quest1790.name=§2§lWooden Door
-gtnh.quest1790.desc=For your new House you need more wooden  doors. Well the recipe is really hard and need iron/copper and a lot of wood. %nYou can choose two more doors as reward if you like.
+gtnh.quest1790.desc=For your new House you need more wooden  doors. Well the recipe is realy hard and need iron/copper and a lot of wood. %nYou can choose two more doors as reward if you like.
 
 # Quest.1791 - §5§lOilsand or how you get heavy Oil
 gtnh.quest1791.name=§5§lOilsand or how you get heavy Oil
@@ -9379,10 +9379,6 @@ gtnh.quest2343.desc=A Quartz Sphere is a component used in the production of a C
 # Quest.2344 - Seer Stone or Summon the Witches
 gtnh.quest2344.name=Seer Stone or Summon the Witches
 gtnh.quest2344.desc=A Seer Stone is a variation of a Crystal Ball, that allows witches to communicate with one another over great distances. It is mostly used by one witch to summon other members of their coven either to help out in a fight, or to help perform a ritual. The seer stone may also be used on another player to reveal if they are afflicted by a curse.%n%nTo summon a coven witch for aid, use the Seer Stone while held. Holding for longer summons more coven members.%n%nIf near a Witches' Cauldron, the summoned witches will circle it ready for a ritual.%n%nTo call the entire coven to perform a rite, start the rite normally while holding the Seer Stone.%n%nTo determine if another player is cursed, to find out if they have a coven or familiar, and how much time they can manifest for, use the Seer Stone on them when they are within 3 blocks distance. Sneak-using the stone will show the same information for the bearer of the Stone.%n%nA Seer Stone is created by infusing a Quartz Sphere with Obsidian and Happenstance Oil using a Rite of Infusion.
-
-# Quest.2345 - Familiar
-gtnh.quest2345.name=Familiar
-gtnh.quest2345.desc=Familiars are supernatural beings that assist witches and cunning folk in their practice of magic.%n%nIn some cases familiars are attracted to practitioners of their own accord, but the most effective way to acquire a familiar is to bind a minor demon (or spirit) to an animal. %nAs part of such a binding, a sympathetic link is created between the bound familiar and the witch (or warlock).%n%nFamiliars take on the characteristics of the animal to which they are bound, allowing certain enhancements to a witches' practice depending on the animal.%n%n§lBinding a Familiar%n%n§l§l§l§l§l§rA familiar is summoned and bound to an animal using a Rite of Binding as described in the book, Witchcraft: Circle Magic.%n%nBoth the witch and a tamed animal of the desired type (Cat, Owl or Toad) must stand in the Circle when the Rite is performed.  If the Rite is successful the animal will be inhabited by the familiar entity with the effects listed on https://sites.google.com/site/witcherymod/familiars%n
 
 # Quest.2346 - §9§8§7§6§5§3§lTame an Ocelot to get a Friend
 gtnh.quest2346.name=§9§8§7§6§5§3§lTame an Ocelot to get a Friend
