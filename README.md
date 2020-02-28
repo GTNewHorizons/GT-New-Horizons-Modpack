@@ -146,9 +146,11 @@ gtnewhorizons.myftb.de<BR>
 Wabulabudaba GTNH Server Russia
 94.23.17.222:25565
 
-
 Hitechmine.ru  GTNG Server Russia
 hitechmine.ru:25565
+
+Zvezdolet New fresh russian server Whitelisted
+IP: gtnh.114-7.com
 
 
 ## Official Links
