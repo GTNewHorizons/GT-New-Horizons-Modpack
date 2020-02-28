@@ -2025,7 +2025,7 @@ mods.thaumcraft.Research.addArcanePage("AUTOENCHANTINGTABLE", <OpenBlocks:autoen
 mods.thaumcraft.Warp.addToResearch("AUTOENCHANTINGTABLE", 1);
 
 // --- Luggage
-mods.thaumcraft.Research.addResearch("LUGGAGE", "NEWHORIZONS", "alienis 15, sensus 15, iter 12, praecantatio 9, fabrico 6, lucrum 3", -6, 0, 4, <OpenBlocks:luggage>);
+mods.thaumcraft.Research.addResearch("LUGGAGE", "NEWHORIZONS", "alienis 15, sensus 15, iter 12, praecantatio 9, fabrico 6, lucrum 3", -2, 0, 4, <OpenBlocks:luggage>);
 game.setLocalization("tc.research_name.LUGGAGE", "Luggage");
 game.setLocalization("tc.research_text.LUGGAGE", "[OB] Luggage follow me");
 mods.thaumcraft.Research.addPrereq("LUGGAGE", "ENDERCHEST", false);
