@@ -198,7 +198,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("DECONSTRUCTOR");
 
 
 // --- Warp Warning
-mods.thaumcraft.Research.addResearch("WARPWARNING", "BASICS", "null", 2, 2, 1, <minecraft:skull:1>);
+mods.thaumcraft.Research.addResearch("WARPWARNING", "BASICS", "null", 1, 1, 1, <minecraft:skull:1>);
 mods.thaumcraft.Research.addSibling("WARP", "WARPWARNING");
 mods.thaumcraft.Research.addSibling("RESEARCH", "WARPWARNING");
 game.setLocalization("tc.research_name.WARPWARNING", "Warp Warnings");
