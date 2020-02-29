@@ -207,6 +207,9 @@ recipes.remove(<harvestcraft:lemonaideItem>);
 // --- Onion Soup
 recipes.remove(<harvestcraft:onionsoupItem>);
 
+// --- Hearty Breakfast
+recipes.remove(<harvestcraft:heartybreakfastItem>);
+
 
 
 // --- Adding Back Recipes ---
@@ -455,13 +458,13 @@ furnace.addRecipe(<harvestcraft:turkeycookedItem>, <harvestcraft:turkeyrawItem>)
 recipes.addShapeless(<harvestcraft:boiledeggItem>, [<harvestcraft:potItem>, <minecraft:egg>]);
 
 // --- Heavy Cream
-recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <harvestcraft:soymilkItem>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.reuse(), <harvestcraft:soymilkItem>]);
 // -
-recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <harvestcraft:freshmilkItem>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem>, [<minecraft:bowl>.reuse(), <harvestcraft:freshmilkItem>]);
 // -
-recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:milk_bucket>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:milk_bucket>]);
 // -
-recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <minecraft:bowl>.giveBack(<minecraft:bowl>), <IguanaTweaksTConstruct:clayBucketMilk>]);
+recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <minecraft:bowl>.reuse(), <IguanaTweaksTConstruct:clayBucketMilk>]);
 // -
 recipes.addShapeless(<harvestcraft:heavycreamItem>, [<harvestcraft:mixingbowlItem>, <harvestcraft:soymilkItem>]);
 // -
@@ -518,6 +521,17 @@ recipes.addShaped(<harvestcraft:juicerItem>, [
 [SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
 [SSlPlate, <gregtech:gt.metaitem.02:8306>, SSlPlate],
 [SSlBolt, SSlPlate, SSlBolt]]);
+
+// --- Hearty Breakfast
+recipes.addShaped(<harvestcraft:heartybreakfastItem>, [
+[<ore:listAllmeatcooked>, <harvestcraft:friedeggItem>, null],
+[<harvestcraft:toastItem>, <harvestcraft:potatocakesItem>, null],
+[<ore:listAlljuice>, null, null]]);
+// -
+recipes.addShaped(<harvestcraft:heartybreakfastItem>, [
+[<ore:listAllmeatcooked>, <harvestcraft:friedeggItem>, null],
+[<harvestcraft:toastItem>, <harvestcraft:potatocakesItem>, null],
+[<ore:foodChocolatemilk>, null, null]]);
 
 
 

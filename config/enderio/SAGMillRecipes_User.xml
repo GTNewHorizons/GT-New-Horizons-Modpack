@@ -1773,6 +1773,15 @@
       <itemStack oreDictionary="dustImpureZinc" number="1" />
     </output>
   </recipe>
+  <recipe name="NickelOre" energyCost="3600" >
+    <input>
+      <itemStack oreDictionary="oreNickel" />
+    </input>
+    <output>
+      <itemStack oreDictionary="dustNickel" number="2" />
+      <itemStack oreDictionary="dustPlatinumMetallicPowder" chance="0.1" />
+    </output>
+  </recipe>
 </recipeGroup>
 
 
@@ -15916,7 +15925,7 @@
 	<!-- DarkSteelBalls are rather expensive for new players, so i'd like to keep them. -->
 	<!-- Tested ore-doubling rate: x1,6 to x1,8 -->
     <grindingBall id="DarkSteelBall" grindingMultiplier="1.1" chanceMultiplier="1.2" powerMultiplier="0.7" durationRF="1200000">
-      <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="7" />
+      <itemStack modID="EnderIO" itemName="itemGrindingBall" itemMeta="6" />
     </grindingBall>
 
 	<!-- Diamond grinding head. Not early game, about the time when you reach dark steel balls. But more expensive due diamonds -->

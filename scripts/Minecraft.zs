@@ -458,6 +458,12 @@ recipes.remove(<minecraft:saddle>);
 // --- Packed Ice
 recipes.removeShaped(<minecraft:packed_ice> * 4);
 
+// --- Lapis Blocks
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2526>);
+
+// --- Emerald Blocks
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2501>);
+
 
 // --- Wool ---
 
@@ -1024,7 +1030,6 @@ furnace.remove(<TConstruct:materials:22>, <TConstruct:oreBerries:4>);
 recipes.remove(<ore:nuggetIron>);
 
 
-
 // --- Adding Back Recipes ---
 
 
@@ -1065,27 +1070,7 @@ recipes.addShaped(Dropper, [
 // --- Piston
 recipes.addShaped(Piston, [
 [<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, Fence, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
-// -
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <ExtraTrees:fence:*>, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
-// -
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <Forestry:fences:*>, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
-// -
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <Forestry:fencesFireproof:*>, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
-// -
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <Natura:Natura.fence:*>, <ore:gearGtSmallAnyIron>],
+[<ore:gearGtSmallAnyIron>, <ore:fenceWood>, <ore:gearGtSmallAnyIron>],
 [Cobble, <ore:plateRedAlloy>, Cobble]]);
 
 // --- Sticky Piston
@@ -1313,12 +1298,6 @@ recipes.addShaped(Hopper, [
 [IronPlate, Chest, IronPlate],
 [IronPlate, IronGear, IronPlate],
 [HHammer, IronPlate, <ore:craftingToolFile>]]);
-
-// --- Packed Ice
-recipes.addShaped(<minecraft:packed_ice>, [
-[<minecraft:ice>, <minecraft:ice>, null],
-[<minecraft:ice>, <minecraft:ice>, null],
-[null, null, null]]);
 
 
 
@@ -2416,27 +2395,7 @@ recipes.addShaped(<minecraft:item_frame>, [
 recipes.addShaped(<minecraft:bed>, [
 [<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[Fence, <ore:craftingToolSoftHammer>, Fence]]);
-// -
-recipes.addShaped(<minecraft:bed>, [
-[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<ExtraTrees:fence:*>, <ore:craftingToolSoftHammer>, <ExtraTrees:fence:*>]]);
-// -
-recipes.addShaped(<minecraft:bed>, [
-[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<Forestry:fences:*>, <ore:craftingToolSoftHammer>, <Forestry:fences:*>]]);
-// -
-recipes.addShaped(<minecraft:bed>, [
-[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<Forestry:fencesFireproof:*>, <ore:craftingToolSoftHammer>, <Forestry:fencesFireproof:*>]]);
-// -
-recipes.addShaped(<minecraft:bed>, [
-[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>],
-[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-[<Natura:Natura.fence:*>, <ore:craftingToolSoftHammer>, <Natura:Natura.fence:*>]]);
+[<ore:fenceWood>, <ore:craftingToolSoftHammer>, <ore:fenceWood>]]);
 
 // --- Fishing Rod
 recipes.addShaped(<minecraft:fishing_rod>, [
@@ -2871,7 +2830,8 @@ ArcFurnace.addRecipe([<minecraft:glass> * 2], <minecraft:sand>, <liquid:oxygen> 
 
 
 
-
+// --- String
+Assembler.addRecipe(<minecraft:string>, <Natura:barleyFood:3> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 24);
 
 // --- Hay Block
 Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 30);

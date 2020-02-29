@@ -250,3 +250,10 @@ Assembler.addRecipe(<irontank:obsidianTank>, Tank, DenseObsidianPlate, <liquid:m
 
 // --- Upgrade Diamond to Obsidian
 Assembler.addRecipe(<irontank:diamondObsidianUpgrade>, GlassPlate, DenseObsidianPlate, <liquid:molten.glass> * 72, 800, 256);
+
+// --- Nei Rename ---
+
+
+
+// --- Steel Tank
+<irontank:silverTank>.displayName = "Steel Tank";

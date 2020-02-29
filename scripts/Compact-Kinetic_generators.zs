@@ -74,10 +74,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<compactkineticgenerators:BlockCkg>, [
 [null, null, <ore:plateTripleTungstenSteel>, <ore:plateTripleTungstenSteel>, <IC2:blockKineticGenerator>, <ore:plateTripleTungstenSteel>, <ore:plateTripleTungstenSteel>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-recipes.addShaped(<compactkineticgenerators:BlockCkg>, [
-[<ore:screwTitanium>, <IC2:blockKineticGenerator>, <ore:screwTitanium>],
-[<IC2:blockKineticGenerator>, <gregtech:gt.blockmachines:14>, <IC2:blockKineticGenerator>],
-[<ore:screwTitanium>, <IC2:blockKineticGenerator>, <ore:screwTitanium>]]);
 
 // --- Medium Kinetic Wind Generator
 mods.avaritia.ExtremeCrafting.addShaped(<compactkineticgenerators:BlockCkg:1>, [

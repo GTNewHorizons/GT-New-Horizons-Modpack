@@ -940,7 +940,7 @@ mods.thaumcraft.Research.setConcealed("ICHORIUMBLOCK", true);
 mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "bloodmagic.research_page.ICHORIUMBLOCK");
 game.setLocalization("bloodmagic.research_page.ICHORIUMBLOCK", "The sixth and final tier of your Blood Magic altar will require 76 additional Blood Runes, and 4 seven block pillars made of Blood-Soaked Ichorium Blocks capped with Crystal Clusters. The Tier 6 Altar allows you to unlock the full potential of your Blood Magic endeavors by way of unlocking even more and more powerful transfusion recipes. Like previous tier, the sixth ring of runes requires a two-block gap outward from the previous ring. The Ichorium Blocks need to be placed in a Tier 5 Altar to soak up the Blood and be Transformed in a Blood Soaked Ichorium Block");
 mods.thaumcraft.Infusion.addRecipe("ICHORIUMBLOCK", <dreamcraft:tile.Mytryl>, 
-[<ThaumicTinkerer:kamiResource:2>, <AWWayofTime:bloodMagicBaseItems:28>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:standardBindingAgent>, <ThaumicTinkerer:kamiResource:2>, <AWWayofTime:bloodMagicBaseItems:29>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>], 
+[<gregtech:gt.metaitem.01:11978>, <AWWayofTime:bloodMagicBaseItems:28>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:standardBindingAgent>, <gregtech:gt.metaitem.01:11978>, <AWWayofTime:bloodMagicBaseItems:29>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>], 
 "victus 64, fames 48, praecantatio 32, infernus 24, alienis 16, superbia 16, terra 8", <gregtech:gt.blockmetal8:13>, 12);
 mods.thaumcraft.Research.addInfusionPage("ICHORIUMBLOCK", <gregtech:gt.blockmetal8:13>);
 mods.thaumcraft.Warp.addToResearch("ICHORIUMBLOCK", 3);
@@ -1141,9 +1141,9 @@ mods.thaumcraft.Research.setConcealed("ENERGYBAZOOKAI", true);
 mods.thaumcraft.Research.addPage("ENERGYBAZOOKAI", "bloodmagic.research_page.ENERGYBAZOOKAI");
 game.setLocalization("bloodmagic.research_page.ENERGYBAZOOKAI", "The Energy Bazooka I is a stronger version of the Energy Blaster. This weapon uses 2,000 LP to fire a two-staged projectile. The primary projectile explodes into 20 secondary projectiles when it hits something. The secondary projectiles will rebound and explode on impact. Damage 200, Secondary Damage 250");
 mods.thaumcraft.Arcane.addShaped("ENERGYBAZOOKAI", <AWWayofTime:energyBazooka>, "aqua 150, ignis 150, terra 150, aer 150, perditio 150, ordo 150", [
-[<ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemEldritchObject:3>, <ThaumicTinkerer:kamiResource:2>],
+[<gregtech:gt.metaitem.01:11978>, <Thaumcraft:ItemEldritchObject:3>, <gregtech:gt.metaitem.01:11978>],
 [<BloodArsenal:blood_infused_diamond_block>,  <AWWayofTime:energyBlasterThirdTier>, <BloodArsenal:blood_infused_diamond_block>],
-[<ThaumicTinkerer:kamiResource:2>, <AWWayofTime:demonicTelepositionFocus>, <ThaumicTinkerer:kamiResource:2>]]);
+[<gregtech:gt.metaitem.01:11978>, <AWWayofTime:demonicTelepositionFocus>, <gregtech:gt.metaitem.01:11978>]]);
 mods.thaumcraft.Research.addArcanePage("ENERGYBAZOOKAI", <AWWayofTime:energyBazooka>);
 mods.thaumcraft.Warp.addToResearch("ENERGYBAZOOKAI", 5);
 
@@ -1212,9 +1212,8 @@ mods.thaumcraft.Research.addPrereq("RODBLOODWOODSTAFF", "ROD_blood_staff", false
 mods.thaumcraft.Research.addPrereq("RODBLOODWOODSTAFF", "ROD_blood_wood", false);
 mods.thaumcraft.Research.setConcealed("RODBLOODWOODSTAFF", true);
 mods.thaumcraft.Research.setSpikey("RODBLOODWOODSTAFF", true);
-mods.thaumcraft.Research.addPage("RODBLOODWOODSTAFF", "tc.research_page.RODBLOODWOODSTAFF");
-game.setLocalization("tc.research_page.RODBLOODWOODSTAFF", "Even with your supremely regenerative wand and caps, you are still not satisfied. You know that when the Blood Rods are turned into Blood Staff Cores, they regenerate four times faster but hold half the amount of vis. Working with some dark magics and a Blood Staff Core, you can now create a living terror. This mighty staff regenerates 2 times faster than the Blood Staff but this is where the regenerative capabilities of Blood Infused Wood meet their limits: the wood itself seemingly tries to regenerate faster than it physically can. To compensate for this, it has to draw Life from the player every time it regenerates vis. And unlike the other blood wands, it doesn't care if you survive or not...");
-mods.thaumcraft.Infusion.addRecipe("RODBLOODWOODSTAFF", <ForbiddenMagic:WandCores:9>, 
+mods.thaumcraft.Research.addPage("RODBLOODWOODSTAFF", "blood_arsenal.research_page.ROD_blood_wood_staff.1");
+mods.thaumcraft.Infusion.addRecipe("RODBLOODWOODSTAFF", <ForbiddenMagic:WandCores:9>,
 [<BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>],
 "victus 64, aqua 64, praecantatio 64, instrumentum 48, metallum 16, ignis 16, infernus 8, arbor 32", <BloodArsenal:wand_cores:1>, 12);
 mods.thaumcraft.Research.addInfusionPage("RODBLOODWOODSTAFF", <BloodArsenal:wand_cores:1>);

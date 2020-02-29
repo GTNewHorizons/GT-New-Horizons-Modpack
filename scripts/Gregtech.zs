@@ -90,20 +90,8 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 // --- Netherstar Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
-// --- GT Swords
-//recipes.remove(<gregtech:gt.metatool.01>);
-
-// --- GT Pickaxes
-//recipes.remove(<gregtech:gt.metatool.01:2>);
-
 // --- GT Shovels
-recipes.remove(<gregtech:gt.metatool.01:4>);
-
-// --- GT Axes
-//recipes.remove(<gregtech:gt.metatool.01:6>);
-
-// --- GT Hoes
-//recipes.remove(<gregtech:gt.metatool.01:8>);
+recipes.removeShapeless(<gregtech:gt.metatool.01:4>);
 
 // --- Eridium Neutron Reflector
 recipes.remove(<gregtech:gt.neutronreflector>);
@@ -413,8 +401,6 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:1370>);
 
 
 
-
-
 // --- Add Recipes ---
 
 // --- Teleporter
@@ -462,36 +448,6 @@ recipes.addShaped(<gregtech:gt.metaitem.01:28809>, [
 // --- Glass Dust
 recipes.addShapeless(<gregtech:gt.metaitem.01:2890>, [<ore:craftingToolMortar>, <TConstruct:GlassBlock>]);
 recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<ore:craftingToolMortar>, <TConstruct:GlassPane>]);
-
-// --- Flient Sword
-recipes.addShaped(<gregtech:gt.metatool.01>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[null, Flint, null],
-[null, Flint, null],
-[null, Stick, null]]);
-
-// --- Flint Pickaxe
-recipes.addShaped(<gregtech:gt.metatool.01:2>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[Flint, Flint, Flint],
-[null, Stick, null],
-[null, Stick, null]]);
-
-// --- Flint Shovel
-recipes.addShaped(<gregtech:gt.metatool.01:4>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[null, Flint, null],
-[null, Stick, null],
-[null, Stick, null]]);
-
-// --- Flint Axe
-recipes.addShaped(<gregtech:gt.metatool.01:6>.withTag({ench: [{lvl: 1 as short, id: 20 as short}], "GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[Flint, Flint, null],
-[Flint, Stick, null],
-[null, Stick, null]]);
-
-// --- Flint Hoe
-recipes.addShaped(<gregtech:gt.metatool.01:8>.withTag({"GT.ToolStats": {PrimaryMaterial: "Flint", MaxDamage: 6400 as long, SecondaryMaterial: "Wood"}}), [
-[Flint, Flint, null],
-[null, Stick, null],
-[null, Stick, null]]);
 
 // --- Mince Meat
 recipes.addShapeless(<gregtech:gt.metaitem.01:2892>, [<ore:craftingToolMortar>, <ore:listAllmeatraw>]);
@@ -964,6 +920,10 @@ Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:g
 // --- Flint Dust
 Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2802> * 8],  null, <minecraft:gravel> * 16, null, null, [10000], 50, 1920);
 
+// --- Re-add Cadmium Centrifuge recipe
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:1067>, <gregtech:gt.metaitem.01:1045>, <gregtech:gt.metaitem.01:1064>, <gregtech:gt.metaitem.01:1065>, <gregtech:gt.metaitem.01:1055>, <gregtech:gt.metaitem.01:1062>], null, <gregtech:gt.metaitem.01:2891>, null, null, [2500, 2500, 2500, 2500, 2500, 2500], 64, 20);
+        
+
 
 
 
@@ -1313,6 +1273,21 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32325>, <liquid:
 // --- Rotor Mold
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32324>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormRotor>, true, 100);
 
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32326>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeTiny>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32327>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeSmall>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32328>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeMedium>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32329>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeLarge>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32330>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeHuge>, true, 100);
+
 // --- Extruder Shape Plate
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32350>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapePlate>, true, 100);
 
@@ -1401,52 +1376,66 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 // --- Circuit Tooltips for Tiers ---
 
 
+// --- ULV Tier
+<gregtech:gt.metaitem.01:32700>.addTooltip(format.red("ULV-tier"));
+<gregtech:gt.metaitem.03:32075>.addTooltip(format.gold("ULV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:4>.addTooltip(format.lightPurple("ULV-tier"));
+
 // --- LV Tier
 <IC2:itemPartCircuit>.addTooltip(format.red("LV-tier"));
 <gregtech:gt.metaitem.01:32701>.addTooltip(format.gold("LV-tier"));
 <gregtech:gt.metaitem.03:32078>.addTooltip(format.yellow("LV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:5>.addTooltip(format.lightPurple("LV-tier"));
 
 // --- MV Tier
 <gregtech:gt.metaitem.01:32702>.addTooltip(format.red("MV-tier"));
 <gregtech:gt.metaitem.03:32079>.addTooltip(format.gold("MV-tier"));
 <gregtech:gt.metaitem.03:32080>.addTooltip(format.yellow("MV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:6>.addTooltip(format.lightPurple("MV-tier"));
 
 // --- HV Tier
 <IC2:itemPartCircuitAdv>.addTooltip(format.gold("HV-tier"));
 <gregtech:gt.metaitem.01:32703>.addTooltip(format.yellow("HV-tier"));
 <gregtech:gt.metaitem.03:32082>.addTooltip(format.green("HV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:7>.addTooltip(format.lightPurple("HV-tier"));
 
 // --- EV Tier
 <gregtech:gt.metaitem.01:32704>.addTooltip(format.yellow("EV-tier"));
 <gregtech:gt.metaitem.03:32083>.addTooltip(format.green("EV-tier"));
 <gregtech:gt.metaitem.03:32085>.addTooltip(format.aqua("EV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:8>.addTooltip(format.lightPurple("EV-tier"));
 
 // --- IV Tier
 <gregtech:gt.metaitem.01:32705>.addTooltip(format.yellow("IV-tier"));
 <gregtech:gt.metaitem.03:32084>.addTooltip(format.green("IV-tier"));
 <gregtech:gt.metaitem.03:32086>.addTooltip(format.aqua("IV-tier"));
 <gregtech:gt.metaitem.03:32089>.addTooltip(format.blue("IV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:9>.addTooltip(format.lightPurple("IV-tier"));
 
 // --- LuV Tier
 <gregtech:gt.metaitem.01:32706>.addTooltip(format.green("LuV-tier"));
 <gregtech:gt.metaitem.03:32087>.addTooltip(format.aqua("LuV-tier"));
 <gregtech:gt.metaitem.03:32096>.addTooltip(format.blue("LuV-tier"));
 <gregtech:gt.metaitem.03:32092>.addTooltip(format.darkPurple("LuV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:10>.addTooltip(format.lightPurple("LuV-tier"));
 
 // --- ZPM Tier
 <gregtech:gt.metaitem.03:32088>.addTooltip(format.aqua("ZPM-tier"));
 <gregtech:gt.metaitem.03:32090>.addTooltip(format.blue("ZPM-tier"));
 <gregtech:gt.metaitem.03:32093>.addTooltip(format.darkPurple("ZPM-tier"));
 <gregtech:gt.metaitem.03:32097>.addTooltip(format.green("ZPM-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:11>.addTooltip(format.lightPurple("ZPM-tier"));
 
 // --- UV Tier
 <gregtech:gt.metaitem.03:32091>.addTooltip(format.blue("UV-tier"));
 <gregtech:gt.metaitem.03:32094>.addTooltip(format.darkPurple("UV-tier"));
 <gregtech:gt.metaitem.03:32098>.addTooltip(format.aqua("UV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:12>.addTooltip(format.lightPurple("UV-tier"));
 
 // --- UHV Tier
 <gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV-tier"));
 <gregtech:gt.metaitem.03:32099>.addTooltip(format.green("UHV-tier"));
+<bartworks:gt.bwMetaGeneratedItem0:13>.addTooltip(format.lightPurple("UHV-tier"));
 
 // --- UEV Tier
 <gregtech:gt.metaitem.03:32120>.addTooltip(format.green("UEV-tier"));

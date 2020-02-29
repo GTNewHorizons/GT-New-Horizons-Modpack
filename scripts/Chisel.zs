@@ -10,7 +10,6 @@ import mods.gregtech.Assembler;
 
 
 mods.chisel.Groups.addGroup("glasswork"); 
-//mods.chisel.Groups.addGroup("stained_glass_");
 
 
 
@@ -76,6 +75,9 @@ recipes.remove(<chisel:upgrade:1>);
 
 // --- Stack Upgrade
 recipes.remove(<chisel:upgrade:2>);
+
+// --- Reversion Upgrade
+recipes.remove(<chisel:upgrade:3>);
 
 // --- Mossy stone
 mods.chisel.Groups.removeGroup("cobblestone");
@@ -143,20 +145,26 @@ recipes.addShaped(<chisel:autoChisel>, [
 // --- Speed Upgrade
 recipes.addShaped(<chisel:upgrade>, [
 [SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
 [<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32630>, <ore:wireGt01RedAlloy>]]);
 
 // --- Automation Upgrade
 recipes.addShaped(<chisel:upgrade:1>, [
 [SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
 [<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32650>, <ore:wireGt01RedAlloy>]]);
 
 // --- Stack Upgrade
 recipes.addShaped(<chisel:upgrade:2>, [
 [SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
 [<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32744>, <ore:wireGt01RedAlloy>]]);
+
+// --- Reversion Upgrade
+recipes.addShaped(<chisel:upgrade:3>, [
+[SteelScrew, <ore:plateEmerald>, SteelScrew],
+[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
+[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32600>, <ore:wireGt01RedAlloy>]]);
 
 // --- Temple Mossy Blocks
 recipes.addShaped(<chisel:mossy_templeblock>, [
@@ -274,17 +282,6 @@ mods.chisel.Groups.addVariation("glass", <TConstruct:GlassBlock>);
 
 // --- Cloud
 mods.chisel.Groups.addVariation("cloud", <Natura:Cloud>);
-
-
-
-// --- Stained Glass (add other stained glass variations later)
-//mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass>);
-// -
-//mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass_active>);
-// -
-//mods.chisel.Groups.addVariation("stained_glass_", <TConstruct:GlassBlock.StainedClear>);
-// -
-//mods.chisel.Groups.addVariation("stained_glass_", <Ztones:tile.glaxx>);
 
 
 // --- Marble
@@ -464,5 +461,124 @@ mods.chisel.Groups.addVariation("torch", <GalacticraftCore:tile.glowstoneTorch>)
 mods.chisel.Groups.addVariation("aluminumblock", <gregtech:gt.blockmetal1:1>);
 
 
+
+// --- Seared Stone TConstruct
+
+mods.chisel.Groups.addGroup("searedStoneTCon");
+mods.chisel.Groups.addVariation("searedStoneTCon", <TConstruct:Smeltery:4>);
+mods.chisel.Groups.addVariation("searedStoneTCon", <TConstruct:Smeltery:6>);
+mods.chisel.Groups.addVariation("searedStoneTCon", <TConstruct:Smeltery:11>);
+mods.chisel.Groups.addGroup("searedStoneNetherTCon");
+mods.chisel.Groups.addVariation("searedStoneNetherTCon", <TConstruct:SmelteryNether:4>);
+mods.chisel.Groups.addVariation("searedStoneNetherTCon", <TConstruct:SmelteryNether:6>);
+mods.chisel.Groups.addVariation("searedStoneNetherTCon", <TConstruct:SmelteryNether:11>);
+
+// --- Seared Bricks TConstruct
+
+mods.chisel.Groups.addGroup("searedBricksTCon");
+mods.chisel.Groups.addVariation("searedBricksTCon", <TConstruct:Smeltery:2>);
+mods.chisel.Groups.addVariation("searedBricksTCon", <TConstruct:Smeltery:8>);
+mods.chisel.Groups.addVariation("searedBricksTCon", <TConstruct:Smeltery:9>);
+mods.chisel.Groups.addGroup("searedBricksNetherTCon");
+mods.chisel.Groups.addVariation("searedBricksNetherTCon", <TConstruct:SmelteryNether:2>);
+mods.chisel.Groups.addVariation("searedBricksNetherTCon", <TConstruct:SmelteryNether:8>);
+mods.chisel.Groups.addVariation("searedBricksNetherTCon", <TConstruct:SmelteryNether:9>);
+
+// --- SpeedBlock TConstruct
+
+mods.chisel.Groups.addGroup("speedBlockTCon");
+mods.chisel.Groups.addVariation("speedBlockTCon", <TConstruct:SpeedBlock:0>);
+mods.chisel.Groups.addVariation("speedBlockTCon", <TConstruct:SpeedBlock:1>);
+
+// --- BrownStone TConstruct
+
+mods.chisel.Groups.addGroup("brownStoneTCon");
+mods.chisel.Groups.addVariation("brownStoneTCon", <TConstruct:SpeedBlock:2>);
+mods.chisel.Groups.addVariation("brownStoneTCon", <TConstruct:SpeedBlock:3>);
+mods.chisel.Groups.addVariation("brownStoneTCon", <TConstruct:SpeedBlock:4>);
+mods.chisel.Groups.addVariation("brownStoneTCon", <TConstruct:SpeedBlock:5>);
+mods.chisel.Groups.addVariation("brownStoneTCon", <TConstruct:SpeedBlock:6>);
+
+// --- Iron Bricks TConstruct
+
+mods.chisel.Groups.addGroup("ironBricksTCon");
+mods.chisel.Groups.addVariation("ironBricksTCon", <TConstruct:decoration.multibrick:4>);
+mods.chisel.Groups.addVariation("ironBricksTCon", <TConstruct:decoration.multibrickfancy:4>);
+
+// --- Gold Bricks TConstruct
+
+mods.chisel.Groups.addGroup("goldBricksTCon");
+mods.chisel.Groups.addVariation("goldBricksTCon", <TConstruct:decoration.multibrick:5>);
+mods.chisel.Groups.addVariation("goldBricksTCon", <TConstruct:decoration.multibrickfancy:5>);
+
+// --- Lapis Bricks TConstruct
+
+mods.chisel.Groups.addGroup("lapisBricksTCon");
+mods.chisel.Groups.addVariation("lapisBricksTCon", <TConstruct:decoration.multibrick:6>);
+mods.chisel.Groups.addVariation("lapisBricksTCon", <TConstruct:decoration.multibrickfancy:6>);
+
+// --- Diamond Bricks TConstruct
+
+mods.chisel.Groups.addGroup("diamondBricksTCon");
+mods.chisel.Groups.addVariation("diamondBricksTCon", <TConstruct:decoration.multibrick:7>);
+mods.chisel.Groups.addVariation("diamondBricksTCon", <TConstruct:decoration.multibrickfancy:7>);
+
+// --- Redstone Bricks TConstruct
+
+mods.chisel.Groups.addGroup("redstoneBricksTCon");
+mods.chisel.Groups.addVariation("redstoneBricksTCon", <TConstruct:decoration.multibrick:8>);
+mods.chisel.Groups.addVariation("redstoneBricksTCon", <TConstruct:decoration.multibrickfancy:8>);
+
+// --- Bone Bricks TConstruct
+
+mods.chisel.Groups.addGroup("boneBricksTCon");
+mods.chisel.Groups.addVariation("boneBricksTCon", <TConstruct:decoration.multibrick:9>);
+mods.chisel.Groups.addVariation("boneBricksTCon", <TConstruct:decoration.multibrickfancy:9>);
+
+// --- Green Slime Bricks TConstruct
+
+mods.chisel.Groups.addGroup("greenSlimeBricksTCon");
+mods.chisel.Groups.addVariation("greenSlimeBricksTCon", <TConstruct:decoration.multibrick:10>);
+mods.chisel.Groups.addVariation("greenSlimeBricksTCon", <TConstruct:decoration.multibrickfancy:10>);
+
+// --- Blue Slime Bricks TConstruct
+
+mods.chisel.Groups.addGroup("blueSlimeBricksTCon");
+mods.chisel.Groups.addVariation("blueSlimeBricksTCon", <TConstruct:decoration.multibrick:11>);
+mods.chisel.Groups.addVariation("blueSlimeBricksTCon", <TConstruct:decoration.multibrickfancy:11>);
+
+// --- Obsidian Ingot Bricks TConstruct
+
+mods.chisel.Groups.addGroup("obsidianBricksTCon");
+mods.chisel.Groups.addVariation("obsidianBricksTCon", <TConstruct:decoration.multibrick:13>);
+mods.chisel.Groups.addVariation("obsidianBricksTCon", <TConstruct:decoration.multibrickfancy:13>);
+
+// --- Alumite Bricks TConstruct
+
+mods.chisel.Groups.addGroup("alumiteBricksTCon");
+mods.chisel.Groups.addVariation("alumiteBricksTCon", <TConstruct:MetalBlock:8>);
+mods.chisel.Groups.addVariation("alumiteBricksTCon", <TConstruct:decoration.multibrickmetal:0>);
+mods.chisel.Groups.addVariation("alumiteBricksTCon", <TConstruct:decoration.multibrickmetal:4>);
+
+// --- Ardite Bricks TConstruct
+
+mods.chisel.Groups.addGroup("arditeBricksTCon");
+mods.chisel.Groups.addVariation("arditeBricksTCon", <TConstruct:MetalBlock:1>);
+mods.chisel.Groups.addVariation("arditeBricksTCon", <TConstruct:decoration.multibrickmetal:1>);
+mods.chisel.Groups.addVariation("arditeBricksTCon", <TConstruct:decoration.multibrickmetal:5>);
+
+// --- Cobalt Bricks TConstruct
+
+mods.chisel.Groups.addGroup("cobaltBricksTCon");
+mods.chisel.Groups.addVariation("cobaltBricksTCon", <TConstruct:MetalBlock:0>);
+mods.chisel.Groups.addVariation("cobaltBricksTCon", <TConstruct:decoration.multibrickmetal:2>);
+mods.chisel.Groups.addVariation("cobaltBricksTCon", <TConstruct:decoration.multibrickmetal:6>);
+
+// --- Manyullyn Bricks TConstruct
+
+mods.chisel.Groups.addGroup("manyullynBricksTCon");
+mods.chisel.Groups.addVariation("manyullynBricksTCon", <TConstruct:MetalBlock:2>);
+mods.chisel.Groups.addVariation("manyullynBricksTCon", <TConstruct:decoration.multibrickmetal:3>);
+mods.chisel.Groups.addVariation("manyullynBricksTCon", <TConstruct:decoration.multibrickmetal:7>);
 
 // --- Hiding Stuff ---

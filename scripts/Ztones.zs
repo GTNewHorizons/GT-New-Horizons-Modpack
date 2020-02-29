@@ -47,13 +47,13 @@ recipes.remove(<Ztones:minicoal>);
 recipes.remove(<Ztones:ofanix>);
 
 // --- Diamond Zane
-recipes.remove(<Ztones:diamondZane>);
+//recipes.remove(<Ztones:diamondZane>);
 
 // --- Splat Axe
-recipes.remove(<Ztones:splatAxe>);
+//recipes.remove(<Ztones:splatAxe>);
 
 // --- Terrain Eater
-recipes.remove(<Ztones:terrainEater>);
+//recipes.remove(<Ztones:terrainEater>);
 
 // --- Cobblestone
 recipes.removeShapeless(<minecraft:cobblestone>, [<Ztones:ofanix>]);

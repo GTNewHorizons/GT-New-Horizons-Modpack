@@ -153,6 +153,15 @@ recipes.remove(<Forestry:stamps:2>);
 recipes.remove(<Forestry:stamps:3>);
 
 // --- Stamp 20n
+recipes.remove(<Forestry:stamps:4>);
+
+// --- Stamp 50n
+recipes.remove(<Forestry:stamps:5>);
+
+// --- Stamp 100n
+recipes.remove(<Forestry:stamps:6>);
+
+// --- Stamp 20n
 mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:4>);
 
 // --- Stamp 50n
@@ -1626,8 +1635,8 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
 
 // --- Builders Backpach
 recipes.addShaped(<Forestry:builderBag>, [
-[<harvestcraft:wovencottonItem>, <minecraft:fence>, <harvestcraft:wovencottonItem>],
-[<ore:itemLeather>, <minecraft:fence>, <ore:itemLeather>],
+[<harvestcraft:wovencottonItem>, <ore:fenceWood>, <harvestcraft:wovencottonItem>],
+[<ore:itemLeather>, <ore:fenceWood>, <ore:itemLeather>],
 [<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
 // - 
 recipes.addShapeless(<Forestry:builderBag>, [<Forestry:builderBag>]);

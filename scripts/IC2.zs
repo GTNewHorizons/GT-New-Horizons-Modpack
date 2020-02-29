@@ -1,5 +1,4 @@
 // --- Created by DreamMasterXXL ---
-// --- Created by DreamMasterXXL ---
 
 
 // --- Import ---
@@ -16,6 +15,7 @@ import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.Fuels;
+import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
 import mods.gregtech.PlateBender;
@@ -763,6 +763,8 @@ recipes.remove(<IC2:itemPartCFPowder>);
 
 
 
+// --- Mining Pipe Tip -> Mining Pipe
+recipes.addShapeless(<IC2:blockMiningTip>, [<IC2:blockMiningPipe>]);
 
 // --- Electric Heat Generator
 recipes.addShaped(<IC2:blockHeatGenerator:3>, [
@@ -1480,26 +1482,26 @@ recipes.addShaped(<IC2:itemPartCFPowder>, [
 // --- Repair rubber Boots
 recipes.addShaped(<IC2:itemArmorRubBoots>, [
 [<ore:plateRubber>, <IC2:itemArmorRubBoots:*>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[null, <TConstruct:buckets:25>, null]]);
+[null, <ore:craftingToolSoftHammer>, null],
+[null, <TConstruct:buckets:25>.reuse(), null]]);
 
 // --- Repair rubber Helm
 recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatHelmet:*>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[<ore:plateRubber>, <TConstruct:buckets:25>, null]]);
+[null, <ore:craftingToolSoftHammer>, null],
+[null, <TConstruct:buckets:25>.reuse(), null]]);
 
 // --- Repair rubber Suit
 recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatChestplate:*>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[<ore:plateRubber>, <TConstruct:buckets:25>, <ore:plateRubber>]]);
+[null, <ore:craftingToolSoftHammer>, null],
+[null, <TConstruct:buckets:25>.reuse(), null]]);
 
 // --- Repair rubber Leggins
 recipes.addShaped(<IC2:itemArmorHazmatLeggings>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatLeggings:*>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[<ore:plateRubber>, <TConstruct:buckets:25>, <ore:plateRubber>]]);
+[null, <ore:craftingToolSoftHammer>, null],
+[null, <TConstruct:buckets:25>.reuse(), null]]);
 
 
 
@@ -1900,6 +1902,13 @@ FluidCanner.addRecipe(<IC2:reactorCoolantTriple:1>, <dreamcraft:item.ThirtyKCell
 FluidCanner.addRecipe(<IC2:reactorCoolantSix:1>, <dreamcraft:item.SixtyKCell>, null, <liquid:ic2coolant> * 6000);
 
 
+// --- Lathe Recipes
+
+
+
+// --- Diamond sticks
+Lathe.addRecipe([<gregtech:gt.metaitem.01:23500>, <gregtech:gt.metaitem.01:1500> * 2], <IC2:itemPartIndustrialDiamond>, 3830, 16);
+
 
 
 
@@ -1934,7 +1943,7 @@ Pulverizer.addRecipe([<dreamcraft:item.LapotronDust> * 30],  <IC2:itemBatLamaCry
 
 
 // --- Coal Ball
-Mixer.addRecipe(<IC2:itemPartCoalBall>, [<IC2:itemDust:2> * 8, <gregtech:gt.metaitem.01:2802>], 100, 16);
+Mixer.addRecipe(<IC2:itemPartCoalBall>, [<IC2:itemDust:2> * 8, <gregtech:gt.metaitem.01:2802>, <gregtech:gt.integrated_circuit:1> * 0], 100, 16);
 
 
 

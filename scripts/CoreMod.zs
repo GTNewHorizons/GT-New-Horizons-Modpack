@@ -273,6 +273,36 @@ recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
 [null, BlankCast, null],
 [File, Hammer, null]]);
 
+// --- Mold Form Pipe Tiny
+recipes.addShaped(<dreamcraft:item.MoldFormPipeTiny>, [
+[null, File, null],
+[null, BlankCast, null],
+[null, Hammer, null]]);
+
+// --- Mold Form Pipe Small
+recipes.addShaped(<dreamcraft:item.MoldFormPipeSmall>, [
+[null, File, null],
+[null, BlankCast, null],
+[Hammer, null, null]]);
+
+// --- Mold Form Pipe Medium
+recipes.addShaped(<dreamcraft:item.MoldFormPipeMedium>, [
+[null, File, null],
+[Hammer, BlankCast, null],
+[null, null, null]]);
+
+// --- Mold Form Pipe Large
+recipes.addShaped(<dreamcraft:item.MoldFormPipeLarge>, [
+[Hammer, File, null],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Mold Form Pipe Huge
+recipes.addShaped(<dreamcraft:item.MoldFormPipeHuge>, [
+[Hammer, null, File],
+[null, BlankCast, null],
+[null, null, null]]);
+
 // --- Extruder Shape Plate
 recipes.addShaped(<dreamcraft:item.ShapePlate>, [
 [null, WireCutter, File],
@@ -606,17 +636,40 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2805>, [
 [<OpenBlocks:filledbucket>, null, null],
 [null, null, null]]);
 
-// --- Copper Dust out of XP 5 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2035>, [
+// --- Stone Dust out of XP 2,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2299>, [
+[null, null, null],
+[null, null, <OpenBlocks:filledbucket>],
+[null, null, null]]);
+
+// --- Small Flint Dust out of XP 2,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:1802>, [
+[null, null, null],
+[null, null, null],
+[ <OpenBlocks:filledbucket>, null, null]]);
+
+
+// --- Gypsum Dust out of XP 5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2934>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null]]);
+
+// --- Calcite Dust out of XP 5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2823>, [
+[null, null, <OpenBlocks:filledbucket>],
+[null, null, <OpenBlocks:filledbucket>]]);
 
 // --- Sulfur Dust out of XP 5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2022>, [
 [<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
 
 // --- Iron Dust out of XP 5 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2032>, [
+recipes.addShaped(<gregtech:gt.metaitem.01:2939>, [
 [null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+// --- Quartz Sand Dust out of XP 5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2032>, [
+[<OpenBlocks:filledbucket>, null, null],
+[<OpenBlocks:filledbucket>, null, null]]);
 
 // --- Tin Dust out of XP 7,5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2057>, [
@@ -627,15 +680,9 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2057>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:2034>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
-// --- Gypsum Dust out of XP 7,5 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2934>, [
+// --- Copper Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2035>, [
 [null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
-[null, null, <OpenBlocks:filledbucket>]]);
-
-// --- Calcite Dust out of XP 7,5 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2823>, [
-[null, null, <OpenBlocks:filledbucket>],
-[null, null, <OpenBlocks:filledbucket>],
 [null, null, <OpenBlocks:filledbucket>]]);
 
 // --- Raw Rubber Dust out of XP 7,5 level
@@ -677,8 +724,8 @@ recipes.addShaped(<TConstruct:materials:40>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null]]);
 
-// --- Silver Dust out of XP 20 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2054>, [
+// --- Small Silver Dust out of XP 20 level
+recipes.addShaped(<gregtech:gt.metaitem.01:1054>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
@@ -692,6 +739,12 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2086>, [
 // --- Tiny Gallium Dust out of XP 20 level
 recipes.addShaped(<gregtech:gt.metaitem.01:37>, [
 [<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+// --- Leather out of XP 20 level
+recipes.addShaped(<minecraft:leather>, [
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
@@ -828,6 +881,16 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBolt>, <liquid:alum
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRound>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormTurbineBlade>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeTiny>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeSmall>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeMedium>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeLarge>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeHuge>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- BBQ Glows Left Hand
 recipes.addShaped(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [
@@ -1544,10 +1607,10 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:s
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MarshmallowForm>, <liquid:steel.molten> * 576, <dreamcraft:item.MarshmallowFormMold>, true, 100);
 
 // --- Bow Fletching Cast
-mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowFletchingCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:fletching:*>, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowFletchingCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:fletching:*>, true, 100);
 
 // --- BowString Cast
-mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowStringCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:bowstring:*>, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowStringCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:bowstring:*>, true, 100);
 
 
 
@@ -1902,21 +1965,6 @@ mods.thaumcraft.Arcane.addShaped("GREENHEARTCANISTER", <TConstruct:heartCanister
 mods.thaumcraft.Research.addArcanePage("GREENHEARTCANISTER", <TConstruct:heartCanister:6>);
 mods.thaumcraft.Warp.addToResearch("GREENHEARTCANISTER", 4);
 
-// --- Warp Warning
-mods.thaumcraft.Research.addResearch("WARPWARNING", "NEWHORIZONS", "null", -2, 0, 1, <minecraft:skull:1>);
-game.setLocalization("tc.research_name.WARPWARNING", "Warp Warnings");
-game.setLocalization("tc.research_text.WARPWARNING", "[WT] Wither in the Overworld");
-mods.thaumcraft.Research.setAutoUnlock("WARPWARNING", true);
-mods.thaumcraft.Research.setSpikey("WARPWARNING", true);
-mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.1");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.1", "Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... As of version 4.2, that price is represented by Warp: A corruption of the characters mind and soul, inflicting progressively more dire effects upon them. While the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge, and the monsters that appear before you leave remains behind?");
-mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.2");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.2", "Warp Theory add a bunch of new Warp Effects to the Player. Be very carful because you don't want autospawning an Wither in or bside you Base<BR>Warp Effects are Trickert by Warp Level<BR>Fake explosion warp effect can happen with 10 Warp<BR>Fake creeper warp effect can happen with 10 Warp<BR>Spawn bats can happen with 15 Warp<BR>Poison warp effect can happen with 16 Warp<BR>Jump boost warp effect can happen with 18 Warp");
-mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.3");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.3", "Rain warp effect can happen with 25 Warp<BR>Blood warp effect can happen with 25 Warp<BR>Nausea warp effect can happen with 25 Warp<BR>Friendly creeper warp effect can happen with 26 Warp<BR>Lightning warp effect can happen with 30 Warp<BR>Livestock rain warp effect can happen with 32 Warp<BR>Wind warp effect can happen with 38 Warp<BR>Blindness warp effect can happen with 43 Warp");
-mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.4");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.4", "Random teleport can happen with 45 Warp<BR>Acceleration warp effect can happen with 50 Warp<BR>Decay warp effect can happen with 50 Warp<BR>Random trees effect can happen with 50 Warp<BR>Chest scramble warp effect can happen with 80 Warp<BR>Spawn wither warp effect can happen with Warp 80");
-
 // --- Ender Chest Arcane
 mods.thaumcraft.Research.addResearch("ENDERCHEST", "NEWHORIZONS", "metallum 15, electrum 15, machina 12, alienis 9, lucrum 6, fabrico 3, ", -4, 0, 4, <EnderStorage:enderChest>);
 game.setLocalization("tc.research_name.ENDERCHEST", "Ender Chest");
@@ -1977,7 +2025,7 @@ mods.thaumcraft.Research.addArcanePage("AUTOENCHANTINGTABLE", <OpenBlocks:autoen
 mods.thaumcraft.Warp.addToResearch("AUTOENCHANTINGTABLE", 1);
 
 // --- Luggage
-mods.thaumcraft.Research.addResearch("LUGGAGE", "NEWHORIZONS", "alienis 15, sensus 15, iter 12, praecantatio 9, fabrico 6, lucrum 3", -6, 0, 4, <OpenBlocks:luggage>);
+mods.thaumcraft.Research.addResearch("LUGGAGE", "NEWHORIZONS", "alienis 15, sensus 15, iter 12, praecantatio 9, fabrico 6, lucrum 3", -2, 0, 4, <OpenBlocks:luggage>);
 game.setLocalization("tc.research_name.LUGGAGE", "Luggage");
 game.setLocalization("tc.research_text.LUGGAGE", "[OB] Luggage follow me");
 mods.thaumcraft.Research.addPrereq("LUGGAGE", "ENDERCHEST", false);

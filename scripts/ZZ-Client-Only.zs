@@ -131,7 +131,15 @@ mods.forestry.Carpenter.addRecipe(10, <liquid:seedoil> * 100,
 [<gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>,		
 <IC2:itemCoin>, <gregtech:gt.metaitem.01:32014>, <IC2:itemCoin>,		
 <gregtech:gt.metaitem.01:32013>, <IC2:itemCoin>, <gregtech:gt.metaitem.01:32013>],		
-<minecraft:paper>, <Forestry:stamps:6>);	
+<minecraft:paper>, <Forestry:stamps:6>);
+
+// --- Coinage Mold
+recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, WireCutter, null]]);	
+
+
 
 
 // --- Assembler recipes ---

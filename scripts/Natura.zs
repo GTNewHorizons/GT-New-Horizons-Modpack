@@ -1216,7 +1216,7 @@ recipes.addShaped(<Natura:fenceGate.fusewood> * 4, [
 recipes.addShaped(<Natura:stair.fusewood> * 4, [
 [<Natura:planks:12>, null, null],
 [<Natura:planks:12>, <Natura:planks:12>, null],
-[<Natura:planks:12>, <Natura:planks:11>, <Natura:planks:12>]]);
+[<Natura:planks:12>, <Natura:planks:12>, <Natura:planks:12>]]);
 // -
 recipes.addShaped(<Natura:pressureplate.fusewood> * 2, [
 [<ore:screwWood>, <ore:craftingToolHardHammer>, <ore:screwWood>],

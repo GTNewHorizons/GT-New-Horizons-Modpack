@@ -23,7 +23,7 @@ val Skylight = <RIO:skylight>;
 val IWorkbench = <RIO:intelligentWorkbench>;
 val Location = <RIO:item.chip.location>;
 
-val Ichorium = <ThaumicTinkerer:kamiResource:2>;
+val Ichorium = <gregtech:gt.metaitem.01:11978>;
 
 val HSLAPlate = <ore:plateHSLA>;
 val RedAlloyRod = <ore:stickRedAlloy>;

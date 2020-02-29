@@ -1450,51 +1450,41 @@ AlloySmelter.addRecipe(<Railcraft:armor.steel.boots>, <gregtech:gt.metaitem.01:1
 
 
 
-// --- Electric Shunting Wire ---
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.tin>  * 16, 200, 30);
-//-
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.lead>  * 32, 200, 30);
-//-
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.solderingalloy>  * 8, 200, 30);
-
 // --- Wooden Switch Track ---
-Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:23032> * 4, 800, 4);
+Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:23032> * 4, 200, 16);
 
 // --- Wooden Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:20032> * 2, 800, 4);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:20032> * 2, 200, 16);
 
 // --- Wooden Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}), WoodenTrack * 2, <gregtech:gt.metaitem.01:27032> * 4, 800, 4);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}), WoodenTrack * 2, <gregtech:gt.metaitem.01:27032> * 4, 200, 16);
 
 // --- Switch Track ---
-Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), Track * 2, <gregtech:gt.metaitem.02:23305> * 4, 800, 16);
+Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), Track * 2, <gregtech:gt.metaitem.02:23305> * 4, 400, 30);
 
 // --- Wye Track ---
-Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), Track * 2, <gregtech:gt.metaitem.02:20305> * 2, 800, 16);
+Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), Track * 2, <gregtech:gt.metaitem.02:20305> * 2, 400, 30);
 
 // --- Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}), Track * 2, <gregtech:gt.metaitem.01:27305> * 4, 800, 16);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}), Track * 2, <gregtech:gt.metaitem.01:27305> * 4, 400, 30);
 
 // --- Reinforced Switch Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.02:23306> * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.02:23306> * 4, 400, 120);
 
 // --- Reinforced Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.02:20306> * 2, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.02:20306> * 2, 400, 120);
 
 // --- Reinforced Junction Tack ---
-Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27306> * 4, 800, 64);
-
-// --- H.S. Booster Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.boost"}) * 16, [<Railcraft:part.railbed:1>, <Railcraft:part.rail:3> * 4, <ore:plateRedAlloy> * 2, <gregtech:gt.integrated_circuit:16> * 0], null, 1200, 64);
+Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27306> * 4, 400, 120);
 
 // --- H.S. Transition Track ---
-Assembler.addRecipe(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}) * 4, [<Railcraft:part.railbed:1>,  HsTrack * 2, <ore:plateRedAlloy> * 2], null, 1200, 64);
+Assembler.addRecipe(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}) * 4, [<Railcraft:part.railbed:1>,  HsTrack * 2, <ore:plateRedAlloy> * 2], null, 600, 120);
 
 // --- H.S. Switch Track ---
-Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, <gregtech:gt.metaitem.02:23305> * 4, 800, 64);
+Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, <gregtech:gt.metaitem.02:23305> * 4, 400, 120);
 
 // --- H.S. Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, <gregtech:gt.metaitem.02:20305> * 2, 800, 64);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, <gregtech:gt.metaitem.02:20305> * 2, 400, 120);
 
 // --- Electric Switch Track ---
 Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:23035> * 4, 800, 30);
@@ -1511,34 +1501,34 @@ Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cut
 Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cracked:*>, <minecraft:redstone_block> * 2, <liquid:lava> * 576, 200, 480);
 
 // --- Work Cart ---
-Assembler.addRecipe(<Railcraft:cart.work>, <minecraft:minecart>, <minecraft:crafting_table>, 400, 4);
+Assembler.addRecipe(<Railcraft:cart.work>, <minecraft:minecart>, <minecraft:crafting_table>, 100, 16);
 
 // --- Personal Anchor Cart ---
-Assembler.addRecipe(<Railcraft:cart.anchor.personal>, <minecraft:minecart>, <Railcraft:machine.alpha:2>, 400, 4); 
+Assembler.addRecipe(<Railcraft:cart.anchor.personal>, <minecraft:minecart>, <Railcraft:machine.alpha:2>, 100, 16); 
 
 // --- World Anchor Cart ---
-Assembler.addRecipe(<Railcraft:cart.anchor>, <minecraft:minecart>, <Railcraft:machine.alpha>, 400, 4);
+Assembler.addRecipe(<Railcraft:cart.anchor>, <minecraft:minecart>, <Railcraft:machine.alpha>, 100, 16);
 
 // --- Tank Cart ---
-Assembler.addRecipe(<Railcraft:cart.tank>, <minecraft:minecart>, <Railcraft:machine.beta:1>, 400, 4);
+Assembler.addRecipe(<Railcraft:cart.tank>, <minecraft:minecart>, <Railcraft:machine.beta:1>, 100, 16);
 
 // --- Batbox Cart ---
-Assembler.addRecipe(<Railcraft:cart.energy.batbox>, <minecraft:minecart>, <IC2:blockElectric>, 400, 4);
+Assembler.addRecipe(<Railcraft:cart.energy.batbox>, <minecraft:minecart>, <IC2:blockElectric>, 100, 16);
 
 // --- CESU Cart ---
-Assembler.addRecipe(<Railcraft:cart.energy.cesu>, <minecraft:minecart>, <IC2:blockElectric:7>, 400, 4);
+Assembler.addRecipe(<Railcraft:cart.energy.cesu>, <minecraft:minecart>, <IC2:blockElectric:7>, 100, 16);
 
 // --- MFE Cart ---
-Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:blockElectric:1>, 400, 4);
+Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:blockElectric:1>, 100, 16);
 
 // --- Electric Meter ---
-Assembler.addRecipe(<Railcraft:tool.electric.meter>, <IC2:itemToolMEter>, ReceiverCircuit, 600, 16);
+Assembler.addRecipe(<Railcraft:tool.electric.meter>, <IC2:itemToolMEter>, ReceiverCircuit, 300, 30);
 
 // --- Signal Tuner ---
-Assembler.addRecipe(<Railcraft:tool.signal.tuner>, <IC2:itemFreq>, ReceiverCircuit, 600, 16);
+Assembler.addRecipe(<Railcraft:tool.signal.tuner>, <IC2:itemFreq>, ReceiverCircuit, 300, 30);
 
 // --- Signal Block Surveyor ---
-Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <minecraft:compass>, 600, 16);
+Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <minecraft:compass>, 300, 30);
 
 
 

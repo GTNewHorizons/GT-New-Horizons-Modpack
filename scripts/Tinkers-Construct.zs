@@ -202,6 +202,47 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:2>);
 // --- Seared Stone
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:4>);
 
+// --- Seared Paver
+recipes.remove(<TConstruct:Smeltery:6>);
+recipes.remove(<TConstruct:SmelteryNether:6>);
+
+// --- Chiseled Seared Bricks
+recipes.remove(<TConstruct:Smeltery:8>);
+recipes.remove(<TConstruct:SmelteryNether:8>);
+recipes.remove(<TConstruct:Smeltery:9>);
+recipes.remove(<TConstruct:SmelteryNether:9>);
+recipes.remove(<TConstruct:Smeltery:11>);
+recipes.remove(<TConstruct:SmelteryNether:11>);
+
+// --- Chiseled SpeedBlock
+recipes.remove(<TConstruct:SpeedBlock:1>);
+
+// --- Chiseled Brown Stone
+recipes.remove(<TConstruct:SpeedBlock:3>);
+recipes.remove(<TConstruct:SpeedBlock:4>);
+recipes.remove(<TConstruct:SpeedBlock:5>);
+recipes.remove(<TConstruct:SpeedBlock:6>);
+
+// --- Chiseled Bricks Fancy
+
+recipes.remove(<TConstruct:decoration.multibrickfancy:4>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:5>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:6>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:7>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:8>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:9>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:10>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:11>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:12>);
+recipes.remove(<TConstruct:decoration.multibrickfancy:13>);
+
+// --- Chiseled Metal Fancy
+
+recipes.remove(<TConstruct:decoration.multibrickmetal:4>);
+recipes.remove(<TConstruct:decoration.multibrickmetal:5>);
+recipes.remove(<TConstruct:decoration.multibrickmetal:6>);
+recipes.remove(<TConstruct:decoration.multibrickmetal:7>);
+
 // --- Seared Cobblestone
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:Smeltery:5>);
 
@@ -1687,7 +1728,7 @@ recipes.addShapeless(<TConstruct:CraftingSlab:4>, [<ore:craftingToolSaw>, <TCons
 // --- Stencil Table Oak
 recipes.addShaped(<TConstruct:ToolStationBlock:10>, [
 [<ore:stickWood>, <TConstruct:blankPattern>, <ore:stickWood>],
-[<minecraft:fence>, <ore:stickWood>, <minecraft:fence>],
+[<ore:fenceWood>, <ore:stickWood>, <ore:fenceWood>],
 [null, <ore:craftingToolSoftHammer>, null]]);
 // -
 recipes.addShapeless(<TConstruct:ToolStationBlock:10>, [<TConstruct:ToolStationBlock:11>]);
@@ -2319,9 +2360,15 @@ recipes.addShaped(<TConstruct:Redstone.Landmine:3>, [
 [<minecraft:stone>, <Railcraft:detector:4>, <minecraft:stone>]]);
 
 // --- Aluminum Aluminium Exchange
-recipes.addShapeless(<TConstruct:materials:40>, [<gregtech:gt.metaitem.01:2019>]);
+recipes.addShaped(<TConstruct:materials:40>, [
+[null, null, <gregtech:gt.metaitem.01:2019>],
+[null, null, null],
+[null, null, null]]);
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:2019>, [<TConstruct:materials:40>]);
+recipes.addShaped(<gregtech:gt.metaitem.01:2019>, [ 
+[null, null, <TConstruct:materials:40>],
+[null, null, null],
+[null, null, null]]);
 
 // --- Obsidian Sticks
 recipes.addShapeless(<TConstruct:toolRod:6>, [<RandomThings:ingredient:1>]);
@@ -4015,6 +4062,12 @@ Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809>], <TConstruct:Pattern:*>, [
 oreDict.nuggetAluminium.remove(<TConstruct:oreBerries:4>);
 
 
+
+// --- Ordict add ---
+
+
+// --- Liquid Ender Bucket
+<ore:bucketEnder>.add(<TConstruct:buckets:23>);
 
 
 // --- Hiding Stuff ---

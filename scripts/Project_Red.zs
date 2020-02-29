@@ -954,7 +954,7 @@ Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:6>, <
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:7>, <ProjRed|Transportation:projectred.transportation.pipe>, <gregtech:gt.metaitem.01:17032>, 200, 30);
 
 // --- Pressure Resistance Tube
-Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:8>, <ProjRed|Transportation:projectred.transportation.pipe:7>, <ore:plate Obsidian>, 300, 30);
+Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:8>, <ProjRed|Transportation:projectred.transportation.pipe:7>, <ore:plateObsidian>, 300, 30);
 
 // --- Network Vave Pipe
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:9>, <ProjRed|Transportation:projectred.transportation.pipe>, <StevesCarts:ModuleComponents:60>, 200, 30);
@@ -1218,9 +1218,6 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:58>, [<gregtech:gt.metaitem.0
 
 // --- Electrotine Compound
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:57>, [<minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:56> * 8], 400, 30);
-
-// --- Electrotine Dust
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:56> * 8, [<gregtech:gt.metaitem.01:2303>, <minecraft:redstone>], 200, 8);
 
 // --- White Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:15> * 2], 50, 8);

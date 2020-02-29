@@ -10,6 +10,7 @@ import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
+import mods.gregtech.ForgeHammer;
 import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
 
@@ -376,7 +377,8 @@ recipes.addShaped(<HardcoreEnderExpansion:curse:266>, [
 [<ore:dustNetherrack>, <HardcoreEnderExpansion:curse:10>, <ore:dustTinyNetherStar>],
 [null, <HardcoreEnderExpansion:arcane_shard>, null]]);
 
-
+// --- Sphalerite
+furnace.addRecipe(<gregtech:gt.metaitem.01:11036>, <HardcoreEnderExpansion:sphalerite>);
 
 
 
@@ -385,19 +387,19 @@ recipes.addShaped(<HardcoreEnderExpansion:curse:266>, [
 
 
 // --- Energy Wand Core
-Assembler.addRecipe(<HardcoreEnderExpansion:energy_wand_core>, <HardcoreEnderExpansion:endium_block>, <HardcoreEnderExpansion:auricion> * 8, 600, 256);
+Assembler.addRecipe(<HardcoreEnderExpansion:energy_wand_core>, <HardcoreEnderExpansion:endium_block>, <HardcoreEnderExpansion:auricion> * 8, 600, 480);
 
 // --- Blank Gem
-Assembler.addRecipe(<HardcoreEnderExpansion:blank_gem>, <HardcoreEnderExpansion:endium_block>, <HardcoreEnderExpansion:arcane_shard> * 8, 600, 256);
+Assembler.addRecipe(<HardcoreEnderExpansion:blank_gem>, [<HardcoreEnderExpansion:endium_block>, <HardcoreEnderExpansion:arcane_shard> * 8, <HardcoreEnderExpansion:endoplasm> * 4, <HardcoreEnderExpansion:end_powder> * 16, <HardcoreEnderExpansion:essence> * 16, <gregtech:gt.integrated_circuit:1> * 0], <liquid:endergoo> * 1440, 600, 480);
 
 // --- Spatial Dash Gem
-Assembler.addRecipe(<HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:blank_gem>, <HardcoreEnderExpansion:arcane_shard> * 8, <liquid:ender> * 1000, 1200, 480);
+Assembler.addRecipe(<HardcoreEnderExpansion:spatial_dash_gem>, [<HardcoreEnderExpansion:blank_gem>, <HardcoreEnderExpansion:arcane_shard> * 16, <HardcoreEnderExpansion:endoplasm> * 8, <HardcoreEnderExpansion:end_powder> * 32, <HardcoreEnderExpansion:essence> * 32, <gregtech:gt.integrated_circuit:1> * 0], <liquid:endergoo> * 2880, 1200, 1920);
 
 // --- Transference Gem
-Assembler.addRecipe(<HardcoreEnderExpansion:transference_gem>, <HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:endoplasm> * 8, 1800, 1024);
+Assembler.addRecipe(<HardcoreEnderExpansion:transference_gem>, [<HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:arcane_shard> * 32, <HardcoreEnderExpansion:endoplasm> * 16, <HardcoreEnderExpansion:end_powder> * 64, <HardcoreEnderExpansion:essence> * 64, <gregtech:gt.integrated_circuit:1> * 0], <liquid:endergoo> * 5760, 1800, 7068);
 
 // --- Schorching Pickaxe
-Assembler.addRecipe(<HardcoreEnderExpansion:schorching_pickaxe>, <minecraft:golden_pickaxe>, <HardcoreEnderExpansion:fire_shard> * 8, 300, 120);
+Assembler.addRecipe(<HardcoreEnderExpansion:schorching_pickaxe>, <minecraft:golden_pickaxe>, <HardcoreEnderExpansion:fire_shard> * 8, 300, 480);
 
 
 
@@ -462,6 +464,14 @@ Extractor.addRecipe(<minecraft:dye:14> * 4, <HardcoreEnderExpansion:crossed_deco
 
 
 
+// --- Forge Hammer recipes
+
+
+
+// --- Sphalerite to crushed dust
+ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:5839> * 2, <HardcoreEnderExpansion:sphalerite>, 4, 10);
+
+
 
 // --- Lathe Recipes ---
 
@@ -479,10 +489,13 @@ Lathe.addRecipe([<HardcoreEnderExpansion:obsidian_rod>], <HardcoreEnderExpansion
 
 
 // --- Ender Powder Dust
-Pulverizer.addRecipe([<HardcoreEnderExpansion:end_powder> * 4], <HardcoreEnderExpansion:end_powder_ore>, [10000], 300, 2);
+Pulverizer.addRecipe([<HardcoreEnderExpansion:end_powder> * 4], <HardcoreEnderExpansion:end_powder_ore>, [10000], 50, 480);
 
 // --- Igneous Rock
-Pulverizer.addRecipe([<HardcoreEnderExpansion:igneous_rock> * 2], <HardcoreEnderExpansion:igneous_rock_ore>, [10000], 300, 2);
+Pulverizer.addRecipe([<HardcoreEnderExpansion:igneous_rock> * 2], <HardcoreEnderExpansion:igneous_rock_ore>, [10000], 50, 480);
 
 // --- Endium Dust
-Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2770> * 9], <HardcoreEnderExpansion:endium_block>, [10000], 300, 2);
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2770> * 9], <HardcoreEnderExpansion:endium_block>, [10000], 50, 480);
+
+// --- Sphalerite to crushed dust
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:5839> * 4], <HardcoreEnderExpansion:sphalerite>, [10000], 400, 2);
