@@ -80,7 +80,6 @@ config/warptheory/
 ##Ignore files not modified by GT:NH
 ######################################
 
-config/AppleCore.cfg
 config/asielib.cfg
 config/Automagy.cfg
 config/AWWayofTime.cfg
