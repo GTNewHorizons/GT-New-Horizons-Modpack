@@ -22,7 +22,7 @@ recipes.addShapeless(<enhancedlootbags:lootbag:5>.withTag({ench: [{lvl: 3 as sho
 recipes.addShapeless(<enhancedlootbags:lootbag:6>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:6>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32602>]);
 
 // --- Loot Bag (Tier 5 EV)
-recipes.addShapeless(<enhancedlootbags:lootbag:7>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:7>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <IC2:itemBatLamaCrystal:26>]);
+recipes.addShapeless(<enhancedlootbags:lootbag:7>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:7>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <IC2:itemBatLamaCrystal:32767>]);
 
 // --- Loot Bag (Tier 6 IV)
 recipes.addShapeless(<enhancedlootbags:lootbag:8>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:8>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32706>]);

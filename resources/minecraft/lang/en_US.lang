@@ -18,7 +18,7 @@ gtnh.quest3.desc=Now that you've unlocked 3x3 crafting, it's about time to make 
 
 # Quest.4 - §1§lMain Quests and Secondary Quests
 gtnh.quest4.name=§1§lMain Quests and Secondary Quests
-gtnh.quest4.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.%n%nIf you need help with a quest, you can find the Quest ID by holding F3 + H, and then Quest IDs will show in your questbook.
+gtnh.quest4.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.%n%nWhat are these coins? You can use them to purchase things in the Coins tab. In case you started in a bad biome, I'll give you enough coins to purchase some saplings.
 
 # Quest.5 - §1§lTools
 gtnh.quest5.name=§1§lTools
@@ -194,7 +194,7 @@ gtnh.quest47.desc=Like most machines, there is a more advanced version of the al
 
 # Quest.48 - §3§lA very important alloy
 gtnh.quest48.name=§3§lA very important alloy
-gtnh.quest48.desc=The most important alloy (until you reach a higher tier) is undoubtedly red alloy. Fortunately, you have an alloy smelter, so grab some redstone and combine it with copper to get yourself a handful of that.
+gtnh.quest48.desc=The most important alloy (until you reach a higher tier) is undoubtedly red alloy. Fortunately, you have an alloy smelter, so grab some redstone and combine it with copper to get yourself a handful of that. %n%nDon't confuse your bronze with your copper or else you'll be scratching your head.
 
 # Quest.49 - §3§lThe hell is that?
 gtnh.quest49.name=§3§lThe hell is that?
@@ -354,7 +354,7 @@ gtnh.quest87.desc=Do you want to have tanks that can hold double the amount of t
 
 # Quest.88 - §5§r§5§lWelcome to Tier 2
 gtnh.quest88.name=§5§r§5§lWelcome to Tier 2
-gtnh.quest88.desc=Why, hello there! Seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to use them until you reach tier 3.
+gtnh.quest88.desc=Why, hello there! Seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to use them until you reach tier 3.%n%nTo make your life easier, you'll want to focus on getting a wiremill and bender first...once you suffer through making all the machine components.
 
 # Quest.89 - §6§lMV Steam Turbine
 gtnh.quest89.name=§6§lMV Steam Turbine
@@ -674,7 +674,7 @@ gtnh.quest167.desc=Dying is painful, isn't it? As your precious experience is lo
 
 # Quest.168 - §9§lA soul vessel
 gtnh.quest168.name=§9§lA soul vessel
-gtnh.quest168.desc=For your new machine, you need something to actually capture souls from monsters. The soul vials are reusable vessels. Just right-click any living entity to steal its soul.
+gtnh.quest168.desc=The Soul Vial is used later in HV Ender IO machines. For now though you find it convenient to deal with....troublesome mobs. The Soul Vial is reuseable. Just right-click any living entity to steal its soul. Right click again to release it in the environment.%n%nThe possibilities swirl in your head...
 
 # Quest.169 - §9§lThe creation of life
 gtnh.quest169.name=§9§lThe creation of life
@@ -1458,7 +1458,7 @@ gtnh.quest363.desc=Hey my friend. I got your sample, and I have to say, I'm amaz
 
 # Quest.364 - A hull
 gtnh.quest364.name=A hull
-gtnh.quest364.desc=First things first, we need a hull. I played around with your sample, and it seems that it reacts with every known material. It even attacks Iridium! It's completely harmless if it's in a box that is open, but as soon as I try to enclose it in something, poof. It breaks free. We need something stronger than iridium my friend.
+gtnh.quest364.desc=First things first, we need a hull. I played around with your sample, and it seems that it reacts with every known material. It even attacks Iridium! It's completely harmless if it's in a box that is open, but as soon as I try to enclose it in something, poof. It breaks free. We need something stronger than iridium my friend.%n%nMaybe something from the core of a dead star....White dwarf won't be dense enough...Perhaps a Neutron Star? Hmmm...Yes, fetch me some ore from the core of a Neutron Star and we'll try some next steps.
 
 # Quest.365 - Dense, denser, Neutronium
 gtnh.quest365.name=Dense, denser, Neutronium
@@ -1466,11 +1466,11 @@ gtnh.quest365.desc=Now look at this. This stuff is incredibly dense. Maybe this 
 
 # Quest.366 - Not a planet
 gtnh.quest366.name=Not a planet
-gtnh.quest366.desc=This place is interesting. Maybe I should try to find new materials here...
+gtnh.quest366.desc=This place is interesting. Maybe I should try to find new materials here...%n%nWhat's that? Scanning shows some kind of new radioactive ore. Go and check it out, maybe hold some - with proper protection of course.
 
 # Quest.367 - Successful.. Or not?
 gtnh.quest367.name=Successful.. Or not?
-gtnh.quest367.desc=Heh, neutronium. I didn't even know such a thing really exists. Unfortunately, the draconium dust was enclosed for... 5 seconds? But, it was a small success. %n%nOk let's travel to some planets and moons and look for the new material. I think we have to fly very far away for it.
+gtnh.quest367.desc=Heh, neutronium. I didn't even know such a thing really exists. Unfortunately, the draconium dust was enclosed for... 5 seconds? But, it was a small success. %n%nOk let's travel to some planets and moons and look for the new material. I think we have to fly very far away for it.%n%nSomeplace dark, on the edge of space.
 
 # Quest.368 - Black Plutonium
 gtnh.quest368.name=Black Plutonium
@@ -1560,9 +1560,9 @@ gtnh.quest388.desc=While the normal world is based on vis and primal energy, the
 gtnh.quest389.name=Draconic evolution
 gtnh.quest389.desc=I found a way to combine technology and magic into something fantastic. A shiny blue emblem that emits immense amount of energy. I've decided to call it the draconic core. Make one for yourself!
 
-# Quest.390 - Balanced thaumium
-gtnh.quest390.name=Balanced thaumium
-gtnh.quest390.desc=This new metal is quite cheap, and has an awesome conductivity towards all 6 primal aspects. Regarding the capsule, I'd say it is a superconductor for vis. I think I can finally assemble the final frame.
+# Quest.390 - Ichorium
+gtnh.quest390.name=Ichorium
+gtnh.quest390.desc=This new metal is quite expensive, and has an awesome hardness and is very resillient, to a point where mundane materials could never get.%nI think I can finally assemble the final frame.
 
 # Quest.391 - Automated evolution
 gtnh.quest391.name=Automated evolution
@@ -1586,7 +1586,7 @@ gtnh.quest395.desc=By combining a dimensional singularity with some glass cylind
 
 # Quest.396 - The final steps
 gtnh.quest396.name=The final steps
-gtnh.quest396.desc=Now that I've found a way to stabilize the draconium dust and keep it safe in a small capsule, I just need to make a small container for it, so I can drain the energy on demand. Neutronium will serve very well, but I need a magic conductor. Thaumium works, but gets way too hot and void metal has a bad conductivity. I need to find a magic alloy that is more "balanced" in terms of primal aspects
+gtnh.quest396.desc=Now that I've found a way to stabilize the draconium dust and keep it safe in a small capsule, I just need to make a small container for it, so I can drain the energy on demand. Neutronium will serve very well, but I need a magic conductor. Thaumium works, but gets way too hot and void metal has a bad conductivity. I need to find a high tier magic metal that is extremly strong and resillient, to a point where mundane materials could never get.
 
 # Quest.397 - Endless evolution
 gtnh.quest397.name=Endless evolution
@@ -1978,7 +1978,7 @@ gtnh.quest493.desc=Small gears require a wire cutter to be made, so let's craft 
 
 # Quest.494 - §2§lRedstone
 gtnh.quest494.name=§2§lRedstone
-gtnh.quest494.desc=If you didnt't find any Redstone veins yet, it is quite important to look for one now. Try your luck at Y level 5-40.
+gtnh.quest494.desc=If you didn't find any Redstone veins yet, it is quite important to look for one now. Try your luck at Y level 5-40.
 
 # Quest.495 - §3§lOh, shiny! (Not platinum!)
 gtnh.quest495.name=§3§lOh, shiny! (Not platinum!)
@@ -2782,7 +2782,7 @@ gtnh.quest694.desc=With your brand-new Compressor you are able to make some meta
 
 # Quest.695 - §6§o§1§2§3§r§r§r§r§r§r§3§4§r§o§7§7§8§9§9§5§3§1§0§r§o§m§k§c§e§l§r§1§1§r§6§lAutomation tier 1
 gtnh.quest695.name=§6§o§1§2§3§r§r§r§r§r§r§3§4§r§o§7§7§8§9§9§5§3§1§0§r§o§m§k§c§e§l§r§1§1§r§6§lAutomation tier 1
-gtnh.quest695.desc=Do you want to automate your smeltery because you are planning to make stacks of glass blocks? %nNo problem, craft a large bronze pipe and place it under the faucet. Now the molten fluid will flow inside the pipe. Under or next to the pipe you have to place the casting basins or tables.%nA hopper and a chest underneath would auto-output products. NOTE: Faucets will output precisely 144L each activation if you toggle it off immediately. That's going to have some uses later on...
+gtnh.quest695.desc=Do you want to automate your smeltery because you are planning to make stacks of glass blocks? %nNo problem, craft a large bronze pipe and place it under the faucet. Make sure to connect the pipe to the faucet using a wrench. Now the molten fluid will flow inside the pipe. Under or next to the pipe you have to place the casting basins or tables.%nA hopper and a chest underneath would auto-output products from the casting blocks. %n%nNOTE: Faucets will output precisely 144L each activation if you toggle it off immediately. That's going to have some uses later on...
 
 # Quest.696 - §6§lAutomation tier 2
 gtnh.quest696.name=§6§lAutomation tier 2
@@ -2798,7 +2798,7 @@ gtnh.quest698.desc=Not even two BBFs are fast enough...Can you figure out how to
 
 # Quest.699 - §6§lWhy one coke oven when you can have ten?
 gtnh.quest699.name=§6§lWhy one coke oven when you can have ten?
-gtnh.quest699.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.%n%nSearch NEI for a more efficient way to make coke oven bricks.
+gtnh.quest699.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.  You can use either faucets with restone clocking or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.%n%nUnlike Gregtech multiblocks, coke ovens must have 1 space separating each oven.%n%nSearch NEI for a more efficient way to make coke oven bricks.
 
 # Quest.700 - How dark can you go?
 gtnh.quest700.name=How dark can you go?
@@ -2902,7 +2902,7 @@ gtnh.quest724.desc=Weed will show up from time to time on your crop sticks. Be c
 
 # Quest.725 - Flower Power
 gtnh.quest725.name=Flower Power
-gtnh.quest725.desc=Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers you maybe get a new flower and new dyes with different colors.%n%nYou will need to plant 4 vanilla flowers to get them on a cropstick.%n%nTo get "Rose Seeds" place poppies.
+gtnh.quest725.desc=Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers you maybe get a new flower and new dyes with different colors.%n%nYou will need to plant 4 vanilla flowers to get them on a cropstick. They also don't plant unless they are in bright light.%n%nTo get "Rose Seeds" place poppies.
 
 # Quest.726 - §5§lChemical rubber production
 gtnh.quest726.name=§5§lChemical rubber production
@@ -3282,7 +3282,7 @@ gtnh.quest819.desc=Every rocket needs fuel storage canisters. For the tier 1 roc
 
 # Quest.820 - Rocket Launch Pad
 gtnh.quest820.name=Rocket Launch Pad
-gtnh.quest820.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nMake sure you don't have any lightning warp effects or you'll be really sad.
+gtnh.quest820.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nMake sure you don't have any lightning warp effects or you'll be really sad - storms can also knock your rocket off, so make sure to not leave it alone.%n%n§c§cBefore liftoff, make sure you clear the airspace above you! Even clouds...%n%nBe sure to checkout https://gtnh.miraheze.org/wiki/Rockets for a Departure Checklist!
 
 # Quest.821 - Rocket Fuel
 gtnh.quest821.name=Rocket Fuel
@@ -3310,7 +3310,7 @@ gtnh.quest826.desc=With iron tools, you are able to mine most of the Overworld o
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=Rocket Fuel
-gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel and fill some fuel canisters. %nYou can use Fuel or Rocket Fuel from Ender IO.
+gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel and fill some fuel canisters. %nYou can use Fuel or Rocket Fuel from Ender IO.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to craft a couple of extra tanks just in case.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=Oxygen Collector
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=Every basic circuit needs two resistors to work
 
 # Quest.836 - §5§lGallium Arsenide
 gtnh.quest836.name=§5§lGallium Arsenide
-gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite dust in an electrolyzer is the primary source of gallium at this tier. %nYou can also get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get additional crushed ore, use a Tinker's Construct tool with the Luck (Fortune) enchant on it - apply a lot of Lapis. %n%nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest.%n%nYou need to level up your obsidian level tool, use a alumite tool, or make an Ironwood Pickaxe to harvest cobalt ore.%n%nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.%n%nMix those two dusts in a mixer to get gallium arsenic dust.%n%nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.
+gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite dust in an electrolyzer is the primary source of gallium at this tier. %nYou can also get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get additional crushed ore, use a Tinker's Construct tool with the Luck (Fortune) enchant on it - apply a lot of Lapis. %n%nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest.%n%nYou need to level up your pickaxe to ardite or make an Ironwood Pickaxe to harvest cobalt ore.%n%nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.%n%nMix those two dusts in a mixer to get gallium arsenic dust.%n%nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.%n%nAnother source is cobaltite ore. You get arsenic out of it during electrolyzing but that requires MV Voltage.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -3722,15 +3722,15 @@ gtnh.quest929.desc=The highest tier of the blood altar is tier 6. You need pilla
 
 # Quest.930 - §5§lAuto Mining
 gtnh.quest930.name=§5§lAuto Mining
-gtnh.quest930.desc=A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 8 EU/t to work. The miner searches for ores in a 17x17 block work area. Now comes with 2 fortune bonus! Great for gathering additional small ores...%n%nDon't forget to cover it up! These are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest930.desc=A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 8 EU/t to work. The miner searches for ores in a 17x17 block work area (adjustable with a screwdriver). Now comes with 1 fortune bonus! Great for gathering additional small ores...%n%nDon't forget to cover it up! These are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
 
 # Quest.931 - §6§lAuto Mining MV
 gtnh.quest931.name=§6§lAuto Mining MV
-gtnh.quest931.desc=The MV miner will find ores for you faster than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 32 eu to work. The Miner searches ores in a 33x33 block area and works two times faster than the LV variant. Comes with 4 fortune bonus, great for gathering small ores in the Nether.%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest931.desc=The MV miner will find ores for you faster than the LV miner. Place up to two stacks of mining pipes in the right slots. This miner need 32 eu to work. The Miner searches ores in a 33x33 block area (adjustable with a screwdriver) and works two times faster than the LV variant. Comes with 2 fortune bonus, great for gathering small ores in the Nether.%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
 
 # Quest.932 - §9§lAuto Mining HV
 gtnh.quest932.name=§9§lAuto Mining HV
-gtnh.quest932.desc=The HV miner will find ores for you faster than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 128 eu to work. The Miner searches ores in a 49x49 block area (three chunks wide, perfect for a chunkloader) and works two times faster than the MV variant. It also has a 6 fortune bonus, making it even better for small ores.  Recommend taking some with you to the Moon to gather meteoric iron.
+gtnh.quest932.desc=The HV miner will find ores for you faster than the MV miner. Place up to two stacks of mining pipes in the right slots. This miner needs 128 eu to work. The Miner searches ores in a 49x49 block area (three chunks wide, perfect for a chunkloader) and works two times faster than the MV variant. It also has a 3 fortune bonus, making it even better for small ores.  Recommend taking some with you to the Moon to gather meteoric iron.
 
 # Quest.933 - §6§lPower of the Sun
 gtnh.quest933.name=§6§lPower of the Sun
@@ -3970,7 +3970,7 @@ gtnh.quest991.desc=In order to upgrade one armor item with basic upgrades, you n
 
 # Quest.992 - Go find some tropical bees
 gtnh.quest992.name=Go find some tropical bees
-gtnh.quest992.desc=Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist's clothes.%nLooking for pristine Bees.
+gtnh.quest992.desc=Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist's clothes. Try to get pristine bees. If you're having trouble finding them, you can use Nature's Compass to search for a specific biome.
 
 # Quest.993 - Silky combs and Propolis
 gtnh.quest993.name=Silky combs and Propolis
@@ -4054,7 +4054,7 @@ gtnh.quest1012.desc=Rutile can be thermal centrifuged out of bauxite and ilmenit
 
 # Quest.1013 - §6§lSMD Circuit components
 gtnh.quest1013.name=§6§lSMD Circuit components
-gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.%n%n§4The easiest way to get Platinum is with Nickel ore and a chemical bath.
+gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.%n
 
 # Quest.1014 - §9§lWorkstation Extreme Circuit
 gtnh.quest1014.name=§9§lWorkstation Extreme Circuit
@@ -4278,7 +4278,7 @@ gtnh.quest1068.desc=Are you prepared for the Moon?%nA few things will help you t
 
 # Quest.1069 - Oak, Spruce, Birch, Jungle Sapling
 gtnh.quest1069.name=Oak, Spruce, Birch, Jungle Sapling
-gtnh.quest1069.desc=You spawned in a desert and need Oak or Birch saplings? No problem! For five Forestry Coins you can select which one you want to buy.
+gtnh.quest1069.desc=You spawned in a desert and need Oak or Birch saplings? No problem! For five Forester Coins you can select which one you want to buy.
 
 # Quest.1070 - Magic Feather
 gtnh.quest1070.name=Magic Feather
@@ -4406,7 +4406,7 @@ gtnh.quest1100.desc=Finally with your new wand and 50 stored vis you are able to
 
 # Quest.1101 - Division Sigil
 gtnh.quest1101.name=Division Sigil
-gtnh.quest1101.desc=Maybe you found a division sigil in a chest already. You have heard about some ritual to activate it.%n%nYou need an enchantment table, 8 redstone dust, a good sword and an animal you want to sacrifice at night. Catching and holding it with a lasso would be the easiest way.%nPlace your enchantment table on a grass field and surround it with redstone dust.%nPrecisely at midnight place the animal on or near the table and kill it.%nOf course you also need to have your sigil on you.%nBe aware! Your actions will have consequences.
+gtnh.quest1101.desc=Maybe you found a division sigil in a chest already. You have heard about some ritual to activate it.%n%nYou need an enchantment table, 8 redstone dust, a good sword and an animal you want to sacrifice at night. Catching and holding it with a Golden Lasso would be the easiest way. Check in LV for the Golden Lasso quest if you haven't completed it yet.%n%nPlace your enchantment table on a grass field and surround it with redstone dust.%nPrecisely at midnight place the animal on or near the table and kill it.%nOf course you also need to have your sigil on you.%nBe aware! Your actions will have consequences.
 
 # Quest.1102 - Beacon
 gtnh.quest1102.name=Beacon
@@ -4414,7 +4414,7 @@ gtnh.quest1102.desc=With your new wand you are able to create a beacon. The beac
 
 # Quest.1103 - Cursed Earth
 gtnh.quest1103.name=Cursed Earth
-gtnh.quest1103.desc=Kill the monsters that spawn on the cursed earth. Use a shovel with the silk touch enchantment to dig up the cursed earth blocks. You will need these blocks for your mob spawner later.
+gtnh.quest1103.desc=Kill the monsters that spawn on the cursed earth. Use a shovel with the silk touch enchantment to dig up the cursed earth blocks. You will need these blocks for your mob spawner later.%n%nWhen setting up a mob spawner in the Nether using Cursed Earth, poor design can cause huge TPS issues.%n%nMake sure the Cursed Earth is not attached to anything from the Nether. For example, you can place it on top of marble, but the marble cannot touch anything in the nether (netherrack, brick, etc), and must be floating in the air.%n%nAlso, limit the Cursed Earth to 1 chunk max, with 2 block buffer to the chunk edge, including a wall.
 
 # Quest.1104 - Silky Jewel
 gtnh.quest1104.name=Silky Jewel
@@ -5714,7 +5714,7 @@ gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.1428 - Tier 2 Schematic
 gtnh.quest1428.name=Tier 2 Schematic
-gtnh.quest1428.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The tier 2 rocket uses an elite circuit, a heavy duty plate tier 2, and the data stick in a ev circuit assembler.
+gtnh.quest1428.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The tier 2 rocket uses an elite circuit, a heavy duty plate tier 2, and the data stick in a hv circuit assembler.
 
 # Quest.1429 - Rocket Tier 2
 gtnh.quest1429.name=Rocket Tier 2
@@ -6002,7 +6002,7 @@ gtnh.quest1499.desc=Wait, what? You want more byproducts from your ores?  A chea
 
 # Quest.1500 - §1§lBetter Questing?
 gtnh.quest1500.name=§1§lBetter Questing?
-gtnh.quest1500.desc=For quests to save properly, you must be online and logged into your Mojang account.  Sorry, it's a limitation of Better Questing.
+gtnh.quest1500.desc=If you need help with a quest, you can find the Quest ID by holding F3 + H together to get extended tooltips, and then Quest IDs will show in your questbook.%n%nIf you want to enable Hardcore Mode, open to LAN, enable cheats, then type %n%n§l/bq_admin hardcore%n§r%nIf you are using a personal server, you can do the command on the command line, without the /. Restart your client to leave LAN mode and disable cheats.%n%nYou only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nFor quests to save properly, you must be online and logged into your Mojang account.  Sorry, it's a limitation of Better Questing.
 
 # Quest.1501 - §1§lBackup your stuff...
 gtnh.quest1501.name=§1§lBackup your stuff...
@@ -6014,7 +6014,7 @@ gtnh.quest1502.desc=Tired of sticking your EnderIO items in the capacitor bank t
 
 # Quest.1503 - §6§lNobody wants an explosion...
 gtnh.quest1503.name=§6§lNobody wants an explosion...
-gtnh.quest1503.desc=...right?  So when building multiblocks, make sure you%n%n1. Don't cross chunk boundaries with the multiblock.%n%n2. Don't rely on resources coming from outside the chunk to prevent explosions.  In other words, make sure you source your water locally.%n%nGood luck.
+gtnh.quest1503.desc=...right?  So when building multiblocks, make sure you%n%n1. Don't cross chunk boundaries with the multiblock.%n%n2. Don't rely on resources coming from outside the chunk to prevent explosions.  In other words, make sure you source your water locally.%n%nAlso, if you haven't discovered it yet, Electric machines don't like getting rain or snow on them. They'll start fires, and those fires have a chance of causing an explosion. Stay safe out there!%n%nGood luck.
 
 # Quest.1504 - §2§e§k§l§r§3§2§lDivine rod of the gods?
 gtnh.quest1504.name=§2§e§k§l§r§3§2§lDivine rod of the gods?
@@ -6182,7 +6182,7 @@ gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mi
 
 # Quest.1545 - §6§lTime to ore drill!
 gtnh.quest1545.name=§6§lTime to ore drill!
-gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. Each tier of the controller also gives 5 bonus fortune for small ores. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
 
 # Quest.1546 - §2§lRare ores
 gtnh.quest1546.name=§2§lRare ores
@@ -7340,8 +7340,8 @@ gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys
 gtnh.quest1834.name=§1§lMushroom Biomes ? why there so many?
 gtnh.quest1834.desc=GNTH pack is made for the rwg worldgen. If you run the vanilla biomes worlgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue this one. If you run a server put this inside your server.properties file.%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
 
-# Quest.1835 - §6§lTantalum
-gtnh.quest1835.name=§6§lTantalum
+# Quest.1835 - §6§lTantalum Overworld
+gtnh.quest1835.name=§6§lTantalum Overworld
 gtnh.quest1835.desc=Tantalum is used in the GT and Ender IO Capacitors and also a source for niobium. It is a cheap essentia source for Thaumcraft later on.%nYou will find Tantalite Mix at Y 20-30 on the Overworld.
 
 # Quest.1836 - Kitchenware 2.0
@@ -7414,7 +7414,7 @@ gtnh.quest1852.desc=...But she'll never stop because you'll always have somethin
 
 # Quest.1853 - §6§lMoron's Manual for Effective EBFing
 gtnh.quest1853.name=§6§lMoron's Manual for Effective EBFing
-gtnh.quest1853.desc=Welcome to the latest Moron's Manual, Effective EBFing!%nThis manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from where you will spend most of your time.  Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow.  Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler faces *out*, not *in*. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF.  Especially at LV, those few meters make a big difference!  Every amp of energy travelling over a cable loses a little bit - and you'll need as much as you can get!%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them.  They will also void if they are full, so keep an eye on them!%n%nWhen build multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too.  Not recommended for energy and maintenance hatches!
+gtnh.quest1853.desc=Welcome to the latest Moron's Manual, Effective EBFing!%nThis manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from where you will spend most of your time.  Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow.  Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler faces *out*, not *in*. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF.  Especially at LV, those few meters make a big difference!  Every amp of energy travelling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you are poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers generators. If you make 9 slot battery buffers, you can fill them up over time to get longer performance until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them.  They will also void if they are full, so keep an eye on them!%n%nWhen build multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too.  Not recommended for energy and maintenance hatches!
 
 # Quest.1854 - Just like Mom used to make
 gtnh.quest1854.name=Just like Mom used to make
@@ -9334,7 +9334,7 @@ gtnh.quest2332.desc=Your Irondoors make your Machine Hall or House more safe. Th
 
 # Quest.2333 - §a§lHow to open your Wooden Doors?
 gtnh.quest2333.name=§a§lHow to open your Wooden Doors?
-gtnh.quest2333.desc=Wooden doors make your House safer. %nNow let's craft some wooden Pressure plates and Buttons to open these Doors.
+gtnh.quest2333.desc=Wooden doors make your House safer. %nNow let's craft some wooden Pressure plates and Buttons to open these Doors.%n%nYou'll need to use Oak for this quest. Purchase some saplings from the Coins tab if you don't have any nearby.
 
 # Quest.2334 - Demonic Contract
 gtnh.quest2334.name=Demonic Contract
@@ -9379,10 +9379,6 @@ gtnh.quest2343.desc=A Quartz Sphere is a component used in the production of a C
 # Quest.2344 - Seer Stone or Summon the Witches
 gtnh.quest2344.name=Seer Stone or Summon the Witches
 gtnh.quest2344.desc=A Seer Stone is a variation of a Crystal Ball, that allows witches to communicate with one another over great distances. It is mostly used by one witch to summon other members of their coven either to help out in a fight, or to help perform a ritual. The seer stone may also be used on another player to reveal if they are afflicted by a curse.%n%nTo summon a coven witch for aid, use the Seer Stone while held. Holding for longer summons more coven members.%n%nIf near a Witches' Cauldron, the summoned witches will circle it ready for a ritual.%n%nTo call the entire coven to perform a rite, start the rite normally while holding the Seer Stone.%n%nTo determine if another player is cursed, to find out if they have a coven or familiar, and how much time they can manifest for, use the Seer Stone on them when they are within 3 blocks distance. Sneak-using the stone will show the same information for the bearer of the Stone.%n%nA Seer Stone is created by infusing a Quartz Sphere with Obsidian and Happenstance Oil using a Rite of Infusion.
-
-# Quest.2345 - Familiar
-gtnh.quest2345.name=Familiar
-gtnh.quest2345.desc=Familiars are supernatural beings that assist witches and cunning folk in their practice of magic.%n%nIn some cases familiars are attracted to practitioners of their own accord, but the most effective way to acquire a familiar is to bind a minor demon (or spirit) to an animal. %nAs part of such a binding, a sympathetic link is created between the bound familiar and the witch (or warlock).%n%nFamiliars take on the characteristics of the animal to which they are bound, allowing certain enhancements to a witches' practice depending on the animal.%n%n§lBinding a Familiar%n%n§l§l§l§l§l§rA familiar is summoned and bound to an animal using a Rite of Binding as described in the book, Witchcraft: Circle Magic.%n%nBoth the witch and a tamed animal of the desired type (Cat, Owl or Toad) must stand in the Circle when the Rite is performed.  If the Rite is successful the animal will be inhabited by the familiar entity with the effects listed on https://sites.google.com/site/witcherymod/familiars%n
 
 # Quest.2346 - §9§8§7§6§5§3§lTame an Ocelot to get a Friend
 gtnh.quest2346.name=§9§8§7§6§5§3§lTame an Ocelot to get a Friend
@@ -9590,7 +9586,7 @@ gtnh.quest2396.desc=Hydrogen Peroxide is made in a GT++ Chemical Plant.%n%nGood 
 
 # Quest.2397 - Playing with the Big Boys, chemically
 gtnh.quest2397.name=Playing with the Big Boys, chemically
-gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on.%n%nIt will need a mine cart load of reources, so start mining!%n%nValid solid steel casings:%nSolid steel casings%nClean Stainless Steel Casing%nStable Titanium Casing%nRobust Tungsten Steel Casing%n%nValid pipe casings:%nBronze%nSteel%nTitanium%nTungsten
+gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a mine cart load of reources, so start mining!%n%nValid solid casings:%nSolid Steel Machine Casing%nClean Stainless Steel Machine Casing%nStable Titanium Machine Casing%nRobust Tungstensteel Casing%n%nValid machine casings:%nLV, MV, HV, etc. Machine Casing%n%nValid pipe casings:%nBronze%nSteel%nTitanium%nTungstensteel
 
 # Quest.2398 - §3§lHidden drawers
 gtnh.quest2398.name=§3§lHidden drawers
@@ -9612,11 +9608,111 @@ gtnh.quest2401.desc=Normally you find Monastic drones by trading Beekeeper villa
 gtnh.quest2402.name=§2§lGot a flat tire?
 gtnh.quest2402.desc=The crowbar is the GT tool used to remove a cover off of a machine, pipe, or wire. Covers can be decorative, functional like pumps and conveyors, or safety, like putting a wooden plank over your steam pipes so they don't burn you.%n%nSorry, it only comes in blue!
 
+# Quest.2403 - §5§lToo much fluid? Impossible!
+gtnh.quest2403.name=§5§lToo much fluid? Impossible!
+gtnh.quest2403.desc=The time may come when you finally decide you have enough of a fluid. This overflow cover lets you tune how full a tank can get. You can put it on a smaller tank leading to a bigger tank, and when the bigger tank gets full, the fluid will backup into the smaller tank.  Once the fluid level in the smaller tank exceeds the setting on the cover, it will start voiding fluid.%n%nHandy for an oxygen centrifuge setup when you don't want to stop from excess nitrogen.
+
+# Quest.2404 - Obtaining Ender Pearls
+gtnh.quest2404.name=Obtaining Ender Pearls
+gtnh.quest2404.desc=You can hunt endermen the Vanilla way to get a chance at Ender Pearls.  You can purchase Endermen spawn eggs, or try your luck in the End. %n%nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.%n%nYou monster.%n%n§cTo prevent endermen from teleporting make sure to cover the smeltery so they don't see the sky. If you manage to put a regenerating endermen in there, tag it so it doesn't despawn, and make sure your smeltery is not in a claimed chunk on a server.
+
+# Quest.2405 - Wax on, Wax off
+gtnh.quest2405.name=Wax on, Wax off
+gtnh.quest2405.desc=You can take vanilla tree saplings and place them directly on crop sticks. This will give you a "bonsai" tree. Bonsai trees will give you drops just like a tree, but without the wasted CPU of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice, breed some bonsai trees for your pyrolyze ovens.
+
+# Quest.2406 - Numbers in the corner?
+gtnh.quest2406.name=Numbers in the corner?
+gtnh.quest2406.desc=What's with the numbers in the corner?  Well that's In-Game Info, a handy mod that gives you necessary information for Gregtech: New Horizons.%n%nThe most important info is whether or not you are in an ore chunk.  Later quests will explain what that means.%n%nIf you don't want to see the IGI information, you can use %n%n§l/igi disable%n/igi enable%n§r%nto disable and enable the window.%n%n§l/igi config%n%n§rwill bring up the configuration window, which you can use to control placement, and the scale/size of the font.%n%n%nAnother useful display is Extra Utilities' TPS meter. It gives you the instantaneous tps, average tps, and worst-case tps. TPS is Ticks-per-second, a measure of how well your server is running. TPS=20 is ideal, and TPS<15 is going to start noticeably lagging. TPS<10 is going to be hard to play. If you need suggestions solving TPS problems, contact us on Discord.%n%nEnable the display with%n%n§l/xu_tps
+
+# Quest.2407 - §3§lWhat engineer doesn't want a portable workbench?
+gtnh.quest2407.name=§3§lWhat engineer doesn't want a portable workbench?
+gtnh.quest2407.desc=This backpack sacrifices some space to give you a portable crafting table. You have to put the items you want to craft inside the backpack. Because of this, you can use it to quickly craft large amounts of items at once. %n%nLater you can use the Forestry Worktable with its larger inventory to do the same. Once you reach MV, you can switch to an Adventure Backpack that includes a pair of tanks for storing fluids.
+
+# Quest.2408 - Controlling Your Drawers
+gtnh.quest2408.name=Controlling Your Drawers
+gtnh.quest2408.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 12-block radius (including the y-axis) part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Slave Controller (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nYou can also use it with ProjectRed, see the appropriate tab for details.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.
+
+# Quest.2409 - Even Rarer Earths
+gtnh.quest2409.name=Even Rarer Earths
+gtnh.quest2409.desc=Although you previously Centrifuged Rare Earth to get some rare materials including Cadmium, you believe your new Dehydrator can get you more materials than before. First, you need to use some Sulfuric Acid to melt off any impurities in a Chemical Bath, leaving you with Crushed Rare Earth (I). After that you need to process it like a normal ore until you get Rare Earth (I) Dust.%n%nAfter running the Dust through your Dehydrator, you get a number of strange materials, only some of which you recognize. But if you run these materials through an Electrolyzer or through the Dehydrator again, you may get some use out of them. Some of them may take quite a few to do so, but you §o§o§r§h§ohave§r been stockpiling, right? You'll need at least 409 Rare Earth, not counting losses in the Chemical Bath.%n%nYou believe if you had more powerful acids and machines, you could extract even more valuable materials out of the Rare Earth.
+
+# Quest.2410 - Journey to the Center of the Earth
+gtnh.quest2410.name=Journey to the Center of the Earth
+gtnh.quest2410.desc=After acquiring your new pickaxe and clearing away a mountain or two, you wonder if maybe you should go...§odeeper§r. After trying it out on some Bedrock, you see a way down into the very depths of the planet. After exploring this new realm you make a note that it is:%n%nA) Seemingly empty of life%nB) Full of Bedrock you need to clear away with your new pickaxe%nC) Full of ore veins going up and down%nD) Some of these ores are strange and §odifferent§ §r from the ones you are used to%nE) Since Miners cannot break Bedrock, if you wish to use one, you'll have to do it for it first.%nF) After leaving you wake up on the surface somewhere nearby, your lack of memories of such is probably due to Oxygen deprivation. §oProbably§r. (After leaving the Bedrock Dim, you'll be thrown out somewhere nearby on what is hopefully the surface, and not inside a block, but no guarantees!)%n%nAmong the ore samples you seem to have brought back with you, you find a number of "basic" and "intermediate" ores and gems, as well as a few you don't recognize! Perhaps a return trip is in order?  %n%nAlso, you seem to smell like cheese for some reason?
+
+# Quest.2411 - Fool's Gold
+gtnh.quest2411.name=Fool's Gold
+gtnh.quest2411.desc=After holding a Primal Charm for a while, you suddenly understand some of it's whispers! It tells of a land filled with untold riches, just waiting for someone to claim them. You scoff at the claim, but apparently if you "Open the Eye" and create a very fancy carved stone, you can create a portal there. But this eye it speaks of...just what is it? Maybe by delving into the darker realm of magic...bah! Only fools would believe such nonsense.
+
+# Quest.2412 - Gen XXXXXXXXXX...
+gtnh.quest2412.name=Gen XXXXXXXXXX...
+gtnh.quest2412.desc=Yes! Yes! The eyes! You understand now, it is all too clear! The land of riches, it is yours! But what is this? It's empty? Why, where have your Riches gone? The sole inhabitant tells you that all such things have faded away long ago, with the End of Time at hand...But that simply means you're in the right PLACE after all! You're simply in the wrong TIME. If you simply adjust the portal a little, you can arrive at the right PLACE and TIME to get your well-deserved Riches. You suspect that such an adjustment would require something strong...INFINITELY strong.%n%nIn the meantime you now have a very very big closet to store your things in once the old owner...moves out. Upon leaving, you spot a tiny Ghast, surely just your imagination? Unfortunately the shifting of time causes you to end up in what is likely wilderness when you leave. (Exiting sends you back to the world spawn)
+
+# Quest.2413 - The Darkness of Choice for Edgelords
+gtnh.quest2413.name=The Darkness of Choice for Edgelords
+gtnh.quest2413.desc=The madness that gripped you before has passed, but the idea for claiming the 'Riches' you thought of before still seems...reasonably sound. You'll need more than just something Strong though, you need something Hard, something Dense, something Unstable, and some magic to force it all together. You suspect you may need to upgrade your Infusion Altar for this, given the number of materials needed. You believe you can simply mine this new location for any ore you need from now on...
+
+# Quest.2414 - Too many items? Unpossible!
+gtnh.quest2414.name=Too many items? Unpossible!
+gtnh.quest2414.desc=Too many items getting you down? Just slap this badboy on a drawer, and any items you put in over the maximum will be automatically voided for you! More useful in combination with a Drawer Controller admittedly.
+
+# Quest.2415 - Bringing the Biome to You
+gtnh.quest2415.name=Bringing the Biome to You
+gtnh.quest2415.desc=So maybe you can't find a swamp or tropical forest for your crops or bees, or maybe they're too far away so they're inconvenient to get to, or maybe your base is in a colder climate and you have to deal with the howls of direwolves constantly. Instead of packing up all your stuff and moving somewhere else, why not try changing the biome? There are a couple different ways to do so in this modpack:%n%nUse the Arcane Terrestrial Reformer from Witching Gadgets%n-Requires EV Circuits, Tungstensteel, Rocket Tier III%n-Also requires Infusion, Void Metal (sufficient warp), Energized Node for CV, lots of Essentia%n-16 block radius%n-Can only change to a few specific Vanilla or Thaumcraft biomes%n-Kind of slow%n%nUse Ritual of Gaia's Transformation from Blood Magic%n-Requires Void Metal, Infusion, Tungstensteel%n-Requires getting deep into BM (and the warp that come with it)%n-Requires 1,000,000 LP, Master Blood Orb, Tier 4 Altar and Awakened Activation Crystal%n-10 block radius, can be exactly specified with bloodstone bricks (either type)%n-Cannot specify which biome you get, you can only change the temperature/humidity within the 0.0 - 2.0 range and hope%n-Some biomes may be impossible due to limited range and overlap%n-Adjust temperature/humidity with items on 8 plinths around the Master Ritual Stone%n-Need to relog to see changes%n-Very little documentation or explanation%n-Fast%n%nUse the Brew of Shifting Seasons from Witchery%n-Small range, depends on the level of the brew (power, not dispersal extent)%n-Biome can be exactly specified%n-Crafted using the complicated custom brew system%n-Can add different ingredients to change range of the brew%n-At min changes a single block%n-At max has about a 3 block (circular) radius%n-Instant (once you use it)%n%nUse the Rite of Shifting Seasons from Witchery%n-Requires Stainless Steel, Greatwood Scepter or better for the Distillery%n-You have to do a bunch of witchery stuff%n-Not hard once you're done it once%n-Extremely large range, 16/32/48 block (circular) radius%n-Biome can be exactly specified%n-Sometimes fails in specific chunks%n-Very Fast%n%nIf you want to know how to use the Witchery methods, please go to the Look to the edges tab to continue.%n%nPSA: The IC2&Galacticraft Terraformers only change the surface, not the biome itself.
+
+# Quest.2416 - Ghetto Biome Changing
+gtnh.quest2416.name=Ghetto Biome Changing
+gtnh.quest2416.desc=If you don't want to change the biome to a specific one, and just want a neutral environment for your bees, maybe using nodes is for you. You can try planting a Silverwood Sapling to get one with a pure node, or use other methods to move one.%n%nKeep in mind a 'bare' pure node won't change anything unless it has Victus. You can try use Sinister or Tainted, but...no refunds. These nodes have a radius of 11. To change the biome back, use an Ethereal Bloom (radius of 7). Keep in mind that both Pech and Wisps spawn in 'Magical' type biomes.
+
+# Quest.2417 - Changing Biomes With Witchery
+gtnh.quest2417.name=Changing Biomes With Witchery
+gtnh.quest2417.desc=There are two ways to change biomes with Witchery, the easy way or the hard way, choose which one you want to do (or do them both). Remember that you need a Witchery Distillery first!
+
+# Quest.2418 - The Easy Way to Change Biomes
+gtnh.quest2418.name=The Easy Way to Change Biomes
+gtnh.quest2418.desc=So you want the easy way? Ok, go get this stuff:%nMandrake Root, Nether Wart, Tear of the Goddess, Diamond Vapor, and a Diamond.%n%nThen toss it in the Witch's Cauldron IN ORDER, before also tossing in a page from the Book of Biomes (Extended) (craft it with a piece of paper while on the page of the biome you want), followed by a bit of Gunpowder.%nThen just use a bottle to get the brew. If wearing your Robes or Hat, you may even get more than one! (If you have a ton of brewing expertise, which is unlikely)%n%nIf it failed, you may not have enough Altar Power, you need 5450 at least. Try placing down a Dragon Egg or Demon Heart if you're close. Check a wiki for more details on altar power.%n%nIf you want to have more than a single changed block, then add Glowstone Dust, Blaze Rod and Attuned Stone (Charged) in order to increase the effect (and Altar Power cost slightly) by +1 for each. Do this before adding in the page.%n%nFor more detailed info, check out the Witches' Brews book. Click on Brewing, then go to the Brews: Step-by-step page. This should tell you what you need to know. For what each of the brews actually does, see the Effects page. Only Effects use Capacity, and you can have multiple.
+
+# Quest.2419 - The Hard Way to Change Biomes
+gtnh.quest2419.name=The Hard Way to Change Biomes
+gtnh.quest2419.desc=Ok, to have a ritual with a size greater than zero, you need to get Coven Witches to acknowledge you and then agree to help you out. To get them to deign to speak with you, you can either infuse yourself or bind a familiar. In this quest line we'll be covering binding a familiar, but for the people who want to do infusion, you just need to make the appropriate item: Ghost of the Light, Soul of the World, Spirit of Otherwhere, or Infernal Animus, and do the appropriate Rite of Infusion. Be sure to have a Death Protection Poppet to protect you, because the ritual kills you. If playing hardcore, definitely test in a separate world first.%n%nTo bind a familiar, first, summon a Demon and tear out it's heart. No, seriously, go do it. Use an Arthana with Looting III for the best chances. If you don't know how to summon one, refer to page 49/50 of the Circle Magic book for the correct Rite of Summoning.%n%nYou'll need a Mutating Sprig for the next part.
+
+# Quest.2420 - More Hearts for Valentines
+gtnh.quest2420.name=More Hearts for Valentines
+gtnh.quest2420.desc=If you want to get more hearts, you can try trading with the Demon, but they're more likely to shoot fireballs at you than trade. Unless you have this item that is! First, make the Polynesia Charm that allows you to trade with animals (probably not worth it in this pack), then use the demon heart to make the Devil's Tongue Charm. With this, not only are they a lot less likely to attack, they will even sell their brethren's hearts for a little less.%n%nJust remember that it can only be used a limited number of times, ok? It might also be worthwhile to use the Rite of Protection at the same time as summoning a demon. To do so just put down both circles, and meet the item (and Altar Power) requirements of both. If you're not planning on killing the demon, you should probably send it back when you're done with the Rite of Banishing on page 47/48 of the Circle Magic book.
+
+# Quest.2421 - Are You Grassping What I'm Telling You?
+gtnh.quest2421.name=Are You Grassping What I'm Telling You?
+gtnh.quest2421.desc=To make Grasspers, first you need to arrange Grass in the cardinal directions around a Chest above a block of water. Then right-click the Chest with your Mutating Sprig.
+
+# Quest.2422 - PETA Approved*
+gtnh.quest2422.name=PETA Approved*
+gtnh.quest2422.desc=To make Critter Snares, first you need to arrange Alder Saplings in the cardinal directions around a Cobweb above a block of water. Then get a zombie to walk onto it and right-click the Cobweb with your Mutating Sprig.%nThis will change the Saplings into the needed Critter Snares. Do this twice. (*May not be PETA approved)
+
+# Quest.2423 - Mad Science is the Best Science
+gtnh.quest2423.name=Mad Science is the Best Science
+gtnh.quest2423.desc=Next we need to fill our snares up with some critters, specifically Bats and Slimes. For the Bats, just place them beneath you and AFK if your warp is high enough to spawn bats, otherwise...uh, go caving?%n%nFor the Slimes, if you can't find any just use the Maze Slimes from the Minoshroom maze in the Twilight Forest for this. After you get them, also go collect a Wolf and an Ocelot (Lassos or Soul Vials are great for this).%n%nNow we'll be creating new life, specifically Toads and Owls. Arrange a Cobweb above a water block with grasspers at the diagonals and one of the two sets of snares in the cardinal directions. Place Attuned Stone (Charged) in all 4 Grasspers. Then place one of the two animals in the center and right-click with your Mutating Sprig like when making the snares. Use the Wolf with the Bats, and the Ocelot with the Slimes. The tamed versions also work.%n%nCongratulations, you've defied the natural order and created new life! Hopefully they didn't run away because you created them outside :(%nMake sure to breed them for the next part. Use Raw Porkchop or Raw Beef for Owls, and Rotten Flesh for Toads to both tame and breed them.
+
+# Quest.2424 - Finally Binding a Familiar
+gtnh.quest2424.name=Finally Binding a Familiar
+gtnh.quest2424.desc=Now that you have Toads and Owls, you can choose between them and Cats to bind. Why didn't we just bind a Cat earlier? Well, you'll need them both soon anyways, and who doesn't love choices? To carry out the Rite of Binding (P6, Circle Magic), you'll need to distill some Demonic Blood. Do that now, and collect the rest of the items needed.%n%nAfter collecting the items, bind your familiar using them. Make sure you have enough Altar Power. Remember that each has different benefits. See the official wiki for details. You may receive a tiny portion of damage your familiar receives (and vice-versa), so park it somewhere safe. Also note that if it dies, so will you (Supposedly). You can resummon it if it dies or was dismissed previously (like if you died). If you're in hardcore mode and don't want to risk having it around, it can be dismissed by right-clicking while sneaking when it's sitting.%n%nNow go murder a few of your new friends and tear of their Owlet's Wings, and cut off their Toe of Frog. Remember to use an Arthana. The next step needs a Seer's Stone.
+
+# Quest.2425 - Greenhouses on Mountains, Hell on Earth
+gtnh.quest2425.name=Greenhouses on Mountains, Hell on Earth
+gtnh.quest2425.desc=You're almost there! To actually use the ritual, you need to recruit a coven first. Find some Coven Witches and complete their quests:%nThe means to control the dead -> Necromantic Stone%nThe beating means to master the infernal dimension -> Demon Heart%nI must perform many curses, bring me the necessary brew -> Brew of the Grotesquex5%nI desire to predict the future -> Crystal Ball%nOr just fight something.%n%nOnce completed, they'll disappear until you need them. They will sometimes appear near your spawn point if you walk by it, so don't position it over lava or something, since they CAN die and reduce the number of your coven. You can have 6, with one extra appearing for Cauldron work. Consider keeping some extras around in a dungeon just in case.%n%nAfter you recruit your coven, you just need a few things for the ritual itself: Spider Eye, Toe of Frog, Wool of Bat, Tongue of Dog, Owlet's Wing, Attuned Stone, and Attuned Stone (Charged).%n%nTo specify the biome, look in the Book of Biomes, and find 1) the type (Forest, Plains, etc), and 2) the number. Type determines the foci used, and number determines the amount of Glowstone Dust used to get that specific biome. Make sure to pack up a ritual circle into a circle talisman so you don't have to redraw it, and bring some cobblestone to make a flat area (15x15, any height). Try not to do it at night unless you like dealing with infernals.%n%nTo actually do the ritual, have the ritual circle on the ground, the items (including the foci and Glowstone) in the circle, and right-click the center with the Seer's Stone.%n%nThe area affected is determined by the number of witches in your coven. It's 16 * (size of coven - 3) radius in a circular area, so 16/32/48 if it doesn't fail.%n%nUnfortunately, sometimes after logging out and back in again you may find that it didn't work correctly in specific chunks, this is (possibly) due to lack of chunk updates and it not saving the changed biome ID correctly. Just redoing the ritual doesn't really help, you'll just get patches in the same places, however placing water after the ritual and before logging out may help with this. Or use chickens. Lots of chickens.%n%nAlso, if you already have crops in the area, they'll disappear until a block update or relog.%n%nPSA: To pack your circle back up, you need to bring your altar with you.%n
+
+# Quest.2426 - §6§lTantalum Nether
+gtnh.quest2426.name=§6§lTantalum Nether
+gtnh.quest2426.desc=Tantalum is used in the GT and Ender IO Capacitors and also a source for niobium. It is a cheap essentia source for Thaumcraft later on.%nYou will find Tantalite Mix at Y 20-30 in the Nether.
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
 gtnh.line0.name=Tier 0 - It begins
 gtnh.line0.desc=The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam's Harvestcraft.
+
+# QuestLine.44 - Tips and Tricks
+gtnh.line44.name=Tips and Tricks
+gtnh.line44.desc=All our collected wisdom, in one convenient place. Many Greggers died to bring you this knowledge.
 
 # QuestLine.1 - Tier 0.5 - Stone Age
 gtnh.line1.name=Tier 0.5 - Stone Age

@@ -10,7 +10,6 @@ import mods.gregtech.Assembler;
 
 
 mods.chisel.Groups.addGroup("glasswork"); 
-//mods.chisel.Groups.addGroup("stained_glass_");
 
 
 
@@ -76,6 +75,9 @@ recipes.remove(<chisel:upgrade:1>);
 
 // --- Stack Upgrade
 recipes.remove(<chisel:upgrade:2>);
+
+// --- Reversion Upgrade
+recipes.remove(<chisel:upgrade:3>);
 
 // --- Mossy stone
 mods.chisel.Groups.removeGroup("cobblestone");
@@ -143,20 +145,26 @@ recipes.addShaped(<chisel:autoChisel>, [
 // --- Speed Upgrade
 recipes.addShaped(<chisel:upgrade>, [
 [SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
 [<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32630>, <ore:wireGt01RedAlloy>]]);
 
 // --- Automation Upgrade
 recipes.addShaped(<chisel:upgrade:1>, [
 [SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
 [<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32650>, <ore:wireGt01RedAlloy>]]);
 
 // --- Stack Upgrade
 recipes.addShaped(<chisel:upgrade:2>, [
 [SteelScrew, <ore:plateEmerald>, SteelScrew],
-[<ore:plateEmerald>, <ore:circuitAdvanced>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
 [<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32744>, <ore:wireGt01RedAlloy>]]);
+
+// --- Reversion Upgrade
+recipes.addShaped(<chisel:upgrade:3>, [
+[SteelScrew, <ore:plateEmerald>, SteelScrew],
+[<ore:plateEmerald>, <ore:circuitBasic>, <ore:plateEmerald>],
+[<ore:wireGt01RedAlloy>, <gregtech:gt.metaitem.01:32600>, <ore:wireGt01RedAlloy>]]);
 
 // --- Temple Mossy Blocks
 recipes.addShaped(<chisel:mossy_templeblock>, [
@@ -274,17 +282,6 @@ mods.chisel.Groups.addVariation("glass", <TConstruct:GlassBlock>);
 
 // --- Cloud
 mods.chisel.Groups.addVariation("cloud", <Natura:Cloud>);
-
-
-
-// --- Stained Glass (add other stained glass variations later)
-//mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass>);
-// -
-//mods.chisel.Groups.addVariation("stained_glass_", <witchery:shadedglass_active>);
-// -
-//mods.chisel.Groups.addVariation("stained_glass_", <TConstruct:GlassBlock.StainedClear>);
-// -
-//mods.chisel.Groups.addVariation("stained_glass_", <Ztones:tile.glaxx>);
 
 
 // --- Marble
