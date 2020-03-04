@@ -19,7 +19,7 @@
 // --- Litmus Paper
 mods.thaumcraft.Arcane.removeRecipe(<WarpTheory:item.warptheory.paper>);
 
-// --- Pure? Tear
+// --- Impure Tear
 mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.cleanserminor>);
 
 // --- Pure Tear
@@ -62,11 +62,11 @@ mods.thaumcraft.Research.setAspects("warptheory.something", "alienis 12, bestia 
 mods.thaumcraft.Research.setComplexity("warptheory.something", 2);
 mods.thaumcraft.Warp.addToResearch("warptheory.something", 3);
 
-// --- Pure? Tear
+// --- Impure Tear
 mods.thaumcraft.Research.orphanResearch("warptheory.cleanserminor");
 mods.thaumcraft.Research.removeResearch("warptheory.cleanserminor");
 mods.thaumcraft.Research.addResearch("PURETEARMINOR", "WT_Category", "alienis 6, praecantatio 6, permutatio 4, sano 3, terra 2", -1, -2, 2, <WarpTheory:item.warptheory.cleanserminor>);
-game.setLocalization("tc.research_name.PURETEARMINOR", "Pure? Tear");
+game.setLocalization("tc.research_name.PURETEARMINOR", "Impure Tear");
 game.setLocalization("tc.research_text.PURETEARMINOR", "Magical-ish Medicine");
 mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "warptheory.paper", false);
