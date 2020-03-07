@@ -581,4 +581,14 @@ mods.chisel.Groups.addVariation("manyullynBricksTCon", <TConstruct:MetalBlock:2>
 mods.chisel.Groups.addVariation("manyullynBricksTCon", <TConstruct:decoration.multibrickmetal:3>);
 mods.chisel.Groups.addVariation("manyullynBricksTCon", <TConstruct:decoration.multibrickmetal:7>);
 
+// --- Mushroom blocks
+
+mods.chisel.Groups.addGroup("brown_mushroom");
+mods.chisel.Groups.addGroup("red_mushroom");
+
+for meta in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] as int[] {
+  mods.chisel.Groups.addVariation("brown_mushroom", <minecraft:brown_mushroom_block>.definition.makeStack(meta));
+  mods.chisel.Groups.addVariation("red_mushroom", <minecraft:red_mushroom_block>.definition.makeStack(meta));
+}
+
 // --- Hiding Stuff ---
