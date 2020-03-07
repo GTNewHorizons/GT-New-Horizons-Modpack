@@ -2679,9 +2679,6 @@ Extractor.addRecipe(<minecraft:slime_ball> * 4, <TConstruct:slime.gel:1>);
 // --- Raw Rubber from slime tree leaves
 Extractor.addRecipe(<gregtech:gt.metaitem.01:2896>, <TConstruct:slime.leaves> * 16);
 
-// --- Seared Bricks
-Extractor.addRecipe(<TConstruct:materials:2> * 4, <TConstruct:Smeltery:2>);
-
 
 
 
