@@ -122,8 +122,14 @@ mods.thaumcraft.Arcane.removeRecipe(<MagicBees:visAuraProvider>);
 // --- Thaumic Scoop
 mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.thaumiumScoop>);
 
+// --- Void Scoop
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.voidScoop>);
+
 // --- Thaumic Grafter
 mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.thaumiumGrafter>);
+
+// --- Void Grafter
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.voidGrafter>);
 
 // --- Jade Mood Dail
 recipes.remove(<MagicBees:moonDial>);
