@@ -1,0 +1,324 @@
+[
+    {
+    "themeParent":"none",
+    "themeName":"Midnight by kastaqt",
+    "themeID":"midnight:dark",
+    "textures":
+    {
+      "betterquesting:panel_main":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [0,0,48,48],
+        "padding": [16,16,16,16],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_normal_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [48,0,200,20],
+        "padding": [2,2,2,3],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_normal_1":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [48,20,200,20],
+        "padding": [2,2,2,3],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_normal_2":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [48,40,200,20],
+        "padding": [2,2,2,3],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_clean_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [48,0,200,20],
+        "padding": [2,2,2,3],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_clean_1":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [48,20,200,20],
+        "padding": [2,2,2,3],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_clean_2":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [48,40,200,20],
+        "padding": [2,2,2,3],
+        "sliceMode": 1
+      },
+      "betterquesting:scroll_v_bg":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [248,0,8,60],
+        "padding": [1,1,1,1],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [248,60,8,20],
+        "padding": [1,1,1,1],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_1":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [248,60,8,20],
+        "padding": [1,1,1,1],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_2":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [248,60,8,20],
+        "padding": [1,1,1,1],
+        "sliceMode": 2
+      },
+      "betterquesting:item_frame":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [0,48,18,18],
+        "padding": [1,1,1,1],
+        "sliceMode": 2
+      },
+      "betterquesting:aux_frame_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [0,128,128,128],
+        "padding": [1,1,1,1],
+        "sliceMode": 2
+      },
+      "betterquesting:quest_norm_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [0,104,24,24],
+        "padding": [11,11,11,11],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_norm_1":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [0,104,24,24],
+        "padding": [11,11,11,11],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_norm_2":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [0,104,24,24],
+        "padding": [11,11,11,11],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_norm_3":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [0,104,24,24],
+        "padding": [11,11,11,11],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [24,104,24,24],
+        "padding": [11,11,11,11],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_1":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [24,104,24,24],
+        "padding": [11,11,11,11],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_2":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [24,104,24,24],
+        "padding": [11,11,11,11],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_3":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "midnight:textures/gui/midnight_gui.png",
+        "bounds": [24,104,24,24],
+        "padding": [11,11,11,11],
+        "sliceMode": 1
+      }
+    },
+    "colors":
+    {
+      "betterquesting:text_header":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFFFFFFF"
+      },
+      "betterquesting:text_main":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFFFFFFF"
+      },
+      "betterquesting:gui_divider":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFFFFFFF"
+      },
+      "betterquesting:grid_major":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF000000"
+      },
+      "betterquesting:grid_minor":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF000000"
+      },
+      "betterquesting:quest_line_locked":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFC00000"
+      },
+      "betterquesting:quest_line_unlocked":
+      {
+        "colorType": "betterquesting:color_pulse",
+        "period": 1.0,
+        "phase": 0.0,
+        "color1":
+        {
+          "colorType": "betterquesting:color_static",
+          "color": "FFFFFF00"
+        },
+        "color2":
+        {
+          "colorType": "betterquesting:color_static",
+          "color": "FF808000"
+        }
+      },
+      "betterquesting:quest_line_pending":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF00FF00"
+      },
+      "betterquesting:quest_line_complete":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF00FF00"
+      },
+      "betterquesting:quest_icon_locked":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF808080"
+      },
+      "betterquesting:quest_icon_unlocked":
+      {
+        "colorType": "betterquesting:color_pulse",
+        "period": 1.0,
+        "phase": 0.0,
+        "color1":
+        {
+          "colorType": "betterquesting:color_static",
+          "color": "FFC00000"
+        },
+        "color2":
+        {
+          "colorType": "betterquesting:color_static",
+          "color": "FF600000"
+        }
+      },
+      "betterquesting:quest_icon_pending":
+      {
+        "colorType": "betterquesting:color_pulse",
+        "period": 1.0,
+        "phase": 0.0,
+        "color1":
+        {
+          "colorType": "betterquesting:color_static",
+          "color": "FF00FFFF"
+        },
+        "color2":
+        {
+          "colorType": "betterquesting:color_static",
+          "color": "FF008080"
+        }
+      },
+      "betterquesting:quest_icon_complete":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF00FF00"
+      }
+    },
+    "lines":
+    {
+      "betterquesting:gui_divider":
+      {
+        "lineType": "betterquesting:line_simple",
+        "stippleScale": 1,
+        "stippleMask": "1111111111111111"
+      },
+      "betterquesting:grid_major":
+      {
+        "lineType": "betterquesting:line_simple",
+        "stippleScale": 1,
+        "stippleMask": "1111111111111111"
+      },
+      "betterquesting:grid_minor":
+      {
+        "lineType": "betterquesting:line_simple",
+        "stippleScale": 2,
+        "stippleMask": "1010101010101010"
+      },
+      "betterquesting:quest_locked":
+      {
+        "lineType": "betterquesting:line_simple",
+        "stippleScale": 1,
+        "stippleMask": "1111111111111111"
+      },
+      "betterquesting:quest_unlocked":
+      {
+        "lineType": "betterquesting:line_simple",
+        "stippleScale": 1,
+        "stippleMask": "1111111111111111"
+      },
+      "betterquesting:quest_pending":
+      {
+        "lineType": "betterquesting:line_simple",
+        "stippleScale": 1,
+        "stippleMask": "1111111111111111"
+      },
+      "betterquesting:quest_complete":
+      {
+        "lineType": "betterquesting:line_simple",
+        "stippleScale": 1,
+        "stippleMask": "1111111111111111"
+      }
+    }
+  }
+]
