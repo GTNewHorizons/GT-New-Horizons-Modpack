@@ -303,7 +303,7 @@ you find it in your resource folder<BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs 3.3.4<BR>
-* Spice of Life 1.3.12<BR>
+* Spice of Life 2.0.0-beta<BR>
 * Standard Expansion 3.0.174<BR>
 * Steve's Carts 2.0.0.18b<BR>
 * Steve's Factory Manager ALPHA94-GTNH<BR>
@@ -320,7 +320,7 @@ you find it in your resource folder<BR>
 * Thaumcraft-NEI-Additions 1.0.2.2<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
 * Thaumic Bases 1.4.20.0<BR>
-* Thaumic Energistics 1.1.3.0<BR>
+* Thaumic Energistics 1.1.3.1<BR>
 * Thaumic Exploration 1.1.73<BR>
 * Thaumic Horizon 1.1.9.15<BR>
 * Thaumic Machina 0.2.1<BR>
