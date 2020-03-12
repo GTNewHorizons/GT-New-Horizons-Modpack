@@ -1212,7 +1212,7 @@ recipes.addShaped(<BiblioCraft:BiblioIronLantern>, [
 
 // --- Fancy Gold Lamp
 recipes.addShaped(<BiblioCraft:BiblioLamp>, [
-[<ore:plateIron>,<FloodLights:electricIncandescentLightBulb>, <ore:plateIron>],
+[<ore:plateGold>,<FloodLights:electricIncandescentLightBulb>, <ore:plateGold>],
 [null, <ore:stickGold>, null],
 [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 

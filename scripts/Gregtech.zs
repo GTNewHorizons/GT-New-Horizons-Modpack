@@ -1143,6 +1143,9 @@ Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <harvestcraft:oatsItem>, 
 
 // --- Minced Meat
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2892> * 9], <Thaumcraft:blockTaint:2>, [10000], 300, 2);
+// -
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2892>], <harvestcraft:walleyerawItem>, [10000], 400, 2);
+
 
 // --- Glass Dust
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2890>], <TConstruct:GlassBlock>, [10000], 300, 2);

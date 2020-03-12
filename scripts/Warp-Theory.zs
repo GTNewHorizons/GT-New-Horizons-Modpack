@@ -19,13 +19,14 @@
 // --- Litmus Paper
 mods.thaumcraft.Arcane.removeRecipe(<WarpTheory:item.warptheory.paper>);
 
+// --- Impure Tear
+mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.cleanserminor>);
+
 // --- Pure Tear
 mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.cleanser>);
 
 // --- Purification Talisman
 mods.thaumcraft.Infusion.removeRecipe(<WarpTheory:item.warptheory.amulet>);
-
-
 
 
 // --- Adding Recipes ---
@@ -60,6 +61,21 @@ mods.thaumcraft.Research.addPrereq("warptheory.something", "warptheory.paper", f
 mods.thaumcraft.Research.setAspects("warptheory.something", "alienis 12, bestia 12, permutatio 9, victus 6, corpus 3");
 mods.thaumcraft.Research.setComplexity("warptheory.something", 2);
 mods.thaumcraft.Warp.addToResearch("warptheory.something", 3);
+
+// --- Impure Tear
+mods.thaumcraft.Research.orphanResearch("warptheory.cleanserminor");
+mods.thaumcraft.Research.removeResearch("warptheory.cleanserminor");
+mods.thaumcraft.Research.addResearch("PURETEARMINOR", "WT_Category", "alienis 6, praecantatio 6, permutatio 4, sano 3, terra 2", -1, -2, 2, <WarpTheory:item.warptheory.cleanserminor>);
+game.setLocalization("tc.research_name.PURETEARMINOR", "Impure Tear");
+game.setLocalization("tc.research_text.PURETEARMINOR", "Magical-ish Medicine");
+mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "ELDRITCHMINOR", false);
+mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "warptheory.paper", false);
+mods.thaumcraft.Research.addPage("PURETEARMINOR", "research.warptheory.warpcleanserminor");
+mods.thaumcraft.Infusion.addRecipe("PURETEARMINOR", <BiomesOPlenty:hardIce>,
+[<thaumicbases:resource:5>, <gregtech:gt.metaitem.02:32553>, <thaumicbases:quicksilverBlock>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:magicales>, <witchery:ingredient:36>, 
+<thaumicbases:resource:5>, <gregtech:gt.metaitem.02:32553>, <thaumicbases:quicksilverBlock>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:magicales>, <witchery:ingredient:36>],
+"auram 64, desidia 16, fames 16, gelum 16, permutatio 32, praecantatio 32, venenum 32", <WarpTheory:item.warptheory.cleanserminor>, 10);
+mods.thaumcraft.Research.addInfusionPage("PURETEARMINOR", <WarpTheory:item.warptheory.cleanserminor>);
 
 // --- Pure Tear
 mods.thaumcraft.Research.orphanResearch("warptheory.cleanser");

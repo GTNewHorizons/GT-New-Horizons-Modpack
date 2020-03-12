@@ -1,22 +1,19 @@
-
-
-
 # GT New Horizons Mod Pack
 
-Version 2.0.8.4 is out 15.02.2020
+Version 2.0.8.6 is out 09.03.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
 ## What is GT New Horizons?
 
 You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR>
-Over 3 years of developement (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with custom reward system, unique world generation, custom mods coded for the pack, custom Thauminomicon pages, and many more.
+Over 3 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with a custom reward system, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
  
-The main intentions of the pack are a long lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR>
-To reach this goal GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression. <BR>
-Starting in the stone age you will barely be able to survive until you get your first steam machines and eventually reach electricity. Later on you will have to visit other planets and dimensions to gather important ressources and fight mighty bosses to channel their magical power.
+The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR>
+To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression. <BR>
+Starting in the stone age you will barely be able to survive until you get your first steam machines and, eventually, reach electricity. Later on, you will have to visit other planets and dimensions to gather important resources and fight mighty bosses to channel their magical power.
 
-If you are fan of expert mode packs and want to take it to the next level this pack will be your friend!
+If you are a fan of expert mode packs and want to take it to the next level this pack will be your friend!
 
 ## Quotes
 
@@ -45,30 +42,30 @@ If you are fan of expert mode packs and want to take it to the next level this p
 ## What does this pack have to offer?
 
 ***Technology***<BR>
-GregTech on its own comes with a huge tech tree using the EU system and the other technology based mods will open up while you are progressing through the tiers.<BR>
+GregTech on its own comes with a huge tech tree using the EU system and the other technology-based mods will open up while you are progressing through the tiers.<BR>
 The main cables of GregTech convert EU to RF so you don't have to worry about different energy systems and things feeling incompatible.<BR>
 
-Complex processing lines, automation, a large variety in power generation and a lot of materials to work with create an enviroment with many possibilities that the player has to explore.<BR>
-Crossbreeding plants, bees and crops with Forestry and IndustrialCraft2, setting up mobfarms using EnderIO and Draconic Evolution, and general infrastructure improvements with Railcraft and Applied Energistics - it's all there, anything you want (and need!) if you enjoy the technical aspect of modded Minecraft.
+Complex processing lines, automation, a large variety in power generation and a lot of materials to work with create an environment with many possibilities that the player has to explore.<BR>
+Crossbreeding plants, bees and crops with Forestry and IndustrialCraft2, setting up mob farms using EnderIO and Draconic Evolution, and general infrastructure improvements with Railcraft and Applied Energistics - it's all there, anything you want (and need!) if you enjoy the technical aspect of modded Minecraft.
  
 ***Magic***<BR>
 GT New Horizons comes with a variety of powerful magic mods. Your main access will be through the Thauminomicon which is modified to also feature custom sections for Blood Magic, Witchery, and other important things besides having the usual content of Thaumcraft and its add-ons.<BR>
 
-The Twilight Forest is the dimension linked to magic in this pack and you will have to explore and defeat the bosses to progress in magic. Later on there is power generation with essentia and options to store it using your AE system connecting technology with magic.
+The Twilight Forest is the dimension linked to magic in this pack and you will have to explore and defeat the bosses to progress in magic. Later on, there is power generation with essentia and options to store it using your AE system connecting technology with magic.
 
 ***Exploration***<BR>
-Using Realistic World Gen along with Biomes o'Plenty creates a beautiful terrain in the overworld.<BR>
+Using Realistic World Gen along with Biomes O' Plenty creates a beautiful terrain in the overworld.<BR>
 Besides all the biomes and natural structures you can find there will be challenging Rogue-like Dungeons that come with decent loot and spawners you might want to use in creative ways.<BR>
 
-In the early game, villages offer a nice resting spot while looking for the optimal base location. Later you will revisit the villages to trade for key items and scavenge for parts. Eventually you may end up relocating villagers closer to you - or taking over a village yourself.
+In the early game, villages offer a nice resting spot while looking for the optimal base location. Later you will revisit the villages to trade for key items and scavenge for parts. Eventually, you may end up relocating villagers closer to you - or taking over a village yourself.
  
 ***Put the mining back in Minecraft*** <BR>
 GregTech spawns ore in large localized veins rather than small clusters of everything, rewarding long searches with a huge vein that can sustain your base's growth for a long time.<BR>
 
-In most packs nearly everything spawns in the overworld which is not the case in GT New Horizons, and you are encouraged to mine in other dimensions such as the Twilight Forest, the nether, the end and (later on) even on other planets to make your way to the endgame. Unlocking things by mining for materials on other planets will create that situation where Galacticraft all of a sudden becomes important to progress which feels really rewarding.<BR>
+In most packs, nearly everything spawns in the overworld which is not the case in GT New Horizons, and you are encouraged to mine in other dimensions such as the Twilight Forest, the nether, the end and (later on) even on other planets to make your way to the endgame. Unlocking things by mining for materials on other planets will create that situation where Galacticraft all of a sudden becomes important to progress which feels really rewarding.<BR>
 
 ***Survival***<BR>
-The first few days and nights will be rough, in fact nights will stay rough for a while since hardcore darkness makes them pitch black without any light sources or potion effects, so you might want to get a bed quickly!<BR>
+The first few days and nights will be rough, in fact, nights will stay rough for a while since hardcore darkness makes them pitch black without any light sources or potion effects, so you might want to get a bed quickly!<BR>
 Food is a critical thing early game and you can't keep eating the same things because of Spice of Life. Better watch out for some gardens from Pam's Harvestcraft to get some variety into your nutrition!<BR>
 
 Be prepared to face strong mobs that can cause death quickly if you play without any strategy.<BR>
@@ -76,17 +73,17 @@ Facing them with better gear will make life easier once you progress but until t
 
 ***Questing***<BR>
 GT New Horizons comes with over 1300 quests that will guide the player through the maze that modded Minecraft can be.<BR>
-The texts will inform you what's required to progress so you don't have to watch tutorials or ask others as often. The questbook can even save you the time to type into NEI, just click the items displayed in the quest and it will display the recipe through NEI, quite handy right?
+The texts will inform you what's required to progress so you don't have to watch tutorials or ask others as often. The questbook can even save you the time to type into NEI, just click the items displayed in the quest and it will display the recipe through NEI, quite handy, right?
 
 Custom lootbags and the coin system make for unique and helpful rewards. And we all enjoy the gamble from time to time.
 
 ***Is this a game for newbies?*** <BR>
-Newbies to Minecraft? Definitely not. Newbies to modded Minecraft?  Maybe.  The questbook is a great introduction to the variety and type of mods available. With each mod gated players must learn about the mod to make the most of it while waiting for the next mod to unlock.
+Newbies to Minecraft? Definitely not. Newbies to modded Minecraft?  Maybe.  The questbook is a great introduction to the variety and type of mods available. With each mod, gated players must learn about the mod to make the most of it while waiting for the next mod to unlock.
 
 ***Is this modpack for me?*** <BR>
 Does the thought of earning that top-end gear over weeks or months appeal to you? The usual packs feel like they are over in 1 or 2 weeks since you get OP gear so quickly?
 
-How about designing a chemical processing system to rival a real oil refinery, with multiple inputs creating dozens of outputs and intermediate products to finally make a bar of plastic, rubber, explosives or other top end gear?
+How about designing a chemical processing system to rival a real oil refinery, with multiple inputs creating dozens of outputs and intermediate products to finally make a bar of plastic, rubber, explosives or other top-end gear?
 
 Does the sound of machinery processing ore via crushing, washing, centrifuging, smelting in a blast furnace, and cooling off in a vacuum freezer tickle your brain?
 
@@ -149,7 +146,7 @@ Wabulabudaba GTNH Server Russia
 Hitechmine.ru  GTNG Server Russia
 hitechmine.ru:25565
 
-Zvezdolet New fresh russian server Whitelisted
+Zvezdolet New fresh Russian server Whitelisted
 IP: gtnh.114-7.com
 
 
@@ -171,20 +168,20 @@ you find it in your resource folder<BR>
 ## Modlist - NewHorizons<BR>
 
 * Advanced Solar Panels 3.5.1a<BR>
-* Adventure Backpack 0.9h10<BR>
+* Adventure Backpack 0.9h11<BR>
 * AE2 Stuff 0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU 1.2.3.a<BR>
 * Anger Mod 0.6<BR>
 * AppleCore 1.3.9<BR>
-* Applied Energistics rv3-beta-20<BR>
+* Applied Energistics rv3-beta-23<BR>
 * Aqua Creeper 1.0.1<BR>
 * Architecture Craft 1.7.3<BR>
 * Automagy 0.28.2<BR>
 * Avaritia 1.17<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.10<BR>
+* Bartworks 0.5.12<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -192,17 +189,17 @@ you find it in your resource folder<BR>
 * Better Questing 3.0.320<BR>
 * Bibliocraft 1.11.7<BR>
 * Bibliowoods 1.9/1.7/1.5<BR>
-* Binnie Mods 2.0-26-gtnh<BR>
+* Binnie Mods 2.0-27-gtnh<BR>
 * Biomes o Plenty 2.1.0.2309<BR>
 * BlockLimiter 0.52<BR>
-* Blood Arsenal 1.2.8<BR>
+* Blood Arsenal 1.2-10<BR>
 * BloodMagic 1.3.3.29<BR>
 * Buildcraft 7.1.23<BR>
 * Buildcraft Compat 7.1.7<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks 3.3.8.1<BR>
 * Catwalk Mod 2.0.4<BR>
-* Chisel release-CUSTOM-d8fe69a<BR>
+* Chisel 2.7.9<BR>
 * Chisel Tones 1.0-3<BR>
 * Command Block BQ Mod 3<BR>
 * Compact Kinetic Generators 1.0<BR>
@@ -216,7 +213,7 @@ you find it in your resource folder<BR>
 * Electro Magic Tools 1.2.7.7<BR>
 * Ender IO 2.3.0.434<BR>
 * Ender Storage 1.4.7.38<BR>
-* Ender Zoo 1.0.16<BR>
+* Ender Zoo 1.0.17.0<BR>
 * Enhanced Loot Bags 1.0.2b<BR>
 * Enhanced Portals 3 3.0.12<BR>
 * Eternal Singularity 1.0.4<BR>
@@ -226,27 +223,28 @@ you find it in your resource folder<BR>
 * Find It 1.0.1<BR>
 * Flood Light 1.2.8.137<BR>
 * Forbidden Magic 0.575<BR>
-* Forestry 4.2.21.0<BR>
+* Forestry 4.2.23.0<BR>
 * Forge Microblocks 1.2.0.347<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
 * Gadomancy 1.0.7.6<BR>
 * Galacticraft-Planets 3.0.12.504<BR>
 * GalacticraftCore 3.0.12.504<BR>
-* GalactiGreg 1.0.2<BR>
+* GalactiGreg 1.0.3<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.33.31<BR>
+* Gregtech 5.09.33.33-bee-test<BR>
 * GT Scanner Mod 1.5.6a<BR>
 * GT Ore Nei Plugin 1.0.7<BR>
-* GT New Horizons Core Mod 1.6.31<BR>
-* GT++ 1.7.04.483<BR>
+* GT New Horizons Core Mod 1.6.33<BR>
+* GT++ 1.7.05.20<BR>
 * GTNH TC Wands 1.2.0<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
 * Hardcore Ender Expansion 1.8.6<BR>
 * Help Fixer 1.0.7<BR>
+* Hodgepodge 1.3.0<BR>
 * Holo Inventory 1.9.1.124<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
@@ -254,29 +252,30 @@ you find it in your resource folder<BR>
 * IguanaTinkerTweaks 2.1.2<BR>
 * Industrial Craft 2 2.2.2.828a<BR>
 * Industrial Craft 2 Nei Plugin 1.2.2<BR>
-* Infernal Mobs 1.6.6<BR>
+* Infernal Mobs 1.7.0<BR>
+* InGame Info XML 2.8.1.84<BR>
 * Inventory Tweaks 1.59.156<BR>
 * Iron Chest Minecarts 1.0.4<BR>
 * Iron Chests 6.0.62.742<BR>
 * Iron Tanks 1.1.16<BR>
 * Jabba 1.2.5<BR>
 * JourneyMap 5.1.4p2<BR>
-* Kekztech 0.2.2<BR>
+* Kekztech 0.2.3<BR>
 * Lootgames 1.0.18<BR>
-* Magic Bees 2.4.3<BR>
+* Magic Bees 2.5.2<BR>
 * Malisis Doors 1.13.2<BR>
-* Mine and Blade Battlegear 2 Bullseye 1.0.8.5<BR>
+* Mine and Blade Battlegear 1.1.1.0<BR>
 * Minecraft Forge 10.13.4.1614<BR>
 * Mod Tweaker 2 0.9.6.173<BR>
 * Mouse Tweaks 2.4.4<BR>
 * Natura 2.2.0.1.9.126<BR>
 * Natures Compass 1.3.1<BR>
-* NEI 2.0.0-beta-6-GTNH<BR>
+* NEI 2.0.1-GTNH<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
 * Nodal Mechanics 1.1.0-K<BR>
-* Not Enough Thaumcraft Tabs 1.0.2<BR>
-* Open Blocks 1.6.753<BR>
+* Not Enough Thaumcraft Tabs 1.1.0<BR>
+* Open Blocks 1.6.1<BR>
 * Open Computers 1.7.5.1-custom<BR>
 * Open Modular Turrets 2.2.10.238<BR>
 * Open Glasses 1.0.46
@@ -303,38 +302,38 @@ you find it in your resource folder<BR>
 * Resource Loader 1.3.0<BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
-* Special Mobs 3.3.3<BR>
-* Spice of Life 1.3.12<BR>
+* Special Mobs 3.3.4<BR>
+* Spice of Life 2.0.0-beta<BR>
 * Standard Expansion 3.0.174<BR>
 * Steve's Carts 2.0.0.18b<BR>
 * Steve's Factory Manager ALPHA94-GTNH<BR>
 * Steve's Factory Manager Addon 0.10.16<BR>
-* Storage Drawers 1.11.1-gtnh<BR>
+* Storage Drawers 1.11.4-gtnh<BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
 * Super Solar Panel 1.1.2<BR>
 * Super Tic 1.2.1<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.7.3<BR>
+* Tec Tech 3.7.4<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
-* Thaumcraft-NEI-Additions 1.0.2.0<BR>
+* Thaumcraft-NEI-Additions 1.0.2.2<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
 * Thaumic Bases 1.4.20.0<BR>
-* Thaumic Energistics 1.1.3.0<BR>
+* Thaumic Energistics 1.1.3.1<BR>
 * Thaumic Exploration 1.1.73<BR>
 * Thaumic Horizon 1.1.9.15<BR>
 * Thaumic Machina 0.2.1<BR>
 * Thaumic Tinkerer 2.5.557-GTNH<BR>
 * TiCTooltips 1.2.5<BR>
-* Tinker's Construct 1.8.9.14-GTNH<BR>
+* Tinker's Construct 1.8.9.Buil-15-GTNH<BR>
 * Tinker's Gregworks 1.0.18<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks 02.14.106<BR>
 * Too Much Loot 4.0.2.B1<BR>
 * Translocator 1.1.2.16<BR>
 * Travellers Gear 1.16.6a<BR>
-* Twillight Forest 2.3.8.dev<BR>
+* Twillight Forest 2.3.8.1<BR>
 * Ulity Mobs 3.1.1<BR>
 * Ulity Worlds 1.0.9e<BR>
 * Universal Singularities Version 8.6<BR>
@@ -342,10 +341,10 @@ you find it in your resource folder<BR>
 * Waila Harvestability 1.1.6<BR>
 * Waila Plugins 0.2.3<BR>
 * Wawla 1.0.5.120<BR>
-* Warp Theory 1.0k dev<BR>
+* Warp Theory 1.0l dev<BR>
 * Wireless Redstone CBE 1.4.2-GTNH<BR>
 * Witchery 0.24.1<BR>
-* Witching Gadgets 1.2.10-GTNH<BR>
+* Witching Gadgets 1.2.11-GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
 ## Libs and Cores<BR>
@@ -364,9 +363,10 @@ you find it in your resource folder<BR>
 * MicdoodleCore 3.0.12.504<BR>
 * Mantle 0.3.2b<BR>
 * MrTJPCore 1.1.0.33<BR>
-* Open Mods Lib 0.10.465<BR>
+* Open Mods Lib 0.10.1<BR>
 * p455w0rdslib 1.0.4<BR>
 * Player api 1.4<BR>
+* Sponge Mixins 1.0.0<BR>
 * Wanion Lib 1.8<BR>
 * YamCore 0.5.78<BR>
 
