@@ -18,7 +18,6 @@ import mods.gregtech.Extruder;
 import mods.gregtech.Fermenter;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.FormingPress;
-import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.Mixer;
