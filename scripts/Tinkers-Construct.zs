@@ -13,6 +13,7 @@ import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidExtractor;
+import mods.gregtech.ForgeHammer;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
 import mods.gregtech.Pulverizer;
@@ -2681,7 +2682,6 @@ Extractor.addRecipe(<gregtech:gt.metaitem.01:2896>, <TConstruct:slime.leaves> * 
 
 
 
-
 // --- Extruder Recipes
 
 
@@ -3956,8 +3956,6 @@ Extruder.addRecipe(<TConstruct:BowLimbPart:316>, <ExtraUtilities:decorativeBlock
 Extruder.addRecipe(<TConstruct:BowLimbPart:251>, <BloodArsenal:blood_infused_iron> * 2, <TConstruct:Cast:3> * 0, 5400, 30);
 
 
-
-
 // --- Fluid Extractor Recipes ---
 
 
@@ -3968,6 +3966,15 @@ FluidExtractor.addRecipe(null, <minecraft:ender_pearl>, <liquid:ender> * 250, 10
 
 // --- Fluid XP
 FluidExtractor.addRecipe(null, <TConstruct:oreBerries:5>, <liquid:xpjuice> * 250, 10000, 100, 16);
+
+
+
+// --- Forge Hammer recipes
+
+
+
+// --- Seared Bricks 
+ForgeHammer.addRecipe(<TConstruct:materials:2> * 3, <TConstruct:Smeltery:2>, 20, 16);
 
 
 

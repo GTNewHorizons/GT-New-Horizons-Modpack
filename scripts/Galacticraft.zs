@@ -13,7 +13,6 @@ import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.Fuels;
-import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.PlasmaArcFurnace;
 import mods.gregtech.PlateBender;

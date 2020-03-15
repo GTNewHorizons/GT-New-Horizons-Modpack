@@ -93,6 +93,8 @@ recipes.remove(<Genetics:registry>);
 mods.forestry.Carpenter.addRecipe(<Genetics:database>, [[<gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>],
 													   [<gregtech:gt.metaitem.01:17500>, <ore:circuitData>, <gregtech:gt.metaitem.01:17500>], 
                                                        [<gregtech:gt.metaitem.01:27533>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27533>]], <liquid:molten.redstone> * 2880, 60, <dreamcraft:item.Display>);
+// -
+recipes.addShapeless(<Genetics:database>, [<Genetics:database>]);
 
 // --- Analyst
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 4320, 

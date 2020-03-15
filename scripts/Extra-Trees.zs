@@ -96,11 +96,15 @@ recipes.remove(<ExtraTrees:multifence:*>);
 mods.forestry.Carpenter.addRecipe(<ExtraTrees:database>, [[<gregtech:gt.metaitem.01:27500>, <ore:itemCasingGold>, <gregtech:gt.metaitem.01:27500>],
 														 [<gregtech:gt.metaitem.01:17500>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:17501>], 
                                                          [<gregtech:gt.metaitem.01:27500>, <ore:itemCasingGold>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 1440, 60, <Forestry:treealyzer>);
+// -
+recipes.addShapeless(<ExtraTrees:database>, [<ExtraTrees:database>]);
 
 // --- Lepidopterist Database
 mods.forestry.Carpenter.addRecipe(<ExtraTrees:databaseMoth>, [[<gregtech:gt.metaitem.01:27500>, <ore:itemCasingGold>, <gregtech:gt.metaitem.01:27500>],
 														 [<gregtech:gt.metaitem.01:17501>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:17500>], 
                                                          [<gregtech:gt.metaitem.01:27500>, <ore:itemCasingGold>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 1440, 60, <Forestry:flutterlyzer>);
+// -
+recipes.addShapeless(<ExtraTrees:databaseMoth>, [<ExtraTrees:databaseMoth>]);
 
 // --- Lumbermill
 recipes.addShaped(<ExtraTrees:machine>, [

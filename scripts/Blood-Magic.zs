@@ -913,7 +913,7 @@ mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: 
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:alchemyFlask>, <Thaumcraft:ItemEssence>, 2, 4000);
 
 // --- Unbound Crystal
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSpell>, <IC2:itemBatLamaCrystal:1>, 2, 5000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSpell>, <IC2:itemBatCrystal:1>.withTag({charge: 1000000.0}), 2, 5000);
 
 // --- Dagger of Sacrifice
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <AWWayofTime:sacrificialKnife>, 2, 10000);

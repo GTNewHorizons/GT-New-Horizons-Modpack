@@ -7,7 +7,6 @@
 import mods.gregtech.Assembler;
 
 import mods.ic2.Compressor;
-import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Pulverizer;
 import mods.nei.NEI;
 

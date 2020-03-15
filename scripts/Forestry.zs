@@ -732,17 +732,22 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000,
 mods.forestry.Carpenter.addRecipe(<Forestry:beealyzer>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18057>, <gregtech:gt.metaitem.01:27500>], 
 														[<gregtech:gt.metaitem.02:18057>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18057>], 
 														[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18057>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
+// -
+recipes.addShapeless(<Forestry:beealyzer>, [<Forestry:beealyzer>]);
 
 // --- Treealyzer
 mods.forestry.Carpenter.addRecipe(<Forestry:treealyzer>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18035>, <gregtech:gt.metaitem.01:27500>], 
 														 [<gregtech:gt.metaitem.02:18035>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18035>], 
 														 [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18035>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
+// -
+recipes.addShapeless(<Forestry:treealyzer>, [<Forestry:treealyzer>]);
 														
 // --- Flutterlyzer
 mods.forestry.Carpenter.addRecipe(<Forestry:flutterlyzer>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18300>, <gregtech:gt.metaitem.01:27500>], 
 														   [<gregtech:gt.metaitem.02:18300>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18300>], 
 														   [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18300>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
-
+// -
+recipes.addShapeless(<Forestry:flutterlyzer>, [<Forestry:flutterlyzer>]);
 
 
 // --- Farms ---

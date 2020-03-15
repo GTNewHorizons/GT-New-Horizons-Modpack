@@ -14,7 +14,6 @@ import mods.gregtech.ChemicalBath;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
 import mods.gregtech.FluidExtractor;
-import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
 import mods.gregtech.Slicer;

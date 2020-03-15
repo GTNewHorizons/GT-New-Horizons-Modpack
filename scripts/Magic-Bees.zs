@@ -122,8 +122,14 @@ mods.thaumcraft.Arcane.removeRecipe(<MagicBees:visAuraProvider>);
 // --- Thaumic Scoop
 mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.thaumiumScoop>);
 
+// --- Void Scoop
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.voidScoop>);
+
 // --- Thaumic Grafter
 mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.thaumiumGrafter>);
+
+// --- Void Grafter
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.voidGrafter>);
 
 // --- Jade Mood Dail
 recipes.remove(<MagicBees:moonDial>);
@@ -399,7 +405,19 @@ mods.thaumcraft.Arcane.addShaped("MB_Scoop", <MagicBees:item.thaumiumScoop>, "or
 [<ore:craftingToolWireCutter>, <gregtech:gt.metaitem.01:23330>, <ore:craftingToolHardHammer>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Scoop", <MagicBees:item.thaumiumScoop>);
 mods.thaumcraft.Research.setAspects("MB_Scoop", "ordo 9, terra 6, aer 3");
-mods.thaumcraft.Research.setComplexity("MB_Scoop", 2);
+mods.thaumcraft.Research.setComplexity("MB_Scoop", 3);
+
+// --- Void Scoop
+mods.thaumcraft.Research.clearPages("MB_ScoopVoid");
+mods.thaumcraft.Research.addPage("MB_ScoopVoid", "tc.research_page.MB_ScoopVoid.1");
+mods.thaumcraft.Arcane.addShaped("MB_ScoopVoid", <MagicBees:item.voidScoop>, "ordo 20, terra 20, aer 20", [
+[<gregtech:gt.metaitem.01:23970>, <minecraft:wool:*>, <gregtech:gt.metaitem.01:23970>],
+[<gregtech:gt.metaitem.01:23970>, <gregtech:gt.metaitem.01:23970>, <gregtech:gt.metaitem.01:23970>],
+[<ore:craftingToolWireCutter>, <gregtech:gt.metaitem.01:23970>, <ore:craftingToolHardHammer>]]);
+mods.thaumcraft.Research.addArcanePage("MB_ScoopVoid", <MagicBees:item.voidScoop>);
+mods.thaumcraft.Research.setAspects("MB_ScoopVoid", "praecantatio 15, ordo 9, terra 6, aer 3");
+mods.thaumcraft.Research.setComplexity("MB_ScoopVoid", 3);
+mods.thaumcraft.Warp.addToResearch("MB_ScoopVoid", 3);
 
 // --- Thaumic Grafter
 mods.thaumcraft.Research.clearPages("MB_Grafter");
@@ -411,6 +429,18 @@ mods.thaumcraft.Arcane.addShaped("MB_Grafter", <MagicBees:item.thaumiumGrafter>,
 mods.thaumcraft.Research.addArcanePage("MB_Grafter", <MagicBees:item.thaumiumGrafter>);
 mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 12, terra 9, aer 6");
 mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
+
+// --- Void Grafter
+mods.thaumcraft.Research.clearPages("MB_GrafterVoid");
+mods.thaumcraft.Research.addPage("MB_GrafterVoid", "tc.research_page.MB_GrafterVoid.1");
+mods.thaumcraft.Arcane.addShaped("MB_GrafterVoid", <MagicBees:item.voidGrafter>, "ordo 30, terra 30, aer 30", [
+[null, <gregtech:gt.metaitem.01:23970>, null],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:23970>, null],
+[<gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:16>, <ore:craftingToolHardHammer>]]);
+mods.thaumcraft.Research.addArcanePage("MB_GrafterVoid", <MagicBees:item.voidGrafter>);
+mods.thaumcraft.Research.setAspects("MB_GrafterVoid", "praecantatio 15, ordo 12, terra 9, aer 6");
+mods.thaumcraft.Research.setComplexity("MB_GrafterVoid", 3);
+mods.thaumcraft.Warp.addToResearch("MB_GrafterVoid", 3);
 
 // --- Enchanted Earth
 mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -3, 2, <MagicBees:magicbees.enchantedEarth>);
@@ -545,8 +575,15 @@ mods.thaumcraft.Research.refreshResearchRecipe("MB_DimensionalSingularity");
 // --- Thaumic Scoop
 mods.thaumcraft.Research.refreshResearchRecipe("MB_Scoop");
 
+// --- Void Scoop
+mods.thaumcraft.Research.refreshResearchRecipe("MB_ScoopVoid");
+
 // --- Thaumic Grafter
 mods.thaumcraft.Research.refreshResearchRecipe("MB_Grafte");
+
+// --- Void Grafter
+mods.thaumcraft.Research.refreshResearchRecipe("MB_GrafterVoid");
+
 
 
 
