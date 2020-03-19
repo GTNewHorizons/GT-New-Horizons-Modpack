@@ -41,10 +41,8 @@ recipes.addShaped(<Translocator:translocator:1> * 2, [
 [<ore:pipeMediumSteel>, <ore:gemEnderPearl>, <ore:pipeMediumSteel>],
 [<ore:itemCasingAluminium>, <ore:plateRedAlloy>, <ore:itemCasingAluminium>]]);
 
-// --- Diamond Nugget
-recipes.addShapeless(<MagicBees:beeNugget:5>, [<Translocator:diamondNugget>]); 
-// -
-recipes.addShapeless(<Translocator:diamondNugget>, [<MagicBees:beeNugget:5>]); 
+
+
 
 // --- Implosion Compressor Recipes
 
