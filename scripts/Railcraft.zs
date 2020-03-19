@@ -1813,4 +1813,4 @@ mods.thaumcraft.Research.removeTab("RAILCRAFT");
 
 
 // --- Firestone
-<ore:gemFirestone>.maxStackSize=9;
+<Railcraft:firestone.raw>.maxStackSize=9;
