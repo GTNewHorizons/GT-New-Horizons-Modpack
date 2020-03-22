@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.0.8.8 work in progress
+Version 2.0.8.8 is out 22.03.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -168,7 +168,7 @@ you find it in your resource folder<BR>
 ## Modlist - NewHorizons<BR>
 
 * Advanced Solar Panels 3.5.1a<BR>
-* Adventure Backpack 0.9h11<BR>
+* Adventure Backpack 0.9h11-GTNH<BR>
 * AE2 Stuff 0.5.1.9<BR>
 * AE2 Wireless Crafting Table 1.8.7.4c<BR>
 * AFSU 1.2.3.a<BR>
@@ -181,7 +181,7 @@ you find it in your resource folder<BR>
 * Avaritia 1.17<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.13_pre<BR>
+* Bartworks 0.5.13_pre2<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -223,7 +223,7 @@ you find it in your resource folder<BR>
 * Find It 1.0.1<BR>
 * Flood Light 1.2.8.137<BR>
 * Forbidden Magic 0.575<BR>
-* Forestry 4.2.23.0<BR>
+* Forestry 4.2.24.0<BR>
 * Forge Microblocks 1.2.0.347<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
@@ -304,7 +304,7 @@ you find it in your resource folder<BR>
 * SG Craft 1.13.3<BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs 3.3.5<BR>
-* Spice of Life 2.0.0-carot-beta-2<BR>
+* Spice of Life 2.0.0-carot-beta-3<BR>
 * Standard Expansion 3.0.174<BR>
 * Steve's Carts 2.0.0.18b<BR>
 * Steve's Factory Manager ALPHA94-GTNH<BR>
@@ -332,7 +332,7 @@ you find it in your resource folder<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks 02.14.106<BR>
 * Too Much Loot 4.0.2.B1<BR>
-* Toro Health 1.0.0-beta2<BR>
+* Toro Health 1.0.0-beta3<BR>
 * Translocator 1.1.2.16<BR>
 * Travellers Gear 1.16.6a<BR>
 * Twillight Forest 2.3.8.1<BR>
