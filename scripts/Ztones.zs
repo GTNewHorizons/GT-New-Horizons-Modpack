@@ -73,12 +73,12 @@ recipes.addShaped(<Ztones:stoneTile> * 8, [
 [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
 
 // --- Mine Charcoal
-recipes.addShaped(<Ztones:minicharcoal>, [
+recipes.addShaped(<Ztones:minicharcoal> * 7, [
 [<ore:craftingToolSoftHammer>, null, null],
 [<ore:gemCharcoal>, null, null]]);
 
 // --- Mine Coal
-recipes.addShaped(<Ztones:minicoal>, [
+recipes.addShaped(<Ztones:minicoal> * 7, [
 [<ore:craftingToolSoftHammer>, null, null],
 [<ore:gemCoal>, null, null]]);
 
