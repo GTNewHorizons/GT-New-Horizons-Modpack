@@ -194,7 +194,7 @@ mods.thaumcraft.Warp.addToResearch("EvilshardsGTNH", 2);
 // --- Magic Funguar
 mods.thaumcraft.Research.orphanResearch("MAGICFUNGUAR");
 mods.thaumcraft.Research.removeResearch("MAGICFUNGUAR");
-mods.thaumcraft.Research.addResearch("MagicFunguarGTNH", "TM", "gula 15, fames 12, lucrum 9, praecantatio 6, herba 3", 3, -2, 3, <TaintedMagic:ItemMagicFunguar>);
+mods.thaumcraft.Research.addResearch("MagicFunguarGTNH", "TM", "gula 15, fames 12, lucrum 9, praecantatio 6, herba 3", 3, -2 as int, 3, <TaintedMagic:ItemMagicFunguar>);
 mods.thaumcraft.Research.addPrereq("MagicFunguarGTNH", "TAINTEDMAGIC", false);
 mods.thaumcraft.Research.setConcealed("MagicFunguarGTNH", true);
 game.setLocalization("tc.research_name.MagicFunguarGTNH", "Magic Funguar");
@@ -210,7 +210,7 @@ mods.thaumcraft.Warp.addToResearch("MagicFunguarGTNH", 1);
 // --- Warp Wood Sapling
 mods.thaumcraft.Research.orphanResearch("WARPTREE");
 mods.thaumcraft.Research.removeResearch("WARPTREE");
-mods.thaumcraft.Research.addResearch("WarpTreeGTNH", "TM", "alienis 18, tenebrae 15, vitium 12, arbor 9, praecantatio 6, herba 3", 6, -1, 3, <TaintedMagic:BlockWarpwoodSapling>);
+mods.thaumcraft.Research.addResearch("WarpTreeGTNH", "TM", "alienis 18, tenebrae 15, vitium 12, arbor 9, praecantatio 6, herba 3", 6, -1 as int, 3, <TaintedMagic:BlockWarpwoodSapling>);
 mods.thaumcraft.Research.addPrereq("WarpTreeGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("WarpTreeGTNH", "EvilshardsGTNH", false);
 mods.thaumcraft.Research.setConcealed("WarpTreeGTNH", true);
@@ -278,7 +278,7 @@ mods.thaumcraft.Warp.addToResearch("MaceFocusGTNH", 1);
 // --- Shadow-Imbued Cloth
 mods.thaumcraft.Research.orphanResearch("SHADOWCLOTH");
 mods.thaumcraft.Research.removeResearch("SHADOWCLOTH");
-mods.thaumcraft.Research.addResearch("ShadowClothGTNH", "TM", "pannus 15, tenebrae 12, praecantatio 9, aer 6, tutamen 3", -1, 2, 3, <TaintedMagic:ItemMaterial:1>);
+mods.thaumcraft.Research.addResearch("ShadowClothGTNH", "TM", "pannus 15, tenebrae 12, praecantatio 9, aer 6, tutamen 3", -1 as int, 2, 3, <TaintedMagic:ItemMaterial:1>);
 mods.thaumcraft.Research.addPrereq("ShadowClothGTNH", "ShadowmetalGTNH", false);
 mods.thaumcraft.Research.addPrereq("ShadowClothGTNH", "ENCHFABRIC", false);
 mods.thaumcraft.Research.setConcealed("ShadowClothGTNH", true);
@@ -295,7 +295,7 @@ mods.thaumcraft.Warp.addToResearch("ShadowClothGTNH", 2);
 // --- Shard of Creation
 mods.thaumcraft.Research.orphanResearch("CREATIONSHARD");
 mods.thaumcraft.Research.removeResearch("CREATIONSHARD");
-mods.thaumcraft.Research.addResearch("CreationShardGTNH", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Research.addResearch("CreationShardGTNH", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5 as int, 4, <TaintedMagic:ItemMaterial:5>);
 mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "TMELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "PRIMPEARL", false);
 mods.thaumcraft.Research.setConcealed("CreationShardGTNH", true);
@@ -313,7 +313,7 @@ mods.thaumcraft.Warp.addToResearch("CreationShardGTNH", 10);
 // --- Wand Focus Dark Matter
 mods.thaumcraft.Research.orphanResearch("ELDRITCHFOCUS");
 mods.thaumcraft.Research.removeResearch("ELDRITCHFOCUS");
-mods.thaumcraft.Research.addResearch("EldritchFocusGTNH", "TM", "alienis 18, perditio 15, aer 12, tenebrae 9, potentia 6, ira 3", 8, -4, 4, <TaintedMagic:ItemFocusEldritch>);
+mods.thaumcraft.Research.addResearch("EldritchFocusGTNH", "TM", "alienis 18, perditio 15, aer 12, tenebrae 9, potentia 6, ira 3", 8, -4 as int, 4, <TaintedMagic:ItemFocusEldritch>);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "EvilshardsGTNH", true);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CreationShardGTNH", false);
@@ -332,7 +332,7 @@ mods.thaumcraft.Warp.addToResearch("EldritchFocusGTNH", 4);
 // --- Crystal Blood
 mods.thaumcraft.Research.orphanResearch("CRYSTALDAGGER");
 mods.thaumcraft.Research.removeResearch("CRYSTALDAGGER");
-mods.thaumcraft.Research.addResearch("CrystalDaggerGTNH", "TM", "telum 18, ignis 15, sano 12, fames 9, infernus 6, lucrum 3", 0, -3, 4, <TaintedMagic:ItemCrystalDagger>);
+mods.thaumcraft.Research.addResearch("CrystalDaggerGTNH", "TM", "telum 18, ignis 15, sano 12, fames 9, infernus 6, lucrum 3", 0, -3 as int, 4, <TaintedMagic:ItemCrystalDagger>);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "TAINTEDMAGIC", false);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ENCHFABRIC", false);
@@ -352,7 +352,7 @@ mods.thaumcraft.Warp.addToResearch("CrystalDaggerGTNH", 3);
 // --- Crimson Stained Cloth
 mods.thaumcraft.Research.orphanResearch("CRIMSONROBES");
 mods.thaumcraft.Research.removeResearch("CRIMSONROBES");
-mods.thaumcraft.Research.addResearch("CrimsonRobesGTNH", "TM", "pannus 18, permutatio 15, tutamen 12, alienis 9, tenebrae 6, praecantatio 3", -2, -5, 4, <TaintedMagic:ItemMaterial:2>);
+mods.thaumcraft.Research.addResearch("CrimsonRobesGTNH", "TM", "pannus 18, permutatio 15, tutamen 12, alienis 9, tenebrae 6, praecantatio 3", -2 as int, -5 as int, 4, <TaintedMagic:ItemMaterial:2>);
 mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "TAINTEDMAGIC", true);
 mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "CrystalDaggerGTNH", false);
 mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "ShadowClothGTNH", true);
@@ -407,7 +407,7 @@ mods.thaumcraft.Warp.addToResearch("BLOODLUSTUPGRADE", 2);
 // --- Crimson Plating
 mods.thaumcraft.Research.orphanResearch("KNIGHTROBES");
 mods.thaumcraft.Research.removeResearch("KNIGHTROBES");
-mods.thaumcraft.Research.addResearch("KnightRobesGTNH", "TM", "pannus 21, permutatio 18, tutamen 15, alienis 12, tenebrae 9, praecantatio 6, metallum 3", -4, -4, 4, <TaintedMagic:ItemMaterial:8>);
+mods.thaumcraft.Research.addResearch("KnightRobesGTNH", "TM", "pannus 21, permutatio 18, tutamen 15, alienis 12, tenebrae 9, praecantatio 6, metallum 3", -4 as int, -4 as int, 4, <TaintedMagic:ItemMaterial:8>);
 mods.thaumcraft.Research.addPrereq("KnightRobesGTNH", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.addPrereq("KnightRobesGTNH", "CrimsonRobesGTNH", false);
 mods.thaumcraft.Research.setConcealed("KnightRobesGTNH", true);
@@ -444,7 +444,7 @@ mods.thaumcraft.Research.addArcanePage("KnightRobesGTNH", <Thaumcraft:ItemLeggin
 // --- Crimson Preadetor Helmet
 mods.thaumcraft.Research.orphanResearch("PRAETORARMOR");
 mods.thaumcraft.Research.removeResearch("PRAETORARMOR");
-mods.thaumcraft.Research.addResearch("PraetorarmorGTNH", "TM", "pannus 24, permutatio 21, tutamen 18, alienis 15, tenebrae 12, praecantatio 9, metallum 6, potentia 3", -6, -4, 4, <Thaumcraft:ItemHelmetCultistLeaderPlate>);
+mods.thaumcraft.Research.addResearch("PraetorarmorGTNH", "TM", "pannus 24, permutatio 21, tutamen 18, alienis 15, tenebrae 12, praecantatio 9, metallum 6, potentia 3", -6 as int, -4 as int, 4, <Thaumcraft:ItemHelmetCultistLeaderPlate>);
 mods.thaumcraft.Research.addPrereq("PraetorarmorGTNH", "KnightRobesGTNH", false);
 mods.thaumcraft.Research.setConcealed("PraetorarmorGTNH", true);
 game.setLocalization("tc.research_name.PraetorarmorGTNH", "Advanced Crimson Forgery");
@@ -471,7 +471,7 @@ mods.thaumcraft.Research.addInfusionPage("PraetorarmorGTNH", <Thaumcraft:ItemLeg
 // --- Phial of Voidsent Blood
 mods.thaumcraft.Research.orphanResearch("VOIDSENTBLOOD");
 mods.thaumcraft.Research.removeResearch("VOIDSENTBLOOD");
-mods.thaumcraft.Research.addResearch("VoidsentGTNH", "TM", "tenebrae 21, tutamen 18, vacuos 15, tenebrae 12, auram 9, praecantatio 6, alienis 3", -7, -5, 4, <TaintedMagic:ItemVoidsentBlood>);
+mods.thaumcraft.Research.addResearch("VoidsentGTNH", "TM", "tenebrae 21, tutamen 18, vacuos 15, tenebrae 12, auram 9, praecantatio 6, alienis 3", -7 as int, -5 as int, 4, <TaintedMagic:ItemVoidsentBlood>);
 mods.thaumcraft.Research.addPrereq("VoidsentGTNH", "PraetorarmorGTNH", false);
 mods.thaumcraft.Research.setConcealed("VoidsentGTNH", true);
 game.setLocalization("tc.research_name.VoidsentGTNH", "Voidsent Blood");
@@ -484,7 +484,7 @@ mods.thaumcraft.Warp.addToResearch("VoidsentGTNH", 2);
 // --- Crimson Blade
 mods.thaumcraft.Research.orphanResearch("CRIMSONBLADE");
 mods.thaumcraft.Research.removeResearch("CRIMSONBLADE");
-mods.thaumcraft.Research.addResearch("CrimsonBladeGTNH", "TM", "perditio 18, telum 15, vacuos 12, tenebrae 9, metallum 6, potentia 3", -7, -3, 4, <Thaumcraft:ItemSwordCrimson>);
+mods.thaumcraft.Research.addResearch("CrimsonBladeGTNH", "TM", "perditio 18, telum 15, vacuos 12, tenebrae 9, metallum 6, potentia 3", -7 as int, -3 as int, 4, <Thaumcraft:ItemSwordCrimson>);
 mods.thaumcraft.Research.addPrereq("CrimsonBladeGTNH", "PraetorarmorGTNH", false);
 mods.thaumcraft.Research.setConcealed("CrimsonBladeGTNH", true);
 game.setLocalization("tc.research_name.CrimsonBladeGTNH", "Crimson Blade");
@@ -550,7 +550,7 @@ mods.thaumcraft.Warp.addToResearch("FocusTaintedBlastGTNH", 6);
 // --- Thaumic Alloy
 mods.thaumcraft.Research.orphanResearch("THAUMICDISASSEMBLER");
 mods.thaumcraft.Research.removeResearch("THAUMICDISASSEMBLER");
-mods.thaumcraft.Research.addResearch("ThaumicdisassemblerGTNH", "TM", "telum 18, metallum 15, instrumentum 12, praecantatio 9, alienis 6, vitium 3", 5, -6, 4, <TaintedMagic:ItemThaumicDisassembler>);
+mods.thaumcraft.Research.addResearch("ThaumicdisassemblerGTNH", "TM", "telum 18, metallum 15, instrumentum 12, praecantatio 9, alienis 6, vitium 3", 5, -6 as int, 4, <TaintedMagic:ItemThaumicDisassembler>);
 mods.thaumcraft.Research.addPrereq("ThaumicdisassemblerGTNH", "TMELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("ThaumicdisassemblerGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.setConcealed("ThaumicdisassemblerGTNH", true);
@@ -574,7 +574,7 @@ mods.thaumcraft.Research.addInfusionPage("ThaumicdisassemblerGTNH", <TaintedMagi
 // --- Boots of Void Walker
 mods.thaumcraft.Research.orphanResearch("VOIDWALKERBOOTS");
 mods.thaumcraft.Research.removeResearch("VOIDWALKERBOOTS");
-mods.thaumcraft.Research.addResearch("VoidWalkerBootsGTNH", "TM", "tenebrae 21, tutamen 18, alienis 15, praecantatio 12, iter 9, aer 6, volatus 3", 4, -8, 4, <TaintedMagic:ItemVoidwalkerBoots>);
+mods.thaumcraft.Research.addResearch("VoidWalkerBootsGTNH", "TM", "tenebrae 21, tutamen 18, alienis 15, praecantatio 12, iter 9, aer 6, volatus 3", 4, -8 as int, 4, <TaintedMagic:ItemVoidwalkerBoots>);
 mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "TMELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "BOOTSTRAVELLER", false);
 mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "TAINTEDMAGIC", true);
@@ -592,7 +592,7 @@ mods.thaumcraft.Warp.addToResearch("VoidWalkerBootsGTNH", 4);
 // --- Voidwalkers Sash of runic Schielding
 mods.thaumcraft.Research.orphanResearch("VOIDSASH");
 mods.thaumcraft.Research.removeResearch("VOIDSASH");
-mods.thaumcraft.Research.addResearch("VoidSashGTNH", "TM", "metallum 24, vacuos 21, tutamen 18, praecantatio 15, alienis 12, tenebrae 9, iter 6, aer 3", 3, -8, 4, <TaintedMagic:ItemVoidwalkerSash>);
+mods.thaumcraft.Research.addResearch("VoidSashGTNH", "TM", "metallum 24, vacuos 21, tutamen 18, praecantatio 15, alienis 12, tenebrae 9, iter 6, aer 3", 3, -8 as int, 4, <TaintedMagic:ItemVoidwalkerSash>);
 mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "VoidWalkerBootsGTNH", false);
 mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "RUNICARMOR", false);
 mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "TAINTEDMAGIC", true);
@@ -611,7 +611,7 @@ mods.thaumcraft.Warp.addToResearch("VoidSashGTNH", 4);
 // --- Void Fortress Helmet
 mods.thaumcraft.Research.orphanResearch("VOIDFORTRESS");
 mods.thaumcraft.Research.removeResearch("VOIDFORTRESS");
-mods.thaumcraft.Research.addResearch("VoidFortressGTNH", "TM", "tutamen 21, vacuos 18, alienis 15, tenebrae 12, victus 9, cognitio 6, terra 3", 7, -8, 4, <TaintedMagic:ItemVoidFortressHelmet>);
+mods.thaumcraft.Research.addResearch("VoidFortressGTNH", "TM", "tutamen 21, vacuos 18, alienis 15, tenebrae 12, victus 9, cognitio 6, terra 3", 7, -8 as int, 4, <TaintedMagic:ItemVoidFortressHelmet>);
 mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "TMELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "ARMORFORTRESS", false);
@@ -641,7 +641,7 @@ mods.thaumcraft.Research.addInfusionPage("VoidFortressGTNH", <TaintedMagic:ItemV
 // --- Shadow Fortress Helmet
 mods.thaumcraft.Research.orphanResearch("SHADOWFORTRESSARMOR");
 mods.thaumcraft.Research.removeResearch("SHADOWFORTRESSARMOR");
-mods.thaumcraft.Research.addResearch("ShadowFortressArmorGTNH", "TM", "tutamen 24, vacuos 21, alienis 18, tenebrae 15, victus 12, cognitio 9, terra 6, superbia 3", 8, -9, 4, <TaintedMagic:ItemShadowFortressHelmet>);
+mods.thaumcraft.Research.addResearch("ShadowFortressArmorGTNH", "TM", "tutamen 24, vacuos 21, alienis 18, tenebrae 15, victus 12, cognitio 9, terra 6, superbia 3", 8, -9 as int, 4, <TaintedMagic:ItemShadowFortressHelmet>);
 mods.thaumcraft.Research.addPrereq("ShadowFortressArmorGTNH", "VoidFortressGTNH", false);
 mods.thaumcraft.Research.addPrereq("ShadowFortressArmorGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.setConcealed("ShadowFortressArmorGTNH", true);
@@ -701,7 +701,7 @@ mods.thaumcraft.Warp.addToResearch("VoidMetalKatanaGTNH", 6);
 // --- Shadow Metal Fortress Blade
 mods.thaumcraft.Research.orphanResearch("SHADOWMETALKATANA");
 mods.thaumcraft.Research.removeResearch("SHADOWMETALKATANA");
-mods.thaumcraft.Research.addResearch("ShadowMetalKatanaGTNH", "TM", "tenebrae 24, metallum 21, telum 18, vacuos 15, praecantatio 12, motus 9, potentia 6, mortuus 3", 8, -1, 4, <TaintedMagic:ItemKatana:2>);
+mods.thaumcraft.Research.addResearch("ShadowMetalKatanaGTNH", "TM", "tenebrae 24, metallum 21, telum 18, vacuos 15, praecantatio 12, motus 9, potentia 6, mortuus 3", 8, -1 as int, 4, <TaintedMagic:ItemKatana:2>);
 mods.thaumcraft.Research.addPrereq("ShadowMetalKatanaGTNH", "VoidMetalKatanaGTNH", false);
 mods.thaumcraft.Research.addPrereq("ShadowMetalKatanaGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.setConcealed("ShadowMetalKatanaGTNH", true);
@@ -739,7 +739,7 @@ mods.thaumcraft.Warp.addToResearch("INSCRIPTIONUNDEAD", 4);
 // --- Warp Wood Rod
 mods.thaumcraft.Research.orphanResearch("ROD_warpwood");
 mods.thaumcraft.Research.removeResearch("ROD_warpwood");
-mods.thaumcraft.Research.addResearch("ROD_warpwood", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, instrumentum 6, terra 3", 8, -2, 4, <TaintedMagic:ItemWandRod>);
+mods.thaumcraft.Research.addResearch("ROD_warpwood", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, instrumentum 6, terra 3", 8, -2 as int, 4, <TaintedMagic:ItemWandRod>);
 mods.thaumcraft.Research.addPrereq("ROD_warpwood", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("ROD_warpwood", "WarpTreeGTNH", false);
 mods.thaumcraft.Research.addPrereq("ROD_warpwood", "VOIDMETAL", false);
@@ -760,7 +760,7 @@ mods.thaumcraft.Research.addPage("ROD_warpwood", "tm.text.ROD_warpwood.2");
 // --- Warp Wood Stuff
 mods.thaumcraft.Research.orphanResearch("ROD_warpwood_staff");
 mods.thaumcraft.Research.removeResearch("ROD_warpwood_staff");
-mods.thaumcraft.Research.addResearch("ROD_warpwood_staff", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, potentia 6, instrumentum 3", 9, -2, 4, <TaintedMagic:ItemWandRod:1>);
+mods.thaumcraft.Research.addResearch("ROD_warpwood_staff", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, potentia 6, instrumentum 3", 9, -2 as int, 4, <TaintedMagic:ItemWandRod:1>);
 mods.thaumcraft.Research.addPrereq("ROD_warpwood_staff", "ROD_warpwood", false);
 mods.thaumcraft.Research.setConcealed("ROD_warpwood_staff", true);
 game.setLocalization("tc.research_name.ROD_warpwood_staff", "Warpwood Staff Core");
@@ -776,7 +776,7 @@ mods.thaumcraft.Warp.addToResearch("ROD_warpwood_staff", 5);
 // --- Wand Focus Time
 mods.thaumcraft.Research.orphanResearch("FOCUSTIME");
 mods.thaumcraft.Research.removeResearch("FOCUSTIME");
-mods.thaumcraft.Research.addResearch("FocusTimeGTNH", "TM", "tempus 27, praecantatio 24, aqua 21, ignis 18, terra 15, ordo 12, perditio 9, aer 6, permutatio 3", 11, -8, 4, <TaintedMagic:ItemFocusTime>);
+mods.thaumcraft.Research.addResearch("FocusTimeGTNH", "TM", "tempus 27, praecantatio 24, aqua 21, ignis 18, terra 15, ordo 12, perditio 9, aer 6, permutatio 3", 11, -8 as int, 4, <TaintedMagic:ItemFocusTime>);
 mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "CreationShardGTNH", false);
 mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "FOCUSPORTABLEHOLE", false);
 mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "FOCUSFIRE", false);
@@ -793,7 +793,7 @@ mods.thaumcraft.Warp.addToResearch("FocusTimeGTNH", 10);
 // --- Wand Focus Meteorology
 mods.thaumcraft.Research.orphanResearch("FOCUSWEATHER");
 mods.thaumcraft.Research.removeResearch("FOCUSWEATHER");
-mods.thaumcraft.Research.addResearch("FocusWeatherGTNH", "TM", "volatus 27, praecantatio 24, aqua 21, ignis 18, terra 15, ordo 12, perditio 9, aer 6, tempestas 3", 12, -7, 4, <TaintedMagic:ItemFocusMeteorology>);
+mods.thaumcraft.Research.addResearch("FocusWeatherGTNH", "TM", "volatus 27, praecantatio 24, aqua 21, ignis 18, terra 15, ordo 12, perditio 9, aer 6, tempestas 3", 12, -7 as int, 4, <TaintedMagic:ItemFocusMeteorology>);
 mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "CreationShardGTNH", false);
 mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "FOCUSSHOCK", false);
 mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "FOCUSFROST", false);
@@ -810,7 +810,7 @@ mods.thaumcraft.Warp.addToResearch("FocusWeatherGTNH", 10);
 // --- Edge of the Primordials
 mods.thaumcraft.Research.orphanResearch("PRIMALBLADE");
 mods.thaumcraft.Research.removeResearch("PRIMALBLADE");
-mods.thaumcraft.Research.addResearch("PrimalBladeGTNH", "TM", "praecantatio 24, alienis 21, telum 18, tenebrae 15, vacuos 12, auram 9, potentia 6, cognitio 3", 11, -5, 4, <TaintedMagic:ItemPrimordialEdge>);
+mods.thaumcraft.Research.addResearch("PrimalBladeGTNH", "TM", "praecantatio 24, alienis 21, telum 18, tenebrae 15, vacuos 12, auram 9, potentia 6, cognitio 3", 11, -5 as int, 4, <TaintedMagic:ItemPrimordialEdge>);
 mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "CreationShardGTNH", false);
 mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "EvilshardsGTNH", true);
 mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "CrystalDaggerGTNH", true);
@@ -846,7 +846,7 @@ mods.thaumcraft.Warp.addToResearch("CAP_cloth", 1);
 // --- Shadow Imbued-Cloth Cap
 mods.thaumcraft.Research.orphanResearch("CAP_shadowcloth");
 mods.thaumcraft.Research.removeResearch("CAP_shadowcloth");
-mods.thaumcraft.Research.addResearch("CAP_shadowcloth", "TM", "praecantatio 18, pannus 15, tenebrae 12, vacuos 9, metallum 6, alienis 3", -2, 3, 4, <TaintedMagic:ItemWandCap:3>);
+mods.thaumcraft.Research.addResearch("CAP_shadowcloth", "TM", "praecantatio 18, pannus 15, tenebrae 12, vacuos 9, metallum 6, alienis 3", -2 as int, 3, 4, <TaintedMagic:ItemWandCap:3>);
 mods.thaumcraft.Research.addPrereq("CAP_shadowcloth", "CAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CAP_shadowcloth", "ShadowClothGTNH", false);
 mods.thaumcraft.Research.setConcealed("CAP_shadowcloth", true);
@@ -864,7 +864,7 @@ mods.thaumcraft.Warp.addToResearch("CAP_shadowcloth", 2);
 // --- Crimson-Stained Cloth Cap
 mods.thaumcraft.Research.orphanResearch("CAP_crimsoncloth");
 mods.thaumcraft.Research.removeResearch("CAP_crimsoncloth");
-mods.thaumcraft.Research.addResearch("CAP_crimsoncloth", "TM", "tenebrae 18, praecantatio 15, pannus 12, sano 9, aqua 6, alienis 3", -1, -6, 4, <TaintedMagic:ItemWandCap:2>);
+mods.thaumcraft.Research.addResearch("CAP_crimsoncloth", "TM", "tenebrae 18, praecantatio 15, pannus 12, sano 9, aqua 6, alienis 3", -1 as int, -6 as int, 4, <TaintedMagic:ItemWandCap:2>);
 mods.thaumcraft.Research.addPrereq("CAP_crimsoncloth", "CAP_cloth", true);
 mods.thaumcraft.Research.addPrereq("CAP_crimsoncloth", "CrimsonRobesGTNH", false);
 mods.thaumcraft.Research.setConcealed("CAP_crimsoncloth", true);
@@ -882,7 +882,7 @@ mods.thaumcraft.Warp.addToResearch("CAP_crimsoncloth", 4);
 // --- Shadow Metal Cap
 mods.thaumcraft.Research.orphanResearch("CAP_shadowmetal");
 mods.thaumcraft.Research.removeResearch("CAP_shadowmetal");
-mods.thaumcraft.Research.addResearch("CAP_shadowmetal", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -4, 4, 4, <TaintedMagic:ItemWandCap>);
+mods.thaumcraft.Research.addResearch("CAP_shadowmetal", "TM", "metallum 21, tenebrae 18, praecantatio 15, alienis 12, terra 9, lucrum 6, cognitio 3", -4 as int, 4, 4, <TaintedMagic:ItemWandCap>);
 mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "CAP_shadowcloth", false);
 mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "CAP_void", false);
 mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "PRIMPEARL", false);
