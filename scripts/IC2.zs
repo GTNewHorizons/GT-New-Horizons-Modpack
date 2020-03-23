@@ -493,9 +493,6 @@ recipes.remove(<IC2:itemTFBPFlatification>);
 // --- TFBP Mushroom
 recipes.remove(<IC2:itemTFBPMushroom>);
 
-// --- Charging RE Battery
-recipes.remove(<IC2:itemBatChargeRE:*>);
-
 // --- Scuba Helmet
 recipes.remove(<IC2:itemArmorHazmatHelmet>);
 
@@ -755,7 +752,6 @@ recipes.remove(<IC2:itemDust2:2>);
 
 // --- CF Powder
 recipes.remove(<IC2:itemPartCFPowder>);
-
 
 
 

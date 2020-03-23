@@ -3194,7 +3194,7 @@ gtnh.quest797.desc=The night vision goggles need advanced heat exchangers to wor
 
 # Quest.798 - Iron capped Greatwood Wand
 gtnh.quest798.name=Iron capped Greatwood Wand
-gtnh.quest798.desc=Making a gold capped greatwood wand requires 35 vis, but your old wand's limit is 25. So first create an iron or copper capped greatwood wand and then create a gold capped greatwood wand.%nMake sure you use NEI 'U' command on the wand caps to find the correct GT:NH recipe for the wand.
+gtnh.quest798.desc=Making a gold capped greatwood wand requires 30 vis, but your old wand's limit is 25. So first create an iron or copper capped greatwood wand reload it with 50 vis and then later on in the next quest create a gold capped greatwood wand.
 
 # Quest.799 - Don't try to dive with it
 gtnh.quest799.name=Don't try to dive with it
@@ -6182,7 +6182,7 @@ gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mi
 
 # Quest.1545 - §6§lTime to ore drill!
 gtnh.quest1545.name=§6§lTime to ore drill!
-gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!%n%n§4Hint:%n§4If you miner need to dig deeper than 64 Blocks you need to add a input bus filled with pipes.
 
 # Quest.1546 - §2§lRare ores
 gtnh.quest1546.name=§2§lRare ores
@@ -9751,6 +9751,10 @@ gtnh.quest2436.desc=You can exchange your Stack of GT Lead Ore for another Lead 
 # Quest.2437 - Seeing inside your Chest
 gtnh.quest2437.name=Seeing inside your Chest
 gtnh.quest2437.desc=With the Holo-glasses you are able to look into Chests, Barrels and Drawers like a Holographic inventory.
+
+# Quest.2438 - Holo Glasses
+gtnh.quest2438.name=Holo Glasses
+gtnh.quest2438.desc=What? Lost your Hologlasses already? Well here is a replacement.  Well sure it costs a few coins too, be carefull next time!
 
 ##################################Line##################################
 

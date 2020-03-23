@@ -935,6 +935,9 @@ mods.tconstruct.Casting.removeBasinRecipe(<IC2:blockMetal:5>);
 // --- Dust
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:2019>, <liquid:aluminum.molten> * 144, 500, <gregtech:gt.blockmachines:1585>);
 
+// --- Ingot
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:11019>, <liquid:aluminum.molten> * 144, 500, <gregtech:gt.blockmachines:1585>);
+
 // --- Tiny Pile
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:19>, <liquid:aluminum.molten> * 16, 500, <gregtech:gt.blockmachines:1585>);
 
