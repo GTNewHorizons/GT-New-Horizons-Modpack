@@ -47,7 +47,7 @@ mods.thaumcraft.Research.addArcanePage("BLOODALTAR", <AWWayofTime:Altar>);
 mods.thaumcraft.Warp.addToResearch("BLOODALTAR", 2);
 
 // --- Life Infuser
-mods.thaumcraft.Research.addResearch("LIFEINFUSER", "BLOODMAGIC", "victus 18, alienis 15, praecantatio 12, auram 9, fames 6, terra 3", -2, 2, 3, <BloodArsenal:life_infuser>);
+mods.thaumcraft.Research.addResearch("LIFEINFUSER", "BLOODMAGIC", "victus 18, alienis 15, praecantatio 12, auram 9, fames 6, terra 3", -2 as int, 2, 3, <BloodArsenal:life_infuser>);
 game.setLocalization("tc.research_name.LIFEINFUSER", "Life Infuser");
 game.setLocalization("tc.research_text.LIFEINFUSER", "[BA] Transfer your Life Essence");
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "BLOODALTAR", false);
@@ -69,7 +69,7 @@ mods.thaumcraft.Arcane.addShaped("LIFEINFUSER", <BloodArsenal:lp_materializer>, 
 mods.thaumcraft.Research.addArcanePage("LIFEINFUSER", <BloodArsenal:lp_materializer>);
 
 // --- Soul Compacter
-mods.thaumcraft.Research.addResearch("SOULCOMPACTER", "BLOODMAGIC", "spiritus 18, praecantatio 15, alienis 12, lucrum 9, vacuos 6, cognitio 3", 0, -6, 4, <BloodArsenal:compacter>);
+mods.thaumcraft.Research.addResearch("SOULCOMPACTER", "BLOODMAGIC", "spiritus 18, praecantatio 15, alienis 12, lucrum 9, vacuos 6, cognitio 3", 0, -6 as int, 4, <BloodArsenal:compacter>);
 game.setLocalization("tc.research_name.SOULCOMPACTER", "Soul Compacter");
 game.setLocalization("tc.research_text.SOULCOMPACTER", "[BA] Packing your Ritual");
 mods.thaumcraft.Research.addPrereq("SOULCOMPACTER", "MASTERRITUALSTONE", false);
@@ -84,7 +84,7 @@ mods.thaumcraft.Research.addArcanePage("SOULCOMPACTER", <BloodArsenal:compacter>
 mods.thaumcraft.Warp.addToResearch("SOULCOMPACTER", 3);
 
 // --- Sacrificial Knife
-mods.thaumcraft.Research.addResearch("SACRIFICIALKNIFE", "BLOODMAGIC", "telum 15, lucrum 12, instrumentum 9, fames 6, fabrico 3", 2, -2, 3, <AWWayofTime:sacrificialKnife>);
+mods.thaumcraft.Research.addResearch("SACRIFICIALKNIFE", "BLOODMAGIC", "telum 15, lucrum 12, instrumentum 9, fames 6, fabrico 3", 2, -2 as int, 3, <AWWayofTime:sacrificialKnife>);
 game.setLocalization("tc.research_name.SACRIFICIALKNIFE", "Sacrificial Knife");
 game.setLocalization("tc.research_text.SACRIFICIALKNIFE", "[BM] Ouch! that hurts.");
 mods.thaumcraft.Research.addPrereq("SACRIFICIALKNIFE", "BLOODALTAR", false);
@@ -98,7 +98,7 @@ mods.thaumcraft.Arcane.addShaped("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKni
 mods.thaumcraft.Research.addArcanePage("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKnife>);
 
 // --- Alchemic Chemistry Set
-mods.thaumcraft.Research.addResearch("ALCHEMICCHEMSTRYSET", "BLOODMAGIC", "fabrico 15, ignis 12, instrumentum 9, praecantatio 6, victus 3", 4, -4, 3, <AWWayofTime:blockWritingTable>);
+mods.thaumcraft.Research.addResearch("ALCHEMICCHEMSTRYSET", "BLOODMAGIC", "fabrico 15, ignis 12, instrumentum 9, praecantatio 6, victus 3", 4, -4 as int, 3, <AWWayofTime:blockWritingTable>);
 game.setLocalization("tc.research_name.ALCHEMICCHEMSTRYSET", "Alchemic Chemistry Set");
 game.setLocalization("tc.research_text.ALCHEMICCHEMSTRYSET", "[BM] Blub, blub.....OH");
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "INFUSION", false);
@@ -113,7 +113,7 @@ mods.thaumcraft.Research.addInfusionPage("ALCHEMICCHEMSTRYSET", <AWWayofTime:blo
 mods.thaumcraft.Warp.addToResearch("ALCHEMICCHEMSTRYSET", 3);
 
 // --- Amorphic Catalyst
-mods.thaumcraft.Research.addResearch("AMORPHICCATALYST", "BLOODMAGIC", "aqua 18, ignis 15, terra 12, aer 9, ordo 6, perditio 3", 6, -4, 3, <BloodArsenal:amorphic_catalyst>);
+mods.thaumcraft.Research.addResearch("AMORPHICCATALYST", "BLOODMAGIC", "aqua 18, ignis 15, terra 12, aer 9, ordo 6, perditio 3", 6, -4 as int, 3, <BloodArsenal:amorphic_catalyst>);
 game.setLocalization("tc.research_name.AMORPHICCATALYST", "Amorphic Catalyst");
 game.setLocalization("tc.research_text.AMORPHICCATALYST", "[BA] Mixed Catalyst");
 mods.thaumcraft.Research.addPrereq("AMORPHICCATALYST", "INFUSION", false);
@@ -128,7 +128,7 @@ mods.thaumcraft.Research.addInfusionPage("AMORPHICCATALYST", <BloodArsenal:amorp
 mods.thaumcraft.Warp.addToResearch("AMORPHICCATALYST", 2);
 
 // --- Blood Infused Diamond Block
-mods.thaumcraft.Research.addResearch("BIDIAMONDBLOCK", "BLOODMAGIC", "aqua 18, ignis 15, victus 12, ignis 9, ira 6, perditio 3", 8, -4, 3, <BloodArsenal:blood_infused_diamond_block>);
+mods.thaumcraft.Research.addResearch("BIDIAMONDBLOCK", "BLOODMAGIC", "aqua 18, ignis 15, victus 12, ignis 9, ira 6, perditio 3", 8, -4 as int, 3, <BloodArsenal:blood_infused_diamond_block>);
 game.setLocalization("tc.research_name.BIDIAMONDBLOCK", "Blood Infused Diamond Block");
 game.setLocalization("tc.research_text.BIDIAMONDBLOCK", "[BA] A Blood Diamond Block");
 mods.thaumcraft.Research.addPrereq("BIDIAMONDBLOCK", "INFUSION", false);
@@ -158,7 +158,7 @@ mods.thaumcraft.Infusion.addRecipe("DIVINATIONSIGIL", <AWWayofTime:blankSlate>,
 mods.thaumcraft.Research.addInfusionPage("DIVINATIONSIGIL", <AWWayofTime:divinationSigil>);
 
 // --- Speed Rune
-mods.thaumcraft.Research.addResearch("SPEEDRUNE", "BLOODMAGIC", "motus 15, volatus 12, potentia 9, aer 6, fames 3", -2, 0, 3, <AWWayofTime:speedRune>);
+mods.thaumcraft.Research.addResearch("SPEEDRUNE", "BLOODMAGIC", "motus 15, volatus 12, potentia 9, aer 6, fames 3", -2 as int, 0, 3, <AWWayofTime:speedRune>);
 game.setLocalization("tc.research_name.SPEEDRUNE", "Speed Rune");
 game.setLocalization("tc.research_text.SPEEDRUNE", "[BM] How fast is your Altar?");
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "INFUSION", false);
@@ -172,7 +172,7 @@ mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardryb
 mods.thaumcraft.Research.addInfusionPage("SPEEDRUNE", <AWWayofTime:speedRune>);
 
 // --- Imperfect Ritual Stone
-mods.thaumcraft.Research.addResearch("IMPERFECTRITUALSTONE", "BLOODMAGIC", "auram 12, praecantatio 9, terra 6, tenebrae 3", -2, -2, 3, <AWWayofTime:imperfectRitualStone>);
+mods.thaumcraft.Research.addResearch("IMPERFECTRITUALSTONE", "BLOODMAGIC", "auram 12, praecantatio 9, terra 6, tenebrae 3", -2 as int, -2 as int, 3, <AWWayofTime:imperfectRitualStone>);
 game.setLocalization("tc.research_name.IMPERFECTRITUALSTONE", "Imperfect Ritual Stone");
 game.setLocalization("tc.research_text.IMPERFECTRITUALSTONE", "[BM] Basic but oho.");
 mods.thaumcraft.Research.addPrereq("IMPERFECTRITUALSTONE", "BLOODALTAR", false);
@@ -192,7 +192,7 @@ mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectR
 mods.thaumcraft.Research.addArcanePage("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>);
 
 // --- Ritual Stone
-mods.thaumcraft.Research.addResearch("RITUALSTONE", "BLOODMAGIC", "terra 15, ignis 12, tenebrae 9, praecantatio 6, aer 3", -2, -4, 3, <AWWayofTime:ritualStone>);
+mods.thaumcraft.Research.addResearch("RITUALSTONE", "BLOODMAGIC", "terra 15, ignis 12, tenebrae 9, praecantatio 6, aer 3", -2 as int, -4 as int, 3, <AWWayofTime:ritualStone>);
 game.setLocalization("tc.research_name.RITUALSTONE", "Ritual Stone");
 game.setLocalization("tc.research_text.RITUALSTONE", "[BM] Rituals");
 mods.thaumcraft.Research.addPrereq("RITUALSTONE", "INFUSION", false);
@@ -207,7 +207,7 @@ mods.thaumcraft.Research.addInfusionPage("RITUALSTONE", <AWWayofTime:ritualStone
 mods.thaumcraft.Warp.addToResearch("RITUALSTONE", 1);
 
 // --- Spell Table
-mods.thaumcraft.Research.addResearch("SPELLTABLE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, infernus 3", -4, -4, 3, <AWWayofTime:blockHomHeart>);
+mods.thaumcraft.Research.addResearch("SPELLTABLE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, infernus 3", -4 as int, -4 as int, 3, <AWWayofTime:blockHomHeart>);
 game.setLocalization("tc.research_name.SPELLTABLE", "Spell Table");
 game.setLocalization("tc.research_text.SPELLTABLE", "[BM] Abrakadabra.....");
 mods.thaumcraft.Research.addPrereq("SPELLTABLE", "INFUSION", false);
@@ -223,7 +223,7 @@ mods.thaumcraft.Research.addArcanePage("SPELLTABLE", <AWWayofTime:blockHomHeart>
 mods.thaumcraft.Warp.addToResearch("SPELLTABLE", 4);
 
 // --- Master Ritual Stone
-mods.thaumcraft.Research.addResearch("MASTERRITUALSTONE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, cognitio", -2, -6, 3, <AWWayofTime:masterStone>);
+mods.thaumcraft.Research.addResearch("MASTERRITUALSTONE", "BLOODMAGIC", "terra 18, ignis 15, tenebrae 12, praecantatio 9, aer 6, cognitio", -2 as int, -6 as int, 3, <AWWayofTime:masterStone>);
 game.setLocalization("tc.research_name.MASTERRITUALSTONE", "Master Ritual Stone");
 game.setLocalization("tc.research_text.MASTERRITUALSTONE", "[BM] Let's start some Rituals");
 mods.thaumcraft.Research.addPrereq("MASTERRITUALSTONE", "INFUSION", false);
@@ -268,7 +268,7 @@ mods.thaumcraft.Research.addInfusionPage("LAVASIGIL", <AWWayofTime:lavaSigil>);
 mods.thaumcraft.Warp.addToResearch("LAVASIGIL", 4);
 
 // --- Empty Core
-mods.thaumcraft.Research.addResearch("EMPTYCORE", "BLOODMAGIC", "vitreus 15, terra 12, lucrum 9, metallum 6, praecantatio 3", 0, -2, 3, <AWWayofTime:bloodMagicBaseItems:1>);
+mods.thaumcraft.Research.addResearch("EMPTYCORE", "BLOODMAGIC", "vitreus 15, terra 12, lucrum 9, metallum 6, praecantatio 3", 0, -2 as int, 3, <AWWayofTime:bloodMagicBaseItems:1>);
 game.setLocalization("tc.research_name.EMPTYCORE", "Empty Core");
 game.setLocalization("tc.research_text.EMPTYCORE", "[BM] All you need is a core");
 mods.thaumcraft.Research.addPrereq("EMPTYCORE", "INFUSION", false);
@@ -283,7 +283,7 @@ mods.thaumcraft.Arcane.addShaped("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1
 mods.thaumcraft.Research.addArcanePage("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>);
 
 // --- Lava Crystal
-mods.thaumcraft.Research.addResearch("BMLAVACRYSTAL", "BLOODMAGIC", "ignis 15, infernus 12, terra 9, praecantatio 6, aer 3", 0, -4, 3, <AWWayofTime:lavaCrystal>);
+mods.thaumcraft.Research.addResearch("BMLAVACRYSTAL", "BLOODMAGIC", "ignis 15, infernus 12, terra 9, praecantatio 6, aer 3", 0, -4 as int, 3, <AWWayofTime:lavaCrystal>);
 game.setLocalization("tc.research_name.BMLAVACRYSTAL", "Lava Crystal");
 game.setLocalization("tc.research_text.BMLAVACRYSTAL", "[BM] TC Lava Crystal, Warded Glass...");
 mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "INFUSION", false);
@@ -299,7 +299,7 @@ mods.thaumcraft.Infusion.addRecipe("BMLAVACRYSTAL", <AWWayofTime:bloodMagicBaseI
 mods.thaumcraft.Research.addInfusionPage("BMLAVACRYSTAL", <AWWayofTime:lavaCrystal>);
 
 // --- Rune of Sacrifice
-mods.thaumcraft.Research.addResearch("RUNESACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, potentia 9, praecantatio 6, terra 3", -4, 0, 3, <AWWayofTime:runeOfSacrifice>);
+mods.thaumcraft.Research.addResearch("RUNESACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, potentia 9, praecantatio 6, terra 3", -4 as int, 0, 3, <AWWayofTime:runeOfSacrifice>);
 game.setLocalization("tc.research_name.RUNESACRIFICE", "Rune of Sacrifice");
 game.setLocalization("tc.research_text.RUNESACRIFICE", "[BM] Very bloody");
 mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "INFUSION", false);
@@ -313,7 +313,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <BloodArsenal:blood_stone:1>
 mods.thaumcraft.Research.addInfusionPage("RUNESACRIFICE", <AWWayofTime:runeOfSacrifice>);
 
 // --- Rune of Self Sacrifice
-mods.thaumcraft.Research.addResearch("RUNESELFSACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, lucrum 9, praecantatio 6, terra 3", -4, 2, 3, <AWWayofTime:runeOfSelfSacrifice>);
+mods.thaumcraft.Research.addResearch("RUNESELFSACRIFICE", "BLOODMAGIC", "fames 15, infernus 12, lucrum 9, praecantatio 6, terra 3", -4 as int, 2, 3, <AWWayofTime:runeOfSelfSacrifice>);
 game.setLocalization("tc.research_name.RUNESELFSACRIFICE", "Rune of Self Sacrifice");
 game.setLocalization("tc.research_text.RUNESELFSACRIFICE", "[BM] Even more bloody");
 mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "INFUSION", false);
@@ -342,7 +342,7 @@ mods.thaumcraft.Research.addInfusionPage("AIRSIGIL", <AWWayofTime:airSigil>);
 mods.thaumcraft.Warp.addToResearch("AIRSIGIL", 6);
 
 // --- Sigil of faster Mining
-mods.thaumcraft.Research.addResearch("FASTERMINING", "BLOODMAGIC", "instrumentum 15, perfodio 12, praecantatio 9, metallum 6, motus 3", -2, 4, 3, <AWWayofTime:sigilOfTheFastMiner>);
+mods.thaumcraft.Research.addResearch("FASTERMINING", "BLOODMAGIC", "instrumentum 15, perfodio 12, praecantatio 9, metallum 6, motus 3", -2 as int, 4, 3, <AWWayofTime:sigilOfTheFastMiner>);
 game.setLocalization("tc.research_name.FASTERMINING", "Sigil of Faster Mining");
 game.setLocalization("tc.research_text.FASTERMINING", "[BM] Haste II and you?");
 mods.thaumcraft.Research.addPrereq("FASTERMINING", "INFUSION", false);
@@ -372,7 +372,7 @@ mods.thaumcraft.Research.addInfusionPage("GREENGROW", <AWWayofTime:growthSigil>)
 mods.thaumcraft.Warp.addToResearch("GREENGROW", 2);
 
 // --- Void Sigil
-mods.thaumcraft.Research.addResearch("VOIDSIGIL", "BLOODMAGIC", "vacuos 15, terra 12, auram 9, praecantatio 6, metallum 3", -2, 6, 3, <AWWayofTime:voidSigil>);
+mods.thaumcraft.Research.addResearch("VOIDSIGIL", "BLOODMAGIC", "vacuos 15, terra 12, auram 9, praecantatio 6, metallum 3", -2 as int, 6, 3, <AWWayofTime:voidSigil>);
 game.setLocalization("tc.research_name.VOIDSIGIL", "Void Sigil");
 game.setLocalization("tc.research_text.VOIDSIGIL", "[BM] Better than a swiffer!");
 mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "INFUSION", false);
@@ -387,7 +387,7 @@ mods.thaumcraft.Research.addInfusionPage("VOIDSIGIL", <AWWayofTime:voidSigil>);
 mods.thaumcraft.Warp.addToResearch("VOIDSIGIL", 4);
 
 // --- Sigil of Swimming
-mods.thaumcraft.Research.addResearch("SIGILOFSWIMMING", "BLOODMAGIC", "aer 21, aqua 18, vacuos 15, terra 12, auram 9, praecantatio 6, metallum 3", -4, 8, 3, <BloodArsenal:sigil_of_swimming>);
+mods.thaumcraft.Research.addResearch("SIGILOFSWIMMING", "BLOODMAGIC", "aer 21, aqua 18, vacuos 15, terra 12, auram 9, praecantatio 6, metallum 3", -4 as int, 8, 3, <BloodArsenal:sigil_of_swimming>);
 game.setLocalization("tc.research_name.SIGILOFSWIMMING", "Sigil of Swimming");
 game.setLocalization("tc.research_text.SIGILOFSWIMMING", "[BA] Like a fish");
 mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "INFUSION", false);
@@ -402,7 +402,7 @@ mods.thaumcraft.Research.addInfusionPage("SIGILOFSWIMMING", <BloodArsenal:sigil_
 mods.thaumcraft.Warp.addToResearch("SIGILOFSWIMMING", 6);
 
 // --- Blood Letters Pack
-mods.thaumcraft.Research.addResearch("BLOODLETTERSPACK", "BLOODMAGIC", "telum 15, sano 12, lucrum 9, tutamen 6, pannus 3",  2, -4, 3, <AWWayofTime:itemBloodPack>);
+mods.thaumcraft.Research.addResearch("BLOODLETTERSPACK", "BLOODMAGIC", "telum 15, sano 12, lucrum 9, tutamen 6, pannus 3",  2, -4 as int, 3, <AWWayofTime:itemBloodPack>);
 game.setLocalization("tc.research_name.BLOODLETTERSPACK", "Blood Letters Pack");
 game.setLocalization("tc.research_text.BLOODLETTERSPACK", "[BM] This pack really chaffs...");
 mods.thaumcraft.Research.addPrereq("BLOODLETTERSPACK", "SACRIFICIALKNIFE", false);
@@ -416,7 +416,7 @@ mods.thaumcraft.Arcane.addShaped("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>
 mods.thaumcraft.Research.addArcanePage("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>);
 
 // --- Life Imbued Helm
-mods.thaumcraft.Research.addResearch("IMBUEARMOR", "BLOODMAGIC", "sano 15 , tutamen 12, praecantatio 9, metallum 6, potentia 3",  4, -6, 3, <BloodArsenal:life_imbued_chestplate>.withTag({LPStored: 0}));
+mods.thaumcraft.Research.addResearch("IMBUEARMOR", "BLOODMAGIC", "sano 15 , tutamen 12, praecantatio 9, metallum 6, potentia 3",  4, -6 as int, 3, <BloodArsenal:life_imbued_chestplate>.withTag({LPStored: 0}));
 game.setLocalization("tc.research_name.IMBUEARMOR", "Life Imbue Armor");
 game.setLocalization("tc.research_text.IMBUEARMOR", "[BM] Life for blood");
 mods.thaumcraft.Research.addPrereq("IMBUEARMOR", "BLOODLETTERSPACK", false);
@@ -557,7 +557,7 @@ mods.thaumcraft.Research.addArcanePage("TRANSPARENTORB", <BloodArsenal:transpare
 mods.thaumcraft.Warp.addToResearch("TRANSPARENTORB", 7);
 
 // --- Empty Socket
-mods.thaumcraft.Research.addResearch("EMPTYSOCKET", "BLOODMAGIC", "terra 15, tutamen 12, praecantatio 9, tenebrae 6, sano 3", 2, -6, 3, <AWWayofTime:emptySocket>);
+mods.thaumcraft.Research.addResearch("EMPTYSOCKET", "BLOODMAGIC", "terra 15, tutamen 12, praecantatio 9, tenebrae 6, sano 3", 2, -6 as int, 3, <AWWayofTime:emptySocket>);
 game.setLocalization("tc.research_name.EMPTYSOCKET", "Empty Socket");
 game.setLocalization("tc.research_text.EMPTYSOCKET", "[BM] Hmm, this does not seem to work...");
 mods.thaumcraft.Research.addPrereq("EMPTYSOCKET", "BLOODLETTERSPACK", false);
@@ -572,7 +572,7 @@ mods.thaumcraft.Research.addArcanePage("EMPTYSOCKET", <AWWayofTime:emptySocket>)
 mods.thaumcraft.Warp.addToResearch("EMPTYSOCKET", 2);
 
 // --- Soul Armor Forge
-mods.thaumcraft.Research.addResearch("SOULARMORFORGE", "BLOODMAGIC", "tutamen 18, metallum 15, praecantatio 12, praecantatio 9, tenebrae 6, exanimis 3", 2, -8, 3, <AWWayofTime:armourForge>);
+mods.thaumcraft.Research.addResearch("SOULARMORFORGE", "BLOODMAGIC", "tutamen 18, metallum 15, praecantatio 12, praecantatio 9, tenebrae 6, exanimis 3", 2, -8 as int, 3, <AWWayofTime:armourForge>);
 game.setLocalization("tc.research_name.SOULARMORFORGE", "Soul Armor Forge");
 game.setLocalization("tc.research_text.SOULARMORFORGE", "[BM] Demonic Armor");
 mods.thaumcraft.Research.addPrereq("SOULARMORFORGE", "INFUSION", false);
@@ -589,7 +589,7 @@ mods.thaumcraft.Research.addInfusionPage("SOULARMORFORGE", <AWWayofTime:armourFo
 mods.thaumcraft.Warp.addToResearch("SOULARMORFORGE", 4);
 
 // --- Rune of Argumented Capacity
-mods.thaumcraft.Research.addResearch("RUNEOFARGUMENTEDCAPACITY", "BLOODMAGIC", "aqua 18, fames 15, lucrum 12, praecantatio 9, terra 6, vacuos 3", -6, 0, 3, <AWWayofTime:AlchemicalWizardrybloodRune:1>);
+mods.thaumcraft.Research.addResearch("RUNEOFARGUMENTEDCAPACITY", "BLOODMAGIC", "aqua 18, fames 15, lucrum 12, praecantatio 9, terra 6, vacuos 3", -6 as int, 0, 3, <AWWayofTime:AlchemicalWizardrybloodRune:1>);
 game.setLocalization("tc.research_name.RUNEOFARGUMENTEDCAPACITY", "Rune of Augmented Capacity");
 game.setLocalization("tc.research_text.RUNEOFARGUMENTEDCAPACITY", "[BM] Pimp my Altar");
 mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "INFUSION", false);
@@ -603,7 +603,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNEOFARGUMENTEDCAPACITY", <BloodArsenal:blo
 mods.thaumcraft.Research.addInfusionPage("RUNEOFARGUMENTEDCAPACITY", <AWWayofTime:AlchemicalWizardrybloodRune:1>);
 
 // --- Rune of Dislocation
-mods.thaumcraft.Research.addResearch("RUNEOFDISLOCATION", "BLOODMAGIC", "aqua 18, praecantatio 15, motus 12 tempus 9, terra 9, cognitio 3", -6, 2, 3, <AWWayofTime:AlchemicalWizardrybloodRune:2>);
+mods.thaumcraft.Research.addResearch("RUNEOFDISLOCATION", "BLOODMAGIC", "aqua 18, praecantatio 15, motus 12 tempus 9, terra 9, cognitio 3", -6 as int, 2, 3, <AWWayofTime:AlchemicalWizardrybloodRune:2>);
 game.setLocalization("tc.research_name.RUNEOFDISLOCATION", "Rune of Dislocation");
 game.setLocalization("tc.research_text.RUNEOFDISLOCATION", "[BM] That was quick");
 mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "INFUSION", false);
@@ -677,7 +677,7 @@ mods.thaumcraft.Research.addInfusionPage("SIGILOFAUGMENTETHOLDING", <BloodArsena
 mods.thaumcraft.Warp.addToResearch("SIGILOFAUGMENTETHOLDING", 4);
 
 // --- Sigil of Phantom Bridge
-mods.thaumcraft.Research.addResearch("SIGILOFPHANTOMBRIDGE", "BLOODMAGIC", "terra 18, alienis 15, iter 12, vitreus 9, potentia 6, praecantatio 3", -4, 6, 3, <AWWayofTime:sigilOfTheBridge>);
+mods.thaumcraft.Research.addResearch("SIGILOFPHANTOMBRIDGE", "BLOODMAGIC", "terra 18, alienis 15, iter 12, vitreus 9, potentia 6, praecantatio 3", -4 as int, 6, 3, <AWWayofTime:sigilOfTheBridge>);
 game.setLocalization("tc.research_name.SIGILOFPHANTOMBRIDGE", "Sigil of Phantom Bridge");
 game.setLocalization("tc.research_text.SIGILOFPHANTOMBRIDGE", "[BM] Air Walker");
 mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "INFUSION", false);
@@ -736,7 +736,7 @@ mods.thaumcraft.Infusion.addRecipe("SIGILOFSIGHT", <AWWayofTime:divinationSigil>
 mods.thaumcraft.Research.addInfusionPage("SIGILOFSIGHT", <AWWayofTime:seerSigil>);
 
 // --- Ritual Diviner Tier 1
-mods.thaumcraft.Research.addResearch("RITUALDIVINER", "BLOODMAGIC", "aer 18, ignis 15, terra 12, aqua 9, perditio 6, ordo 3", -2, -8, 3, <AWWayofTime:itemRitualDiviner>);
+mods.thaumcraft.Research.addResearch("RITUALDIVINER", "BLOODMAGIC", "aer 18, ignis 15, terra 12, aqua 9, perditio 6, ordo 3", -2 as int, -8 as int, 3, <AWWayofTime:itemRitualDiviner>);
 game.setLocalization("tc.research_name.RITUALDIVINER", "Ritual Diviner");
 game.setLocalization("tc.research_text.RITUALDIVINER", "[BM] New Rituals");
 mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "INFUSION", false);
@@ -766,7 +766,7 @@ mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:itemRitualDivin
 mods.thaumcraft.Research.addInfusionPage("RITUALDIVINER", <AWWayofTime:itemRitualDiviner:2>);
 
 // --- Rune of the Orb
-mods.thaumcraft.Research.addResearch("RUNEOFTHEORB", "BLOODMAGIC", "potentia 15, victus 12, motus 9, lucrum 6, praecantatio 3", -6, -2, 3, <AWWayofTime:AlchemicalWizardrybloodRune:3>);
+mods.thaumcraft.Research.addResearch("RUNEOFTHEORB", "BLOODMAGIC", "potentia 15, victus 12, motus 9, lucrum 6, praecantatio 3", -6 as int, -2 as int, 3, <AWWayofTime:AlchemicalWizardrybloodRune:3>);
 game.setLocalization("tc.research_name.RUNEOFTHEORB", "Rune of the Orb");
 game.setLocalization("tc.research_text.RUNEOFTHEORB", "[BM] More Runes");
 mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "INFUSION", false);
@@ -781,7 +781,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNEOFTHEORB", <BloodArsenal:blood_stone:3>,
 mods.thaumcraft.Research.addInfusionPage("RUNEOFTHEORB", <AWWayofTime:AlchemicalWizardrybloodRune:3>);
 
 // --- Rune of Superior Capacity
-mods.thaumcraft.Research.addResearch("RUNEOFSUPERIORCAPACITY", "BLOODMAGIC", "potentia 18, aqua 15, cognitio 12, lucrum 9, praecantatio 6, alienis 3", -8, -2, 3, <AWWayofTime:AlchemicalWizardrybloodRune:4>);
+mods.thaumcraft.Research.addResearch("RUNEOFSUPERIORCAPACITY", "BLOODMAGIC", "potentia 18, aqua 15, cognitio 12, lucrum 9, praecantatio 6, alienis 3", -8 as int, -2 as int, 3, <AWWayofTime:AlchemicalWizardrybloodRune:4>);
 game.setLocalization("tc.research_name.RUNEOFSUPERIORCAPACITY", "Rune of Superior Capacity");
 game.setLocalization("tc.research_text.RUNEOFSUPERIORCAPACITY", "[BM] More Blood");
 mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "INFUSION", false);
@@ -798,7 +798,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNEOFSUPERIORCAPACITY", <BloodArsenal:blood
 mods.thaumcraft.Research.addInfusionPage("RUNEOFSUPERIORCAPACITY", <AWWayofTime:AlchemicalWizardrybloodRune:4>);
 
 // --- Rune of Acceleration
-mods.thaumcraft.Research.addResearch("RUNEOFACCELERATION", "BLOODMAGIC", "potentia 21, tempus 18, cognitio 15, aqua 12, motus 9, praecantatio 6, terra 3", -8, 0, 3, <AWWayofTime:AlchemicalWizardrybloodRune:5>);
+mods.thaumcraft.Research.addResearch("RUNEOFACCELERATION", "BLOODMAGIC", "potentia 21, tempus 18, cognitio 15, aqua 12, motus 9, praecantatio 6, terra 3", -8 as int, 0, 3, <AWWayofTime:AlchemicalWizardrybloodRune:5>);
 game.setLocalization("tc.research_name.RUNEOFACCELERATION", "Rune of Acceleration");
 game.setLocalization("tc.research_text.RUNEOFACCELERATION", "[BM] More Speed");
 mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "INFUSION", false);
@@ -813,7 +813,7 @@ mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_sto
 mods.thaumcraft.Research.addInfusionPage("RUNEOFACCELERATION", <AWWayofTime:AlchemicalWizardrybloodRune:5>);
 
 // --- Arcane Pedestal
-mods.thaumcraft.Research.addResearch("ARCANEPEDESTALANDPLINTH", "BLOODMAGIC", "ignis 15, terra 12, tenebrae 9, alienis 6, praecantatio 3", -4, -6, 3, <AWWayofTime:blockPedestal>);
+mods.thaumcraft.Research.addResearch("ARCANEPEDESTALANDPLINTH", "BLOODMAGIC", "ignis 15, terra 12, tenebrae 9, alienis 6, praecantatio 3", -4 as int, -6 as int, 3, <AWWayofTime:blockPedestal>);
 game.setLocalization("tc.research_name.ARCANEPEDESTALANDPLINTH", "Arcane Pedestal");
 game.setLocalization("tc.research_text.ARCANEPEDESTALANDPLINTH", "[BM] Let's summon some Demons");
 mods.thaumcraft.Research.addPrereq("ARCANEPEDESTALANDPLINTH", "INFUSION", false);
@@ -841,7 +841,7 @@ game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.4", "The 
 mods.thaumcraft.Warp.addToResearch("ARCANEPEDESTALANDPLINTH", 2);
 
 // --- Alchemic Calcinator
-mods.thaumcraft.Research.addResearch("ALCHEMICCALCINATOR", "BLOODMAGIC", "praecantatio 18, vitreus 15, terra 12, perditio 9, aqua 6, ignis 3", -4, -8, 3, <AWWayofTime:blockAlchemicCalcinator>);
+mods.thaumcraft.Research.addResearch("ALCHEMICCALCINATOR", "BLOODMAGIC", "praecantatio 18, vitreus 15, terra 12, perditio 9, aqua 6, ignis 3", -4 as int, -8 as int, 3, <AWWayofTime:blockAlchemicCalcinator>);
 game.setLocalization("tc.research_name.ALCHEMICCALCINATOR", "Alchemic Calcinator");
 game.setLocalization("tc.research_text.ALCHEMICCALCINATOR", "[BM] Brewing some magical things");
 mods.thaumcraft.Research.addPrereq("ALCHEMICCALCINATOR", "ARCANEPEDESTALANDPLINTH", false);
@@ -856,7 +856,7 @@ mods.thaumcraft.Research.addArcanePage("ALCHEMICCALCINATOR", <AWWayofTime:blockA
 mods.thaumcraft.Warp.addToResearch("ALCHEMICCALCINATOR", 3);
 
 // --- Alchemic Router
-mods.thaumcraft.Research.addResearch("ALCHEMICTOOLS", "BLOODMAGIC", "terra 15, praecantatio 12, instrumentum 9, potentia 6, aer 3", -4, -12, 3, <AWWayofTime:itemAttunedCrystal>);
+mods.thaumcraft.Research.addResearch("ALCHEMICTOOLS", "BLOODMAGIC", "terra 15, praecantatio 12, instrumentum 9, potentia 6, aer 3", -4 as int, -12 as int, 3, <AWWayofTime:itemAttunedCrystal>);
 game.setLocalization("tc.research_name.ALCHEMICTOOLS", "Alchemic Tools");
 game.setLocalization("tc.research_text.ALCHEMICTOOLS", "[BM] Let's link it");
 mods.thaumcraft.Research.addPrereq("ALCHEMICTOOLS", "ALCHEMICCALCINATOR", false);
@@ -888,7 +888,7 @@ mods.thaumcraft.Arcane.addShaped("ALCHEMICTOOLS", <AWWayofTime:itemTankSegmenter
 mods.thaumcraft.Research.addArcanePage("ALCHEMICTOOLS", <AWWayofTime:itemTankSegmenter>);
 
 // --- Bell Jar
-mods.thaumcraft.Research.addResearch("BELLJAR", "BLOODMAGIC", "vitreus 18, aer 15, terra 12, ordo 9, lucrum 6, arbor 3", -6, -12, 3, <AWWayofTime:blockCrystalBelljar>);
+mods.thaumcraft.Research.addResearch("BELLJAR", "BLOODMAGIC", "vitreus 18, aer 15, terra 12, ordo 9, lucrum 6, arbor 3", -6 as int, -12 as int, 3, <AWWayofTime:blockCrystalBelljar>);
 game.setLocalization("tc.research_name.BELLJAR", "Bell Jar");
 game.setLocalization("tc.research_text.BELLJAR", "[BM] Demon Lamps");
 mods.thaumcraft.Research.addPrereq("BELLJAR", "ALCHEMICCALCINATOR", false);
@@ -902,7 +902,7 @@ mods.thaumcraft.Arcane.addShaped("BELLJAR", <AWWayofTime:blockCrystalBelljar>, "
 mods.thaumcraft.Research.addArcanePage("BELLJAR", <AWWayofTime:blockCrystalBelljar>);
 
 // --- Alchemy Relay
-mods.thaumcraft.Research.addResearch("ALCHEMYRELAY", "BLOODMAGIC", "metallum 18, bestia 15, pannus 12, praecantatio 9, alienis 6, potentia 3", -2, -12, 3, <AWWayofTime:blockReagentConduit>);
+mods.thaumcraft.Research.addResearch("ALCHEMYRELAY", "BLOODMAGIC", "metallum 18, bestia 15, pannus 12, praecantatio 9, alienis 6, potentia 3", -2 as int, -12 as int, 3, <AWWayofTime:blockReagentConduit>);
 game.setLocalization("tc.research_name.ALCHEMYRELAY", " Alchemy Relay");
 game.setLocalization("tc.research_text.ALCHEMYRELAY", "[BM] More than one Calcinator");
 mods.thaumcraft.Research.addPrereq("ALCHEMYRELAY", "ALCHEMICCALCINATOR", false);
@@ -916,7 +916,7 @@ mods.thaumcraft.Arcane.addShaped("ALCHEMYRELAY", <AWWayofTime:blockReagentCondui
 mods.thaumcraft.Research.addArcanePage("ALCHEMYRELAY", <AWWayofTime:blockReagentConduit>);
 
 // --- Crystal Cluster
-mods.thaumcraft.Research.addResearch("CRYSTALCLUSTER", "BLOODMAGIC", "victus 21, spiritus 18, alienis 15, potentia 12, praecantatio 9, tenebrae 6, cognitio 3", -10, 0, 4, <AWWayofTime:blockCrystal>);
+mods.thaumcraft.Research.addResearch("CRYSTALCLUSTER", "BLOODMAGIC", "victus 21, spiritus 18, alienis 15, potentia 12, praecantatio 9, tenebrae 6, cognitio 3", -10 as int, 0, 4, <AWWayofTime:blockCrystal>);
 game.setLocalization("tc.research_name.CRYSTALCLUSTER", "Crystal CLuster");
 game.setLocalization("tc.research_text.CRYSTALCLUSTER", "[BM] Tier 6. Ready set go!");
 mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "INFUSION", false);
@@ -931,7 +931,7 @@ mods.thaumcraft.Research.addInfusionPage("CRYSTALCLUSTER", <AWWayofTime:blockCry
 mods.thaumcraft.Warp.addToResearch("CRYSTALCLUSTER", 5);
 
 // --- Ichorium Block
-mods.thaumcraft.Research.addResearch("ICHORIUMBLOCK", "BLOODMAGIC", "victus 21, fames 18, praecantatio 15, infernus 12, alienis 9, superbia 6, terra 3", -10, 2, 4, <gregtech:gt.blockmetal8:13>);
+mods.thaumcraft.Research.addResearch("ICHORIUMBLOCK", "BLOODMAGIC", "victus 21, fames 18, praecantatio 15, infernus 12, alienis 9, superbia 6, terra 3", -10 as int, 2, 4, <gregtech:gt.blockmetal8:13>);
 game.setLocalization("tc.research_name.ICHORIUMBLOCK", "Tier 6 Pillar");
 game.setLocalization("tc.research_text.ICHORIUMBLOCK", "[BM] The final Tier");
 mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "INFUSION", false);
@@ -946,7 +946,7 @@ mods.thaumcraft.Research.addInfusionPage("ICHORIUMBLOCK", <gregtech:gt.blockmeta
 mods.thaumcraft.Warp.addToResearch("ICHORIUMBLOCK", 3);
 
 // --- Glyph of Rigit Stability
-mods.thaumcraft.Research.addResearch("GLYPHSTONE", "BLOODMAGIC", "terra 21, superbia 18, ordo 15, cognitio 12, auram 9, praecantatio 6, alienis 3", 2, -10, 4, <AWWayofTime:blockStabilityGlyph>);
+mods.thaumcraft.Research.addResearch("GLYPHSTONE", "BLOODMAGIC", "terra 21, superbia 18, ordo 15, cognitio 12, auram 9, praecantatio 6, alienis 3", 2, -10 as int, 4, <AWWayofTime:blockStabilityGlyph>);
 game.setLocalization("tc.research_name.GLYPHSTONE", "Glyph Stone");
 game.setLocalization("tc.research_text.GLYPHSTONE", "[BM] Omega.... What?");
 mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "INFUSION", false);
@@ -982,7 +982,7 @@ mods.thaumcraft.Arcane.addShaped("GLYPHSTONE", <AWWayofTime:blockEnchantmentGlyp
 mods.thaumcraft.Research.addArcanePage("GLYPHSTONE", <AWWayofTime:blockEnchantmentGlyph:1>);
 
 // --- Key of Binding
-mods.thaumcraft.Research.addResearch("KEYOFBINDING", "BLOODMAGIC", "vitreus 15, lucrum 12, metallum 9, terra 6, praecantatio 3", 4, -2, 3, <AWWayofTime:itemKeyOfDiablo>);
+mods.thaumcraft.Research.addResearch("KEYOFBINDING", "BLOODMAGIC", "vitreus 15, lucrum 12, metallum 9, terra 6, praecantatio 3", 4, -2 as int, 3, <AWWayofTime:itemKeyOfDiablo>);
 game.setLocalization("tc.research_name.KEYOFBINDING", "Key of Binding");
 game.setLocalization("tc.research_text.KEYOFBINDING", "[BM] Binding all the Stuff");
 mods.thaumcraft.Research.addPrereq("KEYOFBINDING", "SACRIFICIALKNIFE", false);
@@ -996,7 +996,7 @@ mods.thaumcraft.Arcane.addShaped("KEYOFBINDING", <AWWayofTime:itemKeyOfDiablo>, 
 mods.thaumcraft.Research.addArcanePage("KEYOFBINDING", <AWWayofTime:itemKeyOfDiablo>);
 
 // --- Armor Inhibitor
-mods.thaumcraft.Research.addResearch("ARMORINHIBITOR", "BLOODMAGIC", "metallum 15, lucrum 12, spiritus 9, alienis 6, praecantatio 3", 4, -8, 3, <AWWayofTime:armourInhibitor>);
+mods.thaumcraft.Research.addResearch("ARMORINHIBITOR", "BLOODMAGIC", "metallum 15, lucrum 12, spiritus 9, alienis 6, praecantatio 3", 4, -8 as int, 3, <AWWayofTime:armourInhibitor>);
 game.setLocalization("tc.research_name.ARMORINHIBITOR", "Armor Inhibitor");
 game.setLocalization("tc.research_text.ARMORINHIBITOR", "[BM] Used to suppress the souls");
 mods.thaumcraft.Research.addPrereq("ARMORINHIBITOR", "SOULARMORFORGE", false);
@@ -1010,7 +1010,7 @@ mods.thaumcraft.Arcane.addShaped("ARMORINHIBITOR", <AWWayofTime:armourInhibitor>
 mods.thaumcraft.Research.addArcanePage("ARMORINHIBITOR", <AWWayofTime:armourInhibitor>);
 
 // --- Sigil of Hast
-mods.thaumcraft.Research.addResearch("SIGILOFHASTE", "BLOODMAGIC", "iter 21, motus 18, aer 15, potentia 12, praecantatio 9, alienis 6, cognitio 3", -2, 12, 4, <AWWayofTime:sigilOfHaste>);
+mods.thaumcraft.Research.addResearch("SIGILOFHASTE", "BLOODMAGIC", "iter 21, motus 18, aer 15, potentia 12, praecantatio 9, alienis 6, cognitio 3", -2 as int, 12, 4, <AWWayofTime:sigilOfHaste>);
 game.setLocalization("tc.research_name.SIGILOFHASTE", "Sigil of Haste");
 game.setLocalization("tc.research_text.SIGILOFHASTE", "[BM] You are on speed?");
 mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "INFUSION", false);
@@ -1040,7 +1040,7 @@ mods.thaumcraft.Research.addInfusionPage("SIGILOFWHIRLWIND", <AWWayofTime:sigilO
 mods.thaumcraft.Warp.addToResearch("SIGILOFWHIRLWIND", 4);
 
 // --- Sigil of Supression
-mods.thaumcraft.Research.addResearch("SIGILOFSUPRESSION", "BLOODMAGIC", "vacuos 21, auram 18, aqua 15, metallum 12, praecantatio 9, terra 6, motus 3", -2, 8, 4, <AWWayofTime:sigilOfSupression>);
+mods.thaumcraft.Research.addResearch("SIGILOFSUPRESSION", "BLOODMAGIC", "vacuos 21, auram 18, aqua 15, metallum 12, praecantatio 9, terra 6, motus 3", -2 as int, 8, 4, <AWWayofTime:sigilOfSupression>);
 game.setLocalization("tc.research_name.SIGILOFSUPRESSION", "Sigil of Supression");
 game.setLocalization("tc.research_text.SIGILOFSUPRESSION", "[BM] Walk just like Jesus");
 mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "INFUSION", false);
@@ -1071,7 +1071,7 @@ mods.thaumcraft.Research.addInfusionPage("SIGILOFENDERSEVERANCE", <AWWayofTime:s
 mods.thaumcraft.Warp.addToResearch("SIGILOFENDERSEVERANCE", 6);
 
 // --- Ender Sigil
-mods.thaumcraft.Research.addResearch("ENDERSIGIL", "BLOODMAGIC", "vacuos 24, alienis 21, cognitio 18, humanus 15, potentia 12, vinculum 9, limus 6, nebrisum 3", -2, 16, 4, <BloodArsenal:sigil_of_ender>);
+mods.thaumcraft.Research.addResearch("ENDERSIGIL", "BLOODMAGIC", "vacuos 24, alienis 21, cognitio 18, humanus 15, potentia 12, vinculum 9, limus 6, nebrisum 3", -2 as int, 16, 4, <BloodArsenal:sigil_of_ender>);
 game.setLocalization("tc.research_name.ENDERSIGIL", "Ender Sigil");
 game.setLocalization("tc.research_text.ENDERSIGIL", "[BA] Stick your hand into the End");
 mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "INFUSION", false);
@@ -1131,7 +1131,7 @@ mods.thaumcraft.Research.addInfusionPage("SIGILOFCOMPRESSION", <AWWayofTime:item
 mods.thaumcraft.Warp.addToResearch("SIGILOFCOMPRESSION", 2);
 
 // --- Energy Bazooka I
-mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAI", "BLOODMAGIC", "potentia 21, instrumentum 18, telum 15 , superbia 12, fames 9, nebrisum 6, ira 3", -12, 0, 4, <AWWayofTime:energyBazooka>);
+mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAI", "BLOODMAGIC", "potentia 21, instrumentum 18, telum 15 , superbia 12, fames 9, nebrisum 6, ira 3", -12 as int, 0, 4, <AWWayofTime:energyBazooka>);
 game.setLocalization("tc.research_name.ENERGYBAZOOKAI", "Energy Bazooka I");
 game.setLocalization("tc.research_text.ENERGYBAZOOKAI", "[BM] Boooom I");
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAI", "CRYSTALCLUSTER", false);
@@ -1148,7 +1148,7 @@ mods.thaumcraft.Research.addArcanePage("ENERGYBAZOOKAI", <AWWayofTime:energyBazo
 mods.thaumcraft.Warp.addToResearch("ENERGYBAZOOKAI", 5);
 
 // --- Energy Bazooka II
-mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAII", "BLOODMAGIC", "potentia 24, instrumentum 21, telum 18 , infernus 15, superbia 12, fames 9, nebrisum 6, ira 3", -14, 0, 4, <AWWayofTime:energyBazookaSecondTier>);
+mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAII", "BLOODMAGIC", "potentia 24, instrumentum 21, telum 18 , infernus 15, superbia 12, fames 9, nebrisum 6, ira 3", -14 as int, 0, 4, <AWWayofTime:energyBazookaSecondTier>);
 game.setLocalization("tc.research_name.ENERGYBAZOOKAII", "Energy Bazooka II");
 game.setLocalization("tc.research_text.ENERGYBAZOOKAII", "[BM] Boooom II");
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAII", "INFUSION", false);
@@ -1163,7 +1163,7 @@ mods.thaumcraft.Research.addInfusionPage("ENERGYBAZOOKAII", <AWWayofTime:energyB
 mods.thaumcraft.Warp.addToResearch("ENERGYBAZOOKAII", 10);
 
 // --- Energy Bazooka III
-mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAIII", "BLOODMAGIC", "potentia 27, instrumentum 24, telum 21 , terminus 18, infernus 15, superbia 12, fames 9, nebrisum 6, ira 3", -16, 0, 4, <AWWayofTime:energyBazookaThirdTier>);
+mods.thaumcraft.Research.addResearch("ENERGYBAZOOKAIII", "BLOODMAGIC", "potentia 27, instrumentum 24, telum 21 , terminus 18, infernus 15, superbia 12, fames 9, nebrisum 6, ira 3", -16 as int, 0, 4, <AWWayofTime:energyBazookaThirdTier>);
 game.setLocalization("tc.research_name.ENERGYBAZOOKAIII", "Energy Bazooka III");
 game.setLocalization("tc.research_text.ENERGYBAZOOKAIII", "[BM] Boooom III");
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAIII", "INFUSION", false);
@@ -1205,7 +1205,7 @@ mods.thaumcraft.Warp.addToResearch("ROD_blood_wood", 5);
 // --- Blood Infused Wodden Staff of Doom
 mods.thaumcraft.Research.orphanResearch("ROD_blood_wood_staff");
 mods.thaumcraft.Research.removeResearch("ROD_blood_wood_staff");
-mods.thaumcraft.Research.addResearch("RODBLOODWOODSTAFF", "FORBIDDEN", "victus 18, instrumentum 15, aqua 12, praecantatio 9, potentia 6, tenebrae 3", 7, -5, 3, <BloodArsenal:wand_cores:1>);
+mods.thaumcraft.Research.addResearch("RODBLOODWOODSTAFF", "FORBIDDEN", "victus 18, instrumentum 15, aqua 12, praecantatio 9, potentia 6, tenebrae 3", 7, -5 as int, 3, <BloodArsenal:wand_cores:1>);
 game.setLocalization("tc.research_name.RODBLOODWOODSTAFF", "Blood Infused Wood Staff Core");
 game.setLocalization("tc.research_text.RODBLOODWOODSTAFF", "Bringing Doom to the party");
 mods.thaumcraft.Research.addPrereq("RODBLOODWOODSTAFF", "ROD_blood_staff", false);

@@ -128,7 +128,7 @@ mods.forestry.Carpenter.addRecipe(20, <liquid:for.honey> * 1000,
 
 // --- Healing Frame
 recipes.remove(<ExtraBees:hiveFrame.clay>);
-mods.thaumcraft.Research.addResearch("HEALINGFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, victus 6", 7, -2, 4, <ExtraBees:hiveFrame.clay>);
+mods.thaumcraft.Research.addResearch("HEALINGFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, victus 6", 7,  -2 as int, 4, <ExtraBees:hiveFrame.clay>);
 game.setLocalization("tc.research_name.HEALINGFRAME", "Healing Frame");
 game.setLocalization("tc.research_text.HEALINGFRAME", "[EB] The Bees will never die ?");
 mods.thaumcraft.Research.addPrereq("HEALINGFRAME", "MB_EssenceLife", false);

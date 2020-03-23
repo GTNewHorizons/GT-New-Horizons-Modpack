@@ -1396,7 +1396,7 @@ mods.thaumcraft.Arcane.addShaped("PROVENFRAME", <Forestry:frameProven>, "ordo 15
 mods.thaumcraft.Research.addArcanePage("PROVENFRAME", <Forestry:frameProven>);
 
 // --- Proven Grafter
-mods.thaumcraft.Research.addResearch("PROVENGRAFTER", "MAGICBEES", "instrumentum 15, permutatio 12, metallum 9, arbor 6", -5, -3, 4, <Forestry:grafterProven>);
+mods.thaumcraft.Research.addResearch("PROVENGRAFTER", "MAGICBEES", "instrumentum 15, permutatio 12, metallum 9, arbor 6", -5 as int, -3 as int, 4, <Forestry:grafterProven>);
 game.setLocalization("tc.research_name.PROVENGRAFTER", "Proven Grafter");
 game.setLocalization("tc.research_text.PROVENGRAFTER", "[FR] Better than a Bronze Grafter");
 mods.thaumcraft.Research.addPrereq("PROVENGRAFTER", "MB_Scoop", false);

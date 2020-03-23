@@ -65,7 +65,7 @@ mods.thaumcraft.Warp.addToResearch("warptheory.something", 3);
 // --- Impure Tear
 mods.thaumcraft.Research.orphanResearch("warptheory.cleanserminor");
 mods.thaumcraft.Research.removeResearch("warptheory.cleanserminor");
-mods.thaumcraft.Research.addResearch("PURETEARMINOR", "WT_Category", "alienis 6, praecantatio 6, permutatio 4, sano 3, terra 2", -1, -2, 2, <WarpTheory:item.warptheory.cleanserminor>);
+mods.thaumcraft.Research.addResearch("PURETEARMINOR", "WT_Category", "alienis 6, praecantatio 6, permutatio 4, sano 3, terra 2", -1 as int, -2 as int, 2, <WarpTheory:item.warptheory.cleanserminor>);
 game.setLocalization("tc.research_name.PURETEARMINOR", "Impure Tear");
 game.setLocalization("tc.research_text.PURETEARMINOR", "Magical-ish Medicine");
 mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "ELDRITCHMINOR", false);
@@ -80,7 +80,7 @@ mods.thaumcraft.Research.addInfusionPage("PURETEARMINOR", <WarpTheory:item.warpt
 // --- Pure Tear
 mods.thaumcraft.Research.orphanResearch("warptheory.cleanser");
 mods.thaumcraft.Research.removeResearch("warptheory.cleanser");
-mods.thaumcraft.Research.addResearch("PURETEAR", "WT_Category", "alienis 12, praecantatio 12, permutatio 9, sano 6, terra 3", -4, -1, 3, <WarpTheory:item.warptheory.cleanser>);
+mods.thaumcraft.Research.addResearch("PURETEAR", "WT_Category", "alienis 12, praecantatio 12, permutatio 9, sano 6, terra 3", -4 as int, -1 as int, 3, <WarpTheory:item.warptheory.cleanser>);
 game.setLocalization("tc.research_name.PURETEAR", "Pure Tear");
 game.setLocalization("tc.research_text.PURETEAR", "Magical Medicine");
 mods.thaumcraft.Research.addPrereq("PURETEAR", "ELDRITCHMAJOR", false);
