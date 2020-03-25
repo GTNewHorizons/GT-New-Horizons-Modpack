@@ -126,6 +126,7 @@
 	<ToolTip ItemName="irontank:obsidianTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Blast Proof, not portable use a dolly"/>
 	<ToolTip ItemName="irontank:copperTank" ToolTip="Stores up to 27 Buckets of one Liquid §4Not portable use a dolly"/>
 	<ToolTip ItemName="irontank:silverTank" ToolTip="Stores up to 43 Buckets of one Liquid §4Not portable use a dolly"/>
+	<ToolTip ItemName="irontank:emeraldTank" ToolTip="Stores up to 96 Buckets of one Liquid §4Not portable use a dolly"/>
 	
 //Bags
 	<ToolTip ItemName="Backpack:backpack" ToolTip="4*9 Inventory - 36 Slots"/>
