@@ -228,52 +228,52 @@ recipes.addShaped(<irontank:diamondEmeraldUpgrade>, [
 
 
 // --- Copper Tank
-Assembler.addRecipe(<irontank:copperTank>, Tank, DoubleCopperPlate, <liquid:molten.glass> * 144, 100, 8);
+Assembler.addRecipe(<irontank:copperTank>, Tank, DoubleCopperPlate, <liquid:molten.glass> * 144, 300, 30);
 
 // --- Upgrade Glass to Copper Tank
-Assembler.addRecipe(<irontank:glassCopperUpgrade>, GlassPlate, DoubleCopperPlate, <liquid:molten.glass> * 72, 200, 16);
+Assembler.addRecipe(<irontank:glassCopperUpgrade>, GlassPlate, DoubleCopperPlate, <liquid:molten.glass> * 72, 300, 30);
 
 // --- Iron Tank
-Assembler.addRecipe(<irontank:ironTank>, Tank, DoubleIronPlate, <liquid:molten.glass> * 144, 150, 16);
+Assembler.addRecipe(<irontank:ironTank>, Tank, DoubleIronPlate, <liquid:molten.glass> * 144, 400, 30);
 
 // --- Upgrade Glass to Iron Tank
-Assembler.addRecipe(<irontank:glassIronUpgrade>, GlassPlate, DoubleIronPlate,  <liquid:molten.glass> * 72, 300, 30);
+Assembler.addRecipe(<irontank:glassIronUpgrade>, GlassPlate, DoubleIronPlate,  <liquid:molten.glass> * 72, 400, 30);
 
 // --- Upgrade Copper to Iron Tank
-Assembler.addRecipe(<irontank:copperIronUpgrade>, CopperPlate, IronPlate,  <liquid:molten.glass> * 72, 300, 30);
+Assembler.addRecipe(<irontank:copperIronUpgrade>, CopperPlate, IronPlate,  <liquid:molten.glass> * 72, 500, 30);
 
 // --- Steel Tank
-Assembler.addRecipe(<irontank:silverTank>, Tank, DoubleSteelPlate, <liquid:molten.glass> * 144, 200, 30);
+Assembler.addRecipe(<irontank:silverTank>, Tank, DoubleSteelPlate, <liquid:molten.glass> * 144, 500, 30);
 
 // --- Upgrade Copper to Steel Tank
-Assembler.addRecipe(<irontank:copperSilverUpgrade>, CopperPlate, SteelPlate, <liquid:molten.glass> * 72, 400, 30);
+Assembler.addRecipe(<irontank:copperSilverUpgrade>, CopperPlate, SteelPlate, <liquid:molten.glass> * 72, 600, 30);
 
 // --- Gold Tank
-Assembler.addRecipe(<irontank:goldTank>, Tank, DoubleGoldPlate, <liquid:molten.glass> * 144, 250, 64);
+Assembler.addRecipe(<irontank:goldTank>, Tank, DoubleGoldPlate, <liquid:molten.glass> * 144, 600, 30);
 
 // --- Upgrade Iron to Gold Tank
-Assembler.addRecipe(<irontank:ironGoldUpgrade>, IronPlate, GoldPlate, <liquid:molten.glass> * 72, 500, 64);
+Assembler.addRecipe(<irontank:ironGoldUpgrade>, IronPlate, GoldPlate, <liquid:molten.glass> * 72, 700, 30);
 
 // --- Upgrade Steel to Gold Tank
-Assembler.addRecipe(<irontank:silverGoldUpgrade>, SteelPlate, GoldPlate, <liquid:molten.glass> * 72, 500, 64);
+Assembler.addRecipe(<irontank:silverGoldUpgrade>, SteelPlate, GoldPlate, <liquid:molten.glass> * 72, 700,30);
 
 // --- Diamond Tank
-Assembler.addRecipe(<irontank:diamondTank>, Tank, DiamondPlate, <liquid:molten.glass> * 144, 300, 120);
+Assembler.addRecipe(<irontank:diamondTank>, Tank, DiamondPlate, <liquid:molten.glass> * 144, 800, 30);
 
 // --- Upgrade Steel to Diamond Tank
-Assembler.addRecipe(<irontank:silverDiamondUpgrade>, SteelPlate, DiamondPlate, <liquid:molten.glass> * 72, 600, 120);
+Assembler.addRecipe(<irontank:silverDiamondUpgrade>, SteelPlate, DiamondPlate, <liquid:molten.glass> * 72, 800, 30);
 
 // --- Obsidian Tank
-Assembler.addRecipe(<irontank:obsidianTank>, Tank, DenseObsidianPlate, <liquid:molten.glass> * 144, 400, 256);
+Assembler.addRecipe(<irontank:obsidianTank>, Tank, DenseObsidianPlate, <liquid:molten.glass> * 144, 900, 30);
 
 // --- Upgrade Diamond to Obsidian
-Assembler.addRecipe(<irontank:diamondObsidianUpgrade>, GlassPlate, DenseObsidianPlate, <liquid:molten.glass> * 72, 800, 256);
+Assembler.addRecipe(<irontank:diamondObsidianUpgrade>, GlassPlate, DenseObsidianPlate, <liquid:molten.glass> * 72, 900, 30);
 
 // --- Emerald Tank
-Assembler.addRecipe(<irontank:emeraldTank>, Tank, EmeraldPlate, <liquid:molten.glass> * 144, 500, 512);
+Assembler.addRecipe(<irontank:emeraldTank>, Tank, EmeraldPlate, <liquid:molten.glass> * 144, 1000, 30);
 
 // --- Upgrade Diamond to Emerald Tank
-Assembler.addRecipe(<irontank:diamondEmeraldUpgrade>, DiamondPlate, EmeraldPlate, <liquid:molten.glass> * 72, 1000, 512);
+Assembler.addRecipe(<irontank:diamondEmeraldUpgrade>, DiamondPlate, EmeraldPlate, <liquid:molten.glass> * 72, 1000, 30);
 
 
 
