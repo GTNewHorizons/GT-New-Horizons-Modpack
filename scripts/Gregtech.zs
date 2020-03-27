@@ -4,6 +4,9 @@
 
 // --- Imports --- 
 
+import minetweaker.item.IIngredient;
+import minetweaker.item.IItemStack;
+
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
@@ -1771,3 +1774,26 @@ comb.add(<gregtech:gt.comb:118>);
 oreDict.combUhv.add(<gregtech:gt.comb:118>);
 comb.add(<gregtech:gt.comb:119>);
 oreDict.combUev.add(<gregtech:gt.comb:119>);
+
+// --- Dyes conversion
+
+for GT_Dye, oreDye in {
+  <gregtech:gt.metaitem.02:32414> : <ore:dyeBlack>,
+  <gregtech:gt.metaitem.02:32415> : <ore:dyeRed>,
+  <gregtech:gt.metaitem.02:32416> : <ore:dyeGreen>,
+  <gregtech:gt.metaitem.02:32417> : <ore:dyeBrown>,
+  <gregtech:gt.metaitem.02:32418> : <ore:dyeBlue>,
+  <gregtech:gt.metaitem.02:32419> : <ore:dyePurple>,
+  <gregtech:gt.metaitem.02:32420> : <ore:dyeCyan>,
+  <gregtech:gt.metaitem.02:32421> : <ore:dyeLightGray>,
+  <gregtech:gt.metaitem.02:32422> : <ore:dyeGray>,
+  <gregtech:gt.metaitem.02:32423> : <ore:dyePink>,
+  <gregtech:gt.metaitem.02:32424> : <ore:dyeLime>,
+  <gregtech:gt.metaitem.02:32425> : <ore:dyeYellow>,
+  <gregtech:gt.metaitem.02:32426> : <ore:dyeLightBlue>,
+  <gregtech:gt.metaitem.02:32427> : <ore:dyeMagenta>,
+  <gregtech:gt.metaitem.02:32428> : <ore:dyeOrange>,
+  <gregtech:gt.metaitem.02:32429> : <ore:dyeWhite>
+} as IIngredient[IItemStack] {
+  recipes.addShapeless(GT_Dye, [oreDye]);
+}
