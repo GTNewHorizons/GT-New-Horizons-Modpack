@@ -5,6 +5,8 @@
 
 
 import mods.gregtech.Centrifuge;
+import mods.gregtech.Extractor;
+import mods.nei.NEI;
 
 
 
@@ -105,6 +107,8 @@ mods.thaumcraft.Arcane.removeRecipe(<ForbiddenMagic:WandCores:9>);
 // --- Alchemical Caps
 mods.thaumcraft.Infusion.removeRecipe(<ForbiddenMagic:WandCaps>);
 
+// --- Shadow Ink (Black Dye)
+recipes.removeShaped(<ForbiddenMagic:FMResource:1> * 2);
 
 
 // --- Add Recipes ---
@@ -507,3 +511,13 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_blood_staff");
 
 // --- Alchemical Caps
 mods.thaumcraft.Research.refreshResearchRecipe("CAP_alchemical");
+
+// --- Shadow Ink (Black Dye)
+recipes.addShapeless(<gregtech:gt.metaitem.02:32414> * 2, [<ForbiddenMagic:InkFlower>]);
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32414> * 2, <ForbiddenMagic:InkFlower>, 300, 2);
+
+
+// --- Hiding Stuff ---
+
+// --- Shadow Ink (Black Dye)
+NEI.hide(<ForbiddenMagic:FMResource:1>);
