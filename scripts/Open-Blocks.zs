@@ -633,7 +633,7 @@ Mixer.addRecipe(<OpenBlocks:tastyClay>, null, [<minecraft:clay_ball>, <minecraft
 
 
 // --- Golden Egg
-mods.thaumcraft.Research.addResearch("GOLDENEGG", "MAGICBEES", "alienis 15, bestia 12, victus 9, humanus 6", -4, 5, 4, <OpenBlocks:goldenegg>);
+mods.thaumcraft.Research.addResearch("GOLDENEGG", "MAGICBEES", "alienis 15, bestia 12, victus 9, humanus 6", -4 as int, 5, 4, <OpenBlocks:goldenegg>);
 game.setLocalization("tc.research_name.GOLDENEGG", "Golden Egg");
 game.setLocalization("tc.research_text.GOLDENEGG", "[OB] Make A MiniMe");
 mods.thaumcraft.Research.addPrereq("GOLDENEGG", "MB_DimensionalSingularity", false);
