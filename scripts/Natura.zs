@@ -8,7 +8,9 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.CuttingSaw;
+import mods.gregtech.Extractor;
 import mods.gregtech.Pulverizer;
+import mods.nei.NEI;
 
 
 // --- Variables ---
@@ -227,6 +229,8 @@ recipes.remove(<Natura:natura.bow.fusewood>);
 // --- Charcoal out of Nature Wood
 furnace.remove(<minecraft:coal:1>, <*>);
 
+// --- Blue Dye
+recipes.removeShapeless(<Natura:barleyFood:8>, [<Natura:Bluebells>]);
 
 
 // --- Adding Natura fruits to oredict
@@ -2161,4 +2165,17 @@ furnace.setFuel(<Natura:pressureplate.fusewood>, 75);
 
 
 
+// --- Dyes Recipes
+
+// --- Blue Dye
+recipes.addShapeless(<gregtech:gt.metaitem.02:32418>, [<Natura:Bluebells>]);
+
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32418> * 2, <Natura:Bluebells>, 300, 2);
+
+
+
+
+
 // --- Hiding Stuff ---
+
+NEI.hide(<Natura:barleyFood:8>);

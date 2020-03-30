@@ -7,10 +7,12 @@
 import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
+import mods.gregtech.Extractor;
 import mods.gregtech.FluidExtractor;
 import mods.gregtech.FluidCanner;
 import mods.gregtech.FluidSolidifier;
 import mods.gregtech.Pulverizer;
+import mods.nei.NEI;
 
 
 
@@ -192,6 +194,81 @@ Compressor.addRecipe(<BiomesOPlenty:bones:1>, <BiomesOPlenty:bones> * 2);
 // --- Large Bone Segment
 Compressor.addRecipe(<BiomesOPlenty:bones:2>, <BiomesOPlenty:bones:1> * 2);
 
+// --- Dyes Recipes ---
+
+// --- Cyan Dye
+Extractor.addRecipe(<minecraft:dye:6> * 2, <BiomesOPlenty:flowers:1>, 300, 2);
+
+// --- Black Dye
+NEI.hide(<BiomesOPlenty:misc:9>);
+recipes.removeShapeless(<BiomesOPlenty:misc:9>, [<BiomesOPlenty:flowers:2>]);
+recipes.addShapeless(<gregtech:gt.metaitem.02:32414>, [<BiomesOPlenty:flowers:2>]);
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32414> * 2, <BiomesOPlenty:flowers:2>, 300, 2);
+
+// --- Light Blue Dye
+Extractor.addRecipe(<minecraft:dye:12> * 2, <BiomesOPlenty:flowers:4>, 300, 2);
+Extractor.addRecipe(<minecraft:dye:12> * 2, <BiomesOPlenty:flowers2:7>, 300, 2);
+
+// --- Orange Dye
+Extractor.addRecipe(<minecraft:dye:14> * 2, <BiomesOPlenty:flowers:5>, 300, 2);
+Extractor.addRecipe(<minecraft:dye:14> * 2, <BiomesOPlenty:flowers2:2>, 300, 2);
+
+// --- Pink Dye
+Extractor.addRecipe(<minecraft:dye:9> * 2, <BiomesOPlenty:flowers:6>, 300, 2);
+Extractor.addRecipe(<minecraft:dye:9> * 2, <BiomesOPlenty:flowers2:0>, 300, 2);
+
+// --- Magenta Dye
+Extractor.addRecipe(<minecraft:dye:13> * 2, <BiomesOPlenty:flowers:7>, 300, 2);
+
+// --- Purple Dye
+Extractor.addRecipe(<minecraft:dye:5> * 2, <BiomesOPlenty:flowers:8>, 300, 2);
+Extractor.addRecipe(<minecraft:dye:5> * 2, <BiomesOPlenty:flowers2:3>, 300, 2);
+
+// --- White Dye
+NEI.hide(<BiomesOPlenty:misc:8>);
+recipes.removeShapeless(<BiomesOPlenty:misc:8>, [<BiomesOPlenty:flowers:9>]);
+recipes.addShapeless(<gregtech:gt.metaitem.02:32429>, [<BiomesOPlenty:flowers:9>]);
+recipes.removeShapeless(<BiomesOPlenty:misc:8>, [<BiomesOPlenty:flowers2:1>]);
+recipes.addShapeless(<gregtech:gt.metaitem.02:32429>, [<BiomesOPlenty:flowers2:1>]);
+
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32429> * 2, <BiomesOPlenty:flowers:9>, 300, 2);
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32429> * 2, <BiomesOPlenty:flowers2:1>, 300, 2);
+
+// --- Light Gray Dye
+Extractor.addRecipe(<minecraft:dye:7> * 2, <BiomesOPlenty:flowers:15>, 300, 2);
+
+// --- Yellow Dye
+Extractor.addRecipe(<minecraft:dye:11> * 2, <BiomesOPlenty:flowers2:4>, 300, 2);
+
+// --- Blue Dye
+NEI.hide(<BiomesOPlenty:misc:5>);
+recipes.removeShapeless(<BiomesOPlenty:misc:5>, [<BiomesOPlenty:flowers2:5>]);
+recipes.addShapeless(<gregtech:gt.metaitem.02:32418>, [<BiomesOPlenty:flowers2:5>]);
+recipes.removeShapeless(<BiomesOPlenty:misc:5>, [<BiomesOPlenty:mushrooms:2>]);
+recipes.addShapeless(<gregtech:gt.metaitem.02:32418>, [<BiomesOPlenty:mushrooms:2>]);
+
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32418> * 2, <BiomesOPlenty:flowers2:5>, 300, 2);
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32418> * 2, <BiomesOPlenty:mushrooms:2>, 300, 2);
+
+// --- Red Dye
+Extractor.addRecipe(<minecraft:dye:1> * 2, <BiomesOPlenty:flowers2:8>, 300, 2);
+
+// --- Green Dye
+NEI.hide(<BiomesOPlenty:misc:7>);
+recipes.removeShapeless(<BiomesOPlenty:misc:7>, [<BiomesOPlenty:moss>]);
+recipes.addShapeless(<gregtech:gt.metaitem.02:32416>, [<BiomesOPlenty:moss>]);
+
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32416> * 2, <BiomesOPlenty:moss>, 300, 2);
+
+// --- Brown Dye
+NEI.hide(<BiomesOPlenty:misc:6>);
+recipes.removeShapeless(<BiomesOPlenty:misc:6>, [<BiomesOPlenty:mushrooms:4>]);
+recipes.addShapeless(<gregtech:gt.metaitem.02:32417>, [<BiomesOPlenty:mushrooms:4>]);
+recipes.removeShapeless(<BiomesOPlenty:misc:6>, [<BiomesOPlenty:plants:7>]);
+recipes.addShapeless(<gregtech:gt.metaitem.02:32417>, [<BiomesOPlenty:plants:7>]);
+
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32417> * 2, <BiomesOPlenty:mushrooms:4>, 300, 2);
+Extractor.addRecipe(<gregtech:gt.metaitem.02:32417> * 2, <BiomesOPlenty:plants:7>, 300, 2);
 
 // --- Fluid Extractor Recipes ---
 
