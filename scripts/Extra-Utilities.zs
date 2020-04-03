@@ -1030,14 +1030,14 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 
 // --- Builder Wand
 recipes.addShaped(<ExtraUtilities:builderswand>, [
-[null, null, <ExtraUtilities:unstableingot>],
-[null, <ExtraUtilities:unstableingot>, null],
+[null, null, <ore:ingotUnstable>],
+[null, <ore:ingotUnstable>, null],
 [<RandomThings:ingredient:1>, null, null]]);
 
 // --- Super Builder Wand
 recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [
-[null, null, <ExtraUtilities:unstableingot:2>],
-[null, <ExtraUtilities:unstableingot:2>, null],
+[null, <ore:ingotUnstable>, <ore:ingotUnstable>],
+[null, <ore:ingotUnstable>, <ore:ingotUnstable>],
 [<RandomThings:ingredient:1>, null, null]]);
 
 // --- Precision Shears
@@ -1047,14 +1047,14 @@ recipes.addShaped(<ExtraUtilities:shears>, [
 
 // --- Etheric Sword
 recipes.addShaped(<ExtraUtilities:ethericsword>, [
-[null, <ExtraUtilities:unstableingot>, null],
-[null, <ExtraUtilities:unstableingot>, null],
+[null, <ore:ingotUnstable>, null],
+[null, <ore:ingotUnstable>, null],
 [null, <RandomThings:ingredient:1>, null]]);
 
 // --- Kikoku
 recipes.addShaped(<ExtraUtilities:lawSword>, [
-[null, <ExtraUtilities:unstableingot:2>, null],
-[null, <ExtraUtilities:unstableingot:2>, null],
+[null, <TConstruct:largeSwordBlade:314>, null],
+[null, <ore:ingotUnstable>, null],
 [null, <RandomThings:ingredient:1>, null]]);
 
 // --- Erosion Shovel

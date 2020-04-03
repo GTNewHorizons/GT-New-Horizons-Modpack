@@ -106,7 +106,7 @@ gtnh.quest25.desc=Your vision becomes more clear, you'll need bricks for your fi
 
 # Quest.26 - §2§lForming press v0.1
 gtnh.quest26.name=§2§lForming press v0.1
-gtnh.quest26.desc=As you may have noticed, you cannot turn clay into bricks directly. Well, to be fair, it wasn't a good recipe anyway. You'll probably end up with something bread-shaped. So in order to make bricks, you need a form. Get yourself a knife and a blank pattern, and cut a brick sized piece out. It's as easy as that.
+gtnh.quest26.desc=As you may have noticed, you cannot turn clay into bricks directly. Well, to be fair, it wasn't a good recipe anyway. You'll probably end up with something bread-shaped. So in order to make bricks, you need a form. Get yourself a knife (flint above a stick) and a blank pattern, and cut a brick sized piece out. It's as easy as that.
 
 # Quest.27 - Finally, some power
 gtnh.quest27.name=Finally, some power
@@ -162,7 +162,7 @@ gtnh.quest39.desc=While standard chests are good for your basic items and goods,
 
 # Quest.40 - §2§lYou shall proceed
 gtnh.quest40.name=§2§lYou shall proceed
-gtnh.quest40.desc=As you've gathered and crafted all materials and tools you need for your basic steam machinery, you may now proceed to the next tier. Keep in mind that you'll need mountains of resources in order to craft even the simplest things, so you probably should stock up on all ores in this tier. But that's up to you.
+gtnh.quest40.desc=As you've gathered and crafted all materials and tools you need for your basic steam machinery, you may now proceed to the next tier. Keep in mind that you'll need mountains of resources in order to craft even the simplest things, so you probably should stock up on all ores in this tier. But that's up to you.%n%n§5§5As special reward your get a Holo-Glasses to look inside your inventories.
 
 # Quest.41 - §2§lDon't burn your fingers!
 gtnh.quest41.name=§2§lDon't burn your fingers!
@@ -178,7 +178,7 @@ gtnh.quest43.desc=You find out that cotton is very useful, it can be used to mak
 
 # Quest.44 - §3§lWelcome to Tier 1
 gtnh.quest44.name=§3§lWelcome to Tier 1
-gtnh.quest44.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom.  Wooden pipes are fine for this.  Make sure you never run out of water - adding water to a hot boiler will cause it to explode!%n%nSteam will come out from the sides.  Remember, steam is hot!  It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper.
+gtnh.quest44.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom.  Wooden pipes are fine for this.  Make sure you never run out of water - adding water to a hot boiler will cause it to explode!%n%nSteam will come out from the sides.  Remember, steam is hot!  It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
 
 # Quest.45 - §6§lMultiblock tanks... Railcraft tanks
 gtnh.quest45.name=§6§lMultiblock tanks... Railcraft tanks
@@ -2198,7 +2198,7 @@ gtnh.quest548.desc=The first step is to distill your oil into light sulfuric fue
 
 # Quest.549 - §5§lLight fuel
 gtnh.quest549.name=§5§lLight fuel
-gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of light and heavy fuel.
+gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 305,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of light and heavy fuel.
 
 # Quest.550 - §5§lH like Hydrogen... rest of the alphabet is too complicated...
 gtnh.quest550.name=§5§lH like Hydrogen... rest of the alphabet is too complicated...
@@ -2210,7 +2210,7 @@ gtnh.quest551.desc=The second step is to distill your oil into heavy sulfuric fu
 
 # Quest.552 - §5§lHeavy fuel
 gtnh.quest552.name=§5§lHeavy fuel
-gtnh.quest552.desc=By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 200,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of heavy and light fuel.
+gtnh.quest552.desc=By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 240,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of heavy and light fuel.
 
 # Quest.553 - §6§lDiesel fuel
 gtnh.quest553.name=§6§lDiesel fuel
@@ -2234,7 +2234,7 @@ gtnh.quest557.desc=720,000 EU per cell. Yes, yes, this is very good! Make some c
 
 # Quest.558 - §3§lWhat can I put all these items in?
 gtnh.quest558.name=§3§lWhat can I put all these items in?
-gtnh.quest558.desc=After you make your first steel you're able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it's a bit bigger than a small chest. Later you can make it even larger. You can put one on your back and set it to automatically pick up stuff. %n%n§4Check out the "Backpacks" control configuration "Open Backpacks" and remap it to a new key. %n%n§4The maximum you can have in your inventory at once is 4.
+gtnh.quest558.desc=After you make your first steel you're able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it's a bit bigger than a small chest. Later you can make it even larger. You can put one on your back and set it to automatically pick up stuff. %n%n§4Check out the "Backpacks" control configuration "Open Backpacks" and remap it to a new key.%nThe key binding only works after the backpack is added to the back slot, which can be done using Shift+<Open Backpacks Key>.%n%n§4The maximum you can have in your inventory at once is 4.
 
 # Quest.559 - §6§lLow pressure boiler tank
 gtnh.quest559.name=§6§lLow pressure boiler tank
@@ -2798,7 +2798,7 @@ gtnh.quest698.desc=Not even two BBFs are fast enough...Can you figure out how to
 
 # Quest.699 - §6§lWhy one coke oven when you can have ten?
 gtnh.quest699.name=§6§lWhy one coke oven when you can have ten?
-gtnh.quest699.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.  You can use either faucets with restone clocking or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.%n%nUnlike Gregtech multiblocks, coke ovens must have 1 space separating each oven.%n%nSearch NEI for a more efficient way to make coke oven bricks.
+gtnh.quest699.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.  You can use either faucets with restone clocking or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.%n%nUnlike Gregtech multiblocks, coke ovens must have 1 space separating each oven.%n%nSearch NEI for a more efficient way to make coke oven bricks.%n%nUse a Steelwrench for tin item pipes to dismantle.
 
 # Quest.700 - How dark can you go?
 gtnh.quest700.name=How dark can you go?
@@ -3038,7 +3038,7 @@ gtnh.quest758.desc=Better machines need some better batteries. Let's make some M
 
 # Quest.759 - §6§lMolten Polyethylene
 gtnh.quest759.name=§6§lMolten Polyethylene
-gtnh.quest759.desc=Polyethylene is made out of ethylene in a chemical reactor.%nMolten Polyethylene cells carry 144L, perfect for 1 ingot or plate. %nIf you want precise amounts, you can use a Volumetric Flask once you electrolyze some Boron from Borax.
+gtnh.quest759.desc=Polyethylene is made out of ethylene in a chemical reactor.%nMolten Polyethylene cells carry 144L, perfect for 1 ingot or plate. %nIf you want precise amounts, you can use a Volumetric Flask once you electrolyze some Boron from Borax.%n%nNotice some leftovers? Try using the plunger, or if you have the materials, you can use 12 ethylene cells and 84 oxygen cells to make exactly 125 cells of polyethylene.
 
 # Quest.760 - §6§lClay Electrolyzing
 gtnh.quest760.name=§6§lClay Electrolyzing
@@ -3194,7 +3194,7 @@ gtnh.quest797.desc=The night vision goggles need advanced heat exchangers to wor
 
 # Quest.798 - Iron capped Greatwood Wand
 gtnh.quest798.name=Iron capped Greatwood Wand
-gtnh.quest798.desc=Making a gold capped greatwood wand requires 35 vis, but your old wand's limit is 25. So first create an iron or copper capped greatwood wand and then create a gold capped greatwood wand.%nMake sure you use NEI 'U' command on the wand caps to find the correct GT:NH recipe for the wand.
+gtnh.quest798.desc=Making a gold capped greatwood wand requires 30 vis, but your old wand's limit is 25. So first create an iron or copper capped greatwood wand reload it with 50 vis and then later on in the next quest create a gold capped greatwood wand.
 
 # Quest.799 - Don't try to dive with it
 gtnh.quest799.name=Don't try to dive with it
@@ -3250,7 +3250,7 @@ gtnh.quest811.desc=Each rocket needs a construction plan. You can craft the firs
 
 # Quest.812 - Tier 1 Heavy Duty Plates
 gtnh.quest812.name=Tier 1 Heavy Duty Plates
-gtnh.quest812.desc=Rockets require heavy duty plates for the main hull. Let's craft 36 of these plates out of compressed aluminium plates, compressed bronze plates and compressed steel plates.
+gtnh.quest812.desc=Rockets require heavy duty plates for the main hull. Let's craft 37 of these plates out of compressed aluminium plates, compressed bronze plates and compressed steel plates.
 
 # Quest.813 - Rocket Nose Cone
 gtnh.quest813.name=Rocket Nose Cone
@@ -5646,7 +5646,7 @@ gtnh.quest1410.desc=An IV mixer is required to mixe niobiumtitanium and vanadium
 
 # Quest.1411 - §9§lSome rare high tier metals
 gtnh.quest1411.name=§9§lSome rare high tier metals
-gtnh.quest1411.desc=Small piles of Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction with using nitric acid. You don't have the technology to process it right now but later on you need large amounts of them. You can start now to collect some dust and process it later.%n%n§4A chemical bath also extracts Platinum from Nickel ore.  Time to head back to the Twilight Forest!
+gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction with Chalcopyrite and Pentlandite using nitric acid. You don't have the technology to process them properly right now but later on you need large amounts of them. You can EBF Platinum now, but proper Platinum processing is EV, but you'll have to wait until IV to use the rest. Collecting a lot of it now might not be a great idea depending on how long that will be.%n%n§4A chemical bath also extracts Platinum from Nickel ore if you use Mercury.  Time to head back to the Twilight Forest!
 
 # Quest.1412 - §6§lAssembling Line
 gtnh.quest1412.name=§6§lAssembling Line
@@ -5902,7 +5902,7 @@ gtnh.quest1474.desc=Or at least play with drums?  If you have extra Meteoric Iro
 
 # Quest.1475 - §1§lCows are supposed to Moo!
 gtnh.quest1475.name=§1§lCows are supposed to Moo!
-gtnh.quest1475.desc=What the?  You noticed sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife. Craft a flint GregTech knife with a stick and a piece of flint (last NEI page) and I will give you an old iron one to use once it wears out.
+gtnh.quest1475.desc=What the?  You noticed sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife. Craft a flint GregTech knife with a stick and a piece of flint (hard to find on NEI page. Need to search a bit) and I will give you an old iron one to use once it wears out.
 
 # Quest.1476 - §2§lAll the finest cuts of meat
 gtnh.quest1476.name=§2§lAll the finest cuts of meat
@@ -5956,12 +5956,12 @@ gtnh.quest1487.desc=In the next step you cool your glowing Mashmallows in an HV 
 gtnh.quest1488.name=Dezil's Marshmallow
 gtnh.quest1488.desc=In the last step you need to infuse your Marshmallow with some epic food in the thaumcraft infusion altar. Before you can do it you need to unlock the research.%nWarp will be added.
 
-# Quest.1489 - §c§lNow you realy gonna hate this 1-4 in LuV
-gtnh.quest1489.name=§c§lNow you realy gonna hate this 1-4 in LuV
+# Quest.1489 - §c§lNow you really gonna hate this 1-4 in LuV
+gtnh.quest1489.name=§c§lNow you really gonna hate this 1-4 in LuV
 gtnh.quest1489.desc=Pumps, pistons, conveyor belts and robot arms are the most needed machine parts in LuV. Go and craft one of each with your new Assembly Line.
 
-# Quest.1490 - §c§lNow you realy gonna hate this 5 and 6 in LuV
-gtnh.quest1490.name=§c§lNow you realy gonna hate this 5 and 6 in LuV
+# Quest.1490 - §c§lNow you really gonna hate this 5 and 6 in LuV
+gtnh.quest1490.name=§c§lNow you really gonna hate this 5 and 6 in LuV
 gtnh.quest1490.desc=Some machines need emitters and sensors, like the analyzer or the circuit assembler.
 
 # Quest.1491 - §b§lHSS-G
@@ -5982,7 +5982,7 @@ gtnh.quest1494.desc=Time for a second blast furnace! %n%nYou can make ingots fas
 
 # Quest.1495 - §1§lAll alone in the night
 gtnh.quest1495.name=§1§lAll alone in the night
-gtnh.quest1495.desc=If you are playing single player survival, updates mean having to reload default quests. Use this block to do it for you without having to enter creative mode - you don't lose progress, but you'll have new quests to complete!%n%nSorry, no rewards, other than the satisfaction of knowing it's you versus the world.  
+gtnh.quest1495.desc=If you are playing single player survival, updates mean having to reload default quests. Use the Default Load Block to do it for you without having to enter creative mode - you don't lose progress, but you'll have new quests to complete! Use the items to craft it, then place it and right-click.%n%nSorry, no rewards, other than the satisfaction of knowing it's you versus the world.  
 
 # Quest.1496 - §2§lHow the heck do I find ores?
 gtnh.quest1496.name=§2§lHow the heck do I find ores?
@@ -6030,7 +6030,7 @@ gtnh.quest1506.desc=NEI has some really nice advanced features too.%n%nClick on 
 
 # Quest.1507 - §4§3§lMaking a list, checking it twice
 gtnh.quest1507.name=§4§3§lMaking a list, checking it twice
-gtnh.quest1507.desc=As your base grows, you're going to have a dozen different long term goals each with many steps. Build a clipboard to keep track of what you need to do.
+gtnh.quest1507.desc=As your base grows, you're going to have a dozen different long term goals each with many steps. Build a clipboard to keep track of what you need to do.%n%n§4Hint: You can put the clipboard on a wall using Shift-Rightclick. 
 
 # Quest.1508 - §2§lA better crafting table
 gtnh.quest1508.name=§2§lA better crafting table
@@ -6082,7 +6082,7 @@ gtnh.quest1519.desc=How about large steel fluid cells instead?  Each holds 8, an
 
 # Quest.1520 - §6§lLarge Aluminium Fluid Cells
 gtnh.quest1520.name=§6§lLarge Aluminium Fluid Cells
-gtnh.quest1520.desc=512 buckets in a stack not cutting it?  Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That's half a supertank!
+gtnh.quest1520.desc=512 buckets in a stack not cutting it?  Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That's half a supertank!%n%nIf you're trying to get water, unfortunately the larger cells don't really work well with the RC Water Tanks, try moving the water to one of the gregtech or gt++ tanks such as the ultra low voltage fluid tank or super tank first. You need to at least match the capacity of the cell with the tank for them to be able to fill/empty them, the same for hatches.
 
 # Quest.1521 - §9§lSeparating gems from the dust
 gtnh.quest1521.name=§9§lSeparating gems from the dust
@@ -6182,7 +6182,7 @@ gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mi
 
 # Quest.1545 - §6§lTime to ore drill!
 gtnh.quest1545.name=§6§lTime to ore drill!
-gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!%n%n§4Hint:%n§4If you miner need to dig deeper than 64 Blocks you need to add a input bus filled with pipes.
 
 # Quest.1546 - §2§lRare ores
 gtnh.quest1546.name=§2§lRare ores
@@ -6954,7 +6954,7 @@ gtnh.quest1737.desc=When breeding together crops for an output crop, try to get 
 
 # Quest.1738 - §2§lWhen all you have is a hammer...
 gtnh.quest1738.name=§2§lWhen all you have is a hammer...
-gtnh.quest1738.desc=...the whole world looks like a nail.  When looking for good tool materials, look for the generic tool in NEI and use R to find the recipe. Then use U on the source materials you have to find out their durability options. Tool parts are normally not in NEI, like the drill bit. So use NEI U on plates etc to figure out their recipes. %n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.
+gtnh.quest1738.desc=...the whole world looks like a nail.  When looking for good tool materials, look for the generic tool in NEI and use R to find the recipe. Then use U on the source materials you have to find out their durability options. Tool parts are normally not in NEI, like the drill bit. So use NEI U on plates etc to figure out their recipes. %n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.%n%n§4Tin items Pipes need a Steel Wrench to dismantle!!!
 
 # Quest.1739 - §9§lFarming a little easier
 gtnh.quest1739.name=§9§lFarming a little easier
@@ -7122,7 +7122,7 @@ gtnh.quest1779.desc=The Piston Boots are a bouncy pair of shoes for adventurers.
 
 # Quest.1780 - Olives Saplings
 gtnh.quest1780.name=Olives Saplings
-gtnh.quest1780.desc=Olive trees can't be find in the overworld so the best way would be to buy some with coins.
+gtnh.quest1780.desc=Olive trees can't be found in the overworld so the best way would be to buy some with coins.
 
 # Quest.1781 - Traveller's Gear
 gtnh.quest1781.name=Traveller's Gear
@@ -7158,11 +7158,11 @@ gtnh.quest1788.desc=No Description
 
 # Quest.1789 - §3§lFactory Iron Door
 gtnh.quest1789.name=§3§lFactory Iron Door
-gtnh.quest1789.desc=For your new Factory you need iron doors. Well the recipe is realy hard and need steel. %nYou can choose two more doors as reward if you like.
+gtnh.quest1789.desc=For your new Factory you need iron doors. Unfortunately, the recipe is really hard, needing steel.%nYou can choose two more iron doors as reward if you like.
 
 # Quest.1790 - §2§lWooden Door
 gtnh.quest1790.name=§2§lWooden Door
-gtnh.quest1790.desc=For your new House you need more wooden  doors. Well the recipe is realy hard and need iron/copper and a lot of wood. %nYou can choose two more doors as reward if you like.
+gtnh.quest1790.desc=For your new House you need more wooden  doors. Well the recipe is really hard and need iron/copper and a lot of wood. %nYou can choose two more doors as reward if you like.
 
 # Quest.1791 - §5§lOilsand or how you get heavy Oil
 gtnh.quest1791.name=§5§lOilsand or how you get heavy Oil
@@ -7338,7 +7338,7 @@ gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys
 
 # Quest.1834 - §1§lMushroom Biomes ? why there so many?
 gtnh.quest1834.name=§1§lMushroom Biomes ? why there so many?
-gtnh.quest1834.desc=GNTH pack is made for the rwg worldgen. If you run the vanilla biomes worlgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue this one. If you run a server put this inside your server.properties file.%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
+gtnh.quest1834.desc=GNTH pack is made for the RWG worldgen. If you run the vanilla biomes worlgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue this one. If you run a server put this inside your server.properties file.%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
 
 # Quest.1835 - §6§lTantalum Overworld
 gtnh.quest1835.name=§6§lTantalum Overworld
@@ -9380,6 +9380,10 @@ gtnh.quest2343.desc=A Quartz Sphere is a component used in the production of a C
 gtnh.quest2344.name=Seer Stone or Summon the Witches
 gtnh.quest2344.desc=A Seer Stone is a variation of a Crystal Ball, that allows witches to communicate with one another over great distances. It is mostly used by one witch to summon other members of their coven either to help out in a fight, or to help perform a ritual. The seer stone may also be used on another player to reveal if they are afflicted by a curse.%n%nTo summon a coven witch for aid, use the Seer Stone while held. Holding for longer summons more coven members.%n%nIf near a Witches' Cauldron, the summoned witches will circle it ready for a ritual.%n%nTo call the entire coven to perform a rite, start the rite normally while holding the Seer Stone.%n%nTo determine if another player is cursed, to find out if they have a coven or familiar, and how much time they can manifest for, use the Seer Stone on them when they are within 3 blocks distance. Sneak-using the stone will show the same information for the bearer of the Stone.%n%nA Seer Stone is created by infusing a Quartz Sphere with Obsidian and Happenstance Oil using a Rite of Infusion.
 
+# Quest.2345 - Iron Ore exchange
+gtnh.quest2345.name=Iron Ore exchange
+gtnh.quest2345.desc=You can exchange your Stack of GT Iron Ore for another Iron Type of Ores.
+
 # Quest.2346 - §9§8§7§6§5§3§lTame an Ocelot to get a Friend
 gtnh.quest2346.name=§9§8§7§6§5§3§lTame an Ocelot to get a Friend
 gtnh.quest2346.desc=Once you have the required materials, you will need to find an ocelot to tame.%n%nOcelots can be found in Jungle Biomes.%n%nIf you are having trouble finding an ocelot, you can always summon an ocelot using a spawn egg.%n%nYou can tame an ocelot by giving it a raw fish. So add the raw fish to your inventory and select the raw fish in your hotbar.%n%nJust like vanilla Minecraft, a tamed ocelot turns into a cat. The cat will repel creepers.%n%n§8§6§5§4TIP: Make sure you are in a large space when trying to tame the ocelot so that the ocelot has lots of room to move. If you are in a space that is too small, you will not be able to tame the ocelot.%nNext, while holding the raw fish, do not move. If you move, you will scare away the ocelot. If you are very still, the ocelot will eventually notice the fish in your hand and begin to walk over to you.
@@ -9703,6 +9707,54 @@ gtnh.quest2425.desc=You're almost there! To actually use the ritual, you need to
 # Quest.2426 - §6§lTantalum Nether
 gtnh.quest2426.name=§6§lTantalum Nether
 gtnh.quest2426.desc=Tantalum is used in the GT and Ender IO Capacitors and also a source for niobium. It is a cheap essentia source for Thaumcraft later on.%nYou will find Tantalite Mix at Y 20-30 in the Nether.
+
+# Quest.2427 - Gold Ore exchange
+gtnh.quest2427.name=Gold Ore exchange
+gtnh.quest2427.desc=You can exchange your Stack of GT Gold Ore for another Gold Type of Ores.
+
+# Quest.2428 - Coal Ore exchange
+gtnh.quest2428.name=Coal Ore exchange
+gtnh.quest2428.desc=You can exchange your Stack of GT Coal Ore for another Coal Type of Ores.
+
+# Quest.2429 - Lapis Ore exchange
+gtnh.quest2429.name=Lapis Ore exchange
+gtnh.quest2429.desc=You can exchange your Stack of GT Lapis Ore for another Lapis Type of Ores.
+
+# Quest.2430 - Diamond Ore exchange
+gtnh.quest2430.name=Diamond Ore exchange
+gtnh.quest2430.desc=You can exchange your Stack of GT Diamond Ore for another Diamond Type of Ores.
+
+# Quest.2431 - Redstone Ore exchange
+gtnh.quest2431.name=Redstone Ore exchange
+gtnh.quest2431.desc=You can exchange your Stack of GT Redstone Ore for another Redstone Type of Ores.
+
+# Quest.2432 - Netherquartz Ore exchange
+gtnh.quest2432.name=Netherquartz Ore exchange
+gtnh.quest2432.desc=You can exchange your Stack of GT Netherquartz Ore for another Netherquartz Type of Ores.
+
+# Quest.2433 - Copper Ore exchange
+gtnh.quest2433.name=Copper Ore exchange
+gtnh.quest2433.desc=You can exchange your Stack of GT Copper Ore for another Copper Type of Ores.
+
+# Quest.2434 - Tin Ore exchange
+gtnh.quest2434.name=Tin Ore exchange
+gtnh.quest2434.desc=You can exchange your Stack of GT Tin Ore for another Tin Type of Ores.
+
+# Quest.2435 - Uranium Ore exchange
+gtnh.quest2435.name=Uranium Ore exchange
+gtnh.quest2435.desc=You can exchange your Stack of GT Uranium Ore for another Uranium Type of Ores.
+
+# Quest.2436 - Lead Ore exchange
+gtnh.quest2436.name=Lead Ore exchange
+gtnh.quest2436.desc=You can exchange your Stack of GT Lead Ore for another Lead Type of Ores.
+
+# Quest.2437 - Seeing inside your Chest
+gtnh.quest2437.name=Seeing inside your Chest
+gtnh.quest2437.desc=With the Holo-glasses you are able to look into Chests, Barrels and Drawers like a Holographic inventory.
+
+# Quest.2438 - Holo Glasses
+gtnh.quest2438.name=Holo Glasses
+gtnh.quest2438.desc=What? Lost your Hologlasses already? Well here is a replacement.  Well sure it costs a few coins too, be carefull next time!
 
 ##################################Line##################################
 

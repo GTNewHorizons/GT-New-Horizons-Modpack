@@ -74,6 +74,7 @@ val EVBatBuffer = <gregtech:gt.blockmachines:194>;
 
 val Terminal = <appliedenergistics2:item.ItemMultiPart:380>;
 val CraftingTerminal = <appliedenergistics2:item.ItemMultiPart:360>;
+val ProcessingTerminal = <appliedenergistics2:item.ItemMultiPart:500>;
 val InterfaceTerminal = <appliedenergistics2:item.ItemMultiPart:480>;
 val PatternTerminal = <appliedenergistics2:item.ItemMultiPart:340>;
 val WirelessTerminal = <appliedenergistics2:item.ToolWirelessTerminal>;
@@ -130,6 +131,10 @@ val MSteelRod = <ore:stickSteelMagnetic>;
 val CertusQuartz = <ore:gemCertusQuartz>;
 val ALRod = <ore:stickAluminium>;
 val IronRod = <ore:stickIron>;
+
+val LuVMotor = <gregtech:gt.metaitem.01:32606>;
+val LuVConveyorbelt = <gregtech:gt.metaitem.01:32635>;
+val LuVRobotarm = <gregtech:gt.metaitem.01:32655>;
 
 
 
@@ -761,6 +766,12 @@ recipes.addShaped(CraftingTerminal, [
 [CertusScrew, SlabCTable, CertusScrew],
 [NQuartzPlate, DiamondCircuit, NQuartzPlate]]);
 
+// --- Processing Terminal
+recipes.addShaped(ProcessingTerminal, [
+[Screwdriver, CraftingTerminal, SHammer],
+[LuVConveyorbelt, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, LuVConveyorbelt],
+[LuVMotor, LuVRobotarm, LuVMotor]]);
+
 // --- Interface Terminal
 recipes.addShaped(InterfaceTerminal, [
 [Screwdriver, Terminal, SHammer],
@@ -805,6 +816,10 @@ recipes.addShaped(Pattern, [
   
 // --- Capacity Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:27>, [<appliedenergistics2:item.ItemMultiMaterial:25>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:1>]);
+
+// --- Pattern Capacity Card
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:54>, [<appliedenergistics2:item.ItemMultiMaterial:28>, <appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiPart:440>]);
+
 
 // --- Crafting Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:53>, [<appliedenergistics2:item.ItemMultiMaterial:25>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:35>, <ore:craftingWorkBench>]);

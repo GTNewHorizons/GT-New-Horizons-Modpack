@@ -122,8 +122,14 @@ mods.thaumcraft.Arcane.removeRecipe(<MagicBees:visAuraProvider>);
 // --- Thaumic Scoop
 mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.thaumiumScoop>);
 
+// --- Void Scoop
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.voidScoop>);
+
 // --- Thaumic Grafter
 mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.thaumiumGrafter>);
+
+// --- Void Grafter
+mods.thaumcraft.Arcane.removeRecipe(<MagicBees:item.voidGrafter>);
 
 // --- Jade Mood Dail
 recipes.remove(<MagicBees:moonDial>);
@@ -193,7 +199,7 @@ mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>)
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
 
 // --- Vis Apiary Booster
-mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -3, 7);
+mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES",  -3 as int, 7);
 mods.thaumcraft.Research.setRound("MB_VisAuraProvider", true);
 mods.thaumcraft.Research.addPrereq("MB_VisAuraProvider", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.setAspects("MB_VisAuraProvider", "lucrum 15, metallum 12, vitreus 12, ordo 9, motus 6, machina 3");
@@ -209,7 +215,7 @@ mods.thaumcraft.Arcane.addShaped("MB_VisAuraProvider", <MagicBees:visAuraProvide
 mods.thaumcraft.Research.addArcanePage("MB_VisAuraProvider", <MagicBees:visAuraProvider>);
 
 // --- Concentrated Compound
-mods.thaumcraft.Research.addResearch("CONCENTRATEDCOMPOUND", "MAGICBEES", "messis 15, sano 12, vitreus 9, perditio 6", 2, -3, 4, <MagicBees:miscResources:2>);
+mods.thaumcraft.Research.addResearch("CONCENTRATEDCOMPOUND", "MAGICBEES", "messis 15, sano 12, vitreus 9, perditio 6", 2, -3 as int, 4, <MagicBees:miscResources:2>);
 game.setLocalization("tc.research_name.CONCENTRATEDCOMPOUND", "Concentrated Compound");
 game.setLocalization("tc.research_text.CONCENTRATEDCOMPOUND", "[MB] Concentrated Compound.");
 mods.thaumcraft.Research.addPrereq("CONCENTRATEDCOMPOUND", "MB_Root", false);
@@ -282,7 +288,7 @@ mods.thaumcraft.Research.setAspects("MB_EssenceOblivion", "alienis 5, praecantat
 mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 3);
 
 // --- Magic Frame
-mods.thaumcraft.Research.moveResearch("MB_FrameMagic", "MAGICBEES", -4, 0);
+mods.thaumcraft.Research.moveResearch("MB_FrameMagic", "MAGICBEES", -4 as int, 0);
 mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "MB_Root", false);
 mods.thaumcraft.Research.setConcealed("MB_FrameMagic", true);
 mods.thaumcraft.Research.clearPages("MB_FrameMagic");
@@ -296,7 +302,7 @@ mods.thaumcraft.Research.setAspects("MB_FrameMagic", "ordo 15, terra 12, aer 9, 
 mods.thaumcraft.Research.setComplexity("MB_FrameMagic", 4);
 
 // --- Gentle Frame
-mods.thaumcraft.Research.addResearch("GENTLEFRAME", "MAGICBEES", "victus 15, instrumentum 15, aer 12, ignis 9, terra 6, aqua 3", -7, 2, 4, <MagicBees:frameGentle>);
+mods.thaumcraft.Research.addResearch("GENTLEFRAME", "MAGICBEES", "victus 15, instrumentum 15, aer 12, ignis 9, terra 6, aqua 3", -7 as int, 2, 4, <MagicBees:frameGentle>);
 game.setLocalization("tc.research_name.GENTLEFRAME", "Gentle Frame");
 game.setLocalization("tc.research_text.GENTLEFRAME", "[MB] Magic Living Frame");
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_FrameMagic", false);
@@ -311,7 +317,7 @@ mods.thaumcraft.Arcane.addShaped("GENTLEFRAME", <MagicBees:frameGentle>, "ordo 1
 mods.thaumcraft.Research.addArcanePage("GENTLEFRAME", <MagicBees:frameGentle>);
 
 // --- Resilient Frame
-mods.thaumcraft.Research.addResearch("RESILIENTFRAME", "MAGICBEES", "tutamen 15, pannus 15, aer 12, ignis 9, terra 6, aqua 3", -7, 1, 4, <MagicBees:frameResilient>);
+mods.thaumcraft.Research.addResearch("RESILIENTFRAME", "MAGICBEES", "tutamen 15, pannus 15, aer 12, ignis 9, terra 6, aqua 3", -7 as int, 1, 4, <MagicBees:frameResilient>);
 game.setLocalization("tc.research_name.RESILIENTFRAME", "Resilient Frame");
 game.setLocalization("tc.research_text.RESILIENTFRAME", "[MB] Magic Production Frame");
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_FrameMagic", false);
@@ -326,7 +332,7 @@ mods.thaumcraft.Arcane.addShaped("RESILIENTFRAME", <MagicBees:frameResilient>, "
 mods.thaumcraft.Research.addArcanePage("RESILIENTFRAME", <MagicBees:frameResilient>);
 
 // --- Necrotic Frame
-mods.thaumcraft.Research.addResearch("NECROTICFRAME", "MAGICBEES", "mortuus 15, fabrico 15, aer 12, ignis 9, terra 6, aqua 3", -7, 0, 4, <MagicBees:frameNecrotic>);
+mods.thaumcraft.Research.addResearch("NECROTICFRAME", "MAGICBEES", "mortuus 15, fabrico 15, aer 12, ignis 9, terra 6, aqua 3", -7 as int, 0, 4, <MagicBees:frameNecrotic>);
 game.setLocalization("tc.research_name.NECROTICFRAME", "Necrotic Frame");
 game.setLocalization("tc.research_text.NECROTICFRAME", "[MB] Magic Killing Frame");
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_FrameMagic", false);
@@ -341,7 +347,7 @@ mods.thaumcraft.Arcane.addShaped("NECROTICFRAME", <MagicBees:frameNecrotic>, "or
 mods.thaumcraft.Research.addArcanePage("NECROTICFRAME", <MagicBees:frameNecrotic>);
 
 // --- Metabolic Frame
-mods.thaumcraft.Research.addResearch("METABOLICFRAME", "MAGICBEES", "limus 15, potentia 15, aer 12, ignis 9, terra 6, aqua 3", -7, -1, 4, <MagicBees:frameMetabolic>);
+mods.thaumcraft.Research.addResearch("METABOLICFRAME", "MAGICBEES", "limus 15, potentia 15, aer 12, ignis 9, terra 6, aqua 3", -7 as int, -1 as int, 4, <MagicBees:frameMetabolic>);
 game.setLocalization("tc.research_name.METABOLICFRAME", "Metabolic Frame");
 game.setLocalization("tc.research_text.METABOLICFRAME", "[MB] Magic Drug Frame");
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_FrameMagic", false);
@@ -356,7 +362,7 @@ mods.thaumcraft.Arcane.addShaped("METABOLICFRAME", <MagicBees:frameMetabolic>, "
 mods.thaumcraft.Research.addArcanePage("METABOLICFRAME", <MagicBees:frameMetabolic>);
 
 // --- Temporal Frame
-mods.thaumcraft.Research.addResearch("TEMPORALFRAME", "MAGICBEES", "tempus 15, vacuos 15, aer 12, ignis 9, terra 6, aqua 3", -7, -2, 4, <MagicBees:frameTemporal>);
+mods.thaumcraft.Research.addResearch("TEMPORALFRAME", "MAGICBEES", "tempus 15, vacuos 15, aer 12, ignis 9, terra 6, aqua 3", -7 as int, -2 as int, 4, <MagicBees:frameTemporal>);
 game.setLocalization("tc.research_name.TEMPORALFRAME", "Temporal Frame");
 game.setLocalization("tc.research_text.TEMPORALFRAME", "[MB] Magic Time Frame");
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_FrameMagic", false);
@@ -371,7 +377,7 @@ mods.thaumcraft.Arcane.addShaped("TEMPORALFRAME", <MagicBees:frameTemporal>, "or
 mods.thaumcraft.Research.addArcanePage("TEMPORALFRAME", <MagicBees:frameTemporal>);
 
 // --- Oblivion Frame
-mods.thaumcraft.Research.addResearch("OBLIVIONFRAME", "MAGICBEES", "tutamen 15, pannus 15, aer 12, ignis 9, terra 6, aqua 3", -10, 0, 4, <MagicBees:frameOblivion>);
+mods.thaumcraft.Research.addResearch("OBLIVIONFRAME", "MAGICBEES", "tutamen 15, pannus 15, aer 12, ignis 9, terra 6, aqua 3", -10 as int, 0, 4, <MagicBees:frameOblivion>);
 game.setLocalization("tc.research_name.OBLIVIONFRAME", "Oblivion Frame");
 game.setLocalization("tc.research_text.OBLIVIONFRAME", "[MB] Magic Production Frame");
 mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "INFUSION", false);
@@ -399,7 +405,19 @@ mods.thaumcraft.Arcane.addShaped("MB_Scoop", <MagicBees:item.thaumiumScoop>, "or
 [<ore:craftingToolWireCutter>, <gregtech:gt.metaitem.01:23330>, <ore:craftingToolHardHammer>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Scoop", <MagicBees:item.thaumiumScoop>);
 mods.thaumcraft.Research.setAspects("MB_Scoop", "ordo 9, terra 6, aer 3");
-mods.thaumcraft.Research.setComplexity("MB_Scoop", 2);
+mods.thaumcraft.Research.setComplexity("MB_Scoop", 3);
+
+// --- Void Scoop
+mods.thaumcraft.Research.clearPages("MB_ScoopVoid");
+mods.thaumcraft.Research.addPage("MB_ScoopVoid", "tc.research_page.MB_ScoopVoid.1");
+mods.thaumcraft.Arcane.addShaped("MB_ScoopVoid", <MagicBees:item.voidScoop>, "ordo 20, terra 20, aer 20", [
+[<gregtech:gt.metaitem.01:23970>, <minecraft:wool:*>, <gregtech:gt.metaitem.01:23970>],
+[<gregtech:gt.metaitem.01:23970>, <gregtech:gt.metaitem.01:23970>, <gregtech:gt.metaitem.01:23970>],
+[<ore:craftingToolWireCutter>, <gregtech:gt.metaitem.01:23970>, <ore:craftingToolHardHammer>]]);
+mods.thaumcraft.Research.addArcanePage("MB_ScoopVoid", <MagicBees:item.voidScoop>);
+mods.thaumcraft.Research.setAspects("MB_ScoopVoid", "praecantatio 15, ordo 9, terra 6, aer 3");
+mods.thaumcraft.Research.setComplexity("MB_ScoopVoid", 3);
+mods.thaumcraft.Warp.addToResearch("MB_ScoopVoid", 3);
 
 // --- Thaumic Grafter
 mods.thaumcraft.Research.clearPages("MB_Grafter");
@@ -412,8 +430,20 @@ mods.thaumcraft.Research.addArcanePage("MB_Grafter", <MagicBees:item.thaumiumGra
 mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 12, terra 9, aer 6");
 mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
 
+// --- Void Grafter
+mods.thaumcraft.Research.clearPages("MB_GrafterVoid");
+mods.thaumcraft.Research.addPage("MB_GrafterVoid", "tc.research_page.MB_GrafterVoid.1");
+mods.thaumcraft.Arcane.addShaped("MB_GrafterVoid", <MagicBees:item.voidGrafter>, "ordo 30, terra 30, aer 30", [
+[null, <gregtech:gt.metaitem.01:23970>, null],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:23970>, null],
+[<gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:16>, <ore:craftingToolHardHammer>]]);
+mods.thaumcraft.Research.addArcanePage("MB_GrafterVoid", <MagicBees:item.voidGrafter>);
+mods.thaumcraft.Research.setAspects("MB_GrafterVoid", "praecantatio 15, ordo 12, terra 9, aer 6");
+mods.thaumcraft.Research.setComplexity("MB_GrafterVoid", 3);
+mods.thaumcraft.Warp.addToResearch("MB_GrafterVoid", 3);
+
 // --- Enchanted Earth
-mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -3, 2, <MagicBees:magicbees.enchantedEarth>);
+mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -3 as int, 2, <MagicBees:magicbees.enchantedEarth>);
 game.setLocalization("tc.research_name.ENCHANTEDEARTH", "Enchanted Earth");
 game.setLocalization("tc.research_text.ENCHANTEDEARTH", "[MC] Magical Dirt");
 mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "MB_EssenceLife", false);
@@ -545,8 +575,15 @@ mods.thaumcraft.Research.refreshResearchRecipe("MB_DimensionalSingularity");
 // --- Thaumic Scoop
 mods.thaumcraft.Research.refreshResearchRecipe("MB_Scoop");
 
+// --- Void Scoop
+mods.thaumcraft.Research.refreshResearchRecipe("MB_ScoopVoid");
+
 // --- Thaumic Grafter
 mods.thaumcraft.Research.refreshResearchRecipe("MB_Grafte");
+
+// --- Void Grafter
+mods.thaumcraft.Research.refreshResearchRecipe("MB_GrafterVoid");
+
 
 
 
