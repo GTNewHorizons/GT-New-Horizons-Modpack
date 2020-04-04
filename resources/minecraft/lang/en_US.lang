@@ -414,7 +414,7 @@ gtnh.quest102.desc=An absolutely mandatory machine to have. It will cut rods int
 
 # Quest.103 - §5§lGet ready for Tier 3
 gtnh.quest103.name=§5§lGet ready for Tier 3
-gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, eight is enough to unlock this quest. Probably the best source for aluminium is clay or hardened clay from canyons, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup. Check back in your Tier 0.5 quests for hints.%nOnce you have the dusts, you will need to do the EBF quest in Multiblock Goals to turn the dusts into ingots.%nAlso check the Armor and Jetpacks tab for new unlocks.
+gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, nine is enough to unlock this quest. Probably the best source for aluminium is clay or hardened clay from canyons, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup. Check back in your Tier 0.5 quests for hints.%nOnce you have the dusts, you will need to do the EBF quest in Multiblock Goals to turn the dusts into ingots.%nAlso check the Armor and Jetpacks tab for new unlocks.
 
 # Quest.104 - §5§lYour magic progression
 gtnh.quest104.name=§5§lYour magic progression
@@ -2946,7 +2946,7 @@ gtnh.quest735.desc=If you are lucky and find some brewing stands or familiar eno
 
 # Quest.736 - §6§lFermented Biomass
 gtnh.quest736.name=§6§lFermented Biomass
-gtnh.quest736.desc=With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.%nWhen you reach HV tier there's a more efficient way to process it - the distillation tower multiblock.
+gtnh.quest736.desc=With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.\nWhen you reach HV tier there\u0027s a more efficient way to process it - the distillation tower multiblock.
 
 # Quest.737 - Can u eat those? 
 gtnh.quest737.name=Can u eat those? 
@@ -9755,6 +9755,34 @@ gtnh.quest2437.desc=With the Holo-glasses you are able to look into Chests, Barr
 # Quest.2438 - Holo Glasses
 gtnh.quest2438.name=Holo Glasses
 gtnh.quest2438.desc=What? Lost your Hologlasses already? Well here is a replacement.  Well sure it costs a few coins too, be carefull next time!
+
+# Quest.2439 - Pumpkin Pie
+gtnh.quest2439.name=Pumpkin Pie
+gtnh.quest2439.desc=Pumpkin Pie is a traditional US cuisine dessert that is particularly popular for Halloween, Thanksgiving, and Christmas.%n1,5 Food Bars for just two Pumpkins and a three sugar.%nBon Appetite.%n
+
+# Quest.2440 - Time to kill (Sheep)
+gtnh.quest2440.name=Time to kill (Sheep)
+gtnh.quest2440.desc=Oh no not the poor sheeps. Fluffy and red I am so sad.
+
+# Quest.2441 - Time to kill (Cow)
+gtnh.quest2441.name=Time to kill (Cow)
+gtnh.quest2441.desc=I think I need a new leather coat. Let's slaughter a few cows.
+
+# Quest.2442 - Time to kill (Pig)
+gtnh.quest2442.name=Time to kill (Pig)
+gtnh.quest2442.desc=Mh turn on the grill. We need more meat.
+
+# Quest.2443 - Time to kill (Chicken)
+gtnh.quest2443.name=Time to kill (Chicken)
+gtnh.quest2443.desc=Scream doesn't help. You are going to be in the soup?
+
+# Quest.2444 - Time to kill (Aqua Creeper)
+gtnh.quest2444.name=Time to kill (Aqua Creeper)
+gtnh.quest2444.desc=Half fish half creeper. Swim for your life!!!
+
+# Quest.2445 - Time to kill (Squid)
+gtnh.quest2445.name=Time to kill (Squid)
+gtnh.quest2445.desc=Delicious squid. We're making Tom Yum seafood.
 
 ##################################Line##################################
 
