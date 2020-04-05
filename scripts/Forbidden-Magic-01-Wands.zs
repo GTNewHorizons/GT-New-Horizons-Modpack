@@ -74,7 +74,7 @@ mods.thaumcraft.Infusion.addRecipe("CAP_elementium", <ForbiddenMagic:WandCaps:6>
 
 
 // Journey
-mods.thaumcraft.Research.addResearch("JOURNEY", "FORBIDDEN", "iter 5, praecantatio 10, instrumentum 3", -3, 3, 8, <BiomesOPlenty:food:7>);
+mods.thaumcraft.Research.addResearch("JOURNEY", "FORBIDDEN", "iter 5, praecantatio 10, instrumentum 3", -3 as int, 3, 8, <BiomesOPlenty:food:7>);
 game.setLocalization("en_US", "tc.research_name.JOURNEY", "A long Journey");
 game.setLocalization("en_US", "tc.research_text.JOURNEY", "[FM] There must be more Magic!");
 mods.thaumcraft.Research.addPage("JOURNEY", "derp.research_page.JOURNEY");
@@ -85,7 +85,7 @@ mods.thaumcraft.Research.setStub("JOURNEY",true);
 mods.thaumcraft.Research.setAutoUnlock("JOURNEY",true);
 
 // Livingwood Wand Rod
-mods.thaumcraft.Research.addResearch("ROD_livingwood", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -1, 3, 8, <ForbiddenMagic:WandCores:7>);
+mods.thaumcraft.Research.addResearch("ROD_livingwood", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -1 as int, 3, 8, <ForbiddenMagic:WandCores:7>);
 game.setLocalization("en_US", "tc.research_name.ROD_livingwood", "Livingwood Rod");
 game.setLocalization("en_US", "tc.research_text.ROD_livingwood", "[FM] A living Wand Rod?");
 mods.thaumcraft.Research.addPage("ROD_livingwood", "derp.research_page.ROD_livingwood");
@@ -160,7 +160,7 @@ mods.thaumcraft.Research.addInfusionPage("CAP_elementium",capElementium);
 mods.thaumcraft.Research.setConcealed("CAP_elementium", true);
 
 // Vinteum 
-mods.thaumcraft.Research.addResearch("VINTEUM", "FORBIDDEN", "metallum 5, permutatio 10, praecantatio 3, lucrum 2", -4, 2, 8, <gregtech:gt.metaitem.01:8529>);
+mods.thaumcraft.Research.addResearch("VINTEUM", "FORBIDDEN", "metallum 5, permutatio 10, praecantatio 3, lucrum 2", -4 as int, 2, 8, <gregtech:gt.metaitem.01:8529>);
 game.setLocalization("en_US", "tc.research_name.VINTEUM", "Vinteum");
 game.setLocalization("en_US", "tc.research_text.VINTEUM", "[FM] Thaumium's smaller brother");
 mods.thaumcraft.Research.addPage("VINTEUM", "derp.research_page.VINTEUM");
@@ -173,7 +173,7 @@ mods.thaumcraft.Research.addPrereq("VINTEUM", "GT_ADVANCEDMETALLURGY", false);
 mods.thaumcraft.Warp.addToResearch("VINTEUM",1);
 
 // Vinteum Caps
-mods.thaumcraft.Research.addResearch("CAP_vinteum", "FORBIDDEN", "permutatio 5, praecantatio 10,lucrum 3,instrumentum 4, metallum 5", -5, 3, 8, capVinteum);
+mods.thaumcraft.Research.addResearch("CAP_vinteum", "FORBIDDEN", "permutatio 5, praecantatio 10,lucrum 3,instrumentum 4, metallum 5", -5 as int, 3, 8, capVinteum);
 game.setLocalization("en_US", "tc.research_name.CAP_vinteum", "Vinteum Caps");
 game.setLocalization("en_US", "tc.research_text.CAP_vinteum", "[FM] They're blue!");
 mods.thaumcraft.Research.addPage("CAP_vinteum", "derp.research_page.CAP_vinteum");
@@ -185,7 +185,7 @@ mods.thaumcraft.Research.addPrereq("CAP_vinteum", "CAP_thaumium", false);
 mods.thaumcraft.Warp.addToResearch("CAP_vinteum",3);
 
 // Witchwood Wand Rod
-mods.thaumcraft.Research.addResearch("ROD_witchwood", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -4, 0, 8, <ForbiddenMagic:WandCores:4>);
+mods.thaumcraft.Research.addResearch("ROD_witchwood", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -4 as int, 0, 8, <ForbiddenMagic:WandCores:4>);
 game.setLocalization("en_US", "tc.research_name.ROD_witchwood", "Witchwood Rod");
 game.setLocalization("en_US", "tc.research_text.ROD_witchwood", "[FM] That's witchcraft");
 mods.thaumcraft.Research.addPage("ROD_witchwood", "derp.research_page.ROD_witchwood");
@@ -198,7 +198,7 @@ mods.thaumcraft.Research.addPrereq("ROD_witchwood", "OVEN", false);
 mods.thaumcraft.Warp.addToResearch("ROD_witchwood",2);
 
 // Witchwood Staff Rod
-mods.thaumcraft.Research.addResearch("ROD_witchwood_staff", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -2, 0, 8, <ForbiddenMagic:WandCores:10>);
+mods.thaumcraft.Research.addResearch("ROD_witchwood_staff", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -2 as int, 0, 8, <ForbiddenMagic:WandCores:10>);
 game.setLocalization("en_US", "tc.research_name.ROD_witchwood_staff", "Witchwood Staff");
 game.setLocalization("en_US", "tc.research_text.ROD_witchwood_staff", "[FM] Without Circle Magic");
 mods.thaumcraft.Research.addPage("ROD_witchwood_staff", "derp.research_page.ROD_witchwood_staff");

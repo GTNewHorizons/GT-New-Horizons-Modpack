@@ -389,6 +389,75 @@
     </recipe>
   </recipeGroup>
 
+  <recipeGroup name="Endergy" >
+    <recipe name="Crude Steel" energyCost="5000" >
+      <input>
+        <itemStack oreDictionary="gravel" />
+        <itemStack oreDictionary="itemClay" />
+		<itemStack oreDictionary="cobblestone" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotCrudeSteel" number="1" exp="0.1" />
+      </output>
+    </recipe>
+    <recipe name="Crystalline Alloy" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary="ingotGold" />
+        <itemStack oreDictionary="itemPulsatingPowder" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotCrystallineAlloy" number="1" exp="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Melodic Alloy" energyCost="20000" >
+      <input>
+        <itemStack oreDictionary="ingotEndSteel" />
+        <itemStack oreDictionary="pearlEnderEye" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotMelodicAlloy" number="1" exp="1" />
+      </output>
+    </recipe>
+    <recipe name="Stellar Alloy" energyCost="20000" >
+      <input>
+        <itemStack oreDictionary="itemNetherStar" />
+        <itemStack oreDictionary="ingotMelodicAlloy" />
+		<itemStack oreDictionary="itemClay" number="4" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotStellarAlloy" number="2" />
+      </output>
+    </recipe>
+    <recipe name="Crystalline Pink Slime" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary="slimeballPink" number="2" />
+        <itemStack oreDictionary="itemPulsatingPowder" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotCrystallinePinkSlime" />
+      </output>
+    </recipe>
+    <recipe name="Energetic Silver" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary="ingotSilver" />
+        <itemStack oreDictionary="dustRedstone" />
+        <itemStack oreDictionary="dustGlowstone" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotEnergeticSilver" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Vivid Alloy" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary="ingotEnergeticSilver" number="1" />
+        <itemStack oreDictionary="pearlEnder" number="1" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotVividAlloy" number="1" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
   <vanillaFurnaceRecipes enabled="true" />
 
 </AlloySmelterRecipes>

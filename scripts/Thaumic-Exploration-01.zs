@@ -144,7 +144,7 @@ mods.thaumcraft.Research.addArcanePage("DiacountringsGTNH", <ThaumicExploration:
 // --- Seal Binding
 mods.thaumcraft.Research.orphanResearch("JARSEAL");
 mods.thaumcraft.Research.removeResearch("JARSEAL");
-mods.thaumcraft.Research.addResearch("JarsealGTNH", "TX", "vinculum 18, alienis 15, praecantatio 12, iter 9, terra 6, aqua 3", -7, -2, 3, <ThaumicExploration:jarSeal:1>);
+mods.thaumcraft.Research.addResearch("JarsealGTNH", "TX", "vinculum 18, alienis 15, praecantatio 12, iter 9, terra 6, aqua 3", -7 as int, -2 as int, 3, <ThaumicExploration:jarSeal:1>);
 mods.thaumcraft.Research.addPrereq("JarsealGTNH", "TALLOW", false);
 mods.thaumcraft.Research.addPrereq("JarsealGTNH", "JARLABEL", false);
 mods.thaumcraft.Research.setConcealed("JarsealGTNH", true);
@@ -285,7 +285,7 @@ mods.thaumcraft.Research.addCruciblePage("JarsealGTNH", <ThaumicExploration:jarS
 // --- Seal Binding
 mods.thaumcraft.Research.orphanResearch("FLOATCANDLE");
 mods.thaumcraft.Research.removeResearch("FLOATCANDLE");
-mods.thaumcraft.Research.addResearch("FloatingcandleGTNH", "TX", "aer 12, pannus 9, praecantatio 6, volatus 3", -7, -9, 2, <ThaumicExploration:floatCandle>);
+mods.thaumcraft.Research.addResearch("FloatingcandleGTNH", "TX", "aer 12, pannus 9, praecantatio 6, volatus 3", -7 as int, -9 as int, 2, <ThaumicExploration:floatCandle>);
 mods.thaumcraft.Research.addPrereq("FloatingcandleGTNH", "TXTALLOW", false);
 mods.thaumcraft.Research.setConcealed("FloatingcandleGTNH", true);
 game.setLocalization("tc.research_name.FloatingcandleGTNH", "Floating Candles");
@@ -391,7 +391,7 @@ mods.thaumcraft.Research.addArcanePage("FloatingcandleGTNH", <ThaumicExploration
 // --- Thaumic Repicator
 mods.thaumcraft.Research.orphanResearch("REPLICATOR");
 mods.thaumcraft.Research.removeResearch("REPLICATOR");
-mods.thaumcraft.Research.addResearch("ReplicatorGTNH", "TX", "lucrum 15, fabrico 12, machina 9, ordo 6, praecantatio 3", 4, -5, 3, <ThaumicExploration:replicator>);
+mods.thaumcraft.Research.addResearch("ReplicatorGTNH", "TX", "lucrum 15, fabrico 12, machina 9, ordo 6, praecantatio 3", 4, -5 as int, 3, <ThaumicExploration:replicator>);
 mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "DISTILESSENTIA", false);
 mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "TXDISTILESSENTIA", false);
@@ -410,7 +410,7 @@ mods.thaumcraft.Warp.addToResearch("ReplicatorGTNH", 2);
 // --- Oblivion Jar
 mods.thaumcraft.Research.orphanResearch("TRASHJAR");
 mods.thaumcraft.Research.removeResearch("TRASHJAR");
-mods.thaumcraft.Research.addResearch("TrashjarGTNH", "TX", "perditio 15, vacuos 12, fames 9, alienis 6, praecantatio 3", 5, -9, 3, <ThaumicExploration:trashJar>);
+mods.thaumcraft.Research.addResearch("TrashjarGTNH", "TX", "perditio 15, vacuos 12, fames 9, alienis 6, praecantatio 3", 5, -9 as int, 3, <ThaumicExploration:trashJar>);
 mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "TXJARVOID", false);
 mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "WARDEDARCANA", false);
@@ -429,7 +429,7 @@ mods.thaumcraft.Warp.addToResearch("TrashjarGTNH", 1);
 // --- Boots of The Metero
 mods.thaumcraft.Research.orphanResearch("METEORBOOTS");
 mods.thaumcraft.Research.removeResearch("METEORBOOTS");
-mods.thaumcraft.Research.addResearch("MeteorbootsGTNH", "TX", "iter 15, ignis 12, potentia 9, volatus 6, praecantatio 3", 2,-1, 3, <ThaumicExploration:bootsMeteor>);
+mods.thaumcraft.Research.addResearch("MeteorbootsGTNH", "TX", "iter 15, ignis 12, potentia 9, volatus 6, praecantatio 3", 2,-1 as int, 3, <ThaumicExploration:bootsMeteor>);
 mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "TXBOOTSTRAVELLER", false);
 mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "INFUSION", false);
@@ -445,7 +445,7 @@ mods.thaumcraft.Research.addInfusionPage("MeteorbootsGTNH", <ThaumicExploration:
 // --- Boots of The Comet
 mods.thaumcraft.Research.orphanResearch("COMETBOOTS");
 mods.thaumcraft.Research.removeResearch("COMETBOOTS");
-mods.thaumcraft.Research.addResearch("CometsbootsGTNH", "TX", "iter 15, aqua 12, gelum 9, motus 6, praecantatio 3", 5,-3, 3, <ThaumicExploration:bootsComet>);
+mods.thaumcraft.Research.addResearch("CometsbootsGTNH", "TX", "iter 15, aqua 12, gelum 9, motus 6, praecantatio 3", 5,-3 as int, 3, <ThaumicExploration:bootsComet>);
 mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "TXBOOTSTRAVELLER", false);
 mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "FOCUSFROST", false);
 mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "INFUSION", false);
@@ -461,7 +461,7 @@ mods.thaumcraft.Research.addInfusionPage("CometsbootsGTNH", <ThaumicExploration:
 // --- Soul Brazier
 mods.thaumcraft.Research.orphanResearch("SOULBRAZIER");
 mods.thaumcraft.Research.removeResearch("SOULBRAZIER");
-mods.thaumcraft.Research.addResearch("SoulbraizerGTNH", "TX", "auram 15, alienis 12, tenebrae 9, mortuus 6, praecantatio 3", -6, -10, 4, <ThaumicExploration:soulBrazier>);
+mods.thaumcraft.Research.addResearch("SoulbraizerGTNH", "TX", "auram 15, alienis 12, tenebrae 9, mortuus 6, praecantatio 3", -6 as int, -10 as int, 4, <ThaumicExploration:soulBrazier>);
 mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "TXTALLOW", false);
 mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "VOIDMETAL", false);
@@ -479,7 +479,7 @@ mods.thaumcraft.Research.addInfusionPage("SoulbraizerGTNH", <ThaumicExploration:
 // --- Ever Full Urn
 mods.thaumcraft.Research.orphanResearch("URN");
 mods.thaumcraft.Research.removeResearch("URN");
-mods.thaumcraft.Research.addResearch("UrnGTNH", "TX", "aqua 15, praecantatio 12, vacuos 9, alienis 6, lucrum 3", 3,-10, 4, <ThaumicExploration:everfullUrn>);
+mods.thaumcraft.Research.addResearch("UrnGTNH", "TX", "aqua 15, praecantatio 12, vacuos 9, alienis 6, lucrum 3", 3,-10 as int, 4, <ThaumicExploration:everfullUrn>);
 mods.thaumcraft.Research.addPrereq("UrnGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("UrnGTNH", "ARCANEEAR", false);
 mods.thaumcraft.Research.setConcealed("UrnGTNH", true);
@@ -495,21 +495,21 @@ mods.thaumcraft.Research.addInfusionPage("UrnGTNH", <ThaumicExploration:everfull
 // --- Ever Burn Urn
 mods.thaumcraft.Research.orphanResearch("BURN");
 mods.thaumcraft.Research.removeResearch("BURN");
-mods.thaumcraft.Research.addResearch("BurnGTNH", "TX", "ignis 15, praecantatio 12, vacuos 9, alienis 6, lucrum 3", 4, -11, 4, <ThaumicExploration:everburnUrn>);
+mods.thaumcraft.Research.addResearch("BurnGTNH", "TX", "ignis 15, praecantatio 12, vacuos 9, alienis 6, lucrum 3", 4, -11 as int, 4, <ThaumicExploration:everburnUrn>);
 mods.thaumcraft.Research.addPrereq("BurnGTNH", "UrnGTNH", false);
 mods.thaumcraft.Research.setConcealed("BurnGTNH", true);
 game.setLocalization("tc.research_name.BurnGTNH", "Everburn Urn");
 game.setLocalization("tc.research_text.BurnGTNH", "Why did I make it out of fire??");
 mods.thaumcraft.Research.addPage("BurnGTNH", "te.text.BURN.1");
 mods.thaumcraft.Infusion.addRecipe("BurnGTNH", <minecraft:flower_pot>,
-[<minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <minecraft:brick>, <minecraft:lava_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:lava_bucket>, <minecraft:brick>], 
+[<minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <gregtech:gt.blockcasings5:3>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.blockcasings5:3>, <minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <minecraft:brick>, <minecraft:lava_bucket>, <gregtech:gt.blockcasings5:3>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.blockcasings5:3>, <minecraft:lava_bucket>, <minecraft:brick>], 
 "ignis 64, praecantatio 48, vacuos 32, alienis 32, lucrum 16", <ThaumicExploration:everburnUrn>, 9);
 mods.thaumcraft.Research.addInfusionPage("BurnGTNH", <ThaumicExploration:everburnUrn>);
 
 // --- Sojourner Cap
 mods.thaumcraft.Research.orphanResearch("CAP_SOJOURNER");
 mods.thaumcraft.Research.removeResearch("CAP_SOJOURNER");
-mods.thaumcraft.Research.addResearch("CAP_SOJOURNER", "TX", "auram 15, permutatio 12, potentia 9, lucrum 6, instrumentum 3", -5, -8, 3, <ThaumicExploration:sojournerCapUncharged>);
+mods.thaumcraft.Research.addResearch("CAP_SOJOURNER", "TX", "auram 15, permutatio 12, potentia 9, lucrum 6, instrumentum 3", -5 as int, -8 as int, 3, <ThaumicExploration:sojournerCapUncharged>);
 mods.thaumcraft.Research.addPrereq("CAP_SOJOURNER", "TXCAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CAP_SOJOURNER", "WANDPED", false);
 mods.thaumcraft.Research.setConcealed("CAP_SOJOURNER", true);
@@ -529,7 +529,7 @@ mods.thaumcraft.Research.addInfusionPage("CAP_SOJOURNER", <ThaumicExploration:so
 // --- Mechanist Cap
 mods.thaumcraft.Research.orphanResearch("CAP_MECHANIST");
 mods.thaumcraft.Research.removeResearch("CAP_MECHANIST");
-mods.thaumcraft.Research.addResearch("CAP_MECHANIST", "TX", "auram 15, machina 12, potentia 9, lucrum 6, instrumentum 3",  -9, -6, 3, <ThaumicExploration:mechanistCapUncharged>);
+mods.thaumcraft.Research.addResearch("CAP_MECHANIST", "TX", "auram 15, machina 12, potentia 9, lucrum 6, instrumentum 3",  -9 as int, -6 as int, 3, <ThaumicExploration:mechanistCapUncharged>);
 mods.thaumcraft.Research.addPrereq("CAP_MECHANIST", "TXCAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CAP_MECHANIST", "NODETAPPER2", false);
 mods.thaumcraft.Research.setConcealed("CAP_MECHANIST", true);
@@ -549,7 +549,7 @@ mods.thaumcraft.Research.addInfusionPage("CAP_MECHANIST", <ThaumicExploration:me
 // --- Thaumostatic Stabilizer
 mods.thaumcraft.Research.orphanResearch("STABILIZERBELT");
 mods.thaumcraft.Research.removeResearch("STABILIZERBELT");
-mods.thaumcraft.Research.addResearch("StabilizerbeltGTNH", "TX", "ordo 18, terra 15, iter 12, superbia 9, tutamen 6, praecantatio 3",  1, -10, 4, <ThaumicExploration:stabilizerBelt>);
+mods.thaumcraft.Research.addResearch("StabilizerbeltGTNH", "TX", "ordo 18, terra 15, iter 12, superbia 9, tutamen 6, praecantatio 3",  1, -10 as int, 4, <ThaumicExploration:stabilizerBelt>);
 mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "TXHOVERHARNESS", false);
 mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.setConcealed("StabilizerbeltGTNH", true);
@@ -579,7 +579,7 @@ mods.thaumcraft.Warp.addToResearch("ENCHDISARM", 1);
 // --- Flesh Purification
 mods.thaumcraft.Research.orphanResearch("FLESHCURE");
 mods.thaumcraft.Research.removeResearch("FLESHCURE");
-mods.thaumcraft.Research.addResearch("FleshcureGTNH", "TX", "pannus 15, tutamen 12, corpus 9, permutatio 6, alienis 3", -4, -10, 2, <minecraft:rotten_flesh>);
+mods.thaumcraft.Research.addResearch("FleshcureGTNH", "TX", "pannus 15, tutamen 12, corpus 9, permutatio 6, alienis 3", -4 as int, -10 as int, 2, <minecraft:rotten_flesh>);
 mods.thaumcraft.Research.addPrereq("FleshcureGTNH", "TXTALLOW", false);
 mods.thaumcraft.Research.setConcealed("FleshcureGTNH", true);
 game.setLocalization("tc.research_name.FleshcureGTNH", "Flesh Purification");
@@ -591,7 +591,7 @@ mods.thaumcraft.Research.addCruciblePage("FleshcureGTNH", <minecraft:leather>);
 // --- Cured Zombi Brain
 mods.thaumcraft.Research.orphanResearch("BRAINCURE");
 mods.thaumcraft.Research.removeResearch("BRAINCURE");
-mods.thaumcraft.Research.addResearch("BraincureGTNH", "TX", "ordo 18, cognitio 15, humanus 12, exanimis 9, alienis 6, permutatio 3",  -2, -8, 4, <ThaumicExploration:pureZombieBrain>);
+mods.thaumcraft.Research.addResearch("BraincureGTNH", "TX", "ordo 18, cognitio 15, humanus 12, exanimis 9, alienis 6, permutatio 3",  -2 as int, -8 as int, 4, <ThaumicExploration:pureZombieBrain>);
 mods.thaumcraft.Research.addPrereq("BraincureGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("BraincureGTNH", "JARBRAIN", false);
 mods.thaumcraft.Research.addPrereq("BraincureGTNH", "FleshcureGTNH", false);
@@ -607,7 +607,7 @@ mods.thaumcraft.Research.addInfusionPage("BraincureGTNH", <ThaumicExploration:pu
 // --- Talisman of Nourishment
 mods.thaumcraft.Research.orphanResearch("TALISMANFOOD");
 mods.thaumcraft.Research.removeResearch("TALISMANFOOD");
-mods.thaumcraft.Research.addResearch("TalismanfoodtGTNH", "TX", "fames 18, pannus 15, messis 12, sano 9, permutatio 6, ordo 3", -1, -11, 4, <ThaumicExploration:talismanFood>);
+mods.thaumcraft.Research.addResearch("TalismanfoodtGTNH", "TX", "fames 18, pannus 15, messis 12, sano 9, permutatio 6, ordo 3", -1 as int, -11 as int, 4, <ThaumicExploration:talismanFood>);
 mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "FleshcureGTNH", false);
 mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.setConcealed("TalismanfoodtGTNH", true);
@@ -627,7 +627,7 @@ mods.thaumcraft.Warp.addToResearch("THINKTANK", 2);
 // --- Talsiman of the Dreamcatcher
 mods.thaumcraft.Research.orphanResearch("DREAMCATCHER");
 mods.thaumcraft.Research.removeResearch("DREAMCATCHER");
-mods.thaumcraft.Research.addResearch("DreamcatcherGTNH", "TX", "vitium 15, cognitio 12, instrumentum 9, metallum 6, praecantatio 3", -7, 2, 3, <ThaumicExploration:charmNoTaint>);
+mods.thaumcraft.Research.addResearch("DreamcatcherGTNH", "TX", "vitium 15, cognitio 12, instrumentum 9, metallum 6, praecantatio 3", -7 as int, 2, 3, <ThaumicExploration:charmNoTaint>);
 mods.thaumcraft.Research.addPrereq("DreamcatcherGTNH", "TAINTBASICS", false);
 mods.thaumcraft.Research.setConcealed("DreamcatcherGTNH", true);
 game.setLocalization("tc.research_name.DreamcatcherGTNH", "Wispy Dreamcatcher");
@@ -642,7 +642,7 @@ mods.thaumcraft.Research.addArcanePage("DreamcatcherGTNH", <ThaumicExploration:c
 // --- Crucible of Souls
 mods.thaumcraft.Research.orphanResearch("CRUCSOULS");
 mods.thaumcraft.Research.removeResearch("CRUCSOULS");
-mods.thaumcraft.Research.addResearch("CrucsoulGTNH", "TX", "spiritus 18, mortuus 15, fames 12, exanimis 9, telum 6, alienis 3", 5, -7, 4, <ThaumicExploration:crucibleSouls>);
+mods.thaumcraft.Research.addResearch("CrucsoulGTNH", "TX", "spiritus 18, mortuus 15, fames 12, exanimis 9, telum 6, alienis 3", 5, -7 as int, 4, <ThaumicExploration:crucibleSouls>);
 mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "TXDISTILESSENTIA", false);
 mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "BraincureGTNH", true);
 mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "TXINFUSION", false);
@@ -666,7 +666,7 @@ mods.thaumcraft.Warp.addToResearch("TENTACLERING", 2);
 // --- Transmutative Rod
 mods.thaumcraft.Research.orphanResearch("ROD_TRANSMUTATION");
 mods.thaumcraft.Research.removeResearch("ROD_TRANSMUTATION");
-mods.thaumcraft.Research.addResearch("ROD_TRANSMUTATION", "TX", "permutatio 15, instrumentum 12, praecantatio 9, alienis 6, terra 3", -1, -1, 4, <ThaumicExploration:transmutationCore>);
+mods.thaumcraft.Research.addResearch("ROD_TRANSMUTATION", "TX", "permutatio 15, instrumentum 12, praecantatio 9, alienis 6, terra 3", -1 as int, -1 as int, 4, <ThaumicExploration:transmutationCore>);
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXROD_greatwood", false);
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXINFUSION", true);
@@ -699,7 +699,7 @@ mods.thaumcraft.Research.addArcanePage("ROD_TRANSMUTATION_staff", <ThaumicExplor
 // --- Amber Rod
 mods.thaumcraft.Research.orphanResearch("ROD_AMBER");
 mods.thaumcraft.Research.removeResearch("ROD_AMBER");
-mods.thaumcraft.Research.addResearch("ROD_AMBER", "TX", "auram 15, instrumentum 12, praecantatio 9, vinculum 6, vitreus 3", -5, -1, 4, <ThaumicExploration:amberCore>);
+mods.thaumcraft.Research.addResearch("ROD_AMBER", "TX", "auram 15, instrumentum 12, praecantatio 9, vinculum 6, vitreus 3", -5 as int, -1 as int, 4, <ThaumicExploration:amberCore>);
 mods.thaumcraft.Research.addPrereq("ROD_AMBER", "TXROD_greatwood", false);
 mods.thaumcraft.Research.setConcealed("ROD_AMBER", true);
 game.setLocalization("tc.research_name.ROD_AMBER", "Amber Wand Core");
@@ -713,7 +713,7 @@ mods.thaumcraft.Research.addInfusionPage("ROD_AMBER", <ThaumicExploration:amberC
 // --- Amber Rod Staff Core
 mods.thaumcraft.Research.orphanResearch("ROD_AMBER_staff");
 mods.thaumcraft.Research.removeResearch("ROD_AMBER_staff");
-mods.thaumcraft.Research.addResearch("ROD_AMBER_staff", "TX", "vinculum 18, instrumentum 15, praecantatio 12, alienis 9, auram 6, alienis 3", -6, 0, 4, <ThaumicExploration:amberStaffCore>);
+mods.thaumcraft.Research.addResearch("ROD_AMBER_staff", "TX", "vinculum 18, instrumentum 15, praecantatio 12, alienis 9, auram 6, alienis 3", -6 as int, 0, 4, <ThaumicExploration:amberStaffCore>);
 mods.thaumcraft.Research.addPrereq("ROD_AMBER_staff", "TXROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("ROD_AMBER_staff", "TXBASICARTIFACE", true);
 mods.thaumcraft.Research.setConcealed("ROD_AMBER_staff", true);
@@ -729,7 +729,7 @@ mods.thaumcraft.Research.addArcanePage("ROD_AMBER_staff", <ThaumicExploration:am
 // --- Necromancers Staff Core
 mods.thaumcraft.Research.orphanResearch("ROD_NECROMANCER_staff");
 mods.thaumcraft.Research.removeResearch("ROD_NECROMANCER_staff");
-mods.thaumcraft.Research.addResearch("ROD_NECROMANCER_staff", "TX", "mortuus 21, instrumentum 18, perditio 15, auram 12, spiritus 9, exanimis 6, cognitio 3", -3, 1, 4, <ThaumicExploration:necroStaffCore>);
+mods.thaumcraft.Research.addResearch("ROD_NECROMANCER_staff", "TX", "mortuus 21, instrumentum 18, perditio 15, auram 12, spiritus 9, exanimis 6, cognitio 3", -3 as int, 1, 4, <ThaumicExploration:necroStaffCore>);
 mods.thaumcraft.Research.addPrereq("ROD_NECROMANCER_staff", "TXROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("ROD_NECROMANCER_staff", "BraincureGTNH", true);
 mods.thaumcraft.Research.setConcealed("ROD_NECROMANCER_staff", true);

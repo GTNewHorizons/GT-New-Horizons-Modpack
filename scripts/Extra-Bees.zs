@@ -4,8 +4,11 @@
 
 // --- Imports ---
 
-
+import mods.forestry.Squeezer;
 import mods.gregtech.Pulverizer;
+import mods.gregtech.Extractor;
+import mods.gregtech.FluidExtractor;
+import mods.nei.NEI;
 
 
 
@@ -59,8 +62,14 @@ recipes.remove(<ExtraBees:hiveFrame.soul>);
 // --- Scented Gear
 mods.forestry.Carpenter.removeRecipe(<ExtraBees:misc>);
 
-
-
+// --- Dyes
+Squeezer.removeRecipe(<liquid:for.honey> * 200, [<ExtraBees:honeyDrop:8>]);
+Squeezer.removeRecipe(<liquid:for.honey> * 200, [<ExtraBees:honeyDrop:9>]);
+Squeezer.removeRecipe(<liquid:for.honey> * 200, [<ExtraBees:honeyDrop:10>]);
+Squeezer.removeRecipe(<liquid:for.honey> * 200, [<ExtraBees:honeyDrop:11>]);
+Squeezer.removeRecipe(<liquid:for.honey> * 200, [<ExtraBees:honeyDrop:12>]);
+Squeezer.removeRecipe(<liquid:for.honey> * 200, [<ExtraBees:honeyDrop:13>]);
+Squeezer.removeRecipe(<liquid:for.honey> * 200, [<ExtraBees:honeyDrop:14>]);
 
 // --- Add Recipes ---
 
@@ -128,7 +137,7 @@ mods.forestry.Carpenter.addRecipe(20, <liquid:for.honey> * 1000,
 
 // --- Healing Frame
 recipes.remove(<ExtraBees:hiveFrame.clay>);
-mods.thaumcraft.Research.addResearch("HEALINGFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, victus 6", 7, -2, 4, <ExtraBees:hiveFrame.clay>);
+mods.thaumcraft.Research.addResearch("HEALINGFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, victus 6", 7,  -2 as int, 4, <ExtraBees:hiveFrame.clay>);
 game.setLocalization("tc.research_name.HEALINGFRAME", "Healing Frame");
 game.setLocalization("tc.research_text.HEALINGFRAME", "[EB] The Bees will never die ?");
 mods.thaumcraft.Research.addPrereq("HEALINGFRAME", "MB_EssenceLife", false);
@@ -211,3 +220,43 @@ Pulverizer.addRecipe([<gregtech:gt.metaitem.01:503>], <ExtraBees:misc:4>, [10000
 
 // --- Small Lapis Dust
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:526>], <ExtraBees:misc:5>, [10000], 300, 2);
+
+
+// --- Dyes Recipes
+
+// --- Red Dye
+Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32415> % 100, [<ExtraBees:honeyDrop:8>], 20);
+FluidExtractor.addRecipe(<gregtech:gt.metaitem.02:32415>, <ExtraBees:honeyDrop:8>, <liquid:for.honey> * 200, 32, 7, 1000);
+
+// --- Yellow Dye
+Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32425> % 100, [<ExtraBees:honeyDrop:9>], 20);
+FluidExtractor.addRecipe(<gregtech:gt.metaitem.02:32425>, <ExtraBees:honeyDrop:9>, <liquid:for.honey> * 200, 32, 7, 1000);
+
+// --- Blue Dye
+Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32418> % 100, [<ExtraBees:honeyDrop:10>], 20);
+FluidExtractor.addRecipe(<gregtech:gt.metaitem.02:32418>, <ExtraBees:honeyDrop:10>, <liquid:for.honey> * 200, 32, 7, 1000);
+
+// --- Green Dye
+Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32416> % 100, [<ExtraBees:honeyDrop:11>], 20);
+FluidExtractor.addRecipe(<gregtech:gt.metaitem.02:32416>, <ExtraBees:honeyDrop:11>, <liquid:for.honey> * 200, 32, 7, 1000);
+
+// --- White Dye
+Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32429> % 100, [<ExtraBees:honeyDrop:13>], 20);
+FluidExtractor.addRecipe(<gregtech:gt.metaitem.02:32429>, <ExtraBees:honeyDrop:13>, <liquid:for.honey> * 200, 32, 7, 1000);
+
+// --- Black Dye
+Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32414> % 100, [<ExtraBees:honeyDrop:12>], 20);
+FluidExtractor.addRecipe(<gregtech:gt.metaitem.02:32414>, <ExtraBees:honeyDrop:12>, <liquid:for.honey> * 200, 32, 7, 1000);
+
+// --- White Dye
+Squeezer.addRecipe(<liquid:for.honey> * 200, <gregtech:gt.metaitem.02:32417> % 100, [<ExtraBees:honeyDrop:14>], 20);
+FluidExtractor.addRecipe(<gregtech:gt.metaitem.02:32417>, <ExtraBees:honeyDrop:14>, <liquid:for.honey> * 200, 32, 7, 1000);
+
+
+
+// --- Hiding Stuff ---
+
+// Dyes
+for meta in [19, 20, 21, 22, 23, 24, 25] as int[] {
+	NEI.hide(<ExtraBees:misc>.definition.makeStack(meta));
+}

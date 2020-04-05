@@ -493,9 +493,6 @@ recipes.remove(<IC2:itemTFBPFlatification>);
 // --- TFBP Mushroom
 recipes.remove(<IC2:itemTFBPMushroom>);
 
-// --- Charging RE Battery
-recipes.remove(<IC2:itemBatChargeRE:*>);
-
 // --- Scuba Helmet
 recipes.remove(<IC2:itemArmorHazmatHelmet>);
 
@@ -755,7 +752,6 @@ recipes.remove(<IC2:itemDust2:2>);
 
 // --- CF Powder
 recipes.remove(<IC2:itemPartCFPowder>);
-
 
 
 
@@ -1710,6 +1706,9 @@ Assembler.addRecipe(<IC2:blockCrop> * 16, <gregtech:gt.metaitem.02:22809> * 8, <
 
 // --- Coal Chunk
 BlastFurnace.addRecipe([<IC2:itemPartCoalChunk>], [<dreamcraft:item.BioChunk>], 1200, 120, 1000); 
+
+// --- Carbon Mesh
+BlastFurnace.addRecipe([<IC2:itemPartCarbonMesh>], [<dreamcraft:item.BioOrganicMesh>], 600, 120, 1000); 
 
 // --- Carbon Plate
 BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonPlate>], 600, 120, 1000); 

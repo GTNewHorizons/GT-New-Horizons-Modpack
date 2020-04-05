@@ -11,7 +11,6 @@ import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FormingPress;
-import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Pulverizer;
 
 
@@ -463,25 +462,6 @@ Extruder.addRecipe(<gregtech:gt.metaitem.01:17982>, <gregtech:gt.metaitem.01:119
 // --- Diamond Lattice
 FormingPress.addRecipe(<Avaritia:Resource>, <gregtech:gt.metaitem.01:17500> * 4, <dreamcraft:item.StainlessSteelBars>, 200, 120);
 
-
-
-
-
-// --- Implosion Compressor Recipes ---
-
-
-
-// --- Neutronium Nugget
-ImplosionCompressor.addRecipe(<Avaritia:Resource:3>, <Avaritia:Resource:2> * 9, 1);
-
-// --- Neutronium Ingot
-ImplosionCompressor.addRecipe(<Avaritia:Resource:4>, <Avaritia:Resource:3> * 9, 4);
-
-// --- Neutronium Block
-ImplosionCompressor.addRecipe(<Avaritia:Resource_Block>, <Avaritia:Resource:4> * 9, 16);
-
-// --- Infinity Block
-ImplosionCompressor.addRecipe(<Avaritia:Resource_Block:1>, <Avaritia:Resource:6> * 9, 64);
 
 
 
