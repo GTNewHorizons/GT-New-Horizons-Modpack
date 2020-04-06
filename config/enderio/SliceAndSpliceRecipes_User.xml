@@ -80,6 +80,19 @@
         <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="6" />
       </output>
     </recipe>
+     <recipe name="Totemic Capacitor" energyCost="20000" >
+      <input>
+        <itemStack oreDictionary="plateStellarAlloy" slot="0" />
+        <itemStack oreDictionary="<EnderIO:itemFrankenSkull:5>" slot="1" />
+        <itemStack oreDictionary="plateStellarAlloy" slot="2" />
+        <itemStack oreDictionary="plateMelodicAlloy" slot="3" />
+        <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="5" slot="4" />
+        <itemStack oreDictionary="plateMelodicAlloy" slot="5" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="6" />
+      </output>
+    </recipe>
   </recipeGroup>
   
 </SliceAndSpliceRecipes>

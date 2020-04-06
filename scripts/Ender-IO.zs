@@ -46,6 +46,7 @@ val EAPlate = <gregtech:gt.metaitem.01:17366>;
 val RedstonePlate = <ore:plateRedstone>;
 val ESteelPlate = <ore:plateElectricalSteel>;
 val ESPlate = <ore:plateEndSteel>;
+val SAPlate = <ore:plateStellarAlloy>
 
 // Ingots
 val ESIngot = <ore:ingotEndSteel>;
@@ -55,6 +56,9 @@ val Capacitor = <EnderIO:itemBasicCapacitor>;
 val Capacitor2 = <EnderIO:itemBasicCapacitor:1>;
 val Capacitor3 = <EnderIO:itemBasicCapacitor:2>;
 val Capacitor4 = <EnderIO:itemBasicCapacitor:3>;
+val Capacitor5 = <EnderIO:itemBasicCapacitor:4>;
+val Capacitor6 = <EnderIO:itemBasicCapacitor:5>;
+val Capacitor7 = <EnderIO:itemBasicCapacitor:6>;
 
 val DSteelCasing = <ore:itemCasingDarkSteel>;
 val ESteelCasing = <ore:itemCasingEndSteel>;
@@ -204,8 +208,17 @@ recipes.remove(Capacitor2);
 // --- Octadic Capacitor
 recipes.remove(Capacitor3);
 
-// --- Melodic Capacitor
+// --- Crystaline Capacitor
 recipes.remove(Capacitor4);
+
+// --- Melodic Capacitor
+recipes.remove(Capacitor5);
+
+// --- Stellar Capacitor
+recipes.remove(Capacitor6);
+
+// --- Totemic Capacitor
+recipes.remove(Capacitor7);
 
 // --- Machine Casing
 recipes.remove(MCasing);
@@ -277,6 +290,13 @@ recipes.remove(<EnderIO:itemGrindingBall:5>);
 recipes.remove(<EnderIO:itemGrindingBall:6>);
 recipes.remove(<EnderIO:itemGrindingBall:7>);
 recipes.remove(<EnderIO:itemGrindingBall:8>);
+recipes.remove(<EnderIO:itemGrindingBallEndergy>);
+recipes.remove(<EnderIO:itemGrindingBallEndergy:1>);
+recipes.remove(<EnderIO:itemGrindingBallEndergy:2>);
+recipes.remove(<EnderIO:itemGrindingBallEndergy:3>);
+recipes.remove(<EnderIO:itemGrindingBallEndergy:4>);
+recipes.remove(<EnderIO:itemGrindingBallEndergy:5>);
+recipes.remove(<EnderIO:itemGrindingBallEndergy:6>);
 
 // --- End Steel Armor
 recipes.remove(<EnderIO:item.endSteel_helmet>);
@@ -400,6 +420,20 @@ recipes.remove(<EnderIO:itemPowerConduit:1>);
 // --- Ender Energy Conduit
 recipes.remove(<EnderIO:itemPowerConduit:2>);
 
+// --- Ender Energy Conduits
+recipes.remove(<EnderIO:itemPowerConduitEndergy>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:1>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:2>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:3>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:4>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:5>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:6>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:7>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:8>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:9>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:10>);
+recipes.remove(<EnderIO:itemPowerConduitEndergy:11>);
+
 // --- Fluid Conduit
 recipes.remove(<EnderIO:itemLiquidConduit>);
 
@@ -500,6 +534,18 @@ recipes.removeShaped(<minecraft:ender_pearl>, [
 
 // --- Dark Steel Rood
 recipes.remove(<EnderIO:itemMaterial:12>);
+
+// --- Grains of Piezallity
+recipes.remove(<EnderIO:itemMaterial:14>);
+
+// --- Grains of Vibrancy
+recipes.remove(<EnderIO:itemMaterial:15>);
+
+// --- Grains of the End
+recipes.remove(<EnderIO:itemMaterial:16>);
+
+// --- Grains of Presience
+recipes.remove(<EnderIO:itemMaterial:17>);
 
 
 
@@ -667,7 +713,7 @@ recipes.addShaped(<EnderIO:blockReservoir> * 2, [
 
 // --- Dimensional Tranceiver
 recipes.addShaped(<EnderIO:blockTransceiver>, [
-[Capacitor4, EnergyFlowCircuit, Capacitor4],
+[Capacitor6, EnergyFlowCircuit, Capacitor6],
 [ECrystal, <ore:frameGtEnderium>, ECrystal],
 [FQuartz, SEnder, FQuartz]]);
 
@@ -732,6 +778,41 @@ recipes.addShaped(<EnderIO:itemGrindingBall:8> * 4, [
 [<ore:screwEndSteel>, <ore:plateEndSteel>, <ore:screwEndSteel>],
 [<ore:plateEndSteel>, <ore:ringEndSteel>, <ore:plateEndSteel>],
 [<ore:screwEndSteel>, <ore:plateEndSteel>, <ore:screwEndSteel>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBallEndergy> * 4, [
+[<ore:screwCrudeSteel>, <ore:plateCrudeSteel>, <ore:screwCrudeSteel>],
+[<ore:plateCrudeSteel>, <ore:ringCrudeSteel>, <ore:plateCrudeSteel>],
+[<ore:screwCrudeSteel>, <ore:plateCrudeSteel>, <ore:screwCrudeSteel>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBallEndergy:1> * 4, [
+[<ore:screwCrystallineAlloy>, <ore:plateCrystallineAlloy>, <ore:screwCrystallineAlloy>],
+[<ore:plateCrystallineAlloy>, <ore:ringCrystallineAlloy>, <ore:plateCrystallineAlloyl>],
+[<ore:screwCrystallineAlloy>, <ore:plateCrystallineAlloy>, <ore:screwCrystallineAlloy>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBallEndergy:2> * 4, [
+[<ore:screwMelodicAlloy>, <ore:plateMelodicAlloy>, <ore:screwMelodicAlloy>],
+[<ore:plateMelodicAlloy>, <ore:ringMelodicAlloy>, <ore:plateMelodicAlloyl>],
+[<ore:screwMelodicAlloy>, <ore:plateMelodicAlloy>, <ore:screwMelodicAlloy>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBallEndergy:3> * 4, [
+[<ore:screwStellarAlloy>, <ore:plateStellarAlloy>, <ore:screwStellarAlloy>],
+[<ore:plateStellarAlloy>, <ore:ringStellarAlloy>, <ore:plateStellarAlloyl>],
+[<ore:screwStellarAlloy>, <ore:plateStellarAlloy>, <ore:screwStellarAlloy>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBallEndergy:4> * 4, [
+[<ore:screwCrystallinePinkSlime>, <ore:plateCrystallinePinkSlime>, <ore:screwCrystallinePinkSlime>],
+[<ore:plateCrystallinePinkSlime>, <ore:ringCrystallinePinkSlime>, <ore:plateCrystallinePinkSlime>],
+[<ore:screwCrystallinePinkSlime>, <ore:plateCrystallinePinkSlime>, <ore:screwCrystallinePinkSlime>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBallEndergy:5> * 4, [
+[<ore:screwEnergeticSilver>, <ore:plateEnergeticSilvere>, <ore:screwEnergeticSilver>],
+[<ore:plateEnergeticSilvere>, <ore:ringEnergeticSilver>, <ore:plateEnergeticSilver>],
+[<ore:screwEnergeticSilvere>, <ore:plateEnergeticSilver>, <ore:screwEnergeticSilver>]]);
+
+recipes.addShaped(<EnderIO:itemGrindingBallEndergy:6> * 4, [
+[<ore:screwVividAlloy>, <ore:plateVividAlloy>, <ore:screwVividAlloy>],
+[<ore:plateVividAlloy>, <ore:ringVividAlloy>, <ore:plateVividAlloy>],
+[<ore:screwVividAlloye>, <ore:plateVividAlloy>, <ore:screwVividAlloy>]]);
 
 // --- Ender IO
 recipes.addShaped(<EnderIO:blockEnderIo>, [
@@ -925,6 +1006,28 @@ recipes.addShaped(<EnderIO:item.endSteel_boots>, [
 [ESPlate, Hammer, ESPlate],
 [null, null, null]]);
 
+// --- Stellar Alloy Armor
+recipes.addShaped(<EnderIO:item.stellar_helmet>, [
+[SAPlate, SAPlate, SAPlate],
+[SAPlate, Hammer, SAPlate],
+[null, <EnderIO:itemFrankenSkull:4>, null]]);
+
+recipes.addShaped(<EnderIO:item.stellar_chestplate>, [
+[SAPlate, Hammer, SAPlate],
+[SAPlate, <EnderIO:itemFrankenSkull:4>, SAPlate],
+[SAPlate, SAPlate, SAPlate]]);
+
+recipes.addShaped(<EnderIO:item.stellar_leggings>, [
+[SAPlate, SAPlate, SAPlate],
+[SAPlate, Hammer, SAPlate],
+[SAPlate, <EnderIO:itemFrankenSkull:4>, SAPlate]]);
+
+recipes.addShaped(<EnderIO:item.stellar_boots>, [
+[SAPlate, <EnderIO:itemFrankenSkull:4>, SAPlate],
+[SAPlate, Hammer, SAPlate],
+[null, null, null]]);
+
+
 // --- End Steel Tools
 recipes.addShaped(<EnderIO:item.endSteel_pickaxe>, [
 [ESPlate, ESIngot, ESIngot],
@@ -939,6 +1042,22 @@ recipes.addShaped(<EnderIO:item.endSteel_axe>, [
 recipes.addShaped(<EnderIO:item.endSteel_sword>, [
 [null, ESPlate, null],
 [File, ESPlate, Hammer],
+[null, darkSteelRod, null]]);
+
+// --- Stellar Alloy Tools
+recipes.addShaped(<EnderIO:item.stellar_pickaxe>, [
+[SAPlate, SAIngot, SAIngot],
+[File, <EnderIO:itemFrankenSkull:4>, Hammer],
+[null, darkSteelRod, null]]);
+
+recipes.addShaped(<EnderIO:item.stellar_axe>, [
+[SAPlate, SAIngot, Hammer],
+[SAPlate, <EnderIO:itemFrankenSkull:4>, SAPlate],
+[File, darkSteelRod, null]]);
+
+recipes.addShaped(<EnderIO:item.stellar_sword>, [
+[null, <EnderIO:itemFrankenSkull:4>, null],
+[File, SAPlate, Hammer],
 [null, darkSteelRod, null]]);
 
 // --- Dark Steel Rood
@@ -983,8 +1102,14 @@ Assembler.addRecipe(Capacitor2, Capacitor * 2, <gregtech:gt.metaitem.01:2535>,  
 // --- Octadic Capacitor
 Assembler.addRecipe(Capacitor3, Capacitor2 * 2, <minecraft:glowstone_dust> * 4,  <liquid:molten.vibrantalloy> * 864, 200, 480);
 
-// --- Octadic Capacitor
-Assembler.addRecipe(Capacitor4, Capacitor3 * 2, <minecraft:ender_eye>,  <liquid:molten.endsteel> * 864, 200, 1920);
+// --- Crystaline Capacitor
+Assembler.addRecipe(Capacitor4, Capacitor3 * 2, <minecraft:ender_eye>,  <liquid:molten.crystalinealloy> * 864, 200, 1920);
+
+// --- Melodic Capacitor
+Assembler.addRecipe(Capacitor5, [Capacitor4 * 2, <minecraft:nether_star>, <ore:plateEndsteel>],  <liquid:molten.mellodicalloy> * 864, 200, 7680);
+
+// --- Stellar Capacitor
+Assembler.addRecipe(Capacitor6, [Capacitor5 * 2, <gregtech:gt.metaitem.01:32726>, <EnderIO:itemMaterial:13>],  <liquid:molten.stellaralloy> * 864, 200, 30720);
 
 // --- Vacuum Chest
 Assembler.addRecipe(<EnderIO:blockVacuumChest>, <gregtech:gt.blockmachines:9231>, <ExtraUtilities:enderCollector>, 200, 64);
@@ -1008,7 +1133,14 @@ Assembler.addRecipe(<EnderIO:itemGrindingBall:5>, <gregtech:gt.metaitem.01:17378
 Assembler.addRecipe(<EnderIO:itemGrindingBall:6>, <gregtech:gt.metaitem.01:17364>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
 Assembler.addRecipe(<EnderIO:itemGrindingBall:7>, <gregtech:gt.metaitem.01:17379>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
 Assembler.addRecipe(<EnderIO:itemGrindingBall:8>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-
+Assembler.addRecipe(<EnderIO:itemGrindingBall:9>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy>, <gregtech:gt.metaitem.01:17402>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:1>, <gregtech:gt.metaitem.01:17403>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:2>, <gregtech:gt.metaitem.01:17404>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:3>, <gregtech:gt.metaitem.01:17405>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:4>, <gregtech:gt.metaitem.01:17406>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:5>, <gregtech:gt.metaitem.01:17407>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:6>, <gregtech:gt.metaitem.01:17408>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
 
 // --- Weather Crystal
 Assembler.addRecipe(WCrystal, <dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:9321> * 8, 200, 256);
@@ -1068,7 +1200,43 @@ Assembler.addRecipe(<EnderIO:itemPowerConduit>, <gregtech:gt.blockmachines:1420>
 Assembler.addRecipe(<EnderIO:itemPowerConduit:1>, <gregtech:gt.blockmachines:1580>, <gregtech:gt.metaitem.01:17366>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Ender Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.blockmachines:1620>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
+Assembler.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.blockmachines:1620>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.epoxid> * 144, 100, 480);
+
+// --- Crude Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy>, <gregtech:gt.blockmachines:2000>, <gregtech:gt.metaitem.01:17402>, <liquid:molten.tin> * 144, 100, 8);
+
+// --- Iron Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:1>, <gregtech:gt.blockmachines:1260>, <gregtech:gt.metaitem.01:17032>, <liquid:molten.tin> * 144, 100, 16);
+
+// --- Aluminium Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:2>, <gregtech:gt.blockmachines:1280>, <gregtech:gt.metaitem.01:17019>, <liquid:molten.tin> * 144, 100, 30);
+
+// --- Gold Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:3>, <gregtech:gt.blockmachines:1320>, <gregtech:gt.metaitem.01:17086>, <liquid:molten.solderingalloy> * 144, 100, 64);
+
+// --- Copper Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:4>, <gregtech:gt.blockmachines:1380>, <gregtech:gt.metaitem.01:17035>, <liquid:molten.solderingalloy> * 144, 100, 96);
+
+// --- Silver Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:5>, <gregtech:gt.blockmachines:1440>, <gregtech:gt.metaitem.01:17054>, <liquid:molten.plastic> * 144, 100, 160);
+
+// --- Electrum Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:6>, <gregtech:gt.blockmachines:1540>, <gregtech:gt.metaitem.01:17303>, <liquid:molten.plastic> * 144, 100, 192);
+
+// --- Energetic Silver Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:7>, <gregtech:gt.blockmachines:1660>, <gregtech:gt.metaitem.01:17407>, <liquid:molten.epoxid> * 144, 100, 320);
+
+// --- Crystalline Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:8>, <gregtech:gt.blockmachines:1700>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 900);
+
+// --- Crystalline Pink Slime Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:9>, <gregtech:gt.blockmachines:1720>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetraflouroethylene> * 144, 100, 1920);
+
+// --- Melodic Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:10>, <gregtech:gt.blockmachines:1780>, <gregtech:gt.metaitem.01:17404>, <liquid:molten.polytetraflouroethylene> * 144, 100, 7680);
+
+// --- Stellar Energy Conduit
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:11>, <gregtech:gt.blockmachines:11390>, <gregtech:gt.metaitem.01:17405>, <liquid:molten.polybenzimidazole> * 144, 100, 30720);
 
 // --- Fluid Conduit
 Assembler.addRecipe(<EnderIO:itemLiquidConduit>, <gregtech:gt.blockmachines:5112>, <gregtech:gt.metaitem.01:17365>, <liquid:molten.plastic> * 144, 100, 120);
@@ -1097,8 +1265,14 @@ Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade>, <gregtech:gt.metaitem.01:3
 // --- Advanced Item Filter
 Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade:1>, <EnderIO:itemBasicFilterUpgrade>, ZLogic, 300, 64);
 
+// --- Big Item Filter
+Assembler.addRecipe(<EnderIO:itemBigFilterUpgrade>, <EnderIO:itemBasicFilterUpgrade:1> * 2, <EnderIO:blockEndSteelBars> * 2, 300, 120);
+
+// --- Big Advanced Item Filter
+Assembler.addRecipe(<EnderIO:itemBigFilterUpgrade:1>, <EnderIO:itemBigFilterUpgrade>, <EnderIO:itemFrankenSkull:2>, 300, 256);
+
 // --- Existing Item Filter
-Assembler.addRecipe(<EnderIO:itemExistingItemFilter>, <EnderIO:itemBasicFilterUpgrade:1>, Compartor, 300, 120);
+Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade:1>, <EnderIO:itemBasicFilterUpgrade:1>, Compartor, 300, 120);
 
 // --- Mod Item Filter
 Assembler.addRecipe(<EnderIO:itemModItemFilter>, <EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemYetaWrench>, 300, 64);
@@ -1149,6 +1323,18 @@ FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.0
 
 // --- Binder Composite
 Pulverizer.addRecipe([<EnderIO:itemMaterial:2> * 9], <IC2:itemPartCFPowder>, [10000], 300, 2);
+
+// --- Grains of Piezallity
+Pulverizer.addRecipe([<EnderIO:itemMaterial:14>, <EnderIO:itemMaterial:14>, <EnderIO:itemMaterial:14>, <EnderIO:itemMaterial:14>], <EnderIO:itemMaterial:5>, [10000, 1000, 100, 10], 100, 480);
+
+// --- Grains of Vibrancy
+Pulverizer.addRecipe([<EnderIO:itemMaterial:15>, <EnderIO:itemMaterial:15>, <EnderIO:itemMaterial:15>, <EnderIO:itemMaterial:15>], <EnderIO:itemMaterial:6>, [10000, 1000, 100, 10], 300, 480);
+
+// --- Grains of the End
+Pulverizer.addRecipe([<EnderIO:itemMaterial:16>, <EnderIO:itemMaterial:16>, <EnderIO:itemMaterial:16>, <EnderIO:itemMaterial:16>], <EnderIO:itemMaterial:8>, [10000, 1000, 100, 10], 300, 480);
+
+// --- Grains of Presience
+Pulverizer.addRecipe([<EnderIO:itemMaterial:17>, <EnderIO:itemMaterial:17>, <EnderIO:itemMaterial:17>, <EnderIO:itemMaterial:17>], <EnderIO:itemMaterial:13>, [10000, 1000, 100, 10], 300, 480);
 
 
 
