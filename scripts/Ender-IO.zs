@@ -46,10 +46,11 @@ val EAPlate = <gregtech:gt.metaitem.01:17366>;
 val RedstonePlate = <ore:plateRedstone>;
 val ESteelPlate = <ore:plateElectricalSteel>;
 val ESPlate = <ore:plateEndSteel>;
-val SAPlate = <ore:plateStellarAlloy>
+val SAPlate = <ore:plateStellarAlloy>;
 
 // Ingots
 val ESIngot = <ore:ingotEndSteel>;
+val SAIngot = <ore:ingotStellarAlloy>;
 
 //Capacitors
 val Capacitor = <EnderIO:itemBasicCapacitor>;
@@ -547,6 +548,17 @@ recipes.remove(<EnderIO:itemMaterial:16>);
 // --- Grains of Presience
 recipes.remove(<EnderIO:itemMaterial:17>);
 
+// --- Stellar Alloy Tools
+recipes.remove(<EnderIO:item.stellar_pickaxe>);
+recipes.remove(<EnderIO:item.stellar_axe>);
+recipes.remove(<EnderIO:item.stellar_sword>);
+
+// --- Stellar Alloy Armor
+recipes.remove(<EnderIO:item.stellar_helmet>);
+recipes.remove(<EnderIO:item.stellar_chestplate>);
+recipes.remove(<EnderIO:item.stellar_leggings>);
+recipes.remove(<EnderIO:item.stellar_boots>);
+
 
 
 
@@ -786,17 +798,17 @@ recipes.addShaped(<EnderIO:itemGrindingBallEndergy> * 4, [
 
 recipes.addShaped(<EnderIO:itemGrindingBallEndergy:1> * 4, [
 [<ore:screwCrystallineAlloy>, <ore:plateCrystallineAlloy>, <ore:screwCrystallineAlloy>],
-[<ore:plateCrystallineAlloy>, <ore:ringCrystallineAlloy>, <ore:plateCrystallineAlloyl>],
+[<ore:plateCrystallineAlloy>, <ore:ringCrystallineAlloy>, <ore:plateCrystallineAlloy>],
 [<ore:screwCrystallineAlloy>, <ore:plateCrystallineAlloy>, <ore:screwCrystallineAlloy>]]);
 
 recipes.addShaped(<EnderIO:itemGrindingBallEndergy:2> * 4, [
 [<ore:screwMelodicAlloy>, <ore:plateMelodicAlloy>, <ore:screwMelodicAlloy>],
-[<ore:plateMelodicAlloy>, <ore:ringMelodicAlloy>, <ore:plateMelodicAlloyl>],
+[<ore:plateMelodicAlloy>, <ore:ringMelodicAlloy>, <ore:plateMelodicAlloy>],
 [<ore:screwMelodicAlloy>, <ore:plateMelodicAlloy>, <ore:screwMelodicAlloy>]]);
 
 recipes.addShaped(<EnderIO:itemGrindingBallEndergy:3> * 4, [
 [<ore:screwStellarAlloy>, <ore:plateStellarAlloy>, <ore:screwStellarAlloy>],
-[<ore:plateStellarAlloy>, <ore:ringStellarAlloy>, <ore:plateStellarAlloyl>],
+[<ore:plateStellarAlloy>, <ore:ringStellarAlloy>, <ore:plateStellarAlloy>],
 [<ore:screwStellarAlloy>, <ore:plateStellarAlloy>, <ore:screwStellarAlloy>]]);
 
 recipes.addShaped(<EnderIO:itemGrindingBallEndergy:4> * 4, [
@@ -805,14 +817,14 @@ recipes.addShaped(<EnderIO:itemGrindingBallEndergy:4> * 4, [
 [<ore:screwCrystallinePinkSlime>, <ore:plateCrystallinePinkSlime>, <ore:screwCrystallinePinkSlime>]]);
 
 recipes.addShaped(<EnderIO:itemGrindingBallEndergy:5> * 4, [
-[<ore:screwEnergeticSilver>, <ore:plateEnergeticSilvere>, <ore:screwEnergeticSilver>],
-[<ore:plateEnergeticSilvere>, <ore:ringEnergeticSilver>, <ore:plateEnergeticSilver>],
-[<ore:screwEnergeticSilvere>, <ore:plateEnergeticSilver>, <ore:screwEnergeticSilver>]]);
+[<ore:screwEnergeticSilver>, <ore:plateEnergeticSilver>, <ore:screwEnergeticSilver>],
+[<ore:plateEnergeticSilver>, <ore:ringEnergeticSilver>, <ore:plateEnergeticSilver>],
+[<ore:screwEnergeticSilver>, <ore:plateEnergeticSilver>, <ore:screwEnergeticSilver>]]);
 
 recipes.addShaped(<EnderIO:itemGrindingBallEndergy:6> * 4, [
 [<ore:screwVividAlloy>, <ore:plateVividAlloy>, <ore:screwVividAlloy>],
 [<ore:plateVividAlloy>, <ore:ringVividAlloy>, <ore:plateVividAlloy>],
-[<ore:screwVividAlloye>, <ore:plateVividAlloy>, <ore:screwVividAlloy>]]);
+[<ore:screwVividAlloy>, <ore:plateVividAlloy>, <ore:screwVividAlloy>]]);
 
 // --- Ender IO
 recipes.addShaped(<EnderIO:blockEnderIo>, [
@@ -1027,7 +1039,6 @@ recipes.addShaped(<EnderIO:item.stellar_boots>, [
 [SAPlate, Hammer, SAPlate],
 [null, null, null]]);
 
-
 // --- End Steel Tools
 recipes.addShaped(<EnderIO:item.endSteel_pickaxe>, [
 [ESPlate, ESIngot, ESIngot],
@@ -1103,10 +1114,10 @@ Assembler.addRecipe(Capacitor2, Capacitor * 2, <gregtech:gt.metaitem.01:2535>,  
 Assembler.addRecipe(Capacitor3, Capacitor2 * 2, <minecraft:glowstone_dust> * 4,  <liquid:molten.vibrantalloy> * 864, 200, 480);
 
 // --- Crystaline Capacitor
-Assembler.addRecipe(Capacitor4, Capacitor3 * 2, <minecraft:ender_eye>,  <liquid:molten.crystalinealloy> * 864, 200, 1920);
+Assembler.addRecipe(Capacitor4, Capacitor3 * 2, <minecraft:ender_eye>,  <liquid:molten.crystallinealloy> * 864, 200, 1920);
 
 // --- Melodic Capacitor
-Assembler.addRecipe(Capacitor5, [Capacitor4 * 2, <minecraft:nether_star>, <ore:plateEndsteel>],  <liquid:molten.mellodicalloy> * 864, 200, 7680);
+Assembler.addRecipe(Capacitor5, [Capacitor4 * 2, <minecraft:nether_star>, <gregtech:gt.metaitem.01:17401>],  <liquid:molten.melodicalloy> * 864, 200, 7680);
 
 // --- Stellar Capacitor
 Assembler.addRecipe(Capacitor6, [Capacitor5 * 2, <gregtech:gt.metaitem.01:32726>, <EnderIO:itemMaterial:13>],  <liquid:molten.stellaralloy> * 864, 200, 30720);
@@ -1230,10 +1241,10 @@ Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:7>, <gregtech:gt.blockmachi
 Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:8>, <gregtech:gt.blockmachines:1700>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 900);
 
 // --- Crystalline Pink Slime Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:9>, <gregtech:gt.blockmachines:1720>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetraflouroethylene> * 144, 100, 1920);
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:9>, <gregtech:gt.blockmachines:1720>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 1920);
 
 // --- Melodic Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:10>, <gregtech:gt.blockmachines:1780>, <gregtech:gt.metaitem.01:17404>, <liquid:molten.polytetraflouroethylene> * 144, 100, 7680);
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:10>, <gregtech:gt.blockmachines:1780>, <gregtech:gt.metaitem.01:17404>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 7680);
 
 // --- Stellar Energy Conduit
 Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:11>, <gregtech:gt.blockmachines:11390>, <gregtech:gt.metaitem.01:17405>, <liquid:molten.polybenzimidazole> * 144, 100, 30720);
