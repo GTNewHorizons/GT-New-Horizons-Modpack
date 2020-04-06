@@ -1306,7 +1306,7 @@ Assembler.addRecipe(<EnderIO:itemBigFilterUpgrade>, <EnderIO:itemBasicFilterUpgr
 Assembler.addRecipe(<EnderIO:itemBigFilterUpgrade:1>, <EnderIO:itemBigFilterUpgrade>, <EnderIO:itemFrankenSkull:2>, 300, 256);
 
 // --- Existing Item Filter
-Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade:1>, <EnderIO:itemBasicFilterUpgrade:1>, Compartor, 300, 120);
+Assembler.addRecipe(<EnderIO:itemExistingItemFilter>, <EnderIO:itemBasicFilterUpgrade:1>, Compartor, 300, 120);
 
 // --- Mod Item Filter
 Assembler.addRecipe(<EnderIO:itemModItemFilter>, <EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemYetaWrench>, 300, 64);
