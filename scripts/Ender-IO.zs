@@ -60,6 +60,9 @@ val Capacitor4 = <EnderIO:itemBasicCapacitor:3>;
 val Capacitor5 = <EnderIO:itemBasicCapacitor:4>;
 val Capacitor6 = <EnderIO:itemBasicCapacitor:5>;
 val Capacitor7 = <EnderIO:itemBasicCapacitor:6>;
+val Capacitor8 = <EnderIO:itemBasicCapacitor:7>;
+val Capacitor9 = <EnderIO:itemBasicCapacitor:8>;
+val Capacitor10 = <EnderIO:itemBasicCapacitor:9>;
 
 val DSteelCasing = <ore:itemCasingDarkSteel>;
 val ESteelCasing = <ore:itemCasingEndSteel>;
@@ -220,6 +223,15 @@ recipes.remove(Capacitor6);
 
 // --- Totemic Capacitor
 recipes.remove(Capacitor7);
+
+// --- Silver Capacitor
+recipes.remove(Capacitor8);
+
+// --- Energetic Silver Capacitor
+recipes.remove(Capacitor9);
+
+// --- Endergised Capacitor
+recipes.remove(Capacitor10);
 
 // --- Machine Casing
 recipes.remove(MCasing);
@@ -1107,14 +1119,25 @@ mods.avaritia.ExtremeCrafting.addShaped(<EnderIO:blockCapBank>.withTag({type: "C
 // --- Basic Capacitor
 Assembler.addRecipe(Capacitor, <gregtech:gt.metaitem.01:26080> * 4, <gregtech:gt.metaitem.01:29031> * 4,  <liquid:molten.plastic> * 288, 200, 30);
 
+// --- Basic Capacitor Silver
+Assembler.addRecipe(Capacitor8, <gregtech:gt.metaitem.01:26054> * 4, <gregtech:gt.metaitem.01:29054> * 4,  <liquid:molten.plastic> * 288, 200, 30);
+
 // --- Double Layer Capacitor
 Assembler.addRecipe(Capacitor2, Capacitor * 2, <gregtech:gt.metaitem.01:2535>,  <liquid:molten.energeticalloy> * 864, 150, 120);
+
+// --- Energetic Silver Capacitor
+Assembler.addRecipe(Capacitor9, Capacitor8 * 2, <gregtech:gt.metaitem.01:2535>,  <liquid:molten.energeticsilver> * 864, 150, 120);
 
 // --- Octadic Capacitor
 Assembler.addRecipe(Capacitor3, Capacitor2 * 2, <minecraft:glowstone_dust> * 4,  <liquid:molten.vibrantalloy> * 864, 200, 480);
 
+// --- Endergised Capacitor
+Assembler.addRecipe(Capacitor10, Capacitor9 * 2, <minecraft:glowstone_dust> * 4,  <liquid:molten.vividalloy> * 864, 200, 480);
+
 // --- Crystaline Capacitor
 Assembler.addRecipe(Capacitor4, Capacitor3 * 2, <minecraft:ender_eye>,  <liquid:molten.crystallinealloy> * 864, 200, 1920);
+// -
+Assembler.addRecipe(Capacitor4, Capacitor10 * 2, <minecraft:ender_eye>,  <liquid:molten.crystallinealloy> * 864, 200, 1920);
 
 // --- Melodic Capacitor
 Assembler.addRecipe(Capacitor5, [Capacitor4 * 2, <minecraft:nether_star>, <gregtech:gt.metaitem.01:17401>],  <liquid:molten.melodicalloy> * 864, 200, 7680);
