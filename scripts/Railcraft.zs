@@ -578,6 +578,12 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
 // --- Soularium
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
 
+// --- Californium Dust
+mods.railcraft.BlastFurnace.removeRecipe(<bartworks:gt.bwMetaGenerateddust:39>);
+
+// --- Crystalline Pink Slime Ingot
+mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11406>);
+
 // --- All Recipes
 mods.railcraft.RockCrusher.removeRecipe(<*>);
 
