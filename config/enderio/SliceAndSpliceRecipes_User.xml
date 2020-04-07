@@ -54,7 +54,7 @@
         <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="3" />
       </output>
     </recipe>
-	<recipe name="Skeletal Contractor" energyCost="20000" >
+	<recipe name="Skeletal Contractor" energyCost="200000" >
       <input>
         <itemStack oreDictionary="plateSoularium" slot="0" />
         <itemStack modID="minecraft" itemName="skull" itemMeta="0" slot="1" />
@@ -67,7 +67,7 @@
         <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="5" />
       </output>
     </recipe>	
-	<recipe name="Guardian Diode" energyCost="20000" >
+	<recipe name="Guardian Diode" energyCost="500000" >
       <input>
         <itemStack oreDictionary="plateEnergeticAlloy" slot="0" />
         <itemStack oreDictionary="gemDiamond" slot="1" />
@@ -80,10 +80,10 @@
         <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="6" />
       </output>
     </recipe>
-     <recipe name="Totemic Capacitor" energyCost="20000" >
+     <recipe name="Totemic Capacitor" energyCost="2000000" >
       <input>
         <itemStack oreDictionary="plateStellarAlloy" slot="0" />
-        <itemStack oreDictionary="<EnderIO:itemFrankenSkull:5>" slot="1" />
+        <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="5" slot="1" />
         <itemStack oreDictionary="plateStellarAlloy" slot="2" />
         <itemStack oreDictionary="plateMelodicAlloy" slot="3" />
         <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="5" slot="4" />
