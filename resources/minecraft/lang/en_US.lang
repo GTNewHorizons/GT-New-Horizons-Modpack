@@ -2946,7 +2946,7 @@ gtnh.quest735.desc=If you are lucky and find some brewing stands or familiar eno
 
 # Quest.736 - §6§lFermented Biomass
 gtnh.quest736.name=§6§lFermented Biomass
-gtnh.quest736.desc=With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.\nWhen you reach HV tier there\u0027s a more efficient way to process it - the distillation tower multiblock.
+gtnh.quest736.desc=No Description
 
 # Quest.737 - Can u eat those? 
 gtnh.quest737.name=Can u eat those? 
@@ -4050,7 +4050,7 @@ gtnh.quest1011.desc=The main goal when you reach the Moon is to find some bauxit
 
 # Quest.1012 - §9§lRutile
 gtnh.quest1012.name=§9§lRutile
-gtnh.quest1012.desc=Rutile can be thermal centrifuged out of bauxite and ilmenite dust. %nElectrolyzing bauxite can extract even more rutile and putting ilmenite in the electric blast furnace can give some rutile too.
+gtnh.quest1012.desc=Rutile can be centrifuged or thermal centrifuged out of bauxite and ilmenite dust. %nElectrolyzing bauxite can extract even more rutile and putting ilmenite in the electric blast furnace can give some rutile too.
 
 # Quest.1013 - §6§lSMD Circuit components
 gtnh.quest1013.name=§6§lSMD Circuit components
@@ -4618,7 +4618,7 @@ gtnh.quest1153.desc=To make your crossbow even better craft an ardite crossbow b
 
 # Quest.1154 - §5§lMagnalium Crossbow Bolts
 gtnh.quest1154.name=§5§lMagnalium Crossbow Bolts
-gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.%nYou can use nether quartz on the bolts to make them even better. %nThis requires a free modifier slot.%nExperiment with NEI to find other good bolt materials. %n%n§4To make it, you must use a Fluid Solidifer instead of the Tinker's casting table.
+gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.%nYou can use nether quartz on the bolts to make them even better. %nThis requires a free modifier slot.%nExperiment with NEI to find other good bolt materials. %n%n§4To make it, you must use a Fluid Solidifer instead of the Tinker's casting table.%n%n§4You'll need to get the molten iron out of the smeltry and into the fluid solidifier, the GT molten iron won't work.
 
 # Quest.1155 - §5§lBasic Fluid Solidifier
 gtnh.quest1155.name=§5§lBasic Fluid Solidifier
@@ -5094,7 +5094,7 @@ gtnh.quest1272.desc=The first step to brew beer or other alcoholic fluids is whe
 
 # Quest.1273 - §5§lBrewing, the Industrial Way
 gtnh.quest1273.name=§5§lBrewing, the Industrial Way
-gtnh.quest1273.desc=If you want brews or alcohol, I recommend you to build one of these. You might have noticed that you cannot build a brewing stand without Thaumcraft. But fear not, you can still find them in chests. Better get searching...
+gtnh.quest1273.desc=If you want brews or alcohol, I recommend you to build one of these. You might have noticed that you cannot build a brewing stand without Thaumcraft. But fear not, you can still find them in secret rooms on the first floor of some roguelike dungeons or ur-ghast towers. Better get searching...
 
 # Quest.1274 - §5§lFerment your brew!
 gtnh.quest1274.name=§5§lFerment your brew!
@@ -5666,7 +5666,7 @@ gtnh.quest1415.desc=If you want pure uranium ores, you'll need to visit Deimos o
 
 # Quest.1416 - §a§lMallard Rust Smelly
 gtnh.quest1416.name=§a§lMallard Rust Smelly
-gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids.
+gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.
 
 # Quest.1417 - §6§lCough cough - Something needs to be done about the smell
 gtnh.quest1417.name=§6§lCough cough - Something needs to be done about the smell
@@ -5710,7 +5710,7 @@ gtnh.quest1426.desc=To reach tier two planets like Mars or its moons  Phobos and
 
 # Quest.1427 - Tier 2 Heavy Duty Plates
 gtnh.quest1427.name=Tier 2 Heavy Duty Plates
-gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's craft 10 tier 2  heavy duty plates out of tier 1 plates and meteoric iron plates.%n%nYou'll need to make a couple of tungstensteel ingots to make these plates. You can use an HV centrifuge with lava, process end stone or endstone dust, or macerate lunar rocks to get some.
+gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's craft 10 tier 2 heavy duty plates out of tier 1 plates and meteoric iron plates.%n%nYou'll need to make a couple of tungstensteel ingots to make these plates. You can process end stone or endstone dust, or macerate lunar rocks to get some.
 
 # Quest.1428 - Tier 2 Schematic
 gtnh.quest1428.name=Tier 2 Schematic
@@ -5844,9 +5844,9 @@ gtnh.quest1459.desc=Every rocket needs a few rocket fins. Tier 3 rockets need he
 gtnh.quest1460.name=Medium Fuel Canister
 gtnh.quest1460.desc=Every rocket needs fuel storage canisters. For the tier 3 rocket you need to craft two small and two medium canisters.
 
-# Quest.1461 - §a§lDesh
-gtnh.quest1461.name=§a§lDesh
-gtnh.quest1461.desc=Desh is a very important material for high tier rockets and used by many recipes in Galacticraft and Galaxy space. Go and find a desh vein on Mars at Y 5-40.
+# Quest.1461 - Just tell me what to scan already!
+gtnh.quest1461.name=Just tell me what to scan already!
+gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the lhird set). The last 5 are dummy aspects you can ignore.%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nPotion of Weakness%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Ingot%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot
 
 # Quest.1462 - Thermal Cloth
 gtnh.quest1462.name=Thermal Cloth
@@ -5974,7 +5974,7 @@ gtnh.quest1492.desc=What? Lost your hand pump already? Well here is a replacemen
 
 # Quest.1493 - §c§lTier 7
 gtnh.quest1493.name=§c§lTier 7
-gtnh.quest1493.desc=LuV-Level. You will need chrome for machines. Suggested planets and moons to visit: Jupiter's Moon Io, Venus and Mercury. Machine parts will now require an Assembling Line - Check Multiblock Goals for details.
+gtnh.quest1493.desc=LuV-Level. You will need Rhodium-Plated Palladium for machines. Suggested planets and moons to visit: Jupiter's Moon Io, Venus and Mercury. Machine parts will now require an Assembling Line - Check Multiblock Goals for details.
 
 # Quest.1494 - §6§f§6§lStainless taking too long?
 gtnh.quest1494.name=§6§f§6§lStainless taking too long?
@@ -6018,7 +6018,7 @@ gtnh.quest1503.desc=...right?  So when building multiblocks, make sure you%n%n1.
 
 # Quest.1504 - §2§e§k§l§r§3§2§lDivine rod of the gods?
 gtnh.quest1504.name=§2§e§k§l§r§3§2§lDivine rod of the gods?
-gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.%n%n§4Be sure to use your NEI skills to figure out which ore block is the best choice for your needs.%n%n§4Other basic ore blocks can be purchased from the Coins tab.%n%nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.%n%n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the durability bar change when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely and fill the durability bar. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.%n%n§4Also, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
+gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.%n%n§4Be sure to use your NEI skills to figure out which ore block is the best choice for your needs.%n%n§4Other basic ore blocks can be purchased from the Coins tab.%n%nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.%n%n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the wand tilt down when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.%n%n§c§4You can craft magnetic iron rods by combining an iron rod with some redstone.%n%n§4Also, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
 
 # Quest.1505 - §2§lNot enough items - Now with bookmarks!
 gtnh.quest1505.name=§2§lNot enough items - Now with bookmarks!
@@ -6130,7 +6130,7 @@ gtnh.quest1531.desc=Each rocket needs a construction plan. Scan it in a hv scann
 
 # Quest.1532 - Tier 4 Heavy Duty Plates
 gtnh.quest1532.name=Tier 4 Heavy Duty Plates
-gtnh.quest1532.desc=Rockets require heavy duty plates for the main hull. Let's craft 12 tier 4 heavy duty plates out of tier 3 plates and compressed ice plates.
+gtnh.quest1532.desc=Rockets require heavy duty plates for the main hull. Let's craft 13 tier 4 heavy duty plates out of tier 3 plates and compressed ice plates.
 
 # Quest.1533 - §b§lCallisto Trip
 gtnh.quest1533.name=§b§lCallisto Trip
@@ -6608,9 +6608,9 @@ gtnh.quest1650.desc=...to fit all this knowledge.  Get some more books!
 gtnh.quest1651.name=A dark path to travel down...
 gtnh.quest1651.desc=...but a path laden with power beyond imagination. Behold mortal, and be terrified!
 
-# Quest.1652 - §6§lPower of a jet engine...
-gtnh.quest1652.name=§6§lPower of a jet engine...
-gtnh.quest1652.desc=The Large Gas Turbine lets you burn gaseous fuels like hydrogen, methane, or benzene. You'll have plenty to turn into EV EU with your new distillation tower.%nJust like the Large Steam Turbine, the LGT uses turbine rotors. Use a fluid regulator to optimize the flow of gases into the turbine - not enough or too much will cause its output to drop.%n%nMake sure your dynamo hatch is rated for the amount of EU your rotor will make!
+# Quest.1652 - Sodium Sulfide
+gtnh.quest1652.name=Sodium Sulfide
+gtnh.quest1652.desc=Combine Sodium and Sulfur to get Sodium Sulfide.
 
 # Quest.1653 - §5§lAkihabra
 gtnh.quest1653.name=§5§lAkihabra
@@ -6626,7 +6626,7 @@ gtnh.quest1655.desc=Dragon eggs are very rare and only drop after a dragon's dea
 
 # Quest.1656 - §a§lEgg mutation
 gtnh.quest1656.name=§a§lEgg mutation
-gtnh.quest1656.desc=After you found a way to make bacterial sludge stronger and research mutagen try soaking your bigger egg in it. You need to wait a bit (up to one hour).%n%nNext use your bigger egg, a stack of uranium 238 (be sure you wear your hazamuit suit), and mutagen. Your cleanroom must be 100 percent clean before you start the process. 
+gtnh.quest1656.desc=After you found a way to make bacterial sludge stronger and research mutagen try soaking your bigger egg in it. You need to wait a bit (up to one hour).%n%nNext use your bigger egg, a stack of uranium 238 (be sure you wear your hazmat suit), and mutagen. Your cleanroom must be 100 percent clean before you start the process. 
 
 # Quest.1657 - §a§lEnder Egg
 gtnh.quest1657.name=§a§lEnder Egg
@@ -6766,7 +6766,7 @@ gtnh.quest1690.desc=Three Tier 6 lootbags give a better one = Tier 7.
 
 # Quest.1691 - §b§lPolybenzimidazole
 gtnh.quest1691.name=§b§lPolybenzimidazole
-gtnh.quest1691.desc=Polybenzimidazole is a synthetic fiber used in ZPM Hulls and in high tier solar panels. It has many steps to produce it. Let's start with the base ingredients.%n%nFirst we make some chlorobenzene out of benzene and chlorine.
+gtnh.quest1691.desc=Polybenzimidazole or PBI is a synthetic fiber needed in ZPM Hulls and in high tier solar panels, and can also be used to make some other items more efficiently. It has many steps to produce it. Let's start with chlorobenzene, but keep in mind you'll need to complete the other non-platinum IV-tier chemical quests too.
 
 # Quest.1692 - §b§lNitration mixture
 gtnh.quest1692.name=§b§lNitration mixture
@@ -6774,7 +6774,7 @@ gtnh.quest1692.desc=We also need nitration mixture. We can do it out of nitric a
 
 # Quest.1693 - §b§l2-Nitrochlorobenzene
 gtnh.quest1693.name=§b§l2-Nitrochlorobenzene
-gtnh.quest1693.desc=Next step is to mixing the nitration mixture with your chlorbenzene in the hv chemical reactor  to get 2-nitrochlorobenzene.
+gtnh.quest1693.desc=Next step is to mixing the nitration mixture with your chlorbenzene in the hv chemical reactor to get 2-nitrochlorobenzene.
 
 # Quest.1694 - §c§b§l3,3 Dichlorobenzidine
 gtnh.quest1694.name=§c§b§l3,3 Dichlorobenzidine
@@ -6798,7 +6798,7 @@ gtnh.quest1698.desc=Mix Sulfuric Acid, Phtalic acid and Phenol to get Diphenyl I
 
 # Quest.1699 - Phenol
 gtnh.quest1699.name=Phenol
-gtnh.quest1699.desc=You can get Phenol in different ways, but why not try using your chlorobenzene and some water.
+gtnh.quest1699.desc=You can get Phenol in different ways, but if you don't have any, you can make some using chlorobenzene and some water.
 
 # Quest.1700 - §b§lPhtalic acid
 gtnh.quest1700.name=§b§lPhtalic acid
@@ -6810,10 +6810,10 @@ gtnh.quest1701.desc=Dimethylbenzene can be distilled from Wood Tar or using Benz
 
 # Quest.1702 - §b§lPotassium Dichromate
 gtnh.quest1702.name=§b§lPotassium Dichromate
-gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrade and Chromium Dioxide in an HV Chemical Reactor.
+gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrade and Chromium Trioxide in an HV Chemical Reactor.
 
-# Quest.1703 - §b§lPotassium Nitrate
-gtnh.quest1703.name=§b§lPotassium Nitrate
+# Quest.1703 - §b§lPotassium Nitrade
+gtnh.quest1703.name=§b§lPotassium Nitrade
 gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and nitric acid.
 
 # Quest.1704 - §b§lChromium Trioxide
@@ -6974,7 +6974,7 @@ gtnh.quest1742.desc=The Moon is rich in Helium 3 because the Sun has been embedd
 
 # Quest.1743 - Saltwater and Chlorobenzene on Mars
 gtnh.quest1743.name=Saltwater and Chlorobenzene on Mars
-gtnh.quest1743.desc=Mars is rich on saltwater and chlorobenzene. If yu run low on chlorine you can centrifuge the fluids.%n%nMore Fluids and Gases can be found on (This list is subject to change due to balancing at any time!):%n%nSalt water%n%n  Moon - v low%n  Mars - Low%n  Europa - High%n  Ross 128ba - High%n%nHelium3%n%n  Moon - V.Low%n  Mercury - Low/High%n  Ross 128ba - High%n%nChlorobenzene%n%n  Mars - V.Low%n%nNitrogen%n%n  Triton - high%n  Pluto - high%n%nMethane%n%n  Titan - High%n%nEthane%n%n  Titan - Low%n%nEthylene%n%n  Triton - Low%n%nOxygen%n%n  Callisto - Low%n%nSuper Heavy Oil%n%n  Europa - low%n  BarnardC - high%n  TCetiE - low%n%nMolten Naquadria%n%n  BarnardC - Low%n  VegaB - high%n%nMolten Naquadha%n%n  Venus - V.Low%n  Titan - low%n  Haumea - high%n%nLiquid air %n%n  Callisto- Low%n  Charon - Medium%n  BarnardE - High%n%nVery Heavy Oil%n%n  Ross 128b - Medium%n%nLava%n%n  Ross 128b - High%n%nRefinery Gas%n%n  Ross 128b - Medium
+gtnh.quest1743.desc=Mars is rich on saltwater and chlorobenzene. If you run low on chlorine you can centrifuge the fluids.%n%nMore Fluids and Gases can be found on (This list is subject to change due to balancing at any time!):%n%nSalt water%n%n  Moon - v low%n  Mars - Low%n  Europa - High%n  Ross 128ba - High%n%nHelium3%n%n  Moon - V.Low%n  Mercury - Low/High%n  Ross 128ba - High%n%nChlorobenzene%n%n  Mars - V.Low%n%nNitrogen%n%n  Triton - high%n  Pluto - high%n%nMethane%n%n  Titan - High%n%nEthane%n%n  Titan - Low%n%nEthylene%n%n  Triton - Low%n%nOxygen%n%n  Callisto - Low%n%nSuper Heavy Oil%n%n  Europa - low%n  BarnardC - high%n  TCetiE - low%n%nLiquid air %n%n  Callisto- Low%n  Charon - Medium%n  BarnardE - High%n%nVery Heavy Oil%n%n  Ross 128b - Medium%n%nLava%n%n  Ross 128b - High%n%nRefinery Gas%n%n  Ross 128b - Medium
 
 # Quest.1744 - §6§lChemical lesson part two
 gtnh.quest1744.name=§6§lChemical lesson part two
@@ -7256,9 +7256,9 @@ gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nTh
 gtnh.quest1813.name=§9§lChloroform
 gtnh.quest1813.desc=The next step is to mix methane and chlorine to make chloroform.  Make sure you have your circuit set correctly.%n%nNow is probably a good time to look at stockpiling chlorine.  Look for salt ores, or lapis veins. You can also make salt water with ghast tears.  Better get started with IC2 crops, you will need a lot of chlorine later!
 
-# Quest.1814 - §9§lTetrafluoroethylene
-gtnh.quest1814.name=§9§lTetrafluoroethylene
-gtnh.quest1814.desc=Liquid hot plastics smell great, don't they? Mix your hydrofluoric acid and chloroform to make tetrafluoroethylene. React the TFE with oxygen to make molten PTFE. Finally a fluid solidifer will make bars for you.
+# Quest.1814 - §9§lPolytetrafluoroethylene
+gtnh.quest1814.name=§9§lPolytetrafluoroethylene
+gtnh.quest1814.desc=Liquid hot plastics smell great, don't they? Mix your hydrofluoric acid and chloroform to make tetrafluoroethylene. React the TFE with oxygen to make molten PTFE. Finally a fluid solidifer will make plates for you.
 
 # Quest.1815 - §9§lHow much is too much fluid?
 gtnh.quest1815.name=§9§lHow much is too much fluid?
@@ -9783,6 +9783,26 @@ gtnh.quest2444.desc=Half fish half creeper. Swim for your life!!!
 # Quest.2445 - Time to kill (Squid)
 gtnh.quest2445.name=Time to kill (Squid)
 gtnh.quest2445.desc=Delicious squid. We're making Tom Yum seafood.
+
+# Quest.2446 - Pumping Water
+gtnh.quest2446.name=Pumping Water
+gtnh.quest2446.desc=RC Water Tanks not cutting it through those dry spells? Or maybe you chose a dry biome to setup in? This pump will produce more water for the low low cost of something burnable (like all that lignite).
+
+# Quest.2447 - Forget Something?
+gtnh.quest2447.name=Forget Something?
+gtnh.quest2447.desc=Need some Electrotine for your Workstations? Go back to the Nether and find a Saltpeter vein at Y 5-45. You can also centrifuge it for Electrum and Redstone if you have too much.
+
+# Quest.2448 - Dichlorobenzene
+gtnh.quest2448.name=Dichlorobenzene
+gtnh.quest2448.desc=To make higher tier cables, you'll have to put a little more effort in. Let's start with Dichlorobenzene.
+
+# Quest.2449 - Polyphenylene Sulfide
+gtnh.quest2449.name=Polyphenylene Sulfide
+gtnh.quest2449.desc=Combine Dichlorobenzene with Sodium Sulfide and Oxygen to get Polyphenylene Sulfide.
+
+# Quest.2450 - Higher Tier Cables
+gtnh.quest2450.name=Higher Tier Cables
+gtnh.quest2450.desc=To make higher tier cables, you'll want to make them with Polyphenylene Sulfide Foils and Silicone. You'll need both Tungsten and Platinum in IV-tier.
 
 ##################################Line##################################
 
