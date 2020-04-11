@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.0.8.9 is work in progress
+Version 2.0.8.9  is out 11.04.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -181,7 +181,7 @@ you find it in your resource folder<BR>
 * Avaritia 1.17<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.13_pre6<BR>
+* Bartworks 0.5.13_pre8<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -234,11 +234,11 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.33.38<BR>
+* Gregtech 5.09.33.40<BR>
 * GT Scanner Mod 1.5.6a<BR>
 * GT Ore Nei Plugin 1.0.7<BR>
-* GT New Horizons Core Mod 1.6.37<BR>
-* GT++ 1.7.05.Local-hazmatfix<BR>
+* GT New Horizons Core Mod 1.6.38<BR>
+* GT++ 1.7.05.47<BR>
 * GTNH TC Wands 1.2.1<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
@@ -299,9 +299,9 @@ you find it in your resource folder<BR>
 * ReAuth 3.5.0<BR>
 * RemoteIO 2.4.0<BR>
 * RF Expansion 3.0.29<BR>
-* Rogue like Dungeons 1.5.0b<BR>
+* Rogue like Dungeons 1.5.1<BR>
 * Resource Loader 1.3.0<BR>
-* SG Craft 1.13.3<BR>
+* SG Craft 1.13.4<BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs 3.3.5<BR>
 * Spice of Life 2.0.0-carot-beta-3<BR>
