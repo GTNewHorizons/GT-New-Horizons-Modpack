@@ -301,7 +301,7 @@ you find it in your resource folder<BR>
 * RF Expansion 3.0.29<BR>
 * Rogue like Dungeons 1.5.1<BR>
 * Resource Loader 1.3.0<BR>
-* SG Craft 1.13.4<BR>
+* SG Craft 1.13.5<BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs 3.3.5<BR>
 * Spice of Life 2.0.0-carot-beta-3<BR>
