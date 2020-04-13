@@ -7,7 +7,6 @@
 import mods.gregtech.ArcFurnace;
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
-import mods.gregtech.Brewery;
 import mods.gregtech.Canner;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
@@ -1528,14 +1527,6 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11340>], [<GalacticraftCore:ite
 // --- Small fallen meteor
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11340> * 2], [<GalacticraftCore:tile.fallenMeteor>], 1200, 120, 1000);
 
-
-
-
-// --- Brewery Recipes ---
-
-
-// --- Bacterial Sludge dublication
-Brewery.addRecipe(<liquid:bacterialsludge> * 75, <gregtech:gt.metaitem.01:2398>, <liquid:binnie.bacteria> * 750, false);
 
 
 
