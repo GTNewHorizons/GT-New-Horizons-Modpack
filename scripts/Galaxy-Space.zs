@@ -370,10 +370,10 @@ recipes.addShaped(<GalaxySpace:machineframes>, [
 [<GalaxySpace:item.CompressedPlates:5>, <dreamcraft:item.WaferTier3>, <GalaxySpace:item.CompressedPlates:5>]]);
 
 // --- Hybride Solar Panel
-recipes.addShaped(<GalaxySpace:solarPanel>, [
-[<GalaxySpace:item.CompressedPlates:2>, <GalacticraftCore:item.basicItem:1>, <GalaxySpace:item.CompressedPlates:2>],
-[<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:machineframes>, <GalacticraftCore:tile.aluminumWire:1>],
-[<gregtech:gt.metaitem.01:32601>, <dreamcraft:item.WaferTier3>, <gregtech:gt.metaitem.01:32691>]]);
+//recipes.addShaped(<GalaxySpace:solarPanel>, [
+//[<GalaxySpace:item.CompressedPlates:2>, <GalacticraftCore:item.basicItem:1>, <GalaxySpace:item.CompressedPlates:2>],
+//[<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:machineframes>, <GalacticraftCore:tile.aluminumWire:1>],
+//[<gregtech:gt.metaitem.01:32601>, <dreamcraft:item.WaferTier3>, <gregtech:gt.metaitem.01:32691>]]);
 
 // --- Advanced Energy Cluster
 recipes.addShaped(<GalaxySpace:storagemoduleT3>, [
