@@ -737,7 +737,7 @@ recipes.addShaped(<EnderIO:blockReservoir> * 2, [
 
 // --- Dimensional Tranceiver
 recipes.addShaped(<EnderIO:blockTransceiver>, [
-[Capacitor5, EnergyFlowCircuit, Capacitor5],
+[Capacitor4, EnergyFlowCircuit, Capacitor4],
 [ECrystal, <ore:frameGtEnderium>, ECrystal],
 [FQuartz, SEnder, FQuartz]]);
 
