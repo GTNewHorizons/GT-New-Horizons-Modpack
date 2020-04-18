@@ -406,7 +406,7 @@ mods.thaumcraft.Research.setComplexity("thaumicenergistics.TETHAUMGBOX", 3);
 
 // --- Arcane Assembler
 mods.thaumcraft.Infusion.addRecipe("thaumicenergistics.TEARCANEASSEMBLER", <extracells:fluidcrafter>, 
-[<Thaumcraft:WandCasting:81>.withTag({aqua: 15000, ignis: 15000, terra: 15000, cap: "thaumium", rod: "silverwood", ordo: 15000, sceptre: 1 as byte, perditio: 15000, aer: 15000}), <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>], 
+[<Thaumcraft:WandCasting:*>.withTag({aqua: 15000, ignis: 15000, terra: 15000, cap: "thaumium", rod: "silverwood", ordo: 15000, sceptre: 1 as byte, perditio: 15000, aer: 15000}), <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>], 
 "auram 16, fabrico 64, metallum 8, permutatio 32, lucrum 16, praecantatio 48, vitreus 16", <thaumicenergistics:thaumicenergistics.block.arcane.assembler>, 16);
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEARCANEASSEMBLER", "lucrum 24, fabrico 21, machina 18, cognitio 15, permutatio 12, auram 9, praecantatio 6, aqua 3");
