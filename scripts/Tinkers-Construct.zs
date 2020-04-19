@@ -13,6 +13,7 @@ import mods.ic2.Compressor;
 import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidExtractor;
+import mods.gregtech.FluidSolidifier;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.Mixer;
 import mods.nei.NEI;
@@ -3970,6 +3971,13 @@ FluidExtractor.addRecipe(null, <minecraft:ender_pearl>, <liquid:ender> * 250, 10
 // --- Fluid XP
 FluidExtractor.addRecipe(null, <TConstruct:oreBerries:5>, <liquid:xpjuice> * 250, 10000, 100, 16);
 
+
+
+// --- Fluid Solidifier Recipes ---
+
+
+// --- Glue Ball
+FluidSolidifier.addRecipe(<TConstruct:materials:36>, <gregtech:gt.metaitem.01:32307> * 0,  <liquid:glue> * 144, 100, 8);
 
 
 // --- Forge Hammer recipes

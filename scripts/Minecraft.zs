@@ -2267,8 +2267,8 @@ recipes.addShaped(<minecraft:diamond_horse_armor>, [
 
 // --- Saddle
 recipes.addShaped(<minecraft:saddle>, [
-[<minecraft:leather>, <Backpack:tannedLeather>, <minecraft:leather>],
-[<minecraft:leather>, <minecraft:carpet:*>, <minecraft:leather>],
+[<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>],
+[<ore:itemLeather>, <minecraft:carpet:*>, <ore:itemLeather>],
 [<ore:ringAnyIron>, <minecraft:string>, <ore:ringAnyIron>]]);
 
 // --- Clock
@@ -2387,7 +2387,7 @@ recipes.addShaped(<minecraft:repeater>, [
 // --- Item Frame
 recipes.addShaped(<minecraft:item_frame>, [
 [String, IronRing, String],
-[<ore:stickWood>, <minecraft:leather>, <ore:stickWood>],
+[<ore:stickWood>, <ore:itemLeather>, <ore:stickWood>],
 [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 // --- Bed
@@ -2694,9 +2694,9 @@ recipes.addShaped(<minecraft:mossy_cobblestone>, [
 
 // --- Book
 recipes.addShaped(Book, [
-[String, Paper, <minecraft:leather>],
+[String, Paper, <ore:itemLeather>],
 [String, Paper, <TConstruct:buckets:25>],
-[String, Paper, <minecraft:leather>]]);
+[String, Paper, <ore:itemLeather>]]);
 
 // --- Book Shelf
 recipes.addShaped(Bookshelf, [

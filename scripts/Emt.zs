@@ -10,6 +10,7 @@ import mods.gregtech.AlloySmelter;
 
 import mods.gregtech.Assembler;
 import mods.gregtech.FluidSolidifier;
+import mods.gregtech.FluidExtractor;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Pulverizer;
 
@@ -1419,6 +1420,13 @@ FluidSolidifier.addRecipe(<EMT:EMTItems:8>, <gregtech:gt.metaitem.01:32307> * 0,
 // --- Rubber Ball
 FluidSolidifier.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:32307> * 0, <liquid:molten.rubber> * 576, 100, 30);
 
+
+
+// --- Fluid Solidifier Recipes
+
+
+// --- Glue Ball
+FluidExtractor.addRecipe(null, <EMT:EMTItems:8>, <liquid:refinedglue> * 288, 10000, 100, 16);
 
 
 
