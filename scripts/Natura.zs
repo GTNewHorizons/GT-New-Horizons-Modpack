@@ -18,7 +18,7 @@ import mods.nei.NEI;
 
 val Cotton = <Natura:barleyFood:3>;
 val ImpLeather = <Natura:barleyFood:6>;
-val Leather = <minecraft:leather>;
+val Leather = <ore:itemLeather>;
 val String = <minecraft:string>;
 val Saw = <ore:craftingToolSaw>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
@@ -36,7 +36,7 @@ val CopperScrew = <ore:screwCopper>;
 
 
 // --- Imp Leather
-recipes.removeShaped(Leather, [
+recipes.removeShaped(<minecraft:leather>, [
 [ImpLeather, ImpLeather],
 [ImpLeather, ImpLeather]]);
 
@@ -233,28 +233,6 @@ furnace.remove(<minecraft:coal:1>, <*>);
 recipes.removeShapeless(<Natura:barleyFood:8>, [<Natura:Bluebells>]);
 
 
-// --- Adding Natura fruits to oredict
-
-<ore:listAllfruit>.add(<Natura:berry:0>);
-<ore:listAllberry>.add(<Natura:berry:0>);
-<ore:listAllfruit>.add(<Natura:berry:1>);
-<ore:listAllberry>.add(<Natura:berry:1>);
-<ore:listAllfruit>.add(<Natura:berry:2>);
-<ore:listAllberry>.add(<Natura:berry:2>);
-<ore:listAllfruit>.add(<Natura:berry:3>);
-<ore:listAllberry>.add(<Natura:berry:3>);
-<ore:listAllfruit>.add(<Natura:berry.nether:0>);
-<ore:listAllberry>.add(<Natura:berry.nether:0>);
-<ore:listAllfruit>.add(<Natura:berry.nether:1>);
-<ore:listAllberry>.add(<Natura:berry.nether:1>);
-<ore:listAllfruit>.add(<Natura:berry.nether:2>);
-<ore:listAllberry>.add(<Natura:berry.nether:2>);
-<ore:listAllfruit>.add(<Natura:berry.nether:3>);
-<ore:listAllberry>.add(<Natura:berry.nether:3>);
-<ore:listAllfruit>.add(<Natura:saguaro.fruit>);
-<ore:cropCactusfruit>.add(<Natura:saguaro.fruit>);
-
-
 // --- Adding Recipes ---
 
 
@@ -268,7 +246,7 @@ recipes.addShapeless(Cotton,
 recipes.addShapeless(<Natura:barley.seed:1>, [<Natura:barleyFood:3>]);
 
 // --- Imp Leather
-recipes.addShaped(Leather, [
+recipes.addShaped(<minecraft:leather>, [
 [String, String, String],
 [ImpLeather, ImpLeather, ImpLeather],
 [String, String, String]]);

@@ -102,7 +102,7 @@ val Minecart = <minecraft:minecart>;
 val CobbleStone = <ore:stoneCobble>;
 val WoodSlab = <ore:slabWood>;
 val TNT = <minecraft:tnt>;
-val Leather =  <minecraft:leather>;
+val Leather =  <ore:itemLeather>;
 val Brick = <minecraft:brick>;
 val Tank = <Railcraft:machine.beta>;
 val Crowbar = <Railcraft:tool.crowbar>;
@@ -577,6 +577,12 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
 
 // --- Soularium
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
+
+// --- Californium Dust
+mods.railcraft.BlastFurnace.removeRecipe(<bartworks:gt.bwMetaGenerateddust:39>);
+
+// --- Crystalline Pink Slime Ingot
+//mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11406>);
 
 // --- All Recipes
 mods.railcraft.RockCrusher.removeRecipe(<*>);
