@@ -18,5 +18,13 @@
 	<CustomDrop EntityClassName="com.emoniph.witchery.entity.EntityEnt">
 		<Drop Identifier="Ent_Moss_TF" ItemName="TwilightForest:tile.TFPlant:3" Amount="2" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
 		<Drop Identifier="Ent_Moss_BOP" ItemName="BiomesOPlenty:moss" Amount="4" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
-	</CustomDrop>	
+	</CustomDrop>
+	<CustomDrop EntityClassName="net.minecraft.entity.monster.EntityZombie">
+		<Drop Identifier="Rune_of_Power_Fragment" ItemName="dreamcraft:item.RuneOfPowerFragment" Amount="10" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="Rune_of_Agility_Fragment" ItemName="dreamcraft:item.RuneOfAgilityFragment" Amount="10" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="Rune_of_Vigor_Fragment" ItemName="dreamcraft:item.RuneOfVigorFragment" Amount="10" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="Rune_of_Defense_Fragment" ItemName="dreamcraft:item.RuneOfDefenseFragment" Amount="10" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="Rune_of_Magic_Fragment" ItemName="dreamcraft:item.RuneOfMagicFragment" Amount="10" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="Rune_of_Void_Fragment" ItemName="dreamcraft:item.RuneOfVoidFragment" Amount="10" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>	
+    </CustomDrop>	
 </CustomDrops>
