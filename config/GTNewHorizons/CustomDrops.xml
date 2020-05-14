@@ -18,5 +18,5 @@
 	<CustomDrop EntityClassName="com.emoniph.witchery.entity.EntityEnt">
 		<Drop Identifier="Ent_Moss_TF" ItemName="TwilightForest:tile.TFPlant:3" Amount="2" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
 		<Drop Identifier="Ent_Moss_BOP" ItemName="BiomesOPlenty:moss" Amount="4" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
-	</CustomDrop>	
+	</CustomDrop>
 </CustomDrops>
