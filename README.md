@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.0.9.0-beta 1 is out 13.05.2020
+Version 2.0.9.0-beta 2 is out 14.05.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -181,7 +181,7 @@ you find it in your resource folder<BR>
 * Avaritia 1.17<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.13_pre12<BR>
+* Bartworks 0.5.13_pre15<BR>
 * Baubles 1.0.1.11<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -261,7 +261,7 @@ you find it in your resource folder<BR>
 * Iron Tanks 1.1.17<BR>
 * Jabba 1.2.5<BR>
 * JourneyMap 5.1.4p2<BR>
-* Kekztech 0.4.2<BR>
+* Kekztech 0.4.4<BR>
 * Lootgames 1.0.18<BR>
 * Magic Bees 2.5.2<BR>
 * Malisis Doors 1.13.2<BR>
