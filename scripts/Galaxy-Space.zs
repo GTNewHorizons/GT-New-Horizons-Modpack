@@ -297,12 +297,6 @@ recipes.addShaped(<dreamcraft:item.RawSDHCAlloy>, [
 [<GalaxySpace:item.CompressedDualBronze>, <GalaxySpace:item.CompressedCoal>, <GalaxySpace:item.CompressedDualAluminium>],
 [<ore:screwStainlessSteel>, <ore:craftingToolHardHammer>, <ore:screwStainlessSteel>]]);
 
-// --- Thermal Cloth Tier 2
-recipes.addShaped(<GalaxySpace:item.ThermalClothT2>, [
-[<ore:foilTitanium>, <dreamcraft:item.TungstenString>, <ore:foilTitanium>],
-[<dreamcraft:item.TungstenString>, <GalacticraftMars:item.itemBasicAsteroids:7>, <dreamcraft:item.TungstenString>],
-[<ore:foilTitanium>, <dreamcraft:item.TungstenString>, <ore:foilTitanium>]]);
-
 // --- Decorate Lead
 recipes.addShaped(<GalaxySpace:metalsblock>, [
 [<ore:craftingToolHardHammer>, <ore:CompressedLead>, null],
@@ -370,10 +364,10 @@ recipes.addShaped(<GalaxySpace:machineframes>, [
 [<GalaxySpace:item.CompressedPlates:5>, <dreamcraft:item.WaferTier3>, <GalaxySpace:item.CompressedPlates:5>]]);
 
 // --- Hybride Solar Panel
-recipes.addShaped(<GalaxySpace:solarPanel>, [
-[<GalaxySpace:item.CompressedPlates:2>, <GalacticraftCore:item.basicItem:1>, <GalaxySpace:item.CompressedPlates:2>],
-[<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:machineframes>, <GalacticraftCore:tile.aluminumWire:1>],
-[<gregtech:gt.metaitem.01:32601>, <dreamcraft:item.WaferTier3>, <gregtech:gt.metaitem.01:32691>]]);
+//recipes.addShaped(<GalaxySpace:solarPanel>, [
+//[<GalaxySpace:item.CompressedPlates:2>, <GalacticraftCore:item.basicItem:1>, <GalaxySpace:item.CompressedPlates:2>],
+//[<GalacticraftCore:tile.aluminumWire:1>, <GalaxySpace:machineframes>, <GalacticraftCore:tile.aluminumWire:1>],
+//[<gregtech:gt.metaitem.01:32601>, <dreamcraft:item.WaferTier3>, <gregtech:gt.metaitem.01:32691>]]);
 
 // --- Advanced Energy Cluster
 recipes.addShaped(<GalaxySpace:storagemoduleT3>, [
@@ -503,17 +497,28 @@ recipes.addShaped(<GalaxySpace:item.spacesuit_boots>, [
 // --- Lead Battery
 Assembler.addRecipe(<GalaxySpace:item.LeadBattery:100>.withTag({electricity: 0.0 as float}), <GalacticraftCore:item.battery:*>, <gregtech:gt.integrated_circuit:1>, <liquid:molten.lead> * 6000, 100, 120);
 
+// --- Thermal Cloth Tier 2
+Assembler.addRecipe(<GalaxySpace:item.ThermalClothT2>, [<GalacticraftMars:item.itemBasicAsteroids:7>, <gregtech:gt.metaitem.01:29028> * 8, <dreamcraft:item.TungstenString> * 8, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.polybenzimidazole> * 576, 600, 1024);
+
 // --- Thermal Helmet Tier 2
-Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2>, <GalaxySpace:item.ThermalClothT2> * 5, <gregtech:gt.integrated_circuit:5> * 0, 1500, 1920);
+Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2>, [<GalaxySpace:item.ThermalClothT2> * 5, <dreamcraft:item.TungstenString> * 5, <gregtech:gt.integrated_circuit:5> * 0], <liquid:molten.polybenzimidazole> * 1440, 1500, 1920);
+// -
+Assembler.addRecipe(<GalaxySpace:item.ThermalClothT2> * 5, <GalaxySpace:item.ThermalPaddingT2>, <gregtech:gt.integrated_circuit:1> * 0, 360, 1024);
 
 // --- Thermal Chestplate Tier 2
-Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:1>, <GalaxySpace:item.ThermalClothT2> * 8, <gregtech:gt.integrated_circuit:8> * 0, 2400, 1920);
+Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:1>, [<GalaxySpace:item.ThermalClothT2> * 8, <dreamcraft:item.TungstenString> * 8, <gregtech:gt.integrated_circuit:8> * 0], <liquid:molten.polybenzimidazole> * 2304, 2400, 1920);
+// -
+Assembler.addRecipe(<GalaxySpace:item.ThermalClothT2> * 8, <GalaxySpace:item.ThermalPaddingT2:1>, <gregtech:gt.integrated_circuit:1> * 0, 600, 1024);
 
 // --- Thermal Leggings Tier 2
-Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:2>, <GalaxySpace:item.ThermalClothT2> * 7, <gregtech:gt.integrated_circuit:7> * 0, 2100, 1920);
+Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:2>, [<GalaxySpace:item.ThermalClothT2> * 7, <dreamcraft:item.TungstenString> * 7, <gregtech:gt.integrated_circuit:7> * 0], <liquid:molten.polybenzimidazole> * 2016, 2100, 1920);
+// -
+Assembler.addRecipe(<GalaxySpace:item.ThermalClothT2> * 7, <GalaxySpace:item.ThermalPaddingT2:2>, <gregtech:gt.integrated_circuit:1> * 0, 520, 1024);
 
 // --- Thermal Boots Tier 2
-Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:3>, <GalaxySpace:item.ThermalClothT2> * 4, <gregtech:gt.integrated_circuit:4> * 0, 1200, 1920);
+Assembler.addRecipe(<GalaxySpace:item.ThermalPaddingT2:3>, [<GalaxySpace:item.ThermalClothT2> * 4, <dreamcraft:item.TungstenString> * 4, <gregtech:gt.integrated_circuit:4> * 0], <liquid:molten.polybenzimidazole> * 1152, 1200, 1920);
+// -
+Assembler.addRecipe(<GalaxySpace:item.ThermalClothT2> * 4, <GalaxySpace:item.ThermalPaddingT2:3>, <gregtech:gt.integrated_circuit:1> * 0, 300, 1024);
 
 // --- Future Glass
 Assembler.addRecipe(<GalaxySpace:futureglass>, <minecraft:glass>, <gregtech:gt.metaitem.01:23884> * 8, 200, 480);

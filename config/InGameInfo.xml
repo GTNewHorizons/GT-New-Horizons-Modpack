@@ -68,7 +68,32 @@
                 <num>4</num>
             </icon>
             <str> Biome: $3{biome}$f</str>
-            <str> $6{temperature}$r°F</str>
+            <str> $6{temperature}$r°F $6</str>
+            <round>
+                <div>
+                    <sub>
+                        <var>temperature</var>
+                        <num>32</num>
+                    </sub>
+                    <num>1.8</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>$r°C $6</str>
+            <round>
+                <add>
+                    <div>
+                        <sub>
+                            <var>temperature</var>
+                            <num>32</num>
+                        </sub>
+                        <num>1.8</num>
+                    </div>
+                    <num>273.15</num>
+                </add>
+                <num>0</num>
+            </round>
+            <str>$r°K</str>
             <str>  $6{humidity}%$f humidity</str>
         </line>
         <line>

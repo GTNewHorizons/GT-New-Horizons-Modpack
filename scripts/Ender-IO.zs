@@ -477,6 +477,12 @@ recipes.remove(<EnderIO:itemExistingItemFilter>);
 // --- Mod Item Filter
 recipes.remove(<EnderIO:itemModItemFilter>);
 
+// --- Big Item Filter
+recipes.remove(<EnderIO:itemBigFilterUpgrade>);
+
+// --- Big Advanced Item Filter
+recipes.remove(<EnderIO:itemBigFilterUpgrade:1>);
+
 // --- Chargeable Upgrade
 recipes.remove(<EnderIO:itemPowerItemFilter>);
 
@@ -737,7 +743,7 @@ recipes.addShaped(<EnderIO:blockReservoir> * 2, [
 
 // --- Dimensional Tranceiver
 recipes.addShaped(<EnderIO:blockTransceiver>, [
-[Capacitor6, EnergyFlowCircuit, Capacitor6],
+[Capacitor4, EnergyFlowCircuit, Capacitor4],
 [ECrystal, <ore:frameGtEnderium>, ECrystal],
 [FQuartz, SEnder, FQuartz]]);
 

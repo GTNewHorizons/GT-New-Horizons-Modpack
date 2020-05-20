@@ -10,6 +10,7 @@ import mods.gregtech.AlloySmelter;
 
 import mods.gregtech.Assembler;
 import mods.gregtech.FluidSolidifier;
+import mods.gregtech.FluidExtractor;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Pulverizer;
 
@@ -1405,16 +1406,27 @@ AlloySmelter.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:2880> * 4, <g
 
 // --- Duct Tape
 Assembler.addRecipe(<EMT:EMTItems:9>, <minecraft:paper> * 12, <EMT:EMTItems:10> * 4, <liquid:glue> * 6912, 600, 30);
+// -
+Assembler.addRecipe(<EMT:EMTItems:9>, <minecraft:paper> * 12, <EMT:EMTItems:10> * 4, <liquid:refinedglue> * 6912, 600, 30);
+
+// --- Fluid Solidifier Recipes
+
+
+// --- Glue Ball
+FluidSolidifier.addRecipe(<EMT:EMTItems:8>, <gregtech:gt.metaitem.01:32307> * 0, <liquid:refinedglue> * 288, 100, 16);
+// -
+FluidSolidifier.addRecipe(<EMT:EMTItems:8>, <gregtech:gt.metaitem.01:32307> * 0, <liquid:glue> * 288, 100, 16);
+
+// --- Rubber Ball
+FluidSolidifier.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:32307> * 0, <liquid:molten.rubber> * 576, 100, 30);
 
 
 
 // --- Fluid Solidifier Recipes
 
 
-
-// --- Rubber Ball
-FluidSolidifier.addRecipe(<EMT:EMTItems:10>, <gregtech:gt.metaitem.01:32307> * 0,  <liquid:molten.rubber> * 576, 100, 30);
-
+// --- Glue Ball
+FluidExtractor.addRecipe(null, <EMT:EMTItems:8>, <liquid:refinedglue> * 288, 10000, 100, 16);
 
 
 

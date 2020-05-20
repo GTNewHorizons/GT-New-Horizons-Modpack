@@ -1047,12 +1047,6 @@ recipes.addShaped(<GalacticraftMars:tile.walkway> * 2, [
 [null, <ore:blockDesh>, null],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
-// --- Thermal Cloth
-recipes.addShaped(<GalacticraftMars:item.itemBasicAsteroids:7> , [
-[AlFoil, <dreamcraft:item.MeteoricIronString>, AlFoil],
-[<dreamcraft:item.MeteoricIronString>, <Thaumcraft:ItemResource:7>, <dreamcraft:item.MeteoricIronString>],
-[AlFoil, <dreamcraft:item.MeteoricIronString>, AlFoil]]);
-
 // --- Desh Sticks
 recipes.addShapeless(<GalacticraftMars:item.null:1>, [<gregtech:gt.metaitem.01:23884>]);
 
@@ -1440,6 +1434,9 @@ ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaite
 
 
 
+// --- Thermal Cloth
+Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7>, [<harvestcraft:wovencottonItem> * 8, <gregtech:gt.metaitem.01:29019> * 8, <dreamcraft:item.MeteoricIronString> * 8, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.silicone> * 144, 300, 480);
+
 // --- Glowstone Torch
 Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <gregtech:gt.metaitem.01:23010>, <minecraft:glowstone_dust>, 100, 16);
 
@@ -1450,22 +1447,22 @@ Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <Galacticra
 Assembler.addRecipe(<GalacticraftMars:tile.hydrogenPipe>, OxygenPipe, <gregtech:gt.metaitem.01:28035> * 4, 400, 16);
 
 // --- Thermal Padding Helm
-Assembler.addRecipe(<GalacticraftMars:item.thermalPadding>, <GalacticraftMars:item.itemBasicAsteroids:7> * 5, <gregtech:gt.integrated_circuit:5> * 0, 750, 1024);
+Assembler.addRecipe(<GalacticraftMars:item.thermalPadding>, [<GalacticraftMars:item.itemBasicAsteroids:7> * 5,  <dreamcraft:item.MeteoricIronString> * 5, <gregtech:gt.integrated_circuit:5> * 0], <liquid:molten.silicone> * 720, 750, 1024);
 // -
 Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 5, <GalacticraftMars:item.thermalPadding>, <gregtech:gt.integrated_circuit:1> * 0, 180, 256);
 
 // --- Thermal Padding Chestpiece
-Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:1>, <GalacticraftMars:item.itemBasicAsteroids:7> * 8, <gregtech:gt.integrated_circuit:8> * 0, 1200, 1024);
+Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:1>, [<GalacticraftMars:item.itemBasicAsteroids:7> * 8, <dreamcraft:item.MeteoricIronString> * 8, <gregtech:gt.integrated_circuit:8> * 0], <liquid:molten.silicone> * 1152, 1200, 1024);
 // -
 Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 8, <GalacticraftMars:item.thermalPadding:1>, <gregtech:gt.integrated_circuit:1> * 0, 300, 256);
 
 // --- Thermal Padding Leggings
-Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, <GalacticraftMars:item.itemBasicAsteroids:7> * 7, <gregtech:gt.integrated_circuit:7> * 0, 1050, 1024);
+Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:2>, [<GalacticraftMars:item.itemBasicAsteroids:7> * 7, <dreamcraft:item.MeteoricIronString> * 7, <gregtech:gt.integrated_circuit:7> * 0], <liquid:molten.silicone> * 1008, 1050, 1024);
 // -
 Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 7, <GalacticraftMars:item.thermalPadding:2>, <gregtech:gt.integrated_circuit:1> * 0, 260, 256);
 
 // --- Thermal Padding Boots
-Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, <GalacticraftMars:item.itemBasicAsteroids:7> * 4, <gregtech:gt.integrated_circuit:4> * 0, 600, 1024);
+Assembler.addRecipe(<GalacticraftMars:item.thermalPadding:3>, [<GalacticraftMars:item.itemBasicAsteroids:7> * 4, <dreamcraft:item.MeteoricIronString> * 4, <gregtech:gt.integrated_circuit:4> * 0], <liquid:molten.silicone> * 576, 600, 1024);
 // -
 Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7> * 4, <GalacticraftMars:item.thermalPadding:3>, <gregtech:gt.integrated_circuit:1> * 0, 150, 256);
 
