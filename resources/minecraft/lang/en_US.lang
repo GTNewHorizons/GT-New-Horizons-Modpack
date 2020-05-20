@@ -646,7 +646,7 @@ gtnh.quest160.desc=Your first hull as usual...
 
 # Quest.161 - Paying the highest price
 gtnh.quest161.name=Paying the highest price
-gtnh.quest161.desc=When regular magic just isn't enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.%n%nIn tier 1 you only need to place the blood altar. Plan for the configuration to grow in size
+gtnh.quest161.desc=When regular magic just isn't enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others'.%n%nIn tier 1 you only need to place the blood altar. Plan for the configuration to grow in size up to 23x23 for a single altar.%n%nKeep in mind that you get less blood, and use more when crafting in GTNH. Plan for pain and frustration too.%n%nThe altar has a 10,000L blood tank, plus a 1,000L I/O buffer (you can pump in and out, but the rate is pitifully low at the start). Blood will flow to the I/O buffer until it's full, so be aware of that before your first craft.
 
 # Quest.162 - §9§lDimensional goal: Moon
 gtnh.quest162.name=§9§lDimensional goal: Moon
@@ -658,7 +658,7 @@ gtnh.quest163.desc=The inventory panel is an alternative to your (hopefully?) ex
 
 # Quest.164 - Portable battery...
 gtnh.quest164.name=Portable battery...
-gtnh.quest164.desc=Not exactly a "battery", more a portable access point for your life points, aka blood.
+gtnh.quest164.desc=Using this binds it to you (expect to do that a lot), and consumes one heart while depositing 200LP in your 'soul network'. You can draw upon the soul network for anything that needs LP such as Alchemy or Rituals. If you want to automate it, you can put it into your altar for a 1:1 conversion of blood. %n%nThe highest tier orb you have bound will be considered the maximum limit to LP in your network, but you'll need to put it into the appropriately tiered altar to keep absorbing blood.
 
 # Quest.165 - §9§lSoul eater
 gtnh.quest165.name=§9§lSoul eater
@@ -710,7 +710,7 @@ gtnh.quest176.desc=The main goal here is to get a tier 2 rocket, and reach Mars.
 
 # Quest.177 - *Poke*
 gtnh.quest177.name=*Poke*
-gtnh.quest177.desc=Time to get some blood. You will have to start with your own...
+gtnh.quest177.desc=Time to get some blood. You will have to start with your own...%n%nYou get 100LP in the altar for each use.
 
 # Quest.178 - It's storage time!
 gtnh.quest178.name=It's storage time!
@@ -724,25 +724,25 @@ gtnh.quest179.desc=There are a lot of asteroids on the surface, but there are mo
 gtnh.quest180.name=16k Item Storage Cell
 gtnh.quest180.desc=Middle tier storage cell, which can contain 16,384 bytes of storage. 16,384 bytes of storage can hold 2,032 stacks of a single item, or 1,040 stacks, while holding 63 different items. The 16k storage cell uses 128 bytes of data to store a single type. When placed inside a drive or chest will consume 1.5 ae/t. Must be in an ME Drive or ME chest to be usable. You can remove the 16k ME storage component by fully emptying the storage cell, and sneak clicking it in your hand.
 
-# Quest.181 - Fluix crystals
-gtnh.quest181.name=Fluix crystals
-gtnh.quest181.desc=Not "flux"! Even if the color is the same. You need to add redstone and netherquartz to a charged certus crystal.
+# Quest.181 - Fluix Crystals
+gtnh.quest181.name=Fluix Crystals
+gtnh.quest181.desc=Not "flux"! Even if the color is the same. You need to add redstone and nether quartz to a charged certus crystal.
 
-# Quest.182 - Applied crafting
-gtnh.quest182.name=Applied crafting
-gtnh.quest182.desc=Crafting can be a pain. So why not automate it?
+# Quest.182 - Applied Crafting
+gtnh.quest182.name=Applied Crafting
+gtnh.quest182.desc=Crafting can be a pain. So why not automate it? These can hold a single pattern each. However, if you place an ME interface against it, you can use it to craft any of the patterns in it. You can use multiple with the same MA, and given how expensive they are now, that might be a good idea. These do NOT require a channel, but do require network access.
 
-# Quest.183 - Getting your first circuits
-gtnh.quest183.name=Getting your first circuits
-gtnh.quest183.desc=Making the circuits is quite different from what you're used to, so it's advised to check NEI for the new recipes. Get 8 of each circuit for now.
+# Quest.183 - Getting Your First Processors
+gtnh.quest183.name=Getting Your First Processors
+gtnh.quest183.desc=There are 3 different ways to make AE2 processors. First, there's the AE2 Inscribers, which are slow, hold one of each item at a time, require inputs (and output) from specific directions, but can be sped up with cards. Second, there's the Advanced Inscribers, which are similar, but allow stacking, and do not require specific dirctions. Lastly, there's GT Assemblers (and later the multiblock) which can be very fast, but require a fluid input, and consume more power. Get 8 of each one for now.
 
 # Quest.184 - Cables
 gtnh.quest184.name=Cables
 gtnh.quest184.desc=To have access to your applied energistics network from your entire base, you'll need cables. A lot of them. For now, the basic ones will do, but eventually, you'll end up using dense cables and p2p channels. Glass and Covered cables are functionally identical, just different in looks. Each can carry 8 channels.  Quartz fibers don't carry channels but can carry energy. This is useful for providing power from your main network to independant subnetworks.%n%nYou can also color your cables - cables with different colors will not connect, so those can be used to expand network capacity by running parallel cables. Only fluix colored cables connect to all other colors. Later it will probably be more efficient to use P2P channels to jam a bunch of channels into 1.%n%nAnchors are like covers, keeping things from connecting when you don't want them to.
 
-# Quest.185 - Terminals everywhere
-gtnh.quest185.name=Terminals everywhere
-gtnh.quest185.desc=The ME Terminal is a HID which gives you access to an ME network's networked storage.%n%nIt has the ability to sort and search, as well as filter by using a view cell. It requires a channel to function.%n%nCan be upgraded into an ME crafting terminal.%n%nThe ME crafting terminal is the upgraded version of the ME terminal which has an integrated crafting grid with access to an ME network's networked storage.%n%nLike the ME terminal it also requires a channel to function.%n%nGives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME interface in the inscriber or an anvil to alter the name displayed in the ME interface terminal.%n%nCombined with the fact that you can toggle if the interface shows up at all this gets you control over your interface terminal's display.
+# Quest.185 - Basic Terminals
+gtnh.quest185.name=Basic Terminals
+gtnh.quest185.desc=The ME Terminal is an interface which gives you access to an ME network's networked storage. It has the ability to sort and search, as well as filter by using a view cell.%n%nThe ME Crafting Terminal is the upgraded version of the ME terminal which has an integrated crafting grid with access to an ME network's networked storage.%n%nThe ME Interface Terminal gives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME interface in the inscriber or an anvil to alter the name displayed in the ME interface terminal. If you use Ender Chests to send stuff elsewhere to be processed a lot, this may help with reducing confusion. You can also search for a specific device.
 
 # Quest.186 - §a§lDimensional goal: Mars
 gtnh.quest186.name=§a§lDimensional goal: Mars
@@ -814,7 +814,7 @@ gtnh.quest202.desc=If an ender quarry won't satisfy your needs for MOOORE. A spe
 
 # Quest.203 - Bundled AE channels
 gtnh.quest203.name=Bundled AE channels
-gtnh.quest203.desc=P2P tunnels. You will need a lot of them! These are fancy fluid/item pipes that will transport fluids or items from one "point" to "another".  Items transportered will not show up on crafting terminals etc, they just use the network as transport.%n%nThey can also pack up to 32 channels into 1 bundle and transport those to the destination p2p bus.  Each P2P tunnel requires 1 free channel. The network carrying the P2P must be separate from the network with the channels. These P2P connections cannot be nested, but one transport cable can carry multiple P2P connections.%n%nA nice online guide can be found at https://tinyurl.com/GTNH-AE2 under P2P tunnels.
+gtnh.quest203.desc=P2P tunnels. You will need a lot of them! These are fancy fluid/item pipes that will transport fluids or items from one "point" to "another".  Items transported will not show up on crafting terminals etc, they just use the network as transport.%n%nThey can also pack up to 32 channels into 1 bundle and transport those to the destination p2p bus.  Each P2P tunnel requires 1 free channel. The network carrying the P2P must be separate from the network with the channels. These P2P connections cannot be nested, but one transport cable can carry multiple P2P connections.%n%nGenerally, you'll want to have the first point be one side of an ME Controller block (remember you can add more!), and the other where your machines are.%n%nA nice online guide can be found at https://tinyurl.com/GTNH-AE2 under P2P tunnels.
 
 # Quest.204 - Load and unload the rocket
 gtnh.quest204.name=Load and unload the rocket
@@ -912,9 +912,9 @@ gtnh.quest226.desc=Everything is made of 6 primal aspects. Those aspects can be 
 gtnh.quest227.name=Tables to work on
 gtnh.quest227.desc=Indeed, the idea with the bookshelf did work. Now you need a nice table to do some research on, and probably something to infuse items with vis while crafting. Maybe you should try to smite a table with your wand.
 
-# Quest.228 - Bloody water
-gtnh.quest228.name=Bloody water
-gtnh.quest228.desc=By sacrificing some blood to the water spirits, they'll grant you some of their precious element.
+# Quest.228 - Tier 2 Sigils
+gtnh.quest228.name=Tier 2 Sigils
+gtnh.quest228.desc=With Reinforced Slates, you can make new sigils.
 
 # Quest.229 - Infused stones
 gtnh.quest229.name=Infused stones
@@ -1624,25 +1624,25 @@ gtnh.quest404.desc=Demons are powerful, evil beings who dwell in the infernal di
 gtnh.quest405.name=The power of infinity
 gtnh.quest405.desc=You've mastered everything possible. And now it's time to give your equipment the final boost. The infinity egg is just the right addition to your altar. It's quite expensive, but well worth the cost.
 
-# Quest.406 - Lava for blood
-gtnh.quest406.name=Lava for blood
-gtnh.quest406.desc=Well, both are red, so that connection was quite obvious... Was it...?
+# Quest.406 - Tier 3 Sigils
+gtnh.quest406.name=Tier 3 Sigils
+gtnh.quest406.desc=They're actually useful this time.
 
 # Quest.407 - Tier 1 slates
 gtnh.quest407.name=Tier 1 slates
-gtnh.quest407.desc=The basic slates. Basically just stone with blood infused in it.
+gtnh.quest407.desc=The basic slates. Basically just stone with blood infused in it.%n%nYou can either pump the blood out, use buckets, or fill cells to get the blood for the cutting machine.
 
 # Quest.408 - See all the things
 gtnh.quest408.name=See all the things
-gtnh.quest408.desc=It's quite difficult to see how much blood there is in your altar, or your personal blood network. This little device will solve that problem for you. Just a little prick in the finger, and everything will be revealed.
+gtnh.quest408.desc=It's quite difficult to see how much blood there is in your altar, or your personal blood network. This little device will solve that problem for you. Just a little prick in the finger, and everything will be revealed.%n%nYou can also make the sigil of sight when you have the alchemy set too.
 
 # Quest.409 - Basic rune
 gtnh.quest409.name=Basic rune
-gtnh.quest409.desc=The basic rune that you can craft at this moment.%n%nYou need  8 runes for your tier 2 altar, which can hold more blood, and you can make new recipes now.
+gtnh.quest409.desc=The Blood Rune is the basic rune that makes up blood altars, expect to make a lot of them.%n%nYou need 8 runes for your tier 2 altar. You can make new stuff with your upgraded altar.
 
 # Quest.410 - Alchemy with blood
 gtnh.quest410.name=Alchemy with blood
-gtnh.quest410.desc=Not like "blood alchemy". You probably will need more than one later, but for now one is sufficient.
+gtnh.quest410.desc=Not like "blood alchemy". You probably will need more than one later, but for now one is sufficient.%n%nPlace an orb in the slot to start crafting, using LP from your network. You'll need higher tier orbs to craft more complicated items.
 
 # Quest.411 - Potion catalysts
 gtnh.quest411.name=Potion catalysts
@@ -1666,7 +1666,7 @@ gtnh.quest415.desc=Just to give you an idea what is possible. Let's do a sample 
 
 # Quest.416 - Simple, but powerful spells
 gtnh.quest416.name=Simple, but powerful spells
-gtnh.quest416.desc=The simple spell system is rather easy to setup, and can be done early on in your bloodmagic career.
+gtnh.quest416.desc=The simple spell system is rather easy to setup, and can be done early on in your blood magic career.
 
 # Quest.417 - Paradigm
 gtnh.quest417.name=Paradigm
@@ -1680,9 +1680,9 @@ gtnh.quest418.desc=There are nine basic elements and each has a focus, an item t
 gtnh.quest419.name=Some examples
 gtnh.quest419.desc=There are a LOT of spell combinations to discover, so just use trial and error!
 
-# Quest.420 - Convenient slate
-gtnh.quest420.name=Convenient slate
-gtnh.quest420.desc=Collecting items while mining or chopping wood is always tedious. But no more! With this fancy little thing items will just fly towards you! And it only costs a little bit of blood to pay the spirits of wind to work for you.
+# Quest.420 - Tier 4 Sigils
+gtnh.quest420.name=Tier 4 Sigils
+gtnh.quest420.desc=Are they useful? Maybe.
 
 # Quest.421 - Tier 3 slates
 gtnh.quest421.name=Tier 3 slates
@@ -1702,19 +1702,19 @@ gtnh.quest424.desc=Your tier 3 orb.
 
 # Quest.425 - Elemental chalk
 gtnh.quest425.name=Elemental chalk
-gtnh.quest425.desc=Creation of better ritual stones.
+gtnh.quest425.desc=Necessary for rituals. You can technically use these to make the rituals, but just make the diviner.
 
 # Quest.426 - Sacrificial runes
 gtnh.quest426.name=Sacrificial runes
-gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the LP gain from mobs or yourself.
+gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the blood gain from mobs or yourself.%n%nThese increase the blood gain by 10% additively for each rune.
 
 # Quest.427 - Tier 3 runes
 gtnh.quest427.name=Tier 3 runes
-gtnh.quest427.desc=The first rune to increase your capacity, and a rune to speed up transfer from/to external tanks.
+gtnh.quest427.desc=The first rune increases the I/O from the altar's buffer by a multiplicative 20% rate, and the second increases your altar's capacity by 2000L. This also increases the size of the I/O buffer, which is always 10% of the altar.
 
-# Quest.428 - Basic rituals
-gtnh.quest428.name=Basic rituals
-gtnh.quest428.desc=Now that you have access to elemental chalk, you can get yourself the basic ritual diviner. A convenient way to place simple but yet complex magical rituals.
+# Quest.428 - Rituals made easy
+gtnh.quest428.name=Rituals made easy
+gtnh.quest428.desc=Now that you have access to elemental chalk, you can get yourself the basic ritual diviner. A convenient way to place simple but yet complex magical rituals. Shift-right-click to cycle between rituals
 
 # Quest.429 - Powerful armor
 gtnh.quest429.name=Powerful armor
@@ -1734,7 +1734,7 @@ gtnh.quest432.desc=Diamonds and emeralds are limited in their ability to store L
 
 # Quest.433 - Rituals
 gtnh.quest433.name=Rituals
-gtnh.quest433.desc=Time for some rituals. The most basic one you'll probably get first is the ritual of binding.
+gtnh.quest433.desc=Time for some rituals. The most basic one you'll probably get first is the ritual of binding.%n%nThere are various rituals, some useful, some not. The other ones you're likely to care about are: Serenade of the Nether (if you don't like everburn urns), Ballad of Alchemy (for automating alchemy), Well of Suffering (for automating blood collection), Mark of the Falling Tower (summon a meteor filled with IV-tier ore), and the endgame Convocation of the Damned.
 
 # Quest.434 - Bound tools: Pickaxe
 gtnh.quest434.name=Bound tools: Pickaxe
@@ -1854,7 +1854,7 @@ gtnh.quest462.desc=Triggers if you craft the Catalyst.
 
 # Quest.463 - Runes tier 2
 gtnh.quest463.name=Runes tier 2
-gtnh.quest463.desc=Speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.
+gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.%n%nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.
 
 # Quest.464 - The technician part 2
 gtnh.quest464.name=The technician part 2
@@ -1930,7 +1930,7 @@ gtnh.quest481.desc=I guess you already processed a bit of wood into charcoal and
 
 # Quest.482 - §2§lAnimal farms
 gtnh.quest482.name=§2§lAnimal farms
-gtnh.quest482.desc=Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other.
+gtnh.quest482.desc=Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other (this happens to villagers as well).%n%nAnimals will prioritize moving towards grass blocks over any other blocks, and if there's no grass blocks around, lit blocks over dark blocks. You can encourage animals to stay in pens (or at least not crowd the edges) by removing grass from around both sides of the fence (and under!) and placing a torch in the center of the pen. For sheep that need the grass to eat (reduces time to mature and replaces sheared wool instantly), place it in the center of a cleared out area with a border of non-grass.%n%nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So make sure you limit animals to no more than ~ 1 per block for small entities like chickens and 1 entity per 2 blocks for large entities like cows if playing MP.
 
 # Quest.483 - §2§lGardener
 gtnh.quest483.name=§2§lGardener
@@ -2334,7 +2334,7 @@ gtnh.quest582.desc=The smallest farm you can build requires 36 farm blocks (3x4x
 
 # Quest.583 - Farm logic
 gtnh.quest583.name=Farm logic
-gtnh.quest583.desc=This chip is optional and more advanced. Farms can work without it. But if you want to configure your farm you will need one of them.
+gtnh.quest583.desc=This chip is optional and more advanced. Farms can work without it. But if you want to configure your farm you will need one of them. For each circuit tier, you can configure 1/4 more of your farm. So if you want to do more than grow trees, you'll need them.
 
 # Quest.584 - Change your farm circuit configuration
 gtnh.quest584.name=Change your farm circuit configuration
@@ -2842,11 +2842,11 @@ gtnh.quest709.desc=Enhanced elemental chalk, to write "darker" runes than you're
 
 # Quest.710 - Tier 4 runes
 gtnh.quest710.name=Tier 4 runes
-gtnh.quest710.desc=You will want both runes. Rune of superior capacity to increase the storage of your blood altar, and rune of the orb. Later it is required if you want to advance to higher levels.
+gtnh.quest710.desc=Runes of Superior Capacity increase the Altar's size by 10% multiplicatively. If you have more than 14 of the lesser versions, it's more efficient to use these.%n%nRunes of the Orb increase the soul network size by 2% each. You'll need them later on.
 
 # Quest.711 - Tier 5 runes
 gtnh.quest711.name=Tier 5 runes
-gtnh.quest711.desc=The final frontier: There are not many runes available. The acceleration rune allows you to speed up the interaction with external tanks.
+gtnh.quest711.desc=The final frontier: There are not many runes available. The acceleration rune reduces the tick time until the next buffer I/O interaction. It starts at 20, and is reduced by 1 for each rune, with the minimum being 1.
 
 # Quest.712 - Advanced rituals
 gtnh.quest712.name=Advanced rituals
@@ -2858,7 +2858,7 @@ gtnh.quest713.desc=The last rune so far, used for the most powerful rituals.
 
 # Quest.714 - Convocation of the damned
 gtnh.quest714.name=Convocation of the damned
-gtnh.quest714.desc=Time to open a portal to the demons we're using all the time. What could possibly go wrong? (It is recommended to do this ritual on a planet, as the demon city will spread quite a bit...)
+gtnh.quest714.desc=Time to open a portal to the demons we're using all the time. What could possibly go wrong? (It is recommended to do this ritual on a planet, as the demon city will spread quite a bit...)%n%nIt's complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you'll need 25 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.
 
 # Quest.715 - Imbued spell upgrades
 gtnh.quest715.name=Imbued spell upgrades
@@ -2946,7 +2946,7 @@ gtnh.quest735.desc=If you are lucky and find some brewing stands or familiar eno
 
 # Quest.736 - §6§lFermented Biomass
 gtnh.quest736.name=§6§lFermented Biomass
-gtnh.quest736.desc=With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.\nWhen you reach HV tier there\u0027s a more efficient way to process it - the distillation tower multiblock.
+gtnh.quest736.desc=No Description
 
 # Quest.737 - Can u eat those? 
 gtnh.quest737.name=Can u eat those? 
@@ -3502,7 +3502,7 @@ gtnh.quest874.desc=Do you like flying? Ok then, make a slimy bouncepad and enjoy
 
 # Quest.875 - §3§lSlime Island Journey
 gtnh.quest875.name=§3§lSlime Island Journey
-gtnh.quest875.desc=Rubber trees are not the only source for raw rubber. Go and find a slimy island high in the sky. Slime balls and slime leaves give raw rubber too.%nMake some slime tree farms beside your rubber farm.
+gtnh.quest875.desc=Rubber trees are not the only source for raw rubber. Go and find a slimy island high in the sky. Slime balls and slime leaves give raw rubber too.%nMake some slime tree farms beside your rubber farm.%n%n§3Liquid slime is not allowed to be placed down, as it acts as a spawner, and can cause lag.
 
 # Quest.876 - §6§lBring me my vat of polyethelyne!
 gtnh.quest876.name=§6§lBring me my vat of polyethelyne!
@@ -3706,7 +3706,7 @@ gtnh.quest925.desc=You beat the game, literally. There is nothing left to do, yo
 
 # Quest.926 - Blood Altar Tier 3
 gtnh.quest926.name=Blood Altar Tier 3
-gtnh.quest926.desc=To make your altar more powerful you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium block and on top one block of glowstone blocks on each pillar.
+gtnh.quest926.desc=To make your altar more powerful you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium blocks and on top a block of glowstone on each pillar.%n%nPS: Go to a wiki to see how the structure looks, the pillars are the only change.
 
 # Quest.927 - Blood Altar Tier 4
 gtnh.quest927.name=Blood Altar Tier 4
@@ -5014,7 +5014,7 @@ gtnh.quest1252.desc=An HV chemical bath or better is needed for the quantum eye.
 
 # Quest.1253 - 16k Component
 gtnh.quest1253.name=16k Component
-gtnh.quest1253.desc=Second largest storage component, used to make 16k ME storage cell, or can be upgraded to make 64k ME storage component. Can be recovered from a crafted 16k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.
+gtnh.quest1253.desc=Second largest vanilla storage component, used to make 16k ME storage cells, or can be upgraded to make 64k ME storage components. Can be recovered from a crafted 16k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.
 
 # Quest.1254 - 16k Crafting Storage
 gtnh.quest1254.name=16k Crafting Storage
@@ -5026,7 +5026,7 @@ gtnh.quest1255.desc=Highest tier storage cell, which can contain 65,536 bytes of
 
 # Quest.1256 - 64k Component
 gtnh.quest1256.name=64k Component
-gtnh.quest1256.desc=Largest storage component, used to make 64k ME storage cell. Can be recovered from a crafted 64k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.
+gtnh.quest1256.desc=Largest vanilla storage component, used to make 64k ME storage cells. Can be recovered from a crafted 64k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.
 
 # Quest.1257 - 64k Crafting Storage
 gtnh.quest1257.name=64k Crafting Storage
@@ -5034,7 +5034,7 @@ gtnh.quest1257.desc=Component of the crafting CPU which provides 65,536 bytes of
 
 # Quest.1258 - Wireless Booster
 gtnh.quest1258.name=Wireless Booster
-gtnh.quest1258.desc=The wireless booster is used to increase the range of the ME wireless access point.
+gtnh.quest1258.desc=The Wireless Booster is used to increase the range of the ME Wireless Access Point, and stack up to 64. The cost increases more the more you add, as such:%n%n16 Boosters%n Range: 80%n EU/t: 20%n%n32 Boosters%n Range: 197%n EU/t: 94.5%n%n48 Boosters%n Range: 348.5%n EU/t: 441.67%n%n64 Boosters%n Range: 528%n EU/t: 2050
 
 # Quest.1259 - Filling Tanks
 gtnh.quest1259.name=Filling Tanks
@@ -5160,32 +5160,32 @@ gtnh.quest1288.desc=If you don't want pure alcohol, but beer, get some hops by c
 gtnh.quest1289.name=§9§lHV Bender
 gtnh.quest1289.desc=An HV Bender is going to be 4x faster than your LV Bender, but it also opens up an important recipe - Tin cans!  %n%nWith this bender you can turn Tin Casings into Tin Cans.  Using the Tin Cans with food in a Canner (LV is fine) will make Canned Food. This can stack up to 64, and will fully restore your shanks - no need to rotate food types any more! You will eat as much as you need with one click. One drawback is you will no longer get the Well Fed buff with its slight health regen bonus. Also, these cans don't fit in the lunch bag or lunch box so you don't need those any more.
 
-# Quest.1290 - Imma chargin' my...
-gtnh.quest1290.name=Imma chargin' my...
-gtnh.quest1290.desc=Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.%nUse the autoclave to make crystals.
+# Quest.1290 - Imma Chargin' My...
+gtnh.quest1290.name=Imma Chargin' My...
+gtnh.quest1290.desc=Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.%nUse the autoclave to make crystals. Or if you have lots of sodium, you can use the chemical reacto recipe. You can also make the charger to go directly from crystal to charged crystal, but it's not very fast. The charger can connect directly to a GT cable or a fluix cable from the bottom.
 
 # Quest.1291 - Keeping your Network Happy
 gtnh.quest1291.name=Keeping your Network Happy
-gtnh.quest1291.desc=Helps with fluctuating power. Energy cells store up to 200,000 AE. They do not accept power directly but are used to buffer some power in an already existing ME network.
+gtnh.quest1291.desc=Helps with fluctuating power. Energy cells store up to 200,000 AE. They do not accept power directly but are used to buffer some power in an already existing ME network. Energy Cells do not use a channel.
 
-# Quest.1292 - Storing your ME data
-gtnh.quest1292.name=Storing your ME data
-gtnh.quest1292.desc=A block designed to do one thing, store storage cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space. ME drives show their contents and the storage cell status on the front of the drive face. Red - Indicates the storage cell is full. Orange - Indicates the storage cell cannot hold any more types, but it can store more items. Green - Indicates the cell can hold more types, or more items. Black - Indicates there is no channel, or power is offline. It's important to note, that without an ME Network this block does nothing. It's only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each storage cell stored inside it. The ME drive requires a channel to function.
+# Quest.1292 - Storing Your ME Data
+gtnh.quest1292.name=Storing Your ME Data
+gtnh.quest1292.desc=A block designed to do one thing, store storage cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space. ME drives show their contents and the storage cell status on the front of the drive face.%n%nRed - Indicates the storage cell is full.%nOrange - Indicates the storage cell cannot hold any more types, but it can store more items.%nGreen - Indicates the cell can hold more types, or more items.%nBlack - Indicates there is no channel, or power is offline.%n%nIt's important to note, that without an ME Network this block does nothing. It's only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each storage cell stored inside it.%n%nAbout Priority: Many devices in AE2 have a priority setting, this determines what gets items first. This is useful in some situations, but not so much in others. Higher number = higher priority.
 
 # Quest.1293 - Safety first!
 gtnh.quest1293.name=Safety first!
-gtnh.quest1293.desc=This storage cell housing is blast proof and stores only 3 cells.
+gtnh.quest1293.desc=This storage cell housing is blast proof and stores only 3 cells.%n%n§4Also super buggy (graphically).
 
-# Quest.1294 - Speeding up growth
-gtnh.quest1294.name=Speeding up growth
-gtnh.quest1294.desc=Used to accelerate the process of purifying crystals, which allows you to create pure certus quartz crystal, pure nether quartz crystal and pure fluix crystal. Must be powered by an ME Network via the top or bottom, and consumes a steady 8 ae/t while plugged in. Crystal Seeds must be in an adjacent water block to be affected - the seeds will shimmer more rapidly when in the presence of a powered crystal growth accelerator. Can only connect to cables, or other networked machines on the top and bottom of the machine.
+# Quest.1294 - Speeding Up Growth
+gtnh.quest1294.name=Speeding Up Growth
+gtnh.quest1294.desc=Used to accelerate the process of purifying crystals, which allows you to create pure certus quartz crystal, pure nether quartz crystal and pure fluix crystal. Must be powered by an ME Network via the sides with the +, and consumes a steady 8 ae/t while plugged in. Crystal Seeds must be in an adjacent water block to be affected - the seeds will shimmer more rapidly when in the presence of a powered crystal growth accelerator. These do not use a channel.
 
 # Quest.1295 - Perfecting Crystal Growth
 gtnh.quest1295.name=Perfecting Crystal Growth
-gtnh.quest1295.desc=The crystal growth chamber is used for fast crystal growth, and it is possible to increase its speed by installing an acceleration card in an upgrade slot.
+gtnh.quest1295.desc=The crystal growth chamber is used for fast crystal growth, and it is possible to increase its speed by installing acceleration cards in an upgrade slot. It works more like a normal device, with the crystals growing in its internal inventory. Unlike the more primitive versions, it doesn't use power when not in use. It also doesn't use a channel.
 
-# Quest.1296 - Purifying the impure
-gtnh.quest1296.name=Purifying the impure
+# Quest.1296 - Purifying the Impure
+gtnh.quest1296.name=Purifying the Impure
 gtnh.quest1296.desc=Purified versions of nether, certus and fluix crystals
 
 # Quest.1297 - Dragon essense
@@ -5194,15 +5194,15 @@ gtnh.quest1297.desc=Need some Dragon essense? Buy some!
 
 # Quest.1298 - Wireless Setup
 gtnh.quest1298.name=Wireless Setup
-gtnh.quest1298.desc=Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.%n%nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides network level security.%n%nThe player who places the ME security terminal has full control over the network and cannot exclude himself any rights. By adding a blank biometric card you define a default behavior for every player who has no biometric card registered.%n%nIn addition to security on the software layer, you can link up your wireless terminal with the network and access it wirelessly.%n%n%nAllows wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless boosters installed into the ME wireless access point. A network can have any number of ME wireless access point with any number of wireless boosters in each one, allowing you to optimize power usage and range by altering your setup. Requires a channel to be operational.
+gtnh.quest1298.desc=Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.%n%nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides network level security.%n%nThe player who places the ME security terminal has full control over the network and cannot exclude himself any rights. By adding a blank biometric card you define a default behavior for every player who has no biometric card registered.%n%nIn addition to security on the software layer, you can link up your wireless terminal with the network and access it wirelessly.%n%nIf you have one on your main network, your subnets may also need one to have access to your main network, but this is not always the case depending on how you set it up.%n%n%nThe ME Wireless Access Point wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless boosters installed into the ME wireless access point. A network can have any number of ME wireless access points with any number of wireless boosters in each one, allowing you to optimize power usage and range by altering your setup.
 
-# Quest.1299 - Dense boys
-gtnh.quest1299.name=Dense boys
+# Quest.1299 - Dense Boys
+gtnh.quest1299.name=Dense Boys
 gtnh.quest1299.desc=Giving your network even more stability. Dense energy cells store AE energy up to 1.6 million units. They do not accept power directly but are used to buffer power in an already existing ME Network.
 
 # Quest.1300 - ME in the Ether
 gtnh.quest1300.name=ME in the Ether
-gtnh.quest1300.desc=After you linked up the wireless terminal in the ME security terminal, it grants a portable access to the ME network. Put it into a charger to recharge it.%n%nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME wireless access point.
+gtnh.quest1300.desc=After you link up the wireless terminal in the ME security terminal, it grants portable access to the ME network. Put it into a charger to recharge it.%n%nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME wireless access point.%n%nCharge your Wireless Terminals (and the successors) with an EIO Wireless Charger if you don't want to wait a century for them to charge.
 
 # Quest.1301 - Annihilation and Formation
 gtnh.quest1301.name=Annihilation and Formation
@@ -5210,11 +5210,11 @@ gtnh.quest1301.desc=Formation Core - a component which can convert energy back i
 
 # Quest.1302 - Interfacing with Machines
 gtnh.quest1302.name=Interfacing with Machines
-gtnh.quest1302.desc=The ME Interface is the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface. The ME Interface acts as an in between when working with pipes, tubes, networks, or machines from other mods.
+gtnh.quest1302.desc=The ME Interface is the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface. The ME Interface acts as an in between when working with pipes, tubes, networks, or machines from other mods.%n%n§3If you're using a resource pack and the interface's GUI doesn't show up properly, you'll need to delete the assets\\appliedenergistics2\\textures\\guis\\interface.png file in your resourcepack zip file.
 
 # Quest.1303 - Interfacing with Inventories
 gtnh.quest1303.name=Interfacing with Inventories
-gtnh.quest1303.desc=The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.%n%nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.%n%nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.%n%nThe storage bus will function with nearly any inventory block, including ME Interface, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.%n%nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.
+gtnh.quest1303.desc=The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.%n%nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.%n%nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.%n%nThe storage bus will function with nearly any inventory block, including ME Interfaces, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.%n%nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.
 
 # Quest.1304 - Interfacing with Tanks
 gtnh.quest1304.name=Interfacing with Tanks
@@ -5222,11 +5222,11 @@ gtnh.quest1304.desc=Storage bus for fluids only.
 
 # Quest.1305 - For Fluid Recipes
 gtnh.quest1305.name=For Fluid Recipes
-gtnh.quest1305.desc=ME interface for fluids only.
+gtnh.quest1305.desc=The ME Fluid Interface will also send liquids when crafting. You can add them to the recipe with buckets, cells, large cells, or even volumtric flasks. It will send the exact amount specified.%n%nIf sending to a GT machine like an Assembler which can accept items and fluids, use in fixture mode. If you want to use a multiblock, things get complicated. You can use fixture mode and use a machine hull to buffer the items and fluids and then extract them, or you can use block mode, have the front go to a chest or input bus, and the other side(s) send liquid. If it uses more than one fluid in the recipe, it will do those until finished, then move on to the items. If you're not doing a processing recipe, use the ME Fluid Assembler.
 
 # Quest.1306 - Extracting Items From the Network
 gtnh.quest1306.name=Extracting Items From the Network
-gtnh.quest1306.desc=The ME export bus extracts items from the ME network's networked storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME export bus will try to export any of the items on its list skipping over those it cannot fit into the destination. The ME export bus requires a channel to function. This is the functional opposite of the ME import bus.
+gtnh.quest1306.desc=The ME export bus extracts items from the ME network's networked storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME export bus will try to export any of the items on its list skipping over those it cannot fit into the destination. This is the functional opposite of the ME import bus.
 
 # Quest.1307 - Dragon essense II
 gtnh.quest1307.name=Dragon essense II
@@ -5234,7 +5234,7 @@ gtnh.quest1307.desc=Need some Dragon essense? Buy some!
 
 # Quest.1308 - Inserting Items Into the Network
 gtnh.quest1308.name=Inserting Items Into the Network
-gtnh.quest1308.desc=Pulls items from the inventory it is pointed at and places them into the ME network's networked storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The ME import bus will attempt to import any possible options, even if 1 or more of the configured items cannot be stored. The ME import bus requires a channel to function. This is the functional opposite of the ME export bus.
+gtnh.quest1308.desc=Pulls items from the inventory it is pointed at and places them into the ME network's networked storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The ME import bus will attempt to import any possible options, even if 1 or more of the configured items cannot be stored. This is the functional opposite of the ME export bus.%n%nWhen your machines are very fast, it's better to have them output directly into an ME interface instead, since that works instantly.
 
 # Quest.1309 - Emptying Tanks
 gtnh.quest1309.name=Emptying Tanks
@@ -5242,15 +5242,15 @@ gtnh.quest1309.desc=Import Bus for Fluids only.
 
 # Quest.1310 - Something to put your Components in
 gtnh.quest1310.name=Something to put your Components in
-gtnh.quest1310.desc=An empty storage container, you can insert any of the various storage cell parts into it to create a usable storage cell.
+gtnh.quest1310.desc=An empty storage container, you can insert the vanilla AE2 storage cell parts into it to create a usable storage cell.%n%nYou can also craft it with the storage components when making to skip combining them.
 
-# Quest.1311 - Tier 1 Storage
-gtnh.quest1311.name=Tier 1 Storage
-gtnh.quest1311.desc=The main processor for 1K and 4K cells.%n%nAs alternatives to storing items in ME, you can use a storage bus connected to other blocks.  A common tactic is to connect to a bank of Compressed Chests or even a Drawer Controller in this way. This can help reduce the power requirements in your AE system.
+# Quest.1311 - AE Tier 1 Item Storage
+gtnh.quest1311.name=AE Tier 1 Item Storage
+gtnh.quest1311.desc=The main processor for 1K and 4K cells.%n%nAs an alternative to storing items in ME, you can use a storage bus connected to other blocks.  A common tactic is to connect to a bank of Compressed Chests or even a Drawer Controller in this way. This can help reduce the power requirements in your AE system.
 
 # Quest.1312 - Automating Crafting
 gtnh.quest1312.name=Automating Crafting
-gtnh.quest1312.desc=Is a component of the crafting CPU. This particular block provides the CPU with no additional features, but can be used as a "filler" block and as a crafting ingredient for the crafting storage, monitor and co-processing units.
+gtnh.quest1312.desc=Is a component of the crafting CPU multiblock. This particular block provides the CPU with no additional features, but can be used as a "filler" block and as a crafting ingredient for the crafting storage, monitor and co-processing units.
 
 # Quest.1313 - 1k Item Storage Cell
 gtnh.quest1313.name=1k Item Storage Cell
@@ -5258,11 +5258,11 @@ gtnh.quest1313.desc=Lowest tier storage cell, which can contain 1,024 bytes of s
 
 # Quest.1314 - 1k Component
 gtnh.quest1314.name=1k Component
-gtnh.quest1314.desc=Smallest storage component, used to make 1k ME storage cell, or can be upgraded to make 4k ME storage component. Can be recovered from a crafted 1k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.
+gtnh.quest1314.desc=Smallest storage component, used to make 1k ME storage cells, or can be upgraded to make 4k ME storage components. Can be recovered from a crafted 1k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.
 
 # Quest.1315 - 1k Crafting Storage
 gtnh.quest1315.name=1k Crafting Storage
-gtnh.quest1315.desc=Component of the crafting CPU which provides 1024 bytes of storage for crafting.
+gtnh.quest1315.desc=Component of the crafting CPU which provides 1024 bytes of storage for crafting. The Crafting Storage blocks are the only necessary part. Each crafting CPU multiblock allows for a separate crafting job (this is different from from sub-tasks of the same job). The more items in the recipe and sub-recipes, the more crafting storage you'll need. Having one big and a couple small might be a good idea, but remember it will try to use the best one available first when you order a craft. They are also used when a crafting card requests a craft, so you'll need several separate ones if you intend to use those a lot. A crafting CPU multiblock uses only one channel, regardless of it's size. It must be square to form.
 
 # Quest.1316 - 4k Item Storage Cell
 gtnh.quest1316.name=4k Item Storage Cell
@@ -5270,14 +5270,14 @@ gtnh.quest1316.desc=Second tier storage cell, which can contain 4,096 bytes of s
 
 # Quest.1317 - 4k Component
 gtnh.quest1317.name=4k Component
-gtnh.quest1317.desc=Second smallest storage component, used to make 4k ME storage cell, or can be upgraded to make 16k ME storage component. Can be recovered from a crafted 4k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.
+gtnh.quest1317.desc=Second smallest storage component, used to make 4k ME storage cells, or can be upgraded to make 16k ME storage components. Can be recovered from a crafted 4k ME storage cell by fully emptying the storage cell, and shift clicking it in your hand.
 
 # Quest.1318 - 4k Crafting Storage
 gtnh.quest1318.name=4k Crafting Storage
 gtnh.quest1318.desc=Component of the crafting CPU which provides 4,096 bytes of storage for crafting.
 
-# Quest.1319 - Tier 2 Storage
-gtnh.quest1319.name=Tier 2 Storage
+# Quest.1319 - AE Tier 2 Item Storage
+gtnh.quest1319.name=AE Tier 2 Item Storage
 gtnh.quest1319.desc=The main processor for 16k and 64k cells.
 
 # Quest.1320 - §6§lAdvanced Compressor
@@ -5310,7 +5310,7 @@ gtnh.quest1326.desc=Component of the crafting CPU which provides additional item
 
 # Quest.1327 - Recipe Patterns
 gtnh.quest1327.name=Recipe Patterns
-gtnh.quest1327.desc=A blank pattern, once encoded as an encoded pattern, is used to control crafting by inserting them into molecular assemblers and ME interfaces.
+gtnh.quest1327.desc=Save patterns onto these to do autocrafting. They go into molecular assemblers and ME interfaces.
 
 # Quest.1328 - Pattern Terminal
 gtnh.quest1328.name=Pattern Terminal
@@ -5318,7 +5318,7 @@ gtnh.quest1328.desc=A specialized version of the ME crafting terminal designed t
 
 # Quest.1329 - ME in your Cleanroom
 gtnh.quest1329.name=ME in your Cleanroom
-gtnh.quest1329.desc=Wireless connector is a close range quantum bridge alternative.%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance^2 AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. 
+gtnh.quest1329.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance^2 AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.
 
 # Quest.1330 - Ore Dictionary Output
 gtnh.quest1330.name=Ore Dictionary Output
@@ -5326,7 +5326,7 @@ gtnh.quest1330.desc=The ME ore dictionary export bus will attempt to push the co
 
 # Quest.1331 - To Link P2P Busses
 gtnh.quest1331.name=To Link P2P Busses
-gtnh.quest1331.desc=A small item, that can be used to store, copy, and paste settings. Shift + right click on a configurable object to save the settings onto the memory card, then right click on any other block of the same type to paste the settings. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels.
+gtnh.quest1331.desc=A small item that can be used to store, copy, and paste settings. Shift + right click on a configurable object to save the settings onto the memory card, then right click on any other block of the same type to paste the settings. Shift + right click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.
 
 # Quest.1332 - Compressed Solar LV
 gtnh.quest1332.name=Compressed Solar LV
@@ -5670,7 +5670,7 @@ gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. T
 
 # Quest.1417 - §6§lCough cough - Something needs to be done about the smell
 gtnh.quest1417.name=§6§lCough cough - Something needs to be done about the smell
-gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.
+gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.
 
 # Quest.1418 - §c§9§a§lEU packets flowing everywhere...
 gtnh.quest1418.name=§c§9§a§lEU packets flowing everywhere...
@@ -5710,7 +5710,7 @@ gtnh.quest1426.desc=To reach tier two planets like Mars or its moons  Phobos and
 
 # Quest.1427 - Tier 2 Heavy Duty Plates
 gtnh.quest1427.name=Tier 2 Heavy Duty Plates
-gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's craft 10 tier 2 heavy duty plates out of tier 1 plates and meteoric iron plates.%n%nYou'll need to make a couple of tungstensteel ingots to make these plates. You can process end stone or endstone dust, or macerate lunar rocks to get some.
+gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's craft 11 tier 2 heavy duty plates out of tier 1 plates and meteoric iron plates.%n%nYou'll need to make a couple of tungstensteel ingots to make these plates. You can process end stone or endstone dust, or macerate lunar rocks to get some.
 
 # Quest.1428 - Tier 2 Schematic
 gtnh.quest1428.name=Tier 2 Schematic
@@ -5814,7 +5814,7 @@ gtnh.quest1452.desc=To use the Cargo Rocket at full capacity it is necessary to 
 
 # Quest.1453 - Tier 3 Heavy Duty Plates
 gtnh.quest1453.name=Tier 3 Heavy Duty Plates
-gtnh.quest1453.desc=Rockets require heavy duty plates for the main hull. Let's craft 42 tier 3 heavy duty plates out of tier 2 plates and desh plates.
+gtnh.quest1453.desc=Rockets require heavy duty plates for the main hull. Let's craft 38 tier 3 heavy duty plates out of tier 2 plates and desh plates.
 
 # Quest.1454 - Rocket Tier 3
 gtnh.quest1454.name=Rocket Tier 3
@@ -6242,7 +6242,7 @@ gtnh.quest1559.desc=Odour of Purity is an ingredient used in many recipes. It is
 
 # Quest.1560 - Witchery Seeds
 gtnh.quest1560.name=Witchery Seeds
-gtnh.quest1560.desc=To get Witchery seeds, use a hoe on grass blocks away from water. To open the rest of the questline, you will need to do Thaumcraft quests and research the Witchery tab in the Thaumonomicon.%n%nAccording to the legend, when the root of the Mandrake plant is dug up it screams and kills all who hear it. This is only partially true. A fully grown Mandrake may scream causing immense discomfort to those around. This is why it is best to harvest the Mandrake root at night when the plant is more likely to be dormant. Mandrake is grown from Mandrake Seeds which may be obtained by breaking tall grass, or by breaking a partially (or fully) grown Mandrake plant.%n%nBreaking a fully grown Mandrake plant will either yield Mandrake Root or the Mandrake may awaken and cause all sorts of mischief (and pain to the ears!).%n%nBelladonna seeds can be planted and eventually grow into the multistage belladonna plant. The fully grown belladonna plant can be harvested to obtain more Belladonna seeds and a Belladonna flower.%n%nSnowbell seeds can be planted and eventually grow into the multistage snowbell plant. The fully grown snowbell plant can be harvested to obtain more Snowbell seeds, snowballs and occasionally a Icy Needle.%n%nWater Artichoke seeds can be planted and eventually grow into the multistage Water Artichoke plant. The fully grown Water Artichoke plant can be harvested to obtain more Water Artichoke seeds and a Water Artichoke Globe.%n%nWater Artichoke seeds can only be planted on still water blocks.%n%nGarlic is a plantable crop that can be used to make tasty food, and to deal with vampires. Garlic can be obtained by breaking tall grass, although it has a very low drop chance. It may be planted on tilled farm land, and will grow in five stages. When full grown the plant may be harvested for up to three dropped garlic bulbs. Which may either be replanted, or used in a crafting recipe.%n%nGarlic bulbs can be used to make meaty stew, a particularly nourishing meal. It is also the main ingredient in making a Garlic Garland, a useful tool in warding off vampires. Finally, garlic can be used by witches in a Witches' Cauldron to make a vampire Weakening brew, and by Witch Hunters, to make vampire resistant armor.%n%nWolfsbane seeds can be planted and eventually grow into the multistage Wolfsbane plant. The fully grown Wolfsbane plant can be harvested to obtain more Wolfsbane seeds and the Wolfsbane flower.%n
+gtnh.quest1560.desc=To get Witchery seeds, use a hoe on grass blocks away from water. To open the rest of the questline, you will need to do Thaumcraft quests and research the Witchery tab in the Thaumonomicon.%n%nAccording to the legend, when the root of the Mandrake plant is dug up it screams and kills all who hear it. This is only partially true. A fully grown Mandrake may scream causing immense discomfort to those around. This is why it is best to harvest the Mandrake root at night when the plant is more likely to be dormant. The fully grown Mandrake can be harvested to obtain more Mandrake seeds and a Mandrake.%n%nBreaking a fully grown Mandrake plant will either yield Mandrake Root or the Mandrake may awaken and cause all sorts of mischief (and pain to the ears!).%n%nBelladonna seeds can be planted and eventually grow into the multistage belladonna plant. The fully grown belladonna plant can be harvested to obtain more Belladonna seeds and a Belladonna flower.%n%nSnowbell seeds can be planted and eventually grow into the multistage snowbell plant. The fully grown snowbell plant can be harvested to obtain more Snowbell seeds, snowballs and occasionally a Icy Needle.%n%nWater Artichoke seeds can be planted and eventually grow into the multistage Water Artichoke plant. The fully grown Water Artichoke plant can be harvested to obtain more Water Artichoke seeds and a Water Artichoke Globe.%n%nWater Artichoke seeds can only be planted on still water blocks.%n%nGarlic is a plantable crop that can be used to make tasty food, and to deal with vampires. Garlic can be obtained by breaking tall grass, although it has a very low drop chance. It may be planted on tilled farm land, and will grow in five stages. When full grown the plant may be harvested for up to three dropped garlic bulbs. Which may either be replanted, or used in a crafting recipe.%n%nGarlic bulbs can be used to make meaty stew, a particularly nourishing meal. It is also the main ingredient in making a Garlic Garland, a useful tool in warding off vampires. Finally, garlic can be used by witches in a Witches' Cauldron to make a vampire Weakening brew, and by Witch Hunters, to make vampire resistant armor.%n%nWolfsbane seeds can be planted and eventually grow into the multistage Wolfsbane plant. The fully grown Wolfsbane plant can be harvested to obtain more Wolfsbane seeds and the Wolfsbane flower.%n
 
 # Quest.1561 - Purified Milk
 gtnh.quest1561.name=Purified Milk
@@ -6618,7 +6618,7 @@ gtnh.quest1653.desc=Tired of talking one by one with every villager to determine
 
 # Quest.1654 - §6§lAutomating power on/off
 gtnh.quest1654.name=§6§lAutomating power on/off
-gtnh.quest1654.desc=Once you have a GT boiler or Large Combusion Engine with a faster startup time, you can automate it to produce power on-demand. Use a machine controller cover on the controller (protip: You can put it on the bottom, or on the side next to a casing, casings will transmit redstone signal). %nWith a machine controller cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a soft hammer to disable a machine.%n %nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off.%nUse a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.%n%nRed alloy wire will hold a redstone signal for a longer distance.%n%nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver.
+gtnh.quest1654.desc=Once you have a GT boiler or Large Combusion Engine with a faster startup time, you can automate it to produce power on-demand. Use a machine controller cover on the controller (protip: You can put it on the bottom, or on the side next to a casing, casings will transmit redstone signal). %nWith a machine controller cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a soft hammer to disable a machine.%n %nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off.%nUse a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.%n%nRed alloy wire will hold a redstone signal for a longer distance.%n%nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver.%n%nYou can use MCCs on more than just generators though, you can use it on any multiblock. This is useful to prevent voiding of materials. If a non-GT++ multi is full, it'll void the items or liquid (GT++ ones will halt) and keep on truckin', potentially voiding huge amounts of materials. You'll want to use them in combination with Fluid or Item Detection Covers on the output hatch or bus.%n%nPS: You can use a Soldering Iron and Fine Soldering Alloy Wire to set the Redstone Output of a controller block to strong so it'll go through a casing (only casings!). Use with an activity detector.
 
 # Quest.1655 - §9§lOne Dragon Egg is not enough Mr Bond
 gtnh.quest1655.name=§9§lOne Dragon Egg is not enough Mr Bond
@@ -6898,7 +6898,7 @@ gtnh.quest1723.desc=After hours and hours and endless swimming in lava you will 
 
 # Quest.1724 - Tier 5 Heavy Duty Plates
 gtnh.quest1724.name=Tier 5 Heavy Duty Plates
-gtnh.quest1724.desc=Rockets require heavy duty plates for the main hull. Let's craft 60 tier 5 heavy duty plates out of tier 4 plates and compressed quantium plates.
+gtnh.quest1724.desc=Rockets require heavy duty plates for the main hull. Let's craft 61 tier 5 heavy duty plates out of tier 4 plates and compressed quantium plates.
 
 # Quest.1725 - Tier 5 Schematic
 gtnh.quest1725.name=Tier 5 Schematic
@@ -6972,9 +6972,9 @@ gtnh.quest1741.desc=There are a few very useful Nether trees out there which giv
 gtnh.quest1742.name=§6§lHelium 3 and Saltwater on Moon
 gtnh.quest1742.desc=The Moon is rich in Helium 3 because the Sun has been embedding it in the upper layer of moon by the solar wind over billions of years. %nSalt water is also available in smaller quantities. You will want plenty of chlorine for processing Rutile to get Titanium. %n%nThere are more planets and moons with gas and fluids underneath the surface.  Bring along a multiblock fluid drill to recover these fluids.
 
-# Quest.1743 - Saltwater and Chlorobenzene on Mars
-gtnh.quest1743.name=Saltwater and Chlorobenzene on Mars
-gtnh.quest1743.desc=Mars is rich on saltwater and chlorobenzene. If you run low on chlorine you can centrifuge the fluids.%n%nMore Fluids and Gases can be found on (This list is subject to change due to balancing at any time!):%n%nSalt water%n%n  Moon - v low%n  Mars - Low%n  Europa - High%n  Ross 128ba - High%n%nHelium3%n%n  Moon - V.Low%n  Mercury - Low/High%n  Ross 128ba - High%n%nChlorobenzene%n%n  Mars - V.Low%n%nNitrogen%n%n  Triton - high%n  Pluto - high%n%nMethane%n%n  Titan - High%n%nEthane%n%n  Titan - Low%n%nEthylene%n%n  Triton - Low%n%nOxygen%n%n  Callisto - Low%n%nSuper Heavy Oil%n%n  Europa - low%n  BarnardC - high%n  TCetiE - low%n%nLiquid air %n%n  Callisto- Low%n  Charon - Medium%n  BarnardE - High%n%nVery Heavy Oil%n%n  Ross 128b - Medium%n%nLava%n%n  Ross 128b - High%n%nRefinery Gas%n%n  Ross 128b - Medium
+# Quest.1743 - Salt Water and Chlorobenzene on Mars
+gtnh.quest1743.name=Salt Water and Chlorobenzene on Mars
+gtnh.quest1743.desc=Mars is rich in Salt Water and Chlorobenzene. If you run low on chlorine you can centrifuge the fluids.
 
 # Quest.1744 - §6§lChemical lesson part two
 gtnh.quest1744.name=§6§lChemical lesson part two
@@ -7686,7 +7686,7 @@ gtnh.quest1920.desc=Many plants look the same. Someday we'll update their DNA so
 
 # Quest.1921 - §9§lSeparating molecules
 gtnh.quest1921.name=§9§lSeparating molecules
-gtnh.quest1921.desc=An HV centrifuge is required to separate out Tungstate from Lava.  You'll need to start thinking about dedicating a setup just for lava centrifuging. Plus it's a good source of silver, tin, copper, and tantalum.
+gtnh.quest1921.desc=Did you know that you used to be able to get Tungstate out of Lava? As well as Silver, Tantalum and Copper? Well now you can't, because Nerfs. Nerfing (making it harder) is the GTNH way of life. Even the Everburn Urn (how you probably get lava) used to not have coils in the recipe.%n%nIt's not all bad though, you can still get stuff, it's just not as good: Silicon Dioxide, Magnesia, Quicklime, Gold Nuggets, Sapphire Dust, and Tantalite.%n%nPahoehoe Lava (from putting normal Lava through the LHE) gets you: Copper, Tin, Silver, Phosphorus, Scheelite, and Bauxite.%n%nSo that's why a quest for an HV Centrifuge is here, too good for the Lava recipe, not good enough for the Pahoehoe one. Try centrifuging Endstone Dust from your crops or Ender Goo instead if you need Tungsten.
 
 # Quest.1922 - §9§lTransformers, roll out!
 gtnh.quest1922.name=§9§lTransformers, roll out!
@@ -7702,7 +7702,7 @@ gtnh.quest1924.desc=For the truly insane, there is a 16 to 64 A power amp transf
 
 # Quest.1925 - §a§lWhat's in the box?
 gtnh.quest1925.name=§a§lWhat's in the box?
-gtnh.quest1925.desc=Tired of waiting around 7 hours with radium in your inventory waiting for it to decay? With a lead-lined box you can safely leave your radium and other materials and they will decay while you do real work.
+gtnh.quest1925.desc=Tired of waiting around 7 hours with radium in your inventory waiting for it to decay? With a lead-lined box you can safely leave your radium and other materials and they will decay while you do real work.%n%n§3You may not be able to shift click items in and out, but pipes still work. Use a filter to automate the whole process.
 
 # Quest.1926 - §2§lA quicker way to get around
 gtnh.quest1926.name=§2§lA quicker way to get around
@@ -7966,7 +7966,7 @@ gtnh.quest1990.desc=Ever finished a wonderful program and then realised your Man
 
 # Quest.1991 - Naming Names
 gtnh.quest1991.name=Naming Names
-gtnh.quest1991.desc=The Factory Labeler allows you to assign unique names to anything that can be connected to a Manager - making it easy to identify when you are setting up commands.%n%nType in the text box to set a label or to searched stored labels - click any stored entry to select it, double click to edit it. Closing the GUI will set the Labeler to whatever was in the text box at that time.%n%nLeft click to set labels, right click to open the gui. Setting a blank label will remove any existing labels.%n%nMay or may not be buggy.  Have fun!
+gtnh.quest1991.desc=The Factory Labeler allows you to assign unique names to anything that can be connected to a Manager - making it easy to identify when you are setting up commands.%n%nType in the text box to set a label or to searched stored labels - click any stored entry to select it, double click to edit it. Closing the GUI will set the Labeler to whatever was in the text box at that time.%n%nLeft click to set labels, right click to open the gui. Setting a blank label will remove any existing labels.%n%nMay or may not be buggy. Will lose the label in MP when relogging, but works fine in SP. It'll still work until you need to change it though. Have fun!
 
 # Quest.1992 - Wand Enhancements
 gtnh.quest1992.name=Wand Enhancements
@@ -8546,11 +8546,11 @@ gtnh.quest2135.desc=The Blue Mahoe has the most sappiness of any tree.  It will 
 
 # Quest.2136 - Energy Acceptor
 gtnh.quest2136.name=Energy Acceptor
-gtnh.quest2136.desc=The Energy Acceptor is an alternative place to inject energy into your AE2 network. Generally, you want to inject energy at the controller because if it cannot see an EA within the first 8 parts, the network will not form anyways.%n%nYou can form a "dumb" network with just an EA, but for real capability, you'll want a Controller.
+gtnh.quest2136.desc=The Energy Acceptor is an alternative place to inject energy into your AE2 network. You can form a "dumb" network with just an EA, but for real capability, you'll want a Controller.%n%n§3If you're making a subnet, just transfer power over with a Quartz Fiber.
 
 # Quest.2137 - ME Controller
 gtnh.quest2137.name=ME Controller
-gtnh.quest2137.desc=The heart of your ME network. Inject energy into here as well to power your network.
+gtnh.quest2137.desc=The heart of your ME network. You can inject energy into here as well to power your network, but you probably want to save all available spaces for networking. Without this, you're limited to 8 channels.%n%nThis is a multiblock, and can be expanded up to 7x7x7, and can have 2 adjacent blocks in at most 1 axis, or it will be disabled. Whatever that means, just try it out, ok? You can only have one per network.%n%nAbout channels:%nGenerally, every device uses a channel unless specified otherwise. If you don't have enough, that device will not function. If you can't determine what's causing your network problems, try looking at the lines on the smart and dense cables, or use a network visualizer.
 
 # Quest.2138 - Making Sense of Spaghetti
 gtnh.quest2138.name=Making Sense of Spaghetti
@@ -9654,7 +9654,7 @@ gtnh.quest2412.desc=Yes! Yes! The eyes! You understand now, it is all too clear!
 
 # Quest.2413 - The Darkness of Choice for Edgelords
 gtnh.quest2413.name=The Darkness of Choice for Edgelords
-gtnh.quest2413.desc=The madness that gripped you before has passed, but the idea for claiming the 'Riches' you thought of before still seems...reasonably sound. You'll need more than just something Strong though, you need something Hard, something Dense, something Unstable, and some magic to force it all together. You suspect you may need to upgrade your Infusion Altar for this, given the number of materials needed. You believe you can simply mine this new location for any ore you need from now on...
+gtnh.quest2413.desc=The madness that gripped you before has passed, but the idea for claiming the 'Riches' you thought of before still seems...reasonably sound. You'll need more than just something Strong though, you need something Hard, something Dense, something Unstable, and some magic to force it all together. You suspect you may need to upgrade your Infusion Altar for this, given the number of materials needed. You believe you can simply mine this new location for any ore you need from now on...%n%n§3Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.
 
 # Quest.2414 - Too many items? Unpossible!
 gtnh.quest2414.name=Too many items? Unpossible!
@@ -9804,15 +9804,431 @@ gtnh.quest2449.desc=Combine Dichlorobenzene with Sodium Sulfide and Oxygen to ge
 gtnh.quest2450.name=Higher Tier Cables
 gtnh.quest2450.desc=To make higher tier cables, you'll want to make them with Polyphenylene Sulfide Foils and Silicone. You'll need both Tungsten and Platinum in IV-tier.
 
+# Quest.2451 - Blood Letters Pack
+gtnh.quest2451.name=Blood Letters Pack
+gtnh.quest2451.desc=The Blood Letters Pack will damage you by half a heart until you're at half health (accounts for extra health!), and stores 100 LP each time up to 10,000. You can then use it on an altar to deposit the contents so long as it's not currently crafting something.
+
+# Quest.2452 - Glass Sacrificial Dagger
+gtnh.quest2452.name=Glass Sacrificial Dagger
+gtnh.quest2452.desc=The Glass Sacrificial Dagger works the same as the normal one, but gives you 500 LP instead. To get the Glass Shards, break normal Glass while holding Flint.%n%nUnfortunately the glass version of the Dagger of Sacrifice doesn't seem to work properly.
+
+# Quest.2453 - Imperfect Ritual Stone
+gtnh.quest2453.name=Imperfect Ritual Stone
+gtnh.quest2453.desc=This stone allows you to create simple rituals, such as changing the time to night, or summoning a thunderstorm.
+
+# Quest.2454 - Well of Suffering
+gtnh.quest2454.name=Well of Suffering
+gtnh.quest2454.desc=The Well of Suffering damages mobs in a 6 block radius and feeds blood gained from them into an altar that is also within 6 blocks. Each mob costs 2 LP to damage, but give 10LP back. You can use Runes of Sacrifice to increase this. Very useful for automation!
+
+# Quest.2455 - Unlimited LP
+gtnh.quest2455.name=Unlimited LP
+gtnh.quest2455.desc=Making this will give you unlimited LP. But you still need blood for crafting, OK?
+
+# Quest.2456 - Demon Blood Shards
+gtnh.quest2456.name=Demon Blood Shards
+gtnh.quest2456.desc=To get Demon Blood Shards, you'll need to summon and kill a demon. To summon one you'll need to arrange the pedestals around the plinth as such:%n%nxpxpx%nxxxxx%npxPxp%nxxxxx%nxpxpx%n%nx=space, p=pedestal, P=plinth%n%nPlace a bound master orb on the plinth and the appropriate sacrifices on the pedestals. They must all be the same element. Specifically, Aether, Incendium, Aquasalus, Terrae, Tenebrae, or Sanctus.%n%nAfter the lightning, the demon will appear. It won't always drop the shard, so prepare multiple sets.
+
+# Quest.2457 - Starter Key
+gtnh.quest2457.name=Starter Key
+gtnh.quest2457.desc=You need this to start Rituals. More complex rituals need the Activated version. To use it, bind it to yourself and right click on the center of the ritual.
+
+# Quest.2458 - Micro-Rituals
+gtnh.quest2458.name=Micro-Rituals
+gtnh.quest2458.desc=Don't want to use all that space for rituals? Use the Soul Compactor to reduce them to a single block!
+
+# Quest.2459 - Tier 5 Sigils
+gtnh.quest2459.name=Tier 5 Sigils
+gtnh.quest2459.desc=They're of seriously questionable utility this time, so why not try to get the blood arsenal ones as well? Collect them all!%n%nPS: You need Lightning Sigils for the Transcendent Orb
+
+# Quest.2460 - It holds more, ok?
+gtnh.quest2460.name=It holds more, ok?
+gtnh.quest2460.desc=But why is it transparent?
+
+# Quest.2461 - 'Easy' Teleportation
+gtnh.quest2461.name='Easy' Teleportation
+gtnh.quest2461.desc=They may be a pain to craft, but teleposers are very useful for teleporting. Use the Teleposition Focus to set the first Teleposer location and put it in the second. Apply a redstone signal, and it'll teleport you at the cost of LP. It can also move items or entities, with the size increasing with better foci.
+
+# Quest.2462 - Ritual Dismantler
+gtnh.quest2462.name=Ritual Dismantler
+gtnh.quest2462.desc=Use this to quickly dismantle a ritual.
+
+# Quest.2463 - AE Tier 3 Item Storage
+gtnh.quest2463.name=AE Tier 3 Item Storage
+gtnh.quest2463.desc=The main processor for 256k and 1024k cells. You can make these in IV.
+
+# Quest.2464 - 256k Component
+gtnh.quest2464.name=256k Component
+gtnh.quest2464.desc=They work the same as the previous ones, but hold more once you make it into something.
+
+# Quest.2465 - 1024k Component
+gtnh.quest2465.name=1024k Component
+gtnh.quest2465.desc=Same as 256k.
+
+# Quest.2466 - 4096k Component
+gtnh.quest2466.name=4096k Component
+gtnh.quest2466.desc=Also same as 256k.
+
+# Quest.2467 - 16384k Component
+gtnh.quest2467.name=16384k Component
+gtnh.quest2467.desc=The REAL final tier. Until someone adds more...
+
+# Quest.2468 - 256k Item Storage Cell
+gtnh.quest2468.name=256k Item Storage Cell
+gtnh.quest2468.desc=They're bigger.
+
+# Quest.2469 - 1024k Item Storage Cell
+gtnh.quest2469.name=1024k Item Storage Cell
+gtnh.quest2469.desc=Again, they're just bigger.
+
+# Quest.2470 - 4096k Item Storage Cell
+gtnh.quest2470.name=4096k Item Storage Cell
+gtnh.quest2470.desc=Are you expecting something? They just hold more.
+
+# Quest.2471 - 16384k Item Storage Cell
+gtnh.quest2471.name=16384k Item Storage Cell
+gtnh.quest2471.desc=They may have a fancy texture, but the numbers are just higher. They hold about 133,169,152 of a single item, so about the same as a Quantum Chest I. If you want more storage, use Quantum Chests with storage busses.
+
+# Quest.2472 - 256k Crafting Storage
+gtnh.quest2472.name=256k Crafting Storage
+gtnh.quest2472.desc=Component of the crafting CPU which provides 262,144 bytes of storage for crafting.%n%n§4There's currently a bug with EC2 crafting storage units that requires you to use one of the vanilla AE2 crafting storages along with it in order to allow the network to recognize it.
+
+# Quest.2473 - 1024k Crafting Storage
+gtnh.quest2473.name=1024k Crafting Storage
+gtnh.quest2473.desc=Component of the crafting CPU which provides 1,048,576 bytes of storage for crafting.
+
+# Quest.2474 - 4096k Crafting Storage
+gtnh.quest2474.name=4096k Crafting Storage
+gtnh.quest2474.desc=Component of the crafting CPU which provides 4,194,304 bytes of storage for crafting.
+
+# Quest.2475 - 16384k Crafting Storage
+gtnh.quest2475.name=16384k Crafting Storage
+gtnh.quest2475.desc=Component of the crafting CPU which provides 4,194,304 bytes of storage for crafting.
+
+# Quest.2476 - AE Tier 4 Item Storage
+gtnh.quest2476.name=AE Tier 4 Item Storage
+gtnh.quest2476.desc=The main processor for 4096k and 16384k cells. You'll need to be in LuV for these.
+
+# Quest.2477 - AE Tier 1 Fluid Storage
+gtnh.quest2477.name=AE Tier 1 Fluid Storage
+gtnh.quest2477.desc=The main processor for 1K, 4K, 16k, and 64k fluid cells.%n%nDon't want to get rid of your super tanks? Use the fluid storage bus instead of these then. Super tanks double in capacity each tier, but these quadruple. Plus they're less expensive for sure. But the earlier ones may not be worth it.%n%n§4AE2 with fluids is kinda buggy. Report problems so they can (hopefully) be fixed, ok?
+
+# Quest.2478 - 1k Fluid Component
+gtnh.quest2478.name=1k Fluid Component
+gtnh.quest2478.desc=They work the same as the item one, but hold fluids.
+
+# Quest.2479 - 4k Fluid Component
+gtnh.quest2479.name=4k Fluid Component
+gtnh.quest2479.desc=Same as 1k.
+
+# Quest.2480 - 16k Fluid Component
+gtnh.quest2480.name=16k Fluid Component
+gtnh.quest2480.desc=Same as 1k.
+
+# Quest.2481 - 64k Fluid Component
+gtnh.quest2481.name=64k Fluid Component
+gtnh.quest2481.desc=Same as 1k.
+
+# Quest.2482 - 1k Fluid Storage Cell
+gtnh.quest2482.name=1k Fluid Storage Cell
+gtnh.quest2482.desc=Unlike the item version, these can only hold 5 types of liquids each. This tier holds 256 buckets if you fill it with a single fluid. If you fill it with 5 different fluids, you can have 51 and 1/5 buckets of each. You'll want to make the fluid terminal to see what you have.
+
+# Quest.2483 - 4k Fluid Storage Cell
+gtnh.quest2483.name=4k Fluid Storage Cell
+gtnh.quest2483.desc=These hold 1,024 buckets, or 1,024,000L of a single fluid.
+
+# Quest.2484 - 16k Fluid Storage Cell
+gtnh.quest2484.name=16k Fluid Storage Cell
+gtnh.quest2484.desc=These hold 4,096 buckets, or 4,096,000L of a single fluid. They finally match a Super Tank I.
+
+# Quest.2485 - 64k Fluid Storage Cell
+gtnh.quest2485.name=64k Fluid Storage Cell
+gtnh.quest2485.desc=These hold 16,384 buckets, or 16,384,000L of a single fluid. Equivalent to a Super Tank III.
+
+# Quest.2486 - Fluid Storage Housing
+gtnh.quest2486.name=Fluid Storage Housing
+gtnh.quest2486.desc=This is the fluid version, for storing fluids in your network.
+
+# Quest.2487 - Housing for Advanced Components
+gtnh.quest2487.name=Housing for Advanced Components
+gtnh.quest2487.desc=You need to use this for the higher tiered cells.
+
+# Quest.2488 - AE Tier 2 Fluid Storage
+gtnh.quest2488.name=AE Tier 2 Fluid Storage
+gtnh.quest2488.desc=The main processor for 256K, 1024k and 4096K fluid cells. You'll need to be in IV for these.
+
+# Quest.2489 - 256k Fluid Component
+gtnh.quest2489.name=256k Fluid Component
+gtnh.quest2489.desc=Same as 1k.
+
+# Quest.2490 - 1024k Fluid Component
+gtnh.quest2490.name=1024k Fluid Component
+gtnh.quest2490.desc=Same as 1k.
+
+# Quest.2491 - 4096k Fluid Component
+gtnh.quest2491.name=4096k Fluid Component
+gtnh.quest2491.desc=Final tier of the fluid components.
+
+# Quest.2492 - 256k Fluid Storage Cell
+gtnh.quest2492.name=256k Fluid Storage Cell
+gtnh.quest2492.desc=These hold 65,536 buckets, or 65,536,000L of a single fluid. They hold a bit more than a Super Tank V.
+
+# Quest.2493 - 1024k Fluid Storage Cell
+gtnh.quest2493.name=1024k Fluid Storage Cell
+gtnh.quest2493.desc=These hold 262,144 buckets, or 262,144,000L of a single fluid. A little more than a Quantum Tank II.
+
+# Quest.2494 - 4096k Fluid Storage Cell
+gtnh.quest2494.name=4096k Fluid Storage Cell
+gtnh.quest2494.desc=This is the final tier. It §hholds 1,048,576 buckets, or 1,048,576,000L. So about the same as a Quantum Tank IV.
+
+# Quest.2495 - AE Essentia Storage
+gtnh.quest2495.name=AE Essentia Storage
+gtnh.quest2495.desc=The main processor for 1K, 4K, 16k, and 64k essentia cells.%n%nUse your AE network to store all that nasty essentia! Remember, you need to do the research first.
+
+# Quest.2496 - Tier 1 Fluid Storage
+gtnh.quest2496.name=Tier 1 Fluid Storage
+gtnh.quest2496.desc=This is the essentia version, for storing essentia in your network.
+
+# Quest.2497 - 1k Essentia Component
+gtnh.quest2497.name=1k Essentia Component
+gtnh.quest2497.desc=They work the same as the item one, but hold essentia.
+
+# Quest.2498 - 4k Essentia Component
+gtnh.quest2498.name=4k Essentia Component
+gtnh.quest2498.desc=Same as 1k.
+
+# Quest.2499 - 16k Essentia Component
+gtnh.quest2499.name=16k Essentia Component
+gtnh.quest2499.desc=Same as 1k.
+
+# Quest.2500 - 64k Essentia Component
+gtnh.quest2500.name=64k Essentia Component
+gtnh.quest2500.desc=Final tier of essentia components.
+
+# Quest.2501 - 1k Essentia Storage Cell
+gtnh.quest2501.name=1k Essentia Storage Cell
+gtnh.quest2501.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 62 of them. You'll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.
+
+# Quest.2502 - 4k Essentia Storage Cell
+gtnh.quest2502.name=4k Essentia Storage Cell
+gtnh.quest2502.desc=These hold 8,192 units of essentia.
+
+# Quest.2503 - 16k Essentia Storage Cell
+gtnh.quest2503.name=16k Essentia Storage Cell
+gtnh.quest2503.desc=These hold 32,768 units of essentia.
+
+# Quest.2504 - 64k Essentia Storage Cell
+gtnh.quest2504.name=64k Essentia Storage Cell
+gtnh.quest2504.desc=These hold 131,072 units of essentia.
+
+# Quest.2505 - AE Spatial Storage
+gtnh.quest2505.name=AE Spatial Storage
+gtnh.quest2505.desc=The main processor for 2^3, 16^3, and 128^3 essentia cells.%n%nHave you ever wanted to pack up and move your entire base, but thought it was too much of a pain? Wish you could just teleport the whole thing? Well now you, uh, still can't, because GT blocks DO NOT PLAY WELL with being teleported by AE spatial stuff. Like, world corruption level bad. But you could make a teleporter I guess?
+
+# Quest.2506 - AE Spatial Storage
+gtnh.quest2506.name=AE Spatial Storage
+gtnh.quest2506.desc=The main part of 2^3 spatial cells.
+
+# Quest.2507 - AE Spatial Storage
+gtnh.quest2507.name=AE Spatial Storage
+gtnh.quest2507.desc=The main part of 16^3 spatial cells.
+
+# Quest.2508 - AE Spatial Storage
+gtnh.quest2508.name=AE Spatial Storage
+gtnh.quest2508.desc=The main part of 128^3 spatial cells.
+
+# Quest.2509 - AE Spatial Storage
+gtnh.quest2509.name=AE Spatial Storage
+gtnh.quest2509.desc=Contains up to a 2^3 area inside it. This is 8 blocks, so if you just want to teleport yourself, you don't need to make the later ones.
+
+# Quest.2510 - AE Spatial Storage
+gtnh.quest2510.name=AE Spatial Storage
+gtnh.quest2510.desc=Contains up to a 16^3 area inside it. This is 4096 blocks.
+
+# Quest.2511 - AE Spatial Storage
+gtnh.quest2511.name=AE Spatial Storage
+gtnh.quest2511.desc=Contains up to a 128^3 area inside it. This is 2,097,152 blocks. Teleport a village to the Moon to make them suffer!
+
+# Quest.2512 - Diffusion and Coalescence
+gtnh.quest2512.name=Diffusion and Coalescence
+gtnh.quest2512.desc=The Diffusion and Coalescence cores are basic components needed to make the Thaumic Energistics devices. They're made out of the Formation and Annihilation ones.
+
+# Quest.2513 - Exporting Essentia From the Network
+gtnh.quest2513.name=Exporting Essentia From the Network
+gtnh.quest2513.desc=Does exactly what it says. But you probably won't need it much, if at all.
+
+# Quest.2514 - Pulling Essentia Into the Network
+gtnh.quest2514.name=Pulling Essentia Into the Network
+gtnh.quest2514.desc=Attach to either Alembics or the output of the Advanced Alchemical Furnace. If that doesn't work, have them pipe to a jar and import from there. You can finally get rid of your shifty-eyed golems.
+
+# Quest.2515 - Centi-vis in your network
+gtnh.quest2515.name=Centi-vis in your network
+gtnh.quest2515.desc=You can use this device to either transfer the contents (CV) of a Vis Relay to another vis relay, an Arcane Assembler, or an Arcane Crafting Terminal. Either way, place the relay on the device (and send some CV to it), and use the memory card to link to the second device. If you send it to another Vis Relay Interface, you'll obviously need another Vis Relay on the other side.
+
+# Quest.2516 - Storing Essentia in Jars? Why again?
+gtnh.quest2516.name=Storing Essentia in Jars? Why again?
+gtnh.quest2516.desc=So apparently you can attach this to a void/oblivion jar and have it void overflow if you set the priority low. Neat, huh?%n%nWhat? Store essentia in jars? Seriously? I guess you could, if you really wanted to, or if there were new, larger jars...
+
+# Quest.2517 - Magic Terminals
+gtnh.quest2517.name=Magic Terminals
+gtnh.quest2517.desc=The Arcane Crafting Terminal is the terminal version on the Arcane Workbench. It can hold a set of vis discount gear in it's inventory in addition to a wand. You can also link a vis relay through the network to it to recharge the wand.%n%nThe Essentia Terminal Works like the Fluid Terminal, but for essentia.
+
+# Quest.2518 - The Fluid Terminal
+gtnh.quest2518.name=The Fluid Terminal
+gtnh.quest2518.desc=The ME Fluid Terminal allows you to directly input and output fluids from the network using buckets, cells, and other fluid-containing items. Put a filled cell (or other item) in the bottom left to have the contents deposited into the network, and the cell moved to the output slot. For the reverse, select a fluid and insert an empty cell, and it'll fill it.
+
+# Quest.2519 - Illuminated Panels
+gtnh.quest2519.name=Illuminated Panels
+gtnh.quest2519.desc=All terminals are made from these. You'll probably want several.
+
+# Quest.2520 - Making the Assline Easier
+gtnh.quest2520.name=Making the Assline Easier
+gtnh.quest2520.desc=Unlike regular pattern terminals, the processing pattern terminal doesn't have a crafting mode. Instead, you have a 4x4 space for more items, one more slot for output, and the ability to swap them.
+
+# Quest.2521 - Making Patterns Quick
+gtnh.quest2521.name=Making Patterns Quick
+gtnh.quest2521.desc=The Pattern Encoder will allow you to use NEIs shift-click ? button functionality to create a crafting pattern even if you don't have the appropriate items.%n%nHowever, you can also drag the items from NEI to do the same thing, though much slower, because you have to look up each component. This is vastly less useful for processing patterns, since it's always 64 items though.
+
+# Quest.2522 - Visualizing How Much Your Stuff
+gtnh.quest2522.name=Visualizing How Much Your Stuff
+gtnh.quest2522.desc=The ME Storage Monitor allows you to visualize how much of an item you have. For example you can tell if you're running low on circuitsand should make more, or how a long crafting process is proceeding. There are a couple of ways to use them.%n%nRightclick with item: Will display the current level of that item if not locked.%nRightclick with empty hand: Will reset the display if not locked.%nRightclick with AE2 wrench or network tool: Will toggle the lock.%n%n%nThe ME Conversion Monitor is the upgraded version of the ME Storage Monitor. It adds the ability to directly withdraw from or store items into the ME Network. It has the normal interactions, plus more.%n%nShift-right-clicking with item: Attempts to insert the item stack into the network. This works even if it's not the displayed item!%nShift-double-right-clicking: Attempts to insert all item stacks of the type displayed into the network.%nRight-clicking (while locked): Attempts to pull out a stack of the item displayed.
+
+# Quest.2523 - Redstone Based on Storage Level
+gtnh.quest2523.name=Redstone Based on Storage Level
+gtnh.quest2523.desc=This device will turn on (or off) a redstone signal based on how much of an item you specify (or energy in the network if you select the mode) you have in your network. Left click an item into the space between the 1000 numbers to add, click again while holding nothing to remove.
+
+# Quest.2524 - Why Do I Need to Know How Much Manure Slurry I Have?
+gtnh.quest2524.name=Why Do I Need to Know How Much Manure Slurry I Have?
+gtnh.quest2524.desc=These are the fluid versions.%n%n§4Currently appear to be broken?§r
+
+# Quest.2525 - Out of Polytetrafluoroethylene? Turn on the LCR!
+gtnh.quest2525.name=Out of Polytetrafluoroethylene? Turn on the LCR!
+gtnh.quest2525.desc=It's basically the same as a fluid detector cover, except it detects based on what's in your network. Click a cell into the center to specify, and an empty hand to clear.
+
+# Quest.2526 - Essentia Level Emitter
+gtnh.quest2526.name=Essentia Level Emitter
+gtnh.quest2526.desc=Same as the other two, but for essentia.
+
+# Quest.2527 - Was I Out of Nebrisum, or Was it Terminus?
+gtnh.quest2527.name=Was I Out of Nebrisum, or Was it Terminus?
+gtnh.quest2527.desc=These are the essentia versions.
+
+# Quest.2528 - I'll Send Wireless Signals Where I Want, Thank You
+gtnh.quest2528.name=I'll Send Wireless Signals Where I Want, Thank You
+gtnh.quest2528.desc=This block provides unlimited AE for your network. You need Infinity Ingots to make it.
+
+# Quest.2529 - Beam Me Up, Scotty
+gtnh.quest2529.name=Beam Me Up, Scotty
+gtnh.quest2529.desc=If you want to teleport stuff around using these, you'll need a drive in the SIOP, and at least 6 pylons hooked up. The pylons need to indicate the X, Y and Z dimensions, with you needing 1 more than you would think. If the efficiency goes below 100%, the AE cost will balloon enormously, so add more pylons to counteract that. After using a redstone signal to activate the SIOP, the blocks will be moved to the spatial IO dim, and the drive will move to the output, so you can send it somewhere else. This is very important to do properly if you want to use it as a teleporter. Otherwise you can get stuck there. Your network will need to be able to hold all the power needed to teleport at once, so you'll need at least one energy cell. You can only have one Pylon setup per controller, so consider putting them on a subnetwork.%n%nUsing 2 in the X and Z dimensions and 3 in the Y will give you a 1x2x1 teleporter to teleport yourself. You'll want a SIOP port on each side for sending and for receiving. But you'll still need to design a redstone contraption to activate them properly!  %n%nRead this if you want to know more about spatial IO in general, and larger setups: https://www.reddit.com/r/feedthebeast/comments/3c2b2r/a_treatise_on_nocheat_smp_ae2_spatial_io/%nAlso see this if you want to see a fancy teleporter: https://www.reddit.com/r/feedthebeast/comments/2mhrf8/ae2_spatial_transporters/%n%n§4Spatial cells, once used, will only work in the XYZ dimensions first used, with no way to format or recraft. Test in creative first!%n%nExpect your world to lag for a second after using, blame AE.
+
+# Quest.2530 - Spring Cleaning
+gtnh.quest2530.name=Spring Cleaning
+gtnh.quest2530.desc=So, when you first started AE, maybe you dumped a bunch of your items into 1k drives, but now you want to clean them up, or empty them to reuse them in making higher tier ones. The ME IO Port will allow you to fill or empty your drives by connecting to the rest of the network.%n%nYou can use the Cell Workbench to format your drives, so they'll only contain the stuff you want. Remember, more item types mean less space overall. You can set them to lapis for example, then put them in the ME IO Port with the transfer direction to the drive to fill it with only that item. Don't put in an unformatted drive while using storage drawers to store tons of stuff! If you want to move your stuff around, put in new drives, then empty old ones, or disconnect your storage drawers temporarily.%n%nYou can use the Workbench to format fluid drives too, and even use cells instead of buckets.%n%nCell Workbenches do not connect to the network, so they don't need a channel.
+
+# Quest.2531 - Formatting Gas-er, Essentia
+gtnh.quest2531.name=Formatting Gas-er, Essentia
+gtnh.quest2531.desc=This is the essentia version.
+
+# Quest.2532 - Alpha and Omega
+gtnh.quest2532.name=Alpha and Omega
+gtnh.quest2532.desc=The ME Annihilation Plane destroys blocks as if you had mined them, and places them into the network. The Identity version acts as if silk touch was used.%n%nThe ME Formation Plane does the opposite, it places blocks into the world. You'll need to tell it what to place/drop though. This can work in both block and item mode.
+
+# Quest.2533 - Fluid Placement
+gtnh.quest2533.name=Fluid Placement
+gtnh.quest2533.desc=Did you know that dispensers with a bucket will place or pick up fluid blocks in front of them after receiving a redstone signal? Well, this is the technological version. Remember it'll only work on fluids that can be placed down, ok? This is different from whether there's a bucket version or not.
+
+# Quest.2534 - Moar Patterns!
+gtnh.quest2534.name=Moar Patterns!
+gtnh.quest2534.desc=You may have noticed that the ME Interface's GUI is different that before. That is because with this card you can have more patterns, adding 9 more per card up to a total of 36. HOWEVER, it also uses 4 times the energy for every item when crafting, and this is multiplicative for each new card. If doing large crafts, make sure you have some dense energy cells ready.%n%nSo basically: (sum of amounts of items in the pattern) * config multiplier (which is 10 for GTNH). with cards, it's also multiplied by 4^(number of upgrades)%n%nE.g. recipe (wood log -> planks) in the interface w/o upgrades would draw: 1*10 AE units, that is 5 EU (remember 1 EU = 2 AE)%n9 charcoal -> charcoal block compressor recipe in the interface with 3 upgrades will draw 9*10*4^3*0.5 = 2070 EU, but only 45EU without any cards%n%nThey're kind of expensive, so consider holding off if you can't afford the material or EU costs. If you remove it, all hte extra patterns will pop out, so be careful of that when moving your stuff.
+
+# Quest.2535 - Singular Singularities Signify Something
+gtnh.quest2535.name=Singular Singularities Signify Something
+gtnh.quest2535.desc=Quest names are hard sometimes, ok? To make a Singularity (for the Quantum Network Bridge), you'll need to dump 512,000 items into the Matter Condenser set to Singularity Mode, while using a 64k component or higher.%n%nThen put the Singularity and Enderpearl Dust on the ground and use an explosion (Tiny TNT works well) to create two Quantum Entangled Singularities.%n%nQESs are each a unique pair.
+
+# Quest.2536 - Quantum Bridging Your Outposts
+gtnh.quest2536.name=Quantum Bridging Your Outposts
+gtnh.quest2536.desc=A Quantum Network Bridge allows you to connect faraway places to your main AE network, even in other dimensions. So you can shove that pollution producing Mega EBF in the Void where it belongs, but still use it from the safety of your main base. To create this, you'll need a Quantum Link Chamber surrounded by Quantum Rings. Then put an Quantum Entangled Singularity in the link chamber, and connect to one of the 4 Quantum Rings around it with a fluix cable. They cost 1000EU/t for each pair.%n%nYou can power the other side from the first, but you need to jumpstart it first, so bring an energy cell when setting it up. Remember that it's part of the same network, so you can only have one controller, and you're still limited by the channels of the cable you connected with, so you may wish to use the P2P Tunnel to bring more across.%n%nIf you use several, you may wish to rename the QESs.
+
+# Quest.2537 - Tools of the Trade
+gtnh.quest2537.name=Tools of the Trade
+gtnh.quest2537.desc=The Network Tool is AE2s main utility tool.%n%nRight-click on a network to see the power usage, and what makes up the network.%nRight-click on air to interact with it's inventory to store cards or turn facades transparent.%nShift-right-click to remove fixtures (import bus, interface, etc) that don't take up a full block without removing the cable, or remove any AE block immediately the same way.%n%n%nThe Network Visualizer does exactly what it says, it allows you to visualize the channels of your network. First, right-click a network to select it. At first you'll see everything, but you can change the modes by holding shift and scrolling the mouse wheel up or down to see different things. Remember that if you have a subnetwork, like one that P2P tunnels go through for example, those nodes won't show up since it's a different network, but the P2P tunnels entrances and exits will. This goes through solid objects, so you can look at your whole base.
+
+# Quest.2538 - Portable Digital Storage
+gtnh.quest2538.name=Portable Digital Storage
+gtnh.quest2538.desc=They're exactly what they sound like. %n%nThe first is for items and acts like a terminal. It can hold 4,032 of a single item.%n%nThe second is for liquids, and acts like the fluid terminal. It can hold 128 buckets of a single liquid.%n%nIt costs AE to put things in, take them out, or have the interface open. Use the Wireless Charger from EIO if you don't want it to take forever.
+
+# Quest.2539 - Deck of Cards
+gtnh.quest2539.name=Deck of Cards
+gtnh.quest2539.desc=These cards add additional functionality to certain devices or fixtures. They specify what devices they work on in the tooltip.%n%nThe Redstone Card adds redstone interactivity to the devices it can be used on, with the following options:%nAlways active, active with or without redstone signal, activate once per pulse.%n%nThe Capacity Card adds more slots for items that use them. If you add this to an Export Bus, an icon is added to select item priority.%n%nThe Crafting Card allows you to automatically request autocrafting of items.%nIn an ME Interface, if you put in items to be stocked, if there aren't enough, it'll craft them until it reaches the selected amount. Remember that these are being stocked for crafting recipes that the ME Interface has. If you want them to be seen by the network, you'll need to put a storage bus on the ME Interface.%n%nIn an ME Level Emitter, in the first mode, it'll emit a redstone signal while the specific item is being crafted. In the second, it will emit a redstone signal once a crafting job for the item has been requested, but§4§r §4it won't send the items to be crafted.§r This is useful if you're using a dummy pattern, and are using the level emitter to tell something else to happen. You still need to get the item(s) requested back into the system so it doesn't tie up a crafting CPU though.%n%nIn an ME Export Bus, it'll attempt to send whatever item(s) are selected in the export bus' GUI. In the first mode, it'll send available items first, then create crafting jobs for the rest. In the second mode, it will only send crafted items.%n%nThe Acceleration Card makes the device/fixture work faster. You'll probably want a lot of these.%n%nThe Inverter Card allows you to invert the item filter of certain fixtures.%n%nThe Fuzzy Card allows you to apply fuzzy logic to filtering to allow items with different NBT or damage data to be counted as the same. This is different from metadata. If you just want it to be fuzzy for nbt, set to Match Any. If it is set to 99%, it will work on anything that is damaged. You can use the Inverter Card to reverse this.
+
+# Quest.2540 - Tools of the Trade
+gtnh.quest2540.name=Tools of the Trade
+gtnh.quest2540.desc=The ME Fluid Auto Filler will add crafting recipes for any fluid in your network that has a bucket version. When crafting a water bucket for example, it will send a bucket to it, and the filled water bucket back.%n%nThe ME Fluid Assembler acts like a combined Molecular Assember and ME Interface for recipes that require fluids (but not processing recipes). It will accept both buckets and cells in the recipe patterns, but doesn't use them when crafting, it just sends the fluid directly. The MEFAF is sad :(.
+
+# Quest.2541 - Wireless 1.5
+gtnh.quest2541.name=Wireless 1.5
+gtnh.quest2541.desc=You can add different terminals (fluid, essentia) to the Wireless Terminal to make the Wireless Universal Terminal. However... essentia doesn't work, and crafting only works if the crafting terminal was used as the base.
+
+# Quest.2542 - Wireless 2.0
+gtnh.quest2542.name=Wireless 2.0
+gtnh.quest2542.desc=This is the good wireless terminal. It even has crafting. There's a bit of lag when you open it, but the convenience it worth it, right? You can't pull out fluids, but you can hold on to the universal one if you want.%n%nThe Magnet Card does not pull items to you. Instead, it allows you to automatically deposit them into the network. You can right-click to change the white/blacklist, or shift-right-click to change the mode.
+
+# Quest.2543 - Wireless 3.0
+gtnh.quest2543.name=Wireless 3.0
+gtnh.quest2543.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point! You need Infinity Ingots to make it.
+
+# Quest.2544 - Cut the Power!
+gtnh.quest2544.name=Cut the Power!
+gtnh.quest2544.desc=The ME Toggle Bus allows you to cut off access through a cable if it doesn't receive a redstone signal. The inverted version is, well, inverted. It must be placed between the cables, like a Quartz Fiber.
+
+# Quest.2545 - Providing Essentia on Demand
+gtnh.quest2545.name=Providing Essentia on Demand
+gtnh.quest2545.desc=The Essentia and Infusion Providers both do basically the same thing, send essentia to a device that requests it for crafting.%n%nThe Essentia Provider needs to be next to the device, it's mostly for the Thaumatorium. Since it's effectively a magic ME Interface, you can also use it instead of an Essentia Import Bus next to your Alembics or the Advanced Alchemical Furnace.%n%nThe Infusion Provider is for devices that draw essentia through the air, like the Runic Matrix (infusion) or Overchanting Table. It doesn't need to be next to the device.%n%nThey both obviously need the essentia they request to be accessible by the network to work.
+
+# Quest.2546 - Ordering Essentia
+gtnh.quest2546.name=Ordering Essentia
+gtnh.quest2546.desc=The Distillation Pattern Encoder allows you to automatically melt down items in your alchemical furnace to provide essentia.%nFirst, place something that is already scanned in the device, along with a blank pattern. You can create the pattern by clicking the button, or click the different aspects to select one that is not the highest. This will create a pattern of item -> essentia. Then use an ME Interface pointing at a furnace with the pattern in it. You can now craft that type of essentia the same way you would a normal craft, but through the Essentia Terminal.%n%n§4There isn't a way to have the system craft essentia on demand for a craft unfortunately.§r%n%n
+
+# Quest.2547 - Autocrafting Magic Stuff
+gtnh.quest2547.name=Autocrafting Magic Stuff
+gtnh.quest2547.desc=The Arcane Assembler works like a combination of the Molecular Assembler and the Arcane Workbench, allowing you to autocraft anything crafted in the latter. You need to link a vis relay through the network to supply essentia to it, and a Knowledge Core with recipes on it for to work. Additionally, you can add vis discount gear into the interface to take advantage of the discount. The base discount starts at 20%. For each Acceleration card, the time taken will reduce by 20%, and increase power used by 50%. For every point of warp on the discount gear, the power costs increase by 15%.%n%nThe knowledge core holds up to 21 patterns for use in the Arcane Assembler, but you need a new assembler for every knowledge core if you want to autocraft more than that.%n%nTo encode the patterns, you need a Knowledge Inscriber. It works exactly as you would expect. It doesn't connect to the network, so it doesn't need a channel. If you want to erase a pattern select it and the save icon should become erase instead.%n
+
+# Quest.2548 - Miscellaneous AE Items
+gtnh.quest2548.name=Miscellaneous AE Items
+gtnh.quest2548.desc=There are several AE items that aren't particularly useful, but probably deserve mention, so here they are:%n%nCertus Tanks: They hold 32B and are portable and easy to make.%n%nView Cell: Format in a Cell Workbench to filter what you see in a terminal (when they're installed in it)%n%nCertus/Nether Quartz Cutting Knifes: Right-click to open interface. Place an iron ingot in the slot, and choose a name. The press can be used in the Inscriber to name stuff without using an anvil.%n%nME Drive Fixture: Only holds 6 cells instead of 10.%n%nME Energy Cell Fixture: Requires a channel for some reason. Also, §4it doesn't work.§r%n%nME Block Container: Holds only one type of item, but the amount of a 64k drive. Can place the item in world, or replace in a 1x1 or 3x3 area. Blocks replaced will be dumped in world. This will be horizontal or vertical depending on which side of a block you select. Shift-right click air to change mode, right click a block to activate mode.%n%nCharged Quartz Fixture: Emits light at the same level as a torch, but fancier.%n%nLight Detecting Fixture: Emits redstone signal based on light. Since it only starts at 7, it's not as useful as the Light Sensor.%n%nME Upgrade (Tier 1/2/3): If you're an OC person, there's 3 upgrades you can make to add access to your network from robots and drones.%nT1: 0.5 access point range%nT2: Normal access point range%nT3: Unlimited range, any dim%n%nEntropy Manipulator: Changes grass/dirt/dried dirt into each other, or starts fires. Or melts ice. Useless.%n%nMatter Cannon: Shoots Matter Balls made in the Matter Condensor. Put it in an ME Chest or Drive and put items in a Terminal to fill. Decent I guess? But it destroys blocks every time you use it, so... Well, I guess you could use it with Paint Balls?%n%nColor Applicator: Use dye items or Paint Balls (more efficient) to dye stuff. You can dye cables, or anything Forge-compatible, like wool or glass. Place items inside like the Matter Cannon. You can cycle through the colors by holding shift and right-clicking, or scrolling the mouse wheel. If you use snow balls, you can remove paint instead. You can also use it in a dispensor.%n%nME Fluid Pattern [WIP]: §YYou're supposed to use it in a fluid terminal if there's no bucket version of a fluid to be able to make a crafting pattern with that fluid. However, §4it doesn't work.§r Also useless since we have cells.%n%nWalrus: It's a walrus, what are you expecting?
+
+# Quest.2549 - Magical Minions
+gtnh.quest2549.name=Magical Minions
+gtnh.quest2549.desc=You can use the Wireless Golem Backpack to connect your golem to the network if it's close enough to an access point. See the Thaumonomicon for details.%n%n
+
+# Quest.2550 - Endermanhead
+gtnh.quest2550.name=Endermanhead
+gtnh.quest2550.desc=Want some endermanheads? Buy some!
+
+# Quest.2551 - Time to kill (Scorching Lens)
+gtnh.quest2551.name=Time to kill (Scorching Lens)
+gtnh.quest2551.desc=They live on a fiery island in the end and spit at you with fireballs. Better run for your life.
+
+# Quest.2552 - Time to kill (Fire Golem)
+gtnh.quest2552.name=Time to kill (Fire Golem)
+gtnh.quest2552.desc=Oh you felt out of the world, I'm sorry. Try again.
+
+# Quest.2553 - Time to kill (Haunted Miners)
+gtnh.quest2553.name=Time to kill (Haunted Miners)
+gtnh.quest2553.desc=Haunted mines are the flying fire devils. They shoot you into the abyss with your big bazookas.
+
+# Quest.2554 - Time to kill (Louse)
+gtnh.quest2554.name=Time to kill (Louse)
+gtnh.quest2554.desc=Everywhere bugs! These damned bastards. Better run away quickly.
+
+# Quest.2555 - Underground Fluids
+gtnh.quest2555.name=Underground Fluids
+gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, well here's a list. They're sorted by rocket tier and planet, with the chance per underground fluid chunk (8x8 regular chunks) and max amount listed. Any Dims not listed have none. This list is subject to change due to balancing at any time!:%n%n%nTier 0:%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%nTier 1:%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%nTier 2:%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%nTier 3:%nCallisto%nLiquid Air 100 2-20%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 32767%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%nTier 4:%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%nTier 5:%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%nTier 6:%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%nTier 7:%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-40%nNitrogen 100 800%nOxygen 100 800%n%n%nTier 8:%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 20%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
 gtnh.line0.name=Tier 0 - It begins
 gtnh.line0.desc=The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam's Harvestcraft.
-
-# QuestLine.44 - Tips and Tricks
-gtnh.line44.name=Tips and Tricks
-gtnh.line44.desc=All our collected wisdom, in one convenient place. Many Greggers died to bring you this knowledge.
 
 # QuestLine.1 - Tier 0.5 - Stone Age
 gtnh.line1.name=Tier 0.5 - Stone Age
@@ -9926,14 +10342,6 @@ gtnh.line27.desc=Granny Weatherwax would approve.
 gtnh.line28.name=Paying the highest price
 gtnh.line28.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
 
-# QuestLine.29 - More blood, more stuff
-gtnh.line29.name=More blood, more stuff
-gtnh.line29.desc=Advanced Blood Magic? My veins feel weird...
-
-# QuestLine.30 - They are coming...
-gtnh.line30.name=They are coming...
-gtnh.line30.desc=The spirits that I've called... Demon invasions and beyond. Really deep into dark magic!
-
 # QuestLine.31 - Open Computers
 gtnh.line31.name=Open Computers
 gtnh.line31.desc=The magical world of ingame programming!
@@ -9958,10 +10366,6 @@ gtnh.line35.desc=AE2 focuses on creating a compact, easily accessible, considera
 gtnh.line36.name=An Age of Tech
 gtnh.line36.desc=I've been keeping a watchful eye on your technological advance - it's time to see the dreams of a technological future! I shall guide you to a whole new complicated series of machinery. Be wary though, these machines will test your resolve (and energy limits) to the extreme. (under construction)
 
-# QuestLine.43 - Hardcore End(er) Expansion
-gtnh.line43.name=Hardcore End(er) Expansion
-gtnh.line43.desc=Treasure of lands far beyond the vast sea of the Void and very angry rune spiders await you!
-
 # QuestLine.37 - Kill all the things
 gtnh.line37.name=Kill all the things
 gtnh.line37.desc=This world is full of nasty things. Time to kill some and improve your reputation.
@@ -9985,4 +10389,12 @@ gtnh.line41.desc=A legendary questline with difficult tasks, expensive recipes a
 # QuestLine.42 - Reward Area
 gtnh.line42.name=Reward Area
 gtnh.line42.desc=Upgrade your loot bags!
+
+# QuestLine.43 - Hardcore End(er) Expansion
+gtnh.line43.name=Hardcore End(er) Expansion
+gtnh.line43.desc=Treasure of lands far beyond the vast sea of the Void and very angry rune spiders await you!
+
+# QuestLine.44 - Tips and Tricks
+gtnh.line44.name=Tips and Tricks
+gtnh.line44.desc=All our collected wisdom, in one convenient place. Many Greggers died to bring you this knowledge.
 
