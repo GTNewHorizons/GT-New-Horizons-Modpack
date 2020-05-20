@@ -730,10 +730,7 @@ CuttingSaw.addRecipe(<Thaumcraft:blockCosmeticSlabStone> * 4, null, <Thaumcraft:
 
 
 // --- Arcan Stone Bricks
-PrecisionLaser.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>, <gregtech:gt.metaitem.01:24502> * 0, 600, 120);
-// -
-PrecisionLaser.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>, <gregtech:gt.metaitem.01:24512> * 0, 600, 120);
-
+PrecisionLaser.addRecipe(<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>, <ore:craftingLensRed> * 0, 600, 120);
 
 
 

@@ -893,19 +893,19 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeHuge>, <liquid:
 
 // --- BBQ Glows Left Hand
 recipes.addShaped(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [
-[<harvestcraft:wovencottonItem>, <minecraft:leather>, <harvestcraft:wovencottonItem>],
-[<minecraft:leather>, <harvestcraft:wovencottonItem>, <minecraft:leather>],
+[<harvestcraft:wovencottonItem>, <ore:itemLeather>, <harvestcraft:wovencottonItem>],
+[<ore:itemLeather>, <harvestcraft:wovencottonItem>, <ore:itemLeather>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 // -
-recipes.addShapeless(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>]);
+recipes.addShapeless(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove>, <ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>]);
 
 // --- BBQ Glows Right Hand
 recipes.addShaped(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [
-[<minecraft:leather>, <harvestcraft:wovencottonItem>, <minecraft:leather>],
-[<harvestcraft:wovencottonItem>, <minecraft:leather>, <harvestcraft:wovencottonItem>],
+[<ore:itemLeather>, <harvestcraft:wovencottonItem>, <ore:itemLeather>],
+[<harvestcraft:wovencottonItem>, <ore:itemLeather>, <harvestcraft:wovencottonItem>],
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 // -
-recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove:1>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>]);
+recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove:1>, <ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>]);
 
 // --- Neutron Reflector Parts
 recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [

@@ -6,6 +6,7 @@
 
 
 import mods.gregtech.Assembler;
+import mods.gregtech.Pulverizer;
 
 
 
@@ -131,3 +132,25 @@ Assembler.addRecipe(<catwalks:sturdy_rail_powered>, <minecraft:golden_rail>, <ca
 
 // --- Rope Light
 Assembler.addRecipe(<catwalks:ropeLight> * 8, <gregtech:gt.metaitem.02:19305> * 2, <minecraft:glowstone_dust>, 100, 16);
+
+
+// --- Pulverizer Recipes ---
+
+
+// --- Support Column
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:305> * 6], <catwalks:support_column>, [10000], 300, 2);
+
+// --- Scaffold
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 2, <gregtech:gt.metaitem.01:305> * 2], <catwalks:scaffold>, [10000, 10000], 300, 2);
+
+// --- Builders Scaffold
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 2, <gregtech:gt.metaitem.01:305> * 2], <catwalks:scaffold:1>, [10000, 10000], 300, 2);
+
+// --- Catwalk
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 2, <gregtech:gt.metaitem.01:305> * 2], <catwalks:catwalk_unlit>, [10000, 10000], 300, 2);
+
+// --- Caged Ladder
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2305> * 1], <catwalks:cagedLadder_north_unlit>, [10000], 300, 2);
+
+// --- Steelgrate
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:305> * 2], <catwalks:steelgrate>, [10000], 300, 2);
