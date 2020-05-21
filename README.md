@@ -103,7 +103,7 @@ For the official servers you can either apply directly on our website or type th
 ## EU Servers:<BR>
 
 Official EU Server Public (whitelist)<BR>
-http://gtnewhorizons.com/<BR>
+http://www.gtnewhorizons.com/<BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 eta.gtnewhorizons.com<BR>
