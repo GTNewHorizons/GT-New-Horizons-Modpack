@@ -1479,25 +1479,25 @@ recipes.addShaped(<IC2:itemPartCFPowder>, [
 recipes.addShaped(<IC2:itemArmorRubBoots>, [
 [<ore:plateRubber>, <IC2:itemArmorRubBoots:*>, <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.reuse(), null]]);
+[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]]);
 
 // --- Repair rubber Helm
 recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatHelmet:*>, <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.reuse(), null]]);
+[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]]);
 
 // --- Repair rubber Suit
 recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatChestplate:*>, <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.reuse(), null]]);
+[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]]);
 
 // --- Repair rubber Leggins
 recipes.addShaped(<IC2:itemArmorHazmatLeggings>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatLeggings:*>, <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.reuse(), null]]);
+[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]]);
 
 
 
