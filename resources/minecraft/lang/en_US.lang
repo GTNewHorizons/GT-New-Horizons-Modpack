@@ -10224,6 +10224,54 @@ gtnh.quest2554.desc=Everywhere bugs! These damned bastards. Better run away quic
 gtnh.quest2555.name=Underground Fluids
 gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, well here's a list. They're sorted by rocket tier and planet, with the chance per underground fluid chunk (8x8 regular chunks) and max amount listed. Any Dims not listed have none. This list is subject to change due to balancing at any time!:%n%n%nTier 0:%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%nTier 1:%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%nTier 2:%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%nTier 3:%nCallisto%nLiquid Air 100 2-20%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 32767%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%nTier 4:%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%nTier 5:%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%nTier 6:%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%nTier 7:%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-40%nNitrogen 100 800%nOxygen 100 800%n%n%nTier 8:%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 20%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
 
+# Quest.2556 - Upgrade #1 : Upgrade Tier 4 - EV Glass
+gtnh.quest2556.name=Upgrade #1 : Upgrade Tier 4 - EV Glass
+gtnh.quest2556.desc=Upgrade your Bacterial Vat's glass to EV tier, which brings the Glass-Tier to 4 and allows you to run more advanced recipes!
+
+# Quest.2557 - Upgrade #2 : Upgrade Tier 5 - IV Glass
+gtnh.quest2557.name=Upgrade #2 : Upgrade Tier 5 - IV Glass
+gtnh.quest2557.desc=Upgrade your Bacterial Vat's glass to IV tier, which brings the Glass-Tier to 5 and allows you to run more advanced recipes!
+
+# Quest.2558 - Upgrade #3 : Upgrade Tier 6 - LuV Glass
+gtnh.quest2558.name=Upgrade #3 : Upgrade Tier 6 - LuV Glass
+gtnh.quest2558.desc=Upgrade your Bacterial Vat's glass to LuV tier, which brings the Glass-Tier to 6 and allows you to run more advanced recipes!
+
+# Quest.2559 - Upgrade #4 : Upgrade Tier 7 - ZPM Glass
+gtnh.quest2559.name=Upgrade #4 : Upgrade Tier 7 - ZPM Glass
+gtnh.quest2559.desc=Upgrade your Bacterial Vat's glass to ZPM tier, which brings the Glass-Tier to 7 and allows you to run more advanced recipes!
+
+# Quest.2560 - Upgrade #5 : Upgrade Tier 8 - UV Glass
+gtnh.quest2560.name=Upgrade #5 : Upgrade Tier 8 - UV Glass
+gtnh.quest2560.desc=Upgrade your Bacterial Vat's glass to UV tier, which brings the Glass-Tier to 8 and allows you to run more advanced recipes!
+
+# Quest.2561 - Bacterial Vat
+gtnh.quest2561.name=Bacterial Vat
+gtnh.quest2561.desc=The Bacterial Vat is a unique multiblock machine.%nThe Vat isn't mandatory in this tier, but there are many useful recipes and you'll need it later on, so let's build one!%nMost recipes require a §cculture§r, some recipes require §cGlass-Tier.%n§rThe culture is made in a BioLab and §lput in the controller.%n§l§rThe Glass-Tier is calculated as LV as Tier 1, so this quest requires you to make tier 3 glass.
+
+# Quest.2562 - The Clean Lab
+gtnh.quest2562.name=The Clean Lab
+gtnh.quest2562.desc=You need the IV Bio Lab in the Cleanroom to create a creature to make Wetware, so let's create one.%nSince you'll be using Raw Growth Medium in large amounts, it's a good idea to made it start now!
+
+# Quest.2563 - Sievert for Bacteria
+gtnh.quest2563.name=Sievert for Bacteria
+gtnh.quest2563.desc=Some Vat recipes require for Sievert value. So attach this Radio Hatch to your Vat to input radioactive material!%nThe Radio Hatch inputs rod/long rod of radioactive material and accumulates that. The input item determines the Sievert value. §m§m§n§r§lAccumulated items will disappear (even if machine not active) with the passage of time.%n§rSievert value and accumulation and disappearance time can be checked with a portable scanner.%n%nFor example, if you input Uranium rod you get with this quest reward, Sievert is 92 and the amounts 1, disappear at 1588t/79s/1m per 1kg.
+
+# Quest.2564 - Make Vat more efficient!
+gtnh.quest2564.name=Make Vat more efficient!
+gtnh.quest2564.desc=Looking at some Vat's recipe you are likely discouraged by the small amount of fluid being produced per recipe.%nDon't worry! Fluid consumption and production shown in NEI are just the base line for the lowest efficiency. The efficiency of Vat depends on the amount of Fluid in The Output Hatch.%n%nThe efficiency gradually increases as the output hatch fills up and reaches maximum efficiency when it is half-filled. If the hatch fills even more, the efficiency goes down again, so try to keep it close to half! At maximum efficiency the amount of fluid consumed and produced per recipe is multiplied by 1000.%n§lTherefore, the most efficient method is to attach a sufficiently large hatch so that no surplus is produced and to keep §c§l§l§lFluids half-filled§l§l§r§l§c§l!
+
+# Quest.2565 - §1§2§3§4§5§6§7§8§9§lPolystyrene
+gtnh.quest2565.name=§1§2§3§4§5§6§7§8§9§lPolystyrene
+gtnh.quest2565.desc=To make Polystyrene you can use the chemical reactor. Use oxygen and styrene. To make plates using the fluid Extractor and a plate mold form.
+
+# Quest.2566 - §9§lBio Lab
+gtnh.quest2566.name=§9§lBio Lab
+gtnh.quest2566.desc=The Bio Lab is a multi-use Bioengineering station. You can create bacterial cultures with it. DNA Samples and Data Orbs with this DNA samples.%n%nThe Bio Cultures are use later on in the Bacterial Vat found in the Multi Goal section.
+
+# Quest.2567 - §9§lPetri Dish
+gtnh.quest2567.name=§9§lPetri Dish
+gtnh.quest2567.desc=The petri dish must first be sterilized to allow new cultures to grow on it. You can use ethanol, methanol, ammonia, or chlorine to sterilize.
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
