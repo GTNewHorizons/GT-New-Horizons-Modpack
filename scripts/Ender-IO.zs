@@ -477,6 +477,12 @@ recipes.remove(<EnderIO:itemExistingItemFilter>);
 // --- Mod Item Filter
 recipes.remove(<EnderIO:itemModItemFilter>);
 
+// --- Big Item Filter
+recipes.remove(<EnderIO:itemBigFilterUpgrade>);
+
+// --- Big Advanced Item Filter
+recipes.remove(<EnderIO:itemBigFilterUpgrade:1>);
+
 // --- Chargeable Upgrade
 recipes.remove(<EnderIO:itemPowerItemFilter>);
 
