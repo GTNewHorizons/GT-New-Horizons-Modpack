@@ -257,7 +257,7 @@ mods.thaumcraft.Research.setComplexity("GASEOUS_SHADOW", 2);
 
 // --- Fume Dissipator
 mods.thaumcraft.Research.setConcealed("GAS_REMOVER", true);
-mods.thaumcraft.Arcane.addShaped("GAS_REMOVER", <ThaumicTinkerer:gasRemover>, "ordo 16, aer 12, motus 8", [
+mods.thaumcraft.Arcane.addShaped("GAS_REMOVER", <ThaumicTinkerer:gasRemover>, "ordo 16, aer 12, perditio 8", [
 [<ore:gemQuartz>, <ore:screwThaumium>, <ore:gemQuartz>],
 [<ThaumicTinkerer:gaseousLightItem>, <ThaumicTinkerer:interface>, <ThaumicTinkerer:gaseousShadowItem>],
 [<ThaumicTinkerer:darkQuartzItem>, <ore:screwThaumium>, <ThaumicTinkerer:darkQuartzItem>]]);
