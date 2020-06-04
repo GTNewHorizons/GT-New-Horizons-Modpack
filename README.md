@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.0.9.0-RC1 is out 31.05.2020
+Version 2.0.9.0-RC2 is out 04.06.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -239,11 +239,11 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135a<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.33.50<BR>
+* Gregtech 5.09.33.51<BR>
 * GT Scanner Mod 1.5.7<BR>
 * GT Ore Nei Plugin 1.0.7<BR>
 * GT New Horizons Core Mod 1.6.46<BR>
-* GT++ 1.7.05.53a<BR>
+* GT++ 1.7.05.68<BR>
 * GTNH TC Wands 1.2.1<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
@@ -265,7 +265,7 @@ you find it in your resource folder<BR>
 * Iron Tanks 1.1.19<BR>
 * Jabba 1.2.6<BR>
 * JourneyMap 5.1.4p2<BR>
-* Kekztech 0.4.5<BR>
+* Kekztech 0.4.6<BR>
 * Lootgames 1.0.18<BR>
 * Magic Bees 2.5.3-GTNH<BR>
 * Malisis Doors 1.13.2<BR>
@@ -320,7 +320,7 @@ you find it in your resource folder<BR>
 * Super Tic 1.2.1<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 3.8.2<BR>
+* Tec Tech 3.8.3<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * Thaumcraft-NEI-Additions 1.1.0.1<BR>
