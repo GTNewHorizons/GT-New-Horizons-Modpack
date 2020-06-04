@@ -9822,7 +9822,7 @@ gtnh.quest2454.desc=苦难之井仪式将对半径6格内的怪物造成伤害, 
 
 # Quest.2455 - Unlimited LP
 gtnh.quest2455.name=无限的LP
-gtnh.quest2455.desc=制成这个终极气血宝珠, 你将拥有无限的LP. 但你仍然需要血液来进行合成, 不是吗?%n%n译者注: 此宝珠LP上限为10亿, 但注意需要手持此宝珠才能补充灵魂网络中的LP, 类似的还有创造法杖或中子法杖.
+gtnh.quest2455.desc=制成这个终极气血宝珠, 你将拥有无限的LP. 但你仍然需要血液来进行合成, 不是吗? (查看永魂之泣(Cry-of-the-Eternal-soul)仪式)%n%n译者注: 此宝珠LP上限为10亿, 但注意需要手持此宝珠才能补充灵魂网络中的LP, 机制类似的还有创造法杖或中子法杖.
 
 # Quest.2456 - Demon Blood Shards
 gtnh.quest2456.name=恶魔气血碎片
@@ -10224,6 +10224,178 @@ gtnh.quest2554.desc=到处都是虫子(bug)! 这些该死的混蛋. 最好快逃
 gtnh.quest2555.name=地下的流体
 gtnh.quest2555.desc=你可能想知道地下都有些什么流体, 好吧, 这里有一个列表. 按火箭等级与行星分类, 带有地下流体区块(8x8普通区块)生成几率和最大储量这两个数据. 没有列出的世界就没有地下流体. 此表随时可能因平衡而更改!:%n%n%n0阶火箭:%n主世界%n天然气 20 350%n石油 20 625%n原油 20 625%n轻油 20 625%n重油 20 625%n%n%n1阶火箭:%n月球%n氦-3 100 425%n盐水 20 200%n%n%n2阶火箭:%n火星%n氯苯 100 400%n盐水 100 400%n%n%n3阶火箭:%n木卫四%n液态空气 100 2-20%n氧气 100 200%n%n木卫二%n蒸馏水 80 3500%n盐水 100 800%n极重油 20 200%n%n罗斯128b%n蒸馏水 100 5000%n岩浆 5 32767%n天然气 65 625%n极重油 40 625%n%n%n4阶火箭:%n木卫一%n二氧化碳 80 750%n熔融铅 20 650%n硫酸 80 350%n%n水星%n氦-3 100 800%n熔融铁 30 400%n%n金星%n二氧化碳 100 1500%n熔融铅 100 1600%n硫酸 100 250%n%n%n5阶火箭:%n天卫五%n硫化氢 100 900%n%n天卫四%n一氧化碳 100 2000%n%n罗斯128ba%n氦-3 60 1250%n盐水 40 1250%n%n土卫六%n乙烷 100 200%n甲烷 100 800%n%n%n6阶火箭:%n海卫八%n氘 100 700%n%n海卫一%n乙烯 100 800%n氮气 100 800%n%n%n7阶火箭:%n鸟神星%n氢氯酸 80 300%n%n冥王星%n氟 80 4-800%n液态空气 40 4-40%n氮气 100 800%n氧气 100 800%n%n%n8阶火箭:%n半人马Bb%n熔融铜 10 300%n%n巴纳德C%n蒸馏水 100 8000%n不明液体 100 300%n极重油 100 800%n%n巴纳德E%n液态空气 20 20%n%n巴纳德F%n熔融锡 15 400%n%n鲸鱼座T星E%n蒸馏水 100 10000%n氢气 50 700%n极重油 100 200
 
+# Quest.2556 - Upgrade #1 : Upgrade Tier 4 - EV Glass
+gtnh.quest2556.name=升级#1 : 4阶-EV玻璃
+gtnh.quest2556.desc=将你的细菌培养缸的玻璃升级到EV阶段的4阶玻璃, 这样它就能处理更高级的配方了!
+
+# Quest.2557 - Upgrade #2 : Upgrade Tier 5 - IV Glass
+gtnh.quest2557.name=升级#2 : 5阶-IV玻璃
+gtnh.quest2557.desc=将你的细菌培养缸的玻璃升级到IV阶段的5阶玻璃, 这样它就能处理更高级的配方了!
+
+# Quest.2558 - Upgrade #3 : Upgrade Tier 6 - LuV Glass
+gtnh.quest2558.name=升级#3 : 6阶-LuV玻璃
+gtnh.quest2558.desc=将你的细菌培养缸的玻璃升级到LuV阶段的6阶玻璃, 这样它就能处理更高级的配方了!
+
+# Quest.2559 - Upgrade #4 : Upgrade Tier 7 - ZPM Glass
+gtnh.quest2559.name=升级#4 : 7阶-ZPM玻璃
+gtnh.quest2559.desc=将你的细菌培养缸的玻璃升级到ZPM阶段的7阶玻璃, 这样它就能处理更高级的配方了!
+
+# Quest.2560 - Upgrade #5 : Upgrade Tier 8 - UV Glass
+gtnh.quest2560.name=升级#5 : 8阶-UV玻璃
+gtnh.quest2560.desc=将你的细菌培养缸的玻璃升级到UV阶段的8阶玻璃, 这样它就能处理更高级的配方了!
+
+# Quest.2561 - Bacterial Vat
+gtnh.quest2561.name=细菌培养缸
+gtnh.quest2561.desc=细菌培养缸是一种独特的多方块机器.%n在当前阶段, 细菌培养缸并非必不可少的机器, 但它能处理许多有用的配方, 并且在之后你会需要它的, 让我们搭建一台吧!%n大部分配方需要 §c培养皿§r, 某些配方要求 §c玻璃等级.%n§r培养皿可在生物实验室中制得并§l放入细菌培养缸的控制器方块.%n§l§r玻璃等级计算时将LV玻璃视为1阶玻璃, 而此任务要求你制作3阶玻璃.
+
+# Quest.2562 - The Clean Lab
+gtnh.quest2562.name=洁净的实验室
+gtnh.quest2562.desc=制作湿件电路所需的培养皿要求IV生物实验室和超净间环境, 让我们制作一台吧.%n你将会需要大量的培养基原液, 所以从现在就开始吧!
+
+# Quest.2563 - Sievert for Bacteria
+gtnh.quest2563.name=细菌所需的辐射剂量(SV)
+gtnh.quest2563.desc=某些培养缸配方要求一定的辐射剂量(Sievert-Value). 所以你需要为你的细菌培养缸添加放射仓用以输入放射性材料!%n放射仓可输入放射性材料制成的杆或长杆, 并有一个小存储空间积累一定的转化后放射性物品. 输入的物品决定SV值. §m§m§n§r§l积累的物品会随时间而消失(即使机器未启动).%n§rSV值和消失时间可通过三录仪扫描放射仓获知.%n%n举个例子, 如果你输入此任务奖励的铀杆, SV值为92, 消失时间为1588t/79s/1m(每kg).
+
+# Quest.2564 - Make Vat more efficient!
+gtnh.quest2564.name=让培养缸更有效率!
+gtnh.quest2564.desc=查看培养缸的合成表时, 你可能会觉得每次运行产生的流体实在太少.%n不用担心! NEI中显示的流体消耗和产量仅仅是最低效率的基准. 输出仓内的流体量决定了培养缸的效率.%n%n随着输出仓内流体增多, 培养缸的效率会随之上升, 直到输出仓半满时达到最大效率. 超过一半继续增加时, 效率会再次降低, 所以尝试保持其中流体尽量靠近半满!%n译者注: 实际测试下来这个半满的范围非常宽阔, 特别是输出仓比较大的时候.%n最高效率时, 单次运行的流体消耗和产出是NEI显示基础值的1000倍.%n§l因此, 最有效的方法是安装足够大的输出仓, 这样就不会产生多余的东西并保持 §c§l§l§l半满§l§l§r§l§c§l!
+
+# Quest.2565 - §1§2§3§4§5§6§7§8§9§lPolystyrene
+gtnh.quest2565.name=§1§2§3§4§5§6§7§8§9§l聚苯乙烯
+gtnh.quest2565.desc=在化学反应釜中使氧气和苯乙烯反应, 可以制得聚苯乙烯. 再配合流体固化机和板模具, 即可获得聚苯乙烯片.
+
+# Quest.2566 - §9§lBio Lab
+gtnh.quest2566.name=§9§l生物实验室
+gtnh.quest2566.desc=生物实验室是一个多用途生物工程站. 你可以通过它来制造细菌培养皿. 配合DNA样品瓶和数据球可以进行DNA测序.%n%n培养皿之后会在"多方块结构"任务栏中的"细菌培养缸"中用到.
+
+# Quest.2567 - §9§lPetri Dish
+gtnh.quest2567.name=§9§l培养皿
+gtnh.quest2567.desc=必须先对培养皿进行灭菌, 以使新的培养物可以在其上生长. 你可以使用乙醇、甲醇、氨气或氯气进行灭菌.
+
+# Quest.2568 - Infinity Helmet
+gtnh.quest2568.name=无尽头盔
+gtnh.quest2568.desc=无尽头盔提供无尽的饱食度并可以免疫一切负面效果.
+
+# Quest.2569 - Infinity Breastplate
+gtnh.quest2569.name=无尽胸甲
+gtnh.quest2569.desc=无尽胸甲提供无限创造飞行能力.
+
+# Quest.2570 - Infinity Pants
+gtnh.quest2570.name=无尽护腿
+gtnh.quest2570.desc=这件装备本身没有什么特殊效果, 但却是无尽套的一部分.
+
+# Quest.2571 - Infinity Boots
+gtnh.quest2571.name=无尽靴子
+gtnh.quest2571.desc=提供永久跳跃提升效果并可以提高移动速度.
+
+# Quest.2572 - Building Block of the Stargate
+gtnh.quest2572.name=星门的基础方块
+gtnh.quest2572.desc=你需要大量的这种方块才能构成完整的星门...
+
+# Quest.2573 - Stargate Ring Block
+gtnh.quest2573.name=星门外环方块
+gtnh.quest2573.desc=一个完整的星门需要8个外环方块.
+
+# Quest.2574 - Stargate Base
+gtnh.quest2574.name=星门底座方块
+gtnh.quest2574.desc=我们需要一个星门底座方块来作为星门的基础.
+
+# Quest.2575 - Stargate Chevron Block
+gtnh.quest2575.name=星门导标方块
+gtnh.quest2575.desc=一个完整的星门需要7个导标方块.
+
+# Quest.2576 - Stargate Chevron
+gtnh.quest2576.name=星门导标升级
+gtnh.quest2576.desc=想要让星门可以跨世界运行, 这个升级必不可小, 它可以在你拥有第二个星门后拨号连接...
+
+# Quest.2577 - Infinity Chest
+gtnh.quest2577.name=无尽箱子
+gtnh.quest2577.desc=存储最多243种不同物品, 每种物品的最大堆叠数为2,147,483,648. 虚空采矿场挖到的矿物太多无处存放, 试试这个吧.
+
+# Quest.2578 - Nature's Ruin
+gtnh.quest2578.name=自然荒芜之斧
+gtnh.quest2578.desc=无尽斧, 永不磨损, 能够立即砍倒整棵树.
+
+# Quest.2579 - Planet Eater
+gtnh.quest2579.name=星球吞噬之铲
+gtnh.quest2579.desc=无尽铲, 永不磨损, 能够一次挖掘16x16x16范围.
+
+# Quest.2580 - Sword of the Cosmos
+gtnh.quest2580.name=寰宇支配之剑
+gtnh.quest2580.desc=除了拥有完整无尽套的玩家, 这把剑可以一击杀死任何生物或玩家. 类似于/kill指令击杀.(译者注: 实际机制更加复杂...)
+
+# Quest.2581 - World Breaker
+gtnh.quest2581.name=世界崩解之镐
+gtnh.quest2581.desc=无尽镐, 永不磨损, 能够破坏基岩且一次可以挖掘16x16x16范围.
+
+# Quest.2582 - Infinity blocks, because why not?
+gtnh.quest2582.name=无尽块, 因为所以?
+gtnh.quest2582.desc=我的意思是, 如果你真的需要的话...
+
+# Quest.2583 - Galaxy in a Bottle...?
+gtnh.quest2583.name=瓶中的银河...?
+gtnh.quest2583.desc=祝你好运, 这玩意的难度是MK3的许多许多许多倍. 需要许多终极材料, 比如海珀珍.
+
+# Quest.2584 - Hypogen
+gtnh.quest2584.name=海珀珍
+gtnh.quest2584.desc=我的意思是, 这玩意实际上还没有任何用途, 但是如果你真的需要的话...
+
+# Quest.2585 - Infinite Vis Storage, kinda?
+gtnh.quest2585.name=无尽的VIS, kinda?
+gtnh.quest2585.desc=提供巨量的VIS存储, 且手持时可以自动回满.
+
+# Quest.2586 - Storage of the Gods
+gtnh.quest2586.name=上帝的蓄电池
+gtnh.quest2586.desc=有了这个容量超过600,000个能源站的电池, 谁还要能源站啊.
+
+# Quest.2587 - UV Solar
+gtnh.quest2587.name=UV太阳能
+gtnh.quest2587.desc=白天时产生1A的UV电. 如果你的基地所在维度是永昼的话那就太棒了(比如花园世界).
+
+# Quest.2588 - Well this looks... shiny?
+gtnh.quest2588.name=好吧, 看起来...闪亮?
+gtnh.quest2588.desc=永恒奇点, 由GTNH中几乎所有资源构成. 一个星门大概总共需要200个永恒奇点.
+
+# Quest.2589 - Infinite Oxygen Tank
+gtnh.quest2589.name=无限氧气罐
+gtnh.quest2589.desc=提供无限的氧气, 很遗憾, 只能用于补充氧气罐, 而不能直接装备在氧气罐槽位中.
+
+# Quest.2590 - You know the drill
+gtnh.quest2590.name=你知道该怎么做
+gtnh.quest2590.desc=我不确定它们到底有没有用, 不过它们看起来蓝蓝的所以有点酷.
+
+# Quest.2591 - Power of the Gods
+gtnh.quest2591.name=上帝的能量
+gtnh.quest2591.desc=干得漂亮, 现在把它填满. 大概只需要几千年, 最好磨一下.
+
+# Quest.2592 - Anywhere, anytime
+gtnh.quest2592.name=随时, 随地
+gtnh.quest2592.desc=这个传送机可以将你传送至任意世界的任意坐标. 你需要付出的仅仅是氮等离子体和EU.
+
+# Quest.2593 - Welcome to hell
+gtnh.quest2593.name=欢迎来到地狱
+gtnh.quest2593.desc=恭喜你, 你已经通过了这个整合包的简单部分. 是时候面对一些真正的挑战了, 向我出示你的证明, 然后我们继续.
+
+# Quest.2594 - You'll probably need quite a few of these
+gtnh.quest2594.name=你可能需要这些
+gtnh.quest2594.desc=实际上它可能无法存储任何能量, 但对于其他一些终极物品仍然有用.
+
+# Quest.2595 - These exist?
+gtnh.quest2595.name=这些存在吗?
+gtnh.quest2595.desc=好吧, 从技术上讲, 是的, 从当前版本开始, 这些电路是游戏中最高等级的电路.
+
+# Quest.2596 - Who needs UV solars when you have magic
+gtnh.quest2596.name=有了魔法, 谁还要UV太阳能啊
+gtnh.quest2596.desc=当使用水注魔时, 这种单方块最大可以产生600M-EU/t, 这很平衡...对吧?
+
+# Quest.2597 - Stargate Command
+gtnh.quest2597.name=存储命令
+gtnh.quest2597.desc=好吧, 如果你真的想使用星门, 你需要这些来给它供能并进行拨号.
+
+# Quest.2598 - What, how?
+gtnh.quest2598.name=什么, 怎么样?
+gtnh.quest2598.desc=你不应该在这里... 我认为如果你合法解锁了此物品, 你得出门晒晒太阳了...%n%n同时, 这是你的奖励, 别一次全花光!
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
@@ -10341,6 +10513,10 @@ gtnh.line27.desc=这是什么样的巫术！？
 # QuestLine.28 - Paying the highest price
 gtnh.line28.name=付出最高的代价
 gtnh.line28.desc=当普通魔法不够的时候,召唤恶魔来服侍你！虽然代价有些吓人...但没有风险就没有乐趣！
+
+# QuestLine.29 - Endgame Goals
+gtnh.line29.name=终极目标
+gtnh.line29.desc=终极目标的集合, 祝你好运, 也感谢你一直以来的支持.
 
 # QuestLine.31 - Open Computers
 gtnh.line31.name=开放式电脑
