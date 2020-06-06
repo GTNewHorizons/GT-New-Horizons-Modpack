@@ -9822,7 +9822,7 @@ gtnh.quest2454.desc=The Well of Suffering damages mobs in a 6 block radius and f
 
 # Quest.2455 - Unlimited LP
 gtnh.quest2455.name=Unlimited LP
-gtnh.quest2455.desc=Making this will give you unlimited LP. But you still need blood for crafting, OK?
+gtnh.quest2455.desc=Making this will give you unlimited LP. But you still need blood for crafting, OK? (Look into Cry of the Eternal soul ritual for a way around this)
 
 # Quest.2456 - Demon Blood Shards
 gtnh.quest2456.name=Demon Blood Shards
@@ -10272,6 +10272,130 @@ gtnh.quest2566.desc=The Bio Lab is a multi-use Bioengineering station. You can c
 gtnh.quest2567.name=§9§lPetri Dish
 gtnh.quest2567.desc=The petri dish must first be sterilized to allow new cultures to grow on it. You can use ethanol, methanol, ammonia, or chlorine to sterilize.
 
+# Quest.2568 - Infinity Helmet
+gtnh.quest2568.name=Infinity Helmet
+gtnh.quest2568.desc=Helmet which provides infinite saturation and removes all negative debuffs.
+
+# Quest.2569 - Infinity Breastplate
+gtnh.quest2569.name=Infinity Breastplate
+gtnh.quest2569.desc=Breastplate which provides the user infinite creative flight.
+
+# Quest.2570 - Infinity Pants
+gtnh.quest2570.name=Infinity Pants
+gtnh.quest2570.desc=This item has no special effects on its own but is required to complete the full infinity set.
+
+# Quest.2571 - Infinity Boots
+gtnh.quest2571.name=Infinity Boots
+gtnh.quest2571.desc=Provides a permanent jump boost and increased running speed.
+
+# Quest.2572 - Building Block of the Stargate
+gtnh.quest2572.name=Building Block of the Stargate
+gtnh.quest2572.desc=You'll need a lot of these to make a full stargate...
+
+# Quest.2573 - Stargate Ring Block
+gtnh.quest2573.name=Stargate Ring Block
+gtnh.quest2573.desc=You'll need 8 of these to construct a full stargate.
+
+# Quest.2574 - Stargate Base
+gtnh.quest2574.name=Stargate Base
+gtnh.quest2574.desc=We need one of these to form the base of the stargate.
+
+# Quest.2575 - Stargate Chevron Block
+gtnh.quest2575.name=Stargate Chevron Block
+gtnh.quest2575.desc=You'll need 7 of these to construct a full stargate.
+
+# Quest.2576 - Stargate Chevron
+gtnh.quest2576.name=Stargate Chevron
+gtnh.quest2576.desc=This is required in order to make the stargate work between dimensions, provided you get a second stargate to dial...
+
+# Quest.2577 - Infinity Chest
+gtnh.quest2577.name=Infinity Chest
+gtnh.quest2577.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
+
+# Quest.2578 - Nature's Ruin
+gtnh.quest2578.name=Nature's Ruin
+gtnh.quest2578.desc=Infinity axe, never breaks and capable of chopping down an entire tree instantly.
+
+# Quest.2579 - Planet Eater
+gtnh.quest2579.name=Planet Eater
+gtnh.quest2579.desc=Infinity shovel, never breaks and capable of mining a 16x16x16 area instantly.
+
+# Quest.2580 - Sword of the Cosmos
+gtnh.quest2580.name=Sword of the Cosmos
+gtnh.quest2580.desc=Able to kill anything, in one hit except another player in full infinity gear. Essentially runs the /kill command on the entity you hit.
+
+# Quest.2581 - World Breaker
+gtnh.quest2581.name=World Breaker
+gtnh.quest2581.desc=Infinity pickaxe, never breaks, able to break bedrock and capable of mining a 16x16x16 area instantly.
+
+# Quest.2582 - Infinity blocks, because why not?
+gtnh.quest2582.name=Infinity blocks, because why not?
+gtnh.quest2582.desc=I mean, if you really must...
+
+# Quest.2583 - Galaxy in a Bottle...?
+gtnh.quest2583.name=Galaxy in a Bottle...?
+gtnh.quest2583.desc=Good luck with this one, it is many many many times harder than the previous tiers. Required to make extremely endgame materials such as hypogen.
+
+# Quest.2584 - Hypogen
+gtnh.quest2584.name=Hypogen
+gtnh.quest2584.desc=I mean this doesn't really have any uses yet but if you must...
+
+# Quest.2585 - Infinite Vis Storage, kinda?
+gtnh.quest2585.name=Infinite Vis Storage, kinda?
+gtnh.quest2585.desc=Provides an absurd quantity of vis storage.
+
+# Quest.2586 - Storage of the Gods
+gtnh.quest2586.name=Storage of the Gods
+gtnh.quest2586.desc=Who needs a PSS when this bad boy holds over 600,000x as much.
+
+# Quest.2587 - UV Solar
+gtnh.quest2587.name=UV Solar
+gtnh.quest2587.desc=Produces 1A of UV voltage during the day. Useful if you live in a dimension with permanent day (Eg garden).
+
+# Quest.2588 - Well this looks... shiny?
+gtnh.quest2588.name=Well this looks... shiny?
+gtnh.quest2588.desc=Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require ~200 of these in total.
+
+# Quest.2589 - Infinite Oxygen Tank
+gtnh.quest2589.name=Infinite Oxygen Tank
+gtnh.quest2589.desc=Provides infinite oxygen, can only be used to refill tanks and cannot be put into your primary oxygen slot unfortunately.
+
+# Quest.2590 - You know the drill
+gtnh.quest2590.name=You know the drill
+gtnh.quest2590.desc=I'm not even sure these have uses but they're blue so that's kinda cool.
+
+# Quest.2591 - Power of the Gods
+gtnh.quest2591.name=Power of the Gods
+gtnh.quest2591.desc=Good job, now fill it. Should only take a few millenia, better get grinding.
+
+# Quest.2592 - Anywhere, anytime
+gtnh.quest2592.name=Anywhere, anytime
+gtnh.quest2592.desc=This teleporter will allow you to teleport to any coordinate in any dimension. For the cost of nitrogen plasma and EU.
+
+# Quest.2593 - Welcome to hell
+gtnh.quest2593.name=Welcome to hell
+gtnh.quest2593.desc=Congratulations, you've beaten the easy part of the pack. Time for some real challenges, show your certificate to me so we can proceed.
+
+# Quest.2594 - You'll probably need quite a few of these
+gtnh.quest2594.name=You'll probably need quite a few of these
+gtnh.quest2594.desc=It may not actually store any energy but it'll still be useful for some other endgame items.
+
+# Quest.2595 - These exist?
+gtnh.quest2595.name=These exist?
+gtnh.quest2595.desc=Well yes technically, as of the current version these circuits are the highest in the game.
+
+# Quest.2596 - Who needs UV solars when you have magic
+gtnh.quest2596.name=Who needs UV solars when you have magic
+gtnh.quest2596.desc=This single block can produce a maximum of 600m eu/t when in aqua form, that's balanced right... right?
+
+# Quest.2597 - Stargate Command
+gtnh.quest2597.name=Stargate Command
+gtnh.quest2597.desc=Okay so if you actually want to use the stargate you'll need these to power it and dial it up.
+
+# Quest.2598 - What, how?
+gtnh.quest2598.name=What, how?
+gtnh.quest2598.desc=You're not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitmately...%n%nIn the meantime here is your reward, don't spend it all at once!
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
@@ -10389,6 +10513,10 @@ gtnh.line27.desc=Granny Weatherwax would approve.
 # QuestLine.28 - Paying the highest price
 gtnh.line28.name=Paying the highest price
 gtnh.line28.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
+
+# QuestLine.29 - Endgame Goals
+gtnh.line29.name=Endgame Goals
+gtnh.line29.desc=Collection of endgame objectives, good luck and thanks for playing so far.
 
 # QuestLine.31 - Open Computers
 gtnh.line31.name=Open Computers
