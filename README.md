@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.0.9.0-RC2 is out 04.06.2020
+Version 2.0.9.0 is out 07.06.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -186,7 +186,7 @@ you find it in your resource folder<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
 * Bartworks 0.5.13.1<BR>
-* Baubles 1.0.1.11<BR>
+* Baubles 1.0.1.12<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
@@ -234,7 +234,7 @@ you find it in your resource folder<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
 * Gadomancy 1.0.7.6<BR>
-* Galacticraft-Full 3.0.14-GTNH<BR>
+* Galacticraft-Full 3.0.15-GTNH<BR>
 * GalactiGreg 1.0.3<BR>
 * Galaxy Space 1.1.3c<BR>
 * Gendustry 1.6.4.135a<BR>
@@ -242,14 +242,14 @@ you find it in your resource folder<BR>
 * Gregtech 5.09.33.51<BR>
 * GT Scanner Mod 1.5.7<BR>
 * GT Ore Nei Plugin 1.0.7<BR>
-* GT New Horizons Core Mod 1.6.46<BR>
+* GT New Horizons Core Mod 1.6.47<BR>
 * GT++ 1.7.05.68<BR>
 * GTNH TC Wands 1.2.1<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
 * Hardcore Ender Expansion 1.8.6a<BR>
 * Help Fixer 1.0.7<BR>
-* Hodgepodge 1.4.1<BR>
+* Hodgepodge 1.4.2<BR>
 * Holo Inventory 2.1.4-beta<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
@@ -281,7 +281,7 @@ you find it in your resource folder<BR>
 * Nodal Mechanics 1.1.2-GTNH<BR>
 * Not Enough Thaumcraft Tabs 1.1.0<BR>
 * Open Blocks 1.6.2-snapshot4<BR>
-* Open Computers 1.7.5.4.9<BR>
+* Open Computers 1.7.5.5.13<BR>
 * Open Modular Turrets 2.2.10.238<BR>
 * Open Glasses 1.0.46
 * Open Printers 0.1.0.132<BR>
