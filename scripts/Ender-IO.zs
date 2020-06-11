@@ -618,8 +618,8 @@ recipes.addShaped(<EnderIO:blockEnderGenerator>, [
 
 // --- Photovoltaic Cell
 recipes.addShaped(<EnderIO:blockSolarPanel>, [
-[VAPlate, FQuartz, VAPlate],
-[EAPlate, <gregtech:gt.metaitem.01:32750>, EAPlate],
+[EAPlate, FQuartz, EAPlate],
+[VAPlate, <gregtech:gt.metaitem.01:32750>, VAPlate],
 [Capacitor, FQuartz, Capacitor]]);
 
 // --- Advanced Photovoltaic Cell
