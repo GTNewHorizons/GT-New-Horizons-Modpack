@@ -116,7 +116,12 @@ def add_github_titles(changelog_dict):
     extended_dict = defaultdict(list)
     for issue, list_of_commits in changelog_dict.items():
         if issue:
-            title = get_github_issue_title(issue) + " #" + issue
+            github_title = get_github_issue_title(issue)
+            if github_title:
+                title = get_github_issue_title(issue) + " #" + issue
+            else:
+                # issue not found on Github
+                title = ""
         else:
             title = ""
         extended_dict[title] = list_of_commits
@@ -133,7 +138,11 @@ def get_github_issue_title(issue):
         time.sleep(wait_time)
         response = requests.get(GITHUB_ISSUE_URL + issue)
     html_tree = html.fromstring(response.content)
-    title = html_tree.find(".//title").text
+    title_attribute = html_tree.find(".//title")
+    if title_attribute is None:
+        # Apparently someone referenced a non-existing Github issue
+        return ""
+    title = title_attribute.text
     separator = " · "
     separator_location = title.find(separator)
     return title[0:separator_location]
