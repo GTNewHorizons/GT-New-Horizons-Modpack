@@ -78,6 +78,8 @@ def format_raw_changelog(raw_log):
                     continue
                 if commit_message.startswith("Merge pull request "):
                     continue
+                if commit_message.startswith(" Merge pull request "):
+                    continue
                 output_changelog += "-- " + commit_message + "\n"
 
     return output_changelog
@@ -124,7 +126,11 @@ def add_github_titles(changelog_dict):
                 title = ""
         else:
             title = ""
-        extended_dict[title] = list_of_commits
+        existing_commits = extended_dict[title]
+        if existing_commits:
+            existing_commits.extend(list_of_commits)
+        else:
+            extended_dict[title] = list_of_commits
     return extended_dict
 
 
