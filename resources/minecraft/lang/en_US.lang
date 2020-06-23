@@ -340,8 +340,8 @@ gtnh.quest83.desc=Sure, those coke ovens are nice, but they aren't even remotely
 gtnh.quest84.name=§3§lWhere I can put all the liquids?
 gtnh.quest84.desc=With your brand new alloy smelter you are able to combine two materials. What happens if you mix some obsidian dust and thickened glass? Obsidian glass, great. Your first tank that you can make would be a Buildcraft tank. This tank can carry up 16 buckets of a single fluid. It's possible to upgrade those tanks so they can hold up to 64 buckets.%nYou can also stack the tanks to increase capacity.
 
-# Quest.85 - Smelt all the things stack wise...
-gtnh.quest85.name=Smelt all the things stack wise...
+# Quest.85 - §6§lSmelt all the things stack wise...
+gtnh.quest85.name=§6§lSmelt all the things stack wise...
 gtnh.quest85.desc=...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can't go any faster! %n%nHint: Parallel smelting depends on coils, consult your local doctor before use.
 
 # Quest.86 - §6§lUpgrade #3: Upgrade tier 4 - Tungstensteel Coils
@@ -588,9 +588,9 @@ gtnh.quest145.desc=The endless ware between macerators and SAG mills rages on et
 gtnh.quest146.name=§9§lTorture device
 gtnh.quest146.desc=When the subjects don't want to cooperate.
 
-# Quest.147 - §9§lRocket fuel mix A
-gtnh.quest147.name=§9§lRocket fuel mix A
-gtnh.quest147.desc=Rocket fuel are used in the future for galacticraft rockets. It does generate a lot of Power in the Rocket Engine. Use your centrifuge to make some. Will generate 3072000 eu per cell.
+# Quest.147 - H8N4C2O4 (Green) Rocket Fuel
+gtnh.quest147.name=H8N4C2O4 (Green) Rocket Fuel
+gtnh.quest147.desc=This is the final Rocket Fuel. With this, you can go anywhere. If you have the right rocket, of course.
 
 # Quest.148 - §6§lTasty...
 gtnh.quest148.name=§6§lTasty...
@@ -806,7 +806,7 @@ gtnh.quest200.desc=Like the chandelier, the magnum torch prevents monsters from 
 
 # Quest.201 - §c§lAutomated mining
 gtnh.quest201.name=§c§lAutomated mining
-gtnh.quest201.desc=The QED enables you to assemble the most convenient device for mining: The ender quarry.%n%nAs 0lafe says, "This small black box is life-changing" and "Sympathy for the amount of dense obsidian plates you need."%n%nGuess you better get compressing!%n%n§4NOTE: It's best to place your quarry and markers on orevein boundaries. This way you start getting ores right away, especially from planets and the deep dark dimension.
+gtnh.quest201.desc=The QED enables you to assemble the most convenient device for mining: The ender quarry.%n%nAs 0lafe says, "This small black box is life-changing" and "Sympathy for the amount of dense obsidian plates you need."%n%nGuess you better get compressing!%n%n§4NOTE: It's best to place your quarry and markers on orevein boundaries. This way you start getting ores right away, especially from planets.
 
 # Quest.202 - §c§lAccelerating things
 gtnh.quest202.name=§c§lAccelerating things
@@ -3284,9 +3284,9 @@ gtnh.quest819.desc=Every rocket needs fuel storage canisters. For the tier 1 roc
 gtnh.quest820.name=Rocket Launch Pad
 gtnh.quest820.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nMake sure you don't have any lightning warp effects or you'll be really sad - storms can also knock your rocket off, so make sure to not leave it alone.%n%n§c§cBefore liftoff, make sure you clear the airspace above you! Even clouds...%n%nBe sure to checkout https://gtnh.miraheze.org/wiki/Rockets for a Departure Checklist!
 
-# Quest.821 - Rocket Fuel
-gtnh.quest821.name=Rocket Fuel
-gtnh.quest821.desc=To pump fuel into your rocket you need a fuel loader. Place it right next to the middle of any side of the launch pad.
+# Quest.821 - Gas 'Er Up
+gtnh.quest821.name=Gas 'Er Up
+gtnh.quest821.desc=To pump fuel into your rocket you need a fuel loader. Place it next to any side of the launch pad.%n%nYou can also power it with batteries, if you're worried about it draining your power, or don't want to set up the infrastructure.
 
 # Quest.822 - Oxygen Gear
 gtnh.quest822.name=Oxygen Gear
@@ -3310,7 +3310,7 @@ gtnh.quest826.desc=With iron tools, you are able to mine most of the Overworld o
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=Rocket Fuel
-gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel and fill some fuel canisters. %nYou can use Fuel or Rocket Fuel from Ender IO.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to craft a couple of extra tanks just in case.
+gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket. %nYou can use use Cetane-Boosted Diesel for your T1 rocket, but you'll need something with more oomph for the later ones.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=Oxygen Collector
@@ -3424,13 +3424,13 @@ gtnh.quest854.desc=Nitrogen and hydrogen... Ammonia.
 gtnh.quest855.name=§9§lNitric Oxide
 gtnh.quest855.desc=To make nitric oxide you need to combine oxygen and ammonia in a chemical reactor.
 
-# Quest.856 - §9§l1,1-Dimetylhydrazine
-gtnh.quest856.name=§9§l1,1-Dimetylhydrazine
-gtnh.quest856.desc=To make 1,1-dimethylhydrazine you need to combine some hydrazine and formaldehyde with hydrogen in a chemical reactor.
+# Quest.856 - §9§l1,1-Dimethylhydrazine
+gtnh.quest856.name=§9§l1,1-Dimethylhydrazine
+gtnh.quest856.desc=To make 1,1-Dimethylhydrazine you need to combine some Hydrazine and Formaldehyde with Hydrogen along with a Formaldehyde Catalyst in a Chemical Plant.
 
 # Quest.857 - §9§lFormaldehyde
 gtnh.quest857.name=§9§lFormaldehyde
-gtnh.quest857.desc=Combining formaldehyde catalyst, oxygen and methanol in a chemical dehydrator produces some formaldehyde.%n%nYou can distill methanol from a pyrolyse oven using a few sources, or you can make it from CO2 gas you collect from your EBF.
+gtnh.quest857.desc=Combining Oxygen and Methanol along with a Formaldehyde Catalyst in a Chemical Plant produces some Formaldehyde.
 
 # Quest.858 - §9§lChloramine
 gtnh.quest858.name=§9§lChloramine
@@ -4790,31 +4790,31 @@ gtnh.quest1196.desc=And a few tin berries for cash.
 
 # Quest.1197 - §d§lFusion reactor MK2 - bigger, better, fusor
 gtnh.quest1197.name=§d§lFusion reactor MK2 - bigger, better, fusor
-gtnh.quest1197.desc=Now that you have some europium, put it to use by making an mk2 reactor. %n%nThis one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. %n%nThis reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.
+gtnh.quest1197.desc=Now that you have some Europium, put it to use by making a mk2 reactor. %n%nThis one will require the same block placement, but replaces LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and uses ZPM tier hatches. %n%nThis reactor can handle recipes up to 320M EU at startup. In addition, if you perform a mk1 recipe on a mk2, you will overclock it. Fusion overclocking is different than normal GT. It will take 2x the power, but the recipe will go 2x faster.
 
-# Quest.1198 - §d§lUpgrading the reactor
-gtnh.quest1198.name=§d§lUpgrading the reactor
-gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? %n%nIt will double the power needed per recipe, while cutting the processing time in half. %n%nThis time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.
+# Quest.1198 - §d§lUpgrading the Reactor
+gtnh.quest1198.name=§d§lUpgrading the Reactor
+gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? %n%nIt will double the power needed per recipe, while cutting the processing time in half. %n%nThis time you will need UV or above hatches, as well as Fusion machine casing MK2s. This reactor can handle recipes up to 640M EU at startup. Each energy hatch is capable of providing up to 8192eu/t per energy hatch for the recipe. The reactor can take as little as 8192eu/t to run.
 
-# Quest.1199 - §d§lMaking americium
-gtnh.quest1199.name=§d§lMaking americium
+# Quest.1199 - §d§lMaking Americium
+gtnh.quest1199.name=§d§lMaking Americium
 gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
 
-# Quest.1200 - §d§lMaking power with your plasma
-gtnh.quest1200.name=§d§lMaking power with your plasma
-gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. %n%nThe simplest plasma you can make for power is Helium plasma. It's renewable from water, but also provides a lot of power. %n%nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a UV or above hatch.
+# Quest.1200 - §d§l§f§c§lMaking power with your plasma
+gtnh.quest1200.name=§d§l§f§c§lMaking power with your plasma
+gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. %n%nThe simplest plasma you can make for power is Helium plasma, but it also provides a lot of power. Deuterium is renewable from water, and you can get Helium-3 from Endstone.%n%nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a LuV Buffered Dynamo or above.%n%n§4There are singleblock plasma generators, but they're waaay less efficient, so you probably don't want those.§r
 
-# Quest.1201 - §d§lTurbine Time
-gtnh.quest1201.name=§d§lTurbine Time
-gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. %n%nTrinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two.%n%nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
+# Quest.1201 - §a§b§c§d§e§f§d§l§l§c§lTurbine Time
+gtnh.quest1201.name=§a§b§c§d§e§f§d§l§l§c§lTurbine Time
+gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is Draconium. %n%nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
 
-# Quest.1202 - §e§d§n§o§r§l§d§lTime for another reactor
-gtnh.quest1202.name=§e§d§n§o§r§l§d§lTime for another reactor
-gtnh.quest1202.desc=While one reactor is nice and all, why not make another? This time you can use the MK3 americium recipe to make it easier. 
+# Quest.1202 - I Put Fusion in Your Fusion so you Can Fusion While You Fusion
+gtnh.quest1202.name=I Put Fusion in Your Fusion so you Can Fusion While You Fusion
+gtnh.quest1202.desc=To make Oganesson for your Void Miners, you'll need to make Californium, to make that, you'll need Beryllium and Plutonium 239, all in the Reactor.%n%nSeriously consider replicating it after the first cell.
 
-# Quest.1203 - §d§m§l§r§d§lMaking more americium
-gtnh.quest1203.name=§d§m§l§r§d§lMaking more americium
-gtnh.quest1203.desc=Costing just 1 ingot of Plutonium, and 2 buckets of hydrogen, this recipe is much easier and faster than the MK2 version. By making americium plasma, then putting it through a turbine, you will get americium in the liquid state. Again you will need at least 132 plates for the controller, and the fusion machine casings. 
+# Quest.1203 - §e§d§n§o§r§l§d§lTime for Another Reactor
+gtnh.quest1203.name=§e§d§n§o§r§l§d§lTime for Another Reactor
+gtnh.quest1203.desc=While one reactor is nice and all, why not make another? This time you can use the MK3 americium recipe to make it easier. %n%nCosting just 1 ingot of Plutonium, and 2 cells of hydrogen, this recipe is much easier and faster than the MK2 version. By making americium plasma, then putting it through a turbine, you will get americium in the liquid state. You will need at least 132 plates for the controller and the fusion machine casings.%n%nPlus, free power!
 
 # Quest.1204 - §1§lCrafting time
 gtnh.quest1204.name=§1§lCrafting time
@@ -4848,13 +4848,13 @@ gtnh.quest1210.desc=Your cart needs power, obviously. A cart can be powered via 
 gtnh.quest1211.name=Cart modules: More Storage
 gtnh.quest1211.desc=After you craft side chests you can add more different chests to the cart. Some sides are reserved for tools so no chest can be placed there.
 
-# Quest.1212 - §d§lStarting Fusion
-gtnh.quest1212.name=§d§lStarting Fusion
-gtnh.quest1212.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion.%n%n While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. %n%nFor your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. %n%nThis means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. 
+# Quest.1212 - §l§c§lStarting Fusion
+gtnh.quest1212.name=§l§c§lStarting Fusion
+gtnh.quest1212.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion.%n%nWhile solars are simpler to set up, solars cap out at 524288 EU/t. Fusion can reach levels close to eight times that with the right setup. %n%nFor your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048 EU/t for the recipe, and has a storage capacity of 10M eu. %n%nThis means you can do any fusion recipe that takes less than 32768 EU/t or less, and has a startup cost of 160M EU or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the higher reactor tiers. 
 
-# Quest.1213 - §d§lGetting europium
-gtnh.quest1213.name=§d§lGetting europium
-gtnh.quest1213.desc=To make an mk2 reactor, you will need europium. Once you make a t6 rocket you will be able to find this as an ore. Until then you need to produce it in the reactor. 
+# Quest.1213 - §b§9§d§l§b§c§lGetting Europium
+gtnh.quest1213.name=§b§9§d§l§b§c§lGetting Europium
+gtnh.quest1213.desc=To make a mk2 reactor, ender quarry, T5 rocket, unlock ZPM, or other things, you will need europium. Once you make a t5 rocket you will be able to find this as part of a very rare ore. Until then you need to produce it in the reactor. But it's probably not worth it to look for the ore anyway.
 
 # Quest.1214 - Clockwork Engine
 gtnh.quest1214.name=Clockwork Engine
@@ -5718,7 +5718,7 @@ gtnh.quest1428.desc=Each rocket needs a construction plan. Scan it in a hv scann
 
 # Quest.1429 - Rocket Tier 2
 gtnh.quest1429.name=Rocket Tier 2
-gtnh.quest1429.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.
+gtnh.quest1429.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.%n%nYou need to use RP-1 Rocket Fuel or better to fuel it.
 
 # Quest.1430 - Recycle your rocket and save the Environment
 gtnh.quest1430.name=Recycle your rocket and save the Environment
@@ -5808,9 +5808,9 @@ gtnh.quest1450.desc=The Astro Miner is an automatic mining vehicle which moves a
 gtnh.quest1451.name=Astro Miner Base
 gtnh.quest1451.desc=To construct the dock, place 8 Astro Miner Base blocks in a cube, 2 blocks high, 2 blocks wide and 2 blocks deep. When the last of the base blocks is placed, it should automatically convert into an Astro Miner Base.
 
-# Quest.1452 - Launch Controler
-gtnh.quest1452.name=Launch Controler
-gtnh.quest1452.desc=To use the Cargo Rocket at full capacity it is necessary to equip a Rocket Launch Pad, to send items, with:%n%nFuel Loader%nLaunch Controller%nCargo Loader%nAnd the receiving side with:%n%nFuel Loader%nLaunch Controller%nCargo Unloader%n%nIt is also possible to use Buildcraft pipes to transfer items into the Cargo loaders. Next step is to set up the Frequencies in both Launch Controllers (i.e. Set: A to target B, B to target A). Have a look at Launch Controller to setup the automated launch. The first time you have to right-click the Cargo rocket and press launch at the top right corner.
+# Quest.1452 - Launch Controller
+gtnh.quest1452.name=Launch Controller
+gtnh.quest1452.desc=To use the Cargo Rocket at full capacity it is necessary to equip a Rocket Launch Pad, to send items, with:%n%nFuel Loader%nLaunch Controller%nCargo Loader%nAnd the receiving side with:%n%nFuel Loader%nLaunch Controller%nCargo Unloader%n%nIt is also possible to use Buildcraft pipes to transfer items into the Cargo loaders. Next step is to set up the Frequencies in both Launch Controllers (i.e. Set: A to target B, B to target A). Have a look at Launch Controller to setup the automated launch. The first time you have to right-click the Cargo rocket and press launch at the top right corner.%n%n§4The Launch Controller has been modified to provide additional functionality. If you launch from a Launch Pad with the Launch Controller set up properly, the countdown will be greatly reduced, and you will teleport directly to the receiving Launch Pad. It will use half the rocket's fuel up though.
 
 # Quest.1453 - Tier 3 Heavy Duty Plates
 gtnh.quest1453.name=Tier 3 Heavy Duty Plates
@@ -5818,7 +5818,7 @@ gtnh.quest1453.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.1454 - Rocket Tier 3
 gtnh.quest1454.name=Rocket Tier 3
-gtnh.quest1454.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready. But before you can go to the Asteroids, Ceres or Jupiter Moons you need to craft a few more things.
+gtnh.quest1454.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready. But before you can go to the Asteroids, Ceres or Jupiter Moons you need to craft a few more things.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
 
 # Quest.1455 - Fluix crystals
 gtnh.quest1455.name=Fluix crystals
@@ -5878,7 +5878,7 @@ gtnh.quest1468.desc=The Large oxygen tank is an oxygen storage tank that can hol
 
 # Quest.1469 - Bacterial Sludge
 gtnh.quest1469.name=Bacterial Sludge
-gtnh.quest1469.desc=Bacterial Sludge is a fluid block that generates naturally on Mars.%n%nIt generates in the giant underground caves in Mars and floods over almost the whole cavern floor.%n%nCollect it to produce mutagen for bees mutation in gendustry.
+gtnh.quest1469.desc=Bacterial Sludge is a fluid block that generates naturally on Mars.%n%nIt generates in the giant underground caves in Mars in small amounts.%n%nCollect it to produce mutagen for bees mutation in gendustry.
 
 # Quest.1470 - Cavernous Vine
 gtnh.quest1470.name=Cavernous Vine
@@ -6142,7 +6142,7 @@ gtnh.quest1534.desc=Ledox is the material you need  for Tier 4 Rockets which can
 
 # Quest.1535 - Rocket Tier 4
 gtnh.quest1535.name=Rocket Tier 4
-gtnh.quest1535.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready. But before you can go to Io, Venus or Mercury you need to craft a few more things.
+gtnh.quest1535.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready. But before you can go to Io, Venus or Mercury you need to craft a few more things.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
 
 # Quest.1536 - §3§lI ain't afraid of no ghost!
 gtnh.quest1536.name=§3§lI ain't afraid of no ghost!
@@ -6154,7 +6154,7 @@ gtnh.quest1537.desc=Tired of having to replace tools all the time? Now that stai
 
 # Quest.1538 - §b§lCeres Trip
 gtnh.quest1538.name=§b§lCeres Trip
-gtnh.quest1538.desc=Sheldonite, Platinum and Palladium you can found on Ceres. Look at Y 5-30.%nYou can get also Iridium out of a high tier material you need later.
+gtnh.quest1538.desc=Sheldonite, Platinum and Palladium can be found on Ceres. Look at Y 5-30.%nYou can get also Iridium out of a high tier material you need later.
 
 # Quest.1539 - §b§lQuantum Star
 gtnh.quest1539.name=§b§lQuantum Star
@@ -6198,7 +6198,7 @@ gtnh.quest1548.desc=To be able to put items into the Ghetto ME system you need j
 
 # Quest.1549 - §5§lPlunger 2.0 The Hand Pump
 gtnh.quest1549.name=§5§lPlunger 2.0 The Hand Pump
-gtnh.quest1549.desc=The new hand pump can remove fluids out of your machine input slots. The old plunger removes the fluid - only the hand pump can store it and drain it to a tank.%n%nUse your items in an LV assembler to craft your pump token, and then again to make the hand pump.%n%nWhen you tier up your assembler, you can make better hand pumps, up to EV.
+gtnh.quest1549.desc=The new hand pump can remove fluids out of your machine input slots. The old plunger removes the fluid - only the hand pump can store it and drain it to a tank.%n%nUse your items in an LV assembler to craft your pump token, and then again to make the hand pump.%n%nWhen you tier up your assembler, you can make better hand pumps, up to EV.%n%n§cThis recipe requires Aluminium, which requires the EBF to make. But you can also find it in chests if you search around.
 
 # Quest.1550 - More seed types
 gtnh.quest1550.name=More seed types
@@ -6730,15 +6730,15 @@ gtnh.quest1681.desc=While the ender quarry on its own with speed upgrade is good
 
 # Quest.1682 - §c§lAccelerating things III
 gtnh.quest1682.name=§c§lAccelerating things III
-gtnh.quest1682.desc=If Speed upgrade II is to slow craft a speed upgrade III.
+gtnh.quest1682.desc=If Speed upgrade II is too slow craft a speed upgrade III.
 
-# Quest.1683 - §c§lLuV Circuits Assembler
-gtnh.quest1683.name=§c§lLuV Circuits Assembler
-gtnh.quest1683.desc=The LuV circuit assembler is a nice one, giving you both cheaper HV circuits, as well as IV-UV circuits.
+# Quest.1683 - §c§lLuV Circuit Assembler
+gtnh.quest1683.name=§c§lLuV Circuit Assembler
+gtnh.quest1683.desc=You may have noticed that the circuits you're thinking of crafting cost way more, 6x more. This is intended for circuits needing LuV+ voltage. You now need to craft your circuits in the Circuit Assembly Line or CAL if you don't want to pay out the ears in materials. You'll still need to craft your first ones using the normal Circuit Assembler though.%n%nOnce you've done that, you can make an imprint for use in the CAL to set it to make that (and only that) type of circuit.
 
 # Quest.1684 - §c§lCheaper HV circuits
 gtnh.quest1684.name=§c§lCheaper HV circuits
-gtnh.quest1684.desc=Now you can make nanocircuits in a single simple step. They cost a new wafer, the ASoC wafer. They get more useful in zpm to make cheaper EV circuits as well.
+gtnh.quest1684.desc=You can make Nanoprocessors cheaper than before. You'll need to make an imprint first though.
 
 # Quest.1685 - §c§lASoc Advanced System on a chip
 gtnh.quest1685.name=§c§lASoc Advanced System on a chip
@@ -6746,11 +6746,11 @@ gtnh.quest1685.desc=To make HV and EV circuits much cheaper you need ASoCs. Adva
 
 # Quest.1686 - §c§lCrystalprocessors
 gtnh.quest1686.name=§c§lCrystalprocessors
-gtnh.quest1686.desc=Now that you're this far into LuV, you can make easier IV circuits, as well as your first UV circuit.
+gtnh.quest1686.desc=Now that you're this far into LuV, you can make easier IV circuits, as well as your first UV circuit.%n%nAfter crafting each circuit, make an imprint of it to reduce the cost of following ones.
 
 # Quest.1687 - §c§lCrystal Chips
 gtnh.quest1687.name=§c§lCrystal Chips
-gtnh.quest1687.desc=To make these chips you need Europium, as well as an HV Autoclave in the Asteroid Field dimension to achieve "low gravity".
+gtnh.quest1687.desc=To make these chips you need Europium, as well as an HV Autoclave in the Asteroid Field dimension (or on your space station) to achieve "low gravity".%n%n§3Alternatively you can use a PA or LPF anywhere.
 
 # Quest.1688 - §c§lElite Circuit Board
 gtnh.quest1688.name=§c§lElite Circuit Board
@@ -6758,7 +6758,7 @@ gtnh.quest1688.desc=Elite circuit boards require a fiber reinforced board, plati
 
 # Quest.1689 - §9§a§c§lLuV Laser Engraver
 gtnh.quest1689.name=§9§a§c§lLuV Laser Engraver
-gtnh.quest1689.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both wetwares, and crystalprocessors, the cheaper IV circuit.
+gtnh.quest1689.desc=The LuV laser engraver is an important part of lategame circuit production. You need to make crystal CPU's for both the crystalprocessor series of circuits, and later on for the wetware series.%n%n§3If you've made the LPF, you can just upgrade or OC that instead.
 
 # Quest.1690 - Tier 6 > Tier 7
 gtnh.quest1690.name=Tier 6 > Tier 7
@@ -6892,8 +6892,8 @@ gtnh.quest1721.desc=Put those 8192 EU panels on a block to make them placeable i
 gtnh.quest1722.name=§c§lLuV Assembler
 gtnh.quest1722.desc=The LuV assembler is needed for IV Solar Panels and other high tier stuff. Lets build one.
 
-# Quest.1723 - IO Dungeon
-gtnh.quest1723.name=IO Dungeon
+# Quest.1723 - Io Dungeon
+gtnh.quest1723.name=Io Dungeon
 gtnh.quest1723.desc=After hours and hours and endless swimming in lava you will find a Io dungeon. A big hole will show you the way to the dungeon. Go and fight some mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematics for tier 5 rockets.%n%nThis will open the Moons from Saturn and Uranus.
 
 # Quest.1724 - Tier 5 Heavy Duty Plates
@@ -6906,7 +6906,7 @@ gtnh.quest1725.desc=Each rocket needs a construction plan. Scan it in an HV Scan
 
 # Quest.1726 - Rocket Tier 5
 gtnh.quest1726.name=Rocket Tier 5
-gtnh.quest1726.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready. But before you can go to Saturn and Uranus Moons you need to craft a few more things.
+gtnh.quest1726.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready. But before you can go to Saturn and Uranus Moons you need to craft a few more things.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.
 
 # Quest.1727 - Heavy Duty Nose Cone Tier 3
 gtnh.quest1727.name=Heavy Duty Nose Cone Tier 3
@@ -6972,8 +6972,8 @@ gtnh.quest1741.desc=There are a few very useful Nether trees out there which giv
 gtnh.quest1742.name=§6§lHelium 3 and Saltwater on Moon
 gtnh.quest1742.desc=The Moon is rich in Helium 3 because the Sun has been embedding it in the upper layer of moon by the solar wind over billions of years. %nSalt water is also available in smaller quantities. You will want plenty of chlorine for processing Rutile to get Titanium. %n%nThere are more planets and moons with gas and fluids underneath the surface.  Bring along a multiblock fluid drill to recover these fluids.
 
-# Quest.1743 - Salt Water and Chlorobenzene on Mars
-gtnh.quest1743.name=Salt Water and Chlorobenzene on Mars
+# Quest.1743 - §6§lSalt Water and Chlorobenzene on Mars
+gtnh.quest1743.name=§6§lSalt Water and Chlorobenzene on Mars
 gtnh.quest1743.desc=Mars is rich in Salt Water and Chlorobenzene. If you run low on chlorine you can centrifuge the fluids.
 
 # Quest.1744 - §6§lChemical lesson part two
@@ -7272,8 +7272,8 @@ gtnh.quest1816.desc=Having a hard time finding that Lapis vein for some calcite?
 gtnh.quest1817.name=§6§lUpgrade #7: Upgrade tier 8 - Electrum Flux Coils
 gtnh.quest1817.desc=To process the more advanced materials like Cosmic Neutronium, Tritanium and Awakened Draconium you need more than 9000K. Upgrade your EBF to 9900k.
 
-# Quest.1818 - Large Essentia Generator
-gtnh.quest1818.name=Large Essentia Generator
+# Quest.1818 - §6§lLarge Essentia Generator
+gtnh.quest1818.name=§6§lLarge Essentia Generator
 gtnh.quest1818.desc=Having one Essentia Generator per Essentoia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.
 
 # Quest.1819 - §6§lCircuit Programmer
@@ -7282,7 +7282,7 @@ gtnh.quest1819.desc=The Circuit Programmer is a useful tool that will enable you
 
 # Quest.1820 - §6§lLapotronic Energy Storage Unit
 gtnh.quest1820.name=§6§lLapotronic Energy Storage Unit
-gtnh.quest1820.desc=The L.E.S.U. is one of the oldest Machines that are aviable in Gregtech, its origins are in Minecraft 1.3.X, now its redone to fit into this Modpack. You can add a nearly infinite number of LESU casings to it and you'll have a hughe Energy Storage. You might also live inside your Battery.
+gtnh.quest1820.desc=The L.E.S.U. is one of the oldest Machines that are aviable in Gregtech, its origins are in Minecraft 1.3.X, now its redone to fit into this Modpack. You can add a nearly infinite number of LESU casings to it and you'll have a huge Energy Storage. You might also live inside your Battery.
 
 # Quest.1821 - §5§lCable Diodes
 gtnh.quest1821.name=§5§lCable Diodes
@@ -8022,19 +8022,19 @@ gtnh.quest2004.desc=An Advanced Inventory Relay can add/remove items from a play
 
 # Quest.2005 - Learning curve? Where we're going there are no curves
 gtnh.quest2005.name=Learning curve? Where we're going there are no curves
-gtnh.quest2005.desc=Only dangerous cliffs to fly off. TecTech can be the source of adventures, scary and satisfying. %n%nThanks to Piky/Scripted for giving you some guardrails to stay on the road. Scripted/Piky shed blood over these quests for you. Now it's your turn!%n%nFor additional details on TecTech, check out the wiki at https://github.com/Technus/TecTech/wiki
+gtnh.quest2005.desc=Only dangerous cliffs to fly off. TecTech can be the source of adventures, scary and satisfying. %n%nThanks to Piky/Scripted for giving you some guardrails to stay on the road. Scripted/Piky shed blood over these quests for you. Now it's your turn!%n%nFor additional details on TecTech, check out the wiki at https://github.com/Technus/TecTech/wiki%n%nYou'll probably recieve better help in Discord, though.
 
 # Quest.2006 - The Beginning of the End Game
 gtnh.quest2006.name=The Beginning of the End Game
-gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machinery for all your end-tier needs. However, learning TecTech is incredibly confusing, so listen very carefully. %n%nFirst, you'll need to gather various casings for your machines that you'll need. High Power Casings, Computer Casings, and Computer Vents will do, though you'll require a large amount of them before proceeding onward.
+gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machinery for all your end-tier needs. However, learning TecTech is incredibly confusing, so listen very carefully. %n%nFirst, you'll need to gather various casings for your machines that you'll need. We've provided some examples of the blocks you'll need, but you should expect to have to craft more. Lots more.%n%nYou use the optical cables to connect machines together. Just make sure that they're painted, as well as what you want to connect them to.%n%nThe Blueprint is used to display a holographic image of the completed multi, with a note in the bottom left about blocks that are variable. If you use a larger Blueprint stack, you can see a hologram of a larger version, if applicable.
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=Quantum Computer
-gtnh.quest2007.desc=One of the more incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the giant Research Station. %n%nFirst, you'll need a few things, the Quantum Computer itself, a huge energy hatch several amps of UV or above, this is because as Computer Racks, that'll be explained later on down here, will continuously increase the demand of energy input for every new Computer Rack that you add on. %n%nThe Multiblock also consumes a large amount of energy by itself. Another important factor is ONLY turn on the Quantum Computer once you have the desired recipes for the Research Station ready to avoid excess energy loss. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint, this will give you a hefty amount of information and various ghost-like blocks that'll show where casings and or hatches should go.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. %n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however, the Computer Racks may melt or explode above 5600 or 6000 heat. In order to precisely find out how much heat, you'll need a Parametrizer, which will be explained later. Now that you've understood one of the more basic concepts and safety of handling within the Computer Racks (scan the Racks before you run the Quantum Computer!), what are the more optimal setups for your Quantum Computer? Do keep in mind that even a 128 min Computation / Sec setup can complete practically 3/4th's of the recipes within the Research Station. In this case, a 4 Computer Rack setup with 1 Advanced Heat Vent and 3 Wetwareprocessors (LuV) will generate 72 Computation every second; leading up to a maximum of 288 Computation every second at just 5 amps of UV (524,288 EU/t) with only 4 Computer Racks required. This is a rather minimal setup compared to some of the more complicated setups.%n%nAnd most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Scan them before anything else! Otherwise, you're going to get an explosion.%n%nUncertainty Resolver%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schr�dinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer.%n%nNow that you understand some of this, it is time to build the Computer! You'll need to gather quite a lot of resources at first.
+gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, an energy hatch that can input several amps of UV or above, this is because for each  Computer Rack, you'll need an additional amp of UV.%n%nThe Multiblock also consumes a large amount of energy by itself. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipes for the Research Station ready to avoid excess energy loss. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint, this will give you a hefty amount of information and various ghost-like blocks that'll show where casings and or hatches should go.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. %n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however the Computer Racks may melt or explode above 5600 or 6000 heat. In order to precisely find out how much heat, you'll need a Parametrizer, which will be explained later. Now that you've understood one of the more basic concepts and safety of handling within the Computer Racks (scan the Racks before you run the Quantum Computer!), what are the more optimal setups for your Quantum Computer? Do keep in mind that even a 128 min Computation / Sec setup can complete practically 3/4th's of the recipes within the Research Station. In this case, a 4 Computer Rack setup with 1 Advanced Heat Vent and 3 Wetwareprocessors (LuV) will generate 72 Computation every second; leading up to a maximum of 288 Computation every second at just 5 amps of UV (524,288 EU/t) with only 4 Computer Racks required. This is a rather minimal setup compared to some of the more complicated setups.%n%nAnd most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Scan them before anything else! Otherwise, you're going to get an explosion.%n%nUncertainty Resolver%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer.%n%nNow that you understand some of this, it is time to build the Computer! You'll need to gather quite a lot of resources.
 
 # Quest.2008 - Research Station
 gtnh.quest2008.name=Research Station
-gtnh.quest2008.desc=Now that you've started building up your precious Quantum Computer, how about the giant Research Station? Once again, using the Multiblock Machine Blueprint will tell you how to build this Multiblock. Once it is nearly assembled, place down an Energy Hatch, an Optical Slave Connector, and a Maintenance Hatch all on the back side. Once fully assembled, you can now begin operating recipes at any given time, so long as the Quantum Computer is also active. This Research Station requires you to put the desired item within the Object Holder, then a data stick in the Multiblock interface itself. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface. Still confused? Good, that's the spirit of learning! Always make sure to test these things in Single Player if you wish to find exact measurements and such. %n%nDon't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!
+gtnh.quest2008.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Machine Blueprint will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Slave Connector, and a Maintenance Hatch all on the back side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!
 
 # Quest.2009 - Sign Updater
 gtnh.quest2009.name=Sign Updater
@@ -8098,7 +8098,7 @@ gtnh.quest2023.desc=EBF and LCR recipes are going to need even more power.  You'
 
 # Quest.2024 - §c§lAssline quest updates
 gtnh.quest2024.name=§c§lAssline quest updates
-gtnh.quest2024.desc=When the pack updates, and changes an assembly line recipe, your old data sticks become useless. However it's more than that, you can't simply rescan an old UV motor for the new UHV data, you need a new UV motor. It's best to start with component parts in the lowest changed tier, then work your way up until you've rescanned up to your current tier. Yes, this sucks, we also wish there was another way. You can tell if your data stick is out of date by seeing if the nei recipe matches the one in the data viewer. Nei will always be right.
+gtnh.quest2024.desc=When the pack updates and changes an assembly line recipe, your old data sticks become useless. However it's more than that, you can't simply rescan an old UV motor for the new UHV data, you need a new UV motor. It's best to start with component parts in the lowest changed tier, then work your way up until you've rescanned up to your current tier. Yes, this sucks, we also wish there was another way. You can tell if your data stick is out of date by seeing if the NEI recipe matches the one in the data viewer. NEI will always be right.
 
 # Quest.2025 - GT++ knowledge
 gtnh.quest2025.name=GT++ knowledge
@@ -8164,9 +8164,9 @@ gtnh.quest2039.desc=%nThe Amazon Warehousing Depot is the ultimate for all your 
 gtnh.quest2040.name=Industrial Coke Oven
 gtnh.quest2040.desc=Swimming in logs? Turn those logs into clean burning charcoal!
 
-# Quest.2041 - §c§lChickens my boy, the future is in chickens
-gtnh.quest2041.name=§c§lChickens my boy, the future is in chickens
-gtnh.quest2041.desc=Future wetware processors are going to need stemcells....lots of them.  Luckily there is way to infuse a normal, harmless chicken embryo with genetic mutagen to make it a perfect source for these stemcells. Once the egg has matured it has a small chance of turning into a giant chicken spawn egg. This giant chicken will now lay eggs that can be disassembled for stemcells or allowed to mature to make more giant chickens. Killing the giant chicken may also give you eggs.
+# Quest.2041 - Americium Doped Wafers
+gtnh.quest2041.name=Americium Doped Wafers
+gtnh.quest2041.desc=These boules are the last ones, and are the most efficient when making wafers out of them.
 
 # Quest.2042 - So thirsty 
 gtnh.quest2042.name=So thirsty 
@@ -8442,7 +8442,7 @@ gtnh.quest2109.desc=This database tracks all your knowledge of butterflies.
 
 # Quest.2110 - Speeding up slow machines
 gtnh.quest2110.name=Speeding up slow machines
-gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver.
+gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver. This uses twice the power though.%n%nIf you want, you can change the level of acceleration by using a wrench on it. It will go back to the minimum, then increase one tier from there for every usage. It will use that tier's amount of power (and acceleration), increasing as per GT standard of 2x speed (acceleration) and 4x EU per tier.%n%n§3Even though it says 8A, this is just what it can accept, not what it uses. It's 3A in block mode, and 6A in TE mode.
 
 # Quest.2111 - Hail to the King
 gtnh.quest2111.name=Hail to the King
@@ -9174,7 +9174,7 @@ gtnh.quest2292.desc=A bee to make ashes?  What insanity is this?  At least you c
 
 # Quest.2293 - §b§a§9§lNitrogen Tetroxide
 gtnh.quest2293.name=§b§a§9§lNitrogen Tetroxide
-gtnh.quest2293.desc=To make Nitrogen Tetroxide you need to combine some copper dust and nitric acid in a Chemical Dehydrator.
+gtnh.quest2293.desc=To make Nitrogen Tetroxide you need to combine some Copper Dust and Nitric Acid along with an Orange Metal Catalyst in a Chemical Plant. It needs Palladium, so make sure you have some.
 
 # Quest.2294 - §a§lRocket Engine EV
 gtnh.quest2294.name=§a§lRocket Engine EV
@@ -9582,15 +9582,15 @@ gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
 
 # Quest.2395 - Formaldehyde Catalyst Dust
 gtnh.quest2395.name=Formaldehyde Catalyst Dust
-gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this dust by mixing iron and vanadium.
+gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this by mixing Iron and Vanadium.
 
 # Quest.2396 - Hydrogen Peroxide
 gtnh.quest2396.name=Hydrogen Peroxide
-gtnh.quest2396.desc=Hydrogen Peroxide is made in a GT++ Chemical Plant.%n%nGood luck figuring out that recipe chain!%n
+gtnh.quest2396.desc=To make Hydrogen Peroxide you combine Air, 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.
 
 # Quest.2397 - Playing with the Big Boys, chemically
 gtnh.quest2397.name=Playing with the Big Boys, chemically
-gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a mine cart load of reources, so start mining!%n%nValid solid casings:%nSolid Steel Machine Casing%nClean Stainless Steel Machine Casing%nStable Titanium Machine Casing%nRobust Tungstensteel Casing%n%nValid machine casings:%nLV, MV, HV, etc. Machine Casing%n%nValid pipe casings:%nBronze%nSteel%nTitanium%nTungstensteel
+gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a minecart load of resources, so start mining!%n%nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don't look like it.%n%n§3You can make Silicon Carbide in the mixer, you don't need the ABS.§r%n%nValid solid casings: (Determines CP Tier for recipes)%n0 Strong Bronze Machine Casing%n1 Solid Steel Machine Casing%n2 Sturdy Aluminium Machine Casing%n3 Clean Stainless Steel Machine Casing%n4 Stable Titanium Machine Casing%n5 Robust Tungstensteel Casing%n6 Vigorous Laurenium Machine Casing%n7 Rugged Botmium Machine Casing%n%nValid machine casings: (Determines Hatch/bus max tier)%nLV-UHV Machine Casing%n%nValid pipe casings: (+2 Parallels, 20% less chance to consume catalyst durability per pipe casing, starting from the first one)%nBronze%nSteel%nTitanium%nTungstensteel%n%nValid Coils: (Each one increases speed by +50%, starting at 50%)%nCupronickel%nKanthal%nNichrome%nTungstensteel%nHSS-G%nNaquadah%nNaquadah Alloy
 
 # Quest.2398 - §3§lHidden drawers
 gtnh.quest2398.name=§3§lHidden drawers
@@ -9616,8 +9616,8 @@ gtnh.quest2402.desc=The crowbar is the GT tool used to remove a cover off of a m
 gtnh.quest2403.name=§5§lToo much fluid? Impossible!
 gtnh.quest2403.desc=The time may come when you finally decide you have enough of a fluid. This overflow cover lets you tune how full a tank can get. You can put it on a smaller tank leading to a bigger tank, and when the bigger tank gets full, the fluid will backup into the smaller tank.  Once the fluid level in the smaller tank exceeds the setting on the cover, it will start voiding fluid.%n%nHandy for an oxygen centrifuge setup when you don't want to stop from excess nitrogen.
 
-# Quest.2404 - Obtaining Ender Pearls
-gtnh.quest2404.name=Obtaining Ender Pearls
+# Quest.2404 - §e§d§c§6§lObtaining Ender Pearls
+gtnh.quest2404.name=§e§d§c§6§lObtaining Ender Pearls
 gtnh.quest2404.desc=You can hunt endermen the Vanilla way to get a chance at Ender Pearls.  You can purchase Endermen spawn eggs, or try your luck in the End. %n%nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.%n%nYou monster.%n%n§cTo prevent endermen from teleporting make sure to cover the smeltery so they don't see the sky. If you manage to put a regenerating endermen in there, tag it so it doesn't despawn, and make sure your smeltery is not in a claimed chunk on a server.
 
 # Quest.2405 - Wax on, Wax off
@@ -10114,7 +10114,7 @@ gtnh.quest2527.desc=These are the essentia versions.
 
 # Quest.2528 - I'll Send Wireless Signals Where I Want, Thank You
 gtnh.quest2528.name=I'll Send Wireless Signals Where I Want, Thank You
-gtnh.quest2528.desc=This block provides unlimited AE for your network. You need Infinity Ingots to make it.
+gtnh.quest2528.desc=This block provides unlimited AE for your network.
 
 # Quest.2529 - Beam Me Up, Scotty
 gtnh.quest2529.name=Beam Me Up, Scotty
@@ -10174,7 +10174,7 @@ gtnh.quest2542.desc=This is the good wireless terminal. It even has crafting. Th
 
 # Quest.2543 - Wireless 3.0
 gtnh.quest2543.name=Wireless 3.0
-gtnh.quest2543.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point! You need Infinity Ingots to make it.
+gtnh.quest2543.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!
 
 # Quest.2544 - Cut the Power!
 gtnh.quest2544.name=Cut the Power!
@@ -10224,53 +10224,53 @@ gtnh.quest2554.desc=Everywhere bugs! These damned bastards. Better run away quic
 gtnh.quest2555.name=Underground Fluids
 gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, well here's a list. They're sorted by rocket tier and planet, with the chance per underground fluid chunk (8x8 regular chunks) and max amount listed. Any Dims not listed have none. This list is subject to change due to balancing at any time!:%n%n%nTier 0:%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%nTier 1:%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%nTier 2:%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%nTier 3:%nCallisto%nLiquid Air 100 2-20%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 32767%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%nTier 4:%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%nTier 5:%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%nTier 6:%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%nTier 7:%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-40%nNitrogen 100 800%nOxygen 100 800%n%n%nTier 8:%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 20%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
 
-# Quest.2556 - Upgrade #1 : Upgrade Tier 4 - EV Glass
-gtnh.quest2556.name=Upgrade #1 : Upgrade Tier 4 - EV Glass
+# Quest.2556 - §6§lUpgrade #1 : Upgrade Tier 4 - EV Glass
+gtnh.quest2556.name=§6§lUpgrade #1 : Upgrade Tier 4 - EV Glass
 gtnh.quest2556.desc=Upgrade your Bacterial Vat's glass to EV tier, which brings the Glass-Tier to 4 and allows you to run more advanced recipes!
 
-# Quest.2557 - Upgrade #2 : Upgrade Tier 5 - IV Glass
-gtnh.quest2557.name=Upgrade #2 : Upgrade Tier 5 - IV Glass
+# Quest.2557 - §6§lUpgrade #2 : Upgrade Tier 5 - IV Glass
+gtnh.quest2557.name=§6§lUpgrade #2 : Upgrade Tier 5 - IV Glass
 gtnh.quest2557.desc=Upgrade your Bacterial Vat's glass to IV tier, which brings the Glass-Tier to 5 and allows you to run more advanced recipes!
 
-# Quest.2558 - Upgrade #3 : Upgrade Tier 6 - LuV Glass
-gtnh.quest2558.name=Upgrade #3 : Upgrade Tier 6 - LuV Glass
+# Quest.2558 - §6§lUpgrade #3 : Upgrade Tier 6 - LuV Glass
+gtnh.quest2558.name=§6§lUpgrade #3 : Upgrade Tier 6 - LuV Glass
 gtnh.quest2558.desc=Upgrade your Bacterial Vat's glass to LuV tier, which brings the Glass-Tier to 6 and allows you to run more advanced recipes!
 
-# Quest.2559 - Upgrade #4 : Upgrade Tier 7 - ZPM Glass
-gtnh.quest2559.name=Upgrade #4 : Upgrade Tier 7 - ZPM Glass
+# Quest.2559 - §6§lUpgrade #4 : Upgrade Tier 7 - ZPM Glass
+gtnh.quest2559.name=§6§lUpgrade #4 : Upgrade Tier 7 - ZPM Glass
 gtnh.quest2559.desc=Upgrade your Bacterial Vat's glass to ZPM tier, which brings the Glass-Tier to 7 and allows you to run more advanced recipes!
 
-# Quest.2560 - Upgrade #5 : Upgrade Tier 8 - UV Glass
-gtnh.quest2560.name=Upgrade #5 : Upgrade Tier 8 - UV Glass
+# Quest.2560 - §6§lUpgrade #5 : Upgrade Tier 8 - UV Glass
+gtnh.quest2560.name=§6§lUpgrade #5 : Upgrade Tier 8 - UV Glass
 gtnh.quest2560.desc=Upgrade your Bacterial Vat's glass to UV tier, which brings the Glass-Tier to 8 and allows you to run more advanced recipes!
 
-# Quest.2561 - Bacterial Vat
-gtnh.quest2561.name=Bacterial Vat
-gtnh.quest2561.desc=The Bacterial Vat is a unique multiblock machine.%nThe Vat isn't mandatory in this tier, but there are many useful recipes and you'll need it later on, so let's build one!%nMost recipes require a §cculture§r, some recipes require §cGlass-Tier.%n§rThe culture is made in a BioLab and §lput in the controller.%n§l§rThe Glass-Tier is calculated as LV as Tier 1, so this quest requires you to make tier 3 glass.
+# Quest.2561 - §6§lBacterial Vat
+gtnh.quest2561.name=§6§lBacterial Vat
+gtnh.quest2561.desc=The Bacterial Vat is a unique multiblock machine.%nThe Vat isn't mandatory in this tier, but there are many useful recipes and you'll need it later on, so let's build one!%nAll recipes require a §cculture§r, some recipes require a specific §cGlass-Tier.%n§rThe culture is made in a BioLab and §lput in the controller.%n§l§rThe Glass-Tier is calculated as LV as Tier 1, so this quest requires you to make tier 3 glass.
 
-# Quest.2562 - The Clean Lab
-gtnh.quest2562.name=The Clean Lab
-gtnh.quest2562.desc=You need the IV Bio Lab in the Cleanroom to create a creature to make Wetware, so let's create one.%nSince you'll be using Raw Growth Medium in large amounts, it's a good idea to made it start now!
+# Quest.2562 - §2§1§3§4§3§4§3§b§lThe Clean Lab
+gtnh.quest2562.name=§2§1§3§4§3§4§3§b§lThe Clean Lab
+gtnh.quest2562.desc=You need an IV Bio Lab in a Cleanroom to create a culture to make Wetware, so let's create one.%nSince you'll be using Raw Growth Medium in large amounts, it's a good idea to start making it now!%n%n§cRaw Growth Medium is a ZPM material, and it entirely up to you whether it's worth it to start producing it earlier than that.
 
-# Quest.2563 - Sievert for Bacteria
-gtnh.quest2563.name=Sievert for Bacteria
-gtnh.quest2563.desc=Some Vat recipes require for Sievert value. So attach this Radio Hatch to your Vat to input radioactive material!%nThe Radio Hatch inputs rod/long rod of radioactive material and accumulates that. The input item determines the Sievert value. §m§m§n§r§lAccumulated items will disappear (even if machine not active) with the passage of time.%n§rSievert value and accumulation and disappearance time can be checked with a portable scanner.%n%nFor example, if you input Uranium rod you get with this quest reward, Sievert is 92 and the amounts 1, disappear at 1588t/79s/1m per 1kg.
+# Quest.2563 - §6§lSievert for the Vat
+gtnh.quest2563.name=§6§lSievert for the Vat
+gtnh.quest2563.desc=Some Vat recipes require a certain Sievert (radioactivity) value. So attach this Radio Hatch to your Vat to input radioactive material!%n%nThe Radio Hatch holds rods/long rods of radioactive material and uses them to produce Sievert. The input item determines the Sievert value and how long it lasts. Items stored in the hatch will be used continuously even if machine not active, so make sure you want to craft something before putting items in.%n%n§rYou can check the stats of an inputted item with a portable scanner. Higher tiers of hatch hold more, from 1kg (HV) to 6kg (UV). Rods are worth 1kg, while long rods are 2kg.%n%nSome recipes require §4exact§r sievert, you can use the screwdriver to access the radiation shutter control to adjust how much sv is blocked from being sent to the vat. For example, you need 100sv to make SeaweedBroth, so you'd use Naquadah rods, and block off 30sv.%n%nRod Stats:%nMaterial-Sievert-Apprx. time until used up%nBismuth                 83sv   198s%nUranium 235           92sv    80s%nUranium 238           92sv    80s%nPlutonium 239         94sv    66s%nPlutonium 241         94sv    66s%nNaquadah             130sv   14.5s%nEnriched Naquadah 140sv   10.5s%nNaquadria            150sv     8s%n%nThere are more radioactive materials than these, but these are the main ones.
 
-# Quest.2564 - Make Vat more efficient!
-gtnh.quest2564.name=Make Vat more efficient!
-gtnh.quest2564.desc=Looking at some Vat's recipe you are likely discouraged by the small amount of fluid being produced per recipe.%nDon't worry! Fluid consumption and production shown in NEI are just the base line for the lowest efficiency. The efficiency of Vat depends on the amount of Fluid in The Output Hatch.%n%nThe efficiency gradually increases as the output hatch fills up and reaches maximum efficiency when it is half-filled. If the hatch fills even more, the efficiency goes down again, so try to keep it close to half! At maximum efficiency the amount of fluid consumed and produced per recipe is multiplied by 1000.%n§lTherefore, the most efficient method is to attach a sufficiently large hatch so that no surplus is produced and to keep §c§l§l§lFluids half-filled§l§l§r§l§c§l!
+# Quest.2564 - §6§lMaking the Vat More Efficient!
+gtnh.quest2564.name=§6§lMaking the Vat More Efficient!
+gtnh.quest2564.desc=Looking at the Vat's recipes you are likely discouraged by the small amount of fluid being produced per recipe.%nDon't worry! Fluid consumption and production shown in NEI are just the base line for the lowest efficiency. The efficiency of Vat depends on the amount of fluid in the Output Hatch.%n%nThe efficiency gradually increases as the output hatch fills up and reaches maximum efficiency when it is §cexactly half-filled§r. If the hatch fills even more, the efficiency goes down again, so try to keep it close to half! At maximum efficiency the amount of fluid consumed and produced per recipe is multiplied by 1000. The items and culture are not affected.%n%n§TThere are different means to keep it at half, including OC (not SFM, it doesn't like BW fluids), fluid detector+machine controller, or a fluid regulator, as well as more off the wall ones such as frames or block-sharing. If you choose the fluid detector route, remember that using a larger output hatch will make it easier to keep it close to half-filled.
 
 # Quest.2565 - §1§2§3§4§5§6§7§8§9§lPolystyrene
 gtnh.quest2565.name=§1§2§3§4§5§6§7§8§9§lPolystyrene
-gtnh.quest2565.desc=To make Polystyrene you can use the chemical reactor. Use oxygen and styrene. To make plates using the fluid Extractor and a plate mold form.
+gtnh.quest2565.desc=To make Polystyrene you use the chemical reactor to combine oxygen and styrene. To make plates use the fluid solidifier and a plate mold.
 
 # Quest.2566 - §9§lBio Lab
 gtnh.quest2566.name=§9§lBio Lab
-gtnh.quest2566.desc=The Bio Lab is a multi-use Bioengineering station. You can create bacterial cultures with it. DNA Samples and Data Orbs with this DNA samples.%n%nThe Bio Cultures are use later on in the Bacterial Vat found in the Multi Goal section.
+gtnh.quest2566.desc=The Bio Lab is a multi-use Bioengineering station. You can create bacterial cultures for use in the Bacterial Vat with it, as well as make DNA Samples and Data Orbs, and Plasmids to duplicate cultures and create new ones.%n%nThe Bacterial Vat can be found in the Multibock Goals tab.
 
 # Quest.2567 - §9§lPetri Dish
 gtnh.quest2567.name=§9§lPetri Dish
-gtnh.quest2567.desc=The petri dish must first be sterilized to allow new cultures to grow on it. You can use ethanol, methanol, ammonia, or chlorine to sterilize.
+gtnh.quest2567.desc=You'll need petri dishes to hold the cultures. You can make them out of borosilicate, styrene, or PTFE.%n%nThe petri dishes must then be sterilized to allow cultures to grow on them. You can use ethanol, methanol, ammonia, or chlorine to sterilize them.
 
 # Quest.2568 - Infinity Helmet
 gtnh.quest2568.name=Infinity Helmet
@@ -10396,6 +10396,406 @@ gtnh.quest2597.desc=Okay so if you actually want to use the stargate you'll need
 gtnh.quest2598.name=What, how?
 gtnh.quest2598.desc=You're not supposed to be here... I think you need to go outside and get some sunlight if you unlocked this legitmately...%n%nIn the meantime here is your reward, don't spend it all at once!
 
+# Quest.2599 - §4§c§lLuV Energy Hatch
+gtnh.quest2599.name=§4§c§lLuV Energy Hatch
+gtnh.quest2599.desc=If you want to upgrade your multis (and make the Fusion Reactor) you'll need to make these. You'll need a ton of wafers for Fusion, so step up your Indium game if you haven't already.%n%nYou need an LuV Cutting Machine, or an OC'd multi.
+
+# Quest.2600 - §c§lFetch Quests
+gtnh.quest2600.name=§c§lFetch Quests
+gtnh.quest2600.desc=To make the Circuit Assembly Line imprints you'll need a bunch of new materials.%n%nTo start, let's get some raw materials, Prasiolite, Cubic Zirconia, and Tellurium.%n%nYou also need some other materials, but I don't need to explain those, do I?%n%n§3If the materials are too much of a pain, you can replicate some of them once you have one of it.
+
+# Quest.2601 - §c§l§6§e§6§lCircuit Assembly Line
+gtnh.quest2601.name=§c§l§6§e§6§lCircuit Assembly Line
+gtnh.quest2601.desc=You'll need all of these to create 4 CALs, enough for a single series of circuits. If you only want one (for the microprocessors for example), just divide by 4.%n%nAssuming you got the necessary imprints on the LuV tab, you can now craft the CALs for the crystalprocessor series. We're starting with 4 since you'll need one per circuit, the imprint is not removable. And yes this means you need one for every circuit type you want to make with the CAL.%n%nAs an Assembly Line, it generally works like the normal one, with different items in each bus, but since it's only one item per CAL, it's far easier to use and make.%n%nThe CAL uses 'wraps' to make 16 of a circuit at a time (aside from ULV and LV circuits), saving you time, EU, and Soldering Alloy. You make the wraps in an Assembler with 16 of the item and Polyethylene.%n%n§3BTW you can change out the Input Hatch and the Energy Hatch, but the I/O busses need to be ULV.
+
+# Quest.2602 - §c§lImprints, They're Important
+gtnh.quest2602.name=§c§lImprints, They're Important
+gtnh.quest2602.desc=Now that you've finally gotten all the materials to make your imprints, you can make them as you get your new circuits. You'll need to slice the circuits for the imprint in either a tier-appropriate slicing machine, or the Cutting Factory in slicing mode.%n%nTo use the imprints, place them in the CAL controller's item slot. The CAL will be imprinted once you turn it on. You can see what it's imprinted with by using a portable scanner on the controller. You can also swap out controllers if you're too lazy to make more CALs.%n%n§3If you already have an imprint for them, you don't need to make another, it works with both recipes.%n%n§4Because of the way oredicting and recipes work, slicing LV or HV circuits in the Cutting Factory will not work properly, so use at least an HV slicing machine for those.
+
+# Quest.2603 - §c§lFetching Tellurium
+gtnh.quest2603.name=§c§lFetching Tellurium
+gtnh.quest2603.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets%n2) If you have old worldgen, you can get it from Temagamite practically anywhere (it was broken so it currently doesn't generate), or Mercury if it's been fixed%n3) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite%n4) Toxic Everglades again
+
+# Quest.2604 - §c§lFetching Cubic Zirconia
+gtnh.quest2604.name=§c§lFetching Cubic Zirconia
+gtnh.quest2604.desc=For Cubic Zirconia, you'll need to combine Zirconium and Yttrium Oxide in the EBF as well. Fortunately you only need the dusts.%n%nYou can get Zirconium from:%n1) The Red Zircon ore on Ross128b <- Do this one%n2) Sifting Cassiterite, Tin, or Ilmenite <- Do this one if you hate Ross%n3) Chemical Bathing Tin or Rutile with Chlorine%n%nOxygen isn't hard to get, but the Yttrium more than makes up for it. You have a couple options:%n1) Centrifuge Rare Earth for a 1 -> 25% chance for 1/4 of a dust%n2) Make Rare Earth (I) out of Rare Earth (see the MV quest) and get it out of Xenotime%n3) Make Rare Earth (II) out of Rare Earth using a stronger acid and get it from Yttriaite%n4) When you have a T6 rocket, you can pick some Yttrium ore up from Triton, making you cry at how much easier it is%n5) In ZPM you can try going to the Toxic Everglades to grab weird GT++ ores, some of which have Yttrium in them (Yay RNG ore worldgen!)%n%nTo get Rare Earth you §ocan§r use Redstone or Skystone, but you can also get it out of Monazite directly or some other ores as a byproduct. Hopefully you saved it up?
+
+# Quest.2605 - §c§lFetching Prasiolite
+gtnh.quest2605.name=§c§lFetching Prasiolite
+gtnh.quest2605.desc=For Prasiolite you'll want to put Quartzite and Amethyst in an EBF to get Flawed Prasiolite. You'll need to either use the Implosion Compressor or Precision Laser Engraver to up the quality to Exquisite. You'll also need the dust version as well, so don't convert them all.%n%nFor the amount of Amethyst you'll need, you'll want to make a stop on Venus.%n%nIf you have a T5 rocket, you can get the ore from Ross128ba directly and run it through the sifter.
+
+# Quest.2606 - §c§lRNG is Definitely Good Game Design
+gtnh.quest2606.name=§c§lRNG is Definitely Good Game Design
+gtnh.quest2606.desc=Once you've collected all the materials, you'll need to make Magneto Resonatic Dust and Circuit Compound Mk3 in a Mixer.%n%nCombine these in the Forming Press to make Raw Imprint Supporting Boards.%n%nYou then craft those into Imprint Supporting Boards in an Autoclave in a Cleanroom with Soldering Alloy. Unfortunately, there's only a 75% chance of succeeding, so I had you collect extra materials. You can use the leftovers for your next imprint.
+
+# Quest.2607 - §c§lNaquadah Alloy
+gtnh.quest2607.name=§c§lNaquadah Alloy
+gtnh.quest2607.desc=In order to make a Fusion Reactor you're going to need some Naquadah Alloy.%n%nFirst, pop on by Mercury and collect some Deep Iron from small ores, and get Trinium out of it.%n%nYou'll also need Naquadah coils, and LuV Energy Hatches.
+
+# Quest.2608 - §c§lAdvanced SMDs
+gtnh.quest2608.name=§c§lAdvanced SMDs
+gtnh.quest2608.desc=To craft circuits from the crystalprocessor series and beyond, you'll need these.%n%nIf you use these to make a circuit tier lower than Crystal, it'll use 1/4 the amount compared to normal SMDs, and half the required time.
+
+# Quest.2609 - §c§lMysterious...
+gtnh.quest2609.name=§c§lMysterious...
+gtnh.quest2609.desc=If you want some of this highly mysterious material, you'll need to go to Enceladus and collect some of those crystals lying around everywhere and macerate them. Or grab some Ice with a shovel and get the Dust out of it. You can also turn the dust back into Unknown Crystal Shards with an Autoclave if you need those.
+
+# Quest.2610 - Tier 8
+gtnh.quest2610.name=Tier 8
+gtnh.quest2610.desc=The ZPM tier. Speaking of ZPM, did you know the name is based on the Zero Point Module from the show Stargate SG-1, which continues the story of the movie? It's a great show, go watch it! You can also get one for completing the Legendary Quests tab.
+
+# Quest.2611 - You Cant Get Enough of This Pt 1 in ZPM
+gtnh.quest2611.name=You Cant Get Enough of This Pt 1 in ZPM
+gtnh.quest2611.desc=You know what to do.
+
+# Quest.2612 - You Cant Get Enough of This Pt 2 in ZPM
+gtnh.quest2612.name=You Cant Get Enough of This Pt 2 in ZPM
+gtnh.quest2612.desc=Just Make It (TM).
+
+# Quest.2613 - Tier 9
+gtnh.quest2613.name=Tier 9
+gtnh.quest2613.desc=UV huh? This is the tier where normal GT caps out, so there isn't a huge amount past this point, but feel free to continue. 
+
+# Quest.2614 - Admit it, You Love This Pt 1 in UV
+gtnh.quest2614.name=Admit it, You Love This Pt 1 in UV
+gtnh.quest2614.desc=Are you okay? Playing this much might not be healthy you know?
+
+# Quest.2615 - Admit it, You Love This Pt 2 in UV
+gtnh.quest2615.name=Admit it, You Love This Pt 2 in UV
+gtnh.quest2615.desc=Try going outside once in a while, it's fun! Unless you have agoraphobia I guess.
+
+# Quest.2616 - Tier 10
+gtnh.quest2616.name=Tier 10
+gtnh.quest2616.desc=...wait, you're here? Uh, we haven't really finished things, but I guess you could look around?
+
+# Quest.2617 - Harder, Better, Faster, Stronger... Pt 1 in UHV
+gtnh.quest2617.name=Harder, Better, Faster, Stronger... Pt 1 in UHV
+gtnh.quest2617.desc=You can play other games you know?
+
+# Quest.2618 - Harder, Better, Faster, Stronger... Pt 2 in UHV
+gtnh.quest2618.name=Harder, Better, Faster, Stronger... Pt 2 in UHV
+gtnh.quest2618.desc=Remember to take a break once an hour (lol).
+
+# Quest.2619 - Superconductors at 131,072 EU/t
+gtnh.quest2619.name=Superconductors at 131,072 EU/t
+gtnh.quest2619.desc=You can figure out how to make them yourself, right?
+
+# Quest.2620 - Superconductors at 524,288 EU/t
+gtnh.quest2620.name=Superconductors at 524,288 EU/t
+gtnh.quest2620.desc=I wonder what temperature they start superconducting at?
+
+# Quest.2621 - Superconductors at 2,097,152 EU/t
+gtnh.quest2621.name=Superconductors at 2,097,152 EU/t
+gtnh.quest2621.desc=So above this is the UEV, UIV, UMV, UXV, and OpV wires. Only UEV and UIV have cable versions, and there are no superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nThe materials to make the higher tiers are currently Draconium, Nether Star, Quantium, Black Plutonium, and Awakened Draconium. Expect these to change if the tiers actually see use.%n%nWhat, the UHV superconductor? Didn't you already make that?
+
+# Quest.2622 - Tier VII Field Generator
+gtnh.quest2622.name=Tier VII Field Generator
+gtnh.quest2622.desc=Why are they circles anyway? Wouldn't that make it harder to fit in a device?
+
+# Quest.2623 - Tier VIII Field Generator
+gtnh.quest2623.name=Tier VIII Field Generator
+gtnh.quest2623.desc=Why do these not have the tier in the name? Are they testing our memorization ability?%n%nPS: The number is the GT tier, not the quest tab tier, ok?
+
+# Quest.2624 - Tier IX Field Generator
+gtnh.quest2624.name=Tier IX Field Generator
+gtnh.quest2624.desc=I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.%n%nBTW there's one tier higher than this, but it's not really useful. And this one's only really used for optional stuff anyway.
+
+# Quest.2625 - ZPM Assembler
+gtnh.quest2625.name=ZPM Assembler
+gtnh.quest2625.desc=Like previous tiers, you need a same-tier assembler to make the energy hatch. It's also used to make the Naquadah Alloy Coils.
+
+# Quest.2626 - UV Assembling
+gtnh.quest2626.name=UV Assembling
+gtnh.quest2626.desc=Have you made the Large Scale Auto-Assembler yet? If you haven't, you'll have to make the Ultimate Assembly Constructor to progress. And to make the T6 Rocket. You'll also be able to make the second last tier of coils.
+
+# Quest.2627 - ZPM Energy Hatch
+gtnh.quest2627.name=ZPM Energy Hatch
+gtnh.quest2627.desc=You'll need this for the next tier of fusion so you can make Americium and Tritanium, and to upgrade your multis.
+
+# Quest.2628 - UV Energy Hatch
+gtnh.quest2628.name=UV Energy Hatch
+gtnh.quest2628.desc=You'll need this for the next tier of fusion, and to upgrade your multis even further.
+
+# Quest.2629 - UHV Energy Hatch
+gtnh.quest2629.name=UHV Energy Hatch
+gtnh.quest2629.desc=If you want to make the mk4 reactor, you'll need this. But it's not like you need to or anything.
+
+# Quest.2630 - Europium Doped Wafers
+gtnh.quest2630.name=Europium Doped Wafers
+gtnh.quest2630.desc=These boules are more efficient when making wafers out of them than Naquadah.
+
+# Quest.2631 - PPIC Wafers
+gtnh.quest2631.name=PPIC Wafers
+gtnh.quest2631.desc=You'll need Piko Power ICs to make Solars, UHV -> UEV transformers, and UV Hatches and Dynamos.%n%n§3You'll need a UV Cutting Machine, or an OC'd multi to cut the wafers.
+
+# Quest.2632 - Nano Power ICs
+gtnh.quest2632.name=Nano Power ICs
+gtnh.quest2632.desc=You need these for Solars, UV -> UHV transformers, and ZPM Hatches and Dynamos.%n%n§3You'll need a ZPM Cutting Machine, or an OC'd multi.
+
+# Quest.2633 - Quantum Power ICs
+gtnh.quest2633.name=Quantum Power ICs
+gtnh.quest2633.desc=You need Quantum Power ICs for UEV -> UIV and UIV -> UMV transformers, and UHV Hatches and Dynamos.%n%nThe Wafers are needed for the next tier of Fusion, so don't cut them all!%n%n§3You'll need a UHV Cutting Machine, or an OC'd multi.%n%n%n
+
+# Quest.2634 - A Vision of the Future (FPS drop not included)
+gtnh.quest2634.name=A Vision of the Future (FPS drop not included)
+gtnh.quest2634.desc=To get to the Toxic Everglades, you'll need 10 Containment Frames and an Alkalus Disk (Activated).  You use them like when making a nether portal. The disk can also be used to set special fires. It doesn't spread across the ground that well, but it'll take out a tree real fast. If you want to get rid of a giant tree, this is your tool.%n%nThe dim itself is filled with GT++ ores. If you want the ore distribution to make sense/be greggy, badger Alk about it.
+
+# Quest.2635 - Circuits, Assemble!
+gtnh.quest2635.name=Circuits, Assemble!
+gtnh.quest2635.desc=To make a Tier 7 Rocket, and Wetware Circuits (UHV-Tier Circuits), you need to make a ZPM Circuit Assembling Machine.%n%nWhat? Did you think that just because you made the multi you can skip out making the singleblock? Well, too bad! You still need to use it to make the first circuit for the imprints.
+
+# Quest.2636 - Pick-n-Place All Over the Place
+gtnh.quest2636.name=Pick-n-Place All Over the Place
+gtnh.quest2636.desc=To make the Tier 8 Rocket, and Bioware Circuits, you need to make a UV Circuit Assembling Machine. This is the last Circuit Assembling Machine in the game you need to make.%n%n§3You probably thought there would be a circuit questline after this, §4But It Was Me, Dio!§3 I mean, that requires the T8 rocket, so you'll find it in the UHV tab.
+
+# Quest.2637 - Cheaper EV Circuits
+gtnh.quest2637.name=Cheaper EV Circuits
+gtnh.quest2637.desc=With a higher voltage, you can use your ASoCs to make cheaper Quantumprocessors.
+
+# Quest.2638 - Cheaper IV Circuits
+gtnh.quest2638.name=Cheaper IV Circuits
+gtnh.quest2638.desc=The Crystal SoC will allow you to make Crystalprocessors cheaper.%n%nUnfortunately, this is the last SoC.
+
+# Quest.2639 - Rocket Tier 6 Requirements
+gtnh.quest2639.name=Rocket Tier 6 Requirements
+gtnh.quest2639.desc=You'll need 13 Tier 6 Heavy Duty Plates and the schematic to build your rocket.
+
+# Quest.2640 - Rocket Tier 6
+gtnh.quest2640.name=Rocket Tier 6
+gtnh.quest2640.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§3If you want to make this in ZPM, you'll need to use the Assembler multi.
+
+# Quest.2641 - Rocket Tier 7 Requirements
+gtnh.quest2641.name=Rocket Tier 7 Requirements
+gtnh.quest2641.desc=You'll need 71 Tier 7 Heavy Duty Plates and the schematic to build your rocket.%n%nThat's more new ones than any other tier.
+
+# Quest.2642 - Rocket Tier 7
+gtnh.quest2642.name=Rocket Tier 7
+gtnh.quest2642.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
+
+# Quest.2643 - Rocket Tier 8 Requirements
+gtnh.quest2643.name=Rocket Tier 8 Requirements
+gtnh.quest2643.desc=You'll need 19 Tier 8 Heavy Duty Plates and the schematic to build your final rocket.
+
+# Quest.2644 - Rocket Tier 8
+gtnh.quest2644.name=Rocket Tier 8
+gtnh.quest2644.desc=You can travel to other solar systems with this, the final rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
+
+# Quest.2645 - Fusion Rocketry
+gtnh.quest2645.name=Fusion Rocketry
+gtnh.quest2645.desc=So you completed your Fusion Reactor and made your rocket, great! Now time to get some new ore! (like that isn't getting old) You don't need your hand held anymore, so I'll just list what's new.%n%nEnceladus, Miranda, Oberon, Ross128ba and Titan are the new planets. Miranda is the 1st moon of Uranus, while Oberon is the last. Enceladus is the 2nd moon of Saturn, while Titan is the second last. Ross128ba is Ross128b's moon in the Ross128 System to the South.%n%nThe new veins are Nickel, Tungsten, and Vanadium. The ores are: Chrome, Deep Iron, Iridium, Gold, Magnetite, Nickel, Osmium, Silicon, Shadowiron, Tungsten, and Vanadium.%n%nYou can get Neutronium from small ores on Enceladus, Oberon, and Titan.%n%nAnd grab some planet blocks while you're at it too.%n%nYou can get the schematic for T6 on Enceladus.%n%n§3I'm sure you can tell by now, but it's not like every planet is required, so go to the ones you want to, and skip the ones you don't want to go to. Use NEI to figure out where you NEED to go.
+
+# Quest.2646 - Where No One Has Gone Before
+gtnh.quest2646.name=Where No One Has Gone Before
+gtnh.quest2646.desc=Another rocket, another set of planets. Get to work already, that's why you made it, right?%n%nThere's only two new planets this time, Proteus and Triton. They're both moons of Neptune.%n%nThe new veins are Neutronium, Niobium, and Thorium. The ores are: Adamantium, Gallium, Naquadah, Neutronium, Niobium, Plutonium-241, Titanium, Uranium 235, Uranium-238, and Yttrium.%n%nYou can get Black Plutonium from small ores on Triton.%n%nYou should pick up some planet blocks while you're visiting.%n%nThe schematic is on Proteus.
+
+# Quest.2647 - All Good Things...
+gtnh.quest2647.name=All Good Things...
+gtnh.quest2647.desc=So you've built your T7 rocket. Great, there's only one more left. Until then, the new places you can visit are: Haumea, the Kuiper Belt, Makemake, and Pluto.%n%nPluto is just before the Kuiper Belt, and Haumea and Makemake are just after.%n%nThe new veins are Black Plutonium, Garnet, Red Garnet. The ores are: Black Plutonium, Borax, Chrysotile, Garnet Sand, Nether Star, Realgar, Red Garnet, and Yellow Garnet.%n %nDon't forget the planet blocks!%n %nThe last schematic is on Pluto. This is also the last dungeon.
+
+# Quest.2648 - The Final Frontier
+gtnh.quest2648.name=The Final Frontier
+gtnh.quest2648.desc=There's no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable).%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you nned some to begin with. The water can be found as an undergound fluid on Tau Ceti E as well.
+
+# Quest.2649 - STERILIZE!, STERILIZE!
+gtnh.quest2649.name=STERILIZE!, STERILIZE!
+gtnh.quest2649.desc=Turn your Raw Growth Medium into Sterilized Growth Medium in an IV Fluid Heater, and then you can use it in the Wetware Lifesupport Circuit Boards or the Neuro Processing Unit. But you'll also need to use it to make stemcells, so let's do that first.
+
+# Quest.2650 - The Board that Keeps Life
+gtnh.quest2650.name=The Board that Keeps Life
+gtnh.quest2650.desc=To make Wetware Circuits, you'll need to make a Wetware Lifesupport Circuit Board. Making this board is quite a different process than making all the other Circuit Boards you've made, because making it actually requires materials!%n%nTo actually use it in circuits, you need to etch it. I guess by now, you know how to etch a circuit board, so I won't tell you and you have to use NEI :P
+
+# Quest.2651 - This is Not How You Make Cheese
+gtnh.quest2651.name=This is Not How You Make Cheese
+gtnh.quest2651.desc=In order to make Wetware circuits, you'll need Sterilized Growth Medium and Stemcells, so let's get started on those, ok?%n%nTo get anywhere, first you need Bacteria. You can get this through the vat or the brewing machine. If you do it the vat way, you'll need to use Bismuth rods for the radiation, and have EV-tier glass. There are also 3 recipes, so you can use a higher tier one later if you like. You can also make liquid Growth Medium the same way. The vat way is more item-efficient, but more complicated.%n%nYou'll also need Mince Meat and Agar. You'll want a stable supply of meat, so something like the Zhuhai, a standard animal farm, or ic2 Meatrose or Goldfish is probably best.%n%nAgar has a more complicated processing chain, but it's nothing compared to Platinum. You'll need even more meat for it.%n%nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then use that in the vat's controller to make Raw Growth Medium. You'll need IV-tier glass, and Uranium rods. There are also higher tier recipes.%n%n§3Cultures are not consumed when used in the vat.
+
+# Quest.2652 - Intelligent Circuits
+gtnh.quest2652.name=Intelligent Circuits
+gtnh.quest2652.desc=Another component for the Wetware Circuits is NeuroCPUs. To make it you need to use the Assembly Line.%n%nI won't tell you the materials, but I'll tell you that you need 250L Sterilized Growth Medium, 250L UU Matter, and 1000L of IC2 Coolant.
+
+# Quest.2653 - Your First Wetware Circuit
+gtnh.quest2653.name=Your First Wetware Circuit
+gtnh.quest2653.desc=Now that you're this far into ZPM, you can make cheaper LuV Circuits.
+
+# Quest.2654 - Wetware Processor Assembly
+gtnh.quest2654.name=Wetware Processor Assembly
+gtnh.quest2654.desc=The Wetwareprocessor Assembly is a ZPM Circuit.
+
+# Quest.2655 - Supercomputers and Water
+gtnh.quest2655.name=Supercomputers and Water
+gtnh.quest2655.desc=The Wetware Supercomputer is a UV Circuit.%n%nYou need a TecTech Research Station to make the Wetware Mainframe circuit, so it's only available at UV Tier.
+
+# Quest.2656 - Wetware Mainframe
+gtnh.quest2656.name=Wetware Mainframe
+gtnh.quest2656.desc=The Wetware Mainframe is the final Wetware Circuit, and it is the first UHV Circuit you can get.%n%nIt's made in the Assembly Line, so there's no imprint.
+
+# Quest.2657 - It's Not Going Bad, I Swear!
+gtnh.quest2657.name=It's Not Going Bad, I Swear!
+gtnh.quest2657.desc=To make your next tier of circuits (Bio Circuits), you need to make Raw Bio Medium. There are three ways of making it.%n%nThe first one requires Stemcells, Unknown Crystal and T-Ceti Seaweed Extract at LuV voltage and 94 Sievert (Plutonium level) in a Bacterial Vat. It makes Raw Bio Medium at 4:1 ratio.%n%nThe second one is basically the first one, but it requires Infinity Catalyst instead of Tritanium at ZPM voltage and 140 Sievert (Enriched Naquadah level) in a Bacterial Vat. It makes Raw Bio Medium at 1:1 ratio.%n%nThe third one is the most efficient, but it requires Biocells (which you don't have yet), and 4 dust of Infinity Catalyst at UV voltage and 150 Sievert (Naquadria level) in a Bacterial Vat. It makes Raw Bio Medium at 1:2 ratio.%n%n§3The second and third ways use a different culture.
+
+# Quest.2658 - Making Tritanium
+gtnh.quest2658.name=Making Tritanium
+gtnh.quest2658.desc=In order to make Tritanium, first you need to make Duranium.%n%nTritanium is used for the T6 rocket, Gravisuit, the T4 mining multi, and UHV circuits.
+
+# Quest.2659 - I'm Telling You, It's Not Mold!
+gtnh.quest2659.name=I'm Telling You, It's Not Mold!
+gtnh.quest2659.desc=Now let's make Biocells. To make them, you have to heat up your Raw Bio Medium to make Sterilized Bio Medium.%n%nThen you just have to use a Chemical Reactor to make Biocells.
+
+# Quest.2660 - Mutations Are...Good, Right?
+gtnh.quest2660.name=Mutations Are...Good, Right?
+gtnh.quest2660.desc=Making the Bio Board is pretty much the same process as making a wetware board, just that... oh god that's expensive.%n%nTo make the Ultra Bio Mutated Circuit Board, you just need to etch it with neutronium.
+
+# Quest.2661 - Self-Aware Circuits
+gtnh.quest2661.name=Self-Aware Circuits
+gtnh.quest2661.desc=Make a Bio Processing Unit. It is an important component in making the Bio Circuits.%n%nMaking it is an Assembly Line process with IC2 Coolant, UU-Matter and Sterilized Bio Medium.
+
+# Quest.2662 - Please... don't let these circuits take over
+gtnh.quest2662.name=Please... don't let these circuits take over
+gtnh.quest2662.desc=The Bioprocessor is the first Bio Circuit you can make. It is a ZPM-Tier circuit.
+
+# Quest.2663 - Bio Circuit 2: Biological Boogaloo
+gtnh.quest2663.name=Bio Circuit 2: Biological Boogaloo
+gtnh.quest2663.desc=The Bioprocessor Assembly is the second Bio Circuit. It is a UV-Tier circuit.
+
+# Quest.2664 - Supercomputers... with Cells?
+gtnh.quest2664.name=Supercomputers... with Cells?
+gtnh.quest2664.desc=The Bioware Supercomputer is the third Bio Circuit. It is a UHV-Tier Circuit.%n%nIt needs a TecTech Research Station at 4,000,000 EU/t (8 amps of 500,000 EU/t).
+
+# Quest.2665 - Master of Circuits
+gtnh.quest2665.name=Master of Circuits
+gtnh.quest2665.desc=You have done it! This is the final (normal) circuit in the game!%n%nThe Bio Mainframe is the first and only UEV-Tier Circuit in the game. It requires a TecTech Research Station at 16,000,000 EU/t (16 amps of 1M EU/t).%n%nAlso, there's this thing called going outside. I heard you may like it.
+
+# Quest.2666 - Magneto Resonatic Circuits
+gtnh.quest2666.name=Magneto Resonatic Circuits
+gtnh.quest2666.desc=So, you may have been looking through NEI and seen a line of purple circuits from BW and wondered 'What are these, and when can I make them?'. Well, I don't know why they exist, but you can make them starting now!%n%nThey all use Imprint Supporting Boards, a type of crystal (change the dust to crystal with Neon or Krypton in an Autoclave, and then move up tiers with the Precision Laser Engraver), SMDs, and a §3circuit of the previous tier.§r So the material cost increases rather dramatically. They're made at a power tier +1 of the circuit's tier, so IV ones are made with LuV voltage.%n%nYou can even make UHV circuits if you're crazy enough! The UIV CA has no recipe, so you can't make the UEV ones, unfortunately.
+
+# Quest.2667 - Moar Powa!
+gtnh.quest2667.name=Moar Powa!
+gtnh.quest2667.desc=So Helium is great and all, but have you tried Tin? Bigger and better fusion means greater power demands, not to mention all your other devices, so it might be time to upgrade.%n%nGood turbine options at this point are: small Trinium (larger ones will produce too much and cause an explosion, explosions bad), large Draconium, large Neutronium, large Oriharukon, and large Ichorium.
+
+# Quest.2668 - Something From Nothing
+gtnh.quest2668.name=Something From Nothing
+gtnh.quest2668.desc=Void Miners are basically the same thing as regular ones, except that they draw from the whole pool of ores for the dimension without there having to be any nearby. In addition, you can speed them up by supplying Neon, Krypton, Xenon, or Oganesson.%n%nYou can get Neon reasonably easily from Bartimaeusnek Ore from Ross 128ba. Krypton and Xenon can be produced from centrifuging fuel rods. All three can be produced from the EV liquid air distillation method. Remember you need the Liquid Air Fluid Hatch to actually put in enough liquid air. If you want all the produced gasses from the first 4 slots, you'll need to use the Giant Output Hatch.%n%nTo get Oganesson, you'll need mk3 fusion.%n%nAll four fluids can be replicated, so you'll probably end up doing that.%n%n§3If you want the Deep Dark's ores, you HAVE to use a Void Miner.
+
+# Quest.2669 - Wasn't This Only Found in the Center of Neutron Stars?
+gtnh.quest2669.name=Wasn't This Only Found in the Center of Neutron Stars?
+gtnh.quest2669.desc=You'll need Neutronium for UV and the T7 rocket, so let's make some.%n%nTo get Neutronium, go to one of the planets that has the small ores. Then mix it with Helium Plasma to make Raw Neutronium Dust. It can be smelted in a Blast Furnace at 9000K and 491,520 EU/t. This recipe takes a long time and a lot of power. Better make another EBF or Volcanus. Or a few. Or upgrade your Mega Blast Furnace.
+
+# Quest.2670 - Which Doctor? THE Doctor
+gtnh.quest2670.name=Which Doctor? THE Doctor
+gtnh.quest2670.desc=If you haven't made one before, go check out the quest in MV linked from the Robot Arm about how they work. This one gives the maximum boost, 256x, and uses between 1.5M-3M EU/t, so make sure your power grid can handle it, or dial it down.
+
+# Quest.2671 - Data Bank
+gtnh.quest2671.name=Data Bank
+gtnh.quest2671.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Machine Blueprint to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, so you might as well go for an LuV energy hatch, which will power a maxed one. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%n§rYou will need more blocks then what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Slave Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n§3If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Blueprint. In this case the filler blocks are Computer Casing.
+
+# Quest.2672 - Unlimited Power
+gtnh.quest2672.name=Unlimited Power
+gtnh.quest2672.desc=With this new fusion reactor your new power option is...wait, Tin? Still? Well, this is embarrasing. Still, you could try other stuff if you want I guess? Remember that the Plasma Generator runs on Plasma, so only fluids with it in the name will work, even if they're made in the Fusion Reactor.%n%nFor turbines, you could try large/huge Trinium or large/huge Cosmic Neutronium.
+
+# Quest.2673 - Neutrons From Space
+gtnh.quest2673.name=Neutrons From Space
+gtnh.quest2673.desc=Now let's make Cosmic Neutronium, a material that is used in a lot of late game stuff.%nCentrifuge Black Plutonium to get a Pile of Neutrons. It can then be compressed to Cosmic Neutronium Nuggets in an Implosion Compressor.%n%nCompress the nuggets again to make a Cosmic Neutronium Ingot.%n%n§3Avaritia's Neutronium and GT Cosmic Neutronium are oredicted together, it's not the same as normal GT Neutronium. It goes back to being called SpNt if you craft it into something, like a plate.
+
+# Quest.2674 - Compressing the Core of a Star
+gtnh.quest2674.name=Compressing the Core of a Star
+gtnh.quest2674.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Let's make one.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n§3The compressor can also be used to make singularities, culiminating in the Eternal Singularity, used in the alternate recipe.
+
+# Quest.2675 - One Ingot, Infinite Power
+gtnh.quest2675.name=One Ingot, Infinite Power
+gtnh.quest2675.desc=Here at Questbook, Inc. we are seriously worrying about your health if you got here legitimately. Playing this much might be bad for you. You can always go outside, you know?%n%nBy the way, to make the ingot, it's just a simple Dire Crafting Table recipe. Remember that you were the one that chose to be here.%n%n§3A number of endgame recipes have now opened up. Check the Endgame Goals tab or NEI recipes for the Table to see what they are.
+
+# Quest.2676 - Collecting Neutrons the Alternate Way
+gtnh.quest2676.name=Collecting Neutrons the Alternate Way
+gtnh.quest2676.desc=Now that you have Infinity, you can use the Avaritia Neutron Collector to get Piles of Neutrons. It does not use any power.%n%n§3Warning: This machine is extremely slow, so you might want to use something to help with that...
+
+# Quest.2677 - No, It Won't Repair Your Car
+gtnh.quest2677.name=No, It Won't Repair Your Car
+gtnh.quest2677.desc=The Auto Maintenance Hatch will correct maintenance problems immediately at the cost of some materials. Invaluable if you want to make sure your cleanroom machines won't void stuff. Or you could just use a howler and do it yourself I guess.
+
+# Quest.2678 - Paint-by-Numbers
+gtnh.quest2678.name=Paint-by-Numbers
+gtnh.quest2678.desc=If you want to color all those fancy cables and such, you'll want to use the humble Paintbrush. To uncolor them, use a bucket of water.%n%nAlternatively, you can also use the IC2 Painter, or the AE2 Color Applicator.
+
+# Quest.2679 - It produces HOW much power?
+gtnh.quest2679.name=It produces HOW much power?
+gtnh.quest2679.desc=Still not enough power? Try making turbines out of Awakened Draconium, Infinity Catalyst, or Infinity.%n%n§3Don't blame me if it explodes, try it out in creative first.
+
+# Quest.2680 - Mutating Things is Cool
+gtnh.quest2680.name=Mutating Things is Cool
+gtnh.quest2680.desc=When making Raw Crystal Chips, you have two other options if using Europium constantly is too expensive for you: Bacterial Sludge, and Mutagen.%n%nMutagen is obviously better than the sludge, but how do you get it? I'll teach you how.%n%nFirst, get the Bacterial Sludge you got from Mars, and run it through a Brewery along with some U-238 to get EnrichedBacterialSludge. Then Ferment it to get FermentedBacterialSludge. And finally you Distill it to get Mutagen.%n%nBut is a single bucket enough for you? Hardly! But now that we have some, we can make more with the vat. Use the Mutagen you got along with some of that Mysterious Crystal Dust to make a culture. Unfortunately the chances are pretty low, so you'll almost certainly have to do it several times.%n%nOnce you have your culture you can use it in the vat along with some of the dust again to make more. You'll need LuV-tier glass, and Plutonium rods.%n%nIf you want to get more Bacterial Sudge more easily, you can use the vat to make that too! The culture is much easier to make.%n%n§3Mutagen is also used for Gendustry, so if you want to do that, make a bunch.
+
+# Quest.2681 - Industrial Scale Seaweed Production
+gtnh.quest2681.name=Industrial Scale Seaweed Production
+gtnh.quest2681.desc=So you probably noticed that the amount of seaweed you'll need to make Bio circuits is kind of...intense. Collecting them yourself is a huge pain, and who wants to program robots? Plus servers. Fortunately, there's now a way to make seaweed.%n%nThe first thing you need is...Seaweed! Use that with Unknown Water you pumped from the same planet to make the culture. Expect this to take a while, as the chances are super low. You'll also need the max tier Bio Lab.%n%nOnce you have the culture you can make SeaweedBroth, by combining it with UnknownNutrientAgar and some other stuff. This can then be made into seaweed.
+
+# Quest.2682 - TecTech Multiblocks
+gtnh.quest2682.name=TecTech Multiblocks
+gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...).%n%nSave Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFront Rotation - Allows rotating the front face of the machine for more structure orientation freedom (also available in API). This doesn't allow you to change the facing of the controller, but the orientation. So if you look at it from the front, it can be rotated clockwise or counterclockwise. You also need to use the Front Rotation Scrench to do so. §3If you don't get it, try placing a controller, screnching it, and using the Blueprint on it.§r%n%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Save Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
+
+# Quest.2683 - Configuring TecTech Multiblocks
+gtnh.quest2683.name=Configuring TecTech Multiblocks
+gtnh.quest2683.desc=The Parametrizer allows you to configure TecTech multis by adjusting the numbers. There are 3 different versions. Don't ask me how the latter two work, I have no idea.%n%nIf there are lit up sections in the Parameters part of the multi interface (see the TecTech Multiblocks quest), you can configure the multi, otherwise the block does nothing.%n%nIf you want to understand how using the Parametrizer works, you'll need to understand how binary works a little, so go do that. We'll also be using the Quantum Computer for the example, since that's what you probably want it for.%n%nID:0:0:I  ID:0:1:I     ID:1:0:I  ID:1:1:I%nID:0:0:O  ID:0:1:O    ID:1:0:O  ID:1:1:O%n%nOn the example above, the 'block' is represented by the first number of each group. In the first, it is 0, in the second, unused one, it is 1.%n%nThe letter I in the top groupings indicates Input, something that is either set by the Parametrizer, or is the default.%n%nThe letter O (right below the I) in the bottom number groupings indicates Output, this is information that the machine sends to you, that indicates things. (like heat or computation power)%n%nThe middle number indicates if it's the first or second parameter.%n%n%nIn the Parametrizer's interface, you have 16 buttons. Ignore the bottom row, it's not useful here. The left and right sided ones are for +/- to a greater degree, but that's not really useful to us, so ignore them too.%n%nIt defaults to Parameters: -1, use the +/- with ID on them to change which 'block' of parameters you're adjusting. For the QC, there's only the 0 'block', so set it to that.%n%nThe Down Arrow indicates the current value of O numbers, and the Up Arrow indicates the current value of I numbers. Remember that you can change I numbers? Use the +/- buttons to change them. They will change either the 0 or 1 number, depending on the icon on the button.%n%nIf you change the 0 value, this will change the Overclock Ratio, and if you change the 1 value, this will change the Overvoltage Ratio. For the QC at least.
+
+# Quest.2684 - RP-1 Rocket Fuel
+gtnh.quest2684.name=RP-1 Rocket Fuel
+gtnh.quest2684.desc=In order to fuel the T2 rocket, you'll need some RP-1 Rocket Fuel. First, you'll need either Diesel (which you probably used to make the Cetane-Boosted Diesel for the T1), or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.§3%n%nIf you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore :(§r%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T3 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nCombine Liquid Oxygen and RP-1 to make RP-1 Rocket Fuel. And no, I have no idea what the difference is.%n%n§3If you're confused abot how to use/make the Chemical Plant, refer to the manual with the same name.
+
+# Quest.2685 - Coal Tar Distilling
+gtnh.quest2685.name=Coal Tar Distilling
+gtnh.quest2685.desc=In order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.%n%nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.
+
+# Quest.2686 - Dense Hydrazine
+gtnh.quest2686.name=Dense Hydrazine
+gtnh.quest2686.desc=Dense Hydrazine is needed starting from rocket tier 3, so you should make some if you want to keep exploring space.%n%nIt's a T4 240 EU/t recipe, so you'll need to make the CP out of Titanium and HV Machine Casings.
+
+# Quest.2687 - Monomethylhydrazine
+gtnh.quest2687.name=Monomethylhydrazine
+gtnh.quest2687.desc=You'll need this if you want to make CN3H7O3 (Purple) Rocket Fuel. It's also made in the Chemical Plant.
+
+# Quest.2688 - CN3H7O3 (Purple) Rocket Fuel
+gtnh.quest2688.name=CN3H7O3 (Purple) Rocket Fuel
+gtnh.quest2688.desc=To make CN3H7O3 for your T5 rocket, you'll need to combine Monomethylhydrazine and Nitric Acid in a Chemical Plant. Make sure to upgrade your casings to Tungstensteel.
+
+# Quest.2689 - Phtalic Acid Conversion
+gtnh.quest2689.name=Phtalic Acid Conversion
+gtnh.quest2689.desc=If you have a bunch of this lying around already (or you think it's easier), you can convert GT Phtalic acid into the GT++ version by running it through a Distillery.
+
+# Quest.2690 - 2-Ethylanthrahydroquinone
+gtnh.quest2690.name=2-Ethylanthrahydroquinone
+gtnh.quest2690.desc=To make this complicated sounding chemical, combine the similarly named 2-Ethylanthraquinone and Hydrogen along with an Orange Catalyst in the Chemical Plant.%n%n§3You need Palladium to make the Catalyst, so keep that in mind.
+
+# Quest.2691 - 2-Ethylanthraquinone
+gtnh.quest2691.name=2-Ethylanthraquinone
+gtnh.quest2691.desc=Does anyone else wonder why these chemicals have numbers in the name? No? Just me? Moving on, to make it, combine Phthalic Anhydride and Ethylbenzene in the Chemical Plant to make 2-Ethylanthraquinone.%n%nBTW the other recipe that makes this is used later in the processing chain. You can loop the 2-Ethylanthraquinone so you don't have to make more if you don't want to scale up.
+
+# Quest.2692 - How Do You Even Pronounce This?
+gtnh.quest2692.name=How Do You Even Pronounce This?
+gtnh.quest2692.desc=To make Phthalic Anhydride, use a dehydrator. You need to use GT++ Phthalic Acid.
+
+# Quest.2693 - Phthalic Acid, The Cool Kids' Way
+gtnh.quest2693.name=Phthalic Acid, The Cool Kids' Way
+gtnh.quest2693.desc=Make Phthalic Acid out of Naphthalene and Lithium in a Chemical Reactor.%n%nIronically, you can't make this out of Naphtha.
+
+# Quest.2694 - Naphthalene
+gtnh.quest2694.name=Naphthalene
+gtnh.quest2694.desc=To make Naphthalene, combine your Coal Oil Tar with Sulfuric Acid to get Sulfuric Coal Tar Oil.%n%nThen distill it to get Naphthalene. Seem easy? It gets harder.
+
+# Quest.2695 - Serious Upgrades
+gtnh.quest2695.name=Serious Upgrades
+gtnh.quest2695.desc=So if you thought 'hey, the purple stuff wasn't that bad, why not make the green?'. Well, first of all, you may need professional help. Second, you're going to need to be in ZPM to make the casings you need, full stop. You need a ZPM ABS for the components, so come back once you've made a ZPM Energy Hatch.%n%nYou can probably figure most of it out on your own, but keep in mind that some of the materials need to be created in the ABS, solidified, macerated, and then used in another ABS recipe. Examples are: Hastelloy-N and Inconel-792.%n%nLaurenium is also like this, and also inclues Rhenium and Dysprosium. Rhenium uses a nonstandard ABS recipe to make, and Dysprosium requires either making Rare Earth (III) or going to the Toxic Everglades. You'll also need to make Rare Earth (I) for Ytterbium or, again, visit the Everglades for it.%n%nHave fun with that!%n%n§3You'll almost certainly need more than this, but the exact amount, as always, depends on your hatches and busses.
+
+# Quest.2696 - Beyond the Limit
+gtnh.quest2696.name=Beyond the Limit
+gtnh.quest2696.desc=Rugged Botmium Casings are currently completely optional, as well as being hard to make. They also don't do anything, other than return the CP back to a reasonable color, since there's no T7 recipes.%n%nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver. This means you need to make the Cyclotron, and hit 2 1% chances in a row, so good luck with that!
+
+# Quest.2697 - Chlorine, Your New Best Friend
+gtnh.quest2697.name=Chlorine, Your New Best Friend
+gtnh.quest2697.desc=Chlorine is a fluid that is used in significant quantities throughout the game, so you might as well get used to collecting it now.%n%nYou can electrolyse Salt, Rock Salt, Sodalite (finally a use!), or Salt Water for it. Since you'll need so much, you may wish to consider using your first Super Tank to hold it all.
+
+# Quest.2698 - Niobium Needs
+gtnh.quest2698.name=Niobium Needs
+gtnh.quest2698.desc=While you're on Io, you should pick up some ore for Niobium. It'll be worth it later.
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
@@ -10424,19 +10824,15 @@ gtnh.line5.desc=Finally some power to work with. This tier will help you reach d
 
 # QuestLine.6 - Tier 5 - 2048 EU (EV)
 gtnh.line6.name=Tier 5 - 2048 EU (EV)
-gtnh.line6.desc=Titanium level, fissile energy sources, Applied Energistics 2.
+gtnh.line6.desc=Welcome to EV! You have successfully gone to the moon and processed Titanium. You are now getting extreme levels of energy. In this tier you will unlock Nuclear fission energy, and Applied Energistics 2.
 
 # QuestLine.7 - Tier 6 - 8192 EU (IV)
 gtnh.line7.name=Tier 6 - 8192 EU (IV)
-gtnh.line7.desc=Tungsten level, Asteriod dims, assembly line
+gtnh.line7.desc=You have been to Mars and acquired Tungstensteel. To progress to the next tier, you'll need to make an assembly line. Good luck!
 
 # QuestLine.8 - Tier 7 - 32768 EU (LuV)
 gtnh.line8.name=Tier 7 - 32768 EU (LuV)
 gtnh.line8.desc=If you have made it this far, you should walk with your head held high - you are at the start of the lategame. Endgame is still a long road ahead of you, but you are now an expert at GTNH and most of the mods it comes with. Congrats, and be proud of your Big Dick Energy.
-
-# QuestLine.9 - Fusion
-gtnh.line9.name=Fusion
-gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV. Only 20 years away!
 
 # QuestLine.10 - Fishing Farming Cooking
 gtnh.line10.name=Fishing Farming Cooking
@@ -10518,6 +10914,10 @@ gtnh.line28.desc=When regular magic just won't cover it, pay demons to do it for
 gtnh.line29.name=Endgame Goals
 gtnh.line29.desc=Collection of endgame objectives, good luck and thanks for playing so far.
 
+# QuestLine.30 - Tier 8 - 131072 EU (ZPM)
+gtnh.line30.name=Tier 8 - 131072 EU (ZPM)
+gtnh.line30.desc=Congratulations, you have completed the assembly line and fusion reactor and made it to the Zero Point Module tier. You're well into the late game now, but there's still a lot of stuff to do. Good luck!
+
 # QuestLine.31 - Open Computers
 gtnh.line31.name=Open Computers
 gtnh.line31.desc=The magical world of ingame programming!
@@ -10537,10 +10937,6 @@ gtnh.line34.desc=A guide to help you start Galacticraft and reach the Moon
 # QuestLine.35 - Applied Energistics
 gtnh.line35.name=Applied Energistics
 gtnh.line35.desc=AE2 focuses on creating a compact, easily accessible, considerably extendible storage system called an ME Network. 
-
-# QuestLine.36 - An Age of Tech
-gtnh.line36.name=An Age of Tech
-gtnh.line36.desc=I've been keeping a watchful eye on your technological advance - it's time to see the dreams of a technological future! I shall guide you to a whole new complicated series of machinery. Be wary though, these machines will test your resolve (and energy limits) to the extreme. (under construction)
 
 # QuestLine.37 - Kill all the things
 gtnh.line37.name=Kill all the things
@@ -10573,4 +10969,12 @@ gtnh.line43.desc=Treasure of lands far beyond the vast sea of the Void and very 
 # QuestLine.44 - Tips and Tricks
 gtnh.line44.name=Tips and Tricks
 gtnh.line44.desc=All our collected wisdom, in one convenient place. Many Greggers died to bring you this knowledge.
+
+# QuestLine.45 - Tier 9 - 524288 EU (UV)
+gtnh.line45.name=Tier 9 - 524288 EU (UV)
+gtnh.line45.desc=Ultimate Voltage! This is the final tier in normal GregTech, but here in GregTech: New Horizons, we pierce the heavens to go beyond the limit! You have done something that only a few players are capable of doing. Welcome to the Endgame!
+
+# QuestLine.46 - Tier 10 - 2097152 EU (UHV)
+gtnh.line46.name=Tier 10 - 2097152 EU (UHV)
+gtnh.line46.desc=Uhh... hi? You really aren't supposed to be here, you know? We're still, you know, making this tier, right?
 
