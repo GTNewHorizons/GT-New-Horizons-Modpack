@@ -110,69 +110,69 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 4320,
 
 // --- Intergrated Circuit
 recipes.addShaped(<Genetics:misc:9>, [
-[<ore:screwStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>],
+[<ore:screwTitanium>, <ore:craftingToolScrewdriver>, <ore:screwTitanium>],
 [<ore:circuitAdvanced>, <Forestry:chipsets:1>, <ore:circuitAdvanced>],
-[<ore:screwStainlessSteel>, <ore:craftingToolWrench>, <ore:screwStainlessSteel>]]);
+[<ore:screwTitanium>, <ore:craftingToolWrench>, <ore:screwTitanium>]]);
 
 // --- Isolator
 recipes.addShaped(<Genetics:machine>, [
 [<Genetics:misc:3>, <ore:chestIron>, <Genetics:misc:3>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
-[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
+[<ore:gearGtSmallTitanium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallTitanium>]]);
 
 // --- Sequencer
 recipes.addShaped(<Genetics:machine:1>, [
 [<Genetics:misc:2>, <ore:chestIron>, <Genetics:misc:2>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
-[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
+[<ore:gearGtSmallTitanium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallTitanium>]]);
 
 // --- Polymeriser
 recipes.addShaped(<Genetics:machine:2>, [
 [<Genetics:misc:7>, <ore:chestIron>, <Genetics:misc:7>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
-[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
+[<ore:gearGtSmallTitanium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallTitanium>]]);
 
 // --- Inoculator
 recipes.addShaped(<Genetics:machine:3>, [
 [<ore:plateEmerald>, <ore:chestIron>, <ore:plateEmerald>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
-[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
+[<ore:gearGtSmallTitanium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallTitanium>]]);
 
 // --- Analyzer
 recipes.addShaped(<Genetics:labMachine:1>, [
 [<Genetics:misc:1>, <ore:chestIron>, <Genetics:misc:1>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
-[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
+[<ore:gearGtSmallTitanium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallTitanium>]]);
 
 // --- Incubator
 recipes.addShaped(<Genetics:labMachine:2>, [
 [<BuildCraft|Factory:tankBlock>, <ore:craftingIronFurnace>, <BuildCraft|Factory:tankBlock>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
-[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
+[<ore:gearGtSmallTitanium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallTitanium>]]);
 
 // --- Genpool
 recipes.addShaped(<Genetics:labMachine:3>, [
 [<BuildCraft|Factory:tankBlock>, <ore:chestIron>, <BuildCraft|Factory:tankBlock>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
-[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
+[<ore:gearGtSmallTitanium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallTitanium>]]);
 
 // --- Acclimatyzer
 recipes.addShaped(<Genetics:labMachine:4>, [
 [<ore:bucketWater>, <ore:bucketLava>, <ore:bucketWater>],
 [<Genetics:misc:9>, <Genetics:misc>, <Genetics:misc:9>],
-[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallStainlessSteel>]]);
+[<ore:gearGtSmallTitanium>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallTitanium>]]);
 
 // --- Lab Stand
 recipes.addShaped(<Genetics:labMachine>, [
-[<ore:plateStainlessSteel>, <ore:paneGlass>, <ore:plateStainlessSteel>],
+[<ore:plateTitanium>, <ore:paneGlass>, <ore:plateTitanium>],
 [<ore:paneGlass>, <Genetics:misc>, <ore:paneGlass>],
-[<ore:plateStainlessSteel>, <ore:paneGlass>, <ore:plateStainlessSteel>]]);
+[<ore:plateTitanium>, <ore:paneGlass>, <ore:plateTitanium>]]);
 
 // --- Splicer
 recipes.addShaped(<Genetics:advMachine>, [
 [<ore:plateKanthal>, <ore:chestDiamond>, <ore:plateKanthal>],
 [<Genetics:misc:10>, <Genetics:misc:11>, <Genetics:misc:10>],
-[<ore:gearGtSmallDiamond>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallDiamond>]]);
+[<ore:gearGtSmallDiamond>, <gregtech:gt.metaitem.01:32603>, <ore:gearGtSmallDiamond>]]);
 
 
 
@@ -195,11 +195,7 @@ Assembler.addRecipe(<Genetics:misc:6>, <minecraft:glass_pane> * 4, <gregtech:gt.
 Assembler.addRecipe(<Genetics:misc:7>, <Genetics:misc:6> * 10, <gregtech:gt.integrated_circuit:10> * 0, <liquid:molten.gold> * 576, 200, 96);
 
 // --- Intergrated Circuit
-Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <IC2:itemPartCircuitAdv> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
-// -
-Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.metaitem.03:32082> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
-// -
-Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.metaitem.01:32703> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
+Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <ore:circuitAdvanced> * 2, <liquid:molten.titanium> * 64, 400, 64);
 
 // --- Integrated Casing
 Assembler.addRecipe(<Genetics:misc:11>, <Forestry:hardenedMachine>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 288, 1500, 256);
