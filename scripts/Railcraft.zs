@@ -1455,6 +1455,12 @@ AlloySmelter.addRecipe(<Railcraft:armor.steel.boots>, <gregtech:gt.metaitem.01:1
 // --- Assembler Recipes ---
 
 
+// --- Electric Shunting Wire ---
+Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.tin>  * 16, 200, 30);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.lead>  * 32, 200, 30);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.solderingalloy>  * 8, 200, 30);
 
 // --- Wooden Switch Track ---
 Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:23032> * 4, 200, 16);
