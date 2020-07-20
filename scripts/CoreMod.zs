@@ -2062,6 +2062,20 @@ mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_
 mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
 mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
 
+// --- Skullfire Sword
+mods.thaumcraft.Research.addResearch("SFSWORD", "NEWHORIZONS", "auram 8, corpus 8, exanimis 8, metallum 8, mortuus 8", 4, 4, 4, <Avaritia:Skull_Sword>);
+game.setLocalization("tc.research_name.SFSWORD", "Skullfire Sword");
+game.setLocalization("tc.research_text.SFSWORD", "[Avaritia] Easier wither skulls");
+mods.thaumcraft.Research.addPrereq("SFSWORD", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("SFSWORD", true);
+mods.thaumcraft.Research.setRound("SFSWORD", true);
+mods.thaumcraft.Research.addPage("SFSWORD", "Avaritia.research_page.SFSWORD.1");
+game.setLocalization("Avaritia.research_page.SFSWORD.1", "Killing Wither Skeletons for their skulls is A) Mindnumbingly Boring, and B) Incredibly Dangerous. With this item, you can char regular skeleton's skulls so they drop the black ones as well, and it's even guaranteed to drop! Extra points if you automate it.");
+mods.thaumcraft.Infusion.addRecipe("SFSWORD", <TwilightForest:item.fierySword>,
+[<minecraft:blaze_rod>, <minecraft:blaze_powder>, <Avaritia:Resource:0>, <dreamcraft:item.LichBone>, <Avaritia:Resource:0>, <TConstruct:materials:8>, <gregtech:gt.metaitem.01:11054>, <TConstruct:materials:8>, <Avaritia:Resource:0>, <dreamcraft:item.LichBone>, <Avaritia:Resource:0>, <minecraft:blaze_powder>],
+"auram 64, corpus 64, exanimis 64, metallum 64, mortuus 64", <Avaritia:Skull_Sword>, 15);
+mods.thaumcraft.Research.addInfusionPage("SFSWORD", <Avaritia:Skull_Sword>);
+mods.thaumcraft.Warp.addToResearch("SFSWORD", 1);
 
 
 // --- Hiding Stuff ----
