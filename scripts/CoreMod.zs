@@ -1080,6 +1080,8 @@ Assembler.addRecipe(<dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, [<drea
 Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:water> * 1000, 8000, 3600, 480);
 // -
 Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:ic2distilledwater> * 1000, 9000, 2400, 480);
+//-
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:molten.void> * 1000, 10000, 1200, 480);
 
 // --- Bio Fiber
 Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biomass> * 8, 3300, 200, 20);

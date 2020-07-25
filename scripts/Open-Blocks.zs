@@ -423,7 +423,7 @@ Assembler.addRecipe(<OpenBlocks:generic:11>, <minecraft:stick>, <gregtech:gt.met
 Assembler.addRecipe(<OpenBlocks:imaginary>.withTag({Uses: 10.0 as float}), <OpenBlocks:generic:11>, <gregtech:gt.metaitem.01:17533>, 100, 16);
 
 // --- Map Controller Module
-Assembler.addRecipe(<OpenBlocks:generic:6>, <OpenComputers:item:32>, <IC2:itemPartCircuit>, <liquid:molten.redstone> * 144, 300, 30);
+Assembler.addRecipe(<OpenBlocks:generic:6>, <gregtech:gt.metaitem.03:32106>, <IC2:itemPartCircuit>, <liquid:molten.redstone> * 144, 300, 30);
 
 // --- Map Memory Module
 Assembler.addRecipe(<OpenBlocks:generic:7>, <OpenBlocks:generic:6>, <IC2:itemPartCircuit>, <liquid:molten.redstone> * 144, 400, 30);

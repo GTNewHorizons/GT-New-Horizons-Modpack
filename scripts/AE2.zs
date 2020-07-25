@@ -1304,7 +1304,8 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56>, FluixCoveredC, 
 Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:water> * 200, 7000, 2000, 24);
 // -
 Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:ic2distilledwater> * 200, 9000, 1500, 24);
-
+// -
+Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:molten.void> * 200, 10000, 1000, 24);
 
 
 
