@@ -44,6 +44,7 @@ val SteelPole = <GalacticraftCore:item.steelPole>;
 
 val AdvAlloy = <ore:plateAlloyAdvanced>;
 val MeteorPlate = <GalacticraftCore:item.meteoricIronIngot:1>;
+val DualTitanium = <dreamcraft:item.TitaniumDualCompressedPlates>;
 val MeteorScrew = <ore:screwMeteoricSteel>;
 val SteelScrew = <ore:screwSteel>;
 val SSteelBolt = <ore:boltStainlessSteel>;
@@ -51,6 +52,7 @@ val TSteelBolt = <ore:boltTungstenSteel>;
 val DeshPlate = <GalacticraftMars:item.null:5>;
 val DeshRing = <ore:ringDesh>;
 val AlFoil = <ore:foilAluminium>;
+val TrippleTrinium = <ore:plateTripleTrinium>;
 
 val MVConveyor = <gregtech:gt.metaitem.01:32631>;
 val HVConveyor = <gregtech:gt.metaitem.01:32632>;
@@ -244,15 +246,6 @@ recipes.remove(<GalacticraftCore:item.oxygenMask>);
 
 // --- Oxygen Gear
 recipes.remove(<GalacticraftCore:item.oxygenGear>);
-
-// --- Light Oxygen Tak
-recipes.remove(<GalacticraftCore:item.oxygenTankLightFull:900>);
-
-// --- Medium Oxygen Tank
-recipes.remove(<GalacticraftCore:item.oxygenTankMedFull:1800>);
-
-// --- Heavy Oxygen Tank
-recipes.remove(<GalacticraftCore:item.oxygenTankHeavyFull:2700>);
 
 // --- Sensor Lens
 recipes.remove(SensorLens);
@@ -577,9 +570,9 @@ recipes.addShaped(<GalacticraftCore:tile.oxygenCompressor:4>, [
 
 // --- Oxygen Storage Module
 recipes.addShaped(<GalacticraftCore:tile.machine2:8>, [
-[CompressedSteel, <GalacticraftCore:item.oxygenTankHeavyFull:2700>, CompressedSteel],
-[<GalacticraftCore:item.oxygenTankHeavyFull:2700>, <gregtech:gt.blockcasings2>, <GalacticraftCore:item.oxygenTankHeavyFull:2700>],
-[CompressedSteel, <GalacticraftCore:item.oxygenTankHeavyFull:2700>, CompressedSteel]]);
+[CompressedSteel, <GalacticraftCore:item.oxygenTankUltraHeavyFull:3000>, CompressedSteel],
+[<GalacticraftCore:item.oxygenTankUltraHeavyFull:3000>, <gregtech:gt.blockcasings2>, <GalacticraftCore:item.oxygenTankUltraHeavyFull:3000>],
+[CompressedSteel, <GalacticraftCore:item.oxygenTankUltraHeavyFull:3000>, CompressedSteel]]);
 
 // --- Oxygen Bubble Distributor
 recipes.addShaped(<GalacticraftCore:tile.distributor>, [
@@ -752,37 +745,39 @@ recipes.addShaped(<GalacticraftCore:item.oxygenGear>, [
 [OxygenPipe, <gregtech:gt.metaitem.01:32602>, OxygenPipe]]);
 
 // --- Light Oxygen Tak
-recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
+recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:1000>, [
 [CompressedAl, OxygenPipe,CompressedAl],
 [CompressedAl, <ore:cellEmpty>, CompressedAl],
 [CompressedAl, CompressedAl, CompressedAl]]);
 // -
-recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
+recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:1000>, [
 [CompressedAl, OxygenPipe,CompressedAl],
 [CompressedAl, <IC2:itemFluidCell>, CompressedAl],
 [CompressedAl, CompressedAl, CompressedAl]]);
-// -
-recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
-[CompressedAl, OxygenPipe,CompressedAl],
-[CompressedAl, <GalacticraftCore:item.canister>, CompressedAl],
-[CompressedAl, CompressedAl, CompressedAl]]);
-// -
-recipes.addShaped(<GalacticraftCore:item.oxygenTankLightFull:900>, [
-[CompressedAl, OxygenPipe,CompressedAl],
-[CompressedAl, <GalacticraftCore:item.canister:1>, CompressedAl],
-[CompressedAl, CompressedAl, CompressedAl]]);
 
 // --- Medium Oxygen Tank
-recipes.addShaped(<GalacticraftCore:item.oxygenTankMedFull:1800>, [
+recipes.addShaped(<GalacticraftCore:item.oxygenTankMedFull:2000>, [
 [MeteorPlate, OxygenPipe,MeteorPlate],
 [MeteorPlate, <gregtech:gt.metaitem.01:32405>, MeteorPlate],
 [MeteorPlate, MeteorPlate, MeteorPlate]]);
 
 // --- Heavy Oxygen Tank
-recipes.addShaped(<GalacticraftCore:item.oxygenTankHeavyFull:2700>, [
+recipes.addShaped(<GalacticraftCore:item.oxygenTankHeavyFull:3000>, [
 [DeshPlate, OxygenPipe,DeshPlate],
 [DeshPlate, <gregtech:gt.metaitem.01:32406>, DeshPlate],
 [DeshPlate, DeshPlate, DeshPlate]]);
+
+// --- Super Heavy Oxygen Tank
+recipes.addShaped(<GalacticraftCore:item.oxygenTankSuperHeavyFull:4000>, [
+[DualTitanium, OxygenPipe,DualTitanium],
+[DualTitanium, <gregtech:gt.metaitem.01:32412>, DualTitanium],
+[DualTitanium, DualTitanium, DualTitanium]]);
+
+// --- Ultra Heavy Oxygen Tank
+recipes.addShaped(<GalacticraftCore:item.oxygenTankUltraHeavyFull:5000>, [
+[TrippleTrinium, OxygenPipe,TrippleTrinium],
+[TrippleTrinium, <gregtech:gt.metaitem.01:32413>, TrippleTrinium],
+[TrippleTrinium, TrippleTrinium, TrippleTrinium]]);
 
 // --- Sensor Lens
 recipes.addShaped(SensorLens, [
@@ -1312,11 +1307,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.itemAstroMiner>, 
 mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.infiniteOxygen>, [
 [null, null, <ore:ingotInfinity>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:ingotInfinity>, null, null],
 [null, <ore:ingotInfinity>, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, <ore:ingotInfinity>, null],
-[null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <GalacticraftCore:item.oxygenTankHeavyFull>, <gregtech:gt.metaitem.01:32616>, <GalacticraftCore:item.oxygenTankHeavyFull>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <GalacticraftCore:item.oxygenTankUltraHeavyFull>, <gregtech:gt.metaitem.01:32616>, <GalacticraftCore:item.oxygenTankUltraHeavyFull>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
 [null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <gregtech:gt.metaitem.03:32105>, <ore:pipeSmallInfinity>, <gregtech:gt.metaitem.03:32105>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
-[null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <GalacticraftCore:item.oxygenTankHeavyFull>, <gregtech:gt.blockmachines:122>, <GalacticraftCore:item.oxygenTankHeavyFull>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <GalacticraftCore:item.oxygenTankUltraHeavyFull>, <gregtech:gt.blockmachines:122>, <GalacticraftCore:item.oxygenTankUltraHeavyFull>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
 [null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <gregtech:gt.metaitem.03:32105>, <ore:pipeSmallInfinity>, <gregtech:gt.metaitem.03:32105>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
-[null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <GalacticraftCore:item.oxygenTankHeavyFull>, <gregtech:gt.metaitem.01:32616>, <GalacticraftCore:item.oxygenTankHeavyFull>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
+[null, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <GalacticraftCore:item.oxygenTankUltraHeavyFull>, <gregtech:gt.metaitem.01:32616>, <GalacticraftCore:item.oxygenTankUltraHeavyFull>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, null],
 [null, <ore:ingotInfinity>, <ore:plateNeutronium>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyPlateTier8>, <dreamcraft:item.HeavyDutyPlateTier8>, <ore:plateNeutronium>, <ore:ingotInfinity>, null],
 [null, null, <ore:ingotInfinity>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:ingotInfinity>, null, null]]);
 
