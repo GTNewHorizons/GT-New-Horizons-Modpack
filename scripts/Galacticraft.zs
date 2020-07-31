@@ -770,13 +770,13 @@ recipes.addShaped(<GalacticraftCore:item.oxygenTankHeavyFull:3000>, [
 // --- Super Heavy Oxygen Tank
 recipes.addShaped(<GalacticraftCore:item.oxygenTankSuperHeavyFull:4000>, [
 [DualTitanium, OxygenPipe,DualTitanium],
-[DualTitanium, <gregtech:gt.metaitem.01:32412>, DualTitanium],
+[DualTitanium, <gregtech:gt.metaitem.01:32411>, DualTitanium],
 [DualTitanium, DualTitanium, DualTitanium]]);
 
 // --- Ultra Heavy Oxygen Tank
 recipes.addShaped(<GalacticraftCore:item.oxygenTankUltraHeavyFull:5000>, [
 [TrippleTrinium, OxygenPipe,TrippleTrinium],
-[TrippleTrinium, <gregtech:gt.metaitem.01:32413>, TrippleTrinium],
+[TrippleTrinium, <gregtech:gt.metaitem.01:32412>, TrippleTrinium],
 [TrippleTrinium, TrippleTrinium, TrippleTrinium]]);
 
 // --- Sensor Lens
