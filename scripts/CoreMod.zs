@@ -1077,18 +1077,20 @@ Assembler.addRecipe(<dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, [<drea
 
 
 // --- Mysterious Crystal Shards
-Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:water> * 1000, 9000, 3600, 480);
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:water> * 1000, 8000, 3600, 480);
 // -
-Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:ic2distilledwater> * 1000, 10000, 2400, 480);
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:ic2distilledwater> * 800, 9000, 2400, 480);
+//-
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:molten.void> * 288, 10000, 1200, 480);
 
 // --- Bio Fiber
 Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biomass> * 8, 3300, 200, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:methanol> * 8, 5000, 200, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:methanol> * 8, 5000, 150, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:fuel> * 8, 9000, 200, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:fuel> * 8, 9000, 100, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:nitrofuel> * 8, 10000, 200, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:nitrofuel> * 8, 10000, 50, 20);
 
 
 
@@ -1685,7 +1687,7 @@ mods.thaumcraft.Research.addInfusionPage("PORTALMILLENIUM", <ExtraUtilities:dark
 mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 2);
 
 // --- Portal to the Deep Dark
-mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "alienis 15, spiritus 15, metallum 12, fabrico 9 lucrum 6, potentia 3", 2, 8, 4, <ExtraUtilities:dark_portal>);
+mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "vacuos 27, tempus 24, luxuria 21, alienis 18 terminus 15, gula 12, superbia 9", 2, 8, 4, <ExtraUtilities:dark_portal>);
 game.setLocalization("tc.research_name.PORTALDEEPDARK", "Portal to The Deep Dark");
 game.setLocalization("tc.research_text.PORTALDEEPDARK", "[EU] Deep, Deeper, Deep Dark");
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
@@ -1693,9 +1695,9 @@ mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "ICHOR", false);
 mods.thaumcraft.Research.setConcealed("PORTALDEEPDARK", true);
 mods.thaumcraft.Research.addPage("PORTALDEEPDARK", "ExtraUtilities.research_page.PORTALDEEPDARK");
 game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.");
-mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:dark_portal:2>, [<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:17397>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:17397>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>], "alienis 300, spiritus 150, metallum 200, fabrico 150 lucrum 100, potentia 200",  <ExtraUtilities:dark_portal>, 12);
+mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:cobblestone_compressed:7>, [<gregtech:gt.blockreinforced:12>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 64);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
-mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 8);
+mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 64);
 
 // --- Magical Wood
 mods.thaumcraft.Research.addResearch("MAGICALWOOD", "NEWHORIZONS", "praecantatio 15, lucrum 12, arbor 9, cognitio 6, pannus 3", -2 as int, 6, 4, MagicalWood);
@@ -2062,6 +2064,20 @@ mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_
 mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
 mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
 
+// --- Skullfire Sword
+mods.thaumcraft.Research.addResearch("SFSWORD", "NEWHORIZONS", "auram 8, corpus 8, exanimis 8, metallum 8, mortuus 8", 4, 4, 4, <Avaritia:Skull_Sword>);
+game.setLocalization("tc.research_name.SFSWORD", "Skullfire Sword");
+game.setLocalization("tc.research_text.SFSWORD", "[Avaritia] Easier wither skulls");
+mods.thaumcraft.Research.addPrereq("SFSWORD", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("SFSWORD", true);
+mods.thaumcraft.Research.setRound("SFSWORD", true);
+mods.thaumcraft.Research.addPage("SFSWORD", "Avaritia.research_page.SFSWORD.1");
+game.setLocalization("Avaritia.research_page.SFSWORD.1", "Killing Wither Skeletons for their skulls is A) Mindnumbingly Boring, and B) Incredibly Dangerous. With this item, you can char regular skeleton's skulls so they drop the black ones as well, and it's even guaranteed to drop! Extra points if you automate it.");
+mods.thaumcraft.Infusion.addRecipe("SFSWORD", <TwilightForest:item.fierySword>,
+[<minecraft:blaze_rod>, <minecraft:blaze_powder>, <Avaritia:Resource:0>, <dreamcraft:item.LichBone>, <Avaritia:Resource:0>, <TConstruct:materials:8>, <gregtech:gt.metaitem.01:11054>, <TConstruct:materials:8>, <Avaritia:Resource:0>, <dreamcraft:item.LichBone>, <Avaritia:Resource:0>, <minecraft:blaze_powder>],
+"auram 64, corpus 64, exanimis 64, metallum 64, mortuus 64", <Avaritia:Skull_Sword>, 15);
+mods.thaumcraft.Research.addInfusionPage("SFSWORD", <Avaritia:Skull_Sword>);
+mods.thaumcraft.Warp.addToResearch("SFSWORD", 1);
 
 
 // --- Hiding Stuff ----
