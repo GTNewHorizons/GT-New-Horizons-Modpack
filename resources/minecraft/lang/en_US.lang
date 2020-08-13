@@ -278,7 +278,7 @@ gtnh.quest68.desc=Steam machines are quite stupid, they just do one thing over a
 
 # Quest.69 - §3§lWire-Wrap
 gtnh.quest69.name=§3§lWire-Wrap
-gtnh.quest69.desc=Placing wires without insulation seems to be a bad idea. Now that you have an extractor to extract raw rubber out of sticky resin and an alloy smelter to further process it using sulphur, you should work on getting some insulating rubber sheets.
+gtnh.quest69.desc=Placing wires without insulation seems to be a bad idea. Now that you have an extractor to extract raw rubber out of sticky resin and an alloy smelter to further process it using sulfur, you should work on getting some insulating rubber sheets.
 
 # Quest.70 - §3§lSteam-a-licious!
 gtnh.quest70.name=§3§lSteam-a-licious!
@@ -1414,7 +1414,7 @@ gtnh.quest352.desc=If only I could harness it... Well, hi there my friend. I nee
 
 # Quest.353 - A problem that matters
 gtnh.quest353.name=A problem that matters
-gtnh.quest353.desc=I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a massive star. But I can't really "kill" a sun for this. I need to compress matter somehow... %nBut... How?
+gtnh.quest353.desc=I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a massive star, a black hole. But I can't really "kill" a sun for this. I need to compress matter somehow... But... How? I think I may need a specialized machine for this, one that does not use explosions, as that won't get dense enough.
 
 # Quest.354 - Now that matters!
 gtnh.quest354.name=Now that matters!
@@ -1470,7 +1470,7 @@ gtnh.quest366.desc=This place is interesting. Maybe I should try to find new mat
 
 # Quest.367 - Successful.. Or not?
 gtnh.quest367.name=Successful.. Or not?
-gtnh.quest367.desc=Heh, neutronium. I didn't even know such a thing really exists. Unfortunately, the draconium dust was enclosed for... 5 seconds? But, it was a small success. %n%nOk let's travel to some planets and moons and look for the new material. I think we have to fly very far away for it.%n%nSomeplace dark, on the edge of space.
+gtnh.quest367.desc=Heh, neutronium. I didn't even know such a thing really exists. Unfortunately, the draconium dust was enclosed for... 5 seconds? But, it was a small success. %n%nOk let's travel to some planets and moons and look for the new material. I think we have to fly very far away for it.%n%nSomeplace dark, on a planet near the Kuiper Belt.
 
 # Quest.368 - Black Plutonium
 gtnh.quest368.name=Black Plutonium
@@ -1526,7 +1526,7 @@ gtnh.quest380.desc=The outcome was... interesting. It did not explode, instead, 
 
 # Quest.381 - Forcefield, second try
 gtnh.quest381.name=Forcefield, second try
-gtnh.quest381.desc=I came to the following conclusion: Draconium dust seems to react nicely with all kinds of magic energy, and seems to repel technology. So I need to find a way to create a forcefield with magic alone. There must be a way...
+gtnh.quest381.desc=I came to the following conclusion: Draconium dust seems to react nicely with all kinds of magic energy, and seems to repel technology. So I need to find a way to create a forcefield with magic alone. There must be a way. This should be pretty similar to controlling dangerous nodes...
 
 # Quest.382 - A magic force field
 gtnh.quest382.name=A magic force field
@@ -1872,9 +1872,9 @@ gtnh.quest466.desc=Triggers if you find Black Plutonium.
 gtnh.quest467.name=Trigger Empty Void Capsule
 gtnh.quest467.desc=Triggers if you have a Void Capsule.
 
-# Quest.468 - Trigger Thauminite Nugget
-gtnh.quest468.name=Trigger Thauminite Nugget
-gtnh.quest468.desc=Triggers if you get Thauminite Nuggets.
+# Quest.468 - Trigger Ichorium Ingot
+gtnh.quest468.name=Trigger Ichorium Ingot
+gtnh.quest468.desc=Triggers if you get Ichorium Ingot.
 
 # Quest.469 - §1§lCollecting some berries
 gtnh.quest469.name=§1§lCollecting some berries
@@ -2602,7 +2602,7 @@ gtnh.quest649.desc=Your coal jetpack needs coal and water to produce steam. Afte
 
 # Quest.650 - Copter jetpack
 gtnh.quest650.name=Copter jetpack
-gtnh.quest650.desc=The copter jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. %nBuckets of creosote, lava, oil, cetane, diesel,ethanol, and fuel will work.%nEquip your jetpack and hit Shift and the adventure backpacks action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y level 200. %n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.
+gtnh.quest650.desc=The copter jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. %nBuckets of creosote, lava, oil, cetane, diesel,ethanol, and fuel will work.%nEquip your jetpack and hit Shift and the adventure backpacks action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y level 200. %n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.%n%n§3Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.
 
 # Quest.651 - Electric jetpack
 gtnh.quest651.name=Electric jetpack
@@ -3134,7 +3134,7 @@ gtnh.quest782.desc=To make wafers, you need to make monocrystalline silicon firs
 
 # Quest.783 - §6§lWe need big toys
 gtnh.quest783.name=§6§lWe need big toys
-gtnh.quest783.desc=All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. It will also distill water for you, so you can use the same water again inside your large boiler.  Don't forget to make a rotor for the turbine. %n%nMake sure you provide the optimal flow of steam using a fluid regulator. Don't exceed your dynamo hatch's EU rating, or it will explode! For HV you will probably want an IC2 fluid regulator. Above HV you can use the fluid regulator covers.%n%nTurbines with a small turbine durability below 75k have their recipes removed. Use NEI with the appropriate long rod to find assembler recipes that will work for you. Long magnalium for small turbines, long titanium for normal turbines, etc.%n%nPre-moon, the best rotors are small ardite or vibrant alloy. Remember to disassemble rotor blades before they break to recover the materials.%n%nPost-moon, the best HV rotors are normal damascus or blue steel. Risk-takers can try ultimet but you must not provide optimal flow since it will give 517 EU/t, blowing up a single amp dynamo. Luckily turbines are now fully functional with multi-amp dynamos, so give those a try if you need extra amps!%n%nFor additional choices, see the Large Turbine Calculator in Discord.
+gtnh.quest783.desc=All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. It will also distill water for you, so you can use the same water again inside your large boiler.  Don't forget to make a rotor for the turbine. %n%nMake sure you provide the optimal flow of steam using a fluid regulator. Don't exceed your dynamo hatch's EU rating, or it will explode! For HV you will probably want an IC2 fluid regulator. Above HV you can use the fluid regulator covers.%n%nTurbines with a small turbine durability below 75k have their recipes removed. Use NEI with the appropriate long rod to find assembler recipes that will work for you. Long magnalium for small turbines, long titanium for normal turbines, etc.%n%nPre-moon, the best rotors are small ardite or vibrant alloy.%n%nPost-moon, the best HV rotors are normal damascus or blue steel. Risk-takers can try ultimet but you must not provide optimal flow since it will give 517 EU/t, blowing up a single amp dynamo. Luckily turbines are now fully functional with multi-amp dynamos, so give those a try if you need extra amps!%n%nFor additional choices, see the Large Turbine Calculator in Discord.
 
 # Quest.784 - §6§lIt's time to get more steam
 gtnh.quest784.name=§6§lIt's time to get more steam
@@ -3238,7 +3238,7 @@ gtnh.quest808.desc=High Tier dusts need HV Mixer.
 
 # Quest.809 - NASA Workbench aka Dire Crafting Table
 gtnh.quest809.name=NASA Workbench aka Dire Crafting Table
-gtnh.quest809.desc=The Avaritia 9x9 dire crafting table replaces the NASA workbench. It is required to craft all rockets and high tier equipment. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need nether stars. Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.
+gtnh.quest809.desc=The Avaritia 9x9 dire crafting table replaces the NASA workbench. It is required to craft all rockets and high tier equipment. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need that many nether stars.%n%n§3Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.§r%n%n§3Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.
 
 # Quest.810 - Rocket Tier 1
 gtnh.quest810.name=Rocket Tier 1
@@ -3286,7 +3286,7 @@ gtnh.quest820.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and p
 
 # Quest.821 - Gas 'Er Up
 gtnh.quest821.name=Gas 'Er Up
-gtnh.quest821.desc=To pump fuel into your rocket you need a fuel loader. Place it next to any side of the launch pad.%n%nYou can also power it with batteries, if you're worried about it draining your power, or don't want to set up the infrastructure.
+gtnh.quest821.desc=To pump fuel into your rocket you need a fuel loader. Place it next to any side of the launch pad.%n%nYou can also power it with batteries, if you're worried about it draining your power, or don't want to set up the infrastructure.%n%n§3Rockets keep their fuel in them on landing now, so you don't need to take this with you anymore unless you want to go to multiple places in one trip. Or you didn't fill it all the way or something.
 
 # Quest.822 - Oxygen Gear
 gtnh.quest822.name=Oxygen Gear
@@ -3298,7 +3298,7 @@ gtnh.quest823.desc=The oxygen mask is part of the system used to breathe on plan
 
 # Quest.824 - Oxygen Tanks
 gtnh.quest824.name=Oxygen Tanks
-gtnh.quest824.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 900 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
+gtnh.quest824.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 1000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
 
 # Quest.825 - §2§lCopper Ore
 gtnh.quest825.name=§2§lCopper Ore
@@ -5186,7 +5186,7 @@ gtnh.quest1295.desc=The crystal growth chamber is used for fast crystal growth, 
 
 # Quest.1296 - Purifying the Impure
 gtnh.quest1296.name=Purifying the Impure
-gtnh.quest1296.desc=Purified versions of nether, certus and fluix crystals
+gtnh.quest1296.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n§3Distilled water reduced the recipe time in the Autoclave by half.%n
 
 # Quest.1297 - Dragon essense
 gtnh.quest1297.name=Dragon essense
@@ -5726,7 +5726,7 @@ gtnh.quest1430.desc=Why not recycle your old Tier 1 rocket to get componets for 
 
 # Quest.1431 - Booster
 gtnh.quest1431.name=Booster
-gtnh.quest1431.desc=The distance between Mars and Earth is much larger than to the Moon and so the rocket needsboosters to reach it.
+gtnh.quest1431.desc=The distance between Mars and Earth is much larger than to the Moon, so the rocket needs boosters to reach it.
 
 # Quest.1432 - Mars Lander
 gtnh.quest1432.name=Mars Lander
@@ -5750,7 +5750,7 @@ gtnh.quest1436.desc=The moon buggy needs gasoline to work. Build a 3x3 fueling p
 
 # Quest.1437 - Bigger Oxygen Tanks
 gtnh.quest1437.name=Bigger Oxygen Tanks
-gtnh.quest1437.desc=The Medium oxygen tank is an oxygen storage tank that can hold up to 1800 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
+gtnh.quest1437.desc=The Medium oxygen tank is an oxygen storage tank that can hold up to 2000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
 
 # Quest.1438 - Me glass cable
 gtnh.quest1438.name=Me glass cable
@@ -5850,7 +5850,7 @@ gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to ge
 
 # Quest.1462 - Thermal Cloth
 gtnh.quest1462.name=Thermal Cloth
-gtnh.quest1462.desc=Thermal Padding is a suite of garments made out of an advanced insulating material. The garments are able to keep a player from freezing to death in the cold environments of Outer Space. They are also able to keep the player from suffering heat exhaustion in an overly hot environment.%n%nThe temperature indicator on the Life Support HUD will show if the player is becoming too hot or too cold - as the temperature approaches dangerous levels, an "Invalid Thermal Protection" warning will be shown. On Mars and the Asteroids, simply wearing a full set of Thermal Padding should be enough to fix this.
+gtnh.quest1462.desc=Thermal Padding is a suite of garments made out of an advanced insulating material. The garments are able to keep a player from freezing to death in the cold environments of Outer Space. They are also able to keep the player from suffering heat exhaustion in an overly hot environment.%n%nThe temperature indicator on the Life Support HUD will show if the player is becoming too hot or too cold - as the temperature approaches dangerous levels, an "Invalid Thermal Protection" warning will be shown. On Mars and the Asteroids, simply wearing a full set of Thermal Padding should be enough to fix this.%n%n§3You'll also need some Silicon Rubber.
 
 # Quest.1463 - Sleeping in Space
 gtnh.quest1463.name=Sleeping in Space
@@ -5874,7 +5874,7 @@ gtnh.quest1467.desc=The Oxygen Sealer is a machine that fills a room with oxygen
 
 # Quest.1468 - Large Oxygen Tanks
 gtnh.quest1468.name=Large Oxygen Tanks
-gtnh.quest1468.desc=The Large oxygen tank is an oxygen storage tank that can hold up to 2700 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+gtnh.quest1468.desc=The Large oxygen tank is an oxygen storage tank that can hold up to 3000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
 
 # Quest.1469 - Bacterial Sludge
 gtnh.quest1469.name=Bacterial Sludge
@@ -5894,7 +5894,7 @@ gtnh.quest1472.desc=The Grapple is a grappling hook and rope which can be thrown
 
 # Quest.1473 - Nice and comfortable - in space!
 gtnh.quest1473.name=Nice and comfortable - in space!
-gtnh.quest1473.desc=These thermal clothes will keep you nice and warm even in the coldest depths of outer space.
+gtnh.quest1473.desc=These thermal clothes will keep you nice and warm even in the coldest depths of outer space.%n%n§3You'll also need some PBI.
 
 # Quest.1474 - §a§lWant to join a band?
 gtnh.quest1474.name=§a§lWant to join a band?
@@ -6718,7 +6718,7 @@ gtnh.quest1678.desc=Quantumprocessors are your first chance to make EV circuits 
 
 # Quest.1679 - §b§lQbit Wafer and Chip
 gtnh.quest1679.name=§b§lQbit Wafer and Chip
-gtnh.quest1679.desc=The Qbit Wafer is made out ofa Nano CPU Wafer and quantum eyes. Cut it for Qbit processor chips.%nA cleanroom is needed.
+gtnh.quest1679.desc=The Qbit Wafer is made out of a Nano CPU Wafer and Quantum Eyes. Cut it for Qbit processor chips.%nA cleanroom is needed.
 
 # Quest.1680 - §c§lThought emitters were bad enough?
 gtnh.quest1680.name=§c§lThought emitters were bad enough?
@@ -6754,7 +6754,7 @@ gtnh.quest1687.desc=To make these chips you need Europium, as well as an HV Auto
 
 # Quest.1688 - §c§lElite Circuit Board
 gtnh.quest1688.name=§c§lElite Circuit Board
-gtnh.quest1688.desc=Elite circuit boards require a fiber reinforced board, platinum foil and sulfuric acid to make an multilayer reinforced  board. By adding again platinum foil and Iron(III) Chloride or Sodium Persulfate you can craft an elite circuit board.
+gtnh.quest1688.desc=Elite circuit boards require a Fiber-Reinforced Board, Platinum Foil and Sulfuric Acid to make a Multilayer Reinforced Board. By again adding Platinum Foil and Iron(III) Chloride or Sodium Persulfate you can craft an Elite Circuit Board.
 
 # Quest.1689 - §9§a§c§lLuV Laser Engraver
 gtnh.quest1689.name=§9§a§c§lLuV Laser Engraver
@@ -6822,7 +6822,7 @@ gtnh.quest1704.desc=Chromium Trioxide is made out of chrome and oxygen in two st
 
 # Quest.1705 - §b§lQuantum Processor Assembly
 gtnh.quest1705.name=§b§lQuantum Processor Assembly
-gtnh.quest1705.desc=Quantumprocessor Assembly is a IV Circuit. A cleanroom is needed.
+gtnh.quest1705.desc=Quantumprocessor Assembly is an IV Circuit. A cleanroom is needed.
 
 # Quest.1706 - §b§lMaster Quantum Computer
 gtnh.quest1706.name=§b§lMaster Quantum Computer
@@ -8020,8 +8020,8 @@ gtnh.quest2003.desc=Transforming Cable Camouflage allows you to change the colli
 gtnh.quest2004.name=Advanced Inventory Relay
 gtnh.quest2004.desc=An Advanced Inventory Relay can add/remove items from a player's inventory.
 
-# Quest.2005 - Learning curve? Where we're going there are no curves
-gtnh.quest2005.name=Learning curve? Where we're going there are no curves
+# Quest.2005 - Learning Curve? Where We're Going There Are No Curves
+gtnh.quest2005.name=Learning Curve? Where We're Going There Are No Curves
 gtnh.quest2005.desc=Only dangerous cliffs to fly off. TecTech can be the source of adventures, scary and satisfying. %n%nThanks to Piky/Scripted for giving you some guardrails to stay on the road. Scripted/Piky shed blood over these quests for you. Now it's your turn!%n%nFor additional details on TecTech, check out the wiki at https://github.com/Technus/TecTech/wiki%n%nYou'll probably recieve better help in Discord, though.
 
 # Quest.2006 - The Beginning of the End Game
@@ -8030,11 +8030,11 @@ gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machi
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=Quantum Computer
-gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, an energy hatch that can input several amps of UV or above, this is because for each  Computer Rack, you'll need an additional amp of UV.%n%nThe Multiblock also consumes a large amount of energy by itself. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipes for the Research Station ready to avoid excess energy loss. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint, this will give you a hefty amount of information and various ghost-like blocks that'll show where casings and or hatches should go.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. %n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however the Computer Racks may melt or explode above 5600 or 6000 heat. In order to precisely find out how much heat, you'll need a Parametrizer, which will be explained later. Now that you've understood one of the more basic concepts and safety of handling within the Computer Racks (scan the Racks before you run the Quantum Computer!), what are the more optimal setups for your Quantum Computer? Do keep in mind that even a 128 min Computation / Sec setup can complete practically 3/4th's of the recipes within the Research Station. In this case, a 4 Computer Rack setup with 1 Advanced Heat Vent and 3 Wetwareprocessors (LuV) will generate 72 Computation every second; leading up to a maximum of 288 Computation every second at just 5 amps of UV (524,288 EU/t) with only 4 Computer Racks required. This is a rather minimal setup compared to some of the more complicated setups.%n%nAnd most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Scan them before anything else! Otherwise, you're going to get an explosion.%n%nUncertainty Resolver%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer.%n%nNow that you understand some of this, it is time to build the Computer! You'll need to gather quite a lot of resources.
+gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, The Uncertainty Resolver, some good circuits and the Computer Racks to hold them, and at least a UV energy hatch (UV 4A suggested). The QC will consume 1A of UV, and each CR will use one more. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipe for the Research Station ready to avoid excess energy loss. Remember to turn the QC on BEFORE the RS. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint to see where to place everything. The blocks with no dots next to the vents indicate that that space must be empty.%n%nUncertainty Resolver:%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer. If the puzzle looks too hard or you can't complete it, just remove it and the controller and re-place them to get a different puzzle.%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however the Computer Racks may melt or explode above 5600 or 6000 heat. You can see this for individual Racks by scanning them. You cannot remove or input components until the heat is gone. You can see the overall heat value in the controller's interface. And most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Otherwise, you're going to get an explosion.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. You can also see the total computation in the controller.%n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nUsing the Parametrizer you can overclock and overvolt, but you never need to, so you may or may not wish to try it.%n%nSending Computation to the Research Station:%nUse the Optical Master Connector in one of the variable spaces on the QC, and the Optical Slave Connector on the RS. Use Optical Fiber Cable to connect them, and make sure to paint all three.%n%nSuggested Build:%nNow that you've understood the concepts and safety of handling of the QC, what are the more optimal setups for your Quantum Computer? For now, I'll suggest 2 racks with 3 Ultimate Crystalcomputers each, and of course 1 Advanced Heat Vent. Do keep in mind that this 156 C/s setup can complete practically 3/4s of the recipes in the Research Station. This is a rather minimal setup compared to some of the more complicated setups.%n%nNow that you understand the QC, it's time to build it! You'll need to gather quite a lot of resources.
 
 # Quest.2008 - Research Station
 gtnh.quest2008.name=Research Station
-gtnh.quest2008.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Machine Blueprint will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Slave Connector, and a Maintenance Hatch all on the back side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!
+gtnh.quest2008.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Machine Blueprint will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Slave Connector, and a Maintenance Hatch all on the back side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!%n%n§3Note that some researches require a significant amount of amps, so keep that in mind.§r
 
 # Quest.2009 - Sign Updater
 gtnh.quest2009.name=Sign Updater
@@ -8566,7 +8566,7 @@ gtnh.quest2140.desc=Only the craziest fool would use diamonds to make a tool! Or
 
 # Quest.2141 - §6§lWelcome to the Church of Benzene
 gtnh.quest2141.name=§6§lWelcome to the Church of Benzene
-gtnh.quest2141.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV.  Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.  %n%nOne path is to use Coke ovens or Advanced Coke Ovens to make charcoal, and fluid-extract Wood Tar from it (use LV fluid extractors for maximum EU efficiency). Then distill the Wood Tar to make Benzene. This method produces no pollution.%n%nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid Extract the Charcoal for addtional Wood Tar.  Then proceed as above. This method will create pollution from the Pyrolyze, but will provide more Benzene per log.%n%nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you will need later on.
+gtnh.quest2141.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV.  Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.  %n%nOne path is to use Coke ovens or Advanced Coke Ovens to make charcoal, and fluid-extract Wood Tar from it (use LV fluid extractors for maximum EU efficiency). Then distill the Wood Tar to make Benzene. This method produces no pollution.%n%nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid Extract the Charcoal for addtional Wood Tar.  Then proceed as above. This method will create pollution from the Pyrolyze, but will provide more Benzene per log.%n%nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you will need later on.%n%nIf you use the Charcoal Byproducts recipe, you can get a plethora of useful byproducts as well, but you'll need 4 DTs.
 
 # Quest.2142 - §5§lAutomated Crafting
 gtnh.quest2142.name=§5§lAutomated Crafting
@@ -8838,7 +8838,7 @@ gtnh.quest2208.desc=Beware. These bees not only hate everything, they even hate 
 
 # Quest.2209 - Moron's Guide to Breeding Better Bees
 gtnh.quest2209.name=Moron's Guide to Breeding Better Bees
-gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees you see here once you unlock the breeding trees. There's even more that aren't included and you'll need NEI to find!%n%nHa ha, just kidding - don't panic! Once you unlock the bee breeding lines, look around and pick and choose which bees really interest you. The way the breeding is done is mostly left to right, and top down. Some of the lines at the bottom might look simple, but they will require bees further up to complete first. Many of the basic bees have multiple breeding options, only one is shown here.%n%nBees have two sets of traits, one active that has effects on how the bee lives, and one Inactive but can be used for breeding. When getting newly bred princesses and drones, check both sets in case you got the target bee. You can breed the bees with inactive traits to try and make them active in later crosses. You can't see the passive traits using a Field Kit, you'll need a Beealyzer. For lots of bees, you can scan them first using a GT scanner, but you'll still need a Beealyzer to see passive traits.%n%nWhen breeding bees, a good idea is to settle upon a master template bee.  A bee that has little or no crossbreeding potential, but has all the traits you prefer - short life, nocturnal, cavedwelling, rain tolerant, humidity, temperature, high fertility, etc.  Once you have that bee, breed a bunch of pure princesses with those traits as both active and inactive. These will be your breeding stock.%n%nWhen you are trying for a new bee, what you are wanting is a drone - this way you can use your "breeding stock" princess for easy breeding, but the drone to get the new species without the annoying effects or limitations. Poor crossed princesses can be returned to normal by crossing with breeding stock drones, or just thrown out if they now have annoying restrictions. Make sure you keep the trait and species you want, and slowly merge the good traits from your breeding stock. You don't have to do this part in an Apiary, you can use a Bee House to swap around traits. Ignoble bees are good for this, since they're mostly disposable - they have a chance to die after 100 breeding cycles - frames can let them live longer. Once you solidify your species, create a pool of drones. You can use those to convert pristine princesses to the new species. Pristine princesses will not die. Rocky bees are a great source - all their princesses are always pristine.%n%nOnce you get a new species, it will replace all of one of the two sets of traits of the bee.  For example when you get a Cultivated, either the Active or Inactive column will have all the default Cultivated traits. Mix it a few times and you'll eventually get purebred versions. Just watch out that you don't lose a key trait, like Fast Worker for Cultivated! All the quests will require purebred species. %n%nGenerally all traits can be bred into any bee species, including effects or flower preference. Species generally require their preferred biome to produce their special drops.%n%nAdvanced frames can provide useful boosts to mutation chances, or to lifespan reduction for faster breeding cycles. However excessive multipliers will increase genetic decay, giving a chance for that pristine princess to become ignoble!%n%nIt looks complex, because it is! But it also a lot of dangerous and useful fun!
+gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees you see here once you unlock the breeding trees. There's even more that aren't included and you'll need NEI to find!%n%nHa ha, just kidding - don't panic! Once you unlock the bee breeding lines, look around and pick and choose which bees really interest you. The way the breeding is done is mostly left to right, and top down. Some of the lines at the bottom might look simple, but they will require bees further up to complete first. Many of the basic bees have multiple breeding options, only one is shown here.%n%nBees have two sets of traits, one that is Active that has effects on how the bee lives, and one Inactive but can be used for breeding. Some traits are §4Dominant§r, and some are §9Recessive§r. Keep this in mind when trying to breed in or out a new trait. When getting newly bred princesses and drones, check both sets in case you got the targeted bee traits. You can breed the bees with inactive traits to try and make them active in later crosses. You can't see the passive traits using a Field Kit, you'll need a Beealyzer. For lots of bees, you can scan them first using a GT scanner, but you'll still need a Beealyzer to see passive traits.%n%nWhen breeding bees, a good idea is to settle upon a master template bee.  A bee that has little or no crossbreeding potential, but has all the traits you prefer - short life, nocturnal, cavedwelling, rain tolerant, humidity, temperature, high fertility, etc.  Once you have that bee, breed a bunch of pure princesses with those traits as both active and inactive. These will be your breeding stock.%n%nWhen you are trying for a new bee, what you are wanting is a drone - this way you can use your "breeding stock" princess for easy breeding, but the drone to get the new species without the annoying effects or limitations. Poor crossed princesses can be returned to normal by crossing with breeding stock drones, or just thrown out if they now have annoying restrictions. Make sure you keep the trait and species you want, and slowly merge the good traits from your breeding stock. You don't have to do this part in an Apiary, you can use a Bee House to swap around traits. Ignoble bees are good for this, since they're mostly disposable - they have a chance to die after 100 breeding cycles - frames can let them live longer. Once you solidify your species, create a pool of drones. You can use those to convert pristine princesses to the new species. Pristine princesses will not die. Rocky bees are a great source - all their princesses are always pristine.%n%nOnce you get a new species, it will replace all of one of the two sets of traits of the bee.  For example when you get a Cultivated, either the Active or Inactive column will have all the default Cultivated traits. Mix it a few times and you'll eventually get purebred versions. Just watch out that you don't lose a key trait, like Fast Worker for Cultivated! All the quests will require purebred species. %n%nGenerally all traits can be bred into any bee species, including effects or flower preference. Species generally require their preferred biome to produce their special drops.%n%nAdvanced frames can provide useful boosts to mutation chances, or to lifespan reduction for faster breeding cycles. However excessive multipliers will increase genetic decay, giving a chance for that pristine princess to become ignoble!%n%nIt looks complex, because it is! But it also a lot of dangerous and useful fun!
 
 # Quest.2210 - §a§lDealing with Radiation
 gtnh.quest2210.name=§a§lDealing with Radiation
@@ -10174,7 +10174,7 @@ gtnh.quest2542.desc=This is the good wireless terminal. It even has crafting. Th
 
 # Quest.2543 - Wireless 3.0
 gtnh.quest2543.name=Wireless 3.0
-gtnh.quest2543.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!
+gtnh.quest2543.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!%n%n§4Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.
 
 # Quest.2544 - Cut the Power!
 gtnh.quest2544.name=Cut the Power!
@@ -10338,11 +10338,11 @@ gtnh.quest2583.desc=Good luck with this one, it is many many many times harder t
 
 # Quest.2584 - Hypogen
 gtnh.quest2584.name=Hypogen
-gtnh.quest2584.desc=I mean this doesn't really have any uses yet but if you must...
+gtnh.quest2584.desc=I mean this doesn't really have any uses yet but if you must...%n%n§3Use the LPF to solidify it.
 
 # Quest.2585 - Infinite Vis Storage, kinda?
 gtnh.quest2585.name=Infinite Vis Storage, kinda?
-gtnh.quest2585.desc=Provides an absurd quantity of vis storage.
+gtnh.quest2585.desc=Provides an absurd quantity of vis storage. It also fills as soon as you pick it up.
 
 # Quest.2586 - Storage of the Gods
 gtnh.quest2586.name=Storage of the Gods
@@ -10364,9 +10364,9 @@ gtnh.quest2589.desc=Provides infinite oxygen, can only be used to refill tanks a
 gtnh.quest2590.name=You know the drill
 gtnh.quest2590.desc=I'm not even sure these have uses but they're blue so that's kinda cool.
 
-# Quest.2591 - Power of the Gods
-gtnh.quest2591.name=Power of the Gods
-gtnh.quest2591.desc=Good job, now fill it. Should only take a few millenia, better get grinding.
+# Quest.2591 - Gods+
+gtnh.quest2591.name=Gods+
+gtnh.quest2591.desc=BTW, it doesn't actually hold more, you can just I/O faster. Make filling it your life goal!
 
 # Quest.2592 - Anywhere, anytime
 gtnh.quest2592.name=Anywhere, anytime
@@ -10556,25 +10556,25 @@ gtnh.quest2637.desc=With a higher voltage, you can use your ASoCs to make cheape
 gtnh.quest2638.name=Cheaper IV Circuits
 gtnh.quest2638.desc=The Crystal SoC will allow you to make Crystalprocessors cheaper.%n%nUnfortunately, this is the last SoC.
 
-# Quest.2639 - Rocket Tier 6 Requirements
-gtnh.quest2639.name=Rocket Tier 6 Requirements
-gtnh.quest2639.desc=You'll need 13 Tier 6 Heavy Duty Plates and the schematic to build your rocket.
+# Quest.2639 - Tier 6 Heavy Duty Plates
+gtnh.quest2639.name=Tier 6 Heavy Duty Plates
+gtnh.quest2639.desc=Rockets require heavy duty plates for the main hull. Let's craft 13 tier 6 heavy duty plates out of tier 5 plates and compressed lead-oriharukon plates.
 
 # Quest.2640 - Rocket Tier 6
 gtnh.quest2640.name=Rocket Tier 6
 gtnh.quest2640.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§3If you want to make this in ZPM, you'll need to use the Assembler multi.
 
-# Quest.2641 - Rocket Tier 7 Requirements
-gtnh.quest2641.name=Rocket Tier 7 Requirements
-gtnh.quest2641.desc=You'll need 71 Tier 7 Heavy Duty Plates and the schematic to build your rocket.%n%nThat's more new ones than any other tier.
+# Quest.2641 - Tier 7 Heavy Duty Plates
+gtnh.quest2641.name=Tier 7 Heavy Duty Plates
+gtnh.quest2641.desc=Rockets require heavy duty plates for the main hull. Let's craft 71 tier 7 heavy duty plates out of tier 6 plates and compressed mysterious crystal plates.
 
 # Quest.2642 - Rocket Tier 7
 gtnh.quest2642.name=Rocket Tier 7
 gtnh.quest2642.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
 
-# Quest.2643 - Rocket Tier 8 Requirements
-gtnh.quest2643.name=Rocket Tier 8 Requirements
-gtnh.quest2643.desc=You'll need 19 Tier 8 Heavy Duty Plates and the schematic to build your final rocket.
+# Quest.2643 - Tier 8 Heavy Duty Plates
+gtnh.quest2643.name=Tier 8 Heavy Duty Plates
+gtnh.quest2643.desc=Rockets require heavy duty plates for the main hull. Let's craft 19 tier 8 heavy duty plates out of tier 7 plates and compressed black plutonium plates.
 
 # Quest.2644 - Rocket Tier 8
 gtnh.quest2644.name=Rocket Tier 8
@@ -10714,7 +10714,7 @@ gtnh.quest2677.desc=The Auto Maintenance Hatch will correct maintenance problems
 
 # Quest.2678 - Paint-by-Numbers
 gtnh.quest2678.name=Paint-by-Numbers
-gtnh.quest2678.desc=If you want to color all those fancy cables and such, you'll want to use the humble Paintbrush. To uncolor them, use a bucket of water.%n%nAlternatively, you can also use the IC2 Painter, or the AE2 Color Applicator.
+gtnh.quest2678.desc=If you want to color all those fancy cables and such, you'll want to use the humble Paintbrush. To uncolor them, use a bucket of water.%n%nAlternatively, you can also use the IC2 Painter, GT Spray Can, or the AE2 Color Applicator.
 
 # Quest.2679 - It produces HOW much power?
 gtnh.quest2679.name=It produces HOW much power?
@@ -10738,7 +10738,7 @@ gtnh.quest2683.desc=The Parametrizer allows you to configure TecTech multis by a
 
 # Quest.2684 - RP-1 Rocket Fuel
 gtnh.quest2684.name=RP-1 Rocket Fuel
-gtnh.quest2684.desc=In order to fuel the T2 rocket, you'll need some RP-1 Rocket Fuel. First, you'll need either Diesel (which you probably used to make the Cetane-Boosted Diesel for the T1), or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.§3%n%nIf you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore :(§r%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T3 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nCombine Liquid Oxygen and RP-1 to make RP-1 Rocket Fuel. And no, I have no idea what the difference is.%n%n§3If you're confused abot how to use/make the Chemical Plant, refer to the manual with the same name.
+gtnh.quest2684.desc=In order to fuel the T2 rocket, you'll need some RP-1 Rocket Fuel. First, you'll need either Diesel (which you probably used to make the Cetane-Boosted Diesel for the T1), or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.§3%n%nIf you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore :(§r%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T3 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nCombine Liquid Oxygen and RP-1 to make RP-1 Rocket Fuel. And no, I have no idea what the difference is.%n%n§3If you're confused about how to use/make the Chemical Plant, refer to the manual with the same name.%n%n§2PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.
 
 # Quest.2685 - Coal Tar Distilling
 gtnh.quest2685.name=Coal Tar Distilling
@@ -10782,7 +10782,7 @@ gtnh.quest2694.desc=To make Naphthalene, combine your Coal Oil Tar with Sulfuric
 
 # Quest.2695 - Serious Upgrades
 gtnh.quest2695.name=Serious Upgrades
-gtnh.quest2695.desc=So if you thought 'hey, the purple stuff wasn't that bad, why not make the green?'. Well, first of all, you may need professional help. Second, you're going to need to be in ZPM to make the casings you need, full stop. You need a ZPM ABS for the components, so come back once you've made a ZPM Energy Hatch.%n%nYou can probably figure most of it out on your own, but keep in mind that some of the materials need to be created in the ABS, solidified, macerated, and then used in another ABS recipe. Examples are: Hastelloy-N and Inconel-792.%n%nLaurenium is also like this, and also inclues Rhenium and Dysprosium. Rhenium uses a nonstandard ABS recipe to make, and Dysprosium requires either making Rare Earth (III) or going to the Toxic Everglades. You'll also need to make Rare Earth (I) for Ytterbium or, again, visit the Everglades for it.%n%nHave fun with that!%n%n§3You'll almost certainly need more than this, but the exact amount, as always, depends on your hatches and busses.
+gtnh.quest2695.desc=So if you thought 'hey, the purple stuff wasn't that bad, why not make the green?', well, first of all, you may need professional help. Second, you're going to need to be in ZPM to make the casings you need, full stop. You need a ZPM ABS for the components, so come back once you've made a ZPM Energy Hatch.%n%nYou can probably figure most of it out on your own, but keep in mind that some of the materials need to be created in the ABS, solidified, macerated, and then used in another ABS recipe. Examples are: Hastelloy-N and Inconel-792.%n%nLaurenium is also like this, and also inclues Rhenium and Dysprosium. Rhenium uses a nonstandard ABS recipe to make, and Dysprosium requires either making Rare Earth (III) or going to the Toxic Everglades. You'll also need to make Rare Earth (I) for Ytterbium or, again, visit the Everglades for it.%n%nHave fun with that!%n%n§3You'll almost certainly need more than this, but the exact amount, as always, depends on your hatches and busses.
 
 # Quest.2696 - Beyond the Limit
 gtnh.quest2696.name=Beyond the Limit
@@ -10795,6 +10795,126 @@ gtnh.quest2697.desc=Chlorine is a fluid that is used in significant quantities t
 # Quest.2698 - Niobium Needs
 gtnh.quest2698.name=Niobium Needs
 gtnh.quest2698.desc=While you're on Io, you should pick up some ore for Niobium. It'll be worth it later.
+
+# Quest.2699 - Play it Again, Sam
+gtnh.quest2699.name=Play it Again, Sam
+gtnh.quest2699.desc=So if you thought one Quantum Computer was cool, what about two? You can chain them to get more computing power for your research by connecting them with Optical Connectors the same way you connect to the Research Station. The original QC should have the slave to receive the data from the second one.%n%nOf course, this is kinda expensive, so there's actually another option, and that's to simply extend the first one. You can tear down the last two columns of blocks and then use an itemstack of two blueprints to see how a 4 computer rack one would be built. However, you'll need another UV or higher hatch to power it if you use 4 racks, since that will use 5A. You can do the same for up to a 12 stack for 24 computer racks if you want.%n%nIf you use 3 racks with 3 Crystalprocessor Mainframes and 1 Advanced Heat Vent each, you'll have enough for the UEV circuit, and it won't overheat either. If you use 7 racks and 14 UHV circuits (2 vents each), you'll be able to research anything less than the Piko and Quantum circuits without overheating.
+
+# Quest.2700 - LSC = MC^2
+gtnh.quest2700.name=LSC = MC^2
+gtnh.quest2700.desc=This is the final upgrade to the LSC. You can use either the Ultimate or Really Ultimate batteries to craft it, it costs about the same either way.
+
+# Quest.2701 - Chaotic Energy
+gtnh.quest2701.name=Chaotic Energy
+gtnh.quest2701.desc=Finally, Infinite RF! ...But what can I even use that for?
+
+# Quest.2702 - Tier 7 Schematic
+gtnh.quest2702.name=Tier 7 Schematic
+gtnh.quest2702.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 6 and the data stick in a ZPM circuit assembler.
+
+# Quest.2703 - Extra Large Fuel Canisters
+gtnh.quest2703.name=Extra Large Fuel Canisters
+gtnh.quest2703.desc=Every rocket needs fuel storage canisters. For the tier 7 rocket you need to craft two large and two extra large canisters.
+
+# Quest.2704 - Booster Tier 3
+gtnh.quest2704.name=Booster Tier 3
+gtnh.quest2704.desc=The distance between Planets and Moons is much larger now, so the rocket needs bigger boosters to reach it.
+
+# Quest.2705 - Heavy Duty Rocket Engine Tier 4
+gtnh.quest2705.name=Heavy Duty Rocket Engine Tier 4
+gtnh.quest2705.desc=Every rocket needs a rocket engine. A heavy one tier 3 is needed in the tier 5 rocket.
+
+# Quest.2706 - Heavy Duty Rocket Fins Tier 4
+gtnh.quest2706.name=Heavy Duty Rocket Fins Tier 4
+gtnh.quest2706.desc=Every rocket needs a few rocket fins. Tier 7 rockets need heavy ones Tier 4.
+
+# Quest.2707 - Heavy Duty Nose Cone Tier 4
+gtnh.quest2707.name=Heavy Duty Nose Cone Tier 4
+gtnh.quest2707.desc=Every rocket needs a nose cone. Tier 7 rocket needs a heavy nose cone tier 4.
+
+# Quest.2708 - Pluto Dungeon
+gtnh.quest2708.name=Pluto Dungeon
+gtnh.quest2708.desc=After hours and hours you will find a Pluto dungeon. A big hole will show you the way to the dungeon. Go and fight some mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematic for tier 8 rockets.%n%nThis will open a lot of planets outside of our solar system such as Barnarda.
+
+# Quest.2709 - Booster Tier 4
+gtnh.quest2709.name=Booster Tier 4
+gtnh.quest2709.desc=The distance to other solar sytems is quite literally Astronomical, so you'll need even bigger boosters to reach them.
+
+# Quest.2710 - Tier 8 Schematic
+gtnh.quest2710.name=Tier 8 Schematic
+gtnh.quest2710.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 8 and the data stick in a UV circuit assembler.
+
+# Quest.2711 - Fluids for Copying Cultures
+gtnh.quest2711.name=Fluids for Copying Cultures
+gtnh.quest2711.desc=Ok, so let's say you've made some kind of culture, but you want more of it? You only need one per Vat, but they're consumed when making DNA Samples, so you should probably learn how.%n%nTo start off, you'll need to get an eColi Culture.%n%nUse that to make the eColi Bacteria Fluid.§3 (I know the name is completely different, deal with it)§r%n%nCentrifuge that to make Liquid DNA.%n%nAnd combine it with Radon in the Mixer to make FluorecentdDNA.%n%neColi Bacteria Fluid can also be Centrifuged for Plasma Membranes (10% chance) and EnzymesSollution, so do that as well.%n%nAnd then Centrifuge the EnzymesSollution again for Polymerase.%n%nYou should expect to need a significant amount of eColi Bacteria Fluid if you plan on copying a lot of cultures, or making the hard to make ones.%n%n§3To search for items related to copying cultures, search for 'culture', 'dna sample', or 'plasmid'. You can't do this for the Data Orbs, you have to check the uses of DNA Samples.%n%n§5A bunch of the fluids have incorrect spelling, don't blame me for it.
+
+# Quest.2712 - DNA Samples for Copying Cultures
+gtnh.quest2712.name=DNA Samples for Copying Cultures
+gtnh.quest2712.desc=To copy cultures, you'll need to make a DNA sample first. Many of these have low chances, but this one's 100%. I'm sure you can figure it out yourself, but keep in mind that the Modules are not consumed, and that you may wish to use one of the IC2 Crops for the Detergent materials.
+
+# Quest.2713 - Data Orbs for Copying Cultures
+gtnh.quest2713.name=Data Orbs for Copying Cultures
+gtnh.quest2713.desc=After getting your sample you need to encode the information to a Data Orb. Again, many times you'll have to do it repeatedly (the Data Orb is given back if it fails), but in this case it's 100%.%n%n§3Look at the uses of the eColi DNA Sample to see the recipe.
+
+# Quest.2714 - Actually Copying Cultures
+gtnh.quest2714.name=Actually Copying Cultures
+gtnh.quest2714.desc=To copy a culture, you'll need%n1) A Sterilized Petri Dish%n2) A Plasma Membrane (made from Stemcells, or gotten while making EnzymesSollution)%n3) Stemcells%n4) A Data Orb with the appropriate data on it%n5) Liquid DNA%n6) A LuV Bio Lab%n7) A Clonal Cellular Synthesis Module%n%nYou can change out the Data Orb for one with whatever culture you wish to copy. Keep in mind that it might be easier to make a second culture the normal way, and that there's generally an alternative recipe that uses the fluid it produces to make it with a higher chance.%n%nPS: This recipe is the only one in NEI that uses this module, so you can find it if you look, but the number will change, so I can't specify which page.
+
+# Quest.2715 - General Purpose Fermenting Bacteria
+gtnh.quest2715.name=General Purpose Fermenting Bacteria
+gtnh.quest2715.desc=So if you looked in NEI and tried to figure out how to make this, you were probably confused by the fact that you use the fluid it produces to make it. This is where NEI is lying to you. Like the previous recipe, NEI doesn't show it correctly (they should be around the same page in NEI, they both also appear to produce Sterilized Petri Dishes, (even if that's not true) and both use unique Modules).%n%nIn order to make this, you'll need to make the Rotten Flesh Bacteria culture, get the DNA Sample, and then get the Data Orb. It changes it's name to beta-Lactamase, that's normal.%n%nThen, do the same thing for Common Yeast (get the right Yeast!).%n%nThen you need to use the recipe to combine the information from the Data Orbs and get the Common Yeast Plasmid from that.%n%nLastly, use the Rotten Flesh Bacteria culture, the Common Yeast Plasmid, Penicillin (make it by centrifuging Common Yeast Fluid), and Distilled Water. You want the Transformation Module for this. It's a 100% chance.%n%nYou'll want to use the normal recipe to make more cultures, since it also becomes beta-Lactamase once you turn it into a DNA Sample.
+
+# Quest.2716 - Longbow of the Heavens
+gtnh.quest2716.name=Longbow of the Heavens
+gtnh.quest2716.desc=Weak compared to both weapons of it's tier, and the weapons it's made of, this bow doesn't use arrows, never breaks, does 10 damage, and has an AoE of 10 more arrows that do 10 damage each fly down each time it strikes.
+
+# Quest.2717 - The Ultimate Plastic
+gtnh.quest2717.name=The Ultimate Plastic
+gtnh.quest2717.desc=So, Radox Polymer. A highly complex plastic used for...absolutely nothing. But, you CAN make it. *Theoretically*.%n %nIf you dare take up this monumental challenge, you need to get the Xenoxene Xenoxis culture first. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nFrom this point, it's pretty easy to figure it out, but basically, only Super Light Radox and Diluted Xenoxene (so you can run it again) are useful from Distilling. All the other products are kinda useless.%n%nHave fun with your useless ingot!
+
+# Quest.2718 - Does Anyone Even Still Use These?
+gtnh.quest2718.name=Does Anyone Even Still Use These?
+gtnh.quest2718.desc=If you do, they're now really good. I guess. They sound like it at least?
+
+# Quest.2719 - For All the Artists Out There
+gtnh.quest2719.name=For All the Artists Out There
+gtnh.quest2719.desc=These are the Creative components. Depending on what it is, there's also T2 and T3 components too.
+
+# Quest.2720 - Too Many Leaves
+gtnh.quest2720.name=Too Many Leaves
+gtnh.quest2720.desc=Want to clear out shrubbery but don't want to pull out leaves by hand? Need to find that last log hidden in the middle of a bunch of leaves?%n%nTry an Iron Scythe! When used, it clears out a 5x5x5 area of leaves, crops, flowers, or grass. Excellent for tearing through Sacred Oak leaves or dense shrubbery in certain biomes. Later when you have a Cutting Machine you can upgrade to a Diamond Scythe with a 7x7x7 area of effect, or use Amethyst for 9x9x9 to FLEX.%n%n§3The lower tiers break leaves instantly, but don't seem to have the 3x3x3 range for some reason.
+
+# Quest.2721 - Personally, I prefer Pepsi™
+gtnh.quest2721.name=Personally, I prefer Pepsi™
+gtnh.quest2721.desc=You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke. But which kinds are better?%n%nCoal (1600BT) + 1800t -> Coal Coke (3200BT) +500l Cr%nWood Log (300BT) + 1800t -> Charcoal (1600BT) + 250l Cr%nCactus (50BT) + 500t -> Cactus Charcoal (400BT) +30l Cr%nCactus Charcoal (400BT) + 500t -> Cactus Coke (800BT) +30l Cr%nSugar Cane (50BT) + 500t -> Sugar Charcoal (400BT) +30l Cr%nSugar Charcoal (400BT) + 500t -> Sugar Coke (800BT) +30l Cr%n%nYou'll want Coke for making steel in your BBF later on. Though you can use still use charcoal if you want.
+
+# Quest.2722 - Water, Fast
+gtnh.quest2722.name=Water, Fast
+gtnh.quest2722.desc=The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you can pull it out, but you can use all the sides to do so.
+
+# Quest.2723 - Super Large Oxygen Tanks
+gtnh.quest2723.name=Super Large Oxygen Tanks
+gtnh.quest2723.desc=The Super Large oxygen tank is an oxygen storage tank that can hold up to 4000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+
+# Quest.2724 - Ultra Large Oxygen Tanks
+gtnh.quest2724.name=Ultra Large Oxygen Tanks
+gtnh.quest2724.desc=The Super Large oxygen tank is an oxygen storage tank that can hold up to 5000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+
+# Quest.2725 - Barley time
+gtnh.quest2725.name=Barley time
+gtnh.quest2725.desc=It's time to plant some barley to make some bread. If you cant find wheat barley is a good alternative source to make flour.
+
+# Quest.2750 - Proteus Dungeon
+gtnh.quest2750.name=Proteus Dungeon
+gtnh.quest2750.desc=After hours and hours and watching carefully the ground in the dark you will find a Proteus dungeon. A big hole will show you the way to the dungeon. Go and fight some mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematics for tier 7 rockets.%n%nThis will open the planet Pluto and the Kuiper Belt.
+
+# Quest.2751 - Tier 6 Schematic
+gtnh.quest2751.name=Tier 6 Schematic
+gtnh.quest2751.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 6 and the data stick in a LuV circuit assembler.
+
+# Quest.2752 - Enceladus Dungeon
+gtnh.quest2752.name=Enceladus Dungeon
+gtnh.quest2752.desc=After hours and hours and clearing the snow you will find a Enceladus dungeon. A big hole will show you the way to the dungeon. Go and fight some mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematic for tier 6 rockets.%n%nThis will open the Moons from Neptune.
 
 ##################################Line##################################
 
