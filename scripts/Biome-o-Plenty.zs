@@ -79,9 +79,9 @@ recipes.addShapeless(<BiomesOPlenty:jarEmpty>, [<ore:bottleEmpty>]);
 recipes.addShapeless(<minecraft:glass_bottle>, [<BiomesOPlenty:jarEmpty>]);
 
 // --- Mud Ball
-recipes.addShapeless(<BiomesOPlenty:mudball> * 2, [<minecraft:dirt>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>)]);
+recipes.addShapeless(<BiomesOPlenty:mudball> * 2, [<minecraft:dirt>, <minecraft:water_bucket>]);
 // -
-recipes.addShapeless(<BiomesOPlenty:mudball> * 2, [<minecraft:dirt>, <IguanaTweaksTConstruct:clayBucketWater>.giveBack(<IguanaTweaksTConstruct:clayBucketFired>)]);
+recipes.addShapeless(<BiomesOPlenty:mudball> * 2, [<minecraft:dirt>, <IguanaTweaksTConstruct:clayBucketWater>]);
 
 // --- Dart Blower
 recipes.addShaped(<BiomesOPlenty:dartBlower>, [
