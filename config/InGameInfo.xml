@@ -109,7 +109,7 @@
                 <num>0</num>
             </icon>
             <str> Chunk X:$6 {chunkx} $fZ:$6 {chunkz}$f Off: $3$6 {chunkoffsetx} $f:$6 {chunkoffsetz} $f</str>
-            <str> Z: $6{yfeeti}$f facing $6{finedirection}$f</str>
+            <str> Y: $6{yfeeti}$f facing $6{finedirection}$f</str>
             <if>
                 <var>slimechunk</var>
                 <str> $6SlimeChunk$f</str>
