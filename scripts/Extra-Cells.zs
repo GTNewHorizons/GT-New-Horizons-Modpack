@@ -584,8 +584,6 @@ recipes.addShaped(<extracells:storage.fluid.portable>, [
 [<ore:screwTitanium>, <appliedenergistics2:tile.BlockChest>, <ore:screwTitanium>],
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:craftingToolWrench>]]);
 
-// PCB conversion recipe for Computronics
-recipes.addShapeless(<OpenComputers:item:32>,[<gregtech:gt.metaitem.01:32720>]);
 
 
 // --- Assembler Recipes ---

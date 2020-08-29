@@ -165,8 +165,9 @@ mods.chisel.Groups.addVariation("thaumium", <gregtech:gt.blockmetal7:4>);
 // --- Amber
 Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:water> * 200, 7000, 2000, 24);
 // -
-Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:ic2distilledwater> * 200, 9000, 1500, 24);
-
+Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:ic2distilledwater> * 100, 9000, 1500, 24);
+// -
+Autoclave.addRecipe(<Thaumcraft:ItemResource:6>, <gregtech:gt.metaitem.01:2514>, <liquid:molten.void> * 36, 10000, 1000, 24);
 
 
 // --- Assembler recipes ---

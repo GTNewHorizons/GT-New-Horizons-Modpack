@@ -163,7 +163,7 @@ recipes.remove(<IC2:itemToolDrill>);
 recipes.remove(<IC2:itemToolDDrill>);
 
 // --- Iridium Drill
-recipes.remove(<IC2:itemToolIridiumDrill>);
+recipes.remove(<IC2:itemToolIridiumDrill:*>);
 
 // --- Chainsaw
 recipes.remove(<IC2:itemToolChainsaw>);

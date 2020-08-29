@@ -107,6 +107,9 @@ mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pants>);
 // --- Infinity Boots
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
 
+// --- Skullfire Sword
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Skull_Sword>);
+
 
 // --- Add Recipes ---
 
