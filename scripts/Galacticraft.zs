@@ -140,9 +140,6 @@ recipes.remove(<GalacticraftCore:tile.cargo>);
 // --- Cargo Unloader
 recipes.remove(<GalacticraftCore:tile.cargo:4>);
 
-// --- Nasa Workbench
-recipes.remove(<GalacticraftCore:tile.rocketWorkbench>);
-
 // --- Tin Decoration Block
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:3>);
 // -
@@ -158,7 +155,7 @@ recipes.remove(<GalacticraftCore:tile.gcBlockCore:10>);
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:11>);
 
 // --- Meteoric Iron Ingot
-recipes.remove(<gregtech:gt.metaitem.01:11340>); 
+recipes.remove(<gregtech:gt.metaitem.01:11340>);
 
 // --- Solid Meteoric Iron
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:12>);
@@ -1491,7 +1488,7 @@ Assembler.addRecipe(<GalacticraftMars:item.spaceshipTier2:2>, <GalacticraftMars:
 // -
 Assembler.addRecipe(<GalacticraftMars:item.spaceshipTier2:3>, <GalacticraftMars:item.spaceshipTier2>, <ore:chestGold>, 100, 1024);
 
-// --- Rocket Tier 3 with Chest 
+// --- Rocket Tier 3 with Chest
 Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:1>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestCopper>, 100, 1920);
 // -
 Assembler.addRecipe(<GalacticraftMars:item.itemTier3Rocket:2>, <GalacticraftMars:item.itemTier3Rocket>, <ore:chestIron>, 100, 1920);
@@ -1506,7 +1503,7 @@ Assembler.addRecipe(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.bugg
 Assembler.addRecipe(<GalacticraftCore:item.buggy:1>, <GalacticraftCore:item.buggy>, <ore:chestGold>, 100, 480);
 
 
-// --- Blast Furnace Recipes --- 
+// --- Blast Furnace Recipes ---
 
 
 
