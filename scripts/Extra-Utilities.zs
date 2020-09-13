@@ -957,7 +957,7 @@ mods.extraUtils.QED.addShapedRecipe(EnergyTransferN, [
 // --- Hyper Energy Transfer Node
 mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
 [EnergyTransferN, <gregtech:gt.metaitem.01:17533>, EnergyTransferN],
-[<gregtech:gt.metaitem.01:17533>, BedrockiumIngot, <gregtech:gt.metaitem.01:17533>],
+[<gregtech:gt.metaitem.01:17533>, <gregtech:gt.metaitem.01:11395>, <gregtech:gt.metaitem.01:17533>],
 [EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
 
 // --- Trash Can
