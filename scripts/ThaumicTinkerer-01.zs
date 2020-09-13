@@ -369,7 +369,7 @@ game.setLocalization("tc.research_name.FIREPERDITIO", "Elemental Fire: Perditio"
 game.setLocalization("tc.research_text.FIREPERDITIO", "[TT] Cleanup time");
 mods.thaumcraft.Research.addPage("FIREPERDITIO", "ttresearch.page.FIRE_PERDITIO.0");
 mods.thaumcraft.Infusion.addRecipe("FIREPERDITIO", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "perditio"}]}),
-[<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal>, <minecraft:redstone>, <Thaumcraft:blockCrystal>],
+[<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:5>, <minecraft:redstone>, <Thaumcraft:blockCrystal:5>],
 "perditio 10, lux 10, aer 10, praecantatio 10", <ThaumicTinkerer:fireChaos>, 16);
 mods.thaumcraft.Research.addInfusionPage("FIREPERDITIO", <ThaumicTinkerer:fireChaos>);
 mods.thaumcraft.Warp.addToResearch("FIREPERDITIO", 10);
