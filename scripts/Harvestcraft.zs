@@ -454,6 +454,9 @@ furnace.addRecipe(<harvestcraft:venisoncookedItem>, <harvestcraft:venisonrawItem
 // --- Cooked Turkey
 furnace.addRecipe(<harvestcraft:turkeycookedItem>, <harvestcraft:turkeyrawItem>);
 
+// --- Cooked Rabbit
+furnace.addRecipe(<harvestcraft:rabbitcookedItem>, <harvestcraft:rabbitrawItem>);
+
 // --- Boiled Egg
 recipes.addShapeless(<harvestcraft:boiledeggItem>, [<harvestcraft:potItem>, <minecraft:egg>]);
 
