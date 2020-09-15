@@ -920,6 +920,19 @@ recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
 // --- Coke Oven Bricks
 furnace.addRecipe(<dreamcraft:item.CokeOvenBrick>, <dreamcraft:item.UnfiredCokeOvenBrick>);
 
+// --- Remove Shaped Recipe for Unfired Coke Oven Brick
+recipes.removeShaped(<dreamcraft:item.UnfiredCokeOvenBrick> * 3, [
+[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
+[<minecraft:sand>, WoodenBrickForm, <minecraft:sand>],
+[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);
+
+// -- Add recipe for Unfired Coke Oven Brick to use Ore Dictionary
+recipes.addShaped(<dreamcraft:item.UnfiredCokeOvenBrick> * 3, [
+[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
+[<ore:sand>, WoodenBrickForm, <ore:sand>],
+[<ore:sand>, <ore:sand>, <ore:sand>]]);
+
+
 // --- Diamond Frame Box
 recipes.addShaped(<dreamcraft:tile.DiamondFrameBox>, [
 [<ore:stickDiamond>, <ore:stickDiamond>, <ore:stickDiamond>],
