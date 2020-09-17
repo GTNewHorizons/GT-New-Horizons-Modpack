@@ -964,11 +964,3 @@ Mixer.addRecipe(<harvestcraft:figsmoothieItem>, null, [<ExtraTrees:food:32>, <gr
 
 // --- Salad Dressing
 Mixer.addRecipe(<harvestcraft:saladdressingItem>, null, [<harvestcraft:oliveoilItem>, <harvestcraft:vinegarItem>, <gregtech:gt.metaitem.01:817> * 2], null, 400, 2);
-
-// --- Gooseberry Yogurt Fix
-recipes.removeShapeless(<harvestcraft:pineappleyogurtItem>, [<ExtraTrees:food:48>, <harvestcraft:plainyogurtItem>]);
-recipes.removeShapeless(<harvestcraft:pineappleyogurtItem>, [<harvestcraft:gooseberryItem>, <harvestcraft:plainyogurtItem>]);
-
-recipes.addShapeless(<harvestcraft:gooseberryyogurtItem>, [<harvestcraft:gooseberryItem>, <harvestcraft:plainyogurtItem>]);
-recipes.addShapeless(<harvestcraft:gooseberryyogurtItem>, [<ExtraTrees:food:48>, <harvestcraft:plainyogurtItem>]);
-recipes.addShapeless(<harvestcraft:pineappleyogurtItem>, [<harvestcraft:pineappleItem>, <harvestcraft:plainyogurtItem>]);
