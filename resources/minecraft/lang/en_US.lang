@@ -310,7 +310,7 @@ gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The br
 
 # Quest.77 - §r§6§l§5§l§o§l§r§6§lEBF-Time
 gtnh.quest77.name=§r§6§l§5§l§o§l§r§6§lEBF-Time
-gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the heating coils might be a little tricky...%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers = 78 percent.%n%nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber.
+gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky...but you can use a substitute for the first tier of coils.%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Bart's Platinum Series recipes otuput fluids on the BOTTOM, so if you want to do Platinum Stuff later, remember that.%n%nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier +/- MV. Basically, for CuNi Coils, with an LV Energy Hatch, the heat capacity is 1701K (-100), MV=1801K (no change), HV=1901K (+100), etc. Coils only set the base value.%n%nThis adjustment does not apply to the Volcanus or MEBF.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.%n
 
 # Quest.78 - §6§lUpgrade #1: More heat - Kanthal Coils
 gtnh.quest78.name=§6§lUpgrade #1: More heat - Kanthal Coils
@@ -366,7 +366,7 @@ gtnh.quest90.desc=Enough is enough. No more wasting gazillions of ingots just fo
 
 # Quest.91 - §5§lYou're gonna hate this #1
 gtnh.quest91.name=§5§lYou're gonna hate this #1
-gtnh.quest91.desc=The first item you'll need a lot of. If you want to pull items out of chests or barrels you'll need one. %n%nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.
+gtnh.quest91.desc=The first item you'll need a lot of. If you want to pull items out of chests or barrels you'll need one. %n%nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.%n%n§3PS: Covers have a Shift-Right-Click interface now!
 
 # Quest.92 - §5§lYou're gonna hate this #4
 gtnh.quest92.name=§5§lYou're gonna hate this #4
@@ -374,7 +374,7 @@ gtnh.quest92.desc=The fourth item you'll need a lot of, and is also a pain to cr
 
 # Quest.93 - §5§lYou're gonna hate this #2
 gtnh.quest93.name=§5§lYou're gonna hate this #2
-gtnh.quest93.desc=The second item you'll need a lot. When you want to get fluid out of tanks you'll need one. %n%nHint: Attach to fluid pipes or GT machines. Adjust the direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine.  When looking at a pipe or machine, you can use the grid to place it on a side already touching another thing. You can use the grid with a screwdriver to adjust a cover on that side as well.%n%nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine.  The cover stays with the machine in the same N S E W direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.%n%nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.
+gtnh.quest93.desc=The second item you'll need a lot. When you want to get fluid out of tanks you'll need one. %n%nHint: Attach to fluid pipes or GT machines. Adjust the direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine.  When looking at a pipe or machine, you can use the grid to place it on a side already touching another thing. You can use the grid with a screwdriver to adjust a cover on that side as well.%n%nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine.  The cover stays with the machine in the same N S E W direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.%n%nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.%n%n§3PS: Covers have a Shift-Right-Click interface now!
 
 # Quest.94 - §5§lElectric macerator
 gtnh.quest94.name=§5§lElectric macerator
@@ -526,7 +526,7 @@ gtnh.quest130.desc=Until now, you had to use buildcraft tanks to carry liquids a
 
 # Quest.131 - §6§lSimple RF power: Solid
 gtnh.quest131.name=§6§lSimple RF power: Solid
-gtnh.quest131.desc=By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. This machine will also accept compressed and multiple-compressed blocks.  Want to burn for 250+ days? Also, with double or octadic capacitors the output will increase and efficiency will improve. GT wiring can convert EU to RF, but EnderIO machines can be left safely out in the rain. %n%nMight be useful for Genetics machines since they consume excessive power when attached to GT wiring - Forestry and EnderIO machines work fine.
+gtnh.quest131.desc=By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. This machine will also accept compressed and multiple-compressed blocks.  Want to burn for 250+ days? Also, with double or octadic capacitors the output will increase and efficiency will improve. GT wiring can convert EU to RF, but not the other way around. Ender IO machines and GT cables and Wires can be left safely out in the rain. %n%nIt might be useful for Genetics machines since they consume excessive power when attached to GT wiring - Forestry and EnderIO machines work fine (except for the Thermionic Fabricator). Or use a Capacitor Bank.
 
 # Quest.132 - §6§lSimple RF power: Liquids
 gtnh.quest132.name=§6§lSimple RF power: Liquids
@@ -1228,56 +1228,56 @@ gtnh.quest305.desc=...it mourns the dead. This might come in handy for some case
 gtnh.quest306.name=Useful trees
 gtnh.quest306.desc=Just like plants, there are trees that will attract various friendly and "not so friendly" creatures. (No warranty when placed in desolated biome!)
 
-# Quest.307 - The power of gods
-gtnh.quest307.name=The power of gods
+# Quest.307 - The Power of Gods
+gtnh.quest307.name=The Power of Gods
 gtnh.quest307.desc=The pearl you've found has some interesting effects on you. Not only are the voices almost gone, somehow it has also expanded your perception. You can "feel" the magic around you. This is definitely worth some further investigation.
 
 # Quest.308 - The final goal
 gtnh.quest308.name=The final goal
 gtnh.quest308.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
 
-# Quest.309 - Shards of opposite worlds
-gtnh.quest309.name=Shards of opposite worlds
+# Quest.309 - Shards of Opposite Worlds
+gtnh.quest309.name=Shards of Opposite Worlds
 gtnh.quest309.desc=This morning, you just wanted to facepalm yourself to death. During your past journeys, you have already seen strangely colored shards. But unlike the primal shards you use every day, these seem to contain the raw essence of their dimension. Heaven and Hell... so to speak. Two opposite worlds.
 
-# Quest.310 - Unleashed the power
-gtnh.quest310.name=Unleashed the power
+# Quest.310 - Unleashed the Power - Cowl
+gtnh.quest310.name=Unleashed the Power - Cowl
 gtnh.quest310.desc=To make use of your armor to the fullest extent, you'll have to unleash its hidden power. This is not an easy task; But it's worth the effort!
 
-# Quest.311 - Unbreakable cowl
-gtnh.quest311.name=Unbreakable cowl
+# Quest.311 - Unbreakable Cowl
+gtnh.quest311.name=Unbreakable Cowl
 gtnh.quest311.desc=It will never break. How convenient.
 
-# Quest.312 - Unleashed the power
-gtnh.quest312.name=Unleashed the power
+# Quest.312 - Unleashed the Power - Leggings
+gtnh.quest312.name=Unleashed the Power - Leggings
 gtnh.quest312.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
 
-# Quest.313 - Unbreakable leggings
-gtnh.quest313.name=Unbreakable leggings
+# Quest.313 - Unbreakable Leggings
+gtnh.quest313.name=Unbreakable Leggings
 gtnh.quest313.desc=They will never break. How convenient.
 
-# Quest.314 - Unleashed the power
-gtnh.quest314.name=Unleashed the power
+# Quest.314 - Unleashed the Power - Robe
+gtnh.quest314.name=Unleashed the Power - Robe
 gtnh.quest314.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
 
-# Quest.315 - Unbreakable robe
-gtnh.quest315.name=Unbreakable robe
+# Quest.315 - Unbreakable Robe
+gtnh.quest315.name=Unbreakable Robe
 gtnh.quest315.desc=It will never break. How convenient.
 
-# Quest.316 - Infused cloth
-gtnh.quest316.name=Infused cloth
+# Quest.316 - Infused Cloth
+gtnh.quest316.name=Infused Cloth
 gtnh.quest316.desc=By combining ichor with enchanted fabric, you've created something that could be compared to mithril. Light as wool, but durable like steel. Also, it conducts magic energy like nothing else you've seen before. This seems to be an excellent material for a new type of armor.
 
-# Quest.317 - Unleashed the power
-gtnh.quest317.name=Unleashed the power
+# Quest.317 - Unleashed the Power - Boots
+gtnh.quest317.name=Unleashed the Power - Boots
 gtnh.quest317.desc=To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
 
-# Quest.318 - Unbreakable boots
-gtnh.quest318.name=Unbreakable boots
+# Quest.318 - Unbreakable Boots
+gtnh.quest318.name=Unbreakable Boots
 gtnh.quest318.desc=They will never break. How convenient.
 
-# Quest.319 - Unbreakable axe
-gtnh.quest319.name=Unbreakable axe
+# Quest.319 - Unbreakable Axe
+gtnh.quest319.name=Unbreakable Axe
 gtnh.quest319.desc=An axe made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...
 
 # Quest.320 - Infused Thaumium
@@ -1288,45 +1288,45 @@ gtnh.quest320.desc=By combining ichor with some thaumium, the metal turned into 
 gtnh.quest321.name=Unbreakable Sword
 gtnh.quest321.desc=A sword made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...
 
-# Quest.322 - Unbreakable
-gtnh.quest322.name=Unbreakable
+# Quest.322 - Unbreakable Pickaxe
+gtnh.quest322.name=Unbreakable Pickaxe
 gtnh.quest322.desc=A pickaxe made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...
 
-# Quest.323 - Unbreakable shovel
-gtnh.quest323.name=Unbreakable shovel
+# Quest.323 - Unbreakable Shovel
+gtnh.quest323.name=Unbreakable Shovel
 gtnh.quest323.desc=A shovel made of your new metal will never break and will accept enchantments with ease. Something tells you there must be more...
 
-# Quest.324 - Unleashed the power
-gtnh.quest324.name=Unleashed the power
+# Quest.324 - Unleashed the Power - Sword
+gtnh.quest324.name=Unleashed the Power - Sword
 gtnh.quest324.desc=To make use of your tool to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
 
-# Quest.325 - Unleashed the power
-gtnh.quest325.name=Unleashed the power
+# Quest.325 - Unleashed the Power - Shovel
+gtnh.quest325.name=Unleashed the Power - Shovel
 gtnh.quest325.desc=To make use of your tool to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
 
-# Quest.326 - Unleashed the power
-gtnh.quest326.name=Unleashed the power
+# Quest.326 - Unleashed the Power - Axe
+gtnh.quest326.name=Unleashed the Power - Axe
 gtnh.quest326.desc=To make use of your tool to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
 
-# Quest.327 - Unleashed the power
-gtnh.quest327.name=Unleashed the power
+# Quest.327 - Unleashed the Power - Pickaxe
+gtnh.quest327.name=Unleashed the Power - Pickaxe
 gtnh.quest327.desc=To make use of your tool to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!
 
-# Quest.328 - Hold all the foci
-gtnh.quest328.name=Hold all the foci
+# Quest.328 - Hold All the Foci
+gtnh.quest328.name=Hold All the Foci
 gtnh.quest328.desc=Hermione's first years bag.
 
-# Quest.329 - Where do the items go?
-gtnh.quest329.name=Where do the items go?
+# Quest.329 - Where Do the Items Go?
+gtnh.quest329.name=Where Do the Items Go?
 gtnh.quest329.desc=It's probably better not to ask...
 
-# Quest.330 - Magical waystones
-gtnh.quest330.name=Magical waystones
-gtnh.quest330.desc=These are used to mark locations in order to teleport around
+# Quest.330 - Magical Waystones
+gtnh.quest330.name=Magical Waystones
+gtnh.quest330.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around!
 
 # Quest.331 - Why walk...
 gtnh.quest331.name=Why walk...
-gtnh.quest331.desc=...when you can teleport? This little device allows you to teleport around almost for free. Is it cheaty? Is it OP? Nope, it's a celestial gateway!
+gtnh.quest331.desc=...when you can teleport? This little device allows you to teleport around almost for free. Is it cheaty? Is it OP? Nope, it's a celestial gateway!%n%n10 can be set per device, so get creative! ...Unless you want to go to other Dims, which it can't do. But hey, faster travel around your base!
 
 # Quest.332 - Fire burn and...
 gtnh.quest332.name=Fire burn and...
@@ -1404,9 +1404,9 @@ gtnh.quest349.desc=Sometimes it can be troublesome to get fancy clothing. Howeve
 gtnh.quest350.name=A few more things...
 gtnh.quest350.desc=Ok, I think I have everything I need to assemble the device. Can you assist me with some additional materials? I need to update most of my machines, as these exotic components you got me damaged most of them already. Don't worry, I have a list here.%n%nMost of my circuits burned to a crisp while I was trying to measure the conductivity of these soul and life shards. I need better ones.%n%nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?%n%nDo you see that pile of chrome over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 singularities, the first one... Well... Just get me a better casing, would you?%n%nIt seems, that the stabilizers need... stabilizing... But I'm out of field generators. Can you help me with this?
 
-# Quest.351 - Hello there
-gtnh.quest351.name=Hello there
-gtnh.quest351.desc=I've observed your pathway, and I have to say, I'm impressed. I might need your help soon, on a big project of mine.
+# Quest.351 - Hello There!
+gtnh.quest351.name=Hello There!
+gtnh.quest351.desc=I've observed your progress, and I have to say, I'm impressed. I might need your help soon on a big project of mine.
 
 # Quest.352 - Power. So much power!
 gtnh.quest352.name=Power. So much power!
@@ -2910,7 +2910,7 @@ gtnh.quest726.desc=A much more efficient way to make insulated cables is by maki
 
 # Quest.727 - §1§2§lBetter than barrels
 gtnh.quest727.name=§1§2§lBetter than barrels
-gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot). Once you reach HV you can combine them with some ProjectRed pipes to set up a "ghetto ME storage system" (Tec2k17).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). %n%nAlso, if placed on top of a hopper, they can bug out and void items when the hopper is full.  If you plan on that, use barrels or chests instead.
+gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot). Once you reach HV you can combine them with some ProjectRed pipes to set up a "ghetto ME storage system" (Tec2k17).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). %n%n§4Also, if placed on top of a hopper, they can bug out and void items when the hopper is full. THIS WILL EAT BACKPACKS! If you plan on that, use barrels or chests instead.
 
 # Quest.728 - §2§lCompact Drawers
 gtnh.quest728.name=§2§lCompact Drawers
@@ -3626,7 +3626,7 @@ gtnh.quest905.desc=It flies, it makes funny sounds, and .. IT'S SO FLUFFY! Well,
 
 # Quest.906 - Let her go
 gtnh.quest906.name=Let her go
-gtnh.quest906.desc=It seems the cold doesn't bother her. Committed crimes: None. But... you know... you have to progress somehow...
+gtnh.quest906.desc=It seems the cold doesn't bother her. Committed crimes: None. But... you know... you have to progress somehow...%n%n§3PS: Keep going.
 
 # Quest.907 - Yeti. Alpha, Yeti.
 gtnh.quest907.name=Yeti. Alpha, Yeti.
@@ -3634,7 +3634,7 @@ gtnh.quest907.desc=Wanted: Alpha Yeti. Death. Committed crimes: Violently throwi
 
 # Quest.908 - Secret: A nice....
 gtnh.quest908.name=Secret: A nice....
-gtnh.quest908.desc=Hey, you! I want that lamp. I have something for you in return. You don't need it anyways, do you?
+gtnh.quest908.desc=Hey, you! I want that lamp. I have something for you in return. You don't need it anyways, do you?%n%n§3If you want the achievement, get that first.
 
 # Quest.909 - Time to kill (Creeper)
 gtnh.quest909.name=Time to kill (Creeper)
@@ -3700,9 +3700,9 @@ gtnh.quest923.desc=Totally looks like a thaumic slime to me. Don't you think so?
 gtnh.quest924.name=Wolf:Evolved
 gtnh.quest924.desc=The final frontier... A... wolf that is not even an Iron Maiden fan?... What did you expect, a super boss? Heh. No. Budget was too tight...
 
-# Quest.925 - Technology: Evolved
-gtnh.quest925.name=Technology: Evolved
-gtnh.quest925.desc=You beat the game, literally. There is nothing left to do, you might want to try real life... But one thing might be interesting for you. You know, just for the phuns. Select one of the totally OP items here.
+# Quest.925 - Killing: Evolved
+gtnh.quest925.name=Killing: Evolved
+gtnh.quest925.desc=I guess you're good at killing things, huh? And if you got this far, maybe making things too? If you want to §oreally§r prove yourself though, head on over to the Endgame Goals tab.
 
 # Quest.926 - Blood Altar Tier 3
 gtnh.quest926.name=Blood Altar Tier 3
@@ -4436,12 +4436,12 @@ gtnh.quest1107.desc=Do you feel lonely? Need some extra protection in your base?
 gtnh.quest1108.name=§3§lThe Cool Guy
 gtnh.quest1108.desc=Feeling lonely? Located far away from a smow biome?%nCraft a Snow Golem, and perhaps challenge him to a snow ball fight.
 
-# Quest.1109 - Oh crunchy
-gtnh.quest1109.name=Oh crunchy
-gtnh.quest1109.desc=After hours of doing Thaumcraft research you found a way to craft pure tears. Ichorium purifies the nether star which sucks all the warp away. Be careful, as this may have a deadly end.
+# Quest.1109 - Ohhh, Crunchy
+gtnh.quest1109.name=Ohhh, Crunchy
+gtnh.quest1109.desc=After many, many, hours of doing Thaumcraft research you found a way to craft pure tears. Ichorium purifies the nether star which sucks all the warp away. Be careful, as this may have a deadly end.
 
-# Quest.1110 - Purge all your warp
-gtnh.quest1110.name=Purge all your warp
+# Quest.1110 - Purge All Your Warp
+gtnh.quest1110.name=Purge All Your Warp
 gtnh.quest1110.desc=Did you ever have a dream where you could purge all your warp with no bad side effects? This purification talisman will let your dreams come true.%nDo not forget to wear it.
 
 # Quest.1111 - A Chest for Bees
@@ -4806,7 +4806,7 @@ gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. %n%nTh
 
 # Quest.1201 - §a§b§c§d§e§f§d§l§l§c§lTurbine Time
 gtnh.quest1201.name=§a§b§c§d§e§f§d§l§l§c§lTurbine Time
-gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is Draconium. %n%nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
+gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. Generally Large is the best. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Or use the spreadsheet to do it for you (there's a link in the main spreadsheet, which is linked to in discord). Make sure to use a fluid regulator set to this flow rate.
 
 # Quest.1202 - I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 gtnh.quest1202.name=I Put Fusion in Your Fusion so you Can Fusion While You Fusion
@@ -5894,7 +5894,7 @@ gtnh.quest1472.desc=The Grapple is a grappling hook and rope which can be thrown
 
 # Quest.1473 - Nice and comfortable - in space!
 gtnh.quest1473.name=Nice and comfortable - in space!
-gtnh.quest1473.desc=These thermal clothes will keep you nice and warm even in the coldest depths of outer space.%n%n§3You'll also need some PBI.
+gtnh.quest1473.desc=These thermal clothes will keep you nice and warm even in the coldest depths of outer space. Tier 3+ planets pretty much all require these.%n%n§3You'll also need some PBI.
 
 # Quest.1474 - §a§lWant to join a band?
 gtnh.quest1474.name=§a§lWant to join a band?
@@ -5978,7 +5978,7 @@ gtnh.quest1493.desc=LuV-Level. You will need Rhodium-Plated Palladium for machin
 
 # Quest.1494 - §6§f§6§lStainless taking too long?
 gtnh.quest1494.name=§6§f§6§lStainless taking too long?
-gtnh.quest1494.desc=Time for a second blast furnace! %n%nYou can make ingots faster 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It's probably time to add a second EBF to your base. EBFs can share walls and input/output hatches, but not mufflers or energy hatches.%n%nRemember pollution will be very high with two EBFs active at once!%nWatch out for high pollution effects. Use the best mufflers available and don't place the EBFs in the same chunk as farmland or other high pollution machines like pyrolyze ovens and large boilers.%n%nYou can use whatever coils you have lying around, but you might want to start searching for Mica if you haven't found any yet.
+gtnh.quest1494.desc=Time for a second blast furnace! %n%nYou can make ingots faster 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It's probably time to add a second EBF to your base.%n%nMultiblock machines can share casings, mufflers, and input/output hatches/busses, but not maintenance hatches (you can share the auto ones though). You can share energy hatches, but only if you can suppy enough power to all machines it's a part of. So if you have two EBFs that both want MV power, and you use a MV energy hatch, it won't work, since neither will get enough power. This is almost never used, so don't worry about it. Also, don't share inputs on Processing Arrays, they won't work.%n%nRemember pollution will be very high with two EBFs active at once!%nWatch out for high pollution effects. Use the best mufflers available and don't place the EBFs in the same chunk as farmland or other high pollution machines like pyrolyze ovens and large boilers.%n%nYou can use whatever coils you have lying around, but you might want to start searching for Mica if you haven't found any yet.
 
 # Quest.1495 - §1§lAll alone in the night
 gtnh.quest1495.name=§1§lAll alone in the night
@@ -6666,7 +6666,7 @@ gtnh.quest1665.desc=Now that you have HSS-G, it's time to make HSS-S. This new a
 
 # Quest.1666 - §c§b§lArgon
 gtnh.quest1666.name=§c§b§lArgon
-gtnh.quest1666.desc=To process some of the new ingots you will find, you need argon. Your first source will come from air, in small amounts.%n%n§4Hint: Use compresed air in a vacuum freezer and get liquid air. This will be a source of argon.
+gtnh.quest1666.desc=To process some of the new ingots you will find, you need argon. Your first source will come from air, in small amounts. Unlike centrifuging Compressed Air Cells, you'll need to turn the Air into Liquid Air first in a Vacuum Freezer so you can centrifuge it more efficiently.%n%nThe VF only works on cells, but the upgraded version available later works on the liquid itself. You can also make the Air Intake Hatch instead of using a Compresser PA, it's way better. It's only compatible with the upgraded VF and the Rocket Engine multis, but you can pump out the air it produces directly, and then can it to use in the VF. An HV pump or EIO conduit is all you need. %n%nDon't bother with the DT recipe unless you need the other fluids from it, it's not nearly as good as centrifuging. You also need the Liquid Air Fluid Hatch (only works with Liquid Air!) and Giant Output Hatch when you want to do that.%n%n§3The MVF inherits the VFs qualities, so it uses cells too, unlike the upgraded one (Cryogenic).
 
 # Quest.1667 - §b§lNaquadah
 gtnh.quest1667.name=§b§lNaquadah
@@ -7334,7 +7334,7 @@ gtnh.quest1832.desc=The Windmill is a grinder that uses the force of wind to mac
 
 # Quest.1833 - §6§lUpgrade #8: Upgrade tier 9 - Awakened Draconium Coils
 gtnh.quest1833.name=§6§lUpgrade #8: Upgrade tier 9 - Awakened Draconium Coils
-gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys or Infinity need more than 9900K. Upgrade your EBF to 10800k.
+gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalyst or Infinity need more than 9900K. Upgrade your EBF to 10800k.%n%n§3With the heat adjustment included, you can get up to 11601K if you OC with UHV hatches. Not that you need it or anything.
 
 # Quest.1834 - §1§lMushroom Biomes ? why there so many?
 gtnh.quest1834.name=§1§lMushroom Biomes ? why there so many?
@@ -8290,7 +8290,7 @@ gtnh.quest2071.desc=Now that you have reached LuV you can make the god-tier pros
 
 # Quest.2072 - Planetary Tears
 gtnh.quest2072.name=Planetary Tears
-gtnh.quest2072.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.%n%nTier 1 - Needs Oxygen Gear%nMoon%n%nTier 2 - Requires Thermal Padding%nMars%nPhobos%nDeimos%n%nTier 3 - Requires Tier 2 Thermal Padding%nCeres%nAsteroids%nEuropa%nGanymeade%nCallisto%nRoss128b - Habitable Planet (need no Oxygen Gear/thermal padding)%n%nTier 4 - Need tier 2 thermal padding%nIo%nMercury%nVenus - Needs SpaceSuit%n%nTier 5 -Need tier 2 thermal padding%nEnceladus%nTitan%nMiranda%nOberon%n%nTier 6 -Need tier 2 thermal padding%nProteus%nTriton%n%nTier 7 -Need tier 2 thermal padding%nPluto%nHaumea%nMakemake%nKuiper Belt%n%nTier 8 -Need tier 2 thermal padding%nAlpha Centauri Bb - Requires SpaceSuit%nTau Ceti E - Habitable Planet (need no Oxygen Gear/thermal padding)%nVega B%nBarnarda C - Habitable Planet (need no Oxygen Gear/thermal padding)%nBarnarda E%nBarnarda F
+gtnh.quest2072.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.%n%nTier 1 - Requires Oxygen Gear%nMoon%n%nTier 2 - Requires Thermal Padding%nDeimos%nMars%nPhobos%n%nTier 3 - Requires tier 2 Thermal Padding%nAsteroids - Counts as Zero-G, because there's no planet%nCallisto%nCeres%nEuropa%nGanymede%nRoss128b - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%n%nTier 4 - Requires tier 2 Thermal Padding%nIo%nMercury%nVenus - Requires SpaceSuit%n%nTier 5  Requires tier 2 Thermal Padding%nEnceladus%nMiranda%nOberon%nRoss128ba%nTitan%n%nTier 6 - Requires tier 2 Thermal Padding%nProteus%nTriton%n%nTier 7   Requires tier 2 Thermal Padding%nKuiper Belt - Also counts as Zero-G%nHaumea%nMakemake%nPluto%n%nTier 8 - Requires tier 2 Thermal Padding%nAlpha Centauri Bb - Requires SpaceSuit%nBarnarda C - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nBarnarda E%nBarnarda F%nTau Ceti E - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nVega B
 
 # Quest.2073 - Time to kill (Bat)
 gtnh.quest2073.name=Time to kill (Bat)
@@ -9178,7 +9178,7 @@ gtnh.quest2293.desc=To make Nitrogen Tetroxide you need to combine some Copper D
 
 # Quest.2294 - §a§lRocket Engine EV
 gtnh.quest2294.name=§a§lRocket Engine EV
-gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generate power out of rocket fuels at 60% efficiency.%n200 to 2000 polution each sec.
+gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generates power out of rocket fuels at 80% efficiency, and produces 250 to 2000 pollution/s.%n%n§3There are 4 Rocket Fuels. Follow the Space Race tab quests to see how to make the rest. Expect to need more than one (probably several) Chemical Plants if you want to autmate production. There's also a RE multi later on too.
 
 # Quest.2295 - §l§6§lGetting your first Platinum
 gtnh.quest2295.name=§l§6§lGetting your first Platinum
@@ -10222,7 +10222,7 @@ gtnh.quest2554.desc=Everywhere bugs! These damned bastards. Better run away quic
 
 # Quest.2555 - Underground Fluids
 gtnh.quest2555.name=Underground Fluids
-gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, well here's a list. They're sorted by rocket tier and planet, with the chance per underground fluid chunk (8x8 regular chunks) and max amount listed. Any Dims not listed have none. This list is subject to change due to balancing at any time!:%n%n%nTier 0:%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%nTier 1:%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%nTier 2:%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%nTier 3:%nCallisto%nLiquid Air 100 2-20%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 32767%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%nTier 4:%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%nTier 5:%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%nTier 6:%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%nTier 7:%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-40%nNitrogen 100 800%nOxygen 100 800%n%n%nTier 8:%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 20%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
+gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, so here's a list. They're sorted by rocket tier and planet. Any Dims not listed have none.%n%n§cThis list is subject to change due to balancing at any time!§r%n%n§2Example:%n%nTier X:%nDimension/Planet%nFluid <Number that represents how likely it is for this fluid to show up> <Number that represents how much can be present in any 8x8 UF chunk. They are 0-# unless otherwise specified>%nOther fluid that is also present <same as above> <same as above>%nEtc§r%n%n%n§5Tier 0:§r%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%n§5Tier 1:§r%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%n§5Tier 2:§r%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%n§5Tier 3:§r%nCallisto%nLiquid Air 100 2-20%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 32767%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%n§5Tier 4:§r%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%n§5Tier 5:§r%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%n§5Tier 6:§r%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%n§5Tier 7:§r%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-40%nNitrogen 100 800%nOxygen 100 800%n%n%n§5Tier 8:§r%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 20%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
 
 # Quest.2556 - §6§lUpgrade #1 : Upgrade Tier 4 - EV Glass
 gtnh.quest2556.name=§6§lUpgrade #1 : Upgrade Tier 4 - EV Glass
@@ -10486,7 +10486,7 @@ gtnh.quest2620.desc=I wonder what temperature they start superconducting at?
 
 # Quest.2621 - Superconductors at 2,097,152 EU/t
 gtnh.quest2621.name=Superconductors at 2,097,152 EU/t
-gtnh.quest2621.desc=So above this is the UEV, UIV, UMV, UXV, and OpV wires. Only UEV and UIV have cable versions, and there are no superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nThe materials to make the higher tiers are currently Draconium, Nether Star, Quantium, Black Plutonium, and Awakened Draconium. Expect these to change if the tiers actually see use.%n%nWhat, the UHV superconductor? Didn't you already make that?
+gtnh.quest2621.desc=So above this is the UEV, UIV, UMV, UXV, and OpV wires. Only UEV and UIV have cable versions, and there are no superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nThe materials to make the higher tiers are currently Draconium, Nether Star, Quantium, Black Plutonium, and Awakened Draconium. Expect these to change if the tiers actually see use.%n%nWhat, the UHV superconductor? Didn't you already make that?%n%n§4If you forgot, you get a heat adjustment when using the EBF based on energy hatch tier. So you can smelt the Base UHV Ingot with Fluxed Coils and an UV hatch, since you get up to 10501K. And no, you can't use a Volcanus or MEBF.
 
 # Quest.2622 - Tier VII Field Generator
 gtnh.quest2622.name=Tier VII Field Generator
@@ -10518,7 +10518,7 @@ gtnh.quest2628.desc=You'll need this for the next tier of fusion, and to upgrade
 
 # Quest.2629 - UHV Energy Hatch
 gtnh.quest2629.name=UHV Energy Hatch
-gtnh.quest2629.desc=If you want to make the mk4 reactor, you'll need this. But it's not like you need to or anything.
+gtnh.quest2629.desc=If you want to make the T8 Rocket or the mk4 reactor, you'll need this.
 
 # Quest.2630 - Europium Doped Wafers
 gtnh.quest2630.name=Europium Doped Wafers
@@ -10594,7 +10594,7 @@ gtnh.quest2647.desc=So you've built your T7 rocket. Great, there's only one more
 
 # Quest.2648 - The Final Frontier
 gtnh.quest2648.name=The Final Frontier
-gtnh.quest2648.desc=There's no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable).%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you nned some to begin with. The water can be found as an undergound fluid on Tau Ceti E as well.
+gtnh.quest2648.desc=There's no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you nned some to begin with. The water can be found as an undergound fluid on Tau Ceti E as well.
 
 # Quest.2649 - STERILIZE!, STERILIZE!
 gtnh.quest2649.name=STERILIZE!, STERILIZE!
@@ -10903,6 +10903,22 @@ gtnh.quest2724.desc=The Super Large oxygen tank is an oxygen storage tank that c
 # Quest.2725 - Barley time
 gtnh.quest2725.name=Barley time
 gtnh.quest2725.desc=It's time to plant some barley to make some bread. If you cant find wheat barley is a good alternative source to make flour.
+
+# Quest.2726 - Ichor Core
+gtnh.quest2726.name=Ichor Core
+gtnh.quest2726.desc=You can now make the best wand core, so do so.
+
+# Quest.2727 - Ichor Caps
+gtnh.quest2727.name=Ichor Caps
+gtnh.quest2727.desc=These tie with Shadowmetal, but they look nicer.
+
+# Quest.2728 - Best Wand
+gtnh.quest2728.name=Best Wand
+gtnh.quest2728.desc=This is the best non-endgame/creative wand you can make. There's also a Scepter version.
+
+# Quest.2729 - Genetically Modifying Your Plants
+gtnh.quest2729.name=Genetically Modifying Your Plants
+gtnh.quest2729.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3. You can't modify Primoridal Berries though, as they would be UHV.%n%n§3LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=15, UHV is uncraftable.§r%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. §4Remember to keep a Data Orb or seedbag backup!§r%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
 
 # Quest.2750 - Proteus Dungeon
 gtnh.quest2750.name=Proteus Dungeon
