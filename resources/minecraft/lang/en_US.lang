@@ -2910,7 +2910,7 @@ gtnh.quest726.desc=A much more efficient way to make insulated cables is by maki
 
 # Quest.727 - §1§2§lBetter than barrels
 gtnh.quest727.name=§1§2§lBetter than barrels
-gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot). Once you reach HV you can combine them with some ProjectRed pipes to set up a "ghetto ME storage system" (Tec2k17).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). %n%nAlso, if placed on top of a hopper, they can bug out and void items when the hopper is full.  If you plan on that, use barrels or chests instead.
+gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot). Once you reach HV you can combine them with some ProjectRed pipes to set up a "ghetto ME storage system" (Tec2k17).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). %n%n§4Also, if placed on top of a hopper, they can bug out and void items when the hopper is full. THIS WILL EAT BACKPACKS! If you plan on that, use barrels or chests instead.
 
 # Quest.728 - §2§lCompact Drawers
 gtnh.quest728.name=§2§lCompact Drawers
@@ -3626,7 +3626,7 @@ gtnh.quest905.desc=It flies, it makes funny sounds, and .. IT'S SO FLUFFY! Well,
 
 # Quest.906 - Let her go
 gtnh.quest906.name=Let her go
-gtnh.quest906.desc=It seems the cold doesn't bother her. Committed crimes: None. But... you know... you have to progress somehow...
+gtnh.quest906.desc=It seems the cold doesn't bother her. Committed crimes: None. But... you know... you have to progress somehow...%n%n§3PS: Keep going.
 
 # Quest.907 - Yeti. Alpha, Yeti.
 gtnh.quest907.name=Yeti. Alpha, Yeti.
@@ -3634,7 +3634,7 @@ gtnh.quest907.desc=Wanted: Alpha Yeti. Death. Committed crimes: Violently throwi
 
 # Quest.908 - Secret: A nice....
 gtnh.quest908.name=Secret: A nice....
-gtnh.quest908.desc=Hey, you! I want that lamp. I have something for you in return. You don't need it anyways, do you?
+gtnh.quest908.desc=Hey, you! I want that lamp. I have something for you in return. You don't need it anyways, do you?%n%n§3If you want the achievement, get that first.
 
 # Quest.909 - Time to kill (Creeper)
 gtnh.quest909.name=Time to kill (Creeper)
@@ -3700,9 +3700,9 @@ gtnh.quest923.desc=Totally looks like a thaumic slime to me. Don't you think so?
 gtnh.quest924.name=Wolf:Evolved
 gtnh.quest924.desc=The final frontier... A... wolf that is not even an Iron Maiden fan?... What did you expect, a super boss? Heh. No. Budget was too tight...
 
-# Quest.925 - Technology: Evolved
-gtnh.quest925.name=Technology: Evolved
-gtnh.quest925.desc=You beat the game, literally. There is nothing left to do, you might want to try real life... But one thing might be interesting for you. You know, just for the phuns. Select one of the totally OP items here.
+# Quest.925 - Killing: Evolved
+gtnh.quest925.name=Killing: Evolved
+gtnh.quest925.desc=I guess you're good at killing things, huh? And if you got this far, maybe making things too? If you want to §oreally§r prove yourself though, head on over to the Endgame Goals tab.
 
 # Quest.926 - Blood Altar Tier 3
 gtnh.quest926.name=Blood Altar Tier 3
@@ -5894,7 +5894,7 @@ gtnh.quest1472.desc=The Grapple is a grappling hook and rope which can be thrown
 
 # Quest.1473 - Nice and comfortable - in space!
 gtnh.quest1473.name=Nice and comfortable - in space!
-gtnh.quest1473.desc=These thermal clothes will keep you nice and warm even in the coldest depths of outer space.%n%n§3You'll also need some PBI.
+gtnh.quest1473.desc=These thermal clothes will keep you nice and warm even in the coldest depths of outer space. Tier 3+ planets pretty much all require these.%n%n§3You'll also need some PBI.
 
 # Quest.1474 - §a§lWant to join a band?
 gtnh.quest1474.name=§a§lWant to join a band?
@@ -5978,7 +5978,7 @@ gtnh.quest1493.desc=LuV-Level. You will need Rhodium-Plated Palladium for machin
 
 # Quest.1494 - §6§f§6§lStainless taking too long?
 gtnh.quest1494.name=§6§f§6§lStainless taking too long?
-gtnh.quest1494.desc=Time for a second blast furnace! %n%nYou can make ingots faster 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It's probably time to add a second EBF to your base. EBFs can share walls and input/output hatches, but not mufflers or energy hatches.%n%nRemember pollution will be very high with two EBFs active at once!%nWatch out for high pollution effects. Use the best mufflers available and don't place the EBFs in the same chunk as farmland or other high pollution machines like pyrolyze ovens and large boilers.%n%nYou can use whatever coils you have lying around, but you might want to start searching for Mica if you haven't found any yet.
+gtnh.quest1494.desc=Time for a second blast furnace! %n%nYou can make ingots faster 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It's probably time to add a second EBF to your base.%n%nMultiblock machines can share casings, mufflers, and input/output hatches/busses, but not maintenance hatches (you can share the auto ones though). You can share energy hatches, but only if you can suppy enough power to all machines it's a part of. So if you have two EBFs that both want MV power, and you use a MV energy hatch, it won't work, since neither will get enough power. This is almost never used, so don't worry about it. Also, don't share inputs on Processing Arrays, they won't work.%n%nRemember pollution will be very high with two EBFs active at once!%nWatch out for high pollution effects. Use the best mufflers available and don't place the EBFs in the same chunk as farmland or other high pollution machines like pyrolyze ovens and large boilers.%n%nYou can use whatever coils you have lying around, but you might want to start searching for Mica if you haven't found any yet.
 
 # Quest.1495 - §1§lAll alone in the night
 gtnh.quest1495.name=§1§lAll alone in the night
@@ -8290,7 +8290,7 @@ gtnh.quest2071.desc=Now that you have reached LuV you can make the god-tier pros
 
 # Quest.2072 - Planetary Tears
 gtnh.quest2072.name=Planetary Tears
-gtnh.quest2072.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.%n%nTier 1 - Needs Oxygen Gear%nMoon%n%nTier 2 - Requires Thermal Padding%nMars%nPhobos%nDeimos%n%nTier 3 - Requires Tier 2 Thermal Padding%nCeres%nAsteroids%nEuropa%nGanymeade%nCallisto%nRoss128b - Habitable Planet (need no Oxygen Gear/thermal padding)%n%nTier 4 - Need tier 2 thermal padding%nIo%nMercury%nVenus - Needs SpaceSuit%n%nTier 5 -Need tier 2 thermal padding%nEnceladus%nTitan%nMiranda%nOberon%n%nTier 6 -Need tier 2 thermal padding%nProteus%nTriton%n%nTier 7 -Need tier 2 thermal padding%nPluto%nHaumea%nMakemake%nKuiper Belt%n%nTier 8 -Need tier 2 thermal padding%nAlpha Centauri Bb - Requires SpaceSuit%nTau Ceti E - Habitable Planet (need no Oxygen Gear/thermal padding)%nVega B%nBarnarda C - Habitable Planet (need no Oxygen Gear/thermal padding)%nBarnarda E%nBarnarda F
+gtnh.quest2072.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.%n%nTier 1 - Requires Oxygen Gear%nMoon%n%nTier 2 - Requires Thermal Padding%nDeimos%nMars%nPhobos%n%nTier 3 - Requires tier 2 Thermal Padding%nAsteroids - Counts as Zero-G, because there's no planet%nCallisto%nCeres%nEuropa%nGanymede%nRoss128b - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%n%nTier 4 - Requires tier 2 Thermal Padding%nIo%nMercury%nVenus - Requires SpaceSuit%n%nTier 5  Requires tier 2 Thermal Padding%nEnceladus%nMiranda%nOberon%nRoss128ba%nTitan%n%nTier 6 - Requires tier 2 Thermal Padding%nProteus%nTriton%n%nTier 7   Requires tier 2 Thermal Padding%nKuiper Belt - Also counts as Zero-G%nHaumea%nMakemake%nPluto%n%nTier 8 - Requires tier 2 Thermal Padding%nAlpha Centauri Bb - Requires SpaceSuit%nBarnarda C - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nBarnarda E%nBarnarda F%nTau Ceti E - Habitable Planet (needs no Oxygen Gear/Thermal Padding)%nVega B
 
 # Quest.2073 - Time to kill (Bat)
 gtnh.quest2073.name=Time to kill (Bat)
@@ -10594,7 +10594,7 @@ gtnh.quest2647.desc=So you've built your T7 rocket. Great, there's only one more
 
 # Quest.2648 - The Final Frontier
 gtnh.quest2648.name=The Final Frontier
-gtnh.quest2648.desc=There's no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable).%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you nned some to begin with. The water can be found as an undergound fluid on Tau Ceti E as well.
+gtnh.quest2648.desc=There's no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you nned some to begin with. The water can be found as an undergound fluid on Tau Ceti E as well.
 
 # Quest.2649 - STERILIZE!, STERILIZE!
 gtnh.quest2649.name=STERILIZE!, STERILIZE!
@@ -10915,6 +10915,10 @@ gtnh.quest2727.desc=These tie with Shadowmetal, but they look nicer.
 # Quest.2728 - Best Wand
 gtnh.quest2728.name=Best Wand
 gtnh.quest2728.desc=This is the best non-endgame/creative wand you can make. There's also a Scepter version.
+
+# Quest.2729 - Genetically Modifying Your Plants
+gtnh.quest2729.name=Genetically Modifying Your Plants
+gtnh.quest2729.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3. You can't modify Primoridal Berries though, as they would be UHV.%n%n§3LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=15, UHV is uncraftable.§r%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. §4Remember to keep a Data Orb or seedbag backup!§r%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
 
 # Quest.2750 - Proteus Dungeon
 gtnh.quest2750.name=Proteus Dungeon
