@@ -119,7 +119,7 @@ recipes.addShaped(<Avaritia:Dire_Crafting>, [
 [<ore:waferAdvanced>, <Avaritia:Crystal_Matrix>, <ore:waferAdvanced>],
 [<gregtech:gt.metaitem.01:32642>, <ore:circuitElite>, <gregtech:gt.metaitem.01:32642>]]);
 // -
-recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWorkbench>]);
+//recipes.addShapeless(<Avaritia:Dire_Crafting>, [<GalacticraftCore:tile.rocketWorkbench>]);
 
 // --- Diamond Lattice
 recipes.addShaped(<Avaritia:Resource>, [
