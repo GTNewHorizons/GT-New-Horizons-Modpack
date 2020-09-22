@@ -1,0 +1,30 @@
+name: Mark stale issues
+
+on:
+  schedule:
+  - cron: "30 */2 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/stale@v3
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-message: 'This issue is stale because it has been open 90 days with no activity. Remove stale label or comment or this will be closed in 3 days'
+        days-before-stale: 90
+        days-before-close: 3
+        stale-issue-label: 'stale'
+        only-labels: 'addition,additional Mod,Add Tooltip,Delta,enhancement,Epsilon,Eta,EU Live Server,Idea,Nerf,New Quests,New recipe,New Tooltip,Open for discussion,RFC (request for comment),suggestion'
+        exempt-issue-labels: 'FixedInDev,TODO,reminder,bugMajor,bugMinor,exploit'
+        asscending: true
+    - uses: actions/stale@v3
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-message: 'This issue is stale because it has been open 180 days with no activity. Remove stale label or comment or this will be closed in 3 days'
+        days-before-stale: 180
+        days-before-close: 3
+        stale-issue-label: 'stale'
+        only-labels: "can't reproduce,can't fix,Nothing i can do here"
+        exempt-issue-labels: 'reminder'
+        asscending: true
