@@ -477,6 +477,12 @@ recipes.remove(<EnderIO:itemExistingItemFilter>);
 // --- Mod Item Filter
 recipes.remove(<EnderIO:itemModItemFilter>);
 
+// --- Big Item Filter
+recipes.remove(<EnderIO:itemBigFilterUpgrade>);
+
+// --- Big Advanced Item Filter
+recipes.remove(<EnderIO:itemBigFilterUpgrade:1>);
+
 // --- Chargeable Upgrade
 recipes.remove(<EnderIO:itemPowerItemFilter>);
 
@@ -612,8 +618,8 @@ recipes.addShaped(<EnderIO:blockEnderGenerator>, [
 
 // --- Photovoltaic Cell
 recipes.addShaped(<EnderIO:blockSolarPanel>, [
-[VAPlate, FQuartz, VAPlate],
-[EAPlate, <gregtech:gt.metaitem.01:32750>, EAPlate],
+[EAPlate, FQuartz, EAPlate],
+[VAPlate, <gregtech:gt.metaitem.01:32750>, VAPlate],
 [Capacitor, FQuartz, Capacitor]]);
 
 // --- Advanced Photovoltaic Cell

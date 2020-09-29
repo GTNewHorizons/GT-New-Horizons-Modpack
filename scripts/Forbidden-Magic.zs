@@ -283,7 +283,7 @@ mods.thaumcraft.Research.setAspects("TAINTSHOVEL", "vitreus 21, vitium 18, instr
 mods.thaumcraft.Research.setComplexity("TAINTSHOVEL", 3);
 
 // --- Pickaxe of Distortion
-mods.thaumcraft.Infusion.addRecipe("TAINTPICK", <Thaumcraft:ItemShovelElemental>, 
+mods.thaumcraft.Infusion.addRecipe("TAINTPICK", <Thaumcraft:ItemPickaxeElemental>, 
 [<Thaumcraft:WandRod>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.02:30514>, <ForbiddenMagic:NetherShard:2>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemResource:3>, <Thaumcraft:ItemResource:3>, <gregtech:gt.metaitem.02:30509>, <Thaumcraft:blockCrystal:5>],
 "perfodio 16, instrumentum 8, vitium 16, perditio 32, praecantatio 32, mortuus 8", <ForbiddenMagic:TaintPickaxe>, 10);
 // -

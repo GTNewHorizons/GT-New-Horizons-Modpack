@@ -448,6 +448,12 @@ recipes.remove(<appliedenergistics2:item.ItemMultiPart:76>);
 // --- ME Smart Cable
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
 
+// --- Add Brown Smart Cable Recipe
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:52> * 8, [
+[<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>],
+[<appliedenergistics2:item.ItemMultiPart:56>, <ore:dyeBrown>, <appliedenergistics2:item.ItemMultiPart:56>],
+[<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>]]);
+
 
 // --- Cells ---
 
@@ -816,10 +822,6 @@ recipes.addShaped(Pattern, [
   
 // --- Capacity Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:27>, [<appliedenergistics2:item.ItemMultiMaterial:25>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:1>]);
-
-// --- Pattern Capacity Card
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:54>, [<appliedenergistics2:item.ItemMultiMaterial:28>, <appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiPart:440>]);
-
 
 // --- Crafting Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:53>, [<appliedenergistics2:item.ItemMultiMaterial:25>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:35>, <ore:craftingWorkBench>]);
@@ -1307,8 +1309,9 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56>, FluixCoveredC, 
 // --- Charged Certus Quartz
 Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:water> * 200, 7000, 2000, 24);
 // -
-Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:ic2distilledwater> * 200, 9000, 1500, 24);
-
+Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:ic2distilledwater> * 100, 9000, 1500, 24);
+// -
+Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:molten.void> * 72, 10000, 1000, 24);
 
 
 

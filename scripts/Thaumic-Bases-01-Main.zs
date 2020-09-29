@@ -45,6 +45,9 @@ Arcane.removeRecipe(<thaumicbases:spike:0>);
 // --- Thaumium Spikes
 Arcane.removeRecipe(<thaumicbases:spike:2>);
 
+// --- Thaumium Spikes
+Arcane.removeRecipe(<thaumicbases:spike:4>);
+
 // --- Void Anvil
 Infusion.removeRecipe(<thaumicbases:voidAnvil>);
 
