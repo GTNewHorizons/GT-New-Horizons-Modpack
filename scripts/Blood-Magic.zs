@@ -17,7 +17,7 @@ import mods.gregtech.CuttingSaw;
 
 
 
-// --- Blood Altar 
+// --- Blood Altar
 recipes.remove(<AWWayofTime:Altar>);
 
 // --- Sacrificial Knife
@@ -598,6 +598,8 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:telepositionFocus>, [
 [null, <AWWayofTime:bloodMagicBaseItems:32>, null],
 [<AWWayofTime:weakBloodShard>, <dreamcraft:item.TeleposerFrame>, <AWWayofTime:weakBloodShard>],
 [null, <AWWayofTime:masterBloodOrb>, null]]);
+// ---
+recipes.addShapeless(<AWWayofTime:telepositionFocus>, [<AWWayofTime:telepositionFocus>]);
 
 // --- Teleposer
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockTeleposer>, [
