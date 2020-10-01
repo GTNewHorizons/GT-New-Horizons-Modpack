@@ -691,10 +691,10 @@ recipes.remove(<IC2:blockChargepad:3>);
 recipes.remove(<IC2:blockChargepad:2>);
 
 // --- Charge Pad CESU
-recipes.remove(<IC2:blockChargepad:1>); 
+recipes.remove(<IC2:blockChargepad:1>);
 
 // --- Charge Pad Bat Box
-recipes.remove(<IC2:blockChargepad>); 
+recipes.remove(<IC2:blockChargepad>);
 
 // --- Reactor Pressure Vessel
 recipes.remove(<IC2:blockreactorvessel>);
@@ -1163,19 +1163,19 @@ recipes.addShaped(<IC2:itemScannerAdv>, [
 //recipes.addShaped(<IC2:itemToolDrill>, [
 //[<ore:screwStainlessSteel>, <ore:toolHeadDrillMeteoricSteel>, <ore:screwStainlessSteel>],
 //[<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallStainlessSteel>],
-//[<ore:plateStainlessSteel>, <IC2:itemBatChargeRE:26>, <ore:plateStainlessSteel>]]);
+//[<ore:plateStainlessSteel>, <IC2:itemBatChargeRE:*>, <ore:plateStainlessSteel>]]);
 
 // --- Diamond Drill
 //recipes.addShaped(<IC2:itemToolDDrill>, [
 //[<ore:screwTitanium>, <dreamcraft:item.DiamondDrillTip>, <ore:screwTitanium>],
 //[<ore:gearGtSmallTitanium>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTitanium>],
-//[<ore:plateTitanium>, <IC2:itemBatChargeRE:26>, <ore:plateTitanium>]]);
+//[<ore:plateTitanium>, <IC2:itemBatChargeRE:*>, <ore:plateTitanium>]]);
 
 // --- Iridium Drill
 //recipes.addShaped(<IC2:itemToolIridiumDrill>, [
 //[<ore:screwTungstenSteel>, <dreamcraft:item.ReinforcedIridiumDrillTip>, <ore:screwTungstenSteel>],
 //[<ore:gearGtSmallTungstenSteel>, <IC2:itemRecipePart:2>, <ore:gearGtSmallTungstenSteel>],
-//[<ore:plateTungstenSteel>, <IC2:itemBatChargeAdv:26>, <ore:plateTungstenSteel>]]);
+//[<ore:plateTungstenSteel>, <IC2:itemBatChargeAdv:*>, <ore:plateTungstenSteel>]]);
 
 // --- Small Power Unit
 recipes.addShaped(<IC2:itemRecipePart:3>, [
@@ -1705,13 +1705,13 @@ Assembler.addRecipe(<IC2:blockCrop> * 16, <gregtech:gt.metaitem.02:22809> * 8, <
 
 
 // --- Coal Chunk
-BlastFurnace.addRecipe([<IC2:itemPartCoalChunk>], [<dreamcraft:item.BioChunk>], 1200, 120, 1000); 
+BlastFurnace.addRecipe([<IC2:itemPartCoalChunk>], [<dreamcraft:item.BioChunk>], 1200, 120, 1000);
 
 // --- Carbon Mesh
-BlastFurnace.addRecipe([<IC2:itemPartCarbonMesh>], [<dreamcraft:item.BioOrganicMesh>], 600, 120, 1000); 
+BlastFurnace.addRecipe([<IC2:itemPartCarbonMesh>], [<dreamcraft:item.BioOrganicMesh>], 600, 120, 1000);
 
 // --- Carbon Plate
-BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonPlate>], 600, 120, 1000); 
+BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonPlate>], 600, 120, 1000);
 
 
 
