@@ -218,11 +218,11 @@ mods.thaumcraft.Research.setRound("DiamondChainsaw", true);
 game.setLocalization("tc.research_name.DiamondChainsaw", "Diamond Chainsaw");
 game.setLocalization("tc.research_text.DiamondChainsaw", "Harder, better, faster, stronger");
 mods.thaumcraft.Research.addPage("DiamondChainsaw", "tc.research_page.DiamondChainsaw");
-game.setLocalization("tc.research_page.DiamondChainsaw", "You are unsure why the thought of upgrading a Chainsaw with diamonds similarly to what you have done with a Drill has never occurred to you. This upgrade makes the Chainsaw capable of holding more energy and breaking blocks faster.");
+game.setLocalization("tc.research_page.DiamondChainsaw", "You are unsure why the thought of upgrading a chainsaw with diamonds similarly to what you have done with a drill has never occurred to you. This upgrade makes the Chainsaw capable of holding more energy and breaking blocks faster.");
 mods.thaumcraft.Arcane.addShaped("DiamondChainsaw", <EMT:DiamondChainsaw:27>.withTag({shearsMode: 1 as byte}), "aer 35, terra 35, ignis 35, aqua 35, ordo 35, perditio 35", [
-[<ore:screwDiamond>, <ore:plateDiamond>, <ore:screwDiamond>],
-[<ore:plateDiamond>, <gregtech:gt.metatool.01:112>.withTag({ench: [{lvl: 2 as short, id: 35 as short}, {lvl: 2 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32528 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27028 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 9330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32601 as short}}, "GT.ItemCharge": 400000 as long}), <ore:plateDiamond>],
-[<ore:craftingToolHardHammer>, <ore:plateDiamond>, <ore:craftingToolWrench>]]);
+[<ore:screwTitanium>, <ore:toolHeadChainsawThaumium>, <ore:screwTitanium>],
+[<ore:plateDiamond>, <ore:circuitAdvanced>, <ore:plateDiamond>],
+[<ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:32528>, <ore:craftingToolWrench>]]);
 mods.thaumcraft.Research.addArcanePage("DiamondChainsaw", <EMT:DiamondChainsaw:27>.withTag({shearsMode: 1 as byte}));
 
 // --- Thaumic Plate
@@ -233,7 +233,7 @@ mods.thaumcraft.Research.setRound("ThaumiumPlate", true);
 game.setLocalization("tc.research_name.ThaumiumPlate", "Thaumium Plate");
 game.setLocalization("tc.research_text.ThaumiumPlate", "Thaumium, the industrial way");
 mods.thaumcraft.Research.addPage("ThaumiumPlate", "tc.research_page.ThaumiumPlate");
-game.setLocalization("tc.research_page.ThaumiumPlate", "As every electrical engineer knows, plates are the basis of many devices. We knew that pressing Thaumium into plates would be a neccesary step to facilitate integration of magic into our tools, but this made the mages of the school of Thaumaturgy very upset. The don't like us tampering with their precious metal. You can produce these plates as shown, which is a bit more expensive, or in a metal former, requiring only one Thaumium Ingot. Keep an eye out for angry mages.");
+game.setLocalization("tc.research_page.ThaumiumPlate", "As every electrical engineer knows, plates are the basis of many devices. We knew that pressing Thaumium into plates would be a neccesary step to facilitate integration of magic into our tools, but this made the mages of the school of Thaumaturgy very upset. They don't like us tampering with their precious metal. You can produce these plates as shown, which is a bit more expensive, or in a metal former, requiring only one Thaumium Ingot. Keep an eye out for angry mages.");
 
 // --- Electric Cloud
 mods.thaumcraft.Research.orphanResearch("Electric Cloud");
@@ -243,7 +243,7 @@ mods.thaumcraft.Research.setAutoUnlock("ElectricCloud", true);
 mods.thaumcraft.Research.setRound("ElectricCloud", true);
 game.setLocalization("tc.research_name.ElectricCloud", "Electric Cloud");
 game.setLocalization("tc.research_text.ElectricCloud", "Still the same Nitor");
-game.setLocalization("tc.research_page.ElectricCloud1", "All thaumaturges (except Crimson ones, I guess) enjoy the shine and heat of the magic flame called Nitor, aren't they? You desided to make it more... energetic. Well, you did it.<BR><BR>You have created a new kind of magic flame — the Electric Cloud. It behaves and looks like normal Nitor, but it has purple colour and creates light-purple lightning charges around itself. For electrolizing need to click RMB on Nitor with advanced battery(or better) on hand.");
+game.setLocalization("tc.research_page.ElectricCloud1", "All thaumaturges (except Crimson ones, I guess) enjoy the shine and heat of the magic flame called Nitor, don't they? You decided to make it more... energetic. Well, you did it.<BR><BR>You have created a new kind of magic flame — the Electric Cloud. It behaves and looks like normal Nitor, but it has purple colour and creates light-purple lightning charges around itself. To upgrade into an Electric Cloud you need to click RMB on Nitor with an advanced battery (or better) on hand.");
 game.setLocalization("tc.research_page.ElectricCloud2","<IMG>emt:textures/researches/electric_cloud.png:0:0:255:255:0.6</IMG>");
 mods.thaumcraft.Research.addPage("ElectricCloud", "tc.research_page.ElectricCloud1");
 mods.thaumcraft.Research.addPage("ElectricCloud", "tc.research_page.ElectricCloud2");
@@ -257,7 +257,7 @@ mods.thaumcraft.Research.setRound("FeatherWings", true);
 game.setLocalization("tc.research_name.FeatherWings", "Feather Wings");
 game.setLocalization("tc.research_text.FeatherWings", "It only works in anime...");
 mods.thaumcraft.Research.addPage("FeatherWings", "tc.research_page.FeatherWings");
-game.setLocalization("tc.research_page.FeatherWings", "Duct-taping feathers to cardboard sheets, formed in the shape of wings sounded like a good idea. At least, you can thrust yourself in the air when the spacebar is hit. Not much, but it'll work. Using any wings underwater or during the rain sounds like a very bad idea. Included: fall damage reduction, 25%.");
+game.setLocalization("tc.research_page.FeatherWings", "Duct-taping feathers to cardboard sheets, formed in the shape of wings, sounded like a good idea. At least, you can thrust yourself in the air when the spacebar is hit. Not much, but it'll work. Using any wings underwater or during the rain sounds like a very bad idea. Included: fall damage reduction, 25%.");
 mods.thaumcraft.Arcane.addShaped("FeatherWings", <EMT:EMTItems:7>, "aer 5, terra 5, ordo 5", [
 [<minecraft:feather>, <minecraft:feather>, <minecraft:feather>],
 [<minecraft:feather>, <EMT:EMTItems:9>, <minecraft:feather>],
@@ -289,7 +289,7 @@ mods.thaumcraft.Research.setRound("ThaumiumReinforcedWings", true);
 game.setLocalization("tc.research_name.ThaumiumReinforcedWings", "Thaumium Reinforced Wings");
 game.setLocalization("tc.research_text.ThaumiumReinforcedWings", "Already much better");
 mods.thaumcraft.Research.addPage("ThaumiumReinforcedWings", "tc.research_page.ThaumiumReinforcedWings");
-game.setLocalization("tc.research_page.ThaumiumReinforcedWings", "The magic infusing Thaumium is well known. Therefore, reinforcing your cardboard wings with Thaumium sounded like a good idea. You can thrust yourself much higher on spacebar hit, and slow your fall down when spacebar is held. Sneak to go down at a steady pace. Included: fall damage reduction, 50%.");
+game.setLocalization("tc.research_page.ThaumiumReinforcedWings", "The magically infused metal Thaumium is well known. Therefore, reinforcing your cardboard wings with Thaumium sounded like a good idea. You can thrust yourself much higher on spacebar hit, and slow your fall down when spacebar is held. Sneak to go down at a steady pace. Included: fall damage reduction, 50%.");
 mods.thaumcraft.Crucible.addRecipe("ThaumiumReinforcedWings", <EMT:EMTItems:13>, <minecraft:feather>, "vitium 6, lucrum 4, fames 4");
 mods.thaumcraft.Research.addCruciblePage("ThaumiumReinforcedWings", <EMT:EMTItems:13>);
 mods.thaumcraft.Arcane.addShaped("ThaumiumReinforcedWings", <EMT:EMTItems:14>, "aer 48, terra 48, ignis 48, aqua 48, ordo 48, perditio 48", [
@@ -348,7 +348,7 @@ mods.thaumcraft.Research.setRound("InfusedQuantumArmor", true);
 game.setLocalization("tc.research_name.InfusedQuantumArmor", "Infused Quantum Сhestplate");
 game.setLocalization("tc.research_text.InfusedQuantumArmor", "The last step is here...");
 mods.thaumcraft.Research.addPage("InfusedQuantumArmor", "tc.research_page.InfusedQuantumArmor");
-game.setLocalization("tc.research_page.InfusedQuantumArmor", "You had been nothing to do and you decided to do something useful. You had an idea in your head of making armor which you can fasten the wings or backpack for being protected in flight. Take the wings or backpack in your hands and sit down to put their on armor. To remove them, hold Shift + Unequip (see in options).");
+game.setLocalization("tc.research_page.InfusedQuantumArmor", "You had nothing to do, so you decided to do something useful. You had an idea in your head of making armor which you can fasten the wings or backpack to for being protected in flight. Take the wings or backpack in your hands and sit down to put on their armor. To remove them, hold Shift + Unequip (see in options).");
 mods.thaumcraft.Infusion.addRecipe("InfusedQuantumArmor", <IC2:itemArmorQuantumChestplate:32767>,
 [<EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>, <EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>], 
 "tutamen 72, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16, lucrum 8", <EMT:itemArmorQuantumChestplate:27>, 15);
@@ -366,9 +366,9 @@ game.setLocalization("tc.research_text.IronOmnitool", "Changing tools is for pea
 mods.thaumcraft.Research.addPage("IronOmnitool", "tc.research_page.IronOmnitool");
 game.setLocalization("tc.research_page.IronOmnitool", "While tinkering with the inner workings of some of your tools to see if magical integration is a possibility, you have discovered a way to combine the Mining Drill and the Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies! As you are working with mundane metals, magic influence is not needed to merge these tools together.");
 mods.thaumcraft.Arcane.addShaped("IronOmnitool", <EMT:Omnitool:27>, "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
-[<ore:screwIron>, <gregtech:gt.metatool.01:100>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 25600 as long, Tier: 1 as long, MaxCharge: 100000 as long, Voltage: 32 as long, Electric: 1 as byte, SecondaryMaterial: "StainlessSteel"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20306 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17306 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32518 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17306 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27306 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 8330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20306 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32600 as short}}, "GT.ItemCharge": 100000 as long}), <ore:screwIron>],
-[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-[<ore:craftingToolHardHammer>, <gregtech:gt.metatool.01:110>.withTag({ench: [{lvl: 2 as short, id: 35 as short}, {lvl: 2 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 25600 as long, Tier: 1 as long, MaxCharge: 100000 as long, Voltage: 32 as long, Electric: 1 as byte, SecondaryMaterial: "StainlessSteel"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20306 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17306 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32518 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17306 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27306 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 9330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20306 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32600 as short}}, "GT.ItemCharge": 100000 as long}), <ore:craftingToolWrench>]]);
+[<ore:screwStainlessSteel>, <ore:toolHeadDrillThaumium>, <ore:screwStainlessSteel>],
+[<ore:circuitBasic>, <gregtech:gt.metaitem.01:32518>, <ore:circuitBasic>],
+[<ore:craftingToolHardHammer>, <ore:toolHeadChainsawThaumium>, <ore:craftingToolWrench>]]);
 mods.thaumcraft.Research.addArcanePage("IronOmnitool", <EMT:Omnitool:27>);
 
 // --- Diamond Omnitool
@@ -383,8 +383,8 @@ game.setLocalization("tc.research_name.DiamondOmnitool", "Diamond Omnitool");
 game.setLocalization("tc.research_text.DiamondOmnitool", "Jack of all trades");
 mods.thaumcraft.Research.addPage("DiamondOmnitool", "tc.research_page.DiamondOmnitool");
 game.setLocalization("tc.research_page.DiamondOmnitool", "Your discovery of an Iron Omnitool has driven you to try to accomplish the same with some more powerful devices. You have discovered a way to combine the Diamond Drill and the Diamond Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies, while maintaining the speed and capacity bonuses of the diamond tools. As diamonds are incredibly tough and nearly impossible to reshape once the raw diamonds have been fashioned into tools such as drills and chainsaws, you will require a little bit of magic to coax them to merge.");
-mods.thaumcraft.Infusion.addRecipe("DiamondOmnitool", <EMT:DiamondChainsaw:32767>,
-[<gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32528 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27028 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 8330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32601 as short}}, "GT.ItemCharge": 400000 as long}), <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>],
+mods.thaumcraft.Infusion.addRecipe("DiamondOmnitool", <gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.ItemCharge": 400000 as long}),
+[<EMT:DiamondChainsaw:32767>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>],
 "instrumentum 32, perfodio 24, potentia 24, metallum 16, telum 16, terra 8", <EMT:Diamond Omnitool:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("DiamondOmnitool", <EMT:Diamond Omnitool:27>);
 
@@ -400,7 +400,7 @@ mods.thaumcraft.Research.setRound("ThaumiumOmnitool", true);
 game.setLocalization("tc.research_name.ThaumiumOmnitool", "Thaumium Omnitool");
 game.setLocalization("tc.research_text.ThaumiumOmnitool", "Mystical multitool");
 mods.thaumcraft.Research.addPage("ThaumiumOmnitool", "tc.research_page.ThaumiumOmnitool");
-game.setLocalization("tc.research_page.ThaumiumOmnitool", "After creating the Diamond and Iron Omnitools, the next logical step was to do the same with Thaumium. Unfortunately, this isn't as easy. You have discovered a way to combine the Thaumium Drill and the Thaumium Chainsaw, resulting in a tool capable of mining and chopping trees at great speed with a high energy capacity. These tools have already once been infused with magic. You are not sure what will happen if they were to be infused again.");
+game.setLocalization("tc.research_page.ThaumiumOmnitool", "After creating the Diamond and Iron Omnitools, the next logical step was to do the same with Thaumium. Unfortunately, this isn't as easy. You have discovered a way to combine the Thaumium Drill and the Thaumium Chainsaw, resulting in a tool capable of mining and chopping trees at great speed with a high energy capacity. These tools have already been infused with magic once. You are not sure what will happen if they were to be infused again.");
 mods.thaumcraft.Infusion.addRecipe("ThaumiumOmnitool", <EMT:ThaumiumChainsaw:32767>,
 [<EMT:ThaumiumDrill:32767>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
 "instrumentum 48, perfodio 24, potentia 32, metallum 24, telum 16, terra 8, praecantatio 16", <EMT:ThaumiumOmnitool:27>, 8);
@@ -435,7 +435,7 @@ game.setLocalization("tc.research_name.NanoBootsoftheTraveller", "Nano Boots of 
 game.setLocalization("tc.research_text.NanoBootsoftheTraveller", "Speed demon");
 mods.thaumcraft.Research.addPage("NanoBootsoftheTraveller", "tc.research_page.NanoBootsoftheTraveller");
 game.setLocalization("tc.research_page.NanoBootsoftheTraveller", "Your Electric Boots of the Traveller are nice, but you think you can do better. You have found a way to upgrade these boots to the Nano tier, improving the mechanical components and improving the spell cast on the footwear. These boots allow for higher jumps and faster running than before.");
-mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:*>,
+mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:32767>,
 [<IC2:itemArmorNanoBoots:32767>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
 "motus 48, potentia 24, tutamen 32, praecantatio 16, volatus 8, iter 16", <EMT:NanoBootsTraveller:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller:27>);
@@ -451,8 +451,8 @@ mods.thaumcraft.Research.setRound("QuantumBootsoftheTraveller", true);
 game.setLocalization("tc.research_name.QuantumBootsoftheTraveller", "Quantum Boots of the Traveller");
 game.setLocalization("tc.research_text.QuantumBootsoftheTraveller", "Faster than light");
 mods.thaumcraft.Research.addPage("QuantumBootsoftheTraveller", "tc.research_page.QuantumBootsoftheTraveller");
-game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "You have meddled with Quantum Physics, making these Quantum Boots of the Traveller so fast, that you appear to be in multiple places at once. But do not forget what happened to Schrodinger's cat...");
-mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:*>,
+game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "You have meddled with Quantum Physics, making these Quantum Boots of the Traveller so fast that you appear to be in multiple places at once. But do not forget what happened to Schroedinger's cat...");
+mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:32767>,
 [<IC2:itemArmorQuantumBoots:32767>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:32767>, <IC2:itemPartIridium>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
 "motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller:27>, 9);
 mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller:27>);
@@ -469,7 +469,7 @@ game.setLocalization("tc.research_name.ThaumiumDrill", "Thaumium Drill");
 game.setLocalization("tc.research_text.ThaumiumDrill", "Magical mining");
 mods.thaumcraft.Research.addPage("ThaumiumDrill", "tc.research_page.ThaumiumDrill");
 game.setLocalization("tc.research_page.ThaumiumDrill", "You have discovered a way to infuse Thaumium with mundane electricity. Fusing Thaumium to a Diamond Drill results in a tool that can dig through stone faster and has a higher capacity.<BR><BR>While Thaumium is a very useful and powerful material, it is nowhere near the strength of Iridium. It is considered a mid-tier tool. <BR><BR>This tool may not be the most powerful, but you have a feeling that you will be able to upgrade it in the near future.");
-mods.thaumcraft.Infusion.addRecipe("ThaumiumDrill", <gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32528 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27028 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 8330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32601 as short}}, "GT.ItemCharge": 400000 as long}),
+mods.thaumcraft.Infusion.addRecipe("ThaumiumDrill", <gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.ItemCharge": 400000 as long}),
 [<gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
 "instrumentum 32, perfodio 16, potentia 32, lucrum 24, praecantatio 8", <EMT:ThaumiumDrill:27>, 7);
 mods.thaumcraft.Research.addInfusionPage("ThaumiumDrill", <EMT:ThaumiumDrill:27>);
@@ -485,7 +485,7 @@ mods.thaumcraft.Research.setRound("DrilloftheRockbreaker", true);
 game.setLocalization("tc.research_name.DrilloftheRockbreaker", "Drill of the Rockbreaker");
 game.setLocalization("tc.research_text.DrilloftheRockbreaker", "Mining it big");
 mods.thaumcraft.Research.addPage("DrilloftheRockbreaker", "tc.research_page.DrilloftheRockbreaker");
-game.setLocalization("tc.research_page.DrilloftheRockbreaker", "After studying the Pickaxe of the Core, the Shovel of the Earthmover and the Thaumium Drill, you have managed to combine most of their abilities, resulting in an electric tool that can mine a whole 3x3x1 area of pickaxe and dirt materials very quickly.<BR><BR>This marvelous device is able to find the closest ore clusters on a shift-right click, though at the cost of some EU.");
+game.setLocalization("tc.research_page.DrilloftheRockbreaker", "After studying the Pickaxe of the Core, the Shovel of the Earthmover and the Thaumium Drill, you have managed to combine most of their abilities, resulting in an electric tool that can mine a whole 3x3x1 area of pickaxe and shovel materials very quickly.<BR><BR>This marvelous device is able to find the closest ore clusters on a shift-right click, though at the cost of some EU.");
 mods.thaumcraft.Infusion.addRecipe("DrilloftheRockbreaker", <EMT:ThaumiumDrill:32767>,
 [<Thaumcraft:ItemShovelElemental>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemPickaxeElemental>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
 "instrumentum 48, perfodio 24, potentia 48, lucrum 32, praecantatio 16, ignis 8", <EMT:DrillRockbreaker:27>, 10);
@@ -553,7 +553,7 @@ mods.thaumcraft.Research.setRound("ArmorChargingRing", true);
 game.setLocalization("tc.research_name.ArmorChargingRing", "Armor Charging Ring");
 game.setLocalization("tc.research_text.ArmorChargingRing", "Passive life-saver");
 mods.thaumcraft.Research.addPage("ArmorChargingRing", "tc.research_page.ArmorChargingRing");
-game.setLocalization("tc.research_page.ArmorChargingRing", "You have found the low but constant recharge rate of your new ring to be more useful than anticipated, but it would be nice if it charged your armor when there wasn't a tool in need of power.  By infusing a few more power sources and a piece of armor, you have found a way to have it do just that.  Sadly, the new power sources do not increase the recharge rate, but progress is progress.");
+game.setLocalization("tc.research_page.ArmorChargingRing", "You have found the low but constant recharge rate of your new ring to be more useful than anticipated, but it would be nice if it charged your armor when there wasn't a tool in need of power.  By infusing a few more power sources and a piece of armor, you have found a way to have it do just that. Sadly, the new power sources do not increase the recharge rate, but progress is progress.");
 mods.thaumcraft.Infusion.addRecipe("ArmorChargingRing", <Thaumcraft:ItemBaubleBlanks:1>,
 [<IC2:itemBatLamaCrystal:32767>, <IC2:blockGenerator:5>, <gregtech:gt.blockmachines:1482>, <gregtech:gt.blockmachines:1120>, <IC2:blockKineticGenerator:4>, <IC2:itemStaticBoots>, <IC2:blockKineticGenerator>, <IC2:blockHeatGenerator>, <gregtech:gt.blockmachines:1482>, <gregtech:gt.metaitem.01:32751>],
 "potentia 64, tutamen 32, praecantatio 48, electrum 16, auram 8", <EMT:EMTBaubles>, 8);
@@ -582,7 +582,7 @@ mods.thaumcraft.Arcane.addShaped("ElectricGogglesofRevealing", <EMT:ElectricGogg
 [<ProjRed|Integration:projectred.integration.gate:10>, <IC2:itemAdvBat:32767>, <ProjRed|Integration:projectred.integration.gate:10>]]);
 mods.thaumcraft.Research.addArcanePage("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing:165>);
 
-// --- Nanosuit Goggle of Revealing
+// --- Nanosuit Goggles of Revealing
 mods.thaumcraft.Research.addResearch("NanosuitGogglesofRevealing", "EMT", "tutamen 18, potentia 15, sensus 12, praecantatio 9, auram 6, electrum 3", -4 as int, -2 as int, 3, <EMT:NanosuitGogglesRevealing>);
 mods.thaumcraft.Research.addPrereq("NanosuitGogglesofRevealing", "ElectricGogglesofRevealing", false);
 mods.thaumcraft.Research.setConcealed("NanosuitGogglesofRevealing", true);
@@ -591,13 +591,13 @@ game.setLocalization("tc.research_name.NanosuitGogglesofRevealing", "Nanosuit Go
 game.setLocalization("tc.research_text.NanosuitGogglesofRevealing", "Top-tier eye protection");
 mods.thaumcraft.Research.addPage("NanosuitGogglesofRevealing", "tc.research_page.NanosuitGogglesofRevealing");
 game.setLocalization("tc.research_page.NanosuitGogglesofRevealing", "You have discovered a way to incorporate your previous vis sensors to a Nanosuit Helmet without moving too much around. By infusing the nano helmet with magic, you will be able to use it to see Aura Nodes. During the magical process, the control circuits for the night vision feature are replaced with capacitors to absorb the excess magical energy and vis-sensing microchips. This will prevent you from turning off the night vision effect of the helmet.");
-mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:*>,
+mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:32767>,
 [<IC2:itemArmorNanoHelmet:32767>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:17330>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:32692>, <IC2:itemBatCrystal:32767>, <gregtech:gt.metaitem.01:32692>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.blockmachines:1442>], 
 "tutamen 32, potentia 32, sensus 24, praecantatio 16, auram 8, electrum 8", <EMT:NanosuitGogglesRevealing:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanosuitGogglesofRevealing", <EMT:NanosuitGogglesRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("NanosuitGogglesofRevealing", 1);
 
-// --- Quantum Goggle of Revealing
+// --- Quantum Goggles of Revealing
 mods.thaumcraft.Research.addResearch("QuantumGogglesofRevealing", "EMT", "tutamen 21, potentia 18, sensus 15, praecantatio 12, auram 9, lucrum 6, electrum 3", -2 as int, -2 as int, 4, <EMT:QuantumGogglesRevealing>);
 mods.thaumcraft.Research.addPrereq("QuantumGogglesofRevealing", "NanosuitGogglesofRevealing", false);
 mods.thaumcraft.Research.setConcealed("QuantumGogglesofRevealing", true);
@@ -623,7 +623,7 @@ mods.thaumcraft.Research.setRound("SolarHelmetofRevealing", true);
 game.setLocalization("tc.research_name.SolarHelmetofRevealing", "Solar Helmet of Revealing");
 game.setLocalization("tc.research_text.SolarHelmetofRevealing", "The sunlight hurts my eyes");
 mods.thaumcraft.Research.addPage("SolarHelmetofRevealing", "tc.research_page.SolarHelmetofRevealing");
-game.setLocalization("tc.research_page.SolarHelmetofRevealing", "You now have a helmet that acts exactly like your quantum goggles of revealing, but can also recharge your chest armor! It generates 128 EU/t during the day, and nothing at night.");
+game.setLocalization("tc.research_page.SolarHelmetofRevealing", "You now have a helmet that acts exactly like your quantum goggles of revealing, but can also recharge your chest armor! It generates 128 EU/t during the day, but nothing at night.");
 mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGogglesRevealing:32767>,
 [<EMT:EMTSolars:1>, <gregtech:gt.blockmachines:1624>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.metaitem.01:32694>, <dreamcraft:item.MysteriousCrystal>, <IC2:itemBatLamaCrystal:32767>, <dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:32694>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.blockmachines:1624>], 
 "tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8, aer 16, lux 32", <EMT:SolarHelmetRevealing:27>, 12);
@@ -730,7 +730,7 @@ mods.thaumcraft.Research.setConcealed("EntropyInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.EntropyInfusedSolarPanels", "Entropy Infused Solar Panels");
 game.setLocalization("tc.research_text.EntropyInfusedSolarPanels", "Not afraid of the dark");
 mods.thaumcraft.Research.addPage("EntropyInfusedSolarPanels", "tc.research_page.EntropyInfusedSolarPanels");
-game.setLocalization("tc.research_page.EntropyInfusedSolarPanels", "You know that Solar Panels stop working at nightime. To counter that, you found a way to make your Solar Panels produce energy at night!");
+game.setLocalization("tc.research_page.EntropyInfusedSolarPanels", "You know that Solar Panels stop working at nighttime. To counter that, you found a way to make your Solar Panels produce energy at night!");
 mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars:6>, <EMT:EMTSolars>, "perditio 32, permutatio 32, praecantatio 32, lux 16");
 mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars:6>);
 mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars:7>, <EMT:EMTSolars:1>, "perditio 64, permutatio 64, praecantatio 64, lux 32");
@@ -890,7 +890,7 @@ mods.thaumcraft.Research.setRound("ElectricScribingTools", true);
 game.setLocalization("tc.research_name.ElectricScribingTools", "Electric Scribing Tools");
 game.setLocalization("tc.research_text.ElectricScribingTools", "Save squiddy!");
 mods.thaumcraft.Research.addPage("ElectricScribingTools", "tc.research_page.ElectricScribingTools");
-game.setLocalization("tc.research_page.ElectricScribingTools", "You have decided not to kill any more squid. Therefore, you researched a way to charge your scribing tools, in a way which would make them not needing any ink. Thanks to static electricity, and the ball pen technology, you managed to make the ink inside the scribing tools spin so quickly, that EU could recharge it.");
+game.setLocalization("tc.research_page.ElectricScribingTools", "You have decided not to kill any more squid. Therefore, you researched a way to charge your scribing tools, in a way which would make them not need any ink. Thanks to static electricity, and the ball pen technology, you managed to make the ink inside the scribing tools spin so quickly, that EU can recharge it.");
 mods.thaumcraft.Arcane.addShaped("ElectricScribingTools", <EMT:ElectricScribingTools:400>, "aer 20, ignis 20, aqua 20, ordo 20", [
 [<ore:circuitAdvanced>, <Thaumcraft:ItemInkwell>, <ore:circuitAdvanced>],
 [<Thaumcraft:ItemInkwell>, <IC2:itemBatCrystal:32767>, <Thaumcraft:ItemInkwell>],
@@ -911,7 +911,7 @@ mods.thaumcraft.Research.setRound("Mjolnirnew", true);
 game.setLocalization("tc.research_name.Mjolnirnew", "MjolniR");
 game.setLocalization("tc.research_text.Mjolnirnew", "Godly power");
 mods.thaumcraft.Research.addPage("Mjolnirnew", "tc.research_page.Mjolnirnew");
-game.setLocalization("tc.research_page.Mjolnirnew", "You have travelled the world, in quest for the mighty Hammer of Thor. One day, you stumbled upon its broken remains, and your heart crumbled with it. After some long and tedious research, you found a way to restore this magnificent tool to its past greatness.<BR><BR>You have an odd feeling,(you seem to have a lot of these), that although this tool is amazingly powerful, you could do more with it.");
+game.setLocalization("tc.research_page.Mjolnirnew", "You have travelled the world, in quest for the mighty Hammer of Thor. One day, you stumbled upon its broken remains, and your heart crumbled with it. After some long and tedious research, you found a way to restore this magnificent tool to its past greatness.<BR><BR>You have an odd feeling, (you seem to have a lot of these), that although this tool is amazingly powerful, you could do more with it.");
 mods.thaumcraft.Infusion.addRecipe("Mjolnirnew", <EMT:TaintedMjolnir>,
 [<Thaumcraft:ItemSwordElemental>, <gregtech:gt.metaitem.01:17880>, <EMT:EMTItems:6>, <Thaumcraft:ItemResource:1>, <gregtech:gt.metaitem.01:17880>, <IC2:itemBatCrystal:32767>, <Thaumcraft:FocusShock>, <IC2:itemBatCrystal:32767>, <gregtech:gt.metaitem.01:17880>, <Thaumcraft:ItemResource:1>, <EMT:EMTItems:6>, <gregtech:gt.metaitem.01:17880>], 
 "telum 48, tempestas 48, alienis 32, ira 24, aer 16, ignis 16", <EMT:Mjolnir>, 10);
@@ -929,7 +929,7 @@ mods.thaumcraft.Research.setRound("SuperchargedMjolnir", true);
 game.setLocalization("tc.research_name.SuperchargedMjolnir", "Supercharged Mjolnir");
 game.setLocalization("tc.research_text.SuperchargedMjolnir", "Making it yours");
 mods.thaumcraft.Research.addPage("SuperchargedMjolnir", "tc.research_page.SuperchargedMjolnir");
-game.setLocalization("tc.research_page.SuperchargedMjolnir", "After some more exploring of the dungeons existing all around the worlds and dimensions, you have managed to find a method that makes you able to overpower Thor's power, making his Hammer yours. Furthermore, you have managed to make your Hammer summon defenders, some strange Snow-Golems like creature that shall protect you. However, the hammer lost its power to summon lightning where you desire it to, and creates a ring of lightning around you.");
+game.setLocalization("tc.research_page.SuperchargedMjolnir", "After some more exploration of the dungeons existing all around the worlds and dimensions, you have managed to find a method that makes you able to overpower Thor's power, making his Hammer yours. Furthermore, you have managed to make your Hammer summon defenders, some strange Snow-Golem like creature that shall protect you. However, the hammer lost its power to summon lightning where you desire it to, and creates a ring of lightning around you.");
 mods.thaumcraft.Infusion.addRecipe("SuperchargedMjolnir", <EMT:Mjolnir>,
 [<IC2:itemNanoSaber:32767>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:32767>, <Thaumcraft:FocusHellbat>, <IC2:itemBatLamaCrystal:32767>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource>, <Thaumcraft:ItemResource:1>, <IC2:itemPartIridium>], 
 "telum 64, potentia 64, alienis 48, ira 32, aer 24, ignis 24, bestia 16", <EMT:SuperchargedMjolnir:27>, 15);
@@ -947,7 +947,7 @@ mods.thaumcraft.Research.setRound("LightningSummoner", true);
 game.setLocalization("tc.research_name.LightningSummoner", "Lightning Summoner");
 game.setLocalization("tc.research_text.LightningSummoner", "From vilest enemies");
 mods.thaumcraft.Research.addPage("LightningSummoner", "tc.research_page.LightningSummoner");
-game.setLocalization("tc.research_page.LightningSummoner", "This item is dropped by your archenemy, the Supercharged Creeper. You feel it is going to be very useful later on.<BR><BR>If you dont't have any luck i have a recipe for you to make this magic balls of lighting");
+game.setLocalization("tc.research_page.LightningSummoner", "This item is dropped by your archenemy, the Supercharged Creeper. You feel it is going to be very useful later on.<BR><BR>If you don't have any luck I have a recipe for you to make this magic ball of lightning");
 mods.thaumcraft.Infusion.addRecipe("LightningSummoner", <Thaumcraft:FocusShock>,
 [<Thaumcraft:ItemResource:1>, <minecraft:skull:4>, <minecraft:tnt>, <Thaumcraft:ItemResource>, <minecraft:skull:4>, <minecraft:tnt>, <Thaumcraft:ItemResource:1>, <minecraft:skull:4>, <minecraft:tnt>], 
 "tempestas 16, aer 24, ignis 16, nebrisum 8, permutatio 8",<EMT:EMTItems:6>, 9);
@@ -1078,7 +1078,7 @@ mods.thaumcraft.Research.setConcealed("ShieldFocus", true);
 game.setLocalization("tc.research_name.ShieldFocus", "Shield Focus");
 game.setLocalization("tc.research_text.ShieldFocus", "S.H.I.E.L.D.");
 mods.thaumcraft.Research.addPage("ShieldFocus", "tc.research_page.ShieldFocus");
-game.setLocalization("tc.research_page.ShieldFocus", "With some experimentation with the Portable Hole, you have found out more about the transportation of objects to alternate dimensions. You believe you can reverse these effects to summon a swath of blocks from a dimension full of matter to shield you from any oncoming disaster. Caution is to be taken when using this focus, as when bringing these blocks into our dimension, it will transpose any blocks in the way into the dimension it came from, never to return again. You will also be unable to move while this shield is in existence.");
+game.setLocalization("tc.research_page.ShieldFocus", "With some experimentation with the Portable Hole, you have found out more about the transportation of objects to alternative dimensions. You believe you can reverse these effects to summon a swath of blocks from a dimension full of matter to shield you from any oncoming disaster. Caution is to be taken when using this focus, as when bringing these blocks into our dimension, it will transpose any blocks in the way into the dimension it came from, never to return again. You will also be unable to move while this shield is in existence.");
 mods.thaumcraft.Infusion.addRecipe("ShieldFocus", <Thaumcraft:FocusPortableHole>,
 [<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <IC2:itemPartAlloy>, <gregtech:gt.metaitem.01:17383>, <gregtech:gt.blockreinforced:3>, <dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17383>, <IC2:itemPartAlloy>, <gregtech:gt.blockreinforced:3>], 
 "aer 32, tutamen 40, victus 16, vinculum 24, vitreus 16, praecantatio 8", <EMT:ShieldFocus>, 9);
@@ -1128,7 +1128,7 @@ mods.thaumcraft.Research.setConcealed("EnergyBallFocus", true);
 game.setLocalization("tc.research_name.EnergyBallFocus", "Energy Ball Focus");
 game.setLocalization("tc.research_text.EnergyBallFocus", "Not a toy");
 mods.thaumcraft.Research.addPage("EnergyBallFocus", "tc.research_page.EnergyBallFocus");
-game.setLocalization("tc.research_page.EnergyBallFocus", "It's necessary to put on the BatPack or nano/quant chestplate for using this focus. You need 5120EU to create one ball. It's not recommended for using in a closed space!");
+game.setLocalization("tc.research_page.EnergyBallFocus", "It's necessary to put on the BatPack or nano/quantum chestplate for using this focus. You need 5120EU to create one ball. It's not recommended for using in a closed space!");
 mods.thaumcraft.Infusion.addRecipe("EnergyBallFocus", <Thaumcraft:FocusShock>,
 [<IC2:blockMachine2:1>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1461>], 
 "potentia 24, praecantatio 18, victus 12, praecantatio 12, cognitio 6", <EMT:EnergyBallFocus>, 6);
@@ -1145,7 +1145,7 @@ mods.thaumcraft.Research.setConcealed("ExplosionFocus", true);
 game.setLocalization("tc.research_name.ExplosionFocus", "Explosion Focus");
 game.setLocalization("tc.research_text.ExplosionFocus", "Use only in well-ventilated areas");
 mods.thaumcraft.Research.addPage("ExplosionFocus", "tc.research_page.ExplosionFocus");
-game.setLocalization("tc.research_page.ExplosionFocus", "You have found a way to improve the Nine Hells focus.  By exposing the bats to the explosive properties of a Mining Laser, you have built a focus that acts similarly to the Laser but uses vis instead of EU.  However, its effects are incredibly unstable, so you make a note to be careful.");
+game.setLocalization("tc.research_page.ExplosionFocus", "You have found a way to improve the Nine Hells focus. By exposing the bats to the explosive properties of a Mining Laser, you have built a focus that acts similarly to the Laser but uses vis instead of EU. However, its effects are incredibly unstable, so you make a note to be careful.");
 mods.thaumcraft.Infusion.addRecipe("ExplosionFocus", <Thaumcraft:FocusHellbat>,
 [<IC2:itemToolMiningLaser:32767>, <dreamcraft:item.ReinforcedGlassLense>, <Thaumcraft:ItemResource:1>, <minecraft:firework_charge>, <gregtech:gt.metaitem.02:26541>.withTag({ench: [{lvl: 3 as short, id: 20 as short}], "GT.HasBeenUpdated": 1 as byte}), <minecraft:tnt>, <gregtech:gt.metaitem.02:26541>.withTag({ench: [{lvl: 3 as short, id: 20 as short}], "GT.HasBeenUpdated": 1 as byte}), <minecraft:firework_charge>, <Thaumcraft:ItemResource>, <dreamcraft:item.ReinforcedGlassLense>], 
 "ignis 64, mortuus 24, motus 48, telum 32, praecantatio 16, potentia 10", <EMT:ExplosionFocus>, 9);
@@ -1161,7 +1161,7 @@ mods.thaumcraft.Research.setConcealed("WandFocusCharging", true);
 game.setLocalization("tc.research_name.WandFocusCharging", "Wand Focus: Charging");
 game.setLocalization("tc.research_text.WandFocusCharging", "From vis to electricity");
 mods.thaumcraft.Research.addPage("WandFocusCharging", "tc.research_page.WandFocusCharging");
-game.setLocalization("tc.research_page.WandFocusCharging", "You realized you always carry a wand with you, along with your electric stuff. But sometimes, you have ran out of juice in your electric tools. That's why you created this wand focus. It is very simple, yet very useful, for it drains vis from your wand storage, and charges the items using mundane electricity.");
+game.setLocalization("tc.research_page.WandFocusCharging", "You realized you always carry a wand with you, along with your electric stuff. But sometimes, you have run out of juice in your electric tools. That's why you created this wand focus. It is very simple, yet very useful, for it drains vis from your wand storage, and charges the items using mundane electricity.");
 mods.thaumcraft.Infusion.addRecipe("WandFocusCharging", <IC2:itemBatCrystal:32767>,
 [<gregtech:gt.blockmachines:22>, <gregtech:gt.metaitem.02:21330>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.02:20330>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.blockmachines:1460>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.metaitem.02:20330>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.02:21330>], 
 "permutatio 48, potentia 24, machina 32, praecantatio 16, cognitio 8", <EMT:ChargingFocus>, 9);
@@ -1178,7 +1178,7 @@ mods.thaumcraft.Research.setConcealed("WandFocusWandCharging", true);
 game.setLocalization("tc.research_name.WandFocusWandCharging", "Wand Focus: Wand Charging");
 game.setLocalization("tc.research_text.WandFocusWandCharging", "From electricity to vis");
 mods.thaumcraft.Research.addPage("WandFocusWandCharging", "tc.research_page.WandFocusWandCharging");
-game.setLocalization("tc.research_page.WandFocusWandCharging", "You've discovered a way to take the benefits of the Industrial Recharge station and house them inside of a Charging Focus, reversing its polarity.  Now it will drain electricity from your items in order to recharge your wand, albeit at a rather high cost. Furthermore, you have realized than you need a full set of Electric Armor to be able to start the wand charging process.");
+game.setLocalization("tc.research_page.WandFocusWandCharging", "You've discovered a way to take the benefits of the Industrial Recharge station and house them inside of a Charging Focus, reversing its polarity.  Now it will drain electricity from your items in order to recharge your wand, albeit at a rather high cost. Furthermore, you have realized that you need a full set of Electric Armor to be able to start the wand charging process.");
 mods.thaumcraft.Infusion.addRecipe("WandFocusWandCharging", <EMT:ChargingFocus>,
 [<EMT:EMTMachines>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:20970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.blockmachines:1660>, <IC2:itemBatLamaCrystal:32767>, <gregtech:gt.blockmachines:1660>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.02:20970>, <IC2:itemPartIridium>], 
 "potentia 48, fabrico 32, lucrum 64, permutatio 48, praecantatio 16, cognitio 8, auram 32", <EMT:WandChargingFocus>, 15);
@@ -1200,7 +1200,7 @@ mods.thaumcraft.Research.setConcealed("PotentiaGenerator", true);
 game.setLocalization("tc.research_name.PotentiaGenerator", "Potentia Generator");
 game.setLocalization("tc.research_text.PotentiaGenerator", "Harnessing the power-producing potential of Essentia");
 mods.thaumcraft.Research.addPage("PotentiaGenerator", "tc.research_page.PotentiaGenerator");
-game.setLocalization("tc.research_page.PotentiaGenerator", "After much studying and research, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 4 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing Essentia with EU, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering. <BR><BR>All Essentia Generators give out Gregtech EU, so no transformers are needed, you can make a book containing Information about Essentia Burn Values by putting a Book, a LV circuit and any shard in an MV Assembler");
+game.setLocalization("tc.research_page.PotentiaGenerator", "After much studying and researching, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 4 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing EU with Essentia, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering. <BR><BR>All Essentia Generators give out Gregtech EU, so no transformers are needed, you can make a book containing Information about Essentia Burn Values by putting a Book, a LV circuit and any shard in an MV Assembler");
 mods.thaumcraft.Infusion.addRecipe("PotentiaGenerator", <IC2:blockGenerator:7>,
 [<Thaumcraft:FocusTrade>, <gregtech:gt.metaitem.01:32681>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32601>, <IC2:blockElectric:7>, <gregtech:gt.blockmachines:22>, <Thaumcraft:blockJar>, <IC2:blockMachine:12>, <IC2:blockElectric:7>, <gregtech:gt.metaitem.01:32601>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32681>], 
 "potentia 48, permutatio 32, machina 16, praecantatio 32, metallum 32", <EMT:EssentiaGenerators>, 6);
@@ -1216,7 +1216,7 @@ mods.thaumcraft.Research.setConcealed("IgnisGenerator", true);
 game.setLocalization("tc.research_name.IgnisGenerator", "Ignis Generator");
 game.setLocalization("tc.research_text.IgnisGenerator", "If you can't handle the heat...");
 mods.thaumcraft.Research.addPage("IgnisGenerator", "tc.research_page.IgnisGenerator");
-game.setLocalization("tc.research_page.IgnisGenerator", "Just as you thought, with a bit of tweaking, you have found a way to instead use Ignis Essentia to produce power. On the inside, this machine is able to heat water by consuming Ignis. The steam produced by this heat then spins the turbines, similar to a typical Generator.");
+game.setLocalization("tc.research_page.IgnisGenerator", "Just as you thought, with a bit of tweaking, you have found a way to instead use Ignis Essentia to produce power. On the inside, this machine is able to heat water by consuming Ignis. The steam produced by this heat then spins the turbines, similar to a typical generator.");
 mods.thaumcraft.Crucible.addRecipe("IgnisGenerator", <EMT:EssentiaGenerators:1>, <EMT:EssentiaGenerators>, "ignis 16, permutatio 8, praecantatio 8");
 mods.thaumcraft.Research.addCruciblePage("IgnisGenerator", <EMT:EssentiaGenerators:1>);
 
@@ -1230,7 +1230,7 @@ mods.thaumcraft.Research.setConcealed("AuramGenerator", true);
 game.setLocalization("tc.research_name.AuramGenerator", "Auram Generator");
 game.setLocalization("tc.research_text.AuramGenerator", "Harnessing the magic in the air");
 mods.thaumcraft.Research.addPage("AuramGenerator", "tc.research_page.AuramGenerator");
-game.setLocalization("tc.research_page.AuramGenerator", "Though it took a bit more work than you initially thought, you have found a way to produce EU using Auram Essenita. This required a complete reworking of the machine, relying on Auram's pulsating magical power to spin a Generator.");
+game.setLocalization("tc.research_page.AuramGenerator", "Though it took a bit more work than you initially thought, you have found a way to produce EU using Auram Essentia. This required a complete reworking of the machine, relying on Auram's pulsating magical power to spin a generator.");
 mods.thaumcraft.Crucible.addRecipe("AuramGenerator", <EMT:EssentiaGenerators:2>, <EMT:EssentiaGenerators>, "auram 16, permutatio 8, praecantatio 8");
 mods.thaumcraft.Research.addCruciblePage("AuramGenerator", <EMT:EssentiaGenerators:2>);
 
@@ -1276,7 +1276,7 @@ mods.thaumcraft.Research.setConcealed("LucrumGenerator", true);
 game.setLocalization("tc.research_name.LucrumGenerator", "Lucrum Generator");
 game.setLocalization("tc.research_text.LucrumGenerator", "Greed is Good...?");
 mods.thaumcraft.Research.addPage("LucrumGenerator", "tc.research_page.LucrumGenerator");
-game.setLocalization("tc.research_page.LucrumGenerator", "Your greed kept you going further, so you found a way to convert Lucrum to power.<BR><BR>By Infusing the Potentia Generator with huge amounts of Gold, Permutatio and Lucrum, you managed to build a powerful generator that literally runs on gold.<BR><BR>But as you thought, the Infusion is unstable and will fail easily when you are not prepared.");
+game.setLocalization("tc.research_page.LucrumGenerator", "Your greed kept you going further, so you have found a way to convert Lucrum to power.<BR><BR>By Infusing the Potentia Generator with huge amounts of gold, Permutatio and Lucrum, you managed to build a powerful generator that literally runs on gold.<BR><BR>But as you thought, the Infusion is unstable and will fail easily when you are not prepared.");
 mods.thaumcraft.Infusion.addRecipe("LucrumGenerator", <EMT:EssentiaGenerators>,
 [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>], 
 "permutatio 128, lucrum 256, praecantatio 32, nebrisum 16", <EMT:EssentiaGenerators:5>, 10);
@@ -1313,7 +1313,7 @@ mods.thaumcraft.Research.setConcealed("LargeEssentiaGenerator", true);
 game.setLocalization("tc.research_name.LargeEssentiaGenerator", "Large Essentia Generator");
 game.setLocalization("tc.research_text.LargeEssentiaGenerator", "Burn everything");
 mods.thaumcraft.Research.addPage("LargeEssentiaGenerator", "tc.research_page.LargeEssentiaGenerator");
-game.setLocalization("tc.research_page.LargeEssentiaGenerator", "This must be it. All your efforts to making the Essentia Generators finally payed of. You managed to make a shematic for a reactor like structure that will allow you to create Energy out of almost anything. The only remaining problems are the Chamber and the Walls of this Structure.");
+game.setLocalization("tc.research_page.LargeEssentiaGenerator", "This must be it. All your efforts to making the Essentia generators finally paid off. You managed to make a schematic for a reactor-like structure that will allow you to create Energy out of almost anything. The only remaining problems are the Chamber and the Walls of this structure.");
 mods.thaumcraft.Infusion.addRecipe("LargeEssentiaGenerator", <IC2:blockGenerator:5>,
 [<gregtech:gt.blockmachines:1191>,<EMT:EssentiaGenerators>, <EMT:EssentiaGenerators:1>, <EMT:EssentiaGenerators:2>,<gregtech:gt.blockmachines:1191>, <EMT:EssentiaGenerators:3>, <EMT:EssentiaGenerators:4>, <EMT:EssentiaGenerators:5>], 
 "permutatio 1024, praecantatio 512, lucrum 256, radio 128, nebrisum 64, terminus 32", <gregtech:gt.blockmachines:13000>, 10);
@@ -1328,7 +1328,7 @@ mods.thaumcraft.Research.setConcealed("EssentiaDiffusionCells", true);
 game.setLocalization("tc.research_name.EssentiaDiffusionCells", "Essentia Diffusion Cells");
 game.setLocalization("tc.research_text.EssentiaDiffusionCells", "Take them apart");
 mods.thaumcraft.Research.addPage("EssentiaDiffusionCells", "tc.research_page.EssentiaDiffusionCells");
-game.setLocalization("tc.research_page.EssentiaDiffusionCells", "The inner chamber of your Large Essentia Generator need to widstand the highest mechanical, and magical pressure. It also needs a special catalyst that will activate the Essentia, but your efforts with a Primordial Pearl have failed, they just weren't strong enough...");
+game.setLocalization("tc.research_page.EssentiaDiffusionCells", "The inner chamber of your Large Essentia Generator needs to widstand the highest mechanical and magical pressure. It also needs a special catalyst that will activate the Essentia, but your efforts with a Primordial Pearl have failed, they just weren't strong enough...");
 mods.thaumcraft.Infusion.addRecipe("EssentiaDiffusionCells", <EMT:EMT_GTBLOCK_CASEING:5>,
 [<Avaritia:big_pearl>,<gregtech:gt.metaitem.02:19083>, <gregtech:gt.metaitem.02:19083>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>, <thaumicenergistics:material>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19101>, <gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.01:32684>,<gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>, <thaumicenergistics:material>,<gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19083>, <gregtech:gt.metaitem.02:19083>], 
 "perditio 64, permutatio 64, praecantatio 64, nebrisum 64, radio 64", <EMT:EMT_GTBLOCK_CASEING:1>, 10);
@@ -1343,7 +1343,7 @@ mods.thaumcraft.Research.setConcealed("MagicContainingCasings", true);
 game.setLocalization("tc.research_name.MagicContainingCasings", "Magic Containing Casings");
 game.setLocalization("tc.research_text.MagicContainingCasings", "Keeping the Magic inside");
 mods.thaumcraft.Research.addPage("MagicContainingCasings", "tc.research_page.MagicContainingCasings");
-game.setLocalization("tc.research_page.MagicContainingCasings", "The outer layer of your Large Essentia Generator needs to keep the Essential Radiation in place, but needs to be cooled and aswell. The only solution you found in this topic are Force-Fields.");
+game.setLocalization("tc.research_page.MagicContainingCasings", "The outer layer of your Large Essentia Generator needs to keep the Essential Radiation in place, but needs to be cooled as well. The only solution you found in this topic are Force-Fields.");
 mods.thaumcraft.Infusion.addRecipe("MagicContainingCasings", <EMT:EMT_GTBLOCK_CASEING:4>,
 [<gregtech:gt.metaitem.01:32674>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<gregtech:gt.metaitem.01:32674>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>], 
 "ordo 64, tempus 64, praecantatio 64, nebrisum 64, tutamen 512", <EMT:EMT_GTBLOCK_CASEING>, 10);
@@ -1380,7 +1380,7 @@ mods.thaumcraft.Research.setConcealed("EtheralProcessor", true);
 game.setLocalization("tc.research_name.EtheralProcessor", "Etheral Processor");
 game.setLocalization("tc.research_text.EtheralProcessor", "The sky is blue...");
 mods.thaumcraft.Research.addPage("EtheralProcessor", "tc.research_page.EtheralProcessor");
-game.setLocalization("tc.research_page.EtheralProcessor", "After taping into hell's power with the Infernal Furnace to get some rewards out of your mining sessions, you have something totally different in mind. You are now using the power of the Good, the sky and the so called Paradise. This Ethereal Processor doubles the yield of every smelting recipe, and gives a 10% chance of getting a Thaumium Nugget as a bonus. You can see two drawbacks to this : as it doubles your smelting yield, it takes twice the time to process an item. As it is a highly magical device, some mundane smelting recipes do not seem to work. You are confident that smelting cobblestone into stone will not work into this wonder-machine.");
+game.setLocalization("tc.research_page.EtheralProcessor", "After taping into hell's power with the Infernal Furnace to get some rewards out of your mining sessions, you have something totally different in mind. You are now using the power of the Good, the Sky and the so called Paradise. This Ethereal Processor doubles the yield of every smelting recipe, and gives a 10% chance of getting a Thaumium Nugget as a bonus. You can see two drawbacks to this: as it doubles your smelting yield, it takes twice the time to process an item. As it is a highly magical device, some mundane smelting recipes do not seem to work. You are confident that smelting cobblestone into stone will not work in this wonder-machine.");
 mods.thaumcraft.Infusion.addRecipe("EtheralProcessor", <gregtech:gt.blockmachines:302>,
 [<gregtech:gt.blockmachines:262>, <Thaumcraft:blockMetalDevice:9>, <gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockWoodenDevice>, <Thaumcraft:blockStoneDevice>, <Thaumcraft:blockWoodenDevice>, <gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockMetalDevice:9>], 
 "machina 16, fabrico 16, potentia 24, praecantatio 28, cognitio 8", <EMT:EMTMachines:1>, 9);
