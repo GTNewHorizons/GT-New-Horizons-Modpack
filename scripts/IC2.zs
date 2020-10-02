@@ -691,10 +691,10 @@ recipes.remove(<IC2:blockChargepad:3>);
 recipes.remove(<IC2:blockChargepad:2>);
 
 // --- Charge Pad CESU
-recipes.remove(<IC2:blockChargepad:1>); 
+recipes.remove(<IC2:blockChargepad:1>);
 
 // --- Charge Pad Bat Box
-recipes.remove(<IC2:blockChargepad>); 
+recipes.remove(<IC2:blockChargepad>);
 
 // --- Reactor Pressure Vessel
 recipes.remove(<IC2:blockreactorvessel>);
@@ -759,7 +759,9 @@ recipes.remove(<IC2:itemPartCFPowder>);
 
 
 
-// --- Mining Pipe Tip -> Mining Pipe
+// --- Mining Pipe Tip <-> Mining Pipe
+recipes.addShapeless(<IC2:blockMiningPipe>, [<IC2:blockMiningTip>]);
+//--
 recipes.addShapeless(<IC2:blockMiningTip>, [<IC2:blockMiningPipe>]);
 
 // --- Electric Heat Generator
@@ -1705,13 +1707,13 @@ Assembler.addRecipe(<IC2:blockCrop> * 16, <gregtech:gt.metaitem.02:22809> * 8, <
 
 
 // --- Coal Chunk
-BlastFurnace.addRecipe([<IC2:itemPartCoalChunk>], [<dreamcraft:item.BioChunk>], 1200, 120, 1000); 
+BlastFurnace.addRecipe([<IC2:itemPartCoalChunk>], [<dreamcraft:item.BioChunk>], 1200, 120, 1000);
 
 // --- Carbon Mesh
-BlastFurnace.addRecipe([<IC2:itemPartCarbonMesh>], [<dreamcraft:item.BioOrganicMesh>], 600, 120, 1000); 
+BlastFurnace.addRecipe([<IC2:itemPartCarbonMesh>], [<dreamcraft:item.BioOrganicMesh>], 600, 120, 1000);
 
 // --- Carbon Plate
-BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonPlate>], 600, 120, 1000); 
+BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonPlate>], 600, 120, 1000);
 
 
 
