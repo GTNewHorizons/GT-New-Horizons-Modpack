@@ -759,8 +759,10 @@ recipes.remove(<IC2:itemPartCFPowder>);
 
 
 
-// --- Mining Pipe Tip -> Mining Pipe
+// --- Mining Pipe Tip <-> Mining Pipe
 recipes.addShapeless(<IC2:blockMiningPipe>, [<IC2:blockMiningTip>]);
+//--
+recipes.addShapeless(<IC2:blockMiningTip>, [<IC2:blockMiningPipe>]);
 
 // --- Electric Heat Generator
 recipes.addShaped(<IC2:blockHeatGenerator:3>, [
