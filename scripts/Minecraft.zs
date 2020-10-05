@@ -959,6 +959,11 @@ recipes.remove(<minecraft:fishing_rod>);
 
 // --- Paper
 recipes.removeShaped(<minecraft:paper> * 2, [[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
+// ---
+recipes.removeShaped(<minecraft:paper> * 2, [
+[null, <minecraft:stone_slab>, null],
+[<ore:dustPaper>, <ore:dustPaper>, <ore:dustPaper>],
+[null, <minecraft:stone_slab>, null]]);
 
 // --- Poisonous Potato
 recipes.remove(<minecraft:poisonous_potato>);
@@ -2397,6 +2402,12 @@ recipes.addShaped(<minecraft:fishing_rod>, [
 [null, null, <ore:stickLongWood>],
 [null, <ore:stickLongWood>, <minecraft:string>],
 [<ore:stickLongWood>, <ore:craftingToolWireCutter>, <ore:ringAnyIron>]]);
+
+// --- Paper
+recipes.addShaped(<minecraft:paper> * 2, [
+[null, <minecraft:stone_slab>.reuse(), null],
+[<ore:dustPaper>, <ore:dustPaper>, <ore:dustPaper>],
+[null, <minecraft:stone_slab>.reuse(), null]]);
 
 // --- Paper
 recipes.addShaped(<minecraft:paper> * 2, [
