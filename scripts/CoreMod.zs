@@ -753,6 +753,12 @@ recipes.addShaped(<gregtech:gt.metaitem.01:1343>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
+// --- Compressed Raw Alloy SDHC-120
+recipes.addShaped(<dreamcraft:item.RawSDHCAlloy>, [
+[<ore:screwStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>],
+[<GalaxySpace:item.CompressedDualBronze>, <GalaxySpace:item.CompressedCoal>, <GalaxySpace:item.CompressedDualAluminium>],
+[<ore:screwStainlessSteel>, <ore:craftingToolHardHammer>, <ore:screwStainlessSteel>]]);
+
 
 
 
@@ -906,12 +912,6 @@ recipes.addShaped(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [
 [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 // -
 recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove:1>, <ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>]);
-
-// --- Neutron Reflector Parts
-recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
-[<IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>],
-[<IC2:reactorReflectorThick:0>, <ore:craftingToolWrench>, <IC2:reactorReflectorThick:0>],
-[<IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>]]);
 
 // --- Wooden Brick Form
 recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
