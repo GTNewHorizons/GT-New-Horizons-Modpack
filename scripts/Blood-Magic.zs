@@ -1208,3 +1208,6 @@ CuttingSaw.addRecipe(<AWWayofTime:demonicSlate> * 9, null, <BloodArsenal:blood_s
 
 // --- Ethereal Slate
 CuttingSaw.addRecipe(<AWWayofTime:bloodMagicBaseItems:27> * 9, null, <BloodArsenal:blood_stone:4>, <liquid:lifeessence> * 1000, 4800, 7680);
+
+// --- Blank Slate from Blood Rune recycling recipe
+CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 4, null, <AWWayofTime:AlchemicalWizardrybloodRune>, <liquid:lifeessence> * 250, 1800, 64);
