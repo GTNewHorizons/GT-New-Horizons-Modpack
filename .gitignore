@@ -11,6 +11,7 @@
 # Whitelist config & scripts folders
 !config/*
 !scripts/*
+!resources/*
 
 ##################################################################
 ##Blacklist all folders not modified by GT:NH team either at all
