@@ -93,7 +93,7 @@
                 </add>
                 <num>0</num>
             </round>
-            <str>$r°K</str>
+            <str>$rK</str>
             <str>  $6{humidity}%$f humidity</str>
         </line>
         <line>
