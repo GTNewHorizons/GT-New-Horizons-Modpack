@@ -794,7 +794,11 @@ recipes.addShaped(<gregtech:gt.blockgranites:13>, [
 [<BiomesOPlenty:moss>, <gregtech:gt.blockgranites:11>, <BiomesOPlenty:moss>],
 [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
 
-
+// --- Paper
+recipes.addShaped(<minecraft:paper> * 2, [
+[null, <minecraft:stone_slab>.reuse(), null],
+[<ore:dustPaper>, <ore:dustPaper>, <ore:dustPaper>],
+[null, <minecraft:stone_slab>.reuse(), null]]);
 
 
 

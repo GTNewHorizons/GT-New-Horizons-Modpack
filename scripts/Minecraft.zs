@@ -2405,12 +2405,6 @@ recipes.addShaped(<minecraft:fishing_rod>, [
 
 // --- Paper
 recipes.addShaped(<minecraft:paper> * 2, [
-[null, <minecraft:stone_slab>.reuse(), null],
-[<ore:dustPaper>, <ore:dustPaper>, <ore:dustPaper>],
-[null, <minecraft:stone_slab>.reuse(), null]]);
-
-// --- Paper
-recipes.addShaped(<minecraft:paper> * 2, [
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
 [<ore:dustWood>, <minecraft:water_bucket>, <ore:dustWood>],
 [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>]]);
