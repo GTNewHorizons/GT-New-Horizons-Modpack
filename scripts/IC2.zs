@@ -759,9 +759,6 @@ recipes.remove(<IC2:itemPartCFPowder>);
 
 
 
-// --- Mining Pipe Tip -> Mining Pipe
-recipes.addShapeless(<IC2:blockMiningTip>, [<IC2:blockMiningPipe>]);
-
 // --- Electric Heat Generator
 recipes.addShaped(<IC2:blockHeatGenerator:3>, [
 [<ore:cableGt01AnyCopper>, <gregtech:gt.metaitem.01:32501>, <ore:cableGt01AnyCopper>],
