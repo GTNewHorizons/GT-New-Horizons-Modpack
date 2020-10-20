@@ -359,4 +359,6 @@
 	<ToolTip ItemName="gregtech:gt.comb:130" ToolTip="§4Forestry can't process it"/>
 //BQ Command Blocks
 	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!"/> 
+//emt
+	<ToolTip ItemName="EMT:BaseBaubles" ToolTip="§4The Ring whispers to you, promising power. But at what cost? Long-term usage is NOT advised."/> 	
 </CustomToolTips>
