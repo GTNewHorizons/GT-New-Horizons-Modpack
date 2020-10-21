@@ -1,132 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CustomToolTips>
 //Misc
-	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Prolonged use is not recommended..."/>
-	<ToolTip ItemName="OpenBlocks:sleepingBag" ToolTip="§4Don't use above y-level 128"/>
+	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!"/>
+	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!"/> 
+	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Blast resistance is now 20. DOES NOT PROTECT AGAINST NUKES!"/>
 	<ToolTip ItemName="ExtraUtilities:endConstructor" ToolTip="§3Now: Quite Expensive Device"/>
 	<ToolTip ItemName="ExtraUtilities:dark_portal" ToolTip="§3Riches beyond your imagination"/>
-	<ToolTip ItemName="RIO:item.chip.upgrade:2" ToolTip="§4Disabled Item; No recipe"/>
-    	<ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t"/>
+	<ToolTip ItemName="ExtraUtilities:enderCollector" ToolTip="§4Warning: When broken, the powerful ender collector may vanish in an attempt to collect itself!...and take nearby items with it!"/>
 	<ToolTip ItemName="GalaxySpace:item.JetPack" ToolTip="§4Disabled Item; No recipe"/>
 	<ToolTip ItemName="GalaxySpace:item.JetPack:100" ToolTip="§4Disabled Item; No recipe"/>
+	<ToolTip ItemName="GregsLighting:ic2ElectricFloodlight" ToolTip="§4Maximum voltage in: 32 EU/t"/>
 	<ToolTip ItemName="IguanaTweaksTConstruct:clayBucketLava" ToolTip="§4You need Gloves for it?"/>
 	<ToolTip ItemName="minecraft:lava_bucket" ToolTip="§4You need Gloves for it?"/>
-	<ToolTip ItemName="appliedenergistics2:tile.BlockDrive" ToolTip="§4Do not move chests with AE drives; It may corrupt your profile. No refunds!"/>
+	<ToolTip ItemName="OpenBlocks:sleepingBag" ToolTip="§4Don't use above y-level 128"/>
+	<ToolTip ItemName="RIO:item.chip.upgrade:2" ToolTip="§4Disabled Item; No recipe"/>
 	<ToolTip ItemName="Thaumcraft:ItemManaBean" ToolTip="§4left click disabled"/>
-	<ToolTip ItemName="ExtraUtilities:enderCollector" ToolTip="§4Warning: When broken, the powerful ender collector may vanish in an attempt to collect itself!...and take nearby items with it!"/>
-	
-//Chisel
-	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod"/>
-	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod"/>
-	<ToolTip ItemName="chisel:obsidianChisel" ToolTip="§5Chisel from Chisel Mod"/>
-			
-//Core Mod
-	<ToolTip ItemName="dreamcraft:item.OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot"/>
-	<ToolTip ItemName="dreamcraft:item.OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot"/>
-	<ToolTip ItemName="dreamcraft:dreamcraft_Pollution_bucket" ToolTip="§4Very toxic"/>
-	<ToolTip ItemName="dreamcraft:item.NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.NanoChestJetPack" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.NanoRubberBoots" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartChestplate" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmetEmpty" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmet" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartLeggings" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartChestplate" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.QuantumPartBoots" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmetNightVision" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:item.CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't"/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars"/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars"/>
-	<ToolTip ItemName="dreamcraft:tile.BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars"/>
-	<ToolTip ItemName="dreamcraft:tile.BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200"/>
-	<ToolTip ItemName="dreamcraft:tile.SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325"/>
-	<ToolTip ItemName="dreamcraft:tile.TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450"/>
-	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575"/>
-	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700"/>
-	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000"/>
-	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Personal Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIII" ToolTip="§248H Chunkloader Coin, 96H in Passive Chunkloader, 192H in Personal Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader"/>
-	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader"/>
-	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunkloader Use in Passive and 4H in Personal Chunkloader"/>
-	
-
-//Gregtech	
-	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace"/>
-	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x"/>
-		
-//Enhanced Lootbags	
-	<ToolTip ItemName="enhancedlootbags:lootbag" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:1" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:2" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:3" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:4" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:5" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:6" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:7" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:8" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:9" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:10" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:11" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:12" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:13" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:14" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:15" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:16" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:17" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:18" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:19" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:20" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:21" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:22" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:23" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:24" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:25" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:26" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:27" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:28" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:29" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:30" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:31" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:32" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:33" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:34" ToolTip="§3Enchant with a Fortune III Book"/>
-	<ToolTip ItemName="enhancedlootbags:lootbag:35" ToolTip="§3Enchant with a Fortune III Book"/>
-														
-//Buildcraft
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t"/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald" ToolTip="§22560 RF/t"/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowergold" ToolTip="§62560 RF/t"/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweriron" ToolTip="§91280 RF/t"/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerquartz" ToolTip="§8640 RF/t"/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerwood" ToolTip="§2320 RF/t"/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone" ToolTip="§5320 RF/t"/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerstone" ToolTip="§b160 RF/t"/>
-	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone" ToolTip="§480 RF/t"/>
-	
-//Iron Chets
-	<ToolTip ItemName="IronChest:BlockIronChest" ToolTip="6*9 Inventory - 54 Slots"/>
-	<ToolTip ItemName="IronChest:BlockIronChest:1" ToolTip="9*9 Inventory - 81 Slots"/>
-	<ToolTip ItemName="IronChest:BlockIronChest:3" ToolTip="5*9 Inventory - 45 Slots"/>
-	<ToolTip ItemName="IronChest:BlockIronChest:4" ToolTip="8*9 Inventory - 72 Slots"/>
-	<ToolTip ItemName="IronChest:BlockIronChest:2" ToolTip="12*9 Inventory - 108 Slots"/>
-	<ToolTip ItemName="IronChest:BlockIronChest:5" ToolTip="12*9 Inventory - 108 Slots"/>
-	<ToolTip ItemName="IronChest:BlockIronChest:6" ToolTip="12*9 Inventory - 108 Slots §4Blast Proof"/>
-	
-//Iron Tanks
-	<ToolTip ItemName="BuildCraft|Factory:tankBlock" ToolTip="Stores up to 16 Buckets of one Liquid §4Not portable use a dolly"/>
-	<ToolTip ItemName="irontank:ironTank" ToolTip="Stores up to 32 Buckets of one Liquid §4Not portable use a dolly"/>
-	<ToolTip ItemName="irontank:goldTank" ToolTip="Stores up to 48 Buckets of one Liquid §4Not portable use a dolly"/>
-	<ToolTip ItemName="irontank:diamondTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Not portable use a dolly"/>
-	<ToolTip ItemName="irontank:obsidianTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Blast Proof, not portable use a dolly"/>
-	<ToolTip ItemName="irontank:copperTank" ToolTip="Stores up to 27 Buckets of one Liquid §4Not portable use a dolly"/>
-	<ToolTip ItemName="irontank:silverTank" ToolTip="Stores up to 43 Buckets of one Liquid §4Not portable use a dolly"/>
-	<ToolTip ItemName="irontank:emeraldTank" ToolTip="Stores up to 96 Buckets of one Liquid §4Not portable use a dolly"/>
+	<ToolTip ItemName="Thaumcraft:WandCasting:36" ToolTip="§4Prolonged use is not recommended..."/>
 	
 //Bags
 	<ToolTip ItemName="Backpack:backpack" ToolTip="4*9 Inventory - 36 Slots"/>
@@ -183,25 +72,57 @@
 	<ToolTip ItemName="Backpack:backpack:17" ToolTip="Crafting Backpack with 9 Inventory Slots"/>
 	<ToolTip ItemName="Backpack:backpack:217" ToolTip="Crafting Backpack with 18 Inventory Slots"/>
 	<ToolTip ItemName="Backpack:backpack:31999" ToolTip="§4Disabled Item; No recipe"/>
-		
-//OMT - Fences
-	<ToolTip ItemName="openmodularturrets:fenceTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10"/>
-	<ToolTip ItemName="openmodularturrets:fenceTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20"/>
-	<ToolTip ItemName="openmodularturrets:fenceTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30"/>
-	<ToolTip ItemName="openmodularturrets:fenceTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50"/>
-	<ToolTip ItemName="openmodularturrets:fenceTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80"/>
 	
-//OMT - Walls
-	<ToolTip ItemName="openmodularturrets:hardWallTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10"/>
-	<ToolTip ItemName="openmodularturrets:hardWallTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20"/>
-	<ToolTip ItemName="openmodularturrets:hardWallTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30"/>
-	<ToolTip ItemName="openmodularturrets:hardWallTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50"/>
-	<ToolTip ItemName="openmodularturrets:hardWallTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80"/>
+//Buildcraft
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond" ToolTip="§310240 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweremerald" ToolTip="§22560 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowergold" ToolTip="§62560 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepoweriron" ToolTip="§91280 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerquartz" ToolTip="§8640 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerwood" ToolTip="§2320 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowersandstone" ToolTip="§5320 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowerstone" ToolTip="§b160 RF/t"/>
+	<ToolTip ItemName="BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone" ToolTip="§480 RF/t"/>
 	
-//OMT - AddOns
-	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe"/>
-	<ToolTip ItemName="openmodularturrets:redstoneReactorAddon" ToolTip="§4Disabled Item; No recipe"/>
-	<ToolTip ItemName="openmodularturrets:potentiaAddon" ToolTip="§4Disabled Item; No recipe"/>
+//Chisel
+	<ToolTip ItemName="chisel:chisel" ToolTip="§5Chisel from chisel Mod"/>
+	<ToolTip ItemName="chisel:diamondChisel" ToolTip="§5Chisel from Chisel Mod"/>
+	<ToolTip ItemName="chisel:obsidianChisel" ToolTip="§5Chisel from Chisel Mod"/>
+			
+//Core Mod
+	<ToolTip ItemName="dreamcraft:item.OvenGlove" ToolTip="§3Put both Gloves in the Baubles Ring Slot"/>
+	<ToolTip ItemName="dreamcraft:item.OvenGlove:1" ToolTip="§3Put both Gloves in the Baubles Ring Slot"/>
+	<ToolTip ItemName="dreamcraft:dreamcraft_Pollution_bucket" ToolTip="§4Very toxic"/>
+	<ToolTip ItemName="dreamcraft:item.NanoScubaHelmet" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.NanoPlatedLeggings" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.NanoChestJetPack" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.NanoRubberBoots" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartChestplate" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmetEmpty" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartHelmet" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartLeggings" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartChestplate" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.QuantumPartBoots" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmetNightVision" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartHelmet" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartBoots" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:item.CarbonPartLeggings" ToolTip="§4Don't try to wear this, you can't"/>
+	<ToolTip ItemName="dreamcraft:tile.BloodyThaumium" ToolTip="§5Used for Blood Altar Tier 3 Pillars"/>
+	<ToolTip ItemName="dreamcraft:tile.BloodyVoid" ToolTip="§5Used for Blood Altar Tier 4 Pillars"/>
+	<ToolTip ItemName="dreamcraft:tile.BloodyIchorium" ToolTip="§5Used for Blood Altar Tier 6 Pillars"/>
+	<ToolTip ItemName="dreamcraft:tile.BronzePlatedReinforcedStone" ToolTip="§3Hardness 60 §4Blast Resistance 200"/>
+	<ToolTip ItemName="dreamcraft:tile.SteelPlatedReinforcedStone" ToolTip="§3Hardness 150 §4Blast Resistance 325"/>
+	<ToolTip ItemName="dreamcraft:tile.TitaniumPlatedReinforcedStone" ToolTip="§3Hardness 200 §4Blast Resistance 450"/>
+	<ToolTip ItemName="dreamcraft:tile.TungstensteelPlatedReinforcedStone" ToolTip="§3Hardness 250 §4Blast Resistance 575"/>
+	<ToolTip ItemName="dreamcraft:tile.NaquadahPlatedReinforcedStone" ToolTip="§3Hardness 500 §4Blast Resistance 700"/>
+	<ToolTip ItemName="dreamcraft:tile.NeutroniumPlatedReinforcedStone" ToolTip="§3Hardness 750 §4Blast Resistance 2000"/>
+	<ToolTip ItemName="EnderZoo:enderFragment" ToolTip="§11H Use in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierI" ToolTip="§412H Chunkloader Coin, 24H in Passive Chunkloader, 48H in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierII" ToolTip="§624H Chunkloader Coin, 48H in Passive Chunkloader, 96H in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIII" ToolTip="§248H Chunkloader Coin, 96H in Passive Chunkloader, 192H in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierIV" ToolTip="§896H Chunkloader Coin, 192H in Passive Chunkloader, 384H in Personal Chunkloader"/>
+	<ToolTip ItemName="dreamcraft:item.CoinChunkloaderTierV" ToolTip="§7192H Chunkloader Coin, 384H in Passive Chunkloader, 768H in Personal Chunkloader"/>
+	<ToolTip ItemName="minecraft:ender_pearl" ToolTip="§81H Chunkloader Use in Passive and 4H in Personal Chunkloader"/>
 	
 //Draconic Evolution
 	<ToolTip ItemName="dreamcraft:item.MalformedSlush" ToolTip="§2I hope you are not going to eat this later."/>
@@ -209,21 +130,47 @@
 	<ToolTip ItemName="dreamcraft:item.GlowingMarshmallow" ToolTip="§5Is it me or it just gained pixels from all that heat."/>
 	<ToolTip ItemName="dreamcraft:item.Marshmallow" ToolTip="§6I have a very wired feeling."/>
 	
-//Tinkers Construct
-	<ToolTip ItemName="TConstruct:Smeltery" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
-	<ToolTip ItemName="TConstruct:LavaTank" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
-	<ToolTip ItemName="TConstruct:SearedBlock" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
-	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
-	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
-	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
-
-//Thaumic Tinkers
-	<ToolTip ItemName="ThaumicTinkerer:fireFire" ToolTip="§4ELEMENTAL firespread disabled"/>
-	<ToolTip ItemName="ThaumicTinkerer:fireOrder" ToolTip="§4ELEMENTAL firespread disabled"/>        
-	<ToolTip ItemName="ThaumicTinkerer:fireEarth" ToolTip="§4ELEMENTAL firespread disabled"/>	
-	<ToolTip ItemName="ThaumicTinkerer:fireWater" ToolTip="§4ELEMENTAL firespread disabled"/>		
-	<ToolTip ItemName="ThaumicTinkerer:fireChaos" ToolTip="§4ELEMENTAL firespread disabled"/>
-	<ToolTip ItemName="ThaumicTinkerer:fireAir" ToolTip="§4ELEMENTAL firespread disabled"/>
+//Enhanced Lootbags	
+	<ToolTip ItemName="enhancedlootbags:lootbag" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:1" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:2" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:3" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:4" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:5" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:6" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:7" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:8" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:9" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:10" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:11" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:12" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:13" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:14" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:15" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:16" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:17" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:18" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:19" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:20" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:21" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:22" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:23" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:24" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:25" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:26" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:27" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:28" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:29" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:30" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:31" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:32" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:33" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:34" ToolTip="§3Enchant with a Fortune III Book"/>
+	<ToolTip ItemName="enhancedlootbags:lootbag:35" ToolTip="§3Enchant with a Fortune III Book"/>
+														
+//Gregtech	
+	<ToolTip ItemName="gregtech:gt.blockmachines:108" ToolTip="§4This furnace is deprecated use bricked blast furnace"/>
+	<ToolTip ItemName="gregtech:gt.blockmachines:1154" ToolTip="§4Hot coolant steam output is increased by 5x"/>
 	
 //GT Bee Combs
 	//<ToolTip ItemName="gregtech:gt.comb:0" ToolTip="§4Forestry can't process it"/>
@@ -357,8 +304,59 @@
 	<ToolTip ItemName="gregtech:gt.comb:128" ToolTip="§4Forestry can't process it"/>
 	<ToolTip ItemName="gregtech:gt.comb:129" ToolTip="§4Forestry can't process it"/>
 	<ToolTip ItemName="gregtech:gt.comb:130" ToolTip="§4Forestry can't process it"/>
-//BQ Command Blocks
-	<ToolTip ItemName="cb4bq:BlockREB" ToolTip="§4This block will RESET ALL YOUR QUESTS, starting over from Tier 0. Do NOT build or use unless you really mean it!"/> 
-//EIO	
-	<ToolTip ItemName="EnderIO:blockFusedQuartz" ToolTip="§4Forestry can't process it"/>
+	
+//Iron Chests
+	<ToolTip ItemName="IronChest:BlockIronChest" ToolTip="6*9 Inventory - 54 Slots"/>
+	<ToolTip ItemName="IronChest:BlockIronChest:1" ToolTip="9*9 Inventory - 81 Slots"/>
+	<ToolTip ItemName="IronChest:BlockIronChest:3" ToolTip="5*9 Inventory - 45 Slots"/>
+	<ToolTip ItemName="IronChest:BlockIronChest:4" ToolTip="8*9 Inventory - 72 Slots"/>
+	<ToolTip ItemName="IronChest:BlockIronChest:2" ToolTip="12*9 Inventory - 108 Slots"/>
+	<ToolTip ItemName="IronChest:BlockIronChest:5" ToolTip="12*9 Inventory - 108 Slots"/>
+	<ToolTip ItemName="IronChest:BlockIronChest:6" ToolTip="12*9 Inventory - 108 Slots §4Blast Proof"/>
+	
+//Iron Tanks
+	<ToolTip ItemName="BuildCraft|Factory:tankBlock" ToolTip="Stores up to 16 Buckets of one Liquid §4Not portable use a dolly"/>
+	<ToolTip ItemName="irontank:ironTank" ToolTip="Stores up to 32 Buckets of one Liquid §4Not portable use a dolly"/>
+	<ToolTip ItemName="irontank:goldTank" ToolTip="Stores up to 48 Buckets of one Liquid §4Not portable use a dolly"/>
+	<ToolTip ItemName="irontank:diamondTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Not portable use a dolly"/>
+	<ToolTip ItemName="irontank:obsidianTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Blast Proof, not portable use a dolly"/>
+	<ToolTip ItemName="irontank:copperTank" ToolTip="Stores up to 27 Buckets of one Liquid §4Not portable use a dolly"/>
+	<ToolTip ItemName="irontank:silverTank" ToolTip="Stores up to 43 Buckets of one Liquid §4Not portable use a dolly"/>
+	<ToolTip ItemName="irontank:emeraldTank" ToolTip="Stores up to 96 Buckets of one Liquid §4Not portable use a dolly"/>
+	//Add the new ones later
+	
+//OMT - AddOns
+	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe"/>
+	<ToolTip ItemName="openmodularturrets:redstoneReactorAddon" ToolTip="§4Disabled Item; No recipe"/>
+	<ToolTip ItemName="openmodularturrets:potentiaAddon" ToolTip="§4Disabled Item; No recipe"/>
+		
+//OMT - Fences
+	<ToolTip ItemName="openmodularturrets:fenceTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10"/>
+	<ToolTip ItemName="openmodularturrets:fenceTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20"/>
+	<ToolTip ItemName="openmodularturrets:fenceTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30"/>
+	<ToolTip ItemName="openmodularturrets:fenceTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50"/>
+	<ToolTip ItemName="openmodularturrets:fenceTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80"/>
+	
+//OMT - Walls
+	<ToolTip ItemName="openmodularturrets:hardWallTierOne" ToolTip="Hardness: 10 - Blast Resistance: 10"/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierTwo" ToolTip="Hardness: 20 - Blast Resistance: 20"/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierThree" ToolTip="Hardness: 30 - Blast Resistance: 30"/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierFour" ToolTip="Hardness: 50 - Blast Resistance: 50"/>
+	<ToolTip ItemName="openmodularturrets:hardWallTierFive" ToolTip="Hardness: 80 - Blast Resistance: 80"/>
+	
+//Thaumic Tinkers
+	<ToolTip ItemName="ThaumicTinkerer:fireFire" ToolTip="§4ELEMENTAL firespread disabled"/>
+	<ToolTip ItemName="ThaumicTinkerer:fireOrder" ToolTip="§4ELEMENTAL firespread disabled"/>        
+	<ToolTip ItemName="ThaumicTinkerer:fireEarth" ToolTip="§4ELEMENTAL firespread disabled"/>	
+	<ToolTip ItemName="ThaumicTinkerer:fireWater" ToolTip="§4ELEMENTAL firespread disabled"/>		
+	<ToolTip ItemName="ThaumicTinkerer:fireChaos" ToolTip="§4ELEMENTAL firespread disabled"/>
+	<ToolTip ItemName="ThaumicTinkerer:fireAir" ToolTip="§4ELEMENTAL firespread disabled"/>
+	
+//Tinkers Construct
+	<ToolTip ItemName="TConstruct:Smeltery" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
+	<ToolTip ItemName="TConstruct:LavaTank" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
+	<ToolTip ItemName="TConstruct:SearedBlock" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
+	<ToolTip ItemName="TConstruct:SearedBlock:1" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
+	<ToolTip ItemName="TConstruct:SearedBlock:2" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
+	<ToolTip ItemName="TConstruct:CastingChannel" ToolTip="§3Some metals processed in smeltery don't meet the purity requirement for GregTech processing."/>
 </CustomToolTips>
