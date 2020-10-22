@@ -1,0 +1,13 @@
+#Backup
+aromabackup:backup.start.server=Запуск резервного копирования. Сервер может немного лагать!
+aromabackup:backup.start.client=Запуск резервного копирования. Мир может немного лагать!
+aromabackup:backup.done.server=Резервное копирование сервера выполнено!
+aromabackup:backup.done.client=Резервное копирование мира выполнено!
+aromabackup:backup.failed.server=Ошибка резервного копирования сервера!
+aromabackup:backup.failed.client=Ошибка резервного копирования мира!
+aromabackup:backup.next.server=Следующее запланированное резервное копирование через %s минут.
+aromabackup:backup.next.client=Следующее запланированное резервное копирование через %s минут.
+
+#Command
+aromabackup:command.alreadyrunning=Резервное копирование уже выполняется.
+aromabackup:command.playerstarted=%s запустил резервное копирование.
