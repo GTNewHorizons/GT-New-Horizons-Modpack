@@ -1,0 +1,33 @@
+bbw.key.category=Better Builders Wands
+bbw.key.mode=Изменить режим
+bbw.key.fluidmode=Изменить режим жидкости
+
+item.betterbuilderswands:wandBasic.name=Каменный жезл
+item.betterbuilderswands:wandAdvanced.name=Железная жезл
+item.betterbuilderswands:wandUnrestricted.name=Алмазная жезл
+item.betterbuilderswands:wandUnbreakable.name=Нерушимый жезл
+
+bbw.hover.mode.northsouth=Режим: Режим: Север-Юг
+bbw.hover.mode.verticalnorthsouth=Режим: Север-Юг (+ Вертикаль)
+bbw.hover.mode.eastwest=Режим: Восток-Запад
+bbw.hover.mode.verticaleastwest=Режим: Восток-Запад (+ Вертикаль)
+bbw.hover.mode.horizontal=Режим: горизонтальный
+bbw.hover.mode.vertical= Режим: вертикальный
+bbw.hover.mode.nolock=Режим: без блокировки
+bbw.hover.maxblocks=Максимум %d блоков
+bbw.chat.mode.northsouth=Mode: Mode: North-South - Extend north and south from initial block. No building on north/south face
+bbw.chat.mode.verticalnorthsouth=Mode: North-South (+ Vertical) - Extend north, south, up and down from initial block. No building on north/south face
+bbw.chat.mode.eastwest=Mode: East-West - Extend east and west from the initial block. No building on east/west face
+bbw.chat.mode.verticaleastwest=Mode: East-West (+ Vertical) - Extend east, west, up and down from the original block. No building on east/west face
+bbw.chat.mode.horizontal=Mode: Horizontal - Extend left and right from the original block. No building on top/bottom face.
+bbw.chat.mode.vertical= Mode: Vertical - Extend up and down from the original block. No building on top/bottom face
+bbw.chat.mode.nolock=Mode: No Lock - Extend left, right, up and down from the original block.
+
+bbw.hover.fluidmode.stopat=Жидкость: стоп
+bbw.chat.fluidmode.stopat=Fluid: Stop - Stopped by fluid. Does not build through fluid of any kind.
+bbw.hover.fluidmode.ignore=Жидкость: игнорировать
+bbw.chat.fluidmode.ignore=Жидкость: игнорировать - строится на жидкости (как исходные, так и текущие блоки).
+
+bbw.chat.error.noundo=Я не могу вспомнить, что эта палочка построила в последний раз.
+bbw.chat.error.nowand=Вам нужно запустить это с помощью жезла из Better Builders Wands в руке.
+bbw.chat.error.bot=ИИ может обнаруживать не игроков. Пожалуйста, не делай этого снова.

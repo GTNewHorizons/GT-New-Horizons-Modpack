@@ -1,0 +1,15 @@
+betterachievements.gui.old=Старый экран
+betterachievements.config.cantUnlockArrowColour=Не могу разблокировать цвет стрелки
+betterachievements.config.canUnlockArrowColour=Можно разблокировать цвет стрелки
+betterachievements.config.completeArrowColour=Завершенный цвет стрелки
+betterachievements.config.cantUnlockArrowColour.desc=Цвет стрелки, указывающей на достижение, которое нельзя разблокировать в формате #RRGGBB
+betterachievements.config.canUnlockArrowColour.desc=Цвет стрелки, указывающей на достижение, которое можно разблокировать в формате #RRGGBB
+betterachievements.config.completeArrowColour.desc=Цвет стрелки, указывающей на достижение, которое открывается в формате #RRGGBB
+betterachievements.config.scrollButtons=Включить кнопки прокрутки
+betterachievements.config.scrollButtons.desc=При false кнопки не будут отображаться, все остальные функции будут работать.
+betterachievements.config.listTabIcons=Список значков вкладок
+betterachievements.config.listTabIcons.desc=Список, который определяет значки вкладок, установленных пользователем, это переопределит все значки набора кода
+betterachievements.config.iconReset=Изменение значка в игре
+betterachievements.config.iconReset.desc=Измените значок вкладки в игре, щелкнув средней кнопкой мыши достижение на странице
+betterachievements.config.userColourOverride=Всегда используйте установленные пользователем цвета для стрелок
+betterachievements.config.userColourOverride.desc=Переопределяет цвета, установленные модом для стрелок

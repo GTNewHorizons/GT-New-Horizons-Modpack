@@ -1,0 +1,253 @@
+#CreativeTab
+itemGroup.BA_TAB=Blood Arsenal
+
+#Blocks
+tile.blood_stone_1.name=Пустой кровавый камень
+tile.blood_stone_2.name=Укрепленный кровавый камень
+tile.blood_stone_3.name=Прочный кровавый камень
+tile.blood_stone_4.name=Демонический кровавый камень
+tile.blood_stone_5.name=Эфирный кровавый камень
+tile.blood_tnt.name=Кровавое TNT
+tile.blood_stained_glass.name=Витражи с кровью
+tile.blood_stained_ice.name=Окрашенный кровью лед
+tile.blood_stained_ice_packed.name=Запачканный кровью плотный лед
+tile.blood_infused_wood.name=Пропитанное кровью дерево
+tile.blood_infused_planks.name=Пропитанная кровью деревянная доска
+tile.blood_infused_iron_block.name=Пропитанный кровью железный блок
+tile.blood_torch.name=Кровавый факел
+tile.blood_infused_glowstone.name=Пропитанный кровью светящийся камень
+tile.blood_lamp.name=Кровавая лампа
+tile.blood_infused_diamond_block.name=Пропитанный кровью алмазный блок
+tile.portable_altar.name=Переносной алтарь
+tile.life_infuser.name=Инфузор жизни
+tile.lp_materializer.name=Материализатор жизненной эссенции
+tile.compacter.name=Soul Compacter
+tile.compacted_mrs.name=Уплотненный мастер-ритуальный камень
+tile.blood_cake.name=Кровавый торт
+tile.block_burned_string.name=Обожженная кровью нить
+
+#Items
+item.bound_bow.name=Bound Bow
+item.blood_orange.name=Blood Orange
+item.blood_infused_stick.name=Blood Infused Stick
+item.blood_infused_pickaxe_wood.name=Blood Infused Wooden Pickaxe
+item.blood_infused_axe_wood.name=Blood Infused Wooden Axe
+item.blood_infused_shovel_wood.name=Blood Infused Wooden Shovel
+item.blood_infused_sword_wood.name=Blood Infused Wooden Sword
+item.amorphic_catalyst.name=Amorphic Catalyst
+item.bound_sickle.name=Bound Sickle
+item.bound_shears.name=Bound Shears
+item.blood_infused_iron.name=Blood Infused Iron Ingot
+item.blood_infused_pickaxe_iron.name=Blood Infused Iron Pickaxe
+item.blood_infused_axe_iron.name=Blood Infused Iron Axe
+item.blood_infused_shovel_iron.name=Blood Infused Iron Shovel
+item.blood_infused_sword_iron.name=Blood Infused Iron Sword
+item.blood_diamond.name=Blood Diamond
+item.blood_infused_diamond_unactive.name=Blood Infused Diamond (Unactive)
+item.blood_infused_diamond_active.name=Blood Infused Diamond (Active)
+item.blood_infused_diamond_bound.name=Bound Diamond
+item.blood_infused_pickaxe_diamond.name=Blood Infused Diamond Pickaxe
+item.blood_infused_axe_diamond.name=Blood Infused Diamond Axe [WIP]
+item.blood_infused_shovel_diamond.name=Blood Infused Diamond Shovel
+item.blood_infused_sword_diamond.name=Blood Infused Diamond Sword [WIP]
+item.heart.name=Heart
+item.bound_igniter.name=Bound Igniter
+item.soul_fragment.name=Soul Fragment
+item.soul_booster.name=Soul Booster
+item.soul_nullifier.name=Soul Nullifier
+item.blood_cookie.name=Blood Cookie
+item.orange_juice.name=Orange Juice
+item.juice_and_cookies.name=Juice and Cookies
+item.vampire_cape.name=Vampire Cape
+item.vampire_greaves.name=Vampire Greaves
+item.vampire_boots.name=Vampire Boots
+item.vampire_ring.name=Vampire Ring
+item.energy_gatling.name=Energy Gatling [WIP]
+item.sigil_of_swimming.name=Sigil of Swimming
+item.sigil_of_ender.name=Ender Sigil
+item.blood_infused_glowstone_dust.name=Blood Infused Glowstone Dust
+item.sacrifice_amulet.name=Amulet of Sacrifice
+item.self_sacrifice_amulet.name=Amulet of Self Sacrifice
+item.sigil_of_divinity.name=Sigil of Divinity
+item.blood_ball.name=Blood Ball
+item.item_blood_cake.name=Blood Cake
+item.wolf_hide.name=Wolf Hide
+item.blood_money1.name=Blood Money x1
+item.blood_money4.name=Blood Money x4
+item.blood_money16.name=Blood Money x16
+item.blood_money64.name=Blood Money x64
+item.blood_burned_string.name=Blood Burned String
+item.glass_shard.name=Glass Shard
+item.empowered_sacrifice_amulet.name=Empowered Sacrifice Amulet
+item.empowered_self_sacrifice_amulet.name=Empowered Self Sacrifice Amulet
+item.empowered_amulet_containing=(Containing Mode)
+item.empowered_amulet_soul_network=(Soul Network Mode)
+item.sigil_of_augmented_holding.name=Sigil of Augmented Holding
+item.sigil_of_lightning.name=Lightning Sigil
+item.glass_sacrificial_dagger.name=Glass Sacrificial Dagger
+item.glass_sacrificial_orb.name=Glass Sacrificial Orb
+item.glass_dagger_of_sacrifice.name=Glass Dagger of Sacrifice
+item.glass_helmet.name=Glass Helmet
+item.glass_chestplate.name=Glass Chestplate
+item.glass_leggings.name=Glass Leggings
+item.glass_boots.name=Glass Boots
+item.transparent_orb.name=Transparent Orb
+item.life_imbued_helmet.name=Life Imbued Helmet
+item.life_imbued_chestplate.name=Life Imbued Chestplate
+item.life_imbued_leggings.name=Life Imbued Leggings
+item.life_imbued_boots.name=Life Imbued Boots
+item.bound_diamond_shard_.name=Bound Diamond Shard
+item.bound_diamond_shard_air.name=Bound Diamond Air Shard
+item.bound_diamond_shard_earth.name=Bound Diamond Earth Shard
+item.bound_diamond_shard_fire.name=Bound Diamond Fire Shard
+item.bound_diamond_shard_water.name=Bound Diamond Water Shard
+item.bound_diamond_shard_dusk.name=Bound Diamond Dusk Shard
+item.bound_diamond_shard_dawn.name=Bound Diamond Dawn Shard
+item.wand_caps.blood_iron.name=Blood Infused Iron Cap
+item.wand_cores.blood_wood.name=Blood Infused Wooden Rod
+item.wand_cores.blood_wood_staff.name=Blood Infused Wooden Staff Of Doom
+item.Wand.blood_iron.cap=Blood Iron Topped
+item.Wand.blood_wood.rod=Blood Wood
+
+#Death Texts
+death.attack.deathFromBlood=%1$s lost too much blood
+
+#Tooltips
+tooltip.itemba.amorphic_catalyst=A coagulated mess
+tooltip.itemba.blood_infused_stick=A stick infused with life!
+tooltip.itemba.blood_infused_iron1=Mundane iron infused
+tooltip.itemba.blood_infused_iron2=with life essence
+tooltip.itemba.heart=Bright red in color
+tooltip.itemba.soul_fragment=The raw essence of a soul
+tooltip.itemba.blood_cookie=A sugary treat
+tooltip.itemba.blood_orange=Completely organic
+tooltip.itemba.soul_booster1=Used to increase
+tooltip.itemba.soul_booster2=the soul's abilities
+tooltip.itemba.soul_nullifier1=Used to nullify
+tooltip.itemba.soul_nullifier2=the soul's unnatural abilities
+tooltip.itemba.glass_shard=Remember this?
+tooltip.tool.bound_bow=Let Demon arrows fly!
+tooltip.tool.bound_igniter=Burning souls...
+tooltip.tool.bound_shears1=A demonic solution
+tooltip.tool.bound_shears2=to an overgrown lawn
+tooltip.tool.bound_sickle1=Hacking down plants
+tooltip.tool.bound_sickle2=like a demon!
+tooltip.tool.energy_gatling=Point and click.
+tooltip.tool.blood_diamond_unactive1=Diamond needs to
+tooltip.tool.blood_diamond_unactive2=be activated
+tooltip.tool.blood_diamond_active1=Diamond infused
+tooltip.tool.blood_diamond_active2=with life essence
+tooltip.tool.blood_diamond_bound=The Diamond of Life
+tooltip.tool.blood_infused_diamond_axe=Demonic deforestation!
+tooltip.tool.blood_infused_diamond_pickaxe=A handheld quarry
+tooltip.tool.blood_infused_diamond_shovel=Making a hole
+tooltip.tool.blood_infused_diamond_sword=Slices right through!
+tooltip.tool.glassSacrificeDagger=Don't play with this!
+tooltip.tool.glassDaggerOfSacrifice=Making it hurt
+tooltip.sigil.swimming=Just keep swimming!
+tooltip.sigil.ender1=Sticking your hand
+tooltip.sigil.ender2=into the End!
+tooltip.sigil.divinity=May the Divines protect you!
+tooltip.sigil.augmentedHolding=Hold all the sigils!
+tooltip.sigil.lightning=Let 'er rip!
+tooltip.sigil.lightning2=Mode:
+tooltip.bloodMoney.money=Pay your debts in blood!
+tooltip.boundDiamondShard.shard=Elemental shards of doom
+tooltip.armor.glassArmor=More painful than it looks
+tooltip.armor.lifeImbuedArmor=Living Armor
+tooltip.energybattery.currentLP=Current LP:
+
+tooltip.shiftinfo=-Press &cSHIFT&7 for more info-
+
+tooltip.ritualName=Ritual:
+
+tooltip.running=Running:
+tooltip.yes=Yes
+tooltip.no=No
+tooltip.direction=Direction:
+
+tooltip.currentEssence=Current Essence:
+tooltip.altarTier=Altar Tier:
+tooltip.capacity=Capacity:
+
+tooltip.speedUpgrades=Speed Upgrades:
+tooltip.efficiencyUpgrades=Efficiency Upgrades:
+tooltip.sacrificeUpgrades=Sacrifice Upgrades:
+tooltip.selfSacrificeUpgrades=Self-Sacrifice Upgrades:
+tooltip.displacementUpgrades=Dislocation Upgrades:
+tooltip.altarCapacitiveUpgrades=Capacity Upgrades:
+tooltip.orbCapacitiveUpgrades=Orb Upgrades:
+tooltip.betterCapacitiveUpgrades=Superior Capacity Upgrades:
+tooltip.accelerationUpgrades=Acceleration Upgrades:
+
+tooltip.fillable.currentAmount=Stored LP:
+
+tooltip.bauble.sacrifice=Collecting some life!
+tooltip.bauble.empowered_sacrifice=Collecting more life!
+tooltip.bauble.self_sacrifice=Collecting your life!
+tooltip.bauble.empowered_self_sacrifice=Collecting more of your life!
+
+#Messages
+message.bloodMoney.tooMuch=Your Soul Network cannot hold that much LP.
+
+message.cake.lie=The cake is a lie!
+message.cake.eating=Omm nom nom!
+message.cake.tooFull=You are too full to eat any cake
+
+message.door.severedConnection=You have severed a connection to the Soul Network!
+message.door.tooWeak=You are too weak to open the door.
+message.door.draining=You feel an odd draining sensation as the door actively resists you.
+
+message.compacter.notEnoughLP=There is not enough LP in your Soul Network!
+message.compacter.itemInAltar=There is an item in the altar!
+message.compacter.wrongOrbTier=You need a better orb to do this!
+
+message.enchant.noAltar=There is no altar!
+message.enchant.noPedestals=There are no pedestals!
+message.enchant.noEnchantItem=There is no item to enchant!
+message.enchant.noEnchantments=There are no enchantments to apply!
+message.enchant.notEnoughLP=You do not have enough LP!
+message.enchant.The enchantment is not valid for the item
+
+message.tile.contains=Contains:
+
+message.altarCurrentTier=Altar's Current Tier:
+message.capacity=Capacity:
+message.altarProgress=Altar's Progress:
+message.consumptionRate=Consumption rate:
+message.altarEssence=Altar's Current Essence:
+message.inputTank=Input tank:
+message.outputTank=Output tank:
+
+#Miscs
+ba.versioning.outdated=You are using Blood Arsenal %s; the latest is %s.
+ba.versioning.updateMessage=["Click to [",{"text":"Download","color":"red","hoverEvent":{"action":"show_text","value":{"text":"Click this to auto-magically download the latest version","color":"red"}},"clickEvent":{"action":"run_command","value":"/bloodarsenal-download-latest %version%"}},"] [",{"text":"Website","color":"red","hoverEvent":{"action":"show_text","value":{"text":"Click this to go to the website","color":"red"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/mc-mods/228823-blood-magic-addon-blood-arsenal/files"}},"] [",{"text":"Changelog","color":"red","hoverEvent":{"action":"show_text","value":{"text":"Click this to go see the changelog","color":"red"}},"clickEvent":{"action":"open_url","value":"http://www.curse.com/mc-mods/minecraft/228823-blood-magic-addon-blood-arsenal#t1:changes"}},"]"]
+ba.versioning.startingDownload=[{"text":"Starting download of %s Please do not remove your hard disk.", "color":"orange"},{"text":"Support Arcaratus","color":"cyan"},{"text":" on [","color":"orange"},{"text":"Patreon","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"Click this to go to Arcaratus's Patreon","color":"cyan"}},"clickEvent":{"action":"open_url","value":"http://www.patreon.com/Arcaratus"}},{"text":"]!","color":"orange"}]
+ba.versioning.doneDownloading=Завершена загрузка %s. Удалите старый .jar Blood Arsenal и перезагрузите игру для обновления.
+ba.versioning.error=Произошла ошибка при загрузке мода!
+ba.versioning.downloadedAlready=У вас уже установлена ​​последняя версия, удалите старый .jar Blood Arsenal и перезагрузите игру, чтобы обновить ее!
+ba.versioning.downloadingAlready=It's downloading! Be patient!
+ba.versioning.disabled=This feature is disabled.
+owner=Owner:
+
+#TConstruct Stuffs
+material.bloodarsenal.blood_infused_wood=Blood Infused Wood
+material.bloodarsenal.blood_infused_iron=Blood Infused Iron
+
+fluid.molten.blood_infused_iron=Molten Blood Infused Iron
+
+modifier.toolstation.Soulbound=Soulbound
+
+#Thaumcraft Entries
+blood_arsenal.research_name.CAP_blood_iron=Blood Infused Iron Caps
+blood_arsenal.research_text.CAP_blood_iron=Imbued with life
+blood_arsenal.research_page.CAP_blood_iron.1=Алхимические колпачки были только началом. Вы знаете, что, как и дерево, наполненное кровью, железо, насыщенное кровью, также обладает регенерирующими свойствами, поэтому вы выдвинули теорию о способе объединить насыщенное кровью железо в алхимический колпачок, сделав его ... почти живым! Они дают лучшую скидку, чем алхимические колпачки, и кажутся более эффективными при потреблении LP в сочетании с деревянным жезлом, наполненным кровью. Однако это регенерирующее свойство кажется слишком сильным для стандартного Кровавого Жезла, что делает его инертным, если его надеть на Кровавый Жезл.
+#
+blood_arsenal.research_name.ROD_blood_wood=Blood Infused Wood Cores
+blood_arsenal.research_text.ROD_blood_wood=Pulsating with life
+blood_arsenal.research_page.ROD_blood_wood.1=Ваши работы с Жезлами Крови заставили вас задуматься, можете ли вы использовать свойства Пропитанного кровью дерева так же, как вы использовали Жезлы крови. Размышляя над этой мыслью, вы понимаете, что с небольшим катализатором и некоторым мистическим вливанием, это да! Действительно, можно улучшить Blood Rod с помощью Blood Infused Wood, которая дает ему гораздо более высокие регенеративные способности. Ни одна палочка не была такой живой! Заряжая его с удвоенной скоростью, вы можете зарядить палочку в кратчайшие сроки. Однако есть один недостаток: он использует намного больше LP, чем когда-либо делал Blood Rod. Даже с алхимическими колпачками он все еще использует больше, чем Кровавый жезл. Отчаявшись найти обходной путь, вы задаетесь вопросом, сможете ли вы
+blood_arsenal.research_page.ROD_blood_wood.2=применить те же принципы к алхимическим шапкам ...
+#
+blood_arsenal.research_name.ROD_blood_wood_staff=Blood Infused Wood Staff Core
+blood_arsenal.research_text.ROD_blood_wood_staff=Bringing Doom to the party
+blood_arsenal.research_page.ROD_blood_wood_staff.1=Даже с вашей в высшей степени восстанавливающей палочкой и колпачками вы все еще не удовлетворены. Вы знаете, что когда Кровавые Жезлы превращаются в Ядра Кровавого Посоха, они регенерируют в четыре раза быстрее, но удерживают половину Вис. Работая с некоторой темной магией и ядром посоха крови, теперь вы можете создать живой ужас. Этот могучий посох восстанавливается в 2 раза быстрее, чем Кровавый посох, но именно здесь регенерирующие возможности Кровавого дерева достигают своих пределов: само дерево, по-видимому, пытается регенерировать быстрее, чем это может физически. Чтобы компенсировать это, он должен вытягивать жизнь из игрока каждый раз, когда восстанавливает Вис. И в отличие от других жезлов крови, ему все равно, выживете вы или нет ...

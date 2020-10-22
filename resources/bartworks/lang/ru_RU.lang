@@ -1,0 +1,171 @@
+itemGroup.GT2C=Gregtech 2 Compat
+item.GT_Rockcutter_Item_LV.name=Rockcutter LV
+item.GT_Rockcutter_Item_MV.name=Rockcutter MV
+item.GT_Rockcutter_Item_HV.name=Rockcutter HV
+item.GT_Teslastaff_Item.name=Teslastaff
+BW_ItemBlocks.0.name=Etched Lapis Cell
+BW_ItemBlocks.1.name=Plated Lapis Cell
+GT_LESU_CASING.0.name=LESU Casing
+
+itemGroup.bartworks=BartWorks Inter Temporal
+BW_Machinery_Casings.0.name=Nickel-Zinc Ferrite Block
+BW_Machinery_Casings.1.name=Transformer-Winding Block
+item.BW_PaperRotor.name=Primitive Paper Rotor (Wind only)
+item.BW_LeatherRotor.name=Primitive Leather Rotor (Wind only)
+item.BW_WoolRotor.name=Primitive Wool Rotor (Wind only)
+item.BW_CombinedRotor.name=Combined Primitive Rotor (Wind only)
+tile.BWRotorBlock.0.name=Primitive Kinetic Shaftbox
+item.grindstone_top.name=Grindstone Top Piece
+item.grindstone_bottom.name=Grindstone Bottom Piece
+item.completed_grindstone.name=Grindstone
+item.rotors.leatherParts.name=Leather Covered Wood Frame
+item.rotors.woolParts.name=Wool Covered Wood Frame
+item.rotors.paperParts.name=Paper Covered Wood Frame
+item.rotors.combinedParts.name=Multiple Material Covered Wood Frame
+item.BW_SimpleWindMeter.name=Simple Wind Meter
+tile.BWHeatedWaterPump.0.name=Simple Stirling Water Pump
+item.BWrawtube.name=Elongated Glass Tube
+item.BWmotor.name=Simple Stirling Motor
+item.BWstove.name=Simple Heated Stove
+
+itemGroup.BioTab=BartWorks BioEngineering
+filled.item.petriDish.name=Petri Dish with a Culture
+item.petriDish.name=Sterilized Petri Dish
+item.DNASampleFlask.name=DNA Sample Flask
+item.PlasmidCell.name=Plasmid Sample Flask
+item.DetergentPowder.name=Detergent Powder
+item.Agarose.name=Agarose
+item.IncubationModule.name=Incubation Module
+item.Cells.name=Bacterial Cells
+item.PlasmaMembrane.name=Plasma Membrane
+labModule.item.DNAExtractionModule.name=DNA Extraction Module
+labModule.item.PCRThermoclyclingModule.name=PCR Thermocycle Module
+labModule.item.PlasmidSynthesisModule.name=Plasmid Synthesis Module
+labModule.item.TransformationModule.name=Transformation Module
+labModule.item.ClonalCellularSynthesisModule.name=Clonal Cellular Synthesis Module
+BW_GlasBlocks.0.name=Borosilicate Glass Block
+BW_GlasBlocks.1.name=Nickel Reinforced Borosilicate Glass Block
+BW_GlasBlocks.2.name=Tungsten Reinforced Borosilicate Glass Block
+BW_GlasBlocks.3.name=Chrome Reinforced Borosilicate Glass Block
+BW_GlasBlocks.4.name=Iridium Reinforced Borosilicate Glass Block
+BW_GlasBlocks.5.name=Osmium Reinforced Borosilicate Glass Block
+BW_GlasBlocks.6.name=Colored Borosilicate Glass Block (Red)
+BW_GlasBlocks.7.name=Colored Borosilicate Glass Block (Green)
+BW_GlasBlocks.8.name=Colored Borosilicate Glass Block (Purple)
+BW_GlasBlocks.9.name=Colored Borosilicate Glass Block (Yellow)
+BW_GlasBlocks.10.name=Colored Borosilicate Glass Block (Light Green)
+BW_GlasBlocks.11.name=Colored Borosilicate Glass Block (Brown)
+BW_GlasBlocks.12.name=Thorium Yttrium Glass Block
+
+tooltip.glas.0.name=Glass-Tier:
+tooltip.LESU.0.name=Maximum Capacity!
+tooltip.LESU.1.name=Multiple Controllers!
+
+tooltip.windmeter.0.name=A simple Windmeter to choose a place for the Windmill.
+tooltip.windmeter.1.name=Uses left:
+tooltip.windmeter.2.name=non existant
+tooltip.windmeter.3.name=pretty low
+tooltip.windmeter.4.name=common
+tooltip.windmeter.5.name=rather strong
+tooltip.windmeter.6.name=very strong
+tooltip.windmeter.7.name=too strong
+tooltip.windmeter.8.name=The wind here seems to be
+tooltip.rotor.0.name=Diameter:
+tooltip.rotor.1.name=Durability:
+tooltip.rotor.2.name=Efficiency:
+tooltip.cp.0.name=Has Circuit inside?
+
+tooltip.bw.0.name=Added by
+tooltip.bw.1.name=Added by bartimaeusnek via
+tooltip.bw.yes.name=Yes
+tooltip.bw.no.name=No
+tooltip.bw.tier.name=Tier:
+tooltip.bw.kg.0.name=kg
+tooltip.bw.kg.1.name=kgs
+tooltip.bw.empty.name=Empty
+
+tooltip.teslastaff.0.name=No warranty!
+tooltip.labmodule.0.name=A Module used to change the BioLab's working Mode
+tooltip.labparts.0.name=An empty Sterilized Petri Dish.
+tooltip.labparts.1.name=An empty DNA Flask.
+tooltip.labparts.2.name=An empty Plasmid Cell.
+tooltip.labparts.3.name=A special washing powder for Bio Engineering.
+tooltip.labparts.4.name=A powder for the separation of DNA by electrophoresis.
+tooltip.labparts.5.name=A Petri Dish containing:
+tooltip.labparts.6.name=This is a weak culture, it can not be bred in the Bacterial Vat!
+tooltip.labparts.7.name=A DNA Flask containing:
+tooltip.labparts.8.name=A Plasmid Cell containing:
+
+tooltip.tile.waterpump.0.name=Produces
+tooltip.tile.waterpump.1.name=L/s Water when fueled. Causes 5 Pollution per second.
+tooltip.tile.waterpump.2.name=Must be placed on the Ground.
+
+tooltip.tile.mbf.0.name=Controller Block for the Mega Blast Furnace;Size(WxHxD): 15x20x15 (Hollow);Controller: 3nd Layer Middle Center;Inner 13x18x13 Heating Coils (Hollow);Outer 15x18x15 Boronsilicate Glass;The glass limits the Energy Input tier;1+ Input Hatch/Bus (Any casing);1+ Output Hatch/Bus (Any casing);1+ Energy Hatch (Any casing);1x Maintenance Hatch (Any casing);13x13 Muffler Hatches (Top middle);Heat Proof Machine Casings for the outer 15x15 (Layer 20);1+ Output Hatch to recover CO2/CO/SO2 (optional, any top layer casing);    Recovery scales with Muffler Hatch tier;Heat Proof Machine Casings for Base;Each 900K over the min. Heat Capacity grants 5% speedup (multiplicatively);Each 1800K over the min. Heat Capacity allows for one upgraded overclock;Upgraded overclocks reduce recipe time to 25% and increase EU/t to 400%;Causes maximum
+tooltip.tile.mbf.1.name=Pollution per second
+tooltip.tile.mvf.0.name=Controller Block for the Mega Vacuum Freezer;Super cools hot ingots and cells;Size(WxHxD): 15x15x15 (Hollow);Controller: (Front centered);1x Input Bus (Any casing);1x Output Bus (Any casing);1x Maintenance Hatch (Any casing);1x Energy Hatch (Any casing);Frost Proof Machine Casings for the rest
+tooltip.tile.bvat.0.name=Controller Block for the Bacterial Vat;Size(WxHxD): 5x4x5;Bottom and top are Stainless Steel Casings;Bottom or top must contain:;1x Maintenance, 1x Output Hatch;1 or more Input Hatches, 1 or more Input Buses, 0-1 Radio Hatch;The two middle layers must be build out of glass, hollow;The glass can be any glass, i.e. Tinkers Construct Clear Glass;Some Recipes need more advanced Glass Types;For maximum efficiency boost keep the Output Hatch always half filled!
+tooltip.tile.windmill.0.name=A primitive Grinder powered by Kinetic energy.;Size(WxHxD): 7x12x7;Layer 1: 7x7 Bricks, corners are air, controller at front centered.;Layer 2-5: 5x5 Hardened Clay, corners are air, can contain one door,;hollow, Wall must contain at least one Dispenser;Layer 6: 5x5 Wood Planks. Corners are filled, hollow.;Layer 7: 7x7 Wood Planks. Corners are air, hollow.;Layer 8: 7x7 Wood Planks. Corners are air, hollow,;front centered must be a Primitive Kinetic Shaftbox;Layer 9: 7x7 Wood Planks. Corners are air, hollow.;Layer 10: 5x5 Wood Planks. Corners are filled, hollow.;Layer 11: 3x3 Wood Planks. Corners are filled, hollow.;Layer 12: 1x1 Wood Plank.;Needs a Wind Mill Rotor in the Shaftbox to operate;Input items in Controller;Output items will appear in the dispensers;It is faster in regions with more wind (like IC2 Windmills)
+tooltip.tile.lesu.0.name=Controller Block for the GT2-Styled L.E.S.U.;Size: ANY
+tooltip.tile.lesu.1.name=Storage per LESU Casing:
+tooltip.tile.lesu.2.name=Output EU: LESU Casings amount;Input EU: Next Voltage Tier to Output EU;Input/Output Amps can be configured via 4 Circuits in GUI;Output Side has a dot on it.
+tooltip.tile.lesu.3.name=Only one Controller allowed, no Wallsharing!
+tooltip.tile.manualtravo.0.name=Controller Block for the Manual Trafo;Operates in 4 different Modes:;Mode 1: Circuit 0 in controller: Direct-Upstep;Mode 2: Circuit 1 in controller: Direct-Downstep;Mode 3: Circuit 2 in controller: Tapped-Upstep;Mode 4: Circuit 3 in controller: Tapped-Downstep;For direct Modes: 3xHx3;Base Contains at least 1 Energy Hatch;1 Layer of Transformer-Winding Blocks for each Tier transformed;Middle of Transformer-Winding Blocks needs to be a Nickel-Zinc Ferrite Block;Top Contains at least 1 Dynamo Hatch;Maintenance Hatch can be placed anywhere;Tapped Mode is disabled at the Moment.
+tooltip.tile.tiereddsc.0.name=Voltage:
+tooltip.tile.tiereddsc.1.name=Amperage IN:
+tooltip.tile.tiereddsc.2.name=Amperage OUT:
+tooltip.tile.tiereddsc.3.name=Capacity:
+tooltip.tile.diode.0.name=A Simple diode that will allow Energy Flow in only one direction.
+tooltip.tile.energydistributor.0.name=Splits Amperage into several Sides.
+tooltip.tile.biolab.0.name=The BioLab, a Multi-Use Bioengineering Station
+tooltip.tile.radhatch.0.name=Radioactive Item Chamber for Multiblocks
+tooltip.tile.radhatch.1.name=Use a screwdriver to set the containment level
+tooltip.tile.radhatch.2.name=Material:
+tooltip.tile.radhatch.3.name=Sievert:
+tooltip.tile.radhatch.4.name=Amount:
+tooltip.tile.radhatch.5.name=Time (in t/s/m/h) to decay (1kg):
+tooltip.tile.radhatch.6.name=t
+tooltip.tile.radhatch.7.name=s
+tooltip.tile.radhatch.8.name=m
+tooltip.tile.radhatch.9.name=h
+tooltip.tile.acidgen.0.name=An Acid Generator
+tooltip.tile.acidgen.1.name=Creates Power from Chemical Energy Potentials.
+nei.biovat.0.name=Needs Glass Tier:
+nei.biovat.1.name=Need exactly
+nei.biovat.2.name=Need minimum
+
+tile.diode.name=Cable Diode
+tile.energydistributor.name=Energy Distributor
+tile.acidgenerator.name=Acid Generator
+tile.bw.mbf.name=Mega Blast Furnace
+tile.bw.mvf.name=Mega Vacuum Freezer
+tile.biolab.name=Bio Lab
+tile.biovat.name=Bacterial Vat
+tile.radiohatch.name=Radio Hatch
+tile.bw.windmill.name=Windmill
+tile.manutrafo.name=Manual Trafo
+
+tooltip.tile.htr.0.name=Controller Block for the Thorium High Temperature Reactor;Size(WxHxD): 11x12x11 (Hollow);Controller: Front Center, Lowest Layer;Corners and the 2 touching blocks are air (Cylindric);Once build, Helium is inserted into the Fluid Input Hatch until it doesnt accept any more;1+ Output Hatch (Any Bottom casing);1+ Input Hatch (Any Top casing);1+ Input Bus (Any Top casing);1x Maintenance Hatch (Any casing);Raidation Proof Casings for the Rest;Needs a constant supply of coolant while running, will output after complete Operation;Needs at least 100k Fuel pebbles to start operation (can hold up to 675k pebbles);Consumes up to 0.5% of total Fuel Pellet per Operation;TRISO pebbles provide 30% more Energy;Each pebble increases the amount of converted coolant;One Operation takes 27 Ingame Days
+item.TRISOPellet.name=TRISO pebble
+item.TRISOPelletBall.name=TRISO pebble ball
+item.BISOPelletBall.name=BISO pebble ball
+item.BISOPellet.name=BISO pebble
+item.TRISOPelletCompound.name=TRISO pebble compund
+item.BISOPelletCompound.name=BISO pebble compund
+item.BurnedOutBISOPelletBall.name=Burned Out BISO pebble ball
+item.BurnedOutBISOPellet.name=Burned Out BISO pebble
+item.BurnedOutTRISOPelletBall.name=Burned Out TRISO pebble ball
+item.BurnedOutTRISOPellet.name=Burned Out TRISO pebble
+
+itemGroup.bartworksMetaMaterials=BartWorks' Meta Materials
+
+tooltip.tile.eic.0.name=Controller Block for the Electric Implosion Compressor;Size(WxHxD): 3x9x3;Uses Electricity instead of Explosives;Controller: Layer 3, front, center;Layer 1 and Layer 9: Solid Steel Machine Casings, each: 1 Energy Hatch in the middle;Layer 2,3,7,8: Middle: Nickel-Zinc-Ferrit Blocks, Outer: Transformer-Winding Blocks;Layer 4,5,6: Neutronium Blocks;1+ Input Bus, 1+ Output Bus, 1 Maintenance Hatch at any Solid Steel Machine Casing;Do NOT Obstruct or mine the Moving parts while in Operation, will explode if you do so!
+
+
+planet.Ross128b=Ross128b
+moon.Ross128ba=Ross128ba
+star.Ross128=Ross128
+solarsystem.Ross128System=Ross128-System
+
+itemGroup.bw.MetaItems.0=BartWorks Circuit Overhaul Items
+
+#Liquids
