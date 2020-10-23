@@ -434,7 +434,7 @@ mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockWoodenDevice:2
 [<ore:plateThaumium>, <Thaumcraft:ItemZombieBrain>, <ore:plateThaumium>]]);
 
 // --- Warded Glass
-mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockCosmeticOpaque:2> * 64, "aer 50, aqua 50, ignis 50, ordo 50, perditio 50, terra 50", [
+mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockCosmeticOpaque:2> * 4, "aer 10, aqua 10, ignis 10, ordo 10, perditio 10, terra 10", [
 [<ore:blockGlass>, <ore:plateThaumium>, <ore:blockGlass>],
 [<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:FocusWarding>, <Thaumcraft:blockWoodenDevice:6>],
 [<ore:blockGlass>, <ore:plateThaumium>, <ore:blockGlass>]]);
