@@ -456,6 +456,9 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:1890>, [<ore:craftingToolMortar>, 
 recipes.addShapeless(<gregtech:gt.metaitem.01:2892>, [<ore:craftingToolMortar>, <ore:listAllmeatraw>]);
 recipes.addShapeless(<gregtech:gt.metaitem.01:2892>, [<ore:craftingToolMortar>, <ore:listAllfishraw>]);
 
+// --- Sugar from Sugar Beet
+recipes.addShapeless(<minecraft:sugar> * 4, [<ore:craftingToolMortar>, <berriespp:foodBerries:1>]);
+
 // --- Cooked Mince Meat
 recipes.addShapeless(<gregtech:gt.metaitem.01:2893>, [<ore:craftingToolMortar>, <ore:listAllmeatcooked>]);
 recipes.addShapeless(<gregtech:gt.metaitem.01:2893>, [<ore:craftingToolMortar>, <ore:listAllfishcooked>]);
