@@ -1427,7 +1427,7 @@ Unpacker.addRecipe(<dreamcraft:item.ElectrotineWire>, <gregtech:gt.metaitem.01:1
 // --- Ruby
 mods.chisel.Groups.addVariation("ruby", <BiomesOPlenty:gemOre:3>);
 // -
-mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem1:9>);
+//mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem1:9>);
 // -
 mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem2:11>);
 // -

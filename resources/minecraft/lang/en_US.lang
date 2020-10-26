@@ -1860,13 +1860,13 @@ gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does w
 gtnh.quest464.name=The technician part 2
 gtnh.quest464.desc=I will ask the technician about this stuff, but I need to reach a good reputation first. He is a busy man, and I don't want to be denied.
 
-# Quest.465 - Trigger Neutronium Ore
-gtnh.quest465.name=Trigger Neutronium Ore
-gtnh.quest465.desc=Triggers if you get Neutronium Ore.
+# Quest.465 - Trigger Neutronium
+gtnh.quest465.name=Trigger Neutronium
+gtnh.quest465.desc=Triggers if you get Neutronium Ore/ingot/dust.
 
-# Quest.466 - Trigger Black Plutonium Ore
-gtnh.quest466.name=Trigger Black Plutonium Ore
-gtnh.quest466.desc=Triggers if you find Black Plutonium.
+# Quest.466 - Trigger Black Plutonium
+gtnh.quest466.name=Trigger Black Plutonium
+gtnh.quest466.desc=Triggers if you find Black Plutonium ore/ingot/dust.
 
 # Quest.467 - Trigger Empty Void Capsule
 gtnh.quest467.name=Trigger Empty Void Capsule
@@ -2502,7 +2502,7 @@ gtnh.quest624.desc=The canning machine is mainly used to fill tin cans with any 
 
 # Quest.625 - §3§lPacking your tanks chests and barrels
 gtnh.quest625.name=§3§lPacking your tanks chests and barrels
-gtnh.quest625.desc=Packing your chests and barrels without spilling all the things (buildcraft(tm))? %nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Not portable buildcraft and iron tanks can moved so too without loosing fluids.%n%n§4PS Later on you can fly or make a traveller's belt to get around the debuff.
+gtnh.quest625.desc=Packing your chests and barrels without spilling all the things (buildcraft(tm))? %nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Non-portable buildcraft and iron tanks can be moved without losing fluids too.%n%n§4PS: Later on you can fly or make a traveller's belt to get around the debuff.
 
 # Quest.626 - §5§lPortable mob spawners..? Cool!
 gtnh.quest626.name=§5§lPortable mob spawners..? Cool!
@@ -3962,7 +3962,7 @@ gtnh.quest989.desc=Vibrant alloy is a high tier EnderIO alloy made out of ender 
 
 # Quest.990 - §9§lEnergetic Alloy
 gtnh.quest990.name=§9§lEnergetic Alloy
-gtnh.quest990.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it and it can be made in the  electric blast furnace with tier 2 coils (2700K).
+gtnh.quest990.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it and it can be made in the EBF with tier 2 coils (2700K).
 
 # Quest.991 - Dark Steel Armor basic upgrades
 gtnh.quest991.name=Dark Steel Armor basic upgrades
@@ -4054,7 +4054,7 @@ gtnh.quest1012.desc=Rutile can be centrifuged or thermal centrifuged out of baux
 
 # Quest.1013 - §6§lSMD Circuit components
 gtnh.quest1013.name=§6§lSMD Circuit components
-gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.%n
+gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.%n
 
 # Quest.1014 - §9§lWorkstation Extreme Circuit
 gtnh.quest1014.name=§9§lWorkstation Extreme Circuit
@@ -4946,19 +4946,19 @@ gtnh.quest1235.desc=The Microprocessor is the most highest tier way to craft an 
 
 # Quest.1236 - §9§lCutting Machine HV
 gtnh.quest1236.name=§9§lCutting Machine HV
-gtnh.quest1236.desc=Nor, nand and other high tier chips require an HV cutting machine. This machine is also needed for cutting glowstone doped wafers.
+gtnh.quest1236.desc=NOR, NAND and other high tier chips require an HV cutting machine.
 
 # Quest.1237 - §a§9§lGlowstone Doped Monocrystalline Silicon
 gtnh.quest1237.name=§a§9§lGlowstone Doped Monocrystalline Silicon
-gtnh.quest1237.desc=To make more advanced wafers, you need to make glowstone dopped monocrystalline silicon first. The process takes 600 seconds and requires silicon dust and glowstone dust in the electric blast furnace. You can make 32 wafers out of every boule.%n%nUnfortunately, these boules seem to require higher heat than cupronickel coils can produce.  You'll need to go to Multiblock Goals and get a cleanroom, vacuum freezer, and kanthal coils in order to make them.
+gtnh.quest1237.desc=To make more advanced wafers, you need to make glowstone dopped monocrystalline silicon first. The process takes 600 seconds and requires silicon dust and glowstone dust in the electric blast furnace. You can make 32 wafers out of every boule.
 
 # Quest.1238 - §9§lGlowstone Doped Wafer
 gtnh.quest1238.name=§9§lGlowstone Doped Wafer
 gtnh.quest1238.desc=To create some glowstone doped silicon wafers, place the monocrystalline glowstone doped silicon boule in a cutting machine. An HV version of the cutting machine is needed for future wafers and chips.%n%nYou will need to cut these wafers in a cleanroom.
 
-# Quest.1239 - §9§lNor and Nand chips
-gtnh.quest1239.name=§9§lNor and Nand chips
-gtnh.quest1239.desc=The data stick requires nand chips. Nor chips are needed for more advanced circuits. You can get these by cutting nand and nor wafers.%nA cleanroom is required.
+# Quest.1239 - §9§lNOR and NAND chips
+gtnh.quest1239.name=§9§lNOR and NAND chips
+gtnh.quest1239.desc=The data stick requires NAND chips. NOR chips are needed for more advanced circuits. You can get these by cutting NAND and NOR wafers.%nA cleanroom is required.
 
 # Quest.1240 - Data Sticks
 gtnh.quest1240.name=Data Sticks
@@ -6002,7 +6002,7 @@ gtnh.quest1499.desc=Wait, what? You want more byproducts from your ores?  A chea
 
 # Quest.1500 - §1§lBetter Questing?
 gtnh.quest1500.name=§1§lBetter Questing?
-gtnh.quest1500.desc=If you need help with a quest, you can find the Quest ID by holding F3 + H together to get extended tooltips, and then Quest IDs will show in your questbook.%n%nIf you want to enable Hardcore Mode, open to LAN, enable cheats, then type %n%n§l/bq_admin hardcore%n§r%nIf you are using a personal server, you can do the command on the command line, without the /. Restart your client to leave LAN mode and disable cheats.%n%nYou only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nFor quests to save properly, you must be online and logged into your Mojang account.  Sorry, it's a limitation of Better Questing.
+gtnh.quest1500.desc=If you need help with a quest, you can find the Quest ID by holding F3 + H together to get extended tooltips, and then Quest IDs will show in your questbook.%n%nIf you want to enable Hardcore Mode, open to LAN, enable cheats, then type %n%n§l/bq_admin hardcore%n§r%nIf you are using a personal server, you can do the command on the command line, without the /. Restart your client to leave LAN mode and disable cheats.%n%nYou only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nFor quests to save properly, you must be online and logged into your Mojang account.  Sorry, it's a limitation of Better Questing.%n%nParty Syncing: Party syncing works, but if you have someone join later, you'll need to help them go through all the quests first. This is mostly annoying in the first two ages, as they're mostly crafting tasks, instead of retrieval you can just have them pick up. You still need to do consume tasks separately though. You can also try the following command (untested, but seen in code):%n%n§l/bq_copyquests <NewPlayer> <PlayerWithQuestsCompleted>
 
 # Quest.1501 - §1§lBackup your stuff...
 gtnh.quest1501.name=§1§lBackup your stuff...
@@ -7618,7 +7618,7 @@ gtnh.quest1903.desc=The HV energy hatch is crucial to a fast EBF that can do hig
 
 # Quest.1904 - §6§lHelium is not just for balloons
 gtnh.quest1904.name=§6§lHelium is not just for balloons
-gtnh.quest1904.desc=Higher tier superconducting wires and energy hatches will require helium. Compressing air and liquifying it requires 1802 compressed air cells to get 1 He cell. It is better to make it from Endstone  dust or Monazite from the Moon.
+gtnh.quest1904.desc=Higher tier superconducting wires and energy hatches will require helium. Compressing air and liquifying it requires 1802 compressed air cells to get 1 He cell. It is better to make it from Endstone dust or Monazite from the Moon.
 
 # Quest.1905 - §6§lLarge Heat Exchanger - Fermat's Last
 gtnh.quest1905.name=§6§lLarge Heat Exchanger - Fermat's Last
@@ -9182,7 +9182,7 @@ gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generates pow
 
 # Quest.2295 - §l§6§lGetting your first Platinum
 gtnh.quest2295.name=§l§6§lGetting your first Platinum
-gtnh.quest2295.desc=Efficient Platinum processing is quite complicated. But for now, we can just smelt it directly into nuggets. This might not be the most efficient route to take, but it is enough for what we want to do next.%n%nAt this tier, your best source of platinum is Nickel ores from the Twilight Forest, or maybe Endstone Dust if you've managed to survive the End already.
+gtnh.quest2295.desc=Efficient Platinum processing is quite complicated. But for now, we can just smelt it directly into nuggets. This might not be the most efficient route to take, but it is enough for what we want to do next.%n%nAt this tier, your best source of Platinum is Nickel ores from the Twilight Forest, or maybe Endstone Dust if you've managed to survive the End already.
 
 # Quest.2296 - §a§lPlatinum Processing, Step 4
 gtnh.quest2296.name=§a§lPlatinum Processing, Step 4
@@ -10226,23 +10226,23 @@ gtnh.quest2555.desc=So you're probably wondering what all the underground fluids
 
 # Quest.2556 - §6§lUpgrade #1 : Upgrade Tier 4 - EV Glass
 gtnh.quest2556.name=§6§lUpgrade #1 : Upgrade Tier 4 - EV Glass
-gtnh.quest2556.desc=Upgrade your Bacterial Vat's glass to EV tier, which brings the Glass-Tier to 4 and allows you to run more advanced recipes!
+gtnh.quest2556.desc=The next tier of Borosilicate glass is Nickel (4). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MEBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest.2557 - §6§lUpgrade #2 : Upgrade Tier 5 - IV Glass
 gtnh.quest2557.name=§6§lUpgrade #2 : Upgrade Tier 5 - IV Glass
-gtnh.quest2557.desc=Upgrade your Bacterial Vat's glass to IV tier, which brings the Glass-Tier to 5 and allows you to run more advanced recipes!
+gtnh.quest2557.desc=The next tier of Borosilicate glass is Tungsten (5). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MEBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.%n%n§3PS: If you just want to use it to make machines, check out the Thorium Yttrium glass blocks.
 
 # Quest.2558 - §6§lUpgrade #3 : Upgrade Tier 6 - LuV Glass
 gtnh.quest2558.name=§6§lUpgrade #3 : Upgrade Tier 6 - LuV Glass
-gtnh.quest2558.desc=Upgrade your Bacterial Vat's glass to LuV tier, which brings the Glass-Tier to 6 and allows you to run more advanced recipes!
+gtnh.quest2558.desc=The next tier of Borosilicate glass is Chrome (6). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MEBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.%n%n§3This should probably be Platinum, but whatever.
 
 # Quest.2559 - §6§lUpgrade #4 : Upgrade Tier 7 - ZPM Glass
 gtnh.quest2559.name=§6§lUpgrade #4 : Upgrade Tier 7 - ZPM Glass
-gtnh.quest2559.desc=Upgrade your Bacterial Vat's glass to ZPM tier, which brings the Glass-Tier to 7 and allows you to run more advanced recipes!
+gtnh.quest2559.desc=The next tier of Borosilicate glass is Iridium (7). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MEBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest.2560 - §6§lUpgrade #5 : Upgrade Tier 8 - UV Glass
 gtnh.quest2560.name=§6§lUpgrade #5 : Upgrade Tier 8 - UV Glass
-gtnh.quest2560.desc=Upgrade your Bacterial Vat's glass to UV tier, which brings the Glass-Tier to 8 and allows you to run more advanced recipes!
+gtnh.quest2560.desc=The next tier of Borosilicate glass is Osmium (8). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MEBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest.2561 - §6§lBacterial Vat
 gtnh.quest2561.name=§6§lBacterial Vat
@@ -10730,7 +10730,7 @@ gtnh.quest2681.desc=So you probably noticed that the amount of seaweed you'll ne
 
 # Quest.2682 - TecTech Multiblocks
 gtnh.quest2682.name=TecTech Multiblocks
-gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...).%n%nSave Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFront Rotation - Allows rotating the front face of the machine for more structure orientation freedom (also available in API). This doesn't allow you to change the facing of the controller, but the orientation. So if you look at it from the front, it can be rotated clockwise or counterclockwise. You also need to use the Front Rotation Scrench to do so. §3If you don't get it, try placing a controller, screnching it, and using the Blueprint on it.§r%n%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Save Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
+gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). §4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!§r%n%nSave Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFront Rotation - Allows rotating the front face of the machine for more structure orientation freedom (also available in API). This doesn't allow you to change the facing of the controller, but the orientation. So if you look at it from the front, it can be rotated clockwise or counterclockwise. You also need to use the Front Rotation Scrench to do so. §3If you don't get it, try placing a controller, screnching it, and using the Blueprint on it.§r%n%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Save Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
 
 # Quest.2683 - Configuring TecTech Multiblocks
 gtnh.quest2683.name=Configuring TecTech Multiblocks
@@ -10919,6 +10919,38 @@ gtnh.quest2728.desc=This is the best non-endgame/creative wand you can make. The
 # Quest.2729 - Genetically Modifying Your Plants
 gtnh.quest2729.name=Genetically Modifying Your Plants
 gtnh.quest2729.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3. You can't modify Primoridal Berries though, as they would be UHV.%n%n§3LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=15, UHV is uncraftable.§r%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. §4Remember to keep a Data Orb or seedbag backup!§r%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
+
+# Quest.2730 - Lasers Solve Everything
+gtnh.quest2730.name=Lasers Solve Everything
+gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only 3 machines support them outside of the ever §owonderful§r TecTech: The LSC, The MEBF, and the MVF. Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source = Output, Target = Input.%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n§3You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.
+
+# Quest.2731 - Transform and...Stay Put Actually
+gtnh.quest2731.name=Transform and...Stay Put Actually
+gtnh.quest2731.desc=Active Transformers will transform power up or down at only a 0.78125% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it's kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.%n%nIt doesn't need a Maintenance Hatch, just the I/O Hatches.%n%n§4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!
+
+# Quest.2732 - The Third Time's the Charm
+gtnh.quest2732.name=The Third Time's the Charm
+gtnh.quest2732.desc=The Lapotronic Supercapacitor is an alternative to the Power Sub-Station (or Power Station Control Node as indicated on the controller) and the LESU. It holds less power per tier than the PSS, and is harder to make, but it has it's own benefits:%n%n1) It looks cooler%n2) Hatch tier is not limited by the capacitors like cells, so you can use whatever hatch tier you want if you store up power or have the input for it%n3) Can mix and match Capacitor tiers%n4) Loses 1% of total capacity every 24h, so much much less, but you can't cheese it%n5) Actually stores way more power at the last tier%n6) Can use LASER HATCHES!!! That output at very high amperage (and the other TT ones)%n%nIt also has downsides of course:%n1) More expensive to make%n2) Stores less power%n3) Can only I/O on the bottom 2 layers%n4) Can't cheese power loss%n5) Doesn't store as much power until the final tier%n6) It can have maintenance issues, unlike the PSS, voiding 20% more power per, so try not to let that slide. Though at most it's still only 2.2%%n%nFor the first, smallest one, you'll need the following, plus an Energy Hatch and a Dynamo (or the laser equivalents). Remember that you can get your Lapos back if you run the capacitor through an unpackager. Finally a reason to make one!%n%nBTW your LSC can hold between 900K and 13.5M EU with these.
+
+# Quest.2733 - Lapotronic Capacitor (LuV)
+gtnh.quest2733.name=Lapotronic Capacitor (LuV)
+gtnh.quest2733.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 9M and 135M EU with these.
+
+# Quest.2734 - Lapotronic Capacitor (ZPM)
+gtnh.quest2734.name=Lapotronic Capacitor (ZPM)
+gtnh.quest2734.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 90M and 1.350B EU with these.
+
+# Quest.2735 - Lapotronic Capacitor (UV)
+gtnh.quest2735.name=Lapotronic Capacitor (UV)
+gtnh.quest2735.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 900M and 13.50B EU with these.%n%n§3PS: The last tier is on the Engame Goals tab.
+
+# Quest.2736 - Hangover From All That Glue?
+gtnh.quest2736.name=Hangover From All That Glue?
+gtnh.quest2736.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than the basic versions. You need an Advanced Assembler and some molten polyethylene. For now, resistors are probably the only ones you can make with any ease.
+
+# Quest.2737 - More Food, More Hearts
+gtnh.quest2737.name=More Food, More Hearts
+gtnh.quest2737.desc=So, food is great, right? But what's even greater is eating tons of it! Too boring and pointless you say? Well, what if I told you you can get extra hearts just by expanding your palate. You get 1 point for every half shank of hunger from a food eaten, and after 50 points, you get 1 extra heart! Now you have a reason to make all those Pam's foods. Of course, each food only contributes it's shank value once, no cheating!%n%nIf you want to see what foods you've eaten, you can use the (not) handy Food Journal. Realistically though, you'll want to use NEI to both see foods eaten and not eaten. You can search for 'not yet eaten' to see foods left, and 'assisted' to see foods eaten.%n%n§3If it doesn't work for you, try the following. First, go to NEI options in the bottom left when the inventory is open, then click on inventory, and change Search Mode to Regex. Then restart your client, and try searching again.§r%n%nThere are also two commands:%n%n/foodlist size%nWill tell you total progress, and progress to next heart.%n%n/foodlist sync <PlayerName>%nIs to sync with the server if it gets out of sync.
 
 # Quest.2750 - Proteus Dungeon
 gtnh.quest2750.name=Proteus Dungeon
