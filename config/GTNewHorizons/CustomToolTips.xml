@@ -322,8 +322,10 @@
 	<ToolTip ItemName="irontank:obsidianTank" ToolTip="Stores up to 64 Buckets of one Liquid §4Not portable, use a dolly (Blast Proof)"/>
 	<ToolTip ItemName="irontank:copperTank" ToolTip="Stores up to 27 Buckets of one Liquid §4Not portable, use a dolly"/>
 	<ToolTip ItemName="irontank:silverTank" ToolTip="Stores up to 43 Buckets of one Liquid §4Not portable, use a dolly"/>
-	<ToolTip ItemName="irontank:emeraldTank" ToolTip="Stores up to 96 Buckets of one Liquid §4Not portable, use a dolly"/>
-	//Add the new ones later
+	<ToolTip ItemName="irontank:emeraldTank" ToolTip="Stores up to 96 Buckets of one Liquid §4Not portable, use a dolly"/>	
+	<ToolTip ItemName="irontank:stainlesssteelTank" ToolTip="Stores up to 128 Buckets of one Liquid §4Not portable, use a dolly"/>
+	<ToolTip ItemName="irontank:titaniumTank" ToolTip="Stores up to 256 Buckets of one Liquid §4Not portable, use a dolly"/>
+	<ToolTip ItemName="irontank:tungstensteelTank" ToolTip="Stores up to 512 Buckets of one Liquid §4Not portable, use a dolly"/>
 	
 //OMT - AddOns
 	<ToolTip ItemName="openmodularturrets:solarPanelAddon" ToolTip="§4Disabled Item; No recipe"/>
