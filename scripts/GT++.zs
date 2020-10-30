@@ -144,7 +144,11 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 // --- Useless Frame give Beekeeper coins
 recipes.addShapeless(<dreamcraft:item.CoinBeesI> * 16, [<miscutils:frameUseless>]);
 
-
+// --- Tumbaga Frame (until GT++ adds a proper recipe)
+recipes.addShaped(<miscutils:blockFrameGtTumbaga> * 2, [
+[<miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>],
+[<miscutils:itemRodTumbaga>, <ore:craftingToolWrench>, <miscutils:itemRodTumbaga>],
+[<miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>]]);
 
 
 // --- Assembler Recipes ---

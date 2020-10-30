@@ -1477,9 +1477,12 @@ recipes.addShaped(<IC2:itemPartCFPowder>, [
 
 // --- Repair rubber Boots
 recipes.addShaped(<IC2:itemArmorRubBoots>, [
-[<ore:plateRubber>, <IC2:itemArmorRubBoots:*>, <ore:plateRubber>],
+[<ore:plateRubber>, <IC2:itemArmorRubBoots>.anyDamage().marked("boots"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]]);
+[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+  // Fix the boot without lossing nbt tags, which contains custom naming and enchantment infos
+  return inputs.boots.withDamage(0);
+});
 
 // --- Repair rubber Helm
 recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
