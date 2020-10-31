@@ -20,6 +20,7 @@ mods.chisel.Groups.addGroup("glasswork");
 val Chisel = <chisel:chisel>;
 val ObsidianChisel = <chisel:obsidianChisel>;
 val DiamondChisel = <chisel:diamondChisel>;
+val NetherStarChisel = <chisel:netherStarChisel>;
 val BottledCloud = <chisel:cloudinabottle>;
 
 val WoodPlate = <ore:plateWood>;
@@ -54,6 +55,9 @@ recipes.remove(ObsidianChisel);
 
 // --- Diamond Chisel
 recipes.remove(DiamondChisel);
+
+// --- Nether Star Chisel
+recipes.remove(NetherStarChisel);
 
 // --- Cloud In A Bottle
 recipes.remove(BottledCloud);
@@ -194,7 +198,8 @@ Assembler.addRecipe(ObsidianChisel, <gregtech:gt.metaitem.01:17804> * 2, <gregte
 // --- Diamond Chisel
 Assembler.addRecipe(DiamondChisel, <gregtech:gt.metaitem.01:17500> * 2, <gregtech:gt.metaitem.01:23305> * 2, 600, 30);
 
-
+// --- Nether Star Chisel
+Assembler.addRecipe(NetherStarChisel, <gregtech:gt.metaitem.01:22395> * 2, <gregtech:gt.metaitem.02:22371> * 2, 24000, 480);
 
 
 // --- Cobblestone
