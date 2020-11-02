@@ -1790,6 +1790,10 @@ oreDict.combUhv.add(<gregtech:gt.comb:118>);
 comb.add(<gregtech:gt.comb:119>);
 oreDict.combUev.add(<gregtech:gt.comb:119>);
 
+// --- Add Tooltips
+
+<gregtech:gt.blockmachines:1157>.addTooltip(format.aqua("May you have all the black gold you want, RIP Cerulean"));
+
 // --- Dyes conversion
 
 for GT_Dye, oreDye in {
