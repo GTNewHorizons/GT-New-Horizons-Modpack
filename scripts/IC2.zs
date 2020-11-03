@@ -1486,21 +1486,30 @@ recipes.addShaped(<IC2:itemArmorRubBoots>, [
 
 // --- Repair rubber Helm
 recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
-[<ore:plateRubber>, <IC2:itemArmorHazmatHelmet:*>, <ore:plateRubber>],
+[<ore:plateRubber>, <IC2:itemArmorHazmatHelmet>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]]);
+[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+  // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
+  return inputs.armor.withDamage(0);
+});
 
 // --- Repair rubber Suit
 recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
-[<ore:plateRubber>, <IC2:itemArmorHazmatChestplate:*>, <ore:plateRubber>],
+[<ore:plateRubber>, <IC2:itemArmorHazmatChestplate>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]]);
+[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+  // Fix the boot without lossing nbt tags, which contains custom naming and enchantment infos
+  return inputs.boots.withDamage(0);
+});
 
 // --- Repair rubber Leggins
 recipes.addShaped(<IC2:itemArmorHazmatLeggings>, [
-[<ore:plateRubber>, <IC2:itemArmorHazmatLeggings:*>, <ore:plateRubber>],
+[<ore:plateRubber>, <IC2:itemArmorHazmatLeggings>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]]);
+[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+  // Fix the boot without lossing nbt tags, which contains custom naming and enchantment infos
+  return inputs.boots.withDamage(0);
+});
 
 
 

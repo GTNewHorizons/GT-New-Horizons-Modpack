@@ -263,6 +263,9 @@ mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:11>);
 // --- Ender Electron Tubes
 mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:12>);
 
+// --- Uranium 238 Electron Tubes
+mods.forestry.ThermionicFabricator.removeCasts(<Forestry:thermionicTubes:13>);
+
 // --- Carton
 mods.forestry.Carpenter.removeRecipe(<Forestry:carton>);
 
@@ -1340,6 +1343,13 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22533>, <gregtech:gt.metaitem.02:19035>], 
 [<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.01:17308>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:12> * 2);
+
+// --- Uranium 238 Electron Tubes
+mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
+[null, <gregtech:gt.metaitem.02:22098>, null], 
+[<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22098>, <gregtech:gt.metaitem.02:19035>], 
+[<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.02:17533>, <gregtech:gt.metaitem.01:26086>]], 
+null, <Forestry:thermionicTubes:13> * 2);
 
 // --- Habitat Locator
 mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 288, 
