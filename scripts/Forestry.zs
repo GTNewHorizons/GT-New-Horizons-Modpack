@@ -1348,7 +1348,7 @@ null, <Forestry:thermionicTubes:12> * 2);
 mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 [null, <gregtech:gt.metaitem.02:22098>, null], 
 [<gregtech:gt.metaitem.02:19035>, <gregtech:gt.metaitem.02:22098>, <gregtech:gt.metaitem.02:19035>], 
-[<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.02:17308>, <gregtech:gt.metaitem.01:26086>]], 
+[<gregtech:gt.metaitem.01:26086>, <gregtech:gt.metaitem.02:17533>, <gregtech:gt.metaitem.01:26086>]], 
 null, <Forestry:thermionicTubes:13> * 2);
 
 // --- Habitat Locator
