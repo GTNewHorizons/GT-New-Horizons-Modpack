@@ -9,7 +9,6 @@ import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
-import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.AlloySmelter;
 
 
@@ -1314,51 +1313,3 @@ Extractor.addRecipe(<minecraft:sand> * 9, <ExtraUtilities:cobblestone_compressed
 
 // --- Double Compressed Sand
 Extractor.addRecipe(<ExtraUtilities:cobblestone_compressed:14> * 9, <ExtraUtilities:cobblestone_compressed:15>);
-
-
-
-
-
-
-// --- Implosion Compressor Recipes ---
-
-
-
-// --- Bedrockium Ingot
-ImplosionCompressor.addRecipe(BedrockiumBlock, BedrockiumIngot * 9, 8);
-
-// --- Double Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed> * 9, 1);
-
-// --- Triple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:2>, <ExtraUtilities:cobblestone_compressed:1> * 9, 2);
-
-// --- Quadruple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:cobblestone_compressed:2> * 9, 4);
-
-// --- Quintuple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:cobblestone_compressed:3> * 9, 6);
-
-// --- Sextuple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:5>, <ExtraUtilities:cobblestone_compressed:4> * 9, 8);
-
-// --- Septuple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:6>, <ExtraUtilities:cobblestone_compressed:5> * 9, 10);
-
-// --- Octuple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:cobblestone_compressed:6> * 9, 16);
-
-// --- Double Compressed Dirt
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:9>, <ExtraUtilities:cobblestone_compressed:8> * 9, 1);
-
-// --- Triple Compressed Dirt
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:10>, <ExtraUtilities:cobblestone_compressed:9> * 9, 2);
-
-// --- Quadruple Compressed Dirt
-ImplosionCompressor.addRecipe(QuadDirt, <ExtraUtilities:cobblestone_compressed:10> * 9, 4);
-
-// --- Double Compressed Gravel
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:13>, <ExtraUtilities:cobblestone_compressed:12> * 9, 1);
-
-// --- Double Compressed Sand
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:15>, <ExtraUtilities:cobblestone_compressed:14> * 9, 1);
