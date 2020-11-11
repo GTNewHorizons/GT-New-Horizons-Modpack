@@ -2610,7 +2610,7 @@ Compressor.addRecipe(<TConstruct:MetalBlock:2>, <gregtech:gt.metaitem.01:11386> 
 Compressor.addRecipe(<TConstruct:MetalBlock:8>, <TConstruct:materials:15> * 9);
 
 // --- Block Of Alrdite
-Compressor.addRecipe(<TConstruct:MetalBlock:1>, <TConstruct:materials:4> * 9);
+//Compressor.addRecipe(<TConstruct:MetalBlock:1>, <TConstruct:materials:4> * 9);
 
 // --- Block Of Aluminium Brass
 Compressor.addRecipe(<TConstruct:MetalBlock:7>, <TConstruct:materials:14> * 9);
