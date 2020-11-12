@@ -490,15 +490,15 @@ recipes.addShaped(<gendustry:ApiaryUpgrade>, [
 
 // --- Industrial Grafter
 recipes.addShaped(<gendustry:IndustrialGrafter:100>, [
-[OsmiumScrew, Grafter, OsmiumScrew],
-[OsmiumSmallGear, PowerModule, OsmiumSmallGear],
-[PalladiumPlate, <ore:batteryBasic>, PalladiumPlate]]);
+[<ore:screwStainlessSteel>, Grafter, <ore:screwStainlessSteel>],
+[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallStainlessSteel>],
+[<ore:plateStainlessSteel>, <ore:batteryBasic>, <ore:plateStainlessSteel>]]);
 
 // --- Industrial Scoop
 recipes.addShaped(<gendustry:IndustrialScoop:100>, [
-[OsmiumScrew, Scoop, OsmiumScrew],
-[OsmiumSmallGear, PowerModule, OsmiumSmallGear],
-[PalladiumPlate, <ore:batteryBasic>, PalladiumPlate]]);
+[<ore:screwStainlessSteel>, Scoop, <ore:screwStainlessSteel>],
+[<ore:gearGtSmallStainlessSteel>, <gregtech:gt.metaitem.01:32600>, <ore:gearGtSmallStainlessSteel>],
+[<ore:plateStainlessSteel>, <ore:batteryBasic>, <ore:plateStainlessSteel>]]);
 
 // --- Climate Control Module
 recipes.addShaped(<gendustry:ClimateModule>, [
