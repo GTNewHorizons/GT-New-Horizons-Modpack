@@ -67,7 +67,7 @@ val Dirt = <minecraft:dirt>;
 val Hammer = <ore:craftingToolHardHammer>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
 
-val WPlate = <gregtech:gt.metaitem.01:17809>;
+val WPlank = <ore:plankWood>;
 
 
 
@@ -111,7 +111,7 @@ recipes.addShaped(CopperChest, [
 // --- Upgrade Wood to Copper Chest
 recipes.addShaped(Wood2CopperUp, [
 [CopperScrew, DoubleCopperPlate, CopperScrew],
-[DoubleCopperPlate, WPlate, DoubleCopperPlate],
+[DoubleCopperPlate, WPlank, DoubleCopperPlate],
 [Hammer, DoubleCopperPlate, Screwdriver]]);
 
 // --- Iron Chest
@@ -123,7 +123,7 @@ recipes.addShaped(IronChest, [
 // --- Upgrade Wood to Iron Chest
 recipes.addShaped(Wood2IronUp, [
 [IronScrew, DoubleIronPlate, IronScrew],
-[DoubleIronPlate, WPlate, DoubleIronPlate],
+[DoubleIronPlate, WPlank, DoubleIronPlate],
 [Hammer, DoubleIronPlate, Screwdriver]]);
 
 // --- Upgrade Copper to Iron Chest
@@ -210,13 +210,13 @@ Assembler.addRecipe(DirtChest, Chest, Dirt * 8, 80, 1);
 Assembler.addRecipe(CopperChest, Chest, DoubleCopperPlate * 3, 100, 8);
 
 // --- Upgrade Wood to Copper
-Assembler.addRecipe(Wood2CopperUp, [WPlate, DoubleCopperPlate * 3, <gregtech:gt.integrated_circuit:2> * 0], null, 200, 16);
+Assembler.addRecipe(Wood2CopperUp, [WPlank, DoubleCopperPlate * 3, <gregtech:gt.integrated_circuit:2> * 0], null, 200, 16);
 
 // --- Iron Chest
 Assembler.addRecipe(IronChest, Chest, DoubleIronPlate * 3, 150, 16);
 
 // --- Upgrade Wood to Iron
-Assembler.addRecipe(Wood2IronUp, [WPlate, DoubleIronPlate * 3, <gregtech:gt.integrated_circuit:2> * 0], null, 300, 30);
+Assembler.addRecipe(Wood2IronUp, [WPlank, DoubleIronPlate * 3, <gregtech:gt.integrated_circuit:2> * 0], null, 300, 30);
 
 // --- Upgrade Copper to Iron
 Assembler.addRecipe(Copper2IronUp, [CopperPlate, DoubleIronPlate, <gregtech:gt.integrated_circuit:2> * 0], null, 300, 30);

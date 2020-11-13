@@ -963,17 +963,17 @@ recipes.addShaped(<IC2:reactorVentCore:1>, [
 [<ore:plateSilver>, <IC2:reactorVent:1>, <ore:plateSilver>],
 [<ore:plateDoubleCopper>, <ore:plateSilver>, <ore:plateDoubleCopper>]]);
 
+// --- Advanced Heat Vent
+recipes.addShaped(<IC2:reactorVentDiamond:1>, [
+[<dreamcraft:item.SteelBars>, <IC2:reactorVentCore:1>, <dreamcraft:item.SteelBars>],
+[<dreamcraft:item.SteelBars>, <IC2:itemPartIndustrialDiamond>, <dreamcraft:item.SteelBars>],
+[<dreamcraft:item.SteelBars>, <IC2:reactorVentCore:1>, <dreamcraft:item.SteelBars>]]);
+
 // --- Overclocked Heat Vent
 recipes.addShaped(<IC2:reactorVentGold:1>, [
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>],
-[<ore:plateGold>, <IC2:reactorVentCore:1>, <ore:plateGold>],
+[<ore:plateGold>, <IC2:reactorVentDiamond:1>, <ore:plateGold>],
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>]]);
-
-// --- Advanced Heat Vent
-recipes.addShaped(<IC2:reactorVentDiamond:1>, [
-[<dreamcraft:item.SteelBars>, <IC2:reactorVentGold:1>, <dreamcraft:item.SteelBars>],
-[<dreamcraft:item.SteelBars>, <IC2:itemPartIndustrialDiamond>, <dreamcraft:item.SteelBars>],
-[<dreamcraft:item.SteelBars>, <IC2:reactorVentGold:1>, <dreamcraft:item.SteelBars>]]);
 
 // --- Component Heat Vent
 recipes.addShaped(<IC2:reactorVentSpread>, [
