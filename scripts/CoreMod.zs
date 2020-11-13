@@ -54,8 +54,8 @@ val GreatwoodLog = <Thaumcraft:blockMagicalLog>;
 
 val String = <minecraft:string>;
 
-// --- Removing Recipes ---
 
+// --- Removing Recipes ---
 
 
 // --- Dissenchanter
@@ -70,7 +70,8 @@ recipes.remove(<AdvancedSolarPanel:asp_crafting_items:7>);
 // --- Irradiant Reinforced Iridium Plate
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:8>);
 
-
+// --- Obsidian Tile
+recipes.remove(<Thaumcraft:blockCosmeticSolid:1>);
 
 
 // --- Adding Back Recipes ---
@@ -2078,6 +2079,26 @@ mods.thaumcraft.Infusion.addRecipe("SFSWORD", <TwilightForest:item.fierySword>,
 "auram 64, corpus 64, exanimis 64, metallum 64, mortuus 64", <Avaritia:Skull_Sword>, 15);
 mods.thaumcraft.Research.addInfusionPage("SFSWORD", <Avaritia:Skull_Sword>);
 mods.thaumcraft.Warp.addToResearch("SFSWORD", 1);
+
+// --- Obsidian Tile and Totem
+mods.thaumcraft.Research.addResearch("MAGICOBSIDIAN", "NEWHORIZONS", "perditio 8, terra 8", 2, 4, 2, <Thaumcraft:blockCosmeticSolid:0>);
+game.setLocalization("tc.research_name.MAGICOBSIDIAN", "Magical Obsidian Blocks");
+game.setLocalization("tc.research_text.MAGICOBSIDIAN", "Make them instead of finding them");
+mods.thaumcraft.Research.addPrereq("MAGICOBSIDIAN", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("MAGICOBSIDIAN", true);
+mods.thaumcraft.Research.setRound("MAGICOBSIDIAN", false);
+mods.thaumcraft.Research.addPage("MAGICOBSIDIAN", "Thaum.research_page.MAGICOBSIDIAN");
+game.setLocalization("Thaum.research_page.MAGICOBSIDIAN", "Tired of scrounging the world for these to make your BM rituals? Make them instead.");
+mods.thaumcraft.Arcane.addShaped("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1> * 4, "ignis 4, terra 4,", [
+[<minecraft:obsidian>, <minecraft:obsidian>, null],
+[<minecraft:obsidian>, <minecraft:obsidian>, null],
+[null, null, null]]);
+mods.thaumcraft.Research.addArcanePage("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1>);
+mods.thaumcraft.Infusion.addRecipe("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1>,
+[<Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>],
+"perditio 16, tenebrae 16, terra 16", <Thaumcraft:blockCosmeticSolid:0> * 4, 3);
+mods.thaumcraft.Research.addInfusionPage("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:0>);
+mods.thaumcraft.Warp.addToResearch("MAGICOBSIDIAN", 1);
 
 
 // --- Hiding Stuff ----
