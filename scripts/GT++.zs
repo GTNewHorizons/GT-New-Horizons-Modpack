@@ -80,7 +80,8 @@ recipes.remove(<gregtech:gt.blockmachines:949>);
 // --- IV Superchest
 recipes.remove(<gregtech:gt.blockmachines:950>);
 
-
+// --- Wire Factory Controller (until GT++ changes it)
+recipes.remove(<gregtech:gt.blockmachines:798>);
 
 // --- Add Recipes ---
 
@@ -149,6 +150,13 @@ recipes.addShaped(<miscutils:blockFrameGtTumbaga> * 2, [
 [<miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>],
 [<miscutils:itemRodTumbaga>, <ore:craftingToolWrench>, <miscutils:itemRodTumbaga>],
 [<miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>]]);
+
+// --- Wire Factory Controller (until GT++ changes it)
+recipes.addShaped(<gregtech:gt.blockmachines:798>, [
+[<ore:plateBlueSteel>, <gregtech:gt.blockcasings:5>, <ore:plateBlueSteel>],
+[<ore:circuitElite>, <gregtech:gt.blockmachines:355>, <ore:circuitElite>],
+[<ore:plateBlueSteel>, <gregtech:gt.blockcasings:5>, <ore:plateBlueSteel>]]);
+
 
 
 // --- Assembler Recipes ---
