@@ -1580,7 +1580,7 @@ Assembler.addRecipe(<IC2:blockElectric:5>, <gregtech:gt.blockmachines:23>, <greg
 Assembler.addRecipe(<IC2:blockElectric:6>, <gregtech:gt.blockmachines:24>, <gregtech:gt.blockmachines:1529> * 2, 100, 1920);
 
 // --- Coil
-Assembler.addRecipe(<IC2:itemRecipePart>, <gregtech:gt.metaitem.01:23355>, <gregtech:gt.blockmachines:1360> * 16, 200, 30);
+Assembler.addRecipe(<IC2:itemRecipePart>, [<gregtech:gt.metaitem.01:23355>, <gregtech:gt.blockmachines:1360> * 16, <gregtech:gt.integrated_circuit:3> * 0], <liquid:molten.solderingalloy> * 72, 200, 30);
 
 // --- Coal Chunk
 Assembler.addRecipe(<IC2:itemPartCoalChunk>, <minecraft:coal_block>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
