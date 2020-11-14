@@ -941,13 +941,13 @@ recipes.addShaped(<EnderIO:blockDarkSteelLadder>, [
 [DarkIronBars, Wrench, DarkIronBars]]);
 
 // --- Powered Light
-recipes.addShaped(<EnderIO:blockElectricLight>, [
+recipes.addShaped(<EnderIO:blockElectricLight> * 8, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, LightBulp, SiliconPlate],
 [Circuit, Capacitor, Circuit]]);
 
 // --- Light
-recipes.addShaped(<EnderIO:blockElectricLight:2>, [
+recipes.addShaped(<EnderIO:blockElectricLight:2> * 16, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, <ProjRed|Illumination:projectred.illumination.lamp>, SiliconPlate],
 [IronPlate, RedAlloyWire, IronPlate]]);
@@ -1210,7 +1210,7 @@ Assembler.addRecipe(<EnderIO:blockElectricLight:1>, <EnderIO:blockElectricLight>
 Assembler.addRecipe(<EnderIO:blockElectricLight:3>, <EnderIO:blockElectricLight:2>, <minecraft:redstone_torch>, 100, 30);
 
 // --- Wireless Powered Light
-Assembler.addRecipe(<EnderIO:blockElectricLight:4>, <EnderIO:blockElectricLight>, EResonator, 200, 256);
+Assembler.addRecipe(<EnderIO:blockElectricLight:4> * 16, <EnderIO:blockElectricLight> * 16, EResonator, 200, 256);
 
 // --- Wireless Powered Light Inverted
 Assembler.addRecipe(<EnderIO:blockElectricLight:5>, <EnderIO:blockElectricLight:4>, <minecraft:redstone_torch>, 200, 256);
