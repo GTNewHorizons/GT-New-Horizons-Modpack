@@ -1,214 +1,198 @@
 {
-    "images":
-    {
-	
-		"black":
-        {
-            "image" : "mainmenu:textures/bg_menu2.png",
-            "posX" : 0,
-            "posY" : 0,
-            "width" : 150,
-            "height" : 4096,
-            "alignment" : "column_top"
-        },
-		"logo":
-        {
-            "image" : "mainmenu:textures/logo2.png",
-            "posX" : 0,
-            "posY" : 0,
-            "width" : 150,
-            "height" : 116.3692785,
-            "alignment" : "column_logo"
-        }
-	
+	"images": {
+		"black": {
+			"image": "mainmenu:textures/bg_menu2.png",
+			"posX": 0,
+			"posY": 0,
+			"width": 150,
+			"height": 4096,
+			"alignment": "column_top"
+		},
+		"logo": {
+			"image": "mainmenu:textures/logo2.png",
+			"posX": 0,
+			"posY": 0,
+			"width": 150,
+			"height": 116.3692785,
+			"alignment": "column_logo"
+		},
+		"discord": {
+			"image": "mainmenu:textures/discord.png",
+			"hoverImage": "mainmenu:textures/discord2.png",
+			"posX": -30,
+			"posY": -100,
+			"width": 20,
+			"height": 20,
+			"alignment": "column_bottom"
+		}
 	},
-    
-    "buttons":
-    {    
-		"singleplayer":
-        {
-            "text" : "Singleplayer",
-			"hoverText" : "Alone, alone ...",
-			"normalTextColor" : 4227327,
-			"hoverTextColor" : 16711680,
-			"texture" : "mainmenu:textures/btn4.png",
-            "posX" : 0,
-            "posY" : -120,
-            "width" : 150,
-            "height" : 20,
-			imageWidth : 1000,
-			imageHeight : 1,
-			"alignment" : "column_bottom",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },		
-
-		"multiplayer":
-        {
-            "text" : "Multiplayer",	
-			"hoverText" : "Join us",		
-			"normalTextColor" : 4227327,
-			"hoverTextColor" : 65535,
-			"texture" : "mainmenu:textures/btn4.png",
-            "posX" : 0,
-            "posY" : -100,
-            "width" : 150,
-            "height" : 20,
-			imageWidth : 1000,
-			imageHeight : 1,
-			"alignment" : "column_bottom",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
-        },
-               
-		"options":
-        {
-            "text" : "Options",
-			"normalTextColor" : 4227327,
-			"hoverTextColor" : 16758315,
-			"texture" : "mainmenu:textures/btn4.png",
-            "posX" : 0,
-            "posY" : -80,
-            "width" : 150,
-            "height" : 20,
-			imageWidth : 1000,
-			imageHeight : 1,
-			"alignment" : "column_bottom",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-		        
-		"language":
-        {
-            "text" : "Language",
-			"normalTextColor" : 4227327,
-			"hoverTextColor" : 16758315,
-			"texture" : "mainmenu:textures/btn4.png",
-            "posX" : 0,
-            "posY" : -60,
-            "width" : 150,
-            "height" : 20,
-			imageWidth : 1000,
-			imageHeight : 1,			
-			"alignment" : "column_bottom",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-		
-        "mods":
-        {
-            "text" : "Mods (#modsloaded#/#modsactive#)",
-			"normalTextColor" : 2113664,
-			"hoverTextColor" : 8411925,
-			"texture" : "mainmenu:textures/btn4.png",
-            "posX" : 0,
-            "posY" : -40,
-            "width" : 150,
-            "height" : 20,
-			imageWidth : 1000,
-			imageHeight : 1,
-			imageWidth : 1000,
-			imageHeight : 1,
-			"alignment" : "column_bottom",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-                    
-        "quit":
-        {
-            "text" : "Quit",
-			"hoverText" : "No! Don't leave!",
-			"normalTextColor" : 16728128,
-			"hoverTextColor" : 16711680,
-			"texture" : "mainmenu:textures/btn4.png",
-            "posX" : 0,
-            "posY" : -20,
-            "width" : 150,
-            "height" : 20,
-			imageWidth : 1000,
-			imageHeight : 1,
-			"alignment" : "column_bottom",
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        }
+	"buttons": {
+		"discord": {
+			"text": "",
+			"texture": "mainmenu:textures/btn_discord.png",
+			"posX": -30,
+			"posY": -100,
+			"width": 20,
+			"height": 20,
+			"imageWidth": 2400,
+			"imageHeight": 2747,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openLink",
+				"link": "https://discord.gg/EXshrPV"
+			}
+		},
+		"singleplayer": {
+			"text": "Singleplayer",
+			"hoverText": "Alone, alone ...",
+			"normalTextColor": 4227327,
+			"hoverTextColor": 16711680,
+			"texture": "mainmenu:textures/btn4.png",
+			"posX": 0,
+			"posY": -120,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "Multiplayer",
+			"hoverText": "Join us",
+			"normalTextColor": 4227327,
+			"hoverTextColor": 65535,
+			"texture": "mainmenu:textures/btn4.png",
+			"posX": 0,
+			"posY": -100,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"options": {
+			"text": "Options",
+			"normalTextColor": 4227327,
+			"hoverTextColor": 16758315,
+			"texture": "mainmenu:textures/btn4.png",
+			"posX": 0,
+			"posY": -80,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"language": {
+			"text": "Language",
+			"normalTextColor": 4227327,
+			"hoverTextColor": 16758315,
+			"texture": "mainmenu:textures/btn4.png",
+			"posX": 0,
+			"posY": -60,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"mods": {
+			"text": "Mods (#modsloaded#/#modsactive#)",
+			"normalTextColor": 2113664,
+			"hoverTextColor": 8411925,
+			"texture": "mainmenu:textures/btn4.png",
+			"posX": 0,
+			"posY": -40,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"quit": {
+			"text": "Quit",
+			"hoverText": "No! Don't leave!",
+			"normalTextColor": 16728128,
+			"hoverTextColor": 16711680,
+			"texture": "mainmenu:textures/btn4.png",
+			"posX": 0,
+			"posY": -20,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 1000,
+			"imageHeight": 1,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "quit"
+			}
+		}
 	},
-    
-    "texts":
-    {
-        "mojang":
-        {
-            "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
-            "posX" : 155,
-            "posY" : 0,
-            "alignment" : "column_bottom"
-        },
-		"aviators":
-        {
-            "text" : "Opening Music Copyright by the Aviators",
-            "posX" : 155,
-            "posY" : -10,
-			"fontSize" : 0.5,
-            "alignment" : "column_bottom"
-        } 
-    },
-    
-	
-	"alignments":
-    {
-        "column_top":
-        {
-            "factorWidth" : 0.1,
-            "factorHeight" : 0.0
-        },
-		
-        "column_logo":
-        {
-            "factorWidth" : 0.1,
-            "factorHeight" : 0.05
-        },
- 
-        "column_center":
-        {
-            "factorWidth" : 0.1,
-            "factorHeight" : 0.5
-        },
- 
-        "column_bottom":
-        {
-            "factorWidth" : 0.1,
-            "factorHeight" : 0.95
-        }
-		
-    },
-	
-    "other":
-    {
-	        "background":
-        {
-            "image" : "",
-            "slideshow":
-            {
-                "images" : ["mainmenu:textures/bg.png","mainmenu:textures/bg2.png","mainmenu:textures/bg4.png","mainmenu:textures/bg7.png"],
-                "displayDuration" : 150,
-                "fadeDuration" : 40
-            }
-        }
-    }
+	"texts": {
+		"mojang": {
+			"text": "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+			"posX": 155,
+			"posY": 0,
+			"alignment": "column_bottom"
+		},
+		"aviators": {
+			"text": "Opening Music Copyright by the Aviators",
+			"posX": 155,
+			"posY": -10,
+			"fontSize": 0.5,
+			"alignment": "column_bottom"
+		}
+	},
+	"alignments": {
+		"column_top": {
+			"factorWidth": 0.1,
+			"factorHeight": 0.0
+		},
+		"column_logo": {
+			"factorWidth": 0.1,
+			"factorHeight": 0.05
+		},
+		"column_center": {
+			"factorWidth": 0.1,
+			"factorHeight": 0.5
+		},
+		"column_bottom": {
+			"factorWidth": 0.1,
+			"factorHeight": 0.95
+		}
+	},
+	"other": {
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"mainmenu:textures/bg.png",
+					"mainmenu:textures/bg2.png",
+					"mainmenu:textures/bg4.png",
+					"mainmenu:textures/bg7.png"
+				],
+				"displayDuration": 150,
+				"fadeDuration": 40
+			}
+		}
+	}
 }
