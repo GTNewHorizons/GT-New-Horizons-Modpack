@@ -344,30 +344,6 @@ recipes.remove(<IC2:itemPartCoalBall>);
 // --- CF Powder
 recipes.remove(<IC2:itemPartCFPowder>);
 
-// --- Double Uranium Fuel Rod
-recipes.remove(<IC2:reactorUraniumDual:*>);
-
-// --- Double Uranium Fuel Rod
-recipes.remove(<gregtech:gt.reactorUraniumDual>);
-
-// --- Quad Uranium Fuel Rod
-recipes.remove(<IC2:reactorUraniumQuad:*>);
-
-// --- Quad Uranium Fuel Rod
-recipes.remove(<gregtech:gt.reactorUraniumQuad>);
-
-// --- Double Mox Fuel Rod
-recipes.remove(<IC2:reactorMOXDual:*>);
-
-// --- Double Mox Fuel Rod
-recipes.remove(<gregtech:gt.reactorMOXDual>);
-
-// --- Quad Mox Fuel Rod
-recipes.remove(<IC2:reactorMOXQuad:*>);
-
-// --- Quad Mox Fuel Rod
-recipes.remove(<gregtech:gt.reactorMOXQuad>);
-
 // --- Reinforced Door
 recipes.remove(<IC2:itemDoorAlloy>);
 
@@ -1606,22 +1582,6 @@ Assembler.addRecipe(<IC2:itemCropnalyzer:1>, <gregtech:gt.metaitem.01:32740>, <g
 // --- EU Reader
 Assembler.addRecipe(<IC2:itemToolMEter>, <gregtech:gt.metaitem.01:32740>, <IC2:itemPartCircuit> * 2, <liquid:molten.glowstone> * 288, 600, 16);
 
-// --- Double Uranium Fuel Rod
-Assembler.addRecipe(<gregtech:gt.reactorUraniumDual>, <gregtech:gt.reactorUraniumSimple> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
-
-// --- Quad Uranium Fuel Rod
-Assembler.addRecipe(<gregtech:gt.reactorUraniumQuad>, <gregtech:gt.reactorUraniumDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
-// -
-Assembler.addRecipe(<gregtech:gt.reactorUraniumQuad>, <gregtech:gt.reactorUraniumSimple> * 4, <gregtech:gt.metaitem.02:22305> * 6, 300, 30);
-
-// --- Double Mox Fuel Rod
-Assembler.addRecipe(<gregtech:gt.reactorMOXDual>, <gregtech:gt.reactorMOXSimple> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
-
-// --- Quad Mox Fuel Rod
-Assembler.addRecipe(<gregtech:gt.reactorMOXQuad>, <gregtech:gt.reactorMOXDual> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
-// -
-Assembler.addRecipe(<gregtech:gt.reactorMOXQuad>, <gregtech:gt.reactorMOXSimple> * 4, <gregtech:gt.metaitem.02:22305> * 6, 300, 30);
-
 // --- Reinforced Door
 Assembler.addRecipe(<IC2:itemDoorAlloy>, <IC2:itemPartAlloy> * 3, <IC2:blockAlloyGlass>, <liquid:molten.lead> * 720, 600, 30);
 
@@ -1737,17 +1697,6 @@ Brewery.addRecipe(<liquid:ic2biomass> * 1000, <IC2:itemBiochaff>, <liquid:water>
 
 
 // --- Canner Recipes
-
-
-// --- Uranium Fuel Rod
-Canner.addRecipe(<IC2:reactorUraniumSimple:1>, <IC2:itemUran>, <IC2:itemFuelRod>, 200, 40);
-
-// --- MOX Fuel Rod
-Canner.addRecipe(<IC2:reactorMOXSimple:1>, <IC2:itemMOX>, <IC2:itemFuelRod>, 200, 40);
-
-// --- Thorium Fuel Rod
-Canner.addRecipe(<gregtech:gt.Thoriumcell>, <gregtech:gt.metaitem.01:2096>, <IC2:itemFuelRod>, 200, 40);
-
 
 
 
