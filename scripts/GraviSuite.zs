@@ -107,7 +107,7 @@ recipes.addShaped(<GraviSuite:ultimateLappack:27>, [
 recipes.addShaped(<GraviSuite:epicLappack:27>, [
 [<dreamcraft:item.IridiumAlloyItemCasing>, <gregtech:gt.metaitem.01:32599>, <dreamcraft:item.IridiumAlloyItemCasing>],
 [<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:*>, <gregtech:gt.metaitem.01:32599>],
-[<ore:circuitUltimate>, <ore:wireGt16Superconductor>, <ore:circuitUltimate>]]);
+[<ore:circuitUltimate>, <ore:wireGt16SuperconductorZPM>, <ore:circuitUltimate>]]);
 
 // --- Relocator
 recipes.addShaped(<GraviSuite:relocator:27>, [
