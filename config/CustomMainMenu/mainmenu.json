@@ -19,8 +19,26 @@
 		"discord": {
 			"image": "mainmenu:textures/discord.png",
 			"hoverImage": "mainmenu:textures/discord2.png",
-			"posX": -30,
-			"posY": -100,
+			"posX": 65,
+			"posY": -80,
+			"width": 20,
+			"height": 20,
+			"alignment": "column_bottom"
+		},
+		"github": {
+			"image": "mainmenu:textures/github.png",
+			"hoverImage": "mainmenu:textures/github2.png",
+			"posX": 35,
+			"posY": -80,
+			"width": 20,
+			"height": 20,
+			"alignment": "column_bottom"
+		},
+		"website": {
+			"image": "mainmenu:textures/website.png",
+			"hoverImage": "mainmenu:textures/website2.png",
+			"posX": 95,
+			"posY": -80,
 			"width": 20,
 			"height": 20,
 			"alignment": "column_bottom"
@@ -30,8 +48,8 @@
 		"discord": {
 			"text": "",
 			"texture": "mainmenu:textures/btn_discord.png",
-			"posX": -30,
-			"posY": -100,
+			"posX": 65,
+			"posY": -80,
 			"width": 20,
 			"height": 20,
 			"imageWidth": 2400,
@@ -42,6 +60,36 @@
 				"link": "https://discord.gg/EXshrPV"
 			}
 		},
+		"github": {
+			"text": "",
+			"texture": "mainmenu:textures/btn_discord.png",
+			"posX": 35,
+			"posY": -80,
+			"width": 20,
+			"height": 20,
+			"imageWidth": 2400,
+			"imageHeight": 2747,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/GTNewHorizons/NewHorizons/issues"
+			}
+		},
+		"website": {
+			"text": "",
+			"texture": "mainmenu:textures/btn_discord.png",
+			"posX": 95,
+			"posY": -80,
+			"width": 60,
+			"height": 20,
+			"imageWidth": 2400,
+			"imageHeight": 2747,
+			"alignment": "column_bottom",
+			"action": {
+				"type": "openLink",
+				"link": "https://www.gtnewhorizons.com/"
+			}
+		},
 		"singleplayer": {
 			"text": "Singleplayer",
 			"hoverText": "Alone, alone ...",
@@ -49,7 +97,7 @@
 			"hoverTextColor": 16711680,
 			"texture": "mainmenu:textures/btn4.png",
 			"posX": 0,
-			"posY": -120,
+			"posY": -140,
 			"width": 150,
 			"height": 20,
 			"imageWidth": 1000,
@@ -67,7 +115,7 @@
 			"hoverTextColor": 65535,
 			"texture": "mainmenu:textures/btn4.png",
 			"posX": 0,
-			"posY": -100,
+			"posY": -120,
 			"width": 150,
 			"height": 20,
 			"imageWidth": 1000,
@@ -84,7 +132,7 @@
 			"hoverTextColor": 16758315,
 			"texture": "mainmenu:textures/btn4.png",
 			"posX": 0,
-			"posY": -80,
+			"posY": -100,
 			"width": 150,
 			"height": 20,
 			"imageWidth": 1000,
