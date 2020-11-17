@@ -6,6 +6,16 @@
 
 
 
+// --- Minecraft ---
+
+
+// --- Book
+mods.thaumcraft.Aspects.set(<minecraft:book>, "pannus 1, cognitio 1");
+
+// --- Enchanted book
+mods.thaumcraft.Aspects.set(<minecraft:enchanted_book>, "pannus 1, cognitio 1, metallum 1");
+
+
 
 // --- BoP ---
 
