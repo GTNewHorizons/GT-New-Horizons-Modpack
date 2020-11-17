@@ -6,17 +6,6 @@
 
 
 
-// --- Minecraft ---
-
-
-// --- Book
-mods.thaumcraft.Aspects.set(<minecraft:book>, "pannus 1, cognitio 1");
-
-// --- Enchanted book
-mods.thaumcraft.Aspects.set(<minecraft:enchanted_book>, "pannus 1, cognitio 1, metallum 1");
-
-
-
 // --- BoP ---
 
 
@@ -619,6 +608,24 @@ mods.thaumcraft.Aspects.set(<minecraft:blaze_rod>, "ignis 10, praecantatio 4");
 // --- Paper
 mods.thaumcraft.Aspects.set(<minecraft:paper>, "cognitio 4, aqua 2, arbor 1");
 
+// --- Book
+mods.thaumcraft.Aspects.set(<minecraft:book>, "pannus 1, cognitio 1");
+
+// --- Enchanted book
+mods.thaumcraft.Aspects.set(<minecraft:enchanted_book>, "pannus 1, cognitio 1, metallum 1");
+
+// --- Hopper
+mods.thaumcraft.Aspects.set(<minecraft:hopper>, "metallum 15, arbor 4, vacuos 3, machina 1, permutatio 1");
+
+// --- Furnace
+mods.thaumcraft.Aspects.set(<minecraft:furnace>, "terra 6, perditio 6, ignis 1");
+
+// --- Pressure plate
+mods.thaumcraft.Aspects.set(<minecraft:stone_pressure_plate>, "terra 3, machina 1, sensus 1");
+
+// --- Redstone Torch
+mods.thaumcraft.Aspects.set(<minecraft:redstone_torch>, "potentia 1, machina 1");
+
 
 
 //--- Natura ---
@@ -827,21 +834,42 @@ mods.thaumcraft.Aspects.set(<TwilightForest:item.yetiLegs>, "tutanem 6, fabrico 
 mods.thaumcraft.Aspects.set(<TwilightForest:item.yetiBoots>, "tutanem 3, fabrico 2, pannus 9, gelum 3, instrumentum 1, praecantatio 2");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.magicBeans>, "herba 16, praecantatio 8, sensus 4");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.giantPick>, "perfodio 32, terra 16, perditio 16, arbor 8");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.giantSword>, "tellum 32, terra 16, perditio 16, arbor 8");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.enderBow>, "tellum 3, volatus 1, pannus 2, bestia 2, alienis 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.iceBow>, "tellum 3, volatus 1, pannus 2, bestia 2, gelum 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.tripleBow>, "tellum 6, volatus 1, pannus 2, bestia 2, arbor 1");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.seekerBow>, "tellum 3, volatus 1, pannus 2, bestia 2, iter 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.iceSword>, "tellum 4, lucrum 2, praecantatio 2, gelum 6");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.glassSword>, "tellum 14, vitreus 20, lucrum 1");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.giantSword>, "telum 32, terra 16, perditio 16, arbor 8");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.enderBow>, "telum 3, volatus 1, pannus 2, bestia 2, alienis 2");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.iceBow>, "telum 3, volatus 1, pannus 2, bestia 2, gelum 2");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.tripleBow>, "telum 6, volatus 1, pannus 2, bestia 2, arbor 1");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.seekerBow>, "telum 3, volatus 1, pannus 2, bestia 2, iter 2");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.iceSword>, "telum 4, lucrum 2, praecantatio 2, gelum 6");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.glassSword>, "telum 14, vitreus 20, lucrum 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.giantPick:*>, "perfodio 32, terra 16, perditio 16, arbor 8");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.giantSword:*>, "tellum 32, terra 16, perditio 16, arbor 8");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.enderBow:*>, "tellum 3, volatus 1, pannus 2, bestia 2, alienis 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.iceBow:*>, "tellum 3, volatus 1, pannus 2, bestia 2, gelum 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.tripleBow:*>, "tellum 6, volatus 1, pannus 2, bestia 2, arbor 1");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.seekerBow:*>, "tellum 3, volatus 1, pannus 2, bestia 2, iter 2");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.iceSword:*>, "tellum 4, lucrum 2, praecantatio 2, gelum 6");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.glassSword:*>, "tellum 14, vitreus 20, lucrum 1");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.giantSword:*>, "telum 32, terra 16, perditio 16, arbor 8");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.enderBow:*>, "telum 3, volatus 1, pannus 2, bestia 2, alienis 2");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.iceBow:*>, "telum 3, volatus 1, pannus 2, bestia 2, gelum 2");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.tripleBow:*>, "telum 6, volatus 1, pannus 2, bestia 2, arbor 1");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.seekerBow:*>, "telum 3, volatus 1, pannus 2, bestia 2, iter 2");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.iceSword:*>, "telum 4, lucrum 2, praecantatio 2, gelum 6");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.glassSword:*>, "telum 14, vitreus 20, lucrum 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:item.knightmetalRing>, "instrumentum 3, ordo 3, fabrico 3");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.chainBlock>, "tellum 10, metallum 20, motus 4, lucrum 8, instrumentum 10");
-mods.thaumcraft.Aspects.set(<TwilightForest:item.chainBlock:*>, "tellum 10, metallum 20, motus 4, lucrum 8, instrumentum 10");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.chainBlock>, "telum 10, metallum 20, motus 4, lucrum 8, instrumentum 10");
+mods.thaumcraft.Aspects.set(<TwilightForest:item.chainBlock:*>, "telum 10, metallum 20, motus 4, lucrum 8, instrumentum 10");
+
+
+
+// --- Forestry ---
+
+
+
+// --- Grafter
+mods.thaumcraft.Aspects.set(<Forestry:grafter>, "metallum 2, arbor 1, instrumentum 1");
+
+// --- Scoop
+mods.thaumcraft.Aspects.set(<Forestry:scoop>, "arbor 4, pannus 3, instrumentum 1");
+
+
+
+// --- Thaumic Bases ---
+
+
+
+// --- Tobacco Pile
+mods.thaumcraft.Aspects.set(<thaumicbases:tobaccoPowder>, "herba 1, humanus 1, perditio 1");
