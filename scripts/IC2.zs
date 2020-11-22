@@ -31,7 +31,7 @@ val IronFurnace = <IC2:blockMachine:1>;
 val IronPlate = <ore:plateAnyIron>;
 val Furnace = <minecraft:furnace>;
 val Wrench = <ore:craftingToolWrench>;
-val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
+val HVFieldGen = <gregtech:gt.metaitem.01:32672>;
 
 
 
@@ -1255,12 +1255,6 @@ recipes.addShaped(<IC2:blockMachine2:1>, [
 [<IC2:itemRecipePart>, <IC2:blockElectric:4>, <IC2:itemRecipePart>],
 [<ore:circuitAdvanced>, <ore:cableGt04Gold>, <ore:circuitAdvanced>]]);
 
-// --- Teleporter
-recipes.addShaped(<IC2:blockMachine2>, [
-[LuVFieldGen, <ore:lensDiamond>, LuVFieldGen],
-[<ore:circuitElite>, <IC2:blockElectric:5>, <ore:circuitElite>],
-[<gregtech:gt.metaitem.01:32604>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32604>]]);
-
 // --- Magnetizer
 recipes.addShaped(<IC2:blockMachine:9>, [
 [<ore:plateRedAlloy>, <ore:itemCasingSteel>, <ore:plateRedAlloy>],
@@ -1306,6 +1300,18 @@ mods.avaritia.ExtremeCrafting.addShaped(<IC2:blockGenerator:9>, [
 [null, null, <ore:cableGt01Platinum>, <ore:circuitData>, <gregtech:gt.blockcasings2:11>, <ore:circuitData>, <ore:cableGt01Platinum>, null, null],
 [null, null,  <ore:rotorStainlessSteel>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:32538>, <gregtech:gt.metaitem.01:32602>,  <ore:rotorStainlessSteel>, null, null],
 [null, null, <ore:plateDoubleStainlessSteel>, <ore:plateDoubleStainlessSteel>, <IC2:itemRecipePart:12>, <ore:plateDoubleStainlessSteel>, <ore:plateDoubleStainlessSteel>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Teleporter
+mods.avaritia.ExtremeCrafting.addShaped(<IC2:blockMachine2>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateTungstenSteel>, <ore:lensNetherStar>, HVFieldGen, <ore:lensNetherStar>, <ore:plateTungstenSteel>, null, null],
+[null, null, <ore:circuitElite>, <gregtech:gt.metaitem.01:32604>, <IC2:blockElectric:5>, <gregtech:gt.metaitem.01:32604>, <ore:circuitElite>, null, null],
+[null, null, <ore:plateTungstenSteel>, <ore:cableGt04Platinum>, <ore:plateTungstenSteel>, <ore:cableGt04Platinum>, <ore:plateTungstenSteel>, null, null],
+[null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 

@@ -313,7 +313,7 @@ mods.thaumcraft.Warp.addToResearch("ICHORCLOTH_BOOTS_GEM", 4);
 
 // --- Celestial Gateway
 mods.thaumcraft.Infusion.addRecipe("WARP_GATE",  <Thaumcraft:blockCosmeticSolid:2>,
-[<ThaumicTinkerer:dislocator>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:11978>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
+[<ThaumicTinkerer:dislocator>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
 "alienis 64, iter 72, volatus 64, terra 32, aer 32", <ThaumicTinkerer:warpGate>, 10);
 
 // --- Celestial Pearl
