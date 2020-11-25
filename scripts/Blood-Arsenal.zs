@@ -447,7 +447,7 @@ mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_diamond>, <gregtech:gt.metai
 mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_infused_glowstone_dust>, <minecraft:glowstone_dust>, 3, 7000);
 
 // --- Blood Burned String
-mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_burned_string>, <witchery:ingredient:102>, 2, 5000);
+mods.bloodmagic.Altar.addRecipe(<BloodArsenal:blood_burned_string>, <minecraft:string>, 2, 5000);
 
 // --- Soul Fragment
 mods.bloodmagic.Altar.addRecipe(<BloodArsenal:soul_fragment>, <BloodArsenal:heart>, 4, 100000);

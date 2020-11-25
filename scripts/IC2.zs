@@ -31,7 +31,7 @@ val IronFurnace = <IC2:blockMachine:1>;
 val IronPlate = <ore:plateAnyIron>;
 val Furnace = <minecraft:furnace>;
 val Wrench = <ore:craftingToolWrench>;
-val HVFieldGen = <gregtech:gt.metaitem.01:32672>;
+val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
 
 
 
@@ -1255,6 +1255,12 @@ recipes.addShaped(<IC2:blockMachine2:1>, [
 [<IC2:itemRecipePart>, <IC2:blockElectric:4>, <IC2:itemRecipePart>],
 [<ore:circuitAdvanced>, <ore:cableGt04Gold>, <ore:circuitAdvanced>]]);
 
+// --- Teleporter
+recipes.addShaped(<IC2:blockMachine2>, [
+[LuVFieldGen, <ore:lensDiamond>, LuVFieldGen],
+[<ore:circuitElite>, <IC2:blockElectric:5>, <ore:circuitElite>],
+[<gregtech:gt.metaitem.01:32604>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32604>]]);
+
 // --- Magnetizer
 recipes.addShaped(<IC2:blockMachine:9>, [
 [<ore:plateRedAlloy>, <ore:itemCasingSteel>, <ore:plateRedAlloy>],
@@ -1314,6 +1320,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<IC2:blockMachine2>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+
 
 // --- Nuclear Reactor
 recipes.addShaped(<IC2:blockGenerator:5>, [
