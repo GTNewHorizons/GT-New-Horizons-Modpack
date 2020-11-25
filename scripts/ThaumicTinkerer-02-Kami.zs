@@ -327,7 +327,7 @@ mods.thaumcraft.Warp.addToResearch("WARP_GATE", 4);
 
 // --- Wand Focus Celestial Recall
 mods.thaumcraft.Infusion.addRecipe("FOCUS_RECALL", <ThaumicTinkerer:focusEnderChest>,
-[<gregtech:gt.metaitem.01:11978>, <ThaumicTinkerer:skyPearl>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:skyPearl>],
+[<ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:skyPearl>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:skyPearl>],
 "alienis 64, iter 128, praecantatio 96, volatus 48, aer 32", <ThaumicTinkerer:focusRecall>, 14);
 // -
 mods.thaumcraft.Research.setAspects("FOCUS_RECALL", "iter 18, alienis 15, volatus 12, praecantatio 9, aer 6, cognitio 3");
