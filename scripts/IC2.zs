@@ -1308,9 +1308,9 @@ mods.avaritia.ExtremeCrafting.addShaped(<IC2:blockMachine2>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, null, <ore:plateTungstenSteel>, <ore:lensNetherStar>, HVFieldGen, <ore:lensNetherStar>, <ore:plateTungstenSteel>, null, null],
-[null, null, <ore:circuitElite>, <gregtech:gt.metaitem.01:32604>, <IC2:blockElectric:5>, <gregtech:gt.metaitem.01:32604>, <ore:circuitElite>, null, null],
-[null, null, <ore:plateTungstenSteel>, <ore:cableGt04Platinum>, <ore:plateTungstenSteel>, <ore:cableGt04Platinum>, <ore:plateTungstenSteel>, null, null],
+[null, null, <ore:plateTitanium>, <ore:lensNetherStar>, HVFieldGen, <ore:lensNetherStar>, <ore:plateTitanium>, null, null],
+[null, null, <IC2:itemBatLamaCrystal:32767>, <gregtech:gt.metaitem.01:32603>, <IC2:blockElectric:5>, <gregtech:gt.metaitem.01:32603>, <IC2:itemBatLamaCrystal:32767>, null, null],
+[null, null, <ore:plateTitanium>, <ore:cableGt04Aluminium>, <ore:plateTitanium>, <ore:cableGt04Aluminium>, <ore:plateTitanium>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
