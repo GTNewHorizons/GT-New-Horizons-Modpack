@@ -318,7 +318,7 @@ mods.thaumcraft.Infusion.addRecipe("WARP_GATE",  <Thaumcraft:blockCosmeticSolid:
 
 // --- Celestial Pearl
 mods.thaumcraft.Infusion.addRecipe("WARP_GATE", <minecraft:ender_pearl>,
-[<IC2:itemDensePlates:8>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:11978>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
+[<IC2:itemDensePlates:8>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <ThaumicTinkerer:kamiResource>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
 "aer 24, alienis 32, volatus 32, iter 32, vitreus 24", <ThaumicTinkerer:skyPearl>, 10);
 // -
 mods.thaumcraft.Research.setAspects("WARP_GATE", "iter 18, volatus 15, alienis 12, machina 9, vitreus 6, aer 3");
