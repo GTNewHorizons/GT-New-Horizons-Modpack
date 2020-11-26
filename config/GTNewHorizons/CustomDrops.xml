@@ -6,17 +6,26 @@
         <Drop Identifier="sample_Pig_CharcoalDrop" ItemName="minecraft:coal:1" Amount="5" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="true"/>
     </CustomDrop>
 	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFLich">
-        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBone" Amount="6" NBTTag="" Chance="100" LimitedDropCount="10" RandomAmount="true"/>
+        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBone" Amount="6" NBTTag="" Chance="100" LimitedDropCount="50" RandomAmount="true"/>
 		<Drop Identifier="Litch_Ofanix" ItemName="Ztones:ofanix" Amount="1" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
     </CustomDrop>
 		<CustomDrop EntityClassName="twilightforest.entity.EntityTFDeathTome">
-        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBoneChip" Amount="2" NBTTag="" Chance="100" LimitedDropCount="4" RandomAmount="true"/>
+        <Drop Identifier="Litch_LitchBone" ItemName="dreamcraft:item.LichBoneChip" Amount="2" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
     </CustomDrop>
 	<CustomDrop EntityClassName="twilightforest.entity.boss.EntityTFSnowQueen">
-		<Drop Identifier="Bloodqueen_Blood" ItemName="dreamcraft:item.SnowQueenBlood" Amount="6" NBTTag="" Chance="100" LimitedDropCount="10" RandomAmount="true"/>	
+		<Drop Identifier="Bloodqueen_Blood" ItemName="dreamcraft:item.SnowQueenBlood" Amount="6" NBTTag="" Chance="100" LimitedDropCount="50" RandomAmount="true"/>	
+    </CustomDrop>
+		<CustomDrop EntityClassName="twilightforest.entity.passive.EntityTFBunny">
+		<Drop Identifier="Rabbit" ItemName="harvestcraft:rabbitrawItem" Amount="2" NBTTag="" Chance="75" LimitedDropCount="0" RandomAmount="true"/>	
+    </CustomDrop>
+		<CustomDrop EntityClassName="twilightforest.entity.passive.EntityTFDeer">
+		<Drop Identifier="Deer" ItemName="harvestcraft:venisonrawItem" Amount="2" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="true"/>	
     </CustomDrop>
 	<CustomDrop EntityClassName="com.emoniph.witchery.entity.EntityEnt">
 		<Drop Identifier="Ent_Moss_TF" ItemName="TwilightForest:tile.TFPlant:3" Amount="2" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
 		<Drop Identifier="Ent_Moss_BOP" ItemName="BiomesOPlenty:moss" Amount="4" NBTTag="" Chance="100" LimitedDropCount="0" RandomAmount="false"/>
 	</CustomDrop>
+		<CustomDrop EntityClassName="biomesoplenty.common.entities.EntityRosester">
+		<Drop Identifier="Rosester" ItemName="harvestcraft:turkeyrawItem" Amount="2" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="true"/>	
+    </CustomDrop>
 </CustomDrops>
