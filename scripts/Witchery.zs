@@ -121,6 +121,9 @@ recipes.remove(<witchery:ingredient:92>);
 // --- Waystone
 recipes.remove(<witchery:ingredient:12>);
 
+//Ruby slippers
+recipes.remove(<witchery:rubyslippers>); 
+
 
 
 
@@ -360,7 +363,7 @@ mods.thaumcraft.Arcane.addShaped("SPINNINGWHEELW", <witchery:spinningwheel>, "ae
 mods.thaumcraft.Research.addArcanePage("SPINNINGWHEELW", <witchery:spinningwheel>);
 
 // --- Ruby Slippers
-mods.thaumcraft.Research.addResearch("RUBYSLIPPERS", "WITCHERY", "aer 18, fames 15, lucrum 12, vitreus 9, potentia 6, praecantatio 3", 6, -2 as int, 4, <witchery:rubyslippers>);
+mods.thaumcraft.Research.addResearch("RUBYSLIPPERS", "WITCHERY", "auram 21, aer 18, fames 15, lucrum 12, vitreus 9, potentia 6, praecantatio 3", 6, -2 as int, 4, <witchery:rubyslippers>);
 game.setLocalization("tc.research_name.RUBYSLIPPERS", "Ruby Slippers");
 game.setLocalization("tc.research_text.RUBYSLIPPERS", "[WI] Welcome home");
 mods.thaumcraft.Research.addPrereq("RUBYSLIPPERS", "BLOODALTAR", false);
@@ -371,8 +374,8 @@ game.setLocalization("Witchery.research_page.RUBYSLIPPERS.1", "Ruby Slippers are
 mods.thaumcraft.Research.addPage("RUBYSLIPPERS", "Witchery.research_page.RUBYSLIPPERS.2");
 game.setLocalization("Witchery.research_page.RUBYSLIPPERS.2", "Alternatively, once every 60 seconds the player may drop a Bound Waystone near to themselves and use the above chant to teleport to the location of the waystone (the waystone will be consumed!).<BR> This ability saves the need to draw a circle to use the Rite of Transposition. This ability costs 20% of the players total infused power (or 40% if the teleport is cross-dimensional).<BR>Ruby Slippers will turn invisible when the player is invisible. This is only a visual change, mobs will still react as if normal shoes were worn. Other players however will not be able to see the slippers!");
 mods.thaumcraft.Infusion.addRecipe("RUBYSLIPPERS", <witchery:seepingshoes>, 
-[<witchery:ingredient:80>, <dreamcraft:item.MytrylCrystal>, <witchery:ingredient:34>, <BloodArsenal:blood_burned_string>, <dreamcraft:item.MytrylCrystal>, <witchery:ingredient:80>, <dreamcraft:item.MytrylCrystal>, <BloodArsenal:blood_burned_string>, <witchery:ingredient:34>, <dreamcraft:item.MytrylCrystal>], 
-"aer 32, lucrum 16, potentia 8, praecantatio 8, fames 16", <witchery:rubyslippers>, 5);
+[<witchery:ingredient:80>, <dreamcraft:item.ManyullynCrystal>, <witchery:ingredient:34>, <BloodArsenal:blood_burned_string>, <dreamcraft:item.ManyullynCrystal>, <witchery:ingredient:80>, <dreamcraft:item.ManyullynCrystal>, <BloodArsenal:blood_burned_string>, <witchery:ingredient:34>, <dreamcraft:item.ManyullynCrystal>], 
+"auram 64, aer 64, lucrum 32, potentia 16, praecantatio 16, fames 32", <witchery:rubyslippers>, 5);
 mods.thaumcraft.Research.addInfusionPage("RUBYSLIPPERS", <witchery:rubyslippers>);
 mods.thaumcraft.Warp.addToResearch("RUBYSLIPPERS", 5);
 
