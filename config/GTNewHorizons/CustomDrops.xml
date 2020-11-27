@@ -112,11 +112,11 @@
 		<Drop Identifier="SlimeBeetle" ItemName="TConstruct:materials:17" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
     </CustomDrop>
 		<CustomDrop EntityClassName="twilightforest.entity.EntityTFSwarmSpider">
-		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16388" Amount="1" NBTTag="" Chance="25" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16456" Amount="1" NBTTag="" Chance="25" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16391" Amount="1" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>	
-		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16460" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>
-		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16420" Amount="1" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16388" Amount="10" NBTTag="" Chance="25" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16456" Amount="10" NBTTag="" Chance="25" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16391" Amount="10" NBTTag="" Chance="15" LimitedDropCount="0" RandomAmount="true"/>	
+		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16460" Amount="10" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="true"/>
+		<Drop Identifier="SwarmSpider" ItemName="minecraft:potion:16420" Amount="10" NBTTag="" Chance="10" LimitedDropCount="0" RandomAmount="true"/>
 		<Drop Identifier="SwarmSpider" ItemName="BiomesOPlenty:jarFilled:1" Amount="1" NBTTag="" Chance="20" LimitedDropCount="0" RandomAmount="true"/>	
     </CustomDrop>
 		<CustomDrop EntityClassName="com.emoniph.witchery.entity.EntityEnt">
