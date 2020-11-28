@@ -4,25 +4,12 @@
 // --- Importing Stuff ---
 
 import mods.gregtech.AlloySmelter;
-import mods.gregtech.Assembler;
-import mods.gregtech.BlastFurnace;
-import mods.gregtech.Centrifuge;
-import mods.gregtech.ChemicalReactor;
-import mods.gregtech.CuttingSaw;
 import mods.ic2.Compressor;
-import mods.ic2.Extractor;
 import mods.gregtech.Extruder;
-import mods.gregtech.FluidExtractor;
-import mods.gregtech.FluidSolidifier;
-import mods.gregtech.ForgeHammer;
-import mods.gregtech.Mixer;
 import mods.nei.NEI;
-import mods.gregtech.Pulverizer;
-
 
 
 // --- Variables ---
-
 
 var IronOreberry = <TConstruct:oreBerries:0>;
 var GoldOreberry = <TConstruct:oreBerries:1>;
@@ -2511,24 +2498,6 @@ AlloySmelter.addRecipe(<TConstruct:materials:1>, <TConstruct:CraftedSoil> * 2, <
 // --- Blue Slime Crystal
 AlloySmelter.addRecipe(<TConstruct:materials:17>, <TConstruct:CraftedSoil:2> * 2, <gregtech:gt.metaitem.01:32307> * 0, 400, 16);
 
-// --- Manyullyn Ingot
-//AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:3>, <TConstruct:materials:4>, 400, 16);
-// -
-//AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:3>, <TConstruct:materials:38>, 400, 16);
-// -
-//AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:4>, 400, 16);
-// -
-//AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>, 400, 16);
-// -
-//AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:30> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 30);
-// -
-//AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:2033>, <gregtech:gt.metaitem.01:2382>, 400, 16);
-// -
-//AlloySmelter.addRecipe(<TConstruct:materials:5>, <gregtech:gt.metaitem.01:11033>, <gregtech:gt.metaitem.01:11382>, 400, 16);
-
-// --- Ardite Ingot
-//AlloySmelter.addRecipe(<TConstruct:materials:4>, <TConstruct:materials:29> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
-
 // --- Alumit Ingot
 AlloySmelter.addRecipe(<TConstruct:materials:15>, <TConstruct:materials:32> * 9, <gregtech:gt.metaitem.01:32306> * 0, 200, 8);
 
@@ -2547,107 +2516,7 @@ AlloySmelter.addRecipe(<TConstruct:materials:37>, <TConstruct:CraftedSoil:6>, <g
 
 
 
-
-// --- Assembler Recipes ---
-
-
-
-
-// --- Green SDX TNT
-Assembler.addRecipe(<TConstruct:explosive.slime>, <TConstruct:slime.gel:1>, <IC2:blockITNT>, 600, 30);
-
-// --- Blue SDX TNT
-Assembler.addRecipe(<TConstruct:explosive.slime:2>, <TConstruct:slime.gel>, <TConstruct:explosive.slime>, 600, 64);
-
-// --- Empty Canister
-Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:22019>, <gregtech:gt.metaitem.01:27306> * 4, 2400, 480);
-
-
-
-// --- Blast Furnace Recipes ---
-
-
-
-
-// --- Clear Glass
-BlastFurnace.addRecipe([<TConstruct:GlassBlock>], [<minecraft:glass>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
-
-// --- Clear Glass Pane
-BlastFurnace.addRecipe([<TConstruct:GlassPane>], [<minecraft:glass_pane>, <gregtech:gt.integrated_circuit:1> * 0], 100, 120, 1000);
-
-
-
-
-
-// --- Chemical Reactor Recipes ---
-
-
-
-
-// --- Jeweled Apple
-ChemicalReactor.addRecipe(<TConstruct:diamondApple>, <minecraft:diamond_block> * 8, <minecraft:golden_apple:1>, 3600);
-
-
-// --- Centrifuge Recipes ---
-
-// --- Ardite and Cobalt Dust
-Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>], <TConstruct:materials:41>, 0, 1200);
-
-
-
-
-// --- Compressor Recipes ---
-
-// --- Seared Bricks
-Compressor.addRecipe(<TConstruct:Smeltery:2>, <TConstruct:materials:2> * 4);
-
-// --- Slime Crystal
-Compressor.addRecipe(<TConstruct:materials:1>, <TConstruct:CraftedSoil> * 4);
-// -
-Compressor.addRecipe(<TConstruct:materials:17>, <TConstruct:CraftedSoil:2> * 4);
-
-// --- Paper Stack
-Compressor.addRecipe(<TConstruct:materials>, <minecraft:paper> * 64);
-
-
-
-
-// --- Centrifuge Recipes ---
-
-
-// --- Raw Rubber out of Slime balls
-Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2896> * 2],  null, <TConstruct:strangeFood>, null, <liquid:refinedglue> * 50, [10000], 300, 5);
-// -
-Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2896> * 2],  null, <minecraft:slime_ball>, null, <liquid:refinedglue> * 50, [10000], 300, 5);
-// -
-Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2896> * 8],  null, <TConstruct:slime.gel:2>, null, <liquid:refinedglue> * 200, [10000], 300, 5);
-
-
-
-
-
-
-// --- Cutting Saw Recipes ---
-
-// --- Ardite Plate
-CuttingSaw.addRecipe(<dreamcraft:item.ArditePlate> * 9, null, <TConstruct:MetalBlock:1>, <liquid:water> * 1000, 4800, 30);
-// -
-CuttingSaw.addRecipe(<dreamcraft:item.ArditePlate> * 9, null, <TConstruct:MetalBlock:1>, <liquid:ic2distilledwater> * 750, 4800, 30);
-// -
-CuttingSaw.addRecipe(<dreamcraft:item.ArditePlate> * 9, null, <TConstruct:MetalBlock:1>, <liquid:lubricant> * 250, 2400, 30);
-
-// --- Manyullyn Plate
-CuttingSaw.addRecipe(<dreamcraft:item.ManyullynPlate> * 9, null, <TConstruct:MetalBlock:2>, <liquid:water> * 1000, 9600, 30);
-// -
-CuttingSaw.addRecipe(<dreamcraft:item.ManyullynPlate> * 9, null, <TConstruct:MetalBlock:2>, <liquid:ic2distilledwater> * 750, 9600, 30);
-// -
-CuttingSaw.addRecipe(<dreamcraft:item.ManyullynPlate> * 9, null, <TConstruct:MetalBlock:2>, <liquid:lubricant> * 250, 4800, 30);
-
-
 // --- Drying Reck Recipes ---
-
-
-
 
 // --- Coagulated Blood Drop
 mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood:1>, <TConstruct:jerky:7>, 6000);
@@ -2657,6 +2526,7 @@ mods.tconstruct.Drying.addRecipe(<TConstruct:strangeFood>, <TConstruct:jerky:6>,
 
 // --- Mutton Jerky
 mods.tconstruct.Drying.addRecipe(<harvestcraft:muttonrawItem>, <TConstruct:jerky:3>, 12000);
+
 
 
 // --- Ordict remove ---
