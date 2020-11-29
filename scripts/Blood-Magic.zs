@@ -603,7 +603,7 @@ recipes.addShapeless(<AWWayofTime:telepositionFocus>, [<AWWayofTime:teleposition
 
 // --- Teleposer
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockTeleposer>, [
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:masterBloodOrb>, <gregtech:gt.metaitem.01:17351>],
+[<ore:plateRoseGold>, <AWWayofTime:masterBloodOrb>, <ore:plateRoseGold>],
 [<AWWayofTime:bloodMagicBaseItems:32>, <AWWayofTime:telepositionFocus>, <AWWayofTime:bloodMagicBaseItems:32>],
 [<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <gregtech:gt.blockmachines:4412>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>]]);
 
@@ -621,21 +621,21 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:demonicTelepositionFocus>, [
 
 // --- Raw Blaster
 mods.bloodmagic.BloodOrb.addShaped(<dreamcraft:item.Blaster>, [
-[<AWWayofTime:apprenticeBloodOrb>, <AWWayofTime:crepitous>, <gregtech:gt.metaitem.02:29500>],
+[<AWWayofTime:apprenticeBloodOrb>, <AWWayofTime:crepitous>, <ore:gemFlawlessDiamond>],
 [<AWWayofTime:crepitous>, <AWWayofTime:bloodMagicBaseItems:3>, <AWWayofTime:bloodMagicBaseItems:15>],
-[<gregtech:gt.metaitem.02:29500>, <AWWayofTime:bloodMagicBaseItems:15>, <AWWayofTime:weakBloodShard>]]);
+[<ore:gemFlawlessDiamond>, <AWWayofTime:bloodMagicBaseItems:15>, <AWWayofTime:weakBloodShard>]]);
 
 // --- Energy Blaster II
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:energyBlasterSecondTier>, [
-[<AWWayofTime:archmageBloodOrb>, <BloodArsenal:amorphic_catalyst>, <gregtech:gt.metaitem.02:30500>],
+[<AWWayofTime:archmageBloodOrb>, <BloodArsenal:amorphic_catalyst>, <ore:gemExquisiteDiamond>],
 [<BloodArsenal:amorphic_catalyst>, <AWWayofTime:energyBlaster>, <AWWayofTime:bloodMagicBaseItems:17>],
-[<gregtech:gt.metaitem.02:30500>, <AWWayofTime:bloodMagicBaseItems:17>, <AWWayofTime:demonBloodShard>]]);
+[<ore:gemExquisiteDiamond>, <AWWayofTime:bloodMagicBaseItems:17>, <AWWayofTime:demonBloodShard>]]);
 
 // --- Energy Blaster III
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:energyBlasterThirdTier>, [
-[<AWWayofTime:transcendentBloodOrb>, <BloodArsenal:blood_infused_diamond_bound>, <gregtech:gt.metaitem.02:30500>],
+[<AWWayofTime:transcendentBloodOrb>, <BloodArsenal:blood_infused_diamond_bound>, <ore:gemExquisiteDiamond>],
 [<BloodArsenal:blood_infused_diamond_bound>, <AWWayofTime:energyBlasterSecondTier>, <AWWayofTime:bloodMagicBaseItems:30>],
-[<gregtech:gt.metaitem.02:30500>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:demonPlacer>]]);
+[<ore:gemExquisiteDiamond>, <AWWayofTime:bloodMagicBaseItems:30>, <AWWayofTime:demonPlacer>]]);
 
 // --- Wooden Brace
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:3>, [
@@ -645,21 +645,21 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:3>, [
 
 // --- Stone Brace
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:4>, [
-[<AWWayofTime:apprenticeBloodOrb>, <gregtech:gt.metaitem.01:17299>, <AWWayofTime:reinforcedSlate>],
-[<gregtech:gt.metaitem.01:17299>, <AWWayofTime:bloodMagicBaseItems:3>, <gregtech:gt.metaitem.01:17299>],
-[<AWWayofTime:reinforcedSlate>, <gregtech:gt.metaitem.01:17299>, null]]);
+[<AWWayofTime:apprenticeBloodOrb>, <ore:plateStone>, <AWWayofTime:reinforcedSlate>],
+[<ore:plateStone>, <AWWayofTime:bloodMagicBaseItems:3>, <ore:plateStone>],
+[<AWWayofTime:reinforcedSlate>, <ore:plateStone>, null]]);
 
 // --- Obsidian Brace
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:25>, [
-[<AWWayofTime:magicianBloodOrb>, <gregtech:gt.metaitem.01:17804>, <AWWayofTime:imbuedSlate>],
-[<gregtech:gt.metaitem.01:17804>, <AWWayofTime:bloodMagicBaseItems:4>, <gregtech:gt.metaitem.01:17804>],
-[<AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.01:17804>, null]]);
+[<AWWayofTime:magicianBloodOrb>, <ore:plateObsidian>, <AWWayofTime:imbuedSlate>],
+[<ore:plateObsidian>, <AWWayofTime:bloodMagicBaseItems:4>, <ore:plateObsidian>],
+[<AWWayofTime:imbuedSlate>, <ore:plateObsidian>, null]]);
 
 // --- Living Brace
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:31>, [
-[<AWWayofTime:masterBloodOrb>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:demonicSlate>],
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>],
-[<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:28>]]);
+[<AWWayofTime:masterBloodOrb>, <ore:plateRoseGold>, <AWWayofTime:demonicSlate>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>],
+[<AWWayofTime:demonicSlate>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:28>]]);
 
 // --- Projectile Core
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:5>, [
@@ -705,7 +705,7 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:13>, [
 
 // --- Unattuned Core
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:18>, [
-[<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>],
 [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
 [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>]]);
 
@@ -735,7 +735,7 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:22>, [
 
 // --- Reduction Core
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:23>, [
-[<AWWayofTime:bloodMagicBaseAlchemyItems:7>, <gregtech:gt.metaitem.01:17379>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:7>, <ore:plateSoularium>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>],
 [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
 [<AWWayofTime:bloodMagicBaseAlchemyItems:7>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>]]);
 
@@ -753,15 +753,15 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:26>, [
 
 // --- Magicales Cables
 recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:2> * 3, [
-[<gregtech:gt.metaitem.01:17874>, <gregtech:gt.metaitem.01:17874>, <gregtech:gt.metaitem.01:17874>],
+[<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>],
 [<AWWayofTime:magicales>, <AWWayofTime:magicales>, <AWWayofTime:magicales>],
-[<gregtech:gt.metaitem.01:17874>, <gregtech:gt.metaitem.01:17874>, <gregtech:gt.metaitem.01:17874>]]);
+[<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>]]);
 
 // --- Paradigm Plate
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:8>, [
-[<AWWayofTime:reinforcedSlate>, <gregtech:gt.metaitem.01:17028>, <AWWayofTime:reinforcedSlate>],
+[<AWWayofTime:reinforcedSlate>, <ore:plateTitanium>, <AWWayofTime:reinforcedSlate>],
 [<AWWayofTime:blankSlate>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:blankSlate>],
-[<AWWayofTime:reinforcedSlate>, <gregtech:gt.metaitem.01:17028>, <AWWayofTime:reinforcedSlate>]]);
+[<AWWayofTime:reinforcedSlate>, <ore:plateTitanium>, <AWWayofTime:reinforcedSlate>]]);
 
 // ---  Input Spell Cable
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:14>, [
@@ -783,8 +783,8 @@ recipes.addShaped(<AWWayofTime:inputRoutingFocus>, [
 
 // --- Incense Crucible
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:blockCrucible>, [
-[<gregtech:gt.metaitem.01:17019>, <AWWayofTime:apprenticeBloodOrb>, <gregtech:gt.metaitem.01:17019>],
-[<gregtech:gt.metaitem.01:17019>, <Thaumcraft:blockMetalDevice>, <gregtech:gt.metaitem.01:17019>],
+[<ore:plateAluminium>, <AWWayofTime:apprenticeBloodOrb>, <ore:plateAluminium>],
+[<ore:plateAluminium>, <Thaumcraft:blockMetalDevice>, <ore:plateAluminium>],
 [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
 
 // --- Spell Conduit
@@ -798,75 +798,75 @@ recipes.addShapeless(<AWWayofTime:bloodMagicIncenseItem>, [<witchery:ingredient:
 
 // --- Particel Generator
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm>, [
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
 [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:5>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
 
 // --- Self Augmentator
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1>, [
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
 [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:6>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
 
 // --- Meele Aggregator
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2>, [
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
 [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:7>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
 
 // --- Tool Forge
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3>, [
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:magicianBloodOrb>],
 [<AWWayofTime:bloodMagicBaseItems:8>, <AWWayofTime:bloodMagicBaseItems:26>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
+[<ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>, null]]);
 
 // --- Default Spell Modifier
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
 [<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:18>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 // --- Offensive Spell Modifier
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
 [<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:19>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 // --- Defensive Spell Modifier
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
 [<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:20>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 // --- Inviromental Spell Modifier
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>],
 [<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:21>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17351>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateRoseGold>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 // --- Crucible of Fire
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17349>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
 [<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:10>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17349>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 // --- Ice Maker
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17349>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
 [<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:11>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17349>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 // --- Wind Generator
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17349>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
 [<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:12>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17349>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 // --- Earth Former
 recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3>, [
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17349>, <AWWayofTime:bloodMagicBaseItems:25>],
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>],
 [<AWWayofTime:bloodMagicBaseItems:14>, <AWWayofTime:bloodMagicBaseItems:13>, <AWWayofTime:bloodMagicBaseItems:9>],
-[<AWWayofTime:bloodMagicBaseItems:25>, <gregtech:gt.metaitem.01:17349>, <AWWayofTime:bloodMagicBaseItems:25>]]);
+[<AWWayofTime:bloodMagicBaseItems:25>, <ore:plateBlueSteel>, <AWWayofTime:bloodMagicBaseItems:25>]]);
 
 
 
