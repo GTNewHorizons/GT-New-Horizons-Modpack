@@ -1474,8 +1474,8 @@ recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatChestplate>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
 [null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
-  // Fix the boot without lossing nbt tags, which contains custom naming and enchantment infos
-  return inputs.boots.withDamage(0);
+  // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
+  return inputs.armor.withDamage(0);
 });
 
 // --- Repair rubber Leggins
@@ -1483,8 +1483,8 @@ recipes.addShaped(<IC2:itemArmorHazmatLeggings>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatLeggings>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
 [null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
-  // Fix the boot without lossing nbt tags, which contains custom naming and enchantment infos
-  return inputs.boots.withDamage(0);
+  // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
+  return inputs.armor.withDamage(0);
 });
 
 
@@ -1556,7 +1556,7 @@ Assembler.addRecipe(<IC2:blockElectric:5>, <gregtech:gt.blockmachines:23>, <greg
 Assembler.addRecipe(<IC2:blockElectric:6>, <gregtech:gt.blockmachines:24>, <gregtech:gt.blockmachines:1529> * 2, 100, 1920);
 
 // --- Coil
-Assembler.addRecipe(<IC2:itemRecipePart>, [<gregtech:gt.metaitem.01:23355>, <gregtech:gt.blockmachines:1360> * 16, <gregtech:gt.integrated_circuit:3> * 0], <liquid:molten.solderingalloy> * 72, 200, 30);
+Assembler.addRecipe(<IC2:itemRecipePart>, [<gregtech:gt.metaitem.01:23355>, <gregtech:gt.blockmachines:1360> * 16, <gregtech:gt.integrated_circuit:3> * 0], null, 200, 30);
 
 // --- Coal Chunk
 Assembler.addRecipe(<IC2:itemPartCoalChunk>, <minecraft:coal_block>, <IC2:itemPartCoalBlock> * 8, 1200, 64);
