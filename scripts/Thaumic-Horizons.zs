@@ -27,9 +27,9 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicHorizons:recombinator>);
 
 // --- Planar Conduit
 mods.thaumcraft.Arcane.addShaped("planarTheory", <ThaumicHorizons:planarConduit>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100, perditio 100", [
-[<ore:plateVoid>, <ore:plateEnderium>, <ore:plateVoid>],
-[<ore:plateEnderium>, <gregtech:gt.metaitem.01:32724>, <ore:plateEnderium>],
-[<ore:plateVoid>, <ore:plateEnderium>, <ore:plateVoid>]]);
+[<ore:plateShadow>, <ore:plateEnderEye>, <ore:plateShadow>],
+[<ore:plateEnderEye>, <Thaumcraft:ItemResource:15>, <ore:plateEnderEye>],
+[<ore:plateShadow>, <ore:plateEnderEye>, <ore:plateShadow>]]);
 // -
 mods.thaumcraft.Research.setAspects("planarTheory", "vacuos 18, praecantatio 15, alienis 12, auram 9, perditio 6, tenebae 3");
 mods.thaumcraft.Research.setComplexity("planarTheory", 4);
