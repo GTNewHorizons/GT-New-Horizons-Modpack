@@ -1461,7 +1461,7 @@ recipes.addShaped(<IC2:itemPartCFPowder>, [
 recipes.addShaped(<IC2:itemArmorRubBoots>, [
 [<ore:plateRubber>, <IC2:itemArmorRubBoots>.anyDamage().marked("boots"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+[null, <TConstruct:buckets:25>, null]], function(output, inputs, crafting) {
   // Fix the boot without lossing nbt tags, which contains custom naming and enchantment infos
   return inputs.boots.withDamage(0);
 });
@@ -1470,7 +1470,7 @@ recipes.addShaped(<IC2:itemArmorRubBoots>, [
 recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatHelmet>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+[null, <TConstruct:buckets:25>, null]], function(output, inputs, crafting) {
   // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
   return inputs.armor.withDamage(0);
 });
@@ -1479,7 +1479,7 @@ recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
 recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatChestplate>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+[null, <TConstruct:buckets:25>, null]], function(output, inputs, crafting) {
   // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
   return inputs.armor.withDamage(0);
 });
@@ -1488,7 +1488,7 @@ recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
 recipes.addShaped(<IC2:itemArmorHazmatLeggings>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatLeggings>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+[null, <TConstruct:buckets:25>, null]], function(output, inputs, crafting) {
   // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
   return inputs.armor.withDamage(0);
 });
