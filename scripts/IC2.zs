@@ -31,7 +31,7 @@ val IronFurnace = <IC2:blockMachine:1>;
 val IronPlate = <ore:plateAnyIron>;
 val Furnace = <minecraft:furnace>;
 val Wrench = <ore:craftingToolWrench>;
-val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
+val HVFieldGen = <gregtech:gt.metaitem.01:32672>;
 
 
 
@@ -1255,12 +1255,6 @@ recipes.addShaped(<IC2:blockMachine2:1>, [
 [<IC2:itemRecipePart>, <IC2:blockElectric:4>, <IC2:itemRecipePart>],
 [<ore:circuitAdvanced>, <ore:cableGt04Gold>, <ore:circuitAdvanced>]]);
 
-// --- Teleporter
-recipes.addShaped(<IC2:blockMachine2>, [
-[LuVFieldGen, <ore:lensDiamond>, LuVFieldGen],
-[<ore:circuitElite>, <IC2:blockElectric:5>, <ore:circuitElite>],
-[<gregtech:gt.metaitem.01:32604>, <ore:cableGt04Platinum>, <gregtech:gt.metaitem.01:32604>]]);
-
 // --- Magnetizer
 recipes.addShaped(<IC2:blockMachine:9>, [
 [<ore:plateRedAlloy>, <ore:itemCasingSteel>, <ore:plateRedAlloy>],
@@ -1306,6 +1300,18 @@ mods.avaritia.ExtremeCrafting.addShaped(<IC2:blockGenerator:9>, [
 [null, null, <ore:cableGt01Platinum>, <ore:circuitData>, <gregtech:gt.blockcasings2:11>, <ore:circuitData>, <ore:cableGt01Platinum>, null, null],
 [null, null,  <ore:rotorStainlessSteel>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:32538>, <gregtech:gt.metaitem.01:32602>,  <ore:rotorStainlessSteel>, null, null],
 [null, null, <ore:plateDoubleStainlessSteel>, <ore:plateDoubleStainlessSteel>, <IC2:itemRecipePart:12>, <ore:plateDoubleStainlessSteel>, <ore:plateDoubleStainlessSteel>, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null]]);
+
+// --- Teleporter
+mods.avaritia.ExtremeCrafting.addShaped(<IC2:blockMachine2>, [
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, null, null, null, null, null, null, null],
+[null, null, <ore:plateTitanium>, <ore:lensNetherStar>, HVFieldGen, <ore:lensNetherStar>, <ore:plateTitanium>, null, null],
+[null, null, <IC2:itemBatLamaCrystal:32767>, <gregtech:gt.metaitem.01:32603>, <IC2:blockElectric:5>, <gregtech:gt.metaitem.01:32603>, <IC2:itemBatLamaCrystal:32767>, null, null],
+[null, null, <ore:plateTitanium>, <ore:cableGt04Aluminium>, <ore:plateTitanium>, <ore:cableGt04Aluminium>, <ore:plateTitanium>, null, null],
+[null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -1455,7 +1461,7 @@ recipes.addShaped(<IC2:itemPartCFPowder>, [
 recipes.addShaped(<IC2:itemArmorRubBoots>, [
 [<ore:plateRubber>, <IC2:itemArmorRubBoots>.anyDamage().marked("boots"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+[null, <TConstruct:buckets:25>, null]], function(output, inputs, crafting) {
   // Fix the boot without lossing nbt tags, which contains custom naming and enchantment infos
   return inputs.boots.withDamage(0);
 });
@@ -1464,7 +1470,7 @@ recipes.addShaped(<IC2:itemArmorRubBoots>, [
 recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatHelmet>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+[null, <TConstruct:buckets:25>, null]], function(output, inputs, crafting) {
   // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
   return inputs.armor.withDamage(0);
 });
@@ -1473,7 +1479,7 @@ recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
 recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatChestplate>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+[null, <TConstruct:buckets:25>, null]], function(output, inputs, crafting) {
   // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
   return inputs.armor.withDamage(0);
 });
@@ -1482,7 +1488,7 @@ recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
 recipes.addShaped(<IC2:itemArmorHazmatLeggings>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatLeggings>.anyDamage().marked("armor"), <ore:plateRubber>],
 [null, <ore:craftingToolSoftHammer>, null],
-[null, <TConstruct:buckets:25>.giveBack(<minecraft:bucket>), null]], function(output, inputs, crafting) {
+[null, <TConstruct:buckets:25>, null]], function(output, inputs, crafting) {
   // Fix the armor without lossing nbt tags, which contains custom naming and enchantment infos
   return inputs.armor.withDamage(0);
 });
