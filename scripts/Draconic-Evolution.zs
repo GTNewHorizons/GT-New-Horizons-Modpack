@@ -9,7 +9,6 @@ import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.ForgeHammer;
 import mods.gregtech.Packer;
-import mods.gregtech.ImplosionCompressor;
 
 
 
@@ -181,18 +180,6 @@ recipes.remove(<DraconicEvolution:safetyMatch:*>);
 
 // --- Safty Match Box
 recipes.remove(<DraconicEvolution:safetyMatch>);
-
-// --- Chaos Shard
-recipes.remove(<DraconicEvolution:chaosShard>);
-
-// --- Large Chaos Fragment
-recipes.remove(<DraconicEvolution:chaosFragment:2>);
-
-// --- Small Chaos Fragment
-recipes.remove(<DraconicEvolution:chaosFragment:1>);
-
-// --- Tiny Chaos Fragment
-recipes.remove(<DraconicEvolution:chaosFragment>);
 
 // --- Distortion Flame
 recipes.remove(<DraconicEvolution:xRayBlock>);
@@ -1017,24 +1004,6 @@ ForgeHammer.addRecipe(<DraconicEvolution:chaosFragment:1> * 9, <DraconicEvolutio
 
 // --- Small Chaos Fragment
 ForgeHammer.addRecipe(<DraconicEvolution:chaosFragment> * 9, <DraconicEvolution:chaosFragment:1>, 25, 480);
-
-
-
-
-// --- Implosion Compressor Recipes ---
-
-
-
-// --- Chaos Shard
-ImplosionCompressor.addRecipe([<DraconicEvolution:chaosShard>], <DraconicEvolution:chaosFragment:2> * 9, 8);
-
-// --- Chaos Shard
-ImplosionCompressor.addRecipe([<DraconicEvolution:chaosFragment:2>], <DraconicEvolution:chaosFragment:1> * 9, 4);
-
-// --- Chaos Shard
-ImplosionCompressor.addRecipe([<DraconicEvolution:chaosFragment:1>], <DraconicEvolution:chaosFragment> * 9, 2);
-
-
 
 
 
