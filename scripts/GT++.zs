@@ -83,6 +83,24 @@ recipes.remove(<gregtech:gt.blockmachines:950>);
 // --- Wire Factory Controller (until GT++ changes it)
 recipes.remove(<gregtech:gt.blockmachines:798>);
 
+// --- Advanced Boiler LV
+recipes.remove(<gregtech:gt.blockmachines:753>);
+
+// --- Advanced Boiler Chasssis LV
+recipes.remove(<miscutils:itemBoilerChassis>);
+
+// --- Advanced Boiler MV
+recipes.remove(<gregtech:gt.blockmachines:754>);
+
+// --- Advanced Boiler Chasssis MV
+recipes.remove(<miscutils:itemBoilerChassis:1>);
+
+// --- Advanced Boiler HV
+recipes.remove(<gregtech:gt.blockmachines:755>);
+
+// --- Advanced Boiler Chasssis HV
+recipes.remove(<miscutils:itemBoilerChassis:2>);
+
 // --- Add Recipes ---
 
 
@@ -156,6 +174,44 @@ recipes.addShaped(<gregtech:gt.blockmachines:798>, [
 [<ore:plateBlueSteel>, <gregtech:gt.blockcasings:5>, <ore:plateBlueSteel>],
 [<ore:circuitElite>, <gregtech:gt.blockmachines:355>, <ore:circuitElite>],
 [<ore:plateBlueSteel>, <gregtech:gt.blockcasings:5>, <ore:plateBlueSteel>]]);
+
+// --- Advanced Boiler LV
+recipes.addShaped(<gregtech:gt.blockmachines:753>, [
+[<gregtech:gt.metaitem.01:32610>, <ore:circuitBasic>, <gregtech:gt.metaitem.01:32610>],
+[<miscutils:itemBoilerChassis>, <gregtech:gt.blockcasings:1>, <miscutils:itemBoilerChassis>],
+[<gregtech:gt.blockmachines:5134>, <gregtech:gt.blockmachines:101>, <gregtech:gt.blockmachines:5134>]]);
+
+// --- Advanced Boiler Chasssis LV
+recipes.addShaped(<miscutils:itemBoilerChassis>, [
+[<ore:plateDoubleLead>, <gregtech:gt.blockmachines:5132>, <ore:plateDoubleLead>],
+[<gregtech:gt.blockmachines:5122>, <irontank:silverTank>, <gregtech:gt.blockmachines:5122>],
+[<ore:plateDoubleLead>, <gregtech:gt.blockmachines:5132>, <ore:plateDoubleLead>]]);
+
+// --- Advanced Boiler MV
+recipes.addShaped(<gregtech:gt.blockmachines:754>, [
+[<gregtech:gt.metaitem.01:32611>, <ore:circuitGood>, <gregtech:gt.metaitem.01:32611>],
+[<miscutils:itemBoilerChassis:1>, <gregtech:gt.blockcasings:2>, <miscutils:itemBoilerChassis:1>],
+[<gregtech:gt.blockmachines:5144>, <gregtech:gt.blockmachines:101>, <gregtech:gt.blockmachines:5144>]]);
+
+// --- Advanced Boiler Chasssis MV
+recipes.addShaped(<miscutils:itemBoilerChassis:1>, [
+[<ore:plateDoubleStainlessSteel>, <gregtech:gt.blockmachines:5142>, <ore:plateDoubleStainlessSteel>],
+[<gregtech:gt.blockmachines:5132>, <irontank:stainlesssteelTank>, <gregtech:gt.blockmachines:5132>],
+[<ore:plateDoubleStainlessSteel>, <gregtech:gt.blockmachines:5142>, <ore:plateDoubleStainlessSteel>]]);
+
+// --- Advanced Boiler HV
+recipes.addShaped(<gregtech:gt.blockmachines:755>, [
+[<gregtech:gt.metaitem.01:32612>, <ore:circuitAdvanced>, <gregtech:gt.metaitem.01:32612>],
+[<miscutils:itemBoilerChassis:2>, <gregtech:gt.blockcasings:3>, <miscutils:itemBoilerChassis:2>],
+[<gregtech:gt.blockmachines:5154>, <gregtech:gt.blockmachines:101>, <gregtech:gt.blockmachines:5154>]]);
+
+// --- Advanced Boiler Chasssis HV
+recipes.addShaped(<miscutils:itemBoilerChassis:2>, [
+[<ore:plateDoubleTitanium>, <gregtech:gt.blockmachines:5152>, <ore:plateDoubleTitanium>],
+[<gregtech:gt.blockmachines:5142>, <irontank:titaniumTank>, <gregtech:gt.blockmachines:5142>],
+[<ore:plateDoubleTitanium>, <gregtech:gt.blockmachines:5152>, <ore:plateDoubleTitanium>]]);
+
+
 
 
 
