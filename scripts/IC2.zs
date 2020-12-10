@@ -171,11 +171,6 @@ recipes.remove(<IC2:itemToolChainsaw>);
 // --- Electric Wrenche
 recipes.remove(<IC2:itemToolWrenchElectric>);
 
-// --- Electric Treetap
-recipes.remove(<IC2:itemTreetapElectric>);
-
-// --- Electric Hoe
-recipes.remove(<IC2:itemToolHoe>);
 
 // --- Windmeter
 recipes.remove(<IC2:windmeter>);
@@ -1040,18 +1035,6 @@ recipes.addShaped(<IC2:itemBoat:1>, [
 
 // --- Rubber Boat repair
 recipes.addShapeless(<IC2:itemBoat:1>, [<IC2:itemBoat:2>, <ore:plateAnyRubber>, <ore:plateAnyRubber>, <ore:craftingToolHardHammer>]);
-
-// --- Electric Treetap
-recipes.addShaped(<IC2:itemTreetapElectric>, [
-[<ore:screwStainlessSteel>, <IC2:itemTreetap>, <ore:craftingToolScrewdriver>],
-[<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:3>, <ore:gearGtSmallStainlessSteel>],
-[<ore:plateStainlessSteel>, <ore:batteryBasic>, <ore:plateStainlessSteel>]]);
-
-// --- Electric Hoe
-recipes.addShaped(<IC2:itemToolHoe>, [
-[<ore:screwStainlessSteel>, <ore:toolHeadHoeStainlessSteel>, <ore:craftingToolScrewdriver>],
-[<ore:gearGtSmallStainlessSteel>, <IC2:itemRecipePart:3>, <ore:gearGtSmallStainlessSteel>],
-[<ore:plateStainlessSteel>, <ore:batteryBasic>, <ore:plateStainlessSteel>]]);
 
 // --- Windmeter
 recipes.addShaped(<IC2:windmeter>, [
