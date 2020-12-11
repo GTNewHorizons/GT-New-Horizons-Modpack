@@ -1336,8 +1336,8 @@ ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaite
 // --- Thermal Cloth
 Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7>, [<harvestcraft:wovencottonItem> * 8, <gregtech:gt.metaitem.01:29019> * 8, <dreamcraft:item.MeteoricIronString> * 8, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.silicone> * 144, 300, 480);
 
-// --- Glowstone Torch
-Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <gregtech:gt.metaitem.01:23010>, <minecraft:glowstone_dust>, 100, 16);
+// --- Glowstone Torch (there's a 32x recipe somewhere else)
+Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, [<gregtech:gt.metaitem.01:23010>, <minecraft:glowstone_dust>, <gregtech:gt.integrated_circuit:2> * 0], null, 100, 16);
 
 // --- Canister
 Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 4, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);

@@ -40,9 +40,6 @@ recipes.remove(<GraviSuite:graviTool>);
 // --- Ultimate Lappack
 recipes.remove(<GraviSuite:ultimateLappack>);
 
-// --- Relocator
-recipes.remove(<GraviSuite:relocator:*>);
-
 // --- Epic Lappack
 recipes.remove(<GraviSuite:epicLappack:*>);
 
@@ -107,17 +104,7 @@ recipes.addShaped(<GraviSuite:ultimateLappack:27>, [
 recipes.addShaped(<GraviSuite:epicLappack:27>, [
 [<dreamcraft:item.IridiumAlloyItemCasing>, <gregtech:gt.metaitem.01:32599>, <dreamcraft:item.IridiumAlloyItemCasing>],
 [<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:*>, <gregtech:gt.metaitem.01:32599>],
-[<ore:circuitUltimate>, <ore:wireGt16Superconductor>, <ore:circuitUltimate>]]);
-
-// --- Relocator
-recipes.addShaped(<GraviSuite:relocator:27>, [
-[<ore:screwOsmium>,<ore:craftingToolScrewdriver>,<ore:screwOsmium>],
-[<ore:plateOsmium>,<DraconicEvolution:teleporterMKII>,<ore:plateOsmium>],
-[<SGCraft:ic2Capacitor>,<gregtech:gt.blockcasings:15>,<SGCraft:ic2Capacitor>]]);
-//recipes.addShaped(<GraviSuite:relocator:27>, [
-//[<gregtech:gt.metaitem.01:32676>, <ore:itemCasingNeutronium>, <gregtech:gt.metaitem.01:32676>],
-//[<ore:circuitUltimate>, <IC2:blockMachine2>, <ore:circuitUltimate>],
-//[<ore:itemCasingNeutronium>, <IC2:itemBatLamaCrystal:*>, <ore:itemCasingNeutronium>]]);
+[<ore:circuitUltimate>, <ore:wireGt16SuperconductorZPM>, <ore:circuitUltimate>]]);
 
 // --- Advanced Chainsaw
 recipes.addShaped(<GraviSuite:advChainsaw:27>, [

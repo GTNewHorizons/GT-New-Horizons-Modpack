@@ -535,7 +535,7 @@ mods.thaumcraft.Warp.addToResearch("NODESTABILIZERADV", 2);
 
 // --- Node Transducer
 mods.thaumcraft.Arcane.addShaped("VISPOWER", <Thaumcraft:blockStoneDevice:11>, "ignis 32, aer 32, perditio 32, ordo 32", [
-[<ore:blockRedstone>, <ProjRed|Integration:projectred.integration.gate:26>, <ore:plateThaumium>],
+[<ore:blockRedstone>, <ProjRed|Integration:projectred.integration.gate:26>, <ore:blockRedstone>],
 [<ore:plateThaumium>, <Thaumcraft:blockStoneDevice:9>, <ore:plateThaumium>],
 [<ore:blockRedstone>, <Thaumcraft:ItemResource:1>, <ore:blockRedstone>]]);
 

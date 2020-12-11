@@ -852,15 +852,9 @@ recipes.addShaped(<EnderIO:blockEnderIo>, [
 
 // --- Travel Anchor
 recipes.addShaped(<EnderIO:blockTravelAnchor>, [
-[ESteelPlate, PIPlate, ESteelPlate],
+[ESteelPlate, <OpenBlocks:elevator>, ESteelPlate],
 [PCrystal, MCasing, PCrystal],
 [ESteelPlate, <gregtech:gt.metaitem.01:32670>, ESteelPlate]]);
-
-// --- Telepad Block
-recipes.addShaped(<EnderIO:blockTelePad>, [
-[<dreamcraft:item.StargateShieldingFoil>, FQuartz, <dreamcraft:item.StargateShieldingFoil>],
-[sgLargeCapacitor, <SGCraft:sgCoreCrystal>, sgLargeCapacitor],
-[LuVMotor, LuVFieldGen, LuVMotor]]);
 
 // --- Slice and Splice
 recipes.addShaped(<EnderIO:blockSliceAndSplice>, [
@@ -1111,6 +1105,17 @@ mods.avaritia.ExtremeCrafting.addShaped(<EnderIO:blockCapBank>.withTag({type: "C
 [<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:6>, <ore:plateVibrantAlloy>, <EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
 [<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})]]);
 
+//Telepad
+mods.avaritia.ExtremeCrafting.addShaped(<EnderIO:blockTelePad> * 9, [
+[<EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <gregtech:gt.metaitem.01:32676>, <bartworks:BW_GlasBlocks:4>, <ore:plateDenseAmericium>, <ore:plateDenseAmericium>, <ore:plateDenseAmericium>, <bartworks:BW_GlasBlocks:4>, <gregtech:gt.metaitem.01:32676>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <ore:plateDenseStellarAlloy>, <EnderIO:itemPowerConduitEndergy:11>, <bartworks:BW_GlasBlocks:4>, <ore:plateDenseAmericium>, <bartworks:BW_GlasBlocks:4>, <EnderIO:itemPowerConduitEndergy:11>, <ore:plateDenseStellarAlloy>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <bartworks:BW_GlasBlocks:4>, <gregtech:gt.metaitem.01:32607>, <EnderIO:itemPowerConduitEndergy:11>, <EnderIO:itemCoordSelector:*>, <EnderIO:itemPowerConduitEndergy:11>, <gregtech:gt.metaitem.01:32607>, <bartworks:BW_GlasBlocks:4>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <GraviSuite:itemSimpleItem:2>, <EnderIO:itemBasicCapacitor:5>, <EnderIO:itemPowerConduitEndergy:11>, <EnderIO:blockCapBank:3>, <EnderIO:itemPowerConduitEndergy:11>, <EnderIO:itemBasicCapacitor:5>, <GraviSuite:itemSimpleItem:2>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <bartworks:BW_GlasBlocks:4>, <gregtech:gt.metaitem.01:32607>, <EnderIO:itemPowerConduitEndergy:11>, <ore:circuitSuperconductor>, <EnderIO:itemPowerConduitEndergy:11>, <gregtech:gt.metaitem.01:32607>, <bartworks:BW_GlasBlocks:4>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <ore:plateDenseStellarAlloy>, <EnderIO:itemPowerConduitEndergy:11>, <bartworks:BW_GlasBlocks:4>, <ore:plateDenseAmericium>, <bartworks:BW_GlasBlocks:4>, <EnderIO:itemPowerConduitEndergy:11>, <ore:plateDenseStellarAlloy>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <gregtech:gt.metaitem.01:32676>, <bartworks:BW_GlasBlocks:4>, <ore:plateDenseAmericium>, <ore:plateDenseAmericium>, <ore:plateDenseAmericium>, <bartworks:BW_GlasBlocks:4>, <gregtech:gt.metaitem.01:32676>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>]]);
 
 
 

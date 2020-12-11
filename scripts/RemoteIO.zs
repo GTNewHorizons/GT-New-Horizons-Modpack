@@ -198,7 +198,7 @@ recipes.addShaped(<RIO:item.pda>, [
 Assembler.addRecipe(Remote, <WR-CBE|Logic:wirelessLogic>, <WR-CBE|Logic:wirelessLogic:1>, <liquid:molten.redstone> * 1000, 600, 480);
 
 // --- Blank Plate
-Assembler.addRecipe(BlankPlate, <TConstruct:blankPattern:1>, <gregtech:gt.metaitem.01:17316>, <liquid:molten.redstone> * 100, 200, 480);
+Assembler.addRecipe(BlankPlate, <TConstruct:blankPattern:1>, <gregtech:gt.metaitem.01:17316>, <liquid:molten.redstone> * 144, 200, 480);
 
 // --- Location Chip
 // -

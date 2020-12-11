@@ -99,15 +99,6 @@ recipes.removeShapeless(<gregtech:gt.metatool.01:4>);
 // --- Eridium Neutron Reflector
 recipes.remove(<gregtech:gt.neutronreflector>);
 
-// --- Thorium Fuel Rod
-recipes.remove(<gregtech:gt.Thoriumcell>);
-
-// --- Double Thorium Fuel Rod
-recipes.remove(<gregtech:gt.Double_Thoriumcell>);
-
-// --- Quad Thorium Fuel Rod
-recipes.remove(<gregtech:gt.Quad_Thoriumcell>);
-
 // --- 60k Helium Cooling Cell
 recipes.remove(<gregtech:gt.60k_Helium_Coolantcell>);
 
@@ -816,14 +807,6 @@ Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <greg
 // --- Iridium Neutron Reflector
 Assembler.addRecipe(<gregtech:gt.neutronreflector>, <dreamcraft:item.NeutronReflectorParts>, <IC2:itemPartIridium>, 1200, 256);
 
-// --- Double Thorium Fuel Rod
-Assembler.addRecipe(<gregtech:gt.Double_Thoriumcell>, <gregtech:gt.Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
-
-// --- Quad Thorium Fuel Rod
-Assembler.addRecipe(<gregtech:gt.Quad_Thoriumcell>, <gregtech:gt.Double_Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
-// -
-Assembler.addRecipe(<gregtech:gt.Quad_Thoriumcell>, <gregtech:gt.Thoriumcell> * 4, <gregtech:gt.metaitem.02:22305> * 6, 300, 30);
-
 // --- RTG Pellets
 Assembler.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 120);
 
@@ -910,7 +893,6 @@ Autoclave.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2544>, <liq
 // --- Blast Furnace Recipes ---
 
 
-
 // --- Graphene
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.01:2020>, <gregtech:gt.metaitem.01:2865>], 500, 480, 2000);
 // -
@@ -918,21 +900,12 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.
 
 
 
-
-
-
 // --- Canner Recipes ---
 
 
 
-
-// --- Thorium Fuel Rod
-Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:gt.metaitem.01:2096> * 3);
-
-
-
-
 // --- Centrifuge Recipes ---
+
 
 
 // --- Flint Dust
@@ -1789,6 +1762,10 @@ comb.add(<gregtech:gt.comb:118>);
 oreDict.combUhv.add(<gregtech:gt.comb:118>);
 comb.add(<gregtech:gt.comb:119>);
 oreDict.combUev.add(<gregtech:gt.comb:119>);
+
+// --- Add Tooltips
+
+<gregtech:gt.blockmachines:1157>.addTooltip(format.aqua("May you have all the black gold you want, RIP Cerulean"));
 
 // --- Dyes conversion
 
