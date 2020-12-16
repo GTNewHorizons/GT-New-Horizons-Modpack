@@ -1,6 +1,6 @@
 #Tips for the loading screen
 #
-#Thanks to 0lafe, bedrill, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
+#Thanks to 0lafe, bedrill, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, KiloJoel, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
 #
 #Maximal character count for a tip: roughly 80 (more can go out of the screen)
 #
@@ -11,7 +11,7 @@ Don't feed your machines after midnight!
 Make sure you have installed a backup mod
 Material tiers play a role when breaking pipes
 If a machine catches fire, it can explode
-Adding water to an empty but hot Boiler will make a loud bang!
+Adding water to an empty but hot Boiler will cause an explosion
 Avoid eldritch obelisks!
 You can bind the quests menu to a key, instead of using the book
 Pam's gardens can be picked up with right-click
@@ -30,7 +30,7 @@ Shift-right-clicking with a wrench on a fluid pipe makes it input-only
 The Bending Machine makes plates more efficiently
 Multiblocks can share walls
 You can't use the front side of machines
-Disable a machine with a Soft Mallet if it can not finish a recipe
+Disable a machine with a Soft Mallet if it can't finish a recipe
 Forestry Worktables are a must!
 Try the Midnight Theme for the questbook
 Try the Realistic Sky resourcepack
@@ -103,7 +103,7 @@ Eating too many of the same food will make you hate it!
 Abandon all vanilla knowledge all ye who enter here
 With the power of Duct Tape, I solved all of your maintenance problems!
 When you open a Twilight Portal, you'll get hit by lightning
-#Sometimes it's better to flee than fight some mobs
+Sometimes it's better to flee than fight some mobs
 Sometimes the best combat strategy is "Nigerundayooo!"
 You can power machines by putting a battery in their energy slots
 You can charge your jetpack by putting it in the Energy slot of LV machines
@@ -130,7 +130,7 @@ All you had to do was tho follow the damn questline, CJ!
 Click on an item in the quest book to show its recipe in NEI
 Why not visit GregTech? We have... microcrafting
 Cables are | || || |_ y
-Varying foods gives hearts!
+Eating new foods gives hearts!
 You can change InGame Info XML scale in ingame configs
 Look for sulfur in the Nether
 Game mechanics datasheet: bit.ly/gtnh-datasheets
@@ -148,3 +148,4 @@ Visit r/feedthemems!
 I WANT ROCKET I WANT MOON - St4o
 Shift + Right Click on a GregTech Cover to open the menu
 Looking for Infused Stones? Try putting Amber in an Ore Finder Wand
+Remove plates from machines using a crowbar
