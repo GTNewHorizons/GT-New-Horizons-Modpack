@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.0-pre Dev is out 15.12.2020
+Version 2.1.0.0-RC1 is out 20.12.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -185,13 +185,13 @@ you find it in your resource folder<BR>
 * Avaritia 1.18<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.13.1<BR>
+* Bartworks 0.5.14<BR>
 * Baubles 1.0.1.12<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
 * Better Loading Screen 1.3.26-GTNH<BR>
-* Better Questing 3.0.335-GTNH<BR>
+* Better Questing 3.0.337-GTNH<BR>
 * Bibliocraft 1.11.7<BR>
 * Bibliowoods 1.9/1.7/1.5<BR>
 * Binnie Mods 2.0-29.5-gtnh<BR>
@@ -211,6 +211,7 @@ you find it in your resource folder<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics 1.6.6<BR>
 * Controlling 1.0.0<BR>
+* CraftPresence 1.7.5<BR>
 * Craft Tweaker 3.2.2-GTNH<BR>
 * Crops ++ 1.3.5.3<BR>
 * Custom Main Menu 1.9.2<BR>
@@ -235,12 +236,12 @@ you find it in your resource folder<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
 * Gadomancy 1.0.8.0<BR>
-* Galacticraft-Full 3.0.21-GTNH<BR>
+* Galacticraft-Full 3.0.22-GTNH<BR>
 * GalactiGreg 1.0.3<BR>
 * Galaxy Space 1.1.7-GTNH<BR>
 * Gendustry 1.6.4.135a<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.34.00<BR>
+* Gregtech 5.09.34.01<BR>
 * GT Scanner Mod 1.5.9<BR>
 * GT Ore Nei Plugin 1.0.7<BR>
 * GT New Horizons Core Mod 1.7.00<BR>
@@ -273,10 +274,10 @@ you find it in your resource folder<BR>
 * Malisis Doors 1.13.2<BR>
 * Mine and Blade Battlegear 1.1.1.4-GTNH<BR>
 * Minecraft Forge 10.13.4.1614<BR>
-* Mod Mixins 0.0.2<BR>
+* Mod Mixins 0.0.3<BR>
 * Mod Tweaker 2 0.9.6.173<BR>
 * Mouse Tweaks 2.4.4<BR>
-* Natura 2.3.3-dev<BR>
+* Natura 2.4.0-dev<BR>
 * Natures Compass 1.3.1<BR>
 * NEI 2.0.6-GTNH<BR>
 * Nei Addons 1.12.15.41<BR>
@@ -290,7 +291,7 @@ you find it in your resource folder<BR>
 * Open Printers 0.1.0.132<BR>
 * Open Security 1.0-117<BR>
 * Overloaded Armorbar 1.0.0<BR>
-* Pam's Harvestcraft 1.7.10-lb-1.0.1-GTNH<BR>
+* Pam's Harvestcraft 1.7.10-lb-1.0.2-GTNH<BR>
 * Pam's Harvestcraft Nether 1.7.10a<BR>
 * Project Blue 1.1.6<BR>
 * Project Red-Base 4.7.0pre12.95GT<BR>
@@ -335,7 +336,7 @@ you find it in your resource folder<BR>
 * Thaumic Machina 0.2.1<BR>
 * Thaumic Tinkerer 2.5.557-GTNH<BR>
 * TiCTooltips 1.2.5<BR>
-* Tinker's Construct 1.8.9.15.Build-4-GTNH<BR>
+* Tinker's Construct 1.9.0.0.Build-6-GTNH<BR>
 * Tinker's Gregworks 1.0.18<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks 0.2.16.1<BR>
