@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.0-RC1 is out 20.12.2020
+Version 2.1.0.0-RC2 is out 20.12.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -203,7 +203,7 @@ you find it in your resource folder<BR>
 * Buildcraft 7.1.23<BR>
 * Buildcraft Compat 7.1.7<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
-* Carpenter's Blocks 3.3.8.1<BR>
+* Carpenter's Blocks 3.3.8.2<BR>
 * Catwalk Mod 2.0.4<BR>
 * Chisel 2.9.8<BR>
 * Chisel Tones 1.0-3<BR>
@@ -221,9 +221,9 @@ you find it in your resource folder<BR>
 * Ender IO 2.3.1.15_beta.20<BR>
 * Ender Storage 1.4.7.38<BR>
 * Ender Zoo 1.0.18.3<BR>
-* Enhanced Loot Bags 1.0.3<BR>
+* Enhanced Loot Bags 1.0.4<BR>
 * Enhanced Portals 3 3.0.12<BR>
-* Eternal Singularity 1.0.4<BR>
+* Eternal Singularity 1.0.4b<BR>
 * Extra Cells 2.4.6b9<BR>
 * Extra Utilities 1.2.13a<BR>
 * FastCraft 1.25<BR>
@@ -243,13 +243,13 @@ you find it in your resource folder<BR>
 * Gravitation Suite 2.0.68u<BR>
 * Gregtech 5.09.34.01<BR>
 * GT Scanner Mod 1.5.9<BR>
-* GT Ore Nei Plugin 1.0.7<BR>
+* GT Ore Nei Plugin 1.0.8<BR>
 * GT New Horizons Core Mod 1.7.00<BR>
 * GT++ 1.7.05.68<BR>
 * GTNH TC Wands 1.2.1<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
-* Hardcore Ender Expansion 1.8.6a<BR>
+* Hardcore Ender Expansion 1.8.7<BR>
 * Help Fixer 1.0.7<BR>
 * Hodgepodge 1.4.3<BR>
 * Holo Inventory 2.1.5-beta<BR>
@@ -277,14 +277,14 @@ you find it in your resource folder<BR>
 * Mod Mixins 0.0.3<BR>
 * Mod Tweaker 2 0.9.6.173<BR>
 * Mouse Tweaks 2.4.4<BR>
-* Natura 2.4.0-dev<BR>
+* Natura 2.4.1-dev<BR>
 * Natures Compass 1.3.1<BR>
 * NEI 2.0.6-GTNH<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
 * Nodal Mechanics 1.1.4-GTNH<BR>
 * Not Enough Thaumcraft Tabs 1.1.0<BR>
-* Open Blocks 1.6.2-snapshot5<BR>
+* Open Blocks 1.6.3-snapshot6<BR>
 * Open Computers 1.7.5.6.22<BR>
 * Open Modular Turrets 2.2.11.245<BR>
 * Open Glasses 1.1-GTNH
@@ -310,13 +310,13 @@ you find it in your resource folder<BR>
 * RF Expansion 3.0.29(disabled till an update is online)<BR>
 * Rogue like Dungeons 1.5.1<BR>
 * Resource Loader 1.3.0<BR>
-* SG Craft 1.13.7<BR>
+* SG Craft 1.13.8<BR>
 * Sleeping Bag 0.1.1<BR>
-* Special Mobs 3.3.6<BR>
+* Special Mobs 3.3.7<BR>
 * Spice of Life 2.0.0-carot-beta-6<BR>
 * Standard Expansion 3.0.183-GTNH<BR>
 * Steve's Carts 2.0.0.19b<BR>
-* Steve's Factory Manager ALPHA96-GTNH<BR>
+* Steve's Factory Manager ALPHA97-GTNH<BR>
 * Steve's Factory Manager Addon 0.10.17<BR>
 * Storage Drawers 1.11.5-gtnh<BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
