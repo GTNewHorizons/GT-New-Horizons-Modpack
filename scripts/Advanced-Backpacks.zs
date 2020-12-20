@@ -8,10 +8,7 @@
 import mods.gregtech.Brewery;
 
 
-
-
 // --- Remove Recipes --- 
-
 
 
 // --- Advanced Backpack
@@ -83,6 +80,19 @@ recipes.remove(<adventurebackpack:melonJuiceBottle>);
 
 // --- Add Recipes ---
 
+// ---Revert Advanced Backpack
+// Items in the backpack will persist, but will be reverted to the plain pack. 
+recipes.addShaped(<adventurebackpack:adventureBackpack>, 
+    [
+        [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>],
+        [<minecraft:dye:15>, <adventurebackpack:adventureBackpack>.marked("mark"), <minecraft:dye:15>],
+        [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>],
+    ],
+    function(out, ins, cInfo) {
+        var data = ins.mark.tag;		
+        return out.withTag({wearableData: {type: 0 as byte, inventory: data.wearableData.inventory}});
+    }
+);
 
 
 // --- Advanced Backpack
@@ -97,25 +107,46 @@ recipes.addShaped(<adventurebackpack:adventureBackpack>.withTag({wearableData: {
 [<ore:materialHardenedleather>, <sleepingbag:sleepingBag>, <ore:materialHardenedleather>]]);
 
 // --- Bat Backpack
-recipes.addShaped(<adventurebackpack:adventureBackpack:2>.withTag({wearableData: {type: 2 as byte}}), [
+recipes.addShaped(<adventurebackpack:adventureBackpack:2>, [
 [<ore:itemLeather>, <IC2:itemNightvisionGoggles:1>, <ore:itemLeather>],
-[<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}), <minecraft:potion:8262>],
-[<ore:blockWoolBlack>, <ore:blockWoolBlack>, <ore:blockWoolBlack>]]);
+[<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}).marked("mark"), <minecraft:potion:8262>],
+[<ore:blockWoolBlack>, <ore:blockWoolBlack>, <ore:blockWoolBlack>]],    
+
+	function(out, ins, cInfo) {
+        var data = ins.mark.tag;		
+        return out.withTag({wearableData: {type: 2 as byte, inventory: data.wearableData.inventory}});
+    }
+);
 
 // --- Iron Golem Backpack
-recipes.addShaped(<adventurebackpack:adventureBackpack:11>.withTag({wearableData: {type: 11 as byte}}), [
+recipes.addShaped(<adventurebackpack:adventureBackpack:11>, [
 [<ore:itemLeather>, <minecraft:red_flower>, <ore:itemLeather>],
-[<minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}), <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
-[<ore:plateIron>, <IC2:itemArmorRubBoots>, <ore:plateIron>]]);
+[<minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}).marked("mark"), <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
+[<ore:plateIron>, <IC2:itemArmorRubBoots>, <ore:plateIron>]],
+
+	function(out, ins, cInfo) {
+        var data = ins.mark.tag;		
+        return out.withTag({wearableData: {type: 11 as byte, inventory: data.wearableData.inventory}});
+    }
+
+);
 
 // --- Squid Backpack
-recipes.addShaped(<adventurebackpack:adventureBackpack:62>.withTag({wearableData: {type: 62 as byte}}), [
+recipes.addShaped(<adventurebackpack:adventureBackpack:62>, [
 [<ore:itemLeather>, <GalacticraftCore:item.oxygenMask>, <ore:itemLeather>],
-[<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}), <minecraft:potion:8269>],
-[<ore:blockWoolBlue>, <minecraft:dye>, <ore:blockWoolBlue>]]);
+[<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}).marked("mark"), <minecraft:potion:8269>],
+[<ore:blockWoolBlue>, <minecraft:dye>, <ore:blockWoolBlue>]],
+
+	function(out, ins, cInfo) {
+        var data = ins.mark.tag;		
+        return out.withTag({wearableData: {type: 62 as byte, inventory: data.wearableData.inventory}});
+    }
+
+);
 
 // --- Backpack Tank
 recipes.addShapeless(<adventurebackpack:backpackComponent:2>, [<BuildCraft|Factory:tankBlock>]);
+
 // -
 recipes.addShapeless(<BuildCraft|Factory:tankBlock>, [<adventurebackpack:backpackComponent:2>]);
 
