@@ -603,51 +603,16 @@ recipes.addShaped(<Forestry:apiculture:2>, [
 [<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
 [<ore:beeComb>, <ore:slabWood>, <ore:beeComb>]]);
 // -
-recipes.addShaped(<Forestry:apiculture:2>, [
-[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
-[<MagicBees:comb:1>, <ore:slabWood>, <MagicBees:comb:1>]]);
-// -
-recipes.addShaped(<Forestry:apiculture:2>, [
-[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
-[<MagicBees:comb:2>, <ore:slabWood>, <MagicBees:comb:2>]]);
-// -
-recipes.addShaped(<Forestry:apiculture:2>, [
-[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
-[<MagicBees:comb:3>, <ore:slabWood>, <MagicBees:comb:3>]]);
-// -
-recipes.addShaped(<Forestry:apiculture:2>, [
-[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
-[<MagicBees:comb:4>, <ore:slabWood>, <MagicBees:comb:4>]]);
-// -
-recipes.addShaped(<Forestry:apiculture:2>, [
-[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
-[<MagicBees:comb:5>, <ore:slabWood>, <MagicBees:comb:5>]]);
-// -
-recipes.addShaped(<Forestry:apiculture:2>, [
-[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
-[<MagicBees:comb:6>, <ore:slabWood>, <MagicBees:comb:6>]]);
-// -
-recipes.addShaped(<Forestry:apiculture:2>, [
-[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-[<Forestry:frameUntreated>, <dreamcraft:item.WoodenCasing>, <Forestry:frameUntreated>],
-[<computronics:computronics.partsForestry>, <ore:slabWood>, <computronics:computronics.partsForestry>]]);
+recipes.addShapeless(<Forestry:apiculture:2>, [<harvestcraft:apiary>]);
 
 // --- Apiary
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<gregtech:gt.metaitem.01:27305>, <minecraft:wooden_slab:*>, <gregtech:gt.metaitem.01:27305>, 
-<Forestry:frameImpregnated>, <Forestry:beeCombs:*>, <Forestry:frameImpregnated>, 
+<Forestry:apiculture:2>, <Forestry:beeCombs:*>, <Forestry:apiculture:2>, 
 <minecraft:fence>, <minecraft:wooden_slab:*>, <minecraft:fence>], 
-<Forestry:apiculture:2>, <Forestry:apiculture>);
-// -
-recipes.addShapeless(<Forestry:apiculture:2>, [<harvestcraft:apiary>]);
+<Forestry:frameImpregnated>, <Forestry:apiculture>);
 
-// --- Apiarys Chest
+// --- Apiarist's Chest
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 1000, 
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
@@ -660,19 +625,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 1000,
 <Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
 <minecraft:chest>, <Forestry:apicultureChest>);
 
-// --- Arborits Chest
-mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
-[<Forestry:sapling:*>, <Forestry:sapling:*>, <Forestry:sapling:*>, 
-<gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
-<gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32403>], 
-<minecraft:chest>, <Forestry:arboriculture>);
-// -
-mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
-[<minecraft:sapling:*>, <minecraft:sapling:*>, <minecraft:sapling:*>, 
-<Forestry:crate>, <Forestry:crate>, <Forestry:crate>, 
-<Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
-<minecraft:chest>, <Forestry:arboriculture>);
-// -
+// --- Arborist's Chest
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<Forestry:sapling:*>, <Forestry:sapling:*>, <Forestry:sapling:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
@@ -714,9 +667,11 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000,
 <Forestry:alveary>, <Forestry:alveary:4>);
 
 // --- Alveary Hygroregulator
-mods.forestry.Carpenter.addRecipe(<Forestry:alveary:5>, [[<Forestry:thermionicTubes:6>, <ore:circuitGood>, <Forestry:thermionicTubes:6>], 
-														[<BuildCraft|Factory:tankBlock>, <gregtech:gt.blockmachines:5142>, <BuildCraft|Factory:tankBlock>], 
-														[<Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:17308>, <Forestry:thermionicTubes:6>]], <liquid:for.honey> * 5000, 60,  <Forestry:alveary>);
+mods.forestry.Carpenter.addRecipe(<Forestry:alveary:5>, 
+[[<Forestry:thermionicTubes:6>, <ore:circuitGood>, <Forestry:thermionicTubes:6>], 
+[<BuildCraft|Factory:tankBlock>, <gregtech:gt.blockmachines:5142>, <BuildCraft|Factory:tankBlock>], 
+[<Forestry:thermionicTubes:6>, <gregtech:gt.metaitem.01:17308>, <Forestry:thermionicTubes:6>]], <liquid:for.honey> * 5000, 60,  <Forestry:alveary>);
+
 // --- Alveary Stabiliser
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000, 
 [<Forestry:thermionicTubes:4>, <dreamcraft:item.ChargedCertusQuartzPlate>, <Forestry:thermionicTubes:4>, 
@@ -732,23 +687,26 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000,
 <Forestry:alveary>, <Forestry:alveary:7>);
 
 // --- Beealyzer
-mods.forestry.Carpenter.addRecipe(<Forestry:beealyzer>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18057>, <gregtech:gt.metaitem.01:27500>], 
-														[<gregtech:gt.metaitem.02:18057>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18057>], 
-														[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18057>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
+mods.forestry.Carpenter.addRecipe(<Forestry:beealyzer>, 
+[[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18057>, <gregtech:gt.metaitem.01:27500>], 
+[<gregtech:gt.metaitem.02:18057>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18057>], 
+[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18057>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
 // -
 recipes.addShapeless(<Forestry:beealyzer>, [<Forestry:beealyzer>]);
 
 // --- Treealyzer
-mods.forestry.Carpenter.addRecipe(<Forestry:treealyzer>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18035>, <gregtech:gt.metaitem.01:27500>], 
-														 [<gregtech:gt.metaitem.02:18035>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18035>], 
-														 [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18035>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
+mods.forestry.Carpenter.addRecipe(<Forestry:treealyzer>, 
+[[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18035>, <gregtech:gt.metaitem.01:27500>], 
+[<gregtech:gt.metaitem.02:18035>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18035>], 
+[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18035>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
 // -
 recipes.addShapeless(<Forestry:treealyzer>, [<Forestry:treealyzer>]);
-														
+
 // --- Flutterlyzer
-mods.forestry.Carpenter.addRecipe(<Forestry:flutterlyzer>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18300>, <gregtech:gt.metaitem.01:27500>], 
-														   [<gregtech:gt.metaitem.02:18300>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18300>], 
-														   [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18300>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
+mods.forestry.Carpenter.addRecipe(<Forestry:flutterlyzer>, 
+[[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18300>, <gregtech:gt.metaitem.01:27500>], 
+[<gregtech:gt.metaitem.02:18300>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18300>], 
+[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18300>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 576, 60,  <dreamcraft:item.Display>);
 // -
 recipes.addShapeless(<Forestry:flutterlyzer>, [<Forestry:flutterlyzer>]);
 

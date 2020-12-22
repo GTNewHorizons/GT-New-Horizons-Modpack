@@ -21,7 +21,6 @@ import mods.gregtech.ChemicalBath;
 import mods.gregtech.ChemicalReactor;
 import mods.ic2.Compressor;
 import mods.gregtech.CuttingSaw;
-import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.Pulverizer;
 
 
@@ -321,9 +320,6 @@ recipes.remove(GalgadorianDrill);
 
 // --- Hardened Mesh
 recipes.remove(HMesh);
-
-// --- Raw Hardener
-recipes.remove(<StevesCarts:ModuleComponents:18>);
 
 // --- Refined Hardener
 furnace.remove(RefinedH);
@@ -1791,19 +1787,6 @@ CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <StevesCarts:M
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <StevesCarts:ModuleComponents:62>, <liquid:ic2distilledwater> * 8, 200, 30);
 // -
 CuttingSaw.addRecipe(<StevesCarts:ModuleComponents:61> * 4, null, <StevesCarts:ModuleComponents:62>, <liquid:lubricant> * 2, 100, 30);
-
-
-
-
-// --- Implosion Compressor Recipes ---
-
-
-
-
-// --- Refined Hardened
-ImplosionCompressor.addRecipe(RefinedH, <StevesCarts:ModuleComponents:18>, 1);
-
-
 
 
 
