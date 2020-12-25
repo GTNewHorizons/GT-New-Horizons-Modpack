@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.0-RC2 is out 20.12.2020
+Version 2.1.0.0 is out 23.12.2020
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -241,7 +241,7 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.7-GTNH<BR>
 * Gendustry 1.6.4.135a<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.34.01<BR>
+* Gregtech 5.09.34.02<BR>
 * GT Scanner Mod 1.5.9<BR>
 * GT Ore Nei Plugin 1.0.8<BR>
 * GT New Horizons Core Mod 1.7.00<BR>
@@ -324,13 +324,13 @@ you find it in your resource folder<BR>
 * Super Tic 1.2.1<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 4.9.0<BR>
+* Tec Tech 4.10.0<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * Thaumcraft-NEI-Additions 1.1.0.1<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
 * Thaumic Bases 1.4.22.0<BR>
-* Thaumic Energistics 1.1.3.7<BR>
+* Thaumic Energistics 1.1.3.8<BR>
 * Thaumic Exploration 1.1.75<BR>
 * Thaumic Horizon 1.2.0.1<BR>
 * Thaumic Machina 0.2.1<BR>
