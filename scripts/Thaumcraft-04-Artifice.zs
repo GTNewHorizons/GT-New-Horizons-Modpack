@@ -641,7 +641,7 @@ mods.thaumcraft.Warp.addToResearch("MIRRORHAND", 3);
 
 // --- Essentia Mirror
 mods.thaumcraft.Infusion.addRecipe("MIRRORESSENTIA", <Thaumcraft:ItemResource:10>,
-[<gregtech:gt.metaitem.01:17321>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17321>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>],
+[<gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>],
 "aqua 24, iter 32, permutatio 16, vitreus 8", <Thaumcraft:blockMirror:6>, 2);
 // -
 mods.thaumcraft.Research.setAspects("MIRRORESSENTIA", "praecantatio 15, iter 12, vitreus 9, alienis 9, cognitio 6, potentia 6, aqua 3");
