@@ -36,7 +36,7 @@ mods.thaumcraft.Research.setComplexity("planarTheory", 4);
 mods.thaumcraft.Warp.addToResearch("planarTheory", 1);
 
 // --- Transduction Amplifier
-mods.thaumcraft.Arcane.addShaped("transductionAmplifier", <ThaumicHorizons:transductionAmplifier>, "aer 50, ignis 50, ordo 50, terra 50, aqua 50, perditio 50", [
+mods.thaumcraft.Arcane.addShaped("transductionAmplifier", <ThaumicHorizons:transductionAmplifier>, "aer 75, ignis 75, ordo 75, terra 75, aqua 75, perditio 75", [
 [<ore:screwThaumium>, <ThaumicHorizons:planarConduit>, <ore:screwThaumium>],
 [<ore:gemFlawlessAmber>, <Thaumcraft:blockStoneDevice:11>, <ore:gemFlawlessAmber>],
 [<ore:plateRedstoneAlloy>, <Thaumcraft:ItemResource:1>, <ore:plateRedstoneAlloy>]]);
