@@ -26,19 +26,19 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicHorizons:recombinator>);
 
 
 // --- Planar Conduit
-mods.thaumcraft.Arcane.addShaped("planarTheory", <ThaumicHorizons:planarConduit>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100, perditio 100", [
-[<ore:plateShadow>, <ore:plateEnderEye>, <ore:plateShadow>],
+mods.thaumcraft.Arcane.addShaped("planarTheory", <ThaumicHorizons:planarConduit>, "aer 75, aqua 75, ignis 75, terra 75, ordo 75, perditio 75", [
+[<ore:plateVoid>, <ore:plateEnderEye>, <ore:plateVoid>],
 [<ore:plateEnderEye>, <Thaumcraft:ItemResource:15>, <ore:plateEnderEye>],
-[<ore:plateShadow>, <ore:plateEnderEye>, <ore:plateShadow>]]);
+[<ore:plateVoid>, <ore:plateEnderEye>, <ore:plateVoid>]]);
 // -
 mods.thaumcraft.Research.setAspects("planarTheory", "vacuos 18, praecantatio 15, alienis 12, auram 9, perditio 6, tenebae 3");
 mods.thaumcraft.Research.setComplexity("planarTheory", 4);
 mods.thaumcraft.Warp.addToResearch("planarTheory", 1);
 
 // --- Transduction Amplifier
-mods.thaumcraft.Arcane.addShaped("transductionAmplifier", <ThaumicHorizons:transductionAmplifier>, "aer 150, ignis 150, ordo 150", [
+mods.thaumcraft.Arcane.addShaped("transductionAmplifier", <ThaumicHorizons:transductionAmplifier>, "aer 75, ignis 75, ordo 75, terra 75, aqua 75, perditio 75", [
 [<ore:screwThaumium>, <ThaumicHorizons:planarConduit>, <ore:screwThaumium>],
-[<ore:gemExquisiteAmber>, <Thaumcraft:blockStoneDevice:11>, <ore:gemExquisiteAmber>],
+[<ore:gemFlawlessAmber>, <Thaumcraft:blockStoneDevice:11>, <ore:gemFlawlessAmber>],
 [<ore:plateRedstoneAlloy>, <Thaumcraft:ItemResource:1>, <ore:plateRedstoneAlloy>]]);
 // -
 mods.thaumcraft.Research.setAspects("transductionAmplifier", "auram 18, potentia 15, vacuos 12, alienis 9");
