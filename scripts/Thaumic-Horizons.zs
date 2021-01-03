@@ -31,7 +31,7 @@ mods.thaumcraft.Arcane.addShaped("planarTheory", <ThaumicHorizons:planarConduit>
 [<ore:plateEnderEye>, <Thaumcraft:ItemResource:15>, <ore:plateEnderEye>],
 [<ore:plateVoid>, <ore:plateEnderEye>, <ore:plateVoid>]]);
 // -
-mods.thaumcraft.Research.setAspects("planarTheory", "vacuos 18, praecantatio 15, alienis 12, auram 9, perditio 6, tenebae 3");
+mods.thaumcraft.Research.setAspects("planarTheory", "vacuos 18, praecantatio 15, alienis 12, auram 9, perditio 6, tenebrae 3");
 mods.thaumcraft.Research.setComplexity("planarTheory", 4);
 mods.thaumcraft.Warp.addToResearch("planarTheory", 1);
 
