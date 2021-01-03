@@ -1,0 +1,36 @@
+itemGroup.tabHarvesttheNether=Harvest the Nether
+
+# Blocks
+tile.netherLog.name=Бревно нижнего мира
+tile.netherLeaves.name=Листва нижнего мира
+tile.netherPlanks.name=Доски нижнего мира
+tile.netherSapling.name=Сажанеж дерева огненых фруктов
+tile.ignisFruit.name=Огненый фрукт
+tile.netherBed.name=Кровать нижнего мира
+tile.netherGarden.name=Куст нижнего мира
+tile.bloodleafCrop.name=Blood Leaf Crop
+tile.fleshrootCrop.name=Flesh Root Crop
+tile.marrowberryCrop.name=Marrow Berry Crop
+tile.glowFlower.name=Светящийся цветок
+tile.glowflowerCrop.name=Glow Flower Crop
+
+# Items
+item.quartzingotItem.name=Кварцевый слиток
+item.quartzhelmItem.name=Кварцевый шлем
+item.quartzchestItem.name=Кварцевый сундук
+item.quartzleggingsItem.name=Кварцевые поножи
+item.quartzbootsItem.name=Кварцевые сапоги
+item.quartzaxeItem.name=Кварцевый топор
+item.quartzhoeItem.name=Кварцевая мотыга
+item.quartzpickaxeItem.name=Кварцевая кирка
+item.quartzshovelItem.name=Кварцевая лопата
+item.quartzswordItem.name=Кварцевый меч
+item.ignisfruitItem.name=Огненый фрукт
+item.netherbedItem.name=Кровать нижнего мира
+item.bloodleafItem.name=Кровавоя листва
+item.fleshrootItem.name=Корень плоти
+item.marrowberryItem.name=Мозговая ягода
+item.bloodleafseedItem.name=Blood Leaf Seed
+item.fleshrootseedItem.name=Flesh Root Seed
+item.marrowberryseedItem.name=Marrow Berry Seed
+item.glowflowerseedItem.name=Семя светящегося цветка
