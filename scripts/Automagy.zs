@@ -245,7 +245,7 @@ mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_MIRRORBOUND", <Automagy:blockRedcry
 [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:ItemResource:10>, <Thaumcraft:blockCosmeticSolid:6>]]);
 
 // --- Wand Focus Crafting
-mods.thaumcraft.Research.setAspects("FOCUSCRAFTING", "fabrico 15, praecantatio 12, instrumentum 9, terra 6, praecantatio 3");
+mods.thaumcraft.Research.setAspects("FOCUSCRAFTING", "fabrico 15, praecantatio 12, instrumentum 9, terra 6");
 mods.thaumcraft.Research.setComplexity("FOCUSCRAFTING", 3);
 mods.thaumcraft.Arcane.addShaped("FOCUSCRAFTING", <Automagy:focusCrafting>, "ordo 50, terra 40, perditio 30, aer 20, aqua 10", [
 [<Thaumcraft:blockCrystal:4>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>],
