@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.2 is out 08.01.2021
+Version 2.1.0.2c is out 09.01.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -251,7 +251,7 @@ you find it in your resource folder<BR>
 * Hardcore Darkness 1.7<BR>
 * Hardcore Ender Expansion 1.8.7<BR>
 * Help Fixer 1.0.7<BR>
-* Hodgepodge 1.4.3<BR>
+* Hodgepodge 1.4.4<BR>
 * Holo Inventory 2.1.5-beta<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
@@ -304,7 +304,7 @@ you find it in your resource folder<BR>
 * RF Expansion 3.0.29(disabled till an update is online)<BR>
 * Rogue like Dungeons 1.5.1<BR>
 * Resource Loader 1.3.0<BR>
-* SG Craft 1.13.8<BR>
+* SG Craft 1.13.9<BR>
 * Sleeping Bag 0.1.1<BR>
 * Special Mobs 3.3.7<BR>
 * Spice of Life 2.0.0-carot-beta-7<BR>
@@ -318,7 +318,7 @@ you find it in your resource folder<BR>
 * Super Tic 1.2.1<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 4.10.2<BR>
+* Tec Tech 4.10.3<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * Thaumcraft-NEI-Additions 1.1.0.1<BR>
