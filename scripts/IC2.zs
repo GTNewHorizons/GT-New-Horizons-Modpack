@@ -156,17 +156,8 @@ recipes.remove(<IC2:itemPartCarbonMesh>);
 // --- Reinforced Glass
 recipes.remove(<IC2:blockAlloyGlass>);
 
-// --- Mining Drill
-recipes.remove(<IC2:itemToolDrill>);
-
-// --- Diamond Drill
-recipes.remove(<IC2:itemToolDDrill>);
-
 // --- Iridium Drill
 recipes.remove(<IC2:itemToolIridiumDrill:*>);
-
-// --- Chainsaw
-recipes.remove(<IC2:itemToolChainsaw>);
 
 // --- Electric Wrenche
 recipes.remove(<IC2:itemToolWrenchElectric>);
