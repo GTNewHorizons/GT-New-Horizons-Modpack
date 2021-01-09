@@ -582,7 +582,9 @@ gtnh.quest144.desc=你了解的另一个自动合成方法... 左侧的3x3格子
 
 # Quest.145 - §6§lOre processing kind of...
 gtnh.quest145.name=§6§l一种矿物处理......
-gtnh.quest145.desc=研磨机与SAG研磨之间的战争仍在继续,看不到尽头,那么何必纠结选哪个呢?  HV研磨机可获得更多的副产物,但SAG研磨机也有其闪光点:升级研磨头！SAG研磨机是一种完美的机器,可以在不使用蜜蜂和作物的情况下从矿石中获得最大的收益. 使用钨磨头可以获得额外的输出,但这并不意味着你可以以此刷材料.(比如锭,就没有额外产出)  另外,对于许多矿物,你将直接获得最终输出,而无需进一步处理.它可以很方便地处理红石获得铬!  SAG对于铅、铜、锡、银、镍、红石、红宝石、青金石、石英和孔雀石矿都很有用.要是你用了足够好的磨头,还有些别的矿物也将获得更多的输出.  甚至煤炭、木炭、小麦和末影珍珠都能获得额外输出.
+#B gtnh.quest145.desc=The endless ware between macerators and SAG mills rages on eternal, so why does it matter which one you choose?%n%nHV Macerators are still required for the final byproducts on many ore chains, but a SAG mill still shines through with%nupgraded grinding heads! SAG mills are perfect machine for getting the most from your ores without using bees and crops.%nYou can get bonus outputs with tungsten grinding heads, but that doesn't mean you can dupe materials (like ingots) with it.%n%nPlus for many of them you'll get the final output directly without any need for further processing.  Handy for processing Redstone to get Chrome!%n%nIt's great for lead, copper, tin, silver, nickel, redstone, ruby, lapis, certus quartz, and malachite ores. Other ores will give you better outputs as well if you use a good enough head.%n%nEven coal, charcoal,bones, wheat, ender pearls, and charcoal non-ores will give bonus outputs.%n
+#A gtnh.quest145.desc=The endless war between macerators and SAG mills rages on eternal, so why does it matter which one you choose?%n%nHV Macerators are still required for the final byproducts on many ore chains, but a SAG mill still shines through with%nupgraded grinding heads! SAG mills are perfect machine for getting the most from your ores without using bees and crops.%nYou can get bonus outputs with tungsten grinding heads, but that doesn't mean you can dupe materials (like ingots) with it.%n%nPlus for many of them you'll get the final output directly without any need for further processing.  Handy for processing Redstone to get Chrome!%n%nIt's great for lead, copper, tin, silver, nickel, redstone, ruby, lapis, certus quartz, and malachite ores. Other ores will give you better outputs as well if you use a good enough head.%n%nEven coal, charcoal,bones, wheat, ender pearls, and charcoal non-ores will give bonus outputs.%n
+#C gtnh.quest145.desc=研磨机与SAG研磨之间的战争仍在继续,看不到尽头,那么何必纠结选哪个呢?  HV研磨机可获得更多的副产物,但SAG研磨机也有其闪光点:升级研磨头！SAG研磨机是一种完美的机器,可以在不使用蜜蜂和作物的情况下从矿石中获得最大的收益. 使用钨磨头可以获得额外的输出,但这并不意味着你可以以此刷材料.(比如锭,就没有额外产出)  另外,对于许多矿物,你将直接获得最终输出,而无需进一步处理.它可以很方便地处理红石获得铬!  SAG对于铅、铜、锡、银、镍、红石、红宝石、青金石、石英和孔雀石矿都很有用.要是你用了足够好的磨头,还有些别的矿物也将获得更多的输出.  甚至煤炭、木炭、小麦和末影珍珠都能获得额外输出.
 
 # Quest.146 - §9§lTorture device
 gtnh.quest146.name=§9§l酷刑装置
@@ -3014,7 +3016,9 @@ gtnh.quest752.desc=高级电路板需要蚀刻高压电路(晶体管),由硅板�
 
 # Quest.753 - §6§lStainless Steel EBF processing
 gtnh.quest753.name=§6§l不锈钢与工业高炉
-gtnh.quest753.desc=不锈钢锭需要在工业高炉中烧制,炉温要求1700K.%n%n需要480EU/t烧制80秒,如果加入氧气则需要60秒.%n%n§4你至少需要两个MV级能源仓来为工业高炉供电(双仓升压).
+#B gtnh.quest753.desc=Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.%n%nIt takes 80 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas.%n%n§4You need a miniumum of two MV energy hatches to power the EBF to HV voltages.
+#A gtnh.quest753.desc=Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.%n%nIt takes 85 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas.%n%n§4You need a miniumum of two MV energy hatches to power the EBF to HV voltages.
+#C gtnh.quest753.desc=不锈钢锭需要在工业高炉中烧制,炉温要求1700K.%n%n需要480EU/t烧制80秒,如果加入氧气则需要60秒.%n%n§4你至少需要两个MV级能源仓来为工业高炉供电(双仓升压).
 
 # Quest.754 - §6§lMV Energy Hatch
 gtnh.quest754.name=§6§lMV级能源仓
@@ -9776,6 +9780,10 @@ gtnh.quest2442.desc=Mh打开了烤架. 我们需要更多的肉.
 gtnh.quest2443.name=杀戮时刻(鸡)
 gtnh.quest2443.desc=别叫了, 没用的. 乖乖变成鸡汤吧?
 
+# Quest.2444 - §5§lLong Distance Fluid Pipeline
+gtnh.quest2444.name=§5§l长距离流体管道
+gtnh.quest2444.desc=你是否梦想过能将原油从遥远的油田直接传送回基地?%n%n现在这个梦想实现了. 使用长距离流体管道控制方块在起点和终点与机器连接.在两点之间用关联流体管道连接.%n%n用区块加载器或其他手段加载油田与基地区块,这样原油就会直接"传送"回家了. %n%n途中的管道无需加载.%n%n%n§%n§6§2注意: 没有输入/输出速度限制,只取决于外部输入/接收速度.
+
 # Quest.2445 - Time to kill (Squid)
 gtnh.quest2445.name=杀戮时刻(鱿鱼)
 gtnh.quest2445.desc=美味的鱿鱼. 我们正在做冬阴功海鲜汤(Tom Yum seafood).
@@ -11395,6 +11403,26 @@ gtnh.quest2848.desc=鉴于有许多玩家对此提出疑问,并且它确实与§
 # Quest.2849 - §5§lFaster Steam transportation
 gtnh.quest2849.name=§5§l更快地传输蒸汽
 gtnh.quest2849.desc=你是否觉得蒸汽传输速度太慢了?LV电动泵每秒只能传输640mb蒸汽.%n是时候制造一种比电动泵快32倍的特殊模块了,LV蒸汽阀.%n%n蒸汽阀只对蒸汽有效,且与RC蓄水器阀门(底部)速度一致.%n%n§6§4§3还有MV、HV、EV和IV版本.
+
+# Quest.2850 - §5§lLong Distance Item Pipeline
+gtnh.quest2850.name=§5§l长距离物品管道
+gtnh.quest2850.desc=你是否梦想过能将物品从遥远的矿脉直接传送回基地??%n%n现在这个梦想实现了. 使用长距离物品管道控制方块在起点和终点与机器连接.在两点之间用关联流体管道连接.%n%n用区块加载器或其他手段加载矿机与基地区块,这样物品就会直接"传送"回家了. %n%n§0§0§1§r%n途中的管道无需加载.%n%n%n§6§c§4§2注意: 没有输入/输出速度限制,只取决于外部输入/接收速度.
+
+# Quest.2851 - Time to kill (Lava Monster)
+gtnh.quest2851.name=杀戮时刻(岩浆怪)
+gtnh.quest2851.desc=有岩浆的地方,它们到处都是,还会用火球射你. %n从空中用弓箭或弩射杀,它们0就是活靶子.
+
+# Quest.2852 - Time to kill (Wisp)
+gtnh.quest2852.name=杀戮时刻(小精灵)
+gtnh.quest2852.desc=它们会在下界的任何地方出现,同时也有刷怪笼.由于它们的移动速度不慢而且体积较小,所以远程射击可能较为困难.
+
+# Quest.2853 - Time to kill (Nitro Creeper)
+gtnh.quest2853.name=杀戮时刻(硝基爬行者)
+gtnh.quest2853.desc=它们具有很高的爆炸性,而且炸出来的洞比普通爬行者大多了. %n它们爆炸伤害也更高. 所以要小心!
+
+# Quest.2854 - Time to kill (IMP)
+gtnh.quest2854.name=杀戮时刻(小恶魔)
+gtnh.quest2854.desc=小恶魔是一种会在整个下界跑来跑去的橘色小动物.它们很和平不会攻击你. %n杀戮一些以获取皮革再打造防火护甲吧.
 
 ##################################Line##################################
 

@@ -582,7 +582,7 @@ gtnh.quest144.desc=You know, yet another automated crafting solution...%nThe lef
 
 # Quest.145 - §6§lOre processing kind of...
 gtnh.quest145.name=§6§lOre processing kind of...
-gtnh.quest145.desc=The endless ware between macerators and SAG mills rages on eternal, so why does it matter which one you choose?%n%nHV Macerators are still required for the final byproducts on many ore chains, but a SAG mill still shines through with%nupgraded grinding heads! SAG mills are perfect machine for getting the most from your ores without using bees and crops.%nYou can get bonus outputs with tungsten grinding heads, but that doesn't mean you can dupe materials (like ingots) with it.%n%nPlus for many of them you'll get the final output directly without any need for further processing.  Handy for processing Redstone to get Chrome!%n%nIt's great for lead, copper, tin, silver, nickel, redstone, ruby, lapis, certus quartz, and malachite ores. Other ores will give you better outputs as well if you use a good enough head.%n%nEven coal, charcoal,bones, wheat, ender pearls, and charcoal non-ores will give bonus outputs.%n
+gtnh.quest145.desc=The endless war between macerators and SAG mills rages on eternal, so why does it matter which one you choose?%n%nHV Macerators are still required for the final byproducts on many ore chains, but a SAG mill still shines through with%nupgraded grinding heads! SAG mills are perfect machine for getting the most from your ores without using bees and crops.%nYou can get bonus outputs with tungsten grinding heads, but that doesn't mean you can dupe materials (like ingots) with it.%n%nPlus for many of them you'll get the final output directly without any need for further processing.  Handy for processing Redstone to get Chrome!%n%nIt's great for lead, copper, tin, silver, nickel, redstone, ruby, lapis, certus quartz, and malachite ores. Other ores will give you better outputs as well if you use a good enough head.%n%nEven coal, charcoal,bones, wheat, ender pearls, and charcoal non-ores will give bonus outputs.%n
 
 # Quest.146 - §9§lTorture device
 gtnh.quest146.name=§9§lTorture device
@@ -3014,7 +3014,7 @@ gtnh.quest752.desc=Advanced circuits require transistors, which are made out of 
 
 # Quest.753 - §6§lStainless Steel EBF processing
 gtnh.quest753.name=§6§lStainless Steel EBF processing
-gtnh.quest753.desc=Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.%n%nIt takes 80 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas.%n%n§4You need a miniumum of two MV energy hatches to power the EBF to HV voltages.
+gtnh.quest753.desc=Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.%n%nIt takes 85 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas.%n%n§4You need a miniumum of two MV energy hatches to power the EBF to HV voltages.
 
 # Quest.754 - §6§lMV Energy Hatch
 gtnh.quest754.name=§6§lMV Energy Hatch
@@ -9776,6 +9776,10 @@ gtnh.quest2442.desc=Mh turn on the grill. We need more meat.
 gtnh.quest2443.name=Time to kill (Chicken)
 gtnh.quest2443.desc=Scream doesn't help. You are going to be in the soup?
 
+# Quest.2444 - §5§lLong Distance Fluid Pipeline
+gtnh.quest2444.name=§5§lLong Distance Fluid Pipeline
+gtnh.quest2444.desc=Wouldn't it be great if we could transport your oil from very far away Oilfield by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Fluid Pipleline Controlblock. Inbetween use the associated pipeline blocks.%n%nLoad your oil field with a chunckloader and your base also and the oil will be "teleported" to you. %n%nNo further chunckloaders are required on the route.%n%n%n§%n§6§2Note: It does not have a throughput limit beyond how fast you can put stuff into it.
+
 # Quest.2445 - Time to kill (Squid)
 gtnh.quest2445.name=Time to kill (Squid)
 gtnh.quest2445.desc=Delicious squid. We're making Tom Yum seafood.
@@ -11395,6 +11399,26 @@ gtnh.quest2848.desc=Given the number of people asking about this and the incompa
 # Quest.2849 - §5§lFaster Steam transportation
 gtnh.quest2849.name=§5§lFaster Steam transportation
 gtnh.quest2849.desc=Do you think that steam transport is far too slow. Your LV pumps only manage 640mb / steam per second.%nThen it's time to make the 32 times faster LV steam valves.%n%nThey only work with steam and are just as fast as the Railcraft valves on a tank. (On the bottom side)%n%n§6§4§3There's also MV, HV, EV and IV versions.
+
+# Quest.2850 - §5§lLong Distance Item Pipeline
+gtnh.quest2850.name=§5§lLong Distance Item Pipeline
+gtnh.quest2850.desc=Wouldn't it be great if we could transport your Items from very far away Ore Vein by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Item Pipleline Controlblock. Inbetween use the associated pipeline blocks.%n%nLoad your Ore Drill/Miner with a chunckloader and your base also and the items will be "teleported" to you.%n%n§0§0§1§r%nNo further chunckloaders are required on the route.%n%n%n§6§c§4§2Note: It does not have a throughput limit beyond how fast you can put stuff into it.
+
+# Quest.2851 - Time to kill (Lava Monster)
+gtnh.quest2851.name=Time to kill (Lava Monster)
+gtnh.quest2851.desc=They are everywhere where there is lava and they shoot at you with fireballs. %nFrom the air with a bow and arrow or crossbow they are easy targets.
+
+# Quest.2852 - Time to kill (Wisp)
+gtnh.quest2852.name=Time to kill (Wisp)
+gtnh.quest2852.desc=They appear everywhere in the Nether, and there are wisp spawners as well. Since they are very fast and small, it gets difficult in long-range combat.
+
+# Quest.2853 - Time to kill (Nitro Creeper)
+gtnh.quest2853.name=Time to kill (Nitro Creeper)
+gtnh.quest2853.desc=They are highly explosive and make holes much larger than regular creepers. %nThey also cause a lot more harm. So be careful!
+
+# Quest.2854 - Time to kill (IMP)
+gtnh.quest2854.name=Time to kill (IMP)
+gtnh.quest2854.desc=Imps are little orange creatures who run through the whole nether. They are peaceful and they won't attack you either. %nKill a few to get their leather and build fireproof armor.
 
 ##################################Line##################################
 
