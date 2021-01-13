@@ -99,6 +99,9 @@ recipes.remove(<LogisticsPipes:logisticsSolidBlock:*>);
 // --- Remote Orderer
 recipes.remove(<LogisticsPipes:item.remoteOrdererItem>);
 
+// --- Sign Creator
+recipes.remove(<LogisticsPipes:item.ItemPipeSignCreator>);
+
 
 // ||||| Modules |||||
 
@@ -116,7 +119,8 @@ recipes.remove(<LogisticsPipes:item.itemUpgrade:*>);
 
 
 // ||||| Pipes |||||
-
+// --- Unrouted Logistics Pipe
+recipes.remove(<LogisticsPipes:item.PipeItemsBasicTransport>);
 
 // --- Basic Logistics Pipe
 recipes.remove(<LogisticsPipes:item.PipeItemsBasicLogistics>);
@@ -412,9 +416,9 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk2>, [<LogisticsPip
 // --- Logistics Chassi MK3
 Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [<LogisticsPipes:item.PipeLogisticsChassiMk2>, <ore:plateInfusedGold> * 4, <StevesCarts:CartModule:5>], null, 600, 30);
 // --- Logistics Chassi MK4
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk4>, [<LogisticsPipes:item.PipeLogisticsChassiMk3>, <ore:plateOsmiridium> * 4, <StevesCarts:CartModule:5>], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk4>, [<LogisticsPipes:item.PipeLogisticsChassiMk3>, <ore:plateRedSteel> * 4, <StevesCarts:CartModule:5>], null, 600, 30);
 // --- Logistics Chassi MK5
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk5>, [<LogisticsPipes:item.PipeLogisticsChassiMk4>, <ore:plateStellarAlloy> * 4, <StevesCarts:CartModule:5>], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk5>, [<LogisticsPipes:item.PipeLogisticsChassiMk4>, <ore:plateTitanium> * 2, <ore:plateNetherStar> * 2, <StevesCarts:CartModule:5>], null, 600, 30);
 
 
 // LV
