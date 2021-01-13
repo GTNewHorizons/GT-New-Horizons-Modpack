@@ -18,20 +18,6 @@ import mods.nei.NEI;
 
 val Remote = <LogisticsPipes:item.remoteOrdererItem>;
 
-val RequestLPipe = <LogisticsPipes:item.PipeItemsRequestLogistics>;
-val RequestLPipeMK2 = <LogisticsPipes:item.PipeItemsRequestLogisticsMk2>;
-val ProviderLPipe = <LogisticsPipes:item.PipeItemsProviderLogistics>;
-val ProviderLPipeMK2 = <LogisticsPipes:item.PipeItemsProviderLogisticsMk2>;
-val CraftingLPipe = <LogisticsPipes:item.PipeItemsCraftingLogistics>;
-val CraftingLPipeMK2 = <LogisticsPipes:item.PipeItemsCraftingLogisticsMk2>;
-val CraftingLPipeMK3 = <LogisticsPipes:item.PipeItemsCraftingLogisticsMk3>;
-val SatelliteLPipe = <LogisticsPipes:item.PipeItemsSatelliteLogistics>;
-val SupplierLPipe = <LogisticsPipes:item.PipeItemsSupplierLogistics>;
-val RemoteLPipe = <LogisticsPipes:item.PipeItemsRemoteOrdererLogistics>;
-val LSysEntrancePipe = <LogisticsPipes:item.PipeItemsSystemEntranceLogistics>;
-val LSysDestinationPipe = <LogisticsPipes:item.PipeItemsSystemDestinationLogistics>;
-val LSysConnector = <LogisticsPipes:item.PipeItemsInvSysConnector>;
-
 val LFContainerSupplierPipe = <LogisticsPipes:item.PipeItemsFluidSupplier>;
 val LFSupplierPipe = <LogisticsPipes:item.PipeFluidSupplierMk2>;
 val LFProviderPipe = <LogisticsPipes:item.PipeFluidProvider>;
@@ -39,12 +25,6 @@ val LFRequestPipe = <LogisticsPipes:item.PipeFluidRequestLogistics>;
 val LFSatellitePipe = <LogisticsPipes:item.PipeFluidSatellite>;
 val LFInsertionPipe = <LogisticsPipes:item.PipeFluidInsertion>;
 val LFExtractorPipe = <LogisticsPipes:item.PipeFluidExtractor>;
-
-val LChassiMK1 = <LogisticsPipes:item.PipeLogisticsChassiMk1>;
-val LChassiMK2 = <LogisticsPipes:item.PipeLogisticsChassiMk2>;
-val LChassiMK3 = <LogisticsPipes:item.PipeLogisticsChassiMk3>;
-val LChassiMK4 = <LogisticsPipes:item.PipeLogisticsChassiMk4>;
-val LChassiMK5 = <LogisticsPipes:item.PipeLogisticsChassiMk5>;
 
 val SneakyUp = <LogisticsPipes:item.itemUpgrade>;
 val SneakyDown = <LogisticsPipes:item.itemUpgrade:1>;
@@ -59,28 +39,7 @@ val DisconnectSouth = <LogisticsPipes:item.itemUpgrade:13>;
 val DisconnectEast = <LogisticsPipes:item.itemUpgrade:14>;
 val DisconnectWest = <LogisticsPipes:item.itemUpgrade:15>;
 
-val GoldCircuit = <appliedenergistics2:item.ItemMultiMaterial:22>;
-val CertusCircuit = <appliedenergistics2:item.ItemMultiMaterial:23>;
-val WLessReveiver = <appliedenergistics2:item.ItemMultiMaterial:41>;
-
-val IronChip = <BuildCraft|Silicon:redstoneChipset:1>;
-val GoldChip = <BuildCraft|Silicon:redstoneChipset:2>;
-val DiamondChip = <BuildCraft|Silicon:redstoneChipset:3>;
-val EnderChip = <BuildCraft|Silicon:redstoneChipset:4>;
-
 val GTFilter = <gregtech:gt.metaitem.01:32729>;
-val MVEBuffer = <gregtech:gt.blockmachines:162>;
-val ElectrumCable8x = <gregtech:gt.blockmachines:1449>;
-val LElectrumPipe = <gregtech:gt.blockmachines:5613>;
-val IVEmitter = <gregtech:gt.metaitem.01:32684>;
-
-val OverclockerUp = <IC2:upgradeModule>;
-val TransformerUp = <IC2:upgradeModule:1>;
-val StorageUp = <IC2:upgradeModule:2>;
-
-val PaperStack = <TConstruct:materials>;
-val CraftingT = <minecraft:crafting_table>;
-val Screen = <OpenComputers:screen3>;
 
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val Wrench = <ore:craftingToolWrench>;
@@ -126,43 +85,43 @@ recipes.remove(<LogisticsPipes:item.PipeItemsBasicTransport>);
 recipes.remove(<LogisticsPipes:item.PipeItemsBasicLogistics>);
 
 // --- Request Logistics Pipe
-recipes.remove(RequestLPipe);
+recipes.remove(<LogisticsPipes:item.PipeItemsRequestLogistics>);
 
 // --- Request Logistics Pipe MK2
-recipes.remove(RequestLPipeMK2);
+recipes.remove(<LogisticsPipes:item.PipeItemsRequestLogisticsMk2>);
 
 // --- Provider Logistics Pipe
-recipes.remove(ProviderLPipe);
+recipes.remove(<LogisticsPipes:item.PipeItemsProviderLogistics>);
 
 // --- Provider Logistics Pipe MK2
-recipes.remove(ProviderLPipeMK2);
+recipes.remove(<LogisticsPipes:item.PipeItemsProviderLogisticsMk2>);
 
 // --- Crafting Logistics Pipe
-recipes.remove(CraftingLPipe);
+recipes.remove(<LogisticsPipes:item.PipeItemsCraftingLogistics>);
 
 // --- Crafting Logistics Pipe MK2
-recipes.remove(CraftingLPipeMK2);
+recipes.remove(<LogisticsPipes:item.PipeItemsCraftingLogisticsMk2>);
 
 // --- Crafting Logistics Pipe MK3
-recipes.remove(CraftingLPipeMK3);
+recipes.remove(<LogisticsPipes:item.PipeItemsCraftingLogisticsMk3>);
 
 // --- Satellite Logistics Pipe
-recipes.remove(SatelliteLPipe);
+recipes.remove(<LogisticsPipes:item.PipeItemsSatelliteLogistics>);
 
 // --- Supplier Logistics Pipe
-recipes.remove(SupplierLPipe);
+recipes.remove(<LogisticsPipes:item.PipeItemsSupplierLogistics>);
 
 // --- Remote Order Logistics Pipe
-recipes.remove(RemoteLPipe);
+recipes.remove(<LogisticsPipes:item.PipeItemsRemoteOrdererLogistics>);
 
 // --- Logistics System Entrance Pipe
-recipes.remove(LSysEntrancePipe);
+recipes.remove(<LogisticsPipes:item.PipeItemsSystemEntranceLogistics>);
 
 // --- Logistics System Entrance Pipe
-recipes.remove(LSysDestinationPipe);
+recipes.remove(<LogisticsPipes:item.PipeItemsSystemDestinationLogistics>);
 
 // --- Logistics Inventory System Connector
-recipes.remove(LSysConnector);
+recipes.remove(<LogisticsPipes:item.PipeItemsInvSysConnector>);
 
 
 // ||||| Fluid Pipes |||||
@@ -197,19 +156,19 @@ recipes.remove(LFExtractorPipe);
 
 
 // --- Logistics Chassi MK1
-recipes.remove(LChassiMK1);
+recipes.remove(<LogisticsPipes:item.PipeLogisticsChassiMk1>);
 
 // --- Logistics Chassi MK2
-recipes.remove(LChassiMK2);
+recipes.remove(<LogisticsPipes:item.PipeLogisticsChassiMk2>);
 
 // --- Logistics Chassi MK3
-recipes.remove(LChassiMK3);
+recipes.remove(<LogisticsPipes:item.PipeLogisticsChassiMk3>);
 
 // --- Logistics Chassi MK4
-recipes.remove(LChassiMK4);
+recipes.remove(<LogisticsPipes:item.PipeLogisticsChassiMk4>);
 
 // --- Logistics Chassi MK5
-recipes.remove(LChassiMK5);
+recipes.remove(<LogisticsPipes:item.PipeLogisticsChassiMk5>);
 
 
 
@@ -232,9 +191,9 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, [<Logisti
 
 // ||||| Modules |||||
 // --- Blank Module
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ore:plateStone> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6], <liquid:molten.lead> * 144, 900, 30);
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ore:plateStone> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6], <liquid:molten.tin> * 72, 900, 30);
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ore:plateStone> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6], <liquid:molten.solderingalloy> * 36, 900, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6], <liquid:molten.lead> * 144, 900, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6], <liquid:molten.tin> * 72, 900, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6], <liquid:molten.solderingalloy> * 36, 900, 30);
 
 // --- Itemsink Module
 CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:1>, [<LogisticsPipes:item.itemModule>, GTFilter, <ore:circuitBasic>, <ore:plateRedAlloy>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:32> * 2], <liquid:molten.lead> * 144, 900, 30);
@@ -363,8 +322,41 @@ FormingPress.addRecipe(<LogisticsPipes:item.itemModule:602>, <LogisticsPipes:ite
 // ||||| Items |||||
 // --- Remote Orderer
 Assembler.addRecipe(<LogisticsPipes:item.remoteOrdererItem>, [<gregtech:gt.metaitem.01:32682>, <gregtech:gt.metaitem.01:32692>, <dreamcraft:item.Display>, <ore:plateStainlessSteel> * 4, <ore:circuitAdvanced>, <ore:wireGt01Silver> * 4, <ore:batteryElite>, <ore:screwBlueSteel> * 4], <liquid:molten.plastic> * 144, 1600, 480);
+// Clean
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem>], <LogisticsPipes:item.remoteOrdererItem:*>, <liquid:chlorine> * 1000, [10000], 1600, 30);
+// Black
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:1>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyeblack> * 144, [10000], 1600, 30);
+// Red
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:2>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyered> * 144, [10000], 1600, 30);
+// Green
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:3>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyegreen> * 144, [10000], 1600, 30);
+// Brown
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:4>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyebrown> * 144, [10000], 1600, 30);
+// Blue
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:5>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyeblue> * 144, [10000], 1600, 30);
+// Purple
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:6>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyepurple> * 144, [10000], 1600, 30);
+// Cyan
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:7>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyecyan> * 144, [10000], 1600, 30);
+// Light Gray
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:8>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyelightgray> * 144, [10000], 1600, 30);
+// Gray
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:9>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyegray> * 144, [10000], 1600, 30);
+// Pink
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:10>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyepink> * 144, [10000], 1600, 30);
+// Lime
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:11>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyelime> * 144, [10000], 1600, 30);
+// Lime
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:12>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyeyellow> * 144, [10000], 1600, 30);
+// Light Blue
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:13>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyelightblue> * 144, [10000], 1600, 30);
+// Magenta
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:14>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyemagenta> * 144, [10000], 1600, 30);
+// Orange
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:15>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyeorange> * 144, [10000], 1600, 30);
+// White
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:15>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyewhite> * 144, [10000], 1600, 30);
 
-// --- TODO Chemical Bath with dyes for the remote orderer
 
 // --- Logistics Pipe Controller
 Assembler.addRecipe(<LogisticsPipes:item.pipeController>, [<dreamcraft:item.Display>, <OpenComputers:keyboard>, <LogisticsPipes:item.itemModule>], null, 1600, 120);
@@ -424,9 +416,9 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk5>, [<LogisticsPip
 // LV
 // ||||| Upgrades |||||
 // --- Blank Upgrade
-CircuitAssembler.addRecipe(<LogisticsPipes:item.logisticsParts:4> * 4, [<ore:plateStone> * 4, <ore:circuitPrimitive>, <ore:foilTin> * 4, <ore:wireFineAnyCopper> * 4], <liquid:molten.lead> * 144, 600, 30);
-CircuitAssembler.addRecipe(<LogisticsPipes:item.logisticsParts:4> * 4, [<ore:plateStone> * 4, <ore:circuitPrimitive>, <ore:foilTin> * 4, <ore:wireFineAnyCopper> * 4], <liquid:molten.tin> * 72, 600, 30);
-CircuitAssembler.addRecipe(<LogisticsPipes:item.logisticsParts:4> * 4, [<ore:plateStone> * 4, <ore:circuitPrimitive>, <ore:foilTin> * 4, <ore:wireFineAnyCopper> * 4], <liquid:molten.solderingalloy> * 36, 600, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.logisticsParts:4> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitPrimitive>, <ore:foilTin> * 4, <ore:wireFineAnyCopper> * 4], <liquid:molten.lead> * 144, 600, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.logisticsParts:4> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitPrimitive>, <ore:foilTin> * 4, <ore:wireFineAnyCopper> * 4], <liquid:molten.tin> * 72, 600, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.logisticsParts:4> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitPrimitive>, <ore:foilTin> * 4, <ore:wireFineAnyCopper> * 4], <liquid:molten.solderingalloy> * 36, 600, 30);
 
 // --- Fuzzy Upgrade
 CircuitAssembler.addRecipe(<LogisticsPipes:item.itemUpgrade:25>, [<LogisticsPipes:item.logisticsParts:4>, <ore:blockWool>, <ore:foilSteel>, <ProjRed|Core:projectred.core.part:26>], null, 600, 30); //
