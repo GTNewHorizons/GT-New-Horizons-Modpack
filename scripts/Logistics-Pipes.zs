@@ -366,7 +366,7 @@ ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:14>], <LogisticsP
 // Orange
 ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:15>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyeorange> * 144, [10000], 1600, 30);
 // White
-ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:15>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyewhite> * 144, [10000], 1600, 30);
+ChemicalBath.addRecipe([<LogisticsPipes:item.remoteOrdererItem:16>], <LogisticsPipes:item.remoteOrdererItem>, <liquid:dye.chemical.dyewhite> * 144, [10000], 1600, 30);
 
 
 // --- Logistics Pipe Controller
@@ -379,7 +379,7 @@ Assembler.addRecipe(<LogisticsPipes:item.ItemPipeSignCreator>, [<dreamcraft:item
 // ---  HUD Glasses Parts
 Assembler.addRecipe(<LogisticsPipes:item.logisticsParts>, [<ore:boltDiamond>, <ore:stickLongDiamond>, <ore:chipsetDiamond> * 2], <liquid:molten.aluminium> * 144, 1600, 120);
 Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:1>, [<GalacticraftCore:item.sensorLens>, <ore:ringStainlessSteel>, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:molten.aluminium> * 144, 1600, 120);
-recipes.addShaped(<LogisticsPipes:item.logisticsParts:2>, [[<ore:boltDiamond>,<ore:stickDiamond>,<ore:boltDiamond>],[<ore:craftngToolFile>, <ore:screwTitanium>, <ore:craftngToolSoftHammer>],[null, <ore:craftingToolScrewdriver>, null]]);
+recipes.addShaped(<LogisticsPipes:item.logisticsParts:2>, [[<ore:boltDiamond>,<ore:stickDiamond>,<ore:boltDiamond>],[<ore:craftingToolFile>, <ore:screwTitanium>, <ore:craftingToolSoftHammer>],[null, <ore:craftingToolScrewdriver>, null]]);
 
 // ---  HUD Glasses
 recipes.addShaped(<LogisticsPipes:item.logisticsHUDGlasses>, [[<LogisticsPipes:item.logisticsParts:1>,<LogisticsPipes:item.logisticsParts:2>,<LogisticsPipes:item.logisticsParts:1>],[<ore:screwTitanium>,<ore:circuitAdvanced>,<ore:screwTitanium>],[<LogisticsPipes:item.logisticsParts>,<ore:craftingToolScrewdriver>,<LogisticsPipes:item.logisticsParts>]]);
