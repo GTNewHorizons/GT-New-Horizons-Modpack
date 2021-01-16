@@ -4,6 +4,8 @@
 
 // *======= Importing Stuff =======*
 
+import mods.forestry.Carpenter;
+
 import mods.gregtech.Assembler;
 import mods.gregtech.FormingPress;
 import mods.gregtech.PrecisionLaser;
@@ -54,6 +56,8 @@ val Wrench = <ore:craftingToolWrench>;
 recipes.remove(<LogisticsPipes:logisticsSolidBlock:*>);
 
 // ||||| Items |||||
+// --- Pipe Controller
+recipes.remove(<LogisticsPipes:item.pipeController>);
 
 // --- Remote Orderer
 recipes.remove(<LogisticsPipes:item.remoteOrdererItem>);
@@ -75,7 +79,14 @@ recipes.remove(<LogisticsPipes:item.itemModule:*>);
 recipes.remove(<LogisticsPipes:item.itemUpgrade:*>);
 
 
+// ||||| Bees |||||
+Carpenter.removeRecipe(<LogisticsPipes:item.itemModule:8>);
+Carpenter.removeRecipe(<LogisticsPipes:item.itemModule:9>);
+Carpenter.removeRecipe(<LogisticsPipes:item.itemModule:10>);
+Carpenter.removeRecipe(<LogisticsPipes:item.itemModule:11>);
 
+Carpenter.removeRecipe(<LogisticsPipes:item.PipeItemsApiaristSink>);
+Carpenter.removeRecipe(<LogisticsPipes:item.PipeItemsApiaristAnalyser>);
 
 // ||||| Pipes |||||
 // --- Unrouted Logistics Pipe
@@ -364,7 +375,37 @@ Assembler.addRecipe(<LogisticsPipes:item.pipeController>, [<dreamcraft:item.Disp
 // --- Crafting Sign Creator
 Assembler.addRecipe(<LogisticsPipes:item.ItemPipeSignCreator>, [<dreamcraft:item.Display>, <OpenComputers:keyboard>, <minecraft:sign> * 16], null, 1600, 120);
 
-//--- TODO HUD Glasses
+
+// ---  HUD Glasses Parts
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts>, [<ore:boltDiamond>, <ore:stickLongDiamond>, <ore:chipsetDiamond> * 2], <liquid:molten.aluminium> * 144, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:1>, [<GalacticraftCore:item.sensorLens>, <ore:ringStainlessSteel>, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:molten.aluminium> * 144, 1600, 120);
+recipes.addShaped(<LogisticsPipes:item.logisticsParts:2>, [[<ore:boltDiamond>,<ore:stickDiamond>,<ore:boltDiamond>],[<ore:craftngToolFile>, <ore:screwTitanium>, <ore:craftngToolSoftHammer>],[null, <ore:craftingToolScrewdriver>, null]]);
+
+// ---  HUD Glasses
+recipes.addShaped(<LogisticsPipes:item.logisticsHUDGlasses>, [[<LogisticsPipes:item.logisticsParts:1>,<LogisticsPipes:item.logisticsParts:2>,<LogisticsPipes:item.logisticsParts:1>],[<ore:screwTitanium>,<ore:circuitAdvanced>,<ore:screwTitanium>],[<LogisticsPipes:item.logisticsParts>,<ore:craftingToolScrewdriver>,<LogisticsPipes:item.logisticsParts>]]);
+
+
+// --- BeeSink Module
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:9>, [<LogisticsPipes:item.itemModule:1>, <Forestry:apicultureChest>, <Forestry:propolis> * 4, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:for.honey> * 1000, 1600, 120);
+
+// --- BeeSink Pipe
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsApiaristSink>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:9>], null, 1600, 120);
+
+// --- Drone Terminus Module
+FormingPress.addRecipe(<LogisticsPipes:item.itemModule:11>, <LogisticsPipes:item.itemModule:9>, <ExtraUtilities:trashcan>, 1600, 120);
+
+// --- Apiary Refiller Module
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:molten.lead> * 144, 1600, 120);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:molten.tin> * 72, 1600, 120);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:10>, [<LogisticsPipes:item.itemModule:9>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:molten.solderingalloy> * 36, 1600, 120);
+
+// --- Bee Analyzer Module
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:molten.lead> * 144, 1600, 120);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:molten.tin> * 72, 1600, 120);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:8>, [<LogisticsPipes:item.itemModule:9>, <GalacticraftCore:item.sensorLens>, <gregtech:gt.metaitem.01:32632>, <gregtech:gt.metaitem.01:32692>, <dreamcraft:item.LogicProcessorItemGoldCore>], <liquid:molten.solderingalloy> * 36, 1600, 120);
+
+// --- Bee Analyzer Pipe
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsApiaristAnalyser>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:8>], null, 1600, 120);
 
 
 // --- Pipes
@@ -401,16 +442,18 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeItemsSatelliteLogistics>, [<Logisti
 // --- Remote Orderer Logistics Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsRemoteOrdererLogistics>, [<LogisticsPipes:item.remoteOrdererItem:*> * 0, <LogisticsPipes:item.PipeItemsRequestLogistics>], null, 600, 30);
 
+
+// Until I get a Better Suggestion for theese it is just chest + plates and previous tier
 // --- Logistics Chassi MK1
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk1>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateRedstoneAlloy> * 4, <StevesCarts:CartModule:5>], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk1>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateRedstoneAlloy> * 4, <ore:chestCopper>], null, 600, 30);
 // --- Logistics Chassi MK2
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk2>, [<LogisticsPipes:item.PipeLogisticsChassiMk1>, <ore:plateDarkSteel> * 4, <StevesCarts:CartModule:5>], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk2>, [<LogisticsPipes:item.PipeLogisticsChassiMk1>, <ore:plateDarkSteel> * 4, <ore:chestIron>], null, 600, 30);
 // --- Logistics Chassi MK3
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [<LogisticsPipes:item.PipeLogisticsChassiMk2>, <ore:plateInfusedGold> * 4, <StevesCarts:CartModule:5>], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [<LogisticsPipes:item.PipeLogisticsChassiMk2>, <ore:plateInfusedGold> * 4, <ore:chestSteel>], null, 600, 30);
 // --- Logistics Chassi MK4
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk4>, [<LogisticsPipes:item.PipeLogisticsChassiMk3>, <ore:plateRedSteel> * 4, <StevesCarts:CartModule:5>], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk4>, [<LogisticsPipes:item.PipeLogisticsChassiMk3>, <ore:plateRedSteel> * 4, <ore:chestGold>], null, 600, 30);
 // --- Logistics Chassi MK5
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk5>, [<LogisticsPipes:item.PipeLogisticsChassiMk4>, <ore:plateTitanium> * 2, <ore:plateNetherStar> * 2, <StevesCarts:CartModule:5>], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk5>, [<LogisticsPipes:item.PipeLogisticsChassiMk4>, <ore:plateTitanium> * 2, <ore:plateNetherStar> * 2, <ore:chestDiamond>], null, 600, 30);
 
 
 // LV
