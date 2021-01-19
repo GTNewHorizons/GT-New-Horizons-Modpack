@@ -93,9 +93,6 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 // --- Netherstar Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
-// --- GT Shovels
-recipes.removeShapeless(<gregtech:gt.metatool.01:4>);
-
 // --- Eridium Neutron Reflector
 recipes.remove(<gregtech:gt.neutronreflector>);
 

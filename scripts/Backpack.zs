@@ -28,6 +28,25 @@ val MagentaSmallB = <Backpack:backpack:14>;
 val OrangeSmallB = <Backpack:backpack:15>;
 val WhiteSmallB = <Backpack:backpack:16>;
 
+val SmallPacks = <ore:SmallBackpacks>;
+SmallPacks.add(SmallB);
+SmallPacks.add(BlackSmallB);
+SmallPacks.add(RedSmallB);
+SmallPacks.add(GreenSmallB);
+SmallPacks.add(BrownSmallB);
+SmallPacks.add(BlueSmallB);
+SmallPacks.add(PurpleSmallB);
+SmallPacks.add(CyanSmallB);
+SmallPacks.add(LightGraySmallB);
+SmallPacks.add(GraySmallB);
+SmallPacks.add(PinkSmallB);
+SmallPacks.add(LimeSmallB);
+SmallPacks.add(YellowSmallB);
+SmallPacks.add(LightBlueSmallB);
+SmallPacks.add(MagentaSmallB);
+SmallPacks.add(OrangeSmallB);
+SmallPacks.add(WhiteSmallB);
+
 val MediumB = <Backpack:backpack:100>;
 val BlackMediumB = <Backpack:backpack:101>;
 val RedMediumB = <Backpack:backpack:102>;
@@ -46,6 +65,25 @@ val MagentaMediumB = <Backpack:backpack:114>;
 val OrangeMediumB = <Backpack:backpack:115>;
 val WhiteMediumB = <Backpack:backpack:116>;
 
+val MediumPacks = <ore:MediumBackpacks>;
+MediumPacks.add(MediumB);
+MediumPacks.add(BlackMediumB);
+MediumPacks.add(RedMediumB);
+MediumPacks.add(GreenMediumB);
+MediumPacks.add(BrownMediumB);
+MediumPacks.add(BlueMediumB);
+MediumPacks.add(PurpleMediumB);
+MediumPacks.add(CyanMediumB);
+MediumPacks.add(LightGrayMediumB);
+MediumPacks.add(GrayMediumB);
+MediumPacks.add(PinkMediumB);
+MediumPacks.add(LimeMediumB);
+MediumPacks.add(YellowMediumB);
+MediumPacks.add(LightBlueMediumB);
+MediumPacks.add(MagentaMediumB);
+MediumPacks.add(OrangeMediumB);
+MediumPacks.add(WhiteMediumB);
+
 val BigB = <Backpack:backpack:200>;
 val BlackBigB = <Backpack:backpack:201>;
 val RedBigB = <Backpack:backpack:202>;
@@ -63,6 +101,25 @@ val LightBlueBigB = <Backpack:backpack:213>;
 val MagentaBigB = <Backpack:backpack:214>;
 val OrangeBigB = <Backpack:backpack:215>;
 val WhiteBigB = <Backpack:backpack:216>;
+
+val BigPacks = <ore:BigBackpacks>;
+BigPacks.add(BigB);
+BigPacks.add(BlackBigB);
+BigPacks.add(RedBigB);
+BigPacks.add(GreenBigB);
+BigPacks.add(BrownBigB);
+BigPacks.add(BlueBigB);
+BigPacks.add(PurpleBigB);
+BigPacks.add(CyanBigB);
+BigPacks.add(LightGrayBigB);
+BigPacks.add(GrayBigB);
+BigPacks.add(PinkBigB);
+BigPacks.add(LimeBigB);
+BigPacks.add(YellowBigB);
+BigPacks.add(LightBlueBigB);
+BigPacks.add(MagentaBigB);
+BigPacks.add(OrangeBigB);
+BigPacks.add(WhiteBigB);
 
 val EnderB = <Backpack:backpack:31999>;
 val WorkB = <Backpack:workbenchbackpack:17>;
@@ -117,367 +174,647 @@ recipes.addShaped(SmallB, [
 
 // --- Small Black Backpack
 recipes.addShapeless(BlackSmallB,
-[SmallB, <ore:dyeBlack>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeBlack>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Red Backpack
 recipes.addShapeless(RedSmallB,
-[SmallB, <ore:dyeRed>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeRed>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Green Backpack
 recipes.addShapeless(GreenSmallB,
-[SmallB, <ore:dyeGreen>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeGreen>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Brown Backpack
 recipes.addShapeless(BrownSmallB,
-[SmallB, <ore:dyeBrown>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeBrown>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Blue Backpack
 recipes.addShapeless(BlueSmallB,
-[SmallB, <ore:dyeBlue>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeBlue>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Purple Backpack
 recipes.addShapeless(PurpleSmallB,
-[SmallB, <ore:dyePurple>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyePurple>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Cyan Backpack
 recipes.addShapeless(CyanSmallB,
-[SmallB, <ore:dyeCyan>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeCyan>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Light Gray Backpack
 recipes.addShapeless(LightGraySmallB,
-[SmallB, <ore:dyeLightGray>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeLightGray>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Gray Backpack
 recipes.addShapeless(GraySmallB,
-[SmallB, <ore:dyeGray>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeGray>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Pink Backpack
 recipes.addShapeless(PinkSmallB,
-[SmallB, <ore:dyePink>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyePink>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Lime Backpack
 recipes.addShapeless(LimeSmallB,
-[SmallB, <ore:dyeLime>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeLime>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Yellow Backpack
 recipes.addShapeless(YellowSmallB,
-[SmallB, <ore:dyeYellow>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeYellow>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Light Blue Backpack
 recipes.addShapeless(LightBlueSmallB,
-[SmallB, <ore:dyeLightBlue>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeLightBlue>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Magenta Backpack
 recipes.addShapeless(MagentaSmallB,
-[SmallB, <ore:dyeMagenta>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeMagenta>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small Orange Backpack
 recipes.addShapeless(OrangeSmallB,
-[SmallB, <ore:dyeOrange>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeOrange>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Small White Backpack
 recipes.addShapeless(WhiteSmallB,
-[SmallB, <ore:dyeWhite>, Paintbrush]);
+[SmallPacks.marked("mark"), <ore:dyeWhite>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Backpack
 recipes.addShaped(MediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, SmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, SmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Black Backpack
-recipes.addShapeless(BlackMediumB,
-[MediumB, <ore:dyeBlack>, Paintbrush]);
+recipes.addShapeless(BlackMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeBlack>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(BlackMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, BlackSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, BlackSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Red Backpack
-recipes.addShapeless(RedMediumB,
-[MediumB, <ore:dyeRed>, Paintbrush]);
+recipes.addShapeless(RedMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeRed>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(RedMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, RedSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, RedSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Green Backpack
-recipes.addShapeless(GreenMediumB,
-[MediumB, <ore:dyeGreen>, Paintbrush]);
+recipes.addShapeless(GreenMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeGreen>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(GreenMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, GreenSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, GreenSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Brown Backpack
-recipes.addShapeless(BrownMediumB,
-[MediumB, <ore:dyeBrown>, Paintbrush]);
+recipes.addShapeless(BrownMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeBrown>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(BrownMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, BrownSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, BrownSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Blue Backpack
-recipes.addShapeless(BlueMediumB,
-[MediumB, <ore:dyeBlue>, Paintbrush]);
+recipes.addShapeless(BlueMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeBlue>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(BlueMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, BlueSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, BlueSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Purple Backpack
-recipes.addShapeless(PurpleMediumB,
-[MediumB, <ore:dyePurple>, Paintbrush]);
+recipes.addShapeless(PurpleMediumB, 
+[MediumPacks.marked("mark"), <ore:dyePurple>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(PurpleMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, PurpleSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, PurpleSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Cyan Backpack
-recipes.addShapeless(CyanMediumB,
-[MediumB, <ore:dyeCyan>, Paintbrush]);
+recipes.addShapeless(CyanMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeCyan>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(CyanMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, CyanSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, CyanSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Light Gray Backpack
-recipes.addShapeless(LightGrayMediumB,
-[MediumB, <ore:dyeLightBlue>, Paintbrush]);
+recipes.addShapeless(LightGrayMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeLightBlue>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(LightGrayMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, LightGraySmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, LightGraySmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Gray Backpack
-recipes.addShapeless(GrayMediumB,
-[MediumB, <ore:dyeGray>, Paintbrush]);
+recipes.addShapeless(GrayMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeGray>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(GrayMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, GraySmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, GraySmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Pink Backpack
-recipes.addShapeless(PinkMediumB,
-[MediumB, <ore:dyePink>, Paintbrush]);
+recipes.addShapeless(PinkMediumB, 
+[MediumPacks.marked("mark"), <ore:dyePink>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(PinkMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, PinkSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, PinkSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Lime Backpack
-recipes.addShapeless(LimeMediumB,
-[MediumB, <ore:dyeLime>, Paintbrush]);
+recipes.addShapeless(LimeMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeLime>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(LimeMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, LimeSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, LimeSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Yellow Backpack
-recipes.addShapeless(YellowMediumB,
-[MediumB, <ore:dyeYellow>, Paintbrush]);
+recipes.addShapeless(YellowMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeYellow>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(YellowMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, YellowSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, YellowSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Light Blue Backpack
-recipes.addShapeless(LightBlueMediumB,
-[MediumB, <ore:dyeLightBlue>, Paintbrush]);
+recipes.addShapeless(LightBlueMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeLightBlue>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(LightBlueMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, LightBlueSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, LightBlueSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Magenta Backpack
-recipes.addShapeless(MagentaMediumB,
-[MediumB, <ore:dyeMagenta>, Paintbrush]);
+recipes.addShapeless(MagentaMediumB, 
+[MediumPacks.marked("mark"), <ore:dyeMagenta>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(MagentaMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, MagentaSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, MagentaSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium Orange Backpack
 recipes.addShapeless(OrangeMediumB,
-[MediumB, <ore:dyeOrange>, Paintbrush]);
+[MediumPacks.marked("mark"), <ore:dyeOrange>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(OrangeMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, OrangeSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, OrangeSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Medium White Backpack
 recipes.addShapeless(WhiteMediumB,
-[MediumB, <ore:dyeWhite>, Paintbrush]);
+[MediumPacks.marked("mark"), <ore:dyeWhite>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // -
 recipes.addShaped(WhiteMediumB, [
 [SSteelRing, TannedLeather, SSteelRing],
-[TannedLeather, WhiteSmallB, TannedLeather],
-[SSteelRing, TannedLeather, SSteelRing]]);
+[TannedLeather, WhiteSmallB.marked("mark"), TannedLeather],
+[SSteelRing, TannedLeather, SSteelRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Backpack
 recipes.addShaped(BigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, MediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, MediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Black Backpack
 recipes.addShapeless(BlackBigB,
-[BigB, <ore:dyeBlack>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeBlack>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(BlackBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, BlackMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, BlackMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Red Backpack
 recipes.addShapeless(RedBigB,
-[BigB, <ore:dyeRed>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeRed>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(RedBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, RedMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, RedMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Green Backpack
 recipes.addShapeless(GreenBigB,
-[BigB, <ore:dyeGreen>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeGreen>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(GreenBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, GreenMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, GreenMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Brown Backpack
 recipes.addShapeless(BrownBigB,
-[BigB, <ore:dyeBrown>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeBrown>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(BrownBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, BrownMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, BrownMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Blue Backpack
 recipes.addShapeless(BlueBigB,
-[BigB, <ore:dyeBlue>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeBlue>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(BlueBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, BlueMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, BlueMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Purple Backpack
 recipes.addShapeless(PurpleBigB,
-[BigB, <ore:dyePurple>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyePurple>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(PurpleBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, PurpleMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, PurpleMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Cyan Backpack
 recipes.addShapeless(CyanBigB,
-[BigB, <ore:dyeCyan>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeCyan>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(CyanBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, CyanMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, CyanMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Light Gray Backpack
 recipes.addShapeless(LightGrayBigB,
-[BigB, <ore:dyeLightGray>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeLightGray>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(LightGrayBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, LightGrayMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, LightGrayMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Gray Backpack
 recipes.addShapeless(GrayBigB,
-[BigB, <ore:dyeGray>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeGray>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(GrayBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, GrayMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, GrayMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Pink Backpack
 recipes.addShapeless(PinkBigB,
-[BigB, <ore:dyePink>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyePink>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(PinkBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, PinkMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, PinkMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Lime Backpack
 recipes.addShapeless(LimeBigB,
-[BigB, <ore:dyeLime>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeLime>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(LimeBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, LimeMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, LimeMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Yellow Backpack
 recipes.addShapeless(YellowBigB,
-[BigB, <ore:dyeYellow>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeYellow>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(YellowBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, YellowMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, YellowMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Light Blue Backpack
 recipes.addShapeless(LightBlueBigB,
-[BigB, <ore:dyeLightBlue>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeLightBlue>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(LightBlueBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, LightBlueMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, LightBlueMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Magenta Backpack
 recipes.addShapeless(MagentaBigB,
-[BigB, <ore:dyeMagenta>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeMagenta>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(MagentaBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, MagentaMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, MagentaMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big Orange Backpack
 recipes.addShapeless(OrangeBigB,
-[BigB, <ore:dyeOrange>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeOrange>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(OrangeBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, OrangeMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, OrangeMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Big White Backpack
 recipes.addShapeless(WhiteBigB,
-[BigB, <ore:dyeWhite>, Paintbrush]);
+[BigPacks.marked("mark"), <ore:dyeWhite>, Paintbrush],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 // - Alternate Recipe
 recipes.addShaped(WhiteBigB, [
 [TitaniumRing, HLeather, TitaniumRing],
-[HLeather, WhiteMediumB, HLeather],
-[TitaniumRing, HLeather, TitaniumRing]]);
+[HLeather, WhiteMediumB.marked("mark"), HLeather],
+[TitaniumRing, HLeather, TitaniumRing]
+	],
+	function(out, ins, cInfo) {	
+	return out.withTag(ins.mark.tag);
+    });
 
 // --- Workbench Backpack
 recipes.addShaped(WorkB,  [
