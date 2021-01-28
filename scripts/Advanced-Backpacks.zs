@@ -90,7 +90,11 @@ recipes.addShaped(<adventurebackpack:adventureBackpack>,
     ],
     function(out, ins, cInfo) {
         var data = ins.mark.tag;		
-        return out.withTag({wearableData: {type: 0 as byte, inventory: data.wearableData.inventory}});
+		if (!isNull(data.wearableData.inventory)) {
+            return out.withTag({wearableData: {type: 0 as byte, inventory: data.wearableData.inventory}});
+        } else {
+            return out.withTag({wearableData: {type: 0 as byte}});
+        }
     }
 );
 
@@ -112,9 +116,13 @@ recipes.addShaped(<adventurebackpack:adventureBackpack:2>, [
 [<minecraft:potion:8262>, <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}).marked("mark"), <minecraft:potion:8262>],
 [<ore:blockWoolBlack>, <ore:blockWoolBlack>, <ore:blockWoolBlack>]],    
 
-	function(out, ins, cInfo) {
+    function(out, ins, cInfo) {
         var data = ins.mark.tag;		
-        return out.withTag({wearableData: {type: 2 as byte, inventory: data.wearableData.inventory}});
+		if (!isNull(data.wearableData.inventory)) {
+            return out.withTag({wearableData: {type: 2 as byte, inventory: data.wearableData.inventory}});
+        } else {
+            return out.withTag({wearableData: {type: 2 as byte}});
+        }
     }
 );
 
@@ -124,9 +132,13 @@ recipes.addShaped(<adventurebackpack:adventureBackpack:11>, [
 [<minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}), <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}).marked("mark"), <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]})],
 [<ore:plateIron>, <IC2:itemArmorRubBoots>, <ore:plateIron>]],
 
-	function(out, ins, cInfo) {
+    function(out, ins, cInfo) {
         var data = ins.mark.tag;		
-        return out.withTag({wearableData: {type: 11 as byte, inventory: data.wearableData.inventory}});
+		if (!isNull(data.wearableData.inventory)) {
+            return out.withTag({wearableData: {type: 11 as byte, inventory: data.wearableData.inventory}});
+        } else {
+            return out.withTag({wearableData: {type: 11 as byte}});
+        }
     }
 
 );
@@ -137,9 +149,13 @@ recipes.addShaped(<adventurebackpack:adventureBackpack:62>, [
 [<minecraft:potion:8269>, <adventurebackpack:adventureBackpack>.onlyWithTag({wearableData: {type: 0 as byte}}).marked("mark"), <minecraft:potion:8269>],
 [<ore:blockWoolBlue>, <minecraft:dye>, <ore:blockWoolBlue>]],
 
-	function(out, ins, cInfo) {
+    function(out, ins, cInfo) {
         var data = ins.mark.tag;		
-        return out.withTag({wearableData: {type: 62 as byte, inventory: data.wearableData.inventory}});
+		if (!isNull(data.wearableData.inventory)) {
+            return out.withTag({wearableData: {type: 62 as byte, inventory: data.wearableData.inventory}});
+        } else {
+            return out.withTag({wearableData: {type: 62 as byte}});
+        }
     }
 
 );
