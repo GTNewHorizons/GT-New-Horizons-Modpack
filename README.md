@@ -235,7 +235,7 @@ you find it in your resource folder<BR>
 * Forge Microblocks 1.2.0.347<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
-* Gadomancy 1.0.8.0<BR>
+* Gadomancy 1.0.8.1<BR>
 * Galacticraft-Full 3.0.25-GTNH<BR>
 * GalactiGreg 1.0.3<BR>
 * Galaxy Space 1.1.7b-GTNH<BR>
@@ -280,7 +280,7 @@ you find it in your resource folder<BR>
 * Mouse Tweaks 2.4.4<BR>
 * Natura 2.4.1-dev<BR>
 * Natures Compass 1.3.1<BR>
-* NEI 2.0.6-GTNH<BR>
+* NEI 2.0.7-GTNH<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
 * Nodal Mechanics 1.1.4-GTNH<BR>
@@ -349,7 +349,7 @@ you find it in your resource folder<BR>
 * Warp Theory 1.1.0-GTNH<BR>
 * Wireless Redstone CBE 1.4.2-GTNH<BR>
 * Witchery 0.24.1<BR>
-* Witchery Extras 1.0.2<BR>
+* Witchery Extras 1.1.0<BR>
 * Witching Gadgets 1.2.13-GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
