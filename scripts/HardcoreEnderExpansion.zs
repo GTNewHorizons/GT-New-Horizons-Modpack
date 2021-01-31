@@ -472,7 +472,7 @@ Extractor.addRecipe(<minecraft:dye:14> * 4, <HardcoreEnderExpansion:crossed_deco
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:5839> * 2, <HardcoreEnderExpansion:sphalerite>, 4, 10);
 
 // --- Instabiliti Ore Block
-ForgeHammer.addRecipe(<HardcoreEnderExpansion:igneous_rock> * 6, <HardcoreEnderExpansion:instability_orb_ore>, 50, 120);
+ForgeHammer.addRecipe(<HardcoreEnderExpansion:instability_orb> * 6, <HardcoreEnderExpansion:instability_orb_ore>, 50, 120);
 
 
 // --- Lathe Recipes ---
