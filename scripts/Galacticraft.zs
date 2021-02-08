@@ -113,22 +113,22 @@ recipes.remove(<GalacticraftCore:tile.refinery>);
 // --- Fuel Loader
 recipes.remove(<GalacticraftCore:tile.fuelLoader>);
 
-// --- Saleable Oxygen Pipe
+// --- Sealeable Oxygen Pipe
 recipes.remove(<GalacticraftCore:tile.enclosed:1>);
 
-// --- Saleable Copper Cable
+// --- Sealeable Copper Cable
 recipes.remove(<GalacticraftCore:tile.enclosed:2>);
 
-// --- Saleable Gold Cable
+// --- Sealeable Gold Cable
 recipes.remove(<GalacticraftCore:tile.enclosed:3>);
 
-// --- Saleable HV Cable
+// --- Sealeable HV Cable
 recipes.remove(<GalacticraftCore:tile.enclosed:4>);
 
-// --- Saleable Glass Fibre Cable
+// --- Sealeable Glass Fibre Cable
 recipes.remove(<GalacticraftCore:tile.enclosed:5>);
 
-// --- Saleable Tin Cable
+// --- Sealeable Tin Cable
 recipes.remove(<GalacticraftCore:tile.enclosed:6>);
 
 // --- Fuel Loader
@@ -265,7 +265,7 @@ recipes.remove(<GalacticraftCore:item.steel_shovel>);
 // --- Heavy Duty Sword
 recipes.remove(<GalacticraftCore:item.steel_sword>);
 
-// --- Heavy Duty Helm
+// --- Heavy Duty Helmet
 recipes.remove(<GalacticraftCore:item.steel_helmet>);
 
 // --- Heavy Duty Chest Plate
@@ -319,7 +319,7 @@ recipes.remove(<GalacticraftCore:item.buggymat:1>);
 // --- Buggy Storage Box
 recipes.remove(<GalacticraftCore:item.buggymat:2>);
 
-// --- Standard Wrenche
+// --- Standard Wrench
 recipes.remove(<GalacticraftCore:item.standardWrench>);
 
 // --- Can of Food
@@ -331,7 +331,7 @@ recipes.remove(<GalacticraftCore:item.basicItem:17>);
 // -
 recipes.remove(<GalacticraftCore:item.basicItem:18>);
 
-// --- Frequencey Module
+// --- Frequency Module
 recipes.remove(<GalacticraftCore:item.basicItem:19>);
 
 // --- Battery
@@ -352,7 +352,7 @@ recipes.remove(<GalacticraftMars:item.titanium_shovel>);
 // --- Titanium Sword
 recipes.remove(<GalacticraftMars:item.titanium_sword>);
 
-// --- Titanium Helm
+// --- Titanium Helmet
 recipes.remove(<GalacticraftMars:item.titanium_helmet>);
 
 // --- Titanium Chest Plate
@@ -376,19 +376,19 @@ recipes.remove(<GalacticraftMars:item.null:1>);
 // --- Gas Liquifier
 recipes.remove(<GalacticraftMars:tile.marsMachineT2>);
 
-// --- Methan Synthezizerezizer
+// --- Methan Synthesizer
 recipes.remove(<GalacticraftMars:tile.marsMachineT2:4>);
 
 // --- Water Electrolyzer
 recipes.remove(<GalacticraftMars:tile.marsMachineT2:8>);
 
-// --- Walk Away
+// --- Walkway
 recipes.remove(<GalacticraftMars:tile.walkway>);
 
-// --- Walk Away Aluminium
+// --- Walkway Aluminium
 recipes.removeShaped(<GalacticraftMars:tile.walkwayWire>);
 
-// --- Walk Away Pipes
+// --- Walkway Pipes
 recipes.removeShaped(<GalacticraftMars:tile.walkwayOxygenPipe>);
 
 // --- Thermal Cloth
@@ -400,7 +400,7 @@ recipes.remove(<GalacticraftMars:item.atmosphericValve>);
 // --- Rocket Fins
 recipes.remove(<GalacticraftCore:item.rocketFins>);
 
-// --- Heavy Rocket Fines
+// --- Heavy Rocket Fins
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:2>);
 
 // --- Heavy Rocket Engine
@@ -517,7 +517,7 @@ furnace.remove(<*>, <GalacticraftMars:item.itemBasicAsteroids:4>);
 // --- Ilmenite Ore
 furnace.remove(<*>, <GalacticraftMars:tile.asteroidsBlock:4>);
 
-// --- Ambiete Thermal Controller
+// --- Ambient Thermal Controller
 recipes.remove(<GalacticraftCore:item.basicItem:20>);
 
 // --- Raw meteoric Iron
@@ -711,7 +711,7 @@ recipes.addShaped(<GalacticraftCore:tile.machineTiered:8>, [
 [<ore:cableGt02Gold>, <gregtech:gt.blockmachines:13>, <ore:cableGt02Gold>],
 [AdvWafer, <IC2:itemBatChargeAdv:32767>, AdvWafer]]);
 
-// --- Spin Truster
+// --- Spin Thruster
 recipes.addShaped(<GalacticraftCore:tile.spinThruster>, [
 [CompressedTi, CompressedTi, CompressedTi],
 [<GalacticraftCore:item.fuelCanisterPartial:1>, AdvWafer, <GalacticraftCore:item.fuelCanisterPartial:1>],
@@ -732,7 +732,7 @@ recipes.addShaped(<GalacticraftCore:tile.telemetry>, [
 // --- Arc Lamp
 recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
 [DeshPlate,DeshPlate,DeshPlate],
-[DeshPlate, <GalacticraftCore:item.battery:*>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, <gregtech:gt.metaitem.01:32500>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
 // --- Oxygen Gear
@@ -818,7 +818,7 @@ recipes.addShaped(<GalacticraftCore:item.steel_sword>, [
 [File, CompressedSteel, HHammer],
 [null, Stick, null]]);
 
-// --- Heavy Duty Helm
+// --- Heavy Duty Helmet
 recipes.addShaped(<GalacticraftCore:item.steel_helmet>, [
 [CompressedSteel, CompressedSteel, CompressedSteel],
 [CompressedSteel, HHammer, CompressedSteel],
@@ -1022,18 +1022,18 @@ recipes.addShaped(<GalacticraftCore:item.buggymat:2>, [
 [CompressedSteel, <IronChest:BlockIronChest>, CompressedSteel],
 [CompressedSteel, CompressedSteel, CompressedSteel]]);
 
-// --- Frequencey Module
+// --- Frequency Module
 recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
 [CompressedAl, <gregtech:gt.metaitem.01:32692>, CompressedAl],
 [BWafer, <gregtech:gt.metaitem.01:32740>, BWafer],
-[CompressedTin, <GalacticraftCore:item.battery>, CompressedTin]]);
+[CompressedTin, <gregtech:gt.metaitem.01:32500>, CompressedTin]]);
 // -
 recipes.addShaped(<GalacticraftCore:item.basicItem:19>, [
 [CompressedAl, <gregtech:gt.metaitem.01:32692>, CompressedAl],
 [BWafer, <gregtech:gt.metaitem.01:32740>, BWafer],
 [CompressedTin, <GalacticraftCore:item.battery:*>, CompressedTin]]);
 
-// --- Walk away
+// --- Walkway
 recipes.addShaped(<GalacticraftMars:tile.walkway> * 2, [
 [DeshPlate, DeshPlate, DeshPlate],
 [null, <ore:blockDesh>, null],
@@ -1048,7 +1048,7 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:23884>, [<GalacticraftMars:item.nu
 // --- Battery
 recipes.addShapeless(<GalacticraftCore:item.battery:*>, [<gregtech:gt.metaitem.01:32500>]);
 
-// --- Standard Wrenche
+// --- Standard Wrench
 recipes.addShaped(<GalacticraftCore:item.standardWrench>, [
 [<ore:plateSteel>, <ore:craftingToolSaw>, <ore:plateSteel>],
 [<ore:screwSteel>, <ore:stickSteel>, <ore:screwSteel>],
@@ -1132,7 +1132,7 @@ recipes.addShaped(<GalacticraftCore:item.canvas>,  [
 [<harvestcraft:wovencottonItem>, <ore:stickPlastic>, <harvestcraft:wovencottonItem>],
 [<ore:stickPlastic>, <harvestcraft:wovencottonItem>, null]]);
 
-// --- Ambiete Thermal Controller
+// --- Ambient Thermal Controller
 recipes.addShaped(<GalacticraftCore:item.basicItem:20>,  [
 [<ore:circuitAdvanced>, <GalacticraftCore:item.airVent>, <ore:circuitAdvanced>],
 [<GalacticraftCore:item.basicItem:10>, <GalacticraftCore:item.basicItem:9>, <GalacticraftCore:item.basicItem:10>],
@@ -1386,7 +1386,7 @@ Assembler.addRecipe(<GalacticraftCore:item.parachute>, <GalacticraftCore:item.ca
 
 
 
-// --- Titan Ingot
+// --- Titanium Ingot
 BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11028>], [<GalacticraftMars:item.itemBasicAsteroids:4> * 2], 1500, 120, 1500);
 
 // --- Raw meteoric Iron
