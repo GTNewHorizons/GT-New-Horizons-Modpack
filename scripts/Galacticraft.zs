@@ -701,15 +701,15 @@ recipes.addShaped(<GalacticraftCore:item.basicItem:1>, [
 
 // --- Energy Storage Module
 recipes.addShaped(<GalacticraftCore:tile.machineTiered>, [
-[CompressedSteel, <IC2:itemBatChargeRE:26>, CompressedSteel],
+[CompressedSteel, <IC2:itemBatChargeRE:32767>, CompressedSteel],
 [<ore:cableGt01AnyCopper>, <gregtech:gt.blockmachines:12>, <ore:cableGt01AnyCopper>],
-[BWafer, <IC2:itemBatChargeRE:26>, BWafer]]);
+[BWafer, <IC2:itemBatChargeRE:32767>, BWafer]]);
 
 // --- Energy Storage Cluster
 recipes.addShaped(<GalacticraftCore:tile.machineTiered:8>, [
-[CompressedTi, <IC2:itemBatChargeAdv:26>, CompressedTi],
+[CompressedTi, <IC2:itemBatChargeAdv:32767>, CompressedTi],
 [<ore:cableGt02Gold>, <gregtech:gt.blockmachines:13>, <ore:cableGt02Gold>],
-[AdvWafer, <IC2:itemBatChargeAdv:26>, AdvWafer]]);
+[AdvWafer, <IC2:itemBatChargeAdv:32767>, AdvWafer]]);
 
 // --- Spin Truster
 recipes.addShaped(<GalacticraftCore:tile.spinThruster>, [
@@ -1336,8 +1336,8 @@ ArcFurnace.addRecipe([<gregtech:gt.metaitem.01:32462> * 11, <gregtech:gt.metaite
 // --- Thermal Cloth
 Assembler.addRecipe(<GalacticraftMars:item.itemBasicAsteroids:7>, [<harvestcraft:wovencottonItem> * 8, <gregtech:gt.metaitem.01:29019> * 8, <dreamcraft:item.MeteoricIronString> * 8, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.silicone> * 144, 300, 480);
 
-// --- Glowstone Torch
-Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, <gregtech:gt.metaitem.01:23010>, <minecraft:glowstone_dust>, 100, 16);
+// --- Glowstone Torch (there's a 32x recipe somewhere else)
+Assembler.addRecipe(<GalacticraftCore:tile.glowstoneTorch>, [<gregtech:gt.metaitem.01:23010>, <minecraft:glowstone_dust>, <gregtech:gt.integrated_circuit:2> * 0], null, 100, 16);
 
 // --- Canister
 Assembler.addRecipe(<GalacticraftCore:item.oilCanisterPartial:1001>, <GalacticraftCore:item.basicItem:9> * 4, <gregtech:gt.metaitem.01:28305> * 4, 200, 64);
