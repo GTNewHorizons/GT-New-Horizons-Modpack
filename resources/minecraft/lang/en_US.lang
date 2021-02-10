@@ -154,7 +154,7 @@ gtnh.quest37.desc=Iron can be found in multiple veins. %nMagnetite veins (y 30-1
 
 # Quest.38 - §2§lMaking better tools
 gtnh.quest38.name=§2§lMaking better tools
-gtnh.quest38.desc=With aluminium and copper, you can create a pretty durable material "Aluminum Brass", which can be used to cast better tools. These can be used to mine some more advanced ores.%n%nBut first you need a smeltery. See the Multiblock Goals chapter in this book, or find smeltery blocks in a village nearby.
+gtnh.quest38.desc=With aluminium and copper, you can create a material with a higher melting temperature, "Aluminum Brass", which can be used to cast better tools.%n%nBut first you'll need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nYou can then use your fancy new bronze to make better tools. Note that it has a higher mining level than iron, so you'll need it for mining some ores.
 
 # Quest.39 - §2§lBetter storage
 gtnh.quest39.name=§2§lBetter storage
@@ -1188,9 +1188,9 @@ gtnh.quest295.desc=Sure, you could just go with gazillions of jars, but it's way
 gtnh.quest296.name=The basic elements
 gtnh.quest296.desc=Of course you know where and how to get the basic essentia types. Do you..?
 
-# Quest.297 - Essentia transmission
-gtnh.quest297.name=Essentia transmission
-gtnh.quest297.desc=What if... you could send essentia from a different location to your infusion matrix? You could finally get rid of all those jars around your altar. Also, there might be an additional use for those mirrors.%n%nYou have an intuition that a more energetic metal would allow for very interesting uses.
+# Quest.297 - Magical Item Teleportation
+gtnh.quest297.name=Magical Item Teleportation
+gtnh.quest297.desc=It's annoying to do, but you can teleport items with this. Check the thaumonomicon for details.
 
 # Quest.298 - (Almost) automated essentia
 gtnh.quest298.name=(Almost) automated essentia
@@ -1202,7 +1202,7 @@ gtnh.quest299.desc=Manually checking your jars can be tedious, especially if you
 
 # Quest.300 - Cleaning the goo
 gtnh.quest300.name=Cleaning the goo
-gtnh.quest300.desc=As you do more and more infusions, you're getting tired of removing all the flux that's generated. The shovel of the purifier will help you cleaning up flux, and is a must-have.
+gtnh.quest300.desc=As you do more and more infusions, you're getting tired of removing all the flux that's generated. The shovel of the purifier will help you cleaning up flux, and is a must-have.%n%n§3Actually this is pretty useless, if you have any concept of what you're doing.
 
 # Quest.301 - One does not simply...
 gtnh.quest301.name=One does not simply...
@@ -1890,11 +1890,11 @@ gtnh.quest471.desc=Maybe you noticed already that eating the same food too often
 
 # Quest.472 - §2§lYour first tool
 gtnh.quest472.name=§2§lYour first tool
-gtnh.quest472.desc=When your tinkers tables are ready you can craft your first tool. If you did not find a village yet you can only craft flint tools. Let's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords. Your new tools are weak at first but the more you use them the better they will get. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.
+gtnh.quest472.desc=When your tinkers tables are ready you can craft your first tool. If you didn't find a village yet (to grab some parts from the chest), you can only craft flint tools.%n%nLet's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.%n%nYour new tools are weak at first but the more you use them the better they will get. You get a modifer slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%nPS: Don
 
 # Quest.473 - §2§lMaking a better sword
 gtnh.quest473.name=§2§lMaking a better sword
-gtnh.quest473.desc=Now it's time to make your first tinkers sword. First you have to make blade, hand guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword.
+gtnh.quest473.desc=Now it's time to make your first tinkers sword. First you have to make blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
 
 # Quest.474 - §2§k§l§l§r§2§lUpgrade 2.0
 gtnh.quest474.name=§2§k§l§l§r§2§lUpgrade 2.0
@@ -1922,7 +1922,7 @@ gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fu
 
 # Quest.480 - §2§lMalachite
 gtnh.quest480.name=§2§lMalachite
-gtnh.quest480.desc=Another copper source  is "malachite" which can be found between Y level 10 and 40. This vein contains more iron ore variants like "brown limonite", "yellow limonite" and "banded iron ore".%n%n§4Hint:%nTo see where a special ore can be found click the raw ore in nei and it will show you more details. Works with small ores too.
+gtnh.quest480.desc=Another copper source is "malachite" which can be found between Y level 10 and 40. This vein contains more iron ore variants like "brown limonite", "yellow limonite" and "banded iron ore".%n%n§4Hint:%nTo see where a special ore can be found click the raw ore in nei and it will show you more details. Works with small ores too.
 
 # Quest.481 - §l§2§lCreosote oil
 gtnh.quest481.name=§l§2§lCreosote oil
@@ -2774,7 +2774,7 @@ gtnh.quest692.desc=Combining the strength of advanced alloy plates with the stee
 
 # Quest.693 - §2§lFallen from the sky
 gtnh.quest693.name=§2§lFallen from the sky
-gtnh.quest693.desc=There are big meteors everywhere and you are wondering why you need to mine them now?%nSkystone is a good source of rare earth metals in the LV age. %nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important. Plus the chest is nice, and can be placed underneath blocks and still opened.%n%nHint: If your all your surface meteors have been raided, put some skystone in your orefinder to find underground ones.  Often there is a second meteor right next to the one on the surface!
+gtnh.quest693.desc=There are big meteors everywhere and you are wondering why you need to mine them now? §3Honestly so am I.§r%n%nSkystone is a good source of rare earth metals in the LV age. %n%nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important. Plus the chest is nice, and can be placed underneath blocks and still opened.%n%nHint: If your all your surface meteors have been raided, put some skystone in your orefinder to find underground ones.  Often there is a second meteor right next to the one on the surface!
 
 # Quest.694 - §3§lOne Anvil... Better make that two!
 gtnh.quest694.name=§3§lOne Anvil... Better make that two!
@@ -2946,7 +2946,7 @@ gtnh.quest735.desc=If you are lucky and find some brewing stands or familiar eno
 
 # Quest.736 - §6§lFermented Biomass
 gtnh.quest736.name=§6§lFermented Biomass
-gtnh.quest736.desc=No Description
+gtnh.quest736.desc=Processing your biomass to get more products out of it like methanol, ethanol, bio gas.
 
 # Quest.737 - Can u eat those?  (hidden)
 gtnh.quest737.name=Can u eat those?  (hidden)
@@ -3298,7 +3298,7 @@ gtnh.quest823.desc=The oxygen mask is part of the system used to breathe on plan
 
 # Quest.824 - Oxygen Tanks
 gtnh.quest824.name=Oxygen Tanks
-gtnh.quest824.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 1000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
+gtnh.quest824.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 1000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks include the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
 
 # Quest.825 - §2§lCopper Ore
 gtnh.quest825.name=§2§lCopper Ore
@@ -4626,7 +4626,7 @@ gtnh.quest1155.desc=To get your molten fluids back to a solid state you need a f
 
 # Quest.1156 - §3§lWooden Bolts
 gtnh.quest1156.name=§3§lWooden Bolts
-gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, alumite, or steel on the tip of your bolts using the Smeltery.  For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.%n%n§4For upgrades%n§3Nether Quartz - More damage%nMoss - Self-Repair (unlock in GTNH Thaumcraft tab)
+gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, alumite, or steel on the tip of your bolts using the Smeltery.  For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.%n%n§4For upgrades%n§3Nether Quartz - More damage%nMoss - Self-Repair (unlock in GTNH Thaumcraft tab)%n%nNote that upgrading bolts is broken (doesn't update stats correctly), craft new ones if you want better ones.
 
 # Quest.1157 - §3§lRubber Soft Mallet
 gtnh.quest1157.name=§3§lRubber Soft Mallet
@@ -5082,7 +5082,7 @@ gtnh.quest1269.desc=If you need even more amps then craft a power tranformer wit
 
 # Quest.1270 - Time for a Spade
 gtnh.quest1270.name=Time for a Spade
-gtnh.quest1270.desc=This item is a combined Weeding Trowel, Hoe and Shovel. If you are the type that accidentally does things, only use this when necessary, as it's easy to mess up and use it to harvest your crops when you wanted to get rid of a weed. What? That's what it's supposed to do? Of course, but at truly §5abysmal§r drop rates. Ie: §4Don't use it!§r%n%nHowever, you can right click to get seeds at the initial maturity state, so if oyu can't grow it to maturity, or want to get a crop immediately, use away. Keep in mind that the higher the tier/stats of the crop, the lower the chances. By a lot.%n%n§3The formula is 1+tanh((-1)(X+5((-Re/2)+Gr+Ga)/21)/12); X=0 to 16%n%nWhere Re, Gr, Ga are respectively Resistance, Growth and Gain stat of the crop, and X is tier.
+gtnh.quest1270.desc=This item is a combined Weeding Trowel, Hoe and Shovel. If you are the type that accidentally does things, only use this when necessary, as it's easy to mess up and use it to harvest your crops when you wanted to get rid of a weed. What? That's what it's supposed to do? Of course, but at truly §5abysmal§r drop rates. Ie: §4Don't use it!§r%n%nHowever, you can right click to get seeds at the initial maturity state, so if you can't grow it to maturity, or want to get a crop immediately, use away. Keep in mind that the higher the tier/stats of the crop, the lower the chances. By a lot.%n%n§3The formula is 1+tanh((-1)(X+5((-Re/2)+Gr+Ga)/21)/12); X=0 to 16%n%nWhere Re, Gr, Ga are respectively Resistance, Growth and Gain stat of the crop, and X is tier.
 
 # Quest.1271 - §9§lExtruder HV
 gtnh.quest1271.name=§9§lExtruder HV
@@ -5642,7 +5642,7 @@ gtnh.quest1409.desc=How about lossless 8192 EU Wires? Vanadiumtriindinide is a s
 
 # Quest.1410 - §b§lIV Mixer
 gtnh.quest1410.name=§b§lIV Mixer
-gtnh.quest1410.desc=An IV mixer is required to mix Niobium-Titanium and Vanadium-Gallium dust. You need both to progress.%n%n§3...Who thought of these lazy-ass names? Well, at least you can tell what they're made of.
+gtnh.quest1410.desc=An IV mixer is required to mix HSS-G dust, so you can get new coils.
 
 # Quest.1411 - §9§lSome rare high tier metals
 gtnh.quest1411.name=§9§lSome rare high tier metals
@@ -5750,7 +5750,7 @@ gtnh.quest1436.desc=The moon buggy needs gasoline to work. Build a 3x3 fueling p
 
 # Quest.1437 - Bigger Oxygen Tanks
 gtnh.quest1437.name=Bigger Oxygen Tanks
-gtnh.quest1437.desc=The Medium oxygen tank is an oxygen storage tank that can hold up to 2000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
+gtnh.quest1437.desc=The Medium oxygen tank is an oxygen storage tank that can hold up to 2000 units of air.
 
 # Quest.1438 - ME glass cable
 gtnh.quest1438.name=ME glass cable
@@ -5874,7 +5874,7 @@ gtnh.quest1467.desc=The Oxygen Sealer is a machine that fills a room with oxygen
 
 # Quest.1468 - Large Oxygen Tanks
 gtnh.quest1468.name=Large Oxygen Tanks
-gtnh.quest1468.desc=The Large oxygen tank is an oxygen storage tank that can hold up to 3000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+gtnh.quest1468.desc=The Heavy oxygen tank is an oxygen storage tank that can hold up to 3000 units of air.
 
 # Quest.1469 - Bacterial Sludge
 gtnh.quest1469.name=Bacterial Sludge
@@ -5986,7 +5986,7 @@ gtnh.quest1495.desc=If you are playing single player survival, updates mean havi
 
 # Quest.1496 - §2§lHow the heck do I find ores?
 gtnh.quest1496.name=§2§lHow the heck do I find ores?
-gtnh.quest1496.desc=GregTech ore generation is based on veins. Veins are centered on orecenters, based on the chunk number. To find the chunk number, hit F3. In the X and Z lines you will see numbers like%nc: 3 (14)%nc: -2 (1)%n%nThe 3,-2 is the chunk's address. Ignore the negative sign.  Now, the orecenters are located at 3N+1 chunks.  So, 4,7 is an orecenter. 10,16. -22,19.  Etc. %n%nProtip: to find out if a number is divisible by 3, add the digits and see if the sum is divisible by 3.  So 86 = 8+6 = 14. So you need to go down 1 chunk or up 2 chunks so that you are on a 3N+1 chunk.%n%nFor reading all the way, I'll give you an ingot of iron.
+gtnh.quest1496.desc=GregTech ore generation is based on veins. Veins are centered on orecenters, based on the chunk number. To find the chunk number, hit F3. In the X and Z lines you will see numbers like%nc: 3 (14)%nc: -2 (1)%n%nThe 3,-2 is the chunk's address. Ignore the negative sign.  Now, the orecenters are located at 3N+1 chunks.  So, 4,7 is an orecenter. 10,16. -22,19.  Etc. %n%nProtip: to find out if a number is divisible by 3, add the digits and see if the sum is divisible by 3.  So 86 = 8+6 = 14. So you need to go down 1 chunk or up 2 chunks so that you are on a 3N+1 chunk.%n%nFor reading all the way, I'll give you an ingot of iron.%n%n§3They have nothing to do with biomes, ok?
 
 # Quest.1497 - §2§lDigging deeper
 gtnh.quest1497.name=§2§lDigging deeper
@@ -7614,7 +7614,7 @@ gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to 
 
 # Quest.1903 - §9§e§9§lHV Energy Hatch
 gtnh.quest1903.name=§9§e§9§lHV Energy Hatch
-gtnh.quest1903.desc=The HV energy hatch is crucial to a fast EBF that can do high tier recipes. You will need to make He coolant cells or NaK coolant cells. Follow NEI to figure out how.
+gtnh.quest1903.desc=The HV energy hatch is crucial to a fast EBF that can do high tier recipes. You will need to make He coolant cells or NaK coolant cells. You'll need a fluid canner to make them. Follow NEI to figure out how to make them, and the rest. Note that you'll need a cleanroom, vacuum freezer, and new coils.
 
 # Quest.1904 - §6§lHelium is not just for balloons
 gtnh.quest1904.name=§6§lHelium is not just for balloons
@@ -8842,7 +8842,7 @@ gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees yo
 
 # Quest.2210 - §a§lDealing with Radiation
 gtnh.quest2210.name=§a§lDealing with Radiation
-gtnh.quest2210.desc=Nuclear materials cause two types of radiation effects. One is a large number of standard debuffs. These can be removed the normal ways, with milk or terra wart or other methods that imitate them. %n%nThe other effect is a special Radiation  unique debuff.  This gets applied the longer you hold onto the radioactive item. Severely radioactive items can apply minutes of this deadly debuff. Regeneration might delay the inevitable death, but most regneration sources aren't fast enough or long enough to keep you alive. You can try using an Amulet of Remedium to get rid of the effects. You should have one from your Moon trip, if not you'll have to dive into Thaumcraft to make one.
+gtnh.quest2210.desc=Nuclear materials cause two types of radiation effects. One is a large number of standard debuffs. These can be removed the normal ways, with milk or terra wart or other methods that imitate them. %n%nThe other effect is a special Radiation  unique debuff.  This gets applied the longer you hold onto the radioactive item. Severely radioactive items can apply minutes of this deadly debuff. Regeneration might delay the inevitable death, but most regeneration sources aren't fast enough or long enough to keep you alive. You can try using an Amulet of Remedium to get rid of the effects. You should have one from your Moon trip, if not you'll have to dive into Thaumcraft to make one.
 
 # Quest.2211 - Basic Bee Stats
 gtnh.quest2211.name=Basic Bee Stats
@@ -10894,11 +10894,11 @@ gtnh.quest2722.desc=The Remote IO Water Reservoir works like the Everfull Urn in
 
 # Quest.2723 - Super Large Oxygen Tanks
 gtnh.quest2723.name=Super Large Oxygen Tanks
-gtnh.quest2723.desc=The Super Large oxygen tank is an oxygen storage tank that can hold up to 4000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+gtnh.quest2723.desc=The Super Heavy oxygen tank is an oxygen storage tank that can hold up to 4000 units of air.
 
 # Quest.2724 - Ultra Large Oxygen Tanks
 gtnh.quest2724.name=Ultra Large Oxygen Tanks
-gtnh.quest2724.desc=The Super Large oxygen tank is an oxygen storage tank that can hold up to 5000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+gtnh.quest2724.desc=The Ultra Heavy oxygen tank is an oxygen storage tank that can hold up to 5000 units of air.
 
 # Quest.2725 - Barley time
 gtnh.quest2725.name=Barley time
@@ -11419,6 +11419,18 @@ gtnh.quest2853.desc=They are highly explosive and make holes much larger than re
 # Quest.2854 - Time to kill (IMP)
 gtnh.quest2854.name=Time to kill (IMP)
 gtnh.quest2854.desc=Imps are little orange creatures who run through the whole nether. They are peaceful and they won't attack you either. %nKill a few to get their leather and build fireproof armor.
+
+# Quest.2855 - Essentia transmission
+gtnh.quest2855.name=Essentia transmission
+gtnh.quest2855.desc=What if... you could send essentia from a different location to your infusion matrix? You could finally get rid of all those jars around your altar.
+
+# Quest.2856 - §6§lRotate your Multiblock
+gtnh.quest2856.name=§6§lRotate your Multiblock
+gtnh.quest2856.desc=Multiblock Controllers can now rotated with the "Front Rotation Screwdriver".%nIt is possible to build an Electric Blast furnace laying on the side.%nSame for the Vacuum Freezer and other GT Multiblocks.%n%nClick on the Control Block with the Blueprint to shows up the buildstructure.
+
+# Quest.2857 - Magic Mirror Glass?
+gtnh.quest2857.name=Magic Mirror Glass?
+gtnh.quest2857.desc=This glass seems useful for several things, including, perhaps, teleportation of items or essentia?
 
 ##################################Line##################################
 

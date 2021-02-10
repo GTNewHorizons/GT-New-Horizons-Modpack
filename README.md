@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.2c is out 09.01.2021
+Version 2.1.0.3 is out 30.01.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -178,14 +178,14 @@ you find it in your resource folder<BR>
 * AFSU 1.2.3.a<BR>
 * Anger Mod 0.6.1<BR>
 * AppleCore 1.3.9<BR>
-* Applied Energistics rv3-beta-39-GTNH<BR>
+* Applied Energistics rv3-beta-40-GTNH<BR>
 * Architecture Craft 1.7.4-GTNH<BR>
 * Aroma Backup 0.1.0.0<BR>
 * Automagy 0.28.2<BR>
 * Avaritia 1.18<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.14<BR>
+* Bartworks 0.5.15<BR>
 * Baubles 1.0.1.12<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -199,7 +199,7 @@ you find it in your resource folder<BR>
 * BlockLimiter 0.52<BR>
 * Blood Arsenal 1.2.1-11<BR>
 * BloodMagic 1.3.3.43<BR>
-* Bug Torch 1.0.2<BR>
+* Bug Torch 1.0.3<BR>
 * Buildcraft 7.1.23<BR>
 * Buildcraft Compat 7.1.7<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
@@ -218,7 +218,7 @@ you find it in your resource folder<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2r<BR>
 * Electro Magic Tools 1.2.8.0<BR>
-* Ender IO 2.3.1.15_beta.20<BR>
+* Ender IO 2.3.1.16_beta.30<BR>
 * Ender Storage 1.4.8.28<BR>
 * Ender Zoo 1.0.18.3<BR>
 * Enhanced Loot Bags 1.0.4<BR>
@@ -230,28 +230,28 @@ you find it in your resource folder<BR>
 * Find It 1.0.1<BR>
 * Flood Light 1.2.8.137<BR>
 * Forbidden Magic 0.575<BR>
-* Forestry 4.3.0.40<BR>
+* Forestry 4.3.1.43<BR>
 * Forgelin 1.8.4-GTNH<BR>
 * Forge Microblocks 1.2.0.347<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
-* Gadomancy 1.0.8.0<BR>
-* Galacticraft-Full 3.0.23-GTNH<BR>
+* Gadomancy 1.0.8.1<BR>
+* Galacticraft-Full 3.0.25-GTNH<BR>
 * GalactiGreg 1.0.3<BR>
 * Galaxy Space 1.1.7b-GTNH<BR>
 * Gendustry 1.6.4.135a<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.34.06<BR>
-* GT Scanner Mod 1.5.9<BR>
+* Gregtech 5.09.34.11<BR>
+* GT Scanner Mod 1.6.0<BR>
 * GT Ore Nei Plugin 1.0.8<BR>
-* GT New Horizons Core Mod 1.7.05<BR>
+* GT New Horizons Core Mod 1.7.08<BR>
 * GT++ 1.7.05.68<BR>
 * GTNH TC Wands 1.2.1<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
 * Hardcore Ender Expansion 1.8.7<BR>
 * Help Fixer 1.0.7<BR>
-* Hodgepodge 1.4.4<BR>
+* Hodgepodge 1.4.5<BR>
 * Holo Inventory 2.1.5-beta<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
@@ -269,7 +269,8 @@ you find it in your resource folder<BR>
 * Jabba 1.2.7<BR>
 * JourneyMap 5.1.4p2<BR>
 * Kekztech 0.5.3<BR>
-* Lootgames 1.0.19<BR>
+* Logistic Pipes 0.9.45-GTNH
+* Lootgames 1.0.20<BR>
 * Magic Bees 2.5.5-GTNH<BR>
 * Malisis Doors 1.13.2<BR>
 * Mine and Blade Battlegear 1.1.1.4-GTNH<BR>
@@ -279,13 +280,13 @@ you find it in your resource folder<BR>
 * Mouse Tweaks 2.4.4<BR>
 * Natura 2.4.1-dev<BR>
 * Natures Compass 1.3.1<BR>
-* NEI 2.0.6-GTNH<BR>
+* NEI 2.0.7-GTNH<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
 * Nodal Mechanics 1.1.4-GTNH<BR>
 * Not Enough Thaumcraft Tabs 1.1.0<BR>
 * Open Blocks 1.6.3-snapshot6<BR>
-* Open Computers 1.7.5.8.24<BR>
+* Open Computers 1.7.5.10.28<BR>
 * Open Modular Turrets 2.2.11.245<BR>
 * Open Glasses 1.1-GTNH
 * Open Printers 0.1.0.132<BR>
@@ -318,20 +319,20 @@ you find it in your resource folder<BR>
 * Super Tic 1.2.1<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 4.10.3<BR>
+* Tec Tech 4.10.4<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * Thaumcraft-NEI-Additions 1.1.0.1<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
 * Thaumic Bases 1.4.22.0<BR>
-* Thaumic Energistics 1.1.3.9<BR>
+* Thaumic Energistics 1.1.3.10<BR>
 * Thaumic Exploration 1.1.76<BR>
-* Thaumic Horizon 1.2.0.1<BR>
+* Thaumic Horizon 1.2.0.2<BR>
 * Thaumic Machina 0.2.1<BR>
 * Thaumic Tinkerer 2.5.557-GTNH<BR>
 * TiCTooltips 1.2.5<BR>
 * Tinker's Construct 1.9.0.0.Build-6-GTNH<BR>
-* Tinker's Gregworks 1.0.18<BR>
+* Tinker's Gregworks 1.0.19-GTNH<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks 0.2.16.1<BR>
 * Too Much Loot 4.0.3.B2<BR>
@@ -348,7 +349,7 @@ you find it in your resource folder<BR>
 * Warp Theory 1.1.0-GTNH<BR>
 * Wireless Redstone CBE 1.4.2-GTNH<BR>
 * Witchery 0.24.1<BR>
-* Witchery Extras 1.0.2<BR>
+* Witchery Extras 1.1.0<BR>
 * Witching Gadgets 1.2.13-GTNH<BR>
 * Ztones 2.2.2custom<BR>
 
@@ -371,7 +372,7 @@ you find it in your resource folder<BR>
 * Open Mods Lib 0.10.1<BR>
 * p455w0rdslib 1.0.4<BR>
 * Player api 1.4<BR>
-* Sponge Mixins 1.2.0<BR>
+* Sponge Mixins 1.3.0<BR>
 * Wanion Lib 1.8<BR>
 * YamCore 0.5.78<BR>
 

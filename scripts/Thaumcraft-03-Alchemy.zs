@@ -387,7 +387,9 @@ mods.thaumcraft.Warp.addToItem(<Thaumcraft:ItemBottleTaint>, 1);
 // --- Thaumium
 mods.thaumcraft.Crucible.addRecipe("THAUMIUM", <Thaumcraft:ItemResource:2>, <minecraft:iron_ingot>, "praecantatio 4");
 
-
+// --- Amber (gem)
+mods.thaumcraft.Crucible.addRecipe("GT_CRYSTALLISATION", <Thaumcraft:ItemResource:6>, <ore:dustAmber>, "vitreus 4");
+// (research already defined at GT side)
 
 
 
