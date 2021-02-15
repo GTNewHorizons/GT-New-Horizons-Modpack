@@ -12,6 +12,17 @@
 // --- Shadow Metal
 mods.thaumcraft.Crucible.removeRecipe(<TaintedMagic:BlockShadowOre>);
 
+// --- Shadow Tools
+recipes.remove(<TaintedMagic:ItemShadowmetalHoe>);
+// -
+recipes.remove(<TaintedMagic:ItemShadowmetalPick>);
+// -
+recipes.remove(<TaintedMagic:ItemShadowmetalAxe>);
+// -
+recipes.remove(<TaintedMagic:ItemShadowmetalSpade>);
+// -
+recipes.remove(<TaintedMagic:ItemShadowmetalSword>);
+
 // --- Warped Shards
 mods.thaumcraft.Crucible.removeRecipe(<TaintedMagic:ItemMaterial:3>);
 
@@ -155,6 +166,7 @@ mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemWandCap>);
 
 
 
+
 // --- Add Recipes ---
 
 
@@ -170,11 +182,42 @@ game.setLocalization("tc.research_text.ShadowmetalGTNH", "I have seen the truth"
 mods.thaumcraft.Research.addPage("ShadowmetalGTNH", "tm.text.SHADOWMETAL.1");
 mods.thaumcraft.Crucible.addRecipe("ShadowmetalGTNH", <TaintedMagic:BlockShadowOre>, <minecraft:stone>, "tenebrae 6, praecantatio 8, metallum 8, vacuos 4");
 mods.thaumcraft.Research.addCruciblePage("ShadowmetalGTNH", <TaintedMagic:BlockShadowOre>);
-mods.thaumcraft.Research.addCraftingPage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalHoe>);
-mods.thaumcraft.Research.addCraftingPage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalPick>);
-mods.thaumcraft.Research.addCraftingPage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalAxe>);
-mods.thaumcraft.Research.addCraftingPage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalSpade>);
 mods.thaumcraft.Warp.addToResearch("ShadowmetalGTNH", 2);
+
+// --- Shadow Metal Hoe
+mods.thaumcraft.Arcane.addShaped("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalHoe>, "perditio 45, terra 30", [
+[<gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:11368>, <ore:craftingToolHardHammer>],
+[<ore:craftingToolFile>, <ore:stickWood>, null],
+[null, <ore:stickWood>, null]]);
+mods.thaumcraft.Research.addArcanePage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalHoe>);
+
+// --- Shadow Metal Pick
+mods.thaumcraft.Arcane.addShaped("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalPick>, "perditio 45, terra 30", [
+[<gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:11368>, <gregtech:gt.metaitem.01:11368>],
+[<ore:craftingToolFile>, <ore:stickWood>, <ore:craftingToolHardHammer>],
+[null, <ore:stickWood>, null]]);
+mods.thaumcraft.Research.addArcanePage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalPick>);
+
+// --- Shadow Metal Axe
+mods.thaumcraft.Arcane.addShaped("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalAxe>, "perditio 45, terra 30", [
+[<gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:11368>, <ore:craftingToolHardHammer>],
+[<gregtech:gt.metaitem.01:17368>, <ore:stickWood>, null],
+[<ore:craftingToolFile>, <ore:stickWood>, null]]);
+mods.thaumcraft.Research.addArcanePage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalAxe>);
+
+// --- Shadow Metal Spade
+mods.thaumcraft.Arcane.addShaped("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalSpade>, "perditio 45, terra 30", [
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:11368>, <ore:craftingToolHardHammer>],
+[null, <ore:stickWood>, null],
+[null, <ore:stickWood>, null]]);
+mods.thaumcraft.Research.addArcanePage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalSpade>);
+
+// --- Shadow Metal Sword
+mods.thaumcraft.Arcane.addShaped("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalSword>, "perditio 45, terra 30", [
+[null, <gregtech:gt.metaitem.01:17368>, null],
+[<ore:craftingToolFile>, <gregtech:gt.metaitem.01:17368>, <ore:craftingToolHardHammer>],
+[null, <ore:stickWood>, null]]);
+mods.thaumcraft.Research.addArcanePage("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalSword>);
 
 // --- Unbalanced Shards
 mods.thaumcraft.Research.orphanResearch("EVILSHARDS");
@@ -270,7 +313,7 @@ game.setLocalization("tc.research_name.MaceFocusGTNH", "Wand Focus: Mage's Mace"
 game.setLocalization("tc.research_text.MaceFocusGTNH", "Yes, just hit them with your staff");
 mods.thaumcraft.Research.addPage("MaceFocusGTNH", "tm.text.MACEFOCUS.1");
 mods.thaumcraft.Infusion.addRecipe("MaceFocusGTNH", <TaintedMagic:ItemShadowmetalSword>,
-[<TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:27368>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:23368>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:23368>, <gregtech:gt.metaitem.01:17522>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:27368>], 
+[<gregtech:gt.blockmetal8:15>, <gregtech:gt.metaitem.01:27368>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:23368>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:23368>, <gregtech:gt.metaitem.01:17522>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:27368>], 
 "metallum 16, perditio 32, praecantatio 48, telum 64, cognitio 8", <TaintedMagic:ItemFocusMageMace>, 9);
 mods.thaumcraft.Research.addInfusionPage("MaceFocusGTNH", <TaintedMagic:ItemFocusMageMace>);
 mods.thaumcraft.Warp.addToResearch("MaceFocusGTNH", 1);
@@ -649,20 +692,20 @@ game.setLocalization("tc.research_name.ShadowFortressArmorGTNH", "Shadow Fortres
 game.setLocalization("tc.research_text.ShadowFortressArmorGTNH", "If you wear robes, you are weak");
 mods.thaumcraft.Research.addPage("ShadowFortressArmorGTNH", "tm.text.SHADOWFORTRESSARMOR.1");
 mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressHelmet>,
-[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:17323>], 
+[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17323>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.metaitem.01:17323>], 
 "alienis 48, metallum 64, praecantatio 64, tutamen 64, vacuos 48, tenebrae 32, potentia 32, victus 48", <TaintedMagic:ItemShadowFortressHelmet>, 16);
 mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressHelmet>);
 mods.thaumcraft.Warp.addToResearch("ShadowFortressArmorGTNH", 10);
 
 // --- Shadow Fortress Cuirass
 mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressChestplate>,
-[<TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>], 
+[<gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>], 
 "alienis 48, metallum 84, praecantatio 84, tutamen 84, vacuos 48, tenebrae 32, potentia 32, cognitio 48", <TaintedMagic:ItemShadowFortressChestplate>, 16);
 mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressChestplate>);
 
 // --- Shadow Tight Guards
 mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressLeggings>,
-[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:17323>], 
+[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17323>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.metaitem.01:17323>], 
 "alienis 48, metallum 48, praecantatio 48, tutamen 48, vacuos 32, tenebrae 32, potentia 32, terra 48", <TaintedMagic:ItemShadowFortressLeggings>, 16);
 mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressLeggings>);
 
