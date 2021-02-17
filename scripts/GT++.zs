@@ -233,4 +233,4 @@ Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium
 
 
 // --- Fluorite Dust ---
-ChemicalReactor.addRecipe(<miscutils:itemDustFluorite>, <gregtech:gt.metaitem.01:2823> * 4, <gregtech:gt.integrated_circuit:2> * 0, 600, 120);
+ChemicalReactor.addRecipe(<miscutils:itemDustFluorite>, <gregtech:gt.metaitem.01:2823> * 4, <gregtech:gt.integrated_circuit:2> * 0, 600);
