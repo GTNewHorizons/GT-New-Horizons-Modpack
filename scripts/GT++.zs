@@ -7,6 +7,8 @@
 
 import mods.gregtech.Assembler;
 
+import mods.gregtech.ChemicalReactor;
+
 
 
 
@@ -221,3 +223,14 @@ recipes.addShaped(<miscutils:itemBoilerChassis:2>, [
 
 // --- Personla Cloaking Device
 Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium> * 4, <gregtech:gt.metaitem.01:32597>, <liquid:molten.nichrome> * 1440, 2400, 7860);
+
+
+
+
+
+// --- Chemical Reactor Recipes ---
+
+
+
+// --- Fluorite Dust ---
+ChemicalReactor.addRecipe(<miscutils:itemDustFluorite>, <gregtech:gt.metaitem.01:2823> * 4, <gregtech:gt.integrated_circuit:2> * 0, 600, 120)
