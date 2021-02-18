@@ -366,7 +366,8 @@ Crucible.addRecipe("TB.SM", <Thaumcraft:ItemResource:14> * 2, <Thaumcraft:ItemRe
 // --- Amber
 Crucible.addRecipe("TB.Amber", <Thaumcraft:ItemResource:6>, <minecraft:sapling:1>, "vinculum 4");
 
-
+// --- Quicksilver
+Crucible.addRecipe("TB.Quicksilver", <Thaumcraft:ItemResource:3>, <Thaumcraft:blockMagicalLog:1>, "ordo 1, venenum 1");
 
 // --- Deco Blocks
 CuttingSaw.addRecipe([<thaumicbases:genericSlab:0> * 2], <thaumicbases:eldritchArk>, <liquid:water> * 32, 200, 30);
