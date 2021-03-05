@@ -464,11 +464,11 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk5>, [<LogisticsPip
 // --- Logistics Chassi MK2
 Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk2>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateDarkSteel> * 4, <ore:chestIron>, <ore:circuitBasic>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 // --- Logistics Chassi MK3
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateRoseGold> * 4, <ore:chestSteel>, <ore:circuitAdvanced>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk3>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateRoseGold> * 4, <ore:chestSteel>, <ore:circuitGood>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 // --- Logistics Chassi MK4
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk4>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateRedSteel> * 4, <ore:chestGold>, <ore:circuitElite>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk4>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateRedSteel> * 4, <ore:chestGold>, <ore:circuitAdvanced>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 // --- Logistics Chassi MK5
-Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk5>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateTitanium> * 2, <ore:plateNetherStar> * 2, <ore:chestDiamond>, <ore:circuitData>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk5>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateTitanium> * 2, <ore:plateNetherStar> * 2, <ore:chestDiamond>, <ore:circuitElite>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 
 
 // LV
