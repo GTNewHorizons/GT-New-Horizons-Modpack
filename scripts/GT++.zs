@@ -163,11 +163,23 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 // --- Useless Frame give Beekeeper coins
 recipes.addShapeless(<dreamcraft:item.CoinBeesI> * 16, [<miscutils:frameUseless>]);
 
+// --- Tumbaga Rod (until GT++ adds a proper recipe)
+recipes.addShaped(<miscutils:itemRodTumbaga>, [
+[<ore:craftingToolFile>, null, null],
+[null, <miscutils:itemIngotTumbaga>, null],
+[null, null, null]]);
+
 // --- Tumbaga Frame (until GT++ adds a proper recipe)
 recipes.addShaped(<miscutils:blockFrameGtTumbaga> * 2, [
 [<miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>],
 [<miscutils:itemRodTumbaga>, <ore:craftingToolWrench>, <miscutils:itemRodTumbaga>],
 [<miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>]]);
+
+// --- Tumbaga Gear (until GT++ adds a proper recipe)
+recipes.addShaped(<miscutils:itemGearTumbaga>, [
+[<miscutils:itemRodTumbaga>, <miscutils:itemPlateTumbaga>, <miscutils:itemRodTumbaga>],
+[<miscutils:itemPlateTumbaga>, <ore:craftingToolWrench>, <miscutils:itemPlateTumbaga>],
+[<miscutils:itemRodTumbaga>, <miscutils:itemPlateTumbaga>, <miscutils:itemRodTumbaga>]]);
 
 // --- Wire Factory Controller (until GT++ changes it)
 recipes.addShaped(<gregtech:gt.blockmachines:798>, [
