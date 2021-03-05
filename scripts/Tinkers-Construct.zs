@@ -1321,6 +1321,20 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32322>, <liquid:ste
 // -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32323>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 // -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32324>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32325>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32326>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32327>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32328>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32329>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32330>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32350>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 // -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32351>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
@@ -1369,7 +1383,15 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32372>, <liquid:ste
 // -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32373>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 // -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32374>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32375>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32376>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.ExtruderShapeBoat>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MarshmallowForm>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldChestplate>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 // -
