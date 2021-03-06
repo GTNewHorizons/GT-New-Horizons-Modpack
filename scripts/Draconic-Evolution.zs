@@ -614,11 +614,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:particleGenerator>, [
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, <ore:blockNeodymiumMagnetic>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null],
-[null, null, null, null, null, null, <ore:ingotDraconium>, null, null],
-[null, null, null, null, null, null, DCham, null, null],
-[null, null, null, null, null, null, <ore:ingotDraconium>, null, null],
-[null, <ore:blockNeodymiumMagnetic>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null],
+[null, <ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, null, null],
+[null, null, null, null, null, null, <ore:ingotSteelMagnetic>, null, null],
+[null, null, null, null, null, null, <IC2:itemBatRE:1>, null, null],
+[null, null, null, null, null, null, <ore:ingotSteelMagnetic>, null, null],
+[null, <ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -626,11 +626,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet>, [
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet:1>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, <DraconicEvolution:draconium:2>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null],
-[null, null, null, null, null, null, <ore:ingotDraconiumAwakened>, null, null],
-[null, null, null, null, null, null, <DraconicEvolution:magnet>, null, null],
-[null, null, null, null, null, null, <ore:ingotDraconiumAwakened>, null, null],
-[null, <DraconicEvolution:draconium:2>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null],
+[null, <DraconicEvolution:magnet>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, null, null],
+[null, null, null, null, null, null, <ore:ingotNeodymiumMagnetic>, null, null],
+[null, null, null, null, null, null, <ore:ingotNeodymiumMagnetic>, null, null],
+[null, null, null, null, null, null, <ore:ingotNeodymiumMagnetic>, null, null],
+[null, <EnderIO:itemMagnet:0>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
