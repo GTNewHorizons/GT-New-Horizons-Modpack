@@ -770,16 +770,10 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:dislocatorReceptacle>
 recipes.addShapeless(<DraconicEvolution:safetyMatch:1000>, [<gregtech:gt.metaitem.01:32471>, <ore:dustDraconium>]);
 
 // --- Distortion Flame
-mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:xRayBlock> * 4, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null, null, null],
-[null, null, <ore:paneGlassColorless>, <ore:gemNetherStar>, <ore:plateDraconium>, <ore:gemNetherStar>, <ore:paneGlassColorless>, null, null],
-[null, null, <ore:paneGlassColorless>, <ore:plateDraconium>, <ore:gemDiamond>, <ore:plateDraconium>, <ore:paneGlassColorless>, null, null],
-[null, null, <ore:paneGlassColorless>, <ore:gemNetherStar>, <ore:plateDraconium>, <ore:gemNetherStar>, <ore:paneGlassColorless>, null, null],
-[null, null, null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
+recipes.addShaped(<DraconicEvolution:xRayBlock> * 8, [
+[<minecraft:glass_pane>, <gregtech:gt.metaitem.01:17330>, <minecraft:glass_pane>],
+[<gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.02:29500>, <gregtech:gt.metaitem.01:17330>],
+[<minecraft:glass_pane>, <gregtech:gt.metaitem.01:17330>, <minecraft:glass_pane>]]);
 
 // --- Energy Core
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyStorageCore>, [
