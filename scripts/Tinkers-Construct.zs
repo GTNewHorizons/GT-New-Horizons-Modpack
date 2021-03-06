@@ -792,9 +792,6 @@ recipes.remove(<TConstruct:SpeedSlab:7>);
 // --- Gelatinous Slime
 recipes.remove(<TConstruct:strangeFood>);
 
-// --- Gold Head
-recipes.remove(<TConstruct:goldHead>);
-
 // --- Drying Rack
 recipes.remove(<TConstruct:Armor.DryingRack>);
 
