@@ -172,9 +172,9 @@ recipes.addShaped(<Genetics:labMachine>, [
 
 // --- Splicer
 recipes.addShaped(<Genetics:advMachine>, [
-[<ore:plateKanthal>, <ore:chestDiamond>, <ore:plateKanthal>],
+[<Genetics:misc:6>, <ore:chestDiamond>, <Genetics:misc:6>],
 [<Genetics:misc:10>, <Genetics:misc:11>, <Genetics:misc:10>],
-[<ore:gearGtSmallDiamond>, <gregtech:gt.metaitem.01:32602>, <ore:gearGtSmallDiamond>]]);
+[<ore:gearGtSmallDiamond>, <gregtech:gt.metaitem.01:32601>, <ore:gearGtSmallDiamond>]]);
 
 
 
@@ -204,10 +204,10 @@ Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.meta
 Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.metaitem.01:32703> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
 
 // --- Integrated Casing
-Assembler.addRecipe(<Genetics:misc:11>, <Forestry:hardenedMachine>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 288, 1500, 256);
+Assembler.addRecipe(<Genetics:misc:11>, <Forestry:hardenedMachine>, <Genetics:misc:9> * 4, <liquid:molten.glowstone> * 288, 1500, 120);
 
 // --- Integrated CPU
-Assembler.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.03:32104>, <Genetics:misc:9> * 8, <liquid:molten.glowstone> * 144, 600, 120);
+Assembler.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.03:32104>, <Genetics:misc:9> * 2, <liquid:molten.glowstone> * 144, 600, 120);
 
 
 // --- Mixer Recipes ---
