@@ -4,8 +4,7 @@
 
 // --- Importing Stuff ---
 
-
-//import mods.gregtech.BlastFurnace;
+import mods.gregtech.Assembler;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Mixer;
 import mods.gregtech.CuttingSaw;
@@ -124,8 +123,8 @@ recipes.remove(<witchery:ingredient:12>);
 //Ruby slippers
 recipes.remove(<witchery:rubyslippers>); 
 
-
-
+//Snow Pressure Plate
+recipes.remove(<witchery:snowpressureplate>);
 
 
 // --- Adding Recipes ---
@@ -224,10 +223,23 @@ recipes.addShaped(<witchery:earmuffs>, [
 [<ore:dyeBlack>, <ore:craftingToolWrench>, <ore:craftingFeather>],
 [<ore:ringThaumium>, <ore:craftingToolScrewdriver>, <ore:ringThaumium>]]);
 
-
+// --- Snow Pressure Plate
+recipes.addShaped(<witchery:snowpressureplate> * 6, [
+[<ore:screwWood>, <ore:craftingToolHardHammer>, <ore:screwWood>],
+[<Railcraft:slab:3>, <ore:springAnyIron>, <Railcraft:slab:3>],
+[<ore:screwWood>, <ore:craftingToolScrewdriver>, <ore:screwWood>]]);
 
 
 // --- Machine Recipes ---
+
+
+// --- Assembler
+
+
+// --- Snow Pressure Plate
+Assembler.addRecipe(<witchery:snowpressureplate> * 2, <Railcraft:slab:3> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
+// -
+Assembler.addRecipe(<witchery:snowpressureplate> * 2, <Railcraft:slab:3> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 
 
