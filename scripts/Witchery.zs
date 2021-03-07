@@ -237,9 +237,9 @@ recipes.addShaped(<witchery:snowpressureplate> * 6, [
 
 
 // --- Snow Pressure Plate
-Assembler.addRecipe(<witchery:snowpressureplate> * 2, <Railcraft:slab:3> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<witchery:snowpressureplate> * 6, <Railcraft:slab:3> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
-Assembler.addRecipe(<witchery:snowpressureplate> * 2, <Railcraft:slab:3> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<witchery:snowpressureplate> * 6, <Railcraft:slab:3> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 
 
