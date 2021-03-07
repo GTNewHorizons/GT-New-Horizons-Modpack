@@ -277,9 +277,9 @@ mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemBaubleBl
 
 // --- Mirrored Glass
 mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemResource:10>, "aer 30, terra 30, ignis 30,", [
-[<ore:bucketEnder>, <ore:gemMercury>, <ore:bucketEnder>],
+[<ore:gemMercury>, <gregtech:gt.blockgem1:8>, <ore:gemMercury>],
 [<ore:gemMercury>, <minecraft:glass_pane>, <ore:gemMercury>],
-[<ore:bucketEnder>, <ore:gemMercury>, <ore:bucketEnder>]]);
+[<ore:gemMercury>, <gregtech:gt.blockgem1:8>, <ore:gemMercury>]]);
 mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemResource:10>);
 
 // --- Arcane Stone
