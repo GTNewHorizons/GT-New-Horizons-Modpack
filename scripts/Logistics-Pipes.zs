@@ -184,9 +184,9 @@ Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:1>, [<gregtech:gt.blockm
 Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:1>, [<gregtech:gt.blockmachines:21>, <LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <ore:circuitBasic> * 2, <ore:cableGt04AnyCopper> * 4, <ore:screwSteel> * 8, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 288, 800, 30);
 
 // --- Unrouted Logistics Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 2, [<ore:stickLongSteel> * 2, <bartworks:BWPumpParts>, <ore:wireFineGold> * 2, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 8, [<ore:stickLongSteel> * 2, <gregtech:gt.metaitem.03:32023> * 2, <ore:wireFineGold> * 8, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 16, [<ore:stickLongStainlessSteel> * 2, <ore:plateBorosilicateGlass> * 8, <ore:wireFineGold> * 16, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 4, [<ore:stickLongSteel> * 2, <bartworks:BWPumpParts>, <ore:wireFineGold> * 2, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 16, [<ore:stickLongSteel> * 2, <gregtech:gt.metaitem.03:32023> * 2, <ore:wireFineGold> * 8, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 32, [<ore:stickLongStainlessSteel> * 2, <ore:plateBorosilicateGlass> * 8, <ore:wireFineGold> * 16, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
 
 
 // --- Basic Logistics Pipe
