@@ -905,11 +905,10 @@ NEI.hide(<LogisticsPipes:item.itemUpgrade:35>);
 NEI.hide(<LogisticsPipes:item.itemUpgrade:36>);
 NEI.hide(<LogisticsPipes:item.itemModule:301>);
 
-// Hidden until added through code, 
+
 // Theese are used to connect 2 LP networks through chests and might lag, they are disabled for now
 NEI.hide(<LogisticsPipes:item.PipeItemsInvSysConnector>);
 NEI.hide(<LogisticsPipes:item.PipeItemsSystemEntranceLogistics>);
 NEI.hide(<LogisticsPipes:item.PipeItemsSystemDestinationLogistics>);
 NEI.hide(<LogisticsPipes:item.logisticsItemCard>); // this item can't be easily added through Minetweaker
-//
-
+// Hidden until added through code
