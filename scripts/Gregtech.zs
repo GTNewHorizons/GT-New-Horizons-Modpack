@@ -2,7 +2,7 @@
 
 
 
-// --- Imports --- 
+// --- Imports ---
 
 import minetweaker.item.IIngredient;
 import minetweaker.item.IItemStack;
@@ -100,7 +100,7 @@ recipes.remove(<gregtech:gt.neutronreflector>);
 recipes.remove(<gregtech:gt.60k_Helium_Coolantcell>);
 
 // --- 180k Helium Cooling Cell
-recipes.remove(<gregtech:gt.180k_Helium_Coolantcell>); 
+recipes.remove(<gregtech:gt.180k_Helium_Coolantcell>);
 
 // --- 360k Helium Cooling Cell
 recipes.remove(<gregtech:gt.360k_Helium_Coolantcell>);
@@ -109,7 +109,7 @@ recipes.remove(<gregtech:gt.360k_Helium_Coolantcell>);
 recipes.remove(<gregtech:gt.60k_NaK_Coolantcell>);
 
 // --- 180k NaK Cooling Cell
-recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>); 
+recipes.remove(<gregtech:gt.180k_NaK_Coolantcell>);
 
 // --- 360k NaK Cooling Cell
 recipes.remove(<gregtech:gt.360k_NaK_Coolantcell>);
@@ -156,7 +156,7 @@ recipes.removeShaped(<ore:ingotDraconiumAwakened>, [
 [<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>],
 [<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>]]);
 
-// --- Vibrant Alloy Ingot 
+// --- Vibrant Alloy Ingot
 recipes.removeShaped(<ore:ingotVibrantAlloy>, [
 [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
 [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
@@ -910,7 +910,7 @@ Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2802> * 8],  null, <minecraft:gra
 
 // --- Re-add Cadmium Centrifuge recipe
 Centrifuge.addRecipe([<gregtech:gt.metaitem.01:1067>, <gregtech:gt.metaitem.01:1045>, <gregtech:gt.metaitem.01:1064>, <gregtech:gt.metaitem.01:1065>, <gregtech:gt.metaitem.01:1055>, <gregtech:gt.metaitem.01:1062>], null, <gregtech:gt.metaitem.01:2891>, null, null, [2500, 2500, 2500, 2500, 2500, 2500], 64, 20);
-        
+
 
 
 
@@ -1115,8 +1115,18 @@ FormingPress.addRecipe(<dreamcraft:item.CoinBlank>, <gregtech:gt.metaitem.01:170
 
 
 
-// --- Pulverizer Recipes --- 
+// --- Pulverizer Recipes ---
 
+// Gold Nugget
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:86>], <TConstruct:oreBerries:1>, [10000], 300, 2);
+// Iron Nugget
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:32>], <TConstruct:oreBerries:0>, [10000], 300, 2);
+// Copper Nugget
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:35>], <TConstruct:oreBerries:2>, [10000], 300, 2);
+// Tin Nugget
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:57>], <TConstruct:oreBerries:3>, [10000], 300, 2);
+// Aluminum Nugget to Tiny Aluminium
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:19>], <TConstruct:oreBerries:4>, [10000], 300, 2);
 
 // --- Flour
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2881>], <Natura:barleyFood>, [10000], 300, 2);
