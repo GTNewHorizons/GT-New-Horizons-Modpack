@@ -1762,9 +1762,9 @@ Assembler.addRecipe(<Natura:pressureplate.fusewood> * 2, <Natura:plankSlab2:4> *
 Assembler.addRecipe(<Natura:pressureplate.fusewood> * 2, <Natura:plankSlab2:4> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
 // --- Netherrack Pressure Plate
-Assembler.addRecipe(<Natura:NetherPressurePlate> * 2, <minecraft:netherrack> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
+Assembler.addRecipe(<Natura:NetherPressurePlate> * 2, [<minecraft:netherrack> * 2, <gregtech:gt.metaitem.02:24032>, <gregtech:gt.integrated_circuit:9> * 0], null, 100, 8);
 // -
-Assembler.addRecipe(<Natura:NetherPressurePlate> * 2, <minecraft:netherrack> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
+Assembler.addRecipe(<Natura:NetherPressurePlate> * 2, [<minecraft:netherrack> * 2, <gregtech:gt.metaitem.02:24304>, <gregtech:gt.integrated_circuit:9> * 0], null, 100, 8);
 
 // --- Eucalyptus Button
 CuttingSaw.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:water> * 4, 50, 4);
