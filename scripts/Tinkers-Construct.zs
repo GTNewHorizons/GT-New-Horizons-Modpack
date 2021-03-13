@@ -2540,7 +2540,7 @@ AlloySmelter.addRecipe(<TConstruct:materials:37>, <TConstruct:CraftedSoil:6>, <g
 
 
 // --- Ladder (stone)
-Assembler.addRecipe(<TConstruct:decoration.stoneladder> * 4, <ForgeMicroblock:stoneRod> * 7, <TMechworks:LengthWire>, null, 60, 30);
+Assembler.addRecipe(<TConstruct:decoration.stoneladder> * 4, [<ForgeMicroblock:stoneRod> * 7, <TMechworks:LengthWire>, <gregtech:gt.integrated_circuit:6> * 0], null, 60, 30);
 
 
 // --- Drying Reck Recipes ---

@@ -3093,13 +3093,13 @@ Assembler.addRecipe(Lever, <BiomesOPlenty:bamboo>, <minecraft:stone_button>, 50,
 Assembler.addRecipe(Lever, <BiomesOPlenty:plants:8>, <minecraft:stone_button>, 50, 16);
 
 // Ladder
-Assembler.addRecipe(<minecraft:ladder> * 2, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27809>, null, 100, 8);
+Assembler.addRecipe(<minecraft:ladder> * 2, [<minecraft:stick> * 2, <gregtech:gt.metaitem.01:27809>, <gregtech:gt.integrated_circuit:6> * 0], null, 100, 8);
 // -
-Assembler.addRecipe(<minecraft:ladder> * 4, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27032>, null, 100, 16);
+Assembler.addRecipe(<minecraft:ladder> * 4, [<minecraft:stick> * 2, <gregtech:gt.metaitem.01:27032>, <gregtech:gt.integrated_circuit:6> * 0], null, 100, 16);
 // -
-Assembler.addRecipe(<minecraft:ladder> * 8, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27305>, null, 100, 30);
+Assembler.addRecipe(<minecraft:ladder> * 8, [<minecraft:stick> * 2, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.integrated_circuit:6> * 0], null, 100, 30);
 // -
-Assembler.addRecipe(<minecraft:ladder> * 32, <minecraft:stick> * 2, <gregtech:gt.metaitem.01:27019>, null, 100, 30);
+Assembler.addRecipe(<minecraft:ladder> * 32, [<minecraft:stick> * 2, <gregtech:gt.metaitem.01:27019>, <gregtech:gt.integrated_circuit:6> * 0], null, 100, 30);
 
 // --- Brick Blocks
 Assembler.addRecipe(<minecraft:brick_block> * 2, <minecraft:brick> * 8, <gregtech:gt.integrated_circuit:1> * 0, <liquid:water> * 500, 300, 16);
