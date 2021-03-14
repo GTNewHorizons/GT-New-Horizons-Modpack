@@ -1117,15 +1117,15 @@ FormingPress.addRecipe(<dreamcraft:item.CoinBlank>, <gregtech:gt.metaitem.01:170
 
 // --- Pulverizer Recipes ---
 
-// Gold Nugget
+// Gold Oreberry
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:86>], <TConstruct:oreBerries:1>, [10000], 300, 2);
-// Iron Nugget
+// Iron Oreberry
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:32>], <TConstruct:oreBerries:0>, [10000], 300, 2);
-// Copper Nugget
+// Copper Oreberry
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:35>], <TConstruct:oreBerries:2>, [10000], 300, 2);
-// Tin Nugget
+// Tin Oreberry
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:57>], <TConstruct:oreBerries:3>, [10000], 300, 2);
-// Aluminum Nugget to Tiny Aluminium
+// Aluminum Oreberry to Tiny Aluminium
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:19>], <TConstruct:oreBerries:4>, [10000], 300, 2);
 
 // --- Flour
