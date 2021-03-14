@@ -185,7 +185,7 @@ Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:1>, [<gregtech:gt.blockm
 
 // --- Unrouted Logistics Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 4, [<ore:stickLongSteel> * 2, <bartworks:BWPumpParts>, <ore:wireFineGold> * 2, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 16, [<ore:stickLongSteel> * 2, <gregtech:gt.metaitem.03:32023> * 2, <ore:wireFineGold> * 8, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 16, [<ore:stickLongSteel> * 2, <ore:plateReinforcedGlass> * 8, <ore:wireFineGold> * 8, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 32, [<ore:stickLongStainlessSteel> * 2, <ore:plateBorosilicateGlass> * 8, <ore:wireFineGold> * 16, <gregtech:gt.integrated_circuit:18> * 0], null, 100, 30);
 
 
@@ -850,42 +850,38 @@ recipes.addShaped(DisconnectWest, [
 
 
 // ||||| Fluid Pipes |||||
-Assembler.addRecipe(<LogisticsPipes:item.logisticsFluidContainer>, [<miscutils:gt.Volumetric_Flask_8k>, <ore:circuitBasic>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsFluidContainer>, [<miscutils:gt.Volumetric_Flask_8k>, <ore:circuitBasic>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.logisticsFluidContainer>, [<miscutils:gt.Volumetric_Flask_8k>, <ore:circuitBasic>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 120);
-
 
 // --- Basic Fluid Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.metaitem.01:32651>], <liquid:molten.lead> * 144, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.metaitem.01:32651>], <liquid:molten.tin> * 72, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.metaitem.01:32651>], <liquid:molten.solderingalloy> * 36, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 120);
 
 // --- Fluid Supplier Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidSupplierMk2>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule:502>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidSupplierMk2>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule:502>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 // --- Fluid Container Supplier Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsFluidSupplier>, [<LogisticsPipes:item.PipeFluidBasic>, <gregtech:gt.metaitem.01:32651>, <minecraft:bucket>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsFluidSupplier>, [<LogisticsPipes:item.PipeFluidBasic>, <gregtech:gt.metaitem.01:32651>, <minecraft:bucket>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 // --- Fluid Provider Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidProvider>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule:500>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidProvider>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule:500>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 // --- Fluid Insertion Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidInsertion>, [<LogisticsPipes:item.PipeFluidBasic>, <gregtech:gt.metaitem.01:32611>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidInsertion>, [<LogisticsPipes:item.PipeFluidBasic>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 
 // --- Fluid Request Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidRequestLogistics>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.PipeItemsRequestLogistics>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidRequestLogistics>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.PipeItemsRequestLogistics>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 // --- Fluid Satellite Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeFluidSatellite>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32692>, <ore:plateEnderEye>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 // --- Fluid Extractor Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidExtractor>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule:3>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidExtractor>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule:3>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 
 // ||||| Fluid Upgrades |||||
 // --- Fluid Crafting Upgrade
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemUpgrade:22> * 2, [<LogisticsPipes:item.logisticsParts:4>, <LogisticsPipes:item.itemModule:600>, <LogisticsPipes:item.logisticsFluidContainer>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 480);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemUpgrade:22> * 2, [<LogisticsPipes:item.logisticsParts:4>, <LogisticsPipes:item.itemModule:600>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 480);
 
 
 // #======= Hiding Stuff =======#
@@ -906,9 +902,15 @@ NEI.hide(<LogisticsPipes:item.itemUpgrade:36>);
 NEI.hide(<LogisticsPipes:item.itemModule:301>);
 
 
-// Theese are used to connect 2 LP networks through chests and might lag, they are disabled for now
+// This are used to connect 2 LP networks through chests and might lag, it is disabled for now
 NEI.hide(<LogisticsPipes:item.PipeItemsInvSysConnector>);
+
+
+// Should be added when Logistics Item Card is added
 NEI.hide(<LogisticsPipes:item.PipeItemsSystemEntranceLogistics>);
 NEI.hide(<LogisticsPipes:item.PipeItemsSystemDestinationLogistics>);
 NEI.hide(<LogisticsPipes:item.logisticsItemCard>); // this item can't be easily added through Minetweaker
 // Hidden until added through code
+
+// Fluid Transport Item
+NEI.hide(<LogisticsPipes:item.logisticsFluidContainer>);
