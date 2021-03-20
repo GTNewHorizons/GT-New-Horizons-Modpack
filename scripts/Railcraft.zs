@@ -177,7 +177,7 @@ val ControllerCircuit = <Railcraft:part.circuit>;
 
 val WoodenTrack = <Railcraft:track:736>.withTag({track: "railcraft:track.slow"});
 val Track = <minecraft:rail>;
-val ReinforcedTrack = <Railcraft:track:24050>.withTag({track: "railcraft:track.reinforced"});
+val ReinforcedTrack = <Railcraft:track>.withTag({track: "railcraft:track.reinforced"});
 val HsTrack = <Railcraft:track:816>.withTag({track: "railcraft:track.speed"});
 val ElectricTrack = <Railcraft:track>.withTag({track: "railcraft:track.electric"});
 
@@ -765,7 +765,7 @@ recipes.addShaped(<minecraft:golden_rail> * 4, [
 [Screwdriver, RedAlloyPlate, HHammer]]);
 
 // --- Reinfored Track ---
-recipes.addShaped(<Railcraft:track:24050>.withTag({track: "railcraft:track.reinforced"}) * 8, [
+recipes.addShaped(ReinforcedTrack * 8, [
 [StainlessSteelScrew, null, StainlessSteelScrew],
 [ReinforedRail, StoneRailbed, ReinforedRail],
 [Screwdriver, null, HHammer]]);

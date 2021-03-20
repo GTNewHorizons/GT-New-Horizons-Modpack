@@ -59,7 +59,6 @@ val AnyWool = <ore:blockWool>;
 val Noteblock = <minecraft:noteblock>;
 val BUD = <ExtraUtilities:budoff>;
 val WaterBucket = <minecraft:water_bucket>;
-val LVRegulator = <gregtech:gt.blockmachines:9271>;
 val LuVFieldgen = <gregtech:gt.metaitem.01:32675>;
 val HVWA = <gregtech:gt.blockmachines:11102>;
 val EVWA = <gregtech:gt.blockmachines:11103>;
@@ -96,7 +95,7 @@ val RedAlloyFoil = <ore:foilRedAlloy>;
 val ElectrumPlate = <ore:plateElectrum>;
 val EuropiumPlate = <ore:plateEuropium>;
 val ElectrumFoil = <ore:foilElectrum>;
-val EnderPearlPlate = <ore:plateEnderPearl>;
+val EnderPearlScrew = <ore:screwEnderPearl>;
 val EnderEyePlate = <ore:plateEnderEye>;
 val NStarPlate = <ore:plateNetherStar>;
 val SteelGear = <ore:gearSteel>;
@@ -107,7 +106,6 @@ val BasicCircuit = <ore:circuitBasic>;
 val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val DataCircuit = <ore:circuitData>;
-val LVChestBuffer = <gregtech:gt.blockmachines:9231>;
 val LVPump = <gregtech:gt.metaitem.01:32610>;
 val LVEnergyBuffer = <gregtech:gt.blockmachines:171>;
 val HVEnergyBuffer = <gregtech:gt.blockmachines:173>;
@@ -906,45 +904,25 @@ recipes.addShaped(EExtractionPipe, [
 // --- Item Retrieval Node
 recipes.addShaped(ItemRetrievalN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlPlate, LVRegulator, EnderPearlPlate],
-[ItemTransferN, ItemTransferN, ItemTransferN]]);
-// -
-recipes.addShaped(ItemRetrievalN, [
-[HHammer, AnyPipe, Wrench],
-[EnderPearlPlate, LVRegulator, EnderPearlPlate],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32630>, EnderPearlScrew],
 [ItemTransferN, ItemTransferN, ItemTransferN]]);
 
 // --- Fluid Retrieval Node
 recipes.addShaped(FluidRetrievalN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlPlate, LVRegulator, EnderPearlPlate],
-[FluidTransferN, FluidTransferN, FluidTransferN]]);
-// -
-recipes.addShaped(FluidRetrievalN, [
-[HHammer, AnyPipe, Wrench],
-[EnderPearlPlate, LVRegulator, EnderPearlPlate],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32610>, EnderPearlScrew],
 [FluidTransferN, FluidTransferN, FluidTransferN]]);
 
 // --- Item Tranfer Node
 recipes.addShaped(ItemTransferN, [
-[HHammer, AnyPipe, Wrench],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
-[SmallStealGear, BrassItemPipe, SmallStealGear]]);
-// -
-recipes.addShaped(ItemTransferN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32630>, EnderPearlScrew],
 [SmallStealGear, BrassItemPipe, SmallStealGear]]);
 
 // --- Fluid Transfer Node
 recipes.addShaped(FluidTransferN, [
-[HHammer, AnyPipe, Wrench],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
-[SteelFluidPipe, LVPump, SteelFluidPipe]]);
-// -
-recipes.addShaped(FluidTransferN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32610>, EnderPearlScrew],
 [SteelFluidPipe, LVPump, SteelFluidPipe]]);
 
 // --- Energy Transfer Node
