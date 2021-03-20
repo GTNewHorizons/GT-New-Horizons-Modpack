@@ -616,7 +616,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet>, [
 [null, null, null, null, null, null, null, null, null],
 [null, <ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, null, null],
 [null, null, null, null, null, null, <ore:ingotSteelMagnetic>, null, null],
-[null, null, null, null, null, null, <IC2:itemBatRE:1>, null, null],
+[null, null, null, null, null, null, <gregtech:gt.metaitem.01:32518>, null, null],
 [null, null, null, null, null, null, <ore:ingotSteelMagnetic>, null, null],
 [null, <ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, null, null],
 [null, null, null, null, null, null, null, null, null],

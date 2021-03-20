@@ -904,25 +904,25 @@ recipes.addShaped(EExtractionPipe, [
 // --- Item Retrieval Node
 recipes.addShaped(ItemRetrievalN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlScrew, <minecraft:chest>, EnderPearlScrew],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32630>, EnderPearlScrew],
 [ItemTransferN, ItemTransferN, ItemTransferN]]);
 
 // --- Fluid Retrieval Node
 recipes.addShaped(FluidRetrievalN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlScrew, OBTank, EnderPearlScrew],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32610>, EnderPearlScrew],
 [FluidTransferN, FluidTransferN, FluidTransferN]]);
 
 // --- Item Tranfer Node
 recipes.addShaped(ItemTransferN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlScrew, <minecraft:chest>, EnderPearlScrew],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32630>, EnderPearlScrew],
 [SmallStealGear, BrassItemPipe, SmallStealGear]]);
 
 // --- Fluid Transfer Node
 recipes.addShaped(FluidTransferN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlScrew, OBTank, EnderPearlScrew],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32610>, EnderPearlScrew],
 [SteelFluidPipe, LVPump, SteelFluidPipe]]);
 
 // --- Energy Transfer Node

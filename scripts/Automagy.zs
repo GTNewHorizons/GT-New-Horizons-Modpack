@@ -104,23 +104,23 @@ mods.thaumcraft.Research.setAspects("REDCRYSTAL", "praecantatio 15, machina 12, 
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL", 3);
 mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalAmp> * 2, "ignis 10", [
 [<Automagy:shardSliver:1>, <Automagy:shardSliver:1>, <Automagy:shardSliver:1>],
-[<Automagy:shardSliver:1>, <Automagy:blockRedcrystal> * 2, <Automagy:shardSliver:1>],
+[<Automagy:shardSliver:1>, <Automagy:blockRedcrystal>, <Automagy:shardSliver:1>],
 [<Automagy:shardSliver:1>, <Automagy:shardSliver:1>, <Automagy:shardSliver:1>]]);
 
 // --- Dense Redcrystal
 mods.thaumcraft.Research.setAspects("REDCRYSTAL", "praecantatio 15, machina 12, potentia 9, vitreus 6, terra 3");
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL", 3);
 mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalDense> * 2, "terra 10", [
-[<Automagy:blockRedcrystal>, <Thaumcraft:blockCosmeticSolid:6>, <Automagy:blockRedcrystal>],
+[<Automagy:blockRedcrystal>, null, <Automagy:blockRedcrystal>],
 [<Automagy:shardSliver:3>, <ore:stickInfusedEarth>, <Automagy:shardSliver:3>],
-[<Automagy:blockRedcrystal>, <Thaumcraft:blockCosmeticSolid:6>, <Automagy:blockRedcrystal>]]);
+[<Automagy:blockRedcrystal>, null, <Automagy:blockRedcrystal>]]);
 
 // --- Dim Redcrystal
 mods.thaumcraft.Research.setAspects("REDCRYSTAL", "praecantatio 15, machina 12, potentia 9, vitreus 6, perditio 3");
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL", 3);
 mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalDim> * 2, "perditio 10", [
 [<Automagy:shardSliver:5>, <Automagy:shardSliver:5>, <Automagy:shardSliver:5>],
-[<Automagy:shardSliver:5>, <Automagy:blockRedcrystal> * 2, <Automagy:shardSliver:5>],
+[<Automagy:shardSliver:5>, <Automagy:blockRedcrystal>, <Automagy:shardSliver:5>],
 [<Automagy:shardSliver:5>, <Automagy:shardSliver:5>, <Automagy:shardSliver:5>]]);
 
 mods.thaumcraft.Research.clearPages("SLIVERS");
@@ -233,7 +233,7 @@ mods.thaumcraft.Research.setAspects("REDCRYSTAL_RES", "potentia 15, machina 12, 
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL_RES", 3);
 mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_RES", <Automagy:blockRedcrystalRes> * 2, "aer 10, ordo 5", [
 [<Automagy:shardSliver>, <appliedenergistics2:item.ItemMultiMaterial:11>, <Automagy:shardSliver>],
-[<appliedenergistics2:item.ItemMultiMaterial:11>, <Automagy:blockRedcrystal> * 2, <appliedenergistics2:item.ItemMultiMaterial:11>],
+[<appliedenergistics2:item.ItemMultiMaterial:11>, <Automagy:blockRedcrystal>, <appliedenergistics2:item.ItemMultiMaterial:11>],
 [<Automagy:shardSliver>, <appliedenergistics2:item.ItemMultiMaterial:11>, <Automagy:shardSliver>]]);
 
 // --- Mercurial Redcrystal
