@@ -204,10 +204,10 @@ Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.meta
 Assembler.addRecipe(<Genetics:misc:9>, <Forestry:chipsets:1>,  <gregtech:gt.metaitem.01:32703> * 2, <liquid:molten.stainlesssteel> * 64, 400, 64);
 
 // --- Integrated Casing
-Assembler.addRecipe(<Genetics:misc:11>, <Forestry:hardenedMachine>, <Genetics:misc:10> * 2, <liquid:molten.glowstone> * 288, 1500, 480);
+Assembler.addRecipe(<Genetics:misc:11>, [<Forestry:hardenedMachine>, <Genetics:misc:10> * 2, <gregtech:gt.integrated_circuit:2> * 0], <liquid:molten.glowstone> * 288, 1500, 480);
 
 // --- Integrated CPU
-Assembler.addRecipe(<Genetics:misc:10>, <gregtech:gt.metaitem.03:32106>, <ore:circuitData> * 2, <liquid:molten.glowstone> * 144, 600, 480);
+Assembler.addRecipe(<Genetics:misc:10>, [<gregtech:gt.metaitem.03:32106>, <ore:circuitData> * 2, <gregtech:gt.integrated_circuit:2> * 0], <liquid:molten.glowstone> * 144, 600, 480);
 
 
 // --- Mixer Recipes ---
