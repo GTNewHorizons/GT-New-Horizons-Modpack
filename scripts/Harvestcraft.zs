@@ -620,7 +620,7 @@ Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <ExtraTrees:food:45>);
 // -
 Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <harvestcraft:blueberryItem>);
 // -
-Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <Natura:berry:1> * 4);
+Extractor.addRecipe(<harvestcraft:blueberryjuiceItem>, <Natura:berry:1>);
 
 // --- Cherry Juice
 Extractor.addRecipe(<harvestcraft:cherryjuiceItem>, <ExtraTrees:food:5>);
@@ -634,14 +634,14 @@ Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <ExtraTrees:food:43>);
 // -
 Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <harvestcraft:blackberryItem>);
 // -
-Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <Natura:berry:2> * 4);
+Extractor.addRecipe(<harvestcraft:blackberryjuiceItem>, <Natura:berry:2>);
 
 // --- Raspberry Juice
 Extractor.addRecipe(<harvestcraft:raspberryjuiceItem>, <harvestcraft:raspberryItem>);
 // -
 Extractor.addRecipe(<harvestcraft:raspberryjuiceItem>, <ExtraTrees:food:44>);
 // -
-Extractor.addRecipe(<harvestcraft:raspberryjuiceItem>, <Natura:berry> * 4);
+Extractor.addRecipe(<harvestcraft:raspberryjuiceItem>, <Natura:berry>);
 
 // --- Papaya Juice
 Extractor.addRecipe(<harvestcraft:papayajuiceItem>, <Forestry:fruits:6>);

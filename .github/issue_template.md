@@ -11,3 +11,6 @@
 
 #
 #### What do you suggest instead/what changes do you propose?
+
+#
+#### What is your GTNH Discord username?

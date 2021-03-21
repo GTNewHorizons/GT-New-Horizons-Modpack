@@ -4,6 +4,7 @@
 // --- Importing Stuff ---
 
 import mods.gregtech.AlloySmelter;
+import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 import mods.gregtech.Extruder;
 import mods.nei.NEI;
@@ -2492,12 +2493,15 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:11386>, [<TConstruct:materials:5>]
 // --- Alumite with Steel
 mods.tconstruct.Smeltery.addAlloy(<liquid:alumite.molten> * 32, [<liquid:aluminum.molten> * 80, <liquid:steel.molten> * 32, <liquid:obsidian.molten> * 32]);
 
-
+// --- Ladder (stone)
+recipes.addShaped(<TConstruct:decoration.stoneladder> * 4, [
+[<ForgeMicroblock:stoneRod>, <TMechworks:LengthWire>, <ForgeMicroblock:stoneRod>],
+[<ForgeMicroblock:stoneRod>, <ForgeMicroblock:stoneRod>, <ForgeMicroblock:stoneRod>],
+[<ForgeMicroblock:stoneRod>, <TMechworks:LengthWire>, <ForgeMicroblock:stoneRod>]]);
 
 
 
 // --- Add Fuels to the Smeltery ---
-
 
 
 // --- Hot Coolant
@@ -2505,8 +2509,6 @@ mods.tconstruct.Smeltery.addFuel(<liquid:ic2hotcoolant>, 900, 55);
 
 // --- Pahoehoe Lava
 mods.tconstruct.Smeltery.addFuel(<liquid:ic2pahoehoelava>, 3000, 90);
-
-
 
 
 
@@ -2536,6 +2538,12 @@ AlloySmelter.addRecipe(<TConstruct:materials:2>, <TConstruct:CraftedSoil:1>, <gr
 AlloySmelter.addRecipe(<TConstruct:materials:37>, <TConstruct:CraftedSoil:6>, <gregtech:gt.metaitem.01:32306> * 0, 200, 16);
 
 
+
+// --- Assembler Recipes
+
+
+// --- Ladder (stone)
+Assembler.addRecipe(<TConstruct:decoration.stoneladder> * 4, [<ForgeMicroblock:stoneRod> * 7, <TMechworks:LengthWire>, <gregtech:gt.integrated_circuit:6> * 0], null, 60, 30);
 
 
 // --- Drying Reck Recipes ---
