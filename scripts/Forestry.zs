@@ -675,7 +675,7 @@ mods.forestry.Carpenter.addRecipe(<Forestry:alveary:5>,
 // --- Alveary Stabiliser
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000, 
 [<Forestry:thermionicTubes:4>, <dreamcraft:item.ChargedCertusQuartzPlate>, <Forestry:thermionicTubes:4>, 
-<gregtech:gt.metaitem.01:32729>, <Forestry:beealyzer>, <gregtech:gt.metaitem.01:32729>, 
+<gregtech:gt.metaitem.01:32729>, <Forestry:royalJelly>, <gregtech:gt.metaitem.01:32729>, 
 <Forestry:thermionicTubes:4>, <dreamcraft:item.ChargedCertusQuartzPlate>, <Forestry:thermionicTubes:4>], 
 <Forestry:alveary>, <Forestry:alveary:6>);
 
