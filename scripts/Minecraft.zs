@@ -3199,7 +3199,14 @@ Assembler.addRecipe(<minecraft:stone_pressure_plate> * 2, <minecraft:stone_slab>
 // -
 Assembler.addRecipe(<minecraft:stone_pressure_plate> * 2, <minecraft:stone_slab> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
 
+// --- Bed
+Assembler.addRecipe(<minecraft:bed>, [<minecraft:carpet:*> * 2, <harvestcraft:wovencottonItem> * 2, <ore:plankWood> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 24);
 
+// --- Clock
+Assembler.addRecipe(<minecraft:clock>, [<ore:plateGold>, <minecraft:comparator>, <ore:ringGold>, <ore:stickGold>, <ore:boltGold>, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 24);
+
+// --- Saddle
+Assembler.addRecipe(<minecraft:saddle>, [<ore:itemLeather> * 4, <gregtech:gt.metaitem.01:28032> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 24);
 
 
 
