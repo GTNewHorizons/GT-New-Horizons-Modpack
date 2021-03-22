@@ -354,7 +354,7 @@ mods.thaumcraft.Research.setAspects("BATHSALTS", "sano 9, cognitio 6, auram 9, o
 mods.thaumcraft.Research.setComplexity("BATHSALTS", 2);
 
 // --- Sanitizing Soap
-mods.thaumcraft.Crucible.addRecipe("SANESOAP", <Thaumcraft:ItemSanitySoap> * 2, <chisel:tallow>, "alienis 20, cognitio 20, sano 20, ordo 20");
+mods.thaumcraft.Crucible.addRecipe("SANESOAP", <Thaumcraft:ItemSanitySoap> * 2, <Thaumcraft:blockCosmeticSolid:5>, "alienis 20, cognitio 20, sano 20, ordo 20");
 // -
 mods.thaumcraft.Research.setAspects("SANESOAP", "sano 12, alienis 12, cognitio 9, ordo 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("SANESOAP", 3);

@@ -270,6 +270,9 @@ recipes.addShapeless(<gregtech:gt.metaitem.02:32417>, [<BiomesOPlenty:plants:7>]
 Extractor.addRecipe(<gregtech:gt.metaitem.02:32417> * 2, <BiomesOPlenty:mushrooms:4>, 300, 2);
 Extractor.addRecipe(<gregtech:gt.metaitem.02:32417> * 2, <BiomesOPlenty:plants:7>, 300, 2);
 
+// --- Mud block to mud ball
+Extractor.addRecipe(<BiomesOPlenty:mudball> * 4, <BiomesOPlenty:mud>, 100, 8);
+
 // --- Fluid Extractor Recipes ---
 
 
