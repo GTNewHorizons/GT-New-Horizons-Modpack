@@ -220,7 +220,7 @@ mods.thaumcraft.Research.setComplexity("GOLEMIRON", 3);
 // --- Thaumium Golems
 mods.thaumcraft.Research.clearPages("GOLEMTHAUMIUM");
 mods.thaumcraft.Research.addPage("GOLEMTHAUMIUM", "tc.research_page.GOLEMTHAUMIUM.1");
-mods.thaumcraft.Crucible.addRecipe("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>, <Thaumcraft:blockCosmeticSolid:4>, "humanus 40, mortuus 40, spiritus 40");
+mods.thaumcraft.Crucible.addRecipe("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>, <ore:blockThaumium>, "humanus 40, mortuus 40, spiritus 40");
 mods.thaumcraft.Research.addCruciblePage("GOLEMTHAUMIUM", <Thaumcraft:ItemGolemPlacer:7>);
 // -
 mods.thaumcraft.Research.setAspects("GOLEMTHAUMIUM", "permutatio 12, spiritus 12, metallum 12, motus 9, praecantatio 9, terra 9, humanus 6, alienis 3");
