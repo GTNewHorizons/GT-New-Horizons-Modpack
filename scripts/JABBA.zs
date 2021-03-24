@@ -66,6 +66,7 @@ val MKXIII = <JABBA:upgradeStructural:12>;
 val MKXIV = <JABBA:upgradeStructural:13>;
 
 val Piston = <minecraft:piston>;
+val SPiston = <minecraft:sticky_piston>;
 val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
 val CopperPlate = <ore:plateCopper>;
 val IronPlate = <ore:plateIron>;
@@ -340,31 +341,55 @@ recipes.addShaped(BSpace * 2, [
 [EnderEyePlate, Piston, EnderEyePlate],
 [Piston, <EnderStorage:enderChest>, Piston],
 [EnderEyePlate, Piston, EnderEyePlate]]);
+// -
+recipes.addShaped(BSpace * 2, [
+[EnderEyePlate, SPiston, EnderEyePlate],
+[Piston, <EnderStorage:enderChest>, Piston],
+[EnderEyePlate, SPiston, EnderEyePlate]]);
 
 // --- Redstone Upgrade
 recipes.addShaped(RSUp, [
 [RedAlloyPlate, Piston, RedAlloyPlate],
 [Piston, <minecraft:redstone_block>, Piston],
 [RedAlloyPlate, Piston, RedAlloyPlate]]);
+// -
+recipes.addShaped(RSUp, [
+[RedAlloyPlate, SPiston, RedAlloyPlate],
+[Piston, <minecraft:redstone_block>, Piston],
+[RedAlloyPlate, SPiston, RedAlloyPlate]]);
 
 // --- Hopper Upgrade
 recipes.addShaped(HopperUp, [
 [IronPlate, Piston, IronPlate],
 [Piston, <minecraft:hopper>, Piston],
 [IronPlate, Piston, IronPlate]]);
+// -
+recipes.addShaped(HopperUp, [
+[IronPlate, SPiston, IronPlate],
+[Piston, <minecraft:hopper>, Piston],
+[IronPlate, SPiston, IronPlate]]);
 
 // --- Void Upgrade
 recipes.addShaped(VoidUp, [
 [IronPlate, Piston, IronPlate],
 [Piston, <Railcraft:machine.beta:11>, Piston],
 [IronPlate, Piston, IronPlate]]);
+// -
+recipes.addShaped(VoidUp, [
+[IronPlate, SPiston, IronPlate],
+[Piston, <Railcraft:machine.beta:11>, Piston],
+[IronPlate, SPiston, IronPlate]]);
 
 // --- Storage Upgrade
 recipes.addShaped(StorageUp, [
 [SteelScrew, Piston, SteelScrew],
 [SteelScrew, Barrel, SteelScrew],
 [null, Screwdriver, null]]);
-
+// -
+recipes.addShaped(StorageUp, [
+[SteelScrew, SPiston, SteelScrew],
+[SteelScrew, Barrel, SteelScrew],
+[null, Screwdriver, null]]);
 
 
 // --- Add Avaritia Recipes ---
@@ -409,6 +434,8 @@ Assembler.addRecipe(Barrel, Plank6 * 8, Chest, 200, 16);
 
 // --- Storage Upgrade
 Assembler.addRecipe(StorageUp, Barrel, Piston, 1200, 16);
+// -
+Assembler.addRecipe(StorageUp, Barrel, SPiston, 1200, 16);
 
 // --- Storage Upgrade 3x
 Assembler.addRecipe(Storage3Up, StorageUp * 3, <gregtech:gt.integrated_circuit:3> * 0, 900, 30);

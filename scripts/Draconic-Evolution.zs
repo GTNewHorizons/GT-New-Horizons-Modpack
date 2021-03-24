@@ -614,11 +614,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:particleGenerator>, [
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, <ore:blockNeodymiumMagnetic>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null],
-[null, null, null, null, null, null, <ore:ingotDraconium>, null, null],
-[null, null, null, null, null, null, DCham, null, null],
-[null, null, null, null, null, null, <ore:ingotDraconium>, null, null],
-[null, <ore:blockNeodymiumMagnetic>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, <ore:ingotDraconium>, null, null],
+[null, <ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, null, null],
+[null, null, null, null, null, null, <ore:ingotSteelMagnetic>, null, null],
+[null, null, null, null, null, null, <gregtech:gt.metaitem.01:32518>, null, null],
+[null, null, null, null, null, null, <ore:ingotSteelMagnetic>, null, null],
+[null, <ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -626,11 +626,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet>, [
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet:1>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
-[null, <DraconicEvolution:draconium:2>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null],
-[null, null, null, null, null, null, <ore:ingotDraconiumAwakened>, null, null],
-[null, null, null, null, null, null, <DraconicEvolution:magnet>, null, null],
-[null, null, null, null, null, null, <ore:ingotDraconiumAwakened>, null, null],
-[null, <DraconicEvolution:draconium:2>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null],
+[null, <DraconicEvolution:magnet>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, null, null],
+[null, null, null, null, null, null, <ore:ingotNeodymiumMagnetic>, null, null],
+[null, null, null, null, null, null, <ore:ingotNeodymiumMagnetic>, null, null],
+[null, null, null, null, null, null, <ore:ingotNeodymiumMagnetic>, null, null],
+[null, <EnderIO:itemMagnet:0>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -770,16 +770,10 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:dislocatorReceptacle>
 recipes.addShapeless(<DraconicEvolution:safetyMatch:1000>, [<gregtech:gt.metaitem.01:32471>, <ore:dustDraconium>]);
 
 // --- Distortion Flame
-mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:xRayBlock> * 4, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null, null, null],
-[null, null, <ore:paneGlassColorless>, <ore:gemNetherStar>, <ore:plateDraconium>, <ore:gemNetherStar>, <ore:paneGlassColorless>, null, null],
-[null, null, <ore:paneGlassColorless>, <ore:plateDraconium>, <ore:gemDiamond>, <ore:plateDraconium>, <ore:paneGlassColorless>, null, null],
-[null, null, <ore:paneGlassColorless>, <ore:gemNetherStar>, <ore:plateDraconium>, <ore:gemNetherStar>, <ore:paneGlassColorless>, null, null],
-[null, null, null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
+recipes.addShaped(<DraconicEvolution:xRayBlock> * 8, [
+[<minecraft:glass_pane>, <gregtech:gt.metaitem.01:17330>, <minecraft:glass_pane>],
+[<gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.02:29500>, <gregtech:gt.metaitem.01:17330>],
+[<minecraft:glass_pane>, <gregtech:gt.metaitem.01:17330>, <minecraft:glass_pane>]]);
 
 // --- Energy Core
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyStorageCore>, [

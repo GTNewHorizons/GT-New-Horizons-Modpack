@@ -101,6 +101,9 @@ recipes.remove(<gregtech:gt.blockmachines:755>);
 // --- Advanced Boiler Chasssis HV
 recipes.remove(<miscutils:itemBoilerChassis:2>);
 
+// --- HV Tank
+recipes.remove(<gregtech:gt.blockmachines:820>);
+
 // --- Add Recipes ---
 
 
@@ -163,11 +166,23 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 576,
 // --- Useless Frame give Beekeeper coins
 recipes.addShapeless(<dreamcraft:item.CoinBeesI> * 16, [<miscutils:frameUseless>]);
 
+// --- Tumbaga Rod (until GT++ adds a proper recipe)
+recipes.addShaped(<miscutils:itemRodTumbaga>, [
+[<ore:craftingToolFile>, null, null],
+[null, <miscutils:itemIngotTumbaga>, null],
+[null, null, null]]);
+
 // --- Tumbaga Frame (until GT++ adds a proper recipe)
 recipes.addShaped(<miscutils:blockFrameGtTumbaga> * 2, [
 [<miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>],
 [<miscutils:itemRodTumbaga>, <ore:craftingToolWrench>, <miscutils:itemRodTumbaga>],
 [<miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>, <miscutils:itemRodTumbaga>]]);
+
+// --- Tumbaga Gear (until GT++ adds a proper recipe)
+recipes.addShaped(<miscutils:itemGearTumbaga>, [
+[<miscutils:itemRodTumbaga>, <miscutils:itemPlateTumbaga>, <miscutils:itemRodTumbaga>],
+[<miscutils:itemPlateTumbaga>, <ore:craftingToolWrench>, <miscutils:itemPlateTumbaga>],
+[<miscutils:itemRodTumbaga>, <miscutils:itemPlateTumbaga>, <miscutils:itemRodTumbaga>]]);
 
 // --- Wire Factory Controller (until GT++ changes it)
 recipes.addShaped(<gregtech:gt.blockmachines:798>, [
@@ -211,13 +226,17 @@ recipes.addShaped(<miscutils:itemBoilerChassis:2>, [
 [<gregtech:gt.blockmachines:5142>, <irontank:titaniumTank>, <gregtech:gt.blockmachines:5142>],
 [<ore:plateDoubleTitanium>, <gregtech:gt.blockmachines:5152>, <ore:plateDoubleTitanium>]]);
 
-
+// --- HV Tank
+recipes.addShaped(<gregtech:gt.blockmachines:820>, [
+[<ore:circuitPrimitive>, <ore:plateAluminium>, <ore:circuitPrimitive>],
+[<ore:plateDarkSteel>, <ore:pipeMediumSteel>, <ore:plateDarkSteel>],
+[<ore:circuitPrimitive>, <gregtech:gt.metaitem.01:32611>, <ore:circuitPrimitive>]]);
 
 
 
 // --- Assembler Recipes ---
 
 
-
-// --- Personla Cloaking Device
+// --- Personal Cloaking Device
 Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium> * 4, <gregtech:gt.metaitem.01:32597>, <liquid:molten.nichrome> * 1440, 2400, 7860);
+

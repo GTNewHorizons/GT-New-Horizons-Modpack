@@ -5082,7 +5082,7 @@ gtnh.quest1269.desc=If you need even more amps then craft a power tranformer wit
 
 # Quest.1270 - Time for a Spade
 gtnh.quest1270.name=Time for a Spade
-gtnh.quest1270.desc=This item is a combined Weeding Trowel, Hoe and Shovel. If you are the type that accidentally does things, only use this when necessary, as it's easy to mess up and use it to harvest your crops when you wanted to get rid of a weed. What? That's what it's supposed to do? Of course, but at truly §5abysmal§r drop rates. Ie: §4Don't use it!§r%n%nHowever, you can right click to get seeds at the initial maturity state, so if oyu can't grow it to maturity, or want to get a crop immediately, use away. Keep in mind that the higher the tier/stats of the crop, the lower the chances. By a lot.%n%n§3The formula is 1+tanh((-1)(X+5((-Re/2)+Gr+Ga)/21)/12); X=0 to 16%n%nWhere Re, Gr, Ga are respectively Resistance, Growth and Gain stat of the crop, and X is tier.
+gtnh.quest1270.desc=This item is a combined Weeding Trowel, Hoe and Shovel. If you are the type that accidentally does things, only use this when necessary, as it's easy to mess up and use it to harvest your crops when you wanted to get rid of a weed. What? That's what it's supposed to do? Of course, but at truly §5abysmal§r drop rates. Ie: §4Don't use it!§r%n%nHowever, you can right click to get seeds at the initial maturity state, so if you can't grow it to maturity, or want to get a crop immediately, use away. Keep in mind that the higher the tier/stats of the crop, the lower the chances. By a lot.%n%n§3The formula is 1+tanh((-1)(X+5((-Re/2)+Gr+Ga)/21)/12); X=0 to 16%n%nWhere Re, Gr, Ga are respectively Resistance, Growth and Gain stat of the crop, and X is tier.
 
 # Quest.1271 - §9§lExtruder HV
 gtnh.quest1271.name=§9§lExtruder HV
@@ -8842,7 +8842,7 @@ gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees yo
 
 # Quest.2210 - §a§lDealing with Radiation
 gtnh.quest2210.name=§a§lDealing with Radiation
-gtnh.quest2210.desc=Nuclear materials cause two types of radiation effects. One is a large number of standard debuffs. These can be removed the normal ways, with milk or terra wart or other methods that imitate them. %n%nThe other effect is a special Radiation  unique debuff.  This gets applied the longer you hold onto the radioactive item. Severely radioactive items can apply minutes of this deadly debuff. Regeneration might delay the inevitable death, but most regneration sources aren't fast enough or long enough to keep you alive. You can try using an Amulet of Remedium to get rid of the effects. You should have one from your Moon trip, if not you'll have to dive into Thaumcraft to make one.
+gtnh.quest2210.desc=Nuclear materials cause two types of radiation effects. One is a large number of standard debuffs. These can be removed the normal ways, with milk or terra wart or other methods that imitate them. %n%nThe other effect is a special Radiation  unique debuff.  This gets applied the longer you hold onto the radioactive item. Severely radioactive items can apply minutes of this deadly debuff. Regeneration might delay the inevitable death, but most regeneration sources aren't fast enough or long enough to keep you alive. You can try using an Amulet of Remedium to get rid of the effects. You should have one from your Moon trip, if not you'll have to dive into Thaumcraft to make one.
 
 # Quest.2211 - Basic Bee Stats
 gtnh.quest2211.name=Basic Bee Stats

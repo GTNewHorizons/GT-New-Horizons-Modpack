@@ -92,6 +92,9 @@ Arcane.removeRecipe(<thaumicbases:nodeLinker>);
 recipes.removeShaped(<thaumicbases:crystalSlab:*>);
 recipes.removeShaped(<thaumicbases:genericSlab:*>);
 
+// --- Overenchanter
+mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:overchanter>);
+
 
 
 // --- Adding Recipes ---
@@ -113,7 +116,7 @@ recipes.addShapeless(<thaumicbases:relocator:6>, [alumentum, <thaumicbases:reloc
  
 // --- Advanced Alchemical Furnace 
 Infusion.addRecipe("TB.AdvAlc",<Thaumcraft:blockStoneDevice:0>,
-[<Railcraft:machine.beta:4>,<gregtech:gt.metaitem.01:22305>,<Thaumcraft:blockCosmeticSolid:4>,<Thaumcraft:blockMetalDevice>,<thaumicbases:crystalBlock:1>,<Thaumcraft:blockCosmeticSolid:4>,<gregtech:gt.metaitem.01:22305>],
+[<Railcraft:machine.beta:4>,<gregtech:gt.metaitem.01:22305>,<gregtech:gt.blockmetal7:4>,<Thaumcraft:blockMetalDevice>,<thaumicbases:crystalBlock:1>,<gregtech:gt.blockmetal7:4>,<gregtech:gt.metaitem.01:22305>],
 "ignis 48, potentia 32, machina 16, metallum 16, praecantatio 24",<thaumicbases:advAlchFurnace>,6);
 
 // --- Thaumic Anvil
@@ -228,6 +231,13 @@ Infusion.addRecipe("TB.NodeMan",<Thaumcraft:blockStoneDevice:11>,
 Infusion.addRecipe("TB.NodeLinker",<Thaumcraft:blockStoneDevice:11>,
 [<Thaumcraft:blockMetalDevice:14>,<gregtech:gt.metaitem.01:32681>,<dreamcraft:item.ReinforcedGlassLense>,<Thaumcraft:blockCosmeticSolid:7>,<Thaumcraft:blockCosmeticSolid:6>,<Thaumcraft:blockCosmeticSolid:6>,<Thaumcraft:blockCosmeticSolid:7>,<dreamcraft:item.ReinforcedGlassLense>,<gregtech:gt.metaitem.01:32681>],
 "potentia 64,machina 48,instrumentum 40, ordo 32, electrum 32",<thaumicbases:nodeLinker>,5);
+
+// --- Overchanting Table
+Infusion.addRecipe("TB.Overchanter",<minecraft:enchanting_table>,
+[<thaumicbases:crystalBlock:0>, <thaumicbases:crystalBlock:1>, <thaumicbases:crystalBlock:2>, <thaumicbases:crystalBlock:3>, <thaumicbases:crystalBlock:4>, <thaumicbases:crystalBlock:5>, <thaumicbases:crystalBlock:6>, <thaumicbases:crystalBlock:6>, <thaumicbases:blockSalisMundus>, <gregtech:gt.blockmetal7:4>, <gregtech:gt.blockmetal7:4>],
+"aer 32, aqua 32, terra 32, ignis 32, ordo 32, perditio, praecantatio, machina 32, cognito 32",<thaumicbases:overchanter>,15);
+
+
 
 // --- Thaumic Bracelets 
 
@@ -366,7 +376,8 @@ Crucible.addRecipe("TB.SM", <Thaumcraft:ItemResource:14> * 2, <Thaumcraft:ItemRe
 // --- Amber
 Crucible.addRecipe("TB.Amber", <Thaumcraft:ItemResource:6>, <minecraft:sapling:1>, "vinculum 4");
 
-
+// --- Quicksilver
+Crucible.addRecipe("TB.Quicksilver", <Thaumcraft:ItemResource:3>, <Thaumcraft:blockMagicalLog:1>, "ordo 1, venenum 1");
 
 // --- Deco Blocks
 CuttingSaw.addRecipe([<thaumicbases:genericSlab:0> * 2], <thaumicbases:eldritchArk>, <liquid:water> * 32, 200, 30);
@@ -594,6 +605,8 @@ Research.addInfusionPage("TB.NodeLinker",<thaumicbases:nodeLinker>);
 // --- Salis douplication
 Research.refreshResearchRecipe("TB.SM");
 
+// --- Overchanting Table
+Research.refreshResearchRecipe("TB.Overchanter");
 
 
 // --- Ordict remove ---

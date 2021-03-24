@@ -471,6 +471,8 @@ Extractor.addRecipe(<minecraft:dye:14> * 4, <HardcoreEnderExpansion:crossed_deco
 // --- Sphalerite to crushed dust
 ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:5839> * 2, <HardcoreEnderExpansion:sphalerite>, 4, 10);
 
+// --- Instabiliti Ore Block
+ForgeHammer.addRecipe(<HardcoreEnderExpansion:instability_orb> * 6, <HardcoreEnderExpansion:instability_orb_ore>, 50, 120);
 
 
 // --- Lathe Recipes ---
@@ -489,10 +491,10 @@ Lathe.addRecipe([<HardcoreEnderExpansion:obsidian_rod>], <HardcoreEnderExpansion
 
 
 // --- Ender Powder Dust
-Pulverizer.addRecipe([<HardcoreEnderExpansion:end_powder> * 4], <HardcoreEnderExpansion:end_powder_ore>, [10000], 50, 480);
+Pulverizer.addRecipe([<HardcoreEnderExpansion:end_powder> * 8], <HardcoreEnderExpansion:end_powder_ore>, [10000], 50, 480);
 
 // --- Igneous Rock
-Pulverizer.addRecipe([<HardcoreEnderExpansion:igneous_rock> * 2], <HardcoreEnderExpansion:igneous_rock_ore>, [10000], 50, 480);
+Pulverizer.addRecipe([<HardcoreEnderExpansion:igneous_rock> * 4], <HardcoreEnderExpansion:igneous_rock_ore>, [10000], 50, 480);
 
 // --- Endium Dust
 Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2770> * 9], <HardcoreEnderExpansion:endium_block>, [10000], 50, 480);
