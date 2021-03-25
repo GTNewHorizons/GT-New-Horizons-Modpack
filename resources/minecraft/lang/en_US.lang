@@ -306,11 +306,11 @@ gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! 
 
 # Quest.76 - §6§lTime to get some steel
 gtnh.quest76.name=§6§lTime to get some steel
-gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...%n%nIf you are short on Stone Dust, you can get more by macerating cobblestone.%n%n§4I know it's a huge pain, but collect all of a material before you move on to the next step. BQ3 detects the highest amount in your inventory, not total over time, so you'll just have to do it again if you start firing bricks before getting all the unfired ones, for example.
+gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...%n%n§3If you are short on Stone Dust, you can get more by macerating cobblestone.%n%n§4You'll need 432 unfired clay brick, 432 brick, 108 clay and brick dust, 216 compressed fireclay, and 216 firebrick. Collect all the required materials for these first, or you'll have to do it again. Also, don't make the firebrick blocks until you collect all the gypsum you need unless you want to be forced to get more.
 
 # Quest.77 - §r§6§l§5§l§o§l§r§6§lEBF-Time
 gtnh.quest77.name=§r§6§l§5§l§o§l§r§6§lEBF-Time
-gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky...but you can use a substitute for the first tier of coils.%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Bart's Platinum Series recipes otuput fluids on the BOTTOM, so if you want to do Platinum Stuff later, remember that.%n%nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier +/- MV. Basically, for CuNi Coils, with an LV Energy Hatch, the heat capacity is 1701K (-100), MV=1801K (no change), HV=1901K (+100), etc. Coils only set the base value.%n%nThis adjustment does not apply to the Volcanus or MEBF.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.%n
+gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky...but you can use a substitute for the first tier of coils.%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Bart's Platinum Series recipes output fluids on the BOTTOM, so if you want to do Platinum Stuff later, remember that.%n%nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier +/- MV. Basically, for CuNi Coils, with an LV Energy Hatch, the heat capacity is 1701K (-100), MV=1801K (no change), HV=1901K (+100), etc. Coils only set the base value.%n%nThis adjustment does not apply to the Volcanus or MEBF.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.%n
 
 # Quest.78 - §6§lUpgrade #1: More heat - Kanthal Coils
 gtnh.quest78.name=§6§lUpgrade #1: More heat - Kanthal Coils
@@ -326,11 +326,11 @@ gtnh.quest80.desc=Martin's (DreamMasterXXL) favourite machine. Compress ALL the 
 
 # Quest.81 - §6§lAt the end of...
 gtnh.quest81.name=§6§lAt the end of...
-gtnh.quest81.desc=...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff. You will need a minimum of 16 frost proof machine casings, the rest depends on your setup.%n%nYou will need to make EV circuits in a cleanroom to build this machine.
+gtnh.quest81.desc=...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore we present you the vacuum freezer. It should be good enough to cool your hot stuff. Ingots that go through the EBF above a certain temperature will come out as hot ingots that need to be cooled. You will need a minimum of 16 frost proof machine casings, the rest depends on your setup.
 
 # Quest.82 - §7§6§lAn unexpected Bonus
 gtnh.quest82.name=§7§6§lAn unexpected Bonus
-gtnh.quest82.desc=Because we're nice developers, we decided to add a little bonus if you happen to compress charcoal. Not only does it allow you to process more than 16 steel at a time (not in the bricked blast furnace), it also yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)
+gtnh.quest82.desc=Because we're nice developers, we decided to add a little bonus if you happen to compress charcoal. Use it in the bricked blast furnace, or in a boiler, it yields 10 times the burn time of a piece of charcoal. So one charcoal for free. This bonus only occurs on the first compression step. (But for fanciness, you should definitely get a quintuple one!)%n%n§3Of course, if you're not using BBFs or boilers, they're kinda useless.
 
 # Quest.83 - §6§lHigh speed charcoal
 gtnh.quest83.name=§6§lHigh speed charcoal
@@ -508,9 +508,9 @@ gtnh.quest125.desc=Your turrets probably need more space to hold more ammunition
 gtnh.quest126.name=§6§lElectrolysing all the things
 gtnh.quest126.desc=Collected a lot of dusts since you started with macerating, washing and centrifuging ores? Until now you couldn't separate them. It's time to get all the pure and valuable materials out of them.
 
-# Quest.127 - Project red beginning (hidden)
-gtnh.quest127.name=Project red beginning (hidden)
-gtnh.quest127.desc=Welcome to Project Red!%n%nThis quest will teach you the basics of Projectred and show you how to set up a Ghetto AE system.%n%nThe Ghetto AE system will be really useful for sorting all of your first items%n%nFirst of all there are different types of pipes: %n%nItem Transport pipes are the most basic pipes, classified as Null-logic. They don't do anything besides connect other pipes together.%nItem Transport pipes only have the ability to take items that enter it and pass them along to another connected pipe. They will NOT connect to inventories at all. In a junction where there is more than 1 possible direction, item payloads will travel in a randomly selected direction.%n %nRouted pipes are the most advanced. These pipes 'communicate' with one-another to form pipe networks, in order to allow for incredibly complicated demand driven systems, with absolutely no redstone circuitry required.%n %nPressurized pipes are pipes that use a pressure based routing system where the payload travels to the closest inventory that can accept it. Finding the closest inventory is influenced by both distance and Pressure Resistance Pipes (which, to the path finder, are 1000 blocks long), but the actual path that items take is only influenced by distance.%n%nHowever, in order to control the logic of the routed pipes you will need special circuit chips.
+# Quest.127 - Project red beginning
+gtnh.quest127.name=Project red beginning
+gtnh.quest127.desc=Welcome to Project Red!%n%nThis quest will teach you the basics of Projectred and show you how to set up a Ghetto AE system.%n%nThe Ghetto AE system will be really useful for sorting all of your first items%n%nFirst of all there are different types of pipes: %n%nItem Transport pipes are the most basic pipes, classified as Null-logic. They don't do anything besides connect other pipes together.%nItem Transport pipes only have the ability to take items that enter it and pass them along to another connected pipe. They will NOT connect to inventories at all. In a junction where there is more than 1 possible direction, item payloads will travel in a randomly selected direction.%n %nRouted pipes are the most advanced. These pipes 'communicate' with one-another to form pipe networks, in order to allow for incredibly complicated demand driven systems, with absolutely no redstone circuitry required.%n %nPressurized pipes are pipes that use a pressure based routing system where the payload travels to the closest inventory that can accept it. Finding the closest inventory is influenced by both distance and Pressure Resistance Pipes (which, to the path finder, are 1000 blocks long), but the actual path that items take is only influenced by distance.%n%nHowever, in order to control the logic of the routed pipes you will need special circuit chips.%n%n§4Note: I have no idea how PR works, or if this questline is entirely a duplicate, and have zero willpower to read all the boring text and find out, so I just unhid them since no one came forward with any info after I asked. If it should be removed or w/e, make a ticket.
 
 # Quest.128 - §6§lIO, IO, it's off to EnderIO we go
 gtnh.quest128.name=§6§lIO, IO, it's off to EnderIO we go
@@ -1930,7 +1930,7 @@ gtnh.quest481.desc=I guess you already processed a bit of wood into charcoal and
 
 # Quest.482 - §2§lAnimal farms
 gtnh.quest482.name=§2§lAnimal farms
-gtnh.quest482.desc=Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other (this happens to villagers as well).%n%nAnimals will prioritize moving towards grass blocks over any other blocks, and if there's no grass blocks around, lit blocks over dark blocks. You can encourage animals to stay in pens (or at least not crowd the edges) by removing grass from around both sides of the fence (and under!) and placing a torch in the center of the pen. For sheep that need the grass to eat (reduces time to mature and replaces sheared wool instantly), place it in the center of a cleared out area with a border of non-grass.%n%nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So make sure you limit animals to no more than ~ 1 per block for small entities like chickens and 1 entity per 2 blocks for large entities like cows if playing MP.
+gtnh.quest482.desc=Trying to get some leather or wool? You probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other (this happens to villagers as well).%n%nAnimals will prioritize moving towards grass blocks over any other blocks, and if there's no grass blocks around, lit blocks over dark blocks. You can encourage animals to stay in pens (or at least not crowd the edges) by removing grass from around both sides of the fence (and under!) and placing a torch in the center of the pen. For sheep that need the grass to eat (reduces time to mature and replaces sheared wool instantly), place it in the center of a cleared out area with a border of non-grass.%n%nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So make sure you limit animals to no more than ~ 1 per block for small entities like chickens and 1 entity per 2 blocks for large entities like cows if playing MP.%n%n§3PS: Mutton amount was reduced because apparently mutton and calamari (from squid) drops are extremely low on servers for some reason.%n%nPPS: Most animal/mob drops can be gotten from less laggy IC2 crop farms.
 
 # Quest.483 - §2§lGardener
 gtnh.quest483.name=§2§lGardener
@@ -2030,7 +2030,7 @@ gtnh.quest506.desc=In order to continue with bees, to mutate and breed them as y
 
 # Quest.507 - Upgraded Home
 gtnh.quest507.name=Upgraded Home
-gtnh.quest507.desc=The Bee House can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones. %n%nTo actually breed those together to get a new species, you'll need something different - the Apiary. Building them will require a Carpenter and Impregnated frames, along with Seedoil and Creosote - quite a bit of industrialization! Or, if you're lucky, you can find a beekeeper villager to trade with for useful items. Maybe you can help the villagers *get lucky* to make more beekeeper villagers? If only Cupid and his bow were around...%n%nProduction rates in an empty Apiary are low - lower than a Bee House by quite a bit, in fact.  But the Apiary has two big advantages - Frames, and Automation. You can now use your Untreated or Impregnated frames in here to boost output - and the boost is multiplied. So 3 x2 frames gives you 2 * 2 * 2 = 8x extra output! You can also automate I/O for the bees and their products, though not frames unfortunately.%n%nAlso, you should check the Genetics mod for useful machines. The Acclimatiser can give very picky bees a much wider temperature or humidity tolerance without having to breed it into them.
+gtnh.quest507.desc=The Bee House can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones. %n%nTo actually breed those together to get a new species, you'll need something different - the Apiary. Building them will require a Carpenter and Impregnated frames, along with Seedoil and Creosote - quite a bit of industrialization! Or, if you're lucky, you can find a beekeeper villager to trade with for useful items. Maybe you can help the villagers *get lucky* to make more beekeeper villagers? If only Cupid and his bow were around...%n%nProduction rates in an empty Apiary are low - lower than a Bee House by quite a bit, in fact.  But the Apiary has two big advantages - Frames, and Automation. You can now use your Untreated or Impregnated frames in here to boost output - and the boost is multiplied. So 3 x2 frames gives you 2 * 2 * 2 = 8x extra output! You can also automate I/O for the bees and their products, though not frames unfortunately.%n%nBees also don't live as long as in a Bee House, but that's actually a good thing.%n%nAlso, you should check the Genetics mod for useful machines. The Acclimatiser can give very picky bees a much wider temperature or humidity tolerance without having to breed it into them.
 
 # Quest.508 - Mutatron
 gtnh.quest508.name=Mutatron
@@ -2162,7 +2162,7 @@ gtnh.quest539.desc=After purification of your ore dust, you can centrifuge it to
 
 # Quest.540 - §5§lA truly sharp saw blade
 gtnh.quest540.name=§5§lA truly sharp saw blade
-gtnh.quest540.desc=Combining cobalt brass and diamond dust makes a really sharp saw blade for your cutting machine.
+gtnh.quest540.desc=Combining cobalt brass and diamond dust makes a really sharp saw blade for your cutting machine.%n%n§3BTW, this is the only use for cobalt brass in the game, pretty pointless, yeah?
 
 # Quest.541 - §5§lA new alloy - Cobalt Brass
 gtnh.quest541.name=§5§lA new alloy - Cobalt Brass
@@ -2200,8 +2200,8 @@ gtnh.quest548.desc=The first step is to distill your oil into light sulfuric fue
 gtnh.quest549.name=§5§lLight fuel
 gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 305,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of light and heavy fuel.
 
-# Quest.550 - §5§lH like Hydrogen... rest of the alphabet is too complicated...
-gtnh.quest550.name=§5§lH like Hydrogen... rest of the alphabet is too complicated...
+# Quest.550 - §5§lH like Hydrogen... the rest of the alphabet is too complicated...
+gtnh.quest550.name=§5§lH like Hydrogen... the rest of the alphabet is too complicated...
 gtnh.quest550.desc=Centrifuge some brown or yellow limonite dust to get some hydrogen, or use an Electrolyser with some water to produce it in a fluid form.
 
 # Quest.551 - §5§lHeavy Sulfuric fuel
@@ -2474,7 +2474,7 @@ gtnh.quest617.desc=The fluid canner is a fundamental machine, since it is necess
 
 # Quest.618 - §5§lSulfuric acid
 gtnh.quest618.name=§5§lSulfuric acid
-gtnh.quest618.desc=Combining sulfur trioxide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. If you have made some light or heavy fuel already maybe you have some spare hydrogen sulfide. If not, you can always make sulfuric acid with some sulfur and water in the chemical reactor.
+gtnh.quest618.desc=Combining sulfur trioxide and water in the chemical reactor will give you sulfuric acid for your single use acid batteries. You'll need to make sulfur dioxide first.%n%nOn the other hand if you've made some light fuel you'll have some spare hydrogen sulfide you can also turn into sulfuric acid (after a couple steps), and if you've automated it, you'll be drowning in it honestly. Once you can make an LCR, you can skip directly from HS to SA in one step. Keep in mind that you'll need all that acid for making stuff instead of for single use batteries by then.
 
 # Quest.619 - §5§lBattery buffer
 gtnh.quest619.name=§5§lBattery buffer
@@ -2650,7 +2650,7 @@ gtnh.quest661.desc=Wow, your first handmade *ehm* machine made bow. You find out
 
 # Quest.662 - §5§lBasic arc furnace
 gtnh.quest662.name=§5§lBasic arc furnace
-gtnh.quest662.desc=The arc furnace is an alternative to smelting stuff back into components and making wrought iron. The recipes use oxygen and 3 amperes of power.
+gtnh.quest662.desc=The arc furnace is an alternative to smelting stuff back into components and making wrought iron (and glass in MV). The recipes use oxygen and 3A of power.%n%n§3And no, you can't just send 1A of MV, that'll just cause an explosion.
 
 # Quest.663 - §5§lFaster steel production
 gtnh.quest663.name=§5§lFaster steel production
@@ -2884,8 +2884,8 @@ gtnh.quest719.desc=New plants have grown on your crop sticks. You can harvest th
 gtnh.quest720.name=Weeds II
 gtnh.quest720.desc=Weeds, weeds, and more weeds. You get so many of them while cross breeding. %n%nNeed some biogas cells for your power production in exchange? Or maybe some glowstone to light up your fields?
 
-# Quest.721 - Unknown seeds no more
-gtnh.quest721.name=Unknown seeds no more
+# Quest.721 - Unknown Seeds No More
+gtnh.quest721.name=Unknown Seeds No More
 gtnh.quest721.desc=You have a lot of unknown seeds already. Use your scanner to scan all the seeds.%n %nSeeds can be planted again to breed better and more resilient crops.%n%nLater you can use your portable scanner to see the crop stats while still in the ground.%n%nGrowability depends on having dirt beneath your crop(4 max), biome (swampy is best, followed by jungle and mushroom - basically any humid or wet biome such as tropical rainforest or bayou), air quality (Up toY=124 and don't place a lot above/around your plants), hydration, and fertilizer.  When the crop tier and plant stats get high enough, they will actually die without enough Growability.%n%nAs long as you water and fertilize them, you can pretty much grow crops anywhere, but as you improve the stats you have to optimize their environmental conditions.%n%nIf the Growth stat gets too high, greather than 24 or so, the plant will spread weeds onto neighbors.%n%nSome crops, such as Redwheat, require certain light levels to crossbreed or grow.
 
 # Quest.722 - Speed up your plant growth
@@ -2948,16 +2948,16 @@ gtnh.quest735.desc=If you are lucky and find some brewing stands or familiar eno
 gtnh.quest736.name=§6§lFermented Biomass
 gtnh.quest736.desc=Processing your biomass to get more products out of it like methanol, ethanol, bio gas.
 
-# Quest.737 - Can u eat those?  (hidden)
-gtnh.quest737.name=Can u eat those?  (hidden)
+# Quest.737 - Can u eat those?
+gtnh.quest737.name=Can u eat those?
 gtnh.quest737.desc=No you can't eat them but you can add them to your routed pipes. Without chips routed pipes can't do anything on their own, chips also have a GUI to configure them which can be opened by right clicking. %nThere are 8 types of chips:%n%n-Item extractor chip can be used to send items from its inventory to responder, dynamic responder, terminator and overflow responder chips in a pipe network. %n%n-Item responder chip will request items from the extractor chips in your network which match the filter configured to the inventory connected to the responder chip. Chips with higher priority value will receive items first until the inventory is full then will be sent to other inventories with valid filters and remaining space.%n%n-Dynamic item responder chip will request items from the extractor chips in your network that match items inside the dynamic item responder connected inventory. This chip has to be in the same interface pipe as the item responder chip in order to work. Priority rules apply here as well. %n%n-Item overflow responder works exactly the same as the item responder chip, however it only accepts items that cannot go to an item responder chip, dynamic item responder chip, or item terminator chip. %n%n-Item terminator chip works as a backup for responder chips.%n%n-Item broadcaster chip will show you the inventory connected to the routed request pipe on the pipe network and can be used to retrieve items from it. They can also extract from the side you configure. %n%n-Item stock keeper chip will constantly check the network for items and pull them to its pipe. If the chip is set to pull when empty, it will only pull if the inventory next to it is empty, otherwise it will pull when there are less items in the inventory than configured in the chip.%n%n-Item crafting chips craft things. %n%n-Item crafting extension chips are placed inside the item crafting chips. Make sure you randomize the id.
 
-# Quest.738 - Routed Pipes (hidden)
-gtnh.quest738.name=Routed Pipes (hidden)
+# Quest.738 - Routed Pipes
+gtnh.quest738.name=Routed Pipes
 gtnh.quest738.desc=There are six types of routed pipes: %n%n-Junction pipe is used to form an intersection that will allow other routed pipes to communicate. %n%n-Interface pipe will connect to an inventory allowing you to extract or insert items, chips can be used to control the logic. %n%n-Request pipe will allow requesting only specific items to be send through pipes.%n%n-Firewall pipe can control which items can pass through them.
 
-# Quest.739 - Ghetto ME System (hidden)
-gtnh.quest739.name=Ghetto ME System (hidden)
+# Quest.739 - Ghetto ME System
+gtnh.quest739.name=Ghetto ME System
 gtnh.quest739.desc=Now that you are familiar with the mod it's time to organize items in your base a bit. These are the things you need in order to get a basic extract/insert system.%n%nFirst of all you will need a drawer controller. You can pick it from here or craft it yourself and place it down. Next to it add as much drawers as you want, and make sure they are touching each other or the controller.%n%nThe next step is to connect a routed interface pipe to your drawer controller. Take the item responder chip and configure it to filter mode: blacklist (this will allow you to get any items from your system) and add the chip to the routed interface pipe by right clicking on it. Don't forget the dynamic item responder.%n%nIn order to allow your system to be able to see items you need to add the item broadcast chip TO THE SAME ROUTED INTERFACE PIPE WHICH IS CONNECTED TO THE DRAWER CONTROLLER.%n%nThe last step is to connect a routed request pipe IN THE SAME NETWORK AS THE ROUTED INTERFACE PIPE and right click it to access the GUI. You can only extract items from it. In order to insert items simply right click them on the drawer controller. %n%nYou can find more complex tutorials on youtube for autocrafting.
 
 # Quest.740 - §6§lExtrude all the things
@@ -3070,7 +3070,7 @@ gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil 
 
 # Quest.767 - §6§lAnalyzing the soil
 gtnh.quest767.name=§6§lAnalyzing the soil
-gtnh.quest767.desc=Tired of looking for ores by hand? Want to find deep oil that will last a long time? A seismic prospector will tell you the ores in the surrounding chunk in a handy book you can read, and also the oil in the oilfields beneath each 8x8 chunks.%n%nTo determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking an Advanced Seismic Prospector with 2 Powderbarrels, 4 Glyceryl Trinitate cells, 8 iTNT or 16 TNT.  Make sure you wait a few seconds after placing the prospector before applying the explosives.%n%nThen use a Data Stick to extract the data by right clicking on it after the animation has finished.%n%nNow you need to put the analyzed data stick in a GT scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have at least 144 mb squid ink in it. (Only gregtech machines will work)%n%nAfter the process is done take the printed pages and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don't assemble more than one book at time.%n%nTADA now you have a book with detailed info about the chunks you scanned.%n%nNote: Each oilfield is 8x8 chunks, and always on a by 8 chunk boundary. Within the field the amount can vary +- 25 percent. The amount reported in the book is the minimum and maximum per oilfield across all chunks in the field. The prospector reports on 3x3 oil fields at all tiers with the center oil field where the seismic prospector is located. Oil extraction rate depends on many factors, check the wiki for details. In general, anything above 300 is really good. The total amount in the chunk is complicated. %n%nOre locations are given as the center of the chunk. Ores that are marginal in that chunk may not be found in the center but on an edge. Look at where ores are located and determine the center of the vein. At higher tiers, it scans more chunks for ores.
+gtnh.quest767.desc=Tired of looking for ores by hand? Want to find underground oil that will last a long time? A seismic prospector will tell you the ores in the surrounding chunks in a (sorta) handy book you can read, and also the underground fluids beneath you. §3PS, it doesn't need to be powered.§r%n%nTo determine which kind of fluid (4 types of oil, or natural gas for the OW. See the quest in tips and tricks once you've made an oil drill) there is in the chunk you need to scan the soil by right clicking an Advanced §3(This one doesn't explode the user too on use. Features!)§r Seismic Prospector with 2 Powderbarrels, 4 Glyceryl Trinitate cells, 8 iTNT or 16 TNT. §3(I have no idea why the more expensive ones take more either. Just accept this small kindness.)§r  Make sure you wait a few seconds after placing the prospector before applying the explosives. Otherwise, §4Boom!§r%n%n1) Right click explosives.%n2) Use a Data Stick to extract the data by right clicking on it after the animation has finished.%n3) Next you need to put the data stick in a GT scanner to have it analyzed.%n4) Place the analyzed data stick in the bottom right slot of a printer and add 3 paper in the top left slot and make sure you have at least 144L squid ink in it.%n5) Take the printed pages and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue.%n%nTADA now you have a book with detailed info about the chunks you scanned.%n%nOre locations are given as the center of the chunk. Ores that are marginal in that chunk may not be found in the center but on an edge. Look at where ores are located and determine the center of the vein. At higher tiers, it scans more chunks for ores. If you just want to know about fluids, use the lower tier version so the book isn't as long.%n%nNote: Each underground fluid field is 8x8 chunks. This starts at 0,0 and continues for 8 chunks east and south, containing 64 chunks. Not all fields have anything in them though. Within the field the amount can vary +/- 25 percent. The amount reported in the book is the minimum and maximum per field across all chunks in the field. The prospector reports on 3x3 fields (as in, 9 fields of 8x8 chunks) at all tiers with the center field where the seismic prospector is located. Fluid extraction rate depends on many factors, check the wiki for details. In general, anything above 300 is really good. The total amount in the chunk is complicated. %n%n
 
 # Quest.768 - §6§lYou smell like a distillery!
 gtnh.quest768.name=§6§lYou smell like a distillery!
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=Every basic circuit needs two resistors to work
 
 # Quest.836 - §5§lGallium Arsenide
 gtnh.quest836.name=§5§lGallium Arsenide
-gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier. You can get gallium out of them by using a thermal centrifuge.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80 - 210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. %n%nYou can get arsenic from realgar small ores in the Nether at Y 5 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest, but that requires MV Voltage.%n%nYou need to level up your pickaxe to ardite or make an Ironwood Pickaxe to harvest cobalt ore.%n%nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.%n%nMix those two dusts in a mixer to get gallium arsenic dust.%n%nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.
+gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier. You can get gallium out of them by using a thermal centrifuge.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80 - 210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. %n%nYou can get arsenic from realgar small ores in the Nether at Y 15 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest, but that requires MV Voltage.%n%nYou need to level up your pickaxe to ardite or make an Ironwood Pickaxe to harvest cobalt ore.%n%nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.%n%nMix those two dusts in a mixer to get gallium arsenic dust.%n%nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -3432,13 +3432,9 @@ gtnh.quest856.desc=To make 1,1-Dimethylhydrazine you need to combine some Hydraz
 gtnh.quest857.name=§9§lFormaldehyde
 gtnh.quest857.desc=Combining Oxygen and Methanol along with a Formaldehyde Catalyst in a Chemical Plant produces some Formaldehyde.
 
-# Quest.858 - §9§lChloramine
-gtnh.quest858.name=§9§lChloramine
-gtnh.quest858.desc=Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.%nChloramine has no use at the moment but maybe later we will think of something.
-
 # Quest.859 - §a§9§lHypochlorous Acid
 gtnh.quest859.name=§a§9§lHypochlorous Acid
-gtnh.quest859.desc=Hypochlorous acid requires water, chlorine and some mercury.%nIt can be burned in the Acid Generator.
+gtnh.quest859.desc=Hypochlorous acid requires water, chlorine and some mercury.%n%nIt can be burned in the Acid Generator, or made into epichlorohydrin.
 
 # Quest.860 - §9§lTitanium finally
 gtnh.quest860.name=§9§lTitanium finally
@@ -3550,7 +3546,7 @@ gtnh.quest886.desc=You feel lonely. At least you're not a big cry-baby?
 
 # Quest.887 - A Wizard's Staff has a Knob on the End
 gtnh.quest887.name=A Wizard's Staff has a Knob on the End
-gtnh.quest887.desc=Join the core with two wand caps, a twilight forest mob drop, and screws just as for making a wand. A staff cannot be used for crafting, but holds 250 percent as much vis as a corresponding wand. It can even serve as a backup weapon for melee. While it cannot receive weapon enchantments, its damage is decent, and it does not take damage with use (no durability bar).
+gtnh.quest887.desc=Join the core with two wand caps, a twilight forest mob drop, and screws just as for making a wand. A staff cannot be used for crafting, but holds 250 percent as much vis as a corresponding wand. It can even serve as a backup weapon for melee. While it cannot receive weapon enchantments, its damage is decent, and it does not take damage with use (no durability bar).%n%n§4PS: Currently all staffs are broken, you can only get staffters. Blame the person who broke them and didn't fix it.
 
 # Quest.888 - Silverfish
 gtnh.quest888.name=Silverfish
@@ -3662,7 +3658,7 @@ gtnh.quest914.desc=Nobody knows who they are, or where they came from. They're j
 
 # Quest.915 - Time to kill (Enderman)
 gtnh.quest915.name=Time to kill (Enderman)
-gtnh.quest915.desc=Uh, fancy teleport pearls. You need them. All of them. Now!
+gtnh.quest915.desc=Uh, fancy teleport pearls. You need them. All of them. Now!%n%n§3PS: You only need to kill one type. Blame SM for their method of creating new endermen types for this.
 
 # Quest.916 - Time to kill (Wither)
 gtnh.quest916.name=Time to kill (Wither)
@@ -3722,7 +3718,7 @@ gtnh.quest929.desc=The highest tier of the blood altar is tier 6. You need pilla
 
 # Quest.930 - §5§lAuto Mining
 gtnh.quest930.name=§5§lAuto Mining
-gtnh.quest930.desc=A miner in LV age? Wow! This nifty machine will find ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 8 EU/t to work. The miner searches for ores in a 17x17 block work area (adjustable with a screwdriver). Now comes with 1 fortune bonus! Great for gathering additional small ores...%n%nDon't forget to cover it up! These are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest930.desc=Automatic mining in LV age? Wow! This nifty machine will collect ores for you. Place up to two stacks of mining pipes in the right slots. This machine needs 8 EU/t to work. The miner searches for ores in a 17x17 block work area (adjustable with a screwdriver), and comes with a level 1 fortune bonus! Great for gathering additional small ores!%n%nDon't forget to cover it up! These are GT machines, so remember to protect them (and their power sources!) from rain on all sides. And set a waypoint with Journeymap so you don't forget where you placed it if you place it far away!
 
 # Quest.931 - §6§lAuto Mining MV
 gtnh.quest931.name=§6§lAuto Mining MV
@@ -3762,7 +3758,7 @@ gtnh.quest939.desc=Your hoe must be getting worn out by now. Why not craft an el
 
 # Quest.940 - §6§lCleanroom
 gtnh.quest940.name=§6§lCleanroom
-gtnh.quest940.desc=If you want to make more advanced circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxD) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls.  You can pass 1A of power using Machine Hulls as well, or you can use Diodes to pass multiple amps through walls.%n%nJust be really careful when upgrading you machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom. Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one.
+gtnh.quest940.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch, a reinforced door (yes, this is always needed) and machine hulls if you want to automate. These are optional, for now, use them for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls.  You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through walls.%n%nJust be really careful when upgrading your machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this if you only use them to pass items though.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible! There are ways around this though, for example, with an elevator or travel anchor, you never actually need to open the door!%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: generating power inside the cleanroom, using a wireless connector for AE or transvector interface to skip machine hulls, and that you can use higher tier hatches to reach 100% efficiency faster (does not use more power once at 100%).
 
 # Quest.941 - §6§lA very useful Scanner
 gtnh.quest941.name=§6§lA very useful Scanner
@@ -4066,19 +4062,19 @@ gtnh.quest1015.desc=Plastic circuit boards require plastic Plate with Sulfuric A
 
 # Quest.1016 - §9§lIntegrated Processor
 gtnh.quest1016.name=§9§lIntegrated Processor
-gtnh.quest1016.desc=There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs an MV circuit assembling machine. The integrated processor requires a CPU, capacitors, transistors and resistors.%nA cleanroom is needed.%n%nYou will need in addtion 4 Resistors, 4 Capacitors and 4 Transistors. You can use SMD or non SMD versions.
+gtnh.quest1016.desc=There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs an MV circuit assembling machine. The integrated processor requires a CPU, capacitors, transistors and resistors.%n%nThis more advanced circuit needs a cleanroom. Additionally, all further circuit recipes will also need one.%n%nYou will additionally need 4 Resistors, 4 Capacitors and 4 Transistors. You can use SMD or non SMD versions. Don't bother with the advanced SMDs, ok? They're for LuV+.
 
 # Quest.1017 - §9§lProcessor Assembly
 gtnh.quest1017.name=§9§lProcessor Assembly
-gtnh.quest1017.desc=Another variant of the advanced circuit from IC2 is the processor assembly.%nTwo Integrated Processors are needed in the MV circuit assembler recipe.%nThe recipe is a cleanroom recipe.%n%nIn addition you will need 8 Capacitors, SMD or non-SMD is fine.
+gtnh.quest1017.desc=Another variant of the advanced circuit from IC2 (HV-tier) is the processor assembly. Two Integrated Processors are needed in the MV circuit assembler recipe.%n%nIn addition you will need 8 Capacitors, SMD or non-SMD is fine.
 
 # Quest.1018 - §9§lCentral Processing Unit
 gtnh.quest1018.name=§9§lCentral Processing Unit
-gtnh.quest1018.desc=Integrated Processors need central processing units. You can get these by cutting a central processing unit wafer.%n%nA cleanroom is needed.
+gtnh.quest1018.desc=Integrated Processors need central processing units. You can get these by cutting a central processing unit wafer.%n%nA cleanroom is needed for both the PLE and Cutting Machine recipes.
 
 # Quest.1019 - §9§lSmall Coil
 gtnh.quest1019.name=§9§lSmall Coil
-gtnh.quest1019.desc=Processing assembly needs some small coils.
+gtnh.quest1019.desc=The processing assembly circuit needs some small coils. you can make these a couple different ways.
 
 # Quest.1020 - §6§lIron (III) Chloride
 gtnh.quest1020.name=§6§lIron (III) Chloride
@@ -4360,13 +4356,13 @@ gtnh.quest1088.desc=So easy, skillet and an egg.... fried egg.
 gtnh.quest1089.name=Hearty Breakfast
 gtnh.quest1089.desc=Let's now combine all the things together and make a healthy and very good breakfast.%nSome cooked meat, potato cakes, toast, fried egg and a tasty juice provide you with a very nourishing meal.%nYou can use any cooked meat and any fruit juice here.
 
-# Quest.1090 - §5§lTry to dry out the Nether
-gtnh.quest1090.name=§5§lTry to dry out the Nether
-gtnh.quest1090.desc=Pumps can do more than pump oil and water. You can go to the nether and pump lava from the huge lava lakes too.%nDon't forget to bring some tanks or fluid cells with you. Once you reach HV lava can be centrifuged for gold, silver, tin, copper, and a little tungstate.%n%nThis is a good use for your LV pumps once you upgrade to MV pumps for oil.
+# Quest.1090 - §5§lTime to dry out the Nether
+gtnh.quest1090.name=§5§lTime to dry out the Nether
+gtnh.quest1090.desc=Pumps can do more than pump oil and water. You can go to the nether and pump lava from the huge lava lakes too.%n%nOnce you reach HV lava can be centrifuged for Silicon Dioxide, Magnesia, Quicklime, Gold, Sapphire, and Tantalite. You can get Silicon, Magnesium, Calcium, Gold, Aluminium, Manganese, Tantalum, and Oxygen out of them.%n%nThis is a good use for your LV pumps once you upgrade to MV pumps for oil. If you get into Thaumcraft or Blood Magic, there are ways to produce lava with magic unlimitedly and easily too.%n%n§3You'll want either ULV tanks and cells, or BC tanks and a dolly to transport your lava.
 
 # Quest.1091 - §5§lDiamond Tanks... Oh shiny
 gtnh.quest1091.name=§5§lDiamond Tanks... Oh shiny
-gtnh.quest1091.desc=After you build a cutting machine you can make some diamond plates for your new 64 buckets single block tank.
+gtnh.quest1091.desc=After you build a cutting machine you can make some diamond plates for your new 64 bucket single block tank.
 
 # Quest.1092 - §5§lNew source of Glowstone
 gtnh.quest1092.name=§5§lNew source of Glowstone
@@ -4466,11 +4462,11 @@ gtnh.quest1115.desc=Forestry trees have a variety of attributes.  Once you get a
 
 # Quest.1116 - Breed some cultivated bees
 gtnh.quest1116.name=Breed some cultivated bees
-gtnh.quest1116.desc=Common Princess and Foresty Drone can be bred to cultivated bees. %n%nCultivated bees have the shorest lifespan - this means they make great princesses to breed with your newly bred drones. The queen will die quickly, quickly giving genetic material to work with.  Make sure the traits you want are kept!%n%nThey are also a Fast production bee, which means lots of honey combs for powering your Beealyzer or Treealyzer. %n%nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.%n%nThe main bee breeding quests will require pure bees but you can use Ignoble or Pristine princesses.
+gtnh.quest1116.desc=Common Princess and Foresty Drone can be bred to cultivated bees. %n%nCultivated bees have the shorest lifespan - this means they make great princesses to breed with your newly bred drones. The queen will die quickly, quickly giving genetic material to work with. Make sure the traits you want are kept!%n%nThey are also a Fast production bee, which means lots of honey combs for powering your Beealyzer or Treealyzer. %n%nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.%n%nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.%n%nThe main bee breeding quests will require pure bees but you can use Ignoble or Pristine princesses.
 
 # Quest.1117 - Breed some common bees
 gtnh.quest1117.name=Breed some common bees
-gtnh.quest1117.desc=To cross breed bees you need two different species of bees. One drone and one princess from different hives (Meadows and Forestry as an example)%nBee Houses do not allow crossbreeding. In an Apiary you can cross breed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing Mutation rate means getting rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. %n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.
+gtnh.quest1117.desc=To cross breed bees you need two different species of bees. One drone and one princess from different world-gen hives (Meadows and Forestry as an example)%n%nBee Houses do not allow crossbreeding. You need an Apiary to crossbreed them to a new species. Certain frames will help this process. Shortening their lifespan means faster crosses. Increasing Mutation rate means getting mutations and thus rare bees quicker.%n%nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. %n%nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.
 
 # Quest.1118 - Breed some noble bees
 gtnh.quest1118.name=Breed some noble bees
@@ -4482,11 +4478,11 @@ gtnh.quest1119.desc=Your noble bees produce some dripping combs.%nA good source 
 
 # Quest.1120 - Breed some majestic bees
 gtnh.quest1120.name=Breed some majestic bees
-gtnh.quest1120.desc=Cross breeding noble and cultivated bees can result in majestic bees.%n%nMajestic bees have a very important attribute - high fertility. They will leave 4 drones when they die. This means lots of genetic material for the next generation to work with.%n%nMajestic bees produce dripping combs every 1.5 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.
+gtnh.quest1120.desc=Cross breeding noble and cultivated bees can result in majestic bees.%n%nIf you didn't get it from Wintry bees already, Majestic bees have a very important attribute - high fertility. They will leave 4 drones when they die. This means lots of genetic material for the next generation to work with.%n%nMajestic bees produce dripping combs every 1.5 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.
 
 # Quest.1121 - Breed some imperial bees
 gtnh.quest1121.name=Breed some imperial bees
-gtnh.quest1121.desc=Cross breeding noble and majestic bees can result in imperial bees.%n%nThese bees produce a Regeneration buff in their active area.  You can probably find a use for this in case of...accidents.%n%nImperial bees produce dripping combs every 3.8 minutes and royal jelly every 5.1 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. %n%nRoyal jelly is needed in making scented paneling for an Alveary - the third tier bee housing.%n%nYou can now start working towards the Master Registry in the To Grind, or Not to Grind tab.
+gtnh.quest1121.desc=Cross breeding noble and majestic bees can result in imperial bees.%n%nThese bees produce a Regeneration buff in their active area.  You can probably find a use for this in case of...accidents.%n%nImperial bees produce dripping combs every 3.8 minutes and royal jelly every 5.1 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. %n%nRoyal jelly is needed in making scented paneling for an Alveary - the third tier bee housing.%n%nYou can now start working towards the Master Registry in the How to Be(e) tab.
 
 # Quest.1122 - Royal Jelly
 gtnh.quest1122.name=Royal Jelly
@@ -4886,7 +4882,7 @@ gtnh.quest1220.desc=Electron tubes are used to set farms to a special kind of cr
 
 # Quest.1221 - §9§lAdvanced Circuit Assembler
 gtnh.quest1221.name=§9§lAdvanced Circuit Assembler
-gtnh.quest1221.desc=More advanced circuits require an MV circuit assembling machine. Let's make one.
+gtnh.quest1221.desc=More advanced circuits require an MV circuit assembling machine. Let's make one.%n%n§3PS: Make a cleanroom if you want to continue.
 
 # Quest.1222 - §9§lAdvanced Circuit Assembler II
 gtnh.quest1222.name=§9§lAdvanced Circuit Assembler II
@@ -4902,7 +4898,7 @@ gtnh.quest1224.desc=Epoxid is needed for your advanced Circuits boards. You need
 
 # Quest.1225 - §9§lIV Circuit Mainframe
 gtnh.quest1225.name=§9§lIV Circuit Mainframe
-gtnh.quest1225.desc=Mainframes are the first IV Circuits you can make in HV. Used for EV and IV machines and components.%n%nIn addition, you will need 16 Capacitors, SMD or non-SMD.%n%nOnce you get a reliable polyethylene setup, it will save a lot of resources to use SMD components.
+gtnh.quest1225.desc=Mainframes are the first IV Circuits you can make. It's used for EV and IV machines and components.%n%nIn addition to what's listed, you will need 16 Capacitors, SMD or non-SMD.%n%nOnce you get a reliable polyethylene setup, it will save a lot of resources to use SMD components.
 
 # Quest.1226 - §6§lGlycerol
 gtnh.quest1226.name=§6§lGlycerol
@@ -4942,7 +4938,7 @@ gtnh.quest1234.desc=Epoxid circuit boards require epoxid plate, gold foil and su
 
 # Quest.1235 - §9§lMicroprocessor LV
 gtnh.quest1235.name=§9§lMicroprocessor LV
-gtnh.quest1235.desc=The Microprocessor is the most highest tier way to craft an LV circuit, but you get 2 per recipe. It requires plastic board, a cleanroom, a cpu and a few smd components.
+gtnh.quest1235.desc=The Microprocessor is the most highest tier way to craft an LV circuit, but you get 2 per recipe. It requires plastic board, a cleanroom, a cpu and a few smd components.%n%nThis advanced circuit type needs a cleanroom.
 
 # Quest.1236 - §9§lCutting Machine HV
 gtnh.quest1236.name=§9§lCutting Machine HV
@@ -4958,7 +4954,7 @@ gtnh.quest1238.desc=To create some glowstone doped silicon wafers, place the mon
 
 # Quest.1239 - §9§lNOR and NAND chips
 gtnh.quest1239.name=§9§lNOR and NAND chips
-gtnh.quest1239.desc=The data stick requires NAND chips. NOR chips are needed for more advanced circuits. You can get these by cutting NAND and NOR wafers.%nA cleanroom is required.
+gtnh.quest1239.desc=Nand is used for data sticks, data orbs, and UV circuits. NOR chips are needed for data orbs and LuV circuits. You can get these by cutting NAND and NOR wafers. You'll probably only want the data sticks for now%nA cleanroom is required.
 
 # Quest.1240 - Data Sticks
 gtnh.quest1240.name=Data Sticks
@@ -5418,7 +5414,7 @@ gtnh.quest1353.desc=YELLOW! What an ugly color! I want PURPLE Nitor! Get me some
 
 # Quest.1354 - Rechargeable Scribing Tools
 gtnh.quest1354.name=Rechargeable Scribing Tools
-gtnh.quest1354.desc=Are you tired of getting all the Ink for your scribing and you don't want to use your blood either? Get this Hi-Tech Scribing Device which will make your life much easier! Treat it like an LV machine - charge in any LV machine's battery slot, or in an LV battery buffer.
+gtnh.quest1354.desc=Are you tired of getting all the Ink for your scribing and you don't want to use your blood either? Get this Hi-Tech Scribing Device which will make your life much easier! Treat it like an HV battery - charge in any HV machine's battery slot, or in an HV battery buffer.
 
 # Quest.1355 - Angel Wings - Ultra Force!
 gtnh.quest1355.name=Angel Wings - Ultra Force!
@@ -6050,7 +6046,7 @@ gtnh.quest1511.desc=Stop guessing what the humidity and temperature are for your
 
 # Quest.1512 - Put the Drones in a Jar and Shake it Up
 gtnh.quest1512.name=Put the Drones in a Jar and Shake it Up
-gtnh.quest1512.desc=Once you get good effects from your bees, instead of just trashing the excess drones, you can put them in collector's jars to get the effects anywhere in your base.%n%nHealing? XP? Poison?%n%nThe collector's jars can even be piped or connected to a conveyor so that drones last a long time.
+gtnh.quest1512.desc=Once you get good effects from your bees, instead of just trashing the excess drones, you can put them in collector's jars to get the effects anywhere in your base.%n%nHealing? XP? Poison?%n%nThe collector's jars can even be piped or connected to a conveyor so that drones last a long time.%n%n§3PS: Using the regen effect of Imperial bees while doing Blood Magic may be useful.
 
 # Quest.1513 - Death to Bees!
 gtnh.quest1513.name=Death to Bees!
@@ -6164,13 +6160,13 @@ gtnh.quest1539.desc=The emitter and the sensor in iv need a quantum star to craf
 gtnh.quest1540.name=§5§lMagnalium Source
 gtnh.quest1540.desc=Magnesite the source of Magnesium can be found in Twilight Forest at Y 10-40. Fullers Earth can be found on the Overworld at Y 50-70. Marble dust can be used for magnesium dust also.
 
-# Quest.1541 - Analyze your crops
-gtnh.quest1541.name=Analyze your crops
+# Quest.1541 - Analyze Your Crops
+gtnh.quest1541.name=Analyze Your Crops
 gtnh.quest1541.desc=The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. Charge it by placing it in an MV machine; recommended to put an MV battery in it as well to keep it full. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it - you have a chance of losing the seed every time you break it.%n%nThe cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the mix of outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer.  You can select any crops available and discover what plants have decent percentages of a result. And no, you can't do the reverse, search for the crops.zip on discord for that (it doesn't have micadia though).%n%nYou can choose up to four crops to breed together. Then click "process" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.%n%nWhen trying to get a specific crop, you generally want to maximize its percentage. Do this by breeding 2-4 of the same plant together (more is faster). There is no advantage to crossing plant types, it just reduces the % chance of getting what you want, contrary to what you might think.%n%nUse the crops guide at https://tinyurl.com/GTNH-Crops for more details.%n%nA large field of stickreeds has a good chance at making lots of valuable crosses. This is because it's decently high tier (they randomly mutate to tiers nearby mostly), and it's really fast, so you can get it to a high stat fast, which you should probably do first. Mutations are random, you can get transformium from stickreed, so keep that in mind. You do tend to get similar crops, so if you want metals, get the metal crops for example. Go to the wiki or spreadsheet (not up to date) to see the attributes that govern similarity.
 
 # Quest.1542 - Crop automation
 gtnh.quest1542.name=Crop automation
-gtnh.quest1542.desc=The Crop-Matron is a LV machine that will monitor crops in a 9x9x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they are used.%n%nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery.  A Lithium Ion will last about 2 hours. %n%nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.%n%nYou'll need HV to make the Crop Harvester. As an alternative to the Crop Matron and Crop Harvester, you can make the Forestry Multifarm. It can also pick crops from cropsticks, and doesn't even need a cropnalyzer to choose the correct growth stage to harvest at!
+gtnh.quest1542.desc=The Crop-Matron is a LV machine that will monitor crops in a 9x9x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they are used.%n%nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery.  A Lithium Ion will last about 2 hours. %n%nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
 
 # Quest.1543 - Weed Ex
 gtnh.quest1543.name=Weed Ex
@@ -6192,8 +6188,8 @@ gtnh.quest1546.desc=Did you look for days to find Diamonds, Redstone, Tantalite,
 gtnh.quest1547.name=§6§lPress all the things in MV
 gtnh.quest1547.desc=With the mv forming press you can make aluminiun iron plates for solar panels and a few rotors blades for turbines.
 
-# Quest.1548 - Input chest for Ghetto ME System (hidden)
-gtnh.quest1548.name=Input chest for Ghetto ME System (hidden)
+# Quest.1548 - Input chest for Ghetto ME System
+gtnh.quest1548.name=Input chest for Ghetto ME System
 gtnh.quest1548.desc=To be able to put items into the Ghetto ME system you need just a few additional pipes.%nThe Extraction pipe should be connected to the chest you want to take items from.%nInside the Extraction pipe you need to put the Item Extraction chip, and configure it to blacklist if you want it to take all items from the chest.%n%nThe Routed Junction pipe is needed so the items inside the pipes know which direction to take, without this they will just fly around inside the pipes without knowing where to go.%nYou might also need some additional item transport pipes depending on your setup.
 
 # Quest.1549 - §5§lPlunger 2.0 The Hand Pump
@@ -6398,7 +6394,7 @@ gtnh.quest1598.desc=Time to make the MV variant of the assembler.
 
 # Quest.1599 - §5§lNode upgrades
 gtnh.quest1599.name=§5§lNode upgrades
-gtnh.quest1599.desc=Nodes can take many upgrades. For now, try building a World Interaction Upgrade.  With it, you can setup simple autocrafting. %n%nPut a WIU in a transfer node attached to a crafting table. On the other side of the table, the 3x3 area is now treated as a crafting grid.  Place items in inventories on the other side and if they make a valid recipe, the WIU will craft it.  To speed it up, you will need to wait until HV for stainless steel.
+gtnh.quest1599.desc=Nodes can take many upgrades. For now, try building a World Interaction Upgrade.  With it, you can setup simple autocrafting. %n%nPut a WIU in a transfer node attached to a crafting table. On the other side of the table, the 3x3 area is now treated as a crafting grid.  Place items in inventories on the other side and if they make a valid recipe, the WIU will craft it.  To speed it up, you will need to wait until HV for stainless steel.%n%nAlso, if you place a node on a block of cobble that has lava and water next to it, and a WIU in it, it will produce cobble for you automatically. Use upgrades to get more at a time and faster.
 
 # Quest.1600 - Reed and resin
 gtnh.quest1600.name=Reed and resin
@@ -6618,7 +6614,7 @@ gtnh.quest1653.desc=Tired of talking one by one with every villager to determine
 
 # Quest.1654 - §6§lAutomating power on/off
 gtnh.quest1654.name=§6§lAutomating power on/off
-gtnh.quest1654.desc=Once you have a GT boiler or Large Combusion Engine with a faster startup time, you can automate it to produce power on-demand. Use a machine controller cover on the controller (protip: You can put it on the bottom, or on the side next to a casing, casings will transmit redstone signal). %nWith a machine controller cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a soft hammer to disable a machine.%n %nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off.%nUse a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.%n%nRed alloy wire will hold a redstone signal for a longer distance.%n%nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver.%n%nYou can use MCCs on more than just generators though, you can use it on any multiblock. This is useful to prevent voiding of materials. If a non-GT++ multi is full, it'll void the items or liquid (GT++ ones will halt) and keep on truckin', potentially voiding huge amounts of materials. You'll want to use them in combination with Fluid or Item Detection Covers on the output hatch or bus.%n%nPS: You can use a Soldering Iron and Fine Soldering Alloy Wire to set the Redstone Output of a controller block to strong so it'll go through a casing (only casings!). Use with an activity detector.
+gtnh.quest1654.desc=Once you have a GT boiler or Large Combusion Engine with a long startup time, you may wish to automate turning it on/off to save fuel, since extra power or steam will just be voided. Use a machine controller cover on the controller (protip: You can put it on the top, bottom, or on the side next to a casing, casings will transmit redstone signal). §3You can use a Soldering Iron and Fine Soldering Alloy Wire to set the Redstone Output of a controller block to strong so it'll go through a casing (only casings, not hatches, busses, etc) to use with an activity detector if you want to receive a signal from the controller rather than turning it on/off with one.§r%n%nWith a machine controller cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a soft hammer to disable a machine yourself constantly.%n %nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off. Use a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.%n%nRed alloy wire will hold a redstone signal for a longer distance than normal redstone, while redstone conduits will go indefinitely. You can also use amplified redcrystal to improve the strength of the signal for a long distance, repeating as necessary. %n%nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver. If you use a dense redcrystal, it will only allow signal through at a certain level, perfect for automating this kind of thing.%n%nYou can use MCCs on more than just generators though, you can use it on any multiblock (and most SBs too). This is useful to prevent voiding of materials. If a non-GT++ multi is full, it'll void the items or liquid (GT++ ones will halt) and keep on truckin', potentially voiding huge amounts of materials. You'll want to use them in combination with Fluid or Item Detection Covers on the output hatch or bus.%n%n§2If you still don't get it, watch moron's video on it at: https://www.youtube.com/watch?v=jPfnifJEO64
 
 # Quest.1655 - §9§lOne Dragon Egg is not enough Mr Bond
 gtnh.quest1655.name=§9§lOne Dragon Egg is not enough Mr Bond
@@ -7152,8 +7148,8 @@ gtnh.quest1786.desc=Your shoes can be equipped with a few modifications like wat
 gtnh.quest1787.name=§6§lData Reader
 gtnh.quest1787.desc=Assembly Line recipes are a pain in the A*****.%nScanning the item, printing it and make a book from it is a long process and the book recipe contains only text.%nWhy not using the Data reader from Tec Tech?%nIt shows up the recipe in Nei.
 
-# Quest.1788 - Unlocking bee breeding lines
-gtnh.quest1788.name=Unlocking bee breeding lines
+# Quest.1788 - Unlocking bee breeding lines (hidden)
+gtnh.quest1788.name=Unlocking bee breeding lines (hidden)
 gtnh.quest1788.desc=No Description
 
 # Quest.1789 - §3§lFactory Iron Door
@@ -7176,8 +7172,8 @@ gtnh.quest1792.desc=When you use the seismic prospector, you'll need a scanner a
 gtnh.quest1793.name=Better(?) Dirt
 gtnh.quest1793.desc=With an Assembler and some seedoil, you can turn dirt and sand into Garden Soil.  This optimal soil does not require water nearby and crops do not break when you fall on it.  It can turn into dirt if you run on it, so be careful. You might want to investigate the Slow Building Ring in Building Better Bases.%n%nUnlike watered farmland, it doesn't contribute to the humidity stat or speed up IC2 crops though, so don't bother when min-maxing.%n%nSame thing for enchanted earth, lamp of growth, sprinklers, etc.
 
-# Quest.1794 - Even more stats
-gtnh.quest1794.name=Even more stats
+# Quest.1794 - Even More Stats
+gtnh.quest1794.name=Even More Stats
 gtnh.quest1794.desc=With the portable scanner, you can get the crop's stats and environmental info while it is still in the ground by right clicking it. It also stays scanned after getting the seed. Look for the portable scanner quest after the EBF in Multiblock Goals. About those stats:%n%n§aGrowth§r:%nHow fast it grows, with higher = faster. Specifically, it increases the growth points your crop gets per growth tick. If it gets to 24+, your crop acts like a weed, so most people say to stay at 23 or less. However, it will only weed other crops under certain conditions.%n%n1) Is in a cardinal direction on the same Y level. 2) Will only affect dirt/grass, or cropsticks or crops 3) If there's a crop there that is §oalso§r a weed, if it's at a maturity level > 1, it §owon't affect it§r 4) If it affects the crop, it'll be replaced with a normal weed%n%n§9Gain§r:%nInfluences chances of how many drops you get, and whether you get any at all. 31 is the best for sure.%n%n§eResistance§r:%nThis stat is responsible for a couple of crops' properties: chances for getting a seed while punching crop, resistance of your crop to trampling (jumping on it), decreases chance of crop dying due to lack of enviromental stats, and resistance of crop to weed spread. It also reduces mutation chance as it goes up (apparently). Aim for around 10 for balance.
 
 # Quest.1795 - Metals from the Sky
@@ -7450,7 +7446,7 @@ gtnh.quest1861.desc=Buy some eggs with coins.
 
 # Quest.1862 - Robotic crop pickers
 gtnh.quest1862.name=Robotic crop pickers
-gtnh.quest1862.desc=The Crop Harvester will pick your crops for you, which is great. %n%nWhat's not great is that it's worse than the multifarm, why is this HV again?
+gtnh.quest1862.desc=The Crop Harvester will pick your crops in an 11x11x3 range for you. Since the multifarm is now HV, you'll want to consider making these to automate your crops.%n%nYou'll need a cropnalyzer in it if you want it to harvest at the optimal time. Otherwise it will attept to harvest them whenever it's possible. So you need it for stickreed for example, or it will harvest at stage 2 (harvesting sugar canes) instead of 4 (harvesting sticky resin).
 
 # Quest.1863 - §5§lThrowing out the trash
 gtnh.quest1863.name=§5§lThrowing out the trash
@@ -7510,7 +7506,7 @@ gtnh.quest1876.desc=To get UU Amplifier out of you scrap you need an Amplifabric
 
 # Quest.1877 - §9§lUU Matter
 gtnh.quest1877.name=§9§lUU Matter
-gtnh.quest1877.desc=Next you will need a Mass Fabricator to make UU matter. This matter can be used make more things.%n%nThe downside is you can't build an HV one right now. Build an LV one and power it with 8 amps of LV to get your first UU matter. Watch your voltage levels and currents!%n%nIf you do not have a field generator, go do the tetrafluoroethylene quest and build some.  %n%nFor now, just stockpile the UU matter.
+gtnh.quest1877.desc=Next you will need a Mass Fabricator to make UU matter. This matter can be used make more things.%n%nThe downside is you can't build an HV one right now. Build an LV one and power it with 8 amps of LV to get your first UU matter. Watch your voltage levels and currents!%n%nIf you don't have a field generator, go do the tetrafluoroethylene quest and make some.  %n%nFor now, just stockpile the UU matter.
 
 # Quest.1878 - §a§lData Orbs
 gtnh.quest1878.name=§a§lData Orbs
@@ -8276,9 +8272,9 @@ gtnh.quest2067.desc=Now that you have Goggles of Revealing, Thaumic Horizons off
 gtnh.quest2068.name=Disenchanted 
 gtnh.quest2068.desc=If you found an item or book with a good enchantment - but also a bunch of garbage, you can strip the enchantments into separate books using a Disenchanter. Surround it with bookcases to reduce damage done to the item.
 
-# Quest.2069 - §9§lHot hot hot! (hidden)
-gtnh.quest2069.name=§9§lHot hot hot! (hidden)
-gtnh.quest2069.desc=Once you build your vacuum freezer, you are going to have to carry around hot ingots all the time.  Your old gloves are falling apart, and take up both hands. I think there's a way you can glue them together so you can carry hot items with just one hand. Give these a try.
+# Quest.2069 - §9§lHot hot hot!
+gtnh.quest2069.name=§9§lHot hot hot!
+gtnh.quest2069.desc=Once you build your vacuum freezer, you're going to have to carry around hot ingots all the time (assuming you don't automate it). Your old gloves are falling apart, and take up both hands. I think there's a way to glue them together so you can carry hot items with just one hand. Give me some parts and I'll do it for you.%n%n§3PS: The particle effect is active all the time, so if you don't like that, don't do this quest.
 
 # Quest.2070 - So you want to go slower...wait, what?
 gtnh.quest2070.name=So you want to go slower...wait, what?
@@ -8566,7 +8562,7 @@ gtnh.quest2140.desc=Only the craziest fool would use diamonds to make a tool! Or
 
 # Quest.2141 - §6§lWelcome to the Church of Benzene
 gtnh.quest2141.name=§6§lWelcome to the Church of Benzene
-gtnh.quest2141.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV.  Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.  %n%nOne path is to use Coke ovens or Advanced Coke Ovens to make charcoal, and fluid-extract Wood Tar from it (use LV fluid extractors for maximum EU efficiency). Then distill the Wood Tar to make Benzene. This method produces no pollution.%n%nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid Extract the Charcoal for addtional Wood Tar.  Then proceed as above. This method will create pollution from the Pyrolyze, but will provide more Benzene per log.%n%nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you will need later on.%n%nIf you use the Charcoal Byproducts recipe, you can get a plethora of useful byproducts as well, but you'll need 4 DTs.
+gtnh.quest2141.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV.  Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.  %n%nOne path is to use Coke ovens or Advanced Coke Ovens to make charcoal, and fluid-extract Wood Tar from it (use LV fluid extractors for maximum EU efficiency). Then distill the Wood Tar to make Benzene. This method produces less pollution, but will also provide less Benzene.%n%nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid Extract the Charcoal for addtional Wood Tar.  Then proceed as above. This method will create pollution from the Pyrolyze, but will provide more Benzene per log.%n%nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you will need later on.%n%nIf you use the Charcoal Byproducts recipe, you can get a plethora of useful byproducts as well, but you'll need 4 DTs.
 
 # Quest.2142 - §5§lAutomated Crafting
 gtnh.quest2142.name=§5§lAutomated Crafting
@@ -8578,7 +8574,7 @@ gtnh.quest2143.desc=Need a map on fuel choices? Well, we don't have that but we 
 
 # Quest.2144 - §6§lDon't put a finger in that socket
 gtnh.quest2144.name=§6§lDon't put a finger in that socket
-gtnh.quest2144.desc=If you want to pass multiple amps through your cleanroom walls, use a one-way Diode.  Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but you want to prevent catching fire while filling buffers.
+gtnh.quest2144.desc=If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but you want to prevent catching fire while filling buffers.
 
 # Quest.2145 - §1§lE_TOO_MANY_KEYS
 gtnh.quest2145.name=§1§lE_TOO_MANY_KEYS
@@ -8646,7 +8642,7 @@ gtnh.quest2160.desc=Yet another custom block system! Carpenter's blocks are craf
 
 # Quest.2161 - §3§lSafety first
 gtnh.quest2161.name=§3§lSafety first
-gtnh.quest2161.desc=For those new to GregTech, here are some tips and warnings about electricity. %n%nMachines don't like being out in the rain, and will start fires nearby.  Fires next to a machine have a random chance of an explosion. Also, sending too high voltage to a machine will cause a near-instant explosion.%n%nSending too high a voltage or too many amps down a cable will cause the cable to burn up and start fires, which may then cause machine explosions. Make sure the number of amps provided by generators and buffers to a wire does not exceed the amps it is capable of carrying.%n%nA generator that supplys 1A can possibly feed multiple machines, if their recipes require less than full voltage.  For example, macerators doing ore only need 2 EU/t, so you could run 4 or 5 off of a single 1A generator, as long as the wires aren't too long. But be careful! Sometimes a recipe needs a lot more EU than you expect, like a macerator sand -> quartz dust recipe.%n%nA single block machine starved of EU will restart progress but not lose the recipe items. A multiblock machine will lose the items.
+gtnh.quest2161.desc=For those new to GregTech, here are some tips and warnings about electricity. %n%nMachines don't like being out in the rain, and will start fires nearby.  Fires next to a machine have a random chance of an explosion. Also, sending a higher voltage than a machine's tier cause an explosion. Or several, if you pack things together, like many people. Sending more amps than a machine can use doesn't harm anything though.%n%nSending too high a voltage or too many amps down a cable will cause the cable to burn up and start fires, which may then cause machine explosions. Make sure the number of amps provided by generators and buffers to a wire does not exceed the amps it is capable of carrying.%n%nA generator that supplys 1A can possibly feed multiple machines, if their recipes require less than full voltage.  For example, macerators doing ore only need 2 EU/t, so you could run several off of a single 1A generator, as long as the wires aren't too long. Why? Becuase there's loss for every amp for every block, listed on the wire/cable. Note that cables are batter than wires. But be careful! Sometimes a recipe needs a lot more EU than you expect, like a macerator sand -> quartz dust recipe.%n%nMost machines only use 1A, however there are exceptions, such as the arc furnace, thermal centrifuge, world accelerators, and the UUM machines. Note that machines can accept more amps than they use (usually 2) in order to top up their energy supply, especially if they didn't recieve most of the amp because of loss (mostly a problem in LV). The formula is (EU/t of Recipe * 2) / Voltage Tier) + 1. Keep this in mind when deciding cables.%n%nSome machines are specifically for dealing with multiple amps, such as battery buffers, transformers, and diodes.%n%nIf you want to send more amps, use a larger cable or a superconductor (MV+). You can use the laser hatches much later to send even more.%n%nA single block machine starved of EU will restart progress but not lose the recipe items. A multiblock machine will lose the items.%n%nNote that any block that emits UE has loss when doing so: 2 ^ tier. So 2 EU at LV, 4 EU at MV, and so on. Using large numbers of battery buffers in a row is thus very wasteful of your power, and even 1 can prevent usage of an EBF at MV voltage. Of course, if you want to keep your amps topped up, you'll need to place BBs occasionally to 'top up' the amps, though this is less the case the further ingame you get, as the loss becomes less of something to worry about.%n%nIf this info isn't enough for you, head on over to https://gtnh.miraheze.org/wiki/Electricity to read more.
 
 # Quest.2162 - Copper
 gtnh.quest2162.name=Copper
@@ -8838,7 +8834,7 @@ gtnh.quest2208.desc=Beware. These bees not only hate everything, they even hate 
 
 # Quest.2209 - Moron's Guide to Breeding Better Bees
 gtnh.quest2209.name=Moron's Guide to Breeding Better Bees
-gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees you see here once you unlock the breeding trees. There's even more that aren't included and you'll need NEI to find!%n%nHa ha, just kidding - don't panic! Once you unlock the bee breeding lines, look around and pick and choose which bees really interest you. The way the breeding is done is mostly left to right, and top down. Some of the lines at the bottom might look simple, but they will require bees further up to complete first. Many of the basic bees have multiple breeding options, only one is shown here.%n%nBees have two sets of traits, one that is Active that has effects on how the bee lives, and one Inactive but can be used for breeding. Some traits are §4Dominant§r, and some are §9Recessive§r. Keep this in mind when trying to breed in or out a new trait. When getting newly bred princesses and drones, check both sets in case you got the targeted bee traits. You can breed the bees with inactive traits to try and make them active in later crosses. You can't see the passive traits using a Field Kit, you'll need a Beealyzer. For lots of bees, you can scan them first using a GT scanner, but you'll still need a Beealyzer to see passive traits.%n%nWhen breeding bees, a good idea is to settle upon a master template bee.  A bee that has little or no crossbreeding potential, but has all the traits you prefer - short life, nocturnal, cavedwelling, rain tolerant, humidity, temperature, high fertility, etc.  Once you have that bee, breed a bunch of pure princesses with those traits as both active and inactive. These will be your breeding stock.%n%nWhen you are trying for a new bee, what you are wanting is a drone - this way you can use your "breeding stock" princess for easy breeding, but the drone to get the new species without the annoying effects or limitations. Poor crossed princesses can be returned to normal by crossing with breeding stock drones, or just thrown out if they now have annoying restrictions. Make sure you keep the trait and species you want, and slowly merge the good traits from your breeding stock. You don't have to do this part in an Apiary, you can use a Bee House to swap around traits. Ignoble bees are good for this, since they're mostly disposable - they have a chance to die after 100 breeding cycles - frames can let them live longer. Once you solidify your species, create a pool of drones. You can use those to convert pristine princesses to the new species. Pristine princesses will not die. Rocky bees are a great source - all their princesses are always pristine.%n%nOnce you get a new species, it will replace all of one of the two sets of traits of the bee.  For example when you get a Cultivated, either the Active or Inactive column will have all the default Cultivated traits. Mix it a few times and you'll eventually get purebred versions. Just watch out that you don't lose a key trait, like Fast Worker for Cultivated! All the quests will require purebred species. %n%nGenerally all traits can be bred into any bee species, including effects or flower preference. Species generally require their preferred biome to produce their special drops.%n%nAdvanced frames can provide useful boosts to mutation chances, or to lifespan reduction for faster breeding cycles. However excessive multipliers will increase genetic decay, giving a chance for that pristine princess to become ignoble!%n%nIt looks complex, because it is! But it also a lot of dangerous and useful fun!
+gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees you see here once you unlock the breeding trees. There's even more that aren't included and you'll need NEI to find!%n%nHa ha, just kidding - don't panic! Once you unlock the bee breeding lines, look around and pick and choose which bees really interest you. The way the breeding is done is mostly left to right, and top down. Some of the lines at the bottom might look simple, but they will require bees further up to complete first. Many of the basic bees have multiple breeding options, only one is shown here.%n%nBees have two sets of traits, one that is §aActive§r that has effects on how the bee lives, and one §3Inactive§r but can be used for breeding. Some traits are §4Dominant§r, and some are §9Recessive§r. Keep this in mind when trying to breed in or out a new trait. When getting newly bred princesses and drones, check both sets in case you got the targeted bee traits. You can breed the bees with inactive traits to try and make them active in later crosses. You can't see the passive traits using a Field Kit, you'll need a Beealyzer. For lots of bees, you can scan them first using a GT scanner, but you'll still need a Beealyzer to see passive traits.%n%nWhen breeding bees, a good idea is to settle upon a master template bee.  A bee that has little or no crossbreeding potential, but has all the traits you prefer - short life, nocturnal, cave dwelling, rain tolerant, humidity tolerance, temperature tolerance, 4xfertility, etc.  Once you have that bee, breed a bunch of pure princesses with those traits as both active and inactive. These will be your breeding stock.%n%nWhen you are trying for a new bee, what you are wanting is a drone - this way you can use your "breeding stock" princess for easy breeding, but the drone to get the new species without the annoying effects or limitations. Poor crossed princesses can be returned to normal by crossing with breeding stock drones, or just thrown into storage if they now have annoying restrictions. Make sure you keep the trait and species you want, and slowly merge the good traits from your breeding stock. You don't have to do this part in an Apiary, you can use a Bee House to swap around traits. Remember that no species mutations occur in a Bee House. Ignoble bees are good for this, since they're mostly disposable - they have a chance to die after 100 breeding cycles, increasing slightly more each generation after that, though genetic stability frames can let them live longer. Once you solidify your species, create a pool of drones. You can use those to convert pristine princesses to the new species. Pristine princesses will not die (they can become ignoble under certain circumstances though, like using tons of production frames). Rocky bees are a great source - all their princesses are always pristine, they have decent traits already, and there's a bunch of them underground. If you have an ender quarry, you can collect them with that.%n%nOnce you get a new species, it will replace all of one of the two sets of traits of the bee. §3If you get the mutation chance success twice on the same bee, it'll replace both active and inactive sets of traits though.§r For example when you get a Cultivated, either the Active or Inactive column will have all the default Cultivated traits. Mix it a few times and you'll eventually get purebred versions. Just watch out that you don't lose a key trait, like Fast Worker for Cultivated! All the quests will require §6purebred§r species. PS: most effects are useless, so don't worry too much.%n%nAll traits can be bred into any bee species, aside from the species itself. Species also determines the preferred temperature and humidity, as well as drops. Species will require their preferred temerature and humidity to be in 'jubilant' state, and produce their special drops. You can also mimic this with the alveary or industrial apiary, but NOT with tolerances.%n%nAdvanced frames can provide useful boosts to mutation chances, or to lifespan reduction for faster breeding cycles. However excessive multipliers will increase genetic decay, giving a chance for that pristine princess to become ignoble!%n%nIt looks complex, because it is! But it also a lot of dangerous and useful fun!
 
 # Quest.2210 - §a§lDealing with Radiation
 gtnh.quest2210.name=§a§lDealing with Radiation
@@ -9322,7 +9318,7 @@ gtnh.quest2329.desc=Rhodium Plated Palladium is the LuV Tier Hull Material.%n%nY
 
 # Quest.2330 - §b§lRuri... Ruridididi?
 gtnh.quest2330.name=§b§lRuri... Ruridididi?
-gtnh.quest2330.desc=Combining Ruthenium with Iridium yields a very special Metal, that is needed for higher Tier components. %n%nIts properties are strange, and there hasn't been much research regarding this alloy. So why dont you just craft a bounch of it and see what you can do?
+gtnh.quest2330.desc=Combining Ruthenium with Iridium yields a very special Metal, that is needed for higher Tier components. %n%nIts properties are strange, and there hasn't been much research regarding this alloy. So why dont you just craft a bunch of it and see what you can do?
 
 # Quest.2331 - Osmiridium
 gtnh.quest2331.name=Osmiridium
@@ -9590,7 +9586,7 @@ gtnh.quest2396.desc=To make Hydrogen Peroxide you combine Air, 2-Ethylanthrahydr
 
 # Quest.2397 - Playing With the Big Boys, Chemically
 gtnh.quest2397.name=Playing With the Big Boys, Chemically
-gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a minecart load of resources, so start mining!%n%nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don't look like it.%n%n§3You can make Silicon Carbide in the mixer, you don't need the ABS.§r%n%nValid solid casings: (Determines CP Tier for recipes)%n0 Strong Bronze Machine Casing%n1 Solid Steel Machine Casing%n2 Sturdy Aluminium Machine Casing%n3 Clean Stainless Steel Machine Casing%n4 Stable Titanium Machine Casing%n5 Robust Tungstensteel Casing%n6 Vigorous Laurenium Machine Casing%n7 Rugged Botmium Machine Casing%n%nValid machine casings: (Determines Hatch/bus max tier)%nLV-UHV Machine Casing%n%nValid pipe casings: (+2 Parallels, 20% less chance to consume catalyst durability per pipe casing, starting from the first one)%nBronze%nSteel%nTitanium%nTungstensteel%n%nValid Coils: (Each one increases speed by +50%, starting at 50%)%nCupronickel%nKanthal%nNichrome%nTungstensteel%nHSS-G%nNaquadah%nNaquadah Alloy
+gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on, like Rocket Fuels. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a minecart load of resources, so start mining!%n%nCatalysts are needed in some recipes, place them in the Catalyst Housing. They use durability, this includes ones that don't look like it.%n%n§3You can make Silicon Carbide in the mixer, you don't need the ABS.§r%n%nValid solid casings: (Determines CP Tier for recipes)%n0 Strong Bronze Machine Casing (uncraftable)%n1 Solid Steel Machine Casing%n2 Sturdy Aluminium Machine Casing (uncraftable)%n3 Clean Stainless Steel Machine Casing%n4 Stable Titanium Machine Casing%n5 Robust Tungstensteel Casing%n6 Vigorous Laurenium Machine Casing%n7 Rugged Botmium Machine Casing%n%nValid machine casings: (Determines Hatch/bus max tier)%nLV-UHV Machine Casing%n%nValid pipe casings: (+2 Parallels, 20% less chance to consume catalyst durability per pipe casing, starting from the first one)%nBronze%nSteel%nTitanium%nTungstensteel%n%nValid Coils: (Each one increases speed by +50%, starting at 50%)%nCupronickel%nKanthal%nNichrome%nTungstensteel%nHSS-G%nNaquadah%nNaquadah Alloy
 
 # Quest.2398 - §3§lHidden drawers
 gtnh.quest2398.name=§3§lHidden drawers
@@ -9778,7 +9774,7 @@ gtnh.quest2443.desc=Scream doesn't help. You are going to be in the soup?
 
 # Quest.2444 - §5§lLong Distance Fluid Pipeline
 gtnh.quest2444.name=§5§lLong Distance Fluid Pipeline
-gtnh.quest2444.desc=Wouldn't it be great if we could transport your oil from very far away Oilfield by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Fluid Pipleline Controlblock. Inbetween use the associated pipeline blocks.%n%nLoad your oil field with a chunckloader and your base also and the oil will be "teleported" to you. %n%nNo further chunckloaders are required on the route.%n%n%n§%n§6§2Note: It does not have a throughput limit beyond how fast you can put stuff into it.
+gtnh.quest2444.desc=Wouldn't it be great if you could transport your oil from a far away oil spout or oil field by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Fluid Pipeline block. Inbetween use the associated pipe blocks. There can only be one start and end point per pipeline.%n%nTo actually connect it, you need to align the start LDFP block such that the T's are facing inwards, and the opposite side of it has a LDFPP block. Put a pump on the side of the block that has the T's and set to import. It will now attempt to import fluid to the endpoint LDFP. §2This will go as fast as you can put fluid into it.§r%n%nDo the opposite on the far side, except you don't need a pump.%n%nNow you only need to chunkload the start and end points and the fluid will be "teleported" to you.%n%nOf course, later on you'll probably use ender tanks to §oactually§r teleport the fluid, especially from other dims.%n%nThis setup is lag-free in the pipe blocks, so it's useful in your base as well if you want to reduce lag.
 
 # Quest.2445 - Time to kill (Squid)
 gtnh.quest2445.name=Time to kill (Squid)
@@ -9790,7 +9786,7 @@ gtnh.quest2446.desc=RC Water Tanks not cutting it through those dry spells? Or m
 
 # Quest.2447 - Forget Something?
 gtnh.quest2447.name=Forget Something?
-gtnh.quest2447.desc=Need some Electrotine for your Workstations? Go back to the Nether and find a Saltpeter vein at Y 5-45. You can also centrifuge it for Electrum and Redstone if you have too much.
+gtnh.quest2447.desc=Need some Electrotine for your Workstations? Go back to the Nether and find a Saltpeter vein at Y 5-45. You can also centrifuge it for Electrum and Redstone if you have too much.%n%n
 
 # Quest.2448 - Dichlorobenzene
 gtnh.quest2448.name=Dichlorobenzene
@@ -10367,10 +10363,6 @@ gtnh.quest2590.desc=I'm not even sure these have uses but they're blue so that's
 # Quest.2591 - Gods+
 gtnh.quest2591.name=Gods+
 gtnh.quest2591.desc=BTW, it doesn't actually hold more, you can just I/O faster. Make filling it your life goal!
-
-# Quest.2592 - Anywhere, anytime (hidden)
-gtnh.quest2592.name=Anywhere, anytime (hidden)
-gtnh.quest2592.desc=This teleporter will allow you to teleport to any coordinate in any dimension. For the cost of nitrogen plasma and EU.
 
 # Quest.2593 - Welcome to hell
 gtnh.quest2593.name=Welcome to hell
@@ -11058,7 +11050,7 @@ gtnh.quest2763.desc=Effectively lets you parallel like crazy if you can afford t
 
 # Quest.2764 - A Steam Tier Multi? Unpossible!
 gtnh.quest2764.name=A Steam Tier Multi? Unpossible!
-gtnh.quest2764.desc=It's a larger version of the steam macerator. It's probably better?%n%nNote that this multi requires §4§lVery Specific§r I/O blocks, don't mess it up.%n%nAlso only works 8 at a time.
+gtnh.quest2764.desc=It's a larger version of the steam macerator. It only works 8 at a time, but is faster.%n%nNote that this multi requires §4§lVery Specific§r I/O blocks, don't mess it up.%n%n
 
 # Quest.2765 - TFFT
 gtnh.quest2765.name=TFFT
@@ -11076,8 +11068,8 @@ gtnh.quest2767.desc=These frames help prevent genetic decay.
 gtnh.quest2768.name=Bee Slurry, the Breakfast of, Well, Weirdos
 gtnh.quest2768.desc=Why would you even need this?
 
-# Quest.2769 - Even More Stats
-gtnh.quest2769.name=Even More Stats
+# Quest.2769 - Yet More Stats
+gtnh.quest2769.name=Yet More Stats
 gtnh.quest2769.desc=There's seven more stats to worry about too.%n%n§7Fertilizer§r, §9Water§r, and §4Weed-EX§r are all about how much of these is on the crop stick rather than the crop itself. They're all about how much was applied, and is left of that.%n%n§2Nutrients§r, §1Humidity§r, and §6Air Quality§r are all about the environment. They're also affected by the Fertilizer and Water stats.%n%nNutrients and Humidity are mostly about the right biome, with swamp and rainforest types (hot+humid) being the best, but you can also get some extra stats by setting up right.%n%n§2Nutrients§r:%n3 possible free points from dirt under the farmland block, 2 for plants that require a specific block. So optimally always make sure that the required block is at the bottommost bottom in the column, because it checks in chain, not certain height. For example: cropstick -> farmland -> dirt -> oreblock -> dirt, it will only register 1 dirt, ignoring the one below the oreblock.%n%n5-10 possible points from fertilizing your crops. You can use fertilizer on a crop to increase its nutrients stat. Fertilizer caps at 199 which gives 10 nutrients, but can be applied again only if the crop drops below 100 fertilizer points. So for high stat crops its safe to assume and make tests for 100 fertilizer points as its a given constant unlike 199->100 values. You can apply bonemeal, IC2 fertilizer and Forestry fertilizer to a crop by hand. Forestry manual orchard multifarm and crop matron does this automatically when supplied with fertilizer (the multifarm needs fertilizer to harvest crops as well).%n%n§1Humidity§r:%n2 free points from using dirt as farmland, as when farmland gets hydrated by water(turns darker) it gains 2 humidity points. This is why other blocks for this suck, since they don't give this bonus.%n%n10 possible points from hydrating your crop. Similiar to fertilizing, water can be applied to crop up to 200 points, which is 10 humidity points, altough unlike fertilizer it does not need to drop below value of 100, water can be applied over and over keeping it at constant 200 points. You can apply water to your crop by using IC2 hydration cells by hand, or let your Forestry manual orchard multifarm and crop matron do it automatically. The multifarm needs water to harvest crops as well though.%n%n§6Air Quality§r:%n4 potential free points from empty space around crop. A crop checks for empty spaces to calculate bonus air quality points, it gives up to 4 points, 1 point for each 2 empty spaces. It only counts full blocks or cropsticks though. If you like looks, you'll probably have to sacrifice this.%n%n4 free points from height of your farm. You get 1 free point every 15 blocks startng at Y79.%n79 - 1 point%n94 - 2 points%n109 - 3 points%n124 - 4 points%n%n2 free points from no opaque blocks above the crop. You can place glass above and you won't lose the bonus since it's a transparent block. You cannot use dark glass, several layers of water, or gaseous tenebrae to get around this if your crop likes the dark. Unless you only let it grow at night I guess§..%n%n§aGrowability§r:%nYour crop will require a certain level of NHA, try to reach or surpass this, or the crop will either not grow, or even die (disappear). Each crop is different, and higher tiers (and stats) require more. It's generally easy to meet though, as long as you're in a good biome.%n%nGrowability is determined by the difference between what the crop needs in terms of NHA, and what it actually has. If you have more than what you need it grows faster. This is why you don't want a maxed resistance stat, since higher stats will slow it down.
 
 # Quest.2770 - Min-Maxing Crops
@@ -11154,19 +11146,19 @@ gtnh.quest2787.desc=You can make Cetane-Boosted Diesel now. Unfortunately, HOG i
 
 # Quest.2788 - Putting the 'Semi' Back Into Generators LV
 gtnh.quest2788.name=Putting the 'Semi' Back Into Generators LV
-gtnh.quest2788.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§3BTW, there's ULV versions of the Steam, Gas, and Combustion Gens, but they're totally pointless.
+gtnh.quest2788.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§3BTW, there's ULV versions of the Steam, Gas, and Combustion Gens, but they're totally pointless.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen).
 
 # Quest.2789 - Putting the 'Semi' Back Into Generators MV
 gtnh.quest2789.name=Putting the 'Semi' Back Into Generators MV
-gtnh.quest2789.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
+gtnh.quest2789.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen).
 
 # Quest.2790 - Putting the 'Semi' Back Into Generators HV
 gtnh.quest2790.name=Putting the 'Semi' Back Into Generators HV
-gtnh.quest2790.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
+gtnh.quest2790.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen).
 
 # Quest.2791 - You Haven't Learned How to Separate Fluids Yet? Seriously?
 gtnh.quest2791.name=You Haven't Learned How to Separate Fluids Yet? Seriously?
-gtnh.quest2791.desc=This seems suspiciously like another MB I know? §oProbably§r just my imagination.
+gtnh.quest2791.desc=This seems suspiciously like another MB I know? §oProbably§r just my imagination.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen).
 
 # Quest.2792 - Acid Trip
 gtnh.quest2792.name=Acid Trip
@@ -11398,11 +11390,11 @@ gtnh.quest2848.desc=Given the number of people asking about this and the incompa
 
 # Quest.2849 - §5§lFaster Steam transportation
 gtnh.quest2849.name=§5§lFaster Steam transportation
-gtnh.quest2849.desc=Do you think that steam transport is far too slow. Your LV pumps only manage 640mb / steam per second.%nThen it's time to make the 32 times faster LV steam valves.%n%nThey only work with steam and are just as fast as the Railcraft valves on a tank. (On the bottom side)%n%n§6§4§3There's also MV, HV, EV and IV versions.
+gtnh.quest2849.desc=Do you think that steam fluid transport is far too slow? Your LV pumps got you down, doing only 640L/s? Then it's time to make the 32 times faster LV steam valves!%n%nThey only work with steam and are just as fast as the valve on a Railcraft tank (if you put it on the bottom side).%n%n§6§4§3There's also MV, HV, EV and IV versions.
 
 # Quest.2850 - §5§lLong Distance Item Pipeline
 gtnh.quest2850.name=§5§lLong Distance Item Pipeline
-gtnh.quest2850.desc=Wouldn't it be great if we could transport your Items from very far away Ore Vein by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Item Pipleline Controlblock. Inbetween use the associated pipeline blocks.%n%nLoad your Ore Drill/Miner with a chunckloader and your base also and the items will be "teleported" to you.%n%n§0§0§1§r%nNo further chunckloaders are required on the route.%n%n%n§6§c§4§2Note: It does not have a throughput limit beyond how fast you can put stuff into it.
+gtnh.quest2850.desc=Wouldn't it be great if you could transport ores from a far away ore vein by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Item Pipeline block. Inbetween use the associated pipe blocks. There can only be one start and end point per pipeline.%n%nTo actually connect it, you need to align the start LDIP block such that the T's are facing inwards, and the opposite side of it has a LDIPP block. Put a conveyor on the side of the block that has the T's and set to import. It will now attempt to import stuff to the endpoint LDIP. §2This will go as fast as you can put items into it.§r%n%nDo the opposite on the far side, except you don't need a conveyor.%n%nNow you only need to chunkload the start and end points and the items will be "teleported" to you.%n%nOf course, later on you'll probably use ender chests to §oactually§r teleport the ore, especially from other dims.%n%nThis setup is lag-free in the pipe blocks, so it's useful in your base as well if you want to reduce lag.
 
 # Quest.2851 - Time to kill (Lava Monster)
 gtnh.quest2851.name=Time to kill (Lava Monster)
@@ -11431,6 +11423,22 @@ gtnh.quest2856.desc=Multiblock Controllers can now rotated with the "Front Rotat
 # Quest.2857 - Magic Mirror Glass?
 gtnh.quest2857.name=Magic Mirror Glass?
 gtnh.quest2857.desc=This glass seems useful for several things, including, perhaps, teleportation of items or essentia?
+
+# Quest.2858 - Machine Interface Fluid I/O
+gtnh.quest2858.name=Machine Interface Fluid I/O
+gtnh.quest2858.desc=Thanks to the tireless work of the devs, you can now use cells to I/O fluids directly from the interface of GT machines. Just click on the fluid while holding a cell or other fluid container item.%n%nPoints to consider:%n1) Left click to attempt filling/emptying all fluid containers held on cursor.%n2) Right click to attempt filling/emptying one fluid container held on cursor.%n3) All fluid containers that can be used in a standard gt tank (e.g. super tanks or the X voltage tanks) are supported, including but not limited to: water bottles, vanilla buckets, ic2 (universal and normal) cells, volumetric flasks, large fluid cells, pressurized fluid tanks, etc.%n4) Can fill/take less than one cell (1000L or 144L if molten) of fluid if the fluid container supports doing so.%n5) It won't check if it's a valid fluid for the machine/recipe, keep that in mind.%n6) The brewery is difficult to use this way without volumetric flasks, as its input and output are only 750L.%n7) Doesn't work with seared tanks or the Crops++ alcohols, feel free to code compatibility for us.%n8) EIO tanks need to be placed and picked up first before they can be used.%n6) Works on all GT single block machines that have an interface except for those that already have a way to I/O fluids, like hatches, tanks, or generators.
+
+# Quest.2859 - Combustion Engine
+gtnh.quest2859.name=Combustion Engine
+gtnh.quest2859.desc=The combustion engine combusts things for power like a car engine does. You need water in it if it's over 100 degrees, or it will explode. Don't run out of water! You turn it on with a redstone signal.%n%nYour options for fuel are:%nOil @30RF/t for a total of 150K%nEthanol @40RF/t for a total of 360K%nDiesel @60RF/t for a total of 1,500K%n%n§3Make sure to use Oil, not raw, light, medium, or heavy oil.
+
+# Quest.2860 - Kinesis Pipes
+gtnh.quest2860.name=Kinesis Pipes
+gtnh.quest2860.desc=To transfer RF power more than 1 block, you'll want some kinesis pipes. Use a wooden one first to connect to the pipe network, then other types to transfer it. That said, they seem to be lossy somewhat, so conduits are better, if more expensive. Also, you need capacitors to store the RF anyway.
+
+# Quest.2861 - Prison Gangs are Obsolete
+gtnh.quest2861.name=Prison Gangs are Obsolete
+gtnh.quest2861.desc=Want lots of cobble, stone, or obsidian? This is the machine for you!%n%nCobble: Water and lava on 2 of the sides.%nStone: Water on a side, lava on top.%nObsidian: Either of the above, and redstone in the machine%n%nYou of course need to power it. If you don't want to spend power on cobble, do it the ExU way with the WIU.
 
 ##################################Line##################################
 
