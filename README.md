@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.4 is out 26.02.2021
+Version 2.1.0.5 is out 25.03.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -173,19 +173,19 @@ you find it in your resource folder<BR>
 
 * Advanced Solar Panels 3.5.1a<BR>
 * Adventure Backpack 0.9h15-GTNH<BR>
-* AE2 Stuff 0.5.1.9<BR>
+* AE2 Stuff 0.5.1.11_GTNH<BR>
 * AE2 Wireless Crafting Table 1.8.7.7-GTNH<BR>
 * AFSU 1.2.3.a<BR>
 * Anger Mod 0.6.1<BR>
 * AppleCore 1.3.9<BR>
-* Applied Energistics rv3-beta-43-GTNH<BR>
+* Applied Energistics rv3-beta-44-GTNH<BR>
 * Architecture Craft 1.7.4-GTNH<BR>
 * Aroma Backup 0.1.0.0<BR>
 * Automagy 0.28.2<BR>
 * Avaritia 1.18<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.15<BR>
+* Bartworks 0.5.16<BR>
 * Baubles 1.0.1.12<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
@@ -199,15 +199,16 @@ you find it in your resource folder<BR>
 * BlockLimiter 0.52<BR>
 * Blood Arsenal 1.2.1-11<BR>
 * BloodMagic 1.3.3.43<BR>
-* Botdustries 1.1.0<BR>
+* Botdustries 1.2.0<BR>
 * Bug Torch 1.0.4<BR>
 * Buildcraft 7.1.23<BR>
 * Buildcraft Compat 7.1.7<BR>
 * Build Craft Oil Tweak 1.0.3<BR>
 * Carpenter's Blocks 3.3.8.2<BR>
 * Catwalk Mod 2.0.4<BR>
-* Chisel 2.9.8<BR>
+* Chisel Release-19<BR>
 * Chisel Tones 1.0-3<BR>
+* Cooking for Blockheads 1.2.3-GTNH
 * Command Block BQ Mod 3<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics 1.6.6<BR>
@@ -219,7 +220,7 @@ you find it in your resource folder<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2r<BR>
 * Electro Magic Tools 1.2.8.1<BR>
-* Ender IO 2.3.1.16_beta.30<BR>
+* Ender IO 2.3.1.16_beta.31<BR>
 * Ender Storage 1.4.8.29<BR>
 * Ender Zoo 1.0.18.3<BR>
 * Enhanced Loot Bags 1.0.4<BR>
@@ -242,10 +243,10 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.7c-GTNH<BR>
 * Gendustry 1.6.4.135a<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.34.14<BR>
+* Gregtech 5.09.34.16<BR>
 * GT Scanner Mod 1.6.0<BR>
 * GT Ore Nei Plugin 1.0.8<BR>
-* GT New Horizons Core Mod 1.7.10<BR>
+* GT New Horizons Core Mod 1.7.12<BR>
 * GT++ 1.7.05.68<BR>
 * GTNH TC Wands 1.2.1<BR>
 * GTTweaker 1.7.5<BR>
@@ -265,12 +266,12 @@ you find it in your resource folder<BR>
 * Inventory Tweaks 1.59.156<BR>
 * Iron Chest Minecarts 1.0.4<BR>
 * Iron Chests 6.0.62.742<BR>
-* Iron Tanks 1.2.0<BR>
+* Iron Tanks 1.2.1<BR>
 * ItLt 1.0.2<BR>
 * Jabba 1.2.7<BR>
 * JourneyMap 5.1.4p2<BR>
 * Kekztech 0.5.4<BR>
-* Logistic Pipes 0.9.45-GTNH
+* Logistic Pipes 0.9.4.5.2-GTNH
 * Lootgames 1.0.20<BR>
 * Magic Bees 2.5.5-GTNH<BR>
 * Malisis Doors 1.13.2<BR>
@@ -281,7 +282,7 @@ you find it in your resource folder<BR>
 * Mouse Tweaks 2.4.4<BR>
 * Natura 2.4.1-dev<BR>
 * Natures Compass 1.3.1<BR>
-* NEI 2.0.11-GTNH<BR>
+* NEI 2.1.0-GTNH-beta4<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
 * Nodal Mechanics 1.1.5-GTNH<BR>
@@ -296,7 +297,7 @@ you find it in your resource folder<BR>
 * Pam's Harvestcraft 1.7.10-lb-1.0.4-GTNH<BR>
 * Pam's Harvestcraft Nether 1.7.10a<BR>
 * Project Blue 1.1.6<BR>
-* Project Red-All 4.7.0pre13.11GT<BR>
+* Project Red-All 4.7.0pre13.14<BR>
 * Questbook 2.1.1<BR>
 * Railcraft 9.12.2.1<BR>
 * Random Things 2.2.4<BR>
@@ -331,12 +332,12 @@ you find it in your resource folder<BR>
 * Thaumic Horizon 1.2.0.3<BR>
 * Thaumic Machina 0.2.1<BR>
 * Thaumic Tinkerer 2.5.557-GTNH<BR>
-* Thaumcraft Tweaks 1.2.0-beta-10<BR>
+* Thaumcraft Tweaks 1.2.0-beta-11<BR>
 * TiCTooltips 1.2.5<BR>
-* Tinker's Construct 1.9.0.0.Build-6-GTNH<BR>
+* Tinker's Construct 1.9.0.0.Build-7-GTNH<BR>
 * Tinker's Gregworks 1.0.19-GTNH<BR>
 * Tinker's Defense 1.2.1d<BR>
-* TMechworks 0.2.16.1<BR>
+* TMechworks 0.2.16.2<BR>
 * Too Much Loot 4.0.3.B2<BR>
 * Toro Health 1.0.0<BR>
 * Translocator 1.1.2.16<BR>
