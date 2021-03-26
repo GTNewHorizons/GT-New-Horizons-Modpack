@@ -2,7 +2,7 @@ name: Mark stale issues
 
 on:
   schedule:
-  - cron: "30 */6 * * *"
+  - cron: "30 1 * * *"
 
 jobs:
   stale:
@@ -15,7 +15,7 @@ jobs:
         days-before-stale: 90
         days-before-close: 3
         stale-issue-label: 'Status: stale'
-        only-labels: "Server: Delta,Server: EU Live Server,Server: Epsilon,Server: Eta,Server: Prospercraft,Server: Zeta,Status: NO,Status: Need new Idea,Status: Open for discussion,Status: RFC (request for comment),Status: Waiting for Feedback,Status: mod remove,Status: need to be tested,Status: report it at original Repo,Type: Idea,Type: Info,Type: Need more Info,Type: Nerf,Type: New Quests,Type: New Tooltip,Type: New recipe,Type: Not a Bug,Type: Won't change,Type: addition,Type: additional Mod,Type: balancing,Type: config,Type: duplicate,Type: enhancement,Type: invalid,Type: not our fault,Type: question,Type: refactor,Type: script changes,Type: silly suggestion,Type: suggestion"
+        any-of-labels: "Server: Delta,Server: EU Live Server,Server: Epsilon,Server: Eta,Server: Prospercraft,Server: Zeta,Status: NO,Status: Need new Idea,Status: Open for discussion,Status: RFC (request for comment),Status: Waiting for Feedback,Status: mod remove,Status: need to be tested,Status: report it at original Repo,Type: Idea,Type: Info,Type: Need more Info,Type: Nerf,Type: New Quests,Type: New Tooltip,Type: New recipe,Type: Not a Bug,Type: Won't change,Type: addition,Type: additional Mod,Type: balancing,Type: config,Type: duplicate,Type: enhancement,Type: invalid,Type: not our fault,Type: question,Type: refactor,Type: script changes,Type: silly suggestion,Type: suggestion"
         exempt-issue-labels: 'Priority: CRITICAL,Priority: HIGH,Status: CodeComplete,Status: FixedInDev,Status: accepted,Status: work in progress,Status: waiting for fix,Type: bugMajor,Type: bugMinor,Type: exploit,Type: reminder,Type: urgent'
         ascending: true
     - uses: actions/stale@v3
@@ -25,6 +25,6 @@ jobs:
         days-before-stale: 180
         days-before-close: 3
         stale-issue-label: 'Status: stale'
-        only-labels: "Status: can't fix,Status: can't reproduce,Status: Nothing i can do here"
+        any-of-labels: "Status: can't fix,Status: can't reproduce,Status: Nothing i can do here"
         exempt-issue-labels: 'Type: reminder'
         ascending: true
