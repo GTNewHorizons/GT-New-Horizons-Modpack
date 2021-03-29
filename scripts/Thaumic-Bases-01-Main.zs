@@ -235,7 +235,7 @@ Infusion.addRecipe("TB.NodeLinker",<Thaumcraft:blockStoneDevice:11>,
 // --- Overchanting Table
 Infusion.addRecipe("TB.Overchanter",<minecraft:enchanting_table>,
 [<thaumicbases:crystalBlock:0>, <thaumicbases:crystalBlock:1>, <thaumicbases:crystalBlock:2>, <thaumicbases:crystalBlock:3>, <thaumicbases:crystalBlock:4>, <thaumicbases:crystalBlock:5>, <thaumicbases:crystalBlock:6>, <thaumicbases:crystalBlock:6>, <thaumicbases:blockSalisMundus>, <gregtech:gt.blockmetal7:4>, <gregtech:gt.blockmetal7:4>],
-"aer 32, aqua 32, terra 32, ignis 32, ordo 32, perditio 32, praecantatio 32, machina 32, cognito 32",<thaumicbases:overchanter>,15);
+"aer 32, aqua 32, terra 32, ignis 32, ordo 32, perditio 32, praecantatio 32, machina 32, cognitio 32",<thaumicbases:overchanter>,15);
 
 
 
