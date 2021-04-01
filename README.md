@@ -15,6 +15,7 @@ Starting in the stone age you will barely be able to survive until you get your 
 
 If you are a fan of expert mode packs and want to take it to the next level this pack will be your friend!
 
+And remember... harold is walking.
 ## Quotes
 
 - thcv - This pack is pushing my mental capacity
