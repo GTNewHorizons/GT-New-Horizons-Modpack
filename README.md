@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.5 is out 25.03.2021
+Version 2.1.0.6 is out 11.04.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -191,7 +191,7 @@ you find it in your resource folder<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
 * Better Loading Screen 1.3.28-GTNH<BR>
-* Better Questing 3.0.341-GTNH<BR>
+* Better Questing 3.0.342-GTNH<BR>
 * Bibliocraft 1.11.7<BR>
 * Bibliowoods 1.9/1.7/1.5<BR>
 * Binnie Mods 2.0-29.5-gtnh<BR>
@@ -199,7 +199,7 @@ you find it in your resource folder<BR>
 * BlockLimiter 0.52<BR>
 * Blood Arsenal 1.2.1-11<BR>
 * BloodMagic 1.3.3.43<BR>
-* Botdustries 1.2.0<BR>
+* Botdustries 1.2.1<BR>
 * Bug Torch 1.0.4<BR>
 * Buildcraft 7.1.23<BR>
 * Buildcraft Compat 7.1.7<BR>
@@ -232,28 +232,28 @@ you find it in your resource folder<BR>
 * Find It 1.0.1<BR>
 * Flood Light 1.2.8.137<BR>
 * Forbidden Magic 0.575<BR>
-* Forestry 4.3.1.43<BR>
+* Forestry 4.3.1.44<BR>
 * Forgelin 1.8.4-GTNH<BR>
 * Forge Microblocks 1.2.0.347<BR>
 * ForgeReloaction 0.0.1.4<BR>
 * ForgeReloactionFMP 0.0.1.2<BR>
 * Gadomancy 1.0.8.1<BR>
-* Galacticraft-Full 3.0.25-GTNH<BR>
+* Galacticraft-Full 3.0.26-GTNH<BR>
 * GalactiGreg 1.0.3<BR>
 * Galaxy Space 1.1.7c-GTNH<BR>
-* Gendustry 1.6.4.135a<BR>
+* Gendustry 1.6.4.1<BR>
 * Gravitation Suite 2.0.68u<BR>
 * Gregtech 5.09.34.16<BR>
 * GT Scanner Mod 1.6.0<BR>
 * GT Ore Nei Plugin 1.0.8<BR>
-* GT New Horizons Core Mod 1.7.12<BR>
+* GT New Horizons Core Mod 1.7.13<BR>
 * GT++ 1.7.05.68<BR>
 * GTNH TC Wands 1.2.1<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
 * Hardcore Ender Expansion 1.8.7<BR>
 * Help Fixer 1.0.7<BR>
-* Hodgepodge 1.6.3<BR>
+* Hodgepodge 1.6.4-test<BR>
 * Holo Inventory 2.1.5-beta<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
@@ -277,12 +277,12 @@ you find it in your resource folder<BR>
 * Malisis Doors 1.13.2<BR>
 * Mine and Blade Battlegear 1.1.1.4-GTNH<BR>
 * Minecraft Forge 10.13.4.1614<BR>
-* Mod Mixins 0.0.4<BR>
+* Mod Mixins 0.0.5<BR>
 * Mod Tweaker 2 0.9.6.173<BR>
 * Mouse Tweaks 2.4.4<BR>
-* Natura 2.4.1-dev<BR>
+* Natura 2.4.2-dev<BR>
 * Natures Compass 1.3.1<BR>
-* NEI 2.1.0-GTNH-beta4<BR>
+* NEI 2.1.0-GTNH-beta18<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
 * Nodal Mechanics 1.1.5-GTNH<BR>
@@ -294,10 +294,10 @@ you find it in your resource folder<BR>
 * Open Printers 0.1.0.132<BR>
 * Open Security 1.0-117<BR>
 * Overloaded Armorbar 1.0.0<BR>
-* Pam's Harvestcraft 1.7.10-lb-1.0.4-GTNH<BR>
+* Pam's Harvestcraft 1.7.10-lb-1.0.5-GTNH<BR>
 * Pam's Harvestcraft Nether 1.7.10a<BR>
 * Project Blue 1.1.6<BR>
-* Project Red-All 4.7.0pre13.14<BR>
+* Project Red-All 4.7.0pre14.17<BR>
 * Questbook 2.1.1<BR>
 * Railcraft 9.12.2.1<BR>
 * Random Things 2.2.4<BR>
@@ -315,7 +315,7 @@ you find it in your resource folder<BR>
 * Steve's Carts 2.0.0.20b<BR>
 * Steve's Factory Manager ALPHA97-GTNH<BR>
 * Steve's Factory Manager Addon 0.10.17<BR>
-* Storage Drawers 1.11.5-gtnh<BR>
+* Storage Drawers 1.11.6-gtnh<BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
 * Super Solar Panel 1.1.2<BR>
 * Super Tic 1.2.1<BR>
@@ -332,9 +332,9 @@ you find it in your resource folder<BR>
 * Thaumic Horizon 1.2.0.3<BR>
 * Thaumic Machina 0.2.1<BR>
 * Thaumic Tinkerer 2.5.557-GTNH<BR>
-* Thaumcraft Tweaks 1.2.0-beta-11<BR>
+* Thaumcraft Tweaks 1.2.0-rc-3<BR>
 * TiCTooltips 1.2.5<BR>
-* Tinker's Construct 1.9.0.0.Build-7-GTNH<BR>
+* Tinker's Construct 1.9.0.1.Build-8-GTNH<BR>
 * Tinker's Gregworks 1.0.19-GTNH<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks 0.2.16.2<BR>
@@ -342,14 +342,14 @@ you find it in your resource folder<BR>
 * Toro Health 1.0.0<BR>
 * Translocator 1.1.2.16<BR>
 * Travellers Gear 1.16.7<BR>
-* Twillight Forest 2.3.8.6-dev<BR>
+* Twillight Forest 2.3.8.7-dev<BR>
 * Ulity Worlds 1.0.9e<BR>
 * Universal Singularities Version 8.6.2<BR>
 * Waila 1.5.10<BR>
 * Waila Harvestability 1.1.7<BR>
 * Waila Plugins 0.2.3.1-8<BR>
 * Wawla 1.0.5.120<BR>
-* Warp Theory 1.1.0-GTNH<BR>
+* Warp Theory 1.1.1-GTNH<BR>
 * Wireless Redstone CBE 1.4.2-GTNH<BR>
 * Witchery 0.24.1<BR>
 * Witchery Extras 1.1.1<BR>
