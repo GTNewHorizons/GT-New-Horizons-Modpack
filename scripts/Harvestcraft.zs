@@ -804,7 +804,7 @@ Pulverizer.addRecipe([<harvestcraft:cornmealItem>], <harvestcraft:cornItem>, [10
 // --- Heavy Cream
 Mixer.addRecipe(<harvestcraft:heavycreamItem>, null, [<harvestcraft:freshmilkItem>], null, 1200, 2);
 // -
-Mixer.addRecipe(<harvestcraft:heavycreamItem>, null, [null], <liquid:milk> * 250, 1200, 2);
+//Mixer.addRecipe(<harvestcraft:heavycreamItem>, null, [null], <liquid:milk> * 250, 1200, 2);
 
 // --- Butter
 Mixer.addRecipe(<harvestcraft:butterItem>, null, [<harvestcraft:heavycreamItem>, <gregtech:gt.metaitem.01:817>], null, 1200, 2);
