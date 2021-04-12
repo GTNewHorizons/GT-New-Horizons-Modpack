@@ -104,11 +104,6 @@ recipes.remove(<miscutils:itemBoilerChassis:2>);
 // --- HV Tank
 recipes.remove(<gregtech:gt.blockmachines:820>);
 
-// --- PSS
-recipes.remove(<gregtech:gt.blockmachines:812>);
-
-
-
 // --- Add Recipes ---
 
 
