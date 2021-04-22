@@ -1313,7 +1313,7 @@ Assembler.addRecipe(Terminal, [NQuartzRod * 4, QuartziteScrew, Illuminated, Good
 Assembler.addRecipe(CraftingTerminal, [Terminal, CertusScrew * 2, SlabCTable, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
 
 // --- ME Processing Terminal
-Assembler.addRecipe(ProcessingTerminal, [CraftingTerminal, LuVConveyorbelt * 2, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, LuVMotor * 2, LuVRobotArm], null, 200, 120);
+Assembler.addRecipe(ProcessingTerminal, [CraftingTerminal, LuVConveyorbelt * 2, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, LuVMotor * 2, LuVRobotarm], null, 200, 120);
 
 // --- Interface Terminal
 Assembler.addRecipe(InterfaceTerminal, [Terminal, CertusScrew * 2, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
