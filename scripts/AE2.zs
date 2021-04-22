@@ -1298,46 +1298,46 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:76>, FluixCoveredC *
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56>, FluixCoveredC, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 150, 120);
 
 // --- ME Storage Bus
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:220>, <ore:chestWood>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiPart:440>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>, 200, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:220>, [<ore:chestWood>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiPart:440>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>], null, 200, 120);
 
 // --- ME Import Bus
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:240>, TitaniumPlate, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:44>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>, 200, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:240>, [TitaniumPlate, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:44>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>], null, 200, 120);
 
 // --- ME Export Bus
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:260>, TitaniumPlate, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>, 200, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:260>, [TitaniumPlate, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>], null, 200, 120);
 
 // --- ME Terminal
-Assembler.addRecipe(Terminal, NQuartzRod * 4, QuartziteScrew, Illuminated, GoodCircuit, CertusPlate, 400, 120);
+Assembler.addRecipe(Terminal, [NQuartzRod * 4, QuartziteScrew, Illuminated, GoodCircuit, CertusPlate], null, 400, 120);
 
 // --- ME Crafting Terminal
-Assembler.addRecipe(CraftingTerminal, Terminal, CertusScrew * 2, SlabCTable, NQuartzPlate * 2, DiamondCircuit, 200, 120);
+Assembler.addRecipe(CraftingTerminal, [Terminal, CertusScrew * 2, SlabCTable, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
 
 // --- ME Processing Terminal
-Assembler.addRecipe(ProcessingTerminal, CraftingTerminal, LuVConveyorbelt * 2, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, LuVMotor * 2, LuVRobotArm, 200, 120);
+Assembler.addRecipe(ProcessingTerminal, [CraftingTerminal, LuVConveyorbelt * 2, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, LuVMotor * 2, LuVRobotarm], null, 200, 120);
 
 // --- Interface Terminal
-Assembler.addRecipe(InterfaceTerminal, Terminal, CertusScrew * 2, NQuartzPlate * 2, DiamondCircuit, 200, 120);
+Assembler.addRecipe(InterfaceTerminal, [Terminal, CertusScrew * 2, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
 
 // --- Conversion Monitor
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:420>, <appliedenergistics2:item.ItemMultiPart:400>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, NQuartzPlate * 2, <appliedenergistics2:item.ItemMultiMaterial:44>, 400, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:420>, [<appliedenergistics2:item.ItemMultiPart:400>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, NQuartzPlate * 2, <appliedenergistics2:item.ItemMultiMaterial:44>], null, 400, 120);
 
 // --- Pattern Terminal
-Assembler.addRecipe(PatternTerminal, Terminal, CertusScrew * 2, Pattern, NQuartzPlate * 2, DiamondCircuit, 200, 120);
+Assembler.addRecipe(PatternTerminal, [Terminal, CertusScrew * 2, Pattern, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
 
 // --- Formation Plane
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:320>, <ore:blockHopper>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, FluixCrystal * 3, 200, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:320>, [<ore:blockHopper>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, FluixCrystal * 3], null, 200, 120);
 
 // --- Annihilation Plane 
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:300>, <appliedenergistics2:item.ToolCertusQuartzPickaxe>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:44>, <ore:gemFluix> * 3, 200, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:300>, [<appliedenergistics2:item.ToolCertusQuartzPickaxe>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:44>, <ore:gemFluix> * 3], null, 200, 120);
 
 // --- P2P Tunnel - ME
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:460>, TitaniumPlate, CertusScrew * 2, DiamondCircuit, FluixCrystal * 3, 360, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:460>, [TitaniumPlate, CertusScrew * 2, DiamondCircuit, FluixCrystal * 3], null, 360, 120);
 
 // --- ME Storage Monitor
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:400>, <ore:itemIlluminatedPanel>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiPart:280>, NQuartzPlate * 3, 200, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:400>, [<ore:itemIlluminatedPanel>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiPart:280>, NQuartzPlate * 3], null, 200, 120);
 
 // --- ME Portable Cell
-Assembler.addRecipe(<appliedenergistics2:item.ToolPortableCell>, <appliedenergistics2:item.ItemBasicStorageCell.1k>, <ore:screwTitanium> * 2, <appliedenergistics2:tile.BlockChest>, <appliedenergistics2:tile.BlockEnergyCell>, 200, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ToolPortableCell>, [<appliedenergistics2:item.ItemBasicStorageCell.1k>, <ore:screwTitanium> * 2, <appliedenergistics2:tile.BlockChest>, <appliedenergistics2:tile.BlockEnergyCell>], null, 200, 120);
 
 
 
