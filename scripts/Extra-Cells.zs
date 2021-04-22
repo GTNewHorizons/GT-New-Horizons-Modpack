@@ -619,7 +619,7 @@ Assembler.addRecipe(<extracells:craftingstorage:2>, <appliedenergistics2:tile.Bl
 Assembler.addRecipe(<extracells:craftingstorage:3>, <appliedenergistics2:tile.BlockCraftingUnit>, <extracells:storage.component:3>, 400, 1920);
 
 // --- Storage Cell Component - 256K
-Assembler.addRecipe(StorageComponent256K, [DataCircuit * 4, TitaniumPlate * 4, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, <appliedenergistics2:item.ItemMultiMaterial:8> * 4], null, 200, 1980);
+Assembler.addRecipe(StorageComponent256K, [DataCircuit * 4, TitaniumPlate * 4, <dreamcraft:item.EngineeringProcessorItemEmeraldCore>, <appliedenergistics2:item.ItemMultiMaterial:8> * 4], null, 200, 1920);
 
 // --- Storage Cell Component - 1024K
 Assembler.addRecipe(StorageComponent1024K, [EliteCircuit * 4, <ore:plateTungstenSteel> * 4, <dreamcraft:item.EngineeringProcessorItemEmeraldCore> * 4, <appliedenergistics2:item.ItemMultiMaterial:8> * 16], null, 200, 7680);
