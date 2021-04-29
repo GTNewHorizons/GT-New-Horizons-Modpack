@@ -105,12 +105,6 @@ recipes.remove(<harvestcraft:skilletItem>);
 // --- Sacepan
 recipes.remove(<harvestcraft:saucepanItem>);
 
-// --- Fresh Water
-recipes.remove(<harvestcraft:freshwaterItem>);
-
-// --- Fresh Milk
-recipes.remove(<harvestcraft:freshmilkItem>);
-
 // --- Hardened Leather
 recipes.remove(<harvestcraft:hardenedleatherItem>);
 
@@ -186,37 +180,63 @@ recipes.remove(<harvestcraft:churn>);
 // --- Quern
 recipes.remove(<harvestcraft:quern>);
 
-// --- Boiled egg out of Tofu
+// --- Fresh Water
+recipes.remove(<harvestcraft:freshwaterItem>);
+
+// --- Fresh Milk
+recipes.remove(<harvestcraft:freshmilkItem>);
+
+// --- Boiled egg (egg->tofu=bad)
 recipes.remove(<harvestcraft:boiledeggItem>);
 
-// --- Heavy Cream
-recipes.remove(<harvestcraft:heavycreamItem>);
-
-// --- Raspberry Juice
-recipes.remove(<harvestcraft:raspberryjuiceItem>);
-
-// --- Blackberry Juice
-recipes.remove(<harvestcraft:blackberryjuiceItem>);
-
-// --- Blueberry Juice
-recipes.remove(<harvestcraft:blueberryjuiceItem>);
-
-// --- Lemonade
-recipes.remove(<harvestcraft:lemonaideItem>);
-
-// --- Onion Soup
+// --- Onion Soup (grilled cheese is weird)
 recipes.remove(<harvestcraft:onionsoupItem>);
 
-// --- Hearty Breakfast
-recipes.remove(<harvestcraft:heartybreakfastItem>);
+// --- Honeycomb Chocolate Bar
+recipes.remove(<harvestcraft:honeycombchocolatebarItem>);
+
+
+
+// --- Adding oredicts to tools so they can be used in cooking recipes ---
+
+
+// --- Mortar
+mortar.add(<gregtech:gt.metatool.01:24>);
+
+// --- Cutboard
+cutboard.add(<gregtech:gt.metatool.01:34>);
+
+// --- Bowl
+bowl.add(<minecraft:bowl>);
+
+// --- Bake
+bake.add(<gregtech:gt.metatool.01:46>);
+
+// --- Juicer
+juice.add(<gregtech:gt.metatool.01:14>);
 
 
 
 // --- Adding Back Recipes ---
 
-// --- Edible Salt
 
-recipes.addShapeless(<dreamcraft:item.EdibleSalt>, [<ore:toolPot>, <ore:listAllwater>]);
+// --- Blocks
+
+// --- Animaltraps
+for i, Trapdoor in Trapdoors {  
+recipes.addShaped(Animaltrap, [
+[<ore:stickWood>, Trapdoor, <ore:stickWood>],
+[<minecraft:string>, <ore:chestWood>, <minecraft:string>],
+[<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
+}
+
+// --- Market --- disabled because of some kind of dupe bug?
+//recipes.addShaped(<harvestcraft:market>, [
+//[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>],
+//[<ore:gearGtSmallAnyBronze>, <minecraft:dispenser>, <ore:gearGtSmallAnyBronze>],
+//[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>]]);
+
+// --- Misc
 
 // --- Woven Cotton
 recipes.addShaped(WovenCloth, [
@@ -224,8 +244,10 @@ recipes.addShaped(WovenCloth, [
 [Cotton, String, Cotton],
 [String, Cotton, String]]);
 
-// --- Apiary
-recipes.addShapeless(<harvestcraft:apiary>, [<Forestry:apiculture:2>]);
+// --- Water Garden
+recipes.addShapeless(<harvestcraft:watergarden>, [<harvestcraft:tropicalgarden>, <harvestcraft:leafygarden>, <harvestcraft:groundgarden>, <harvestcraft:herbgarden>]);
+
+// --- Cooking Tools
 
 // --- Pot
 recipes.addShaped(<harvestcraft:potItem>, [
@@ -260,7 +282,6 @@ recipes.addShaped(<harvestcraft:saucepanItem>, [
 [<ore:stickIron>, <ore:bucketEmpty>, <ore:plateAnyIron>],
 [<ore:stickWood>, <ore:craftingToolFile>, <ore:plateAnyIron>]]);
 
-
 // --- Mixing Bowl
 recipes.addShaped(<harvestcraft:mixingbowlItem>, [
 [<ore:screwIron>, <ore:craftingToolHardHammer>, <ore:screwIron>],
@@ -272,23 +293,28 @@ recipes.addShaped(<harvestcraft:mixingbowlItem>, [
 [<ore:plateAnyIron>, <ore:bucketEmpty>, <ore:plateAnyIron>],
 [<ore:screwIron>, <ore:craftingToolHardHammer>, <ore:screwIron>]]);
 
-// --- Plum Juice
-recipes.addShapeless(<harvestcraft:plumjuiceItem>, [<ore:craftingToolHardHammer>, <ore:cropPlum>]);
+// --- Cutboard ---
+recipes.addShapeless(<harvestcraft:cuttingboardItem>, [<gregtech:gt.metatool.01:36>.withTag({ench: [{lvl: 3 as short, id: 16 as short}, {lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "StainlessSteel", MaxDamage: 48000 as long, SecondaryMaterial: "StainlessSteel"}}).noReturn()]);
 
-// --- Per Juice
-recipes.addShapeless(<harvestcraft:pearjuiceItem>, [<ore:craftingToolHardHammer>, <ore:cropPear>]);
+// --- Mortar ---
+recipes.addShaped(<harvestcraft:mortarandpestleItem>, [
+[<ore:craftingToolHardHammer>, SSlStick, <ore:craftingToolFile>],
+[<ore:stoneGraniteBlack>, SSlStick, <ore:stoneGraniteBlack>],
+[<ore:stoneGraniteBlack>, <ore:stoneGraniteBlack>, <ore:stoneGraniteBlack>]]);
 
-// --- Honey 
-recipes.addShapeless(<harvestcraft:honeyItem>, [<ore:craftingToolHardHammer>, <harvestcraft:honeycombItem>]);
+// --- Bakeware ---
+recipes.addShaped(<harvestcraft:bakewareItem>, [
+[SSlPlate, null, SSlPlate],
+[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
+[SSlBolt, SSlPlate, SSlBolt]]);
 
-// --- Wax 
-recipes.addShapeless(<harvestcraft:beeswaxItem>, [<ore:craftingToolHardHammer>, <harvestcraft:waxcombItem>]);
+// --- Juicer ---
+recipes.addShaped(<harvestcraft:juicerItem>, [
+[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
+[SSlPlate, <gregtech:gt.metaitem.02:8306>, SSlPlate],
+[SSlBolt, SSlPlate, SSlBolt]]);
 
-// --- Soy Milk 
-recipes.addShapeless(<harvestcraft:soymilkItem>, [<ore:craftingToolHardHammer>, <ore:cropSoybean>]);
-
-// --- Bubbly Water
-recipes.addShapeless(<harvestcraft:bubblywaterItem>, [<gregtech:gt.metaitem.02:32107>]);
+// --- Candles
 
 // --- White Candle
 recipes.addShaped(<harvestcraft:pamcandleDeco1> * 4, [
@@ -386,8 +412,7 @@ recipes.addShaped(<harvestcraft:pamcandleDeco16> * 4, [
 [null, <harvestcraft:waxItem>, null],
 [<ore:dyeBlack>, <harvestcraft:waxItem>, <ore:dyeBlack>]]);
 
-// --- Water Garden
-recipes.addShapeless(<harvestcraft:watergarden>, [<harvestcraft:tropicalgarden>, <harvestcraft:leafygarden>, <harvestcraft:groundgarden>, <harvestcraft:herbgarden>]);
+// --- Gear
 
 // --- Hardened Leather Helm
 recipes.addShaped(<harvestcraft:hardenedleatherhelmItem>, [
@@ -413,14 +438,23 @@ recipes.addShaped(<harvestcraft:hardenedleatherbootsItem>, [
 [<harvestcraft:hardenedleatherItem>, <ore:craftingToolHardHammer>, <harvestcraft:hardenedleatherItem>],
 [null, null, null]]);
 
+// --- Food
+
+// --- Edible Salt
+recipes.addShapeless(<dreamcraft:item.EdibleSalt>, [<ore:toolPot>, <ore:listAllwater>]);
+
+// --- Soy Milk 
+recipes.addShapeless(<harvestcraft:soymilkItem>, [<ore:craftingToolHardHammer>, <ore:cropSoybean>]);
+
+// --- Bubbly Water
+recipes.addShapeless(<harvestcraft:bubblywaterItem>, [<gregtech:gt.metaitem.02:32107>]);
+
 // --- Fresh Milk
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>]);
-
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 2, [<IguanaTweaksTConstruct:clayBucketMilk>]);
 
 // --- Fresh Water
 recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>]);
-
 recipes.addShapeless(<harvestcraft:freshwaterItem> * 2, [<IguanaTweaksTConstruct:clayBucketWater>]);
 
 // --- Wet Tofu
@@ -435,18 +469,6 @@ recipes.addShapeless(<harvestcraft:firmtofuItem>, [<ore:craftingToolSoftHammer>,
 
 // --- Silken Tofu
 recipes.addShapeless(<harvestcraft:silkentofuItem>, [<ore:craftingToolRollingPin>, <harvestcraft:firmtofuItem>]);
-
-// --- Rainbow Curry
-recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
-[<minecraft:red_flower:1>, <minecraft:tallgrass:1>, <BiomesOPlenty:flowers2:2>],
-[<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
-[<minecraft:bowl>.reuse(), <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
-
-// --- Market ---
-//recipes.addShaped(<harvestcraft:market>, [
-//[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>],
-//[<ore:gearGtSmallAnyBronze>, <minecraft:dispenser>, <ore:gearGtSmallAnyBronze>],
-//[<ore:plateIron>, <ore:screwIron>, <ore:plateIron>]]);
 
 // --- Cooked Vension
 furnace.addRecipe(<harvestcraft:venisoncookedItem>, <harvestcraft:venisonrawItem>);
@@ -477,89 +499,27 @@ recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<harvestcraft:mixingbow
 // -
 recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<harvestcraft:mixingbowlItem>, <IguanaTweaksTConstruct:clayBucketMilk>]);
 
-// --- Raspberry Juice
-recipes.addShapeless(<harvestcraft:raspberryjuiceItem>, [<ore:toolJuicer>, <ore:cropRaspberry>]);
-
-// --- Blackberry Juice
-recipes.addShapeless(<harvestcraft:blackberryjuiceItem>, [<ore:toolJuicer>, <ore:cropBlackberry>]);
-
-// --- Blueberry Juice
-recipes.addShapeless(<harvestcraft:blueberryjuiceItem>, [<ore:toolJuicer>, <ore:cropBlueberry>]);
-
-// --- Lemonade
-recipes.addShapeless(<harvestcraft:lemonaideItem>, [<ore:toolJuicer>, <ore:cropLemon>, <ore:listAllsugar>]);
-
 // --- Onion Soup
 recipes.addShaped(<harvestcraft:onionsoupItem>, [
 [<harvestcraft:potItem>, <ore:cropOnion>, null],
-[<harvestcraft:stockItem>, <harvestcraft:cheeseItem>, null],
+[<harvestcraft:stockItem>, <ore:foodCheese>, null],
 [null, null, null]]);
 
-// --- Animaltrap
-for i, Trapdoor in Trapdoors {  
-recipes.addShaped(Animaltrap, [
-[<ore:stickWood>, Trapdoor, <ore:stickWood>],
-[<minecraft:string>, <ore:chestWood>, <minecraft:string>],
-[<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
-}
+// --- Rainbow Curry
+recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
+[<minecraft:red_flower:1>, <minecraft:tallgrass:1>, <BiomesOPlenty:flowers2:2>],
+[<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
+[<minecraft:bowl>.reuse(), <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
 
-// --- Cutboard ---
-recipes.addShapeless(<harvestcraft:cuttingboardItem>, [<gregtech:gt.metatool.01:36>.withTag({ench: [{lvl: 3 as short, id: 16 as short}, {lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "StainlessSteel", MaxDamage: 48000 as long, SecondaryMaterial: "StainlessSteel"}}).noReturn()]);
-
-
-// --- Mortar ---
-recipes.addShaped(<harvestcraft:mortarandpestleItem>, [
-[<ore:craftingToolHardHammer>, SSlStick, <ore:craftingToolFile>],
-[<ore:stoneGraniteBlack>, SSlStick, <ore:stoneGraniteBlack>],
-[<ore:stoneGraniteBlack>, <ore:stoneGraniteBlack>, <ore:stoneGraniteBlack>]]);
-
-// --- Bakeware ---
-recipes.addShaped(<harvestcraft:bakewareItem>, [
-[SSlPlate, null, SSlPlate],
-[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
-[SSlBolt, SSlPlate, SSlBolt]]);
-
-// --- Juicer ---
-recipes.addShaped(<harvestcraft:juicerItem>, [
-[SSlPlate, <ore:craftingToolHardHammer>, SSlPlate],
-[SSlPlate, <gregtech:gt.metaitem.02:8306>, SSlPlate],
-[SSlBolt, SSlPlate, SSlBolt]]);
-
-// --- Hearty Breakfast
-recipes.addShaped(<harvestcraft:heartybreakfastItem>, [
-[<ore:listAllmeatcooked>, <harvestcraft:friedeggItem>, null],
-[<harvestcraft:toastItem>, <harvestcraft:potatocakesItem>, null],
-[<ore:listAlljuice>, null, null]]);
-// -
-recipes.addShaped(<harvestcraft:heartybreakfastItem>, [
-[<ore:listAllmeatcooked>, <harvestcraft:friedeggItem>, null],
-[<harvestcraft:toastItem>, <harvestcraft:potatocakesItem>, null],
-[<ore:foodChocolatemilk>, null, null]]);
-
-
-
-// --- Ordicted Things ---
-
-
-// --- Mortar
-mortar.add(<gregtech:gt.metatool.01:24>);
-
-// --- Cutboard
-cutboard.add(<gregtech:gt.metatool.01:34>);
-
-// --- Bowl
-bowl.add(<minecraft:bowl>);
-
-// --- Bake
-bake.add(<gregtech:gt.metatool.01:46>);
-
-// --- Juicer
-juice.add(<gregtech:gt.metatool.01:14>);
+// --- Honeycomb Chocolate Bar
+recipes.addShaped(<harvestcraft:honeycombchocolatebarItem>, [
+[<harvestcraft:saucepanItem>, <harvestcraft:chocolatebarItem>, null],
+[<BiomesOPlenty:food:9>, null, null],
+[null, null, null]]);
 
 
 
 // --- Centrifuge recipes
-
 
 
 // --- Silken Tofu
@@ -567,10 +527,7 @@ Centrifuge.addRecipe([<harvestcraft:silkentofuItem>, <harvestcraft:silkentofuIte
 
 
 
-
-
 // --- Compressor Recipes ---
-
 
 
 // --- Firm Tofu
@@ -580,8 +537,6 @@ Compressor.addRecipe(<harvestcraft:firmtofuItem>, <harvestcraft:silkentofuItem>)
 Compressor.addRecipe(<harvestcraft:waxItem>, <harvestcraft:beeswaxItem> * 4);
 // -
 Compressor.addRecipe(<harvestcraft:waxItem>, <Forestry:beeswax> * 4);
-
-
 
 
 
@@ -776,8 +731,8 @@ Extractor.addRecipe(<harvestcraft:chestnutbutterItem>, <Forestry:fruits:2>);
 Extractor.addRecipe(<harvestcraft:pistachiobutterItem>, <harvestcraft:pistachioItem>);
 
 
-// --- Forming Press Recipes ---
 
+// --- Forming Press Recipes ---
 
 
 // --- Hardened Leather
@@ -785,10 +740,7 @@ FormingPress.addRecipe(<harvestcraft:hardenedleatherItem>, <Backpack:tannedLeath
 
 
 
-
 // --- Pulverizer Recipes ---
-
-
 
 
 // --- Corn Meal
@@ -797,8 +749,6 @@ Pulverizer.addRecipe([<harvestcraft:cornmealItem>], <harvestcraft:cornItem>, [10
 
 
 // --- Mixer recipes ---
-
-
 
 
 // --- Heavy Cream
