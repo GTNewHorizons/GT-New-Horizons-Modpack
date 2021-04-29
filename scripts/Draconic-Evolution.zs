@@ -611,16 +611,10 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:particleGenerator>, [
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Item Dislocator
-mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet>, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, <ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, null, null],
-[null, null, null, null, null, null, <ore:ingotSteelMagnetic>, null, null],
-[null, null, null, null, null, null, <gregtech:gt.metaitem.01:32518>, null, null],
-[null, null, null, null, null, null, <ore:ingotSteelMagnetic>, null, null],
-[null, <ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, null, null],
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, null, null, null, null, null]]);
+recipes.addShaped(<DraconicEvolution:magnet>, [
+[<ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>],
+[null, null, <gregtech:gt.metaitem.01:32518>],
+[<ore:blockSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>]]);
 
 // --- Advanced Item Dislocator
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:magnet:1>, [
