@@ -1095,6 +1095,30 @@ recipes.addShaped(UStorageHousing, [
 [StainlessPlate, ClearPane, StainlessPlate],
 [CertusScrew, AlPlate, HHammer]]);
 
+// --- Storage Cell Component - 1K
+recipes.addShaped(StorageComponent1K, [
+[PrimitiveCircuit, CCDust, PrimitiveCircuit],
+[CCDust, <dreamcraft:item.LogicProcessorItemGoldCore>, CCDust],
+[PrimitiveCircuit, CCDust, PrimitiveCircuit]]);
+
+// --- Storage Cell Component - 4K
+recipes.addShaped(StorageComponent4K, [
+[BasicCircuit, SteelPlate, BasicCircuit],
+[StorageComponent1K, <dreamcraft:item.LogicProcessorItemGoldCore>, StorageComponent1K],
+[BasicCircuit, SteelPlate, BasicCircuit]]);
+
+// --- Storage Cell Component - 16K
+recipes.addShaped(StorageComponent16K, [
+[GoodCircuit, AlPlate, GoodCircuit],
+[StorageComponent4K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent4K],
+[GoodCircuit, AlPlate, GoodCircuit]]);
+
+// --- Storage Cell Component - 64K
+recipes.addShaped(StorageComponent64K, [
+[AdvCircuit, <ore:plateStainlessSteel>, AdvCircuit],
+[StorageComponent16K, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, StorageComponent16K],
+[AdvCircuit, <ore:plateStainlessSteel>, AdvCircuit]]);
+
 // --- 2 Spatial Component
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:32>, [
 [<ore:plateGlowstone>, FluixPearl, <ore:plateGlowstone>],
@@ -1315,18 +1339,6 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:400>, [<ore:itemIllu
 
 // --- ME Portable Cell
 Assembler.addRecipe(<appliedenergistics2:item.ToolPortableCell>, [<appliedenergistics2:item.ItemBasicStorageCell.1k>, <ore:screwTitanium> * 2, <appliedenergistics2:tile.BlockChest>, <appliedenergistics2:tile.BlockEnergyCell>], null, 200, 120);
-
-// --- Storage Cell Component - 1K
-Assembler.addRecipe(StorageComponent1K, [PrimitiveCircuit * 4, <ore:plateLead> * 4, <dreamcraft:item.LogicProcessorItemGoldCore>, CCDust * 4, <gregtech:gt.integrated_circuit:9> * 0], null, 200, 6);
-
-// --- Storage Cell Component - 4K
-Assembler.addRecipe(StorageComponent4K, [BasicCircuit * 4, SteelPlate * 4, <dreamcraft:item.LogicProcessorItemGoldCore> * 4, CCDust * 16, <gregtech:gt.integrated_circuit:9> * 0], null, 200, 30);
-
-// --- Storage Cell Component - 16K
-Assembler.addRecipe(StorageComponent16K, [GoodCircuit * 4, AlPlate * 4, <dreamcraft:item.EngineeringProcessorItemDiamondCore>, PureCertusQCrystal * 32, <gregtech:gt.integrated_circuit:9> * 0], null, 200, 120);
-
-// --- Storage Cell Component - 64K
-Assembler.addRecipe(StorageComponent64K, [AdvCircuit * 4, <ore:plateStainlessSteel> * 4, <dreamcraft:item.EngineeringProcessorItemDiamondCore> * 4, PureCertusQCrystal * 64, <gregtech:gt.integrated_circuit:9> * 0], null, 200, 480);
 
 
 
