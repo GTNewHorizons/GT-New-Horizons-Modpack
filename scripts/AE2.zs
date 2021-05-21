@@ -299,7 +299,7 @@ recipes.remove(Pattern);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:25>);
 
 // --- Blank Pattern
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:52>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:52>);
 
 // --- Capacity Card
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:27>);
@@ -447,12 +447,6 @@ recipes.remove(<appliedenergistics2:item.ItemMultiPart:76>);
 
 // --- ME Smart Cable
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
-
-// --- Add Brown Smart Cable Recipe
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:52> * 8, [
-[<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>],
-[<appliedenergistics2:item.ItemMultiPart:56>, <ore:dyeBrown>, <appliedenergistics2:item.ItemMultiPart:56>],
-[<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>]]);
 
 
 // --- Cells ---
