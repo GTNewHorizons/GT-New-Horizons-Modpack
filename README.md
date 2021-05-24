@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.7 is out 17.05.2021
+Version 2.1.0.7a is out 19.05.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -199,7 +199,7 @@ you find it in your resource folder<BR>
 * BlockLimiter 0.52<BR>
 * Blood Arsenal 1.2.1-11<BR>
 * BloodMagic 1.3.3.44<BR>
-* Botdustries 1.2.2<BR>
+* Botdustries 1.2.3<BR>
 * Bug Torch 1.0.4<BR>
 * Buildcraft 7.1.23<BR>
 * Buildcraft Compat 7.1.7<BR>
