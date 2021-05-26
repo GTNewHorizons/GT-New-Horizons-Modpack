@@ -802,7 +802,7 @@ Assembler.addRecipe(<gregtech:gt.blockmachines:23>, <IC2:blockElectric:5>, <greg
 Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <gregtech:gt.blockmachines:1587> * 2, 100, 1920);
 
 // --- Iridium Neutron Reflector
-Assembler.addRecipe(<gregtech:gt.neutronreflector>, <dreamcraft:item.NeutronReflectorParts>, <IC2:itemPartIridium>, 1200, 256);
+Assembler.addRecipe(<gregtech:gt.neutronreflector>, <dreamcraft:item.NeutronReflectorParts> * 8, <IC2:itemPartIridium>, 1200, 256);
 
 // --- RTG Pellets
 Assembler.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 120);
