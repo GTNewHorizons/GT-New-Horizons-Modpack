@@ -1307,7 +1307,8 @@ recipes.addShaped(<BiblioCraft:item.BiblioClipboard>, [
 [<ore:craftingToolScrewdriver>, <gregtech:gt.metaitem.01:17809>, <ore:craftingToolSaw>],
 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
-
+// --- Clipboard cleaning
+recipes.addShapeless(<BiblioCraft:item.BiblioClipboard>, [<BiblioCraft:item.BiblioClipboard:*>, <ore:platePaper>]);
 
 
 // --- Cutting Saw Recipes ---
