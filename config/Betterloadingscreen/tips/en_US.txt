@@ -1,9 +1,9 @@
 #Tips for the loading screen
+#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
 #
-#Thanks to 0lafe, bedrill, boubou19, chochem, Commander Crankshaft
-, interestingusernam3, glowredman, GTNH-Afx237v7, KiloJoel, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
-#
-#Maximal character count for a tip: roughly 80 (more can go out of the screen)
+#Maximal characters for a tip: 77 (more can go out of the screen)
+#The line below, including the "#" are 77 chars
+#Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
 #
 Infinite water sources are disabled
 Got a question? Join our Discord server: discord.com/invite/EXshrPV
@@ -12,7 +12,7 @@ Don't feed your machines after midnight!
 Make sure you have installed a backup mod
 Material tiers play a role when breaking pipes
 If a machine catches fire, it can explode
-Adding water to an empty but hot Boiler will cause an explosion
+Adding water to an empty but hot Boiler will make a loud bang!
 Avoid eldritch obelisks!
 You can bind the quests menu to a key, instead of using the book
 Pam's gardens can be picked up with right-click
@@ -31,15 +31,15 @@ Shift-right-clicking with a wrench on a fluid pipe makes it input-only
 The Bending Machine makes plates more efficiently
 Multiblocks can share walls
 You can't use the front side of machines
-Disable a machine with a Soft Mallet if it can't finish a recipe
+Disable a machine with a Soft Mallet if it can not finish a recipe
 Forestry Worktables are a must!
 Try the Midnight Theme for the questbook
 Try the Realistic Sky resourcepack
 Literally flint and steel!
-Tinker's tools can level up: more modifiers and mining level bonus!
-Farm Glowflowers for Glowstone
-Making steel armor? Check out the Composite Chestplate
-Adventurer's backpack: integrated crafting grid, bed, and fluid storage
+Tinker's tools can levelup: more modifiers and minig level bonus!
+Farm Glowflowers for glowstone
+Making steel armour? Check out the Composite Chestplate
+Adventurer's backpack: integrated crafting grid, bed and fluid storage
 Beware of cable power loss!
 Machines that get a higher Voltage than they can handle go BOOM!
 Loss on uninsulated cables is twice as big as on insulated ones
@@ -50,10 +50,10 @@ Beware of pollution!
 Found a bug? Report it on GitHub
 Tinker's smeltery does not double ores
 Be sure to check out the wiki: gtnh.miraheze.org
-Perditio and Vanadiumsteel pickaxes and hammers are really fast
+Perditio and vanadiumsteel picks and hammers are really fast
 Look for ore chunks
 Nerfs incoming!
-You can plant Oreberries on Cropsticks
+You can plant oreberries on cropsticks
 IC2 Crops can receive bonus environmental statistics based on biome
 Weeds spread to empty crop sticks and destroy other crops
 Use Machine Hulls or Transvector Interfaces to ease machine access
@@ -89,7 +89,7 @@ Useless coins that are actually useful. - Scribit
 If a fluid cell doesn't work, try using a fluid canner
 Use /xu_tps to see if the server's lagging. 20 TPS is normal!
 Use an elevator to get in your Cleanroom, so you won't lose cleanliness!
-If you aren't lucky enough, try enchanting your Lootbags with Fortune III!
+If you aren't lucky enough, try enchanting your lootbags with Fortune III!
 You can't enter the Twilight Forest without a Quick And Dirty Portal Generator
 Press T while hovering on an item in NEI to see where it is in your world.
 Using a Circuit Assembler will make circuits cheaper!
@@ -97,16 +97,17 @@ Using a Cleanroom will make circuits even cheaper!
 GT stands for Grind and Tedium
 Don't go out at night! Mobs can have up to 300 HP
 Steam is hot! It will burn Wooden Fluid Pipes
-Don't break rubber trees without a Treetap
+Don't break rubber trees without a treetap
 Make Muffler Moint Mup (Point up)
 Your EBF won't work if the muffler doesn't point to the sky!
 Eating too many of the same food will make you hate it!
+Remember to check if there are Natura clouds when you launch a rocket!
 Abandon all vanilla knowledge all ye who enter here
 With the power of Duct Tape, I solved all of your maintenance problems!
 When you open a Twilight Portal, you'll get hit by lightning
-Sometimes it's better to flee than fight some mobs
+#Sometimes it's better to flee than fight some mobs
 Sometimes the best combat strategy is "Nigerundayooo!"
-You can power machines by putting a battery in their energy slots
+You can power machines by putting a batteries in their energy slots
 You can charge your jetpack by putting it in the Energy slot of LV machines
 Be prepared to take hours to craft a single machine!
 Oil + Thunder = Fire. Remember to put cobblestone over your oil wells!
@@ -123,15 +124,15 @@ Meta-Tip! You can see the list of loading screen tips in the config
 Hahahaha, coin quests go brrrrrrr
 If you're making a Project Red system, make sure to use a wall of drawers!
 How many circuits have you crafted in your life?
-Journeymap: press [J]
+JOURNEYMAP: PRESS[j]
 Not by Vazkii
 sqrt(-1) loves you!
 (MultiMC > Curse) && (Technic > Curse): true
-All you had to do was tho follow the damn questline, CJ!
+All you had to do was tho follow the damn quest line, CJ!
 Click on an item in the quest book to show its recipe in NEI
 Why not visit GregTech? We have... microcrafting
 Cables are | || || |_ y
-Eating new foods gives hearts!
+Varying foods gives hearts!
 You can change InGame Info XML scale in ingame configs
 Look for sulfur in the Nether
 Game mechanics datasheet: bit.ly/gtnh-datasheets
@@ -145,9 +146,9 @@ Batteries can be charged and discharged in the same slot
 Don't hold machines in your hotbar when playing with cables
 Was making HV connection. Missclicked and placed MV engraver - Lewissaber
 Destroyed once a Tier 1 rocket by accidentally pressing shift - Regian
-Visit r/feedthememes!
+Visit r/feedthemems!
 I WANT ROCKET I WANT MOON - St4o
-Shift + Right Click on a GregTech Cover to open the menu
-Looking for Infused Stones? Try putting Amber in an Ore Finder Wand
-Remove plates from machines using a crowbar
-To divide items with a ratio, use the Distributor. Configure with a screwdriver
+Houston was here.
+Bot was here.
+Alphanova is a copycat!
+Jackowski more like perogi amirite
