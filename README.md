@@ -159,7 +159,7 @@ IP: gtnh.114-7.com
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
 FTB Launcher Code: GTNH<BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
-Discord Link: https://discord.gg/010i4hQTIv3BYCkGf<BR>
+Discord Link: https://discord.com/invite/EXshrPV<BR>
 Forum Link: http://gtnewhorizons.com/<BR>
 
 
