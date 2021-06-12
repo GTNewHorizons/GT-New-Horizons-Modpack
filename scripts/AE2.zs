@@ -889,7 +889,7 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:31>, [<appliede
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:30>, [<appliedenergistics2:item.ItemMultiMaterial:28>, DiamondCircuit, GoldCircuit, FluixCrystal]);
 
 // --- Ore dictionary filter card
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:55>, [<appliedenergistics2:item.ItemMultiMaterial:28>, DiamondCircuit, DiamondCircuit, gregtech:gt.blockmachines:9255]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:55>, [<appliedenergistics2:item.ItemMultiMaterial:28>, DiamondCircuit, DiamondCircuit, <gregtech:gt.blockmachines:9255>]);
 
 // --- Wireless Booster
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:42>, [
