@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.7a is out 19.05.2021
+Version 2.1.0.0pre is out 15.06.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -178,28 +178,28 @@ you find it in your resource folder<BR>
 * AFSU 1.2.3.a<BR>
 * Anger Mod 0.6.1<BR>
 * AppleCore 1.3.9<BR>
-* Applied Energistics rv3-beta-47-GTNH<BR>
+* Applied Energistics rv3-beta-48-GTNH<BR>
 * Architecture Craft 1.7.4-GTNH<BR>
 * Aroma Backup 0.1.0.0<BR>
 * Automagy 0.28.2<BR>
 * Avaritia 1.19<BR>
 * Avaritiaddons 1.4b<BR>
 * BackPack 2.2.4<BR>
-* Bartworks 0.5.17<BR>
+* Bartworks 0.5.18<BR>
 * Baubles 1.0.1.12<BR>
 * Bee Better At Bees 0.3<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
-* Better Loading Screen 1.3.28-GTNH<BR>
-* Better Questing 3.0.343-GTNH<BR>
+* Better Loading Screen 1.3.29-GTNH<BR>
+* Better Questing 3.0.344-GTNH<BR>
 * Bibliocraft 1.11.7<BR>
 * Bibliowoods 1.9/1.7/1.5<BR>
 * Binnie Mods 2.0-29.5-gtnh<BR>
 * Biomes o Plenty 2.1.2-GTNH<BR>
-* BlockLimiter 0.52<BR>
-* Blood Arsenal 1.2.1-11<BR>
+* BlockLimiter 0.53<BR>
+* Blood Arsenal 1.2.2-11<BR>
 * BloodMagic 1.3.3.44<BR>
-* Botdustries 1.2.3<BR>
+* Botdustries 1.2.4<BR>
 * Bug Torch 1.0.4<BR>
 * Buildcraft 7.1.23<BR>
 * Buildcraft Compat 7.1.7<BR>
@@ -219,7 +219,7 @@ you find it in your resource folder<BR>
 * Custom Main Menu 1.9.2<BR>
 * Default World Generator 0.1-b13<BR>
 * Draconic Evolution 1.0.2r<BR>
-* Electro Magic Tools 1.2.8.1<BR>
+* Electro Magic Tools 1.2.8.2<BR>
 * Ender IO 2.3.1.16_beta.31<BR>
 * Ender Storage 1.4.8.29<BR>
 * Ender Zoo 1.0.18.3<BR>
@@ -231,7 +231,7 @@ you find it in your resource folder<BR>
 * FastCraft 1.25<BR>
 * Find It 1.0.1<BR>
 * Flood Light 1.2.8.137<BR>
-* Forbidden Magic 0.575-1-GTNH<BR>
+* Forbidden Magic 0.575-2-GTNH<BR>
 * Forestry 4.3.1.44<BR>
 * Forgelin 1.8.4-GTNH<BR>
 * Forge Microblocks 1.2.0.347<BR>
@@ -243,11 +243,11 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.7c-GTNH<BR>
 * Gendustry 1.6.5.0<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.34.17<BR>
+* Gregtech 5.09.34.18<BR>
 * GT Scanner Mod 1.6.0<BR>
 * GT Ore Nei Plugin 1.0.8<BR>
-* GT New Horizons Core Mod 1.7.14<BR>
-* GT++ 1.7.05.68<BR>
+* GT New Horizons Core Mod 1.7.15<BR>
+* GT++ 1.7.06-GTNH<BR>
 * GTNH TC Wands 1.2.2<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
@@ -270,7 +270,7 @@ you find it in your resource folder<BR>
 * ItLt 1.0.2<BR>
 * Jabba 1.2.8<BR>
 * JourneyMap 5.1.4p2<BR>
-* Kekztech 0.5.5<BR>
+* Kekztech 0.5.6<BR>
 * Logistic Pipes 0.9.4.5.2-GTNH
 * Lootgames 1.0.20<BR>
 * Magic Bees 2.5.5-GTNH<BR>
@@ -282,13 +282,13 @@ you find it in your resource folder<BR>
 * Mouse Tweaks 2.4.4<BR>
 * Natura 2.4.2-dev<BR>
 * Natures Compass 1.3.1<BR>
-* NEI 2.1.3-GTNH<BR>
+* NEI 2.1.5-GTNH<BR>
 * Nei Addons 1.12.15.41<BR>
 * Nei Integration 1.1.2<BR>
 * Nodal Mechanics 1.1.5-GTNH<BR>
 * Not Enough Thaumcraft Tabs 1.1.0<BR>
 * Open Blocks 1.6.3-snapshot6<BR>
-* Open Computers 1.7.5.10.28<BR>
+* Open Computers 1.7.5.11.29<BR>
 * Open Modular Turrets 2.2.11.245<BR>
 * Open Glasses 1.1-GTNH
 * Open Printers 0.1.0.132<BR>
@@ -315,26 +315,26 @@ you find it in your resource folder<BR>
 * Steve's Carts 2.0.0.20b<BR>
 * Steve's Factory Manager ALPHA97-GTNH<BR>
 * Steve's Factory Manager Addon 0.10.17<BR>
-* Storage Drawers 1.11.6-gtnh<BR>
+* Storage Drawers 1.11.7-gtnh<BR>
 * Storage Drawers Wood Addons 1.1.2c<BR>
 * Super Solar Panel 1.1.2<BR>
 * Super Tic 1.2.1<BR>
 * Tainted Magic r7.6<BR>
 * TC Node Tracker 1.1.2<BR>
-* Tec Tech 4.10.5<BR>
+* Tec Tech 4.10.6<BR>
 * Thaumcraft 4.2.3.5<BR>
 * Thaumcraft Mob Aspects 2B-snapsh17<BR>
 * Thaumcraft-NEI-Additions 1.1.0.1<BR>
 * ThaumcraftNEIPlugins 1.7a<BR>
-* Thaumic Bases 1.4.24.0<BR>
+* Thaumic Bases 1.4.25.0<BR>
 * Thaumic Energistics 1.1.3.11<BR>
 * Thaumic Exploration 1.1.76<BR>
 * Thaumic Horizon 1.2.0.4<BR>
 * Thaumic Machina 0.2.1<BR>
 * Thaumic Tinkerer 2.5.558-GTNH<BR>
-* Thaumcraft Tweaks 1.2.0-rc-5<BR>
+* Thaumcraft Tweaks 1.3.2<BR>
 * TiCTooltips 1.2.5<BR>
-* Tinker's Construct 1.9.0.1.Build-8-GTNH<BR>
+* Tinker's Construct 1.9.0.1.Build-10-GTNH<BR>
 * Tinker's Gregworks 1.0.19-GTNH<BR>
 * Tinker's Defense 1.2.1d<BR>
 * TMechworks 0.2.16.2<BR>
