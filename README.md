@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.1.0 is out 20.06.2021
+Version 2.1.1.0 is out 21.06.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
