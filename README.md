@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.0.0pre is out 15.06.2021
+Version 2.1.1.0 is out 20.06.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -191,7 +191,7 @@ you find it in your resource folder<BR>
 * Better Archivements 0.1.0<BR>
 * Better Builders Wands 0.8.1r92<BR>
 * Better Loading Screen 1.3.29-GTNH<BR>
-* Better Questing 3.0.344-GTNH<BR>
+* Better Questing 3.0.345-GTNH<BR>
 * Bibliocraft 1.11.7<BR>
 * Bibliowoods 1.9/1.7/1.5<BR>
 * Binnie Mods 2.0-29.5-gtnh<BR>
@@ -213,7 +213,7 @@ you find it in your resource folder<BR>
 * Compact Kinetic Generators 1.0<BR>
 * Computronics 1.6.6<BR>
 * Controlling 1.0.0<BR>
-* CraftPresence 1.7.5<BR>
+* CraftPresence 1.8.2<BR>
 * Craft Tweaker 3.2.2-GTNH<BR>
 * Crops ++ 1.3.5.4<BR>
 * Custom Main Menu 1.9.2<BR>
@@ -243,17 +243,17 @@ you find it in your resource folder<BR>
 * Galaxy Space 1.1.7c-GTNH<BR>
 * Gendustry 1.6.5.0<BR>
 * Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.34.18<BR>
+* Gregtech 5.09.35.00<BR>
 * GT Scanner Mod 1.6.0<BR>
 * GT Ore Nei Plugin 1.0.8<BR>
-* GT New Horizons Core Mod 1.7.15<BR>
+* GT New Horizons Core Mod 1.8.00<BR>
 * GT++ 1.7.06-GTNH<BR>
 * GTNH TC Wands 1.2.2<BR>
 * GTTweaker 1.7.5<BR>
 * Hardcore Darkness 1.7<BR>
 * Hardcore Ender Expansion 1.8.8<BR>
 * Help Fixer 1.0.7<BR>
-* Hodgepodge 1.6.7<BR>
+* Hodgepodge 1.6.8<BR>
 * Holo Inventory 2.1.5-beta<BR>
 * Hunger Overhaul 1.0.2<BR>
 * IC2 Nuclear Control 2.4.3a<BR>
