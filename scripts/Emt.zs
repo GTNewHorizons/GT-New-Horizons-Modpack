@@ -1080,7 +1080,7 @@ game.setLocalization("tc.research_text.ShieldFocus", "S.H.I.E.L.D.");
 mods.thaumcraft.Research.addPage("ShieldFocus", "tc.research_page.ShieldFocus");
 game.setLocalization("tc.research_page.ShieldFocus", "With some experimentation with the Portable Hole, you have found out more about the transportation of objects to alternative dimensions. You believe you can reverse these effects to summon a swath of blocks from a dimension full of matter to shield you from any oncoming disaster. Caution is to be taken when using this focus, as when bringing these blocks into our dimension, it will transpose any blocks in the way into the dimension it came from, never to return again. You will also be unable to move while this shield is in existence.");
 mods.thaumcraft.Infusion.addRecipe("ShieldFocus", <Thaumcraft:FocusPortableHole>,
-[<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <IC2:itemPartAlloy>, <gregtech:gt.metaitem.01:17383>, <gregtech:gt.blockreinforced:3>, <dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17383>, <IC2:itemPartAlloy>, <gregtech:gt.blockreinforced:3>], 
+[<gregtech:gt.metaitem.01:17602>, <gregtech:gt.blockreinforced:3>, <IC2:itemPartAlloy>, <gregtech:gt.metaitem.01:17383>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17602>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17383>, <IC2:itemPartAlloy>, <gregtech:gt.blockreinforced:3>], 
 "aer 32, tutamen 40, victus 16, vinculum 24, vitreus 16, praecantatio 8", <EMT:ShieldFocus>, 9);
 mods.thaumcraft.Research.addInfusionPage("ShieldFocus", <EMT:ShieldFocus>);
 
@@ -1097,7 +1097,7 @@ mods.thaumcraft.Research.addPage("ShieldBlock", "tc.research_page.ShieldBlock");
 game.setLocalization("tc.research_page.ShieldBlock", "After studying the blocks created by the shield focus, you have discovered how to recreate them yourself, without relying on them to be summoned by the focus. They are highly blast resistant, and even resistant to nukes. However, in the event of an actual nuclear explosion, while the shield blocks will survive the aftermath, the surrounding blocks will not.<BR><BR>These blocks are unstable and do not drop when broken, even when Silk Touch is used.");
 mods.thaumcraft.Arcane.addShaped("ShieldBlock", <EMT:ShieldBlock> * 10, "terra 20, ordo 20, perditio 20", [
 [<Thaumcraft:blockCosmeticSolid:1>, <IC2:itemPartAlloy>, <Thaumcraft:blockCosmeticSolid:1>],
-[<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:1>, <dreamcraft:item.ReinforcedGlassPlate>],
+[<ore:plateReinforcedGlass>, <gregtech:gt.blockreinforced:1>, <ore:plateReinforcedGlass>],
 [<Thaumcraft:blockCosmeticSolid:1>, <IC2:itemPartAlloy>, <Thaumcraft:blockCosmeticSolid:1>]]);
 mods.thaumcraft.Research.addArcanePage("ShieldBlock", <EMT:ShieldBlock>);
 
