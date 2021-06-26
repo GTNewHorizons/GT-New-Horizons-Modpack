@@ -220,7 +220,7 @@ recipes.addShaped(<witchery:ingredient:49>, [
 // --- Earmuffs
 recipes.addShaped(<witchery:earmuffs>, [
 [<ore:screwThaumium>, <ore:springSteel>, <ore:screwThaumium>],
-[<ore:dyeBlack>, <ore:craftingToolWrench>, <ore:craftingFeather>],
+[<Backpack:tannedLeather>, <ore:craftingToolWrench>, <Backpack:tannedLeather>],
 [<ore:ringThaumium>, <ore:craftingToolScrewdriver>, <ore:ringThaumium>]]);
 
 // --- Snow Pressure Plate
