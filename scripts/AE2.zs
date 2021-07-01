@@ -678,12 +678,6 @@ recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [
 [FluixCrystal, GlowstonePlate, FluixCrystal],
 [TitaniumPlate, FluixCrystal, TitaniumPlate]]);
 
-// --- Vibration Chamber
-recipes.addShaped(<appliedenergistics2:tile.BlockVibrationChamber>, [
-[TitaniumPlate, <ore:screwTitanium>, TitaniumPlate],
-[<ore:craftingToolScrewdriver>, <gregtech:gt.blockmachines:264>, <ore:craftingToolWrench>],
-[TitaniumPlate, <appliedenergistics2:tile.BlockEnergyAcceptor>, TitaniumPlate]]);
-
 // --- ME Security Terminal
 recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>, [
 [TitaniumPlate, <appliedenergistics2:tile.BlockChest>, TitaniumPlate],
@@ -1448,6 +1442,11 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 
 
 // --- Hiding Stuff ---
+
+
+// --- Vibration Chamber
+NEI.hide(<appliedenergistics2:tile.BlockVibrationChamber>);
+
 
 
 // --- Renaming Stuff ---

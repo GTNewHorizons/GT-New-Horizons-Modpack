@@ -5,20 +5,15 @@
 // --- Importing Stuff ---
 
 
-
-
 import mods.gregtech.Assembler;
-
+import mods.nei.NEI;
 
 
 // --- Variables ---
 
 
 
-
-
 // --- Removing Recipes ---
-
 
 
 // --- Wireless Essentia ME Terminal
@@ -125,15 +120,11 @@ mods.thaumcraft.Infusion.removeRecipe(<thaumicenergistics:thaumicenergistics.blo
 
 
 
-
 // --- Adding Recipes ----
 
 
 
-
-
 // --- Assembler Recipes ---
-
 
 
 // --- Wireless Essentia ME Terminal
@@ -141,9 +132,7 @@ Assembler.addRecipe(<thaumicenergistics:wireless.essentia.terminal>, <appliedene
 
 
 
-
 // --- Thaumcraft Stuff
-
 
 
 // --- Essentia Provider
@@ -153,21 +142,6 @@ mods.thaumcraft.Infusion.addRecipe("thaumicenergistics.TEESSPROV", <appliedenerg
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEESSPROV", "sensus 21, praecantatio 18, lucrum 15, metallum 12, ordo 9, potentia 6, machina 3");
 mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEESSPROV", 3);
-
-// --- Iron Gear
-mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIRONGEARBOX", <thaumicenergistics:material:2>, "terra 10, ignis 5, ordo 5", [
-[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>],
-[<ore:plateIron>, <ore:gearWood>, <ore:plateIron>],
-[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>]]);
-
-// --- Iron Gear Box
-mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIRONGEARBOX", <thaumicenergistics:thaumicenergistics.block.gear.box>, "aer 15, ignis 15, ordo 15", [
-[<Thaumcraft:blockCosmeticSolid:6>, <ore:gearIron>, <Thaumcraft:blockCosmeticSolid:6>],
-[<ore:gearIron>, <gregtech:gt.metaitem.01:32601>, <ore:gearIron>],
-[<Thaumcraft:blockCosmeticSolid:6>, <ore:gearIron>, <Thaumcraft:blockCosmeticSolid:6>]]);
-// -
-mods.thaumcraft.Research.setAspects("thaumicenergistics.TEIRONGEARBOX", "terra 15, metallum 12, machina 9, permutatio 6, metallum 3");
-mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEIRONGEARBOX", 3);
 
 // --- Arcane Crafting Terminal
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEARCANETERM", <thaumicenergistics:part.base:5>, "aqua 25, ignis 25, aer 25, terra 25, ordo 25, perditio 25", [
@@ -238,31 +212,22 @@ mods.thaumcraft.Research.addArcanePage("thaumicenergistics.TEESSTERM", <thaumice
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEESSTERM", "praecantatio 15, permutatio 12, sensus 9, potentia 6, aqua 3");
 mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEESSTERM", 3);
 
-// --- Vibration Chamber
-mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEESSVIBCMBR", <thaumicenergistics:thaumicenergistics.block.essentia.vibration.chamber>, "ignis 35, ordo 35, perditio 35, aqua 35", [
-[<ore:plateInfusedOrder>, <thaumicenergistics:part.base:4>, <ore:plateInfusedOrder>],
-[<thaumicenergistics:material>, <extracells:vibrantchamberfluid>, <thaumicenergistics:material>],
-[<ore:plateInfusedEntropy>, <Thaumcraft:blockJar>, <ore:plateInfusedEntropy>]]);
-// -
-mods.thaumcraft.Research.setAspects("thaumicenergistics.TEESSVIBCMBR", "vitreus 18, machina 15, potentia 12, praecantatio 9, motus 6, aqua 3");
-mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEESSVIBCMBR", 3);
-
 // --- Essentia Import Bus
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIO", <thaumicenergistics:part.base>, "ordo 15, aqua 15, ignis 15, terra 15", [
 [<Thaumcraft:blockCosmeticOpaque:2>, <thaumicenergistics:material>, <Thaumcraft:blockCosmeticOpaque:2>],
-[<ore:plateInfusedOrder>, <extracells:part.base:1>, <ore:plateInfusedOrder>],
+[<ore:plateInfusedOrder>, <appliedenergistics2:item.ItemMultiPart:240>, <ore:plateInfusedOrder>],
 [<Thaumcraft:blockJar>, <Thaumcraft:blockTube:3>, <Thaumcraft:blockJar>]]);
 
 // --- Essentia Export Bus
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIO", <thaumicenergistics:part.base:3>, "ordo 15, aqua 15, ignis 15, terra 15", [
 [<Thaumcraft:blockJar>, <Thaumcraft:blockTube:3>, <Thaumcraft:blockJar>],
-[<ore:plateInfusedOrder>, <extracells:part.base>, <ore:plateInfusedOrder>],
+[<ore:plateInfusedOrder>, <appliedenergistics2:item.ItemMultiPart:260>, <ore:plateInfusedOrder>],
 [<Thaumcraft:blockCosmeticOpaque:2>, <thaumicenergistics:material:1>, <Thaumcraft:blockCosmeticOpaque:2>]]);
 
 // --- Essentia Storage Bus
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIO", <thaumicenergistics:part.base:2>, "ordo 20, aqua 20, ignis 20, terra 20", [
 [<Thaumcraft:blockJar>, <ore:plateInfusedWater>, <Thaumcraft:blockJar>],
-[<thaumicenergistics:material>, <extracells:part.base:2>, <thaumicenergistics:material:1>],
+[<thaumicenergistics:material>, <appliedenergistics2:item.ItemMultiPart:220>, <thaumicenergistics:material:1>],
 [<Thaumcraft:blockTube:3>, <ore:plateInfusedWater>, <Thaumcraft:blockTube:3>]]);
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEIO", "motus 18, machina 15, metallum 12, vitreus 9, aer 6, aqua 3");
@@ -391,18 +356,12 @@ mods.thaumcraft.Research.setComplexity("thaumicenergistics.TESTORAGE", 3);
 
 // --- Vis Relay Interface
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEVISINT", <thaumicenergistics:part.base:6>, "ordo 20, terra 20, ignis 20, aqua 20, perditio 20, aer 20", [
-[<Thaumcraft:blockCrystal:6>, <extracells:part.base:9>, <Thaumcraft:blockCrystal:6>],
+[<Thaumcraft:blockCrystal:6>, <appliedenergistics2:item.ItemMultiPart:440>, <Thaumcraft:blockCrystal:6>],
 [<ore:screwInfusedEarth>, <appliedenergistics2:item.ItemMultiPart:460>, <ore:screwInfusedEarth>],
 [<ore:plateInfusedOrder>, <ore:plateInfusedOrder>, <ore:plateInfusedOrder>]]);
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEVISINT", "vacuos 21, potentia 18, auram 15, metallum 12, cognitio 9, machina 6, aqua 3");
 mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEVISINT", 3);
-
-// --- Thaumic Gear Box
-mods.thaumcraft.Crucible.addRecipe("thaumicenergistics.TETHAUMGBOX", <thaumicenergistics:thaumicenergistics.block.golem.gear.box>, <thaumicenergistics:thaumicenergistics.block.gear.box>, "metallum 32, praecantatio 32");
-// -
-mods.thaumcraft.Research.setAspects("thaumicenergistics.TETHAUMGBOX", "terra 15, machina 12, metallum 9, praecantatio 6, permutatio 3");
-mods.thaumcraft.Research.setComplexity("thaumicenergistics.TETHAUMGBOX", 3);
 
 // --- Arcane Assembler
 mods.thaumcraft.Infusion.addRecipe("thaumicenergistics.TEARCANEASSEMBLER", <extracells:fluidcrafter>, 
@@ -434,7 +393,6 @@ mods.thaumcraft.Infusion.addRecipe("thaumicenergistics.TEINFPROV", <thaumicenerg
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEINFPROV", "permutatio 21, motus 18, sensus 15, machina 12, praecantatio 9, alienis 6, spiritus 3");
 mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEINFPROV", 3);
-
 
 
 // --- Research Refresh
@@ -490,3 +448,20 @@ mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEKNOWLEDGEIN
 
 // --- Infusion Provider
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEINFPROV");
+
+
+
+// --- Hiding Stuff ---
+
+
+// --- Essentia vibration chamber
+NEI.hide(<thaumicenergistics:thaumicenergistics.block.essentia.vibration.chamber>);
+
+// --- Iron gear
+NEI.hide(<thaumicenergistics:material:2>);
+
+// --- Iron gearbox
+NEI.hide(<thaumicenergistics:thaumicenergistics.block.gear.box>);
+
+// --- Thaumium gearbox
+NEI.hide(<thaumicenergistics:thaumicenergistics.block.golem.gear.box>);
