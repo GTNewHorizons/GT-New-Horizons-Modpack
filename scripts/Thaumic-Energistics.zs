@@ -402,7 +402,8 @@ mods.thaumcraft.Research.setComplexity("thaumicenergistics.TEINFPROV", 3);
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEESSPROV");
 
 // --- Iron Gear Box
-mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEIRONGEARBOX");
+mods.thaumcraft.Research.orphanResearch("thaumicenergistics.TEIRONGEARBOX");
+mods.thaumcraft.Research.removeResearch("thaumicenergistics.TEIRONGEARBOX");
 
 // --- Arcane Crafting Terminal
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEARCANETERM");
@@ -417,7 +418,8 @@ mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TECORES");
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEESSTERM");
 
 // --- Vibration Chamber
-mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEESSVIBCMBR");
+mods.thaumcraft.Research.orphanResearch("thaumicenergistics.TEESSVIBCMBR");
+mods.thaumcraft.Research.removeResearch("thaumicenergistics.TEESSVIBCMBR");
 
 // --- Digi Sentia Transportation
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEIO");
@@ -434,11 +436,12 @@ mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEGOLEMWIFIBA
 // --- Essentia Storage
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TESTORAGE");
 
-// --- Vis rellay Interface
+// --- Vis relay Interface
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEVISINT");
 
 // --- Thaumic Gear Box
-mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TETHAUMGBOX");
+mods.thaumcraft.Research.orphanResearch("thaumicenergistics.TETHAUMGBOX");
+mods.thaumcraft.Research.removeResearch("thaumicenergistics.TETHAUMGBOX");
 
 // --- Arcane Assembler
 mods.thaumcraft.Research.refreshResearchRecipe("thaumicenergistics.TEARCANEASSEMBLER");
