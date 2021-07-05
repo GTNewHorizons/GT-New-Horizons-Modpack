@@ -288,9 +288,4 @@ mods.gregtech.Brewery.addRecipe(<liquid:melonjuice> * 750, <minecraft:melon>, <l
 
 
 
-// --- Tooltips ---
-
-
-
-
-<Backpack:backpack:*>.addTooltip(format.red("Idiots! Do not upgrade your backpack with important stuff inside - Dream 2017!"));
+// --- Tooltips --- 
