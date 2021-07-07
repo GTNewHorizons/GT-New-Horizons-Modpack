@@ -185,6 +185,9 @@ recipes.remove(<ExtraUtilities:enderQuarry>);
 // --- Ender-Thermic Pump
 recipes.remove(EnderPump);
 
+// --- Ender Marker
+recipes.remove(<ExtraUtilities:endMarker>);
+
 // --- Burnt Quartz
 furnace.remove(BurntQuartz);
 
