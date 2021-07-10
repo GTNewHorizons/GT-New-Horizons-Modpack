@@ -37,5 +37,5 @@ jobs:
         days-before-stale: 7
         days-before-close: 1
         operations-per-run: 50
-        stale-issue-label: 'Status: FixedInDev'
+        any-of-labels: "Status: FixedInDev"
         ascending: true
