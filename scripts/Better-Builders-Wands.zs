@@ -77,3 +77,25 @@ Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:13>, <betterbuilderswan
 
 // --- Unbreakable Wand V
 Assembler.addRecipe(<betterbuilderswands:wandUnbreakable:14>, <betterbuilderswands:wandUnbreakable:13>, <TConstruct:heavyPlate:314> * 8, 600, 4096);
+
+// --- Tooltips----
+
+
+
+// --- Unbreakable Wands
+
+
+
+<betterbuilderswands:wandUnbreakable:*>.addTooltip(format.red("Made a mess? Use the command wandOops"));
+
+// --- Stone Wands
+
+<betterbuilderswands:wandStone:*>.addTooltip(format.red("Made a mess? Use the command wandOops"));
+
+// --- Iron Wands
+
+<betterbuilderswands:wandIron:*>.addTooltip(format.red("Made a mess? Use the command wandOops"));
+
+// --- Diamond Wands
+
+<betterbuilderswands:wandDiamond:*>.addTooltip(format.red("Made a mess? Use the command wandOops"));
