@@ -781,7 +781,7 @@
         <Loot Identifier="bfa8a5f4-4139-4597-9089-3b7b39eae299" ItemName="Thaumcraft:WandCasting:84" Amount="1" NBTTag="{cap:&quot;void&quot;,rod:&quot;equivalent&quot;}" Chance="15" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="2763f2bb-5d2a-460f-80a8-770b4c16bc4b" ItemName="Thaumcraft:BlockJarNodeItem" Amount="1" NBTTag="{nodetype:0,Aspects:[0:{amount:80,key:&quot;instrumentum&quot;}],display:{Lore:[0:&quot;First hand. Not the second hand crap from the questbook&quot;],Name:&quot;Namikon's totally legit Node&quot;},nodemod:0,nodeid:&quot;0:-312:64:54&quot;}" Chance="15" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="855ab00e-4a15-4041-8800-843ab46e4c0b" ItemName="Thaumcraft:ItemResource:16" Amount="16" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="8c947669-4bca-4ef2-a7d8-e3d2375c9513" ItemName="dreamcraft:item.ChargedThaumiumWandCap" Amount="2" NBTTag="" Chance="45" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="8c947669-4bca-4ef2-a7d8-e3d2375c9513" ItemName="Thaumcraft:WandCap:2" Amount="2" NBTTag="" Chance="45" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="2d51d225-0bd3-4c2a-8251-ed85a00ec3fc" ItemName="Thaumcraft:ItemLeggingsCultistLeaderPlate" Amount="1" NBTTag="" Chance="35" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="dce675d4-d85f-4ab6-89cf-14682cb9f221" ItemName="Thaumcraft:ItemChestplateCultistLeaderPlate" Amount="1" NBTTag="" Chance="35" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="1079e304-c3b4-4fff-8142-405ae0de9c6a" ItemName="Thaumcraft:ItemHelmetCultistLeaderPlate" Amount="1" NBTTag="" Chance="35" LimitedDropCount="2" RandomAmount="false"/>
