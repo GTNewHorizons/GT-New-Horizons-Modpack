@@ -62,12 +62,12 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:1>, [
 // --- Cooling Core
 recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 [<IC2:reactorVentDiamond:1>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorVentDiamond:1>],
-[<gregtech:gt.180k_NaK_Coolantcell>, <dreamcraft:item.CallistoIcePlate>, <gregtech:gt.180k_NaK_Coolantcell>],
+[<gregtech:gt.180k_NaK_Coolantcell>, <ore:plateColdCallistoIce>, <gregtech:gt.180k_NaK_Coolantcell>],
 [<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
 // -
 recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 [<IC2:reactorVentDiamond:1>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorVentDiamond:1>],
-[<gregtech:gt.180k_Helium_Coolantcell>, <dreamcraft:item.CallistoIcePlate>, <gregtech:gt.180k_Helium_Coolantcell>],
+[<gregtech:gt.180k_Helium_Coolantcell>, <ore:plateColdCallistoIce>, <gregtech:gt.180k_Helium_Coolantcell>],
 [<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
 
 // --- Magnetron
