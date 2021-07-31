@@ -202,10 +202,16 @@
 			"posY": 0,
 			"alignment": "column_bottom"
 		},
+		"version": {
+			"text": "file:mainmenu:version.txt",
+			"posX": 305,
+			"posY": -10,
+			"alignment": "column_bottom"
+		},
 		"aviators": {
 			"text": "Opening Music Copyright by the Aviators",
 			"posX": 305,
-			"posY": -10,
+			"posY": -20,
 			"fontSize": 0.5,
 			"alignment": "column_bottom"
 		}
