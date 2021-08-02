@@ -2,7 +2,7 @@
 
 # Quest.0 - §d§3§2§1§lYour First Night
 gtnh.quest0.name=§d§3§2§1§l你的第一个夜晚
-gtnh.quest0.desc=你的第一项任务是寻找食物,为夜晚准备避难所. 夜晚是残酷的,因为这个整合包有困难模式的真实黑暗. 现在收集一些食物可能是个不错的主意...%n%n§l至于这本书？你不需要保存这本书,即使没带在身上也可以用"~"打开任务书.§r%n%n请到Discord服务器:§6https://discord.gg/EXshrPV§r 获取任务书之外的帮助,或是去闲逛聊天也行.请在#role-select频道选择自己的role以获取符合自己电压等级的建议.%n%n我们的官方wiki:§9https://gtnh.miraheze.org/wiki/Main_Page §r 某些机器设备确实非常复杂,仅靠任务书稍显不足,wiki可以提供更加详细的解释,以及图片. wiki上还有可选mod列表,适用于那些想要玩点花的,或者换个字体的人.%n%n最后,在这里§dhttp://bit.ly/gtnh-datasheets§r 还有你所需要的所有数据.%n%n另外,如果你的整合包是用§4Curse§r启动,整合包可能无法稳定运行(curse无法稳定运行整合包内的部分mod),所以当你遇到任何问题,最佳解决方式是先尝试换个启动器,比如§9MultiMC§r或是§aTechnic§r.最新整合包版本会在discord的#announcements频道发布,或带上!download指令.%n%n§3希望在读这一大段话的时候,你没被怪物嚼碎了.%n%n译者注: 汉化包下载地址:§9https://github.com/Kiwi233/Translation-of-GTNH §r%n%nGTNH新手解答群:QQ§6815632283§r
+gtnh.quest0.desc=你的第一项任务是寻找食物,为夜晚准备避难所. 夜晚是残酷的,因为这个整合包有困难模式的真实黑暗. 现在收集一些食物可能是个不错的主意...%n%n§l至于这本书？你不需要保存这本书,即使没带在身上也可以用"~"打开任务书.§r ...当然先得把那个碍事的键位冲突解决了.%n%n请到Discord服务器:§6https://discord.gg/EXshrPV§r 获取任务书之外的帮助,或是去闲逛聊天也行.请在#role-select频道选择自己的role以获取符合自己电压等级的建议.%n%n我们的官方wiki:§9https://gtnh.miraheze.org/wiki/Main_Page §r 某些机器设备确实非常复杂,仅靠任务书稍显不足,wiki可以提供更加详细的解释,以及图片. 另外,如果你感觉任务书上的指导还不够,可以看一下wiki上的"beginner's guides"初学者指南. wiki上还有可选mod列表,适用于那些想要玩点花的,或者换个字体的人.%n%n最后,在这里§dhttp://bit.ly/gtnh-datasheets§r 还有你所需要的所有数据.%n%n最后,如果你的整合包是用§4Curse§r启动,整合包可能无法稳定运行(Curse无法稳定运行整合包内的部分mod),所以当你遇到任何问题,最佳解决方式是先尝试换个启动器,比如§9MultiMC§r或是§aTechnic§r.最新整合包版本会在discord的#announcements频道发布,或带上!download指令.%n%n§3希望在读这一大段话的时候,你没被怪物嚼碎了.%n%n译者注: 汉化包下载地址:§9https://github.com/Kiwi233/Translation-of-GTNH §r%n%nGTNH新手解答群:QQ§6815632283§r
 
 # Quest.1 - §1§lWhere's the Flint?
 gtnh.quest1.name=§1§l燧石在哪儿？
@@ -10,7 +10,7 @@ gtnh.quest1.desc=你可能已经注意到了,当你收集砂砾的时候,没有�
 
 # Quest.2 - §1§lSticks 'n Stones
 gtnh.quest2.name=§1§l木棍与石头
-gtnh.quest2.desc=你真幸运!这本书有内置的阅读灯光. 这样你就能在漫漫长夜里静静阅读,但你还需要完成一些基础工作. 当黑夜结束,你就能离开避难所了,去收集一些沙砾和木材吧. 记住,你需要食物. 去寻找潘马斯的菜园(记得留下种子!).
+gtnh.quest2.desc=你真幸运!这本书有内置的阅读灯光. 这样你就能在漫漫长夜里静静阅读,但你还需要完成一些基础工作. 当黑夜结束,你就能离开避难所了,去收集一些沙砾和木材吧. 记住,你需要食物. 去寻找潘马斯的菜园(记得留下种子!).%n%n§3要是你还没准备好,请认真阅读第一个任务引出的信息任务,它们非常重要!
 
 # Quest.3 - §1§lStorage For Days
 gtnh.quest3.name=§1§l储存之日
@@ -812,9 +812,9 @@ gtnh.quest201.desc=你的挖矿利器!QED牌末影采石场.%n%n正如0lafe所�
 gtnh.quest202.name=§c§l速度升级
 gtnh.quest202.desc=如果你感觉末影采石场的挖掘速度不能让你满意的话... 那么你需要点东西让它快点工作!
 
-# Quest.203 - Bundled AE channels
+# Quest.203 - Bundled AE Channels
 gtnh.quest203.name=P2P通道-ME
-gtnh.quest203.desc=P2P通道-ME可以传送最多32个频道! 你需要制造很多这种东西!  它们可以是花哨的液体/物品管道,从一点传输到另一点.被传输的物品不会出现在合成终端上,它们只是把AE网络当做了运输通道.  每个P2P通道需要一个空闲频道.承载P2P的网络必须与带有频道的网络分开.P2P通道不可嵌套,但可一对多.  这里有一份不错的线上教程https://tinyurl.com/GTNH-AE2.
+gtnh.quest203.desc=P2P通道-ME可以传送最多32个频道! 你需要制造很多这种东西! 它们可以作为传送节点,将包含的信息从一个地方传输到另一个地方. 你最好使用§o不同§r网络来为P2P提供频道,所以搭建一个子网络吧.%n%nP2P通道-ME可以将最多32个频道打包成1个频道,并传输到目的地. 每个P2P通道需要一个空闲频道. P2P通道不可嵌套,但可一对多,而同一条传输频道的线缆也可以同时传输多个P2P的信息. 对于普通的ME玻璃线缆,可以连接4对P2P,而致密线缆可以连接16对. 如果仍然不够的话,你还可以为子网络添加ME控制器,或使用多个子网络.%n%n一般来说,P2P的入口会贴在主网络的ME控制器上,而出口会在你的机器那边.%n%n这里有一份不错的P2P线上教程https://tinyurl.com/GTNH-AE2. %n%n§I如果你想使用§o其他§r种类的P2P通道,手持相应物品右键P2P面的中心即可(比如,GT线缆对应GT-EU模式,红石对应红石信号模式,RF导管对应RF模式,火把对应光模式,桶对应液体模式,箱子对应物品模式,OC线缆对应OC模式)切换为对应模式,拆下也会保留. 对其使用ME玻璃线缆即可将P2P通道切换回ME模式.
 
 # Quest.204 - Load and Unload the Rocket
 gtnh.quest204.name=自动化装卸火箭
@@ -1768,7 +1768,7 @@ gtnh.quest440.desc=长苹果的橡树？到底是谁把它加进来的？你可�
 gtnh.quest441.name=基础奖励 > 蒸汽时代奖励
 gtnh.quest441.desc=三个基础奖励 = 蒸汽时代奖励.
 
-# Quest.442 - §1§l"Baked" potatoes
+# Quest.442 - §1§l"Baked" Potatoes
 gtnh.quest442.name=§1§l土豆的三种吃法
 gtnh.quest442.desc=生吃土豆是不健康的!你可能已经注意到了.有些土豆又绿又有毒.如果你有一个熔炉,你可以做美味的烤土豆作为另一种食物替代品.把烤土豆串在一根棍子上,它将更加美味可口.
 
@@ -2138,7 +2138,7 @@ gtnh.quest533.desc=在日常生产中你可能会剩下一些氢气或者甲烷.
 
 # Quest.534 - §4§3§lPollution What....?
 gtnh.quest534.name=§4§3§l什么？污染!
-gtnh.quest534.desc=如果你的砖高炉运行了很久,在你接近他的时候可能会出现恶心、头痛或者其他奇怪的症状.没错,这就是传说中的污染... 如果你能给我收集一些橡胶片,我可以给一套防化服来抵御污染.
+gtnh.quest534.desc=如果你的砖高炉运行了很久,在你接近它的时候可能会出现恶心、头痛或者其他奇怪的症状.没错,这就是传说中的污染... 如果你能给我收集一些橡胶片,我可以给一套防化服来抵御污染.%n%n§4PS:目前污染已关闭,请忽略此任务.
 
 # Quest.535 - §1§2§lRedstone, Early Game Processing
 gtnh.quest535.name=§1§2§l红石的前期处理
@@ -3310,7 +3310,7 @@ gtnh.quest826.desc=有了铁工具,你可以开采主世界中大部分的矿物
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=火箭燃料
-gtnh.quest827.desc=火箭每次飞行都需要一些燃料,所以为你的火箭提炼一些火箭燃料吧.%nT1火箭可以使用高十六烷值柴油,但是更高级的火箭需要更强的燃料.%n%n为了登陆月球,你最好把你的火箭装满燃料,不然你可能就回不来了.但你也可以制作一些额外的燃料罐随身携带以解决燃料问题.%n%n火箭燃料的消耗与目的地以及燃料类型相关,同时,更高级的火箭可以存储更多燃料且消耗更少. 另外,星球引力也会影响燃料使用量,引力越低,登陆所需的燃料越少.
+gtnh.quest827.desc=火箭每次飞行都需要一些燃料,所以为你的火箭提炼一些火箭燃料吧.%nT1火箭可以使用高十六烷值柴油,但是更高级的火箭需要更强的燃料.%n%n为了登陆月球,你最好把你的火箭装满燃料,不然你可能就回不来了.但你也可以制作一些额外的燃料罐随身携带以解决燃料问题.%n%n火箭燃料的消耗与目的地以及燃料类型相关,同时,更高级的火箭可以存储更多燃料且消耗更少. 另外,星球引力也会影响燃料使用量,引力越低,登陆所需的燃料越少.%n%n§4请注意,GT++火箭燃料将随GT++被移除,替代品由Bot添加.%n%n它们应该是LMP103S、一甲基肼混合燃料、偏二甲肼混合燃料. 现在试着自己解决生产问题吧.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=氧气收集器
@@ -5032,9 +5032,9 @@ gtnh.quest1256.desc=相对而言最大的存储组件,用来制作64K的存储�
 gtnh.quest1257.name=64K合成存储器
 gtnh.quest1257.desc=自动合成单元的组成部分,可以提供65536字节的存储空间.
 
-# Quest.1258 - Wireless Booster
+# Quest.1258 - Wireless Boosters
 gtnh.quest1258.name=无线信号增幅器
-gtnh.quest1258.desc=无线信号增幅器用于增加无线接入点的覆盖范围,最大堆叠数64. 插入越多,耗电越多,具体如下:%n%n16增幅器%n范围:80,20EU/t%n%n32增幅器%n范围:197,94.5EU/t%n%n48增幅器%n范围:348.5,441.67EU/t%n%n64增幅器%n范围:528,2050EU/t%n%n§3这里的范围值为半径.
+gtnh.quest1258.desc=无线信号增幅器用于增加无线接入点的覆盖范围,最大堆叠数64. 插入越多,耗电越多,具体如下:%n%n0增幅器%n范围:16,80EU/t%n%n16增幅器%n范围:80,400EU/t%n%n32增幅器%n范围:197,1890EU/t%n%n48增幅器%n范围:348.5,8833EU/t%n%n64增幅器%n范围:528,41040EU/t%n%n§3这里的范围值为半径.
 
 # Quest.1259 - Filling Tanks
 gtnh.quest1259.name=装满水箱
@@ -5322,7 +5322,7 @@ gtnh.quest1329.desc=无线接入器——近距离传输的量子桥代替方案
 
 # Quest.1330 - Ore Dictionary Output
 gtnh.quest1330.name=ME矿典输出总线
-gtnh.quest1330.desc=ME矿典输出总线会将相同矿典的物品或者流体从ME网络中提取到相应容器或储罐中. 打开矿典输出总线的界面,皆可以输入想要输出的名称,例如想要输出所有的矿石,那么请键入"ore*". ME矿典输出总线的速度很快.%n%n§3PS:§6crushed* & !crushedPurified* & !crushedCentrifuged*§3§3可以指定粉碎矿石,并滤掉洗净矿石,然后再将洗净矿石打粉还是热离或筛选就随你了.%n%n有一种插卡可以替代矿典总线,但目前还没有合成. 下次发布应该就会添加合成表吧.
+gtnh.quest1330.desc=ME矿典输出总线会将相同矿典的物品或者流体从ME网络中提取到相应容器或储罐中. 打开矿典输出总线的界面,皆可以输入想要输出的名称,例如想要输出所有的矿石,那么请键入"ore*". ME矿典输出总线的速度很快.%n%n§3PS:§6crushed* & !crushedPurified* & !crushedCentrifuged*§3§3可以指定粉碎矿石,并滤掉洗净矿石,然后再将洗净矿石打粉还是热离或筛选就随你了.%n%n有一种插卡可以替代矿典总线,且可以用在更多的设备上,延迟还更少,工作方式类似. 使用元件工作台设置过滤,再将其插入总线或元件. 总线将在未来某时移除,所以你应该趁早更换.%n%n§3完成任意要求即可.
 
 # Quest.1331 - To Link P2P Busses
 gtnh.quest1331.name=连接P2P通道
@@ -5670,7 +5670,7 @@ gtnh.quest1416.desc=或者是合金冶炼炉(Alloy Blast Smelter)？ 嗯,这更�
 
 # Quest.1417 - §6§lCough Cough - Something Needs to Be Done About the Smell
 gtnh.quest1417.name=§6§l咳咳咳-需要处理下污染了!
-gtnh.quest1417.desc=鸟儿从天坠落,鱼在河里翻着肚皮,酸雨融化了地面...是时候处理垃圾、净化空气了.%n%n小型黑钢涡轮可以满足目前所需. 你需要2A的稳定电流才能保证污染清洗机持续工作.%n%n译者注: 如果去过末地的话,终末涡轮是不错的选择.%n%n用螺丝刀单击+/-标志可以改变污染探测仪的设置. 另外,通常来说,更好(更大)的涡轮,清理污染效果就越好. 代码太复杂,无法在此处进行详细说明,但基本上就是这样. 发电越多的涡轮 = 更能清理污染的涡轮.%n%n§4PS: 这些很快就没有了,请使用多方块空气过滤器替代.是的,这玩意很烂.
+gtnh.quest1417.desc=鸟儿从天坠落,鱼在河里翻着肚皮,酸雨融化了地面...是时候处理垃圾、净化空气了.%n%n小型黑钢涡轮可以满足目前所需. 你需要2A的稳定电流才能保证污染清洗机持续工作.%n%n译者注: 如果去过末地的话,终末涡轮是不错的选择.%n%n用螺丝刀单击+/-标志可以改变污染探测仪的设置. 另外,通常来说,更好(更大)的涡轮,清理污染效果就越好. 代码太复杂,无法在此处进行详细说明,但基本上就是这样. 发电越多的涡轮 = 更能清理污染的涡轮.%n%n§4由于已关闭污染,所以这个任务坏了. 希望污染可以"Soon"™以一种全新的,不那么愚蠢的形式回来. 如果你重新打开了污染,就可以完成这个任务. 请注意,关闭污染后,已有污染并不会消散,但也不会产生什么效果.%n%n另外,你的所有污染清洗机和污染探测仪都坏了,不过我们将在一到两个大版本后丢弃GT++.
 
 # Quest.1418 - §c§9§a§lEU packets flowing everywhere...
 gtnh.quest1418.name=§c§9§a§l电流的到处都是
@@ -5718,7 +5718,7 @@ gtnh.quest1428.desc=每枚火箭都需要一台控制电脑,且电脑需要匹�
 
 # Quest.1429 - Rocket Tier 2
 gtnh.quest1429.name=2阶火箭
-gtnh.quest1429.desc=经过数小时的努力和大量的工业TNT,你的第二枚火箭终于准备好了. 但在你去火星之前,你需要再制作一些东西.%n%n你需要RP-1或更高级的火箭燃料.
+gtnh.quest1429.desc=经过数小时的努力和大量的工业TNT,你的第二枚火箭终于准备好了. 但在你去火星之前,你需要再制作一些东西.
 
 # Quest.1430 - Recycle Your Rocket and Save the Environment
 gtnh.quest1430.name=回收你的火箭并保护环境
@@ -5818,7 +5818,7 @@ gtnh.quest1453.desc=火箭的主箭体需要重型装甲板. 让我们用2阶板
 
 # Quest.1454 - Rocket Tier 3
 gtnh.quest1454.name=3阶火箭
-gtnh.quest1454.desc=经过几天的艰苦努力并消耗了数百吨的工业TNT,你的第三枚火箭终于准备好了. 但在你可以去小行星,谷神星或者木卫之前,你需要再制作一些东西.%n%n你需要密集肼或更高级的火箭燃料.
+gtnh.quest1454.desc=经过几天的艰苦努力并消耗了数百吨的工业TNT,你的第三枚火箭终于准备好了. 但在你可以去小行星,谷神星或者木卫之前,你需要再制作一些东西.%n%n你需要密集肼/LMP103S或更高级的火箭燃料.
 
 # Quest.1455 - Fluix Crystals
 gtnh.quest1455.name=福鲁伊克斯水晶
@@ -6142,7 +6142,7 @@ gtnh.quest1534.desc=你在木卫二上可以找到深铅,它是4阶火箭所需�
 
 # Quest.1535 - Rocket Tier 4
 gtnh.quest1535.name=4阶火箭
-gtnh.quest1535.desc=经过数周的艰苦努力和成千上万的工业TNT,你的第四枚火箭终于准备好了. 但在你去木卫一,金星或水星之前,你需要再制作一些东西.%n%n你需要密集肼或更高级的火箭燃料.
+gtnh.quest1535.desc=经过数周的艰苦努力和成千上万的工业TNT,你的第四枚火箭终于准备好了. 但在你去木卫一,金星或水星之前,你需要再制作一些东西.%n%n你需要密集肼/LMP103S或更高级的火箭燃料.
 
 # Quest.1536 - §3§lI Ain't Afraid of no Ghost!
 gtnh.quest1536.name=§3§l我不怕没鬼!
@@ -6906,7 +6906,7 @@ gtnh.quest1725.desc=每枚火箭都需要一台控制电脑,且电脑需要匹�
 
 # Quest.1726 - Rocket Tier 5
 gtnh.quest1726.name=5阶火箭
-gtnh.quest1726.desc=经过一个月的努力和数以万计的工业TNT,你的第五枚火箭终于准备好了. 但在你出发去土星和天王星卫星之前,你需要再制作一些东西.%n%n你需要CN3H7O3(紫色)或者更高级的火箭燃料.
+gtnh.quest1726.desc=经过一个月的努力和数以万计的工业TNT,你的第五枚火箭终于准备好了. 但在你出发去土星和天王星卫星之前,你需要再制作一些东西.%n%n你需要CN3H7O3(紫色)/一甲基肼混合燃料或者更高级的火箭燃料.
 
 # Quest.1727 - Heavy Duty Nose Cone Tier 3
 gtnh.quest1727.name=3阶重型火箭鼻锥
@@ -7118,7 +7118,7 @@ gtnh.quest1778.desc=神秘通过其设备与工具带来了巨大的力量. 但�
 
 # Quest.1779 - Step Assistant
 gtnh.quest1779.name=爬坡助手
-gtnh.quest1779.desc=活塞靴子是探险家的一双有弹性的鞋.%n%n它能提升一点足部护甲并能赋予有趣的跳跃提升! 它们能使穿戴者跳起三格高并提升跑步速度. 它们还能使穿戴者在疾跑时自动爬上一格高的障碍物.%n%n总之,尽快合成它吧.
+gtnh.quest1779.desc=活塞靴子是探险家的一双有弹性的鞋.%n%n它能提升一点足部护甲并能赋予有趣的跳跃提升! 它们能使穿戴者跳起三格高并提升跑步速度. 它们还能使穿戴者在疾跑时自动爬上一格高的障碍物. 可以使用皮革,通过铁砧进行维修.%n%n总之,尽快合成它吧.
 
 # Quest.1780 - Olive Saplings
 gtnh.quest1780.name=橄榄树苗
@@ -7338,7 +7338,7 @@ gtnh.quest1833.desc=处理最先进的材料(无尽催化剂、无尽),你需要
 
 # Quest.1834 - §1§lMushroom Biomes? Why Are There So Many?
 gtnh.quest1834.name=§1§l蘑菇岛?为什么有这么多蘑菇岛?
-gtnh.quest1834.desc=GNTH整合包使用真实世界生成(rwg-worldgen).如果你使用原版的世界生成,你将会得到不计其数的蘑菇岛.你最好去重新生成一下世界.如果你运行着一个服务器,把这个添加到你的服务器.属性文件(properties-file).%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
+gtnh.quest1834.desc=GNTH整合包使用真实世界生成(rwg-worldgen).如果你使用原版的世界生成,你将会得到不计其数的蘑菇岛.你最好去重新生成一下世界.如果你运行着一个服务器,将以下语句添加到你的服务器.属性文件(properties-file):%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
 
 # Quest.1835 - §6§lOverworld Tantalum
 gtnh.quest1835.name=§6§l主世界的钽
@@ -8582,7 +8582,7 @@ gtnh.quest2144.desc=如果你想让多A电流通过你的超净间墙壁,使用�
 
 # Quest.2145 - §1§lE_TOO_MANY_KEYS
 gtnh.quest2145.name=§1§l错误:太多按键需要绑定
-gtnh.quest2145.desc=错误:键盘只有104个按键,但有太对需要绑定了.你需要重新定义你的键位,这样你才能更有效地使用快捷键.%n%n这是你应该解决冲突的快捷键列表.%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (Shift+G以穿上/脱下背包并设置过滤)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%nNONE - Drop Item (谁想把背包扔进岩浆里?)%n%nIC2%nC - Side Invetory Key%n%nJourneymap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (小地图上同样可用)%n- - Zoom Out (同上)%n%nMisc%nH - Toggle Hover Harness%nF - Toggle Wand Focus%n%nTC Node Tracker%nI - Node List (节点必须被扫描,护目镜支持指南针)%nX - Zoom key (方便查看远处山上的矿石)%n%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
+gtnh.quest2145.desc=错误:键盘只有104个按键,但有太多快捷键需要绑定了.你需要重新定义你的键位,这样你才能更有效地使用快捷键.%n%n以下是你应该解决冲突的快捷键列表. 要是弄乱了config文件里的按键绑定,可能会造成崩溃. 如果真的崩溃了,你需要确认options.txt文件已被修复.可以直接删除此文件,再重新启动整合包. 你可以将大量不常用按键绑定到ESC上,这样它们就不会被激活.但这样小概率会造成一些特殊按键会激活某个动作(计算器、音量键,等等.).%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (Shift+G以穿上/脱下背包并设置过滤)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%nNONE - Drop Item (谁想把背包扔进岩浆里?)%n%nIC2%nC - Side Invetory Key%n%nJourneymap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (小地图上同样可用)%n- - Zoom Out (同上)%n%nMisc%nH - Toggle Hover Harness%nF - Toggle Wand Focus%n%nTC Node Tracker%nI - Node List (节点必须被扫描,护目镜支持指南针)%nX - Zoom key (方便查看远处山上的矿石)%n%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
 
 # Quest.2146 - BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
 gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS(brains)脑子
@@ -9346,7 +9346,7 @@ gtnh.quest2335.desc=巫媒(Taglock-Kit)用于收集其他玩家或生物的标�
 
 # Quest.2336 - Mutandis Extremis
 gtnh.quest2336.name=超级转生粉
-gtnh.quest2336.desc=超级转生粉是转生粉的升级版,巫师们常用它来使植物突变为其他物种.超级转生粉具有转生粉的所有属性,但它可用于多阶段的植物,如小麦、仙人掌等.它还可以使熟肉突变.  如果在草方块上使用超级转生粉,有一定几率使其突变为菌丝,反之亦然.  对水下的泥土使用超级转生粉,有一定几率使其周围的泥土突变为粘土.  突变植物是获取山梨树、山楂树和赤杨树苗的唯一方法.  某些配方需要超级转生粉作为成分.  超级转生粉可由转生粉与地狱疣制成.
+gtnh.quest2336.desc=超级转生粉是转生粉的升级版,巫师们常用它来使植物突变为其他物种.超级转生粉具有转生粉的所有属性,但它可用于多阶段的植物,如小麦、仙人掌等.它还可以使熟肉突变.%n%n如果在草方块上使用超级转生粉,有一定几率使其突变为菌丝,反之亦然.%n%n对水下的泥土使用超级转生粉,有一定几率使其周围的泥土突变为粘土.%n%n突变植物是获取山梨树、山楂树和赤杨树苗的唯一方法.%n%n某些配方需要超级转生粉作为配料.%n%n超级转生粉可由转生粉与地狱疣制成.%n%n§3某些巫师炼药锅配方需要祭坛能量.超级转生粉就是其中之一.请先阅读《巫师酿造手册》.
 
 # Quest.2337 - Mandrake Noise Protection
 gtnh.quest2337.name=曼德拉噪音防护
@@ -9626,7 +9626,7 @@ gtnh.quest2405.desc=你可以直接将原版树苗放置在作物架上.这样�
 
 # Quest.2406 - §1§lNumbers in the Corner?
 gtnh.quest2406.name=§1§l角落里的数字?
-gtnh.quest2406.desc=那些角落里的一坨是什么?好吧,那是In-Game-Info,一个非常方便的mod,可为你提供许多GTNH的必要信息.%n%n最重要的信息是判断你是否在矿脉中心.稍后的任务将详细讲解它的含义.%n%n如果你不想看到IGI的信息,使用%n%n§l/igi disable%n/igi enable%n§r%n来禁用或启用界面.%n%n§l/igi config%n%n§r将打开配置界面,在这里你可以设置它的位置,字体大小等.%n%n%n另一个有用的是Extra-Utilities的TPS表.它会给出瞬时TPS、平均TPS以及最低TPS.TPS是Ticks-per-second(每秒tick数)的简称,是衡量服务器运行状况的一个指标. 理想情况下TPS=20,TPS低于15将开始感觉到延迟.TPS低于10玩起来就不太爽了.如果你需要解决TPS问题的建议,请通过Discord与我们联系.%n%n使用§l/xu_tps§r指令来启用或禁用TPS表.
+gtnh.quest2406.desc=那些角落里的一坨是什么?好吧,那是In-Game-Info,一个非常方便的mod,可为你提供许多GTNH的必要信息.%n%n最重要的信息是判断你是否在矿脉中心.稍后的任务将详细讲解它的含义.%n%n如果你不想看到IGI的信息,使用%n%n§l/igi disable%n/igi enable%n§r%n来禁用或启用界面.%n%n§l/igi config%n%n§r将打开配置界面,在这里你可以设置它的位置,字体大小等.%n%n%n另一个有用的是Extra-Utilities的TPS表.它会给出瞬时TPS、平均TPS以及最低TPS.TPS是Ticks-Per-Second(每秒tick数)的简称,是衡量服务器运行状况的一个指标. 理想情况下TPS=20,TPS低于15将开始感觉到延迟.TPS低于10玩起来就不太爽了.如果你需要解决TPS问题的建议,请通过Discord与我们联系.%n%n使用§l/xu_tps§r指令来启用或禁用TPS表.
 
 # Quest.2407 - §3§lWhat Engineer Doesn't Want a Portable Workbench?
 gtnh.quest2407.name=§3§l哪个工程师不想要一个便携的工作台?
@@ -10562,7 +10562,7 @@ gtnh.quest2639.desc=火箭的主箭体需要重型装甲板. 让我们用5阶板
 
 # Quest.2640 - Rocket Tier 6
 gtnh.quest2640.name=6阶火箭
-gtnh.quest2640.desc=有了6阶火箭,你就能登陆更多星球了.%n%n不过你需要CN3H7O3(紫色)或者更高阶的火箭燃料.%n%n§3如果你想在ZPM阶段建造它的话,就需要使用多方块组装机.
+gtnh.quest2640.desc=有了6阶火箭,你就能登陆更多星球了.%n%n不过你需要CN3H7O3(紫色)/一甲基肼混合燃料或者更高阶的火箭燃料.%n%n§3如果你想在ZPM阶段建造它的话,就需要使用多方块组装机.
 
 # Quest.2641 - Tier 7 Heavy Duty Plates
 gtnh.quest2641.name=7阶重型装甲板
@@ -10570,7 +10570,7 @@ gtnh.quest2641.desc=火箭的主箭体需要重型装甲板. 让我们用6阶板
 
 # Quest.2642 - Rocket Tier 7
 gtnh.quest2642.name=7阶火箭
-gtnh.quest2642.desc=有了7阶火箭,你现在能登陆太阳系边缘的某些星球.%n%n你还需要H8N4C2O4(绿色)火箭燃料.
+gtnh.quest2642.desc=有了7阶火箭,你现在能登陆太阳系边缘的某些星球.%n%n你还需要H8N4C2O4(绿色)火箭燃料/偏二甲肼混合燃料.
 
 # Quest.2643 - Tier 8 Heavy Duty Plates
 gtnh.quest2643.name=8阶重型装甲板
@@ -10578,7 +10578,7 @@ gtnh.quest2643.desc=火箭的主箭体需要重型装甲板. 让我们用7阶板
 
 # Quest.2644 - Rocket Tier 8
 gtnh.quest2644.name=8阶火箭
-gtnh.quest2644.desc=目前最高阶的火箭,你现在可以到访其他星系了.%n某些憨憨星系除外.%n%n你还需要H8N4C2O4(绿色)火箭燃料.
+gtnh.quest2644.desc=目前最高阶的火箭,你现在可以到访其他星系了.%n某些憨憨星系除外.%n%n你还需要H8N4C2O4(绿色)火箭燃料/偏二甲肼混合燃料.
 
 # Quest.2645 - §c§lFusion Rocketry
 gtnh.quest2645.name=§c§l火箭相关
@@ -11587,6 +11587,22 @@ gtnh.quest2895.desc=感谢mitch对这个超棒mod进行的后端支持. 通过�
 # Quest.2896 - §6§lGimme My Stuff Back!
 gtnh.quest2896.name=§6§l把我的东西还回来!
 gtnh.quest2896.desc=总有一天你会说,'兄弟,电弧炉或者粉碎机回收了个寂寞,用来制造的材料几乎剩不下什么'. 好吧,这里有个办法,拆解机.%n%n一般来说,东西丢进去,制造它的各部分拆出来.不过拆解机需要与被拆物品处于相同或更高等级.%n%n对于手搓的合成,拆解机也有效,但无法拆解装配线的产物(LuV+),也无法拆解非GT物品. 但是,由于某种原因,在某些物品上拆解会莫名失效.请询问Bart原因.%n%n如果拆解产物里有带矿辞的物品,比如电路板,返还的会是相同矿辞最低价值的那个. 现在你可以回收你的旧线圈、仓室、机器等各种用不上的东西了!%n%n§3产物的出产几率基于电压等级现已删除. 另外,它非常快!不会给你后悔的机会!
+
+# Quest.2897 - §2§lMaking a Rapier
+gtnh.quest2897.name=§2§l制造一柄西洋剑
+gtnh.quest2897.desc=巫妖打不过?没法准确地弹回它的抛射物? 没关系的,只需要装备一柄无视护甲的西洋剑,巫妖很快就会...重新死去? 不活? 无论如何,这只亡灵这回真的死了.%n%n西洋剑唯一的问题就是伤害不够高.
+
+# Quest.2898 - Crispy Rotten Flesh
+gtnh.quest2898.name=香脆腐肉
+gtnh.quest2898.desc=腐肉不太健康.它无法为你充饥. 要是晾干会怎么样?
+
+# Quest.2899 - Flippers
+gtnh.quest2899.name=脚蹼
+gtnh.quest2899.desc=可能你运气不错,在宝箱或地牢里找到了脚蹼.%n%n脚蹼可以让玩家的游泳速度与行走速度一致.唯一的问题是它不提供护甲值.%n%n如果你正在建造水面建筑,或在水下挖掘粘土或沙砾,你就会发现这玩意真好用.
+
+# Quest.2900 - Trigger Flippers
+gtnh.quest2900.name=触发脚蹼
+gtnh.quest2900.desc=获得脚蹼触发.
 
 ##################################Line##################################
 
