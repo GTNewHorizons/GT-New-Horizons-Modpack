@@ -2,7 +2,7 @@
 
 # Quest.0 - §d§3§2§1§lYour First Night
 gtnh.quest0.name=§d§3§2§1§lYour First Night
-gtnh.quest0.desc=Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...%n%n§lNote: You don't need to keep this book, you can use tilde to open quests without the book.§r%n%nGo to the Discord server at §6https://discord.gg/EXshrPV§r for help outside of what the questbook offers, or just to hang out. Select an appropriate role in #role-select to get tier-appropriate advice.%n%nWe also maintain a wiki at §9https://gtnh.miraheze.org/wiki/Main_Page §rbe sure to check it out. Some of the stuff is really complicated, and needs more text to explain than the QB can do. Also, pictures. There's also a list of optional mods for people that want to be even fancier, or use different fonts or w/e.%n%nLastly, there's the spreadsheet at §dhttp://bit.ly/gtnh-datasheets§r for info that you would would want a spreadsheet for.%n%nAdditionally, if you got the pack from §4Curse§r, please be aware that it doesn't always work properly (curse doesn't play well with all the customized versions of mods we have), so if you have any problems, the first response on how to fix it will be to switch to another launcher like §9MultiMC§r or §aTechnic§r. The latest version is available on the discord channel from #announcements or with the !download command.%n%n§3Hopefully you didn't get munched by a monster while reading this.
+gtnh.quest0.desc=Your first task will be to find food, and a shelter for the night. The nights will be cruel, as this pack has hardcore darkness. It probably would be a good idea to collect some food now...%n%n§lNote: You don't need to keep this book, you can use tilde to open quests without the book.§r ...if your keybinds don't conflict.%n%nGo to the Discord server at §6https://discord.gg/EXshrPV§r for help outside of what the questbook offers, or just to hang out. Select an appropriate role in #role-select to get tier-appropriate advice.%n%nWe also maintain a wiki at §9https://gtnh.miraheze.org/wiki/Main_Page §rbe sure to check it out. Some of the stuff is really complicated, and needs more text to explain than the QB can do. Also, pictures. Also, beginner's guides for some stuff if you don't think the questbook is enough. There's also a list of optional mods for people that want to be even fancier, or use different fonts or w/e.%n%nAdditionally, there's the spreadsheet at §dhttp://bit.ly/gtnh-datasheets§r for info that you would would want a spreadsheet for.%n%nLastly, if you got the pack from §4Curse§r, please be aware that it doesn't always work properly (Curse doesn't play well with all the customized versions of mods we have), so if you have any problems, the first response on how to fix it will be to switch to another launcher like §9MultiMC§r or §aTechnic§r. The latest version is available on the discord channel from #announcements or with the !download command.%n%n§3Hopefully you didn't get munched by a monster while reading this.
 
 # Quest.1 - §1§lWhere's the Flint?
 gtnh.quest1.name=§1§lWhere's the Flint?
@@ -10,7 +10,7 @@ gtnh.quest1.desc=As you might have noticed, while collecting gravel, no flint dr
 
 # Quest.2 - §1§lSticks 'n Stones
 gtnh.quest2.name=§1§lSticks 'n Stones
-gtnh.quest2.desc=This book has a built-in reading light, lucky you! You can read about quests while you're waiting for the night to be over, but for now, you may want to get the basics done. If it isn't dark already, go out and collect some gravel and wood. Keep in mind that you need food, so look for Pam's Harvestcraft gardens. (And save some of the vegetables for seeds!)
+gtnh.quest2.desc=This book has a built-in reading light, lucky you! You can read about quests while you're waiting for the night to be over, but for now, you may want to get the basics done. If it isn't dark already, go out and collect some gravel and wood. Keep in mind that you need food, so look for Pam's Harvestcraft gardens. (And save some of the vegetables for seeds!)%n%n§3If you haven't already, make sure to read the info quests linked from the first quest when you can, they have important info!
 
 # Quest.3 - §1§lStorage For Days
 gtnh.quest3.name=§1§lStorage For Days
@@ -812,9 +812,9 @@ gtnh.quest201.desc=The QED enables you to assemble the most convenient device fo
 gtnh.quest202.name=§c§lAccelerating Things
 gtnh.quest202.desc=If an ender quarry won't satisfy your needs for MOOORE. A speed upgrade is required.
 
-# Quest.203 - Bundled AE channels
-gtnh.quest203.name=Bundled AE channels
-gtnh.quest203.desc=P2P tunnels. You will need a lot of them! These are fancy fluid/item pipes that will transport fluids or items from one "point" to "another".  Items transported will not show up on crafting terminals etc, they just use the network as transport.%n%nThey can also pack up to 32 channels into 1 bundle and transport those to the destination p2p bus.  Each P2P tunnel requires 1 free channel. The network carrying the P2P must be separate from the network with the channels. These P2P connections cannot be nested, but one transport cable can carry multiple P2P connections.%n%nGenerally, you'll want to have the first point be one side of an ME Controller block (remember you can add more!), and the other where your machines are.%n%nA nice online guide can be found at https://tinyurl.com/GTNH-AE2 under P2P tunnels.
+# Quest.203 - Bundled AE Channels
+gtnh.quest203.name=Bundled AE Channels
+gtnh.quest203.desc=P2P tunnels. You'll probably want a bunch of them! They act as teleport points from one place to another for the contained information. You need to use a §odifferent§r network to transfer them, so use a subnetwork for that.%n%nThey can pack up to 32 channels into 1 channel and transport those to the destination P2P bus. Each P2P tunnel requires 1 free channel. P2P connections cannot be nested, but one transport cable can carry multiple P2P connections. For a normal fluix cable, that's 4 P2P connections, and 16 for dense. You could also use a ME controller on your subnework if that just isn't enough. Or use separate cables.%n%nGenerally, you'll want to have the first point be one side of an ME Controller block (remember you can add more!), and the other where some of your machines are.%n%nA nice online guide can be found at https://tinyurl.com/GTNH-AE2 under P2P tunnels.%n%n§IIf you want to use one of the P2P tunnels for something §oother§r than ME channels, use an applicable item on the center of the face of the tunnel, (for example, a GT cable for GT EU, redstone for RS signal, an RF conduit for RF, a torch for light, a bucket for fluid, a chest for items, or an OC cable for OC) and it will convert to that type, even if you pick it up. Use a fluix cable to change it back.
 
 # Quest.204 - Load and Unload the Rocket
 gtnh.quest204.name=Load and Unload the Rocket
@@ -1768,8 +1768,8 @@ gtnh.quest440.desc=Oak trees which give apples? Who the hell added this to minec
 gtnh.quest441.name=Basic > Steam Lootbag Trade
 gtnh.quest441.desc=Trade three basic lootbags to get a better one: Steam.
 
-# Quest.442 - §1§l"Baked" potatoes
-gtnh.quest442.name=§1§l"Baked" potatoes
+# Quest.442 - §1§l"Baked" Potatoes
+gtnh.quest442.name=§1§l"Baked" Potatoes
 gtnh.quest442.desc=Eating raw potatoes isn't that healthy, as you might have noticed. Some potatoes are green and poisonous already. After you get a furnace you can make delicious baked potatoes as another food alternative. Put a baked potato on a stick to make it even more delicious.
 
 # Quest.443 - LV > MV Lootbag Trade
@@ -2138,7 +2138,7 @@ gtnh.quest533.desc=Some centrifugal processes leave gases behind like hydrogen o
 
 # Quest.534 - §4§3§lPollution What....?
 gtnh.quest534.name=§4§3§lPollution What....?
-gtnh.quest534.desc=If you are running your bricked blast furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, I will trade you a complete hazmat suit.
+gtnh.quest534.desc=If you are running your bricked blast furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, I will trade you a complete hazmat suit.%n%n§4PS: pollution is disabled, ignore this.
 
 # Quest.535 - §1§2§lRedstone, Early Game Processing
 gtnh.quest535.name=§1§2§lRedstone, Early Game Processing
@@ -3310,7 +3310,7 @@ gtnh.quest826.desc=With iron tools, you are able to mine most of the Overworld o
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=Rocket Fuel
-gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket. %nYou can use use Cetane-Boosted Diesel for your T1 rocket, but you'll need something with more oomph for the later ones.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.
+gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel for your rocket. %nYou can use use Cetane-Boosted Diesel for your T1/2 rockets, but you'll need something with more oomph for the later ones.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to take extra just in case.%n%nRocket Fuel usage is not based on either the destination or the type of fuel used, but instead the rocket itself, with higher tiers both storing more fuel, and consuming less. Also, the gravity of the planet affects how much fuel is used, with lower gravity locations using less fuel to launch.%n%n§4Keep in mind that the GT++ rocket fuels will get removed with GT++, and that there are new ones that bot made.%n%nThey should be LMP103S, Monomethylhydrazine Fuel Mix, and Unsymmetrical Dimethylhydrazine Fuel Mix. Try and figure out the recipes yourself for now.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=Oxygen Collector
@@ -5032,9 +5032,9 @@ gtnh.quest1256.desc=Largest vanilla storage component, used to make 64k ME stora
 gtnh.quest1257.name=64k Crafting Storage
 gtnh.quest1257.desc=Component of the crafting CPU which provides 65,536 bytes of storage for crafting.
 
-# Quest.1258 - Wireless Booster
-gtnh.quest1258.name=Wireless Booster
-gtnh.quest1258.desc=The Wireless Booster is used to increase the range of the ME Wireless Access Point, and stack up to 64. The cost increases more the more you add, as such:%n%n16 Boosters%n Range: 80%n EU/t: 20%n%n32 Boosters%n Range: 197%n EU/t: 94.5%n%n48 Boosters%n Range: 348.5%n EU/t: 441.67%n%n64 Boosters%n Range: 528%n EU/t: 2050%n%n§3BTW, this is a radius.
+# Quest.1258 - Wireless Boosters
+gtnh.quest1258.name=Wireless Boosters
+gtnh.quest1258.desc=The Wireless Booster is used to increase the range of the ME Wireless Access Point, and stack up to 64. The cost increases more the more you add, as such:%n%n0 Boosters%n Range: 16%n EU/t: 80%n%n16 Boosters%n Range: 80%n EU/t: 400%n%n32 Boosters%n Range: 197%n EU/t: 1,890%n%n48 Boosters%n Range: 348.5%n EU/t: 8,833%n%n64 Boosters%n Range: 528%n EU/t: 41,040%n%n§3BTW, this is a radius.
 
 # Quest.1259 - Filling Tanks
 gtnh.quest1259.name=Filling Tanks
@@ -5322,7 +5322,7 @@ gtnh.quest1329.desc=Wireless Connectors are a close range Quantum Network Bridge
 
 # Quest.1330 - Ore Dictionary Output
 gtnh.quest1330.name=Ore Dictionary Output
-gtnh.quest1330.desc=The ME ore dictionary export bus will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item's name [e.g. if you want to export all ores put "ore*"]. The rate of export is very fast.%n%n§3PS: Use §6crushed* & !crushedPurified* & !crushedCentrifuged*§3§3 to get any crushed ore, but not ore that has been washed, then crushed (to get purified) or run through the thermal centrifuge.%n%nThere's a card to replace this, but it has no recipe yet. Use it if you can, I guess? Should have one by next release.
+gtnh.quest1330.desc=The ME ore dictionary export bus will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item's name [e.g. if you want to export all ores put "ore*"]. The rate of export is very fast.%n%n§3PS: Use §6crushed* & !crushedPurified* & !crushedCentrifuged*§3§3 to get any crushed ore, but not ore that has been washed, then crushed (to get purified) or run through the thermal centrifuge.§r%n%nThe card can be used in more devices, and causes less lag, but works in a similar way. Set the filter using a cell workbench and put it inside a bus or w/e. The bus will be removed at some point, so you should switch over before that.%n%n§3Complete either task.
 
 # Quest.1331 - To Link P2P Busses
 gtnh.quest1331.name=To Link P2P Busses
@@ -5670,7 +5670,7 @@ gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. T
 
 # Quest.1417 - §6§lCough Cough - Something Needs to Be Done About the Smell
 gtnh.quest1417.name=§6§lCough Cough - Something Needs to Be Done About the Smell
-gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.%n%nThe detector's setting can be changed by clicking on the +/- texture with a screwdriver. Also, in general, better (and larger) turbines work better at cleaning up pollution. The code is too complex to fully explain here, but that's basically it. More EU turbine = more pollution cleaning turbine.%n%n§4PS: These are getting disabled soon, use the electric air filter instead when that happens. And yes, they suck.
+gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.%n%nThe detector's setting can be changed by clicking on the +/- texture with a screwdriver. Also, in general, better (and larger) turbines work better at cleaning up pollution. The code is too complex to fully explain here, but that's basically it. More EU turbine = more pollution cleaning turbine.%n%n§4This quest is broken because pollution is disabled. Look forward to it coming back in a new, less stupid form "Soon"™. If you re-enable pollution, you can do the quest. Keep in mind that pollution will not dissipate with it off, but it also won't do anything.%n%nAlso, all your pollution scrubbers and pollution detectors are broken, but we're throwing GT++ out next big update or two anyway, so w/e.
 
 # Quest.1418 - §c§9§a§lEU packets flowing everywhere...
 gtnh.quest1418.name=§c§9§a§lEU packets flowing everywhere...
@@ -5718,7 +5718,7 @@ gtnh.quest1428.desc=Each rocket needs a Control Computer, appropriate to the tie
 
 # Quest.1429 - Rocket Tier 2
 gtnh.quest1429.name=Rocket Tier 2
-gtnh.quest1429.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.%n%nYou need to use RP-1 Rocket Fuel or better to fuel it.
+gtnh.quest1429.desc=After hours of hard work and tons of stacks of iTNT your second rocket is finally ready. But before you can go to Mars you need to craft a few more things.
 
 # Quest.1430 - Recycle Your Rocket and Save the Environment
 gtnh.quest1430.name=Recycle Your Rocket and Save the Environment
@@ -5818,7 +5818,7 @@ gtnh.quest1453.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.1454 - Rocket Tier 3
 gtnh.quest1454.name=Rocket Tier 3
-gtnh.quest1454.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
+gtnh.quest1454.desc=After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel/LMP103S or better to fuel it.
 
 # Quest.1455 - Fluix Crystals
 gtnh.quest1455.name=Fluix Crystals
@@ -6006,7 +6006,7 @@ gtnh.quest1500.desc=Better Questing has a number of commands, I'll list the usef
 
 # Quest.1501 - §1§lBackup Your Stuff...
 gtnh.quest1501.name=§1§lBackup Your Stuff...
-gtnh.quest1501.desc=AromaBackup is included with the pack. Adjust the settings as you like (frequency, number of backups to keep, etc). You can also use another mod like FTBUtil, or even an external program. Try not to use more than one, or it'll just use up disk space and CPU power for no reason.%n%nIf you need to restore from a backup, the AB ones are found in the backups folder in the instance directory, not the world save directory.%n%nRemember though, Journeymap and Thaumcraft Node Tracker information isn't included with AromaBackup, so you should backup your journeymap and tcnodetracker directories yourself if you don't trust them or are moving data to another drive or computer. Also, the Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing up that file as well, the file is the 'saves\\<worldname>\\playerdata\\<nameofplayer>.thaum' file.%n%nWhile you're at it, check out our wiki at https://gtnh.miraheze.org/ for a list of mods you could add as well to further increase your playing experience. The wiki contains some really useful information and beginners guides you shouldn't miss if you're new to the modpack.
+gtnh.quest1501.desc=AromaBackup is included with the pack. Adjust the settings as you like (frequency, number of backups to keep, etc). You can also use another mod like FTBUtil, or even an external program. Try not to use more than one, or it'll just use up disk space and CPU power for no reason.%n%nIf you need to restore from a backup, the AB ones are found in the backups folder in the instance directory, not the world save directory.%n%nRemember though, Journeymap and Thaumcraft Node Tracker information isn't included with AromaBackup, so you should backup your journeymap and tcnodetracker directories yourself if you don't trust them or are moving data to another drive or computer. Also, the Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing up that file as well, the file is the 'saves\\<worldname>\\playerdata\\<nameofplayer>.thaum' file.
 
 # Quest.1502 - §9§lTesla Would be Proud
 gtnh.quest1502.name=§9§lTesla Would be Proud
@@ -6142,7 +6142,7 @@ gtnh.quest1534.desc=Ledox is a material you need for Tier 4 Rockets which can be
 
 # Quest.1535 - Rocket Tier 4
 gtnh.quest1535.name=Rocket Tier 4
-gtnh.quest1535.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel or better to fuel it.
+gtnh.quest1535.desc=After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.%n%nYou need to use Dense Hydrazine Rocket Fuel/LMP103S or better to fuel it.
 
 # Quest.1536 - §3§lI Ain't Afraid of no Ghost!
 gtnh.quest1536.name=§3§lI Ain't Afraid of no Ghost!
@@ -6906,7 +6906,7 @@ gtnh.quest1725.desc=Each rocket needs a Control Computer, appropriate to the tie
 
 # Quest.1726 - Rocket Tier 5
 gtnh.quest1726.name=Rocket Tier 5
-gtnh.quest1726.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.
+gtnh.quest1726.desc=After a month of hard work and ten thousand stacks of iTNT your fifth rocket is finally ready.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel/Monomethylhydrazine Fuel Mix or better to fuel it.
 
 # Quest.1727 - Heavy Duty Nose Cone Tier 3
 gtnh.quest1727.name=Heavy Duty Nose Cone Tier 3
@@ -7118,7 +7118,7 @@ gtnh.quest1778.desc=Thaumcraft offers considerable power from its devices and to
 
 # Quest.1779 - Step Assistant
 gtnh.quest1779.name=Step Assistant
-gtnh.quest1779.desc=The Piston Boots are a bouncy pair of shoes for adventurers.%n%nIt functions as a piece of armor for the foot slot that gives a fun jump boost! They let the wearer jump up to THREE blocks in height and increase run speed. They also grant a Step Up enchantment to allow the wearer to step up a single block without jumping while sprinting.%n%nBasically, make them ASAP.
+gtnh.quest1779.desc=The Piston Boots are a bouncy pair of shoes for adventurers.%n%nIt functions as a piece of armor for the foot slot that gives a fun jump boost! They let the wearer jump up to THREE blocks in height and increase run speed. They also grant a Step Up enchantment to allow the wearer to step up a single block without jumping while sprinting. You can repair them with leather using an anvil.%n%nBasically, make them ASAP.
 
 # Quest.1780 - Olive Saplings
 gtnh.quest1780.name=Olive Saplings
@@ -7338,7 +7338,7 @@ gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys
 
 # Quest.1834 - §1§lMushroom Biomes? Why Are There So Many?
 gtnh.quest1834.name=§1§lMushroom Biomes? Why Are There So Many?
-gtnh.quest1834.desc=GNTH pack is made for the RWG worldgen. If you run the vanilla biomes worlgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue this one. If you run a server put this inside your server.properties file.%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
+gtnh.quest1834.desc=The GNTH pack is made for the RWG worldgen. If you run the vanilla biomes worldgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue. If you run a server put the following into your server.properties file:%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
 
 # Quest.1835 - §6§lOverworld Tantalum
 gtnh.quest1835.name=§6§lOverworld Tantalum
@@ -7958,7 +7958,7 @@ gtnh.quest1988.desc=There are many tiers of upgrades for storage drawers. Make s
 
 # Quest.1989 - Machine Inventory Manager
 gtnh.quest1989.name=Machine Inventory Manager
-gtnh.quest1989.desc=The core block of Stacy's...er Steve's Factory Manager. SFM is a high tier automation system. While AE2 can handle simple crafting up to 9 components at a time and even nesting ingredients, SFM can handle the complex crafting required for the assline.%n%nInventory Cables connect the MIM to inventories or tanks.%n%nRight now until some Moron figures it out, your best bet is to experiment, ask for help on Discord, and search Google. The interface resembles most GUI based automation systems like LabView.%n%nThere have been TPS problems caused by poorly designed SFM setups.  Make sure your outputs are properly emptied, and don't get filled.%n%nInventory cables are the "basic" cable of SFM. They allow the MIM to interact with an inventory, and act as a connector cable to other cables.%n%nmehdi2344 thinks my jokes suck, but he's an idiot, so there. %n%nThanks to Nori Silverrage for writing up these quests!%n%n§3BTW, there's a Creative Supplier for creative testing. The Energistics Connector is disabled because it doesn't work correctly.
+gtnh.quest1989.desc=The core block of Stacy's...er Steve's Factory Manager. SFM is a high tier automation system. While AE2 can handle simple crafting up to 9 components at a time and even nesting ingredients, SFM can handle the complex crafting required for the assline.%n%nInventory Cables connect the MIM to inventories or tanks.%n%nRight now until some Moron figures it out, your best bet is to experiment, ask for help on Discord, and search Google. The interface resembles most GUI based automation systems like LabView.%n%nThere have been TPS problems caused by poorly designed SFM setups. Make sure your outputs are properly emptied, and don't get filled.%n%nInventory cables are the "basic" cable of SFM. They allow the MIM to interact with an inventory, and act as a connector cable to other cables.%n%nmehdi2344 thinks my jokes suck, but he's an idiot, so there. %n%nThanks to Nori Silverrage for writing up these quests!%n%n§3BTW, there's a Creative Supplier for creative testing. The Energistics Connector is disabled because it doesn't work correctly.
 
 # Quest.1990 - Moving the Manager 
 gtnh.quest1990.name=Moving the Manager 
@@ -8582,7 +8582,7 @@ gtnh.quest2144.desc=If you want to pass multiple amps through your cleanroom wal
 
 # Quest.2145 - §1§lE_TOO_MANY_KEYS
 gtnh.quest2145.name=§1§lE_TOO_MANY_KEYS
-gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard. You will need to redefine your keymap so that you can use things effectively.  Here is a list of keys you should deconflict. If messing with the keymap corrupts your config file, it may cause crashes. If you get crashes, make sure your options.txt file is fixed.%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%nNONE - Drop Item (Who wants to throw a backpack into lava?)%n%nIC2%nC - Side Invetory Key%n%nJourneymap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (works on minimap too)%n- - Zoom Out (same)%n%nMisc%nH - Toggle Hover Harness%nF - Toggle Wand Focus%n%nTC Node Tracker%nI - Node List (must be scanned, goggles allow compass)%nX - Zoom key (handy for checking on distant ores on a mountain)%n%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
+gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nYou will need to redefine your keybindings so that you can use things effectively. Here is a list of keys you should deconflict. If messing with the keybindings corrupts your config file, it may cause crashes. If you get crashes, make sure your options.txt file is fixed. You can always delete it and try again. You can set a lot of keys to Esc for None so that you won't activate them. This can cause non-standard buttons to activate them though sometimes (calculator, music/volume buttons, etc.).%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%nNONE - Drop Item (Who wants to throw a backpack into lava?)%n%nIC2%nC - Side Invetory Key%n%nJourneymap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (works on minimap too)%n- - Zoom Out (same)%n%nMisc%nH - Toggle Hover Harness%nF - Toggle Wand Focus%n%nTC Node Tracker%nI - Node List (must be scanned, goggles allow compass)%nX - Zoom key (handy for checking on distant ores on a mountain)%n%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
 
 # Quest.2146 - BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
 gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
@@ -9346,7 +9346,7 @@ gtnh.quest2335.desc=Taglock Kits are used to collect taglocks from other players
 
 # Quest.2336 - Mutandis Extremis
 gtnh.quest2336.name=Mutandis Extremis
-gtnh.quest2336.desc=Mutandis Extremis is an upgraded version of Mutandis that is used by witches and warlocks to mutate plants into other species. Mutandis Extremis has all the same properties as basic Mutandis but it can even be used on multi-stage plants like wheat, cactus, etc. and can also mutate cooked meat.%n%nIf Mutandis Extremis is used on a Grass block there is a chance it will mutate it into Mycelium and vice versa.%n%nIf Mutandis Extremis is used on an underwater dirt block there is a chance it will mutate it (and nearby dirt) into clay blocks.%n%nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.%n%nSome recipes require Mutandis Extremis as an ingredient.%n%nMutandis is crafted using Mutandis and Netherwart.
+gtnh.quest2336.desc=Mutandis Extremis is an upgraded version of Mutandis that is used by witches and warlocks to mutate plants into other species. Mutandis Extremis has all the same properties as basic Mutandis but it can even be used on multi-stage plants like wheat, cactus, etc. and can also mutate cooked meat.%n%nIf Mutandis Extremis is used on a Grass block there is a chance it will mutate it into Mycelium and vice versa.%n%nIf Mutandis Extremis is used on an underwater dirt block there is a chance it will mutate it (and nearby dirt) into clay blocks.%n%nMutating plants is the only way to acquire Rowan, Hawthorn and Alder saplings.%n%nSome recipes require Mutandis Extremis as an ingredient.%n%nMutandis is crafted using Mutandis and Netherwart.%n%n§3Some cauldron recipes require altar power. This is one of them. Make sure you read the Witches' Brews book.
 
 # Quest.2337 - Mandrake Noise Protection
 gtnh.quest2337.name=Mandrake Noise Protection
@@ -9626,7 +9626,7 @@ gtnh.quest2405.desc=You can take vanilla tree saplings and place them directly o
 
 # Quest.2406 - §1§lNumbers in the Corner?
 gtnh.quest2406.name=§1§lNumbers in the Corner?
-gtnh.quest2406.desc=What's with the numbers in the corner?  Well that's In-Game Info, a handy mod that gives you necessary information for Gregtech: New Horizons.%n%nThe most important info is whether or not you are in an ore chunk.  Later quests will explain what that means.%n%nIf you don't want to see the IGI information, you can use %n%n§l/igi disable%n/igi enable%n§r%nto disable and enable the window.%n%n§l/igi config%n%n§rwill bring up the configuration window, which you can use to control placement, and the scale/size of the font.%n%n%nAnother useful display is Extra Utilities' TPS meter. It gives you the instantaneous tps, average tps, and worst-case tps. TPS is Ticks-per-second, a measure of how well your server is running. TPS=20 is ideal, and TPS<15 is going to start noticeably lagging. TPS<10 is going to be hard to play. If you need suggestions solving TPS problems, contact us on Discord.%n%nEnable the display with%n%n§l/xu_tps
+gtnh.quest2406.desc=What's with the numbers in the corner? Well that's In-Game Info, a handy mod that gives you necessary information for Gregtech: New Horizons.%n%nThe most important info is whether or not you are in an ore chunk. Later quests will explain what that means.%n%nIf you don't want to see the IGI information, you can use %n%n§l/igi disable%n/igi enable%n§r%nto disable and enable the window.%n%n§l/igi config%n%n§rwill bring up the configuration window, which you can use to control placement, and the scale/size of the font.%n%n%nAnother useful display is Extra Utilities' TPS meter. It gives you the instantaneous tps, average tps, and worst-case tps. TPS is Ticks-per-second, a measure of how well your server is running. TPS=20 is ideal, and TPS<15 is going to start noticeably lagging. TPS<10 is going to be hard to play. If you need suggestions solving TPS problems, contact us on Discord.%n%nEnable the display with%n%n§l/xu_tps
 
 # Quest.2407 - §3§lWhat Engineer Doesn't Want a Portable Workbench?
 gtnh.quest2407.name=§3§lWhat Engineer Doesn't Want a Portable Workbench?
@@ -10562,7 +10562,7 @@ gtnh.quest2639.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.2640 - Rocket Tier 6
 gtnh.quest2640.name=Rocket Tier 6
-gtnh.quest2640.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.%n%n§3If you want to make this in ZPM, you'll need to use the Assembler multi.
+gtnh.quest2640.desc=After building this, you can visit more planets.%n%nYou need to use CN3H7O3 (Purple) Rocket Fuel/Monomethylhydrazine Fuel Mix or better to fuel it.%n%n§3If you want to make this in ZPM, you'll need to use the Assembler multi.
 
 # Quest.2641 - Tier 7 Heavy Duty Plates
 gtnh.quest2641.name=Tier 7 Heavy Duty Plates
@@ -10570,7 +10570,7 @@ gtnh.quest2641.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.2642 - Rocket Tier 7
 gtnh.quest2642.name=Rocket Tier 7
-gtnh.quest2642.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
+gtnh.quest2642.desc=You can now visit the planets on the edge of the solar system with this rocket.%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel/Unsymmetrical Dimethylhydrazine Fuel Mix to fuel it.
 
 # Quest.2643 - Tier 8 Heavy Duty Plates
 gtnh.quest2643.name=Tier 8 Heavy Duty Plates
@@ -10578,7 +10578,7 @@ gtnh.quest2643.desc=Rockets require heavy duty plates for the main hull. Let's c
 
 # Quest.2644 - Rocket Tier 8
 gtnh.quest2644.name=Rocket Tier 8
-gtnh.quest2644.desc=You can travel to other solar systems with this, the final rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
+gtnh.quest2644.desc=You can travel to other solar systems with this, the final rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel/Unsymmetrical Dimethylhydrazine Fuel Mix to fuel it.
 
 # Quest.2645 - §c§lFusion Rocketry
 gtnh.quest2645.name=§c§lFusion Rocketry
@@ -11587,6 +11587,22 @@ gtnh.quest2895.desc=Say thanks to mitch for backporting this great mod. You can 
 # Quest.2896 - §6§lGimme My Stuff Back!
 gtnh.quest2896.name=§6§lGimme My Stuff Back!
 gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnace-ing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
+
+# Quest.2897 - §2§lMaking a Rapier
+gtnh.quest2897.name=§2§lMaking a Rapier
+gtnh.quest2897.desc=Problems killing the Lich? Can't manage to shoot back his projectiles? No problem, just use a Rapier that ignores armor and the Lich will soon be...re-dead? Un-alive? Whatever happens to something undead once it dies for real.%n%nThe only problem is that the Rapier doesn't do a lot of damage.
+
+# Quest.2898 - Crispy Rotten Flesh
+gtnh.quest2898.name=Crispy Rotten Flesh
+gtnh.quest2898.desc=Rotten Flesh is not really healthy. It doesn't satisfy your hunger. What if you try to dry?
+
+# Quest.2899 - Flippers
+gtnh.quest2899.name=Flippers
+gtnh.quest2899.desc=Maybe you were lucky and found some Flippers in a loot chest or dungeon.%n%nFlippers allow the player to swim at the same speed as walking. The only problem is that it has 0 armor protection.%n%nIf you're doing underwater construction, or digging out some clay or gravel, you may find them useful.
+
+# Quest.2900 - Trigger Flippers
+gtnh.quest2900.name=Trigger Flippers
+gtnh.quest2900.desc=
 
 ##################################Line##################################
 
