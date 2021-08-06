@@ -176,7 +176,7 @@ you find it in your resource folder<BR>
 | Advanced Solar Panels | 3.5.1a |
 | [Adventure Backpack](https://github.com/GTNewHorizons/AdventureBackpack2) | 0.9h15-GTNH |
 | [AE2 Stuff](https://github.com/GTNewHorizons/ae2stuff/) | 0.5.1.11_GTNH |
-| [AE2 Wireless Crafting Table](https://github.com/GTNewHorizons/WirelessCraftingTerminal) | 1.8.7.8-GTNH |
+| [AE2 Wireless Crafting Terminal](https://github.com/GTNewHorizons/WirelessCraftingTerminal) | 1.8.7.8-GTNH |
 | [AFSU](https://www.curseforge.com/minecraft/mc-mods/afsu-mod) | 1.2.3.a |
 | [Anger Mod](https://github.com/GTNewHorizons/AngerMod) | 0.6.1 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 1.3.9 |
