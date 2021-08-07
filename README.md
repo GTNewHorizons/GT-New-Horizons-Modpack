@@ -173,7 +173,7 @@ you find it in your resource folder<BR>
 
 | Name | Version |
 | --- | --- |
-| Advanced Solar Panels | 3.5.1a |
+| [Advanced Solar Panels](https://forum.industrial-craft.net/thread/3291-ic2-exp-1-7-10-advanced-solar-panels-v3-5-1-quantum-generator-solar-helmets/) | 3.5.1a |
 | [Adventure Backpack](https://github.com/GTNewHorizons/AdventureBackpack2) | 0.9h15-GTNH |
 | [AE2 Stuff](https://github.com/GTNewHorizons/ae2stuff/) | 0.5.1.11_GTNH |
 | [AE2 Wireless Crafting Terminal](https://github.com/GTNewHorizons/WirelessCraftingTerminal) | 1.8.7.8-GTNH |
@@ -199,7 +199,7 @@ you find it in your resource folder<BR>
 | [BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
 | [BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition) | 1.5 |
 | [Binnie Mods](https://github.com/GTNewHorizons/Binnie/) | 2.0-29.5-gtnh |
-| Biomes o Plenty | 2.1.2-GTNH |
+| [Biomes o Plenty](http://jenkins.usrv.eu:8080/job/BoP/) | 2.1.2-GTNH |
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter/) | 0.53 |
 | [Blood Arsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.2.2-11 |
 | [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.3.3.44 |
@@ -231,9 +231,9 @@ you find it in your resource folder<BR>
 | [Enhanced Portals 3](https://www.curseforge.com/minecraft/mc-mods/enhanced-portals-3) | 3.0.12 |
 | [Eternal Singularity](https://www.curseforge.com/minecraft/mc-mods/eternal-singularity/files/2577977) | 1.0.4b |
 | [Extra Cells](https://github.com/GTNewHorizons/ExtraCells2) | 2.5.0b16 |
-| Extra Utilities | 1.2.13a |
+| [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities/files/2264383) | 1.2.13a |
 | [FastCraft](https://www.curseforge.com/minecraft/mc-mods/fastcraft) | 1.25 |
-| Find It | 1.0.1 |
+| [Find It](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Find-It/) | 1.0.1 |
 | [Flood Light](https://www.curseforge.com/minecraft/mc-mods/floodlights) | 1.2.8.137 |
 | [Forbidden Magic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.575-2-GTNH |
 | [Forestry](https://github.com/GTNewHorizons/ForestryMC) | 4.3.1.44 |
@@ -244,7 +244,7 @@ you find it in your resource folder<BR>
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.0.8.1 |
 | [Galacticraft-Full](https://github.com/GTNewHorizons/Galacticraft) | 3.0.28-GTNH |
 | [GalactiGreg](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.3 |
-| Galaxy Space | 1.1.7c-GTNH |
+| [Galaxy Space](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Galaxy-Space/) | 1.1.7c-GTNH |
 | [Gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.0 |
 | [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.1.2 |
 | Gravitation Suite | 2.0.68u |
@@ -265,15 +265,15 @@ you find it in your resource folder<BR>
 | [IC2 Nuclear Control](https://www.curseforge.com/minecraft/mc-mods/nuclear-control-2) | 2.4.3a |
 | [IFU](https://github.com/GTNewHorizons/IFU) | 1.7 |
 | [IguanaTinkerTweaks](https://github.com/GTNewHorizons/IguanaTweaksTConstruct) | 2.1.7.5 |
-| Industrial Craft 2 | 2.2.2.828a |
-| Industrial Craft 2 Nei Plugin | 1.3.1 |
+| [Industrial Craft 2](http://jenkins.ic2.player.to/job/IC2_experimental/828/) | 2.2.2.828a |
+| [Industrial Craft 2 Nei Plugin](https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin/files) | 1.3.1 |
 | [Infernal Mobs](https://github.com/GTNewHorizons/Infernal-Mobs) | 1.7.2 |
 | [InGame Info XML](https://github.com/GTNewHorizons/InGame-Info-XML) | 2.8.2.6 |
-| Inventory Tweaks | 1.59.156 |
+| [Inventory Tweaks](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Inventory-Tweaks/) | 1.59.156 |
 | [Iron Chest Minecarts](https://www.curseforge.com/minecraft/mc-mods/iron-chest-minecarts) | 1.0.4 |
 | [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests) | 6.0.62.742 |
 | [Iron Tanks](https://github.com/GTNewHorizons/Irontanks) | 1.2.1 |
-| It's the little things | 1.0.2 |
+| [It's the little things](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things/) | 1.0.2 |
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.2.8 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p2 |
 | [Kekztech](https://github.com/GTNewHorizons/KekzTech) | 0.5.6 |
@@ -300,7 +300,7 @@ you find it in your resource folder<BR>
 | [Open Printers](https://www.curseforge.com/minecraft/mc-mods/openprinter) | 0.1.0.132 |
 | [Open Security](https://www.curseforge.com/minecraft/mc-mods/opensecurity) | 1.0-117 |
 | [Overloaded Armorbar](https://github.com/GTNewHorizons/OverloadedArmorBar) | 1.0.0 |
-| Pam's Harvestcraft | 1.7.10-lb-1.0.6-GTNH |
+| [Pam's Harvestcraft](http://jenkins.usrv.eu:8080/job/harvestcraft/) | 1.7.10-lb-1.0.6-GTNH |
 | [Pam's Harvestcraft Nether](https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether) | 1.7.10a |
 | [Project Blue](https://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/ProjectBlue/) | 1.1.6 |
 | [Project Red-All](https://github.com/GTNewHorizons/ProjectRed) | 4.7.0pre14.18 |
@@ -317,19 +317,22 @@ you find it in your resource folder<BR>
 | [Sleeping Bag](https://www.curseforge.com/minecraft/mc-mods/bag-o-sleep) | 0.1.1 |
 | [Special Mobs](https://github.com/GTNewHorizons/SpecialMobs) | 3.3.8 |
 | [Spice of Life](https://github.com/GTNewHorizons/SpiceOfLife) | 2.0.0-carot-beta-7 |
-| Standard Expansion | 3.0.185-GTNH |
-| Steve's Carts | 2.0.0.20b |
+| [Standard Expansion](http://jenkins.usrv.eu:8080/job/StandartExpansion/) | 3.0.185-GTNH |
+| [Steve's Carts](http://jenkins.usrv.eu:8080/job/Steve-Carts/) | 2.0.0.20b |
 | [Steve's Factory Manager](https://github.com/GTNewHorizons/Steve-s-Factory-Manager) | ALPHA97-GTNH |
 | [Steve's Factory Manager Addon](https://github.com/GTNewHorizons/StevesAddons) | 0.10.17 |
 | [Storage Drawers](https://github.com/GTNewHorizons/StorageDrawers) | 1.11.7-gtnh |
-| Storage Drawers Wood Addons | 1.1.2c |
+| [Storage Drawers Wood Addons Forestry](https://www.curseforge.com/minecraft/mc-mods/storage-drawers-forestry-pack) | 1.1.2 |
+| [Storage Drawers Wood Addons Biome O plenty](https://www.curseforge.com/minecraft/mc-mods/storage-drawers-biomes-o-plenty-pack) | 1.1.2 | 
+| [Storage Drawers Wood Addons Natura](https://www.curseforge.com/minecraft/mc-mods/storage-drawers-natura-pack) | 1.1.2 |
+| [Storage Drawers Wood Addons Misc](https://www.curseforge.com/minecraft/mc-mods/storage-drawers-misc-pack) | 1.1.2 |
 | [Super Solar Panel](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.2 |
 | [Super Tic](https://github.com/GTNewHorizons/Super-TiC) | 1.2.1 |
 | [Tainted Magic](https://github.com/GTNewHorizons/Tainted-Magic) | r7.6 |
 | [TC Node Tracker](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker) | 1.1.2 |
 | [Tec Tech](https://github.com/GTNewHorizons/TecTech) | 4.10.6 |
 | [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5 |
-| Thaumcraft Mob Aspects | 2B-snapsh17 |
+| [Thaumcraft Mob Aspects](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/ThaumcraftMobAspects/) | 2B-snapsh17 |
 | [Thaumcraft-NEI-Additions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.1.0.1 |
 | [ThaumcraftNEIPlugins](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin) | 1.7a |
 | [Thaumic Bases](https://github.com/GTNewHorizons/ThaumicBases) | 1.4.25.0 |
@@ -342,14 +345,14 @@ you find it in your resource folder<BR>
 | [TiCTooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.2.5 |
 | [Tinkers' Construct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.9.0.1.Build-11-GTNH |
 | [Tinkers' Gregworks](https://github.com/GTNewHorizons/TinkersGregworks) | 1.0.19-GTNH |
-| Tinkers' Defense | 1.2.1d |
+| [Tinkers' Defense](https://www.curseforge.com/minecraft/mc-mods/compendium/) | 1.2.1d |
 | [Tinkers' Mechworks](https://github.com/GTNewHorizons/TinkersMechworks) | 0.2.16.2 |
 | [Too Much Loot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.0.3.B2 |
 | [Toro Health](https://github.com/GTNewHorizons/ToroHealth) | 1.0.0 |
 | [Translocator](https://www.curseforge.com/minecraft/mc-mods/translocators) | 1.1.2.16 |
 | [Travellers Gear](https://github.com/GTNewHorizons/TravellersGear) | 1.16.7 |
 | [Twillight Forest](https://github.com/GTNewHorizons/twilightforest) | 2.3.8.7-dev |
-| Ulity Worlds | 1.0.9e |
+| [Ulity Worlds](https://www.curseforge.com/minecraft/mc-mods/utility-worlds/) | 1.0.9e |
 | [Universal Singularities Version](https://github.com/GTNewHorizons/Universal-Singularities) | 8.6.3 |
 | [Waila](https://github.com/GTNewHorizons/waila) | 1.5.10 |
 | [Waila Harvestability](https://github.com/GTNewHorizons/WailaHarvestability) | 1.1.7 |
@@ -360,7 +363,7 @@ you find it in your resource folder<BR>
 | [Witchery](https://github.com/GTNewHorizons/Witchery) | 0.24.1 |
 | [Witchery Extras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.1.1 |
 | [Witching Gadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.2.13-GTNH |
-| Ztones | 2.2.2custom |
+| [Ztones](https://www.curseforge.com/minecraft/mc-mods/ztones/) | 2.2.2custom |
 
 ## Libs and Cores
 | Name | Version |
@@ -375,7 +378,7 @@ you find it in your resource folder<BR>
 | [Crop Loader Core](https://github.com/GTNewHorizons/CropLoadCore) | 0.1.4 |
 | [Dummy Core](https://www.curseforge.com/minecraft/mc-mods/dummycore) | 1.13 |
 | [Ender Core](https://www.curseforge.com/minecraft/mc-mods/endercore) | 0.2.0.39 |
-| Forge Multipart | 1.2.1.6 |
+| [Forge Multipart](http://jenkins.usrv.eu:8080/job/Forge-Multipart/) | 1.2.1.6 |
 | [InpureCore](https://www.curseforge.com/minecraft/mc-mods/inpurecore) | 1.0.0B9-62 |
 | [Malisis Core](https://www.curseforge.com/minecraft/mc-mods/malisiscore) | 0.14.3 |
 | [MicdoodleCore](https://github.com/GTNewHorizons/MicdoodleCore) | 3.0.13-GTNH |
