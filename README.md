@@ -169,219 +169,225 @@ you find it in your resource folder<BR>
 
 
 ---
-## Modlist - NewHorizons<BR>
+## Modlist - NewHorizons
 
-* Advanced Solar Panels 3.5.1a<BR>
-* Adventure Backpack 0.9h15-GTNH<BR>
-* AE2 Stuff 0.5.1.11_GTNH<BR>
-* AE2 Wireless Crafting Table 1.8.7.8-GTNH<BR>
-* AFSU 1.2.3.a<BR>
-* Anger Mod 0.6.1<BR>
-* AppleCore 1.3.9<BR>
-* Applied Energistics rv3-beta-52-GTNH<BR>
-* Architecture Craft 1.7.4-GTNH<BR>
-* Aroma Backup 0.1.0.0<BR>
-* Automagy 0.28.2<BR>
-* Avaritia 1.19<BR>
-* Avaritiaddons 1.4b.1<BR>
-* BackPack 2.2.4<BR>
-* Bartworks 0.5.19<BR>
-* Baubles 1.0.1.12<BR>
-* Bee Better At Bees 0.3<BR>
-* Better Archivements 0.1.0<BR>
-* Better Builders Wands 0.8.1r92<BR>
-* Better Loading Screen 1.3.29-GTNH<BR>
-* Better Questing 3.0.345-GTNH<BR>
-* Bibliocraft 1.11.7<BR>
-* Bibliowoods 1.9/1.7/1.5<BR>
-* Binnie Mods 2.0-29.5-gtnh<BR>
-* Biomes o Plenty 2.1.2-GTNH<BR>
-* BlockLimiter 0.53<BR>
-* Blood Arsenal 1.2.2-11<BR>
-* BloodMagic 1.3.3.44<BR>
-* Botdustries 1.2.4<BR>
-* Bug Torch 1.1.1<BR>
-* Buildcraft 7.1.23<BR>
-* Buildcraft Compat 7.1.7<BR>
-* Build Craft Oil Tweak 1.0.3<BR>
-* Carpenter's Blocks 3.3.8.2<BR>
-* Catwalk Mod 2.0.4<BR>
-* Chisel Release-26<BR>
-* Chisel Tones 1.0-3<BR>
-* Cooking for Blockheads 1.2.3-GTNH
-* Command Block BQ Mod 3<BR>
-* Compact Kinetic Generators 1.0<BR>
-* Computronics 1.6.6<BR>
-* Controlling 1.0.0<BR>
-* CraftPresence 1.8.2<BR>
-* Craft Tweaker 3.2.2-GTNH<BR>
-* Crops ++ 1.3.5.4<BR>
-* Custom Main Menu 1.9.2<BR>
-* Default World Generator 0.1-b13<BR>
-* Draconic Evolution 1.0.2r<BR>
-* Electro Magic Tools 1.2.8.2<BR>
-* Ender IO 2.3.1.16_beta.31<BR>
-* Ender Storage 1.4.8.29<BR>
-* Ender Zoo 1.0.18.3<BR>
-* Enhanced Loot Bags 1.0.4<BR>
-* Enhanced Portals 3 3.0.12<BR>
-* Eternal Singularity 1.0.4b<BR>
-* Extra Cells 2.5.0b16<BR>
-* Extra Utilities 1.2.13a<BR>
-* FastCraft 1.25<BR>
-* Find It 1.0.1<BR>
-* Flood Light 1.2.8.137<BR>
-* Forbidden Magic 0.575-2-GTNH<BR>
-* Forestry 4.3.1.44<BR>
-* Forgelin 1.8.4-GTNH<BR>
-* Forge Microblocks 1.2.0.347<BR>
-* ForgeReloaction 0.0.1.4<BR>
-* ForgeReloactionFMP 0.0.1.2<BR>
-* Gadomancy 1.0.8.1<BR>
-* Galacticraft-Full 3.0.28-GTNH<BR>
-* GalactiGreg 1.0.3<BR>
-* Galaxy Space 1.1.7c-GTNH<BR>
-* Gendustry 1.6.5.0<BR>
-* Good Generator 0.1.2<BR>
-* Gravitation Suite 2.0.68u<BR>
-* Gregtech 5.09.37.02<BR>
-* GT Scanner Mod 1.6.0<BR>
-* GT Ore Nei Plugin 1.0.8<BR>
-* GT New Horizons Core Mod 1.8.02<BR>
-* GT++ 1.7.07-GTNH<BR>
-* GTNH TC Wands 1.2.2<BR>
-* GTTweaker 1.7.5<BR>
-* Hardcore Darkness 1.7<BR>
-* Hardcore Ender Expansion 1.8.8<BR>
-* Help Fixer 1.0.7<BR>
-* Hodgepodge 1.6.8<BR>
-* Holo Inventory 2.1.5-beta<BR>
-* Hunger Overhaul 1.0.2<BR>
-* Hydro Energy 0.1.1<BR>
-* IC2 Nuclear Control 2.4.3a<BR>
-* IFU 1.7<BR>
-* IguanaTinkerTweaks 2.1.7.5<BR>
-* Industrial Craft 2 2.2.2.828a<BR>
-* Industrial Craft 2 Nei Plugin 1.3.1<BR>
-* Infernal Mobs 1.7.2<BR>
-* InGame Info XML 2.8.2.6<BR>
-* Inventory Tweaks 1.59.156<BR>
-* Iron Chest Minecarts 1.0.4<BR>
-* Iron Chests 6.0.62.742<BR>
-* Iron Tanks 1.2.1<BR>
-* ItLt 1.0.2<BR>
-* Jabba 1.2.8<BR>
-* JourneyMap 5.1.4p2<BR>
-* Kekztech 0.5.6<BR>
-* Logistic Pipes 0.9.4.5.2-GTNH
-* Lootgames 2.0.0<BR>
-* Magic Bees 2.5.5-GTNH<BR>
-* Malisis Doors 1.13.2<BR>
-* Mine and Blade Battlegear 1.1.1.4-GTNH<BR>
-* Minecraft Forge 10.13.4.1614<BR>
-* Mod Mixins 0.0.5<BR>
-* Mod Tweaker 2 0.9.6.173<BR>
-* Mouse Tweaks 2.4.4<BR>
-* Natura 2.4.2-dev<BR>
-* Natures Compass 1.3.1<BR>
-* NEI 2.1.6-GTNH<BR>
-* Nei Addons 1.12.15.41<BR>
-* Nei Integration 1.1.2<BR>
-* Nodal Mechanics 1.1.5-GTNH<BR>
-* Not Enough Thaumcraft Tabs 1.1.0<BR>
-* Open Blocks 1.6.4-snapshot8<BR>
-* Open Computers 1.7.5.12.30<BR>
-* Open Modular Turrets 2.2.11.245<BR>
-* Open Glasses 1.1-GTNH
-* Open Printers 0.1.0.132<BR>
-* Open Security 1.0-117<BR>
-* Overloaded Armorbar 1.0.0<BR>
-* Pam's Harvestcraft 1.7.10-lb-1.0.6-GTNH<BR>
-* Pam's Harvestcraft Nether 1.7.10a<BR>
-* Project Blue 1.1.6<BR>
-* Project Red-All 4.7.0pre14.18<BR>
-* Questbook 2.1.1<BR>
-* Railcraft 9.12.2.1<BR>
-* Random Things 2.2.4<BR>
-* Realistic World Gen 1.3.2<BR>
-* ReAuth 3.5.0<BR>
-* RemoteIO 2.4.2<BR>
-* RF Expansion 3.0.29(disabled till an update is online)<BR>
-* Rogue like Dungeons 1.5.1<BR>
-* Resource Loader 1.3.0<BR>
-* SG Craft 1.13.9<BR>
-* Sleeping Bag 0.1.1<BR>
-* Special Mobs 3.3.8<BR>
-* Spice of Life 2.0.0-carot-beta-7<BR>
-* Standard Expansion 3.0.185-GTNH<BR>
-* Steve's Carts 2.0.0.20b<BR>
-* Steve's Factory Manager ALPHA97-GTNH<BR>
-* Steve's Factory Manager Addon 0.10.17<BR>
-* Storage Drawers 1.11.7-gtnh<BR>
-* Storage Drawers Wood Addons 1.1.2c<BR>
-* Super Solar Panel 1.1.2<BR>
-* Super Tic 1.2.1<BR>
-* Tainted Magic r7.6<BR>
-* TC Node Tracker 1.1.2<BR>
-* Tec Tech 4.10.6<BR>
-* Thaumcraft 4.2.3.5<BR>
-* Thaumcraft Mob Aspects 2B-snapsh17<BR>
-* Thaumcraft-NEI-Additions 1.1.0.1<BR>
-* ThaumcraftNEIPlugins 1.7a<BR>
-* Thaumic Bases 1.4.25.0<BR>
-* Thaumic Energistics 1.1.3.12<BR>
-* Thaumic Exploration 1.1.76<BR>
-* Thaumic Horizon 1.2.0.4<BR>
-* Thaumic Machina 0.2.1<BR>
-* Thaumic Tinkerer 2.5.558-GTNH<BR>
-* Thaumcraft Tweaks 1.3.2<BR>
-* TiCTooltips 1.2.5<BR>
-* Tinker's Construct 1.9.0.1.Build-11-GTNH<BR>
-* Tinker's Gregworks 1.0.19-GTNH<BR>
-* Tinker's Defense 1.2.1d<BR>
-* TMechworks 0.2.16.2<BR>
-* Too Much Loot 4.0.3.B2<BR>
-* Toro Health 1.0.0<BR>
-* Translocator 1.1.2.16<BR>
-* Travellers Gear 1.16.7<BR>
-* Twillight Forest 2.3.8.7-dev<BR>
-* Ulity Worlds 1.0.9e<BR>
-* Universal Singularities Version 8.6.3<BR>
-* Waila 1.5.10<BR>
-* Waila Harvestability 1.1.7<BR>
-* Waila Plugins 0.2.3.2-17<BR>
-* Wawla 1.0.5.120<BR>
-* Warp Theory 1.1.1-GTNH<BR>
-* Wireless Redstone CBE 1.4.2-GTNH<BR>
-* Witchery 0.24.1<BR>
-* Witchery Extras 1.1.1<BR>
-* Witching Gadgets 1.2.13-GTNH<BR>
-* Ztones 2.2.2custom<BR>
+| Name | Version |
+| --- | --- |
+| Advanced Solar Panels | 3.5.1a |
+| [Adventure Backpack](https://github.com/GTNewHorizons/AdventureBackpack2) | 0.9h15-GTNH |
+| [AE2 Stuff](https://github.com/GTNewHorizons/ae2stuff/) | 0.5.1.11_GTNH |
+| [AE2 Wireless Crafting Terminal](https://github.com/GTNewHorizons/WirelessCraftingTerminal) | 1.8.7.8-GTNH |
+| [AFSU](https://www.curseforge.com/minecraft/mc-mods/afsu-mod) | 1.2.3.a |
+| [Anger Mod](https://github.com/GTNewHorizons/AngerMod) | 0.6.1 |
+| [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 1.3.9 |
+| [Applied Energistics](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-52-GTNH |
+| [Architecture Craft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.7.4-GTNH |
+| [Aroma Backup](https://www.curseforge.com/minecraft/mc-mods/aromabackup) | 0.1.0.0 |
+| [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
+| [Avaritia](https://github.com/GTNewHorizons/Avaritia/) | 1.19 |
+| [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons/) | 1.4b.1 |
+| [BackPack](https://github.com/runescapejon/Minecraft-Backpack-Mod) | 2.2.4 |
+| [Bartworks](https://github.com/GTNewHorizons/bartworks/) | 0.5.19 |
+| [Baubles](https://github.com/GTNewHorizons/Baubles/) | 1.0.1.12 |
+| [Bee Better At Bees](https://www.curseforge.com/minecraft/mc-mods/beebetteratbees) | 0.3 |
+| [Better Archivements](https://www.curseforge.com/minecraft/mc-mods/betterachievements) | 0.1.0 |
+| [Better Builders Wands](https://www.curseforge.com/minecraft/mc-mods/better-builders-wands) | 0.8.1r92 |
+| [Better Loading Screen](https://github.com/GTNewHorizons/BetterLoadingScreen/) | 1.3.29-GTNH |
+| [Better Questing](https://github.com/GTNewHorizons/BetterQuesting/) | 3.0.345-GTNH |
+| [Bibliocraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) | 1.11.7 |
+| [BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
+| [BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
+| [BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition) | 1.5 |
+| [Binnie Mods](https://github.com/GTNewHorizons/Binnie/) | 2.0-29.5-gtnh |
+| Biomes o Plenty | 2.1.2-GTNH |
+| [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter/) | 0.53 |
+| [Blood Arsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.2.2-11 |
+| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.3.3.44 |
+| [Botdustries](https://github.com/GTNewHorizons/Botdustries) | 1.2.4 |
+| [Bug Torch](https://github.com/GTNewHorizons/BugTorch) | 1.1.1 |
+| [Buildcraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.23 |
+| [Buildcraft Compat](https://github.com/GTNewHorizons/BuildCraftCompat) | 7.1.7 |
+| [Build Craft Oil Tweak](https://files.vexatos.com/?dir=BuildCraftOilTweak) | 1.0.3 |
+| [Carpenter's Blocks](https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks) | 3.3.8.2 |
+| [Catwalk Mod](https://www.curseforge.com/minecraft/mc-mods/catwalks-2) | 2.0.4 |
+| [Chisel](https://github.com/GTNewHorizons/Chisel) | Release-26 |
+| [Chisel Tones](https://www.curseforge.com/minecraft/mc-mods/chiseltones) | 1.0-3 |
+| [Cooking for Blockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.2.3- |
+| [Command Block BQ Mod](https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing) | 3 |
+| [Compact Kinetic Generators](https://github.com/GTNewHorizons/CompactKineticGenerators) | 1.0 |
+| [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.6.6 |
+| [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) | 1.0.0 |
+| [CraftPresence](https://www.curseforge.com/minecraft/mc-mods/craftpresence) | 1.8.2 |
+| [Craft Tweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.2-GTNH |
+| [Crops ++](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.3.5.4 |
+| [Custom Main Menu](https://www.curseforge.com/minecraft/mc-mods/custom-main-menu) | 1.9.2 |
+| [Default World Generator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.1-b13 |
+| [Draconic Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.0.2r |
+| [Electro Magic Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.2.8.2 |
+| [Ender IO](https://github.com/GTNewHorizons/EnderIO) | 2.3.1.16_beta.31 |
+| [Ender Storage](https://github.com/GTNewHorizons/EnderStorage) | 1.4.8.29 |
+| [Ender Zoo](https://github.com/GTNewHorizons/EnderZoo) | 1.0.18.3 |
+| [Enhanced Loot Bags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.0.4 |
+| [Enhanced Portals 3](https://www.curseforge.com/minecraft/mc-mods/enhanced-portals-3) | 3.0.12 |
+| [Eternal Singularity](https://www.curseforge.com/minecraft/mc-mods/eternal-singularity/files/2577977) | 1.0.4b |
+| [Extra Cells](https://github.com/GTNewHorizons/ExtraCells2) | 2.5.0b16 |
+| Extra Utilities | 1.2.13a |
+| [FastCraft](https://www.curseforge.com/minecraft/mc-mods/fastcraft) | 1.25 |
+| Find It | 1.0.1 |
+| [Flood Light](https://www.curseforge.com/minecraft/mc-mods/floodlights) | 1.2.8.137 |
+| [Forbidden Magic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.575-2-GTNH |
+| [Forestry](https://github.com/GTNewHorizons/ForestryMC) | 4.3.1.44 |
+| [Forgelin](https://github.com/GTNewHorizons/Forgelin) | 1.8.4-GTNH |
+| [Forge Multipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.2.0.347 |
+| [Forge Relocation](https://www.curseforge.com/minecraft/mc-mods/forge-relocation) | 0.0.1.4 |
+| [Forge Relocation FMP](https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin) | 0.0.1.2 |
+| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.0.8.1 |
+| [Galacticraft-Full](https://github.com/GTNewHorizons/Galacticraft) | 3.0.28-GTNH |
+| [GalactiGreg](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.3 |
+| Galaxy Space | 1.1.7c-GTNH |
+| [Gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.0 |
+| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.1.2 |
+| Gravitation Suite | 2.0.68u |
+| [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.37.02 |
+| [GT Scanner Mod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.6.0 |
+| [GT Ore Nei Plugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.8 |
+| [GT New Horizons Core Mod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.8.02 |
+| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.07-GTNH |
+| [GTNH TC Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.2 |
+| [GTTweaker](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 1.7.5 |
+| [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
+| [Hardcore Ender Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.8.8 |
+| [Help Fixer](https://www.curseforge.com/minecraft/mc-mods/helpfixer) | 1.0.7 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 1.6.8 |
+| [Holo Inventory](https://github.com/GTNewHorizons/HoloInventory) | 2.1.5-beta |
+| [Hunger Overhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.2 |
+| [Hydro Energy](https://github.com/GTNewHorizons/HydroEnergy) | 0.1.1 |
+| [IC2 Nuclear Control](https://www.curseforge.com/minecraft/mc-mods/nuclear-control-2) | 2.4.3a |
+| [IFU](https://github.com/GTNewHorizons/IFU) | 1.7 |
+| [IguanaTinkerTweaks](https://github.com/GTNewHorizons/IguanaTweaksTConstruct) | 2.1.7.5 |
+| Industrial Craft 2 | 2.2.2.828a |
+| Industrial Craft 2 Nei Plugin | 1.3.1 |
+| [Infernal Mobs](https://github.com/GTNewHorizons/Infernal-Mobs) | 1.7.2 |
+| [InGame Info XML](https://github.com/GTNewHorizons/InGame-Info-XML) | 2.8.2.6 |
+| Inventory Tweaks | 1.59.156 |
+| [Iron Chest Minecarts](https://www.curseforge.com/minecraft/mc-mods/iron-chest-minecarts) | 1.0.4 |
+| [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests) | 6.0.62.742 |
+| [Iron Tanks](https://github.com/GTNewHorizons/Irontanks) | 1.2.1 |
+| It's the little things | 1.0.2 |
+| [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.2.8 |
+| [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p2 |
+| [Kekztech](https://github.com/GTNewHorizons/KekzTech) | 0.5.6 |
+| [Logistic Pipes](https://github.com/GTNewHorizons/LogisticsPipes) | 0.9.4.5.2- |
+| [Lootgames](https://github.com/GTNewHorizons/LootGames) | 2.0.0 |
+| [Magic Bees](https://github.com/GTNewHorizons/MagicBees) | 2.5.5-GTNH |
+| [Malisis Doors](https://www.curseforge.com/minecraft/mc-mods/malisisdoors) | 1.13.2 |
+| [Mine and Blade Battlegear](https://github.com/GTNewHorizons/Battlegear2) | 1.1.1.4-GTNH |
+| [Minecraft Forge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.7.10.html) | 10.13.4.1614 |
+| [Mod Mixins](https://github.com/GTNewHorizons/ModMixins) | 0.0.5 |
+| [Mod Tweaker 2](https://www.curseforge.com/minecraft/mc-mods/modtweaker) | 0.9.6.173 |
+| [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | 2.4.4 |
+| [Natura](https://github.com/GTNewHorizons/Natura) | 2.4.2-dev |
+| [Natures Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) | 1.3.1 |
+| [NEI](https://github.com/GTNewHorizons/NotEnoughItems) | 2.1.6-GTNH |
+| [Nei Addons](https://www.curseforge.com/minecraft/mc-mods/nei-addons) | 1.12.15.41 |
+| [Nei Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.1.2 |
+| [Nodal Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.5-GTNH |
+| [Not Enough Thaumcraft Tabs](https://github.com/GTNewHorizons/NotEnoughThaumcraftTabs) | 1.1.0 |
+| [Open Blocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.6.4-snapshot8 |
+| [Open Computers](https://github.com/GTNewHorizons/OpenComputers) | 1.7.5.12.30 |
+| [Open Modular Turrets](https://www.curseforge.com/minecraft/mc-mods/openmodularturrets) | 2.2.11.245 |
+| [Open Glasses](https://github.com/GTNewHorizons/OCGlasses/) | 1.1- |
+| [Open Printers](https://www.curseforge.com/minecraft/mc-mods/openprinter) | 0.1.0.132 |
+| [Open Security](https://www.curseforge.com/minecraft/mc-mods/opensecurity) | 1.0-117 |
+| [Overloaded Armorbar](https://github.com/GTNewHorizons/OverloadedArmorBar) | 1.0.0 |
+| Pam's Harvestcraft | 1.7.10-lb-1.0.6-GTNH |
+| [Pam's Harvestcraft Nether](https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether) | 1.7.10a |
+| [Project Blue](https://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/ProjectBlue/) | 1.1.6 |
+| [Project Red-All](https://github.com/GTNewHorizons/ProjectRed) | 4.7.0pre14.18 |
+| [Questbook](https://github.com/GTNewHorizons/QuestBook) | 2.1.1 |
+| [Railcraft](https://www.curseforge.com/minecraft/mc-mods/railcraft) | 9.12.2.1 |
+| [Random Things](https://www.curseforge.com/minecraft/mc-mods/random-things) | 2.2.4 |
+| [Realistic World Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | 1.3.2 |
+| [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth) | 3.5.0 |
+| [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.4.2 |
+| [RF Expansion 3.0.29(disabled till an update is](https://github.com/GTNewHorizons/RFExpansion) | online) |
+| [Rogue like Dungeons](https://github.com/GTNewHorizons/Roguelike-Dungeons) | 1.5.1 |
+| [Resource Loader](https://www.curseforge.com/minecraft/mc-mods/resource-loader) | 1.3.0 |
+| [SG Craft](https://github.com/GTNewHorizons/SGCraft) | 1.13.9 |
+| [Sleeping Bag](https://www.curseforge.com/minecraft/mc-mods/bag-o-sleep) | 0.1.1 |
+| [Special Mobs](https://github.com/GTNewHorizons/SpecialMobs) | 3.3.8 |
+| [Spice of Life](https://github.com/GTNewHorizons/SpiceOfLife) | 2.0.0-carot-beta-7 |
+| Standard Expansion | 3.0.185-GTNH |
+| Steve's Carts | 2.0.0.20b |
+| [Steve's Factory Manager](https://github.com/GTNewHorizons/Steve-s-Factory-Manager) | ALPHA97-GTNH |
+| [Steve's Factory Manager Addon](https://github.com/GTNewHorizons/StevesAddons) | 0.10.17 |
+| [Storage Drawers](https://github.com/GTNewHorizons/StorageDrawers) | 1.11.7-gtnh |
+| Storage Drawers Wood Addons | 1.1.2c |
+| [Super Solar Panel](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.2 |
+| [Super Tic](https://github.com/GTNewHorizons/Super-TiC) | 1.2.1 |
+| [Tainted Magic](https://github.com/GTNewHorizons/Tainted-Magic) | r7.6 |
+| [TC Node Tracker](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker) | 1.1.2 |
+| [Tec Tech](https://github.com/GTNewHorizons/TecTech) | 4.10.6 |
+| [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5 |
+| Thaumcraft Mob Aspects | 2B-snapsh17 |
+| [Thaumcraft-NEI-Additions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.1.0.1 |
+| [ThaumcraftNEIPlugins](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin) | 1.7a |
+| [Thaumic Bases](https://github.com/GTNewHorizons/ThaumicBases) | 1.4.25.0 |
+| [Thaumic Energistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.1.3.12 |
+| [Thaumic Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.1.76 |
+| [Thaumic Horizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.2.0.4 |
+| [Thaumic Machina](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic) | 0.2.1 |
+| [Thaumic Tinkerer](https://github.com/GTNewHorizons/ThaumicTinkerer) | 2.5.558-GTNH |
+| [Thaumcraft Tweaks](https://github.com/GTNewHorizons/TC4Tweaks) | 1.3.2 |
+| [TiCTooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.2.5 |
+| [Tinkers' Construct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.9.0.1.Build-11-GTNH |
+| [Tinkers' Gregworks](https://github.com/GTNewHorizons/TinkersGregworks) | 1.0.19-GTNH |
+| Tinkers' Defense | 1.2.1d |
+| [Tinkers' Mechworks](https://github.com/GTNewHorizons/TinkersMechworks) | 0.2.16.2 |
+| [Too Much Loot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.0.3.B2 |
+| [Toro Health](https://github.com/GTNewHorizons/ToroHealth) | 1.0.0 |
+| [Translocator](https://www.curseforge.com/minecraft/mc-mods/translocators) | 1.1.2.16 |
+| [Travellers Gear](https://github.com/GTNewHorizons/TravellersGear) | 1.16.7 |
+| [Twillight Forest](https://github.com/GTNewHorizons/twilightforest) | 2.3.8.7-dev |
+| Ulity Worlds | 1.0.9e |
+| [Universal Singularities Version](https://github.com/GTNewHorizons/Universal-Singularities) | 8.6.3 |
+| [Waila](https://github.com/GTNewHorizons/waila) | 1.5.10 |
+| [Waila Harvestability](https://github.com/GTNewHorizons/WailaHarvestability) | 1.1.7 |
+| [Waila Plugins](https://github.com/GTNewHorizons/WAILAPlugins) | 0.2.3.2-17 |
+| [Wawla](https://github.com/GTNewHorizons/WAWLA) | 1.0.5.120 |
+| [Warp Theory](https://github.com/GTNewHorizons/WarpTheory) | 1.1.1-GTNH |
+| [Wireless Redstone CBE](https://github.com/GTNewHorizons/WirelessRedstone) | 1.4.2-GTNH |
+| [Witchery](https://github.com/GTNewHorizons/Witchery) | 0.24.1 |
+| [Witchery Extras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.1.1 |
+| [Witching Gadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.2.13-GTNH |
+| Ztones | 2.2.2custom |
 
-## Libs and Cores<BR>
-* AsieLib 0.4.9<BR>
-* BdLib 1.9.3.109<BR>
-* Brandon's Core 1.0.0.12<BR>
-* CodeChickenCore 1.07.47<BR>
-* CodeChickenLib 1.1.3.140<BR>
-* CofhCore 3.1.4.329<BR>
-* CofhLib 1.2.1.185<BR>
-* Crop Loader Core 0.1.4<BR>
-* Dummy Core 1.13<BR>
-* Ender Core 0.2.0.39<BR>
-* Forge Multipart 1.2.1.6<BR>
-* InpureCore 1.0.0B9-62<BR>
-* Malisis Core 0.14.3<BR>
-* MicdoodleCore 3.0.13-GTNH<BR>
-* Mantle 0.3.2b<BR>
-* MrTJPCore 1.1.0.33<BR>
-* Open Mods Lib 0.10.1<BR>
-* p455w0rdslib 1.0.4<BR>
-* Player api 1.4<BR>
-* Sponge Mixins 1.3.2<BR>
-* Structure Lib 1.0.7<BR>
-* Wanion Lib 1.8<BR>
-* YamCore 0.5.78<BR>
+## Libs and Cores
+| Name | Version |
+| --- | --- |
+| [AsieLib](https://github.com/Vexatos/AsieLib) | 0.4.9 |
+| [BdLib](https://www.curseforge.com/minecraft/mc-mods/bdlib) | 1.9.3.109 |
+| [Brandon's Core](https://www.curseforge.com/minecraft/mc-mods/brandons-core) | 1.0.0.12 |
+| [CodeChickenCore](https://www.curseforge.com/minecraft/mc-mods/codechickencore) | 1.07.47 |
+| [CodeChickenLib](https://github.com/GTNewHorizons/CodeChickenLib/tree/1.7) | 1.1.3.140 |
+| [CofhCore](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4.329 |
+| [CofhLib](https://www.curseforge.com/minecraft/mc-mods/cofh-lib) | 1.2.1.185 |
+| [Crop Loader Core](https://github.com/GTNewHorizons/CropLoadCore) | 0.1.4 |
+| [Dummy Core](https://www.curseforge.com/minecraft/mc-mods/dummycore) | 1.13 |
+| [Ender Core](https://www.curseforge.com/minecraft/mc-mods/endercore) | 0.2.0.39 |
+| Forge Multipart | 1.2.1.6 |
+| [InpureCore](https://www.curseforge.com/minecraft/mc-mods/inpurecore) | 1.0.0B9-62 |
+| [Malisis Core](https://www.curseforge.com/minecraft/mc-mods/malisiscore) | 0.14.3 |
+| [MicdoodleCore](https://github.com/GTNewHorizons/MicdoodleCore) | 3.0.13-GTNH |
+| [Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle) | 0.3.2b |
+| [MrTJPCore](https://www.curseforge.com/minecraft/mc-mods/mrtjpcore) | 1.1.0.33 |
+| [Open Mods Lib](https://www.curseforge.com/minecraft/mc-mods/openmodslib) | 0.10.1 |
+| [p455w0rdslib](https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library) | 1.0.4 |
+| [Player api](https://www.curseforge.com/minecraft/mc-mods/player-api) | 1.4 |
+| [Sponge Mixins](https://github.com/GTNewHorizons/SpongeMixins) | 1.3.2 |
+| [Structure Lib](https://github.com/GTNewHorizons/StructureLib) | 1.0.7 |
+| [Wanion Lib](https://www.curseforge.com/minecraft/mc-mods/wanionlib) | 1.8 |
+| [YamCore](https://github.com/GTNewHorizons/Yamcl) | 0.5.78 |
 
 ---
 
