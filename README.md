@@ -247,7 +247,7 @@ you find it in your resource folder<BR>
 | [Galaxy Space](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Galaxy-Space/) | 1.1.7c-GTNH |
 | [Gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.0 |
 | [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.1.2 |
-| Gravitation Suite | 2.0.68u |
+| Gravitation Suite (Source hidden ask Namikon)| 2.0.68u |
 | [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.37.02 |
 | [GT Scanner Mod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.6.0 |
 | [GT Ore Nei Plugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.8 |
