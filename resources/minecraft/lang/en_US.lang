@@ -146,7 +146,7 @@ gtnh.quest35.desc=Now that you've found copper and tin, you should make yourself
 
 # Quest.36 - §2§lImportant Tools
 gtnh.quest36.name=§2§lImportant Tools
-gtnh.quest36.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.%n%nYou want to make the non-electric versions of the tools, you can upgrade later. Also, there are many many versions of tools, they generally follow the same rules as tinkers parts, similarily to turbines.
+gtnh.quest36.desc=In order to craft even basic machines, you'll need new tools. Most of them can be replaced by machines later. For now, you should become familiar with each of their recipes, as you will need a lot of these tools, starting today.%n%nYour new tools can also be used to make Railcraft water tanks, a very useful multiblock considering the finite water feature.%n%nThere are also electric versions of the tools, you can upgrade later if you want. Also, there are many versions of the tools, they generally follow the same rules as tinkers parts in terms of how good they are, similarly to turbines. You can look at the spreadsheet for more info on GT tool stats.%n%n§3You can use whatever materials you want. The gem version of the saw is crafted differently to metal versions. Higher tier tools need steel or tungstensteel rods instead of sticks.
 
 # Quest.37 - §2§lGetting Iron
 gtnh.quest37.name=§2§lGetting Iron
@@ -374,7 +374,7 @@ gtnh.quest92.desc=The fourth item you'll need a lot of, and is also a pain to cr
 
 # Quest.93 - §5§lYou're Gonna Hate This #2
 gtnh.quest93.name=§5§lYou're Gonna Hate This #2
-gtnh.quest93.desc=The second item you'll need a lot of. When you want to get fluid out of tanks you'll need one. %n%nAttach it to fluid pipes or GT machines. Adjust the direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine.  When looking at a pipe or machine, you can use the grid to place it on a side already touching another thing. You can use the grid with a screwdriver to adjust a cover on that side as well.%n%nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine. The cover stays with the machine in the same direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.%n%nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.%n%n§3PS: Covers have a Shift-Right-Click interface now!
+gtnh.quest93.desc=The second item you'll need a lot of. When you want to get fluid out of tanks you'll need one. %n%nAttach it to fluid pipes or GT machines/blocks. Adjust the flow direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine. When looking at a pipe or machine, you can use the grid to place it on a side already touching another thing. You can use the grid with a screwdriver to adjust a cover on that side as well.%n%nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine. The cover stays with the machine in the same direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.%n%nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.%n%n§3PS: Covers have a Shift-Right-Click interface now!
 
 # Quest.94 - §5§lElectric Macerator
 gtnh.quest94.name=§5§lElectric Macerator
@@ -390,7 +390,7 @@ gtnh.quest96.desc=Tired of using 4 redstone for 1 magnetic iron rod? Well, good 
 
 # Quest.97 - §5§lAvengers, Assemble!
 gtnh.quest97.name=§5§lAvengers, Assemble!
-gtnh.quest97.desc=An absolute must have for fans of the movie. Oh, and to make all the things, of course. There's a number of recipes that take less materials to make in the assembler, or can only be made with it, so make it ASAP!%n%n§3You can use the battery slot and the other extra slot in the GUI to store unused configuration circuits.
+gtnh.quest97.desc=An absolute must have for fans of the movie. Oh, and to make all the things, of course. There's a number of recipes that take less materials to make in the assembler, or can only be made with it, so make it ASAP!%n%n§3You can use the battery slot and the other extra slot in the GUI to store unused configuration circuits.%n%nIf you've completed the Silverwood quest on the first tab, you can go to the Twilight Forest after making your Assembler. See the Novice Thaumaturgy tab for details.
 
 # Quest.98 - §5§lNo More Filing
 gtnh.quest98.name=§5§lNo More Filing
@@ -650,7 +650,7 @@ gtnh.quest161.desc=When regular magic just isn't enough, you need something... s
 
 # Quest.162 - §9§lDimensional Goal: Moon
 gtnh.quest162.name=§9§lDimensional Goal: Moon
-gtnh.quest162.desc=HV is about getting to the moon so you can get Titanium, used to make EV and AE2 machines. It's a long and involved task though, so head on over to the Space Race tab for more info.%n%n§3You need IV circuits and the HV assembler to start the tab though.
+gtnh.quest162.desc=HV is about getting to the moon so you can get Titanium, used to make EV and AE2 machines. It's a long and involved task though, so head on over to the Space Race tab for more info.%n%n§3You need IV circuits and the HV assembler to start the tab though.%n%n§6If you're doing the no-rocket run, hold a stack of Titanium Ingots to proceed. Same thing for Tungstensteel when you get to EV.
 
 # Quest.163 - §9§lI See Everything
 gtnh.quest163.name=§9§lI See Everything
@@ -862,7 +862,7 @@ gtnh.quest214.desc=The end of the handholding maybe. However! This is just the s
 
 # Quest.215 - §b§lOn Your Way to Asteroids and Other Rocket Tier 3 DIMs
 gtnh.quest215.name=§b§lOn Your Way to Asteroids and Other Rocket Tier 3 DIMs
-gtnh.quest215.desc=This tier is defined as "Asteroids-Dimension" and "8192 EU/t machines". The machines now reached their full potential, and some asteroids may contain precious ores to improve your power generation.%n%n§3You can grab some naquadah on the asteroids if you like.
+gtnh.quest215.desc=There's some good stuff in the asteroids, so you should stop by. Especially for the naquadah.
 
 # Quest.216 - Portable Clean Energy IV
 gtnh.quest216.name=Portable Clean Energy IV
@@ -1890,7 +1890,7 @@ gtnh.quest471.desc=Maybe you noticed already that eating the same food too often
 
 # Quest.472 - §2§lYour First Tool
 gtnh.quest472.name=§2§lYour First Tool
-gtnh.quest472.desc=When your tinkers tables are ready you can craft your first §oreal§r tool. If you didn't find a village yet (to grab some parts from the chest), you can only craft flint tools.%n%nLet's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.%n%nYour new tools are weak at first but the more you use them the better they will get. You get a modifer slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%n§3PS: You need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe.
+gtnh.quest472.desc=When your tinkers tables are ready you can craft your first §oreal§r tool. If you didn't find a village yet (to grab some parts from the chest), you can only craft flint tools.%n%nLet's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.%n%nYour new tools are weak at first, but the more you use them the better they will get. You get a modifer slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough, with 20 modifier slots. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%nYou need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe. Stone->Copper for this pickaxe. If you manage to get a Zombie, Skeleton, or Creeper head, you can use it to skip the level-up process. This doesn't use up a modifier level, but does change the look until you change the pickaxe part out.%n%nItem=Usable when mining level is X or less%nZombie=1%nSkeleton=2%nCreeper=4%nWither Skeleton=7%nNether Star=8
 
 # Quest.473 - §2§lMaking a Better Sword
 gtnh.quest473.name=§2§lMaking a Better Sword
@@ -1898,7 +1898,7 @@ gtnh.quest473.desc=Now it's time to make your first tinkers sword. First you hav
 
 # Quest.474 - §2§k§l§l§r§2§lUpgrade 2.0
 gtnh.quest474.name=§2§k§l§l§r§2§lUpgrade 2.0
-gtnh.quest474.desc=Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe?%n%nI have an idea; bring me some of the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.
+gtnh.quest474.desc=Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe?%n%nI have an idea; bring me some of the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.%n%n§3Remember to level it up again!
 
 # Quest.475 - §6§lHSS-G Coil Upgrade
 gtnh.quest475.name=§6§lHSS-G Coil Upgrade
@@ -2166,7 +2166,7 @@ gtnh.quest540.desc=Combining cobalt brass and diamond dust makes a really sharp 
 
 # Quest.541 - §5§lA New Alloy - Cobalt Brass
 gtnh.quest541.name=§5§lA New Alloy - Cobalt Brass
-gtnh.quest541.desc=If you want to cut diamond blocks into plates, it's time to get a new alloy, Cobalt Brass.%n%nFirst you need to make brass out of zinc (only found in small ores in the Overworld, in Nether Sphalerite, or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (can be centrifuged from various materials) to get the cobalt brass dust.%n%nNow that you've come this far, we think that you're able to look up the ores that you need by yourself with the help of NEI.
+gtnh.quest541.desc=If you want to cut diamond blocks into plates, it's time to get a new alloy, Cobalt Brass.%n%nFirst you need to make brass out of zinc (only found in small ores in the Overworld, in Nether Sphalerite, or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with aluminium and cobalt dust (you can get it as a byproduct of a couple ores, go searching in the nether, or go to the Twilight Forest for Cobaltite) to get the cobalt brass dust.%n%nNow that you've come this far, we think that you're able to look up the ores that you need by yourself with the help of NEI.
 
 # Quest.542 - §5§lElectrically Separating Dusts
 gtnh.quest542.name=§5§lElectrically Separating Dusts
@@ -3794,7 +3794,7 @@ gtnh.quest947.desc=An early game protection moat can be made out of punji sticks
 
 # Quest.948 - §3§lBetter Than Iron
 gtnh.quest948.name=§3§lBetter Than Iron
-gtnh.quest948.desc=Wrought Iron will become more important very soon when you have a bit of steel and are able to build high pressure steam machines. The material is much harder than iron, and you can make better tools with it too.%n%nTo make wrought iron, you need a tinkers smelter to melt some iron ingots down and cast nuggets; put these in a furnace to get wrought iron nuggets. With the compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. Or you can use an alloy smelter to turn iron ingots into nuggets faster than a smeltery. You can also use a saw to cut up iron ingots into nuggets.%n%nLater on, you can use an arc furnace to make wrought iron ingots directly.
+gtnh.quest948.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make wrought iron, you need a tinkers smelter to melt some iron ingots down and cast nuggets; put these in a furnace to get wrought iron nuggets. With the compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. Or you can use an alloy smelter to turn iron ingots into nuggets faster than a smeltery. You can also use a saw to cut up iron ingots into nuggets.%n%nLater on, you can use an arc furnace to make wrought iron ingots directly.%n%n
 
 # Quest.949 - Garden Bags
 gtnh.quest949.name=Garden Bags
@@ -4282,7 +4282,7 @@ gtnh.quest1069.desc=You spawned in a desert and need Oak or Birch saplings? No p
 
 # Quest.1070 - Magic Feather
 gtnh.quest1070.name=Magic Feather
-gtnh.quest1070.desc=In order to understand where you are, and where you §owant§r to be, you'll need a map. This is a magical place, so why not a magical map? The main part is a Magic Map Focus.%n%nFirst go find some Raven feathers. You can get them by killing Ravens. They like to hang out near the obsidian pillars.%n%nThen you need some Torchberries (found underground) and some Glowstone dust.
+gtnh.quest1070.desc=In order to understand where you are, and where you §owant§r to be, you'll need a map. This is a magical place, so why not a magical map? The main part is a Magic Map Focus.%n%nFirst, go find some Raven feathers. You can get them by killing Ravens. They like to hang out near the obsidian pillars.%n%nThen you need some Torchberries (found underground) and some Glowstone dust.
 
 # Quest.1071 - Magic Map
 gtnh.quest1071.name=Magic Map
@@ -4426,7 +4426,7 @@ gtnh.quest1105.desc=The second ritual will not be as easy as the first one. Afte
 
 # Quest.1106 - Blub Blub Blub.....
 gtnh.quest1106.name=Blub Blub Blub.....
-gtnh.quest1106.desc=The brewing stand is really important for brewing the various potions like night vision, healing, haste and jump. Toxic potions or splash potions can be created too. you also need it to make a brewery.%n%nWith your basic wand you can finally create one.%n%nThe recipes can be found on the GTNH page in the Thaumonomicon.
+gtnh.quest1106.desc=The brewing stand is really important for brewing the various potions like night vision, healing, haste and jump. Toxic potions or splash potions can be created too. You'll also need it to make a brewery.%n%nWith your basic wand you can finally create one. The recipes can be found on the GTNH page in the Thaumonomicon.
 
 # Quest.1107 - §4§3§lThe Iron Guy
 gtnh.quest1107.name=§4§3§lThe Iron Guy
@@ -4634,7 +4634,7 @@ gtnh.quest1157.desc=Your wooden soft mallet breaks after a few uses. Now you can
 
 # Quest.1158 - Ironwood
 gtnh.quest1158.name=Ironwood
-gtnh.quest1158.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
+gtnh.quest1158.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot underground, from some roots, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
 
 # Quest.1159 - Steeleaf
 gtnh.quest1159.name=Steeleaf
@@ -4816,8 +4816,8 @@ gtnh.quest1202.desc=To make Oganesson for your Void Miners, you'll need to make 
 gtnh.quest1203.name=Time for Another Reactor
 gtnh.quest1203.desc=While one reactor is nice and all, why not make another? This time you can use the MK3 americium recipe to make it easier. %n%nCosting just 1 ingot of Plutonium, and 2 cells of hydrogen, this recipe is much easier and faster than the MK2 version. By making americium plasma, then putting it through a turbine, you will get americium in the liquid state. You will need at least 132 plates for the controller and the fusion machine casings.%n%nPlus, free power!
 
-# Quest.1204 - §1§lCrafting time
-gtnh.quest1204.name=§1§lCrafting time
+# Quest.1204 - §1§lCrafting Time
+gtnh.quest1204.name=§1§lCrafting Time
 gtnh.quest1204.desc=It's time to get yourself a 3x3 crafting area. Use your flint and some wood, and build one!
 
 # Quest.1205 - §3§lHoppers
@@ -5322,7 +5322,7 @@ gtnh.quest1329.desc=Wireless Connectors are a close range Quantum Network Bridge
 
 # Quest.1330 - Ore Dictionary Output
 gtnh.quest1330.name=Ore Dictionary Output
-gtnh.quest1330.desc=The ME ore dictionary export bus will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item's name [e.g. if you want to export all ores put "ore*"]. The rate of export is very fast.%n%n§3PS: Use §6crushed* & !crushedPurified* & !crushedCentrifuged*§3§3 to get any crushed ore, but not ore that has been washed, then crushed (to get purified) or run through the thermal centrifuge.§r%n%nThe card can be used in more devices, and causes less lag, but works in a similar way. Set the filter using a cell workbench and put it inside a bus or w/e. The bus will be removed at some point, so you should switch over before that.%n%n§3Complete either task.
+gtnh.quest1330.desc=The ME ore dictionary export bus will attempt to push the configured item/fluid [From the same ore dictionary] from the ME network into a machine or other input inventory. To configure an item/liquid, type in the item's name [e.g. if you want to export all ores put "ore*"]. The rate of export is very fast.%n%n§3PS: Use §6crushed* & !crushedPurified* & !crushedCentrifuged*§3§3 to get any crushed ore, but not ore that has been washed, then crushed (to get purified) or run through the thermal centrifuge.§r%n%nThe card can be used in more devices, and causes less lag, but works in a similar way. Put it inside a bus and set the filter using the T looking button that appears. The bus will be removed at some point, so you should switch over before that.%n%n§3Complete either task.
 
 # Quest.1331 - To Link P2P Busses
 gtnh.quest1331.name=To Link P2P Busses
@@ -6002,7 +6002,7 @@ gtnh.quest1499.desc=Wait, what? You want more byproducts from your ores? A cheap
 
 # Quest.1500 - §1§lBetter Questing?
 gtnh.quest1500.name=§1§lBetter Questing?
-gtnh.quest1500.desc=Better Questing has a number of commands, I'll list the useful ones here so ya'll can stop asking on discord. Note that you need to have cheats enabled to use them.%n%nIf your world does not have cheats enabled, there's a workaround: On the ESC screen, open to LAN, then enable cheats. This makes pausing impossible, so consider reloading your world after. If you are using a personal server, you can do the command on the command line, without the /. You can also edit the level.dat file, and set 'allowCommands' to 1. Make sure to make a backup first, and use NBTExplorer or a similar program to do so.%n%n§l/bq_admin edit§r%nTurns on edit mode so you can edit quests, like me. Most people will just use it to §6see all the quests and their requirements§r though. Hover over a quest to see the requirements, and ID, if you've enabled extended tooltips with F3 + H (outside of the QB).%n%n§l/bq_admin reset all <Player>§r%nResets ALL quests. Use this if you want to start over, or are editing the QB. You should define the player as well if it's a server, otherwise you can skip that part.%n%n§l/bq_admin reset <number> <Player>§r%nResets a specific quest, defined by the number. It may be easier to go into edit mode and use the designer tool to specify which to reset in SP though.%n%n§l/bq_admin complete <number> <Player>§r%nCompletes a specific quest, similarly to above. You can still claim the rewards. §6Use this if a quest is broken, and then report it on Github!§r After checking if it's already reported of course.%n%n§l/bq_admin default load§r%nReloads the quest database from the file. Your save has a version of the QB that it stores that can be different from the one in the file. §6Use this command after updating the pack to update the QB!§r%n%n§l/bq_admin default save§r%nSaves changes to the QB after editing it. Make sure to turn creative off first and reset all quests, because it saves both of those.%n%n§l/bq_admin hardcore§r%nEnables BQ3 Hardcore Mode. You only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%n§l/bq_copyquests <PlayerWithQuestsCompleted> <NewPlayer>§r%n§6Syncs quests with another player.§r If someone joins your party and you don't want to help them through all the quests, use this. They do not gain any rewards from the quests!%n%nAbout Party Syncing: Party syncing works, but if you have someone join later, you'll need to help them go through all the quests first. This is mostly annoying in the first two ages, as they're mostly crafting tasks, instead of retrieval you can just have them pick up. You always need to do consume tasks separately though. %n%n§4For quests to save properly, you must be online and logged into your Mojang account when starting the game. Sorry, it's a limitation of Better Questing.§r
+gtnh.quest1500.desc=Better Questing has a number of commands, I'll list the useful ones here so ya'll can stop asking on discord. Note that you need to have cheats enabled to use them.%n%nIf your world does not have cheats enabled, there's a workaround: On the ESC screen, open to LAN, then enable cheats. This makes pausing impossible, so consider reloading your world after. If you are using a personal server, you can do the command on the command line, without the /. You can also edit the level.dat file, and set 'allowCommands' to 1. Make sure to make a backup first, and use NBTExplorer or a similar program to do so.%n%n§l/bq_admin edit§r%nTurns on edit mode so you can edit quests, like me. Most people will just use it to §6see all the quests and their requirements§r though. Hover over a quest to see the requirements, and ID, if you've enabled extended tooltips with F3 + H (outside of the QB).%n%n§l/bq_admin reset all <Player>§r%nResets ALL quests. Use this if you want to start over, or are editing the QB. You should define the player as well if it's a server, otherwise you can skip that part.%n%n§l/bq_admin reset <number> <Player>§r%nResets a specific quest, defined by the number. It may be easier to go into edit mode and use the designer tool to specify which to reset in SP though.%n%n§l/bq_admin complete <number> <Player>§r%nCompletes a specific quest, similarly to above. You can still claim the rewards. §6Use this if a quest is broken, and then report it on Github!§r After checking if it's already reported of course.%n%n§l/bq_admin default load§r%nReloads the quest database from the file. Your save has a version of the QB that it stores that can be different from the one in the file. §6Use this command after updating the pack to update the QB!§r%n%n§l/bq_admin default save§r%nSaves changes to the QB after editing it. Make sure to turn edit mode off first and reset all quests, because it saves both of those.%n%n§l/bq_admin hardcore§r%nEnables BQ3 Hardcore Mode. You only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%n§l/bq_copyquests <PlayerWithQuestsCompleted> <NewPlayer>§r%n§6Syncs quests with another player.§r If someone joins your party and you don't want to help them through all the quests, use this. They do not gain any rewards from the quests!%n%nAbout Party Syncing: Party syncing works, but if you have someone join later, you'll need to help them go through all the quests first. This is mostly annoying in the first two ages, as they're mostly crafting tasks, instead of retrieval you can just have them pick up. You always need to do consume tasks separately though. %n%n§4For quests to save properly, you must be online and logged into your Mojang account when starting the game. Sorry, it's a limitation of Better Questing.§r
 
 # Quest.1501 - §1§lBackup Your Stuff...
 gtnh.quest1501.name=§1§lBackup Your Stuff...
@@ -6170,7 +6170,7 @@ gtnh.quest1541.desc=The cropnalyzer is a powered tool used to analyze IC2 crop s
 
 # Quest.1542 - Crop Automation
 gtnh.quest1542.name=Crop Automation
-gtnh.quest1542.desc=The Crop-Matron is a LV machine that will monitor crops in a 9x9x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery.  A Lithium Ion will last about 2 hours. %n%nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
+gtnh.quest1542.desc=The Crop-Matron is a LV machine that will monitor crops in a 11x11x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery.  A Lithium Ion will last about 2 hours. %n%nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
 
 # Quest.1543 - Weed Ex
 gtnh.quest1543.name=Weed Ex
@@ -6454,7 +6454,7 @@ gtnh.quest1612.desc=EV motors need Neodymium. Rare Earth is an §ook§r source, 
 
 # Quest.1613 - §5§lSource of Nickel
 gtnh.quest1613.name=§5§lSource of Nickel
-gtnh.quest1613.desc=Garnierite, Nickel, Cobaltite, and Pentlandite, sources of Nickel, can be found in the Twilight Forest at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel. For now you want it to make your electric blast furnace.%n%n§3You can find small quantities of Pentlandite ore in the Overworld.
+gtnh.quest1613.desc=Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Garnierite vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.%n%n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.
 
 # Quest.1614 - §6§lChemical Dehydrator
 gtnh.quest1614.name=§6§lChemical Dehydrator
@@ -6786,7 +6786,7 @@ gtnh.quest1695.desc=Mixing 3,3 Dichlorobenzidine with Ammonia and Zinc in an IV 
 
 # Quest.1696 - §b§lChemical Reactions at IV level
 gtnh.quest1696.name=§b§lChemical Reactions at IV level
-gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with two EV or one IV energy hatch.%n%n§3...Which you can make after you finish the platline. Have fun!
+gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternatively you can use your Large Chemical Reactor with two EV or one IV energy hatches.%n%n§3...Which you can make after you finish the platline. Have fun!%n%n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests inbetween.%n%nYou can also skip PBI, but you need to hold 256.
 
 # Quest.1697 - §b§lPolybenzimidazole, Finally!
 gtnh.quest1697.name=§b§lPolybenzimidazole, Finally!
@@ -7376,12 +7376,12 @@ gtnh.quest1842.desc=Creepers can cause the worst problems. %n%nDrowning Creeper 
 gtnh.quest1843.name=§1§lCaught in the Web
 gtnh.quest1843.desc=Spiders to watch for...%n%nWitch spiders reflect missile damage back at you. Look for the red X on their back, and draw your melee weapon and prepare for close combat.%n%nMother spiders will spawn a lot of baby spiders, some of which may be infernal.%n%nA flying spider can grab the oblivious flyer.%n%nGhost spiders are partially invisible and can pass through thin walls.
 
-# Quest.1844 - §1§lPorkchops with attitude
-gtnh.quest1844.name=§1§lPorkchops with attitude
+# Quest.1844 - §1§lPorkchops With Attitude
+gtnh.quest1844.name=§1§lPorkchops With Attitude
 gtnh.quest1844.desc=The only zombie pigman to watch out for is the Vampire Pigman.  He hardly takes any damage unless you use a wooden sword as a stake or have a magical sword.
 
-# Quest.1845 - §1§lFlaming idiots
-gtnh.quest1845.name=§1§lFlaming idiots
+# Quest.1845 - §1§lFlaming Idiots
+gtnh.quest1845.name=§1§lFlaming Idiots
 gtnh.quest1845.desc=Blazes are all infernals, and all nasty. Avoid like the plague. Get awesome weapons, awesome armor, and prepare for a fight. %n%nAlternatively, figure out a way to destroy them with technology.%n%nAlternative to the alternative, figure out another way to get blazepowder and blaze rods.
 
 # Quest.1846 - §5§lFilling the World With Fluids...
@@ -9202,7 +9202,7 @@ gtnh.quest2299.desc=Now, start with dissolving all the PMP into the Aqua Regia. 
 
 # Quest.2300 - §a§lPlatinum Processing, Step 1
 gtnh.quest2300.name=§a§lPlatinum Processing, Step 1
-gtnh.quest2300.desc=Aqua Regia, the water of the Kings, is a chemical that will dissolve Platinum. The perfect solvent for Platinum processing. Get a few Cells of it.
+gtnh.quest2300.desc=Aqua Regia, the water of the Kings, is a chemical that will dissolve Platinum. The perfect solvent for Platinum processing. Get a few Cells of it.%n%n§6Don't wanna do all these cell quests because you already automated it? Hold a stack of any platline dust to skip to the end of that chain.
 
 # Quest.2301 - §a§lPlatinum Processing, Step 2a
 gtnh.quest2301.name=§a§lPlatinum Processing, Step 2a
@@ -11324,9 +11324,9 @@ gtnh.quest2829.desc=Fluid Nukes, Vac Nukes and Wrench Reactors (lol), are more a
 gtnh.quest2830.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lIV Energy Hatch
 gtnh.quest2830.desc=You'll need this to increase the power to your multis and progress.%n%nYou need some Vanadium-Gallium to make HPIC Wafers for it, and an IV Cutting Machine if you haven't made the multi.%n%n§3I hope you had fun with the platline, lol.
 
-# Quest.2831 - Nickel and Cobalt
-gtnh.quest2831.name=Nickel and Cobalt
-gtnh.quest2831.desc=Your Electric Blast Furnace needs lots of nickel. Now that you're reached the TF, it's time to get some. The vein is located at Y 5-30.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. This is probably easier than searching in the Nether for Cobalt.
+# Quest.2831 - Covering Up
+gtnh.quest2831.name=Covering Up
+gtnh.quest2831.desc=This quest goes over all of the covers, just in case you forgot or they weren't mentioned. If they have their own quest, look at it for more info. You can put them on basically any GT block, pipe, machine, tank, etc. Though that doesn't consider whether it will work right or be useful. Shift-Right-Click will open a GUI for many of them. For covers that you can adjust the amount of, clicking the left side with a screwdriver goes down, and right goes up. All covers block rain on the side they're attached to. Generally you can adjust covers with a screwdriver, whether they have a GUI or not. You can remove them with a crowbar if you forgot.%n%n§9§lFluid-Related Covers:§r%nPump: Transfers fluids at the speed specified on the tooltip.%n%nFluid Regulator: Regulates the rate that fluid can go through it, as well as pumping it. Can work x/s or x/t.%n%nSteam Valve: Moves more, but is only for steam. Only goes to IV. Does not work on SH steam.%n%nOverflow: GT++, will be removed soon? Voids anything over the specified amount in the tank.%n%nFluid Detector: Will emit RS based on fluid fill rate of the tank it's on. By default, empty=15, full=0. Use inverted mode to swap. Useful on tanks and hatches.%n%nEnder Fluid Link: Cover version of ender tanks to TP fluid around. Doesn't connect to ender tanks though.%n%nDrain Module: Protects from rain on that side, and will fill the tank with water from rain if it can. Useless.%n%nFluid Filter: Filters fluid going through it. Click with a cell to set it.%n%nShutter: Blocks items/fluids when active. Use it with a machine controller and RS. Does not visually disconnect/block. You place it between the pipes, and put the MC on the same pipe.%n%n§2§lItem-Related Covers:§r%nConveyor: Sends items. Use an item pipe in import mode or on a GT block/machine.%n%nRobot Arm: Sends from a specific slot in the machine it's on (internal) to another specific slot in a block next to it (adjacent). Keep going through numbers until you get it right, it seems to change per machine. If the output slot is full, it won't output. There need to be a valid block with slots to send to or the settings won't save.%n%nItem Detector: Will emit RS based on item fill rate of the block it's on. By default, empty=0, full=15. Detects by filled slots, so doesn't work right with the super/quantum chests. Probably better for busses.%n%nItem Filter: WIP PR.%n%n§6§lEU-Related Covers:§r%nEnergy Detector: Will emit RS based on EU fill rate of the batbuff/tank it's on. By default, empty=0, full=15. Make sure to set it to include batteries. Can also detect steam for some reason.%n%nPower Pass Upgrade: Read the tooltip, then ask Bart how it works, he didn't bother telling anyone. He'll probably just tell you the code is the best documentation, just like the Tectech guys. May not actually be finished/work, either.%n%nTesla Coil/Tesla Coil Rich Edition: Use with the tesla tower to send EU wirelessly or something. %n%n§d§lOther Covers:§r%nPlayer Detector: Detects players. About 10 block range. §4Currently owner/other is inverted on non-pipes due to some bug or another.§r%n%nActivity Detector: Detects either recipe progress or idleness. 0%=0 RS, ~95%=14 by default. In idle mode, idleness is 15, and is 0 when running by default.%n%nMachine Controller: Turns machine on/off based on RS. Disable machine will keep it off regardless of RS state. Safe Mode only works on MBs. If a MB runs out of power, it will normally turn off, but a MC will turn it back on, continuing to void stuff. This will set it to the disable machine state instead. You will also get a notification. §4Safe mode is currently broken?§r%n%nNeeds Maintenance: Emits RS if it meets the condition specified. Rotor=turbine?%n%nRedstone Transmitter/Receiver (In/Out): OK, these things are confusing, so listen closely. First, set a frequency, either by using the GUI, or using the original way: right clicking it with an item. Empty hand = 0, other items = their item ID. Be careful not to reset it to 0 by accident. Honestly, just use the GUI. You can set it to private or not, it's the same kind of thing as EnderStorage, so you don't blare RS across the server. Channel state = RS level.%n%nRT(O) sets the channel state based on the redstone level sent from outside to the specific side. You can TP a RS from this to the RR(O).%nRT(I) sets the channel state based on redstone level that would be emitted from the machine itself. §4Always sends 15, so it's useless.§r%nRR(O) outputs redstone level based on channel state. You can TP RS from the RT(O) to here.%nRR(I) controls whether a machine can work based on channel state, just like a machine controller cover does. If it has 0 RS, it stays off. At least 1, and it turns on. You send the signal from elsewhere with the RT(O).%nRR(I) can also be used in conjunction with other covers whose states talk about conditional.%n%nIC2 Heat vents: Speeds up machines a tiny amount? Someone look through the code and tell me what it means. Also looks neat.%n%nCrafting Table: Adds a crafting table to the block you can use. Useless.%n%nPlanks/Plates/Foils: Blocks I/O on that side. Use a screwdriver to set allowed types of stuff through. Blocks everything by default. Set the output to another side first to avoid changing its settings too. You'll probably 'use' this by accident at least once.%n%nComputer Monitor: Adds a visual look. Useless, but sorta fancy.%n%nLens: Visual only. Useless.
 
 # Quest.2832 - Time to Kill (Bighorn Sheep)
 gtnh.quest2832.name=Time to Kill (Bighorn Sheep)
@@ -11603,6 +11603,42 @@ gtnh.quest2899.desc=Maybe you were lucky and found some Flippers in a loot chest
 # Quest.2900 - Trigger Flippers
 gtnh.quest2900.name=Trigger Flippers
 gtnh.quest2900.desc=
+
+# Quest.2901 - Trigger:Titanium Moon Skip
+gtnh.quest2901.name=Trigger:Titanium Moon Skip
+gtnh.quest2901.desc=No Description
+
+# Quest.2902 - Trigger:Platline Platinum Skip
+gtnh.quest2902.name=Trigger:Platline Platinum Skip
+gtnh.quest2902.desc=No Description
+
+# Quest.2903 - Trigger:PBI Skip
+gtnh.quest2903.name=Trigger:PBI Skip
+gtnh.quest2903.desc=No Description
+
+# Quest.2904 - Trigger:Platline Palladium Skip
+gtnh.quest2904.name=Trigger:Platline Palladium Skip
+gtnh.quest2904.desc=No Description
+
+# Quest.2905 - Trigger:Platline Rhodium Skip
+gtnh.quest2905.name=Trigger:Platline Rhodium Skip
+gtnh.quest2905.desc=No Description
+
+# Quest.2906 - Trigger:Platline Ruthenium Skip
+gtnh.quest2906.name=Trigger:Platline Ruthenium Skip
+gtnh.quest2906.desc=No Description
+
+# Quest.2907 - Trigger:Platline Iridium Skip
+gtnh.quest2907.name=Trigger:Platline Iridium Skip
+gtnh.quest2907.desc=No Description
+
+# Quest.2908 - Trigger:Platline Osmium Skip
+gtnh.quest2908.name=Trigger:Platline Osmium Skip
+gtnh.quest2908.desc=No Description
+
+# Quest.2909 - Trigger:Tungstensteel Mars Skip
+gtnh.quest2909.name=Trigger:Tungstensteel Mars Skip
+gtnh.quest2909.desc=No Description
 
 ##################################Line##################################
 
