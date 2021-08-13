@@ -1768,3 +1768,9 @@ for GT_Dye, oreDye in {
 } as IIngredient[IItemStack] {
   recipes.addShapeless(GT_Dye, [oreDye]);
 }
+
+// blueprint conversion
+recipes.addShapeless(<structurelib:structurelib.constructableTrigger>, [<tectech:em.constructable>])
+recipes.addShapeless(<tectech:em.constructable>, [<structurelib:structurelib.constructableTrigger>])
+
+
