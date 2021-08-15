@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <HazardousItemList>
-	    <Item ItemName="minecraft:lava_bucket" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="1"/>
+    <Item ItemName="minecraft:lava_bucket" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
+        <DamageEffect Source="gregtech:hot" Amount="1"/>
     </Item>
-		<Fluid FluidName="lava" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="1"/>
+    <Fluid FluidName="lava" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
+        <DamageEffect Source="gregtech:hot" Amount="1"/>
     </Fluid>
     <Item ItemName="Forestry:canLava" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="1"/>
+        <DamageEffect Source="gregtech:hot" Amount="1"/>
     </Item>
     <Item ItemName="Forestry:refractoryLava" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="1"/>
+        <DamageEffect Source="gregtech:hot" Amount="1"/>
     </Item>
     <Item ItemName="IguanaTweaksTConstruct:clayBucketLava" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="1"/>
+        <DamageEffect Source="gregtech:hot" Amount="1"/>
     </Item>
     <Item ItemName="dreamcraft:item.BedrockiumPlate" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <PotionEffect PotionID="2" TickDuration="200" Level="4"/>
     </Item>
     <Item ItemName="MagicBees:capsule.magic:2" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="1"/>
+        <DamageEffect Source="gregtech:hot" Amount="1"/>
     </Item>
-		<Item ItemName="dreamcraft:item.GlowingMarshmallow" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-        <DamageEffect Source="inFire" Amount="1"/>
-		<PotionEffect PotionID="25" TickDuration="100" Level="1"/>
+    <Item ItemName="dreamcraft:item.GlowingMarshmallow" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+        <DamageEffect Source="gregtech:hot" Amount="1"/>
+        <PotionEffect PotionID="25" TickDuration="100" Level="1"/>
     </Item>
-	<Item ItemName="dreamcraft:item.MalformedSlush" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+    <Item ItemName="dreamcraft:item.MalformedSlush" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <PotionEffect PotionID="15" TickDuration="200" Level="1"/>
     </Item>
-	<Item ItemName="dreamcraft:item.UncookedSlush" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+    <Item ItemName="dreamcraft:item.UncookedSlush" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
         <PotionEffect PotionID="15" TickDuration="200" Level="1"/>
-		<PotionEffect PotionID="17" TickDuration="600" Level="1"/>
+        <PotionEffect PotionID="17" TickDuration="600" Level="1"/>
     </Item>
-	<Item ItemName="dreamcraft:item.Marshmallow" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-		<PotionEffect PotionID="18" TickDuration="600" Level="1"/>
-		<PotionEffect PotionID="9" TickDuration="200" Level="1"/>
+    <Item ItemName="dreamcraft:item.Marshmallow" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+        <PotionEffect PotionID="18" TickDuration="600" Level="1"/>
+        <PotionEffect PotionID="9" TickDuration="200" Level="1"/>
     </Item>
-	<Item ItemName="dreamcraft:dreamcraft_Pollution_bucket" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
-		<PotionEffect PotionID="18" TickDuration="600" Level="1"/>
-		<PotionEffect PotionID="9" TickDuration="600" Level="1"/>
-		<PotionEffect PotionID="19" TickDuration="600" Level="1"/>
-		<PotionEffect PotionID="17" TickDuration="600" Level="1"/>
+    <Item ItemName="dreamcraft:dreamcraft_Pollution_bucket" ExactNameMatch="true" OnContactCheck="false" InventoryCheck="true">
+        <PotionEffect PotionID="18" TickDuration="600" Level="1"/>
+        <PotionEffect PotionID="9" TickDuration="600" Level="1"/>
+        <PotionEffect PotionID="19" TickDuration="600" Level="1"/>
+        <PotionEffect PotionID="17" TickDuration="600" Level="1"/>
     </Item>
-		<Fluid FluidName="pollution" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
-		<PotionEffect PotionID="18" TickDuration="600" Level="1"/>
-		<PotionEffect PotionID="9" TickDuration="600" Level="1"/>
-		<PotionEffect PotionID="19" TickDuration="600" Level="1"/>
-		<PotionEffect PotionID="17" TickDuration="600" Level="1"/>
+    <Fluid FluidName="pollution" ExactNameMatch="true" OnContactCheck="true" InventoryCheck="true">
+        <PotionEffect PotionID="18" TickDuration="600" Level="1"/>
+        <PotionEffect PotionID="9" TickDuration="600" Level="1"/>
+        <PotionEffect PotionID="19" TickDuration="600" Level="1"/>
+        <PotionEffect PotionID="17" TickDuration="600" Level="1"/>
     </Fluid>
 </HazardousItemList>
