@@ -1,0 +1,48 @@
+name: Request Unofficial Server Inclusion
+description: Request to include your server in the server.dat that ship with the pack
+body:
+- type: input
+  id: ip
+  attributes:
+    label: IP
+    description: The endpoint where your server is accessible.
+    placeholder: "Example: playeta.gtnewhorizons.com:25565"
+  validations:
+    required: true
+- type: input
+  id: whitelist
+  attributes:
+    label: Whitelist status
+    description: Whether your server has an whitelist, and if yes, where to apply.
+    placeholder: "Example: https://gtnh.miraheze.org/wiki/Server_Information"
+  validations:
+    required: true
+- type: input
+  id: name
+  attributes:
+    label: Server name
+    placeholder: "Example: Official Server Eta"
+  validations:
+    required: true
+- type: input
+  id: language
+  attributes:
+    label: Primary language(s)
+    description: You expect players to communicate in one of these languages
+    placeholder: "Example: English"
+  validations:
+    required: true
+- type: input
+  id: region
+  attributes:
+    label: Region(s) of service
+    description: The location of your server. Players won't want to choose a server with 500ms+ ping.
+    placeholder: "Example: EU/US/Germany"
+  validations:
+    required: true
+- type: input
+  id: info
+  attributes:
+    label: Additional info
+    description: Additional info you want to display. Note if you type too much here it might not fit into the in game window.
+    placeholder: "Example: Be a nice person."

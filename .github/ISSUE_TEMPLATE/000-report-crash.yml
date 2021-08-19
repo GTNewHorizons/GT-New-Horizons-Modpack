@@ -1,0 +1,74 @@
+name: Report Crash
+description: "Report a bug that abruptly end a game session or prevent the start of the game."
+labels:
+- "Type: Crash"
+- "Status: Triage"
+body:
+- type: markdown
+  attributes:
+    value: 'Examples of this category includes: crash to desktop, game window suddenly goes away while playing normally, uncommanded computer shutdown. ~~Please blame your local power grid if your neighbor''s computer also shutdown due to power outage.~~
+
+    Please note if you merely want a change, e.g. think something is too OP, you should use the Suggest a Change template instead.'
+- type: input
+  id: discord
+  attributes:
+    label: Your GTNH Discord Username
+    description: Leave empty if you do not have one, but this will make it harder to contact you if we need additional info. 
+    placeholder: "Example: Fake#1234"
+- type: input
+  id: version
+  attributes:
+    label: Your Pack Version
+    description: What version of the pack are you playing? If you are using an ancient version maybe first try updating the pack. We usually fix hundreds of issues per release, so there is a good chance your problem have been fixed already in latest.
+    placeholder: "Example: 2.1.1.0"
+  validations:
+    required: true
+- type: input
+  id: server
+  attributes:
+    label: Your Server
+    description: On which server does this happen? Type SP if you are not playing on a dedicated server.
+    placeholder: "Example: Eta, ProsperCraft, private server, SP"
+  validations:
+    required: true
+- type: dropdown
+  id: thermos
+  attributes:
+    label: Type of Server
+    description: The brand of your server.
+    options:
+    - Single Player
+    - Single Player Open to LAN
+    - Vanilla Forge
+    - Cruicible
+    - Thermos
+    - Other MCPC+ fork
+    - "Don't know"
+- type: textarea
+  id: reproduce
+  attributes:
+    label: Your actions
+    description: What did you try to do before the crash?. Attach screenshots if needed.
+    placeholder: "Example: Trying to craft Foo. Expect to consume 1 Bar and get 1 Foo."
+  validations:
+    required: true
+- type: textarea
+  id: report
+  attributes:
+    label: Crash report
+    description: "If no crash report is created, attach `logs/fml-client-latest.log` or `logs/fml-server-latest.log`, depending on if it's a dedicated server crash or a client crash. You can also type in additional info that you consider important"
+    placeholder: "Example: pastebin/something OR submit the file to github by dragging it to this textbox."
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final checklist
+    description: Please mark them so we can better handle this report
+    options:
+      - label: "I have searched this issue tracker and there is nothing similar already. (Post on the closed issue saying the crash still exists will prompt us to investigate and reopen it once we confirm your report)"
+        required: true
+      - label: "I can reproduce this crash consistently by follow the exact steps I described above."
+        required: false
+      - label: "I have asked other people and they confirm they also crash by follow the exact steps I described above."
+        required: false

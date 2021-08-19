@@ -1,0 +1,65 @@
+name: 'Request New Feature'
+description: Request a new feature
+labels: 
+- "Type: suggestion"
+- "Status: Triage"
+body:
+- type: markdown
+  attributes:
+    value: 'Examples of this category includes: add void miner, add naquadah processing line.
+    
+    Please note if you want to change an existing feature, e.g. think something is too OP, you should use the Suggest a Change template instead.'
+- type: input
+  id: discord
+  attributes:
+    label: Your GTNH Discord Username
+    description: What is your GTNH Discord username? We might need to contact you in person if we need additional info
+    placeholder: "Example: Fake#1234"
+- type: input
+  id: version
+  attributes:
+    label: Your Pack Version
+    description: What version of the pack are you playing?
+    placeholder: "Example: 2.1.1.0"
+  validations:
+    required: true
+- type: textarea
+  id: proposal
+  attributes:
+    label: Your Proposal
+    description: What do you propose? Please describe it briefly in one or two sentence.
+    placeholder: "Example: add mega PA"
+  validations:
+    required: true
+- type: textarea
+  id: goal
+  attributes:
+    label: Your Goal
+    description: Why is this feature needed?
+    placeholder: "Example: PA are too small for my taste"
+  validations:
+    required: true
+- type: textarea
+  id: vision
+  attributes:
+    label: Your Vision
+    description: How do you vision this would improve the pack?
+    placeholder: "Example: mega PA would make everyone's base a nicer place and improve overall quality of game experience"
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final checklist
+    description: Please mark them so we know you are serious with your suggestion
+    options:
+      - label: "I have searched this issue tracker and there is nothing similar already. (Post on the closed issue saying *I like this feature please reconsider adding it* still exists will prompt us to investigate and reopen it once we confirm your report)"
+        required: true
+      - label: "I believe there is nothing similar in the pack already, or the existing solution isn't good enough."
+        required: true
+      - label: "I understand this change request may not attract enough attention and thus not be implemented."
+        required: true
+      - label: "I understand this change request may be rejected due to other community members think it's inappropriate."
+        required: true
+      - label: "I believe this feature would make the pack better."
+        required: true
