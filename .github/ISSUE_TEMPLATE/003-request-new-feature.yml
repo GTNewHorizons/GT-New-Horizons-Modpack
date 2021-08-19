@@ -1,25 +1,25 @@
 name: 'Request New Feature'
-description: Request a new feature
+description: Request a new feature.
 labels: 
 - "Type: suggestion"
 - "Status: Triage"
 body:
 - type: markdown
   attributes:
-    value: 'Examples of this category includes: add void miner, add naquadah processing line.
+    value: 'Examples of this category include: add void miners, add a naquadah processing line.
     
-    Please note if you want to change an existing feature, e.g. think something is too OP, you should use the Suggest a Change template instead.'
+    Please note that if you want to change an existing feature, e.g. think something is too OP, you should use the Suggest a Change template instead.'
 - type: input
   id: discord
   attributes:
     label: Your GTNH Discord Username
-    description: What is your GTNH Discord username? We might need to contact you in person if we need additional info
+    description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info.
     placeholder: "Example: Fake#1234"
 - type: input
   id: version
   attributes:
     label: Your Pack Version
-    description: What version of the pack are you playing?
+    description: What version of the pack are you playing? If you're using an ancient version maybe first try updating the pack. We add new features all the time, so your feature may already be in the latest version. There are also usually Dev releases inbetween Official releases that may not show up on other platforms.
     placeholder: "Example: 2.1.1.0"
   validations:
     required: true
@@ -28,7 +28,7 @@ body:
   attributes:
     label: Your Proposal
     description: What do you propose? Please describe it briefly in one or two sentence.
-    placeholder: "Example: add mega PA"
+    placeholder: "Example: Add a mega PA."
   validations:
     required: true
 - type: textarea
@@ -36,30 +36,30 @@ body:
   attributes:
     label: Your Goal
     description: Why is this feature needed?
-    placeholder: "Example: PA are too small for my taste"
+    placeholder: "Example: PAs are too small for my tastes."
   validations:
     required: true
 - type: textarea
   id: vision
   attributes:
     label: Your Vision
-    description: How do you vision this would improve the pack?
-    placeholder: "Example: mega PA would make everyone's base a nicer place and improve overall quality of game experience"
+    description: How do you think your vision would improve the pack?
+    placeholder: "Example: A mega PA would make everyone's base a nicer place and improve the overall quality of game experience."
   validations:
     required: true
 - type: checkboxes
   id: final
   attributes:
-    label: Final checklist
-    description: Please mark them so we know you are serious with your suggestion
+    label: Final Checklist
+    description: Please mark them so we know you are serious with your suggestion.
     options:
-      - label: "I have searched this issue tracker and there is nothing similar already. (Post on the closed issue saying *I like this feature please reconsider adding it* still exists will prompt us to investigate and reopen it once we confirm your report)"
+      - label: "I have searched this issue tracker and there is nothing similar already. Posting on a closed issue saying *I like this feature please reconsider adding it* will prompt us to investigate and reopen it once we confirm your report."
         required: true
       - label: "I believe there is nothing similar in the pack already, or the existing solution isn't good enough."
         required: true
       - label: "I understand this change request may not attract enough attention and thus not be implemented."
         required: true
-      - label: "I understand this change request may be rejected due to other community members think it's inappropriate."
+      - label: "I understand this change request may be rejected due to other community members thinking it's inappropriate."
         required: true
       - label: "I believe this feature would make the pack better."
         required: true

@@ -1,5 +1,5 @@
-name: Create a reminder
-description: Create a reminder for developer(s)
+name: Create a Reminder
+description: Create a reminder for developer(s).
 labels:
 - "Status: Triage"
 body:
@@ -26,7 +26,7 @@ body:
   id: request
   attributes:
     label: Original Request
-    description: What did you requested?
+    description: What did you request?
     placeholder: "Example: Struggling with power generation."
   validations:
     required: true
@@ -49,22 +49,22 @@ body:
 - type: textarea
   id: promise
   attributes:
-    label: Developer's promise
-    description: What did the developer promised? Please rephrase it in your own language so we know your expectation matches the developers promise.
-    placeholder: "Example: glease promised to add a new power generation option based on magic"
+    label: Developer's Promise
+    description: What did the developer promise? Please rephrase it in your own language so we know your expectation matches what the developer promised.
+    placeholder: "Example: glease promised to add a new power generation option based on magic."
   validations:
     required: true
 - type: checkboxes
   id: final
   attributes:
-    label: Final checklist
-    description: Please mark them so we know you are aware of some common misconception.
+    label: Final Checklist
+    description: Please mark them so we know you are aware of some common misconceptions.
     options:
       - label: "The developer in question has instructed me to create such an issue."
         required: true
       - label: "I believe the developer is not causally joking around."
         required: true
-      - label: "I understand this reminder might take a long time to implement no matter what the developer has promised. (e.g. unforeseeable life difficulty, computer breaks, hard drive corruption)"
+      - label: "I understand this reminder might take a long time to implement no matter what the developer has promised. (e.g. unforeseeable life difficulty, computer breakdowns, forgetting, laziness, etc)"
         required: true
       - label: "I understand other people (developers or not) might not like this feature and would oppose its integration."
         required: true
