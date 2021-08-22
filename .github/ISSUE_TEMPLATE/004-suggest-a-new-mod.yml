@@ -2,7 +2,7 @@ name: Suggest a New Mod
 description: Suggest the addition of a new mod.
 labels:
 - "Status: Triage"
-- "Type: additional mods"
+- "Type: Mod Addition"
 body:
 - type: input
   id: discord
