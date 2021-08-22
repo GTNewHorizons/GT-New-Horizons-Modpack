@@ -1,0 +1,64 @@
+name: Suggest a Change
+description: Suggest a change to an existing feature.
+labels:
+- "Status: Triage"
+- "Type: suggestion"
+body:
+- type: markdown
+  attributes:
+    value: 'Examples of this category include: The One Ring is too OP, remove all small pile of dusts.
+
+    Please note that if you found something game breaking, e.g. a dupe exploit, something voiding your items, or you can''t do something that you think you should be able to do, you should use the Report Bug template instead.'
+- type: input
+  id: discord
+  attributes:
+    label: Your GTNH Discord Username
+    description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info.
+    placeholder: "Example: Fake#1234"
+- type: input
+  id: version
+  attributes:
+    label: Your Pack Version
+    description: What version of the pack are you playing? If you're using an ancient version maybe first try updating the pack. There are usually numerous changes per release, so there is a reasonable chance your idea might have already been implemented already in the latest version. There are also usually Dev releases inbetween Official releases that may not show up on other platforms.
+    placeholder: "Example: 2.1.1.0"
+  validations:
+    required: true
+- type: textarea
+  id: proposal
+  attributes:
+    label: Your Proposal
+    description: What do you propose? Please describe it briefly in one or two sentences.
+    placeholder: "Example: Void miner should require stargate crystals to craft."
+  validations:
+    required: true
+- type: textarea
+  id: goal
+  attributes:
+    label: Your Goal
+    description: Why is this feature needed?
+    placeholder: "Example: Void miners are too OP."
+  validations:
+    required: true
+- type: textarea
+  id: vision
+  attributes:
+    label: Your Vision
+    description: How do you think your vision would improve the pack?
+    placeholder: "Example: Void miner would be made less OP and help people enjoy the pack."
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final Checklist
+    description: Please mark them so we know you are serious with your suggestions.
+    options:
+      - label: "I have searched this issue tracker and there is nothing similar already. Posting on a closed issue saying *I like this change please reconsider adding it* will prompt us to investigate and reopen it once we confirm your report."
+        required: true
+      - label: "I understand this change request may not attract enough attention and thus not be implemented."
+        required: true
+      - label: "I understand this change request may be rejected due to other community members think it's inappropriate."
+        required: true
+      - label: "I believe this feature would make the pack better."
+        required: true
+        

@@ -1,0 +1,76 @@
+name: Suggest a New Mod
+description: Suggest the addition of a new mod.
+labels:
+- "Status: Triage"
+- "Type: additional mods"
+body:
+- type: input
+  id: discord
+  attributes:
+    label: Your GTNH Discord Username
+    description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info.
+    placeholder: "Example: Fake#1234"
+- type: input
+  id: version
+  attributes:
+    label: Your Pack Version
+    description: What version of the pack are you playing?
+    placeholder: "Example: 2.1.1.0"
+  validations:
+    required: true
+- type: input
+  id: proposal
+  attributes:
+    label: Mod Name
+    description: What mod do you propose to add?
+    placeholder: "Example: GigaGramFab"
+  validations:
+    required: true
+- type: textarea
+  id: features
+  attributes:
+    label: The Mod to Add
+    description: What is the main feature of this mod?
+    placeholder: "Example: More processing lines. More ores. More dimensions."
+  validations:
+    required: true
+- type: textarea
+  id: reason
+  attributes:
+    label: Your Reason
+    description: Why is this mod needed?
+    placeholder: "Example: Enrich the exploration experience of the pack!"
+  validations:
+    required: true
+- type: textarea
+  id: test
+  attributes:
+    label: Preliminary Investigation
+    description: Have you tried adding this mod to the pack? What happened? What do you think need tweaking?
+    placeholder: >
+      Example: 
+      The recipe needs to be gregified. 
+      There are no hard conflicts like crashing. 
+      X system works poorly when used with Y feature from an existing mod.
+      The magic side of the pack integrates with the tech progression better.
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final Checklist
+    description: Please mark them so we know you are serious with your suggestion
+    options:
+      - label: "This mod is released under an open source license. Yes, this is required now."
+        required: true
+      - label: "I have searched this issue tracker and there is nothing similar already. Posting on a closed issue saying *I like this mod, please reconsider adding it* will prompt us to investigate and reopen it once we confirm your report." 
+        required: true
+      - label: "I believe there is nothing similar in the pack already, or the existing solution isn't good enough."
+        required: true
+      - label: "I understand this change request may not attract enough attention and thus not be implemented."
+        required: true
+      - label: "I understand this change request may be rejected due to other community members thinking it's inappropriate."
+        required: true
+      - label: "I believe this feature would make the pack better."
+        required: true
+      - label: "I'm the official maintainer or original author of this mod for minecraft 1.7.10."
