@@ -210,7 +210,7 @@ gtnh.quest51.desc=As you'll need rubber later to make cables from wires, you sho
 
 # Quest.52 - §3§4§3§lA Clear View
 gtnh.quest52.name=§3§4§3§lA Clear View
-gtnh.quest52.desc=Are you still living in your dirt/cobble hut? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.%n%n§4Hint: In order to use it for recipes, you have to chisel it.
+gtnh.quest52.desc=Are you still living in your dirt/cobble hut? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.%n%n§4Hint: In order to use it for recipes, you have to chisel it.%n%n§3PS: The macerator no longer gives tiny piles, just uncraft a normal pile to get tiny ones. You'll appreciate this once you have a mixer in LV.
 
 # Quest.53 - §3§lHammer time v2
 gtnh.quest53.name=§3§lHammer time v2
@@ -734,7 +734,7 @@ gtnh.quest182.desc=Crafting can be a pain. So why not automate it? These can hol
 
 # Quest.183 - Getting Your First Processors
 gtnh.quest183.name=Getting Your First Processors
-gtnh.quest183.desc=There are 3 different ways to make AE2 processors. First, there's the AE2 Inscribers, which are slow, hold one of each item at a time, require inputs (and output) from specific directions, but can be sped up with cards. Second, there's the Advanced Inscribers, which are similar, but allow stacking, and do not require specific dirctions. Lastly, there's GT Assemblers (and later the multiblock) which can be very fast, but require a fluid input, and consume more power. Get 8 of each one for now.
+gtnh.quest183.desc=There are 3 different ways to make AE2 processors. First, there's the AE2 Inscribers, which are slow, hold one of each item at a time, require inputs (and output) from specific directions, but can be sped up with cards. Second, there's the Advanced Inscribers, which are similar, but allow stacking, and do not require specific directions. Lastly, there's GT Assemblers (and later the multiblock) which can be very fast, but require a fluid input, and consume more power. Get 8 of each one for now.
 
 # Quest.184 - Cables
 gtnh.quest184.name=Cables
@@ -1104,8 +1104,8 @@ gtnh.quest274.desc=This stuff is interesting... Maybe I can use it as a wand con
 gtnh.quest275.name=Centi-vis
 gtnh.quest275.desc=Many advanced machines require vis in order to do what they're supposed to. But using a wand as some sort of battery to transfer vis from a node to your machine didn't work as expected. What if you could rip open a portal to another dimension and siphon power out of it using a node? Nothing could §opossibly§r go wrong with that, right?
 
-# Quest.276 - Bring it home
-gtnh.quest276.name=Bring it home
+# Quest.276 - Bring it Home
+gtnh.quest276.name=Bring it Home
 gtnh.quest276.desc=You probably have a nice collection of bookmarked nodes. But running around to recharge your wand(s) isn't really the way an adept thaumaturge should get his required vis. Moving nodes is not that hard, but without doubt, you need something to protect them from each other.
 
 # Quest.277 - Automated Wand Recharging
@@ -1720,8 +1720,8 @@ gtnh.quest428.desc=Now that you have access to elemental chalk, you can get your
 gtnh.quest429.name=Powerful Armor
 gtnh.quest429.desc=A long way to go, and rather expensive, but a really powerful armor and well worth the effort.
 
-# Quest.430 - Getting soul shards
-gtnh.quest430.name=Getting soul shards
+# Quest.430 - Getting Soul Shards
+gtnh.quest430.name=Getting Soul Shards
 gtnh.quest430.desc=Enable your sword by Shift right-clicking and slay some enemies! Collect as many shards as possible. You will need a ton of them...
 
 # Quest.431 - Bound Armor
@@ -1934,7 +1934,7 @@ gtnh.quest482.desc=Trying to get some leather or wool? You'd probably need to sp
 
 # Quest.483 - §2§lGardener
 gtnh.quest483.name=§2§lGardener
-gtnh.quest483.desc=If you were wondering: Why do I never get seeds when destroying grass? Becuase. Use your new mattock on the grass blocks that do not have water anywhere nearby to find some seeds.
+gtnh.quest483.desc=If you were wondering: Why do I never get seeds when destroying grass? Because. Use your new mattock on the grass blocks that do not have water anywhere nearby to find some seeds.
 
 # Quest.484 - §1§lCan You Hear the Carrots Grow?
 gtnh.quest484.name=§1§lCan You Hear the Carrots Grow?
@@ -2330,7 +2330,7 @@ gtnh.quest581.desc=Before you can craft your first farm block you need apatite t
 
 # Quest.582 - The Multifarm
 gtnh.quest582.name=The Multifarm
-gtnh.quest582.desc=The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). Place the underlying blocks corresponding to the farm type you built. In this case, Stone Bricks. It will search above these blocks for crops, saplings, dirt, farmland, whatever it supports. You can place these blocks beside or under the multi structure, but not above.%n%nYou can use Orchard mode to collect Pam foods and Natura products, Arboretum for trees, and so on. You can even mix and match modes on the same farm - logging and collecting fruit from trees, for example. So long as they're on different sides, at least.
+gtnh.quest582.desc=The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). Place the underlying blocks corresponding to the farm type you built. In this case, Stone Bricks. You can place these blocks beside or under the multi structure, but not the layer above. It will search 6 blocks above these for dirt/farmland/sand/soul sand/humus depending on farm type, with the appropriate crops, saplings, etc on top of that. %n%nYou can use different modes to collect different crops. Arboretum for trees, infernal for nether wart and so on. You can even mix and match modes on the same farm - cutting trees down for wood in part, and collecting fruit from trees without destroying it in another, for example. So long as they're on different sides, at least.%n%n§YYou may need to experiment a bit to see what works, but https://ftbwiki.org/MultiFarm#Managed_Farms has a decent list, though it doesn't specify cotton for managed crop farms for example. It might be a GTNH change, I dunno. A number of crops have an added IC2 crop version as well, so you may prefer those for the higher yield if you level them up. Orchard mode works with Pam's, and Witchery, just to save you some time. Pam's nether crops however don't seem to work at all though.
 
 # Quest.583 - Farm Logic
 gtnh.quest583.name=Farm Logic
@@ -3138,7 +3138,7 @@ gtnh.quest783.desc=All your little turbines take up too much space? Are you runn
 
 # Quest.784 - §6§lIt's Time to Get More Steam
 gtnh.quest784.name=§6§lIt's Time to Get More Steam
-gtnh.quest784.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800L of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.
+gtnh.quest784.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800L of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.%n%n§c§cWarning: Different from other boilers, Large Boilers must contain water at all times while active. If at any point the Boiler runs out of water while it is active, it will explode.
 
 # Quest.785 - §6§lTransistor
 gtnh.quest785.name=§6§lTransistor
@@ -3714,7 +3714,7 @@ gtnh.quest927.desc=If you want to make tier 4 slates you need a Tier 4 altar. Th
 
 # Quest.928 - Blood Altar Tier 5
 gtnh.quest928.name=Blood Altar Tier 5
-gtnh.quest928.desc=If you want to make tier 5 slates you need a Tier 5 altar. This can be made with 4 beacons. Beacons have thaumcraft recipes and can be found in the thaumcraft book on the GTNH page.
+gtnh.quest928.desc=If you want to make tier 5 slates you need a Tier 5 altar. This can be made with 4 beacons. Beacons have thaumcraft recipes and can be found in the thaumcraft book on the GTNH page. The quest is most of the way through adept thaumaturgy.
 
 # Quest.929 - Blood Altar Tier 6
 gtnh.quest929.name=Blood Altar Tier 6
@@ -3794,7 +3794,7 @@ gtnh.quest947.desc=An early game protection moat can be made out of punji sticks
 
 # Quest.948 - §3§lBetter Than Iron
 gtnh.quest948.name=§3§lBetter Than Iron
-gtnh.quest948.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make wrought iron, you need a tinkers smelter to melt some iron ingots down and cast nuggets; put these in a furnace to get wrought iron nuggets. With the compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. Or you can use an alloy smelter to turn iron ingots into nuggets faster than a smeltery. You can also use a saw to cut up iron ingots into nuggets.%n%nLater on, you can use an arc furnace to make wrought iron ingots directly.%n%n
+gtnh.quest948.desc=But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.%n%nTo make wrought iron, you need a tinkers smelter to melt some iron ingots down and cast nuggets; or use an ingot and a saw to get your nuggets. Now put these in a furnace to get wrought iron nuggets. With the compressor, you can compress the nuggets into ingots.%n%n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. Or you can use an alloy smelter to turn iron ingots into nuggets faster than a smeltery. You can also use a saw to cut up iron ingots into nuggets.%n%nLater on, you can use an arc furnace to make wrought iron ingots directly.%n%n
 
 # Quest.949 - Garden Bags
 gtnh.quest949.name=Garden Bags
@@ -5542,7 +5542,7 @@ gtnh.quest1384.desc=The Wand Focus: Efreet's Flame is a Wand Focus that smelts b
 
 # Quest.1385 - Wand Focus Dislocation
 gtnh.quest1385.name=Wand Focus Dislocation
-gtnh.quest1385.desc=Wand Focus: Dislocation allows the user to take and place any blocks, even Tile Entities and things usually unobtainable, like Aura Nodes, Energized Nodes, Spawners, planted IC2 Crops, and others.%n%n§4Please use responsibly, and don't move things you shouldn't, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you've backed up and play SP, do whatever, so long as you don't complain to us about it.§r%n%nIt uses:%n5 Ordo + 5 Perditio + 1 Terra to take any solid block. %n25 Ordo + 25 Perditio + 5 Terra to take any block with tile entities (such as Chest). %n100 Ordo + 100 Perditio + 20 Terra to take Mob Spawner.%n%nThis focus can be upgraded at the Focal Manipulator.
+gtnh.quest1385.desc=Wand Focus: Dislocation allows the user to take and place any blocks, even Tile Entities and things usually unobtainable, like Aura Nodes, Energized Nodes, Spawners, planted IC2 Crops, and others.%n%n§4Please use responsibly, and don't move things you shouldn't, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you've backed up and play SP, do whatever, so long as you don't complain to us about it.§r §4§r%n%n§4Moving Nodes can cause massive Flux explosions so handle with care.§r%n%nIt uses:%n5 Ordo + 5 Perditio + 1 Terra to take any solid block. %n25 Ordo + 25 Perditio + 5 Terra to take any block with tile entities (such as Chest). %n100 Ordo + 100 Perditio + 20 Terra to take Mob Spawner.%n%nThis focus can be upgraded at the Focal Manipulator.
 
 # Quest.1386 - Wand Focus Mending
 gtnh.quest1386.name=Wand Focus Mending
@@ -5604,8 +5604,8 @@ gtnh.quest1399.desc=Wand Focus: Mage's Mace can be equipped by any wand and will
 gtnh.quest1400.name=Wand Focus Blink
 gtnh.quest1400.desc=Wand Focus: Blink is a very powerful focus allowing to teleport whenever you click, as long as the destination is less then 50 blocks away from you. But, as there is no teleport cooldown, you can travel extremely fast with it. Consumes 3 Perditio per cast.%n%nThis focus can be upgraded at the Focal Manipulator.
 
-# Quest.1401 - Infuse your Focus
-gtnh.quest1401.name=Infuse your Focus
+# Quest.1401 - Infuse Your Focus
+gtnh.quest1401.name=Infuse Your Focus
 gtnh.quest1401.desc=Try to add Potency to your Shock Focus. At Level 3 you can add Chain Lightning or Shock Wave.
 
 # Quest.1402 - Iridium Screws
@@ -5646,7 +5646,7 @@ gtnh.quest1410.desc=An IV mixer is required to mix HSS-G dust, so you can get ne
 
 # Quest.1411 - §9§lSome Rare High Tier Metals
 gtnh.quest1411.name=§9§lSome Rare High Tier Metals
-gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction with Chalcopyrite and Pentlandite using nitric acid. You don't have the technology to process them properly right now but later on you need large amounts of them. You can EBF Platinum now, but proper Platinum processing is EV, but you'll have to wait until IV to use the rest. Collecting a lot of it now might not be a great idea depending on how long that will be.%n%n§4A chemical bath also extracts Platinum from Nickel ore if you use Mercury.  Time to head back to the Twilight Forest!
+gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction from Chalcopyrite and Pentlandite using nitric acid. You don't have the technology to process them properly right now but later on you need large amounts of them.%n%nNote that this is not the proper method to get rare metals. This means none of them are pure, and cannot be utilized without the platline method, aside from EBF-ing platinum. Proper Platinum processing is EV, but you'll have to wait until IV to use the rest. Collecting a lot of it now (especially using this method) might not be a great idea depending on how long that will be.%n%n§3The Palladium, Iridium, and Rarest Metal (Os+Ir) all are % based, being 95%, 90%, 85% respectively. The quest only asks for 50%.%n%nA chemical bath also extracts Platinum from Nickel ore if you use Mercury. Time to head back to the Twilight Forest!
 
 # Quest.1412 - §6§lAssembling Line
 gtnh.quest1412.name=§6§lAssembling Line
@@ -6260,9 +6260,9 @@ gtnh.quest1563.desc=The Brew of Sleeping is the normal way for a Witch to enter 
 gtnh.quest1564.name=The Spirit World - Nightmare
 gtnh.quest1564.desc=The spirit world is an alternate reality that mirrors the Overworld in topography. When people dream they often end up in the spirit world without realizing it (often appearing as one of its many denizens). Powerful witches can create Brews of Sleeping that allow them to pass their still awake consciousness into the Spirit World, leaving their bodies and gear behind.%n%nThe Spirit World is the only source of Wispy Cotton, Disturbed Cotton, and Mellifluous Hunger - the materials needed to make Dream Weavers. Also Brews of Flowing Spirit can only be made in the Spirit World.%n%nVery few things can pass into, or return from the Spirit World - keep this in mind when heading there (Icy Needle always stay in the inventory). Wispy Cotton, Disturbed Cotton, Mellifluous Hunger and Brews of Flowing Spirit can pass from the Spirit World to the Real World but not the other way.%n%nTwo important things to note: Circle magic does not function in the Spirit World; and Endermen cannot enter the Spirit World.%n%n§3If you got the Dream version instead of nightmare, collect at least 16 Wispy Cotton for later.
 
-# Quest.1565 - Nights Not Dark Anymore
-gtnh.quest1565.name=Nights Not Dark Anymore
-gtnh.quest1565.desc=Hardcore darkness is a pain but now the night will be bright. Be careful, the mobs aren't any weaker.
+# Quest.1565 - The Night's Not Dark Anymore
+gtnh.quest1565.name=The Night's Not Dark Anymore
+gtnh.quest1565.desc=Hardcore darkness is a pain, but now the night will be bright. Or at least, your perception will be that it is, mobs can still spawn! Be careful, the mobs aren't any weaker.%n%n§3BTW, you can make a longer laster potion out of this one. Also, you should probably make them in batches of 3 so you don't waste materials.
 
 # Quest.1566 - Early Bird Gets the...Nightmare?
 gtnh.quest1566.name=Early Bird Gets the...Nightmare?
@@ -6768,8 +6768,8 @@ gtnh.quest1690.desc=Trade three IV lootbags to get a better one: LuV.
 gtnh.quest1691.name=§b§lPolybenzimidazole
 gtnh.quest1691.desc=Polybenzimidazole or PBI is a synthetic fiber needed in ZPM Hulls and in high tier solar panels, and can also be used to make some other items more efficiently. It has many steps to produce it. Let's start with chlorobenzene, but keep in mind you'll need to complete the other non-platline IV-tier chemical quests too.
 
-# Quest.1692 - §b§lNitration mixture
-gtnh.quest1692.name=§b§lNitration mixture
+# Quest.1692 - §b§lNitration Mixture
+gtnh.quest1692.name=§b§lNitration Mixture
 gtnh.quest1692.desc=We also need nitration mixture. We can do it out of nitric acid and sulfuric acid.
 
 # Quest.1693 - §b§l2-Nitrochlorobenzene
@@ -6778,7 +6778,7 @@ gtnh.quest1693.desc=Next step is to mixing the nitration mixture with your chlor
 
 # Quest.1694 - §c§b§l3,3 Dichlorobenzidine
 gtnh.quest1694.name=§c§b§l3,3 Dichlorobenzidine
-gtnh.quest1694.desc=Mixing 2-nitrochlorbenzene with tiny copper dust gives you 3,3 Dichlorobenzidine in an EV Chemical Reactor.
+gtnh.quest1694.desc=Mixing 2-nitrochlorbenzene with copper dust gives you 3,3 Dichlorobenzidine in an EV Chemical Reactor.
 
 # Quest.1695 - §b§l3,3 Diaminobenzidine
 gtnh.quest1695.name=§b§l3,3 Diaminobenzidine
@@ -6800,9 +6800,9 @@ gtnh.quest1698.desc=Mix Sulfuric Acid, Phtalic acid and Phenol to get Diphenyl I
 gtnh.quest1699.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lPhenol
 gtnh.quest1699.desc=You can get Phenol in different ways, but if you don't have any, you can make some using chlorobenzene and some water.
 
-# Quest.1700 - §b§lPhtalic acid
-gtnh.quest1700.name=§b§lPhtalic acid
-gtnh.quest1700.desc=To get Phtalic acid you need mix Dimethylbenzene, tiny piles of Potassium Dichromate and Oxygen in an EV Chemical Reactor.
+# Quest.1700 - §b§lPhtalic Acid
+gtnh.quest1700.name=§b§lPhtalic Acid
+gtnh.quest1700.desc=To get Phtalic acid you need mix Dimethylbenzene, Potassium Dichromate and Oxygen in an EV Chemical Reactor.
 
 # Quest.1701 - §b§lDimethylbenzene
 gtnh.quest1701.name=§b§lDimethylbenzene
@@ -7150,7 +7150,7 @@ gtnh.quest1786.desc=Your shoes can be equipped with a few modifications like wat
 
 # Quest.1787 - §6§lData Access Hatches
 gtnh.quest1787.name=§6§lData Access Hatches
-gtnh.quest1787.desc=So, if you want to do more than one recipe in your Assline, you want a Data Access Hatch. There are 3+1 versions.%n%nData Access Hatch: It holds 4 data sticks, so 4 recipes.%nAdvanced Data Access Hatch: It holds 16 data sticks. Ironically, you can make this right away.%nAutomatable Data Access Hatch: It's UV, but it allows I/O of the sticks. Skip it.%nThe Data Bank Multi: Can be connected to multiple Asslines, and can contain more than 1 DAH. Use this. It's apparently ZPM, but the quest is UV cuz all the TT stuff is there.%n%n§3You only need to make one.
+gtnh.quest1787.desc=So, if you want to do more than one recipe in your Assline, you want a Data Access Hatch. There are 3+1 versions.%n%nData Access Hatch: It holds 4 data sticks, so 4 recipes.%n%nAdvanced Data Access Hatch: It holds 16 data sticks. Ironically, you can make this right away.%n%nAutomatable Data Access Hatch: It's UV, but it allows I/O of the sticks. Skip it.%n%nThe Data Bank Multi: Can be connected to multiple Asslines, and can contain more than 1 DAH. This is the best way, when you can do it. Look in ZPM for the quest.%n%n§3You only need to make one.
 
 # Quest.1788 - Trigger:Unlocking bee breeding lines (unlock)
 gtnh.quest1788.name=Trigger:Unlocking bee breeding lines (unlock)
@@ -8026,7 +8026,7 @@ gtnh.quest2005.desc=Only dangerous cliffs to fly off. TecTech can be the source 
 
 # Quest.2006 - The Beginning of the End Game
 gtnh.quest2006.name=The Beginning of the End Game
-gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machinery for all your end-tier needs. However, learning TecTech is incredibly confusing, so listen very carefully. %n%nFirst, you'll need to gather various casings for your machines that you'll need. We've provided some examples of the blocks you'll need, but you should expect to have to craft more. Lots more.%n%nYou use the optical cables to connect machines together. Just make sure that they're painted, as well as what you want to connect them to.%n%nThe Blueprint is used to display a holographic image of the completed multi, with a note in the bottom left about blocks that are variable. If you use a larger Blueprint stack, you can see a hologram of a larger version, if applicable.
+gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machinery for all your end-tier needs. However, learning TecTech is incredibly confusing, so listen very carefully. %n%nFirst, you'll need to gather various casings for your machines that you'll need. We've provided some examples of the blocks you'll need, but you should expect to have to craft more. Lots more.%n%nYou use the optical cables to connect machines together. Just make sure that they're painted, as well as what you want to connect them to.
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=Quantum Computer
@@ -10194,7 +10194,7 @@ gtnh.quest2547.desc=The Arcane Assembler works like a combination of the Molecul
 
 # Quest.2548 - Miscellaneous AE Items
 gtnh.quest2548.name=Miscellaneous AE Items
-gtnh.quest2548.desc=There are several AE items that aren't particularly useful, but probably deserve mention, so here they are:%n%nCertus Tanks: They hold 32B and are portable and easy to make.%n%nView Cell: Format in a Cell Workbench to filter what you see in a terminal (when they're installed in it)%n%nCertus/Nether Quartz Cutting Knifes: Right-click to open interface. Place an iron ingot in the slot, and choose a name. The press can be used in the Inscriber to name stuff without using an anvil.%n%nME Drive Fixture: Only holds 6 cells instead of 10.%n%nME Energy Cell Fixture: Requires a channel for some reason. Also, §4it doesn't work.§r%n%nME Block Container: Holds only one type of item, but the amount of a 64k drive. Can place the item in world, or replace in a 1x1 or 3x3 area. Blocks replaced will be dumped in world. This will be horizontal or vertical depending on which side of a block you select. Shift-right click air to change mode, right click a block to activate mode.%n%nCharged Quartz Fixture: Emits light at the same level as a torch, but fancier.%n%nLight Detecting Fixture: Emits redstone signal based on light. Since it only starts at 7, it's not as useful as the Light Sensor.%n%nME Upgrade (Tier 1/2/3): If you're an OC person, there's 3 upgrades you can make to add access to your network from robots and drones.%nT1: 0.5 access point range%nT2: Normal access point range%nT3: Unlimited range, any dim%n%nEntropy Manipulator: Changes grass/dirt/dried dirt into each other, or starts fires. Or melts ice. Useless.%n%nMatter Cannon: Shoots Matter Balls made in the Matter Condensor. Put it in an ME Chest or Drive and put items in a Terminal to fill. Decent I guess? But it destroys blocks every time you use it, so... Well, I guess you could use it with Paint Balls?%n%nColor Applicator: Use dye items or Paint Balls (more efficient) to dye stuff. You can dye cables, or anything Forge-compatible, like wool or glass. Place items inside like the Matter Cannon. You can cycle through the colors by holding shift and right-clicking, or scrolling the mouse wheel. If you use snow balls, you can remove paint instead. You can also use it in a dispensor.%n%nME Fluid Pattern [WIP]: §YYou're supposed to use it in a fluid terminal if there's no bucket version of a fluid to be able to make a crafting pattern with that fluid. However, §4it doesn't work.§r Also useless since we have cells.%n%nWalrus: It's a walrus, what were you expecting?
+gtnh.quest2548.desc=There are several AE items that aren't particularly useful, but probably deserve mention, so here they are:%n%nCertus Tanks: They hold 32B and are portable and easy to make.%n%nView Cell: Format in a Cell Workbench to filter what you see in a terminal (when they're installed in it)%n%nCertus/Nether Quartz Cutting Knifes: Right-click to open interface. Place an iron ingot in the slot, and choose a name. The press can be used in the Inscriber to name stuff without using an anvil. You can also rename p2p tunnels and interfaces in world with the knife.%n%nME Drive Fixture: Only holds 6 cells instead of 10.%n%nME Energy Cell Fixture: Requires a channel for some reason. Also, §4it doesn't work.§r%n%nME Block Container: Holds only one type of item, but the amount of a 64k drive. Can place the item in world, or replace in a 1x1 or 3x3 area. Blocks replaced will be dumped in world. This will be horizontal or vertical depending on which side of a block you select. Shift-right click air to change mode, right click a block to activate mode.%n%nCharged Quartz Fixture: Emits light at the same level as a torch, but fancier.%n%nLight Detecting Fixture: Emits redstone signal based on light. Since it only starts at 7, it's not as useful as the Light Sensor.%n%nME Upgrade (Tier 1/2/3): If you're an OC person, there's 3 upgrades you can make to add access to your network from robots and drones.%nT1: 0.5 access point range%nT2: Normal access point range%nT3: Unlimited range, any dim%n%nEntropy Manipulator: Changes grass/dirt/dried dirt into each other, or starts fires. Or melts ice. Useless.%n%nMatter Cannon: Shoots Matter Balls made in the Matter Condensor. Put it in an ME Chest or Drive and put items in a Terminal to fill. Decent I guess? But it destroys blocks every time you use it, so... Well, I guess you could use it with Paint Balls?%n%nColor Applicator: Use dye items or Paint Balls (more efficient) to dye stuff. You can dye cables, or anything Forge-compatible, like wool or glass. Place items inside like the Matter Cannon. You can cycle through the colors by holding shift and right-clicking, or scrolling the mouse wheel. If you use snow balls, you can remove paint instead. You can also use it in a dispensor.%n%nME Fluid Pattern [WIP]: §YYou're supposed to use it in a fluid terminal if there's no bucket version of a fluid to be able to make a crafting pattern with that fluid. However, §4it doesn't work.§r Also useless since we have cells.%n%nWalrus: It's a walrus, what were you expecting?
 
 # Quest.2549 - Magical Minions
 gtnh.quest2549.name=Magical Minions
@@ -10450,7 +10450,7 @@ gtnh.quest2611.desc=You know what to do.
 
 # Quest.2612 - You Cant Get Enough of This Pt 2 in ZPM
 gtnh.quest2612.name=You Cant Get Enough of This Pt 2 in ZPM
-gtnh.quest2612.desc=Just Make It (TM).
+gtnh.quest2612.desc=Just Make It (TM).%n%n§3PS: You can make the ZPM CA now and start on the wetware line if you want, but the quests are in UV since you can't make the last circuit until then.
 
 # Quest.2613 - Tier 8 (UV)
 gtnh.quest2613.name=Tier 8 (UV)
@@ -10498,7 +10498,7 @@ gtnh.quest2623.desc=Does anyone else think of Ultra Violet when they see UV? Are
 
 # Quest.2624 - UHV Field Generator
 gtnh.quest2624.name=UHV Field Generator
-gtnh.quest2624.desc=I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.%n%nBTW there's one tier higher than this, but it's not really useful. And this one's only really used for optional stuff anyway.
+gtnh.quest2624.desc=I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.%n%nBTW there's one tier higher than this, find it on the Endgame Goals tab, and start on your §kDeep Dark Portal§r. It's certainly very useful.
 
 # Quest.2625 - ZPM Assembler
 gtnh.quest2625.name=ZPM Assembler
@@ -10542,11 +10542,11 @@ gtnh.quest2634.desc=To get to the Toxic Everglades, you'll need 10 Containment F
 
 # Quest.2635 - Circuits, Assemble!
 gtnh.quest2635.name=Circuits, Assemble!
-gtnh.quest2635.desc=To make a Tier 7 Rocket, and Wetware Circuits (UHV-Tier Circuits), you need to make a ZPM Circuit Assembling Machine.%n%nWhat? Did you think that just because you made the multi you can skip out making the singleblock? Well, too bad! You still need to use it to make the first circuit for the imprints.
+gtnh.quest2635.desc=To make Wetware Circuits (UHV-Tier Circuits), you need to make a ZPM Circuit Assembling Machine.%n%nWhat? Did you think that just because you made the multi you can skip out making the singleblock? Well, too bad! You still need to use it to make the first circuit for the imprints.
 
 # Quest.2636 - Pick-n-Place All Over the Place
 gtnh.quest2636.name=Pick-n-Place All Over the Place
-gtnh.quest2636.desc=To make the Tier 8 Rocket, and Bioware Circuits, you need to make a UV Circuit Assembling Machine. This is the last Circuit Assembling Machine in the game you need to make.%n%n§3You probably thought there would be a circuit questline after this, §4But It Was Me, Dio!§3 I mean, that requires the T8 rocket, so you'll find it in the UHV tab.
+gtnh.quest2636.desc=To make Bioware Boards and Circuits, you need to make a UV Circuit Assembling Machine. This is the last Circuit Assembling Machine in the game you need to make.
 
 # Quest.2637 - Cheaper EV Circuits
 gtnh.quest2637.name=Cheaper EV Circuits
@@ -10606,15 +10606,15 @@ gtnh.quest2650.desc=To make Wetware Circuits, you'll need to make a Wetware Life
 
 # Quest.2651 - This is Not How You Make Cheese
 gtnh.quest2651.name=This is Not How You Make Cheese
-gtnh.quest2651.desc=In order to make Wetware circuits, you'll need Sterilized Growth Medium and Stemcells, so let's get started on those, ok?%n%nTo get anywhere, first you need Bacteria. You can get this through the vat or the brewing machine. If you do it the vat way, you'll need to use Bismuth rods for the radiation, and have EV-tier glass. There are also 3 recipes, so you can use a higher tier one later if you like. You can also make liquid Growth Medium the same way. The vat way is more item-efficient, but more complicated.%n%nYou'll also need Mince Meat and Agar. You'll want a stable supply of meat, so something like the Zhuhai, a standard animal farm, or ic2 Meatrose or Goldfish is probably best.%n%nAgar has a more complicated processing chain, but it's nothing compared to Platinum. You'll need even more meat for it.%n%nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then use that in the vat's controller to make Raw Growth Medium. You'll need IV-tier glass, and Uranium rods. There are also higher tier recipes.%n%n§3Cultures are not consumed when used in the vat.
+gtnh.quest2651.desc=In order to make Wetware circuits, you'll need Sterilized Growth Medium and Stemcells, so let's get started on those, ok?%n%nTo get anywhere, first you need Bacteria. You can get this through the vat or the brewing machine. If you do it the vat way, you'll need to use Bismuth rods for the radiation, and have EV-tier glass. There are also 3 recipes, so you can use a higher tier one later if you like. You can also make liquid Growth Medium the same way. The vat way is more item-efficient, but more complicated.%n%nYou'll also need Mince Meat and Agar. You'll want a stable supply of meat, so something like the a fish farm, a standard animal farm, or IC2 Meatrose or Goldfish is probably best.%n%nAgar has a more complicated processing chain, but it's nothing compared to Platinum. You'll need even more meat for it.%n%nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then use that in the vat's controller to make Raw Growth Medium. You'll need IV-tier glass, and Uranium rods. There are also higher tier recipes.%n%n§3Cultures are not consumed when used in the vat.
 
 # Quest.2652 - Intelligent Circuits
 gtnh.quest2652.name=Intelligent Circuits
-gtnh.quest2652.desc=Another component for the Wetware Circuits is NeuroCPUs. To make it you need to use the Assembly Line.%n%nI won't tell you the materials, but I'll tell you that you need 250L Sterilized Growth Medium, 250L UU Matter, and 1000L of IC2 Coolant.
+gtnh.quest2652.desc=Another component for the Wetware Circuits is NeuroCPUs. To make it you need to use the Assembly Line.
 
 # Quest.2653 - Your First Wetware Circuit
 gtnh.quest2653.name=Your First Wetware Circuit
-gtnh.quest2653.desc=Now that you're this far into ZPM, you can make cheaper LuV Circuits.
+gtnh.quest2653.desc=The first Wetware LuV circuit.
 
 # Quest.2654 - Wetware Processor Assembly
 gtnh.quest2654.name=Wetware Processor Assembly
@@ -10622,7 +10622,7 @@ gtnh.quest2654.desc=The Wetwareprocessor Assembly is a ZPM Circuit.
 
 # Quest.2655 - Supercomputers and Water
 gtnh.quest2655.name=Supercomputers and Water
-gtnh.quest2655.desc=The Wetware Supercomputer is a UV Circuit.%n%nYou need a TecTech Research Station to make the Wetware Mainframe circuit, so it's only available at UV Tier.
+gtnh.quest2655.desc=The Wetware Supercomputer is a UV Circuit.%n%nYou'll need a TecTech Research Station and Quantum Computer to make the Wetware Mainframe circuit, so make those before continuing.%n%n§3If you can't see the quests, go back to ZPM and do the TT ones there you skipped.
 
 # Quest.2656 - Wetware Mainframe
 gtnh.quest2656.name=Wetware Mainframe
@@ -10646,7 +10646,7 @@ gtnh.quest2660.desc=Making the Bio Board is pretty much the same process as maki
 
 # Quest.2661 - Self-Aware Circuits
 gtnh.quest2661.name=Self-Aware Circuits
-gtnh.quest2661.desc=Make a Bio Processing Unit. It is an important component in making the Bio Circuits.%n%nMaking it is an Assembly Line process with IC2 Coolant, UU-Matter and Sterilized Bio Medium.
+gtnh.quest2661.desc=Make a Bio Processing Unit. It is an important component in making the Bio Circuits.
 
 # Quest.2662 - Please... Don't Let These Circuits Take Over
 gtnh.quest2662.name=Please... Don't Let These Circuits Take Over
@@ -10658,11 +10658,11 @@ gtnh.quest2663.desc=The Bioprocessor Assembly is the second Bio Circuit. It is a
 
 # Quest.2664 - Supercomputers... With Cells?
 gtnh.quest2664.name=Supercomputers... With Cells?
-gtnh.quest2664.desc=The Bioware Supercomputer is the third Bio Circuit. It is a UHV-Tier Circuit.%n%nIt needs a TecTech Research Station at 4,000,000 EU/t (8 amps of 500,000 EU/t).
+gtnh.quest2664.desc=The Bioware Supercomputer is the third Bio Circuit. It's a UHV-Tier Circuit.
 
 # Quest.2665 - Master of Circuits
 gtnh.quest2665.name=Master of Circuits
-gtnh.quest2665.desc=You have done it! This is the final (normal) circuit in the game!%n%nThe Bio Mainframe is the first and only UEV-Tier Circuit in the game. It requires a TecTech Research Station at 16,000,000 EU/t (16 amps of 1M EU/t).%n%nAlso, there's this thing called going outside. I heard you may like it.
+gtnh.quest2665.desc=You've done it! This is the final (normal) circuit in the game!%n%nThe Bio Mainframe is the first and only UEV-Tier Circuit in the game.%n%nAlso, there's this thing called going outside. I heard you may like it.
 
 # Quest.2666 - §c§lMagneto Resonatic Circuits
 gtnh.quest2666.name=§c§lMagneto Resonatic Circuits
@@ -10730,7 +10730,7 @@ gtnh.quest2681.desc=So you probably noticed that the amount of seaweed you'll ne
 
 # Quest.2682 - TecTech Multiblocks
 gtnh.quest2682.name=TecTech Multiblocks
-gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). §4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!§r%n%nSave Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFront Rotation - Allows rotating the front face of the machine for more structure orientation freedom (also available in API). This doesn't allow you to change the facing of the controller, but the orientation. So if you look at it from the front, it can be rotated clockwise or counterclockwise. You also need to use the Front Rotation Scrench to do so. §3If you don't get it, try placing a controller, screnching it, and using the Blueprint on it.§r%n%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Save Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
+gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). §4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!§r%n%nSave Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFront Rotation - Allows rotating the front face of the machine for more structure orientation freedom. This doesn't allow you to change the facing of the controller, but the orientation. So if you look at it from the front, it can be rotated clockwise or counterclockwise. You also need to use the Front Rotation Scrench to do so. §3If you don't get it, try placing a controller, screnching it, and using the Blueprint on it.§r%n%nMultiblock Structure Visualization vis Blueprint - The Blueprint is used to display a holographic image of the completed multi, with a note in the bottom left about blocks that are variable. If you use a larger Blueprint stack, you can see a hologram of a larger version, if applicable.%n%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Save Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
 
 # Quest.2683 - Configuring TecTech Multiblocks
 gtnh.quest2683.name=Configuring TecTech Multiblocks
@@ -11424,9 +11424,9 @@ gtnh.quest2854.desc=Imps are little orange creatures who run through the whole n
 gtnh.quest2855.name=Essentia Transmission
 gtnh.quest2855.desc=What if... you could send essentia from a different location to your infusion matrix? You could finally get rid of all those jars around your altar.
 
-# Quest.2856 - §6§lRotate Your Multiblock
-gtnh.quest2856.name=§6§lRotate Your Multiblock
-gtnh.quest2856.desc=Multiblock Controllers can now rotated with the "Front Rotation Screwdriver".%nIt is possible to build an Electric Blast furnace laying on the side.%nSame for the Vacuum Freezer and other GT Multiblocks.%n%nClick on the Control Block with the Blueprint to shows up the buildstructure.%n%n§3For any other Tectech related details see the UV quests.
+# Quest.2856 - §6§lAdvanced MB Contruction
+gtnh.quest2856.name=§6§lAdvanced MB Contruction
+gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. Note that this §cwon't work on TecTech MBs§r. You need the scrench for that. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the strucure, pay attention to the bottom left for structure details.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: GT add-on mods like KekzTech that haven't been updated, non-GT-based MBs (obviously), Charcoal Pile Igniters, BBFs, DTs, Miners, Bacterial Vats, DEHPs, Void Miners, the MVF can, but the MBF and MDT cannot.%n%n§3PS: We did get permission, that was just a little joke.
 
 # Quest.2857 - Magic Mirror Glass?
 gtnh.quest2857.name=Magic Mirror Glass?
