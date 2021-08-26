@@ -891,17 +891,17 @@ recipes.addShaped(<Railcraft:signal>, [
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Wood Rail ---
-recipes.addShaped(WoodenRail * 6, [
+recipes.addShaped(WoodenRail * 12, [
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick]]);
 // -
-recipes.addShaped(WoodenRail * 4, [
+recipes.addShaped(WoodenRail * 8, [
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [null, null, null]]);
 // -
-recipes.addShaped(WoodenRail * 2, [
+recipes.addShaped(WoodenRail * 4, [
 [IronRod, <Railcraft:part.tie>, WoodStick],
 [null, null, null],
 [null, null, null]]);
@@ -1468,49 +1468,109 @@ Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>,
 Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.solderingalloy>  * 8, 200, 30);
 
 // --- Wooden Switch Track ---
-Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:23032> * 4, 200, 16);
+Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), [WoodenTrack * 2, <ore:springSmallIron> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
+// -
+Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}) * 2, [WoodenTrack * 2, <ore:springSmallSteel> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
+// -
+Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}) * 4, [WoodenTrack * 2, <ore:springSmallStainlessSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- Wooden Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}), WoodenTrack * 2, <gregtech:gt.metaitem.02:20032> * 2, 200, 16);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}), [WoodenTrack * 2, <ore:gearGtSmallIron> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}) * 2, [WoodenTrack * 2, <ore:gearGtSmallSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.wye"}) * 4, [WoodenTrack * 4, <ore:gearGtSmallStainlessSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- Wooden Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}), WoodenTrack * 2, <gregtech:gt.metaitem.01:27032> * 4, 200, 16);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}), [WoodenTrack * 2, <ore:screwAnyIron> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}) * 2, [WoodenTrack * 2, <ore:screwSteel> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.slow.junction"}) * 4, [WoodenTrack * 2, <ore:screwStainlessSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- Switch Track ---
-Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), Track * 2, <gregtech:gt.metaitem.02:23305> * 4, 400, 30);
+Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}), [Track * 2, <ore:springSmallSteel> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}) * 2, [Track * 2, <ore:springSmallStainlessSteel> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:4767>.withTag({track: "railcraft:track.switch"}) * 4, [Track * 2, <ore:springSmallTitanium> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
 
 // --- Wye Track ---
-Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), Track * 2, <gregtech:gt.metaitem.02:20305> * 2, 400, 30);
+Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}), [Track * 2, <ore:gearGtSmallSteel> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}) * 2, [Track * 2, <ore:gearGtSmallStainlessSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:2144>.withTag({track: "railcraft:track.wye"}) * 4, [Track * 2, <ore:gearGtSmallTitanium> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
 
 // --- Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}), Track * 2, <gregtech:gt.metaitem.01:27305> * 4, 400, 30);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}), [Track * 2, <ore:screwSteel> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}) * 2, [Track * 2, <ore:screwStainlessSteel> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.junction"}) * 4, [Track * 2, <ore:screwTitanium> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 200, 30);
 
 // --- Reinforced Switch Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.02:23306> * 4, 400, 120);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}), [ReinforcedTrack * 2, <ore:springSmallStainlessSteel> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}) * 2, [ReinforcedTrack * 2, <ore:springSmallTitanium> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.switch"}) * 4, [ReinforcedTrack * 2, <ore:springSmallTungstenSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
 
 // --- Reinforced Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.02:20306> * 2, 400, 120);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}), [ReinforcedTrack * 2, <ore:gearGtSmallStainlessSteel> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}) * 2, [ReinforcedTrack * 2, <ore:gearGtSmallTitanium> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.reinforced.wye"}) * 4, [ReinforcedTrack * 2, <ore:gearGtSmallTungstenSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
 
 // --- Reinforced Junction Tack ---
-Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), ReinforcedTrack * 2, <gregtech:gt.metaitem.01:27306> * 4, 400, 120);
+Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}), [ReinforcedTrack * 2, <ore:screwStainlessSteel> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}) * 2, [ReinforcedTrack * 2, <ore:screwTitanium> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:764>.withTag({track: "railcraft:track.reinforced.junction"}) * 4, [ReinforcedTrack * 2, <ore:screwTungstenSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
 
 // --- H.S. Transition Track ---
-Assembler.addRecipe(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}) * 4, [<Railcraft:part.railbed:1>,  HsTrack * 2, <ore:plateRedAlloy> * 2], null, 600, 120);
+Assembler.addRecipe(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}) * 4, [<Railcraft:part.railbed:1>,  HsTrack * 2, <ore:plateRedAlloy> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}) * 8, [<Railcraft:part.railbed:1>,  HsTrack * 2, <ore:plateConductiveIron> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:26865>.withTag({track: "railcraft:track.speed.transition"}) * 16, [<Railcraft:part.railbed:1>,  HsTrack * 2, <ore:plateVibrantAlloy> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
 
 // --- H.S. Switch Track ---
-Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), HsTrack * 2, <gregtech:gt.metaitem.02:23305> * 4, 400, 120);
+Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}), [HsTrack * 2, <ore:springSmallSteel> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}) * 2, [HsTrack * 2, <ore:springSmallStainlessSteel> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:7916>.withTag({track: "railcraft:track.speed.switch"}) * 4, [HsTrack * 2, <ore:springSmallTitanium> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
 
 // --- H.S. Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), HsTrack * 2, <gregtech:gt.metaitem.02:20305> * 2, 400, 120);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}), [HsTrack * 2, <ore:gearGtSmallSteel> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}) * 2, [HsTrack * 2, <ore:gearGtSmallStainlessSteel> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.speed.wye"}) * 4, [HsTrack * 2, <ore:gearGtSmallTitanium> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 30);
 
 // --- Electric Switch Track ---
-Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:23035> * 4, 800, 30);
+Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}), [ElectricTrack * 2, <ore:springSmallCopper> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}) * 2, [ElectricTrack * 2, <ore:springSmallGold> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
+// -
+Assembler.addRecipe(<Railcraft:track:10488>.withTag({track: "railcraft:track.electric.switch"}) * 4, [ElectricTrack * 2, <ore:springSmallElectrum> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
 
 // --- Electric Wye Track ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), ElectricTrack * 2, <gregtech:gt.metaitem.02:20035> * 2, 800, 30);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}), [ElectricTrack * 2, <ore:screwCopper> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}) * 2, [ElectricTrack * 2, <ore:screwGold> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.wye"}) * 4, [ElectricTrack * 2, <ore:screwElectrum> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
 
 // --- Electric Junction Tack ---
-Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), ElectricTrack * 2, <gregtech:gt.metaitem.01:27035> * 4, 800, 30);
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}), [ElectricTrack * 2, <ore:gearGtSmallCopper> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}) * 2, [ElectricTrack * 2, <ore:gearGtSmallGold> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
+// -
+Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}) * 4, [ElectricTrack * 2, <ore:gearGtSmallElectrum> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 800, 30);
 
 // --- Refined Firestone ---
 Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cut>, <minecraft:redstone_block> * 2, <liquid:lava> * 576, 200, 480);
