@@ -1460,11 +1460,41 @@ AlloySmelter.addRecipe(<Railcraft:armor.steel.boots>, <gregtech:gt.metaitem.01:1
 
 
 // --- Electric Shunting Wire ---
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.tin>  * 16, 200, 30);
+Assembler.addRecipe(<Railcraft:machine.delta>, [<ore:wireGt01AnyCopper>, <ore:wireGt01Lead>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.tin>  * 16, 200, 16);
 //-
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.lead>  * 32, 200, 30);
+Assembler.addRecipe(<Railcraft:machine.delta>, [<ore:wireGt01AnyCopper>, <ore:wireGt01Lead>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.lead>  * 32, 200, 16);
 //-
-Assembler.addRecipe(<Railcraft:machine.delta>, <gregtech:gt.blockmachines:1360>, <gregtech:gt.blockmachines:1220>, <liquid:molten.solderingalloy>  * 8, 200, 30);
+Assembler.addRecipe(<Railcraft:machine.delta>, [<ore:wireGt01AnyCopper>, <ore:wireGt01Lead>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.solderingalloy>  * 8, 200, 16);
+// -
+Assembler.addRecipe(<Railcraft:machine.delta> * 4, [<ore:wireGt01Gold>, <ore:wireGt01Lead>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.tin>  * 16, 200, 24);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 4, [<ore:wireGt01Gold>, <ore:wireGt01Lead>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.lead>  * 32, 200, 24);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 4, [<ore:wireGt01Gold>, <ore:wireGt01Lead>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.solderingalloy>  * 8, 200, 24);
+// -
+Assembler.addRecipe(<Railcraft:machine.delta> * 8, [<ore:wireGt01Electrum>, <ore:wireGt01Gold>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.tin>  * 16, 200, 30);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 8, [<ore:wireGt01Electrum>, <ore:wireGt01Gold>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.lead>  * 32, 200, 30);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 8, [<ore:wireGt01Electrum>, <ore:wireGt01Gold>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.solderingalloy>  * 8, 200, 30);
+// -
+Assembler.addRecipe(<Railcraft:machine.delta> * 16, [<ore:wireGt01Titanium>, <ore:wireGt01Electrum>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.tin>  * 16, 200, 48);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 16, [<ore:wireGt01Titanium>, <ore:wireGt01Electrum>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.lead>  * 32, 200, 48);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 16, [<ore:wireGt01Titanium>, <ore:wireGt01Electrum>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.solderingalloy>  * 8, 200, 48);
+// -
+Assembler.addRecipe(<Railcraft:machine.delta> * 32, [<ore:wireGt01Platinum>, <ore:wireGt01Titanium>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.tin>  * 16, 200, 64);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 32, [<ore:wireGt01Platinum>, <ore:wireGt01Titanium>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.lead>  * 32, 200, 64);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 32, [<ore:wireGt01Platinum>, <ore:wireGt01Titanium>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.solderingalloy>  * 8, 200, 64);
+// -
+Assembler.addRecipe(<Railcraft:machine.delta> * 64, [<ore:wireGt01VanadiumGallium>, <ore:wireGt01Platinum>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.tin>  * 16, 200, 120);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 64, [<ore:wireGt01VanadiumGallium>, <ore:wireGt01Platinum>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.lead>  * 32, 200, 120);
+//-
+Assembler.addRecipe(<Railcraft:machine.delta> * 64, [<ore:wireGt01VanadiumGallium>, <ore:wireGt01Platinum>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.solderingalloy>  * 8, 200, 120);
 
 // --- Wooden Switch Track ---
 Assembler.addRecipe(<Railcraft:track:19986>.withTag({track: "railcraft:track.slow.switch"}), [WoodenTrack * 2, <ore:springSmallIron> * 4, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 8);
@@ -1688,39 +1718,39 @@ Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.
 Assembler.addRecipe(<Railcraft:track>.withTag({track: "railcraft:track.electric.junction"}) * 64, [ElectricTrack * 2, <ore:gearGtSmallNaquadah> * 1, <gregtech:gt.integrated_circuit:1> * 0], null, 400, 480);
 
 // --- Refined Firestone ---
-Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cut>, <minecraft:redstone_block> * 2, <liquid:lava> * 576, 200, 480);
+Assembler.addRecipe(<Railcraft:firestone.refined:5000>, [<Railcraft:firestone.cut>, <minecraft:redstone_block> * 2,  <gregtech:gt.integrated_circuit:1> * 0], <liquid:lava> * 576, 200, 480);
 // -
-Assembler.addRecipe(<Railcraft:firestone.refined:5000>, <Railcraft:firestone.cracked:*>, <minecraft:redstone_block> * 2, <liquid:lava> * 576, 200, 480);
+Assembler.addRecipe(<Railcraft:firestone.refined:5000>, [<Railcraft:firestone.cracked:*>, <minecraft:redstone_block> * 2,  <gregtech:gt.integrated_circuit:1> * 0], <liquid:lava> * 576, 200, 480);
 
 // --- Work Cart ---
-Assembler.addRecipe(<Railcraft:cart.work>, <minecraft:minecart>, <minecraft:crafting_table>, 100, 16);
+Assembler.addRecipe(<Railcraft:cart.work>, [<minecraft:minecart>, <minecraft:crafting_table>, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- Personal Anchor Cart ---
-Assembler.addRecipe(<Railcraft:cart.anchor.personal>, <minecraft:minecart>, <Railcraft:machine.alpha:2>, 100, 16); 
+Assembler.addRecipe(<Railcraft:cart.anchor.personal>, [<minecraft:minecart>, <Railcraft:machine.alpha:2>, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16); 
 
 // --- World Anchor Cart ---
-Assembler.addRecipe(<Railcraft:cart.anchor>, <minecraft:minecart>, <Railcraft:machine.alpha>, 100, 16);
+Assembler.addRecipe(<Railcraft:cart.anchor>, [<minecraft:minecart>, <Railcraft:machine.alpha>, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- Tank Cart ---
-Assembler.addRecipe(<Railcraft:cart.tank>, <minecraft:minecart>, <Railcraft:machine.beta:1>, 100, 16);
+Assembler.addRecipe(<Railcraft:cart.tank>, [<minecraft:minecart>, <Railcraft:machine.beta:1>, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- Batbox Cart ---
-Assembler.addRecipe(<Railcraft:cart.energy.batbox>, <minecraft:minecart>, <IC2:blockElectric>, 100, 16);
+Assembler.addRecipe(<Railcraft:cart.energy.batbox>, [<minecraft:minecart>, <IC2:blockElectric>, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- CESU Cart ---
-Assembler.addRecipe(<Railcraft:cart.energy.cesu>, <minecraft:minecart>, <IC2:blockElectric:7>, 100, 16);
+Assembler.addRecipe(<Railcraft:cart.energy.cesu>, [<minecraft:minecart>, <IC2:blockElectric:7>, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- MFE Cart ---
-Assembler.addRecipe(<Railcraft:cart.energy.mfe>, <minecraft:minecart>, <IC2:blockElectric:1>, 100, 16);
+Assembler.addRecipe(<Railcraft:cart.energy.mfe>, [<minecraft:minecart>, <IC2:blockElectric:1>, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 16);
 
 // --- Electric Meter ---
-Assembler.addRecipe(<Railcraft:tool.electric.meter>, <IC2:itemToolMEter>, ReceiverCircuit, 300, 30);
+Assembler.addRecipe(<Railcraft:tool.electric.meter>, [<IC2:itemToolMEter>, ReceiverCircuit, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
 
 // --- Signal Tuner ---
-Assembler.addRecipe(<Railcraft:tool.signal.tuner>, <IC2:itemFreq>, ReceiverCircuit, 300, 30);
+Assembler.addRecipe(<Railcraft:tool.signal.tuner>, [<IC2:itemFreq>, ReceiverCircuit, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
 
 // --- Signal Block Surveyor ---
-Assembler.addRecipe(<Railcraft:tool.surveyor>, <Railcraft:tool.signal.tuner>, <minecraft:compass>, 300, 30);
+Assembler.addRecipe(<Railcraft:tool.surveyor>, [<Railcraft:tool.signal.tuner>, <minecraft:compass>, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
 
 
 
