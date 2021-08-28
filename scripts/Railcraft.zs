@@ -52,10 +52,12 @@ val ObsidianBlock = <ore:stoneObsidian>;
 
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val HHammer = <ore:craftingToolHardHammer>;
+val SoftMallet = <ore:craftingToolSoftMallet>;
 val Saw = <ore:craftingToolSaw>;
 val Piston = <minecraft:piston>;
 val SteelAnvil = <Railcraft:anvil>;
 val Wrench = <ore:craftingToolWrench>;
+val File = <ore:craftingToolFile>;
 
 val IronStairs = <Railcraft:stair:6>;
 val SteelStairs = <Railcraft:stair:43>;
@@ -136,6 +138,7 @@ val TinPlate = <ore:plateTin>;
 val LeadPlate = <ore:plateLead>;
 val IridiumPlate = <ore:plateIridium>;
 val DiamondLens = <ore:lensDiamond>;
+val RedstonePlate = <ore:plateRedstone>;
 
 val GoldScrew = <ore:screwGold>;
 val CopperScrew = <ore:screwCopper>;
@@ -174,6 +177,8 @@ val ReceiverCircuit = <Railcraft:part.circuit:1>;
 val SignalCircuit = <Railcraft:part.circuit:2>;
 val ControllerCircuit = <Railcraft:part.circuit>;
 
+val WoodTie = <Railcraft:part.tie>;
+val StoneTie = <Railcraft:part.tie:1>;
 val WoodenTrack = <Railcraft:track:736>.withTag({track: "railcraft:track.slow"});
 val Track = <minecraft:rail>;
 val ReinforcedTrack = <Railcraft:track>.withTag({track: "railcraft:track.reinforced"});
@@ -343,6 +348,9 @@ recipes.remove(<Railcraft:signal:6>);
 // --- Signal Interloack Box
 recipes.remove(<Railcraft:signal>);
 
+// --- Wood Railbed ---
+recipes.remove(WoodRailbed);
+
 // --- Stone Railbed ---
 recipes.remove(StoneRailbed);
 
@@ -350,7 +358,7 @@ recipes.remove(StoneRailbed);
 recipes.remove(WoodenRail);
 
 // --- Stone Tie ---
-recipes.remove(<Railcraft:part.tie:1>);
+recipes.remove(StoneTie);
 
 // --- Item Dtector ---
 recipes.remove(<Railcraft:detector>);
@@ -633,6 +641,29 @@ recipes.remove(<Railcraft:machine.gamma:11>);
 
 // --- Add Recipes ---
 
+// --- Rebar ---
+recipes.addShaped(Rebar * 2, [
+[null, HHammer, null],
+[IronRod, File, IronRod],
+[null, null, null]]);
+
+// --- Stone Tie ---
+recipes.addShaped(StoneTie, [
+[null, Rebar, null],
+[StoneBSlab, StoneBSlab, StoneBSlab],
+[null, null, null]]);
+
+// --- Wood Railbed ---
+recipes.addShaped(WoodRailbed, [
+[WoodTie, WoodTie],
+[WoodTie, WoodTie],
+[null, SoftMallet, null]]);
+
+// --- Stone Railbed ---
+recipes.addShaped(StoneRailbed, [
+[StoneTie, StoneTie],
+[StoneTie, StoneTie],
+[null, HHammer, null]]);
 
 // --- Wire Support Frame
 recipes.addShaped(<Railcraft:frame>, [
@@ -741,9 +772,9 @@ recipes.addShaped(<Railcraft:track>.withTag({track: "railcraft:track.suspended"}
 
 // --- Disposal Track ---
 recipes.addShaped(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}), [
-[IronScrew, <Railcraft:part.tie>, IronScrew],
+[IronScrew, WoodTie, IronScrew],
 [StandardRail, SteelPlate, StandardRail],
-[Screwdriver, <Railcraft:part.tie>, HHammer]]);
+[Screwdriver, WoodTie, HHammer]]);
 
 // --- Wooden Rail ---
 recipes.addShaped(<Railcraft:track:736>.withTag({track: "railcraft:track.slow"}) * 16, [
@@ -891,19 +922,41 @@ recipes.addShaped(<Railcraft:signal>, [
 
 // --- Wood Rail ---
 recipes.addShaped(WoodenRail * 12, [
-[IronRod, <Railcraft:part.tie>, WoodStick],
-[IronRod, <Railcraft:part.tie>, WoodStick],
-[IronRod, <Railcraft:part.tie>, WoodStick]]);
+[IronRod, WoodTie, WoodStick],
+[IronRod, WoodTie, WoodStick],
+[IronRod, WoodTie, WoodStick]]);
 // -
 recipes.addShaped(WoodenRail * 8, [
-[IronRod, <Railcraft:part.tie>, WoodStick],
-[IronRod, <Railcraft:part.tie>, WoodStick],
+[IronRod, WoodTie, WoodStick],
+[IronRod, WoodTie, WoodStick],
 [null, null, null]]);
 // -
 recipes.addShaped(WoodenRail * 4, [
-[IronRod, <Railcraft:part.tie>, WoodStick],
+[IronRod, WoodTie, WoodStick],
 [null, null, null],
 [null, null, null]]);
+
+// --- Standart Rail ---
+recipes.addShaped(StandardRail * 12, [
+[IronRod, StoneTie, IronRod],
+[IronRod, StoneTie, IronRod],
+[IronRod, StoneTie, IronRod]]);
+// -
+recipes.addShaped(StandardRail * 8, [
+[IronRod, StoneTie, IronRod],
+[IronRod, StoneTie, IronRod],
+[null, null, null]]);
+// -
+recipes.addShaped(StandardRail * 4, [
+[IronRod, StoneTie, IronRod],
+[null, null, null],
+[null, null, null]]);
+
+// --- Advanced Rail ---
+recipes.addShaped(AdvancedRail * 4, [
+[StandardRail, RedstonePlate, <ore:stickElectrum>],
+[StandardRail, RedstonePlate, <ore:stickElectrum>],
+[StandardRail, HHammer, <ore:stickElectrum>]]);
 
 // --- Item Dtector ---
 recipes.addShaped(<Railcraft:detector>, [
@@ -1261,10 +1314,10 @@ recipes.addShaped(SteelLantern, [
 [SteelScrew, SteelPlate, SteelScrew]]);
 
 // --- Signal Lamp ---
-recipes.addShaped(<Railcraft:part.signal.lamp>, [
-[GlassPane, <ProjRed|Illumination:projectred.illumination.lamp:29>, IronPlate],
-[GlassPane, <ProjRed|Illumination:projectred.illumination.lamp:20>, IronPlate],
-[GlassPane, <ProjRed|Illumination:projectred.illumination.lamp:30>, IronPlate]]);
+recipes.addShaped(SignalLamp * 8, [
+[GlassPane, <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_29"}), IronPlate],
+[GlassPane, <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_20"}), IronPlate],
+[GlassPane, <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_30"}), IronPlate]]);
 
 // --- Steam Turbine Disk ---
 recipes.addShapeless(<Railcraft:part.turbine.disk>, [<IC2:itemSteamTurbineBlade>]);
@@ -1458,6 +1511,8 @@ AlloySmelter.addRecipe(<Railcraft:armor.steel.boots>, <gregtech:gt.metaitem.01:1
 
 // --- Assembler Recipes ---
 
+// --- Signal Lamp ---
+Assembler.addRecipe(SignalLamp * 16, [GlassPane, IronPlate, <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_29"}), <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_20"}), <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.30"}), <gregtech:gt.integrated_circuit:16> * 0], null, 200, 30);
 
 // --- Electric Shunting Wire ---
 Assembler.addRecipe(<Railcraft:machine.delta>, [<ore:wireGt01AnyCopper>, <ore:wireGt01Lead>, <gregtech:gt.integrated_circuit:1> * 0], <liquid:molten.tin>  * 16, 200, 16);
@@ -1890,8 +1945,8 @@ mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar>);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:post:2>);
 
 // --- Wood Post ---
-mods.railcraft.Rolling.addShaped(<Railcraft:post> * 4, [[<Railcraft:part.tie>, null, <Railcraft:part.tie>], [<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>], [<Railcraft:part.tie>, null, <Railcraft:part.tie>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:post> * 4, [[<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>], [null, <Railcraft:part.tie>, null], [<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:post> * 4, [[WoodTie, null, WoodTie], [WoodTie, WoodTie, WoodTie], [WoodTie, null, WoodTie]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:post> * 4, [[WoodTie, WoodTie, WoodTie], [null, WoodTie, null], [WoodTie, WoodTie, WoodTie]]);
 
 // --- Stone Post ---
 mods.railcraft.Rolling.addShaped(<Railcraft:post:1> * 4, [[<minecraft:stone>, null, <minecraft:stone>], [<Railcraft:part.rebar>, <Railcraft:part.rebar>, <Railcraft:part.rebar>], [<minecraft:stone>, null, <minecraft:stone>]]);
