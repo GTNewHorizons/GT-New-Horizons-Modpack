@@ -52,7 +52,7 @@ val ObsidianBlock = <ore:stoneObsidian>;
 
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val HHammer = <ore:craftingToolHardHammer>;
-val SoftMallet = <ore:craftingToolSoftMallet>;
+val SoftMallet = <ore:craftingToolSoftHammer>;
 val Saw = <ore:craftingToolSaw>;
 val Piston = <minecraft:piston>;
 val SteelAnvil = <Railcraft:anvil>;
