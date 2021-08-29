@@ -849,73 +849,73 @@ recipes.addShaped(<Railcraft:track.elevator> * 2, [
 [Screwdriver, RedAlloyPlate, HHammer]]);
 
 //--- Switch Lever ---
-recipes.addShaped(SwitchLever, [
+recipes.addShaped(SwitchLever * 4, [
 [SteelScrew, RedAlloyRod, TinRod],
 [Lever, StickyPiston, SteelScrew],
 [SteelPlate, SteelPlate, SteelPlate]]);
 
 // --- Switch Motor ---
-recipes.addShaped(SwitchMotor, [
+recipes.addShaped(SwitchMotor * 4, [
 [SteelScrew, RedAlloyRod, TinRod],
 [Motor, ElectricPiston, ReceiverCircuit],
 [SteelPlate, SteelPlate, SteelPlate]]);
 
 // --- Signal Block ---
-recipes.addShaped(<Railcraft:signal:3>, [
+recipes.addShaped(<Railcraft:signal:3> * 4, [
 [SignalLamp, SignalCircuit, SteelPlate],
 [null, null, SteelPlate],
 [null, null, SteelPlate]]);
 
 // --- Distant Signal ---
-recipes.addShaped(<Railcraft:signal:11>, [
+recipes.addShaped(<Railcraft:signal:11> * 4, [
 [SignalLamp, ReceiverCircuit, SteelPlate],
 [null, null, SteelPlate],
 [null, null, SteelPlate]]);
 
 // --- Dual head Block Signal ---
-recipes.addShaped(<Railcraft:signal:1> , [
+recipes.addShaped(<Railcraft:signal:1> * 4 , [
 [SignalLamp, SignalCircuit, SteelPlate],
 [SteelPlate, SteelPlate, SteelPlate],
 [SignalLamp, ReceiverCircuit, SteelPlate]]);
 
 // --- Dual Head Distant Signal ---
-recipes.addShaped(<Railcraft:signal:12>, [
+recipes.addShaped(<Railcraft:signal:12> * 4, [
 [SignalLamp, ReceiverCircuit, SteelPlate],
 [SteelPlate, SteelPlate, SteelPlate],
 [SignalLamp, ReceiverCircuit, SteelPlate]]);
 
 // --- Signal Block Relay ---
-recipes.addShaped(<Railcraft:signal:13>, [
+recipes.addShaped(<Railcraft:signal:13> * 4, [
 [SteelPlate, SignalCircuit, SteelPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Signal Controll Box ---
-recipes.addShaped(<Railcraft:signal:9>, [
+recipes.addShaped(<Railcraft:signal:9> * 4, [
 [SteelPlate, ControllerCircuit, SteelPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Analog Signal Controll Box ---
-recipes.addShaped(<Railcraft:signal:10>, [
+recipes.addShaped(<Railcraft:signal:10> * 4, [
 [SteelPlate, ControllerCircuit, SteelPlate],
 [SteelPlate, <ProjRed|Integration:projectred.integration.gate:26>, SteelPlate]]);
 
 // --- Signal Receiver Box
-recipes.addShaped(<Railcraft:signal:8>, [
+recipes.addShaped(<Railcraft:signal:8> * 4, [
 [SteelPlate, ReceiverCircuit, SteelPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Signal Capacitor Box ---
-recipes.addShaped(<Railcraft:signal:7>, [
+recipes.addShaped(<Railcraft:signal:7> * 4, [
 [SteelPlate, <ProjRed|Integration:projectred.integration.gate:10>, SteelPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Signal Sequencer Box
-recipes.addShaped(<Railcraft:signal:6>, [
+recipes.addShaped(<Railcraft:signal:6> * 4, [
 [SteelPlate, <ProjRed|Integration:projectred.integration.gate:26>, SteelPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Signal Interloack Box
-recipes.addShaped(<Railcraft:signal>, [
+recipes.addShaped(<Railcraft:signal> * 4, [
 [SteelPlate, ReceiverCircuit, SteelPlate],
 [SteelPlate, ControllerCircuit, SteelPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
@@ -959,151 +959,151 @@ recipes.addShaped(AdvancedRail * 4, [
 [StandardRail, HHammer, <ore:stickElectrum>]]);
 
 // --- Item Dtector ---
-recipes.addShaped(<Railcraft:detector>, [
+recipes.addShaped(<Railcraft:detector> * 4, [
 [WoodLogs, Track, WoodLogs],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [WoodLogs, RedAlloyPlate, WoodLogs]]);
 
 // --- Any Detector --- 
-recipes.addShaped(<Railcraft:detector:1>, [
+recipes.addShaped(<Railcraft:detector:1> * 4, [
 [Stone, <minecraft:minecart>, Stone],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [Stone, RedAlloyPlate, Stone]]);
 
 // --- Empty Detector --- 
-recipes.addShaped(<Railcraft:detector:2>, [
+recipes.addShaped(<Railcraft:detector:2> * 4, [
 [StoneBrick, null, StoneBrick],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [StoneBrick, RedAlloyPlate, StoneBrick]]);
 
 // --- Mob Detector ---
-recipes.addShaped(<Railcraft:detector:3>, [
+recipes.addShaped(<Railcraft:detector:3> * 4, [
 [MossyStoneBricks, <minecraft:skull:2>, MossyStoneBricks],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [MossyStoneBricks, RedAlloyPlate, MossyStoneBricks]]);
 
 // --- Powered Detector --- 
-recipes.addShaped(<Railcraft:detector:4>, [
+recipes.addShaped(<Railcraft:detector:4> * 4, [
 [CobbleStone, <ProjRed|Integration:projectred.integration.gate:26>, CobbleStone],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [CobbleStone, RedAlloyPlate, CobbleStone]]);
 
 // --- Player Detector --- 
-recipes.addShaped(<Railcraft:detector:5>, [
+recipes.addShaped(<Railcraft:detector:5> * 4, [
 [StoneBSlab, <minecraft:skull:3>, StoneBSlab],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [StoneBSlab, RedAlloyPlate, StoneBSlab]]);
 
 // --- Explosive Detector ---
-recipes.addShaped(<Railcraft:detector:6>, [
+recipes.addShaped(<Railcraft:detector:6> * 4, [
 [WoodSlab, TNT, WoodSlab],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [WoodSlab, RedAlloyPlate, WoodSlab]]);
 
 // --- Animal Detector ---
-recipes.addShaped(<Railcraft:detector:7>, [
+recipes.addShaped(<Railcraft:detector:7> * 4, [
 [WoodLogs, Leather, WoodLogs],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [WoodLogs, RedAlloyPlate, WoodLogs]]);
 
 // --- Tank Detector ---
-recipes.addShaped(<Railcraft:detector:8>, [
+recipes.addShaped(<Railcraft:detector:8> * 4, [
 [Brick, Tank, Brick],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [Brick, RedAlloyPlate, Brick]]);
 
 // --- Advanced Detector ---
-recipes.addShaped(<Railcraft:detector:9>, [
+recipes.addShaped(<Railcraft:detector:9> * 4, [
 [SteelPlate, <Railcraft:detector:1>, SteelPlate],
 [RedAlloyPlate, <minecraft:light_weighted_pressure_plate>, RedAlloyPlate],
 [SteelPlate, RedAlloyPlate, SteelPlate]]);
 
 // --- Energy Detector ---
-recipes.addShaped(<Railcraft:detector:10>, [
+recipes.addShaped(<Railcraft:detector:10> * 4, [
 [TinPlate, TinCable, TinPlate],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [TinPlate, RedAlloyPlate, TinPlate]]);
 
 // --- Age Detector ---
-recipes.addShaped(<Railcraft:detector:11>, [
+recipes.addShaped(<Railcraft:detector:11> * 4, [
 [WoodLogs, <ore:cropWheat>, WoodLogs],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [WoodLogs, RedAlloyPlate, WoodLogs]]);
 
 // --- Train Detector ---
-recipes.addShaped(<Railcraft:detector:12>, [
+recipes.addShaped(<Railcraft:detector:12> * 4, [
 [NetherBricks, <Railcraft:track:30516>.withTag({track: "railcraft:track.locomotive"}), NetherBricks],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [NetherBricks, RedAlloyPlate, NetherBricks]]);
 
 // --- Sheep Detector ---
-recipes.addShaped(<Railcraft:detector:13>, [
+recipes.addShaped(<Railcraft:detector:13> * 4, [
 [Wool, Shears, Wool],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [Wool, RedAlloyPlate, Wool]]);
 
 // --- Villager Detector ---
-recipes.addShaped(<Railcraft:detector:14>, [
+recipes.addShaped(<Railcraft:detector:14> * 4, [
 [Leather, EmeraldPlate, Leather],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [Leather, RedAlloyPlate, Leather]]);
 
 // --- Locomotiv Detector ---
-recipes.addShaped(<Railcraft:detector:15>, [
+recipes.addShaped(<Railcraft:detector:15> * 4, [
 [InfernalBricks, <Railcraft:track:30516>.withTag({track: "railcraft:track.locomotive"}), InfernalBricks],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [InfernalBricks, RedAlloyPlate, InfernalBricks]]);
 
 // --- Routing Detector ---
-recipes.addShaped(<Railcraft:detector:16>, [
+recipes.addShaped(<Railcraft:detector:16> * 4, [
 [<minecraft:quartz_block:1>, <Railcraft:signal:4>, <minecraft:quartz_block:1>],
 [RedAlloyPlate, IronPressurePlate, RedAlloyPlate],
 [<minecraft:quartz_block:1>, RedAlloyPlate, <minecraft:quartz_block:1>]]);
 
 // --- Item Loader ---
-recipes.addShaped(<Railcraft:machine.gamma>, [
+recipes.addShaped(<Railcraft:machine.gamma> * 2, [
 [CobbleStone, Hopper, CobbleStone],
 [RedAlloyPlate, <Railcraft:detector>, RedAlloyPlate],
 [CobbleStone, Chest, CobbleStone]]);
 
 // --- Item Unloader ---
-recipes.addShaped(<Railcraft:machine.gamma:1>, [
+recipes.addShaped(<Railcraft:machine.gamma:1> * 2, [
 [CobbleStone, Chest, CobbleStone],
 [RedAlloyPlate, <Railcraft:detector>, RedAlloyPlate],
 [CobbleStone, Hopper, CobbleStone]]);
 
 // --- Adv Item Loader ---
-recipes.addShaped(<Railcraft:machine.gamma:2>, [
+recipes.addShaped(<Railcraft:machine.gamma:2> * 2, [
 [SteelPlate, Hopper, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:1>, RedAlloyPlate],
 [SteelPlate, Chest, SteelPlate]]);
 
 // --- Adv Item Unloader ---
-recipes.addShaped(<Railcraft:machine.gamma:3>, [
+recipes.addShaped(<Railcraft:machine.gamma:3> * 2, [
 [SteelPlate, Chest, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:1>, RedAlloyPlate],
 [SteelPlate, Hopper, SteelPlate]]);
 
 // --- Fluid Loader ---
-recipes.addShaped(<Railcraft:machine.gamma:4>, [
+recipes.addShaped(<Railcraft:machine.gamma:4> * 2, [
 [GlassPane, SteelPipe, GlassPane],
 [Pump, <Railcraft:detector:8>, Motor],
 [GlassPane, Tank, GlassPane]]);
 
 // --- Fluid Unloder ---
-recipes.addShaped(<Railcraft:machine.gamma:5>, [
+recipes.addShaped(<Railcraft:machine.gamma:5> * 2, [
 [GlassPane, Tank, GlassPane],
 [Motor, <Railcraft:detector:8>, Pump],
 [GlassPane, SteelPipe, GlassPane]]);
 
 // --- Energy Loader ---
-recipes.addShaped(<Railcraft:machine.gamma:6>, [
+recipes.addShaped(<Railcraft:machine.gamma:6> * 2, [
 [SteelPlate, <gregtech:gt.blockmachines:1426>, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:10>, RedAlloyPlate],
 [SteelPlate, <IC2:itemAdvBat:*>, SteelPlate]]);
 
 // --- Energy Unloder ---
-recipes.addShaped(<Railcraft:machine.gamma:7>, [
+recipes.addShaped(<Railcraft:machine.gamma:7> * 2, [
 [SteelPlate, <IC2:itemAdvBat:*>, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:10>, RedAlloyPlate],
 [SteelPlate, <gregtech:gt.blockmachines:1426>, SteelPlate]]);
@@ -1512,7 +1512,7 @@ AlloySmelter.addRecipe(<Railcraft:armor.steel.boots>, <gregtech:gt.metaitem.01:1
 // --- Assembler Recipes ---
 
 // --- Signal Lamp ---
-Assembler.addRecipe(SignalLamp * 16, [GlassPane, IronPlate, <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_29"}), <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_20"}), <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.30"}), <gregtech:gt.integrated_circuit:16> * 0], null, 200, 30);
+Assembler.addRecipe(SignalLamp * 16, [GlassPane, IronPlate, <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_29"}), <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_20"}), <ForgeMicroblock:microblock:516>.withTag({mat: "ProjRed|Illumination:projectred.illumination.lamp_30"}), <gregtech:gt.integrated_circuit:16> * 0], null, 200, 30);
 
 // --- Refined Firestone ---
 Assembler.addRecipe(<Railcraft:firestone.refined:5000>, [<Railcraft:firestone.cut>, <minecraft:redstone_block> * 2,  <gregtech:gt.integrated_circuit:1> * 0], <liquid:lava> * 576, 200, 480);
