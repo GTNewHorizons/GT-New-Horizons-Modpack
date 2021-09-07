@@ -217,9 +217,9 @@ mods.thaumcraft.Research.addArcanePage("CAP_silver", <Thaumcraft:WandCasting:4>.
 mods.thaumcraft.Research.clearPages("CAP_thaumium");
 mods.thaumcraft.Research.addPage("CAP_thaumium", "tc.research_page.CAP_thaumium.1");
 mods.thaumcraft.Arcane.addShaped("CAP_thaumium", <Thaumcraft:WandCap:6>, "ordo 30, ignis 30, aer 30", [
-[<ore:screwTitanium>, <ore:foilThaumium>, <ore:screwTitanium>],
+[<ore:screwKnightmetal>, <ore:foilThaumium>, <ore:screwKnightmetal>],
 [<ore:foilThaumium>, <ore:ringThaumium>, <ore:foilThaumium>],
-[<ore:screwTitanium>, <ore:foilThaumium>, <ore:screwTitanium>]]);
+[<ore:screwKnightmetal>, <ore:foilThaumium>, <ore:screwKnightmetal>]]);
 // -
 mods.thaumcraft.Research.addArcanePage("CAP_thaumium", <Thaumcraft:WandCap:6>);
 
