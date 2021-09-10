@@ -629,9 +629,6 @@ recipes.addShaped(<BuildCraft|Core:wrenchItem>, [
 
 
 
-// --- Combustion Engine
-Assembler.addRecipe(<BuildCraft|Core:engineBlock:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17302> * 10, 800, 256);
-
 // --- Propolis Pipes
 Assembler.addRecipe(<BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis>, <ProjRed|Transportation:projectred.transportation.pipe:1>, <Forestry:propolis> * 2, <liquid:for.honey> * 400, 300, 48);
 // -

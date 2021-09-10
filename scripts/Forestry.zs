@@ -2713,15 +2713,6 @@ Assembler.addRecipe(<Forestry:sturdyMachine>, <gregtech:gt.blockcasings:1>, <ore
 // --- Hardened  Casing
 Assembler.addRecipe(<Forestry:hardenedMachine>, <Forestry:sturdyMachine>, <gregtech:gt.metaitem.01:17500> * 8, 1200, 120);
 
-// --- Peat Fireed Engine
-Assembler.addRecipe(<Forestry:engine:1>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17032> * 10, 800, 64);
-
-// --- Biogas Engine
-Assembler.addRecipe(<Forestry:engine:2>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17300> * 10, 800, 120);
-
-// --- Clockwork Engine
-Assembler.addRecipe(<Forestry:engine:4>, <dreamcraft:item.EngineCore>, <gregtech:gt.metaitem.01:17304> * 10, 800, 48);
-
 // --- Can
 Assembler.addRecipe(<Forestry:canEmpty>, <gregtech:gt.metaitem.01:17057> * 2, <minecraft:glass_pane>, 120, 8);
 
