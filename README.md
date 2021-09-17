@@ -15,6 +15,10 @@ Starting in the stone age you will barely be able to survive until you get your 
 
 If you are a fan of expert mode packs and want to take it to the next level this pack will be your friend!
 
+## Installing and Downloads
+ 
+Instructions on installing can be found at https://gtnh.miraheze.org/wiki/Installing_and_Migrating and downloads can be found at http://downloads.gtnewhorizons.com - do not try to download the mods from the Modlist below, use the installer zips.
+
 ## Quotes
 
 - thcv - This pack is pushing my mental capacity
@@ -164,12 +168,12 @@ Forum Link: http://gtnewhorizons.com/<BR>
 
 
 ## Resource Realistic Sky GT New Horizons
-created by MajaProduction needs Optifine installed<BR>
-you find it in your resource folder<BR>
-
+A resource pack created by MajaProduction that needs Optifine installed, you can find it in your resource folder<BR>
 
 ---
 ## Modlist - NewHorizons
+ 
+Downloads can be found at http://downloads.gtnewhorizons.com - do not try to download and install using the links below, this is for reference.
 
 | Name | Version |
 | --- | --- |
