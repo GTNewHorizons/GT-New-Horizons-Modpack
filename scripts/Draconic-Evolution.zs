@@ -598,16 +598,16 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:energyInfuser>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
-// --- Particel Generator 
+// --- Particle Generator 
 mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:particleGenerator>, [
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, <DraconicEvolution:infusedObsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <DraconicEvolution:infusedObsidian>, null],
+[null, null, null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null],
 [null, null, null, <ore:stickBlaze>, null, null, null, <ore:stickBlaze>, null],
-[null, <DraconicEvolution:infusedObsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <DraconicEvolution:infusedObsidian>, null, <ore:itemVibrantCrystal>, null],
-[null, <ore:stickBlaze>, null, <ore:stickBlaze>, DraconicCore, <ore:stickBlaze>, null, <ore:stickBlaze>, null],
-[null, <ore:itemVibrantCrystal>, null, <DraconicEvolution:infusedObsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <DraconicEvolution:infusedObsidian>, null],
+[null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null, <ore:itemVibrantCrystal>, null],
+[null, <ore:stickBlaze>, null, <ore:stickBlaze>, <minecraft:redstone_block>, <ore:stickBlaze>, null, <ore:stickBlaze>, null],
+[null, <ore:itemVibrantCrystal>, null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null],
 [null, <ore:stickBlaze>, null, null, null, <ore:stickBlaze>, null, null, null],
-[null, <DraconicEvolution:infusedObsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <DraconicEvolution:infusedObsidian>, null, null, null],
+[null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // --- Item Dislocator
