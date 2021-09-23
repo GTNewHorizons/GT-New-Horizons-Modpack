@@ -604,7 +604,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:particleGenerator>, [
 [null, null, null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null],
 [null, null, null, <ore:stickBlaze>, null, null, null, <ore:stickBlaze>, null],
 [null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null, <ore:itemVibrantCrystal>, null],
-[null, <ore:stickBlaze>, null, <ore:stickBlaze>, <minecraft:redstone_block>, <ore:stickBlaze>, null, <ore:stickBlaze>, null],
+[null, <ore:stickBlaze>, null, <ore:stickBlaze>, <minecraft:comparator>, <ore:stickBlaze>, null, <ore:stickBlaze>, null],
 [null, <ore:itemVibrantCrystal>, null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null],
 [null, <ore:stickBlaze>, null, null, null, <ore:stickBlaze>, null, null, null],
 [null, <minecraft:obsidian>, <ore:stickBlaze>, <ore:itemVibrantCrystal>, <ore:stickBlaze>, <minecraft:obsidian>, null, null, null],
