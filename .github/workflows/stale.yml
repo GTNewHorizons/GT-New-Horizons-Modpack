@@ -29,7 +29,7 @@ jobs:
         operations-per-run: 50
         stale-issue-label: 'Status: stale'
         any-of-labels: "Status: can't fix,Status: can't reproduce,Status: Nothing i can do here"
-        exempt-issue-labels: 'Type: reminder,Type: Crash'
+        exempt-issue-labels: 'Type: reminder,Type: Crash,Status: FixedInDev,Status: stale (FixedInDev)'
         exempt-milestones: 'Icebox'
         ascending: true
     - uses: actions/stale@v3
@@ -39,6 +39,7 @@ jobs:
         days-before-stale: 7
         days-before-close: 1
         operations-per-run: 50
-        stale-issue-label: 'Status: stale'
+        stale-issue-label: 'Status: stale (FixedInDev)'
+        exempt-issue-labels: 'Status: stale'
         any-of-labels: "Status: FixedInDev"
         ascending: true
