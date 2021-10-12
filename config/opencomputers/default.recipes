@@ -244,6 +244,11 @@ batteryUpgrade3 {
           ["oc:capacitor", chipDiamond, "oc:capacitor"]
           [nuggetIron, "oc:capacitor", nuggetIron]]
 }
+beekeeperUpgrade {
+  input: [[ingotGold, blockGlass, ingotGold]
+          ["oc:circuitChip3", {item="Forestry:beealyzer"}, "oc:circuitChip3"]
+          [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
+}
 chunkloaderUpgrade {
   input: [[ingotGold, blockGlass, ingotGold]
           ["oc:circuitChip3", eyeOfEnder, "oc:circuitChip3"]
