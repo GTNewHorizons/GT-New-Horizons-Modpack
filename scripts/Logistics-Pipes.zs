@@ -190,7 +190,7 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicTransport> * 32, [<ore:st
 
 
 // --- Basic Logistics Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicLogistics> * 2, [<LogisticsPipes:item.PipeItemsBasicTransport> * 2, <ore:gearGtSmallGold> * 2, <ore:gemFlawedDiamond> * 8, <ore:circuitBasic> * 2, <ore:wireFineSilver> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 72, 800, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, [<LogisticsPipes:item.PipeItemsBasicTransport> * 4, <ore:gearGtSmallGold> * 2, <ore:gemFlawedDiamond> * 8, <ore:circuitBasic> * 2, <ore:wireFineSilver> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 72, 800, 30);
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, [<LogisticsPipes:item.PipeItemsBasicTransport> * 4, <ore:gearGtSmallGold> * 2, <ore:stickDiamond> * 2, <ore:circuitBasic> * 2, <ore:wireFineSilver> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 72, 800, 30);
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicLogistics> * 8, [<LogisticsPipes:item.PipeItemsBasicTransport> * 8, <ore:gearGtSmallGold> * 2, <ore:stickDiamond> * 2, <ore:circuitGood> * 2, <ore:wireFineSilver> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 72, 800, 30);
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicLogistics> * 16, [<LogisticsPipes:item.PipeItemsBasicTransport> * 16, <ore:gearGtSmallGold> * 2, <ore:stickDiamond> * 2, <ore:circuitAdvanced>, <ore:wireFineSilver> * 16, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 72, 800, 30);
