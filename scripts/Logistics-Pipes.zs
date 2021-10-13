@@ -227,9 +227,9 @@ FormingPress.addRecipe(<LogisticsPipes:item.itemModule:16>, <LogisticsPipes:item
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:6>, <LogisticsPipes:item.itemModule:1>, <ExtraUtilities:trashcan>, 600, 30);
 
 // --- Passive Supplier Module
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:2>, [<LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32690>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2], <liquid:molten.lead> * 144, 900, 30);
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:2>, [<LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32690>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2], <liquid:molten.tin> * 72, 900, 30);
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:2>, [<LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32690>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2], <liquid:molten.solderingalloy> * 36, 900, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 3, [<LogisticsPipes:item.itemModule> * 3, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32690>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2], <liquid:molten.lead> * 144, 900, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 3, [<LogisticsPipes:item.itemModule> * 3, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32690>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2], <liquid:molten.tin> * 72, 900, 30);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 3, [<LogisticsPipes:item.itemModule> * 3, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32690>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2], <liquid:molten.solderingalloy> * 36, 900, 30);
 
 // --- Active Supplier Module
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:502> * 2, <LogisticsPipes:item.itemModule:2> * 2, <LogisticsPipes:item.logisticsParts:5>, 600, 30); //Gold Upgrade Chip
