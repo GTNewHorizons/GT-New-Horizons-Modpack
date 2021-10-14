@@ -111,7 +111,7 @@ mods.thaumcraft.Infusion.removeRecipe(<EMT:QuantumGogglesRevealing:*>);
 // --- Solar Helm of Revealing
 mods.thaumcraft.Infusion.removeRecipe(<EMT:SolarHelmetRevealing:*>);
 
-// --- Compressed Solar Pannels
+// --- Compressed Solar Panels
 mods.thaumcraft.Arcane.removeRecipe(<EMT:EMTSolars:*>);
 // -
 mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTSolars:*>);
@@ -630,12 +630,12 @@ mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGoggles
 mods.thaumcraft.Research.addInfusionPage("SolarHelmetofRevealing", <EMT:SolarHelmetRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("SolarHelmetofRevealing", 3);
 
-// --- Compressed Solar Pannels
+// --- Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Compressed Solars");
 mods.thaumcraft.Research.removeResearch("Compressed Solars");
 mods.thaumcraft.Research.addResearch("CompressedSolars", "EMT", "potentia 18, lux 15, metallum 12, praecantatio 9, ignis 6, aer 3", -6 as int, -4 as int, 3, <EMT:EMTSolars>);
 mods.thaumcraft.Research.addPrereq("CompressedSolars", "ElectricMagicTools", true);
-game.setLocalization("tc.research_name.CompressedSolars", "Compressed Solar Pannels");
+game.setLocalization("tc.research_name.CompressedSolars", "Compressed Solar Panels");
 game.setLocalization("tc.research_text.CompressedSolars", "Increase the efficiency!");
 mods.thaumcraft.Research.addPage("CompressedSolars", "tc.research_page.CompressedSolars");
 game.setLocalization("tc.research_page.CompressedSolars", "You have found a way to compress 8 mundane Solar Panels in a magical one, that acts as if it was made of 10 mundane solar panels, generating 10 EU/t. You may repeat this process with compressed solar panels, allowing you to increase the power potential per block even higher. You can also, by magical infusion, create triple compressed solar panels, taking the folly a step further.");
@@ -692,13 +692,13 @@ mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <AdvancedSolarPanel:asp_c
 "aer 4800, aqua 4800, terra 4800, ignis 4800, ordo 4800, perditio 4800", <EMT:EMTSolars4:12>, 20);
 mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:12>);
 
-// --- Water Infused Compressed Solar Pannels
+// --- Water Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Water Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Water Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("WaterInfusedSolarPanels", "EMT", "aqua 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -7 as int, -7 as int, 3, <EMT:EMTSolars:3>);
 mods.thaumcraft.Research.addPrereq("WaterInfusedSolarPanels", "CompressedSolars", false);
 mods.thaumcraft.Research.setConcealed("WaterInfusedSolarPanels", true);
-game.setLocalization("tc.research_name.WaterInfusedSolarPanels", "Water Infused Solar Pannels");
+game.setLocalization("tc.research_name.WaterInfusedSolarPanels", "Water Infused Solar Panels");
 game.setLocalization("tc.research_text.WaterInfusedSolarPanels", "Curse you rain!");
 mods.thaumcraft.Research.addPage("WaterInfusedSolarPanels", "tc.research_page.WaterInfusedSolarPanels");
 game.setLocalization("tc.research_page.WaterInfusedSolarPanels", "You always hated rain, especially when all your power came from Solar Panels. You hated it so much that you decided to find a way to make your Solar Panels keep running during rain. You managed... kind of. The Water Infused Solar Panels work during rain, and during rain only.");
@@ -721,7 +721,7 @@ mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>
 mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>);
 
 
-// --- Entropy Infused Compressed Solar Pannels
+// --- Entropy Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Entropy Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Entropy Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("EntropyInfusedSolarPanels", "EMT", "perditio 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -8 as int, -6 as int, 3, <EMT:EMTSolars:6>);
@@ -750,7 +750,7 @@ mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4:
 mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4:14>);
 
 
-// --- Order Infused Compressed Solar Pannels
+// --- Order Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("OrderInfusedSolarPanels", "EMT", "ordo 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6 as int, -8 as int, 3, <EMT:EMTSolars:9>);
@@ -779,7 +779,7 @@ mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars4:13
 mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars4:13>);
 
 
-// --- Fire Infused Compressed Solar Pannels
+// --- Fire Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Fire Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Fire Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("FireInfusedSolarPanels", "EMT", "ignis 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -5 as int, -7 as int, 3, <EMT:EMTSolars:12>);
@@ -807,7 +807,7 @@ mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolar
 mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars5:2>, <EMT:EMTSolars4:12>, "ignis 4096, permutatio 4096, praecantatio 4096, lux 2048");
 mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars5:2>);
 
-// --- Air Infused Compressed Solar Pannels
+// --- Air Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("AirInfusedSolarPanels", "EMT", "aer 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -4 as int, -6 as int, 3, <EMT:EMTSolars:15>);
@@ -835,7 +835,7 @@ mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars
 mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:15>, <EMT:EMTSolars4:12>, "aer 4096, permutatio 4096, praecantatio 4096, lux 2048");
 mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:15>);
 
-// --- Earth Infused Compressed Solar Pannels
+// --- Earth Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Earth Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Earth Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("EarthInfusedSolarPanels", "EMT", "terra 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6 as int, -7 as int, 3, <EMT:EMTSolars2:2>);
