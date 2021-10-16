@@ -7434,7 +7434,7 @@ gtnh.quest1857.desc=Do you like pies? I sure do! There are many varieties of pie
 
 # Quest.1858 - §9§lMagnetic Personality
 gtnh.quest1858.name=§9§lMagnetic Personality
-gtnh.quest1858.desc=If you haven't received one in a lootbag already, you can craft a nice magnet with a vibrant crystal. It doesn't work great on servers if you'2re moving around too fast, but it makes harvesting crops a lot easier.
+gtnh.quest1858.desc=If you haven't received one in a lootbag already, you can craft a nice magnet with a vibrant crystal. It doesn't work great on servers if you're moving around too fast, but it makes harvesting crops a lot easier.
 
 # Quest.1859 - Need Some Leather?
 gtnh.quest1859.name=Need Some Leather?
@@ -7574,7 +7574,7 @@ gtnh.quest1892.desc=Want some fluorine? Buy some!
 
 # Quest.1893 - §6§lFluid Regulator
 gtnh.quest1893.name=§6§lFluid Regulator
-gtnh.quest1893.desc=Turbines require precise amounts of fluids or else they will §4explode§r. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right click with an empty hand%n16L - Right click with a screwdriver%n256L - Right click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n§3If you shift-right click on it you can use the interface which is more precise.
+gtnh.quest1893.desc=Turbines require precise amounts of fluids or else they will §4explode§r. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right click with an empty hand%n16L - Right click with a screwdriver%n256L - Right click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n§3If you shift-right click on it you can use the interface which is more precise.
 
 # Quest.1894 - §6§lGas Turbine
 gtnh.quest1894.name=§6§lGas Turbine
@@ -7654,7 +7654,7 @@ gtnh.quest1912.desc=When doing infusions, it's always good to know how close you
 
 # Quest.1913 - §6§lGut-Enough For You? Bet You Thought Newspapers Were Dead!
 gtnh.quest1913.name=§6§lGut-Enough For You? Bet You Thought Newspapers Were Dead!
-gtnh.quest1913.desc=The Typesetting Table and Printing Press will allow you to duplicate books, including enchanted books. The process is kinda complicated, so check out the Bibliocraft mod wiki page. You'll need to use XP to duplicate enchanted books, so now would be a good time to figure out how to collect large amounts...%n%n§3You'll need some Thaumium ingots. You can get into Thaumcraft, find some in a chest, or try breeding the Magical Metal Berry IC2 crop.
+gtnh.quest1913.desc=The Typesetting Table and Printing Press will allow you to duplicate books, including enchanted books. The process is kinda complicated, so check out the Bibliocraft mod wiki page. You'll need to use XP to duplicate enchanted books, so now would be a good time to figure out how to collect large amounts...%n%nTo duplicate a Fortune III book you may need 40+ levels. Note that the wiki mentions black dye but only vanilla ink sacs will work.%n%n§3You'll need some Thaumium ingots. You can get into Thaumcraft, find some in a chest, or try breeding the Magical Metal Berry IC2 crop.
 
 # Quest.1914 - §6§lDo You Feel Unlucky?
 gtnh.quest1914.name=§6§lDo You Feel Unlucky?
@@ -9390,7 +9390,7 @@ gtnh.quest2346.desc=Once you have the required materials, you will need to find 
 
 # Quest.2347 - Flame Imp
 gtnh.quest2347.name=Flame Imp
-gtnh.quest2347.desc=Flame Imps are demons strongly associated with fiery magic.%n%nNot as physically strong as their dimmer cousins, Flame Imps are mischievous creatures who are very easily swayed with the promise of personal gain. They may even be bound into the service of a witch (or warlock) if the offer is good enough.%n%nFlame Imps are summoned using a Rite of Summoning, and they are most likely to attack the first person they see. It is advisable to make a deal with them quickly.%n%nMaking a deal%n%nTo bind a Flame Imp into service, a witch must write the agreement into a Demonic Contract and sign it with their own blood (craft with a Taglock Kit). %nThis contract must then be given to the Flame Imp, who will require a down-payment of Experience Levels (typically 25).%n%nOnce a deal is struck, the imp will be bound to the location of the deal, not able to wander too far away. The Imp will attack anyone hostile to its master.%n%nImps like receiving valuable gifts, once suitably impressed an imp may be prepared to perform various flame related spells at the request of their master.%n%nSpells take the form of contracts describing what must be done and to whom. %nSimply craft a Demonic Contract with the necessary components and then the resulting contract with a taglock. %nThen give the contract to the the Imp. So long as the creature is in the same dimension, the magic will take hold.%n%nA Flame imp may also occasionally give a gift in return for being given valuable things. These have been known to include the souls of demons that can be consumed to allow a witch to cast demonic spells. %n%nA very well treated Flame Imp may even yield knowledge to summon a Lord of Torment.%n%n
+gtnh.quest2347.desc=Flame Imps are demons strongly associated with fiery magic.%n%nNot as physically strong as their dimmer cousins, Flame Imps are mischievous creatures who are very easily swayed with the promise of personal gain. They may even be bound into the service of a witch (or warlock) if the offer is good enough.%n%nFlame Imps are summoned using a Rite of Summoning, and they are most likely to attack the first person they see. It is advisable to make a deal with them quickly.%n%nMaking a deal%n%nTo bind a Flame Imp into service, a witch must write the agreement into a Demonic Contract and sign it with their own blood (craft with a Taglock Kit). %nThis contract must then be given to the Flame Imp, who will require a down-payment of Experience Levels (typically 25).%n%nOnce a deal is struck, the imp will be bound to the location of the deal, not able to wander too far away. The Imp will attack anyone hostile to its master.%n%nImps like receiving valuable gifts, once suitably impressed an imp may be prepared to perform various flame related spells at the request of their master.%n%nSpells take the form of contracts describing what must be done and to whom. %nSimply craft a Demonic Contract with the necessary components and then the resulting contract with a taglock. %nThen give the contract to the Imp. So long as the creature is in the same dimension, the magic will take hold.%n%nA Flame imp may also occasionally give a gift in return for being given valuable things. These have been known to include the souls of demons that can be consumed to allow a witch to cast demonic spells. %n%nA very well treated Flame Imp may even yield knowledge to summon a Lord of Torment.%n%n
 
 # Quest.2348 - Lord of Torment
 gtnh.quest2348.name=Lord of Torment
@@ -11639,6 +11639,22 @@ gtnh.quest2908.desc=No Description
 # Quest.2909 - Trigger:Tungstensteel Mars Skip
 gtnh.quest2909.name=Trigger:Tungstensteel Mars Skip
 gtnh.quest2909.desc=No Description
+
+# Quest.2910 - §3§lBarrel Upgrades Tier 3
+gtnh.quest2910.name=§3§lBarrel Upgrades Tier 3
+gtnh.quest2910.desc=Are your upgraded cobblestone or dirt barrels full again? No problem, upgrade them some more!
+
+# Quest.2911 - §3§lBarrel Upgrades Tier 4
+gtnh.quest2911.name=§3§lBarrel Upgrades Tier 4
+gtnh.quest2911.desc=Are your upgraded cobblestone or dirt barrels full again? No problem, upgrade them some more!
+
+# Quest.2912 - §3§lBarrel Upgrades Tier 5
+gtnh.quest2912.name=§3§lBarrel Upgrades Tier 5
+gtnh.quest2912.desc=Are your upgraded cobblestone or dirt barrels full again? No problem, upgrade them some more!
+
+# Quest.2913 - Sticky Matter
+gtnh.quest2913.name=Sticky Matter
+gtnh.quest2913.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap?  Buy a stack of sticky resin for some coins.
 
 ##################################Line##################################
 
