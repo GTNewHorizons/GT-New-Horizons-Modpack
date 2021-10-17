@@ -456,6 +456,9 @@ recipes.remove(<EnderIO:itemLiquidConduit:1>);
 // --- Ender Fluid Conduit
 recipes.remove(<EnderIO:itemLiquidConduit:2>);
 
+// --- Advanced Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:3>);
+
 // --- Item Conduit
 recipes.remove(<EnderIO:itemItemConduit>);
 
@@ -1291,6 +1294,9 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:51
 
 // --- Ender Fluid Conduit
 Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5680>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
+
+// --- Advanced Ender Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:3>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.plastic> * 144, 100, 960);
 
 // --- Item Conduit
 Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);
