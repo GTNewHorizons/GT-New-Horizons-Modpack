@@ -6,7 +6,7 @@
 
 
 import mods.gregtech.Assembler;
-
+import mods.gregtech.Pulverizer;
 
 
 
@@ -240,3 +240,10 @@ recipes.addShaped(<gregtech:gt.blockmachines:820>, [
 // --- Personal Cloaking Device
 Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium> * 4, <gregtech:gt.metaitem.01:32597>, <liquid:molten.nichrome> * 1440, 2400, 7860);
 
+
+
+// --- Pulverizer Recipes ---
+
+
+// --- Human Flesh to Mince Meat
+Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2892>], <miscutils:item.BasicMetaFood>, [10000], 100, 4);
