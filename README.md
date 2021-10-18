@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.1.4 dev is out 17.10.2021
+Version 2.1.1.4 dev is out 19.10.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -184,7 +184,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AFSU](https://www.curseforge.com/minecraft/mc-mods/afsu-mod) | 1.2.3.a |
 | [Anger Mod](https://github.com/GTNewHorizons/AngerMod) | 0.6.1 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 1.3.9 |
-| [Applied Energistics](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-56-GTNH |
+| [Applied Energistics](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-57-GTNH |
 | [Architecture Craft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.7.4-GTNH |
 | [Aroma Backup](https://www.curseforge.com/minecraft/mc-mods/aromabackup) | 0.1.0.0 |
 | [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
@@ -221,7 +221,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.6.6 |
 | [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) | 1.0.0 |
 | [CraftPresence](https://www.curseforge.com/minecraft/mc-mods/craftpresence) | 1.8.2 |
-| [Craft Tweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.2-14-GTNH |
+| [Craft Tweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.3-17-GTNH |
 | [Crops ++](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.3.5.5 |
 | [Custom Main Menu](https://www.curseforge.com/minecraft/mc-mods/custom-main-menu) | 1.9.2 |
 | [Default World Generator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.1-b13 |
@@ -293,7 +293,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Natures Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) | 1.3.1 |
 | [NEI](https://github.com/GTNewHorizons/NotEnoughItems) | 2.1.14-GTNH |
 | [Nei Addons](https://www.curseforge.com/minecraft/mc-mods/nei-addons) | 1.12.15.DEV |
-| [Nei Custom Diagramm](http://jenkins.usrv.eu:8080/job/Nei-custom-diagram/) | 1.1.1 |
+| [Nei Custom Diagramm](http://jenkins.usrv.eu:8080/job/Nei-custom-diagram/) | 1.1.2 |
 | [Nei Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.1.2 |
 | [Nether Portal Fix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.1.1 |
 | [Nodal Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.5-GTNH |
