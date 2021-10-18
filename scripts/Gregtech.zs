@@ -1764,3 +1764,4 @@ for GT_Dye, oreDye in {
 
 // --- blueprint conversion
 recipes.addShapeless(<structurelib:item.structurelib.constructableTrigger>, [<ore:dyeBlue>, <ore:platePaper>, <ore:dyeBlue>, <ore:dyeWhite>,]);
+recipes.addShapeless(<tectech:item.em.constructable>, [<structurelib:item.structurelib.constructableTrigger>]);
