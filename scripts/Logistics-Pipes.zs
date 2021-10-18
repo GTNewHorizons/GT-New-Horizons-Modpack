@@ -295,9 +295,9 @@ CircuitAssembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPi
 // - MV Tier
 // ||||| Modules |||||
 // --- Quicksort Module
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.itemModule:501>, <gregtech:gt.metaitem.01:32652>, <ore:circuitAdvanced>, <ore:plateLapis>, <ore:boltDiamond> * 8], <liquid:molten.lead> * 144, 900, 120);
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.itemModule:501>, <gregtech:gt.metaitem.01:32652>, <ore:circuitAdvanced>, <ore:plateLapis>, <ore:boltDiamond> * 8], <liquid:molten.tin> * 72, 900, 120);
-CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.itemModule:501>, <gregtech:gt.metaitem.01:32652>, <ore:circuitAdvanced>, <ore:plateLapis>, <ore:boltDiamond> * 8], <liquid:molten.solderingalloy> * 36, 900, 120);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.itemModule:500>, <gregtech:gt.metaitem.01:32651>, <ore:circuitGood>, <ore:plateLapis>, <ore:boltDiamond> * 8], <liquid:molten.lead> * 144, 900, 120);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.itemModule:500>, <gregtech:gt.metaitem.01:32651>, <ore:circuitGood>, <ore:plateLapis>, <ore:boltDiamond> * 8], <liquid:molten.tin> * 72, 900, 120);
+CircuitAssembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.itemModule:500>, <gregtech:gt.metaitem.01:32651>, <ore:circuitGood>, <ore:plateLapis>, <ore:boltDiamond> * 8], <liquid:molten.solderingalloy> * 36, 900, 120);
 
 // --- CC Quicksort Module (Open Computers Quicksort) Don't ask me how it works
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:14>, <LogisticsPipes:item.itemModule:5>, <OpenComputers:item:70>, 600, 480);
