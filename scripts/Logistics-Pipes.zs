@@ -852,9 +852,9 @@ recipes.addShaped(DisconnectWest, [
 // ||||| Fluid Pipes |||||
 
 // --- Basic Fluid Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic> * 4, [<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic> * 4, [<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 1600, 120);
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic> * 4, [<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.metaitem.01:32611>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 1600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic> * 4, [<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 800, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic> * 4, [<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 800, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidBasic> * 4, [<LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 800, 30);
 
 // --- Fluid Supplier Pipe
 Assembler.addRecipe(<LogisticsPipes:item.PipeFluidSupplierMk2> * 2, [<LogisticsPipes:item.PipeFluidBasic> * 2, <LogisticsPipes:item.itemModule:502>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
@@ -876,7 +876,7 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeFluidRequestLogistics>, [<Logistics
 Assembler.addRecipe(<LogisticsPipes:item.PipeFluidSatellite>, [<LogisticsPipes:item.PipeFluidBasic>, <LogisticsPipes:item.itemModule>, <gregtech:gt.metaitem.01:32652>, <gregtech:gt.metaitem.01:32692>, <ore:plateEnderEye>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
 
 // --- Fluid Extractor Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeFluidExtractor> * 3, [<LogisticsPipes:item.PipeFluidBasic> * 3, <LogisticsPipes:item.itemModule:3>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 120);
+Assembler.addRecipe(<LogisticsPipes:item.PipeFluidExtractor> * 3, [<LogisticsPipes:item.PipeFluidBasic> * 3, <LogisticsPipes:item.itemModule:3>, <gregtech:gt.metaitem.01:32405>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 
 
 // ||||| Fluid Upgrades |||||
