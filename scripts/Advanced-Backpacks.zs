@@ -245,6 +245,11 @@ recipes.addShaped(<adventurebackpack:pistonBoots>, [
 [<Backpack:tannedLeather>, <ore:craftingToolScrewdriver>, <Backpack:tannedLeather>],
 [<ore:plateAnyRubber>, <minecraft:leather_boots>, <ore:plateAnyRubber>],
 [<ore:craftingPiston>, <ore:screwBronze>, <ore:craftingPiston>]]);
+// -
+recipes.addShaped(<adventurebackpack:pistonBoots>, [
+[<ore:string>, <Backpack:tannedLeather>, <ore:string>],
+[<ore:plateAnyRubber>, <adventurebackpack:pistonBoots:*>, <ore:plateAnyRubber>],
+[null, null, null]]);
 
 // --- Adventures Suit
 recipes.addShaped(<adventurebackpack:adventureSuit>, [
