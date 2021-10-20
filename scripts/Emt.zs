@@ -1389,7 +1389,7 @@ mods.thaumcraft.Research.addInfusionPage("EtheralProcessor", <EMT:EMTMachines:1>
 // --- Research Completer
 mods.thaumcraft.Research.orphanResearch("ResearchCompleter");
 mods.thaumcraft.Research.removeResearch("ResearchCompleter");
-mods.thaumcraft.Research.addResearch("ResearchCompleter", "EMT", "cognitio 8, machina 5, permutatio 5, auram 4", 6, -2 as int, 0, <gregtech:gt.blockmachines:13001>);
+mods.thaumcraft.Research.addResearch("ResearchCompleter", "EMT", "cognitio 8, machina 5, permutatio 5, auram 4", -2 as int, 6, 0, <gregtech:gt.blockmachines:13001>);
 mods.thaumcraft.Research.addPrereq("ResearchCompleter", "WANDPED", false);
 mods.thaumcraft.Research.addPrereq("ResearchCompleter", "WARDEDARCANA", false);
 mods.thaumcraft.Research.setRound("ResearchCompleter", true);
