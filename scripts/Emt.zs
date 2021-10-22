@@ -1386,6 +1386,28 @@ mods.thaumcraft.Infusion.addRecipe("EtheralProcessor", <gregtech:gt.blockmachine
 "machina 16, fabrico 16, potentia 24, praecantatio 28, cognitio 8", <EMT:EMTMachines:1>, 9);
 mods.thaumcraft.Research.addInfusionPage("EtheralProcessor", <EMT:EMTMachines:1>);
 
+// --- Research Completer
+mods.thaumcraft.Research.orphanResearch("ResearchCompleter");
+mods.thaumcraft.Research.removeResearch("ResearchCompleter");
+mods.thaumcraft.Research.addResearch("ResearchCompleter", "EMT", "cognitio 8, machina 5, permutatio 5, auram 4", -2 as int, 6, 0, <gregtech:gt.blockmachines:13001>);
+mods.thaumcraft.Research.addPrereq("ResearchCompleter", "WANDPED", false);
+mods.thaumcraft.Research.addPrereq("ResearchCompleter", "WARDEDARCANA", false);
+mods.thaumcraft.Research.setRound("ResearchCompleter", true);
+game.setLocalization("tc.research_name.ResearchCompleter", "Automated Research");
+game.setLocalization("tc.research_text.ResearchCompleter", "No more ordo spam");
+mods.thaumcraft.Research.addPage("ResearchCompleter", "tc.research_page.ResearchCompleter");
+game.setLocalization("tc.research_page.ResearchCompleter", "It was fun at first, but you've decided it's time to find a better way to handle all this research. By mixing technology and magic you have come up with a multiblock that can complete a research note by itself.<BR><BR>To function, it needs nodes to be placed in the center of the structure and will slowly destroy them while running. Node stabilizers are optional but recommended for keeping so many nodes close together without them destroying each other.");
+mods.thaumcraft.Arcane.addShaped("ResearchCompleter", <gregtech:gt.blockcasings8:8>, "ignis 8, aer 8, ordo 8", [
+[<ore:plateThaumium>, <Thaumcraft:ItemResource:14>, <ore:plateThaumium>],
+[<ore:plateThaumium>, <ore:frameGtThaumium>, <ore:plateThaumium>],
+[<ore:plateThaumium>, <Thaumcraft:ItemResource:14>, <ore:plateThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("ResearchCompleter", <gregtech:gt.blockcasings8:8>);
+mods.thaumcraft.Arcane.addShaped("ResearchCompleter", <gregtech:gt.blockmachines:13001>, "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[<ore:circuitGood>, <Thaumcraft:blockCosmeticOpaque:2>, <ore:circuitGood>],
+[<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.blockcasings8:8>, <Thaumcraft:blockCosmeticOpaque:2>],
+[<ore:circuitGood>, <Thaumcraft:blockStoneDevice:5>, <ore:circuitGood>]]);
+mods.thaumcraft.Research.addArcanePage("ResearchCompleter", <gregtech:gt.blockmachines:13001>);
+
 
 
 
