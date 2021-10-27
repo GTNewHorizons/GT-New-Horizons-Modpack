@@ -197,9 +197,8 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeItemsBasicLogistics> * 16, [<Logist
 
 // ||||| Modules |||||
 // --- Blank Module
-Assembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 30);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 900, 30);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule> * 4, [<ProjRed|Core:projectred.core.part> * 4, <ore:circuitBasic>, <ore:foilTin> * 8, <ore:wireGt01Gold> * 6, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 30);
+recipes.addShapeless(<LogisticsPipes:item.itemModule>, [<ProjRed|Core:projectred.core.part:44>]);
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:44>, [<LogisticsPipes:item.itemModule>]);
 
 // --- Itemsink Module
 Assembler.addRecipe(<LogisticsPipes:item.itemModule:1>, [<LogisticsPipes:item.itemModule>, GTFilter, <ore:circuitBasic>, <ore:plateRedAlloy>, <ProjRed|Core:projectred.core.part:32> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 30);
