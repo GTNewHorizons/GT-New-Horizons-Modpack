@@ -262,7 +262,7 @@ gtnh.quest64.desc=An updated version of the steam furnace. Uses more steam, but 
 
 # Quest.65 - §3§lBlastoff!
 gtnh.quest65.name=§3§lBlastoff!
-gtnh.quest65.desc=It's about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here once you've made at least 8 steel ingots.
+gtnh.quest65.desc=It's about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here once you've made at least 8 steel ingots.%n%nCan't see the quest yet? You need to do more quests here until you've unlocked the Steam Compressor.
 
 # Quest.66 - §3§lTime For Some Logic
 gtnh.quest66.name=§3§lTime For Some Logic
@@ -414,7 +414,7 @@ gtnh.quest102.desc=An absolutely mandatory machine to have. It will cut rods int
 
 # Quest.103 - §5§lGetting Ready for Tier 2, MV
 gtnh.quest103.name=§5§lGetting Ready for Tier 2, MV
-gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, nine is enough to complete this quest. Probably the best source for aluminium is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. Check back in your Tier 0 quests for hints.%n%nYou'll need to do the EBF quest in Multiblock Goals to turn the dust into ingots. If you can't find how to get nickel, go visit the Twilight Forest.%n%nBy the time you've completed this, you'll probably be done most of the tab, but you'll still need Good (MV) circuits to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.
+gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, ten is enough to complete this quest. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. Check back in your Tier 0 quests for hints.%n%nYou'll need to do the EBF quest in Multiblock Goals to turn the dust into ingots. If you can't find how to get nickel, go visit the Twilight Forest. Cryolite is found in the Twilight as well. Go and find a new Galena vein.%n%nBy the time you've completed this, you'll probably be done most of the tab, but you'll still need Good (MV) circuits to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you wonu0027t find any cryolite in existing veins, you need to explore new chunks.
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§lYour Magic Progression
@@ -550,7 +550,7 @@ gtnh.quest136.desc=Conduits on their own are pretty awesome, but you can do bett
 
 # Quest.137 - §6§lMaking Things Pretty
 gtnh.quest137.name=§6§lMaking Things Pretty
-gtnh.quest137.desc=While conduits on their own are already awesome, you can also hide them if you want. There are 2 types of facades, basic and hardened. While basic ones are simple and easy, the reinforced ones are able to withstand explosions and mining with tools. You have to use your Yeta Wrench to remove it.
+gtnh.quest137.desc=While conduits on their own are already awesome, you can also hide them if you want. There are 2 types of facades, basic and hardened. While basic ones are simple and easy, the reinforced ones are able to withstand explosions and mining with tools. You have to use your Yeta Wrench to remove it.%n%nYou'll have to paint your facades in the Painting Machine first - place the block you want them to look like where the paintbrush is, and the facade on the left. Of course, the Painting Machine needs to be powered.
 
 # Quest.138 - §5§6§lCome to the Dark Side...
 gtnh.quest138.name=§5§6§lCome to the Dark Side...
@@ -562,7 +562,7 @@ gtnh.quest139.desc=With that dark steel you got, you may now craft yourself a ne
 
 # Quest.140 - §6§lDark Steel Tools
 gtnh.quest140.name=§6§lDark Steel Tools
-gtnh.quest140.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I supose.
+gtnh.quest140.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I suppose.
 
 # Quest.141 - §9§lVibrant Crystals
 gtnh.quest141.name=§9§lVibrant Crystals
@@ -1384,9 +1384,9 @@ gtnh.quest344.desc=In case you don't like the infernal witches...
 gtnh.quest345.name=Seeping Shoes
 gtnh.quest345.desc=Who needs an antidote? Now with free fertilizer!
 
-# Quest.346 - Taglock Kits
-gtnh.quest346.name=Taglock Kits
-gtnh.quest346.desc=Get a death protection poppet and get a stack of taglock kits. For all your trolling needs.
+# Quest.346 - Poppets
+gtnh.quest346.name=Poppets
+gtnh.quest346.desc=Get a poppet and make the type you like with it to protect you against that thing. We recommend the death protection one.%n%nConsider making the poppet shelf so you don't need to carry a bunch of them around with you. It needs to be chunkloaded to work.
 
 # Quest.347 - Bloodlust: Wool of Bat
 gtnh.quest347.name=Bloodlust: Wool of Bat
@@ -2478,7 +2478,7 @@ gtnh.quest618.desc=Combining sulfur trioxide and water in the chemical reactor w
 
 # Quest.619 - §5§lBattery Buffer
 gtnh.quest619.name=§5§lBattery Buffer
-gtnh.quest619.desc=Batteries work pretty much the same in a battery buffer as in a regular machine's battery slot. Battery buffers are used to buffer power to stabilize output.%n%nThey come in different sizes: 1, 4, 9(!) and 16 slots. They can draw 2A and output 1A per battery inserted - watch your wire amperage! Cables come in 1x, 2x, 4x, 8x, 12x, and 16x, with tin transferring 1A per size. Make sure not to mess up, or your cable will melt, becoming a fire, and possibly an explosion.%n%nRemember that there's loss when outputting EU from any GT machine, so putting 4 4-slot ones in a row loses 8 power compared to 2 from 1 16-slot one. And this is for every amp too.
+gtnh.quest619.desc=Batteries work pretty much the same in a battery buffer as in a regular machine's battery slot. Battery buffers are used to buffer power to stabilize output.%n%nThey come in different sizes: 1, 4, 9(!) and 16 slots. They can draw 2A and output 1A per battery inserted - watch your wire amperage! Cables come in 1x, 2x, 4x, 8x, 12x, and 16x, with tin transferring 1A per size. Make sure not to mess up, or your cable will melt, becoming a fire, and possibly an explosion.%n%nRemember that there's loss when outputting EU from any GT machine, so putting 4 4-slot ones in a row loses 8 power compared to 2 from 1 16-slot one. And this is for every amp too.%n%n§3You can import batteries into one, but ONLY empty acid batteries can be exported from one. No, you can't get around this.
 
 # Quest.620 - §5§lIC2 Battery
 gtnh.quest620.name=§5§lIC2 Battery
@@ -2926,7 +2926,7 @@ gtnh.quest730.desc=You've been using steam, creosote, and possibly oil plus thei
 
 # Quest.731 - §6§lPlantballs
 gtnh.quest731.name=§6§lPlantballs
-gtnh.quest731.desc=The first step is to compress plantballs out of your wheat. Your LV compressor is too slow for it. I suggest crafting 4 MV compressors for the new bio diesel processing line.
+gtnh.quest731.desc=Next you should compress plantballs out of your wheat.%n%nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. You would be §4WRONG§r. Why? Remember it also uses 4x the power. This means you spend 4x the EU to get the same amount of EU, twice as fast. Eventually, you end up with an EU deficit with this kind of setup, though not necessarily this setup. Ironic, I know. You can use multiple machines (like, a lot), and later use a Processing Array or multiblock if there is one. This applies to all fuel production, basically.
 
 # Quest.732 - §6§lPlant Mass
 gtnh.quest732.name=§6§lPlant Mass
@@ -2986,7 +2986,7 @@ gtnh.quest745.desc=If you centrifuge sticky resin, you get glue. Glue is very us
 
 # Quest.746 - §6§lSilicon
 gtnh.quest746.name=§6§lSilicon
-gtnh.quest746.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nYou can get it any number of ways, like centrifuging or electrolyzing various useless materials like sodalite. You'll probably want to pull apart redstone and clay anyways, but you can also get it from silicon dioxide from glass dust, sand or flint dust if you want a specific setup.%n%nYou can get it as a byproduct from Asbestos or fullers earth processing too.%n%nThe electric blast furnace is needed to make ingots. One ingot requires a temperature of 1687 K for 84 seconds at 120 EU/t using raw silicon. §6Using silicon dioxide and carbon dust, you can get an ingot in 12 seconds!§r Another time when it's best to continue searching NEI and not stop on the first recipe.
+gtnh.quest746.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nYou can get it any number of ways, like centrifuging or electrolyzing various useless materials like sodalite. You'll probably want to pull apart redstone and clay anyways, but you can also get it from silicon dioxide from glass dust, sand or flint dust if you want a specific setup.%n%nYou can get it as a byproduct from Asbestos or fullers earth processing too.%n%nThe electric blast furnace is needed to make ingots. One ingot requires 2000mb of Oxygen and a temperature of 1600 K for 80 seconds at 120 EU/t using raw silicon. §6Using silicon dioxide and carbon dust, you can get an ingot in 12 seconds!§r Another time when it's best to continue searching NEI and not stop on the first recipe.
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§lDiodes
@@ -3356,8 +3356,8 @@ gtnh.quest837.desc=Advanced circuits need integrated logic circuits and random a
 gtnh.quest838.name=§6§lAdvanced Circuits
 gtnh.quest838.desc=Finally, the HV circuit! To make it, you need good integrated circuits, RAM, an integrated logic circuit, and transistors.%n%nBy the way, circuits get cheaper to make as you go along, but not till HV.
 
-# Quest.839 - §6§lHandle Tiny Piles Like a K1ng
-gtnh.quest839.name=§6§lHandle Tiny Piles Like a K1ng
+# Quest.839 - §5§6§l§5§lHandle Tiny Piles Like a K1ng
+gtnh.quest839.name=§5§6§l§5§lHandle Tiny Piles Like a K1ng
 gtnh.quest839.desc=Don't you hate having to manually compress all those tiny piles? Well, let me show you how to automate that. A combination of type filter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chestbuffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.%n%nSuper buffers can be lag sources, so be careful to keep them as empty as possible. If you're using a multiblock packager, be sure to change the buffer from Stocking mode to Transfer Size mode.
 
 # Quest.840 - §5§lButane and Propane
@@ -3398,7 +3398,7 @@ gtnh.quest848.desc=Pam's peanuts are a good seed oil source, and can be sped up 
 
 # Quest.849 - §6§f§6§lSodium Hydroxide
 gtnh.quest849.name=§6§f§6§lSodium Hydroxide
-gtnh.quest849.desc=Make some sodium hydroxide for bio diesel. You can make it out of sodium and water, or out of salt water.
+gtnh.quest849.desc=Sodium hydroxide is is needed for bio diesel. You can make it out of sodium and water, or out of salt water.%n%nSodium Hydroxide is also used in advanced Aluminium production.
 
 # Quest.850 - §6§lEthenone
 gtnh.quest850.name=§6§lEthenone
@@ -3994,7 +3994,7 @@ gtnh.quest997.desc=Your Dark Steel armor can be upgraded in various ways by comb
 
 # Quest.998 - §9§lDark Steel Tool and Weapon Basic Upgrades
 gtnh.quest998.name=§9§lDark Steel Tool and Weapon Basic Upgrades
-gtnh.quest998.desc=In order to upgrade a weapon or tool, you need a vibrant crystal and 10 xp levels.
+gtnh.quest998.desc=In order to upgrade a Dark Steel weapon or tool, you need a vibrant crystal, 10 xp levels, and your trusty anvil.
 
 # Quest.999 - §9§lDark Steel Tool and Weapon Advanced Upgrades
 gtnh.quest999.name=§9§lDark Steel Tool and Weapon Advanced Upgrades
@@ -4294,7 +4294,7 @@ gtnh.quest1072.desc=I have a small present for you: a Talisman of Remedium which
 
 # Quest.1073 - Naga
 gtnh.quest1073.name=Naga
-gtnh.quest1073.desc=Summon a Naga.%n%n§3Only works in the Twilight Forest dim.
+gtnh.quest1073.desc=Summon a Naga.%n%n§3Only works in the Twilight Forest dim.%n%nThe name of the nagastone is messed up, this is a side effect of allowing any meta #.
 
 # Quest.1074 - Lich
 gtnh.quest1074.name=Lich
@@ -4374,7 +4374,7 @@ gtnh.quest1092.desc=Find some glowflowers in the Nether and plant them in the Ov
 
 # Quest.1093 - §6§lDid You Run Low On Gold or Redstone?
 gtnh.quest1093.name=§6§lDid You Run Low On Gold or Redstone?
-gtnh.quest1093.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.
+gtnh.quest1093.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.%n%n§3There's actually a couple plants that produce glowstone, pick the one you like!
 
 # Quest.1094 - §5§lDiamond Chests... Ooo, Shiny
 gtnh.quest1094.name=§5§lDiamond Chests... Ooo, Shiny
@@ -4386,7 +4386,7 @@ gtnh.quest1095.desc=If you found enough gold you can upgrade your chest to make 
 
 # Quest.1096 - Scribing Tool
 gtnh.quest1096.name=Scribing Tool
-gtnh.quest1096.desc=To unlock research you need a scribing tool and paper. To do the research, you need a scribing tool and the research note you made in the research table, so you should probably make 2.
+gtnh.quest1096.desc=To unlock research you need a scribing tool and paper. To do the research, you need a scribing tool and the research note you made in the research table, so you should probably make two tools.%n%nNote: Thaumcraft Research Tweaks has reworked the research table GUI. Aspects are now combined with drag & drop between aspects in the GUI. You can also right-click while dragging the aspect instead of dropping; the same works with the hexes. All the new features are described in your Thaumonomicon, make sure to checkout the 'Research', 'Research Expertise', 'Research Mastery' and 'Research Duplication' pages.
 
 # Quest.1097 - Bathing the Warp Effects Away
 gtnh.quest1097.name=Bathing the Warp Effects Away
@@ -5162,7 +5162,7 @@ gtnh.quest1289.desc=An HV Bender is 4x faster than your LV Bender, but it also o
 
 # Quest.1290 - Imma Chargin' My...
 gtnh.quest1290.name=Imma Chargin' My...
-gtnh.quest1290.desc=Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.%n%nUse the autoclave to make crystals. Or if you have lots of sodium, you can use the chemical reactor recipe. You can also make the charger to go directly from crystal to charged crystal, but it's not very fast. The charger can connect directly to a GT cable or a fluix cable from the bottom.
+gtnh.quest1290.desc=Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.%n%nUse the autoclave to make crystals. Or if you have lots of sodium, you can use the chemical reactor recipe. You can also make the charger to go directly from crystal to charged crystal, but it's not very fast. The charger can connect directly to a GT cable or a fluix cable from the bottom.%n%n§3Note that some recipies only have a chance of producting a charged crystal, which is true of many of these.
 
 # Quest.1291 - Keeping Your Network Happy
 gtnh.quest1291.name=Keeping Your Network Happy
@@ -5186,7 +5186,7 @@ gtnh.quest1295.desc=The crystal growth chamber is used for fast crystal growth, 
 
 # Quest.1296 - Purifying the Impure
 gtnh.quest1296.name=Purifying the Impure
-gtnh.quest1296.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n§3Distilled water reduced the recipe time in the Autoclave by half.%n
+gtnh.quest1296.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n§3Distilled water reduces the recipe time in the Autoclave by half.%n
 
 # Quest.1297 - Dragon Essense
 gtnh.quest1297.name=Dragon Essense
@@ -5282,7 +5282,7 @@ gtnh.quest1319.desc=The main processor for 16k and 64k cells.
 
 # Quest.1320 - §6§lAdvanced Compressor
 gtnh.quest1320.name=§6§lAdvanced Compressor
-gtnh.quest1320.desc=The MV compressor is twice as fast as the LV one but uses 4x the power. You might think using this is a good idea. You would be §4WRONG§r. Why? The 4x power means you spend more EU to get the same amount of EU, just faster. Eventually, you get a deficit with this kind of setup. Ironic, I know. You can use multiple machines, and later use a Processing Array or multiblock if there is one.%n%nOf course, if you're not using a particular machine to make power, the speed §ois§r probably worth it.
+gtnh.quest1320.desc=The MV compressor is twice as fast as the LV one but uses 4x the power.
 
 # Quest.1321 - §6§lAdvanced Macerator
 gtnh.quest1321.name=§6§lAdvanced Macerator
@@ -5486,7 +5486,7 @@ gtnh.quest1370.desc=The arcane lamp creates additional light sources which acts 
 
 # Quest.1371 - LOX and Bagels
 gtnh.quest1371.name=LOX and Bagels
-gtnh.quest1371.desc=The LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freeezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the crafting grid to transfer oxygen.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks. With a full stack you won't need to bring oxygen equipment with you.%n%nSo much Greggy!
+gtnh.quest1371.desc=The LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freeezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen crompressor to transfer oxygen, or use a oxygen colletor.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks. With a full stack you won't need to bring oxygen equipment with you.%n%nSo much Greggy!
 
 # Quest.1372 - Wand Focus Fire
 gtnh.quest1372.name=Wand Focus Fire
@@ -5846,7 +5846,7 @@ gtnh.quest1460.desc=Every rocket needs fuel storage canisters. For the tier 3 ro
 
 # Quest.1461 - Just Tell Me What to Scan Already!
 gtnh.quest1461.name=Just Tell Me What to Scan Already!
-gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set). The last 5 aspects are dummy aspects you can ignore, and as such are not included in this list.%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot
+gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set). The last 5 aspects are dummy aspects you can ignore, and as such are not included in this list.%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
 
 # Quest.1462 - Thermal Cloth
 gtnh.quest1462.name=Thermal Cloth
@@ -6148,9 +6148,9 @@ gtnh.quest1535.desc=After weeks of hard work and a thousand stacks of iTNT your 
 gtnh.quest1536.name=§3§lI Ain't Afraid of no Ghost!
 gtnh.quest1536.desc=I've found a use for the Ectoplasm you can collect from spirits of the dead. It makes a very useful glass that you can walk on, but mobs cannot. However, they think they can! %n%nSo you can use this to create a moat around your base that drops mobs to the death in various ways, or just to shuttle them off somewhere else. Separate babies from mothers? Use it in a mob farm? Capture pigmen walking into the Overworld from you Nether portal? So many possibilities!
 
-# Quest.1537 - §6§lBlack and Decker
-gtnh.quest1537.name=§6§lBlack and Decker
-gtnh.quest1537.desc=Tired of having to replace tools all the time? Now that stainless steel is available, it's time to make some electric versions of the screwdriver and wrench! Charge them up like a battery, and they'll last much longer than normal versions of the tools.%n%nYou can use lithium batteries, or if you're on a budget, cadmium or sodium batteries instead. Later on, Vibrant Alloy will make excellent tools with great durability.%n%n§3If you look in NEI, you can also see MV and HV versions, but you need Titanium or Tungstensteel for those.
+# Quest.1537 - §§§5§lBlack and Decker
+gtnh.quest1537.name=§§§5§lBlack and Decker
+gtnh.quest1537.desc=Tired of having to replace tools all the time? Now that steel is available, it's time to make some electric versions of the screwdriver and wrench! Charge them up like a battery, and they'll last much longer than normal versions of the tools.%n%nYou can use lithium batteries, or if you're on a budget, cadmium or sodium batteries instead. Later on, Vibrant Alloy will make excellent tools with great durability.%n%n§3If you look in NEI, you can also see MV and HV versions, but you need Aluminium or Stainless Steel for those.
 
 # Quest.1538 - §b§lCeres Trip
 gtnh.quest1538.name=§b§lCeres Trip
@@ -6282,7 +6282,7 @@ gtnh.quest1569.desc=Reek of Misfortune is an ingredient used in many recipes. It
 
 # Quest.1570 - Tormented Twine
 gtnh.quest1570.name=Tormented Twine
-gtnh.quest1570.desc=Tormented Twine is spun from Disturbed Cotton using a Spinning Wheel. It is an ingredient used to make Dream Catchers.%n%nIt is made in a Spinning Wheel using Disturbed Cotton, String and Reek of Misfortune.%n%nAn Altar must be nearby to power the spinning wheel.
+gtnh.quest1570.desc=Tormented Twine is spun from Disturbed Cotton using a Spinning Wheel. It is an ingredient used to make Dream Catchers.%n%nIt is made in a Spinning Wheel using Disturbed Cotton, Blood Burned String and Reek of Misfortune.%n%n§4You need a T2 BM Blood Altar to make the string, so go over to the BM tab if you want to continue and haven't done that yet.%n%n§rAn Altar must be nearby to power the spinning wheel.
 
 # Quest.1571 - Distillery
 gtnh.quest1571.name=Distillery
@@ -6668,9 +6668,9 @@ gtnh.quest1665.desc=Now that you have HSS-G, it's time to make HSS-S. This new a
 gtnh.quest1666.name=§c§b§lArgon
 gtnh.quest1666.desc=To process some of the new ingots you will find, you need argon. Your first source will come from air, in small amounts. Unlike centrifuging Compressed Air Cells, you'll need to turn the Air into Liquid Air first in a Vacuum Freezer so you can centrifuge it more efficiently.%n%nThe VF only works on cells, but the upgraded version available later works on the liquid itself. You can also make the Air Intake Hatch instead of using a Compresser PA, it's way better. It's only compatible with the upgraded VF and the Rocket Engine multis, but you can pump out the air it produces directly, and then can it to use in the VF. An HV pump or EIO conduit is all you need. %n%nDon't bother with the DT recipe unless you need the other fluids from it, it's not nearly as good as centrifuging. You also need the Liquid Air Fluid Hatch (only works with Liquid Air!) and Giant Output Hatch when you want to do that.%n%n§3The MVF inherits the VFs qualities, so it uses cells too, unlike the upgraded one (Cryogenic).
 
-# Quest.1667 - §b§lNaquadah
-gtnh.quest1667.name=§b§lNaquadah
-gtnh.quest1667.desc=On Ceres you can find small naquadah ores. Now that you have the dust and argon, you can make some naquadah ingots.%nYour EBF needs HSS-G heating coils.
+# Quest.1667 - §b§lYour First Naquadah Ingot
+gtnh.quest1667.name=§b§lYour First Naquadah Ingot
+gtnh.quest1667.desc=You may have noticed that you can't get naquadah dust from the naquadah ore, it will only give you the Naquadah Oxide Mixture (NOM) dust, annoying.%n%nThe full naquadah processing line is too complex to set up in IV, I believe you won't want to set up another line after finish platinum and PBI line.%n%nLucky, you can directly smelt the NOM dust into naquadah nuggets in EBF, but it is inefficient and you will lose the byproducts in it.%n%n§3PS: The Naquadah Oxide Mixture is once called "Naquadah Metal Oxide Mixture" and someone called it Nq-MOM for short. §6§4
 
 # Quest.1668 - HSSG
 gtnh.quest1668.name=HSSG
@@ -7250,7 +7250,7 @@ gtnh.quest1811.desc=4000 buckets not enough storage? Stockpiling diesel for a li
 
 # Quest.1812 - §9§lTeflon Don
 gtnh.quest1812.name=§9§lTeflon Don
-gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.
+gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, process Bastnasite ore.
 
 # Quest.1813 - §9§lChloroform
 gtnh.quest1813.name=§9§lChloroform
@@ -7494,7 +7494,7 @@ gtnh.quest1872.desc=Vinyl Chloride is the base product for making PVC for advanc
 
 # Quest.1873 - §6§lPolyvinyl Chloride
 gtnh.quest1873.name=§6§lPolyvinyl Chloride
-gtnh.quest1873.desc=Polyvinyl Chloride is PVC which can be used for the PVC Pipes. You need Vinyl Chloride and Oxygen to make it. You'll also want it for SMD capacitors later.%n%nDo the recipe twice if you want to clean out your reactor.
+gtnh.quest1873.desc=Polyvinyl Chloride is PVC which can be used for the PVC Pipes. You need Vinyl Chloride and Oxygen to make it. You'll also want it for SMD capacitors later.%n%nDo the recipe twice if you want to clean out your reactor, or three times if used the eight second recipe.
 
 # Quest.1874 - §6§lPVC Sheets
 gtnh.quest1874.name=§6§lPVC Sheets
@@ -7610,7 +7610,7 @@ gtnh.quest1901.desc=The HV GT++ Steam Boiler is the next machine you can make to
 
 # Quest.1902 - §a§lNo Boom Tomorrow
 gtnh.quest1902.name=§a§lNo Boom Tomorrow
-gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials. %n%nFused Questz is no good now, forget about it ok? Instead, use the GTNH approved Plated Reinforced Stone series! Or one of the other options I guess, like Warded Glass. You may need multiple layers depending on your reactor, try it out in creative.%n%n§3There are 6 of them, use NEI.
+gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials. %n%nFused Quartz is no good now, forget about it ok? Instead, use the GTNH approved Plated Reinforced Stone series! Or one of the other options I guess, like Warded Glass. You may need multiple layers depending on your reactor, try it out in creative.%n%n§3There are 6 of them, use NEI.
 
 # Quest.1903 - §9§e§9§lHV Energy Hatch
 gtnh.quest1903.name=§9§e§9§lHV Energy Hatch
@@ -8030,11 +8030,11 @@ gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machi
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=Quantum Computer
-gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, The Uncertainty Resolver, some good circuits and the Computer Racks to hold them, and at least a UV energy hatch (UV 4A suggested). The QC will consume 1A of UV, and each CR will use one more. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipe for the Research Station ready to avoid excess energy loss. Remember to turn the QC on BEFORE the RS. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint to see where to place everything. The blocks with no dots next to the vents indicate that that space must be empty.%n%nUncertainty Resolver:%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer. If the puzzle looks too hard or you can't complete it, just remove it and the controller and re-place them to get a different puzzle.%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however the Computer Racks may melt or explode above 5600 or 6000 heat. You can see this for individual Racks by scanning them. You cannot remove or input components until the heat is gone. You can see the overall heat value in the controller's interface. And most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Otherwise, you're going to get an explosion.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. You can also see the total computation in the controller.%n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nUsing the Parametrizer you can overclock and overvolt, but you never need to, so you may or may not wish to try it.%n%nSending Computation to the Research Station:%nUse the Optical Master Connector in one of the variable spaces on the QC, and the Optical Slave Connector on the RS. Use Optical Fiber Cable to connect them, and make sure to paint all three.%n%nSuggested Build:%nNow that you've understood the concepts and safety of handling of the QC, what are the more optimal setups for your Quantum Computer? For now, I'll suggest 2 racks with 3 Ultimate Crystalcomputers each, and of course 1 Advanced Heat Vent. Do keep in mind that this 156 C/s setup can complete practically 3/4s of the recipes in the Research Station. This is a rather minimal setup compared to some of the more complicated setups.%n%nNow that you understand the QC, it's time to build it! You'll need to gather quite a lot of resources.
+gtnh.quest2007.desc=One of the most incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the Research Station. %n%nFirst, you'll need a few things: the Quantum Computer itself, The Uncertainty Resolver, some good circuits and the Computer Racks to hold them, and at least a UV energy hatch (UV 4A suggested). The QC will consume 1A of UV, and each CR will use one more. So another important factor is to ONLY turn on the Quantum Computer once you have the desired recipe for the Research Station ready to avoid excess energy loss. Remember to turn the QC on BEFORE the RS. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Structure Hologram Projector to see where to place everything. The blocks with no dots next to the vents indicate that that space must be empty.%n%nUncertainty Resolver:%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schrödinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating, especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer. If the puzzle looks too hard or you can't complete it, just remove it and the controller and re-place them to get a different puzzle.%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and ic2 heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however the Computer Racks may melt or explode above 5600 or 6000 heat. You can see this for individual Racks by scanning them. You cannot remove or input components until the heat is gone. You can see the overall heat value in the controller's interface. And most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Otherwise, you're going to get an explosion.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. You can also see the total computation in the controller.%n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nUsing the Parametrizer you can overclock and overvolt, but you never need to, so you may or may not wish to try it.%n%nSending Computation to the Research Station:%nUse the Optical Master Connector in one of the variable spaces on the QC, and the Optical Slave Connector on the RS. Use Optical Fiber Cable to connect them, and make sure to paint all three.%n%nSuggested Build:%nNow that you've understood the concepts and safety of handling of the QC, what are the more optimal setups for your Quantum Computer? For now, I'll suggest 2 racks with 3 Ultimate Crystalcomputers each, and of course 1 Advanced Heat Vent. Do keep in mind that this 156 C/s setup can complete practically 3/4s of the recipes in the Research Station. This is a rather minimal setup compared to some of the more complicated setups.%n%nNow that you understand the QC, it's time to build it! You'll need to gather quite a lot of resources.
 
 # Quest.2008 - Research Station
 gtnh.quest2008.name=Research Station
-gtnh.quest2008.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Machine Blueprint will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Slave Connector, and a Maintenance Hatch all on the back side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!%n%n§3Note that some researches require a significant amount of amps, so keep that in mind.§r
+gtnh.quest2008.desc=Now that you've started building up your precious Quantum Computer, how about the Research Station? Once again, using the Multiblock Structure Hologram Projector will tell you how to build this Multiblock. There should be 3 empty blocks beneath it so you can see the whole blueprint. Once it is nearly assembled, place down an Energy Hatch, an Optical Slave Connector, and a Maintenance Hatch all on the back side.%n%nOnce fully assembled, you can begin operating recipes at any time, so long as the Quantum Computer is also active and connected. The Research Station requires you to put the item to research within the Object Holder, then a data stick in the Multiblock interface. Once the Computation is fully completed, the data stick that houses all the data of the completed item will be inside the Multiblock Interface.%n%nStill confused? Good, that's the spirit of learning! Always make sure to test these things in creative single player if you wish to find exact measurements and such. Don't forget to ALWAYS COLOR THE OPTICAL HATCHES AND FIBERS!%n%n§3Note that some researches require a significant amount of amps, so keep that in mind.§r
 
 # Quest.2009 - Sign Updater
 gtnh.quest2009.name=Sign Updater
@@ -8842,7 +8842,7 @@ gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees yo
 
 # Quest.2210 - §a§lDealing with Radiation
 gtnh.quest2210.name=§a§lDealing with Radiation
-gtnh.quest2210.desc=Nuclear materials cause two types of radiation effects. One is a large number of standard debuffs. These can be removed the normal ways, with milk or terra wart or other methods that imitate them. %n%nThe other effect is a special Radiation  unique debuff.  This gets applied the longer you hold onto the radioactive item. Severely radioactive items can apply minutes of this deadly debuff. Regeneration might delay the inevitable death, but most regeneration sources aren't fast enough or long enough to keep you alive. You can try using an Amulet of Remedium to get rid of the effects. You should have one from your Moon trip, if not you'll have to dive into Thaumcraft to make one.
+gtnh.quest2210.desc=Nuclear materials cause two types of radiation effects. One is a large number of standard debuffs. These can be removed the normal ways, with milk or terra wart or other methods that imitate them. %n%nThe other effect is a special Radiation unique debuff. This gets applied the longer you hold onto the radioactive item. Severely radioactive items can apply minutes of this deadly debuff. Regeneration might delay the inevitable death, but most regeneration sources aren't fast enough or long enough to keep you alive. You can try using an Amulet of Remedium to get rid of the effects. You should have one from your Moon trip, if not you'll have to dive into Thaumcraft to make one.
 
 # Quest.2211 - Basic Bee Stats
 gtnh.quest2211.name=Basic Bee Stats
@@ -9486,7 +9486,7 @@ gtnh.quest2370.desc=The Scorching Pickaxe is a special type of pickaxe that smel
 
 # Quest.2371 - Death Flowers
 gtnh.quest2371.name=Death Flowers
-gtnh.quest2371.desc=The purple flowers found on top of Endstone Blobs is a Death Flower. It can be planted on End Stone, Dirt, Grass or inside Flower Pots.%n%nOutside the End, the flower will slowly decay, even if in a Flower Pot.%n%nAfter some time of decaying, it starts to occasionally attract Angry Endermen.%n%nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an Energy Cluster.%n%nPartial decay can be healed a little using End Powder.
+gtnh.quest2371.desc=The purple flowers found on top of Endstone Blobs are Death Flowers. They can be planted on End Stone, Dirt, Grass or inside Flower Pots.%n%nOutside the End, the flower will slowly decay, even if in a Flower Pot.%n%nAfter some time of decaying, it starts to occasionally attract Angry Endermen.%n%nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an Energy Cluster.%n%nPartial decay can be healed a little using End Powder.
 
 # Quest.2372 - Living Matter
 gtnh.quest2372.name=Living Matter
@@ -9546,7 +9546,7 @@ gtnh.quest2385.desc=After conquering most the of content inside of the End, it i
 
 # Quest.2386 - Indium Dust
 gtnh.quest2386.name=Indium Dust
-gtnh.quest2386.desc=What some Indium? Buy §msome§r one!
+gtnh.quest2386.desc=Want some Indium? Buy §msome§r one!
 
 # Quest.2387 - Mutating Sprig
 gtnh.quest2387.name=Mutating Sprig
@@ -9694,7 +9694,7 @@ gtnh.quest2422.desc=To make Critter Snares, first you need to arrange Alder Sapl
 
 # Quest.2423 - Mad Science is the Best Science
 gtnh.quest2423.name=Mad Science is the Best Science
-gtnh.quest2423.desc=Next we need to fill our snares up with some critters, specifically Bats and Slimes. For the Bats, just place them beneath you and AFK if your warp is high enough to spawn bats, otherwise...uh, go caving?%n%nFor the Slimes, if you can't find any just use the Maze Slimes from the Minoshroom maze in the Twilight Forest for this. After you get them, also go collect a Wolf and an Ocelot (Lassos or Soul Vials are great for this).%n%nNow we'll be creating new life, specifically Toads and Owls. Arrange a Cobweb above a water block with grasspers at the diagonals and one of the two sets of snares in the cardinal directions. Place Attuned Stone (Charged) in all 4 Grasspers. Then place one of the two animals in the center and right-click with your Mutating Sprig like when making the snares. Use the Wolf with the Bats, and the Ocelot with the Slimes. The tamed versions also work.%n%nCongratulations, you've defied the natural order and created new life! Hopefully they didn't run away because you created them outside :(%nMake sure to breed them for the next part. Use Raw Porkchop or Raw Beef for Owls, and Rotten Flesh for Toads to both tame and breed them.
+gtnh.quest2423.desc=Next we need to fill our snares up with some critters, specifically Bats and Slimes. For the Bats, just place them beneath you and AFK if your warp is high enough to spawn bats, otherwise...uh, go caving?%n%nFor the Slimes, if you can't find any just use the Maze Slimes from the Minoshroom maze in the Twilight Forest for this. After you get them, also go collect a Wolf and an Ocelot (Lassos or Soul Vials are great for this).%n%nNow we'll be creating new life, specifically Toads and Owls. Arrange a Cobweb above a water block with grasspers at the diagonals and one of the two sets of snares in the cardinal directions. Place Attuned Stone (Charged) in one of the Grasspers, and Mutandis Extremis in the other 3. Then place one of the two animals in the center and right-click with your Mutating Sprig like when making the snares. Use the Wolf with the Bats, and the Ocelot with the Slimes. The tamed versions also work.%n%nCongratulations, you've defied the natural order and created new life! Hopefully they didn't run away because you created them outside :(%n%nMake sure to breed them for the next part. Use Raw Porkchop or Raw Beef for Owls, and Rotten Flesh for Toads to both tame and breed them.
 
 # Quest.2424 - Finally Binding a Familiar
 gtnh.quest2424.name=Finally Binding a Familiar
@@ -9702,7 +9702,7 @@ gtnh.quest2424.desc=Now that you have Toads and Owls, you can choose between the
 
 # Quest.2425 - Greenhouses on Mountains, Hell on Earth
 gtnh.quest2425.name=Greenhouses on Mountains, Hell on Earth
-gtnh.quest2425.desc=You're almost there! To actually use the ritual, you need to recruit a coven first. Find some Coven Witches and complete their quests:%nThe means to control the dead -> Necromantic Stone%nThe beating means to master the infernal dimension -> Demon Heart%nI must perform many curses, bring me the necessary brew -> Brew of the Grotesquex5%nI desire to predict the future -> Crystal Ball%nOr just fight something.%n%nOnce completed, they'll disappear until you need them. They will sometimes appear near your spawn point if you walk by it, so don't position it over lava or something, since they CAN die and reduce the number of your coven. You can have 6, with one extra appearing for Cauldron work. Consider keeping some extras around in a dungeon just in case.%n%nAfter you recruit your coven, you just need a few things for the ritual itself: Spider Eye, Toe of Frog, Wool of Bat, Tongue of Dog, Owlet's Wing, Attuned Stone, and Attuned Stone (Charged).%n%nTo specify the biome, look in the Book of Biomes, and find 1) the type (Forest, Plains, etc), and 2) the number. Type determines the foci used, and number determines the amount of Glowstone Dust used to get that specific biome. Make sure to pack up a ritual circle into a circle talisman so you don't have to redraw it, and bring some cobblestone to make a flat area (15x15, any height). Try not to do it at night unless you like dealing with infernals.%n%nTo actually do the ritual, have the ritual circle on the ground, the items (including the foci and Glowstone) in the circle, and right-click the center with the Seer's Stone.%n%nThe area affected is determined by the number of witches in your coven. It's 16 * (size of coven - 3) radius in a circular area, so 16/32/48 if it doesn't fail.%n%nUnfortunately, sometimes after logging out and back in again you may find that it didn't work correctly in specific chunks, this is (possibly) due to lack of chunk updates and it not saving the changed biome ID correctly. Just redoing the ritual doesn't really help, you'll just get patches in the same places, however placing water after the ritual and before logging out may help with this. Or use chickens. Lots of chickens.%n%nAlso, if you already have crops in the area, they'll disappear until a block update or relog.%n%nPSA: To pack your circle back up, you need to bring your altar with you.%n
+gtnh.quest2425.desc=You're almost there! To actually use the ritual, you need to recruit a coven first. Find some Coven Witches and complete their quests:%nThe means to control the dead -> Necromantic Stone%nThe beating means to master the infernal dimension -> Demon Heart%nI must perform many curses, bring me the necessary brew -> Brew of the Grotesquex5%nI desire to predict the future -> Crystal Ball%nOr just fight something.%n%nOnce completed, they'll disappear until you need them. They will sometimes appear near your spawn point if you walk by it, so don't position it over lava or something, since they CAN die and reduce the number of your coven. You can have 6, with one extra appearing for Cauldron work. Consider keeping some extras around in a dungeon just in case.%n%nAfter you recruit your coven, you just need a few things for the ritual itself: Spider Eye, Toe of Frog, Wool of Bat, Tongue of Dog, Owlet's Wing, Attuned Stone, and Attuned Stone (Charged).%n%nTo specify the biome, look in the Book of Biomes, and find 1) the type (Forest, Plains, etc), and 2) the number. Type determines the foci used, and number determines the amount of Glowstone Dust used to get that specific biome. Make sure to pack up a ritual circle into a circle talisman so you don't have to redraw it, and bring some cobblestone to make a flat area (15x15, any height). Try not to do it at night unless you like dealing with infernals.%n%nTo actually do the ritual, have the ritual circle on the ground, the items (including the foci and Glowstone) in the circle, and right-click the center with the Seer's Stone.%n%nThe area affected is determined by the number of witches in your coven. It's 16 * (size of coven - 3) radius in a circular area, so 16/32/48 if it doesn't fail.%n%nUnfortunately, sometimes after logging out and back in again you may find that it didn't work correctly in specific chunks, this is (possibly) due to lack of chunk updates and it not saving the changed biome ID correctly. Just redoing the ritual doesn't really help, you'll just get patches in the same places, however placing water after the ritual and before logging out may help with this. Or use chickens. Lots of chickens.%n%nAlso, if you already have crops in the area, they'll disappear until a block update or relog.%n%n§3PS: To pack your circle back up, you need to bring your altar with you.%n
 
 # Quest.2426 - §6§lTantalum Nether
 gtnh.quest2426.name=§6§lTantalum Nether
@@ -10686,7 +10686,7 @@ gtnh.quest2670.desc=If you haven't made one before, go check out the quest in MV
 
 # Quest.2671 - Data Bank
 gtnh.quest2671.name=Data Bank
-gtnh.quest2671.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Machine Blueprint to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, so you might as well go for an LuV energy hatch, which will power a maxed one. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%n§rYou will need more blocks then what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Slave Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n§3If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Blueprint. In this case the filler blocks are Computer Casing.
+gtnh.quest2671.desc=By now you probably feel overwhelmed with the number of data sticks needed for your assembly line. TecTech has a solution for you: The Data Bank. It allows you to store more than just 16 data sticks and can be connected to multiple Assembling Lines at the same time.%n%nPlace the controller one block above the ground and use the Multiblock Structure Hologram Projector to see how it is built. You will need a Maintenance Hatch and at least an EV Energy Hatch, though the power requirements can be much higher if you use many Data Access Hatches and Data Bank Master Connectors, so you might as well go for an LuV energy hatch, which will power a maxed one. Trying to run the Data Bank and then scanning the controller will tell you how much eu/t is needed.%n%n§rYou will need more blocks then what is asked for in this quest, as the number of Data Access Hatches and Connectors is up to you. You can have a maximum of 15 combined.%n%nThe Assembly Line Slave Connector replaces your old Data Access Hatch on the Assembling Line. Connect it to a Master Connector on the Data Bank with Optical Fiber Cable and make sure to color the hatches and the cable.%n%n§3If you can't figure out what blocks to place, pay attention to the tooltip in the bottom-left when using the Multiblock Structure Hologram Projector. In this case the filler blocks are Computer Casing.
 
 # Quest.2672 - Unlimited Power
 gtnh.quest2672.name=Unlimited Power
@@ -10730,7 +10730,7 @@ gtnh.quest2681.desc=So you probably noticed that the amount of seaweed you'll ne
 
 # Quest.2682 - TecTech Multiblocks
 gtnh.quest2682.name=TecTech Multiblocks
-gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). §4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!§r%n%nSave Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFront Rotation - Allows rotating the front face of the machine for more structure orientation freedom. This doesn't allow you to change the facing of the controller, but the orientation. So if you look at it from the front, it can be rotated clockwise or counterclockwise. You also need to use the Front Rotation Scrench to do so. §3If you don't get it, try placing a controller, screnching it, and using the Blueprint on it.§r%n%nMultiblock Structure Visualization vis Blueprint - The Blueprint is used to display a holographic image of the completed multi, with a note in the bottom left about blocks that are variable. If you use a larger Blueprint stack, you can see a hologram of a larger version, if applicable.%n%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Save Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
+gtnh.quest2682.desc=TecTech Multiblock Common Functionality%n%nMultiple Ampere and Laser Hatches Compatibility - to ease power distribution.%n%nPower Pass - Allows connected dynamo hatches to take power from the controller and output it, just like the active transformer does (and that is why the controller always need it in it's recipe if that function is enabled...). §4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!§r%n%nSave Void - Enabling this moves all EM (Elemental Matter, not all machines use this) from input and output hatches to overflow hatches. Which allows the machine to be disassembled more easily.%n%nConstructable Interface - Allows visualizing the structure with blueprints (there is an API to implement that for any block, but almost nothing does).%n%nFrom left to right is 1, then clockwise for the rest in TT multi interfaces.%n%n1) Parameters - They are the way of the controller to communicate with player and parameter hatches. Lights indicate status but more detailed information can be seen when moused over. The tooltip contains ID in form of HatchID:ParameterNumber:Direction, Current Status, Current Value, and Short Description.%n%n2) Uncertainty status - These 9 blocks indicate uncertainty status of the machine. If the lights are on, this machine requires an uncertainty resolver. Red = Bad, Green = Good. You need to do the absurd puzzle before using the machine.%n%nControl buttons - Buttons might change their behavior and appearance depending on machine but usually they work like this, starting from top:%n%n3) Power Pass - Toggles Power Pass.%n%n4) Save Void - Toggles Safe Void.%n%n5) Power Switch - Soft Mallet with your finger...%n%n6) Input slot - Standard functionality.%n
 
 # Quest.2683 - Configuring TecTech Multiblocks
 gtnh.quest2683.name=Configuring TecTech Multiblocks
@@ -11394,7 +11394,7 @@ gtnh.quest2847.desc=The Twilight Wraith is a floating spirit and are not initial
 
 # Quest.2848 - How the Eff Do I Charge This Sh*t?
 gtnh.quest2848.name=How the Eff Do I Charge This Sh*t?
-gtnh.quest2848.desc=Given the number of people asking about this and the incompatibility it has with §oso§r many methods, here's a quest to tell you what §owill§r work.%n%nYou only need to make one.%n%nAlso keep in mind that the energy storage ones can have EU put in, if you just wanna charge, unlike the solars (also the solar wind ones don't work for some reason). The higher tier ones charge faster (advanced solars just point at the sun to get 100% power during daylight instead of only at noonish, but hybrids are indeed faster. Also hybrids don't crash the game just by placing them anymore!)
+gtnh.quest2848.desc=Given the number of people asking about this and the incompatibility it has with §oso§r many methods, here's a quest to tell you what §owill§r work.%n%n§3You only need to make one.%n%n§rAlso keep in mind that the energy storage ones can have EU put in, if you just wanna charge, unlike the solars (also the solar wind ones don't work for some reason). The higher tier ones charge faster (advanced solars just point at the sun to get 100% power during daylight instead of only at noonish, but hybrids are indeed faster. Also hybrids don't crash the game just by placing them anymore!)
 
 # Quest.2849 - §5§lFaster Steam Transportation
 gtnh.quest2849.name=§5§lFaster Steam Transportation
@@ -11655,6 +11655,266 @@ gtnh.quest2912.desc=Are your upgraded cobblestone or dirt barrels full again? No
 # Quest.2913 - Sticky Matter
 gtnh.quest2913.name=Sticky Matter
 gtnh.quest2913.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap?  Buy a stack of sticky resin for some coins.
+
+# Quest.2914 - §d§0§5§lCobalt from Cobaltite
+gtnh.quest2914.name=§d§0§5§lCobalt from Cobaltite
+gtnh.quest2914.desc=Can't find any Cobalt in the Nether? Too lazy to bother finding some Ironwood in the Twilight Forest, even though it's super duper easy?%n%nYou can make it with your EBF now using Cobaltite Ore from the Twilight Forest and Oxygen to get Cobalt. It's a little complicated, but you also get arsenic out of it.%n%n§3You can also just electrolyze it out in MV, which is what you §oshould§r§3 be doing instead of this, assuming you actually need it.
+
+# Quest.2915 - §5§lDamascus Steel
+gtnh.quest2915.name=§5§lDamascus Steel
+gtnh.quest2915.desc=Damascus Steel is one of the hardest materials you can get, at your current tier. It time to craft a stack of Damascus Steel.%n%nThere are few options here, so check NEI to see which mixture suits you best.
+
+# Quest.2916 - §5§lVanadiumsteel
+gtnh.quest2916.name=§5§lVanadiumsteel
+gtnh.quest2916.desc=Vanadiumsteel is much better than Damascus Steel. It's time to craft a stack of Vanadium Steel.%n%nLater on you can use this new Material make better and more durable Tinkers Tools.
+
+# Quest.2917 - §9§lBetter Magnetic Rods
+gtnh.quest2917.name=§9§lBetter Magnetic Rods
+gtnh.quest2917.desc=You don't need them this tier, but for EV motors, you're going to need Magnetic Neodymium Rods, so make sure to make this before you start EV.
+
+# Quest.2918 - §b§lEven Betterer Magnetic Rods
+gtnh.quest2918.name=§b§lEven Betterer Magnetic Rods
+gtnh.quest2918.desc=Like before, you're going to need better rods for your motors next tier. Build this to make your Magnetic Samarium Rods.
+
+# Quest.2919 - Enriched Naquadah Ingot
+gtnh.quest2919.name=Enriched Naquadah Ingot
+gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in EBF or electrolyze it. Of course I will electrolyze it because zinc is more useful than enriched naquadah if I were you.
+
+# Quest.2920 - Enriched Naquadah Time
+gtnh.quest2920.name=Enriched Naquadah Time
+gtnh.quest2920.desc=Enriched naquadah line is much more shorter than naquadah line, and easier. Basically, the only use of enriched naquadah is for fuel, so if you don't want to build a line for it, just ignore this quest.
+
+# Quest.2921 - §c§lEther Strike!
+gtnh.quest2921.name=§c§lEther Strike!
+gtnh.quest2921.desc=The naquadah is so inert that most acid won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
+
+# Quest.2922 - §c§lAntimony And Chlorine
+gtnh.quest2922.name=§c§lAntimony And Chlorine
+gtnh.quest2922.desc=Now put the antimony, chlorine and ether in LCR to get antimony trichloride solution.
+
+# Quest.2923 - §c§lRecycle Fluorine
+gtnh.quest2923.name=§c§lRecycle Fluorine
+gtnh.quest2923.desc=Fluorine is one of the most important resources. You can recycle most fluorine from it.
+
+# Quest.2924 - §c§lMore Chlorine
+gtnh.quest2924.name=§c§lMore Chlorine
+gtnh.quest2924.desc=Oh god why I can't get it in one step.
+
+# Quest.2925 - §c§lSeparate Solvent
+gtnh.quest2925.name=§c§lSeparate Solvent
+gtnh.quest2925.desc=Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid, and you can recycle §c§6ALL§r ether.
+
+# Quest.2926 - §c§lFracture Chlorine
+gtnh.quest2926.name=§c§lFracture Chlorine
+gtnh.quest2926.desc=The fluorine atom has higher electronegativity, so it will replace the chlorine atom around the antimony.
+
+# Quest.2927 - §c§lKing of Acid
+gtnh.quest2927.name=§c§lKing of Acid
+gtnh.quest2927.desc=This is the fluoroantimonic acid, the strongest acid in the world currently. It can dissolve almost everything on earth, so it is the best choice to dissolve our NOM dust.%n%nOf course there are something the fluoroantimonic acid can't deal with, like the "Empty Cell". x)
+
+# Quest.2928 - §c§lEBF Time
+gtnh.quest2928.name=§c§lEBF Time
+gtnh.quest2928.desc=Heat the NOM dust with fluoroantimonic acid and it will dissolve the Nq, Ga, Ad, and the titanium will become precipitate.
+
+# Quest.2929 - §c§lNeutralization
+gtnh.quest2929.name=§c§lNeutralization
+gtnh.quest2929.desc=The solution is acidic now. Gallium will be separated when 8 < pH < 10.
+
+# Quest.2930 - §c§lExtraction
+gtnh.quest2930.name=§c§lExtraction
+gtnh.quest2930.desc=Now, the metal elements have been concentrated in solution.
+
+# Quest.2931 - §c§lRecycle Waste Water
+gtnh.quest2931.name=§c§lRecycle Waste Water
+gtnh.quest2931.desc=The 'Waste Water' is still very useful to some extend and you can get something interesting from it.
+
+# Quest.2932 - §c§lRecycle Titanium
+gtnh.quest2932.name=§c§lRecycle Titanium
+gtnh.quest2932.desc=As to titanium trifluoride, you can recycle titanium and some hydrofluoric acid in EBF, or you can choose to electrolyze it directly.
+
+# Quest.2933 - §c§lRecycle Gallium
+gtnh.quest2933.name=§c§lRecycle Gallium
+gtnh.quest2933.desc=You have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with sodium in chemical reactor.%n%n3) Mix it with indium phosphate in mixer.
+
+# Quest.2934 - §c§lAnother Solvent
+gtnh.quest2934.name=§c§lAnother Solvent
+gtnh.quest2934.desc=Why it needs seed oil?
+
+# Quest.2935 - §c§lP-507
+gtnh.quest2935.name=§c§lP-507
+gtnh.quest2935.desc=This solvent can be 100% recycled in naquadah process line, so don't make a line for it.
+
+# Quest.2936 - §6§lNeutron Activator
+gtnh.quest2936.name=§6§lNeutron Activator
+gtnh.quest2936.desc=You will need machine to process the naquadah in future.%n%nThis machine is different from most mulits. It needs to use §4Neutron Accelerator§r this special hatch instead of energy hatch to keep it running.%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerator§rs aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.
+
+# Quest.2937 - §6§lNeutron Sensor
+gtnh.quest2937.name=§6§lNeutron Sensor
+gtnh.quest2937.desc=The sensor will sends redstone signals according to the NKE of the Neutron Activator.%n%nYou only need to input some expressions like ">120MeV", "<=1000keV" etc in the sensor, and it will work as you want.
+
+# Quest.2938 - §6§lNeutron Accelerator
+gtnh.quest2938.name=§6§lNeutron Accelerator
+gtnh.quest2938.desc=It is used to accelerate the NKE. You just need to connect a cable to it and it will keep consuming the energy.%n%nThe highest tier of accelerator is LuV. Think twice before you try it.%n%n§3PS: You can use a controller cover to stop it.
+
+# Quest.2939 - §6§lOops
+gtnh.quest2939.name=§6§lOops
+gtnh.quest2939.desc=If you failed to meet the NKE as NEI requested, you can recycle something useful in this place.
+
+# Quest.2940 - §c§lSeparation
+gtnh.quest2940.name=§c§lSeparation
+gtnh.quest2940.desc=WHY IT COMES BACK AGAINNNNN? ! ! !
+
+# Quest.2941 - §c§lAlmost Success
+gtnh.quest2941.name=§c§lAlmost Success
+gtnh.quest2941.desc=Now you only have to subside the naquadah from the solution. Hooray!
+
+# Quest.2942 - §c§lNaquadah Dust
+gtnh.quest2942.name=§c§lNaquadah Dust
+gtnh.quest2942.desc=You can directly get naquadah dust in chemical reactor.
+
+# Quest.2943 - §c§lNaquadah Ingot
+gtnh.quest2943.name=§c§lNaquadah Ingot
+gtnh.quest2943.desc=If you want ingots, you can smelt it in EBF with carbon.
+
+# Quest.2944 - §c§lSilicon Boule
+gtnh.quest2944.name=§c§lSilicon Boule
+gtnh.quest2944.desc=You can also use naquadahine dust directly make Silicon Boule in EBF, which takes less time than naquadah dust.
+
+# Quest.2945 - Concentration
+gtnh.quest2945.name=Concentration
+gtnh.quest2945.desc=Now, let's neutralize the solution.
+
+# Quest.2946 - Recycle Trinium
+gtnh.quest2946.name=Recycle Trinium
+gtnh.quest2946.desc=I think you just yeet the enriched naquadah and keep the trinium. lol%n%nYou can get the trinium dust by reacting it with hydrogen in LCR or electrolyze it if you don't care the loss.
+
+# Quest.2947 - Linear Accelerator
+gtnh.quest2947.name=Linear Accelerator
+gtnh.quest2947.desc=I think you should have known how to process it.%n%nSuitable for 9+ to use.
+
+# Quest.2948 - Large Naquadah Reactor
+gtnh.quest2948.name=Large Naquadah Reactor
+gtnh.quest2948.desc=The multi block version of naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and output the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode when more one types of fuel in its hatch.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 105%%nSuper Coolant: 150%%nCryotheum: 275%%n%nYou can also input molten metals to increase power.%nMolten Ccaesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. It works like add 'paralle' to reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
+
+# Quest.2949 - Refining
+gtnh.quest2949.name=Refining
+gtnh.quest2949.desc=So it is a circle?
+
+# Quest.2950 - N.N.Q.Q.N.Q.Q
+gtnh.quest2950.name=N.N.Q.Q.N.Q.Q
+gtnh.quest2950.desc=Do you wanna some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of NERF. You have to build a line for it like the naquadah.
+
+# Quest.2951 - Purification
+gtnh.quest2951.name=Purification
+gtnh.quest2951.desc=The barium will react with sulphuric acid and become insoluble dust so we can remove it.
+
+# Quest.2952 - Recycle Indium
+gtnh.quest2952.name=Recycle Indium
+gtnh.quest2952.desc=Free indium!%n%nYou have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with calcium in chemical reactor.%n%n3) Mix it with gallium hydroxide in mixer.
+
+# Quest.2953 - Disproportionation
+gtnh.quest2953.name=Disproportionation
+gtnh.quest2953.desc=The chemical property of naquadria is a bit weird.%n%nThere's nothing known can precipitate it. the only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only part of output naquadria can be used for further process and you  have to re-purification the rest.
+
+# Quest.2954 - Once again
+gtnh.quest2954.name=Once again
+gtnh.quest2954.desc=The miscibility of P-507 and naquadria is still very perfect like naquadah. Most naquadria can be concentrated again.
+
+# Quest.2955 - Naquadria Ingot
+gtnh.quest2955.name=Naquadria Ingot
+gtnh.quest2955.desc=Smelt it with magnesium dust in EBF.
+
+# Quest.2956 - Nuclear Based Fuel (Th)
+gtnh.quest2956.name=Nuclear Based Fuel (Th)
+gtnh.quest2956.desc=Cheapest one, with 9 800EU/t output lasting 10s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
+
+# Quest.2957 - Nuclear Based Fuel (U)
+gtnh.quest2957.name=Nuclear Based Fuel (U)
+gtnh.quest2957.desc=Provides 12 960EU/t output lasting 5s per mB.
+
+# Quest.2958 - Nuclear Based Fuel (Pu)
+gtnh.quest2958.name=Nuclear Based Fuel (Pu)
+gtnh.quest2958.desc=Provides 32 400EU/t output lasting 7.5s per mB.
+
+# Quest.2959 - Naquadah Fuel Refinery
+gtnh.quest2959.name=Naquadah Fuel Refinery
+gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier naquadah fuel.%n%nIt works like fusion that can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coil.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%ne.g. The MkIV fuel requires Teir 2 coil and the refinery is using Teir 3 coil. This allows a perfect overclock, using 2x power and 0.5x time.
+
+# Quest.2960 - Teir 2 Coil
+gtnh.quest2960.name=Teir 2 Coil
+gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
+
+# Quest.2961 - Naquadah Based Fuel MkI
+gtnh.quest2961.name=Naquadah Based Fuel MkI
+gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
+
+# Quest.2962 - Naquadah Based Fuel MkII
+gtnh.quest2962.name=Naquadah Based Fuel MkII
+gtnh.quest2962.desc=380 000 EU/t lasting 1s per mB. Still very limited.
+
+# Quest.2963 - Naquadah Based Fuel MkIII
+gtnh.quest2963.name=Naquadah Based Fuel MkIII
+gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
+
+# Quest.2964 - Naquadah Based Fuel MkIV
+gtnh.quest2964.name=Naquadah Based Fuel MkIV
+gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
+
+# Quest.2965 - Naquadah Based Fuel MkV
+gtnh.quest2965.name=Naquadah Based Fuel MkV
+gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
+
+# Quest.2966 - Teir 3 Coil
+gtnh.quest2966.name=Teir 3 Coil
+gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
+
+# Quest.2967 - Incomplete Combustion
+gtnh.quest2967.name=Incomplete Combustion
+gtnh.quest2967.desc=A chemical fuel engine for LuV? ! Well, if you are the crazy fan for diesel or benzene, you will love it.%n%nThis engine accept all diesel fuel and gas fuel. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its hatch per second and output power depending on the sum of fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. The ratio larger, and the eff will be higher. The max eff is 150%.%n%ne.g. You input HOG 100mB/s and combustion promoter 1000mB/s. The eff is 149% and sum of the HOG fuel value is 172 800 EU. So the output power is 172 800 * 149% / 20 = 12 873 EU/t
+
+# Quest.2968 - §6§lLarge Essentia Generator (Good Generator)
+gtnh.quest2968.name=§6§lLarge Essentia Generator (Good Generator)
+gtnh.quest2968.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in Thaumonomicon.%n%n§3PS: The essentia fuel value is still in test state. It may get changed.
+
+# Quest.2969 - §6§lAdept Cell
+gtnh.quest2969.name=§6§lAdept Cell
+gtnh.quest2969.desc=You can mix different cells in the same generator. It will increase the efficiency.
+
+# Quest.2970 - §6§lMaster Cell
+gtnh.quest2970.name=§6§lMaster Cell
+gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
+
+# Quest.2971 - §6§lInfinite Energy Storage
+gtnh.quest2971.name=§6§lInfinite Energy Storage
+gtnh.quest2971.desc=You shouldn't click on links from strangers! Although this sounds like clickbait it is true. From a certain point of view.%n%nUse the (potential) force! And store energy that way. Simply construct a dam and floor vast areas with water. You may add energy to your storage by pumping more water into it or just drain it back into energy whenever you need. This works especially well with fluctuating energy sources like wind, water and solar. Or you dump excess energy into it so you can use it another time. The capacity is huge and the choice is yours.%n%nSounds great! But...? - Indeed. There is a catch: Pumps and Turbines will have efficiency correlated loss. Still interested? Let's get to crafting!%n%nThe multi-block has an unusual shape: the back is open. The lake will spawn inside the multi-block and spread block-by-block as far as it can/is allowed. It will replace plants like water (make sure you'll secure your IC2 Crops!) but not replace any solid blocks. Additionally, you can specify limits in any direction. The water will NEVER spread past these limits. You can set those limits in a second GUI by right clicking the controller with a screwdriver.%n%nWhen you enter a limit, it will correct itself to the nearest valid setting. Especially, if you try to spread past the server limits. You may talk your admin into raising these limits (these limits are supposed to limit griefing options). Further, water is not able to spread into foreign towns.%nYou will also find 3 magical buttons in the top-right of this GUI. From left to right: The first will slowly despawn the lake blocks. You can use this to shrink the lake if it spreaded past a barrier for example. The multi-block will also initialize with this configuration so there is no accidental flooding. The second and third buttons will slowly spawn more lake blocks. Additionally, the second button will render those lake blocks pink so you see where they are so you may plug holes and such things. In this "debug" mode you can walk/breathe/act in the lake like in air. This should make it easy to create a sunken village for decoration purposes. The third button is for normal operations so you can see the water and enjoy a swim in your energy buffer.%n%nOf course, there is also a normal GUI (simple right-click). It shows you the energy stored in the dam. To reach higher water levels you are required to use stronger pumps. For this purpose, you may configure the voltage tier of the GUI with a circuit in the circuit slot. Don't worry: It is only optical. You cannot void any energy if you set a low voltage tier. It is only for the player information. You may give it a try with the reward you earn...%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
+
+# Quest.2972 - §6§lGotta Pump It Upe
+gtnh.quest2972.name=§6§lGotta Pump It Upe
+gtnh.quest2972.desc=If you made it this far you may already noticed that you cannot pour vanilla water into the dam. That’s what a HydroEnergy Pump is for. This multi-block exists in multiple tiers and will allow you to reach higher water levels (= more energy capacity). Provide the pump with vanilla water as input and pipe the fluid output into the dam. Then the dam will slowly fill up. If the dam is full or full for a pump’s voltage tier, it will void the water and energy.%n%nThat's all folks! Nothing too fancy here.%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n%n
+
+# Quest.2973 - §6§lLet if flow, let it floww ...
+gtnh.quest2973.name=§6§lLet if flow, let it floww ...
+gtnh.quest2973.desc=... can't hold it back anymore. It is time to collect the rewards of your hard work. Connect the fluid output hatch from the dam to the fluid input hatch of this turbine and finally enjoy the power! You can pause this multiblock if you cut the fluid input or use a machine controller. Oh, and you will get your water back in the fluid output hatch.%n%nCongratulations to making it this far! Enjoy your ginormous energy buffer!%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
+
+# Quest.2974 - §6§lAluminium Hydroxide
+gtnh.quest2974.name=§6§lAluminium Hydroxide
+gtnh.quest2974.desc=To get ingots straight from aluminum dust you'll need higher temperatures then cupronickel coils can provide. Alternatively you can lower required temperature by mixing aluminum dust with sodiumhydroxide to create aluminiumhydroxide dust. It can be processed to alumina. Cryolite can also lower required temperature to smelt it to ingots.%n%n§d§6Check out NEI to find alternative recepis for aluminiumhydroxide.
+
+# Quest.2975 - §6§lChemical cryolity production
+gtnh.quest2975.name=§6§lChemical cryolity production
+gtnh.quest2975.desc=Feeling too lazy to search for cryolite vein for smelting all this alumina? You can always synthesize it with hydroflouric acid, salt water and aluminiumhydroxide.
+
+# Quest.2976 - §9§lAdvanced aluminium production
+gtnh.quest2976.name=§9§lAdvanced aluminium production
+gtnh.quest2976.desc=After you have done your large chemical reactor you are able to recycle your aluminium dust to make sodiumaluminate. %nIt will be even more rewarding after you find baxite.%nIn this process you will also get a lot of hydrogen.
+
+# Quest.2977 - §9§lAdvanced alumina production
+gtnh.quest2977.name=§9§lAdvanced alumina production
+gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 24 alumina dust. Sodium carbonate will be left over
+
+# Quest.2978 - §9§lRed Mud
+gtnh.quest2978.name=§9§lRed Mud
+gtnh.quest2978.desc=Red mud is a byproduct from sodium aluminate processing. You can get few useful materials out of it by centrifuging.
 
 ##################################Line##################################
 

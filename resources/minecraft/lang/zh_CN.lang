@@ -262,7 +262,7 @@ gtnh.quest64.desc=一台新版的蒸汽熔炉!它消耗更多的蒸汽,但几乎
 
 # Quest.65 - §3§lBlastoff!
 gtnh.quest65.name=§3§l熔炼!
-gtnh.quest65.desc=是时候搞些钢了!查看多方块任务,建造个砖高炉.当你制作了至少8钢铁锭时,回到这页提交任务.
+gtnh.quest65.desc=是时候搞些钢了!查看多方块任务,建造砖高炉.当你至少制作了8个钢锭后,回到这页提交任务.%n%n还看不到这个任务?你需要在这里多完成些任务,直到解锁蒸汽压缩机.
 
 # Quest.66 - §3§lTime For Some Logic
 gtnh.quest66.name=§3§l是时候搞些逻辑电路
@@ -414,7 +414,7 @@ gtnh.quest102.desc=绝对必要的机器.能将杆切成螺栓;板切成外壳;�
 
 # Quest.103 - §5§lGetting Ready for Tier 2, MV
 gtnh.quest103.name=§5§l准备好,第2阶段,MV
-gtnh.quest103.desc=为了进一步发展,你需要铝、非常多的铝.但现在只需要9个铝粉就可以完成这个任务.粘土可能是最好的铝来源.但那需要MV级机器,现在你需要找替代方案,直到你有足够的铝粉来完成准备工作.可以在"第0阶段"任务栏找到一些提示.%n%n想要用铝粉制成铝锭,你需要首先完成多方块任务栏内的电力高炉(EBF)任务.整个阶段的一半时间以上都在进行相关工作.在烧制铝锭的过程中,可以种些铝矿莓并/或收集一些铝矿砂砾.当你获得了足够的铝粉后,你需要完成"多方块结构"任务栏里的工业高炉(EBF)任务,用工业高炉将粉加工成锭. 要是你找不到获得镍的方法,去暮色森林吧.%n%n等你把这些都完成了之后,这个阶段也就差不多了,不过你还需要不错的电路板(MV)才能解锁下一阶段.%n%n§3不要忘了看看"摆脱死亡,游历四方"任务栏里解锁的新任务.
+gtnh.quest103.desc=为了进一步发展,你需要铝、非常多的铝.但现在只需要10个铝粉就可以完成这个任务.粘土可能是最好的铝来源.但那需要MV级机器,现在你需要找替代方案,直到你有足够的铝粉来完成准备工作.可以在"第0阶段"任务栏找到一些提示.%n%n想要用铝粉制成铝锭,你需要首先完成多方块任务栏内的电力高炉(EBF)任务.整个阶段的一半时间以上都在进行相关工作.在烧制铝锭的过程中,可以种些铝矿莓并/或收集一些铝矿砂砾.当你获得了足够的铝粉后,你需要完成"多方块结构"任务栏里的工业高炉(EBF)任务,用工业高炉将粉加工成锭. 要是你找不到获得镍的方法,去暮色森林吧.在这里还可以找到冰晶石.在找个新的方铅矿脉.%n%n等你把这些都完成了之后,这个阶段也就差不多了,不过你还需要不错的电路板(MV)才能解锁下一阶段.%n%n§3不要忘了看看"摆脱死亡,游历四方"任务栏里解锁的新任务.%n注意:如果你在更新到2.1.1.4之前探索过暮色森林,在已生成区块中是无法找到冰晶石的,你需要探索新的区块.
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§l你的魔法之路
@@ -550,7 +550,7 @@ gtnh.quest136.desc=导管本身是非常棒的,但你可以做得更好.通过�
 
 # Quest.137 - §6§lMaking Things Pretty
 gtnh.quest137.name=§6§l变得漂亮
-gtnh.quest137.desc=虽然管道本身已经很棒了,如果你想要的话,你也可以隐藏它们.有两种类型的导管框架,基础的和硬化的.虽然基础的简单易用,但是硬化的能够抵御爆炸和工具的挖掘.你必须使用你的以太扳手来移除它.
+gtnh.quest137.desc=虽然导管本身已经很棒了,但如果你想的话,也可以隐藏它们. 有两种类型的导管框架,基础的和硬化的. 基础的简单易用,而硬化的能够抵御爆炸和工具的挖掘. 你得用以太扳手才能拆除它.%n%n你得先在喷涂机中对框架进行喷涂-在漆刷处放置你想要的外观方块,再在左侧放上框架. 当然,喷涂机需要供能.
 
 # Quest.138 - §5§6§lCome to the Dark Side...
 gtnh.quest138.name=§5§6§l来到黑暗面...
@@ -562,7 +562,7 @@ gtnh.quest139.desc=有了玄钢,你现在可以制作一套新的护甲了.它�
 
 # Quest.140 - §6§lDark Steel Tools
 gtnh.quest140.name=§6§l玄钢工具
-gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.  这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.  玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.  玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.  玄钢镐?好吧,它能开采钴,要是你还没有别的能开采钴的镐子的话.要是你的日常开采镐比这个好的话,玄钢镐还可以用来作为装饰物...
+gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.%n%n这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.%n%n玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.%n%n玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.%n%n玄钢镐?好吧,它能开采钴,要是你还没有别的能开采钴的镐子的话.要是你的日常开采镐比这个好的话,玄钢镐还可以用来作为装饰物...
 
 # Quest.141 - §9§lVibrant Crystals
 gtnh.quest141.name=§9§l充能晶体
@@ -1381,12 +1381,12 @@ gtnh.quest344.name=嗜血: 女巫之爪
 gtnh.quest344.desc=万一你不喜欢地狱女巫...
 
 # Quest.345 - Seeping Shoes
-gtnh.quest345.name=嗜血: 睡鞋
+gtnh.quest345.name=睡鞋
 gtnh.quest345.desc=谁需要解药？ 现在有免费肥料!聪明点,杀死恶魔前可以与其交易.
 
-# Quest.346 - Taglock Kits
-gtnh.quest346.name=嗜血: 巫媒
-gtnh.quest346.desc=右键对其他玩家使用,会获得其他玩家的巫媒(建议玩家睡觉的时候采集)被采集的玩家右下角会提示被采集中(可对目标玩家的床,触碰过的水蛭箱子使用)
+# Quest.346 - Poppets
+gtnh.quest346.name=娃娃
+gtnh.quest346.desc=制作一个基础娃娃,然后制成相应防护类型的娃娃. 我们建议先制作死亡守护娃娃.%n%n考虑制造娃娃台子,这样就不用随身带着一大票娃娃了.它需要被加载才可以生效.
 
 # Quest.347 - Bloodlust: Wool of Bat
 gtnh.quest347.name=嗜血: 蝙蝠之毛
@@ -2478,7 +2478,7 @@ gtnh.quest618.desc=用化学反应釜搅拌硫化氢跟水,可以得到用于一
 
 # Quest.619 - §5§lBattery Buffer
 gtnh.quest619.name=§5§l电池箱
-gtnh.quest619.desc=电池直接装在机器的电池槽时,与放在电池箱中时的工作方式基本一致.电池箱主要用途就是缓冲能量,提供一个稳定的输出.%n%n有1、4、9(!)、16槽可以选择. 每个在电池箱内的电池可以接收2A,并可以输出1A-请注意这一点,别烧线了! 线缆有1x、2x、4x、8x、12x和16x,以锡为例,每x可以传输1A. 请确保不要超过其最大电流,不然线缆会被融化,化为火焰,而且有概率引爆机器.%n%n请记住,电池箱接收EU时也会有损失,所以用4个4槽电池箱排成一列会损失8,而1个16槽电池箱只会损失2. 而且这个损耗也是每A计算的.
+gtnh.quest619.desc=电池直接装在机器的电池槽时,与放在电池箱中时的工作方式基本一致.电池箱主要用途就是缓冲能量,提供一个稳定的输出.%n%n有1、4、9(!)、16槽可以选择. 每个在电池箱内的电池可以接收2A,并可以输出1A-请注意这一点,别烧线了! 线缆有1x、2x、4x、8x、12x和16x,以锡为例,每x可以传输1A. 请确保不要超过其最大电流,不然线缆会被融化,化为火焰,而且有概率引爆机器.%n%n请记住,电池箱接收EU时也会有损失,所以用4个4槽电池箱排成一列会损失8,而1个16槽电池箱只会损失2. 而且这个损耗也是每A计算的.%n%n§3你可以用物流输入电池,但只有空的酸性电池可以从电池箱中输出. 不,你无法循环利用它.
 
 # Quest.620 - §5§lIC2 Battery
 gtnh.quest620.name=§5§lIC2电池
@@ -2922,11 +2922,11 @@ gtnh.quest729.desc=现在用这张桌子,你可以做出一些酷炫又有更多
 
 # Quest.730 - §6§lBio Fuels
 gtnh.quest730.name=§6§l生物质燃料
-gtnh.quest730.desc=你现在使用蒸汽、杂酚油,可能还有石油及其副产物来发电.是时候开始制造并使用生物柴油了.%n%n第一步是用有机材料制造植物球.你可以使用小麦、甘蔗、苹果、树苗或者...几乎任何作物. 靛蓝花(Indigo-blossoms)的产出比是4:1,这与其他IC2作物不同,除此之外也没啥别的用了. 不过实际上大家基本都会用树苗,因为你总会需要一个树厂的.%n%n确保你有一座自动化林业多方块农场、史蒂夫矿车农场,或IC2作物架配合收割机.因为你需要大量的生物质原料,用于持续地制造沼气.  §4提示:榛果是生物柴油的终极来源.
+gtnh.quest730.desc=你现在使用蒸汽、杂酚油,可能还有石油及其副产物来发电.是时候开始制造并使用生物柴油了.%n%n第一步是用有机材料制造植物球.你可以使用小麦、甘蔗、苹果、树苗或者...几乎任何作物. 靛蓝花(Indigo-blossoms)的产出比是4:1,这与其他IC2作物不同,除此之外也没啥别的用了. 不过实际上大家基本都会用树苗,因为你总会需要一个树厂的.%n%n确保你有一座自动化林业多方块农场、史蒂夫矿车农场,或IC2作物架配合收割机.因为你需要大量的生物质原料,用于持续地制造沼气.%n%n§4提示:榛果是生物柴油的终极来源.
 
 # Quest.731 - §6§lPlantballs
 gtnh.quest731.name=§6§l植物球
-gtnh.quest731.desc=第一步是将小麦压缩成植物球.你的LV压缩机太慢了.我建议你为新的生物柴油生产线制造四台MV压缩机.
+gtnh.quest731.desc=下一步,你需要压缩小麦生产植物球.%n%nMV压缩机比LV的快一倍.你可能认为用MV压缩机是个不错的主意.那你就§4错了§r. 为什么?请记住,它的耗电是LV的4倍.这意味着你需要花费4倍的EU,而得到的回报EU没有变化,仅仅加快了速度.最后这一套产线收获的是EU赤字.很讽刺吧,我懂的. 你还可以用多个机器(我喜欢),稍后还能用处理阵列或多方块机器(如果有的话). 这适用于所有燃料生产线,这是基础理论.
 
 # Quest.732 - §6§lPlant Mass
 gtnh.quest732.name=§6§l植物团块
@@ -2986,7 +2986,7 @@ gtnh.quest745.desc=离心粘性树脂,可以得到一些胶水.在制作不错�
 
 # Quest.746 - §6§lSilicon
 gtnh.quest746.name=§6§l硅
-gtnh.quest746.desc=所有单晶硅的生产都需要硅(这是一句废话),以及所有的晶元、芯片和电路板生产都离不开硅. 因此,硅是一种§o极端重要的材料§r.%n%n有许多方法可以获得硅,比如离心或电解多种没啥用的材料(类似方钠石这种).红石或者粘土里都可以产出硅,但如果你想要个刷硅产线的话,我们建议通过刷沙子或燧石粉,产出玻璃粉,进而获取二氧化硅.%n%n石棉、漂白土的处理过程中,也可以获得副产物硅.%n%n你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要工业高炉达到1687K的炉温,并且需要工业高炉拥有120EU/t的功率,若是使用生硅需要耗时84秒.而若是用二氧化硅和碳粉,就只需12秒!很多时候,在使用NEI时多翻几页,往往能找到更优选择.
+gtnh.quest746.desc=所有单晶硅的生产都需要硅(这是一句废话),以及所有的晶元、芯片和电路板生产都离不开硅. 因此,硅是一种§o极端重要的材料§r.%n%n有许多方法可以获得硅,比如离心或电解多种没啥用的材料(类似方钠石这种).红石或者粘土里都可以产出硅,但如果你想要个刷硅产线的话,我们建议通过刷沙子或燧石粉,产出玻璃粉,进而获取二氧化硅.%n%n石棉、漂白土的处理过程中,也可以获得副产物硅.%n%n你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要2000mb氧,并且工业高炉达到1600K的炉温,拥有120EU/t的功率,若是使用生硅需要耗时80秒.而若是用二氧化硅和碳粉,就只需12秒!很多时候,在使用NEI时多翻几页,往往能找到更优选择.
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§l二极管
@@ -3356,8 +3356,8 @@ gtnh.quest837.desc=先进的电路板需要集成逻辑电路和随机存取芯�
 gtnh.quest838.name=§6§l高级电路板
 gtnh.quest838.desc=最后,HV电路板.制造它需要不错的集成电路、集成逻辑电路、RAM、晶体管、细琥珀金导线和铜螺栓.%n%n另外,随着科技提升,电路板的造价会随之降低,不过需要在HV之后才能享受到.
 
-# Quest.839 - §6§lHandle Tiny Piles Like a K1ng
-gtnh.quest839.name=§6§l自动化处理小撮的粉末
+# Quest.839 - §5§6§l§5§lHandle Tiny Piles Like a K1ng
+gtnh.quest839.name=§5§6§l§5§l自动化处理小撮粉末
 gtnh.quest839.desc=你是不是很讨厌手动压缩这些小撮的各种粉末？好,让我来给你们演示一下如何让这种工作实现自动化.使用一种类型的过滤器和物品缓存器(LV或者HV的都可以)和打包机,这样就能让你摆脱合成小撮粉末的工作了.	
 
 # Quest.840 - §5§lButane and Propane
@@ -3398,7 +3398,7 @@ gtnh.quest848.desc=潘马斯的花生也是不错的种子油来源,而且可以
 
 # Quest.849 - §6§f§6§lSodium Hydroxide
 gtnh.quest849.name=§6§f§6§l氢氧化钠
-gtnh.quest849.desc=你需要制造一些氢氧化钠(用于生物柴油及其他),你可以在化学反应釜中通过钠和水的反应得到氢氧化钠(EV).也可以先将钠和水搅拌成盐水,然后通过在电解机中电解盐水来得到它.%n%n§5§4电解盐水的副产物氢气还可以用作燃气轮机的燃料.
+gtnh.quest849.desc=你需要制造一些氢氧化钠(用于生物柴油及其他),你可以在化学反应釜中通过钠和水的反应得到氢氧化钠(EV).也可以先将钠和水搅拌成盐水,然后通过在电解机中电解盐水来得到它.%n%n氢氧化钠也用于进阶的铝生产.%n%n§5§4电解盐水的副产物氢气还可以用作燃气轮机的燃料.
 
 # Quest.850 - §6§lEthenone
 gtnh.quest850.name=§6§l乙烯酮
@@ -3586,7 +3586,7 @@ gtnh.quest895.desc=在MV阶段你也需要很多这个东西.如果你想从箱�
 
 # Quest.896 - §6§lYou're Gonna Hate This in MV Too #3
 gtnh.quest896.name=§6§lMV阶段你会讨厌这个 #3 
-gtnh.quest896.desc=多囤积一些材料吧,未来你会制造很多电力活塞的.
+gtnh.quest896.desc=多囤积一些材料吧,未来你会制造很多电动活塞的.
 
 # Quest.897 - §6§lYou're Gonna Hate This in MV Too #4
 gtnh.quest897.name=§6§lMV阶段你会讨厌这个 #4 
@@ -3994,7 +3994,7 @@ gtnh.quest997.desc=你的玄钢护甲可以通过和多种物品相结合来增�
 
 # Quest.998 - §9§lDark Steel Tool and Weapon Basic Upgrades
 gtnh.quest998.name=§9§l玄钢工具和武器的基础升级
-gtnh.quest998.desc=为了升级玄钢工具和武器,你需要充能晶体和一些经验值. 升级需要在铁砧上面进行. 使用充能晶体升级完毕后的武器和工具可以获得注能附魔,给予10万的电池容量.能量吸收抵消一半的耐久损伤.
+gtnh.quest998.desc=为了升级玄钢工具或武器,你需要充能晶体和一些经验值(10级). 升级需要在可靠的铁砧上面进行. 使用充能晶体升级完毕后的武器和工具可以获得注能附魔,给予10万的电池容量.能量吸收抵消一半的耐久损伤.
 
 # Quest.999 - §9§lDark Steel Tool and Weapon Advanced Upgrades
 gtnh.quest999.name=§9§l玄钢工具和武器的高级升级
@@ -4294,7 +4294,7 @@ gtnh.quest1072.desc=我有一个小礼物送给你:一个护身符,在这无比�
 
 # Quest.1073 - Naga
 gtnh.quest1073.name=娜迦
-gtnh.quest1073.desc=在暮色森林中召唤娜迦!%n%n§3也只能在暮色森林世界才能召唤成功.
+gtnh.quest1073.desc=在暮色森林中召唤娜迦!%n%n§3也只能在暮色森林世界才能召唤成功.%n%n娜迦石头(nagastone)的名字坏了,这是允许所有meta的副作用#.
 
 # Quest.1074 - Lich
 gtnh.quest1074.name=巫妖
@@ -4374,7 +4374,7 @@ gtnh.quest1092.desc=你在下界发现了一些和萤石很类似的植物. 将�
 
 # Quest.1093 - §6§lDid You Run Low On Gold or Redstone?
 gtnh.quest1093.name=§6§l你用完了黄金或者红石？
-gtnh.quest1093.desc=你已经用完了你的黄金或者红石储备？如果你已经建设好了辉光花农场的话.你可以通过离心萤石粉来获得小堆的红石和金粉. 红石也是获得铝和铬的很好途径. 在HV阶段,你会用到成吨的金,在此之前早做储备是个好主意.
+gtnh.quest1093.desc=你已经用完了你的黄金或者红石储备？如果你已经建设好了辉光花农场的话.你可以通过离心萤石粉来获得小堆的红石和金粉. 红石也是获得铝和铬的很好途径. 在HV阶段,你会用到成吨的金,在此之前早做储备是个好主意.%n%n§3其实有许多植物都可以出产萤石,挑一种你喜欢的吧!
 
 # Quest.1094 - §5§lDiamond Chests... Ooo, Shiny
 gtnh.quest1094.name=§5§l钻石箱子...哦,闪闪发亮
@@ -4386,7 +4386,7 @@ gtnh.quest1095.desc=如果你找到了足够多的黄金,那么你可以继续�
 
 # Quest.1096 - Scribing Tool
 gtnh.quest1096.name=书写工具
-gtnh.quest1096.desc=需要笔和纸才可以解锁某项研究. 而想要进行研究,你需要在研究台中放入笔与墨、研究笔记进行连连看,所以你最好做两个. 哦别忘了你还需要一些墨水.
+gtnh.quest1096.desc=需要笔和纸才可以解锁某项研究. 而想要进行研究,你需要在研究台中放入笔与墨、研究笔记进行连连看,所以你最好做两个. 哦别忘了你还需要一些墨水.%n%n注意:Thaumcraft-Research-Tweaks重做了研究台的GUI.现在,各要素之间的拖&放已经整合进了GUI.你还可以在拖动要素时右键,即可直接放下要素同时不影响继续拖动;在连连看的时候同样适用. 这些新特性都已经写入了魔导手册,请查看'研究'、'研究专长'、'研究精通'和'研究拷贝'页.
 
 # Quest.1097 - Bathing the Warp Effects Away
 gtnh.quest1097.name=沐浴更衣,远离扭曲烦恼
@@ -5162,7 +5162,7 @@ gtnh.quest1289.desc=HV卷板机的速度是LV卷板机的4倍,而且它还解锁
 
 # Quest.1290 - Imma Chargin' My...
 gtnh.quest1290.name=吱吱吱...充电
-gtnh.quest1290.desc=充能赛特斯石英是制作很多AE物品的基础材料.你可以让红石粉和赛特斯粉发生反应,得到充能赛特斯粉,然后使用高压釜晶化得到它.%n%n或者如果你有大量的钠,则可以使用化学反应釜配方. 你还可以制造充能器(AE),直接将赛特斯石英充能,但这比较慢. 充能器底部可直接与GT线缆或AE线缆连接.
+gtnh.quest1290.desc=充能赛特斯石英是制作很多AE物品的基础材料.你可以让红石粉和赛特斯粉发生反应,得到充能赛特斯粉,然后使用高压釜晶化得到它.%n%n或者如果你有大量的钠,则可以使用化学反应釜配方. 你还可以制造充能器(AE),直接将赛特斯石英充能,但这比较慢. 充能器底部可直接与GT线缆或AE线缆连接.%n%n§3请注意,某些配方(相当一部分)只有一定几率出产充能赛特斯石英.
 
 # Quest.1291 - Keeping Your Network Happy
 gtnh.quest1291.name=保持网络稳定
@@ -5186,7 +5186,7 @@ gtnh.quest1295.desc=晶体催生仓可以通过插入加速卡来更加快速地
 
 # Quest.1296 - Purifying the Impure
 gtnh.quest1296.name=高纯度晶体
-gtnh.quest1296.desc=高纯度的下界石英、赛特斯和福鲁伊克斯水晶可通过种子(组装沙子和晶体粉末)获得.%n%n将它们丢入水中可以免费生长,而在GT高压釜中可以大大加快这一过程.%n%n§3高压釜配方中,蒸馏水可以让时间减半.%n
+gtnh.quest1296.desc=高纯度的下界石英、赛特斯和福鲁伊克斯水晶可通过种子(组装沙子和晶体粉末)获得.%n%n将它们丢入水中可以自然生长,而在GT高压釜中可以大大加快这一过程.%n%n§3高压釜配方中,蒸馏水可以让时间减半.%n
 
 # Quest.1297 - Dragon Essense
 gtnh.quest1297.name=龙之精华
@@ -5486,7 +5486,7 @@ gtnh.quest1370.desc=奥术灯创造了额外的光源,其作用类似于火把,�
 
 # Quest.1371 - LOX and Bagels
 gtnh.quest1371.name=液氧与面包
-gtnh.quest1371.desc=液态氧气罐是补充氧气罐的替代方案.%n%n将氧单元放入真空冷冻机中,即可得到1个液氧单元.将液氧转移到容器里,然后再转移到液态氧气罐中.%n%n要重新填充氧气罐,只需将罐和液态氧气罐放入合成栏中即可传输氧气.%n%n每个液氧单元可以装满4个重型氧气罐,6个中型氧气罐或12个轻型氧气罐. 带着一组液氧单元,你就无需携带制氧设备了.%n%nSo much Greggy!
+gtnh.quest1371.desc=液态氧气罐是补充氧气罐的替代方案.%n%n将氧单元放入真空冷冻机中,即可得到1个液氧单元.将液氧转移到容器里,然后再转移到液态氧气罐中.%n%n要重新填充氧气罐,只需将罐和液态氧气罐放入氧气压缩机中即可传输氧气,也可以用氧气收集器.%n%n每个液氧单元可以装满4个重型氧气罐,6个中型氧气罐或12个轻型氧气罐. 带着一组液氧单元,你就无需携带制氧设备了.%n%nSo much Greggy!
 
 # Quest.1372 - Wand Focus Fire
 gtnh.quest1372.name=法杖核心:火焰
@@ -5846,7 +5846,7 @@ gtnh.quest1460.desc=每个火箭都需要燃料储存罐. 对于3阶火箭,你�
 
 # Quest.1461 - Just Tell Me What to Scan Already!
 gtnh.quest1461.name=告诉我要扫描什么!
-gtnh.quest1461.desc=不想再猜测什么物品含有什么要素? 只想直接开始工作? 扫描这些东西吧. 第一组需要按顺序扫描. 如果它们中的某些物品无法扫描出结果,请尝试先扫描别的(特别是第三组). 最后5个是虚拟要素,可以忽略,因此它们不在此表中.%n%n洒水壶%n火把%n煤%n草方块%n活板门%n箱子%n玻璃%n白骨方块%n鸡%n灵魂沙%n纸%n腐肉%n小麦%n燧石%n黑曜石%n%n灰云%n任意染料%n羊毛%n蜘蛛眼%n雪%n牛奶%n原版锄%n原版镐%n箭%n原版护甲%n水银%n栅栏门%n铁粒%n金%n僵尸之脑%n末影珍珠%n粘液球.实在找不着史莱姆可以在坩埚里加满物品制造咒波粘浆,然后就可以生成神秘史莱姆了(别在基地里这么干)%n带污染的任意物品.%n天域之华(任意要素,小精灵的掉落物,当然你也可以手撸节点)或大地疣%n%n铝锭%n铂金属粉%n细铜导线%n磁铁矿粉%n钍粉%n猪%n地狱岩%n金制护甲%n床%n拴绳(不是铅) 译者注:拴绳和铅在英语中都是Lead%n恶魂之泪%n时钟%n水晶矩阵
+gtnh.quest1461.desc=不想再猜测什么物品含有什么要素? 只想直接开始工作? 扫描这些东西吧. 第一组需要按顺序扫描. 如果它们中的某些物品无法扫描出结果,请尝试先扫描别的(特别是第三组). 最后5个是虚拟要素,可以忽略,因此它们不在此表中.%n%n洒水壶%n火把%n煤%n草方块%n活板门%n箱子%n玻璃%n白骨方块%n鸡%n灵魂沙%n纸%n腐肉%n小麦%n燧石%n黑曜石%n%n灰云%n任意染料%n羊毛%n蜘蛛眼%n雪%n牛奶%n原版锄%n原版镐%n箭%n原版护甲%n水银%n栅栏门%n铁粒%n金%n僵尸之脑%n末影珍珠%n粘液球.实在找不着史莱姆可以在坩埚里加满物品制造咒波粘浆,然后就可以生成神秘史莱姆了(别在基地里这么干)%n带污染的任意物品.%n天域之华(任意要素,小精灵的掉落物,当然你也可以手撸节点)或大地疣%n%n铝锭%n铂金属粉%n细铜导线%n磁铁矿粉%n钍粉%n猪%n地狱岩%n金制护甲%n床%n拴绳(不是铅) 译者注:拴绳和铅在英语中都是Lead%n恶魂之泪%n时钟%n水晶矩阵%n%n请注意,以上列表仅用于解锁要素,你可能还需要扫描一些特定物品(比如下界传送门),以解锁某些隐藏研究.
 
 # Quest.1462 - Thermal Cloth
 gtnh.quest1462.name=隔热布匹
@@ -6148,9 +6148,9 @@ gtnh.quest1535.desc=经过数周的艰苦努力和成千上万的工业TNT,你�
 gtnh.quest1536.name=§3§l我不怕没鬼!
 gtnh.quest1536.desc=我已经找到从死者灵魂中收集的灵气的用途了.它可以制作一种非常实用的玻璃,你可以在其上行走,但是怪物不能. 但是,怪物却认为它们可以!%n%n因此,你可以使用它在你的基地周围创建护城河,以各种方式将怪物摧毁,或者只是将它们移到其他地方. 或是在刷怪场里使用它? 对付从地狱门中走出来的猪人? 这么多的可能性!
 
-# Quest.1537 - §6§lBlack and Decker
-gtnh.quest1537.name=§6§lBlack and Decker(美国一家著名电动工具公司)
-gtnh.quest1537.desc=厌倦了不得不一直更换工具？ 现在已经有了不锈钢,是时候制作电动版的螺丝刀和扳手了! 像电池一样给它们充电,它们的使用寿命比正常版本的工具长得多.%n%n你可以使用锂电池,或镉电池/钠电池.  以后,脉冲合金可以制造出具有出色耐久的优质工具.%n%n§3查阅NEI后,你还发现了MV和HV版本的电动工具,但它们的制造材料要求钛和钨钢.
+# Quest.1537 - §§§5§lBlack and Decker
+gtnh.quest1537.name=§§§5§lBlack and Decker(美国一家著名电动工具公司)
+gtnh.quest1537.desc=厌倦了不得不一直更换工具？ 现在已经有了钢,是时候制作电动版的螺丝刀和扳手了! 像电池一样给它们充电,它们的使用寿命比正常版本的工具长得多.%n%n你可以使用锂电池,或镉电池/钠电池.  以后,脉冲合金可以制造出具有出色耐久的优质工具.%n%n§3查阅NEI后,你还发现了MV和HV版本的电动工具,但它们的制造材料要求铝或不锈钢.
 
 # Quest.1538 - §b§lCeres Trip
 gtnh.quest1538.name=§b§l谷神星之旅
@@ -6282,7 +6282,7 @@ gtnh.quest1569.desc=厄运之息是许多合成表中使用的成分. 当在巫�
 
 # Quest.1570 - Tormented Twine
 gtnh.quest1570.name=折磨线团
-gtnh.quest1570.desc=折磨线团是使用转轮从干扰棉花纺出的. 它是制作织梦者的一种成分. 它是用转轮制成的,干扰棉花,线和厄运之息. 祭坛必须在附近为转轮提供动力.
+gtnh.quest1570.desc=折磨线团是使用转轮从干扰棉花纺出的. 它是制作织梦者的一种成分. 它是用转轮制成的,干扰棉花、血灼之线和厄运之息.%n%n§4你需要T2的血魔法祭坛才能制作这种线,所以要是你之前还没有完成这部分血魔法推进的话,请转到血魔法章节.%n%n§r祭坛必须在附近为转轮提供动力.
 
 # Quest.1571 - Distillery
 gtnh.quest1571.name=蒸馏塔
@@ -6668,9 +6668,9 @@ gtnh.quest1665.desc=现在你有了HSS-G,是时候制作HSS-S了. 这种新型�
 gtnh.quest1666.name=§c§b§l氩
 gtnh.quest1666.desc=要处理一些你以后会发现的新锭,你需要氩气. 氩气第一个来源来自空气中的少量存在(稀有气体). 不同于直接离心压缩空气单元,你需要先将其在真空冷冻机内转化成液态空气单元,这样才能更有效地离心.%n%n真空冷冻机只能处理单元,但后面的升级版本可直接处理流体. 你还可以制造进气仓替代压缩机,效果碾压. 不过进气仓仅兼容升级版真空冷冻机和多方块火箭引擎(译者注: 实际上大化反、大离心、化工厂均兼容),不过你可以将生产出的空气泵出装单元,然后就可以用在真空冷冻机了. HV泵或者EIO流体导管就足够了. %n%n除非你对某些稀有气体感兴趣,不然的话不用在意蒸馏塔的配方,它比不上离心配方. 蒸馏塔蒸馏液态空气还要求液态空气仓(只对液态空气有效)和巨型输出仓.%n%n§3巨型真空冷冻机与普通真空冷冻机性质类似,也只能处理单元,而升级版凛冰冷冻机却可以直接处理流体.
 
-# Quest.1667 - §b§lNaquadah
-gtnh.quest1667.name=§b§l硅岩
-gtnh.quest1667.desc=在谷神星,你可以找到贫瘠硅岩矿石. 既然你有了粉和氩气,你可以制作一些硅岩锭.你的工业高炉(EBF)需要HSS-G线圈.
+# Quest.1667 - §b§lYour First Naquadah Ingot
+gtnh.quest1667.name=§b§l你的第一块硅岩锭
+gtnh.quest1667.desc=你可能已经注意到了,现在你无法直接从硅岩矿石中获得硅岩粉了,它只能出产氧化硅岩混合物(NOM)粉,真让人恼火.%n%n完整的硅岩处理线非常复杂,尤其在IV阶段,我相信在完成了铂系处理线以及聚苯并咪唑(PBI)线之后,你不会想在短时间内再搭一条线.%n%n幸好,直接你可以在工业高炉(EBF)中直接熔炼氧化硅岩混合物粉,获得硅岩粒,但这样会损失其中的副产物,显得不太有效率.%n%n§3PS:氧化硅岩混合物有时候也叫"氧化硅岩金属混合物",缩写为Nq-MOM. §6§4
 
 # Quest.1668 - HSSG
 gtnh.quest1668.name=HSS-G
@@ -7250,7 +7250,7 @@ gtnh.quest1811.desc=4000桶还不够?想存够烧一辈子的柴油?试试超级
 
 # Quest.1812 - §9§lTeflon Don
 gtnh.quest1812.name=§9§l聚四氟乙烯
-gtnh.quest1812.desc=你只需几步即可制造出聚四氟乙烯.%n%n第一步是制作氢氟酸.如果你还没能登上月球,最好的氟来源是开采方解石或沙石(1/640的几率得到氟石矿石)还有离心石粉或黑色花岗岩粉获得的黑云母粉可电解出氟.你还能从盐矿脉中的锂云母中获得少量氟.  将所得的氟与氢反应,你就会获得氢氟酸.
+gtnh.quest1812.desc=你只需几步即可制造出聚四氟乙烯.%n%n第一步是制作氢氟酸.如果你还没能登上月球,最好的氟来源是开采方解石或沙石(1/640的几率得到氟石矿石)还有离心石粉或黑色花岗岩粉获得的黑云母粉可电解出氟.你还能从盐矿脉中的锂云母中获得少量氟.  将所得的氟与氢反应,你就会获得氢氟酸.%n%n如果你已经到访过月球,可以直接处理氟碳镧铈矿.
 
 # Quest.1813 - §9§lChloroform
 gtnh.quest1813.name=§9§l氯仿
@@ -7494,7 +7494,7 @@ gtnh.quest1872.desc=氯乙烯是制作先进的PVC物品管道的基础产品.PV
 
 # Quest.1873 - §6§lPolyvinyl Chloride
 gtnh.quest1873.name=§6§l聚氯乙烯
-gtnh.quest1873.desc=聚氯乙烯是熔融状态的PVC(Poly-Vinyl-Chloride). 你需要氯乙烯和氧气来制备聚氯乙烯. 稍后你会需要用它来制作贴片电容.%n%n想要让你的反应釜干干净净,你就要连做两次. 一个单元的熔融聚氯乙烯为144L,恰好是一个条或片的量.
+gtnh.quest1873.desc=聚氯乙烯是熔融状态的PVC(Poly-Vinyl-Chloride). 你需要氯乙烯和氧气来制备聚氯乙烯. 稍后你会需要用它来制作贴片电容.%n%n想要让你的反应釜干干净净,你就要连做两次,或者选择哪个8秒的配方重复三次. 一个单元的熔融聚氯乙烯为144L,恰好是一个条或片的量.
 
 # Quest.1874 - §6§lPVC Sheets
 gtnh.quest1874.name=§6§l聚氯乙烯片
@@ -8026,15 +8026,15 @@ gtnh.quest2005.desc=只有悬崖和万丈深渊,稍不注意就会粉身碎骨.T
 
 # Quest.2006 - The Beginning of the End Game
 gtnh.quest2006.name=毕业之路的开端
-gtnh.quest2006.desc=欢迎来到TecTech!这里有你毕业所需的真正的巅峰科技.但是,学习TecTech常常让人摸不着头脑,所以仔细听.%n%n首先你需要制造所需机器的多种机械方块:高能机械方块,电子计算机机械方块,高级计算机方块和计算机散热器.你需要大量这些机械方块方块才能继续前进.%n%n我们列举出来的只是举个例子,实际需要的将会更多. 更多.%n%n使用光缆将机器连接起来. 确保它们已被涂色,同时光缆连接到的方块也要被涂色.%n%n*蓝图将会显示完整机器的全息图像,左下角的聊天栏会显示可变方块的注释. 如果堆叠更多蓝图的话,你就可以看到较大版本的全息图(比如量子计算机).
+gtnh.quest2006.desc=欢迎来到TecTech!这里有你毕业所需的真正的巅峰科技.但是,学习TecTech常常让人摸不着头脑,所以仔细听.%n%n首先你需要制造所需机器的多种机械方块:高能机械方块,电子计算机机械方块,高级计算机方块和计算机散热器.你需要大量这些机械方块方块才能继续前进.%n%n我们列举出来的只是举个例子,实际需要的将会更多. 更多.%n%n使用光缆将机器连接起来. 确保它们已被涂色,同时光缆连接到的方块也要被涂色.%n%n*投影仪将会显示完整机器的全息图像,左下角的聊天栏会显示可变方块的注释. 如果堆叠更多投影仪的话,你就可以看到较大版本的全息图(比如量子计算机).
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=量子计算机
-gtnh.quest2007.desc=这是一台复杂得不可思议的机器,它会为你的研究站提供"算力(Computation)".%n%n首先你需要备齐一些东西:量子计算机主方块、未定元解析器、一些电路板和容纳它们的电脑机箱、以及一个大能源仓(至少4A-UV),需要这么大的能源仓是因为每个添加的电脑机箱(关于机箱会在下面详细解释)会不断提升正常运行所需的能源输入(1A-UV).%n%n这台多方块机器本身也会消耗大量的能量.另一个要点是,只在研究站中有需要扫描的配方时才打开量子计算机,这样可以避免过多的能量损失.记得先打开量子计算机再打开研究站.%n%n想要构建这台科学怪兽,你需要在至少高于地面1格处放下量子计算机主方块,然后对着主方块使用蓝图,这将为你提供大量信息和各种类似幽灵的方块-显示相应的机械方块或仓室需要放在何处. 注意靠近散热机械方块的没有点的幽灵方块表示此处必须留空.%n%n§4未定元解析器§r%n很像一个解谜小游戏,想要讲清楚其中原理非常复杂,但通常来说最好的方法就是不断尝试或撤销操作,然后将剩下的交给运气.有时候,运行一段时间后,这种薛定谔状态会再次出现问题,需要再次解谜方可继续运行.这种情况是随机的,令人非常沮丧,尤其是在研究站和量子计算机之间进行操作时,所以在量子计算机运行过程中,不时查看未定元解析器十分重要. 如果谜题看起来太难,拆除未定元解析器和控制器方块并重新放置,这样就能刷新出新的谜题了.%n§4计算机箱(Computer-Racks):§r%n此多方块结构中产生算力的主要部件.想要正确使用机箱,你需要放入一些电路板和散热片;高级散热片效果最佳.重点就是是你要使用散热片来防止热量达到灾难性的程度,出于安全,将热量控制在55％以下.理论上,你可以让你的机箱热量超过55％或者说5500;但实际上,熔毁或爆炸临界点会在5600到6000之间浮动.为了精确地监控计算机热量,你需要参数仪,这将在稍后讲解. 这些参数都可以扫描单独的机箱看到. 在散热完毕之前,你无法移动电路板和散热片. 在控制器的GUI中也可以看到热量. 而最重要的是: 千万不要在散热完毕之前拆卸机箱. 否则,BOOM! %n%n§4算力(Computation):§r%n算力每秒生成一次,而算力的大小取决于机箱中的电路板等级和数量.然而,在生成多少算力之间存在差异,即使使用相同的等级的电路板也是如此.例如,大型量子电脑(量子系列电路板中的LuV等级)与湿件处理器(湿件系列电路板中的LuV等级)相比,湿件处理器可以提供更多的算力,虽然它们等级相同.%n如果你想获知一种电路板能提供的精确算力,你可以放下一个电脑机箱,放进去一个电路板然后扫描它.总算力也可以在控制器的GUI中看到.%n%n扫描结果会包含以下信息.%n%n§4基础算力(Base-computation):§r%n没啥好说的...%n§4超频后算力(After-overclocking):§r%n数字一般和上面一样,除非你特意使其超频%n§4蓄热(Heat-Accumulated):§r%n这个数字取决于电路板和散热片,注意这个参数,它非常重要.%n%n通过参数仪,你可以手动超频或过压,不过不是太必要,感兴趣的话可以试试. %n%n为研究站提供算力:%n在量子计算机的可变位置安装主光学接口,并在研究站上安装副光学接口. 使用光缆将它们连接起来,并把三者涂上相同颜色.%n%n建造建议:%n现在,你已经了解了操作计算机箱的基础概念和安全条例(在启动量子计算机前扫描机箱!),但你的量子计算机最理想的配置是什么?要知道,每秒128的最低算力已经可以满足几乎四分之三的研究站配方了.在这种情况下,1个4格机箱,放入1个高级散热片和3个湿件处理器(LuV)可以提供每秒72算力;4个这样的机箱就可以提供每秒288算力,耗电仅为5A-UV(524,288-EU/t).与一些更复杂的配置相比,这是一个性价比相当高的配置.%n%n既然你已经了解了一部分理论知识,是时候构建你自己的量子计算机了!这需要消耗巨量的资源.%n%n译者注:主方块的闪电标志按下后千万不要拆机器,否则就会炸!当然运行过程中更不能拆.
+gtnh.quest2007.desc=这是一台复杂得不可思议的机器,它会为你的研究站提供"算力(Computation)".%n%n首先你需要备齐一些东西:量子计算机主方块、未定元解析器、一些电路板和容纳它们的电脑机箱、以及一个大能源仓(至少4A-UV),需要这么大的能源仓是因为每个添加的电脑机箱(关于机箱会在下面详细解释)会不断提升正常运行所需的能源输入(1A-UV).%n%n这台多方块机器本身也会消耗大量的能量.另一个要点是,只在研究站中有需要扫描的配方时才打开量子计算机,这样可以避免过多的能量损失.记得先打开量子计算机再打开研究站.%n%n想要构建这台科学怪兽,你需要在至少高于地面1格处放下量子计算机主方块,然后对着主方块使用全息投影仪,这将为你提供大量信息和各种类似幽灵的方块-显示相应的机械方块或仓室需要放在何处. 注意靠近散热机械方块的没有点的幽灵方块表示此处必须留空.%n%n§4未定元解析器§r%n很像一个解谜小游戏,想要讲清楚其中原理非常复杂,但通常来说最好的方法就是不断尝试或撤销操作,然后将剩下的交给运气.有时候,运行一段时间后,这种薛定谔状态会再次出现问题,需要再次解谜方可继续运行.这种情况是随机的,令人非常沮丧,尤其是在研究站和量子计算机之间进行操作时,所以在量子计算机运行过程中,不时查看未定元解析器十分重要. 如果谜题看起来太难,拆除未定元解析器和控制器方块并重新放置,这样就能刷新出新的谜题了.%n§4计算机箱(Computer-Racks):§r%n此多方块结构中产生算力的主要部件.想要正确使用机箱,你需要放入一些电路板和散热片;高级散热片效果最佳.重点就是是你要使用散热片来防止热量达到灾难性的程度,出于安全,将热量控制在55％以下.理论上,你可以让你的机箱热量超过55％或者说5500;但实际上,熔毁或爆炸临界点会在5600到6000之间浮动.为了精确地监控计算机热量,你需要参数仪,这将在稍后讲解. 这些参数都可以扫描单独的机箱看到. 在散热完毕之前,你无法移动电路板和散热片. 在控制器的GUI中也可以看到热量. 而最重要的是: 千万不要在散热完毕之前拆卸机箱. 否则,BOOM! %n%n§4算力(Computation):§r%n算力每秒生成一次,而算力的大小取决于机箱中的电路板等级和数量.然而,在生成多少算力之间存在差异,即使使用相同的等级的电路板也是如此.例如,大型量子电脑(量子系列电路板中的LuV等级)与湿件处理器(湿件系列电路板中的LuV等级)相比,湿件处理器可以提供更多的算力,虽然它们等级相同.%n如果你想获知一种电路板能提供的精确算力,你可以放下一个电脑机箱,放进去一个电路板然后扫描它.总算力也可以在控制器的GUI中看到.%n%n扫描结果会包含以下信息.%n%n§4基础算力(Base-computation):§r%n没啥好说的...%n§4超频后算力(After-overclocking):§r%n数字一般和上面一样,除非你特意使其超频%n§4蓄热(Heat-Accumulated):§r%n这个数字取决于电路板和散热片,注意这个参数,它非常重要.%n%n通过参数仪,你可以手动超频或过压,不过不是太必要,感兴趣的话可以试试. %n%n为研究站提供算力:%n在量子计算机的可变位置安装主光学接口,并在研究站上安装副光学接口. 使用光缆将它们连接起来,并把三者涂上相同颜色.%n%n建造建议:%n现在,你已经了解了操作计算机箱的基础概念和安全条例(在启动量子计算机前扫描机箱!),但你的量子计算机最理想的配置是什么?要知道,每秒128的最低算力已经可以满足几乎四分之三的研究站配方了.在这种情况下,1个4格机箱,放入1个高级散热片和3个湿件处理器(LuV)可以提供每秒72算力;4个这样的机箱就可以提供每秒288算力,耗电仅为5A-UV(524,288-EU/t).与一些更复杂的配置相比,这是一个性价比相当高的配置.%n%n既然你已经了解了一部分理论知识,是时候构建你自己的量子计算机了!这需要消耗巨量的资源.%n%n译者注:主方块的闪电标志按下后千万不要拆机器,否则就会炸!当然运行过程中更不能拆.
 
 # Quest.2008 - Research Station
 gtnh.quest2008.name=研究站
-gtnh.quest2008.desc=既然你已经开始构建你珍贵的量子计算机了,再加上研究站怎么样?同样的步骤,让蓝图告诉你如何构建这台多方块机器(主方块下方至少要有3格空间,这样你才能看到完整的结构显示).结构快要完成时,在背部放下一个能源仓、一个副光学接口和一个维护仓.%n%n结构彻底完成后,只要量子计算机开着,你就可以随时扫描(当然需要正确连接).你需要将被扫描物品放进物品固定容器中,然后将一个闪存放入主方块右下角的槽位中.当运算全部结束后,装有被扫描物品所有数据的闪存就会出现在主方块里.%n%n还听不明白?很好,这就是探究精神!  如果你想获得精确的测量结果,一定要在单机测试这些危险的东西.%n%n不要忘了为你的光纤涂色,否则它将不会连接!  译者注:主方块的闪电标志按下后千万不要拆机器,否则就会炸!当然运行过程中更不能拆.%n%n§3请注意,有些研究需要非常夸张的电流.§r
+gtnh.quest2008.desc=既然你已经开始构建你珍贵的量子计算机了,再加上研究站怎么样?同样的步骤,让全息投影仪告诉你如何构建这台多方块机器(主方块下方至少要有3格空间,这样你才能看到完整的结构显示).结构快要完成时,在背部放下一个能源仓、一个副光学接口和一个维护仓.%n%n结构彻底完成后,只要量子计算机开着,你就可以随时扫描(当然需要正确连接).你需要将被扫描物品放进物品固定容器中,然后将一个闪存放入主方块右下角的槽位中.当运算全部结束后,装有被扫描物品所有数据的闪存就会出现在主方块里.%n%n还听不明白?很好,这就是探究精神!  如果你想获得精确的测量结果,一定要在单机测试这些危险的东西.%n%n不要忘了为你的光纤涂色,否则它将不会连接!  译者注:主方块的闪电标志按下后千万不要拆机器,否则就会炸!当然运行过程中更不能拆.%n%n§3请注意,有些研究需要非常夸张的电流.§r
 
 # Quest.2009 - Sign Updater
 gtnh.quest2009.name=告示牌更新器
@@ -9546,7 +9546,7 @@ gtnh.quest2385.desc=在征服了末地的大部分内容之后,是时候进行�
 
 # Quest.2386 - Indium Dust
 gtnh.quest2386.name=铟粉
-gtnh.quest2386.desc=什么?铟?让我买§m一点点§r!
+gtnh.quest2386.desc=想要铟? 让我买§m一点点§r!
 
 # Quest.2387 - Mutating Sprig
 gtnh.quest2387.name=变异枝条
@@ -9694,7 +9694,7 @@ gtnh.quest2422.desc=想要制作生物陷阱,首先,你得在一格水的上方�
 
 # Quest.2423 - Mad Science is the Best Science
 gtnh.quest2423.name=疯狂科学是最好的科学(Mad Science is the Best Science)
-gtnh.quest2423.desc=接下来,我们需要将一些小动物填入做好的陷阱里,蝙蝠和史莱姆就不错. 对于蝙蝠,你只需要站在陷阱上挂机就行了(你的扭曲足以生成蝙蝠),不然的话...嗯,到洞穴里去抓?%n%n对于史莱姆,如果你实在找不着史莱姆区块,可以用暮色森林中米诺陶迷宫中的迷宫史莱姆. 你抓住它们后,再抓来一只狼和一只豹猫(黄金套索或灵魂瓶非常好用).%n%n现在,我们来创造♂新生命吧,蟾蜍和猫头鹰. 首先,你得在一格水的上方放置一个蜘蛛网,然后在蜘蛛网四个对角位置放置擒拿草,四个基本方位放置前面制作的两套生物陷阱(蝙蝠或史莱姆)中的一套. 在一个擒拿草上放入一颗调谐之石(充能),另外的三个放入超级转生粉. 接着将抓住的两种动物之一放入中心的蜘蛛网中,最后使用变异枝条右键蜘蛛网即可. 注意狼对应的是生物陷阱(蝙蝠),而豹猫对应的是生物陷阱(史莱姆). 驯服的狼(狗)或者豹猫也是可以的.%n%n恭喜,你刚刚无视了自然法则创造出了新的生命! 希望别因为你在室外进行此操作而让它们跑了 :(%n记得它们可以繁殖,下一步会用到. 生猪排或生牛肉可用于驯服、繁殖猫头鹰,而腐肉可用于驯服、繁殖蟾蜍.
+gtnh.quest2423.desc=接下来,我们需要将一些小动物填入做好的陷阱里,蝙蝠和史莱姆就不错. 对于蝙蝠,你只需要站在陷阱上挂机就行了(你的扭曲足以生成蝙蝠),不然的话...嗯,到洞穴里去抓?%n%n对于史莱姆,如果你实在找不着史莱姆区块,可以用暮色森林中米诺陶迷宫中的迷宫史莱姆. 你抓住它们后,再抓来一只狼和一只豹猫(黄金套索或灵魂瓶非常好用).%n%n现在,我们来创造♂新生命吧,蟾蜍和猫头鹰. 首先,你得在一格水的上方放置一个蜘蛛网,然后在蜘蛛网四个对角位置放置擒拿草,四个基本方位放置前面制作的两套生物陷阱(蝙蝠或史莱姆)中的一套. 在一个擒拿草上放入一颗调谐之石(充能),另外的三个放入超级转生粉. 接着将抓住的两种动物之一放入中心的蜘蛛网中,最后使用变异枝条右键蜘蛛网即可. 注意狼对应的是生物陷阱(蝙蝠),而豹猫对应的是生物陷阱(史莱姆). 驯服的狼(狗)或者豹猫也是可以的.%n%n恭喜,你刚刚无视了自然法则创造出了新的生命! 希望别因为你在室外进行此操作而让它们跑了 :(%n%n记得它们可以繁殖,下一步会用到. 生猪排或生牛肉可用于驯服、繁殖猫头鹰,而腐肉可用于驯服、繁殖蟾蜍.
 
 # Quest.2424 - Finally Binding a Familiar
 gtnh.quest2424.name=最后,绑定爱宠
@@ -9702,7 +9702,7 @@ gtnh.quest2424.desc=现在你有了蟾蜍和猫头鹰,除此之外你还可以�
 
 # Quest.2425 - Greenhouses on Mountains, Hell on Earth
 gtnh.quest2425.name=山巅的温室,地上的炼狱
-gtnh.quest2425.desc=你就快完成了! 想要让仪式发挥效果,你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒,为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后,聚会女巫就会消失,直到你召唤她们. 当你经过自己的出生点时,聚会女巫偶尔会出现在附近,所以不要把出生点放在岩浆或别的什么上面,因为聚会女巫会死的,并降低你的聚会数量. 你最多拥有6名聚会女巫,还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后,只需要在准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书,然后查找 1) 类型 (森林、平原等等),2) 记住序号. 类型决定了所需的核心,序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中,这样你就不用重新绘制了,然后携带一些圆石准备搭个平台 (15x15,任意高度). 尽量别在夜晚进行此仪式,除非你喜欢与恶魔打交道.%n%n想要进行仪式,你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可,以右键处为圆心展开所保存的圆环法阵,若法阵环上有障碍物则会失败),仪式物品(包括核心与萤石粉)在圆环之内,然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆,要是不失败的话,半径就会是16/32/48这几个数字.%n%n不幸的是,当你退出重新登录后,有时会发现在一些特定的区块并未生效,这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果,相反仪式结束后,退出之前,放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外,如果你在范围里种植过作物,它们在方块更新或者重新登录前会消失.%n%nPS: 想要把你的圆环法阵重新打包回家,你最好带上祭坛.%n译者注: 其实使用带有调谐之石(充能)的那个绑定仪式即可.
+gtnh.quest2425.desc=你就快完成了! 想要让仪式发挥效果,你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒,为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后,聚会女巫就会消失,直到你召唤她们. 当你经过自己的出生点时,聚会女巫偶尔会出现在附近,所以不要把出生点放在岩浆或别的什么上面,因为聚会女巫会死的,并降低你的聚会数量. 你最多拥有6名聚会女巫,还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后,只需要在准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书,然后查找 1) 类型 (森林、平原等等),2) 记住序号. 类型决定了所需的核心,序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中,这样你就不用重新绘制了,然后携带一些圆石准备搭个平台 (15x15,任意高度). 尽量别在夜晚进行此仪式,除非你喜欢与恶魔打交道.%n%n想要进行仪式,你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可,以右键处为圆心展开所保存的圆环法阵,若法阵环上有障碍物则会失败),仪式物品(包括核心与萤石粉)在圆环之内,然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆,要是不失败的话,半径就会是16/32/48这几个数字.%n%n不幸的是,当你退出重新登录后,有时会发现在一些特定的区块并未生效,这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果,相反仪式结束后,退出之前,放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外,如果你在范围里种植过作物,它们在方块更新或者重新登录前会消失.%n%n§3PS:想要把你的圆环法阵重新打包回家,你最好带上祭坛.%n译者注: 其实使用带有调谐之石(充能)的那个绑定仪式即可.
 
 # Quest.2426 - §6§lTantalum Nether
 gtnh.quest2426.name=§6§l下界的钽
@@ -10686,7 +10686,7 @@ gtnh.quest2670.desc=如果你之前没做过这个,请返回查看MV阶段的机
 
 # Quest.2671 - Data Bank
 gtnh.quest2671.name=数据库
-gtnh.quest2671.desc=你可能已经对装配线需要的闪存数量感到不知所措了. TecTech提供了一个解决方式: 数据库. 它最高能存储15x16个闪存(不装输出的话),而目前装配线一共才100出头的合成表. 另外数据库还可以同时为多条装配线提供数据支持.%n%n将控制器方块放置在离地至少1格高的位置,然后对其使用多方块机器蓝图以查看结构. 数据库需要维护仓和一个至少EV的能源仓,不过如果你添加了很多数据访问仓和数据库主接口的话,耗能会远超EV,所以或许LuV能源仓是不错的选择. 运行数据库,然后使用三录仪扫描主方块即可获知其具体耗能.%n译者注: 耗电=2048x数据仓数量x数据库主接口数量%n%n§r此任务要求的方块数量低于你实际需要的数量,因为这取决于你会用多少数据访问仓.%n%n用装配线数据库接口替换掉你原来的数据访问仓. 使用光缆将其连接到数据库上的主接口,并为仓室和光缆涂上相同颜色.%n%n§3如果你不太清楚各种仓室该放在哪里,请在使用蓝图后留意左下角的聊天栏. 填充方块为电子计算机械方块.
+gtnh.quest2671.desc=你可能已经对装配线需要的闪存数量感到不知所措了. TecTech提供了一个解决方式: 数据库. 它最高能存储15x16个闪存(不装输出的话),而目前装配线一共才100出头的合成表. 另外数据库还可以同时为多条装配线提供数据支持.%n%n将控制器方块放置在离地至少1格高的位置,然后对其使用多方块机器全息投影仪以查看结构. 数据库需要维护仓和一个至少EV的能源仓,不过如果你添加了很多数据访问仓和数据库主接口的话,耗能会远超EV,所以或许LuV能源仓是不错的选择. 运行数据库,然后使用三录仪扫描主方块即可获知其具体耗能.%n译者注: 耗电=2048x数据仓数量x数据库主接口数量%n%n§r此任务要求的方块数量低于你实际需要的数量,因为这取决于你会用多少数据访问仓.%n%n用装配线数据库接口替换掉你原来的数据访问仓. 使用光缆将其连接到数据库上的主接口,并为仓室和光缆涂上相同颜色.%n%n§3如果你不太清楚各种仓室该放在哪里,请在使用投影仪后留意左下角的聊天栏. 填充方块为电子计算机械方块.
 
 # Quest.2672 - Unlimited Power
 gtnh.quest2672.name=无限能源
@@ -10730,7 +10730,7 @@ gtnh.quest2681.desc=你可能已经注意到了,生物电路板需要的鲸鱼�
 
 # Quest.2682 - TecTech Multiblocks
 gtnh.quest2682.name=TecTech多方块机器
-gtnh.quest2682.desc=TecTech多方块机器的一般功能%n%n多安能源仓/动力仓和激光仓-使能量分配更便捷..%n%n导能-允许连接到的动力仓从控制器获得能量并输出,就像有源变压器一样(这也是为什么那些有此功能的控制器方块的合成表中总有个有源变压器的原因...).§4拆卸多方块机器时,请确保关闭了导能按钮,不然BOOM!§r%n%n安全销毁-激活此按键,将所有EM(元物质,并非所有机器都用这个)从输入/输出仓移动到溢流仓. 这使得机器更容易拆卸(否则会爆炸...).%n%n可构造界面-使用多方块机器蓝图显示结构(*有一个API可以让任何方块都实现此功能,但目前几乎没有任何作用).%n%n正面旋转-允许旋转机器的正面以获得更大的结构定向自由度(也可以在API中使用). 这种旋转不会改变控制器的正面,仅仅改变方向. 因此,如果从正面看,它可以顺时针或逆时针旋转. 你需要正面旋转扳手才能做到这些. §3如果你没看懂,可以试着放下一个控制器方块,使用正面旋转扳手,然后使用蓝图看看结构变化.§r%n%n多方块机器蓝图-此蓝图可以显示出完整多方块机器的全息图,左下角的聊天栏会显示自定义的方块.如果你堆叠越多张蓝图一起使用,看到的就是多方块机器越大的版本(如果有的话).%n%n%n在TecTech多方块机器的GUI中,从左向右为1,剩余部分按顺时针排序.%n%n1) 各项参数-它们是控制器与玩家、参数舱口进行通信的方式. 指示灯指示状态,而将鼠标悬停在上方时可以看到更多详细信息. tooltip包含ID形式为仓室ID:参数编号:指向,当前状态,当前值,以及简短说明.%n%n2) 不确定度状态-这9个方块指示机器的不确定度状态(未定元). 如果指示灯亮起,代表这台机器需要未定元解析器. 红色=坏,绿色=好. 在使用机器之前,你需要先解决这个小游戏.%n%n控制按键-这些按键可能会根据机器而改变其功能和外观,但通常它们的工作方式如下: 从上到下:%n%n3) 导能-切换导能状态.%n%n4) 安全销毁-切换安全销毁.%n%n5) 电源开关-相当于软锤的功能...%n%n6) 输入插槽-标准功能.%n
+gtnh.quest2682.desc=TecTech多方块机器的一般功能%n%n多安能源仓/动力仓和激光仓-使能量分配更便捷..%n%n导能-允许连接到的动力仓从控制器获得能量并输出,就像有源变压器一样(这也是为什么那些有此功能的控制器方块的合成表中总有个有源变压器的原因...).§4拆卸多方块机器时,请确保关闭了导能按钮,不然BOOM!§r%n%n安全销毁-激活此按键,将所有EM(元物质,并非所有机器都用这个)从输入/输出仓移动到溢流仓. 这使得机器更容易拆卸(否则会爆炸...).%n%n可构造界面-使用多方块机器全息投影仪显示结构(*有一个API可以让任何方块都实现此功能,但目前几乎没有任何作用).%n%n%n在TecTech多方块机器的GUI中,从左向右为1,剩余部分按顺时针排序.%n%n1) 各项参数-它们是控制器与玩家、参数舱口进行通信的方式. 指示灯指示状态,而将鼠标悬停在上方时可以看到更多详细信息. tooltip包含ID形式为仓室ID:参数编号:指向,当前状态,当前值,以及简短说明.%n%n2) 不确定度状态-这9个方块指示机器的不确定度状态(未定元). 如果指示灯亮起,代表这台机器需要未定元解析器. 红色=坏,绿色=好. 在使用机器之前,你需要先解决这个小游戏.%n%n控制按键-这些按键可能会根据机器而改变其功能和外观,但通常它们的工作方式如下: 从上到下:%n%n3) 导能-切换导能状态.%n%n4) 安全销毁-切换安全销毁.%n%n5) 电源开关-相当于软锤的功能...%n%n6) 输入插槽-标准功能.%n%n%n*正面旋转-允许旋转机器的正面以获得更大的结构定向自由度(也可以在API中使用). 这种旋转不会改变控制器的正面,仅仅改变方向. 因此,如果从正面看,它可以顺时针或逆时针旋转. 你需要正面旋转扳手才能做到这些. §3如果你没看懂,可以试着放下一个控制器方块,使用正面旋转扳手,然后使用蓝图看看结构变化.§r%n%n*多方块机器蓝图-此蓝图可以显示出完整多方块机器的全息图,左下角的聊天栏会显示自定义的方块.如果你堆叠越多张蓝图一起使用,看到的就是多方块机器越大的版本(如果有的话).
 
 # Quest.2683 - Configuring TecTech Multiblocks
 gtnh.quest2683.name=配置TecTech多方块机器
@@ -11394,7 +11394,7 @@ gtnh.quest2847.desc=暮色幽灵是漂浮的灵魂,并不会主动攻击玩家,�
 
 # Quest.2848 - How the Eff Do I Charge This Sh*t?
 gtnh.quest2848.name=我该怎么为这*玩意充电?
-gtnh.quest2848.desc=鉴于有许多玩家对此提出疑问,并且它确实与§o相当§r多的方法都不兼容,在这个任务我们会告诉你什么可以为它§o有效§r充电.%n%n你只需要选择其一.%n%n另外别忘了,如果你只想充电的话,能量存储模块/储能簇可以接收EU输入,而太阳能板却不行(而太阳风发电机因为某些原因也不兼容...).更高级的充电更快(高级太阳能板只需指向太阳即可在整个白天以100％功率发电,而普通太阳能板只能在正午发电,另外混合太阳能板更快.而且混合太阳能板不会仅仅因为放置它们而使游戏崩溃!)
+gtnh.quest2848.desc=鉴于有许多玩家对此提出疑问,并且它确实与§o相当§r多的方法都不兼容,在这个任务我们会告诉你什么可以为它§o有效§r充电.%n%n§3你只需要选择其一.%n%n§r另外别忘了,如果你只想充电的话,能量存储模块/储能簇可以接收EU输入,而太阳能板却不行(而太阳风发电机因为某些原因也不兼容...).更高级的充电更快(高级太阳能板只需指向太阳即可在整个白天以100％功率发电,而普通太阳能板只能在正午发电,另外混合太阳能板更快.而且混合太阳能板不会仅仅因为放置它们而使游戏崩溃!)
 
 # Quest.2849 - §5§lFaster Steam Transportation
 gtnh.quest2849.name=§5§l更快地传输蒸汽
@@ -11655,6 +11655,266 @@ gtnh.quest2912.desc=什么？你的桶又满了？ 不要紧,继续升级!
 # Quest.2913 - Sticky Matter
 gtnh.quest2913.name=粘性树脂
 gtnh.quest2913.desc=找不到橡胶树? 造不出蓄水器? 不想老是搓木龙头?  花点硬币买一组粘性树脂吧.
+
+# Quest.2914 - §d§0§5§lCobalt from Cobaltite
+gtnh.quest2914.name=§d§0§5§l钴从辉钴来
+gtnh.quest2914.desc=在下界找不到钴矿石?不想在暮色森林枯燥地寻找铁木(其实这很简单)?%n%n现在你可以用工业高炉直接加工获得钴了,只要将从暮色森林挖来的辉钴矿与氧气同时注入高炉即可. 这个过程稍微有些复杂,不过你还可以同时获得砷.%n%n§3中压之后,你也可以,同时也是§o必要的§r§3直接将其电解.
+
+# Quest.2915 - §5§lDamascus Steel
+gtnh.quest2915.name=§5§l大马士革钢
+gtnh.quest2915.desc=大马士革钢是你当前阶段可以获得的,最硬的材料之一.搓一组大马士革钢吧.%n%n这里有一些选项,请查看NEI,看看哪种混合物最适合你.
+
+# Quest.2916 - §5§lVanadiumsteel
+gtnh.quest2916.name=§5§l钒钢
+gtnh.quest2916.desc=钒钢比大马士革钢更好.搓一组钒钢吧.%n%n之后你就可以用这种新材料,制造更好、更耐用的匠魂工具了.
+
+# Quest.2917 - §9§lBetter Magnetic Rods
+gtnh.quest2917.name=§9§l更好的磁化杆
+gtnh.quest2917.desc=在本阶段你还用不到它们,但要制造EV马达,就需要磁化钕杆了,所以在进入EV阶段之前,你得先做好这个.
+
+# Quest.2918 - §b§lEven Betterer Magnetic Rods
+gtnh.quest2918.name=§b§l更更好的磁化杆
+gtnh.quest2918.desc=与之前类似,下一阶段的马达需要更好的磁化杆. 想要制造磁化钐杆,你得先做好这个.
+
+# Quest.2919 - Enriched Naquadah Ingot
+gtnh.quest2919.name=Enriched Naquadah Ingot
+gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in EBF or electrolyze it. Of course I will electrolyze it because zinc is more useful than enriched naquadah if I were you.
+
+# Quest.2920 - Enriched Naquadah Time
+gtnh.quest2920.name=Enriched Naquadah Time
+gtnh.quest2920.desc=Enriched naquadah line is much more shorter than naquadah line, and easier. Basically, the only use of enriched naquadah is for fuel, so if you don't want to build a line for it, just ignore this quest.
+
+# Quest.2921 - §c§lEther Strike!
+gtnh.quest2921.name=§c§lEther Strike!
+gtnh.quest2921.desc=The naquadah is so inert that most acid won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
+
+# Quest.2922 - §c§lAntimony And Chlorine
+gtnh.quest2922.name=§c§lAntimony And Chlorine
+gtnh.quest2922.desc=Now put the antimony, chlorine and ether in LCR to get antimony trichloride solution.
+
+# Quest.2923 - §c§lRecycle Fluorine
+gtnh.quest2923.name=§c§lRecycle Fluorine
+gtnh.quest2923.desc=Fluorine is one of the most important resources. You can recycle most fluorine from it.
+
+# Quest.2924 - §c§lMore Chlorine
+gtnh.quest2924.name=§c§lMore Chlorine
+gtnh.quest2924.desc=Oh god why I can't get it in one step.
+
+# Quest.2925 - §c§lSeparate Solvent
+gtnh.quest2925.name=§c§lSeparate Solvent
+gtnh.quest2925.desc=Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid, and you can recycle §c§6ALL§r ether.
+
+# Quest.2926 - §c§lFracture Chlorine
+gtnh.quest2926.name=§c§lFracture Chlorine
+gtnh.quest2926.desc=The fluorine atom has higher electronegativity, so it will replace the chlorine atom around the antimony.
+
+# Quest.2927 - §c§lKing of Acid
+gtnh.quest2927.name=§c§lKing of Acid
+gtnh.quest2927.desc=This is the fluoroantimonic acid, the strongest acid in the world currently. It can dissolve almost everything on earth, so it is the best choice to dissolve our NOM dust.%n%nOf course there are something the fluoroantimonic acid can't deal with, like the "Empty Cell". x)
+
+# Quest.2928 - §c§lEBF Time
+gtnh.quest2928.name=§c§lEBF Time
+gtnh.quest2928.desc=Heat the NOM dust with fluoroantimonic acid and it will dissolve the Nq, Ga, Ad, and the titanium will become precipitate.
+
+# Quest.2929 - §c§lNeutralization
+gtnh.quest2929.name=§c§lNeutralization
+gtnh.quest2929.desc=The solution is acidic now. Gallium will be separated when 8 < pH < 10.
+
+# Quest.2930 - §c§lExtraction
+gtnh.quest2930.name=§c§lExtraction
+gtnh.quest2930.desc=Now, the metal elements have been concentrated in solution.
+
+# Quest.2931 - §c§lRecycle Waste Water
+gtnh.quest2931.name=§c§lRecycle Waste Water
+gtnh.quest2931.desc=The 'Waste Water' is still very useful to some extend and you can get something interesting from it.
+
+# Quest.2932 - §c§lRecycle Titanium
+gtnh.quest2932.name=§c§lRecycle Titanium
+gtnh.quest2932.desc=As to titanium trifluoride, you can recycle titanium and some hydrofluoric acid in EBF, or you can choose to electrolyze it directly.
+
+# Quest.2933 - §c§lRecycle Gallium
+gtnh.quest2933.name=§c§lRecycle Gallium
+gtnh.quest2933.desc=You have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with sodium in chemical reactor.%n%n3) Mix it with indium phosphate in mixer.
+
+# Quest.2934 - §c§lAnother Solvent
+gtnh.quest2934.name=§c§lAnother Solvent
+gtnh.quest2934.desc=Why it needs seed oil?
+
+# Quest.2935 - §c§lP-507
+gtnh.quest2935.name=§c§lP-507
+gtnh.quest2935.desc=This solvent can be 100% recycled in naquadah process line, so don't make a line for it.
+
+# Quest.2936 - §6§lNeutron Activator
+gtnh.quest2936.name=§6§lNeutron Activator
+gtnh.quest2936.desc=You will need machine to process the naquadah in future.%n%nThis machine is different from most mulits. It needs to use §4Neutron Accelerator§r this special hatch instead of energy hatch to keep it running.%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerator§rs aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.
+
+# Quest.2937 - §6§lNeutron Sensor
+gtnh.quest2937.name=§6§lNeutron Sensor
+gtnh.quest2937.desc=The sensor will sends redstone signals according to the NKE of the Neutron Activator.%n%nYou only need to input some expressions like ">120MeV", "<=1000keV" etc in the sensor, and it will work as you want.
+
+# Quest.2938 - §6§lNeutron Accelerator
+gtnh.quest2938.name=§6§lNeutron Accelerator
+gtnh.quest2938.desc=It is used to accelerate the NKE. You just need to connect a cable to it and it will keep consuming the energy.%n%nThe highest tier of accelerator is LuV. Think twice before you try it.%n%n§3PS: You can use a controller cover to stop it.
+
+# Quest.2939 - §6§lOops
+gtnh.quest2939.name=§6§lOops
+gtnh.quest2939.desc=If you failed to meet the NKE as NEI requested, you can recycle something useful in this place.
+
+# Quest.2940 - §c§lSeparation
+gtnh.quest2940.name=§c§lSeparation
+gtnh.quest2940.desc=WHY IT COMES BACK AGAINNNNN? ! ! !
+
+# Quest.2941 - §c§lAlmost Success
+gtnh.quest2941.name=§c§lAlmost Success
+gtnh.quest2941.desc=Now you only have to subside the naquadah from the solution. Hooray!
+
+# Quest.2942 - §c§lNaquadah Dust
+gtnh.quest2942.name=§c§lNaquadah Dust
+gtnh.quest2942.desc=You can directly get naquadah dust in chemical reactor.
+
+# Quest.2943 - §c§lNaquadah Ingot
+gtnh.quest2943.name=§c§lNaquadah Ingot
+gtnh.quest2943.desc=If you want ingots, you can smelt it in EBF with carbon.
+
+# Quest.2944 - §c§lSilicon Boule
+gtnh.quest2944.name=§c§lSilicon Boule
+gtnh.quest2944.desc=You can also use naquadahine dust directly make Silicon Boule in EBF, which takes less time than naquadah dust.
+
+# Quest.2945 - Concentration
+gtnh.quest2945.name=Concentration
+gtnh.quest2945.desc=Now, let's neutralize the solution.
+
+# Quest.2946 - Recycle Trinium
+gtnh.quest2946.name=Recycle Trinium
+gtnh.quest2946.desc=I think you just yeet the enriched naquadah and keep the trinium. lol%n%nYou can get the trinium dust by reacting it with hydrogen in LCR or electrolyze it if you don't care the loss.
+
+# Quest.2947 - Linear Accelerator
+gtnh.quest2947.name=Linear Accelerator
+gtnh.quest2947.desc=I think you should have known how to process it.%n%nSuitable for 9+ to use.
+
+# Quest.2948 - Large Naquadah Reactor
+gtnh.quest2948.name=Large Naquadah Reactor
+gtnh.quest2948.desc=The multi block version of naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and output the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode when more one types of fuel in its hatch.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 105%%nSuper Coolant: 150%%nCryotheum: 275%%n%nYou can also input molten metals to increase power.%nMolten Ccaesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. It works like add 'paralle' to reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
+
+# Quest.2949 - Refining
+gtnh.quest2949.name=Refining
+gtnh.quest2949.desc=So it is a circle?
+
+# Quest.2950 - N.N.Q.Q.N.Q.Q
+gtnh.quest2950.name=N.N.Q.Q.N.Q.Q
+gtnh.quest2950.desc=Do you wanna some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of NERF. You have to build a line for it like the naquadah.
+
+# Quest.2951 - Purification
+gtnh.quest2951.name=Purification
+gtnh.quest2951.desc=The barium will react with sulphuric acid and become insoluble dust so we can remove it.
+
+# Quest.2952 - Recycle Indium
+gtnh.quest2952.name=Recycle Indium
+gtnh.quest2952.desc=Free indium!%n%nYou have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with calcium in chemical reactor.%n%n3) Mix it with gallium hydroxide in mixer.
+
+# Quest.2953 - Disproportionation
+gtnh.quest2953.name=Disproportionation
+gtnh.quest2953.desc=The chemical property of naquadria is a bit weird.%n%nThere's nothing known can precipitate it. the only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only part of output naquadria can be used for further process and you  have to re-purification the rest.
+
+# Quest.2954 - Once again
+gtnh.quest2954.name=Once again
+gtnh.quest2954.desc=The miscibility of P-507 and naquadria is still very perfect like naquadah. Most naquadria can be concentrated again.
+
+# Quest.2955 - Naquadria Ingot
+gtnh.quest2955.name=Naquadria Ingot
+gtnh.quest2955.desc=Smelt it with magnesium dust in EBF.
+
+# Quest.2956 - Nuclear Based Fuel (Th)
+gtnh.quest2956.name=Nuclear Based Fuel (Th)
+gtnh.quest2956.desc=Cheapest one, with 9 800EU/t output lasting 10s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
+
+# Quest.2957 - Nuclear Based Fuel (U)
+gtnh.quest2957.name=Nuclear Based Fuel (U)
+gtnh.quest2957.desc=Provides 12 960EU/t output lasting 5s per mB.
+
+# Quest.2958 - Nuclear Based Fuel (Pu)
+gtnh.quest2958.name=Nuclear Based Fuel (Pu)
+gtnh.quest2958.desc=Provides 32 400EU/t output lasting 7.5s per mB.
+
+# Quest.2959 - Naquadah Fuel Refinery
+gtnh.quest2959.name=Naquadah Fuel Refinery
+gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier naquadah fuel.%n%nIt works like fusion that can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coil.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%ne.g. The MkIV fuel requires Teir 2 coil and the refinery is using Teir 3 coil. This allows a perfect overclock, using 2x power and 0.5x time.
+
+# Quest.2960 - Teir 2 Coil
+gtnh.quest2960.name=Teir 2 Coil
+gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
+
+# Quest.2961 - Naquadah Based Fuel MkI
+gtnh.quest2961.name=Naquadah Based Fuel MkI
+gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
+
+# Quest.2962 - Naquadah Based Fuel MkII
+gtnh.quest2962.name=Naquadah Based Fuel MkII
+gtnh.quest2962.desc=380 000 EU/t lasting 1s per mB. Still very limited.
+
+# Quest.2963 - Naquadah Based Fuel MkIII
+gtnh.quest2963.name=Naquadah Based Fuel MkIII
+gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
+
+# Quest.2964 - Naquadah Based Fuel MkIV
+gtnh.quest2964.name=Naquadah Based Fuel MkIV
+gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
+
+# Quest.2965 - Naquadah Based Fuel MkV
+gtnh.quest2965.name=Naquadah Based Fuel MkV
+gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
+
+# Quest.2966 - Teir 3 Coil
+gtnh.quest2966.name=Teir 3 Coil
+gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
+
+# Quest.2967 - Incomplete Combustion
+gtnh.quest2967.name=Incomplete Combustion
+gtnh.quest2967.desc=A chemical fuel engine for LuV? ! Well, if you are the crazy fan for diesel or benzene, you will love it.%n%nThis engine accept all diesel fuel and gas fuel. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its hatch per second and output power depending on the sum of fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. The ratio larger, and the eff will be higher. The max eff is 150%.%n%ne.g. You input HOG 100mB/s and combustion promoter 1000mB/s. The eff is 149% and sum of the HOG fuel value is 172 800 EU. So the output power is 172 800 * 149% / 20 = 12 873 EU/t
+
+# Quest.2968 - §6§lLarge Essentia Generator (Good Generator)
+gtnh.quest2968.name=§6§lLarge Essentia Generator (Good Generator)
+gtnh.quest2968.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in Thaumonomicon.%n%n§3PS: The essentia fuel value is still in test state. It may get changed.
+
+# Quest.2969 - §6§lAdept Cell
+gtnh.quest2969.name=§6§lAdept Cell
+gtnh.quest2969.desc=You can mix different cells in the same generator. It will increase the efficiency.
+
+# Quest.2970 - §6§lMaster Cell
+gtnh.quest2970.name=§6§lMaster Cell
+gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
+
+# Quest.2971 - §6§lInfinite Energy Storage
+gtnh.quest2971.name=§6§l无限储能
+gtnh.quest2971.desc=你不应该点击陌生人的链接! 虽然这看起来像标题党,但这是真的(从某种角度来看).%n%n利用势能!存储能量! 只需要建造一个水库,并用水铺满这广阔的区域. 你就能通过泵入更多的水存储能量,或是将水排出以获取能量. 它尤其适合风、水和太阳能等波动的能源.或者在平时储存多余的能量,等到有需要了再快速放出. 水库的容量非常巨大,而选择权在你.%n%n听起来很棒! 但是...? -的确. 有一个陷阱：泵和涡轮都一定的损失(效率). 你还有兴趣? 让我们开始制造吧!%n%n这台多方块结构具有不同寻常的外形：后背是开放的.蓄水湖将从多方块结构中延伸出来,并一格一格尽可能地蔓延.蔓延中会将植物用水替代(请保护好你的IC2作物!),而固体方块不会被替代. 另外,你可以在任意方向限制.水永远不会越过这些限制.你可以通过手持螺丝刀右键控制器方块,以打开第二GUI,设置那些限制.%n%n在你配置好限制之后,它会自动纠正到最近的有效设置.这种纠正经常发生在你试图设置超过服务器限制的数值.你可以尝试与管理员讨论提高这些限制(这些限制应该是用来限制恶意破坏的). 此外,水无法蔓延到别人的城镇上.%n你还在这个GUI的左上角发现了三个神秘按钮.从左到右：第一个按钮会缓慢移除蓄水湖方块.例如,你可以在蓄水湖蔓延过界的时候将其缩小. 此多方块结构也会默认使用此配置,因此你不用担心突然发大水. 第二、三个按钮会缓慢生成更多的蓄水湖方块.另外,第二个按钮会以粉色显示那些蓄水湖方块,这样你就可以看到它们将会在哪里生成,然后插个洞或者别的什么.在此"debug"模式中,你可以如空气中一样在蓄水湖中行走/呼吸/交互.这可以让你轻易建造一个沉没的村庄,装饰你的水库. 第三个按钮就是正常模式,你可以看到水并在你的能量电池中畅游.%n%n当然,控制器方块也有个普通GUI(空手右键).它会向你展示存储于水库中的能量.想要达到更高的水位需要更强的水泵.为了达到这一目的,你可以在GUI的电路板插槽中插入电路板配置电压等级.别担心：就算你设置了一个很低的电压等级也不会损失任何能量,这只影响玩家信息.你可以用奖励的电路板试试看...%n%n如果你还有其他问题、信息缺失或者任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n
+
+# Quest.2972 - §6§lGotta Pump It Upe
+gtnh.quest2972.name=§6§l加油抽呀~嘿哟~
+gtnh.quest2972.desc=当你造好水库之后,应该会发现无法直接将原版水倒入水库.这是液压泵的工作.这种多方块结构有许多等级,可以让你的水库到达不同的水位(=更大的能量容量).为水泵提供原版水作为输入,并将其输出的液体导入水库.这样水库就会慢慢被填满.当水库满了或者抵达了水泵的上限后,水库会销毁接下来的水和能量.%n%n这就是所有的了,没什么特别的!%n%n如果你还有其他问题、信息缺失或者任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n%n
+
+# Quest.2973 - §6§lLet if flow, let it floww ...
+gtnh.quest2973.name=§6§l让水流起来呀~流起来呀~
+gtnh.quest2973.desc=...不能再忍了.迫不及待收获你努力工作的成果了!将水库的输出仓与水轮机的输入仓连接起来,享受最终的能量吧!你可以通过截断流体输入,或使用机器控制覆盖板,暂停此多方块结构.噢,你的水就会重新回到输出仓.%n%n祝贺你,建成了自己的水库!享受你的特大号电池吧!%n%n如果你还有其他问题、信息缺失或者任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n
+
+# Quest.2974 - §6§lAluminium Hydroxide
+gtnh.quest2974.name=§6§l氢氧化铝
+gtnh.quest2974.desc=想要直接将铝粉炼化为锭,你需要的炉温超过了白铜线圈可以提供的范畴. 还有另一种选择：通过将铝粉与氢氧化钠混合,制成氢氧化铝,以降低所需的炉温.它可以被处理成氧化铝. 而冰晶石可以降低炼锭所需的炉温.%n%n§d§6请查看NEI以寻找氢氧化铝的其他合成表.
+
+# Quest.2975 - §6§lChemical cryolity production
+gtnh.quest2975.name=§6§l冰晶石的化学制法
+gtnh.quest2975.desc=不想为了炼化这些氧化铝去寻找冰晶石矿脉? 你可以永远相信化学合成,将氢氟酸、盐水和氢氧化铝反应一下试试.
+
+# Quest.2976 - §9§lAdvanced aluminium production
+gtnh.quest2976.name=§9§l先进炼铝工艺
+gtnh.quest2976.desc=当你的大型化学反应釜竣工后,你就可以循环使用铝粉制成氯酸钠. %n等找到铝土矿后,它将更有价值.%n在这个处理过程中,你还会获得大量的氢.
+
+# Quest.2977 - §9§lAdvanced alumina production
+gtnh.quest2977.name=§9§l氧化铝的进阶制备方式
+gtnh.quest2977.desc=炼化24份氯酸钠获得24份氧化铝粉.最终剩下碳酸钠.
+
+# Quest.2978 - §9§lRed Mud
+gtnh.quest2978.name=§9§l赤泥
+gtnh.quest2978.desc=赤泥是氯酸钠处理的副产物.通过离心,你可以获得一些有用的材料.
 
 ##################################Line##################################
 
