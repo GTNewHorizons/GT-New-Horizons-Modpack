@@ -384,11 +384,6 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2536> * 9, [<gregtech:gt.blockg
 // --- Teleporter
 recipes.remove(<gregtech:gt.blockmachines:1145>);
 
-// --- Niobtitaninum Dust handcraft
-recipes.removeShapeless(<gregtech:gt.metaitem.01:1360>);
-
-// --- Tungstencarbide Dust handcraft
-recipes.removeShapeless(<gregtech:gt.metaitem.01:1370>);
 
 
 
