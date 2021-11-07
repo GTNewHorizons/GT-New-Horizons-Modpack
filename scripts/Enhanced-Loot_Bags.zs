@@ -19,13 +19,13 @@ recipes.addShapeless(<enhancedlootbags:lootbag:4>.withTag({ench: [{lvl: 3 as sho
 recipes.addShapeless(<enhancedlootbags:lootbag:5>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:5>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32601>]);
 
 // --- Loot Bag (Tier 3 HV)
-recipes.addShapeless(<enhancedlootbags:lootbag:6>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:6>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32603>]);
+recipes.addShapeless(<enhancedlootbags:lootbag:6>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:6>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32602>]);
 
 // --- Loot Bag (Tier 4 EV)
-recipes.addShapeless(<enhancedlootbags:lootbag:7>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:7>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32604>]);
+recipes.addShapeless(<enhancedlootbags:lootbag:7>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:7>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32603>]);
 
 // --- Loot Bag (Tier 5 IV)
-recipes.addShapeless(<enhancedlootbags:lootbag:8>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:8>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32605>]);
+recipes.addShapeless(<enhancedlootbags:lootbag:8>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:8>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <gregtech:gt.metaitem.01:32604>]);
 
 // --- Loot Bag (Magic Novice)
 recipes.addShapeless(<enhancedlootbags:lootbag:9>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:9>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Thaumcraft:ItemResource:1>]);
