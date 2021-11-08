@@ -194,6 +194,25 @@ var denseColored = [
 <appliedenergistics2:item.ItemMultiPart:75>]
 as IItemStack[];
 
+var denseCoveredColored = [
+<appliedenergistics2:item.ItemMultiPart:520>,
+<appliedenergistics2:item.ItemMultiPart:521>,
+<appliedenergistics2:item.ItemMultiPart:522>,
+<appliedenergistics2:item.ItemMultiPart:523>,
+<appliedenergistics2:item.ItemMultiPart:524>,
+<appliedenergistics2:item.ItemMultiPart:525>,
+<appliedenergistics2:item.ItemMultiPart:526>,
+<appliedenergistics2:item.ItemMultiPart:527>,
+<appliedenergistics2:item.ItemMultiPart:528>,
+<appliedenergistics2:item.ItemMultiPart:529>,
+<appliedenergistics2:item.ItemMultiPart:530>,
+<appliedenergistics2:item.ItemMultiPart:531>,
+<appliedenergistics2:item.ItemMultiPart:532>,
+<appliedenergistics2:item.ItemMultiPart:533>,
+<appliedenergistics2:item.ItemMultiPart:534>,
+<appliedenergistics2:item.ItemMultiPart:535>]
+as IItemStack[];
+
 // --- Removing Recipes ---
 mods.appeng.Grinder.removeRecipe(<*>);
 
@@ -1223,6 +1242,8 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:56>, [covered]);}
 for i, covered in denseColored {
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:76>, [covered]);}
 
+for i, covered in denseCoveredColored {
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:536>, [covered]);}
 
 // --- Avaritia Recipes ---
 
