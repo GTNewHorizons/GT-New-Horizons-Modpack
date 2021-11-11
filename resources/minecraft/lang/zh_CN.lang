@@ -7462,7 +7462,7 @@ gtnh.quest1864.desc=资深玩家可能困惑于如何制作匠魂的苔藓球,�
 
 # Quest.1865 - §5§lEnderman Smelterman
 gtnh.quest1865.name=§5§l末影人冶炼炉
-gtnh.quest1865.desc=需要末影珍珠?杀戮末影人来获取珍珠实在是危险.你可以换种方式,把一只末影人放进装有熔融液体的冶炼炉,然后使用宝石铸模将所获的液体导出,你就能安全地获得末影珍珠了.%n%n末影人的生命值越高,就可以在里面待得更久,你就能获得越多的珍珠.  如果你能找到一只有再生属性的末影人,或是末影人刷怪笼,你将再也不缺珍珠了.稍后你甚至能制作EIO的电动刷怪笼来按需生产末影人. 也可以直接把冶炼炉建在末地,然后往里面丢末影人.%n%n对再生末影人使用命名牌可以防止其被刷掉.  你需要让在冶炼炉中的末影人看不到天空,否则它就能传送离开.%n%n如果你没能找到再生末影人,你也可以用硬币买些末影人刷怪蛋.说不定你就幸运地刷出了再生末影人呢.
+gtnh.quest1865.desc=需要末影珍珠?杀戮末影人来获取珍珠实在是危险.你可以换种方式,把一只末影人放进装有熔融液体的冶炼炉,然后使用宝石铸模将所获的流体导出,你就能安全地获得末影珍珠了.%n%n末影人的生命值越高,就可以在里面待得更久,你就能获得越多的珍珠.  如果你能找到一只有再生属性的末影人,或是末影人刷怪笼,你将再也不缺珍珠了.稍后你甚至能制作EIO的电动刷怪笼来按需生产末影人. 也可以直接把冶炼炉建在末地,然后往里面丢末影人.%n%n对再生末影人使用命名牌可以防止其被刷掉.  你需要让在冶炼炉中的末影人看不到天空,否则它就能传送离开.%n%n如果你没能找到再生末影人,你也可以用硬币买些末影人刷怪蛋.说不定你就幸运地刷出了再生末影人呢.
 
 # Quest.1866 - §2§lOptions For Finding Aluminium in This Tier
 gtnh.quest1866.name=§2§l在这个阶段找到铝
@@ -11062,7 +11062,7 @@ gtnh.quest2764.desc=它是蒸汽研磨机的多方块版本.一次只能同时�
 
 # Quest.2765 - §6§lTFFT
 gtnh.quest2765.name=§6§lTFFT
-gtnh.quest2765.desc=TFFT非常有用,只要你不想弄一堆超级缸配合ULV缸贴溢流阀.%n%nT1的存储库方块搭成的TFFT,消耗31.5-EU/t,但每种流体的储量仅为超级缸I的0.315倍.%n%n而T5的存储库方块搭成的TFFT,消耗504-EU/t而每种流体的储量为量子缸III的1.26倍.%n%n通过贴在T.F.F.T输入/输出仓上的ME流体存储总线或是EIO的末影液体导管,你可以直接访问所有流体.%n%n你需要63个任意等级的存储库方块,可混用.%n%n§3记得打开自动销毁功能.
+gtnh.quest2765.desc=TFFT非常有用,只要你不想弄一堆超级缸配合ULV缸贴溢流阀.%n%nT1的存储库方块搭成的TFFT,消耗31.5-EU/t,但每种流体的储量仅为超级缸I的0.315倍.%n%n而T5的存储库方块搭成的TFFT,消耗504-EU/t而每种流体的储量为量子缸III的1.26倍.%n%n通过贴在T.F.F.T输入/输出仓上的ME流体存储总线或是EIO的末影流体导管,你可以直接访问所有流体.%n%n你需要63个任意等级的存储库方块,可混用.%n%n§3记得打开自动销毁功能.
 
 # Quest.2766 - Deep Earth Heating Pump
 gtnh.quest2766.name=深地热泵
@@ -11677,212 +11677,212 @@ gtnh.quest2918.name=§b§l更更好的磁化杆
 gtnh.quest2918.desc=与之前类似,下一阶段的马达需要更好的磁化杆. 想要制造磁化钐杆,你得先做好这个.
 
 # Quest.2919 - Enriched Naquadah Ingot
-gtnh.quest2919.name=Enriched Naquadah Ingot
-gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in EBF or electrolyze it. Of course I will electrolyze it because zinc is more useful than enriched naquadah if I were you.
+gtnh.quest2919.name=富集硅岩锭
+gtnh.quest2919.desc=啊哈,你做到了.%n%n你可以选择将其与锌一起在工业高炉中熔炼,或是将其电解. 当然,如果我是你的话,我会选择电解,因为锌可比富集硅岩有用多了.
 
 # Quest.2920 - Enriched Naquadah Time
-gtnh.quest2920.name=Enriched Naquadah Time
-gtnh.quest2920.desc=Enriched naquadah line is much more shorter than naquadah line, and easier. Basically, the only use of enriched naquadah is for fuel, so if you don't want to build a line for it, just ignore this quest.
+gtnh.quest2920.name=富集硅岩时间
+gtnh.quest2920.desc=富集硅岩线比硅岩线短多了,也容易多了. 一般来说,富集硅岩的唯一用途是作为燃料,所以如果你不想要这条富集硅岩线的话,请忽略本任务.
 
 # Quest.2921 - §c§lEther Strike!
-gtnh.quest2921.name=§c§lEther Strike!
-gtnh.quest2921.desc=The naquadah is so inert that most acid won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
+gtnh.quest2921.name=§c§l乙醚冲击(Ether Strike)!
+gtnh.quest2921.desc=硅岩非常稳定,以至于大部分酸无法与其发生反应,所以你需要更强的酸才能将其溶解.%n%n让我制备一些必要的有机溶剂,用以合成这种酸.
 
 # Quest.2922 - §c§lAntimony And Chlorine
-gtnh.quest2922.name=§c§lAntimony And Chlorine
-gtnh.quest2922.desc=Now put the antimony, chlorine and ether in LCR to get antimony trichloride solution.
+gtnh.quest2922.name=§c§l锑和氯
+gtnh.quest2922.desc=现在,将锑、氯和乙醚投入大型化学反应釜中进行反应,以制取三氯化锑溶液.
 
 # Quest.2923 - §c§lRecycle Fluorine
-gtnh.quest2923.name=§c§lRecycle Fluorine
-gtnh.quest2923.desc=Fluorine is one of the most important resources. You can recycle most fluorine from it.
+gtnh.quest2923.name=§c§l回收氟
+gtnh.quest2923.desc=氟是最重要的资源之一. 你可以在这一步回收大部分的氟.
 
 # Quest.2924 - §c§lMore Chlorine
-gtnh.quest2924.name=§c§lMore Chlorine
-gtnh.quest2924.desc=Oh god why I can't get it in one step.
+gtnh.quest2924.name=§c§l更多氯
+gtnh.quest2924.desc=为什么不能一步获得它!
 
 # Quest.2925 - §c§lSeparate Solvent
-gtnh.quest2925.name=§c§lSeparate Solvent
-gtnh.quest2925.desc=Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid, and you can recycle §c§6ALL§r ether.
+gtnh.quest2925.name=§c§l分离溶剂
+gtnh.quest2925.desc=蒸馏五氯化锑溶液以获取纯净的液态五氯化锑,并且你可以回收§c§6所有§r乙醚.
 
 # Quest.2926 - §c§lFracture Chlorine
-gtnh.quest2926.name=§c§lFracture Chlorine
-gtnh.quest2926.desc=The fluorine atom has higher electronegativity, so it will replace the chlorine atom around the antimony.
+gtnh.quest2926.name=§c§l氯键断裂(Fracture Chlorine)
+gtnh.quest2926.desc=氟离子具有更高的电动势,所以它会替换掉锑周围的氯离子.
 
 # Quest.2927 - §c§lKing of Acid
-gtnh.quest2927.name=§c§lKing of Acid
-gtnh.quest2927.desc=This is the fluoroantimonic acid, the strongest acid in the world currently. It can dissolve almost everything on earth, so it is the best choice to dissolve our NOM dust.%n%nOf course there are something the fluoroantimonic acid can't deal with, like the "Empty Cell". x)
+gtnh.quest2927.name=§c§l酸中之王
+gtnh.quest2927.desc=氟锑酸,目前世界上最强的酸. 它几乎可以溶解地球上的任何物质,所以它是我们处理氧化硅岩混合物粉的最佳选择.%n%n当然,还有氟锑酸无法处理的东西,比如"空单元". x)
 
 # Quest.2928 - §c§lEBF Time
-gtnh.quest2928.name=§c§lEBF Time
-gtnh.quest2928.desc=Heat the NOM dust with fluoroantimonic acid and it will dissolve the Nq, Ga, Ad, and the titanium will become precipitate.
+gtnh.quest2928.name=§c§l工业高炉时间
+gtnh.quest2928.desc=将氧化硅岩混合物粉与氟锑酸一起加热,氟锑酸就能溶解Nq、Ga、Ad,而钛将会变为某种化合物析出.
 
 # Quest.2929 - §c§lNeutralization
-gtnh.quest2929.name=§c§lNeutralization
-gtnh.quest2929.desc=The solution is acidic now. Gallium will be separated when 8 < pH < 10.
+gtnh.quest2929.name=§c§l中和反应
+gtnh.quest2929.desc=溶液目前是酸性的. 镓会在8<pH<10时析出.
 
 # Quest.2930 - §c§lExtraction
-gtnh.quest2930.name=§c§lExtraction
-gtnh.quest2930.desc=Now, the metal elements have been concentrated in solution.
+gtnh.quest2930.name=§c§l萃取
+gtnh.quest2930.desc=现在,金属元素已经被浓缩到了溶液中.
 
 # Quest.2931 - §c§lRecycle Waste Water
-gtnh.quest2931.name=§c§lRecycle Waste Water
-gtnh.quest2931.desc=The 'Waste Water' is still very useful to some extend and you can get something interesting from it.
+gtnh.quest2931.name=§c§l回收废液
+gtnh.quest2931.desc='废液'在某些方面其实还是很有用的,你可以从中获得一些有趣的东西.
 
 # Quest.2932 - §c§lRecycle Titanium
-gtnh.quest2932.name=§c§lRecycle Titanium
-gtnh.quest2932.desc=As to titanium trifluoride, you can recycle titanium and some hydrofluoric acid in EBF, or you can choose to electrolyze it directly.
+gtnh.quest2932.name=§c§l回收钛
+gtnh.quest2932.desc=至于三氟化钛,你可以在工业高炉中处理它,以回收钛和氢氟酸,或者你也可以选择直接电解.
 
 # Quest.2933 - §c§lRecycle Gallium
-gtnh.quest2933.name=§c§lRecycle Gallium
-gtnh.quest2933.desc=You have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with sodium in chemical reactor.%n%n3) Mix it with indium phosphate in mixer.
+gtnh.quest2933.name=§c§l回收镓
+gtnh.quest2933.desc=你有三种选择来处理它.%n%n1) 电解.%n%n2) 在化学反应釜中与钠反应.%n%n3) 在搅拌机中与磷酸铟混合.
 
 # Quest.2934 - §c§lAnother Solvent
-gtnh.quest2934.name=§c§lAnother Solvent
-gtnh.quest2934.desc=Why it needs seed oil?
+gtnh.quest2934.name=§c§l另一种溶剂
+gtnh.quest2934.desc=为什么它需要种子油?
 
 # Quest.2935 - §c§lP-507
 gtnh.quest2935.name=§c§lP-507
-gtnh.quest2935.desc=This solvent can be 100% recycled in naquadah process line, so don't make a line for it.
+gtnh.quest2935.desc=这种溶剂在硅岩处理线中可以无损循环,所以不用专门为它建一条产线.
 
 # Quest.2936 - §6§lNeutron Activator
-gtnh.quest2936.name=§6§lNeutron Activator
-gtnh.quest2936.desc=You will need machine to process the naquadah in future.%n%nThis machine is different from most mulits. It needs to use §4Neutron Accelerator§r this special hatch instead of energy hatch to keep it running.%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerator§rs aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.
+gtnh.quest2936.name=§6§l中子活化器
+gtnh.quest2936.desc=之后你会需要这台机器处理硅岩.%n%n它与大部分的多方块机器都不同,需要使用§4中子加速器§r这种特殊仓室替换传统的能源仓,才能保持运行.%n%n中子加速器会提高中子动能(NKE),而当中子动能位于所需区间(见NEI)内时,活化器就会正常工作并输出正确的产物. 但是如果你在中子动能不符要求时启动活化器的话,它仍然会消耗你输入的原材料,却产出垃圾. 所以使用活化器时请留意中子动能.%n%n当所有中子加速器§r都不运行时,中子动能会以每秒72keV的速度衰减.%n%n当中子动能超过1200MeV时,活化器会直接爆炸!
 
 # Quest.2937 - §6§lNeutron Sensor
-gtnh.quest2937.name=§6§lNeutron Sensor
-gtnh.quest2937.desc=The sensor will sends redstone signals according to the NKE of the Neutron Activator.%n%nYou only need to input some expressions like ">120MeV", "<=1000keV" etc in the sensor, and it will work as you want.
+gtnh.quest2937.name=§6§l中子传感器
+gtnh.quest2937.desc=中子传感器会基于中子加速器的中子动能发出红石信号.%n%n你只需要在传感器中输入类似">120MeV"、"<=1000keV"这样的表达式,那么它就会如你所愿.
 
 # Quest.2938 - §6§lNeutron Accelerator
-gtnh.quest2938.name=§6§lNeutron Accelerator
-gtnh.quest2938.desc=It is used to accelerate the NKE. You just need to connect a cable to it and it will keep consuming the energy.%n%nThe highest tier of accelerator is LuV. Think twice before you try it.%n%n§3PS: You can use a controller cover to stop it.
+gtnh.quest2938.name=§6§l中子加速器
+gtnh.quest2938.desc=用于加速中子,获得中子动能. 你只需要给它接上一根线缆,它就会持续消耗电能.%n%n最高等级的中子加速器是LuV的.再尝试使用前请三思.%n%n§3PS:可使用机器控制覆盖板关闭.
 
 # Quest.2939 - §6§lOops
 gtnh.quest2939.name=§6§lOops
-gtnh.quest2939.desc=If you failed to meet the NKE as NEI requested, you can recycle something useful in this place.
+gtnh.quest2939.desc=如果你未能让中子动能与NEI显示合成表所需中子动能匹配的话,至少在这里还能稍微回收点有用的东西.
 
 # Quest.2940 - §c§lSeparation
-gtnh.quest2940.name=§c§lSeparation
-gtnh.quest2940.desc=WHY IT COMES BACK AGAINNNNN? ! ! !
+gtnh.quest2940.name=§c§l分离
+gtnh.quest2940.desc=为什么它又回来了？? ! ! !
 
 # Quest.2941 - §c§lAlmost Success
-gtnh.quest2941.name=§c§lAlmost Success
-gtnh.quest2941.desc=Now you only have to subside the naquadah from the solution. Hooray!
+gtnh.quest2941.name=§c§l快成功了
+gtnh.quest2941.desc=现在你只需要让溶液中的硅岩析出就行了. 好耶!
 
 # Quest.2942 - §c§lNaquadah Dust
-gtnh.quest2942.name=§c§lNaquadah Dust
-gtnh.quest2942.desc=You can directly get naquadah dust in chemical reactor.
+gtnh.quest2942.name=§c§l硅岩粉
+gtnh.quest2942.desc=你可以直接在化学反应釜中处理氧化硅岩,获取硅岩粉.
 
 # Quest.2943 - §c§lNaquadah Ingot
-gtnh.quest2943.name=§c§lNaquadah Ingot
-gtnh.quest2943.desc=If you want ingots, you can smelt it in EBF with carbon.
+gtnh.quest2943.name=§c§l硅岩锭
+gtnh.quest2943.desc=如果想要硅岩锭的话,可以将其与碳粉一起在工业高炉中熔炼.
 
 # Quest.2944 - §c§lSilicon Boule
-gtnh.quest2944.name=§c§lSilicon Boule
-gtnh.quest2944.desc=You can also use naquadahine dust directly make Silicon Boule in EBF, which takes less time than naquadah dust.
+gtnh.quest2944.name=§c§l硅岩掺杂的单晶硅
+gtnh.quest2944.desc=你还可以用氧化硅岩粉在工业高炉中直接生产硅岩掺杂的单晶硅,耗时比用硅岩粉更少.
 
 # Quest.2945 - Concentration
-gtnh.quest2945.name=Concentration
-gtnh.quest2945.desc=Now, let's neutralize the solution.
+gtnh.quest2945.name=浓缩
+gtnh.quest2945.desc=现在,让我们将溶液中和.
 
 # Quest.2946 - Recycle Trinium
-gtnh.quest2946.name=Recycle Trinium
-gtnh.quest2946.desc=I think you just yeet the enriched naquadah and keep the trinium. lol%n%nYou can get the trinium dust by reacting it with hydrogen in LCR or electrolyze it if you don't care the loss.
+gtnh.quest2946.name=回收三元金属
+gtnh.quest2946.desc=我感觉你会直接把富集硅岩丢掉,只保留三元金属.lol%n%n将其与氢在化学反应釜中反应即可获得三元金属,如果你不在乎损耗的话,也可以直接电解.
 
 # Quest.2947 - Linear Accelerator
-gtnh.quest2947.name=Linear Accelerator
-gtnh.quest2947.desc=I think you should have known how to process it.%n%nSuitable for 9+ to use.
+gtnh.quest2947.name=线性加速器
+gtnh.quest2947.desc=我认为你应该已经知道怎么处理它了.%n%n难度系数：9+.
 
 # Quest.2948 - Large Naquadah Reactor
-gtnh.quest2948.name=Large Naquadah Reactor
-gtnh.quest2948.desc=The multi block version of naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and output the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode when more one types of fuel in its hatch.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 105%%nSuper Coolant: 150%%nCryotheum: 275%%n%nYou can also input molten metals to increase power.%nMolten Ccaesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. It works like add 'paralle' to reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
+gtnh.quest2948.name=大型硅岩反应堆
+gtnh.quest2948.desc=这是硅岩反应堆的多方块版本,但它与单方块的硅岩反应堆完全不同.%n%n它需要的是流体态的硅岩燃料或激发态的核燃料,而输出的是枯竭的燃料. 你可以在NEI查到流体燃料的详细数据.%n%n大型硅岩反应堆运行时每秒消耗2400L液体空气,否则就会持续消耗燃料但不产出能量.%n%n§4仓室中存在一种以上的燃料将会导致爆炸.%n%n§r输入冷却液可以提升效率.%nIC2冷却液:105％%n超级冷却液:150％%n极寒之凛冰:275％%n%n输入某些熔融金属可以提高输出功率.%n熔融铯:2x%n熔融铀-235:3x%n熔融硅岩:4x%n熔融原子分离催化剂:16x%n请注意:与冷却液的效率提升不同(白嫖),熔融金属提高功率的代价是消耗更多的燃料.更像是给反应堆加了'并行'.%n%n大型硅岩反应堆同样支持§9Tec§1Tech§r多A动力仓和激光仓.%n%n§3PS:这台发电机拥有目前整个整合包最高的输出功率,虽然在为了可能会遭到nerf.
 
 # Quest.2949 - Refining
-gtnh.quest2949.name=Refining
-gtnh.quest2949.desc=So it is a circle?
+gtnh.quest2949.name=精炼
+gtnh.quest2949.desc=所以它是一个圈?
 
 # Quest.2950 - N.N.Q.Q.N.Q.Q
 gtnh.quest2950.name=N.N.Q.Q.N.Q.Q
-gtnh.quest2950.desc=Do you wanna some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of NERF. You have to build a line for it like the naquadah.
+gtnh.quest2950.desc=你想要些超能硅岩?%n%n抱歉,从前的超能硅岩粉变成了目前面目可憎的氧化超能硅岩混合物粉--由于NERF.你得像处理硅岩那样再造一条产线.
 
 # Quest.2951 - Purification
-gtnh.quest2951.name=Purification
-gtnh.quest2951.desc=The barium will react with sulphuric acid and become insoluble dust so we can remove it.
+gtnh.quest2951.name=纯化
+gtnh.quest2951.desc=钡会与硫酸发生反应,变成不溶性的粉,这样我们就可以将溶液纯化.
 
 # Quest.2952 - Recycle Indium
-gtnh.quest2952.name=Recycle Indium
-gtnh.quest2952.desc=Free indium!%n%nYou have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with calcium in chemical reactor.%n%n3) Mix it with gallium hydroxide in mixer.
+gtnh.quest2952.name=回收铟
+gtnh.quest2952.desc=铟自由!%n%n你有三种可选的处理方式.%n%n1)电解.%n%n2)在化学反应釜中与钙反应.%n%n3)在搅拌机中与氢氧化镓混合.
 
 # Quest.2953 - Disproportionation
-gtnh.quest2953.name=Disproportionation
-gtnh.quest2953.desc=The chemical property of naquadria is a bit weird.%n%nThere's nothing known can precipitate it. the only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only part of output naquadria can be used for further process and you  have to re-purification the rest.
+gtnh.quest2953.name=歧化反应
+gtnh.quest2953.desc=超能硅岩的化学性质有点怪.%n%n所有已知物质都无法让它析出.从溶液中获取超能硅岩的唯一方法就是用高能粒子进行轰击.%n%n但是,产物中只有一部分可以进行下一步处理,而剩余部分需要重新进行纯化.
 
 # Quest.2954 - Once again
-gtnh.quest2954.name=Once again
-gtnh.quest2954.desc=The miscibility of P-507 and naquadria is still very perfect like naquadah. Most naquadria can be concentrated again.
+gtnh.quest2954.name=再来一次
+gtnh.quest2954.desc=与硅岩类似,P-507和超能硅岩的混溶性也非常完美.大部分的超能硅岩可以再次浓缩.
 
 # Quest.2955 - Naquadria Ingot
-gtnh.quest2955.name=Naquadria Ingot
-gtnh.quest2955.desc=Smelt it with magnesium dust in EBF.
+gtnh.quest2955.name=超能硅岩锭
+gtnh.quest2955.desc=将其与镁粉一起在工业高炉中熔炼.
 
 # Quest.2956 - Nuclear Based Fuel (Th)
-gtnh.quest2956.name=Nuclear Based Fuel (Th)
-gtnh.quest2956.desc=Cheapest one, with 9 800EU/t output lasting 10s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
+gtnh.quest2956.name=钍基流体燃料
+gtnh.quest2956.desc=最便宜的流体燃料,每mB出产9800EU/t,持续10秒.%n%n它还是镨的来源之一,而镨可用于合成硅岩燃料.
 
 # Quest.2957 - Nuclear Based Fuel (U)
-gtnh.quest2957.name=Nuclear Based Fuel (U)
-gtnh.quest2957.desc=Provides 12 960EU/t output lasting 5s per mB.
+gtnh.quest2957.name=铀基流体燃料
+gtnh.quest2957.desc=每mB出产12,960EU/t,持续5秒.
 
 # Quest.2958 - Nuclear Based Fuel (Pu)
-gtnh.quest2958.name=Nuclear Based Fuel (Pu)
-gtnh.quest2958.desc=Provides 32 400EU/t output lasting 7.5s per mB.
+gtnh.quest2958.name=钚基流体燃料
+gtnh.quest2958.desc=每mB出产32,400EU/t,持续7.5秒.
 
 # Quest.2959 - Naquadah Fuel Refinery
-gtnh.quest2959.name=Naquadah Fuel Refinery
-gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier naquadah fuel.%n%nIt works like fusion that can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coil.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%ne.g. The MkIV fuel requires Teir 2 coil and the refinery is using Teir 3 coil. This allows a perfect overclock, using 2x power and 0.5x time.
+gtnh.quest2959.name=硅岩燃料精炼厂
+gtnh.quest2959.desc=这台疯狂的机器是用来制造MkIII及以上硅岩燃料的.%n%n它的超频机制类似聚变反应堆--不能通过简单升压实现超频.你得用更高阶的线圈才行.%n%n这台多方块机器还支持§9Tec§1Tech§r多A能源仓和激光仓.%n%n举个例子,MkIV硅岩燃料要求2阶线圈,而精炼厂实际安装了3阶线圈,那么会进行一次无损超频--功率x2,时间减半.
 
 # Quest.2960 - Teir 2 Coil
-gtnh.quest2960.name=Teir 2 Coil
-gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
+gtnh.quest2960.name=2阶线圈
+gtnh.quest2960.desc=2阶线圈可以解锁MkIV、MkV燃料.
 
 # Quest.2961 - Naquadah Based Fuel MkI
-gtnh.quest2961.name=Naquadah Based Fuel MkI
-gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
+gtnh.quest2961.name=硅岩基流体燃料-MkI
+gtnh.quest2961.desc=每mB出产220,000-EU/t,持续1秒.看起来不太行.
 
 # Quest.2962 - Naquadah Based Fuel MkII
-gtnh.quest2962.name=Naquadah Based Fuel MkII
-gtnh.quest2962.desc=380 000 EU/t lasting 1s per mB. Still very limited.
+gtnh.quest2962.name=硅岩基流体燃料-MkII
+gtnh.quest2962.desc=每mB出产380,000-EU/t,持续1秒.还是很有限.
 
 # Quest.2963 - Naquadah Based Fuel MkIII
-gtnh.quest2963.name=Naquadah Based Fuel MkIII
-gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
+gtnh.quest2963.name=硅岩基流体燃料-MkIII
+gtnh.quest2963.desc=每mB出产10.5M-EU/t,持续3秒. 换句话说1.2A-UEV.
 
 # Quest.2964 - Naquadah Based Fuel MkIV
-gtnh.quest2964.name=Naquadah Based Fuel MkIV
-gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
+gtnh.quest2964.name=硅岩基流体燃料-MkIV
+gtnh.quest2964.desc=每mB出产138M-EU/t,持续7秒. 这意味着它的输出已经超过了普通状态下的8重压缩太阳能.
 
 # Quest.2965 - Naquadah Based Fuel MkV
-gtnh.quest2965.name=Naquadah Based Fuel MkV
-gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
+gtnh.quest2965.name=硅岩基流体燃料-MkV
+gtnh.quest2965.desc=每mB出产1B-EU/t,持续10秒.我必须承认这是一场灾难. 你可以用43k单元的MKV燃料,填满一个UHV兰波顿电容.
 
 # Quest.2966 - Teir 3 Coil
-gtnh.quest2966.name=Teir 3 Coil
-gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
+gtnh.quest2966.name=3阶线圈
+gtnh.quest2966.desc=为了超频! 等等,你想超频UXV合成表?
 
 # Quest.2967 - Incomplete Combustion
-gtnh.quest2967.name=Incomplete Combustion
-gtnh.quest2967.desc=A chemical fuel engine for LuV? ! Well, if you are the crazy fan for diesel or benzene, you will love it.%n%nThis engine accept all diesel fuel and gas fuel. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its hatch per second and output power depending on the sum of fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. The ratio larger, and the eff will be higher. The max eff is 150%.%n%ne.g. You input HOG 100mB/s and combustion promoter 1000mB/s. The eff is 149% and sum of the HOG fuel value is 172 800 EU. So the output power is 172 800 * 149% / 20 = 12 873 EU/t
+gtnh.quest2967.name=不完全燃烧
+gtnh.quest2967.desc=LuV阶段的化学燃料发电机? ! 好吧,如果你是柴油神教或大苯环神教的狂热信徒,那你一定会喜欢上它的.%n%n这台引擎可以接受所有的柴油燃料以及气体燃料.它还需要助燃剂才能保持正常运行.%n%n这台引擎每秒会消耗仓室中所有的燃料与助燃剂,并基于总燃值输出能量.%n%n而效率取决于助燃剂/燃料比.这个比值越大,效率越高,最高为150％.%n%n举个例子:你每秒输入100mB高辛烷值汽油以及1000mB助燃剂.效率为149％,而高辛烷值汽油的总燃值为172,800-EU. 所以输出能量为172,800*1.49/20=12,873-EU/t
 
 # Quest.2968 - §6§lLarge Essentia Generator (Good Generator)
-gtnh.quest2968.name=§6§lLarge Essentia Generator (Good Generator)
-gtnh.quest2968.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in Thaumonomicon.%n%n§3PS: The essentia fuel value is still in test state. It may get changed.
+gtnh.quest2968.name=§6§l大型源质发电机(Good Generator)
+gtnh.quest2968.desc=这台大型源质发电机重做了Bart写的源质发电机(EMT). 源质的燃值不同,关于这方面的详细数据可以在魔导手册上查到.%n%n§3PS:目前源质的燃值还处于测试阶段,仍有可能发生变化.
 
 # Quest.2969 - §6§lAdept Cell
-gtnh.quest2969.name=§6§lAdept Cell
-gtnh.quest2969.desc=You can mix different cells in the same generator. It will increase the efficiency.
+gtnh.quest2969.name=§6§l学徒源质扩散单元
+gtnh.quest2969.desc=你可以在同一台源质发电机内混用不同的单元. 学徒级的单元相比新手单元更具效率.
 
 # Quest.2970 - §6§lMaster Cell
-gtnh.quest2970.name=§6§lMaster Cell
-gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
+gtnh.quest2970.name=§6§l大师源质扩散单元
+gtnh.quest2970.desc=与学徒级的单元一样,但效率更高.
 
 # Quest.2971 - §6§lInfinite Energy Storage
 gtnh.quest2971.name=§6§l无限储能
@@ -11890,7 +11890,7 @@ gtnh.quest2971.desc=你不应该点击陌生人的链接! 虽然这看起来像�
 
 # Quest.2972 - §6§lGotta Pump It Upe
 gtnh.quest2972.name=§6§l加油抽呀~嘿哟~
-gtnh.quest2972.desc=当你造好水库之后,应该会发现无法直接将原版水倒入水库.这是液压泵的工作.这种多方块结构有许多等级,可以让你的水库到达不同的水位(=更大的能量容量).为水泵提供原版水作为输入,并将其输出的液体导入水库.这样水库就会慢慢被填满.当水库满了或者抵达了水泵的上限后,水库会销毁接下来的水和能量.%n%n这就是所有的了,没什么特别的!%n%n如果你还有其他问题、信息缺失或者任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n%n
+gtnh.quest2972.desc=当你造好水库之后,应该会发现无法直接将原版水倒入水库.这是液压泵的工作.这种多方块结构有许多等级,可以让你的水库到达不同的水位(=更大的能量容量).为水泵提供原版水作为输入,并将其输出的流体导入水库.这样水库就会慢慢被填满.当水库满了或者抵达了水泵的上限后,水库会销毁接下来的水和能量.%n%n这就是所有的了,没什么特别的!%n%n如果你还有其他问题、信息缺失或者任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n%n
 
 # Quest.2973 - §6§lLet if flow, let it floww ...
 gtnh.quest2973.name=§6§l让水流起来呀~流起来呀~
@@ -11906,15 +11906,15 @@ gtnh.quest2975.desc=不想为了炼化这些氧化铝去寻找冰晶石矿脉? �
 
 # Quest.2976 - §9§lAdvanced aluminium production
 gtnh.quest2976.name=§9§l先进炼铝工艺
-gtnh.quest2976.desc=当你的大型化学反应釜竣工后,你就可以循环使用铝粉制成氯酸钠. %n等找到铝土矿后,它将更有价值.%n在这个处理过程中,你还会获得大量的氢.
+gtnh.quest2976.desc=当你的大型化学反应釜竣工后,你就可以循环使用铝粉制成铝酸钠. %n等找到铝土矿后,它将更有价值.%n在这个处理过程中,你还会获得大量的氢.
 
 # Quest.2977 - §9§lAdvanced alumina production
 gtnh.quest2977.name=§9§l氧化铝的进阶制备方式
-gtnh.quest2977.desc=炼化24份氯酸钠获得24份氧化铝粉.最终剩下碳酸钠.
+gtnh.quest2977.desc=炼化24份铝酸钠获得24份氧化铝粉.最终剩下碳酸钠.
 
 # Quest.2978 - §9§lRed Mud
 gtnh.quest2978.name=§9§l赤泥
-gtnh.quest2978.desc=赤泥是氯酸钠处理的副产物.通过离心,你可以获得一些有用的材料.
+gtnh.quest2978.desc=赤泥是铝酸钠处理的副产物.通过离心,你可以获得一些有用的材料.
 
 ##################################Line##################################
 
