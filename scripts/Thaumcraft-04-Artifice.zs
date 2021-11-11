@@ -623,7 +623,7 @@ mods.thaumcraft.Research.setComplexity("RUNICARMOR", 3);
 
 // --- Magic Mirror
 mods.thaumcraft.Infusion.addRecipe("MIRROR", <Thaumcraft:ItemResource:10>,
-[<gregtech:gt.metaitem.01:17321>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17321>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>],
+[<gregtech:gt.metaitem.01:17367>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17367>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>],
 "iter 32, permutatio 24, tenebrae 16, alienis 8", <Thaumcraft:blockMirror>, 6);
 // -
 mods.thaumcraft.Research.setAspects("MIRROR", "vitreus 15, iter 12, tenebrae 9, alienis 9, cognitio 6, potentia 3");
