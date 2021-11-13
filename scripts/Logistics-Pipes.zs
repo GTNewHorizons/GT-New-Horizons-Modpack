@@ -201,9 +201,9 @@ recipes.addShapeless(<LogisticsPipes:item.itemModule>, [<ProjRed|Core:projectred
 recipes.addShapeless(<ProjRed|Core:projectred.core.part:44>, [<LogisticsPipes:item.itemModule>]);
 
 // --- Itemsink Module
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:1>, [<LogisticsPipes:item.itemModule>, GTFilter, <ore:circuitBasic>, <ore:plateRedAlloy>, <ProjRed|Core:projectred.core.part:32> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 30);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:1>, [<LogisticsPipes:item.itemModule>, GTFilter, <ore:circuitBasic>, <ore:plateRedAlloy>, <ProjRed|Core:projectred.core.part:32> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 900, 30);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:1>, [<LogisticsPipes:item.itemModule>, GTFilter, <ore:circuitBasic>, <ore:plateRedAlloy>, <ProjRed|Core:projectred.core.part:32> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 30);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:1> * 4, [<LogisticsPipes:item.itemModule> * 4, GTFilter, <ore:circuitBasic>, <ore:plateRedAlloy>, <ProjRed|Core:projectred.core.part:32> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 30);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:1> * 4, [<LogisticsPipes:item.itemModule> * 4, GTFilter, <ore:circuitBasic>, <ore:plateRedAlloy>, <ProjRed|Core:projectred.core.part:32> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 900, 30);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:1> * 4, [<LogisticsPipes:item.itemModule> * 4, GTFilter, <ore:circuitBasic>, <ore:plateRedAlloy>, <ProjRed|Core:projectred.core.part:32> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 30);
 
 // --- Enchantment Itemsink Module
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:31>, <LogisticsPipes:item.itemModule:1>, <ore:bookEnchanted>, 600, 30);
@@ -226,9 +226,9 @@ FormingPress.addRecipe(<LogisticsPipes:item.itemModule:16>, <LogisticsPipes:item
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:6>, <LogisticsPipes:item.itemModule:1>, <ExtraUtilities:trashcan>, 600, 30);
 
 // --- Passive Supplier Module
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 4, [<LogisticsPipes:item.itemModule> * 4, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32733>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 30);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 4, [<LogisticsPipes:item.itemModule> * 4, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32733>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 900, 30);
-Assembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 4, [<LogisticsPipes:item.itemModule> * 4, <gregtech:gt.metaitem.01:32680>, <gregtech:gt.metaitem.01:32733>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 30);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 2, [<LogisticsPipes:item.itemModule> * 2, <gregtech:gt.metaitem.01:32733>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 30);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 2, [<LogisticsPipes:item.itemModule> * 2, <gregtech:gt.metaitem.01:32733>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.tin> * 72, 900, 30);
+Assembler.addRecipe(<LogisticsPipes:item.itemModule:2> * 2, [<LogisticsPipes:item.itemModule> * 2, <gregtech:gt.metaitem.01:32733>, <ore:circuitBasic>, <ore:boltSteel> * 8, <ProjRed|Core:projectred.core.part:20> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 36, 900, 30);
 
 // --- Active Supplier Module
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:502>, <LogisticsPipes:item.itemModule:2>, <BuildCraft|Silicon:redstoneChipset:2>, 600, 30);
@@ -253,7 +253,7 @@ Assembler.addRecipe(<LogisticsPipes:item.itemModule:3> * 2, [<LogisticsPipes:ite
 // --- Extractor Module MK 2
 FormingPress.addRecipe(<LogisticsPipes:item.itemModule:103>, <LogisticsPipes:item.itemModule:3>, <LogisticsPipes:item.logisticsParts:5>, 600, 30); //Gold Upgrade Chip
 // --- Extractor Module MK 3
-FormingPress.addRecipe(<LogisticsPipes:item.itemModule:203>, <LogisticsPipes:item.itemModule:103>, <LogisticsPipes:item.logisticsParts:6>, 600, 30); //Diamond Upgrade Chip
+FormingPress.addRecipe(<LogisticsPipes:item.itemModule:203>, <LogisticsPipes:item.itemModule:3>, <LogisticsPipes:item.logisticsParts:6>, 600, 30); //Diamond Upgrade Chip
 
 // --- Advanced Extractor Module MK 1
 Assembler.addRecipe(<LogisticsPipes:item.itemModule:7>, [<LogisticsPipes:item.itemModule:3>, <ore:chipsetDiamond>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 600, 30);
@@ -292,6 +292,10 @@ Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPipes:ite
 Assembler.addRecipe(<LogisticsPipes:item.logisticsParts:8>, [<LogisticsPipes:item.logisticsParts:7>, <dreamcraft:item.DiamondCoreChip>, <gregtech:gt.metaitem.01:32653>, <IC2:upgradeModule> * 4, <ore:boltEndSteel> * 32, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.solderingalloy> * 144, 900, 480);
 
 // - MV Tier
+// ||||| Blocks |||||
+// --- Request Table
+Assembler.addRecipe(<LogisticsPipes:item.PipeBlockRequestTable>, [<gregtech:gt.blockmachines:12>, <dreamcraft:item.Display>, <gregtech:gt.metaitem.01:32744>, <OpenComputers:keyboard>, <LogisticsPipes:item.PipeItemsRequestLogistics>, <ore:chestCopper>, <ore:circuitGood> * 2, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 480);
+
 // ||||| Modules |||||
 // --- Quicksort Module
 Assembler.addRecipe(<LogisticsPipes:item.itemModule:5>, [<LogisticsPipes:item.itemModule:501>, <gregtech:gt.metaitem.01:32652>, <ore:circuitAdvanced>, <ore:plateLapis>, <ore:boltDiamond> * 8, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.lead> * 144, 900, 120);
@@ -308,9 +312,6 @@ FormingPress.addRecipe(<LogisticsPipes:item.itemModule:15>, <LogisticsPipes:item
 // ||||| Blocks |||||
 // --- Security Station
 Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:2>, [<gregtech:gt.blockmachines:13>, <LogisticsPipes:item.PipeItemsBasicLogistics> * 4, <ore:plateStainlessSteel> * 8, <ore:circuitAdvanced> * 2, <ore:cableGt08Electrum> * 4, <ore:boltBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 480);
-
-// --- Request Table
-Assembler.addRecipe(<LogisticsPipes:item.PipeBlockRequestTable>, [<gregtech:gt.blockmachines:12>, <dreamcraft:item.Display>, <gregtech:gt.metaitem.01:32744>, <OpenComputers:keyboard>, <LogisticsPipes:item.PipeItemsRequestLogistics>, <LogisticsPipes:item.PipeItemsProviderLogistics>, <LogisticsPipes:item.itemModule:5>, <ore:chestCopper>, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 1600, 480);
 
 // --- Logistics Crafting Table
 Assembler.addRecipe(<LogisticsPipes:logisticsSolidBlock:3>, [<gregtech:gt.blockmachines:13>, <Forestry:factory2:2>, <gregtech:gt.metaitem.01:32652> * 2, <LogisticsPipes:item.PipeItemsBasicLogistics>, <LogisticsPipes:item.itemModule:600>, <ore:circuitAdvanced> * 2, <ore:cableGt08Electrum> * 2, <ore:boltBlueSteel> * 4, <gregtech:gt.integrated_circuit:18> * 0], <liquid:molten.plastic> * 576, 900, 480);
@@ -447,9 +448,9 @@ Assembler.addRecipe(<LogisticsPipes:item.PipeItemsSatelliteLogistics>, [<Logisti
 Assembler.addRecipe(<LogisticsPipes:item.PipeItemsRemoteOrdererLogistics>, [<LogisticsPipes:item.remoteOrdererItem:*> * 0, <LogisticsPipes:item.PipeItemsRequestLogistics>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 
 // --- Firewall Pipe
-Assembler.addRecipe(<LogisticsPipes:item.PipeItemsFirewall>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateDenseLead>, <minecraft:web>,], null, 600, 30);
+Assembler.addRecipe(<LogisticsPipes:item.PipeItemsFirewall>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateTripleLead> * 3, <minecraft:web>,], null, 600, 30);
 
-// Until I get a Better Suggestion for theese it is just chest + plates and previous tier
+// Until I get a Better Suggestion for these it is just chest + plates and previous tier
 // --- Logistics Chassi MK1
 Assembler.addRecipe(<LogisticsPipes:item.PipeLogisticsChassiMk1>, [<LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:plateRedstoneAlloy> * 2, <ore:chest>, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 30);
 // --- Logistics Chassi MK2
