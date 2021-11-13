@@ -803,7 +803,7 @@ Assembler.addRecipe(<gregtech:gt.neutronreflector>, <dreamcraft:item.NeutronRefl
 Assembler.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 120);
 
 // --- EV Conveyor
-Assembler.addRecipe(<gregtech:gt.metaitem.01:32633>, [<gregtech:gt.metaitem.01:32603> * 2, <gregtech:gt.metaitem.01:17880> * 6, <gregtech:gt.blockmachines:1586>], null, 1000, 240);
+Assembler.addRecipe(<gregtech:gt.metaitem.01:32633>, [<gregtech:gt.metaitem.01:32603> * 2, <gregtech:gt.metaitem.01:17880> * 6, <gregtech:gt.blockmachines:1586>], null, 200, 240);
 
 
 
