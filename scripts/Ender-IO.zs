@@ -456,8 +456,17 @@ recipes.remove(<EnderIO:itemLiquidConduit:1>);
 // --- Ender Fluid Conduit
 recipes.remove(<EnderIO:itemLiquidConduit:2>);
 
-// --- Advanced Ender Fluid Conduit
+// --- Crystalline Ender Fluid Conduit
 recipes.remove(<EnderIO:itemLiquidConduit:3>);
+
+// --- Crystalline Pink Slime Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:4>);
+
+// --- Melodic Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:5>);
+
+// --- Stellar Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:6>);
 
 // --- Item Conduit
 recipes.remove(<EnderIO:itemItemConduit>);
@@ -1275,7 +1284,7 @@ Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:6>, <gregtech:gt.blockmachi
 Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:7>, <gregtech:gt.blockmachines:1660>, <gregtech:gt.metaitem.01:17407>, <liquid:molten.epoxid> * 144, 100, 320);
 
 // --- Crystalline Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:8>, <gregtech:gt.blockmachines:1700>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 900);
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:8>, <gregtech:gt.blockmachines:1700>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 960);
 
 // --- Crystalline Pink Slime Energy Conduit
 Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:9>, <gregtech:gt.blockmachines:1720>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 1920);
@@ -1295,8 +1304,17 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:51
 // --- Ender Fluid Conduit
 Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5680>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
 
-// --- Advanced Ender Fluid Conduit
-Assembler.addRecipe(<EnderIO:itemLiquidConduit:3>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.plastic> * 144, 100, 960);
+// --- Crystalline Ender Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:3>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 960);
+
+// --- Crystalline Pink Slime Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:4>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 1920);
+
+// --- Melodic Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:5>, <gregtech:gt.blockmachines:5282>, <gregtech:gt.metaitem.01:17404>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 7680);
+
+// --- Stellar Ender Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:6>, <gregtech:gt.blockmachines:5282>, <gregtech:gt.metaitem.01:17405>, <liquid:molten.polybenzimidazole> * 144, 100, 30720);
 
 // --- Item Conduit
 Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);
