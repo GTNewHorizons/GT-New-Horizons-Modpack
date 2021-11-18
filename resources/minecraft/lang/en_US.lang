@@ -186,7 +186,7 @@ gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the c
 
 # Quest.46 - §3§lMore Advanced Alloys
 gtnh.quest46.name=§3§lMore Advanced Alloys
-gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.%n%nIf you try enabling item output, you'll see it comes out the same side as the steam outlet. How unfortunate! However you can still empty the machine by putting a hopper beneath it. %n%nWARNING: The Alloy Smelter recipes take a *lot* of steam. Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor mans" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.
+gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? The Alloy Smelter can make bronze for you directly, using ingots, dusts, or even nuggets. You can make a nugget mold as well to turn ingots into nuggets.%n%nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...%n%n§4NOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output side by whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.%n%nIf you try enabling item output, you'll see it comes out the same side as the steam outlet. How unfortunate! However you can still empty the machine by putting a hopper beneath it. %n%nWARNING: The Alloy Smelter recipes take a §llot§r of steam. Do them one by one until you understand how fast you use steam, and how much you will need buffered. Large pipes are a decent "poor mans" buffer, and the boiler can hold quite a bit of steam, as well as the machine itself. Once you get a little further along, make a larger steam buffer with an iron or steel railcraft tank.
 
 # Quest.47 - §3§lUpgrade: High Speed Alloys
 gtnh.quest47.name=§3§lUpgrade: High Speed Alloys
@@ -262,7 +262,7 @@ gtnh.quest64.desc=An updated version of the steam furnace. Uses more steam, but 
 
 # Quest.65 - §3§lBlastoff!
 gtnh.quest65.name=§3§lBlastoff!
-gtnh.quest65.desc=It's about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here once you've made at least 8 steel ingots.%n%nCan't see the quest yet? You need to do more quests here until you've unlocked the Steam Compressor.
+gtnh.quest65.desc=It's about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here once you've made at least 8 steel ingots.
 
 # Quest.66 - §3§lTime For Some Logic
 gtnh.quest66.name=§3§lTime For Some Logic
@@ -414,7 +414,7 @@ gtnh.quest102.desc=An absolutely mandatory machine to have. It will cut rods int
 
 # Quest.103 - §5§lGetting Ready for Tier 2, MV
 gtnh.quest103.name=§5§lGetting Ready for Tier 2, MV
-gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, ten is enough to complete this quest. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. Check back in your Tier 0 quests for hints.%n%nYou'll need to do the EBF quest in Multiblock Goals to turn the dust into ingots. If you can't find how to get nickel, go visit the Twilight Forest. Cryolite is found in the Twilight as well. Go and find a new Galena vein.%n%nBy the time you've completed this, you'll probably be done most of the tab, but you'll still need Good (MV) circuits to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you wonu0027t find any cryolite in existing veins, you need to explore new chunks.
+gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, ten is enough to complete this quest. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. Check back in your Tier 0 quests for hints.%n%nYou'll need to do the EBF quest in Multiblock Goals to turn the dust into ingots. If you can't find how to get nickel, go visit the Twilight Forest, where Cryolite is found as well. Go and find a new Galena vein.%n%nBy the time you've completed this, you'll probably be done most of the tab, but you'll still need Good (MV) circuits to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins, you need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§lYour Magic Progression
@@ -708,8 +708,8 @@ gtnh.quest175.desc=Ah, there's nothing like an explosion and the certainty that 
 gtnh.quest176.name=§a§lTier 4 (EV)
 gtnh.quest176.desc=The main goal here is to get a tier 2 rocket, and reach Mars. You also might want to rethink your power setup, as more and more machines will be upgraded. This quest set will teach you about a couple of options you have regarding power production.%n%nMultiblock goals includes quests for the large gas turbine, large combustion engine, and multiblock ore drill.
 
-# Quest.177 - *Poke*
-gtnh.quest177.name=*Poke*
+# Quest.177 - §oPoke§r
+gtnh.quest177.name=§oPoke§r
 gtnh.quest177.desc=Time to get some blood. You will have to start with your own...%n%nYou get 100LP in the altar for each use.
 
 # Quest.178 - It's Storage Time!
@@ -1918,7 +1918,7 @@ gtnh.quest478.desc=After you make steel you are able to craft flint and steel. I
 
 # Quest.479 - §3§m§l§m§4§3§lTHE NETHER
 gtnh.quest479.name=§3§m§l§m§4§3§lTHE NETHER
-gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?%n%nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.%n%nWatch out for some mobs! They'll take minimal damage from any weapon that is not their weakness. So if you seem to not be doing much damage, you probably aren't! Think about other options to hurt/kill the monster.
+gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?%n%nAlso, §lwhen§r you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area §lfirst§r so that you don't end up dying over and over and making a mess.%n%nWatch out for some mobs! They'll take minimal damage from any weapon that is not their weakness. So if you seem to not be doing much damage, you probably aren't! Think about other options to hurt/kill the monster.
 
 # Quest.480 - §2§lMalachite
 gtnh.quest480.name=§2§lMalachite
@@ -1930,7 +1930,7 @@ gtnh.quest481.desc=I guess you already processed a bit of wood into charcoal and
 
 # Quest.482 - §2§lAnimal Farms
 gtnh.quest482.name=§2§lAnimal Farms
-gtnh.quest482.desc=Trying to get some leather or wool? You'd probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat close to home. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other (this happens to villagers as well).%n%nAnimals will prioritize moving towards grass blocks over any other blocks, and if there's no grass blocks around, lit blocks over dark blocks. You can encourage animals to stay in pens (or at least not crowd the edges) by removing grass from around both sides of the fence (and under!) and placing a torch in the center of the pen. For sheep that need the grass to eat (reduces time to mature and replaces sheared wool instantly), place it in the center of a cleared out area with a border of non-grass.%n%nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So make sure you limit animals to no more than ~ 1 per block for small entities like chickens and 1 entity per 2 blocks for large entities like cows if playing MP.%n%n§3PS: Mutton amount was reduced because apparently mutton and calamari (from squid) drops are extremely low on servers for some reason.%n%nPPS: Most animal/mob drops can be gotten from less laggy IC2 crop farms.
+gtnh.quest482.desc=Trying to get some leather or wool? You'd probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool and meat close to home. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other (this happens to villagers as well).%n%nAnimals will prioritize moving towards grass blocks over any other blocks, and if there's no grass blocks around, lit blocks over dark blocks. You can encourage animals to stay in pens (or at least not crowd the edges) by removing grass from around both sides of the fence (and under!) and placing a torch in the center of the pen. For sheep that need the grass to eat (reduces time to mature and replaces sheared wool instantly), place it in the center of a cleared out area with a border of non-grass.%n%nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So make sure you limit animals to no more than ~ 1 per block for small entities like chickens and 1 entity per 2 blocks for large entities like cows if playing MP.%n%n§3PS: Mutton amount was reduced because apparently mutton and calamari (from squid) drops are extremely low on servers for some reason. Remember to use your butchery knife.%n%nPPS: Most animal/mob drops can be gotten from less laggy IC2 crop farms.
 
 # Quest.483 - §2§lGardener
 gtnh.quest483.name=§2§lGardener
@@ -2030,7 +2030,7 @@ gtnh.quest506.desc=In order to continue with bees, to mutate and breed them as y
 
 # Quest.507 - Upgraded Home
 gtnh.quest507.name=Upgraded Home
-gtnh.quest507.desc=The Bee House can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones. %n%nTo actually breed those together to get a new species, you'll need something different - the Apiary. Building them will require a Carpenter and Impregnated frames, along with Seed Oil and Creosote - quite a bit of industrialization! Or, if you're lucky, you can find a beekeeper villager to trade with. Maybe you can help the villagers *get lucky* to make more beekeeper villagers? If only Cupid and his bow were around...%n%nProduction rates in an empty Apiary are low - lower than a Bee House by quite a bit, in fact.  But the Apiary has two big advantages - Frames, and Automation. You can now use your Untreated or Impregnated frames in here to boost output - and the boost is multiplied. So 3 x2 frames gives you 2 * 2 * 2 = 8x extra output! You can also automate I/O for the bees and their products, though not frames unfortunately.%n%nBees also don't live as long as in a Bee House, but that's actually a good thing.%n%nAlso, you should check the Genetics mod for useful machines. The Acclimatiser can give very picky bees a much wider temperature or humidity tolerance without having to breed it into them.
+gtnh.quest507.desc=The Bee House can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones. %n%nTo actually breed those together to get a new species, you'll need something different - the Apiary. Building them will require a Carpenter and Impregnated frames, along with Seed Oil and Creosote - quite a bit of industrialization! Or, if you're lucky, you can find a beekeeper villager to trade with. Maybe you can help the villagers §lget lucky§r to make more beekeeper villagers? If only Cupid and his bow were around...%n%nProduction rates in an empty Apiary are low - lower than a Bee House by quite a bit, in fact.  But the Apiary has two big advantages - Frames, and Automation. You can now use your Untreated or Impregnated frames in here to boost output - and the boost is multiplied. So 3 x2 frames gives you 2 * 2 * 2 = 8x extra output! You can also automate I/O for the bees and their products, though not frames unfortunately.%n%nBees also don't live as long as in a Bee House, but that's actually a good thing.%n%nAlso, you should check the Genetics mod for useful machines. The Acclimatiser can give very picky bees a much wider temperature or humidity tolerance without having to breed it into them.
 
 # Quest.508 - Mutatron
 gtnh.quest508.name=Mutatron
@@ -2246,7 +2246,7 @@ gtnh.quest560.desc=As an alternative way to make steam you can use the railcraft
 
 # Quest.561 - §6§lLiquid-Fuelled Firebox
 gtnh.quest561.name=§6§lLiquid-Fuelled Firebox
-gtnh.quest561.desc=Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.%n%nDiesel, ethanol, creosote and biodiesel all work well here.
+gtnh.quest561.desc=Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.%n%nDiesel, ethanol, creosote and bio diesel all work well here.
 
 # Quest.562 - §6§lHigh-Pressure Boiler Tank
 gtnh.quest562.name=§6§lHigh-Pressure Boiler Tank
@@ -2440,9 +2440,9 @@ gtnh.quest608.desc=The next step of making batteries is to collect some lead. Lo
 gtnh.quest609.name=§5§lBattery Alloy
 gtnh.quest609.desc=Mixing antimony and lead in the alloy smelter will give you battery alloy. Combine it with tin cable and voila, there's your small battery hull.%n%nSmall = LV, Medium = MV, Large = HV. It gets weirder after that.%n%n§3Note that if you make the battery alloy in the mixer you need to use dusts, but if you use the alloy smelter you can use either.
 
-# Quest.610 - Lead, Galena and Silver
-gtnh.quest610.name=Lead, Galena and Silver
-gtnh.quest610.desc=You can't find Lead in the Overworld or the Nether. So it's time to explore the mysterious Twilight Forest a bit and find the Galena vein at Y 5-40.%n%nYou can get Lead, Silver, and Galena (more lead) in the vein.%n%n§3There's some Silver in small ores in the OW and Nether, but this is a better source.
+# Quest.610 - Lead, Galena, Silver and Cryolite
+gtnh.quest610.name=Lead, Galena, Silver and Cryolite
+gtnh.quest610.desc=You can't find Lead in the Overworld or the Nether. So it's time to explore the mysterious Twilight Forest a bit and find the Galena vein at Y 5-40.%n%nYou can get Lead, Silver, Cryolite for Aluminium production and Galena (more lead) in the vein.%n%n§3There's some Silver in small ores in the OW and Nether, but this is a better source.
 
 # Quest.611 - §5§lSingle Use Battery: Mercury
 gtnh.quest611.name=§5§lSingle Use Battery: Mercury
@@ -2646,7 +2646,7 @@ gtnh.quest660.desc=Your iron shield is old and worn out. With a shield made from
 
 # Quest.661 - §5§lBow, Arrows and Quiver
 gtnh.quest661.name=§5§lBow, Arrows and Quiver
-gtnh.quest661.desc=Wow, your first handmade *ehm* machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookies with friends, don't you?%n%nLet's go hunt a bit.
+gtnh.quest661.desc=Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookies with friends, don't you?%n%nLet's go hunt a bit.
 
 # Quest.662 - §5§lBasic Arc Furnace
 gtnh.quest662.name=§5§lBasic Arc Furnace
@@ -2922,7 +2922,7 @@ gtnh.quest729.desc=Now you can really make some swaggy and even FANCIER drawers 
 
 # Quest.730 - §6§lBio Fuels
 gtnh.quest730.name=§6§lBio Fuels
-gtnh.quest730.desc=You've been using steam, creosote, and possibly oil plus their byproducts to generate power. It's time to start making bio diesel. The first step is to make plant balls out of organic materials. You can use wheat, sugarcane, apples, saplings or, well, practially anything. Indigo blossoms are 4:1 and unlike the rest of the IC2 crops with the same ratio, not really useful for anything else. Realistically, you'll probably just use saplings though, since you'll want/need a tree farm anyway.%n%nBe sure you have a Forestry multifarm, Steve's Carts Farm, IC2 Crop Sticks with a harvester, or whatever, because you need plenty of biomaterials for constant biodiesel production.
+gtnh.quest730.desc=You've been using steam, creosote, and possibly oil plus their byproducts to generate power. It's time to start making bio diesel. The first step is to make plant balls out of organic materials. You can use wheat, sugarcane, apples, saplings or, well, practially anything. Indigo blossoms are 4:1 and unlike the rest of the IC2 crops with the same ratio, not really useful for anything else. Realistically, you'll probably just use saplings though, since you'll want/need a tree farm anyway.%n%nBe sure you have a Forestry multifarm, Steve's Carts Farm, IC2 Crop Sticks with a harvester, or whatever, because you need plenty of biomaterials for constant bio diesel production.
 
 # Quest.731 - §6§lPlantballs
 gtnh.quest731.name=§6§lPlantballs
@@ -2986,7 +2986,7 @@ gtnh.quest745.desc=If you centrifuge sticky resin, you get glue. Glue is very us
 
 # Quest.746 - §6§lSilicon
 gtnh.quest746.name=§6§lSilicon
-gtnh.quest746.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nYou can get it any number of ways, like centrifuging or electrolyzing various useless materials like sodalite. You'll probably want to pull apart redstone and clay anyways, but you can also get it from silicon dioxide from glass dust, sand or flint dust if you want a specific setup.%n%nYou can get it as a byproduct from Asbestos or fullers earth processing too.%n%nThe electric blast furnace is needed to make ingots. One ingot requires 2000mb of Oxygen and a temperature of 1600 K for 80 seconds at 120 EU/t using raw silicon. §6Using silicon dioxide and carbon dust, you can get an ingot in 12 seconds!§r Another time when it's best to continue searching NEI and not stop on the first recipe.
+gtnh.quest746.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nYou can get it any number of ways, like centrifuging or electrolyzing various useless materials such as sodalite. You'll probably want to pull apart redstone and clay anyways, but you can also get it from silicon dioxide from glass dust, sand or flint dust if you want a specific setup.%n%nYou can get it as a byproduct from asbestos or fullers earth processing too.%n%nThe electric blast furnace is needed to make ingots. One ingot requires 2000mb of Oxygen and a temperature of 1600 K for 80 seconds at 120 EU/t using raw silicon. §6Using silicon dioxide and carbon dust, you can get an ingot in 12 seconds!§r Another time when it's best to continue searching NEI and not stop on the first recipe.
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§lDiodes
@@ -3374,11 +3374,11 @@ gtnh.quest842.desc=Methane gas has a burn value of 104,000 EU per cell and can b
 
 # Quest.843 - §6§lMethanol
 gtnh.quest843.name=§6§lMethanol
-gtnh.quest843.desc=Methanol has a burn value of 84,000 EU per cell and can be used to make biodiesel and other fluids. It's also used to make certain rocket fuels.
+gtnh.quest843.desc=Methanol has a burn value of 84,000 EU per cell and can be used to make bio diesel and other fluids. It's also used to make certain rocket fuels.
 
 # Quest.844 - §6§lEthanol
 gtnh.quest844.name=§6§lEthanol
-gtnh.quest844.desc=Ethanol has a burn value of 192,000 EU per cell can be used to make biodiesel and other fluids.
+gtnh.quest844.desc=Ethanol has a burn value of 192,000 EU per cell can be used to make bio diesel and other fluids.
 
 # Quest.845 - §6§lBio Diesel Fuel
 gtnh.quest845.name=§6§lBio Diesel Fuel
@@ -3398,7 +3398,7 @@ gtnh.quest848.desc=Pam's peanuts are a good seed oil source, and can be sped up 
 
 # Quest.849 - §6§f§6§lSodium Hydroxide
 gtnh.quest849.name=§6§f§6§lSodium Hydroxide
-gtnh.quest849.desc=Sodium hydroxide is is needed for bio diesel. You can make it out of sodium and water, or out of salt water.%n%nSodium Hydroxide is also used in advanced Aluminium production.
+gtnh.quest849.desc=Sodium hydroxide is needed for bio diesel. You can make it out of sodium and water, or out of salt water.%n%nSodium hydroxide is also used in advanced aluminium production.
 
 # Quest.850 - §6§lEthenone
 gtnh.quest850.name=§6§lEthenone
@@ -5486,7 +5486,7 @@ gtnh.quest1370.desc=The arcane lamp creates additional light sources which acts 
 
 # Quest.1371 - LOX and Bagels
 gtnh.quest1371.name=LOX and Bagels
-gtnh.quest1371.desc=The LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freeezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen crompressor to transfer oxygen, or use a oxygen colletor.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks. With a full stack you won't need to bring oxygen equipment with you.%n%nSo much Greggy!
+gtnh.quest1371.desc=§cNOTE: You cannot directly refill your tanks in a crafting grid anymore!§r%n%nThe LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freeezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
 
 # Quest.1372 - Wand Focus Fire
 gtnh.quest1372.name=Wand Focus Fire
@@ -5886,11 +5886,11 @@ gtnh.quest1470.desc=Cavernous Vine is a poisonous plant that grows naturally in 
 
 # Quest.1471 - Slimeling
 gtnh.quest1471.name=Slimeling
-gtnh.quest1471.desc=Slimeling is a utility mob that spawns from Slimeling Eggs found on Mars surface. It shares some features from vanilla wolves and mules: it can be tamable and attacks mobs that threaten its owners, and can be equipped with a special chest to transport items.%n%nAs an allied mob, Slimelings will actively help and follow the player-owner and will attempt to protect them. They can also have a neutral behavior, that is, they can attack if provoked or hurt by non-owners.%n%nItems that you can feed Slimelings with:%n%nBoat%nCooked fish%nGunpowder%nGold ingot%nRedstone repeater%nWooden door%n%nSlimelings can be equipped by their owners with a Slimeling Inventory Bag to transport items.
+gtnh.quest1471.desc=The Slimeling is a utility mob that spawns from Slimeling Eggs found on the surface of Mars. It shares some features from vanilla wolves and mules: it can be tamed and attacks mobs that threaten its owners, and can be equipped with a special chest to transport items.%n%nAs an allied mob, Slimelings will actively help and follow the player-owner and will attempt to protect them. They can also have a neutral behavior, that is, they can attack if provoked or hurt by non-owners.%n%nItems that you can feed Slimelings with:%n%nBoat%nCooked fish%nGunpowder%nGold ingot%nRedstone repeater%nWooden door%n%nSlimelings can be equipped by their owners with a Slimeling Inventory Bag to transport items.%n%nTo complete this quest get any one of the eggs - note you may need a Heavy Duty Pickaxe.
 
 # Quest.1472 - Grapple
 gtnh.quest1472.name=Grapple
-gtnh.quest1472.desc=The Grapple is a grappling hook and rope which can be thrown by a player, and then used to swing the player in the direction it was thrown. Useful for reaching places that are otherwise too high to jump to, or traveling around the Asteroids. §3Or just, you know, §ofly§r§3).§r%n%nRight-click to aim the Grapple at a block you want to reach, similar to aiming a Bow. Release the right-click - similar to firing an arrow from a bow - to grapple yourself in that direction.%n%nFor best results, aim the Grapple at a point 1 or 2 blocks higher than the point you want to reach.%n%nIf there is no safe platform to land at that point, you can fall back down and you will take fall damage, so it takes some skill to use the Grapple safely.%n%nTake care using the Grapple near a Nether Portal, End Portal or at a low height (less than Y30) on a Space Station. There can be strange consequences if it crosses into another dimension.
+gtnh.quest1472.desc=The Grapple is a grappling hook and rope which can be thrown by a player, and then used to swing the player in the direction it was thrown. Useful for reaching places that are otherwise too high to jump to, or traveling around the Asteroids. §3(Or just, you know, §ofly§r§3.)§r%n%nRight-click to aim the Grapple at a block you want to reach, similar to aiming a Bow. Release the right-click - similar to firing an arrow from a bow - to grapple yourself in that direction.%n%nFor best results, aim the Grapple at a point 1 or 2 blocks higher than the point you want to reach.%n%nIf there is no safe platform to land at that point, you can fall back down and you will take fall damage, so it takes some skill to use the Grapple safely.%n%nTake care using the Grapple near a Nether Portal, End Portal or at a low height (less than Y30) on a Space Station. There can be strange consequences if it crosses into another dimension.
 
 # Quest.1473 - Nice and Comfortable - in Space!
 gtnh.quest1473.name=Nice and Comfortable - in Space!
@@ -6182,7 +6182,7 @@ gtnh.quest1544.desc=Got Fish?%n%n§3There are rumors of a weird crop in the shap
 
 # Quest.1545 - §6§lTime to Drill For Ore!
 gtnh.quest1545.name=§6§lTime to Drill For Ore!
-gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the controller and drilling fluid in the fluid hatch. You can also feed mining pipes into an input bus.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. You will also need an energy hatch, an input hatch, and an output bus - at least MV but you can choose.%n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the controller and drilling fluid in the fluid hatch. You can also feed mining pipes into an input bus.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets - perhaps onsite, or pumped in via Long Distance Fluid Pipes. For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain (and meteors!) on any side. And set a waypoint with Journeymap so you don't forget where you placed it!
 
 # Quest.1546 - §2§lRare Ores
 gtnh.quest1546.name=§2§lRare Ores
@@ -6418,7 +6418,7 @@ gtnh.quest1603.desc=So could you grow me some essence berries so I can level up?
 
 # Quest.1604 - I Prefer to Call it Canola
 gtnh.quest1604.name=I Prefer to Call it Canola
-gtnh.quest1604.desc=This crop is a great source of seed oil for your biodiesel needs.%n%nYou can try getting it from dandelions, cocoa, potatoes or lemons.
+gtnh.quest1604.desc=This crop is a great source of seed oil for your bio diesel needs.%n%nYou can try getting it from dandelions, cocoa, potatoes or lemons.
 
 # Quest.1605 - Better Than Milk
 gtnh.quest1605.name=Better Than Milk
@@ -7114,7 +7114,7 @@ gtnh.quest1777.desc=Sell 32 of those Dogecoins for a Bitcoin.
 
 # Quest.1778 - Warp Warnings
 gtnh.quest1778.name=Warp Warnings
-gtnh.quest1778.desc=Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... That price is represented by Warp: A corruption of the characters mind and soul, inflicting progressively more dire effects upon them. %n%nWhile the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge?%n%nWarp Theory adds a bunch of new Warp Effects to the Player. Be very carful because you don't want to spawn a Wither in your base.%n%nFake explosion warp effect can happen with 10 Warp%nFake creeper warp effect can happen with 10 Warp%nSpawn bats can happen with 15 Warp%nPoison warp effect can happen with 16 Warp%nJump boost warp effect can happen with 18 Warp%nRain warp effect can happen with 25 Warp%nBlood warp effect can happen with 25 Warp%nNausea warp effect can happen with 25 Warp%nFriendly creeper warp effect can happen with 26 Warp%nLightning warp effect can happen with 30 Warp%nLivestock rain warp effect can happen with 32 Warp%nWind warp effect can happen with 38 Warp%nBlindness warp effect can happen with 43 Warp%nRandom teleport can happen with 45 Warp%nAcceleration warp effect can happen with 50 Warp%nDecay warp effect can happen with 50 Warp%nRandom trees effect can happen with 50 Warp%nChest scramble warp effect can happen with 80 Warp%nSpawn wither warp effect can happen with 80 Warp
+gtnh.quest1778.desc=Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... That price is represented by Warp: A corruption of the character's mind and soul, inflicting progressively more dire effects upon them. %n%nWhile the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge?%n%nWarp Theory adds a bunch of new Warp Effects to the Player. Be very careful because you don't want to spawn a Wither in your base.%n%n5 warp: Blinking%n10 warp: Fake Explosion%n15 warp: Coin, Pumpkin%n20 warp: Lay Eggs, Spawn Phantoms%n25 warp: Fake Creeper, Fake Rain%n30 warp: GregTech Fake Sounds, Spawn Bats%n35 warp: Blood, Fake Enderman%n40 warp: Spawn Friendly Creeper%n45 warp: Jump Boost, Nausea%n50 warp: Insomnia, Vis Drain%n55 warp: Thunderstorm%n60 warp: Spawn Fire Bats%n65 warp: Blindness, Poison%n70 warp: Livestock Rain%n75 warp: Spawn Doppelganger%n80 warp: Spawn Endermen, Wither Potion%n85 warp: Wind%n90 warp: Ender Pearl%n95 warp: Blaze Fireball%n100 warp: Litmus Paper, Junk%n110 warp: Obsidian%n120 warp: Lightning%n125 warp: Inventory Swap%n130 warp: Random Teleport%n140 warp: Acceleration%n150 warp: Fake Wither, Inventory Scramble%n160 warp: Countdown Bomb%n170 warp: Mushrooms%n175 warp: Snow%n180 warp: Decay%n190 warp: Swamp%n200 warp: Spawn Wither
 
 # Quest.1779 - Step Assistant
 gtnh.quest1779.name=Step Assistant
@@ -7414,7 +7414,7 @@ gtnh.quest1852.desc=...But she'll never stop because you'll always have somethin
 
 # Quest.1853 - §6§lMoron's Manual for Effective EBFing
 gtnh.quest1853.name=§6§lMoron's Manual for Effective EBFing
-gtnh.quest1853.desc=Welcome to the latest Moron's Manual, Effective EBFing! This manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from things pollution affects, like farmland. Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow. Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler faces *out*, not *in*. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF. Especially at LV, those few blocks make a big difference! Every amp of energy travelling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you're poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers' generators. If you make 9 slot battery buffers, you can fill them up over time to get longer running time until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them such as chests or BC tanks. They will also void if they're full, so keep an eye on them!%n%nWhen building multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too. Not recommended for energy and maintenance hatches!
+gtnh.quest1853.desc=Welcome to the latest Moron's Manual, Effective EBFing! This manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from things pollution affects, like farmland. Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow. Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler faces §lout§r, not §lin§r. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF. Especially at LV, those few blocks make a big difference! Every amp of energy travelling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you're poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers' generators. If you make 9 slot battery buffers, you can fill them up over time to get longer running time until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them such as chests or BC tanks. They will also void if they're full, so keep an eye on them!%n%nWhen building multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too. Not recommended for energy and maintenance hatches!
 
 # Quest.1854 - Just Like Mom Used to Make
 gtnh.quest1854.name=Just Like Mom Used to Make
@@ -7610,7 +7610,7 @@ gtnh.quest1901.desc=The HV GT++ Steam Boiler is the next machine you can make to
 
 # Quest.1902 - §a§lNo Boom Tomorrow
 gtnh.quest1902.name=§a§lNo Boom Tomorrow
-gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials. %n%nFused Quartz is no good now, forget about it ok? Instead, use the GTNH approved Plated Reinforced Stone series! Or one of the other options I guess, like Warded Glass. You may need multiple layers depending on your reactor, try it out in creative.%n%n§3There are 6 of them, use NEI.
+gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials. %n%nFused Quartz is no good now, forget about it ok? Instead, use the GTNH approved Plated Reinforced Stone series! Or one of the other options I guess, like Warded Glass. You may need multiple layers depending on your reactor, try it out in creative.%n%n§3There are 6 of them, use NEI.%n%nOkay, okay, you don't have to forget Fused Quartz, I'll give you some. Maybe you can stop rain with it.
 
 # Quest.1903 - §9§e§9§lHV Energy Hatch
 gtnh.quest1903.name=§9§e§9§lHV Energy Hatch
@@ -7678,7 +7678,7 @@ gtnh.quest1918.desc=Impossible! If you really think you have so much fluid that 
 
 # Quest.1919 - §3§lToo Much Junk??
 gtnh.quest1919.name=§3§lToo Much Junk??
-gtnh.quest1919.desc=Impossible! But if you really want to get rid of excess items, make yourself a trashcan. If you want to be really fancy, you can use a hopper with a lever next to it to make sure you only throw away items you really want. I mean, *I've* never thrown away a tool accidentally, nope, never me.
+gtnh.quest1919.desc=Impossible! But if you really want to get rid of excess items, make yourself a trashcan. If you want to be really fancy, you can use a hopper with a lever next to it to make sure you only throw away items you really want. I mean, §lI've§r never thrown away a tool accidentally, nope, never me.
 
 # Quest.1920 - You Can't Tell Them Apart Either?
 gtnh.quest1920.name=You Can't Tell Them Apart Either?
@@ -7782,7 +7782,7 @@ gtnh.quest1944.desc=Chisel can also transform Concrete and GT stones into new in
 
 # Quest.1945 - Basic Builder's Wand
 gtnh.quest1945.name=Basic Builder's Wand
-gtnh.quest1945.desc=The only thing going for the stone builder's wand is that it's cheap. It doesn't offer much in special modes, and doesn't last long either. But you can make a lot!
+gtnh.quest1945.desc=The only thing going for the stone builder's wand is that it's cheap. It doesn't offer much in special modes, and doesn't last long either. But you can make a lot!%n%nTo use, right click on a block while holding more of that block in your inventory. An outline will show you what it will do.
 
 # Quest.1946 - Low-Tier Wand
 gtnh.quest1946.name=Low-Tier Wand
@@ -7914,11 +7914,11 @@ gtnh.quest1977.desc=When travelling off-world, you want the best in torches. Tor
 
 # Quest.1978 - Lighting Up a Large Area, Without Electricity
 gtnh.quest1978.name=Lighting Up a Large Area, Without Electricity
-gtnh.quest1978.desc=If you have a relatively large area you need to light up without using electricity, you can use these floodlights. They can take normal furnace fuels, including blocks and compressed blocks. They do require some electronic components to make, but can send out a beam a long ways, or various cone shapes a shorter distance.
+gtnh.quest1978.desc=If you have a relatively large area you need to light up without using electricity, you can use these floodlights. They can take normal furnace fuels, including blocks and compressed blocks. They do require some electronic components to make, but can send out a beam a long ways, or various cone shapes a shorter distance. Use the wrench to change modes, and shift right-click to invert.
 
 # Quest.1979 - Lighting Up a Large Area, With Electricity
 gtnh.quest1979.name=Lighting Up a Large Area, With Electricity
-gtnh.quest1979.desc=Now that you have a vacuum freezer, you can liquify compressed air cells and centrifuge them for rare gases. You'll need those to make the incandescent bulb for these lights. As long as they have EU, these lights can shoot a beam or do narrow or wide cones.
+gtnh.quest1979.desc=Now that you have a vacuum freezer, you can liquify compressed air cells and centrifuge them for rare gases. You'll need those to make the incandescent bulb for these lights. As long as they have EU, these lights can shoot a beam or do narrow or wide cones. Use the wrench to change modes, and shift right-click to invert.%n%nIt's better to provide power to an Ender IO capacitor and then power these machines with RF, instead of powering directly with GT EU, because they don't work well with GT's EU amp system, and will draw a whole EU packet for a single RF.
 
 # Quest.1980 - EnderIO Lights
 gtnh.quest1980.name=EnderIO Lights
@@ -8178,7 +8178,7 @@ gtnh.quest2043.desc=Now that you have an MV Electrolyzer, you can extract Boron 
 
 # Quest.2044 - §6§lMega is Betta
 gtnh.quest2044.name=§6§lMega is Betta
-gtnh.quest2044.desc=For someone who needs to blast a truly *ridiculous* amount of stuff, this is the machine for you. This monster machine can handle up to 256 parallel recipes at a time.%n%nThe glass tier sets the maximum energy hatch tier for this machine.%n%nYou can set Circuit prioritization by Screwdrivering the Controller.
+gtnh.quest2044.desc=For someone who needs to blast a truly §lridiculous§r amount of stuff, this is the machine for you. This monster machine can handle up to 256 parallel recipes at a time.%n%nThe glass tier sets the maximum energy hatch tier for this machine.%n%nYou can set Circuit prioritization by Screwdrivering the Controller.
 
 # Quest.2045 - §6§lFrostbite!
 gtnh.quest2045.name=§6§lFrostbite!
@@ -8214,7 +8214,7 @@ gtnh.quest2052.desc=Taking the biomass from the Fermenter and using it in a stil
 
 # Quest.2053 - Empty the oceans
 gtnh.quest2053.name=Empty the oceans
-gtnh.quest2053.desc=If you stuck with fish for biodiesel this long, you can now make the Zhuhai Fishing Port to get cartloads of fish and other byproducts.%n%n§3This multi is IV.
+gtnh.quest2053.desc=If you stuck with fish for bio diesel this long, you can now make the Zhuhai Fishing Port to get cartloads of fish and other byproducts.%n%n§3This multi is IV.
 
 # Quest.2054 - Putting all those workers out of jobs
 gtnh.quest2054.name=Putting all those workers out of jobs
@@ -8266,7 +8266,7 @@ gtnh.quest2065.desc=The Witching Gadgets Spinning Wheel will unlock a few materi
 
 # Quest.2066 - Flying Like a Eag - I Mean Raven
 gtnh.quest2066.name=Flying Like a Eag - I Mean Raven
-gtnh.quest2066.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.
+gtnh.quest2066.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Active Ability 1" in control settings and, having item, in hand send "/travellersgear bind 1" to chat.
 
 # Quest.2067 - Everything Fuzzy? Try Some Lenses
 gtnh.quest2067.name=Everything Fuzzy? Try Some Lenses
@@ -8442,7 +8442,7 @@ gtnh.quest2109.desc=This database tracks all your knowledge of butterflies.%n%nB
 
 # Quest.2110 - §6§lSpeeding Up Slow Machines
 gtnh.quest2110.name=§6§lSpeeding Up Slow Machines
-gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though, so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver. This uses twice the power though.%n%nIf you want, you can change the level of acceleration by using a wrench on it. It will go back to the minimum, then increase one tier from there for every usage. It will use that tier's amount of power (and acceleration), increasing as per GT standard of 2x speed (acceleration) and 4x EU per tier.%n%n§3Even though it says 8A, this is just what it can accept, not what it uses. It's 3A in block mode, and 6A in TE mode.
+gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though, so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver. This uses twice the power though.%n%n§4This does not work with GregTech machines!§r For those, build more or higher tier ones.%n%nIf you want, you can change the level of acceleration by using a wrench on it. It will go back to the minimum, then increase one tier from there for every usage. It will use that tier's amount of power (and acceleration), increasing as per GT standard of 2x speed (acceleration) and 4x EU per tier.%n%n§3Even though it says 8A, this is just what it can accept, not what it uses. It's 3A in block mode, and 6A in TE mode.
 
 # Quest.2111 - Hail to the King
 gtnh.quest2111.name=Hail to the King
@@ -8574,7 +8574,7 @@ gtnh.quest2142.desc=The Auto Workbench is a simple automated crafting system. Yo
 
 # Quest.2143 - §5§lChoices, Choices
 gtnh.quest2143.name=§5§lChoices, Choices
-gtnh.quest2143.desc=Need a map on fuel choices? Well, we don't have that but we have suggestions. You can use Steam up to IV, but beyond MV it gets pretty painful. %n%nIn LV you can start refining oil for either Light Fuel for a Combustion Generator or Refinery Gas for a Gas Turbine. %n%nOnce you hit MV you can switch from Steam to renewable Benzene (Gas) from your logs. Other renewable alternatives are Fish oil or Seed Oil based Biodiesel (combustion). Seed Oil can be sourced from Pam's peanuts, IC2 Rape crop or Forestry tree nuts.%n%nAt MV you can also upgrade your Light Fuel with Heavy Fuel to get Diesel. When you reach HV turn Diesel or Biodiesel into Cetane Boosted Diesel. In EV, you can make HOG, but it's complex, and you'll need to rejigger your whole oil distillation setup, since it uses different fluids than Cetane does.%n%nEV introduces the Large Gas Turbine, Large Steam Turbine, Large HP Steam Turbine, and Large Combustion Engine, which are more efficient versions of the earlier ones. The first 3 require turbines. %n%nYou can also make Nukes, or Wind and Water Kinetics.%n%nFor low-power operations, or dedicated players willing to setup autocrafting, you can begin using Solar Panels at MV.
+gtnh.quest2143.desc=Need a map on fuel choices? Well, we don't have that but we have suggestions. You can use Steam up to IV, but beyond MV it gets pretty painful. %n%nIn LV you can start refining oil for either Light Fuel for a Combustion Generator or Refinery Gas for a Gas Turbine. %n%nOnce you hit MV you can switch from Steam to renewable Benzene (Gas) from your logs. Other renewable alternatives are Fish Oil or Seed Oil based bio diesel (combustion). Seed Oil can be sourced from Pam's peanuts, IC2 Rape crop or Forestry tree nuts.%n%nAt MV you can also upgrade your Light Fuel with Heavy Fuel to get Diesel. When you reach HV turn diesel or bio diesel into Cetane Boosted Diesel. In EV, you can make HOG, but it's complex, and you'll need to rejigger your whole oil distillation setup, since it uses different fluids than Cetane does.%n%nEV introduces the Large Gas Turbine, Large Steam Turbine, Large HP Steam Turbine, and Large Combustion Engine, which are more efficient versions of the earlier ones. The first 3 require turbines. %n%nYou can also make Nukes, or Wind and Water Kinetics.%n%nFor low-power operations, or dedicated players willing to setup autocrafting, you can begin using Solar Panels at MV.
 
 # Quest.2144 - §6§lDon't Put a Finger in That Socket
 gtnh.quest2144.name=§6§lDon't Put a Finger in That Socket
@@ -9690,7 +9690,7 @@ gtnh.quest2421.desc=To make Grasspers, first you need to arrange Grass in the ca
 
 # Quest.2422 - PETA Approved*
 gtnh.quest2422.name=PETA Approved*
-gtnh.quest2422.desc=To make Critter Snares, first you need to arrange Alder Saplings in the cardinal directions around a Cobweb above a block of water. Then get a zombie to walk onto it and right-click the Cobweb with your Mutating Sprig.%nThis will change the Saplings into the needed Critter Snares. Do this twice.%n%n§3*May not be PETA approved
+gtnh.quest2422.desc=To make Critter Snares, first you need to arrange Alder Saplings in the cardinal directions around a Cobweb above a block of water. Then get a zombie to walk onto it and right-click the Cobweb with your Mutating Sprig.%nThis will change the Saplings into the needed Critter Snares. Do this twice.%n%n§3* May not be PETA approved
 
 # Quest.2423 - Mad Science is the Best Science
 gtnh.quest2423.name=Mad Science is the Best Science
@@ -10870,7 +10870,7 @@ gtnh.quest2716.desc=Weak compared to both weapons of it's tier, and the weapons 
 
 # Quest.2717 - The Ultimate Plastic
 gtnh.quest2717.name=The Ultimate Plastic
-gtnh.quest2717.desc=So, Radox Polymer. A highly complex plastic used for...absolutely nothing. But, you CAN make it. *Theoretically*.%n %nIf you dare take up this monumental challenge, you need to get the Xenoxene Xenoxis culture first. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nFrom this point, it's pretty easy to figure it out, but basically, only Super Light Radox and Diluted Xenoxene (so you can run it again) are useful from Distilling. All the other products are kinda useless.%n%nHave fun with your useless ingot!
+gtnh.quest2717.desc=So, Radox Polymer. A highly complex plastic used for...absolutely nothing. But, you CAN make it. §lTheoretically§r.%n %nIf you dare take up this monumental challenge, you need to get the Xenoxene Xenoxis culture first. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nFrom this point, it's pretty easy to figure it out, but basically, only Super Light Radox and Diluted Xenoxene (so you can run it again) are useful from Distilling. All the other products are kinda useless.%n%nHave fun with your useless ingot!
 
 # Quest.2718 - Does Anyone Even Still Use These?
 gtnh.quest2718.name=Does Anyone Even Still Use These?
@@ -10988,8 +10988,8 @@ gtnh.quest2745.desc=It's exactly what it says. It's also incredibly useful.
 gtnh.quest2746.name=A Chest for...Butterflies? Really?
 gtnh.quest2746.desc=Store your completely useless butterlies in this.
 
-# Quest.2747 - A Bag for Butterflies, *yawn*
-gtnh.quest2747.name=A Bag for Butterflies, *yawn*
+# Quest.2747 - A Bag for Butterflies, §oyawn§r
+gtnh.quest2747.name=A Bag for Butterflies, §oyawn§r
 gtnh.quest2747.desc=I'm not sure this has any utility value since the butterflies are going to all be in chunkloaded areas, and thus near your base, but feel free to make it anyway.
 
 # Quest.2748 - Only the Best: Tree Breeding
@@ -11112,8 +11112,8 @@ gtnh.quest2776.desc=The ZPM solar panel generates 131072 EU/t.
 gtnh.quest2777.name=§lPower of the Sun at LuV Level
 gtnh.quest2777.desc=The UV solar panel generates 524288 EU/t.
 
-# Quest.2778 - §lPower of the Sun 1x1 LuV
-gtnh.quest2778.name=§lPower of the Sun 1x1 LuV
+# Quest.2778 - §lPower of the Sun 1x1 ZPM
+gtnh.quest2778.name=§lPower of the Sun 1x1 ZPM
 gtnh.quest2778.desc=This is the block version that doesn't need cleaning.
 
 # Quest.2779 - Pocket Plasma EV
@@ -11154,19 +11154,19 @@ gtnh.quest2787.desc=You can make Cetane-Boosted Diesel now. Unfortunately, HOG i
 
 # Quest.2788 - Putting the 'Semi' Back Into Generators LV
 gtnh.quest2788.name=Putting the 'Semi' Back Into Generators LV
-gtnh.quest2788.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§3BTW, there's ULV versions of the Steam, Gas, and Combustion Gens, but they're totally pointless.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen).
+gtnh.quest2788.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§3BTW, there's ULV versions of the Steam, Gas, and Combustion Gens, but they're totally pointless.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen). §3But you can burn some semi-fluids in the regular combustion generator for now if you really want. Check NEI on cells.
 
 # Quest.2789 - Putting the 'Semi' Back Into Generators MV
 gtnh.quest2789.name=Putting the 'Semi' Back Into Generators MV
-gtnh.quest2789.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen).
+gtnh.quest2789.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen). §3But you can burn some semi-fluids in the regular combustion generator for now if you really want. Check NEI on cells.
 
 # Quest.2790 - Putting the 'Semi' Back Into Generators HV
 gtnh.quest2790.name=Putting the 'Semi' Back Into Generators HV
-gtnh.quest2790.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen).
+gtnh.quest2790.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen). §3But you can burn some semi-fluids in the regular combustion generator for now if you really want. Check NEI on cells.
 
 # Quest.2791 - You Haven't Learned How to Separate Fluids Yet? Seriously?
 gtnh.quest2791.name=You Haven't Learned How to Separate Fluids Yet? Seriously?
-gtnh.quest2791.desc=This seems suspiciously like another MB I know? §oProbably§r just my imagination.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen).
+gtnh.quest2791.desc=This seems suspiciously like another MB I know? §oProbably§r just my imagination.%n%n§4This is embarrassing, but the semi-fluid generators don't actually work. Blame GT++'s Alkalus for not fixing them. Please ignore these quests until they do (may not ever happen). §3But you can burn some semi-fluids in the regular combustion generator for now if you really want. Check NEI on cells.
 
 # Quest.2792 - Acid Trip
 gtnh.quest2792.name=Acid Trip
@@ -11582,7 +11582,7 @@ gtnh.quest2894.desc=It holds more than the previous tier, other than that there 
 
 # Quest.2895 - Cooking for Blockheads
 gtnh.quest2895.name=Cooking for Blockheads
-gtnh.quest2895.desc=Say thanks to mitch for backporting this great mod. You can use it to help you craft new food items. All blocks connected to the kitchen floor (use it as walls too!) are considered part of the same multiblock.%n%nItems stored in storages like the cabinet (or your inventory) can be used in recipes. All storage spaces for items are the same, so don't bother making a ton of fridges unless you really want to. Supply water to the sink to get water for recipes.%n%nYou can store some cooking tools in the oven. You can store the rest on tool racks to auto-use them all in recipes. This includes stuff like the GT soft mallet if you can't make all the Pam's tools yet.%n%nThe oven has 3 input slots and 3 output slots, and can work on 9 items at once. It's basically a furnace. You can request items be cooked from the cooking table too.%n%nThe Cooking Table will automatically show you all recipes that can be created with the existing ingredients, and you can click on them to craft them. Make all the food, and get all the hearts!%n%nNote that the implementation is not finished, so there are some problems:%nThe toaster does not currently have a recipe, so you cannot make toast. Upgrades like powering the oven with RF/EU are not in yet. And so on.%n%nPlease report any bugs/problems to the CFB-specific GTNH issue tracker at https://github.com/GTNewHorizons/CookingForBlockheads/issues%n%n§3There is no cow in a jar, it will not come back.
+gtnh.quest2895.desc=Say thanks to mitch for backporting this great mod. You can use it to help you craft new food items. All blocks connected to the kitchen floor (use it as walls too!) are considered part of the same multiblock. Countertops will search up two blocks for cabinets to include.%n%nItems stored in storages like the cabinet (or your inventory) can be used in recipes. All storage spaces for items are the same, so don't bother making a ton of fridges unless you really want to. Supply water to the sink to get water for recipes.%n%nYou can store some cooking tools in the oven. You can store the rest on tool racks to auto-use them all in recipes. This includes stuff like the GT soft mallet if you can't make all the Pam's tools yet.%n%nThe oven has 3 input slots and 3 output slots, and can work on 9 items at once. It's basically a furnace. You can request items be cooked from the cooking table too.%n%nThe Cooking Table will automatically show you all recipes that can be created with the existing ingredients, and you can click on them to craft them. Make all the food, and get all the hearts!%n%nYou can use dye to color the kitchen, except for the oven.%n%nNote that the implementation is not finished, so there are some problems:%nThe toaster does not currently have a recipe, so you cannot make toast. Upgrades like powering the oven with RF/EU are not in yet. And so on.%n%nPlease report any bugs/problems to the CFB-specific GTNH issue tracker at https://github.com/GTNewHorizons/CookingForBlockheads/issues%n%n§3There is no cow in a jar, it will not come back.
 
 # Quest.2896 - §6§lGimme My Stuff Back!
 gtnh.quest2896.name=§6§lGimme My Stuff Back!
@@ -11886,7 +11886,7 @@ gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
 
 # Quest.2971 - §6§lInfinite Energy Storage
 gtnh.quest2971.name=§6§lInfinite Energy Storage
-gtnh.quest2971.desc=You shouldn't click on links from strangers! Although this sounds like clickbait it is true. From a certain point of view.%n%nUse the (potential) force! And store energy that way. Simply construct a dam and floor vast areas with water. You may add energy to your storage by pumping more water into it or just drain it back into energy whenever you need. This works especially well with fluctuating energy sources like wind, water and solar. Or you dump excess energy into it so you can use it another time. The capacity is huge and the choice is yours.%n%nSounds great! But...? - Indeed. There is a catch: Pumps and Turbines will have efficiency correlated loss. Still interested? Let's get to crafting!%n%nThe multi-block has an unusual shape: the back is open. The lake will spawn inside the multi-block and spread block-by-block as far as it can/is allowed. It will replace plants like water (make sure you'll secure your IC2 Crops!) but not replace any solid blocks. Additionally, you can specify limits in any direction. The water will NEVER spread past these limits. You can set those limits in a second GUI by right clicking the controller with a screwdriver.%n%nWhen you enter a limit, it will correct itself to the nearest valid setting. Especially, if you try to spread past the server limits. You may talk your admin into raising these limits (these limits are supposed to limit griefing options). Further, water is not able to spread into foreign towns.%nYou will also find 3 magical buttons in the top-right of this GUI. From left to right: The first will slowly despawn the lake blocks. You can use this to shrink the lake if it spreaded past a barrier for example. The multi-block will also initialize with this configuration so there is no accidental flooding. The second and third buttons will slowly spawn more lake blocks. Additionally, the second button will render those lake blocks pink so you see where they are so you may plug holes and such things. In this "debug" mode you can walk/breathe/act in the lake like in air. This should make it easy to create a sunken village for decoration purposes. The third button is for normal operations so you can see the water and enjoy a swim in your energy buffer.%n%nOf course, there is also a normal GUI (simple right-click). It shows you the energy stored in the dam. To reach higher water levels you are required to use stronger pumps. For this purpose, you may configure the voltage tier of the GUI with a circuit in the circuit slot. Don't worry: It is only optical. You cannot void any energy if you set a low voltage tier. It is only for the player information. You may give it a try with the reward you earn...%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
+gtnh.quest2971.desc=You shouldn't click on links from strangers! Although this sounds like clickbait it is true. From a certain point of view.%n%nUse the (potential) force! And store energy that way. Simply construct a dam and floor vast areas with water. You may add energy to your storage by pumping more water into it or just drain it back into energy whenever you need. This works especially well with fluctuating energy sources like wind, water, and solar. Or you dump excess energy into it so you can use it another time. The capacity is huge and the choice is yours.%n%nSounds great! But...? - Indeed. There is a catch: Pumps and Turbines will have efficiency correlated loss. Still interested? Let's get to crafting!%n%nThe multi-block has an unusual shape: the back is open. The lake will spawn inside the multi-block and spread block-by-block as far as it can/is allowed. It will replace plants like water (make sure to secure your IC2 Crops!) but not replace any solid blocks. Additionally, you can specify limits in any direction. The water will NEVER spread past these limits. You can set those limits in a second GUI by right clicking the controller with a screwdriver.%n%nWhen you enter a limit, it will correct itself to the nearest valid setting. Especially if you try to spread past the server limits. You may talk your admin into raising these limits (these limits are designed to limit griefing). Further, water is not able to spread into foreign towns.%nYou will also find 3 magical buttons in the top-right of this GUI. From left to right: The first will slowly despawn the lake blocks. You can use this to shrink the lake if it spread past a barrier for example. The multi-block will also initialize with this configuration so there is no accidental flooding. The second and third buttons will slowly spawn more lake blocks. Additionally, the second button will render those lake blocks pink so you see where they are so you may plug holes and such. In this "debug" mode you can walk/breathe/act in the lake like in air. This should make it easy to create a sunken village for decoration purposes. The third button is for normal operations so you can see the water and enjoy a swim in your energy buffer.%n%nOf course, there is also a normal GUI (simple right-click). It shows you the energy stored in the dam. To reach higher water levels you are required to use stronger pumps. For this purpose, you may configure the voltage tier of the GUI with a circuit in the circuit slot. Don't worry: It is only optical. You cannot void any energy if you set a low voltage tier. It is only for the player information. You may give it a try with the reward you earn...%n%nIf you have any further questions, find missing information, or have suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
 
 # Quest.2972 - §6§lGotta Pump It Upe
 gtnh.quest2972.name=§6§lGotta Pump It Upe
@@ -11898,23 +11898,31 @@ gtnh.quest2973.desc=... can't hold it back anymore. It is time to collect the re
 
 # Quest.2974 - §6§lAluminium Hydroxide
 gtnh.quest2974.name=§6§lAluminium Hydroxide
-gtnh.quest2974.desc=To get ingots straight from aluminum dust you'll need higher temperatures then cupronickel coils can provide. Alternatively you can lower required temperature by mixing aluminum dust with sodiumhydroxide to create aluminiumhydroxide dust. It can be processed to alumina. Cryolite can also lower required temperature to smelt it to ingots.%n%n§d§6Check out NEI to find alternative recepis for aluminiumhydroxide.
+gtnh.quest2974.desc=To get ingots straight from aluminum dust you'll need higher temperatures then cupronickel coils can provide. Alternatively you can lower the required temperature by mixing aluminum dust with sodiumhydroxide to create aluminiumhydroxide dust. It can be processed to alumina. Cryolite can also lower the required temperature to smelt it to ingots.%n%n§d§6Check out NEI to find alternative recipes for aluminiumhydroxide.
 
 # Quest.2975 - §6§lChemical cryolity production
 gtnh.quest2975.name=§6§lChemical cryolity production
-gtnh.quest2975.desc=Feeling too lazy to search for cryolite vein for smelting all this alumina? You can always synthesize it with hydroflouric acid, salt water and aluminiumhydroxide.
+gtnh.quest2975.desc=Feeling too lazy to search for a cryolite vein to smelt all this alumina? You can always synthesize it with hydroflouric acid, salt water and aluminiumhydroxide.
 
 # Quest.2976 - §9§lAdvanced aluminium production
 gtnh.quest2976.name=§9§lAdvanced aluminium production
-gtnh.quest2976.desc=After you have done your large chemical reactor you are able to recycle your aluminium dust to make sodiumaluminate. %nIt will be even more rewarding after you find baxite.%nIn this process you will also get a lot of hydrogen.
+gtnh.quest2976.desc=After you have made a large chemical reactor you are able to recycle your aluminium dust to make sodium aluminate.%nIt will be even more rewarding after you find bauxite.%nIn this process you will also get a lot of hydrogen.
 
 # Quest.2977 - §9§lAdvanced alumina production
 gtnh.quest2977.name=§9§lAdvanced alumina production
-gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 24 alumina dust. Sodium carbonate will be left over
+gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 24 alumina dust. Sodium carbonate will be left over.
 
 # Quest.2978 - §9§lRed Mud
 gtnh.quest2978.name=§9§lRed Mud
 gtnh.quest2978.desc=Red mud is a byproduct from sodium aluminate processing. You can get few useful materials out of it by centrifuging.
+
+# Quest.2979 - §5§6§l§5§lAluminium Tank
+gtnh.quest2979.name=§5§6§l§5§lAluminium Tank
+gtnh.quest2979.desc=If you make some Aluminium plates, you can make a new 128,000L single block tank.
+
+# Quest.2980 - §a§9§a§9§l§9§a§lPlaying With Dust in EV
+gtnh.quest2980.name=§a§9§a§9§l§9§a§lPlaying With Dust in EV
+gtnh.quest2980.desc=The EV Autoclave is needed to process tungsten and other high tier materials. 
 
 ##################################Line##################################
 
