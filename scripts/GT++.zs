@@ -80,8 +80,6 @@ recipes.remove(<gregtech:gt.blockmachines:949>);
 // --- IV Superchest
 recipes.remove(<gregtech:gt.blockmachines:950>);
 
-// --- Vibrant Alloy Dust
-recipes.remove(<miscutils:itemDustVibrantAlloy>);
 
 
 
