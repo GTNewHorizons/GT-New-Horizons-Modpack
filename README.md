@@ -119,7 +119,8 @@ zeta.gtnewhorizons.com<BR>
 
 Modded Minecraft Club Falkenstein, Germany (open)<BR>
 https://www.moddedminecraft.club/<BR>
-gtnh.moddedminecraft.club<BR>
+gtnh.moddedminecraft.club (Teleport enabled)<BR>
+gtnh-im.moddedminecraft.club (Ironman, no teleport)<BR>
 
 ## US/Canada Servers:<BR>
 
@@ -134,11 +135,8 @@ http://jesus2xs.com/<BR>
  
 Modded Minecraft Club North American Proxy (open)<BR>
 (same server as above)<BR>
-gtnh-na.moddedminecraft.club<BR>
-
-Fully Toasted GTNH Server CA (whitelist)<BR>
-https://fullytoasted.world/<BR>
-gtnh.toastedpack.world<BR>
+gtnh-na.moddedminecraft.club (Teleport enabled)<BR>
+gtnh-im-na.moddedminecraft.club (Ironman, no teleport)<BR>
 
 Stone Huts EU Server (whitelist)<BR>
 IP: gtnh.stonehuts.net<BR>
