@@ -9,7 +9,6 @@ import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
 import mods.ic2.Compressor;
 import mods.ic2.Extractor;
-import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.AlloySmelter;
 
 
@@ -60,7 +59,6 @@ val AnyWool = <ore:blockWool>;
 val Noteblock = <minecraft:noteblock>;
 val BUD = <ExtraUtilities:budoff>;
 val WaterBucket = <minecraft:water_bucket>;
-val LVRegulator = <gregtech:gt.blockmachines:9271>;
 val LuVFieldgen = <gregtech:gt.metaitem.01:32675>;
 val HVWA = <gregtech:gt.blockmachines:11102>;
 val EVWA = <gregtech:gt.blockmachines:11103>;
@@ -97,7 +95,7 @@ val RedAlloyFoil = <ore:foilRedAlloy>;
 val ElectrumPlate = <ore:plateElectrum>;
 val EuropiumPlate = <ore:plateEuropium>;
 val ElectrumFoil = <ore:foilElectrum>;
-val EnderPearlPlate = <ore:plateEnderPearl>;
+val EnderPearlScrew = <ore:screwEnderPearl>;
 val EnderEyePlate = <ore:plateEnderEye>;
 val NStarPlate = <ore:plateNetherStar>;
 val SteelGear = <ore:gearSteel>;
@@ -108,7 +106,6 @@ val BasicCircuit = <ore:circuitBasic>;
 val GoodCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val DataCircuit = <ore:circuitData>;
-val LVChestBuffer = <gregtech:gt.blockmachines:9231>;
 val LVPump = <gregtech:gt.metaitem.01:32610>;
 val LVEnergyBuffer = <gregtech:gt.blockmachines:171>;
 val HVEnergyBuffer = <gregtech:gt.blockmachines:173>;
@@ -187,6 +184,9 @@ recipes.remove(<ExtraUtilities:enderQuarry>);
 
 // --- Ender-Thermic Pump
 recipes.remove(EnderPump);
+
+// --- Ender Marker
+recipes.remove(<ExtraUtilities:endMarker>);
 
 // --- Burnt Quartz
 furnace.remove(BurntQuartz);
@@ -907,45 +907,25 @@ recipes.addShaped(EExtractionPipe, [
 // --- Item Retrieval Node
 recipes.addShaped(ItemRetrievalN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlPlate, LVRegulator, EnderPearlPlate],
-[ItemTransferN, ItemTransferN, ItemTransferN]]);
-// -
-recipes.addShaped(ItemRetrievalN, [
-[HHammer, AnyPipe, Wrench],
-[EnderPearlPlate, LVRegulator, EnderPearlPlate],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32630>, EnderPearlScrew],
 [ItemTransferN, ItemTransferN, ItemTransferN]]);
 
 // --- Fluid Retrieval Node
 recipes.addShaped(FluidRetrievalN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlPlate, LVRegulator, EnderPearlPlate],
-[FluidTransferN, FluidTransferN, FluidTransferN]]);
-// -
-recipes.addShaped(FluidRetrievalN, [
-[HHammer, AnyPipe, Wrench],
-[EnderPearlPlate, LVRegulator, EnderPearlPlate],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32610>, EnderPearlScrew],
 [FluidTransferN, FluidTransferN, FluidTransferN]]);
 
 // --- Item Tranfer Node
 recipes.addShaped(ItemTransferN, [
-[HHammer, AnyPipe, Wrench],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
-[SmallStealGear, BrassItemPipe, SmallStealGear]]);
-// -
-recipes.addShaped(ItemTransferN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32630>, EnderPearlScrew],
 [SmallStealGear, BrassItemPipe, SmallStealGear]]);
 
 // --- Fluid Transfer Node
 recipes.addShaped(FluidTransferN, [
-[HHammer, AnyPipe, Wrench],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
-[SteelFluidPipe, LVPump, SteelFluidPipe]]);
-// -
-recipes.addShaped(FluidTransferN, [
 [Wrench, AnyPipe, HHammer],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
+[EnderPearlScrew, <gregtech:gt.metaitem.01:32610>, EnderPearlScrew],
 [SteelFluidPipe, LVPump, SteelFluidPipe]]);
 
 // --- Energy Transfer Node
@@ -1314,51 +1294,3 @@ Extractor.addRecipe(<minecraft:sand> * 9, <ExtraUtilities:cobblestone_compressed
 
 // --- Double Compressed Sand
 Extractor.addRecipe(<ExtraUtilities:cobblestone_compressed:14> * 9, <ExtraUtilities:cobblestone_compressed:15>);
-
-
-
-
-
-
-// --- Implosion Compressor Recipes ---
-
-
-
-// --- Bedrockium Ingot
-ImplosionCompressor.addRecipe(BedrockiumBlock, BedrockiumIngot * 9, 8);
-
-// --- Double Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed> * 9, 1);
-
-// --- Triple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:2>, <ExtraUtilities:cobblestone_compressed:1> * 9, 2);
-
-// --- Quadruple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:cobblestone_compressed:2> * 9, 4);
-
-// --- Quintuple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:cobblestone_compressed:3> * 9, 6);
-
-// --- Sextuple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:5>, <ExtraUtilities:cobblestone_compressed:4> * 9, 8);
-
-// --- Septuple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:6>, <ExtraUtilities:cobblestone_compressed:5> * 9, 10);
-
-// --- Octuple Compressed Cobblestone
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:cobblestone_compressed:6> * 9, 16);
-
-// --- Double Compressed Dirt
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:9>, <ExtraUtilities:cobblestone_compressed:8> * 9, 1);
-
-// --- Triple Compressed Dirt
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:10>, <ExtraUtilities:cobblestone_compressed:9> * 9, 2);
-
-// --- Quadruple Compressed Dirt
-ImplosionCompressor.addRecipe(QuadDirt, <ExtraUtilities:cobblestone_compressed:10> * 9, 4);
-
-// --- Double Compressed Gravel
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:13>, <ExtraUtilities:cobblestone_compressed:12> * 9, 1);
-
-// --- Double Compressed Sand
-ImplosionCompressor.addRecipe(<ExtraUtilities:cobblestone_compressed:15>, <ExtraUtilities:cobblestone_compressed:14> * 9, 1);

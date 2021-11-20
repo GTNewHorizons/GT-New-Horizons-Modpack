@@ -856,6 +856,407 @@ recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:10>, [<For
 // --- Auto Crafting Bench
 recipes.addShapeless(<ProjRed|Expansion:projectred.expansion.machine2:11>, [<BuildCraft|Factory:autoWorkbenchBlock>]);
 
+// --- White Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:19> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:dye:15>],
+[<minecraft:dye:15>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:19> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <BiomesOPlenty:misc:8>],
+[<BiomesOPlenty:misc:8>, null, null], 
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:19> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ExtraBees:misc:23>],
+[<ExtraBees:misc:23>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:19> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:77>],
+[<Botany:pigment:77>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:19> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32429>],
+[<gregtech:gt.metaitem.02:32429>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:19> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed>, null, null],
+[null, null, null]]);
+
+// --- Orange Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:20> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:14>],
+[<minecraft:dye:14>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:20> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32428>],
+[<gregtech:gt.metaitem.02:32428>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:20> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:1>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:1>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:20> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:51>],
+[<Botany:pigment:51>, null, null],
+[null, null, null]]);
+
+// --- Magenta Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:21> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:13>],
+[<minecraft:dye:13>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:21> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:40>],
+[<Botany:pigment:40>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:21> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:2>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:2>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:21> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32427>],
+[<gregtech:gt.metaitem.02:32427>, null, null],
+[null, null, null]]);
+
+// --- Light Blue Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:22> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:12>],
+[<minecraft:dye:12>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:22> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:22>],
+[<Botany:pigment:22>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:22> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:3>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:3>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:22> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32426>],
+[<gregtech:gt.metaitem.02:32426>, null, null],
+[null, null, null]]);
+
+// --- Yellow Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:23> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:11>],
+[<minecraft:dye:11>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:23> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ExtraBees:misc:20>],
+[<ExtraBees:misc:20>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:23> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:78>],
+[<Botany:pigment:78>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:23> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:4>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:4>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:23> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32425>],
+[<gregtech:gt.metaitem.02:32425>, null, null],
+[null, null, null]]);
+
+// --- Lime Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:24> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:10>],
+[<minecraft:dye:10>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:24> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:38>],
+[<Botany:pigment:38>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:24> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:5>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:5>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:24> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32424>],
+[<gregtech:gt.metaitem.02:32424>, null, null],
+[null, null, null]]);
+
+// --- Pink Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:25> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:9>],
+[<minecraft:dye:9>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:25> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:29>],
+[<Botany:pigment:29>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:25> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:6>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:6>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:25> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32423>],
+[<gregtech:gt.metaitem.02:32423>, null, null],
+[null, null, null]]);
+
+// --- Grey Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:26> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:8>],
+[<minecraft:dye:8>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:26> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:10>],
+[<Botany:pigment:10>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:26> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32422>],
+[<gregtech:gt.metaitem.02:32422>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:26> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:7>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:7>, null, null],
+[null, null, null]]);
+
+// --- Light Grey Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:27> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:7>],
+[<minecraft:dye:7>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:27> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:8>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:8>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:27> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32421>],
+[<gregtech:gt.metaitem.02:32421>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:27> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:35>],
+[<Botany:pigment:35>, null, null],
+[null, null, null]]);
+
+// --- Cyan Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:28> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:6>],
+[<minecraft:dye:6>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:28> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:8>],
+[<Botany:pigment:8>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:28> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32420>],
+[<gregtech:gt.metaitem.02:32420>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:28> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:9>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:9>, null, null],
+[null, null, null]]);
+
+// --- Purple Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:29> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:5>],
+[<minecraft:dye:5>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:29> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:20>],
+[<Botany:pigment:20>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:29> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:10>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:10>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:29> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32419>],
+[<gregtech:gt.metaitem.02:32419>, null, null],
+[null, null, null]]);
+
+// --- Blue Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:30> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:4>],
+[<minecraft:dye:15>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:30> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <BiomesOPlenty:misc:5>],
+[<minecraft:dye:5>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:30> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ExtraBees:misc:21>],
+[<ExtraBees:misc:21>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:30> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:24>],
+[<Botany:pigment:24>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:30> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:11>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:11>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:30> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32418>],
+[<gregtech:gt.metaitem.02:32418>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:30> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32410>],
+[<gregtech:gt.metaitem.02:32410>, null, null],
+[null, null, null]]);
+
+// --- Brown Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:31> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <BiomesOPlenty:misc:6>],
+[<BiomesOPlenty:misc:6>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:31> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ExtraBees:misc:25>],
+[<ExtraBees:misc:25>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:31> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:3>],
+[<minecraft:dye:3>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:31> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:65>],
+[<Botany:pigment:65>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:31> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32417>],
+[<gregtech:gt.metaitem.02:32417>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:31> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:12>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:12>, null, null],
+[null, null, null]]);
+
+// --- Green Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:32> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:2>],
+[<minecraft:dye:2>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:32> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <BiomesOPlenty:misc:7>],
+[<BiomesOPlenty:misc:7>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:32> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ExtraBees:misc:22>],
+[<ExtraBees:misc:22>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:32> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:28>],
+[<Botany:pigment:28>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:32> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:13>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:13>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:32> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32416>],
+[<gregtech:gt.metaitem.02:32416>, null, null],
+[null, null, null]]);
+
+// --- Red Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:33> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye:1>],
+[<minecraft:dye:1>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:33> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ExtraBees:misc:19>],
+[<ExtraBees:misc:19>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:33> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:59>],
+[<Botany:pigment:59>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:33> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:14>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:14>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:33> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32415>],
+[<gregtech:gt.metaitem.02:32415>, null, null],
+[null, null, null]]);
+
+// --- Black Iluminator
+recipes.addShaped(<ProjRed|Core:projectred.core.part:34> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <minecraft:dye>],
+[<minecraft:dye>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:34> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <BiomesOPlenty:misc:9>],
+[<BiomesOPlenty:misc:9>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:34> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ExtraBees:misc:24>],
+[<ExtraBees:misc:24>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:34> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <Botany:pigment:1>],
+[<Botany:pigment:1>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:34> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <ProjRed|Exploration:projectred.exploration.lilyseed:15>],
+[<ProjRed|Exploration:projectred.exploration.lilyseed:15>, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<ProjRed|Core:projectred.core.part:34> * 4, [
+[<minecraft:glowstone_dust>, <minecraft:glowstone_dust> , <gregtech:gt.metaitem.02:32414>],
+[<gregtech:gt.metaitem.02:32414>, null, null],
+[null, null, null]]);
+
 // --- Creative IC Chip
 // --- Upgrade Creative Mode
 mods.avaritia.ExtremeCrafting.addShaped(<ProjRed|Fabrication:projectred.fabrication.icchip:1>, [
@@ -1220,175 +1621,52 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:58>, [<gregtech:gt.metaitem.0
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:57>, [<minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:56> * 8], 400, 30);
 
 // --- White Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:15> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:8> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <ExtraBees:misc:23> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:77> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32429> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeWhite> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Orange Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:20>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:14> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:20>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32428> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:20>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:1> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:20>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:51> * 2], 50, 8);
-
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:20> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeOrange> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Magenta Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:21>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:13> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:21>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:40> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:21>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:2> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:21>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32427> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:21> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeMagenta> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Light Blue Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:22>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:12> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:22>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:22> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:22>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:3> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:22>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32426> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:22> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeLightBlue> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Yellow Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:11> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23>, [<minecraft:glowstone_dust> * 2, <ExtraBees:misc:20> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:78> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:4> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32425> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:23> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeYellow> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Lime Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:24>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:10> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:24>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:38> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:24>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:5> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:24>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32424> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:24> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeLime> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Pink Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:25>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:9> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:25>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:29> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:25>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:6> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:25>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32423> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:25> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyePink> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Grey Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:26>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:8> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:26>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:10> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:26>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32422> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:26>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:7> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:26> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeGray> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Light Grey Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:27>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:7> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:27>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:8> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:27>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32421> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:27>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:35> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:27> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeLightGray> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Cyan Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:28>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:6> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:28>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:8> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:28>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32420> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:28>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:9> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:28> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeCyan> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Purple Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:29>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:5> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:29>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:20> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:29>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:10> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:29>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32419> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:29> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyePurple> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Blue Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:4> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:5> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <ExtraBees:misc:21> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:24> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:11> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32418> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32410> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:30> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeBlue> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Brown Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, [<minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:6> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, [<minecraft:glowstone_dust> * 2, <ExtraBees:misc:25> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:3> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:65> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32417> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:12> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:31> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeBrown> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Green Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:2> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, [<minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:7> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, [<minecraft:glowstone_dust> * 2, <ExtraBees:misc:22> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:28> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:13> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32416> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:32> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeGreen> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Red Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:1> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33>, [<minecraft:glowstone_dust> * 2, <ExtraBees:misc:19> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:59> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:14> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32415> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:33> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeRed> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 // --- Black Iluminator
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, [<minecraft:glowstone_dust> * 2, <minecraft:dye> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, [<minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:9> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, [<minecraft:glowstone_dust> * 2, <ExtraBees:misc:24> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, [<minecraft:glowstone_dust> * 2, <Botany:pigment:1> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, [<minecraft:glowstone_dust> * 2, <ProjRed|Exploration:projectred.exploration.lilyseed:15> * 2], 50, 8);
-// -
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34>, [<minecraft:glowstone_dust> * 2, <gregtech:gt.metaitem.02:32414> * 2], 50, 8);
+Mixer.addRecipe(<ProjRed|Core:projectred.core.part:34> * 8, [<minecraft:glowstone_dust> * 2, <ore:dyeBlack> * 2, <gregtech:gt.integrated_circuit:8> * 0], 50, 8);
 
 
 
@@ -1427,7 +1705,7 @@ Unpacker.addRecipe(<dreamcraft:item.ElectrotineWire>, <gregtech:gt.metaitem.01:1
 // --- Ruby
 mods.chisel.Groups.addVariation("ruby", <BiomesOPlenty:gemOre:3>);
 // -
-mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem1:9>);
+//mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem1:9>);
 // -
 mods.chisel.Groups.addVariation("ruby", <gregtech:gt.blockgem2:11>);
 // -

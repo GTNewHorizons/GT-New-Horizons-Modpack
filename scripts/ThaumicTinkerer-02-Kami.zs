@@ -313,12 +313,12 @@ mods.thaumcraft.Warp.addToResearch("ICHORCLOTH_BOOTS_GEM", 4);
 
 // --- Celestial Gateway
 mods.thaumcraft.Infusion.addRecipe("WARP_GATE",  <Thaumcraft:blockCosmeticSolid:2>,
-[<ThaumicTinkerer:dislocator>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:11978>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
+[<ThaumicTinkerer:dislocator>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
 "alienis 64, iter 72, volatus 64, terra 32, aer 32", <ThaumicTinkerer:warpGate>, 10);
 
 // --- Celestial Pearl
 mods.thaumcraft.Infusion.addRecipe("WARP_GATE", <minecraft:ender_pearl>,
-[<IC2:itemDensePlates:8>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <gregtech:gt.metaitem.01:11978>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
+[<IC2:itemDensePlates:8>, <ThaumicTinkerer:kamiResource:7>, <EMT:EMTItems:7>, <ThaumicTinkerer:kamiResource>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:kamiResource:6>],
 "aer 24, alienis 32, volatus 32, iter 32, vitreus 24", <ThaumicTinkerer:skyPearl>, 10);
 // -
 mods.thaumcraft.Research.setAspects("WARP_GATE", "iter 18, volatus 15, alienis 12, machina 9, vitreus 6, aer 3");
@@ -327,7 +327,7 @@ mods.thaumcraft.Warp.addToResearch("WARP_GATE", 4);
 
 // --- Wand Focus Celestial Recall
 mods.thaumcraft.Infusion.addRecipe("FOCUS_RECALL", <ThaumicTinkerer:focusEnderChest>,
-[<gregtech:gt.metaitem.01:11978>, <ThaumicTinkerer:skyPearl>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:skyPearl>],
+[<ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:skyPearl>, <gregtech:gt.metaitem.02:30500>, <ThaumicTinkerer:skyPearl>],
 "alienis 64, iter 128, praecantatio 96, volatus 48, aer 32", <ThaumicTinkerer:focusRecall>, 14);
 // -
 mods.thaumcraft.Research.setAspects("FOCUS_RECALL", "iter 18, alienis 15, volatus 12, praecantatio 9, aer 6, cognitio 3");

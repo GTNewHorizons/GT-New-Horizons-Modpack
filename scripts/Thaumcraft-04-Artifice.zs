@@ -277,9 +277,9 @@ mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemBaubleBl
 
 // --- Mirrored Glass
 mods.thaumcraft.Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemResource:10>, "aer 30, terra 30, ignis 30,", [
-[<ore:bucketEnder>, <ore:gemMercury>, <ore:bucketEnder>],
+[<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ender", Amount: 1000}}), <ore:gemMercury>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ender", Amount: 1000}})],
 [<ore:gemMercury>, <minecraft:glass_pane>, <ore:gemMercury>],
-[<ore:bucketEnder>, <ore:gemMercury>, <ore:bucketEnder>]]);
+[<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ender", Amount: 1000}}), <ore:gemMercury>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ender", Amount: 1000}})]]);
 mods.thaumcraft.Research.addArcanePage("BASICARTIFACE", <Thaumcraft:ItemResource:10>);
 
 // --- Arcane Stone
@@ -434,9 +434,9 @@ mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockWoodenDevice:2
 [<ore:plateThaumium>, <Thaumcraft:ItemZombieBrain>, <ore:plateThaumium>]]);
 
 // --- Warded Glass
-mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockCosmeticOpaque:2> * 4, "aer 10, aqua 10, ignis 10, terra 10", [
+mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockCosmeticOpaque:2> * 4, "aer 10, aqua 10, ignis 10, ordo 10, perditio 10, terra 10", [
 [<ore:blockGlass>, <ore:plateThaumium>, <ore:blockGlass>],
-[<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemResource:6>, <Thaumcraft:blockWoodenDevice:6>],
+[<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:FocusWarding>, <Thaumcraft:blockWoodenDevice:6>],
 [<ore:blockGlass>, <ore:plateThaumium>, <ore:blockGlass>]]);
 
 // --- Iron Arcane Key
@@ -623,7 +623,7 @@ mods.thaumcraft.Research.setComplexity("RUNICARMOR", 3);
 
 // --- Magic Mirror
 mods.thaumcraft.Infusion.addRecipe("MIRROR", <Thaumcraft:ItemResource:10>,
-[<gregtech:gt.metaitem.01:17321>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17321>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>],
+[<gregtech:gt.metaitem.01:17367>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17367>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>],
 "iter 32, permutatio 24, tenebrae 16, alienis 8", <Thaumcraft:blockMirror>, 6);
 // -
 mods.thaumcraft.Research.setAspects("MIRROR", "vitreus 15, iter 12, tenebrae 9, alienis 9, cognitio 6, potentia 3");
@@ -641,7 +641,7 @@ mods.thaumcraft.Warp.addToResearch("MIRRORHAND", 3);
 
 // --- Essentia Mirror
 mods.thaumcraft.Infusion.addRecipe("MIRRORESSENTIA", <Thaumcraft:ItemResource:10>,
-[<gregtech:gt.metaitem.01:17321>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17321>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>],
+[<gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:27330>],
 "aqua 24, iter 32, permutatio 16, vitreus 8", <Thaumcraft:blockMirror:6>, 2);
 // -
 mods.thaumcraft.Research.setAspects("MIRRORESSENTIA", "praecantatio 15, iter 12, vitreus 9, alienis 9, cognitio 6, potentia 6, aqua 3");

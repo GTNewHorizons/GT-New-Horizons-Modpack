@@ -40,9 +40,6 @@ recipes.remove(<GraviSuite:graviTool>);
 // --- Ultimate Lappack
 recipes.remove(<GraviSuite:ultimateLappack>);
 
-// --- Relocator
-recipes.remove(<GraviSuite:relocator:*>);
-
 // --- Epic Lappack
 recipes.remove(<GraviSuite:epicLappack:*>);
 
@@ -65,12 +62,12 @@ recipes.addShaped(<GraviSuite:itemSimpleItem:1>, [
 // --- Cooling Core
 recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 [<IC2:reactorVentDiamond:1>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorVentDiamond:1>],
-[<gregtech:gt.180k_NaK_Coolantcell>, <dreamcraft:item.CallistoIcePlate>, <gregtech:gt.180k_NaK_Coolantcell>],
+[<gregtech:gt.180k_NaK_Coolantcell>, <ore:plateColdCallistoIce>, <gregtech:gt.180k_NaK_Coolantcell>],
 [<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
 // -
 recipes.addShaped(<GraviSuite:itemSimpleItem:2>, [
 [<IC2:reactorVentDiamond:1>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorVentDiamond:1>],
-[<gregtech:gt.180k_Helium_Coolantcell>, <dreamcraft:item.CallistoIcePlate>, <gregtech:gt.180k_Helium_Coolantcell>],
+[<gregtech:gt.180k_Helium_Coolantcell>, <ore:plateColdCallistoIce>, <gregtech:gt.180k_Helium_Coolantcell>],
 [<IC2:reactorPlatingHeat>, <IC2:reactorHeatSwitchDiamond:1>, <IC2:reactorPlatingHeat>]]);
 
 // --- Magnetron
@@ -107,17 +104,7 @@ recipes.addShaped(<GraviSuite:ultimateLappack:27>, [
 recipes.addShaped(<GraviSuite:epicLappack:27>, [
 [<dreamcraft:item.IridiumAlloyItemCasing>, <gregtech:gt.metaitem.01:32599>, <dreamcraft:item.IridiumAlloyItemCasing>],
 [<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:*>, <gregtech:gt.metaitem.01:32599>],
-[<ore:circuitUltimate>, <ore:wireGt16Superconductor>, <ore:circuitUltimate>]]);
-
-// --- Relocator
-recipes.addShaped(<GraviSuite:relocator:27>, [
-[<ore:screwOsmium>,<ore:craftingToolScrewdriver>,<ore:screwOsmium>],
-[<ore:plateOsmium>,<DraconicEvolution:teleporterMKII>,<ore:plateOsmium>],
-[<SGCraft:ic2Capacitor>,<gregtech:gt.blockcasings:15>,<SGCraft:ic2Capacitor>]]);
-//recipes.addShaped(<GraviSuite:relocator:27>, [
-//[<gregtech:gt.metaitem.01:32676>, <ore:itemCasingNeutronium>, <gregtech:gt.metaitem.01:32676>],
-//[<ore:circuitUltimate>, <IC2:blockMachine2>, <ore:circuitUltimate>],
-//[<ore:itemCasingNeutronium>, <IC2:itemBatLamaCrystal:*>, <ore:itemCasingNeutronium>]]);
+[<ore:circuitUltimate>, <ore:wireGt16SuperconductorZPM>, <ore:circuitUltimate>]]);
 
 // --- Advanced Chainsaw
 recipes.addShaped(<GraviSuite:advChainsaw:27>, [

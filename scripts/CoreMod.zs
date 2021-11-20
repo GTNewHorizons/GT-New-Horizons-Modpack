@@ -54,8 +54,8 @@ val GreatwoodLog = <Thaumcraft:blockMagicalLog>;
 
 val String = <minecraft:string>;
 
-// --- Removing Recipes ---
 
+// --- Removing Recipes ---
 
 
 // --- Dissenchanter
@@ -70,7 +70,8 @@ recipes.remove(<AdvancedSolarPanel:asp_crafting_items:7>);
 // --- Irradiant Reinforced Iridium Plate
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:8>);
 
-
+// --- Obsidian Tile
+recipes.remove(<Thaumcraft:blockCosmeticSolid:1>);
 
 
 // --- Adding Back Recipes ---
@@ -1017,7 +1018,7 @@ Assembler.addRecipe(<dreamcraft:tile.CompressedGraphite> * 2, <minecraft:stone> 
 Assembler.addRecipe(<dreamcraft:item.BlankPlatedChip>, <RIO:item.chip.location>, <RIO:item.blank_plate>, 100, 480);
 
 // --- Spatial Processor Tier I
-Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorSpatialPulsatingCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.PulsatingSpatialCoreChip>, 100, 30720);
+Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorSpatialPulsatingCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.PulsatingSpatialCoreChip>, 100, 7680);
 
 // --- Fluid Processor Tier I
 Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.DiamondFluidCoreChip>, 100, 1920);
@@ -1230,15 +1231,15 @@ Fermenter.addRecipe(<liquid:fermentedbacterialsludge> * 75, <liquid:enrichedbact
 PrecisionLaser.addRecipe(<dreamcraft:item.EngravedDiamondCrystalChip>, <gregtech:gt.metaitem.01:24500> * 0, <gregtech:gt.metaitem.01:17500> * 4, 400, 1920);
 
 // --- Engraved Energy Chip
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24502> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24502> * 0, <IC2:itemBatCrystal:*>, 600, 4096);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24511> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24511> * 0, <IC2:itemBatCrystal:*>, 600, 4096);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24512> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24512> * 0, <IC2:itemBatCrystal:*>, 600, 4096);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24527> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24527> * 0, <IC2:itemBatCrystal:*>, 600, 4096);
 // -
-PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24541> * 0, <IC2:itemBatCrystal:*>, 600, 4094);
+PrecisionLaser.addRecipe(<dreamcraft:item.EngravedEnergyChip>, <gregtech:gt.metaitem.01:24541> * 0, <IC2:itemBatCrystal:*>, 600, 4096);
 
 // --- Engraved Quantum Chip
 PrecisionLaser.addRecipe(<dreamcraft:item.EngravedQuantumChip>, <gregtech:gt.metaitem.01:24540> * 0, <gregtech:gt.metaitem.02:30528>, 1200, 30720);
@@ -1695,7 +1696,7 @@ mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "ICHOR", false);
 mods.thaumcraft.Research.setConcealed("PORTALDEEPDARK", true);
 mods.thaumcraft.Research.addPage("PORTALDEEPDARK", "ExtraUtilities.research_page.PORTALDEEPDARK");
 game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.");
-mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:cobblestone_compressed:7>, [<gregtech:gt.blockreinforced:12>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 64);
+mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <gregtech:gt.blockreinforced:12>, [<gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 64);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
 mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 64);
 
@@ -1996,7 +1997,7 @@ mods.thaumcraft.Research.addPage("ENDERTANK", "EnderStorage.research_page.ENDERT
 game.setLocalization("EnderStorage.research_page.ENDERTANK", "The Ender Tank offers stationary storage for up to 16 buckets of a single liquid. Like the Ender Chest, it has three wool pads on top which can be manipulated by right-clicking each one with a dye. Tanks with matching colors will share liquids between them, even across dimensions. Additionally, right-clicking the dial with a diamond will set that tank to a private network for that player, change the dial to a diamond color, and show your username in the tooltip. A private Ender Tank will not share any liquids with any public tank, or any private tank from another user, even if the colored pads match.");
 mods.thaumcraft.Arcane.addShaped("ENDERTANK", <EnderStorage:enderChest:4096>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100", [
 [<gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:22801>],
-[<gregtech:gt.metaitem.01:32694>, <BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:32684>],
+[<gregtech:gt.metaitem.01:32694>, <irontank:obsidianTank>, <gregtech:gt.metaitem.01:32684>],
 [<gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:22801>]]);
 mods.thaumcraft.Research.addArcanePage("ENDERTANK", <EnderStorage:enderChest:4096>);
 
@@ -2078,6 +2079,26 @@ mods.thaumcraft.Infusion.addRecipe("SFSWORD", <TwilightForest:item.fierySword>,
 "auram 64, corpus 64, exanimis 64, metallum 64, mortuus 64", <Avaritia:Skull_Sword>, 15);
 mods.thaumcraft.Research.addInfusionPage("SFSWORD", <Avaritia:Skull_Sword>);
 mods.thaumcraft.Warp.addToResearch("SFSWORD", 1);
+
+// --- Obsidian Tile and Totem
+mods.thaumcraft.Research.addResearch("MAGICOBSIDIAN", "NEWHORIZONS", "perditio 8, terra 8", 2, 4, 2, <Thaumcraft:blockCosmeticSolid:0>);
+game.setLocalization("tc.research_name.MAGICOBSIDIAN", "Magical Obsidian Blocks");
+game.setLocalization("tc.research_text.MAGICOBSIDIAN", "Make them instead of finding them");
+mods.thaumcraft.Research.addPrereq("MAGICOBSIDIAN", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("MAGICOBSIDIAN", true);
+mods.thaumcraft.Research.setRound("MAGICOBSIDIAN", false);
+mods.thaumcraft.Research.addPage("MAGICOBSIDIAN", "Thaum.research_page.MAGICOBSIDIAN");
+game.setLocalization("Thaum.research_page.MAGICOBSIDIAN", "Tired of scrounging the world for these to make your BM rituals? Make them instead.");
+mods.thaumcraft.Arcane.addShaped("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1> * 4, "ignis 4, terra 4,", [
+[<minecraft:obsidian>, <minecraft:obsidian>, null],
+[<minecraft:obsidian>, <minecraft:obsidian>, null],
+[null, null, null]]);
+mods.thaumcraft.Research.addArcanePage("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1>);
+mods.thaumcraft.Infusion.addRecipe("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1>,
+[<Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>],
+"perditio 16, tenebrae 16, terra 16", <Thaumcraft:blockCosmeticSolid:0> * 4, 3);
+mods.thaumcraft.Research.addInfusionPage("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:0>);
+mods.thaumcraft.Warp.addToResearch("MAGICOBSIDIAN", 1);
 
 
 // --- Hiding Stuff ----

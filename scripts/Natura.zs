@@ -86,6 +86,8 @@ recipes.remove(<Natura:pressureplate.willow>);
 recipes.remove(<Natura:pressureplate.darkwood>);
 // -
 recipes.remove(<Natura:pressureplate.fusewood>);
+// -
+recipes.remove(<Natura:NetherPressurePlate>);
 
 // --- Trap Door
 recipes.remove(<Natura:trapdoor.eucalyptus>);
@@ -204,9 +206,6 @@ recipes.remove(<Natura:NetherFurnace>);
 
 // --- Obelisk
 recipes.remove(<Natura:Obelisk>);
-
-// --- Netherrack Pressure Plate
-recipes.remove(<Natura:NetherPressurePlate>);
 
 // --- Netherrack Button
 recipes.remove(<Natura:NetherButton>);
@@ -1247,7 +1246,10 @@ recipes.addShaped(<Natura:Obelisk>, [
 [<Natura:tree:2>, <Natura:tree:2>, <Natura:tree:2>]]);
 
 // --- Netherrack Pressure Plate
-recipes.addShapeless(<Natura:NetherPressurePlate> * 2, [Saw, <ForgeMicroblock:microblock:4>.withTag({mat: "chisel:netherrack_7"})]);
+recipes.addShaped(<Natura:NetherPressurePlate> * 2, [
+[<ore:screwIron>, <ore:craftingToolHardHammer>, <ore:screwIron>],
+[<minecraft:netherrack>, <ore:springAnyIron>, <minecraft:netherrack>],
+[<ore:screwIron>, <ore:craftingToolScrewdriver>, <ore:screwIron>]]);
 
 // --- Netherrack Button
 recipes.addShapeless(<Natura:NetherButton> * 2, [Saw, <Natura:NetherPressurePlate>]);
@@ -1758,6 +1760,11 @@ Assembler.addRecipe(<Natura:pressureplate.darkwood> * 2, <Natura:plankSlab2:3> *
 Assembler.addRecipe(<Natura:pressureplate.fusewood> * 2, <Natura:plankSlab2:4> * 2, <gregtech:gt.metaitem.02:24032>, 100, 8);
 // -
 Assembler.addRecipe(<Natura:pressureplate.fusewood> * 2, <Natura:plankSlab2:4> * 2, <gregtech:gt.metaitem.02:24304>, 100, 8);
+
+// --- Netherrack Pressure Plate
+Assembler.addRecipe(<Natura:NetherPressurePlate> * 2, [<minecraft:netherrack> * 2, <gregtech:gt.metaitem.02:24032>, <gregtech:gt.integrated_circuit:9> * 0], null, 100, 8);
+// -
+Assembler.addRecipe(<Natura:NetherPressurePlate> * 2, [<minecraft:netherrack> * 2, <gregtech:gt.metaitem.02:24304>, <gregtech:gt.integrated_circuit:9> * 0], null, 100, 8);
 
 // --- Eucalyptus Button
 CuttingSaw.addRecipe(<Natura:button.eucalyptus> * 2, null, <Natura:pressureplate.eucalyptus>, <liquid:water> * 4, 50, 4);

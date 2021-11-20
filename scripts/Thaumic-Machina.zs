@@ -12,7 +12,12 @@ mods.thaumcraft.Research.removeResearch("@TMTHAUMATURGY");
 // --- Wand Argumentation Core
 mods.thaumcraft.Arcane.removeRecipe(<ThaumicMachina:wandAugmentationCore>);
 
-
+// --- Tainted recipe conflict stuff
+mods.thaumcraft.Research.orphanResearch("@WAND_AUGMENTATION_TAINTED_CORE");
+mods.thaumcraft.Research.removeResearch("@WAND_AUGMENTATION_TAINTED_CORE");
+// -
+mods.thaumcraft.Research.orphanResearch("@WAND_AUGMENTATION_TAINT_CAPPING");
+mods.thaumcraft.Research.removeResearch("@WAND_AUGMENTATION_TAINT_CAPPING");
 
 
 // --- Adding Recipes ---
@@ -84,9 +89,9 @@ mods.thaumcraft.Research.setAspects("@CRIMSON_WAND_AUGMENTATION", "alienis 3, te
 mods.thaumcraft.Research.setComplexity("@CRIMSON_WAND_AUGMENTATION", 3);
 
 // --- Wand Argumentation Tainted Core
-mods.thaumcraft.Research.setAspects("@WAND_AUGMENTATION_TAINTED_CORE", "instrumentum 3, praecantatio 6, perditio 12, vitium 9, tenebrae 15, alienis 18, cognitio 21");
-mods.thaumcraft.Research.setComplexity("@WAND_AUGMENTATION_TAINTED_CORE", 3);
-mods.thaumcraft.Warp.addToResearch("@WAND_AUGMENTATION_TAINTED_CORE", 5);
+//mods.thaumcraft.Research.setAspects("@WAND_AUGMENTATION_TAINTED_CORE", "instrumentum 3, praecantatio 6, perditio 12, vitium 9, tenebrae 15, alienis 18, cognitio 21");
+//mods.thaumcraft.Research.setComplexity("@WAND_AUGMENTATION_TAINTED_CORE", 3);
+//mods.thaumcraft.Warp.addToResearch("@WAND_AUGMENTATION_TAINTED_CORE", 5);
 
 // --- Wand Argumentation Charge Buffer
 mods.thaumcraft.Research.setAspects("@WAND_AUGMENTATION_CHARGE_BUFFER", "instrumentum 3, praecantatio 6, potentia 12, vacuos 9, tenebrae 15, alienis 18");
@@ -102,6 +107,6 @@ mods.thaumcraft.Research.setComplexity("@WAND_AUGMENTATION_CONTACT_DISCHARGE", 3
 mods.thaumcraft.Warp.addToResearch("@WAND_AUGMENTATION_CONTACT_DISCHARGE", 5);
 
 // --- Wand Argumentation Taint Capping
-mods.thaumcraft.Research.setAspects("@WAND_AUGMENTATION_TAINT_CAPPING", "instrumentum 3, praecantatio 6, vitium 9, auram 12, alienis 15, potentia 18, cognitio 21");
-mods.thaumcraft.Research.setComplexity("@WAND_AUGMENTATION_TAINT_CAPPING", 3);
-mods.thaumcraft.Warp.addToResearch("@WAND_AUGMENTATION_TAINT_CAPPING", 5);
+//mods.thaumcraft.Research.setAspects("@WAND_AUGMENTATION_TAINT_CAPPING", "instrumentum 3, praecantatio 6, vitium 9, auram 12, alienis 15, potentia 18, cognitio 21");
+//mods.thaumcraft.Research.setComplexity("@WAND_AUGMENTATION_TAINT_CAPPING", 3);
+//mods.thaumcraft.Warp.addToResearch("@WAND_AUGMENTATION_TAINT_CAPPING", 5);

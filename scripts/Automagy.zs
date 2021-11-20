@@ -95,14 +95,14 @@ mods.thaumcraft.Research.addArcanePage("REDSTONETHEORY", <Automagy:blockHourglas
 mods.thaumcraft.Research.addPage("REDSTONETHEORY", "Automagy.research_page.REDSTONETHEORY.5");
 
 // --- Redcrystal
-mods.thaumcraft.Research.setAspects("REDCRYSTAL", "vitreus 12, gelum 9, praecantatio 6");
+mods.thaumcraft.Research.setAspects("REDCRYSTAL", "machina 2, praecantatio 6, vitreus 12");
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL", 3);
-mods.thaumcraft.Crucible.addRecipe("REDCRYSTAL", <Automagy:blockRedcrystal>, <minecraft:redstone>,"vitreus 5, gelum 5, praecantatio 5");
+mods.thaumcraft.Crucible.addRecipe("REDCRYSTAL", <Automagy:blockRedcrystal> * 9, <minecraft:redstone_block>, "machina 3, praecantatio 9, vitreus 18");
 
 // --- Applified Redcrystal
 mods.thaumcraft.Research.setAspects("REDCRYSTAL", "praecantatio 15, machina 12, potentia 9, vitreus 6, ignis 3");
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL", 3);
-mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalAmp>, "ignis 10", [
+mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalAmp> * 2, "ignis 10", [
 [<Automagy:shardSliver:1>, <Automagy:shardSliver:1>, <Automagy:shardSliver:1>],
 [<Automagy:shardSliver:1>, <Automagy:blockRedcrystal>, <Automagy:shardSliver:1>],
 [<Automagy:shardSliver:1>, <Automagy:shardSliver:1>, <Automagy:shardSliver:1>]]);
@@ -110,15 +110,15 @@ mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalAmp>
 // --- Dense Redcrystal
 mods.thaumcraft.Research.setAspects("REDCRYSTAL", "praecantatio 15, machina 12, potentia 9, vitreus 6, terra 3");
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL", 3);
-mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalDense>, "terra 10", [
-[<Automagy:shardSliver:3>, <Automagy:shardSliver:3>, <Automagy:shardSliver:3>],
-[<Automagy:shardSliver:3>, <Automagy:blockRedcrystal>, <Automagy:shardSliver:3>],
-[<Automagy:shardSliver:3>, <Automagy:shardSliver:3>, <Automagy:shardSliver:3>]]);
+mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalDense> * 2, "terra 10", [
+[<Automagy:blockRedcrystal>, null, <Automagy:blockRedcrystal>],
+[<Automagy:shardSliver:3>, <ore:stickInfusedEarth>, <Automagy:shardSliver:3>],
+[<Automagy:blockRedcrystal>, null, <Automagy:blockRedcrystal>]]);
 
 // --- Dim Redcrystal
 mods.thaumcraft.Research.setAspects("REDCRYSTAL", "praecantatio 15, machina 12, potentia 9, vitreus 6, perditio 3");
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL", 3);
-mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalDim>, "perditio 10", [
+mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_AMP", <Automagy:blockRedcrystalDim> * 2, "perditio 10", [
 [<Automagy:shardSliver:5>, <Automagy:shardSliver:5>, <Automagy:shardSliver:5>],
 [<Automagy:shardSliver:5>, <Automagy:blockRedcrystal>, <Automagy:shardSliver:5>],
 [<Automagy:shardSliver:5>, <Automagy:shardSliver:5>, <Automagy:shardSliver:5>]]);
@@ -231,7 +231,7 @@ mods.thaumcraft.Crucible.addRecipe("REMOTECOMPARATOR", <Automagy:crystalEye>, <m
 // --- Resonating Redcrystal
 mods.thaumcraft.Research.setAspects("REDCRYSTAL_RES", "potentia 15, machina 12, vitreus 9, aer 6, praecantatio 3");
 mods.thaumcraft.Research.setComplexity("REDCRYSTAL_RES", 3);
-mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_RES", <Automagy:blockRedcrystalRes>, "aer 20, ordo 10", [
+mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_RES", <Automagy:blockRedcrystalRes> * 2, "aer 10, ordo 5", [
 [<Automagy:shardSliver>, <appliedenergistics2:item.ItemMultiMaterial:11>, <Automagy:shardSliver>],
 [<appliedenergistics2:item.ItemMultiMaterial:11>, <Automagy:blockRedcrystal>, <appliedenergistics2:item.ItemMultiMaterial:11>],
 [<Automagy:shardSliver>, <appliedenergistics2:item.ItemMultiMaterial:11>, <Automagy:shardSliver>]]);
@@ -245,7 +245,7 @@ mods.thaumcraft.Arcane.addShaped("REDCRYSTAL_MIRRORBOUND", <Automagy:blockRedcry
 [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:ItemResource:10>, <Thaumcraft:blockCosmeticSolid:6>]]);
 
 // --- Wand Focus Crafting
-mods.thaumcraft.Research.setAspects("FOCUSCRAFTING", "fabrico 15, praecantatio 12, intrumentum 9, terra 6, praecantatio 3");
+mods.thaumcraft.Research.setAspects("FOCUSCRAFTING", "fabrico 15, praecantatio 12, instrumentum 9, terra 6");
 mods.thaumcraft.Research.setComplexity("FOCUSCRAFTING", 3);
 mods.thaumcraft.Arcane.addShaped("FOCUSCRAFTING", <Automagy:focusCrafting>, "ordo 50, terra 40, perditio 30, aer 20, aqua 10", [
 [<Thaumcraft:blockCrystal:4>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCrystal:4>],

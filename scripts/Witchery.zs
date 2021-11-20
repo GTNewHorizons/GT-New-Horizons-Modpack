@@ -4,8 +4,7 @@
 
 // --- Importing Stuff ---
 
-
-//import mods.gregtech.BlastFurnace;
+import mods.gregtech.Assembler;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Mixer;
 import mods.gregtech.CuttingSaw;
@@ -121,8 +120,11 @@ recipes.remove(<witchery:ingredient:92>);
 // --- Waystone
 recipes.remove(<witchery:ingredient:12>);
 
+//Ruby slippers
+recipes.remove(<witchery:rubyslippers>); 
 
-
+//Snow Pressure Plate
+recipes.remove(<witchery:snowpressureplate>);
 
 
 // --- Adding Recipes ---
@@ -218,13 +220,26 @@ recipes.addShaped(<witchery:ingredient:49>, [
 // --- Earmuffs
 recipes.addShaped(<witchery:earmuffs>, [
 [<ore:screwThaumium>, <ore:springSteel>, <ore:screwThaumium>],
-[<ore:dyeBlack>, <ore:craftingToolWrench>, <ore:craftingFeather>],
+[<Backpack:tannedLeather>, <ore:craftingToolWrench>, <Backpack:tannedLeather>],
 [<ore:ringThaumium>, <ore:craftingToolScrewdriver>, <ore:ringThaumium>]]);
 
-
+// --- Snow Pressure Plate
+recipes.addShaped(<witchery:snowpressureplate> * 6, [
+[<ore:screwWood>, <ore:craftingToolHardHammer>, <ore:screwWood>],
+[<Railcraft:slab:3>, <ore:springAnyIron>, <Railcraft:slab:3>],
+[<ore:screwWood>, <ore:craftingToolScrewdriver>, <ore:screwWood>]]);
 
 
 // --- Machine Recipes ---
+
+
+// --- Assembler
+
+
+// --- Snow Pressure Plate
+Assembler.addRecipe(<witchery:snowpressureplate> * 2, [<Railcraft:slab:3> * 2, <gregtech:gt.metaitem.02:24032>, <gregtech:gt.integrated_circuit:9> * 0], null, 100, 8);
+// -
+Assembler.addRecipe(<witchery:snowpressureplate> * 2, [<Railcraft:slab:3> * 2, <gregtech:gt.metaitem.02:24304>, <gregtech:gt.integrated_circuit:9> * 0], null, 100, 8);
 
 
 
@@ -359,6 +374,23 @@ mods.thaumcraft.Arcane.addShaped("SPINNINGWHEELW", <witchery:spinningwheel>, "ae
 [<ore:stickStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:stickStainlessSteel>]]);
 mods.thaumcraft.Research.addArcanePage("SPINNINGWHEELW", <witchery:spinningwheel>);
 
+// --- Ruby Slippers
+mods.thaumcraft.Research.addResearch("RUBYSLIPPERS", "WITCHERY", "auram 21, aer 18, fames 15, lucrum 12, vitreus 9, potentia 6, praecantatio 3", 6, -2 as int, 4, <witchery:rubyslippers>);
+game.setLocalization("tc.research_name.RUBYSLIPPERS", "Ruby Slippers");
+game.setLocalization("tc.research_text.RUBYSLIPPERS", "[WI] Welcome home");
+mods.thaumcraft.Research.addPrereq("RUBYSLIPPERS", "BLOODALTAR", false);
+mods.thaumcraft.Research.addPrereq("RUBYSLIPPERS", "SPINNINGWHEELW", false);
+mods.thaumcraft.Research.setConcealed("RUBYSLIPPERS", true);
+mods.thaumcraft.Research.addPage("RUBYSLIPPERS", "Witchery.research_page.RUBYSLIPPERS.1");
+game.setLocalization("Witchery.research_page.RUBYSLIPPERS.1", "Ruby Slippers are worn in the foot slot and have the same durability and protection as leather boots. They can be enchanted like leather boots too. They cannot be dyed.<BR>Once every 30 minutes, if a player is infused, if the player chants *There's no place like home* into the chat or uses the command: *chant there's no place like home<BR> They will be teleported back to their spawn point in the same dimension, this ability costs 40% of the players total infused power (or 60% if the teleport is cross-dimensional).");
+mods.thaumcraft.Research.addPage("RUBYSLIPPERS", "Witchery.research_page.RUBYSLIPPERS.2");
+game.setLocalization("Witchery.research_page.RUBYSLIPPERS.2", "Alternatively, once every 60 seconds the player may drop a Bound Waystone near to themselves and use the above chant to teleport to the location of the waystone (the waystone will be consumed!).<BR> This ability saves the need to draw a circle to use the Rite of Transposition. This ability costs 20% of the players total infused power (or 40% if the teleport is cross-dimensional).<BR>Ruby Slippers will turn invisible when the player is invisible. This is only a visual change, mobs will still react as if normal shoes were worn. Other players however will not be able to see the slippers!");
+mods.thaumcraft.Infusion.addRecipe("RUBYSLIPPERS", <witchery:seepingshoes>, 
+[<witchery:ingredient:80>, <dreamcraft:item.ManyullynCrystal>, <witchery:ingredient:34>, <BloodArsenal:blood_burned_string>, <dreamcraft:item.ManyullynCrystal>, <witchery:ingredient:80>, <dreamcraft:item.ManyullynCrystal>, <BloodArsenal:blood_burned_string>, <witchery:ingredient:34>, <dreamcraft:item.ManyullynCrystal>], 
+"auram 64, aer 64, lucrum 32, potentia 16, praecantatio 16, fames 32", <witchery:rubyslippers>, 5);
+mods.thaumcraft.Research.addInfusionPage("RUBYSLIPPERS", <witchery:rubyslippers>);
+mods.thaumcraft.Warp.addToResearch("RUBYSLIPPERS", 5);
+
 // --- Distillery
 mods.thaumcraft.Research.addResearch("DISTILLERY", "WITCHERY", "metallum 18, motus 15, fabrico 12, instrumentum 9, aqua 6, praecantatio 3", 8, 0, 4, <witchery:distilleryidle>);
 game.setLocalization("tc.research_name.DISTILLERY", "Distillery");
@@ -366,7 +398,7 @@ game.setLocalization("tc.research_text.DISTILLERY", "[WI] Blub...Blub...");
 mods.thaumcraft.Research.addPrereq("DISTILLERY", "SPINNINGWHEELW", false);
 mods.thaumcraft.Research.setConcealed("DISTILLERY", true);
 mods.thaumcraft.Research.addPage("DISTILLERY", "Witchery.research_page.DISTILLERY");
-game.setLocalization("Witchery.research_page.DISTILLERY", "A distillery used by a witch is a construct used for distilling magical ingredients. It is unlike a normal distillery, because it heats itself using energy obtained from a nearby altar, the distillery must be within about 14 (to 16) blocks of an altar to draw power from it, a small icon is shown in the interface if no power is available.One or two ingredients are distilled together and will result in up to four distillates; or resulting materials. A supply of clay jars is also needed to capture the some or all of the distillates.A distillery is crafted using Iron Ingots, Gold Ingots, an Attuned Stone and Clay jars.");
+game.setLocalization("Witchery.research_page.DISTILLERY", "A distillery used by a witch is a construct used for distilling magical ingredients. It is unlike a normal distillery, because it heats itself using energy obtained from a nearby altar, the distillery must be within about 14 (to 16) blocks of an altar to draw power from it, a small icon is shown in the interface if no power is available. One or two ingredients are distilled together and will result in up to four distillates; or resulting materials. A supply of clay jars is also needed to capture the some or all of the distillates. A distillery is crafted using a fair bit of Thaumium, a Cauldron, finely crafted pipes, clay jars, and an Attuned Stone.");
 mods.thaumcraft.Arcane.addShaped("DISTILLERY", <witchery:distilleryidle>, "aer 80, ignis 80, ordo 80, perditio 80, aqua 80", [
 [<witchery:ingredient:27>, <witchery:ingredient:10>, <witchery:ingredient:27>],
 [<ore:pipeSmallStainlessSteel>, <witchery:cauldron>, <ore:pipeSmallStainlessSteel>],
@@ -523,7 +555,7 @@ mods.thaumcraft.Research.setConcealed("WAYSTONE", true);
 mods.thaumcraft.Research.addPage("WAYSTONE", "Witchery.research_page.WAYSTONE");
 game.setLocalization("Witchery.research_page.WAYSTONE", "A waystone is an etched piece of flint that is an important foci for circle magic involving transposition. A waystone can be bound to a specific location using the Rite of Binding described in the book, Witchcraft: Circle Magic.<BR>A bound waystone can also be made by dropping up to eight into a hollow 3x3 circle of Otherwhere runes and waiting.");
 mods.thaumcraft.Infusion.addRecipe("WAYSTONE", <minecraft:flint>, 
-[<witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>], 
-"motus 32, iter 16, praecantatio 24, tenebrae 16", <witchery:ingredient:12>, 5);
+[<witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkotherwhere>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkotherwhere>, <witchery:ingredient:7>], 
+"motus 48, iter 64, praecantatio 24, tenebrae 32, aer 64", <witchery:ingredient:12>, 5);
 mods.thaumcraft.Research.addInfusionPage("WAYSTONE", <witchery:ingredient:12>);
 mods.thaumcraft.Warp.addToResearch("WAYSTONE", 5);

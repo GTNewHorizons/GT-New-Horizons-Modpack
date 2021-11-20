@@ -24,6 +24,8 @@ recipes.remove(<IguanaTweaksTConstruct:sawManyullyn>);
 
 
 // --- Unfired Clay Bucket
+// If you change this recipe, be sure to update gregtech.api.enums.OrePrefixes!
+// bucketClay.mSecondaryMaterial controls what the clay bucket pulverizes into.
 recipes.addShaped(<IguanaTweaksTConstruct:clayBucketUnfired>, [
 [null, null, null],
 [<ore:dustClay>, null, <ore:dustClay>],

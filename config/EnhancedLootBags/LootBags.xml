@@ -272,10 +272,10 @@
         <Loot Identifier="e5d808bb-1e0c-4f3d-b912-a0194ad88c9c" ItemName="minecraft:potion:8201" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="5189894e-be7a-4ed7-aed0-15e1beeac7c3" ItemName="minecraft:potion:8206" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="3" GroupName="Tier 1" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="3" GroupName="ULV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="cookiedropbecauseempty" ItemName="minecraft:cookie" Amount="1" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="4" GroupName="Tier 2 LV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="4" GroupName="Tier 1 LV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="cfec9a8f-65e1-496c-8e34-8008b91fcd37" ItemName="StevesCarts:ModuleComponents:9" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="bc704738-1a22-4d70-b30b-7c93f088bb3d" ItemName="StevesCarts:CartModule:18" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c6a8c7c3-74fb-4e42-b039-a3a9a73dbd44" ItemName="StevesCarts:CartModule:44" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
@@ -384,7 +384,7 @@
         <Loot Identifier="3015ae9e-3c0f-4463-bf01-f066ec54d8b2" ItemName="minecraft:potion:8259" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="df429597-a807-4a0b-954c-327ec603361a" ItemName="minecraft:potion:8265" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="5" GroupName="Tier 3 MV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="5" GroupName="Tier 2 MV" Rarity="1" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="a2547e7a-3aa3-4e16-aadf-6ea21f9f5bc6" ItemName="EnderIO:itemMachinePart" Amount="1" NBTTag="" Chance="60" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="708881dd-a5db-4c07-914c-c9f1745e97c7" ItemName="Forestry:ffarm" Amount="16" NBTTag="{FarmBlock:0}" Chance="20" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c7000d77-9062-48c3-8b48-c1c83c0d7100" ItemName="TConstruct:materials:17" Amount="1" NBTTag="" Chance="40" LimitedDropCount="0" RandomAmount="false"/>
@@ -461,7 +461,7 @@
         <Loot Identifier="6e7e4ed9-913a-426c-9d3a-78475423309d" ItemName="minecraft:potion:8225" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="297a212f-cc6d-4f74-a7c1-ed105813a818" ItemName="minecraft:potion:8270" Amount="2" NBTTag="" Chance="55" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="6" GroupName="Tier 4 HV" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="6" GroupName="Tier 3 HV" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="25b6e4ee-02bc-477f-9006-2d8585e79f0f" ItemName="IC2:blockMachine2:1" Amount="1" NBTTag="" Chance="30" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="c6645158-c9a6-492a-89e9-3e2d962c7074" ItemName="ExtraUtilities:nodeUpgrade:2" Amount="1" NBTTag="" Chance="45" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="689569a3-2f69-44d4-a05c-57e6bc022b96" ItemName="ExtraUtilities:extractor_base" Amount="4" NBTTag="" Chance="50" LimitedDropCount="0" RandomAmount="false"/>
@@ -549,7 +549,7 @@
         <Loot Identifier="73ec4342-9ea8-44eb-b385-f776e29ec814" ItemName="gregtech:gt.metaitem.01:32718" Amount="8" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="f640188b-cb7f-4405-a84e-2975935bf8b2" ItemName="gregtech:gt.metaitem.01:32717" Amount="8" NBTTag="" Chance="45" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="7" GroupName="Tier 5 EV" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="7" GroupName="Tier 4 EV" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:2" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:4" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:6" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
@@ -620,7 +620,7 @@
         <Loot Identifier="210bb829-5fec-4659-87fe-2d05130b47e3" ItemName="gregtech:gt.blockores:907" Amount="48" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="f00578a2-e2a4-4c5c-9754-b6dde5469063" ItemName="gregtech:gt.blockores:901" Amount="32" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
     </LootGroup>
-    <LootGroup GroupMetaID="8" GroupName="Tier 6 IV" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="8" GroupName="Tier 5 IV" Rarity="2" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:2" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:4" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:6" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
@@ -781,7 +781,7 @@
         <Loot Identifier="bfa8a5f4-4139-4597-9089-3b7b39eae299" ItemName="Thaumcraft:WandCasting:84" Amount="1" NBTTag="{cap:&quot;void&quot;,rod:&quot;equivalent&quot;}" Chance="15" LimitedDropCount="1" RandomAmount="false"/>
         <Loot Identifier="2763f2bb-5d2a-460f-80a8-770b4c16bc4b" ItemName="Thaumcraft:BlockJarNodeItem" Amount="1" NBTTag="{nodetype:0,Aspects:[0:{amount:80,key:&quot;instrumentum&quot;}],display:{Lore:[0:&quot;First hand. Not the second hand crap from the questbook&quot;],Name:&quot;Namikon's totally legit Node&quot;},nodemod:0,nodeid:&quot;0:-312:64:54&quot;}" Chance="15" LimitedDropCount="3" RandomAmount="false"/>
         <Loot Identifier="855ab00e-4a15-4041-8800-843ab46e4c0b" ItemName="Thaumcraft:ItemResource:16" Amount="16" NBTTag="" Chance="55" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="8c947669-4bca-4ef2-a7d8-e3d2375c9513" ItemName="dreamcraft:item.ChargedThaumiumWandCap" Amount="2" NBTTag="" Chance="45" LimitedDropCount="2" RandomAmount="false"/>
+        <Loot Identifier="8c947669-4bca-4ef2-a7d8-e3d2375c9513" ItemName="Thaumcraft:WandCap:2" Amount="2" NBTTag="" Chance="45" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="2d51d225-0bd3-4c2a-8251-ed85a00ec3fc" ItemName="Thaumcraft:ItemLeggingsCultistLeaderPlate" Amount="1" NBTTag="" Chance="35" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="dce675d4-d85f-4ab6-89cf-14682cb9f221" ItemName="Thaumcraft:ItemChestplateCultistLeaderPlate" Amount="1" NBTTag="" Chance="35" LimitedDropCount="2" RandomAmount="false"/>
         <Loot Identifier="1079e304-c3b4-4fff-8142-405ae0de9c6a" ItemName="Thaumcraft:ItemHelmetCultistLeaderPlate" Amount="1" NBTTag="" Chance="35" LimitedDropCount="2" RandomAmount="false"/>
@@ -1686,7 +1686,7 @@
     <LootGroup GroupMetaID="40" GroupName="AE Master" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="41" GroupName="Tier 7 LuV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="41" GroupName="Tier 6 LuV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:2" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:4" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:6" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
@@ -1750,7 +1750,7 @@
         <Loot Identifier="d887a442-3a72-4e70-8888-f5353802f18b" ItemName="StevesFactoryManager:BlockMachineManagerName" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="dd7cdf4a-2100-440b-a1ec-429e5b1f4d2f" ItemName="StevesFactoryManager:BlockCableName" Amount="32" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="42" GroupName="Tier 8 ZPM" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="42" GroupName="Tier 7 ZPM" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:2" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:4" Amount="1" NBTTag="" Chance="2" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
         <Loot Identifier="0ef801b1-1b39-4864-973f-4204f2955af8" ItemName="TConstruct:heartCanister:6" Amount="1" NBTTag="" Chance="1" ItemGroup="" LimitedDropCount="10" RandomAmount="false"/>
@@ -1814,13 +1814,13 @@
         <Loot Identifier="d887a442-3a72-4e70-8888-f5353802f18b" ItemName="StevesFactoryManager:BlockMachineManagerName" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="dd7cdf4a-2100-440b-a1ec-429e5b1f4d2f" ItemName="StevesFactoryManager:BlockCableName" Amount="32" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="43" GroupName="Tier 9 UV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="43" GroupName="Tier 8 UV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="44" GroupName="Tier 10 UHV" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="44" GroupName="Tier 9 UHV" Rarity="4" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="45" GroupName="Computer Floppys" Rarity="0" MinItems="1" MaxItems="1" CombineTrashGroup="false">
+    <LootGroup GroupMetaID="45" GroupName="Computer Floppies" Rarity="0" MinItems="1" MaxItems="1" CombineTrashGroup="false">
         <Loot Identifier="5cec0932-72e8-46a8-a34a-fe2c894f56bf" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;plan9k&quot;},oc:color:1,display:{Name:&quot;Plan9k (Operating System)&quot;},oc:lootFactory:&quot;OpenComputers:plan9k&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="8ba52fee-e737-49b0-a38e-183ca8b8cc54" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;SecureOS&quot;},oc:color:1,oc:lootFactory:&quot;opensecurity:SecureOS&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="016a832d-defc-459c-b9ec-7c2801bf4ee5" ItemName="OpenComputers:item:4" Amount="1" NBTTag="{oc:data:{oc:fs.label:&quot;network&quot;},oc:color:10,display:{Name:&quot;Network (Network Stack)&quot;},oc:lootFactory:&quot;OpenComputers:network&quot;}" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>

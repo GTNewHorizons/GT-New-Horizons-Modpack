@@ -456,6 +456,18 @@ recipes.remove(<EnderIO:itemLiquidConduit:1>);
 // --- Ender Fluid Conduit
 recipes.remove(<EnderIO:itemLiquidConduit:2>);
 
+// --- Crystalline Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:3>);
+
+// --- Crystalline Pink Slime Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:4>);
+
+// --- Melodic Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:5>);
+
+// --- Stellar Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:6>);
+
 // --- Item Conduit
 recipes.remove(<EnderIO:itemItemConduit>);
 
@@ -852,15 +864,9 @@ recipes.addShaped(<EnderIO:blockEnderIo>, [
 
 // --- Travel Anchor
 recipes.addShaped(<EnderIO:blockTravelAnchor>, [
-[ESteelPlate, PIPlate, ESteelPlate],
+[ESteelPlate, <OpenBlocks:elevator>, ESteelPlate],
 [PCrystal, MCasing, PCrystal],
 [ESteelPlate, <gregtech:gt.metaitem.01:32670>, ESteelPlate]]);
-
-// --- Telepad Block
-recipes.addShaped(<EnderIO:blockTelePad>, [
-[<dreamcraft:item.StargateShieldingFoil>, FQuartz, <dreamcraft:item.StargateShieldingFoil>],
-[sgLargeCapacitor, <SGCraft:sgCoreCrystal>, sgLargeCapacitor],
-[LuVMotor, LuVFieldGen, LuVMotor]]);
 
 // --- Slice and Splice
 recipes.addShaped(<EnderIO:blockSliceAndSplice>, [
@@ -941,13 +947,13 @@ recipes.addShaped(<EnderIO:blockDarkSteelLadder>, [
 [DarkIronBars, Wrench, DarkIronBars]]);
 
 // --- Powered Light
-recipes.addShaped(<EnderIO:blockElectricLight>, [
+recipes.addShaped(<EnderIO:blockElectricLight> * 8, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, LightBulp, SiliconPlate],
 [Circuit, Capacitor, Circuit]]);
 
 // --- Light
-recipes.addShaped(<EnderIO:blockElectricLight:2>, [
+recipes.addShaped(<EnderIO:blockElectricLight:2> * 16, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, <ProjRed|Illumination:projectred.illumination.lamp>, SiliconPlate],
 [IronPlate, RedAlloyWire, IronPlate]]);
@@ -1111,6 +1117,17 @@ mods.avaritia.ExtremeCrafting.addShaped(<EnderIO:blockCapBank>.withTag({type: "C
 [<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:6>, <ore:plateVibrantAlloy>, <EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:6>, <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})],
 [<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000}), <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000})]]);
 
+//Telepad
+mods.avaritia.ExtremeCrafting.addShaped(<EnderIO:blockTelePad> * 9, [
+[<EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <gregtech:gt.metaitem.01:32676>, <bartworks:BW_GlasBlocks:4>, <ore:plateDenseAmericium>, <ore:plateDenseAmericium>, <ore:plateDenseAmericium>, <bartworks:BW_GlasBlocks:4>, <gregtech:gt.metaitem.01:32676>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <ore:plateDenseStellarAlloy>, <EnderIO:itemPowerConduitEndergy:11>, <bartworks:BW_GlasBlocks:4>, <ore:plateDenseAmericium>, <bartworks:BW_GlasBlocks:4>, <EnderIO:itemPowerConduitEndergy:11>, <ore:plateDenseStellarAlloy>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <bartworks:BW_GlasBlocks:4>, <gregtech:gt.metaitem.01:32607>, <EnderIO:itemPowerConduitEndergy:11>, <EnderIO:itemCoordSelector:*>, <EnderIO:itemPowerConduitEndergy:11>, <gregtech:gt.metaitem.01:32607>, <bartworks:BW_GlasBlocks:4>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <GraviSuite:itemSimpleItem:2>, <EnderIO:itemBasicCapacitor:5>, <EnderIO:itemPowerConduitEndergy:11>, <EnderIO:blockCapBank:3>, <EnderIO:itemPowerConduitEndergy:11>, <EnderIO:itemBasicCapacitor:5>, <GraviSuite:itemSimpleItem:2>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <bartworks:BW_GlasBlocks:4>, <gregtech:gt.metaitem.01:32607>, <EnderIO:itemPowerConduitEndergy:11>, <ore:circuitSuperconductor>, <EnderIO:itemPowerConduitEndergy:11>, <gregtech:gt.metaitem.01:32607>, <bartworks:BW_GlasBlocks:4>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <ore:plateDenseStellarAlloy>, <EnderIO:itemPowerConduitEndergy:11>, <bartworks:BW_GlasBlocks:4>, <ore:plateDenseAmericium>, <bartworks:BW_GlasBlocks:4>, <EnderIO:itemPowerConduitEndergy:11>, <ore:plateDenseStellarAlloy>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <gregtech:gt.metaitem.01:32676>, <bartworks:BW_GlasBlocks:4>, <ore:plateDenseAmericium>, <ore:plateDenseAmericium>, <ore:plateDenseAmericium>, <bartworks:BW_GlasBlocks:4>, <gregtech:gt.metaitem.01:32676>, <EnderIO:itemMachinePart:3>],
+[<EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>, <EnderIO:itemMachinePart:3>]]);
 
 
 
@@ -1210,7 +1227,7 @@ Assembler.addRecipe(<EnderIO:blockElectricLight:1>, <EnderIO:blockElectricLight>
 Assembler.addRecipe(<EnderIO:blockElectricLight:3>, <EnderIO:blockElectricLight:2>, <minecraft:redstone_torch>, 100, 30);
 
 // --- Wireless Powered Light
-Assembler.addRecipe(<EnderIO:blockElectricLight:4>, <EnderIO:blockElectricLight>, EResonator, 200, 256);
+Assembler.addRecipe(<EnderIO:blockElectricLight:4> * 16, <EnderIO:blockElectricLight> * 16, EResonator, 200, 256);
 
 // --- Wireless Powered Light Inverted
 Assembler.addRecipe(<EnderIO:blockElectricLight:5>, <EnderIO:blockElectricLight:4>, <minecraft:redstone_torch>, 200, 256);
@@ -1267,7 +1284,7 @@ Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:6>, <gregtech:gt.blockmachi
 Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:7>, <gregtech:gt.blockmachines:1660>, <gregtech:gt.metaitem.01:17407>, <liquid:molten.epoxid> * 144, 100, 320);
 
 // --- Crystalline Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:8>, <gregtech:gt.blockmachines:1700>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 900);
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:8>, <gregtech:gt.blockmachines:1700>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 960);
 
 // --- Crystalline Pink Slime Energy Conduit
 Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:9>, <gregtech:gt.blockmachines:1720>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 1920);
@@ -1286,6 +1303,18 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:51
 
 // --- Ender Fluid Conduit
 Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5680>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
+
+// --- Crystalline Ender Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:3>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 960);
+
+// --- Crystalline Pink Slime Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:4>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 1920);
+
+// --- Melodic Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:5>, <gregtech:gt.blockmachines:5282>, <gregtech:gt.metaitem.01:17404>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 7680);
+
+// --- Stellar Ender Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:6>, <gregtech:gt.blockmachines:5282>, <gregtech:gt.metaitem.01:17405>, <liquid:molten.polybenzimidazole> * 144, 100, 30720);
 
 // --- Item Conduit
 Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);

@@ -400,7 +400,7 @@ mods.thaumcraft.Research.addArcanePage("OBLIVIONFRAME", <MagicBees:frameOblivion
 mods.thaumcraft.Research.clearPages("MB_Scoop");
 mods.thaumcraft.Research.addPage("MB_Scoop", "tc.research_page.MB_Scoop.1");
 mods.thaumcraft.Arcane.addShaped("MB_Scoop", <MagicBees:item.thaumiumScoop>, "ordo 10, terra 10, aer 10", [
-[<gregtech:gt.metaitem.01:23330>, <minecraft:wool:*>, <gregtech:gt.metaitem.01:23330>],
+[<gregtech:gt.metaitem.01:23330>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:23330>],
 [<gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>, <gregtech:gt.metaitem.01:23330>],
 [<ore:craftingToolWireCutter>, <gregtech:gt.metaitem.01:23330>, <ore:craftingToolHardHammer>]]);
 mods.thaumcraft.Research.addArcanePage("MB_Scoop", <MagicBees:item.thaumiumScoop>);
@@ -411,7 +411,7 @@ mods.thaumcraft.Research.setComplexity("MB_Scoop", 3);
 mods.thaumcraft.Research.clearPages("MB_ScoopVoid");
 mods.thaumcraft.Research.addPage("MB_ScoopVoid", "tc.research_page.MB_ScoopVoid.1");
 mods.thaumcraft.Arcane.addShaped("MB_ScoopVoid", <MagicBees:item.voidScoop>, "ordo 20, terra 20, aer 20", [
-[<gregtech:gt.metaitem.01:23970>, <minecraft:wool:*>, <gregtech:gt.metaitem.01:23970>],
+[<gregtech:gt.metaitem.01:23970>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:23970>],
 [<gregtech:gt.metaitem.01:23970>, <gregtech:gt.metaitem.01:23970>, <gregtech:gt.metaitem.01:23970>],
 [<ore:craftingToolWireCutter>, <gregtech:gt.metaitem.01:23970>, <ore:craftingToolHardHammer>]]);
 mods.thaumcraft.Research.addArcanePage("MB_ScoopVoid", <MagicBees:item.voidScoop>);

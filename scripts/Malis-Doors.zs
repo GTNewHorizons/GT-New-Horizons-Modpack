@@ -313,7 +313,7 @@ recipes.addShaped(<malisisdoors:item.rustyHandle>, [
 [IronRod, IronRing, IronRod]]);
 
 // --- Rusty Ladder
-recipes.addShaped(<malisisdoors:rustyLadder>, [
+recipes.addShaped(<malisisdoors:rustyLadder> * 4, [
 [IronRod, IronRod, IronRod],
 [IronScrew, Wrench, IronScrew],
 [IronRod, IronRod, IronRod]]);
@@ -787,7 +787,7 @@ Assembler.addRecipe(<malisisdoors:rustyHatch>, <gregtech:gt.metaitem.01:17032> *
 Assembler.addRecipe(<malisisdoors:garage_door> * 2, PlasticPlate, SteelRing, 150, 16);
 
 // --- Rusty Ladder
-Assembler.addRecipe(<malisisdoors:rustyLadder>, IronRod * 3, <gregtech:gt.integrated_circuit:3> * 0, 60, 16);
+Assembler.addRecipe(<malisisdoors:rustyLadder> * 2, IronRod * 3, <gregtech:gt.integrated_circuit:5> * 0, null, 60, 30);
 
 // --- Carriage Door
 //Assembler.addRecipe(<malisisdoors:carriage_door>, QuatzBlock * 4, Door * 2, 200, 30);

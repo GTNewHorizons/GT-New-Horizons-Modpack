@@ -41,6 +41,9 @@ recipes.addShaped(<avaritiaddons:ExtremeAutoCrafter>, [
 [<gregtech:gt.metaitem.01:32603>, <Avaritia:Dire_Crafting>, <gregtech:gt.metaitem.01:32603>],
 [<gregtech:gt.metaitem.01:32633>, <ore:circuitElite>, <gregtech:gt.metaitem.01:32633>]]);
 
+// --- Clearing of 9x9 Autocrafting Table
+recipes.addShapeless(<avaritiaddons:ExtremeAutoCrafter>, [<avaritiaddons:ExtremeAutoCrafter:*>, <ore:platePaper>]);
+
 // --- Infinity Chest
 mods.avaritia.ExtremeCrafting.addShaped(<avaritiaddons:InfinityChest>, [
 [<ore:blockCosmicNeutronium>, <Avaritia:Resource>, <Avaritia:Resource>, <Avaritia:Resource>, <ore:blockInfinity>, <Avaritia:Resource>, <Avaritia:Resource>, <Avaritia:Resource>, <ore:blockCosmicNeutronium>],

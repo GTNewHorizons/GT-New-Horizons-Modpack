@@ -457,8 +457,8 @@ mods.thaumcraft.Research.setComplexity("FUNNEL", 3);
 
 // --- Thaumic Restorer
 mods.thaumcraft.Research.addPrereq("REPAIRER", "INFUSION", false);
-mods.thaumcraft.Infusion.addRecipe("REPAIRER", <Thaumcraft:blockCosmeticSolid:4>,
-[<gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17032>, <dreamcraft:item.ReinforcedGlassPlate>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17500>, <dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.metaitem.01:17086>],
+mods.thaumcraft.Infusion.addRecipe("REPAIRER", <gregtech:gt.blockmetal7:4>,
+[<gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17032>, <gregtech:gt.metaitem.01:17602>, <harvestcraft:hardenedleatherItem>, <Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17602>, <gregtech:gt.metaitem.01:17086>],
 "fabrico 32, instrumentum 32, ordo 16, praecantatio 16, potentia 8", <ThaumicTinkerer:repairer>, 8);
 // -
 mods.thaumcraft.Research.setAspects("REPAIRER", "instrumentum 15, fabrico 12, ordo 9, potentia 6, praecantatio 3");

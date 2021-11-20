@@ -13,7 +13,8 @@ import mods.gregtech.ChemicalReactor;
 import mods.gregtech.Pulverizer;
 import mods.nei.NEI;
 import mods.gregtech.Wiremill;
-
+import minetweaker.item.IItemStack;
+import minetweaker.item.IIngredient;
 
 // --- Variables ---
 
@@ -136,7 +137,81 @@ val LuVMotor = <gregtech:gt.metaitem.01:32606>;
 val LuVConveyorbelt = <gregtech:gt.metaitem.01:32635>;
 val LuVRobotarm = <gregtech:gt.metaitem.01:32655>;
 
+var coveredColored = [
+<appliedenergistics2:item.ItemMultiPart:20>,
+<appliedenergistics2:item.ItemMultiPart:21>,
+<appliedenergistics2:item.ItemMultiPart:22>,
+<appliedenergistics2:item.ItemMultiPart:23>,
+<appliedenergistics2:item.ItemMultiPart:24>,
+<appliedenergistics2:item.ItemMultiPart:25>,
+<appliedenergistics2:item.ItemMultiPart:26>,
+<appliedenergistics2:item.ItemMultiPart:27>,
+<appliedenergistics2:item.ItemMultiPart:28>,
+<appliedenergistics2:item.ItemMultiPart:29>,
+<appliedenergistics2:item.ItemMultiPart:30>,
+<appliedenergistics2:item.ItemMultiPart:31>,
+<appliedenergistics2:item.ItemMultiPart:32>,
+<appliedenergistics2:item.ItemMultiPart:33>,
+<appliedenergistics2:item.ItemMultiPart:34>,
+<appliedenergistics2:item.ItemMultiPart:35>]
+as IItemStack[];
 
+var smartColored = [
+<appliedenergistics2:item.ItemMultiPart:40>,
+<appliedenergistics2:item.ItemMultiPart:41>,
+<appliedenergistics2:item.ItemMultiPart:42>,
+<appliedenergistics2:item.ItemMultiPart:43>,
+<appliedenergistics2:item.ItemMultiPart:44>,
+<appliedenergistics2:item.ItemMultiPart:45>,
+<appliedenergistics2:item.ItemMultiPart:46>,
+<appliedenergistics2:item.ItemMultiPart:47>,
+<appliedenergistics2:item.ItemMultiPart:48>,
+<appliedenergistics2:item.ItemMultiPart:49>,
+<appliedenergistics2:item.ItemMultiPart:50>,
+<appliedenergistics2:item.ItemMultiPart:51>,
+<appliedenergistics2:item.ItemMultiPart:52>,
+<appliedenergistics2:item.ItemMultiPart:53>,
+<appliedenergistics2:item.ItemMultiPart:54>,
+<appliedenergistics2:item.ItemMultiPart:55>]
+as IItemStack[];
+
+var denseColored = [
+<appliedenergistics2:item.ItemMultiPart:60>,
+<appliedenergistics2:item.ItemMultiPart:61>,
+<appliedenergistics2:item.ItemMultiPart:62>,
+<appliedenergistics2:item.ItemMultiPart:63>,
+<appliedenergistics2:item.ItemMultiPart:64>,
+<appliedenergistics2:item.ItemMultiPart:65>,
+<appliedenergistics2:item.ItemMultiPart:66>,
+<appliedenergistics2:item.ItemMultiPart:67>,
+<appliedenergistics2:item.ItemMultiPart:68>,
+<appliedenergistics2:item.ItemMultiPart:69>,
+<appliedenergistics2:item.ItemMultiPart:70>,
+<appliedenergistics2:item.ItemMultiPart:71>,
+<appliedenergistics2:item.ItemMultiPart:72>,
+<appliedenergistics2:item.ItemMultiPart:73>,
+<appliedenergistics2:item.ItemMultiPart:74>,
+<appliedenergistics2:item.ItemMultiPart:75>]
+as IItemStack[];
+
+var denseCoveredColored = [
+<appliedenergistics2:item.ItemMultiPart:520>,
+<appliedenergistics2:item.ItemMultiPart:521>,
+<appliedenergistics2:item.ItemMultiPart:522>,
+<appliedenergistics2:item.ItemMultiPart:523>,
+<appliedenergistics2:item.ItemMultiPart:524>,
+<appliedenergistics2:item.ItemMultiPart:525>,
+<appliedenergistics2:item.ItemMultiPart:526>,
+<appliedenergistics2:item.ItemMultiPart:527>,
+<appliedenergistics2:item.ItemMultiPart:528>,
+<appliedenergistics2:item.ItemMultiPart:529>,
+<appliedenergistics2:item.ItemMultiPart:530>,
+<appliedenergistics2:item.ItemMultiPart:531>,
+<appliedenergistics2:item.ItemMultiPart:532>,
+<appliedenergistics2:item.ItemMultiPart:533>,
+<appliedenergistics2:item.ItemMultiPart:534>,
+<appliedenergistics2:item.ItemMultiPart:535>]
+as IItemStack[];
 
 // --- Removing Recipes ---
 mods.appeng.Grinder.removeRecipe(<*>);
@@ -299,7 +374,7 @@ recipes.remove(Pattern);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:25>);
 
 // --- Blank Pattern
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:52>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:52>);
 
 // --- Capacity Card
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:27>);
@@ -447,12 +522,6 @@ recipes.remove(<appliedenergistics2:item.ItemMultiPart:76>);
 
 // --- ME Smart Cable
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
-
-// --- Add Brown Smart Cable Recipe
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:52> * 8, [
-[<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>],
-[<appliedenergistics2:item.ItemMultiPart:56>, <ore:dyeBrown>, <appliedenergistics2:item.ItemMultiPart:56>],
-[<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiPart:56>]]);
 
 
 // --- Cells ---
@@ -838,6 +907,9 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:31>, [<appliede
 // --- Acceleration Card
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:30>, [<appliedenergistics2:item.ItemMultiMaterial:28>, DiamondCircuit, GoldCircuit, FluixCrystal]);
 
+// --- Ore dictionary filter card
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:55>, [<appliedenergistics2:item.ItemMultiMaterial:28>, DiamondCircuit, DiamondCircuit, <gregtech:gt.blockmachines:9255>]);
+
 // --- Wireless Booster
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:42>, [
 [FluixDust, <ore:gemCertusQuartz>, <ore:plateEnderPearl>],
@@ -1160,15 +1232,20 @@ recipes.addShaped(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>, [
 [<ore:gemNetherQuartz>, <ore:stickWood>, <ore:screwTitanium>], 
 [<ore:plateNetherQuartz>, <ore:gemNetherQuartz>, <ore:craftingToolFile>]]);
 
+// --- Turn colored cables back to fluix cables
+for i, covered in coveredColored {
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:36>, [covered]);}
 
+for i, covered in smartColored {
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:56>, [covered]);}
 
+for i, covered in denseColored {
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:76>, [covered]);}
 
-
+for i, covered in denseCoveredColored {
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:536>, [covered]);}
 
 // --- Avaritia Recipes ---
-
-
-
 
 // --- Creative ME Cell
 //mods.avaritia.ExtremeCrafting.addShaped(<appliedenergistics2:item.ItemCreativeStorageCell>, [
@@ -1207,19 +1284,15 @@ mods.avaritia.ExtremeCrafting.addShaped(<appliedenergistics2:tile.BlockCreativeE
 [<ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>]]);
 
 
-
-
 // --- Alloy Smelter Recipes ---
 
 
 // --- Quartz Glass
+
 AlloySmelter.addRecipe(QuartzGlass * 4, <minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4, 400, 16);
 
 
-
 // --- Assembler Recipes ----
-
-
 
 // --- Vibrant Quartz Glass
 Assembler.addRecipe(<appliedenergistics2:tile.BlockQuartzLamp>, QuartzGlass, <minecraft:glowstone_dust> * 8, 200, 30);
@@ -1286,7 +1359,6 @@ Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:163
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1633>, <liquid:molten.styrenebutadienerubber> * 36, 150, 120);
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.silicone> * 36, 150, 120);
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.metaitem.01:1649>, <liquid:molten.styrenebutadienerubber> * 36, 150, 120);
-
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.silicone> * 72, 150, 120);
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 108, 150, 120);
 Assembler.addRecipe(FluixCoveredC, FluixGlassCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.rubber> * 144, 150, 120);
@@ -1297,13 +1369,50 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:76>, FluixCoveredC *
 // --- ME Smart Cable
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56>, FluixCoveredC, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 150, 120);
 
+// --- ME Storage Bus
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:220>, [<ore:chestWood>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiPart:440>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>], null, 200, 120);
 
+// --- ME Import Bus
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:240>, [TitaniumPlate, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:44>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>], null, 200, 120);
 
+// --- ME Export Bus
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:260>, [TitaniumPlate, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, NQuartzPlate * 2, <gregtech:gt.metaitem.01:32640>], null, 200, 120);
+
+// --- ME Terminal
+Assembler.addRecipe(Terminal, [NQuartzRod * 4, QuartziteScrew, Illuminated, GoodCircuit, CertusPlate], null, 400, 120);
+
+// --- ME Crafting Terminal
+Assembler.addRecipe(CraftingTerminal, [Terminal, CertusScrew * 2, SlabCTable, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
+
+// --- ME Processing Terminal
+Assembler.addRecipe(ProcessingTerminal, [CraftingTerminal, LuVConveyorbelt * 2, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, LuVMotor * 2, LuVRobotarm], null, 200, 120);
+
+// --- Interface Terminal
+Assembler.addRecipe(InterfaceTerminal, [Terminal, CertusScrew * 2, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
+
+// --- Conversion Monitor
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:420>, [<appliedenergistics2:item.ItemMultiPart:400>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, NQuartzPlate * 2, <appliedenergistics2:item.ItemMultiMaterial:44>], null, 400, 120);
+
+// --- Pattern Terminal
+Assembler.addRecipe(PatternTerminal, [Terminal, CertusScrew * 2, Pattern, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
+
+// --- Formation Plane
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:320>, [<ore:blockHopper>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, FluixCrystal * 3], null, 200, 120);
+
+// --- Annihilation Plane 
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:300>, [<appliedenergistics2:item.ToolCertusQuartzPickaxe>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:44>, <ore:gemFluix> * 3], null, 200, 120);
+
+// --- P2P Tunnel - ME
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:460>, [TitaniumPlate, CertusScrew * 2, DiamondCircuit, FluixCrystal * 3], null, 360, 120);
+
+// --- ME Storage Monitor
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:400>, [<ore:itemIlluminatedPanel>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiPart:280>, NQuartzPlate * 3], null, 200, 120);
+
+// --- ME Portable Cell
+Assembler.addRecipe(<appliedenergistics2:item.ToolPortableCell>, [<appliedenergistics2:item.ItemBasicStorageCell.1k>, <ore:screwTitanium> * 2, <appliedenergistics2:tile.BlockChest>, <appliedenergistics2:tile.BlockEnergyCell>], null, 200, 120);
 
 
 // --- Autoclave Recipes ---
-
-
 
 
 // --- Charged Certus Quartz
@@ -1314,24 +1423,18 @@ Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:
 Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:molten.void> * 72, 10000, 1000, 24);
 
 
-
 // --- Blast Furnace Recipes ---
-
-
 
 
 // --- Quartz Glass
 BlastFurnace.addRecipe([QuartzGlass * 4], [<minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4], 200, 120, 1000);
 
 
-
-
-
 // --- Centrifuge Recipes ---
 
 
-
 // --- Tiny TNT
+
 Centrifuge.addRecipe([TinyTNT, TinyTNT], ITNT, 0, 600);
 
 
@@ -1347,12 +1450,10 @@ ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, nu
 ChemicalReactor.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> * 3, null, <dreamcraft:item.ChargedCertusQuartzDust> * 3, <gregtech:gt.metaitem.01:2017>, <liquid:ic2distilledwater> * 1000, 700, 30);
 
 
-
 // --- Pulverizer Recipes ---
 
 // --- Fluix Dust
 Pulverizer.addRecipe([FluixDust * 4], <appliedenergistics2:tile.BlockFluix>, [10000], 300, 2);
-
 
 
 // --- Wiremill Recipes ---
@@ -1365,7 +1466,6 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <dreamcraft:ite
 Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23522> * 8, 80, 120);
 // -
 Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 80, 120);
-
 
 
 // --- Hiding Stuff ---

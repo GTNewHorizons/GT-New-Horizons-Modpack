@@ -1,66 +1,155 @@
-#Maximal characters for a tip: 77
+#Tips for the loading screen
+#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
+#
+#Maximal characters for a tip: 77 (more can go out of the screen)
 #The line below, including the "#" are 77 chars
 #Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
+#
 Infinite water sources are disabled
-Got a question? Join our Discord server
+Got a question? Join our Discord server: discord.com/invite/EXshrPV
 Don't give ideas to 0lafe
-Don't feed your machines after midnight
+Don't feed your machines after midnight!
 Make sure you have installed a backup mod
 Material tiers play a role when breaking pipes
 If a machine catches fire, it can explode
-Adding water to an empty but hot Boiler will cause an explosion
-Avoid eldritch obelisks
+Adding water to an empty but hot Boiler will make a loud bang!
+Avoid eldritch obelisks!
 You can bind the quests menu to a key, instead of using the book
 Pam's gardens can be picked up with right-click
 Placing a garden makes it spread
-Water garden can grow on land
+Water gardens can grow on land
 Battlegear slots are convenient for holding weapons
 Taking lava without gloves hurts!
 Watch out, food loses saturation
 Loot Games give helpful rewards
 Using too many translocators can cause TPS lag
-Be sure to check out what you can do with mouse tweaks
-Protect your machines from rain
-Build multiblocks within the same chunk
+Be sure to check out what you can do with Mouse Tweaks
+Protect your machines from rain!
+Build multiblocks within the same chunk!
 You will lose your first piece of aluminium dust in the EBF
-Shift-right click with a wrench makes a fluid pipe input-only
-The bending machine makes plates more efficiently
-Some multiblocks can share walls
-You can not use the front side of machines
-Disable a machine with a soft mallet if it can not finish a recipe
-Forestry worktables are a must!
-Try the midnight theme for the quests menu
-Try the realistic sky resourcepack
-Literally flint and steel
-Tinker's tools can levelup
+Shift-right-clicking with a wrench on a fluid pipe makes it output-only
+The Bending Machine makes plates more efficiently
+Multiblocks can share walls
+You can't use the front side of machines
+Disable a machine with a Soft Mallet if it can not finish a recipe
+Forestry Worktables are a must!
+Try the Midnight Theme for the questbook
+Try the Realistic Sky resourcepack
+Literally flint and steel!
+Tinker's tools can levelup: more modifiers and minig level bonus!
 Farm Glowflowers for glowstone
-Making steel armour? Check out the composite chestplate
+Making steel armour? Check out the Composite Chestplate
 Adventurer's backpack: integrated crafting grid, bed and fluid storage
-Beware of cable power loss
-Machines that get a higher voltage than they can handle explode
+Beware of cable power loss!
+Machines that get a higher Voltage than they can handle go BOOM!
 Loss on uninsulated cables is twice as big as on insulated ones
-Electricity requirement is based solely on the recipe
-Machines draw electricity from its internal buffer first
-Tinker's faucets can pour fluids and also gasses into containers
+Power requirements are based solely on the recipes
+A machine draws electricity from its internal buffer first
+Tinker's faucets can pour fluids and also gasses(!) into containers
 Beware of pollution!
 Found a bug? Report it on GitHub
 Tinker's smeltery does not double ores
-Be sure to check out the wiki
+Be sure to check out the wiki: gtnh.miraheze.org
 Perditio and vanadiumsteel picks and hammers are really fast
 Look for ore chunks
 Nerfs incoming!
 You can plant oreberries on cropsticks
 IC2 Crops can receive bonus environmental statistics based on biome
 Weeds spread to empty crop sticks and destroy other crops
-Use machine hulls or Transvector interfaces to ease machine access
+Use Machine Hulls or Transvector Interfaces to ease machine access
 Steam in pipes or coming out of machines hurts!
 You can apply Fortune to brittle charcoal if using the Charcoal Pile Igniter
 Pay attention to Voltage and Amperage of cables and machines!
 Warp is no fun, got a wither in your base already?
-There are sixteen voltage tiers: from ULV(8V) to MAX(2147483647V)
-Going one voltage tier up, means quadrupling voltage requirements
-Ten first voltage tiers are fully implemented
+There are sixteen Voltage tiers: from ULV(8V) to MAX(2147483647V)
+Going one Voltage tier up, means quadrupling Voltage requirements
+Ten first Voltage tiers are fully implemented
 Shift-click with a GT-Block on a cable/pipe/etc to auto-connect it
 Read the quest book, it explains many mechanics
 You can bookmark items with NEI ("a" by default)
 It's NEI, not JEI. Use it frequently.
+Your pick is not ready
+Put the "Mine" back in Minecraft
+This pack is pushing my mental capacity - thcv
+Noooooooooooooooo! (after cleanroom explosion) - moronwmachinegun
+If it's not too costly - tsutaaja
+Idiots! Do not upgrade your backpack with important stuff inside! - DreamMasterXXL
+It's already quite the list of errands - Chaotick
+F*ck this mod is complicated - LogicFalls
+Blood, sweat, and tiers - Codewarrior0
+No more making any of this irritating sh*t - Chewy
+It's never enough - moronwmachinegun
+this game wants so much stuff... - Mondfaust
+GTNH is basically pain for win - K1ngMX
+RNGesus hates you. - Pao
+This modpack makes me unhappy. But it's the good kind of unhappy. - LogicFalls
+GTNH you never fail to frustrate, but i love you all the same - Elusive Ent
+I've jabbed my screwdriver and my fist into it every way I can think of. - Axiflare
+Useless coins that are actually useful. - Scribit
+If a fluid cell doesn't work, try using a fluid canner
+Use /xu_tps to see if the server's lagging. 20 TPS is normal!
+Use an elevator to get in your Cleanroom, so you won't lose cleanliness!
+If you aren't lucky enough, try enchanting your lootbags with Fortune III!
+You can't enter the Twilight Forest without a Quick And Dirty Portal Generator
+Press T while hovering on an item in NEI to see where it is in your world.
+Using a Circuit Assembler will make circuits cheaper!
+Using a Cleanroom will make circuits even cheaper!
+GT stands for Grind and Tedium
+Don't go out at night! Mobs can have up to 300 HP
+Steam is hot! It will burn Wooden Fluid Pipes
+Don't break rubber trees without a treetap
+Make Muffler Moint Mup (Point up)
+Your EBF won't work if the muffler doesn't point to the sky!
+Eating too many of the same food will make you hate it!
+Remember to check if there are Natura clouds when you launch a rocket!
+Abandon all vanilla knowledge all ye who enter here
+With the power of Duct Tape, I solved all of your maintenance problems!
+When you open a Twilight Portal, you'll get hit by lightning
+#Sometimes it's better to flee than fight some mobs
+Sometimes the best combat strategy is "Nigerundayooo!"
+You can power machines by putting a batteries in their energy slots
+You can charge your jetpack by putting it in the Energy slot of LV machines
+Be prepared to take hours to craft a single machine!
+Oil + Thunder = Fire. Remember to put cobblestone over your oil wells!
+Nuclear Reactor configs give 10x the energy they give in IC2!
+Remember to plant cotton - you'll need a ton of it
+It's aluminIum, not aluminum
+#Sometimes it's better to buy than to craft
+Many ingots can only be smelted in the Electric Blast Furnace
+Use F7 to see spots where mobs can spawn!
+Use F9 to see chunk borders!
+Need seed oil for Forestry? Plant some peanuts
+Microcrafting is love, microcrafting is life
+Meta-Tip! You can see the list of loading screen tips in the config
+Hahahaha, coin quests go brrrrrrr
+If you're making a Project Red system, make sure to use a wall of drawers!
+How many circuits have you crafted in your life?
+JOURNEYMAP: PRESS[j]
+Not by Vazkii
+sqrt(-1) loves you!
+(MultiMC > Curse) && (Technic > Curse): true
+All you had to do was tho follow the damn quest line, CJ!
+Click on an item in the quest book to show its recipe in NEI
+Why not visit GregTech? We have... microcrafting
+Cables are | || || |_ y
+Varying foods gives hearts!
+You can change InGame Info XML scale in ingame configs
+Look for sulfur in the Nether
+Game mechanics datasheet: bit.ly/gtnh-datasheets
+If it's too tedious you're doing it wrong
+Do you also watch your oven while baking food?
+There's always something else you can do while waiting
+Use F3 + S to reload the sound if it's gone
+Life's all about opening issues, not closing them - Rongmario
+Batteries can be charged and discharged in the same slot
+3D-printed Lave 12 is the future - Sampsa
+Don't hold machines in your hotbar when playing with cables
+Was making HV connection. Missclicked and placed MV engraver - Lewissaber
+Destroyed once a Tier 1 rocket by accidentally pressing shift - Regian
+Visit r/feedthememes!
+I WANT ROCKET I WANT MOON - St4o
+Shift + Right Click on a GregTech Cover to open the menu
+Looking for Infused Stones? Try putting Amber in an Ore Finder Wand
+Remove plates from machines using a crowbar
+To divide items with a ratio, use the Distributor. Configure with a screwdriver
+UwU

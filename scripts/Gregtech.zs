@@ -93,20 +93,8 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2881>);
 // --- Netherstar Dust
 recipes.removeShapeless(<gregtech:gt.metaitem.01:2506>);
 
-// --- GT Shovels
-recipes.removeShapeless(<gregtech:gt.metatool.01:4>);
-
 // --- Eridium Neutron Reflector
 recipes.remove(<gregtech:gt.neutronreflector>);
-
-// --- Thorium Fuel Rod
-recipes.remove(<gregtech:gt.Thoriumcell>);
-
-// --- Double Thorium Fuel Rod
-recipes.remove(<gregtech:gt.Double_Thoriumcell>);
-
-// --- Quad Thorium Fuel Rod
-recipes.remove(<gregtech:gt.Quad_Thoriumcell>);
 
 // --- 60k Helium Cooling Cell
 recipes.remove(<gregtech:gt.60k_Helium_Coolantcell>);
@@ -396,11 +384,6 @@ recipes.removeShapeless(<gregtech:gt.metaitem.01:2536> * 9, [<gregtech:gt.blockg
 // --- Teleporter
 recipes.remove(<gregtech:gt.blockmachines:1145>);
 
-// --- Niobtitaninum Dust handcraft
-recipes.removeShapeless(<gregtech:gt.metaitem.01:1360>);
-
-// --- Tungstencarbide Dust handcraft
-recipes.removeShapeless(<gregtech:gt.metaitem.01:1370>);
 
 
 
@@ -814,25 +797,10 @@ Assembler.addRecipe(<gregtech:gt.blockmachines:23>, <IC2:blockElectric:5>, <greg
 Assembler.addRecipe(<gregtech:gt.blockmachines:24>, <IC2:blockElectric:6>, <gregtech:gt.blockmachines:1587> * 2, 100, 1920);
 
 // --- Iridium Neutron Reflector
-Assembler.addRecipe(<gregtech:gt.neutronreflector>, <dreamcraft:item.NeutronReflectorParts>, <IC2:itemPartIridium>, 1200, 256);
-
-// --- Double Thorium Fuel Rod
-Assembler.addRecipe(<gregtech:gt.Double_Thoriumcell>, <gregtech:gt.Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
-
-// --- Quad Thorium Fuel Rod
-Assembler.addRecipe(<gregtech:gt.Quad_Thoriumcell>, <gregtech:gt.Double_Thoriumcell> * 2, <gregtech:gt.metaitem.01:23305> * 4, 200, 30);
-// -
-Assembler.addRecipe(<gregtech:gt.Quad_Thoriumcell>, <gregtech:gt.Thoriumcell> * 4, <gregtech:gt.metaitem.02:22305> * 6, 300, 30);
+Assembler.addRecipe(<gregtech:gt.neutronreflector>, <dreamcraft:item.NeutronReflectorParts> * 8, <IC2:itemPartIridium>, 1200, 256);
 
 // --- RTG Pellets
 Assembler.addRecipe(<IC2:itemRTGPellet>, <gregtech:gt.metaitem.01:22032> * 6, <IC2:itemPlutonium> * 3, <liquid:ic2coolant> * 1000, 1200, 120);
-
-// --- Shutter Module
-Assembler.addRecipe(shutterModule * 2, plateIron * 2, <minecraft:iron_door> * 1, 1000, 16);
-// -
-Assembler.addRecipe(shutterModule * 2, plateAluminium * 2, <minecraft:iron_door> * 1, 1000, 16);
-// -
-Assembler.addRecipe(shutterModule * 2, plateWroughtIron * 2, <minecraft:iron_door> * 1, 1000, 16);
 
 
 
@@ -879,36 +847,35 @@ Autoclave.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <l
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <liquid:ic2distilledwater> * 100, 9000, 1500, 30);
 // -
-Autoclave.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2541>, <liquid:molten.void> * 36, 10000, 1000, 30);
+Autoclave.addRecipe(<Thaumcraft:ItemShard:1>, <gregtech:gt.metaitem.01:2541>, <liquid:molten.void> * 36, 10000, 1000, 30);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, <liquid:water> * 200, 8000, 2000, 30);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, <liquid:ic2distilledwater> * 100, 9000, 1500, 30);
 // -
-Autoclave.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2543>, <liquid:molten.void> * 36, 10000, 1000, 30);
+Autoclave.addRecipe(<Thaumcraft:ItemShard:2>, <gregtech:gt.metaitem.01:2543>, <liquid:molten.void> * 36, 10000, 1000, 30);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <liquid:water> * 200, 8000, 2000, 30);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <liquid:ic2distilledwater> * 100, 9000, 1500, 30);
 // -
-Autoclave.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2542>, <liquid:molten.void> * 36, 10000, 1000, 30);
+Autoclave.addRecipe(<Thaumcraft:ItemShard:3>, <gregtech:gt.metaitem.01:2542>, <liquid:molten.void> * 36, 10000, 1000, 30);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <liquid:water> * 200, 8000, 2000, 30);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <liquid:ic2distilledwater> * 100, 9000, 1500, 30);
 // -
-Autoclave.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2545>, <liquid:molten.void> * 36, 10000, 1000, 30);
+Autoclave.addRecipe(<Thaumcraft:ItemShard:4>, <gregtech:gt.metaitem.01:2545>, <liquid:molten.void> * 36, 10000, 1000, 30);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <liquid:water> * 200, 8000, 2000, 30);
 // -
 Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <liquid:ic2distilledwater> * 100, 9000, 1500, 30);
 // -
-Autoclave.addRecipe(<Thaumcraft:ItemShard>, <gregtech:gt.metaitem.01:2544>, <liquid:molten.void> * 36, 10000, 1000, 30);
+Autoclave.addRecipe(<Thaumcraft:ItemShard:5>, <gregtech:gt.metaitem.01:2544>, <liquid:molten.void> * 36, 10000, 1000, 30);
 
 
 
 // --- Blast Furnace Recipes ---
-
 
 
 // --- Graphene
@@ -918,25 +885,14 @@ BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:2819>], [<gregtech:gt.metaitem.
 
 
 
-
-
-
 // --- Canner Recipes ---
-
-
-
-
-// --- Thorium Fuel Rod
-Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:gt.metaitem.01:2096> * 3);
-
 
 
 
 // --- Centrifuge Recipes ---
 
 
-// --- Flint Dust
-Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2802> * 8],  null, <minecraft:gravel> * 16, null, null, [10000], 50, 1920);
+
 
 // --- Re-add Cadmium Centrifuge recipe
 Centrifuge.addRecipe([<gregtech:gt.metaitem.01:1067>, <gregtech:gt.metaitem.01:1045>, <gregtech:gt.metaitem.01:1064>, <gregtech:gt.metaitem.01:1065>, <gregtech:gt.metaitem.01:1055>, <gregtech:gt.metaitem.01:1062>], null, <gregtech:gt.metaitem.01:2891>, null, null, [2500, 2500, 2500, 2500, 2500, 2500], 64, 20);
@@ -1123,22 +1079,6 @@ ForgeHammer.addRecipe(<gregtech:gt.metaitem.01:1890>, <gregtech:gt.metaitem.02:2
 // --- Forming Press Recipes
 
 
-
-
-// --- Helm Mold
-FormingPress.addRecipe(<dreamcraft:item.MoldHelmet>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.MoldHelmet> * 0, 200, 256);
-
-// --- Chestplate Mold
-FormingPress.addRecipe(<dreamcraft:item.MoldChestplate>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.MoldChestplate> * 0, 200, 256);
-
-// --- Leggings Mold
-FormingPress.addRecipe(<dreamcraft:item.MoldLeggings>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.MoldLeggings> * 0, 200, 256);
-
-// --- Boots Mold
-FormingPress.addRecipe(<dreamcraft:item.MoldBoots>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.MoldBoots> * 0, 200, 256);
-
-// --- Extruder Shape Boat
-FormingPress.addRecipe(<dreamcraft:item.ExtruderShapeBoat>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.ExtruderShapeBoat> * 0, 200, 256);
 
 // --- Blank Coin
 FormingPress.addRecipe(<dreamcraft:item.CoinBlank>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:32304> * 0, 200, 30);
@@ -1790,6 +1730,10 @@ oreDict.combUhv.add(<gregtech:gt.comb:118>);
 comb.add(<gregtech:gt.comb:119>);
 oreDict.combUev.add(<gregtech:gt.comb:119>);
 
+// --- Add Tooltips
+
+<gregtech:gt.blockmachines:1157>.addTooltip(format.aqua("May you have all the black gold you want, RIP Cerulean"));
+
 // --- Dyes conversion
 
 for GT_Dye, oreDye in {
@@ -1812,3 +1756,7 @@ for GT_Dye, oreDye in {
 } as IIngredient[IItemStack] {
   recipes.addShapeless(GT_Dye, [oreDye]);
 }
+
+// --- blueprint conversion
+recipes.addShapeless(<structurelib:item.structurelib.constructableTrigger>, [<ore:dyeBlue>, <ore:platePaper>, <ore:dyeBlue>, <ore:dyeWhite>,]);
+recipes.addShapeless(<tectech:item.em.constructable>, [<structurelib:item.structurelib.constructableTrigger>]);

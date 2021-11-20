@@ -132,6 +132,9 @@ recipes.remove(<extracells:part.base:1>);
 // --- ME Fluid Storage Bus
 recipes.remove(<extracells:part.base:2>);
 
+// -- ME Ore Dictionary Bus
+recipes.remove(<extracells:part.base:12>);
+
 // --- ME Fluid Terminal
 recipes.remove(<extracells:part.base:3>);
 
