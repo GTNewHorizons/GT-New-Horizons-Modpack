@@ -35,10 +35,10 @@ body:
   id: thermos
   attributes:
     label: Type of Server
-    description: The brand of your server. Please note your server brand being listed here does not mean it is supported.
+    description: The brand of your server. Please note your server brand being listed here does not mean it is supported. Here Open To LAN means you started the world without any dedicated server software and clicked the Open To LAN button in ESC menu.
     options:
     - Single Player
-    - Multiplayer LAN
+    - Open To LAN
     - Vanilla Forge
     - Crucible
     - Thermos
