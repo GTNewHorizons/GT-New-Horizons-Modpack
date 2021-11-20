@@ -133,7 +133,7 @@ Discord: https://discord.gg/3D897y4<BR>
 http://jesus2xs.com/<BR>
  
 Modded Minecraft Club North American Proxy (open)<BR>
-(same as the Falkenstein above)<BR>
+(same server as above)<BR>
 gtnh-na.moddedminecraft.club<BR>
 
 Fully Toasted GTNH Server CA (whitelist)<BR>
