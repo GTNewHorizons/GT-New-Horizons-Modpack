@@ -44,6 +44,7 @@ Instructions on installing can be found at https://gtnh.miraheze.org/wiki/Instal
 - moronwmachinegun - controller on the front, maintenance in the back? World's worst haircut - gregullet
 - Axiflare - I've jabbed my screwdriver and my fist into it every way I can think of.
 - Scribit - Useless coins that are actually useful.
+- StevensMelon - i really hate this pack why wont i stop playing it. wanT  to go back to omifactory where everything was simpler 😭
 
 ## What does this pack have to offer?
 
