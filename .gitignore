@@ -22,7 +22,7 @@
 config/AE2Stuff/
 config/AppliedEnergistics2/*
 config/biomesoplenty/*
-config/BloodMagic/
+config/BloodMagic/schematics
 config/books/
 config/buildcraft/*
 config/cofh/*
@@ -189,3 +189,4 @@ resources/mainmenu/textures/bg3.png
 resources/mainmenu/textures/btn.png
 resources/mainmenu/textures/logo.png
 resources/mainmenu/textures/logo1.png
+resources/
