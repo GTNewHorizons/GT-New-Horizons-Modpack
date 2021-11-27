@@ -6,11 +6,14 @@ Version 2.1.1.4 dev is out 19.10.2021
 
 ## What is GT New Horizons?
 
-You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR>
+You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.
+
 Over 6 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with a custom reward system, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
  
-The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR>
-To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression. <BR>
+The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.
+
+To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression.
+
 Starting in the stone age you will barely be able to survive until you get your first steam machines and, eventually, reach electricity. Later on, you will have to visit other planets and dimensions to gather important resources and fight mighty bosses to channel their magical power.
 
 If you are a fan of expert mode packs and want to take it to the next level this pack will be your friend!
@@ -41,7 +44,7 @@ Instructions on installing can be found at https://gtnh.miraheze.org/wiki/Instal
 - moronwmachinegun - controller on the front, maintenance in the back? World's worst haircut - gregullet
 - Axiflare - I've jabbed my screwdriver and my fist into it every way I can think of.
 - Scribit - Useless coins that are actually useful.
-
+- StevensMelon - i really hate this pack why wont i stop playing it. wanT  to go back to omifactory where everything was simpler 😭
 
 ## What does this pack have to offer?
 
@@ -114,58 +117,59 @@ eta.gtnewhorizons.com<BR>
 
 Official EU Test Server Private (whitelist)<BR>
 zeta.gtnewhorizons.com<BR>
- 
 
- ## US/Canada Servers:<BR>
+Modded Minecraft Club Falkenstein, Germany (open)<BR>
+https://www.moddedminecraft.club/<BR>
+gtnh.moddedminecraft.club (Teleport enabled)<BR>
+gtnh-im.moddedminecraft.club (Ironman, no teleport)<BR>
+
+## US/Canada Servers:<BR>
 
 Prospercraft (greylist)<BR>
 http://www.prospercraft.com/<BR>
 newhorizonsold.prospercraft.com<BR>
 newhorizons.prospercraft.com<BR>
 
-Boqqed up  (whitelist)<BR>
+Boqqed up (whitelist)<BR>
 Discord: https://discord.gg/3D897y4<BR>
 http://jesus2xs.com/<BR>
+ 
+Modded Minecraft Club North American Proxy (open)<BR>
+(same server as above)<BR>
+gtnh-na.moddedminecraft.club (Teleport enabled)<BR>
+gtnh-im-na.moddedminecraft.club (Ironman, no teleport)<BR>
 
-Fully Toasted GTNH Server CA(whitelist)
-https://fullytoasted.world/
-gtnh.toastedpack.world
-
-Modded Minecraft Club Montreal CA (open) 
-https://www.moddedminecraft.club/
-gtnh.moddedminecraft.club
-
-Stone Huts EU Server (whitelist)
-IP: gtnh.stonehuts.net
-http://stonehuts.net
+Stone Huts EU Server (whitelist)<BR>
+IP: gtnh.stonehuts.net<BR>
+http://stonehuts.net<BR>
 
 ## German Server:<BR>
 
-MyFTB Public (no whitelist)<BR>
+MyFTB Public (open)<BR>
 https://myftb.de/<BR>
 gtnewhorizons.myftb.de<BR>
 
 
 ## Russian Server:<BR>
 
-Wabulabudaba GTNH Server Russia
+Wabulabudaba GTNH Server Russia<BR>
 94.23.17.222:25565
 
-Hitechmine.ru  GTNG Server Russia
+Hitechmine.ru  GTNG Server Russia<BR>
 hitechmine.ru:25565
 
-Zvezdolet New fresh Russian server Whitelisted
+Zvezdolet New fresh Russian server Whitelisted<BR>
 IP: gtnh.114-7.com
 
 
 ## Official Links
 
+MultiMC Downloads: http://downloads.gtnewhorizons.com/Multi_mc_downloads/<BR>
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387<BR>
 FTB Launcher Code: GTNH<BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons<BR>
 Discord Link: https://discord.com/invite/EXshrPV<BR>
 Forum Link: http://gtnewhorizons.com/<BR>
-
 
 ## Resource Realistic Sky GT New Horizons
 A resource pack created by MajaProduction that needs Optifine installed, you can find it in your resource folder<BR>
@@ -403,4 +407,4 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 
 ---
 
-Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT , Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe, Teirdalin, Prometheus, KiloJoel, Glease, Kiwi, Bot, LeaGris, Boubou, Glowredman, Repo, DvDManDT, Moller and many more.
+Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT, Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe, Teirdalin, Prometheus, KiloJoel, Glease, Kiwi, Bot, LeaGris, Boubou, Glowredman, Repo, DvDManDT, Moller and many more.
