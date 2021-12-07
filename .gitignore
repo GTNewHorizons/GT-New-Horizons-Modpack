@@ -159,6 +159,7 @@ config/hqm/*
 *.sh
 *.ser
 *.lnk
+.idea
 
 ######################################
 ## Remove MAC OSX generated garbage
