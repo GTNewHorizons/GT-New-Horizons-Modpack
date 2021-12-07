@@ -1816,12 +1816,3 @@ mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar_Void");
 
 // --- Tab Removal
 mods.thaumcraft.Research.removeTab("RAILCRAFT");
-
-
-
-
-// --- Stcksize
-
-
-// --- Firestone
-<Railcraft:firestone.raw>.maxStackSize=9;
