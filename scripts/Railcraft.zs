@@ -46,7 +46,6 @@ val IronIngot = <ore:ingotIron>;
 val RedDye = <ore:dyeRed>;
 val HPBoiler = <gregtech:gt.blockmachines:101>;
 val HPBoilerTank = <Railcraft:machine.beta:4>;
-val IronTankGauge = <Railcraft:machine.beta:1>;
 val SteelMCasing = <gregtech:gt.blockcasings2>;
 val ObsidianBlock = <ore:stoneObsidian>;
 
@@ -105,7 +104,6 @@ val WoodSlab = <ore:slabWood>;
 val TNT = <minecraft:tnt>;
 val Leather =  <ore:itemLeather>;
 val Brick = <minecraft:brick>;
-val Tank = <Railcraft:machine.beta>;
 val Crowbar = <Railcraft:tool.crowbar>;
 val RedstoneBlock = <ore:blockRedstone>;
 
