@@ -104,6 +104,7 @@ val WoodSlab = <ore:slabWood>;
 val TNT = <minecraft:tnt>;
 val Leather =  <ore:itemLeather>;
 val Brick = <minecraft:brick>;
+val Tank = <Railcraft:machine.beta>;
 val Crowbar = <Railcraft:tool.crowbar>;
 val RedstoneBlock = <ore:blockRedstone>;
 
