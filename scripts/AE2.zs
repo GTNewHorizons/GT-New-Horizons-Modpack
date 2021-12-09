@@ -213,9 +213,6 @@ var denseCoveredColored = [
 <appliedenergistics2:item.ItemMultiPart:535>]
 as IItemStack[];
 
-// --- Removing Recipes ---
-mods.appeng.Grinder.removeRecipe(<*>);
-
 // --- Blocks ---
 
 

@@ -306,7 +306,7 @@ gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! 
 
 # Quest.76 - §6§lTime to Get Some Steel
 gtnh.quest76.name=§6§lTime to Get Some Steel
-gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...%n%n§3If you are short on Stone Dust, you can get more by macerating cobblestone.%n%n§4You'll need 432 unfired clay brick, 432 brick, 108 clay and brick dust, 216 compressed fireclay, and 216 firebrick. Collect all the required materials for these first, or you'll have to do it again. Also, don't make the firebrick blocks until you collect all the gypsum you need unless you want to be forced to get more.
+gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...%n%n§3If you are short on Stone Dust, you can get more by macerating cobblestone.%n%nIf you spawn near a biome with Hardened Clay you can macerate it to get the clay dust you need. You can also use brick blocks from Villages to get brick dust in the macerator.%n%nCrafting the WorkTable from Forestry can make it easier as you can use all the buckets for crafting in one click%n%n§4You'll need 432 unfired clay brick, 432 brick, 108 clay and brick dust, 216 compressed fireclay, and 216 firebrick. Collect all the required materials for these first, or you'll have to do it again. Also, don't make the firebrick blocks until you collect all the gypsum you need unless you want to be forced to get more.
 
 # Quest.77 - §r§6§l§5§l§o§l§r§6§lEBF-Time
 gtnh.quest77.name=§r§6§l§5§l§o§l§r§6§lEBF-Time
@@ -2134,11 +2134,11 @@ gtnh.quest532.desc=You've probably collected a ton of creosote and have little t
 
 # Quest.533 - §4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
 gtnh.quest533.name=§4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
-gtnh.quest533.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.%n%nGas turbines produce half the pollution of combusion generators, but their fuels are generally not as efficient. The choice is up to you which power source you use.
+gtnh.quest533.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.%n%nGas turbines produce the same pollution as combusion generators, but their fuels are generally not as efficient. The choice is up to you which power source you use.
 
 # Quest.534 - §4§3§lPollution What....?
 gtnh.quest534.name=§4§3§lPollution What....?
-gtnh.quest534.desc=If you are running your bricked blast furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, I will trade you a complete hazmat suit.%n%n§4PS: pollution is disabled, ignore this.
+gtnh.quest534.desc=If you are running your bricked blast furnace for a long time you will sometimes get headaches, nausea and other weird effects. Yes this is pollution... from making so much steel. If you can collect some rubber sheets, I will trade you a complete hazmat suit.
 
 # Quest.535 - §1§2§lRedstone, Early Game Processing
 gtnh.quest535.name=§1§2§lRedstone, Early Game Processing
@@ -2186,7 +2186,7 @@ gtnh.quest545.desc=I hope you're not thinking about what I'm thinking you're thi
 
 # Quest.546 - §5§lHello Baron, How's Your Black Gold Today?
 gtnh.quest546.name=§5§lHello Baron, How's Your Black Gold Today?
-gtnh.quest546.desc=During your travels you may have seen some huge oil spouts. Now's the time to make a pump and go collect this black gold into tanks. Oil can be burned directly in a combustion generator (onsite to power the pump, perhaps?) or be refined for better fuels and crafting materials. %n%nBring a generator or battery buffer (with full batteries obviously) with you to power the pump. Thanks to the advancement of technology the pump can auto output on top. Stacking multiple pumps makes them work faster. In that case, oil has to be removed from the bottom of the stack using a pump cover or other means like a conduit.%n%nTaller spouts have more oil. But for the LV pump, it's better to use the short spouts if possible since it doesn't have enough range to fully collect the larger ones in the horizontal range. Save the taller spouts for MV or HV pumps. %n%nMining pipes are needed for pumping the oil, same as the auto miner. When it hits the bottom (or something in the way), if there's no fluid left to collect, it will start retracting the pipes. Same thing if you disable it with a soft mallet. You can also change the range with a screwdriver if there's a reason to do that, like collecting lava in a limited area faster.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on all sides. And set a waypoint with Journeymaps so you don't forget where you placed it!%n%n§3Once you run out of surface oil, you'll want to turn to:%n1) Oilsands ore, though this is better suited for making heavy oil%n2) Making oil from logs in a pyro%n4) Ridiculous bio vat nonsense%n5) Crops%n6) Bees%n7) The real answer, which is Underground or UG oil. Dims generally have a couple fluids that can be accessed with a multiblock version of the pump, available in MV+. Go read the quest for it when it's available for details
+gtnh.quest546.desc=During your travels you may have seen some huge oil spouts. Now's the time to make a pump and go collect this black gold into tanks. Oil can be burned directly in a combustion generator (onsite to power the pump, perhaps?) or be refined for better fuels and crafting materials. %n%nBring a generator or battery buffer (with full batteries obviously) with you to power the pump. Thanks to the advancement of technology the pump can auto output on top. Stacking multiple pumps makes them work faster. In that case, oil has to be removed from the bottom of the stack using a pump cover or other means like a conduit.%n%nTaller spouts have more oil. But for the LV pump, it's better to use the short spouts if possible since it doesn't have enough range to fully collect the larger ones in the horizontal range. Save the taller spouts for MV or HV pumps.%n%nMining pipes are needed for pumping the oil, same as the auto miner. When it hits the bottom (or something in the way), if there's no fluid left to collect, it will start retracting the pipes. Same thing if you disable it with a soft mallet. You can also change the range with a screwdriver if there's a reason to do that, like collecting lava in a limited area faster.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on all sides. And set a waypoint with Journeymaps so you don't forget where you placed it!%n%n§3Once you run out of surface oil, you'll want to turn to:%n1) Oilsands ore, though this is better suited for making heavy oil%n2) Making oil from logs in a pyro%n4) Ridiculous bio vat nonsense%n5) Crops%n6) Bees%n7) The real answer, which is Underground or UG oil. Dims generally have a couple fluids that can be accessed with a multiblock version of the pump, available in MV+. Go read the quest for it when it's available for details
 
 # Quest.547 - §5§lYour Oil is Too Crude? Refine it!
 gtnh.quest547.name=§5§lYour Oil is Too Crude? Refine it!
@@ -2442,7 +2442,7 @@ gtnh.quest609.desc=Mixing antimony and lead in the alloy smelter will give you b
 
 # Quest.610 - Lead, Galena, Silver and Cryolite
 gtnh.quest610.name=Lead, Galena, Silver and Cryolite
-gtnh.quest610.desc=You can't find Lead in the Overworld or the Nether. So it's time to explore the mysterious Twilight Forest a bit and find the Galena vein at Y 5-40.%n%nYou can get Lead, Silver, Cryolite for Aluminium production and Galena (more lead) in the vein.%n%n§3There's some Silver in small ores in the OW and Nether, but this is a better source.
+gtnh.quest610.desc=You can't find Lead in the Overworld or the Nether. So it's time to explore the mysterious Twilight Forest a bit and find a Galena vein at Y 5-40.%n%nYou can get Lead, Silver, Cryolite for Aluminium production and Galena (more lead) in the vein.%n%n§3There's some Silver in small ores in the OW and Nether, but this is a better source.
 
 # Quest.611 - §5§lSingle Use Battery: Mercury
 gtnh.quest611.name=§5§lSingle Use Battery: Mercury
@@ -3030,7 +3030,7 @@ gtnh.quest756.desc=When you reach MV tier you can make your own duct tape in cas
 
 # Quest.757 - §6§f§6§lRuby Electrolyzing
 gtnh.quest757.name=§6§f§6§lRuby Electrolyzing
-gtnh.quest757.desc=Ruby is a good source for chrome and a little aluminium. Once you get low on Ruby, you can centrifuge Redstone to get more.%n%nAnother good source of aluminium and oxygen is red granite dusts. You can get those from red stonelillies. Check out the Fishing Farming Cooking tab for more details about IC2 crops.
+gtnh.quest757.desc=Ruby is a good source for chrome and a little alumina. Once you get low on Ruby, you can centrifuge Redstone to get more.%n%nAnother good source of alumina and oxygen is red granite dusts. You can get those from red stonelillies. Check out the Fishing Farming Cooking tab for more details about IC2 crops.%n%nDon't be decieved by false ruby ...
 
 # Quest.758 - §6§lMV Battery Hulls
 gtnh.quest758.name=§6§lMV Battery Hulls
@@ -3042,7 +3042,7 @@ gtnh.quest759.desc=Polyethylene is made out of ethylene and oxygen in a chemical
 
 # Quest.760 - §6§lClay Electrolyzing
 gtnh.quest760.name=§6§lClay Electrolyzing
-gtnh.quest760.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Aluminium, Silicon, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There's plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere's more ways to get aluminium now that you're in MV, enough that it's basically worthless by the time you get to EV.
+gtnh.quest760.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There's plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere's more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
 
 # Quest.761 - §6§lPowderbarrels
 gtnh.quest761.name=§6§lPowderbarrels
@@ -3722,7 +3722,7 @@ gtnh.quest929.desc=The highest tier of the blood altar is tier 6. You need pilla
 
 # Quest.930 - §5§lAuto Mining
 gtnh.quest930.name=§5§lAuto Mining
-gtnh.quest930.desc=Automatic mining in LV tier? Wow! This nifty machine will collect ores for you. Place up to two stacks of mining pipes in the right slots. Each pipe can go 1 block, and allow the miner to dig 1 block further. If you're above Y64, you may need to pipe more in.%n%nThis machine only needs 8 EU/t to work, so LV batteries in a batbuff work ok if you don't want to make another generator.%n%nThe miner searches for ores in a 17x17 block work area (adjustable with a screwdriver), and comes with a level 1 fortune bonus! Great for gathering additional small ores!%n%nDon't forget to cover it up! These are GT machines, so remember to protect them (and their power sources!) from rain on all sides. And set a waypoint with Journeymap so you don't forget where you placed it if you place it far away!
+gtnh.quest930.desc=Automatic mining in LV tier? Wow! This nifty machine will collect ores for you, which can be helpful especially in the Nether, as it won't anger pigmen.%n%nPlace up to two stacks of mining pipes in the right slots. Each pipe can go 1 block, and allow the miner to dig 1 block further. If you're above Y64, you may need to pipe more in.%n%nThis machine only needs 8 EU/t to work, so LV batteries in a batbuff work ok if you don't want to make another generator.%n%nThe miner searches for ores in a 17x17 block work area (adjustable with a screwdriver), and comes with a level 1 fortune bonus! Great for gathering additional small ores!%n%nDon't forget to cover it up! These are GT machines, so remember to protect them (and their power sources!) from rain on all sides. And set a waypoint with Journeymap so you don't forget where you placed it if you place it far away! You'll need to chunkload the miner if you want it to keep working when you're not there.
 
 # Quest.931 - §6§lAuto Mining MV
 gtnh.quest931.name=§6§lAuto Mining MV
@@ -5318,7 +5318,7 @@ gtnh.quest1328.desc=A specialized version of the ME crafting terminal designed t
 
 # Quest.1329 - ME in Your Cleanroom
 gtnh.quest1329.name=ME in Your Cleanroom
-gtnh.quest1329.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance^2 AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.
+gtnh.quest1329.desc=Wireless Connectors are a close range Quantum Network Bridge alternative.%nConnections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.
 
 # Quest.1330 - Ore Dictionary Output
 gtnh.quest1330.name=Ore Dictionary Output
@@ -5898,7 +5898,7 @@ gtnh.quest1473.desc=These thermal clothes will keep you nice and warm even in th
 
 # Quest.1474 - §a§lWant to Join a Band?
 gtnh.quest1474.name=§a§lWant to Join a Band?
-gtnh.quest1474.desc=Or at least play with drums? If you have extra Meteoric Iron after building your rocket and making your thermal padding, turn it into Meteoric Steel and use it to make some drums. These drums can hold 256 buckets even after breaking.
+gtnh.quest1474.desc=Or at least play with drums? If you have extra Meteoric Iron after building your rocket and making your thermal padding, turn it into Meteoric Steel and use it to make some drums. These drums can hold 256 buckets even after breaking.%n%nAnd did you know you can use them as cells? Try loading or unloading a supertank!
 
 # Quest.1475 - §1§lCows Are Supposed to Moo!
 gtnh.quest1475.name=§1§lCows Are Supposed to Moo!
@@ -6190,7 +6190,7 @@ gtnh.quest1546.desc=Did you look for days to find Diamonds, Redstone, Tantalite,
 
 # Quest.1547 - §6§lPress All the Things in MV
 gtnh.quest1547.name=§6§lPress All the Things in MV
-gtnh.quest1547.desc=With the MV forming press you can make aluminiun iron plates for solar panels and turbine blades for turbines.
+gtnh.quest1547.desc=With the MV forming press you can make aluminum iron plates for solar panels and turbine blades for turbines.
 
 # Quest.1548 - Input chest for Ghetto ME System
 gtnh.quest1548.name=Input chest for Ghetto ME System
@@ -6430,7 +6430,7 @@ gtnh.quest1606.desc=Sugarcane or Reed not keeping up with your sugary needs? Sug
 
 # Quest.1607 - Swipe Swipe
 gtnh.quest1607.name=Swipe Swipe
-gtnh.quest1607.desc=Once you get some large fields, collecting the crops can be a real hassle. Make yourself the GT scythe, Sense, to make it 5x5 = 25 times easier.%n%n§3PS: The sense is senselessly busted due to Bart not wanting to fix it. Enjoy your 5x5 hole digging. Probably more than using it on crops, anyway.
+gtnh.quest1607.desc=Once you get some large fields, collecting the crops can be a real hassle. Make yourself the GT scythe, Sense, to make it 5x5 = 25 times easier.%n%n§3PS: The sense has been broken in the past, and may harvest more than you expect. Test it carefully.
 
 # Quest.1608 - Annealed Copper Cable
 gtnh.quest1608.name=Annealed Copper Cable
@@ -7378,7 +7378,7 @@ gtnh.quest1843.desc=Spiders to watch for...%n%nWitch spiders reflect missile dam
 
 # Quest.1844 - §1§lPorkchops With Attitude
 gtnh.quest1844.name=§1§lPorkchops With Attitude
-gtnh.quest1844.desc=The only zombie pigman to watch out for is the Vampire Pigman.  He hardly takes any damage unless you use a wooden sword as a stake or have a magical sword.
+gtnh.quest1844.desc=The only zombie pigman to watch out for is the Vampire Pigman. He hardly takes any damage unless you use a wooden sword as a stake or have a magical sword.
 
 # Quest.1845 - §1§lFlaming Idiots
 gtnh.quest1845.name=§1§lFlaming Idiots
@@ -7610,7 +7610,7 @@ gtnh.quest1901.desc=The HV GT++ Steam Boiler is the next machine you can make to
 
 # Quest.1902 - §a§lNo Boom Tomorrow
 gtnh.quest1902.name=§a§lNo Boom Tomorrow
-gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials. %n%nFused Quartz is no good now, forget about it ok? Instead, use the GTNH approved Plated Reinforced Stone series! Or one of the other options I guess, like Warded Glass. You may need multiple layers depending on your reactor, try it out in creative.%n%n§3There are 6 of them, use NEI.%n%nOkay, okay, you don't have to forget Fused Quartz, I'll give you some. Maybe you can stop rain with it.
+gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials.%n%nFused Quartz is no good now, forget about it ok? Instead, use the GTNH approved Plated Reinforced Stone series! Or one of the other options I guess, like Warded Glass. You may need multiple layers depending on your reactor, try it out in creative. Remember you must close in the corners - blasts can slip through the cracks. To get power out, do right angle turns on the wires as blasts go in a straight line.%n%n§3There are 6 of them, use NEI.%n%nOkay, okay, you don't have to forget Fused Quartz, I'll give you some. Maybe you can stop rain with it.
 
 # Quest.1903 - §9§e§9§lHV Energy Hatch
 gtnh.quest1903.name=§9§e§9§lHV Energy Hatch
@@ -10566,7 +10566,7 @@ gtnh.quest2640.desc=After building this, you can visit more planets.%n%nYou need
 
 # Quest.2641 - Tier 7 Heavy Duty Plates
 gtnh.quest2641.name=Tier 7 Heavy Duty Plates
-gtnh.quest2641.desc=Rockets require heavy duty plates for the main hull. Let's craft 71 tier 7 heavy duty plates out of tier 6 plates and compressed mysterious crystal plates.
+gtnh.quest2641.desc=Rockets require heavy duty plates for the main hull. Let's craft 79 tier 7 heavy duty plates out of tier 6 plates and compressed mysterious crystal plates.
 
 # Quest.2642 - Rocket Tier 7
 gtnh.quest2642.name=Rocket Tier 7
@@ -11038,7 +11038,7 @@ gtnh.quest2758.desc=Seriously, it may look cool, but don't use it, it's worse. B
 
 # Quest.2759 - I Want SOLIDS not LIQUIDS!
 gtnh.quest2759.name=I Want SOLIDS not LIQUIDS!
-gtnh.quest2759.desc=For when your ABS isn't the right machine. Also uses coils.%n%n§3This multi is IV.
+gtnh.quest2759.desc=For when your ABS isn't the right machine. Also uses coils.%n%nNote that this is a multiblock version of the alloy smelter, not a solid version of the alloy blast smelter.%n%n§3This multi is IV.
 
 # Quest.2760 - What Even is This?
 gtnh.quest2760.name=What Even is This?
@@ -11108,8 +11108,8 @@ gtnh.quest2775.desc=This is the block version that doesn't need cleaning.
 gtnh.quest2776.name=§lPower of the Sun at ZPM Level
 gtnh.quest2776.desc=The ZPM solar panel generates 131072 EU/t.
 
-# Quest.2777 - §lPower of the Sun at LuV Level
-gtnh.quest2777.name=§lPower of the Sun at LuV Level
+# Quest.2777 - §lPower of the Sun at UV Level
+gtnh.quest2777.name=§lPower of the Sun at UV Level
 gtnh.quest2777.desc=The UV solar panel generates 524288 EU/t.
 
 # Quest.2778 - §lPower of the Sun 1x1 ZPM
@@ -11898,7 +11898,7 @@ gtnh.quest2973.desc=... can't hold it back anymore. It is time to collect the re
 
 # Quest.2974 - §6§lAluminium Hydroxide
 gtnh.quest2974.name=§6§lAluminium Hydroxide
-gtnh.quest2974.desc=To get ingots straight from aluminum dust you'll need higher temperatures then cupronickel coils can provide. Alternatively you can lower the required temperature by mixing aluminum dust with sodiumhydroxide to create aluminiumhydroxide dust. It can be processed to alumina. Cryolite can also lower the required temperature to smelt it to ingots.%n%n§d§6Check out NEI to find alternative recipes for aluminiumhydroxide.
+gtnh.quest2974.desc=To get ingots straight from aluminium dust you'll need higher temperatures then cupronickel coils can provide. Alternatively you can lower the required temperature by mixing aluminium dust with sodiumhydroxide to create aluminiumhydroxide dust. It can be processed to alumina. Cryolite can also lower the required temperature to smelt it to ingots.%n%n§d§6Check out NEI to find alternative recipes for aluminiumhydroxide.
 
 # Quest.2975 - §6§lChemical cryolity production
 gtnh.quest2975.name=§6§lChemical cryolity production

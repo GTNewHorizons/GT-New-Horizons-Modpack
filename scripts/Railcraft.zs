@@ -46,7 +46,6 @@ val IronIngot = <ore:ingotIron>;
 val RedDye = <ore:dyeRed>;
 val HPBoiler = <gregtech:gt.blockmachines:101>;
 val HPBoilerTank = <Railcraft:machine.beta:4>;
-val IronTankGauge = <Railcraft:machine.beta:1>;
 val SteelMCasing = <gregtech:gt.blockcasings2>;
 val ObsidianBlock = <ore:stoneObsidian>;
 
@@ -587,12 +586,6 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
 
 // --- Californium Dust
 mods.railcraft.BlastFurnace.removeRecipe(<bartworks:gt.bwMetaGenerateddust:39>);
-
-// --- Crystalline Pink Slime Ingot
-//mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11406>);
-
-// --- All Recipes
-mods.railcraft.RockCrusher.removeRecipe(<*>);
 
 // --- Thaumic Crowbar
 mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
