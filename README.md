@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.2.0 is out 12.12.2021
+Version 2.1.2.0 is out 13.12.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -195,7 +195,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia/) | 1.19 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons/) | 1.5.2 |
 | [BackPack](https://github.com/runescapejon/Minecraft-Backpack-Mod) | 2.2.4 |
-| [Bartworks](https://github.com/GTNewHorizons/bartworks/) | 0.5.30 |
+| [Bartworks](https://github.com/GTNewHorizons/bartworks/) | 0.5.31 |
 | [Bee Better At Bees](https://www.curseforge.com/minecraft/mc-mods/beebetteratbees) | 0.3 |
 | [Better Archivements](https://www.curseforge.com/minecraft/mc-mods/betterachievements) | 0.1.0 |
 | [Better Builders Wands](https://www.curseforge.com/minecraft/mc-mods/better-builders-wands) | 0.8.1r92 |
@@ -208,7 +208,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Binnie Mods](https://github.com/GTNewHorizons/Binnie/) | 2.0-31 |
 | [Biomes o Plenty](http://jenkins.usrv.eu:8080/job/BoP/) | 2.1.2-GTNH |
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter/) | 0.54 |
-| [Blood Arsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.2.2-11 |
+| [Blood Arsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.2.3-11 |
 | [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.3.3.44 |
 | [Botdustries](https://github.com/GTNewHorizons/Botdustries) | 1.2.5 |
 | [Bug Torch](https://github.com/GTNewHorizons/BugTorch) | 1.1.2-GTNH |
@@ -248,25 +248,25 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Forge Multipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.2.0.347 |
 | [Forge Relocation](https://www.curseforge.com/minecraft/mc-mods/forge-relocation) | 0.0.1.4 |
 | [Forge Relocation FMP](https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin) | 0.0.1.2 |
-| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.0.8.2 |
+| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.0.8.3 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.33-GTNH |
 | [GalactiGreg](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.5 |
 | [Galaxy Space](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Galaxy-Space/) | 1.2.1-GTNH |
 | [Gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.2 |
-| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.3.1 |
+| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.3.2 |
 | [Gravitation Suite](Source hidden ask Namikon)| 2.0.68u |
-| [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.40.09 |
+| [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.40.10 |
 | [GT Scanner Mod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.6.3 |
 | [GT Ore Nei Plugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.9 |
-| [GT New Horizons Core Mod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.07 |
-| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.19-GTNH |
+| [GT New Horizons Core Mod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.09 |
+| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.20-GTNH |
 | [GTNH TC Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.4 |
 | [GTTweaker](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 1.7.5 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore Ender Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.0 |
 | [Healer](https://github.com/Glease/Healer) | 1.1.0 |
 | [Help Fixer](https://www.curseforge.com/minecraft/mc-mods/helpfixer) | 1.0.7 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 1.6.19 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 1.6.18 |
 | [Holo Inventory](https://github.com/GTNewHorizons/HoloInventory) | 2.1.6-beta |
 | [Hunger Overhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.2 |
 | [Hydro Energy](https://github.com/GTNewHorizons/HydroEnergy) | 1.0.8 |
