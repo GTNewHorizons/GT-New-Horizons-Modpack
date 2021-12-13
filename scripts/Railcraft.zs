@@ -557,9 +557,6 @@ mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
 // --- Steel Block
 mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
 
-// --- Steel Nuggets
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:nugget:1>);
-
 // --- Meteoric Iron
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11340>);
 
