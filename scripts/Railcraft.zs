@@ -557,9 +557,6 @@ mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
 // --- Steel Block
 mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
 
-// --- Steel Nuggets
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:nugget:1>);
-
 // --- Meteoric Iron
 mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11340>);
 
@@ -586,12 +583,6 @@ mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
 
 // --- Californium Dust
 mods.railcraft.BlastFurnace.removeRecipe(<bartworks:gt.bwMetaGenerateddust:39>);
-
-// --- Crystalline Pink Slime Ingot
-//mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11406>);
-
-// --- All Recipes
-mods.railcraft.RockCrusher.removeRecipe(<*>);
 
 // --- Thaumic Crowbar
 mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
