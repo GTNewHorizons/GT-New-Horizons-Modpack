@@ -840,7 +840,6 @@ recipes.addShaped(<BiblioCraft:item.AtlasBook>, [
 for i, color in color16 {
     var TypeWriter = TypeWriterB[i];
     
-    recipes.remove(TypeWriter);
     recipes.addShaped(TypeWriter, [[<ore:plateRubber>, <OpenComputers:item:20>, <ore:plateRubber>],[<ore:ringIron>, color, <ore:ringIron>],[<ore:plateIron>, <ore:blockIron>, <ore:plateIron>]]);
 }
 
@@ -848,35 +847,30 @@ for i, color in color16 {
 for i, slabs in Swood {
     var FClock = FClockB[i];
     
-    recipes.remove(FClock);
     recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
 }
 // ---
 for i, slabs in BOBwood {
     var FClock = FClockBOP[i];
     
-    recipes.remove(FClock);
     recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
 }
 // ---
 for i, slabs in F1wood {
     var FClock = FClockF1[i];
     
-    recipes.remove(FClock);
     recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
 }
 // ---
 for i, slabs in F2wood {
     var FClock = FClockF2[i];
     
-    recipes.remove(FClock);
     recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
 }
 // ---
 for i, slabs in Nwood {
     var FClock = FClockN[i];
     
-    recipes.remove(FClock);
     recipes.addShaped(FClock, [[slabs, <minecraft:clock>, slabs],[slabs, <ore:stickWood>, slabs],[slabs, <ore:plateGold>, slabs]]);
 }
 
@@ -884,35 +878,30 @@ for i, slabs in Nwood {
 for i, slabs in Swood {
     var CPainting = PaintingB[i];
     
-    recipes.remove(CPainting);
     recipes.addShaped(CPainting, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
 }
 // ---
 for i, slabs in BOBwood {
     var CPaintingB = PaintingBOP[i];
     
-    recipes.remove(CPaintingB);
     recipes.addShaped(CPaintingB, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
 }
 // ---
 for i, slabs in F1wood {
     var CPaintingF1 = PaintingF1[i];
     
-    recipes.remove(CPaintingF1);
     recipes.addShaped(CPaintingF1, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
 }
 // ---
 for i, slabs in F2wood {
     var CPaintingF2 = PaintingF2[i];
     
-    recipes.remove(CPaintingF2);
     recipes.addShaped(CPaintingF2, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
 }
 // ---
 for i, slabs in Nwood {
     var CPaintingN = PaintingN[i];
     
-    recipes.remove(CPaintingN);
     recipes.addShaped(CPaintingN, [[slabs, slabs, slabs],[slabs, <BiblioCraft:item.PaintingCanvas>, slabs],[slabs, slabs, slabs]]);
 }
 
@@ -920,35 +909,30 @@ for i, slabs in Nwood {
 for i, Canvas in PaintingB {
     var FPainting = FPT1[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas in PaintingBOP {
     var FPainting = BOBPT1[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas in PaintingF1 {
     var FPainting = FPT1a[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas in PaintingF2 {
     var FPainting = FPT1b[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas in PaintingN {
     var FPainting = NPT1[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 
@@ -956,35 +940,30 @@ for i, Canvas in PaintingN {
 for i, Canvas1 in FPT1 {
     var SPainting = FPT2[i];
     
-    recipes.remove(SPainting);
     recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas1 in BOBPT1 {
     var SPainting = BOBPT2[i];
     
-    recipes.remove(SPainting);
     recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas1 in FPT1a {
     var SPainting = FPT2a[i];
     
-    recipes.remove(SPainting);
     recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas1 in FPT1b {
     var SPainting = FPT2b[i];
     
-    recipes.remove(SPainting);
     recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas1 in NPT1 {
     var SPainting = NPT2[i];
     
-    recipes.remove(SPainting);
     recipes.addShaped(SPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas1, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 
@@ -993,35 +972,30 @@ for i, Canvas1 in NPT1 {
 for i, Canvas2 in FPT2 {
     var MPainting = FPT3[i];
     
-    recipes.remove(MPainting);
     recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas2 in BOBPT2 {
     var MPainting = BOBPT3[i];
     
-    recipes.remove(MPainting);
     recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas2 in FPT2a {
     var MPainting = FPT3a[i];
     
-    recipes.remove(MPainting);
     recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas2 in FPT2b {
     var MPainting = FPT3b[i];
     
-    recipes.remove(MPainting);
     recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas2 in NPT2 {
     var MPainting = NPT3[i];
     
-    recipes.remove(MPainting);
     recipes.addShaped(MPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas2, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 
@@ -1029,35 +1003,30 @@ for i, Canvas2 in NPT2 {
 for i, Canvas3 in FPT3 {
     var FPainting = FPT4[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas3 in BOBPT3 {
     var FPainting = BOBPT4[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas3 in FPT3a {
     var FPainting = FPT4a[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas3 in FPT3b {
     var FPainting = FPT4b[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Canvas3 in NPT3 {
     var FPainting = NPT4[i];
     
-    recipes.remove(FPainting);
     recipes.addShaped(FPainting, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Canvas3, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 
@@ -1065,7 +1034,6 @@ for i, Canvas3 in NPT3 {
 for i, cwool in cwool16 {
     var SPedestals = Pedestals[i];
     
-    recipes.remove(SPedestals);
     recipes.addShaped(SPedestals, [[null, null, null],[<ore:plateIron>, <ore:ringIron>, <ore:plateIron>],[<ore:slabStone>, cwool, <ore:slabStone>]]);
 }
 
@@ -1073,35 +1041,30 @@ for i, cwool in cwool16 {
 for i, Frame in FrameB {
     var Lable = LableB[i];
     
-    recipes.remove(Lable);
     recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Frame in FrameBOP {
     var Lable = LableBOP[i];
     
-    recipes.remove(Lable);
     recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Frame in FrameF1 {
     var Lable = LableF1[i];
     
-    recipes.remove(Lable);
     recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Frame in FrameF2 {
     var Lable = LableF2[i];
     
-    recipes.remove(Lable);
     recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 // ---
 for i, Frame in FrameN {
     var Lable = LableN[i];
     
-    recipes.remove(Lable);
     recipes.addShaped(Lable, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, Frame, <ore:stickWood>],[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 }
 
