@@ -2,7 +2,7 @@ name: Suggest a Change
 description: Suggest a change to an existing feature.
 labels:
 - "Status: Triage"
-- "Type: suggestion"
+- "Type: Suggestion"
 body:
 - type: markdown
   attributes:
