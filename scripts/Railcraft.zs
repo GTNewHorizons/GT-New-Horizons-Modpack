@@ -551,39 +551,6 @@ recipes.remove(<Railcraft:frame>);
 // --- Steel Shears
 recipes.remove(<Railcraft:tool.steel.shears>);
 
-// --- Steel Ingot
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
-
-// --- Steel Block
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
-
-// --- Meteoric Iron
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11340>);
-
-// --- Meteoric Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11341>);
-
-// --- GT Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
-
-// --- HSLA Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
-
-// --- Magnetic Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11355>);
-
-// --- Electric Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
-
-// --- Redstonealloy
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
-
-// --- Soularium
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
-
-// --- Californium Dust
-mods.railcraft.BlastFurnace.removeRecipe(<bartworks:gt.bwMetaGenerateddust:39>);
-
 // --- Thaumic Crowbar
 mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
 
@@ -1539,16 +1506,6 @@ Assembler.addRecipe(<Railcraft:tool.signal.tuner>, [<IC2:itemFreq>, ReceiverCirc
 // --- Signal Block Surveyor ---
 Assembler.addRecipe(<Railcraft:tool.surveyor>, [<Railcraft:tool.signal.tuner>, <minecraft:compass>, <gregtech:gt.integrated_circuit:1> * 0], null, 300, 30);
 
-
-
-// --- Blast Furnace recipes
-
-
-// --- Coal Coke
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal>, false, false, 20, <Railcraft:fuel.coke>);
-
-// --- Coal Coke Block
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal_block>, false, false, 180, <Railcraft:cube>);
 
 
 // --- Centrifuge Recipes ---
