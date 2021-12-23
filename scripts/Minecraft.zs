@@ -2713,60 +2713,6 @@ recipes.addShaped(<minecraft:gold_nugget> * 9, [
 [null, null, null]]);
 
 
-// --- Charcoal
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:log:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:log2:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs1:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs2:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs3:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs4:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<ExtraTrees:log:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Forestry:logsFireproof:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Forestry:logs:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:redwood:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:willow:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:Dark Tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:Rare Tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Thaumcraft:blockMagicalLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TwilightForest:tile.TFLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TwilightForest:tile.TFMagicLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<witchery:witchlog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestthenether:netherLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TaintedMagic:BlockWarpwoodLog>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamCinnamon>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamMaple>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamPaperbark>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs:1>, false, false, 20, <minecraft:coal:1>);
-//-
-mods.railcraft.BlastFurnace.addRecipe(<miscutils:blockRainforestOakLog>, false, false, 20, <minecraft:coal:1>);
-
-
 
 
 // --- Alloy Smelter Recipes ---
