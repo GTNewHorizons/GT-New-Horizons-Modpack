@@ -1709,10 +1709,6 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 // --- Nei Rename ---
 
 
-
-// --- Advanced Coke Oven Bricks
-<Railcraft:machine.alpha:12>.displayName = "Advanced Coke Oven Bricks";
-
 // --- Lapatron Loader Upgrade
 <Railcraft:upgrade.lapotron>.displayName = "Lapatron Loader Upgrade";
 
