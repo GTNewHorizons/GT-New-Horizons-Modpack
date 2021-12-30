@@ -500,22 +500,16 @@ recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<harvestcraft:mixingbow
 recipes.addShapeless(<harvestcraft:heavycreamItem> * 4, [<harvestcraft:mixingbowlItem>, <IguanaTweaksTConstruct:clayBucketMilk>]);
 
 // --- Onion Soup
-recipes.addShaped(<harvestcraft:onionsoupItem>, [
-[<harvestcraft:potItem>, <ore:cropOnion>, null],
-[<harvestcraft:stockItem>, <ore:foodCheese>, null],
-[null, null, null]]);
+recipes.addShapeless(<harvestcraft:onionsoupItem>, [<harvestcraft:potItem>, <ore:cropOnion>, <harvestcraft:stockItem>, <ore:foodCheese>]);
 
 // --- Rainbow Curry
-recipes.addShaped(<harvestcraft:rainbowcurryItem>, [
-[<minecraft:red_flower:1>, <minecraft:tallgrass:1>, <BiomesOPlenty:flowers2:2>],
-[<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>, ],
-[<minecraft:bowl>.reuse(), <harvestcraft:curryItem>, <harvestcraft:skilletItem>]]);
+recipes.addShapeless(<harvestcraft:rainbowcurryItem>, [
+<harvestcraft:skilletItem>, <harvestcraft:curryItem>, <minecraft:bowl>.reuse(),
+<minecraft:red_flower:1>, <minecraft:tallgrass:1>, <BiomesOPlenty:flowers2:2>,
+<BiomesOPlenty:flowers2:3>, <minecraft:red_flower>, <minecraft:yellow_flower>]);
 
 // --- Honeycomb Chocolate Bar
-recipes.addShaped(<harvestcraft:honeycombchocolatebarItem>, [
-[<harvestcraft:saucepanItem>, <harvestcraft:chocolatebarItem>, null],
-[<BiomesOPlenty:food:9>, null, null],
-[null, null, null]]);
+recipes.addShapeless(<harvestcraft:honeycombchocolatebarItem>, [<harvestcraft:saucepanItem>, <harvestcraft:chocolatebarItem>, <BiomesOPlenty:food:9>]);
 
 
 

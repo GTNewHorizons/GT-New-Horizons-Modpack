@@ -551,39 +551,6 @@ recipes.remove(<Railcraft:frame>);
 // --- Steel Shears
 recipes.remove(<Railcraft:tool.steel.shears>);
 
-// --- Steel Ingot
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
-
-// --- Steel Block
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
-
-// --- Meteoric Iron
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11340>);
-
-// --- Meteoric Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11341>);
-
-// --- GT Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
-
-// --- HSLA Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
-
-// --- Magnetic Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11355>);
-
-// --- Electric Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
-
-// --- Redstonealloy
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
-
-// --- Soularium
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
-
-// --- Californium Dust
-mods.railcraft.BlastFurnace.removeRecipe(<bartworks:gt.bwMetaGenerateddust:39>);
-
 // --- Thaumic Crowbar
 mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
 
@@ -1541,16 +1508,6 @@ Assembler.addRecipe(<Railcraft:tool.surveyor>, [<Railcraft:tool.signal.tuner>, <
 
 
 
-// --- Blast Furnace recipes
-
-
-// --- Coal Coke
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal>, false, false, 20, <Railcraft:fuel.coke>);
-
-// --- Coal Coke Block
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal_block>, false, false, 180, <Railcraft:cube>);
-
-
 // --- Centrifuge Recipes ---
 
 
@@ -1751,10 +1708,6 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 
 // --- Nei Rename ---
 
-
-
-// --- Advanced Coke Oven Bricks
-<Railcraft:machine.alpha:12>.displayName = "Advanced Coke Oven Bricks";
 
 // --- Lapatron Loader Upgrade
 <Railcraft:upgrade.lapotron>.displayName = "Lapatron Loader Upgrade";
