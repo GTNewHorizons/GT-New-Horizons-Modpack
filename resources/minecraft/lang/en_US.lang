@@ -298,7 +298,7 @@ gtnh.quest73.desc=All machines need a hull to keep their private parts together.
 
 # Quest.74 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
 gtnh.quest74.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
-gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you can't find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n§3You need to make it yourself. Stuff you've stolen from villages doesn't count.
+gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you can't find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n§3You need to make it yourself. Stuff you've stolen from villages doesn't count.%n%nThe smeltry does not double ores in GTNH. Later machines will help you there.
 
 # Quest.75 - §6§lThe Water Dilemma
 gtnh.quest75.name=§6§lThe Water Dilemma
@@ -2142,7 +2142,7 @@ gtnh.quest534.desc=If you are running your bricked blast furnace for a long time
 
 # Quest.535 - §1§2§lRedstone, Early Game Processing
 gtnh.quest535.name=§1§2§lRedstone, Early Game Processing
-gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer (you can place the ore you got back down to do this) and get the crushed ore. Then use the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack, whcih the cauldron can handle for the same amount of water. However, you will need a new iron bucket, as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your redstone needs.
+gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer (you can place the ore you got back down to do this) and get the crushed ore. Then use the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack, which the cauldron can handle for the same amount of water. However, you will need a new iron bucket, as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your redstone needs.
 
 # Quest.536 - §3§lLow Tier Wires
 gtnh.quest536.name=§3§lLow Tier Wires
@@ -10594,7 +10594,7 @@ gtnh.quest2647.desc=So you've built your T7 rocket. Great, there's only one more
 
 # Quest.2648 - The Final Frontier
 gtnh.quest2648.name=The Final Frontier
-gtnh.quest2648.desc=There's no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you nned some to begin with. The water can be found as an undergound fluid on Tau Ceti E as well.
+gtnh.quest2648.desc=There're no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C.
 
 # Quest.2649 - STERILIZE!, STERILIZE!
 gtnh.quest2649.name=STERILIZE!, STERILIZE!
@@ -11918,7 +11918,7 @@ gtnh.quest2978.desc=Red mud is a byproduct from sodium aluminate processing. You
 
 # Quest.2979 - §5§6§l§5§lAluminium Tank
 gtnh.quest2979.name=§5§6§l§5§lAluminium Tank
-gtnh.quest2979.desc=If you make some Aluminium plates, you can make a new 128,000L single block tank.
+gtnh.quest2979.desc=If you make some Double Aluminium Plates, you can make a new 96,000L single block tank.
 
 # Quest.2980 - §a§9§a§9§l§9§a§lPlaying With Dust in EV
 gtnh.quest2980.name=§a§9§a§9§l§9§a§lPlaying With Dust in EV
@@ -11931,6 +11931,10 @@ gtnh.quest2981.desc=Electric Air Filter%n%nThis wonderful multiblock comes in 3 
 # Quest.2982 - §6§lAbsorption Filter
 gtnh.quest2982.name=§6§lAbsorption Filter
 gtnh.quest2982.desc=When you reach MV tier you can make your own Absorption Filter for the Air Filter to clean pollution much more efficient. The Filter will be consumed and you get a dirty Filter back after 30 Cycles.
+
+# Quest.2983 - §6§lMica Ore
+gtnh.quest2983.name=§6§lMica Ore
+gtnh.quest2983.desc=Mica is a very rare but useful ore. You need it in order to craft your high tier coils for the EBF.%nIf you have no luck in finding this vein yet try to look for it with a Prospector..
 
 ##################################Line##################################
 
