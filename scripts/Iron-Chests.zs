@@ -74,21 +74,6 @@ val WPlank = <ore:plankWood>;
 // --- Removing Recipes ---
 
 
-// --- All Chests
-recipes.remove(<IronChest:BlockIronChest:*>);
-
-// --- All Uppgrades
-recipes.remove(Copper2IronUp);
-recipes.remove(Copper2SteelUp);
-recipes.remove(Diamond2CrystalUp);
-recipes.remove(Diamond2ObsidianUp);
-recipes.remove(Gold2DiamondUp);
-recipes.remove(Iron2GoldUp);
-recipes.remove(Steel2GoldUp);
-recipes.remove(Wood2CopperUp);
-recipes.remove(Wood2IronUp);
-
-
 
 // --- Adding Back Recipes ---
 
