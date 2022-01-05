@@ -23,12 +23,12 @@ val ObsidianChest = <IronChest:BlockIronChest:6>;
 val DirtChest = <IronChest:BlockIronChest:7>;
 
 val Copper2IronUp = <IronChest:copperIronUpgrade>;
-val Copper2SteelUp = <IronChest:copperSilverUpgrade>;
+val Copper2SteelUp = <IronChest:copperSteelUpgrade>;
 val Diamond2CrystalUp = <IronChest:diamondCrystalUpgrade>;
 val Diamond2ObsidianUp = <IronChest:diamondObsidianUpgrade>;
 val Gold2DiamondUp = <IronChest:goldDiamondUpgrade>;
 val Iron2GoldUp = <IronChest:ironGoldUpgrade>;
-val Steel2GoldUp = <IronChest:silverGoldUpgrade>;
+val Steel2GoldUp = <IronChest:steelGoldUpgrade>;
 val Wood2CopperUp = <IronChest:woodCopperUpgrade>;
 val Wood2IronUp = <IronChest:woodIronUpgrade>;
 
@@ -256,27 +256,5 @@ Assembler.addRecipe(Diamond2ObsidianUp, [DiamondPlate, DenseObsidianPlate, <greg
 
 
 
-// --- Odict Stuff
-
-
-// --- Silver to Steel Chest
-oreDict.chestSilver.remove(SteelChest);
-// -
-oreDict.chestSteel.add(SteelChest);
-
 
 // --- Hiding Stuff ---
-
-
-
-// --- Renaming Stuff ---
-
-
-// --- Steel Chest
-NEI.overrideName(SteelChest, "Steel Chest");
-
-// --- Copper-Silver Upgrade to Copper-Steel Upgrade
-NEI.overrideName(Copper2SteelUp, "Copper To Steel Chest Upgrade");
-
-// --- Silver-Gold Upgrade to Steel-Gold Upgrade
-NEI.overrideName(Steel2GoldUp, "Steel To Gold Chest Upgrade");
