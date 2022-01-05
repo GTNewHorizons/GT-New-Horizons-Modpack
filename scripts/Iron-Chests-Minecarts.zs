@@ -42,29 +42,6 @@ val Minecart = <minecraft:minecart>;
 // --- Removing Recipes ---
 
 
-// --- Minecart With Copper Chest
-recipes.remove(CopperChestCart);
-
-// --- Minecart With Iron Chest
-recipes.remove(IronChestCart);
-
-// --- Minecart With Steel Chest
-recipes.remove(SteelChestCart);
-
-// --- Minecart With Gold Chest
-recipes.remove(GoldChestCart);
-
-// --- Minecart With Diamond Chest
-recipes.remove(DiamondChestCart);
-
-// --- Minecart With Crystal Chest
-recipes.remove(CrystalChestCart);
-
-// --- Minecart With  Obsidian Chest
-recipes.remove(ObsidianChestCart);
-
-
-
 // --- Adding Back Recipes ---
 
 
