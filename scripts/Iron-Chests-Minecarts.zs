@@ -15,7 +15,7 @@ import mods.nei.NEI;
 
 val CopperChestCart = <ironchestminecarts:minecart_chest_copper>;
 val IronChestCart = <ironchestminecarts:minecart_chest_iron>;
-val SteelChestCart = <ironchestminecarts:minecart_chest_silver>;
+val SteelChestCart = <ironchestminecarts:minecart_chest_steel>;
 val GoldChestCart = <ironchestminecarts:minecart_chest_gold>;
 val DiamondChestCart = <ironchestminecarts:minecart_chest_diamond>;
 val CrystalChestCart = <ironchestminecarts:minecart_chest_crystal>;
@@ -121,6 +121,3 @@ Assembler.addRecipe(ObsidianChestCart, ObsidianChest, Minecart, 200, 64);
 
 
 // --- Hiding Overriding Stuff ---
-
-
-NEI.overrideName(<ironchestminecarts:minecart_chest_silver>, "Minecart With Steel Chest");
