@@ -376,10 +376,6 @@ Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:41>, [<LogisticsPipes:item.
 // --- CC Remote Control Upgrade
 Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:21>, [<LogisticsPipes:item.logisticsParts:4>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <ProjRed|Core:projectred.core.part:33>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 480);
 
-// --- CC Remote Control Upgrade
-Assembler.addRecipe(<LogisticsPipes:item.itemUpgrade:21>, [<LogisticsPipes:item.logisticsParts:4>, <gregtech:gt.metaitem.01:32692>, <gregtech:gt.metaitem.01:32682>, <ProjRed|Core:projectred.core.part:33>, <gregtech:gt.integrated_circuit:18> * 0], null, 1200, 480);
-
-
 // --- Sneaky Upgrade 
 Assembler.addRecipe(SneakyUp, [<LogisticsPipes:item.logisticsParts:4> * 4, <miscutils:MU-metaitem.01:32036>, <ore:foilBronze> * 2, <ProjRed|Core:projectred.core.part:33> * 4, <gregtech:gt.integrated_circuit:5> * 0], null, 600, 30);
 Assembler.addRecipe(SneakyDown, [<LogisticsPipes:item.logisticsParts:4> * 4, <miscutils:MU-metaitem.01:32036>, <ore:foilBronze> * 2, <ProjRed|Core:projectred.core.part:33> * 4, <gregtech:gt.integrated_circuit:6> * 0], null, 600, 30);
