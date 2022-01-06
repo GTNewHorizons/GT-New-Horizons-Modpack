@@ -298,7 +298,7 @@ gtnh.quest73.desc=All machines need a hull to keep their private parts together.
 
 # Quest.74 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
 gtnh.quest74.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
-gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you can't find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n§3You need to make it yourself. Stuff you've stolen from villages doesn't count.
+gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you can't find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n§3You need to make it yourself. Stuff you've stolen from villages doesn't count.%n%nThe smeltry does not double ores in GTNH. Later machines will help you there.
 
 # Quest.75 - §6§lThe Water Dilemma
 gtnh.quest75.name=§6§lThe Water Dilemma
@@ -526,7 +526,7 @@ gtnh.quest130.desc=Until now, you had to use buildcraft tanks with dollies to ca
 
 # Quest.131 - §6§lSimple RF power: Solid
 gtnh.quest131.name=§6§lSimple RF power: Solid
-gtnh.quest131.desc=By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. This machine will also accept compressed and multiple-compressed blocks. Want to burn something for 250+ days? Also, with double or octadic capacitors the output will increase and efficiency will improve. GT wiring can convert EU to RF, but not the other way around. Ender IO machines and GT cables and Wires can be left safely out in the rain. %n%nIt might be useful for Genetics machines since they consume excessive power when attached to GT wiring - Forestry and EnderIO machines work fine (except for the Thermionic Fabricator). Or use a Capacitor Bank.
+gtnh.quest131.desc=By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. This machine will also accept compressed and multiple-compressed blocks. Want to burn something for 250+ days? Also, with double or octadic capacitors the output will increase and efficiency will improve.%n%nGT wiring can convert EU to RF, but not the other way around. Note that with the eNet changes a GT wire network will need at least one GT energy consumer - a machine hull of the matching voltage will work.%n%nEnder IO machines and GT cables and Wires can be left safely out in the rain.%n%nIt might be useful for Genetics machines since they consume excessive power when attached to GT wiring - Forestry and EnderIO machines work fine (except for the Thermionic Fabricator). Or use a Capacitor Bank.
 
 # Quest.132 - §6§lSimple RF Power: Liquids
 gtnh.quest132.name=§6§lSimple RF Power: Liquids
@@ -1914,11 +1914,11 @@ gtnh.quest477.desc=To process more advanced materials like...I dunno, you tell m
 
 # Quest.478 - §3§lFlint and Steel
 gtnh.quest478.name=§3§lFlint and Steel
-gtnh.quest478.desc=After you make steel you are able to craft flint and steel. I guess you'll want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.%n%nNote: The ball of moss gives a tinker's tool self-repair. But if the tool is completely broken, it won't repair it.
+gtnh.quest478.desc=After you make steel you are able to craft flint and steel. I guess you'll want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.%n%nNote: The ball of moss gives a tinker's tool self-repair. But if the tool is completely broken, it won't repair it.%n%nNote that the flint and steel can take a few times to work.
 
 # Quest.479 - §3§m§l§m§4§3§lTHE NETHER
 gtnh.quest479.name=§3§m§l§m§4§3§lTHE NETHER
-gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?%n%nAlso, §lwhen§r you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area §lfirst§r so that you don't end up dying over and over and making a mess.%n%nWatch out for some mobs! They'll take minimal damage from any weapon that is not their weakness. So if you seem to not be doing much damage, you probably aren't! Think about other options to hurt/kill the monster.
+gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care. Remember that the flint and steel can take a few times to work, but there are other ways to make fire ...%n%nBe sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?%n%nAlso, §lwhen§r you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area §lfirst§r so that you don't end up dying over and over and making a mess.%n%nWatch out for some mobs! They'll take minimal damage from any weapon that is not their weakness. So if you seem to not be doing much damage, you probably aren't! Think about other options to hurt/kill the monster.
 
 # Quest.480 - §2§lMalachite
 gtnh.quest480.name=§2§lMalachite
@@ -2142,7 +2142,7 @@ gtnh.quest534.desc=If you are running your bricked blast furnace for a long time
 
 # Quest.535 - §1§2§lRedstone, Early Game Processing
 gtnh.quest535.name=§1§2§lRedstone, Early Game Processing
-gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer (you can place the ore you got back down to do this) and get the crushed ore. Then use the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack, whcih the cauldron can handle for the same amount of water. However, you will need a new iron bucket, as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your redstone needs.
+gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer (you can place the ore you got back down to do this) and get the crushed ore. Then use the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack, which the cauldron can handle for the same amount of water. However, you will need a new iron bucket, as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your redstone needs.
 
 # Quest.536 - §3§lLow Tier Wires
 gtnh.quest536.name=§3§lLow Tier Wires
@@ -2242,11 +2242,11 @@ gtnh.quest559.desc=The low pressure boiler tank is the easiest way to make steam
 
 # Quest.560 - §6§lRailcraft Steam Power
 gtnh.quest560.name=§6§lRailcraft Steam Power
-gtnh.quest560.desc=As an alternative way to make steam you can use the railcraft boilers. They require at least one firebox.%n%nMore than one size is possible: (1x1 which the quest gets you to make) 2x2 and 3x3. %n%nProvide water and coal to the firebox. Make sure you don't run out of water or...BOOM.%n%nEach boiler needs 1, 2 or 3 layers of tanks on top, equal to the size (1x1x1, 2x2x2, or 3x3x3).
+gtnh.quest560.desc=As an alternative way to make steam you can use the railcraft boilers. They require at least one firebox.%n%nMore than one size is possible: (1x1 which the quest gets you to make) 2x2 and 3x3. %n%nProvide water and coal to the firebox. Make sure you don't run out of water or...BOOM.%n%nEach boiler needs 1, 2 or 3 layers of tanks on top, equal to the size (1x1x1, 2x2x2, or 3x3x3) - see the quests linked below.
 
 # Quest.561 - §6§lLiquid-Fuelled Firebox
 gtnh.quest561.name=§6§lLiquid-Fuelled Firebox
-gtnh.quest561.desc=Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.%n%nDiesel, ethanol, creosote and bio diesel all work well here.
+gtnh.quest561.desc=Cresosote oil into steam! After you make your first steel you are able to craft a liquid fueled firebox.%n%nDiesel, ethanol, creosote and bio diesel all work well here. This will also require a boiler tank - see the quests linked below.
 
 # Quest.562 - §6§lHigh-Pressure Boiler Tank
 gtnh.quest562.name=§6§lHigh-Pressure Boiler Tank
@@ -7542,7 +7542,7 @@ gtnh.quest1884.desc=But here is a nice quest to get cheap fish catchers!
 
 # Quest.1885 - Wood for Sheep?
 gtnh.quest1885.name=Wood for Sheep?
-gtnh.quest1885.desc=No thanks! But how about some crop sticks for coins and logs?
+gtnh.quest1885.desc=No thanks! But how about some crop sticks for coins and a log?
 
 # Quest.1886 - Manure for Fertilizer
 gtnh.quest1886.name=Manure for Fertilizer
@@ -10594,7 +10594,7 @@ gtnh.quest2647.desc=So you've built your T7 rocket. Great, there's only one more
 
 # Quest.2648 - The Final Frontier
 gtnh.quest2648.name=The Final Frontier
-gtnh.quest2648.desc=There's no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you nned some to begin with. The water can be found as an undergound fluid on Tau Ceti E as well.
+gtnh.quest2648.desc=There're no more rockets to make after this, though there's still at least one more place to visit. After this is the Deep Dark, which has all the ores+more.%n%nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.%n%nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.%nThe Alpha Centauri system is to the NE, and you can vist Alpha Centauri Bb (Proxima Centauri is not visitable). §3Remember to wear your SpaceSuit!§r%nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.%nThe Vega System is to the WNW, and you can visit the planet Vega B.%n%nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.%n%nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.%nYou can get Bedrockium from small ores on Barnarda F.%nYou can get Infinity Catalyst from small ores on Vega B.%n%nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.%n%nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C.
 
 # Quest.2649 - STERILIZE!, STERILIZE!
 gtnh.quest2649.name=STERILIZE!, STERILIZE!
@@ -11918,7 +11918,7 @@ gtnh.quest2978.desc=Red mud is a byproduct from sodium aluminate processing. You
 
 # Quest.2979 - §5§6§l§5§lAluminium Tank
 gtnh.quest2979.name=§5§6§l§5§lAluminium Tank
-gtnh.quest2979.desc=If you make some Aluminium plates, you can make a new 128,000L single block tank.
+gtnh.quest2979.desc=If you make some Double Aluminium Plates, you can make a new 96,000L single block tank.
 
 # Quest.2980 - §a§9§a§9§l§9§a§lPlaying With Dust in EV
 gtnh.quest2980.name=§a§9§a§9§l§9§a§lPlaying With Dust in EV
@@ -11931,6 +11931,10 @@ gtnh.quest2981.desc=Electric Air Filter%n%nThis wonderful multiblock comes in 3 
 # Quest.2982 - §6§lAbsorption Filter
 gtnh.quest2982.name=§6§lAbsorption Filter
 gtnh.quest2982.desc=When you reach MV tier you can make your own Absorption Filter for the Air Filter to clean pollution much more efficient. The Filter will be consumed and you get a dirty Filter back after 30 Cycles.
+
+# Quest.2983 - §6§lMica Ore
+gtnh.quest2983.name=§6§lMica Ore
+gtnh.quest2983.desc=Mica is a very rare but useful ore. You need it in order to craft your high tier coils for the EBF.%nIf you have no luck in finding this vein yet try to look for it with a Prospector..
 
 ##################################Line##################################
 
