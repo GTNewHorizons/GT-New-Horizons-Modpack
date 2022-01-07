@@ -32,9 +32,13 @@
     "50",
 	"oreBlackgraniteGold",
     "50"
+	"oreBlackgraniteCassiterite",
+    "70
+	"stoneGraniteBlack",
+    "200
   ],
-  "radius": 12,
-  "cost": 0,
+  "radius": 16,
+  "cost": 300000,
   "focusModId": "minecraft",
   "focusName": "iron_block",
   "focusMeta": 0
