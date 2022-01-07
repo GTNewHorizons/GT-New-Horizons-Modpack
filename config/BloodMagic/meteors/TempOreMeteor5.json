@@ -1,0 +1,18 @@
+{
+  "ores": [
+    "oreBlackgraniteCoal",
+    "400",
+	"oreBlackgraniteLignite",
+    "300",
+	"oreBlackgraniteGraphite",
+    "200",
+	"oreBlackgraniteDiamond",
+    "100"
+  ],
+  "radius": 11,
+  "cost": 140000,
+  "focusModId": "minecraft",
+  "focusName": "coal_block",
+  "focusMeta": 0
+}
+
