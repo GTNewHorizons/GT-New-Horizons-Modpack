@@ -1,0 +1,34 @@
+{
+  "ores": [
+    "oreMarbleCassiteriteSand",
+    "50",
+	"oreMarbleCassiterite",
+    "50",
+	"oreMarbleTin",
+    "25",
+	"oreMarbleGarnetSand",
+    "50"
+	"oreMarbleAsbestos",
+    "25"
+	"oreMarbleDiatomite",
+    "25"
+	"stoneMarble",
+    "250",
+	"oreMarbleBasalticMineralSand",
+    "50",
+	"oreMarbleGraniteMineralSand",
+    "50",
+	"oreMarbleFullersEarth",
+    "50",
+	"oreMarbleGypsum",
+    "50",
+	"rockMoon",
+    "300",
+  ],
+  "radius": 14,
+  "cost": 200000,
+  "focusModId": "minecraft",
+  "focusName": "porkchop",
+  "focusMeta": 0
+}
+
