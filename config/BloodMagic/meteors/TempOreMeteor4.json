@@ -1,7 +1,7 @@
 {
   "ores": [
     "stoneBlackGranite",
-    "300",
+    "299",
 	"oreBlackgraniteDiamond",
     "100",
 	"oreBlackgraniteEmerald",
@@ -41,10 +41,12 @@
 	"oreBlackgraniteGarnetRed",
     "50",
 	"oreBlackgraniteGarnetYellow",
-    "50"
+    "50",
+	"oreBlackgraniteNetherstar",
+    "1"
   ],
   "radius": 8,
-  "cost": 0,
+  "cost": 100000,
   "focusModId": "minecraft",
   "focusName": "diamond_block",
   "focusMeta": 0
