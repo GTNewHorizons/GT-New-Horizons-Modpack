@@ -9,8 +9,8 @@
 	"oreBlackgraniteDiamond",
     "100"
   ],
-  "radius": 11,
-  "cost": 140000,
+  "radius": 9,
+  "cost": 120000,
   "focusModId": "minecraft",
   "focusName": "coal_block",
   "focusMeta": 0
