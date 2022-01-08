@@ -1,0 +1,38 @@
+{
+  "ores": [
+    "oreRedgraniteApatite",
+    "100",
+	"oreRedgraniteTricalciumPhosphate",
+    "75",
+	"oreRedgranitePyrochlore",
+    "25",
+	"oreRedgraniteMagnetite",
+    "100",
+	"oreRedgraniteVanadiumMagnetite",
+    "75",
+	"oreRedgraniteVanadium",
+    "25",
+	"oreRedgraniteGold",
+    "50",
+	"oreRedgraniteSheldonite",
+    "50",
+	"oreRedgranitePlatinum",
+    "25",
+	"oreMarblePalladium",
+    "25",
+	"oreMarbleIridium",
+    "10",
+	"oreMarbleOsmium",
+    "5",
+	"rockMars",
+    "300",
+	"rockAsteroids",
+    "235"
+  ],
+  "radius": 18,
+  "cost": 900000,
+  "focusModId": "minecraft",
+  "focusName": "beacon",
+  "focusMeta": 0
+}
+
