@@ -22,13 +22,15 @@
     "50",
 	"oreMarbleGypsum",
     "50",
+	"oreMarbleCheese",
+    "25",
 	"rockMoon",
-    "300"
+    "275"
   ],
-  "radius": 14,
+  "radius": 15,
   "cost": 200000,
-  "focusModId": "minecraft",
-  "focusName": "porkchop",
+  "focusModId": "harvestcraft",
+  "focusName": "cheeseItem",
   "focusMeta": 0
 }
 
