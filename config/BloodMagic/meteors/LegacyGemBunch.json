@@ -45,9 +45,9 @@
 	"oreBlackgraniteNetherstar",
     "1"
   ],
-  "radius": 8,
+  "radius": 12,
   "cost": 100000,
-  "focusModId": "minecraft",
-  "focusName": "diamond_block",
-  "focusMeta": 0
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 24347
 }
