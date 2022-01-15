@@ -45,8 +45,8 @@
   ],
   "radius": 13,
   "cost": 500000,
-  "focusModId": "minecraft",
-  "focusName": "diamond",
-  "focusMeta": 0
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32463
 }
 
