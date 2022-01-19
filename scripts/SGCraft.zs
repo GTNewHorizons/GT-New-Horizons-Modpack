@@ -22,10 +22,10 @@ val sgFoil = <dreamcraft:item.StargateShieldingFoil>;
 val sgChevron = <dreamcraft:item.StargateChevron>;
 val sgFrame = <dreamcraft:item.StargateFramePart>;
 val Nanocircuit = <dreamcraft:item.NanoCircuit>;
-val UVFieldGen = <gregtech:gt.metaitem.01:32677>;
-val UVPiston = <gregtech:gt.metaitem.01:32647>;
-val UVSensor = <gregtech:gt.metaitem.01:32697>;
-val UVEmitter= <gregtech:gt.metaitem.01:32687>;
+val UEVFieldGen = <gregtech:gt.metaitem.01:32679>;
+val UEVPiston = <gregtech:gt.metaitem.01:32649>;
+val UEVSensor = <gregtech:gt.metaitem.01:32699>;
+val UEVEmitter= <gregtech:gt.metaitem.01:32689>;
 val CreativeEnergyBank = <EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000});
 val SuperconductingCoil = <gregtech:gt.blockcasings:15>;
 
@@ -71,36 +71,36 @@ recipes.remove(sgLargeCapacitor);
 // --- sgRingBlock
 mods.avaritia.ExtremeCrafting.addShaped(sgRingBlock, [
 [<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgChevron, sgFrame, sgFrame, sgFoil, sgFoil],
-[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFrame, sgFoil, UVFieldGen, UVFieldGen],
-[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFoil, UVFieldGen, null, null],
-[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFoil, UVFieldGen, null, null],
-[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgChevron, sgFoil, UVFieldGen, null, null],
-[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFoil, UVFieldGen, null, null],
-[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFoil, UVFieldGen, null, null],
-[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFrame, sgFoil, UVFieldGen, UVFieldGen],
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFrame, sgFoil, UEVFieldGen, UEVFieldGen],
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFoil, UEVFieldGen, null, null],
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFoil, UEVFieldGen, null, null],
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgChevron, sgFoil, UEVFieldGen, null, null],
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFoil, UEVFieldGen, null, null],
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFoil, UEVFieldGen, null, null],
+[<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgFrame, sgFrame, sgFoil, UEVFieldGen, UEVFieldGen],
 [<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, sgFrame, sgChevron, sgFrame, sgFrame, sgFoil, sgFoil]]);
 
 // --- sgChevronUpgrade
 mods.avaritia.ExtremeCrafting.addShaped(sgChevronUpgrade, [
 [null, null, null, null, null, null, null, null, null],
-[null, null, null, UVPiston, sgChevron, UVPiston, null, null, null],
-[null, null, null, sgFrame, UVPiston, sgFrame, null, null, null],
-[null, null, null, UVFieldGen, sgChevron, UVFieldGen, null, null, null],
-[null, null, null, sgFrame, UVSensor, sgFrame, null, null, null],
-[null, null, null, UVFieldGen, sgFrame, UVFieldGen, null, null, null],
-[null, null, null, sgFrame, UVPiston, sgFrame, null, null, null],
-[null, null, null, UVPiston, sgChevron, UVPiston, null, null, null],
+[null, null, null, UEVPiston, sgChevron, UEVPiston, null, null, null],
+[null, null, null, sgFrame, UEVPiston, sgFrame, null, null, null],
+[null, null, null, UEVFieldGen, sgChevron, UEVFieldGen, null, null, null],
+[null, null, null, sgFrame, UEVSensor, sgFrame, null, null, null],
+[null, null, null, UEVFieldGen, sgFrame, UEVFieldGen, null, null, null],
+[null, null, null, sgFrame, UEVPiston, sgFrame, null, null, null],
+[null, null, null, UEVPiston, sgChevron, UEVPiston, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
 // ---sgChevronBlock
 mods.avaritia.ExtremeCrafting.addShaped(sgChevronBlock, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <ore:blockNaquadahAlloy>, null, null, null, null],
-[null, null, null, <ore:blockNaquadahAlloy>, UVSensor, <ore:blockNaquadahAlloy>, null, null, null],
+[null, null, null, <ore:blockNaquadahAlloy>, UEVSensor, <ore:blockNaquadahAlloy>, null, null, null],
 [null, null, <ore:blockNaquadahAlloy>, Nanocircuit, sgChevronUpgrade, Nanocircuit, <ore:blockNaquadahAlloy>, null, null],
-[null, <ore:blockNaquadahAlloy>, UVSensor, sgChevronUpgrade, sgRingBlock, sgChevronUpgrade, UVSensor, <ore:blockNaquadahAlloy>, null],
+[null, <ore:blockNaquadahAlloy>, UEVSensor, sgChevronUpgrade, sgRingBlock, sgChevronUpgrade, UEVSensor, <ore:blockNaquadahAlloy>, null],
 [null, null, <ore:blockNaquadahAlloy>, Nanocircuit, sgChevronUpgrade, Nanocircuit, <ore:blockNaquadahAlloy>, null, null],
-[null, null, null, <ore:blockNaquadahAlloy>, UVSensor, <ore:blockNaquadahAlloy>,null, null, null],
+[null, null, null, <ore:blockNaquadahAlloy>, UEVSensor, <ore:blockNaquadahAlloy>,null, null, null],
 [null, null, null, null, <ore:blockNaquadahAlloy>,null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
@@ -108,7 +108,7 @@ mods.avaritia.ExtremeCrafting.addShaped(sgChevronBlock, [
 mods.avaritia.ExtremeCrafting.addShaped(sgBaseBlock, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, null, null, null],
-[null, null, null, <ore:blockNaquadahAlloy>, UVEmitter, <ore:blockNaquadahAlloy>, null, null, null],
+[null, null, null, <ore:blockNaquadahAlloy>, UEVEmitter, <ore:blockNaquadahAlloy>, null, null, null],
 [null, null, null, sgRingBlock, sgChevronBlock, sgRingBlock, null, null, null],
 [null, null, null, sgRingBlock, sgCoreCrystal, sgRingBlock, null, null, null],
 [null, null, null, sgRingBlock, sgRingBlock, sgRingBlock, null, null, null],
@@ -121,9 +121,9 @@ mods.avaritia.ExtremeCrafting.addShaped(sgLargeCapacitor, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, sgFoil, sgFoil, sgFoil, null, null, null],
-[null, null, sgFoil, UVFieldGen, CreativeEnergyBank, UVFieldGen, sgFoil, null, null],
-[null, null, sgFoil, CreativeEnergyBank, UVFieldGen, CreativeEnergyBank, sgFoil, null, null],
-[null, null, sgFoil, UVFieldGen, CreativeEnergyBank, UVFieldGen, sgFoil, null, null],
+[null, null, sgFoil, UEVFieldGen, CreativeEnergyBank, UEVFieldGen, sgFoil, null, null],
+[null, null, sgFoil, CreativeEnergyBank, UEVFieldGen, CreativeEnergyBank, sgFoil, null, null],
+[null, null, sgFoil, UEVFieldGen, CreativeEnergyBank, UEVFieldGen, sgFoil, null, null],
 [null, null, null, sgFoil, sgFoil, sgFoil, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
@@ -138,7 +138,7 @@ mods.avaritia.ExtremeCrafting.addShaped(sgIrisBlade, [
 [null, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null, null],
 [<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null, null],
 [<ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null, null],
-[<ore:blockTitanium>, UVPiston, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null],
+[<ore:blockTitanium>, UEVPiston, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, null],
 [SuperconductingCoil, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>, <ore:blockTitanium>]]);
 
 // ---sgIrisUpgrade
@@ -169,15 +169,15 @@ mods.avaritia.ExtremeCrafting.addShaped(sgRFPowerAcceptor, [
 
 // ---sgOpenComputerInterface
 mods.avaritia.ExtremeCrafting.addShaped(sgOpenComputerInterface, [
-[Nanocircuit, UVEmitter, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, UVSensor, Nanocircuit],
-[UVSensor, SuperconductingCoil, null, null, SuperconductingCoil, null, null, SuperconductingCoil, UVEmitter],
+[Nanocircuit, UEVEmitter, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, UEVSensor, Nanocircuit],
+[UEVSensor, SuperconductingCoil, null, null, SuperconductingCoil, null, null, SuperconductingCoil, UEVEmitter],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, SuperconductingCoil, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
 [SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, Nanocircuit, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, SuperconductingCoil, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
-[UVEmitter, SuperconductingCoil, null, null, SuperconductingCoil, null, null, SuperconductingCoil, UVSensor],
-[Nanocircuit, UVSensor, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, UVEmitter, Nanocircuit]]);
+[UEVEmitter, SuperconductingCoil, null, null, SuperconductingCoil, null, null, SuperconductingCoil, UEVSensor],
+[Nanocircuit, UEVSensor, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, UEVEmitter, Nanocircuit]]);
 
 // Leave this part here to copy&paste the variable names
 //sgRingBlock
