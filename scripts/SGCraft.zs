@@ -21,7 +21,7 @@ val sgCoreCrystal = <SGCraft:sgCoreCrystal>;
 val sgFoil = <dreamcraft:item.StargateShieldingFoil>;
 val sgChevron = <dreamcraft:item.StargateChevron>;
 val sgFrame = <dreamcraft:item.StargateFramePart>;
-val Nanocircuit = <dreamcraft:item.NanoCircuit>;
+val Quantumcircuit = <dreamcraft:item.QuantumCircuit>;
 val UEVFieldGen = <gregtech:gt.metaitem.01:32679>;
 val UEVPiston = <gregtech:gt.metaitem.01:32649>;
 val UEVSensor = <gregtech:gt.metaitem.01:32699>;
@@ -97,9 +97,9 @@ mods.avaritia.ExtremeCrafting.addShaped(sgChevronBlock, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, <ore:blockNaquadahAlloy>, null, null, null, null],
 [null, null, null, <ore:blockNaquadahAlloy>, UEVSensor, <ore:blockNaquadahAlloy>, null, null, null],
-[null, null, <ore:blockNaquadahAlloy>, Nanocircuit, sgChevronUpgrade, Nanocircuit, <ore:blockNaquadahAlloy>, null, null],
+[null, null, <ore:blockNaquadahAlloy>, Quantumcircuit, sgChevronUpgrade, Quantumcircuit, <ore:blockNaquadahAlloy>, null, null],
 [null, <ore:blockNaquadahAlloy>, UEVSensor, sgChevronUpgrade, sgRingBlock, sgChevronUpgrade, UEVSensor, <ore:blockNaquadahAlloy>, null],
-[null, null, <ore:blockNaquadahAlloy>, Nanocircuit, sgChevronUpgrade, Nanocircuit, <ore:blockNaquadahAlloy>, null, null],
+[null, null, <ore:blockNaquadahAlloy>, Quantumcircuit, sgChevronUpgrade, Quantumcircuit, <ore:blockNaquadahAlloy>, null, null],
 [null, null, null, <ore:blockNaquadahAlloy>, UEVSensor, <ore:blockNaquadahAlloy>,null, null, null],
 [null, null, null, null, <ore:blockNaquadahAlloy>,null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
@@ -158,26 +158,26 @@ mods.avaritia.ExtremeCrafting.addShaped(sgIrisUpgrade, [
 mods.avaritia.ExtremeCrafting.addShaped(sgRFPowerAcceptor, [
 [<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, null, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
-[<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, Nanocircuit, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, Quantumcircuit, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, sgLargeCapacitor, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
-[<ore:blockNaquadahAlloy>, null, Nanocircuit, sgLargeCapacitor, sgRingBlock, sgLargeCapacitor, Nanocircuit, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, Quantumcircuit, sgLargeCapacitor, sgRingBlock, sgLargeCapacitor, Quantumcircuit, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, sgLargeCapacitor, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
-[<ore:blockNaquadahAlloy>, null, null, null, Nanocircuit, null, null, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, null, null, Quantumcircuit, null, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, null, null, null, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>]]);
 
 
 // ---sgOpenComputerInterface
 mods.avaritia.ExtremeCrafting.addShaped(sgOpenComputerInterface, [
-[Nanocircuit, UEVEmitter, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, UEVSensor, Nanocircuit],
+[Quantumcircuit, UEVEmitter, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, UEVSensor, Quantumcircuit],
 [UEVSensor, SuperconductingCoil, null, null, SuperconductingCoil, null, null, SuperconductingCoil, UEVEmitter],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, SuperconductingCoil, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
-[SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, Nanocircuit, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil],
+[SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, Quantumcircuit, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, SuperconductingCoil, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
 [UEVEmitter, SuperconductingCoil, null, null, SuperconductingCoil, null, null, SuperconductingCoil, UEVSensor],
-[Nanocircuit, UEVSensor, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, UEVEmitter, Nanocircuit]]);
+[Quantumcircuit, UEVSensor, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, UEVEmitter, Quantumcircuit]]);
 
 // Leave this part here to copy&paste the variable names
 //sgRingBlock
