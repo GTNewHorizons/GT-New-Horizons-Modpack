@@ -158,11 +158,11 @@ mods.avaritia.ExtremeCrafting.addShaped(sgIrisUpgrade, [
 mods.avaritia.ExtremeCrafting.addShaped(sgRFPowerAcceptor, [
 [<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, SuperconductingCoil, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, null, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
-[<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, Nanocircuit, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, Quantumcircuit, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, sgLargeCapacitor, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
-[<ore:blockNaquadahAlloy>, null, Nanocircuit, sgLargeCapacitor, sgRingBlock, sgLargeCapacitor, Nanocircuit, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, Quantumcircuit, sgLargeCapacitor, sgRingBlock, sgLargeCapacitor, Quantumcircuit, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, sgLargeCapacitor, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
-[<ore:blockNaquadahAlloy>, null, null, null, Nanocircuit, null, null, null, <ore:blockNaquadahAlloy>],
+[<ore:blockNaquadahAlloy>, null, null, null, Quantumcircuit, null, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, null, null, null, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>, <ore:blockNaquadahAlloy>]]);
 
@@ -173,7 +173,7 @@ mods.avaritia.ExtremeCrafting.addShaped(sgOpenComputerInterface, [
 [UVSensor, SuperconductingCoil, null, null, SuperconductingCoil, null, null, SuperconductingCoil, UVEmitter],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, SuperconductingCoil, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
-[SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, Nanocircuit, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil],
+[SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, Quantumcircuit, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil],
 [<ore:blockNaquadahAlloy>, null, null, SuperconductingCoil, SuperconductingCoil, SuperconductingCoil, null, null, <ore:blockNaquadahAlloy>],
 [<ore:blockNaquadahAlloy>, null, SuperconductingCoil, null, SuperconductingCoil, null, SuperconductingCoil, null, <ore:blockNaquadahAlloy>],
 [UVEmitter, SuperconductingCoil, null, null, SuperconductingCoil, null, null, SuperconductingCoil, UVSensor],
