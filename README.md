@@ -226,7 +226,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.6.9 |
 | [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) | 1.0.0 |
 | [CraftPresence](https://www.curseforge.com/minecraft/mc-mods/craftpresence) | 1.8.2 |
-| [Craft Tweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.5 |
+| [Craft Tweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.3 |
 | [Crops ++](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.3.5.8 |
 | [Custom Main Menu](https://www.curseforge.com/minecraft/mc-mods/custom-main-menu) | 1.9.2 |
 | [Default World Generator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.1-b13 |
@@ -252,7 +252,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.0.8.4 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.37-GTNH |
 | [GalactiGreg](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.7 |
-| [Galaxy Space](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Galaxy-Space/) | 1.1.9-GTNH |
+| [Galaxy Space](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Galaxy-Space/) | 1.1.11-GTNH |
 | [Gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.3 |
 | [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.3.5 |
 | [Gravitation Suite](Source hidden ask Namikon)| 2.0.68u |
@@ -382,7 +382,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 ## Libs and Cores
 | Name | Version |
 | --- | --- |
-| [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.1.6 |
+| [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.1.7 |
 | [Aroma Core](https://www.curseforge.com/minecraft/mc-mods/aroma1997core) | 1.0.2.16 |
 | [AsieLib](https://github.com/Vexatos/AsieLib) | 0.5.0 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles/) | 1.0.1.14 |
