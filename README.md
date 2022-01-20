@@ -394,7 +394,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CofhLib](https://www.curseforge.com/minecraft/mc-mods/cofh-lib) | 1.2.1.185 |
 | [Creative Core](https://www.curseforge.com/minecraft/mc-mods/creativecore) | 1.3.25-GTNH |
 | [Crop Loader Core](https://github.com/GTNewHorizons/CropLoadCore) | 0.1.5 |
-| [CTMLib] (https://www.curseforge.com/minecraft/mc-mods/ctmlib) | 1.4.1.5 |
 | [Dummy Core](https://www.curseforge.com/minecraft/mc-mods/dummycore) | 1.13 |
 | [Ender Core](https://www.curseforge.com/minecraft/mc-mods/endercore) | 0.2.6 |
 | [Forge Multipart](http://jenkins.usrv.eu:8080/job/Forge-Multipart/) | 1.2.7 |
