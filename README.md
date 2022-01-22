@@ -376,7 +376,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Wireless Redstone CBE](https://github.com/GTNewHorizons/WirelessRedstone) | 1.4.4-GTNH |
 | [Witchery](https://github.com/GTNewHorizons/Witchery) | 0.24.1 |
 | [Witchery Extras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.1.3 |
-| [Witching Gadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.2.15-GTNH |
+| [Witching Gadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.2.16-GTNH |
 | [Ztones](https://www.curseforge.com/minecraft/mc-mods/ztones/) | 2.2.2custom |
 
 ## Libs and Cores
