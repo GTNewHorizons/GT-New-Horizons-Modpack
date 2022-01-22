@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.1.2.2 is out 20.01.2021
+Version 2.1.2.2 is out 22.01.2021
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -254,13 +254,13 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GalactiGreg](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.7 |
 | [Galaxy Space](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Galaxy-Space/) | 1.1.11-GTNH |
 | [Gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.3 |
-| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.3.5 |
+| [Good Generator](https://github.com/GTNewHorizons/GoodGenerator) | 0.3.6 |
 | [Gravitation Suite](Source hidden ask Namikon)| 2.0.68u |
-| [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.40.19 |
+| [Gregtech](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.40.21 |
 | [GT Scanner Mod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.6.4 |
-| [GT Ore Nei Plugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.9 |
-| [GT New Horizons Core Mod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.13 |
-| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.25-GTNH |
+| [GT Ore Nei Plugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.10 |
+| [GT New Horizons Core Mod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.14 |
+| [GT++](https://github.com/GTNewHorizons/GTPP) | 1.7.26-GTNH |
 | [GTNH TC Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.5 |
 | [GTTweaker](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 1.7.5 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
@@ -298,7 +298,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | 2.4.4 |
 | [Natura](https://github.com/GTNewHorizons/Natura) | 2.4.9 |
 | [Natures Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) | 1.3.1 |
-| [NEI](https://github.com/GTNewHorizons/NotEnoughItems) | 2.1.22-GTNH |
+| [NEI](https://github.com/GTNewHorizons/NotEnoughItems) | 2.2.0-GTNH |
 | [Nei Addons](https://www.curseforge.com/minecraft/mc-mods/nei-addons) | 1.12.18 |
 | [Nei Custom Diagramm](http://jenkins.usrv.eu:8080/job/Nei-custom-diagram/) | 1.4.4 |
 | [Nei Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.1.3 |
@@ -342,7 +342,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Tainted Magic](https://github.com/GTNewHorizons/Tainted-Magic) | r7.6 |
 | [TC Node Tracker](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker) | 1.1.4 |
 | [TC Inventoryscann](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning) | 1.0.11 |
-| [Tec Tech](https://github.com/GTNewHorizons/TecTech) | 4.10.16 |
+| [Tec Tech](https://github.com/GTNewHorizons/TecTech) | 4.10.17 |
 | [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5 |
 | [Thaumcraft Mob Aspects](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/ThaumcraftMobAspects/) | 1.0.0-GTNH |
 | [Thaumcraft-NEI-Additions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.1.0.4 |
