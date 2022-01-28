@@ -1319,7 +1319,13 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 //--- Seismic Prospector EV
 <gregtech:gt.blockmachines:1173>.addTooltip("Work Area 128 Blocks Radius = 256 Chunks");
 
+// --- Old Tooltips for circuits (stupid IC2 ARR).
 
+// LV
+<IC2:itemPartCircuit>.addTooltip(format.gray("LV-tier"));
+
+// HV
+<IC2:itemPartCircuitAdv>.addTooltip(format.yellow("HV-tier"));
 
 
 // --- Ordict Combs ---
