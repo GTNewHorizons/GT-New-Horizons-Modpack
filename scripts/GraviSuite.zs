@@ -1,6 +1,9 @@
 // ---Created by DreamMasterXXL ---
 
 
+// --- Importing things ---
+import mods.nei.NEI;
+
 
 // --- Remove Recipes ---
 
@@ -119,8 +122,11 @@ recipes.addShaped(<GraviSuite:advDDrill:27>, [
 [<ore:plateAlloyIridium>, <ore:batteryMaster>, <ore:plateAlloyIridium>]]);
 
 
+// --- NEI remove items ---
+NEI.hide(<GraviSuite:itemPlasmaCell>);
 
-// --- Nei Change Names ---
+
+// --- NEI Change Names ---
 
 
 
