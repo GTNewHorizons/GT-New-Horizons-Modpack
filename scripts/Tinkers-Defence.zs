@@ -1,6 +1,10 @@
 // --- Created by DreamMasterXXL ---
 
 
+// --- Importing Stuff ---
+import mods.nei.NEI;
+
+
 
 
 // --- Variables ---
@@ -50,6 +54,10 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:203>);
 // --- Queens Gold Arrow Head 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:202>);
 
+
+// --- Hide from NEI ---
+NEI.hide(<tinkersdefense:Heater Shield:*>);
+NEI.hide(<tinkersdefense:Round Shield:*>);
 
 
 // --- Add Recipes ---
