@@ -1304,143 +1304,6 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32376>, <liquid:
 // --- Extruder Small Gear
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapeSmallGear>, true, 100);
 
-
-
-
-
-// --- Circuit Tooltips for Tiers ---
-
-
-// --- ULV Tier
-<gregtech:gt.metaitem.01:32700>.addTooltip(format.red("ULV-tier"));
-<gregtech:gt.metaitem.03:32075>.addTooltip(format.gold("ULV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:4>.addTooltip(format.lightPurple("ULV-tier"));
-
-// --- LV Tier
-<IC2:itemPartCircuit>.addTooltip(format.red("LV-tier"));
-<gregtech:gt.metaitem.01:32701>.addTooltip(format.gold("LV-tier"));
-<gregtech:gt.metaitem.03:32078>.addTooltip(format.yellow("LV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:5>.addTooltip(format.lightPurple("LV-tier"));
-
-// --- MV Tier
-<gregtech:gt.metaitem.01:32702>.addTooltip(format.red("MV-tier"));
-<gregtech:gt.metaitem.03:32079>.addTooltip(format.gold("MV-tier"));
-<gregtech:gt.metaitem.03:32080>.addTooltip(format.yellow("MV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:6>.addTooltip(format.lightPurple("MV-tier"));
-
-// --- HV Tier
-<IC2:itemPartCircuitAdv>.addTooltip(format.gold("HV-tier"));
-<gregtech:gt.metaitem.01:32703>.addTooltip(format.yellow("HV-tier"));
-<gregtech:gt.metaitem.03:32082>.addTooltip(format.green("HV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:7>.addTooltip(format.lightPurple("HV-tier"));
-
-// --- EV Tier
-<gregtech:gt.metaitem.01:32704>.addTooltip(format.yellow("EV-tier"));
-<gregtech:gt.metaitem.03:32083>.addTooltip(format.green("EV-tier"));
-<gregtech:gt.metaitem.03:32085>.addTooltip(format.aqua("EV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:8>.addTooltip(format.lightPurple("EV-tier"));
-
-// --- IV Tier
-<gregtech:gt.metaitem.01:32705>.addTooltip(format.yellow("IV-tier"));
-<gregtech:gt.metaitem.03:32084>.addTooltip(format.green("IV-tier"));
-<gregtech:gt.metaitem.03:32086>.addTooltip(format.aqua("IV-tier"));
-<gregtech:gt.metaitem.03:32089>.addTooltip(format.blue("IV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:9>.addTooltip(format.lightPurple("IV-tier"));
-
-// --- LuV Tier
-<gregtech:gt.metaitem.01:32706>.addTooltip(format.green("LuV-tier"));
-<gregtech:gt.metaitem.03:32087>.addTooltip(format.aqua("LuV-tier"));
-<gregtech:gt.metaitem.03:32096>.addTooltip(format.blue("LuV-tier"));
-<gregtech:gt.metaitem.03:32092>.addTooltip(format.darkPurple("LuV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:10>.addTooltip(format.lightPurple("LuV-tier"));
-
-// --- ZPM Tier
-<gregtech:gt.metaitem.03:32088>.addTooltip(format.aqua("ZPM-tier"));
-<gregtech:gt.metaitem.03:32090>.addTooltip(format.blue("ZPM-tier"));
-<gregtech:gt.metaitem.03:32093>.addTooltip(format.darkPurple("ZPM-tier"));
-<gregtech:gt.metaitem.03:32097>.addTooltip(format.green("ZPM-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:11>.addTooltip(format.lightPurple("ZPM-tier"));
-
-// --- UV Tier
-<gregtech:gt.metaitem.03:32091>.addTooltip(format.blue("UV-tier"));
-<gregtech:gt.metaitem.03:32094>.addTooltip(format.darkPurple("UV-tier"));
-<gregtech:gt.metaitem.03:32098>.addTooltip(format.aqua("UV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:12>.addTooltip(format.lightPurple("UV-tier"));
-
-// --- UHV Tier
-<gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV-tier"));
-<gregtech:gt.metaitem.03:32099>.addTooltip(format.green("UHV-tier"));
-<bartworks:gt.bwMetaGeneratedItem0:13>.addTooltip(format.lightPurple("UHV-tier"));
-
-// --- UEV Tier
-<gregtech:gt.metaitem.03:32120>.addTooltip(format.green("UEV-tier"));
-
-
-// --- Batteries Tooltips for Tiers ---
-
-
-// --- LV Tier
-<gregtech:gt.metaitem.01:32510>.addTooltip(format.red("LV-tier"));
-<gregtech:gt.metaitem.01:32511>.addTooltip(format.gold("LV-tier"));
-<gregtech:gt.metaitem.01:32517>.addTooltip(format.yellow("LV-tier"));
-<gregtech:gt.metaitem.01:32518>.addTooltip(format.darkRed("LV-tier"));
-<gregtech:gt.metaitem.01:32519>.addTooltip(format.green("LV-tier"));
-
-// --- MV Tier
-<gregtech:gt.metaitem.01:32520>.addTooltip(format.red("MV-tier"));
-<gregtech:gt.metaitem.01:32521>.addTooltip(format.gold("MV-tier"));
-<gregtech:gt.metaitem.01:32527>.addTooltip(format.yellow("MV-tier"));
-<gregtech:gt.metaitem.01:32528>.addTooltip(format.darkRed("MV-tier"));
-<gregtech:gt.metaitem.01:32529>.addTooltip(format.green("MV-tier"));
-
-// --- HV Tier
-<gregtech:gt.metaitem.01:32530>.addTooltip(format.red("HV-tier"));
-<gregtech:gt.metaitem.01:32531>.addTooltip(format.gold("HV-tier"));
-<gregtech:gt.metaitem.01:32537>.addTooltip(format.yellow("HV-tier"));
-<gregtech:gt.metaitem.01:32538>.addTooltip(format.darkRed("HV-tier"));
-<gregtech:gt.metaitem.01:32539>.addTooltip(format.green("HV-tier"));
-<IC2:itemBatCrystal:*>.addTooltip(format.darkBlue("HV-tier"));
-
-// --- EV Tier
-<gregtech:gt.metaitem.01:32540>.addTooltip(format.green("EV-tier"));
-<IC2:itemBatLamaCrystal:*>.addTooltip(format.darkBlue("EV-tier"));
-
-// --- IV Tier
-<gregtech:gt.metaitem.01:32545>.addTooltip(format.green("IV-tier"));
-<gregtech:gt.metaitem.01:32597>.addTooltip(format.gold("IV-tier"));
-
-// --- LuV Tier
-<gregtech:gt.metaitem.01:32550>.addTooltip(format.green("LuV-tier"));
-<gregtech:gt.metaitem.01:32599>.addTooltip(format.gold("LuV-tier"));
-
-// --- ZPM Tier
-<gregtech:gt.metaitem.01:32555>.addTooltip(format.green("ZPM-tier"));
-<gregtech:gt.metaitem.01:32736>.addTooltip(format.gold("ZPM-tier"));
-<gregtech:gt.metaitem.01:32598>.addTooltip(format.red("ZPM-tier"));
-
-// --- UV Tier
-<gregtech:gt.metaitem.01:32560>.addTooltip(format.green("UV-tier"));
-<gregtech:gt.metaitem.01:32737>.addTooltip(format.gold("UV-tier"));
-<gregtech:gt.metaitem.01:32605>.addTooltip(format.red("UV-tier"));
-
-// --- UHV Tier
-<gregtech:gt.metaitem.01:32570>.addTooltip(format.green("UHV-tier"));
-
-// --- UEV Tier
-<gregtech:gt.metaitem.01:32575>.addTooltip(format.green("UEV-tier"));
-
-// --- UIV Tier
-<gregtech:gt.metaitem.01:32580>.addTooltip(format.green("UIV-tier"));
-
-// --- UMV Tier
-<gregtech:gt.metaitem.01:32585>.addTooltip(format.green("UMV-tier"));
-<gregtech:gt.metaitem.01:32609>.addTooltip(format.gold("UMV-tier"));
-
-// --- UXV Tier
-<gregtech:gt.metaitem.01:32590>.addTooltip(format.green("UXV-tier"));
-
-
-
 // --- Seismic Prospector Tooltips ---
 
 
@@ -1456,7 +1319,13 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 //--- Seismic Prospector EV
 <gregtech:gt.blockmachines:1173>.addTooltip("Work Area 128 Blocks Radius = 256 Chunks");
 
+// --- Old Tooltips for circuits (stupid IC2 ARR).
 
+// LV
+<IC2:itemPartCircuit>.addTooltip(format.gray("LV-tier"));
+
+// HV
+<IC2:itemPartCircuitAdv>.addTooltip(format.yellow("HV-tier"));
 
 
 // --- Ordict Combs ---

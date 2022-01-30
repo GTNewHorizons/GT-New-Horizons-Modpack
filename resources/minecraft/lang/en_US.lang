@@ -5682,7 +5682,7 @@ gtnh.quest1419.desc=...when it means you don't have to strip naked to recharge y
 
 # Quest.1420 - §9§lShake That Booty...
 gtnh.quest1420.name=§9§lShake That Booty...
-gtnh.quest1420.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting rate significantly. What will you do with all these gems??%n%n§3Has a 13% bonus output, which kinda breaks the platline balance.%n%nYou need one more casing if you don't want to use 2 energy hatches.
+gtnh.quest1420.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting rate significantly. What will you do with all these gems??%n%n§3You need one more casing if you don't want to use 2 energy hatches.
 
 # Quest.1421 - Hulk Smash!
 gtnh.quest1421.name=Hulk Smash!
@@ -6462,7 +6462,7 @@ gtnh.quest1614.desc=Dehydrate your grapes to raisins. Or make some Styrene, Benz
 
 # Quest.1615 - §9§lSynthetic Rubber
 gtnh.quest1615.name=§9§lSynthetic Rubber
-gtnh.quest1615.desc=Want to make the synthetic rubber styrene-butadine?%n%nI'll show you a way you can get it. You'll need an Oil Cracker and a Distillation Tower. There are different ways to do it and this quest is only an example of how you can make it.%n%nThe first step is to crack your Naphtha with steam.
+gtnh.quest1615.desc=Want to make the synthetic rubber styrene-butadiene?%n%nI'll show you a way you can get it. You'll need an Oil Cracker and a Distillation Tower. There are different ways to do it and this quest is only an example of how you can make it.%n%nThe first step is to crack your Naphtha with steam.
 
 # Quest.1616 - Silver 2x Cable
 gtnh.quest1616.name=Silver 2x Cable
@@ -6640,8 +6640,8 @@ gtnh.quest1658.desc=The next step is to add draconium and ender goo to the ender
 gtnh.quest1659.name=§a§lDragon Egg Omlet
 gtnh.quest1659.desc=The last step to create a dragon egg is to add enderium using a dragon heart as a catalyst. It's not used up.
 
-# Quest.1660 - §9§lStyrene-Butadine Rubber Sheet
-gtnh.quest1660.name=§9§lStyrene-Butadine Rubber Sheet
+# Quest.1660 - §9§lStyrene-Butadiene Rubber Sheet
+gtnh.quest1660.name=§9§lStyrene-Butadiene Rubber Sheet
 gtnh.quest1660.desc=Add sulfur to the raw dust to get molten styrene-butadiene rubber, then solidify it to get sheets.
 
 # Quest.1661 - §9§lSilicone Rubber

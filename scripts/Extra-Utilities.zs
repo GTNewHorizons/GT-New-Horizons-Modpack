@@ -580,12 +580,6 @@ mods.tconstruct.Casting.removeBasinRecipe(<ExtraUtilities:decorativeBlock1:5>);
 
 
 
-// --- Molecular Transformer from Advanced Solar Panels Mod
-mods.extraUtils.QED.addShapedRecipe(<AdvancedSolarPanel:BlockMolecularTransformer>, [
-[<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>],
-[<ore:circuitAdvanced>, <AdvancedSolarPanel:asp_crafting_items:12>, <ore:circuitAdvanced>],
-[<IC2:blockMachine:12>, <IC2:blockElectric:5>, <IC2:blockMachine:12>]]);
-
 // --- Ender Quarry
 mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarry>, [
 [EuropiumPlate, LuVFieldgen, EuropiumPlate],
