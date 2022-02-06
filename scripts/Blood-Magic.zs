@@ -717,7 +717,7 @@ mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:19>, [
 
 // --- Defensive Core
 mods.bloodmagic.BloodOrb.addShaped(<AWWayofTime:bloodMagicBaseItems:20>, [
-[<AWWayofTime:bloodMagicBaseAlchemyItems:1>, <tinkersdefense:Heater Shield>.withTag({InfiTool: {RenderExtra: 31, BaseDurability: 663, BaseAttack: 4, ToolEXP: 0 as long, HarvestLevel: 3, RenderHead: 31, ModDurability: 0.0 as float, Shoddy: 0.0 as float, RenderHandle: 31, Accessory: 31, MiningSpeed: 650, Unbreaking: 0, Damage: 0, HarvestLevel2: 3, BonusDurability: 0, TotalDurability: 663, MiningSpeed2: 650, Head: 31, Attack: 4, Handle: 31, Broken: 0 as byte, Extra: 31, RenderAccessory: 31, ToolLevel: 1, Modifiers: 2}, display: {Name: "§fThaumium Heater Shield"}}), <AWWayofTime:bloodMagicBaseAlchemyItems:1>],
+[<AWWayofTime:bloodMagicBaseAlchemyItems:1>, <Thaumcraft:ItemChestplateThaumium>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>],
 [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:weakBloodShard>],
 [<AWWayofTime:bloodMagicBaseAlchemyItems:1>, <AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>]]);
 
@@ -894,19 +894,19 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <dreamcraft:item
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:transcendentBloodOrb>, <dreamcraft:item.TranscendentOrb>, 6, 300000);
 
 // --- Blank Slate
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <dreamcraft:item.ArcaneSlate>, 1, 2000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <dreamcraft:item.ArcaneSlate>, 1, 1000);
 
 // --- Reinforced Slate
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, 2, 4000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:reinforcedSlate>, <AWWayofTime:blankSlate>, 2, 2500);
 
 // --- Imbued Slate
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:imbuedSlate>, <AWWayofTime:reinforcedSlate>, 3, 10000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:imbuedSlate>, <AWWayofTime:reinforcedSlate>, 3, 7500);
 
 // --- Demonic Slate
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:demonicSlate>, <AWWayofTime:imbuedSlate>, 4, 20000);
 
 // --- Ethereal Slate
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:demonicSlate>, 5, 50000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:demonicSlate>, 5, 60000);
 
 // --- Cell of Life Essense
 mods.bloodmagic.Altar.addRecipe(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <IC2:itemFluidCell>, 1, 1000);
@@ -1008,7 +1008,7 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:simpleCatalyst>, [<Thaumcraft:Ite
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:crystallos>, [<BiomesOPlenty:hardIce>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <AWWayofTime:simpleCatalyst>], 2, 1000);
 
 // --- Sanctus
-mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:sanctus>, [<gregtech:gt.metaitem.01:2086>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.01:2890>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:sanctus>, [<gregtech:gt.metaitem.01:2351>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <gregtech:gt.metaitem.01:2890>, <AWWayofTime:simpleCatalyst>], 2, 1000);
 
 // --- Weak filling Agent
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakFillingAgent>, [<AWWayofTime:simpleCatalyst>, <minecraft:glowstone_dust>, <minecraft:redstone>, <minecraft:nether_wart>, <minecraft:blaze_powder>], 3, 2000);
@@ -1053,7 +1053,7 @@ mods.bloodmagic.Alchemy.addRecipe(<minecraft:leather> * 3, [<minecraft:rotten_fl
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:fire_charge>, [<minecraft:blaze_powder>, <gregtech:gt.metaitem.01:2535>, <minecraft:gunpowder>], 1, 900);
 
 // --- Incendium
-mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:incendium>, [<minecraft:lava_bucket>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.01:2347>, <gregtech:gt.metaitem.01:2807>, <AWWayofTime:simpleCatalyst>], 2, 1000);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:incendium>, [<gregtech:gt.metaitem.01:2541>, <minecraft:blaze_powder>, <gregtech:gt.metaitem.01:1347>, <gregtech:gt.metaitem.01:2807>, <AWWayofTime:simpleCatalyst>], 2, 1000);
 
 // --- Magicales
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:magicales>, [<Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:2330>, <minecraft:gunpowder>, <AWWayofTime:simpleCatalyst>], 2, 1000);
@@ -1110,7 +1110,7 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:1>, [<
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:2>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:terrae>, <AWWayofTime:terrae>, <gregtech:gt.metaitem.01:2542>, <gregtech:gt.metaitem.01:2542>], 3, 2000);
 
 // --- Virtus
-mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:6>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <gregtech:gt.metaitem.01:2100>, <gregtech:gt.metaitem.01:2100>, <dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.ChargedCertusQuartzDust>], 3, 4000);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:6>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <gregtech:gt.metaitem.01:2346>, <gregtech:gt.metaitem.01:2346>, <dreamcraft:item.ChargedCertusQuartzDust>, <dreamcraft:item.ChargedCertusQuartzDust>], 3, 4000);
 
 // --- Reductus
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseAlchemyItems:7>, [<AWWayofTime:bloodMagicBaseAlchemyItems:3>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2702>, <gregtech:gt.metaitem.01:2379>, <gregtech:gt.metaitem.01:2379>], 3, 4000);
@@ -1192,22 +1192,22 @@ Compressor.addRecipe(<BloodArsenal:blood_stone:4>, <AWWayofTime:bloodMagicBaseIt
 
 
 // --- Arcane Slate
-CuttingSaw.addRecipe(<dreamcraft:item.ArcaneSlate> * 9, null, <Thaumcraft:blockCosmeticSolid:6>, <liquid:lifeessence> * 1000, 1200, 48);
+CuttingSaw.addRecipe(<dreamcraft:item.ArcaneSlate> * 9, null, <Thaumcraft:blockCosmeticSolid:6>, <liquid:lifeessence> * 1000, 200, 48);
 
 // --- Blank Slate
-CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 9, null, <BloodArsenal:blood_stone>, <liquid:lifeessence> * 1000, 1800, 64);
+CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 9, null, <BloodArsenal:blood_stone>, <liquid:lifeessence> * 1000, 400, 64);
 
 // --- Reinforced Slate
-CuttingSaw.addRecipe(<AWWayofTime:reinforcedSlate> * 9, null, <BloodArsenal:blood_stone:1>, <liquid:lifeessence> * 1000, 2400, 120);
+CuttingSaw.addRecipe(<AWWayofTime:reinforcedSlate> * 9, null, <BloodArsenal:blood_stone:1>, <liquid:lifeessence> * 1000, 600, 120);
 
 // --- Imbued Slate
-CuttingSaw.addRecipe(<AWWayofTime:imbuedSlate> * 9, null, <BloodArsenal:blood_stone:2>, <liquid:lifeessence> * 1000, 3000, 480);
+CuttingSaw.addRecipe(<AWWayofTime:imbuedSlate> * 9, null, <BloodArsenal:blood_stone:2>, <liquid:lifeessence> * 1000, 800, 480);
 
 // --- Demonic Slate
-CuttingSaw.addRecipe(<AWWayofTime:demonicSlate> * 9, null, <BloodArsenal:blood_stone:3>, <liquid:lifeessence> * 1000, 3600, 1920);
+CuttingSaw.addRecipe(<AWWayofTime:demonicSlate> * 9, null, <BloodArsenal:blood_stone:3>, <liquid:lifeessence> * 1000, 1000, 1920);
 
 // --- Ethereal Slate
-CuttingSaw.addRecipe(<AWWayofTime:bloodMagicBaseItems:27> * 9, null, <BloodArsenal:blood_stone:4>, <liquid:lifeessence> * 1000, 4800, 7680);
+CuttingSaw.addRecipe(<AWWayofTime:bloodMagicBaseItems:27> * 9, null, <BloodArsenal:blood_stone:4>, <liquid:lifeessence> * 1000, 1200, 7680);
 
 // --- Blank Slate from Blood Rune recycling recipe
-CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 4, null, <AWWayofTime:AlchemicalWizardrybloodRune>, <liquid:lifeessence> * 250, 1800, 64);
+CuttingSaw.addRecipe(<AWWayofTime:blankSlate> * 4, null, <AWWayofTime:AlchemicalWizardrybloodRune>, <liquid:lifeessence> * 250, 400, 64);

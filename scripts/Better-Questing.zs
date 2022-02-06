@@ -8,8 +8,6 @@
 
 
 
-// --- Submit Station
-recipes.remove(<betterquesting:submit_station>);
 
 // --- RF Submit Station
 //recipes.remove(<bq_rf:rf_station>);
@@ -26,11 +24,7 @@ recipes.remove(<questbook:ItemQuestBook>);
 
 
 
-// --- Submit Station
-recipes.addShaped(<betterquesting:submit_station>, [
-[<ore:plateWood>, <ore:plateSteel>, <ore:plateWood>],
-[<ore:plateSteel>, <ore:gearSteel>, <ore:plateSteel>],
-[<ore:plateWood>, <minecraft:chest>, <ore:plateWood>]]);
+
 
 // --- RF Submit Station
 //recipes.addShaped(<bq_rf:rf_station>, [
