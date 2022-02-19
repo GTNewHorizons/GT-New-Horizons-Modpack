@@ -587,6 +587,23 @@ mods.thaumcraft.Research.refreshResearchRecipe("MB_GrafterVoid");
 
 
 
+// --- Botania integration ---
+
+// --- Beegonia (mana from bees)
+mods.botania.Apothecary.removeRecipe("beegonia");
+mods.botania.Apothecary.addRecipe("beegonia", [<ore:flowerIngredientWhite>, <ore:flowerIngredientYellow>, <ore:flowerIngredientYellow>, <ore:flowerIngredientBlack>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:flowerAnemoneWhite>]);
+
+// --- Hiveacynth (bees from mana)
+mods.botania.Apothecary.removeRecipe("hiveacynth");
+mods.botania.Apothecary.addRecipe("hiveacynth", [<ore:flowerIngredientLightBlue>, <ore:flowerIngredientCyan>, <ore:flowerIngredientCyan>, <ore:flowerIngredientBlue>, <ore:powderMana>, <MagicBees:wax:1>, <MagicBees:miscResources:7>, <ore:powderMana>, <ore:redstoneRoot>, <ore:runeSpringB>, <ore:flowerIcyIris>]);
+
+// --- Hibeescus (ignoble to pristine bees)
+mods.botania.Apothecary.removeRecipe("hibeescus");
+mods.botania.Apothecary.addRecipe("hibeescus",  [<ore:flowerIngredientOrange>, <ore:flowerIngredientMagenta>, <ore:flowerIngredientMagenta>, <ore:flowerIngredientMagenta>, <ore:flowerIngredientRed>, <ore:powderMana>, <MagicBees:wax:1>, <MagicBees:wax:2>, <ore:runeEnvyB>, <ore:runeGreedB>, <ore:runePrideB>, <MagicBees:miscResources:10>, <ore:redstoneRoot>, <ore:eternalLifeEssence>, <ore:flowerHibiscusPink>]);
+
+
+
+
 // --- Ore dict stuff ---
 
 
