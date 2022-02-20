@@ -262,7 +262,7 @@ mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIO", <thaumicenergistics:
 // --- Essentia Storage Bus
 mods.thaumcraft.Arcane.addShaped("thaumicenergistics.TEIO", <thaumicenergistics:part.base:2>, "ordo 20, aqua 20, ignis 20, terra 20", [
 [<Thaumcraft:blockJar>, <ore:plateInfusedWater>, <Thaumcraft:blockJar>],
-[<thaumicenergistics:material>, <appliedenergistics2:item.ItemMultiPart:220>>, <thaumicenergistics:material:1>],
+[<thaumicenergistics:material>, <appliedenergistics2:item.ItemMultiPart:220>, <thaumicenergistics:material:1>],
 [<Thaumcraft:blockTube:3>, <ore:plateInfusedWater>, <Thaumcraft:blockTube:3>]]);
 // -
 mods.thaumcraft.Research.setAspects("thaumicenergistics.TEIO", "motus 18, machina 15, metallum 12, vitreus 9, aer 6, aqua 3");
