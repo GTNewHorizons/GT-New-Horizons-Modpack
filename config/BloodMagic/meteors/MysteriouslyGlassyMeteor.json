@@ -1,0 +1,14 @@
+{
+  "ores": [
+	"glass",
+    "800",
+	"oreEndstoneMysteriousCrystal",
+    "200"
+  ],
+  "radius": 16,
+  "cost": 44000000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32675
+}
+
