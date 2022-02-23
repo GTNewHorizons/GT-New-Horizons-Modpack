@@ -10,10 +10,8 @@
     "75",
 	"oreEndstoneMysteriousCrystal",
     "50",
-	"oreEndstoneUranium",
-    "50",
-	"oreEndstonePlutonium",
-    "25",
+	"oreEndstoneDeepIron",
+    "100",
 	"oreEndstoneNaquadah",
     "125",
 	"oreEndstoneNaquadahEnriched",
@@ -33,7 +31,7 @@
 	"oreEndstoneNiobium",
     "75",
 	"oreEndstoneBorax",
-    "100"
+    "75"
   ],
   "radius": 35,
   "cost": 100000000,
