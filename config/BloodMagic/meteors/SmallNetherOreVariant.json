@@ -1,7 +1,7 @@
 {
   "ores": [
 	"oreNetherrackSulfur",
-    "175",
+    "150",
 	"oreNetherrackSphalerite",
     "150",
 	"oreNetherrackThorium",
@@ -17,7 +17,9 @@
 	"oreNetherrackTantalite",
     "75",
 	"oreNetherrackPyrolusite",
-    "75"
+    "75",
+	"oreNetherrackFirestone",
+    "25"
   ],
   "radius": 12,
   "cost": 750000,
