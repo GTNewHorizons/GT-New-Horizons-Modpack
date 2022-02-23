@@ -1,0 +1,12 @@
+{
+  "ores": [
+    "rockMoon",
+    "1000"
+  ],
+  "radius": 20,
+  "cost": 500000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32462
+}
+

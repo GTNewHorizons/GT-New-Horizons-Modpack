@@ -1,0 +1,28 @@
+{
+  "ores": [
+	"oreNetherrackSulfur",
+    "175",
+	"oreNetherrackSphalerite",
+    "150",
+	"oreNetherrackThorium",
+    "100",
+	"oreNetherrackEmerald",
+    "75",
+	"oreNetherrackCopper",
+    "100",
+	"oreNetherrackTetra",
+    "150",
+	"oreNetherrackStibnite",
+    "75",
+	"oreNetherrackTantalite",
+    "75",
+	"oreNetherrackPyrolusite",
+    "75"
+  ],
+  "radius": 12,
+  "cost": 750000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32671
+}
+
