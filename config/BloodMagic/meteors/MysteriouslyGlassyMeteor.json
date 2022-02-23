@@ -1,9 +1,9 @@
 {
   "ores": [
 	"blockGlassColorless",
-    "800",
+    "950",
 	"oreEndstoneMysteriousCrystal",
-    "200"
+    "50"
   ],
   "radius": 16,
   "cost": 44000000,
