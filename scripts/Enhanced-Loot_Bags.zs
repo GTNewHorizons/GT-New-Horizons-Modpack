@@ -33,8 +33,8 @@ recipes.addShapeless(<enhancedlootbags:lootbag:9>.withTag({ench: [{lvl: 3 as sho
 // --- Loot Bag (Magic Adept)
 recipes.addShapeless(<enhancedlootbags:lootbag:10>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:10>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Thaumcraft:ItemBathSalts>]);
 
-// --- Loot Bag (Magic Adept)
-recipes.addShapeless(<enhancedlootbags:lootbag:11>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:10>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Thaumcraft:WandCap:7>]);
+// --- Loot Bag (Magic Master)
+recipes.addShapeless(<enhancedlootbags:lootbag:11>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:11>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Thaumcraft:WandCap:7>]);
 
 // --- Loot Bag (Magic Grandmaster)
 recipes.addShapeless(<enhancedlootbags:lootbag:12>.withTag({ench: [{lvl: 3 as short, id: 35 as short}], RepairCost: 2}), [<enhancedlootbags:lootbag:12>, <minecraft:enchanted_book>.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <Thaumcraft:ItemEldritchObject>]);
