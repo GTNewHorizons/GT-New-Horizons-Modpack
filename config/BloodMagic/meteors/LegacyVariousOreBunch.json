@@ -17,8 +17,8 @@
 	"oreBlackgraniteSoapstone",
     "20"
   ],
-  "radius": 8,
-  "cost": 0,
+  "radius": 9,
+  "cost": 750000,
   "focusModId": "minecraft",
   "focusName": "nether_star",
   "focusMeta": 0

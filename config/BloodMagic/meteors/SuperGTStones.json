@@ -1,0 +1,18 @@
+{
+  "ores": [
+    "stoneMarble",
+    "250",
+	"stoneBasalt",
+    "250",
+	"stoneGraniteRed",
+    "250",
+	"stoneGraniteBlack",
+    "250"
+  ],
+  "radius": 20,
+  "cost": 775000,
+  "focusModId": "minecraft",
+  "focusName": "tnt",
+  "focusMeta": 0
+}
+

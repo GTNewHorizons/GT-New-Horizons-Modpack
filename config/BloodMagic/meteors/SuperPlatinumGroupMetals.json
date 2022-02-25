@@ -1,0 +1,24 @@
+{
+  "ores": [
+	"oreEndstonePlatinum",
+    "250",
+	"oreEndstoneIridium",
+    "100",
+	"oreEndstonePalladium",
+    "100",
+	"oreEndstoneOsmium",
+    "50",
+	"oreCrudeRhodiumMetal",
+    "200",
+	"oreLeachResidue",
+    "200",
+	"oreRarestMetalResidue",
+    "100"
+  ],
+  "radius": 18,
+  "cost": 30000000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32684
+}
+
