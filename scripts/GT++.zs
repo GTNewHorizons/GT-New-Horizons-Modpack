@@ -104,6 +104,9 @@ recipes.remove(<miscutils:itemBoilerChassis:2>);
 // --- HV Tank
 recipes.remove(<gregtech:gt.blockmachines:820>);
 
+// --- Iverted Obsidian --> until Sunnarium is nerfed to that tier it belongs
+recipes.remove(<miscutils:blockCompressedObsidian:5>);
+
 // --- Add Recipes ---
 
 
