@@ -945,7 +945,7 @@ recipes.addShaped(<IC2:reactorVentSpread>, [
 
 // --- Heat Exchanger
 recipes.addShaped(<IC2:reactorHeatSwitch:1>, [
-[<ore:plateSilver>, <ore:circuitBasic>, <ore:plateSilver>],
+[<ore:plateSilver>, <ore:circuitAdvanced>, <ore:plateSilver>],
 [<ore:plateAluminium>, <ore:plateCopper>, <ore:plateAluminium>],
 [<ore:plateSilver>, <ore:plateAluminium>, <ore:plateSilver>]]);
 
@@ -958,14 +958,14 @@ recipes.addShaped(<IC2:reactorHeatSwitchCore:1>, [
 // --- Component Heat Exchanger
 recipes.addShaped(<IC2:reactorHeatSwitchSpread:1>, [
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>],
-[<ore:plateGold>, <IC2:reactorHeatSwitchCore:1>, <ore:plateGold>],
+[<ore:plateGold>, <IC2:reactorHeatSwitch:1>, <ore:plateGold>],
 [<ore:screwStainlessSteel>, <ore:plateGold>, <ore:screwStainlessSteel>]]);
 
 // --- Advanced Heat Exchanger
 recipes.addShaped(<IC2:reactorHeatSwitchDiamond:1>, [
-[<ore:plateLapis>, <ore:circuitAdvanced>, <ore:plateLapis>],
-[<IC2:reactorHeatSwitchSpread:1>, <ore:plateDiamond>, <IC2:reactorHeatSwitchSpread:1>],
-[<ore:plateLapis>, <ore:circuitAdvanced>, <ore:plateLapis>]]);
+[<ore:plateLapis>, <ore:circuitData>, <ore:plateLapis>],
+[<IC2:reactorHeatSwitch:1>, <ore:plateDiamond>, <IC2:reactorHeatSwitch:1>],
+[<ore:plateLapis>, <ore:circuitData>, <ore:plateLapis>]]);
 
 // --- RSH Condensator
 recipes.addShaped(<IC2:reactorCondensator:1>, [
