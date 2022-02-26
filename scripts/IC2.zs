@@ -736,12 +736,6 @@ recipes.addShaped(<IC2:blockGenerator:8>, [
 [<IC2:itemBatREDischarged>, <gregtech:gt.blockmachines:12>, <IC2:itemBatREDischarged>],
 [<ore:circuitBasic>, <IC2:itemRecipePart:5>, <gregtech:gt.metaitem.01:32601>]]);
 
-// --- Reactor Chamber
-recipes.addShaped(<IC2:blockReactorChamber>, [
-[<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>],
-[<ore:plateDenseTitanium>, <IC2:blockMachine:12>, <ore:plateDenseTitanium>],
-[<ore:plateDenseLead>, <ore:plateAlloyAdvanced>, <ore:plateDenseLead>]]);
-
 // --- Heat Conductor
 recipes.addShaped(<IC2:itemRecipePart:5>, [
 [<ore:plateAnyRubber>, <ore:plateCopper>, <ore:plateAnyRubber>],
@@ -1288,12 +1282,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<IC2:blockMachine2>, [
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
-
-// --- Nuclear Reactor
-recipes.addShaped(<IC2:blockGenerator:5>, [
-[<ore:plateDenseLead>, <ore:circuitAdvanced>, <ore:plateDenseLead>],
-[<IC2:blockReactorChamber>, <IC2:blockReactorChamber>, <IC2:blockReactorChamber>],
-[<ore:plateDenseTitanium>, <ore:cableGt08Platinum>, <ore:plateDenseTitanium>]]);
 
 // --- Fluid Heat Generator
 recipes.addShaped(<IC2:blockHeatGenerator:1>, [
