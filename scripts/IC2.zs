@@ -891,22 +891,6 @@ recipes.addShaped(IronFurnace, [
 [IronPlate, Wrench, IronPlate],
 [IronPlate, Furnace, IronPlate]]);
 
-// --- Neutron Reflector
-recipes.addShaped(<IC2:reactorReflector:1>, [
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
-[<ore:dustGraphite>, <ore:plateDenseCopper>, <ore:dustGraphite>],
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
-// -
-recipes.addShaped(<IC2:reactorReflector:1>, [
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
-[<ore:dustGraphite>, <ore:plateDenseSteel>, <ore:dustGraphite>],
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
-// -
-recipes.addShaped(<IC2:reactorReflector:1>, [
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>],
-[<ore:dustGraphite>, <ore:plateDoubleBeryllium>, <ore:dustGraphite>],
-[<ore:plateTin>, <ore:plateAlloyCarbon>, <ore:plateTin>]]);
-
 // --- Heat Vent
 recipes.addShaped(<IC2:reactorVent:1>, [
 [<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>],
