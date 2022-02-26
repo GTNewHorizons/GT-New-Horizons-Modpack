@@ -238,6 +238,7 @@ recipes.addShaped(<gregtech:gt.blockmachines:820>, [
 
 
 
+
 // --- Assembler Recipes ---
 
 
@@ -246,11 +247,12 @@ Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium
 
 
 
+
 // --- Engraved Laser Recipes ---
 
 
 // --- Sunnarium Bits
-PrecisionLaser.addRecipe(<miscutils:SunnariumBit> * 3, <miscutils:MU-metaitem.01:32140> * 0, <miscutils:blockCompressedObsidian:8>, 2000, 1920);
+PrecisionLaser.addRecipe(<miscutils:SunnariumBit> * 3, <miscutils:blockCompressedObsidian:8>, <miscutils:MU-metaitem.01:32140> * 0, 2000, 1920);
 
 
 
