@@ -6,6 +6,7 @@
 
 
 import mods.gregtech.Assembler;
+import mods.gregtech.PrecisionLaser;
 import mods.gregtech.Pulverizer;
 
 
@@ -242,6 +243,14 @@ recipes.addShaped(<gregtech:gt.blockmachines:820>, [
 
 // --- Personal Cloaking Device
 Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium> * 4, <gregtech:gt.metaitem.01:32597>, <liquid:molten.nichrome> * 1440, 2400, 7860);
+
+
+
+// --- Engraved Laser Recipes ---
+
+
+// --- Sunnarium Bits
+PrecisionLaser.addRecipe(<miscutils:SunnariumBit> * 3, <miscutils:MU-metaitem.01:32140> * 0, <miscutils:blockCompressedObsidian:8>, 2000, 1920);
 
 
 
