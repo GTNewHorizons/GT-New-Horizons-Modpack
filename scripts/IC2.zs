@@ -916,7 +916,7 @@ recipes.addShaped(<IC2:reactorReflector:1>, [
 // --- Heat Vent
 recipes.addShaped(<IC2:reactorVent:1>, [
 [<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>],
-[<minecraft:iron_bars>, <ore:craftingToolWrench>, <minecraft:iron_bars>],
+[<minecraft:iron_bars>, <gregtech:gt.metaitem.01:32600>, <minecraft:iron_bars>],
 [<ore:plateAluminium>, <minecraft:iron_bars>, <ore:plateAluminium>]]);
 
 // --- Reactor Heat Vent
@@ -927,9 +927,9 @@ recipes.addShaped(<IC2:reactorVentCore:1>, [
 
 // --- Advanced Heat Vent
 recipes.addShaped(<IC2:reactorVentDiamond:1>, [
-[<dreamcraft:item.SteelBars>, <IC2:reactorVentCore:1>, <dreamcraft:item.SteelBars>],
-[<dreamcraft:item.SteelBars>, <IC2:itemPartIndustrialDiamond>, <dreamcraft:item.SteelBars>],
-[<dreamcraft:item.SteelBars>, <IC2:reactorVentCore:1>, <dreamcraft:item.SteelBars>]]);
+[<dreamcraft:item.StainlessSteelBars>, <IC2:reactorVent:1>, <dreamcraft:item.StainlessSteelBars>],
+[<dreamcraft:item.StainlessSteelBars>, <IC2:itemPartIndustrialDiamond>, <dreamcraft:item.StainlessSteelBars>],
+[<dreamcraft:item.StainlessSteelBars>, <IC2:reactorVent:1>, <dreamcraft:item.StainlessSteelBars>]]);
 
 // --- Overclocked Heat Vent
 recipes.addShaped(<IC2:reactorVentGold:1>, [
