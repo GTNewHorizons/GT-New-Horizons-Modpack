@@ -1025,9 +1025,9 @@ recipes.addShaped(<IC2:itemToolPainter>, [
 
 // --- Charging RE Battery
 recipes.addShaped(<IC2:itemBatChargeRE>, [
-[<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>],
-[<ore:batteryBasic>, <gregtech:gt.metaitem.01:17315>, <ore:batteryBasic>],
-[<ore:circuitBasic>, <ore:batteryBasic>, <ore:circuitBasic>]]);
+[<ore:batteryBasic>, <ore:cableGt01Tin>, <ore:batteryBasic>],
+[<ore:circuitBasic>, <gregtech:gt.metaitem.01:17315>, <ore:circuitBasic>],
+[<ore:batteryBasic>, <ore:cableGt01Tin>, <ore:batteryBasic>]]);
 
 // --- Personal Safe
 recipes.addShaped(<IC2:blockPersonal>, [
