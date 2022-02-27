@@ -1208,19 +1208,19 @@ recipes.addShaped(Ladder * 8, [
 
 // --- Fence
 recipes.addShaped(Fence, [
-[Stick, Plank, Stick],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
 [IronScrew, Screwdriver, IronScrew],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
 [null, null, null],
