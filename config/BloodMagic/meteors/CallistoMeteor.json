@@ -1,0 +1,30 @@
+{
+  "ores": [
+    "oreMarbleTopaz",
+    "50",
+	"oreMarbleBlueTopaz",
+    "50",
+	"oreMarbleChromite",
+    "75",
+	"oreMarbleUvarovite",
+    "125",
+	"oreMarblePlatinum",
+    "50",
+	"oreMarbleNickel",
+    "100",
+	"oreMarbleIridium",
+    "50",
+	"oreMarbleLedox",
+    "50",
+	"oreMarbleCallistoIce",
+    "100",
+	"rockCallisto",
+    "350"
+  ],
+  "radius": 16,
+  "cost": 1000000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32464
+}
+

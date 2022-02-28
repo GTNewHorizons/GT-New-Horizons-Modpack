@@ -1,0 +1,16 @@
+{
+  "ores": [
+    "oreBlackgraniteGraphite",
+    "650",
+	"oreBlackgraniteDiamond",
+    "150",
+	"stoneGraniteBlack",
+    "250" 
+  ],
+  "radius": 10,
+  "cost": 120000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.02",
+  "focusMeta": 30500
+}
+

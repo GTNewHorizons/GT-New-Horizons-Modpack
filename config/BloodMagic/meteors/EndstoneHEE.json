@@ -1,0 +1,22 @@
+{
+  "ores": [
+    "endstone",
+    "799",
+	"oreHeeEndPowder",
+    "100",
+	"oreHeeStardust",
+    "50",
+	"oreHeeIgneousRock",
+    "50",
+	"oreHeeEndium",
+    "50",
+	"oreHeeInstabilityOrb",
+    "1"
+  ],
+  "radius": 12,
+  "cost": 500000,
+  "focusModId": "minecraft",
+  "focusName": "end_stone",
+  "focusMeta": 0
+}
+

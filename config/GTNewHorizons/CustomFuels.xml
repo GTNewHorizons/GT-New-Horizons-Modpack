@@ -12,7 +12,7 @@
 	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCharcoal" BurnTime="11664000"/>
 	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCoal" BurnTime="11664000"/>
 	<FuelItem ItemName="dreamcraft:tile.TripleCompressedCoalCoke" BurnTime="23328000"/>
-    <FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCharcoal" BurnTime="104976000"/>
+	<FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCharcoal" BurnTime="104976000"/>
 	<FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCoal" BurnTime="104976000"/>
 	<FuelItem ItemName="dreamcraft:tile.QuadrupleCompressedCoalCoke" BurnTime="209952000"/>
 	<FuelItem ItemName="dreamcraft:tile.QuintupleCompressedCharcoal" BurnTime="944784000"/>
