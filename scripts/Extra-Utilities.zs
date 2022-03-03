@@ -934,6 +934,12 @@ mods.extraUtils.QED.addShapedRecipe(HyperETransferN, [
 [<gregtech:gt.metaitem.01:17533>, <gregtech:gt.metaitem.01:11395>, <gregtech:gt.metaitem.01:17533>],
 [EnergyTransferN, EnergyTransferN, EnergyTransferN]]);
 
+// --- Iverted Obsidian
+mods.extraUtils.QED.addShapedRecipe(<miscutils:blockCompressedObsidian:5>, [
+[<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustRedstone>],
+[<ore:dustGlowstone>, <ore:blockObsidian>, <ore:dustGlowstone>],
+[<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustRedstone>]]);
+
 // --- Trash Can
 recipes.addShaped(<ExtraUtilities:trashcan>, [
 [<ore:plateIron>, <ore:craftingToolHardHammer>, <ore:plateIron>],
