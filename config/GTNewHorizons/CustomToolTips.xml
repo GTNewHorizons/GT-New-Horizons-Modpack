@@ -403,6 +403,10 @@
 	<ToolTip ItemName="Railcraft:machine.eta:7" ToolTip="Has 512 buckets capacity per block"/>
 	<ToolTip ItemName="Railcraft:machine.eta:8" ToolTip="Has 512 buckets capacity per block \nAuto-Output from bottom side \nAuto-Output rate is 1000L/t"/>
 
+//Cubic Zirconia
+    <ToolTip ItemName="bartworks:gt.bwMetaGenerateddust:4" ToolTip="§3Check Flawed Crystal recipe in EBF"/>
+	<ToolTip ItemName="bartworks:gt.bwMetaGeneratedgem:4" ToolTip="§3Check Flawed Crystal recipe in EBF"/>
+
 
 	
 </CustomToolTips>
