@@ -1814,8 +1814,7 @@
         <Loot Identifier="d887a442-3a72-4e70-8888-f5353802f18b" ItemName="StevesFactoryManager:BlockMachineManagerName" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="dd7cdf4a-2100-440b-a1ec-429e5b1f4d2f" ItemName="StevesFactoryManager:BlockCableName" Amount="32" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
     </LootGroup>
-    <LootGroup GroupMetaID="43" GroupName="Tier 8 UV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">
-        <Loot Identifier="genericdrop_diamond" ItemName="minecraft:diamond" Amount="1" NBTTag="" Chance="5" LimitedDropCount="0" RandomAmount="false"/>
+    <LootGroup GroupMetaID="43" GroupName="Tier 8 UV" Rarity="3" MinItems="1" MaxItems="2" CombineTrashGroup="true">   
         <Loot Identifier="3393d621-5bd9-4a02-ba05-aa23ef65fce7" ItemName="dreamcraft:item.RawNeutronium" Amount="64" NBTTag="" Chance="50" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="4ea57b7d-cd75-4729-9d81-2e53d959402b" ItemName="dreamcraft:item.HeavyDutyAlloyIngotT6" Amount="16" NBTTag="" Chance="20" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
         <Loot Identifier="60fc9ed4-c01a-4da3-b646-b75f2f93f7e9" ItemName="bartworks:BW_GlasBlocks:4" Amount="32" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="false"/>
