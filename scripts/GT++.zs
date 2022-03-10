@@ -252,7 +252,7 @@ Assembler.addRecipe(<miscutils:personalCloakingDevice-0.0>, <IC2:itemPartIridium
 
 
 // --- Sunnarium Bits
-PrecisionLaser.addRecipe(<miscutils:SunnariumBit> * 3, <miscutils:blockCompressedObsidian:8>, <miscutils:MU-metaitem.01:32140> * 0, 2000, 1920);
+//PrecisionLaser.addRecipe(<miscutils:SunnariumBit> * 3, <miscutils:blockCompressedObsidian:8>, <miscutils:MU-metaitem.01:32140> * 0, 2000, 1920);
 
 
 
