@@ -1412,4 +1412,4 @@ Pulverizer.addRecipe([<EnderIO:itemMaterial:17>, <EnderIO:itemMaterial:17>, <End
 
 
 // --- Untreated Frame (Forestry)
-<EnderIO:blockTravelAnchor>.addTooltip("Cooldown 5 seconds");
+<EnderIO:blockTravelAnchor>.addTooltip("Cooldown 2 seconds");
