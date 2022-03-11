@@ -1639,19 +1639,6 @@ BlastFurnace.addRecipe([<IC2:itemPartCarbonPlate>], [<dreamcraft:item.BioCarbonP
 
 
 
-// --- Brewing Recipes ---
-
-
-// --- Bio Mass
-Brewery.addRecipe(<liquid:ic2biomass> * 1000, <IC2:itemBiochaff>, <liquid:water> * 1000, false);
-
-
-
-
-// --- Canner Recipes
-
-
-
 // --- Chemical Bath Recipes ---
 
 
