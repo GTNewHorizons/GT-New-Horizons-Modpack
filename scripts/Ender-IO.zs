@@ -762,12 +762,12 @@ recipes.addShaped(<EnderIO:blockTransceiver>, [
 // --- Item Buffer
 recipes.addShaped(<EnderIO:blockBuffer>, [
 [ESteelPlate, Chest, ESteelPlate],
-[LvConveyor, <ore:frameGtEnderium>, Circuit]]);
+[LvConveyor, <ore:frameGtDarkSteel>, Circuit]]);
 
 // --- Power Buffer
 recipes.addShaped(<EnderIO:blockBuffer:1>, [
 [ESteelPlate, EConduit, ESteelPlate],
-[<gregtech:gt.metaitem.01:32519>, <ore:frameGtEnderium>, Circuit]]);
+[<gregtech:gt.metaitem.01:32519>, <ore:frameGtDarkSteel>, Circuit]]);
 
 // --- Inventory Panel
 recipes.addShaped(<EnderIO:blockInventoryPanel>, [
