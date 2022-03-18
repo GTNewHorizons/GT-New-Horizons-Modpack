@@ -2816,9 +2816,6 @@ Assembler.addRecipe(<minecraft:trapdoor> * 4, <minecraft:wooden_slab> * 4, <Biom
 Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab> * 4, <BiomesOPlenty:bamboo> * 4, <liquid:molten.steel> * 16, 600, 4);
 
 
-// --- Piston
-Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcraft:item.PistonPlate>, 100, 30);
-
 // --- Bookshelf
 Assembler.addRecipe(<minecraft:bookshelf>, <minecraft:planks:*> * 6, <minecraft:book> * 3, 300, 16);
 
