@@ -732,7 +732,22 @@ recipes.addShaped(<GalacticraftCore:tile.telemetry>, [
 // --- Arc Lamp
 recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
 [DeshPlate,DeshPlate,DeshPlate],
-[DeshPlate, <gregtech:gt.metaitem.01:32500>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, <GalaxySpace:ceresglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, DeshPlate, DeshPlate]]);
+// -
+recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
+[DeshPlate,DeshPlate,DeshPlate],
+[DeshPlate, <GalaxySpace:ioglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, DeshPlate, DeshPlate]]);
+// -
+recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
+[DeshPlate,DeshPlate,DeshPlate],
+[DeshPlate, <GalaxySpace:enceladusglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, DeshPlate, DeshPlate]]);
+// -
+recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
+[DeshPlate,DeshPlate,DeshPlate],
+[DeshPlate, <GalaxySpace:proteusglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
 [DeshPlate, DeshPlate, DeshPlate]]);
 
 // --- Oxygen Gear

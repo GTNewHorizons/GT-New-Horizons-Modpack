@@ -14,6 +14,7 @@ import mods.ic2.Compressor;
 import mods.gregtech.Distillery;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidCanner;
+import mods.gregtech.FluidSolidifier;
 import mods.gregtech.Fuels;
 import mods.gregtech.Lathe;
 import mods.gregtech.Pulverizer;
@@ -1799,6 +1800,17 @@ FluidCanner.addRecipe(<IC2:reactorCoolantTriple:1>, <dreamcraft:item.ThirtyKCell
 
 // --- 60k Cooling Cell
 FluidCanner.addRecipe(<IC2:reactorCoolantSix:1>, <dreamcraft:item.SixtyKCell>, null, <liquid:ic2coolant> * 6000);
+
+
+
+// --- Fluid Solidifier
+
+
+
+// --- Rubber Boots
+FluidSolidifier.addRecipe(<IC2:itemArmorRubBoots>, <dreamcraft:item.MoldBoots> * 0, <liquid:molten.rubber> * 720, 300, 30);
+
+
 
 
 // --- Lathe Recipes
