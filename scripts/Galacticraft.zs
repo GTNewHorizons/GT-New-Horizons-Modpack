@@ -749,6 +749,11 @@ recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
 [DeshPlate,DeshPlate,DeshPlate],
 [DeshPlate, <GalaxySpace:proteusglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
 [DeshPlate, DeshPlate, DeshPlate]]);
+// -
+recipes.addShaped(<GalacticraftCore:tile.arclamp>, [
+[DeshPlate,DeshPlate,DeshPlate],
+[DeshPlate, <GalaxySpace:plutoglowstone>, <ProjRed|Illumination:projectred.illumination.lamp:16>],
+[DeshPlate, DeshPlate, DeshPlate]]);
 
 // --- Oxygen Gear
 recipes.addShaped(<GalacticraftCore:item.oxygenGear>, [
