@@ -296,9 +296,9 @@ gtnh.quest72.desc=Rotors are also crafted using an identical pattern with differ
 gtnh.quest73.name=§3§lBasic Crafting: Machine Hulls
 gtnh.quest73.desc=All machines need a hull to keep their private parts together. Good news is: They are crafted in the same way for every tier, only the materials change.%n%n§3As noted on the tooltip, you can also use a machine hull to pass EU through, at 1A. This can be useful for a 1A diode on Thermos servers, splitting cables from 4A->1A or in a cleanroom later. You can also pass items or fluids through it.
 
-# Quest.74 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
-gtnh.quest74.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
-gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you can't find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n§3You need to make it yourself. Stuff you've stolen from villages doesn't count.%n%nThe smeltry does not double ores in GTNH. Later machines will help you there.
+# Quest.74 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Now Prepared, Hopefully!
+gtnh.quest74.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Now Prepared, Hopefully!
+gtnh.quest74.desc=No matter where you got this smeltry from, you have one now. Time for some casting!%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you can't find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base. Taller/wider smelteries can do more items at one time, conserving fuel.%n%n§3The smeltry does not double ores in GTNH. Later machines will help you there.
 
 # Quest.75 - §6§lThe Water Dilemma
 gtnh.quest75.name=§6§lThe Water Dilemma
@@ -346,7 +346,7 @@ gtnh.quest85.desc=...with this great invention! Uses power to smelt up to 2 stac
 
 # Quest.86 - §6§lTungstensteel Coil Upgrade
 gtnh.quest86.name=§6§lTungstensteel Coil Upgrade
-gtnh.quest86.desc=To process more advanced materials like enderium, enriched naquadah or niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.
+gtnh.quest86.desc=To process more advanced materials like enderium and niobium-titanium you need more than 3600K. Time to upgrade your EBF... again.
 
 # Quest.87 - §6§lSteel Multiblock Tanks
 gtnh.quest87.name=§6§lSteel Multiblock Tanks
@@ -414,7 +414,7 @@ gtnh.quest102.desc=An absolutely mandatory machine to have. It will cut rods int
 
 # Quest.103 - §5§lGetting Ready for Tier 2, MV
 gtnh.quest103.name=§5§lGetting Ready for Tier 2, MV
-gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, ten is enough to complete this quest. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. Check back in your Tier 0 quests for hints.%n%nYou'll need to do the EBF quest in Multiblock Goals to turn the dust into ingots. If you can't find how to get nickel, go visit the Twilight Forest, where Cryolite is found as well. Go and find a new Galena vein.%n%nBy the time you've completed this, you'll probably be done most of the tab, but you'll still need Good (MV) circuits to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins, you need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
+gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, ten is enough to complete this quest. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. Check back in your Tier 0 quests for hints.%n%nYou'll need to do the EBF quest in Multiblock Goals to turn the dust into ingots. If you can't find how to get nickel, go visit the Twilight Forest, where Cryolite is found as well. Go and find a new Galena vein.%n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good (MV) circuits to actually open up the next tier if you haven't done that yet.%n%n§3Also check the Armor and Jetpacks tab for new unlocks.%nNote: If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.%nCheck out the the Lead, Galena, Silver and Cryolite quest in the Novice Thaumaturgy Tab.
 
 # Quest.104 - §5§lYour Magic Progression
 gtnh.quest104.name=§5§lYour Magic Progression
@@ -1142,7 +1142,7 @@ gtnh.quest284.desc=What... What am I doing here? Where am I?! What is this place
 
 # Quest.285 - Concentrated Darkness
 gtnh.quest285.name=Concentrated Darkness
-gtnh.quest285.desc=For some reason, you decided to infuse darkness into a seed. It appeared to be promising. For what? You don't know...%n%n§3For the Eldritch research you need to be > 30 for the first, and > 50 for the second. It can be any type of warp, take advantage of that!
+gtnh.quest285.desc=For some reason, you decided to infuse darkness into a seed. It appeared to be promising. For what? You don't know...%n%n§3For the Eldritch research you need to be > 30 for the first, and > 50 for the second. Temporary warp won't work, however.
 
 # Quest.286 - "Armor"
 gtnh.quest286.name="Armor"
@@ -1590,7 +1590,7 @@ gtnh.quest396.desc=Now that I've found a way to stabilize the draconium dust and
 
 # Quest.397 - Endless evolution
 gtnh.quest397.name=Endless evolution
-gtnh.quest397.desc=Using your machine, you can now craft infinite amounts of these cores. And since it would be gruesome to let your golem work just for one single core, you decided to only request cores in a large batch of 64. How nice of you.
+gtnh.quest397.desc=Using your machine, you can now craft infinite amounts of these cores. And since it would be gruesome to let your golem work just for one single core, you decided to only request cores in a large batch of 16. How nice of you.
 
 # Quest.398 - Kill Baba Yaga
 gtnh.quest398.name=Kill Baba Yaga
@@ -1902,7 +1902,7 @@ gtnh.quest474.desc=Find iron, copper and tin ore. Very funny... How can you mine
 
 # Quest.475 - §6§lHSS-G Coil Upgrade
 gtnh.quest475.name=§6§lHSS-G Coil Upgrade
-gtnh.quest475.desc=To process more advanced materials like HSS-E, HSS-S, naquadah or draconium you need more than 4500K. Time to upgrade your EBF to 5400k.
+gtnh.quest475.desc=To process more advanced materials like HSS-E, HSS-S, naquadah and you need more than 4500K. Time to upgrade your EBF to 5400k.
 
 # Quest.476 - §6§lNaquadah Coil Upgrade
 gtnh.quest476.name=§6§lNaquadah Coil Upgrade
@@ -1966,7 +1966,7 @@ gtnh.quest490.desc=For the truly insane mad scientists out there. Or people who 
 
 # Quest.491 - §2§lSleeping Outside
 gtnh.quest491.name=§2§lSleeping Outside
-gtnh.quest491.desc=Carrying the bed with you all the time the looks very funny. Why don't you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. This way if you die, you'll be right at home! Be warned: If you play on a server then you'd better sleep below Y 128, as nights are very cold in the mountains...
+gtnh.quest491.desc=Carrying the bed with you all the time the looks very funny. Why don't you craft a sleeping bag to stay outside without placing a bed and changing your spawn point. This way if you die, you'll be right at home!
 
 # Quest.492 - §2§lSheep Hairdresser
 gtnh.quest492.name=§2§lSheep Hairdresser
@@ -2218,7 +2218,7 @@ gtnh.quest553.desc=If you get an MV mixer, you can mix your light and heavy fuel
 
 # Quest.554 - §5§lHey DJ, Mix it!
 gtnh.quest554.name=§5§lHey DJ, Mix it!
-gtnh.quest554.desc=The mixer is a very useful device. You can mix all kinds of fluids and items. Useful to prevent dust from falling to the ground when crafting - most mixer recipes give a slight boost over hand crafting!%n%n§3You get +3 slots in the EV+ versions, this one has 6.%n%n§3Hint: You can use the battery slot and other extra slots in the GUI to store unused configuration circuits.
+gtnh.quest554.desc=The mixer is a very useful device. You can mix all kinds of fluids and items. Useful to prevent dust from falling to the ground when crafting - most mixer recipes give a slight boost over hand crafting!%n%n§3You get +3 slots in the EV+ versions, this one has 6.%n%n§3Hint: You can use the battery slot and other extra slots in the GUI to store anything you like!
 
 # Quest.555 - §5§lN Like Nitrogen... Hide, the Alphabet Strikes Again!
 gtnh.quest555.name=§5§lN Like Nitrogen... Hide, the Alphabet Strikes Again!
@@ -2494,7 +2494,7 @@ gtnh.quest622.desc=Salt ore mixes can be found in the Overworld between Y 50-70.
 
 # Quest.623 - §5§lCadmium
 gtnh.quest623.name=§5§lCadmium
-gtnh.quest623.desc=You can get Cadmium from Sphalerite (centrifuge or thermal centrifuge) or from Rare Earth (centrifuging) at this tier.%n%nYou can get Rare Earth from Redstone ore processing, but that's a huge pain, so why not get it from those weird meteors?%n%nGrab your stored skystone (or go get some), grind the blocks into sky stone dust, then centrifuge §othat§r into some more stuff, including Rare Earth.%n%nThen, centrifuge the RE into various products like Cadmium, Caesium, Cerium, Lanthanum, Neodymium, and Yttrium. §3PS, Caesium, Cerium, and Lanthanum are pretty much unused.§r%n%nI don't care how you get it, just get some Cadmium.
+gtnh.quest623.desc=You can get Cadmium from Sphalerite (centrifuge or thermal centrifuge). Later on you can use GT++ Ore processing chains to get Cadmium from Rare Earths. I don't care how you get it, just get some Cadmium.
 
 # Quest.624 - §5§lBasic Canner
 gtnh.quest624.name=§5§lBasic Canner
@@ -3022,7 +3022,7 @@ gtnh.quest754.desc=Some materials like stainless steel require 480 EU/t. Your LV
 
 # Quest.755 - §6§lBetter Than Duct Tape
 gtnh.quest755.name=§6§lBetter Than Duct Tape
-gtnh.quest755.desc=Using a soldering iron tool to remove the "burned out circuits" message is cheaper than duct tape. %n%nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player's inventory. Since you'll likely have more than enough, Fine Wires of Soldering Alloy are probably best.%n%nYou can also use it to adjust the redstone strength from weak to strong emitted by GT machines.%n%nAlso, while holding it all pipes, wires, and cables will look very small, so that you can see everything past them, and also be sure of the exact connections.%n%nIn order to "complete" the quest you'll need to charge the soldering iron after you craft it.%n%nFor the other problems other tools are necessary.%n%nPossible problems                Tool to fix%n"Pipe is loose."                    Wrench%n"Screws are missing."            Screwdriver %n"Something is stuck."             Soft Mallet %n"Platings are dented."           Hammer %n"Circuitry burned out."          Soldering Iron %n"That doesn't belong there."   Crowbar
+gtnh.quest755.desc=Using a soldering iron tool to remove the "burned out circuits" message is cheaper than duct tape. %n%nThe soldering iron requires one soldering material item and 10,000 EU. Valid soldering materials are fine wires, rods, and ingots made from either tin, lead, or soldering alloy. The soldering iron will consume the first such material it finds in the player's inventory. Since you'll likely have more than enough, Fine Wires of Soldering Alloy are probably best.%n%nYou can also use it to adjust the redstone strength from weak to strong emitted by GT machines.%n%nAlso, while holding it all pipes, wires, and cables will look very small, so that you can see everything past them, and also be sure of the exact connections.%n%nIn order to "complete" the quest you'll need to charge the soldering iron after you craft it.%n%nFor the other problems other tools are necessary.%n%nPossible problems                Tool to fix%n"Pipe is loose."                    Wrench%n"Screws are loose."           Screwdriver %n"Something is stuck."            Soft Mallet %n"Platings are dented."           Hammer %n"Circuitry burned out."    Soldering Iron %n"That doesn't belong there."   Crowbar
 
 # Quest.756 - §6§lLess Power Loss
 gtnh.quest756.name=§6§lLess Power Loss
@@ -3050,11 +3050,11 @@ gtnh.quest761.desc=Powderbarrels are twice as good as dynamite in the implosion 
 
 # Quest.762 - §6§lTNT
 gtnh.quest762.name=§6§lTNT
-gtnh.quest762.desc=TNT is much more powerful than the powderbarrel but much harder to craft. There are LV and HV ways to craft. At LV you need heavy or light fuel to make some toluene which can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in a chemical reactor to make toluene more efficiently. Mix it with sulfuric acid to make TNT.%n%nThe HV way requires an oil cracking unit to make all kinds of cracked fuel or cracked naphta and a distillation tower to extract toluene from that.
+gtnh.quest762.desc=TNT is much more powerful than the powderbarrel but much harder to craft. There are LV and HV ways to craft. At LV you need heavy or light fuel to make some toluene which can be solidified to gelled toluene. Alternatively you can use sugar and plastic dust in a chemical reactor to make toluene more efficiently. Mix it with sulfuric acid to make TNT.%n%nThe HV petrol way requires an oil cracking unit to make all kinds of cracked fuel or cracked naphta and a distillation tower to extract toluene from that.%nThough you can also go the wood tar route in mid-MV.
 
 # Quest.763 - §6§liTNT
 gtnh.quest763.name=§6§liTNT
-gtnh.quest763.desc=Industrial TNT is the HV variant of TNT. It explodes with more power, yet does not destroy blocks when it explodes.
+gtnh.quest763.desc=Industrial TNT is the HV variant of TNT. It explodes with more power, and you can't pick it up. Not by hand anyway
 
 # Quest.764 - §6§lDynamite
 gtnh.quest764.name=§6§lDynamite
@@ -3066,7 +3066,7 @@ gtnh.quest765.desc=Pumps are nice but you're going to reach a point where you'll
 
 # Quest.766 - §6§lLet's Get Crackin!
 gtnh.quest766.name=§6§lLet's Get Crackin!
-gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil cracker is faster and more efficent than using a chemical reactor, producing 25 percent more output. Cracked products will result in additional by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT from Toluene for advanced tier rockets. %n%nThe 16 coils form 2 vertical rings of 8 on either side of the controller. The casings between the rings can be replaced with a hatch for steam/hydrogen input. Energy hatch and maintenance hatch can replace any of the casings. The input product hatch and output product hatch must replace one of the casings outside of the coils.%n%nHint: Only GT/Railcraft steam can be used, not ic2 steam. You can use a fluid heater to make it instead of a boiler.%n%n§3The circuit goes in the controller.%n%n§3PS: I listed all the cracker recipes on the spreadsheet for you to look at in a convenient format. Now you can easily compare which oil path to take!%n%n§2Bart change the multi so it has locked I/O now, go badger him to fix the I/O on the sides or tell him you want to be able to input the steam/hydrogen from anywhere other than the top if you don't like it.
+gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil cracker is faster and more efficent than using a chemical reactor, producing 25 to 50 percent more output, depending on which cracking method it's doing (steam does 50%, hydro does 25% but consumes 20% less hydrogen). Cracked products will result in additional by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT from Toluene for advanced tier rockets. %n%nThe 16 coils form 2 vertical rings of 8 on either side of the controller. The casings between the rings can be replaced with a hatch for steam/hydrogen input. Energy hatch and maintenance hatch can replace any of the casings. The input product hatch and output product hatch must replace one of the casings outside of the coils.%n%nHint: Only GT/Railcraft steam can be used, not ic2 steam. You can use a fluid heater to make it instead of a boiler.%n%n§3The circuit goes in the controller.%n%n§3PS: I listed all the cracker recipes on the spreadsheet for you to look at in a convenient format. Now you can easily compare which oil path to take!
 
 # Quest.767 - §5§lAnalyzing the Soil
 gtnh.quest767.name=§5§lAnalyzing the Soil
@@ -3106,7 +3106,7 @@ gtnh.quest775.desc=These are the first parts you will need for your beloved nano
 
 # Quest.776 - Seeing Things Brighter
 gtnh.quest776.name=Seeing Things Brighter
-gtnh.quest776.desc=The nano helmet is a bit special. It will provide you with night vision as long as you have energy! Don't turn it on in bright areas or you'll be blinded!
+gtnh.quest776.desc=The nano helmet is a bit special. It will provide you with night vision as long as you have energy!
 
 # Quest.777 - Are Those Green Diamonds? 
 gtnh.quest777.name=Are Those Green Diamonds? 
@@ -3114,7 +3114,7 @@ gtnh.quest777.desc=They may not be green diamonds but they are needed for your n
 
 # Quest.778 - §7§6§lCarbon Plates
 gtnh.quest778.name=§7§6§lCarbon Plates
-gtnh.quest778.desc=Carbon plates are needed for the nano armor. Go check out the armor chapter.
+gtnh.quest778.desc=Carbon plates are used for a bunch of stuff, including eventually the nanosuit. Go check out the armor chapter.
 
 # Quest.779 - Carbon Skin
 gtnh.quest779.name=Carbon Skin
@@ -3334,7 +3334,7 @@ gtnh.quest832.desc=The basic wafer is used for creating basic machines such as t
 
 # Quest.833 - Purge Your Warp
 gtnh.quest833.name=Purge Your Warp
-gtnh.quest833.desc=The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it's a very long journey to unlock it through research.%n%n§3PS: You need IV power for the osmiridium.
+gtnh.quest833.desc=The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it's a very long journey to unlock it through research.%n%n§3PS: You need an LuV-powered EBF for the osmiridium.
 
 # Quest.834 - §3§lCircuit Boards
 gtnh.quest834.name=§3§lCircuit Boards
@@ -3510,7 +3510,7 @@ gtnh.quest876.desc=Tired of using small cells to process chemicals? Build a Larg
 
 # Quest.877 - Scepter With 75 Vis Capacity
 gtnh.quest877.name=Scepter With 75 Vis Capacity
-gtnh.quest877.desc=A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 5 percent discount for costs, beyond any discounts from its caps or the user's worn equipment. 
+gtnh.quest877.desc=A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 10 percent discount for costs, beyond any discounts from its caps or the user's worn equipment. 
 
 # Quest.878 - Magic Staff Core
 gtnh.quest878.name=Magic Staff Core
@@ -3782,7 +3782,7 @@ gtnh.quest944.desc=This tanks works the same as the smaller GT tanks, but holds 
 
 # Quest.945 - §2§lChad - A Better Way to Make Paper
 gtnh.quest945.name=§2§lChad - A Better Way to Make Paper
-gtnh.quest945.desc=Making paper out of wood pulp and water can be tedious and difficult. Why not macerate some sugar cane down to chads and press it with two stone plates to paper? Later on you can use the chemical bath for a even better ratio.
+gtnh.quest945.desc=Making paper out of wood pulp and water can be tedious and difficult. Why not use a mortar to grind the sugar cane in to chad and press it with two stone plates to paper? Later on you can use the chemical bath for a even better ratio.
 
 # Quest.946 - §1§lBamboo Fence
 gtnh.quest946.name=§1§lBamboo Fence
@@ -4434,7 +4434,7 @@ gtnh.quest1107.desc=Do you feel lonely? Need some extra protection in your base?
 
 # Quest.1108 - §3§lThe Cool Guy
 gtnh.quest1108.name=§3§lThe Cool Guy
-gtnh.quest1108.desc=Feeling lonely? Located far away from a smow biome? Craft a Snow Golem, and perhaps challenge him to a snow ball fight.
+gtnh.quest1108.desc=Feeling lonely? Located far away from a snow biome? Craft a Snow Golem, and perhaps challenge him to a snow ball fight.
 
 # Quest.1109 - Ohhh, Crunchy
 gtnh.quest1109.name=Ohhh, Crunchy
@@ -5082,7 +5082,7 @@ gtnh.quest1269.desc=If you need even more amps then craft a power transformer. T
 
 # Quest.1270 - Time for a Spade
 gtnh.quest1270.name=Time for a Spade
-gtnh.quest1270.desc=This item is a combined Weeding Trowel, Hoe and Shovel. If you're the type that accidentally does things, only use this when necessary, as it's easy to mess up and use it to harvest/destroy your crops when you wanted to get rid of a weed.%n%nYou can use it to get seeds from crops when they're §9immature§r using §6right-click§r at very low rates. Using §4left-click§r when §9immature§r will result in nothing.%n%nIf it's §amature§r, use §6left-click§r to have a higher chance of a seed dropping. Using §4right-click§r when §amature§r will result in lower seed drops than punching it normally.%n%nKeep in mind that the higher the tier/stats of the crop, the lower the chances. By a lot.%n%n§3The formula is 1+tanh((-1)(X+5((-Re/2)+Gr+Ga)/21)/12); X=0 to 16%n%nWhere Re, Gr, Ga are respectively Resistance, Growth and Gain stat of the crop, and X is tier. Don't ask me whether this is for L/R-click, ask bart or lok at the code.
+gtnh.quest1270.desc=This item is a combined Weeding Trowel, Hoe and Shovel. If you're the type that accidentally does things, only use this when necessary, as it's easy to mess up and use it to harvest/destroy your crops when you wanted to get rid of a weed.%n%nYou can use it to get seeds from crops when they're §9immature§r using §6right-click§r at very low rates. Using §4left-click§r when §9immature§r will result in nothing.%n%nIf it's §amature§r, use §6left-click§r to have a higher chance of a seed dropping. Using §4right-click§r when §amature§r will result in lower seed drops than punching it normally.%n%nKeep in mind that the higher the tier/stats of the crop, the lower the chances. By a lot.%n%n§3The formula is 1+tanh((-1)(X+5((-Re/2)+Gr+Ga)/21)/12); X=0 to 16%n%nWhere Re, Gr, Ga are respectively Resistance, Growth and Gain stat of the crop, and X is tier. Don't ask me whether this is for L/R-click, ask bart or look at the code.
 
 # Quest.1271 - §9§lHV Extruder
 gtnh.quest1271.name=§9§lHV Extruder
@@ -5146,7 +5146,7 @@ gtnh.quest1285.desc=Diamond Spikes damages mobs (or you!) that touch any side of
 
 # Quest.1286 - Primal Shrooms
 gtnh.quest1286.name=Primal Shrooms
-gtnh.quest1286.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.%n%nGo and find some Vishrooms in a magical forest biome. Try using a Nature's Compass. Or buy some using coins if no biome is close to your location.%n%n2 pumpkins and 4 entropy slivers are the perfect combo to make these.%n%nWhenever they're fully grown, you can break them to get some vis orbs to drop, just like enemies do. You do need to be holding the wand to collect it though. For these to grow, they will need a certain light level.
+gtnh.quest1286.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.%n%nGo and find some Vishrooms in a magical forest biome. Try using a Nature's Compass. Or buy some using coins if no biome is close to your location.%n%n2 pumpkins and 4 tiny piles of stone dust are the perfect combo to make these.%n%nWhenever they're fully grown, you can break them to get some vis orbs to drop, just like enemies do. You do need to be holding the wand to collect it though. For these to grow, they will need a certain light level.
 
 # Quest.1287 - Vishroom
 gtnh.quest1287.name=Vishroom
@@ -5930,7 +5930,7 @@ gtnh.quest1481.desc=The Extreme Combustion Engine is §lhighly experimental§r, 
 
 # Quest.1482 - §5§6§lPortable Prospecting Tool
 gtnh.quest1482.name=§5§6§lPortable Prospecting Tool
-gtnh.quest1482.desc=Now that you have some tech, you've discovered a way to prospect for ores. This tool only has a chance at finding the ores in a chunk. If you are clever, you can use it to locate ores.%n%nUnfortunately, the tech to make it repairable or rechargeable doesn't work, so you'll have to make a new one each time it breaks. It does work better at higher tiers and lasts longer with better materials.%n%nAnd since it doesn't make a convenient book like the seismic prospector, you'll have to keep track on your own where the ores are found.%n%nIt can be hard to choose a good material for the Basic Prospector. Here are some good choices for you, the size searched, and their durability:%n%nArdite 5x5 - 4500%nDamascus 3x3 - 5600%nVanadiumsteel 3x3 - 8400%nVibrant Alloy 5x5 - 17700%nShadow 5x5 - 36000%n%nEach chunk successfully scanned costs 100 durability. Each failed chunk costs 25. The average for MV is ~55 per chunk when scanning a large area.%n%nGood luck.%n%n§3BTW, in case you didn't get it, this thing is terrible.
+gtnh.quest1482.desc=Now that you have some tech, you've discovered a way to prospect for ores. This tool only has a chance at finding the ores in a chunk. If you are clever, you can use it to locate ores.%n%nUnfortunately, the tech to make it repairable or rechargeable doesn't work, so you'll have to make a new one each time it breaks. It does work better at higher tiers and lasts longer with better materials.%n%nIt doesn't make a convenient book like the Seismic Prospector, but you can look at the results of scanning on the map, thanks to Visual Prospecting.%n%nIt can be hard to choose a good material for the Basic Prospector. Here are some good choices for you in their respective tiers, the size searched, and the average amount of veins they can scan:%n%nLV Vanadiumsteel 3x3 - 50%nMV Vanadiumsteel 3x3 - 213%nHV Vibrant Alloy 5x5 - 299%nEV Shadow Metal 7x7 - 1080%nIV Oriharukon 7x7 - 2649%n%nEach chunk successfully scanned costs 100 durability. Each failed chunk costs 25. The average for MV is ~55 per chunk when scanning a large area. As you can see, the prospectors become better and better with each tier, so craft one whenever you think you need it.%n%nGood luck.
 
 # Quest.1483 - Really OP Food
 gtnh.quest1483.name=Really OP Food
@@ -6406,7 +6406,7 @@ gtnh.quest1600.desc=One of the first useful crops you'll get is Stickreed. It's 
 
 # Quest.1601 - Metals From the Earth
 gtnh.quest1601.name=Metals From the Earth
-gtnh.quest1601.desc=With higher tier crops you can even increase your ore production. Mixing these fibers and leaves with crushed ores can quadruple your output, or you can convert them directly to tiny dusts. Later you can mix these materials to make purified ore with some UU matter.%n%nShow me your ability to get these metal crops and I'll give you some more fertilizer and some decent stat seedbags of rarer crops. Good source crops are essence berries or any of the oreberries.%n%nYou will need the proper oreblock beneath the crop to reach 100 percent maturity. For best growing conditions use dirt in between the oreblock and the crop.%n%nFor Ferru and Aurelia you will have to use a block of metal instead of a GT oreblock - a vanilla oreblock automined from the Twilight Forest will however work. You can also buy some from the coins tab. WAILA will tell you if the crop will accept the block you are using.
+gtnh.quest1601.desc=With higher tier crops you can even increase your ore production. Mixing some of these fibers and leaves with crushed ores can quadruple your output, and some can even be converted directly to dust. Later you can mix these materials to make purified ore with some UU matter.%n%nShow me your ability to get these metal crops and I'll give you some more fertilizer and some decent stat seedbags of rarer crops. Good source crops are essence berries or any of the oreberries.%n%nYou will need the proper oreblock beneath the crop to reach 100 percent maturity. For best growing conditions use dirt in between the oreblock and the crop.%n%nFor Ferru and Aurelia you will have to use a block of metal instead of a GT oreblock - a vanilla oreblock automined from the Twilight Forest will however work. You can also buy some from the coins tab. WAILA will tell you if the crop will accept the block you are using.
 
 # Quest.1602 - Water, Water, Everywhere
 gtnh.quest1602.name=Water, Water, Everywhere
@@ -6858,7 +6858,7 @@ gtnh.quest1713.desc=SoCs or System on a Chips are used to make circuits more eas
 
 # Quest.1714 - §8§9§lCheaper Simple Circuit
 gtnh.quest1714.name=§8§9§lCheaper Simple Circuit
-gtnh.quest1714.desc=The NAND chip is an industrial replacement for the vacuum tubes that is much cheaper. You can't use it to make circuits though, only to make other things as a ULV circuit.
+gtnh.quest1714.desc=The NAND chip is an industrial replacement for the vacuum tubes that is much cheaper. You can't use it to make circuits though, only to make other things as a ULV circuit. Make sure to check out all the possible recipes!
 
 # Quest.1715 - §b§lOn Your Way to Tier 4 DIMs
 gtnh.quest1715.name=§b§lOn Your Way to Tier 4 DIMs
@@ -7212,8 +7212,8 @@ gtnh.quest1801.desc=Because it can lay eggs!
 gtnh.quest1802.name=Vegan, But Still Want to Eat Meat?
 gtnh.quest1802.desc=Instead of killing animals, just mutate some crazy GMOs into making animal products for you. Science!
 
-# Quest.1803 - Magical Metal Berry
-gtnh.quest1803.name=Magical Metal Berry
+# Quest.1803 - Magic Metal Berry
+gtnh.quest1803.name=Magic Metal Berry
 gtnh.quest1803.desc=..is obviously the name of my cover band. But also a great crop for Thaumium or Void metals. Requires a block of iron or thaumium to get thaumium, and void metal block to get void metal. Like other ore berries, it only grows in dim light. Any oreberry should have a decent chance of yielding this.
 
 # Quest.1804 - Other Magic Flowers
@@ -7654,7 +7654,7 @@ gtnh.quest1912.desc=When doing infusions, it's always good to know how close you
 
 # Quest.1913 - §6§lGut-Enough For You? Bet You Thought Newspapers Were Dead!
 gtnh.quest1913.name=§6§lGut-Enough For You? Bet You Thought Newspapers Were Dead!
-gtnh.quest1913.desc=The Typesetting Table and Printing Press will allow you to duplicate books, including enchanted books. The process is kinda complicated, so check out the Bibliocraft mod wiki page. You'll need to use XP to duplicate enchanted books, so now would be a good time to figure out how to collect large amounts...%n%nTo duplicate a Fortune III book you may need 40+ levels. Note that the wiki mentions black dye but only vanilla ink sacs will work.%n%n§3You'll need some Thaumium ingots. You can get into Thaumcraft, find some in a chest, or try breeding the Magical Metal Berry IC2 crop.
+gtnh.quest1913.desc=The Typesetting Table and Printing Press will allow you to duplicate books, including enchanted books. The process is kinda complicated, so check out the Bibliocraft mod wiki page. You'll need to use XP to duplicate enchanted books, so now would be a good time to figure out how to collect large amounts...%n%nTo duplicate a Fortune III book you may need 40+ levels. Note that the wiki mentions black dye but only vanilla ink sacs will work.%n%n§3You'll need some Thaumium ingots. You can get into Thaumcraft, find some in a chest, or try breeding the Magic Metal Berry IC2 crop.
 
 # Quest.1914 - §6§lDo You Feel Unlucky?
 gtnh.quest1914.name=§6§lDo You Feel Unlucky?
@@ -8098,7 +8098,7 @@ gtnh.quest2023.desc=EBF and LCR recipes are going to need even more power. You'l
 
 # Quest.2024 - §c§lAssline Quest Updates
 gtnh.quest2024.name=§c§lAssline Quest Updates
-gtnh.quest2024.desc=When the pack updates and changes an assembly line recipe, your old data sticks become useless. However it's more than that, you can't simply rescan an old UV motor for the new UHV data, you need a new UV motor. It's best to start with component parts in the lowest changed tier, then work your way up until you've rescanned up to your current tier. Yes, this sucks, we also wish there was another way. You can tell if your data stick is out of date by seeing if the NEI recipe matches the one in the data viewer. NEI will always be right.%n%n§3This may or may not be true. Ask Bart, and see if you can wrangle an answer out of him. The NBT disassembly data removal he did may or may not have made doing this obsolete.
+gtnh.quest2024.desc=When the pack updates and changes an assembly line recipe, your old data sticks also need to change their recipe. In old versions, you needed to update the sticks by scanning new items, but now they will update automatically if placed in the assembly line, so you don't need to change things manually. If there is some kind of bug with data stick recipes after updating, do let the developers know, either on the Discord server or on Github.
 
 # Quest.2025 - GT++ Knowledge
 gtnh.quest2025.name=GT++ Knowledge
@@ -8162,7 +8162,7 @@ gtnh.quest2039.desc=The Amazon Warehousing Depot is the ultimate for all your pa
 
 # Quest.2040 - Industrial Coke Oven
 gtnh.quest2040.name=Industrial Coke Oven
-gtnh.quest2040.desc=Swimming in logs? Turn those logs into clean burning charcoal!%n%n§3This multi is IV.%n%nAlso, sorta buggy sometimes.
+gtnh.quest2040.desc=Swimming in logs? Turn those logs into clean burning charcoal!%n%n§3This multi is EV.%n%nAlso, sorta buggy sometimes.
 
 # Quest.2041 - Americium Doped Wafers
 gtnh.quest2041.name=Americium Doped Wafers
@@ -8554,7 +8554,7 @@ gtnh.quest2137.desc=The heart of your ME network. You can inject energy into her
 
 # Quest.2138 - Making Sense of Spaghetti
 gtnh.quest2138.name=Making Sense of Spaghetti
-gtnh.quest2138.desc=Nobody likes an untidy base. You can craft a spray can and fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines.
+gtnh.quest2138.desc=Nobody likes an untidy base. You can craft a spray can and later fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines. But for now, have a couple of freebies.
 
 # Quest.2139 - Oink!
 gtnh.quest2139.name=Oink!
@@ -9778,7 +9778,7 @@ gtnh.quest2443.desc=Screaming doesn't help. You're going in the soup.
 
 # Quest.2444 - §5§lLong Distance Fluid Pipeline
 gtnh.quest2444.name=§5§lLong Distance Fluid Pipeline
-gtnh.quest2444.desc=Wouldn't it be great if you could transport your oil from a far away oil spout or oil field by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Fluid Pipeline block. Inbetween use the associated pipe blocks. There can only be one start and end point per pipeline.%n%nTo actually connect it, you need to align the start LDFP block such that the arrows are facing inwards, and the opposite side of it has a LDFPP block. Put a pump on the side of the block that has the arrows and set to import. It will now attempt to import fluid to the endpoint LDFP. §2This will go as fast as you can put fluid into it.§r%n%nDo the opposite on the far side, except you don't need a pump.%n%nNow you only need to chunkload the start and end points and the fluid will be "teleported" to you.%n%nOf course, later on you'll probably use ender tanks to §oactually§r teleport the fluid, especially from other dims.%n%nThis setup is lag-free in the pipe blocks, so it's useful in your base as well if you want to reduce lag.
+gtnh.quest2444.desc=Wouldn't it be great if you could transport your oil from a far away oil spout or oil field by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Fluid Pipeline block. Inbetween use the associated pipe blocks - the total distance between endpoints must be more than 64 blocks apart (4 or more chunks). There can only be one start and end point per pipeline.%n%nTo actually connect it, you need to align the start LDFP block such that the arrows are facing inwards, and the opposite side of it has a LDFPP block. Put a pump on the side of the block that has the arrows and set to import. It will now attempt to import fluid to the endpoint LDFP. §2This will go as fast as you can put fluid into it.§r%n%nDo the opposite on the far side, except you don't need a pump.%n%nNow you only need to chunkload the start and end points and the fluid will be "teleported" to you.%n%nOf course, later on you'll probably use ender tanks to §oactually§r teleport the fluid, especially from other dims.%n%nThis setup is lag-free in the pipe blocks, so it's useful in your base as well if you want to reduce lag.
 
 # Quest.2445 - Time to Kill (Squid)
 gtnh.quest2445.name=Time to Kill (Squid)
@@ -10210,7 +10210,7 @@ gtnh.quest2551.desc=They live on a fiery island in the end and spit at you with 
 
 # Quest.2552 - Time to Kill (Fire Golem)
 gtnh.quest2552.name=Time to Kill (Fire Golem)
-gtnh.quest2552.desc=Oh you felt out of the world, I'm sorry. Try again.
+gtnh.quest2552.desc=Oh you fell out of the world, I'm sorry. Try again.
 
 # Quest.2553 - Time to kill (Haunted Miners)
 gtnh.quest2553.name=Time to kill (Haunted Miners)
@@ -10418,7 +10418,7 @@ gtnh.quest2603.desc=For Tellurium, you can do it these ways:%n%n1) EBF Crushed L
 
 # Quest.2604 - §c§lFetching Cubic Zirconia
 gtnh.quest2604.name=§c§lFetching Cubic Zirconia
-gtnh.quest2604.desc=For Cubic Zirconia, you'll need to combine Zirconium and Yttrium Oxide in the EBF as well. Fortunately you only need the dusts.%n%nYou can get Zirconium from:%n1) The Red Zircon ore on Ross128b <- Do this one%n2) Sifting Cassiterite, Tin, or Ilmenite <- Do this one if you hate Ross%n3) Chemical Bathing Tin or Rutile with Chlorine%n%nOxygen isn't hard to get, but the Yttrium more than makes up for it. You have a couple options:%n1) Centrifuge Rare Earth for a 1 -> 25% chance for 1/4 of a dust%n2) Make Rare Earth (I) out of Rare Earth (see the MV quest) and get it out of Xenotime%n3) Make Rare Earth (II) out of Rare Earth using a stronger acid and get it from Yttriaite%n4) When you have a T6 rocket, you can pick some Yttrium ore up from Triton, making you cry at how much easier it is%n5) In ZPM you can try going to the Toxic Everglades to grab weird GT++ ores, some of which have Yttrium in them (Yay RNG ore worldgen!)%n%nTo get Rare Earth you §ocan§r use Redstone or Skystone, but you can also get it out of Monazite directly or some other ores as a byproduct. Hopefully you saved it up?
+gtnh.quest2604.desc=For Cubic Zirconia, you'll need to combine Zirconium and Yttrium Oxide in the EBF as well. Fortunately you only need the dusts.%n%nYou can get Zirconium from:%n1) The Red Zircon ore on Ross128b <- Do this one%n2) Sifting Cassiterite, Tin, or Ilmenite <- Do this one if you hate Ross%n3) Chemical Bathing Tin or Rutile with Chlorine%n%nOxygen isn't hard to get, but the Yttrium more than makes up for it. You have a couple options:%n1) Make Rare Earth (I) out of Rare Earth (see the MV quest) and get it out of Xenotime%n2) Make Rare Earth (II) out of Rare Earth using a stronger acid and get it from Yttriaite%n3) When you have a T6 rocket, you can pick some Yttrium ore up from Triton, making you cry at how much easier it is%n4) In ZPM you can try going to the Toxic Everglades to grab weird GT++ ores, some of which have Yttrium in them (Yay RNG ore worldgen!)%n%nTo get Rare Earth you §ocan§r use Redstone or Skystone, but you can also get it out of Monazite directly or some other ores as a byproduct. Hopefully you saved it up?
 
 # Quest.2605 - §c§lFetching Prasiolite
 gtnh.quest2605.name=§c§lFetching Prasiolite
@@ -10738,7 +10738,7 @@ gtnh.quest2683.desc=The Parametrizer allows you to configure TecTech multis by a
 
 # Quest.2684 - RP-1 Rocket Fuel
 gtnh.quest2684.name=RP-1 Rocket Fuel
-gtnh.quest2684.desc=In order to fuel the T2 rocket, you'll need some RP-1 Rocket Fuel. First, you'll need either Diesel (which you probably used to make the Cetane-Boosted Diesel for the T1), or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.§3%n%nIf you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore :(§r%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T3 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nCombine Liquid Oxygen and RP-1 to make RP-1 Rocket Fuel. And no, I have no idea what the difference is.%n%n§3If you're confused about how to use/make the Chemical Plant, refer to the manual with the same name.%n%n§2PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.
+gtnh.quest2684.desc=In order to properly fuel the T2 rocket, you'll need some RP-1 Rocket Fuel (or for now, just use CBD again). First, you'll need either Diesel (which you probably used to make the Cetane-Boosted Diesel for the T1), or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.§3%n%nIf you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore :(§r%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T3 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nCombine Liquid Oxygen and RP-1 to make RP-1 Rocket Fuel. And no, I have no idea what the difference is.%n%n§3If you're confused about how to use/make the Chemical Plant, refer to the manual with the same name.%n%n§2PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.
 
 # Quest.2685 - Coal Tar Distilling
 gtnh.quest2685.name=Coal Tar Distilling
@@ -11032,9 +11032,9 @@ gtnh.quest2756.desc=One of the more complicated parts of AE2, you'll need to und
 gtnh.quest2757.name=Cool Guys Don't Look at Explosions
 gtnh.quest2757.desc=They automate them instead.%n%n§3This multi is IV, but uses platline mats and ZPM circuits.
 
-# Quest.2758 - For When the Multi is Worse than the Singleblock
-gtnh.quest2758.name=For When the Multi is Worse than the Singleblock
-gtnh.quest2758.desc=Seriously, it may look cool, but don't use it, it's worse. Because MATH.%n%n§3This multi is UV, just to drive the pain in a little more.
+# Quest.2758 - Let me fabricate a new universe...
+gtnh.quest2758.name=Let me fabricate a new universe...
+gtnh.quest2758.desc=This multi is dedicated to producing UUM and Scrap. It is one of the hardest GT++ multis to craft, but you will be able to replicate many things if you get it working.%n%n§3This multi is UV.
 
 # Quest.2759 - I Want SOLIDS not LIQUIDS!
 gtnh.quest2759.name=I Want SOLIDS not LIQUIDS!
@@ -11042,7 +11042,7 @@ gtnh.quest2759.desc=For when your ABS isn't the right machine. Also uses coils.%
 
 # Quest.2760 - What Even is This?
 gtnh.quest2760.name=What Even is This?
-gtnh.quest2760.desc=In addition to being a dehydrator multi, it's also a Vacuum Furnace, for which no singleblock exists. It's supposed to be used with the IsaMill Grinding Machine multi and the Flotation Cell Regulator multi, but neither of those are done. You can see the recipes in NEI by searching Hafnium Dust if you want.%n%n§3This multi is ZPM.
+gtnh.quest2760.desc=In addition to being a dehydrator multi, it's also a Vacuum Furnace, for which no singleblock exists. It's supposed to be used with the IsaMill Grinding Machine multi and the Flotation Cell Regulator multi for the purposes of ore milling, an advanced method of ore processing that needs a lot of infrastructure, but which gives many new outputs for each ore it supports. You can see the recipes in NEI by searching Hafnium Dust if you want.%n%n§3This multi is ZPM.
 
 # Quest.2761 - Do I Really Need to Make This?
 gtnh.quest2761.name=Do I Really Need to Make This?
@@ -11050,7 +11050,7 @@ gtnh.quest2761.desc=No, you don't. The main thing you would probably get out of 
 
 # Quest.2762 - This is Not How You Get Into Space
 gtnh.quest2762.name=This is Not How You Get Into Space
-gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. May or may not be power positive, math is hard.%n%n§3This multi is IV.
+gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. The math involved is complicated, but this multi can generate a lot of power if you boost it and keep it fueled with specific amounts of rocket fuel, to not lose efficiency.%n%n§3This multi is IV.
 
 # Quest.2763 - §6§lI Put a Machine Into Your Machine
 gtnh.quest2763.name=§6§lI Put a Machine Into Your Machine
@@ -11314,7 +11314,7 @@ gtnh.quest2827.desc=It uses Gas fuels to produce power and steam. It produces st
 
 # Quest.2828 - It's 'Super' Heated Steam
 gtnh.quest2828.name=It's 'Super' Heated Steam
-gtnh.quest2828.desc=So that means it produces §otwice§r as much power! You can get this steam through the LHE or the SOFC Mk II. It gets converted to normal steam as the output at a 1:1 ratio, so make sure to have a non-HP one to take advantage of that.
+gtnh.quest2828.desc=So that means it produces §otwice§r as much power! You can get this steam through the LHE, the SOFC Mk II or the Titanium/Tungstensteel Boilers. It gets converted to normal steam as the output at a 1:1 ratio, so make sure to have a non-HP one to take advantage of that.
 
 # Quest.2829 - More Advanced Reactors
 gtnh.quest2829.name=More Advanced Reactors
@@ -11402,7 +11402,7 @@ gtnh.quest2849.desc=Do you think that steam fluid transport is far too slow? You
 
 # Quest.2850 - §5§lLong Distance Item Pipeline
 gtnh.quest2850.name=§5§lLong Distance Item Pipeline
-gtnh.quest2850.desc=Wouldn't it be great if you could transport ores from a far away ore vein by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Item Pipeline block. Inbetween use the associated pipe blocks. There can only be one start and end point per pipeline.%n%nTo actually connect it, you need to align the start LDIP block such that the arrows are facing inwards, and the opposite side of it has a LDIPP block. Put a conveyor on the side of the block that has the arrows and set to import. It will now attempt to import stuff to the endpoint LDIP. §2This will go as fast as you can put items into it.§r%n%nDo the opposite on the far side, except you don't need a conveyor.%n%nNow you only need to chunkload the start and end points and the items will be "teleported" to you.%n%nOf course, later on you'll probably use ender chests to §oactually§r teleport the ore, especially from other dims.%n%nThis setup is lag-free in the pipe blocks, so it's useful in your base as well if you want to reduce lag.
+gtnh.quest2850.desc=Wouldn't it be great if you could transport ores from a far away ore vein by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Item Pipeline block. Inbetween use the associated pipe blocks - the total distance between endpoints must be more than 64 blocks apart (4 or more chunks). There can only be one start and end point per pipeline.%n%nTo actually connect it, you need to align the start LDIP block such that the arrows are facing inwards, and the opposite side of it has a LDIPP block. Put a conveyor on the side of the block that has the arrows and set to import. It will now attempt to import stuff to the endpoint LDIP. §2This will go as fast as you can put items into it.§r%n%nDo the opposite on the far side, except you don't need a conveyor.%n%nNow you only need to chunkload the start and end points and the items will be "teleported" to you.%n%nOf course, later on you'll probably use ender chests to §oactually§r teleport the ore, especially from other dims.%n%nThis setup is lag-free in the pipe blocks, so it's useful in your base as well if you want to reduce lag.
 
 # Quest.2851 - Time to Kill (Lava Monster)
 gtnh.quest2851.name=Time to Kill (Lava Monster)
@@ -11570,7 +11570,7 @@ gtnh.quest2891.desc=Tired of running after ore or other blocks? Use a magnet! It
 
 # Quest.2892 - §6§lHSS-S Coil Upgrade
 gtnh.quest2892.name=§6§lHSS-S Coil Upgrade
-gtnh.quest2892.desc=You...might need these? Or not? Make them anyway, ok? Time to upgrade your EBF to 6300k.
+gtnh.quest2892.desc=You...might need these? Or not? They're good for the overclock bonus anyway. Time to upgrade your EBF to 6300k.
 
 # Quest.2893 - §6§lTrinium Coil Upgrade
 gtnh.quest2893.name=§6§lTrinium Coil Upgrade
@@ -11662,7 +11662,7 @@ gtnh.quest2914.desc=Can't find any Cobalt in the Nether? Too lazy to bother find
 
 # Quest.2915 - §5§lDamascus Steel
 gtnh.quest2915.name=§5§lDamascus Steel
-gtnh.quest2915.desc=Damascus Steel is one of the hardest materials you can get, at your current tier. It time to craft a stack of Damascus Steel.%n%nThere are few options here, so check NEI to see which mixture suits you best.
+gtnh.quest2915.desc=Damascus Steel is one of the hardest materials you can get, at your current tier. It time to craft a stack of Damascus Steel.%n%nYou can't get it through the Mixer yet, but there is a crafting recipe.
 
 # Quest.2916 - §5§lVanadiumsteel
 gtnh.quest2916.name=§5§lVanadiumsteel
@@ -11870,7 +11870,7 @@ gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe
 
 # Quest.2967 - Incomplete Combustion
 gtnh.quest2967.name=Incomplete Combustion
-gtnh.quest2967.desc=A chemical fuel engine for LuV? ! Well, if you are the crazy fan for diesel or benzene, you will love it.%n%nThis engine accept all diesel fuel and gas fuel. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its hatch per second and output power depending on the sum of fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. The ratio larger, and the eff will be higher. The max eff is 150%.%n%ne.g. You input HOG 100mB/s and combustion promoter 1000mB/s. The eff is 149% and sum of the HOG fuel value is 172 800 EU. So the output power is 172 800 * 149% / 20 = 12 873 EU/t
+gtnh.quest2967.desc=A chemical fuel engine for LuV? Well, if you are a crazy fan of diesel or benzene, you will love it.%n%nThis engine accepts all diesel, gas and also rocket fuel, although the Rocketdyne burns the latter more efficiently. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its input hatches per second and outputs power depending on the amount of fuel consumed, and its fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. If the ratio is larger (there is more promoter), the efficiency will be higher. The max efficiency is 150%, but you cannot achieve this value without inputting an infinite amount of promoter. Expect efficiencies around 130% for high fuel value fuels like High-Octane Gasoline, unless you spend a LOT of promoter.%n%ne.g. You input 100mB/s of HOG and 1000mB/s of combustion promoter. The efficiency is 149% and the sum of the HOG fuel value is 250000 EU. The output power will be 250,000 * 149% / 20 = 18625 EU/t.
 
 # Quest.2968 - §6§lLarge Essentia Generator (Good Generator)
 gtnh.quest2968.name=§6§lLarge Essentia Generator (Good Generator)
@@ -11936,6 +11936,218 @@ gtnh.quest2982.desc=When you reach MV tier you can make your own Absorption Filt
 gtnh.quest2983.name=§6§lMica Ore
 gtnh.quest2983.desc=Mica is a very rare but useful ore. You need it in order to craft your high tier coils for the EBF.%nIf you have no luck in finding this vein yet try to look for it with a Prospector..
 
+# Quest.2984 - Simple Distillation
+gtnh.quest2984.name=Simple Distillation
+gtnh.quest2984.desc=As rich as Oil is, it's hardly useful for anything in this state. One of the most important parts in the processing chain is distillation, which separates the components of this black mixture from their difference in density, or how "heavy" they are. You can do this in a Distillery, starting in LV, but only one of the fractions can be obtained at a time: you must choose which one you want.%n%nLighter fractions are generally more useful than heavier ones, but that doesn't mean that lightest is best. For now, going for Sulfuric Light Fuel is the best option, since it will become a good source of power after being treated. Don't use the Oil to power these machines, stick to Steam until you can use something better.
+
+# Quest.2985 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared... But They Are
+gtnh.quest2985.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared... But They Are
+gtnh.quest2985.desc=Building a smeltery from ground up can be really tedious and time consuming. How about go borrow one from the locals? They will surely be happy to share it with an unfirendly adventurer that just dismantlled their bricked railway station.%n%nThe villager are too dumb that they spent all their seared bricks without adding a few key components like faucets or drains. You still need to craft some smeltry bricks yourselves... %n%nTotally not useful tip: if you hold off building this long enough, you will be able to break down seared brick blocks into seared brick items with a forge hammer or extractor.%n%n§3Unfortunately, going down this path means we will not give you quest rewards, since you are already getting this important multiblock for free. Check the checkbox to signify your consent.
+
+# Quest.2986 - Here's Some Oil
+gtnh.quest2986.name=Here's Some Oil
+gtnh.quest2986.desc=Welcome! This is the questline that shows the path through oil processing towards all the useful items and fluids that can be obtained from it. Working with this black liquid involves a lot of steps that range from LV (Low Voltage), all the way to IV (Insane Voltage), and outputs that are useful at those tiers and beyond. %n%nOil is useful both for generating power, and to automate a lot of chemicals that are important for progression. As you progress, you will be able to get more of it, and get it faster, as well as process it in new ways that improve on the setup that you were using before. It is not a required path for progression in the pack, but it is a very useful one, should you choose to follow it.%n%nThe best way to start working with oil is to extract it from the surface. Oil spouts are visible without having to dig down, and they can be interacted with by using a Pump placed above them, alongside a generator that feeds it some power. You can use some of the Oil to generate this power for now.
+
+# Quest.2987 - Oil Drilling Rig
+gtnh.quest2987.name=Oil Drilling Rig
+gtnh.quest2987.desc=In the MV tier, Oil gets a big boost in its effectiveness, and becomes a fantastic powergen option for anyone wanting to switch off Steam, if they haven't done it already. It becomes difficult to use Steam as the only power source in this tier, so you should find a more reliable way to get power.%n%nOf course, you might already be using Light Fuel as your power source of choice, but a different question might have popped up in your mind by now: is there a better way to get Oil? Perhaps you have run short, or perhaps not. Either way, there is a multi unlocked in this tier that can greatly facilitate the automation of Oil input into your Distillery. That multi is the Oil Drilling Rig, which can pump it from below bedrock, but only if there is some in the current chunk, which means that you will have to scan the chunks around you to find it.%n%nThere is a quest for this rig in the Multiblock Goals tab. Go check it out!
+
+# Quest.2988 - Distillation Tower
+gtnh.quest2988.name=Distillation Tower
+gtnh.quest2988.desc=In HV, your oil processing options soar to new levels of complexity, and efficiency. Many of the processing multis that can be used are unlocked in this tier, and one of the most iconic is the Distillation Tower, the direct upgrade of the Distillery.%n%nThis tower can do actual fractional distillation, a process used in real life petrochemistry to separate oil into many different parts, based on their density. The tall structure is required for the process, because the different densities force the chemicals to settle at different heighs, sitting above the others that are heavier than them. If the outputs of these recipes aren't ordered by density, though, don't complain to the developers, it isn't always fully realistic.%n%nThat said, the Distillation Tower replaces Distilleries by outputting every chemical that you can choose from, all at once, from the same amount of input. This means that the tower is both more efficient, and also allows automation of all the outputs at the same time, but this comes at a cost: the controller needs EV circuits, which require a built Cleanroom, and the structure blocks are mostly made of Stainless Steel. Not only that, but the tower's height depends on the recipe, since each output needs its own height level to successfully be extracted. A max-height, 12-block tall DT can cost almost a dozen stacks of stainless to build, a very expensive multi for the tier.%n%nInstead of doing that, the first DT you should build is a 5-block tall one, to distill the Oil you're pumping out of reservoirs. Doing this, you can get all the fractions at once, for a reasonably cheap multi, compared to its maximum size.
+
+# Quest.2989 - The Era of Multis
+gtnh.quest2989.name=The Era of Multis
+gtnh.quest2989.desc=What does this mean, "the era of multis"? I've built so many multis already!%n%nWell, yes, but now it's all multiblocks. There are still singleblock machines for all the tasks they're needed for, but at IV the newer GT++ multis become available, or at least most of them, which can do the same jobs of bending, extruding, extracting, amongst others, but with higher initial investments and many bonuses to their processing. Remember what I said before about higher initial investments being worth it?%n%nThat said, there isn't a new oil processing chain in IV, you only improve what you already have. If there was a step in the chain that was running too slow, and you needed to add more machines to it or overclock, it's likely that there is now a multi that can take over that role by itself. Tungstensteel is usually an important part of these things, so get it automated in anticipation of what's to come.
+
+# Quest.2990 - Generator Power
+gtnh.quest2990.name=Generator Power
+gtnh.quest2990.desc=Welcome to EV! If you thought the previous tier had a big jump in oil processing, you are correct, but now it's going to jump up all over again!%n%nThis tier does not unlock new processing multis like HV did, but it does bring better, much better generators. From now on, your main generators options will almost always be multiblocks, unless you need an easy-to-move generator for a multiblock miner or something similar. For your diesel fuels, the next step is the Large Chemical Engine (LCE), and there is a quest for it on the Multiblock Goals tab as usual. This, however, is a big investment in Titanium, amongst other things, so I hope you have that processing automated already.%n%nIf you boost the LCE, you will get both a huge boost in EU/t and efficiency. While an HV Diesel Generator had an output of 512 EU/t at 85% efficiency, this expensive multi outputs 6144 EU/t at 150% efficiency! Make sure you have an EV Buffered Dynamo Hatch that can handle this output.%nThere is an equivalent turbine for gases, like the Refinery Gas you might be using to power your oil processing setup, which is cheaper to build but its performance depends on the turbine placed inside it, and you won't be able to get near the levels of the LCE unless you get some Tungstensteel, and a good metal like Shadow Metal.
+
+# Quest.2991 - Dessulfurizing
+gtnh.quest2991.name=Dessulfurizing
+gtnh.quest2991.desc=After distillation, the fluid you got still isn't that good. It can be used for power, but it's almost as bad as Oil itself unless you remove the sulfuric content it has. This applies for all the portions that can be distilled from Oil, and as such it's a required step regardless of which one you're working with. %n%nTo get clean Light Fuel, the sulfur needs to be drawn out with something that reacts with it, in a Chemical Reactor. What you need is Hydrogen, a relatively common gas that can be electrolyzed from water, or from specific ores (check NEI for all the possible sources). After reacting, you will get Hydrogen Sulfide and the clean Light Fuel, which can be further processed or burned for power at this stage.
+
+# Quest.2992 - Light Fuel Power
+gtnh.quest2992.name=Light Fuel Power
+gtnh.quest2992.desc=Light Fuel is a great power source in LV, for several reasons. Not only is it much more power-dense than Steam, which means that you need a smaller amount of it to get the same EU amount, but the generators that can burn it have a higher fuel efficiency than the Steam ones. Even wooden fluid pipes will be enough to transport this fuel!%n%nThat said, your old generators will not accept Light Fuel, so you will have to make some Diesel Generators to get power out of it. You'll still get one LV amp out of each, which means you might have to make more if you are running several machines at once. By the time you build your first Electric Blast Furnace, you will want 4 of these feeding it power.
+
+# Quest.2993 - Basic Cracking
+gtnh.quest2993.name=Basic Cracking
+gtnh.quest2993.desc=Despite what the Distillery recipe might have led you to believe, there are many more fractions of Oil than the four you could choose from. However, to get the rest of the oil byproducts, you need to split these four into the others, a process known as cracking. To crack the fuels, they must not be sulfuric, and you will need either Hydrogen (hydro-cracking) or Steam (steam-cracking) to successfully crack. Your Hydrogen source for dessulfurizing is hopefully good enough to sustain hydro-cracking, and the Steam you were previously using for power can now be useful to get more out of the Oil you're pumping.%n%nHeavy Fuel, Light Fuel, Refinery Gas and Naphtha can each be cracked both ways, and with three different intensities: lightly, moderately or severely cracked. This means that each portion has 6 different cracking options, and the products of distilling them can be cracked once more! There are a lot of options here, but a few of them stand out for their usefulness.%n%nThe first one you should attempt starts with Naphtha, instead of Light Fuel, so switch your Distillery to produce that, and get some Steam.
+
+# Quest.2994 - Early Ethylene
+gtnh.quest2994.name=Early Ethylene
+gtnh.quest2994.desc=In LV, cracking fuels is only possible in a Chemical Reactor, which has a lower efficiency than the Oil Cracker multiblock that is available at HV. That said, it is still a great source of some fluids, one of which being Ethylene, the precursor to Polyethylene, the first plastic that can be produced and a required part of progression in the pack. To obtain Ethylene from Oil, the best way to go is to severely steam-crack Naphtha.%n%nSimply put the Naphtha and the Steam in a Chemical Reactor with the correct circuit (check NEI) and then distill the cracked Naphtha. It can give a lot of different outputs, so make sure you choose the right one. After doing this, you'll have successfully processed Oil, both for power and for byproducts. Congratulations!
+
+# Quest.2995 - Sulfuric Acid
+gtnh.quest2995.name=Sulfuric Acid
+gtnh.quest2995.desc=This sulfuric waste that came out of the oil fractions could be voided, but it's actually a useful byproduct for your progression. The Hydrogen Sulfide that you obtained, mixed with Water in another Chemical Reactor will give back Diluted Sulfuric Acid, which can be turned into its more concentrated form by distilling it.%n%nSulfuric Acid is one of the most important chemicals in the pack, so make sure to use this opportunity to automate it. It's needed for circuits, amongst other things, so you will need a lot of it.
+
+# Quest.2996 - Oil Reservoirs
+gtnh.quest2996.name=Oil Reservoirs
+gtnh.quest2996.desc=Unlike the oil spouts that are visible on the surface, the underground reservoirs cannot be seen or measured without the use of specific tools. To find one, you can make a Seismic Prospector and power it by using some kind of explosive (there is a quest for this, which gives the necessary items as rewards). After it has finished working, using a Data Stick on it will give back the raw information from the prospecting, which needs to be put in a Scanner, and then into a Printer, which will give back some pages. Make a book from those pages and you will be able to read the information about reservoirs, and also ores found in the vicinity.%n%nUpon finding a reservoir, you can see the type of oil and its amount within an area of 8x8 chunks. There are five types of Oil in reservoirs, not to be confused with the four portions obtained after oil distillation:%n%nOil - The same as what is found in oil spouts, and usually the kind you want;%nRaw Oil - Equivalent to Oil, but only gives half the outputs per bucket;%nLight Oil - Gives mostly Sulfuric Gas, not useful in general;%nHeavy Oil - Gives mostly Heavy Fuel, handy if you need some for Diesel or other purposes;%nNatural Gas - Turns into Refinery Gas when reacted with Hydrogen;%n%nThe amount of Oil in the reservoir is very important! Values in the 400s or above are good, and slowly decrease over time as the Oil is pumped, which means that large reservoirs will last for a very long time. If you find one, it's unlikely you'll run out until much later in progression.
+
+# Quest.2997 - More Hydrogen
+gtnh.quest2997.name=More Hydrogen
+gtnh.quest2997.desc=With more Oil in your hands, you are sure to have problems with the other inputs you need. Hydrogen is required to get any type of clean byproduct, and the amount you need scales with the speed at which your Chemical Reactors work. It is possible to get a lot of it from ores, and mining out a Limonite vein will get you enough to last a long while, but it will eventually run out. Which automatic sources can you choose from?%n%nThe simplest option is to electrolyze water. You can just keep feeding water for free, but it's a slow and inefficient process, although it also gives you Oxygen. You will need a few Electrolyzers running to keep it going at a decent pace. %n%nAn alternative option is to do this, but with salt water, obtained from Ghast Tears, if you have delved into IC2 crops. Tearstalks are a tier 8 crop that produce these tears, and you can get a few useful dusts, alongside automated Chlorine that you will need very often in the next two tiers.%n%nLastly, did you know what most of the oil byproducts are organic compounds, and as such are made mostly of Carbon and Hydrogen? You can electrolyze most of them to get these elements, at a faster rate than water, but only if you have leftovers. Methane is one of the choices that you might have stockpiling, but you should note that these byproducts often have fuel values, and it's often better to use them as fuel to electrolyze water.%n%nEither way, you will need Electrolyzers. Build some to continue!
+
+# Quest.2998 - Heavy Fuel
+gtnh.quest2998.name=Heavy Fuel
+gtnh.quest2998.desc=There is a better way to get fuel from Oil in MV, but you will need to expand into other fractions instead of just using Light Fuel. The next step is Diesel, and it is a mix of 5 buckets of Light Fuel with 1 bucket of Heavy Fuel, turning into 6 buckets of Diesel that each have a higher fuel value than the fuel used in LV.%n%nTo automate this from regular Oil, you will need another Distillery and Chemical Reactor, and finally a Mixer to put the fuels together. There are other possible sources of Heavy Fuel, mentioned on another quest in this chain, which can be of assistance if the input of Oil into the setup isn't very high. You will also need more Hydrogen, so get on it!
+
+# Quest.2999 - Diesel
+gtnh.quest2999.name=Diesel
+gtnh.quest2999.desc=Finally, the oil of the gods. At least, early gods.%n%nDiesel, as a power source, has widely been known as the optimal choice all the way up to EV, when you unlock the ability to make nukes. It can be further upgraded into Cetane-Boosted Diesel in HV, by adding another chemical chain to it, but a fuel value of 480k EU on a fuel that needs so few machines to be made is quite exceptional. It should be automated as soon as possible, to ensure that you won't run out of power when you need it the most.%n%nAt this stage, you can use either LV or MV Diesel Generators. Using the LV ones will mean you need to make more of them, and more pollution, but they have 95% fuel efficiency compared to MV's 90%. It's a difference, but an automated Diesel setup is unlikely to be affected by a 5% change in efficiency.%n%nAs you progress, fuel will become more and more power-dense, but also need more steps automated. The next tier is much harder than this one, so get ready!
+
+# Quest.3000 - More Oil Options
+gtnh.quest3000.name=More Oil Options
+gtnh.quest3000.desc=Alongside the Oil Drilling Rig, there are other sources you can explore. For Heavy Oil, a good source might be Oilsands Ore, which is found in rare veins at high altitudes. If you find one, you will have a large amount of Heavy Fuel to make Diesel with after processing.%n%nThere are also renewable sources of Oil, namely from IC2 crops and bees. The Oilberry crop can produce it indefinitely, but at a very slow rate, whereas bees can do it much faster, particularly Refined Bees, but they are much harder to obtain.%n%nYou can also get more out of the Oil by cracking it in specific ways. Lightly Hydrocracked Heavy Fuel, for example, gives 60% of the input amount as Light Fuel, which can be helpful if you have an excess of Heavy, and not enough Light to make Diesel.
+
+# Quest.3001 - Using All the Fractions
+gtnh.quest3001.name=Using All the Fractions
+gtnh.quest3001.desc=After getting all the oil fractions at once, what is a player supposed to do with them? They'll pile up in the tanks or output hatches, and the Distillation Tower will keep running even if it cannot output something; everything that cannot be output will just be voided instead, and it's in your best interest to avoid this waste. What do, then?%n%nFirst off, it's important to note that almost everything you get from Oil can be processed into even more things. Whether or not the step is worthwhile is a different story altogether, and most of them aren't. That said, you're free to look through NEI or the spreadsheet to decide what you want to do, and how you want to do it. The charm of a processing chain like this, at least for me, is that it lets you choose your own path and gives you the information to know how to best utilize it.%n%nSecond off, Oil is a major source of byproducts, many of which will be needed to create other materials that are necessary, or simply helpful in progression. However, this isn't the only way to obtain most of them, and you might already found other sources, especially if you've dabbled in the Benzene or the Biomass chains. It's imperative that you automate most of them, but the way you do it is up to you.%n%nNow, for the four fractions that you get from regular Oil. Up until now, the power generation needed both Light Fuel and Heavy Fuel processing, and Naphtha already proved to be a good source of Ethylene. What can these be used for, in case you can build more DTs to process the cracked fluids? Roughly speaking, these are the possibilities:%n%nLight Fuel: You will most likely be using most, or all of this to make Diesel. If you do have leftovers, moderately hydrocracking it is a good source of Propene, and lightly hydrocracking is the best source for Octane. These two are important, but only in EV, for epoxy and powergen, specifically;%n%nHeavy Fuel: If only working with regular Oil, a lot of this will also be consumed to make Diesel. However, it's important to get more of it automated, since it can be distilled directly to make three fantastic byproducts: Toluene, Phenol and Benzene. All of them are important for progression, so make sure you pay attention to this recipe. Toluene is especially useful in HV, as you will need many buckets of it to be able to get into EV, when making your first rocket;%n%nNaphtha: You're probably already distilling this for Ethylene. You could switch this recipe into a Distillation Tower, but keep in mind that you need to build a max-height one to cover the entire recipe. However, if you do it, you will have most of the Oil byproducts automated, in more or less quantity, meaning that it's worth it to tackle this challenge when you get comfortable with making lots of Stainless Steel;%n%nRefinery Gas: This is probably the least useful portion, even with DTs. More often than not, it's used as the power source to keep the entire chain working, although you need Gas Turbines instead of Diesel Generators to do this. Alternatively, you can distill it into Methane and/or Helium without cracking it, if you don't need the power.
+
+# Quest.3002 - Oil Cracker
+gtnh.quest3002.name=Oil Cracker
+gtnh.quest3002.desc=Another HV multi, and another Stainless Steel sink. Not only that, but it needs 16 coils to work! There is a quest about this multi in the Multiblock Goals tab, as per usual.%n%nDespite being expensive, this is an important multiblock to build. It does the cracking recipes like the Chemical Reactor does, and you might even be tempted to make an LCR for this purpose, since it's cheap and can do many recipes at once, but the Oil Cracker is much more efficient and gives several bonuses when used (check the tooltip for more information). As it stands, it's a higher initial investment that will pay off in the long run, many times over, and in this pack everything takes a long time, so get on it!
+
+# Quest.3003 - Boosting the Diesel
+gtnh.quest3003.name=Boosting the Diesel
+gtnh.quest3003.desc=As you might have guessed, extra byproducts is not the only thing that HV does with Oil. On top of that, you can further improve the main fuel that you use for power, and this builds on the previous tier, as Diesel did from Light Fuel. As before, you will need to mix the fuel you have with something else to improve it, but it is not a direct byproduct this time. Instead, it's a chemical that requires a complicated processing chain to produce, at a much higher EU cost, with only a tiny amount needed to create the next fuel, Cetane-Boosted Diesel.%n%nTo make this additive, Tetranitromethane (TNM), you will need to source several chemicals you might have not used yet. I hope you have some Distillation Towers handy, because they will be very useful for this.
+
+# Quest.3004 - Special Rubber from Oil
+gtnh.quest3004.name=Special Rubber from Oil
+gtnh.quest3004.desc=Another one of the Oil "specials" is Butadiene. It can be used in a few ways, including power, but where it shines is in making advanced rubber, specifically Styrene-Butadiene Rubber. You can make it in HV, but it is not required to have an improved rubber until the start of IV. There is a questline for this in the HV tab, so go check it out.%n%nThere is an equivalent alternative, Silicone Rubber, made from other inputs. They are mostly interchangeable, but they each have some unique use that makes it so you should have a good supply of both. 
+
+# Quest.3005 - Distilled Heavy Fuel
+gtnh.quest3005.name=Distilled Heavy Fuel
+gtnh.quest3005.desc=You don't always have to crack the base fuels to get useful chemicals out of them. The best example of this is Heavy Fuel, whose recipe only has 3 outputs, but they're all excellent. This is the perfect format for a Distillation Tower automation, so get on it as soon as you can, you won't regret it!%n%nAs a sidenote, all of these are power-dense, and can be used for power if you stockpile a lot of them. Benzene is the first one you should use for this purpose, if you wish to do it, because the other two are core chemicals for required progression in HV and EV. However, Benzene can also turn into several useful chemicals, so don't burn it all for power.
+
+# Quest.3006 - Acetone and Ethenone
+gtnh.quest3006.name=Acetone and Ethenone
+gtnh.quest3006.desc=Another ingredient in the making of TNM is Ethenone, which can be made directly from Acetone. This one is a little more organic, which is to say it's much easier to automate if you chose Benzene or Biomass. From those routes, you can get it from a Wood Vinegar DT, or reacting Acetic Acid with Calcite Dust from a Fermented Biomass DT (get the calcite from electryzing Fertilizer). If you used biomass to get Ammonia, you can do it this way.%n%nIf not using plants, though, there are other ways to automate this. Ethenone can be made directly from Acetic Acid and Sulfuric Acid, and this last one should already be automated from cleaning the sulfuric waste from the oil fractions. Acetic Acid, on the other hand, is a mix of Oxygen and Ethylene, a combo that you might have already automated to make Polyethylene. If not, this a good time to do so. %n%nThe amount of Ethenone you need to make a lot of Cetane-Boosted Diesel is small, so it's unlikely that you'll run out of Sulfuric Acid for this. Make sure you automate it all, though.
+
+# Quest.3007 - Ammonia Source
+gtnh.quest3007.name=Ammonia Source
+gtnh.quest3007.desc=One of the components of Tetranitromethane is Nitric Acid, which is made from Nitrogen Dioxide, and this from Nitrogen Oxide, which is ultimately created from Ammonia. You can do a small Chemical Reactor chain to do this line of recipes, but the better option is to make an LCR and use the circuit 24 recipe to turn Ammonia and Oxygen directly into Nitric Acid.%n%nYou'll still need to automate Ammonia, though, and there are two main ways of doing this. One of the options is to create it directly from Nitrogen and Hydrogen, but this recipe consumes a lot of EU. The other option is to switch to the biological side of things and get it from the DT recipe of Fermented Biomass, but this requires a whole another setup with sapling automation, a Pyrolyse Oven and some other machines, so don't do it unless you're interested in getting the other outputs of that recipe. It, however, might be a good option if you don't have those yet. Either way, automate your Ammonia.%n%n
+
+# Quest.3008 - Tetranitromethane as Additive
+gtnh.quest3008.name=Tetranitromethane as Additive
+gtnh.quest3008.desc=If both Nitric Acid and Ethenone are automated, then you can now get TNM effortlessly!%n%nIf you look at the recipe, you'll see that you need a lot more Nitric Acid than anything else. Given that Ammonia is the most power-hungry recipe, this is what will cut down into the fuel efficiency at the end, but not nearly enough to discourage the creation and use of CBD. Not only that, but if you check the uses of TNM, you'll see that you can treat Biodiesel the same way, although at a higher cost due to its lower fuel value, if you happened to have it.
+
+# Quest.3009 - Cetane-Boosted Diesel
+gtnh.quest3009.name=Cetane-Boosted Diesel
+gtnh.quest3009.desc=If you made it here, then you should be ready to make Cetane-Boosted Diesel flow into your generators by itself. Congratulations!%n%nOil is still the best power option in HV, building up from what you used in LV. This CBD you've made will help fuel your EBFs, get into space and then handle the increased power needs that EV will throw at you, especially if you want to make an AE2 network for quick automation. Your singleblock generators are at the lowest efficiency yet, 85%, but the fuel you use now has a fuel value of 1 million EU per bucket, a very powerful liquid compared to any other you could make at this time.%n%nI'll see you on EV. Good luck when you make it there.
+
+# Quest.3010 - Superpowered Fuel
+gtnh.quest3010.name=Superpowered Fuel
+gtnh.quest3010.desc=As did all tiers until now, the EV tier introduces a new type of bigger, better liquid fuel to burn on engines, High-Octane Gasoline. However, this one doesn't use the previous fuel, and instead takes a different oil-based route, which means that the CBD you have is of no use in this processing chain.%n%nAlso as before, the amount of processing you will need is greatly increased, and you can expect to need a lot more DTs, Oil Crackers, LCRs and other machines. You will also have to automate the input of materials from other sources, since Oil cannot provide you with everything anymore. You can overclock the multis you have, or build more of them, your choice. In the end, you'll have a fuel that is 2.5x more powerful than CBD, at an impressive fuel value of 2.5 million EU, and more byproducts than you could ever imagine. %n%nYou might have to crack one of the four oil fractions into the other ones, and you will surely need to pump Oil faster and faster to keep up with the power needs that will come when jumping to IV. I do recommend you use AE2 to automate the setup, relying on fluid P2Ps to transport fluids around, because it will make your life easier, even if it's harder to start and learn the setup. Either way you go, don't forget, you have to automate it.%n%n§4Make at least one of these important EV multis to continue.
+
+# Quest.3011 - Boiler and Super Fuel
+gtnh.quest3011.name=Boiler and Super Fuel
+gtnh.quest3011.desc=With the advancements in building materials you've made until now, a new kind of generators has been unlocked. The Large Boilers you might have looked at before, and perhaps used, change when you reach Titanium, and if you build one of those, you will get something quite different from the tiers before.%n%nTo start, most burnable items don't work here. These advanced boilers need to burn much hotter, and as such they only accept specific fuels. The fuel of interest here is one of two, who are built in a sort of chain, in a similar fashion as to how Diesel and CBD worked. There is Solid Super Fuel, and Magic Solid Super Fuel, and they are both created from some coal-like block, some binder and some liquid fuel. You can use CBD for this, but Heavy Fuel and LPG are also options.%n%nWhy go through this route, though? The answer is that this extra processing, although it is difficult to automate, creates fuel that is much more efficient than the fuels that were put into it, and this is because the advanced Large Boilers are slow burners that output Superheated Steam, instead of regular one. This also means that they will need two turbines to convert all the steam into EU, and even more if the amount produced is too much for them. If fuel efficiency is something you're looking for, you can tackle this challenge and further process your CBD into something even more powerful.
+
+# Quest.3012 - Improved Oil Cracker
+gtnh.quest3012.name=Improved Oil Cracker
+gtnh.quest3012.desc=Have you built an Oil Cracker? Have you checked its coils? This multi gets a significant discount to EU/t when upgrading the coils, but it caps at HSS-S, at a maximum of 50% discount. If you are still using low-tier coils, this is a great time to upgrade them to Nichrome and enjoy a 30% discount. You could also do Tungstensteel, but it's unlikely you have enough to pull this off at this time.%n%nBy the way, you can wall-share Oil Crackers, just like DTs, LCRs and many other multis, and doing this will save on the amount of coils you need!
+
+# Quest.3013 - Magic Super Fuel
+gtnh.quest3013.name=Magic Super Fuel
+gtnh.quest3013.desc=Solid Super Fuel is an excellent fuel to burn in the Titanium Boiler, but you can do something even better than that. With a touch of magic, you can make yet another solid fuel with 50% more fuel value than the last one, but it's very likely that you will need Thaumcraft progression to automate this fully, should you wish to do so.%n%nIf you do want to do it, I recommend you also find a way to automate Coal, from IC2 crops for example, because the recipes that use it is much more efficient on liquid fuel than the other coals. You will also end up making more boilers, perhaps a quad Titanium Boiler, which will surely force you to increase the amount of Steam Turbines you'll have to make, but there is a catch here: you can screwdriver the turbines into Loose mode, which significantly decreases their efficiency but boosts their speed by something like 8 times, depending on the turbine you're using. Given that this process already boosts the efficiency of your fuels a lot, you may want to lose some of it to keep your number of boilers low.%n%nI'll leave the planning up to you.
+
+# Quest.3014 - Raw Gasoline
+gtnh.quest3014.name=Raw Gasoline
+gtnh.quest3014.desc=At this point, you have almost all the additives needed to transform basic gasoline into the powerful HOG. What you'll need to do next is to create the gasoline itself, and this begins with Raw Gasoline. It has four different inputs, and each of them is sourced in a different way, but none of them are new: Naphtha and Refinery gas are well-known to you, Methanol was created in the previous quest and Acetone was explained in the "Acetone and Ethenone" quest in HV.%n%nAn important detail here is that Raw Gasoline is 80% Naphtha, and none of the oil types found in reservoirs produces that much of it. You will most likely find the amount you get to be short, but this problem has already been solved! Your source of Octane, if processed in a DT as explained, will also crack the Light Fuel into a lot of Naphtha that you can use here to compensate for the low amount you get from Oil. If you get low on Light Fuel, you can also crack Heavy Fuel to get some.
+
+# Quest.3015 - Pushing with Anti-Knock Agent
+gtnh.quest3015.name=Pushing with Anti-Knock Agent
+gtnh.quest3015.desc=If you want your generators to last, you'll want to make this. In fact, since safety is always the priority, you can't make HOG without this Anti-Knock Agent, a mixture that keeps the fuel from damaging the engine even when it is this powerful. There are two paths to get this automated: one with an LCR recipe, and the other with a DT. The LCR option is cheaper to build, as per usual, but it consumes considerably more power than the DT path, so this quest will focus on the latter. As before, having an initial higher investment to save energy in the long run is the way to go.%n%nThe DT path is a cycle between a Mixer and the tower itself, where each distillation extracts a bit of Anti-Knock Agent from the MTBE Reaction Mixture, and will need to be mixed again. The two inputs needed for the setup are Butene and Methanol. Butene is obtainable from any of the max-height DT distillations, and Methanol from a mixture of Hydrogen and Carbon Dioxide/Carbon Monoxide. If you have a Fermented Biomass setup, you will already have CO2 ready to go, and Hydrogen can be sourced from a variety of ways.%n%nMake this cycle, and you'll have a safe fuel.
+
+# Quest.3016 - Zooming with Nitrous
+gtnh.quest3016.name=Zooming with Nitrous
+gtnh.quest3016.desc=Nitrous Oxide, NO2, also known as nitro. It makes cars go really fast for short bursts. In reality, it is a source of extra oxygen when mixed in with the fuel during combustion, allowing it to be consumed faster and also release energy faster, but at the risk of "knocking", detonating the fuel out of its intended boundaries and possibly destroying the engine. %n%nTo avoid this, something else needs to be mixed in this HOG to prevent your generators from exploding, right? Luckily for you, such an option exists and it will be presented after this quest. For now, though, you can focus on automating Nitrous Oxide by mixing Nitrogen with Oxygen. These are the two main products of distilling air, so you can obtain them in one step, but you probably have chosen your source of these gases at this point, so use what you have.
+
+# Quest.3017 - Speeding with Octane
+gtnh.quest3017.name=Speeding with Octane
+gtnh.quest3017.desc=One of the components of High-Octane Gasoline, as the name implies, is Octane. It is so important to improve the fuel because of something called "octane rating", which measures how much the fuel resists compression without detonating. The energy that vehicles get to move around comes from this detonation, but being able to apply more compression allows for engine designs that are more efficient, but need the fuel to resist that increased force without detonating. That said, any of these fuels can be run in the engines you use, so the way to represent this efficiency bonus is in the fuel value.%n%n(There is a multi in the next tier that only runs on HOG, though. Don't forget it.)%n%nHow is Octane obtained, then? In the last tier, it was explained as coming from Light Fuel, and this is still how you should, and can obtain it: lightly hydrocracked Light Fuel gives some Octane, so put a DT for it and leave your Diesel needs behind. It's time to move on.
+
+# Quest.3018 - Gasoline
+gtnh.quest3018.name=Gasoline
+gtnh.quest3018.desc=Raw Gasoline is raw, obviously. To make it a proper fuel, it needs something explosive mixed in with it... what could you have that is considered explosive? Maybe the TNT, or what it's made of?%n%nYou have Toluene automated already, right? Get on it.
+
+# Quest.3019 - High Octane Gasoline
+gtnh.quest3019.name=High Octane Gasoline
+gtnh.quest3019.desc=Gasoline is a regular fuel, as I'm sure you know. Nothing special about it, it's the same as Diesel but with a different density, for different engines. In real life, it's incredibly useful for the average person, but in GTNH it's mostly replaced by Diesel. However, that is about to change.%n%nThis step is by far the most complicated one in the entire chain, but you already automated all the additives you need, so this is just a matter of mixing. This is the EV step, the final step, so put your chemicals together. Add Octane to help the fuel resist compression after putting in the explosive Toluene, mix in the nitrous to juice it up and finish by controlling it with Anti-Knock Agent. Mix this all with Gasoline and you have HOG, the most powerful diesel fuel in the game.%n%nThere is more progression to the oil processing, and more quests from here, but this is it for fuel improvements. What is left for you is unlocking, and building even better generators that can take full advantage of how powerful HOG is. Nuclear Power is likely to be your next step in power, as diesels cannot last forever, but you can still continue through this path.%n%nOh, and congratulations! You have earned this reward.
+
+# Quest.3020 - Largest Oil Drain
+gtnh.quest3020.name=Largest Oil Drain
+gtnh.quest3020.desc=One way or another, you will need to get Oil faster. Reservoirs can get really big, but the rig only pumps from a portion of them... until now. With a few stacks of Tungstensteel, you can put together the tier 3 of the Oil Rigs, and suck up all the fluid from a reservoir at once, covering the full 8x8 chunk size from a single spot. %n%nIf you need even faster Oil input, build more rigs! They'll draw from the same pool, and exhaust it together. If you put them on adjacent reservoir chunks, you can draw multiple full reservoirs at once and feed them into a central location, and this transportation becomes even easier with Ender Tanks, which are unlocked in this tier.
+
+# Quest.3021 - Buffered Dynamo
+gtnh.quest3021.name=Buffered Dynamo
+gtnh.quest3021.desc=Another use for a few stacks of Tungstensteel is a new, even more powerful generator, but you can't run it just yet. Just like the LCE before it, the IV generator can't be run without a dynamo hatch that is powerful enough to keep up with the output, and in this case it applies to both the boosted and unboosted modes.%n%nWhat that means is that you need an IV Buffered Dynamo Hatch. The power will be worth it.
+
+# Quest.3022 - Extreme Combustion Engine
+gtnh.quest3022.name=Extreme Combustion Engine
+gtnh.quest3022.desc=Very similar to the LCE in most aspects, the Extreme Combustion Engine was created to close the gap between the diesels and more advanced forms of powergen, mainly nuclear fusion. However, the main thing they differ on is the fuel that they can run, and in this case you're limited to the powerful fuel from the last tier, High Octane Gasoline.%n%nThat's right, only this fuel will work, and in exchange the ECE will output more than 10k EU/t. If you add Liquid Oxygen, which you'll need 4 Vacuum Freezers for (3 at HV and 1 at EV), you can keep it boosted permanently, which will send it up to 4 IV amps of power and 150% fuel efficiency. It's in your best interest to keep this thing going if you want to keep using Oil fuels for power, and the only thing you can rely on is your automated HOG setup, which you might have to, and should improve with the new IV multis as soon as you can, unless you have other sources of power working simultaneously.%n%nAs a last note, there is also an IV equivalent of the Vacuum Freezer, if you want to tackle the Liquid Oxygen needs that way. It's more power efficient, look it up on the GT++ tab.
+
+# Quest.3023 - Super Distillation
+gtnh.quest3023.name=Super Distillation
+gtnh.quest3023.desc=Your tallest and closest buddy, the Distillation Tower. You've relied on it so much, haven't you? It's time to take it down.%n%nNo, not really, but you can do better now. The catch is that the upgrade to this, the Dangote Distillus, is special in the sense that its crafting recipe is in the Chemical Plant, and the one you have to build for this recipe is very expensive. Should you decide to accept the costs, though, you can build a Dangote in much the same way as the DT, and even upgrade it to tier 2 for better performance (look in NEI for a Distillus Chip, you have to put it in the controller). %n%nIn summary, this multi runs faster than the DT by doing parallels, a recipe done multiple times at once. A quad DT that you were using to distill Oil can be replaced by a Dangote, and so on. Since distillation is usually a bottleneck in speed for oil processing, this multi should prove useful.
+
+# Quest.3024 - Maxed Oil Cracker
+gtnh.quest3024.name=Maxed Oil Cracker
+gtnh.quest3024.desc=How many oils have you cracked at this point? No matter the number, you can do it cheaper. Once you reach HSS-G coils, you will have achieved the maximum EU/t discount of 50% on your Oil Crackers, and enjoy the full array of benefits that they can provide you. Don't forget to overclock them if they're running slow, the energy cost is minimal at this point.
+
+# Quest.3025 - Super Fuel At The Top
+gtnh.quest3025.name=Super Fuel At The Top
+gtnh.quest3025.desc=I was kidding, there's one more step in Oil, but it isn't really a better fuel, it's just the Tungstensteel Boiler.%n%nThis multi operates in the same fashion as the Titanium one. It needs a Super Fuel, it produces Superheated Steam and it makes you build a bunch of Steam Turbines to actually get power out of the fuel it consumes. The output energy of a single one of these boilers, at 100% efficiency, is 16k EU/t, so you'll need many turbines per boiler. You can build them like that, if you wish to, but at this point the Loose mode on those turbines is really useful. The efficiency hit is big, yes, but the Tungstensteel Boiler is 300% as efficient as the Bronze one, and a single Magic Solid Super Fuel burns for 4,5M EU at 100% turbine efficiency. Look at the amount of CBD you need to make one super fuel, and then you can decide if you want to tackle this super finale.%n%nYes, it's the end, basically. There is a couple of things you can still do, but I'll give you this as an award for having pushed through essentially all the Oil content in the pack. It has been a long journey, and I hope that you found it worthwhile and enjoyable.
+
+# Quest.3026 - Breaking the Mold
+gtnh.quest3026.name=Breaking the Mold
+gtnh.quest3026.desc=Welcome, o' Baron of Oil. For you who has completed the 5 questlines of oil processing, a new chapter awaits you.%n%nThe following quests are not guidelines on how to work with oil. In reality, they are meant for tiers where you're not supposed to be using this kind of power anymore. However, if you do want to continue it, and push it as far as it can go, the following are a few challenges that you can take on, mostly for bragging rights.%n%nAll these challenges are for the tiers after IV. Some of them are for LuV, others need further progression. Good luck!
+
+# Quest.3027 - Ultimate Distillation
+gtnh.quest3027.name=Ultimate Distillation
+gtnh.quest3027.desc=The Dangote Distillus is not enough for the goals of an oil baron. You might have heard about "mega" multiblocks, namely the Mega EBF, but did you know that a Distillation Tower equivalent exists?%n%nIt does the same thing as the Dangote, parallels, but it does 256 at a time, and is much, much bigger than anything you've built so far. My challenge to you is to build a max-height, full-sized Mega Distillation Tower, and come out of your efforts with the biggest multiblock that the pack has to offer. You will need more, much more casings than what the quest asks for, but your inventory is not big enough to hold the full amount that will need to build this monstrosity.
+
+# Quest.3028 - Hyperheated Steam
+gtnh.quest3028.name=Hyperheated Steam
+gtnh.quest3028.desc=If there is someone who found themselves invested in the Large Tungstensteel Boilers, this one is for you. Through the pollution, the multiblock spamming and the chained processing lines you need to get here, you will find that this is a lot of heat for one boiler to handle. Why not make two quad boilers?%n%nYou might be thinking about the number of turbine multis you need to withstand this, but fret not! There are extra large turbines, for the extra large steam enthusiast. You will need four turbine items for each multi, and you best bring the best ones you can make! Loose mode is up to you, just go wild with your super fuel.%n%n§4You will need an Assembly Line to craft the dynamo needed to complete this quest.§r
+
+# Quest.3029 - Universal Fuel Power
+gtnh.quest3029.name=Universal Fuel Power
+gtnh.quest3029.desc=This is the most powerful combustion engine that has ever been built. In fact, it's not only that, but also a Gas Turbine and a Rocket Fuel Generator!%n%nThe Universal Chemical Fuel Engine burns fuel with some additives, as did its predecessors, but it runs at a lower efficiency. The 150% value is a mathematical limit, you cannot reach it without supplying infinite fuel, but this engine compensates by running as fast as fuel is input into it, without the maximum EU/t limitation the others had. The only two things you have to make sure of are that you supply enough Combustion Promoter to keep efficiency up (I'll let you figure the best ratio on your own, but 1:4 promoter:fuel is decent), and that the dynamo can support the EU/t that the generator is outputting.%n%n§9§9§b§4You will need an Assembly Line to craft the dynamo needed to complete this quest. You better burn enough HOG to make it worth!§r 
+
+# Quest.3030 - §6§lHigh Temperature Gas-cooled Reactor
+gtnh.quest3030.name=§6§lHigh Temperature Gas-cooled Reactor
+gtnh.quest3030.desc=§6§lHTGR§r§6 is a ZPM tiered reactor meant to be used as a breeder reactor to make Lutetium and gasses used in void miners.%n%n§rEficiency is calculated based on how full the reactor is, overall it works EXPONENTIALLY better when full.%nThe formula for efficiency is (fuel/72000)^2 (%)%nIt has minimal amount of fuel needed to start operation (10%).%nNeeds 1A LuV and 4000L/s of coolant (times fuel multiplier) to operate.%nFor more info check descriptions of items.%nCheck structure with hologram projector.%n%nInformation about Fuels:%n%n90% of fuel casing parts are recyclable%n%n§2Thorium fuel is turned into Lutetium with 1:1 ratio (but 90% efficiency) also multiplies coolant needed by 1x%n§aUranium fuel is turned into Krypton also multiplies coolant needed by 1.5x%n§cPlutionium fuel is turned into Xenon also multiplies coolant needed by 2x%n%n§Y§9You can find all items by typing htgr in nei.
+
+# Quest.3031 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
+gtnh.quest3031.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
+gtnh.quest3031.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources... or you could go try complete this with the help of some unhappy NPC friends, but that would void your quest rewards.%n%n§3Note: This quest is mutually exclusive with the other smeltry quest.
+
+# Quest.3032 - Trigger:Silicone Rubber Skip
+gtnh.quest3032.name=Trigger:Silicone Rubber Skip
+gtnh.quest3032.desc=No Description
+
+# Quest.3033 - Trigger:PTFE Skip
+gtnh.quest3033.name=Trigger:PTFE Skip
+gtnh.quest3033.desc=No Description
+
+# Quest.3034 - Trigger:Polystyrene Skip
+gtnh.quest3034.name=Trigger:Polystyrene Skip
+gtnh.quest3034.desc=No Description
+
+# Quest.3035 - Trigger:Epoxid Skip
+gtnh.quest3035.name=Trigger:Epoxid Skip
+gtnh.quest3035.desc=No Description
+
+# Quest.3036 - Trigger:Naqline Skip
+gtnh.quest3036.name=Trigger:Naqline Skip
+gtnh.quest3036.desc=No Description
+
 ##################################Line##################################
 
 # QuestLine.0 - And So, It Begins
@@ -11997,6 +12209,10 @@ gtnh.line13.desc=Tired of torches everywhere making your base look like a loser 
 # QuestLine.14 - Basic Automation
 gtnh.line14.name=Basic Automation
 gtnh.line14.desc=Steve's Carts and ProjectRed automation, for your auto-farming and auto-crafting needs, lag included!
+
+# QuestLine.15 - Working with Oil
+gtnh.line15.name=Working with Oil
+gtnh.line15.desc=No Description
 
 # QuestLine.16 - Coins, Coins, Coins
 gtnh.line16.name=Coins, Coins, Coins
