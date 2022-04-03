@@ -1,0 +1,16 @@
+{
+  "ores": [
+    "rockPluto",
+    "334",
+	"rockMakeMake",
+    "333",
+	"rockHaumea",
+    "333"
+  ],
+  "radius": 20,
+  "cost": 30000000,
+  "focusModId": "dreamcraft",
+  "focusName": "item.HeavyDutyPlateTier7",
+  "focusMeta": 0
+}
+

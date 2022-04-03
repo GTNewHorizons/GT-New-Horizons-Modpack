@@ -1,0 +1,18 @@
+{
+  "ores": [
+	"rockTitan",
+    "250",
+	"rockEnceladus",
+    "250",
+	"rockOberon",
+    "250",
+	"rockMiranda",
+    "250"
+  ],
+  "radius": 20,
+  "cost": 10000000,
+  "focusModId": "dreamcraft",
+  "focusName": "item.HeavyDutyPlateTier5",
+  "focusMeta": 0
+}
+

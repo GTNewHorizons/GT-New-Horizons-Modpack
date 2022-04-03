@@ -1455,7 +1455,7 @@ Assembler.addRecipe(CraftingTerminal, [Terminal, CertusScrew * 2, SlabCTable, NQ
 Assembler.addRecipe(ProcessingTerminal, [CraftingTerminal, LuVConveyorbelt * 2, <dreamcraft:item.EngineeringProcessorItemAdvEmeraldCore>, LuVMotor * 2, LuVRobotarm], null, 200, 120);
 
 // --- Interface Terminal
-Assembler.addRecipe(InterfaceTerminal, [Terminal, CertusScrew * 2, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
+Assembler.addRecipe(InterfaceTerminal, [Terminal, CertusScrew * 2, Interface, NQuartzPlate * 2, DiamondCircuit], null, 200, 120);
 
 // --- Conversion Monitor
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:420>, [<appliedenergistics2:item.ItemMultiPart:400>, CertusScrew * 2, <appliedenergistics2:item.ItemMultiMaterial:43>, NQuartzPlate * 2, <appliedenergistics2:item.ItemMultiMaterial:44>], null, 400, 120);

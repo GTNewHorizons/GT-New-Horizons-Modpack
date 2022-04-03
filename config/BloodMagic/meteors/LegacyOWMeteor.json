@@ -31,12 +31,16 @@
 	"oreBlackgraniteSilver",
     "50",
 	"oreBlackgraniteGold",
-    "50"
+    "50",
+	"oreBlackgraniteCassiterite",
+    "70",
+	"stoneGraniteBlack",
+    "200"
   ],
-  "radius": 12,
-  "cost": 0,
-  "focusModId": "minecraft",
-  "focusName": "iron_block",
-  "focusMeta": 0
+  "radius": 16,
+  "cost": 200000,
+  "focusModId": "gregtech",
+  "focusName": "gt.metaitem.01",
+  "focusMeta": 32680
 }
 

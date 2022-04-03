@@ -1,0 +1,14 @@
+{
+  "ores": [
+    "rockTriton",
+    "500",
+	"rockProteus",
+    "500"
+  ],
+  "radius": 20,
+  "cost": 15000000,
+  "focusModId": "dreamcraft",
+  "focusName": "item.HeavyDutyPlateTier6",
+  "focusMeta": 0
+}
+

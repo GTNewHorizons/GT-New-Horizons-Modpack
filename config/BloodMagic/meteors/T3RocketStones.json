@@ -1,0 +1,20 @@
+{
+  "ores": [
+    "rockCeres",
+    "200",
+	"rockCallisto",
+    "200",
+	"rockEuropa",
+    "200",
+	"rockGanymede",
+    "200",
+	"rockAsteroids",
+    "200"
+  ],
+  "radius": 20,
+  "cost": 1000000,
+  "focusModId": "GalacticraftMars",
+  "focusName": "item.itemBasicAsteroids",
+  "focusMeta": 0
+}
+

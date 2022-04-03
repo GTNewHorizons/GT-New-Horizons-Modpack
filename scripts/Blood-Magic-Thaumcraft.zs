@@ -35,15 +35,18 @@ mods.thaumcraft.Research.addResearch("BLOODALTAR", "BLOODMAGIC", "alienis 15, pr
 game.setLocalization("tc.research_name.BLOODALTAR", "Blood Altar");
 game.setLocalization("tc.research_text.BLOODALTAR", "[BM] Paying the highest price.");
 mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.1");
-game.setLocalization("tc.research_page.BLOODALTAR.1", "The Blood Altar is a block added by Blood Magic. It is used to transmute various items using Life Essence (LP). The Blood Altar has an internal storage buffer of 1,000 LP that must be filled before crafting can occur. The altar can be expanded into a multiblock structure in order to access more powerful tiers of transmutation. Currently there are six tiers of Blood Altars. The Blood Altar is used to transmute various items using Life Essence. The transmuted items can then be used in the creation of much of Blood Magic's content. A non-upgraded Altar can store a maximum of 10,000 Life Essence (LP).");
 mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.2");
-game.setLocalization("tc.research_page.BLOODALTAR.2"," The maximum storage per tier for an altar crafted with only Runes of Augmented Capacity is listed below for each tier.
-Much like a Beacon, the Blood Altar increases in tier in a pyramid-like fashion. That is, each successive new tier is added by building downward and out from the previous layer. Unlike the Beacon, the inside of the layers and any gaps in the structure can be left empty. The only required blocks are the Blood Altar, the various types of Blood Runes, and any other block specifically designated in the construction of each tier.");
+mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.3");
+game.setLocalization("tc.research_page.BLOODALTAR.1", "In your travels, you have found yourself facing many kinds of strange beings, but there are few who can bring forth this unsettling feel, this immense doubt.<BR><BR>The vision is still as clear as it was at that moment, when you first laid eyes upon a Blood Mage. These individuals, hardly referred to as people, seemed to worship the energies and forces that spilled out from pain and suffering. Where a thaumaturge seeks control, a mage in red seeks entropy, the destruction of the natural to build the unnatural. Yet, the rare result of their success is a true wonder of magic.");
+game.setLocalization("tc.research_page.BLOODALTAR.2", "Dark magic is nothing new to you, or most mages who have ever dabbled in thaumaturgy, but these... individuals possessed something more than simple madness. In fact, they seemed to lack it altogether.<BR><BR>This last time, the sight of the Blood Mage was accompanied by an altar, made of stone and blood, where the victim's sacrifices became the owner's power. Sometimes, the victim was a monster or an animal, but the mage also harmed themselves whenever there was no other sacrifice to make. You would have been next in the chopping block, but whoever they were recognized your abilities and showed you the rituals of their art, the ways of Blood Magic.");
+game.setLocalization("tc.research_page.BLOODALTAR.3", "Through it all, there was a slight emptiness in their eyes, something that warned you to stay away, yet dragged in your endless curiosity... only a mad person would walk this path.<BR><BR>Regardless of that, you have decided to go forth. You have seen the power, and you will not retreat from it, nor will you ignore its existence. The Thaumonomicon speaks to you in tongues you barely understand, at times, but you have a feeling that it's all going to be magnificent.");
 mods.thaumcraft.Arcane.addShaped("BLOODALTAR", <AWWayofTime:Altar>, "aer 20, ignis 20, terra 20, aqua 20, ordo 20, perditio 20", [
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:ingredient:10>, <Thaumcraft:blockCosmeticSolid:7>],
 [<ExtraUtilities:cobblestone_compressed:1>, <Thaumcraft:blockMetalDevice>, <ExtraUtilities:cobblestone_compressed:1>],
 [<EnderIO:itemMaterial:5>, <Thaumcraft:blockStoneDevice>, <EnderIO:itemMaterial:5>]]);
 mods.thaumcraft.Research.addArcanePage("BLOODALTAR", <AWWayofTime:Altar>);
+mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.4");
+game.setLocalization("tc.research_page.BLOODALTAR.4", "This altar serves as the first reservoir for your sacrifices, although the first drops of blood you gave it seemed to disappear into nothing. It can hold a maximum of 10,000 Life Essence (LP), but it has a 1,000 LP buffer that needs to be satisfied before it can be used for crafting.<BR><BR>According to what you've seen, this single altar can be expanded by building a structure around it, in a similar way to a Beacon, with 6 tiers of construction available. The structure stretches below, like a pyramid, with specific blocks that might or might not improve the Blood Altar. The runes written on some of them looked eerie, though.");
 mods.thaumcraft.Warp.addToResearch("BLOODALTAR", 2);
 
 // --- Life Infuser
@@ -53,9 +56,11 @@ game.setLocalization("tc.research_text.LIFEINFUSER", "[BA] Transfer your Life Es
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "BLOODALTAR", false);
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("LIFEINFUSER", false);
-mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER");
-game.setLocalization("tc.research_page.LIFEINFUSER", "The Life Infuser is a Block Added by Blood Arsenal. It takes in life essence and gradually repairs a tool using 500 LE each damage point repaired. Once an orb is inserted into the Life Essence Materializer, it will suck out LP from the orb's owner converting it to Life Essence which can then be pumped out. (converts 150 - 100)");
-mods.thaumcraft.Infusion.addRecipe("LIFEINFUSER", <AWWayofTime:Altar>, 
+mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER.1");
+mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER.2");
+game.setLocalization("tc.research_page.LIFEINFUSER.1", "Slowly, you begin to understand the extent of this bloody conjecture. You have found a way to reconstruct physical objects, such as tools, by imbuing them with the energy of life you have been gathering, a Life Infuser.<BR><BR>It takes in life essence, and gradually repairs a tool using 500 LE per damage point repaired. Once an orb is inserted into the Life Essence Materializer, it will suck out LP from the orb's owner converting it to Life Essence which can then be pumped out, at a 3:2 ratio of LP:LE");
+game.setLocalization("tc.research_page.LIFEINFUSER.2", "Unfortunately, your early prototypes crumbled to pieces when trying to channel the essence at a strong enough rate. It appears you will need better building blocks for this device, something beyond what the basic Altar can create, or its first tier upgrade. Until then, you risk destroying your tools, or yourself, instead of repairing them.");
+mods.thaumcraft.Infusion.addRecipe("LIFEINFUSER", <AWWayofTime:Altar>,
 [<minecraft:nether_star>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>, <AWWayofTime:imbuedSlate>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>], 
 "victus 32, alienis 32, praecantatio 24, auram 16, fames 8, terra 8", <BloodArsenal:life_infuser>, 5);
 mods.thaumcraft.Research.addInfusionPage("LIFEINFUSER", <BloodArsenal:life_infuser>);
@@ -89,8 +94,10 @@ game.setLocalization("tc.research_name.SACRIFICIALKNIFE", "Sacrificial Knife");
 game.setLocalization("tc.research_text.SACRIFICIALKNIFE", "[BM] Ouch! that hurts.");
 mods.thaumcraft.Research.addPrereq("SACRIFICIALKNIFE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SACRIFICIALKNIFE", false);
-mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE");
-game.setLocalization("tc.research_page.SACRIFICIALKNIFE", "The Sacrificial Knife, or the Sacrificial Orb, is one of two ways to generate LP in the Blood Altar. The Sacrificial Knife is used as a self-sacrifice method, allowing the user to convert their health points into usable Life Essence. To take health from other creatures in return for LP, sacrifice methods such as the Dagger of Sacrifice must be used. If the user of the knife is a Vampire, their blood will be drained rather than their health.");
+mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE.1");
+mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE.2");
+game.setLocalization("tc.research_page.SACRIFICIALKNIFE.1", "Simply using drops of blood to feed the Altar did not seem to get you anywhere. To generate the LP you need through sacrifice, it would be best to create a tool, enchanted for the job. The Sacrificial Knife is such a tool, a way to properly generate LP in the Blood Altar.<BR><BR>The Sacrificial Knife is used as a self-sacrifice method, allowing the user to convert their health points into usable Life Essence. To take health from other creatures in return for LP, sacrifice methods such as the Dagger of Sacrifice must be used.");
+game.setLocalization("tc.research_page.SACRIFICIALKNIFE.2", "If the user of the knife is a Vampire, their blood will be drained rather than their health, but a human will have to lose and regain health to keep the Altar fed. Whichever form of regeneration you might have acquired, this is the time to use, you repeat to yourself. Shudders of anxiety shake your core, to think how many times you will have to stab and slice your skin to continue...<BR><BR>Within your recollections, you remember seeing novice mages going through this process, but the veterans seemed to have other ways. Somehow, you must discover them.");
 mods.thaumcraft.Arcane.addShaped("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKnife>, "aer 10, terra 20, ordo 10, perditio 20", [
 [<ore:screwSteel>, <TConstruct:strangeFood:1>, <ore:craftingToolScrewdriver>],
 [<ore:plateAluminium>, <battlegear2:dagger.diamond>, <TConstruct:strangeFood:1>],
@@ -104,9 +111,11 @@ game.setLocalization("tc.research_text.ALCHEMICCHEMSTRYSET", "[BM] Blub, blub...
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.setConcealed("ALCHEMICCHEMSTRYSET", true);
-mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET");
-game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET", "The Alchemic Chemistry Set is a block added by Blood Magic. This is a Chemistry set used for the mod mentioned above. It's main purpose is to, you guessed it, brew potions! It's an essential part of this mod; as this block is used to brew things that can be the base of many others. Along with the many other such things, you will need LP to actually use and make things with this block. LP, the basic power of this mod, will be explained in another thread.");
-mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_stand>, 
+mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET.1");
+mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET.2");
+game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET.1", "It was not a mirage, nor a false memory. The Blood Mages from your past travels worked with flasks and vials, as if they were alchemists, but they did not work on a regular brewing stand. Instead, they operated on this.<BR><BR>The Alchemic Chemistry Set is the foundation of another branch of Blood Magic, a place to brew strange, new potions and concotions, sure to be used in other crafting attempts. Along with many other inputs, you will need LP to actually work with this block.");
+game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET.2", "You remember seeing this stand being put together with some strange, dark plates. You believe that the lone Altar you have built is good enough to imbue these plates with enough energy to sustain your soon-to-be alchemical future. Perhaps it will ease the stinging, although that has been softening over the days by itself.<BR><BR>The repertoire of a Blood Mage involves some strange substances, vaguely reminding you of a witch's brewing. Looking at this construct, you believe this is where those are made.");
+mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_stand>,
 [<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>], 
 "fabrico 24, instrumentum 24, praecantatio 18, victus 12, ignis 12", <AWWayofTime:blockWritingTable>, 5);
 mods.thaumcraft.Research.addInfusionPage("ALCHEMICCHEMSTRYSET", <AWWayofTime:blockWritingTable>);
@@ -150,8 +159,10 @@ mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "NITOR", false);
 mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("DIVINATIONSIGIL", true);
-mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL");
-game.setLocalization("tc.research_page.DIVINATIONSIGIL", "The Divination Sigil is a tool added by Blood Magic that is used to check important details of both the Blood Altar and the player's network, including the altar tier and total Life Essence storage levels. While holding the Divination Sigil, there are two possible uses for the player. When aiming at a Blood Altar and right clicking, a chat printout will display the total essence stored within the altar, the current tier, and its maximum capacity. When right clicking anywhere else, a chat printout will display the total essence stored within the player's personal network.");
+mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL.1");
+mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL.2");
+game.setLocalization("tc.research_page.DIVINATIONSIGIL.1", "You can see nothing, you are blind to the truth. This is what you think, when you look at the Blood Altar and see nothing but the essential remains of your work. As a mage, you stand in the exact same spot as you did when you first saw a node with the naked eye, in wonder at the mysterious figure in front of your incapable sight.<BR><BR>To overcome this obstacle, and to better understand the reality that you had found yourself facing, you built a Thaumometer. Here, you will have to gain a new kind of vision as well, in order to proceed onwards.");
+game.setLocalization("tc.research_page.DIVINATIONSIGIL.2", "You have found a special kind of lens to see through the Altar's mysteries. This lens takes the form of a Sigil, the Divination Sigil, which is used to check important details of both the Blood Altar and the player's network.<BR><BR>While holding the Divination Sigil, there are two possible uses that you can choose from. When aiming at a Blood Altar and right clicking, a chat printout will display the total essence stored within the altar, the current tier, and its maximum capacity. When right clicking anywhere else, a chat printout will display the total essence stored within the player's personal network.");
 mods.thaumcraft.Infusion.addRecipe("DIVINATIONSIGIL", <AWWayofTime:blankSlate>, 
 [<Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>], 
 "vitreus 24, terra 18, praecantatio 12, instrumentum 6, metallum 4", <AWWayofTime:divinationSigil>, 3);
@@ -164,9 +175,11 @@ game.setLocalization("tc.research_text.SPEEDRUNE", "[BM] How fast is your Altar?
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SPEEDRUNE", true);
-mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE");
-game.setLocalization("tc.research_page.SPEEDRUNE", "The Speed Rune is a block added by Blood Magic that is used for upgrading the tier of the Blood Altar. The Speed Rune can be used interchangeably with any other rune. The Speed Rune does what its name implies, and provides a 20% increase to the processing speed of the Blood Altar.");
-mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
+mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE.1");
+mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE.2");
+game.setLocalization("tc.research_page.SPEEDRUNE.1", "The capacity of the Blood Altar seems to directly depend on the structure built around it, and so do your possibilities as a Blood Mage. You have seen some of these structures in the past, put together with black stones similar to those used in Infusion.<BR><BR>You have also, however, seen strange inscriptions on some of those stones, symbols that seemed to give some kind of meaning to the ritualistic pyramid where the Altar stood. As you attempted to engrave markings into this stone, you too have realized what it all means.");
+game.setLocalization("tc.research_page.SPEEDRUNE.2", "The first upgrade is nothing more than a 3x3 square under the Altar. You can use simple blocks, the so called Blank Runes, but it you have managed to improve upon them through trial and error, mixing the correct items and incantations through Infusion.<BR><BR>The first success, surely of many, that you have found yourself facing is the Speed Rune, which accelerates the processing speed of the Altar by 25%, and can replace any other Rune in the structure. The higher the tier, the more Runes you can fit in the structure.");
+mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>,
 [<AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], 
 "motus 24, volatus 24, potentia 18, aer 12, fames 4", <AWWayofTime:speedRune>, 4);
 mods.thaumcraft.Research.addInfusionPage("SPEEDRUNE", <AWWayofTime:speedRune>);
@@ -245,7 +258,7 @@ mods.thaumcraft.Research.addPrereq("WATERSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("WATERSIGIL", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("WATERSIGIL", true);
 mods.thaumcraft.Research.addPage("WATERSIGIL", "tc.research_page.WATERSIGIL");
-game.setLocalization("tc.research_page.WATERSIGIL", "The Water Sigil acts as an alternative to a bucket of water, allowing for the creation of water source blocks at the cost of 200 LP per source block. This essence will be drawn from the network of the player who the sigil is bound to. The Water Sigil is also used in the creation of the Sigil of Elemental Affinity.");
+game.setLocalization("tc.research_page.WATERSIGIL", "By sacrificing mortal energy, you can reconstruct the unnatural. When tampering with sigils, you found water dripping endlessly from a single bucket. That is the Water Sigil, an alternative to said water buckets, allowing for the creation of water source blocks at the cost of 200 LP per source block.<BR><BR>This essence will be drawn from the network of whoever the sigil is bound to. As you work with this Sigil, you understand it has further potential, but only if combined with something else...");
 mods.thaumcraft.Infusion.addRecipe("WATERSIGIL", <AWWayofTime:reinforcedSlate>, 
 [<witchery:divinerwater>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>], 
 "aqua 40, terra 32, praecantatio 24, instrumentum 16, metallum 8", <AWWayofTime:waterSigil>, 5);
@@ -260,7 +273,7 @@ mods.thaumcraft.Research.addPrereq("LAVASIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("LAVASIGIL", "SIGILOFTHEBLOODLAMP", false);
 mods.thaumcraft.Research.setConcealed("LAVASIGIL", true);
 mods.thaumcraft.Research.addPage("LAVASIGIL", "tc.research_page.LAVASIGIL");
-game.setLocalization("tc.research_page.LAVASIGIL", "The Lava Sigil is a tool added by Blood Magic. The Lava Sigil acts as an alternative to a bucket of lava, allowing for the creation of lava source blocks at the cost of 2,000 LP per source block. This essence will be drawn from the network of the player who the sigil is bound to. The Lava Sigil is also used in the creation of the Sigil of Elemental Affinity.");
+game.setLocalization("tc.research_page.LAVASIGIL", "By sacrificing mortal energy, you can reconstruct the unnatural. Your newfound lack of carefulness almost cost you a hand, as the lava bucket you so carefully brought home began to spill out, endlessly pouring the hot fluid until you stopped feeding it energy. A Sigil related to fire that you had been preparing suddenly took on a new role.<BR><BR>This Lava Sigil allows for the creation of lava source blocks at the cost of 2,000 LP per source block, from your network. You feel as if this can make you more resistant to fire, somehow...");
 mods.thaumcraft.Infusion.addRecipe("LAVASIGIL", <AWWayofTime:imbuedSlate>, 
 [<witchery:divinerlava>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <AWWayofTime:lavaCrystal>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>], 
 "ignis 64, terra 40, praecantatio 32, instrumentum 24, metallum 16", <AWWayofTime:lavaSigil>, 7);
@@ -275,7 +288,7 @@ mods.thaumcraft.Research.addPrereq("EMPTYCORE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("EMPTYCORE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("EMPTYCORE", true);
 mods.thaumcraft.Research.addPage("EMPTYCORE", "tc.research_page.EMPTYCORE");
-game.setLocalization("tc.research_page.EMPTYCORE", "The Empty Core is a component added by Blood Magic. It is used in the creation of the various cores, such as the Projectile Core, Self Core, Melee Core and Lava Crystal.");
+game.setLocalization("tc.research_page.EMPTYCORE", "You have sought to create building blocks for more advanced magic, to grasp at the true potential of this field. The Slates have proven useful, but they can only accept LP and little else.<BR><BR>Instead, an Empty Core must be used to contain other kinds of magical artifacts, with the use of an alchemical Catalyst. Without said catalyst, the new materials and energies you have found yourself embracing will never mix together. From here, it should be easy to put together new, more complex Cores.");
 mods.thaumcraft.Arcane.addShaped("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>, "aer 15, ignis 15, terra 15, aqua 15, ordo 15, perditio 15", [
 [<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:blockCosmeticOpaque:2>],
 [<gregtech:gt.metaitem.01:17306>, <AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:17306>],
@@ -292,7 +305,7 @@ mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "WARDEDARCANA", false);
 mods.thaumcraft.Research.setConcealed("BMLAVACRYSTAL", true);
 mods.thaumcraft.Research.addPage("BMLAVACRYSTAL", "tc.research_page.BMLAVACRYSTAL");
-game.setLocalization("tc.research_page.BMLAVACRYSTAL", "The Lava Crystal is used as a replacement fuel source in furnaces and engines. Rather than losing durability, the crystal drains 25 Life Essence from the player's network per operation. In order to use the Lava Crystal, it must first be bound to a player. To do this, right click while holding the crystal. Once bound to a player, it will begin to function as a fuel source. The Lava Crystal is also used in the creation of the Lava Sigil.");
+game.setLocalization("tc.research_page.BMLAVACRYSTAL", "The power from within is now the power to fuel the world. By infusing an Empty Core with an assortment of specific items, you have built the Lava Crystal, a replacement fuel source in furnaces and engines.<BR><BR>Rather than losing durability, the crystal drains 25 Life Essence from your network per operation. In order to use the Lava Crystal, it must first be bound to you. To do this, right click while holding the crystal. Once bound, it will begin to function as a fuel source.");
 mods.thaumcraft.Infusion.addRecipe("BMLAVACRYSTAL", <AWWayofTime:bloodMagicBaseItems:1>, 
 [<TConstruct:materials:7>, <Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockCosmeticOpaque:2>], 
 "ignis 24, terra 18, praecantatio 18, infernus 6, aer 6", <AWWayofTime:lavaCrystal>, 4);
@@ -306,7 +319,7 @@ mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESACRIFICE", "tc.research_page.RUNESACRIFICE");
-game.setLocalization("tc.research_page.RUNESACRIFICE", "The Rune of Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work alongside each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by sacrificing mobs with a Dagger of Sacrifice by 10%.");
+game.setLocalization("tc.research_page.RUNESACRIFICE", "Through careful experimentation and planning, you have managed to make more out of every creature you sacrifice to the altar. With the Rune of Sacrifice, the Altar will have the total amount of LP gained by sacrificing mobs increased by 12%, with the Dagger of Sacrifice, for each rune that you add into the Altar's structure.<BR><BR>You are as of yet unsure if you are drawing more blood from your enemies, but their deaths have become meaningless at this point. Who would care about these creatures?");
 mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, potentia 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSacrifice>, 5);
@@ -320,7 +333,7 @@ mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESELFSACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "tc.research_page.RUNESELFSACRIFICE");
-game.setLocalization("tc.research_page.RUNESELFSACRIFICE", "The Rune of Self-Sacrifice is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work alongside each rune in the upgrade process. The Rune of Sacrifice will increase the total amount of LP gained by using a Sacrificial Dagger by 10%.");
+game.setLocalization("tc.research_page.RUNESELFSACRIFICE", "Ever since you began in this bloody journey, you have felt your personal sacrifices hurting you less and less, sapping away very little if any of your vigor. Through it, you have discovered the correct rune to boost the efficiency of those sacrifices, the Rune of Sacrifice. This block will increase the total amount of LP gained by using a Sacrificial Dagger by 12%, for each rune that you add into the Altar's structure.<BR><BR>You can tell the Altar is filling faster, but it seems to give you no joy.");
 mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, lucrum 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSelfSacrifice>, 5);
@@ -334,7 +347,7 @@ mods.thaumcraft.Research.addPrereq("AIRSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("AIRSIGIL", "LAVASIGIL", false);
 mods.thaumcraft.Research.setConcealed("AIRSIGIL", true);
 mods.thaumcraft.Research.addPage("AIRSIGIL", "tc.research_page.AIRSIGIL");
-game.setLocalization("tc.research_page.AIRSIGIL", "The Air Sigil is a sigil added by Blood Magic that grants the user access to a basic method of flight at the cost of LP. Upon right clicking with the Air Sigil, the user will be launched in the direction they are facing at the cost of 50 LP per click. Do note, however, that the user is still vulnerable to fall damage without a form of protection, such as the Sigil of Elemental Affinity.");
+game.setLocalization("tc.research_page.AIRSIGIL", "Through this journey, you have learned that carefulness often delays progress. You were afraid of using this power on yourself, but these fears are now gone, replaced by a strange rush of excitement and a hint of queasiness. Today, you have learned how to fly.<BR><BR>Using this Air Sigil, you are granted access to a basic method of flight, at the cost of LP. Upon right clicking with the Air Sigil, you can launch yourself in the direction you are facing at the cost of 50 LP per click.  However, you are still vulnerable to fall damage without a form of protection.");
 mods.thaumcraft.Infusion.addRecipe("AIRSIGIL", <AWWayofTime:demonicSlate>, 
 [<minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>], 
 "volatus 64, aer 48, motus 32, praecantatio 24, iter 18, potentia 12, cognitio 6", <AWWayofTime:airSigil>, 9);
@@ -349,7 +362,7 @@ mods.thaumcraft.Research.addPrereq("FASTERMINING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FASTERMINING", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("FASTERMINING", true);
 mods.thaumcraft.Research.addPage("FASTERMINING", "tc.research_page.FASTERMINING");
-game.setLocalization("tc.research_page.FASTERMINING", "The Sigil of the Fast Miner is a tool added by Blood Magic. The Sigil of the Fast Miner grants the user Haste II at the cost of Life Essence (LP). Upon activating the Sigil of the Fast Miner, 100 LP will be consumed from the owner's network to grant the user Haste II. Every ten seconds after activation, an additional 100 LP will be consumed to continue granting the user Haste II.");
+game.setLocalization("tc.research_page.FASTERMINING", "How strange. When you try to apply Life Essence back to yourself, it does more than regenerate your body, it facilitates and accelerates your actions. The Sigil of the Fast Miner, as an example, takes advantage of this boost by granting the user Haste II at the cost of Life Essence (LP).<BR><BR>Upon activating the Sigil of the Fast Miner, 100 LP will be consumed from your network to grant the buff, and once again every 10 seconds. Your mining speed will be greatly accelerated while the Sigil is active.");
 mods.thaumcraft.Infusion.addRecipe("FASTERMINING", <AWWayofTime:reinforcedSlate>, 
 [<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemPickThaumium>, <AWWayofTime:aether>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemShovelThaumium>, <AWWayofTime:aether>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemAxeThaumium>, <AWWayofTime:aether>], 
 "instrumentum 36, praecantatio 24, metallum 18, perfodio 12, motus 8", <AWWayofTime:sigilOfTheFastMiner>, 5);
@@ -364,7 +377,7 @@ mods.thaumcraft.Research.addPrereq("GREENGROW", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("GREENGROW", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("GREENGROW", true);
 mods.thaumcraft.Research.addPage("GREENGROW", "tc.research_page.GREENGROW");
-game.setLocalization("tc.research_page.GREENGROW", "The Sigil of the Green Grove is a sigil added by Blood Magic. When activated, the sigil will speed the growth of all nearby plants in a manner similar to the Ritual of the Green Grove. Upon activating the Sigil of the Green Grove, additional growth ticks will be applied to all plants within a six block radius of the player. This effect will consume 150 LP per five seconds. Right clicking on a plant will cause a bonemeal effect to be activated on that plant, consuming 150 LP per click. This effect can only be applied to plants that can have their growth sped up by Bonemeal.");
+game.setLocalization("tc.research_page.GREENGROW", "With a magical sleight of hand, the essence of living can grow any living matter. After focusing your efforts into plants, you have created the Sigil of the Green Grove.<BR><BR>When activated, the Sigil will speed the growth of all nearby plants, by applying additional growth ticks to all plants within a six block radius of the caster. This effect will consume 150 LP every five seconds. Right clicking on a plant that accepts Bone Meal will cause its growth effect to be activated on that plant, consuming 150 LP per usage.");
 mods.thaumcraft.Infusion.addRecipe("GREENGROW", <AWWayofTime:reinforcedSlate>, 
 [<witchery:witchsapling>, <AWWayofTime:terrae>, <witchery:witchsapling:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCustomPlant:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCustomPlant>, <AWWayofTime:terrae>, <TConstruct:slime.sapling>, <AWWayofTime:terrae>], 
 "instrumentum 36, terra 24, herba 18, arbor 12, victus 8", <AWWayofTime:growthSigil>, 5);
@@ -379,7 +392,7 @@ mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("VOIDSIGIL", true);
 mods.thaumcraft.Research.addPage("VOIDSIGIL", "tc.research_page.VOIDSIGIL");
-game.setLocalization("tc.research_page.VOIDSIGIL", "The Void Sigil is a tool added by Blood Magic. The Void Sigil is used to remove source blocks of liquid at a small LP cost. When used in conjunction with the Lava Sigil or Water Sigil, it can be useful in cleaning up accidental liquid placement. In order to use the Void Sigil, it must first be bound to a player. This can be done by right clicking with the sigil. Once bound, right clicking any placed liquid source block will cause it to disappear, at the cost of 50 LP and the liquid.");
+game.setLocalization("tc.research_page.VOIDSIGIL", "Creation and destruction, the cycle of all life. Upon mastering the Water Sigil, you realized that you had no good way of removing the water you created. As a mage dedicated to an art that begins with destruction, this is unacceptable.<BR><BR>Looking for a tool of reversal, you decided to name it the Void Sigil, used to remove source blocks of liquid at a small LP cost. Once bound to you, right clicking any placed liquid source block will cause it to disappear, at the cost of 50 LP, removing that source block from existence. Good riddance.");
 mods.thaumcraft.Infusion.addRecipe("VOIDSIGIL", <AWWayofTime:imbuedSlate>, 
 [<BloodArsenal:blood_burned_string>, <gregtech:gt.metaitem.01:17970>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <BloodArsenal:blood_burned_string>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <gregtech:gt.metaitem.01:17970>], 
 "vacuos 64, terra 40, praecantatio 32, auram 24, metallum 16", <AWWayofTime:voidSigil>, 7);
@@ -394,7 +407,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSWIMMING", true);
 mods.thaumcraft.Research.addPage("SIGILOFSWIMMING", "tc.research_page.SIGILOFSWIMMING");
-game.setLocalization("tc.research_page.SIGILOFSWIMMING", "The Sigil of Swimming allows the player to move faster, break faster, and breath underwater! So you are able now to rebuild Atlantis.");
+game.setLocalization("tc.research_page.SIGILOFSWIMMING", "There is power beyond improving what your fragile body can already do. By reinfusing your Life Essence, with the use of Blood Magic, you have found yourself transcending your own limitations.<BR><BR>The Sigil of Swimming, as you have hastily named it, allows you to move faster, break faster, and breathe underwater, costing 100 LP every 10 seconds. This is an exhilarating sensation, of the kind you thought impossible. How can your body do this?");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSWIMMING", <AWWayofTime:voidSigil>, 
 [<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <AWWayofTime:demonicSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>], 
 "aer 64, aqua 64, vacuos 64, terra 48, praecantatio 32, auram 24, metallum 16", <BloodArsenal:sigil_of_swimming>, 12);
@@ -407,8 +420,10 @@ game.setLocalization("tc.research_name.BLOODLETTERSPACK", "Blood Letters Pack");
 game.setLocalization("tc.research_text.BLOODLETTERSPACK", "[BM] This pack really chaffs...");
 mods.thaumcraft.Research.addPrereq("BLOODLETTERSPACK", "SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.setConcealed("BLOODLETTERSPACK", true);
-mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK");
-game.setLocalization("tc.research_page.BLOODLETTERSPACK", "The Blood Letter's Pack is a piece of armor added by Blood Magic. Wearing the armor does one heart of damage a second and fills 100 LP per heart and will not reduce a player's health below 5 hearts. The Pack stores up to 10000 LP, upgrades unknown. The Blood Letter's Pack is used to store LP while away from the Altar. Using a filled Pack on the Altar will transfer stored LP into the Altar's buffer tank.");
+mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK.1");
+mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK.2");
+game.setLocalization("tc.research_page.BLOODLETTERSPACK.1", "The repetition of losing and regaining health, all to feed the Altar, has been wearing out your patience more than your pain tolerance. Your fingers are very useful for practicing magic, and as such you have found a different way to undergo self-sacrifice, using a Thaumium Chestplate to magically siphon blood from your veins.<BR><BR>The spikes on the inside are daunting to look at, but you have managed to put it on yourself, with less discomfort than you expected when you first looked at the finished product, which you named after letting it take your blood, for the sake of magic.");
+game.setLocalization("tc.research_page.BLOODLETTERSPACK.2", "The Blood Letter's Pack is a piece of armor that can automate the acquiral of LP from your own life force. Wearing the armor does one heart of damage a second, and fills 100 LP per heart lost. It will not reduce your health below 5 hearts, in your attempts to preserve yourself.<BR><BR>The armor stores up to 10000 LP as built by default, and it can be used to store LP while away from your main reservoir of LP. Using a filled Pack on the Altar will transfer stored LP into the Altar's buffer tank. With a handy source of Regeneration, you can keep this up endlessly.");
 mods.thaumcraft.Arcane.addShaped("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>, "aer 15, ignis 15, terra 30, aqua 30, ordo 30, perditio 30", [
 [<AWWayofTime:reinforcedSlate>, <AWWayofTime:sacrificialKnife>, <AWWayofTime:reinforcedSlate>],
 [<AWWayofTime:reinforcedSlate>, <Thaumcraft:ItemChestplateThaumium>, <AWWayofTime:reinforcedSlate>],
@@ -457,8 +472,10 @@ game.setLocalization("tc.research_name.WEAKORB", "Weak Orb");
 game.setLocalization("tc.research_text.WEAKORB", "[BM] Orb transformation Tier I");
 mods.thaumcraft.Research.addPrereq("WEAKORB", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("WEAKORB", true);
-mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB");
-game.setLocalization("tc.research_page.WEAKORB", "When you have created a Raw Orb Tier 1 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get a Weak Blood Orb");
+mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB.1");
+mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB.2");
+game.setLocalization("tc.research_page.WEAKORB.1", "A Blood Mage, by default, is forcefully kept near their Altar to practice magic. Even though liquid essence can be transported, it cannot fuel most magical items simply by pouring it, or burning it in some way.<BR><BR>This, however, is not an impediment to the Blood Mages you have seen working in the field, as they have accomplished simple tasks with the energy from the essence, regardless of their position. There must be a way to store and link this inner energy, so that you can carry the magic with you.");
+game.setLocalization("tc.research_page.WEAKORB.2", "This construct is called a Blood Orb by most mages, and it can store a limited amount of LP to be used by an assortment of magical devices. The materials used in the craft can make higher tier, or lower tier Orbs, but each one has to be infused with enough LP to be operational, so a beginner mage such as yourself can only create the first tier one, the Weak Blood Orb.<BR><BR>These items can also be used for crafting other items, and are never consumed.");
 mods.thaumcraft.Arcane.addShaped("WEAKORB", <dreamcraft:item.WeakOrb>, "aer 20, aqua 20, ignis 20, terra 20, perditio 20, ordo 20", [
 [null, <ore:gemDiamond>, null],
 [<AWWayofTime:blankSlate>, <dreamcraft:item.RawOrbTier1>, <AWWayofTime:blankSlate>],
@@ -472,8 +489,10 @@ game.setLocalization("tc.research_name.APPRENTICEORB", "Apprentice Orb");
 game.setLocalization("tc.research_text.APPRENTICEORB", "[BM] Orb transformation Tier II");
 mods.thaumcraft.Research.addPrereq("APPRENTICEORB", "WEAKORB", false);
 mods.thaumcraft.Research.setConcealed("APPRENTICEORB", true);
-mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB");
-game.setLocalization("tc.research_page.APPRENTICEORB", "When you have created a Raw Orb Tier 2 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get an Apprentice Blood Orb.");
+mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB.1");
+mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB.2");
+game.setLocalization("tc.research_page.APPRENTICEORB.1", "After successfully upgrading the tier of your Blood Altar, you can also upgrade your Blood Orb to a new level. The amount of storage you have access to is quite limiting, so this improvement is a sigh of relief, as is the potential of the orb when used to craft other items, or when delving in alchemy. Surely, now, you can invest in ways to ease up on the self-sacrifices you were forced to do so far, right?<BR><BR>The last time you asked a Blood Mage about the topic, they told you that you'll get used to it, but that's surely nonsense. They must have some kind of secret that they're hiding!");
+game.setLocalization("tc.research_page.APPRENTICEORB.2", "This tier 2 Blood Orb can hold 25,000 LP, 5 times more than the previous version. With this storage amount, you should be able to use more demanding Sigils than before, at least for a limited time. The upgrade also allows for more possible crafts and alchemic recipes, a benefit that will happen from now on with each new Blood Orb.<BR><BR>You make a hasty note to remind yourself that the required orb for each recipe is a very important detail that should not be missed.");
 mods.thaumcraft.Arcane.addShaped("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>, "aer 40, aqua 40, ignis 40, terra 40, perditio 40, ordo 40", [
 [null, <ore:gemFlawlessEmerald>, null],
 [<AWWayofTime:reinforcedSlate>, <dreamcraft:item.RawOrbTier2>, <AWWayofTime:reinforcedSlate>],
@@ -487,8 +506,10 @@ game.setLocalization("tc.research_name.MAGICANORB", "Magician's Orb");
 game.setLocalization("tc.research_text.MAGICANORB", "[BM] Orb transformation Tier III");
 mods.thaumcraft.Research.addPrereq("MAGICANORB", "APPRENTICEORB", false);
 mods.thaumcraft.Research.setConcealed("MAGICANORB", true);
-mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB");
-game.setLocalization("tc.research_page.MAGICANORB", "When you have created a Raw Orb Tier 3 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get a Magician's Blood Orb.");
+mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB.1");
+mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB.2");
+game.setLocalization("tc.research_page.MAGICANORB.1", "You look back at your Altar, immensely bigger and more intricate than it was before, more similar to those you have seen used by your mentors. You envision another upgrade to your Blood Orb, even if just to avoid using up vital Rune spots to increase its storage amount.<BR><BR>Despite having access to a lot more of them, you find it unacceptable to use the available spots in such a rudimentary fashion. It's hard to explain, but the structure you have built weighs on your mind in some distant, faded out way.");
+game.setLocalization("tc.research_page.MAGICANORB.2", "The storage amount of the tier 3 Orb is 150,000, 6 times higher than the tier 2 one. It's a hefty battery, certainly, but you can already foresee the difficulty in filling it up if you don't optimize the LP earnings of your Blood Altar. Specific Runes should help for this task, as should the new recipes that are unlocked with this tier 3 orb and the corresponding Imbued Slates.");
 mods.thaumcraft.Arcane.addShaped("MAGICANORB", <dreamcraft:item.MagicianOrb>, "aer 60, aqua 60, ignis 60, terra 60, perditio 60, ordo 60", [
 [null, <ore:blockGold>, null],
 [<AWWayofTime:imbuedSlate>, <dreamcraft:item.RawOrbTier3>, <AWWayofTime:imbuedSlate>],
@@ -503,7 +524,7 @@ game.setLocalization("tc.research_text.MASTERORB", "[BM] Orb transformation Tier
 mods.thaumcraft.Research.addPrereq("MASTERORB", "MAGICANORB", false);
 mods.thaumcraft.Research.setConcealed("MASTERORB", true);
 mods.thaumcraft.Research.addPage("MASTERORB", "tc.research_page.MASTERORB");
-game.setLocalization("tc.research_page.MASTERORB", "When you have created a Raw Orb Tier 4 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get a Master Blood Orb.");
+game.setLocalization("tc.research_page.MASTERORB", "It is time for this, once again. Stepping past the tier 3 Altar, it is possible to improve your Blood Orb once more, with the new version storing 1,000,000 LP, 6 times more than the previous one.<BR><BR>It should be easy to fill this up, you think to yourself, otherwise you would be in considerable trouble to face whatever this new tier of Blood Magic brings to the table.");
 mods.thaumcraft.Arcane.addShaped("MASTERORB", <dreamcraft:item.MasterOrb>, "aer 80, aqua 80, ignis 80, terra 80, perditio 80, ordo 80", [
 [null, <AWWayofTime:weakBloodShard>, null],
 [<AWWayofTime:demonicSlate>, <dreamcraft:item.RawOrbTier4>, <AWWayofTime:demonicSlate>],
@@ -517,8 +538,10 @@ game.setLocalization("tc.research_name.ARCHMAGEORB", "Archmage's Orb");
 game.setLocalization("tc.research_text.ARCHMAGEORB", "[BM] Orb transformation Tier V");
 mods.thaumcraft.Research.addPrereq("ARCHMAGEORB", "MASTERORB", false);
 mods.thaumcraft.Research.setConcealed("ARCHMAGEORB", true);
-mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB");
-game.setLocalization("tc.research_page.ARCHMAGEORB", "When you have created a Raw Orb Tier 5 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get an Archmage's Blood Orb.");
+mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB.1");
+mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB.2");
+game.setLocalization("tc.research_page.ARCHMAGEORB.1", "Something calls out to you, not from a distance, but from within. Once you saw the scribings on your Altar's blocks come to life, once again in this new structure, there was a sudden drive to put together the new Blood Orb that you had certainly earned the right to create.<BR><BR>The materials have gotten more expensive over time, but your dwindling will to continue flipped on its head and now shoves you towards the goal at hand. It's difficult to understand why this is happening, but there's something in your blind spot that you cannot yet perceive, but you know is there.");
+game.setLocalization("tc.research_page.ARCHMAGEORB.2", "This upgrade is the biggest yet, with the tier 5 Blood Orb holding an impressive 10,000,000 LP at max capacity, more enough for any Sigil you would like to use. Only the most expensive, most powerful magic effects could empty this orb in a reasonable amount of time... ones you might not have discovered yet.<BR><BR>The possibilities push you here and there, even if you seem to exhaust the possibilities of magic you find around you. There is more to all of this, deeper within the very fabric of the matter, yet you don't see a way to reach beyond what the inner eye can see. There must be something more, somewhere...");
 mods.thaumcraft.Arcane.addShaped("ARCHMAGEORB", <dreamcraft:item.ArchmageOrb>, "aer 100, aqua 100, ignis 100, terra 100, perditio 100, ordo 100", [
 [null, <AWWayofTime:demonBloodShard>, null],
 [<AWWayofTime:bloodMagicBaseItems:27>, <dreamcraft:item.RawOrbTier5>, <AWWayofTime:bloodMagicBaseItems:27>],
@@ -532,8 +555,10 @@ game.setLocalization("tc.research_name.TRANSCENDENTORB", "Transcendent Orb");
 game.setLocalization("tc.research_text.TRANSCENDENTORB", "[BM] Orb transformation Tier VI");
 mods.thaumcraft.Research.addPrereq("TRANSCENDENTORB", "ARCHMAGEORB", false);
 mods.thaumcraft.Research.setConcealed("TRANSCENDENTORB", true);
-mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB");
-game.setLocalization("tc.research_page.TRANSCENDENTORB", "When you have created a Raw Orb Tier 6 out of Gregtech materials you have to think about how it can become a Blood Orb. The first step is adding magic to the orb. After that you need to fill it with the Blood from the Blood Altar to get an Transcendent Blood Orb.");
+mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB.1");
+mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB.2");
+game.setLocalization("tc.research_page.TRANSCENDENTORB.1", "This is where you stand, at the top of all worlds. The limits you were explained have been shattered to pieces and, out of the shards, a new you arrived, beaming with satisfaction and victory. To sit at the frontier of knowledge, and step into the unknown, is to call out to the gods and only hear your own voice in response.<BR><BR>For the master of all crafts, technological and magical, a new future dawns on the horizon, a sight that everyone else is blind to. What they look at, they will never see, until you flash it in front of their eyes with a powerful lightning.");
+game.setLocalization("tc.research_page.TRANSCENDENTORB.2", "Slayer of demons, this tier 6 Blood Orb is your reward, holding as much as 30,000,000 LP before any Rune upgrades. Any and all sources of LP are now at your disposal, and your Sigil costs will disappear into the abyss.<BR><BR>The whole world is in the palm of your hand, and you only have to squeeze it shut into a fist. It will not shatter, it will only grow, transform into something bigger that is yours to take. The future is uncertain, but success is guaranteed.<BR><BR>If there is something out there that requires a truly powerful Blood Magic component, you are sure that you can produce it now. The only question is when.");
 mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>, "aer 150, aqua 150, ignis 150, terra 150, perditio 150, ordo 150", [
 [null, <AWWayofTime:blockCrystal>, null],
 [<BloodArsenal:sigil_of_lightning:1>, <dreamcraft:item.RawOrbTier6>, <BloodArsenal:sigil_of_lightning:1>],
@@ -596,7 +621,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "INFUSION", false
 mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFARGUMENTEDCAPACITY", true);
 mods.thaumcraft.Research.addPage("RUNEOFARGUMENTEDCAPACITY", "tc.research_page.RUNEOFARGUMENTEDCAPACITY");
-game.setLocalization("tc.research_page.RUNEOFARGUMENTEDCAPACITY", "The Rune of Augmented Capacity is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work alongside each rune in the upgrade process. The Rune of Augmented Capacity adds an additional 2,000 LP storage potential to the Blood Altar. This also increases the tank's internal buffer as it is always 10% of the altar's capacity.");
+game.setLocalization("tc.research_page.RUNEOFARGUMENTEDCAPACITY", "You see the path in front of you, more clearly than anyone else. Whatever you have stored in this Blood Altar, it will not suffice for the days to come. After deep and thorough research, you find yourself facing the Rune of Augmented Capacity. Each one adds an additional 3,500 LP storage potential to the Blood Altar, allowing for health to be sacrificed in bigger batches, and also to craft new items that require more LP. This also increases the tank's internal buffer, as it is always 10% of the altar's capacity, but you find no difficulty in filling such a buffer at this point.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFARGUMENTEDCAPACITY", <BloodArsenal:blood_stone:1>, 
 [<BuildCraft|Factory:tankBlock>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <BuildCraft|Factory:tankBlock>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>], 
 "aqua 32, lucrum 24, fames 18, praecantatio 12, terra 8, vacuos 4", <AWWayofTime:AlchemicalWizardrybloodRune:1>, 7);
@@ -610,7 +635,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFDISLOCATION", true);
 mods.thaumcraft.Research.addPage("RUNEOFDISLOCATION", "tc.research_page.RUNEOFDISLOCATION");
-game.setLocalization("tc.research_page.RUNEOFDISLOCATION", "The Rune of Dislocation is a rune added by Blood Magic that is used in upgrading the tier of the Blood Altar. This rune can be used in place of other runes, and can work alongside each rune in the upgrade process. The Rune of Dislocation increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate.");
+game.setLocalization("tc.research_page.RUNEOFDISLOCATION", "The process of transferring LP out of the Altar is slowly devouring your patience. How annoying, the awful speed of it! A resourceful mage cannot be halted by meager things like this, and your new discovery is clear proof of that. The Rune of Dislocation, as you've named it, increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate. You can add several of these into a bigger Altar structure, surely achieving double, triple the speed of transfer you had before. Boredom is the enemy of advancement.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFDISLOCATION", <BloodArsenal:blood_stone:1>, 
 [<gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>], 
 "aqua 32, praecantatio 24, motus 18, tempus 12, terra 8, cognitio 4", <AWWayofTime:AlchemicalWizardrybloodRune:2>, 7);
@@ -624,7 +649,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "INFUSION", false
 mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFELEMENTALAFFINITY", true);
 mods.thaumcraft.Research.addPage("SIGILOFELEMENTALAFFINITY", "tc.research_page.SIGILOFELEMENTALAFFINITY");
-game.setLocalization("tc.research_page.SIGILOFELEMENTALAFFINITY", "The Sigil of Elemental Affinity is a sigil added by Blood Magic that grants the user several forms of environmental protection. These forms of protection range from fall damage negation, to water breathing, to fire immunity, all at a small LP cost while active. Upon right click, the sigil will activate and grant the user water breathing, fire (and lava) immunity, and fall damage negation at the cost of 300 LP every 10 seconds.");
+game.setLocalization("tc.research_page.SIGILOFELEMENTALAFFINITY", "Even though you saw further potential in some earlier Sigils, it was clear to you they could not go beyond themselves, by themselves. The field of Thaumaturgy relies on Infusion, as does your progress in Blood Magic at this point. What would happen, then, if you combined Sigils together?<BR><BR>The result is the Sigil of Elemental Affinity. Its effects range from fall damage negation to water breathing and fire immunity, all at a small LP cost of 300 LP every 10 seconds, understandably more than the components Sigils you used in this craft.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFELEMENTALAFFINITY", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:earthScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:lavaSigil>, <AWWayofTime:fireScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:waterSigil>, <AWWayofTime:waterScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:airSigil>, <AWWayofTime:airScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:imbuedSlate>], 
 "volatus 64, aer 48, aqua 48, ignis 48, motus 32, praecantatio 24, iter 18, potentia 12, cognitio 6", <AWWayofTime:sigilOfElementalAffinity>, 9);
@@ -638,9 +663,11 @@ game.setLocalization("tc.research_text.SIGILOFLIGHTNING", "[BA] Lightning Strike
 mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "SIGILOFELEMENTALAFFINITY", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFLIGHTNING", true);
-mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING");
-game.setLocalization("tc.research_page.SIGILOFLIGHTNING", "The Lightning Sigil is a very powerful sigil that summons lightning wherever you point and click! It has 5 different modes. Mode 1 one Lighning Strike, mode 2 two lightning stricks....");
-mods.thaumcraft.Infusion.addRecipe("SIGILOFLIGHTNING", <AWWayofTime:bloodMagicBaseItems:27>, 
+mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING.1");
+mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING.2");
+game.setLocalization("tc.research_page.SIGILOFLIGHTNING.1", "The other day, you were filling up the Altar, while heavy rain poured all around you. The sound was calming, the atmosphere was relaxing and it soothed your nerves, but a strange flash of light suddenly appeared in the reflection of the Life Essence.<BR><BR>You only had time to flinch, instinctively, at the roaring crash of a bolt of lightning only a few meters in front of you, leaving only a tree split down the middle that came to crash against the muddy soil.<BR><BR>Your body shook, you could not stop it, and at that point you knew what remained in front of you.");
+game.setLocalization("tc.research_page.SIGILOFLIGHTNING.2", "A few days later, you resurfaced from a vitreous-eyed frenzy with the Lightning Sigil. Upon command, you can force lightning to cascade wherever you point and click, at a considerable cost of LP.<BR><BR>The Sigil has 5 different modes, each one increasing the amount of lightning you summon, but also the cost of using the Sigil, maxing out at an incredible 168,000 LP.<BR><BR>You look at your hands, healed from the initial pricks that began this journey, and you find yourself filled with a strange sensation, fuller than you have ever been. The power is not just there, it resonates with your very being, shaking with the ground under your two feet.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFLIGHTNING", <AWWayofTime:bloodMagicBaseItems:27>,
 [<AWWayofTime:airSigil>, <BloodArsenal:blood_stone:3>, <BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_diamond_block>, <AWWayofTime:waterSigil>, <BloodArsenal:blood_stone:3>, <BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_diamond_block>], 
 "tempestas 32, aer 72, aqua 72, terra 64, potentia 48, tenebrae 8, ira 8, electrum 16", <BloodArsenal:sigil_of_lightning>, 15);
 mods.thaumcraft.Research.addInfusionPage("SIGILOFLIGHTNING", <BloodArsenal:sigil_of_lightning>);
@@ -654,7 +681,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHOLDING", true);
 mods.thaumcraft.Research.addPage("SIGILOFHOLDING", "tc.research_page.SIGILOFHOLDING");
-game.setLocalization("tc.research_page.SIGILOFHOLDING", "The Sigil of Holding is a tool added by Blood Magic. The Sigil of Holding is used to save inventory space by combining several sigils into a single one. Shift right clicking with it will allow you to place (or remove) up to 5 sigils into one sigil and you can switch between the sigils that it holds by using the scroll on the mouse while holding shift. Right clicking will activate the displayed sigil.");
+game.setLocalization("tc.research_page.SIGILOFHOLDING", "You have found yourself encumbered with magical trinkets in the past, and the simple, initial exploration of Sigil-related possibilies only worsens that reality. Instead, you dedicated some time to compactly carry your new tools, using the Sigil of Holding.<BR><BR>It is used to save inventory space by combining several Sigils into one. Shift right clicking with it will allow you to place (or remove) up to 5 Sigils into it, and you can switch between the Sigils that it holds by using the scroll on the mouse while holding shift. Right clicking will activate the displayed Sigil.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHOLDING", <AWWayofTime:imbuedSlate>, 
 [<IronChest:BlockIronChest>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:reinforcedSlate>], 
 "lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <AWWayofTime:sigilOfHolding>, 9);
@@ -669,7 +696,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFAUGMENTETHOLDING", "INFUSION", false)
 mods.thaumcraft.Research.addPrereq("SIGILOFAUGMENTETHOLDING", "SIGILOFHOLDING", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFAUGMENTETHOLDING", true);
 mods.thaumcraft.Research.addPage("SIGILOFAUGMENTETHOLDING", "tc.research_page.SIGILOFAUGMENTETHOLDING");
-game.setLocalization("tc.research_page.SIGILOFAUGMENTETHOLDING", "The Sigil of Augmented Holding is an upgraded variant of the Sigil of Holding and holds 9 sigils in total! When used, the Sigil of Augmented Holding will consume a single sigil per sneak-right click, starting at the left of the hotbar, and ending at the right of the hotbar. Sneak-right clicking will filter between the stored sigils, while right clicking will activate the displayed sigil. To separate the stored sigils from the Sigil of Holding, a Ritual of Unbinding must be used.");
+game.setLocalization("tc.research_page.SIGILOFAUGMENTETHOLDING", "The attempts at improving the Sigil of Holding have been successful, but with some unavoidable caveats. The Sigil of Augmented Holding, as you've named it, is an upgraded variant that holds 9 sigils in total, instead of 5.<BR><BR>When used, the Sigil of Augmented Holding will consume a single Sigil per sneak-right click, starting at the left of the hotbar, and ending at the right of the hotbar. Sneak-right clicking will filter between the stored Sigils, while right clicking will activate the displayed Sigil. To separate the stored sigils from the Sigil of Holding, a Ritual of Unbinding must be used.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFAUGMENTETHOLDING", <AWWayofTime:sigilOfHolding>, 
 [<IronChest:BlockIronChest:2>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <gregtech:gt.metaitem.01:17977>, <minecraft:blaze_rod>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:demonicSlate>, <minecraft:blaze_rod>, <gregtech:gt.metaitem.01:17977>, <minecraft:ghast_tear>, <AWWayofTime:demonicSlate>], 
 "vacuos 48, lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <BloodArsenal:sigil_of_augmented_holding>, 15);
@@ -684,7 +711,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFPHANTOMBRIDGE", true);
 mods.thaumcraft.Research.addPage("SIGILOFPHANTOMBRIDGE", "tc.research_page.SIGILOFPHANTOMBRIDGE");
-game.setLocalization("tc.research_page.SIGILOFPHANTOMBRIDGE", "The Sigil of the Phantom Bridge is an item added by the Blood Magic mod. When active, this Sigil creates a 5x5 platform of Spectral Block centered at the Player. Spectral Blocks outside of the platform will vanish after 5 seconds. These blocks can be broken instantly with a hit and 'Right-clicking' on one with another block will replace the Spectral Block. This can be used to build in mid-air. Crouching will create a layer below you. Activating this Sigil costs 150 LP every 10 seconds while active, plus 1 LP per block created, until deactivated.");
+game.setLocalization("tc.research_page.SIGILOFPHANTOMBRIDGE", "You have set your eyes on the skies above, but you cannot move very well above ground. What if, you thought, you brought the ground up to you?<BR><BR>The Sigil of the Phantom Bridge, when active, creates a 5x5 platform of Spectral Blocks centered around you. These blocks can be broken instantly with a hit and right-clicking on one with another block will replace the Spectral Block. Crouching will create a layer below you, allowing for greater aerial mobility. Activating this Sigil costs 150 LP every 10 seconds while active, plus 1 LP per block created, until deactivated.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFPHANTOMBRIDGE", <AWWayofTime:imbuedSlate>, 
 [<AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>], 
 "terra 48, alienis 32, iter 24, vitreus 16, potentia 8, praecantatio 8", <AWWayofTime:sigilOfTheBridge>, 9);
@@ -699,7 +726,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFMAGNETISM", true);
 mods.thaumcraft.Research.addPage("SIGILOFMAGNETISM", "tc.research_page.SIGILOFMAGNETISM");
-game.setLocalization("tc.research_page.SIGILOFMAGNETISM", "The Sigil of Magnetism is a tool added by Blood Magic. The Sigil of Magnetism acts as an item magnet with a radius of five blocks at the cost of Life Essence (LP). Upon activating the Sigil of Magnetism, 75 LP will be consumed from the owner's network to act as an item magnet for the user. Every ten seconds after activation, an additional 75 LP will be consumed to continue acting as an item magnet. This effect has a radius of five blocks, centered on the player.");
+game.setLocalization("tc.research_page.SIGILOFMAGNETISM", "As you empower yourself with this new magic, you begin to move small objects to your will. Reaching towards them, you can draw them towards you, a magical magnet that you were quickly able to implant into a Sigil, creating the Sigil of Magnetism.<BR><BR>This acts as an item magnet, with a radius of five blocks, at the cost of Life Essence (LP). Upon activating the Sigil, 75 LP will be consumed from your network to act as an item magnet. Every ten seconds after activation, an additional 75 LP will be consumed to continue working.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFMAGNETISM", <AWWayofTime:imbuedSlate>, 
 [<gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>], 
 "potentia 32, magneto 24, electrum 24, auram 16, cognitio 12, praecantatio 6", <AWWayofTime:sigilOfMagnetism>, 9);
@@ -714,7 +741,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFTHEBLOODLAMP", true);
 mods.thaumcraft.Research.addPage("SIGILOFTHEBLOODLAMP", "tc.research_page.SIGILOFTHEBLOODLAMP");
-game.setLocalization("tc.research_page.SIGILOFTHEBLOODLAMP", "The Sigil of the Blood Lamp is a tool added by Blood Magic. The sigil allows the user to create a Blood Light anywhere by right-clicking a block. The Blood Light emits light and is often used to light player's bases. It can also function as a ranged weapon. While holding the Sigil of the Blood Lamp, right clicking on a block will consume 30 LP to place a Blood Light at that location. Right clicking the sigil while not facing a block will shoot a small projectile from the sigil, dealing half a heart of damage on impact.");
+game.setLocalization("tc.research_page.SIGILOFTHEBLOODLAMP", "All of this is riddled with energy, yet there is no visible light coming from anywhere. The behavior of Life Essence is unlike that of a Vis Node, and it seems to reject acting as a source of light until enough blood is provided at once.<BR><BR>The Sigil of the Blood Lamp allows you to create a Blood Light anywhere by right-clicking a block, at a 10 LP cost. The Blood Light emits light and serves as an improved light source with less visual clutter. Right clicking the Sigil while not facing a block will shoot a small projectile, dealing half a heart of damage on impact, costing 50 LP.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFTHEBLOODLAMP", <AWWayofTime:imbuedSlate>, 
 [<ThaumicTinkerer:brightNitor>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <ThaumicTinkerer:brightNitor>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>], 
 "lux 48, ignis 32, aer 32, potentia 24, sensus 16, praecantatio 8", <AWWayofTime:itemBloodLightSigil>, 4);
@@ -729,7 +756,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSIGHT", true);
 mods.thaumcraft.Research.addPage("SIGILOFSIGHT", "tc.research_page.SIGILOFSIGHT");
-game.setLocalization("tc.research_page.SIGILOFSIGHT", "The Sigil of Sight is an item from Blood Magic. When used on a Blood Altar it shows the item progress, consumption rate, current essence, and input and output tanks. Using this Sigil costs 0 LP per use.When socketed into Bound Armor, the Sigil of Sight has no effect.");
+game.setLocalization("tc.research_page.SIGILOFSIGHT", "You find yourself seeing things more clearly as your Altar structure becomes more composed. The Sigil you used before to look into the Altar's secrets can tell you more if it is treated with a good enough orb, and the result is the Sigil of Sight.<BR><BR>When used on a Blood Altar, it shows the item progress, consumption rate, current essence and input/output tanks, at no LP cost per usage. With this, you can better assess the performance of your Altar, and track it as it is upgraded.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSIGHT", <AWWayofTime:divinationSigil>, 
 [<Thaumcraft:ItemZombieBrain>, <TConstruct:GlassPane>, <AWWayofTime:crystallos>, <TConstruct:GlassPane>, <Thaumcraft:ItemZombieBrain>, <TConstruct:GlassPane>, <AWWayofTime:crystallos>, <TConstruct:GlassPane>], 
 "ordo 24, sensus 18, cognitio 12, vitreus 6, praecantatio 4", <AWWayofTime:seerSigil>, 3);
@@ -773,8 +800,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFTHEORB", true);
 mods.thaumcraft.Research.addPage("RUNEOFTHEORB", "tc.research_page.RUNEOFTHEORB");
-game.setLocalization("tc.research_page.RUNEOFTHEORB", "The Rune of the Orb is an upgrade component for the Blood Altar.
-Each Rune of the Orb increases the amount of LP that can be transferred into a Soul Network by 2% of its original value. For the Weak Blood Orb this is 100 LP per rune, but for the Archmage's Blood Orb it is 200,000 LP.");
+game.setLocalization("tc.research_page.RUNEOFTHEORB", "In your attempts to increase the maximum storage of a Soul Network, you perceived a way to do it without having to get a better Blood Orb, by enhancing the Altar with a specific Rune dedicated to the job, the Rune of the Orb.<BR><BR>Each one increases the amount of LP that can be transferred into a Soul Network by 4% of its original value. For the Weak Blood Orb, this is 100 LP per rune, but for the Archmage's Blood Orb it becomes 200,000 LP.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFTHEORB", <BloodArsenal:blood_stone:3>, 
 [<AWWayofTime:demonicSlate>, <BloodArsenal:blood_stone:3>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:3>], 
 "potentia 32, victus 24, motus 16, lucrum 8, praecantatio 4", <AWWayofTime:AlchemicalWizardrybloodRune:3>, 6);
@@ -788,10 +814,9 @@ mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "RUNEOFARGUMENTEDCAPACITY", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFSUPERIORCAPACITY", true);
 mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "tc.research_page.RUNEOFSUPERIORCAPACITY.1");
-game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.1", "The Rune of Superior Capacity is an upgrade component for the Blood Altar. Each one increases the capacity of the altar by 10% LP. These are multiplicative: two is 21%, three is 33% and so on. With fewer than 15 runes dedicated to capacity, it is more efficient to use Runes of Augmented Capacity. The effects of having both runes of augmented capacity and runes of superior capacity stack, but runes of superior capacity do NOT multiply the 2,000 added by each rune of augmented capacity, only the original 10,000.");
+game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.1", "In another one of your deep exploits, you have resurfaced with a variation on a useful rune you already had. The Rune of Superior Capacity increases the capacity of the altar by 14% LP, unlike its sibling that increases it by a flat amount. These are multiplicative: two is 29%, three is 48% and so on. With fewer than 15 runes dedicated to capacity, it is more efficient to use Runes of Augmented Capacity.<BR><BR>The effects of having both runes of augmented capacity and runes of superior capacity stack, but runes of superior capacity do NOT multiply the 2,000 added by each rune of augmented capacity, only the original 10,000.");
 mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "tc.research_page.RUNEOFSUPERIORCAPACITY.2");
-game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.2", "The capacity of your altar can be calculated with the formula: (2000*A) + (10000)*(1.1)^S
-Where A is equal to the number of Runes of Augmented Capacity and S is equal to the number of Runes of Superior Capacity are in place.");
+game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.2", "The capacity of your altar can be calculated with the formula: (3500*A) + (10000)*(1.14)^S, where A is equal to the number of Runes of Augmented Capacity and S is equal to the number of Runes of Superior Capacity are in place.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFSUPERIORCAPACITY", <BloodArsenal:blood_stone:3>, 
 [<irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>, <irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>], 
 "potentia 48, aqua 32, cognitio 24, lucrum 16, praecantatio 8, alienis 4, ", <AWWayofTime:AlchemicalWizardrybloodRune:4>, 8);
@@ -806,7 +831,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFARGUMENTEDCAPACI
 mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFDISLOCATION", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFACCELERATION", true);
 mods.thaumcraft.Research.addPage("RUNEOFACCELERATION", "tc.research_page.RUNEOFACCELERATION");
-game.setLocalization("tc.research_page.RUNEOFACCELERATION", "Rune of Dislocation increases the amount of fluid that is moved from one tank to the other each action. Rune of Acceleration increases the frequency of those actions.");
+game.setLocalization("tc.research_page.RUNEOFACCELERATION", "The specialization of each Rune gave you an idea. Instead of increasing the amount of fluid that is transported, you can increase the speed at which a new transportation happens.<BR><BR>To accomplish this, you created the Rune of Acceleration, which increases the frequency of the Altar fluid transportations.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_stone:4>, 
 [<AWWayofTime:AlchemicalWizardrybloodRune:2>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>, <AWWayofTime:speedRune>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>], 
 "potentia 64, aqua 48, motus 32, cognitio 24, tempus 16, praecantatio 8, terra 4", <AWWayofTime:AlchemicalWizardrybloodRune:5>, 10);
@@ -923,7 +948,7 @@ mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "RUNEOFACCELERATION", false);
 mods.thaumcraft.Research.setConcealed("CRYSTALCLUSTER", true);
 mods.thaumcraft.Research.addPage("CRYSTALCLUSTER", "tc.research_page.CRYSTALCLUSTER");
-game.setLocalization("tc.research_page.CRYSTALCLUSTER", "Crystal Cluster is an item required to complete the tier 6 blood altar. Moade ou of 5 Soul and 5 Life Shards");
+game.setLocalization("tc.research_page.CRYSTALCLUSTER", "You have spent long hours searching for a block that can maintain the connection within the full structure of a Tier 6 Altar. As you soon came to realize, such a block doesn't exist, the reason why no other Blood Mage ever made a concept of an Altar of this size.<BR><BR>However, the true realization that you achieved was that this material doesn't exist here, where you are located. For a mage of your caliber, the sight forward needs to look beyond this one realm, into the powerful beings of other dimensions, and their belongings... something much grander can come from this.");
 mods.thaumcraft.Infusion.addRecipe("CRYSTALCLUSTER", <BloodArsenal:blood_stone:4>, 
 [<AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>], 
 "potentia 72, victus 64, spiritus 64, praecantatio 32, tenebrae 32, alienis 16, cognitio 16", <AWWayofTime:blockCrystal>, 15);
@@ -937,9 +962,11 @@ game.setLocalization("tc.research_text.ICHORIUMBLOCK", "[BM] The final Tier");
 mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "CRYSTALCLUSTER", false);
 mods.thaumcraft.Research.setConcealed("ICHORIUMBLOCK", true);
-mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "tc.research_page.ICHORIUMBLOCK");
-game.setLocalization("tc.research_page.ICHORIUMBLOCK", "The sixth and final tier of your Blood Magic altar will require 76 additional Blood Runes, and 4 seven block pillars made of Blood-Soaked Ichorium Blocks capped with Crystal Clusters. The Tier 6 Altar allows you to unlock the full potential of your Blood Magic endeavors by way of unlocking even more and more powerful transfusion recipes. Like previous tier, the sixth ring of runes requires a two-block gap outward from the previous ring. The Ichorium Blocks need to be placed in a Tier 5 Altar to soak up the Blood and be Transformed in a Blood Soaked Ichorium Block");
-mods.thaumcraft.Infusion.addRecipe("ICHORIUMBLOCK", <dreamcraft:tile.Mytryl>, 
+mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "tc.research_page.ICHORIUMBLOCK.1");
+mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "tc.research_page.ICHORIUMBLOCK.2");
+game.setLocalization("tc.research_page.ICHORIUMBLOCK.1", "The reflection you see in the face of this orange-golden block is nothing but exhilaration. You thought it impossible, to flow Blood Magic through this magical miracle material, seeing it reject any and all attempts of mixing with the essence.<BR><BR>Holding it in your grasp, you feel it pulsing with an intensity beyond anything you have felt since you became a Blood Mage. This, this is the foundation of the power every mage has been seeking, all this time! You can only imagine what it can do your Altar.");
+game.setLocalization("tc.research_page.ICHORIUMBLOCK.2", "The sixth and final tier of your Blood Magic altar will require 76 additional Blood Runes, and 4 seven block pillars made of Blood-Soaked Ichorium Blocks capped with Crystal Clusters. The Tier 6 Altar allows you to unlock the full potential of your Blood Magic endeavors by way of unlocking even more and more powerful transfusion recipes.<BR><BR>Like the previous tier, the sixth ring of runes requires a two-block gap outward from the previous ring. The Ichorium Blocks need to be placed in a Tier 5 Altar to soak up the Blood and turn into this new block.");
+mods.thaumcraft.Infusion.addRecipe("ICHORIUMBLOCK", <dreamcraft:tile.Mytryl>,
 [<gregtech:gt.metaitem.01:11978>, <AWWayofTime:bloodMagicBaseItems:28>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:standardBindingAgent>, <gregtech:gt.metaitem.01:11978>, <AWWayofTime:bloodMagicBaseItems:29>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>], 
 "victus 64, fames 48, praecantatio 32, infernus 24, alienis 16, superbia 16, terra 8", <gregtech:gt.blockmetal8:13>, 12);
 mods.thaumcraft.Research.addInfusionPage("ICHORIUMBLOCK", <gregtech:gt.blockmetal8:13>);
@@ -1017,7 +1044,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHASTE", true);
 mods.thaumcraft.Research.addPage("SIGILOFHASTE", "tc.research_page.SIGILOFHASTE");
-game.setLocalization("tc.research_page.SIGILOFHASTE", "The Sigil of Haste is a tool added by Blood Magic. The Sigil of Haste grants the user Boost II at the cost of Life Essence (LP). Upon activating the Sigil of Haste, 300 LP will be consumed from the owner's network to grant the user Boost II. Every ten seconds after activation, an additional 300 LP will be consumed to continue granting the user Boost II. When socketed into Bound Armor, the Sigil of Haste grants Boost.");
+game.setLocalization("tc.research_page.SIGILOFHASTE", "You have sought to move as quickly as the essence in your Altar, but you have achieved no improvements to your speed. Rushing the blood in your veins would kill you within seconds, your distant rational mind tells you, but reinserting it inside you with Blood Magic is a different story.<BR><BR>The Sigil of Haste grants you Boost II at the cost of Life Essence (LP). Upon activating the Sigil of Haste, and every 10 seconds, 300 LP will be consumed from the owner's network to grant the user Boost II When socketed into Bound Armor, the Sigil of Haste grants Boost.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHASTE", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:cookie>, <AWWayofTime:aether>, <AWWayofTime:aether>, <minecraft:sugar>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:sugar>, <AWWayofTime:aether>, <AWWayofTime:aether>, <minecraft:cookie>], 
 "iter 64, motus 32, aer 24, potentia 24, praecantatio 16, alienis 8, cognitio 8", <AWWayofTime:sigilOfHaste>, 8);
@@ -1032,7 +1059,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFWHIRLWIND", true);
 mods.thaumcraft.Research.addPage("SIGILOFWHIRLWIND", "tc.research_page.SIGILOFWHIRLWIND");
-game.setLocalization("tc.research_page.SIGILOFWHIRLWIND", "The Sigil of the Whirlwind is an item added by the Blood Magic mod. When active, it deflects projectiles and arrows fired at the Player. Activating this Sigil costs 350 LP per use. When socketed into Bound Armor, the Sigil of the Whirlwind deflects projectiles and arrows fired at the Player.");
+game.setLocalization("tc.research_page.SIGILOFWHIRLWIND", "With a flicker of the hand, far away objects will come to you, but with another they will be thrown away. You have since mastered these two gestures, and imbued them into Sigils to automatically cause the effects.<BR><BR>The Sigil of the Whirlwind, when active, deflects projectiles and arrows fired at you. Activating this Sigil costs 350 LP per use. When socketed into Bound Armor, the Sigil of the Whirlwind has the same deflection effect.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFWHIRLWIND", <AWWayofTime:airSigil>, 
 [<TwilightForest:item.tfFeather>, <AWWayofTime:aether>, <EMT:EMTItems:7>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <TwilightForest:item.tfFeather>, <AWWayofTime:aether>, <EMT:EMTItems:7>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:aether>], 
 "aer 72, tutamen 48, potentia 32, victus 32, sano 16, cognitio 16, superbia 8, nebrisum 8", <AWWayofTime:sigilOfWind>, 12);
@@ -1047,7 +1074,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSUPRESSION", true);
 mods.thaumcraft.Research.addPage("SIGILOFSUPRESSION", "tc.research_page.SIGILOFSUPRESSION");
-game.setLocalization("tc.research_page.SIGILOFSUPRESSION", "The Sigil of Supression is an item added by the Blood Magic mod. When activated, the Sigil temporarily removes any fluid source within a 5 block radius. Once it is disabled, or the Player moves out of range, the sources will return. It works on any fluid that uses the Forge fluid API, such as Water, Lava or Oil. Activating this Sigil costs 500 LP every 10 seconds until deactivated. When socketed into Bound Armor, the Sigil of Supression temporarily removes any fluid source within a 5 block radius of the Player.");
+game.setLocalization("tc.research_page.SIGILOFSUPRESSION", "It's impressive, what a Blood Mage with a blank mind can come up with. You have seen the possibility to create fluids, and to delete fluids, but never to do both at the same time. What could stop a sufficienly resourceful mage from accomplishing this?<BR><BR>The Sigil of Supression, a rather fun experiment, temporarily removes any fluid source within a 5 block radius. Once it is disabled, or you move out of range, the sources will return. Activating this Sigil costs 500 LP every 10 seconds until deactivated. When socketed into Bound Armor, it has the same effect.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSUPRESSION", <AWWayofTime:voidSigil>, 
 [<AWWayofTime:blockTeleposer>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <AWWayofTime:demonicSlate>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:demonicSlate>, <AWWayofTime:tennebrae>, <minecraft:bucket>], 
 "vacuos 72, auram 16, aqua 64, metallum 8, praecantatio 32, terra 32, motus 16", <AWWayofTime:sigilOfSupression>, 15);
@@ -1063,7 +1090,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "SIGILOFELEMENTALAFF
 mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "OCULUS", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFENDERSEVERANCE", true);
 mods.thaumcraft.Research.addPage("SIGILOFENDERSEVERANCE", "tc.research_page.SIGILOFENDERSEVERANCE");
-game.setLocalization("tc.research_page.SIGILOFENDERSEVERANCE", "The Sigil of Ender Severance is an item added by the Blood Magic mod. This Sigil prevents teleporting. It has an effect range over an area of 11 x 11 x 11 meter, centered on the Player. This allows a Player to easily attack the Enderman, with a range weapon, without him jumping all over and sneaking up from behind. This sigil costs 300 LP per 10 seconds while active.");
+game.setLocalization("tc.research_page.SIGILOFENDERSEVERANCE", "You have tapped enough into the magic of teleportation to learn how to disable it, and you came up with the equivalent Sigil in an instant.<BR><BR>The Sigil of Ender Severance, named after the black terrors who do it so often, prevents teleporting, meaning that those monsters cannot dodge ranged attacks anymore. It has an effect range over an area of 11 x 11 x 11 blocks, centered on you.  This sigil costs 300 LP per 10 seconds while active.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFENDERSEVERANCE", <AWWayofTime:bloodMagicBaseItems:27>, 
 [<Thaumcraft:ItemEldritchObject>, <AWWayofTime:demonicSlate>, <StevesCarts:ModuleComponents:45>, <TConstruct:slime.gel:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <gregtech:gt.metaitem.01:32724>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <TConstruct:slime.gel:2>, <StevesCarts:ModuleComponents:45>, <AWWayofTime:demonicSlate>], 
 "alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <AWWayofTime:sigilOfEnderSeverance>, 17);
@@ -1078,7 +1105,7 @@ mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("ENDERSIGIL", true);
 mods.thaumcraft.Research.addPage("ENDERSIGIL", "tc.research_page.ENDERSIGIL");
-game.setLocalization("tc.research_page.ENDERSIGIL", "The Ender Sigil have two functions when this sigil is right-clicked, it opens up the player's Ender Chest; when it is shift-right-clicked, it teleports the player to whatever block they are facing.");
+game.setLocalization("tc.research_page.ENDERSIGIL", "Tapping into the energy of Ender Pearls, you have come out with a bundle deal of useful effects on the resulting Sigil.<BR><BR>The Ender Sigil has two functions: when it is right-clicked, it opens up the player's Ender Chest; when it is shift-right-clicked, it teleports the player to whatever block they are facing.");
 mods.thaumcraft.Infusion.addRecipe("ENDERSIGIL", <AWWayofTime:sigilOfEnderSeverance>, 
 [<EnderStorage:enderChest>, <gregtech:gt.metaitem.01:32726>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32724>, <minecraft:ender_eye>, <minecraft:ender_eye>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32726>], 
 "vacuos 16, alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <BloodArsenal:sigil_of_ender>, 20);
@@ -1093,7 +1120,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFDIVINITY", true);
 mods.thaumcraft.Research.addPage("SIGILOFDIVINITY", "tc.research_page.SIGILOFDIVINITY");
-game.setLocalization("tc.research_page.SIGILOFDIVINITY", "The Sigil of Divinity is the ultimate form of protection, when activated, it puts up an absorption shield over the player. Even though this may protect against demons, it uses lots (don't say I didn't warn you) of LP!");
+game.setLocalization("tc.research_page.SIGILOFDIVINITY", "The unfathomable power of a perfected Blood Mage leaves only one weakness, their fragility. One who has sacrificed so much to attain that power cannot be allowed to perish so easily, you repeat to yourself as you envision the level that you have already reached. You have decided to create this protection out of sheer magical strength, working out a Sigil that devours essence to immortalize you.<BR><BR>The Sigil of Divinity is the ultimate form of protection. When activated, it puts up an absorption shield around you, at a very high cost of 50,000 LP every 20 seconds.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFDIVINITY", <AWWayofTime:sigilOfElementalAffinity>, 
 [<BloodArsenal:blood_stone:4>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_diamond_block>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_glowstone>, <BloodArsenal:amorphic_catalyst>, <gregtech:gt.metaitem.01:32726>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_diamond_block>, <BloodArsenal:amorphic_catalyst>], 
 "tutamen 64, aer 72, ignis 64, aqua 48, terra 32, ordo 32, perditio 16, sano 8", <BloodArsenal:sigil_of_divinity>, 25);
@@ -1108,7 +1135,7 @@ mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("HARVESTGODDESSSIGIL", true);
 mods.thaumcraft.Research.addPage("HARVESTGODDESSSIGIL", "tc.research_page.HARVESTGODDESSSIGIL");
-game.setLocalization("tc.research_page.HARVESTGODDESSSIGIL", "The Harvest Goddess Sigil is an item from Blood Magic. It is used to harvest and immediately replant mature crops within a 3-block radius of the holder. The Harvest Goddess Sigil does not pick up dropped plants or seeds. The effect of this sigil is very similar to ritual Reap of the Harvest Moon, trading off area of effect and automation for portability. Activating this Sigil costs 600 LP every 10 seconds while active. When used as an upgrade to a Bound Armor, the Harvest Goddess Sigil Harvests and replants nearby crops.");
+game.setLocalization("tc.research_page.HARVESTGODDESSSIGIL", "You have found yourself growing more and more bored of the mundane tasks you were otherwise used to. The last time you went to harvest your crops, the action took a couple of hours, but you came out with a new Sigil that outperforms your manual labor.<BR><BR>The Harvest Goddess Sigil immediately replants mature crops within a 3-block radius of the holder. The Harvest Goddess Sigil does not pick up dropped plants or seeds. Activating this Sigil costs 600 LP every 10 seconds while active. When used as an upgrade to a Bound Armor, this Sigil has the same effect.");
 mods.thaumcraft.Infusion.addRecipe("HARVESTGODDESSSIGIL", <AWWayofTime:growthSigil>, 
 [<BloodArsenal:bound_sickle>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>], 
 "herba 72, arbor 64, meto 8, messis 16, cognitio 24, praecantatio 32, alienis 16", <AWWayofTime:itemHarvestSigil>, 20);
@@ -1123,7 +1150,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFCOMPRESSION", true);
 mods.thaumcraft.Research.addPage("SIGILOFCOMPRESSION", "tc.research_page.SIGILOFCOMPRESSION");
-game.setLocalization("tc.research_page.SIGILOFCOMPRESSION", "The Sigil of Compression is an item added by the Blood Magic mod. This Sigil compresses any item picked-up into its block form if possible. Sadly this does not work for Gregtech ingots. Activating this Sigil costs 250 LP every 10 seconds while active.");
+game.setLocalization("tc.research_page.SIGILOFCOMPRESSION", "There are many more mundane tasks you can simplify with Blood Magic. One of them is the compression of certain materials into blocks, which you managed to do with the Sigil of Compression.<BR><BR>This Sigil compresses any item picked-up into its block form, if possible, although this does not work for GregTech ingots or most modded materials. Activating this Sigil costs 250 LP every 10 seconds to continue working.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFCOMPRESSION", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32644>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32604>, <AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32604>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32644>], 
 "metallum 32, potentia 24, machina 16, lucrum 16, superbia 8", <AWWayofTime:itemCompressionSigil>, 10);
