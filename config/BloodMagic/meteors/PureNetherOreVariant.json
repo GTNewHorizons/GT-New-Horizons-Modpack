@@ -1,9 +1,11 @@
 {
   "ores": [
+	"oreNetherrackNetherQuartz",
+    "150",
 	"oreNetherrackSulfur",
-    "150",
+    "100",
 	"oreNetherrackSphalerite",
-    "150",
+    "100",
 	"oreNetherrackThorium",
     "100",
 	"oreNetherrackEmerald",
@@ -46,7 +48,7 @@
     "20"
   ],
   "radius": 18,
-  "cost": 750000,
+  "cost": 1200000,
   "focusModId": "gregtech",
   "focusName": "gt.blockmachines",
   "focusMeta": 482
