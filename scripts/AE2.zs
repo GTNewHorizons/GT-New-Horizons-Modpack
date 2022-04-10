@@ -1428,7 +1428,7 @@ Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.integrated_ci
 Assembler.addRecipe(UDenseCoveredC, UDenseSmartCable, <gregtech:gt.integrated_circuit:24> * 0, <liquid:molten.styrenebutadienerubber> * 432, 250, 1920);
 
 // --- ME Smart Cable Fluix
-Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56> * 4, <appliedenergistics2:item.ItemMultiPart:16>, <ore:circuitGood>, <liquid:molten.conductiveiron> * 144, 100, 120);
+Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56> * 4, <appliedenergistics2:item.ItemMultiPart:16> * 4, <ore:circuitGood>, <liquid:molten.conductiveiron> * 144, 100, 120);
 
 // --- ME Dense Cable Fluix
 Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:76> * 4, <appliedenergistics2:item.ItemMultiPart:56> * 16, <ore:circuitAdvanced>, <liquid:molten.energeticalloy> * 144, 100, 480);
